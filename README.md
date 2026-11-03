@@ -9,10 +9,10 @@ Offline study app for the five-unit Animal Biotechnology syllabus.
 Package: `com.gasczoology.animalbiotech` · minSdk 26 · targetSdk 35 · Kotlin + Jetpack Compose.
 
 ## What is inside
-- Native syllabus screen (29 topics, Units I-V) with search, "studied" ticks, progress ring and starred topics.
+- Native syllabus screen (34 topics, Units I-V, including five Diagram Atlases) with search, "studied" ticks, progress ring and starred topics.
 - Native quiz screen: 230 MCQs (23 modules x 10) with instant feedback, explanations, final score, best-score memory,
   plus random mixed quizzes (whole syllabus / per unit).
-- 24 interactive chapters (diagrams, flow charts, short-answer revision, glossary) bundled in `app/src/main/assets/modules/`
+- 29 interactive chapters (incl. 5 Diagram Atlases with 73 diagrams and flow charts) (diagrams, flow charts, short-answer revision, glossary) bundled in `app/src/main/assets/modules/`
   and shown in a locked-down WebView (no network permission; navigation limited to bundled files).
 - Footer credit: Department of Zoology, GASC, Nagercoil / Created by R. Ramesh.
 

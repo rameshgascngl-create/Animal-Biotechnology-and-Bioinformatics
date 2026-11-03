@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<!-- Diagram Atlas III: Transgenic Animals and Medical Biotechnology | Animal Biotechnology | Department of Zoology, GASC, Nagercoil | Created by R. Ramesh | single file, offline -->
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Atlas III: Transgenic &amp; Medical | Animal Biotechnology</title><style>
+/* ==========================================================================
+   DESIGN TOKENS — Academic Teal/Navy palette
+   ========================================================================== */
+:root {
+  /* Backgrounds */
+  --bg:        #f0f4f8;
+  --bg2:       #e6eef5;
+  --surface:   #ffffff;
+  --card:      #ffffff;
+  --sidebar:   #0f2744;
+
+  /* Brand colours */
+  --navy:      #0f2744;
+  --navy2:     #1a3a5c;
+  --teal:      #0d8a7a;
+  --teal-l:    #12a899;
+  --teal-pale: #e0f5f3;
+  --sky:       #1a7bbf;
+  --sky-pale:  #e3f0fa;
+  --amber:     #b06a00;
+  --amber-pale:#fff3e0;
+  --rose:      #b32d2d;
+  --rose-pale: #fdecea;
+  --violet:    #5a3e9e;
+  --violet-pale:#f0ebff;
+  --lime:      #3a7d1e;
+  --lime-pale: #eaf5e4;
+
+  /* Text */
+  --text:      #1a2836;
+  --text2:     #3d5266;
+  --text3:     #6b8299;
+  --border:    #ccd9e6;
+  --border2:   #b0c4d8;
+
+  /* Typography */
+  --font-head: Georgia,'Times New Roman',serif;
+  --font-body: 'Palatino Linotype','Palatino','Book Antiqua',Georgia,serif;
+  --font-ui:   'Helvetica Neue',Helvetica,Arial,sans-serif;
+  --font-mono: 'Courier New',Courier,monospace;
+
+  --r:  10px;
+  --r2: 16px;
+  --shadow: 0 2px 12px rgba(15,39,68,.10);
+  --shadow2: 0 4px 20px rgba(15,39,68,.14);
+}
+
+
+/* ==========================================================================
+   GLOBAL RESET & BASE
+   ========================================================================== */
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.75;
+  min-height: 100vh;
+}
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--teal); }
+::selection { background: rgba(13,138,122,.2); color: var(--text); }
+
+/* ==========================================================================
+   LAYOUT — Sidebar + Main
+   ========================================================================== */
+#app { display: flex; min-height: 100vh; }
+
+/* ── Sidebar ── */
+#sidebar {
+  width: 265px; min-width: 265px;
+  background: var(--sidebar);
+  display: flex; flex-direction: column;
+  position: sticky; top: 0; height: 100vh;
+  overflow-y: auto; z-index: 300;
+  transition: transform .3s cubic-bezier(.4,0,.2,1);
+  box-shadow: 2px 0 16px rgba(0,0,0,.18);
+}
+
+/* Sidebar brand */
+.sb-brand {
+  padding: 22px 20px 16px;
+  border-bottom: 1px solid rgba(255,255,255,.08);
+  background: rgba(0,0,0,.15);
+}
+.sb-brand-row { display:flex; align-items:center; gap:12px; margin-bottom:10px; }
+.sb-icon {
+  width: 42px; height: 42px; flex-shrink: 0;
+  background: linear-gradient(135deg, var(--teal), var(--sky));
+  border-radius: 11px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 20px;
+  box-shadow: 0 3px 12px rgba(13,138,122,.4);
+}
+.sb-brand-text h2 {
+  font-family: var(--font-ui); font-size: .68rem;
+  color: var(--teal-l); text-transform: uppercase;
+  letter-spacing: .12em; font-weight: 700;
+}
+.sb-brand-text p { font-family: var(--font-ui); font-size: .64rem; color: rgba(255,255,255,.4); margin-top: 2px; }
+
+/* Progress */
+.sb-prog { padding: 12px 20px; border-bottom: 1px solid rgba(255,255,255,.06); }
+.sb-prog-row {
+  display: flex; justify-content: space-between;
+  font-family: var(--font-ui); font-size: .67rem; color: rgba(255,255,255,.4);
+  margin-bottom: 6px;
+}
+.sb-prog-row span { color: var(--amber); font-weight: 700; }
+.prog-bar { height: 4px; background: rgba(255,255,255,.1); border-radius: 2px; overflow: hidden; }
+.prog-fill {
+  height: 100%; width: 0%;
+  background: linear-gradient(90deg, var(--teal), var(--sky));
+  border-radius: 2px; transition: width .5s ease;
+}
+
+/* Nav */
+.nav-list { flex: 1; padding: 8px 0; overflow-y: auto; }
+.nav-group {
+  font-family: var(--font-ui); font-size: .6rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .15em;
+  color: rgba(255,255,255,.3); padding: 12px 20px 4px;
+}
+.nav-item {
+  display: flex; align-items: center; gap: 10px;
+  padding: 9px 20px; cursor: pointer;
+  border-left: 3px solid transparent;
+  transition: all .2s;
+  font-family: var(--font-ui); font-size: .8rem;
+  color: rgba(255,255,255,.5);
+  user-select: none;
+}
+.nav-item:hover { background: rgba(255,255,255,.05); color: rgba(255,255,255,.85); }
+.nav-item.active { background: rgba(13,138,122,.18); border-left-color: var(--teal-l); color: var(--teal-l); }
+.nav-item.visited { color: rgba(255,255,255,.65); }
+.nav-num {
+  width: 22px; height: 22px; flex-shrink: 0;
+  border-radius: 50%; background: rgba(255,255,255,.1);
+  display: flex; align-items: center; justify-content: center;
+  font-size: .62rem; font-weight: 700; font-family: var(--font-ui);
+  transition: all .2s; color: rgba(255,255,255,.5);
+}
+.nav-item.active .nav-num { background: var(--teal); color: #fff; }
+.nav-item.visited .nav-num { background: rgba(13,138,122,.4); color: var(--teal-l); }
+
+/* Sidebar footer */
+.sb-foot {
+  padding: 12px 20px; border-top: 1px solid rgba(255,255,255,.06);
+  font-family: var(--font-ui); font-size: .61rem;
+  color: rgba(255,255,255,.25); line-height: 1.7; text-align: center;
+}
+
+/* ── Mobile header ── */
+#mob-hdr {
+  display: none; background: var(--sidebar);
+  padding: 12px 16px; position: sticky; top: 0; z-index: 200;
+  align-items: center; gap: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.2);
+}
+#hamburger {
+  background: none; border: 1px solid rgba(255,255,255,.2);
+  color: rgba(255,255,255,.8); width: 36px; height: 36px;
+  border-radius: 8px; cursor: pointer; font-size: 16px;
+  display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+}
+#mob-ttl { font-family: var(--font-ui); font-size: .82rem; color: var(--teal-l); font-weight: 700; }
+#overlay {
+  display: none; position: fixed; inset: 0;
+  background: rgba(0,0,0,.7); z-index: 250;
+}
+
+/* ── Main ── */
+#main { flex: 1; overflow-y: auto; min-width: 0; }
+
+/* ==========================================================================
+   PAGE SYSTEM
+   ========================================================================== */
+.page { display: none; padding: 40px 48px 80px; max-width: 940px; animation: fadeUp .35s ease; }
+.page.active { display: block; }
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Page navigation */
+.pg-nav {
+  display: flex; justify-content: space-between; align-items: center;
+  margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--border);
+  flex-wrap: wrap; gap: 12px;
+}
+.btn {
+  display: inline-flex; align-items: center; gap: 7px;
+  padding: 10px 22px; border-radius: var(--r);
+  font-family: var(--font-ui); font-size: .84rem; font-weight: 600;
+  cursor: pointer; border: none; transition: all .2s;
+}
+.btn-primary { background: var(--teal); color: #fff; }
+.btn-primary:hover { background: var(--teal-l); box-shadow: 0 4px 14px rgba(13,138,122,.35); }
+.btn-outline { background: transparent; color: var(--text2); border: 1.5px solid var(--border2); }
+.btn-outline:hover { border-color: var(--teal); color: var(--teal); }
+.btn:disabled { opacity: .35; cursor: not-allowed; pointer-events: none; }
+
+/* ==========================================================================
+   SECTION CHROME — tags, headings, leads
+   ========================================================================== */
+.sec-tag {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: var(--teal-pale); color: var(--teal);
+  border: 1px solid rgba(13,138,122,.25);
+  padding: 5px 13px; border-radius: 20px;
+  font-family: var(--font-ui); font-size: .68rem; font-weight: 700;
+  letter-spacing: .1em; text-transform: uppercase; margin-bottom: 13px;
+}
+.pg-title {
+  font-family: var(--font-head); font-size: 2rem; color: var(--navy);
+  line-height: 1.2; margin-bottom: 14px;
+}
+.pg-lead {
+  font-size: .97rem; color: var(--text2); line-height: 1.8;
+  max-width: 700px; margin-bottom: 28px;
+  padding: 14px 18px; border-radius: var(--r);
+  background: var(--teal-pale); border-left: 4px solid var(--teal);
+  font-style: italic;
+}
+.divider { height: 1px; background: var(--border); margin: 28px 0; }
+
+/* Sub-headings */
+.sh {
+  font-family: var(--font-head); font-size: 1.18rem; color: var(--navy);
+  margin: 30px 0 12px; display: flex; align-items: center; gap: 10px;
+}
+.sh::before { content:''; width:4px; height:20px; background:var(--teal); border-radius:2px; flex-shrink:0; }
+.sh2 { font-family: var(--font-ui); font-size: .94rem; font-weight: 700; color: var(--sky); margin: 20px 0 8px; }
+.sh3 { font-family: var(--font-ui); font-size: .84rem; font-weight: 700; color: var(--teal); margin: 14px 0 6px; text-transform: uppercase; letter-spacing: .06em; }
+
+/* ==========================================================================
+   TYPOGRAPHY — PROSE
+   ========================================================================== */
+.prose p { font-size: .95rem; line-height: 1.85; margin-bottom: 14px; color: var(--text); }
+.prose strong { color: var(--navy); font-weight: 700; }
+.prose em { color: var(--teal); font-style: italic; }
+.prose code {
+  font-family: var(--font-mono); background: var(--teal-pale);
+  color: var(--teal); padding: 1px 6px; border-radius: 4px; font-size: .87em;
+}
+
+/* ==========================================================================
+   HIGHLIGHT / INFO BOXES
+   ========================================================================== */
+.hbox {
+  border-radius: var(--r); padding: 16px 20px; margin: 16px 0;
+  border-left: 4px solid; font-size: .92rem;
+}
+.hbox-teal   { background: var(--teal-pale);   border-color: var(--teal);   }
+.hbox-sky    { background: var(--sky-pale);    border-color: var(--sky);    }
+.hbox-amber  { background: var(--amber-pale);  border-color: var(--amber);  }
+.hbox-rose   { background: var(--rose-pale);   border-color: var(--rose);   }
+.hbox-violet { background: var(--violet-pale); border-color: var(--violet); }
+.hbox-lime   { background: var(--lime-pale);   border-color: var(--lime);   }
+.hbox h4 { font-family: var(--font-ui); font-size: .84rem; font-weight: 700; margin-bottom: 8px; display:flex; align-items:center; gap:7px; }
+.hbox-teal   h4 { color: var(--teal);   }
+.hbox-sky    h4 { color: var(--sky);    }
+.hbox-amber  h4 { color: var(--amber);  }
+.hbox-rose   h4 { color: var(--rose);   }
+.hbox-violet h4 { color: var(--violet); }
+.hbox-lime   h4 { color: var(--lime);   }
+.hbox p, .hbox ul, .hbox ol { color: var(--text2); line-height: 1.75; font-size: .9rem; }
+.hbox ul, .hbox ol { padding-left: 18px; }
+.hbox li { margin-bottom: 4px; }
+
+/* Definition box */
+.def-box {
+  background: var(--navy); color: #fff;
+  border-radius: var(--r2); padding: 22px 26px; margin: 20px 0;
+  border-left: 5px solid var(--teal-l);
+}
+.def-box .def-label {
+  font-family: var(--font-ui); font-size: .68rem; font-weight: 700;
+  letter-spacing: .12em; text-transform: uppercase; color: var(--teal-l); margin-bottom: 10px;
+}
+.def-box .def-text {
+  font-family: var(--font-head); font-size: 1.05rem; line-height: 1.75;
+  color: rgba(255,255,255,.92); font-style: italic;
+}
+.def-box .def-src {
+  font-family: var(--font-ui); font-size: .75rem; color: rgba(255,255,255,.45); margin-top: 10px;
+}
+
+/* ==========================================================================
+   CARDS
+   ========================================================================== */
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(228px,1fr)); gap: 16px; margin: 18px 0; }
+.card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--r); padding: 20px;
+  box-shadow: var(--shadow);
+  transition: transform .2s, box-shadow .2s, border-color .2s;
+}
+.card:hover { transform: translateY(-3px); box-shadow: var(--shadow2); border-color: var(--teal); }
+.card-icon {
+  width: 44px; height: 44px; border-radius: 10px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.4rem; margin-bottom: 12px;
+}
+.ci-teal   { background: var(--teal-pale); }
+.ci-sky    { background: var(--sky-pale); }
+.ci-amber  { background: var(--amber-pale); }
+.ci-lime   { background: var(--lime-pale); }
+.ci-violet { background: var(--violet-pale); }
+.ci-rose   { background: var(--rose-pale); }
+.card h3 { font-family: var(--font-head); font-size: 1rem; color: var(--navy); margin-bottom: 8px; }
+.card p { font-size: .84rem; color: var(--text2); line-height: 1.65; }
+.card ul { font-size: .84rem; color: var(--text2); padding-left: 16px; line-height: 1.8; }
+.card ul li { margin-bottom: 3px; }
+.card-tag {
+  display: inline-block; font-family: var(--font-ui); font-size: .63rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .08em; padding: 3px 9px;
+  border-radius: 20px; margin-bottom: 10px;
+}
+.tag-teal   { background: var(--teal-pale); color: var(--teal); }
+.tag-sky    { background: var(--sky-pale);  color: var(--sky);  }
+.tag-amber  { background: var(--amber-pale);color: var(--amber);}
+.tag-lime   { background: var(--lime-pale); color: var(--lime); }
+.tag-violet { background: var(--violet-pale);color: var(--violet);}
+.tag-rose   { background: var(--rose-pale); color: var(--rose); }
+
+/* ==========================================================================
+   TABLE
+   ========================================================================== */
+.tbl-wrap { overflow-x: auto; margin: 18px 0; border-radius: var(--r); border: 1px solid var(--border); box-shadow: var(--shadow); }
+table { width: 100%; border-collapse: collapse; font-size: .88rem; }
+thead { background: var(--navy); }
+th { padding: 12px 16px; text-align: left; color: var(--teal-l); font-family: var(--font-ui); font-size: .74rem; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; white-space: nowrap; }
+td { padding: 10px 16px; color: var(--text2); border-top: 1px solid var(--border); }
+tr:hover td { background: var(--teal-pale); color: var(--text); }
+tr:nth-child(even) td { background: var(--bg); }
+td strong { color: var(--navy); }
+
+/* ==========================================================================
+   ACCORDION
+   ========================================================================== */
+.accordion { margin: 18px 0; }
+.acc-item {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--r); margin-bottom: 8px; overflow: hidden;
+  box-shadow: var(--shadow); transition: border-color .2s;
+}
+.acc-item.open { border-color: var(--teal); box-shadow: 0 2px 12px rgba(13,138,122,.12); }
+.acc-hdr {
+  display: flex; align-items: center; gap: 12px;
+  padding: 14px 18px; cursor: pointer;
+  font-family: var(--font-ui); font-size: .9rem; font-weight: 600;
+  color: var(--text); user-select: none; transition: background .2s;
+}
+.acc-hdr:hover { background: var(--teal-pale); }
+.acc-item.open .acc-hdr { color: var(--teal); background: var(--teal-pale); }
+.acc-hdr-icon {
+  width: 32px; height: 32px; flex-shrink: 0;
+  border-radius: 8px; background: var(--teal-pale);
+  display: flex; align-items: center; justify-content: center; font-size: 1rem;
+}
+.acc-item.open .acc-hdr-icon { background: var(--teal); color: #fff; }
+.acc-arrow {
+  width: 20px; height: 20px; flex-shrink: 0; margin-left: auto;
+  border-radius: 50%; background: var(--border);
+  display: flex; align-items: center; justify-content: center;
+  font-size: .65rem; transition: transform .3s, background .2s; color: var(--text3);
+}
+.acc-item.open .acc-arrow { transform: rotate(180deg); background: var(--teal); color: #fff; }
+.acc-body {
+  max-height: 0; overflow: hidden;
+  transition: max-height .4s cubic-bezier(.4,0,.2,1);
+  padding: 0 18px;
+}
+.acc-item.open .acc-body { max-height: 1000px; padding: 2px 18px 18px; }
+.acc-body p { font-size: .9rem; color: var(--text2); line-height: 1.8; margin-bottom: 10px; }
+.acc-body ul { font-size: .9rem; color: var(--text2); padding-left: 18px; line-height: 1.8; }
+.acc-body ul li { margin-bottom: 5px; }
+.acc-body strong { color: var(--navy); }
+.acc-body em { color: var(--teal); }
+
+/* ==========================================================================
+   CLICK-TO-REVEAL
+   ========================================================================== */
+.reveal-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px,1fr)); gap: 12px; margin: 18px 0; }
+.rv-card {
+  background: var(--card); border: 1.5px solid var(--border);
+  border-radius: var(--r); padding: 18px; cursor: pointer;
+  transition: all .25s; min-height: 110px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;
+  box-shadow: var(--shadow);
+}
+.rv-card:hover { border-color: var(--teal); box-shadow: 0 4px 14px rgba(13,138,122,.12); }
+.rv-card.open { background: var(--teal-pale); border-color: var(--teal); }
+.rv-front .rv-ico { font-size: 1.8rem; margin-bottom: 8px; }
+.rv-front h4 { font-family: var(--font-ui); font-size: .86rem; font-weight: 700; color: var(--teal); margin-bottom: 5px; }
+.rv-front .rv-hint { font-family: var(--font-ui); font-size: .68rem; color: var(--text3); text-transform: uppercase; letter-spacing: .07em; }
+.rv-back { display: none; font-size: .84rem; color: var(--text); line-height: 1.7; text-align: left; }
+.rv-back strong { color: var(--navy); }
+.rv-card.open .rv-front { display: none; }
+.rv-card.open .rv-back { display: block; }
+.rv-badge {
+  display: inline-block; background: var(--teal); color: #fff;
+  font-family: var(--font-ui); font-size: .6rem; font-weight: 700;
+  padding: 2px 7px; border-radius: 10px; text-transform: uppercase; margin-bottom: 7px;
+}
+
+/* ==========================================================================
+   TITLE PAGE SPECIAL LAYOUT
+   ========================================================================== */
+#page-0 { padding: 0; max-width: 100%; }
+.hero {
+  padding: 56px 48px 48px; min-height: 100vh;
+  display: flex; flex-direction: column; justify-content: center;
+  background:
+    radial-gradient(ellipse 70% 50% at 75% 25%, rgba(13,138,122,.06) 0%, transparent 65%),
+    radial-gradient(ellipse 50% 40% at 15% 85%, rgba(26,123,191,.04) 0%, transparent 65%),
+    var(--bg);
+  position: relative; overflow: hidden;
+}
+.hero::before {
+  content: '';
+  position: absolute; top: 0; left: 0; right: 0; height: 4px;
+  background: linear-gradient(90deg, var(--teal), var(--sky), var(--teal));
+}
+/* Decorative grid */
+.hero-grid {
+  position: absolute; inset: 0; pointer-events: none; overflow: hidden;
+  background-image:
+    linear-gradient(var(--border) 1px, transparent 1px),
+    linear-gradient(90deg, var(--border) 1px, transparent 1px);
+  background-size: 48px 48px;
+  opacity: .25;
+}
+.hero-chip {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: var(--teal-pale); color: var(--teal);
+  border: 1px solid rgba(13,138,122,.3);
+  padding: 7px 16px; border-radius: 30px;
+  font-family: var(--font-ui); font-size: .72rem; font-weight: 700;
+  letter-spacing: .1em; text-transform: uppercase; margin-bottom: 22px; width: fit-content;
+}
+.hero h1 { font-family: var(--font-head); font-size: clamp(1.8rem, 4vw, 2.7rem); color: var(--navy); line-height: 1.15; margin-bottom: 8px; max-width: 680px; position:relative; }
+.hero .hero-sub { font-family: var(--font-head); font-size: clamp(1.05rem, 2.5vw, 1.3rem); color: var(--teal); margin-bottom: 20px; font-style: italic; position:relative; }
+.hero-intro { font-size: .97rem; color: var(--text2); line-height: 1.85; max-width: 640px; margin-bottom: 28px; position:relative; }
+.hero-meta {
+  display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 28px; position:relative;
+  font-family: var(--font-ui); font-size: .78rem; color: var(--text3);
+}
+.hero-meta span {
+  display: flex; align-items: center; gap: 5px;
+  background: var(--surface); border: 1px solid var(--border);
+  padding: 5px 12px; border-radius: 20px;
+}
+/* Objectives card */
+.obj-card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--r2); padding: 22px 26px; max-width: 650px; margin-bottom: 32px;
+  box-shadow: var(--shadow2); position:relative;
+}
+.obj-card h3 {
+  font-family: var(--font-ui); font-size: .72rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .12em; color: var(--amber);
+  margin-bottom: 14px; display: flex; align-items: center; gap: 7px;
+}
+.obj-list { list-style: none; }
+.obj-list li {
+  display: flex; align-items: flex-start; gap: 10px;
+  font-size: .91rem; color: var(--text2); line-height: 1.7; margin-bottom: 9px;
+}
+.obj-list li:last-child { margin-bottom: 0; }
+.obj-dot {
+  width: 20px; height: 20px; flex-shrink: 0;
+  background: var(--teal-pale); border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: .7rem; color: var(--teal); margin-top: 2px;
+}
+.start-btn {
+  display: inline-flex; align-items: center; gap: 10px;
+  background: var(--teal); color: #fff;
+  padding: 13px 30px; border-radius: var(--r);
+  font-family: var(--font-ui); font-size: .92rem; font-weight: 700;
+  cursor: pointer; border: none; transition: all .25s;
+  box-shadow: 0 4px 18px rgba(13,138,122,.35); position:relative;
+}
+.start-btn:hover { background: var(--teal-l); transform: translateY(-2px); box-shadow: 0 6px 24px rgba(13,138,122,.45); }
+
+/* ==========================================================================
+   CONCEPT MAP (Pure HTML/CSS)
+   ========================================================================== */
+.cmap-wrap {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--r2); padding: 28px; margin: 22px 0;
+  box-shadow: var(--shadow); overflow-x: auto;
+}
+.cmap-wrap h3 { font-family: var(--font-head); font-size: 1.1rem; color: var(--navy); margin-bottom: 24px; display:flex; align-items:center; gap:10px; }
+.cmap { display: flex; flex-direction: column; align-items: center; gap: 0; }
+.cmap-center {
+  background: var(--navy); color: #fff;
+  border-radius: var(--r2); padding: 14px 28px;
+  font-family: var(--font-ui); font-size: .95rem; font-weight: 700;
+  text-align: center; min-width: 200px; box-shadow: 0 4px 16px rgba(15,39,68,.3);
+}
+.cmap-center small { display:block; font-size:.7rem; color: var(--teal-l); font-weight:400; margin-top:3px; }
+.cmap-arrow-down { font-size: 1.3rem; color: var(--teal); line-height: 1; padding: 8px 0; }
+.cmap-row { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+.cmap-branch {
+  display: flex; flex-direction: column; align-items: center; gap: 0;
+}
+.cmap-line { width: 2px; height: 24px; background: var(--border2); }
+.cmap-node {
+  border-radius: var(--r); padding: 10px 16px; font-family: var(--font-ui);
+  font-size: .78rem; font-weight: 700; text-align: center; min-width: 130px;
+  cursor: default; transition: transform .2s, box-shadow .2s;
+}
+.cmap-node:hover { transform: translateY(-3px); box-shadow: var(--shadow2); }
+.cmap-node small { display:block; font-size:.68rem; font-weight:400; margin-top:3px; opacity:.8; }
+.cn-teal   { background: var(--teal-pale);   color: var(--teal);   border: 1.5px solid rgba(13,138,122,.3); }
+.cn-sky    { background: var(--sky-pale);    color: var(--sky);    border: 1.5px solid rgba(26,123,191,.3); }
+.cn-amber  { background: var(--amber-pale);  color: var(--amber);  border: 1.5px solid rgba(176,106,0,.3); }
+.cn-lime   { background: var(--lime-pale);   color: var(--lime);   border: 1.5px solid rgba(58,125,30,.3); }
+.cn-violet { background: var(--violet-pale); color: var(--violet); border: 1.5px solid rgba(90,62,158,.3); }
+.cn-rose   { background: var(--rose-pale);   color: var(--rose);   border: 1.5px solid rgba(179,45,45,.3); }
+/* Second level nodes */
+.cmap-sub-row { display:flex; gap:8px; flex-wrap:wrap; justify-content:center; margin-top:6px; }
+.cmap-sub-node {
+  background: var(--bg2); border: 1px solid var(--border);
+  border-radius: 8px; padding: 5px 10px;
+  font-family: var(--font-ui); font-size: .7rem; color: var(--text2);
+  text-align: center;
+}
+
+/* ==========================================================================
+   QUIZ
+   ========================================================================== */
+.quiz-shell { max-width: 840px; }
+.quiz-hdr {
+  background: var(--navy); color: #fff;
+  border-radius: var(--r2); padding: 22px 26px; margin-bottom: 22px;
+  display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 14px;
+}
+.quiz-hdr h3 { font-family: var(--font-head); font-size: 1.15rem; }
+.q-stats { display: flex; gap: 14px; }
+.q-stat {
+  text-align: center; background: rgba(255,255,255,.08);
+  border-radius: var(--r); padding: 9px 16px; min-width: 60px;
+}
+.q-stat .val { font-size: 1.35rem; font-weight: 700; color: var(--teal-l); display:block; font-family: var(--font-ui); }
+.q-stat .lbl { font-size: .63rem; color: rgba(255,255,255,.4); text-transform: uppercase; letter-spacing: .08em; font-family: var(--font-ui); }
+.q-prog-bar { height: 5px; background: var(--border); border-radius: 3px; margin-bottom: 26px; overflow: hidden; }
+.q-prog-fill { height:100%; background: linear-gradient(90deg,var(--teal),var(--sky)); border-radius:3px; transition:width .4s ease; width:0%; }
+.q-card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--r2); padding: 24px 26px; margin-bottom: 18px;
+  box-shadow: var(--shadow); animation: fadeUp .3s ease;
+}
+.q-num { font-family: var(--font-ui); font-size: .7rem; font-weight: 700; color: var(--teal); text-transform: uppercase; letter-spacing: .1em; margin-bottom: 10px; }
+.q-text { font-family: var(--font-head); font-size: 1.03rem; color: var(--text); margin-bottom: 18px; line-height: 1.6; }
+.q-opts { display: flex; flex-direction: column; gap: 9px; }
+.q-opt {
+  background: var(--bg); border: 1.5px solid var(--border);
+  border-radius: var(--r); padding: 11px 16px;
+  cursor: pointer; transition: all .2s;
+  font-family: var(--font-ui); font-size: .88rem; color: var(--text);
+  display: flex; align-items: center; gap: 11px;
+}
+.q-opt:hover:not(.answered) { border-color: var(--teal); background: var(--teal-pale); color: var(--teal); }
+.opt-letter {
+  width: 26px; height: 26px; flex-shrink: 0;
+  border-radius: 50%; background: var(--border);
+  display: flex; align-items: center; justify-content: center;
+  font-size: .72rem; font-weight: 700; color: var(--text3);
+  transition: all .2s;
+}
+.q-opt.correct { border-color: var(--teal); background: var(--teal-pale); color: var(--teal); }
+.q-opt.correct .opt-letter { background: var(--teal); color: #fff; }
+.q-opt.wrong { border-color: var(--rose); background: var(--rose-pale); color: var(--rose); }
+.q-opt.wrong .opt-letter { background: var(--rose); color: #fff; }
+.q-opt.answered { cursor: default; }
+.q-fb {
+  margin-top: 14px; padding: 11px 16px; border-radius: var(--r);
+  font-family: var(--font-ui); font-size: .86rem; line-height: 1.65;
+  display: none;
+}
+.q-fb.correct-fb { background: var(--teal-pale); color: var(--teal); border: 1px solid rgba(13,138,122,.3); }
+.q-fb.wrong-fb   { background: var(--rose-pale);  color: var(--rose);  border: 1px solid rgba(179,45,45,.3);   }
+.q-fb.show { display:block; animation: fadeUp .25s ease; }
+
+/* Score card */
+#score-card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--r2); padding: 36px; text-align: center;
+  box-shadow: var(--shadow2); display:none; animation: fadeUp .4s ease;
+}
+.score-big { font-size: 3.8rem; font-weight: 700; color: var(--teal); font-family: var(--font-ui); line-height:1; }
+.score-lbl { font-family: var(--font-ui); font-size: .88rem; color: var(--text3); margin: 8px 0 18px; }
+.score-badge { display:inline-block; padding: 8px 22px; border-radius: 30px; font-family: var(--font-ui); font-size: .88rem; font-weight:700; margin-bottom: 22px; }
+.score-row { display:flex; justify-content:center; gap:18px; flex-wrap:wrap; margin-bottom:22px; }
+.score-item .val { font-size:1.5rem; font-weight:700; font-family:var(--font-ui); display:block; }
+.score-item .lbl { font-size:.68rem; color:var(--text3); font-family:var(--font-ui); }
+
+/* ==========================================================================
+   SUMMARY / KEY POINTS
+   ========================================================================== */
+.kp-list { display:flex; flex-direction:column; gap:9px; margin:18px 0; }
+.kp {
+  display:flex; align-items:flex-start; gap:12px;
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--r); padding: 13px 17px;
+  box-shadow: var(--shadow); transition: border-color .2s;
+}
+.kp:hover { border-color: var(--teal); }
+.kp-n {
+  width: 26px; height: 26px; flex-shrink: 0;
+  background: linear-gradient(135deg, var(--teal), var(--sky));
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-ui); font-size: .7rem; font-weight: 700; color: #fff;
+  margin-top: 1px;
+}
+.kp-t { font-size: .9rem; color: var(--text); line-height: 1.7; }
+.kp-t strong { color: var(--navy); }
+
+/* Short-answer section */
+.sa-list { margin: 18px 0; }
+.sa-item {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--r); margin-bottom: 10px; overflow: hidden;
+  box-shadow: var(--shadow);
+}
+.sa-q {
+  display:flex; align-items:center; gap:12px;
+  padding: 12px 18px; cursor:pointer;
+  font-family: var(--font-ui); font-size: .88rem; font-weight:600;
+  color: var(--text); user-select:none; transition: background .2s;
+}
+.sa-q:hover { background: var(--sky-pale); }
+.sa-q-num {
+  background: var(--sky); color:#fff;
+  font-size:.7rem; font-weight:700; font-family:var(--font-ui);
+  padding: 3px 9px; border-radius: 20px; flex-shrink:0;
+  white-space: nowrap;
+}
+.sa-q-text { flex:1; }
+.sa-q-toggle { color: var(--text3); font-size:.8rem; flex-shrink:0; transition: transform .3s; }
+.sa-item.open .sa-q-toggle { transform: rotate(180deg); color: var(--sky); }
+.sa-item.open .sa-q { color: var(--sky); background: var(--sky-pale); }
+.sa-ans {
+  max-height:0; overflow:hidden;
+  transition: max-height .35s cubic-bezier(.4,0,.2,1);
+  padding: 0 18px;
+}
+.sa-item.open .sa-ans { max-height: 300px; padding: 4px 18px 16px; }
+.sa-ans p { font-size: .88rem; color: var(--text2); line-height: 1.78; }
+.sa-ans strong { color: var(--navy); }
+
+/* ==========================================================================
+   GLOSSARY
+   ========================================================================== */
+.gloss-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(255px,1fr)); gap: 13px; margin: 18px 0; }
+.gloss-card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--r); padding: 17px; box-shadow: var(--shadow);
+  transition: border-color .2s, transform .2s;
+}
+.gloss-card:hover { border-color: var(--teal); transform: translateY(-2px); }
+.g-term {
+  font-family: var(--font-ui); font-size: .9rem; font-weight: 700;
+  color: var(--teal); margin-bottom: 7px;
+  display: flex; align-items: center; gap: 7px;
+}
+.g-term::before { content:'▸'; color: var(--amber); font-size:.78rem; }
+.g-def { font-size: .85rem; color: var(--text2); line-height: 1.7; }
+.g-def strong { color: var(--navy); }
+
+/* ==========================================================================
+   ICONS (Pure CSS — Biotech DNA Icon)
+   ========================================================================== */
+/* Inline decorative icon using CSS */
+.dna-icon {
+  display: inline-flex; gap: 2px; align-items: center;
+  vertical-align: middle; margin-right: 4px;
+}
+.dna-icon span {
+  display: inline-block; width: 6px; height: 16px; border-radius: 3px;
+}
+.dna-icon span:nth-child(1) { background: var(--teal); }
+.dna-icon span:nth-child(2) { background: var(--sky); height: 11px; }
+.dna-icon span:nth-child(3) { background: var(--amber); height: 14px; }
+
+/* Scope diagram — visual branch */
+.scope-visual {
+  display: grid; grid-template-columns: 1fr auto 1fr;
+  gap: 0; align-items: center; margin: 24px 0;
+}
+.scope-left, .scope-right {
+  display: flex; flex-direction: column; gap: 12px;
+}
+.scope-right { align-items: flex-start; }
+.scope-center {
+  display: flex; flex-direction: column; align-items: center; padding: 0 16px;
+}
+.scope-hub {
+  background: var(--navy); color: #fff;
+  border-radius: 50%; width: 90px; height: 90px;
+  display: flex; align-items: center; justify-content: center;
+  text-align: center; font-family: var(--font-ui); font-size: .72rem; font-weight: 700;
+  box-shadow: 0 4px 16px rgba(15,39,68,.3); line-height: 1.3;
+}
+.scope-hub small { display:block; color:var(--teal-l); font-size:.62rem; margin-top:2px; }
+.scope-connector {
+  width: 2px; flex: 1; min-height: 20px;
+  background: repeating-linear-gradient(180deg, var(--border), var(--border) 5px, transparent 5px, transparent 10px);
+}
+.scope-pill {
+  background: var(--card); border: 1.5px solid var(--border);
+  border-radius: 30px; padding: 8px 16px;
+  font-family: var(--font-ui); font-size: .8rem; font-weight: 600;
+  color: var(--text2); display: flex; align-items: center; gap: 7px;
+  transition: all .2s; cursor: default; box-shadow: var(--shadow);
+}
+.scope-pill:hover { border-color: var(--teal); color: var(--teal); background: var(--teal-pale); }
+.scope-pill.left { justify-content: flex-end; }
+.sp-teal   { border-color: rgba(13,138,122,.3);  }
+.sp-sky    { border-color: rgba(26,123,191,.3);  }
+.sp-amber  { border-color: rgba(176,106,0,.3);   }
+.sp-lime   { border-color: rgba(58,125,30,.3);   }
+.sp-violet { border-color: rgba(90,62,158,.3);   }
+.sp-rose   { border-color: rgba(179,45,45,.3);   }
+
+/* ==========================================================================
+   APP FOOTER
+   ========================================================================== */
+.app-footer {
+  background: var(--navy); color: rgba(255,255,255,.9);
+  text-align: center; padding: 18px 20px 14px; margin-top: 40px;
+}
+.app-footer p { font-family: var(--font-ui); font-size: .78rem; font-weight: 600; margin-bottom: 4px; }
+.app-footer small { font-family: var(--font-ui); font-size: .66rem; color: rgba(255,255,255,.4); }
+
+/* ==========================================================================
+   RESPONSIVE
+   ========================================================================== */
+@media (max-width: 860px) {
+  #sidebar { transform: translateX(-100%); position: fixed; height: 100%; }
+  #sidebar.open { transform: translateX(0); }
+  #mob-hdr { display: flex; }
+  #overlay.show { display: block; }
+  .page { padding: 28px 20px 60px; }
+  .hero { padding: 36px 20px 40px; min-height: auto; }
+  .pg-title { font-size: 1.65rem; }
+  .scope-visual { display: none; } /* hide fancy diagram on mobile, cards handle it */
+}
+@media (max-width: 520px) {
+  .cards { grid-template-columns: 1fr; }
+  .reveal-grid { grid-template-columns: 1fr 1fr; }
+  .gloss-grid { grid-template-columns: 1fr; }
+  .pg-nav { flex-direction: column; }
+  .pg-nav .btn { width:100%; justify-content:center; }
+  .q-stats { gap: 8px; }
+  .q-stat { padding: 7px 10px; min-width: 50px; }
+}
+
+/* ---- extra components for the suite ---- */
+.flowh{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:center;margin:14px 0 6px}
+.fstep{background:var(--card);border:1.5px solid var(--teal);border-radius:var(--r);padding:10px 14px;min-width:118px;max-width:190px;text-align:center;font-family:var(--font-ui);font-size:.8rem;cursor:pointer;transition:all .2s;color:var(--text2);box-shadow:var(--shadow)}
+.fstep b{display:block;color:var(--navy);font-size:.82rem;margin-bottom:2px}
+.fstep:hover,.fstep.on{background:var(--teal);color:#fff;transform:translateY(-2px)}
+.fstep:hover b,.fstep.on b{color:#fff}
+.farr{color:var(--teal);font-size:1.1rem;font-family:var(--font-ui)}
+.fdetail{background:var(--teal-pale);border-left:4px solid var(--teal);border-radius:var(--r);padding:13px 18px;font-family:var(--font-ui);font-size:.88rem;color:var(--text2);line-height:1.7;min-height:48px;margin-bottom:18px}
+.fdetail strong{color:var(--navy)}
+.figure{background:var(--card);border:1px solid var(--border);border-radius:var(--r2);padding:18px;margin:18px 0;box-shadow:var(--shadow);text-align:center;overflow-x:auto}
+.figure svg{max-width:100%;height:auto}
+.figure figcaption,.figcap{font-family:var(--font-ui);font-size:.76rem;color:var(--text3);margin-top:8px;font-style:italic}
+.svg-box{fill:var(--card);stroke:var(--teal);stroke-width:1.6}
+.svg-box2{fill:var(--sky-pale);stroke:var(--sky);stroke-width:1.4}
+.svg-box3{fill:var(--amber-pale);stroke:var(--amber);stroke-width:1.4}
+.svg-box4{fill:var(--rose-pale);stroke:var(--rose);stroke-width:1.4}
+.svg-box5{fill:var(--lime-pale);stroke:var(--lime);stroke-width:1.4}
+.svg-box6{fill:var(--violet-pale);stroke:var(--violet);stroke-width:1.4}
+.svg-t{fill:var(--text);font-family:Helvetica,Arial,sans-serif;font-size:12px}
+.svg-tb{fill:var(--navy);font-family:Helvetica,Arial,sans-serif;font-size:12px;font-weight:700}
+.svg-ts{fill:var(--text3);font-family:Helvetica,Arial,sans-serif;font-size:10.5px}
+.svg-ln{stroke:var(--text3);stroke-width:1.2;fill:none}
+.svg-arrow{stroke:var(--teal);stroke-width:2;fill:none}
+.cols2{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:16px 0}
+@media(max-width:700px){.cols2{grid-template-columns:1fr}}
+.tl{position:relative;margin:18px 0 18px 14px;padding-left:22px;border-left:3px solid var(--teal)}
+.tl-i{position:relative;margin-bottom:14px;font-family:var(--font-ui);font-size:.88rem;color:var(--text2);line-height:1.6}
+.tl-i::before{content:'';position:absolute;left:-30px;top:5px;width:12px;height:12px;border-radius:50%;background:var(--teal);border:2px solid var(--bg)}
+.tl-i b{color:var(--navy)}
+.stat-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:16px 0}
+.stat{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:14px;text-align:center;box-shadow:var(--shadow)}
+.stat .n{font-family:var(--font-head);font-size:1.5rem;color:var(--teal);font-weight:700;line-height:1.2}
+.stat .l{font-family:var(--font-ui);font-size:.72rem;color:var(--text3);text-transform:uppercase;letter-spacing:.06em}
+.calc{background:var(--card);border:1.5px solid var(--teal);border-radius:var(--r2);padding:20px;margin:18px 0;box-shadow:var(--shadow2);font-family:var(--font-ui)}
+.calc h4{color:var(--navy);margin-bottom:10px}
+.calc label{font-size:.76rem;font-weight:700;color:var(--text2);display:block;margin-bottom:3px}
+.calc input,.calc select{width:100%;padding:8px 10px;border:1.5px solid var(--border2);border-radius:8px;font-family:var(--font-mono);font-size:.9rem;background:var(--bg);color:var(--text);text-transform:uppercase}
+.calc .row{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin-bottom:10px}
+.calc-out{margin-top:14px;overflow-x:auto}
+.calc-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin-bottom:12px}
+.calc select{text-transform:none}
+.aln-res{font-family:var(--font-mono);background:var(--bg);border:1px solid var(--border2);border-radius:8px;padding:10px 14px;margin:10px 0;overflow-x:auto}
+.aln-line{white-space:pre;letter-spacing:.25em;font-size:1rem;color:var(--navy)}.aln-mid{color:var(--teal)}
+table.dpm{border-collapse:collapse;font-family:var(--font-mono);font-size:.82rem;margin:8px 0}
+table.dpm th,table.dpm td{border:1px solid var(--border2);padding:5px 9px;text-align:center;min-width:34px}
+table.dpm th{background:var(--navy);color:#fff}table.dpm td.on{background:var(--teal);color:#fff;font-weight:700}
+.dp{border-collapse:collapse;font-family:var(--font-mono);font-size:.78rem;margin:8px 0}
+.dp td,.dp th{border:1px solid var(--border);padding:4px 7px;text-align:center;min-width:32px;color:var(--text)}
+.dp th{background:var(--navy);color:#fff}
+.dp td.tb{background:var(--teal);color:#fff;font-weight:700}
+.aln{font-family:var(--font-mono);font-size:1rem;letter-spacing:.12em;background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:12px;white-space:pre;overflow-x:auto;color:var(--navy)}
+.sub{vertical-align:sub;font-size:.75em}
+</style></head><body><div id="app"><nav id="sidebar"><div class="sb-brand"><div class="sb-brand-row"><div class="sb-icon">&#127912;</div><div class="sb-brand-text"><h2>Atlas III: Transgenic &amp; Medical</h2><p>Animal Biotechnology &middot; Unit III</p></div></div></div><div class="sb-prog"><div class="sb-prog-row"><span>Progress</span><span id="prog-pct">0%</span></div><div class="prog-bar"><div class="prog-fill" id="prog-fill"></div></div></div><div class="nav-list"><div class="nav-item active" data-pg="0" onclick="goPg(0)"><span class="nav-num">&#127968;</span>Atlas III: Transgenic &amp; Medical</div><div class="nav-group">Chapters</div><div class="nav-item" data-pg="1" onclick="goPg(1)"><span class="nav-num">1</span>Transgenesis</div><div class="nav-item" data-pg="2" onclick="goPg(2)"><span class="nav-num">2</span>Knockout &amp; Dolly</div><div class="nav-item" data-pg="3" onclick="goPg(3)"><span class="nav-num">3</span>Bioreactors &amp; Superbug</div><div class="nav-item" data-pg="4" onclick="goPg(4)"><span class="nav-num">4</span>Hybridoma &amp; MAbs</div><div class="nav-item" data-pg="5" onclick="goPg(5)"><span class="nav-num">5</span>Gene Therapy &amp; CRISPR</div><div class="nav-item" data-pg="6" onclick="goPg(6)"><span class="nav-num">6</span>Molecular Markers</div><div class="nav-group" style="margin-top:8px">Practice</div><div class="nav-item" data-pg="7" onclick="goPg(7)"><span class="nav-num">7</span>Quiz (10 MCQs)</div><div class="nav-item" data-pg="8" onclick="goPg(8)"><span class="nav-num">8</span>Summary &amp; Revision</div><div class="nav-item" data-pg="9" onclick="goPg(9)"><span class="nav-num">9</span>Glossary</div></div><div class="sb-foot">Department of Zoology, GASC, Nagercoil<br>Created by R. Ramesh</div></nav><div id="main"><div id="mob-hdr"><button id="hamburger" onclick="toggleSB()" aria-label="Menu">&#9776;</button><span id="mob-ttl">Atlas III: Transgenic &amp; Medical</span></div><div id="overlay" onclick="closeSB()"></div><div class="page active" id="page-0"><div class="hero"><div class="hero-grid" aria-hidden="true"></div><div class="hero-chip">&#127912; Unit III &middot; Diagram Atlas</div><h1>Diagram Atlas III: Transgenic Animals and Medical Biotechnology</h1><p class="hero-sub">Transgenesis &middot; Knockout &middot; Dolly &middot; Hybridoma &middot; Gene therapy &middot; CRISPR &middot; Markers</p><p class="hero-intro">Seventeen diagrams and flow charts for Unit III: how transgenic and knockout mice are made, how Dolly was cloned, how HAT selects hybridomas, the logic of gene therapy and CAR-T, how CRISPR cuts and repairs DNA, and how markers and fingerprints are read.</p><div class="hero-meta"><span>&#128218; 6 chapters</span><span>&#127919; 10 MCQs</span><span>&#128221; Exam questions</span><span>&#127891; B.Sc. Zoology / Biotechnology</span></div><div class="obj-card"><h3>&#127919; Learning Objectives</h3><ul class="obj-list"><li><span class="obj-dot">&#10003;</span>Draw the steps of producing transgenic and knockout mice.</li><li><span class="obj-dot">&#10003;</span>Explain somatic cell nuclear transfer using Dolly.</li><li><span class="obj-dot">&#10003;</span>Explain HAT selection and name the four classes of monoclonal antibody.</li><li><span class="obj-dot">&#10003;</span>Compare ex vivo, in vivo and CAR-T gene therapy.</li><li><span class="obj-dot">&#10003;</span>Describe CRISPR-Cas9 and compare RFLP, RAPD and STR fingerprinting.</li></ul></div><button class="start-btn" onclick="goPg(1)">Begin Learning &rarr;</button></div><footer class="app-footer"><p>Department of Zoology, GASC, Nagercoil</p><small>Created by R. Ramesh</small></footer></div><div class="page" id="page-1"><div class="sec-tag">&#128215; Atlas 3.1</div><h1 class="pg-title">Transgenesis: Making a Transgenic Mouse</h1><p class="pg-lead">A transgenic animal carries a foreign gene (transgene) in its genome and passes it on.</p><div class="def-box"><div class="def-label">Transgenic animal</div><div class="def-text">An animal whose genome contains a stably integrated foreign gene (transgene) that is transmitted through the germ line.</div></div><div class="figure"><svg viewBox="0 0 620 184" width="620" role="img" aria-label="Structure of a transgene construct"><defs><marker id="ah35" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--teal)"/></marker><marker id="ahr35" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--rose)"/></marker></defs><text x="310" y="18" text-anchor="middle" class="svg-tb" ><tspan x="310" dy="0">Typical transgene construct (linear DNA for injection)</tspan></text><rect x="20" y="40" width="120" height="56" rx="8" class="svg-box4"/><text x="80.0" y="65.0" text-anchor="middle" class="svg-t">Promoter /</text><text x="80.0" y="79.0" text-anchor="middle" class="svg-t">enhancer</text><rect x="140" y="40" width="100" height="56" rx="8" class="svg-box3"/><text x="190.0" y="65.0" text-anchor="middle" class="svg-t">5′ UTR +</text><text x="190.0" y="79.0" text-anchor="middle" class="svg-t">intron</text><rect x="240" y="40" width="150" height="56" rx="8" class="svg-box5"/><text x="315.0" y="65.0" text-anchor="middle" class="svg-t">Coding sequence</text><text x="315.0" y="79.0" text-anchor="middle" class="svg-t">(cDNA or gene)</text><rect x="390" y="40" width="120" height="56" rx="8" class="svg-box2"/><text x="450.0" y="65.0" text-anchor="middle" class="svg-t">3′ UTR +</text><text x="450.0" y="79.0" text-anchor="middle" class="svg-t">poly(A) signal</text><text x="80" y="118" text-anchor="middle" class="svg-ts" ><tspan x="80" dy="0">controls where and when</tspan></text><text x="285" y="118" text-anchor="middle" class="svg-ts" ><tspan x="285" dy="0">introns improve expression</tspan></text><text x="435" y="118" text-anchor="middle" class="svg-ts" ><tspan x="435" dy="0">encodes the product</tspan></text><text x="555" y="118" text-anchor="middle" class="svg-ts" ><tspan x="555" dy="0">stabilises mRNA</tspan></text><text x="310" y="150" text-anchor="middle" class="svg-t" ><tspan x="310" dy="0">Example: β-lactoglobulin or αS1-casein promoter + human gene → protein secreted in milk.</tspan></text><text x="310" y="168" text-anchor="middle" class="svg-ts" ><tspan x="310" dy="0">Metallothionein promoter (zinc inducible) + growth hormone gene gave the “super-mouse” (Palmiter and Brinster, 1982).</tspan></text></svg><div class="figcap">Fig. 1. Components of a transgene construct.</div></div><div class="figure"><svg viewBox="0 0 740 220" width="740" role="img" aria-label="Production of transgenic mice by pronuclear microinjection"><defs><marker id="ah25" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--teal)"/></marker><marker id="ahr25" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--rose)"/></marker></defs><rect x="10" y="10" width="150" height="76" rx="8" class="svg-box3"/><text x="85.0" y="38.0" text-anchor="middle" class="svg-t" style="font-size:11.0px">1. Superovulate donor</text><text x="85.0" y="52.0" text-anchor="middle" class="svg-t" style="font-size:11.0px">female (PMSG then hCG)</text><text x="85.0" y="66.0" text-anchor="middle" class="svg-t" style="font-size:11.0px">and mate</text><rect x="200" y="10" width="150" height="76" rx="8" class="svg-box5"/><text x="275.0" y="45.0" text-anchor="middle" class="svg-t" style="font-size:11.6px">2. Collect fertilised</text><text x="275.0" y="59.0" text-anchor="middle" class="svg-t" style="font-size:11.6px">eggs (zygotes)</text><rect x="390" y="10" width="150" height="76" rx="8" class="svg-box"/><text x="465.0" y="38.0" text-anchor="middle" class="svg-t" style="font-size:9.3px">3. Inject linear transgene</text><text x="465.0" y="52.0" text-anchor="middle" class="svg-t" style="font-size:9.3px">into the male pronucleus</text><text x="465.0" y="66.0" text-anchor="middle" class="svg-t" style="font-size:9.3px">(2–2000 copies)</text><rect x="580" y="10" width="150" height="76" rx="8" class="svg-box2"/><text x="655.0" y="45.0" text-anchor="middle" class="svg-t" style="font-size:9.0px">4. Culture to 2-cell or</text><text x="655.0" y="59.0" text-anchor="middle" class="svg-t" style="font-size:9.0px">blastocyst; check viability</text><rect x="10" y="130" width="150" height="76" rx="8" class="svg-box4"/><text x="85.0" y="158.0" text-anchor="middle" class="svg-t" style="font-size:8.1px">5. Transfer to pseudo-</text><text x="85.0" y="172.0" text-anchor="middle" class="svg-t" style="font-size:8.1px">pregnant foster mother</text><text x="85.0" y="186.0" text-anchor="middle" class="svg-t" style="font-size:8.1px">(mated with vasectomised male)</text><rect x="200" y="130" width="150" height="76" rx="8" class="svg-box6"/><text x="275.0" y="165.0" text-anchor="middle" class="svg-t" style="font-size:10.1px">6. Screen pups: tail DNA</text><text x="275.0" y="179.0" text-anchor="middle" class="svg-t" style="font-size:10.1px">by PCR or Southern blot</text><rect x="390" y="130" width="150" height="76" rx="8" class="svg-box3"/><text x="465.0" y="158.0" text-anchor="middle" class="svg-t" style="font-size:11.0px">7. Founder (F0), often</text><text x="465.0" y="172.0" text-anchor="middle" class="svg-t" style="font-size:11.0px">mosaic; ~1–30% of pups</text><text x="465.0" y="186.0" text-anchor="middle" class="svg-t" style="font-size:11.0px">transgenic</text><rect x="580" y="130" width="150" height="76" rx="8" class="svg-box5"/><text x="655.0" y="165.0" text-anchor="middle" class="svg-t" style="font-size:11.0px">8. Breed to F1 for</text><text x="655.0" y="179.0" text-anchor="middle" class="svg-t" style="font-size:11.0px">germ-line transmission</text><line x1="160" y1="48.0" x2="199" y2="48.0" class="svg-arrow"  marker-end="url(#ah25)"/><line x1="350" y1="48.0" x2="389" y2="48.0" class="svg-arrow"  marker-end="url(#ah25)"/><line x1="540" y1="48.0" x2="579" y2="48.0" class="svg-arrow"  marker-end="url(#ah25)"/><path d="M655.0 86 L655.0 108.0 L85.0 108.0 L85.0 129" class="svg-arrow" marker-end="url(#ah25)"/><line x1="160" y1="168.0" x2="199" y2="168.0" class="svg-arrow"  marker-end="url(#ah25)"/><line x1="350" y1="168.0" x2="389" y2="168.0" class="svg-arrow"  marker-end="url(#ah25)"/><line x1="540" y1="168.0" x2="579" y2="168.0" class="svg-arrow"  marker-end="url(#ah25)"/></svg><div class="figcap">Fig. 2. Pronuclear microinjection, the commonest method (Gordon <em>et al.</em> 1980; Palmiter and Brinster 1982).</div></div><div class="tbl-wrap"><table><thead><tr><th>Method</th><th>Principle</th><th>Note</th></tr></thead><tbody><tr><td><strong>Pronuclear microinjection</strong></td><td>DNA injected into the male pronucleus</td><td>Random integration; mosaic founders</td></tr><tr><td><strong>Retroviral / lentiviral</strong></td><td>Virus infects embryos</td><td>Size limit; silencing</td></tr><tr><td><strong>ES-cell gene targeting</strong></td><td>Homologous recombination in ES cells</td><td>Precise knock-in and knockout</td></tr><tr><td><strong>SCNT cloning</strong></td><td>Transfected donor cell + enucleated egg</td><td>Used in sheep, goats, cattle</td></tr><tr><td><strong>CRISPR in zygotes</strong></td><td>Cas9 + gRNA injected</td><td>Rapid knockout and knock-in</td></tr></tbody></table></div><div class="pg-nav"><button class="btn btn-outline" onclick="goPg(0)">&larr; Atlas III: Transgenic &amp; Medical</button><button class="btn btn-primary" onclick="goPg(2)">Knockout &amp; Dolly &rarr;</button></div><footer class="app-footer"><p>Department of Zoology, GASC, Nagercoil</p><small>Created by R. Ramesh</small></footer></div><div class="page" id="page-2"><div class="sec-tag">&#128216; Atlas 3.2</div><h1 class="pg-title">Knockout Mice and Dolly the Sheep</h1><p class="pg-lead">Two classical landmarks: targeted gene disruption in mice (Capecchi, Evans, Smithies; Nobel 2007) and cloning from an adult cell (Wilmut, Campbell 1996).</p><div class="figure"><svg viewBox="0 0 540 228" width="540" role="img" aria-label="Gene targeting with positive and negative selection"><defs><marker id="ah36" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--teal)"/></marker><marker id="ahr36" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--rose)"/></marker></defs><text x="10" y="16" text-anchor="start" class="svg-tb" ><tspan x="10" dy="0">Wild-type locus</tspan></text><rect x="60" y="24" width="70" height="26" rx="3" class="svg-box2"/><text x="95.0" y="41.0" text-anchor="middle" class="svg-t">Exon 1</text><rect x="200" y="24" width="90" height="26" rx="3" class="svg-box2"/><text x="245.0" y="41.0" text-anchor="middle" class="svg-t">Exon 2</text><rect x="360" y="24" width="80" height="26" rx="3" class="svg-box2"/><text x="400.0" y="41.0" text-anchor="middle" class="svg-t">Exon 3</text><line x1="10" y1="37" x2="60" y2="37" class="svg-ln" /><line x1="130" y1="37" x2="200" y2="37" class="svg-ln" /><line x1="290" y1="37" x2="360" y2="37" class="svg-ln" /><line x1="440" y1="37" x2="520" y2="37" class="svg-ln" /><text x="10" y="80" text-anchor="start" class="svg-tb" ><tspan x="10" dy="0">Targeting vector</tspan></text><rect x="60" y="88" width="130" height="26" rx="3" class="svg-box3"/><text x="125.0" y="105.0" text-anchor="middle" class="svg-t">Homology arm 1</text><rect x="190" y="88" width="100" height="26" rx="3" class="svg-box4"/><text x="240.0" y="105.0" text-anchor="middle" class="svg-t" style="font-size:11.0px">neo (positive)</text><rect x="290" y="88" width="130" height="26" rx="3" class="svg-box3"/><text x="355.0" y="105.0" text-anchor="middle" class="svg-t">Homology arm 2</text><rect x="420" y="88" width="100" height="26" rx="3" class="svg-box6"/><text x="470.0" y="105.0" text-anchor="middle" class="svg-t" style="font-size:11.8px">tk (negative)</text><line x1="130" y1="50" x2="130" y2="88" style="stroke:var(--rose);stroke-width:1.5;stroke-dasharray="4 3"/><line x1="360" y1="50" x2="360" y2="88" style="stroke:var(--rose);stroke-width:1.5;stroke-dasharray="4 3"/><text x="255" y="74" text-anchor="middle" class="svg-ts" ><tspan x="255" dy="0">homologous recombination (crossover in arms)</tspan></text><text x="10" y="146" text-anchor="start" class="svg-tb" ><tspan x="10" dy="0">Targeted allele (exon 2 replaced)</tspan></text><rect x="60" y="154" width="70" height="26" rx="3" class="svg-box2"/><text x="95.0" y="171.0" text-anchor="middle" class="svg-t">Exon 1</text><rect x="130" y="154" width="230" height="26" rx="3" class="svg-box4"/><text x="245.0" y="171.0" text-anchor="middle" class="svg-t" style="font-size:11.0px">neo replaces exon 2: gene disrupted</text><rect x="360" y="154" width="80" height="26" rx="3" class="svg-box2"/><text x="400.0" y="171.0" text-anchor="middle" class="svg-t">Exon 3</text><text x="255" y="200" text-anchor="middle" class="svg-ts" ><tspan x="255" dy="0">Random integration keeps tk: ganciclovir kills those cells.</tspan></text><text x="255" y="216" text-anchor="middle" class="svg-ts" ><tspan x="255" dy="0">Correct targeting loses tk but keeps neo: resistant to G418 and ganciclovir.</tspan></text></svg><div class="figcap">Fig. 3. Gene targeting with a neo (positive) and tk (negative) selection vector.</div></div><div class="figure"><svg viewBox="0 0 670 220" width="670" role="img" aria-label="Production of a knockout mouse"><defs><marker id="ah26" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--teal)"/></marker><marker id="ahr26" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--rose)"/></marker></defs><rect x="10" y="10" width="190" height="76" rx="8" class="svg-box3"/><text x="105.0" y="38.0" text-anchor="middle" class="svg-t" style="font-size:11.2px">Design vector; electroporate</text><text x="105.0" y="52.0" text-anchor="middle" class="svg-t" style="font-size:11.2px">into mouse ES cells</text><text x="105.0" y="66.0" text-anchor="middle" class="svg-t" style="font-size:11.2px">(129 strain)</text><rect x="240" y="10" width="190" height="76" rx="8" class="svg-box5"/><text x="335.0" y="38.0" text-anchor="middle" class="svg-t" style="font-size:10.8px">G418 + ganciclovir:</text><text x="335.0" y="52.0" text-anchor="middle" class="svg-t" style="font-size:10.8px">enrich targeted ES</text><text x="335.0" y="66.0" text-anchor="middle" class="svg-t" style="font-size:10.8px">cells; verify by PCR/Southern</text><rect x="470" y="10" width="190" height="76" rx="8" class="svg-box"/><text x="565.0" y="45.0" text-anchor="middle" class="svg-t">Inject ES cells into a</text><text x="565.0" y="59.0" text-anchor="middle" class="svg-t">blastocyst (C57BL/6)</text><rect x="10" y="130" width="190" height="76" rx="8" class="svg-box2"/><text x="105.0" y="158.0" text-anchor="middle" class="svg-t">Implant in foster</text><text x="105.0" y="172.0" text-anchor="middle" class="svg-t">mother; chimeric pups</text><text x="105.0" y="186.0" text-anchor="middle" class="svg-t">(mixed coat colour)</text><rect x="240" y="130" width="190" height="76" rx="8" class="svg-box4"/><text x="335.0" y="158.0" text-anchor="middle" class="svg-t">Breed chimeras:</text><text x="335.0" y="172.0" text-anchor="middle" class="svg-t">germ-line transmission</text><text x="335.0" y="186.0" text-anchor="middle" class="svg-t">gives heterozygotes (+/−)</text><rect x="470" y="130" width="190" height="76" rx="8" class="svg-box6"/><text x="565.0" y="158.0" text-anchor="middle" class="svg-t">Cross heterozygotes:</text><text x="565.0" y="172.0" text-anchor="middle" class="svg-t">25% +/+, 50% +/−,</text><text x="565.0" y="186.0" text-anchor="middle" class="svg-t">25% −/− (knockout)</text><line x1="200" y1="48.0" x2="239" y2="48.0" class="svg-arrow"  marker-end="url(#ah26)"/><line x1="430" y1="48.0" x2="469" y2="48.0" class="svg-arrow"  marker-end="url(#ah26)"/><path d="M565.0 86 L565.0 108.0 L105.0 108.0 L105.0 129" class="svg-arrow" marker-end="url(#ah26)"/><line x1="200" y1="168.0" x2="239" y2="168.0" class="svg-arrow"  marker-end="url(#ah26)"/><line x1="430" y1="168.0" x2="469" y2="168.0" class="svg-arrow"  marker-end="url(#ah26)"/></svg><div class="figcap">Fig. 4. From ES cell to knockout mouse.</div></div><div class="figure"><svg viewBox="0 0 740 236" width="740" role="img" aria-label="Somatic cell nuclear transfer to produce Dolly"><defs><marker id="ah27" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--teal)"/></marker><marker id="ahr27" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--rose)"/></marker></defs><rect x="10" y="10" width="150" height="84" rx="8" class="svg-box3"/><text x="85.0" y="42.0" text-anchor="middle" class="svg-t" style="font-size:11.0px">Donor: udder (mammary)</text><text x="85.0" y="56.0" text-anchor="middle" class="svg-t" style="font-size:11.0px">cell from a 6-year-old</text><text x="85.0" y="70.0" text-anchor="middle" class="svg-t" style="font-size:11.0px">Finn Dorset ewe</text><rect x="200" y="10" width="150" height="84" rx="8" class="svg-box5"/><text x="275.0" y="49.0" text-anchor="middle" class="svg-t" style="font-size:9.7px">Serum starvation puts the</text><text x="275.0" y="63.0" text-anchor="middle" class="svg-t" style="font-size:9.7px">donor cell in G0</text><rect x="390" y="10" width="150" height="84" rx="8" class="svg-box"/><text x="465.0" y="42.0" text-anchor="middle" class="svg-t" style="font-size:9.0px">Egg from Scottish Blackface</text><text x="465.0" y="56.0" text-anchor="middle" class="svg-t" style="font-size:9.0px">ewe: nucleus removed</text><text x="465.0" y="70.0" text-anchor="middle" class="svg-t" style="font-size:9.0px">(enucleation)</text><rect x="580" y="10" width="150" height="84" rx="8" class="svg-box2"/><text x="655.0" y="42.0" text-anchor="middle" class="svg-t" style="font-size:9.0px">Electrofusion of donor cell</text><text x="655.0" y="56.0" text-anchor="middle" class="svg-t" style="font-size:9.0px">with enucleated egg;</text><text x="655.0" y="70.0" text-anchor="middle" class="svg-t" style="font-size:9.0px">electrical activation</text><rect x="10" y="138" width="150" height="84" rx="8" class="svg-box4"/><text x="85.0" y="170.0" text-anchor="middle" class="svg-t" style="font-size:10.6px">Culture ~6 days to</text><text x="85.0" y="184.0" text-anchor="middle" class="svg-t" style="font-size:10.6px">blastocyst</text><text x="85.0" y="198.0" text-anchor="middle" class="svg-t" style="font-size:10.6px">(277 fused, 29 embryos)</text><rect x="200" y="138" width="150" height="84" rx="8" class="svg-box6"/><text x="275.0" y="170.0" text-anchor="middle" class="svg-t" style="font-size:9.3px">Transfer to Blackface</text><text x="275.0" y="184.0" text-anchor="middle" class="svg-t" style="font-size:9.3px">surrogate: 13 pregnancies,</text><text x="275.0" y="198.0" text-anchor="middle" class="svg-t" style="font-size:9.3px">1 live lamb</text><rect x="390" y="138" width="150" height="84" rx="8" class="svg-box3"/><text x="465.0" y="170.0" text-anchor="middle" class="svg-t" style="font-size:11.0px">Dolly born 5 July 1996</text><text x="465.0" y="184.0" text-anchor="middle" class="svg-t" style="font-size:11.0px">(Roslin Institute);</text><text x="465.0" y="198.0" text-anchor="middle" class="svg-t" style="font-size:11.0px">euthanised 2003</text><rect x="580" y="138" width="150" height="84" rx="8" class="svg-box5"/><text x="655.0" y="170.0" text-anchor="middle" class="svg-t" style="font-size:8.7px">Genetically identical to the</text><text x="655.0" y="184.0" text-anchor="middle" class="svg-t" style="font-size:8.7px">nuclear DNA donor</text><text x="655.0" y="198.0" text-anchor="middle" class="svg-t" style="font-size:8.7px">(mtDNA from the egg)</text><line x1="160" y1="52.0" x2="199" y2="52.0" class="svg-arrow"  marker-end="url(#ah27)"/><line x1="350" y1="52.0" x2="389" y2="52.0" class="svg-arrow"  marker-end="url(#ah27)"/><line x1="540" y1="52.0" x2="579" y2="52.0" class="svg-arrow"  marker-end="url(#ah27)"/><path d="M655.0 94 L655.0 116.0 L85.0 116.0 L85.0 137" class="svg-arrow" marker-end="url(#ah27)"/><line x1="160" y1="180.0" x2="199" y2="180.0" class="svg-arrow"  marker-end="url(#ah27)"/><line x1="350" y1="180.0" x2="389" y2="180.0" class="svg-arrow"  marker-end="url(#ah27)"/><line x1="540" y1="180.0" x2="579" y2="180.0" class="svg-arrow"  marker-end="url(#ah27)"/></svg><div class="figcap">Fig. 5. Somatic cell nuclear transfer. Dolly was the only live lamb from 277 fusions.</div></div><div class="hbox hbox-violet"><h4>PG focus</h4><ul><li>Conditional knockouts (Cre-loxP) restrict gene deletion to a tissue or time.</li><li>Dolly’s mitochondrial DNA came from the egg donor, so she was a nuclear clone, not a complete genetic copy.</li><li>Related: embryonic cloning (embryo splitting) differs from SCNT.</li></ul></div><div class="pg-nav"><button class="btn btn-outline" onclick="goPg(1)">&larr; Transgenesis</button><button class="btn btn-primary" onclick="goPg(3)">Bioreactors &amp; Superbug &rarr;</button></div><footer class="app-footer"><p>Department of Zoology, GASC, Nagercoil</p><small>Created by R. Ramesh</small></footer></div><div class="page" id="page-3"><div class="sec-tag">&#128217; Atlas 3.3</div><h1 class="pg-title">Animals as Bioreactors, Superbug and Bioremediation</h1><p class="pg-lead">Transgenic animals can make drugs in milk; engineered microbes can clean up pollutants; both raise biosafety questions.</p><div class="prose"><p><strong>Animal bioreactor:</strong> a transgenic animal that secretes a therapeutic protein into milk, blood, egg white or urine. Milk is preferred because yields are high (g/L) and proteins are glycosylated like human proteins.</p></div><div class="tbl-wrap"><table><thead><tr><th>Animal / product</th><th>Use</th><th>Status</th></tr></thead><tbody><tr><td><strong>Goat: human antithrombin (ATryn)</strong></td><td>Prevents clotting in hereditary antithrombin deficiency</td><td>Approved EU 2006, USA 2009 (later withdrawn commercially)</td></tr><tr><td><strong>Rabbit: C1-esterase inhibitor (Ruconest)</strong></td><td>Hereditary angioedema</td><td>Approved</td></tr><tr><td><strong>Sheep: α1-antitrypsin; goat: lactoferrin</strong></td><td>Emphysema; antimicrobial</td><td>Clinical or experimental</td></tr><tr><td><strong>Chicken: human enzymes in egg white (Kanuma, sebelipase α)</strong></td><td>Lysosomal acid lipase deficiency</td><td>Approved</td></tr></tbody></table></div><div class="figure"><svg viewBox="0 0 800 108" width="800" role="img" aria-label="Chakrabarty superbug"><defs><marker id="ah28" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--teal)"/></marker><marker id="ahr28" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--rose)"/></marker></defs><rect x="10" y="10" width="165" height="84" rx="8" class="svg-box3"/><text x="92.5" y="35.0" text-anchor="middle" class="svg-t" style="font-size:10.4px">Four hydrocarbon-degrading</text><text x="92.5" y="49.0" text-anchor="middle" class="svg-t" style="font-size:10.4px">plasmids (CAM, OCT,</text><text x="92.5" y="63.0" text-anchor="middle" class="svg-t" style="font-size:10.4px">XYL, NAH) from different</text><text x="92.5" y="77.0" text-anchor="middle" class="svg-t" style="font-size:10.4px">Pseudomonas strains</text><rect x="215" y="10" width="165" height="84" rx="8" class="svg-box5"/><text x="297.5" y="42.0" text-anchor="middle" class="svg-t" style="font-size:11.7px">Conjugation brings</text><text x="297.5" y="56.0" text-anchor="middle" class="svg-t" style="font-size:11.7px">plasmids into one cell;</text><text x="297.5" y="70.0" text-anchor="middle" class="svg-t" style="font-size:11.7px">CAM and OCT recombine</text><rect x="420" y="10" width="165" height="84" rx="8" class="svg-box"/><text x="502.5" y="42.0" text-anchor="middle" class="svg-t" style="font-size:10.4px">Engineered Pseudomonas</text><text x="502.5" y="56.0" text-anchor="middle" class="svg-t" style="font-size:10.4px">(Chakrabarty, GE) degrades</text><text x="502.5" y="70.0" text-anchor="middle" class="svg-t" style="font-size:10.4px">more oil components</text><rect x="625" y="10" width="165" height="84" rx="8" class="svg-box4"/><text x="707.5" y="42.0" text-anchor="middle" class="svg-t" style="font-size:11.7px">Patent allowed:</text><text x="707.5" y="56.0" text-anchor="middle" class="svg-t" style="font-size:11.7px">Diamond v. Chakrabarty,</text><text x="707.5" y="70.0" text-anchor="middle" class="svg-t" style="font-size:11.7px">US Supreme Court, 1980</text><line x1="175" y1="52.0" x2="214" y2="52.0" class="svg-arrow"  marker-end="url(#ah28)"/><line x1="380" y1="52.0" x2="419" y2="52.0" class="svg-arrow"  marker-end="url(#ah28)"/><line x1="585" y1="52.0" x2="624" y2="52.0" class="svg-arrow"  marker-end="url(#ah28)"/></svg><div class="figcap">Fig. 6. Anand Mohan Chakrabarty’s plasmid-combined <em>Pseudomonas</em>: the first patented living organism.</div></div><div class="tbl-wrap"><table><thead><tr><th>Bioremediation approach</th><th>Idea</th><th>Example</th></tr></thead><tbody><tr><td><strong>Biostimulation</strong></td><td>Add nutrients to boost native microbes</td><td>N and P on oiled shorelines</td></tr><tr><td><strong>Bioaugmentation</strong></td><td>Add selected or engineered microbes</td><td>Pseudomonas for hydrocarbons</td></tr><tr><td><strong>Bioventing / biosparging</strong></td><td>Supply air to soil or groundwater</td><td>Fuel-contaminated sites</td></tr><tr><td><strong>Landfarming / composting</strong></td><td>Mix contaminated soil, aerate</td><td>Oily sludge</td></tr><tr><td><strong>Phytoremediation</strong></td><td>Plants take up or degrade pollutants</td><td>Heavy metals</td></tr></tbody></table></div><div class="hbox hbox-rose"><h4>Bioweapons (concept only)</h4><ul><li>The 1972 Biological Weapons Convention (in force 1975) bans development, production and stockpiling of biological agents as weapons.</li><li>CDC Category A agents (highest priority) include anthrax, smallpox, plague, botulinum toxin, tularaemia and viral haemorrhagic fevers.</li><li>Response relies on surveillance, vaccines, antimicrobials and biosafety/biosecurity rules.</li></ul></div><div class="pg-nav"><button class="btn btn-outline" onclick="goPg(2)">&larr; Knockout &amp; Dolly</button><button class="btn btn-primary" onclick="goPg(4)">Hybridoma &amp; MAbs &rarr;</button></div><footer class="app-footer"><p>Department of Zoology, GASC, Nagercoil</p><small>Created by R. Ramesh</small></footer></div><div class="page" id="page-4"><div class="sec-tag">&#128210; Atlas 3.4</div><h1 class="pg-title">Hybridoma Technology and Monoclonal Antibodies</h1><p class="pg-lead">Köhler and Milstein (1975; Nobel 1984) fused a B cell with a myeloma cell to make an immortal antibody factory.</p><div class="figure"><svg viewBox="0 0 740 208" width="740" role="img" aria-label="Hybridoma technology flow"><defs><marker id="ah29" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--teal)"/></marker><marker id="ahr29" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--rose)"/></marker></defs><rect x="10" y="10" width="150" height="70" rx="8" class="svg-box3"/><text x="85.0" y="42.0" text-anchor="middle" class="svg-t">Immunise mouse</text><text x="85.0" y="56.0" text-anchor="middle" class="svg-t">with antigen</text><rect x="200" y="10" width="150" height="70" rx="8" class="svg-box5"/><text x="275.0" y="35.0" text-anchor="middle" class="svg-t">Remove spleen:</text><text x="275.0" y="49.0" text-anchor="middle" class="svg-t">plasma B cells</text><text x="275.0" y="63.0" text-anchor="middle" class="svg-t">making antibody</text><rect x="390" y="10" width="150" height="70" rx="8" class="svg-box"/><text x="465.0" y="42.0" text-anchor="middle" class="svg-t" style="font-size:10.1px">Fuse with HGPRT− myeloma</text><text x="465.0" y="56.0" text-anchor="middle" class="svg-t" style="font-size:10.1px">(PEG or electrofusion)</text><rect x="580" y="10" width="150" height="70" rx="8" class="svg-box2"/><text x="655.0" y="42.0" text-anchor="middle" class="svg-t">HAT medium</text><text x="655.0" y="56.0" text-anchor="middle" class="svg-t">selects hybrids</text><rect x="10" y="124" width="150" height="70" rx="8" class="svg-box4"/><text x="85.0" y="149.0" text-anchor="middle" class="svg-t">Screen supernatants</text><text x="85.0" y="163.0" text-anchor="middle" class="svg-t">(ELISA) for the</text><text x="85.0" y="177.0" text-anchor="middle" class="svg-t">wanted antibody</text><rect x="200" y="124" width="150" height="70" rx="8" class="svg-box6"/><text x="275.0" y="156.0" text-anchor="middle" class="svg-t">Single-cell cloning</text><text x="275.0" y="170.0" text-anchor="middle" class="svg-t">(limiting dilution)</text><rect x="390" y="124" width="150" height="70" rx="8" class="svg-box3"/><text x="465.0" y="149.0" text-anchor="middle" class="svg-t">Expand in culture</text><text x="465.0" y="163.0" text-anchor="middle" class="svg-t">or ascites;</text><text x="465.0" y="177.0" text-anchor="middle" class="svg-t">cryopreserve</text><rect x="580" y="124" width="150" height="70" rx="8" class="svg-box5"/><text x="655.0" y="156.0" text-anchor="middle" class="svg-t">Purify MAb</text><text x="655.0" y="170.0" text-anchor="middle" class="svg-t">(Protein A/G)</text><line x1="160" y1="45.0" x2="199" y2="45.0" class="svg-arrow"  marker-end="url(#ah29)"/><line x1="350" y1="45.0" x2="389" y2="45.0" class="svg-arrow"  marker-end="url(#ah29)"/><line x1="540" y1="45.0" x2="579" y2="45.0" class="svg-arrow"  marker-end="url(#ah29)"/><path d="M655.0 80 L655.0 102.0 L85.0 102.0 L85.0 123" class="svg-arrow" marker-end="url(#ah29)"/><line x1="160" y1="159.0" x2="199" y2="159.0" class="svg-arrow"  marker-end="url(#ah29)"/><line x1="350" y1="159.0" x2="389" y2="159.0" class="svg-arrow"  marker-end="url(#ah29)"/><line x1="540" y1="159.0" x2="579" y2="159.0" class="svg-arrow"  marker-end="url(#ah29)"/></svg><div class="figcap">Fig. 7. Production of monoclonal antibodies.</div></div><div class="figure"><svg viewBox="0 0 610 196" width="610" role="img" aria-label="HAT selection of hybridoma cells"><defs><marker id="ah37" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--teal)"/></marker><marker id="ahr37" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--rose)"/></marker></defs><text x="300" y="16" text-anchor="middle" class="svg-tb" ><tspan x="300" dy="0">HAT medium: hypoxanthine + aminopterin + thymidine</tspan></text><rect x="20" y="30" width="170" height="46" rx="8" class="svg-box4"/><text x="105.0" y="57.0" text-anchor="middle" class="svg-t">Myeloma cell (HGPRT−)</text><rect x="220" y="30" width="170" height="46" rx="8" class="svg-box3"/><text x="305.0" y="57.0" text-anchor="middle" class="svg-t">Spleen B cell (HGPRT+)</text><rect x="420" y="30" width="170" height="46" rx="8" class="svg-box5"/><text x="505.0" y="50.0" text-anchor="middle" class="svg-t" style="font-size:9.3px">Hybridoma (HGPRT+ from B cell,</text><text x="505.0" y="64.0" text-anchor="middle" class="svg-t" style="font-size:9.3px">immortal from myeloma)</text><text x="105" y="98" text-anchor="middle" class="svg-ts" ><tspan x="105" dy="0">de novo purine synthesis</tspan><tspan x="105" dy="14">blocked by aminopterin;</tspan><tspan x="105" dy="14">salvage pathway needs HGPRT:</tspan><tspan x="105" dy="14">absent</tspan></text><text x="305" y="98" text-anchor="middle" class="svg-ts" ><tspan x="305" dy="0">salvage pathway works</tspan><tspan x="305" dy="14">but cells die in days</tspan><tspan x="305" dy="14">(finite life span)</tspan></text><text x="505" y="98" text-anchor="middle" class="svg-ts" ><tspan x="505" dy="0">salvage pathway works;</tspan><tspan x="505" dy="14">continued division</tspan><tspan x="505" dy="14">(inherited from myeloma)</tspan></text><rect x="20" y="150" width="170" height="30" rx="15" class="svg-box4"/><text x="105.0" y="169.0" text-anchor="middle" class="svg-t">DIES</text><rect x="220" y="150" width="170" height="30" rx="15" class="svg-box3"/><text x="305.0" y="169.0" text-anchor="middle" class="svg-t">DIES</text><rect x="420" y="150" width="170" height="30" rx="15" class="svg-box5"/><text x="505.0" y="169.0" text-anchor="middle" class="svg-t">SURVIVES AND GROWS</text></svg><div class="figcap">Fig. 8. Why HAT medium selects only hybrids.</div></div><div class="figure"><svg viewBox="0 0 610 184" width="610" role="img" aria-label="Murine, chimeric, humanised and human monoclonal antibodies"><defs><marker id="ah38" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--teal)"/></marker><marker id="ahr38" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--rose)"/></marker></defs><text x="300" y="16" text-anchor="middle" class="svg-tb" ><tspan x="300" dy="0">Fraction of human sequence (approximate)</tspan></text><text x="135" y="50" text-anchor="end" class="svg-t" ><tspan x="135" dy="0">Murine (-omab)</tspan></text><rect x="145" y="34" width="400" height="22" rx="4" style="fill:var(--bg);stroke:var(--border)"/><text x="555" y="50" text-anchor="start" class="svg-ts" ><tspan x="555" dy="0">0%</tspan></text><text x="135" y="86" text-anchor="end" class="svg-t" ><tspan x="135" dy="0">Chimeric (-ximab)</tspan></text><rect x="145" y="70" width="400" height="22" rx="4" style="fill:var(--bg);stroke:var(--border)"/><rect x="145" y="70" width="260" height="22" rx="4" style="fill:var(--amber);opacity:.85"/><text x="555" y="86" text-anchor="start" class="svg-ts" ><tspan x="555" dy="0">65%</tspan></text><text x="135" y="122" text-anchor="end" class="svg-t" ><tspan x="135" dy="0">Humanised (-zumab)</tspan></text><rect x="145" y="106" width="400" height="22" rx="4" style="fill:var(--bg);stroke:var(--border)"/><rect x="145" y="106" width="360" height="22" rx="4" style="fill:var(--sky);opacity:.85"/><text x="555" y="122" text-anchor="start" class="svg-ts" ><tspan x="555" dy="0">~90%</tspan></text><text x="135" y="158" text-anchor="end" class="svg-t" ><tspan x="135" dy="0">Fully human (-umab)</tspan></text><rect x="145" y="142" width="400" height="22" rx="4" style="fill:var(--bg);stroke:var(--border)"/><rect x="145" y="142" width="400" height="22" rx="4" style="fill:var(--teal);opacity:.85"/><text x="555" y="158" text-anchor="start" class="svg-ts" ><tspan x="555" dy="0">100%</tspan></text></svg><div class="figcap">Fig. 9. Reducing immunogenicity: the name stem tells you how human an antibody is.</div></div><div class="tbl-wrap"><table><thead><tr><th>Application</th><th>Example</th></tr></thead><tbody><tr><td><strong>Diagnosis</strong></td><td>Pregnancy test strips (hCG), ELISA, flow cytometry</td></tr><tr><td><strong>Therapy</strong></td><td>Trastuzumab (HER2, breast cancer), rituximab (CD20), adalimumab (TNFα)</td></tr><tr><td><strong>Purification</strong></td><td>Immunoaffinity chromatography</td></tr><tr><td><strong>Research</strong></td><td>Immunohistochemistry, Western blot</td></tr></tbody></table></div><div class="pg-nav"><button class="btn btn-outline" onclick="goPg(3)">&larr; Bioreactors &amp; Superbug</button><button class="btn btn-primary" onclick="goPg(5)">Gene Therapy &amp; CRISPR &rarr;</button></div><footer class="app-footer"><p>Department of Zoology, GASC, Nagercoil</p><small>Created by R. Ramesh</small></footer></div><div class="page" id="page-5"><div class="sec-tag">&#128211; Atlas 3.5</div><h1 class="pg-title">Gene Therapy, Cancer Treatment and CRISPR Editing</h1><p class="pg-lead">Gene therapy adds or corrects genes; genome editing changes the genome itself.</p><div class="figure"><svg viewBox="0 0 800 100" width="800" role="img" aria-label="Ex vivo gene therapy"><defs><marker id="ah30" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--teal)"/></marker><marker id="ahr30" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--rose)"/></marker></defs><rect x="10" y="10" width="165" height="76" rx="8" class="svg-box3"/><text x="92.5" y="38.0" text-anchor="middle" class="svg-t">Isolate patient cells</text><text x="92.5" y="52.0" text-anchor="middle" class="svg-t">(for example T cells</text><text x="92.5" y="66.0" text-anchor="middle" class="svg-t">or stem cells)</text><rect x="215" y="10" width="165" height="76" rx="8" class="svg-box5"/><text x="297.5" y="38.0" text-anchor="middle" class="svg-t" style="font-size:10.0px">Culture; insert therapeutic</text><text x="297.5" y="52.0" text-anchor="middle" class="svg-t" style="font-size:10.0px">gene with a retroviral or</text><text x="297.5" y="66.0" text-anchor="middle" class="svg-t" style="font-size:10.0px">lentiviral vector</text><rect x="420" y="10" width="165" height="76" rx="8" class="svg-box"/><text x="502.5" y="45.0" text-anchor="middle" class="svg-t">Check and expand</text><text x="502.5" y="59.0" text-anchor="middle" class="svg-t">corrected cells</text><rect x="625" y="10" width="165" height="76" rx="8" class="svg-box2"/><text x="707.5" y="38.0" text-anchor="middle" class="svg-t">Return the cells</text><text x="707.5" y="52.0" text-anchor="middle" class="svg-t">to the patient</text><text x="707.5" y="66.0" text-anchor="middle" class="svg-t">(infusion)</text><line x1="175" y1="48.0" x2="214" y2="48.0" class="svg-arrow"  marker-end="url(#ah30)"/><line x1="380" y1="48.0" x2="419" y2="48.0" class="svg-arrow"  marker-end="url(#ah30)"/><line x1="585" y1="48.0" x2="624" y2="48.0" class="svg-arrow"  marker-end="url(#ah30)"/></svg><div class="figcap">Fig. 10. Ex vivo gene therapy (first successful trial: ADA-SCID, 1990).</div></div><div class="figure"><svg viewBox="0 0 800 100" width="800" role="img" aria-label="In vivo gene therapy"><defs><marker id="ah31" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--teal)"/></marker><marker id="ahr31" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--rose)"/></marker></defs><rect x="10" y="10" width="165" height="76" rx="8" class="svg-box3"/><text x="92.5" y="38.0" text-anchor="middle" class="svg-t" style="font-size:11.2px">Package gene in a vector</text><text x="92.5" y="52.0" text-anchor="middle" class="svg-t" style="font-size:11.2px">(AAV, adenovirus,</text><text x="92.5" y="66.0" text-anchor="middle" class="svg-t" style="font-size:11.2px">lipid nanoparticle)</text><rect x="215" y="10" width="165" height="76" rx="8" class="svg-box5"/><text x="297.5" y="38.0" text-anchor="middle" class="svg-t" style="font-size:11.2px">Inject directly into the</text><text x="297.5" y="52.0" text-anchor="middle" class="svg-t" style="font-size:11.2px">target tissue or blood</text><text x="297.5" y="66.0" text-anchor="middle" class="svg-t" style="font-size:11.2px">(for example subretinal)</text><rect x="420" y="10" width="165" height="76" rx="8" class="svg-box"/><text x="502.5" y="38.0" text-anchor="middle" class="svg-t" style="font-size:10.8px">Cells in the body take up</text><text x="502.5" y="52.0" text-anchor="middle" class="svg-t" style="font-size:10.8px">the gene and make the</text><text x="502.5" y="66.0" text-anchor="middle" class="svg-t" style="font-size:10.8px">missing protein</text><rect x="625" y="10" width="165" height="76" rx="8" class="svg-box4"/><text x="707.5" y="38.0" text-anchor="middle" class="svg-t">Monitor: immune</text><text x="707.5" y="52.0" text-anchor="middle" class="svg-t">response, duration,</text><text x="707.5" y="66.0" text-anchor="middle" class="svg-t">off-target effects</text><line x1="175" y1="48.0" x2="214" y2="48.0" class="svg-arrow"  marker-end="url(#ah31)"/><line x1="380" y1="48.0" x2="419" y2="48.0" class="svg-arrow"  marker-end="url(#ah31)"/><line x1="585" y1="48.0" x2="624" y2="48.0" class="svg-arrow"  marker-end="url(#ah31)"/></svg><div class="figcap">Fig. 11. In vivo gene therapy (for example voretigene neparvovec for RPE65 retinal dystrophy, approved 2017).</div></div><div class="figure"><svg viewBox="0 0 670 220" width="670" role="img" aria-label="CAR-T cell therapy flow"><defs><marker id="ah32" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--teal)"/></marker><marker id="ahr32" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--rose)"/></marker></defs><rect x="10" y="10" width="190" height="76" rx="8" class="svg-box3"/><text x="105.0" y="45.0" text-anchor="middle" class="svg-t">Leukapheresis:</text><text x="105.0" y="59.0" text-anchor="middle" class="svg-t">remove patient T cells</text><rect x="240" y="10" width="190" height="76" rx="8" class="svg-box5"/><text x="335.0" y="38.0" text-anchor="middle" class="svg-t">Activate T cells;</text><text x="335.0" y="52.0" text-anchor="middle" class="svg-t">transduce with lentiviral</text><text x="335.0" y="66.0" text-anchor="middle" class="svg-t">CAR gene</text><rect x="470" y="10" width="190" height="76" rx="8" class="svg-box"/><text x="565.0" y="38.0" text-anchor="middle" class="svg-t">CAR (anti-CD19) = scFv</text><text x="565.0" y="52.0" text-anchor="middle" class="svg-t">+ CD3ζ + costimulatory</text><text x="565.0" y="66.0" text-anchor="middle" class="svg-t">domain</text><rect x="10" y="130" width="190" height="76" rx="8" class="svg-box2"/><text x="105.0" y="158.0" text-anchor="middle" class="svg-t">Expand in the laboratory;</text><text x="105.0" y="172.0" text-anchor="middle" class="svg-t">lymphodepleting</text><text x="105.0" y="186.0" text-anchor="middle" class="svg-t">chemotherapy for patient</text><rect x="240" y="130" width="190" height="76" rx="8" class="svg-box4"/><text x="335.0" y="158.0" text-anchor="middle" class="svg-t">Infuse CAR-T cells:</text><text x="335.0" y="172.0" text-anchor="middle" class="svg-t">they kill CD19+</text><text x="335.0" y="186.0" text-anchor="middle" class="svg-t">leukaemia cells</text><rect x="470" y="130" width="190" height="76" rx="8" class="svg-box6"/><text x="565.0" y="158.0" text-anchor="middle" class="svg-t">Watch for cytokine</text><text x="565.0" y="172.0" text-anchor="middle" class="svg-t">release syndrome</text><text x="565.0" y="186.0" text-anchor="middle" class="svg-t">and neurotoxicity</text><line x1="200" y1="48.0" x2="239" y2="48.0" class="svg-arrow"  marker-end="url(#ah32)"/><line x1="430" y1="48.0" x2="469" y2="48.0" class="svg-arrow"  marker-end="url(#ah32)"/><path d="M565.0 86 L565.0 108.0 L105.0 108.0 L105.0 129" class="svg-arrow" marker-end="url(#ah32)"/><line x1="200" y1="168.0" x2="239" y2="168.0" class="svg-arrow"  marker-end="url(#ah32)"/><line x1="430" y1="168.0" x2="469" y2="168.0" class="svg-arrow"  marker-end="url(#ah32)"/></svg><div class="figcap">Fig. 12. CAR-T therapy, a cancer treatment that is ex vivo gene therapy.</div></div><div class="tbl-wrap"><table><thead><tr><th>Cancer gene-therapy strategy</th><th>Principle</th></tr></thead><tbody><tr><td><strong>Gene replacement</strong></td><td>Restore tumour suppressor (p53)</td></tr><tr><td><strong>Suicide gene</strong></td><td>HSV-tk + ganciclovir kills transduced tumour cells</td></tr><tr><td><strong>Oncolytic virus</strong></td><td>Replicates in cancer cells (talimogene laherparepvec, T-VEC)</td></tr><tr><td><strong>Immunotherapy</strong></td><td>CAR-T cells or cytokine genes</td></tr></tbody></table></div><div class="figure"><svg viewBox="0 0 610 244" width="610" role="img" aria-label="CRISPR-Cas9 target recognition and repair pathways"><defs><marker id="ah39" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--teal)"/></marker><marker id="ahr39" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--rose)"/></marker></defs><text x="300" y="14" text-anchor="middle" class="svg-tb" ><tspan x="300" dy="0">SpCas9 target recognition</tspan></text><text x="40" y="60" text-anchor="middle" class="svg-ts" ><tspan x="40" dy="0">5′</tspan></text><text x="40" y="98" text-anchor="middle" class="svg-ts" ><tspan x="40" dy="0">3′</tspan></text><text x="70" y="60" class="svg-tb" style="font-family:monospace;font-size:15px" text-anchor="middle">A</text><line x1="70" y1="66" x2="70" y2="88" style="stroke:var(--teal);stroke-width:1.5"/><text x="70" y="102" class="svg-tb" style="font-family:monospace;font-size:15px;fill:var(--rose)" text-anchor="middle">U</text><text x="90" y="60" class="svg-tb" style="font-family:monospace;font-size:15px" text-anchor="middle">C</text><line x1="90" y1="66" x2="90" y2="88" style="stroke:var(--teal);stroke-width:1.5"/><text x="90" y="102" class="svg-tb" style="font-family:monospace;font-size:15px;fill:var(--rose)" text-anchor="middle">G</text><text x="110" y="60" class="svg-tb" style="font-family:monospace;font-size:15px" text-anchor="middle">G</text><line x1="110" y1="66" x2="110" y2="88" style="stroke:var(--teal);stroke-width:1.5"/><text x="110" y="102" class="svg-tb" style="font-family:monospace;font-size:15px;fill:var(--rose)" text-anchor="middle">C</text><text x="130" y="60" class="svg-tb" style="font-family:monospace;font-size:15px" text-anchor="middle">G</text><line x1="130" y1="66" x2="130" y2="88" style="stroke:var(--teal);stroke-width:1.5"/><text x="130" y="102" class="svg-tb" style="font-family:monospace;font-size:15px;fill:var(--rose)" text-anchor="middle">C</text><text x="150" y="60" class="svg-tb" style="font-family:monospace;font-size:15px" text-anchor="middle">T</text><line x1="150" y1="66" x2="150" y2="88" style="stroke:var(--teal);stroke-width:1.5"/><text x="150" y="102" class="svg-tb" style="font-family:monospace;font-size:15px;fill:var(--rose)" text-anchor="middle">A</text><text x="170" y="60" class="svg-tb" style="font-family:monospace;font-size:15px" text-anchor="middle">C</text><line x1="170" y1="66" x2="170" y2="88" style="stroke:var(--teal);stroke-width:1.5"/><text x="170" y="102" class="svg-tb" style="font-family:monospace;font-size:15px;fill:var(--rose)" text-anchor="middle">G</text><text x="190" y="60" class="svg-tb" style="font-family:monospace;font-size:15px" text-anchor="middle">A</text><line x1="190" y1="66" x2="190" y2="88" style="stroke:var(--teal);stroke-width:1.5"/><text x="190" y="102" class="svg-tb" style="font-family:monospace;font-size:15px;fill:var(--rose)" text-anchor="middle">U</text><text x="210" y="60" class="svg-tb" style="font-family:monospace;font-size:15px" text-anchor="middle">A</text><line x1="210" y1="66" x2="210" y2="88" style="stroke:var(--teal);stroke-width:1.5"/><text x="210" y="102" class="svg-tb" style="font-family:monospace;font-size:15px;fill:var(--rose)" text-anchor="middle">U</text><text x="230" y="60" class="svg-tb" style="font-family:monospace;font-size:15px" text-anchor="middle">G</text><line x1="230" y1="66" x2="230" y2="88" style="stroke:var(--teal);stroke-width:1.5"/><text x="230" y="102" class="svg-tb" style="font-family:monospace;font-size:15px;fill:var(--rose)" text-anchor="middle">C</text><text x="250" y="60" class="svg-tb" style="font-family:monospace;font-size:15px" text-anchor="middle">C</text><line x1="250" y1="66" x2="250" y2="88" style="stroke:var(--teal);stroke-width:1.5"/><text x="250" y="102" class="svg-tb" style="font-family:monospace;font-size:15px;fill:var(--rose)" text-anchor="middle">G</text><text x="270" y="60" class="svg-tb" style="font-family:monospace;font-size:15px" text-anchor="middle">T</text><line x1="270" y1="66" x2="270" y2="88" style="stroke:var(--teal);stroke-width:1.5"/><text x="270" y="102" class="svg-tb" style="font-family:monospace;font-size:15px;fill:var(--rose)" text-anchor="middle">A</text><text x="290" y="60" class="svg-tb" style="font-family:monospace;font-size:15px" text-anchor="middle">T</text><line x1="290" y1="66" x2="290" y2="88" style="stroke:var(--teal);stroke-width:1.5"/><text x="290" y="102" class="svg-tb" style="font-family:monospace;font-size:15px;fill:var(--rose)" text-anchor="middle">A</text><text x="310" y="60" class="svg-tb" style="font-family:monospace;font-size:15px" text-anchor="middle">G</text><line x1="310" y1="66" x2="310" y2="88" style="stroke:var(--teal);stroke-width:1.5"/><text x="310" y="102" class="svg-tb" style="font-family:monospace;font-size:15px;fill:var(--rose)" text-anchor="middle">C</text><text x="330" y="60" class="svg-tb" style="font-family:monospace;font-size:15px" text-anchor="middle">C</text><line x1="330" y1="66" x2="330" y2="88" style="stroke:var(--teal);stroke-width:1.5"/><text x="330" y="102" class="svg-tb" style="font-family:monospace;font-size:15px;fill:var(--rose)" text-anchor="middle">G</text><text x="350" y="60" class="svg-tb" style="font-family:monospace;font-size:15px" text-anchor="middle">A</text><line x1="350" y1="66" x2="350" y2="88" style="stroke:var(--teal);stroke-width:1.5"/><text x="350" y="102" class="svg-tb" style="font-family:monospace;font-size:15px;fill:var(--rose)" text-anchor="middle">U</text><text x="370" y="60" class="svg-tb" style="font-family:monospace;font-size:15px" text-anchor="middle">G</text><line x1="370" y1="66" x2="370" y2="88" style="stroke:var(--teal);stroke-width:1.5"/><text x="370" y="102" class="svg-tb" style="font-family:monospace;font-size:15px;fill:var(--rose)" text-anchor="middle">C</text><text x="390" y="60" class="svg-tb" style="font-family:monospace;font-size:15px" text-anchor="middle">T</text><line x1="390" y1="66" x2="390" y2="88" style="stroke:var(--teal);stroke-width:1.5"/><text x="390" y="102" class="svg-tb" style="font-family:monospace;font-size:15px;fill:var(--rose)" text-anchor="middle">A</text><text x="410" y="60" class="svg-tb" style="font-family:monospace;font-size:15px" text-anchor="middle">C</text><line x1="410" y1="66" x2="410" y2="88" style="stroke:var(--teal);stroke-width:1.5"/><text x="410" y="102" class="svg-tb" style="font-family:monospace;font-size:15px;fill:var(--rose)" text-anchor="middle">G</text><text x="430" y="60" class="svg-tb" style="font-family:monospace;font-size:15px" text-anchor="middle">C</text><line x1="430" y1="66" x2="430" y2="88" style="stroke:var(--teal);stroke-width:1.5"/><text x="430" y="102" class="svg-tb" style="font-family:monospace;font-size:15px;fill:var(--rose)" text-anchor="middle">G</text><text x="450" y="60" class="svg-tb" style="font-family:monospace;font-size:15px" text-anchor="middle">A</text><line x1="450" y1="66" x2="450" y2="88" style="stroke:var(--teal);stroke-width:1.5"/><text x="450" y="102" class="svg-tb" style="font-family:monospace;font-size:15px;fill:var(--rose)" text-anchor="middle">U</text><text x="476" y="60" class="svg-tb" style="font-family:monospace;font-size:15px;fill:var(--violet)" text-anchor="middle">T</text><text x="496" y="60" class="svg-tb" style="font-family:monospace;font-size:15px;fill:var(--violet)" text-anchor="middle">G</text><text x="516" y="60" class="svg-tb" style="font-family:monospace;font-size:15px;fill:var(--violet)" text-anchor="middle">G</text><text x="510" y="34" text-anchor="middle" class="svg-tb" style="fill:var(--violet)"><tspan x="510" dy="0">PAM (NGG)</tspan></text><text x="260" y="122" text-anchor="middle" class="svg-ts" ><tspan x="260" dy="0">guide RNA spacer (20 nt, red) pairs with the target strand</tspan></text><path d="M420 44 L420 70" style="stroke:var(--navy);stroke-width:3;stroke-dasharray:4 2"/><text x="410" y="36" text-anchor="end" class="svg-ts" ><tspan x="410" dy="0">cut: 3 bp upstream of PAM</tspan></text><rect x="20" y="150" width="270" height="82" rx="8" class="svg-box4"/><text x="155.0" y="181.0" text-anchor="middle" class="svg-t">NHEJ (error-prone, no template)</text><text x="155.0" y="195.0" text-anchor="middle" class="svg-t">small insertions/deletions (indels)</text><text x="155.0" y="209.0" text-anchor="middle" class="svg-t">frame-shift → gene knockout</text><rect x="310" y="150" width="280" height="82" rx="8" class="svg-box5"/><text x="450.0" y="181.0" text-anchor="middle" class="svg-t">HDR (needs a donor template, S/G2)</text><text x="450.0" y="195.0" text-anchor="middle" class="svg-t">precise edit or gene insertion</text><text x="450.0" y="209.0" text-anchor="middle" class="svg-t">low efficiency in non-dividing cells</text><line x1="420" y1="128" x2="155" y2="148" class="svg-arrow"  marker-end="url(#ah39)"/><line x1="420" y1="128" x2="450" y2="148" class="svg-arrow"  marker-end="url(#ah39)"/></svg><div class="figcap">Fig. 13. SpCas9 needs a PAM (NGG) next to a 20-nt target.</div></div><div class="figure"><svg viewBox="0 0 670 220" width="670" role="img" aria-label="CRISPR-Cas9 workflow"><defs><marker id="ah33" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--teal)"/></marker><marker id="ahr33" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--rose)"/></marker></defs><rect x="10" y="10" width="190" height="76" rx="8" class="svg-box3"/><text x="105.0" y="38.0" text-anchor="middle" class="svg-t">Design guide RNA</text><text x="105.0" y="52.0" text-anchor="middle" class="svg-t">(crRNA + tracrRNA</text><text x="105.0" y="66.0" text-anchor="middle" class="svg-t">or sgRNA)</text><rect x="240" y="10" width="190" height="76" rx="8" class="svg-box5"/><text x="335.0" y="38.0" text-anchor="middle" class="svg-t">Deliver Cas9 + gRNA</text><text x="335.0" y="52.0" text-anchor="middle" class="svg-t">(plasmid, mRNA,</text><text x="335.0" y="66.0" text-anchor="middle" class="svg-t">ribonucleoprotein, AAV)</text><rect x="470" y="10" width="190" height="76" rx="8" class="svg-box"/><text x="565.0" y="38.0" text-anchor="middle" class="svg-t">Cas9 unwinds DNA at</text><text x="565.0" y="52.0" text-anchor="middle" class="svg-t">PAM and cuts both</text><text x="565.0" y="66.0" text-anchor="middle" class="svg-t">strands (RuvC, HNH)</text><rect x="10" y="130" width="190" height="76" rx="8" class="svg-box2"/><text x="105.0" y="165.0" text-anchor="middle" class="svg-t">Cell repairs break:</text><text x="105.0" y="179.0" text-anchor="middle" class="svg-t">NHEJ or HDR</text><rect x="240" y="130" width="190" height="76" rx="8" class="svg-box4"/><text x="335.0" y="165.0" text-anchor="middle" class="svg-t">Verify edit: sequencing;</text><text x="335.0" y="179.0" text-anchor="middle" class="svg-t">check off-target sites</text><line x1="200" y1="48.0" x2="239" y2="48.0" class="svg-arrow"  marker-end="url(#ah33)"/><line x1="430" y1="48.0" x2="469" y2="48.0" class="svg-arrow"  marker-end="url(#ah33)"/><path d="M565.0 86 L565.0 108.0 L105.0 108.0 L105.0 129" class="svg-arrow" marker-end="url(#ah33)"/><line x1="200" y1="168.0" x2="239" y2="168.0" class="svg-arrow"  marker-end="url(#ah33)"/></svg><div class="figcap">Fig. 14. A CRISPR experiment from design to verification.</div></div><div class="hbox hbox-violet"><h4>PG focus</h4><ul><li>Base editors (C→T, A→G) and prime editors change bases without a double-strand break.</li><li>Casgevy (exa-cel) edits BCL11A enhancer in haematopoietic stem cells for sickle cell disease and β-thalassaemia (approved 2023).</li></ul></div><div class="pg-nav"><button class="btn btn-outline" onclick="goPg(4)">&larr; Hybridoma &amp; MAbs</button><button class="btn btn-primary" onclick="goPg(6)">Molecular Markers &rarr;</button></div><footer class="app-footer"><p>Department of Zoology, GASC, Nagercoil</p><small>Created by R. Ramesh</small></footer></div><div class="page" id="page-6"><div class="sec-tag">&#128209; Atlas 3.6</div><h1 class="pg-title">Molecular Markers: RFLP, RAPD and DNA Fingerprinting</h1><p class="pg-lead">Markers reveal differences in DNA between individuals, populations and species.</p><div class="figure"><svg viewBox="0 0 670 208" width="670" role="img" aria-label="RFLP analysis"><defs><marker id="ah34" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--teal)"/></marker><marker id="ahr34" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--rose)"/></marker></defs><rect x="10" y="10" width="190" height="70" rx="8" class="svg-box3"/><text x="105.0" y="49.0" text-anchor="middle" class="svg-t">Extract genomic DNA</text><rect x="240" y="10" width="190" height="70" rx="8" class="svg-box5"/><text x="335.0" y="42.0" text-anchor="middle" class="svg-t">Digest with a restriction</text><text x="335.0" y="56.0" text-anchor="middle" class="svg-t">enzyme</text><rect x="470" y="10" width="190" height="70" rx="8" class="svg-box"/><text x="565.0" y="42.0" text-anchor="middle" class="svg-t">Separate fragments</text><text x="565.0" y="56.0" text-anchor="middle" class="svg-t">on agarose gel</text><rect x="10" y="124" width="190" height="70" rx="8" class="svg-box2"/><text x="105.0" y="149.0" text-anchor="middle" class="svg-t">Southern transfer and</text><text x="105.0" y="163.0" text-anchor="middle" class="svg-t">hybridise with labelled</text><text x="105.0" y="177.0" text-anchor="middle" class="svg-t">probe</text><rect x="240" y="124" width="190" height="70" rx="8" class="svg-box4"/><text x="335.0" y="149.0" text-anchor="middle" class="svg-t">Autoradiograph:</text><text x="335.0" y="163.0" text-anchor="middle" class="svg-t">bands differ in length</text><text x="335.0" y="177.0" text-anchor="middle" class="svg-t">between individuals</text><line x1="200" y1="45.0" x2="239" y2="45.0" class="svg-arrow"  marker-end="url(#ah34)"/><line x1="430" y1="45.0" x2="469" y2="45.0" class="svg-arrow"  marker-end="url(#ah34)"/><path d="M565.0 80 L565.0 102.0 L105.0 102.0 L105.0 123" class="svg-arrow" marker-end="url(#ah34)"/><line x1="200" y1="159.0" x2="239" y2="159.0" class="svg-arrow"  marker-end="url(#ah34)"/></svg><div class="figcap">Fig. 15. RFLP depends on gain or loss of restriction sites, or insertions and deletions between them.</div></div><div class="figure"><svg viewBox="0 0 610 202" width="610" role="img" aria-label="Principle of RAPD"><defs><marker id="ah40" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--teal)"/></marker><marker id="ahr40" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--rose)"/></marker></defs><line x1="20" y1="60" x2="580" y2="60" class="svg-ln" style="stroke-width:3"/><text x="10" y="50" text-anchor="middle" class="svg-ts" ><tspan x="10" dy="0">5′</tspan></text><text x="590" y="50" text-anchor="middle" class="svg-ts" ><tspan x="590" dy="0">3′</tspan></text><line x1="20" y1="86" x2="580" y2="86" class="svg-ln" style="stroke-width:3"/><polygon points="110,52 128,60 110,68" style="fill:var(--rose)"/><polygon points="400,52 418,60 400,68" style="fill:var(--rose)"/><polygon points="208,94 190,86 208,78" style="fill:var(--rose)"/><polygon points="498,94 480,86 498,78" style="fill:var(--rose)"/><text x="300" y="20" text-anchor="middle" class="svg-tb" ><tspan x="300" dy="0">Random 10-mer primer binds at many sites on both strands (low stringency)</tspan></text><text x="150" y="118" text-anchor="middle" class="svg-ts" ><tspan x="150" dy="0">Product only where two primer sites face each other</tspan><tspan x="150" dy="14">within ~3 kb: amplicon 1</tspan></text><text x="440" y="118" text-anchor="middle" class="svg-ts" ><tspan x="440" dy="0">amplicon 2</tspan></text><rect x="20" y="150" width="560" height="40" rx="8" class="svg-box3"/><text x="300.0" y="174.0" text-anchor="middle" class="svg-t" style="font-size:9.7px">Polymorphism = presence/absence of bands (dominant marker). Quick and cheap but poorly reproducible.</text></svg><div class="figcap">Fig. 16. RAPD uses one short arbitrary primer.</div></div><div class="figure"><svg viewBox="0 0 732 270" width="732" role="img" aria-label="DNA fingerprinting comparison"><defs><marker id="ah41" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--teal)"/></marker><marker id="ahr41" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" style="fill:var(--rose)"/></marker></defs><rect x="20" y="36" width="292" height="210" rx="6" style="fill:var(--sky-pale);stroke:var(--sky);stroke-width:1.5"/><rect x="32" y="40" width="44" height="9" rx="2" style="fill:var(--bg);stroke:var(--text3)"/><text x="54.0" y="30" text-anchor="middle" class="svg-ts" ><tspan x="54.0" dy="0">Ladder</tspan></text><rect x="35" y="75.0" width="38" height="5" rx="2" style="fill:var(--navy);opacity:.85"/><rect x="35" y="100.5" width="38" height="5" rx="2" style="fill:var(--navy);opacity:.85"/><rect x="35" y="126.0" width="38" height="5" rx="2" style="fill:var(--navy);opacity:.85"/><rect x="35" y="151.5" width="38" height="5" rx="2" style="fill:var(--navy);opacity:.85"/><rect x="35" y="177.0" width="38" height="5" rx="2" style="fill:var(--navy);opacity:.85"/><rect x="35" y="202.5" width="38" height="5" rx="2" style="fill:var(--navy);opacity:.85"/><rect x="88" y="40" width="44" height="9" rx="2" style="fill:var(--bg);stroke:var(--text3)"/><text x="110.0" y="30" text-anchor="middle" class="svg-ts" ><tspan x="110.0" dy="0">Evidence</tspan></text><rect x="91" y="92.0" width="38" height="5" rx="2" style="fill:var(--navy);opacity:.85"/><rect x="91" y="139.6" width="38" height="5" rx="2" style="fill:var(--navy);opacity:.85"/><rect x="91" y="183.8" width="38" height="5" rx="2" style="fill:var(--navy);opacity:.85"/><rect x="144" y="40" width="44" height="9" rx="2" style="fill:var(--bg);stroke:var(--text3)"/><text x="166.0" y="30" text-anchor="middle" class="svg-ts" ><tspan x="166.0" dy="0">Victim</tspan></text><rect x="147" y="109.0" width="38" height="5" rx="2" style="fill:var(--navy);opacity:.85"/><rect x="147" y="160.0" width="38" height="5" rx="2" style="fill:var(--navy);opacity:.85"/><rect x="200" y="40" width="44" height="9" rx="2" style="fill:var(--bg);stroke:var(--text3)"/><text x="222.0" y="30" text-anchor="middle" class="svg-ts" ><tspan x="222.0" dy="0">Suspect A</tspan></text><rect x="203" y="81.8" width="38" height="5" rx="2" style="fill:var(--navy);opacity:.85"/><rect x="203" y="126.0" width="38" height="5" rx="2" style="fill:var(--navy);opacity:.85"/><rect x="203" y="170.2" width="38" height="5" rx="2" style="fill:var(--navy);opacity:.85"/><rect x="256" y="40" width="44" height="9" rx="2" style="fill:var(--bg);stroke:var(--text3)"/><text x="278.0" y="30" text-anchor="middle" class="svg-ts" ><tspan x="278.0" dy="0">Suspect B</tspan></text><rect x="259" y="92.0" width="38" height="5" rx="2" style="fill:var(--navy);opacity:.85"/><rect x="259" y="139.6" width="38" height="5" rx="2" style="fill:var(--navy);opacity:.85"/><rect x="259" y="183.8" width="38" height="5" rx="2" style="fill:var(--navy);opacity:.85"/><text x="326" y="50" text-anchor="start" class="svg-ts" ><tspan x="326" dy="0">– cathode (wells)</tspan></text><text x="326" y="242" text-anchor="start" class="svg-ts" ><tspan x="326" dy="0">+ anode</tspan></text><line x1="334" y1="66" x2="334" y2="222" class="svg-arrow"  marker-end="url(#ah41)"/><text x="442" y="86" text-anchor="start" class="svg-t" ><tspan x="442" dy="0">Evidence and Suspect B give</tspan><tspan x="442" dy="14">identical band patterns:</tspan><tspan x="442" dy="14">consistent with a match.</tspan></text><text x="442" y="156" text-anchor="start" class="svg-t" ><tspan x="442" dy="0">Suspect A and the victim differ:</tspan><tspan x="442" dy="14">excluded as the source.</tspan></text><text x="442" y="210" text-anchor="start" class="svg-ts" ><tspan x="442" dy="0">Modern forensics scores 20 STR loci</tspan><tspan x="442" dy="14">(CODIS) and gives a random-match</tspan><tspan x="442" dy="14">probability below 1 in a billion.</tspan></text></svg><div class="figcap">Fig. 17. DNA fingerprint comparison (illustrative).</div></div><div class="tbl-wrap"><table><thead><tr><th>Marker</th><th>Inheritance</th><th>Needs sequence info?</th><th>Reproducibility</th></tr></thead><tbody><tr><td><strong>RFLP</strong></td><td>Co-dominant</td><td>Probe needed</td><td>High</td></tr><tr><td><strong>RAPD</strong></td><td>Dominant</td><td>No</td><td>Low</td></tr><tr><td><strong>AFLP</strong></td><td>Dominant</td><td>No</td><td>High</td></tr><tr><td><strong>SSR / STR</strong></td><td>Co-dominant</td><td>Flanking primers</td><td>High</td></tr><tr><td><strong>SNP</strong></td><td>Co-dominant</td><td>Yes</td><td>Very high</td></tr></tbody></table></div><div class="hbox hbox-teal"><h4>Applications of DNA fingerprinting (Alec Jeffreys, 1984)</h4><ul><li>Forensics: identity from blood, semen, hair roots.</li><li>Paternity and kinship; disaster victim identification.</li><li>Wildlife forensics and breed authentication.</li><li>Genetic diversity and mapping in conservation and breeding.</li></ul></div><div class="pg-nav"><button class="btn btn-outline" onclick="goPg(5)">&larr; Gene Therapy &amp; CRISPR</button><button class="btn btn-primary" onclick="goPg(7)">Quiz (10 MCQs) &rarr;</button></div><footer class="app-footer"><p>Department of Zoology, GASC, Nagercoil</p><small>Created by R. Ramesh</small></footer></div><div class="page" id="page-7"><div class="sec-tag">&#127919; Quiz</div><h1 class="pg-title">Self-Assessment Quiz</h1><p class="pg-lead">Ten MCQs. Click an option for instant feedback and an explanation.</p><div class="quiz-shell"><div class="quiz-hdr"><h3>&#128221; Atlas III: Transgenic & Medical &mdash; MCQ</h3><div class="q-stats"><div class="q-stat"><span class="val" id="qs-score">0</span><span class="lbl">Score</span></div><div class="q-stat"><span class="val" id="qs-done">0</span><span class="lbl">Done</span></div><div class="q-stat"><span class="val">10</span><span class="lbl">Total</span></div></div></div><div class="q-prog-bar"><div class="q-prog-fill" id="q-prog-fill"></div></div><div id="q-container"></div><div id="score-card"><div class="score-big" id="sc-num">0/10</div><div class="score-lbl">Questions correct</div><div class="score-badge" id="sc-badge">&mdash;</div><div class="score-row"><div class="score-item"><span class="val" style="color:var(--teal)" id="sc-right">0</span><span class="lbl">Correct</span></div><div class="score-item"><span class="val" style="color:var(--rose)" id="sc-wrong">0</span><span class="lbl">Wrong</span></div><div class="score-item"><span class="val" style="color:var(--amber)" id="sc-pct">0%</span><span class="lbl">Score</span></div></div><div style="font-family:var(--font-ui);font-size:.87rem;color:var(--text3);margin-bottom:20px" id="sc-msg"></div><button class="btn btn-primary" onclick="resetQuiz()">&#128260; Retake quiz</button></div></div><div class="pg-nav"><button class="btn btn-outline" onclick="goPg(6)">&larr; Molecular Markers</button><button class="btn btn-primary" onclick="goPg(8)">Summary &amp; Revision &rarr;</button></div><footer class="app-footer"><p>Department of Zoology, GASC, Nagercoil</p><small>Created by R. Ramesh</small></footer></div><div class="page" id="page-8"><div class="sec-tag">&#128203; Summary</div><h1 class="pg-title">Summary &amp; Exam Revision</h1><p class="pg-lead">Key points and model answers likely to appear in university examinations.</p><div class="sh">Key exam points</div><div class="kp-list"><div class="kp"><div class="kp-n">1</div><div class="kp-t">Transgene = promoter + coding sequence + poly(A); microinjection into the <strong>male pronucleus</strong>.</div></div><div class="kp"><div class="kp-n">2</div><div class="kp-t">Knockout: ES cells, neo/tk selection, blastocyst injection, chimera, breed; 1:2:1 in F2.</div></div><div class="kp"><div class="kp-n">3</div><div class="kp-t">Dolly (1996): SCNT from an adult mammary cell; 277 fusions gave 1 live lamb.</div></div><div class="kp"><div class="kp-n">4</div><div class="kp-t">Animal bioreactors secrete drugs in milk (goat antithrombin, rabbit C1-inhibitor).</div></div><div class="kp"><div class="kp-n">5</div><div class="kp-t">Superbug (Chakrabarty): Pseudomonas with 4 plasmids; Diamond v. Chakrabarty (1980).</div></div><div class="kp"><div class="kp-n">6</div><div class="kp-t">Hybridoma: B cell + HGPRT− myeloma; HAT selects; screen, clone, expand.</div></div><div class="kp"><div class="kp-n">7</div><div class="kp-t">-omab, -ximab, -zumab, -umab = murine, chimeric, humanised, human.</div></div><div class="kp"><div class="kp-n">8</div><div class="kp-t">Ex vivo vs in vivo gene therapy; CAR-T is ex vivo; oncolytic viruses and suicide genes.</div></div><div class="kp"><div class="kp-n">9</div><div class="kp-t">CRISPR: gRNA + Cas9 + NGG PAM; NHEJ vs HDR.</div></div><div class="kp"><div class="kp-n">10</div><div class="kp-t">RFLP (co-dominant), RAPD (dominant), STR fingerprinting (forensics).</div></div></div><div class="sh">Short-answer questions</div><p style="font-family:var(--font-ui);font-size:.82rem;color:var(--text3);margin-bottom:14px">Click a question to reveal the model answer.</p><div class="sa-list"><div class="sa-item"><div class="sa-q" onclick="toggleSA(this)"><span class="sa-q-num">Q.1</span><span class="sa-q-text">Describe the production of a transgenic mouse.</span><span class="sa-q-toggle">&#9660;</span></div><div class="sa-ans"><p>A construct (promoter + gene + poly A) is injected into the male pronucleus of fertilised eggs; embryos are transferred to a pseudopregnant foster; pups are screened by PCR/Southern; founders are bred to confirm germ-line transmission.</p></div></div><div class="sa-item"><div class="sa-q" onclick="toggleSA(this)"><span class="sa-q-num">Q.2</span><span class="sa-q-text">How is a knockout mouse produced?</span><span class="sa-q-toggle">&#9660;</span></div><div class="sa-ans"><p>A targeting vector with a neo cassette replaces an exon in ES cells by homologous recombination; neo and tk selection enriches targeted cells; they are injected into blastocysts to give chimeras; breeding gives heterozygotes and then homozygous knockouts.</p></div></div><div class="sa-item"><div class="sa-q" onclick="toggleSA(this)"><span class="sa-q-num">Q.3</span><span class="sa-q-text">Explain the cloning of Dolly.</span><span class="sa-q-toggle">&#9660;</span></div><div class="sa-ans"><p>A mammary cell from an adult ewe was starved to G0 and fused by electrical pulse with an enucleated egg; the embryo was cultured and transferred to a surrogate; 1 of 277 fusions produced a live lamb in 1996.</p></div></div><div class="sa-item"><div class="sa-q" onclick="toggleSA(this)"><span class="sa-q-num">Q.4</span><span class="sa-q-text">What is the role of HAT medium?</span><span class="sa-q-toggle">&#9660;</span></div><div class="sa-ans"><p>Aminopterin blocks de novo nucleotide synthesis, so cells must use the salvage pathway (HGPRT, TK). HGPRT-minus myeloma cells die; unfused B cells die naturally; only hybrids survive.</p></div></div><div class="sa-item"><div class="sa-q" onclick="toggleSA(this)"><span class="sa-q-num">Q.5</span><span class="sa-q-text">Differentiate ex vivo and in vivo gene therapy.</span><span class="sa-q-toggle">&#9660;</span></div><div class="sa-ans"><p>Ex vivo: patient cells are modified outside the body and returned. In vivo: the gene vector is injected directly into the patient.</p></div></div><div class="sa-item"><div class="sa-q" onclick="toggleSA(this)"><span class="sa-q-num">Q.6</span><span class="sa-q-text">Write short notes on CRISPR-Cas9.</span><span class="sa-q-toggle">&#9660;</span></div><div class="sa-ans"><p>A guide RNA directs Cas9 to a 20-nt target adjacent to an NGG PAM; Cas9 makes a double-strand break; NHEJ gives knockouts and HDR gives precise edits.</p></div></div><div class="sa-item"><div class="sa-q" onclick="toggleSA(this)"><span class="sa-q-num">Q.7</span><span class="sa-q-text">Distinguish RFLP and RAPD.</span><span class="sa-q-toggle">&#9660;</span></div><div class="sa-ans"><p>RFLP detects fragment-length differences using restriction enzymes and a probe (co-dominant, reproducible). RAPD uses random primers in PCR (dominant, quick, less reproducible).</p></div></div></div><div class="pg-nav"><button class="btn btn-outline" onclick="goPg(7)">&larr; Quiz (10 MCQs)</button><button class="btn btn-primary" onclick="goPg(9)">Glossary &rarr;</button></div><footer class="app-footer"><p>Department of Zoology, GASC, Nagercoil</p><small>Created by R. Ramesh</small></footer></div><div class="page" id="page-9"><div class="sec-tag">&#128214; Glossary</div><h1 class="pg-title">Key Terms &amp; Glossary</h1><p class="pg-lead">Important terms in simple language.</p><div class="gloss-grid"><div class="gloss-card"><div class="g-term">Transgene</div><div class="g-def">A foreign gene inserted into an organism.</div></div><div class="gloss-card"><div class="g-term">Founder (F0)</div><div class="g-def">First transgenic animal produced.</div></div><div class="gloss-card"><div class="g-term">ES cell</div><div class="g-def">Embryonic stem cell, pluripotent and from the inner cell mass.</div></div><div class="gloss-card"><div class="g-term">Chimera</div><div class="g-def">Animal containing cells from two different embryos.</div></div><div class="gloss-card"><div class="g-term">SCNT</div><div class="g-def">Somatic cell nuclear transfer.</div></div><div class="gloss-card"><div class="g-term">HGPRT</div><div class="g-def">Hypoxanthine-guanine phosphoribosyl transferase of the salvage pathway.</div></div><div class="gloss-card"><div class="g-term">Epitope</div><div class="g-def">Part of an antigen recognised by an antibody.</div></div><div class="gloss-card"><div class="g-term">Ex vivo</div><div class="g-def">Treatment performed outside the body on removed cells.</div></div><div class="gloss-card"><div class="g-term">PAM</div><div class="g-def">Protospacer adjacent motif needed by Cas9.</div></div><div class="gloss-card"><div class="g-term">NHEJ</div><div class="g-def">Non-homologous end joining; error-prone DNA repair.</div></div><div class="gloss-card"><div class="g-term">HDR</div><div class="g-def">Homology-directed repair using a template.</div></div><div class="gloss-card"><div class="g-term">STR</div><div class="g-def">Short tandem repeat used in DNA profiling.</div></div></div><div class="pg-nav"><button class="btn btn-outline" onclick="goPg(8)">&larr; Summary &amp; Revision</button><button class="btn btn-primary" onclick="goPg(0)">&#127968; Title page</button></div><footer class="app-footer"><p>Department of Zoology, GASC, Nagercoil</p><small>Created by R. Ramesh</small></footer></div></div></div><script>
+const QUIZ=[{"q": "In pronuclear microinjection the transgene is injected into the:", "o": ["Female pronucleus only", "Male pronucleus of the zygote", "Blastocyst cavity", "Polar body"], "a": 1, "e": "The larger male pronucleus is usually injected."}, {"q": "Positive-negative selection in gene targeting uses:", "o": ["neo and tk", "amp and tet", "lacZ and lacI", "HAT and PEG"], "a": 0, "e": "<strong>neo</strong> (G418) selects integration; <strong>tk</strong> (ganciclovir) kills random integrants."}, {"q": "Offspring of two heterozygous knockout mice are knockout (\u2212/\u2212) in what proportion?", "o": ["0%", "25%", "50%", "100%"], "a": 1, "e": "Mendelian 1:2:1, so <strong>25%</strong>."}, {"q": "Dolly was produced by transferring a nucleus from:", "o": ["An embryonic cell", "An udder (mammary) cell of an adult ewe", "A sperm cell", "An ES cell"], "a": 1, "e": "Nucleus from a <strong>mammary gland cell</strong> of a 6-year-old ewe."}, {"q": "HAT medium kills unfused myeloma cells because they lack:", "o": ["TK", "HGPRT", "DHFR", "Ig genes"], "a": 1, "e": "Aminopterin blocks de novo synthesis; HGPRT-deficient myeloma cannot use the salvage pathway."}, {"q": "A monoclonal antibody whose name ends in -zumab is:", "o": ["Murine", "Chimeric", "Humanised", "Fully human"], "a": 2, "e": "-omab murine; -ximab chimeric; <strong>-zumab humanised</strong>; -umab human."}, {"q": "The first successful human gene therapy trial (1990) treated:", "o": ["Cystic fibrosis", "ADA-SCID", "Haemophilia", "Sickle cell disease"], "a": 1, "e": "<strong>ADA-SCID</strong>, an ex vivo T-cell therapy."}, {"q": "SpCas9 requires which PAM?", "o": ["NGG", "TTTV", "AAA", "GATC"], "a": 0, "e": "The <strong>NGG</strong> PAM sits just 3\u2032 of the protospacer."}, {"q": "Error-prone repair of a Cas9 double-strand break by NHEJ typically causes:", "o": ["Precise gene correction", "Insertions or deletions (indels)", "Chromosome doubling", "Transcription activation"], "a": 1, "e": "NHEJ leaves <strong>indels</strong> that often knock out the gene."}, {"q": "RAPD markers are:", "o": ["Co-dominant and highly reproducible", "Dominant, from random primers", "Based on restriction sites with probes", "Based on protein variants"], "a": 1, "e": "RAPD gives <strong>dominant</strong> markers using arbitrary 10-mer primers."}], TITLES=["Atlas III: Transgenic & Medical", "Transgenesis", "Knockout & Dolly", "Bioreactors & Superbug", "Hybridoma & MAbs", "Gene Therapy & CRISPR", "Molecular Markers", "Quiz (10 MCQs)", "Summary & Revision", "Glossary"], TOTAL=10;
+let cur=0, qDone=0, qCorrect=0; const visited=new Set([0]);
+function goPg(n){
+  const a=document.querySelector('.page.active'); if(a)a.classList.remove('active');
+  document.querySelectorAll('.nav-item').forEach(i=>i.classList.remove('active'));
+  const pg=document.getElementById('page-'+n); if(!pg)return; pg.classList.add('active');
+  const ni=document.querySelector('.nav-item[data-pg="'+n+'"]'); if(ni)ni.classList.add('active');
+  visited.add(cur); visited.add(n); cur=n;
+  visited.forEach(v=>{const e=document.querySelector('.nav-item[data-pg="'+v+'"]'); if(e&&v!==n)e.classList.add('visited');});
+  document.getElementById('main').scrollTo({top:0}); window.scrollTo({top:0});
+  const pct=Math.round(visited.size/TOTAL*100);
+  document.getElementById('prog-fill').style.width=pct+'%'; document.getElementById('prog-pct').textContent=pct+'%';
+  document.getElementById('mob-ttl').textContent=TITLES[n]; closeSB();
+  try{history.replaceState(null,'','#p'+n);}catch(e){}
+}
+function toggleSB(){document.getElementById('sidebar').classList.toggle('open');document.getElementById('overlay').classList.toggle('show');}
+function closeSB(){document.getElementById('sidebar').classList.remove('open');document.getElementById('overlay').classList.remove('show');}
+function toggleAcc(h){const it=h.closest('.acc-item'),w=it.classList.contains('open');
+  it.parentElement.querySelectorAll('.acc-item.open').forEach(i=>i.classList.remove('open')); if(!w)it.classList.add('open');}
+function toggleRv(c){c.classList.toggle('open');}
+function toggleSA(h){const it=h.closest('.sa-item'),w=it.classList.contains('open');
+  document.querySelectorAll('.sa-item.open').forEach(i=>i.classList.remove('open')); if(!w)it.classList.add('open');}
+function showFlow(id,i){
+  const box=document.getElementById(id), d=document.getElementById(id+'-d');
+  box.querySelectorAll('.fstep').forEach((s,k)=>s.classList.toggle('on',k===i));
+  d.innerHTML=JSON.parse(d.getAttribute('data-d'))[i];
+}
+document.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.classList&&(e.target.classList.contains('rv-card')||e.target.classList.contains('q-opt'))){e.preventDefault();e.target.click();}});
+function buildQuiz(){
+  const c=document.getElementById('q-container'); c.innerHTML=''; qDone=0; qCorrect=0; updQ();
+  document.getElementById('score-card').style.display='none'; const L=['A','B','C','D'];
+  QUIZ.forEach((q,qi)=>{const d=document.createElement('div'); d.className='q-card';
+    d.innerHTML='<div class="q-num">Question '+(qi+1)+' of '+QUIZ.length+'</div><div class="q-text">'+q.q+'</div><div class="q-opts" id="qo'+qi+'">'+
+      q.o.map((o,oi)=>'<div class="q-opt" id="qopt'+qi+'-'+oi+'" onclick="ansQ('+qi+','+oi+')" role="button" tabindex="0"><span class="opt-letter">'+L[oi]+'</span><span>'+o+'</span></div>').join('')+
+      '</div><div class="q-fb" id="qfb'+qi+'"></div>'; c.appendChild(d);});
+}
+function ansQ(qi,sel){
+  const box=document.getElementById('qo'+qi); if(box.dataset.done)return; box.dataset.done='1';
+  const ok=sel===QUIZ[qi].a;
+  QUIZ[qi].o.forEach((_,i)=>{const e=document.getElementById('qopt'+qi+'-'+i); e.classList.add('answered'); if(i===QUIZ[qi].a)e.classList.add('correct'); else if(i===sel)e.classList.add('wrong');});
+  const fb=document.getElementById('qfb'+qi); fb.classList.add('show',ok?'correct-fb':'wrong-fb');
+  fb.innerHTML=(ok?'&#9989; Correct. ':'&#10060; Not quite. ')+QUIZ[qi].e;
+  if(ok)qCorrect++; qDone++; updQ(); if(qDone===QUIZ.length)setTimeout(showScore,600);
+}
+function updQ(){document.getElementById('qs-score').textContent=qCorrect;document.getElementById('qs-done').textContent=qDone;
+  document.getElementById('q-prog-fill').style.width=Math.round(qDone/QUIZ.length*100)+'%';}
+function showScore(){
+  const sc=document.getElementById('score-card'); sc.style.display='block'; sc.scrollIntoView({behavior:'smooth',block:'center'});
+  const pct=Math.round(qCorrect/QUIZ.length*100);
+  document.getElementById('sc-num').textContent=qCorrect+'/'+QUIZ.length; document.getElementById('sc-right').textContent=qCorrect;
+  document.getElementById('sc-wrong').textContent=QUIZ.length-qCorrect; document.getElementById('sc-pct').textContent=pct+'%';
+  let g,s,m;
+  if(pct>=90){g='Outstanding';s='background:var(--teal-pale);color:var(--teal)';m='Excellent grasp of this topic.';}
+  else if(pct>=70){g='Good';s='background:var(--lime-pale);color:var(--lime)';m='Good. Revisit the questions you missed.';}
+  else if(pct>=50){g='Satisfactory';s='background:var(--amber-pale);color:var(--amber)';m='Revise the chapters, then retake the quiz.';}
+  else{g='Needs revision';s='background:var(--rose-pale);color:var(--rose)';m='Re-read the chapters carefully before retrying.';}
+  const b=document.getElementById('sc-badge'); b.textContent=g; b.style.cssText=s; document.getElementById('sc-msg').textContent=m;
+}
+function resetQuiz(){buildQuiz();window.scrollTo({top:0});document.getElementById('main').scrollTo({top:0});}
+document.addEventListener('DOMContentLoaded',()=>{buildQuiz();
+  const h=(location.hash||'').match(/^#p(\d+)$/); if(h&&+h[1]<TOTAL)goPg(+h[1]); else goPg(0);});
+
+</script></body></html>

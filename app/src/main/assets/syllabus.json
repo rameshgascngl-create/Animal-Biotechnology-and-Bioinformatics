@@ -38,6 +38,13 @@
      "note": "Construction and screening of libraries",
      "file": "dna_library_genomic_cdna.html",
      "hash": ""
+    },
+    {
+     "id": "atlasI",
+     "title": "Diagram Atlas I: biotech colour code, enzyme toolkit, vector maps, library flow charts",
+     "note": "15 diagrams",
+     "file": "atlas1_fundamentals_vectors.html",
+     "hash": ""
     }
    ]
   },
@@ -93,6 +100,13 @@
      "note": "Agarose, PAGE, pulsed field",
      "file": "gel_electrophoresis.html",
      "hash": ""
+    },
+    {
+     "id": "atlasII",
+     "title": "Diagram Atlas II: cloning, gene transfer, selection, Sanger, PCR and gel diagrams",
+     "note": "9 diagrams",
+     "file": "atlas2_techniques.html",
+     "hash": ""
     }
    ]
   },
@@ -141,6 +155,13 @@
      "note": "Markers and applications",
      "file": "molecular_markers_app.html",
      "hash": ""
+    },
+    {
+     "id": "atlasIII",
+     "title": "Diagram Atlas III: transgenic, knockout, Dolly, hybridoma, gene therapy, CRISPR, markers",
+     "note": "17 diagrams",
+     "file": "atlas3_transgenic_medical.html",
+     "hash": ""
     }
    ]
   },
@@ -182,6 +203,13 @@
      "note": "Chapter 5",
      "file": "hgp_ethics_ipr.html",
      "hash": "#p5"
+    },
+    {
+     "id": "atlasIV",
+     "title": "Diagram Atlas IV: culture, stem cells, bioreactor, ethanol, HGP, ethics and patents",
+     "note": "17 diagrams",
+     "file": "atlas4_culture_society.html",
+     "hash": ""
     }
    ]
   },
@@ -230,6 +258,13 @@
      "note": "Chapter 5",
      "file": "bioinformatics_tools_alignment_blast.html",
      "hash": "#p5"
+    },
+    {
+     "id": "atlasV",
+     "title": "Diagram Atlas V: databases, alignment matrix, BLAST, MSA, structure, NGS pipeline",
+     "note": "15 diagrams",
+     "file": "atlas5_bioinformatics.html",
+     "hash": ""
     }
    ]
   }
@@ -330,6 +365,26 @@
   "vectors_genetic_engineering.html": {
    "title": "Vectors in Genetic Engineering – Interactive Learning App",
    "unit": "I"
+  },
+  "atlas1_fundamentals_vectors.html": {
+   "title": "Diagram Atlas I: Fundamentals & Vectors",
+   "unit": "I"
+  },
+  "atlas2_techniques.html": {
+   "title": "Diagram Atlas II: Cloning & Techniques",
+   "unit": "II"
+  },
+  "atlas3_transgenic_medical.html": {
+   "title": "Diagram Atlas III: Transgenic & Medical",
+   "unit": "III"
+  },
+  "atlas4_culture_society.html": {
+   "title": "Diagram Atlas IV: Culture, HGP & Ethics",
+   "unit": "IV"
+  },
+  "atlas5_bioinformatics.html": {
+   "title": "Diagram Atlas V: Bioinformatics",
+   "unit": "V"
   }
  }
 }

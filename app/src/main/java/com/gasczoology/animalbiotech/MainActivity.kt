@@ -464,7 +464,7 @@ fun AboutTab(units: List<UnitInfo>, quizzes: List<QuizSet>, zoom: Int, onZoom: (
             Column(Modifier.fillMaxWidth().padding(top = 16.dp), horizontalAlignment = Alignment.CenterHorizontally) {
                 Text("Department of Zoology, GASC, Nagercoil", fontWeight = FontWeight.SemiBold, color = Navy, style = MaterialTheme.typography.bodyMedium)
                 Text("Created by R. Ramesh", style = MaterialTheme.typography.labelSmall, color = Color(0xFF5B7189))
-                Text("Version 1.1.0", style = MaterialTheme.typography.labelSmall, color = Color(0xFF5B7189))
+                Text("Version 1.2.0", style = MaterialTheme.typography.labelSmall, color = Color(0xFF5B7189))
             }
         }
     }
