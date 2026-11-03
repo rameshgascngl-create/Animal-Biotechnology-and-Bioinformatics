@@ -103,7 +103,7 @@ object Repo {
                 val oa = o.getJSONArray("o")
                 val opts = ArrayList<String>()
                 for (k in 0 until oa.length()) opts.add(oa.getString(k))
-                items.add(Mcq("$file#$i", o.getString("q"), opts, o.getInt("a"), o.optString("e", "")))
+                items.add(Mcq("$file#${o.getString("q").hashCode()}", o.getString("q"), opts, o.getInt("a"), o.optString("e", "")))
             }
             val m = mods.optJSONObject(file)
             out.add(
