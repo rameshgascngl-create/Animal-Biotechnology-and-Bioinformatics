@@ -2120,88 +2120,7 @@ tr:nth-child(even) td { background: rgba(45,212,191,.02); }
 /* =====================================================================
    QUIZ DATA — 10 MCQs with answers and explanations
    ===================================================================== */
-const QUIZ_DATA = [
-  {
-    q: "Which of the following is the most widely used microorganism for industrial ethanol production?",
-    opts: ["Lactobacillus acidophilus", "Aspergillus niger", "Saccharomyces cerevisiae", "Clostridium butyricum"],
-    ans: 2,
-    exp: "✅ <strong>Saccharomyces cerevisiae</strong> (baker's/brewer's yeast) is the preferred organism for ethanol production due to its high yield, ethanol tolerance (up to 14–15%), facultative anaerobic metabolism, and GRAS status."
-  },
-  {
-    q: "What is the net ATP yield from one molecule of glucose during anaerobic alcoholic fermentation?",
-    opts: ["38 ATP", "4 ATP", "2 ATP", "36 ATP"],
-    ans: 2,
-    exp: "✅ Anaerobic fermentation yields only <strong>2 ATP</strong> per glucose molecule (from glycolysis only). Aerobic respiration yields 36–38 ATP, but alcoholic fermentation is strictly anaerobic."
-  },
-  {
-    q: "The overall equation for alcoholic fermentation is:",
-    opts: [
-      "C₆H₁₂O₆ → 2 CH₃CHOHCOOH + 2 ATP",
-      "C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂ + 2 ATP",
-      "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + 38 ATP",
-      "C₆H₁₂O₆ → C₃H₇OH + 3 CO₂ + ATP"
-    ],
-    ans: 1,
-    exp: "✅ The correct Gay-Lussac equation for alcoholic fermentation is: <strong>C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂ + 2 ATP</strong>. This represents the conversion of one glucose into two ethanol molecules plus two CO₂ molecules."
-  },
-  {
-    q: "Which enzyme catalyses the conversion of pyruvate to acetaldehyde during alcoholic fermentation?",
-    opts: ["Alcohol dehydrogenase", "Pyruvate decarboxylase", "Pyruvate kinase", "Lactate dehydrogenase"],
-    ans: 1,
-    exp: "✅ <strong>Pyruvate decarboxylase</strong> catalyses: Pyruvate → Acetaldehyde + CO₂. Then <em>Alcohol dehydrogenase</em> reduces acetaldehyde → Ethanol using NADH."
-  },
-  {
-    q: "What is the optimal temperature range for ethanol fermentation by Saccharomyces cerevisiae?",
-    opts: ["10–15°C", "45–55°C", "28–32°C", "60–70°C"],
-    ans: 2,
-    exp: "✅ The optimal temperature for <em>S. cerevisiae</em> fermentation is <strong>28–32°C</strong>. Below 20°C, metabolic rate drops significantly; above 40°C, enzymes are denatured and cells die."
-  },
-  {
-    q: "Molasses, used as a substrate in ethanol fermentation, is a by-product of:",
-    opts: ["Starch hydrolysis", "Sugar cane/beet refining", "Corn milling", "Cellulose processing"],
-    ans: 1,
-    exp: "✅ <strong>Molasses</strong> is a thick, dark by-product of the sugar refining process (from sugarcane or sugar beet). It contains 45–55% fermentable sugars and is the cheapest widely used substrate for industrial ethanol production."
-  },
-  {
-    q: "Which of the following statements about the azeotrope of ethanol-water is CORRECT?",
-    opts: [
-      "It contains 100% pure ethanol",
-      "It is 95.6% ethanol and cannot be separated by simple distillation",
-      "It contains 50% ethanol and 50% water",
-      "It can be broken by adding more heat alone"
-    ],
-    ans: 1,
-    exp: "✅ The ethanol-water <strong>azeotrope contains 95.6% ethanol and 4.4% water</strong>. It boils at a constant temperature (78.2°C) and cannot be separated further by simple distillation. Molecular sieves or azeotropic distillation are used to produce anhydrous ethanol."
-  },
-  {
-    q: "What is the role of NAD⁺ regeneration in anaerobic fermentation?",
-    opts: [
-      "It produces additional ATP directly",
-      "It allows glycolysis to continue by accepting electrons from NADH",
-      "It breaks down pyruvate into CO₂",
-      "It activates the alcohol dehydrogenase enzyme"
-    ],
-    ans: 1,
-    exp: "✅ In the absence of oxygen, <strong>NAD⁺ must be regenerated</strong> from NADH so that glycolysis can continue. This is achieved by transferring electrons from NADH to acetaldehyde (producing ethanol), thereby regenerating NAD⁺."
-  },
-  {
-    q: "What is the typical ethanol concentration (% v/v) in fermented wash before distillation?",
-    opts: ["1–2%", "40–50%", "8–12%", "95–99%"],
-    ans: 2,
-    exp: "✅ After fermentation, the <strong>fermented wash contains 8–12% v/v ethanol</strong>. This is because yeast is inhibited by higher ethanol concentrations (product inhibition above 14–15%). Distillation is required to concentrate it to 95–99%."
-  },
-  {
-    q: "The Pasteur Effect refers to:",
-    opts: [
-      "Increased fermentation in the presence of oxygen",
-      "Inhibition of fermentation by oxygen (aerobic respiration preferred)",
-      "The conversion of starch to glucose by amylase",
-      "The sterilisation of fermentation medium by heat"
-    ],
-    ans: 1,
-    exp: "✅ The <strong>Pasteur Effect</strong>, described by Louis Pasteur, refers to the inhibition of fermentation by oxygen. When O₂ is available, yeast prefers aerobic respiration (higher ATP yield). Fermentation only dominates under anaerobic conditions."
-  }
-];
+const QUIZ_DATA = [{"q":"Which of the following is the most widely used microorganism for industrial ethanol production?","opts":["Lactobacillus acidophilus","Aspergillus niger","Saccharomyces cerevisiae","Clostridium butyricum"],"ans":2,"exp":"✅ <strong>Saccharomyces cerevisiae<\/strong> (baker's/brewer's yeast) is the preferred organism for ethanol production due to its high yield, ethanol tolerance (up to 14–15%), facultative anaerobic metabolism, and GRAS status."},{"q":"What is the net ATP yield from one molecule of glucose during anaerobic alcoholic fermentation?","opts":["38 ATP","2 ATP","4 ATP","36 ATP"],"ans":1,"exp":"✅ Anaerobic fermentation yields only <strong>2 ATP<\/strong> per glucose molecule (from glycolysis only). Aerobic respiration yields 36–38 ATP, but alcoholic fermentation is strictly anaerobic."},{"q":"The overall equation for alcoholic fermentation is:","opts":["C₆H₁₂O₆ → 2 CH₃CHOHCOOH + 2 ATP","C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂ + 2 ATP","C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + 38 ATP","C₆H₁₂O₆ → C₃H₇OH + 3 CO₂ + ATP"],"ans":1,"exp":"✅ The correct Gay-Lussac equation for alcoholic fermentation is: <strong>C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂ + 2 ATP<\/strong>. This represents the conversion of one glucose into two ethanol molecules plus two CO₂ molecules."},{"q":"Which enzyme catalyses the conversion of pyruvate to acetaldehyde during alcoholic fermentation?","opts":["Alcohol dehydrogenase","Pyruvate kinase","Lactate dehydrogenase","Pyruvate decarboxylase"],"ans":3,"exp":"✅ <strong>Pyruvate decarboxylase<\/strong> catalyses: Pyruvate → Acetaldehyde + CO₂. Then <em>Alcohol dehydrogenase<\/em> reduces acetaldehyde → Ethanol using NADH."},{"q":"What is the optimal temperature range for ethanol fermentation by Saccharomyces cerevisiae?","opts":["10–15°C","45–55°C","60–70°C","28–32°C"],"ans":3,"exp":"✅ The optimal temperature for <em>S. cerevisiae<\/em> fermentation is <strong>28–32°C<\/strong>. Below 20°C, metabolic rate drops significantly; above 40°C, enzymes are denatured and cells die."},{"q":"Molasses, used as a substrate in ethanol fermentation, is a by-product of:","opts":["Sugar cane/beet refining","Starch hydrolysis","Corn milling","Cellulose processing"],"ans":0,"exp":"✅ <strong>Molasses<\/strong> is a thick, dark by-product of the sugar refining process (from sugarcane or sugar beet). It contains 45–55% fermentable sugars and is the cheapest widely used substrate for industrial ethanol production."},{"q":"Which of the following statements about the azeotrope of ethanol-water is CORRECT?","opts":["It is 95.6% ethanol and cannot be separated by simple distillation","It contains 100% pure ethanol","It contains 50% ethanol and 50% water","It can be broken by adding more heat alone"],"ans":0,"exp":"✅ The ethanol-water <strong>azeotrope contains 95.6% ethanol and 4.4% water<\/strong>. It boils at a constant temperature (78.2°C) and cannot be separated further by simple distillation. Molecular sieves or azeotropic distillation are used to produce anhydrous ethanol."},{"q":"What is the role of NAD⁺ regeneration in anaerobic fermentation?","opts":["It produces additional ATP directly","It breaks down pyruvate into CO₂","It allows glycolysis to continue by accepting electrons from NADH","It activates the alcohol dehydrogenase enzyme"],"ans":2,"exp":"✅ In the absence of oxygen, <strong>NAD⁺ must be regenerated<\/strong> from NADH so that glycolysis can continue. This is achieved by transferring electrons from NADH to acetaldehyde (producing ethanol), thereby regenerating NAD⁺."},{"q":"What is the typical ethanol concentration (% v/v) in fermented wash before distillation?","opts":["1–2%","40–50%","95–99%","8–12%"],"ans":3,"exp":"✅ After fermentation, the <strong>fermented wash contains 8–12% v/v ethanol<\/strong>. This is because yeast is inhibited by higher ethanol concentrations (product inhibition above 14–15%). Distillation is required to concentrate it to 95–99%."},{"q":"The Pasteur Effect refers to:","opts":["Increased fermentation in the presence of oxygen","Inhibition of fermentation by oxygen (aerobic respiration preferred)","The conversion of starch to glucose by amylase","The sterilisation of fermentation medium by heat"],"ans":1,"exp":"✅ The <strong>Pasteur Effect<\/strong>, described by Louis Pasteur, refers to the inhibition of fermentation by oxygen. When O₂ is available, yeast prefers aerobic respiration (higher ATP yield). Fermentation only dominates under anaerobic conditions."}];
 
 /* =====================================================================
    NAVIGATION STATE
@@ -2465,7 +2384,9 @@ document.addEventListener('DOMContentLoaded', function() {
 <style id="a11y-css">
 .def-box .def-src{color:rgba(255,255,255,.8)!important}
 .a11y-svgscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
-.a11y-svgscroll>svg{min-width:560px;max-width:none!important;width:100%!important;height:auto}
+.a11y-svgscroll>svg{max-width:none!important;width:100%!important;height:auto}
+button,[role=button],select,input[type=button],input[type=submit],summary{min-height:44px}
+button.nb,.nb{min-height:44px}
 .a11y-hint{display:none;font:600 12.5px/1.3 system-ui,sans-serif;color:#0b6b60;margin:2px 0 6px}
 @media(max-width:700px){.a11y-hint{display:block}
 .a11y-stack,.a11y-stack tbody,.a11y-stack tr,.a11y-stack td{display:block!important;width:100%!important;box-sizing:border-box}
@@ -2499,9 +2420,13 @@ function tables(){
   tb.classList.add('a11y-stack')})
 }
 function svgs(){
- document.querySelectorAll('svg[viewBox]').forEach(function(s){if(s.dataset.a11y||s.closest('button,a,.a11y-svgscroll'))return;var v=s.getAttribute('viewBox').split(/[ ,]+/).map(Number);if(!(v[2]>=480&&v[3]>=100))return;s.dataset.a11y=1;
-  var w=document.createElement('div');w.className='a11y-svgscroll';s.parentNode.insertBefore(w,s);w.appendChild(s);
-  var h=document.createElement('div');h.className='a11y-hint';h.textContent='↔ Swipe sideways to see the whole diagram';w.parentNode.insertBefore(h,w)})
+ document.querySelectorAll('svg[viewBox]').forEach(function(s){if(s.dataset.a11y||s.closest('button,a,.a11y-svgscroll'))return;
+  var tx=s.querySelectorAll('text');if(tx.length<3)return;var v=s.getAttribute('viewBox').split(/[ ,]+/).map(Number);if(!(v[2]>0))return;s.dataset.a11y=1;
+  var fs=[].map.call(tx,function(t){return parseFloat(getComputedStyle(t).fontSize)||10}).sort(function(x,y){return x-y});
+  var f=fs[Math.floor(fs.length*.15)];var need=Math.min(1000,Math.max(0,v[2]*11.5/f));
+  if(need<=Math.min(window.innerWidth-32,360))return;
+  var w=document.createElement('div');w.className='a11y-svgscroll';s.parentNode.insertBefore(w,s);w.appendChild(s);s.style.minWidth=Math.round(need)+'px';
+  var h=document.createElement('div');h.className='a11y-hint';h.textContent='\u2194 Swipe sideways to see the whole diagram';w.parentNode.insertBefore(h,w)})
 }
 function run(){try{tables();svgs();pass()}catch(e){}}
 var tm;function later(){clearTimeout(tm);tm=setTimeout(run,350)}

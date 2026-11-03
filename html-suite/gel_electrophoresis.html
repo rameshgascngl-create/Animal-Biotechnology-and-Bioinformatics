@@ -1252,68 +1252,7 @@ function teq(btn){
 /* ============================================================
    QUIZ DATA
    ============================================================ */
-var QD=[
-  {
-    q:"Why does DNA migrate towards the anode (positive electrode) in gel electrophoresis?",
-    o:["DNA has positive charge due to its sugar backbone","DNA is negatively charged due to phosphate groups in the backbone and therefore migrates towards the positive electrode","DNA is neutral but is physically pushed by the buffer flow","DNA contains positive nitrogen atoms that attract to the anode"],
-    a:1,
-    e:"DNA carries a net negative charge at neutral pH because of the phosphate groups in its backbone. Negatively charged molecules always migrate towards the positive electrode (anode) in an electric field. This consistent negative charge means all DNA fragments have the same charge-to-mass ratio, so separation is based on SIZE (molecular sieving) rather than charge differences between fragments."
-  },
-  {
-    q:"In agarose gel electrophoresis, which DNA fragment migrates the FURTHEST from the loading well?",
-    o:["A fragment of 10,000 bp","A fragment of 5,000 bp","A fragment of 500 bp","All fragments migrate the same distance"],
-    a:2,
-    e:"Smaller DNA fragments pass through gel pores more easily than larger ones (molecular sieving). A 500 bp fragment migrates far more efficiently than a 10,000 bp or 5,000 bp fragment in the same time. This is the fundamental principle — smaller = faster = farther from the well."
-  },
-  {
-    q:"What is the mathematical relationship between DNA fragment size and migration distance in gel electrophoresis?",
-    o:["Fragment size is directly proportional to migration distance (linear relationship)","Log of fragment size is inversely proportional to migration distance (logarithmic relationship)","Fragment size is proportional to the square root of migration distance","There is no predictable relationship between size and migration distance"],
-    a:1,
-    e:"The relationship is logarithmic: log(fragment size in bp) is inversely proportional to migration distance. When log(bp) is plotted against migration distance on a graph, a straight line results. This standard curve from the DNA ladder allows accurate interpolation of unknown fragment sizes."
-  },
-  {
-    q:"What is the PRIMARY function of glycerol in the DNA loading dye?",
-    o:["It stains the DNA to make it visible under UV light","It speeds up DNA migration through the gel","It increases the density of the sample so it sinks into the well and does not float away into the buffer","It prevents the DNA from degrading in the well"],
-    a:2,
-    e:"Glycerol (or Ficoll) in the loading dye increases the density of the DNA sample. This ensures the sample sinks to the bottom of the well when loaded and does not diffuse upward into the surrounding buffer. The tracking dyes (bromophenol blue and xylene cyanol) in the loading dye provide visible colour to monitor migration progress."
-  },
-  {
-    q:"Ethidium bromide (EtBr) is added to agarose gels to:",
-    o:["Increase the migration speed of DNA fragments","Intercalate into DNA and produce orange fluorescence under UV light for band visualisation","Maintain the pH of the gel during electrophoresis","Prevent non-specific binding of DNA to the gel matrix"],
-    a:1,
-    e:"Ethidium bromide intercalates (inserts) between the base pairs of DNA. When illuminated with UV light (302 nm), EtBr-DNA complexes fluoresce bright orange, making the DNA bands visible. EtBr is a sensitive stain — detecting as little as 1–10 ng DNA per band. However, it is a potent mutagen and carcinogen requiring strict safety precautions."
-  },
-  {
-    q:"In SDS-PAGE, the role of SDS (sodium dodecyl sulphate) is to:",
-    o:["Increase the pore size of the polyacrylamide gel","Denature proteins and coat them with uniform negative charge so separation is based only on molecular weight","Stain the protein bands for visualisation","Provide the ionic strength needed for electrophoresis"],
-    a:1,
-    e:"SDS is an anionic detergent that binds to proteins proportional to their chain length. This coating of uniform negative charge eliminates differences in the native charge and shape of proteins, ensuring all proteins have the same charge-to-mass ratio. Separation in SDS-PAGE is therefore purely by molecular weight — unlike native PAGE which also depends on shape and intrinsic charge."
-  },
-  {
-    q:"What is the main purpose of the DNA ladder loaded in gel electrophoresis?",
-    o:["To provide an energy source for DNA migration","To stain all DNA bands uniformly for comparison","To provide reference migration distances for known fragment sizes, enabling unknown sizes to be estimated","To prevent DNA degradation during electrophoresis"],
-    a:2,
-    e:"A DNA ladder contains fragments of precisely known sizes (e.g., 100 bp, 500 bp, 1 kb…). By measuring the migration distance of each ladder band and plotting log(bp) vs distance, a standard curve (straight line) is generated. Unknown sample band sizes are estimated by measuring their migration distances and interpolating from this standard curve."
-  },
-  {
-    q:"Why is a 3% agarose gel used instead of a 0.5% gel when analysing PCR products in the 100–500 bp range?",
-    o:["3% agarose is cheaper and easier to prepare","Higher agarose concentration creates smaller pores, providing better resolution of small DNA fragments","3% agarose conducts electricity better at low voltages","Higher concentration gels run faster, saving time"],
-    a:1,
-    e:"Increasing agarose concentration reduces the average pore size of the gel matrix. Smaller pores provide greater retardation to small DNA fragments, improving their separation. A 3% gel is ideal for resolving small fragments (50–500 bp). Conversely, a 0.5% gel has large pores better suited for separating large fragments (5–50 kb) with low resistance to their movement."
-  },
-  {
-    q:"Where are the DNA samples loaded in agarose gel electrophoresis, and why?",
-    o:["At the anode (+) end, so DNA migrates away towards the cathode","At the cathode (−) end, so the negatively charged DNA migrates towards the anode across the gel","In the middle of the gel for equidistant migration to both electrodes","Anywhere on the gel surface — position does not matter"],
-    a:1,
-    e:"DNA samples are loaded into wells at the CATHODE (−) end of the gel. Since DNA is negatively charged, it migrates away from the negative electrode (repulsion) and towards the positive electrode (anode). Loading at the cathode end provides the maximum migration path through the entire gel to the anode, achieving maximum separation of different-sized fragments."
-  },
-  {
-    q:"A researcher runs an agarose gel and observes a smeared band instead of a sharp discrete band. What is the most likely cause?",
-    o:["The voltage was too low, causing insufficient separation","The DNA sample was degraded (DNase contamination) or the well was overloaded","The gel percentage was too high for the fragment sizes","The DNA ladder was loaded in the wrong well"],
-    a:1,
-    e:"Band smearing typically indicates DNA degradation — partial degradation by DNase contamination produces a continuous distribution of fragment sizes instead of a discrete band at one position. Overloading the well with too much DNA can also cause smearing. Solutions: ensure all materials are RNase/DNase-free; reduce DNA loading amount; check sample for intact bands before electrophoresis."
-  }
-];
+var QD=[{"q":"Why does DNA migrate towards the anode (positive electrode) in gel electrophoresis?","o":["DNA has positive charge due to its sugar backbone","DNA is negatively charged due to phosphate groups in the backbone and therefore migrates towards the positive electrode","DNA is neutral but is physically pushed by the buffer flow","DNA contains positive nitrogen atoms that attract to the anode"],"a":1,"e":"DNA carries a net negative charge at neutral pH because of the phosphate groups in its backbone. Negatively charged molecules always migrate towards the positive electrode (anode) in an electric field. This consistent negative charge means all DNA fragments have the same charge-to-mass ratio, so separation is based on SIZE (molecular sieving) rather than charge differences between fragments."},{"q":"In agarose gel electrophoresis, which DNA fragment migrates the FURTHEST from the loading well?","o":["A fragment of 10,000 bp","A fragment of 500 bp","A fragment of 5,000 bp","All fragments migrate the same distance"],"a":1,"e":"Smaller DNA fragments pass through gel pores more easily than larger ones (molecular sieving). A 500 bp fragment migrates far more efficiently than a 10,000 bp or 5,000 bp fragment in the same time. This is the fundamental principle — smaller = faster = farther from the well."},{"q":"What is the mathematical relationship between DNA fragment size and migration distance in gel electrophoresis?","o":["Log of fragment size is inversely proportional to migration distance (logarithmic relationship)","Fragment size is directly proportional to migration distance (linear relationship)","Fragment size is proportional to the square root of migration distance","There is no predictable relationship between size and migration distance"],"a":0,"e":"The relationship is logarithmic: log(fragment size in bp) is inversely proportional to migration distance. When log(bp) is plotted against migration distance on a graph, a straight line results. This standard curve from the DNA ladder allows accurate interpolation of unknown fragment sizes."},{"q":"What is the PRIMARY function of glycerol in the DNA loading dye?","o":["It increases the density of the sample so it sinks into the well and does not float away into the buffer","It stains the DNA to make it visible under UV light","It speeds up DNA migration through the gel","It prevents the DNA from degrading in the well"],"a":0,"e":"Glycerol (or Ficoll) in the loading dye increases the density of the DNA sample. This ensures the sample sinks to the bottom of the well when loaded and does not diffuse upward into the surrounding buffer. The tracking dyes (bromophenol blue and xylene cyanol) in the loading dye provide visible colour to monitor migration progress."},{"q":"Ethidium bromide (EtBr) is added to agarose gels to:","o":["Increase the migration speed of DNA fragments","Maintain the pH of the gel during electrophoresis","Prevent non-specific binding of DNA to the gel matrix","Intercalate into DNA and produce orange fluorescence under UV light for band visualisation"],"a":3,"e":"Ethidium bromide intercalates (inserts) between the base pairs of DNA. When illuminated with UV light (302 nm), EtBr-DNA complexes fluoresce bright orange, making the DNA bands visible. EtBr is a sensitive stain — detecting as little as 1–10 ng DNA per band. However, it is a potent mutagen and carcinogen requiring strict safety precautions."},{"q":"In SDS-PAGE, the role of SDS (sodium dodecyl sulphate) is to:","o":["Increase the pore size of the polyacrylamide gel","Stain the protein bands for visualisation","Provide the ionic strength needed for electrophoresis","Denature proteins and coat them with uniform negative charge so separation is based only on molecular weight"],"a":3,"e":"SDS is an anionic detergent that binds to proteins proportional to their chain length. This coating of uniform negative charge eliminates differences in the native charge and shape of proteins, ensuring all proteins have the same charge-to-mass ratio. Separation in SDS-PAGE is therefore purely by molecular weight — unlike native PAGE which also depends on shape and intrinsic charge."},{"q":"What is the main purpose of the DNA ladder loaded in gel electrophoresis?","o":["To provide an energy source for DNA migration","To stain all DNA bands uniformly for comparison","To provide reference migration distances for known fragment sizes, enabling unknown sizes to be estimated","To prevent DNA degradation during electrophoresis"],"a":2,"e":"A DNA ladder contains fragments of precisely known sizes (e.g., 100 bp, 500 bp, 1 kb…). By measuring the migration distance of each ladder band and plotting log(bp) vs distance, a standard curve (straight line) is generated. Unknown sample band sizes are estimated by measuring their migration distances and interpolating from this standard curve."},{"q":"Why is a 3% agarose gel used instead of a 0.5% gel when analysing PCR products in the 100–500 bp range?","o":["3% agarose is cheaper and easier to prepare","3% agarose conducts electricity better at low voltages","Higher agarose concentration creates smaller pores, providing better resolution of small DNA fragments","Higher concentration gels run faster, saving time"],"a":2,"e":"Increasing agarose concentration reduces the average pore size of the gel matrix. Smaller pores provide greater retardation to small DNA fragments, improving their separation. A 3% gel is ideal for resolving small fragments (50–500 bp). Conversely, a 0.5% gel has large pores better suited for separating large fragments (5–50 kb) with low resistance to their movement."},{"q":"Where are the DNA samples loaded in agarose gel electrophoresis, and why?","o":["At the anode (+) end, so DNA migrates away towards the cathode","At the cathode (−) end, so the negatively charged DNA migrates towards the anode across the gel","In the middle of the gel for equidistant migration to both electrodes","Anywhere on the gel surface — position does not matter"],"a":1,"e":"DNA samples are loaded into wells at the CATHODE (−) end of the gel. Since DNA is negatively charged, it migrates away from the negative electrode (repulsion) and towards the positive electrode (anode). Loading at the cathode end provides the maximum migration path through the entire gel to the anode, achieving maximum separation of different-sized fragments."},{"q":"A researcher runs an agarose gel and observes a smeared band instead of a sharp discrete band. What is the most likely cause?","o":["The voltage was too low, causing insufficient separation","The gel percentage was too high for the fragment sizes","The DNA ladder was loaded in the wrong well","The DNA sample was degraded (DNase contamination) or the well was overloaded"],"a":3,"e":"Band smearing typically indicates DNA degradation — partial degradation by DNase contamination produces a continuous distribution of fragment sizes instead of a discrete band at one position. Overloading the well with too much DNA can also cause smearing. Solutions: ensure all materials are RNase/DNase-free; reduce DNA loading amount; check sample for intact bands before electrophoresis."}];
 
 /* QUIZ LOGIC */
 var cQ=0,sc=0,done=false,ua=[];
@@ -1393,7 +1332,9 @@ window.onload=function(){initQ();};
 html,body,:root{--text3:#34485c;--muted:#34485c;--text-muted:#34485c;--text-lt:#34485c;--text-light:#34485c;--text2:#26394c}
 .def-box .def-src{color:rgba(255,255,255,.8)!important}
 .a11y-svgscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
-.a11y-svgscroll>svg{min-width:560px;max-width:none!important;width:100%!important;height:auto}
+.a11y-svgscroll>svg{max-width:none!important;width:100%!important;height:auto}
+button,[role=button],select,input[type=button],input[type=submit],summary{min-height:44px}
+button.nb,.nb{min-height:44px}
 .a11y-hint{display:none;font:600 12.5px/1.3 system-ui,sans-serif;color:#0b6b60;margin:2px 0 6px}
 @media(max-width:700px){.a11y-hint{display:block}
 .a11y-stack,.a11y-stack tbody,.a11y-stack tr,.a11y-stack td{display:block!important;width:100%!important;box-sizing:border-box}
@@ -1427,9 +1368,13 @@ function tables(){
   tb.classList.add('a11y-stack')})
 }
 function svgs(){
- document.querySelectorAll('svg[viewBox]').forEach(function(s){if(s.dataset.a11y||s.closest('button,a,.a11y-svgscroll'))return;var v=s.getAttribute('viewBox').split(/[ ,]+/).map(Number);if(!(v[2]>=480&&v[3]>=100))return;s.dataset.a11y=1;
-  var w=document.createElement('div');w.className='a11y-svgscroll';s.parentNode.insertBefore(w,s);w.appendChild(s);
-  var h=document.createElement('div');h.className='a11y-hint';h.textContent='↔ Swipe sideways to see the whole diagram';w.parentNode.insertBefore(h,w)})
+ document.querySelectorAll('svg[viewBox]').forEach(function(s){if(s.dataset.a11y||s.closest('button,a,.a11y-svgscroll'))return;
+  var tx=s.querySelectorAll('text');if(tx.length<3)return;var v=s.getAttribute('viewBox').split(/[ ,]+/).map(Number);if(!(v[2]>0))return;s.dataset.a11y=1;
+  var fs=[].map.call(tx,function(t){return parseFloat(getComputedStyle(t).fontSize)||10}).sort(function(x,y){return x-y});
+  var f=fs[Math.floor(fs.length*.15)];var need=Math.min(1000,Math.max(0,v[2]*11.5/f));
+  if(need<=Math.min(window.innerWidth-32,360))return;
+  var w=document.createElement('div');w.className='a11y-svgscroll';s.parentNode.insertBefore(w,s);w.appendChild(s);s.style.minWidth=Math.round(need)+'px';
+  var h=document.createElement('div');h.className='a11y-hint';h.textContent='\u2194 Swipe sideways to see the whole diagram';w.parentNode.insertBefore(h,w)})
 }
 function run(){try{tables();svgs();pass()}catch(e){}}
 var tm;function later(){clearTimeout(tm);tm=setTimeout(run,350)}

@@ -89,6 +89,8 @@ sealed interface Screen {
     data class QuizRun(val title: String, val key: String, val items: List<Mcq>, val timeLimitSec: Int = 0) : Screen
     data class Revision(val set: RevisionSet) : Screen
     data object Glossary : Screen
+    data object Flash : Screen
+    data object Search : Screen
 }
 
 @Composable
@@ -97,6 +99,8 @@ fun App(store: Store) {
     val units = remember { Repo.units(ctx) }
     val quizzes = remember { Repo.quizzes(ctx) }
     val revisions = remember { Repo.revisions(ctx) }
+    val cards = remember { buildCards(revisions) }
+    val headings = remember { loadHeadings(ctx) }
     var tab by remember { mutableIntStateOf(0) }
     var screen by remember { mutableStateOf<Screen?>(null) }
     var studied by remember { mutableStateOf(store.getSet("studied")) }
@@ -107,6 +111,7 @@ fun App(store: Store) {
     var bests by remember { mutableStateOf(quizzes.associate { it.file to store.best(it.file) }) }
 
     BackHandler(enabled = screen != null) { screen = null }
+    val ready = if (screen == null) readyCount(cards, store) else 0
 
     when (val s = screen) {
         is Screen.Reader -> ReaderScreen(
@@ -135,6 +140,8 @@ fun App(store: Store) {
         )
         is Screen.Revision -> RevisionScreen(s.set) { screen = null }
         Screen.Glossary -> GlossaryScreen(revisions) { screen = null }
+        Screen.Flash -> FlashcardsScreen(cards, store) { screen = null }
+        Screen.Search -> SearchScreen(units, revisions, headings, onOpen = { lastId = it.id; store.putString("last", it.id); screen = Screen.Reader(it) }, onBack = { screen = null })
         null -> HomeScaffold(
             tab = tab,
             onTab = { tab = it },
@@ -151,6 +158,9 @@ fun App(store: Store) {
             onOpen = { lastId = it.id; store.putString("last", it.id); screen = Screen.Reader(it) },
             onRevision = { screen = Screen.Revision(it) },
             onGlossary = { screen = Screen.Glossary },
+            onFlash = { screen = Screen.Flash },
+            onSearch = { screen = Screen.Search },
+            ready = ready,
             onToggleStudied = { studied = store.toggle("studied", it) },
             onToggleSaved = { saved = store.toggle("saved", it) },
             onQuiz = { title, key, items, secs -> screen = Screen.QuizRun(title, key, items, secs) },
@@ -178,6 +188,9 @@ fun HomeScaffold(
     lastId: String,
     onRevision: (RevisionSet) -> Unit,
     onGlossary: () -> Unit,
+    onFlash: () -> Unit,
+    onSearch: () -> Unit,
+    ready: Int,
     onQuiz: (String, String, List<Mcq>, Int) -> Unit,
 ) {
     val titles = listOf("Animal Biotechnology", "Revise", "Practice quizzes", "Saved topics", "About")
@@ -210,7 +223,7 @@ fun HomeScaffold(
         Column(Modifier.fillMaxSize().padding(inner)) {
             when (tab) {
                 0 -> SyllabusTab(units, studied, saved, lastId, onOpen, onToggleStudied, onToggleSaved)
-                1 -> ReviseTab(revisions, onRevision, onGlossary)
+                1 -> ReviseTab(revisions, onRevision, onGlossary, onFlash, onSearch, ready)
                 2 -> QuizTab(quizzes, bests, wrongIds, onQuiz)
                 3 -> SavedTab(units, studied, saved, onOpen, onToggleStudied, onToggleSaved)
                 else -> AboutTab(units, quizzes, zoom, onZoom)
@@ -468,7 +481,7 @@ fun AboutTab(units: List<UnitInfo>, quizzes: List<QuizSet>, zoom: Int, onZoom: (
             Column(Modifier.fillMaxWidth().padding(top = 16.dp), horizontalAlignment = Alignment.CenterHorizontally) {
                 Text("Department of Zoology, GASC, Nagercoil", fontWeight = FontWeight.SemiBold, color = Navy, style = MaterialTheme.typography.bodyMedium)
                 Text("Created by R. Ramesh", style = MaterialTheme.typography.labelSmall, color = Color(0xFF3B4F66))
-                Text("Version 1.2.1", style = MaterialTheme.typography.labelSmall, color = Color(0xFF3B4F66))
+                Text("Version 1.3.0", style = MaterialTheme.typography.labelSmall, color = Color(0xFF3B4F66))
             }
         }
     }

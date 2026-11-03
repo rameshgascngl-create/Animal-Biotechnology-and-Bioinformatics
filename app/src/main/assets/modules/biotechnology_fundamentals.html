@@ -1780,78 +1780,7 @@ td strong { color: var(--navy); }
 /* ==========================================================================
    QUIZ DATA — 10 MCQs
    ========================================================================== */
-const QUIZ = [
-  {
-    q: "Who coined the term 'Biotechnology' and in which year?",
-    opts: ["Louis Pasteur, 1857", "Károly Ereky, 1919", "James Watson, 1953", "Herbert Boyer, 1973"],
-    ans: 1,
-    exp: "✅ The term <strong>Biotechnology</strong> was coined by Hungarian engineer <strong>Károly Ereky in 1919</strong> to describe large-scale pig production using sugar beets as feed."
-  },
-  {
-    q: "Which of the following is the correct UN CBD (1992) definition of biotechnology?",
-    opts: [
-      "The use of computers to analyse biological data",
-      "Any technological application that uses biological systems, living organisms, or derivatives to make or modify products",
-      "The cultivation of microorganisms in industrial bioreactors",
-      "The study of genes and heredity in living organisms"
-    ],
-    ans: 1,
-    exp: "✅ The UN Convention on Biological Diversity (1992) defines biotechnology as any technological application that uses <strong>biological systems, living organisms, or derivatives</strong> to make or modify products or processes for specific use."
-  },
-  {
-    q: "What is the colour code for Agricultural Biotechnology?",
-    opts: ["Red", "Blue", "Green", "White"],
-    ans: 2,
-    exp: "✅ <strong>Green Biotechnology</strong> refers to agricultural applications — GM crops, Bt cotton, tissue culture, biofertilisers. Red = Medical, White = Industrial, Blue = Marine."
-  },
-  {
-    q: "The first recombinant human insulin (Humulin) was commercially produced using:",
-    opts: ["Saccharomyces cerevisiae", "Bacillus subtilis", "Escherichia coli", "Aspergillus niger"],
-    ans: 2,
-    exp: "✅ Human insulin (Humulin) was first produced commercially in 1982 by Eli Lilly using <strong>Escherichia coli</strong> with the recombinant human insulin gene. This was the first commercially successful rDNA product."
-  },
-  {
-    q: "Which enzyme acts as 'molecular scissors' in recombinant DNA technology?",
-    opts: ["DNA polymerase", "DNA ligase", "Restriction endonuclease", "RNA polymerase"],
-    ans: 2,
-    exp: "✅ <strong>Restriction endonucleases</strong> (restriction enzymes) act as 'molecular scissors' — they cut DNA at specific palindromic recognition sequences. DNA ligase acts as 'molecular glue' to join fragments."
-  },
-  {
-    q: "Bt cotton contains the 'cry' gene derived from:",
-    opts: ["Escherichia coli", "Bacillus thuringiensis", "Pseudomonas putida", "Rhizobium leguminosarum"],
-    ans: 1,
-    exp: "✅ Bt cotton contains the <strong>cry gene from <em>Bacillus thuringiensis</em></strong>. This gene encodes Cry proteins (Bt toxin) that are toxic to bollworm larvae but harmless to mammals. Bt cotton was approved in India in 2002."
-  },
-  {
-    q: "PCR (Polymerase Chain Reaction) was invented by:",
-    opts: ["Frederick Sanger", "Kary Mullis", "Paul Berg", "Stanley Cohen"],
-    ans: 1,
-    exp: "✅ <strong>Kary Mullis</strong> invented PCR in 1983 and received the Nobel Prize in Chemistry in 1993. PCR amplifies specific DNA sequences in vitro using thermal cycling and Taq DNA polymerase from <em>Thermus aquaticus</em>."
-  },
-  {
-    q: "Monoclonal antibody technology (hybridoma technique) was developed by:",
-    opts: ["Watson and Crick, 1953", "Kohler and Milstein, 1975", "Dolly and Wilmut, 1996", "Boyer and Cohen, 1973"],
-    ans: 1,
-    exp: "✅ <strong>Georges Köhler and César Milstein</strong> developed hybridoma technology in 1975, earning the Nobel Prize in 1984. The technique fuses B lymphocytes with myeloma cells to produce monoclonal antibodies."
-  },
-  {
-    q: "Which of the following is a correct example of bioremediation?",
-    opts: [
-      "Using UV radiation to sterilise water",
-      "Using Pseudomonas putida to degrade petroleum hydrocarbons in oil spills",
-      "Using nitrogen fertilisers to improve crop yield",
-      "Using restriction enzymes to cut DNA"
-    ],
-    ans: 1,
-    exp: "✅ <strong>Bioremediation</strong> uses microorganisms to degrade pollutants. <em>Pseudomonas putida</em> (first GMO patented by A. M. Chakrabarty, 1980) can degrade multiple petroleum hydrocarbons and is used in oil spill clean-up."
-  },
-  {
-    q: "CRISPR-Cas9 genome editing technology received the Nobel Prize in Chemistry in:",
-    opts: ["2016", "2018", "2020", "2022"],
-    ans: 2,
-    exp: "✅ <strong>Jennifer Doudna and Emmanuelle Charpentier</strong> received the Nobel Prize in Chemistry in <strong>2020</strong> for developing CRISPR-Cas9 as a precise genome editing tool, described as 'a tool for rewriting the code of life.'"
-  }
-];
+const QUIZ = [{"q":"Who coined the term 'Biotechnology' and in which year?","opts":["Louis Pasteur, 1857","James Watson, 1953","Herbert Boyer, 1973","Károly Ereky, 1919"],"ans":3,"exp":"✅ The term <strong>Biotechnology<\/strong> was coined by Hungarian engineer <strong>Károly Ereky in 1919<\/strong> to describe large-scale pig production using sugar beets as feed."},{"q":"Which of the following is the correct UN CBD (1992) definition of biotechnology?","opts":["The use of computers to analyse biological data","The cultivation of microorganisms in industrial bioreactors","Any technological application that uses biological systems, living organisms, or derivatives to make or modify products","The study of genes and heredity in living organisms"],"ans":2,"exp":"✅ The UN Convention on Biological Diversity (1992) defines biotechnology as any technological application that uses <strong>biological systems, living organisms, or derivatives<\/strong> to make or modify products or processes for specific use."},{"q":"What is the colour code for Agricultural Biotechnology?","opts":["Red","Green","Blue","White"],"ans":1,"exp":"✅ <strong>Green Biotechnology<\/strong> refers to agricultural applications — GM crops, Bt cotton, tissue culture, biofertilisers. Red = Medical, White = Industrial, Blue = Marine."},{"q":"The first recombinant human insulin (Humulin) was commercially produced using:","opts":["Saccharomyces cerevisiae","Bacillus subtilis","Aspergillus niger","Escherichia coli"],"ans":3,"exp":"✅ Human insulin (Humulin) was first produced commercially in 1982 by Eli Lilly using <strong>Escherichia coli<\/strong> with the recombinant human insulin gene. This was the first commercially successful rDNA product."},{"q":"Which enzyme acts as 'molecular scissors' in recombinant DNA technology?","opts":["DNA polymerase","Restriction endonuclease","DNA ligase","RNA polymerase"],"ans":1,"exp":"✅ <strong>Restriction endonucleases<\/strong> (restriction enzymes) act as 'molecular scissors' — they cut DNA at specific palindromic recognition sequences. DNA ligase acts as 'molecular glue' to join fragments."},{"q":"Bt cotton contains the 'cry' gene derived from:","opts":["Escherichia coli","Pseudomonas putida","Bacillus thuringiensis","Rhizobium leguminosarum"],"ans":2,"exp":"✅ Bt cotton contains the <strong>cry gene from <em>Bacillus thuringiensis<\/em><\/strong>. This gene encodes Cry proteins (Bt toxin) that are toxic to bollworm larvae but harmless to mammals. Bt cotton was approved in India in 2002."},{"q":"PCR (Polymerase Chain Reaction) was invented by:","opts":["Frederick Sanger","Paul Berg","Kary Mullis","Stanley Cohen"],"ans":2,"exp":"✅ <strong>Kary Mullis<\/strong> invented PCR in 1983 and received the Nobel Prize in Chemistry in 1993. PCR amplifies specific DNA sequences in vitro using thermal cycling and Taq DNA polymerase from <em>Thermus aquaticus<\/em>."},{"q":"Monoclonal antibody technology (hybridoma technique) was developed by:","opts":["Kohler and Milstein, 1975","Watson and Crick, 1953","Dolly and Wilmut, 1996","Boyer and Cohen, 1973"],"ans":0,"exp":"✅ <strong>Georges Köhler and César Milstein<\/strong> developed hybridoma technology in 1975, earning the Nobel Prize in 1984. The technique fuses B lymphocytes with myeloma cells to produce monoclonal antibodies."},{"q":"Which of the following is a correct example of bioremediation?","opts":["Using UV radiation to sterilise water","Using Pseudomonas putida to degrade petroleum hydrocarbons in oil spills","Using nitrogen fertilisers to improve crop yield","Using restriction enzymes to cut DNA"],"ans":1,"exp":"✅ <strong>Bioremediation<\/strong> uses microorganisms to degrade pollutants. <em>Pseudomonas putida<\/em> (first GMO patented by A. M. Chakrabarty, 1980) can degrade multiple petroleum hydrocarbons and is used in oil spill clean-up."},{"q":"CRISPR-Cas9 genome editing technology received the Nobel Prize in Chemistry in:","opts":["2020","2016","2018","2022"],"ans":0,"exp":"✅ <strong>Jennifer Doudna and Emmanuelle Charpentier<\/strong> received the Nobel Prize in Chemistry in <strong>2020<\/strong> for developing CRISPR-Cas9 as a precise genome editing tool, described as 'a tool for rewriting the code of life.'"}];
 
 /* ==========================================================================
    STATE
@@ -2063,7 +1992,9 @@ document.addEventListener('DOMContentLoaded', function () {
 html,body,:root{--text3:#34485c;--muted:#34485c;--text-muted:#34485c;--text-lt:#34485c;--text-light:#34485c;--text2:#26394c}
 .def-box .def-src{color:rgba(255,255,255,.8)!important}
 .a11y-svgscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
-.a11y-svgscroll>svg{min-width:560px;max-width:none!important;width:100%!important;height:auto}
+.a11y-svgscroll>svg{max-width:none!important;width:100%!important;height:auto}
+button,[role=button],select,input[type=button],input[type=submit],summary{min-height:44px}
+button.nb,.nb{min-height:44px}
 .a11y-hint{display:none;font:600 12.5px/1.3 system-ui,sans-serif;color:#0b6b60;margin:2px 0 6px}
 @media(max-width:700px){.a11y-hint{display:block}
 .a11y-stack,.a11y-stack tbody,.a11y-stack tr,.a11y-stack td{display:block!important;width:100%!important;box-sizing:border-box}
@@ -2097,9 +2028,13 @@ function tables(){
   tb.classList.add('a11y-stack')})
 }
 function svgs(){
- document.querySelectorAll('svg[viewBox]').forEach(function(s){if(s.dataset.a11y||s.closest('button,a,.a11y-svgscroll'))return;var v=s.getAttribute('viewBox').split(/[ ,]+/).map(Number);if(!(v[2]>=480&&v[3]>=100))return;s.dataset.a11y=1;
-  var w=document.createElement('div');w.className='a11y-svgscroll';s.parentNode.insertBefore(w,s);w.appendChild(s);
-  var h=document.createElement('div');h.className='a11y-hint';h.textContent='↔ Swipe sideways to see the whole diagram';w.parentNode.insertBefore(h,w)})
+ document.querySelectorAll('svg[viewBox]').forEach(function(s){if(s.dataset.a11y||s.closest('button,a,.a11y-svgscroll'))return;
+  var tx=s.querySelectorAll('text');if(tx.length<3)return;var v=s.getAttribute('viewBox').split(/[ ,]+/).map(Number);if(!(v[2]>0))return;s.dataset.a11y=1;
+  var fs=[].map.call(tx,function(t){return parseFloat(getComputedStyle(t).fontSize)||10}).sort(function(x,y){return x-y});
+  var f=fs[Math.floor(fs.length*.15)];var need=Math.min(1000,Math.max(0,v[2]*11.5/f));
+  if(need<=Math.min(window.innerWidth-32,360))return;
+  var w=document.createElement('div');w.className='a11y-svgscroll';s.parentNode.insertBefore(w,s);w.appendChild(s);s.style.minWidth=Math.round(need)+'px';
+  var h=document.createElement('div');h.className='a11y-hint';h.textContent='\u2194 Swipe sideways to see the whole diagram';w.parentNode.insertBefore(h,w)})
 }
 function run(){try{tables();svgs();pass()}catch(e){}}
 var tm;function later(){clearTimeout(tm);tm=setTimeout(run,350)}

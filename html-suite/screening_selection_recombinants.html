@@ -1672,100 +1672,7 @@ function teq(btn){
 /* ============================================================
    QUIZ DATA — 10 MCQs
    ============================================================ */
-var QD=[
-  {
-    q:"In blue-white screening, a blue colony indicates:",
-    o:["A recombinant clone with the gene of interest",
-       "A non-transformed cell killed by antibiotic",
-       "A non-recombinant transformant with an intact lacZ-α gene",
-       "A recombinant clone with a very large insert"],
-    a:2,
-    e:"Blue colonies have an intact lacZ-α gene (no insert in MCS). β-galactosidase is produced and cleaves X-gal to release a blue compound. These are non-recombinant transformants — the vector re-circularised without incorporating an insert."
-  },
-  {
-    q:"In insertional inactivation using pBR322, a recombinant clone is correctly identified as:",
-    o:["Ampicillin-sensitive and tetracycline-resistant",
-       "Ampicillin-resistant and tetracycline-sensitive",
-       "Sensitive to both ampicillin and tetracycline",
-       "Resistant to both ampicillin and tetracycline"],
-    a:1,
-    e:"When the insert is cloned into the BamHI site (within the tet^r gene of pBR322), the tet^r gene is disrupted. Recombinant cells lose tetracycline resistance (tet^s) but retain ampicillin resistance (amp^r) since the amp^r gene is unaffected. They are identified as amp^r but absent from the tetracycline replica plate."
-  },
-  {
-    q:"What is the role of IPTG in blue-white selection?",
-    o:["It directly kills non-recombinant bacteria",
-       "It is a chromogenic substrate cleaved by β-galactosidase to produce a blue colour",
-       "It induces expression of the lacZ-α gene in pUC vectors",
-       "It is a restriction enzyme that linearises the vector"],
-    a:2,
-    e:"IPTG (isopropyl β-D-1-thiogalactopyranoside) is a synthetic, non-hydrolysable inducer of the lac operon. It induces transcription of the lacZ-α gene in pUC vectors, ensuring sufficient β-galactosidase is produced for the blue colour reaction with X-gal."
-  },
-  {
-    q:"In colony hybridization, what is the purpose of treating the nylon membrane with NaOH?",
-    o:["To fix the probe to the membrane",
-       "To lyse the cells and denature the double-stranded DNA to single strands",
-       "To activate the radioactive probe",
-       "To select for transformed bacteria"],
-    a:1,
-    e:"NaOH (alkali) treatment serves two purposes: it lyses the bacterial cells (releasing DNA) and simultaneously denatures double-stranded DNA into single-stranded DNA. Single-stranded DNA can then hybridise with a complementary probe. The membrane is subsequently neutralised and baked/UV-cross-linked to fix the DNA."
-  },
-  {
-    q:"Direct selection using antibiotic resistance identifies:",
-    o:["Cells with the correct recombinant insert",
-       "Cells that have taken up any version of the vector (with or without insert)",
-       "Only cells with the intact lacZ gene",
-       "Only cells that have undergone colony hybridization"],
-    a:1,
-    e:"Direct selection identifies cells that have taken up ANY version of the vector — whether it contains the insert (recombinant) or not (re-ligated non-recombinant). Both types carry the antibiotic resistance marker and survive. A second screening step (blue-white, insertional inactivation, or colony hybridization) is always needed to identify recombinants."
-  },
-  {
-    q:"Replica plating is specifically required in which recombinant screening method?",
-    o:["Direct selection (antibiotic resistance)",
-       "Blue-white selection (lacZ system)",
-       "Insertional inactivation",
-       "Colony hybridization"],
-    a:2,
-    e:"Insertional inactivation requires replica plating. Colonies from the primary ampicillin selection plate are transferred to a tetracycline plate using a velvet pad. Colonies absent on the tetracycline plate (but present on the ampicillin plate) are identified as recombinants — their tet^r gene was disrupted by the insert."
-  },
-  {
-    q:"A researcher performs blue-white screening and observes that ALL colonies on the plate are white. The most likely explanation is:",
-    o:["The IPTG was omitted from the medium",
-       "The X-gal substrate was absent from the medium",
-       "All transformants are recombinant",
-       "The lacZ gene is constitutively expressed at maximum levels"],
-    a:1,
-    e:"If X-gal is absent from the medium, β-galactosidase (even if fully functional) has no substrate to cleave and cannot produce the blue compound. All colonies therefore remain white regardless of whether they are recombinant or not. Without X-gal, blue-white screening cannot work."
-  },
-  {
-    q:"In colony hybridization, what does a dark spot on the autoradiogram represent?",
-    o:["A colony that was killed by the radioactive probe",
-       "A colony whose DNA hybridised with the labelled probe — indicating the presence of the gene of interest",
-       "A non-recombinant colony with high plasmid copy number",
-       "A colony that expressed antibiotic resistance"],
-    a:1,
-    e:"A dark spot on the autoradiogram indicates that the ³²P-labelled probe has hybridised to complementary DNA in that colony's position on the membrane. This means the colony contains the gene of interest. The corresponding colony on the master plate is then picked for further culture and verification."
-  },
-  {
-    q:"What key advantage does colony hybridization have over insertional inactivation and blue-white selection?",
-    o:["Colony hybridization is faster and requires fewer steps",
-       "Colony hybridization identifies the specific correct insert (gene of interest), not just any insert",
-       "Colony hybridization does not require a probe sequence",
-       "Colony hybridization is less expensive than other methods"],
-    a:1,
-    e:"Colony hybridization is the only method that confirms the presence of the specific gene of interest — because the probe is designed to be complementary to that specific sequence. Insertional inactivation and blue-white selection only confirm that SOME insert has disrupted a marker gene, but they cannot identify whether the correct gene was cloned."
-  },
-  {
-    q:"Which of the following correctly summarises the events in blue-white screening when a foreign DNA insert is successfully cloned into the MCS of pUC19?",
-    o:[
-      "lacZ-α intact → β-galactosidase active → X-gal cleaved → blue colony",
-      "lacZ-α disrupted → β-galactosidase non-functional → X-gal not cleaved → white colony",
-      "lacZ-α intact → β-galactosidase non-functional → X-gal not cleaved → white colony",
-      "lacZ-α disrupted → β-galactosidase active → X-gal cleaved → blue colony"
-    ],
-    a:1,
-    e:"When an insert is cloned into the MCS (within lacZ-α), the lacZ-α reading frame is disrupted. This prevents production of a functional α-peptide. Without the α-peptide, α-complementation cannot occur and β-galactosidase is non-functional. X-gal is therefore not cleaved — no blue compound is produced — and the colony remains white. White = recombinant."
-  }
-];
+var QD=[{"q":"In blue-white screening, a blue colony indicates:","o":["A recombinant clone with the gene of interest","A non-transformed cell killed by antibiotic","A recombinant clone with a very large insert","A non-recombinant transformant with an intact lacZ-α gene"],"a":3,"e":"Blue colonies have an intact lacZ-α gene (no insert in MCS). β-galactosidase is produced and cleaves X-gal to release a blue compound. These are non-recombinant transformants — the vector re-circularised without incorporating an insert."},{"q":"In insertional inactivation using pBR322, a recombinant clone is correctly identified as:","o":["Ampicillin-sensitive and tetracycline-resistant","Sensitive to both ampicillin and tetracycline","Resistant to both ampicillin and tetracycline","Ampicillin-resistant and tetracycline-sensitive"],"a":3,"e":"When the insert is cloned into the BamHI site (within the tet^r gene of pBR322), the tet^r gene is disrupted. Recombinant cells lose tetracycline resistance (tet^s) but retain ampicillin resistance (amp^r) since the amp^r gene is unaffected. They are identified as amp^r but absent from the tetracycline replica plate."},{"q":"What is the role of IPTG in blue-white selection?","o":["It induces expression of the lacZ-α gene in pUC vectors","It directly kills non-recombinant bacteria","It is a chromogenic substrate cleaved by β-galactosidase to produce a blue colour","It is a restriction enzyme that linearises the vector"],"a":0,"e":"IPTG (isopropyl β-D-1-thiogalactopyranoside) is a synthetic, non-hydrolysable inducer of the lac operon. It induces transcription of the lacZ-α gene in pUC vectors, ensuring sufficient β-galactosidase is produced for the blue colour reaction with X-gal."},{"q":"In colony hybridization, what is the purpose of treating the nylon membrane with NaOH?","o":["To fix the probe to the membrane","To lyse the cells and denature the double-stranded DNA to single strands","To activate the radioactive probe","To select for transformed bacteria"],"a":1,"e":"NaOH (alkali) treatment serves two purposes: it lyses the bacterial cells (releasing DNA) and simultaneously denatures double-stranded DNA into single-stranded DNA. Single-stranded DNA can then hybridise with a complementary probe. The membrane is subsequently neutralised and baked/UV-cross-linked to fix the DNA."},{"q":"Direct selection using antibiotic resistance identifies:","o":["Cells that have taken up any version of the vector (with or without insert)","Cells with the correct recombinant insert","Only cells with the intact lacZ gene","Only cells that have undergone colony hybridization"],"a":0,"e":"Direct selection identifies cells that have taken up ANY version of the vector — whether it contains the insert (recombinant) or not (re-ligated non-recombinant). Both types carry the antibiotic resistance marker and survive. A second screening step (blue-white, insertional inactivation, or colony hybridization) is always needed to identify recombinants."},{"q":"Replica plating is specifically required in which recombinant screening method?","o":["Direct selection (antibiotic resistance)","Blue-white selection (lacZ system)","Insertional inactivation","Colony hybridization"],"a":2,"e":"Insertional inactivation requires replica plating. Colonies from the primary ampicillin selection plate are transferred to a tetracycline plate using a velvet pad. Colonies absent on the tetracycline plate (but present on the ampicillin plate) are identified as recombinants — their tet^r gene was disrupted by the insert."},{"q":"A researcher performs blue-white screening and observes that ALL colonies on the plate are white. The most likely explanation is:","o":["The IPTG was omitted from the medium","All transformants are recombinant","The lacZ gene is constitutively expressed at maximum levels","The X-gal substrate was absent from the medium"],"a":3,"e":"If X-gal is absent from the medium, β-galactosidase (even if fully functional) has no substrate to cleave and cannot produce the blue compound. All colonies therefore remain white regardless of whether they are recombinant or not. Without X-gal, blue-white screening cannot work."},{"q":"In colony hybridization, what does a dark spot on the autoradiogram represent?","o":["A colony that was killed by the radioactive probe","A colony whose DNA hybridised with the labelled probe — indicating the presence of the gene of interest","A non-recombinant colony with high plasmid copy number","A colony that expressed antibiotic resistance"],"a":1,"e":"A dark spot on the autoradiogram indicates that the ³²P-labelled probe has hybridised to complementary DNA in that colony's position on the membrane. This means the colony contains the gene of interest. The corresponding colony on the master plate is then picked for further culture and verification."},{"q":"What key advantage does colony hybridization have over insertional inactivation and blue-white selection?","o":["Colony hybridization identifies the specific correct insert (gene of interest), not just any insert","Colony hybridization is faster and requires fewer steps","Colony hybridization does not require a probe sequence","Colony hybridization is less expensive than other methods"],"a":0,"e":"Colony hybridization is the only method that confirms the presence of the specific gene of interest — because the probe is designed to be complementary to that specific sequence. Insertional inactivation and blue-white selection only confirm that SOME insert has disrupted a marker gene, but they cannot identify whether the correct gene was cloned."},{"q":"Which of the following correctly summarises the events in blue-white screening when a foreign DNA insert is successfully cloned into the MCS of pUC19?","o":["lacZ-α intact → β-galactosidase active → X-gal cleaved → blue colony","lacZ-α intact → β-galactosidase non-functional → X-gal not cleaved → white colony","lacZ-α disrupted → β-galactosidase non-functional → X-gal not cleaved → white colony","lacZ-α disrupted → β-galactosidase active → X-gal cleaved → blue colony"],"a":2,"e":"When an insert is cloned into the MCS (within lacZ-α), the lacZ-α reading frame is disrupted. This prevents production of a functional α-peptide. Without the α-peptide, α-complementation cannot occur and β-galactosidase is non-functional. X-gal is therefore not cleaved — no blue compound is produced — and the colony remains white. White = recombinant."}];
 
 /* QUIZ LOGIC */
 var cQ=0,sc=0,done=false,ua=[];
@@ -1852,7 +1759,9 @@ window.onload=function(){initQ();};
 html,body,:root{--text3:#34485c;--muted:#34485c;--text-muted:#34485c;--text-lt:#34485c;--text-light:#34485c;--text2:#26394c}
 .def-box .def-src{color:rgba(255,255,255,.8)!important}
 .a11y-svgscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
-.a11y-svgscroll>svg{min-width:560px;max-width:none!important;width:100%!important;height:auto}
+.a11y-svgscroll>svg{max-width:none!important;width:100%!important;height:auto}
+button,[role=button],select,input[type=button],input[type=submit],summary{min-height:44px}
+button.nb,.nb{min-height:44px}
 .a11y-hint{display:none;font:600 12.5px/1.3 system-ui,sans-serif;color:#0b6b60;margin:2px 0 6px}
 @media(max-width:700px){.a11y-hint{display:block}
 .a11y-stack,.a11y-stack tbody,.a11y-stack tr,.a11y-stack td{display:block!important;width:100%!important;box-sizing:border-box}
@@ -1886,9 +1795,13 @@ function tables(){
   tb.classList.add('a11y-stack')})
 }
 function svgs(){
- document.querySelectorAll('svg[viewBox]').forEach(function(s){if(s.dataset.a11y||s.closest('button,a,.a11y-svgscroll'))return;var v=s.getAttribute('viewBox').split(/[ ,]+/).map(Number);if(!(v[2]>=480&&v[3]>=100))return;s.dataset.a11y=1;
-  var w=document.createElement('div');w.className='a11y-svgscroll';s.parentNode.insertBefore(w,s);w.appendChild(s);
-  var h=document.createElement('div');h.className='a11y-hint';h.textContent='↔ Swipe sideways to see the whole diagram';w.parentNode.insertBefore(h,w)})
+ document.querySelectorAll('svg[viewBox]').forEach(function(s){if(s.dataset.a11y||s.closest('button,a,.a11y-svgscroll'))return;
+  var tx=s.querySelectorAll('text');if(tx.length<3)return;var v=s.getAttribute('viewBox').split(/[ ,]+/).map(Number);if(!(v[2]>0))return;s.dataset.a11y=1;
+  var fs=[].map.call(tx,function(t){return parseFloat(getComputedStyle(t).fontSize)||10}).sort(function(x,y){return x-y});
+  var f=fs[Math.floor(fs.length*.15)];var need=Math.min(1000,Math.max(0,v[2]*11.5/f));
+  if(need<=Math.min(window.innerWidth-32,360))return;
+  var w=document.createElement('div');w.className='a11y-svgscroll';s.parentNode.insertBefore(w,s);w.appendChild(s);s.style.minWidth=Math.round(need)+'px';
+  var h=document.createElement('div');h.className='a11y-hint';h.textContent='\u2194 Swipe sideways to see the whole diagram';w.parentNode.insertBefore(h,w)})
 }
 function run(){try{tables();svgs();pass()}catch(e){}}
 var tm;function later(){clearTimeout(tm);tm=setTimeout(run,350)}

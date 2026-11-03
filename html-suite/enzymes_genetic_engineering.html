@@ -1247,88 +1247,7 @@ function toggleExamQ(btn) {
 /* ============================================================
    QUIZ DATA
    ============================================================ */
-var quizData = [
-  {
-    q: "Which of the following enzymes is called a 'molecular scissor' in genetic engineering?",
-    options: ["DNA Ligase", "Restriction Endonuclease", "Taq Polymerase", "Reverse Transcriptase"],
-    correct: 1,
-    explanation: "Restriction endonucleases are called molecular scissors because they cut DNA at specific palindromic sequences with extreme precision, just as scissors cut paper at a defined point."
-  },
-  {
-    q: "EcoRI recognizes the sequence 5'-GAATTC-3'. What type of ends does it produce after cleavage?",
-    options: ["Blunt ends", "3' sticky ends", "5' sticky ends", "Circular ends"],
-    correct: 2,
-    explanation: "EcoRI makes a staggered cut between G and A on each strand, producing 5' overhangs (single-stranded -AATT tails). These are called 5' sticky ends or cohesive ends."
-  },
-  {
-    q: "Which restriction enzyme produces blunt ends?",
-    options: ["EcoRI", "BamHI", "SmaI", "HindIII"],
-    correct: 2,
-    explanation: "SmaI cuts 5'-GGG-CCC-3' at the center of its palindromic recognition sequence, producing fully double-stranded blunt ends with no single-stranded overhangs."
-  },
-  {
-    q: "DNA ligase catalyzes the formation of which type of bond to join two DNA fragments?",
-    options: ["Hydrogen bond", "Glycosidic bond", "Peptide bond", "Phosphodiester bond"],
-    correct: 3,
-    explanation: "DNA ligase catalyzes formation of a covalent 3'-5' phosphodiester bond between the 3'-OH of one fragment and the 5'-phosphate of the adjacent fragment, sealing nicks in the DNA backbone."
-  },
-  {
-    q: "Reverse transcriptase is used to synthesize which molecule?",
-    options: ["mRNA from DNA", "Protein from mRNA", "cDNA from mRNA", "DNA from protein"],
-    correct: 2,
-    explanation: "Reverse transcriptase, found in retroviruses, catalyzes synthesis of complementary DNA (cDNA) using single-stranded mRNA as a template, reversing the normal direction of genetic information flow."
-  },
-  {
-    q: "Taq polymerase is isolated from which source organism?",
-    options: ["Thermus aquaticus", "Escherichia coli", "Bacillus subtilis", "Thermus thermophilus"],
-    correct: 0,
-    explanation: "Taq polymerase is isolated from Thermus aquaticus, a thermophilic bacterium found in hot springs. Its thermostability at up to 95°C makes it ideal for use in PCR."
-  },
-  {
-    q: "What is the primary purpose of treating a vector with alkaline phosphatase before cloning?",
-    options: [
-      "To amplify the vector",
-      "To prevent vector self-ligation",
-      "To create sticky ends on the vector",
-      "To degrade any contaminating RNA"
-    ],
-    correct: 1,
-    explanation: "Alkaline phosphatase removes 5'-phosphate groups from linearized vector ends. Without these phosphates, the vector cannot self-ligate, forcing incorporation of insert DNA and improving cloning efficiency."
-  },
-  {
-    q: "Which Nobel Prize was awarded to Arber, Smith, and Nathans for the discovery of restriction enzymes?",
-    options: [
-      "Nobel Prize in Chemistry 1980",
-      "Nobel Prize in Physics 1978",
-      "Nobel Prize in Physiology or Medicine 1978",
-      "Nobel Prize in Physiology or Medicine 1975"
-    ],
-    correct: 2,
-    explanation: "Werner Arber, Hamilton Smith, and Daniel Nathans were jointly awarded the Nobel Prize in Physiology or Medicine in 1978 for the discovery and application of restriction endonucleases."
-  },
-  {
-    q: "A palindromic DNA sequence is best described as:",
-    options: [
-      "A sequence that codes for multiple proteins",
-      "A sequence with the same nucleotide at all positions",
-      "A sequence where both strands read identically in the 5' to 3' direction",
-      "A sequence that is present only in viral genomes"
-    ],
-    correct: 2,
-    explanation: "A palindromic DNA sequence reads identically on both strands in the 5' to 3' direction. For example, GAATTC reads the same on both strands when each is read 5' to 3'. This symmetry is what restriction enzymes recognize."
-  },
-  {
-    q: "Which of the following enzymes is essential for the extension step in PCR?",
-    options: [
-      "DNA Ligase",
-      "Restriction Endonuclease",
-      "Alkaline Phosphatase",
-      "Taq Polymerase"
-    ],
-    correct: 3,
-    explanation: "Taq polymerase is the thermostable DNA polymerase used in PCR. During the extension step at approximately 72°C, it synthesizes new DNA strands from annealed primers using the denatured template, amplifying the target sequence."
-  }
-];
+var quizData = [{"q":"Which of the following enzymes is called a 'molecular scissor' in genetic engineering?","options":["DNA Ligase","Taq Polymerase","Restriction Endonuclease","Reverse Transcriptase"],"correct":2,"explanation":"Restriction endonucleases are called molecular scissors because they cut DNA at specific palindromic sequences with extreme precision, just as scissors cut paper at a defined point."},{"q":"EcoRI recognizes the sequence 5'-GAATTC-3'. What type of ends does it produce after cleavage?","options":["Blunt ends","3' sticky ends","Circular ends","5' sticky ends"],"correct":3,"explanation":"EcoRI makes a staggered cut between G and A on each strand, producing 5' overhangs (single-stranded -AATT tails). These are called 5' sticky ends or cohesive ends."},{"q":"Which restriction enzyme produces blunt ends?","options":["EcoRI","BamHI","HindIII","SmaI"],"correct":3,"explanation":"SmaI cuts 5'-GGG-CCC-3' at the center of its palindromic recognition sequence, producing fully double-stranded blunt ends with no single-stranded overhangs."},{"q":"DNA ligase catalyzes the formation of which type of bond to join two DNA fragments?","options":["Hydrogen bond","Phosphodiester bond","Glycosidic bond","Peptide bond"],"correct":1,"explanation":"DNA ligase catalyzes formation of a covalent 3'-5' phosphodiester bond between the 3'-OH of one fragment and the 5'-phosphate of the adjacent fragment, sealing nicks in the DNA backbone."},{"q":"Reverse transcriptase is used to synthesize which molecule?","options":["cDNA from mRNA","mRNA from DNA","Protein from mRNA","DNA from protein"],"correct":0,"explanation":"Reverse transcriptase, found in retroviruses, catalyzes synthesis of complementary DNA (cDNA) using single-stranded mRNA as a template, reversing the normal direction of genetic information flow."},{"q":"Taq polymerase is isolated from which source organism?","options":["Escherichia coli","Bacillus subtilis","Thermus aquaticus","Thermus thermophilus"],"correct":2,"explanation":"Taq polymerase is isolated from Thermus aquaticus, a thermophilic bacterium found in hot springs. Its thermostability at up to 95°C makes it ideal for use in PCR."},{"q":"What is the primary purpose of treating a vector with alkaline phosphatase before cloning?","options":["To prevent vector self-ligation","To amplify the vector","To create sticky ends on the vector","To degrade any contaminating RNA"],"correct":0,"explanation":"Alkaline phosphatase removes 5'-phosphate groups from linearized vector ends. Without these phosphates, the vector cannot self-ligate, forcing incorporation of insert DNA and improving cloning efficiency."},{"q":"Which Nobel Prize was awarded to Arber, Smith, and Nathans for the discovery of restriction enzymes?","options":["Nobel Prize in Chemistry 1980","Nobel Prize in Physiology or Medicine 1978","Nobel Prize in Physics 1978","Nobel Prize in Physiology or Medicine 1975"],"correct":1,"explanation":"Werner Arber, Hamilton Smith, and Daniel Nathans were jointly awarded the Nobel Prize in Physiology or Medicine in 1978 for the discovery and application of restriction endonucleases."},{"q":"A palindromic DNA sequence is best described as:","options":["A sequence that codes for multiple proteins","A sequence where both strands read identically in the 5' to 3' direction","A sequence with the same nucleotide at all positions","A sequence that is present only in viral genomes"],"correct":1,"explanation":"A palindromic DNA sequence reads identically on both strands in the 5' to 3' direction. For example, GAATTC reads the same on both strands when each is read 5' to 3'. This symmetry is what restriction enzymes recognize."},{"q":"Which of the following enzymes is essential for the extension step in PCR?","options":["Taq Polymerase","DNA Ligase","Restriction Endonuclease","Alkaline Phosphatase"],"correct":0,"explanation":"Taq polymerase is the thermostable DNA polymerase used in PCR. During the extension step at approximately 72°C, it synthesizes new DNA strands from annealed primers using the denatured template, amplifying the target sequence."}];
 
 /* ============================================================
    QUIZ STATE VARIABLES
@@ -1503,7 +1422,9 @@ window.onload = function () {
 html,body,:root{--text3:#34485c;--muted:#34485c;--text-muted:#34485c;--text-lt:#34485c;--text-light:#34485c;--text2:#26394c}
 .def-box .def-src{color:rgba(255,255,255,.8)!important}
 .a11y-svgscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
-.a11y-svgscroll>svg{min-width:560px;max-width:none!important;width:100%!important;height:auto}
+.a11y-svgscroll>svg{max-width:none!important;width:100%!important;height:auto}
+button,[role=button],select,input[type=button],input[type=submit],summary{min-height:44px}
+button.nb,.nb{min-height:44px}
 .a11y-hint{display:none;font:600 12.5px/1.3 system-ui,sans-serif;color:#0b6b60;margin:2px 0 6px}
 @media(max-width:700px){.a11y-hint{display:block}
 .a11y-stack,.a11y-stack tbody,.a11y-stack tr,.a11y-stack td{display:block!important;width:100%!important;box-sizing:border-box}
@@ -1537,9 +1458,13 @@ function tables(){
   tb.classList.add('a11y-stack')})
 }
 function svgs(){
- document.querySelectorAll('svg[viewBox]').forEach(function(s){if(s.dataset.a11y||s.closest('button,a,.a11y-svgscroll'))return;var v=s.getAttribute('viewBox').split(/[ ,]+/).map(Number);if(!(v[2]>=480&&v[3]>=100))return;s.dataset.a11y=1;
-  var w=document.createElement('div');w.className='a11y-svgscroll';s.parentNode.insertBefore(w,s);w.appendChild(s);
-  var h=document.createElement('div');h.className='a11y-hint';h.textContent='↔ Swipe sideways to see the whole diagram';w.parentNode.insertBefore(h,w)})
+ document.querySelectorAll('svg[viewBox]').forEach(function(s){if(s.dataset.a11y||s.closest('button,a,.a11y-svgscroll'))return;
+  var tx=s.querySelectorAll('text');if(tx.length<3)return;var v=s.getAttribute('viewBox').split(/[ ,]+/).map(Number);if(!(v[2]>0))return;s.dataset.a11y=1;
+  var fs=[].map.call(tx,function(t){return parseFloat(getComputedStyle(t).fontSize)||10}).sort(function(x,y){return x-y});
+  var f=fs[Math.floor(fs.length*.15)];var need=Math.min(1000,Math.max(0,v[2]*11.5/f));
+  if(need<=Math.min(window.innerWidth-32,360))return;
+  var w=document.createElement('div');w.className='a11y-svgscroll';s.parentNode.insertBefore(w,s);w.appendChild(s);s.style.minWidth=Math.round(need)+'px';
+  var h=document.createElement('div');h.className='a11y-hint';h.textContent='\u2194 Swipe sideways to see the whole diagram';w.parentNode.insertBefore(h,w)})
 }
 function run(){try{tables();svgs();pass()}catch(e){}}
 var tm;function later(){clearTimeout(tm);tm=setTimeout(run,350)}

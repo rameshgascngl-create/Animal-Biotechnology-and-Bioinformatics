@@ -40,13 +40,26 @@ import androidx.compose.ui.unit.dp
 
 /** Revise tab: list of modules that have native revision content, plus a global glossary. */
 @Composable
-fun ReviseTab(sets: List<RevisionSet>, onOpen: (RevisionSet) -> Unit, onGlossary: () -> Unit) {
+fun ReviseTab(
+    sets: List<RevisionSet>,
+    onOpen: (RevisionSet) -> Unit,
+    onGlossary: () -> Unit,
+    onFlash: () -> Unit,
+    onSearch: () -> Unit,
+    ready: Int,
+) {
     val terms = sets.sumOf { it.glossary.size }
     LazyColumn(
         Modifier.fillMaxSize(),
         contentPadding = PaddingValues(16.dp),
         verticalArrangement = Arrangement.spacedBy(8.dp),
     ) {
+        item(key = "fc") {
+            QuizRow("Flashcards", if (ready > 0) "$ready cards ready today (spaced repetition)" else "Nothing due today", null, onFlash)
+        }
+        item(key = "se") {
+            QuizRow("Search all content", "Topics, sections, key points, answers and terms", null, onSearch)
+        }
         item(key = "gl") {
             QuizRow("Glossary: all terms", "$terms terms, searchable", null, onGlossary)
         }
@@ -65,14 +78,6 @@ fun ReviseTab(sets: List<RevisionSet>, onOpen: (RevisionSet) -> Unit, onGlossary
             if (rs.saqs.isNotEmpty()) parts.add("${rs.saqs.size} short answers")
             if (rs.glossary.isNotEmpty()) parts.add("${rs.glossary.size} terms")
             QuizRow(rs.title, "Unit ${rs.unitRoman}  ·  " + parts.joinToString(", "), null) { onOpen(rs) }
-        }
-        item(key = "note") {
-            Text(
-                "More modules will get native revision pages in later updates; their full chapters are always available under Syllabus.",
-                style = MaterialTheme.typography.bodySmall,
-                color = Color(0xFF3B4F66),
-                modifier = Modifier.padding(top = 8.dp),
-            )
         }
     }
 }

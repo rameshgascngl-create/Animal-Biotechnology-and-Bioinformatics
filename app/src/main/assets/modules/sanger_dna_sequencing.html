@@ -1548,98 +1548,7 @@ function teq(btn){
 /* ============================================================
    QUIZ DATA
    ============================================================ */
-var QD=[
-  {
-    q:"What is the critical structural difference between a dNTP and a ddNTP that enables chain termination?",
-    o:["ddNTP has no 5'-phosphate group",
-       "ddNTP has a hydrogen (H) at the 3' position instead of a hydroxyl (OH) group",
-       "ddNTP has a ribose sugar instead of deoxyribose",
-       "ddNTP has a modified nucleobase"],
-    a:1,
-    e:"The only structural difference between dNTP and ddNTP is at the 3' position of the deoxyribose sugar: dNTP has a free 3'-OH (hydroxyl group) that allows the next phosphodiester bond to form, while ddNTP has only a 3'-H (hydrogen atom) — no OH group. Without 3'-OH, DNA polymerase cannot catalyse the next bond, and chain synthesis terminates permanently."
-  },
-  {
-    q:"In the Sanger sequencing reaction, what is the purpose of adding ddNTPs at a much lower concentration (~100×) than dNTPs?",
-    o:["To ensure all fragments are very short for better gel resolution",
-       "To save cost since ddNTPs are expensive",
-       "To ensure termination occurs randomly at every possible position, generating fragments of all lengths",
-       "To prevent the primer from being incorporated into the sequence"],
-    a:2,
-    e:"ddNTPs at low concentration (~1:100 vs dNTPs) ensure that chain termination occurs randomly and infrequently at every position. This produces a complete 'ladder' of fragments with all possible lengths — essential for reading the full sequence. If ddNTPs were too concentrated, only very short fragments (terminated near the primer) would be produced."
-  },
-  {
-    q:"In modern automated Sanger sequencing using capillary electrophoresis, how are the four different ddNTPs distinguished?",
-    o:["Each ddNTP is present in a separate reaction tube",
-       "Each ddNTP is labelled with a different radioactive isotope",
-       "Each ddNTP carries a different fluorescent dye that emits a unique colour when excited by a laser",
-       "They are distinguished by their different molecular weights in the mass spectrometer"],
-    a:2,
-    e:"In modern automated Sanger sequencing, all four ddNTPs (ddA, ddT, ddG, ddC) are present in a single reaction, each labelled with a different fluorescent dye (e.g., ddA=green, ddT=red, ddG=blue, ddC=purple). When fragments pass the laser in the capillary, each emits its characteristic colour, allowing the base at each position to be identified from the chromatogram peak colours."
-  },
-  {
-    q:"How is the DNA sequence read from a traditional four-lane sequencing gel?",
-    o:["Read from top to bottom, the lane of each band gives the base at that position",
-       "Read from bottom to top (smallest fragments first), the lane of each band gives the base at that position",
-       "Compare band intensities in each lane to determine the most common base",
-       "Read the gel from left to right, each column representing one nucleotide position"],
-    a:1,
-    e:"In a four-lane Sanger sequencing gel (ddA, ddT, ddG, ddC lanes), the sequence is read from bottom to top — the smallest fragments (shortest, closest to the primer = earliest nucleotide positions) run fastest and are at the bottom. At each band position, reading which lane contains the band gives the nucleotide (A, T, G, or C) at that position in the 5'→3' direction of the new strand."
-  },
-  {
-    q:"Who developed the chain-termination DNA sequencing method and in which year?",
-    o:["James Watson and Francis Crick, 1953",
-       "Walter Gilbert, 1975",
-       "Frederick Sanger, 1977",
-       "Kary Mullis, 1983"],
-    a:2,
-    e:"The chain-termination (dideoxy) DNA sequencing method was developed by Frederick Sanger and colleagues at the MRC Laboratory of Molecular Biology, Cambridge, in 1977. Sanger was awarded the Nobel Prize in Chemistry in 1980 for this achievement — his second Nobel Prize (having received his first in 1958 for protein sequencing of insulin)."
-  },
-  {
-    q:"In Sanger sequencing, which component provides the starting point for DNA synthesis by DNA polymerase?",
-    o:["The template DNA strand itself",
-       "The ddNTP chain terminator",
-       "The oligonucleotide primer complementary to the template",
-       "The Mg²⁺ cofactor in the reaction buffer"],
-    a:2,
-    e:"The oligonucleotide primer provides the starting point for DNA synthesis. It is a short (18–25 nt) synthetic single-stranded sequence complementary to the template strand, upstream of the region to be sequenced. DNA polymerase requires a free 3'-OH terminus to initiate synthesis — the primer provides this 3'-OH. Without a primer, DNA polymerase cannot begin synthesis."
-  },
-  {
-    q:"What does the chromatogram (electropherogram) output of automated Sanger sequencing show?",
-    o:["Four separate lanes of dark bands on X-ray film",
-       "Coloured fluorescent peaks on a time axis, where each peak colour identifies one nucleotide base",
-       "A Southern blot pattern showing hybridised fragments",
-       "A scatter plot of DNA fragment masses"],
-    a:1,
-    e:"The chromatogram (electropherogram) from automated fluorescent Sanger sequencing shows coloured peaks plotted against time (or fragment size). Each peak represents one nucleotide position in the sequence — the peak colour identifies which base is present (e.g., green for A, red for T, blue for G, purple for C). The sequence is read from left to right (earliest eluting = smallest fragments = first bases in 5'→3' direction)."
-  },
-  {
-    q:"Which enzyme is responsible for synthesising the new complementary strand during Sanger sequencing?",
-    o:["RNA polymerase",
-       "DNA ligase",
-       "Reverse transcriptase",
-       "DNA polymerase (e.g., Klenow fragment or Taq polymerase)"],
-    a:3,
-    e:"DNA polymerase synthesises the new complementary strand in Sanger sequencing. In the original method, the Klenow fragment (large fragment of E. coli DNA Pol I, lacking 5'→3' exonuclease activity) was used. Modern cycle sequencing uses thermostable polymerases like Taq. The polymerase reads the template 3'→5' and synthesises the new strand 5'→3', incorporating dNTPs and occasionally ddNTPs."
-  },
-  {
-    q:"A Sanger sequencing run typically provides how many reliable base calls per reaction?",
-    o:["50–100 bases",
-       "100–200 bases",
-       "600–1000 bases",
-       "10,000–50,000 bases"],
-    a:2,
-    e:"A standard Sanger sequencing run typically provides 600–1000 reliable base calls per reaction, with accuracy greater than 99.99% for high-quality regions. The first 15–40 bases are usually unreliable (primer region). This read length, while limited compared to NGS, is more than sufficient for verifying clones, sequencing single genes, and targeted mutation analysis."
-  },
-  {
-    q:"Which of the following is a major limitation of Sanger sequencing compared to next-generation sequencing (NGS)?",
-    o:["Sanger sequencing is far less accurate than NGS methods",
-       "Sanger sequencing has very low throughput — only ~1 kb per reaction — making whole-genome sequencing extremely expensive and time-consuming",
-       "Sanger sequencing requires a separate primer for every single nucleotide position",
-       "Sanger sequencing cannot be used to sequence PCR products or plasmids"],
-    a:1,
-    e:"The major limitation of Sanger sequencing is low throughput — only ~600–1000 bp per reaction. Sequencing an entire human genome (3.2 Gb) by Sanger would require millions of reactions and cost ~$3 billion (as in the Human Genome Project). In contrast, modern NGS platforms can sequence billions of bases simultaneously at a fraction of the cost. Sanger remains superior in accuracy and read length for targeted applications."
-  }
-];
+var QD=[{"q":"What is the critical structural difference between a dNTP and a ddNTP that enables chain termination?","o":["ddNTP has no 5'-phosphate group","ddNTP has a hydrogen (H) at the 3' position instead of a hydroxyl (OH) group","ddNTP has a ribose sugar instead of deoxyribose","ddNTP has a modified nucleobase"],"a":1,"e":"The only structural difference between dNTP and ddNTP is at the 3' position of the deoxyribose sugar: dNTP has a free 3'-OH (hydroxyl group) that allows the next phosphodiester bond to form, while ddNTP has only a 3'-H (hydrogen atom) — no OH group. Without 3'-OH, DNA polymerase cannot catalyse the next bond, and chain synthesis terminates permanently."},{"q":"In the Sanger sequencing reaction, what is the purpose of adding ddNTPs at a much lower concentration (~100×) than dNTPs?","o":["To ensure all fragments are very short for better gel resolution","To save cost since ddNTPs are expensive","To prevent the primer from being incorporated into the sequence","To ensure termination occurs randomly at every possible position, generating fragments of all lengths"],"a":3,"e":"ddNTPs at low concentration (~1:100 vs dNTPs) ensure that chain termination occurs randomly and infrequently at every position. This produces a complete 'ladder' of fragments with all possible lengths — essential for reading the full sequence. If ddNTPs were too concentrated, only very short fragments (terminated near the primer) would be produced."},{"q":"In modern automated Sanger sequencing using capillary electrophoresis, how are the four different ddNTPs distinguished?","o":["Each ddNTP carries a different fluorescent dye that emits a unique colour when excited by a laser","Each ddNTP is present in a separate reaction tube","Each ddNTP is labelled with a different radioactive isotope","They are distinguished by their different molecular weights in the mass spectrometer"],"a":0,"e":"In modern automated Sanger sequencing, all four ddNTPs (ddA, ddT, ddG, ddC) are present in a single reaction, each labelled with a different fluorescent dye (e.g., ddA=green, ddT=red, ddG=blue, ddC=purple). When fragments pass the laser in the capillary, each emits its characteristic colour, allowing the base at each position to be identified from the chromatogram peak colours."},{"q":"How is the DNA sequence read from a traditional four-lane sequencing gel?","o":["Read from top to bottom, the lane of each band gives the base at that position","Compare band intensities in each lane to determine the most common base","Read from bottom to top (smallest fragments first), the lane of each band gives the base at that position","Read the gel from left to right, each column representing one nucleotide position"],"a":2,"e":"In a four-lane Sanger sequencing gel (ddA, ddT, ddG, ddC lanes), the sequence is read from bottom to top — the smallest fragments (shortest, closest to the primer = earliest nucleotide positions) run fastest and are at the bottom. At each band position, reading which lane contains the band gives the nucleotide (A, T, G, or C) at that position in the 5'→3' direction of the new strand."},{"q":"Who developed the chain-termination DNA sequencing method and in which year?","o":["James Watson and Francis Crick, 1953","Frederick Sanger, 1977","Walter Gilbert, 1975","Kary Mullis, 1983"],"a":1,"e":"The chain-termination (dideoxy) DNA sequencing method was developed by Frederick Sanger and colleagues at the MRC Laboratory of Molecular Biology, Cambridge, in 1977. Sanger was awarded the Nobel Prize in Chemistry in 1980 for this achievement — his second Nobel Prize (having received his first in 1958 for protein sequencing of insulin)."},{"q":"In Sanger sequencing, which component provides the starting point for DNA synthesis by DNA polymerase?","o":["The oligonucleotide primer complementary to the template","The template DNA strand itself","The ddNTP chain terminator","The Mg²⁺ cofactor in the reaction buffer"],"a":0,"e":"The oligonucleotide primer provides the starting point for DNA synthesis. It is a short (18–25 nt) synthetic single-stranded sequence complementary to the template strand, upstream of the region to be sequenced. DNA polymerase requires a free 3'-OH terminus to initiate synthesis — the primer provides this 3'-OH. Without a primer, DNA polymerase cannot begin synthesis."},{"q":"What does the chromatogram (electropherogram) output of automated Sanger sequencing show?","o":["Four separate lanes of dark bands on X-ray film","A Southern blot pattern showing hybridised fragments","Coloured fluorescent peaks on a time axis, where each peak colour identifies one nucleotide base","A scatter plot of DNA fragment masses"],"a":2,"e":"The chromatogram (electropherogram) from automated fluorescent Sanger sequencing shows coloured peaks plotted against time (or fragment size). Each peak represents one nucleotide position in the sequence — the peak colour identifies which base is present (e.g., green for A, red for T, blue for G, purple for C). The sequence is read from left to right (earliest eluting = smallest fragments = first bases in 5'→3' direction)."},{"q":"Which enzyme is responsible for synthesising the new complementary strand during Sanger sequencing?","o":["RNA polymerase","DNA ligase","Reverse transcriptase","DNA polymerase (e.g., Klenow fragment or Taq polymerase)"],"a":3,"e":"DNA polymerase synthesises the new complementary strand in Sanger sequencing. In the original method, the Klenow fragment (large fragment of E. coli DNA Pol I, lacking 5'→3' exonuclease activity) was used. Modern cycle sequencing uses thermostable polymerases like Taq. The polymerase reads the template 3'→5' and synthesises the new strand 5'→3', incorporating dNTPs and occasionally ddNTPs."},{"q":"A Sanger sequencing run typically provides how many reliable base calls per reaction?","o":["50–100 bases","100–200 bases","10,000–50,000 bases","600–1000 bases"],"a":3,"e":"A standard Sanger sequencing run typically provides 600–1000 reliable base calls per reaction, with accuracy greater than 99.99% for high-quality regions. The first 15–40 bases are usually unreliable (primer region). This read length, while limited compared to NGS, is more than sufficient for verifying clones, sequencing single genes, and targeted mutation analysis."},{"q":"Which of the following is a major limitation of Sanger sequencing compared to next-generation sequencing (NGS)?","o":["Sanger sequencing is far less accurate than NGS methods","Sanger sequencing requires a separate primer for every single nucleotide position","Sanger sequencing has very low throughput — only ~1 kb per reaction — making whole-genome sequencing extremely expensive and time-consuming","Sanger sequencing cannot be used to sequence PCR products or plasmids"],"a":2,"e":"The major limitation of Sanger sequencing is low throughput — only ~600–1000 bp per reaction. Sequencing an entire human genome (3.2 Gb) by Sanger would require millions of reactions and cost ~$3 billion (as in the Human Genome Project). In contrast, modern NGS platforms can sequence billions of bases simultaneously at a fraction of the cost. Sanger remains superior in accuracy and read length for targeted applications."}];
 
 /* QUIZ LOGIC */
 var cQ=0,sc=0,done=false,ua=[];
@@ -1726,7 +1635,9 @@ window.onload=function(){initQ();};
 html,body,:root{--text3:#34485c;--muted:#34485c;--text-muted:#34485c;--text-lt:#34485c;--text-light:#34485c;--text2:#26394c}
 .def-box .def-src{color:rgba(255,255,255,.8)!important}
 .a11y-svgscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
-.a11y-svgscroll>svg{min-width:560px;max-width:none!important;width:100%!important;height:auto}
+.a11y-svgscroll>svg{max-width:none!important;width:100%!important;height:auto}
+button,[role=button],select,input[type=button],input[type=submit],summary{min-height:44px}
+button.nb,.nb{min-height:44px}
 .a11y-hint{display:none;font:600 12.5px/1.3 system-ui,sans-serif;color:#0b6b60;margin:2px 0 6px}
 @media(max-width:700px){.a11y-hint{display:block}
 .a11y-stack,.a11y-stack tbody,.a11y-stack tr,.a11y-stack td{display:block!important;width:100%!important;box-sizing:border-box}
@@ -1760,9 +1671,13 @@ function tables(){
   tb.classList.add('a11y-stack')})
 }
 function svgs(){
- document.querySelectorAll('svg[viewBox]').forEach(function(s){if(s.dataset.a11y||s.closest('button,a,.a11y-svgscroll'))return;var v=s.getAttribute('viewBox').split(/[ ,]+/).map(Number);if(!(v[2]>=480&&v[3]>=100))return;s.dataset.a11y=1;
-  var w=document.createElement('div');w.className='a11y-svgscroll';s.parentNode.insertBefore(w,s);w.appendChild(s);
-  var h=document.createElement('div');h.className='a11y-hint';h.textContent='↔ Swipe sideways to see the whole diagram';w.parentNode.insertBefore(h,w)})
+ document.querySelectorAll('svg[viewBox]').forEach(function(s){if(s.dataset.a11y||s.closest('button,a,.a11y-svgscroll'))return;
+  var tx=s.querySelectorAll('text');if(tx.length<3)return;var v=s.getAttribute('viewBox').split(/[ ,]+/).map(Number);if(!(v[2]>0))return;s.dataset.a11y=1;
+  var fs=[].map.call(tx,function(t){return parseFloat(getComputedStyle(t).fontSize)||10}).sort(function(x,y){return x-y});
+  var f=fs[Math.floor(fs.length*.15)];var need=Math.min(1000,Math.max(0,v[2]*11.5/f));
+  if(need<=Math.min(window.innerWidth-32,360))return;
+  var w=document.createElement('div');w.className='a11y-svgscroll';s.parentNode.insertBefore(w,s);w.appendChild(s);s.style.minWidth=Math.round(need)+'px';
+  var h=document.createElement('div');h.className='a11y-hint';h.textContent='\u2194 Swipe sideways to see the whole diagram';w.parentNode.insertBefore(h,w)})
 }
 function run(){try{tables();svgs();pass()}catch(e){}}
 var tm;function later(){clearTimeout(tm);tm=setTimeout(run,350)}

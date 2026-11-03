@@ -1214,68 +1214,7 @@ function teq(btn){
 /* ============================================================
    QUIZ DATA
    ============================================================ */
-var QD=[
-  {
-    q:"PCR was invented by whom and in which year?",
-    o:["Frederick Sanger, 1977","James Watson, 1953","Kary Mullis, 1983","Herbert Boyer, 1973"],
-    a:2,
-    e:"PCR (Polymerase Chain Reaction) was invented by Kary Mullis in 1983 while working at Cetus Corporation. He was awarded the Nobel Prize in Chemistry in 1993 for this revolutionary invention. Sanger developed DNA sequencing in 1977; Watson and Crick described DNA structure in 1953."
-  },
-  {
-    q:"What is the correct sequence of the three stages of a PCR cycle?",
-    o:["Annealing → Denaturation → Extension","Extension → Annealing → Denaturation","Denaturation → Annealing → Extension","Denaturation → Extension → Annealing"],
-    a:2,
-    e:"The correct order is Denaturation (94–96°C) → Annealing (50–65°C) → Extension (72°C). First, DNA strands are separated by heat; then primers bind to their complementary sequences at lower temperature; finally, Taq polymerase extends the primers at 72°C to synthesise the new strand."
-  },
-  {
-    q:"What is the temperature used in the extension step of PCR and why?",
-    o:["94–96°C — to melt the DNA","50–65°C — for primer annealing","72°C — optimal temperature for Taq DNA polymerase activity","37°C — standard enzyme temperature"],
-    a:2,
-    e:"The extension step is performed at 72°C because this is the optimal activity temperature of Taq DNA polymerase (isolated from Thermus aquaticus, a hot spring bacterium). At 72°C, Taq extends primers at a rate of approximately 1000 bp/minute, synthesising the new complementary strand from the annealed primers."
-  },
-  {
-    q:"After 30 cycles of PCR starting from a single DNA molecule, approximately how many copies are produced?",
-    o:["30 copies","1,000 copies","1 million copies","1 billion copies (∼10⁹)"],
-    a:3,
-    e:"The number of copies after n cycles = 2ⁿ. After 30 cycles: 2³⁰ = 1,073,741,824 ≈ 1 billion (10⁹) copies. This exponential amplification is the key power of PCR — each cycle doubles the number of copies, because products of each cycle serve as templates for the next."
-  },
-  {
-    q:"Which enzyme makes PCR practical for automation by withstanding repeated heating to 95°C?",
-    o:["DNA Ligase (T4)","E. coli DNA Polymerase I","Taq DNA Polymerase","Reverse Transcriptase"],
-    a:2,
-    e:"Taq DNA Polymerase, isolated from the thermophilic bacterium Thermus aquaticus, is heat-stable and survives the 94–96°C denaturation step that would destroy ordinary enzymes. Before Taq polymerase was used, researchers had to add fresh enzyme after each denaturation step, making automation impractical."
-  },
-  {
-    q:"In RT-PCR, what is the role of reverse transcriptase?",
-    o:["It denatures the DNA template at high temperature","It amplifies cDNA during thermal cycling","It converts RNA (mRNA) into complementary DNA (cDNA) before PCR amplification","It labels the PCR product with fluorescence"],
-    a:2,
-    e:"In RT-PCR, reverse transcriptase converts single-stranded mRNA into complementary DNA (cDNA) in a step BEFORE PCR thermal cycling. This reverse transcription step is essential because Taq polymerase can only copy DNA templates. The resulting cDNA then serves as the template for standard PCR amplification."
-  },
-  {
-    q:"What is the main advantage of Nested PCR over conventional PCR?",
-    o:["It requires fewer components","It uses a lower denaturation temperature","It provides much higher sensitivity and specificity using two sets of primers","It can amplify RNA directly without reverse transcription"],
-    a:2,
-    e:"Nested PCR uses two sequential PCR reactions: the first uses outer primers to amplify a larger region, and the second uses inner (nested) primers within the first product. This two-round approach dramatically increases sensitivity (detects very low copy number targets) and specificity (the probability of non-specific products matching BOTH outer and inner primer pairs is extremely low)."
-  },
-  {
-    q:"What is the role of Mg²⁺ ions in PCR?",
-    o:["Mg²⁺ denatures the DNA double helix","Mg²⁺ is the energy source for polymerase","Mg²⁺ is an essential cofactor for Taq DNA polymerase activity and stabilises primer-template duplexes","Mg²⁺ prevents primer dimer formation"],
-    a:2,
-    e:"Magnesium ions (Mg²⁺, added as MgCl₂ at 1.5–2.5 mM) serve as an essential cofactor for Taq DNA polymerase catalytic activity. Mg²⁺ also stabilises primer-template duplexes during annealing. The Mg²⁺ concentration critically affects PCR: too little = no amplification; too much = non-specific bands. Optimising Mg²⁺ concentration is a key troubleshooting step in PCR."
-  },
-  {
-    q:"Which type of PCR is used in COVID-19 diagnosis to detect the SARS-CoV-2 virus?",
-    o:["Conventional PCR","Multiplex PCR","Nested PCR","RT-PCR (Reverse Transcriptase PCR)"],
-    a:3,
-    e:"SARS-CoV-2 is an RNA virus, so its genome is RNA (not DNA). RT-PCR is used because it first converts the viral RNA to cDNA using reverse transcriptase, then amplifies the cDNA by PCR. In practice, COVID-19 testing uses RT-qPCR (real-time RT-PCR), which also quantifies the viral load. Conventional PCR cannot detect RNA viruses directly."
-  },
-  {
-    q:"What does Multiplex PCR allow that conventional single-target PCR cannot?",
-    o:["Amplification of DNA from a single cell","Detection of RNA viruses","Simultaneous amplification of multiple target DNA sequences in a single reaction","Quantification of the starting amount of DNA"],
-    a:2,
-    e:"Multiplex PCR uses multiple pairs of primers in a single PCR reaction, each pair amplifying a different target sequence. This allows simultaneous detection of multiple targets in one tube — saving time, cost, and sample. Applications include STR profiling (forensics), multi-pathogen detection panels, and deletion screening in genetic disorders (e.g., Duchenne muscular dystrophy)."
-  }
-];
+var QD=[{"q":"PCR was invented by whom and in which year?","o":["Frederick Sanger, 1977","James Watson, 1953","Herbert Boyer, 1973","Kary Mullis, 1983"],"a":3,"e":"PCR (Polymerase Chain Reaction) was invented by Kary Mullis in 1983 while working at Cetus Corporation. He was awarded the Nobel Prize in Chemistry in 1993 for this revolutionary invention. Sanger developed DNA sequencing in 1977; Watson and Crick described DNA structure in 1953."},{"q":"What is the correct sequence of the three stages of a PCR cycle?","o":["Annealing → Denaturation → Extension","Denaturation → Annealing → Extension","Extension → Annealing → Denaturation","Denaturation → Extension → Annealing"],"a":1,"e":"The correct order is Denaturation (94–96°C) → Annealing (50–65°C) → Extension (72°C). First, DNA strands are separated by heat; then primers bind to their complementary sequences at lower temperature; finally, Taq polymerase extends the primers at 72°C to synthesise the new strand."},{"q":"What is the temperature used in the extension step of PCR and why?","o":["72°C — optimal temperature for Taq DNA polymerase activity","94–96°C — to melt the DNA","50–65°C — for primer annealing","37°C — standard enzyme temperature"],"a":0,"e":"The extension step is performed at 72°C because this is the optimal activity temperature of Taq DNA polymerase (isolated from Thermus aquaticus, a hot spring bacterium). At 72°C, Taq extends primers at a rate of approximately 1000 bp/minute, synthesising the new complementary strand from the annealed primers."},{"q":"After 30 cycles of PCR starting from a single DNA molecule, approximately how many copies are produced?","o":["1 billion copies (∼10⁹)","30 copies","1,000 copies","1 million copies"],"a":0,"e":"The number of copies after n cycles = 2ⁿ. After 30 cycles: 2³⁰ = 1,073,741,824 ≈ 1 billion (10⁹) copies. This exponential amplification is the key power of PCR — each cycle doubles the number of copies, because products of each cycle serve as templates for the next."},{"q":"Which enzyme makes PCR practical for automation by withstanding repeated heating to 95°C?","o":["DNA Ligase (T4)","Taq DNA Polymerase","E. coli DNA Polymerase I","Reverse Transcriptase"],"a":1,"e":"Taq DNA Polymerase, isolated from the thermophilic bacterium Thermus aquaticus, is heat-stable and survives the 94–96°C denaturation step that would destroy ordinary enzymes. Before Taq polymerase was used, researchers had to add fresh enzyme after each denaturation step, making automation impractical."},{"q":"In RT-PCR, what is the role of reverse transcriptase?","o":["It denatures the DNA template at high temperature","It amplifies cDNA during thermal cycling","It labels the PCR product with fluorescence","It converts RNA (mRNA) into complementary DNA (cDNA) before PCR amplification"],"a":3,"e":"In RT-PCR, reverse transcriptase converts single-stranded mRNA into complementary DNA (cDNA) in a step BEFORE PCR thermal cycling. This reverse transcription step is essential because Taq polymerase can only copy DNA templates. The resulting cDNA then serves as the template for standard PCR amplification."},{"q":"What is the main advantage of Nested PCR over conventional PCR?","o":["It requires fewer components","It uses a lower denaturation temperature","It can amplify RNA directly without reverse transcription","It provides much higher sensitivity and specificity using two sets of primers"],"a":3,"e":"Nested PCR uses two sequential PCR reactions: the first uses outer primers to amplify a larger region, and the second uses inner (nested) primers within the first product. This two-round approach dramatically increases sensitivity (detects very low copy number targets) and specificity (the probability of non-specific products matching BOTH outer and inner primer pairs is extremely low)."},{"q":"What is the role of Mg²⁺ ions in PCR?","o":["Mg²⁺ denatures the DNA double helix","Mg²⁺ is an essential cofactor for Taq DNA polymerase activity and stabilises primer-template duplexes","Mg²⁺ is the energy source for polymerase","Mg²⁺ prevents primer dimer formation"],"a":1,"e":"Magnesium ions (Mg²⁺, added as MgCl₂ at 1.5–2.5 mM) serve as an essential cofactor for Taq DNA polymerase catalytic activity. Mg²⁺ also stabilises primer-template duplexes during annealing. The Mg²⁺ concentration critically affects PCR: too little = no amplification; too much = non-specific bands. Optimising Mg²⁺ concentration is a key troubleshooting step in PCR."},{"q":"Which type of PCR is used in COVID-19 diagnosis to detect the SARS-CoV-2 virus?","o":["Conventional PCR","Multiplex PCR","RT-PCR (Reverse Transcriptase PCR)","Nested PCR"],"a":2,"e":"SARS-CoV-2 is an RNA virus, so its genome is RNA (not DNA). RT-PCR is used because it first converts the viral RNA to cDNA using reverse transcriptase, then amplifies the cDNA by PCR. In practice, COVID-19 testing uses RT-qPCR (real-time RT-PCR), which also quantifies the viral load. Conventional PCR cannot detect RNA viruses directly."},{"q":"What does Multiplex PCR allow that conventional single-target PCR cannot?","o":["Amplification of DNA from a single cell","Detection of RNA viruses","Simultaneous amplification of multiple target DNA sequences in a single reaction","Quantification of the starting amount of DNA"],"a":2,"e":"Multiplex PCR uses multiple pairs of primers in a single PCR reaction, each pair amplifying a different target sequence. This allows simultaneous detection of multiple targets in one tube — saving time, cost, and sample. Applications include STR profiling (forensics), multi-pathogen detection panels, and deletion screening in genetic disorders (e.g., Duchenne muscular dystrophy)."}];
 
 /* QUIZ LOGIC */
 var cQ=0,sc=0,done=false,ua=[];
@@ -1355,7 +1294,9 @@ window.onload=function(){initQ();};
 html,body,:root{--text3:#34485c;--muted:#34485c;--text-muted:#34485c;--text-lt:#34485c;--text-light:#34485c;--text2:#26394c}
 .def-box .def-src{color:rgba(255,255,255,.8)!important}
 .a11y-svgscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
-.a11y-svgscroll>svg{min-width:560px;max-width:none!important;width:100%!important;height:auto}
+.a11y-svgscroll>svg{max-width:none!important;width:100%!important;height:auto}
+button,[role=button],select,input[type=button],input[type=submit],summary{min-height:44px}
+button.nb,.nb{min-height:44px}
 .a11y-hint{display:none;font:600 12.5px/1.3 system-ui,sans-serif;color:#0b6b60;margin:2px 0 6px}
 @media(max-width:700px){.a11y-hint{display:block}
 .a11y-stack,.a11y-stack tbody,.a11y-stack tr,.a11y-stack td{display:block!important;width:100%!important;box-sizing:border-box}
@@ -1389,9 +1330,13 @@ function tables(){
   tb.classList.add('a11y-stack')})
 }
 function svgs(){
- document.querySelectorAll('svg[viewBox]').forEach(function(s){if(s.dataset.a11y||s.closest('button,a,.a11y-svgscroll'))return;var v=s.getAttribute('viewBox').split(/[ ,]+/).map(Number);if(!(v[2]>=480&&v[3]>=100))return;s.dataset.a11y=1;
-  var w=document.createElement('div');w.className='a11y-svgscroll';s.parentNode.insertBefore(w,s);w.appendChild(s);
-  var h=document.createElement('div');h.className='a11y-hint';h.textContent='↔ Swipe sideways to see the whole diagram';w.parentNode.insertBefore(h,w)})
+ document.querySelectorAll('svg[viewBox]').forEach(function(s){if(s.dataset.a11y||s.closest('button,a,.a11y-svgscroll'))return;
+  var tx=s.querySelectorAll('text');if(tx.length<3)return;var v=s.getAttribute('viewBox').split(/[ ,]+/).map(Number);if(!(v[2]>0))return;s.dataset.a11y=1;
+  var fs=[].map.call(tx,function(t){return parseFloat(getComputedStyle(t).fontSize)||10}).sort(function(x,y){return x-y});
+  var f=fs[Math.floor(fs.length*.15)];var need=Math.min(1000,Math.max(0,v[2]*11.5/f));
+  if(need<=Math.min(window.innerWidth-32,360))return;
+  var w=document.createElement('div');w.className='a11y-svgscroll';s.parentNode.insertBefore(w,s);w.appendChild(s);s.style.minWidth=Math.round(need)+'px';
+  var h=document.createElement('div');h.className='a11y-hint';h.textContent='\u2194 Swipe sideways to see the whole diagram';w.parentNode.insertBefore(h,w)})
 }
 function run(){try{tables();svgs();pass()}catch(e){}}
 var tm;function later(){clearTimeout(tm);tm=setTimeout(run,350)}

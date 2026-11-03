@@ -147,6 +147,8 @@ class Store(ctx: Context) {
 
     fun getInt(key: String, def: Int): Int = sp.getInt(key, def)
     fun putInt(key: String, v: Int) { sp.edit().putInt(key, v).apply() }
+    fun getLong(key: String, def: Long): Long = sp.getLong(key, def)
+    fun putLong(key: String, v: Long) { sp.edit().putLong(key, v).apply() }
     fun getString(key: String): String = sp.getString(key, "") ?: ""
     fun putString(key: String, v: String) { sp.edit().putString(key, v).apply() }
 

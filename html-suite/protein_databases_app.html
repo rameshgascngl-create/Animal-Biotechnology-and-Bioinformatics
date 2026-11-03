@@ -1447,118 +1447,7 @@ function toggleH(btn){
 /* =====================================================
    QUIZ DATA
    ===================================================== */
-var QD = [
-  {
-    q: "SWISS-PROT is best described as:",
-    opts:[
-      "An automatically generated nucleotide sequence database",
-      "A manually reviewed, non-redundant protein sequence database",
-      "A three-dimensional structural database for proteins",
-      "A secondary database for metabolic pathway data"
-    ],
-    ans: 1,
-    exp: "SWISS-PROT is a manually reviewed, non-redundant protein sequence database. Every entry is verified by expert biologists, making it the 'gold standard' for protein sequence data quality."
-  },
-  {
-    q: "Who founded SWISS-PROT and in which year?",
-    opts:[
-      "Frederick Sanger, 1977",
-      "Walter Goad, 1982",
-      "Amos Bairoch, 1986",
-      "James Watson, 1971"
-    ],
-    ans: 2,
-    exp: "SWISS-PROT was founded in 1986 by Amos Bairoch at the University of Geneva, Switzerland. It is now maintained jointly by the Swiss Institute of Bioinformatics (SIB) and the European Bioinformatics Institute (EBI) as part of UniProt."
-  },
-  {
-    q: "UniProt (UniProtKB) is divided into two sections. Which of the following correctly identifies them?",
-    opts:[
-      "GenBank and EMBL",
-      "Swiss-Prot (reviewed) and TrEMBL (unreviewed)",
-      "PDB and PIR",
-      "BLAST and Entrez"
-    ],
-    ans: 1,
-    exp: "UniProtKB is divided into Swiss-Prot (~570,000 manually reviewed entries) and TrEMBL (~220 million automatically annotated, unreviewed entries). TrEMBL entries graduate to Swiss-Prot after manual expert curation."
-  },
-  {
-    q: "Which of the following correctly describes the relationship between SWISS-PROT and UniProt?",
-    opts:[
-      "UniProt is a part of SWISS-PROT",
-      "They are two completely independent databases with no connection",
-      "SWISS-PROT is the manually reviewed (Swiss-Prot) tier within the UniProt system",
-      "SWISS-PROT stores 3D structures while UniProt stores sequences"
-    ],
-    ans: 2,
-    exp: "SWISS-PROT (now called Swiss-Prot within UniProt) is the manually reviewed, high-quality tier of the UniProt Knowledgebase. UniProt is the comprehensive umbrella resource that includes both Swiss-Prot and TrEMBL."
-  },
-  {
-    q: "What does PDB stand for and what type of data does it store?",
-    opts:[
-      "Protein Database — stores amino acid sequences only",
-      "Protein Data Bank — stores three-dimensional atomic coordinates of biological macromolecules",
-      "Primary Database Bank — stores nucleotide sequences",
-      "Protein Definition Base — stores protein names and functions"
-    ],
-    ans: 1,
-    exp: "PDB stands for Protein Data Bank. It stores three-dimensional structural data — atomic XYZ coordinates, experimental details, and ligand information — for proteins, nucleic acids, and their complexes. It does NOT store sequences only; that is the role of UniProt/SWISS-PROT."
-  },
-  {
-    q: "The Protein Data Bank was founded in which year?",
-    opts:[
-      "1986",
-      "2002",
-      "1982",
-      "1971"
-    ],
-    ans: 3,
-    exp: "The Protein Data Bank was established in 1971 at Brookhaven National Laboratory, USA — making it the oldest of the three databases discussed (SWISS-PROT: 1986; UniProt: 2002). It started with just 7 protein structures."
-  },
-  {
-    q: "Which experimental methods are used to determine 3D protein structures deposited in PDB?",
-    opts:[
-      "PCR, gel electrophoresis, and Southern blotting",
-      "X-ray crystallography, NMR spectroscopy, and Cryo-Electron Microscopy",
-      "BLAST searching, sequence alignment, and phylogenetic analysis",
-      "Sanger sequencing, next-generation sequencing, and mass spectrometry"
-    ],
-    ans: 1,
-    exp: "Three-dimensional structures in PDB are determined by X-ray crystallography (most common), NMR (Nuclear Magnetic Resonance) spectroscopy, or Cryo-EM (Cryo-Electron Microscopy — rapidly growing in importance for large complexes)."
-  },
-  {
-    q: "What is the key difference between protein sequence databases and structural databases?",
-    opts:[
-      "Sequence databases are free; structural databases require a subscription",
-      "Sequence databases store the 1D order of amino acids; structural databases store 3D atomic spatial coordinates",
-      "Sequence databases are older; structural databases are newer",
-      "There is no real difference — they store identical information"
-    ],
-    ans: 1,
-    exp: "Protein sequence databases (SWISS-PROT, UniProt) store the one-dimensional order of amino acids in a polypeptide chain. Structural databases (PDB) store three-dimensional atomic coordinates — the precise spatial arrangement of every atom, enabling visualisation of protein shape, active sites, and binding pockets."
-  },
-  {
-    q: "Which database is most directly used for structure-based drug design?",
-    opts:[
-      "TrEMBL",
-      "GenBank",
-      "PDB (Protein Data Bank)",
-      "DDBJ"
-    ],
-    ans: 2,
-    exp: "Structure-based drug design relies on PDB — by visualising the 3D structure of a target protein's active site, chemists can design molecules that fit precisely into that site. This approach was used to design HIV protease inhibitors and COVID-19 antivirals."
-  },
-  {
-    q: "A researcher needs to find the annotated function and disease variants of the human insulin receptor protein. Which database should they consult first?",
-    opts:[
-      "PDB — to find its 3D structure",
-      "GenBank — to find the DNA sequence",
-      "UniProt / SWISS-PROT — to find the annotated protein sequence and function",
-      "KEGG — to find its metabolic pathway"
-    ],
-    ans: 2,
-    exp: "For protein function, disease variants, subcellular location, and other biological annotations, UniProt (specifically Swiss-Prot for a well-studied protein like the insulin receptor) is the primary resource. PDB would be consulted for the 3D structure; GenBank for the DNA sequence."
-  }
-];
+var QD = [{"q":"SWISS-PROT is best described as:","opts":["A manually reviewed, non-redundant protein sequence database","An automatically generated nucleotide sequence database","A three-dimensional structural database for proteins","A secondary database for metabolic pathway data"],"ans":0,"exp":"SWISS-PROT is a manually reviewed, non-redundant protein sequence database. Every entry is verified by expert biologists, making it the 'gold standard' for protein sequence data quality."},{"q":"Who founded SWISS-PROT and in which year?","opts":["Amos Bairoch, 1986","Frederick Sanger, 1977","Walter Goad, 1982","James Watson, 1971"],"ans":0,"exp":"SWISS-PROT was founded in 1986 by Amos Bairoch at the University of Geneva, Switzerland. It is now maintained jointly by the Swiss Institute of Bioinformatics (SIB) and the European Bioinformatics Institute (EBI) as part of UniProt."},{"q":"UniProt (UniProtKB) is divided into two sections. Which of the following correctly identifies them?","opts":["GenBank and EMBL","PDB and PIR","Swiss-Prot (reviewed) and TrEMBL (unreviewed)","BLAST and Entrez"],"ans":2,"exp":"UniProtKB is divided into Swiss-Prot (~570,000 manually reviewed entries) and TrEMBL (~220 million automatically annotated, unreviewed entries). TrEMBL entries graduate to Swiss-Prot after manual expert curation."},{"q":"Which of the following correctly describes the relationship between SWISS-PROT and UniProt?","opts":["UniProt is a part of SWISS-PROT","They are two completely independent databases with no connection","SWISS-PROT is the manually reviewed (Swiss-Prot) tier within the UniProt system","SWISS-PROT stores 3D structures while UniProt stores sequences"],"ans":2,"exp":"SWISS-PROT (now called Swiss-Prot within UniProt) is the manually reviewed, high-quality tier of the UniProt Knowledgebase. UniProt is the comprehensive umbrella resource that includes both Swiss-Prot and TrEMBL."},{"q":"What does PDB stand for and what type of data does it store?","opts":["Protein Database — stores amino acid sequences only","Protein Data Bank — stores three-dimensional atomic coordinates of biological macromolecules","Primary Database Bank — stores nucleotide sequences","Protein Definition Base — stores protein names and functions"],"ans":1,"exp":"PDB stands for Protein Data Bank. It stores three-dimensional structural data — atomic XYZ coordinates, experimental details, and ligand information — for proteins, nucleic acids, and their complexes. It does NOT store sequences only; that is the role of UniProt/SWISS-PROT."},{"q":"The Protein Data Bank was founded in which year?","opts":["1986","1971","2002","1982"],"ans":1,"exp":"The Protein Data Bank was established in 1971 at Brookhaven National Laboratory, USA — making it the oldest of the three databases discussed (SWISS-PROT: 1986; UniProt: 2002). It started with just 7 protein structures."},{"q":"Which experimental methods are used to determine 3D protein structures deposited in PDB?","opts":["PCR, gel electrophoresis, and Southern blotting","BLAST searching, sequence alignment, and phylogenetic analysis","X-ray crystallography, NMR spectroscopy, and Cryo-Electron Microscopy","Sanger sequencing, next-generation sequencing, and mass spectrometry"],"ans":2,"exp":"Three-dimensional structures in PDB are determined by X-ray crystallography (most common), NMR (Nuclear Magnetic Resonance) spectroscopy, or Cryo-EM (Cryo-Electron Microscopy — rapidly growing in importance for large complexes)."},{"q":"What is the key difference between protein sequence databases and structural databases?","opts":["Sequence databases are free; structural databases require a subscription","Sequence databases are older; structural databases are newer","There is no real difference — they store identical information","Sequence databases store the 1D order of amino acids; structural databases store 3D atomic spatial coordinates"],"ans":3,"exp":"Protein sequence databases (SWISS-PROT, UniProt) store the one-dimensional order of amino acids in a polypeptide chain. Structural databases (PDB) store three-dimensional atomic coordinates — the precise spatial arrangement of every atom, enabling visualisation of protein shape, active sites, and binding pockets."},{"q":"Which database is most directly used for structure-based drug design?","opts":["TrEMBL","GenBank","DDBJ","PDB (Protein Data Bank)"],"ans":3,"exp":"Structure-based drug design relies on PDB — by visualising the 3D structure of a target protein's active site, chemists can design molecules that fit precisely into that site. This approach was used to design HIV protease inhibitors and COVID-19 antivirals."},{"q":"A researcher needs to find the annotated function and disease variants of the human insulin receptor protein. Which database should they consult first?","opts":["PDB — to find its 3D structure","GenBank — to find the DNA sequence","KEGG — to find its metabolic pathway","UniProt / SWISS-PROT — to find the annotated protein sequence and function"],"ans":3,"exp":"For protein function, disease variants, subcellular location, and other biological annotations, UniProt (specifically Swiss-Prot for a well-studied protein like the insulin receptor) is the primary resource. PDB would be consulted for the 3D structure; GenBank for the DNA sequence."}];
 
 var answered = [];
 
@@ -1628,7 +1517,9 @@ buildQ();
 html,body,:root{--text3:#34485c;--muted:#34485c;--text-muted:#34485c;--text-lt:#34485c;--text-light:#34485c;--text2:#26394c}
 .def-box .def-src{color:rgba(255,255,255,.8)!important}
 .a11y-svgscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
-.a11y-svgscroll>svg{min-width:560px;max-width:none!important;width:100%!important;height:auto}
+.a11y-svgscroll>svg{max-width:none!important;width:100%!important;height:auto}
+button,[role=button],select,input[type=button],input[type=submit],summary{min-height:44px}
+button.nb,.nb{min-height:44px}
 .a11y-hint{display:none;font:600 12.5px/1.3 system-ui,sans-serif;color:#0b6b60;margin:2px 0 6px}
 @media(max-width:700px){.a11y-hint{display:block}
 .a11y-stack,.a11y-stack tbody,.a11y-stack tr,.a11y-stack td{display:block!important;width:100%!important;box-sizing:border-box}
@@ -1662,9 +1553,13 @@ function tables(){
   tb.classList.add('a11y-stack')})
 }
 function svgs(){
- document.querySelectorAll('svg[viewBox]').forEach(function(s){if(s.dataset.a11y||s.closest('button,a,.a11y-svgscroll'))return;var v=s.getAttribute('viewBox').split(/[ ,]+/).map(Number);if(!(v[2]>=480&&v[3]>=100))return;s.dataset.a11y=1;
-  var w=document.createElement('div');w.className='a11y-svgscroll';s.parentNode.insertBefore(w,s);w.appendChild(s);
-  var h=document.createElement('div');h.className='a11y-hint';h.textContent='↔ Swipe sideways to see the whole diagram';w.parentNode.insertBefore(h,w)})
+ document.querySelectorAll('svg[viewBox]').forEach(function(s){if(s.dataset.a11y||s.closest('button,a,.a11y-svgscroll'))return;
+  var tx=s.querySelectorAll('text');if(tx.length<3)return;var v=s.getAttribute('viewBox').split(/[ ,]+/).map(Number);if(!(v[2]>0))return;s.dataset.a11y=1;
+  var fs=[].map.call(tx,function(t){return parseFloat(getComputedStyle(t).fontSize)||10}).sort(function(x,y){return x-y});
+  var f=fs[Math.floor(fs.length*.15)];var need=Math.min(1000,Math.max(0,v[2]*11.5/f));
+  if(need<=Math.min(window.innerWidth-32,360))return;
+  var w=document.createElement('div');w.className='a11y-svgscroll';s.parentNode.insertBefore(w,s);w.appendChild(s);s.style.minWidth=Math.round(need)+'px';
+  var h=document.createElement('div');h.className='a11y-hint';h.textContent='\u2194 Swipe sideways to see the whole diagram';w.parentNode.insertBefore(h,w)})
 }
 function run(){try{tables();svgs();pass()}catch(e){}}
 var tm;function later(){clearTimeout(tm);tm=setTimeout(run,350)}

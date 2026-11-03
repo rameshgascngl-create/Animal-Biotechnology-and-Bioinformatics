@@ -1187,58 +1187,7 @@ function toggleH(btn){
 /* =====================================================
    QUIZ DATA
    ===================================================== */
-var QD = [
-  {
-    q:"What does the term 'bioinformatics' refer to?",
-    opts:["The study of microorganisms using microscopes","The application of computer science and mathematics to store, retrieve, and analyse biological data","The use of living organisms to manufacture industrial products","The study of protein three-dimensional structures only"],
-    ans:1, exp:"Bioinformatics is the interdisciplinary science that applies computer science, mathematics, and statistics to acquire, store, organise, analyse, and interpret biological data — especially large-scale molecular sequence data."
-  },
-  {
-    q:"Which of the following is a PRIMARY nucleotide sequence database?",
-    opts:["UniProt","KEGG","GenBank","Pfam"],
-    ans:2, exp:"GenBank is a primary nucleotide sequence database — it stores original, experimentally determined DNA and RNA sequences submitted directly by researchers. UniProt, KEGG, and Pfam are secondary or derived databases."
-  },
-  {
-    q:"GenBank is maintained by which organisation?",
-    opts:["European Bioinformatics Institute (EBI)","National Center for Biotechnology Information (NCBI), NIH","National Institute of Genetics, Japan","World Health Organisation (WHO)"],
-    ans:1, exp:"GenBank is maintained by the National Center for Biotechnology Information (NCBI), which is part of the National Institutes of Health (NIH) in the United States."
-  },
-  {
-    q:"Which is the OLDEST nucleotide sequence database?",
-    opts:["GenBank (1982)","DDBJ (1986)","EMBL Database (1980)","PDB (1971)"],
-    ans:2, exp:"The EMBL Nucleotide Sequence Database was established in 1980 — two years before GenBank (1982) and six years before DDBJ (1986), making it the oldest of the three INSDC nucleotide databases."
-  },
-  {
-    q:"What is INSDC?",
-    opts:["International Nucleotide Sequence Database Collaboration — the partnership between GenBank, EMBL, and DDBJ","International Network for Sequence Data Collection","Indian National Science Data Centre","Integrated Nucleotide Sequence Design Consortium"],
-    ans:0, exp:"INSDC stands for International Nucleotide Sequence Database Collaboration — the formal partnership between GenBank (USA), EMBL/ENA (Europe), and DDBJ (Japan) for daily synchronisation and sharing of all nucleotide sequence records."
-  },
-  {
-    q:"Within how many hours does INSDC synchronise a newly submitted sequence across all three databases?",
-    opts:["1 week","48 hours","24 hours","1 month"],
-    ans:2, exp:"Under the INSDC agreement, a sequence submitted to any one of the three databases (GenBank, EMBL, DDBJ) is shared with and available in the other two within 24 hours of submission."
-  },
-  {
-    q:"The DDBJ database is maintained in which country?",
-    opts:["United States","United Kingdom","Germany","Japan"],
-    ans:3, exp:"DDBJ (DNA Data Bank of Japan) is maintained by the National Institute of Genetics (NIG) in Mishima, Shizuoka, Japan. It is the Asian hub of the INSDC."
-  },
-  {
-    q:"Which search tool is primarily associated with EMBL nucleotide database searches?",
-    opts:["Entrez","Sakura","SRS (Sequence Retrieval System)","PubMed"],
-    ans:2, exp:"SRS (Sequence Retrieval System) is the search tool primarily associated with the EMBL/ENA database at the European Bioinformatics Institute. GenBank uses Entrez; DDBJ uses Sakura."
-  },
-  {
-    q:"What is an 'accession number' in the context of nucleotide databases?",
-    opts:["A password for accessing the database","A unique permanent identifier assigned to each deposited sequence record","The number of nucleotides in a sequence","The year the sequence was deposited"],
-    ans:1, exp:"An accession number (e.g., AY123456) is a unique, permanent identifier assigned to each sequence record when it is deposited in an INSDC database. It never changes and allows unambiguous citation and retrieval of any specific sequence globally."
-  },
-  {
-    q:"Which bioinformatics tool is used to compare a query DNA sequence against all sequences in GenBank to find similar sequences?",
-    opts:["SRS","KEGG","BLAST (Basic Local Alignment Search Tool)","Sakura"],
-    ans:2, exp:"BLAST (Basic Local Alignment Search Tool) compares a user-submitted query sequence against all sequences in the GenBank database and returns similar sequences ranked by statistical significance (E-value). It is the most widely used bioinformatics tool globally."
-  }
-];
+var QD = [{"q":"What does the term 'bioinformatics' refer to?","opts":["The study of microorganisms using microscopes","The application of computer science and mathematics to store, retrieve, and analyse biological data","The use of living organisms to manufacture industrial products","The study of protein three-dimensional structures only"],"ans":1,"exp":"Bioinformatics is the interdisciplinary science that applies computer science, mathematics, and statistics to acquire, store, organise, analyse, and interpret biological data — especially large-scale molecular sequence data."},{"q":"Which of the following is a PRIMARY nucleotide sequence database?","opts":["UniProt","KEGG","Pfam","GenBank"],"ans":3,"exp":"GenBank is a primary nucleotide sequence database — it stores original, experimentally determined DNA and RNA sequences submitted directly by researchers. UniProt, KEGG, and Pfam are secondary or derived databases."},{"q":"GenBank is maintained by which organisation?","opts":["National Center for Biotechnology Information (NCBI), NIH","European Bioinformatics Institute (EBI)","National Institute of Genetics, Japan","World Health Organisation (WHO)"],"ans":0,"exp":"GenBank is maintained by the National Center for Biotechnology Information (NCBI), which is part of the National Institutes of Health (NIH) in the United States."},{"q":"Which is the OLDEST nucleotide sequence database?","opts":["GenBank (1982)","DDBJ (1986)","EMBL Database (1980)","PDB (1971)"],"ans":2,"exp":"The EMBL Nucleotide Sequence Database was established in 1980 — two years before GenBank (1982) and six years before DDBJ (1986), making it the oldest of the three INSDC nucleotide databases."},{"q":"What is INSDC?","opts":["International Network for Sequence Data Collection","International Nucleotide Sequence Database Collaboration — the partnership between GenBank, EMBL, and DDBJ","Indian National Science Data Centre","Integrated Nucleotide Sequence Design Consortium"],"ans":1,"exp":"INSDC stands for International Nucleotide Sequence Database Collaboration — the formal partnership between GenBank (USA), EMBL/ENA (Europe), and DDBJ (Japan) for daily synchronisation and sharing of all nucleotide sequence records."},{"q":"Within how many hours does INSDC synchronise a newly submitted sequence across all three databases?","opts":["1 week","48 hours","1 month","24 hours"],"ans":3,"exp":"Under the INSDC agreement, a sequence submitted to any one of the three databases (GenBank, EMBL, DDBJ) is shared with and available in the other two within 24 hours of submission."},{"q":"The DDBJ database is maintained in which country?","opts":["United States","United Kingdom","Japan","Germany"],"ans":2,"exp":"DDBJ (DNA Data Bank of Japan) is maintained by the National Institute of Genetics (NIG) in Mishima, Shizuoka, Japan. It is the Asian hub of the INSDC."},{"q":"Which search tool is primarily associated with EMBL nucleotide database searches?","opts":["Entrez","Sakura","PubMed","SRS (Sequence Retrieval System)"],"ans":3,"exp":"SRS (Sequence Retrieval System) is the search tool primarily associated with the EMBL/ENA database at the European Bioinformatics Institute. GenBank uses Entrez; DDBJ uses Sakura."},{"q":"What is an 'accession number' in the context of nucleotide databases?","opts":["A unique permanent identifier assigned to each deposited sequence record","A password for accessing the database","The number of nucleotides in a sequence","The year the sequence was deposited"],"ans":0,"exp":"An accession number (e.g., AY123456) is a unique, permanent identifier assigned to each sequence record when it is deposited in an INSDC database. It never changes and allows unambiguous citation and retrieval of any specific sequence globally."},{"q":"Which bioinformatics tool is used to compare a query DNA sequence against all sequences in GenBank to find similar sequences?","opts":["SRS","KEGG","BLAST (Basic Local Alignment Search Tool)","Sakura"],"ans":2,"exp":"BLAST (Basic Local Alignment Search Tool) compares a user-submitted query sequence against all sequences in the GenBank database and returns similar sequences ranked by statistical significance (E-value). It is the most widely used bioinformatics tool globally."}];
 
 var answered=[];
 function buildQ(){
@@ -1300,7 +1249,9 @@ buildQ();
 html,body,:root{--text3:#34485c;--muted:#34485c;--text-muted:#34485c;--text-lt:#34485c;--text-light:#34485c;--text2:#26394c}
 .def-box .def-src{color:rgba(255,255,255,.8)!important}
 .a11y-svgscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
-.a11y-svgscroll>svg{min-width:560px;max-width:none!important;width:100%!important;height:auto}
+.a11y-svgscroll>svg{max-width:none!important;width:100%!important;height:auto}
+button,[role=button],select,input[type=button],input[type=submit],summary{min-height:44px}
+button.nb,.nb{min-height:44px}
 .a11y-hint{display:none;font:600 12.5px/1.3 system-ui,sans-serif;color:#0b6b60;margin:2px 0 6px}
 @media(max-width:700px){.a11y-hint{display:block}
 .a11y-stack,.a11y-stack tbody,.a11y-stack tr,.a11y-stack td{display:block!important;width:100%!important;box-sizing:border-box}
@@ -1334,9 +1285,13 @@ function tables(){
   tb.classList.add('a11y-stack')})
 }
 function svgs(){
- document.querySelectorAll('svg[viewBox]').forEach(function(s){if(s.dataset.a11y||s.closest('button,a,.a11y-svgscroll'))return;var v=s.getAttribute('viewBox').split(/[ ,]+/).map(Number);if(!(v[2]>=480&&v[3]>=100))return;s.dataset.a11y=1;
-  var w=document.createElement('div');w.className='a11y-svgscroll';s.parentNode.insertBefore(w,s);w.appendChild(s);
-  var h=document.createElement('div');h.className='a11y-hint';h.textContent='↔ Swipe sideways to see the whole diagram';w.parentNode.insertBefore(h,w)})
+ document.querySelectorAll('svg[viewBox]').forEach(function(s){if(s.dataset.a11y||s.closest('button,a,.a11y-svgscroll'))return;
+  var tx=s.querySelectorAll('text');if(tx.length<3)return;var v=s.getAttribute('viewBox').split(/[ ,]+/).map(Number);if(!(v[2]>0))return;s.dataset.a11y=1;
+  var fs=[].map.call(tx,function(t){return parseFloat(getComputedStyle(t).fontSize)||10}).sort(function(x,y){return x-y});
+  var f=fs[Math.floor(fs.length*.15)];var need=Math.min(1000,Math.max(0,v[2]*11.5/f));
+  if(need<=Math.min(window.innerWidth-32,360))return;
+  var w=document.createElement('div');w.className='a11y-svgscroll';s.parentNode.insertBefore(w,s);w.appendChild(s);s.style.minWidth=Math.round(need)+'px';
+  var h=document.createElement('div');h.className='a11y-hint';h.textContent='\u2194 Swipe sideways to see the whole diagram';w.parentNode.insertBefore(h,w)})
 }
 function run(){try{tables();svgs();pass()}catch(e){}}
 var tm;function later(){clearTimeout(tm);tm=setTimeout(run,350)}

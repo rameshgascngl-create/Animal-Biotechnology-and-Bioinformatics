@@ -1656,78 +1656,7 @@ function toggleFlow(el) {
 /* ============================================================
    QUIZ DATA
    ============================================================ */
-var qData = [
-  {
-    q: "What is the size of the pBR322 plasmid?",
-    opts: ["2,686 bp", "4,361 bp", "6,407 bp", "48,502 bp"],
-    ans: 1,
-    exp: "pBR322 is 4,361 base pairs in size. It was one of the first artificial plasmid cloning vectors constructed and is a standard reference for plasmid vectors."
-  },
-  {
-    q: "Which two antibiotic resistance genes does pBR322 carry?",
-    opts: ["Kanamycin and chloramphenicol", "Ampicillin and tetracycline", "Streptomycin and neomycin", "Ampicillin and kanamycin"],
-    ans: 1,
-    exp: "pBR322 carries the ampicillin resistance (amp^r) gene and the tetracycline resistance (tet^r) gene. Both serve as selectable markers for identifying transformed cells and distinguishing recombinant from non-recombinant clones."
-  },
-  {
-    q: "The Ti plasmid is found naturally in which organism?",
-    opts: ["Escherichia coli", "Bacillus subtilis", "Agrobacterium tumefaciens", "Pseudomonas aeruginosa"],
-    ans: 2,
-    exp: "The Ti (Tumour-inducing) plasmid is naturally found in Agrobacterium tumefaciens, a soil bacterium that causes crown gall disease in dicotyledonous plants."
-  },
-  {
-    q: "Which region of the Ti plasmid integrates into the plant genome?",
-    opts: ["vir region", "ori region", "T-DNA", "Opine catabolism region"],
-    ans: 2,
-    exp: "T-DNA (Transfer DNA), approximately 25 kb in size and flanked by Left Border (LB) and Right Border (RB) sequences, is the region of the Ti plasmid that is excised and stably integrated into the plant nuclear genome."
-  },
-  {
-    q: "What is the approximate insert capacity of lambda phage replacement vectors?",
-    opts: ["Up to 5 kb", "Up to 10 kb", "Up to 23 kb", "Up to 50 kb"],
-    ans: 2,
-    exp: "Lambda phage replacement vectors can accommodate up to approximately 23 kb of foreign DNA. This is achieved by removing the non-essential 'stuffer' fragment (15 kb, 22–38 kb region) and replacing it with insert DNA."
-  },
-  {
-    q: "Lambda phage DNA has short single-stranded sequences called _____ at both ends of the linear genome.",
-    opts: ["ori sequences", "cos sites", "T-DNA borders", "MCS sites"],
-    ans: 1,
-    exp: "Lambda phage linear DNA has 12-nucleotide single-stranded cohesive ends called cos (cohesive end) sites at both termini. These cos sites allow the linear DNA to circularize inside the host cell and are required for in vitro packaging of recombinant lambda DNA."
-  },
-  {
-    q: "M13 phage has a genome composed of:",
-    opts: ["Linear double-stranded DNA", "Circular double-stranded DNA", "Circular single-stranded DNA", "Linear single-stranded RNA"],
-    ans: 2,
-    exp: "M13 phage has a circular single-stranded DNA (ssDNA) genome of approximately 6,407 nucleotides. This ssDNA is packaged into the filamentous phage particle and is the basis for M13's use in DNA sequencing and site-directed mutagenesis."
-  },
-  {
-    q: "Insertional inactivation in pBR322 refers to:",
-    opts: [
-      "Activation of a gene by inserting a promoter sequence",
-      "Disruption of a resistance gene by inserting foreign DNA at its restriction site",
-      "Inserting the entire plasmid into the host chromosome",
-      "Inserting a reporter gene into the plasmid backbone"
-    ],
-    ans: 1,
-    exp: "Insertional inactivation refers to the strategy where foreign DNA is cloned into a restriction site located within a marker gene (e.g., tet^r gene in pBR322), disrupting its function. Recombinant cells lose tetracycline resistance but retain ampicillin resistance, allowing identification of clones with inserts."
-  },
-  {
-    q: "Which type of plasmid carries genes for resistance to antibiotics and is the basis for selectable markers in cloning vectors?",
-    opts: ["Fertility plasmid", "Col plasmid", "Resistance (R) plasmid", "Degradative plasmid"],
-    ans: 2,
-    exp: "Resistance (R) plasmids carry genes conferring resistance to one or more antibiotics or heavy metals. These resistance genes are the basis for selectable markers used in most cloning vectors, including pBR322 (amp^r and tet^r)."
-  },
-  {
-    q: "Which of the following is a UNIQUE advantage of M13 phage vectors over plasmid and lambda phage vectors?",
-    opts: [
-      "Largest insert capacity",
-      "Production of single-stranded DNA for sequencing and mutagenesis",
-      "Integration into plant genome",
-      "Highest copy number per host cell"
-    ],
-    ans: 1,
-    exp: "The unique and critical advantage of M13 phage vectors is their ability to produce single-stranded DNA (ssDNA). After replication via the double-stranded replicative form (RF), ssDNA is packaged into secreted phage particles, providing a ready source of ssDNA templates for Sanger chain-termination DNA sequencing and site-directed mutagenesis — applications where other vectors are unsuitable."
-  }
-];
+var qData = [{"q":"What is the size of the pBR322 plasmid?","opts":["2,686 bp","6,407 bp","4,361 bp","48,502 bp"],"ans":2,"exp":"pBR322 is 4,361 base pairs in size. It was one of the first artificial plasmid cloning vectors constructed and is a standard reference for plasmid vectors."},{"q":"Which two antibiotic resistance genes does pBR322 carry?","opts":["Ampicillin and tetracycline","Kanamycin and chloramphenicol","Streptomycin and neomycin","Ampicillin and kanamycin"],"ans":0,"exp":"pBR322 carries the ampicillin resistance (amp^r) gene and the tetracycline resistance (tet^r) gene. Both serve as selectable markers for identifying transformed cells and distinguishing recombinant from non-recombinant clones."},{"q":"The Ti plasmid is found naturally in which organism?","opts":["Escherichia coli","Agrobacterium tumefaciens","Bacillus subtilis","Pseudomonas aeruginosa"],"ans":1,"exp":"The Ti (Tumour-inducing) plasmid is naturally found in Agrobacterium tumefaciens, a soil bacterium that causes crown gall disease in dicotyledonous plants."},{"q":"Which region of the Ti plasmid integrates into the plant genome?","opts":["vir region","ori region","Opine catabolism region","T-DNA"],"ans":3,"exp":"T-DNA (Transfer DNA), approximately 25 kb in size and flanked by Left Border (LB) and Right Border (RB) sequences, is the region of the Ti plasmid that is excised and stably integrated into the plant nuclear genome."},{"q":"What is the approximate insert capacity of lambda phage replacement vectors?","opts":["Up to 23 kb","Up to 5 kb","Up to 10 kb","Up to 50 kb"],"ans":0,"exp":"Lambda phage replacement vectors can accommodate up to approximately 23 kb of foreign DNA. This is achieved by removing the non-essential 'stuffer' fragment (15 kb, 22–38 kb region) and replacing it with insert DNA."},{"q":"Lambda phage DNA has short single-stranded sequences called _____ at both ends of the linear genome.","opts":["ori sequences","T-DNA borders","MCS sites","cos sites"],"ans":3,"exp":"Lambda phage linear DNA has 12-nucleotide single-stranded cohesive ends called cos (cohesive end) sites at both termini. These cos sites allow the linear DNA to circularize inside the host cell and are required for in vitro packaging of recombinant lambda DNA."},{"q":"M13 phage has a genome composed of:","opts":["Circular single-stranded DNA","Linear double-stranded DNA","Circular double-stranded DNA","Linear single-stranded RNA"],"ans":0,"exp":"M13 phage has a circular single-stranded DNA (ssDNA) genome of approximately 6,407 nucleotides. This ssDNA is packaged into the filamentous phage particle and is the basis for M13's use in DNA sequencing and site-directed mutagenesis."},{"q":"Insertional inactivation in pBR322 refers to:","opts":["Activation of a gene by inserting a promoter sequence","Disruption of a resistance gene by inserting foreign DNA at its restriction site","Inserting the entire plasmid into the host chromosome","Inserting a reporter gene into the plasmid backbone"],"ans":1,"exp":"Insertional inactivation refers to the strategy where foreign DNA is cloned into a restriction site located within a marker gene (e.g., tet^r gene in pBR322), disrupting its function. Recombinant cells lose tetracycline resistance but retain ampicillin resistance, allowing identification of clones with inserts."},{"q":"Which type of plasmid carries genes for resistance to antibiotics and is the basis for selectable markers in cloning vectors?","opts":["Fertility plasmid","Resistance (R) plasmid","Col plasmid","Degradative plasmid"],"ans":1,"exp":"Resistance (R) plasmids carry genes conferring resistance to one or more antibiotics or heavy metals. These resistance genes are the basis for selectable markers used in most cloning vectors, including pBR322 (amp^r and tet^r)."},{"q":"Which of the following is a UNIQUE advantage of M13 phage vectors over plasmid and lambda phage vectors?","opts":["Largest insert capacity","Integration into plant genome","Production of single-stranded DNA for sequencing and mutagenesis","Highest copy number per host cell"],"ans":2,"exp":"The unique and critical advantage of M13 phage vectors is their ability to produce single-stranded DNA (ssDNA). After replication via the double-stranded replicative form (RF), ssDNA is packaged into secreted phage particles, providing a ready source of ssDNA templates for Sanger chain-termination DNA sequencing and site-directed mutagenesis — applications where other vectors are unsuitable."}];
 
 /* ============================================================
    QUIZ STATE
@@ -1845,7 +1774,9 @@ window.onload = function () { initQuiz(); };
 html,body,:root{--text3:#34485c;--muted:#34485c;--text-muted:#34485c;--text-lt:#34485c;--text-light:#34485c;--text2:#26394c}
 .def-box .def-src{color:rgba(255,255,255,.8)!important}
 .a11y-svgscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
-.a11y-svgscroll>svg{min-width:560px;max-width:none!important;width:100%!important;height:auto}
+.a11y-svgscroll>svg{max-width:none!important;width:100%!important;height:auto}
+button,[role=button],select,input[type=button],input[type=submit],summary{min-height:44px}
+button.nb,.nb{min-height:44px}
 .a11y-hint{display:none;font:600 12.5px/1.3 system-ui,sans-serif;color:#0b6b60;margin:2px 0 6px}
 @media(max-width:700px){.a11y-hint{display:block}
 .a11y-stack,.a11y-stack tbody,.a11y-stack tr,.a11y-stack td{display:block!important;width:100%!important;box-sizing:border-box}
@@ -1879,9 +1810,13 @@ function tables(){
   tb.classList.add('a11y-stack')})
 }
 function svgs(){
- document.querySelectorAll('svg[viewBox]').forEach(function(s){if(s.dataset.a11y||s.closest('button,a,.a11y-svgscroll'))return;var v=s.getAttribute('viewBox').split(/[ ,]+/).map(Number);if(!(v[2]>=480&&v[3]>=100))return;s.dataset.a11y=1;
-  var w=document.createElement('div');w.className='a11y-svgscroll';s.parentNode.insertBefore(w,s);w.appendChild(s);
-  var h=document.createElement('div');h.className='a11y-hint';h.textContent='↔ Swipe sideways to see the whole diagram';w.parentNode.insertBefore(h,w)})
+ document.querySelectorAll('svg[viewBox]').forEach(function(s){if(s.dataset.a11y||s.closest('button,a,.a11y-svgscroll'))return;
+  var tx=s.querySelectorAll('text');if(tx.length<3)return;var v=s.getAttribute('viewBox').split(/[ ,]+/).map(Number);if(!(v[2]>0))return;s.dataset.a11y=1;
+  var fs=[].map.call(tx,function(t){return parseFloat(getComputedStyle(t).fontSize)||10}).sort(function(x,y){return x-y});
+  var f=fs[Math.floor(fs.length*.15)];var need=Math.min(1000,Math.max(0,v[2]*11.5/f));
+  if(need<=Math.min(window.innerWidth-32,360))return;
+  var w=document.createElement('div');w.className='a11y-svgscroll';s.parentNode.insertBefore(w,s);w.appendChild(s);s.style.minWidth=Math.round(need)+'px';
+  var h=document.createElement('div');h.className='a11y-hint';h.textContent='\u2194 Swipe sideways to see the whole diagram';w.parentNode.insertBefore(h,w)})
 }
 function run(){try{tables();svgs();pass()}catch(e){}}
 var tm;function later(){clearTimeout(tm);tm=setTimeout(run,350)}

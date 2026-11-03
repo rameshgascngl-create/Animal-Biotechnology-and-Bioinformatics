@@ -1621,83 +1621,7 @@ function teq(btn) {
 /* ============================================================
    QUIZ DATA
    ============================================================ */
-var QD = [
-  {
-    q: "What does the term 'cosmid' stand for?",
-    o: ["Chromosomal osmid vector", "cos site + plasmid hybrid vector", "Complementary osmotic DNA vector", "Circular osmotic mid-size vector"],
-    a: 1,
-    e: "Cosmid is derived from 'cos' (cohesive end sites of lambda phage) + 'plasmid'. It is a hybrid vector combining a plasmid backbone (with ori and antibiotic resistance) and lambda cos sites (for in vitro packaging), developed by Collins and Hohn in 1978."
-  },
-  {
-    q: "What is the insert capacity of a cosmid vector?",
-    o: ["Up to 10 kb", "15–20 kb", "35–45 kb", "200–500 kb"],
-    a: 2,
-    e: "Cosmids can accept 35–45 kb of foreign DNA. This is because lambda phage heads package DNA between 37–52 kb in size between two cos sites. The small cosmid backbone (~5–6 kb) leaves 35–45 kb available for insert DNA."
-  },
-  {
-    q: "Which three structural elements are absolutely essential for a functional YAC?",
-    o: ["ori, amp^r, cos sites", "TEL, CEN, ARS", "TIR, transposase, TSD", "Early region, Late region, ori"],
-    a: 1,
-    e: "A functional YAC requires: TEL (telomeres) to protect linear chromosome ends, CEN (centromere) for accurate chromosome segregation during cell division, and ARS (Autonomously Replicating Sequence — origin of replication in yeast) to allow replication once per cell cycle."
-  },
-  {
-    q: "What is the approximate insert capacity of a Yeast Artificial Chromosome (YAC)?",
-    o: ["Up to 45 kb", "Up to 100 kb", "200 kb to 2,000 kb", "5 kb to 10 kb"],
-    a: 2,
-    e: "YACs can accept 200 kb to 2,000 kb (2 Mb) of foreign DNA — far larger than any other standard cloning vector. This enormous capacity made YACs essential tools in the Human Genome Project for mapping and sequencing large chromosomal regions."
-  },
-  {
-    q: "SV40 (Simian Virus 40) has a genome size of approximately:",
-    o: ["48,500 bp", "6,400 bp", "5,243 bp", "200,000 bp"],
-    a: 2,
-    e: "The SV40 genome is approximately 5,243 bp of circular double-stranded DNA. This small size limits its insert capacity to ~2.5 kb as a cloning vector, since the total packaged DNA must fit within the viral capsid (maximum ~5.2 kb)."
-  },
-  {
-    q: "What is the primary function of the Large T antigen (LT-Ag) of SV40?",
-    o: [
-      "Encode viral capsid proteins VP1, VP2, VP3",
-      "Initiate viral DNA replication by binding to the SV40 ori and transform host cells",
-      "Package viral DNA into the capsid",
-      "Transfer viral DNA into the nucleus of the host cell"
-    ],
-    a: 1,
-    e: "SV40 Large T antigen (LT-Ag) has two main functions: (1) It binds to the SV40 origin of replication (ori) to initiate and drive viral DNA replication; (2) It inhibits host tumor suppressors p53 and Rb, causing cell transformation. LT-Ag expressed in COS cells allows SV40 vectors to replicate to very high copy numbers."
-  },
-  {
-    q: "Who discovered transposons ('jumping genes') and in which organism?",
-    o: ["Hamilton Smith in Haemophilus influenzae", "Barbara McClintock in Zea mays (maize)", "Werner Arber in Escherichia coli", "Frederick Griffith in Streptococcus pneumoniae"],
-    a: 1,
-    e: "Transposons were discovered by Barbara McClintock in Zea mays (maize) in the 1940s. She observed that certain genetic elements could move between chromosomal positions, causing changes in kernel color patterns. She was awarded the Nobel Prize in Physiology or Medicine in 1983 for this discovery."
-  },
-  {
-    q: "Which of the following is the key enzyme that mediates the cut-and-paste movement of DNA transposons?",
-    o: ["DNA ligase", "Reverse transcriptase", "Transposase", "Restriction endonuclease"],
-    a: 2,
-    e: "Transposase is the enzyme encoded within Class II (DNA) transposons that mediates transposition. It recognizes and binds to the Terminal Inverted Repeats (TIRs) at both ends of the transposon, excises it from the donor site, and catalyzes its integration at a new target site."
-  },
-  {
-    q: "COS cells are used in SV40-based expression systems because they:",
-    o: [
-      "Are derived from human embryonic kidney cells",
-      "Stably express SV40 Large T antigen, enabling high-copy episomal replication of SV40 ori-containing vectors",
-      "Produce lambda phage capsid proteins for packaging",
-      "Have a YAC integrated into their chromosomes"
-    ],
-    a: 1,
-    e: "COS cells (e.g., COS-1, COS-7) are African green monkey kidney (CV-1) cells that stably express the SV40 Large T antigen. When SV40 vectors containing the viral ori are transfected into COS cells, the T antigen drives high-level episomal replication, producing thousands of copies of the vector per cell and enabling very high transient gene expression."
-  },
-  {
-    q: "Which of the following correctly ranks cloning vectors by their insert capacity from smallest to largest?",
-    o: [
-      "Plasmid < Cosmid < Lambda phage < YAC",
-      "SV40 < Plasmid < Lambda phage < Cosmid < YAC",
-      "Cosmid < Lambda phage < Plasmid < YAC < SV40",
-      "Lambda phage < Cosmid < Plasmid < SV40 < YAC"
-    ],
-    a: 1,
-    e: "From smallest to largest insert capacity: SV40 (~2.5 kb) < Plasmid (up to ~10 kb) < Lambda phage replacement vectors (~23 kb) < Cosmid (35–45 kb) < YAC (200–2,000 kb). YACs have by far the largest capacity. Note that SV40 is smaller than standard plasmids due to the capsid size constraint."
-  }
-];
+var QD = [{"q":"What does the term 'cosmid' stand for?","o":["cos site + plasmid hybrid vector","Chromosomal osmid vector","Complementary osmotic DNA vector","Circular osmotic mid-size vector"],"a":0,"e":"Cosmid is derived from 'cos' (cohesive end sites of lambda phage) + 'plasmid'. It is a hybrid vector combining a plasmid backbone (with ori and antibiotic resistance) and lambda cos sites (for in vitro packaging), developed by Collins and Hohn in 1978."},{"q":"What is the insert capacity of a cosmid vector?","o":["Up to 10 kb","35–45 kb","15–20 kb","200–500 kb"],"a":1,"e":"Cosmids can accept 35–45 kb of foreign DNA. This is because lambda phage heads package DNA between 37–52 kb in size between two cos sites. The small cosmid backbone (~5–6 kb) leaves 35–45 kb available for insert DNA."},{"q":"Which three structural elements are absolutely essential for a functional YAC?","o":["ori, amp^r, cos sites","TIR, transposase, TSD","TEL, CEN, ARS","Early region, Late region, ori"],"a":2,"e":"A functional YAC requires: TEL (telomeres) to protect linear chromosome ends, CEN (centromere) for accurate chromosome segregation during cell division, and ARS (Autonomously Replicating Sequence — origin of replication in yeast) to allow replication once per cell cycle."},{"q":"What is the approximate insert capacity of a Yeast Artificial Chromosome (YAC)?","o":["Up to 45 kb","Up to 100 kb","5 kb to 10 kb","200 kb to 2,000 kb"],"a":3,"e":"YACs can accept 200 kb to 2,000 kb (2 Mb) of foreign DNA — far larger than any other standard cloning vector. This enormous capacity made YACs essential tools in the Human Genome Project for mapping and sequencing large chromosomal regions."},{"q":"SV40 (Simian Virus 40) has a genome size of approximately:","o":["48,500 bp","5,243 bp","6,400 bp","200,000 bp"],"a":1,"e":"The SV40 genome is approximately 5,243 bp of circular double-stranded DNA. This small size limits its insert capacity to ~2.5 kb as a cloning vector, since the total packaged DNA must fit within the viral capsid (maximum ~5.2 kb)."},{"q":"What is the primary function of the Large T antigen (LT-Ag) of SV40?","o":["Encode viral capsid proteins VP1, VP2, VP3","Package viral DNA into the capsid","Transfer viral DNA into the nucleus of the host cell","Initiate viral DNA replication by binding to the SV40 ori and transform host cells"],"a":3,"e":"SV40 Large T antigen (LT-Ag) has two main functions: (1) It binds to the SV40 origin of replication (ori) to initiate and drive viral DNA replication; (2) It inhibits host tumor suppressors p53 and Rb, causing cell transformation. LT-Ag expressed in COS cells allows SV40 vectors to replicate to very high copy numbers."},{"q":"Who discovered transposons ('jumping genes') and in which organism?","o":["Hamilton Smith in Haemophilus influenzae","Werner Arber in Escherichia coli","Barbara McClintock in Zea mays (maize)","Frederick Griffith in Streptococcus pneumoniae"],"a":2,"e":"Transposons were discovered by Barbara McClintock in Zea mays (maize) in the 1940s. She observed that certain genetic elements could move between chromosomal positions, causing changes in kernel color patterns. She was awarded the Nobel Prize in Physiology or Medicine in 1983 for this discovery."},{"q":"Which of the following is the key enzyme that mediates the cut-and-paste movement of DNA transposons?","o":["DNA ligase","Transposase","Reverse transcriptase","Restriction endonuclease"],"a":1,"e":"Transposase is the enzyme encoded within Class II (DNA) transposons that mediates transposition. It recognizes and binds to the Terminal Inverted Repeats (TIRs) at both ends of the transposon, excises it from the donor site, and catalyzes its integration at a new target site."},{"q":"COS cells are used in SV40-based expression systems because they:","o":["Stably express SV40 Large T antigen, enabling high-copy episomal replication of SV40 ori-containing vectors","Are derived from human embryonic kidney cells","Produce lambda phage capsid proteins for packaging","Have a YAC integrated into their chromosomes"],"a":0,"e":"COS cells (e.g., COS-1, COS-7) are African green monkey kidney (CV-1) cells that stably express the SV40 Large T antigen. When SV40 vectors containing the viral ori are transfected into COS cells, the T antigen drives high-level episomal replication, producing thousands of copies of the vector per cell and enabling very high transient gene expression."},{"q":"Which of the following correctly ranks cloning vectors by their insert capacity from smallest to largest?","o":["Plasmid < Cosmid < Lambda phage < YAC","Cosmid < Lambda phage < Plasmid < YAC < SV40","Lambda phage < Cosmid < Plasmid < SV40 < YAC","SV40 < Plasmid < Lambda phage < Cosmid < YAC"],"a":3,"e":"From smallest to largest insert capacity: SV40 (~2.5 kb) < Plasmid (up to ~10 kb) < Lambda phage replacement vectors (~23 kb) < Cosmid (35–45 kb) < YAC (200–2,000 kb). YACs have by far the largest capacity. Note that SV40 is smaller than standard plasmids due to the capsid size constraint."}];
 
 /* ============================================================
    QUIZ LOGIC
@@ -1795,7 +1719,9 @@ window.onload = function () { initQ(); };
 html,body,:root{--text3:#34485c;--muted:#34485c;--text-muted:#34485c;--text-lt:#34485c;--text-light:#34485c;--text2:#26394c}
 .def-box .def-src{color:rgba(255,255,255,.8)!important}
 .a11y-svgscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
-.a11y-svgscroll>svg{min-width:560px;max-width:none!important;width:100%!important;height:auto}
+.a11y-svgscroll>svg{max-width:none!important;width:100%!important;height:auto}
+button,[role=button],select,input[type=button],input[type=submit],summary{min-height:44px}
+button.nb,.nb{min-height:44px}
 .a11y-hint{display:none;font:600 12.5px/1.3 system-ui,sans-serif;color:#0b6b60;margin:2px 0 6px}
 @media(max-width:700px){.a11y-hint{display:block}
 .a11y-stack,.a11y-stack tbody,.a11y-stack tr,.a11y-stack td{display:block!important;width:100%!important;box-sizing:border-box}
@@ -1829,9 +1755,13 @@ function tables(){
   tb.classList.add('a11y-stack')})
 }
 function svgs(){
- document.querySelectorAll('svg[viewBox]').forEach(function(s){if(s.dataset.a11y||s.closest('button,a,.a11y-svgscroll'))return;var v=s.getAttribute('viewBox').split(/[ ,]+/).map(Number);if(!(v[2]>=480&&v[3]>=100))return;s.dataset.a11y=1;
-  var w=document.createElement('div');w.className='a11y-svgscroll';s.parentNode.insertBefore(w,s);w.appendChild(s);
-  var h=document.createElement('div');h.className='a11y-hint';h.textContent='↔ Swipe sideways to see the whole diagram';w.parentNode.insertBefore(h,w)})
+ document.querySelectorAll('svg[viewBox]').forEach(function(s){if(s.dataset.a11y||s.closest('button,a,.a11y-svgscroll'))return;
+  var tx=s.querySelectorAll('text');if(tx.length<3)return;var v=s.getAttribute('viewBox').split(/[ ,]+/).map(Number);if(!(v[2]>0))return;s.dataset.a11y=1;
+  var fs=[].map.call(tx,function(t){return parseFloat(getComputedStyle(t).fontSize)||10}).sort(function(x,y){return x-y});
+  var f=fs[Math.floor(fs.length*.15)];var need=Math.min(1000,Math.max(0,v[2]*11.5/f));
+  if(need<=Math.min(window.innerWidth-32,360))return;
+  var w=document.createElement('div');w.className='a11y-svgscroll';s.parentNode.insertBefore(w,s);w.appendChild(s);s.style.minWidth=Math.round(need)+'px';
+  var h=document.createElement('div');h.className='a11y-hint';h.textContent='\u2194 Swipe sideways to see the whole diagram';w.parentNode.insertBefore(h,w)})
 }
 function run(){try{tables();svgs();pass()}catch(e){}}
 var tm;function later(){clearTimeout(tm);tm=setTimeout(run,350)}

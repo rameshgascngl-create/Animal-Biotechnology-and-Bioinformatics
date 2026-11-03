@@ -1589,95 +1589,7 @@ function teq(btn) {
 /* ============================================================
    QUIZ DATA
    ============================================================ */
-var QD = [
-  {
-    q: "What is the correct definition of gene cloning?",
-    o: ["Asexual reproduction of an entire organism",
-        "Production of multiple identical copies of a specific gene using recombinant DNA technology",
-        "Sequencing the entire genome of an organism",
-        "Amplifying a gene using the polymerase chain reaction only"],
-    a: 1,
-    e: "Gene cloning is the process of producing multiple identical copies of a specific gene by inserting it into a vector, introducing the recombinant vector into a host cell, and allowing the host to replicate — copying the gene with each cell division."
-  },
-  {
-    q: "Why must the same restriction enzyme be used to cut both the insert DNA and the vector?",
-    o: ["To cut DNA into smaller, more manageable fragments",
-        "To ensure both molecules have complementary (compatible) sticky ends for ligation",
-        "Because restriction enzymes only work on foreign DNA",
-        "To prevent the host cell from degrading the recombinant DNA"],
-    a: 1,
-    e: "Using the same restriction enzyme on both insert and vector generates identical sticky end sequences on both molecules. These complementary overhangs can anneal by hydrogen bonding, positioning the ends correctly for DNA ligase to seal them covalently."
-  },
-  {
-    q: "T4 DNA ligase is used in gene cloning to:",
-    o: ["Cut DNA at specific restriction sites",
-        "Amplify the gene of interest by PCR",
-        "Form phosphodiester bonds between the insert and vector DNA ends",
-        "Introduce recombinant DNA into the host cell"],
-    a: 2,
-    e: "T4 DNA ligase catalyses the formation of covalent phosphodiester bonds between the 3'-OH of one DNA strand and the 5'-phosphate of the adjacent strand. It 'seals' the nick between the insert and vector, creating a continuous circular recombinant DNA molecule."
-  },
-  {
-    q: "In blue-white screening, white colonies indicate:",
-    o: ["Non-transformed cells with no vector",
-        "Cells where the lacZ gene is intact and functional",
-        "Recombinant clones where the insert has disrupted the lacZ gene",
-        "Cells that have died from antibiotic exposure"],
-    a: 2,
-    e: "White colonies contain an insert cloned into the MCS within the lacZ gene. This disrupts lacZ, so no functional β-galactosidase is produced. X-gal in the medium is not cleaved — no blue compound forms — so the colony appears white. White = recombinant."
-  },
-  {
-    q: "In blue-white screening, the purpose of adding X-gal to the medium is:",
-    o: ["To induce the lac operon",
-        "To provide a colourless substrate that β-galactosidase cleaves to produce a blue product",
-        "To select for ampicillin-resistant transformants",
-        "To prevent non-specific protein expression"],
-    a: 1,
-    e: "X-gal (5-bromo-4-chloro-3-indolyl-β-D-galactopyranoside) is a colourless substrate. When β-galactosidase (encoded by an intact lacZ gene) cleaves X-gal, it releases a blue compound (5-bromo-4-chloro-indigo), turning the colony blue."
-  },
-  {
-    q: "In insertional inactivation using pBR322, when the gene of interest is cloned into the BamHI site (within tet^r), the recombinant cell will be:",
-    o: ["Ampicillin-sensitive and tetracycline-resistant",
-        "Ampicillin-resistant and tetracycline-sensitive",
-        "Sensitive to both ampicillin and tetracycline",
-        "Resistant to both ampicillin and tetracycline"],
-    a: 1,
-    e: "The insert disrupts the tet^r gene (tetracycline resistance), making the cell tetracycline-sensitive. The amp^r gene is not affected, so the cell remains ampicillin-resistant. Recombinants grow on ampicillin but NOT on tetracycline; identified by replica plating."
-  },
-  {
-    q: "Which method is used to introduce recombinant plasmid DNA into competent E. coli cells?",
-    o: ["Electrophoresis", "Transformation (heat shock or electroporation)", "Transduction using phage", "Conjugation"],
-    a: 1,
-    e: "Transformation is the process of introducing naked DNA into competent bacterial cells. Two main methods: (1) Chemical — CaCl₂ treatment to make cells competent, followed by brief heat shock at 42°C. (2) Electroporation — a high-voltage electric pulse creates temporary pores for DNA entry."
-  },
-  {
-    q: "What is the main purpose of alkaline phosphatase treatment of the linearised vector before ligation?",
-    o: ["To fragment the vector into smaller pieces",
-        "To add phosphate groups to the vector ends for better ligation",
-        "To remove 5'-phosphate groups from vector ends, preventing self-ligation and reducing non-recombinant background",
-        "To sterilise the vector DNA"],
-    a: 2,
-    e: "Alkaline phosphatase removes the 5'-phosphate groups from the linearised vector ends. Without these groups, the vector cannot self-ligate (cannot re-circularise on its own). This forces the vector to ligate only with insert DNA (which retains its 5'-phosphates), greatly reducing the background of non-recombinant clones."
-  },
-  {
-    q: "After transformation, bacterial cells are first plated on ampicillin-containing medium. This step specifically selects for:",
-    o: ["Cells that contain the recombinant vector with the correct insert",
-        "All transformed cells (those that took up the vector, with or without insert)",
-        "Non-transformed cells",
-        "Cells that have undergone recombination of their chromosomal DNA"],
-    a: 1,
-    e: "Plating on ampicillin selects for cells carrying the vector (which has the amp^r gene). Both recombinant (vector + insert) and non-recombinant (re-ligated vector only) cells survive. Non-transformed cells (no vector) die. A second step (blue-white or insertional inactivation) is then needed to distinguish recombinant from non-recombinant transformants."
-  },
-  {
-    q: "Which of the following is the correct sequence of steps in gene cloning?",
-    o: ["Transformation → Ligation → Restriction digestion → Selection",
-        "Isolation of gene → Restriction digestion → Ligation → Transformation → Selection and screening",
-        "Selection → Ligation → Transformation → Restriction digestion",
-        "PCR → Sequencing → Cloning → Transformation"],
-    a: 1,
-    e: "The correct sequence is: (1) Isolate gene of interest; (2) Restriction digestion of gene and vector with same enzyme; (3) Ligation (insert + vector) using T4 DNA ligase; (4) Transformation into competent E. coli; (5) Selection on antibiotic medium (transformants); (6) Screening for recombinants (blue-white / insertional inactivation)."
-  }
-];
+var QD = [{"q":"What is the correct definition of gene cloning?","o":["Asexual reproduction of an entire organism","Sequencing the entire genome of an organism","Production of multiple identical copies of a specific gene using recombinant DNA technology","Amplifying a gene using the polymerase chain reaction only"],"a":2,"e":"Gene cloning is the process of producing multiple identical copies of a specific gene by inserting it into a vector, introducing the recombinant vector into a host cell, and allowing the host to replicate — copying the gene with each cell division."},{"q":"Why must the same restriction enzyme be used to cut both the insert DNA and the vector?","o":["To cut DNA into smaller, more manageable fragments","To ensure both molecules have complementary (compatible) sticky ends for ligation","Because restriction enzymes only work on foreign DNA","To prevent the host cell from degrading the recombinant DNA"],"a":1,"e":"Using the same restriction enzyme on both insert and vector generates identical sticky end sequences on both molecules. These complementary overhangs can anneal by hydrogen bonding, positioning the ends correctly for DNA ligase to seal them covalently."},{"q":"T4 DNA ligase is used in gene cloning to:","o":["Cut DNA at specific restriction sites","Amplify the gene of interest by PCR","Form phosphodiester bonds between the insert and vector DNA ends","Introduce recombinant DNA into the host cell"],"a":2,"e":"T4 DNA ligase catalyses the formation of covalent phosphodiester bonds between the 3'-OH of one DNA strand and the 5'-phosphate of the adjacent strand. It 'seals' the nick between the insert and vector, creating a continuous circular recombinant DNA molecule."},{"q":"In blue-white screening, white colonies indicate:","o":["Non-transformed cells with no vector","Recombinant clones where the insert has disrupted the lacZ gene","Cells where the lacZ gene is intact and functional","Cells that have died from antibiotic exposure"],"a":1,"e":"White colonies contain an insert cloned into the MCS within the lacZ gene. This disrupts lacZ, so no functional β-galactosidase is produced. X-gal in the medium is not cleaved — no blue compound forms — so the colony appears white. White = recombinant."},{"q":"In blue-white screening, the purpose of adding X-gal to the medium is:","o":["To provide a colourless substrate that β-galactosidase cleaves to produce a blue product","To induce the lac operon","To select for ampicillin-resistant transformants","To prevent non-specific protein expression"],"a":0,"e":"X-gal (5-bromo-4-chloro-3-indolyl-β-D-galactopyranoside) is a colourless substrate. When β-galactosidase (encoded by an intact lacZ gene) cleaves X-gal, it releases a blue compound (5-bromo-4-chloro-indigo), turning the colony blue."},{"q":"In insertional inactivation using pBR322, when the gene of interest is cloned into the BamHI site (within tet^r), the recombinant cell will be:","o":["Ampicillin-sensitive and tetracycline-resistant","Ampicillin-resistant and tetracycline-sensitive","Sensitive to both ampicillin and tetracycline","Resistant to both ampicillin and tetracycline"],"a":1,"e":"The insert disrupts the tet^r gene (tetracycline resistance), making the cell tetracycline-sensitive. The amp^r gene is not affected, so the cell remains ampicillin-resistant. Recombinants grow on ampicillin but NOT on tetracycline; identified by replica plating."},{"q":"Which method is used to introduce recombinant plasmid DNA into competent E. coli cells?","o":["Transformation (heat shock or electroporation)","Electrophoresis","Transduction using phage","Conjugation"],"a":0,"e":"Transformation is the process of introducing naked DNA into competent bacterial cells. Two main methods: (1) Chemical — CaCl₂ treatment to make cells competent, followed by brief heat shock at 42°C. (2) Electroporation — a high-voltage electric pulse creates temporary pores for DNA entry."},{"q":"What is the main purpose of alkaline phosphatase treatment of the linearised vector before ligation?","o":["To fragment the vector into smaller pieces","To add phosphate groups to the vector ends for better ligation","To sterilise the vector DNA","To remove 5'-phosphate groups from vector ends, preventing self-ligation and reducing non-recombinant background"],"a":3,"e":"Alkaline phosphatase removes the 5'-phosphate groups from the linearised vector ends. Without these groups, the vector cannot self-ligate (cannot re-circularise on its own). This forces the vector to ligate only with insert DNA (which retains its 5'-phosphates), greatly reducing the background of non-recombinant clones."},{"q":"After transformation, bacterial cells are first plated on ampicillin-containing medium. This step specifically selects for:","o":["Cells that contain the recombinant vector with the correct insert","Non-transformed cells","All transformed cells (those that took up the vector, with or without insert)","Cells that have undergone recombination of their chromosomal DNA"],"a":2,"e":"Plating on ampicillin selects for cells carrying the vector (which has the amp^r gene). Both recombinant (vector + insert) and non-recombinant (re-ligated vector only) cells survive. Non-transformed cells (no vector) die. A second step (blue-white or insertional inactivation) is then needed to distinguish recombinant from non-recombinant transformants."},{"q":"Which of the following is the correct sequence of steps in gene cloning?","o":["Transformation → Ligation → Restriction digestion → Selection","Selection → Ligation → Transformation → Restriction digestion","PCR → Sequencing → Cloning → Transformation","Isolation of gene → Restriction digestion → Ligation → Transformation → Selection and screening"],"a":3,"e":"The correct sequence is: (1) Isolate gene of interest; (2) Restriction digestion of gene and vector with same enzyme; (3) Ligation (insert + vector) using T4 DNA ligase; (4) Transformation into competent E. coli; (5) Selection on antibiotic medium (transformants); (6) Screening for recombinants (blue-white / insertional inactivation)."}];
 
 /* ============================================================
    QUIZ LOGIC
@@ -1779,7 +1691,9 @@ window.onload = function () { initQ(); };
 html,body,:root{--text3:#34485c;--muted:#34485c;--text-muted:#34485c;--text-lt:#34485c;--text-light:#34485c;--text2:#26394c}
 .def-box .def-src{color:rgba(255,255,255,.8)!important}
 .a11y-svgscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
-.a11y-svgscroll>svg{min-width:560px;max-width:none!important;width:100%!important;height:auto}
+.a11y-svgscroll>svg{max-width:none!important;width:100%!important;height:auto}
+button,[role=button],select,input[type=button],input[type=submit],summary{min-height:44px}
+button.nb,.nb{min-height:44px}
 .a11y-hint{display:none;font:600 12.5px/1.3 system-ui,sans-serif;color:#0b6b60;margin:2px 0 6px}
 @media(max-width:700px){.a11y-hint{display:block}
 .a11y-stack,.a11y-stack tbody,.a11y-stack tr,.a11y-stack td{display:block!important;width:100%!important;box-sizing:border-box}
@@ -1813,9 +1727,13 @@ function tables(){
   tb.classList.add('a11y-stack')})
 }
 function svgs(){
- document.querySelectorAll('svg[viewBox]').forEach(function(s){if(s.dataset.a11y||s.closest('button,a,.a11y-svgscroll'))return;var v=s.getAttribute('viewBox').split(/[ ,]+/).map(Number);if(!(v[2]>=480&&v[3]>=100))return;s.dataset.a11y=1;
-  var w=document.createElement('div');w.className='a11y-svgscroll';s.parentNode.insertBefore(w,s);w.appendChild(s);
-  var h=document.createElement('div');h.className='a11y-hint';h.textContent='↔ Swipe sideways to see the whole diagram';w.parentNode.insertBefore(h,w)})
+ document.querySelectorAll('svg[viewBox]').forEach(function(s){if(s.dataset.a11y||s.closest('button,a,.a11y-svgscroll'))return;
+  var tx=s.querySelectorAll('text');if(tx.length<3)return;var v=s.getAttribute('viewBox').split(/[ ,]+/).map(Number);if(!(v[2]>0))return;s.dataset.a11y=1;
+  var fs=[].map.call(tx,function(t){return parseFloat(getComputedStyle(t).fontSize)||10}).sort(function(x,y){return x-y});
+  var f=fs[Math.floor(fs.length*.15)];var need=Math.min(1000,Math.max(0,v[2]*11.5/f));
+  if(need<=Math.min(window.innerWidth-32,360))return;
+  var w=document.createElement('div');w.className='a11y-svgscroll';s.parentNode.insertBefore(w,s);w.appendChild(s);s.style.minWidth=Math.round(need)+'px';
+  var h=document.createElement('div');h.className='a11y-hint';h.textContent='\u2194 Swipe sideways to see the whole diagram';w.parentNode.insertBefore(h,w)})
 }
 function run(){try{tables();svgs();pass()}catch(e){}}
 var tm;function later(){clearTimeout(tm);tm=setTimeout(run,350)}
