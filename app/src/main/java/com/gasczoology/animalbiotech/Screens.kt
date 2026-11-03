@@ -82,14 +82,14 @@ fun ReaderScreen(
                         Icon(
                             Icons.Default.Star,
                             contentDescription = "Save topic",
-                            tint = if (saved) Color(0xFFF5B301) else Color.White.copy(alpha = 0.55f),
+                            tint = if (saved) Color(0xFFF5B301) else Color.White.copy(alpha = 0.85f),
                         )
                     }
                     IconButton(onClick = onToggleStudied) {
                         Icon(
                             Icons.Default.Check,
                             contentDescription = "Mark as studied",
-                            tint = if (studied) Color(0xFF5EE6D5) else Color.White.copy(alpha = 0.55f),
+                            tint = if (studied) Color(0xFF5EE6D5) else Color.White.copy(alpha = 0.85f),
                         )
                     }
                 },

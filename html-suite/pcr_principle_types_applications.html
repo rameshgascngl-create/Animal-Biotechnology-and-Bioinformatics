@@ -1350,5 +1350,55 @@ function showRes(){
 }
 window.onload=function(){initQ();};
 </script>
+<!--A11Y-->
+<style id="a11y-css">
+html,body,:root{--text3:#34485c;--muted:#34485c;--text-muted:#34485c;--text-lt:#34485c;--text-light:#34485c;--text2:#26394c}
+.def-box .def-src{color:rgba(255,255,255,.8)!important}
+.a11y-svgscroll{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%}
+.a11y-svgscroll>svg{min-width:560px;max-width:none!important;width:100%!important;height:auto}
+.a11y-hint{display:none;font:600 12.5px/1.3 system-ui,sans-serif;color:#0b6b60;margin:2px 0 6px}
+@media(max-width:700px){.a11y-hint{display:block}
+.a11y-stack,.a11y-stack tbody,.a11y-stack tr,.a11y-stack td{display:block!important;width:100%!important;box-sizing:border-box}
+.a11y-stack thead,.a11y-stack tr.a11y-hr{display:none!important}
+.a11y-stack tr{border:1px solid #c5d3e0;border-radius:10px;margin:0 0 10px;padding:6px 12px;background:#fff!important}
+.a11y-stack td{border:0!important;padding:5px 0!important;text-align:left!important;white-space:normal!important;color:#1a2836!important;background:transparent!important}
+.a11y-stack td::before{content:attr(data-label);display:block;font:700 12.5px/1.3 system-ui,sans-serif;text-transform:uppercase;letter-spacing:.04em;color:#0b6b60}}
+</style>
+<script id="a11y-js">
+(function(){
+function P(s){var m=/rgba?\(([\d.]+)[, ]+([\d.]+)[, ]+([\d.]+)(?:[,/ ]+([\d.]+))?\)/.exec(s);return m?[+m[1],+m[2],+m[3],m[4]===undefined?1:+m[4]]:[0,0,0,0]}
+function L(c){var a=[c[0],c[1],c[2]].map(function(v){v/=255;return v<=.03928?v/12.92:Math.pow((v+.055)/1.055,2.4)});return .2126*a[0]+.7152*a[1]+.0722*a[2]}
+function mix(f,b){var a=f[3];return[f[0]*a+b[0]*(1-a),f[1]*a+b[1]*(1-a),f[2]*a+b[2]*(1-a),1]}
+function bg(el){var layers=[],e=el;while(e&&e.nodeType===1){var cs=getComputedStyle(e);if(cs.backgroundImage!=='none')return null;var c=P(cs.backgroundColor);if(c[3]>0){layers.push(c);if(c[3]>=1)break}e=e.parentElement}
+var out=[255,255,255,1];for(var i=layers.length-1;i>=0;i--)out=mix(layers[i],out);return out}
+function ratio(a,b){var x=L(a),y=L(b);return(Math.max(x,y)+.05)/(Math.min(x,y)+.05)}
+function pass(){
+ var els=document.body.querySelectorAll('*');
+ for(var i=0;i<els.length;i++){var el=els[i];var t=el.tagName;if(t==='SCRIPT'||t==='STYLE'||t==='svg'||el.closest('svg'))continue;
+  var own=false;for(var n=el.firstChild;n;n=n.nextSibling){if(n.nodeType===3&&n.nodeValue.trim()){own=true;break}}if(!own)continue;
+  var cs=getComputedStyle(el),fs=parseFloat(cs.fontSize);
+  if(fs<13)el.style.setProperty('font-size','13px','important');
+  var b=bg(el);if(!b)continue;var fc=P(cs.color);var f=mix(fc,b);var big=fs>=24||(fs>=18.6&&+cs.fontWeight>=700);
+  if(ratio(f,b)<(big?3:4.5)){var dark=L(b)>.35;el.style.setProperty('color',dark?'#16293b':'#ffffff','important')}}
+}
+function tables(){
+ document.querySelectorAll('table').forEach(function(tb){if(tb.dataset.a11y)return;tb.dataset.a11y=1;
+  var rows=tb.rows;if(!rows.length)return;var h=rows[0];var hs=[].map.call(h.cells,function(c){return c.textContent.trim()});
+  if(hs.length<3||!h.querySelector('th'))return;
+  [].forEach.call(rows,function(r,i){if(i===0){r.classList.add('a11y-hr');return}[].forEach.call(r.cells,function(c,j){c.setAttribute('data-label',hs[j]||'')})});
+  tb.classList.add('a11y-stack')})
+}
+function svgs(){
+ document.querySelectorAll('svg[viewBox]').forEach(function(s){if(s.dataset.a11y||s.closest('button,a,.a11y-svgscroll'))return;var v=s.getAttribute('viewBox').split(/[ ,]+/).map(Number);if(!(v[2]>=480&&v[3]>=100))return;s.dataset.a11y=1;
+  var w=document.createElement('div');w.className='a11y-svgscroll';s.parentNode.insertBefore(w,s);w.appendChild(s);
+  var h=document.createElement('div');h.className='a11y-hint';h.textContent='↔ Swipe sideways to see the whole diagram';w.parentNode.insertBefore(h,w)})
+}
+function run(){try{tables();svgs();pass()}catch(e){}}
+var tm;function later(){clearTimeout(tm);tm=setTimeout(run,350)}
+if(document.readyState!=='loading')run();else document.addEventListener('DOMContentLoaded',run);
+window.addEventListener('load',function(){run();new MutationObserver(later).observe(document.body,{childList:true,subtree:true})});
+})();
+</script>
+<!--/A11Y-->
 </body>
 </html>

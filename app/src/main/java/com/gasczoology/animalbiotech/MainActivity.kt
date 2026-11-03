@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.BackHandler
 import androidx.activity.compose.setContent
+import androidx.activity.SystemBarStyle
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -61,7 +62,10 @@ import androidx.compose.ui.unit.dp
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
+        enableEdgeToEdge(
+            statusBarStyle = SystemBarStyle.dark(android.graphics.Color.TRANSPARENT),
+            navigationBarStyle = SystemBarStyle.light(android.graphics.Color.TRANSPARENT, android.graphics.Color.TRANSPARENT)
+        )
         val store = Store(applicationContext)
         setContent {
             MaterialTheme(
@@ -98,7 +102,7 @@ fun App(store: Store) {
     var studied by remember { mutableStateOf(store.getSet("studied")) }
     var saved by remember { mutableStateOf(store.getSet("saved")) }
     var wrong by remember { mutableStateOf(store.getSet("wrong")) }
-    var zoom by remember { mutableIntStateOf(store.getInt("zoom", 100)) }
+    var zoom by remember { mutableIntStateOf(store.getInt("zoom", 115)) }
     var lastId by remember { mutableStateOf(store.getString("last")) }
     var bests by remember { mutableStateOf(quizzes.associate { it.file to store.best(it.file) }) }
 
@@ -237,14 +241,14 @@ fun TopicCard(
             Column(Modifier.weight(1f).clickable { onOpen(topic) }.padding(vertical = 10.dp)) {
                 Text(topic.title, fontWeight = FontWeight.SemiBold, color = Navy, style = MaterialTheme.typography.bodyLarge)
                 if (topic.note.isNotBlank()) {
-                    Text(topic.note, style = MaterialTheme.typography.bodySmall, color = Color(0xFF5B7189))
+                    Text(topic.note, style = MaterialTheme.typography.bodyMedium, color = Color(0xFF3B4F66))
                 }
             }
             IconButton(onClick = { onToggleSaved(topic.id) }) {
                 Icon(
                     Icons.Default.Star,
                     contentDescription = if (saved) "Remove from saved" else "Save topic",
-                    tint = if (saved) Color(0xFFF5B301) else Color(0xFFC3CFDB),
+                    tint = if (saved) Color(0xFFF5B301) else Color(0xFF7D8FA3),
                 )
             }
         }
@@ -391,7 +395,7 @@ fun QuizRow(title: String, sub: String, badge: String?, onClick: () -> Unit) {
         Row(Modifier.padding(14.dp), verticalAlignment = Alignment.CenterVertically) {
             Column(Modifier.weight(1f)) {
                 Text(title, fontWeight = FontWeight.SemiBold, color = Navy)
-                Text(sub, style = MaterialTheme.typography.bodySmall, color = Color(0xFF5B7189))
+                Text(sub, style = MaterialTheme.typography.bodyMedium, color = Color(0xFF3B4F66))
             }
             if (badge != null) Text(badge, color = Teal, fontWeight = FontWeight.Bold, style = MaterialTheme.typography.labelLarge)
         }
@@ -445,7 +449,7 @@ fun AboutTab(units: List<UnitInfo>, quizzes: List<QuizSet>, zoom: Int, onZoom: (
                 Column(Modifier.padding(14.dp)) {
                     Text("Chapter text size", fontWeight = FontWeight.Bold, color = Navy)
                     Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.padding(top = 8.dp)) {
-                        listOf(100 to "Normal", 115 to "Large", 130 to "Extra large").forEach { (v, label) ->
+                        listOf(100 to "Small", 115 to "Medium", 130 to "Large", 150 to "Extra large").forEach { (v, label) ->
                             FilterChip(selected = zoom == v, onClick = { onZoom(v) }, label = { Text(label) })
                         }
                     }
@@ -456,15 +460,15 @@ fun AboutTab(units: List<UnitInfo>, quizzes: List<QuizSet>, zoom: Int, onZoom: (
             Card(colors = CardDefaults.cardColors(containerColor = Color.White), modifier = Modifier.fillMaxWidth()) {
                 Column(Modifier.padding(14.dp)) {
                     Text("Unit ${u.roman}: ${u.title}", fontWeight = FontWeight.Bold, color = Navy)
-                    Text("${u.topics.size} topics", style = MaterialTheme.typography.bodySmall, color = Color(0xFF5B7189))
+                    Text("${u.topics.size} topics", style = MaterialTheme.typography.bodyMedium, color = Color(0xFF3B4F66))
                 }
             }
         }
         item {
             Column(Modifier.fillMaxWidth().padding(top = 16.dp), horizontalAlignment = Alignment.CenterHorizontally) {
                 Text("Department of Zoology, GASC, Nagercoil", fontWeight = FontWeight.SemiBold, color = Navy, style = MaterialTheme.typography.bodyMedium)
-                Text("Created by R. Ramesh", style = MaterialTheme.typography.labelSmall, color = Color(0xFF5B7189))
-                Text("Version 1.2.0", style = MaterialTheme.typography.labelSmall, color = Color(0xFF5B7189))
+                Text("Created by R. Ramesh", style = MaterialTheme.typography.labelSmall, color = Color(0xFF3B4F66))
+                Text("Version 1.2.1", style = MaterialTheme.typography.labelSmall, color = Color(0xFF3B4F66))
             }
         }
     }

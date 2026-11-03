@@ -70,7 +70,7 @@ fun ReviseTab(sets: List<RevisionSet>, onOpen: (RevisionSet) -> Unit, onGlossary
             Text(
                 "More modules will get native revision pages in later updates; their full chapters are always available under Syllabus.",
                 style = MaterialTheme.typography.bodySmall,
-                color = Color(0xFF5B7189),
+                color = Color(0xFF3B4F66),
                 modifier = Modifier.padding(top = 8.dp),
             )
         }
