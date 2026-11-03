@@ -17,11 +17,19 @@ data class Topic(
 
 data class UnitInfo(val roman: String, val title: String, val topics: List<Topic>)
 
-data class Mcq(val q: String, val options: List<String>, val answer: Int, val explanation: String)
+data class Mcq(val id: String, val q: String, val options: List<String>, val answer: Int, val explanation: String)
+
+data class Saq(val q: String, val a: String)
+data class Term(val term: String, val def: String, val module: String)
+data class RevisionSet(
+    val file: String, val title: String, val unitRoman: String,
+    val keyPoints: List<String>, val saqs: List<Saq>, val glossary: List<Term>,
+)
 
 data class QuizSet(val file: String, val title: String, val unitRoman: String, val items: List<Mcq>)
 
 object Repo {
+    private var revCache: List<RevisionSet>? = null
     private var unitCache: List<UnitInfo>? = null
     private var quizCache: List<QuizSet>? = null
 
@@ -57,6 +65,29 @@ object Repo {
         return out
     }
 
+    fun revisions(ctx: Context): List<RevisionSet> {
+        revCache?.let { return it }
+        val root = JSONObject(read(ctx, "revision.json"))
+        val out = ArrayList<RevisionSet>()
+        val keys = root.keys()
+        while (keys.hasNext()) {
+            val file = keys.next()
+            val o = root.getJSONObject(file)
+            val title = o.getString("title")
+            val kp = ArrayList<String>()
+            val a = o.getJSONArray("kp"); for (i in 0 until a.length()) kp.add(a.getString(i))
+            val sq = ArrayList<Saq>()
+            val b = o.getJSONArray("sa"); for (i in 0 until b.length()) { val x = b.getJSONObject(i); sq.add(Saq(x.getString("q"), x.getString("a"))) }
+            val gl = ArrayList<Term>()
+            val c = o.getJSONArray("gl"); for (i in 0 until c.length()) { val x = c.getJSONObject(i); gl.add(Term(x.getString("t"), x.getString("d"), title)) }
+            out.add(RevisionSet(file, title, o.optString("unit", ""), kp, sq, gl))
+        }
+        val order = listOf("I", "II", "III", "IV", "V")
+        val sorted = out.sortedWith(compareBy({ order.indexOf(it.unitRoman) }, { it.title }))
+        revCache = sorted
+        return sorted
+    }
+
     fun quizzes(ctx: Context): List<QuizSet> {
         quizCache?.let { return it }
         val mods = JSONObject(read(ctx, "syllabus.json")).getJSONObject("modules")
@@ -72,7 +103,7 @@ object Repo {
                 val oa = o.getJSONArray("o")
                 val opts = ArrayList<String>()
                 for (k in 0 until oa.length()) opts.add(oa.getString(k))
-                items.add(Mcq(o.getString("q"), opts, o.getInt("a"), o.optString("e", "")))
+                items.add(Mcq("$file#$i", o.getString("q"), opts, o.getInt("a"), o.optString("e", "")))
             }
             val m = mods.optJSONObject(file)
             out.add(
@@ -103,6 +134,21 @@ class Store(ctx: Context) {
         sp.edit().putStringSet(key, s).apply()
         return s
     }
+
+    fun add(key: String, id: String): Set<String> {
+        val s = getSet(key).toMutableSet(); s.add(id)
+        sp.edit().putStringSet(key, s).apply(); return s
+    }
+
+    fun remove(key: String, id: String): Set<String> {
+        val s = getSet(key).toMutableSet(); s.remove(id)
+        sp.edit().putStringSet(key, s).apply(); return s
+    }
+
+    fun getInt(key: String, def: Int): Int = sp.getInt(key, def)
+    fun putInt(key: String, v: Int) { sp.edit().putInt(key, v).apply() }
+    fun getString(key: String): String = sp.getString(key, "") ?: ""
+    fun putString(key: String, v: String) { sp.edit().putString(key, v).apply() }
 
     fun best(file: String): Int = sp.getInt("best_$file", -1)
 

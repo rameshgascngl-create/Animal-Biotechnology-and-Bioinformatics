@@ -35,6 +35,7 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
@@ -46,6 +47,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
+import kotlinx.coroutines.delay
 
 val Navy = Color(0xFF0F2744)
 val Teal = Color(0xFF0E8A7D)
@@ -61,6 +63,7 @@ fun ReaderScreen(
     topic: Topic,
     studied: Boolean,
     saved: Boolean,
+    zoom: Int,
     onBack: () -> Unit,
     onToggleStudied: () -> Unit,
     onToggleSaved: () -> Unit,
@@ -107,6 +110,7 @@ fun ReaderScreen(
                     settings.allowFileAccess = false      // android_asset still works
                     settings.allowContentAccess = false
                     settings.builtInZoomControls = false
+                    settings.textZoom = zoom
                     webViewClient = object : WebViewClient() {
                         override fun shouldOverrideUrlLoading(view: WebView, request: WebResourceRequest): Boolean {
                             // keep the reader strictly inside the bundled content
@@ -127,6 +131,8 @@ fun ReaderScreen(
 fun QuizScreen(
     title: String,
     items: List<Mcq>,
+    timeLimitSec: Int = 0,
+    onAnswer: (Mcq, Boolean) -> Unit = { _, _ -> },
     onFinish: (Int) -> Unit,
     onClose: () -> Unit,
 ) {
@@ -135,6 +141,19 @@ fun QuizScreen(
     var score by remember { mutableIntStateOf(0) }
     var done by remember { mutableStateOf(false) }
     var round by remember { mutableIntStateOf(0) }   // bumps on retry
+    var remaining by remember(round) { mutableIntStateOf(timeLimitSec) }
+    if (timeLimitSec > 0 && !done) {
+        LaunchedEffect(round, done) {
+            while (remaining > 0 && !done) {
+                delay(1000)
+                remaining--
+            }
+            if (remaining <= 0 && !done) {
+                done = true
+                onFinish(score)
+            }
+        }
+    }
 
     Scaffold(
         topBar = {
@@ -187,7 +206,8 @@ fun QuizScreen(
                 verticalArrangement = Arrangement.spacedBy(10.dp),
             ) {
                 item(key = "head$round-$idx") {
-                    Text("Question ${idx + 1} of ${items.size}   ·   Score $score", style = MaterialTheme.typography.labelLarge, color = Teal)
+                    val clock = if (timeLimitSec > 0) "   ·   %d:%02d left".format(remaining / 60, remaining % 60) else ""
+                    Text("Question ${idx + 1} of ${items.size}   ·   Score $score$clock", style = MaterialTheme.typography.labelLarge, color = Teal)
                     Spacer(Modifier.height(6.dp))
                     LinearProgressIndicator(
                         progress = { (idx + (if (chosen != null) 1 else 0)).toFloat() / items.size },
@@ -216,6 +236,7 @@ fun QuizScreen(
                         modifier = Modifier.fillMaxWidth().clickable(enabled = sel == null) {
                             chosen = i
                             if (i == q.answer) score++
+                            onAnswer(q, i == q.answer)
                         },
                         colors = CardDefaults.cardColors(containerColor = bg),
                         border = BorderStroke(1.5.dp, border),

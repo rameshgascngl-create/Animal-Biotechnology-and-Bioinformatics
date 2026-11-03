@@ -20,6 +20,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.CheckCircle
+import androidx.compose.material.icons.filled.Edit
 import androidx.compose.material.icons.filled.Info
 import androidx.compose.material.icons.filled.List
 import androidx.compose.material.icons.filled.Star
@@ -29,6 +30,7 @@ import androidx.compose.material3.Checkbox
 import androidx.compose.material3.CheckboxDefaults
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.FilterChip
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.MaterialTheme
@@ -80,7 +82,9 @@ class MainActivity : ComponentActivity() {
 
 sealed interface Screen {
     data class Reader(val topic: Topic) : Screen
-    data class QuizRun(val title: String, val key: String, val items: List<Mcq>) : Screen
+    data class QuizRun(val title: String, val key: String, val items: List<Mcq>, val timeLimitSec: Int = 0) : Screen
+    data class Revision(val set: RevisionSet) : Screen
+    data object Glossary : Screen
 }
 
 @Composable
@@ -88,10 +92,14 @@ fun App(store: Store) {
     val ctx = LocalContext.current
     val units = remember { Repo.units(ctx) }
     val quizzes = remember { Repo.quizzes(ctx) }
+    val revisions = remember { Repo.revisions(ctx) }
     var tab by remember { mutableIntStateOf(0) }
     var screen by remember { mutableStateOf<Screen?>(null) }
     var studied by remember { mutableStateOf(store.getSet("studied")) }
     var saved by remember { mutableStateOf(store.getSet("saved")) }
+    var wrong by remember { mutableStateOf(store.getSet("wrong")) }
+    var zoom by remember { mutableIntStateOf(store.getInt("zoom", 100)) }
+    var lastId by remember { mutableStateOf(store.getString("last")) }
     var bests by remember { mutableStateOf(quizzes.associate { it.file to store.best(it.file) }) }
 
     BackHandler(enabled = screen != null) { screen = null }
@@ -101,6 +109,7 @@ fun App(store: Store) {
             topic = s.topic,
             studied = s.topic.id in studied,
             saved = s.topic.id in saved,
+            zoom = zoom,
             onBack = { screen = null },
             onToggleStudied = { studied = store.toggle("studied", s.topic.id) },
             onToggleSaved = { saved = store.toggle("saved", s.topic.id) },
@@ -108,6 +117,10 @@ fun App(store: Store) {
         is Screen.QuizRun -> QuizScreen(
             title = s.title,
             items = s.items,
+            timeLimitSec = s.timeLimitSec,
+            onAnswer = { m, ok ->
+                wrong = if (ok) store.remove("wrong", m.id) else store.add("wrong", m.id)
+            },
             onFinish = { score ->
                 if (s.key.isNotEmpty()) {
                     store.saveBest(s.key, score)
@@ -116,6 +129,8 @@ fun App(store: Store) {
             },
             onClose = { screen = null },
         )
+        is Screen.Revision -> RevisionScreen(s.set) { screen = null }
+        Screen.Glossary -> GlossaryScreen(revisions) { screen = null }
         null -> HomeScaffold(
             tab = tab,
             onTab = { tab = it },
@@ -124,10 +139,17 @@ fun App(store: Store) {
             studied = studied,
             saved = saved,
             bests = bests,
-            onOpen = { screen = Screen.Reader(it) },
+            revisions = revisions,
+            wrongIds = wrong,
+            zoom = zoom,
+            onZoom = { zoom = it; store.putInt("zoom", it) },
+            lastId = lastId,
+            onOpen = { lastId = it.id; store.putString("last", it.id); screen = Screen.Reader(it) },
+            onRevision = { screen = Screen.Revision(it) },
+            onGlossary = { screen = Screen.Glossary },
             onToggleStudied = { studied = store.toggle("studied", it) },
             onToggleSaved = { saved = store.toggle("saved", it) },
-            onQuiz = { title, key, items -> screen = Screen.QuizRun(title, key, items) },
+            onQuiz = { title, key, items, secs -> screen = Screen.QuizRun(title, key, items, secs) },
         )
     }
 }
@@ -145,9 +167,16 @@ fun HomeScaffold(
     onOpen: (Topic) -> Unit,
     onToggleStudied: (String) -> Unit,
     onToggleSaved: (String) -> Unit,
-    onQuiz: (String, String, List<Mcq>) -> Unit,
+    revisions: List<RevisionSet>,
+    wrongIds: Set<String>,
+    zoom: Int,
+    onZoom: (Int) -> Unit,
+    lastId: String,
+    onRevision: (RevisionSet) -> Unit,
+    onGlossary: () -> Unit,
+    onQuiz: (String, String, List<Mcq>, Int) -> Unit,
 ) {
-    val titles = listOf("Animal Biotechnology", "Practice quizzes", "Saved topics", "About")
+    val titles = listOf("Animal Biotechnology", "Revise", "Practice quizzes", "Saved topics", "About")
     Scaffold(
         topBar = {
             TopAppBar(
@@ -157,7 +186,7 @@ fun HomeScaffold(
         },
         bottomBar = {
             NavigationBar(containerColor = Color.White) {
-                val items = listOf("Syllabus" to Icons.Default.List, "Quiz" to Icons.Default.CheckCircle, "Saved" to Icons.Default.Star, "About" to Icons.Default.Info)
+                val items = listOf("Syllabus" to Icons.Default.List, "Revise" to Icons.Default.Edit, "Quiz" to Icons.Default.CheckCircle, "Saved" to Icons.Default.Star, "About" to Icons.Default.Info)
                 items.forEachIndexed { i, (label, icon) ->
                     NavigationBarItem(
                         selected = tab == i,
@@ -176,10 +205,11 @@ fun HomeScaffold(
     ) { inner ->
         Column(Modifier.fillMaxSize().padding(inner)) {
             when (tab) {
-                0 -> SyllabusTab(units, studied, saved, onOpen, onToggleStudied, onToggleSaved)
-                1 -> QuizTab(quizzes, bests, onQuiz)
-                2 -> SavedTab(units, studied, saved, onOpen, onToggleStudied, onToggleSaved)
-                else -> AboutTab(units, quizzes)
+                0 -> SyllabusTab(units, studied, saved, lastId, onOpen, onToggleStudied, onToggleSaved)
+                1 -> ReviseTab(revisions, onRevision, onGlossary)
+                2 -> QuizTab(quizzes, bests, wrongIds, onQuiz)
+                3 -> SavedTab(units, studied, saved, onOpen, onToggleStudied, onToggleSaved)
+                else -> AboutTab(units, quizzes, zoom, onZoom)
             }
         }
     }
@@ -226,6 +256,7 @@ fun SyllabusTab(
     units: List<UnitInfo>,
     studied: Set<String>,
     saved: Set<String>,
+    lastId: String,
     onOpen: (Topic) -> Unit,
     onToggleStudied: (String) -> Unit,
     onToggleSaved: (String) -> Unit,
@@ -259,6 +290,12 @@ fun SyllabusTab(
                 }
             }
         }
+        val last = units.flatMap { it.topics }.firstOrNull { it.id == lastId }
+        if (last != null) {
+            item(key = "continue") {
+                QuizRow("Continue: " + last.title, "Pick up where you left off", null) { onOpen(last) }
+            }
+        }
         item(key = "search") {
             OutlinedTextField(
                 value = query,
@@ -290,7 +327,7 @@ fun SyllabusTab(
 }
 
 @Composable
-fun QuizTab(quizzes: List<QuizSet>, bests: Map<String, Int>, onQuiz: (String, String, List<Mcq>) -> Unit) {
+fun QuizTab(quizzes: List<QuizSet>, bests: Map<String, Int>, wrongIds: Set<String>, onQuiz: (String, String, List<Mcq>, Int) -> Unit) {
     val all = remember(quizzes) { quizzes.flatMap { it.items } }
     val units = listOf("I", "II", "III", "IV", "V")
     LazyColumn(
@@ -301,16 +338,29 @@ fun QuizTab(quizzes: List<QuizSet>, bests: Map<String, Int>, onQuiz: (String, St
         item(key = "mixhead") {
             Text("Mixed practice", style = MaterialTheme.typography.titleSmall, fontWeight = FontWeight.Bold, color = Teal)
         }
+        item(key = "exam") {
+            QuizRow("Exam mode: 20 questions, 20 minutes", "Timed, random from the whole syllabus", null) {
+                onQuiz("Exam mode", "", all.shuffled().take(20), 20 * 60)
+            }
+        }
         item(key = "mixall") {
             QuizRow("Random 20 from the whole syllabus", "${all.size} questions in the bank", null) {
-                onQuiz("Random 20", "", all.shuffled().take(20))
+                onQuiz("Random 20", "", all.shuffled().take(20), 0)
+            }
+        }
+        val mistakes = all.filter { it.id in wrongIds }
+        if (mistakes.isNotEmpty()) {
+            item(key = "mistakes") {
+                QuizRow("Review my mistakes", "${mistakes.size} questions you got wrong; answer correctly to clear them", null) {
+                    onQuiz("My mistakes", "", mistakes.shuffled(), 0)
+                }
             }
         }
         items(units, key = { "mix$it" }) { u ->
             val pool = quizzes.filter { it.unitRoman == u }.flatMap { it.items }
             if (pool.isNotEmpty()) {
                 QuizRow("Unit $u: random 15", "${pool.size} questions in the bank", null) {
-                    onQuiz("Unit $u mixed", "", pool.shuffled().take(15))
+                    onQuiz("Unit $u mixed", "", pool.shuffled().take(15), 0)
                 }
             }
         }
@@ -326,7 +376,7 @@ fun QuizTab(quizzes: List<QuizSet>, bests: Map<String, Int>, onQuiz: (String, St
         items(quizzes, key = { it.file }) { qs ->
             val b = bests[qs.file] ?: -1
             QuizRow(qs.title, "Unit ${qs.unitRoman}", if (b >= 0) "Best $b/${qs.items.size}" else null) {
-                onQuiz(qs.title, qs.file, qs.items)
+                onQuiz(qs.title, qs.file, qs.items, 0)
             }
         }
     }
@@ -374,7 +424,7 @@ fun SavedTab(
 }
 
 @Composable
-fun AboutTab(units: List<UnitInfo>, quizzes: List<QuizSet>) {
+fun AboutTab(units: List<UnitInfo>, quizzes: List<QuizSet>, zoom: Int, onZoom: (Int) -> Unit) {
     LazyColumn(Modifier.fillMaxSize(), contentPadding = PaddingValues(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
         item {
             Card(colors = CardDefaults.cardColors(containerColor = Color.White), modifier = Modifier.fillMaxWidth()) {
@@ -390,6 +440,18 @@ fun AboutTab(units: List<UnitInfo>, quizzes: List<QuizSet>) {
                 }
             }
         }
+        item(key = "zoom") {
+            Card(colors = CardDefaults.cardColors(containerColor = Color.White), modifier = Modifier.fillMaxWidth()) {
+                Column(Modifier.padding(14.dp)) {
+                    Text("Chapter text size", fontWeight = FontWeight.Bold, color = Navy)
+                    Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.padding(top = 8.dp)) {
+                        listOf(100 to "Normal", 115 to "Large", 130 to "Extra large").forEach { (v, label) ->
+                            FilterChip(selected = zoom == v, onClick = { onZoom(v) }, label = { Text(label) })
+                        }
+                    }
+                }
+            }
+        }
         items(units, key = { "about" + it.roman }) { u ->
             Card(colors = CardDefaults.cardColors(containerColor = Color.White), modifier = Modifier.fillMaxWidth()) {
                 Column(Modifier.padding(14.dp)) {
@@ -402,7 +464,7 @@ fun AboutTab(units: List<UnitInfo>, quizzes: List<QuizSet>) {
             Column(Modifier.fillMaxWidth().padding(top = 16.dp), horizontalAlignment = Alignment.CenterHorizontally) {
                 Text("Department of Zoology, GASC, Nagercoil", fontWeight = FontWeight.SemiBold, color = Navy, style = MaterialTheme.typography.bodyMedium)
                 Text("Created by R. Ramesh", style = MaterialTheme.typography.labelSmall, color = Color(0xFF5B7189))
-                Text("Version 1.0.0", style = MaterialTheme.typography.labelSmall, color = Color(0xFF5B7189))
+                Text("Version 1.1.0", style = MaterialTheme.typography.labelSmall, color = Color(0xFF5B7189))
             }
         }
     }
