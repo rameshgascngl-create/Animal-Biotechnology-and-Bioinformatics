@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Animal Cell Culture Techniques</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0a0f1e;--surface:#111827;--card:#1a2235;--border:#2a3a55;--accent:#00d4aa;--accent2:#4f9cf9;--accent3:#f97b4f;--accent4:#c084fc;--text:#e2e8f0;--muted:#94a3b8;--gold:#f5c842}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:'Source Sans 3',sans-serif;overflow-x:hidden}
+header{background:linear-gradient(135deg,#0d1b3e,#0a1628,#051220);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100;box-shadow:0 4px 30px rgba(0,0,0,.5)}
+.header-inner{max-width:1200px;margin:0 auto;padding:16px 28px;display:flex;align-items:center;gap:14px}
+.hicon{width:44px;height:44px;background:linear-gradient(135deg,var(--accent),var(--accent2));border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:22px;flex-shrink:0}
+.htitle h1{font-family:'Playfair Display',serif;font-size:1.4rem;font-weight:900;color:#fff;line-height:1.1}
+.htitle p{font-size:.75rem;color:var(--accent);letter-spacing:.08em;text-transform:uppercase;font-weight:600}
+nav{background:var(--surface);border-bottom:1px solid var(--border);overflow-x:auto;scrollbar-width:none}
+nav::-webkit-scrollbar{display:none}
+.nav-inner{max-width:1200px;margin:0 auto;display:flex;gap:2px;padding:0 18px}
+.nb{background:none;border:none;color:var(--muted);padding:12px 16px;font-size:.8rem;font-weight:600;cursor:pointer;white-space:nowrap;border-bottom:3px solid transparent;transition:all .2s;font-family:'Source Sans 3',sans-serif;letter-spacing:.03em}
+.nb:hover{color:var(--text)}
+.nb.active{color:var(--accent);border-bottom-color:var(--accent)}
+main{max-width:1200px;margin:0 auto;padding:28px 18px 60px}
+.sec{display:none;animation:fu .4s ease}
+.sec.active{display:block}
+@keyframes fu{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+.hero{background:linear-gradient(135deg,var(--card),#0f1e38);border:1px solid var(--border);border-radius:16px;padding:30px 34px;margin-bottom:26px;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:-60px;right:-60px;width:200px;height:200px;background:radial-gradient(circle,rgba(0,212,170,.07) 0%,transparent 70%);border-radius:50%}
+.hero h2{font-family:'Playfair Display',serif;font-size:1.9rem;font-weight:900;margin-bottom:10px;color:#fff}
+.hero p{color:var(--muted);font-size:1rem;line-height:1.7;max-width:700px}
+.badge{display:inline-block;background:rgba(0,212,170,.12);color:var(--accent);border:1px solid rgba(0,212,170,.3);padding:4px 12px;border-radius:20px;font-size:.73rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;margin-bottom:12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:16px;margin-bottom:26px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:20px;transition:transform .2s,border-color .2s}
+.card:hover{transform:translateY(-3px);border-color:var(--accent2)}
+.ci{font-size:1.9rem;margin-bottom:10px}
+.card h3{font-family:'Playfair Display',serif;font-size:1.05rem;color:#fff;margin-bottom:8px}
+.card p,.card ul{color:var(--muted);font-size:.86rem;line-height:1.65}
+.card ul{padding-left:16px}
+.card ul li{margin-bottom:2px}
+.fw{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:26px;margin-bottom:26px}
+.fw h3{font-family:'Playfair Display',serif;font-size:1.25rem;color:#fff;margin-bottom:22px;display:flex;align-items:center;gap:10px}
+.fd{display:flex;flex-direction:column;align-items:center;gap:0}
+.fr{display:flex;align-items:center;justify-content:center;gap:0;flex-wrap:wrap}
+.fb{background:linear-gradient(135deg,#1e3a5f,#152a47);border:1.5px solid var(--accent2);border-radius:10px;padding:11px 20px;text-align:center;min-width:150px;font-size:.86rem;font-weight:600;color:#c9e0ff}
+.fb.g{background:linear-gradient(135deg,#0d3025,#0a2218);border-color:var(--accent);color:#a0f4df}
+.fb.o{background:linear-gradient(135deg,#3a1f0d,#2a1508);border-color:var(--accent3);color:#ffd0b5}
+.fb.p{background:linear-gradient(135deg,#2a1845,#1e1035);border-color:var(--accent4);color:#e0c4ff}
+.fb.gold{background:linear-gradient(135deg,#3a2e05,#2a2003);border-color:var(--gold);color:#fff2a0}
+.fb small{display:block;font-size:.72rem;font-weight:400;opacity:.7;margin-top:2px}
+.fa{color:var(--muted);font-size:1.2rem;margin:0 5px;flex-shrink:0}
+.fa.d{margin:5px 0;font-size:1.4rem}
+.fb2{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;margin:0}
+.dw{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:22px;margin-bottom:26px;text-align:center}
+.dw h3{font-family:'Playfair Display',serif;font-size:1.2rem;color:#fff;margin-bottom:18px}
+.dw svg{max-width:100%;height:auto}
+.tw{background:var(--card);border:1px solid var(--border);border-radius:14px;overflow:hidden;margin-bottom:26px}
+.tw h3{padding:16px 22px 12px;font-family:'Playfair Display',serif;font-size:1.15rem;color:#fff;border-bottom:1px solid var(--border)}
+table{width:100%;border-collapse:collapse}
+th{background:#162033;color:var(--accent);font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:11px 18px;text-align:left}
+td{padding:10px 18px;font-size:.84rem;color:var(--muted);border-top:1px solid rgba(42,58,85,.5)}
+tr:hover td{background:rgba(255,255,255,.02);color:var(--text)}
+td strong{color:var(--text)}
+.hb{border-radius:12px;padding:16px 20px;margin-bottom:18px;border-left:4px solid}
+.hb.bl{background:rgba(79,156,249,.07);border-color:var(--accent2)}
+.hb.gr{background:rgba(0,212,170,.07);border-color:var(--accent)}
+.hb.or{background:rgba(249,123,79,.07);border-color:var(--accent3)}
+.hb.pu{background:rgba(192,132,252,.07);border-color:var(--accent4)}
+.hb h4{font-size:.93rem;font-weight:700;margin-bottom:7px}
+.hb.bl h4{color:var(--accent2)}.hb.gr h4{color:var(--accent)}.hb.or h4{color:var(--accent3)}.hb.pu h4{color:var(--accent4)}
+.hb p,.hb ul{color:var(--muted);font-size:.86rem;line-height:1.7}
+.hb ul{padding-left:16px}
+.tc{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:26px}
+@media(max-width:650px){.tc{grid-template-columns:1fr}}
+.sl{display:flex;flex-direction:column;gap:11px;margin-bottom:22px}
+.si{display:flex;gap:14px;align-items:flex-start;background:var(--card);border:1px solid var(--border);border-radius:12px;padding:14px}
+.sn{width:32px;height:32px;flex-shrink:0;background:linear-gradient(135deg,var(--accent),var(--accent2));border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.82rem;font-weight:700;color:#000}
+.sc h4{font-size:.93rem;font-weight:700;color:#fff;margin-bottom:3px}
+.sc p{font-size:.83rem;color:var(--muted);line-height:1.6}
+footer{background:var(--surface);border-top:1px solid var(--border);text-align:center;padding:16px 20px 12px;margin-top:40px}
+footer p{font-size:.68rem;color:#475569;line-height:1.9}
+footer span{color:#64748b}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="hicon">🔬</div>
+    <div class="htitle">
+      <h1>Animal Cell Culture Techniques</h1>
+      <p>Department of Zoology — GASC Nagercoil</p>
+    </div>
+  </div>
+</header>
+
+<nav>
+  <div class="nav-inner">
+    <button class="nb active" onclick="show('basics')">🏠 Overview</button>
+    <button class="nb" onclick="show('requirements')">⚗️ Requirements</button>
+    <button class="nb" onclick="show('media')">🧪 Culture Media</button>
+    <button class="nb" onclick="show('primary')">🧫 Primary Culture</button>
+    <button class="nb" onclick="show('celllines')">🔁 Cell Lines</button>
+    <button class="nb" onclick="show('stem')">🌱 Stem Cells</button>
+    <button class="nb" onclick="show('organ')">🫀 Organ Culture</button>
+    <button class="nb" onclick="show('artskin')">🩹 Artificial Skin</button>
+  </div>
+</nav>
+
+<main>
+
+<!-- ═══════ OVERVIEW ═══════ -->
+<div class="sec active" id="basics">
+  <div class="hero">
+    <div class="badge">Unit Overview</div>
+    <h2>Animal Cell Culture</h2>
+    <p>Animal cell culture is the process of growing cells isolated from animal tissues under controlled <em>in vitro</em> conditions — temperature, pH, CO₂, and nutrition. It is a cornerstone technique enabling research in cancer biology, drug development, vaccine production, and regenerative medicine.</p>
+  </div>
+
+  <div class="dw">
+    <h3>🔬 Annotated Animal Cell — Key Organelles</h3>
+    <svg width="620" height="380" viewBox="0 0 620 380" xmlns="http://www.w3.org/2000/svg" font-family="Source Sans 3,sans-serif">
+      <ellipse cx="310" cy="195" rx="275" ry="172" fill="#0a1e30" stroke="#00d4aa" stroke-width="2.5"/>
+      <ellipse cx="300" cy="185" rx="82" ry="66" fill="#16304a" stroke="#4f9cf9" stroke-width="2"/>
+      <text x="300" y="179" text-anchor="middle" fill="#a0d4ff" font-size="12" font-weight="700">Nucleus</text>
+      <ellipse cx="295" cy="198" rx="25" ry="18" fill="#1e4060" stroke="#c084fc" stroke-width="1.5"/>
+      <text x="295" y="202" text-anchor="middle" fill="#e0c4ff" font-size="9">Nucleolus</text>
+      <ellipse cx="432" cy="128" rx="38" ry="18" fill="#1a3020" stroke="#00d4aa" stroke-width="1.5"/>
+      <text x="432" y="124" text-anchor="middle" fill="#80f0c0" font-size="9">Mitochondria</text>
+      <ellipse cx="165" cy="258" rx="32" ry="15" fill="#1a3020" stroke="#00d4aa" stroke-width="1.5"/>
+      <text x="165" y="254" text-anchor="middle" fill="#80f0c0" font-size="9">Mitochondria</text>
+      <path d="M380,192 Q400,168 420,188 Q440,208 460,182" fill="none" stroke="#f97b4f" stroke-width="2" stroke-dasharray="5,2"/>
+      <text x="445" y="210" fill="#ffc0a0" font-size="9">Rough ER</text>
+      <path d="M204,222 Q224,242 244,222 Q264,202 284,222" fill="none" stroke="#f5c842" stroke-width="2" stroke-dasharray="4,2"/>
+      <text x="198" y="247" fill="#fff0a0" font-size="9">Smooth ER</text>
+      <g transform="translate(392,268)">
+        <path d="M-36,0 Q0,-10 36,0" fill="none" stroke="#c084fc" stroke-width="2"/>
+        <path d="M-31,8 Q0,-2 31,8" fill="none" stroke="#c084fc" stroke-width="2"/>
+        <path d="M-26,16 Q0,6 26,16" fill="none" stroke="#c084fc" stroke-width="2"/>
+        <text x="0" y="30" text-anchor="middle" fill="#e0c4ff" font-size="9">Golgi Apparatus</text>
+      </g>
+      <circle cx="205" cy="155" r="12" fill="#3a1a1a" stroke="#f97b4f" stroke-width="1.5"/>
+      <text x="205" y="159" text-anchor="middle" fill="#ffb090" font-size="8">Lyso</text>
+      <circle cx="468" cy="258" r="10" fill="#3a1a1a" stroke="#f97b4f" stroke-width="1.5"/>
+      <text x="468" y="262" text-anchor="middle" fill="#ffb090" font-size="8">Lyso</text>
+      <ellipse cx="160" cy="178" rx="18" ry="13" fill="#0a1f30" stroke="#4f9cf9" stroke-width="1" stroke-dasharray="3,2"/>
+      <text x="160" y="182" text-anchor="middle" fill="#90c0f0" font-size="8">Vacuole</text>
+      <circle cx="348" cy="150" r="3" fill="#f5c842"/><circle cx="360" cy="158" r="3" fill="#f5c842"/><circle cx="338" cy="162" r="3" fill="#f5c842"/>
+      <text x="366" y="145" fill="#f5c842" font-size="9">Ribosomes</text>
+      <text x="505" y="88" fill="#00d4aa" font-size="10">Cell Membrane</text>
+      <line x1="502" y1="92" x2="476" y2="96" stroke="#00d4aa" stroke-width="1"/>
+      <text x="138" y="315" fill="#4a7090" font-size="10" font-style="italic">Cytoplasm</text>
+      <line x1="300" y1="250" x2="210" y2="322" stroke="#2a4060" stroke-width="1" stroke-dasharray="4,3"/>
+      <text x="218" y="338" fill="#3a5070" font-size="9">Cytoskeleton</text>
+    </svg>
+  </div>
+
+  <div class="grid">
+    <div class="card"><div class="ci">🎯</div><h3>Definition</h3><p>Removal of cells from an animal and growing them under <strong>controlled in vitro conditions</strong> — mimicking the in vivo environment of temperature, pH, CO₂, osmolarity, and nutrients.</p></div>
+    <div class="card"><div class="ci">📜</div><h3>Historical Milestones</h3><ul><li>1907 — Ross Harrison: nerve fiber culture</li><li>1943 — Earle: mouse fibroblast monolayer</li><li>1951 — HeLa cells (first immortal line)</li><li>1975 — Monoclonal antibody technology</li><li>1998 — Human ES cell isolation</li><li>2006 — iPSC generation (Yamanaka)</li></ul></div>
+    <div class="card"><div class="ci">💡</div><h3>Applications</h3><ul><li>Vaccine &amp; biopharmaceutical production</li><li>Cancer biology research</li><li>Drug toxicity &amp; screening</li><li>Genetic engineering</li><li>Tissue engineering &amp; regenerative medicine</li><li>Virology studies</li></ul></div>
+    <div class="card"><div class="ci">⚠️</div><h3>Limitations</h3><ul><li>Loss of 3D cell–cell interactions</li><li>Genetic drift over passages</li><li>Risk of mycoplasma contamination</li><li>Expensive and labor-intensive</li><li>May not replicate in vivo physiology fully</li></ul></div>
+  </div>
+
+  <div class="fw">
+    <h3>🔄 Scope &amp; Classification of Animal Cell Culture</h3>
+    <div class="fd">
+      <div class="fb gold">Animal Cell Culture<small>In vitro growth of animal cells</small></div>
+      <div class="fa d">▼</div>
+      <div class="fb2">
+        <div class="fb g">Cell Culture<small>Dispersed single cells</small></div>
+        <div class="fb p">Tissue Culture<small>Organized tissues</small></div>
+        <div class="fb o">Organ Culture<small>3D organ structure maintained</small></div>
+      </div>
+      <div class="fa d">▼</div>
+      <div class="fb2">
+        <div class="fb">Primary Culture<small>Direct from tissue</small></div>
+        <div class="fb">Cell Lines<small>Passaged / immortalized</small></div>
+        <div class="fb g">Stem Cell Culture<small>Undifferentiated</small></div>
+        <div class="fb o">Artificial Skin<small>Applied organ culture</small></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════ REQUIREMENTS ═══════ -->
+<div class="sec" id="requirements">
+  <div class="hero">
+    <div class="badge">Module 1</div>
+    <h2>Basic Requirements of Cell Culture</h2>
+    <p>Successful animal cell culture requires meticulous control of physical, chemical, and biological parameters. Every component of the culture environment must be optimized to sustain cell viability, proliferation, and function.</p>
+  </div>
+
+  <div class="dw">
+    <h3>🏗️ Core Cell Culture Laboratory Equipment</h3>
+    <svg width="680" height="260" viewBox="0 0 680 260" xmlns="http://www.w3.org/2000/svg" font-family="Source Sans 3,sans-serif">
+      <rect x="20" y="40" width="120" height="100" rx="8" fill="#0d2030" stroke="#4f9cf9" stroke-width="2"/>
+      <rect x="30" y="55" width="100" height="60" rx="4" fill="#091825" stroke="#2a4a70" stroke-width="1"/>
+      <text x="80" y="80" text-anchor="middle" fill="#4f9cf9" font-size="11" font-weight="700">Biosafety</text>
+      <text x="80" y="95" text-anchor="middle" fill="#4f9cf9" font-size="11" font-weight="700">Cabinet</text>
+      <text x="80" y="108" text-anchor="middle" fill="#90c0e0" font-size="9">(Class II)</text>
+      <text x="80" y="158" text-anchor="middle" fill="#6080a0" font-size="9">HEPA filtered</text>
+      <rect x="165" y="30" width="110" height="130" rx="8" fill="#0d2030" stroke="#00d4aa" stroke-width="2"/>
+      <rect x="180" y="50" width="80" height="80" rx="4" fill="#091825" stroke="#0a3020" stroke-width="1"/>
+      <text x="220" y="80" text-anchor="middle" fill="#00d4aa" font-size="10" font-weight="700">CO₂</text>
+      <text x="220" y="95" text-anchor="middle" fill="#00d4aa" font-size="10" font-weight="700">Incubator</text>
+      <text x="220" y="110" text-anchor="middle" fill="#80f0c0" font-size="9">37°C / 5% CO₂</text>
+      <text x="220" y="176" text-anchor="middle" fill="#6080a0" font-size="9">Humidified</text>
+      <ellipse cx="340" cy="140" rx="40" ry="25" fill="#0d2030" stroke="#f97b4f" stroke-width="2"/>
+      <rect x="325" y="55" width="30" height="90" rx="4" fill="#0d2030" stroke="#f97b4f" stroke-width="1.5"/>
+      <circle cx="340" cy="45" r="18" fill="#101828" stroke="#f97b4f" stroke-width="2"/>
+      <text x="340" y="41" text-anchor="middle" fill="#f97b4f" font-size="9" font-weight="700">Inverted</text>
+      <text x="340" y="53" text-anchor="middle" fill="#f97b4f" font-size="9" font-weight="700">Microscope</text>
+      <text x="340" y="178" text-anchor="middle" fill="#6080a0" font-size="9">Cell monitoring</text>
+      <circle cx="450" cy="100" r="55" fill="#0d2030" stroke="#c084fc" stroke-width="2"/>
+      <circle cx="450" cy="100" r="35" fill="#091825" stroke="#5030a0" stroke-width="1"/>
+      <text x="450" y="96" text-anchor="middle" fill="#c084fc" font-size="10" font-weight="700">Centrifuge</text>
+      <text x="450" y="110" text-anchor="middle" fill="#e0c4ff" font-size="9">Cell harvesting</text>
+      <text x="450" y="175" text-anchor="middle" fill="#6080a0" font-size="9">200–1500 rpm</text>
+      <rect x="530" y="35" width="100" height="120" rx="10" fill="#0d2030" stroke="#f5c842" stroke-width="2"/>
+      <ellipse cx="580" cy="55" rx="35" ry="20" fill="#101828" stroke="#a08020" stroke-width="1"/>
+      <text x="580" y="100" text-anchor="middle" fill="#f5c842" font-size="10" font-weight="700">Autoclave</text>
+      <text x="580" y="114" text-anchor="middle" fill="#fff0a0" font-size="9">121°C / 15 psi</text>
+      <text x="580" y="175" text-anchor="middle" fill="#6080a0" font-size="9">15–20 min</text>
+      <text x="340" y="230" text-anchor="middle" fill="#4a6080" font-size="11" font-style="italic">Standard equipment for an animal cell culture laboratory</text>
+    </svg>
+  </div>
+
+  <div class="fw">
+    <h3>📋 Basic Requirements — Flow Overview</h3>
+    <div class="fd">
+      <div class="fb gold">Cell Culture Requirements</div>
+      <div class="fa d">▼</div>
+      <div class="fb2">
+        <div style="display:flex;flex-direction:column;align-items:center;gap:7px">
+          <div class="fb g">Physical<small>Temperature, pH, CO₂</small></div>
+          <div class="fa d" style="font-size:.9rem">▼</div>
+          <div class="fb g">37°C · pH 7.2–7.4<small>5–10% CO₂ atmosphere</small></div>
+        </div>
+        <div style="display:flex;flex-direction:column;align-items:center;gap:7px">
+          <div class="fb">Chemical<small>Nutrients, hormones</small></div>
+          <div class="fa d" style="font-size:.9rem">▼</div>
+          <div class="fb">Basal Media + Serum<small>DMEM / RPMI + 10% FBS</small></div>
+        </div>
+        <div style="display:flex;flex-direction:column;align-items:center;gap:7px">
+          <div class="fb o">Biological<small>Cell type, density</small></div>
+          <div class="fa d" style="font-size:.9rem">▼</div>
+          <div class="fb o">Inoculum · Subculture<small>Avoid overgrowth</small></div>
+        </div>
+        <div style="display:flex;flex-direction:column;align-items:center;gap:7px">
+          <div class="fb p">Sterility<small>BSC, antibiotics</small></div>
+          <div class="fa d" style="font-size:.9rem">▼</div>
+          <div class="fb p">Aseptic Technique<small>No contamination</small></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tw">
+    <h3>🧼 Sterilization Methods in Cell Culture</h3>
+    <table>
+      <tr><th>Method</th><th>Agent / Condition</th><th>Used For</th><th>Time</th></tr>
+      <tr><td><strong>Autoclaving</strong></td><td>Steam 121°C, 15 psi</td><td>Glassware, media, instruments</td><td>15–20 min</td></tr>
+      <tr><td><strong>Dry Heat</strong></td><td>160–170°C oven</td><td>Glassware, powders</td><td>1–2 hr</td></tr>
+      <tr><td><strong>UV Radiation</strong></td><td>254 nm UV light</td><td>BSC interior, surfaces</td><td>20–30 min</td></tr>
+      <tr><td><strong>Membrane Filtration</strong></td><td>0.22 µm filter</td><td>Heat-sensitive media, serum</td><td>Continuous</td></tr>
+      <tr><td><strong>Chemical</strong></td><td>70% ethanol, bleach</td><td>Surfaces, skin decontamination</td><td>As required</td></tr>
+    </table>
+  </div>
+
+  <div class="grid">
+    <div class="card"><div class="ci">🌡️</div><h3>Temperature &amp; Atmosphere</h3><ul><li>Mammalian cells: <strong>37°C</strong></li><li>CO₂ incubator: <strong>5–10% CO₂</strong></li><li>CO₂ buffers bicarbonate in media</li><li>Humidity: ≥95% prevents evaporation</li><li>Bird-derived cells: 38.5°C</li></ul></div>
+    <div class="card"><div class="ci">⚗️</div><h3>pH &amp; Osmolarity</h3><ul><li>Optimal pH: <strong>7.2 – 7.4</strong></li><li>Indicator: Phenol red (yellow = acidic)</li><li>Buffering: NaHCO₃ / HEPES</li><li>Osmolarity: <strong>280–320 mOsm/kg</strong></li><li>NaCl adjusts osmotic pressure</li></ul></div>
+    <div class="card"><div class="ci">🧲</div><h3>Substrata for Cell Attachment</h3><ul><li>Tissue culture polystyrene (TCPS)</li><li>Fibronectin / collagen coating</li><li>Poly-L-lysine for neurons</li><li>Matrigel for 3D culture</li><li>Suspension culture for non-adherent cells</li></ul></div>
+  </div>
+</div>
+
+<!-- ═══════ CULTURE MEDIA ═══════ -->
+<div class="sec" id="media">
+  <div class="hero">
+    <div class="badge">Module 2</div>
+    <h2>Natural &amp; Synthetic Culture Media</h2>
+    <p>Culture media provide the essential nutrients, growth factors, and physicochemical conditions required for cell survival. Media are broadly classified as <strong>natural</strong> (biological fluids) and <strong>synthetic</strong> (chemically defined or serum-supplemented formulations).</p>
+  </div>
+
+  <div class="fw">
+    <h3>📊 Classification of Culture Media</h3>
+    <div class="fd">
+      <div class="fb gold">Culture Media</div>
+      <div class="fa d">▼</div>
+      <div class="fb2">
+        <div style="display:flex;flex-direction:column;align-items:center;gap:0">
+          <div class="fb g">Natural Media<small>Biological origin</small></div>
+          <div class="fa d" style="font-size:.9rem">▼</div>
+          <div class="fb2" style="gap:8px">
+            <div class="fb g" style="min-width:100px">Blood Plasma<small>Early cultures</small></div>
+            <div class="fb g" style="min-width:100px">Serum (FBS)<small>Growth factors</small></div>
+            <div class="fb g" style="min-width:100px">Tissue Extracts<small>Chick embryo</small></div>
+          </div>
+        </div>
+        <div style="display:flex;flex-direction:column;align-items:center;gap:0">
+          <div class="fb p">Synthetic Media<small>Chemically defined</small></div>
+          <div class="fa d" style="font-size:.9rem">▼</div>
+          <div class="fb2" style="gap:8px">
+            <div class="fb p" style="min-width:100px">Serum-based<small>+10% FBS</small></div>
+            <div class="fb p" style="min-width:100px">Serum-free<small>SF / CDM</small></div>
+            <div class="fb p" style="min-width:100px">Protein-free<small>PFM</small></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="dw">
+    <h3>🔬 Components of a Synthetic Culture Medium</h3>
+    <svg width="660" height="340" viewBox="0 0 660 340" xmlns="http://www.w3.org/2000/svg" font-family="Source Sans 3,sans-serif">
+      <circle cx="330" cy="170" r="58" fill="#111827" stroke="#f5c842" stroke-width="2.5"/>
+      <text x="330" y="166" text-anchor="middle" fill="#f5c842" font-size="12" font-weight="700">Culture</text>
+      <text x="330" y="182" text-anchor="middle" fill="#f5c842" font-size="12" font-weight="700">Medium</text>
+      <line x1="330" y1="112" x2="255" y2="48" stroke="#2a4a70" stroke-width="1" stroke-dasharray="4,3"/>
+      <rect x="126" y="20" width="128" height="50" rx="8" fill="#0d2030" stroke="#4f9cf9" stroke-width="1.5"/>
+      <text x="190" y="40" text-anchor="middle" fill="#4f9cf9" font-size="10" font-weight="700">Inorganic Salts</text>
+      <text x="190" y="54" text-anchor="middle" fill="#90c0f0" font-size="9">NaCl, KCl, CaCl₂, MgSO₄</text>
+      <line x1="295" y1="118" x2="190" y2="100" stroke="#2a4a70" stroke-width="1" stroke-dasharray="4,3"/>
+      <rect x="16" y="80" width="128" height="40" rx="8" fill="#0d2030" stroke="#00d4aa" stroke-width="1.5"/>
+      <text x="80" y="97" text-anchor="middle" fill="#00d4aa" font-size="10" font-weight="700">Carbohydrates</text>
+      <text x="80" y="111" text-anchor="middle" fill="#80f0c0" font-size="9">Glucose · Galactose</text>
+      <line x1="275" y1="148" x2="166" y2="155" stroke="#2a4a70" stroke-width="1" stroke-dasharray="4,3"/>
+      <rect x="16" y="136" width="128" height="40" rx="8" fill="#0d2030" stroke="#f97b4f" stroke-width="1.5"/>
+      <text x="80" y="154" text-anchor="middle" fill="#f97b4f" font-size="10" font-weight="700">Amino Acids</text>
+      <text x="80" y="168" text-anchor="middle" fill="#ffc0a0" font-size="9">All 20 essential AAs</text>
+      <line x1="280" y1="200" x2="178" y2="225" stroke="#2a4a70" stroke-width="1" stroke-dasharray="4,3"/>
+      <rect x="16" y="208" width="128" height="40" rx="8" fill="#0d2030" stroke="#c084fc" stroke-width="1.5"/>
+      <text x="80" y="226" text-anchor="middle" fill="#c084fc" font-size="10" font-weight="700">Vitamins</text>
+      <text x="80" y="240" text-anchor="middle" fill="#e0c4ff" font-size="9">B-complex, Vit. C</text>
+      <line x1="330" y1="228" x2="258" y2="286" stroke="#2a4a70" stroke-width="1" stroke-dasharray="4,3"/>
+      <rect x="128" y="274" width="128" height="52" rx="8" fill="#0d2030" stroke="#f5c842" stroke-width="1.5"/>
+      <text x="192" y="294" text-anchor="middle" fill="#f5c842" font-size="10" font-weight="700">Serum / Growth Factors</text>
+      <text x="192" y="308" text-anchor="middle" fill="#fff0a0" font-size="9">FBS: EGF, IGF, FGF</text>
+      <text x="192" y="320" text-anchor="middle" fill="#fff0a0" font-size="9">Transferrin, Albumin</text>
+      <line x1="375" y1="224" x2="412" y2="282" stroke="#2a4a70" stroke-width="1" stroke-dasharray="4,3"/>
+      <rect x="384" y="274" width="128" height="40" rx="8" fill="#0d2030" stroke="#4f9cf9" stroke-width="1.5"/>
+      <text x="448" y="292" text-anchor="middle" fill="#4f9cf9" font-size="10" font-weight="700">Antibiotics</text>
+      <text x="448" y="306" text-anchor="middle" fill="#90c0f0" font-size="9">Pen-Strep, Gentamicin</text>
+      <line x1="386" y1="192" x2="498" y2="218" stroke="#2a4a70" stroke-width="1" stroke-dasharray="4,3"/>
+      <rect x="516" y="200" width="128" height="40" rx="8" fill="#0d2030" stroke="#00d4aa" stroke-width="1.5"/>
+      <text x="580" y="218" text-anchor="middle" fill="#00d4aa" font-size="10" font-weight="700">Buffer System</text>
+      <text x="580" y="232" text-anchor="middle" fill="#80f0c0" font-size="9">NaHCO₃ / HEPES</text>
+      <line x1="388" y1="148" x2="498" y2="136" stroke="#2a4a70" stroke-width="1" stroke-dasharray="4,3"/>
+      <rect x="516" y="118" width="128" height="40" rx="8" fill="#0d2030" stroke="#f97b4f" stroke-width="1.5"/>
+      <text x="580" y="136" text-anchor="middle" fill="#f97b4f" font-size="10" font-weight="700">pH Indicator</text>
+      <text x="580" y="150" text-anchor="middle" fill="#ffc0a0" font-size="9">Phenol Red</text>
+      <line x1="372" y1="115" x2="476" y2="54" stroke="#2a4a70" stroke-width="1" stroke-dasharray="4,3"/>
+      <rect x="516" y="28" width="128" height="40" rx="8" fill="#0d2030" stroke="#c084fc" stroke-width="1.5"/>
+      <text x="580" y="46" text-anchor="middle" fill="#c084fc" font-size="10" font-weight="700">Ultrapure Water</text>
+      <text x="580" y="60" text-anchor="middle" fill="#e0c4ff" font-size="9">Milli-Q / double-distilled</text>
+    </svg>
+  </div>
+
+  <div class="tw">
+    <h3>📋 Commonly Used Synthetic Culture Media</h3>
+    <table>
+      <tr><th>Medium</th><th>Full Name</th><th>Cell Types</th><th>Key Feature</th></tr>
+      <tr><td><strong>DMEM</strong></td><td>Dulbecco's Modified Eagle's Medium</td><td>Fibroblasts, epithelial, ES cells</td><td>High glucose (4.5 g/L)</td></tr>
+      <tr><td><strong>RPMI 1640</strong></td><td>Roswell Park Memorial Institute</td><td>Lymphocytes, hematopoietic</td><td>Suitable for suspension culture</td></tr>
+      <tr><td><strong>MEM</strong></td><td>Minimum Essential Medium</td><td>General purpose</td><td>Low amino acid formulation</td></tr>
+      <tr><td><strong>Ham's F12</strong></td><td>Ham's Nutrient Mixture F-12</td><td>CHO, fibroblasts</td><td>Low serum requirement</td></tr>
+      <tr><td><strong>DMEM/F12</strong></td><td>1:1 Mixture</td><td>Stem cells, 3D organoids</td><td>Combined nutrient richness</td></tr>
+      <tr><td><strong>Neurobasal</strong></td><td>Neurobasal Medium</td><td>Primary neurons</td><td>Serum-free with B27 supplement</td></tr>
+    </table>
+  </div>
+
+  <div class="tc">
+    <div class="hb gr"><h4>🌿 Natural Media</h4><ul><li><strong>Blood Plasma:</strong> Used in early plasma clot cultures as substratum</li><li><strong>Serum (FBS):</strong> Contains GFs, hormones, attachment proteins</li><li><strong>Lymph:</strong> Historical use for special cell types</li><li><strong>Amniotic Fluid:</strong> Prenatal cell culture</li><li><strong>Chick Embryo Extract:</strong> Mitogenic; early virology use</li></ul></div>
+    <div class="hb pu"><h4>🔬 Serum-Free Media (SFM)</h4><ul><li>Eliminates batch-to-batch variability of serum</li><li>Supplemented with defined growth factors</li><li>Preferred for biopharmaceutical production</li><li>Reduces risk of mycoplasma contamination</li><li>Examples: Knockout DMEM, StemPro, X-VIVO</li></ul></div>
+  </div>
+</div>
+
+<!-- ═══════ PRIMARY CULTURE ═══════ -->
+<div class="sec" id="primary">
+  <div class="hero">
+    <div class="badge">Module 3</div>
+    <h2>Primary Culture</h2>
+    <p>A <strong>primary culture</strong> is established directly from excised tissue or organs. Cells are dissociated and cultured in vitro for the first time. Primary cultures are finite — they can only be maintained for a limited number of passages before senescence occurs (Hayflick limit).</p>
+  </div>
+
+  <div class="fw">
+    <h3>🔄 Primary Culture — Step-by-Step Process Flow</h3>
+    <div class="fd">
+      <div class="fb g">Animal Tissue Collection<small>Sterile biopsy / organ harvest</small></div>
+      <div class="fa d">▼</div>
+      <div class="fb">Wash with PBS / Balanced Salt Solution<small>Remove blood, debris, bacteria</small></div>
+      <div class="fa d">▼</div>
+      <div class="fb2">
+        <div class="fb o">Mechanical Dissociation<small>Mincing, sieving, scraping</small></div>
+        <div style="color:var(--muted);align-self:center;font-size:.9rem;padding:0 8px">OR</div>
+        <div class="fb p">Enzymatic Dissociation<small>Trypsin / Collagenase / Dispase</small></div>
+      </div>
+      <div class="fa d">▼</div>
+      <div class="fb">Single Cell Suspension<small>Filter through 70–100 µm cell strainer</small></div>
+      <div class="fa d">▼</div>
+      <div class="fb">Centrifuge 200 × g, 5 min → Discard Supernatant</div>
+      <div class="fa d">▼</div>
+      <div class="fb g">Resuspend in Complete Culture Medium<small>DMEM + 10% FBS + Pen-Strep</small></div>
+      <div class="fa d">▼</div>
+      <div class="fb">Hemocytometer Count + Trypan Blue Viability ≥ 90%</div>
+      <div class="fa d">▼</div>
+      <div class="fb">Seed in Culture Flask — T25 / T75 / 6-well plate</div>
+      <div class="fa d">▼</div>
+      <div class="fb gold">Incubate: 37°C · 5% CO₂ · 95% Humidity<small>Check 24–48 hrs for attachment &amp; morphology</small></div>
+      <div class="fa d">▼</div>
+      <div class="fb2">
+        <div class="fb g">Adherent Culture<small>Fibroblasts, epithelial cells</small></div>
+        <div class="fb o">Suspension Culture<small>Lymphocytes, hematopoietic cells</small></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sl">
+    <div class="si"><div class="sn">1</div><div class="sc"><h4>Tissue Preparation</h4><p>Tissue collected aseptically, placed in cold PBS/HBSS, and minced into 1–2 mm³ fragments. Blood and connective tissue removed by repeated washing.</p></div></div>
+    <div class="si"><div class="sn">2</div><div class="sc"><h4>Enzymatic Dissociation</h4><p>Trypsin (0.05–0.25%) cleaves surface proteins disrupting cell–cell contacts. Collagenase (Type I–IV) digests ECM collagen. Incubate at 37°C for 15–60 min with gentle agitation.</p></div></div>
+    <div class="si"><div class="sn">3</div><div class="sc"><h4>Neutralization &amp; Centrifugation</h4><p>FBS neutralizes trypsin activity. Centrifuge at 200×g for 5 min. Discard supernatant, resuspend pellet in complete medium.</p></div></div>
+    <div class="si"><div class="sn">4</div><div class="sc"><h4>Cell Counting &amp; Viability</h4><p>Count using hemocytometer. Trypan blue exclusion: live cells remain clear, dead cells stain blue. Viability should be ≥90% for optimal culture establishment.</p></div></div>
+    <div class="si"><div class="sn">5</div><div class="sc"><h4>Plating &amp; Monitoring</h4><p>Seed at 10⁴–10⁵ cells/cm². Incubate in CO₂ incubator. Monitor daily by inverted microscopy for morphology, attachment, and confluence.</p></div></div>
+  </div>
+
+  <div class="tc">
+    <div class="hb or"><h4>⚠️ Explant vs. Monolayer Culture</h4><p><strong>Explant culture:</strong> Small tissue fragments placed directly on surface; cells migrate outward. Preserves tissue architecture briefly.<br><br><strong>Monolayer culture:</strong> Dissociated single cells attach and grow flat. More reproducible and amenable to quantitative analysis.</p></div>
+    <div class="hb bl"><h4>📉 Limitations of Primary Culture</h4><ul><li>Finite lifespan — Hayflick limit (~50 divisions)</li><li>Heterogeneous cell population</li><li>Batch variability between preparations</li><li>Requires fresh tissue each time</li><li>Cells undergo crisis and eventual senescence</li></ul></div>
+  </div>
+</div>
+
+<!-- ═══════ CELL LINES ═══════ -->
+<div class="sec" id="celllines">
+  <div class="hero">
+    <div class="badge">Module 4</div>
+    <h2>Cell Lines</h2>
+    <p>When a primary culture is subcultured (passaged) for the first time, it becomes a <strong>cell line</strong>. Cell lines may be <em>finite</em> (limited passages) or <em>continuous/immortalized</em> (indefinitely proliferating). They are essential tools in biological research and industrial biomanufacturing.</p>
+  </div>
+
+  <div class="fw">
+    <h3>🔁 Subculturing (Passaging) — Process Flow</h3>
+    <div class="fd">
+      <div class="fb g">Confluent Monolayer Culture (~80–90% confluency)</div>
+      <div class="fa d">▼</div>
+      <div class="fb">Remove Medium → Wash with PBS (removes serum)</div>
+      <div class="fa d">▼</div>
+      <div class="fb o">Add Trypsin-EDTA (0.05%) · Incubate 3–5 min at 37°C</div>
+      <div class="fa d">▼</div>
+      <div class="fb">Neutralize with Complete Medium (3× volume with FBS)</div>
+      <div class="fa d">▼</div>
+      <div class="fb p">Centrifuge · Count · Resuspend · Trypan Blue Viability Check</div>
+      <div class="fa d">▼</div>
+      <div class="fb">Seed into New Flask at 1:3 – 1:10 Split Ratio</div>
+      <div class="fa d">▼</div>
+      <div class="fb2">
+        <div class="fb g">Continue Passaging<small>Finite: ~20–50 passages</small></div>
+        <div class="fb gold">Immortalization<small>Spontaneous / viral / oncogene</small></div>
+        <div class="fb o">Cell Banking<small>Cryopreservation at −196°C</small></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="dw">
+    <h3>📈 Primary Culture → Cell Line → Continuous Line</h3>
+    <svg width="660" height="200" viewBox="0 0 660 200" xmlns="http://www.w3.org/2000/svg" font-family="Source Sans 3,sans-serif">
+      <line x1="40" y1="100" x2="620" y2="100" stroke="#2a3a55" stroke-width="2"/>
+      <polygon points="620,95 635,100 620,105" fill="#2a3a55"/>
+      <text x="638" y="118" fill="#4a6080" font-size="9">Passage →</text>
+      <circle cx="100" cy="100" r="30" fill="#0d2030" stroke="#4f9cf9" stroke-width="2"/>
+      <text x="100" y="96" text-anchor="middle" fill="#4f9cf9" font-size="9" font-weight="700">Primary</text>
+      <text x="100" y="108" text-anchor="middle" fill="#90c0f0" font-size="8">Culture</text>
+      <text x="100" y="148" text-anchor="middle" fill="#6080a0" font-size="9">P0</text>
+      <rect x="200" y="72" width="120" height="56" rx="10" fill="#0d2030" stroke="#00d4aa" stroke-width="2"/>
+      <text x="260" y="96" text-anchor="middle" fill="#00d4aa" font-size="10" font-weight="700">Finite Cell Line</text>
+      <text x="260" y="110" text-anchor="middle" fill="#80f0c0" font-size="9">~20–50 passages</text>
+      <text x="260" y="148" text-anchor="middle" fill="#6080a0" font-size="9">Normal diploid · Senesces</text>
+      <text x="373" y="76" text-anchor="middle" fill="#f5c842" font-size="9">Crisis / Immortalization</text>
+      <line x1="358" y1="100" x2="388" y2="100" stroke="#f5c842" stroke-width="1.5" stroke-dasharray="4,2"/>
+      <rect x="415" y="62" width="140" height="76" rx="10" fill="#0d2030" stroke="#c084fc" stroke-width="2"/>
+      <text x="485" y="90" text-anchor="middle" fill="#c084fc" font-size="10" font-weight="700">Continuous</text>
+      <text x="485" y="104" text-anchor="middle" fill="#c084fc" font-size="10" font-weight="700">Cell Line</text>
+      <text x="485" y="120" text-anchor="middle" fill="#e0c4ff" font-size="9">Immortalized · ∞ passages</text>
+      <text x="485" y="156" text-anchor="middle" fill="#6080a0" font-size="9">Transformed / aneuploid</text>
+    </svg>
+  </div>
+
+  <div class="tw">
+    <h3>🌟 Important Established Cell Lines</h3>
+    <table>
+      <tr><th>Cell Line</th><th>Origin</th><th>Type</th><th>Major Use</th></tr>
+      <tr><td><strong>HeLa</strong></td><td>Human cervical carcinoma (Henrietta Lacks, 1951)</td><td>Continuous</td><td>Virology, cancer, vaccine research</td></tr>
+      <tr><td><strong>CHO</strong></td><td>Chinese hamster ovary</td><td>Continuous</td><td>Recombinant protein / antibody production</td></tr>
+      <tr><td><strong>Vero</strong></td><td>African green monkey kidney</td><td>Continuous</td><td>Virus propagation, vaccine production</td></tr>
+      <tr><td><strong>NIH 3T3</strong></td><td>Mouse embryonic fibroblast</td><td>Continuous</td><td>Transfection, adipocyte differentiation</td></tr>
+      <tr><td><strong>MCF-7</strong></td><td>Human breast carcinoma</td><td>Continuous</td><td>Breast cancer research</td></tr>
+      <tr><td><strong>Jurkat</strong></td><td>Human T lymphocyte leukemia</td><td>Continuous</td><td>Immunology, apoptosis research</td></tr>
+      <tr><td><strong>PC12</strong></td><td>Rat adrenal pheochromocytoma</td><td>Continuous</td><td>Neuroscience, NGF differentiation studies</td></tr>
+    </table>
+  </div>
+
+  <div class="fw">
+    <h3>❄️ Cryopreservation — Cell Banking Flow</h3>
+    <div class="fd">
+      <div class="fb2">
+        <div class="fb g">Harvest cells at 80% confluency</div>
+        <div class="fa">→</div>
+        <div class="fb o">Freeze medium: 90% FBS + 10% DMSO</div>
+        <div class="fa">→</div>
+        <div class="fb p">Controlled-rate freezing: −1°C/min</div>
+        <div class="fa">→</div>
+        <div class="fb">Store in liquid N₂ at −196°C</div>
+      </div>
+      <div class="fa d">▼</div>
+      <div class="fb g">Thaw rapidly at 37°C water bath → Dilute DMSO → Seed → Culture ✓</div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════ STEM CELLS ═══════ -->
+<div class="sec" id="stem">
+  <div class="hero">
+    <div class="badge">Module 5</div>
+    <h2>Stem Cells: Types, Culture &amp; Applications</h2>
+    <p>Stem cells are undifferentiated cells capable of <strong>self-renewal</strong> and <strong>differentiation</strong> into specialized cell types. They hold immense therapeutic potential in regenerative medicine, disease modeling, and drug discovery.</p>
+  </div>
+
+  <div class="dw">
+    <h3>🔺 Stem Cell Potency Hierarchy</h3>
+    <svg width="600" height="310" viewBox="0 0 600 310" xmlns="http://www.w3.org/2000/svg" font-family="Source Sans 3,sans-serif">
+      <polygon points="300,18 558,285 42,285" fill="none" stroke="#2a3a55" stroke-width="1.5"/>
+      <polygon points="300,18 368,105 232,105" fill="rgba(245,200,66,0.12)" stroke="#f5c842" stroke-width="1.5"/>
+      <polygon points="232,105 368,105 422,185 178,185" fill="rgba(0,212,170,0.10)" stroke="#00d4aa" stroke-width="1.5"/>
+      <polygon points="178,185 422,185 472,265 128,265" fill="rgba(79,156,249,0.10)" stroke="#4f9cf9" stroke-width="1.5"/>
+      <polygon points="128,265 472,265 558,285 42,285" fill="rgba(192,132,252,0.10)" stroke="#c084fc" stroke-width="1.5"/>
+      <text x="300" y="68" text-anchor="middle" fill="#f5c842" font-size="12" font-weight="700">Totipotent</text>
+      <text x="300" y="85" text-anchor="middle" fill="#f5c842" font-size="9">Zygote · 4-cell embryo · Can form all cells + placenta</text>
+      <text x="300" y="150" text-anchor="middle" fill="#00d4aa" font-size="12" font-weight="700">Pluripotent</text>
+      <text x="300" y="166" text-anchor="middle" fill="#80f0c0" font-size="9">ESC · iPSC · Inner cell mass · All 3 germ layers</text>
+      <text x="300" y="228" text-anchor="middle" fill="#4f9cf9" font-size="12" font-weight="700">Multipotent</text>
+      <text x="300" y="244" text-anchor="middle" fill="#90c0f0" font-size="9">HSC · MSC · Neural Stem Cells · Multiple lineages</text>
+      <text x="300" y="278" text-anchor="middle" fill="#c084fc" font-size="11" font-weight="700">Unipotent / Oligopotent</text>
+      <text x="300" y="292" text-anchor="middle" fill="#e0c4ff" font-size="9">Muscle, skin, intestinal stem cells · Single lineage</text>
+      <text x="22" y="155" fill="#4a6080" font-size="10" transform="rotate(-90,22,155)">Differentiation ↑</text>
+    </svg>
+  </div>
+
+  <div class="grid">
+    <div class="card"><div class="ci">🥚</div><h3>Embryonic Stem Cells (ESCs)</h3><p>Derived from the <strong>inner cell mass</strong> of blastocyst (3–5 days). Pluripotent — form all 3 germ layers. Cultured on feeder layers (MEFs) or Matrigel with LIF/bFGF.</p></div>
+    <div class="card"><div class="ci">🔄</div><h3>Induced Pluripotent Stem Cells (iPSCs)</h3><p>Adult somatic cells reprogrammed using Yamanaka factors: <strong>Oct4, Sox2, Klf4, c-Myc</strong> (2006 Nobel). Avoids ESC ethical issues. Enables autologous therapy.</p></div>
+    <div class="card"><div class="ci">🩸</div><h3>Hematopoietic Stem Cells (HSCs)</h3><p>Found in <strong>bone marrow</strong> (Lin⁻ Sca1⁺ c-Kit⁺). Give rise to all blood cell lineages. Used clinically in bone marrow transplantation. CD34⁺ in humans.</p></div>
+    <div class="card"><div class="ci">💪</div><h3>Mesenchymal Stem Cells (MSCs)</h3><p>Stromal cells from <strong>bone marrow, adipose, umbilical cord</strong>. Differentiate into osteoblasts, chondrocytes, adipocytes. CD105⁺ CD73⁺ CD90⁺ surface markers.</p></div>
+    <div class="card"><div class="ci">🧠</div><h3>Neural Stem Cells (NSCs)</h3><p>Reside in <strong>subventricular zone</strong> and hippocampus. Form neurospheres in vitro. Differentiate into neurons, astrocytes, and oligodendrocytes.</p></div>
+    <div class="card"><div class="ci">🫀</div><h3>Cardiac Stem Cells</h3><p>Found in cardiac niches (c-Kit⁺ or Sca1⁺). Can regenerate cardiomyocytes post-myocardial infarction. Key target of cardiac regenerative therapy.</p></div>
+  </div>
+
+  <div class="fw">
+    <h3>🧫 ESC / iPSC Culture Protocol Flow</h3>
+    <div class="fd">
+      <div class="fb2">
+        <div style="display:flex;flex-direction:column;align-items:center;gap:6px">
+          <div class="fb gold">Source: Blastocyst ICM</div>
+          <div class="fa d">▼</div>
+          <div class="fb g">Isolate ICM<small>Immunosurgery / laser dissection</small></div>
+        </div>
+        <div style="color:var(--muted);align-self:center;font-size:.9rem;padding:0 10px">OR</div>
+        <div style="display:flex;flex-direction:column;align-items:center;gap:6px">
+          <div class="fb gold">Source: Adult Somatic Cells</div>
+          <div class="fa d">▼</div>
+          <div class="fb o">Reprogram w/ Oct4, Sox2, Klf4, c-Myc<small>Retroviral / Sendai / mRNA delivery</small></div>
+        </div>
+      </div>
+      <div class="fa d">▼</div>
+      <div class="fb p">Plate on Feeder Layer (MEF) or Matrigel<small>mTeSR1 / Essential 8 medium</small></div>
+      <div class="fa d">▼</div>
+      <div class="fb">Self-renewal maintenance: LIF (mouse) / bFGF (human)<small>Daily medium change; passage every 3–7 days</small></div>
+      <div class="fa d">▼</div>
+      <div class="fb2">
+        <div class="fb g">Maintain Pluripotency<small>Characterize: Oct4, Nanog, SSEA4</small></div>
+        <div class="fb o">Directed Differentiation<small>EBs, growth factors, small molecules</small></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tw">
+    <h3>💊 Clinical &amp; Research Applications of Stem Cells</h3>
+    <table>
+      <tr><th>Application</th><th>Stem Cell Type</th><th>Status</th></tr>
+      <tr><td><strong>Bone Marrow Transplant</strong></td><td>HSCs</td><td>Clinical — leukemia, lymphoma</td></tr>
+      <tr><td><strong>Parkinson's Disease</strong></td><td>iPSC-derived dopaminergic neurons</td><td>Phase I/II trials</td></tr>
+      <tr><td><strong>Macular Degeneration</strong></td><td>iPSC-derived RPE cells</td><td>Phase I/II trials</td></tr>
+      <tr><td><strong>Cartilage Repair</strong></td><td>MSCs</td><td>Clinical — orthopedic use</td></tr>
+      <tr><td><strong>Skin Grafts</strong></td><td>Epidermal stem cells</td><td>Clinical — burn patients</td></tr>
+      <tr><td><strong>Disease Modeling</strong></td><td>iPSCs (patient-derived)</td><td>ALS, Alzheimer's, diabetes models</td></tr>
+      <tr><td><strong>Drug Screening</strong></td><td>Organoids from iPSCs</td><td>Liver, cardiac, intestinal organoids</td></tr>
+    </table>
+  </div>
+</div>
+
+<!-- ═══════ ORGAN CULTURE ═══════ -->
+<div class="sec" id="organ">
+  <div class="hero">
+    <div class="badge">Module 6</div>
+    <h2>Organ Culture</h2>
+    <p>Organ culture maintains the <strong>three-dimensional architecture</strong> and tissue organization of whole organs or organ fragments in vitro. Unlike cell culture, it preserves cell–cell and cell–matrix interactions, providing a more physiologically relevant experimental model.</p>
+  </div>
+
+  <div class="fw">
+    <h3>📊 Methods of Organ Culture — Flow Classification</h3>
+    <div class="fd">
+      <div class="fb gold">Organ Culture</div>
+      <div class="fa d">▼</div>
+      <div class="fb2">
+        <div style="display:flex;flex-direction:column;align-items:center;gap:7px">
+          <div class="fb g">Watch Glass Method</div>
+          <div style="color:var(--muted);font-size:.8rem;text-align:center;padding:8px 10px;background:var(--card);border-radius:8px;border:1px solid var(--border);max-width:155px">Organ on plasma clot in watch glass. Early method by Fell &amp; Robison (1929)</div>
+        </div>
+        <div style="display:flex;flex-direction:column;align-items:center;gap:7px">
+          <div class="fb">Grid / Raft Method</div>
+          <div style="color:var(--muted);font-size:.8rem;text-align:center;padding:8px 10px;background:var(--card);border-radius:8px;border:1px solid var(--border);max-width:155px">Organ on stainless steel grid at liquid–air interface; widely used for skin, limb buds</div>
+        </div>
+        <div style="display:flex;flex-direction:column;align-items:center;gap:7px">
+          <div class="fb o">Perfusion Culture</div>
+          <div style="color:var(--muted);font-size:.8rem;text-align:center;padding:8px 10px;background:var(--card);border-radius:8px;border:1px solid var(--border);max-width:155px">Oxygenated medium perfused through intact organ vasculature continuously</div>
+        </div>
+        <div style="display:flex;flex-direction:column;align-items:center;gap:7px">
+          <div class="fb p">Roller Tube Method</div>
+          <div style="color:var(--muted);font-size:.8rem;text-align:center;padding:8px 10px;background:var(--card);border-radius:8px;border:1px solid var(--border);max-width:155px">Slowly rotating tube ensures even medium distribution around organ slices</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="dw">
+    <h3>🔬 Grid Method — Organ Culture Setup Diagram</h3>
+    <svg width="540" height="240" viewBox="0 0 540 240" xmlns="http://www.w3.org/2000/svg" font-family="Source Sans 3,sans-serif">
+      <ellipse cx="270" cy="195" rx="240" ry="28" fill="#0a1520" stroke="#2a3a55" stroke-width="2"/>
+      <rect x="32" y="82" width="476" height="113" fill="#0a1520" stroke="none"/>
+      <ellipse cx="270" cy="82" rx="238" ry="28" fill="#0d1e30" stroke="#2a3a55" stroke-width="1.5"/>
+      <rect x="34" y="158" width="472" height="36" fill="rgba(79,156,249,0.12)"/>
+      <ellipse cx="270" cy="158" rx="236" ry="11" fill="rgba(79,156,249,0.18)" stroke="#4f9cf9" stroke-width="1" stroke-dasharray="4,3"/>
+      <text x="470" y="170" fill="#4f9cf9" font-size="9">Medium level</text>
+      <rect x="128" y="130" width="284" height="28" rx="3" fill="#162033" stroke="#4f9cf9" stroke-width="1.5"/>
+      <line x1="158" y1="130" x2="158" y2="158" stroke="#4f9cf9" stroke-width="0.8" opacity="0.5"/>
+      <line x1="188" y1="130" x2="188" y2="158" stroke="#4f9cf9" stroke-width="0.8" opacity="0.5"/>
+      <line x1="218" y1="130" x2="218" y2="158" stroke="#4f9cf9" stroke-width="0.8" opacity="0.5"/>
+      <line x1="248" y1="130" x2="248" y2="158" stroke="#4f9cf9" stroke-width="0.8" opacity="0.5"/>
+      <line x1="278" y1="130" x2="278" y2="158" stroke="#4f9cf9" stroke-width="0.8" opacity="0.5"/>
+      <line x1="308" y1="130" x2="308" y2="158" stroke="#4f9cf9" stroke-width="0.8" opacity="0.5"/>
+      <line x1="338" y1="130" x2="338" y2="158" stroke="#4f9cf9" stroke-width="0.8" opacity="0.5"/>
+      <line x1="368" y1="130" x2="368" y2="158" stroke="#4f9cf9" stroke-width="0.8" opacity="0.5"/>
+      <ellipse cx="270" cy="120" rx="78" ry="22" fill="#0d2e1a" stroke="#00d4aa" stroke-width="2"/>
+      <text x="270" y="124" text-anchor="middle" fill="#00d4aa" font-size="10" font-weight="700">Organ / Tissue Fragment</text>
+      <text x="270" y="50" text-anchor="middle" fill="#3a5070" font-size="10">Humidified air / 5% CO₂ atmosphere</text>
+      <text x="498" y="133" fill="#6080a0" font-size="9">Stainless steel grid</text>
+      <line x1="412" y1="143" x2="494" y2="135" stroke="#2a4060" stroke-width="1"/>
+      <text x="28" y="132" fill="#6080a0" font-size="9">Petri dish</text>
+      <line x1="76" y1="134" x2="126" y2="143" stroke="#2a4060" stroke-width="1"/>
+    </svg>
+  </div>
+
+  <div class="tc">
+    <div class="hb gr"><h4>✅ Advantages of Organ Culture</h4><ul><li>Preserves 3D tissue architecture &amp; histology</li><li>Maintains cell–cell &amp; cell–ECM interactions</li><li>Closer to in vivo physiology than cell culture</li><li>Suitable for short-term drug testing</li><li>Ideal for developmental biology studies</li></ul></div>
+    <div class="hb or"><h4>🔬 Applications of Organ Culture</h4><ul><li>Limb bud &amp; developmental biology studies</li><li>Cornea, thyroid, pancreas organ cultures</li><li>Testing teratogenic compounds</li><li>Drug metabolism studies (liver slices)</li><li>Tumor microenvironment research</li></ul></div>
+  </div>
+</div>
+
+<!-- ═══════ ARTIFICIAL SKIN ═══════ -->
+<div class="sec" id="artskin">
+  <div class="hero">
+    <div class="badge">Module 7</div>
+    <h2>Artificial Skin — Applied Organ Culture</h2>
+    <p>Artificial skin (tissue-engineered skin) is a <strong>bioengineered construct</strong> recreating the epidermal-dermal interface using keratinocytes and fibroblasts on a scaffold. It is a landmark application of organ culture technology for treating severe burns and chronic wounds.</p>
+  </div>
+
+  <div class="dw">
+    <h3>🩹 Natural Skin vs. Tissue-Engineered Skin — Structure Comparison</h3>
+    <svg width="680" height="290" viewBox="0 0 680 290" xmlns="http://www.w3.org/2000/svg" font-family="Source Sans 3,sans-serif">
+      <!-- NATURAL SKIN -->
+      <text x="166" y="22" text-anchor="middle" fill="#f5c842" font-size="13" font-weight="700">Natural Skin</text>
+      <rect x="20" y="34" width="292" height="24" rx="3" fill="#1e3a20" stroke="#00d4aa" stroke-width="1"/>
+      <text x="166" y="51" text-anchor="middle" fill="#80f0c0" font-size="10" font-weight="600">Stratum Corneum (Dead Keratin Cells)</text>
+      <rect x="20" y="58" width="292" height="34" rx="3" fill="#162a18" stroke="#00d4aa" stroke-width="1.5"/>
+      <text x="166" y="80" text-anchor="middle" fill="#00d4aa" font-size="11" font-weight="700">Epidermis (Keratinocytes)</text>
+      <rect x="20" y="92" width="292" height="12" rx="2" fill="#1a3030" stroke="#4f9cf9" stroke-width="1" stroke-dasharray="5,2"/>
+      <text x="166" y="103" text-anchor="middle" fill="#90c0f0" font-size="9">Basement Membrane (Laminin / Collagen IV)</text>
+      <rect x="20" y="104" width="292" height="65" rx="3" fill="#0d1e35" stroke="#4f9cf9" stroke-width="1.5"/>
+      <text x="166" y="128" text-anchor="middle" fill="#4f9cf9" font-size="11" font-weight="700">Dermis (Fibroblasts + Col I/III)</text>
+      <text x="166" y="144" text-anchor="middle" fill="#5080a0" font-size="9">Blood vessels · Hair follicles · Nerve endings</text>
+      <text x="166" y="158" text-anchor="middle" fill="#5080a0" font-size="9">Sweat glands · Sebaceous glands</text>
+      <rect x="20" y="169" width="292" height="32" rx="3" fill="#1a1a1a" stroke="#c084fc" stroke-width="1"/>
+      <text x="166" y="190" text-anchor="middle" fill="#c084fc" font-size="10">Hypodermis (Adipocytes · Fat)</text>
+      <!-- ENGINEERED SKIN -->
+      <text x="546" y="22" text-anchor="middle" fill="#f97b4f" font-size="13" font-weight="700">Tissue-Engineered Skin</text>
+      <rect x="370" y="34" width="352" height="22" rx="3" fill="#2a1e10" stroke="#f97b4f" stroke-width="1"/>
+      <text x="546" y="50" text-anchor="middle" fill="#ffc090" font-size="10" font-weight="600">Cornified Keratinocyte Layer</text>
+      <rect x="370" y="56" width="352" height="36" rx="3" fill="#1e1408" stroke="#f97b4f" stroke-width="1.5"/>
+      <text x="546" y="72" text-anchor="middle" fill="#f97b4f" font-size="10" font-weight="700">Epidermal Equivalent</text>
+      <text x="546" y="86" text-anchor="middle" fill="#c08060" font-size="9">Autologous / allogeneic keratinocytes</text>
+      <rect x="370" y="92" width="352" height="12" rx="2" fill="#1a2530" stroke="#4f9cf9" stroke-width="1" stroke-dasharray="5,2"/>
+      <text x="546" y="103" text-anchor="middle" fill="#90c0f0" font-size="9">Synthetic / Biologic Membrane</text>
+      <rect x="370" y="104" width="352" height="65" rx="3" fill="#0d1830" stroke="#c084fc" stroke-width="1.5"/>
+      <text x="546" y="126" text-anchor="middle" fill="#c084fc" font-size="10" font-weight="700">Dermal Equivalent</text>
+      <text x="546" y="142" text-anchor="middle" fill="#907090" font-size="9">Fibroblasts in collagen gel / acellular scaffold</text>
+      <text x="546" y="157" text-anchor="middle" fill="#907090" font-size="9">Nylon mesh · Biodegradable polymers (PGA/PLA)</text>
+      <rect x="370" y="169" width="352" height="32" rx="3" fill="#1a1525" stroke="#c084fc" stroke-width="1"/>
+      <text x="546" y="190" text-anchor="middle" fill="#a070c0" font-size="10">Scaffold / Carrier / Backing Layer</text>
+      <text x="546" y="235" text-anchor="middle" fill="#5a3040" font-size="9" font-style="italic">⚠ Currently lacks blood vessels, appendages, innervation</text>
+      <!-- Legend -->
+      <text x="340" y="265" text-anchor="middle" fill="#4a6080" font-size="10" font-style="italic">Key goal: recreate the epidermal–dermal interface in vitro</text>
+    </svg>
+  </div>
+
+  <div class="fw">
+    <h3>🔄 Production of Tissue-Engineered Skin</h3>
+    <div class="fd">
+      <div class="fb2">
+        <div style="display:flex;flex-direction:column;align-items:center;gap:6px">
+          <div class="fb">Keratinocyte Harvest<small>Patient biopsy → enzymatic dissociation</small></div>
+          <div class="fa d">▼</div>
+          <div class="fb g">Expand in DMEM + EGF + FBS<small>T-flask → multilayer culture</small></div>
+        </div>
+        <div style="display:flex;flex-direction:column;align-items:center;gap:6px">
+          <div class="fb o">Dermal Scaffold Preparation<small>Acellular dermis / collagen gel</small></div>
+          <div class="fa d">▼</div>
+          <div class="fb o">Seed Fibroblasts → Collagen Matrix<small>ECM remodeling allowed</small></div>
+        </div>
+      </div>
+      <div class="fa d">▼</div>
+      <div class="fb g">Seed Keratinocytes onto Dermal Equivalent<small>Air-liquid interface culture → promotes stratification</small></div>
+      <div class="fa d">▼</div>
+      <div class="fb p">Maturation: 14–21 days<small>Cornification and barrier function development</small></div>
+      <div class="fa d">▼</div>
+      <div class="fb2">
+        <div class="fb gold">Quality Testing<small>Histology · Barrier · Viability</small></div>
+        <div class="fb g">Clinical Application<small>Burns · Ulcers · Reconstructive surgery</small></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tw">
+    <h3>🏥 Commercial Artificial Skin Products</h3>
+    <table>
+      <tr><th>Product</th><th>Type</th><th>Components</th><th>Application</th></tr>
+      <tr><td><strong>Apligraf®</strong></td><td>Bilayered</td><td>Allogeneic keratinocytes + dermal fibroblasts in collagen</td><td>Venous leg ulcers, diabetic foot ulcers</td></tr>
+      <tr><td><strong>Integra®</strong></td><td>Acellular matrix</td><td>Bovine collagen + chondroitin-6-sulfate + silicone</td><td>Full-thickness burns</td></tr>
+      <tr><td><strong>Epicel®</strong></td><td>Epidermal only</td><td>Autologous keratinocytes on murine fibroblast feeder</td><td>Massive burns (&gt;30% BSA)</td></tr>
+      <tr><td><strong>Dermagraft®</strong></td><td>Dermal substitute</td><td>Neonatal fibroblasts seeded on polyglactin mesh</td><td>Diabetic foot ulcers</td></tr>
+      <tr><td><strong>OrCel®</strong></td><td>Bilayered</td><td>Allogeneic cells in bovine collagen sponge</td><td>Burns, donor site wounds</td></tr>
+    </table>
+  </div>
+
+  <div class="tc">
+    <div class="hb gr"><h4>✅ Clinical Advantages</h4><ul><li>Overcomes donor site shortage in severe burns</li><li>Autologous constructs — no immune rejection</li><li>Reduced scarring vs. split-thickness grafts</li><li>Off-the-shelf allogeneic products available</li><li>Platform for cosmetic drug testing (EpiDerm™)</li><li>Alternative to animal testing</li></ul></div>
+    <div class="hb or"><h4>🔭 Future Challenges</h4><ul><li>Vascularization — no capillary network</li><li>Lack of hair follicles, sweat/sebaceous glands</li><li>Melanocyte integration for skin pigmentation</li><li>Innervation — no sensory nerve endings</li><li>Long-term mechanical durability</li><li>High manufacturing cost</li></ul></div>
+  </div>
+
+  <div class="hb pu"><h4>🖨️ 3D Bioprinting of Skin — Emerging Frontier</h4><p>3D bioprinting deposits cell-laden bioinks (keratinocytes, fibroblasts, melanocytes) layer-by-layer with high precision. Recent advances achieve full-thickness skin substitutes with melanocyte integration. Companies like CELLINK and Organovo are pioneering commercial bioprinted skin platforms for wound healing therapies and cosmetic safety testing, moving toward in situ printing directly on wounds.</p></div>
+</div>
+
+</main>
+
+<footer>
+  <p>
+    <span>Department of Zoology, Government Arts &amp; Science College (GASC), Nagercoil, Tamil Nadu — 629 001</span><br>
+    <span style="font-size:.62rem">Created by R. Ramesh</span>
+  </p>
+</footer>
+
+<script>
+function show(id){
+  document.querySelectorAll('.sec').forEach(s=>s.classList.remove('active'));
+  document.querySelectorAll('.nb').forEach(b=>b.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  const idx=['basics','requirements','media','primary','celllines','stem','organ','artskin'].indexOf(id);
+  document.querySelectorAll('.nb')[idx].classList.add('active');
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+</script>
+</body>
+</html>

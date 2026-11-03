@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<!-- Transgenic Animal Technology | Animal Biotechnology | Department of Zoology, GASC, Nagercoil | Created by R. Ramesh | single file, offline -->
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Transgenic Animal Technology | Animal Biotechnology</title><style>
+/* ==========================================================================
+   DESIGN TOKENS — Academic Teal/Navy palette
+   ========================================================================== */
+:root {
+  /* Backgrounds */
+  --bg:        #f0f4f8;
+  --bg2:       #e6eef5;
+  --surface:   #ffffff;
+  --card:      #ffffff;
+  --sidebar:   #0f2744;
+
+  /* Brand colours */
+  --navy:      #0f2744;
+  --navy2:     #1a3a5c;
+  --teal:      #0d8a7a;
+  --teal-l:    #12a899;
+  --teal-pale: #e0f5f3;
+  --sky:       #1a7bbf;
+  --sky-pale:  #e3f0fa;
+  --amber:     #b06a00;
+  --amber-pale:#fff3e0;
+  --rose:      #b32d2d;
+  --rose-pale: #fdecea;
+  --violet:    #5a3e9e;
+  --violet-pale:#f0ebff;
+  --lime:      #3a7d1e;
+  --lime-pale: #eaf5e4;
+
+  /* Text */
+  --text:      #1a2836;
+  --text2:     #3d5266;
+  --text3:     #6b8299;
+  --border:    #ccd9e6;
+  --border2:   #b0c4d8;
+
+  /* Typography */
+  --font-head: Georgia,'Times New Roman',serif;
+  --font-body: 'Palatino Linotype','Palatino','Book Antiqua',Georgia,serif;
+  --font-ui:   'Helvetica Neue',Helvetica,Arial,sans-serif;
+  --font-mono: 'Courier New',Courier,monospace;
+
+  --r:  10px;
+  --r2: 16px;
+  --shadow: 0 2px 12px rgba(15,39,68,.10);
+  --shadow2: 0 4px 20px rgba(15,39,68,.14);
+}
+
+
+/* ==========================================================================
+   GLOBAL RESET & BASE
+   ========================================================================== */
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.75;
+  min-height: 100vh;
+}
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--teal); }
+::selection { background: rgba(13,138,122,.2); color: var(--text); }
+
+/* ==========================================================================
+   LAYOUT — Sidebar + Main
+   ========================================================================== */
+#app { display: flex; min-height: 100vh; }
+
+/* ── Sidebar ── */
+#sidebar {
+  width: 265px; min-width: 265px;
+  background: var(--sidebar);
+  display: flex; flex-direction: column;
+  position: sticky; top: 0; height: 100vh;
+  overflow-y: auto; z-index: 300;
+  transition: transform .3s cubic-bezier(.4,0,.2,1);
+  box-shadow: 2px 0 16px rgba(0,0,0,.18);
+}
+
+/* Sidebar brand */
+.sb-brand {
+  padding: 22px 20px 16px;
+  border-bottom: 1px solid rgba(255,255,255,.08);
+  background: rgba(0,0,0,.15);
+}
+.sb-brand-row { display:flex; align-items:center; gap:12px; margin-bottom:10px; }
+.sb-icon {
+  width: 42px; height: 42px; flex-shrink: 0;
+  background: linear-gradient(135deg, var(--teal), var(--sky));
+  border-radius: 11px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 20px;
+  box-shadow: 0 3px 12px rgba(13,138,122,.4);
+}
+.sb-brand-text h2 {
+  font-family: var(--font-ui); font-size: .68rem;
+  color: var(--teal-l); text-transform: uppercase;
+  letter-spacing: .12em; font-weight: 700;
+}
+.sb-brand-text p { font-family: var(--font-ui); font-size: .64rem; color: rgba(255,255,255,.4); margin-top: 2px; }
+
+/* Progress */
+.sb-prog { padding: 12px 20px; border-bottom: 1px solid rgba(255,255,255,.06); }
+.sb-prog-row {
+  display: flex; justify-content: space-between;
+  font-family: var(--font-ui); font-size: .67rem; color: rgba(255,255,255,.4);
+  margin-bottom: 6px;
+}
+.sb-prog-row span { color: var(--amber); font-weight: 700; }
+.prog-bar { height: 4px; background: rgba(255,255,255,.1); border-radius: 2px; overflow: hidden; }
+.prog-fill {
+  height: 100%; width: 0%;
+  background: linear-gradient(90deg, var(--teal), var(--sky));
+  border-radius: 2px; transition: width .5s ease;
+}
+
+/* Nav */
+.nav-list { flex: 1; padding: 8px 0; overflow-y: auto; }
+.nav-group {
+  font-family: var(--font-ui); font-size: .6rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .15em;
+  color: rgba(255,255,255,.3); padding: 12px 20px 4px;
+}
+.nav-item {
+  display: flex; align-items: center; gap: 10px;
+  padding: 9px 20px; cursor: pointer;
+  border-left: 3px solid transparent;
+  transition: all .2s;
+  font-family: var(--font-ui); font-size: .8rem;
+  color: rgba(255,255,255,.5);
+  user-select: none;
+}
+.nav-item:hover { background: rgba(255,255,255,.05); color: rgba(255,255,255,.85); }
+.nav-item.active { background: rgba(13,138,122,.18); border-left-color: var(--teal-l); color: var(--teal-l); }
+.nav-item.visited { color: rgba(255,255,255,.65); }
+.nav-num {
+  width: 22px; height: 22px; flex-shrink: 0;
+  border-radius: 50%; background: rgba(255,255,255,.1);
+  display: flex; align-items: center; justify-content: center;
+  font-size: .62rem; font-weight: 700; font-family: var(--font-ui);
+  transition: all .2s; color: rgba(255,255,255,.5);
+}
+.nav-item.active .nav-num { background: var(--teal); color: #fff; }
+.nav-item.visited .nav-num { background: rgba(13,138,122,.4); color: var(--teal-l); }
+
+/* Sidebar footer */
+.sb-foot {
+  padding: 12px 20px; border-top: 1px solid rgba(255,255,255,.06);
+  font-family: var(--font-ui); font-size: .61rem;
+  color: rgba(255,255,255,.25); line-height: 1.7; text-align: center;
+}
+
+/* ── Mobile header ── */
+#mob-hdr {
+  display: none; background: var(--sidebar);
+  padding: 12px 16px; position: sticky; top: 0; z-index: 200;
+  align-items: center; gap: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.2);
+}
+#hamburger {
+  background: none; border: 1px solid rgba(255,255,255,.2);
+  color: rgba(255,255,255,.8); width: 36px; height: 36px;
+  border-radius: 8px; cursor: pointer; font-size: 16px;
+  display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+}
+#mob-ttl { font-family: var(--font-ui); font-size: .82rem; color: var(--teal-l); font-weight: 700; }
+#overlay {
+  display: none; position: fixed; inset: 0;
+  background: rgba(0,0,0,.7); z-index: 250;
+}
+
+/* ── Main ── */
+#main { flex: 1; overflow-y: auto; min-width: 0; }
+
+/* ==========================================================================
+   PAGE SYSTEM
+   ========================================================================== */
+.page { display: none; padding: 40px 48px 80px; max-width: 940px; animation: fadeUp .35s ease; }
+.page.active { display: block; }
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Page navigation */
+.pg-nav {
+  display: flex; justify-content: space-between; align-items: center;
+  margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--border);
+  flex-wrap: wrap; gap: 12px;
+}
+.btn {
+  display: inline-flex; align-items: center; gap: 7px;
+  padding: 10px 22px; border-radius: var(--r);
+  font-family: var(--font-ui); font-size: .84rem; font-weight: 600;
+  cursor: pointer; border: none; transition: all .2s;
+}
+.btn-primary { background: var(--teal); color: #fff; }
+.btn-primary:hover { background: var(--teal-l); box-shadow: 0 4px 14px rgba(13,138,122,.35); }
+.btn-outline { background: transparent; color: var(--text2); border: 1.5px solid var(--border2); }
+.btn-outline:hover { border-color: var(--teal); color: var(--teal); }
+.btn:disabled { opacity: .35; cursor: not-allowed; pointer-events: none; }
+
+/* ==========================================================================
+   SECTION CHROME — tags, headings, leads
+   ========================================================================== */
+.sec-tag {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: var(--teal-pale); color: var(--teal);
+  border: 1px solid rgba(13,138,122,.25);
+  padding: 5px 13px; border-radius: 20px;
+  font-family: var(--font-ui); font-size: .68rem; font-weight: 700;
+  letter-spacing: .1em; text-transform: uppercase; margin-bottom: 13px;
+}
+.pg-title {
+  font-family: var(--font-head); font-size: 2rem; color: var(--navy);
+  line-height: 1.2; margin-bottom: 14px;
+}
+.pg-lead {
+  font-size: .97rem; color: var(--text2); line-height: 1.8;
+  max-width: 700px; margin-bottom: 28px;
+  padding: 14px 18px; border-radius: var(--r);
+  background: var(--teal-pale); border-left: 4px solid var(--teal);
+  font-style: italic;
+}
+.divider { height: 1px; background: var(--border); margin: 28px 0; }
+
+/* Sub-headings */
+.sh {
+  font-family: var(--font-head); font-size: 1.18rem; color: var(--navy);
+  margin: 30px 0 12px; display: flex; align-items: center; gap: 10px;
+}
+.sh::before { content:''; width:4px; height:20px; background:var(--teal); border-radius:2px; flex-shrink:0; }
+.sh2 { font-family: var(--font-ui); font-size: .94rem; font-weight: 700; color: var(--sky); margin: 20px 0 8px; }
+.sh3 { font-family: var(--font-ui); font-size: .84rem; font-weight: 700; color: var(--teal); margin: 14px 0 6px; text-transform: uppercase; letter-spacing: .06em; }
+
+/* ==========================================================================
+   TYPOGRAPHY — PROSE
+   ========================================================================== */
+.prose p { font-size: .95rem; line-height: 1.85; margin-bottom: 14px; color: var(--text); }
+.prose strong { color: var(--navy); font-weight: 700; }
+.prose em { color: var(--teal); font-style: italic; }
+.prose code {
+  font-family: var(--font-mono); background: var(--teal-pale);
+  color: var(--teal); padding: 1px 6px; border-radius: 4px; font-size: .87em;
+}
+
+/* ==========================================================================
+   HIGHLIGHT / INFO BOXES
+   ========================================================================== */
+.hbox {
+  border-radius: var(--r); padding: 16px 20px; margin: 16px 0;
+  border-left: 4px solid; font-size: .92rem;
+}
+.hbox-teal   { background: var(--teal-pale);   border-color: var(--teal);   }
+.hbox-sky    { background: var(--sky-pale);    border-color: var(--sky);    }
+.hbox-amber  { background: var(--amber-pale);  border-color: var(--amber);  }
+.hbox-rose   { background: var(--rose-pale);   border-color: var(--rose);   }
+.hbox-violet { background: var(--violet-pale); border-color: var(--violet); }
+.hbox-lime   { background: var(--lime-pale);   border-color: var(--lime);   }
+.hbox h4 { font-family: var(--font-ui); font-size: .84rem; font-weight: 700; margin-bottom: 8px; display:flex; align-items:center; gap:7px; }
+.hbox-teal   h4 { color: var(--teal);   }
+.hbox-sky    h4 { color: var(--sky);    }
+.hbox-amber  h4 { color: var(--amber);  }
+.hbox-rose   h4 { color: var(--rose);   }
+.hbox-violet h4 { color: var(--violet); }
+.hbox-lime   h4 { color: var(--lime);   }
+.hbox p, .hbox ul, .hbox ol { color: var(--text2); line-height: 1.75; font-size: .9rem; }
+.hbox ul, .hbox ol { padding-left: 18px; }
+.hbox li { margin-bottom: 4px; }
+
+/* Definition box */
+.def-box {
+  background: var(--navy); color: #fff;
+  border-radius: var(--r2); padding: 22px 26px; margin: 20px 0;
+  border-left: 5px solid var(--teal-l);
+}
+.def-box .def-label {
+  font-family: var(--font-ui); font-size: .68rem; font-weight: 700;
+  letter-spacing: .12em; text-transform: uppercase; color: var(--teal-l); margin-bottom: 10px;
+}
+.def-box .def-text {
+  font-family: var(--font-head); font-size: 1.05rem; line-height: 1.75;
+  color: rgba(255,255,255,.92); font-style: italic;
+}
+.def-box .def-src {
+  font-family: var(--font-ui); font-size: .75rem; color: rgba(255,255,255,.45); margin-top: 10px;
+}
+
+/* ==========================================================================
+   CARDS
+   ========================================================================== */
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(228px,1fr)); gap: 16px; margin: 18px 0; }
+.card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--r); padding: 20px;
+  box-shadow: var(--shadow);
+  transition: transform .2s, box-shadow .2s, border-color .2s;
+}
+.card:hover { transform: translateY(-3px); box-shadow: var(--shadow2); border-color: var(--teal); }
+.card-icon {
+  width: 44px; height: 44px; border-radius: 10px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.4rem; margin-bottom: 12px;
+}
+.ci-teal   { background: var(--teal-pale); }
+.ci-sky    { background: var(--sky-pale); }
+.ci-amber  { background: var(--amber-pale); }
+.ci-lime   { background: var(--lime-pale); }
+.ci-violet { background: var(--violet-pale); }
+.ci-rose   { background: var(--rose-pale); }
+.card h3 { font-family: var(--font-head); font-size: 1rem; color: var(--navy); margin-bottom: 8px; }
+.card p { font-size: .84rem; color: var(--text2); line-height: 1.65; }
+.card ul { font-size: .84rem; color: var(--text2); padding-left: 16px; line-height: 1.8; }
+.card ul li { margin-bottom: 3px; }
+.card-tag {
+  display: inline-block; font-family: var(--font-ui); font-size: .63rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .08em; padding: 3px 9px;
+  border-radius: 20px; margin-bottom: 10px;
+}
+.tag-teal   { background: var(--teal-pale); color: var(--teal); }
+.tag-sky    { background: var(--sky-pale);  color: var(--sky);  }
+.tag-amber  { background: var(--amber-pale);color: var(--amber);}
+.tag-lime   { background: var(--lime-pale); color: var(--lime); }
+.tag-violet { background: var(--violet-pale);color: var(--violet);}
+.tag-rose   { background: var(--rose-pale); color: var(--rose); }
+
+/* ==========================================================================
+   TABLE
+   ========================================================================== */
+.tbl-wrap { overflow-x: auto; margin: 18px 0; border-radius: var(--r); border: 1px solid var(--border); box-shadow: var(--shadow); }
+table { width: 100%; border-collapse: collapse; font-size: .88rem; }
+thead { background: var(--navy); }
+th { padding: 12px 16px; text-align: left; color: var(--teal-l); font-family: var(--font-ui); font-size: .74rem; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; white-space: nowrap; }
+td { padding: 10px 16px; color: var(--text2); border-top: 1px solid var(--border); }
+tr:hover td { background: var(--teal-pale); color: var(--text); }
+tr:nth-child(even) td { background: var(--bg); }
+td strong { color: var(--navy); }
+
+/* ==========================================================================
+   ACCORDION
+   ========================================================================== */
+.accordion { margin: 18px 0; }
+.acc-item {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--r); margin-bottom: 8px; overflow: hidden;
+  box-shadow: var(--shadow); transition: border-color .2s;
+}
+.acc-item.open { border-color: var(--teal); box-shadow: 0 2px 12px rgba(13,138,122,.12); }
+.acc-hdr {
+  display: flex; align-items: center; gap: 12px;
+  padding: 14px 18px; cursor: pointer;
+  font-family: var(--font-ui); font-size: .9rem; font-weight: 600;
+  color: var(--text); user-select: none; transition: background .2s;
+}
+.acc-hdr:hover { background: var(--teal-pale); }
+.acc-item.open .acc-hdr { color: var(--teal); background: var(--teal-pale); }
+.acc-hdr-icon {
+  width: 32px; height: 32px; flex-shrink: 0;
+  border-radius: 8px; background: var(--teal-pale);
+  display: flex; align-items: center; justify-content: center; font-size: 1rem;
+}
+.acc-item.open .acc-hdr-icon { background: var(--teal); color: #fff; }
+.acc-arrow {
+  width: 20px; height: 20px; flex-shrink: 0; margin-left: auto;
+  border-radius: 50%; background: var(--border);
+  display: flex; align-items: center; justify-content: center;
+  font-size: .65rem; transition: transform .3s, background .2s; color: var(--text3);
+}
+.acc-item.open .acc-arrow { transform: rotate(180deg); background: var(--teal); color: #fff; }
+.acc-body {
+  max-height: 0; overflow: hidden;
+  transition: max-height .4s cubic-bezier(.4,0,.2,1);
+  padding: 0 18px;
+}
+.acc-item.open .acc-body { max-height: 1000px; padding: 2px 18px 18px; }
+.acc-body p { font-size: .9rem; color: var(--text2); line-height: 1.8; margin-bottom: 10px; }
+.acc-body ul { font-size: .9rem; color: var(--text2); padding-left: 18px; line-height: 1.8; }
+.acc-body ul li { margin-bottom: 5px; }
+.acc-body strong { color: var(--navy); }
+.acc-body em { color: var(--teal); }
+
+/* ==========================================================================
+   CLICK-TO-REVEAL
+   ========================================================================== */
+.reveal-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px,1fr)); gap: 12px; margin: 18px 0; }
+.rv-card {
+  background: var(--card); border: 1.5px solid var(--border);
+  border-radius: var(--r); padding: 18px; cursor: pointer;
+  transition: all .25s; min-height: 110px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;
+  box-shadow: var(--shadow);
+}
+.rv-card:hover { border-color: var(--teal); box-shadow: 0 4px 14px rgba(13,138,122,.12); }
+.rv-card.open { background: var(--teal-pale); border-color: var(--teal); }
+.rv-front .rv-ico { font-size: 1.8rem; margin-bottom: 8px; }
+.rv-front h4 { font-family: var(--font-ui); font-size: .86rem; font-weight: 700; color: var(--teal); margin-bottom: 5px; }
+.rv-front .rv-hint { font-family: var(--font-ui); font-size: .68rem; color: var(--text3); text-transform: uppercase; letter-spacing: .07em; }
+.rv-back { display: none; font-size: .84rem; color: var(--text); line-height: 1.7; text-align: left; }
+.rv-back strong { color: var(--navy); }
+.rv-card.open .rv-front { display: none; }
+.rv-card.open .rv-back { display: block; }
+.rv-badge {
+  display: inline-block; background: var(--teal); color: #fff;
+  font-family: var(--font-ui); font-size: .6rem; font-weight: 700;
+  padding: 2px 7px; border-radius: 10px; text-transform: uppercase; margin-bottom: 7px;
+}
+
+/* ==========================================================================
+   TITLE PAGE SPECIAL LAYOUT
+   ========================================================================== */
+#page-0 { padding: 0; max-width: 100%; }
+.hero {
+  padding: 56px 48px 48px; min-height: 100vh;
+  display: flex; flex-direction: column; justify-content: center;
+  background:
+    radial-gradient(ellipse 70% 50% at 75% 25%, rgba(13,138,122,.06) 0%, transparent 65%),
+    radial-gradient(ellipse 50% 40% at 15% 85%, rgba(26,123,191,.04) 0%, transparent 65%),
+    var(--bg);
+  position: relative; overflow: hidden;
+}
+.hero::before {
+  content: '';
+  position: absolute; top: 0; left: 0; right: 0; height: 4px;
+  background: linear-gradient(90deg, var(--teal), var(--sky), var(--teal));
+}
+/* Decorative grid */
+.hero-grid {
+  position: absolute; inset: 0; pointer-events: none; overflow: hidden;
+  background-image:
+    linear-gradient(var(--border) 1px, transparent 1px),
+    linear-gradient(90deg, var(--border) 1px, transparent 1px);
+  background-size: 48px 48px;
+  opacity: .25;
+}
+.hero-chip {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: var(--teal-pale); color: var(--teal);
+  border: 1px solid rgba(13,138,122,.3);
+  padding: 7px 16px; border-radius: 30px;
+  font-family: var(--font-ui); font-size: .72rem; font-weight: 700;
+  letter-spacing: .1em; text-transform: uppercase; margin-bottom: 22px; width: fit-content;
+}
+.hero h1 { font-family: var(--font-head); font-size: clamp(1.8rem, 4vw, 2.7rem); color: var(--navy); line-height: 1.15; margin-bottom: 8px; max-width: 680px; position:relative; }
+.hero .hero-sub { font-family: var(--font-head); font-size: clamp(1.05rem, 2.5vw, 1.3rem); color: var(--teal); margin-bottom: 20px; font-style: italic; position:relative; }
+.hero-intro { font-size: .97rem; color: var(--text2); line-height: 1.85; max-width: 640px; margin-bottom: 28px; position:relative; }
+.hero-meta {
+  display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 28px; position:relative;
+  font-family: var(--font-ui); font-size: .78rem; color: var(--text3);
+}
+.hero-meta span {
+  display: flex; align-items: center; gap: 5px;
+  background: var(--surface); border: 1px solid var(--border);
+  padding: 5px 12px; border-radius: 20px;
+}
+/* Objectives card */
+.obj-card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--r2); padding: 22px 26px; max-width: 650px; margin-bottom: 32px;
+  box-shadow: var(--shadow2); position:relative;
+}
+.obj-card h3 {
+  font-family: var(--font-ui); font-size: .72rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .12em; color: var(--amber);
+  margin-bottom: 14px; display: flex; align-items: center; gap: 7px;
+}
+.obj-list { list-style: none; }
+.obj-list li {
+  display: flex; align-items: flex-start; gap: 10px;
+  font-size: .91rem; color: var(--text2); line-height: 1.7; margin-bottom: 9px;
+}
+.obj-list li:last-child { margin-bottom: 0; }
+.obj-dot {
+  width: 20px; height: 20px; flex-shrink: 0;
+  background: var(--teal-pale); border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: .7rem; color: var(--teal); margin-top: 2px;
+}
+.start-btn {
+  display: inline-flex; align-items: center; gap: 10px;
+  background: var(--teal); color: #fff;
+  padding: 13px 30px; border-radius: var(--r);
+  font-family: var(--font-ui); font-size: .92rem; font-weight: 700;
+  cursor: pointer; border: none; transition: all .25s;
+  box-shadow: 0 4px 18px rgba(13,138,122,.35); position:relative;
+}
+.start-btn:hover { background: var(--teal-l); transform: translateY(-2px); box-shadow: 0 6px 24px rgba(13,138,122,.45); }
+
+/* ==========================================================================
+   CONCEPT MAP (Pure HTML/CSS)
+   ========================================================================== */
+.cmap-wrap {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--r2); padding: 28px; margin: 22px 0;
+  box-shadow: var(--shadow); overflow-x: auto;
+}
+.cmap-wrap h3 { font-family: var(--font-head); font-size: 1.1rem; color: var(--navy); margin-bottom: 24px; display:flex; align-items:center; gap:10px; }
+.cmap { display: flex; flex-direction: column; align-items: center; gap: 0; }
+.cmap-center {
+  background: var(--navy); color: #fff;
+  border-radius: var(--r2); padding: 14px 28px;
+  font-family: var(--font-ui); font-size: .95rem; font-weight: 700;
+  text-align: center; min-width: 200px; box-shadow: 0 4px 16px rgba(15,39,68,.3);
+}
+.cmap-center small { display:block; font-size:.7rem; color: var(--teal-l); font-weight:400; margin-top:3px; }
+.cmap-arrow-down { font-size: 1.3rem; color: var(--teal); line-height: 1; padding: 8px 0; }
+.cmap-row { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; }
+.cmap-branch {
+  display: flex; flex-direction: column; align-items: center; gap: 0;
+}
+.cmap-line { width: 2px; height: 24px; background: var(--border2); }
+.cmap-node {
+  border-radius: var(--r); padding: 10px 16px; font-family: var(--font-ui);
+  font-size: .78rem; font-weight: 700; text-align: center; min-width: 130px;
+  cursor: default; transition: transform .2s, box-shadow .2s;
+}
+.cmap-node:hover { transform: translateY(-3px); box-shadow: var(--shadow2); }
+.cmap-node small { display:block; font-size:.68rem; font-weight:400; margin-top:3px; opacity:.8; }
+.cn-teal   { background: var(--teal-pale);   color: var(--teal);   border: 1.5px solid rgba(13,138,122,.3); }
+.cn-sky    { background: var(--sky-pale);    color: var(--sky);    border: 1.5px solid rgba(26,123,191,.3); }
+.cn-amber  { background: var(--amber-pale);  color: var(--amber);  border: 1.5px solid rgba(176,106,0,.3); }
+.cn-lime   { background: var(--lime-pale);   color: var(--lime);   border: 1.5px solid rgba(58,125,30,.3); }
+.cn-violet { background: var(--violet-pale); color: var(--violet); border: 1.5px solid rgba(90,62,158,.3); }
+.cn-rose   { background: var(--rose-pale);   color: var(--rose);   border: 1.5px solid rgba(179,45,45,.3); }
+/* Second level nodes */
+.cmap-sub-row { display:flex; gap:8px; flex-wrap:wrap; justify-content:center; margin-top:6px; }
+.cmap-sub-node {
+  background: var(--bg2); border: 1px solid var(--border);
+  border-radius: 8px; padding: 5px 10px;
+  font-family: var(--font-ui); font-size: .7rem; color: var(--text2);
+  text-align: center;
+}
+
+/* ==========================================================================
+   QUIZ
+   ========================================================================== */
+.quiz-shell { max-width: 840px; }
+.quiz-hdr {
+  background: var(--navy); color: #fff;
+  border-radius: var(--r2); padding: 22px 26px; margin-bottom: 22px;
+  display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 14px;
+}
+.quiz-hdr h3 { font-family: var(--font-head); font-size: 1.15rem; }
+.q-stats { display: flex; gap: 14px; }
+.q-stat {
+  text-align: center; background: rgba(255,255,255,.08);
+  border-radius: var(--r); padding: 9px 16px; min-width: 60px;
+}
+.q-stat .val { font-size: 1.35rem; font-weight: 700; color: var(--teal-l); display:block; font-family: var(--font-ui); }
+.q-stat .lbl { font-size: .63rem; color: rgba(255,255,255,.4); text-transform: uppercase; letter-spacing: .08em; font-family: var(--font-ui); }
+.q-prog-bar { height: 5px; background: var(--border); border-radius: 3px; margin-bottom: 26px; overflow: hidden; }
+.q-prog-fill { height:100%; background: linear-gradient(90deg,var(--teal),var(--sky)); border-radius:3px; transition:width .4s ease; width:0%; }
+.q-card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--r2); padding: 24px 26px; margin-bottom: 18px;
+  box-shadow: var(--shadow); animation: fadeUp .3s ease;
+}
+.q-num { font-family: var(--font-ui); font-size: .7rem; font-weight: 700; color: var(--teal); text-transform: uppercase; letter-spacing: .1em; margin-bottom: 10px; }
+.q-text { font-family: var(--font-head); font-size: 1.03rem; color: var(--text); margin-bottom: 18px; line-height: 1.6; }
+.q-opts { display: flex; flex-direction: column; gap: 9px; }
+.q-opt {
+  background: var(--bg); border: 1.5px solid var(--border);
+  border-radius: var(--r); padding: 11px 16px;
+  cursor: pointer; transition: all .2s;
+  font-family: var(--font-ui); font-size: .88rem; color: var(--text);
+  display: flex; align-items: center; gap: 11px;
+}
+.q-opt:hover:not(.answered) { border-color: var(--teal); background: var(--teal-pale); color: var(--teal); }
+.opt-letter {
+  width: 26px; height: 26px; flex-shrink: 0;
+  border-radius: 50%; background: var(--border);
+  display: flex; align-items: center; justify-content: center;
+  font-size: .72rem; font-weight: 700; color: var(--text3);
+  transition: all .2s;
+}
+.q-opt.correct { border-color: var(--teal); background: var(--teal-pale); color: var(--teal); }
+.q-opt.correct .opt-letter { background: var(--teal); color: #fff; }
+.q-opt.wrong { border-color: var(--rose); background: var(--rose-pale); color: var(--rose); }
+.q-opt.wrong .opt-letter { background: var(--rose); color: #fff; }
+.q-opt.answered { cursor: default; }
+.q-fb {
+  margin-top: 14px; padding: 11px 16px; border-radius: var(--r);
+  font-family: var(--font-ui); font-size: .86rem; line-height: 1.65;
+  display: none;
+}
+.q-fb.correct-fb { background: var(--teal-pale); color: var(--teal); border: 1px solid rgba(13,138,122,.3); }
+.q-fb.wrong-fb   { background: var(--rose-pale);  color: var(--rose);  border: 1px solid rgba(179,45,45,.3);   }
+.q-fb.show { display:block; animation: fadeUp .25s ease; }
+
+/* Score card */
+#score-card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--r2); padding: 36px; text-align: center;
+  box-shadow: var(--shadow2); display:none; animation: fadeUp .4s ease;
+}
+.score-big { font-size: 3.8rem; font-weight: 700; color: var(--teal); font-family: var(--font-ui); line-height:1; }
+.score-lbl { font-family: var(--font-ui); font-size: .88rem; color: var(--text3); margin: 8px 0 18px; }
+.score-badge { display:inline-block; padding: 8px 22px; border-radius: 30px; font-family: var(--font-ui); font-size: .88rem; font-weight:700; margin-bottom: 22px; }
+.score-row { display:flex; justify-content:center; gap:18px; flex-wrap:wrap; margin-bottom:22px; }
+.score-item .val { font-size:1.5rem; font-weight:700; font-family:var(--font-ui); display:block; }
+.score-item .lbl { font-size:.68rem; color:var(--text3); font-family:var(--font-ui); }
+
+/* ==========================================================================
+   SUMMARY / KEY POINTS
+   ========================================================================== */
+.kp-list { display:flex; flex-direction:column; gap:9px; margin:18px 0; }
+.kp {
+  display:flex; align-items:flex-start; gap:12px;
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--r); padding: 13px 17px;
+  box-shadow: var(--shadow); transition: border-color .2s;
+}
+.kp:hover { border-color: var(--teal); }
+.kp-n {
+  width: 26px; height: 26px; flex-shrink: 0;
+  background: linear-gradient(135deg, var(--teal), var(--sky));
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--font-ui); font-size: .7rem; font-weight: 700; color: #fff;
+  margin-top: 1px;
+}
+.kp-t { font-size: .9rem; color: var(--text); line-height: 1.7; }
+.kp-t strong { color: var(--navy); }
+
+/* Short-answer section */
+.sa-list { margin: 18px 0; }
+.sa-item {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--r); margin-bottom: 10px; overflow: hidden;
+  box-shadow: var(--shadow);
+}
+.sa-q {
+  display:flex; align-items:center; gap:12px;
+  padding: 12px 18px; cursor:pointer;
+  font-family: var(--font-ui); font-size: .88rem; font-weight:600;
+  color: var(--text); user-select:none; transition: background .2s;
+}
+.sa-q:hover { background: var(--sky-pale); }
+.sa-q-num {
+  background: var(--sky); color:#fff;
+  font-size:.7rem; font-weight:700; font-family:var(--font-ui);
+  padding: 3px 9px; border-radius: 20px; flex-shrink:0;
+  white-space: nowrap;
+}
+.sa-q-text { flex:1; }
+.sa-q-toggle { color: var(--text3); font-size:.8rem; flex-shrink:0; transition: transform .3s; }
+.sa-item.open .sa-q-toggle { transform: rotate(180deg); color: var(--sky); }
+.sa-item.open .sa-q { color: var(--sky); background: var(--sky-pale); }
+.sa-ans {
+  max-height:0; overflow:hidden;
+  transition: max-height .35s cubic-bezier(.4,0,.2,1);
+  padding: 0 18px;
+}
+.sa-item.open .sa-ans { max-height: 300px; padding: 4px 18px 16px; }
+.sa-ans p { font-size: .88rem; color: var(--text2); line-height: 1.78; }
+.sa-ans strong { color: var(--navy); }
+
+/* ==========================================================================
+   GLOSSARY
+   ========================================================================== */
+.gloss-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(255px,1fr)); gap: 13px; margin: 18px 0; }
+.gloss-card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--r); padding: 17px; box-shadow: var(--shadow);
+  transition: border-color .2s, transform .2s;
+}
+.gloss-card:hover { border-color: var(--teal); transform: translateY(-2px); }
+.g-term {
+  font-family: var(--font-ui); font-size: .9rem; font-weight: 700;
+  color: var(--teal); margin-bottom: 7px;
+  display: flex; align-items: center; gap: 7px;
+}
+.g-term::before { content:'▸'; color: var(--amber); font-size:.78rem; }
+.g-def { font-size: .85rem; color: var(--text2); line-height: 1.7; }
+.g-def strong { color: var(--navy); }
+
+/* ==========================================================================
+   ICONS (Pure CSS — Biotech DNA Icon)
+   ========================================================================== */
+/* Inline decorative icon using CSS */
+.dna-icon {
+  display: inline-flex; gap: 2px; align-items: center;
+  vertical-align: middle; margin-right: 4px;
+}
+.dna-icon span {
+  display: inline-block; width: 6px; height: 16px; border-radius: 3px;
+}
+.dna-icon span:nth-child(1) { background: var(--teal); }
+.dna-icon span:nth-child(2) { background: var(--sky); height: 11px; }
+.dna-icon span:nth-child(3) { background: var(--amber); height: 14px; }
+
+/* Scope diagram — visual branch */
+.scope-visual {
+  display: grid; grid-template-columns: 1fr auto 1fr;
+  gap: 0; align-items: center; margin: 24px 0;
+}
+.scope-left, .scope-right {
+  display: flex; flex-direction: column; gap: 12px;
+}
+.scope-right { align-items: flex-start; }
+.scope-center {
+  display: flex; flex-direction: column; align-items: center; padding: 0 16px;
+}
+.scope-hub {
+  background: var(--navy); color: #fff;
+  border-radius: 50%; width: 90px; height: 90px;
+  display: flex; align-items: center; justify-content: center;
+  text-align: center; font-family: var(--font-ui); font-size: .72rem; font-weight: 700;
+  box-shadow: 0 4px 16px rgba(15,39,68,.3); line-height: 1.3;
+}
+.scope-hub small { display:block; color:var(--teal-l); font-size:.62rem; margin-top:2px; }
+.scope-connector {
+  width: 2px; flex: 1; min-height: 20px;
+  background: repeating-linear-gradient(180deg, var(--border), var(--border) 5px, transparent 5px, transparent 10px);
+}
+.scope-pill {
+  background: var(--card); border: 1.5px solid var(--border);
+  border-radius: 30px; padding: 8px 16px;
+  font-family: var(--font-ui); font-size: .8rem; font-weight: 600;
+  color: var(--text2); display: flex; align-items: center; gap: 7px;
+  transition: all .2s; cursor: default; box-shadow: var(--shadow);
+}
+.scope-pill:hover { border-color: var(--teal); color: var(--teal); background: var(--teal-pale); }
+.scope-pill.left { justify-content: flex-end; }
+.sp-teal   { border-color: rgba(13,138,122,.3);  }
+.sp-sky    { border-color: rgba(26,123,191,.3);  }
+.sp-amber  { border-color: rgba(176,106,0,.3);   }
+.sp-lime   { border-color: rgba(58,125,30,.3);   }
+.sp-violet { border-color: rgba(90,62,158,.3);   }
+.sp-rose   { border-color: rgba(179,45,45,.3);   }
+
+/* ==========================================================================
+   APP FOOTER
+   ========================================================================== */
+.app-footer {
+  background: var(--navy); color: rgba(255,255,255,.9);
+  text-align: center; padding: 18px 20px 14px; margin-top: 40px;
+}
+.app-footer p { font-family: var(--font-ui); font-size: .78rem; font-weight: 600; margin-bottom: 4px; }
+.app-footer small { font-family: var(--font-ui); font-size: .66rem; color: rgba(255,255,255,.4); }
+
+/* ==========================================================================
+   RESPONSIVE
+   ========================================================================== */
+@media (max-width: 860px) {
+  #sidebar { transform: translateX(-100%); position: fixed; height: 100%; }
+  #sidebar.open { transform: translateX(0); }
+  #mob-hdr { display: flex; }
+  #overlay.show { display: block; }
+  .page { padding: 28px 20px 60px; }
+  .hero { padding: 36px 20px 40px; min-height: auto; }
+  .pg-title { font-size: 1.65rem; }
+  .scope-visual { display: none; } /* hide fancy diagram on mobile, cards handle it */
+}
+@media (max-width: 520px) {
+  .cards { grid-template-columns: 1fr; }
+  .reveal-grid { grid-template-columns: 1fr 1fr; }
+  .gloss-grid { grid-template-columns: 1fr; }
+  .pg-nav { flex-direction: column; }
+  .pg-nav .btn { width:100%; justify-content:center; }
+  .q-stats { gap: 8px; }
+  .q-stat { padding: 7px 10px; min-width: 50px; }
+}
+
+/* ---- extra components for the suite ---- */
+.flowh{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:center;margin:14px 0 6px}
+.fstep{background:var(--card);border:1.5px solid var(--teal);border-radius:var(--r);padding:10px 14px;min-width:118px;max-width:190px;text-align:center;font-family:var(--font-ui);font-size:.8rem;cursor:pointer;transition:all .2s;color:var(--text2);box-shadow:var(--shadow)}
+.fstep b{display:block;color:var(--navy);font-size:.82rem;margin-bottom:2px}
+.fstep:hover,.fstep.on{background:var(--teal);color:#fff;transform:translateY(-2px)}
+.fstep:hover b,.fstep.on b{color:#fff}
+.farr{color:var(--teal);font-size:1.1rem;font-family:var(--font-ui)}
+.fdetail{background:var(--teal-pale);border-left:4px solid var(--teal);border-radius:var(--r);padding:13px 18px;font-family:var(--font-ui);font-size:.88rem;color:var(--text2);line-height:1.7;min-height:48px;margin-bottom:18px}
+.fdetail strong{color:var(--navy)}
+.figure{background:var(--card);border:1px solid var(--border);border-radius:var(--r2);padding:18px;margin:18px 0;box-shadow:var(--shadow);text-align:center;overflow-x:auto}
+.figure svg{max-width:100%;height:auto}
+.figure figcaption,.figcap{font-family:var(--font-ui);font-size:.76rem;color:var(--text3);margin-top:8px;font-style:italic}
+.svg-box{fill:var(--card);stroke:var(--teal);stroke-width:1.6}
+.svg-box2{fill:var(--sky-pale);stroke:var(--sky);stroke-width:1.4}
+.svg-box3{fill:var(--amber-pale);stroke:var(--amber);stroke-width:1.4}
+.svg-box4{fill:var(--rose-pale);stroke:var(--rose);stroke-width:1.4}
+.svg-box5{fill:var(--lime-pale);stroke:var(--lime);stroke-width:1.4}
+.svg-box6{fill:var(--violet-pale);stroke:var(--violet);stroke-width:1.4}
+.svg-t{fill:var(--text);font-family:Helvetica,Arial,sans-serif;font-size:12px}
+.svg-tb{fill:var(--navy);font-family:Helvetica,Arial,sans-serif;font-size:12px;font-weight:700}
+.svg-ts{fill:var(--text3);font-family:Helvetica,Arial,sans-serif;font-size:10.5px}
+.svg-ln{stroke:var(--text3);stroke-width:1.2;fill:none}
+.svg-arrow{stroke:var(--teal);stroke-width:2;fill:none}
+.cols2{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:16px 0}
+@media(max-width:700px){.cols2{grid-template-columns:1fr}}
+.tl{position:relative;margin:18px 0 18px 14px;padding-left:22px;border-left:3px solid var(--teal)}
+.tl-i{position:relative;margin-bottom:14px;font-family:var(--font-ui);font-size:.88rem;color:var(--text2);line-height:1.6}
+.tl-i::before{content:'';position:absolute;left:-30px;top:5px;width:12px;height:12px;border-radius:50%;background:var(--teal);border:2px solid var(--bg)}
+.tl-i b{color:var(--navy)}
+.stat-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:16px 0}
+.stat{background:var(--card);border:1px solid var(--border);border-radius:var(--r);padding:14px;text-align:center;box-shadow:var(--shadow)}
+.stat .n{font-family:var(--font-head);font-size:1.5rem;color:var(--teal);font-weight:700;line-height:1.2}
+.stat .l{font-family:var(--font-ui);font-size:.72rem;color:var(--text3);text-transform:uppercase;letter-spacing:.06em}
+.calc{background:var(--card);border:1.5px solid var(--teal);border-radius:var(--r2);padding:20px;margin:18px 0;box-shadow:var(--shadow2);font-family:var(--font-ui)}
+.calc h4{color:var(--navy);margin-bottom:10px}
+.calc label{font-size:.76rem;font-weight:700;color:var(--text2);display:block;margin-bottom:3px}
+.calc input,.calc select{width:100%;padding:8px 10px;border:1.5px solid var(--border2);border-radius:8px;font-family:var(--font-mono);font-size:.9rem;background:var(--bg);color:var(--text);text-transform:uppercase}
+.calc .row{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin-bottom:10px}
+.calc-out{margin-top:14px;overflow-x:auto}
+.calc-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin-bottom:12px}
+.calc select{text-transform:none}
+.aln-res{font-family:var(--font-mono);background:var(--bg);border:1px solid var(--border2);border-radius:8px;padding:10px 14px;margin:10px 0;overflow-x:auto}
+.aln-line{white-space:pre;letter-spacing:.25em;font-size:1rem;color:var(--navy)}.aln-mid{color:var(--teal)}
+table.dpm{border-collapse:collapse;font-family:var(--font-mono);font-size:.82rem;margin:8px 0}
+table.dpm th,table.dpm td{border:1px solid var(--border2);padding:5px 9px;text-align:center;min-width:34px}
+table.dpm th{background:var(--navy);color:#fff}table.dpm td.on{background:var(--teal);color:#fff;font-weight:700}
+.dp{border-collapse:collapse;font-family:var(--font-mono);font-size:.78rem;margin:8px 0}
+.dp td,.dp th{border:1px solid var(--border);padding:4px 7px;text-align:center;min-width:32px;color:var(--text)}
+.dp th{background:var(--navy);color:#fff}
+.dp td.tb{background:var(--teal);color:#fff;font-weight:700}
+.aln{font-family:var(--font-mono);font-size:1rem;letter-spacing:.12em;background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:12px;white-space:pre;overflow-x:auto;color:var(--navy)}
+.sub{vertical-align:sub;font-size:.75em}
+</style></head><body><div id="app"><nav id="sidebar"><div class="sb-brand"><div class="sb-brand-row"><div class="sb-icon">&#129452;</div><div class="sb-brand-text"><h2>Transgenic Animal Technology</h2><p>Animal Biotechnology &middot; Unit III</p></div></div></div><div class="sb-prog"><div class="sb-prog-row"><span>Progress</span><span id="prog-pct">0%</span></div><div class="prog-bar"><div class="prog-fill" id="prog-fill"></div></div></div><div class="nav-list"><div class="nav-item active" data-pg="0" onclick="goPg(0)"><span class="nav-num">&#127968;</span>Transgenic Animal Technology</div><div class="nav-group">Chapters</div><div class="nav-item" data-pg="1" onclick="goPg(1)"><span class="nav-num">1</span>Concept &amp; Transgenes</div><div class="nav-item" data-pg="2" onclick="goPg(2)"><span class="nav-num">2</span>Methods of Gene Transfer</div><div class="nav-item" data-pg="3" onclick="goPg(3)"><span class="nav-num">3</span>Knock-out Mice</div><div class="nav-item" data-pg="4" onclick="goPg(4)"><span class="nav-num">4</span>Dolly the Sheep</div><div class="nav-item" data-pg="5" onclick="goPg(5)"><span class="nav-num">5</span>Animals as Bioreactors</div><div class="nav-group" style="margin-top:8px">Practice</div><div class="nav-item" data-pg="6" onclick="goPg(6)"><span class="nav-num">6</span>Quiz (10 MCQs)</div><div class="nav-item" data-pg="7" onclick="goPg(7)"><span class="nav-num">7</span>Summary &amp; Revision</div><div class="nav-item" data-pg="8" onclick="goPg(8)"><span class="nav-num">8</span>Glossary</div></div><div class="sb-foot">Department of Zoology, GASC, Nagercoil<br>Created by R. Ramesh</div></nav><div id="main"><div id="mob-hdr"><button id="hamburger" onclick="toggleSB()" aria-label="Menu">&#9776;</button><span id="mob-ttl">Transgenic Animal Technology</span></div><div id="overlay" onclick="closeSB()"></div><div class="page active" id="page-0"><div class="hero"><div class="hero-grid" aria-hidden="true"></div><div class="hero-chip">&#129452; Unit III &middot; Transgenic Animal Technology</div><h1>Transgenic Animal Technology</h1><p class="hero-sub">Transgenesis, Knock-out Mice, Dolly and Animal Bioreactors</p><p class="hero-intro">Adding, removing or editing a gene in an animal is one of the most powerful ways to learn what genes do and to make useful products. This module covers the concept of transgenesis, how transgenic and knock-out animals are made, the cloning of Dolly, and the use of animals as bioreactors.</p><div class="hero-meta"><span>&#128218; 5 chapters</span><span>&#127919; 10 MCQs</span><span>&#128221; Exam questions</span><span>&#127891; B.Sc. Zoology / Biotechnology</span></div><div class="obj-card"><h3>&#127919; Learning Objectives</h3><ul class="obj-list"><li><span class="obj-dot">&#10003;</span>Define transgenesis, transgene and transgenic animal.</li><li><span class="obj-dot">&#10003;</span>Describe pronuclear microinjection and ES cell-based methods.</li><li><span class="obj-dot">&#10003;</span>Explain how knock-out mice are produced, including positive-negative selection.</li><li><span class="obj-dot">&#10003;</span>Describe cloning of Dolly by somatic cell nuclear transfer.</li><li><span class="obj-dot">&#10003;</span>Give examples of animals as bioreactors and discuss ethical issues.</li></ul></div><button class="start-btn" onclick="goPg(1)">Begin Learning &rarr;</button></div><footer class="app-footer"><p>Department of Zoology, GASC, Nagercoil</p><small>Created by R. Ramesh</small></footer></div><div class="page" id="page-1"><div class="sec-tag">&#128215; Chapter 1</div><h1 class="pg-title">Transgenesis: Concept and Transgenes</h1><p class="pg-lead">A transgenic animal carries a foreign gene in every cell and passes it to its offspring.</p><div class="def-box"><div class="def-label">Transgenic animal</div><div class="def-text">An animal whose genome has been altered by the stable introduction of a foreign gene (<strong>transgene</strong>) into its germ line, so that the gene is inherited by the next generation.</div></div><div class="sh">Key terms</div><div class="tbl-wrap"><table><thead><tr><th>Term</th><th>Meaning</th></tr></thead><tbody><tr><td><strong>Transgene</strong></td><td>The foreign gene (or modified gene) introduced into the animal</td></tr><tr><td><strong>Transgenesis</strong></td><td>The process of producing a transgenic organism</td></tr><tr><td><strong>Founder animal</strong></td><td>The first transgenic animal carrying the transgene in its germ line</td></tr><tr><td><strong>Germline transmission</strong></td><td>Passing of the transgene through gametes to offspring</td></tr><tr><td><strong>Knock-out</strong></td><td>A gene made non-functional (loss of function)</td></tr><tr><td><strong>Knock-in</strong></td><td>A gene replaced or inserted at a defined locus (gain/alteration of function)</td></tr></tbody></table></div><div class="sh">Structure of a transgene construct</div><div class="figure"><svg viewBox="0 0 600 120" width="600" role="img" aria-label="Structure of a transgene construct">
+<line x1="20" y1="60" x2="580" y2="60" class="svg-ln" style="stroke-width:3"/>
+<rect x="40" y="38" width="130" height="44" rx="6" class="svg-box3"/><text x="105" y="58" text-anchor="middle" class="svg-tb">Promoter</text><text x="105" y="73" text-anchor="middle" class="svg-ts">tissue-specific</text>
+<rect x="185" y="38" width="190" height="44" rx="6" class="svg-box"/><text x="280" y="58" text-anchor="middle" class="svg-tb">Gene of interest (cDNA)</text><text x="280" y="73" text-anchor="middle" class="svg-ts">e.g. human protein</text>
+<rect x="390" y="38" width="90" height="44" rx="6" class="svg-box2"/><text x="435" y="58" text-anchor="middle" class="svg-tb">Poly-A</text><text x="435" y="73" text-anchor="middle" class="svg-ts">signal / stop</text>
+<rect x="495" y="38" width="70" height="44" rx="6" class="svg-box5"/><text x="530" y="63" text-anchor="middle" class="svg-tb">Marker</text>
+<text x="300" y="108" text-anchor="middle" class="svg-ts">Promoter decides WHERE and WHEN the transgene is expressed</text>
+</svg><div class="figcap">Fig. 1. A typical transgene: promoter + coding sequence + polyadenylation signal (+ selectable marker).</div></div><div class="sh">Why make transgenic animals?</div><div class="cards"><div class="card"><div class="card-icon ci-rose">&#128138;</div><h3>Medicine</h3><p>Produce human therapeutic proteins in milk or blood.</p></div><div class="card"><div class="card-icon ci-sky">&#129516;</div><h3>Research</h3><p>Study gene function and model human diseases (e.g. cancer, cystic fibrosis).</p></div><div class="card"><div class="card-icon ci-lime">&#127806;</div><h3>Agriculture</h3><p>Faster growth, disease resistance, improved milk or wool.</p></div><div class="card"><div class="card-icon ci-violet">&#128170;</div><h3>Testing</h3><p>Test vaccine and drug safety in animals with human-like responses.</p></div></div><div class="hbox hbox-amber"><h4>Landmark: the "super mouse" (1982)</h4><p>Palmiter and Brinster injected the <strong>rat growth hormone gene</strong> fused to the mouse <em>metallothionein</em> promoter into mouse eggs. Transgenic mice grew almost <strong>twice the size</strong> of normal littermates.</p></div><div class="pg-nav"><button class="btn btn-outline" onclick="goPg(0)">&larr; Transgenic Animal Technology</button><button class="btn btn-primary" onclick="goPg(2)">Methods of Gene Transfer &rarr;</button></div><footer class="app-footer"><p>Department of Zoology, GASC, Nagercoil</p><small>Created by R. Ramesh</small></footer></div><div class="page" id="page-2"><div class="sec-tag">&#128216; Chapter 2</div><h1 class="pg-title">Methods of Producing Transgenic Animals</h1><p class="pg-lead">Three main routes are used: microinjection into eggs, manipulation of embryonic stem cells and viral vectors.</p><div class="sh">1. Pronuclear microinjection (most common for mice)</div><div class="flowh" id="fl5"><div class="fstep" onclick="showFlow('fl5',0)"><b>1. Construct</b>linear DNA</div><span class="farr">&#10132;</span><div class="fstep" onclick="showFlow('fl5',1)"><b>2. Superovulation</b>donor females</div><span class="farr">&#10132;</span><div class="fstep" onclick="showFlow('fl5',2)"><b>3. Inject</b>male pronucleus</div><span class="farr">&#10132;</span><div class="fstep" onclick="showFlow('fl5',3)"><b>4. Implant</b>pseudopregnant</div><span class="farr">&#10132;</span><div class="fstep" onclick="showFlow('fl5',4)"><b>5. Screen</b>tail DNA</div><span class="farr">&#10132;</span><div class="fstep" onclick="showFlow('fl5',5)"><b>6. Breed</b>germ line</div></div><div class="fdetail" id="fl5-d" data-d='[&quot;The purified, linearised transgene construct is prepared at a few ng/&amp;micro;L.&quot;, &quot;Donor females are hormonally induced to release many eggs, then mated; &lt;strong&gt;fertilised eggs&lt;/strong&gt; are collected.&quot;, &quot;Using a fine glass needle, DNA is injected into the &lt;strong&gt;male pronucleus&lt;/strong&gt; (larger) of the zygote under a microscope.&quot;, &quot;Embryos are transferred into &lt;strong&gt;pseudopregnant foster mothers&lt;/strong&gt; (mated with vasectomised males).&quot;, &quot;Pups are screened by &lt;strong&gt;PCR / Southern blotting&lt;/strong&gt; of tail DNA to find founders.&quot;, &quot;Founders are bred to establish a transgenic line; integration is random and efficiency is low (about 1&amp;ndash;5% of injected eggs).&quot;]'>Click a step to see what happens.</div><div class="sh">2. Embryonic stem (ES) cell-mediated transfer</div><ul><li>ES cells are pluripotent cells from the inner cell mass of a blastocyst (Evans &amp; Kaufman, 1981).</li><li>DNA is introduced into cultured ES cells; <strong>correct clones are selected</strong> in vitro.</li><li>Selected ES cells are injected into a host blastocyst to give a <strong>chimeric</strong> animal.</li><li>Allows <strong>targeted</strong> changes by homologous recombination &mdash; the basis for knock-outs.</li></ul><div class="sh">3. Retroviral and other methods</div><div class="tbl-wrap"><table><thead><tr><th>Method</th><th>Principle</th><th>Limitation</th></tr></thead><tbody><tr><td><strong>Retroviral vector</strong></td><td>Recombinant (replication-defective) retrovirus infects embryo</td><td>Small insert size; gene silencing</td></tr><tr><td><strong>Sperm-mediated transfer</strong></td><td>Sperm incubated with DNA then used for fertilisation</td><td>Low reproducibility</td></tr><tr><td><strong>Somatic cell nuclear transfer (SCNT)</strong></td><td>Nucleus of a genetically modified cell is transferred to an enucleated egg</td><td>Technically demanding, low efficiency</td></tr><tr><td><strong>CRISPR-Cas9 microinjection</strong></td><td>Cas9 + guide RNA injected into zygotes for precise edits</td><td>Mosaicism, off-target effects</td></tr></tbody></table></div><div class="pg-nav"><button class="btn btn-outline" onclick="goPg(1)">&larr; Concept &amp; Transgenes</button><button class="btn btn-primary" onclick="goPg(3)">Knock-out Mice &rarr;</button></div><footer class="app-footer"><p>Department of Zoology, GASC, Nagercoil</p><small>Created by R. Ramesh</small></footer></div><div class="page" id="page-3"><div class="sec-tag">&#128217; Chapter 3</div><h1 class="pg-title">Transgenic Animal Models: Knock-out Mice</h1><p class="pg-lead">Knock-out mice have a chosen gene switched off, revealing what the gene normally does.</p><div class="def-box"><div class="def-label">Gene knock-out</div><div class="def-text">The deliberate inactivation of a specific gene by <strong>gene targeting</strong>: homologous recombination replaces or disrupts the gene in embryonic stem cells, from which a mutant mouse is derived.</div><div class="def-src">Capecchi, Evans and Smithies received the Nobel Prize in Physiology or Medicine in 2007 for this work</div></div><div class="figure"><svg viewBox="0 0 620 330" width="620" role="img" aria-label="Knockout mouse production scheme">
+<rect x="10" y="10" width="170" height="52" rx="8" class="svg-box2"/><text x="95" y="32" text-anchor="middle" class="svg-tb">Targeting vector</text><text x="95" y="48" text-anchor="middle" class="svg-ts">neo<tspan class="sub">R</tspan> inside gene; tk outside</text>
+<rect x="225" y="10" width="170" height="52" rx="8" class="svg-box"/><text x="310" y="32" text-anchor="middle" class="svg-tb">ES cells (129 strain)</text><text x="310" y="48" text-anchor="middle" class="svg-ts">homologous recombination</text>
+<rect x="440" y="10" width="170" height="52" rx="8" class="svg-box5"/><text x="525" y="32" text-anchor="middle" class="svg-tb">Select: G418 + ganciclovir</text><text x="525" y="48" text-anchor="middle" class="svg-ts">positive-negative selection</text>
+<path d="M180 36 L225 36 M395 36 L440 36" class="svg-arrow"/>
+<path d="M525 62 L525 100" class="svg-arrow"/>
+<rect x="400" y="100" width="210" height="48" rx="8" class="svg-box3"/><text x="505" y="120" text-anchor="middle" class="svg-tb">Inject into C57BL/6 blastocyst</text><text x="505" y="136" text-anchor="middle" class="svg-ts">implant in foster mother</text>
+<path d="M505 148 L505 180" class="svg-arrow"/>
+<rect x="400" y="180" width="210" height="48" rx="8" class="svg-box4"/><text x="505" y="200" text-anchor="middle" class="svg-tb">Chimeric mouse (mixed coat)</text><text x="505" y="216" text-anchor="middle" class="svg-ts">agouti + black patches</text>
+<path d="M400 204 L300 204" class="svg-arrow"/>
+<rect x="110" y="180" width="190" height="48" rx="8" class="svg-box"/><text x="205" y="200" text-anchor="middle" class="svg-tb">Mate with wild type</text><text x="205" y="216" text-anchor="middle" class="svg-ts">germline transmission</text>
+<path d="M205 228 L205 262" class="svg-arrow"/>
+<rect x="20" y="262" width="150" height="50" rx="8" class="svg-box6"/><text x="95" y="283" text-anchor="middle" class="svg-tb">Heterozygote +/&minus;</text><text x="95" y="299" text-anchor="middle" class="svg-ts">F1 (agouti)</text>
+<path d="M170 287 L230 287" class="svg-arrow"/><text x="200" y="278" text-anchor="middle" class="svg-ts">inter-cross</text>
+<rect x="230" y="262" width="170" height="50" rx="8" class="svg-box4"/><text x="315" y="283" text-anchor="middle" class="svg-tb">Homozygous knock-out</text><text x="315" y="299" text-anchor="middle" class="svg-ts">&minus;/&minus; (25% of F2)</text>
+</svg><div class="figcap">Fig. 2. Production of a knock-out mouse by gene targeting in ES cells.</div></div><div class="sh">Positive-negative selection</div><div class="tbl-wrap"><table><thead><tr><th>Marker</th><th>Position in vector</th><th>Drug</th><th>Outcome</th></tr></thead><tbody><tr><td><strong><em>neo</em><sup>R</sup></strong></td><td>Inside the homologous region (disrupts the target gene)</td><td>G418 (neomycin analogue)</td><td>Only cells that took up the vector survive (positive selection)</td></tr><tr><td><strong><em>tk</em> (HSV thymidine kinase)</strong></td><td>Outside the homology arms</td><td>Ganciclovir</td><td>Cells with <strong>random</strong> integration keep <em>tk</em> and die (negative selection)</td></tr><tr><td><strong>Result</strong></td><td></td><td></td><td>Survivors are enriched for <strong>correct homologous recombination</strong></td></tr></tbody></table></div><div class="accordion"><div class="acc-item"><div class="acc-hdr" onclick="toggleAcc(this)"><div class="acc-hdr-icon">&#127912;</div><span>Why use coat colour?</span><span class="acc-arrow">&#9660;</span></div><div class="acc-body">ES cells from the <strong>129</strong> strain carry the <em>agouti</em> coat colour allele; host blastocysts from <strong>C57BL/6</strong> are black. Agouti patches in a chimera show that ES-derived cells contribute, and agouti offspring after mating show <strong>germline transmission</strong>.</div></div><div class="acc-item"><div class="acc-hdr" onclick="toggleAcc(this)"><div class="acc-hdr-icon">&#9986;</div><span>Conditional knock-outs (Cre-lox)</span><span class="acc-arrow">&#9660;</span></div><div class="acc-body">If a gene is essential for development, complete knock-out is lethal. The <strong>Cre recombinase / loxP</strong> system deletes the gene only in chosen tissues or at a chosen time.</div></div><div class="acc-item"><div class="acc-hdr" onclick="toggleAcc(this)"><div class="acc-hdr-icon">&#128170;</div><span>Knock-out vs knock-in</span><span class="acc-arrow">&#9660;</span></div><div class="acc-body">Knock-out: gene function removed. Knock-in: a gene or mutation is inserted at a specific locus (e.g. a human disease allele).</div></div><div class="acc-item"><div class="acc-hdr" onclick="toggleAcc(this)"><div class="acc-hdr-icon">&#128302;</div><span>Examples</span><span class="acc-arrow">&#9660;</span></div><div class="acc-body"><ul><li><strong>CFTR</strong> knock-out mouse: model for cystic fibrosis.</li><li><strong>p53</strong> knock-out mouse: develops tumours early &mdash; model for cancer.</li><li><strong>Oncomouse</strong> (Harvard, 1988): first patented animal; carries an activated oncogene.</li></ul></div></div></div><div class="pg-nav"><button class="btn btn-outline" onclick="goPg(2)">&larr; Methods of Gene Transfer</button><button class="btn btn-primary" onclick="goPg(4)">Dolly the Sheep &rarr;</button></div><footer class="app-footer"><p>Department of Zoology, GASC, Nagercoil</p><small>Created by R. Ramesh</small></footer></div><div class="page" id="page-4"><div class="sec-tag">&#128210; Chapter 4</div><h1 class="pg-title">Dolly the Sheep: Cloning by SCNT</h1><p class="pg-lead">Dolly was the first mammal cloned from an adult somatic cell, proving that differentiated cells can be reprogrammed.</p><div class="stat-row"><div class="stat"><div class="n">1996</div><div class="l">Dolly born, Roslin Institute</div></div><div class="stat"><div class="n">277</div><div class="l">reconstructed eggs fused</div></div><div class="stat"><div class="n">1</div><div class="l">live lamb</div></div><div class="stat"><div class="n">6 yrs</div><div class="l">lifespan (died 2003)</div></div></div><div class="prose"><p><strong>Dolly</strong> was produced by <strong>Ian Wilmut</strong>, <strong>Keith Campbell</strong> and colleagues at the Roslin Institute, Edinburgh. The result was published in <em>Nature</em> in 1997. She was named after Dolly Parton, because the donor cell came from a <em>mammary gland</em>.</p></div><div class="figure"><svg viewBox="0 0 640 360" width="640" role="img" aria-label="Cloning of Dolly by somatic cell nuclear transfer">
+<rect x="20" y="10" width="190" height="56" rx="8" class="svg-box3"/><text x="115" y="32" text-anchor="middle" class="svg-tb">Donor: Finn Dorset ewe</text><text x="115" y="48" text-anchor="middle" class="svg-ts">mammary gland cell (6-year-old)</text>
+<rect x="430" y="10" width="190" height="56" rx="8" class="svg-box2"/><text x="525" y="32" text-anchor="middle" class="svg-tb">Scottish Blackface ewe</text><text x="525" y="48" text-anchor="middle" class="svg-ts">unfertilised egg (oocyte)</text>
+<rect x="20" y="95" width="190" height="52" rx="8" class="svg-box3"/><text x="115" y="116" text-anchor="middle" class="svg-tb">Serum starvation (G0)</text><text x="115" y="132" text-anchor="middle" class="svg-ts">quiescent donor cell</text>
+<rect x="430" y="95" width="190" height="52" rx="8" class="svg-box2"/><text x="525" y="116" text-anchor="middle" class="svg-tb">Enucleation</text><text x="525" y="132" text-anchor="middle" class="svg-ts">own nucleus removed</text>
+<path d="M115 66 L115 95 M525 66 L525 95" class="svg-arrow"/>
+<path d="M115 147 L115 175 L270 195 M525 147 L525 175 L370 195" class="svg-arrow"/>
+<rect x="220" y="185" width="200" height="56" rx="8" class="svg-box"/><text x="320" y="207" text-anchor="middle" class="svg-tb">Cell fusion by electric pulse</text><text x="320" y="223" text-anchor="middle" class="svg-ts">donor nucleus in enucleated egg</text>
+<path d="M320 241 L320 262" class="svg-arrow"/>
+<rect x="220" y="262" width="200" height="40" rx="8" class="svg-box5"/><text x="320" y="287" text-anchor="middle" class="svg-tb">Embryo cultured to blastocyst</text>
+<path d="M420 282 L470 282" class="svg-arrow"/>
+<rect x="470" y="262" width="150" height="40" rx="8" class="svg-box6"/><text x="545" y="279" text-anchor="middle" class="svg-tb">Surrogate ewe</text><text x="545" y="293" text-anchor="middle" class="svg-ts">(Blackface)</text>
+<path d="M545 302 L545 322" class="svg-arrow"/>
+<rect x="400" y="322" width="220" height="34" rx="8" class="svg-box4"/><text x="510" y="344" text-anchor="middle" class="svg-tb">Dolly born 5 July 1996 (white face)</text>
+</svg><div class="figcap">Fig. 3. Somatic cell nuclear transfer (SCNT) used to clone Dolly. The lamb was white-faced like the Finn Dorset donor, proving the nucleus came from the donor.</div></div><div class="hbox hbox-teal"><h4>What Dolly proved</h4><ul><li>The nucleus of a <strong>differentiated adult cell</strong> still contains the complete genome.</li><li>The egg cytoplasm can <strong>reprogram</strong> it to totipotency.</li><li>Led to induced pluripotent stem cells (iPSCs, 2006).</li></ul></div><div class="hbox hbox-amber"><h4>Facts that examiners ask</h4><ul><li>Of 277 reconstructed embryos, 29 developed to blastocysts, 13 ewes were implanted and only <strong>one</strong> lamb (Dolly) was born.</li><li>Dolly gave birth to six lambs by natural mating.</li><li>She was euthanised in <strong>February 2003</strong> because of progressive lung disease; she also had arthritis. Her telomeres were somewhat shorter, debated as a sign of premature ageing.</li></ul></div><div class="hbox hbox-rose"><h4>Concerns about cloning</h4><ul><li>Very low success rate and abnormal pregnancies/large offspring.</li><li>Animal welfare concerns.</li><li>Ethical objections to human reproductive cloning, which is prohibited in many countries (including guidelines in India).</li></ul></div><div class="pg-nav"><button class="btn btn-outline" onclick="goPg(3)">&larr; Knock-out Mice</button><button class="btn btn-primary" onclick="goPg(5)">Animals as Bioreactors &rarr;</button></div><footer class="app-footer"><p>Department of Zoology, GASC, Nagercoil</p><small>Created by R. Ramesh</small></footer></div><div class="page" id="page-5"><div class="sec-tag">&#127806; Chapter 5</div><h1 class="pg-title">Applications: Animals as Bioreactors</h1><p class="pg-lead">Transgenic animals can act as living factories (pharming) that secrete valuable human proteins in milk, blood or eggs.</p><div class="prose"><p><strong>Pharming</strong> (pharmaceutical farming) places a human gene under a <em>mammary-specific promoter</em>, such as &beta;-lactoglobulin, &beta;-casein or whey acidic protein. The protein is made only in the mammary gland and secreted into milk, from which it is purified.</p></div><div class="flowh" id="fl6"><div class="fstep" onclick="showFlow('fl6',0)"><b>1. Human gene</b>cDNA</div><span class="farr">&#10132;</span><div class="fstep" onclick="showFlow('fl6',1)"><b>2. Fuse promoter</b>mammary-specific</div><span class="farr">&#10132;</span><div class="fstep" onclick="showFlow('fl6',2)"><b>3. Transfer</b>microinjection / SCNT</div><span class="farr">&#10132;</span><div class="fstep" onclick="showFlow('fl6',3)"><b>4. Transgenic female</b>founder</div><span class="farr">&#10132;</span><div class="fstep" onclick="showFlow('fl6',4)"><b>5. Milk</b>protein secreted</div><span class="farr">&#10132;</span><div class="fstep" onclick="showFlow('fl6',5)"><b>6. Purify</b>downstream processing</div></div><div class="fdetail" id="fl6-d" data-d='[&quot;The gene for the therapeutic protein is isolated or synthesised.&quot;, &quot;The gene is joined to a milk-protein promoter and a signal peptide for secretion.&quot;, &quot;The construct is introduced into the egg (or into cells used for nuclear transfer).&quot;, &quot;The female founder is bred and starts lactation.&quot;, &quot;Recombinant protein appears in milk, often at grams per litre.&quot;, &quot;Protein is purified and tested to pharmaceutical standards.&quot;]'>Click a step to see what happens.</div><div class="tbl-wrap"><table><thead><tr><th>Animal</th><th>Product</th><th>Use</th></tr></thead><tbody><tr><td><strong>Goat</strong></td><td>Recombinant human <strong>antithrombin</strong> (ATryn)</td><td>Prevents blood clots; approved in the EU (2006) and USA (2009)</td></tr><tr><td><strong>Sheep</strong></td><td>Human <strong>&alpha;-1-antitrypsin</strong> (the sheep "Tracy")</td><td>Emphysema / cystic fibrosis lung disease</td></tr><tr><td><strong>Cow</strong></td><td>Human <strong>lactoferrin</strong> ("Herman" the bull and daughters)</td><td>Antimicrobial, infant formula</td></tr><tr><td><strong>Rabbit</strong></td><td>Recombinant <strong>C1 esterase inhibitor</strong> (Ruconest)</td><td>Hereditary angioedema</td></tr><tr><td><strong>Chicken</strong></td><td>Proteins in egg white</td><td>Under development</td></tr><tr><td><strong>Pig</strong></td><td>Organs with human-compatible genes (xenotransplantation)</td><td>GalSafe pig approved for food and medical use by the US FDA in 2020</td></tr></tbody></table></div><div class="hbox hbox-sky"><h4>Other applications of transgenic animals</h4><ul><li><strong>Disease models</strong>: cancer, Alzheimer's, diabetes.</li><li><strong>Vaccine and drug safety testing</strong>.</li><li><strong>Agriculture</strong>: AquAdvantage salmon (faster growth, approved by FDA in 2015).</li><li><strong>Biological research tools</strong>: GFP-expressing animals to track cells.</li></ul></div><div class="hbox hbox-rose"><h4>Ethical and safety issues</h4><ul><li>Animal welfare and the 3Rs (Replace, Reduce, Refine).</li><li>Possible gene flow to wild populations.</li><li>Patenting of animals; public acceptance.</li></ul></div><div class="pg-nav"><button class="btn btn-outline" onclick="goPg(4)">&larr; Dolly the Sheep</button><button class="btn btn-primary" onclick="goPg(6)">Quiz (10 MCQs) &rarr;</button></div><footer class="app-footer"><p>Department of Zoology, GASC, Nagercoil</p><small>Created by R. Ramesh</small></footer></div><div class="page" id="page-6"><div class="sec-tag">&#127919; Quiz</div><h1 class="pg-title">Self-Assessment Quiz</h1><p class="pg-lead">Ten MCQs. Click an option for instant feedback and an explanation.</p><div class="quiz-shell"><div class="quiz-hdr"><h3>&#128221; Transgenic Animal Technology &mdash; MCQ</h3><div class="q-stats"><div class="q-stat"><span class="val" id="qs-score">0</span><span class="lbl">Score</span></div><div class="q-stat"><span class="val" id="qs-done">0</span><span class="lbl">Done</span></div><div class="q-stat"><span class="val">10</span><span class="lbl">Total</span></div></div></div><div class="q-prog-bar"><div class="q-prog-fill" id="q-prog-fill"></div></div><div id="q-container"></div><div id="score-card"><div class="score-big" id="sc-num">0/10</div><div class="score-lbl">Questions correct</div><div class="score-badge" id="sc-badge">&mdash;</div><div class="score-row"><div class="score-item"><span class="val" style="color:var(--teal)" id="sc-right">0</span><span class="lbl">Correct</span></div><div class="score-item"><span class="val" style="color:var(--rose)" id="sc-wrong">0</span><span class="lbl">Wrong</span></div><div class="score-item"><span class="val" style="color:var(--amber)" id="sc-pct">0%</span><span class="lbl">Score</span></div></div><div style="font-family:var(--font-ui);font-size:.87rem;color:var(--text3);margin-bottom:20px" id="sc-msg"></div><button class="btn btn-primary" onclick="resetQuiz()">&#128260; Retake quiz</button></div></div><div class="pg-nav"><button class="btn btn-outline" onclick="goPg(5)">&larr; Animals as Bioreactors</button><button class="btn btn-primary" onclick="goPg(7)">Summary &amp; Revision &rarr;</button></div><footer class="app-footer"><p>Department of Zoology, GASC, Nagercoil</p><small>Created by R. Ramesh</small></footer></div><div class="page" id="page-7"><div class="sec-tag">&#128203; Summary</div><h1 class="pg-title">Summary &amp; Exam Revision</h1><p class="pg-lead">Key points and model answers likely to appear in university examinations.</p><div class="sh">Key exam points</div><div class="kp-list"><div class="kp"><div class="kp-n">1</div><div class="kp-t"><strong>Transgene</strong> = foreign gene; <strong>transgenic animal</strong> carries it in the germ line.</div></div><div class="kp"><div class="kp-n">2</div><div class="kp-t">Methods: <strong>pronuclear microinjection</strong>, <strong>ES cell-mediated</strong> transfer, retroviral vectors, SCNT, CRISPR.</div></div><div class="kp"><div class="kp-n">3</div><div class="kp-t"><strong>Super mouse</strong> (Palmiter and Brinster, 1982): rat GH gene with metallothionein promoter.</div></div><div class="kp"><div class="kp-n">4</div><div class="kp-t"><strong>Knock-out</strong>: gene targeting by homologous recombination in ES cells; <em>neo</em> (positive) and <em>tk</em> (negative) selection.</div></div><div class="kp"><div class="kp-n">5</div><div class="kp-t">Coat-colour markers (129 agouti ES cells; C57BL/6 black host) reveal chimerism and germline transmission.</div></div><div class="kp"><div class="kp-n">6</div><div class="kp-t"><strong>Dolly</strong> (1996): SCNT from mammary cell; Ian Wilmut and Keith Campbell; 1 of 277 embryos; died 2003.</div></div><div class="kp"><div class="kp-n">7</div><div class="kp-t"><strong>Bioreactors</strong>: mammary-specific promoters; ATryn (goat), alpha-1-antitrypsin (sheep), lactoferrin (cow).</div></div><div class="kp"><div class="kp-n">8</div><div class="kp-t">2007 Nobel Prize: Capecchi, Evans, Smithies (gene targeting).</div></div></div><div class="sh">Short-answer questions</div><p style="font-family:var(--font-ui);font-size:.82rem;color:var(--text3);margin-bottom:14px">Click a question to reveal the model answer.</p><div class="sa-list"><div class="sa-item"><div class="sa-q" onclick="toggleSA(this)"><span class="sa-q-num">Q.1</span><span class="sa-q-text">Define transgenic animal. Give two examples.</span><span class="sa-q-toggle">&#9660;</span></div><div class="sa-ans"><p>A transgenic animal carries a foreign gene (transgene) stably integrated in its genome and transmitted to offspring. Examples: super mouse with rat growth hormone gene; goat producing human antithrombin in milk.</p></div></div><div class="sa-item"><div class="sa-q" onclick="toggleSA(this)"><span class="sa-q-num">Q.2</span><span class="sa-q-text">Describe pronuclear microinjection.</span><span class="sa-q-toggle">&#9660;</span></div><div class="sa-ans"><p>Fertilised eggs are collected from superovulated females; linearised transgene DNA is injected into the male pronucleus; embryos are transferred into pseudopregnant foster mothers; pups are screened by PCR or Southern blotting of tail DNA; founders are bred to establish a line.</p></div></div><div class="sa-item"><div class="sa-q" onclick="toggleSA(this)"><span class="sa-q-num">Q.3</span><span class="sa-q-text">How is a knock-out mouse produced?</span><span class="sa-q-toggle">&#9660;</span></div><div class="sa-ans"><p>A targeting vector containing neo<sup>R</sup> (inside the homology region) and tk (outside) is introduced into ES cells; positive-negative selection (G418 + ganciclovir) enriches homologous recombinants; selected ES cells are injected into blastocysts to give chimeras; germline transmission yields heterozygotes, which are inter-crossed to obtain homozygous knock-outs.</p></div></div><div class="sa-item"><div class="sa-q" onclick="toggleSA(this)"><span class="sa-q-num">Q.4</span><span class="sa-q-text">Explain how Dolly was created.</span><span class="sa-q-toggle">&#9660;</span></div><div class="sa-ans"><p>A nucleus from a mammary gland cell of a Finn Dorset ewe was fused by electric pulse with an enucleated egg of a Scottish Blackface ewe; the embryo was cultured and implanted into a surrogate ewe. Dolly was born on 5 July 1996 at the Roslin Institute.</p></div></div><div class="sa-item"><div class="sa-q" onclick="toggleSA(this)"><span class="sa-q-num">Q.5</span><span class="sa-q-text">What is meant by animals as bioreactors?</span><span class="sa-q-toggle">&#9660;</span></div><div class="sa-ans"><p>Transgenic animals that produce recombinant human proteins in milk or other body fluids under tissue-specific promoters, e.g. antithrombin in goat milk and alpha-1-antitrypsin in sheep milk.</p></div></div><div class="sa-item"><div class="sa-q" onclick="toggleSA(this)"><span class="sa-q-num">Q.6</span><span class="sa-q-text">Mention two ethical issues of transgenic animals.</span><span class="sa-q-toggle">&#9660;</span></div><div class="sa-ans"><p>Animal suffering and welfare; ecological risk and gene flow; patenting of life forms.</p></div></div></div><div class="pg-nav"><button class="btn btn-outline" onclick="goPg(6)">&larr; Quiz (10 MCQs)</button><button class="btn btn-primary" onclick="goPg(8)">Glossary &rarr;</button></div><footer class="app-footer"><p>Department of Zoology, GASC, Nagercoil</p><small>Created by R. Ramesh</small></footer></div><div class="page" id="page-8"><div class="sec-tag">&#128214; Glossary</div><h1 class="pg-title">Key Terms &amp; Glossary</h1><p class="pg-lead">Important terms in simple language.</p><div class="gloss-grid"><div class="gloss-card"><div class="g-term">Transgene</div><div class="g-def">A foreign gene introduced into an organism.</div></div><div class="gloss-card"><div class="g-term">Founder</div><div class="g-def">The first transgenic animal of a line.</div></div><div class="gloss-card"><div class="g-term">Pseudopregnant female</div><div class="g-def">Female mated with a vasectomised male; her uterus is ready to receive embryos.</div></div><div class="gloss-card"><div class="g-term">ES cell</div><div class="g-def">Embryonic stem cell: pluripotent cell from the blastocyst inner cell mass.</div></div><div class="gloss-card"><div class="g-term">Chimera</div><div class="g-def">An animal made of cells from two genetically different embryos.</div></div><div class="gloss-card"><div class="g-term">Homologous recombination</div><div class="g-def">Exchange between identical DNA sequences, used for gene targeting.</div></div><div class="gloss-card"><div class="g-term">SCNT</div><div class="g-def">Somatic cell nuclear transfer: transfer of a somatic nucleus into an enucleated egg.</div></div><div class="gloss-card"><div class="g-term">Knock-out</div><div class="g-def">Loss-of-function mutation created in a chosen gene.</div></div><div class="gloss-card"><div class="g-term">Pharming</div><div class="g-def">Production of pharmaceutical proteins in farm animals or plants.</div></div><div class="gloss-card"><div class="g-term">Cre-lox</div><div class="g-def">Recombinase system for conditional (tissue-specific) gene deletion.</div></div></div><div class="pg-nav"><button class="btn btn-outline" onclick="goPg(7)">&larr; Summary &amp; Revision</button><button class="btn btn-primary" onclick="goPg(0)">&#127968; Title page</button></div><footer class="app-footer"><p>Department of Zoology, GASC, Nagercoil</p><small>Created by R. Ramesh</small></footer></div></div></div><script>
+const QUIZ=[{"q": "A transgene is:", "o": ["A mutated chromosome", "A foreign gene stably introduced into an organism", "A gene deleted from the genome", "A viral protein"], "a": 1, "e": "A <strong>transgene</strong> is a foreign gene inserted into the genome and (in transgenesis) passed through the germ line."}, {"q": "The commonest method of producing transgenic mice is:", "o": ["Pronuclear microinjection", "Electroporation of sperm", "Gene gun", "Conjugation"], "a": 0, "e": "DNA is injected into the <strong>male pronucleus</strong> of a fertilised egg."}, {"q": "Knock-out mice are produced by:", "o": ["Random integration in eggs", "Gene targeting by homologous recombination in ES cells", "Cloning from adult cells", "Feeding antisense RNA"], "a": 1, "e": "Gene targeting in <strong>ES cells</strong> allows a chosen gene to be disrupted."}, {"q": "In the targeting vector, the <em>tk</em> gene is used for:", "o": ["Positive selection", "Negative selection against random integration", "Marking tissue", "Promoting expression"], "a": 1, "e": "<em>tk</em> lies outside the homology arms; cells with random integration retain it and are killed by <strong>ganciclovir</strong>."}, {"q": "Dolly was cloned from a:", "o": ["Fertilised egg", "Mammary gland cell", "Skin fibroblast of a lamb", "Embryonic stem cell"], "a": 1, "e": "Dolly was derived from an adult <strong>mammary gland</strong> cell."}, {"q": "The technique used to produce Dolly is:", "o": ["Gene knock-out", "Somatic cell nuclear transfer", "Microinjection of DNA", "In vitro fertilisation only"], "a": 1, "e": "A somatic nucleus was transferred into an enucleated egg: <strong>SCNT</strong>."}, {"q": "The first \"super mouse\" carried the gene for:", "o": ["Rat growth hormone", "Human insulin", "Bt toxin", "Lactoferrin"], "a": 0, "e": "Palmiter and Brinster (1982) used <strong>rat growth hormone</strong> under the metallothionein promoter."}, {"q": "To express a human protein in milk, the transgene is joined to a promoter from:", "o": ["Metallothionein only", "A mammary-specific gene such as &beta;-casein", "A viral promoter", "A bacterial operon"], "a": 1, "e": "A <strong>mammary-specific promoter</strong> restricts expression to the udder and secretion into milk."}, {"q": "ATryn, produced in transgenic goats, is recombinant human:", "o": ["Insulin", "Antithrombin", "Growth hormone", "Factor VIII"], "a": 1, "e": "ATryn is recombinant human <strong>antithrombin</strong>."}, {"q": "The 2007 Nobel Prize for gene targeting in mice was shared by:", "o": ["Wilmut, Campbell, Parton", "Capecchi, Evans, Smithies", "Watson, Crick, Wilkins", "Doudna, Charpentier, Zhang"], "a": 1, "e": "<strong>Mario Capecchi, Martin Evans and Oliver Smithies</strong> won the 2007 Nobel Prize."}], TITLES=["Transgenic Animal Technology", "Concept & Transgenes", "Methods of Gene Transfer", "Knock-out Mice", "Dolly the Sheep", "Animals as Bioreactors", "Quiz (10 MCQs)", "Summary & Revision", "Glossary"], TOTAL=9;
+let cur=0, qDone=0, qCorrect=0; const visited=new Set([0]);
+function goPg(n){
+  const a=document.querySelector('.page.active'); if(a)a.classList.remove('active');
+  document.querySelectorAll('.nav-item').forEach(i=>i.classList.remove('active'));
+  const pg=document.getElementById('page-'+n); if(!pg)return; pg.classList.add('active');
+  const ni=document.querySelector('.nav-item[data-pg="'+n+'"]'); if(ni)ni.classList.add('active');
+  visited.add(cur); visited.add(n); cur=n;
+  visited.forEach(v=>{const e=document.querySelector('.nav-item[data-pg="'+v+'"]'); if(e&&v!==n)e.classList.add('visited');});
+  document.getElementById('main').scrollTo({top:0}); window.scrollTo({top:0});
+  const pct=Math.round(visited.size/TOTAL*100);
+  document.getElementById('prog-fill').style.width=pct+'%'; document.getElementById('prog-pct').textContent=pct+'%';
+  document.getElementById('mob-ttl').textContent=TITLES[n]; closeSB();
+  try{history.replaceState(null,'','#p'+n);}catch(e){}
+}
+function toggleSB(){document.getElementById('sidebar').classList.toggle('open');document.getElementById('overlay').classList.toggle('show');}
+function closeSB(){document.getElementById('sidebar').classList.remove('open');document.getElementById('overlay').classList.remove('show');}
+function toggleAcc(h){const it=h.closest('.acc-item'),w=it.classList.contains('open');
+  it.parentElement.querySelectorAll('.acc-item.open').forEach(i=>i.classList.remove('open')); if(!w)it.classList.add('open');}
+function toggleRv(c){c.classList.toggle('open');}
+function toggleSA(h){const it=h.closest('.sa-item'),w=it.classList.contains('open');
+  document.querySelectorAll('.sa-item.open').forEach(i=>i.classList.remove('open')); if(!w)it.classList.add('open');}
+function showFlow(id,i){
+  const box=document.getElementById(id), d=document.getElementById(id+'-d');
+  box.querySelectorAll('.fstep').forEach((s,k)=>s.classList.toggle('on',k===i));
+  d.innerHTML=JSON.parse(d.getAttribute('data-d'))[i];
+}
+document.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.classList&&(e.target.classList.contains('rv-card')||e.target.classList.contains('q-opt'))){e.preventDefault();e.target.click();}});
+function buildQuiz(){
+  const c=document.getElementById('q-container'); c.innerHTML=''; qDone=0; qCorrect=0; updQ();
+  document.getElementById('score-card').style.display='none'; const L=['A','B','C','D'];
+  QUIZ.forEach((q,qi)=>{const d=document.createElement('div'); d.className='q-card';
+    d.innerHTML='<div class="q-num">Question '+(qi+1)+' of '+QUIZ.length+'</div><div class="q-text">'+q.q+'</div><div class="q-opts" id="qo'+qi+'">'+
+      q.o.map((o,oi)=>'<div class="q-opt" id="qopt'+qi+'-'+oi+'" onclick="ansQ('+qi+','+oi+')" role="button" tabindex="0"><span class="opt-letter">'+L[oi]+'</span><span>'+o+'</span></div>').join('')+
+      '</div><div class="q-fb" id="qfb'+qi+'"></div>'; c.appendChild(d);});
+}
+function ansQ(qi,sel){
+  const box=document.getElementById('qo'+qi); if(box.dataset.done)return; box.dataset.done='1';
+  const ok=sel===QUIZ[qi].a;
+  QUIZ[qi].o.forEach((_,i)=>{const e=document.getElementById('qopt'+qi+'-'+i); e.classList.add('answered'); if(i===QUIZ[qi].a)e.classList.add('correct'); else if(i===sel)e.classList.add('wrong');});
+  const fb=document.getElementById('qfb'+qi); fb.classList.add('show',ok?'correct-fb':'wrong-fb');
+  fb.innerHTML=(ok?'&#9989; Correct. ':'&#10060; Not quite. ')+QUIZ[qi].e;
+  if(ok)qCorrect++; qDone++; updQ(); if(qDone===QUIZ.length)setTimeout(showScore,600);
+}
+function updQ(){document.getElementById('qs-score').textContent=qCorrect;document.getElementById('qs-done').textContent=qDone;
+  document.getElementById('q-prog-fill').style.width=Math.round(qDone/QUIZ.length*100)+'%';}
+function showScore(){
+  const sc=document.getElementById('score-card'); sc.style.display='block'; sc.scrollIntoView({behavior:'smooth',block:'center'});
+  const pct=Math.round(qCorrect/QUIZ.length*100);
+  document.getElementById('sc-num').textContent=qCorrect+'/'+QUIZ.length; document.getElementById('sc-right').textContent=qCorrect;
+  document.getElementById('sc-wrong').textContent=QUIZ.length-qCorrect; document.getElementById('sc-pct').textContent=pct+'%';
+  let g,s,m;
+  if(pct>=90){g='Outstanding';s='background:var(--teal-pale);color:var(--teal)';m='Excellent grasp of this topic.';}
+  else if(pct>=70){g='Good';s='background:var(--lime-pale);color:var(--lime)';m='Good. Revisit the questions you missed.';}
+  else if(pct>=50){g='Satisfactory';s='background:var(--amber-pale);color:var(--amber)';m='Revise the chapters, then retake the quiz.';}
+  else{g='Needs revision';s='background:var(--rose-pale);color:var(--rose)';m='Re-read the chapters carefully before retrying.';}
+  const b=document.getElementById('sc-badge'); b.textContent=g; b.style.cssText=s; document.getElementById('sc-msg').textContent=m;
+}
+function resetQuiz(){buildQuiz();window.scrollTo({top:0});document.getElementById('main').scrollTo({top:0});}
+document.addEventListener('DOMContentLoaded',()=>{buildQuiz();
+  const h=(location.hash||'').match(/^#p(\d+)$/); if(h&&+h[1]<TOTAL)goPg(+h[1]); else goPg(0);});
+
+</script></body></html>

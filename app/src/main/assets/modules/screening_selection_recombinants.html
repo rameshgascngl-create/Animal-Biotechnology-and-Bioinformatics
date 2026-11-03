@@ -1,0 +1,1851 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Screening & Selection of Recombinants | Animal Biotechnology</title>
+<style>
+/* ============================================================
+   CSS VARIABLES & RESET
+   ============================================================ */
+:root {
+  --ink:        #071e2e;
+  --ocean:      #086375;
+  --teal:       #0d9db8;
+  --teal-mid:   #15bdd8;
+  --teal-lt:    #b2edf5;
+  --teal-pale:  #e1f9fc;
+  --mint:       #047857;
+  --mint-lt:    #d1fae5;
+  --gold:       #d97706;
+  --gold-lt:    #fef3c7;
+  --rose:       #be123c;
+  --rose-lt:    #ffe4e6;
+  --violet:     #6d28d9;
+  --violet-lt:  #ede9fe;
+  --sky:        #0369a1;
+  --sky-lt:     #dbeafe;
+  --blue-col:   #1565c0;   /* blue colony color */
+  --white-col:  #f0f0f0;   /* white colony color */
+  --offwhite:   #f0fbfc;
+  --surface:    #ffffff;
+  --border:     #b2edf5;
+  --muted:      #3f6070;
+  --sh-sm:      0 2px 8px rgba(8,99,117,.10);
+  --sh-md:      0 6px 26px rgba(8,99,117,.15);
+  --sh-lg:      0 14px 44px rgba(8,99,117,.20);
+  --rad:        15px;
+  --rad-sm:     9px;
+  --serif:      Palatino,'Palatino Linotype',Georgia,serif;
+  --sans:       'Trebuchet MS','Gill Sans MT',Calibri,sans-serif;
+  --mono:       'Courier New',Courier,monospace;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:var(--sans);
+  background:var(--offwhite);
+  color:var(--ink);
+  line-height:1.76;
+  font-size:15.5px;
+}
+
+/* ============================================================
+   NAVIGATION
+   ============================================================ */
+#nav{
+  position:sticky;top:0;z-index:900;
+  background:var(--ink);
+  box-shadow:0 3px 18px rgba(0,0,0,.30);
+}
+#nav-inner{
+  max-width:1080px;margin:0 auto;
+  display:flex;gap:4px;align-items:center;
+  padding:8px 16px;overflow-x:auto;scrollbar-width:none;
+}
+#nav-inner::-webkit-scrollbar{display:none;}
+.nb{
+  flex-shrink:0;background:transparent;
+  border:1.5px solid rgba(178,237,245,.28);
+  color:#b2edf5;padding:5px 14px;border-radius:20px;
+  font-size:12px;font-family:var(--sans);
+  cursor:pointer;white-space:nowrap;transition:all .2s;
+}
+.nb:hover{background:var(--teal-mid);border-color:var(--teal-mid);color:#fff;}
+
+/* ============================================================
+   LAYOUT
+   ============================================================ */
+main{max-width:1040px;margin:0 auto;padding:28px 16px 64px;}
+.card{
+  background:var(--surface);border-radius:var(--rad);
+  box-shadow:var(--sh-md);padding:36px 40px;
+  margin-bottom:34px;border-top:4px solid var(--teal);
+  animation:riseUp .5s ease both;
+}
+@keyframes riseUp{
+  from{opacity:0;transform:translateY(18px);}
+  to{opacity:1;transform:translateY(0);}
+}
+
+/* ============================================================
+   TYPOGRAPHY
+   ============================================================ */
+.chip{
+  display:inline-block;background:var(--teal-pale);color:var(--ocean);
+  font-size:10px;font-weight:800;letter-spacing:2px;
+  text-transform:uppercase;padding:3px 13px;border-radius:30px;margin-bottom:12px;
+}
+h2.sh{
+  font-family:var(--serif);font-size:1.5rem;color:var(--ink);
+  margin-bottom:16px;display:flex;align-items:center;gap:10px;
+}
+h3{color:var(--ocean);font-size:1.05rem;margin:18px 0 7px;font-weight:700;}
+p{margin-bottom:10px;font-size:.96rem;}
+ul,ol{padding-left:22px;margin-bottom:10px;}
+li{margin-bottom:5px;font-size:.95rem;}
+strong{color:var(--ink);}
+.kt{
+  display:inline-block;background:var(--teal-pale);color:var(--ocean);
+  font-weight:700;padding:1px 8px;border-radius:5px;
+  font-size:.9em;border:1px solid var(--border);
+}
+
+/* ============================================================
+   HERO
+   ============================================================ */
+#hero{
+  background:linear-gradient(140deg,var(--ink) 0%,#083d52 52%,var(--ocean) 100%);
+  border-radius:var(--rad);padding:52px 44px 42px;
+  margin-bottom:34px;position:relative;overflow:hidden;
+  box-shadow:var(--sh-lg);
+}
+#hero::before{
+  content:'';position:absolute;width:400px;height:400px;
+  border-radius:50%;background:rgba(178,237,245,.06);top:-110px;right:-90px;
+}
+.hbadge{
+  display:inline-block;background:rgba(178,237,245,.18);color:var(--teal-lt);
+  font-size:11px;letter-spacing:1.8px;text-transform:uppercase;
+  padding:4px 16px;border-radius:20px;margin-bottom:16px;
+  border:1px solid rgba(178,237,245,.28);
+}
+h1.ht{
+  font-family:var(--serif);
+  font-size:clamp(1.75rem,4.5vw,2.85rem);
+  color:#fff;line-height:1.2;
+}
+.hsub{color:#8ecfda;font-size:1.02rem;margin:14px 0 24px;max-width:700px;}
+.obj-box{
+  background:rgba(255,255,255,.10);border-radius:12px;
+  padding:18px 24px;border:1px solid rgba(255,255,255,.14);
+}
+.obj-box h3{color:var(--teal-lt);margin-top:0;font-size:1rem;}
+.obj-box li{color:#99d4db;font-size:.91rem;}
+
+/* ============================================================
+   INFO BOXES
+   ============================================================ */
+.ib{
+  border-left:4px solid var(--teal-mid);background:var(--teal-pale);
+  border-radius:0 8px 8px 0;padding:11px 18px;margin:14px 0;font-size:.93rem;
+}
+.ib.gold  {border-color:var(--gold);  background:var(--gold-lt);}
+.ib.green {border-color:var(--mint);  background:var(--mint-lt);}
+.ib.rose  {border-color:var(--rose);  background:var(--rose-lt);}
+.ib.violet{border-color:var(--violet);background:var(--violet-lt);}
+.ib.sky   {border-color:var(--sky);   background:var(--sky-lt);}
+
+/* ============================================================
+   METHOD HEADER BADGE
+   ============================================================ */
+.mbadge{
+  display:inline-flex;align-items:center;gap:8px;
+  border-radius:10px;padding:8px 16px;margin-bottom:14px;
+  font-weight:800;font-size:1.05rem;border:2px solid;
+}
+.mb-teal  {background:var(--teal-pale); color:var(--ocean); border-color:var(--teal);}
+.mb-rose  {background:var(--rose-lt);   color:var(--rose);  border-color:var(--rose);}
+.mb-blue  {background:#dbeafe;          color:#1e3a5f;       border-color:#1e3a5f;}
+.mb-green {background:var(--mint-lt);   color:var(--mint);  border-color:var(--mint);}
+
+/* ============================================================
+   SVG DIAGRAM WRAPPER
+   ============================================================ */
+.dbox{
+  background:#f3feff;border:1.5px solid var(--border);
+  border-radius:12px;padding:20px 16px;margin:18px 0;
+  text-align:center;overflow:hidden;
+}
+.dbox svg{max-width:100%;height:auto;display:block;margin:0 auto;}
+.dtitle{
+  font-family:var(--serif);font-size:.93rem;color:var(--ocean);
+  font-weight:700;text-align:center;margin-bottom:10px;
+}
+
+/* ============================================================
+   DIAGRAM GRID (side-by-side)
+   ============================================================ */
+.diag-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+  gap:20px;margin:20px 0;
+}
+
+/* ============================================================
+   INTERACTIVE STEP FLOW
+   ============================================================ */
+.flow-row{
+  display:flex;flex-wrap:wrap;align-items:flex-start;
+  justify-content:center;gap:0;margin:20px 0;
+}
+.fbox{
+  background:var(--surface);border:2px solid var(--border);border-radius:12px;
+  padding:14px 12px;min-width:120px;max-width:148px;text-align:center;
+  cursor:pointer;transition:all .25s;position:relative;
+}
+.fbox .fnum{
+  position:absolute;top:-11px;left:50%;transform:translateX(-50%);
+  background:var(--teal);color:#fff;width:22px;height:22px;
+  border-radius:50%;font-size:11px;font-weight:800;
+  display:flex;align-items:center;justify-content:center;
+}
+.fbox .ficon{font-size:1.9rem;margin-bottom:4px;}
+.fbox .ftxt{font-weight:700;color:var(--ink);font-size:.80rem;}
+.fbox .fdet{
+  display:none;margin-top:8px;font-size:.76rem;color:var(--muted);
+  border-top:1px solid var(--border);padding-top:7px;text-align:left;
+}
+.fbox:hover,.fbox.act{
+  background:var(--teal-pale);border-color:var(--teal-mid);
+  transform:translateY(-4px);box-shadow:var(--sh-md);
+}
+.fbox.act .fdet{display:block;}
+.farr{font-size:1.5rem;color:var(--teal-mid);margin:0 3px;align-self:center;}
+
+/* ============================================================
+   ACCORDION
+   ============================================================ */
+.ai{border:1.5px solid var(--border);border-radius:10px;margin-bottom:10px;overflow:hidden;}
+.ah{
+  width:100%;background:linear-gradient(90deg,var(--teal-pale),#eaf8fb);
+  border:none;padding:14px 20px;text-align:left;cursor:pointer;
+  display:flex;justify-content:space-between;align-items:center;
+  font-size:.97rem;font-weight:700;color:var(--ink);
+  font-family:var(--sans);transition:background .2s;
+}
+.ah:hover{background:linear-gradient(90deg,var(--teal-lt),var(--teal-pale));}
+.ah.open {background:linear-gradient(90deg,var(--ocean),var(--teal-mid));color:#fff;}
+.aico{font-size:1.2rem;transition:transform .3s;}
+.ah.open .aico{transform:rotate(45deg);}
+.ab{display:none;padding:18px 22px;background:#fff;border-top:1px solid var(--border);}
+.ab.open{display:block;animation:slideIn .25s ease;}
+@keyframes slideIn{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
+.vpill{display:inline-block;background:var(--ink);color:#fff;padding:2px 13px;border-radius:14px;font-size:11px;margin-bottom:10px;}
+
+/* ============================================================
+   REVEAL CARDS
+   ============================================================ */
+.rg{display:grid;grid-template-columns:repeat(auto-fill,minmax(166px,1fr));gap:11px;margin:14px 0;}
+.rc{border-radius:10px;border:1.5px solid var(--border);overflow:hidden;cursor:pointer;}
+.rf{background:linear-gradient(135deg,var(--ocean),var(--teal-mid));color:#fff;padding:18px 13px;text-align:center;font-weight:700;font-size:.87rem;}
+.rh{font-size:.70rem;color:rgba(255,255,255,.6);margin-top:4px;}
+.rb{display:none;background:#fff;padding:12px 13px;font-size:.82rem;color:var(--ink);border-top:1px solid var(--border);}
+.rc.flipped .rb{display:block;}
+
+/* ============================================================
+   TABLE
+   ============================================================ */
+.tw{overflow-x:auto;margin:16px 0;}
+table{width:100%;border-collapse:collapse;font-size:.86rem;min-width:600px;}
+thead tr{background:var(--ink);color:#fff;}
+thead th{padding:11px 13px;text-align:left;font-weight:700;}
+tbody tr:nth-child(even){background:var(--teal-pale);}
+tbody tr:hover{background:var(--teal-lt);}
+tbody td{padding:9px 13px;border-bottom:1px solid var(--border);vertical-align:top;}
+
+/* ============================================================
+   QUIZ
+   ============================================================ */
+.qprog{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:18px;}
+.qd{width:28px;height:28px;border-radius:50%;background:var(--border);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:var(--muted);transition:background .3s;}
+.qd.ok {background:var(--mint);color:#fff;}
+.qd.bad{background:var(--rose);color:#fff;}
+.qd.cur{background:var(--teal);color:#fff;}
+.qcard{background:#f3feff;border:1.5px solid var(--border);border-radius:12px;padding:22px 26px;}
+.qno  {font-size:11px;color:var(--muted);font-weight:700;margin-bottom:6px;text-transform:uppercase;letter-spacing:1.1px;}
+.qtxt {font-size:1.0rem;font-weight:700;color:var(--ink);margin-bottom:18px;}
+.qopts{display:flex;flex-direction:column;gap:10px;}
+.qo{
+  background:#fff;border:1.5px solid var(--border);border-radius:9px;
+  padding:11px 18px;text-align:left;cursor:pointer;
+  font-family:var(--sans);font-size:.91rem;color:var(--ink);transition:all .2s;
+}
+.qo:hover:not(:disabled){background:var(--teal-pale);border-color:var(--teal-mid);color:var(--ocean);}
+.qo.cok {background:var(--mint-lt);border-color:var(--mint);color:#065f46;font-weight:700;}
+.qo.cbad{background:var(--rose-lt);border-color:var(--rose);color:#881337;}
+.qo:disabled{cursor:default;}
+.qfb{margin-top:14px;padding:10px 16px;border-radius:8px;font-size:.91rem;display:none;}
+.qfb.ok {background:var(--mint-lt);color:#065f46;display:block;}
+.qfb.bad{background:var(--rose-lt);color:#881337;display:block;}
+.bnxt{
+  margin-top:14px;background:var(--ocean);color:#fff;border:none;
+  padding:10px 26px;border-radius:8px;font-size:.91rem;font-weight:700;
+  cursor:pointer;display:none;font-family:var(--sans);transition:background .2s;
+}
+.bnxt:hover{background:var(--ink);}
+.qres{display:none;text-align:center;padding:32px 16px;}
+.sring{
+  width:115px;height:115px;border-radius:50%;
+  background:linear-gradient(135deg,var(--ocean),var(--teal-mid));
+  color:#fff;font-size:2.1rem;font-weight:800;
+  display:flex;align-items:center;justify-content:center;
+  margin:0 auto 18px;box-shadow:0 8px 24px rgba(8,99,117,.38);
+}
+.bretry{
+  background:var(--ink);color:#fff;border:none;
+  padding:11px 28px;border-radius:8px;font-size:.93rem;font-weight:700;
+  cursor:pointer;font-family:var(--sans);margin-top:12px;transition:background .2s;
+}
+.bretry:hover{background:var(--ocean);}
+
+/* ============================================================
+   SUMMARY & GLOSSARY
+   ============================================================ */
+.sg{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:13px;margin:14px 0;}
+.sp{
+  background:linear-gradient(135deg,var(--teal-pale),#eaf8fb);
+  border:1px solid var(--border);border-left:4px solid var(--teal-mid);
+  border-radius:var(--rad-sm);padding:13px 16px;font-size:.87rem;
+}
+.sp strong{display:block;color:var(--ocean);margin-bottom:3px;}
+.gg{display:grid;grid-template-columns:repeat(auto-fill,minmax(244px,1fr));gap:13px;margin:14px 0;}
+.gc{border:1.5px solid var(--border);border-radius:10px;overflow:hidden;}
+.gt{background:var(--ink);color:#fff;padding:8px 16px;font-weight:700;font-size:.9rem;}
+.gd{background:#fff;padding:11px 16px;font-size:.86rem;color:var(--ink);}
+
+/* ============================================================
+   EXAM QUESTIONS
+   ============================================================ */
+.eq{border:1.5px solid var(--border);border-radius:10px;margin-bottom:12px;overflow:hidden;}
+.eqt{
+  background:var(--gold-lt);padding:13px 18px;font-weight:600;color:#5c3200;
+  cursor:pointer;display:flex;justify-content:space-between;align-items:center;
+  font-size:.93rem;border:none;width:100%;text-align:left;
+  font-family:var(--sans);transition:background .18s;
+}
+.eqt:hover{background:#fde68a;}
+.eqb{display:none;padding:14px 18px;background:#fffdf7;font-size:.91rem;border-top:1px solid #fcd34d;}
+.eqb.open{display:block;}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+footer{
+  background:var(--ink);color:#89c4cc;text-align:center;
+  padding:22px 16px;border-radius:var(--rad) var(--rad) 0 0;margin-top:16px;
+}
+footer .fd{font-size:1.0rem;font-weight:700;color:var(--teal-lt);letter-spacing:.4px;}
+footer .fa{font-size:.82rem;color:#3d6870;margin-top:5px;}
+
+/* ============================================================
+   SCROLL TOP
+   ============================================================ */
+#gtop{
+  position:fixed;bottom:22px;right:20px;
+  background:var(--teal);color:#fff;border:none;
+  width:43px;height:43px;border-radius:50%;font-size:1.25rem;
+  cursor:pointer;display:none;z-index:800;
+  align-items:center;justify-content:center;
+  box-shadow:0 4px 14px rgba(8,99,117,.44);transition:background .2s;
+}
+#gtop:hover{background:var(--ink);}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media(max-width:660px){
+  .card{padding:22px 16px;}
+  #hero{padding:30px 20px 26px;}
+  .farr{display:none;}
+  .flow-row{flex-direction:column;gap:10px;align-items:center;}
+  .fbox{max-width:100%;width:100%;}
+  .diag-grid{grid-template-columns:1fr;}
+}
+</style>
+</head>
+<body>
+
+<!-- ============================================================
+     NAVIGATION
+     ============================================================ -->
+<nav id="nav">
+  <div id="nav-inner">
+    <button class="nb" onclick="go('hero')">Home</button>
+    <button class="nb" onclick="go('intro')">Intro</button>
+    <button class="nb" onclick="go('direct')">Direct Selection</button>
+    <button class="nb" onclick="go('insertional')">Insertional Inactivation</button>
+    <button class="nb" onclick="go('bwsel')">Blue-White</button>
+    <button class="nb" onclick="go('hybrid')">Colony Hybridization</button>
+    <button class="nb" onclick="go('diagrams')">Diagrams</button>
+    <button class="nb" onclick="go('compare')">Comparison</button>
+    <button class="nb" onclick="go('flowsec')">Workflow</button>
+    <button class="nb" onclick="go('interactive')">Interactive</button>
+    <button class="nb" onclick="go('quiz')">Quiz</button>
+    <button class="nb" onclick="go('summary')">Summary</button>
+    <button class="nb" onclick="go('glossary')">Glossary</button>
+    <button class="nb" onclick="go('examqs')">Exam Qs</button>
+  </div>
+</nav>
+
+<main>
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<section id="hero">
+  <div class="hbadge">Animal Biotechnology · B.Sc. Zoology / Biotechnology</div>
+  <h1 class="ht">Screening &amp; Selection of Recombinants</h1>
+  <p style="color:#8ecfda;font-size:1.0rem;margin-top:4px;">
+    Direct Selection &nbsp;·&nbsp; Insertional Inactivation &nbsp;·&nbsp;
+    Blue-White Selection &nbsp;·&nbsp; Colony Hybridization
+  </p>
+  <p class="hsub">
+    After gene cloning, thousands of bacterial colonies form on an agar plate — but only a 
+    tiny fraction carry the correct recombinant DNA. How do scientists find the 
+    "needle in a haystack"? This app explores all four major strategies used to 
+    identify successful recombinant clones.
+  </p>
+  <div class="obj-box">
+    <h3>🎯 Learning Objectives</h3>
+    <ul>
+      <li>Define recombinant clones and explain why screening and selection are essential.</li>
+      <li>Distinguish between selection and screening in the context of gene cloning.</li>
+      <li>Describe direct selection using antibiotic resistance markers.</li>
+      <li>Explain insertional inactivation with pBR322 as an example.</li>
+      <li>Describe the blue-white selection system (lacZ/X-gal/IPTG) in detail.</li>
+      <li>Explain colony hybridization using labeled nucleic acid probes.</li>
+      <li>Compare all four methods using their principles and applications.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================================================
+     SECTION 1: INTRODUCTION
+     ============================================================ -->
+<section id="intro" class="card">
+  <div class="chip">Section 1</div>
+  <h2 class="sh">🔬 Introduction to Screening and Selection</h2>
+
+  <h3>What Are Recombinant Cells?</h3>
+  <p>
+    A <span class="kt">recombinant cell</span> (or recombinant clone) is a host cell 
+    (usually <em>E. coli</em>) that has been successfully transformed with a 
+    <strong>recombinant vector</strong> — a vector carrying the gene of interest 
+    inserted into its multiple cloning site (MCS). These cells contain and can replicate 
+    the desired foreign DNA fragment.
+  </p>
+
+  <h3>Why Are Screening and Selection Necessary?</h3>
+  <p>After a gene cloning experiment, a typical agar plate will contain:</p>
+  <ul>
+    <li><strong>Non-transformed cells</strong> — did not take up any vector (majority of cells).</li>
+    <li><strong>Cells with re-ligated vector</strong> — took up vector that re-circularised without insert.</li>
+    <li><strong>Cells with recombinant vector</strong> — the desired transformants carrying the gene of interest.</li>
+  </ul>
+  <div class="ib gold">
+    <strong>The Core Problem:</strong> After transformation, all three cell types look 
+    identical on an agar plate — they form white, creamy colonies of the same size and shape. 
+    Without selection and screening, it is impossible to identify which colonies 
+    carry the correct recombinant DNA.
+  </div>
+
+  <h3>Selection vs Screening — Key Distinction</h3>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:14px 0;">
+    <div class="ib" style="margin:0;border-radius:8px;">
+      <strong>Selection</strong> — a process where <em>only</em> cells with desired properties 
+      survive. Non-selected cells are killed or cannot grow. Example: antibiotic selection 
+      kills non-transformed cells. Result: active, growth-based identification.
+    </div>
+    <div class="ib sky" style="margin:0;border-radius:8px;">
+      <strong>Screening</strong> — a process where all cells survive but a detectable signal 
+      (colour change, hybridisation signal) distinguishes recombinants from 
+      non-recombinants. Example: blue-white screening, colony hybridisation. 
+      Result: visual or probe-based identification.
+    </div>
+  </div>
+
+  <h3>Overview of Methods</h3>
+  <ul>
+    <li><strong>Direct Selection</strong> — antibiotic resistance marker on vector; only transformed cells survive.</li>
+    <li><strong>Insertional Inactivation</strong> — insert disrupts a second marker gene (e.g., tet<sup>r</sup> in pBR322); recombinants lose resistance to a second antibiotic.</li>
+    <li><strong>Blue-White Selection</strong> — insert disrupts lacZ gene; recombinants form white colonies while non-recombinants form blue colonies on X-gal/IPTG plates.</li>
+    <li><strong>Colony Hybridization</strong> — a labelled DNA probe hybridises to colonies containing the complementary gene sequence; positive clones identified by autoradiography or fluorescence.</li>
+  </ul>
+</section>
+
+<!-- ============================================================
+     SECTION 2: DIRECT SELECTION
+     ============================================================ -->
+<section id="direct" class="card">
+  <div class="chip">Section 2</div>
+  <div class="mbadge mb-teal">💊 Direct Selection (Antibiotic Resistance)</div>
+
+  <h3>Definition</h3>
+  <p>
+    <span class="kt">Direct selection</span> is a method in which transformed host cells 
+    are identified by their ability to <strong>grow on selective media</strong> containing 
+    an antibiotic. Only cells that have taken up the vector (which carries an antibiotic 
+    resistance gene) survive; all non-transformed cells are killed.
+  </p>
+
+  <h3>Principle</h3>
+  <p>
+    The cloning vector carries a <span class="kt">selectable marker gene</span> — most 
+    commonly an antibiotic resistance gene such as <strong>amp<sup>r</sup></strong> 
+    (ampicillin resistance) or <strong>kan<sup>r</sup></strong> (kanamycin resistance). 
+    When transformed cells are plated on medium supplemented with the antibiotic:
+  </p>
+  <ul>
+    <li>Cells that took up the vector express the resistance gene → <strong>survive and form colonies</strong>.</li>
+    <li>Non-transformed cells lack the resistance gene → <strong>killed by the antibiotic</strong>.</li>
+  </ul>
+
+  <h3>Steps Involved</h3>
+  <ol>
+    <li>Transform bacterial cells with the ligation mixture (contains recombinant + non-recombinant vectors + no vector).</li>
+    <li>Allow cells to recover in rich LB broth at 37°C for 30–60 minutes (expression of resistance gene).</li>
+    <li>Plate cells on LB agar supplemented with the appropriate antibiotic (e.g., ampicillin at 100 µg/mL).</li>
+    <li>Incubate overnight at 37°C.</li>
+    <li>Count and record colonies — <strong>all surviving colonies are transformants</strong> (carry the vector).</li>
+  </ol>
+
+  <div class="ib green">
+    <strong>Important Limitation:</strong> Direct selection only tells us that the cell 
+    has taken up <em>some</em> vector. It does NOT distinguish between cells carrying the 
+    recombinant vector (with insert) and cells carrying the non-recombinant re-ligated vector 
+    (without insert). A second step — insertional inactivation, blue-white screening, 
+    or colony hybridisation — is always required.
+  </div>
+
+  <h3>Advantages</h3>
+  <ul>
+    <li>Simple, reliable, and inexpensive.</li>
+    <li>Eliminates the large majority of non-transformed cells in one step.</li>
+    <li>Works for virtually all plasmid-based cloning systems.</li>
+    <li>First essential step in all gene cloning workflows.</li>
+  </ul>
+
+  <h3>Limitations</h3>
+  <ul>
+    <li>Cannot distinguish recombinant from non-recombinant transformants.</li>
+    <li>Requires vector to carry an appropriate resistance marker gene.</li>
+    <li>Antibiotic breakdown over time can give false positives (satellite colonies).</li>
+  </ul>
+</section>
+
+<!-- ============================================================
+     SECTION 3: INSERTIONAL INACTIVATION
+     ============================================================ -->
+<section id="insertional" class="card">
+  <div class="chip">Section 3</div>
+  <div class="mbadge mb-rose">🔴 Insertional Inactivation</div>
+
+  <h3>Definition</h3>
+  <p>
+    <span class="kt">Insertional inactivation</span> is a method of identifying 
+    recombinant clones based on the <strong>disruption of a second marker gene</strong> 
+    by the insertion of foreign DNA into a restriction site located within that gene. 
+    The loss of function of the disrupted gene serves as evidence of successful 
+    insert incorporation.
+  </p>
+
+  <h3>Principle — How It Works</h3>
+  <p>
+    The classic example uses <strong>pBR322</strong> plasmid, which carries two 
+    antibiotic resistance genes:
+  </p>
+  <ul>
+    <li><strong>amp<sup>r</sup></strong> — ampicillin resistance gene (contains PstI restriction site).</li>
+    <li><strong>tet<sup>r</sup></strong> — tetracycline resistance gene (contains BamHI, SalI, ClaI restriction sites).</li>
+  </ul>
+  <p>
+    When the gene of interest is cloned into the <strong>BamHI site within tet<sup>r</sup></strong>:
+  </p>
+  <ul>
+    <li>The insert <strong>disrupts the tet<sup>r</sup> gene</strong> → tetracycline resistance is lost.</li>
+    <li>The amp<sup>r</sup> gene remains intact → ampicillin resistance is retained.</li>
+  </ul>
+
+  <h3>Identification of Recombinants — Replica Plating</h3>
+  <ol>
+    <li><strong>Step 1:</strong> Plate all transformed cells on LB + <strong>ampicillin</strong>. All transformants (recombinant and non-recombinant) grow — non-transformed cells are killed.</li>
+    <li><strong>Step 2:</strong> Prepare a <strong>replica plate</strong> on LB + <strong>tetracycline</strong> by pressing a sterile velvet pad onto the ampicillin plate, then onto the tetracycline plate — transferring the exact colony pattern.</li>
+    <li><strong>Step 3:</strong> Compare the two plates:
+      <ul>
+        <li>Colonies that grow on <strong>BOTH</strong> amp AND tet → <strong>non-recombinant</strong> (tet<sup>r</sup> intact, no insert).</li>
+        <li>Colonies that grow on amp but <strong>NOT</strong> on tet → <strong>recombinant</strong> (tet<sup>r</sup> disrupted by insert).</li>
+      </ul>
+    </li>
+    <li><strong>Step 4:</strong> Pick the corresponding white (absent) colonies from the original ampicillin plate for further analysis.</li>
+  </ol>
+
+  <div class="ib">
+    <strong>Key Logic:</strong> amp<sup>r</sup>, tet<sup>s</sup> = recombinant (insert disrupted tet<sup>r</sup>).
+    amp<sup>r</sup>, tet<sup>r</sup> = non-recombinant (vector re-ligated without insert).
+  </div>
+
+  <h3>Advantages</h3>
+  <ul>
+    <li>Directly distinguishes recombinant from non-recombinant transformants.</li>
+    <li>Does not require any additional substrate or reagent beyond antibiotics.</li>
+    <li>Works for any insert cloned into a restriction site within the marker gene.</li>
+  </ul>
+
+  <h3>Limitations</h3>
+  <ul>
+    <li>Requires <strong>replica plating</strong> — an extra, technically careful step.</li>
+    <li>Labour-intensive for large numbers of colonies.</li>
+    <li>Recombinants are identified by <em>absence of growth</em> on the second plate — easy to miss.</li>
+    <li>Does not confirm the correct insert (only that some insert is present).</li>
+  </ul>
+</section>
+
+<!-- ============================================================
+     SECTION 4: BLUE-WHITE SELECTION
+     ============================================================ -->
+<section id="bwsel" class="card">
+  <div class="chip">Section 4</div>
+  <div class="mbadge mb-blue">🔵⚪ Blue-White Selection (lacZ System)</div>
+
+  <h3>Definition</h3>
+  <p>
+    <span class="kt">Blue-white selection</span> is a visual screening method that uses 
+    the <strong>lacZ gene</strong> (encoding β-galactosidase) and the chromogenic substrate 
+    <strong>X-gal</strong> to distinguish recombinant (white) colonies from 
+    non-recombinant (blue) colonies on the same agar plate.
+  </p>
+
+  <h3>The lacZ Gene Principle</h3>
+  <p>
+    Vectors used for blue-white screening (e.g., pUC19, pUC18) carry a fragment of the 
+    <em>E. coli</em> <strong>lacZ</strong> gene encoding the <strong>α-peptide</strong> 
+    of β-galactosidase. The <strong>Multiple Cloning Site (MCS)</strong> is inserted 
+    within this lacZ-α fragment.
+  </p>
+  <ul>
+    <li>When the vector has <strong>no insert</strong>: the lacZ-α sequence is intact → functional α-peptide is produced → in the presence of X-gal and IPTG, β-galactosidase cleaves X-gal → <strong>blue product</strong> → <strong>blue colony</strong>.</li>
+    <li>When an <strong>insert disrupts MCS</strong>: the lacZ-α reading frame is interrupted → non-functional α-peptide → β-galactosidase cannot cleave X-gal → colony remains <strong>white</strong>.</li>
+  </ul>
+
+  <h3>Role of X-gal and IPTG</h3>
+  <ul>
+    <li>
+      <strong>X-gal</strong> (5-bromo-4-chloro-3-indolyl-β-D-galactopyranoside): A colourless 
+      synthetic substrate. When cleaved by β-galactosidase, it releases 5-bromo-4-chloro-indigo — 
+      an <strong>intense blue compound</strong> that accumulates in the colony.
+    </li>
+    <li>
+      <strong>IPTG</strong> (Isopropyl β-D-1-thiogalactopyranoside): A synthetic, non-hydrolysable 
+      inducer of the <em>lac</em> operon. It induces expression of the lacZ-α gene in the vector, 
+      ensuring β-galactosidase is produced in sufficient amounts to generate the blue colour.
+    </li>
+  </ul>
+
+  <h3>Blue Colonies vs White Colonies</h3>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:14px 0;">
+    <div style="background:#dbeafe;border:2px solid #1565c0;border-radius:10px;padding:14px 16px;">
+      <strong style="color:#1565c0;font-size:1.05rem;">🔵 BLUE Colony</strong><br>
+      <ul style="margin-top:8px;">
+        <li>Vector re-ligated <strong>without insert</strong></li>
+        <li>lacZ-α gene is <strong>intact</strong></li>
+        <li>β-galactosidase is <strong>functional</strong></li>
+        <li>X-gal is <strong>cleaved</strong> → blue pigment</li>
+        <li>= <strong>Non-recombinant</strong></li>
+        <li style="color:#be123c;">Do NOT pick these colonies</li>
+      </ul>
+    </div>
+    <div style="background:#f0f0f0;border:2px solid #444;border-radius:10px;padding:14px 16px;">
+      <strong style="color:#333;font-size:1.05rem;">⚪ WHITE Colony</strong><br>
+      <ul style="margin-top:8px;">
+        <li>Insert cloned into MCS, <strong>disrupting lacZ-α</strong></li>
+        <li>lacZ-α gene is <strong>disrupted</strong></li>
+        <li>β-galactosidase is <strong>non-functional</strong></li>
+        <li>X-gal is <strong>not cleaved</strong> → no blue pigment</li>
+        <li>= <strong>Recombinant</strong></li>
+        <li style="color:#047857;">✓ Pick these colonies!</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="ib green">
+    <strong>Exam Memory Aid:</strong> Blue = Bad (no insert, lacZ active, X-gal cleaved → blue).
+    White = Winner (insert present, lacZ disrupted, X-gal not cleaved → white).
+    Always pick the <strong>white</strong> colonies!
+  </div>
+
+  <h3>Selective Medium Requirements</h3>
+  <p>
+    The agar plate must contain:
+    <strong>Ampicillin</strong> (selects for transformants) + 
+    <strong>X-gal</strong> (40 µg/mL, chromogenic substrate) + 
+    <strong>IPTG</strong> (0.1 mM, lac inducer).
+  </p>
+
+  <h3>Advantages</h3>
+  <ul>
+    <li>Rapid, visual — results visible directly on the plate (no replica plating needed).</li>
+    <li>Highly reliable and widely used in all molecular cloning laboratories.</li>
+    <li>Works simultaneously with antibiotic selection on the same plate.</li>
+    <li>Does not require radioactive probes or hybridisation.</li>
+  </ul>
+
+  <h3>Limitations</h3>
+  <ul>
+    <li>Requires specific vectors with lacZ-α fragment and MCS (e.g., pUC series).</li>
+    <li>White colonies only indicate an insert disrupted lacZ — not necessarily the correct insert.</li>
+    <li>False whites can occur if the insert is small and in-frame, allowing partial lacZ function.</li>
+    <li>Requires specific <em>lacZ</em>-deleted <em>E. coli</em> host strains (e.g., DH5α, JM109) for α-complementation.</li>
+  </ul>
+</section>
+
+<!-- ============================================================
+     SECTION 5: COLONY HYBRIDIZATION
+     ============================================================ -->
+<section id="hybrid" class="card">
+  <div class="chip">Section 5</div>
+  <div class="mbadge mb-green">🟢 Colony Hybridization</div>
+
+  <h3>Definition</h3>
+  <p>
+    <span class="kt">Colony hybridization</span> (also called <em>in situ</em> colony 
+    hybridization or Grunstein-Hogness procedure) is a molecular screening technique 
+    in which bacterial colonies are transferred to a nylon or nitrocellulose membrane, 
+    lysed, and their DNA is hybridised with a <strong>labelled nucleic acid probe</strong> 
+    to identify colonies carrying the gene of interest.
+  </p>
+
+  <h3>Principle</h3>
+  <p>
+    The principle is based on <strong>nucleic acid hybridisation</strong> — the 
+    complementary base pairing between a single-stranded labelled probe and its 
+    complementary target DNA sequence denatured and fixed on a membrane. 
+    Probe binding produces a detectable signal only at the positions of colonies 
+    carrying the matching DNA sequence.
+  </p>
+
+  <h3>Steps Involved</h3>
+  <ol>
+    <li>
+      <strong>Colony Transfer (Blotting):</strong> A sterile nylon or nitrocellulose membrane 
+      is placed on top of a plate containing bacterial colonies. The colonies adhere to the 
+      membrane by contact — the membrane is carefully peeled off, with a mirror-image 
+      pattern of all colonies transferred. The original plate is kept as a <em>master plate</em> 
+      for picking positive clones later.
+    </li>
+    <li>
+      <strong>Cell Lysis:</strong> The membrane with colonies is treated with NaOH (alkali lysis) 
+      — this lyses the bacterial cells, releasing DNA, and simultaneously <strong>denatures</strong> 
+      the double-stranded DNA into single strands. The membrane is then neutralised with a 
+      buffer (e.g., Tris-HCl pH 7.5).
+    </li>
+    <li>
+      <strong>DNA Fixation:</strong> The single-stranded DNA is fixed to the membrane by 
+      baking at 80°C for 2 hours (nitrocellulose) or UV cross-linking (nylon). This 
+      permanently immobilises the DNA on the membrane, preventing it from washing off 
+      during hybridisation.
+    </li>
+    <li>
+      <strong>Pre-hybridisation (Blocking):</strong> The membrane is incubated in a 
+      blocking solution (e.g., containing salmon sperm DNA, BSA) to saturate non-specific 
+      binding sites and reduce background noise.
+    </li>
+    <li>
+      <strong>Probe Hybridisation:</strong> A <strong>labelled single-stranded probe</strong> 
+      (radioactively labelled with ³²P, or non-radioactively labelled with digoxigenin 
+      or biotin) is added to the membrane in hybridisation solution at appropriate 
+      stringency conditions (temperature and salt concentration). The probe anneals to 
+      complementary target sequences on the membrane.
+    </li>
+    <li>
+      <strong>Washing:</strong> The membrane is washed in solutions of increasing stringency 
+      to remove non-specifically bound probe, leaving only probe bound to perfectly 
+      complementary sequences.
+    </li>
+    <li>
+      <strong>Detection:</strong> 
+      For radioactive probes: the membrane is exposed to X-ray film (autoradiography) — 
+      positive colonies appear as dark spots corresponding to their positions on the membrane. 
+      For non-radioactive probes: enzyme-linked antibodies or streptavidin produce 
+      chemiluminescent or coloured signals.
+    </li>
+    <li>
+      <strong>Identification:</strong> The positive spots on the autoradiogram are aligned 
+      with the original master plate using orientation marks. The corresponding positive 
+      colonies are picked from the master plate for further analysis.
+    </li>
+  </ol>
+
+  <div class="ib">
+    <strong>Probe Design:</strong> The probe is a single-stranded DNA or RNA sequence 
+    complementary to the gene of interest. It may be designed based on:
+    (a) a known partial DNA sequence, (b) degenerate oligonucleotide probes based on 
+    amino acid sequence of the protein, or (c) a related gene from another species.
+  </div>
+
+  <h3>Advantages</h3>
+  <ul>
+    <li>Identifies the specific clone carrying the exact gene of interest — not just any insert.</li>
+    <li>Can screen thousands of colonies simultaneously in one experiment.</li>
+    <li>Works even without knowing anything about antibiotic resistance or colour changes.</li>
+    <li>Highly specific — based on DNA sequence complementarity.</li>
+  </ul>
+
+  <h3>Limitations</h3>
+  <ul>
+    <li>Requires a probe complementary to the gene of interest — prior sequence knowledge needed.</li>
+    <li>Radioactive probes require safety precautions; non-radioactive alternatives are less sensitive.</li>
+    <li>Multi-step, time-consuming process (2–3 days for radioactive method).</li>
+    <li>Risk of false positives from non-specific hybridisation if stringency is not optimised.</li>
+  </ul>
+</section>
+
+<!-- ============================================================
+     SECTION 6: SVG DIAGRAMS — BLUE-WHITE + COLONY HYBRIDIZATION
+     ============================================================ -->
+<section id="diagrams" class="card">
+  <div class="chip">Section 6 — Diagrams</div>
+  <h2 class="sh">🖼️ Labeled Mechanism Diagrams</h2>
+  <p style="color:var(--muted);font-size:.9rem;margin-bottom:4px;">
+    Academically accurate inline SVG diagrams for all four methods.
+  </p>
+
+  <!-- ============================================================
+       DIAGRAM 1: DIRECT SELECTION
+       ============================================================ -->
+  <div class="dtitle">Fig. 1 — Direct Selection Using Antibiotic Resistance</div>
+  <div class="dbox">
+    <svg viewBox="0 0 580 280" xmlns="http://www.w3.org/2000/svg" aria-label="Direct selection antibiotic resistance">
+      <defs>
+        <marker id="d1" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L0,8 L8,4 z" fill="#0d9db8"/></marker>
+        <marker id="d2" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L0,8 L8,4 z" fill="#be123c"/></marker>
+        <marker id="d3" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L0,8 L8,4 z" fill="#047857"/></marker>
+      </defs>
+      <!-- Step 1: Transformation mix -->
+      <text x="80" y="18" text-anchor="middle" font-family="Palatino,serif" font-size="12" font-weight="700" fill="#071e2e">Transformation Mix</text>
+      <circle cx="45"  cy="55" r="16" fill="#b2edf5" stroke="#0d9db8" stroke-width="2"/>
+      <text x="45"  y="59" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#071e2e">rDNA</text>
+      <circle cx="80"  cy="55" r="16" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+      <text x="80"  y="59" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#071e2e">vector</text>
+      <circle cx="115" cy="55" r="16" fill="#ffe4e6" stroke="#be123c" stroke-width="2"/>
+      <text x="115" y="56" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#071e2e">no</text>
+      <text x="115" y="67" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#071e2e">DNA</text>
+      <!-- Arrow to plates -->
+      <line x1="140" y1="55" x2="175" y2="55" stroke="#0d9db8" stroke-width="2.5" marker-end="url(#d1)"/>
+      <text x="157" y="47" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#0d9db8">plate on</text>
+
+      <!-- Plate WITH antibiotic -->
+      <text x="260" y="18" text-anchor="middle" font-family="Palatino,serif" font-size="12" font-weight="700" fill="#071e2e">LB + Ampicillin</text>
+      <ellipse cx="260" cy="80" rx="80" ry="50" fill="#fef3c7" stroke="#d97706" stroke-width="2.5"/>
+      <!-- Surviving colonies (green) -->
+      <circle cx="220" cy="72" r="10" fill="#047857"/>
+      <circle cx="250" cy="65" r="10" fill="#047857"/>
+      <circle cx="280" cy="70" r="10" fill="#047857"/>
+      <circle cx="305" cy="78" r="10" fill="#047857"/>
+      <circle cx="235" cy="90" r="9"  fill="#047857"/>
+      <circle cx="268" cy="88" r="9"  fill="#047857"/>
+      <!-- Dead cells X marks -->
+      <text x="215" y="108" font-family="'Trebuchet MS',sans-serif" font-size="13" fill="#be123c">✗ ✗ ✗</text>
+      <text x="260" y="116" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#be123c">Non-transformed cells die</text>
+      <text x="260" y="128" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="10" fill="#047857">Transformants survive (have amp</text>
+      <text x="265" y="128" text-anchor="start"  font-family="'Trebuchet MS',sans-serif" font-size="8" fill="#047857">r</text>
+      <text x="260" y="140" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#d97706">Both recombinant AND non-recombinant</text>
+      <text x="260" y="152" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#d97706">transformants grow ← need 2nd step</text>
+
+      <!-- Plate WITHOUT antibiotic (control) -->
+      <text x="460" y="18" text-anchor="middle" font-family="Palatino,serif" font-size="12" font-weight="700" fill="#071e2e">LB (no antibiotic)</text>
+      <ellipse cx="460" cy="80" rx="80" ry="50" fill="#d1fae5" stroke="#047857" stroke-width="2.5"/>
+      <!-- Many colonies all types -->
+      <circle cx="415" cy="65" r="9"  fill="#047857"/>
+      <circle cx="440" cy="73" r="9"  fill="#047857"/>
+      <circle cx="465" cy="60" r="9"  fill="#047857"/>
+      <circle cx="490" cy="68" r="9"  fill="#047857"/>
+      <circle cx="430" cy="88" r="8"  fill="#0d9db8"/>
+      <circle cx="456" cy="82" r="8"  fill="#0d9db8"/>
+      <circle cx="478" cy="90" r="8"  fill="#0d9db8"/>
+      <circle cx="505" cy="82" r="8"  fill="#d97706"/>
+      <text x="460" y="130" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#047857">All cells grow (no selection)</text>
+      <text x="460" y="144" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#496570">Control plate — cannot identify</text>
+      <text x="460" y="156" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#496570">transformants from non-transformants</text>
+
+      <!-- Legend -->
+      <circle cx="40" cy="195" r="7" fill="#047857"/>
+      <text x="52" y="199" font-family="'Trebuchet MS',sans-serif" font-size="10" fill="#333">Transformant (has vector, amp</text>
+      <text x="228" y="193" font-family="'Trebuchet MS',sans-serif" font-size="8" fill="#333">r</text>
+      <text x="234" y="199" font-family="'Trebuchet MS',sans-serif" font-size="10" fill="#333">)</text>
+      <circle cx="40" cy="215" r="7" fill="#0d9db8"/>
+      <text x="52" y="219" font-family="'Trebuchet MS',sans-serif" font-size="10" fill="#333">Recombinant transformant (vector + insert)</text>
+      <text x="52" y="238" font-family="'Trebuchet MS',sans-serif" font-size="10" fill="#be123c">✗ = Non-transformed cell (killed by ampicillin)</text>
+      <text x="0" y="265" font-family="'Trebuchet MS',sans-serif" font-size="10" fill="#d97706" font-style="italic">Note: Direct selection alone cannot distinguish recombinant (has insert) from non-recombinant (no insert) transformants. A second screening step is required.</text>
+    </svg>
+  </div>
+
+  <!-- ============================================================
+       DIAGRAM 2: INSERTIONAL INACTIVATION (pBR322)
+       ============================================================ -->
+  <div class="dtitle">Fig. 2 — Insertional Inactivation with pBR322 &amp; Replica Plating</div>
+  <div class="dbox">
+    <svg viewBox="0 0 580 380" xmlns="http://www.w3.org/2000/svg" aria-label="Insertional inactivation pBR322">
+      <defs>
+        <marker id="ii1" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L0,8 L8,4 z" fill="#0d9db8"/></marker>
+        <marker id="ii2" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L0,8 L8,4 z" fill="#be123c"/></marker>
+      </defs>
+
+      <!-- pBR322 plasmid map -->
+      <text x="100" y="18" text-anchor="middle" font-family="Palatino,serif" font-size="12" font-weight="700" fill="#071e2e">pBR322 Plasmid</text>
+      <circle cx="100" cy="95" r="60" fill="none" stroke="#071e2e" stroke-width="9"/>
+      <!-- amp^r arc (green) -->
+      <path d="M 100 35 A 60 60 0 0 1 155 118" fill="none" stroke="#047857" stroke-width="12" stroke-linecap="round"/>
+      <!-- tet^r arc (rose) with BamHI site -->
+      <path d="M 155 118 A 60 60 0 1 1 100 35" fill="none" stroke="#be123c" stroke-width="12" stroke-linecap="round"/>
+      <!-- BamHI site marker -->
+      <circle cx="100" cy="35" r="7" fill="#d97706" stroke="#fff" stroke-width="1.5"/>
+      <!-- ori dot -->
+      <circle cx="160" cy="95" r="5" fill="#0369a1"/>
+      <!-- Labels -->
+      <text x="60" y="60" font-family="'Trebuchet MS',sans-serif" font-size="10" font-weight="700" fill="#047857">amp</text>
+      <text x="84" y="55" font-family="'Trebuchet MS',sans-serif" font-size="8" fill="#047857">r</text>
+      <text x="130" y="145" font-family="'Trebuchet MS',sans-serif" font-size="10" font-weight="700" fill="#be123c">tet</text>
+      <text x="149" y="140" font-family="'Trebuchet MS',sans-serif" font-size="8" fill="#be123c">r</text>
+      <text x="96" y="32" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#d97706">BamHI</text>
+      <text x="165" y="95" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#0369a1">ori</text>
+      <text x="100" y="90" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="11" font-weight="700" fill="#071e2e">pBR322</text>
+      <text x="100" y="104" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="10" fill="#496570">4,361 bp</text>
+
+      <!-- Arrow: insert into BamHI -->
+      <line x1="170" y1="95" x2="215" y2="95" stroke="#0d9db8" stroke-width="2.5" marker-end="url(#ii1)"/>
+      <text x="192" y="87" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#0d9db8">Insert at</text>
+      <text x="192" y="99" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#0d9db8">BamHI site</text>
+
+      <!-- Recombinant plasmid -->
+      <text x="300" y="18" text-anchor="middle" font-family="Palatino,serif" font-size="12" font-weight="700" fill="#071e2e">Recombinant pBR322</text>
+      <circle cx="300" cy="95" r="60" fill="none" stroke="#071e2e" stroke-width="8"/>
+      <path d="M 300 35 A 60 60 0 0 1 355 118" fill="none" stroke="#047857" stroke-width="12" stroke-linecap="round"/>
+      <!-- tet^r disrupted (dashed) -->
+      <path d="M 355 118 A 60 60 0 1 1 300 35" fill="none" stroke="#be123c" stroke-width="8" stroke-dasharray="7,5" stroke-linecap="round"/>
+      <!-- Insert block on tet^r -->
+      <rect x="280" y="25" width="40" height="14" rx="5" fill="#b2edf5" stroke="#0d9db8" stroke-width="2"/>
+      <text x="300" y="36" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="8" fill="#071e2e">INSERT</text>
+      <text x="60" y="248" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#047857" font-style="italic">(amp</text>
+      <text x="84" y="243" font-family="'Trebuchet MS',sans-serif" font-size="7" fill="#047857">r</text>
+      <text x="89" y="248" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#047857" font-style="italic">intact)</text>
+      <text x="300" y="90" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="10" font-weight="700" fill="#047857">amp</text>
+      <text x="320" y="86" font-family="'Trebuchet MS',sans-serif" font-size="8" fill="#047857">r</text>
+      <text x="300" y="104" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="10" font-weight="700" fill="#be123c">tet</text>
+      <text x="318" y="100" font-family="'Trebuchet MS',sans-serif" font-size="8" fill="#be123c">s</text>
+      <text x="320" y="104" font-family="'Trebuchet MS',sans-serif" font-size="10" fill="#be123c"> disrupted</text>
+
+      <!-- Replica plating diagram -->
+      <text x="480" y="18" text-anchor="middle" font-family="Palatino,serif" font-size="12" font-weight="700" fill="#071e2e">Replica Plating</text>
+      <!-- Amp plate -->
+      <ellipse cx="450" cy="85" rx="60" ry="40" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+      <text x="450" y="55" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="10" fill="#d97706" font-weight="700">LB + Ampicillin</text>
+      <!-- 6 colonies labelled -->
+      <circle cx="420" cy="78" r="9"  fill="#047857"/>
+      <circle cx="443" cy="70" r="9"  fill="#047857"/>
+      <circle cx="467" cy="75" r="9"  fill="#047857"/>
+      <circle cx="490" cy="80" r="9"  fill="#047857"/>
+      <circle cx="430" cy="95" r="9"  fill="#047857"/>
+      <circle cx="458" cy="93" r="9"  fill="#047857"/>
+      <text x="420" y="81" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="8" fill="#fff">1</text>
+      <text x="443" y="73" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="8" fill="#fff">2</text>
+      <text x="467" y="78" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="8" fill="#fff">3</text>
+      <text x="490" y="83" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="8" fill="#fff">4</text>
+      <text x="430" y="98" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="8" fill="#fff">5</text>
+      <text x="458" y="96" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="8" fill="#fff">6</text>
+
+      <!-- Arrow velvet pad -->
+      <line x1="450" y1="128" x2="450" y2="158" stroke="#0d9db8" stroke-width="2.5" marker-end="url(#ii1)"/>
+      <text x="463" y="146" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#0d9db8">velvet pad</text>
+      <text x="463" y="157" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#0d9db8">replica</text>
+
+      <!-- Tet plate -->
+      <ellipse cx="450" cy="210" rx="60" ry="40" fill="#ffe4e6" stroke="#be123c" stroke-width="2"/>
+      <text x="450" y="182" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="10" fill="#be123c" font-weight="700">LB + Tetracycline</text>
+      <!-- Only non-recombinant colonies grow (1, 2, 4, 6) -->
+      <circle cx="420" cy="205" r="9" fill="#047857"/>
+      <circle cx="443" cy="198" r="9" fill="#047857"/>
+      <!-- Colony 3 absent (recombinant) -->
+      <text x="467" y="208" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="18" fill="#be123c">✗</text>
+      <circle cx="490" cy="208" r="9" fill="#047857"/>
+      <circle cx="430" cy="222" r="9" fill="#047857"/>
+      <!-- Colony 5 absent (recombinant) -->
+      <text x="458" y="225" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="18" fill="#be123c">✗</text>
+      <text x="420" y="208" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="8" fill="#fff">1</text>
+      <text x="443" y="201" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="8" fill="#fff">2</text>
+      <text x="490" y="211" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="8" fill="#fff">4</text>
+      <text x="430" y="225" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="8" fill="#fff">6</text>
+
+      <text x="450" y="262" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#be123c">Colonies 3 and 5 absent → RECOMBINANTS</text>
+      <text x="450" y="275" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#047857">Colonies 1,2,4,6 present → non-recombinants</text>
+      <text x="450" y="288" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#071e2e">Pick colonies 3 &amp; 5 from amp plate!</text>
+
+      <!-- Legend bottom -->
+      <text x="30" y="330" font-family="'Trebuchet MS',sans-serif" font-size="10" fill="#071e2e" font-weight="700">Legend:</text>
+      <circle cx="90" cy="327" r="7" fill="#047857"/>
+      <text x="102" y="331" font-family="'Trebuchet MS',sans-serif" font-size="10" fill="#333">Non-recombinant: amp</text>
+      <text x="228" y="326" font-family="'Trebuchet MS',sans-serif" font-size="8" fill="#333">r</text>
+      <text x="233" y="331" font-family="'Trebuchet MS',sans-serif" font-size="10" fill="#333">, tet</text>
+      <text x="256" y="326" font-family="'Trebuchet MS',sans-serif" font-size="8" fill="#333">r</text>
+      <text x="30" y="350" font-family="'Trebuchet MS',sans-serif" font-size="10" fill="#be123c">✗ = Recombinant: amp</text>
+      <text x="160" y="345" font-family="'Trebuchet MS',sans-serif" font-size="8" fill="#be123c">r</text>
+      <text x="165" y="350" font-family="'Trebuchet MS',sans-serif" font-size="10" fill="#be123c">, tet</text>
+      <text x="188" y="345" font-family="'Trebuchet MS',sans-serif" font-size="8" fill="#be123c">s</text>
+      <text x="193" y="350" font-family="'Trebuchet MS',sans-serif" font-size="10" fill="#be123c"> (absent from tet plate → pick from amp master plate)</text>
+    </svg>
+  </div>
+
+  <!-- ============================================================
+       DIAGRAM 3: BLUE-WHITE SELECTION (detailed)
+       ============================================================ -->
+  <div class="dtitle">Fig. 3 — Blue-White Selection: Molecular Mechanism &amp; Colony Appearance</div>
+  <div class="dbox">
+    <svg viewBox="0 0 600 480" xmlns="http://www.w3.org/2000/svg" aria-label="Blue-white selection mechanism">
+      <defs>
+        <marker id="bw1" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L0,8 L8,4 z" fill="#1565c0"/></marker>
+        <marker id="bw2" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L0,8 L8,4 z" fill="#047857"/></marker>
+      </defs>
+
+      <!-- ===== LEFT: BLUE COLONY PATHWAY ===== -->
+      <text x="145" y="18" text-anchor="middle" font-family="Palatino,serif" font-size="13" font-weight="700" fill="#1565c0">🔵 NON-RECOMBINANT → BLUE</text>
+
+      <!-- pUC19 no insert -->
+      <circle cx="145" cy="80" r="48" fill="none" stroke="#071e2e" stroke-width="8"/>
+      <!-- lacZ arc intact -->
+      <path d="M 145 32 A 48 48 0 0 1 193 80" fill="none" stroke="#1565c0" stroke-width="12" stroke-linecap="round"/>
+      <!-- amp arc -->
+      <path d="M 193 80 A 48 48 0 1 1 145 32" fill="none" stroke="#047857" stroke-width="10" stroke-linecap="round"/>
+      <text x="145" y="76" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="10" font-weight="700" fill="#071e2e">pUC19</text>
+      <text x="145" y="90" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#1565c0">lacZ intact</text>
+      <text x="190" y="58" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#1565c0">lacZ-α</text>
+      <text x="88" y="60" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#047857">amp</text>
+      <text x="108" y="55" font-family="'Trebuchet MS',sans-serif" font-size="8" fill="#047857">r</text>
+
+      <!-- Arrow: IPTG induces -->
+      <line x1="145" y1="132" x2="145" y2="158" stroke="#1565c0" stroke-width="2" marker-end="url(#bw1)"/>
+      <rect x="88" y="140" width="114" height="16" rx="4" fill="#dbeafe"/>
+      <text x="145" y="151" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#1565c0">IPTG induces lacZ-α</text>
+
+      <!-- β-gal box -->
+      <rect x="70" y="162" width="150" height="40" rx="8" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+      <text x="145" y="180" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="11" font-weight="700" fill="#071e2e">β-galactosidase</text>
+      <text x="145" y="194" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#d97706">(functional enzyme)</text>
+
+      <!-- Arrow: cleaves X-gal -->
+      <line x1="145" y1="205" x2="145" y2="228" stroke="#1565c0" stroke-width="2" marker-end="url(#bw1)"/>
+      <text x="155" y="222" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#1565c0">cleaves X-gal</text>
+
+      <!-- X-gal box -->
+      <rect x="70" y="232" width="150" height="38" rx="8" fill="#dbeafe" stroke="#1565c0" stroke-width="2"/>
+      <text x="145" y="249" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="10.5" font-weight="700" fill="#071e2e">5-bromo-4-chloro-indigo</text>
+      <text x="145" y="263" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#1565c0">(BLUE insoluble compound)</text>
+
+      <!-- Blue colony result -->
+      <circle cx="145" cy="340" r="35" fill="#1565c0" stroke="#0d47a1" stroke-width="3"/>
+      <text x="145" y="337" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="13" fill="#fff" font-weight="800">BLUE</text>
+      <text x="145" y="352" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#b3d4ff">COLONY</text>
+      <text x="145" y="390" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="10.5" fill="#be123c" font-weight="700">✗ Do NOT pick</text>
+      <text x="145" y="405" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#496570">No insert in MCS</text>
+      <text x="145" y="418" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#496570">Non-recombinant transformant</text>
+
+      <!-- DIVIDER -->
+      <line x1="305" y1="10" x2="305" y2="470" stroke="#e5e7eb" stroke-width="2" stroke-dasharray="6,4"/>
+      <text x="305" y="8" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="10" fill="#9ca3af">vs</text>
+
+      <!-- ===== RIGHT: WHITE COLONY PATHWAY ===== -->
+      <text x="455" y="18" text-anchor="middle" font-family="Palatino,serif" font-size="13" font-weight="700" fill="#333">⚪ RECOMBINANT → WHITE</text>
+
+      <!-- pUC19 WITH insert -->
+      <circle cx="455" cy="80" r="48" fill="none" stroke="#071e2e" stroke-width="8"/>
+      <!-- lacZ arc disrupted (dashed) -->
+      <path d="M 455 32 A 48 48 0 0 1 503 80" fill="none" stroke="#1565c0" stroke-width="8" stroke-dasharray="7,5" stroke-linecap="round"/>
+      <!-- amp arc intact -->
+      <path d="M 503 80 A 48 48 0 1 1 455 32" fill="none" stroke="#047857" stroke-width="10" stroke-linecap="round"/>
+      <!-- Insert block on MCS -->
+      <rect x="434" y="26" width="42" height="14" rx="5" fill="#b2edf5" stroke="#0d9db8" stroke-width="2"/>
+      <text x="455" y="37" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="8.5" fill="#071e2e" font-weight="700">INSERT in MCS</text>
+      <text x="455" y="76" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="10" font-weight="700" fill="#071e2e">pUC19</text>
+      <text x="455" y="90" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#be123c">lacZ disrupted</text>
+      <text x="500" y="58" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#be123c">lacZ-α</text>
+      <text x="499" y="68" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#be123c">broken</text>
+      <text x="400" y="60" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#047857">amp</text>
+      <text x="420" y="55" font-family="'Trebuchet MS',sans-serif" font-size="8" fill="#047857">r</text>
+
+      <!-- Arrow -->
+      <line x1="455" y1="132" x2="455" y2="158" stroke="#999" stroke-width="2" stroke-dasharray="4,3"/>
+      <rect x="390" y="140" width="130" height="16" rx="4" fill="#f0f0f0"/>
+      <text x="455" y="151" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#888">IPTG added (no effect)</text>
+
+      <!-- Non-functional β-gal -->
+      <rect x="380" y="162" width="150" height="40" rx="8" fill="#ffe4e6" stroke="#be123c" stroke-width="2"/>
+      <text x="455" y="180" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="11" font-weight="700" fill="#071e2e">β-galactosidase</text>
+      <text x="455" y="194" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#be123c">(non-functional)</text>
+      <!-- X through -->
+      <line x1="385" y1="165" x2="525" y2="198" stroke="#be123c" stroke-width="2" opacity=".5"/>
+
+      <!-- Arrow: cannot cleave X-gal -->
+      <line x1="455" y1="205" x2="455" y2="228" stroke="#999" stroke-width="2" stroke-dasharray="4,3"/>
+      <text x="488" y="222" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#888">X-gal NOT cleaved</text>
+
+      <!-- X-gal stays colourless -->
+      <rect x="380" y="232" width="150" height="38" rx="8" fill="#f5f5f5" stroke="#aaa" stroke-width="2"/>
+      <text x="455" y="249" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="10.5" font-weight="700" fill="#444">X-gal remains</text>
+      <text x="455" y="263" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#666">colourless (no blue pigment)</text>
+
+      <!-- White colony result -->
+      <circle cx="455" cy="340" r="35" fill="#ffffff" stroke="#444" stroke-width="3"/>
+      <text x="455" y="337" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="13" fill="#222" font-weight="800">WHITE</text>
+      <text x="455" y="352" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#666">COLONY</text>
+      <text x="455" y="390" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="10.5" fill="#047857" font-weight="700">✓ Pick this colony!</text>
+      <text x="455" y="405" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#496570">Insert in MCS disrupted lacZ</text>
+      <text x="455" y="418" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#496570">Recombinant transformant</text>
+
+      <!-- Plate label at bottom -->
+      <text x="300" y="458" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="10.5" fill="#071e2e" font-weight="700">Medium: LB + Ampicillin + X-gal (40 µg/mL) + IPTG (0.1 mM)</text>
+    </svg>
+  </div>
+
+  <!-- ============================================================
+       DIAGRAM 4: COLONY HYBRIDIZATION (step-by-step)
+       ============================================================ -->
+  <div class="dtitle">Fig. 4 — Colony Hybridization: Step-by-Step Probe Detection</div>
+  <div class="dbox">
+    <svg viewBox="0 0 600 420" xmlns="http://www.w3.org/2000/svg" aria-label="Colony hybridization steps">
+      <defs>
+        <marker id="ch1" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L0,8 L8,4 z" fill="#047857"/></marker>
+      </defs>
+
+      <!-- Step 1: Master plate -->
+      <text x="65" y="18" text-anchor="middle" font-family="Palatino,serif" font-size="11" font-weight="700" fill="#071e2e">① Master Plate</text>
+      <ellipse cx="65" cy="75" rx="50" ry="38" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+      <!-- Colonies with one target (+) -->
+      <circle cx="42" cy="65" r="8"  fill="#047857"/>
+      <circle cx="62" cy="58" r="8"  fill="#047857"/>
+      <circle cx="82" cy="63" r="8"  fill="#047857"/>
+      <circle cx="50" cy="82" r="8"  fill="#047857"/>
+      <circle cx="73" cy="80" r="9"  fill="#047857" stroke="#d97706" stroke-width="2"/><!-- TARGET -->
+      <circle cx="92" cy="77" r="8"  fill="#047857"/>
+      <text x="73" y="83" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#fff">★</text>
+      <text x="65" y="124" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#d97706">Keep master plate!</text>
+
+      <!-- Arrow + membrane -->
+      <line x1="117" y1="75" x2="148" y2="75" stroke="#047857" stroke-width="2.5" marker-end="url(#ch1)"/>
+      <text x="132" y="67" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="8.5" fill="#047857">transfer</text>
+
+      <!-- Step 2: Membrane transfer -->
+      <text x="200" y="18" text-anchor="middle" font-family="Palatino,serif" font-size="11" font-weight="700" fill="#071e2e">② Nylon Membrane</text>
+      <rect x="152" y="48" width="98" height="55" rx="4" fill="#f5f5f5" stroke="#444" stroke-width="2.5"/>
+      <circle cx="172" cy="67" r="7"  fill="#047857" opacity=".7"/>
+      <circle cx="191" cy="60" r="7"  fill="#047857" opacity=".7"/>
+      <circle cx="211" cy="65" r="7"  fill="#047857" opacity=".7"/>
+      <circle cx="180" cy="83" r="7"  fill="#047857" opacity=".7"/>
+      <circle cx="202" cy="81" r="8"  fill="#047857" opacity=".7" stroke="#d97706" stroke-width="1.5"/><!-- TARGET -->
+      <circle cx="222" cy="77" r="7"  fill="#047857" opacity=".7"/>
+      <text x="202" y="84" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#fff">★</text>
+      <text x="200" y="118" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#444">Colony imprint on membrane</text>
+
+      <!-- Arrow: lysis -->
+      <line x1="253" y1="75" x2="283" y2="75" stroke="#047857" stroke-width="2.5" marker-end="url(#ch1)"/>
+      <text x="268" y="65" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="8.5" fill="#be123c">NaOH lysis</text>
+      <text x="268" y="76" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="8.5" fill="#be123c">+ denature</text>
+
+      <!-- Step 3: ssDNA fixed on membrane -->
+      <text x="350" y="18" text-anchor="middle" font-family="Palatino,serif" font-size="11" font-weight="700" fill="#071e2e">③ DNA Fixed (ssDNA)</text>
+      <rect x="288" y="48" width="124" height="55" rx="4" fill="#fffde7" stroke="#d97706" stroke-width="2"/>
+      <!-- DNA squiggles at colony positions -->
+      <path d="M 308 65 Q 315 60 322 65" fill="none" stroke="#0369a1" stroke-width="2"/>
+      <path d="M 325 60 Q 332 55 339 60" fill="none" stroke="#0369a1" stroke-width="2"/>
+      <path d="M 350 63 Q 357 58 364 63" fill="none" stroke="#0369a1" stroke-width="2"/>
+      <path d="M 315 80 Q 322 75 329 80" fill="none" stroke="#0369a1" stroke-width="2"/>
+      <!-- Target ss-DNA (highlighted) -->
+      <path d="M 340 80 Q 347 74 354 80 Q 361 86 368 80" fill="none" stroke="#0d9db8" stroke-width="3"/>
+      <text x="354" y="76" font-family="'Trebuchet MS',sans-serif" font-size="8" fill="#0d9db8">★</text>
+      <path d="M 370 77 Q 377 72 384 77" fill="none" stroke="#0369a1" stroke-width="2"/>
+      <text x="350" y="118" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#444">ss-DNA baked/UV fixed</text>
+      <text x="350" y="130" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#0d9db8">★ = target gene ssDNA</text>
+
+      <!-- Arrow: probe -->
+      <line x1="415" y1="75" x2="446" y2="75" stroke="#047857" stroke-width="2.5" marker-end="url(#ch1)"/>
+      <text x="430" y="64" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="8.5" fill="#6d28d9">labelled</text>
+      <text x="430" y="75" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="8.5" fill="#6d28d9">probe added</text>
+
+      <!-- Step 4: Hybridization -->
+      <text x="513" y="18" text-anchor="middle" font-family="Palatino,serif" font-size="11" font-weight="700" fill="#071e2e">④ Hybridization</text>
+      <rect x="448" y="48" width="130" height="55" rx="4" fill="#ede9fe" stroke="#6d28d9" stroke-width="2"/>
+      <!-- Probe annealed to target -->
+      <path d="M 468 67 Q 475 62 482 67" fill="none" stroke="#0369a1" stroke-width="2"/>
+      <path d="M 485 62 Q 492 57 499 62" fill="none" stroke="#0369a1" stroke-width="2"/>
+      <path d="M 510 65 Q 517 60 524 65" fill="none" stroke="#0369a1" stroke-width="2"/>
+      <path d="M 473 82 Q 480 77 487 82" fill="none" stroke="#0369a1" stroke-width="2"/>
+      <!-- Probe bound to target site (purple+teal) -->
+      <path d="M 500 82 Q 507 76 514 82 Q 521 88 528 82" fill="none" stroke="#0d9db8" stroke-width="3"/>
+      <path d="M 500 82 Q 507 88 514 82 Q 521 76 528 82" fill="none" stroke="#6d28d9" stroke-width="2.5" stroke-dasharray="4,2"/>
+      <!-- Probe label -->
+      <text x="514" y="96" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="8" fill="#6d28d9">★ probe</text>
+      <text x="514" y="107" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="8" fill="#6d28d9">bound (³²P)</text>
+      <text x="528" y="82" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#6d28d9"/>
+      <text x="475" y="118" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#6d28d9">Probe hybridises ONLY</text>
+      <text x="475" y="130" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#6d28d9">to complementary target</text>
+
+      <!-- Bottom section: Autoradiograph -->
+      <text x="130" y="168" text-anchor="middle" font-family="Palatino,serif" font-size="11" font-weight="700" fill="#071e2e">⑤ Wash</text>
+      <rect x="70" y="178" width="120" height="50" rx="4" fill="#f5f5f5" stroke="#444" stroke-width="2"/>
+      <text x="130" y="200" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#444">Wash off</text>
+      <text x="130" y="213" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#444">non-specific probe</text>
+      <text x="130" y="225" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#444">Only specific signal remains</text>
+
+      <!-- Arrow -->
+      <line x1="193" y1="203" x2="230" y2="203" stroke="#047857" stroke-width="2.5" marker-end="url(#ch1)"/>
+
+      <text x="310" y="168" text-anchor="middle" font-family="Palatino,serif" font-size="11" font-weight="700" fill="#071e2e">⑥ Autoradiograph (X-ray film)</text>
+      <rect x="225" y="178" width="170" height="80" rx="4" fill="#111" stroke="#444" stroke-width="2"/>
+      <!-- Dark spot = positive -->
+      <circle cx="338" cy="235" r="14" fill="#fff" opacity=".9"/>
+      <text x="338" y="239" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="10" fill="#111" font-weight="700">★</text>
+      <!-- Other dots (faint/absent) -->
+      <circle cx="265" cy="212" r="5" fill="#555" opacity=".3"/>
+      <circle cx="290" cy="218" r="5" fill="#555" opacity=".3"/>
+      <circle cx="312" cy="210" r="5" fill="#555" opacity=".3"/>
+      <circle cx="272" cy="238" r="5" fill="#555" opacity=".3"/>
+      <circle cx="358" cy="214" r="5" fill="#555" opacity=".3"/>
+      <text x="310" y="274" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#fff" font-style="italic">White spot = positive clone (★)</text>
+
+      <!-- Arrow -->
+      <line x1="398" y1="218" x2="428" y2="218" stroke="#047857" stroke-width="2.5" marker-end="url(#ch1)"/>
+
+      <text x="510" y="168" text-anchor="middle" font-family="Palatino,serif" font-size="11" font-weight="700" fill="#071e2e">⑦ Pick Positive Clone</text>
+      <!-- Master plate overlay -->
+      <ellipse cx="510" cy="230" rx="60" ry="40" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+      <circle cx="487" cy="220" r="8"  fill="#047857" opacity=".5"/>
+      <circle cx="507" cy="213" r="8"  fill="#047857" opacity=".5"/>
+      <circle cx="527" cy="218" r="8"  fill="#047857" opacity=".5"/>
+      <circle cx="495" cy="237" r="8"  fill="#047857" opacity=".5"/>
+      <!-- Positive colony highlighted -->
+      <circle cx="519" cy="235" r="10" fill="#047857" stroke="#d97706" stroke-width="2.5"/>
+      <text x="519" y="239" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="10" fill="#fff" font-weight="700">★</text>
+      <circle cx="538" cy="228" r="8"  fill="#047857" opacity=".5"/>
+      <text x="510" y="284" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#047857">Pick ★ colony from master plate</text>
+      <text x="510" y="298" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#047857">for further culture &amp; verification</text>
+
+      <!-- Bottom legend -->
+      <text x="300" y="340" text-anchor="middle" font-family="Palatino,serif" font-size="11" font-weight="700" fill="#071e2e">Key Elements of Colony Hybridization</text>
+      <rect x="20" y="352" width="560" height="60" rx="8" fill="#f3feff" stroke="#b2edf5" stroke-width="1.5"/>
+      <text x="30" y="370" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#071e2e"><tspan font-weight="700">Membrane:</tspan> Nitrocellulose or nylon</text>
+      <text x="30" y="384" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#071e2e"><tspan font-weight="700">Probe:</tspan> ³²P-labelled ssDNA/RNA complementary to gene of interest</text>
+      <text x="30" y="398" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#071e2e"><tspan font-weight="700">Detection:</tspan> Autoradiography (radioactive) or chemiluminescence (non-radioactive)</text>
+      <text x="310" y="370" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#071e2e"><tspan font-weight="700">Lysis:</tspan> NaOH treatment (alkali lysis + DNA denaturation)</text>
+      <text x="310" y="384" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#071e2e"><tspan font-weight="700">Hybridization:</tspan> Stringency controls non-specific binding</text>
+      <text x="310" y="398" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#071e2e"><tspan font-weight="700">Alignment:</tspan> Orientation marks align film to master plate</text>
+    </svg>
+  </div>
+
+</section>
+
+<!-- ============================================================
+     SECTION 7: COMPARISON TABLE
+     ============================================================ -->
+<section id="compare" class="card">
+  <div class="chip">Section 7</div>
+  <h2 class="sh">📋 Comparison of Screening and Selection Methods</h2>
+  <div class="tw">
+    <table>
+      <thead>
+        <tr><th>Feature</th><th>Direct Selection</th><th>Insertional Inactivation</th><th>Blue-White Selection</th><th>Colony Hybridization</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Type</strong></td><td>Selection</td><td>Screening</td><td>Screening</td><td>Screening</td></tr>
+        <tr><td><strong>Principle</strong></td><td>Antibiotic kills non-transformed cells; transformants survive</td><td>Insert disrupts marker gene (tet<sup>r</sup>); recombinants lose antibiotic resistance</td><td>Insert disrupts lacZ-α; no β-gal → no X-gal cleavage → white colony</td><td>Labelled probe hybridises to colony DNA; positive by autoradiography or fluorescence</td></tr>
+        <tr><td><strong>Marker / probe used</strong></td><td>Antibiotic resistance gene (amp<sup>r</sup>)</td><td>Two antibiotic resistance genes (amp<sup>r</sup> + tet<sup>r</sup>)</td><td>lacZ-α gene, X-gal, IPTG</td><td>Labelled ssDNA or RNA probe complementary to gene of interest</td></tr>
+        <tr><td><strong>Identification basis</strong></td><td>Growth vs no growth on antibiotic plate</td><td>Growth on amp plate but absence of growth on tet plate (replica plating)</td><td>White colony (recombinant) vs blue colony (non-recombinant) on X-gal plate</td><td>Dark spot on autoradiogram corresponding to colony position on master plate</td></tr>
+        <tr><td><strong>Identifies</strong></td><td>Transformed vs non-transformed cells</td><td>Recombinant vs non-recombinant transformants</td><td>Recombinant vs non-recombinant transformants</td><td>Colony with specific gene of interest</td></tr>
+        <tr><td><strong>Speed</strong></td><td>Fast (overnight)</td><td>Moderate (2 days — replica plating)</td><td>Fast (overnight, same plate)</td><td>Slow (2–5 days)</td></tr>
+        <tr><td><strong>Advantages</strong></td><td>Simple, reliable, essential first step</td><td>No special reagents; works for any insert</td><td>Rapid visual; same plate; no replica needed</td><td>Identifies specific insert; can screen thousands</td></tr>
+        <tr><td><strong>Limitations</strong></td><td>Cannot identify recombinant vs non-recombinant</td><td>Requires replica plating; recombinants absent (negative result)</td><td>Specific vector required; white ≠ necessarily correct insert</td><td>Requires known probe sequence; radioactive hazard; time-consuming</td></tr>
+        <tr><td><strong>Vector example</strong></td><td>pUC19, pBR322, any vector</td><td>pBR322 (BamHI site in tet<sup>r</sup>)</td><td>pUC19, pUC18, pBluescript</td><td>Any cloning vector</td></tr>
+        <tr><td><strong>Applications</strong></td><td>All gene cloning workflows (first step)</td><td>Genomic library screening; older cloning systems</td><td>Standard lab cloning; cDNA library plating</td><td>Screening cDNA/genomic libraries; identifying specific gene clones</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ============================================================
+     SECTION 8: INTERACTIVE WORKFLOW
+     ============================================================ -->
+<section id="flowsec" class="card">
+  <div class="chip">Section 8 — Workflow</div>
+  <h2 class="sh">🔄 Recombinant Screening Workflow — Click Each Step</h2>
+  <p style="color:var(--muted);font-size:.9rem;margin-bottom:10px;">Click any step to expand details.</p>
+  <div class="flow-row">
+    <div class="fbox" onclick="tfl(this)">
+      <div class="fnum">1</div>
+      <div class="ficon">🧬</div>
+      <div class="ftxt">Gene Cloning (Ligation)</div>
+      <div class="fdet">The gene of interest is ligated into a vector using restriction enzymes and T4 DNA ligase. The ligation mixture contains recombinant vectors, re-ligated vectors, and uncut vector.</div>
+    </div>
+    <div class="farr">→</div>
+    <div class="fbox" onclick="tfl(this)">
+      <div class="fnum">2</div>
+      <div class="ficon">🔄</div>
+      <div class="ftxt">Transformation into E. coli</div>
+      <div class="fdet">The ligation mixture is transformed into competent E. coli cells by heat shock (42°C) or electroporation. Only 1 in 10³–10⁵ cells takes up any vector.</div>
+    </div>
+    <div class="farr">→</div>
+    <div class="fbox" onclick="tfl(this)">
+      <div class="fnum">3</div>
+      <div class="ficon">💊</div>
+      <div class="ftxt">Direct Selection (Antibiotic)</div>
+      <div class="fdet">Cells are plated on LB + ampicillin. Non-transformed cells die. Only cells carrying the vector survive. This step reduces millions of cells to thousands of transformants.</div>
+    </div>
+    <div class="farr">→</div>
+    <div class="fbox" onclick="tfl(this)">
+      <div class="fnum">4</div>
+      <div class="ficon">🔵⚪</div>
+      <div class="ftxt">Blue-White Screening or Insertional Inactivation</div>
+      <div class="fdet">Blue-white: white colonies on X-gal/IPTG plates = recombinant. Insertional inactivation: amp-resistant but tet-sensitive (replica plating) = recombinant. Narrows transformants to potential recombinants.</div>
+    </div>
+    <div class="farr">→</div>
+    <div class="fbox" onclick="tfl(this)">
+      <div class="fnum">5</div>
+      <div class="ficon">🔍</div>
+      <div class="ftxt">Colony Hybridization (Probe Screen)</div>
+      <div class="fdet">Colonies are transferred to membrane, lysed, and probed with labelled DNA. Only colonies with the specific gene of interest give a positive signal. Confirms the correct recombinant clone.</div>
+    </div>
+    <div class="farr">→</div>
+    <div class="fbox" onclick="tfl(this)">
+      <div class="fnum">6</div>
+      <div class="ficon">✅</div>
+      <div class="ftxt">Verify &amp; Amplify</div>
+      <div class="fdet">Positive clones confirmed by restriction enzyme analysis, PCR, or DNA sequencing. Verified clone grown in large-scale liquid culture for DNA isolation or protein expression.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SECTION 9: INTERACTIVE LEARNING
+     ============================================================ -->
+<section id="interactive" class="card">
+  <div class="chip">Section 9 — Interactive</div>
+  <h2 class="sh">🎮 Interactive Learning</h2>
+
+  <div class="ai">
+    <button class="ah" onclick="tacc(this)">
+      <span>💊 Direct Selection — Exam Key Points</span>
+      <span class="aico">+</span>
+    </button>
+    <div class="ab">
+      <span class="vpill">Selection Method</span>
+      <ul>
+        <li>Uses antibiotic resistance gene on the vector as a <strong>selectable marker</strong>.</li>
+        <li>Cells plated on antibiotic medium — only transformed cells (carrying vector) survive.</li>
+        <li>Result: all surviving colonies are transformants (have taken up some vector).</li>
+        <li><strong>Does NOT identify recombinants</strong> — a second step is always required.</li>
+        <li>Most common markers: amp<sup>r</sup> (ampicillin), kan<sup>r</sup> (kanamycin), neo<sup>r</sup> (neomycin).</li>
+      </ul>
+      <div class="ib"><strong>Exam tip:</strong> Direct selection = POSITIVE selection. Cells that survive ARE transformed. It is the FIRST step in all gene cloning workflows but cannot distinguish recombinant from non-recombinant transformants.</div>
+    </div>
+  </div>
+
+  <div class="ai">
+    <button class="ah" onclick="tacc(this)">
+      <span>🔴 Insertional Inactivation — Exam Key Points</span>
+      <span class="aico">+</span>
+    </button>
+    <div class="ab">
+      <span class="vpill">Screening Method</span>
+      <ul>
+        <li>Principle: insert into restriction site within a marker gene disrupts that gene's function.</li>
+        <li>Classic example: <strong>pBR322</strong>. Insert at BamHI site (in tet<sup>r</sup>) → tet<sup>r</sup> disrupted.</li>
+        <li>Recombinants: <strong>amp<sup>r</sup>, tet<sup>s</sup></strong>. Non-recombinants: <strong>amp<sup>r</sup>, tet<sup>r</sup></strong>.</li>
+        <li>Identified by <strong>replica plating</strong> — absent colonies on tet plate = recombinants.</li>
+        <li>Limitation: identified by ABSENCE of growth — easy to overlook; needs careful comparison.</li>
+      </ul>
+      <div class="ib rose"><strong>Exam tip:</strong> Always remember: in pBR322 insertional inactivation, recombinant colonies are amp<sup>r</sup> but tet<sup>s</sup>. They are identified on the amp plate as colonies ABSENT from the replica tet plate.</div>
+    </div>
+  </div>
+
+  <div class="ai">
+    <button class="ah" onclick="tacc(this)">
+      <span>🔵⚪ Blue-White Selection — Exam Key Points</span>
+      <span class="aico">+</span>
+    </button>
+    <div class="ab">
+      <span class="vpill">Screening Method</span>
+      <ul>
+        <li>Vector: pUC19 (or pUC18, pBluescript) — contains lacZ-α with MCS within it.</li>
+        <li>Medium: LB + ampicillin + <strong>X-gal</strong> (40 µg/mL) + <strong>IPTG</strong> (0.1 mM).</li>
+        <li>No insert → lacZ-α intact → β-gal cleaves X-gal → <strong>blue colony</strong> = non-recombinant.</li>
+        <li>Insert in MCS → lacZ-α disrupted → no β-gal → X-gal not cleaved → <strong>white colony</strong> = recombinant.</li>
+        <li>Requires lacZ-α-deleted host strains (e.g., DH5α, JM109) for α-complementation to work.</li>
+      </ul>
+      <div class="ib sky"><strong>Exam tip (memory trick):</strong> Blue = Boring (no insert). White = Winner (has insert). X-gal is NOT a selective antibiotic — it is a chromogenic SUBSTRATE. IPTG is NOT an antibiotic — it is the lac INDUCER.</div>
+    </div>
+  </div>
+
+  <div class="ai">
+    <button class="ah" onclick="tacc(this)">
+      <span>🟢 Colony Hybridization — Exam Key Points</span>
+      <span class="aico">+</span>
+    </button>
+    <div class="ab">
+      <span class="vpill">Screening Method</span>
+      <ul>
+        <li>The most <strong>specific</strong> method — identifies the colony with the exact gene of interest.</li>
+        <li>Based on complementary base-pairing between probe and target DNA.</li>
+        <li>Probe: ³²P-labelled ssDNA/RNA complementary to gene of interest.</li>
+        <li>Key steps: colony transfer → lysis (NaOH) → denature DNA → bake/UV fix → block → probe → wash → autoradiograph → align to master plate → pick positive.</li>
+        <li>Can screen thousands of colonies in a single experiment.</li>
+        <li>Works even when blue-white or insertional inactivation cannot identify the specific correct insert.</li>
+      </ul>
+      <div class="ib green"><strong>Exam tip:</strong> Colony hybridization is the ONLY method that confirms the specific gene of interest is present — all other methods just confirm an insert is present. Know the 7 steps in correct order!</div>
+    </div>
+  </div>
+
+  <h3 style="margin-top:20px;">Click-to-Reveal Key Terms</h3>
+  <div class="rg">
+    <div class="rc" onclick="this.classList.toggle('flipped')">
+      <div class="rf">Recombinant Clone<div class="rh">Click to reveal</div></div>
+      <div class="rb">A bacterial colony derived from a single cell that has been transformed with a recombinant vector — a vector containing the gene of interest inserted into its cloning site. The colony contains many copies of the recombinant DNA.</div>
+    </div>
+    <div class="rc" onclick="this.classList.toggle('flipped')">
+      <div class="rf">Selectable Marker<div class="rh">Click to reveal</div></div>
+      <div class="rb">A gene on the vector (usually an antibiotic resistance gene) used for selection — only cells carrying the vector survive on medium with the corresponding antibiotic. Examples: amp^r (ampicillin), kan^r (kanamycin), tet^r (tetracycline).</div>
+    </div>
+    <div class="rc" onclick="this.classList.toggle('flipped')">
+      <div class="rf">Insertional Inactivation<div class="rh">Click to reveal</div></div>
+      <div class="rb">Disruption of a selectable marker gene by insertion of foreign DNA into a restriction site within it. Loss of that marker's function signals successful insert cloning. Used with pBR322: insert into BamHI (tet^r) → recombinants are amp^r, tet^s.</div>
+    </div>
+    <div class="rc" onclick="this.classList.toggle('flipped')">
+      <div class="rf">lacZ Gene<div class="rh">Click to reveal</div></div>
+      <div class="rb">Gene encoding β-galactosidase in E. coli. In pUC vectors, the lacZ-α fragment (with MCS within it) is used for blue-white screening. When lacZ-α is disrupted by an insert, no functional β-galactosidase forms — colony remains white.</div>
+    </div>
+    <div class="rc" onclick="this.classList.toggle('flipped')">
+      <div class="rf">X-gal<div class="rh">Click to reveal</div></div>
+      <div class="rb">5-Bromo-4-chloro-3-indolyl-β-D-galactopyranoside. A colourless synthetic substrate for β-galactosidase. When cleaved, it releases 5-bromo-4-chloro-indigo — a bright blue compound. Used at 40 µg/mL in blue-white screening plates.</div>
+    </div>
+    <div class="rc" onclick="this.classList.toggle('flipped')">
+      <div class="rf">IPTG<div class="rh">Click to reveal</div></div>
+      <div class="rb">Isopropyl β-D-1-thiogalactopyranoside. A non-hydrolysable inducer of the lac operon. Induces expression of the lacZ-α gene in pUC vectors for blue-white screening. Added at 0.1 mM to blue-white plates alongside X-gal.</div>
+    </div>
+    <div class="rc" onclick="this.classList.toggle('flipped')">
+      <div class="rf">Nucleic Acid Probe<div class="rh">Click to reveal</div></div>
+      <div class="rb">A short labelled single-stranded DNA or RNA sequence complementary to the gene of interest. Used in colony hybridization to identify colonies carrying the target gene by sequence-specific hybridisation. Labelled with ³²P (radioactive) or digoxigenin/biotin (non-radioactive).</div>
+    </div>
+    <div class="rc" onclick="this.classList.toggle('flipped')">
+      <div class="rf">Replica Plating<div class="rh">Click to reveal</div></div>
+      <div class="rb">A technique where an exact copy of colonies from one plate is made on a second plate using a sterile velvet pad. Used in insertional inactivation: colonies present on amp plate but absent on tet plate are recombinants (tet^r gene disrupted by insert).</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SECTION 10: QUIZ
+     ============================================================ -->
+<section id="quiz" class="card">
+  <div class="chip">Section 10 — Quiz</div>
+  <h2 class="sh">📝 Test Your Knowledge — MCQ Quiz</h2>
+  <p style="color:var(--muted);font-size:.9rem;margin-bottom:18px;">10 MCQs with immediate feedback. Final score shown at the end.</p>
+  <div class="qprog" id="qprog"></div>
+  <div id="qarea">
+    <div class="qcard">
+      <div class="qno"   id="qno"></div>
+      <div class="qtxt"  id="qtxt"></div>
+      <div class="qopts" id="qopts"></div>
+      <div class="qfb"   id="qfb"></div>
+      <button class="bnxt" id="bnxt" onclick="nextQ()">Next Question</button>
+    </div>
+  </div>
+  <div class="qres" id="qres">
+    <div class="sring" id="sring"></div>
+    <h3 id="smsg"></h3>
+    <p id="sdtl" style="color:var(--muted);margin:8px 0 14px;"></p>
+    <button class="bretry" onclick="initQ()">Retry Quiz</button>
+  </div>
+</section>
+
+<!-- ============================================================
+     SECTION 11: SUMMARY
+     ============================================================ -->
+<section id="summary" class="card">
+  <div class="chip">Section 11</div>
+  <h2 class="sh">📌 Summary — Key Exam Points</h2>
+  <div class="sg">
+    <div class="sp"><strong>Need for Screening</strong>After transformation, all colony types look identical. Selection/screening is essential to identify cells with the correct recombinant vector among transformed and non-transformed cells.</div>
+    <div class="sp"><strong>Selection vs Screening</strong>Selection = cells either survive or die (antibiotic). Screening = all cells survive but a signal distinguishes recombinants (colour, probe signal).</div>
+    <div class="sp"><strong>Direct Selection</strong>Antibiotic resistance on vector. Only transformants survive. Does NOT distinguish recombinant from non-recombinant. FIRST step always.</div>
+    <div class="sp"><strong>Insertional Inactivation</strong>pBR322 example. Insert into BamHI site disrupts tet^r. Recombinants: amp^r, tet^s. Identified by replica plating. Recombinants absent from tet plate.</div>
+    <div class="sp"><strong>Blue-White Selection</strong>pUC19 vector. Insert in MCS disrupts lacZ-α. Blue = non-recombinant (lacZ intact, X-gal cleaved). White = recombinant (lacZ disrupted). Needs X-gal + IPTG in medium.</div>
+    <div class="sp"><strong>Colony Hybridization</strong>Most specific method. Labelled probe hybridises to target gene. Steps: colony blot → lysis (NaOH) → DNA fixation → probe → wash → autoradiograph → pick from master plate.</div>
+    <div class="sp"><strong>X-gal</strong>Colourless β-galactosidase substrate. Cleaved by intact β-gal → blue compound. NOT an antibiotic — a chromogenic substrate.</div>
+    <div class="sp"><strong>IPTG</strong>Non-hydrolysable lac operon inducer. Ensures lacZ-α is expressed for blue-white screening. NOT an antibiotic — a transcriptional inducer.</div>
+    <div class="sp"><strong>pBR322 vs pUC19</strong>pBR322 → insertional inactivation (two antibiotic genes: amp^r + tet^r). pUC19 → blue-white selection (lacZ-α + MCS). Both also used with direct antibiotic selection.</div>
+    <div class="sp"><strong>Probe in Colony Hybridization</strong>³²P-labelled ssDNA or RNA. Complementary to gene of interest. After hybridisation and washing, positive colonies detected by autoradiography on X-ray film.</div>
+    <div class="sp"><strong>α-Complementation</strong>In blue-white, the vector supplies lacZ-α fragment and the host (DH5α, JM109) supplies lacZ-ω. Together they form active β-galactosidase. Insert disrupts α-peptide → no complementation → white colony.</div>
+    <div class="sp"><strong>Correct Workflow Order</strong>Transform → plate on antibiotic (direct selection) → screen for recombinant (blue-white or insertional inactivation) → confirm with colony hybridization or PCR → verify by sequencing.</div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SECTION 12: GLOSSARY
+     ============================================================ -->
+<section id="glossary" class="card">
+  <div class="chip">Section 12</div>
+  <h2 class="sh">📖 Glossary</h2>
+  <div class="gg">
+    <div class="gc"><div class="gt">Recombinant</div><div class="gd">A cell or organism containing foreign DNA that has been introduced into its genome or as an episomal element. In gene cloning, a recombinant clone is a bacterial colony carrying a vector with the gene of interest inserted into its MCS.</div></div>
+    <div class="gc"><div class="gt">Selectable Marker</div><div class="gd">A gene (typically an antibiotic resistance gene) on a cloning vector used to identify transformed host cells. Only cells expressing the marker gene survive on selective medium. Examples: amp^r, kan^r, tet^r, neo^r.</div></div>
+    <div class="gc"><div class="gt">Insertional Inactivation</div><div class="gd">The disruption of a marker gene's function by inserting foreign DNA into a restriction site within it. Used to distinguish recombinant (marker-inactive) from non-recombinant (marker-active) transformants. Classic example: pBR322 tet^r disrupted by insert at BamHI site.</div></div>
+    <div class="gc"><div class="gt">lacZ</div><div class="gd">The E. coli gene encoding β-galactosidase. In pUC vectors, the lacZ-α fragment (with MCS within it) is used for blue-white screening. An insert in the MCS disrupts lacZ-α → no functional β-galactosidase → colony remains white (recombinant).</div></div>
+    <div class="gc"><div class="gt">X-gal</div><div class="gd">5-Bromo-4-chloro-3-indolyl-β-D-galactopyranoside. A colourless chromogenic substrate for β-galactosidase. Cleavage by active β-gal releases a blue insoluble compound (5-bromo-4-chloro-indigo), producing blue colonies in blue-white screening.</div></div>
+    <div class="gc"><div class="gt">IPTG</div><div class="gd">Isopropyl β-D-1-thiogalactopyranoside. A non-metabolisable inducer of the E. coli lac operon. Induces expression of lacZ-α in pUC vectors during blue-white screening, ensuring sufficient β-galactosidase production for a visible blue signal.</div></div>
+    <div class="gc"><div class="gt">Probe (Nucleic Acid)</div><div class="gd">A labelled single-stranded DNA or RNA molecule complementary to a specific target sequence. Used in colony hybridization to identify colonies containing the gene of interest by sequence-specific base pairing. Labelled with ³²P, digoxigenin, or biotin.</div></div>
+    <div class="gc"><div class="gt">Colony Hybridization</div><div class="gd">A molecular screening technique where bacterial colonies are transferred to a membrane, lysed, DNA denatured and fixed, and then probed with a labelled nucleic acid probe. Positive colonies (hybridised to probe) are detected by autoradiography and picked from the master plate.</div></div>
+    <div class="gc"><div class="gt">Replica Plating</div><div class="gd">A technique for making an exact copy of colony positions from one plate to another, using a sterile velvet pad. Used in insertional inactivation to compare growth on ampicillin vs tetracycline plates to identify recombinants (absent on tet plate = amp^r, tet^s).</div></div>
+    <div class="gc"><div class="gt">α-Complementation</div><div class="gd">The reconstitution of functional β-galactosidase by combining the lacZ-α peptide (from pUC vector) with the lacZ-ω peptide (from host strain). An insert in the MCS disrupts lacZ-α → no complementation → no functional β-gal → white colony (recombinant).</div></div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SECTION 13: EXAM QUESTIONS
+     ============================================================ -->
+<section id="examqs" class="card">
+  <div class="chip">Section 13</div>
+  <h2 class="sh">🎓 Frequently Asked University Exam Questions</h2>
+  <p style="color:var(--muted);font-size:.9rem;margin-bottom:16px;">Click each question to expand answer hints.</p>
+
+  <div class="eq">
+    <button class="eqt" onclick="teq(this)">
+      <span>1. What is the difference between selection and screening in the context of gene cloning? Give one example of each.</span>
+      <span>&#9660;</span>
+    </button>
+    <div class="eqb">
+      <strong>Answer Hints:</strong>
+      <ul>
+        <li><strong>Selection:</strong> An active process where only cells with the desired property survive on selective medium; non-selected cells are eliminated. Example: plating transformed E. coli on ampicillin — only cells with the vector (carrying amp^r gene) survive; non-transformed cells die.</li>
+        <li><strong>Screening:</strong> A passive process where all cells survive, but a detectable signal (colour, probe signal) allows identification of cells with the desired property without killing others. Example: blue-white screening — all transformants survive, but recombinants form white colonies while non-recombinants form blue colonies.</li>
+        <li>Key difference: selection = growth/no growth; screening = identifying among surviving colonies.</li>
+        <li>Selection is always step 1 (reduces to transformants); screening is step 2 (identifies recombinants among transformants).</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="eq">
+    <button class="eqt" onclick="teq(this)">
+      <span>2. Describe insertional inactivation using pBR322. How are recombinant clones identified?</span>
+      <span>&#9660;</span>
+    </button>
+    <div class="eqb">
+      <strong>Answer Hints:</strong>
+      <ul>
+        <li>pBR322 has two antibiotic resistance genes: amp^r and tet^r. The tet^r gene contains unique restriction sites BamHI, SalI, and ClaI.</li>
+        <li>When the gene of interest is cloned into the BamHI site (within tet^r), the tet^r gene is disrupted → recombinant cells become tetracycline-sensitive.</li>
+        <li>After transformation, cells are plated on LB + ampicillin → all transformants (both recombinant and non-recombinant) grow.</li>
+        <li>Replica plating to LB + tetracycline: non-recombinants (intact tet^r) grow on both plates; recombinants (disrupted tet^r) grow only on amp plate — ABSENT on tet plate.</li>
+        <li>Recombinants identified as colonies present on amp plate but absent on tet plate. These are picked from the original amp master plate.</li>
+        <li>Result: amp^r, tet^s = recombinant. amp^r, tet^r = non-recombinant.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="eq">
+    <button class="eqt" onclick="teq(this)">
+      <span>3. Explain blue-white selection. Why are white colonies considered recombinants in this system?</span>
+      <span>&#9660;</span>
+    </button>
+    <div class="eqb">
+      <strong>Answer Hints:</strong>
+      <ul>
+        <li>Blue-white selection uses pUC vectors (e.g., pUC19) that carry the lacZ-α gene with the MCS inserted within it.</li>
+        <li>Medium: LB + ampicillin (to select transformants) + X-gal (chromogenic substrate for β-gal) + IPTG (lac operon inducer).</li>
+        <li><strong>Without insert:</strong> lacZ-α is intact → IPTG induces expression → functional β-galactosidase α-peptide produced (by α-complementation with host lacZ-ω) → β-gal cleaves X-gal → blue compound → BLUE colony = non-recombinant.</li>
+        <li><strong>With insert in MCS:</strong> lacZ-α reading frame is disrupted → no functional α-peptide → no α-complementation → β-gal cannot cleave X-gal → no blue compound → colony remains WHITE = recombinant.</li>
+        <li>Therefore, white colonies have an insert disrupting lacZ → they are recombinant transformants. White ≠ necessarily has the correct insert — further confirmation needed (PCR, restriction analysis, sequencing).</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="eq">
+    <button class="eqt" onclick="teq(this)">
+      <span>4. Describe the steps involved in colony hybridization for identifying recombinant colonies.</span>
+      <span>&#9660;</span>
+    </button>
+    <div class="eqb">
+      <strong>Answer Hints:</strong>
+      <ul>
+        <li>1. <strong>Colony transfer:</strong> Replica nylon/nitrocellulose membrane placed on master plate — colonies adhere; membrane peeled off. Keep master plate as reference.</li>
+        <li>2. <strong>Cell lysis:</strong> Membrane treated with NaOH — cells lyse, DNA released and denatured into single strands.</li>
+        <li>3. <strong>DNA fixation:</strong> Membrane baked at 80°C (2 hrs) or UV-cross-linked — single-stranded DNA permanently immobilised on membrane.</li>
+        <li>4. <strong>Pre-hybridisation (blocking):</strong> Non-specific sites blocked with salmon sperm DNA/BSA to reduce background.</li>
+        <li>5. <strong>Probe hybridisation:</strong> ³²P-labelled ssDNA probe (complementary to gene of interest) added. Probe anneals only to complementary target sequences at appropriate stringency.</li>
+        <li>6. <strong>Washing:</strong> Non-specifically bound probe washed off with increasing stringency washes.</li>
+        <li>7. <strong>Detection:</strong> Membrane exposed to X-ray film (autoradiography) — positive colonies appear as dark spots.</li>
+        <li>8. <strong>Identification:</strong> Alignment marks used to match positive spots on film to corresponding colonies on master plate. Positive colonies picked for further analysis.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="eq">
+    <button class="eqt" onclick="teq(this)">
+      <span>5. Compare insertional inactivation and blue-white selection as methods of screening recombinants. Which is more convenient and why?</span>
+      <span>&#9660;</span>
+    </button>
+    <div class="eqb">
+      <strong>Answer Hints:</strong>
+      <ul>
+        <li><strong>Insertional Inactivation:</strong> Vector pBR322. Insert disrupts tet^r at BamHI site. Recombinants: amp^r, tet^s. Identified by REPLICA PLATING (negative result — absent from tet plate). Two plates needed. Takes 2 days. No special reagents.</li>
+        <li><strong>Blue-White Selection:</strong> Vector pUC19. Insert disrupts lacZ-α at MCS. Recombinants: white colonies. Non-recombinants: blue colonies. Identified on SAME plate (positive visual result). One plate, one step. Requires X-gal + IPTG.</li>
+        <li><strong>Blue-white is more convenient</strong> because: (a) results visible on the same plate without replica plating; (b) positive visual identification (white = recombinant) vs negative identification (absent from tet plate); (c) faster (overnight); (d) less technically demanding.</li>
+        <li>Both are used after direct antibiotic selection; neither confirms the CORRECT insert — only that some insert is present. Colony hybridization is still needed to confirm the specific gene.</li>
+      </ul>
+    </div>
+  </div>
+
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="fd">Department of Zoology, GASC, Nagercoil</div>
+  <div class="fa">Created by R. Ramesh</div>
+</footer>
+
+<button id="gtop" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">&#8593;</button>
+
+<!-- ============================================================
+     JAVASCRIPT
+     ============================================================ -->
+<script>
+/* NAVIGATION */
+function go(id){
+  var el=document.getElementById(id);
+  if(!el)return;
+  var top=el.getBoundingClientRect().top+window.pageYOffset-62;
+  window.scrollTo({top:top,behavior:'smooth'});
+}
+/* SCROLL TOP */
+window.addEventListener('scroll',function(){
+  var b=document.getElementById('gtop');
+  b.style.display=window.scrollY>450?'flex':'none';
+});
+/* ACCORDION */
+function tacc(hdr){
+  var body=hdr.nextElementSibling;
+  var isOpen=hdr.classList.contains('open');
+  document.querySelectorAll('.ah').forEach(function(h){
+    h.classList.remove('open');
+    h.nextElementSibling.classList.remove('open');
+  });
+  if(!isOpen){hdr.classList.add('open');body.classList.add('open');}
+}
+/* FLOW STEPS */
+function tfl(el){
+  var isAct=el.classList.contains('act');
+  document.querySelectorAll('.fbox').forEach(function(f){f.classList.remove('act');});
+  if(!isAct)el.classList.add('act');
+}
+/* EXAM QUESTIONS */
+function teq(btn){
+  var body=btn.nextElementSibling;
+  var isOpen=body.classList.contains('open');
+  document.querySelectorAll('.eqb').forEach(function(b){b.classList.remove('open');});
+  document.querySelectorAll('.eqt').forEach(function(b){
+    var a=b.querySelector('span:last-child');
+    if(a)a.innerHTML='&#9660;';
+  });
+  if(!isOpen){
+    body.classList.add('open');
+    var arr=btn.querySelector('span:last-child');
+    if(arr)arr.innerHTML='&#9650;';
+  }
+}
+
+/* ============================================================
+   QUIZ DATA — 10 MCQs
+   ============================================================ */
+var QD=[
+  {
+    q:"In blue-white screening, a blue colony indicates:",
+    o:["A recombinant clone with the gene of interest",
+       "A non-transformed cell killed by antibiotic",
+       "A non-recombinant transformant with an intact lacZ-α gene",
+       "A recombinant clone with a very large insert"],
+    a:2,
+    e:"Blue colonies have an intact lacZ-α gene (no insert in MCS). β-galactosidase is produced and cleaves X-gal to release a blue compound. These are non-recombinant transformants — the vector re-circularised without incorporating an insert."
+  },
+  {
+    q:"In insertional inactivation using pBR322, a recombinant clone is correctly identified as:",
+    o:["Ampicillin-sensitive and tetracycline-resistant",
+       "Ampicillin-resistant and tetracycline-sensitive",
+       "Sensitive to both ampicillin and tetracycline",
+       "Resistant to both ampicillin and tetracycline"],
+    a:1,
+    e:"When the insert is cloned into the BamHI site (within the tet^r gene of pBR322), the tet^r gene is disrupted. Recombinant cells lose tetracycline resistance (tet^s) but retain ampicillin resistance (amp^r) since the amp^r gene is unaffected. They are identified as amp^r but absent from the tetracycline replica plate."
+  },
+  {
+    q:"What is the role of IPTG in blue-white selection?",
+    o:["It directly kills non-recombinant bacteria",
+       "It is a chromogenic substrate cleaved by β-galactosidase to produce a blue colour",
+       "It induces expression of the lacZ-α gene in pUC vectors",
+       "It is a restriction enzyme that linearises the vector"],
+    a:2,
+    e:"IPTG (isopropyl β-D-1-thiogalactopyranoside) is a synthetic, non-hydrolysable inducer of the lac operon. It induces transcription of the lacZ-α gene in pUC vectors, ensuring sufficient β-galactosidase is produced for the blue colour reaction with X-gal."
+  },
+  {
+    q:"In colony hybridization, what is the purpose of treating the nylon membrane with NaOH?",
+    o:["To fix the probe to the membrane",
+       "To lyse the cells and denature the double-stranded DNA to single strands",
+       "To activate the radioactive probe",
+       "To select for transformed bacteria"],
+    a:1,
+    e:"NaOH (alkali) treatment serves two purposes: it lyses the bacterial cells (releasing DNA) and simultaneously denatures double-stranded DNA into single-stranded DNA. Single-stranded DNA can then hybridise with a complementary probe. The membrane is subsequently neutralised and baked/UV-cross-linked to fix the DNA."
+  },
+  {
+    q:"Direct selection using antibiotic resistance identifies:",
+    o:["Cells with the correct recombinant insert",
+       "Cells that have taken up any version of the vector (with or without insert)",
+       "Only cells with the intact lacZ gene",
+       "Only cells that have undergone colony hybridization"],
+    a:1,
+    e:"Direct selection identifies cells that have taken up ANY version of the vector — whether it contains the insert (recombinant) or not (re-ligated non-recombinant). Both types carry the antibiotic resistance marker and survive. A second screening step (blue-white, insertional inactivation, or colony hybridization) is always needed to identify recombinants."
+  },
+  {
+    q:"Replica plating is specifically required in which recombinant screening method?",
+    o:["Direct selection (antibiotic resistance)",
+       "Blue-white selection (lacZ system)",
+       "Insertional inactivation",
+       "Colony hybridization"],
+    a:2,
+    e:"Insertional inactivation requires replica plating. Colonies from the primary ampicillin selection plate are transferred to a tetracycline plate using a velvet pad. Colonies absent on the tetracycline plate (but present on the ampicillin plate) are identified as recombinants — their tet^r gene was disrupted by the insert."
+  },
+  {
+    q:"A researcher performs blue-white screening and observes that ALL colonies on the plate are white. The most likely explanation is:",
+    o:["The IPTG was omitted from the medium",
+       "The X-gal substrate was absent from the medium",
+       "All transformants are recombinant",
+       "The lacZ gene is constitutively expressed at maximum levels"],
+    a:1,
+    e:"If X-gal is absent from the medium, β-galactosidase (even if fully functional) has no substrate to cleave and cannot produce the blue compound. All colonies therefore remain white regardless of whether they are recombinant or not. Without X-gal, blue-white screening cannot work."
+  },
+  {
+    q:"In colony hybridization, what does a dark spot on the autoradiogram represent?",
+    o:["A colony that was killed by the radioactive probe",
+       "A colony whose DNA hybridised with the labelled probe — indicating the presence of the gene of interest",
+       "A non-recombinant colony with high plasmid copy number",
+       "A colony that expressed antibiotic resistance"],
+    a:1,
+    e:"A dark spot on the autoradiogram indicates that the ³²P-labelled probe has hybridised to complementary DNA in that colony's position on the membrane. This means the colony contains the gene of interest. The corresponding colony on the master plate is then picked for further culture and verification."
+  },
+  {
+    q:"What key advantage does colony hybridization have over insertional inactivation and blue-white selection?",
+    o:["Colony hybridization is faster and requires fewer steps",
+       "Colony hybridization identifies the specific correct insert (gene of interest), not just any insert",
+       "Colony hybridization does not require a probe sequence",
+       "Colony hybridization is less expensive than other methods"],
+    a:1,
+    e:"Colony hybridization is the only method that confirms the presence of the specific gene of interest — because the probe is designed to be complementary to that specific sequence. Insertional inactivation and blue-white selection only confirm that SOME insert has disrupted a marker gene, but they cannot identify whether the correct gene was cloned."
+  },
+  {
+    q:"Which of the following correctly summarises the events in blue-white screening when a foreign DNA insert is successfully cloned into the MCS of pUC19?",
+    o:[
+      "lacZ-α intact → β-galactosidase active → X-gal cleaved → blue colony",
+      "lacZ-α disrupted → β-galactosidase non-functional → X-gal not cleaved → white colony",
+      "lacZ-α intact → β-galactosidase non-functional → X-gal not cleaved → white colony",
+      "lacZ-α disrupted → β-galactosidase active → X-gal cleaved → blue colony"
+    ],
+    a:1,
+    e:"When an insert is cloned into the MCS (within lacZ-α), the lacZ-α reading frame is disrupted. This prevents production of a functional α-peptide. Without the α-peptide, α-complementation cannot occur and β-galactosidase is non-functional. X-gal is therefore not cleaved — no blue compound is produced — and the colony remains white. White = recombinant."
+  }
+];
+
+/* QUIZ LOGIC */
+var cQ=0,sc=0,done=false,ua=[];
+function initQ(){
+  cQ=0;sc=0;done=false;ua=[];
+  for(var i=0;i<QD.length;i++)ua.push(null);
+  document.getElementById('qarea').style.display='block';
+  document.getElementById('qres').style.display='none';
+  buildDots();renderQ();
+}
+function buildDots(){
+  var p=document.getElementById('qprog');p.innerHTML='';
+  for(var i=0;i<QD.length;i++){
+    var d=document.createElement('div');
+    d.className='qd'+(i===0?' cur':'');
+    d.id='qd'+i;d.textContent=i+1;
+    p.appendChild(d);
+  }
+}
+function renderQ(){
+  done=false;
+  var q=QD[cQ];
+  document.getElementById('qno').textContent='Question '+(cQ+1)+' of '+QD.length;
+  document.getElementById('qtxt').textContent=q.q;
+  var opts=document.getElementById('qopts');opts.innerHTML='';
+  q.o.forEach(function(opt,i){
+    var b=document.createElement('button');
+    b.className='qo';b.textContent=opt;
+    b.setAttribute('data-i',i);
+    b.onclick=function(){doAns(parseInt(this.getAttribute('data-i')));};
+    opts.appendChild(b);
+  });
+  var fb=document.getElementById('qfb');fb.className='qfb';fb.textContent='';
+  document.getElementById('bnxt').style.display='none';
+  for(var j=0;j<QD.length;j++){
+    var dot=document.getElementById('qd'+j);
+    dot.className='qd';
+    if(ua[j]===true) dot.className='qd ok';
+    if(ua[j]===false)dot.className='qd bad';
+  }
+  document.getElementById('qd'+cQ).classList.add('cur');
+}
+function doAns(idx){
+  if(done)return;
+  done=true;
+  var q=QD[cQ];
+  var ok=idx===q.a;
+  document.querySelectorAll('.qo').forEach(function(b,i){
+    b.disabled=true;
+    if(i===q.a)b.classList.add('cok');
+    else if(i===idx&&!ok)b.classList.add('cbad');
+  });
+  var fb=document.getElementById('qfb');
+  if(ok){
+    sc++;fb.className='qfb ok';fb.textContent='Correct! '+q.e;
+    ua[cQ]=true;document.getElementById('qd'+cQ).className='qd ok';
+  }else{
+    fb.className='qfb bad';fb.textContent='Incorrect. '+q.e;
+    ua[cQ]=false;document.getElementById('qd'+cQ).className='qd bad';
+  }
+  var nb=document.getElementById('bnxt');
+  nb.style.display='inline-block';
+  nb.textContent=cQ===QD.length-1?'See Results':'Next Question';
+}
+function nextQ(){cQ++;if(cQ>=QD.length)showRes();else renderQ();}
+function showRes(){
+  document.getElementById('qarea').style.display='none';
+  document.getElementById('qres').style.display='block';
+  var pct=Math.round(sc/QD.length*100);
+  document.getElementById('sring').textContent=sc+'/'+QD.length;
+  var m,d;
+  if(pct===100){m='Perfect Score!';d='Exceptional! You have fully mastered screening and selection of recombinants.';}
+  else if(pct>=80){m='Excellent!';d='You scored '+pct+'%. Great work — review any missed questions.';}
+  else if(pct>=60){m='Good Work!';d='You scored '+pct+'%. Revisit the blue-white and insertional inactivation sections.';}
+  else if(pct>=40){m='Keep Going!';d='You scored '+pct+'%. Study each method carefully and retry.';}
+  else{m="Don't Give Up!";d='You scored '+pct+'%. Read from the beginning and try again.';}
+  document.getElementById('smsg').textContent=m;
+  document.getElementById('sdtl').textContent=d;
+}
+window.onload=function(){initQ();};
+</script>
+</body>
+</html>

@@ -1,0 +1,1627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Protein Databases: SWISS-PROT, UniProt &amp; PDB | GASC Nagercoil</title>
+<style>
+/* =====================================================================
+   DESIGN: Refined Academic — deep teal/slate anchored by Georgia serif
+   headings. Clean card grid, subtle scroll-reveals, no gimmicks.
+   Palette: deep teal · medium teal · slate blue · amber · forest green
+   ===================================================================== */
+
+/* ── CUSTOM PROPERTIES ── */
+:root{
+  --tk:    #0b5c63;   /* teal dark   */
+  --tm:    #1a7a82;   /* teal mid    */
+  --tl:    #2d9fa9;   /* teal light  */
+  --tp:    #d6f0f2;   /* teal pale   */
+  --tf:    #edf8f9;   /* teal faint  */
+  --bdk:   #0b3f6e;   /* blue dark   */
+  --bmd:   #1a5fa0;   /* blue mid    */
+  --blt:   #3a88cc;   /* blue light  */
+  --gdk:   #1a6e44;   /* green dark  */
+  --glt:   #2da367;   /* green light */
+  --amb:   #c8960c;   /* amber       */
+  --org:   #e07b2f;   /* orange      */
+  --rdk:   #7a1a12;   /* red dark    */
+  --rlt:   #cc3b2e;   /* red light   */
+  --bg:    #f3fbfc;
+  --card:  #ffffff;
+  --bor:   #bddde2;
+  --txt:   #192d30;
+  --txl:   #486870;
+  --ffh:   'Georgia','Times New Roman',serif;
+  --ffb:   'Segoe UI','Helvetica Neue',Arial,sans-serif;
+  --rad:   10px;
+  --sh:    0 3px 16px rgba(11,92,99,.09);
+  --shh:   0 8px 28px rgba(11,92,99,.17);
+  --tr:    .24s ease;
+}
+
+/* ── RESET ── */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;font-size:16px}
+body{font-family:var(--ffb);background:var(--bg);color:var(--txt);line-height:1.78}
+
+/* ── SECTION REVEAL ANIMATION ──
+   .reveal starts hidden + shifted; JS adds .visible on scroll.        */
+.reveal{
+  opacity:0;
+  transform:translateY(26px);
+  transition:opacity .62s ease, transform .62s ease;
+}
+.reveal.visible{ opacity:1; transform:none; }
+
+/* ── NAV ── */
+#nav{
+  position:sticky; top:0; z-index:999;
+  background:var(--tk);
+  box-shadow:0 2px 12px rgba(0,0,0,.22);
+  padding:0 16px;
+}
+.nw{ display:flex; align-items:center; justify-content:space-between;
+     max-width:1020px; margin:0 auto; height:52px; }
+.nb{ font-family:var(--ffh); color:#fff; font-size:.94rem;
+     font-weight:bold; white-space:nowrap; }
+.nl{ display:flex; gap:4px; flex-wrap:wrap; }
+.nl a{ color:#b8e6ea; font-size:.72rem; padding:4px 9px;
+       border-radius:20px;
+       transition:background var(--tr), color var(--tr); }
+.nl a:hover{ background:rgba(255,255,255,.18); color:#fff; text-decoration:none; }
+
+/* ── HERO ── */
+#hero{
+  background:linear-gradient(140deg, #093840 0%, var(--bdk) 55%, #0d2a50 100%);
+  padding:64px 18px 52px; text-align:center; color:#fff;
+}
+.chip{ display:inline-block;
+  background:rgba(255,255,255,.13);
+  border:1px solid rgba(255,255,255,.25);
+  border-radius:20px; padding:4px 16px;
+  font-size:.74rem; letter-spacing:.10em; text-transform:uppercase;
+  margin-bottom:18px; }
+#hero h1{ font-family:var(--ffh);
+  font-size:clamp(1.7rem,4vw,2.7rem);
+  line-height:1.26; margin-bottom:14px;
+  text-shadow:0 2px 10px rgba(0,0,0,.38); }
+.hsub{ font-size:1.03rem; color:#a8dde2;
+       max-width:660px; margin:0 auto 30px; }
+.obx{ background:rgba(255,255,255,.09);
+  border:1px solid rgba(255,255,255,.2);
+  border-radius:var(--rad); padding:20px 26px;
+  max-width:650px; margin:0 auto; text-align:left; }
+.obx h3{ font-size:.79rem; text-transform:uppercase;
+         letter-spacing:.09em; color:#7cd6dc; margin-bottom:10px; }
+.obx ul{ list-style:none; }
+.obx li{ padding:4px 0 4px 22px; font-size:.91rem; position:relative; }
+.obx li::before{ content:'✦'; position:absolute; left:0;
+                 color:#42cad3; font-size:.62rem; top:8px; }
+
+/* ── LAYOUT ── */
+.wrap{ max-width:1020px; margin:0 auto; padding:0 18px; }
+.sec{ padding:50px 18px 34px; }
+.sec:nth-child(even){ background:#edf7f8; }
+
+/* ── CARDS ── */
+.card{ background:var(--card); border:1px solid var(--bor);
+  border-radius:var(--rad); padding:28px 30px; margin-bottom:20px;
+  box-shadow:var(--sh);
+  transition:box-shadow var(--tr); }
+.card:hover{ box-shadow:var(--shh); }
+.snum{ display:inline-block; background:var(--tk); color:#fff;
+  font-size:.68rem; font-weight:bold; padding:2px 10px;
+  border-radius:4px; margin-bottom:6px; letter-spacing:.06em; }
+.stit{ font-family:var(--ffh); font-size:1.46rem; color:var(--tk);
+  border-left:4px solid var(--tl); padding-left:14px;
+  margin-bottom:22px; }
+
+/* ── HIGHLIGHT BOXES ── */
+.hb{ border-left:4px solid var(--tl); background:var(--tf);
+  border-radius:0 6px 6px 0; padding:12px 16px;
+  margin:14px 0; font-size:.92rem; }
+.hb.ex{ border-color:var(--org); background:#fff7f0; }
+.hb.go{ border-color:var(--amb); background:#fffbf0; }
+.hb.wn{ border-color:var(--rlt); background:#fff3f2; }
+.hb-l{ font-size:.68rem; text-transform:uppercase;
+        letter-spacing:.09em; font-weight:bold; margin-bottom:4px; }
+.hb-l.tl{ color:var(--tk); }
+.hb-l.ex{ color:var(--org); }
+.hb-l.go{ color:var(--amb); }
+
+/* ── QUICK REVISION BOX ── */
+.qr{ background:linear-gradient(135deg,#e4f7ee 0%,#d5eff5 100%);
+  border:1.5px solid #4eba8e; border-radius:var(--rad);
+  padding:18px 22px; margin-top:30px; }
+.qrh{ display:flex; align-items:center; gap:8px;
+  font-size:.73rem; text-transform:uppercase;
+  letter-spacing:.09em; font-weight:bold;
+  color:#0a4f32; margin-bottom:10px; }
+.qrh::before{ content:'📋'; font-size:1rem; }
+.qr ul{ list-style:none; }
+.qr li{ font-size:.9rem; padding:4px 0 4px 22px;
+        position:relative; color:#0d3825; }
+.qr li::before{ content:'▸'; position:absolute; left:0;
+                color:#1a7a55; font-weight:bold; }
+
+/* ── DB IDENTITY BANDS ── */
+.dbb{ border-radius:8px; padding:18px 20px; margin:14px 0;
+      border-left:5px solid; }
+.dbb.sp{ border-color:var(--bmd); background:#edf4ff; }
+.dbb.up{ border-color:var(--gdk); background:#edfaf3; }
+.dbb.pd{ border-color:var(--rdk); background:#fff3f0; }
+.dbb h4{ font-size:1rem; margin-bottom:6px; }
+.dbb.sp h4{ color:var(--bdk); }
+.dbb.up h4{ color:var(--gdk); }
+.dbb.pd h4{ color:var(--rdk); }
+.dbadge{ display:inline-block; font-size:.7rem; font-weight:bold;
+  padding:2px 10px; border-radius:12px; margin-bottom:8px; }
+.dbb.sp .dbadge{ background:var(--bmd); color:#fff; }
+.dbb.up .dbadge{ background:var(--gdk); color:#fff; }
+.dbb.pd .dbadge{ background:var(--rdk); color:#fff; }
+
+/* ── FEATURE GRID ── */
+.fg{ display:grid;
+     grid-template-columns:repeat(auto-fill,minmax(195px,1fr));
+     gap:14px; margin:16px 0; }
+.fc{ background:var(--card); border:1px solid var(--bor);
+  border-top:3px solid var(--tl); border-radius:8px; padding:16px;
+  transition:border-top-color var(--tr), box-shadow var(--tr),
+             transform .2s; }
+.fc:hover{ border-top-color:var(--org); box-shadow:var(--shh);
+           transform:translateY(-3px); }
+.fc h5{ color:var(--tk); font-size:.91rem; margin-bottom:6px; }
+.fc p{ font-size:.82rem; color:var(--txl); }
+
+/* ── STEP BOXES ── */
+.steps{ display:flex; flex-direction:column; gap:10px; margin:16px 0; }
+.step{ display:flex; align-items:flex-start; gap:14px;
+  background:var(--tf); border:1px solid var(--bor);
+  border-radius:8px; padding:12px 16px;
+  transition:background var(--tr), border-color var(--tr),
+             transform .2s; }
+.step:hover{ background:#bce6eb; border-color:var(--tl);
+             transform:translateX(4px); }
+.sn{ min-width:30px; height:30px; background:var(--tm); color:#fff;
+  border-radius:50%; display:flex; align-items:center;
+  justify-content:center; font-weight:bold;
+  font-size:.82rem; flex-shrink:0; }
+.sc strong{ display:block; font-size:.92rem; color:var(--tk); }
+.sc span{ font-size:.86rem; color:var(--txl); }
+
+/* ── PRO / CON ── */
+.pcg{ display:grid; grid-template-columns:1fr 1fr;
+      gap:16px; margin:14px 0; }
+@media(max-width:560px){ .pcg{ grid-template-columns:1fr; } }
+.pros{ background:#edfaf3; border:1px solid #7dd4aa;
+       border-radius:8px; padding:16px; }
+.cons{ background:#fff3f3; border:1px solid #f5aaa0;
+       border-radius:8px; padding:16px; }
+.pros h4{ color:var(--gdk); font-size:.84rem;
+  text-transform:uppercase; letter-spacing:.06em; margin-bottom:8px; }
+.cons h4{ color:#8c2218; font-size:.84rem;
+  text-transform:uppercase; letter-spacing:.06em; margin-bottom:8px; }
+.pros li,.cons li{ font-size:.87rem; list-style:none;
+  padding:3px 0 3px 18px; position:relative; }
+.pros li::before{ content:'✓'; position:absolute; left:0;
+                  color:var(--glt); }
+.cons li::before{ content:'✗'; position:absolute; left:0;
+                  color:var(--rlt); }
+
+/* ── COMPARISON TABLE ── */
+.ctbl{ width:100%; border-collapse:collapse;
+       font-size:.85rem; margin-top:14px; }
+.ctbl th{ background:var(--tk); color:#fff;
+          padding:10px 14px; text-align:left; }
+.ctbl td{ padding:9px 14px; border-bottom:1px solid var(--bor);
+          vertical-align:top; }
+.ctbl tr:nth-child(even) td{ background:var(--tf); }
+.ctbl tr:hover td{ background:#bde6ec;
+                   transition:background var(--tr); }
+.ctbl td:first-child{ font-weight:600; color:var(--tk); }
+
+/* ── COMPARISON DIAGRAM PANELS ── */
+.sbs{ display:grid; grid-template-columns:1fr 1fr;
+      gap:20px; margin:18px 0; }
+@media(max-width:680px){ .sbs{ grid-template-columns:1fr; } }
+.sbsp{ border-radius:var(--rad); border:2px solid var(--bor);
+  overflow:hidden;
+  transition:box-shadow var(--tr), transform .2s; }
+.sbsp:hover{ box-shadow:var(--shh); transform:translateY(-2px); }
+.sbsh{ color:#fff; text-align:center; padding:10px 8px;
+       font-family:var(--ffh); font-size:.96rem; }
+.sbsh.seq{ background:var(--bdk); }
+.sbsh.str{ background:var(--rdk); }
+.sbsb{ padding:12px; background:#fff; }
+.sbsb svg{ width:100%; height:auto; }
+
+/* ── COMMON CONFUSIONS ── */
+.cfb{ background:#fffbf0; border:2px solid #e8c44a;
+  border-radius:var(--rad); padding:20px 24px; margin-top:22px; }
+.cfb h3{ color:#7a5c00; font-size:.93rem; margin-bottom:14px;
+  display:flex; align-items:center; gap:8px;
+  text-transform:uppercase; letter-spacing:.07em; }
+.ci{ margin-bottom:14px; }
+.ci dt{ font-weight:bold; color:var(--tk); font-size:.92rem;
+        margin-bottom:4px; }
+.ci dd{ font-size:.86rem; color:var(--txl);
+        padding-left:14px; border-left:3px solid #e8c44a; }
+
+/* ── UNIPROT RELATIONSHIP VISUAL ── */
+.up-rel{ display:flex; flex-direction:column; align-items:center;
+         gap:0; margin:16px 0; }
+.up-outer{ background:#edfaf3; border:2px solid var(--glt);
+  border-radius:12px; padding:16px 20px; width:100%; max-width:520px;
+  text-align:center; position:relative; }
+.up-outer h4{ color:var(--gdk); font-size:.95rem;
+              margin-bottom:4px; }
+.up-outer p{ font-size:.82rem; color:var(--txl); margin-bottom:12px; }
+.up-inner-wrap{ display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+.up-inner{ border-radius:8px; padding:12px 10px; text-align:center; }
+.up-sw{ background:#ddeeff; border:1.5px solid var(--bmd); }
+.up-tr{ background:#fff3e8; border:1.5px solid var(--org); }
+.up-inner h5{ font-size:.87rem; margin-bottom:4px; }
+.up-sw h5{ color:var(--bdk); }
+.up-tr h5{ color:#7a3800; }
+.up-inner p{ font-size:.78rem; color:var(--txl); }
+
+/* ── SVG DIAGRAM INTERACTION ── */
+.dn{ cursor:pointer; }
+.dn rect,.dn ellipse,.dn circle,.dn polygon{
+  transition:filter .22s, stroke-width .22s; }
+.dn:hover rect,.dn:hover ellipse,.dn:hover circle,
+.dn:hover polygon{ filter:brightness(1.18); stroke-width:2.5px; }
+.dn.active rect,.dn.active ellipse,.dn.active circle,
+.dn.active polygon{ filter:brightness(1.26); stroke-width:3px; }
+.di{ margin-top:10px; min-height:38px; background:var(--tf);
+  border-radius:6px; padding:10px 14px; font-size:.87rem;
+  color:var(--tk); display:none; }
+.di.show{ display:block; animation:fsl .28s ease; }
+
+/* ── ACCORDION ── */
+.ai{ border:1px solid var(--bor); border-radius:8px;
+     margin-bottom:10px; overflow:hidden; }
+.ab{ width:100%; background:var(--tf); border:none; cursor:pointer;
+  display:flex; justify-content:space-between; align-items:center;
+  padding:13px 18px; font-size:.93rem; font-weight:600;
+  color:var(--tk); text-align:left;
+  transition:background var(--tr); }
+.ab:hover{ background:#bce6eb; }
+.ab .ar{ font-size:.76rem; color:var(--tm);
+         transition:transform .32s ease; }
+.ab.open .ar{ transform:rotate(180deg); }
+.abody{ max-height:0; overflow:hidden;
+  transition:max-height .42s ease, padding .3s;
+  padding:0 18px; background:#fff; }
+.abody.open{ max-height:3000px; padding:16px 18px; }
+
+/* ── CLICK-TO-REVEAL ── */
+.ctr{ display:inline; cursor:pointer;
+  background:var(--tk); color:transparent;
+  border-radius:4px; padding:0 5px; user-select:none;
+  transition:background var(--tr), color var(--tr); }
+.ctr.shown{ background:var(--tf); color:var(--txt); }
+.ctr:not(.shown)::after{ content:' 👁 click';
+  color:rgba(160,220,225,.9); font-size:.7rem; }
+
+/* ── APPLICATION CARDS ── */
+.ag{ display:grid;
+     grid-template-columns:repeat(auto-fill,minmax(175px,1fr));
+     gap:12px; margin:16px 0; }
+.ac{ background:var(--tf); border:1px solid var(--bor);
+  border-radius:8px; padding:14px 16px;
+  transition:background var(--tr), transform .2s, box-shadow .2s; }
+.ac:hover{ background:#b5dde4; transform:translateY(-2px);
+           box-shadow:var(--shh); }
+.ac .ai2{ font-size:1.4rem; margin-bottom:6px; }
+.ac h5{ color:var(--tk); font-size:.87rem; margin-bottom:4px; }
+.ac p{ font-size:.8rem; color:var(--txl); }
+
+/* ── BUTTONS ── */
+.btn{ display:inline-flex; align-items:center; gap:8px;
+  background:var(--tk); color:#fff; border:none;
+  border-radius:8px; padding:11px 22px;
+  font-size:.91rem; font-weight:600; cursor:pointer;
+  box-shadow:0 3px 8px rgba(11,92,99,.2);
+  transition:background var(--tr), transform .18s, box-shadow .22s; }
+.btn:hover{ background:var(--tl); transform:translateY(-2px);
+            box-shadow:0 6px 18px rgba(11,92,99,.25); }
+.btn:active{ transform:none; }
+.btn.sec{ background:#fff; color:var(--tk);
+          border:1.5px solid var(--tm); }
+.btn.sec:hover{ background:var(--tf);
+                box-shadow:0 4px 14px rgba(11,92,99,.13); }
+
+/* ── QUIZ ── */
+.qc{ background:var(--card); border:1px solid var(--bor);
+  border-radius:var(--rad); padding:22px 24px;
+  margin-bottom:16px; box-shadow:var(--sh); }
+.qc h4{ font-size:.95rem; color:var(--txt);
+        margin-bottom:14px; font-weight:600; }
+.qos{ display:flex; flex-direction:column; gap:8px; }
+.qo{ display:flex; align-items:center; gap:10px;
+  padding:10px 14px; border:1.5px solid var(--bor);
+  border-radius:8px; cursor:pointer; font-size:.88rem;
+  background:#fff;
+  transition:background var(--tr), border-color var(--tr),
+             transform .16s; }
+.qo:hover{ background:var(--tf); border-color:var(--tl);
+           transform:translateX(3px); }
+.qo.correct{ background:#edfaf3; border-color:#2da367;
+             color:#1a5a30; }
+.qo.wrong{ background:#fff3f3; border-color:var(--rlt);
+           color:var(--rdk); }
+.qo.disabled{ cursor:default; pointer-events:none; }
+.ob{ min-width:24px; height:24px; border-radius:50%;
+  background:var(--bor); display:inline-flex;
+  align-items:center; justify-content:center;
+  font-size:.72rem; font-weight:bold; }
+.fb{ margin-top:10px; font-size:.86rem; font-weight:600;
+     padding:8px 12px; border-radius:6px; display:none; }
+.fb.correct{ background:#edfaf3; color:#1a5a30; display:block; }
+.fb.wrong{ background:#fff3f3; color:var(--rdk); display:block; }
+#qres{ background:var(--tk); color:#fff; border-radius:var(--rad);
+  padding:28px 30px; text-align:center;
+  display:none; margin-top:22px;
+  animation:fsl .4s ease; }
+#qres h3{ font-size:1.44rem; margin-bottom:8px; }
+#qres p{ opacity:.85; font-size:.97rem; }
+
+/* ── GLOSSARY ── */
+.gg{ display:grid;
+     grid-template-columns:repeat(auto-fill,minmax(215px,1fr));
+     gap:14px; margin-top:16px; }
+.gc{ background:var(--card); border:1px solid var(--bor);
+  border-left:3px solid var(--tl); border-radius:8px;
+  padding:14px 16px;
+  transition:border-left-color var(--tr), transform .2s; }
+.gc:hover{ border-left-color:var(--org); transform:translateX(3px); }
+.gc dt{ font-weight:bold; color:var(--tk);
+        font-size:.89rem; margin-bottom:4px; }
+.gc dd{ font-size:.82rem; color:var(--txl); }
+
+/* ── EXAM QUESTIONS ── */
+.eq{ background:var(--card); border:1px solid var(--bor);
+  border-radius:8px; padding:18px 20px; margin-bottom:14px;
+  box-shadow:var(--sh);
+  transition:box-shadow var(--tr); }
+.eq:hover{ box-shadow:var(--shh); }
+.eq-q{ font-weight:600; font-size:.93rem;
+       color:var(--tk); margin-bottom:6px; }
+.hbtn{ background:none; border:none; color:var(--tm);
+  cursor:pointer; font-size:.82rem; padding:4px 0;
+  text-decoration:underline;
+  transition:color var(--tr); }
+.hbtn:hover{ color:var(--org); }
+.hint{ display:none; margin-top:8px; font-size:.86rem;
+  color:var(--txl); padding:10px 14px;
+  background:var(--tf); border-radius:6px; }
+.hint.show{ display:block; animation:fsl .28s ease; }
+
+/* ── SUMMARY ── */
+.sb{ list-style:none; margin-top:14px; }
+.sb li{ padding:8px 14px 8px 32px; position:relative;
+  border-bottom:1px dotted var(--bor); font-size:.91rem; }
+.sb li:last-child{ border-bottom:none; }
+.sb li::before{ content:'◆'; position:absolute; left:8px;
+  color:var(--tl); font-size:.66rem; top:13px; }
+
+/* ── FOOTER ── */
+footer{ background:var(--tk); color:rgba(255,255,255,.85);
+  text-align:center; padding:28px 18px; margin-top:50px; }
+.fd{ font-weight:bold; font-size:.95rem; color:#fff;
+     letter-spacing:.02em; }
+.fa{ font-size:.8rem; color:rgba(255,255,255,.52); margin-top:4px; }
+
+/* ── KEYFRAMES ── */
+@keyframes fsl{
+  from{ opacity:0; transform:translateY(7px); }
+  to{   opacity:1; transform:none; }
+}
+
+/* ── RESPONSIVE ── */
+@media(max-width:680px){
+  .card{ padding:18px 14px; }
+  .stit{ font-size:1.2rem; }
+  .fg,.ag{ grid-template-columns:1fr; }
+}
+</style>
+</head>
+<body>
+
+<!-- ════════════════════════ NAV ════════════════════════ -->
+<nav id="nav" aria-label="Main navigation">
+  <div class="nw">
+    <span class="nb">Protein &amp; Structural Databases</span>
+    <div class="nl">
+      <a href="#intro">Intro</a>
+      <a href="#swissprot">SWISS-PROT</a>
+      <a href="#uniprot">UniProt</a>
+      <a href="#pdb">PDB</a>
+      <a href="#compare">Compare</a>
+      <a href="#apps">Applications</a>
+      <a href="#quiz">Quiz</a>
+      <a href="#glossary">Glossary</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ════════════════════════ HERO ════════════════════════ -->
+<header id="hero">
+  <div class="chip">B.Sc. Zoology / Biotechnology</div>
+  <h1>Protein Sequence &amp; Structural Databases<br>
+    <span style="font-size:68%;opacity:.82;font-family:var(--ffb);font-weight:400">
+      SWISS-PROT · UniProt · PDB
+    </span>
+  </h1>
+  <p class="hsub">
+    From amino acid sequences to three-dimensional atomic structures —
+    the databases that power modern protein science.
+  </p>
+  <div class="obx">
+    <h3>Learning Objectives</h3>
+    <ul>
+      <li>Define protein sequence databases and explain their importance</li>
+      <li>Describe SWISS-PROT — its curation philosophy and key features</li>
+      <li>Explain UniProt — its sections, scope, and relationship to SWISS-PROT</li>
+      <li>Describe the Protein Data Bank (PDB) and the data it stores</li>
+      <li>Distinguish between sequence databases and structural databases</li>
+      <li>Compare SWISS-PROT, UniProt, and PDB in a table</li>
+      <li>Discuss applications of protein and structural databases</li>
+    </ul>
+  </div>
+</header>
+
+<!-- ════════════ S1 BIOLOGICAL & PROTEIN DATABASES ════════════ -->
+<section class="sec" id="intro">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="snum">SECTION 01</span>
+      <h2 class="stit">Introduction to Biological &amp; Protein Sequence Databases</h2>
+      <div class="card">
+
+        <div class="hb">
+          <div class="hb-l tl">Biological Database — Definition</div>
+          A <strong>biological database</strong> is an organised, computer-stored collection of biological data that can be efficiently searched, retrieved, and analysed. These databases form the data infrastructure of modern molecular biology and bioinformatics.
+        </div>
+
+        <div class="hb" style="margin-top:10px;">
+          <div class="hb-l tl">Protein Sequence Database — Definition</div>
+          A <strong>protein sequence database</strong> stores the linear order of amino acids (the primary sequence) in proteins, along with functional annotations — protein name, function, source organism, post-translational modifications, and literature references.
+        </div>
+
+        <p style="margin-top:14px;">Proteins are the molecular machines of the cell. Understanding a protein's sequence reveals its evolutionary relationships, and understanding its three-dimensional structure reveals how it works and how it can be targeted by drugs. Dedicated databases exist for each level of this knowledge.</p>
+
+        <!-- COMMON CONFUSIONS -->
+        <div class="cfb">
+          <h3>⚠️ Common Confusions</h3>
+          <dl>
+            <div class="ci">
+              <dt>Nucleotide Databases vs Protein Sequence Databases</dt>
+              <dd>
+                <strong>Nucleotide databases</strong> (e.g., GenBank, EMBL, DDBJ) store DNA and RNA sequences — the genetic code as written in nucleotide bases (A, T, G, C). They record the genome.
+                <strong>Protein sequence databases</strong> (e.g., SWISS-PROT, UniProt) store amino acid sequences — the translated products of genes. Each protein entry represents what a gene <em>makes</em>, not the gene itself. A single nucleotide gene entry can correspond to one protein entry in a protein database.
+              </dd>
+            </div>
+            <div class="ci">
+              <dt>Protein Sequence Databases vs Structural Databases</dt>
+              <dd>
+                <strong>Protein sequence databases</strong> record the <em>one-dimensional</em> order of amino acids in a polypeptide chain (primary structure). They tell you <em>what</em> the protein is made of.
+                <strong>Structural databases</strong> (e.g., PDB) store <em>three-dimensional</em> atomic coordinates — the precise spatial arrangement of every atom in a protein, determined by X-ray crystallography, NMR, or cryo-EM. They tell you <em>what shape</em> the protein adopts, which is essential for understanding function and designing drugs.
+                A protein can have a known sequence but an unknown structure; not all proteins in SWISS-PROT or UniProt have an entry in PDB.
+              </dd>
+            </div>
+            <div class="ci">
+              <dt>SWISS-PROT vs UniProt — Are They the Same?</dt>
+              <dd>
+                <strong>UniProt</strong> is the comprehensive umbrella protein database. It has two tiers: <strong>Swiss-Prot</strong> (manually reviewed, high-quality, curated entries — the "gold standard") and <strong>TrEMBL</strong> (computationally analysed, not yet manually reviewed — much larger but less verified). So SWISS-PROT is a <em>subset</em> of UniProt — all SWISS-PROT entries are in UniProt, but UniProt contains far more entries than SWISS-PROT alone.
+              </dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="qr">
+          <div class="qrh">Quick Revision</div>
+          <ul>
+            <li>Nucleotide DBs (GenBank/EMBL) store DNA/RNA; protein sequence DBs store amino acid sequences</li>
+            <li>Structural DBs (PDB) store 3D atomic coordinates — a different level of information from sequence</li>
+            <li>SWISS-PROT is the manually curated tier <em>within</em> UniProt — not a separate standalone database</li>
+            <li>A protein can have a known sequence (in UniProt) but no known 3D structure (not in PDB)</li>
+            <li>Databases store data; search tools (e.g., BLAST) query those databases</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ S2 SWISS-PROT ════════════ -->
+<section class="sec" id="swissprot">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="snum">SECTION 02</span>
+      <h2 class="stit">SWISS-PROT</h2>
+      <div class="card">
+
+        <div class="dbb sp">
+          <span class="dbadge">🇨🇭 Switzerland / 🇺🇸 USA · SIB &amp; EBI</span>
+          <h4>SWISS-PROT — The Manually Curated Protein Sequence Database</h4>
+          <p style="font-size:.89rem;color:#1a3a60;">
+            <strong>SWISS-PROT</strong> is a manually reviewed, non-redundant protein sequence database
+            that provides high-quality annotation for each entry. It was established in 1986 at
+            the Swiss Institute of Bioinformatics (SIB) by Amos Bairoch and is now maintained
+            jointly by SIB and the European Bioinformatics Institute (EBI) as part of UniProt.
+          </p>
+        </div>
+
+        <h4 style="color:var(--tk);margin:18px 0 10px;">Key Features</h4>
+        <div class="fg">
+          <div class="fc">
+            <h5>✍️ Manual Curation</h5>
+            <p>Every entry is reviewed by expert biologists who verify sequence data and add annotations from published literature.</p>
+          </div>
+          <div class="fc">
+            <h5>🚫 Non-Redundant</h5>
+            <p>Duplicate sequences from the same protein/organism are merged into one entry — one protein, one record.</p>
+          </div>
+          <div class="fc">
+            <h5>📋 Rich Annotation</h5>
+            <p>Each entry contains: protein name, function, active site residues, post-translational modifications, subcellular location, disease associations.</p>
+          </div>
+          <div class="fc">
+            <h5>🔗 Cross-References</h5>
+            <p>Linked to over 100 other databases — nucleotide databases, PDB, metabolic pathways, genome databases.</p>
+          </div>
+          <div class="fc">
+            <h5>📅 Founded 1986</h5>
+            <p>Created by Amos Bairoch at the University of Geneva; now one of the world's most widely cited biological databases.</p>
+          </div>
+          <div class="fc">
+            <h5>⭐ Gold Standard</h5>
+            <p>Considered the highest-quality protein sequence database — researchers prefer its entries for reliable, vetted information.</p>
+          </div>
+        </div>
+
+        <h4 style="color:var(--tk);margin:18px 0 10px;">Type of Information Stored</h4>
+        <div class="steps">
+          <div class="step"><div class="sn">1</div><div class="sc">
+            <strong>Protein Name &amp; Synonyms</strong>
+            <span>Official protein name, alternative names, and gene names from multiple organisms.</span>
+          </div></div>
+          <div class="step"><div class="sn">2</div><div class="sc">
+            <strong>Amino Acid Sequence</strong>
+            <span>The complete primary sequence of amino acids (one-letter or three-letter code) with sequence length.</span>
+          </div></div>
+          <div class="step"><div class="sn">3</div><div class="sc">
+            <strong>Protein Function</strong>
+            <span>Biological role — enzymatic activity, catalytic mechanism, binding partners, cellular role.</span>
+          </div></div>
+          <div class="step"><div class="sn">4</div><div class="sc">
+            <strong>Source Organism &amp; Taxonomy</strong>
+            <span>Species of origin, taxonomic lineage, and gene locus information.</span>
+          </div></div>
+          <div class="step"><div class="sn">5</div><div class="sc">
+            <strong>Post-Translational Modifications</strong>
+            <span>Phosphorylation, glycosylation, disulfide bonds, signal peptides, and other modifications.</span>
+          </div></div>
+          <div class="step"><div class="sn">6</div><div class="sc">
+            <strong>Disease Associations &amp; Variants</strong>
+            <span>Mutations linked to human diseases, natural variants, and their phenotypic effects.</span>
+          </div></div>
+        </div>
+
+        <div class="hb ex">
+          <div class="hb-l ex">Exam Point</div>
+          SWISS-PROT is described as a <strong>manually curated, non-redundant protein sequence database</strong>. Its most important characteristic is <em>manual expert review</em> — distinguishing it from automatically generated databases like TrEMBL. Quality over quantity.
+        </div>
+
+        <div class="qr">
+          <div class="qrh">Quick Revision</div>
+          <ul>
+            <li>SWISS-PROT = manually reviewed, non-redundant protein sequence database; founded 1986</li>
+            <li>Maintained jointly by SIB (Switzerland) and EBI (UK); now part of UniProt</li>
+            <li>Each entry: protein name, amino acid sequence, function, organism, PTMs, disease links</li>
+            <li>Manual expert review = highest quality/reliability among protein databases</li>
+            <li>"Non-redundant" means duplicate sequences are merged — one protein = one record</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ S3 UNIPROT ════════════ -->
+<section class="sec" id="uniprot">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="snum">SECTION 03</span>
+      <h2 class="stit">UniProt — Universal Protein Resource</h2>
+      <div class="card">
+
+        <div class="dbb up">
+          <span class="dbadge">🌐 Global · SIB + EBI + PIR</span>
+          <h4>UniProt — The Comprehensive Protein Information Resource</h4>
+          <p style="font-size:.89rem;color:#1a4a30;">
+            <strong>UniProt</strong> (Universal Protein Resource) is the world's most comprehensive and
+            freely accessible protein database. It was created in 2002 through a collaboration
+            between the Swiss Institute of Bioinformatics (SIB), the European Bioinformatics Institute
+            (EBI), and the Protein Information Resource (PIR) at Georgetown University, USA.
+          </p>
+        </div>
+
+        <h4 style="color:var(--tk);margin:18px 0 10px;">Structure of UniProt</h4>
+
+        <!-- UniProt relationship visual -->
+        <div class="up-rel">
+          <div class="up-outer">
+            <h4>🌐 UniProtKB (UniProt Knowledgebase)</h4>
+            <p>The central component of UniProt — contains all protein sequences with annotations</p>
+            <div class="up-inner-wrap">
+              <div class="up-inner up-sw">
+                <h5>⭐ Swiss-Prot</h5>
+                <p style="font-size:.78rem;color:#0b3f6e;margin-bottom:4px;"><strong>Manually Reviewed</strong></p>
+                <p style="font-size:.76rem;color:#1a3a60;">~570,000 entries<br>Expert-curated<br>High quality<br>"Gold standard"</p>
+              </div>
+              <div class="up-inner up-tr">
+                <h5>📂 TrEMBL</h5>
+                <p style="font-size:.78rem;color:#7a3800;margin-bottom:4px;"><strong>Unreviewed</strong></p>
+                <p style="font-size:.76rem;color:#5a2800;">~220 million entries<br>Computer annotated<br>Awaiting curation<br>Large but less verified</p>
+              </div>
+            </div>
+          </div>
+          <div style="margin-top:10px;font-size:.82rem;color:var(--txl);text-align:center;">
+            UniProtKB also links to UniRef (sequence clusters) and UniParc (sequence archive)
+          </div>
+        </div>
+
+        <h4 style="color:var(--tk);margin:18px 0 10px;">Key Features of UniProt</h4>
+        <div class="fg">
+          <div class="fc">
+            <h5>🌐 Comprehensive</h5>
+            <p>Contains protein entries from all organisms — bacteria, archaea, viruses, plants, animals, fungi.</p>
+          </div>
+          <div class="fc">
+            <h5>🆓 Free Access</h5>
+            <p>All data freely available at uniprot.org — no registration required for basic searching or downloading.</p>
+          </div>
+          <div class="fc">
+            <h5>🔍 Powerful Search</h5>
+            <p>Search by protein name, gene name, organism, function, GO term, or BLAST similarity.</p>
+          </div>
+          <div class="fc">
+            <h5>🔗 Cross-Database Links</h5>
+            <p>Connected to GenBank, EMBL, PDB, OMIM, Pfam, KEGG, and hundreds of other resources.</p>
+          </div>
+          <div class="fc">
+            <h5>📊 Regular Updates</h5>
+            <p>Updated every 8 weeks with new sequences from automatic processing of genome databases.</p>
+          </div>
+          <div class="fc">
+            <h5>📖 GO Annotations</h5>
+            <p>Gene Ontology (GO) terms describe molecular function, biological process, and cellular component for each protein.</p>
+          </div>
+        </div>
+
+        <div class="hb go">
+          <div class="hb-l go">Swiss-Prot vs TrEMBL — The Critical Distinction</div>
+          <strong>Swiss-Prot</strong> (~570,000 entries): manually reviewed by experts; each annotation verified against published literature; highest reliability. <br><br>
+          <strong>TrEMBL</strong> (~220 million entries): automatically annotated by computational pipelines from genome sequencing projects; not yet manually curated. Entries move from TrEMBL to Swiss-Prot after manual review.
+        </div>
+
+        <div class="qr">
+          <div class="qrh">Quick Revision</div>
+          <ul>
+            <li>UniProt = Universal Protein Resource; created 2002 by SIB + EBI + PIR</li>
+            <li>UniProtKB = the main protein knowledgebase, divided into Swiss-Prot and TrEMBL</li>
+            <li>Swiss-Prot (~570 K entries) = manually reviewed ("gold standard"); TrEMBL (~220 M) = unreviewed, computationally annotated</li>
+            <li>SWISS-PROT is a subset of UniProt — all SWISS-PROT entries are in UniProt</li>
+            <li>UniProt is the world's largest and most comprehensive freely accessible protein database</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ S4 PDB ════════════ -->
+<section class="sec" id="pdb">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="snum">SECTION 04</span>
+      <h2 class="stit">PDB — Protein Data Bank</h2>
+      <div class="card">
+
+        <div class="dbb pd">
+          <span class="dbadge">🌐 Global · RCSB PDB</span>
+          <h4>PDB — The Global Repository of 3D Biological Macromolecular Structures</h4>
+          <p style="font-size:.89rem;color:#4a1a12;">
+            The <strong>Protein Data Bank (PDB)</strong> is the single worldwide archive of
+            three-dimensional structural data for biological macromolecules —
+            proteins, nucleic acids, and their complexes. It was established in <strong>1971</strong>
+            at Brookhaven National Laboratory, USA, and is now managed by the
+            <strong>Worldwide Protein Data Bank (wwPDB)</strong>, a collaboration of RCSB PDB (USA),
+            PDBe (EBI, UK), PDBj (Japan), and BMRB (USA).
+          </p>
+        </div>
+
+        <h4 style="color:var(--tk);margin:18px 0 10px;">Key Features</h4>
+        <div class="fg">
+          <div class="fc">
+            <h5>📅 Founded 1971</h5>
+            <p>The oldest structural biology database. Started with just 7 structures; now contains over 220,000 structures.</p>
+          </div>
+          <div class="fc">
+            <h5>🔬 Experimental Methods</h5>
+            <p>Structures determined by X-ray crystallography, NMR spectroscopy, or Cryo-Electron Microscopy (cryo-EM).</p>
+          </div>
+          <div class="fc">
+            <h5>📐 3D Coordinates</h5>
+            <p>Stores precise XYZ coordinates (in Ångströms) of every atom in the macromolecule.</p>
+          </div>
+          <div class="fc">
+            <h5>🆔 PDB ID</h5>
+            <p>Each structure has a unique 4-character PDB ID (e.g., 1HHO for haemoglobin). Used to cite and retrieve structures.</p>
+          </div>
+          <div class="fc">
+            <h5>💊 Drug Design</h5>
+            <p>Essential for rational drug design — visualising enzyme active sites and designing molecules that fit precisely.</p>
+          </div>
+          <div class="fc">
+            <h5>🌐 wwPDB Alliance</h5>
+            <p>Maintained by the worldwide PDB (wwPDB) consortium — RCSB (USA), PDBe (UK), PDBj (Japan), ensuring global access.</p>
+          </div>
+        </div>
+
+        <h4 style="color:var(--tk);margin:18px 0 10px;">Data Stored in Each PDB Entry</h4>
+        <div class="steps">
+          <div class="step"><div class="sn">A</div><div class="sc">
+            <strong>3D Atomic Coordinates</strong>
+            <span>XYZ coordinates (in Ångströms) of every non-hydrogen atom in the structure — the core data.</span>
+          </div></div>
+          <div class="step"><div class="sn">B</div><div class="sc">
+            <strong>Sequence Information</strong>
+            <span>Amino acid or nucleotide sequence of the macromolecule, linked to corresponding UniProt entries.</span>
+          </div></div>
+          <div class="step"><div class="sn">C</div><div class="sc">
+            <strong>Experimental Details</strong>
+            <span>Method used (X-ray, NMR, cryo-EM), resolution, R-factor, and quality metrics of the structure determination.</span>
+          </div></div>
+          <div class="step"><div class="sn">D</div><div class="sc">
+            <strong>Ligands and Small Molecules</strong>
+            <span>Coordinates of bound cofactors, inhibitors, substrates, and metal ions within the structure.</span>
+          </div></div>
+          <div class="step"><div class="sn">E</div><div class="sc">
+            <strong>Biological Assembly</strong>
+            <span>Information about the functional quaternary structure — the biologically active form of the protein complex.</span>
+          </div></div>
+        </div>
+
+        <div class="hb ex">
+          <div class="hb-l ex">Exam Point</div>
+          The PDB file format stores 3D structural data in text files. Each atom is listed with its element, residue, chain, and XYZ coordinates. A typical structure might contain thousands of atom records. The PDB ID <strong>1HHO</strong> is the famous haemoglobin structure — one of the most cited protein structures in biology.
+        </div>
+
+        <div class="qr">
+          <div class="qrh">Quick Revision</div>
+          <ul>
+            <li>PDB = Protein Data Bank; founded 1971; world's only archive of 3D biological macromolecular structures</li>
+            <li>Managed by wwPDB consortium: RCSB (USA), PDBe (UK), PDBj (Japan)</li>
+            <li>Data stored: 3D atomic coordinates, amino acid sequence, experimental method, ligands, quality metrics</li>
+            <li>Methods: X-ray crystallography, NMR spectroscopy, Cryo-EM</li>
+            <li>Each structure has a unique 4-character PDB ID (e.g., 1HHO for haemoglobin)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ S5 COMPARISON DIAGRAM ════════════ -->
+<section class="sec" id="diagrams">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="snum">SECTION 05</span>
+      <h2 class="stit">Comparison Diagrams</h2>
+      <div class="card">
+
+        <!-- ── SBS: Sequence DB vs Structural DB ── -->
+        <h4 style="color:var(--tk);margin-bottom:14px;">
+          Side-by-Side: Sequence Database vs Structural Database
+        </h4>
+        <p style="font-size:.91rem;margin-bottom:16px;">
+          Click any box in the diagrams below for an explanation.
+        </p>
+
+        <div class="sbs">
+          <!-- SEQUENCE DATABASE panel -->
+          <div class="sbsp">
+            <div class="sbsh seq">🔤 Sequence Database (e.g., UniProt / SWISS-PROT)</div>
+            <div class="sbsb">
+              <svg viewBox="0 0 240 290" xmlns="http://www.w3.org/2000/svg">
+                <defs><marker id="aS1" markerWidth="7" markerHeight="7" refX="3.5" refY="3.5" orient="auto"><polygon points="0 0,7 3.5,0 7" fill="#0b3f6e"/></marker></defs>
+
+                <!-- Protein source -->
+                <rect x="40" y="8" width="160" height="38" rx="7" fill="#ddeeff" stroke="#1a5fa0" stroke-width="1.5"/>
+                <text x="120" y="23" text-anchor="middle" fill="#0b3f6e" font-size="10" font-family="sans-serif" font-weight="bold">Protein Source</text>
+                <text x="120" y="37" text-anchor="middle" fill="#1a5fa0" font-size="8.5" font-family="sans-serif">(organism / experiment)</text>
+
+                <line x1="120" y1="48" x2="120" y2="68" stroke="#0b3f6e" stroke-width="1.5" marker-end="url(#aS1)"/>
+
+                <!-- What is stored -->
+                <rect x="20" y="72" width="200" height="50" rx="7" fill="#1a5fa0" stroke="#3a88cc" stroke-width="1.5"/>
+                <text x="120" y="90" text-anchor="middle" fill="#fff" font-size="10" font-family="sans-serif" font-weight="bold">1D Amino Acid Sequence</text>
+                <text x="120" y="105" text-anchor="middle" fill="#c5ddee" font-size="9" font-family="sans-serif">M-A-K-L-V-T-S-D-E-K-…</text>
+
+                <line x1="120" y1="124" x2="120" y2="144" stroke="#0b3f6e" stroke-width="1.5" marker-end="url(#aS1)"/>
+
+                <!-- Annotation -->
+                <rect x="20" y="148" width="200" height="56" rx="7" fill="#edf4ff" stroke="#1a5fa0" stroke-width="1.5"/>
+                <text x="120" y="167" text-anchor="middle" fill="#0b3f6e" font-size="9.5" font-family="sans-serif" font-weight="bold">Rich Annotation</text>
+                <text x="120" y="181" text-anchor="middle" fill="#1a5fa0" font-size="8.5" font-family="sans-serif">function, PTMs, disease,</text>
+                <text x="120" y="194" text-anchor="middle" fill="#1a5fa0" font-size="8.5" font-family="sans-serif">subcellular location</text>
+
+                <line x1="120" y1="206" x2="120" y2="226" stroke="#0b3f6e" stroke-width="1.5" marker-end="url(#aS1)"/>
+
+                <!-- Use -->
+                <rect x="20" y="230" width="200" height="44" rx="7" fill="#0b3f6e" stroke="#3a88cc" stroke-width="1.5"/>
+                <text x="120" y="248" text-anchor="middle" fill="#fff" font-size="9.5" font-family="sans-serif" font-weight="bold">Use: Identify, classify</text>
+                <text x="120" y="262" text-anchor="middle" fill="#c5ddee" font-size="8.5" font-family="sans-serif">predict function, evolution</text>
+              </svg>
+            </div>
+          </div>
+
+          <!-- STRUCTURAL DATABASE panel -->
+          <div class="sbsp">
+            <div class="sbsh str">🔬 Structural Database (e.g., PDB)</div>
+            <div class="sbsb">
+              <svg viewBox="0 0 240 290" xmlns="http://www.w3.org/2000/svg">
+                <defs><marker id="aS2" markerWidth="7" markerHeight="7" refX="3.5" refY="3.5" orient="auto"><polygon points="0 0,7 3.5,0 7" fill="#7a1a12"/></marker></defs>
+
+                <!-- Method -->
+                <rect x="40" y="8" width="160" height="38" rx="7" fill="#fff3f0" stroke="#cc3b2e" stroke-width="1.5"/>
+                <text x="120" y="23" text-anchor="middle" fill="#7a1a12" font-size="10" font-family="sans-serif" font-weight="bold">Experimental Method</text>
+                <text x="120" y="37" text-anchor="middle" fill="#cc3b2e" font-size="8.5" font-family="sans-serif">X-ray / NMR / Cryo-EM</text>
+
+                <line x1="120" y1="48" x2="120" y2="68" stroke="#7a1a12" stroke-width="1.5" marker-end="url(#aS2)"/>
+
+                <!-- 3D coords -->
+                <rect x="20" y="72" width="200" height="50" rx="7" fill="#7a1a12" stroke="#cc3b2e" stroke-width="1.5"/>
+                <text x="120" y="90" text-anchor="middle" fill="#fff" font-size="10" font-family="sans-serif" font-weight="bold">3D Atomic Coordinates</text>
+                <text x="120" y="105" text-anchor="middle" fill="#f5b0aa" font-size="9" font-family="sans-serif">X, Y, Z positions (Å) per atom</text>
+
+                <line x1="120" y1="124" x2="120" y2="144" stroke="#7a1a12" stroke-width="1.5" marker-end="url(#aS2)"/>
+
+                <!-- Structure info -->
+                <rect x="20" y="148" width="200" height="56" rx="7" fill="#fff3f0" stroke="#cc3b2e" stroke-width="1.5"/>
+                <text x="120" y="167" text-anchor="middle" fill="#7a1a12" font-size="9.5" font-family="sans-serif" font-weight="bold">Structure Information</text>
+                <text x="120" y="181" text-anchor="middle" fill="#cc3b2e" font-size="8.5" font-family="sans-serif">alpha helices, beta sheets,</text>
+                <text x="120" y="194" text-anchor="middle" fill="#cc3b2e" font-size="8.5" font-family="sans-serif">loops, ligands, active site</text>
+
+                <line x1="120" y1="206" x2="120" y2="226" stroke="#7a1a12" stroke-width="1.5" marker-end="url(#aS2)"/>
+
+                <!-- Use -->
+                <rect x="20" y="230" width="200" height="44" rx="7" fill="#7a1a12" stroke="#cc3b2e" stroke-width="1.5"/>
+                <text x="120" y="248" text-anchor="middle" fill="#fff" font-size="9.5" font-family="sans-serif" font-weight="bold">Use: Drug design, fold</text>
+                <text x="120" y="262" text-anchor="middle" fill="#f5b0aa" font-size="8.5" font-family="sans-serif">analysis, mechanism</text>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <!-- Key difference callout -->
+        <div class="hb" style="margin-top:6px;">
+          <div class="hb-l tl">Core Distinction</div>
+          Sequence databases (SWISS-PROT, UniProt) store <strong>what the protein is made of</strong> (amino acid order = 1D). Structural databases (PDB) store <strong>what shape the protein adopts</strong> (atomic coordinates in 3D space). Both are needed for complete understanding of a protein.
+        </div>
+
+        <!-- ── DATA FLOW DIAGRAM ── -->
+        <h4 style="color:var(--tk);margin:28px 0 12px;">
+          Data Flow: Biological Data → Database → Analysis
+          <small style="color:var(--txl);font-size:.77rem;"> (Click nodes)</small>
+        </h4>
+        <svg id="svg-flow" viewBox="0 0 760 130" xmlns="http://www.w3.org/2000/svg"
+             style="width:100%;max-width:760px;display:block;margin:0 auto"
+             aria-label="Data flow diagram">
+          <defs><marker id="aF" markerWidth="7" markerHeight="7" refX="3.5" refY="3.5" orient="auto"><polygon points="0 0,7 3.5,0 7" fill="#0b5c63"/></marker></defs>
+
+          <g class="dn" id="fl1" onclick="dC('fl1','fl-info','Step 1 — Biological Data: Researchers determine protein sequences (via gene sequencing + translation) or 3D structures (via X-ray crystallography, NMR, or Cryo-EM) in the laboratory.')">
+            <rect x="4" y="28" width="120" height="64" rx="8" fill="#0b3f6e" stroke="#3a88cc" stroke-width="1.5"/>
+            <text x="64" y="55" text-anchor="middle" fill="#fff" font-size="10" font-family="sans-serif" font-weight="bold">🔬 Biological</text>
+            <text x="64" y="69" text-anchor="middle" fill="#c5ddee" font-size="9" font-family="sans-serif">Data (lab)</text>
+            <text x="64" y="83" text-anchor="middle" fill="#c5ddee" font-size="8.5" font-family="sans-serif">sequence / structure</text>
+          </g>
+          <line x1="128" y1="60" x2="148" y2="60" stroke="#0b5c63" stroke-width="1.5" marker-end="url(#aF)"/>
+
+          <g class="dn" id="fl2" onclick="dC('fl2','fl-info','Step 2 — Database Entry: The researcher submits the sequence (to UniProt/SWISS-PROT) or structure (to PDB) through online submission portals. An accession number or PDB ID is assigned.')">
+            <rect x="152" y="28" width="120" height="64" rx="8" fill="#0b5c63" stroke="#2d9fa9" stroke-width="1.5"/>
+            <text x="212" y="52" text-anchor="middle" fill="#fff" font-size="10" font-family="sans-serif" font-weight="bold">📥 Database</text>
+            <text x="212" y="66" text-anchor="middle" fill="#c0eaed" font-size="9" font-family="sans-serif">Entry &amp; Curation</text>
+            <text x="212" y="80" text-anchor="middle" fill="#c0eaed" font-size="8.5" font-family="sans-serif">ID assigned</text>
+          </g>
+          <line x1="276" y1="60" x2="296" y2="60" stroke="#0b5c63" stroke-width="1.5" marker-end="url(#aF)"/>
+
+          <g class="dn" id="fl3" onclick="dC('fl3','fl-info','Step 3 — Storage: Sequences stored in UniProt (Swiss-Prot or TrEMBL); structures stored in PDB. Rich annotations are added by curators or automated pipelines.')">
+            <rect x="300" y="28" width="120" height="64" rx="8" fill="#1a6e44" stroke="#2da367" stroke-width="1.5"/>
+            <text x="360" y="52" text-anchor="middle" fill="#fff" font-size="10" font-family="sans-serif" font-weight="bold">💾 Storage</text>
+            <text x="360" y="66" text-anchor="middle" fill="#c5ecd7" font-size="9" font-family="sans-serif">UniProt / PDB</text>
+            <text x="360" y="80" text-anchor="middle" fill="#c5ecd7" font-size="8.5" font-family="sans-serif">freely accessible</text>
+          </g>
+          <line x1="424" y1="60" x2="444" y2="60" stroke="#0b5c63" stroke-width="1.5" marker-end="url(#aF)"/>
+
+          <g class="dn" id="fl4" onclick="dC('fl4','fl-info','Step 4 — Retrieval: Researchers worldwide retrieve entries by protein name, accession number, PDB ID, or by BLAST similarity search. Tools: UniProt search, NCBI BLAST, PDB viewer.')">
+            <rect x="448" y="28" width="120" height="64" rx="8" fill="#7a5c00" stroke="#e8c44a" stroke-width="1.5"/>
+            <text x="508" y="52" text-anchor="middle" fill="#fff" font-size="10" font-family="sans-serif" font-weight="bold">🔍 Retrieval</text>
+            <text x="508" y="66" text-anchor="middle" fill="#fff8d0" font-size="9" font-family="sans-serif">Search &amp; access</text>
+            <text x="508" y="80" text-anchor="middle" fill="#fff8d0" font-size="8.5" font-family="sans-serif">BLAST / name / ID</text>
+          </g>
+          <line x1="572" y1="60" x2="592" y2="60" stroke="#0b5c63" stroke-width="1.5" marker-end="url(#aF)"/>
+
+          <g class="dn" id="fl5" onclick="dC('fl5','fl-info','Step 5 — Analysis &amp; Application: Retrieved data is used for function prediction, evolutionary analysis, drug target identification, phylogenetic tree building, or structure-based drug design — the ultimate goal of maintaining the databases.')">
+            <rect x="596" y="28" width="154" height="64" rx="8" fill="#7a1a12" stroke="#cc3b2e" stroke-width="1.5"/>
+            <text x="673" y="52" text-anchor="middle" fill="#fff" font-size="10" font-family="sans-serif" font-weight="bold">🧪 Analysis &amp;</text>
+            <text x="673" y="66" text-anchor="middle" fill="#f5b0aa" font-size="9" font-family="sans-serif">Application</text>
+            <text x="673" y="80" text-anchor="middle" fill="#f5b0aa" font-size="8.5" font-family="sans-serif">drug design / research</text>
+          </g>
+          <text x="380" y="122" text-anchor="middle" fill="#4a6a70" font-size="9" font-family="sans-serif" font-style="italic">Click each step for explanation</text>
+        </svg>
+        <div id="fl-info" class="di"></div>
+
+        <!-- ── SWISS-PROT within UniProt SVG ── -->
+        <h4 style="color:var(--tk);margin:28px 0 12px;">
+          SWISS-PROT within the UniProt System
+          <small style="color:var(--txl);font-size:.77rem;"> (Click nodes)</small>
+        </h4>
+        <svg id="svg-up" viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg"
+             style="width:100%;max-width:700px;display:block;margin:0 auto"
+             aria-label="UniProt system diagram">
+          <defs><marker id="aU" markerWidth="7" markerHeight="7" refX="3.5" refY="3.5" orient="auto"><polygon points="0 0,7 3.5,0 7" fill="#1a6e44"/></marker></defs>
+
+          <!-- Outer UniProt box -->
+          <g class="dn" id="u0" onclick="dC('u0','up-info','UniProt (Universal Protein Resource) is the umbrella organisation managing the world\'s most comprehensive protein database, created in 2002 by SIB + EBI + PIR. It contains UniProtKB, UniRef, and UniParc.')">
+            <rect x="4" y="8" width="692" height="184" rx="12" fill="#f0faf4" stroke="#2da367" stroke-width="2"/>
+            <text x="350" y="28" text-anchor="middle" fill="#1a6e44" font-size="11" font-family="sans-serif" font-weight="bold">🌐 UniProt — Universal Protein Resource</text>
+          </g>
+
+          <!-- UniProtKB box -->
+          <g class="dn" id="u1" onclick="dC('u1','up-info','UniProtKB (UniProt Knowledgebase) is the central protein sequence and function database. It is divided into Swiss-Prot (reviewed) and TrEMBL (unreviewed).')">
+            <rect x="20" y="38" width="440" height="140" rx="10" fill="#ddf5e8" stroke="#1a6e44" stroke-width="1.5"/>
+            <text x="240" y="58" text-anchor="middle" fill="#1a6e44" font-size="10" font-family="sans-serif" font-weight="bold">UniProtKB (Central Knowledgebase)</text>
+          </g>
+
+          <!-- Swiss-Prot -->
+          <g class="dn" id="u2" onclick="dC('u2','up-info','Swiss-Prot: The manually reviewed tier of UniProtKB. ~570,000 entries. Every annotation verified by expert biologists against published literature. Considered the "gold standard" for protein data quality.')">
+            <rect x="36" y="70" width="190" height="94" rx="8" fill="#1a5fa0" stroke="#3a88cc" stroke-width="1.5"/>
+            <text x="131" y="96" text-anchor="middle" fill="#fff" font-size="10" font-family="sans-serif" font-weight="bold">⭐ Swiss-Prot</text>
+            <text x="131" y="111" text-anchor="middle" fill="#c5ddee" font-size="8.5" font-family="sans-serif">Manually Reviewed</text>
+            <text x="131" y="125" text-anchor="middle" fill="#c5ddee" font-size="8.5" font-family="sans-serif">~570,000 entries</text>
+            <text x="131" y="139" text-anchor="middle" fill="#aad3f0" font-size="8" font-family="sans-serif">"Gold Standard"</text>
+            <text x="131" y="153" text-anchor="middle" fill="#aad3f0" font-size="8" font-family="sans-serif">high quality / curated</text>
+          </g>
+
+          <!-- TrEMBL -->
+          <g class="dn" id="u3" onclick="dC('u3','up-info','TrEMBL: The automatically annotated tier of UniProtKB. ~220 million entries. Sequences are added from genome sequencing projects and annotated computationally. Awaiting manual review to graduate into Swiss-Prot.')">
+            <rect x="244" y="70" width="200" height="94" rx="8" fill="#e07b2f" stroke="#f5aa6a" stroke-width="1.5"/>
+            <text x="344" y="96" text-anchor="middle" fill="#fff" font-size="10" font-family="sans-serif" font-weight="bold">📂 TrEMBL</text>
+            <text x="344" y="111" text-anchor="middle" fill="#fff0e0" font-size="8.5" font-family="sans-serif">Unreviewed</text>
+            <text x="344" y="125" text-anchor="middle" fill="#fff0e0" font-size="8.5" font-family="sans-serif">~220 million entries</text>
+            <text x="344" y="139" text-anchor="middle" fill="#ffe0c0" font-size="8" font-family="sans-serif">computer-annotated</text>
+            <text x="344" y="153" text-anchor="middle" fill="#ffe0c0" font-size="8" font-family="sans-serif">awaiting curation</text>
+          </g>
+
+          <!-- Arrow: TrEMBL → Swiss-Prot -->
+          <line x1="244" y1="117" x2="228" y2="117" stroke="#1a6e44" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#aU)"/>
+          <text x="236" y="110" fill="#1a6e44" font-size="7.5" font-family="sans-serif">after review</text>
+
+          <!-- UniRef -->
+          <g class="dn" id="u4" onclick="dC('u4','up-info','UniRef: UniProt Reference Clusters — groups similar protein sequences into clusters to reduce redundancy and speed up searches. Available at three identity thresholds: UniRef100, UniRef90, UniRef50.')">
+            <rect x="476" y="38" width="196" height="58" rx="8" fill="#0b5c63" stroke="#2d9fa9" stroke-width="1.5"/>
+            <text x="574" y="62" text-anchor="middle" fill="#fff" font-size="10" font-family="sans-serif" font-weight="bold">UniRef</text>
+            <text x="574" y="77" text-anchor="middle" fill="#c0eaed" font-size="8.5" font-family="sans-serif">Sequence clusters</text>
+          </g>
+
+          <!-- UniParc -->
+          <g class="dn" id="u5" onclick="dC('u5','up-info','UniParc: UniProt Archive — a non-redundant database of all protein sequences ever submitted to any public database. Tracks sequence history and cross-references across databases.')">
+            <rect x="476" y="112" width="196" height="58" rx="8" fill="#7a5c00" stroke="#e8c44a" stroke-width="1.5"/>
+            <text x="574" y="136" text-anchor="middle" fill="#fff" font-size="10" font-family="sans-serif" font-weight="bold">UniParc</text>
+            <text x="574" y="151" text-anchor="middle" fill="#fff8d0" font-size="8.5" font-family="sans-serif">Sequence archive</text>
+          </g>
+        </svg>
+        <div id="up-info" class="di"></div>
+
+        <div class="qr" style="margin-top:20px;">
+          <div class="qrh">Quick Revision</div>
+          <ul>
+            <li>Sequence DB (UniProt/SWISS-PROT) = 1D amino acid order + annotations; Structural DB (PDB) = 3D atomic coordinates</li>
+            <li>UniProt contains UniProtKB (Swiss-Prot + TrEMBL), UniRef, and UniParc</li>
+            <li>Swiss-Prot entries can be promoted from TrEMBL after manual expert review</li>
+            <li>PDB ID = unique 4-character code for each structure (e.g., 1HHO = haemoglobin)</li>
+            <li>Data flow: lab → database entry → storage → retrieval → analysis/application</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ S6 COMPARISON TABLE ════════════ -->
+<section class="sec" id="compare">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="snum">SECTION 06</span>
+      <h2 class="stit">Comparison: SWISS-PROT · UniProt · PDB</h2>
+      <div class="card">
+        <div style="overflow-x:auto">
+          <table class="ctbl">
+            <thead>
+              <tr>
+                <th>Feature</th>
+                <th style="background:#0b3f6e">SWISS-PROT</th>
+                <th style="background:#1a6e44">UniProt</th>
+                <th style="background:#7a1a12">PDB</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Full Name</td><td>SWISS-PROT Protein Knowledgebase</td><td>Universal Protein Resource</td><td>Protein Data Bank</td></tr>
+              <tr><td>Type of Database</td><td>Protein sequence (curated)</td><td>Protein sequence + function (comprehensive)</td><td>Macromolecular structure (3D)</td></tr>
+              <tr><td>Data Stored</td><td>Amino acid sequences + rich manual annotations</td><td>Amino acid sequences + functional annotations (reviewed &amp; unreviewed)</td><td>3D atomic coordinates, experimental details, ligands</td></tr>
+              <tr><td>Curation</td><td>Manual expert review — every entry verified</td><td>Two tiers: manually reviewed (Swiss-Prot) + automatically annotated (TrEMBL)</td><td>Experimental data — validated by wwPDB curators</td></tr>
+              <tr><td>Maintained by</td><td>SIB (Switzerland) &amp; EBI (UK) — now part of UniProt</td><td>SIB + EBI + PIR (global consortium)</td><td>wwPDB: RCSB (USA), PDBe (UK), PDBj (Japan)</td></tr>
+              <tr><td>Year Founded</td><td>1986</td><td>2002</td><td>1971 (oldest)</td></tr>
+              <tr><td>Size (approx.)</td><td>~570,000 entries</td><td>~220+ million entries (UniProtKB total)</td><td>&gt;220,000 structures</td></tr>
+              <tr><td>Unique Identifier</td><td>UniProt Accession (e.g., P00533)</td><td>UniProt Accession (e.g., P00533)</td><td>PDB ID (e.g., 1HHO) — 4 characters</td></tr>
+              <tr><td>Key Tool</td><td>BLAST, sequence search at uniprot.org</td><td>UniProt search, BLAST, PSI-BLAST</td><td>PDB viewer (Mol*, PyMOL), structure search</td></tr>
+              <tr><td>Main Use</td><td>Protein function, identity, evolutionary analysis</td><td>Comprehensive protein information retrieval</td><td>Drug design, structural biology, mechanism studies</td></tr>
+              <tr><td>Relationship</td><td>Subset of UniProt (the reviewed tier)</td><td>Umbrella — contains Swiss-Prot + TrEMBL</td><td>Independent structural database; cross-linked to UniProt</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="qr">
+          <div class="qrh">Quick Revision</div>
+          <ul>
+            <li>Swiss-Prot (1986) is the reviewed tier of UniProt; UniProt (2002) is the umbrella resource; PDB (1971) is the oldest, storing 3D structures</li>
+            <li>Swiss-Prot = quality; TrEMBL = quantity; PDB = 3D spatial data</li>
+            <li>Swiss-Prot and UniProt share the same accession number system (P00533 style)</li>
+            <li>PDB uses a unique 4-character ID (1HHO style) — completely different system</li>
+            <li>PDB entries are cross-linked to UniProt — you can go from sequence to structure and back</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ S7 APPLICATIONS ════════════ -->
+<section class="sec" id="apps">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="snum">SECTION 07</span>
+      <h2 class="stit">Applications of Protein &amp; Structural Databases</h2>
+      <div class="card">
+        <div class="ag">
+          <div class="ac"><div class="ai2">🔬</div><h5>Protein Identification</h5><p>Compare an unknown protein sequence against SWISS-PROT/UniProt using BLAST to identify what the protein is and which organism it comes from.</p></div>
+          <div class="ac"><div class="ai2">📋</div><h5>Functional Annotation</h5><p>UniProt annotations reveal what a protein does — enzymatic function, binding partners, cellular role — without repeating lab experiments.</p></div>
+          <div class="ac"><div class="ai2">🌳</div><h5>Evolutionary Studies</h5><p>Retrieve homologous protein sequences from multiple species to build phylogenetic trees and trace protein evolution over millions of years.</p></div>
+          <div class="ac"><div class="ai2">⚖️</div><h5>Comparative Studies</h5><p>Compare the same protein across species — to study conservation, divergence, and which regions are functionally critical.</p></div>
+          <div class="ac"><div class="ai2">💊</div><h5>Drug Design</h5><p>PDB structures reveal the shape of enzyme active sites and receptor binding pockets — enabling researchers to design drugs that fit precisely.</p></div>
+          <div class="ac"><div class="ai2">🔷</div><h5>Structural Analysis</h5><p>Analyse secondary and tertiary structure, identify binding domains, active site residues, and predict how mutations affect protein folding.</p></div>
+          <div class="ac"><div class="ai2">🩺</div><h5>Disease Research</h5><p>Swiss-Prot disease variant annotations and PDB structures of disease-related proteins help understand the molecular basis of genetic disorders.</p></div>
+          <div class="ac"><div class="ai2">🌾</div><h5>Biotechnology</h5><p>Retrieve sequences for industrial enzymes; design improved variants; screen for homologues with desirable properties in microorganism or plant databases.</p></div>
+        </div>
+
+        <div class="hb ex">
+          <div class="hb-l ex">Exam Point</div>
+          <strong>Structure-based drug design</strong> relies entirely on PDB data. By visualising the 3D structure of a target protein (e.g., a viral protease), chemists can design small molecules that block the active site — a strategy used in developing HIV drugs (protease inhibitors) and COVID-19 antivirals.
+        </div>
+
+        <div class="qr">
+          <div class="qrh">Quick Revision</div>
+          <ul>
+            <li>8 key applications: protein identification, functional annotation, evolution, comparative studies, drug design, structural analysis, disease research, biotechnology</li>
+            <li>UniProt is the first resource used to identify and characterise a new protein</li>
+            <li>PDB is indispensable for structure-based drug design — visualising active sites in 3D</li>
+            <li>HIV protease inhibitors and COVID-19 antivirals were designed using PDB structures</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ S8 ROLE IN BIOINFORMATICS ════════════ -->
+<section class="sec" id="bioinf">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="snum">SECTION 08</span>
+      <h2 class="stit">Role in Bioinformatics</h2>
+      <div class="card">
+        <div class="pcg">
+          <div style="background:#edf4ff;border:1px solid #7aaee8;border-radius:8px;padding:16px;">
+            <h4 style="color:var(--bdk);font-size:.9rem;margin-bottom:10px;">🔤 Protein Sequence Databases</h4>
+            <ul style="list-style:disc;padding-left:18px;font-size:.87rem;color:#1a3a60;">
+              <li>Foundation of sequence analysis workflows</li>
+              <li>BLAST searches identify similar proteins across species</li>
+              <li>Multiple sequence alignment for phylogenetics</li>
+              <li>Domain and motif identification (Pfam, InterPro)</li>
+              <li>Function prediction by homology</li>
+              <li>Proteomics data interpretation</li>
+            </ul>
+          </div>
+          <div style="background:#fff3f0;border:1px solid #f5b09a;border-radius:8px;padding:16px;">
+            <h4 style="color:var(--rdk);font-size:.9rem;margin-bottom:10px;">🔬 Structural Databases (PDB)</h4>
+            <ul style="list-style:disc;padding-left:18px;font-size:.87rem;color:#5a1a12;">
+              <li>Source for 3D structure visualisation and analysis</li>
+              <li>Molecular docking and virtual drug screening</li>
+              <li>Protein structure prediction validation (AlphaFold)</li>
+              <li>Understanding protein folding mechanisms</li>
+              <li>Comparative structural analysis across proteins</li>
+              <li>Identifying conserved structural motifs</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="hb go" style="margin-top:16px;">
+          <div class="hb-l go">AlphaFold &amp; PDB</div>
+          In 2021, DeepMind's <strong>AlphaFold 2</strong> AI predicted structures for nearly all human proteins. These predicted structures were deposited in the AlphaFold Database (linked to UniProt and PDB), revolutionising structural biology. This demonstrates how sequence databases and structural databases are deeply interconnected in modern bioinformatics.
+        </div>
+
+        <div class="qr">
+          <div class="qrh">Quick Revision</div>
+          <ul>
+            <li>Sequence databases power: BLAST, multiple alignment, domain analysis, function prediction</li>
+            <li>Structural databases (PDB) power: drug docking, fold analysis, structure prediction validation</li>
+            <li>AlphaFold 2 (2021) predicted nearly all human protein structures — deposited in AlphaFold DB linked to UniProt and PDB</li>
+            <li>The two types of database are complementary — sequence + structure together give a complete picture of a protein</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ S9 INTERACTIVE LEARNING ════════════ -->
+<section class="sec" id="interactive">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="snum">SECTION 09</span>
+      <h2 class="stit">Interactive Learning</h2>
+      <div class="card">
+        <p style="margin-bottom:16px;">Expand each topic for key points and click-to-reveal for active recall practice.</p>
+        <div id="accordion">
+
+          <div class="ai">
+            <button class="ab" onclick="toggleAcc(this)">🗄️ Protein Databases — Overview <span class="ar">▼</span></button>
+            <div class="abody">
+              <p>Protein sequence databases store amino acid sequences with functional annotations. They are essential for protein identification, function prediction, and evolutionary analysis.</p>
+              <div class="hb" style="margin-top:12px;"><div class="hb-l tl">Click to Reveal</div>
+              Three key protein/structural databases: <span class="ctr" onclick="this.classList.toggle('shown')">SWISS-PROT (manually curated sequences), UniProt (comprehensive — Swiss-Prot + TrEMBL), and PDB (3D atomic coordinates of macromolecular structures).</span></div>
+            </div>
+          </div>
+
+          <div class="ai">
+            <button class="ab" onclick="toggleAcc(this)">⭐ SWISS-PROT — Key Points <span class="ar">▼</span></button>
+            <div class="abody">
+              <ul style="padding-left:18px;font-size:.91rem;">
+                <li>Manually reviewed, non-redundant protein sequence database</li>
+                <li>Founded 1986 by Amos Bairoch (University of Geneva)</li>
+                <li>Maintained by SIB + EBI; now part of UniProt</li>
+                <li>Data: protein name, amino acid sequence, function, organism, PTMs, disease links</li>
+                <li>The "gold standard" — highest reliability in protein databases</li>
+              </ul>
+              <div class="hb ex" style="margin-top:12px;"><div class="hb-l ex">Remember</div>
+              <span class="ctr" onclick="this.classList.toggle('shown')">The defining feature of SWISS-PROT is manual expert curation — every annotation is verified by biologists against published literature. This is what distinguishes it from automatically generated databases.</span></div>
+            </div>
+          </div>
+
+          <div class="ai">
+            <button class="ab" onclick="toggleAcc(this)">🌐 UniProt — Key Points <span class="ar">▼</span></button>
+            <div class="abody">
+              <ul style="padding-left:18px;font-size:.91rem;">
+                <li>Created 2002 by SIB + EBI + PIR; world's largest protein database</li>
+                <li>Contains UniProtKB (Swiss-Prot + TrEMBL), UniRef, and UniParc</li>
+                <li>Swiss-Prot (~570K) = reviewed; TrEMBL (~220M) = unreviewed</li>
+                <li>Free access at uniprot.org; search by name, function, organism, BLAST</li>
+                <li>GO annotations describe molecular function, biological process, cellular component</li>
+              </ul>
+              <div class="hb" style="margin-top:12px;"><div class="hb-l tl">Click to Reveal — TrEMBL meaning</div>
+              <span class="ctr" onclick="this.classList.toggle('shown')">TrEMBL = Translated EMBL — it was originally created to hold protein sequences automatically translated from nucleotide sequences submitted to the EMBL nucleotide database. It grew far larger than Swiss-Prot as genome sequencing accelerated.</span></div>
+            </div>
+          </div>
+
+          <div class="ai">
+            <button class="ab" onclick="toggleAcc(this)">🔬 PDB — Key Points <span class="ar">▼</span></button>
+            <div class="abody">
+              <ul style="padding-left:18px;font-size:.91rem;">
+                <li>Founded 1971 at Brookhaven National Laboratory, USA</li>
+                <li>World's only archive of 3D biological macromolecular structures</li>
+                <li>Managed by wwPDB consortium: RCSB (USA), PDBe (UK), PDBj (Japan)</li>
+                <li>Data: 3D atomic coordinates (XYZ in Å), experimental method, ligands, quality metrics</li>
+                <li>Methods: X-ray crystallography, NMR spectroscopy, Cryo-EM</li>
+                <li>Each structure has a unique 4-character PDB ID (e.g., 1HHO)</li>
+              </ul>
+              <div class="hb ex" style="margin-top:12px;"><div class="hb-l ex">Remember</div>
+              <span class="ctr" onclick="this.classList.toggle('shown')">PDB started with just 7 protein structures in 1971. By 2024 it contains over 220,000 structures. The dramatic growth was driven by improvements in X-ray crystallography, and more recently, Cryo-EM technology which can solve structures of large complexes impossible to crystallise.</span></div>
+            </div>
+          </div>
+
+          <div class="ai">
+            <button class="ab" onclick="toggleAcc(this)">🧪 Applications — Summary <span class="ar">▼</span></button>
+            <div class="abody">
+              <ul style="padding-left:18px;font-size:.91rem;">
+                <li><strong>UniProt/SWISS-PROT:</strong> protein ID, function, evolution, disease variant lookup, comparative studies</li>
+                <li><strong>PDB:</strong> drug design (active site visualisation), structural analysis, fold classification, mechanism studies</li>
+                <li>Both types are interconnected — UniProt entries link to PDB structures</li>
+                <li>AlphaFold predictions are linked to UniProt accessions — bridging sequence and structure</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ S10 QUIZ ════════════ -->
+<section class="sec" id="quiz">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="snum">SECTION 10</span>
+      <h2 class="stit">Self-Assessment Quiz</h2>
+      <p style="margin-bottom:20px;color:var(--txl)">Select an option for immediate feedback. Submit when done to see your score.</p>
+      <div id="quiz-c"></div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:20px">
+        <button class="btn" onclick="submitQ()">Submit &amp; See Score</button>
+        <button class="btn sec" onclick="resetQ()">Reset Quiz</button>
+      </div>
+      <div id="qres"><h3 id="rh"></h3><p id="rm"></p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ S11 SUMMARY ════════════ -->
+<section class="sec" id="summary">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="snum">SECTION 11</span>
+      <h2 class="stit">Summary &amp; Revision Bullets</h2>
+      <div class="card">
+        <ul class="sb">
+          <li>Nucleotide databases (GenBank, EMBL) store DNA/RNA sequences; protein sequence databases (SWISS-PROT, UniProt) store amino acid sequences; structural databases (PDB) store 3D atomic coordinates.</li>
+          <li>SWISS-PROT: manually reviewed, non-redundant protein sequence database; founded 1986 by Amos Bairoch; maintained by SIB + EBI; now the reviewed tier of UniProt.</li>
+          <li>UniProt: comprehensive protein resource created 2002; UniProtKB = Swiss-Prot (reviewed, ~570K) + TrEMBL (unreviewed, ~220M entries).</li>
+          <li>SWISS-PROT is a subset of UniProt — all Swiss-Prot entries are in UniProt, but UniProt contains far more entries.</li>
+          <li>PDB (Protein Data Bank): world's only archive of 3D macromolecular structures; founded 1971; managed by wwPDB; stores atomic XYZ coordinates, experimental method, ligands.</li>
+          <li>PDB methods: X-ray crystallography, NMR spectroscopy, Cryo-EM. Each structure has a unique 4-character PDB ID (e.g., 1HHO for haemoglobin).</li>
+          <li>Data flow: lab → database entry → storage → retrieval → analysis/application.</li>
+          <li>Applications: protein ID (UniProt), functional annotation (Swiss-Prot), drug design (PDB), evolutionary studies (both), disease research (both).</li>
+          <li>AlphaFold 2 (2021) predicted structures for nearly all human proteins — linking sequence (UniProt) and structure (PDB) databases.</li>
+        </ul>
+
+        <h4 style="color:var(--tk);margin:22px 0 12px;">Key Differences at a Glance</h4>
+        <div style="overflow-x:auto">
+          <table class="ctbl">
+            <thead><tr><th>Point</th><th>SWISS-PROT</th><th>UniProt</th><th>PDB</th></tr></thead>
+            <tbody>
+              <tr><td>Data type</td><td>Protein sequence (curated)</td><td>Protein sequence (reviewed + unreviewed)</td><td>3D structure (atomic coordinates)</td></tr>
+              <tr><td>Founded</td><td>1986</td><td>2002</td><td>1971</td></tr>
+              <tr><td>Curation</td><td>Manual — gold standard</td><td>Manual (Swiss-Prot) + auto (TrEMBL)</td><td>Experimental data + wwPDB validation</td></tr>
+              <tr><td>Size</td><td>~570,000 entries</td><td>~220 million entries</td><td>&gt;220,000 structures</td></tr>
+              <tr><td>Unique ID</td><td>UniProt accession</td><td>UniProt accession</td><td>4-char PDB ID</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ S12 GLOSSARY ════════════ -->
+<section class="sec" id="glossary">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="snum">SECTION 12</span>
+      <h2 class="stit">Glossary</h2>
+      <div class="card">
+        <dl class="gg">
+          <div class="gc"><dt>Protein Sequence</dt><dd>The linear order of amino acids in a polypeptide chain (primary structure); determines the protein's identity and, ultimately, its 3D shape and function.</dd></div>
+          <div class="gc"><dt>SWISS-PROT</dt><dd>A manually reviewed, non-redundant protein sequence database; the "gold standard" for protein annotation; founded 1986; now the reviewed tier of UniProt.</dd></div>
+          <div class="gc"><dt>UniProt</dt><dd>Universal Protein Resource — the world's most comprehensive protein database, containing UniProtKB (Swiss-Prot + TrEMBL), UniRef, and UniParc; created 2002.</dd></div>
+          <div class="gc"><dt>Curated Database</dt><dd>A database in which entries have been manually reviewed and verified by expert scientists — ensuring accuracy but limiting speed and scale.</dd></div>
+          <div class="gc"><dt>Annotation</dt><dd>Biological information added to a sequence or structure entry — protein name, function, subcellular location, post-translational modifications, disease links.</dd></div>
+          <div class="gc"><dt>PDB</dt><dd>Protein Data Bank — the world's only archive of three-dimensional structures of biological macromolecules; stores atomic XYZ coordinates determined by X-ray, NMR, or Cryo-EM.</dd></div>
+          <div class="gc"><dt>3D Structure</dt><dd>The complete spatial arrangement of all atoms in a macromolecule — the tertiary (and quaternary) structure. Stored in PDB as XYZ coordinates in Ångströms.</dd></div>
+          <div class="gc"><dt>Structural Biology</dt><dd>The branch of molecular biology that studies the molecular structure of biological macromolecules and how structure relates to function.</dd></div>
+          <div class="gc"><dt>Protein Function</dt><dd>The biological role a protein performs — enzymatic catalysis, structural support, signalling, transport, or regulation.</dd></div>
+          <div class="gc"><dt>TrEMBL</dt><dd>The unreviewed tier of UniProtKB — automatically annotated protein sequences from genome sequencing projects; entries await manual curation to graduate to Swiss-Prot.</dd></div>
+          <div class="gc"><dt>PDB ID</dt><dd>A unique 4-character alphanumeric identifier assigned to each structure deposited in the Protein Data Bank (e.g., 1HHO for haemoglobin).</dd></div>
+          <div class="gc"><dt>Cryo-EM</dt><dd>Cryo-Electron Microscopy — an experimental technique for determining 3D structures of macromolecules at near-atomic resolution, particularly useful for large complexes.</dd></div>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ S13 EXAM QUESTIONS ════════════ -->
+<section class="sec" id="examq">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="snum">SECTION 13</span>
+      <h2 class="stit">Frequently Asked University Exam Questions</h2>
+      <div class="card">
+
+        <div class="eq">
+          <div class="eq-q">1. What is SWISS-PROT? Describe its features and importance as a protein sequence database.</div>
+          <button class="hbtn" onclick="toggleH(this)">Show Hint</button>
+          <div class="hint">Define SWISS-PROT (manually reviewed, non-redundant protein sequence database; founded 1986 by Amos Bairoch; SIB + EBI; now part of UniProt). Features: manual expert curation, non-redundant entries, rich annotation (sequence, function, PTMs, disease, organism), cross-references to 100+ databases. Importance: gold standard for protein data quality; preferred for reliable biological interpretation; widely cited in molecular biology research.</div>
+        </div>
+
+        <div class="eq">
+          <div class="eq-q">2. Explain UniProt and its components. What is the relationship between SWISS-PROT and UniProt?</div>
+          <button class="hbtn" onclick="toggleH(this)">Show Hint</button>
+          <div class="hint">UniProt = Universal Protein Resource; created 2002 by SIB + EBI + PIR. Components: UniProtKB (central knowledgebase = Swiss-Prot + TrEMBL), UniRef (sequence clusters), UniParc (archive). Swiss-Prot vs TrEMBL: Swiss-Prot (~570K) = manually reviewed ("gold standard"); TrEMBL (~220M) = computationally annotated, awaiting review. Relationship: SWISS-PROT is a subset (reviewed tier) of UniProt. TrEMBL entries graduate to Swiss-Prot after expert review.</div>
+        </div>
+
+        <div class="eq">
+          <div class="eq-q">3. What is the Protein Data Bank (PDB)? Describe the type of data it stores and its importance in structural biology.</div>
+          <button class="hbtn" onclick="toggleH(this)">Show Hint</button>
+          <div class="hint">PDB = Protein Data Bank; founded 1971; managed by wwPDB (RCSB, PDBe, PDBj). Data stored: 3D atomic XYZ coordinates (in Å), amino acid/nucleotide sequence, experimental method (X-ray, NMR, Cryo-EM), resolution, ligands, biological assembly. Importance: reveals how proteins fold and function; essential for rational/structure-based drug design; HIV protease inhibitors and COVID-19 antivirals designed using PDB data; training data for AI structure prediction (AlphaFold).</div>
+        </div>
+
+        <div class="eq">
+          <div class="eq-q">4. Distinguish between protein sequence databases and structural databases. Give two examples of each type.</div>
+          <button class="hbtn" onclick="toggleH(this)">Show Hint</button>
+          <div class="hint">Protein sequence databases: store 1D amino acid sequences + annotations; tell you WHAT the protein is made of; examples: SWISS-PROT, UniProt (UniProtKB). Structural databases: store 3D atomic coordinates; tell you WHAT SHAPE the protein adopts; examples: PDB, AlphaFold Database. Key distinction: a protein can have a known sequence but unknown structure — not all UniProt proteins are in PDB. Structural data requires laborious experimental methods; sequence data is more easily obtained.</div>
+        </div>
+
+        <div class="eq">
+          <div class="eq-q">5. Discuss the applications of protein and structural databases in biotechnology and drug research.</div>
+          <button class="hbtn" onclick="toggleH(this)">Show Hint</button>
+          <div class="hint">Applications: (1) Protein identification — BLAST search against UniProt/Swiss-Prot; (2) Functional annotation — retrieve known function without lab experiments; (3) Drug design — PDB active site visualisation, molecular docking, virtual screening; (4) Disease research — Swiss-Prot variant annotations; (5) Evolutionary studies — phylogenetic trees from retrieved sequences; (6) Industrial enzymes — search for thermostable or pH-tolerant homologues; (7) Structure prediction validation (AlphaFold vs PDB). Mention specific examples: HIV protease inhibitors, COVID-19 antivirals.</div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ FOOTER ════════════ -->
+<footer>
+  <div class="fd">Department of Zoology, GASC, Nagercoil</div>
+  <div class="fa">Created by R. Ramesh</div>
+</footer>
+
+<!-- ════════════ JAVASCRIPT ════════════ -->
+<script>
+/* =====================================================
+   SECTION REVEAL — IntersectionObserver
+   ===================================================== */
+(function(){
+  var obs = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting) e.target.classList.add('visible');
+    });
+  }, {threshold: 0.07});
+  document.querySelectorAll('.reveal').forEach(function(el){ obs.observe(el); });
+})();
+
+/* =====================================================
+   ACCORDION
+   ===================================================== */
+function toggleAcc(btn){
+  var body = btn.nextElementSibling;
+  var open = body.classList.contains('open');
+  document.querySelectorAll('.abody.open').forEach(function(b){ b.classList.remove('open'); });
+  document.querySelectorAll('.ab.open').forEach(function(b){ b.classList.remove('open'); });
+  if(!open){ body.classList.add('open'); btn.classList.add('open'); }
+}
+
+/* =====================================================
+   DIAGRAM NODE CLICK — highlight + info panel
+   ===================================================== */
+function dC(nodeId, infoId, text){
+  var info = document.getElementById(infoId);
+  if(!info) return;
+  info.textContent = text;
+  info.classList.add('show');
+  var node = document.getElementById(nodeId);
+  if(!node) return;
+  var svg = node.closest('svg');
+  if(svg) svg.querySelectorAll('.dn').forEach(function(n){ n.classList.remove('active'); });
+  node.classList.add('active');
+}
+
+/* =====================================================
+   EXAM HINT TOGGLE
+   ===================================================== */
+function toggleH(btn){
+  var hint = btn.nextElementSibling;
+  if(hint.classList.contains('show')){
+    hint.classList.remove('show'); btn.textContent = 'Show Hint';
+  } else {
+    hint.classList.add('show'); btn.textContent = 'Hide Hint';
+  }
+}
+
+/* =====================================================
+   QUIZ DATA
+   ===================================================== */
+var QD = [
+  {
+    q: "SWISS-PROT is best described as:",
+    opts:[
+      "An automatically generated nucleotide sequence database",
+      "A manually reviewed, non-redundant protein sequence database",
+      "A three-dimensional structural database for proteins",
+      "A secondary database for metabolic pathway data"
+    ],
+    ans: 1,
+    exp: "SWISS-PROT is a manually reviewed, non-redundant protein sequence database. Every entry is verified by expert biologists, making it the 'gold standard' for protein sequence data quality."
+  },
+  {
+    q: "Who founded SWISS-PROT and in which year?",
+    opts:[
+      "Frederick Sanger, 1977",
+      "Walter Goad, 1982",
+      "Amos Bairoch, 1986",
+      "James Watson, 1971"
+    ],
+    ans: 2,
+    exp: "SWISS-PROT was founded in 1986 by Amos Bairoch at the University of Geneva, Switzerland. It is now maintained jointly by the Swiss Institute of Bioinformatics (SIB) and the European Bioinformatics Institute (EBI) as part of UniProt."
+  },
+  {
+    q: "UniProt (UniProtKB) is divided into two sections. Which of the following correctly identifies them?",
+    opts:[
+      "GenBank and EMBL",
+      "Swiss-Prot (reviewed) and TrEMBL (unreviewed)",
+      "PDB and PIR",
+      "BLAST and Entrez"
+    ],
+    ans: 1,
+    exp: "UniProtKB is divided into Swiss-Prot (~570,000 manually reviewed entries) and TrEMBL (~220 million automatically annotated, unreviewed entries). TrEMBL entries graduate to Swiss-Prot after manual expert curation."
+  },
+  {
+    q: "Which of the following correctly describes the relationship between SWISS-PROT and UniProt?",
+    opts:[
+      "UniProt is a part of SWISS-PROT",
+      "They are two completely independent databases with no connection",
+      "SWISS-PROT is the manually reviewed (Swiss-Prot) tier within the UniProt system",
+      "SWISS-PROT stores 3D structures while UniProt stores sequences"
+    ],
+    ans: 2,
+    exp: "SWISS-PROT (now called Swiss-Prot within UniProt) is the manually reviewed, high-quality tier of the UniProt Knowledgebase. UniProt is the comprehensive umbrella resource that includes both Swiss-Prot and TrEMBL."
+  },
+  {
+    q: "What does PDB stand for and what type of data does it store?",
+    opts:[
+      "Protein Database — stores amino acid sequences only",
+      "Protein Data Bank — stores three-dimensional atomic coordinates of biological macromolecules",
+      "Primary Database Bank — stores nucleotide sequences",
+      "Protein Definition Base — stores protein names and functions"
+    ],
+    ans: 1,
+    exp: "PDB stands for Protein Data Bank. It stores three-dimensional structural data — atomic XYZ coordinates, experimental details, and ligand information — for proteins, nucleic acids, and their complexes. It does NOT store sequences only; that is the role of UniProt/SWISS-PROT."
+  },
+  {
+    q: "The Protein Data Bank was founded in which year?",
+    opts:[
+      "1986",
+      "2002",
+      "1982",
+      "1971"
+    ],
+    ans: 3,
+    exp: "The Protein Data Bank was established in 1971 at Brookhaven National Laboratory, USA — making it the oldest of the three databases discussed (SWISS-PROT: 1986; UniProt: 2002). It started with just 7 protein structures."
+  },
+  {
+    q: "Which experimental methods are used to determine 3D protein structures deposited in PDB?",
+    opts:[
+      "PCR, gel electrophoresis, and Southern blotting",
+      "X-ray crystallography, NMR spectroscopy, and Cryo-Electron Microscopy",
+      "BLAST searching, sequence alignment, and phylogenetic analysis",
+      "Sanger sequencing, next-generation sequencing, and mass spectrometry"
+    ],
+    ans: 1,
+    exp: "Three-dimensional structures in PDB are determined by X-ray crystallography (most common), NMR (Nuclear Magnetic Resonance) spectroscopy, or Cryo-EM (Cryo-Electron Microscopy — rapidly growing in importance for large complexes)."
+  },
+  {
+    q: "What is the key difference between protein sequence databases and structural databases?",
+    opts:[
+      "Sequence databases are free; structural databases require a subscription",
+      "Sequence databases store the 1D order of amino acids; structural databases store 3D atomic spatial coordinates",
+      "Sequence databases are older; structural databases are newer",
+      "There is no real difference — they store identical information"
+    ],
+    ans: 1,
+    exp: "Protein sequence databases (SWISS-PROT, UniProt) store the one-dimensional order of amino acids in a polypeptide chain. Structural databases (PDB) store three-dimensional atomic coordinates — the precise spatial arrangement of every atom, enabling visualisation of protein shape, active sites, and binding pockets."
+  },
+  {
+    q: "Which database is most directly used for structure-based drug design?",
+    opts:[
+      "TrEMBL",
+      "GenBank",
+      "PDB (Protein Data Bank)",
+      "DDBJ"
+    ],
+    ans: 2,
+    exp: "Structure-based drug design relies on PDB — by visualising the 3D structure of a target protein's active site, chemists can design molecules that fit precisely into that site. This approach was used to design HIV protease inhibitors and COVID-19 antivirals."
+  },
+  {
+    q: "A researcher needs to find the annotated function and disease variants of the human insulin receptor protein. Which database should they consult first?",
+    opts:[
+      "PDB — to find its 3D structure",
+      "GenBank — to find the DNA sequence",
+      "UniProt / SWISS-PROT — to find the annotated protein sequence and function",
+      "KEGG — to find its metabolic pathway"
+    ],
+    ans: 2,
+    exp: "For protein function, disease variants, subcellular location, and other biological annotations, UniProt (specifically Swiss-Prot for a well-studied protein like the insulin receptor) is the primary resource. PDB would be consulted for the 3D structure; GenBank for the DNA sequence."
+  }
+];
+
+var answered = [];
+
+function buildQ(){
+  var c = document.getElementById('quiz-c');
+  c.innerHTML = '';
+  answered = new Array(QD.length).fill(false);
+  QD.forEach(function(q, i){
+    var opts = q.opts.map(function(o, j){
+      return '<div class="qo" id="op-'+i+'-'+j+'" onclick="selA('+i+','+j+')">'
+        +'<span class="ob">'+String.fromCharCode(65+j)+'</span>'+o+'</div>';
+    }).join('');
+    var d = document.createElement('div');
+    d.className = 'qc'; d.id = 'qc-'+i;
+    d.innerHTML = '<h4><span style="color:var(--tl);margin-right:8px;">Q'+(i+1)+'.</span>'+q.q+'</h4>'
+      +'<div class="qos">'+opts+'</div>'
+      +'<div class="fb" id="fb-'+i+'"></div>';
+    c.appendChild(d);
+  });
+  document.getElementById('qres').style.display = 'none';
+}
+
+function selA(qi, oi){
+  if(answered[qi]) return;
+  answered[qi] = true;
+  var cor = QD[qi].ans;
+  document.querySelectorAll('#qc-'+qi+' .qo').forEach(function(el, j){
+    el.classList.add('disabled');
+    if(j === cor) el.classList.add('correct');
+    if(j === oi && oi !== cor) el.classList.add('wrong');
+  });
+  var fb = document.getElementById('fb-'+qi);
+  fb.className = (oi === cor) ? 'fb correct' : 'fb wrong';
+  fb.innerHTML = (oi === cor ? '✅ Correct! ' : '❌ Incorrect. ') + QD[qi].exp;
+}
+
+function submitQ(){
+  var score = 0;
+  QD.forEach(function(q, i){
+    var el = document.querySelector('#op-'+i+'-'+q.ans);
+    if(el && el.classList.contains('correct')) score++;
+  });
+  var pct = Math.round(score / QD.length * 100);
+  var res = document.getElementById('qres');
+  res.style.display = 'block';
+  document.getElementById('rh').textContent = 'Your Score: '+score+' / '+QD.length+' ('+pct+'%)';
+  var msg = pct >= 90
+    ? '🏆 Excellent! Strong command of protein and structural databases.'
+    : pct >= 70
+    ? '👍 Good work. Review the Swiss-Prot vs TrEMBL distinction and PDB features.'
+    : pct >= 50
+    ? '📚 Fair attempt. Focus on the comparison table and sequence vs structural database difference.'
+    : '🔄 Keep revising. Start with SWISS-PROT and UniProt definitions, then PDB.';
+  document.getElementById('rm').textContent = msg;
+  res.scrollIntoView({behavior:'smooth', block:'center'});
+}
+
+function resetQ(){
+  buildQ();
+  document.getElementById('quiz').scrollIntoView({behavior:'smooth', block:'start'});
+}
+
+buildQ();
+</script>
+</body>
+</html>

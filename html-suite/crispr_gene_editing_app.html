@@ -1,0 +1,1805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>CRISPR Gene Editing | GASC Nagercoil</title>
+<style>
+/* ============================================================
+   ROOT VARIABLES
+   ============================================================ */
+:root {
+  --teal-dark:   #0b5c63;
+  --teal-mid:    #1a7a82;
+  --teal-light:  #2d9fa9;
+  --teal-pale:   #d6f0f2;
+  --teal-faint:  #edf8f9;
+  --blue-dark:   #0b3f6e;
+  --blue-mid:    #1a5fa0;
+  --blue-light:  #3a88cc;
+  --accent:      #e07b2f;
+  --accent2:     #27a065;
+  --warn-red:    #b33a2e;
+  --gold:        #c8960c;
+  --bg:          #f4fbfc;
+  --card:        #ffffff;
+  --border:      #c0dfe3;
+  --text:        #1a2e31;
+  --text-light:  #4a6a70;
+  --heading-ff:  'Georgia', 'Times New Roman', serif;
+  --body-ff:     'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  --radius:      10px;
+  --shadow:      0 3px 14px rgba(11,92,99,0.10);
+  --shadow-h:    0 7px 26px rgba(11,92,99,0.18);
+  --transition:  0.25s ease;
+}
+
+/* ============================================================
+   RESET
+   ============================================================ */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; font-size: 16px; }
+body {
+  font-family: var(--body-ff);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.78;
+}
+
+/* ============================================================
+   SECTION REVEAL ANIMATION
+   ============================================================ */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.65s ease, transform 0.65s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ============================================================
+   NAV
+   ============================================================ */
+#topnav {
+  position: sticky; top: 0; z-index: 999;
+  background: var(--teal-dark);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  padding: 0 18px;
+}
+.nav-inner {
+  display: flex; align-items: center; justify-content: space-between;
+  max-width: 1000px; margin: 0 auto; height: 52px;
+}
+.nav-brand {
+  font-family: var(--heading-ff);
+  color: #fff; font-size: 0.97rem; font-weight: bold; letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+.nav-links { display: flex; gap: 4px; flex-wrap: wrap; }
+.nav-links a {
+  color: #c0eaed; font-size: 0.74rem; padding: 4px 9px;
+  border-radius: 20px;
+  transition: background var(--transition), color var(--transition);
+  white-space: nowrap;
+}
+.nav-links a:hover {
+  background: rgba(255,255,255,0.18); color: #fff; text-decoration: none;
+}
+
+/* ============================================================
+   HERO
+   ============================================================ */
+#hero {
+  background: linear-gradient(140deg, var(--teal-dark) 0%, var(--blue-dark) 55%, #1a4060 100%);
+  padding: 64px 18px 52px;
+  text-align: center;
+  color: #fff;
+}
+.hero-chip {
+  display: inline-block;
+  background: rgba(255,255,255,0.13);
+  border: 1px solid rgba(255,255,255,0.28);
+  border-radius: 20px; padding: 4px 16px;
+  font-size: 0.76rem; letter-spacing: 0.10em; text-transform: uppercase;
+  margin-bottom: 18px;
+}
+#hero h1 {
+  font-family: var(--heading-ff);
+  font-size: clamp(1.8rem, 4.5vw, 2.8rem);
+  line-height: 1.25; margin-bottom: 14px;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.35);
+}
+.hero-sub {
+  font-size: 1.05rem; color: #b8e8ec; max-width: 650px; margin: 0 auto 30px;
+}
+.objectives-box {
+  background: rgba(255,255,255,0.09);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: var(--radius);
+  padding: 20px 26px;
+  max-width: 640px; margin: 0 auto;
+  text-align: left;
+}
+.objectives-box h3 {
+  font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.09em;
+  color: #88d8de; margin-bottom: 10px;
+}
+.objectives-box ul { list-style: none; }
+.objectives-box li {
+  padding: 4px 0 4px 22px; font-size: 0.91rem; position: relative;
+}
+.objectives-box li::before {
+  content: '✦'; position: absolute; left: 0;
+  color: #4ad4dc; font-size: 0.65rem; top: 8px;
+}
+
+/* ============================================================
+   LAYOUT
+   ============================================================ */
+.container { max-width: 1000px; margin: 0 auto; padding: 0 18px; }
+.section { padding: 50px 18px 34px; }
+.section:nth-child(even) { background: #eff8f9; }
+
+/* ============================================================
+   CARDS
+   ============================================================ */
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 28px 30px;
+  margin-bottom: 20px;
+  box-shadow: var(--shadow);
+  transition: box-shadow var(--transition);
+}
+.card:hover { box-shadow: var(--shadow-h); }
+
+.section-number {
+  display: inline-block;
+  background: var(--teal-dark);
+  color: #fff; font-size: 0.7rem; font-weight: bold;
+  padding: 2px 10px; border-radius: 4px;
+  margin-bottom: 6px; letter-spacing: 0.06em;
+}
+.section-title {
+  font-family: var(--heading-ff);
+  font-size: 1.5rem; color: var(--teal-dark);
+  border-left: 4px solid var(--teal-light);
+  padding-left: 14px; margin-bottom: 22px;
+}
+
+/* ============================================================
+   QUICK REVISION BOX
+   ============================================================ */
+.quick-revision {
+  background: linear-gradient(135deg, #e6f7ef 0%, #d8f0f5 100%);
+  border: 1.5px solid #52b894;
+  border-radius: var(--radius);
+  padding: 18px 22px;
+  margin-top: 30px;
+  animation: none; /* no pulse — keep academic */
+}
+.qr-header {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 0.76rem; text-transform: uppercase;
+  letter-spacing: 0.09em; font-weight: bold;
+  color: #0a5235; margin-bottom: 10px;
+}
+.qr-header::before { content: '📋'; font-size: 1rem; }
+.quick-revision ul { list-style: none; }
+.quick-revision li {
+  font-size: 0.9rem; padding: 4px 0 4px 22px;
+  position: relative; color: #0d3b28;
+}
+.quick-revision li::before {
+  content: '▸'; position: absolute; left: 0;
+  color: #1a7a5a; font-weight: bold;
+}
+
+/* ============================================================
+   HIGHLIGHT BOXES
+   ============================================================ */
+.hbox {
+  border-left: 4px solid var(--teal-light);
+  background: var(--teal-faint);
+  border-radius: 0 6px 6px 0;
+  padding: 12px 16px; margin: 14px 0;
+  font-size: 0.92rem;
+}
+.hbox.exam  { border-color: var(--accent); background: #fff7f0; }
+.hbox.warn  { border-color: var(--warn-red); background: #fff3f2; }
+.hbox.gold  { border-color: var(--gold); background: #fffbf0; }
+.hbox-label {
+  font-size: 0.7rem; text-transform: uppercase;
+  letter-spacing: 0.09em; font-weight: bold;
+  margin-bottom: 4px;
+}
+.hbox-label.teal  { color: var(--teal-dark); }
+.hbox-label.exam  { color: var(--accent); }
+.hbox-label.warn  { color: var(--warn-red); }
+.hbox-label.gold  { color: var(--gold); }
+
+/* ============================================================
+   STEP BOXES
+   ============================================================ */
+.steps { display: flex; flex-direction: column; gap: 10px; margin: 16px 0; }
+.step {
+  display: flex; align-items: flex-start; gap: 14px;
+  background: var(--teal-faint); border: 1px solid var(--border);
+  border-radius: 8px; padding: 12px 16px;
+  transition: background var(--transition), border-color var(--transition), transform 0.2s;
+}
+.step:hover {
+  background: #c4e8ed; border-color: var(--teal-light);
+  transform: translateX(4px);
+}
+.step-num {
+  min-width: 30px; height: 30px;
+  background: var(--teal-mid); color: #fff;
+  border-radius: 50%; display: flex;
+  align-items: center; justify-content: center;
+  font-weight: bold; font-size: 0.84rem; flex-shrink: 0;
+}
+.step-content strong { display: block; font-size: 0.93rem; color: var(--teal-dark); }
+.step-content span   { font-size: 0.87rem; color: var(--text-light); }
+
+/* ============================================================
+   PRO / CON
+   ============================================================ */
+.pro-con {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 16px; margin: 14px 0;
+}
+@media(max-width:580px){ .pro-con { grid-template-columns: 1fr; } }
+.pros { background: #edfaf3; border: 1px solid #7dd4aa; border-radius: 8px; padding: 16px; }
+.cons { background: #fff3f3; border: 1px solid #f5aaa0; border-radius: 8px; padding: 16px; }
+.pros h4 { color: #1a6e44; font-size: 0.86rem; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 8px; }
+.cons h4 { color: #8c2218; font-size: 0.86rem; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 8px; }
+.pros li, .cons li { font-size: 0.88rem; list-style: none; padding: 3px 0 3px 18px; position: relative; }
+.pros li::before { content: '✓'; position: absolute; left: 0; color: #2da367; }
+.cons li::before { content: '✗'; position: absolute; left: 0; color: #cc3b2e; }
+
+/* ============================================================
+   COMPARISON TABLE
+   ============================================================ */
+.comp-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin-top: 14px; }
+.comp-table th {
+  background: var(--teal-dark); color: #fff;
+  padding: 10px 14px; text-align: left;
+}
+.comp-table td { padding: 9px 14px; border-bottom: 1px solid var(--border); vertical-align: top; }
+.comp-table tr:nth-child(even) td { background: var(--teal-faint); }
+.comp-table tr:hover td {
+  background: #bde6ec;
+  transition: background var(--transition);
+}
+.comp-table td:first-child { font-weight: 600; color: var(--teal-dark); }
+
+/* ============================================================
+   COMPONENT CARDS (for CRISPR parts)
+   ============================================================ */
+.comp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 14px; margin: 16px 0;
+}
+.comp-card {
+  background: var(--card); border: 1px solid var(--border);
+  border-top: 3px solid var(--teal-light);
+  border-radius: 8px; padding: 16px;
+  transition: border-top-color var(--transition), box-shadow var(--transition), transform 0.2s;
+}
+.comp-card:hover {
+  border-top-color: var(--accent);
+  box-shadow: var(--shadow-h);
+  transform: translateY(-3px);
+}
+.comp-card h5 { color: var(--teal-dark); font-size: 0.92rem; margin-bottom: 6px; }
+.comp-card p  { font-size: 0.83rem; color: var(--text-light); }
+
+/* ============================================================
+   APPLICATION CARDS
+   ============================================================ */
+.app-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 12px; margin: 16px 0;
+}
+.app-card {
+  background: var(--teal-faint); border: 1px solid var(--border);
+  border-radius: 8px; padding: 14px 16px;
+  transition: background var(--transition), transform 0.2s, box-shadow 0.2s;
+}
+.app-card:hover {
+  background: #b8e2e8; transform: translateY(-2px); box-shadow: var(--shadow-h);
+}
+.app-card .app-icon { font-size: 1.5rem; margin-bottom: 6px; }
+.app-card h5 { color: var(--teal-dark); font-size: 0.88rem; margin-bottom: 4px; }
+.app-card p  { font-size: 0.81rem; color: var(--text-light); }
+
+/* ============================================================
+   SIDE-BY-SIDE TYPE CARDS
+   ============================================================ */
+.type-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px; margin: 16px 0;
+}
+.type-card {
+  border-radius: 10px; padding: 18px;
+  border: 1px solid var(--border);
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.type-card:hover { box-shadow: var(--shadow-h); transform: translateY(-3px); }
+.type-card.knockout { background: #fff3f2; border-top: 3px solid var(--warn-red); }
+.type-card.insertion { background: #edfaf3; border-top: 3px solid #2da367; }
+.type-card.correction { background: #edf4ff; border-top: 3px solid var(--blue-light); }
+.type-card h5 { font-size: 0.92rem; margin-bottom: 6px; }
+.type-card.knockout   h5 { color: var(--warn-red); }
+.type-card.insertion  h5 { color: #1a6e44; }
+.type-card.correction h5 { color: var(--blue-dark); }
+.type-card p { font-size: 0.84rem; color: var(--text-light); }
+
+/* ============================================================
+   ACCORDION
+   ============================================================ */
+.accordion-item {
+  border: 1px solid var(--border); border-radius: 8px;
+  margin-bottom: 10px; overflow: hidden;
+}
+.accordion-btn {
+  width: 100%; background: var(--teal-faint); border: none; cursor: pointer;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 14px 18px; font-size: 0.94rem; font-weight: 600;
+  color: var(--teal-dark); text-align: left;
+  transition: background var(--transition);
+}
+.accordion-btn:hover { background: #c4e8ed; }
+.accordion-btn .arrow {
+  font-size: 0.78rem; color: var(--teal-mid);
+  transition: transform 0.32s ease;
+}
+.accordion-btn.open .arrow { transform: rotate(180deg); }
+.accordion-content {
+  max-height: 0; overflow: hidden;
+  transition: max-height 0.42s ease, padding 0.3s;
+  padding: 0 18px; background: #fff;
+}
+.accordion-content.open { max-height: 3000px; padding: 16px 18px; }
+
+/* ============================================================
+   CLICK-TO-REVEAL
+   ============================================================ */
+.ctr {
+  display: inline; cursor: pointer;
+  background: var(--teal-dark); color: transparent;
+  border-radius: 4px; padding: 0 5px;
+  user-select: none;
+  transition: background var(--transition), color var(--transition);
+}
+.ctr.shown { background: var(--teal-faint); color: var(--text); }
+.ctr:not(.shown)::after {
+  content: ' 👁 click'; color: rgba(180,230,234,0.9);
+  font-size: 0.72rem;
+}
+
+/* ============================================================
+   SVG DIAGRAM INTERACTION
+   ============================================================ */
+.diag-node { cursor: pointer; }
+.diag-node rect,
+.diag-node ellipse,
+.diag-node circle {
+  transition: filter 0.22s, stroke-width 0.22s;
+}
+.diag-node:hover rect,
+.diag-node:hover ellipse,
+.diag-node:hover circle {
+  filter: brightness(1.18); stroke-width: 2.5px;
+}
+.diag-node.active rect,
+.diag-node.active ellipse,
+.diag-node.active circle {
+  filter: brightness(1.25); stroke-width: 3px;
+}
+.diag-info {
+  margin-top: 10px; min-height: 38px;
+  background: var(--teal-faint); border-radius: 6px;
+  padding: 10px 14px; font-size: 0.87rem;
+  color: var(--teal-dark); display: none;
+}
+.diag-info.show {
+  display: block;
+  animation: fadeSlide 0.28s ease;
+}
+
+/* ============================================================
+   BUTTONS
+   ============================================================ */
+.btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: var(--teal-dark); color: #fff;
+  border: none; border-radius: 8px; padding: 11px 22px;
+  font-size: 0.91rem; font-weight: 600; cursor: pointer;
+  transition: background var(--transition), transform 0.18s, box-shadow 0.22s;
+  box-shadow: 0 3px 8px rgba(11,92,99,0.2);
+}
+.btn:hover {
+  background: var(--teal-light);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(11,92,99,0.26);
+}
+.btn:active { transform: translateY(0); }
+.btn.secondary {
+  background: #fff; color: var(--teal-dark);
+  border: 1.5px solid var(--teal-mid);
+}
+.btn.secondary:hover {
+  background: var(--teal-faint);
+  box-shadow: 0 4px 14px rgba(11,92,99,0.14);
+}
+
+/* ============================================================
+   QUIZ
+   ============================================================ */
+.quiz-card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 22px 24px;
+  margin-bottom: 16px; box-shadow: var(--shadow);
+}
+.quiz-card h4 { font-size: 0.96rem; color: var(--text); margin-bottom: 14px; font-weight: 600; }
+.quiz-options { display: flex; flex-direction: column; gap: 8px; }
+.quiz-opt {
+  display: flex; align-items: center; gap: 10px;
+  padding: 10px 14px; border: 1.5px solid var(--border);
+  border-radius: 8px; cursor: pointer; font-size: 0.89rem;
+  transition: background var(--transition), border-color var(--transition), transform 0.16s;
+  background: #fff;
+}
+.quiz-opt:hover { background: var(--teal-faint); border-color: var(--teal-light); transform: translateX(3px); }
+.quiz-opt.correct { background: #edfaf3; border-color: #2da367; color: #1a5a30; }
+.quiz-opt.wrong   { background: #fff3f3; border-color: #cc3b2e; color: #7a1a12; }
+.quiz-opt.disabled { cursor: default; pointer-events: none; }
+.opt-badge {
+  min-width: 24px; height: 24px; border-radius: 50%;
+  background: var(--border); display: inline-flex;
+  align-items: center; justify-content: center;
+  font-size: 0.74rem; font-weight: bold;
+}
+.feedback {
+  margin-top: 10px; font-size: 0.87rem; font-weight: 600;
+  padding: 8px 12px; border-radius: 6px; display: none;
+}
+.feedback.correct { background: #edfaf3; color: #1a5a30; display: block; }
+.feedback.wrong   { background: #fff3f3; color: #7a1a12; display: block; }
+
+#quiz-result {
+  background: var(--teal-dark); color: #fff;
+  border-radius: var(--radius); padding: 28px 30px;
+  text-align: center; display: none; margin-top: 22px;
+  animation: fadeSlide 0.4s ease;
+}
+#quiz-result h3 { font-size: 1.5rem; margin-bottom: 8px; }
+#quiz-result p  { opacity: 0.85; font-size: 1rem; }
+
+/* ============================================================
+   GLOSSARY
+   ============================================================ */
+.gloss-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 14px; margin-top: 16px;
+}
+.gloss-card {
+  background: var(--card); border: 1px solid var(--border);
+  border-left: 3px solid var(--teal-light);
+  border-radius: 8px; padding: 14px 16px;
+  transition: border-left-color var(--transition), transform 0.2s;
+}
+.gloss-card:hover { border-left-color: var(--accent); transform: translateX(3px); }
+.gloss-card dt { font-weight: bold; color: var(--teal-dark); font-size: 0.9rem; margin-bottom: 4px; }
+.gloss-card dd { font-size: 0.83rem; color: var(--text-light); }
+
+/* ============================================================
+   EXAM QUESTIONS
+   ============================================================ */
+.eq-item {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: 8px; padding: 18px 20px; margin-bottom: 14px;
+  box-shadow: var(--shadow);
+  transition: box-shadow var(--transition);
+}
+.eq-item:hover { box-shadow: var(--shadow-h); }
+.eq-q { font-weight: 600; font-size: 0.94rem; color: var(--teal-dark); margin-bottom: 6px; }
+.eq-hint-btn {
+  background: none; border: none; color: var(--teal-mid);
+  cursor: pointer; font-size: 0.83rem; padding: 4px 0;
+  text-decoration: underline;
+  transition: color var(--transition);
+}
+.eq-hint-btn:hover { color: var(--accent); }
+.eq-hint {
+  display: none; margin-top: 8px; font-size: 0.87rem;
+  color: var(--text-light); padding: 10px 14px;
+  background: var(--teal-faint); border-radius: 6px;
+}
+.eq-hint.show { display: block; animation: fadeSlide 0.28s ease; }
+
+/* ============================================================
+   SUMMARY BULLETS
+   ============================================================ */
+.sum-list { list-style: none; margin-top: 14px; }
+.sum-list li {
+  padding: 8px 14px 8px 32px; position: relative;
+  border-bottom: 1px dotted var(--border); font-size: 0.91rem;
+}
+.sum-list li:last-child { border-bottom: none; }
+.sum-list li::before {
+  content: '◆'; position: absolute; left: 8px;
+  color: var(--teal-light); font-size: 0.68rem; top: 13px;
+}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+footer {
+  background: var(--teal-dark); color: rgba(255,255,255,0.85);
+  text-align: center; padding: 28px 18px; margin-top: 50px;
+}
+footer .f-dept   { font-weight: bold; font-size: 0.96rem; color: #fff; letter-spacing: 0.02em; }
+footer .f-author { font-size: 0.81rem; color: rgba(255,255,255,0.55); margin-top: 4px; }
+
+/* ============================================================
+   KEYFRAMES
+   ============================================================ */
+@keyframes fadeSlide {
+  from { opacity: 0; transform: translateY(7px); }
+  to   { opacity: 1; transform: none; }
+}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media(max-width:680px){
+  .card { padding: 18px 14px; }
+  .section-title { font-size: 1.22rem; }
+  .comp-grid, .app-grid, .type-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<!-- ===================== TOP NAV ===================== -->
+<nav id="topnav" aria-label="Main navigation">
+  <div class="nav-inner">
+    <span class="nav-brand">CRISPR Gene Editing</span>
+    <div class="nav-links">
+      <a href="#intro">Intro</a>
+      <a href="#origin">Origin</a>
+      <a href="#components">Components</a>
+      <a href="#mechanism">Mechanism</a>
+      <a href="#applications">Applications</a>
+      <a href="#ethics">Ethics</a>
+      <a href="#quiz">Quiz</a>
+      <a href="#glossary">Glossary</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ===================== HERO ===================== -->
+<header id="hero">
+  <div class="hero-chip">B.Sc. Zoology / Biotechnology</div>
+  <h1>CRISPR Gene Editing</h1>
+  <p class="hero-sub">A precise molecular tool that has transformed biology — from understanding genomes to treating disease. Your complete interactive study guide.</p>
+  <div class="objectives-box">
+    <h3>Learning Objectives</h3>
+    <ul>
+      <li>Explain the full form and definition of CRISPR</li>
+      <li>Describe its natural origin in bacterial defence systems</li>
+      <li>Identify the key components: Cas9, gRNA, target DNA, PAM</li>
+      <li>Outline the step-by-step mechanism of CRISPR gene editing</li>
+      <li>Differentiate between gene knockout, insertion, and correction</li>
+      <li>Discuss applications in medicine, agriculture, and research</li>
+      <li>Evaluate advantages, limitations, and ethical concerns</li>
+    </ul>
+  </div>
+</header>
+
+<!-- ===================== SECTION 1: INTRODUCTION ===================== -->
+<section class="section" id="intro">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-number">SECTION 01</span>
+      <h2 class="section-title">Introduction to CRISPR</h2>
+      <div class="card">
+
+        <div class="hbox">
+          <div class="hbox-label teal">Full Form</div>
+          <strong>CRISPR</strong> — <strong>C</strong>lustered <strong>R</strong>egularly <strong>I</strong>nterspaced <strong>S</strong>hort <strong>P</strong>alindromic <strong>R</strong>epeats
+        </div>
+
+        <div class="hbox" style="margin-top:10px;">
+          <div class="hbox-label teal">Definition</div>
+          CRISPR-Cas9 is a revolutionary <strong>gene-editing technology</strong> that allows scientists to precisely locate, cut, and modify specific sequences in the DNA of any living organism — from bacteria to humans — with unprecedented accuracy, speed, and ease.
+        </div>
+
+        <p style="margin-top:16px;">Originally discovered as part of the <strong>bacterial immune system</strong>, CRISPR has been re-engineered as a versatile molecular tool. It works like a pair of "molecular scissors" guided by a customisable RNA molecule to reach any desired location in the genome.</p>
+
+        <div class="hbox exam" style="margin-top:14px;">
+          <div class="hbox-label exam">Exam Milestone</div>
+          Jennifer Doudna and Emmanuelle Charpentier were awarded the <strong>Nobel Prize in Chemistry 2020</strong> for the development of CRISPR-Cas9 as a gene-editing tool.
+        </div>
+
+        <h4 style="color:var(--teal-dark);margin:18px 0 10px;">Why CRISPR Matters</h4>
+        <div class="comp-grid">
+          <div class="comp-card">
+            <h5>🎯 Precision</h5>
+            <p>Targets specific DNA sequences among 3 billion base pairs with high accuracy.</p>
+          </div>
+          <div class="comp-card">
+            <h5>⚡ Speed</h5>
+            <p>Experiments that once took years can now be done in days or weeks.</p>
+          </div>
+          <div class="comp-card">
+            <h5>💰 Cost</h5>
+            <p>Far cheaper than previous gene editing technologies like ZFN and TALEN.</p>
+          </div>
+          <div class="comp-card">
+            <h5>🌐 Versatility</h5>
+            <p>Applicable across bacteria, plants, animals, and human cells.</p>
+          </div>
+        </div>
+
+        <!-- QUICK REVISION -->
+        <div class="quick-revision">
+          <div class="qr-header">Quick Revision</div>
+          <ul>
+            <li>CRISPR = Clustered Regularly Interspaced Short Palindromic Repeats</li>
+            <li>CRISPR-Cas9 acts as "molecular scissors" to cut DNA at a precise location</li>
+            <li>Derived from the bacterial immune system — adapted for gene editing</li>
+            <li>Nobel Prize in Chemistry 2020 awarded to Doudna and Charpentier</li>
+            <li>Advantages over older methods: precision, speed, low cost, versatility</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SECTION 2: ORIGIN ===================== -->
+<section class="section" id="origin">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-number">SECTION 02</span>
+      <h2 class="section-title">Origin and Natural Role of CRISPR</h2>
+      <div class="card">
+        <p>CRISPR was not invented — it was <strong>discovered</strong> inside bacteria. It forms part of the <strong>adaptive immune system of prokaryotes</strong> (bacteria and archaea) — their natural way of fighting viral infection.</p>
+
+        <h4 style="color:var(--teal-dark);margin:18px 0 10px;">How Bacteria Use CRISPR</h4>
+        <div class="steps">
+          <div class="step">
+            <div class="step-num">1</div>
+            <div class="step-content">
+              <strong>Viral Attack</strong>
+              <span>A bacteriophage (virus) injects its DNA into the bacterial cell, attempting to take over.</span>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num">2</div>
+            <div class="step-content">
+              <strong>Memory Formation</strong>
+              <span>If the bacterium survives, it stores a short segment of the viral DNA (called a "spacer") within its own CRISPR array — creating a molecular memory of the invader.</span>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num">3</div>
+            <div class="step-content">
+              <strong>Recognition on Re-infection</strong>
+              <span>On a second attack, the bacterium produces a guide RNA copied from the stored spacer. This RNA recognises the matching viral DNA sequence.</span>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num">4</div>
+            <div class="step-content">
+              <strong>Cas Protein Cuts Viral DNA</strong>
+              <span>The Cas protein (CRISPR-associated protein), guided by the RNA, cuts and destroys the viral DNA — neutralising the infection.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bacterial CRISPR SVG Diagram -->
+        <h4 style="color:var(--teal-dark);margin:22px 0 12px;">Bacterial CRISPR Defence — Concept Diagram</h4>
+        <svg id="svg-bact" viewBox="0 0 700 130" xmlns="http://www.w3.org/2000/svg"
+             style="width:100%;max-width:700px;display:block;margin:0 auto;"
+             aria-label="Bacterial CRISPR defence diagram">
+          <defs>
+            <marker id="arB" markerWidth="7" markerHeight="7" refX="3.5" refY="3.5" orient="auto">
+              <polygon points="0 0,7 3.5,0 7" fill="#0b5c63"/>
+            </marker>
+          </defs>
+          <!-- Virus -->
+          <g class="diag-node" id="b1" onclick="diagClick('b1','bact-info','A bacteriophage (virus) attacks the bacterial cell by injecting foreign DNA.')">
+            <ellipse cx="60" cy="65" rx="50" ry="38" fill="#7a1a12" stroke="#cc3b2e" stroke-width="1.5"/>
+            <text x="60" y="60" text-anchor="middle" fill="#fff" font-size="10" font-family="sans-serif" font-weight="bold">Virus</text>
+            <text x="60" y="75" text-anchor="middle" fill="#f5b0aa" font-size="9" font-family="sans-serif">(attacks cell)</text>
+          </g>
+          <line x1="114" y1="65" x2="148" y2="65" stroke="#0b5c63" stroke-width="1.5" marker-end="url(#arB)"/>
+          <!-- Memory -->
+          <g class="diag-node" id="b2" onclick="diagClick('b2','bact-info','Bacterial cell stores a fragment of viral DNA as a \"spacer\" in its CRISPR array — forming immunological memory.')">
+            <rect x="152" y="30" width="130" height="68" rx="8" fill="#0b5c63" stroke="#2d9fa9" stroke-width="1.5"/>
+            <text x="217" y="55" text-anchor="middle" fill="#fff" font-size="10" font-family="sans-serif" font-weight="bold">CRISPR Array</text>
+            <text x="217" y="70" text-anchor="middle" fill="#c0eaed" font-size="9" font-family="sans-serif">Viral DNA stored</text>
+            <text x="217" y="84" text-anchor="middle" fill="#c0eaed" font-size="9" font-family="sans-serif">as "spacer"</text>
+          </g>
+          <line x1="286" y1="65" x2="318" y2="65" stroke="#0b5c63" stroke-width="1.5" marker-end="url(#arB)"/>
+          <!-- gRNA produced -->
+          <g class="diag-node" id="b3" onclick="diagClick('b3','bact-info','On re-infection, the bacterium transcribes the spacer into a guide RNA (crRNA) that matches the viral sequence.')">
+            <rect x="322" y="30" width="130" height="68" rx="8" fill="#1a5fa0" stroke="#3a88cc" stroke-width="1.5"/>
+            <text x="387" y="55" text-anchor="middle" fill="#fff" font-size="10" font-family="sans-serif" font-weight="bold">Guide RNA Made</text>
+            <text x="387" y="70" text-anchor="middle" fill="#c5ddee" font-size="9" font-family="sans-serif">Recognises viral</text>
+            <text x="387" y="84" text-anchor="middle" fill="#c5ddee" font-size="9" font-family="sans-serif">DNA sequence</text>
+          </g>
+          <line x1="455" y1="65" x2="488" y2="65" stroke="#0b5c63" stroke-width="1.5" marker-end="url(#arB)"/>
+          <!-- Cas cuts -->
+          <g class="diag-node" id="b4" onclick="diagClick('b4','bact-info','Cas protein (guided by the crRNA) binds to the matching viral DNA and cuts it — neutralising the virus and protecting the bacterium.')">
+            <rect x="492" y="30" width="190" height="68" rx="8" fill="#1a6e44" stroke="#2da367" stroke-width="1.5"/>
+            <text x="587" y="52" text-anchor="middle" fill="#fff" font-size="10" font-family="sans-serif" font-weight="bold">Cas Protein Cuts</text>
+            <text x="587" y="67" text-anchor="middle" fill="#c5ecd7" font-size="9" font-family="sans-serif">Viral DNA destroyed</text>
+            <text x="587" y="81" text-anchor="middle" fill="#c5ecd7" font-size="9" font-family="sans-serif">→ Cell protected</text>
+          </g>
+          <text x="350" y="120" text-anchor="middle" fill="#4a6a70" font-size="9" font-family="sans-serif" font-style="italic">Click each step for explanation</text>
+        </svg>
+        <div id="bact-info" class="diag-info"></div>
+
+        <div class="hbox gold" style="margin-top:16px;">
+          <div class="hbox-label gold">Key Insight</div>
+          Scientists realised that if bacteria can be programmed by their spacer RNA to cut any DNA sequence, then this system could be re-engineered to cut any target gene in any organism — simply by designing a custom guide RNA.
+        </div>
+
+        <!-- QUICK REVISION -->
+        <div class="quick-revision">
+          <div class="qr-header">Quick Revision</div>
+          <ul>
+            <li>CRISPR is the natural adaptive immune system of bacteria and archaea</li>
+            <li>Bacteria store viral DNA fragments (spacers) in their CRISPR array as memory</li>
+            <li>On re-infection, guide RNA (crRNA) recognises the virus and directs Cas to cut it</li>
+            <li>Cas proteins = CRISPR-Associated proteins — they do the actual DNA cutting</li>
+            <li>Scientists harnessed this natural system by designing custom guide RNAs</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SECTION 3: COMPONENTS ===================== -->
+<section class="section" id="components">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-number">SECTION 03</span>
+      <h2 class="section-title">Components of CRISPR Gene Editing</h2>
+      <div class="card">
+        <p>The CRISPR-Cas9 system in the laboratory uses four key components working together:</p>
+
+        <div class="comp-grid" style="margin-top:18px;">
+          <div class="comp-card">
+            <h5>✂️ Cas9 Enzyme</h5>
+            <p>The "molecular scissors." A large protein that physically cuts both strands of the DNA double helix at the target location, creating a <em>double-strand break</em> (DSB).</p>
+          </div>
+          <div class="comp-card">
+            <h5>🧭 Guide RNA (gRNA)</h5>
+            <p>A short synthetic RNA molecule (~20 nucleotides) complementary to the target DNA sequence. It acts as a GPS, directing Cas9 to the exact position in the genome.</p>
+          </div>
+          <div class="comp-card">
+            <h5>🎯 Target DNA</h5>
+            <p>The specific genomic DNA sequence to be edited. The gRNA is designed to match this sequence precisely — a 20-nucleotide "address" in the genome.</p>
+          </div>
+          <div class="comp-card">
+            <h5>🔑 PAM Sequence</h5>
+            <p><strong>Protospacer Adjacent Motif</strong> — a short sequence (NGG for SpCas9) immediately next to the target site. Cas9 requires this motif to bind and cut. Without PAM, no cutting occurs.</p>
+          </div>
+        </div>
+
+        <div class="hbox exam" style="margin-top:16px;">
+          <div class="hbox-label exam">Exam Note — PAM Sequence</div>
+          The PAM sequence for the most common Cas9 (from <em>Streptococcus pyogenes</em>) is <strong>5′-NGG-3′</strong> (where N = any nucleotide). This is located immediately downstream (3′) of the target sequence on the non-template strand. PAM recognition is essential for Cas9 activity.
+        </div>
+
+        <!-- QUICK REVISION -->
+        <div class="quick-revision">
+          <div class="qr-header">Quick Revision</div>
+          <ul>
+            <li>4 key components: Cas9, guide RNA (gRNA), target DNA, PAM sequence</li>
+            <li>Cas9 = nuclease enzyme that cuts both DNA strands</li>
+            <li>gRNA = ~20 nt RNA that directs Cas9 to the correct genomic location</li>
+            <li>PAM sequence (NGG) must be present next to the target site for Cas9 to work</li>
+            <li>gRNA + Cas9 form the "ribonucleoprotein complex" — the active editing unit</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SECTION 4: PRINCIPLE ===================== -->
+<section class="section" id="principle">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-number">SECTION 04</span>
+      <h2 class="section-title">Principle of CRISPR Gene Editing</h2>
+      <div class="card">
+        <p>The principle of CRISPR gene editing is based on the ability to <strong>create a precise double-strand break (DSB) in DNA</strong> at a user-defined location, and then harness the cell's own natural DNA repair pathways to introduce a desired genetic change.</p>
+
+        <h4 style="color:var(--teal-dark);margin:18px 0 10px;">Core Sequence of Events</h4>
+        <div class="steps">
+          <div class="step">
+            <div class="step-num">A</div>
+            <div class="step-content">
+              <strong>Target Recognition</strong>
+              <span>The gRNA (20 nt) base-pairs with the complementary strand of the target DNA. The PAM sequence (NGG) must be adjacent to confirm the correct site.</span>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num">B</div>
+            <div class="step-content">
+              <strong>Cas9 Binding and Activation</strong>
+              <span>Cas9, complexed with the gRNA, binds to the DNA. It unwinds the double helix and checks for gRNA–DNA complementarity before proceeding.</span>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num">C</div>
+            <div class="step-content">
+              <strong>Double-Strand Break (DSB)</strong>
+              <span>Cas9 activates its two nuclease domains (HNH and RuvC), each cutting one strand of the DNA double helix — producing a blunt-ended DSB.</span>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num">D</div>
+            <div class="step-content">
+              <strong>DNA Repair — Two Pathways</strong>
+              <span><em>NHEJ (error-prone):</em> Cell randomly rejoins the broken ends → small insertions/deletions (indels) → gene disruption (knockout). <em>HDR (precise):</em> If a DNA template is provided, the cell copies it accurately → gene correction or insertion.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hbox gold" style="margin-top:14px;">
+          <div class="hbox-label gold">Two DNA Repair Pathways — Key Distinction</div>
+          <strong>NHEJ</strong> (Non-Homologous End Joining) — fast but error-prone; used for gene <em>knockout</em>. &nbsp;|&nbsp;
+          <strong>HDR</strong> (Homology-Directed Repair) — slow but precise; used for gene <em>correction or insertion</em> when a donor template is provided.
+        </div>
+
+        <!-- QUICK REVISION -->
+        <div class="quick-revision">
+          <div class="qr-header">Quick Revision</div>
+          <ul>
+            <li>CRISPR works by creating a targeted double-strand break (DSB) in DNA</li>
+            <li>gRNA finds the target; PAM confirms the site; Cas9 cuts both DNA strands</li>
+            <li>Cas9 has two nuclease domains: HNH (cuts the complementary strand) and RuvC (cuts the non-complementary strand)</li>
+            <li>NHEJ repair = error-prone → indels → gene knockout</li>
+            <li>HDR repair = precise, template-dependent → gene correction or insertion</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SECTION 5: MECHANISM ===================== -->
+<section class="section" id="mechanism">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-number">SECTION 05</span>
+      <h2 class="section-title">Mechanism / Steps of CRISPR Gene Editing</h2>
+      <div class="card">
+
+        <!-- MAIN MECHANISM SVG DIAGRAM -->
+        <h4 style="color:var(--teal-dark);margin-bottom:14px;">CRISPR Mechanism Diagram (Click steps for details)</h4>
+        <svg id="svg-mech" viewBox="0 0 760 160" xmlns="http://www.w3.org/2000/svg"
+             style="width:100%;max-width:760px;display:block;margin:0 auto;"
+             aria-label="CRISPR mechanism step diagram">
+          <defs>
+            <marker id="arM" markerWidth="7" markerHeight="7" refX="3.5" refY="3.5" orient="auto">
+              <polygon points="0 0,7 3.5,0 7" fill="#0b5c63"/>
+            </marker>
+          </defs>
+          <!-- Step 1: gRNA design -->
+          <g class="diag-node" id="m1" onclick="diagClick('m1','mech-info','Step 1: A guide RNA (~20 nucleotides) is designed to match the target DNA sequence. This is the programmable address that directs Cas9 to the correct location in the entire genome.')">
+            <rect x="4" y="28" width="110" height="68" rx="8" fill="#0b3f6e" stroke="#3a88cc" stroke-width="1.5"/>
+            <text x="59" y="52" text-anchor="middle" fill="#fff" font-size="10" font-family="sans-serif" font-weight="bold">1. Design</text>
+            <text x="59" y="66" text-anchor="middle" fill="#c5ddee" font-size="9.5" font-family="sans-serif">Guide RNA</text>
+            <text x="59" y="80" text-anchor="middle" fill="#c5ddee" font-size="8.5" font-family="sans-serif">(~20 nt target)</text>
+          </g>
+          <line x1="118" y1="62" x2="136" y2="62" stroke="#0b5c63" stroke-width="1.5" marker-end="url(#arM)"/>
+          <!-- Step 2: Delivery -->
+          <g class="diag-node" id="m2" onclick="diagClick('m2','mech-info','Step 2: The gRNA + Cas9 complex is delivered into the target cell using a viral vector (AAV), electroporation, liposomes, or ribonucleoprotein (RNP) delivery.')">
+            <rect x="140" y="28" width="110" height="68" rx="8" fill="#1a5fa0" stroke="#3a88cc" stroke-width="1.5"/>
+            <text x="195" y="52" text-anchor="middle" fill="#fff" font-size="10" font-family="sans-serif" font-weight="bold">2. Deliver</text>
+            <text x="195" y="66" text-anchor="middle" fill="#c5ddee" font-size="9.5" font-family="sans-serif">into Cell</text>
+            <text x="195" y="80" text-anchor="middle" fill="#c5ddee" font-size="8.5" font-family="sans-serif">(vector/RNP)</text>
+          </g>
+          <line x1="254" y1="62" x2="272" y2="62" stroke="#0b5c63" stroke-width="1.5" marker-end="url(#arM)"/>
+          <!-- Step 3: Binding -->
+          <g class="diag-node" id="m3" onclick="diagClick('m3','mech-info','Step 3: Inside the nucleus, the gRNA base-pairs with the complementary target DNA strand. Cas9 verifies the PAM sequence (NGG) to confirm the correct site before proceeding.')">
+            <rect x="276" y="28" width="110" height="68" rx="8" fill="#0b5c63" stroke="#2d9fa9" stroke-width="1.5"/>
+            <text x="331" y="52" text-anchor="middle" fill="#fff" font-size="10" font-family="sans-serif" font-weight="bold">3. Bind to</text>
+            <text x="331" y="66" text-anchor="middle" fill="#c0eaed" font-size="9.5" font-family="sans-serif">Target DNA</text>
+            <text x="331" y="80" text-anchor="middle" fill="#c0eaed" font-size="8.5" font-family="sans-serif">(PAM verified)</text>
+          </g>
+          <line x1="390" y1="62" x2="408" y2="62" stroke="#0b5c63" stroke-width="1.5" marker-end="url(#arM)"/>
+          <!-- Step 4: Cas9 cuts -->
+          <g class="diag-node" id="m4" onclick="diagClick('m4','mech-info','Step 4: Cas9 activates its two nuclease domains (HNH cuts the matching strand; RuvC cuts the opposite strand), producing a double-strand break (DSB) — a precise cut in the DNA.')">
+            <rect x="412" y="28" width="110" height="68" rx="8" fill="#7a1a12" stroke="#cc3b2e" stroke-width="1.5"/>
+            <text x="467" y="52" text-anchor="middle" fill="#fff" font-size="10" font-family="sans-serif" font-weight="bold">4. Cas9</text>
+            <text x="467" y="66" text-anchor="middle" fill="#f5b0aa" font-size="9.5" font-family="sans-serif">Cuts DNA</text>
+            <text x="467" y="80" text-anchor="middle" fill="#f5b0aa" font-size="8.5" font-family="sans-serif">(DSB formed)</text>
+          </g>
+          <line x1="526" y1="62" x2="544" y2="62" stroke="#0b5c63" stroke-width="1.5" marker-end="url(#arM)"/>
+          <!-- Step 5: Repair -->
+          <g class="diag-node" id="m5" onclick="diagClick('m5','mech-info','Step 5: The cell detects the DSB and activates DNA repair. NHEJ (error-prone, no template) causes small insertions/deletions — disrupting the gene (knockout). HDR (with donor template) repairs the break precisely — enabling correction or insertion.')">
+            <rect x="548" y="28" width="110" height="68" rx="8" fill="#c8960c" stroke="#e8b42e" stroke-width="1.5"/>
+            <text x="603" y="52" text-anchor="middle" fill="#fff" font-size="10" font-family="sans-serif" font-weight="bold">5. DNA</text>
+            <text x="603" y="66" text-anchor="middle" fill="#fff8d0" font-size="9.5" font-family="sans-serif">Repair</text>
+            <text x="603" y="80" text-anchor="middle" fill="#fff8d0" font-size="8.5" font-family="sans-serif">(NHEJ or HDR)</text>
+          </g>
+          <line x1="662" y1="62" x2="680" y2="62" stroke="#0b5c63" stroke-width="1.5" marker-end="url(#arM)"/>
+          <!-- Step 6: Outcome -->
+          <g class="diag-node" id="m6" onclick="diagClick('m6','mech-info','Step 6: The final outcome — the gene is edited. Depending on the repair pathway: NHEJ → gene knocked out. HDR with template → gene corrected or new gene inserted. The cell now carries the edited gene and produces a different (or absent) protein.')">
+            <rect x="684" y="28" width="68" height="68" rx="8" fill="#1a6e44" stroke="#2da367" stroke-width="1.5"/>
+            <text x="718" y="57" text-anchor="middle" fill="#fff" font-size="10" font-family="sans-serif" font-weight="bold">Edited</text>
+            <text x="718" y="71" text-anchor="middle" fill="#c5ecd7" font-size="9.5" font-family="sans-serif">Gene</text>
+          </g>
+          <text x="380" y="148" text-anchor="middle" fill="#4a6a70" font-size="9" font-family="sans-serif" font-style="italic">Click each step for explanation</text>
+        </svg>
+        <div id="mech-info" class="diag-info"></div>
+
+        <h4 style="color:var(--teal-dark);margin:24px 0 12px;">Step-by-Step Written Explanation</h4>
+        <div class="steps">
+          <div class="step">
+            <div class="step-num">1</div>
+            <div class="step-content">
+              <strong>Select Target Gene</strong>
+              <span>The researcher identifies the gene or specific DNA sequence to be edited within the genome.</span>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num">2</div>
+            <div class="step-content">
+              <strong>Design Guide RNA</strong>
+              <span>A 20-nucleotide guide RNA (gRNA) is synthesised in the lab, designed to be complementary to the target DNA sequence. This is the "address label."</span>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num">3</div>
+            <div class="step-content">
+              <strong>Deliver CRISPR Components into Cell</strong>
+              <span>The gRNA and Cas9 protein are packaged and delivered into the target cell using viral vectors (AAV), electroporation, liposomes, or as a ribonucleoprotein (RNP) complex.</span>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num">4</div>
+            <div class="step-content">
+              <strong>Binding to Target DNA</strong>
+              <span>Inside the nucleus, the gRNA binds its complementary DNA sequence. Cas9 checks for the adjacent PAM (NGG) sequence before proceeding.</span>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num">5</div>
+            <div class="step-content">
+              <strong>DNA Cutting by Cas9</strong>
+              <span>Cas9's two nuclease domains (HNH and RuvC) each cut one strand of the DNA double helix, creating a precise double-strand break (DSB).</span>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num">6</div>
+            <div class="step-content">
+              <strong>DNA Repair and Editing Outcome</strong>
+              <span><strong>NHEJ</strong> (no template): introduces insertions or deletions → gene knockout or disruption. <strong>HDR</strong> (with provided template): repairs precisely → gene correction, insertion, or replacement.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- QUICK REVISION -->
+        <div class="quick-revision">
+          <div class="qr-header">Quick Revision</div>
+          <ul>
+            <li>6 steps: design gRNA → deliver into cell → bind target DNA → Cas9 cuts → repair → edited gene</li>
+            <li>PAM sequence (NGG) is verified by Cas9 before cutting — crucial for specificity</li>
+            <li>Cas9 has 2 nuclease domains: HNH (complementary strand) and RuvC (non-complementary strand)</li>
+            <li>NHEJ = no template → indels → knockout; HDR = with template → precise correction</li>
+            <li>Delivery methods: AAV vectors, electroporation, liposomes, RNP complex</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SECTION 6: TYPES ===================== -->
+<section class="section" id="types">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-number">SECTION 06</span>
+      <h2 class="section-title">Types of CRISPR Applications (Gene Editing Outcomes)</h2>
+      <div class="card">
+        <p>Depending on the repair pathway and whether a donor template is provided, CRISPR can produce three main types of genetic outcomes:</p>
+
+        <div class="type-grid" style="margin-top:18px;">
+          <div class="type-card knockout">
+            <h5>🚫 Gene Knockout</h5>
+            <p><strong>Mechanism:</strong> Cas9 cuts the target gene; NHEJ repair introduces random insertions or deletions (indels) → frameshift mutation → non-functional protein.</p>
+            <br>
+            <p><strong>Use:</strong> Studying gene function by "switching off" a gene; cancer research; studying disease models.</p>
+          </div>
+          <div class="type-card insertion">
+            <h5>➕ Gene Insertion</h5>
+            <p><strong>Mechanism:</strong> A donor DNA template containing the new gene is provided alongside CRISPR. HDR pathway integrates the new gene at the cut site.</p>
+            <br>
+            <p><strong>Use:</strong> Adding a new gene of interest; inserting a therapeutic gene to treat inherited disorders; creating transgenic organisms.</p>
+          </div>
+          <div class="type-card correction">
+            <h5>🔧 Gene Correction</h5>
+            <p><strong>Mechanism:</strong> A donor template with the correct DNA sequence is provided. HDR uses this template to repair the mutated sequence precisely.</p>
+            <br>
+            <p><strong>Use:</strong> Fixing disease-causing mutations (e.g., sickle cell disease, beta-thalassaemia); restoring normal gene function.</p>
+          </div>
+        </div>
+
+        <!-- QUICK REVISION -->
+        <div class="quick-revision">
+          <div class="qr-header">Quick Revision</div>
+          <ul>
+            <li>Gene knockout = NHEJ repair → indels → disrupted gene; used to study gene function</li>
+            <li>Gene insertion = HDR + donor template → new gene added at cut site</li>
+            <li>Gene correction = HDR + correct template → disease mutation repaired precisely</li>
+            <li>NHEJ is preferred for knockout; HDR is required for insertion and correction</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SECTION 7: APPLICATIONS ===================== -->
+<section class="section" id="applications">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-number">SECTION 07</span>
+      <h2 class="section-title">Applications of CRISPR Gene Editing</h2>
+      <div class="card">
+        <div class="app-grid">
+          <div class="app-card">
+            <div class="app-icon">🔬</div>
+            <h5>Basic Research</h5>
+            <p>Understanding gene function by knocking out specific genes and observing the effect in model organisms (mice, zebrafish, <em>C. elegans</em>).</p>
+          </div>
+          <div class="app-card">
+            <div class="app-icon">🧬</div>
+            <h5>Functional Genomics</h5>
+            <p>Genome-wide CRISPR screens (CRISPR libraries) to identify genes involved in specific biological processes or disease pathways.</p>
+          </div>
+          <div class="app-card">
+            <div class="app-icon">🌾</div>
+            <h5>Crop Improvement</h5>
+            <p>Developing disease-resistant, drought-tolerant, or nutritionally enhanced crops. E.g., CRISPR-edited rice with improved yield, hornless cattle.</p>
+          </div>
+          <div class="app-card">
+            <div class="app-icon">🐄</div>
+            <h5>Animal Biotechnology</h5>
+            <p>Creating animal models of human disease; editing livestock for disease resistance; generating organs for transplantation research (xenotransplantation).</p>
+          </div>
+          <div class="app-card">
+            <div class="app-icon">💊</div>
+            <h5>Medical Biotechnology</h5>
+            <p>Developing therapies for inherited disorders (sickle cell disease, beta-thalassaemia); cancer immunotherapy (CAR-T enhancement).</p>
+          </div>
+          <div class="app-card">
+            <div class="app-icon">🦠</div>
+            <h5>Diagnostics</h5>
+            <p>SHERLOCK and DETECTR — CRISPR-based diagnostic platforms that detect pathogen DNA/RNA with high sensitivity. Used for COVID-19 and other infections.</p>
+          </div>
+        </div>
+
+        <div class="hbox exam" style="margin-top:16px;">
+          <div class="hbox-label exam">Clinical Landmark</div>
+          In 2023, <strong>Casgevy</strong> became the world's first approved CRISPR-based therapy — for sickle cell disease and beta-thalassaemia — approved by the UK's MHRA and the US FDA. This marks a historic milestone in medicine.
+        </div>
+
+        <!-- QUICK REVISION -->
+        <div class="quick-revision">
+          <div class="qr-header">Quick Revision</div>
+          <ul>
+            <li>6 main areas: basic research, functional genomics, crop improvement, animal biotech, medical biotech, diagnostics</li>
+            <li>Genome-wide CRISPR screens (libraries) enable high-throughput functional genomics</li>
+            <li>CRISPR crops are being developed for drought tolerance and disease resistance</li>
+            <li>SHERLOCK / DETECTR = CRISPR-based diagnostic tools for pathogen detection</li>
+            <li>Casgevy (2023) = first FDA/MHRA-approved CRISPR therapy (sickle cell disease)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SECTION 8: MEDICINE ===================== -->
+<section class="section" id="medicine">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-number">SECTION 08</span>
+      <h2 class="section-title">Role of CRISPR in Medicine</h2>
+      <div class="card">
+        <div class="comp-grid">
+          <div class="comp-card">
+            <h5>🧬 Genetic Disorders</h5>
+            <p>Diseases caused by single-gene mutations (monogenic disorders) are ideal targets. CRISPR can correct the faulty gene in patient cells. Examples: sickle cell disease, cystic fibrosis, Duchenne muscular dystrophy.</p>
+          </div>
+          <div class="comp-card">
+            <h5>🎗️ Cancer Research</h5>
+            <p>CRISPR is used to study cancer-related genes, identify drug targets, and enhance CAR-T cell therapies. It can also potentially disrupt oncogenes or restore tumour suppressor genes directly.</p>
+          </div>
+          <div class="comp-card">
+            <h5>🎯 Precision Medicine</h5>
+            <p>CRISPR enables patient-specific gene corrections — tailoring treatment to an individual's exact mutation rather than a generalised approach.</p>
+          </div>
+          <div class="comp-card">
+            <h5>🦠 Infectious Disease</h5>
+            <p>CRISPR is being researched to cut and disable viral DNA (HIV integrated into human cells, hepatitis B virus) and to develop rapid diagnostics for pathogens.</p>
+          </div>
+        </div>
+
+        <div class="hbox warn" style="margin-top:14px;">
+          <div class="hbox-label warn">Important Caution</div>
+          While CRISPR holds immense promise, most medical applications are still in clinical trial stages. Approved therapies (e.g., Casgevy) are exceptions, not the norm. Students should present medical applications as potential or investigational unless a specific approval is cited.
+        </div>
+
+        <!-- QUICK REVISION -->
+        <div class="quick-revision">
+          <div class="qr-header">Quick Revision</div>
+          <ul>
+            <li>CRISPR is most promising for monogenic (single-gene) disorders</li>
+            <li>Sickle cell disease and beta-thalassaemia are leading targets — Casgevy approved 2023</li>
+            <li>In cancer: used to identify drug targets and improve CAR-T cell therapy</li>
+            <li>Precision medicine: edit the exact patient mutation rather than a general drug</li>
+            <li>Infectious disease research: disabling integrated viral DNA (HIV, HBV) with CRISPR</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SECTION 9: ADVANTAGES & LIMITATIONS ===================== -->
+<section class="section" id="advlim">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-number">SECTION 09</span>
+      <h2 class="section-title">Advantages and Limitations</h2>
+      <div class="card">
+        <div class="pro-con">
+          <div class="pros">
+            <h4>✅ Advantages</h4>
+            <ul>
+              <li>High precision — targets a specific 20 nt sequence</li>
+              <li>Fast — experiments completed in days</li>
+              <li>Low cost vs earlier technologies (ZFN, TALEN)</li>
+              <li>Easy to design and use (just change the gRNA)</li>
+              <li>Versatile — works in any organism</li>
+              <li>Can perform knockout, insertion, or correction</li>
+              <li>Can edit multiple genes simultaneously (multiplexing)</li>
+            </ul>
+          </div>
+          <div class="cons">
+            <h4>❌ Limitations</h4>
+            <ul>
+              <li>Off-target effects — cuts at unintended similar sequences</li>
+              <li>PAM sequence requirement limits targetable sites</li>
+              <li>Delivery into cells/tissues remains challenging</li>
+              <li>HDR is inefficient in non-dividing cells</li>
+              <li>Immune response to Cas9 protein possible</li>
+              <li>Ethical concerns, especially for germline editing</li>
+              <li>Not all cell types are easily accessible</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="hbox exam" style="margin-top:16px;">
+          <div class="hbox-label exam">Exam Focus — Off-Target Effects</div>
+          Off-target editing occurs when Cas9 cuts at sites with sequences similar (but not identical) to the target. This is the most critical safety concern for clinical applications. Newer variants (high-fidelity Cas9, base editors, prime editors) have been developed to reduce this risk.
+        </div>
+
+        <!-- QUICK REVISION -->
+        <div class="quick-revision">
+          <div class="qr-header">Quick Revision</div>
+          <ul>
+            <li>Key advantages: precision, speed, low cost, easy programmability, versatility</li>
+            <li>Off-target effects = Cas9 cuts unintended similar sequences — main safety concern</li>
+            <li>HDR is efficient only in dividing cells — limits correction therapy</li>
+            <li>Delivery is a major challenge, especially for solid tissues</li>
+            <li>Newer tools (base editors, prime editors) address some CRISPR-Cas9 limitations</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SECTION 10: ETHICS ===================== -->
+<section class="section" id="ethics">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-number">SECTION 10</span>
+      <h2 class="section-title">Ethical and Social Considerations</h2>
+      <div class="card">
+        <div class="hbox gold" style="margin-bottom:18px;">
+          <div class="hbox-label gold">Somatic vs Germline Editing — Key Distinction</div>
+          <strong>Somatic editing</strong> modifies body cells of a living patient — changes affect only that individual and are <em>not inherited</em>. This is generally accepted for therapeutic purposes.
+          <br><br>
+          <strong>Germline editing</strong> modifies egg, sperm, or embryo cells — changes are <em>heritable</em> and affect all future generations. This is ethically restricted internationally.
+        </div>
+
+        <div class="comp-grid">
+          <div class="comp-card">
+            <h5>⚠️ He Jiankui Controversy (2018)</h5>
+            <p>A Chinese scientist edited human embryos (germline) using CRISPR to confer HIV resistance. This was widely condemned by the global scientific community as premature, dangerous, and unethical — highlighting urgent need for governance.</p>
+          </div>
+          <div class="comp-card">
+            <h5>🧬 Designer Babies Concern</h5>
+            <p>If germline editing becomes routine, it could be used not just to prevent disease but to "enhance" traits (intelligence, appearance) — raising concerns about inequality and eugenics.</p>
+          </div>
+          <div class="comp-card">
+            <h5>⚖️ Regulatory Framework</h5>
+            <p>Most countries prohibit clinical germline editing. International bodies (WHO, national ethics committees) are developing guidelines. Transparency, public engagement, and independent oversight are considered essential.</p>
+          </div>
+          <div class="comp-card">
+            <h5>🌍 Equitable Access</h5>
+            <p>Advanced CRISPR therapies are extremely expensive. Ensuring equitable access globally — not just for wealthy populations — is a major ethical and social challenge.</p>
+          </div>
+        </div>
+
+        <!-- QUICK REVISION -->
+        <div class="quick-revision">
+          <div class="qr-header">Quick Revision</div>
+          <ul>
+            <li>Somatic editing: affects the individual only — not heritable; generally accepted</li>
+            <li>Germline editing: heritable changes; affects future generations; internationally restricted</li>
+            <li>He Jiankui (2018): first germline-edited babies — widely condemned globally</li>
+            <li>Key concerns: off-target heritable mutations, designer babies, unequal access</li>
+            <li>Strong regulatory and bioethics frameworks are essential for responsible CRISPR use</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SECTION 11: COMPARISON TABLE ===================== -->
+<section class="section" id="compare">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-number">SECTION 11</span>
+      <h2 class="section-title">CRISPR vs Traditional Gene Modification Methods</h2>
+      <div class="card">
+        <div style="overflow-x:auto;">
+          <table class="comp-table">
+            <thead>
+              <tr>
+                <th>Feature</th>
+                <th>CRISPR-Cas9</th>
+                <th>ZFN (Zinc Finger Nucleases)</th>
+                <th>TALEN</th>
+                <th>Transgenic (Recombinant DNA)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Precision</td><td>High — 20 nt target + PAM</td><td>Moderate</td><td>High</td><td>Low — random integration</td></tr>
+              <tr><td>Design Ease</td><td>Very easy — change gRNA sequence</td><td>Difficult — protein engineering needed</td><td>Moderate</td><td>Moderate</td></tr>
+              <tr><td>Speed</td><td>Days to weeks</td><td>Months</td><td>Weeks–months</td><td>Months–years</td></tr>
+              <tr><td>Cost</td><td>Very low</td><td>Very high</td><td>High</td><td>Moderate</td></tr>
+              <tr><td>Off-target Risk</td><td>Present (being improved)</td><td>High</td><td>Low</td><td>High (random insertion)</td></tr>
+              <tr><td>Multiplexing</td><td>Yes — multiple genes at once</td><td>Difficult</td><td>Difficult</td><td>Limited</td></tr>
+              <tr><td>Applications</td><td>Research, medicine, agriculture, diagnostics</td><td>Research, limited clinical</td><td>Research, some clinical</td><td>Crop biotech, protein production</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- QUICK REVISION -->
+        <div class="quick-revision">
+          <div class="qr-header">Quick Revision</div>
+          <ul>
+            <li>CRISPR is superior to ZFN and TALEN in cost, speed, and ease of design</li>
+            <li>ZFN requires complex protein engineering — expensive and slow</li>
+            <li>Traditional transgenic methods cause random gene integration — low precision</li>
+            <li>CRISPR's multiplexing ability (editing multiple genes simultaneously) is a unique advantage</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SECTION 12: INTERACTIVE LEARNING ===================== -->
+<section class="section" id="interactive">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-number">SECTION 12</span>
+      <h2 class="section-title">Interactive Learning</h2>
+      <div class="card">
+        <p style="margin-bottom:16px;">Expand each topic for key points and click-to-reveal concepts for active recall practice.</p>
+
+        <div id="accordion">
+
+          <div class="accordion-item">
+            <button class="accordion-btn" onclick="toggleAcc(this)">
+              🔬 Introduction &amp; Full Form <span class="arrow">▼</span>
+            </button>
+            <div class="accordion-content">
+              <p>CRISPR stands for <strong>C</strong>lustered <strong>R</strong>egularly <strong>I</strong>nterspaced <strong>S</strong>hort <strong>P</strong>alindromic <strong>R</strong>epeats. Combined with Cas9 (CRISPR-Associated protein 9), it forms a programmable gene-editing system.</p>
+              <div class="hbox" style="margin-top:12px;">
+                <div class="hbox-label teal">Click to Reveal — Nobel Prize</div>
+                Nobel Prize in Chemistry 2020: awarded to <span class="ctr" onclick="this.classList.toggle('shown')">Jennifer Doudna and Emmanuelle Charpentier for developing CRISPR-Cas9 as a precise gene-editing tool.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-btn" onclick="toggleAcc(this)">
+              🦠 Natural Role in Bacteria <span class="arrow">▼</span>
+            </button>
+            <div class="accordion-content">
+              <ul style="padding-left:18px;font-size:0.92rem;">
+                <li>CRISPR arrays in bacteria store short segments of viral DNA (spacers)</li>
+                <li>On re-infection, a guide RNA is transcribed from the spacer</li>
+                <li>The guide RNA + Cas protein recognise and cut matching viral DNA</li>
+                <li>This is the prokaryotic adaptive immune memory system</li>
+              </ul>
+              <div class="hbox" style="margin-top:12px;">
+                <div class="hbox-label teal">Click to Reveal — Discovery Timeline</div>
+                CRISPR repeats were first observed in bacteria in <span class="ctr" onclick="this.classList.toggle('shown')">1987 by Yoshizumi Ishino (Japan); their function as an immune defence was proposed by Francisco Mojica in 2005.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-btn" onclick="toggleAcc(this)">
+              🧩 Components — Cas9, gRNA, PAM <span class="arrow">▼</span>
+            </button>
+            <div class="accordion-content">
+              <ul style="padding-left:18px;font-size:0.92rem;">
+                <li><strong>Cas9:</strong> nuclease with two cutting domains (HNH + RuvC)</li>
+                <li><strong>gRNA:</strong> ~20 nt programmable RNA; directs Cas9 to the target</li>
+                <li><strong>Target DNA:</strong> the specific genomic sequence to be edited</li>
+                <li><strong>PAM (NGG):</strong> short motif adjacent to target; required for Cas9 binding</li>
+              </ul>
+              <div class="hbox" style="margin-top:12px;">
+                <div class="hbox-label teal">Click to Reveal — sgRNA</div>
+                In the lab, the natural two-part RNA (crRNA + tracrRNA) is fused into a single <span class="ctr" onclick="this.classList.toggle('shown')">single guide RNA (sgRNA) — a simplification that made the system easy to use experimentally.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-btn" onclick="toggleAcc(this)">
+              ⚙️ Mechanism — Step by Step <span class="arrow">▼</span>
+            </button>
+            <div class="accordion-content">
+              <ol style="padding-left:20px;font-size:0.91rem;">
+                <li>Design gRNA complementary to target DNA sequence</li>
+                <li>Deliver gRNA + Cas9 into target cell (AAV, electroporation, RNP)</li>
+                <li>gRNA binds target DNA; Cas9 verifies PAM (NGG)</li>
+                <li>Cas9 cuts both strands → double-strand break (DSB)</li>
+                <li>NHEJ repair → indels → gene knockout; or HDR → precise correction</li>
+              </ol>
+              <div class="hbox exam" style="margin-top:12px;">
+                <div class="hbox-label exam">Exam Point</div>
+                <span class="ctr" onclick="this.classList.toggle('shown')">The efficiency of HDR is much lower than NHEJ. In most cell types, NHEJ is the dominant repair pathway, making knockout easier to achieve than precise gene correction.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-btn" onclick="toggleAcc(this)">
+              🌐 Applications — Key Examples <span class="arrow">▼</span>
+            </button>
+            <div class="accordion-content">
+              <ul style="padding-left:18px;font-size:0.91rem;">
+                <li><strong>Research:</strong> gene knockouts in mice to model human disease</li>
+                <li><strong>Agriculture:</strong> disease-resistant crops; hornless dairy cattle</li>
+                <li><strong>Medicine:</strong> Casgevy (2023) for sickle cell disease — first approved CRISPR therapy</li>
+                <li><strong>Cancer:</strong> enhancing CAR-T cells; identifying drug targets via CRISPR screens</li>
+                <li><strong>Diagnostics:</strong> SHERLOCK and DETECTR for rapid pathogen detection</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-btn" onclick="toggleAcc(this)">
+              ⚖️ Ethics — Key Issues <span class="arrow">▼</span>
+            </button>
+            <div class="accordion-content">
+              <ul style="padding-left:18px;font-size:0.91rem;">
+                <li>Somatic editing (patient cells) — generally accepted, already in clinical use</li>
+                <li>Germline editing (embryos) — heritable; internationally restricted</li>
+                <li>He Jiankui (2018) — world's first germline-edited babies; globally condemned</li>
+                <li>Designer baby concern; inequitable access to expensive therapies</li>
+              </ul>
+              <div class="hbox warn" style="margin-top:12px;">
+                <div class="hbox-label warn">Remember</div>
+                <span class="ctr" onclick="this.classList.toggle('shown')">The key ethical distinction: somatic editing changes only the patient; germline editing changes heritable DNA — affecting all future descendants. This is why germline editing requires much stricter oversight.</span>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- end accordion -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SECTION 13: QUIZ ===================== -->
+<section class="section" id="quiz">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-number">SECTION 13</span>
+      <h2 class="section-title">Self-Assessment Quiz</h2>
+      <p style="margin-bottom:20px;color:var(--text-light);">Select an answer to receive immediate feedback. Submit to view your final score.</p>
+      <div id="quiz-container"></div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:20px;">
+        <button class="btn" onclick="submitQuiz()">Submit &amp; See Score</button>
+        <button class="btn secondary" onclick="resetQuiz()">Reset Quiz</button>
+      </div>
+      <div id="quiz-result">
+        <h3 id="res-heading"></h3>
+        <p  id="res-msg"></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SECTION 14: SUMMARY ===================== -->
+<section class="section" id="summary">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-number">SECTION 14</span>
+      <h2 class="section-title">Summary &amp; Revision Bullets</h2>
+      <div class="card">
+        <ul class="sum-list">
+          <li>CRISPR = Clustered Regularly Interspaced Short Palindromic Repeats; a natural bacterial defence system adapted for gene editing.</li>
+          <li>CRISPR-Cas9 uses a guide RNA (gRNA) to direct the Cas9 nuclease to cut DNA at a precise location.</li>
+          <li>Four key components: Cas9 enzyme, guide RNA (gRNA), target DNA, PAM sequence (NGG).</li>
+          <li>Cas9 creates a double-strand break (DSB); repair by NHEJ produces indels (knockout) or by HDR produces precise correction/insertion.</li>
+          <li>Three editing outcomes: gene knockout (NHEJ), gene insertion (HDR + template), gene correction (HDR + correct template).</li>
+          <li>Applications: basic research, functional genomics, crop improvement, animal biotech, medical therapy, diagnostics.</li>
+          <li>Casgevy (2023) — first approved CRISPR therapy for sickle cell disease and beta-thalassaemia.</li>
+          <li>Advantages over ZFN/TALEN: easier design, faster, cheaper, multiplexing capability.</li>
+          <li>Main limitation: off-target effects — Cas9 may cut at similar unintended sequences.</li>
+          <li>Somatic editing (accepted) vs germline editing (restricted) is the core ethical distinction.</li>
+          <li>Nobel Prize 2020: Jennifer Doudna and Emmanuelle Charpentier.</li>
+        </ul>
+
+        <h4 style="color:var(--teal-dark);margin:22px 0 12px;">Key Terms to Remember</h4>
+        <div style="overflow-x:auto;">
+          <table class="comp-table">
+            <thead><tr><th>Term</th><th>Meaning</th></tr></thead>
+            <tbody>
+              <tr><td>DSB</td><td>Double-Strand Break — Cas9 cuts both strands of DNA</td></tr>
+              <tr><td>NHEJ</td><td>Non-Homologous End Joining — error-prone repair → indels → knockout</td></tr>
+              <tr><td>HDR</td><td>Homology-Directed Repair — precise repair using a template → correction/insertion</td></tr>
+              <tr><td>Indels</td><td>Insertions and deletions introduced by NHEJ; cause frameshift mutations</td></tr>
+              <tr><td>PAM</td><td>Protospacer Adjacent Motif (NGG) — required by Cas9 for binding and cutting</td></tr>
+              <tr><td>sgRNA</td><td>Single guide RNA — fused gRNA used in lab experiments</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SECTION 15: GLOSSARY ===================== -->
+<section class="section" id="glossary">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-number">SECTION 15</span>
+      <h2 class="section-title">Glossary</h2>
+      <div class="card">
+        <dl class="gloss-grid">
+          <div class="gloss-card"><dt>CRISPR</dt><dd>Clustered Regularly Interspaced Short Palindromic Repeats — natural bacterial immune sequences repurposed for gene editing.</dd></div>
+          <div class="gloss-card"><dt>Cas9</dt><dd>A nuclease enzyme (protein) with two cutting domains (HNH, RuvC) that creates a double-strand break in DNA at the target site.</dd></div>
+          <div class="gloss-card"><dt>Guide RNA (gRNA)</dt><dd>A ~20-nucleotide RNA designed to be complementary to the target DNA sequence; directs Cas9 to the correct genomic location.</dd></div>
+          <div class="gloss-card"><dt>PAM Sequence</dt><dd>Protospacer Adjacent Motif (5′-NGG-3′ for SpCas9) — a short DNA sequence immediately next to the target; required for Cas9 binding and cutting.</dd></div>
+          <div class="gloss-card"><dt>Target DNA</dt><dd>The specific DNA sequence in the genome that the gRNA is designed to match and that Cas9 will cut.</dd></div>
+          <div class="gloss-card"><dt>Double-Strand Break (DSB)</dt><dd>A cut in both strands of the DNA double helix, created by Cas9 at the target location.</dd></div>
+          <div class="gloss-card"><dt>NHEJ</dt><dd>Non-Homologous End Joining — a fast but error-prone DNA repair pathway that introduces indels at the break site, disrupting gene function.</dd></div>
+          <div class="gloss-card"><dt>HDR</dt><dd>Homology-Directed Repair — a precise DNA repair pathway that uses a provided donor template to introduce an exact sequence at the break site.</dd></div>
+          <div class="gloss-card"><dt>Gene Knockout</dt><dd>Disruption or inactivation of a gene, typically achieved via NHEJ-mediated indels that cause a frameshift mutation.</dd></div>
+          <div class="gloss-card"><dt>Off-Target Effect</dt><dd>Unintended editing at genomic sites with sequences similar to the intended target — a key safety concern in clinical use.</dd></div>
+          <div class="gloss-card"><dt>Germline Editing</dt><dd>Modification of reproductive cells (egg, sperm, embryo) — changes are heritable and passed to future generations; ethically restricted.</dd></div>
+          <div class="gloss-card"><dt>Indels</dt><dd>Insertions and/or deletions introduced at the cut site by NHEJ repair; often cause frameshift mutations that disrupt the reading frame.</dd></div>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SECTION 16: EXAM QUESTIONS ===================== -->
+<section class="section" id="examq">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-number">SECTION 16</span>
+      <h2 class="section-title">Frequently Asked University Exam Questions</h2>
+      <div class="card">
+
+        <div class="eq-item">
+          <div class="eq-q">1. What is CRISPR? Describe its origin and natural role in bacteria.</div>
+          <button class="eq-hint-btn" onclick="toggleHint(this)">Show Hint</button>
+          <div class="eq-hint">Expand the full form. Define CRISPR-Cas9. Explain the bacterial adaptive immune function: first infection → spacer storage in CRISPR array; re-infection → crRNA produced → Cas protein guided to viral DNA → viral DNA cut. Mention its origin as a natural system later adapted for biotechnology.</div>
+        </div>
+
+        <div class="eq-item">
+          <div class="eq-q">2. Describe the components of CRISPR-Cas9 and explain the mechanism of gene editing step by step.</div>
+          <button class="eq-hint-btn" onclick="toggleHint(this)">Show Hint</button>
+          <div class="eq-hint">List: Cas9 (nuclease, HNH + RuvC domains), gRNA (20 nt, directs Cas9), target DNA, PAM sequence (NGG). Mechanism: design gRNA → deliver into cell → gRNA-Cas9 complex binds target → PAM verified → DSB created → NHEJ (indels/knockout) or HDR (correction with template).</div>
+        </div>
+
+        <div class="eq-item">
+          <div class="eq-q">3. Differentiate between gene knockout, gene insertion, and gene correction with examples.</div>
+          <button class="eq-hint-btn" onclick="toggleHint(this)">Show Hint</button>
+          <div class="eq-hint">Knockout: NHEJ → indels → frameshift → non-functional protein (e.g., studying gene function). Insertion: HDR + donor DNA → new gene added (e.g., inserting therapeutic gene). Correction: HDR + correct template → mutation repaired (e.g., sickle cell disease mutation corrected). Table format recommended.</div>
+        </div>
+
+        <div class="eq-item">
+          <div class="eq-q">4. Discuss the applications of CRISPR gene editing in medicine and agriculture.</div>
+          <button class="eq-hint-btn" onclick="toggleHint(this)">Show Hint</button>
+          <div class="eq-hint">Medicine: genetic disease correction (sickle cell, beta-thalassaemia), cancer research (CAR-T enhancement), infectious disease (HIV, HBV), diagnostics (SHERLOCK, DETECTR), precision medicine. Casgevy (2023) as example. Agriculture: disease-resistant crops, drought tolerance, nutritional enhancement, hornless livestock. Keep explanations educational, not procedural.</div>
+        </div>
+
+        <div class="eq-item">
+          <div class="eq-q">5. What are the advantages and ethical concerns associated with CRISPR gene editing?</div>
+          <button class="eq-hint-btn" onclick="toggleHint(this)">Show Hint</button>
+          <div class="eq-hint">Advantages: precision, speed, low cost, versatility, multiplexing. Limitations: off-target effects, delivery challenges, low HDR efficiency, immune response to Cas9. Ethics: somatic (accepted) vs germline (restricted) editing; He Jiankui controversy (2018); designer baby concerns; equitable access; importance of international regulation and bioethics frameworks.</div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <div class="f-dept">Department of Zoology, GASC, Nagercoil</div>
+  <div class="f-author">Created by R. Ramesh</div>
+</footer>
+
+<!-- ===================== JAVASCRIPT ===================== -->
+<script>
+/* ============================================================
+   SECTION REVEAL — IntersectionObserver
+   ============================================================ */
+(function () {
+  const obs = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.07 });
+  document.querySelectorAll('.reveal').forEach(function (el) { obs.observe(el); });
+})();
+
+/* ============================================================
+   ACCORDION
+   ============================================================ */
+function toggleAcc(btn) {
+  var content = btn.nextElementSibling;
+  var isOpen = content.classList.contains('open');
+  document.querySelectorAll('.accordion-content.open').forEach(function (c) { c.classList.remove('open'); });
+  document.querySelectorAll('.accordion-btn.open').forEach(function (b) { b.classList.remove('open'); });
+  if (!isOpen) {
+    content.classList.add('open');
+    btn.classList.add('open');
+  }
+}
+
+/* ============================================================
+   DIAGRAM CLICK HIGHLIGHT
+   ============================================================ */
+function diagClick(nodeId, infoId, text) {
+  var info = document.getElementById(infoId);
+  info.textContent = text;
+  info.classList.add('show');
+  // remove active from all nodes in same diagram
+  var svgId = nodeId.startsWith('b') ? 'svg-bact' : 'svg-mech';
+  document.getElementById(svgId).querySelectorAll('.diag-node').forEach(function (n) {
+    n.classList.remove('active');
+  });
+  var node = document.getElementById(nodeId);
+  if (node) node.classList.add('active');
+}
+
+/* ============================================================
+   EXAM HINT TOGGLE
+   ============================================================ */
+function toggleHint(btn) {
+  var hint = btn.nextElementSibling;
+  if (hint.classList.contains('show')) {
+    hint.classList.remove('show');
+    btn.textContent = 'Show Hint';
+  } else {
+    hint.classList.add('show');
+    btn.textContent = 'Hide Hint';
+  }
+}
+
+/* ============================================================
+   QUIZ DATA
+   ============================================================ */
+var quizData = [
+  {
+    q: "What does CRISPR stand for?",
+    opts: [
+      "Clustered Regularly Interspaced Short Palindromic Repeats",
+      "Controlled RNA Insertion System for Precise Regulation",
+      "Cloning and Replication of Integrated Short Palindromic RNA",
+      "Cascade RNA Interference System for Protein Repair"
+    ],
+    ans: 0,
+    exp: "CRISPR stands for Clustered Regularly Interspaced Short Palindromic Repeats — sequences found in bacterial genomes as part of their immune system."
+  },
+  {
+    q: "What is the natural function of CRISPR in bacteria?",
+    opts: [
+      "To help bacteria divide more rapidly",
+      "To store energy during starvation",
+      "To act as an adaptive immune system against viral infection",
+      "To produce antibiotics against competing bacteria"
+    ],
+    ans: 2,
+    exp: "CRISPR is the bacterial adaptive immune system. It stores viral DNA sequences as spacers, and on re-infection, uses them to guide Cas proteins to cut and destroy viral DNA."
+  },
+  {
+    q: "Which enzyme acts as the 'molecular scissors' in CRISPR gene editing?",
+    opts: ["Ligase", "Cas9", "Polymerase", "Restriction endonuclease EcoRI"],
+    ans: 1,
+    exp: "Cas9 (CRISPR-Associated Protein 9) is the nuclease enzyme that creates a double-strand break in DNA at the site directed by the guide RNA."
+  },
+  {
+    q: "What is the function of the guide RNA (gRNA) in CRISPR-Cas9?",
+    opts: [
+      "To cut the DNA at the target site",
+      "To repair the DNA after cutting",
+      "To direct Cas9 to the specific target DNA sequence",
+      "To transcribe the therapeutic protein"
+    ],
+    ans: 2,
+    exp: "The gRNA (~20 nucleotides) is complementary to the target DNA sequence and acts as a molecular GPS, guiding Cas9 to the precise location in the genome."
+  },
+  {
+    q: "What is the PAM sequence recognised by SpCas9?",
+    opts: ["5′-ATG-3′", "5′-NGG-3′", "5′-AATAAA-3′", "5′-TATA-3′"],
+    ans: 1,
+    exp: "The PAM sequence for Streptococcus pyogenes Cas9 (SpCas9) is 5′-NGG-3′ (where N = any nucleotide). This sequence must be present adjacent to the target site for Cas9 to bind and cut."
+  },
+  {
+    q: "NHEJ (Non-Homologous End Joining) repair after a CRISPR cut typically results in:",
+    opts: [
+      "Precise gene correction",
+      "Insertion of a new gene",
+      "Random insertions or deletions (indels), causing gene disruption",
+      "Duplication of the target gene"
+    ],
+    ans: 2,
+    exp: "NHEJ is an error-prone repair pathway that randomly rejoins the broken DNA ends, introducing small insertions or deletions (indels) — typically causing a frameshift mutation that disrupts gene function (knockout)."
+  },
+  {
+    q: "Which DNA repair pathway is used for precise gene correction when a donor template is provided?",
+    opts: [
+      "NHEJ (Non-Homologous End Joining)",
+      "BER (Base Excision Repair)",
+      "NER (Nucleotide Excision Repair)",
+      "HDR (Homology-Directed Repair)"
+    ],
+    ans: 3,
+    exp: "HDR (Homology-Directed Repair) uses a provided donor DNA template to repair the cut site with precision — enabling gene correction or insertion of a new sequence."
+  },
+  {
+    q: "In 2023, the first approved CRISPR-based gene therapy (Casgevy) was developed for which disease?",
+    opts: ["Cystic Fibrosis", "Haemophilia A", "Sickle Cell Disease and Beta-Thalassaemia", "Huntington's Disease"],
+    ans: 2,
+    exp: "Casgevy was approved by the UK MHRA and US FDA in 2023 for sickle cell disease and beta-thalassaemia, marking the first approved CRISPR-based human therapy."
+  },
+  {
+    q: "The Nobel Prize in Chemistry 2020 for CRISPR-Cas9 was awarded to:",
+    opts: [
+      "James Watson and Francis Crick",
+      "Jennifer Doudna and Emmanuelle Charpentier",
+      "Feng Zhang and George Church",
+      "Paul Berg and Herbert Boyer"
+    ],
+    ans: 1,
+    exp: "Jennifer Doudna (UC Berkeley) and Emmanuelle Charpentier (Max Planck Institute) received the 2020 Nobel Prize in Chemistry for developing CRISPR-Cas9 as a precision gene-editing tool."
+  },
+  {
+    q: "Why is CRISPR germline editing considered more ethically concerning than somatic editing?",
+    opts: [
+      "Germline editing is less efficient than somatic editing",
+      "Germline editing costs more than somatic editing",
+      "Germline editing affects only the treated patient",
+      "Germline editing produces heritable changes affecting all future generations"
+    ],
+    ans: 3,
+    exp: "Germline editing modifies eggs, sperm, or embryos — making the genetic changes heritable. Every future descendant of the edited individual will carry the change, raising profound ethical concerns about consent and unintended consequences."
+  }
+];
+
+var answered = [];
+
+function buildQuiz() {
+  var container = document.getElementById('quiz-container');
+  container.innerHTML = '';
+  answered = new Array(quizData.length).fill(false);
+  quizData.forEach(function (q, i) {
+    var optsHTML = q.opts.map(function (o, j) {
+      return '<div class="quiz-opt" id="opt-' + i + '-' + j + '" onclick="selectAns(' + i + ',' + j + ')">'
+        + '<span class="opt-badge">' + String.fromCharCode(65 + j) + '</span>' + o + '</div>';
+    }).join('');
+    var card = document.createElement('div');
+    card.className = 'quiz-card';
+    card.id = 'qcard-' + i;
+    card.innerHTML = '<h4><span style="color:var(--teal-light);margin-right:8px;">Q' + (i+1) + '.</span>' + q.q + '</h4>'
+      + '<div class="quiz-options">' + optsHTML + '</div>'
+      + '<div class="feedback" id="fb-' + i + '"></div>';
+    container.appendChild(card);
+  });
+  document.getElementById('quiz-result').style.display = 'none';
+}
+
+function selectAns(qi, oi) {
+  if (answered[qi]) return;
+  answered[qi] = true;
+  var correct = quizData[qi].ans;
+  document.querySelectorAll('#qcard-' + qi + ' .quiz-opt').forEach(function (el, j) {
+    el.classList.add('disabled');
+    if (j === correct) el.classList.add('correct');
+    if (j === oi && oi !== correct) el.classList.add('wrong');
+  });
+  var fb = document.getElementById('fb-' + qi);
+  if (oi === correct) {
+    fb.className = 'feedback correct';
+    fb.innerHTML = '✅ Correct! ' + quizData[qi].exp;
+  } else {
+    fb.className = 'feedback wrong';
+    fb.innerHTML = '❌ Incorrect. ' + quizData[qi].exp;
+  }
+}
+
+function submitQuiz() {
+  var score = 0;
+  quizData.forEach(function (q, i) {
+    var el = document.querySelector('#opt-' + i + '-' + q.ans);
+    if (el && el.classList.contains('correct')) score++;
+  });
+  var total = quizData.length;
+  var pct = Math.round((score / total) * 100);
+  var result = document.getElementById('quiz-result');
+  result.style.display = 'block';
+  document.getElementById('res-heading').textContent = 'Your Score: ' + score + ' / ' + total + ' (' + pct + '%)';
+  var msg;
+  if (pct >= 90) msg = '🏆 Excellent! You have a strong command of CRISPR concepts.';
+  else if (pct >= 70) msg = '👍 Good work. Review the mechanism and components sections once more.';
+  else if (pct >= 50) msg = '📚 Fair attempt. Focus on the mechanism, PAM sequence, and repair pathways.';
+  else msg = '🔄 Keep revising. Start with the components and mechanism sections for solid understanding.';
+  document.getElementById('res-msg').textContent = msg;
+  result.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+function resetQuiz() {
+  buildQuiz();
+  document.getElementById('quiz').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+/* Initialize quiz on page load */
+buildQuiz();
+</script>
+</body>
+</html>

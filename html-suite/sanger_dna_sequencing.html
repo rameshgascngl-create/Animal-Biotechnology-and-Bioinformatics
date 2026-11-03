@@ -1,0 +1,1725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DNA Sequencing: Sanger Method | Interactive Learning App</title>
+<style>
+/* ============================================================
+   CSS VARIABLES & RESET
+   ============================================================ */
+:root {
+  --ink:         #061e30;
+  --ocean:       #076f87;
+  --teal:        #0b9eb8;
+  --teal-mid:    #12bad8;
+  --teal-lt:     #b2eef6;
+  --teal-pale:   #e1f8fc;
+  --mint:        #047857;
+  --mint-lt:     #d1fae5;
+  --gold:        #d97706;
+  --gold-lt:     #fef3c7;
+  --rose:        #be123c;
+  --rose-lt:     #ffe4e6;
+  --violet:      #6d28d9;
+  --violet-lt:   #ede9fe;
+  --sky:         #0369a1;
+  --sky-lt:      #dbeafe;
+  --coral:       #c2410c;
+  --coral-lt:    #ffedd5;
+  /* Sanger fragment colours */
+  --ddA:        #2e7d32;  /* green  */
+  --ddT:        #c62828;  /* red    */
+  --ddG:        #1565c0;  /* blue   */
+  --ddC:        #6a1b9a;  /* violet */
+  --offwhite:    #f0fbfc;
+  --surface:     #ffffff;
+  --border:      #b2eef6;
+  --muted:       #3f6070;
+  --sh-sm:       0 2px 8px rgba(7,111,135,.10);
+  --sh-md:       0 6px 26px rgba(7,111,135,.15);
+  --sh-lg:       0 14px 44px rgba(7,111,135,.20);
+  --rad:         16px;
+  --rad-sm:      9px;
+  --serif:       Palatino,'Palatino Linotype',Georgia,serif;
+  --sans:        'Trebuchet MS','Gill Sans MT',Calibri,sans-serif;
+  --mono:        'Courier New',Courier,monospace;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:var(--sans);
+  background:var(--offwhite);
+  color:var(--ink);
+  line-height:1.76;
+  font-size:15.5px;
+}
+
+/* ============================================================
+   NAVIGATION
+   ============================================================ */
+#nav{
+  position:sticky;top:0;z-index:900;
+  background:var(--ink);
+  box-shadow:0 3px 18px rgba(0,0,0,.30);
+}
+#nav-inner{
+  max-width:1080px;margin:0 auto;
+  display:flex;gap:4px;align-items:center;
+  padding:8px 16px;overflow-x:auto;scrollbar-width:none;
+}
+#nav-inner::-webkit-scrollbar{display:none;}
+.nb{
+  flex-shrink:0;background:transparent;
+  border:1.5px solid rgba(178,238,246,.28);
+  color:#b2eef6;padding:5px 14px;border-radius:20px;
+  font-size:12px;font-family:var(--sans);
+  cursor:pointer;white-space:nowrap;transition:all .2s;
+}
+.nb:hover{background:var(--teal-mid);border-color:var(--teal-mid);color:#fff;}
+
+/* ============================================================
+   LAYOUT
+   ============================================================ */
+main{max-width:1040px;margin:0 auto;padding:28px 16px 64px;}
+.card{
+  background:var(--surface);border-radius:var(--rad);
+  box-shadow:var(--sh-md);padding:36px 40px;
+  margin-bottom:34px;border-top:4px solid var(--teal);
+  animation:riseUp .5s ease both;
+}
+@keyframes riseUp{
+  from{opacity:0;transform:translateY(18px);}
+  to{opacity:1;transform:translateY(0);}
+}
+
+/* ============================================================
+   TYPOGRAPHY
+   ============================================================ */
+.chip{
+  display:inline-block;background:var(--teal-pale);color:var(--ocean);
+  font-size:10px;font-weight:800;letter-spacing:2px;
+  text-transform:uppercase;padding:3px 13px;border-radius:30px;margin-bottom:12px;
+}
+h2.sh{
+  font-family:var(--serif);font-size:1.5rem;color:var(--ink);
+  margin-bottom:16px;display:flex;align-items:center;gap:10px;
+}
+h3{color:var(--ocean);font-size:1.05rem;margin:18px 0 7px;font-weight:700;}
+p{margin-bottom:10px;font-size:.96rem;}
+ul,ol{padding-left:22px;margin-bottom:10px;}
+li{margin-bottom:5px;font-size:.95rem;}
+strong{color:var(--ink);}
+.kt{
+  display:inline-block;background:var(--teal-pale);color:var(--ocean);
+  font-weight:700;padding:1px 8px;border-radius:5px;
+  font-size:.9em;border:1px solid var(--border);
+}
+
+/* ============================================================
+   HERO
+   ============================================================ */
+#hero{
+  background:linear-gradient(140deg,var(--ink) 0%,#073d52 52%,var(--ocean) 100%);
+  border-radius:var(--rad);padding:52px 44px 42px;
+  margin-bottom:34px;position:relative;overflow:hidden;
+  box-shadow:var(--sh-lg);
+}
+#hero::before{
+  content:'';position:absolute;width:400px;height:400px;
+  border-radius:50%;background:rgba(178,238,246,.06);top:-110px;right:-90px;
+}
+.hbadge{
+  display:inline-block;background:rgba(178,238,246,.18);color:var(--teal-lt);
+  font-size:11px;letter-spacing:1.8px;text-transform:uppercase;
+  padding:4px 16px;border-radius:20px;margin-bottom:16px;
+  border:1px solid rgba(178,238,246,.28);
+}
+h1.ht{
+  font-family:var(--serif);
+  font-size:clamp(1.75rem,4.5vw,2.85rem);
+  color:#fff;line-height:1.2;
+}
+.hsub{color:#8ecfda;font-size:1.02rem;margin:14px 0 24px;max-width:700px;}
+.obj-box{
+  background:rgba(255,255,255,.10);border-radius:12px;
+  padding:18px 24px;border:1px solid rgba(255,255,255,.14);
+}
+.obj-box h3{color:var(--teal-lt);margin-top:0;font-size:1rem;}
+.obj-box li{color:#99d4db;font-size:.91rem;}
+
+/* ============================================================
+   INFO BOXES
+   ============================================================ */
+.ib{
+  border-left:4px solid var(--teal-mid);background:var(--teal-pale);
+  border-radius:0 8px 8px 0;padding:11px 18px;margin:14px 0;font-size:.93rem;
+}
+.ib.gold  {border-color:var(--gold);  background:var(--gold-lt);}
+.ib.green {border-color:var(--mint);  background:var(--mint-lt);}
+.ib.rose  {border-color:var(--rose);  background:var(--rose-lt);}
+.ib.violet{border-color:var(--violet);background:var(--violet-lt);}
+.ib.sky   {border-color:var(--sky);   background:var(--sky-lt);}
+.ib.coral {border-color:var(--coral); background:var(--coral-lt);}
+
+/* ============================================================
+   SVG DIAGRAM WRAPPER
+   ============================================================ */
+.dbox{
+  background:#f2feff;border:1.5px solid var(--border);
+  border-radius:12px;padding:20px 16px;margin:18px 0;
+  text-align:center;overflow:hidden;
+}
+.dbox svg{max-width:100%;height:auto;display:block;margin:0 auto;}
+.dtitle{
+  font-family:var(--serif);font-size:.93rem;color:var(--ocean);
+  font-weight:700;text-align:center;margin-bottom:10px;
+}
+
+/* ============================================================
+   STEPS TIMELINE
+   ============================================================ */
+.steps-wrap{margin:16px 0;}
+.step-item{display:flex;gap:16px;margin-bottom:18px;align-items:flex-start;}
+.step-num{
+  flex-shrink:0;width:36px;height:36px;border-radius:50%;
+  background:var(--teal);color:#fff;font-weight:800;font-size:15px;
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 3px 10px rgba(11,158,184,.35);
+}
+.step-body{flex:1;}
+.step-title{font-weight:800;color:var(--ocean);font-size:1.02rem;margin-bottom:5px;}
+
+/* ============================================================
+   INTERACTIVE FLOW
+   ============================================================ */
+.flow-row{
+  display:flex;flex-wrap:wrap;align-items:flex-start;
+  justify-content:center;gap:0;margin:20px 0;
+}
+.fbox{
+  background:var(--surface);border:2px solid var(--border);border-radius:12px;
+  padding:14px 12px;min-width:118px;max-width:145px;text-align:center;
+  cursor:pointer;transition:all .25s;position:relative;
+}
+.fbox .fnum{
+  position:absolute;top:-11px;left:50%;transform:translateX(-50%);
+  background:var(--teal);color:#fff;width:22px;height:22px;
+  border-radius:50%;font-size:11px;font-weight:800;
+  display:flex;align-items:center;justify-content:center;
+}
+.fbox .ficon{font-size:1.9rem;margin-bottom:4px;}
+.fbox .ftxt{font-weight:700;color:var(--ink);font-size:.80rem;}
+.fbox .fdet{
+  display:none;margin-top:8px;font-size:.76rem;color:var(--muted);
+  border-top:1px solid var(--border);padding-top:7px;text-align:left;
+}
+.fbox:hover,.fbox.act{
+  background:var(--teal-pale);border-color:var(--teal-mid);
+  transform:translateY(-4px);box-shadow:var(--sh-md);
+}
+.fbox.act .fdet{display:block;}
+.farr{font-size:1.5rem;color:var(--teal-mid);margin:0 3px;align-self:center;}
+
+/* ============================================================
+   ACCORDION
+   ============================================================ */
+.ai{border:1.5px solid var(--border);border-radius:10px;margin-bottom:10px;overflow:hidden;}
+.ah{
+  width:100%;background:linear-gradient(90deg,var(--teal-pale),#eaf8fb);
+  border:none;padding:14px 20px;text-align:left;cursor:pointer;
+  display:flex;justify-content:space-between;align-items:center;
+  font-size:.97rem;font-weight:700;color:var(--ink);
+  font-family:var(--sans);transition:background .2s;
+}
+.ah:hover{background:linear-gradient(90deg,var(--teal-lt),var(--teal-pale));}
+.ah.open {background:linear-gradient(90deg,var(--ocean),var(--teal-mid));color:#fff;}
+.aico{font-size:1.2rem;transition:transform .3s;}
+.ah.open .aico{transform:rotate(45deg);}
+.ab{display:none;padding:18px 22px;background:#fff;border-top:1px solid var(--border);}
+.ab.open{display:block;animation:slideIn .25s ease;}
+@keyframes slideIn{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
+.vpill{display:inline-block;background:var(--ink);color:#fff;padding:2px 13px;border-radius:14px;font-size:11px;margin-bottom:10px;}
+
+/* ============================================================
+   REVEAL CARDS
+   ============================================================ */
+.rg{display:grid;grid-template-columns:repeat(auto-fill,minmax(166px,1fr));gap:11px;margin:14px 0;}
+.rc{border-radius:10px;border:1.5px solid var(--border);overflow:hidden;cursor:pointer;}
+.rf{background:linear-gradient(135deg,var(--ocean),var(--teal-mid));color:#fff;padding:18px 13px;text-align:center;font-weight:700;font-size:.87rem;}
+.rh{font-size:.70rem;color:rgba(255,255,255,.6);margin-top:4px;}
+.rb{display:none;background:#fff;padding:12px 13px;font-size:.82rem;color:var(--ink);border-top:1px solid var(--border);}
+.rc.flipped .rb{display:block;}
+
+/* ============================================================
+   TABLE
+   ============================================================ */
+.tw{overflow-x:auto;margin:16px 0;}
+table{width:100%;border-collapse:collapse;font-size:.86rem;min-width:520px;}
+thead tr{background:var(--ink);color:#fff;}
+thead th{padding:11px 13px;text-align:left;font-weight:700;}
+tbody tr:nth-child(even){background:var(--teal-pale);}
+tbody tr:hover{background:var(--teal-lt);}
+tbody td{padding:9px 13px;border-bottom:1px solid var(--border);vertical-align:top;}
+
+/* ============================================================
+   DDNTP COLOUR DOTS
+   ============================================================ */
+.ddA{display:inline-block;width:12px;height:12px;border-radius:50%;background:var(--ddA);margin-right:4px;vertical-align:middle;}
+.ddT{display:inline-block;width:12px;height:12px;border-radius:50%;background:var(--ddT);margin-right:4px;vertical-align:middle;}
+.ddG{display:inline-block;width:12px;height:12px;border-radius:50%;background:var(--ddG);margin-right:4px;vertical-align:middle;}
+.ddC{display:inline-block;width:12px;height:12px;border-radius:50%;background:var(--ddC);margin-right:4px;vertical-align:middle;}
+
+/* ============================================================
+   QUIZ
+   ============================================================ */
+.qprog{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:18px;}
+.qd{width:28px;height:28px;border-radius:50%;background:var(--border);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:var(--muted);transition:background .3s;}
+.qd.ok {background:var(--mint);color:#fff;}
+.qd.bad{background:var(--rose);color:#fff;}
+.qd.cur{background:var(--teal);color:#fff;}
+.qcard{background:#f2feff;border:1.5px solid var(--border);border-radius:12px;padding:22px 26px;}
+.qno  {font-size:11px;color:var(--muted);font-weight:700;margin-bottom:6px;text-transform:uppercase;letter-spacing:1.1px;}
+.qtxt {font-size:1.0rem;font-weight:700;color:var(--ink);margin-bottom:18px;}
+.qopts{display:flex;flex-direction:column;gap:10px;}
+.qo{
+  background:#fff;border:1.5px solid var(--border);border-radius:9px;
+  padding:11px 18px;text-align:left;cursor:pointer;
+  font-family:var(--sans);font-size:.91rem;color:var(--ink);transition:all .2s;
+}
+.qo:hover:not(:disabled){background:var(--teal-pale);border-color:var(--teal-mid);color:var(--ocean);}
+.qo.cok {background:var(--mint-lt);border-color:var(--mint);color:#065f46;font-weight:700;}
+.qo.cbad{background:var(--rose-lt);border-color:var(--rose);color:#881337;}
+.qo:disabled{cursor:default;}
+.qfb{margin-top:14px;padding:10px 16px;border-radius:8px;font-size:.91rem;display:none;}
+.qfb.ok {background:var(--mint-lt);color:#065f46;display:block;}
+.qfb.bad{background:var(--rose-lt);color:#881337;display:block;}
+.bnxt{
+  margin-top:14px;background:var(--ocean);color:#fff;border:none;
+  padding:10px 26px;border-radius:8px;font-size:.91rem;font-weight:700;
+  cursor:pointer;display:none;font-family:var(--sans);transition:background .2s;
+}
+.bnxt:hover{background:var(--ink);}
+.qres{display:none;text-align:center;padding:32px 16px;}
+.sring{
+  width:115px;height:115px;border-radius:50%;
+  background:linear-gradient(135deg,var(--ocean),var(--teal-mid));
+  color:#fff;font-size:2.1rem;font-weight:800;
+  display:flex;align-items:center;justify-content:center;
+  margin:0 auto 18px;box-shadow:0 8px 24px rgba(7,111,135,.38);
+}
+.bretry{
+  background:var(--ink);color:#fff;border:none;
+  padding:11px 28px;border-radius:8px;font-size:.93rem;font-weight:700;
+  cursor:pointer;font-family:var(--sans);margin-top:12px;transition:background .2s;
+}
+.bretry:hover{background:var(--ocean);}
+
+/* ============================================================
+   SUMMARY & GLOSSARY
+   ============================================================ */
+.sg{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:13px;margin:14px 0;}
+.sp{
+  background:linear-gradient(135deg,var(--teal-pale),#eaf8fb);
+  border:1px solid var(--border);border-left:4px solid var(--teal-mid);
+  border-radius:var(--rad-sm);padding:13px 16px;font-size:.87rem;
+}
+.sp strong{display:block;color:var(--ocean);margin-bottom:3px;}
+.gg{display:grid;grid-template-columns:repeat(auto-fill,minmax(244px,1fr));gap:13px;margin:14px 0;}
+.gc{border:1.5px solid var(--border);border-radius:10px;overflow:hidden;}
+.gt{background:var(--ink);color:#fff;padding:8px 16px;font-weight:700;font-size:.9rem;}
+.gd{background:#fff;padding:11px 16px;font-size:.86rem;color:var(--ink);}
+
+/* ============================================================
+   EXAM QUESTIONS
+   ============================================================ */
+.eq{border:1.5px solid var(--border);border-radius:10px;margin-bottom:12px;overflow:hidden;}
+.eqt{
+  background:var(--gold-lt);padding:13px 18px;font-weight:600;color:#5c3200;
+  cursor:pointer;display:flex;justify-content:space-between;align-items:center;
+  font-size:.93rem;border:none;width:100%;text-align:left;
+  font-family:var(--sans);transition:background .18s;
+}
+.eqt:hover{background:#fde68a;}
+.eqb{display:none;padding:14px 18px;background:#fffdf7;font-size:.91rem;border-top:1px solid #fcd34d;}
+.eqb.open{display:block;}
+
+/* ============================================================
+   FOOTER
+   ============================================================ */
+footer{
+  background:var(--ink);color:#89c4cc;text-align:center;
+  padding:22px 16px;border-radius:var(--rad) var(--rad) 0 0;margin-top:16px;
+}
+footer .fd{font-size:1.0rem;font-weight:700;color:var(--teal-lt);letter-spacing:.4px;}
+footer .fa{font-size:.82rem;color:#3d6870;margin-top:5px;}
+
+/* ============================================================
+   SCROLL TOP
+   ============================================================ */
+#gtop{
+  position:fixed;bottom:22px;right:20px;
+  background:var(--teal);color:#fff;border:none;
+  width:43px;height:43px;border-radius:50%;font-size:1.25rem;
+  cursor:pointer;display:none;z-index:800;
+  align-items:center;justify-content:center;
+  box-shadow:0 4px 14px rgba(7,111,135,.44);transition:background .2s;
+}
+#gtop:hover{background:var(--ink);}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media(max-width:660px){
+  .card{padding:22px 16px;}
+  #hero{padding:30px 20px 26px;}
+  .farr{display:none;}
+  .flow-row{flex-direction:column;gap:10px;align-items:center;}
+  .fbox{max-width:100%;width:100%;}
+}
+</style>
+</head>
+<body>
+
+<!-- ============================================================
+     NAVIGATION
+     ============================================================ -->
+<nav id="nav">
+  <div id="nav-inner">
+    <button class="nb" onclick="go('hero')">Home</button>
+    <button class="nb" onclick="go('intro')">Intro</button>
+    <button class="nb" onclick="go('principle')">Principle</button>
+    <button class="nb" onclick="go('components')">Components</button>
+    <button class="nb" onclick="go('steps')">Steps</button>
+    <button class="nb" onclick="go('results')">Results</button>
+    <button class="nb" onclick="go('diagrams')">Diagrams</button>
+    <button class="nb" onclick="go('flowsec')">Workflow</button>
+    <button class="nb" onclick="go('advlim')">Adv &amp; Lim</button>
+    <button class="nb" onclick="go('applic')">Applications</button>
+    <button class="nb" onclick="go('compare')">Comparison</button>
+    <button class="nb" onclick="go('interactive')">Interactive</button>
+    <button class="nb" onclick="go('quiz')">Quiz</button>
+    <button class="nb" onclick="go('summary')">Summary</button>
+    <button class="nb" onclick="go('glossary')">Glossary</button>
+    <button class="nb" onclick="go('examqs')">Exam Qs</button>
+  </div>
+</nav>
+
+<main>
+
+<!-- ============================================================
+     HERO
+     ============================================================ -->
+<section id="hero">
+  <div class="hbadge">Molecular Biology · B.Sc. Zoology / Biotechnology</div>
+  <h1 class="ht">DNA Sequencing: The Sanger Method</h1>
+  <p style="color:#8ecfda;font-size:1.0rem;margin-top:4px;">
+    Chain Termination · Dideoxynucleotides · Fragment Separation · Sequence Reading
+  </p>
+  <p class="hsub">
+    Knowing the precise order of nucleotides in a DNA molecule was the dream that unlocked 
+    the entire genome era. Frederick Sanger's elegant chain-termination method — 
+    awarded the Nobel Prize in Chemistry in 1980 — made that dream a reality and 
+    became the gold standard of DNA sequencing for over three decades.
+  </p>
+  <div class="obj-box">
+    <h3>🎯 Learning Objectives</h3>
+    <ul>
+      <li>Define DNA sequencing and explain its importance in biology and medicine.</li>
+      <li>Explain the chain termination principle of the Sanger method.</li>
+      <li>Describe the role of dNTPs and ddNTPs in Sanger sequencing.</li>
+      <li>List all components required and describe each step of the Sanger method.</li>
+      <li>Interpret a sequencing gel and fluorescent chromatogram output.</li>
+      <li>Discuss the advantages, limitations, and applications of Sanger sequencing.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============================================================
+     SECTION 1: INTRODUCTION
+     ============================================================ -->
+<section id="intro" class="card">
+  <div class="chip">Section 1</div>
+  <h2 class="sh">🧬 Introduction to DNA Sequencing</h2>
+
+  <h3>What Is DNA Sequencing?</h3>
+  <p>
+    <span class="kt">DNA sequencing</span> is the process of determining the precise order 
+    of the four nucleotide bases — <strong>Adenine (A), Thymine (T), Guanine (G), 
+    and Cytosine (C)</strong> — along a strand of DNA. The resulting sequence is the 
+    "primary structure" of that DNA molecule.
+  </p>
+
+  <h3>Importance in Molecular Biology, Biotechnology, and Genetic Analysis</h3>
+  <ul>
+    <li><strong>Gene identification:</strong> Reveals the coding sequences, regulatory regions, and boundaries of genes.</li>
+    <li><strong>Mutation detection:</strong> Identifies single nucleotide polymorphisms (SNPs) and disease-causing mutations.</li>
+    <li><strong>Cloning verification:</strong> Confirms that the correct gene was cloned into the vector and no errors were introduced by PCR.</li>
+    <li><strong>Genome projects:</strong> The entire Human Genome Project (3.2 Gb) was sequenced using Sanger sequencing.</li>
+    <li><strong>Evolutionary studies:</strong> Comparing sequences across species reveals phylogenetic relationships.</li>
+    <li><strong>Forensics and diagnostics:</strong> Pathogen identification, cancer mutation profiling.</li>
+  </ul>
+
+  <h3>Introduction to the Sanger Method</h3>
+  <p>
+    The <span class="kt">Sanger method</span> (also called the <strong>chain-termination method 
+    or dideoxy method</strong>) was developed by <strong>Frederick Sanger</strong> and colleagues 
+    at the MRC Laboratory of Molecular Biology, Cambridge, in 1977. It exploits the ability of 
+    DNA polymerase to synthesise a complementary copy of a template strand — but uses 
+    specially modified nucleotides that terminate synthesis at known positions, 
+    producing a series of DNA fragments whose sizes reveal the sequence.
+  </p>
+  <div class="ib">
+    <strong>Nobel Prize:</strong> Frederick Sanger was awarded the Nobel Prize in Chemistry 
+    in <strong>1980</strong> for developing this method — his second Nobel Prize 
+    (he had won his first in 1958 for protein sequencing). Sanger is one of only 
+    four people to have received two Nobel Prizes.
+  </div>
+</section>
+
+<!-- ============================================================
+     SECTION 2: PRINCIPLE
+     ============================================================ -->
+<section id="principle" class="card">
+  <div class="chip">Section 2</div>
+  <h2 class="sh">⚗️ Principle of the Sanger Method</h2>
+
+  <h3>Chain Termination Principle</h3>
+  <p>
+    The Sanger method is based on the <span class="kt">chain termination</span> (or 
+    dideoxy termination) principle: when a <strong>dideoxynucleotide triphosphate 
+    (ddNTP)</strong> is incorporated into a growing DNA chain by DNA polymerase, 
+    synthesis <strong>stops immediately</strong> — the chain is "terminated." 
+    This produces a population of DNA fragments of all possible lengths, 
+    each ending at a specific nucleotide type.
+  </p>
+
+  <h3>Role of DNA Polymerase</h3>
+  <p>
+    <strong>DNA polymerase</strong> (modified DNA Pol I — Klenow fragment, or 
+    thermostable Taq/T7 polymerase) reads the template strand in the 
+    <strong>3'→5' direction</strong> and synthesises a new complementary strand 
+    in the <strong>5'→3' direction</strong> by adding dNTPs to the 3'-OH of the 
+    growing chain. It requires a primer to initiate synthesis.
+  </p>
+
+  <h3>Role of Normal Deoxynucleotides (dNTPs)</h3>
+  <p>
+    The four standard deoxynucleotide triphosphates — <strong>dATP, dTTP, dGTP, dCTP</strong> — 
+    are incorporated normally into the growing chain. Each dNTP provides:
+  </p>
+  <ul>
+    <li>The <strong>nucleobase</strong> for specific base pairing with the template.</li>
+    <li>The <strong>deoxyribose sugar</strong> with a free <strong>3'-OH group</strong> that allows the next nucleotide to be added.</li>
+    <li><strong>Three phosphate groups</strong> — the outer two are cleaved to release energy for bond formation.</li>
+  </ul>
+
+  <h3>Role of Dideoxynucleotides (ddNTPs)</h3>
+  <p>
+    The four <strong>dideoxynucleotide triphosphates</strong> — <strong>ddATP, ddTTP, 
+    ddGTP, ddCTP</strong> — are chemically modified analogues of normal dNTPs. They are 
+    identical to dNTPs <em>except</em> that the <strong>3'-OH group on the deoxyribose 
+    sugar is replaced by a hydrogen atom (3'-H)</strong>.
+  </p>
+
+  <h3>Why Chain Elongation Stops When ddNTP Is Added</h3>
+  <p>
+    DNA synthesis requires a free <strong>3'-OH group</strong> on the last nucleotide 
+    to form a new <strong>3'–5' phosphodiester bond</strong> with the incoming nucleotide. 
+    When a ddNTP is incorporated:
+  </p>
+  <ul>
+    <li>It is paired with the complementary template base (e.g., ddATP pairs with T on template).</li>
+    <li>The ddNTP is added to the 3' end of the growing chain via its 5'-phosphate.</li>
+    <li>However, the ddNTP has <strong>no 3'-OH group</strong> (only a 3'-H).</li>
+    <li>Without a 3'-OH, DNA polymerase <strong>cannot form the next phosphodiester bond</strong>.</li>
+    <li>Result: DNA synthesis <strong>terminates permanently</strong> at that position.</li>
+  </ul>
+  <div class="ib rose">
+    <strong>Key Equation:</strong> dNTP (3'-OH) → chain continues &nbsp;|&nbsp;
+    ddNTP (3'-H, no OH) → chain TERMINATES immediately.
+  </div>
+</section>
+
+<!-- ============================================================
+     SECTION 3: COMPONENTS
+     ============================================================ -->
+<section id="components" class="card">
+  <div class="chip">Section 3</div>
+  <h2 class="sh">🧪 Components Required for Sanger Sequencing</h2>
+
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(195px,1fr));gap:13px;margin:14px 0;">
+    <div class="ib" style="margin:0;border-radius:9px;border-left-width:4px;">
+      <strong>1. Template DNA</strong><br>
+      The single-stranded or denatured double-stranded DNA whose sequence is to be determined. Must be pure and in sufficient quantity. Can be a plasmid, PCR product, or genomic fragment.
+    </div>
+    <div class="ib sky" style="margin:0;border-radius:9px;border-left-width:4px;">
+      <strong>2. Primer</strong><br>
+      A short synthetic oligonucleotide (18–25 nt) complementary to the template. Provides the free 3'-OH needed for DNA polymerase to start synthesis. Defines the starting point and orientation of sequencing.
+    </div>
+    <div class="ib green" style="margin:0;border-radius:9px;border-left-width:4px;">
+      <strong>3. DNA Polymerase</strong><br>
+      Synthesises the new complementary strand. Requires high fidelity and processivity. Klenow fragment (original), T7 DNA polymerase, or Taq polymerase (cycle sequencing). Lacks 5'→3' exonuclease activity (Klenow/T7).
+    </div>
+    <div class="ib gold" style="margin:0;border-radius:9px;border-left-width:4px;">
+      <strong>4. dNTPs (all four)</strong><br>
+      dATP, dTTP, dGTP, dCTP — the normal building blocks for DNA synthesis. Incorporated throughout the growing chain, providing 3'-OH for chain elongation.
+    </div>
+    <div class="ib rose" style="margin:0;border-radius:9px;border-left-width:4px;">
+      <strong>5. ddNTPs (chain terminators)</strong><br>
+      ddATP, ddTTP, ddGTP, ddCTP — added at low concentration relative to dNTPs. Each terminates the chain when incorporated. In modern fluorescent Sanger, each ddNTP carries a different fluorescent dye.
+    </div>
+    <div class="ib violet" style="margin:0;border-radius:9px;border-left-width:4px;">
+      <strong>6. Buffer &amp; Conditions</strong><br>
+      Appropriate buffer (Tris-HCl, pH 7.5–8.0), MgCl₂ (cofactor for polymerase), denaturing agent (formamide for gel), reaction temperature (37°C for Klenow; 96°C denaturation for cycle sequencing).
+    </div>
+  </div>
+
+  <div class="ib gold">
+    <strong>Key Ratio:</strong> ddNTPs are added at a concentration approximately 
+    <strong>100× lower</strong> than dNTPs. This ensures that ddNTPs are incorporated 
+    randomly and infrequently — producing fragments of all possible lengths, not just 
+    very short ones.
+  </div>
+</section>
+
+<!-- ============================================================
+     SECTION 4: STEPS
+     ============================================================ -->
+<section id="steps" class="card">
+  <div class="chip">Section 4</div>
+  <h2 class="sh">🪜 Steps in Sanger Sequencing</h2>
+
+  <div class="steps-wrap">
+    <div class="step-item">
+      <div class="step-num">1</div>
+      <div class="step-body">
+        <div class="step-title">Denaturation of Template DNA</div>
+        <p>
+          The double-stranded template DNA is denatured into single strands by heating 
+          (95–96°C) or by treatment with alkali (NaOH). Single-stranded template is 
+          essential because DNA polymerase can only copy a single-stranded template.
+        </p>
+      </div>
+    </div>
+
+    <div class="step-item">
+      <div class="step-num">2</div>
+      <div class="step-body">
+        <div class="step-title">Primer Annealing</div>
+        <p>
+          A specific oligonucleotide primer (18–25 nt) is annealed to the template at a 
+          complementary sequence upstream of the region to be sequenced. The temperature 
+          is lowered (50–60°C) to allow hydrogen bonding between the primer and template.
+        </p>
+      </div>
+    </div>
+
+    <div class="step-item">
+      <div class="step-num">3</div>
+      <div class="step-body">
+        <div class="step-title">DNA Synthesis by DNA Polymerase</div>
+        <p>
+          DNA polymerase extends the primer by adding nucleotides complementary to the 
+          template in the 5'→3' direction. All four dNTPs and a small amount of all four 
+          ddNTPs are present simultaneously in a single reaction tube 
+          (modern fluorescent Sanger method). In the original radioactive method, 
+          four separate reactions were used, each containing one type of ddNTP.
+        </p>
+      </div>
+    </div>
+
+    <div class="step-item">
+      <div class="step-num">4</div>
+      <div class="step-body">
+        <div class="step-title">Random Incorporation of ddNTPs (Chain Termination)</div>
+        <p>
+          At each position in the growing chain, the polymerase may incorporate either 
+          the normal dNTP (chain continues) or the ddNTP analogue (chain terminates). 
+          Because ddNTPs lack a 3'-OH group, synthesis stops permanently at that 
+          nucleotide. The random but statistical nature of incorporation means that 
+          termination occurs at every possible position in the sequence.
+        </p>
+      </div>
+    </div>
+
+    <div class="step-item">
+      <div class="step-num">5</div>
+      <div class="step-body">
+        <div class="step-title">Formation of DNA Fragments of Different Lengths</div>
+        <p>
+          The sequencing reaction generates a <strong>ladder of DNA fragments</strong> 
+          — a population of molecules that all start at the primer and end at every 
+          possible position in the template (wherever a ddNTP was incorporated). 
+          Each fragment has a defined length and ends with a specific ddNTP:
+        </p>
+        <ul>
+          <li><span class="ddA"></span>Fragments ending in ddATP → terminated at every A position in the new strand.</li>
+          <li><span class="ddT"></span>Fragments ending in ddTTP → terminated at every T position.</li>
+          <li><span class="ddG"></span>Fragments ending in ddGTP → terminated at every G position.</li>
+          <li><span class="ddC"></span>Fragments ending in ddCTP → terminated at every C position.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="step-item">
+      <div class="step-num">6</div>
+      <div class="step-body">
+        <div class="step-title">Separation by Gel or Capillary Electrophoresis</div>
+        <p>
+          The mixture of fragments is separated by size using:
+        </p>
+        <ul>
+          <li><strong>Denaturing polyacrylamide gel electrophoresis (PAGE):</strong> Original method. Formamide denatures secondary structures. Fragments migrate through the gel matrix — smaller fragments move faster and migrate farther from the wells. Typically resolves fragments from ~10 to ~1000 nt with single-nucleotide resolution.</li>
+          <li><strong>Capillary electrophoresis (CE):</strong> Modern automated method. DNA fragments migrate through a thin capillary tube filled with polymer. Fragments pass a laser detector — each ddNTP carries a different fluorescent dye and emits a different colour when excited.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="step-item">
+      <div class="step-num">7</div>
+      <div class="step-body">
+        <div class="step-title">Reading of DNA Sequence</div>
+        <p>
+          <strong>Gel method:</strong> The pattern of bands on the gel is read from bottom 
+          (smallest = shortest = closest to the primer end) to top (largest = furthest from 
+          primer). The lane containing each band reveals the terminal base at that position.
+        </p>
+        <p>
+          <strong>Fluorescent capillary method (modern):</strong> The laser detector records 
+          fluorescence colour in real time as fragments pass. The output is a 
+          <strong>chromatogram (electropherogram)</strong> — coloured peaks, each 
+          colour corresponding to one base. The sequence is read from left (small fragments, 
+          earliest detected) to right (larger fragments, later detected).
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SECTION 5: INTERPRETATION OF RESULTS
+     ============================================================ -->
+<section id="results" class="card">
+  <div class="chip">Section 5</div>
+  <h2 class="sh">📊 Interpretation of Results</h2>
+
+  <h3>Reading Fragment Sizes from a Gel</h3>
+  <p>
+    In the original radioactive Sanger method, four reactions (A, T, G, C) are run in 
+    parallel lanes on a denaturing gel. Radioactively labelled fragments appear as dark 
+    bands. The sequence is read from the <strong>bottom of the gel upwards</strong> — 
+    the lowest band (smallest fragment, i.e., the one nearest the primer) is read first.
+  </p>
+  <p>
+    At each band position, you record the lane (A, T, G, or C) in which the band appears. 
+    Reading upward from position 1 to the top gives the sequence of the new 
+    (complementary) strand in the 5'→3' direction.
+  </p>
+
+  <h3>Modern Fluorescent Chromatogram (Electropherogram)</h3>
+  <p>
+    In automated fluorescent Sanger sequencing (Applied Biosystems ABI 3730xl system):
+  </p>
+  <ul>
+    <li>A single reaction contains all four ddNTPs, each labelled with a <strong>different fluorescent dye</strong>: typically ddA = <span style="color:var(--ddA)">green</span>, ddT = <span style="color:var(--ddT)">red</span>, ddG = <span style="color:var(--ddG)">blue</span>, ddC = <span style="color:var(--ddC)">purple/black</span>.</li>
+    <li>Fragments separated by capillary electrophoresis pass a laser — each emits its specific colour.</li>
+    <li>The detector records a <strong>chromatogram: coloured peaks on a time axis</strong>.</li>
+    <li>Each peak represents one nucleotide position in the sequence.</li>
+    <li>The sequence is read from left (smallest fragments = earliest positions) to right.</li>
+    <li>Base-calling software (e.g., Phred) automatically reads the sequence and assigns quality scores.</li>
+  </ul>
+
+  <div class="ib green">
+    <strong>Read length:</strong> A single Sanger run typically provides 
+    <strong>600–1000 reliable base calls</strong> per reaction, with accuracy 
+    greater than 99.99% for high-quality regions.
+  </div>
+
+  <h3>Sequence Determination from the Template</h3>
+  <p>
+    The sequence obtained is that of the <strong>newly synthesised strand</strong> 
+    (complementary to the template), read in the 5'→3' direction. 
+    To obtain the template strand sequence, take the reverse complement.
+  </p>
+</section>
+
+<!-- ============================================================
+     SECTION 6: ALL DIAGRAMS
+     ============================================================ -->
+<section id="diagrams" class="card">
+  <div class="chip">Section 6 — Diagrams</div>
+  <h2 class="sh">🖼️ Labeled Diagrams</h2>
+
+  <!-- ============================================================
+       DIAGRAM 1: dNTP vs ddNTP STRUCTURE COMPARISON
+       ============================================================ -->
+  <div class="dtitle">Fig. 1 — dNTP vs ddNTP: Why ddNTP Causes Chain Termination</div>
+  <div class="dbox">
+    <svg viewBox="0 0 580 360" xmlns="http://www.w3.org/2000/svg" aria-label="dNTP vs ddNTP comparison showing 3-OH vs 3-H">
+      <defs>
+        <marker id="ca" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L0,8 L8,4 z" fill="#047857"/></marker>
+        <marker id="cb" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L0,8 L8,4 z" fill="#be123c"/></marker>
+      </defs>
+
+      <!-- TITLE LABELS -->
+      <text x="145" y="20" text-anchor="middle" font-family="Palatino,serif" font-size="14" font-weight="700" fill="#0b6f85">dNTP</text>
+      <text x="145" y="34" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="10.5" fill="#0b6f85">(Normal deoxynucleotide)</text>
+      <text x="435" y="20" text-anchor="middle" font-family="Palatino,serif" font-size="14" font-weight="700" fill="#be123c">ddNTP</text>
+      <text x="435" y="34" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="10.5" fill="#be123c">(Dideoxynucleotide)</text>
+
+      <!-- ===== LEFT: dNTP ===== -->
+      <!-- Phosphate groups (three circles) -->
+      <circle cx="28" cy="110" r="14" fill="#fde68a" stroke="#d97706" stroke-width="2"/>
+      <text x="28" y="114" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#5c3200">γ-P</text>
+      <circle cx="57" cy="110" r="14" fill="#fde68a" stroke="#d97706" stroke-width="2"/>
+      <text x="57" y="114" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#5c3200">β-P</text>
+      <circle cx="86" cy="110" r="14" fill="#fde68a" stroke="#d97706" stroke-width="2"/>
+      <text x="86" y="114" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#5c3200">α-P</text>
+      <!-- Phosphate bond lines -->
+      <line x1="42" y1="110" x2="43" y2="110" stroke="#d97706" stroke-width="2"/>
+      <line x1="71" y1="110" x2="72" y2="110" stroke="#d97706" stroke-width="2"/>
+      <!-- Deoxyribose sugar (pentagon) -->
+      <polygon points="110,85 145,85 155,115 128,133 100,115" fill="#b2eef6" stroke="#0b9eb8" stroke-width="2.5"/>
+      <!-- C1' C2' C3' C4' C5' labels inside pentagon -->
+      <text x="128" y="105" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#0b6f85">Sugar</text>
+      <text x="128" y="118" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="8.5" fill="#0b6f85">(deoxyribose)</text>
+      <!-- C5' to phosphate connection -->
+      <line x1="100" y1="110" x2="86" y2="110" stroke="#444" stroke-width="2"/>
+      <!-- Base on top of C1' -->
+      <rect x="124" y="50" width="40" height="30" rx="6" fill="#d1fae5" stroke="#047857" stroke-width="2"/>
+      <text x="144" y="66" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#065f46">Base</text>
+      <text x="144" y="78" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="8.5" fill="#065f46">(A/T/G/C)</text>
+      <line x1="144" y1="85" x2="144" y2="80" stroke="#047857" stroke-width="2"/>
+      <!-- C2' H label (no OH, deoxy) -->
+      <text x="160" y="108" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#666">2'-H</text>
+      <line x1="153" y1="103" x2="155" y2="103" stroke="#666" stroke-width="1.5"/>
+      <!-- 3'-OH (KEY — highlighted in green) -->
+      <circle cx="130" cy="155" r="14" fill="#d1fae5" stroke="#047857" stroke-width="2.5"/>
+      <text x="130" y="152" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" font-weight="700" fill="#065f46">3'-OH</text>
+      <text x="130" y="163" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="8" fill="#065f46">free!</text>
+      <line x1="130" y1="133" x2="130" y2="141" stroke="#047857" stroke-width="2"/>
+      <!-- Arrow + label -->
+      <line x1="145" y1="180" x2="145" y2="210" stroke="#047857" stroke-width="2" marker-end="url(#ca)"/>
+      <rect x="80" y="218" width="130" height="36" rx="7" fill="#d1fae5" stroke="#047857" stroke-width="2"/>
+      <text x="145" y="232" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="10.5" font-weight="700" fill="#065f46">✓ Chain CONTINUES</text>
+      <text x="145" y="247" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#065f46">3'-OH available for next</text>
+      <text x="145" y="259" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#065f46">nucleotide addition</text>
+
+      <!-- Mechanism label below -->
+      <text x="145" y="305" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="10.5" fill="#0b6f85" font-weight="700">3'-OH attacks α-phosphate</text>
+      <text x="145" y="320" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#496570">of next incoming dNTP →</text>
+      <text x="145" y="334" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#496570">phosphodiester bond formed</text>
+
+      <!-- DIVIDER -->
+      <line x1="294" y1="10" x2="294" y2="355" stroke="#e5e7eb" stroke-width="2" stroke-dasharray="6,4"/>
+      <text x="294" y="8" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="10" fill="#9ca3af">vs</text>
+
+      <!-- ===== RIGHT: ddNTP ===== -->
+      <!-- Phosphate groups (three circles) -->
+      <circle cx="318" cy="110" r="14" fill="#fde68a" stroke="#d97706" stroke-width="2"/>
+      <text x="318" y="114" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#5c3200">γ-P</text>
+      <circle cx="347" cy="110" r="14" fill="#fde68a" stroke="#d97706" stroke-width="2"/>
+      <text x="347" y="114" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#5c3200">β-P</text>
+      <circle cx="376" cy="110" r="14" fill="#fde68a" stroke="#d97706" stroke-width="2"/>
+      <text x="376" y="114" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#5c3200">α-P</text>
+      <line x1="332" y1="110" x2="333" y2="110" stroke="#d97706" stroke-width="2"/>
+      <line x1="361" y1="110" x2="362" y2="110" stroke="#d97706" stroke-width="2"/>
+      <!-- Sugar (same shape) -->
+      <polygon points="400,85 435,85 445,115 418,133 390,115" fill="#ffd6d6" stroke="#be123c" stroke-width="2.5"/>
+      <text x="418" y="105" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#7a1030">Sugar</text>
+      <text x="418" y="118" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="8.5" fill="#7a1030">(dideoxyribose)</text>
+      <line x1="390" y1="110" x2="376" y2="110" stroke="#444" stroke-width="2"/>
+      <!-- Base -->
+      <rect x="414" y="50" width="40" height="30" rx="6" fill="#d1fae5" stroke="#047857" stroke-width="2"/>
+      <text x="434" y="66" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#065f46">Base</text>
+      <text x="434" y="78" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="8.5" fill="#065f46">(A/T/G/C)</text>
+      <line x1="434" y1="85" x2="434" y2="80" stroke="#047857" stroke-width="2"/>
+      <!-- C2' H label -->
+      <text x="450" y="108" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#666">2'-H</text>
+      <!-- 3'-H (KEY — missing OH, highlighted red) -->
+      <circle cx="420" cy="155" r="14" fill="#ffe4e6" stroke="#be123c" stroke-width="2.5"/>
+      <text x="420" y="153" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" font-weight="700" fill="#881337">3'-H</text>
+      <text x="420" y="164" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="8" fill="#881337">NO –OH!</text>
+      <line x1="420" y1="133" x2="420" y2="141" stroke="#be123c" stroke-width="2"/>
+      <!-- X mark for blocked -->
+      <text x="460" y="155" font-family="'Trebuchet MS',sans-serif" font-size="24" fill="#be123c" font-weight="900">✗</text>
+      <!-- Arrow + STOP label -->
+      <line x1="435" y1="180" x2="435" y2="210" stroke="#be123c" stroke-width="2" marker-end="url(#cb)"/>
+      <rect x="370" y="218" width="130" height="36" rx="7" fill="#ffe4e6" stroke="#be123c" stroke-width="2"/>
+      <text x="435" y="232" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="10.5" font-weight="700" fill="#881337">✗ Chain TERMINATES</text>
+      <text x="435" y="247" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#881337">No 3'-OH → cannot</text>
+      <text x="435" y="259" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#881337">form next bond</text>
+
+      <!-- Mechanism label -->
+      <text x="435" y="305" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="10.5" fill="#be123c" font-weight="700">3' position has only H</text>
+      <text x="435" y="320" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#496570">→ cannot attack next dNTP</text>
+      <text x="435" y="334" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#496570">→ permanent chain stop</text>
+
+      <!-- Critical difference callout box -->
+      <rect x="160" y="265" width="250" height="40" rx="8" fill="#fff3bf" stroke="#d97706" stroke-width="2"/>
+      <text x="285" y="280" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" font-weight="700" fill="#5c3200">Critical Difference:</text>
+      <text x="285" y="297" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#5c3200">dNTP has 3'-OH | ddNTP has 3'-H (no OH)</text>
+    </svg>
+  </div>
+
+  <!-- ============================================================
+       DIAGRAM 2: SANGER SEQUENCING REACTION — FRAGMENT LADDER
+       ============================================================ -->
+  <div class="dtitle">Fig. 2 — Sanger Reaction: Chain Termination Producing a Fragment Ladder</div>
+  <div class="dbox">
+    <svg viewBox="0 0 600 310" xmlns="http://www.w3.org/2000/svg" aria-label="Sanger reaction fragment ladder">
+      <!-- Template strand -->
+      <text x="12" y="22" font-family="Palatino,serif" font-size="12" font-weight="700" fill="#061e30">Template: 3'</text>
+      <text x="88" y="22" font-family="'Trebuchet MS',sans-serif" font-size="13" fill="#061e30" font-family="Courier New,monospace">— T — A — C — G — T — A — G — C — A — T —</text>
+      <text x="575" y="22" font-family="'Trebuchet MS',sans-serif" font-size="12" fill="#061e30">5'</text>
+
+      <!-- Primer region -->
+      <text x="12" y="48" font-family="Palatino,serif" font-size="12" font-weight="700" fill="#061e30">Primer:   5'</text>
+      <rect x="88" y="35" width="58" height="18" rx="4" fill="#b2eef6" stroke="#0b9eb8" stroke-width="1.5"/>
+      <text x="117" y="48" text-anchor="middle" font-family="Courier New,monospace" font-size="12" fill="#0b6f85">— A —</text>
+
+      <!-- Growing fragments (coloured by terminal ddNTP) -->
+      <!-- frag 1: ends at T (ddTTP, red) -->
+      <text x="12" y="78" font-family="'Trebuchet MS',sans-serif" font-size="10" fill="#496570">Fragment 1:</text>
+      <rect x="88" y="65" width="58" height="18" rx="4" fill="#b2eef6" stroke="#0b9eb8" stroke-width="1.5"/>
+      <text x="117" y="78" text-anchor="middle" font-family="Courier New,monospace" font-size="12" fill="#0b6f85">A</text>
+      <rect x="148" y="65" width="28" height="18" rx="4" fill="#ffcdd2" stroke="#c62828" stroke-width="2"/>
+      <text x="162" y="78" text-anchor="middle" font-family="Courier New,monospace" font-size="12" font-weight="700" fill="#c62828">T*</text>
+      <text x="185" y="78" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#c62828">← ddTTP terminates here (pos 1)</text>
+
+      <!-- frag 2: ends at G (ddGTP, blue) -->
+      <text x="12" y="108" font-family="'Trebuchet MS',sans-serif" font-size="10" fill="#496570">Fragment 2:</text>
+      <rect x="88" y="95" width="58" height="18" rx="4" fill="#b2eef6" stroke="#0b9eb8" stroke-width="1.5"/>
+      <text x="117" y="108" text-anchor="middle" font-family="Courier New,monospace" font-size="12" fill="#0b6f85">A</text>
+      <text x="148" y="108" font-family="Courier New,monospace" font-size="12" fill="#061e30">— T</text>
+      <rect x="174" y="95" width="28" height="18" rx="4" fill="#bbdefb" stroke="#1565c0" stroke-width="2"/>
+      <text x="188" y="108" text-anchor="middle" font-family="Courier New,monospace" font-size="12" font-weight="700" fill="#1565c0">G*</text>
+      <text x="210" y="108" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#1565c0">← ddGTP terminates (pos 2)</text>
+
+      <!-- frag 3: ends at C (ddCTP, purple) -->
+      <text x="12" y="138" font-family="'Trebuchet MS',sans-serif" font-size="10" fill="#496570">Fragment 3:</text>
+      <rect x="88" y="125" width="58" height="18" rx="4" fill="#b2eef6" stroke="#0b9eb8" stroke-width="1.5"/>
+      <text x="117" y="138" text-anchor="middle" font-family="Courier New,monospace" font-size="12" fill="#0b6f85">A</text>
+      <text x="148" y="138" font-family="Courier New,monospace" font-size="12" fill="#061e30">— T — G</text>
+      <rect x="204" y="125" width="28" height="18" rx="4" fill="#e1bee7" stroke="#6a1b9a" stroke-width="2"/>
+      <text x="218" y="138" text-anchor="middle" font-family="Courier New,monospace" font-size="12" font-weight="700" fill="#6a1b9a">C*</text>
+      <text x="240" y="138" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#6a1b9a">← ddCTP terminates (pos 3)</text>
+
+      <!-- frag 4: ends at A (ddATP, green) -->
+      <text x="12" y="168" font-family="'Trebuchet MS',sans-serif" font-size="10" fill="#496570">Fragment 4:</text>
+      <rect x="88" y="155" width="58" height="18" rx="4" fill="#b2eef6" stroke="#0b9eb8" stroke-width="1.5"/>
+      <text x="117" y="168" text-anchor="middle" font-family="Courier New,monospace" font-size="12" fill="#0b6f85">A</text>
+      <text x="148" y="168" font-family="Courier New,monospace" font-size="12" fill="#061e30">— T — G — C</text>
+      <rect x="230" y="155" width="28" height="18" rx="4" fill="#c8e6c9" stroke="#2e7d32" stroke-width="2"/>
+      <text x="244" y="168" text-anchor="middle" font-family="Courier New,monospace" font-size="12" font-weight="700" fill="#2e7d32">A*</text>
+      <text x="266" y="168" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#2e7d32">← ddATP terminates (pos 4)</text>
+
+      <!-- frag 5 -->
+      <text x="12" y="198" font-family="'Trebuchet MS',sans-serif" font-size="10" fill="#496570">Fragment 5:</text>
+      <rect x="88" y="185" width="58" height="18" rx="4" fill="#b2eef6" stroke="#0b9eb8" stroke-width="1.5"/>
+      <text x="117" y="198" text-anchor="middle" font-family="Courier New,monospace" font-size="12" fill="#0b6f85">A</text>
+      <text x="148" y="198" font-family="Courier New,monospace" font-size="12" fill="#061e30">— T — G — C — A</text>
+      <rect x="256" y="185" width="28" height="18" rx="4" fill="#ffcdd2" stroke="#c62828" stroke-width="2"/>
+      <text x="270" y="198" text-anchor="middle" font-family="Courier New,monospace" font-size="12" font-weight="700" fill="#c62828">T*</text>
+      <text x="292" y="198" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#c62828">← ddTTP terminates (pos 5)</text>
+
+      <!-- Dots for more -->
+      <text x="148" y="228" font-family="'Trebuchet MS',sans-serif" font-size="14" fill="#0b6f85">· · ·</text>
+      <text x="200" y="228" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#496570">(fragments continue for every position)</text>
+
+      <!-- Legend -->
+      <rect x="10" y="248" width="570" height="56" rx="8" fill="#f3feff" stroke="#b2eef6" stroke-width="1.5"/>
+      <text x="20" y="262" font-family="'Trebuchet MS',sans-serif" font-size="10" font-weight="700" fill="#061e30">Legend: * = ddNTP chain terminator (each labelled with a different fluorescent dye in modern sequencing)</text>
+      <rect x="20" y="270" width="14" height="14" rx="3" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1.5"/>
+      <text x="38" y="281" font-family="'Trebuchet MS',sans-serif" font-size="10" fill="#333">ddA* = Green</text>
+      <rect x="125" y="270" width="14" height="14" rx="3" fill="#ffcdd2" stroke="#c62828" stroke-width="1.5"/>
+      <text x="143" y="281" font-family="'Trebuchet MS',sans-serif" font-size="10" fill="#333">ddT* = Red</text>
+      <rect x="220" y="270" width="14" height="14" rx="3" fill="#bbdefb" stroke="#1565c0" stroke-width="1.5"/>
+      <text x="238" y="281" font-family="'Trebuchet MS',sans-serif" font-size="10" fill="#333">ddG* = Blue</text>
+      <rect x="315" y="270" width="14" height="14" rx="3" fill="#e1bee7" stroke="#6a1b9a" stroke-width="1.5"/>
+      <text x="333" y="281" font-family="'Trebuchet MS',sans-serif" font-size="10" fill="#333">ddC* = Purple</text>
+      <text x="20" y="296" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#496570">Sequence read 5'→3': A T G C A T ... (read bottom to top on gel; left to right on chromatogram)</text>
+    </svg>
+  </div>
+
+  <!-- ============================================================
+       DIAGRAM 3: SEQUENCING GEL + CHROMATOGRAM
+       ============================================================ -->
+  <div class="dtitle">Fig. 3 — Sequencing Gel (left) and Modern Fluorescent Chromatogram (right)</div>
+  <div class="dbox">
+    <svg viewBox="0 0 580 340" xmlns="http://www.w3.org/2000/svg" aria-label="Sequencing gel and chromatogram">
+      <!-- ===== LEFT: GEL ===== -->
+      <text x="110" y="18" text-anchor="middle" font-family="Palatino,serif" font-size="12" font-weight="700" fill="#061e30">Denaturing Polyacrylamide Gel</text>
+      <text x="110" y="30" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#496570">(Original radioactive method — 4 lanes)</text>
+
+      <!-- Gel rectangle -->
+      <rect x="20" y="40" width="182" height="260" rx="4" fill="#1a1a1a" stroke="#444" stroke-width="2"/>
+      <!-- Lane headers -->
+      <text x="53" y="58" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="11" font-weight="700" fill="#2e7d32">ddA</text>
+      <text x="88" y="58" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="11" font-weight="700" fill="#c62828">ddT</text>
+      <text x="124" y="58" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="11" font-weight="700" fill="#1565c0">ddG</text>
+      <text x="160" y="58" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="11" font-weight="700" fill="#9c27b0">ddC</text>
+      <!-- Bands — pattern: A T G C A T C G A sequence from bottom to top -->
+      <!-- band positions (y): 280,255,232,208,185,162,140,118,96 = pos 1..9, bottom to top -->
+      <!-- pos 1: A -->
+      <rect x="36" y="276" width="34" height="6" rx="2" fill="#a5d6a7"/>
+      <text x="210" y="282" font-family="Courier New,monospace" font-size="11" fill="#a5d6a7">A</text>
+      <!-- pos 2: T -->
+      <rect x="72" y="252" width="34" height="6" rx="2" fill="#ef9a9a"/>
+      <text x="210" y="258" font-family="Courier New,monospace" font-size="11" fill="#ef9a9a">T</text>
+      <!-- pos 3: G -->
+      <rect x="108" y="228" width="34" height="6" rx="2" fill="#90caf9"/>
+      <text x="210" y="234" font-family="Courier New,monospace" font-size="11" fill="#90caf9">G</text>
+      <!-- pos 4: C -->
+      <rect x="144" y="204" width="34" height="6" rx="2" fill="#ce93d8"/>
+      <text x="210" y="210" font-family="Courier New,monospace" font-size="11" fill="#ce93d8">C</text>
+      <!-- pos 5: A -->
+      <rect x="36" y="180" width="34" height="6" rx="2" fill="#a5d6a7"/>
+      <text x="210" y="186" font-family="Courier New,monospace" font-size="11" fill="#a5d6a7">A</text>
+      <!-- pos 6: T -->
+      <rect x="72" y="156" width="34" height="6" rx="2" fill="#ef9a9a"/>
+      <text x="210" y="162" font-family="Courier New,monospace" font-size="11" fill="#ef9a9a">T</text>
+      <!-- pos 7: C -->
+      <rect x="144" y="132" width="34" height="6" rx="2" fill="#ce93d8"/>
+      <text x="210" y="138" font-family="Courier New,monospace" font-size="11" fill="#ce93d8">C</text>
+      <!-- pos 8: G -->
+      <rect x="108" y="108" width="34" height="6" rx="2" fill="#90caf9"/>
+      <text x="210" y="114" font-family="Courier New,monospace" font-size="11" fill="#90caf9">G</text>
+      <!-- pos 9: A -->
+      <rect x="36" y="84" width="34" height="6" rx="2" fill="#a5d6a7"/>
+      <text x="210" y="90" font-family="Courier New,monospace" font-size="11" fill="#a5d6a7">A</text>
+
+      <!-- Read direction arrow (bottom to top) -->
+      <line x1="14" y1="290" x2="14" y2="65" stroke="#b2eef6" stroke-width="2"/>
+      <polygon points="9,65 14,52 19,65" fill="#b2eef6"/>
+      <text x="5" y="185" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#b2eef6" transform="rotate(-90 5 185)">Read direction (small → large)</text>
+
+      <!-- Sequence read label -->
+      <text x="190" y="310" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#b2eef6">5'→3' sequence:</text>
+      <text x="190" y="325" font-family="Courier New,monospace" font-size="11" fill="#fff">A T G C A T C G A</text>
+
+      <!-- ===== RIGHT: CHROMATOGRAM ===== -->
+      <text x="410" y="18" text-anchor="middle" font-family="Palatino,serif" font-size="12" font-weight="700" fill="#061e30">Fluorescent Chromatogram</text>
+      <text x="410" y="30" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#496570">(Modern capillary electrophoresis output)</text>
+
+      <!-- Chromatogram background -->
+      <rect x="255" y="40" width="310" height="220" rx="6" fill="#fafafa" stroke="#ccc" stroke-width="1.5"/>
+      <!-- X axis (time / fragment size) -->
+      <line x1="268" y1="235" x2="555" y2="235" stroke="#666" stroke-width="1.5"/>
+      <text x="410" y="250" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9" fill="#666">Time / Fragment size →</text>
+
+      <!-- Coloured peaks — each = one base -->
+      <!-- A peak (green) at x≈290 -->
+      <path d="M 278 235 Q 288 100 298 235" fill="#c8e6c9" stroke="#2e7d32" stroke-width="2.5"/>
+      <text x="288" y="265" text-anchor="middle" font-family="Courier New,monospace" font-size="11" font-weight="700" fill="#2e7d32">A</text>
+      <!-- T peak (red) at x≈320 -->
+      <path d="M 308 235 Q 320 115 332 235" fill="#ffcdd2" stroke="#c62828" stroke-width="2.5"/>
+      <text x="320" y="265" text-anchor="middle" font-family="Courier New,monospace" font-size="11" font-weight="700" fill="#c62828">T</text>
+      <!-- G peak (blue) at x≈352 -->
+      <path d="M 340 235 Q 352 105 364 235" fill="#bbdefb" stroke="#1565c0" stroke-width="2.5"/>
+      <text x="352" y="265" text-anchor="middle" font-family="Courier New,monospace" font-size="11" font-weight="700" fill="#1565c0">G</text>
+      <!-- C peak (purple) at x≈384 -->
+      <path d="M 372 235 Q 384 118 396 235" fill="#e1bee7" stroke="#6a1b9a" stroke-width="2.5"/>
+      <text x="384" y="265" text-anchor="middle" font-family="Courier New,monospace" font-size="11" font-weight="700" fill="#6a1b9a">C</text>
+      <!-- A peak (green) at x≈416 -->
+      <path d="M 404 235 Q 416 108 428 235" fill="#c8e6c9" stroke="#2e7d32" stroke-width="2.5"/>
+      <text x="416" y="265" text-anchor="middle" font-family="Courier New,monospace" font-size="11" font-weight="700" fill="#2e7d32">A</text>
+      <!-- T peak (red) -->
+      <path d="M 436 235 Q 448 120 460 235" fill="#ffcdd2" stroke="#c62828" stroke-width="2.5"/>
+      <text x="448" y="265" text-anchor="middle" font-family="Courier New,monospace" font-size="11" font-weight="700" fill="#c62828">T</text>
+      <!-- C peak (purple) -->
+      <path d="M 468 235 Q 480 112 492 235" fill="#e1bee7" stroke="#6a1b9a" stroke-width="2.5"/>
+      <text x="480" y="265" text-anchor="middle" font-family="Courier New,monospace" font-size="11" font-weight="700" fill="#6a1b9a">C</text>
+      <!-- G peak (blue) -->
+      <path d="M 500 235 Q 512 102 524 235" fill="#bbdefb" stroke="#1565c0" stroke-width="2.5"/>
+      <text x="512" y="265" text-anchor="middle" font-family="Courier New,monospace" font-size="11" font-weight="700" fill="#1565c0">G</text>
+      <!-- A peak (green) -->
+      <path d="M 532 235 Q 544 108 556 235" fill="#c8e6c9" stroke="#2e7d32" stroke-width="2.5"/>
+      <text x="544" y="265" text-anchor="middle" font-family="Courier New,monospace" font-size="11" font-weight="700" fill="#2e7d32">A</text>
+
+      <!-- Sequence output label -->
+      <text x="410" y="290" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="10.5" fill="#061e30" font-weight="700">5'– A T G C A T C G A –3'</text>
+      <text x="410" y="308" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#496570">Each peak = one base; read left → right</text>
+      <text x="410" y="325" text-anchor="middle" font-family="'Trebuchet MS',sans-serif" font-size="9.5" fill="#496570">Colour identifies base; peak position = fragment size</text>
+    </svg>
+  </div>
+</section>
+
+<!-- ============================================================
+     SECTION 7: INTERACTIVE WORKFLOW
+     ============================================================ -->
+<section id="flowsec" class="card">
+  <div class="chip">Section 7 — Workflow</div>
+  <h2 class="sh">🔄 Sanger Sequencing Workflow — Click Each Step</h2>
+  <p style="color:var(--muted);font-size:.9rem;margin-bottom:10px;">Click any step to expand details.</p>
+  <div class="flow-row">
+    <div class="fbox" onclick="tfl(this)">
+      <div class="fnum">1</div>
+      <div class="ficon">🧬</div>
+      <div class="ftxt">Template DNA</div>
+      <div class="fdet">Purified single-stranded or double-stranded DNA containing the region to be sequenced. Denatured to single strands by heating at 95°C or treatment with NaOH.</div>
+    </div>
+    <div class="farr">→</div>
+    <div class="fbox" onclick="tfl(this)">
+      <div class="fnum">2</div>
+      <div class="ficon">🔑</div>
+      <div class="ftxt">Primer Annealing</div>
+      <div class="fdet">A specific oligonucleotide primer anneals to the complementary sequence on the template at 50–60°C. Defines the start point and direction of synthesis.</div>
+    </div>
+    <div class="farr">→</div>
+    <div class="fbox" onclick="tfl(this)">
+      <div class="fnum">3</div>
+      <div class="ficon">⚗️</div>
+      <div class="ftxt">DNA Synthesis + ddNTP Termination</div>
+      <div class="fdet">DNA polymerase extends the primer. All four dNTPs and four fluorescently labelled ddNTPs are present. Randomly, a ddNTP is incorporated at each position, terminating the chain. This produces fragments of every possible length.</div>
+    </div>
+    <div class="farr">→</div>
+    <div class="fbox" onclick="tfl(this)">
+      <div class="fnum">4</div>
+      <div class="ficon">🔬</div>
+      <div class="ftxt">Capillary Electrophoresis</div>
+      <div class="fdet">Denatured fragments loaded into capillary filled with polymer. High-voltage applied — fragments migrate by size (small = fast). Laser detects fluorescent colour as each fragment passes the detection window.</div>
+    </div>
+    <div class="farr">→</div>
+    <div class="fbox" onclick="tfl(this)">
+      <div class="fnum">5</div>
+      <div class="ficon">📈</div>
+      <div class="ftxt">Chromatogram Generation</div>
+      <div class="fdet">Detector records fluorescence intensity over time. Each peak = one base, each colour = one base identity (A=green, T=red, G=blue, C=purple typically). Base-calling software reads the sequence.</div>
+    </div>
+    <div class="farr">→</div>
+    <div class="fbox" onclick="tfl(this)">
+      <div class="fnum">6</div>
+      <div class="ficon">💻</div>
+      <div class="ftxt">Sequence Output &amp; Analysis</div>
+      <div class="fdet">The software outputs the nucleotide sequence as text (e.g., 5'-ATGCATCGA...-3'). Quality scores (Phred) assigned to each base. Sequence aligned against reference databases (BLAST, GenBank) for identification.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SECTION 8: ADVANTAGES & LIMITATIONS
+     ============================================================ -->
+<section id="advlim" class="card">
+  <div class="chip">Section 8</div>
+  <h2 class="sh">⚖️ Advantages and Limitations</h2>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px;">
+    <div>
+      <h3 style="color:var(--mint);">✅ Advantages</h3>
+      <ul>
+        <li><strong>High accuracy:</strong> Error rate &lt;0.001%; considered the "gold standard" for accuracy.</li>
+        <li><strong>Long read length:</strong> 600–1000 reliable bases per run.</li>
+        <li><strong>Well-established:</strong> Decades of optimisation; robust and reproducible.</li>
+        <li><strong>Cost-effective for small targets:</strong> Ideal for sequencing single genes, verifying clones, detecting point mutations.</li>
+        <li><strong>Widely used:</strong> Standard method in clinical diagnostics, forensics, and research labs.</li>
+        <li><strong>Automated:</strong> ABI 3730xl can run 384 samples simultaneously.</li>
+      </ul>
+    </div>
+    <div>
+      <h3 style="color:var(--rose);">⚠️ Limitations</h3>
+      <ul>
+        <li><strong>Limited throughput:</strong> Maximum ~1 kb per reaction; sequencing an entire genome requires millions of reactions.</li>
+        <li><strong>Expensive for whole genomes:</strong> The Human Genome Project (Sanger-based) cost ~$3 billion.</li>
+        <li><strong>Cannot sequence GC-rich or repetitive regions easily:</strong> Secondary structures cause compression artefacts.</li>
+        <li><strong>First ~15–40 bases unreliable</strong> (primer region — poor resolution at very short lengths).</li>
+        <li><strong>Requires pure, single template:</strong> Mixtures of sequences give ambiguous chromatograms.</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>Brief Comparison with Modern Next-Generation Sequencing (NGS)</h3>
+  <div class="ib gold">
+    Next-generation sequencing (NGS) technologies (Illumina, PacBio, Oxford Nanopore) can 
+    sequence billions of base pairs simultaneously at very low cost (~$0.001/Mb vs ~$0.50/Mb 
+    for Sanger). However, Sanger remains the preferred method for validating single-gene 
+    mutations, confirming cloning results, and clinical diagnostic applications requiring 
+    high accuracy and long reads.
+  </div>
+</section>
+
+<!-- ============================================================
+     SECTION 9: APPLICATIONS
+     ============================================================ -->
+<section id="applic" class="card">
+  <div class="chip">Section 9</div>
+  <h2 class="sh">🏥 Applications of Sanger Sequencing</h2>
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:13px;margin:14px 0;">
+    <div class="ib" style="margin:0;border-radius:9px;">
+      <strong>Gene Analysis</strong><br>
+      Determining the complete nucleotide sequence of a gene, its intron-exon organisation, promoter, and regulatory elements.
+    </div>
+    <div class="ib sky" style="margin:0;border-radius:9px;">
+      <strong>Mutation Detection</strong><br>
+      Identifying single nucleotide polymorphisms (SNPs), point mutations, insertions, and deletions associated with genetic diseases (e.g., cystic fibrosis, sickle cell disease, BRCA1/2 in cancer).
+    </div>
+    <div class="ib green" style="margin:0;border-radius:9px;">
+      <strong>Confirmation of Cloned DNA</strong><br>
+      Verifying that a gene was correctly inserted into a vector during cloning and that no PCR errors or mutations were introduced.
+    </div>
+    <div class="ib gold" style="margin:0;border-radius:9px;">
+      <strong>Human Genome Project</strong><br>
+      Sanger sequencing was the primary technology used to sequence the entire 3.2 Gb human genome (1990–2003), leading to the identification of ~20,000–25,000 human genes.
+    </div>
+    <div class="ib rose" style="margin:0;border-radius:9px;">
+      <strong>Medical Diagnostics</strong><br>
+      Clinical sequencing of pathogen genomes (HIV drug resistance monitoring, SARS-CoV-2 variant identification), BRCA1/2 testing, pharmacogenomics.
+    </div>
+    <div class="ib violet" style="margin:0;border-radius:9px;">
+      <strong>Forensic Science</strong><br>
+      DNA fingerprinting and identification using mitochondrial DNA sequencing for forensic investigations and species identification.
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SECTION 10: COMPARISON TABLE (dNTP vs ddNTP)
+     ============================================================ -->
+<section id="compare" class="card">
+  <div class="chip">Section 10</div>
+  <h2 class="sh">📋 Comparison: dNTP vs ddNTP</h2>
+  <div class="tw">
+    <table>
+      <thead>
+        <tr><th>Feature</th><th>dNTP (Deoxynucleotide)</th><th>ddNTP (Dideoxynucleotide)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Full name</strong></td><td>Deoxynucleoside triphosphate</td><td>Dideoxyribonucleoside triphosphate</td></tr>
+        <tr><td><strong>Examples</strong></td><td>dATP, dTTP, dGTP, dCTP</td><td>ddATP, ddTTP, ddGTP, ddCTP</td></tr>
+        <tr><td><strong>Sugar type</strong></td><td>2'-deoxyribose</td><td>2',3'-dideoxyribose</td></tr>
+        <tr><td><strong>3' position</strong></td><td>Free <strong>3'-OH</strong> group present</td><td>3'-H only — <strong>no 3'-OH group</strong></td></tr>
+        <tr><td><strong>2' position</strong></td><td>2'-H (no OH, hence "deoxy")</td><td>2'-H (same as dNTP)</td></tr>
+        <tr><td><strong>Effect on chain</strong></td><td>Chain elongation <strong>continues</strong> — 3'-OH is available for next phosphodiester bond</td><td>Chain elongation <strong>terminates permanently</strong> — no 3'-OH to react with next nucleotide</td></tr>
+        <tr><td><strong>Incorporation by polymerase</strong></td><td>Normal substrate; incorporated at every position</td><td>Analogue; incorporated randomly at low frequency (1:100 ratio vs dNTP)</td></tr>
+        <tr><td><strong>Role in Sanger sequencing</strong></td><td>Provides the building blocks for growing the complementary strand throughout synthesis</td><td>Acts as chain terminator; each fragment ends at a specific base position; carries fluorescent label in modern sequencing</td></tr>
+        <tr><td><strong>Concentration in reaction</strong></td><td>High (standard working concentration, e.g., 200 µM)</td><td>Low (~1–2 µM — ~100× lower than dNTPs)</td></tr>
+        <tr><td><strong>Natural occurrence</strong></td><td>Natural building block of DNA</td><td>Synthetic analogue; does not occur naturally</td></tr>
+        <tr><td><strong>Label</strong></td><td>Unlabelled (or radioisotope in classic method)</td><td>Fluorescently labelled (each of the four carries a different fluorescent dye in modern Sanger)</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ============================================================
+     SECTION 11: INTERACTIVE LEARNING
+     ============================================================ -->
+<section id="interactive" class="card">
+  <div class="chip">Section 11 — Interactive</div>
+  <h2 class="sh">🎮 Interactive Learning</h2>
+
+  <div class="ai">
+    <button class="ah" onclick="tacc(this)">
+      <span>⚗️ Chain Termination Principle — Exam Key Points</span>
+      <span class="aico">+</span>
+    </button>
+    <div class="ab">
+      <span class="vpill">Core Principle</span>
+      <ul>
+        <li>ddNTPs lack a <strong>3'-OH group</strong> (they have 3'-H instead).</li>
+        <li>DNA polymerase requires a 3'-OH to catalyse the next phosphodiester bond.</li>
+        <li>When ddNTP is incorporated → chain terminates permanently at that position.</li>
+        <li>dNTPs are added at ~100× higher concentration than ddNTPs — ensures all possible fragment lengths are produced.</li>
+        <li>The sequence is determined by which ddNTP terminated each fragment and the fragment's length.</li>
+      </ul>
+      <div class="ib"><strong>Exam tip:</strong> The ONLY structural difference between dNTP and ddNTP is the 3' position: dNTP has 3'-OH, ddNTP has 3'-H. This single difference is the entire basis of Sanger sequencing.</div>
+    </div>
+  </div>
+
+  <div class="ai">
+    <button class="ah" onclick="tacc(this)">
+      <span>🔬 Original vs Modern Sanger Sequencing</span>
+      <span class="aico">+</span>
+    </button>
+    <div class="ab">
+      <span class="vpill">Methodology</span>
+      <table style="font-size:.88rem;width:100%;border-collapse:collapse;">
+        <thead>
+          <tr style="background:var(--teal-pale);">
+            <th style="padding:7px;border-bottom:1px solid var(--border);">Feature</th>
+            <th style="padding:7px;border-bottom:1px solid var(--border);">Original (1977)</th>
+            <th style="padding:7px;border-bottom:1px solid var(--border);">Modern (automated)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td style="padding:6px;border-bottom:1px solid var(--border);">Reactions</td><td style="padding:6px;border-bottom:1px solid var(--border);">4 separate (ddA, ddT, ddG, ddC)</td><td style="padding:6px;border-bottom:1px solid var(--border);">Single reaction (all 4 ddNTPs)</td></tr>
+          <tr style="background:var(--teal-pale);"><td style="padding:6px;border-bottom:1px solid var(--border);">Detection</td><td style="padding:6px;border-bottom:1px solid var(--border);">Radioactive (³⁵S, ³²P)</td><td style="padding:6px;border-bottom:1px solid var(--border);">Fluorescent dye-labelled ddNTPs</td></tr>
+          <tr><td style="padding:6px;border-bottom:1px solid var(--border);">Separation</td><td style="padding:6px;border-bottom:1px solid var(--border);">PAGE gel (4 lanes)</td><td style="padding:6px;border-bottom:1px solid var(--border);">Capillary electrophoresis</td></tr>
+          <tr style="background:var(--teal-pale);"><td style="padding:6px;">Output</td><td style="padding:6px;">Autoradiogram bands (read by eye)</td><td style="padding:6px;">Chromatogram (coloured peaks, software reads)</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="ai">
+    <button class="ah" onclick="tacc(this)">
+      <span>📈 Reading a Sequencing Gel — Exam Guidance</span>
+      <span class="aico">+</span>
+    </button>
+    <div class="ab">
+      <span class="vpill">Gel Interpretation</span>
+      <ul>
+        <li>The gel has four lanes: ddA, ddT, ddG, ddC (each lane contains fragments terminated by that ddNTP).</li>
+        <li>Smallest fragments (fewest nucleotides from primer) are at the <strong>bottom</strong> (run furthest in gel).</li>
+        <li>Read the sequence from <strong>bottom to top</strong> — the lowest band is position 1.</li>
+        <li>At each band position, record which lane (A, T, G, or C) contains the band.</li>
+        <li>The sequence obtained is the <strong>new (complementary) strand</strong> read 5'→3'.</li>
+        <li>Example: if from bottom to top you have bands in lanes A, T, G, C, A → sequence is 5'-ATGCA-3'.</li>
+      </ul>
+      <div class="ib sky"><strong>Exam tip:</strong> Always read gel bottom-to-top (small fragments = closer to primer = read first in 5'→3' direction). Modern chromatograms are read left-to-right (same logic — smaller fragments elute first).</div>
+    </div>
+  </div>
+
+  <div class="ai">
+    <button class="ah" onclick="tacc(this)">
+      <span>🏥 Applications — Exam Key Points</span>
+      <span class="aico">+</span>
+    </button>
+    <div class="ab">
+      <span class="vpill">Applications</span>
+      <ul>
+        <li>Developed by <strong>Frederick Sanger (1977)</strong> — Nobel Prize Chemistry 1980.</li>
+        <li>Used to sequence the <strong>Human Genome Project (1990–2003)</strong>.</li>
+        <li>Gold standard for <strong>mutation detection</strong> in clinical settings (BRCA1/2, CFTR, etc.).</li>
+        <li>Routine use: <strong>verification of recombinant DNA constructs</strong> after cloning.</li>
+        <li>Accurate read length: <strong>600–1000 bp</strong> per reaction, &gt;99.99% accuracy.</li>
+        <li>Phred quality scores assigned to each base by base-calling software.</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3 style="margin-top:20px;">Click-to-Reveal Key Definitions</h3>
+  <div class="rg">
+    <div class="rc" onclick="this.classList.toggle('flipped')">
+      <div class="rf">ddNTP<div class="rh">Click to reveal</div></div>
+      <div class="rb">Dideoxynucleoside triphosphate. A synthetic analogue of a normal dNTP with H at the 3' position instead of OH. When incorporated by DNA polymerase, it permanently terminates chain elongation because the next phosphodiester bond cannot be formed without a 3'-OH group.</div>
+    </div>
+    <div class="rc" onclick="this.classList.toggle('flipped')">
+      <div class="rf">Chain Termination<div class="rh">Click to reveal</div></div>
+      <div class="rb">The permanent halting of DNA synthesis when a ddNTP is incorporated into the growing chain. Because ddNTPs lack a 3'-OH group, DNA polymerase cannot add the next nucleotide — the chain is irreversibly terminated at that position.</div>
+    </div>
+    <div class="rc" onclick="this.classList.toggle('flipped')">
+      <div class="rf">Template DNA<div class="rh">Click to reveal</div></div>
+      <div class="rb">The single-stranded or denatured DNA molecule whose nucleotide sequence is to be determined. DNA polymerase reads the template in the 3'→5' direction to synthesise the new complementary strand in the 5'→3' direction.</div>
+    </div>
+    <div class="rc" onclick="this.classList.toggle('flipped')">
+      <div class="rf">Primer<div class="rh">Click to reveal</div></div>
+      <div class="rb">A short (18–25 nt) synthetic oligonucleotide complementary to the template strand, upstream of the region to be sequenced. Provides the free 3'-OH group needed for DNA polymerase to initiate synthesis and defines the start position of the sequence read.</div>
+    </div>
+    <div class="rc" onclick="this.classList.toggle('flipped')">
+      <div class="rf">Electrophoresis<div class="rh">Click to reveal</div></div>
+      <div class="rb">A technique that separates charged molecules by size in an electric field. In Sanger sequencing, denatured DNA fragments migrate through a gel or capillary — smaller fragments travel faster and farther, allowing fragments differing by a single nucleotide to be resolved.</div>
+    </div>
+    <div class="rc" onclick="this.classList.toggle('flipped')">
+      <div class="rf">Chromatogram<div class="rh">Click to reveal</div></div>
+      <div class="rb">The graphical output (electropherogram) of automated fluorescent Sanger sequencing. Coloured peaks on a time axis represent individual nucleotides detected as fluorescently labelled fragments pass the laser detector in the capillary electrophoresis instrument.</div>
+    </div>
+    <div class="rc" onclick="this.classList.toggle('flipped')">
+      <div class="rf">Phred Score<div class="rh">Click to reveal</div></div>
+      <div class="rb">A quality score assigned to each base call in automated Sanger sequencing. Q = -10 × log₁₀(P), where P is the error probability. Phred Q20 = 99% accuracy; Q30 = 99.9% accuracy. High-quality Sanger sequence typically has Phred scores >40.</div>
+    </div>
+    <div class="rc" onclick="this.classList.toggle('flipped')">
+      <div class="rf">Capillary Electrophoresis<div class="rh">Click to reveal</div></div>
+      <div class="rb">A modern, automated alternative to slab gel electrophoresis used in Sanger sequencing. DNA fragments migrate through a thin (~75 µm) capillary filled with polymer. A laser detects fluorescence as each fragment passes — provides higher resolution, speed, and throughput than traditional gel electrophoresis.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SECTION 12: QUIZ
+     ============================================================ -->
+<section id="quiz" class="card">
+  <div class="chip">Section 12 — Quiz</div>
+  <h2 class="sh">📝 Test Your Knowledge — MCQ Quiz</h2>
+  <p style="color:var(--muted);font-size:.9rem;margin-bottom:18px;">
+    10 questions with immediate feedback. Score displayed at the end.
+  </p>
+  <div class="qprog" id="qprog"></div>
+  <div id="qarea">
+    <div class="qcard">
+      <div class="qno"   id="qno"></div>
+      <div class="qtxt"  id="qtxt"></div>
+      <div class="qopts" id="qopts"></div>
+      <div class="qfb"   id="qfb"></div>
+      <button class="bnxt" id="bnxt" onclick="nextQ()">Next Question</button>
+    </div>
+  </div>
+  <div class="qres" id="qres">
+    <div class="sring" id="sring"></div>
+    <h3 id="smsg"></h3>
+    <p id="sdtl" style="color:var(--muted);margin:8px 0 14px;"></p>
+    <button class="bretry" onclick="initQ()">Retry Quiz</button>
+  </div>
+</section>
+
+<!-- ============================================================
+     SECTION 13: SUMMARY
+     ============================================================ -->
+<section id="summary" class="card">
+  <div class="chip">Section 13</div>
+  <h2 class="sh">📌 Summary — Key Exam Points</h2>
+  <div class="sg">
+    <div class="sp"><strong>Sanger Method</strong>Developed by Frederick Sanger in 1977 (Nobel Prize 1980). Also called chain-termination or dideoxy method. The gold standard for DNA sequencing.</div>
+    <div class="sp"><strong>Key Principle</strong>Uses ddNTPs as chain terminators. ddNTPs lack a 3'-OH group → when incorporated, chain synthesis stops permanently.</div>
+    <div class="sp"><strong>dNTP vs ddNTP</strong>Only structural difference: dNTP has 3'-OH; ddNTP has 3'-H (no OH). This single difference prevents the next phosphodiester bond formation.</div>
+    <div class="sp"><strong>Fragment Ladder</strong>Reaction produces fragments of all possible lengths, each ending at a specific nucleotide type. Reading fragment sizes in order reveals the sequence.</div>
+    <div class="sp"><strong>dNTP:ddNTP Ratio</strong>ddNTPs are ~100× more dilute than dNTPs to ensure random incorporation at every position — producing the complete ladder of fragment sizes.</div>
+    <div class="sp"><strong>Original Method</strong>Four separate reactions (ddA, ddT, ddG, ddC), radioactive labelling, 4-lane polyacrylamide gel, read bottom to top, autoradiography.</div>
+    <div class="sp"><strong>Modern Method</strong>Single reaction, four fluorescently labelled ddNTPs (each different colour), capillary electrophoresis, chromatogram output, automated base calling.</div>
+    <div class="sp"><strong>Gel Reading</strong>Read bottom to top (smallest = earliest position). Each band's lane/colour = the nucleotide at that position. Sequence is the new strand read 5'→3'.</div>
+    <div class="sp"><strong>Read Length &amp; Accuracy</strong>600–1000 reliable bases per run; &gt;99.99% accuracy for high-quality bases. First 15–40 bases may be unreliable.</div>
+    <div class="sp"><strong>Applications</strong>Clone verification, mutation detection, Human Genome Project, clinical diagnostics, pathogen identification, forensics.</div>
+    <div class="sp"><strong>Limitation vs NGS</strong>Only ~1 kb per reaction (low throughput); expensive for whole genomes. NGS sequences billions of bases simultaneously but Sanger remains gold standard for accuracy in targeted sequencing.</div>
+    <div class="sp"><strong>Correct Step Order</strong>Denature DNA → Anneal primer → Polymerase extends + ddNTP terminates → Fragments of all sizes form → Electrophoresis separates → Read sequence from chromatogram.</div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SECTION 14: GLOSSARY
+     ============================================================ -->
+<section id="glossary" class="card">
+  <div class="chip">Section 14</div>
+  <h2 class="sh">📖 Glossary</h2>
+  <div class="gg">
+    <div class="gc"><div class="gt">DNA Sequencing</div><div class="gd">The process of determining the precise order of nucleotide bases (A, T, G, C) along a DNA strand. The sequence reveals the genetic information encoded in the DNA molecule.</div></div>
+    <div class="gc"><div class="gt">Sanger Method</div><div class="gd">A DNA sequencing technique developed by Frederick Sanger in 1977, based on the chain-termination principle using dideoxynucleotides. Also called the dideoxy method. Gold standard of DNA sequencing for over 30 years.</div></div>
+    <div class="gc"><div class="gt">ddNTP (Dideoxynucleotide)</div><div class="gd">A synthetic analogue of a normal deoxyribonucleotide triphosphate (dNTP), lacking a 3'-OH group (replaced by 3'-H). When incorporated by DNA polymerase, it permanently terminates chain elongation. Used as chain terminators in Sanger sequencing.</div></div>
+    <div class="gc"><div class="gt">Chain Termination</div><div class="gd">The permanent halting of DNA synthesis caused by incorporation of a ddNTP. Since ddNTPs lack a 3'-OH group, no new phosphodiester bond can be formed — the growing chain cannot be extended further.</div></div>
+    <div class="gc"><div class="gt">Template DNA</div><div class="gd">The single-stranded DNA molecule used as the blueprint in DNA synthesis. In Sanger sequencing, the template strand is read 3'→5' by DNA polymerase, which synthesises a new complementary strand in the 5'→3' direction.</div></div>
+    <div class="gc"><div class="gt">Primer</div><div class="gd">A short (18–25 nt) synthetic single-stranded oligonucleotide complementary to the template strand. Provides the free 3'-OH required for DNA polymerase to initiate synthesis. Defines the start and direction of sequencing in Sanger method.</div></div>
+    <div class="gc"><div class="gt">Electrophoresis</div><div class="gd">A technique that uses an electric field to separate charged molecules (such as DNA fragments) by size. Smaller fragments migrate faster and farther in the gel or capillary. Enables single-nucleotide resolution of Sanger sequencing fragments.</div></div>
+    <div class="gc"><div class="gt">Chromatogram (Electropherogram)</div><div class="gd">The graphical output of automated fluorescent Sanger sequencing showing coloured peaks on a time axis. Each peak represents one nucleotide — the peak colour identifies the base (A/T/G/C) and peak position reflects fragment size.</div></div>
+    <div class="gc"><div class="gt">Capillary Electrophoresis</div><div class="gd">A modern, automated separation method used in Sanger sequencing where DNA fragments migrate through a thin polymer-filled capillary tube. Laser detection of fluorescence allows high-resolution, high-throughput sequencing (e.g., ABI 3730xl platform).</div></div>
+    <div class="gc"><div class="gt">dNTP (Deoxynucleotide)</div><div class="gd">Deoxynucleoside triphosphate — the normal building block of DNA. Contains a deoxyribose sugar with a free 3'-OH group that allows continued chain elongation. Four types: dATP, dTTP, dGTP, dCTP.</div></div>
+  </div>
+</section>
+
+<!-- ============================================================
+     SECTION 15: EXAM QUESTIONS
+     ============================================================ -->
+<section id="examqs" class="card">
+  <div class="chip">Section 15</div>
+  <h2 class="sh">🎓 Frequently Asked University Exam Questions</h2>
+  <p style="color:var(--muted);font-size:.9rem;margin-bottom:16px;">Click each question to expand answer hints.</p>
+
+  <div class="eq">
+    <button class="eqt" onclick="teq(this)">
+      <span>1. What is the principle of Sanger's chain termination method of DNA sequencing?</span>
+      <span>&#9660;</span>
+    </button>
+    <div class="eqb">
+      <strong>Answer Hints:</strong>
+      <ul>
+        <li>Principle: chain-termination (dideoxy method) using dideoxynucleotide triphosphates (ddNTPs) as chain terminators.</li>
+        <li>ddNTPs are structural analogues of normal dNTPs but lack a 3'-OH group (have 3'-H instead).</li>
+        <li>DNA polymerase incorporates ddNTPs into the growing chain at random positions — when ddNTP is incorporated, no further elongation is possible (no 3'-OH for next phosphodiester bond).</li>
+        <li>This produces a population of fragments of all possible lengths, each starting at the primer and ending at a specific base type.</li>
+        <li>Separation by electrophoresis and reading the positions gives the complete sequence.</li>
+        <li>Developed by Frederick Sanger in 1977 (Nobel Prize Chemistry 1980).</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="eq">
+    <button class="eqt" onclick="teq(this)">
+      <span>2. Why does the incorporation of a dideoxynucleotide (ddNTP) cause chain termination? Explain with reference to its structure.</span>
+      <span>&#9660;</span>
+    </button>
+    <div class="eqb">
+      <strong>Answer Hints:</strong>
+      <ul>
+        <li>Normal dNTP has: 5'-triphosphate, deoxyribose sugar with 2'-H and 3'-OH, and a nucleobase.</li>
+        <li>ddNTP differs in ONE critical way: the 3' position of the deoxyribose sugar has a hydrogen atom (3'-H) instead of a hydroxyl group (3'-OH).</li>
+        <li>DNA polymerase extends a chain by catalysing an attack of the 3'-OH on the α-phosphate of the incoming dNTP, forming a new 3'–5' phosphodiester bond and releasing pyrophosphate.</li>
+        <li>When a ddNTP is incorporated: its 5'-phosphate forms a bond with the previous nucleotide's 3'-OH. But the ddNTP itself now sits at the 3' end with only a 3'-H — no hydroxyl group is available to attack the next incoming nucleotide.</li>
+        <li>Therefore, no new phosphodiester bond can form → synthesis is permanently halted → chain termination.</li>
+        <li>Include a structural diagram comparing dNTP and ddNTP showing the 3'-OH vs 3'-H difference.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="eq">
+    <button class="eqt" onclick="teq(this)">
+      <span>3. Describe the steps involved in Sanger DNA sequencing. How is the sequence determined from the result?</span>
+      <span>&#9660;</span>
+    </button>
+    <div class="eqb">
+      <strong>Answer Hints:</strong>
+      <ul>
+        <li>Step 1: Denature template DNA to single strands (heat or NaOH).</li>
+        <li>Step 2: Anneal oligonucleotide primer to template (50–60°C).</li>
+        <li>Step 3: Add DNA polymerase, all four dNTPs, and all four fluorescently labelled ddNTPs (100× lower concentration than dNTPs).</li>
+        <li>Step 4: Synthesis proceeds; at each position, ddNTP may be randomly incorporated → chain terminates at every possible position → population of fragments of all lengths is produced.</li>
+        <li>Step 5: Fragments denatured and loaded into capillary electrophoresis instrument.</li>
+        <li>Step 6: Fragments separated by size; laser detects fluorescent colour as each fragment elutes.</li>
+        <li>Sequence determination: chromatogram shows coloured peaks; each colour = one base; peaks read left to right (small = earliest in 5'→3' sequence).</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="eq">
+    <button class="eqt" onclick="teq(this)">
+      <span>4. What is the role of dNTPs and ddNTPs in Sanger sequencing? Why are ddNTPs added at a much lower concentration than dNTPs?</span>
+      <span>&#9660;</span>
+    </button>
+    <div class="eqb">
+      <strong>Answer Hints:</strong>
+      <ul>
+        <li><strong>Role of dNTPs:</strong> Normal building blocks — provide the nucleotide subunits for DNA chain elongation. All four (dATP, dTTP, dGTP, dCTP) are needed. Their 3'-OH groups allow the chain to continue growing.</li>
+        <li><strong>Role of ddNTPs:</strong> Chain terminators — incorporated randomly at complementary positions and permanently stop synthesis. Each one terminates at a specific base type. In modern sequencing, each carries a different fluorescent dye for base identification.</li>
+        <li><strong>Why low concentration of ddNTPs?</strong> If ddNTPs were in equal or higher concentration, almost every fragment would be very short (terminated near the primer). A low ddNTP:dNTP ratio (~1:100) ensures that termination occurs rarely and randomly across the entire length of the template — generating fragments of every possible length from position 1 to ~1000 nt. This complete "ladder" of fragment sizes is essential for reading the full sequence.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="eq">
+    <button class="eqt" onclick="teq(this)">
+      <span>5. List the components required for Sanger sequencing. State the advantages and limitations of this method.</span>
+      <span>&#9660;</span>
+    </button>
+    <div class="eqb">
+      <strong>Answer Hints:</strong>
+      <ul>
+        <li><strong>Components:</strong> (1) Template DNA (single-stranded); (2) Primer (specific oligonucleotide); (3) DNA polymerase (Klenow fragment, T7, or Taq); (4) All four dNTPs (dATP, dTTP, dGTP, dCTP); (5) All four ddNTPs (ddATP, ddTTP, ddGTP, ddCTP — each fluorescently labelled); (6) Buffer with Mg²⁺ cofactor.</li>
+        <li><strong>Advantages:</strong> High accuracy (&gt;99.99%); long reads (600–1000 bp); gold standard; automated; cost-effective for single genes.</li>
+        <li><strong>Limitations:</strong> Low throughput (only ~1 kb per reaction); expensive for whole genomes; first 15–40 bases unreliable; cannot sequence repetitive regions well; requires pure single-sequence template.</li>
+        <li>Brief mention of NGS as higher-throughput alternative, but Sanger remains preferred for targeted, high-accuracy sequencing.</li>
+      </ul>
+    </div>
+  </div>
+
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="fd">Department of Zoology, GASC, Nagercoil</div>
+  <div class="fa">Created by R. Ramesh</div>
+</footer>
+
+<button id="gtop" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Back to top">&#8593;</button>
+
+<!-- ============================================================
+     JAVASCRIPT
+     ============================================================ -->
+<script>
+/* NAVIGATION */
+function go(id){
+  var el=document.getElementById(id);
+  if(!el)return;
+  var top=el.getBoundingClientRect().top+window.pageYOffset-62;
+  window.scrollTo({top:top,behavior:'smooth'});
+}
+/* SCROLL TOP */
+window.addEventListener('scroll',function(){
+  var b=document.getElementById('gtop');
+  b.style.display=window.scrollY>450?'flex':'none';
+});
+/* ACCORDION */
+function tacc(hdr){
+  var body=hdr.nextElementSibling;
+  var isOpen=hdr.classList.contains('open');
+  document.querySelectorAll('.ah').forEach(function(h){
+    h.classList.remove('open');h.nextElementSibling.classList.remove('open');
+  });
+  if(!isOpen){hdr.classList.add('open');body.classList.add('open');}
+}
+/* FLOW STEPS */
+function tfl(el){
+  var isAct=el.classList.contains('act');
+  document.querySelectorAll('.fbox').forEach(function(f){f.classList.remove('act');});
+  if(!isAct)el.classList.add('act');
+}
+/* EXAM QUESTIONS */
+function teq(btn){
+  var body=btn.nextElementSibling;
+  var isOpen=body.classList.contains('open');
+  document.querySelectorAll('.eqb').forEach(function(b){b.classList.remove('open');});
+  document.querySelectorAll('.eqt').forEach(function(b){
+    var a=b.querySelector('span:last-child');if(a)a.innerHTML='&#9660;';
+  });
+  if(!isOpen){
+    body.classList.add('open');
+    var arr=btn.querySelector('span:last-child');if(arr)arr.innerHTML='&#9650;';
+  }
+}
+
+/* ============================================================
+   QUIZ DATA
+   ============================================================ */
+var QD=[
+  {
+    q:"What is the critical structural difference between a dNTP and a ddNTP that enables chain termination?",
+    o:["ddNTP has no 5'-phosphate group",
+       "ddNTP has a hydrogen (H) at the 3' position instead of a hydroxyl (OH) group",
+       "ddNTP has a ribose sugar instead of deoxyribose",
+       "ddNTP has a modified nucleobase"],
+    a:1,
+    e:"The only structural difference between dNTP and ddNTP is at the 3' position of the deoxyribose sugar: dNTP has a free 3'-OH (hydroxyl group) that allows the next phosphodiester bond to form, while ddNTP has only a 3'-H (hydrogen atom) — no OH group. Without 3'-OH, DNA polymerase cannot catalyse the next bond, and chain synthesis terminates permanently."
+  },
+  {
+    q:"In the Sanger sequencing reaction, what is the purpose of adding ddNTPs at a much lower concentration (~100×) than dNTPs?",
+    o:["To ensure all fragments are very short for better gel resolution",
+       "To save cost since ddNTPs are expensive",
+       "To ensure termination occurs randomly at every possible position, generating fragments of all lengths",
+       "To prevent the primer from being incorporated into the sequence"],
+    a:2,
+    e:"ddNTPs at low concentration (~1:100 vs dNTPs) ensure that chain termination occurs randomly and infrequently at every position. This produces a complete 'ladder' of fragments with all possible lengths — essential for reading the full sequence. If ddNTPs were too concentrated, only very short fragments (terminated near the primer) would be produced."
+  },
+  {
+    q:"In modern automated Sanger sequencing using capillary electrophoresis, how are the four different ddNTPs distinguished?",
+    o:["Each ddNTP is present in a separate reaction tube",
+       "Each ddNTP is labelled with a different radioactive isotope",
+       "Each ddNTP carries a different fluorescent dye that emits a unique colour when excited by a laser",
+       "They are distinguished by their different molecular weights in the mass spectrometer"],
+    a:2,
+    e:"In modern automated Sanger sequencing, all four ddNTPs (ddA, ddT, ddG, ddC) are present in a single reaction, each labelled with a different fluorescent dye (e.g., ddA=green, ddT=red, ddG=blue, ddC=purple). When fragments pass the laser in the capillary, each emits its characteristic colour, allowing the base at each position to be identified from the chromatogram peak colours."
+  },
+  {
+    q:"How is the DNA sequence read from a traditional four-lane sequencing gel?",
+    o:["Read from top to bottom, the lane of each band gives the base at that position",
+       "Read from bottom to top (smallest fragments first), the lane of each band gives the base at that position",
+       "Compare band intensities in each lane to determine the most common base",
+       "Read the gel from left to right, each column representing one nucleotide position"],
+    a:1,
+    e:"In a four-lane Sanger sequencing gel (ddA, ddT, ddG, ddC lanes), the sequence is read from bottom to top — the smallest fragments (shortest, closest to the primer = earliest nucleotide positions) run fastest and are at the bottom. At each band position, reading which lane contains the band gives the nucleotide (A, T, G, or C) at that position in the 5'→3' direction of the new strand."
+  },
+  {
+    q:"Who developed the chain-termination DNA sequencing method and in which year?",
+    o:["James Watson and Francis Crick, 1953",
+       "Walter Gilbert, 1975",
+       "Frederick Sanger, 1977",
+       "Kary Mullis, 1983"],
+    a:2,
+    e:"The chain-termination (dideoxy) DNA sequencing method was developed by Frederick Sanger and colleagues at the MRC Laboratory of Molecular Biology, Cambridge, in 1977. Sanger was awarded the Nobel Prize in Chemistry in 1980 for this achievement — his second Nobel Prize (having received his first in 1958 for protein sequencing of insulin)."
+  },
+  {
+    q:"In Sanger sequencing, which component provides the starting point for DNA synthesis by DNA polymerase?",
+    o:["The template DNA strand itself",
+       "The ddNTP chain terminator",
+       "The oligonucleotide primer complementary to the template",
+       "The Mg²⁺ cofactor in the reaction buffer"],
+    a:2,
+    e:"The oligonucleotide primer provides the starting point for DNA synthesis. It is a short (18–25 nt) synthetic single-stranded sequence complementary to the template strand, upstream of the region to be sequenced. DNA polymerase requires a free 3'-OH terminus to initiate synthesis — the primer provides this 3'-OH. Without a primer, DNA polymerase cannot begin synthesis."
+  },
+  {
+    q:"What does the chromatogram (electropherogram) output of automated Sanger sequencing show?",
+    o:["Four separate lanes of dark bands on X-ray film",
+       "Coloured fluorescent peaks on a time axis, where each peak colour identifies one nucleotide base",
+       "A Southern blot pattern showing hybridised fragments",
+       "A scatter plot of DNA fragment masses"],
+    a:1,
+    e:"The chromatogram (electropherogram) from automated fluorescent Sanger sequencing shows coloured peaks plotted against time (or fragment size). Each peak represents one nucleotide position in the sequence — the peak colour identifies which base is present (e.g., green for A, red for T, blue for G, purple for C). The sequence is read from left to right (earliest eluting = smallest fragments = first bases in 5'→3' direction)."
+  },
+  {
+    q:"Which enzyme is responsible for synthesising the new complementary strand during Sanger sequencing?",
+    o:["RNA polymerase",
+       "DNA ligase",
+       "Reverse transcriptase",
+       "DNA polymerase (e.g., Klenow fragment or Taq polymerase)"],
+    a:3,
+    e:"DNA polymerase synthesises the new complementary strand in Sanger sequencing. In the original method, the Klenow fragment (large fragment of E. coli DNA Pol I, lacking 5'→3' exonuclease activity) was used. Modern cycle sequencing uses thermostable polymerases like Taq. The polymerase reads the template 3'→5' and synthesises the new strand 5'→3', incorporating dNTPs and occasionally ddNTPs."
+  },
+  {
+    q:"A Sanger sequencing run typically provides how many reliable base calls per reaction?",
+    o:["50–100 bases",
+       "100–200 bases",
+       "600–1000 bases",
+       "10,000–50,000 bases"],
+    a:2,
+    e:"A standard Sanger sequencing run typically provides 600–1000 reliable base calls per reaction, with accuracy greater than 99.99% for high-quality regions. The first 15–40 bases are usually unreliable (primer region). This read length, while limited compared to NGS, is more than sufficient for verifying clones, sequencing single genes, and targeted mutation analysis."
+  },
+  {
+    q:"Which of the following is a major limitation of Sanger sequencing compared to next-generation sequencing (NGS)?",
+    o:["Sanger sequencing is far less accurate than NGS methods",
+       "Sanger sequencing has very low throughput — only ~1 kb per reaction — making whole-genome sequencing extremely expensive and time-consuming",
+       "Sanger sequencing requires a separate primer for every single nucleotide position",
+       "Sanger sequencing cannot be used to sequence PCR products or plasmids"],
+    a:1,
+    e:"The major limitation of Sanger sequencing is low throughput — only ~600–1000 bp per reaction. Sequencing an entire human genome (3.2 Gb) by Sanger would require millions of reactions and cost ~$3 billion (as in the Human Genome Project). In contrast, modern NGS platforms can sequence billions of bases simultaneously at a fraction of the cost. Sanger remains superior in accuracy and read length for targeted applications."
+  }
+];
+
+/* QUIZ LOGIC */
+var cQ=0,sc=0,done=false,ua=[];
+function initQ(){
+  cQ=0;sc=0;done=false;ua=[];
+  for(var i=0;i<QD.length;i++)ua.push(null);
+  document.getElementById('qarea').style.display='block';
+  document.getElementById('qres').style.display='none';
+  buildDots();renderQ();
+}
+function buildDots(){
+  var p=document.getElementById('qprog');p.innerHTML='';
+  for(var i=0;i<QD.length;i++){
+    var d=document.createElement('div');
+    d.className='qd'+(i===0?' cur':'');
+    d.id='qd'+i;d.textContent=i+1;
+    p.appendChild(d);
+  }
+}
+function renderQ(){
+  done=false;
+  var q=QD[cQ];
+  document.getElementById('qno').textContent='Question '+(cQ+1)+' of '+QD.length;
+  document.getElementById('qtxt').textContent=q.q;
+  var opts=document.getElementById('qopts');opts.innerHTML='';
+  q.o.forEach(function(opt,i){
+    var b=document.createElement('button');
+    b.className='qo';b.textContent=opt;
+    b.setAttribute('data-i',i);
+    b.onclick=function(){doAns(parseInt(this.getAttribute('data-i')));};
+    opts.appendChild(b);
+  });
+  var fb=document.getElementById('qfb');fb.className='qfb';fb.textContent='';
+  document.getElementById('bnxt').style.display='none';
+  for(var j=0;j<QD.length;j++){
+    var dot=document.getElementById('qd'+j);
+    dot.className='qd';
+    if(ua[j]===true) dot.className='qd ok';
+    if(ua[j]===false)dot.className='qd bad';
+  }
+  document.getElementById('qd'+cQ).classList.add('cur');
+}
+function doAns(idx){
+  if(done)return;
+  done=true;
+  var q=QD[cQ];
+  var ok=idx===q.a;
+  document.querySelectorAll('.qo').forEach(function(b,i){
+    b.disabled=true;
+    if(i===q.a)b.classList.add('cok');
+    else if(i===idx&&!ok)b.classList.add('cbad');
+  });
+  var fb=document.getElementById('qfb');
+  if(ok){
+    sc++;fb.className='qfb ok';fb.textContent='Correct! '+q.e;
+    ua[cQ]=true;document.getElementById('qd'+cQ).className='qd ok';
+  }else{
+    fb.className='qfb bad';fb.textContent='Incorrect. '+q.e;
+    ua[cQ]=false;document.getElementById('qd'+cQ).className='qd bad';
+  }
+  var nb=document.getElementById('bnxt');
+  nb.style.display='inline-block';
+  nb.textContent=cQ===QD.length-1?'See Results':'Next Question';
+}
+function nextQ(){cQ++;if(cQ>=QD.length)showRes();else renderQ();}
+function showRes(){
+  document.getElementById('qarea').style.display='none';
+  document.getElementById('qres').style.display='block';
+  var pct=Math.round(sc/QD.length*100);
+  document.getElementById('sring').textContent=sc+'/'+QD.length;
+  var m,d;
+  if(pct===100){m='Perfect Score!';d='Outstanding! You have mastered the Sanger DNA sequencing method completely.';}
+  else if(pct>=80){m='Excellent!';d='You scored '+pct+'%. Great understanding — review missed questions.';}
+  else if(pct>=60){m='Good Work!';d='You scored '+pct+'%. Revisit the principle and steps sections.';}
+  else if(pct>=40){m='Keep Going!';d='You scored '+pct+'%. Study each component carefully and retry.';}
+  else{m="Don't Give Up!";d='You scored '+pct+'%. Read from the beginning and try again.';}
+  document.getElementById('smsg').textContent=m;
+  document.getElementById('sdtl').textContent=d;
+}
+window.onload=function(){initQ();};
+</script>
+</body>
+</html>

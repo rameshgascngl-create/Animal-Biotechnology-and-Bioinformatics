@@ -1,0 +1,335 @@
+{
+ "units": [
+  {
+   "roman": "I",
+   "title": "Fundamentals of Biotechnology",
+   "topics": [
+    {
+     "id": "t1",
+     "title": "Definition, Scope and Importance of Biotechnology",
+     "note": "Definition, branches, scope, importance",
+     "file": "biotechnology_fundamentals.html",
+     "hash": ""
+    },
+    {
+     "id": "t2",
+     "title": "Enzymes: restriction enzymes and enzymes useful for genetic engineering",
+     "note": "Restriction endonucleases, ligase, polymerases",
+     "file": "enzymes_genetic_engineering.html",
+     "hash": ""
+    },
+    {
+     "id": "t3",
+     "title": "Vectors: plasmids, pBR322, Ti plasmid, lambda, M13",
+     "note": "Plasmid types, phage vectors",
+     "file": "vectors_genetic_engineering.html",
+     "hash": ""
+    },
+    {
+     "id": "t4",
+     "title": "Cosmid, YAC, SV40 and transposons as vectors",
+     "note": "Advanced and animal vectors",
+     "file": "advanced_vectors_cosmid_yac_sv40_transposons.html",
+     "hash": ""
+    },
+    {
+     "id": "t5",
+     "title": "DNA library: genomic and cDNA",
+     "note": "Construction and screening of libraries",
+     "file": "dna_library_genomic_cdna.html",
+     "hash": ""
+    }
+   ]
+  },
+  {
+   "roman": "II",
+   "title": "Techniques in Animal Biotechnology",
+   "topics": [
+    {
+     "id": "t6",
+     "title": "Gene cloning: steps and selection of clones",
+     "note": "Cloning workflow",
+     "file": "gene_cloning_steps_selection.html",
+     "hash": ""
+    },
+    {
+     "id": "t7",
+     "title": "Introducing rDNA into host cells (transformation, transfection, transduction, microinjection, electroporation, liposomes)",
+     "note": "Gene transfer methods",
+     "file": "gene_transfer_methods_rdna_host_cells.html",
+     "hash": ""
+    },
+    {
+     "id": "t8",
+     "title": "Screening and selection of recombinants (direct selection, insertional inactivation, blue-white, colony hybridisation)",
+     "note": "Selection strategies",
+     "file": "screening_selection_recombinants.html",
+     "hash": ""
+    },
+    {
+     "id": "t9",
+     "title": "Blotting techniques: Southern, Northern, Western",
+     "note": "New module",
+     "file": "blotting_techniques.html",
+     "hash": ""
+    },
+    {
+     "id": "t10",
+     "title": "DNA sequencing: Sanger method",
+     "note": "Chain termination",
+     "file": "sanger_dna_sequencing.html",
+     "hash": ""
+    },
+    {
+     "id": "t11",
+     "title": "PCR: principle, types and applications",
+     "note": "Thermal cycling, RT-PCR, qPCR",
+     "file": "pcr_principle_types_applications.html",
+     "hash": ""
+    },
+    {
+     "id": "t12",
+     "title": "Gel electrophoresis",
+     "note": "Agarose, PAGE, pulsed field",
+     "file": "gel_electrophoresis.html",
+     "hash": ""
+    }
+   ]
+  },
+  {
+   "roman": "III",
+   "title": "Transgenic Animal Technology",
+   "topics": [
+    {
+     "id": "t13",
+     "title": "Transgenesis: transgenes, knock-out mice, Dolly, animals as bioreactors",
+     "note": "New module",
+     "file": "transgenic_animal_technology.html",
+     "hash": ""
+    },
+    {
+     "id": "t14",
+     "title": "Superbug, bioremediation and bioweapons",
+     "note": "New module",
+     "file": "superbug_bioremediation_bioweapons.html",
+     "hash": ""
+    },
+    {
+     "id": "t15",
+     "title": "Hybridoma technology and monoclonal antibodies",
+     "note": "New module",
+     "file": "hybridoma_monoclonal_antibodies.html",
+     "hash": ""
+    },
+    {
+     "id": "t16",
+     "title": "Gene therapy: ex vivo and in vivo; role in cancer treatment",
+     "note": "Vectors and clinical examples",
+     "file": "gene_therapy_app.html",
+     "hash": ""
+    },
+    {
+     "id": "t17",
+     "title": "CRISPR gene editing",
+     "note": "Cas9, guide RNA, repair pathways",
+     "file": "crispr_gene_editing_app.html",
+     "hash": ""
+    },
+    {
+     "id": "t18",
+     "title": "Molecular markers: RFLP, RAPD, DNA fingerprinting",
+     "note": "Markers and applications",
+     "file": "molecular_markers_app.html",
+     "hash": ""
+    }
+   ]
+  },
+  {
+   "roman": "IV",
+   "title": "Applications and Ethics",
+   "topics": [
+    {
+     "id": "t19",
+     "title": "Animal cell culture: media, primary culture, cell lines; stem cells; organ culture and artificial skin",
+     "note": "Requirements and techniques",
+     "file": "animal_cell_culture.html",
+     "hash": ""
+    },
+    {
+     "id": "t20",
+     "title": "Industrial biotechnology: fermentation and ethanol production",
+     "note": "Fermenters and ethanol",
+     "file": "industrial_biotech_fermentation.html",
+     "hash": ""
+    },
+    {
+     "id": "t21",
+     "title": "Human Genome Project: mapping and applications",
+     "note": "Chapters 1–3",
+     "file": "hgp_ethics_ipr.html",
+     "hash": "#p1"
+    },
+    {
+     "id": "t22",
+     "title": "Ethics: socio-ethical problems and implications",
+     "note": "Chapter 4",
+     "file": "hgp_ethics_ipr.html",
+     "hash": "#p4"
+    },
+    {
+     "id": "t23",
+     "title": "Intellectual Property Rights (IPR)",
+     "note": "Chapter 5",
+     "file": "hgp_ethics_ipr.html",
+     "hash": "#p5"
+    }
+   ]
+  },
+  {
+   "roman": "V",
+   "title": "Bioinformatics",
+   "topics": [
+    {
+     "id": "t24",
+     "title": "Definition; nucleotide databases (GenBank, EMBL, DDBJ)",
+     "note": "Sequence databases",
+     "file": "bioinformatics_databases_app.html",
+     "hash": ""
+    },
+    {
+     "id": "t25",
+     "title": "Protein databases: SWISS-PROT, UniProt; structural database PDB",
+     "note": "Protein and structure databases",
+     "file": "protein_databases_app.html",
+     "hash": ""
+    },
+    {
+     "id": "t26",
+     "title": "Sequence alignment: pairwise and multiple",
+     "note": "Includes a live alignment calculator",
+     "file": "bioinformatics_tools_alignment_blast.html",
+     "hash": "#p1"
+    },
+    {
+     "id": "t27",
+     "title": "Similarity search tools: BLAST and FASTA",
+     "note": "Chapter 3",
+     "file": "bioinformatics_tools_alignment_blast.html",
+     "hash": "#p3"
+    },
+    {
+     "id": "t28",
+     "title": "Structure visualisation: RasMol and Swiss-PdbViewer",
+     "note": "Chapter 4",
+     "file": "bioinformatics_tools_alignment_blast.html",
+     "hash": "#p4"
+    },
+    {
+     "id": "t29",
+     "title": "Scope and applications of bioinformatics",
+     "note": "Chapter 5",
+     "file": "bioinformatics_tools_alignment_blast.html",
+     "hash": "#p5"
+    }
+   ]
+  }
+ ],
+ "modules": {
+  "advanced_vectors_cosmid_yac_sv40_transposons.html": {
+   "title": "Advanced Vectors – Cosmid, YAC, SV40 & Transposons",
+   "unit": "I"
+  },
+  "animal_cell_culture.html": {
+   "title": "Animal Cell Culture Techniques",
+   "unit": "IV"
+  },
+  "bioinformatics_databases_app.html": {
+   "title": "Bioinformatics: Nucleotide Sequence Databases",
+   "unit": "V"
+  },
+  "bioinformatics_tools_alignment_blast.html": {
+   "title": "Alignment, BLAST & Structure Tools",
+   "unit": "V"
+  },
+  "biotechnology_fundamentals.html": {
+   "title": "Fundamentals of Biotechnology — Definition, Scope & Importance",
+   "unit": "I"
+  },
+  "blotting_techniques.html": {
+   "title": "Blotting Techniques",
+   "unit": "II"
+  },
+  "crispr_gene_editing_app.html": {
+   "title": "CRISPR Gene Editing",
+   "unit": "III"
+  },
+  "dna_library_genomic_cdna.html": {
+   "title": "DNA Library – Genomic & cDNA Library",
+   "unit": "I"
+  },
+  "enzymes_genetic_engineering.html": {
+   "title": "Enzymes in Genetic Engineering – Interactive Learning App",
+   "unit": "I"
+  },
+  "gel_electrophoresis.html": {
+   "title": "Gel Electrophoresis",
+   "unit": "II"
+  },
+  "gene_cloning_steps_selection.html": {
+   "title": "Gene Cloning – Steps & Selection of Clones",
+   "unit": "II"
+  },
+  "gene_therapy_app.html": {
+   "title": "Gene Therapy – Ex Vivo & In Vivo",
+   "unit": "III"
+  },
+  "gene_transfer_methods_rdna_host_cells.html": {
+   "title": "Introduction of Recombinant DNA into Host Cells",
+   "unit": "II"
+  },
+  "hgp_ethics_ipr.html": {
+   "title": "Human Genome Project, Ethics & IPR",
+   "unit": "IV"
+  },
+  "hybridoma_monoclonal_antibodies.html": {
+   "title": "Hybridoma & Monoclonal Antibodies",
+   "unit": "III"
+  },
+  "industrial_biotech_fermentation.html": {
+   "title": "Industrial Biotechnology — Fermentation & Ethanol Production",
+   "unit": "IV"
+  },
+  "molecular_markers_app.html": {
+   "title": "Molecular Markers: RFLP, RAPD & DNA Fingerprinting",
+   "unit": "III"
+  },
+  "pcr_principle_types_applications.html": {
+   "title": "PCR: Principle, Types & Applications",
+   "unit": "II"
+  },
+  "protein_databases_app.html": {
+   "title": "Protein Databases: SWISS-PROT, UniProt & PDB",
+   "unit": "V"
+  },
+  "sanger_dna_sequencing.html": {
+   "title": "DNA Sequencing: Sanger Method",
+   "unit": "II"
+  },
+  "screening_selection_recombinants.html": {
+   "title": "Screening & Selection of Recombinants",
+   "unit": "II"
+  },
+  "superbug_bioremediation_bioweapons.html": {
+   "title": "Superbug, Bioremediation & Bioweapons",
+   "unit": "III"
+  },
+  "transgenic_animal_technology.html": {
+   "title": "Transgenic Animal Technology",
+   "unit": "III"
+  },
+  "vectors_genetic_engineering.html": {
+   "title": "Vectors in Genetic Engineering – Interactive Learning App",
+   "unit": "I"
+  }
+ }
+}
