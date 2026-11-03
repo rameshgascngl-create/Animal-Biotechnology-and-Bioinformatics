@@ -179,6 +179,8 @@ fun QuizScreen(
             }
         } else {
             val q = items[idx]
+            // shuffle option order each time so the correct answer is not predictable by position or length
+            val order = remember(round, idx) { items[idx].options.indices.toList().shuffled() }
             LazyColumn(
                 Modifier.fillMaxSize().padding(inner),
                 contentPadding = PaddingValues(16.dp),
@@ -195,7 +197,8 @@ fun QuizScreen(
                     Spacer(Modifier.height(14.dp))
                     Text(q.q, style = MaterialTheme.typography.titleMedium, color = Navy, fontWeight = FontWeight.SemiBold)
                 }
-                items(q.options.indices.toList(), key = { "o$round-$idx-$it" }) { i ->
+                items(order.indices.toList(), key = { "o$round-$idx-$it" }) { pos ->
+                    val i = order[pos]
                     val sel = chosen
                     val bg = when {
                         sel == null -> Color.White
@@ -218,7 +221,7 @@ fun QuizScreen(
                         border = BorderStroke(1.5.dp, border),
                     ) {
                         Row(Modifier.padding(14.dp), verticalAlignment = Alignment.Top) {
-                            Text("${'A' + i}.  ", fontWeight = FontWeight.Bold, color = Navy)
+                            Text("${'A' + pos}.  ", fontWeight = FontWeight.Bold, color = Navy)
                             Text(q.options[i])
                         }
                     }
