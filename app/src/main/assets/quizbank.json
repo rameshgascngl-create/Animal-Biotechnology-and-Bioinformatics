@@ -4847,7 +4847,15 @@
     "Yeast producing alcohol"
    ],
    "a": 2,
-   "e": "It was a Pseudomonas carrying several hydrocarbon-degrading plasmids."
+   "e": "It was a Pseudomonas carrying several hydrocarbon-degrading plasmids.",
+   "q_ta": "ஏ. எம். சக்ரவர்த்தி உருவாக்கிய 'சூப்பர்பக்' என்பது மரபணு மாற்றப்பட்ட:",
+   "o_ta": [
+    "பிளாஸ்டிக்கைச் சிதைக்கும் Escherichia coli",
+    "இன்சுலினை உற்பத்தி செய்யும் Bacillus",
+    "ஹைட்ரோகார்பன்களைச் சிதைக்கும் Pseudomonas",
+    "ஆல்கஹாலை உற்பத்தி செய்யும் ஈஸ்ட்"
+   ],
+   "e_ta": "இது ஹைட்ரோகார்பன்களைச் சிதைக்கும் பல பிளாஸ்மிடுகளைக் கொண்ட Pseudomonas."
   },
   {
    "q": "Diamond v. Chakrabarty was decided in:",
@@ -4858,7 +4866,15 @@
     "1996"
    ],
    "a": 1,
-   "e": "The US Supreme Court decided in 1980."
+   "e": "The US Supreme Court decided in 1980.",
+   "q_ta": "டைமண்ட் எதிர் சக்ரவர்த்தி வழக்கு தீர்ப்பளிக்கப்பட்ட ஆண்டு:",
+   "o_ta": [
+    "1953",
+    "1980",
+    "1973",
+    "1996"
+   ],
+   "e_ta": "அமெரிக்க உச்ச நீதிமன்றம் 1980-இல் தீர்ப்பளித்தது."
   },
   {
    "q": "The superbug acquired new degradation abilities by:",
@@ -4869,7 +4885,15 @@
     "PCR"
    ],
    "a": 1,
-   "e": "Plasmids were brought together by conjugation."
+   "e": "Plasmids were brought together by conjugation.",
+   "q_ta": "சூப்பர்பக் புதிய சிதைவுத் திறன்களைப் பெற்றது:",
+   "o_ta": [
+    "மரபணு நாக்-அவுட் மூலம்",
+    "பிளாஸ்மிடுகளின் இணைவு மூலம்",
+    "முதிர் செல்களிலிருந்து குளோனிங் மூலம்",
+    "PCR மூலம்"
+   ],
+   "e_ta": "பிளாஸ்மிடுகள் இணைவு மூலம் ஒன்றிணைக்கப்பட்டன."
   },
   {
    "q": "Adding fertiliser to stimulate native oil-degrading bacteria is called:",
@@ -4880,7 +4904,15 @@
     "Bioleaching"
    ],
    "a": 2,
-   "e": "This is biostimulation."
+   "e": "This is biostimulation.",
+   "q_ta": "உள்ளூர் எண்ணெய்-சிதைக்கும் பாக்டீரியாக்களைத் தூண்ட உரமிடுவது எவ்வாறு அழைக்கப்படுகிறது?",
+   "o_ta": [
+    "உயிரி மிகைப்பெருக்கம் (பயோஆக்மென்டேஷன்)",
+    "உயிரி உறிஞ்சுதல்",
+    "உயிரித் தூண்டல் (பயோஸ்டிமுலேஷன்)",
+    "உயிரி வடிகட்டல் (பயோலீச்சிங்)"
+   ],
+   "e_ta": "இது உயிரித் தூண்டல்."
   },
   {
    "q": "Use of plants to clean contaminated soil is:",
@@ -4891,7 +4923,15 @@
     "Bioventing"
    ],
    "a": 1,
-   "e": "Phytoremediation."
+   "e": "Phytoremediation.",
+   "q_ta": "மாசுபட்ட மண்ணைத் தூய்மையாக்கத் தாவரங்களைப் பயன்படுத்துவது:",
+   "o_ta": [
+    "பூஞ்சை வழி மாசு நீக்கம்",
+    "தாவர வழி மாசு நீக்கம்",
+    "உயிரிக் குவியல்",
+    "உயிரிக் காற்றூட்டம்"
+   ],
+   "e_ta": "தாவர வழி மாசு நீக்கம்."
   },
   {
    "q": "The Biological Weapons Convention came into force in:",
@@ -4902,7 +4942,15 @@
     "2001"
    ],
    "a": 0,
-   "e": "The BWC entered into force in 1975."
+   "e": "The BWC entered into force in 1975.",
+   "q_ta": "உயிரியல் ஆயுத உடன்படிக்கை நடைமுறைக்கு வந்த ஆண்டு:",
+   "o_ta": [
+    "1975",
+    "1925",
+    "1947",
+    "2001"
+   ],
+   "e_ta": "BWC 1975-இல் நடைமுறைக்கு வந்தது."
   },
   {
    "q": "Which is a CDC Category A agent?",
@@ -4913,7 +4961,15 @@
     "Rhizobium"
    ],
    "a": 0,
-   "e": "Anthrax is Category A."
+   "e": "Anthrax is Category A.",
+   "q_ta": "CDC பிரிவு A முகவர் எது?",
+   "o_ta": [
+    "Bacillus anthracis",
+    "Lactobacillus",
+    "Saccharomyces",
+    "Rhizobium"
+   ],
+   "e_ta": "ஆந்த்ராக்ஸ் பிரிவு A-ஐச் சேர்ந்தது."
   },
   {
    "q": "MRSA is an example of a superbug in the sense of:",
@@ -4924,7 +4980,15 @@
     "Metal leaching"
    ],
    "a": 2,
-   "e": "MRSA is antibiotic-resistant."
+   "e": "MRSA is antibiotic-resistant.",
+   "q_ta": "MRSA எவ்வகையில் சூப்பர்பக்குக்கு எடுத்துக்காட்டு?",
+   "o_ta": [
+    "எண்ணெய்ச் சிதைவு",
+    "பிளாஸ்டிக் சிதைவு",
+    "நுண்ணுயிர்க்கொல்லி எதிர்ப்பு",
+    "உலோக வடிகட்டல்"
+   ],
+   "e_ta": "MRSA நுண்ணுயிர்க்கொல்லிகளை எதிர்க்கும் தன்மையுடையது."
   },
   {
    "q": "Treatment of excavated contaminated soil in biopiles is:",
@@ -4935,7 +4999,15 @@
     "Ex situ bioremediation"
    ],
    "a": 3,
-   "e": "Excavation and treatment elsewhere is ex situ."
+   "e": "Excavation and treatment elsewhere is ex situ.",
+   "q_ta": "தோண்டி எடுத்த மாசுபட்ட மண்ணை உயிரிக் குவியல்களில் சிகிச்சையளிப்பது:",
+   "o_ta": [
+    "இருந்த இடத்திலேயே உயிரி மாசு நீக்கம்",
+    "தாவரப் பிரித்தெடுப்பு",
+    "இயற்கைத் தணிப்பு",
+    "வேறிடத்தில் உயிரி மாசு நீக்கம்"
+   ],
+   "e_ta": "தோண்டி எடுத்து வேறிடத்தில் சிகிச்சையளிப்பது வேறிட (எக்ஸ் சிட்டு) முறை."
   },
   {
    "q": "The 1925 Geneva Protocol prohibited:",
@@ -4946,7 +5018,15 @@
     "Use of chemical and biological weapons in war"
    ],
    "a": 3,
-   "e": "It banned use, not production; production was banned later by the BWC."
+   "e": "It banned use, not production; production was banned later by the BWC.",
+   "q_ta": "1925 ஜெனீவா நெறிமுறை தடை செய்தது:",
+   "o_ta": [
+    "உயிரியல் ஆயுதங்களின் உற்பத்தியை",
+    "நுண்ணுயிர்களுக்குக் காப்புரிமை வழங்குவதை",
+    "மரபணுத் திருத்தத்தை",
+    "போரில் வேதியியல், உயிரியல் ஆயுதங்களைப் பயன்படுத்துவதை"
+   ],
+   "e_ta": "இது பயன்பாட்டைத் தடை செய்தது, உற்பத்தியை அல்ல; உற்பத்தி பின்னர் BWC-ஆல் தடை செய்யப்பட்டது."
   }
  ],
  "transgenic_animal_technology.html": [
@@ -4959,7 +5039,15 @@
     "A viral protein"
    ],
    "a": 0,
-   "e": "A transgene is a foreign gene inserted into the genome and (in transgenesis) passed through the germ line."
+   "e": "A transgene is a foreign gene inserted into the genome and (in transgenesis) passed through the germ line.",
+   "q_ta": "மாற்றுமரபணு என்பது:",
+   "o_ta": [
+    "ஓர் உயிரினத்துக்குள் நிலையாகச் செலுத்தப்பட்ட அயல் மரபணு",
+    "திடீர்மாற்றம் அடைந்த நிறமூர்த்தம்",
+    "மரபணுத்தொகையிலிருந்து நீக்கப்பட்ட மரபணு",
+    "வைரஸ் புரதம்"
+   ],
+   "e_ta": "மாற்றுமரபணு என்பது மரபணுத்தொகையில் செருகப்பட்டு, (மாற்றுமரபணுவாக்கத்தில்) இனச்செல் வரிசை வழி கடத்தப்படும் அயல் மரபணு."
   },
   {
    "q": "The commonest method of producing transgenic mice is:",
@@ -4970,7 +5058,15 @@
     "Conjugation"
    ],
    "a": 1,
-   "e": "DNA is injected into the male pronucleus of a fertilised egg."
+   "e": "DNA is injected into the male pronucleus of a fertilised egg.",
+   "q_ta": "மாற்றுமரபணுச் சுண்டெலிகளை உருவாக்கும் மிகப் பொதுவான முறை:",
+   "o_ta": [
+    "விந்தணு மின்துளையிடல்",
+    "முன்கரு நுண்ணூசி செலுத்தல்",
+    "மரபணுத் துப்பாக்கி",
+    "இணைவு"
+   ],
+   "e_ta": "கருவுற்ற முட்டையின் ஆண் முன்கருவுக்குள் DNA செலுத்தப்படுகிறது."
   },
   {
    "q": "Knock-out mice are produced by:",
@@ -4981,7 +5077,15 @@
     "Feeding antisense RNA"
    ],
    "a": 1,
-   "e": "Gene targeting in ES cells allows a chosen gene to be disrupted."
+   "e": "Gene targeting in ES cells allows a chosen gene to be disrupted.",
+   "q_ta": "நாக்-அவுட் சுண்டெலிகள் உருவாக்கப்படுவது:",
+   "o_ta": [
+    "முட்டைகளில் தற்போக்கு ஒருங்கிணைப்பால்",
+    "ES செல்களில் ஹோமாலஜி மறுசேர்க்கை வழி மரபணு இலக்கிடலால்",
+    "முதிர் செல்களிலிருந்து குளோனிங்கால்",
+    "எதிர்உணர்வு RNA ஊட்டுவதால்"
+   ],
+   "e_ta": "ES செல்களில் மரபணு இலக்கிடல் தேர்ந்தெடுத்த மரபணுவைச் சிதைக்க அனுமதிக்கிறது."
   },
   {
    "q": "In the targeting vector, the tk gene is used for:",
@@ -4992,7 +5096,15 @@
     "Promoting expression"
    ],
    "a": 2,
-   "e": "tk lies outside the homology arms; cells with random integration retain it and are killed by ganciclovir."
+   "e": "tk lies outside the homology arms; cells with random integration retain it and are killed by ganciclovir.",
+   "q_ta": "இலக்கிடல் தாங்கிக்கடத்தியில் tk மரபணு பயன்படுவது:",
+   "o_ta": [
+    "நேர்மறைத் தேர்வுக்கு",
+    "திசுவுக்கு அடையாளமிட",
+    "தற்போக்கு ஒருங்கிணைப்புக்கு எதிரான எதிர்மறைத் தேர்வுக்கு",
+    "வெளிப்பாட்டை ஊக்குவிக்க"
+   ],
+   "e_ta": "tk ஹோமாலஜி கைகளுக்கு வெளியே அமைந்துள்ளது; தற்போக்கு ஒருங்கிணைப்பு நடந்த செல்கள் அதைத் தக்கவைத்து, கேன்சிக்ளோவிரால் கொல்லப்படுகின்றன."
   },
   {
    "q": "Dolly was cloned from a:",
@@ -5003,7 +5115,15 @@
     "Embryonic stem cell"
    ],
    "a": 1,
-   "e": "Dolly was derived from an adult mammary gland cell."
+   "e": "Dolly was derived from an adult mammary gland cell.",
+   "q_ta": "டாலி எதிலிருந்து குளோன் செய்யப்பட்டது?",
+   "o_ta": [
+    "கருவுற்ற முட்டை",
+    "பாலூட்டிச் சுரப்பிச் செல்",
+    "செம்மறிக் குட்டியின் தோல் இழைம உருவாக்கி",
+    "கருநிலைத் தண்டு செல்"
+   ],
+   "e_ta": "டாலி முதிர் பாலூட்டிச் சுரப்பிச் செல்லிலிருந்து உருவாக்கப்பட்டது."
   },
   {
    "q": "The technique used to produce Dolly is:",
@@ -5014,7 +5134,15 @@
     "Somatic cell nuclear transfer"
    ],
    "a": 3,
-   "e": "A somatic nucleus was transferred into an enucleated egg: SCNT."
+   "e": "A somatic nucleus was transferred into an enucleated egg: SCNT.",
+   "q_ta": "டாலியை உருவாக்கப் பயன்படுத்தப்பட்ட நுட்பம்:",
+   "o_ta": [
+    "மரபணு நாக்-அவுட்",
+    "DNA நுண்ணூசி செலுத்தல்",
+    "உடலுக்கு வெளியே கருவுறுதல் மட்டும்",
+    "உடல் செல் உட்கரு மாற்றம்"
+   ],
+   "e_ta": "உடல் செல்லின் உட்கரு நீக்கப்பட்ட முட்டைக்குள் மாற்றப்பட்டது: SCNT."
   },
   {
    "q": "The first \"super mouse\" carried the gene for:",
@@ -5025,7 +5153,15 @@
     "Rat growth hormone"
    ],
    "a": 3,
-   "e": "Palmiter and Brinster (1982) used rat growth hormone under the metallothionein promoter."
+   "e": "Palmiter and Brinster (1982) used rat growth hormone under the metallothionein promoter.",
+   "q_ta": "முதல் 'சூப்பர் சுண்டெலி' எந்த மரபணுவைச் சுமந்தது?",
+   "o_ta": [
+    "மனித இன்சுலின்",
+    "Bt நச்சு",
+    "லாக்டோஃபெரின்",
+    "எலி வளர்ச்சி இயக்குநீர்"
+   ],
+   "e_ta": "பால்மர், பிரிண்ட்சர் (1982) மெட்டலோதயோனீன் ஊக்குவிப்பியின் கீழ் எலி வளர்ச்சி இயக்குநீரைப் பயன்படுத்தினர்."
   },
   {
    "q": "To express a human protein in milk, the transgene is joined to a promoter from:",
@@ -5036,7 +5172,15 @@
     "A bacterial operon"
    ],
    "a": 0,
-   "e": "A mammary-specific promoter restricts expression to the udder and secretion into milk."
+   "e": "A mammary-specific promoter restricts expression to the udder and secretion into milk.",
+   "q_ta": "பாலில் மனிதப் புரதத்தை வெளிப்படுத்த, மாற்றுமரபணு எதன் ஊக்குவிப்பியுடன் இணைக்கப்படுகிறது?",
+   "o_ta": [
+    "β-கேசீன் போன்ற பாலூட்டிச் சுரப்பி-சார்ந்த மரபணு",
+    "மெட்டலோதயோனீன் மட்டும்",
+    "வைரஸ் ஊக்குவிப்பி",
+    "பாக்டீரிய ஓபரான்"
+   ],
+   "e_ta": "பாலூட்டிச் சுரப்பி-சார்ந்த ஊக்குவிப்பி வெளிப்பாட்டைப் பால்மடிக்கு மட்டுப்படுத்தி, பாலில் சுரக்கச் செய்கிறது."
   },
   {
    "q": "ATryn, produced in transgenic goats, is recombinant human:",
@@ -5047,7 +5191,15 @@
     "Factor VIII"
    ],
    "a": 0,
-   "e": "ATryn is recombinant human antithrombin."
+   "e": "ATryn is recombinant human antithrombin.",
+   "q_ta": "மாற்றுமரபணு வெள்ளாடுகளில் உற்பத்தி செய்யப்படும் ATryn என்பது மறுசேர்க்கை மனித:",
+   "o_ta": [
+    "ஆன்டிதிராம்பின்",
+    "இன்சுலின்",
+    "வளர்ச்சி இயக்குநீர்",
+    "காரணி VIII"
+   ],
+   "e_ta": "ATryn மறுசேர்க்கை மனித ஆன்டிதிராம்பின்."
   },
   {
    "q": "The 2007 Nobel Prize for gene targeting in mice was shared by:",
@@ -5058,7 +5210,15 @@
     "Doudna, Charpentier, Zhang"
    ],
    "a": 2,
-   "e": "Mario Capecchi, Martin Evans and Oliver Smithies won the 2007 Nobel Prize."
+   "e": "Mario Capecchi, Martin Evans and Oliver Smithies won the 2007 Nobel Prize.",
+   "q_ta": "சுண்டெலிகளில் மரபணு இலக்கிடலுக்கான 2007 நோபல் பரிசு யாரிடையே பகிரப்பட்டது?",
+   "o_ta": [
+    "Wilmut, Campbell, Parton",
+    "Watson, Crick, Wilkins",
+    "Capecchi, Evans, Smithies",
+    "Doudna, Charpentier, Zhang"
+   ],
+   "e_ta": "மாரியோ கபெச்சி, மார்ட்டின் எவன்ஸ், ஆலிவர் ஸ்மித்தீஸ் ஆகியோர் 2007 நோபல் பரிசை வென்றனர்."
   }
  ],
  "vectors_genetic_engineering.html": [
@@ -5071,7 +5231,15 @@
     "48,502 bp"
    ],
    "a": 2,
-   "e": "pBR322 is 4,361 base pairs in size. It was one of the first artificial plasmid cloning vectors constructed and is a standard reference for plasmid vectors."
+   "e": "pBR322 is 4,361 base pairs in size. It was one of the first artificial plasmid cloning vectors constructed and is a standard reference for plasmid vectors.",
+   "q_ta": "pBR322 பிளாஸ்மிடின் அளவு என்ன?",
+   "o_ta": [
+    "2,686 bp",
+    "6,407 bp",
+    "4,361 bp",
+    "48,502 bp"
+   ],
+   "e_ta": "pBR322 4,361 காரச்சோடிகள் அளவு கொண்டது. இது உருவாக்கப்பட்ட முதல் செயற்கைப் பிளாஸ்மிடு குளோனிங் தாங்கிக்கடத்திகளுள் ஒன்று; பிளாஸ்மிடு தாங்கிக்கடத்திகளுக்கான தரநிலைக் குறிப்பு."
   },
   {
    "q": "Which two antibiotic resistance genes does pBR322 carry?",
@@ -5082,7 +5250,15 @@
     "Ampicillin and kanamycin"
    ],
    "a": 0,
-   "e": "pBR322 carries the ampicillin resistance (amp^r) gene and the tetracycline resistance (tet^r) gene. Both serve as selectable markers for identifying transformed cells and distinguishing recombinant from non-recombinant clones."
+   "e": "pBR322 carries the ampicillin resistance (amp^r) gene and the tetracycline resistance (tet^r) gene. Both serve as selectable markers for identifying transformed cells and distinguishing recombinant from non-recombinant clones.",
+   "q_ta": "pBR322 சுமக்கும் இரு நுண்ணுயிர்க்கொல்லி எதிர்ப்பு மரபணுக்கள் எவை?",
+   "o_ta": [
+    "ஆம்பிசிலினும் டெட்ராசைக்ளினும்",
+    "கனாமைசினும் குளோராம்பெனிகாலும்",
+    "ஸ்ட்ரெப்டோமைசினும் நியோமைசினும்",
+    "ஆம்பிசிலினும் கனாமைசினும்"
+   ],
+   "e_ta": "pBR322 ஆம்பிசிலின் எதிர்ப்பு (amp^r) மரபணுவையும் டெட்ராசைக்ளின் எதிர்ப்பு (tet^r) மரபணுவையும் சுமக்கிறது. இரண்டும் உருமாறிய செல்களை அடையாளம் காணவும், மறுசேர்க்கை, மறுசேர்க்கையற்ற குளோன்களை வேறுபடுத்தவும் தேர்வுக் குறிப்பான்களாகப் பயன்படுகின்றன."
   },
   {
    "q": "The Ti plasmid is found naturally in which organism?",
@@ -5093,7 +5269,15 @@
     "Pseudomonas aeruginosa"
    ],
    "a": 1,
-   "e": "The Ti (Tumour-inducing) plasmid is naturally found in Agrobacterium tumefaciens, a soil bacterium that causes crown gall disease in dicotyledonous plants."
+   "e": "The Ti (Tumour-inducing) plasmid is naturally found in Agrobacterium tumefaciens, a soil bacterium that causes crown gall disease in dicotyledonous plants.",
+   "q_ta": "Ti பிளாஸ்மிடு இயற்கையாக எந்த உயிரினத்தில் காணப்படுகிறது?",
+   "o_ta": [
+    "Escherichia coli",
+    "Agrobacterium tumefaciens",
+    "Bacillus subtilis",
+    "Pseudomonas aeruginosa"
+   ],
+   "e_ta": "Ti (கட்டித் தூண்டு) பிளாஸ்மிடு இயற்கையாக Agrobacterium tumefaciens-இல் காணப்படுகிறது; இது இருவிதையிலைத் தாவரங்களில் கிரவுன் கால் நோயை ஏற்படுத்தும் மண் பாக்டீரியா."
   },
   {
    "q": "Which region of the Ti plasmid integrates into the plant genome?",
@@ -5104,7 +5288,15 @@
     "T-DNA"
    ],
    "a": 3,
-   "e": "T-DNA (Transfer DNA), approximately 25 kb in size and flanked by Left Border (LB) and Right Border (RB) sequences, is the region of the Ti plasmid that is excised and stably integrated into the plant nuclear genome."
+   "e": "T-DNA (Transfer DNA), approximately 25 kb in size and flanked by Left Border (LB) and Right Border (RB) sequences, is the region of the Ti plasmid that is excised and stably integrated into the plant nuclear genome.",
+   "q_ta": "Ti பிளாஸ்மிடின் எந்தப் பகுதி தாவர மரபணுத்தொகையில் ஒருங்கிணைகிறது?",
+   "o_ta": [
+    "vir பகுதி",
+    "ori பகுதி",
+    "ஓபைன் சிதைவுப் பகுதி",
+    "T-DNA"
+   ],
+   "e_ta": "T-DNA (மாற்று DNA), தோராயமாக 25 kb அளவுடையது, இடது எல்லை (LB), வலது எல்லை (RB) வரிசைகளால் சூழப்பட்டது; இது Ti பிளாஸ்மிடிலிருந்து வெட்டப்பட்டு தாவரக் கரு மரபணுத்தொகையில் நிலையாக ஒருங்கிணையும் பகுதி."
   },
   {
    "q": "What is the approximate insert capacity of lambda phage replacement vectors?",
@@ -5115,7 +5307,15 @@
     "Up to 50 kb"
    ],
    "a": 0,
-   "e": "Lambda phage replacement vectors can accommodate up to approximately 23 kb of foreign DNA. This is achieved by removing the non-essential 'stuffer' fragment (15 kb, 22–38 kb region) and replacing it with insert DNA."
+   "e": "Lambda phage replacement vectors can accommodate up to approximately 23 kb of foreign DNA. This is achieved by removing the non-essential 'stuffer' fragment (15 kb, 22–38 kb region) and replacing it with insert DNA.",
+   "q_ta": "லாம்டா ஃபாஜ் பதிலீட்டுத் தாங்கிக்கடத்திகளின் தோராய உட்செருகு கொள்ளளவு என்ன?",
+   "o_ta": [
+    "23 kb வரை",
+    "5 kb வரை",
+    "10 kb வரை",
+    "50 kb வரை"
+   ],
+   "e_ta": "லாம்டா ஃபாஜ் பதிலீட்டுத் தாங்கிக்கடத்திகள் தோராயமாக 23 kb வரை அயல் DNA-வை ஏற்க முடியும். இன்றியமையாத் தேவையற்ற 'ஸ்டஃபர்' துண்டை (15 kb, 22–38 kb பகுதி) நீக்கி, உட்செருகு DNA-வால் மாற்றுவதன் மூலம் இது சாத்தியமாகிறது."
   },
   {
    "q": "Lambda phage DNA has short single-stranded sequences called _____ at both ends of the linear genome.",
@@ -5126,7 +5326,15 @@
     "cos sites"
    ],
    "a": 3,
-   "e": "Lambda phage linear DNA has 12-nucleotide single-stranded cohesive ends called cos (cohesive end) sites at both termini. These cos sites allow the linear DNA to circularize inside the host cell and are required for in vitro packaging of recombinant lambda DNA."
+   "e": "Lambda phage linear DNA has 12-nucleotide single-stranded cohesive ends called cos (cohesive end) sites at both termini. These cos sites allow the linear DNA to circularize inside the host cell and are required for in vitro packaging of recombinant lambda DNA.",
+   "q_ta": "லாம்டா ஃபாஜ் DNA-வின் நேரியல் மரபணுத்தொகையின் இரு முனைகளிலும் உள்ள குறுகிய ஒற்றை இழை வரிசைகள் _____ எனப்படும்.",
+   "o_ta": [
+    "ori வரிசைகள்",
+    "T-DNA எல்லைகள்",
+    "MCS இடங்கள்",
+    "cos இடங்கள்"
+   ],
+   "e_ta": "லாம்டா ஃபாஜின் நேரியல் DNA-வின் இரு முனைகளிலும் 12 நியுக்ளியோடைடு ஒற்றை இழை ஒட்டும் முனைகள் உள்ளன; இவை cos (cohesive end) இடங்கள் எனப்படுகின்றன. இந்த cos இடங்கள் நேரியல் DNA-வை விருந்தோம்பி செல்லுக்குள் வட்டமாக்க அனுமதிக்கின்றன; மறுசேர்க்கை லாம்டா DNA-வின் உடலுக்கு வெளியேயான பொதிவுக்கும் இவை தேவை."
   },
   {
    "q": "M13 phage has a genome composed of:",
@@ -5137,7 +5345,15 @@
     "Linear single-stranded RNA"
    ],
    "a": 0,
-   "e": "M13 phage has a circular single-stranded DNA (ssDNA) genome of approximately 6,407 nucleotides. This ssDNA is packaged into the filamentous phage particle and is the basis for M13's use in DNA sequencing and site-directed mutagenesis."
+   "e": "M13 phage has a circular single-stranded DNA (ssDNA) genome of approximately 6,407 nucleotides. This ssDNA is packaged into the filamentous phage particle and is the basis for M13's use in DNA sequencing and site-directed mutagenesis.",
+   "q_ta": "M13 ஃபாஜின் மரபணுத்தொகை எதனால் ஆனது?",
+   "o_ta": [
+    "வட்ட ஒற்றை இழை DNA",
+    "நேரியல் இரட்டை இழை DNA",
+    "வட்ட இரட்டை இழை DNA",
+    "நேரியல் ஒற்றை இழை RNA"
+   ],
+   "e_ta": "M13 ஃபாஜ் தோராயமாக 6,407 நியுக்ளியோடைடுகள் கொண்ட வட்ட ஒற்றை இழை DNA (ssDNA) மரபணுத்தொகையைக் கொண்டுள்ளது. இந்த ssDNA இழை போன்ற ஃபாஜ் துகளுக்குள் பொதியப்படுகிறது; DNA வரிசையாக்கத்திலும் தளம்-சார்ந்த திடீர்மாற்றத் தூண்டலிலும் M13 பயன்படுவதற்கு இதுவே அடிப்படை."
   },
   {
    "q": "Insertional inactivation in pBR322 refers to:",
@@ -5148,7 +5364,15 @@
     "Inserting a reporter gene into the plasmid backbone"
    ],
    "a": 1,
-   "e": "Insertional inactivation refers to the strategy where foreign DNA is cloned into a restriction site located within a marker gene (e.g., tet^r gene in pBR322), disrupting its function. Recombinant cells lose tetracycline resistance but retain ampicillin resistance, allowing identification of clones with inserts."
+   "e": "Insertional inactivation refers to the strategy where foreign DNA is cloned into a restriction site located within a marker gene (e.g., tet^r gene in pBR322), disrupting its function. Recombinant cells lose tetracycline resistance but retain ampicillin resistance, allowing identification of clones with inserts.",
+   "q_ta": "pBR322-இல் உட்செருகல் செயலிழப்பு என்பது:",
+   "o_ta": [
+    "ஊக்குவிப்பி வரிசையைச் செருகி மரபணுவைச் செயல்படுத்துதல்",
+    "அயல் DNA-வை அதன் கட்டுறு இடத்தில் செருகி எதிர்ப்பு மரபணுவைச் சிதைத்தல்",
+    "முழுப் பிளாஸ்மிடையும் விருந்தோம்பி நிறமூர்த்தத்தில் செருகுதல்",
+    "பிளாஸ்மிடு முதுகெலும்பில் அறிவிப்பு மரபணுவைச் செருகுதல்"
+   ],
+   "e_ta": "உட்செருகல் செயலிழப்பு என்பது, குறிப்பான் மரபணுவுக்குள் (எ.கா. pBR322-இல் tet^r மரபணு) அமைந்துள்ள கட்டுறு இடத்தில் அயல் DNA குளோனிடப்பட்டு அதன் செயல்பாட்டைச் சிதைக்கும் உத்தி. மறுசேர்க்கைச் செல்கள் டெட்ராசைக்ளின் எதிர்ப்பை இழந்து ஆம்பிசிலின் எதிர்ப்பைத் தக்கவைப்பதால், உட்செருகுடைய குளோன்களை அடையாளம் காண முடிகிறது."
   },
   {
    "q": "Which type of plasmid carries genes for resistance to antibiotics and is the basis for selectable markers in cloning vectors?",
@@ -5159,7 +5383,15 @@
     "Degradative plasmid"
    ],
    "a": 1,
-   "e": "Resistance (R) plasmids carry genes conferring resistance to one or more antibiotics or heavy metals. These resistance genes are the basis for selectable markers used in most cloning vectors, including pBR322 (amp^r and tet^r)."
+   "e": "Resistance (R) plasmids carry genes conferring resistance to one or more antibiotics or heavy metals. These resistance genes are the basis for selectable markers used in most cloning vectors, including pBR322 (amp^r and tet^r).",
+   "q_ta": "நுண்ணுயிர்க்கொல்லிகளுக்கான எதிர்ப்பு மரபணுக்களைச் சுமந்து, குளோனிங் தாங்கிக்கடத்திகளில் தேர்வுக் குறிப்பான்களுக்கு அடிப்படையாகும் பிளாஸ்மிடு வகை எது?",
+   "o_ta": [
+    "கருவளப் பிளாஸ்மிடு",
+    "எதிர்ப்பு (R) பிளாஸ்மிடு",
+    "Col பிளாஸ்மிடு",
+    "சிதைவு பிளாஸ்மிடு"
+   ],
+   "e_ta": "எதிர்ப்பு (R) பிளாஸ்மிடுகள் ஒன்று அல்லது அதற்கு மேற்பட்ட நுண்ணுயிர்க்கொல்லிகள் அல்லது கனஉலோகங்களுக்கு எதிர்ப்பளிக்கும் மரபணுக்களைச் சுமக்கின்றன. pBR322 (amp^r, tet^r) உட்பட பெரும்பாலான குளோனிங் தாங்கிக்கடத்திகளில் பயன்படும் தேர்வுக் குறிப்பான்களுக்கு இவ்வெதிர்ப்பு மரபணுக்களே அடிப்படை."
   },
   {
    "q": "Which of the following is a UNIQUE advantage of M13 phage vectors over plasmid and lambda phage vectors?",
@@ -5170,7 +5402,15 @@
     "Highest copy number per host cell"
    ],
    "a": 2,
-   "e": "The unique and critical advantage of M13 phage vectors is their ability to produce single-stranded DNA (ssDNA). After replication via the double-stranded replicative form (RF), ssDNA is packaged into secreted phage particles, providing a ready source of ssDNA templates for Sanger chain-termination DNA sequencing and site-directed mutagenesis — applications where other vectors are unsuitable."
+   "e": "The unique and critical advantage of M13 phage vectors is their ability to produce single-stranded DNA (ssDNA). After replication via the double-stranded replicative form (RF), ssDNA is packaged into secreted phage particles, providing a ready source of ssDNA templates for Sanger chain-termination DNA sequencing and site-directed mutagenesis — applications where other vectors are unsuitable.",
+   "q_ta": "பிளாஸ்மிடு, லாம்டா ஃபாஜ் தாங்கிக்கடத்திகளைவிட M13 ஃபாஜ் தாங்கிக்கடத்திகளின் தனித்துவ நன்மை பின்வருவனவற்றுள் எது?",
+   "o_ta": [
+    "மிகப் பெரிய உட்செருகு கொள்ளளவு",
+    "தாவர மரபணுத்தொகையில் ஒருங்கிணைதல்",
+    "வரிசையாக்கம், திடீர்மாற்றத் தூண்டலுக்கான ஒற்றை இழை DNA உற்பத்தி",
+    "விருந்தோம்பி செல்லுக்கு மிக உயர்ந்த படி எண்ணிக்கை"
+   ],
+   "e_ta": "M13 ஃபாஜ் தாங்கிக்கடத்திகளின் தனித்துவமான, முக்கிய நன்மை ஒற்றை இழை DNA (ssDNA) உற்பத்தி செய்யும் திறன். இரட்டை இழை பெருக்க வடிவம் (RF) வழி பெருக்கத்துக்குப் பின், ssDNA சுரக்கப்படும் ஃபாஜ் துகள்களுக்குள் பொதியப்படுகிறது; இது சேங்கர் சங்கிலி முடிவுறுத்தல் DNA வரிசையாக்கத்துக்கும் தளம்-சார்ந்த திடீர்மாற்றத் தூண்டலுக்கும் தயார்நிலை ஒற்றை இழை வார்ப்புருக்களை வழங்குகிறது — பிற தாங்கிக்கடத்திகள் பொருந்தாத பயன்பாடுகள் இவை."
   }
  ],
  "animal_cell_culture.html": [
