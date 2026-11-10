@@ -37,7 +37,7 @@
      "type": "p",
      "text": {
       "en": "Restriction Enzymes & Enzymes Useful for Genetic Engineering",
-      "ta": "கட்டுப்படுத்து நொதிகளும் மரபணுப் பொறியியலுக்குப் பயன்படும் நொதிகளும்",
+      "ta": "ரெஸ்ட்ரிக்ஷன் நொதிகளும் மரபணுப் பொறியியலுக்குப் பயன்படும் நொதிகளும்",
       "ta_status": "draft"
      }
     },
@@ -45,7 +45,7 @@
      "type": "p",
      "text": {
       "en": "A comprehensive interactive learning resource for undergraduate students — covering molecular scissors, DNA tools, and the enzymes that power modern biotechnology.",
-      "ta": "இளநிலை மாணவர்களுக்கான விரிவான ஊடாடும் கற்றல் வளம் — மூலக்கூறுக் கத்தரிகள், DNA கருவிகள் மற்றும் நவீன உயிரித் தொழில்நுட்பத்தை இயக்கும் நொதிகளை உள்ளடக்கியது.",
+      "ta": "இளநிலை மாணவர்களுக்கான விரிவான ஊடாடும் கற்றல் வளம் — மூலக்கூறு கத்தரிகோல்கள், DNA கருவிகள் மற்றும் நவீன உயிரித் தொழில்நுட்பத்தை இயக்கும் நொதிகளை உள்ளடக்கியது.",
       "ta_status": "draft"
      }
     },
@@ -63,32 +63,32 @@
      "items": [
       {
        "en": "Define restriction enzymes and explain their discovery and significance.",
-       "ta": "கட்டுப்படுத்து நொதிகளை வரையறுத்து, அவற்றின் கண்டுபிடிப்பையும் முக்கியத்துவத்தையும் விளக்குதல்.",
+       "ta": "ரெஸ்ட்ரிக்ஷன் நொதிகளை வரையறுத்து, அவற்றின் கண்டுபிடிப்பையும் முக்கியத்துவத்தையும் விளக்குதல்.",
        "ta_status": "draft"
       },
       {
        "en": "Describe palindromic sequences, sticky ends, and blunt ends.",
-       "ta": "பாலிண்ட்ரோம் வரிசைகள், ஒட்டும் முனைகள் மற்றும் மழுங்கிய முனைகளை விவரித்தல்.",
+       "ta": "முன்பின் ஒத்த வரிசைகள், ஒட்டும் முனைகள் மற்றும் மழுங்கிய முனைகளை விவரித்தல்.",
        "ta_status": "draft"
       },
       {
        "en": "Classify Types I, II, and III restriction enzymes.",
-       "ta": "வகை I, II மற்றும் III கட்டுப்படுத்து நொதிகளை வகைப்படுத்துதல்.",
+       "ta": "வகை I, II மற்றும் III ரெஸ்ட்ரிக்ஷன் நொதிகளை வகைப்படுத்துதல்.",
        "ta_status": "draft"
       },
       {
        "en": "Explain the mechanism of restriction enzyme action.",
-       "ta": "கட்டுப்படுத்து நொதியின் செயல்முறையை விளக்குதல்.",
+       "ta": "ரெஸ்ட்ரிக்ஷன் நொதியின் செயல்முறையை விளக்குதல்.",
        "ta_status": "draft"
       },
       {
        "en": "Describe DNA ligase, polymerase, reverse transcriptase, Taq polymerase, alkaline phosphatase, and nucleases.",
-       "ta": "DNA லைகேஸ், பாலிமரேஸ், ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ், Taq பாலிமரேஸ், அல்கலைன் பாஸ்படேஸ் மற்றும் நியூக்ளியேஸ்களை விவரித்தல்.",
+       "ta": "DNA லைகேஸ், பாலிமரேஸ், ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ், Taq பாலிமரேஸ், அல்கலைன் பாஸ்படேஸ் மற்றும் நியுக்ளியேஸ்களை விவரித்தல்.",
        "ta_status": "draft"
       },
       {
        "en": "Understand the roles of these enzymes in recombinant DNA technology and gene cloning.",
-       "ta": "மறுசேர்க்கை DNA தொழில்நுட்பத்திலும் மரபணுக் குளோனிங்கிலும் இந்நொதிகளின் பங்கைப் புரிந்துகொள்ளுதல்.",
+       "ta": "மறுகூட்டிணைவு DNA தொழில்நுட்பத்திலும் மரபணுக் குளோனிங்கிலும் இந்நொதிகளின் பங்கைப் புரிந்துகொள்ளுதல்.",
        "ta_status": "draft"
       }
      ]
@@ -180,7 +180,7 @@
      "items": [
       {
        "en": "**Cut DNA** at precise locations (restriction enzymes).",
-       "ta": "துல்லியமான இடங்களில் **DNA-வை வெட்டுதல்** (கட்டுப்படுத்து நொதிகள்).",
+       "ta": "துல்லியமான இடங்களில் **DNA-வை வெட்டுதல்** (ரெஸ்ட்ரிக்ஷன் நொதிகள்).",
        "ta_status": "draft"
       },
       {
@@ -222,7 +222,7 @@
    "id": "s04",
    "title": {
     "en": "Restriction Enzymes",
-    "ta": "கட்டுப்படுத்து நொதிகள்",
+    "ta": "ரெஸ்ட்ரிக்ஷன் நொதிகள்",
     "ta_status": "draft"
    },
    "blocks": [
@@ -238,7 +238,7 @@
      "type": "p",
      "text": {
       "en": "Restriction enzymes (also called restriction endonucleases) are enzymes that recognize specific, short DNA sequences and cleave both strands of the DNA at or near the recognition site.",
-      "ta": "கட்டுப்படுத்து நொதிகள் (கட்டுப்படுத்து எண்டோநியூக்ளியேஸ்கள் எனவும் அழைக்கப்படும்) குறிப்பிட்ட குறுகிய DNA வரிசைகளை அடையாளம் கண்டு, அந்த அடையாள இடத்தில் அல்லது அதன் அருகில் DNA-வின் இரு இழைகளையும் வெட்டும் நொதிகளாகும்.",
+      "ta": "ரெஸ்ட்ரிக்ஷன் நொதிகள் (ரெஸ்ட்ரிக்ஷன் எண்டோநியுக்ளியேஸ்கள் எனவும் அழைக்கப்படும்) குறிப்பிட்ட குறுகிய DNA வரிசைகளை அடையாளம் கண்டு, அந்த அடையாள இடத்தில் அல்லது அதன் அருகில் DNA-வின் இரு இழைகளையும் வெட்டும் நொதிகளாகும்.",
       "ta_status": "draft"
      }
     },
@@ -254,7 +254,7 @@
      "type": "p",
      "text": {
       "en": "In the early 1970s, **Werner Arber** (Switzerland) discovered that bacteria produce enzymes that \"restrict\" the growth of foreign viruses (bacteriophages) by cutting their DNA. **Hamilton Smith** isolated the first restriction enzyme (_HindII_) in 1970. **Daniel Nathans** first used restriction enzymes to construct a genetic map. All three scientists shared the **Nobel Prize in Physiology or Medicine in 1978** for this discovery.",
-      "ta": "1970-களின் தொடக்கத்தில் **வெர்னர் ஆர்பர்** (சுவிட்சர்லாந்து), பாக்டீரியாக்கள் அந்நிய வைரஸ்களின் (பாக்டீரியோஃபேஜ்கள்) DNA-வை வெட்டுவதன் மூலம் அவற்றின் வளர்ச்சியைக் \"கட்டுப்படுத்தும்\" நொதிகளை உருவாக்குவதைக் கண்டறிந்தார். **ஹேமில்டன் ஸ்மித்** 1970-ல் முதல் கட்டுப்படுத்து நொதியை (_HindII_) தனித்துப் பிரித்தார். **டேனியல் நாதன்ஸ்** முதன்முதலில் கட்டுப்படுத்து நொதிகளைக் கொண்டு மரபணு வரைபடத்தை உருவாக்கினார். இந்த மூவரும் இக்கண்டுபிடிப்புக்காக **1978-ஆம் ஆண்டு உடலியல் அல்லது மருத்துவத்துக்கான நோபல் பரிசை** பகிர்ந்துகொண்டனர்.",
+      "ta": "1970-களின் தொடக்கத்தில் **வெர்னர் ஆர்பர்** (சுவிட்சர்லாந்து), பாக்டீரியாக்கள் அந்நிய வைரஸ்களின் (பாக்டீரியோஃபேஜ்கள்) DNA-வை வெட்டுவதன் மூலம் அவற்றின் வளர்ச்சியைக் \"கட்டுப்படுத்தும்\" நொதிகளை உருவாக்குவதைக் கண்டறிந்தார். **ஹேமில்டன் ஸ்மித்** 1970-ல் முதல் ரெஸ்ட்ரிக்ஷன் நொதியை (_HindII_) தனித்துப் பிரித்தார். **டேனியல் நாதன்ஸ்** முதன்முதலில் ரெஸ்ட்ரிக்ஷன் நொதிகளைக் கொண்டு மரபணு வரைபடத்தை உருவாக்கினார். இந்த மூவரும் இக்கண்டுபிடிப்புக்காக **1978-ஆம் ஆண்டு உடலியல் அல்லது மருத்துவத்துக்கான நோபல் பரிசை** பகிர்ந்துகொண்டனர்.",
       "ta_status": "draft"
      }
     },
@@ -263,7 +263,7 @@
      "kind": "info",
      "text": {
       "en": "**Biological Role:** In bacteria, restriction enzymes act as a defense mechanism against foreign (viral) DNA. The bacterium's own DNA is protected from cleavage by _methylation_ of bases at restriction sites.",
-      "ta": "**உயிரியல் பங்கு:** பாக்டீரியாக்களில், கட்டுப்படுத்து நொதிகள் அந்நிய (வைரஸ்) DNA-வுக்கு எதிரான தற்காப்புப் பொறியமைவாகச் செயல்படுகின்றன. பாக்டீரியத்தின் சொந்த DNA, கட்டுப்படுத்து இடங்களிலுள்ள காரங்கள் _மெத்திலேற்றம்_ அடைவதால் வெட்டப்படாமல் பாதுகாக்கப்படுகிறது.",
+      "ta": "**உயிரியல் பங்கு:** பாக்டீரியாக்களில், ரெஸ்ட்ரிக்ஷன் நொதிகள் அந்நிய (வைரஸ்) DNA-வுக்கு எதிரான தற்காப்புப் பொறியமைவாகச் செயல்படுகின்றன. பாக்டீரியத்தின் சொந்த DNA, ரெஸ்ட்ரிக்ஷன் இடங்களிலுள்ள காரங்கள் _மெத்திலேற்றம்_ அடைவதால் வெட்டப்படாமல் பாதுகாக்கப்படுகிறது.",
       "ta_status": "draft"
      }
     },
@@ -271,7 +271,7 @@
      "type": "p",
      "text": {
       "en": "**Why Are They Called \"Molecular Scissors\"?**",
-      "ta": "**ஏன் \"மூலக்கூறுக் கத்தரிகள்\" என்று அழைக்கப்படுகின்றன?**",
+      "ta": "**ஏன் \"மூலக்கூறு கத்தரிகோல்கள்\" என்று அழைக்கப்படுகின்றன?**",
       "ta_status": "draft"
      }
     },
@@ -279,7 +279,7 @@
      "type": "p",
      "text": {
       "en": "Just as scissors cut paper at a specific point, restriction enzymes cut DNA at precise, defined sequences with extreme accuracy. This makes them invaluable tools for manipulating DNA in the laboratory — hence the name **molecular scissors**.",
-      "ta": "கத்தரிக்கோல் தாளை ஒரு குறிப்பிட்ட புள்ளியில் வெட்டுவது போல, கட்டுப்படுத்து நொதிகள் DNA-வை வரையறுக்கப்பட்ட குறிப்பிட்ட வரிசைகளில் மிகத் துல்லியமாக வெட்டுகின்றன. ஆய்வகத்தில் DNA-வைக் கையாள்வதற்கு இவை மிகவும் மதிப்புமிக்க கருவிகள் — எனவே **மூலக்கூறுக் கத்தரிகள்** என்ற பெயர்.",
+      "ta": "கத்தரிக்கோல் தாளை ஒரு குறிப்பிட்ட புள்ளியில் வெட்டுவது போல, ரெஸ்ட்ரிக்ஷன் நொதிகள் DNA-வை வரையறுக்கப்பட்ட குறிப்பிட்ட வரிசைகளில் மிகத் துல்லியமாக வெட்டுகின்றன. ஆய்வகத்தில் DNA-வைக் கையாள்வதற்கு இவை மிகவும் மதிப்புமிக்க கருவிகள் — எனவே **மூலக்கூறு கத்தரிகோல்கள்** என்ற பெயர்.",
       "ta_status": "draft"
      }
     },
@@ -287,7 +287,7 @@
      "type": "p",
      "text": {
       "en": "**Recognition Sequence**",
-      "ta": "**அடையாள வரிசை**",
+      "ta": "**அடையாளத் தொடர் வரிசை**",
       "ta_status": "draft"
      }
     },
@@ -295,7 +295,7 @@
      "type": "p",
      "text": {
       "en": "A recognition sequence is a specific 4 to 8 base pair sequence of DNA that a restriction enzyme identifies and binds to before cutting. Most commonly used restriction enzymes recognize **4-base or 6-base** palindromic sequences.",
-      "ta": "அடையாள வரிசை என்பது கட்டுப்படுத்து நொதி வெட்டுவதற்கு முன் அடையாளம் கண்டு பிணைக்கும் 4 முதல் 8 காரணி இணை நீளமுள்ள குறிப்பிட்ட DNA வரிசையாகும். பெரும்பாலும் பயன்படுத்தப்படும் கட்டுப்படுத்து நொதிகள் **4 அல்லது 6 காரங்கள்** கொண்ட பாலிண்ட்ரோம் வரிசைகளை அடையாளம் காண்கின்றன.",
+      "ta": "அடையாளத் தொடர் வரிசை என்பது ரெஸ்ட்ரிக்ஷன் நொதி வெட்டுவதற்கு முன் அடையாளம் கண்டு பிணைக்கும் 4 முதல் 8 காரணி இணை நீளமுள்ள குறிப்பிட்ட DNA வரிசையாகும். பெரும்பாலும் பயன்படுத்தப்படும் ரெஸ்ட்ரிக்ஷன் நொதிகள் **4 அல்லது 6 காரங்கள்** கொண்ட முன்பின் ஒத்த வரிசைகளை அடையாளம் காண்கின்றன.",
       "ta_status": "draft"
      }
     },
@@ -303,7 +303,7 @@
      "type": "p",
      "text": {
       "en": "**Palindromic Sequence**",
-      "ta": "**பாலிண்ட்ரோம் வரிசை**",
+      "ta": "**முன்பின் ஒத்த வரிசை**",
       "ta_status": "draft"
      }
     },
@@ -311,7 +311,7 @@
      "type": "p",
      "text": {
       "en": "A palindromic sequence in DNA is one where the nucleotide sequence on the **5' to 3' strand reads the same as the complementary strand read in the 5' to 3' direction**.",
-      "ta": "DNA-வில் பாலிண்ட்ரோம் வரிசை என்பது, **5' முதல் 3' இழையில் வாசிக்கும் நியூக்ளியோடைடு வரிசையும், நிரப்பு இழையை 5' முதல் 3' திசையில் வாசிக்கும் வரிசையும் ஒன்றாகவே இருக்கும்** வரிசையாகும்.",
+      "ta": "DNA-வில் முன்பின் ஒத்த வரிசை என்பது, **5' முதல் 3' இழையில் வாசிக்கும் நியூக்ளியோடைடு வரிசையும், நிரப்பு இழையை 5' முதல் 3' திசையில் வாசிக்கும் வரிசையும் ஒன்றாகவே இருக்கும்** வரிசையாகும்.",
       "ta_status": "draft"
      }
     },
@@ -320,7 +320,7 @@
      "kind": "warn",
      "text": {
       "en": "**Example — EcoRI recognition site:**\n5'–G A A T T C–3'\n3'–C T T A A G–5'\nReading the top strand 5' to 3': **GAATTC**\nReading the bottom strand 5' to 3': **GAATTC** — same! This is the palindromic property.",
-      "ta": "**எடுத்துக்காட்டு — EcoRI அடையாளத் தளம்:**\n5'–G A A T T C–3'\n3'–C T T A A G–5'\nமேல் இழையை 5' முதல் 3' வரை வாசித்தால்: **GAATTC**\nகீழ் இழையை 5' முதல் 3' வரை வாசித்தால்: **GAATTC** — ஒன்றே! இதுவே பாலிண்ட்ரோம் பண்பு.",
+      "ta": "**எடுத்துக்காட்டு — EcoRI அடையாளத் தளம்:**\n5'–G A A T T C–3'\n3'–C T T A A G–5'\nமேல் இழையை 5' முதல் 3' வரை வாசித்தால்: **GAATTC**\nகீழ் இழையை 5' முதல் 3' வரை வாசித்தால்: **GAATTC** — ஒன்றே! இதுவே முன்பின் ஒத்த பண்பு.",
       "ta_status": "draft"
      }
     },
@@ -336,7 +336,7 @@
      "type": "p",
      "text": {
       "en": "**Sticky Ends (Cohesive Ends)**",
-      "ta": "**ஒட்டும் முனைகள் (ஒட்டுறவு முனைகள்)**",
+      "ta": "**ஒட்டும் முனைகள் (ஒட்டிணைவான முனைகள்)**",
       "ta_status": "draft"
      }
     },
@@ -464,7 +464,7 @@
      "type": "p",
      "text": {
       "en": "**Types of Restriction Enzymes**",
-      "ta": "**கட்டுப்படுத்து நொதிகளின் வகைகள்**",
+      "ta": "**ரெஸ்ட்ரிக்ஷன் நொதிகளின் வகைகள்**",
       "ta_status": "draft"
      }
     },
@@ -480,7 +480,7 @@
      "type": "p",
      "text": {
       "en": "Type II ⭐ Recognize and cut DNA at or near the palindromic recognition site. Cut both strands precisely. Do NOT require ATP. ⭐ Widely used in recombinant DNA technology.",
-      "ta": "வகை II ⭐ பாலிண்ட்ரோம் அடையாள இடத்தில் அல்லது அதன் அருகில் DNA-வை அடையாளம் கண்டு வெட்டும். இரு இழைகளையும் துல்லியமாக வெட்டும். ATP தேவையில்லை. ⭐ மறுசேர்க்கை DNA தொழில்நுட்பத்தில் பரவலாகப் பயன்படுகிறது.",
+      "ta": "வகை II ⭐ முன்பின் ஒத்த அடையாள இடத்தில் அல்லது அதன் அருகில் DNA-வை அடையாளம் கண்டு வெட்டும். இரு இழைகளையும் துல்லியமாக வெட்டும். ATP தேவையில்லை. ⭐ மறுகூட்டிணைவு DNA தொழில்நுட்பத்தில் பரவலாகப் பயன்படுகிறது.",
       "ta_status": "draft"
      }
     },
@@ -496,7 +496,7 @@
      "type": "p",
      "text": {
       "en": "**Common Examples of Restriction Enzymes**",
-      "ta": "**கட்டுப்படுத்து நொதிகளின் பொதுவான எடுத்துக்காட்டுகள்**",
+      "ta": "**ரெஸ்ட்ரிக்ஷன் நொதிகளின் பொதுவான எடுத்துக்காட்டுகள்**",
       "ta_status": "draft"
      }
     },
@@ -515,7 +515,7 @@
       },
       {
        "en": "Recognition Sequence",
-       "ta": "அடையாள வரிசை",
+       "ta": "அடையாளத் தொடர் வரிசை",
        "ta_status": "draft"
       },
       {
@@ -653,7 +653,7 @@
    "id": "s05",
    "title": {
     "en": "Mechanism of Restriction Enzyme Action",
-    "ta": "கட்டுப்படுத்து நொதி செயல்படும் முறை",
+    "ta": "ரெஸ்ட்ரிக்ஷன் நொதி செயல்படும் முறை",
     "ta_status": "draft"
    },
    "blocks": [
@@ -661,7 +661,7 @@
      "type": "p",
      "text": {
       "en": "**Step-by-Step: How Restriction Enzymes Work**",
-      "ta": "**படிப்படியாக: கட்டுப்படுத்து நொதிகள் எவ்வாறு செயல்படுகின்றன**",
+      "ta": "**படிப்படியாக: ரெஸ்ட்ரிக்ஷன் நொதிகள் எவ்வாறு செயல்படுகின்றன**",
       "ta_status": "draft"
      }
     },
@@ -671,12 +671,12 @@
      "items": [
       {
        "en": "**Scanning:** The restriction enzyme slides along the double-stranded DNA, scanning for its specific recognition sequence.",
-       "ta": "**தேடுதல்:** கட்டுப்படுத்து நொதி இரட்டை இழை DNA-வின் மீது நகர்ந்து, தனக்குரிய அடையாள வரிசையைத் தேடுகிறது.",
+       "ta": "**தேடுதல்:** ரெஸ்ட்ரிக்ஷன் நொதி இரட்டை இழை DNA-வின் மீது நகர்ந்து, தனக்குரிய அடையாளத் தொடர் வரிசையைத் தேடுகிறது.",
        "ta_status": "draft"
       },
       {
        "en": "**Recognition:** When the enzyme encounters its palindromic recognition site, it binds tightly to the DNA through specific hydrogen bonds between the enzyme's amino acids and the DNA bases.",
-       "ta": "**அடையாளம் காணுதல்:** நொதி தன் பாலிண்ட்ரோம் அடையாளத் தளத்தை அடையும்போது, நொதியின் அமினோ அமிலங்களுக்கும் DNA காரங்களுக்கும் இடையிலான குறிப்பிட்ட ஹைட்ரஜன் பிணைப்புகள் மூலம் DNA-வுடன் இறுக்கமாகப் பிணைகிறது.",
+       "ta": "**அடையாளம் காணுதல்:** நொதி தன் முன்பின் ஒத்த அடையாளத் தளத்தை அடையும்போது, நொதியின் அமினோ அமிலங்களுக்கும் DNA காரங்களுக்கும் இடையிலான குறிப்பிட்ட ஹைட்ரஜன் பிணைப்புகள் மூலம் DNA-வுடன் இறுக்கமாகப் பிணைகிறது.",
        "ta_status": "draft"
       },
       {
@@ -686,7 +686,7 @@
       },
       {
        "en": "**Cleavage:** The enzyme cleaves both strands of the DNA. Type II enzymes typically cut within or adjacent to the recognition sequence, using Mg²⁺ ions as essential cofactors.",
-       "ta": "**வெட்டுதல்:** நொதி DNA-வின் இரு இழைகளையும் வெட்டுகிறது. வகை II நொதிகள் பொதுவாக அடையாள வரிசைக்குள் அல்லது அதை ஒட்டி, Mg²⁺ அயனிகளை இன்றியமையாத துணைக்காரணியாகப் பயன்படுத்தி வெட்டுகின்றன.",
+       "ta": "**வெட்டுதல்:** நொதி DNA-வின் இரு இழைகளையும் வெட்டுகிறது. வகை II நொதிகள் பொதுவாக அடையாளத் தொடர் வரிசைக்குள் அல்லது அதை ஒட்டி, Mg²⁺ அயனிகளை இன்றியமையாத துணைக்காரணியாகப் பயன்படுத்தி வெட்டுகின்றன.",
        "ta_status": "draft"
       },
       {
@@ -734,7 +734,7 @@
      "type": "p",
      "text": {
       "en": "**Importance of Precise Cutting in Recombinant DNA Technology**",
-      "ta": "**மறுசேர்க்கை DNA தொழில்நுட்பத்தில் துல்லியமான வெட்டின் முக்கியத்துவம்**",
+      "ta": "**மறுகூட்டிணைவு DNA தொழில்நுட்பத்தில் துல்லியமான வெட்டின் முக்கியத்துவம்**",
       "ta_status": "draft"
      }
     },
@@ -743,7 +743,7 @@
      "kind": "tip",
      "text": {
       "en": "**Why precision matters:**\n• Precise cuts allow **specific gene fragments** to be isolated without damaging the gene of interest.\n• Sticky ends produced by the same enzyme can be joined by **DNA ligase**, enabling directed cloning.\n• The same restriction enzyme used on both the **insert DNA and vector** ensures compatible ends for ligation.\n• Restriction mapping allows scientists to **locate genes** and create **genomic libraries**.",
-      "ta": "**துல்லியம் ஏன் முக்கியம்:**\n• துல்லியமான வெட்டுகள், தேவையான மரபணுவைச் சிதைக்காமல் **குறிப்பிட்ட மரபணுத் துண்டுகளைத்** தனித்துப் பிரிக்க உதவுகின்றன.\n• ஒரே நொதி உருவாக்கும் ஒட்டும் முனைகளை **DNA லைகேஸ்** இணைக்க முடியும்; இதனால் திசைபடுத்தப்பட்ட குளோனிங் சாத்தியமாகிறது.\n• **செருகு DNA மற்றும் கடத்தி (வெக்டர்)** இரண்டிலும் ஒரே கட்டுப்படுத்து நொதியைப் பயன்படுத்துவது இணைப்புக்குப் பொருந்தும் முனைகளை உறுதிசெய்கிறது.\n• கட்டுப்படுத்து வரைபடமாக்கல் மூலம் அறிவியலாளர்கள் **மரபணுக்களின் இருப்பிடத்தைக் கண்டறியவும்** **மரபணுத் தொகுதி நூலகங்களை** உருவாக்கவும் முடிகிறது.",
+      "ta": "**துல்லியம் ஏன் முக்கியம்:**\n• துல்லியமான வெட்டுகள், தேவையான மரபணுவைச் சிதைக்காமல் **குறிப்பிட்ட மரபணுத் துண்டுகளைத்** தனித்துப் பிரிக்க உதவுகின்றன.\n• ஒரே நொதி உருவாக்கும் ஒட்டும் முனைகளை **DNA லைகேஸ்** இணைக்க முடியும்; இதனால் திசைபடுத்தப்பட்ட குளோனிங் சாத்தியமாகிறது.\n• **செருகி DNA மற்றும் தாங்கிக்தாங்கிக்கடத்தி** இரண்டிலும் ஒரே ரெஸ்ட்ரிக்ஷன் நொதியைப் பயன்படுத்துவது இணைப்புக்குப் பொருந்தும் முனைகளை உறுதிசெய்கிறது.\n• ரெஸ்ட்ரிக்ஷன் வரைபடமாக்கல் மூலம் அறிவியலாளர்கள் **மரபணுக்களின் இருப்பிடத்தைக் கண்டறியவும்** **மரபணுத் தொகுதி நூலகங்களை** உருவாக்கவும் முடிகிறது.",
       "ta_status": "draft"
      }
     }
@@ -807,7 +807,7 @@
       },
       {
        "en": "**Key role:** Joins the insert DNA to the vector to form **recombinant DNA**",
-       "ta": "**முக்கியப் பங்கு:** செருகு DNA-வைக் கடத்தியுடன் இணைத்து **மறுசேர்க்கை DNA**-வை உருவாக்குதல்",
+       "ta": "**முக்கியப் பங்கு:** செருகி DNA-வைக் தாங்கிக்கடத்தியுடன் இணைத்து **மறுகூட்டிணைவு DNA**-வை உருவாக்குதல்",
        "ta_status": "draft"
       },
       {
@@ -822,7 +822,7 @@
      "kind": "info",
      "text": {
       "en": "**Analogy:** If restriction enzymes are the scissors that cut DNA, DNA ligase is the \"molecular glue\" that sticks the pieces back together in a precise and covalent manner.",
-      "ta": "**ஒப்புமை:** கட்டுப்படுத்து நொதிகள் DNA-வை வெட்டும் கத்தரிகள் என்றால், DNA லைகேஸ் துண்டுகளைத் துல்லியமாகவும் சகப்பிணைப்பாகவும் மீண்டும் ஒட்டும் \"மூலக்கூற்றுப் பசை\".",
+      "ta": "**ஒப்புமை:** ரெஸ்ட்ரிக்ஷன் நொதிகள் DNA-வை வெட்டும் கத்தரிகள் என்றால், DNA லைகேஸ் துண்டுகளைத் துல்லியமாகவும் சகப்பிணைப்பாகவும் மீண்டும் ஒட்டும் \"மூலக்கூற்றுப் பசை\".",
       "ta_status": "draft"
      }
     },
@@ -861,12 +861,12 @@
       },
       {
        "en": "**Klenow fragment:** Large fragment of DNA Pol I; lacks 5' to 3' exonuclease activity; used to fill 5' overhangs to create blunt ends.",
-       "ta": "**கிளினோவ் துண்டு:** DNA Pol I-இன் பெரிய துண்டு; 5' முதல் 3' எக்சோநியூக்ளியேஸ் செயல்பாடு இல்லை; 5' நீட்சிகளை நிரப்பி மழுங்கிய முனைகளை உருவாக்கப் பயன்படுகிறது.",
+       "ta": "**கிளினோவ் துண்டு:** DNA Pol I-இன் பெரிய துண்டு; 5' முதல் 3' எக்சோநியுக்ளியேஸ் செயல்பாடு இல்லை; 5' நீட்சிகளை நிரப்பி மழுங்கிய முனைகளை உருவாக்கப் பயன்படுகிறது.",
        "ta_status": "draft"
       },
       {
        "en": "**T4 DNA Polymerase:** Has strong 3' to 5' exonuclease activity; used to create blunt ends from recessed 3' ends.",
-       "ta": "**T4 DNA பாலிமரேஸ்:** வலுவான 3' முதல் 5' எக்சோநியூக்ளியேஸ் செயல்பாடு உடையது; உள்தள்ளிய 3' முனைகளிலிருந்து மழுங்கிய முனைகளை உருவாக்கப் பயன்படுகிறது.",
+       "ta": "**T4 DNA பாலிமரேஸ்:** வலுவான 3' முதல் 5' எக்சோநியுக்ளியேஸ் செயல்பாடு உடையது; உள்தள்ளிய 3' முனைகளிலிருந்து மழுங்கிய முனைகளை உருவாக்கப் பயன்படுகிறது.",
        "ta_status": "draft"
       },
       {
@@ -931,7 +931,7 @@
      "kind": "warn",
      "text": {
       "en": "**Why use cDNA?** Prokaryotic hosts (like _E. coli_) cannot splice introns. cDNA made from processed mRNA contains only exon sequences — ready for expression in bacterial systems.",
-      "ta": "**cDNA ஏன் பயன்படுகிறது?** புரோகேரியோட்டு விருந்தோம்பிகளால் (எ.கா. _E. coli_) இன்ட்ரான்களை நீக்க இயலாது. பதப்படுத்தப்பட்ட mRNA-விலிருந்து உருவாக்கப்படும் cDNA எக்சான் வரிசைகளை மட்டுமே கொண்டிருப்பதால் பாக்டீரியா அமைப்புகளில் வெளிப்படுத்தத் தயாராக இருக்கும்.",
+      "ta": "**cDNA ஏன் பயன்படுகிறது?** புரோகேரியோட்டு ஓம்புயிரிகளால் (எ.கா. _E. coli_) இன்ட்ரான்களை நீக்க இயலாது. பதப்படுத்தப்பட்ட mRNA-விலிருந்து உருவாக்கப்படும் cDNA எக்சான் வரிசைகளை மட்டுமே கொண்டிருப்பதால் பாக்டீரியா அமைப்புகளில் வெளிப்படுத்தத் தயாராக இருக்கும்.",
       "ta_status": "draft"
      }
     },
@@ -955,7 +955,7 @@
      "type": "p",
      "text": {
       "en": "Alkaline phosphatase removes the **5'-phosphate group** from the ends of linearized DNA molecules (vectors or fragments).",
-      "ta": "அல்கலைன் பாஸ்படேஸ், நேர்கோட்டாக்கப்பட்ட DNA மூலக்கூறுகளின் (கடத்திகள் அல்லது துண்டுகள்) முனைகளிலுள்ள **5'-பாஸ்பேட் தொகுதியை** நீக்குகிறது.",
+      "ta": "அல்கலைன் பாஸ்படேஸ், நேர்கோட்டாக்கப்பட்ட DNA மூலக்கூறுகளின் (தாங்கிக்கடத்திகள் அல்லது துண்டுகள்) முனைகளிலுள்ள **5'-பாஸ்பேட் தொகுதியை** நீக்குகிறது.",
       "ta_status": "draft"
      }
     },
@@ -970,12 +970,12 @@
       },
       {
        "en": "**Key role:** **Prevents self-ligation** of linearized vector DNA, ensuring that insert DNA must be incorporated for ligation to occur",
-       "ta": "**முக்கியப் பங்கு:** நேர்கோட்டுக் கடத்தி DNA-வின் **தன்னிணைப்பைத் தடுக்கிறது**; இணைப்பு நிகழ செருகு DNA இணைக்கப்பட வேண்டியது கட்டாயமாகிறது",
+       "ta": "**முக்கியப் பங்கு:** நேர்கோட்டுக் தாங்கிக்கடத்தி DNA-வின் **தன்னிணைப்பைத் தடுக்கிறது**; இணைப்பு நிகழ செருகி DNA இணைக்கப்பட வேண்டியது கட்டாயமாகிறது",
        "ta_status": "draft"
       },
       {
        "en": "**Result:** Increases cloning efficiency by reducing background colonies with no insert",
-       "ta": "**விளைவு:** செருகு DNA இல்லாத பின்னணிக் காலனிகளைக் குறைத்துக் குளோனிங் திறனை உயர்த்துகிறது",
+       "ta": "**விளைவு:** செருகி DNA இல்லாத பின்னணிக் காலனிகளைக் குறைத்துக் குளோனிங் திறனை உயர்த்துகிறது",
        "ta_status": "draft"
       }
      ]
@@ -985,7 +985,7 @@
      "kind": "tip",
      "text": {
       "en": "**Important in cloning:** After treating the vector with alkaline phosphatase, it cannot re-ligate with itself. Only when insert DNA (which retains its 5'-phosphate) is added can ligation occur — forcing the formation of recombinant DNA.",
-      "ta": "**குளோனிங்கில் முக்கியத்துவம்:** கடத்தியை அல்கலைன் பாஸ்படேஸால் பதப்படுத்திய பின் அது தன்னுடன் மீண்டும் இணைய இயலாது. 5'-பாஸ்பேட்டைத் தக்கவைத்துள்ள செருகு DNA சேர்க்கப்படும்போது மட்டுமே இணைப்பு நிகழ்கிறது — இதனால் மறுசேர்க்கை DNA உருவாக நேர்கிறது.",
+      "ta": "**குளோனிங்கில் முக்கியத்துவம்:** தாங்கிக்கடத்தியை அல்கலைன் பாஸ்படேஸால் பதப்படுத்திய பின் அது தன்னுடன் மீண்டும் இணைய இயலாது. 5'-பாஸ்பேட்டைத் தக்கவைத்துள்ள செருகி DNA சேர்க்கப்படும்போது மட்டுமே இணைப்பு நிகழ்கிறது — இதனால் மறுகூட்டிணைவு DNA உருவாக நேர்கிறது.",
       "ta_status": "draft"
      }
     },
@@ -1039,7 +1039,7 @@
       },
       {
        "en": "**Limitation:** Lacks 3' to 5' proofreading exonuclease activity (higher error rate than proofreading polymerases)",
-       "ta": "**வரம்பு:** 3' முதல் 5' பிழைதிருத்த எக்சோநியூக்ளியேஸ் செயல்பாடு இல்லை (பிழைதிருத்தும் பாலிமரேஸ்களை விடப் பிழை விகிதம் அதிகம்)",
+       "ta": "**வரம்பு:** 3' முதல் 5' பிழைதிருத்த எக்சோநியுக்ளியேஸ் செயல்பாடு இல்லை (பிழைதிருத்தும் பாலிமரேஸ்களை விடப் பிழை விகிதம் அதிகம்)",
        "ta_status": "draft"
       },
       {
@@ -1053,7 +1053,7 @@
      "type": "p",
      "text": {
       "en": "**6. Nucleases — The DNA/RNA Degraders**",
-      "ta": "**6. நியூக்ளியேஸ்கள் — DNA/RNA சிதைப்பான்கள்**",
+      "ta": "**6. நியுக்ளியேஸ்கள் — DNA/RNA சிதைப்பான்கள்**",
       "ta_status": "draft"
      }
     },
@@ -1069,7 +1069,7 @@
      "type": "p",
      "text": {
       "en": "Nucleases are enzymes that cleave nucleic acids (DNA or RNA). They are classified based on their mode of action:",
-      "ta": "நியூக்ளியேஸ்கள் நியூக்ளிக் அமிலங்களை (DNA அல்லது RNA) பிளக்கும் நொதிகள். இவை செயல்படும் முறையின் அடிப்படையில் வகைப்படுத்தப்படுகின்றன:",
+      "ta": "நியுக்ளியேஸ்கள் நியூக்ளிக் அமிலங்களை (DNA அல்லது RNA) பிளக்கும் நொதிகள். இவை செயல்படும் முறையின் அடிப்படையில் வகைப்படுத்தப்படுகின்றன:",
       "ta_status": "draft"
      }
     },
@@ -1079,12 +1079,12 @@
      "items": [
       {
        "en": "**Endonucleases:** Cut within the DNA or RNA chain (e.g., restriction enzymes, DNase I)",
-       "ta": "**எண்டோநியூக்ளியேஸ்கள்:** DNA அல்லது RNA சங்கிலிக்குள் வெட்டுபவை (எ.கா. கட்டுப்படுத்து நொதிகள், DNase I)",
+       "ta": "**எண்டோநியுக்ளியேஸ்கள்:** DNA அல்லது RNA சங்கிலிக்குள் வெட்டுபவை (எ.கா. ரெஸ்ட்ரிக்ஷன் நொதிகள், DNase I)",
        "ta_status": "draft"
       },
       {
        "en": "**Exonucleases:** Digest nucleic acids from the free ends (e.g., Exonuclease III, S1 nuclease)",
-       "ta": "**எக்சோநியூக்ளியேஸ்கள்:** நியூக்ளிக் அமிலங்களை அவற்றின் தனி முனைகளிலிருந்து சிதைப்பவை (எ.கா. எக்சோநியூக்ளியேஸ் III, S1 நியூக்ளியேஸ்)",
+       "ta": "**எக்சோநியுக்ளியேஸ்கள்:** நியூக்ளிக் அமிலங்களை அவற்றின் தனி முனைகளிலிருந்து சிதைப்பவை (எ.கா. எக்சோநியுக்ளியேஸ் III, S1 நியுக்ளியேஸ்)",
        "ta_status": "draft"
       },
       {
@@ -1094,7 +1094,7 @@
       },
       {
        "en": "**S1 nuclease:** Degrades single-stranded DNA or RNA; used in cDNA cloning to remove hairpin loops",
-       "ta": "**S1 நியூக்ளியேஸ்:** ஒற்றை இழை DNA அல்லது RNA-வைச் சிதைக்கும்; cDNA குளோனிங்கில் ஹேர்பின் வளையங்களை நீக்கப் பயன்படுகிறது",
+       "ta": "**S1 நியுக்ளியேஸ்:** ஒற்றை இழை DNA அல்லது RNA-வைச் சிதைக்கும்; cDNA குளோனிங்கில் ஹேர்பின் வளையங்களை நீக்கப் பயன்படுகிறது",
        "ta_status": "draft"
       },
       {
@@ -1128,7 +1128,7 @@
      "type": "p",
      "text": {
       "en": "**Restriction enzymes** cut the chromosomal DNA of the organism containing the gene of interest AND the vector DNA at the same restriction sites, producing compatible sticky or blunt ends essential for cloning.",
-      "ta": "**கட்டுப்படுத்து நொதிகள்**, தேவையான மரபணுவைக் கொண்ட உயிரினத்தின் குரோமோசோம் DNA-வையும் கடத்தி DNA-வையும் ஒரே கட்டுப்படுத்து இடங்களில் வெட்டி, குளோனிங்குக்கு அவசியமான பொருந்தும் ஒட்டும் அல்லது மழுங்கிய முனைகளை உருவாக்குகின்றன.",
+      "ta": "**ரெஸ்ட்ரிக்ஷன் நொதிகள்**, தேவையான மரபணுவைக் கொண்ட உயிரினத்தின் குரோமோசோம் DNA-வையும் தாங்கிக்கடத்தி DNA-வையும் ஒரே ரெஸ்ட்ரிக்ஷன் இடங்களில் வெட்டி, குளோனிங்குக்கு அவசியமான பொருந்தும் ஒட்டும் அல்லது மழுங்கிய முனைகளை உருவாக்குகின்றன.",
       "ta_status": "draft"
      }
     },
@@ -1144,7 +1144,7 @@
      "type": "p",
      "text": {
       "en": "**DNA ligase** covalently joins the gene-of-interest fragment to the vector DNA through phosphodiester bond formation, creating the **recombinant DNA molecule (rDNA)**. This is the core step of gene cloning.",
-      "ta": "**DNA லைகேஸ்**, தேவையான மரபணுத் துண்டையும் கடத்தி DNA-வையும் பாஸ்போடைஎஸ்டர் பிணைப்பு உருவாக்கம் மூலம் சகப்பிணைப்பால் இணைத்து **மறுசேர்க்கை DNA மூலக்கூறை (rDNA)** உருவாக்குகிறது. இதுவே மரபணுக் குளோனிங்கின் மையப் படி.",
+      "ta": "**DNA லைகேஸ்**, தேவையான மரபணுத் துண்டையும் தாங்கிக்கடத்தி DNA-வையும் பாஸ்போடைஎஸ்டர் பிணைப்பு உருவாக்கம் மூலம் சகப்பிணைப்பால் இணைத்து **மறுகூட்டிணைவு DNA மூலக்கூறை (rDNA)** உருவாக்குகிறது. இதுவே மரபணுக் குளோனிங்கின் மையப் படி.",
       "ta_status": "draft"
      }
     },
@@ -1192,7 +1192,7 @@
      "type": "p",
      "text": {
       "en": "**Alkaline phosphatase** removes 5'-phosphate groups from linearized vector DNA. Without these groups, the vector cannot re-ligate with itself, forcing it to incorporate the insert DNA during ligation — significantly reducing background and improving cloning efficiency.",
-      "ta": "**அல்கலைன் பாஸ்படேஸ்** நேர்கோட்டுக் கடத்தி DNA-விலிருந்து 5'-பாஸ்பேட் தொகுதிகளை நீக்குகிறது. இத்தொகுதிகள் இல்லாததால் கடத்தி தன்னுடன் மீண்டும் இணைய முடியாது; இணைப்பின்போது செருகு DNA-வை ஏற்க நேர்கிறது — இது பின்னணியைக் கணிசமாகக் குறைத்துக் குளோனிங் திறனை மேம்படுத்துகிறது.",
+      "ta": "**அல்கலைன் பாஸ்படேஸ்** நேர்கோட்டுக் தாங்கிக்கடத்தி DNA-விலிருந்து 5'-பாஸ்பேட் தொகுதிகளை நீக்குகிறது. இத்தொகுதிகள் இல்லாததால் தாங்கிக்கடத்தி தன்னுடன் மீண்டும் இணைய முடியாது; இணைப்பின்போது செருகி DNA-வை ஏற்க நேர்கிறது — இது பின்னணியைக் கணிசமாகக் குறைத்துக் குளோனிங் திறனை மேம்படுத்துகிறது.",
       "ta_status": "draft"
      }
     },
@@ -1210,7 +1210,7 @@
      "items": [
       {
        "en": "Production of **recombinant proteins** (e.g., insulin, growth hormone, erythropoietin)",
-       "ta": "**மறுசேர்க்கைப் புரதங்களின்** உற்பத்தி (எ.கா. இன்சுலின், வளர்ச்சி ஹார்மோன், எரித்ரோபொயட்டின்)",
+       "ta": "**மறுகூட்டிணைவுப் புரதங்களின்** உற்பத்தி (எ.கா. இன்சுலின், வளர்ச்சி ஹார்மோன், எரித்ரோபொயட்டின்)",
        "ta_status": "draft"
       },
       {
@@ -1269,7 +1269,7 @@
      },
      "answer": {
       "en": "Type II restriction endonuclease from _E. coli_. Recognizes 5'-GAATTC-3' and cuts to produce 4-nucleotide 5' sticky ends (-AATT overhangs).",
-      "ta": "_E. coli_-யிலிருந்து பெறப்பட்ட வகை II கட்டுப்படுத்து எண்டோநியூக்ளியேஸ். 5'-GAATTC-3' வரிசையை அடையாளம் கண்டு, 4-நியூக்ளியோடைடு 5' ஒட்டும் முனைகளை (-AATT நீட்சிகள்) உருவாக்கி வெட்டுகிறது.",
+      "ta": "_E. coli_-யிலிருந்து பெறப்பட்ட வகை II ரெஸ்ட்ரிக்ஷன் எண்டோநியுக்ளியேஸ். 5'-GAATTC-3' வரிசையை அடையாளம் கண்டு, 4-நியூக்ளியோடைடு 5' ஒட்டும் முனைகளை (-AATT நீட்சிகள்) உருவாக்கி வெட்டுகிறது.",
       "ta_status": "draft"
      }
     },
@@ -1282,7 +1282,7 @@
      },
      "answer": {
       "en": "Seals nicks in DNA and joins two DNA fragments by forming phosphodiester bonds between 3'-OH and 5'-phosphate ends. Essential for creating recombinant DNA.",
-      "ta": "3'-OH மற்றும் 5'-பாஸ்பேட் முனைகளுக்கிடையே பாஸ்போடைஎஸ்டர் பிணைப்புகளை உருவாக்கி, DNA-வின் வெட்டுக்களை அடைத்து இரு DNA துண்டுகளை இணைக்கிறது. மறுசேர்க்கை DNA உருவாக்கத்துக்கு இன்றியமையாதது.",
+      "ta": "3'-OH மற்றும் 5'-பாஸ்பேட் முனைகளுக்கிடையே பாஸ்போடைஎஸ்டர் பிணைப்புகளை உருவாக்கி, DNA-வின் வெட்டுக்களை அடைத்து இரு DNA துண்டுகளை இணைக்கிறது. மறுகூட்டிணைவு DNA உருவாக்கத்துக்கு இன்றியமையாதது.",
       "ta_status": "draft"
      }
     },
@@ -1321,7 +1321,7 @@
      },
      "answer": {
       "en": "Removes 5'-phosphate groups from DNA ends. Prevents vector self-ligation, thereby increasing recombinant clone efficiency in gene cloning.",
-      "ta": "DNA முனைகளிலிருந்து 5'-பாஸ்பேட் தொகுதிகளை நீக்குகிறது. கடத்தியின் தன்னிணைப்பைத் தடுத்து, மரபணுக் குளோனிங்கில் மறுசேர்க்கைக் குளோன்களின் திறனை உயர்த்துகிறது.",
+      "ta": "DNA முனைகளிலிருந்து 5'-பாஸ்பேட் தொகுதிகளை நீக்குகிறது. தாங்கிக்கடத்தியின் தன்னிணைப்பைத் தடுத்து, மரபணுக் குளோனிங்கில் மறுகூட்டிணைவுக் குளோன்களின் திறனை உயர்த்துகிறது.",
       "ta_status": "draft"
      }
     },
@@ -1334,7 +1334,7 @@
      },
      "answer": {
       "en": "Type II restriction enzyme from _Bacillus amyloliquefaciens_. Recognizes 5'-GGATCC-3' and cuts to produce 5' sticky ends (-GATC overhangs).",
-      "ta": "_Bacillus amyloliquefaciens_-இலிருந்து பெறப்பட்ட வகை II கட்டுப்படுத்து நொதி. 5'-GGATCC-3' வரிசையை அடையாளம் கண்டு, 5' ஒட்டும் முனைகளை (-GATC நீட்சிகள்) உருவாக்கி வெட்டுகிறது.",
+      "ta": "_Bacillus amyloliquefaciens_-இலிருந்து பெறப்பட்ட வகை II ரெஸ்ட்ரிக்ஷன் நொதி. 5'-GGATCC-3' வரிசையை அடையாளம் கண்டு, 5' ஒட்டும் முனைகளை (-GATC நீட்சிகள்) உருவாக்கி வெட்டுகிறது.",
       "ta_status": "draft"
      }
     },
@@ -1347,7 +1347,7 @@
      },
      "answer": {
       "en": "Type II restriction enzyme from _Haemophilus influenzae_. Recognizes 5'-AAGCTT-3' and cuts to produce 5' sticky ends (-AGCT overhangs).",
-      "ta": "_Haemophilus influenzae_-இலிருந்து பெறப்பட்ட வகை II கட்டுப்படுத்து நொதி. 5'-AAGCTT-3' வரிசையை அடையாளம் கண்டு, 5' ஒட்டும் முனைகளை (-AGCT நீட்சிகள்) உருவாக்கி வெட்டுகிறது.",
+      "ta": "_Haemophilus influenzae_-இலிருந்து பெறப்பட்ட வகை II ரெஸ்ட்ரிக்ஷன் நொதி. 5'-AAGCTT-3' வரிசையை அடையாளம் கண்டு, 5' ஒட்டும் முனைகளை (-AGCT நீட்சிகள்) உருவாக்கி வெட்டுகிறது.",
       "ta_status": "draft"
      }
     },
@@ -1360,7 +1360,7 @@
      },
      "answer": {
       "en": "Large fragment of _E. coli_ DNA Polymerase I. Lacks 5' to 3' exonuclease activity. Used to fill in 5' overhangs to create blunt ends and in probe labeling.",
-      "ta": "_E. coli_ DNA பாலிமரேஸ் I-இன் பெரிய துண்டு. 5' முதல் 3' எக்சோநியூக்ளியேஸ் செயல்பாடு இல்லை. 5' நீட்சிகளை நிரப்பி மழுங்கிய முனைகளை உருவாக்கவும் ஆய்வுக்குறிப்பான் பெயரிடலிலும் பயன்படுகிறது.",
+      "ta": "_E. coli_ DNA பாலிமரேஸ் I-இன் பெரிய துண்டு. 5' முதல் 3' எக்சோநியுக்ளியேஸ் செயல்பாடு இல்லை. 5' நீட்சிகளை நிரப்பி மழுங்கிய முனைகளை உருவாக்கவும் ஆய்வுக்குறிப்பான் பெயரிடலிலும் பயன்படுகிறது.",
       "ta_status": "draft"
      }
     }
@@ -1372,7 +1372,7 @@
    "id": "s09",
    "title": {
     "en": "Recombinant DNA Technology — Step-by-Step Flow",
-    "ta": "மறுசேர்க்கை DNA தொழில்நுட்பம் — படிப்படியான செயல்முறை",
+    "ta": "மறுகூட்டிணைவு DNA தொழில்நுட்பம் — படிப்படியான செயல்முறை",
     "ta_status": "draft"
    },
    "blocks": [
@@ -1389,7 +1389,7 @@
      "items": [
       {
        "en": "1 🧬 Source DNA and Vector Prepared The genomic DNA containing the gene of interest and the plasmid vector are isolated. Both are ready to be treated with the same restriction enzyme.",
-       "ta": "1 🧬 மூல DNA-வும் கடத்தியும் தயாரிக்கப்படுகின்றன. தேவையான மரபணுவைக் கொண்ட மரபணுத்தொகுதி DNA-வும் பிளாஸ்மிட் கடத்தியும் தனித்துப் பிரிக்கப்படுகின்றன. இரண்டையும் ஒரே கட்டுப்படுத்து நொதியால் பதப்படுத்தத் தயாராக உள்ளன.",
+       "ta": "1 🧬 மூல DNA-வும் தாங்கிக்கடத்தியும் தயாரிக்கப்படுகின்றன. தேவையான மரபணுவைக் கொண்ட மரபணுத்தொகுதி DNA-வும் பிளாஸ்மிட் தாங்கிக்கடத்தியும் தனித்துப் பிரிக்கப்படுகின்றன. இரண்டையும் ஒரே ரெஸ்ட்ரிக்ஷன் நொதியால் பதப்படுத்தத் தயாராக உள்ளன.",
        "ta_status": "draft"
       }
      ]
@@ -1399,7 +1399,7 @@
      "items": [
       {
        "en": "2 ✂️ Restriction Enzyme Cuts DNA The same restriction enzyme (e.g., EcoRI) cuts both the vector and source DNA at their palindromic recognition sequences, producing compatible sticky ends.",
-       "ta": "2 ✂️ கட்டுப்படுத்து நொதி DNA-வை வெட்டுகிறது. ஒரே கட்டுப்படுத்து நொதி (எ.கா. EcoRI) கடத்தியையும் மூல DNA-வையும் அவற்றின் பாலிண்ட்ரோம் அடையாள வரிசைகளில் வெட்டி, பொருந்தும் ஒட்டும் முனைகளை உருவாக்குகிறது.",
+       "ta": "2 ✂️ ரெஸ்ட்ரிக்ஷன் நொதி DNA-வை வெட்டுகிறது. ஒரே ரெஸ்ட்ரிக்ஷன் நொதி (எ.கா. EcoRI) தாங்கிக்கடத்தியையும் மூல DNA-வையும் அவற்றின் முன்பின் ஒத்த அடையாளத் தொடர் வரிசைகளில் வெட்டி, பொருந்தும் ஒட்டும் முனைகளை உருவாக்குகிறது.",
        "ta_status": "draft"
       }
      ]
@@ -1409,7 +1409,7 @@
      "items": [
       {
        "en": "3 🔍 Gene Fragment Obtained The desired gene fragment (insert) is isolated from the digested source DNA, for example by gel electrophoresis and gel extraction.",
-       "ta": "3 🔍 மரபணுத் துண்டு பெறப்படுகிறது. வெட்டப்பட்ட மூல DNA-விலிருந்து தேவையான மரபணுத் துண்டு (செருகு) தனித்துப் பிரிக்கப்படுகிறது; எடுத்துக்காட்டாக ஜெல் மின்னாற்பகுப்பு மற்றும் ஜெல் பிரித்தெடுப்பு மூலம்.",
+       "ta": "3 🔍 மரபணுத் துண்டு பெறப்படுகிறது. வெட்டப்பட்ட மூல DNA-விலிருந்து தேவையான மரபணுத் துண்டு (செருகி DNA) தனித்துப் பிரிக்கப்படுகிறது; எடுத்துக்காட்டாக ஜெல் மின்னாற்பகுப்பு மற்றும் ஜெல் பிரித்தெடுப்பு மூலம்.",
        "ta_status": "draft"
       }
      ]
@@ -1419,7 +1419,7 @@
      "items": [
       {
        "en": "4 🔗 DNA Ligase Joins Fragment to Vector T4 DNA ligase seals the compatible sticky ends of the insert and vector, forming covalent phosphodiester bonds and creating a continuous circular recombinant plasmid.",
-       "ta": "4 🔗 DNA லைகேஸ் துண்டைக் கடத்தியுடன் இணைக்கிறது. T4 DNA லைகேஸ் செருகு மற்றும் கடத்தியின் பொருந்தும் ஒட்டும் முனைகளை அடைத்து, சகப் பாஸ்போடைஎஸ்டர் பிணைப்புகளை உருவாக்கி, தொடர்ச்சியான வட்ட மறுசேர்க்கைப் பிளாஸ்மிட்டை உருவாக்குகிறது.",
+       "ta": "4 🔗 DNA லைகேஸ் துண்டைக் தாங்கிக்கடத்தியுடன் இணைக்கிறது. T4 DNA லைகேஸ் செருகி DNA மற்றும் தாங்கிக்கடத்தியின் பொருந்தும் ஒட்டும் முனைகளை அடைத்து, சகப் பாஸ்போடைஎஸ்டர் பிணைப்புகளை உருவாக்கி, தொடர்ச்சியான வட்ட மறுகூட்டிணைவுப் பிளாஸ்மிட்டை உருவாக்குகிறது.",
        "ta_status": "draft"
       }
      ]
@@ -1429,7 +1429,7 @@
      "items": [
       {
        "en": "5 🧫 Recombinant DNA Formed The recombinant DNA molecule (rDNA) — the vector now carrying the gene of interest — is ready for transformation into a host cell (e.g., E. coli) for cloning and expression.",
-       "ta": "5 🧫 மறுசேர்க்கை DNA உருவாகிறது. மறுசேர்க்கை DNA மூலக்கூறு (rDNA) — இப்போது தேவையான மரபணுவைச் சுமக்கும் கடத்தி — குளோனிங்கிற்கும் வெளிப்பாட்டிற்கும் விருந்தோம்பி செல்லில் (எ.கா. E. coli) உட்செலுத்தத் (உருமாற்றம்) தயாராக உள்ளது.",
+       "ta": "5 🧫 மறுகூட்டிணைவு DNA உருவாகிறது. மறுகூட்டிணைவு DNA மூலக்கூறு (rDNA) — இப்போது தேவையான மரபணுவைச் சுமக்கும் தாங்கிக்கடத்தி — குளோனிங்கிற்கும் வெளிப்பாட்டிற்கும் ஓம்புயிர் செல்லில் (எ.கா. E. coli) உட்செலுத்தத் (உருமாற்றம்) தயாராக உள்ளது.",
        "ta_status": "draft"
       }
      ]
@@ -1439,7 +1439,7 @@
      "kind": "info",
      "text": {
       "en": "**Key Principle:** Using the same restriction enzyme on both the insert and vector ensures **complementary sticky ends** that anneal by hydrogen bonding, allowing DNA ligase to seal the gaps efficiently. This directed cloning ensures the insert is incorporated in a predictable orientation.",
-      "ta": "**முக்கியக் கொள்கை:** செருகு, கடத்தி இரண்டிலும் ஒரே கட்டுப்படுத்து நொதியைப் பயன்படுத்துவது ஹைட்ரஜன் பிணைப்பால் இணையும் **நிரப்பு ஒட்டும் முனைகளை** உறுதிசெய்து, DNA லைகேஸ் இடைவெளிகளைத் திறம்பட அடைக்க உதவுகிறது. இந்தத் திசைபடுத்தப்பட்ட குளோனிங், செருகு முன்கூட்டியே கணிக்கக்கூடிய திசையமைவில் இணைவதை உறுதிசெய்கிறது.",
+      "ta": "**முக்கியக் கொள்கை:** செருகி DNA, தாங்கிக்கடத்தி இரண்டிலும் ஒரே ரெஸ்ட்ரிக்ஷன் நொதியைப் பயன்படுத்துவது ஹைட்ரஜன் பிணைப்பால் இணையும் **நிரப்பு ஒட்டும் முனைகளை** உறுதிசெய்து, DNA லைகேஸ் இடைவெளிகளைத் திறம்பட அடைக்க உதவுகிறது. இந்தத் திசைபடுத்தப்பட்ட குளோனிங், செருகி DNA முன்கூட்டியே கணிக்கக்கூடிய திசையமைவில் இணைவதை உறுதிசெய்கிறது.",
       "ta_status": "draft"
      }
     }
@@ -1488,22 +1488,22 @@
       [
        {
         "en": "**Restriction Endonuclease**",
-        "ta": "**கட்டுப்படுத்து எண்டோநியூக்ளியேஸ்**",
+        "ta": "**ரெஸ்ட்ரிக்ஷன் எண்டோநியுக்ளியேஸ்**",
         "ta_status": "draft"
        },
        {
         "en": "Endonuclease / Bacteria",
-        "ta": "எண்டோநியூக்ளியேஸ் / பாக்டீரியா",
+        "ta": "எண்டோநியுக்ளியேஸ் / பாக்டீரியா",
         "ta_status": "draft"
        },
        {
         "en": "Recognizes and cleaves specific palindromic sequences in DNA",
-        "ta": "DNA-வில் குறிப்பிட்ட பாலிண்ட்ரோம் வரிசைகளை அடையாளம் கண்டு வெட்டுகிறது",
+        "ta": "DNA-வில் குறிப்பிட்ட முன்பின் ஒத்த வரிசைகளை அடையாளம் கண்டு வெட்டுகிறது",
         "ta_status": "draft"
        },
        {
         "en": "Cuts both insert DNA and vector at compatible sites for cloning",
-        "ta": "குளோனிங்குக்குப் பொருந்தும் இடங்களில் செருகு DNA-வையும் கடத்தியையும் வெட்டுகிறது",
+        "ta": "குளோனிங்குக்குப் பொருந்தும் இடங்களில் செருகி DNA-வையும் தாங்கிக்கடத்தியையும் வெட்டுகிறது",
         "ta_status": "draft"
        },
        {
@@ -1530,7 +1530,7 @@
        },
        {
         "en": "Seals recombinant DNA molecules; joins insert to vector",
-        "ta": "மறுசேர்க்கை DNA மூலக்கூறுகளை அடைக்கிறது; செருகைக் கடத்தியுடன் இணைக்கிறது",
+        "ta": "மறுகூட்டிணைவு DNA மூலக்கூறுகளை அடைக்கிறது; செருகைக் தாங்கிக்கடத்தியுடன் இணைக்கிறது",
         "ta_status": "draft"
        },
        {
@@ -1611,7 +1611,7 @@
        },
        {
         "en": "Prevents vector self-ligation; improves cloning efficiency",
-        "ta": "கடத்தியின் தன்னிணைப்பைத் தடுக்கிறது; குளோனிங் திறனை மேம்படுத்துகிறது",
+        "ta": "தாங்கிக்கடத்தியின் தன்னிணைப்பைத் தடுக்கிறது; குளோனிங் திறனை மேம்படுத்துகிறது",
         "ta_status": "draft"
        },
        {
@@ -1650,12 +1650,12 @@
       [
        {
         "en": "**S1 Nuclease**",
-        "ta": "**S1 நியூக்ளியேஸ்**",
+        "ta": "**S1 நியுக்ளியேஸ்**",
         "ta_status": "draft"
        },
        {
         "en": "Endonuclease / _Aspergillus_",
-        "ta": "எண்டோநியூக்ளியேஸ் / _Aspergillus_",
+        "ta": "எண்டோநியுக்ளியேஸ் / _Aspergillus_",
         "ta_status": "draft"
        },
        {
@@ -1670,7 +1670,7 @@
        },
        {
         "en": "S1 Nuclease",
-        "ta": "S1 நியூக்ளியேஸ்",
+        "ta": "S1 நியுக்ளியேஸ்",
         "ta_status": "draft"
        }
       ],
@@ -1682,7 +1682,7 @@
        },
        {
         "en": "Endonuclease / Bovine pancreas",
-        "ta": "எண்டோநியூக்ளியேஸ் / மாட்டின் கணையம்",
+        "ta": "எண்டோநியுக்ளியேஸ் / மாட்டின் கணையம்",
         "ta_status": "draft"
        },
        {
@@ -1727,7 +1727,7 @@
      "type": "p",
      "text": {
       "en": "**Restriction Enzymes** Bacterial defense enzymes that cleave DNA at specific palindromic sequences. Called molecular scissors.",
-      "ta": "**கட்டுப்படுத்து நொதிகள்** குறிப்பிட்ட பாலிண்ட்ரோம் வரிசைகளில் DNA-வை வெட்டும் பாக்டீரியத் தற்காப்பு நொதிகள். மூலக்கூறுக் கத்தரிகள் எனப்படும்.",
+      "ta": "**ரெஸ்ட்ரிக்ஷன் நொதிகள்** குறிப்பிட்ட முன்பின் ஒத்த வரிசைகளில் DNA-வை வெட்டும் பாக்டீரியத் தற்காப்பு நொதிகள். மூலக்கூறு கத்தரிகோல்கள் எனப்படும்.",
       "ta_status": "draft"
      }
     },
@@ -1735,7 +1735,7 @@
      "type": "p",
      "text": {
       "en": "**Palindromic Sequence** A DNA sequence that reads the same on both strands in the 5' to 3' direction. Example: GAATTC (EcoRI).",
-      "ta": "**பாலிண்ட்ரோம் வரிசை** இரு இழைகளிலும் 5' முதல் 3' திசையில் ஒரே மாதிரி வாசிக்கப்படும் DNA வரிசை. எடுத்துக்காட்டு: GAATTC (EcoRI).",
+      "ta": "**முன்பின் ஒத்த வரிசை** இரு இழைகளிலும் 5' முதல் 3' திசையில் ஒரே மாதிரி வாசிக்கப்படும் DNA வரிசை. எடுத்துக்காட்டு: GAATTC (EcoRI).",
       "ta_status": "draft"
      }
     },
@@ -1767,7 +1767,7 @@
      "type": "p",
      "text": {
       "en": "**DNA Ligase** Joins DNA fragments via phosphodiester bonds. Uses ATP (T4) or NAD⁺ (E. coli). Creates recombinant DNA.",
-      "ta": "**DNA லைகேஸ்** பாஸ்போடைஎஸ்டர் பிணைப்புகளால் DNA துண்டுகளை இணைக்கும். ATP (T4) அல்லது NAD⁺ (E. coli) பயன்படுத்தும். மறுசேர்க்கை DNA-வை உருவாக்கும்.",
+      "ta": "**DNA லைகேஸ்** பாஸ்போடைஎஸ்டர் பிணைப்புகளால் DNA துண்டுகளை இணைக்கும். ATP (T4) அல்லது NAD⁺ (E. coli) பயன்படுத்தும். மறுகூட்டிணைவு DNA-வை உருவாக்கும்.",
       "ta_status": "draft"
      }
     },
@@ -1791,7 +1791,7 @@
      "type": "p",
      "text": {
       "en": "**Alkaline Phosphatase** Removes 5'-phosphate from vector ends. Prevents self-ligation. Increases recombinant clone efficiency.",
-      "ta": "**அல்கலைன் பாஸ்படேஸ்** கடத்தி முனைகளிலிருந்து 5'-பாஸ்பேட்டை நீக்கும். தன்னிணைப்பைத் தடுக்கும். மறுசேர்க்கைக் குளோன்களின் திறனை உயர்த்தும்.",
+      "ta": "**அல்கலைன் பாஸ்படேஸ்** தாங்கிக்கடத்தி முனைகளிலிருந்து 5'-பாஸ்பேட்டை நீக்கும். தன்னிணைப்பைத் தடுக்கும். மறுகூட்டிணைவுக் குளோன்களின் திறனை உயர்த்தும்.",
       "ta_status": "draft"
      }
     },
@@ -1799,7 +1799,7 @@
      "type": "p",
      "text": {
       "en": "**Nobel Prize 1978** Awarded to Werner Arber, Hamilton Smith, and Daniel Nathans for discovery and application of restriction enzymes.",
-      "ta": "**நோபல் பரிசு 1978** கட்டுப்படுத்து நொதிகளின் கண்டுபிடிப்பு மற்றும் பயன்பாட்டுக்காக வெர்னர் ஆர்பர், ஹேமில்டன் ஸ்மித், டேனியல் நாதன்ஸ் ஆகியோருக்கு வழங்கப்பட்டது.",
+      "ta": "**நோபல் பரிசு 1978** ரெஸ்ட்ரிக்ஷன் நொதிகளின் கண்டுபிடிப்பு மற்றும் பயன்பாட்டுக்காக வெர்னர் ஆர்பர், ஹேமில்டன் ஸ்மித், டேனியல் நாதன்ஸ் ஆகியோருக்கு வழங்கப்பட்டது.",
       "ta_status": "draft"
      }
     },
@@ -1833,17 +1833,17 @@
      "items": [
       {
        "en": "**Recombinant DNA (rDNA):** DNA formed by joining DNA from two different sources.",
-       "ta": "**மறுசேர்க்கை DNA (rDNA):** இரு வெவ்வேறு மூலங்களிலிருந்து பெற்ற DNA-வை இணைத்து உருவாக்கப்படும் DNA.",
+       "ta": "**மறுகூட்டிணைவு DNA (rDNA):** இரு வெவ்வேறு மூலங்களிலிருந்து பெற்ற DNA-வை இணைத்து உருவாக்கப்படும் DNA.",
        "ta_status": "draft"
       },
       {
        "en": "**Vector:** DNA molecule (plasmid, phage) used to carry foreign DNA into a host cell.",
-       "ta": "**கடத்தி (வெக்டர்):** அந்நிய DNA-வை விருந்தோம்பி செல்லுக்குள் சுமந்து செல்லப் பயன்படும் DNA மூலக்கூறு (பிளாஸ்மிட், பேஜ்).",
+       "ta": "**தாங்கிக்தாங்கிக்கடத்தி:** அந்நிய DNA-வை ஓம்புயிர் செல்லுக்குள் சுமந்து செல்லப் பயன்படும் DNA மூலக்கூறு (பிளாஸ்மிட், பேஜ்).",
        "ta_status": "draft"
       },
       {
        "en": "**Cloning:** Production of identical copies of a gene using a host organism.",
-       "ta": "**குளோனிங்:** விருந்தோம்பி உயிரினத்தைப் பயன்படுத்தி ஒரு மரபணுவின் ஒத்த நகல்களை உருவாக்குதல்.",
+       "ta": "**குளோனிங்:** ஓம்புயிரி உயிரினத்தைப் பயன்படுத்தி ஒரு மரபணுவின் ஒத்த நகல்களை உருவாக்குதல்.",
        "ta_status": "draft"
       },
       {
@@ -1874,12 +1874,12 @@
      "type": "glossary",
      "term": {
       "en": "Palindromic Sequence",
-      "ta": "பாலிண்ட்ரோம் வரிசை",
-      "ta_status": "draft"
+      "ta": "முன்பின் ஒத்த வரிசை (Palindromic sequence)",
+      "ta_status": "bracketed"
      },
      "definition": {
       "en": "A double-stranded DNA sequence in which both strands read identically in the 5' to 3' direction; the basis for restriction enzyme recognition.",
-      "ta": "இரு இழைகளும் 5' முதல் 3' திசையில் ஒரே மாதிரி வாசிக்கப்படும் இரட்டை இழை DNA வரிசை; கட்டுப்படுத்து நொதி அடையாளம் காண்பதற்கான அடிப்படை.",
+      "ta": "இரு இழைகளும் 5' முதல் 3' திசையில் ஒரே மாதிரி வாசிக்கப்படும் இரட்டை இழை DNA வரிசை; ரெஸ்ட்ரிக்ஷன் நொதி அடையாளம் காண்பதற்கான அடிப்படை.",
       "ta_status": "draft"
      }
     },
@@ -1887,12 +1887,12 @@
      "type": "glossary",
      "term": {
       "en": "Sticky Ends",
-      "ta": "ஒட்டும் முனைகள்",
-      "ta_status": "draft"
+      "ta": "ஒட்டும் முனைகள் (Sticky ends)",
+      "ta_status": "bracketed"
      },
      "definition": {
       "en": "Short single-stranded nucleotide overhangs produced by staggered restriction enzyme cuts. Also called cohesive ends. They can hydrogen-bond with complementary sequences for ligation.",
-      "ta": "படிக்கட்டு வடிவ கட்டுப்படுத்து நொதி வெட்டுகளால் உருவாகும் குறுகிய ஒற்றை இழை நியூக்ளியோடைடு நீட்சிகள். ஒட்டுறவு முனைகள் எனவும் அழைக்கப்படும். இணைப்புக்காக நிரப்பு வரிசைகளுடன் ஹைட்ரஜன் பிணைப்பு கொள்ளும்.",
+      "ta": "படிக்கட்டு வடிவ ரெஸ்ட்ரிக்ஷன் நொதி வெட்டுகளால் உருவாகும் குறுகிய ஒற்றை இழை நியூக்ளியோடைடு நீட்சிகள். ஒட்டிணைவான முனைகள் எனவும் அழைக்கப்படும். இணைப்புக்காக நிரப்பு வரிசைகளுடன் ஹைட்ரஜன் பிணைப்பு கொள்ளும்.",
       "ta_status": "draft"
      }
     },
@@ -1900,12 +1900,12 @@
      "type": "glossary",
      "term": {
       "en": "Blunt Ends",
-      "ta": "மழுங்கிய முனைகள்",
-      "ta_status": "draft"
+      "ta": "மழுங்கிய முனைகள் (Blunt ends)",
+      "ta_status": "bracketed"
      },
      "definition": {
       "en": "Fully double-stranded DNA ends with no overhangs, produced when a restriction enzyme cuts both strands at the same position within the recognition sequence.",
-      "ta": "அடையாள வரிசைக்குள் ஒரே இடத்தில் கட்டுப்படுத்து நொதி இரு இழைகளையும் வெட்டும்போது உருவாகும், நீட்சிகள் இல்லாத முழுமையான இரட்டை இழை DNA முனைகள்.",
+      "ta": "அடையாளத் தொடர் வரிசைக்குள் ஒரே இடத்தில் ரெஸ்ட்ரிக்ஷன் நொதி இரு இழைகளையும் வெட்டும்போது உருவாகும், நீட்சிகள் இல்லாத முழுமையான இரட்டை இழை DNA முனைகள்.",
       "ta_status": "draft"
      }
     },
@@ -1913,8 +1913,8 @@
      "type": "glossary",
      "term": {
       "en": "Ligase",
-      "ta": "லைகேஸ்",
-      "ta_status": "draft"
+      "ta": "DNA லைகேஸ் (Ligase)",
+      "ta_status": "bracketed"
      },
      "definition": {
       "en": "An enzyme that catalyzes formation of covalent phosphodiester bonds between the 3'-OH of one DNA strand and the 5'-phosphate of another, joining two DNA fragments.",
@@ -1926,12 +1926,12 @@
      "type": "glossary",
      "term": {
       "en": "Vector",
-      "ta": "கடத்தி (வெக்டர்)",
-      "ta_status": "draft"
+      "ta": "தாங்கிக்கடத்தி (Vector)",
+      "ta_status": "bracketed"
      },
      "definition": {
       "en": "A DNA molecule (e.g., plasmid, bacteriophage, cosmid) used to carry a foreign DNA fragment into a host cell for replication and/or expression.",
-      "ta": "அந்நிய DNA துண்டை விருந்தோம்பி செல்லுக்குள் பெருக்கவும்/அல்லது வெளிப்படுத்தவும் சுமந்து செல்லப் பயன்படும் DNA மூலக்கூறு (எ.கா. பிளாஸ்மிட், பாக்டீரியோஃபேஜ், காஸ்மிட்).",
+      "ta": "அந்நிய DNA துண்டை ஓம்புயிர் செல்லுக்குள் பெருக்கவும்/அல்லது வெளிப்படுத்தவும் சுமந்து செல்லப் பயன்படும் DNA மூலக்கூறு (எ.கா. பிளாஸ்மிட், பாக்டீரியோஃபேஜ், காஸ்மிட்).",
       "ta_status": "draft"
      }
     },
@@ -1944,7 +1944,7 @@
      },
      "definition": {
       "en": "The process of inserting a DNA fragment into a vector, introducing it into a host cell, and allowing the host to replicate, producing many identical copies of the DNA.",
-      "ta": "DNA துண்டைக் கடத்தியில் செருகி, விருந்தோம்பி செல்லுக்குள் செலுத்தி, விருந்தோம்பி அதைப் பெருக்கி ஒத்த DNA நகல்கள் பலவற்றை உருவாக்கச் செய்யும் செயல்முறை.",
+      "ta": "DNA துண்டைக் தாங்கிக்கடத்தியில் செருகி, ஓம்புயிர் செல்லுக்குள் செலுத்தி, ஓம்புயிரி அதைப் பெருக்கி ஒத்த DNA நகல்கள் பலவற்றை உருவாக்கச் செய்யும் செயல்முறை.",
       "ta_status": "draft"
      }
     },
@@ -1952,12 +1952,12 @@
      "type": "glossary",
      "term": {
       "en": "Recognition Sequence",
-      "ta": "அடையாள வரிசை",
-      "ta_status": "draft"
+      "ta": "அடையாளத் தொடர் வரிசை (Recognition sequence)",
+      "ta_status": "bracketed"
      },
      "definition": {
       "en": "A specific short DNA sequence (usually 4 to 8 bp, palindromic) that is recognized and bound by a restriction endonuclease before cleavage of the DNA.",
-      "ta": "DNA-வை வெட்டுவதற்கு முன் கட்டுப்படுத்து எண்டோநியூக்ளியேஸால் அடையாளம் காணப்பட்டுப் பிணைக்கப்படும் குறிப்பிட்ட குறுகிய DNA வரிசை (பொதுவாக 4 முதல் 8 bp, பாலிண்ட்ரோம்).",
+      "ta": "DNA-வை வெட்டுவதற்கு முன் ரெஸ்ட்ரிக்ஷன் எண்டோநியூக்ளியேஸால் அடையாளம் காணப்பட்டுப் பிணைக்கப்படும் குறிப்பிட்ட குறுகிய DNA வரிசை (பொதுவாக 4 முதல் 8 bp, முன்பின் ஒத்த).",
       "ta_status": "draft"
      }
     },
@@ -1978,12 +1978,12 @@
      "type": "glossary",
      "term": {
       "en": "Recombinant DNA",
-      "ta": "மறுசேர்க்கை DNA",
-      "ta_status": "draft"
+      "ta": "மறுகூட்டிணைவு DNA (Recombinant DNA)",
+      "ta_status": "bracketed"
      },
      "definition": {
       "en": "DNA molecule formed by combining DNA sequences from two or more different organisms or sources, typically a gene of interest inserted into a cloning vector.",
-      "ta": "இரு அல்லது அதற்கு மேற்பட்ட வெவ்வேறு உயிரினங்கள் அல்லது மூலங்களிலிருந்து பெற்ற DNA வரிசைகளை இணைத்து உருவாக்கப்படும் DNA மூலக்கூறு; பொதுவாகத் தேவையான மரபணு ஒரு குளோனிங் கடத்தியில் செருகப்பட்டிருக்கும்.",
+      "ta": "இரு அல்லது அதற்கு மேற்பட்ட வெவ்வேறு உயிரினங்கள் அல்லது மூலங்களிலிருந்து பெற்ற DNA வரிசைகளை இணைத்து உருவாக்கப்படும் DNA மூலக்கூறு; பொதுவாகத் தேவையான மரபணு ஒரு குளோனிங் தாங்கிக்கடத்தியில் செருகப்பட்டிருக்கும்.",
       "ta_status": "draft"
      }
     },
@@ -1996,7 +1996,7 @@
      },
      "definition": {
       "en": "Addition of a methyl group to specific bases in DNA. Bacteria methylate their own restriction sites to protect their DNA from self-cleavage by their own restriction enzymes.",
-      "ta": "DNA-வில் குறிப்பிட்ட காரங்களுடன் மெத்தில் தொகுதியைச் சேர்த்தல். பாக்டீரியாக்கள் தம் சொந்தக் கட்டுப்படுத்து நொதிகளால் தம் DNA வெட்டப்படாமல் காக்கத் தம் கட்டுப்படுத்து இடங்களை மெத்திலேற்றம் செய்கின்றன.",
+      "ta": "DNA-வில் குறிப்பிட்ட காரங்களுடன் மெத்தில் தொகுதியைச் சேர்த்தல். பாக்டீரியாக்கள் தம் சொந்தக் ரெஸ்ட்ரிக்ஷன் நொதிகளால் தம் DNA வெட்டப்படாமல் காக்கத் தம் ரெஸ்ட்ரிக்ஷன் இடங்களை மெத்திலேற்றம் செய்கின்றன.",
       "ta_status": "draft"
      }
     },
@@ -2009,7 +2009,7 @@
      },
      "definition": {
       "en": "Introduction of foreign DNA (e.g., recombinant plasmid) into a bacterial cell. Successful transformants are selected using antibiotic resistance or other selectable markers.",
-      "ta": "அந்நிய DNA-வை (எ.கா. மறுசேர்க்கைப் பிளாஸ்மிட்) பாக்டீரியா செல்லுக்குள் செலுத்துதல். வெற்றிகரமான உருமாறிய செல்கள் ஆன்டிபயாடிக் எதிர்ப்பு அல்லது பிற தேர்ந்தெடுக்கும் குறிப்பான்களால் தெரிவு செய்யப்படுகின்றன.",
+      "ta": "அந்நிய DNA-வை (எ.கா. மறுகூட்டிணைவுப் பிளாஸ்மிட்) பாக்டீரியா செல்லுக்குள் செலுத்துதல். வெற்றிகரமான உருமாறிய செல்கள் ஆன்டிபயாடிக் எதிர்ப்பு அல்லது பிற தேர்ந்தெடுக்கும் குறிப்பான்களால் தெரிவு செய்யப்படுகின்றன.",
       "ta_status": "draft"
      }
     },
@@ -2017,12 +2017,12 @@
      "type": "glossary",
      "term": {
       "en": "Restriction Mapping",
-      "ta": "கட்டுப்படுத்து வரைபடமாக்கல்",
+      "ta": "ரெஸ்ட்ரிக்ஷன் வரைபடமாக்கல்",
       "ta_status": "draft"
      },
      "definition": {
       "en": "A technique used to characterize a DNA molecule by cutting it with various restriction enzymes and analyzing fragment sizes to determine the positions of restriction sites on the DNA.",
-      "ta": "ஒரு DNA மூலக்கூறைப் பல்வேறு கட்டுப்படுத்து நொதிகளால் வெட்டி, துண்டுகளின் அளவுகளைப் பகுப்பாய்வு செய்து, DNA-வில் கட்டுப்படுத்து இடங்களின் நிலைகளைத் தீர்மானிக்கும் நுட்பம்.",
+      "ta": "ஒரு DNA மூலக்கூறைப் பல்வேறு ரெஸ்ட்ரிக்ஷன் நொதிகளால் வெட்டி, துண்டுகளின் அளவுகளைப் பகுப்பாய்வு செய்து, DNA-வில் ரெஸ்ட்ரிக்ஷன் இடங்களின் நிலைகளைத் தீர்மானிக்கும் நுட்பம்.",
       "ta_status": "draft"
      }
     }
@@ -2050,7 +2050,7 @@
      "type": "p",
      "text": {
       "en": "**1. What are restriction endonucleases? Why are they called molecular scissors? Explain with an example.**",
-      "ta": "**1. கட்டுப்படுத்து எண்டோநியூக்ளியேஸ்கள் என்றால் என்ன? அவை ஏன் மூலக்கூறுக் கத்தரிகள் எனப்படுகின்றன? எடுத்துக்காட்டுடன் விளக்குக.**",
+      "ta": "**1. ரெஸ்ட்ரிக்ஷன் எண்டோநியுக்ளியேஸ்கள் என்றால் என்ன? அவை ஏன் மூலக்கூறு கத்தரிகோல்கள் எனப்படுகின்றன? எடுத்துக்காட்டுடன் விளக்குக.**",
       "ta_status": "draft"
      }
     },
@@ -2068,7 +2068,7 @@
      "items": [
       {
        "en": "Define restriction endonucleases: bacterial defense enzymes that cleave DNA at specific recognition sequences.",
-       "ta": "கட்டுப்படுத்து எண்டோநியூக்ளியேஸ்களை வரையறுக்க: குறிப்பிட்ட அடையாள வரிசைகளில் DNA-வை வெட்டும் பாக்டீரியத் தற்காப்பு நொதிகள்.",
+       "ta": "ரெஸ்ட்ரிக்ஷன் எண்டோநியுக்ளியேஸ்களை வரையறுக்க: குறிப்பிட்ட அடையாளத் தொடர் வரிசைகளில் DNA-வை வெட்டும் பாக்டீரியத் தற்காப்பு நொதிகள்.",
        "ta_status": "draft"
       },
       {
@@ -2078,7 +2078,7 @@
       },
       {
        "en": "Explain palindromic recognition sequence and staggered vs. straight cuts.",
-       "ta": "பாலிண்ட்ரோம் அடையாள வரிசையையும் படிக்கட்டு மற்றும் நேரான வெட்டுகளையும் விளக்குக.",
+       "ta": "முன்பின் ஒத்த அடையாளத் தொடர் வரிசையையும் படிக்கட்டு மற்றும் நேரான வெட்டுகளையும் விளக்குக.",
        "ta_status": "draft"
       },
       {
@@ -2102,7 +2102,7 @@
      "type": "p",
      "text": {
       "en": "**2. Distinguish between sticky ends and blunt ends produced by restriction enzymes.**",
-      "ta": "**2. கட்டுப்படுத்து நொதிகள் உருவாக்கும் ஒட்டும் முனைகளுக்கும் மழுங்கிய முனைகளுக்கும் உள்ள வேறுபாடுகளை எழுதுக.**",
+      "ta": "**2. ரெஸ்ட்ரிக்ஷன் நொதிகள் உருவாக்கும் ஒட்டும் முனைகளுக்கும் மழுங்கிய முனைகளுக்கும் உள்ள வேறுபாடுகளை எழுதுக.**",
       "ta_status": "draft"
      }
     },
@@ -2120,7 +2120,7 @@
      "items": [
       {
        "en": "Sticky ends (cohesive ends): staggered cuts leaving 4 to 6 nt single-stranded overhangs; can be 5' or 3' overhangs.",
-       "ta": "ஒட்டும் முனைகள் (ஒட்டுறவு முனைகள்): படிக்கட்டு வெட்டுகள் 4 முதல் 6 nt ஒற்றை இழை நீட்சிகளை விட்டுச் செல்லும்; இவை 5' அல்லது 3' நீட்சிகளாக இருக்கலாம்.",
+       "ta": "ஒட்டும் முனைகள் (ஒட்டிணைவான முனைகள்): படிக்கட்டு வெட்டுகள் 4 முதல் 6 nt ஒற்றை இழை நீட்சிகளை விட்டுச் செல்லும்; இவை 5' அல்லது 3' நீட்சிகளாக இருக்கலாம்.",
        "ta_status": "draft"
       },
       {
@@ -2182,7 +2182,7 @@
       },
       {
        "en": "Critical step in gene cloning: joins insert DNA to linearized vector to form recombinant DNA.",
-       "ta": "மரபணுக் குளோனிங்கின் முக்கியப் படி: செருகு DNA-வை நேர்கோட்டுக் கடத்தியுடன் இணைத்து மறுசேர்க்கை DNA-வை உருவாக்குகிறது.",
+       "ta": "மரபணுக் குளோனிங்கின் முக்கியப் படி: செருகி DNA-வை நேர்கோட்டுக் தாங்கிக்கடத்தியுடன் இணைத்து மறுகூட்டிணைவு DNA-வை உருவாக்குகிறது.",
        "ta_status": "draft"
       },
       {
@@ -2234,12 +2234,12 @@
       },
       {
        "en": "Importance: eukaryotic genes have introns that cannot be processed by prokaryotic hosts; cDNA lacks introns.",
-       "ta": "முக்கியத்துவம்: யூகேரியோட்டு மரபணுக்களிலுள்ள இன்ட்ரான்களைப் புரோகேரியோட்டு விருந்தோம்பிகளால் பதப்படுத்த இயலாது; cDNA-வில் இன்ட்ரான்கள் இல்லை.",
+       "ta": "முக்கியத்துவம்: யூகேரியோட்டு மரபணுக்களிலுள்ள இன்ட்ரான்களைப் புரோகேரியோட்டு ஓம்புயிரிகளால் பதப்படுத்த இயலாது; cDNA-வில் இன்ட்ரான்கள் இல்லை.",
        "ta_status": "draft"
       },
       {
        "en": "Uses: constructing cDNA libraries, RT-PCR, studying gene expression, producing recombinant proteins in bacteria.",
-       "ta": "பயன்கள்: cDNA நூலகங்களை உருவாக்குதல், RT-PCR, மரபணு வெளிப்பாட்டு ஆய்வு, பாக்டீரியாவில் மறுசேர்க்கைப் புரதங்களை உற்பத்தி செய்தல்.",
+       "ta": "பயன்கள்: cDNA நூலகங்களை உருவாக்குதல், RT-PCR, மரபணு வெளிப்பாட்டு ஆய்வு, பாக்டீரியாவில் மறுகூட்டிணைவுப் புரதங்களை உற்பத்தி செய்தல்.",
        "ta_status": "draft"
       }
      ]
@@ -2248,7 +2248,7 @@
      "type": "p",
      "text": {
       "en": "**5. Describe the steps involved in construction of recombinant DNA, mentioning the enzymes at each step.**",
-      "ta": "**5. மறுசேர்க்கை DNA உருவாக்கத்தின் படிகளை ஒவ்வொரு படியிலும் பயன்படும் நொதிகளைக் குறிப்பிட்டு விவரிக்க.**",
+      "ta": "**5. மறுகூட்டிணைவு DNA உருவாக்கத்தின் படிகளை ஒவ்வொரு படியிலும் பயன்படும் நொதிகளைக் குறிப்பிட்டு விவரிக்க.**",
       "ta_status": "draft"
      }
     },
@@ -2266,27 +2266,27 @@
      "items": [
       {
        "en": "**Step 1 — Isolation:** Isolate source DNA (containing gene of interest) and vector DNA (plasmid).",
-       "ta": "**படி 1 — தனித்துப் பிரித்தல்:** தேவையான மரபணுவைக் கொண்ட மூல DNA-வையும் கடத்தி DNA-வையும் (பிளாஸ்மிட்) தனித்துப் பிரிக்க.",
+       "ta": "**படி 1 — தனித்துப் பிரித்தல்:** தேவையான மரபணுவைக் கொண்ட மூல DNA-வையும் தாங்கிக்கடத்தி DNA-வையும் (பிளாஸ்மிட்) தனித்துப் பிரிக்க.",
        "ta_status": "draft"
       },
       {
        "en": "**Step 2 — Cutting:** Treat both with the same restriction enzyme (e.g., EcoRI) to produce compatible sticky ends.",
-       "ta": "**படி 2 — வெட்டுதல்:** இரண்டையும் ஒரே கட்டுப்படுத்து நொதியால் (எ.கா. EcoRI) பதப்படுத்திப் பொருந்தும் ஒட்டும் முனைகளை உருவாக்குக.",
+       "ta": "**படி 2 — வெட்டுதல்:** இரண்டையும் ஒரே ரெஸ்ட்ரிக்ஷன் நொதியால் (எ.கா. EcoRI) பதப்படுத்திப் பொருந்தும் ஒட்டும் முனைகளை உருவாக்குக.",
        "ta_status": "draft"
       },
       {
        "en": "**Step 3 — Dephosphorylation (optional):** Treat vector with alkaline phosphatase to prevent self-ligation.",
-       "ta": "**படி 3 — பாஸ்பேட் நீக்கம் (விருப்பத் தேர்வு):** தன்னிணைப்பைத் தடுக்கக் கடத்தியை அல்கலைன் பாஸ்படேஸால் பதப்படுத்துக.",
+       "ta": "**படி 3 — பாஸ்பேட் நீக்கம் (விருப்பத் தேர்வு):** தன்னிணைப்பைத் தடுக்கக் தாங்கிக்கடத்தியை அல்கலைன் பாஸ்படேஸால் பதப்படுத்துக.",
        "ta_status": "draft"
       },
       {
        "en": "**Step 4 — Ligation:** Mix insert and vector; add T4 DNA ligase and ATP — recombinant DNA formed.",
-       "ta": "**படி 4 — இணைத்தல்:** செருகையும் கடத்தியையும் கலந்து, T4 DNA லைகேஸும் ATP-யும் சேர்க்க — மறுசேர்க்கை DNA உருவாகும்.",
+       "ta": "**படி 4 — இணைத்தல்:** செருகி DNA-வையும் தாங்கிக்கடத்தியையும் கலந்து, T4 DNA லைகேஸும் ATP-யும் சேர்க்க — மறுகூட்டிணைவு DNA உருவாகும்.",
        "ta_status": "draft"
       },
       {
        "en": "**Step 5 — Transformation:** Introduce rDNA into competent host cells (e.g., _E. coli_).",
-       "ta": "**படி 5 — உருமாற்றம்:** rDNA-வைத் திறனுள்ள விருந்தோம்பி செல்களுக்குள் (எ.கா. _E. coli_) செலுத்துக.",
+       "ta": "**படி 5 — உருமாற்றம்:** rDNA-வைத் தகுந்த ஓம்புயிரி செல்களுக்குள் (எ.கா. _E. coli_) செலுத்துக.",
        "ta_status": "draft"
       },
       {
@@ -2296,7 +2296,7 @@
       },
       {
        "en": "Draw a simple flow diagram: DNA + vector → restriction digestion → ligation → rDNA → transformation → selection.",
-       "ta": "எளிய பாய்வு வரைபடம் வரைக: DNA + கடத்தி → கட்டுப்படுத்து செரிமானம் → இணைத்தல் → rDNA → உருமாற்றம் → தெரிவு.",
+       "ta": "எளிய பாய்வு வரைபடம் வரைக: DNA + தாங்கிக்கடத்தி → ரெஸ்ட்ரிக்ஷன் செரிமானம் → இணைத்தல் → rDNA → உருமாற்றம் → தெரிவு.",
        "ta_status": "draft"
       }
      ]

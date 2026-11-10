@@ -1,28 +1,34 @@
-# Tamil terminology: proposed conventions (for owner review)
+# Tamil terminology: Tamil Nadu State Board usage (for owner review)
 
-Sample chapter: `enzymes_genetic_engineering` (329 strings, status `draft`). Every term below is a **proposal**; please correct
-any that differ from the Tamil Nadu State Board / University usage you teach. Corrections are applied globally.
+Standing instruction (owner): use Tamil Nadu textbook Biology/Zoology terminology.
 
-| English | Tamil used | Note |
+**Source and its limits.** Terms marked *Board* were read from the Tamil-medium State Board **Class 12 Botany, Chapter 4
+(Principles and Processes of Biotechnology)** as reproduced on brainkart.in (`Tools-for-Genetic-Engineering_38241`,
+`Principles-and-Processes-of-Biotechnology--Summary_38246`). That is a third-party copy of the textbook, not the official
+PDF, and it is Botany, not Zoology. Terms marked *Unverified* are my choice where that text had no equivalent; they have NOT
+been checked against a Zoology textbook. Please correct them; fixes are applied globally.
+
+| English | Tamil used | Basis |
 |---|---|---|
-| enzyme | நொதி | |
-| restriction enzyme / endonuclease | கட்டுப்படுத்து நொதி / கட்டுப்படுத்து எண்டோநியூக்ளியேஸ் | alt: வரையறு நொதி |
-| molecular scissors | மூலக்கூறுக் கத்தரிகள் | |
-| palindromic sequence | பாலிண்ட்ரோம் வரிசை | transliterated |
-| sticky / cohesive ends | ஒட்டும் முனைகள் / ஒட்டுறவு முனைகள் | |
-| blunt ends | மழுங்கிய முனைகள் | |
-| recombinant DNA | மறுசேர்க்கை DNA | |
-| vector | கடத்தி (வெக்டர்) | |
-| insert | செருகு (DNA) | |
-| ligation / ligase | இணைத்தல் / லைகேஸ் | |
-| transformation | உருமாற்றம் | |
-| host cell | விருந்தோம்பி செல் | |
-| template / primer | வார்ப்பு / தொடக்கி (பிரைமர்) | |
-| probe | ஆய்வுக்குறிப்பான் (புரோப்) | alt: மூலக்கூறு ஆய்வி |
-| genomic library | மரபணுத்தொகுதி நூலகம் | |
-| cofactor | துணைக்காரணி | |
-| denaturation | இயல்பிழப்பு | |
-| gene therapy / editing | மரபணு சிகிச்சை / மரபணு திருத்தம் | |
+| restriction endonuclease / enzyme | ரெஸ்ட்ரிக்ஷன் எண்டோநியுக்ளியேஸ் / ரெஸ்ட்ரிக்ஷன் நொதி | Board |
+| palindromic sequence | முன்பின் ஒத்த வரிசை | Board |
+| recognition sequence | அடையாளத் தொடர் வரிசை | Board |
+| sticky / cohesive ends | ஒட்டும் முனைகள் / ஒட்டிணைவான முனைகள் | Board |
+| blunt ends | மழுங்கிய முனைகள் | Board |
+| molecular scissors | மூலக்கூறு கத்தரிகோல்கள் | Board |
+| vector | தாங்கிக்கடத்தி | Board |
+| insert DNA | செருகி DNA | Board |
+| host / competent host | ஓம்புயிரி / தகுந்த ஓம்புயிரி | Board |
+| recombinant DNA | மறுகூட்டிணைவு DNA | Board |
+| ligase, plasmid | DNA லைகேஸ், பிளாஸ்மிட் | Board |
+| nuclease, exo-, endonuclease | நியுக்ளியேஸ், எக்சோ-, எண்டோநியுக்ளியேஸ் | Board |
+| enzyme | நொதி | Board |
+| transformation | உருமாற்றம் | Unverified (page showed a different, doubtful rendering) |
+| template / primer / probe | வார்ப்பு / தொடக்கி (பிரைமர்) / ஆய்வுக்குறிப்பான் | Unverified |
+| cofactor, denaturation, thermostable | துணைக்காரணி, இயல்பிழப்பு, வெப்பம் தாங்கும் | Unverified (last one occurs in the Board text) |
+| cDNA / reverse transcriptase / genomic library | cDNA / ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ் / மரபணுத்தொகுதி நூலகம் | Unverified |
+| prokaryote / eukaryote, intron / exon | புரோகேரியோட்டு / யூகேரியோட்டு, இன்ட்ரான் / எக்சான் | Unverified |
 
-Rules applied: enzyme names (EcoRI, Taq), organism names, chemical symbols, units, and DNA sequences stay in Latin script.
-DNA, RNA, cDNA, PCR, ATP, and similar abbreviations are kept in Latin. Markup `**bold**` and `_italic_` is preserved.
+Rules: enzyme names (EcoRI, Taq), organisms, chemical symbols, units and DNA sequences stay in Latin script; DNA, RNA, cDNA,
+PCR, ATP stay in Latin. Markup `**bold**` and `_italic_` is preserved. Glossary headwords carry the English term in brackets
+(`ta_status = bracketed`).
