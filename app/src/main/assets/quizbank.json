@@ -3695,7 +3695,15 @@
     "Clostridium butyricum"
    ],
    "a": 2,
-   "e": "✅ Saccharomyces cerevisiae (baker's/brewer's yeast) is the preferred organism for ethanol production due to its high yield, ethanol tolerance (up to 14–15%), facultative anaerobic metabolism, and GRAS status."
+   "e": "✅ Saccharomyces cerevisiae (baker's/brewer's yeast) is the preferred organism for ethanol production due to its high yield, ethanol tolerance (up to 14–15%), facultative anaerobic metabolism, and GRAS status.",
+   "q_ta": "தொழில்துறை எத்தனால் உற்பத்திக்கு மிகப் பரவலாகப் பயன்படும் நுண்ணுயிர் பின்வருவனவற்றுள் எது?",
+   "o_ta": [
+    "Lactobacillus acidophilus",
+    "Aspergillus niger",
+    "Saccharomyces cerevisiae",
+    "Clostridium butyricum"
+   ],
+   "e_ta": "✅ Saccharomyces cerevisiae (ரொட்டி/மதுவகை ஈஸ்ட்) அதன் உயர் விளைச்சல், எத்தனால் தாங்குதிறன் (14–15% வரை), விருப்பவழி காற்றிலா வளர்சிதைமாற்றம், GRAS தகுதி ஆகியவற்றால் எத்தனால் உற்பத்திக்கு விரும்பப்படும் உயிரினம்."
   },
   {
    "q": "What is the net ATP yield from one molecule of glucose during anaerobic alcoholic fermentation?",
@@ -3706,7 +3714,15 @@
     "36 ATP"
    ],
    "a": 1,
-   "e": "✅ Anaerobic fermentation yields only 2 ATP per glucose molecule (from glycolysis only). Aerobic respiration yields 36–38 ATP, but alcoholic fermentation is strictly anaerobic."
+   "e": "✅ Anaerobic fermentation yields only 2 ATP per glucose molecule (from glycolysis only). Aerobic respiration yields 36–38 ATP, but alcoholic fermentation is strictly anaerobic.",
+   "q_ta": "காற்றிலா ஆல்கஹால் நொதித்தலில் ஒரு குளுக்கோஸ் மூலக்கூறிலிருந்து கிடைக்கும் நிகர ATP எவ்வளவு?",
+   "o_ta": [
+    "38 ATP",
+    "2 ATP",
+    "4 ATP",
+    "36 ATP"
+   ],
+   "e_ta": "✅ காற்றிலா நொதித்தல் ஒரு குளுக்கோஸுக்கு 2 ATP மட்டுமே தருகிறது (கிளைக்காலிசிஸிலிருந்து மட்டும்). காற்றுள்ள சுவாசம் 36–38 ATP தருகிறது; ஆனால் ஆல்கஹால் நொதித்தல் முழுவதும் காற்றிலாதது."
   },
   {
    "q": "The overall equation for alcoholic fermentation is:",
@@ -3717,7 +3733,15 @@
     "C₆H₁₂O₆ → C₃H₇OH + 3 CO₂ + ATP"
    ],
    "a": 1,
-   "e": "✅ The correct Gay-Lussac equation for alcoholic fermentation is: C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂ + 2 ATP. This represents the conversion of one glucose into two ethanol molecules plus two CO₂ molecules."
+   "e": "✅ The correct Gay-Lussac equation for alcoholic fermentation is: C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂ + 2 ATP. This represents the conversion of one glucose into two ethanol molecules plus two CO₂ molecules.",
+   "q_ta": "ஆல்கஹால் நொதித்தலின் ஒட்டுமொத்தச் சமன்பாடு:",
+   "o_ta": [
+    "C₆H₁₂O₆ → 2 CH₃CHOHCOOH + 2 ATP",
+    "C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂ + 2 ATP",
+    "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + 38 ATP",
+    "C₆H₁₂O₆ → C₃H₇OH + 3 CO₂ + ATP"
+   ],
+   "e_ta": "✅ ஆல்கஹால் நொதித்தலுக்கான சரியான கே-லூசாக் சமன்பாடு: C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂ + 2 ATP. இது ஒரு குளுக்கோஸ் இரு எத்தனால் மூலக்கூறுகளாகவும் இரு CO₂ மூலக்கூறுகளாகவும் மாறுவதைக் குறிக்கிறது."
   },
   {
    "q": "Which enzyme catalyses the conversion of pyruvate to acetaldehyde during alcoholic fermentation?",
@@ -3728,7 +3752,15 @@
     "Pyruvate decarboxylase"
    ],
    "a": 3,
-   "e": "✅ Pyruvate decarboxylase catalyses: Pyruvate → Acetaldehyde + CO₂. Then Alcohol dehydrogenase reduces acetaldehyde → Ethanol using NADH."
+   "e": "✅ Pyruvate decarboxylase catalyses: Pyruvate → Acetaldehyde + CO₂. Then Alcohol dehydrogenase reduces acetaldehyde → Ethanol using NADH.",
+   "q_ta": "ஆல்கஹால் நொதித்தலில் பைருவேட்டை அசிட்டால்டிஹைடாக மாற்றுவதை வினையூக்கும் நொதி எது?",
+   "o_ta": [
+    "ஆல்கஹால் டிஹைட்ரோஜினேஸ்",
+    "பைருவேட் கைனேஸ்",
+    "லாக்டேட் டிஹைட்ரோஜினேஸ்",
+    "பைருவேட் டிகார்பாக்சிலேஸ்"
+   ],
+   "e_ta": "✅ பைருவேட் டிகார்பாக்சிலேஸ் வினையூக்குவது: பைருவேட் → அசிட்டால்டிஹைடு + CO₂. பின்னர் ஆல்கஹால் டிஹைட்ரோஜினேஸ் NADH-ஐப் பயன்படுத்தி அசிட்டால்டிஹைடை எத்தனாலாகக் குறைக்கிறது."
   },
   {
    "q": "What is the optimal temperature range for ethanol fermentation by Saccharomyces cerevisiae?",
@@ -3739,7 +3771,15 @@
     "28–32°C"
    ],
    "a": 3,
-   "e": "✅ The optimal temperature for S. cerevisiae fermentation is 28–32°C. Below 20°C, metabolic rate drops significantly; above 40°C, enzymes are denatured and cells die."
+   "e": "✅ The optimal temperature for S. cerevisiae fermentation is 28–32°C. Below 20°C, metabolic rate drops significantly; above 40°C, enzymes are denatured and cells die.",
+   "q_ta": "Saccharomyces cerevisiae மூலம் எத்தனால் நொதித்தலுக்கு உகந்த வெப்பநிலை வரம்பு என்ன?",
+   "o_ta": [
+    "10–15°C",
+    "45–55°C",
+    "60–70°C",
+    "28–32°C"
+   ],
+   "e_ta": "✅ S. cerevisiae நொதித்தலுக்கு உகந்த வெப்பநிலை 28–32°C. 20°C-க்குக் கீழ் வளர்சிதைமாற்ற வேகம் பெருமளவு குறைகிறது; 40°C-க்கு மேல் நொதிகள் இயல்பிழந்து செல்கள் இறக்கின்றன."
   },
   {
    "q": "Molasses, used as a substrate in ethanol fermentation, is a by-product of:",
@@ -3750,7 +3790,15 @@
     "Cellulose processing"
    ],
    "a": 0,
-   "e": "✅ Molasses is a thick, dark by-product of the sugar refining process (from sugarcane or sugar beet). It contains 45–55% fermentable sugars and is the cheapest widely used substrate for industrial ethanol production."
+   "e": "✅ Molasses is a thick, dark by-product of the sugar refining process (from sugarcane or sugar beet). It contains 45–55% fermentable sugars and is the cheapest widely used substrate for industrial ethanol production.",
+   "q_ta": "எத்தனால் நொதித்தலில் வினைபடு பொருளாகப் பயன்படும் வெல்லப்பாகு எதன் துணைப்பொருள்?",
+   "o_ta": [
+    "கரும்பு/பீட்ரூட் சர்க்கரைச் சுத்திகரிப்பு",
+    "ஸ்டார்ச் நீராற்பகுப்பு",
+    "சோள அரைப்பு",
+    "செல்லுலோஸ் பதப்படுத்தல்"
+   ],
+   "e_ta": "✅ வெல்லப்பாகு சர்க்கரைச் சுத்திகரிப்பு (கரும்பு அல்லது சர்க்கரைப் பீட்ரூட்) செயல்முறையின் கெட்டியான, கருமையான துணைப்பொருள். இதில் 45–55% நொதிக்கும் சர்க்கரைகள் உள்ளன; தொழில்துறை எத்தனால் உற்பத்திக்குப் பரவலாகப் பயன்படும் மிகக் குறைந்த விலை வினைபடு பொருள் இதுவே."
   },
   {
    "q": "Which of the following statements about the azeotrope of ethanol-water is CORRECT?",
@@ -3761,7 +3809,15 @@
     "It can be broken by adding more heat alone"
    ],
    "a": 0,
-   "e": "✅ The ethanol-water azeotrope contains 95.6% ethanol and 4.4% water. It boils at a constant temperature (78.2°C) and cannot be separated further by simple distillation. Molecular sieves or azeotropic distillation are used to produce anhydrous ethanol."
+   "e": "✅ The ethanol-water azeotrope contains 95.6% ethanol and 4.4% water. It boils at a constant temperature (78.2°C) and cannot be separated further by simple distillation. Molecular sieves or azeotropic distillation are used to produce anhydrous ethanol.",
+   "q_ta": "எத்தனால்-நீர் அசியோட்ரோப் பற்றிய பின்வரும் கூற்றுகளில் சரியானது எது?",
+   "o_ta": [
+    "இது 95.6% எத்தனால் கொண்டது; எளிய வடித்தலால் பிரிக்க இயலாது",
+    "இது 100% தூய எத்தனால் கொண்டது",
+    "இது 50% எத்தனால், 50% நீர் கொண்டது",
+    "வெப்பத்தை மட்டும் கூட்டினால் இதை உடைக்கலாம்"
+   ],
+   "e_ta": "✅ எத்தனால்-நீர் அசியோட்ரோப் 95.6% எத்தனாலும் 4.4% நீரும் கொண்டது. இது நிலையான வெப்பநிலையில் (78.2°C) கொதிக்கிறது; எளிய வடித்தலால் மேலும் பிரிக்க இயலாது. நீரற்ற எத்தனாலைப் பெற மூலக்கூறுச் சல்லடைகள் அல்லது அசியோட்ரோப்பிக் வடித்தல் பயன்படுத்தப்படுகின்றன."
   },
   {
    "q": "What is the role of NAD⁺ regeneration in anaerobic fermentation?",
@@ -3772,7 +3828,15 @@
     "It activates the alcohol dehydrogenase enzyme"
    ],
    "a": 2,
-   "e": "✅ In the absence of oxygen, NAD⁺ must be regenerated from NADH so that glycolysis can continue. This is achieved by transferring electrons from NADH to acetaldehyde (producing ethanol), thereby regenerating NAD⁺."
+   "e": "✅ In the absence of oxygen, NAD⁺ must be regenerated from NADH so that glycolysis can continue. This is achieved by transferring electrons from NADH to acetaldehyde (producing ethanol), thereby regenerating NAD⁺.",
+   "q_ta": "காற்றிலா நொதித்தலில் NAD⁺ மீளுருவாக்கத்தின் பங்கு என்ன?",
+   "o_ta": [
+    "நேரடியாக கூடுதல் ATP-ஐ உருவாக்குகிறது",
+    "பைருவேட்டை CO₂ ஆக உடைக்கிறது",
+    "NADH-லிருந்து எலக்ட்ரான்களை ஏற்பதன் மூலம் கிளைக்காலிசிஸ் தொடர அனுமதிக்கிறது",
+    "ஆல்கஹால் டிஹைட்ரோஜினேஸ் நொதியைச் செயல்படுத்துகிறது"
+   ],
+   "e_ta": "✅ ஆக்சிஜன் இல்லாதபோது, கிளைக்காலிசிஸ் தொடர NADH-லிருந்து NAD⁺ மீளுருவாக்கப்பட வேண்டும். NADH-லிருந்து அசிட்டால்டிஹைடுக்கு எலக்ட்ரான்கள் மாற்றப்படுவதால் (எத்தனால் உருவாகிறது) NAD⁺ மீளுருவாகிறது."
   },
   {
    "q": "What is the typical ethanol concentration (% v/v) in fermented wash before distillation?",
@@ -3783,7 +3847,15 @@
     "8–12%"
    ],
    "a": 3,
-   "e": "✅ After fermentation, the fermented wash contains 8–12% v/v ethanol. This is because yeast is inhibited by higher ethanol concentrations (product inhibition above 14–15%). Distillation is required to concentrate it to 95–99%."
+   "e": "✅ After fermentation, the fermented wash contains 8–12% v/v ethanol. This is because yeast is inhibited by higher ethanol concentrations (product inhibition above 14–15%). Distillation is required to concentrate it to 95–99%.",
+   "q_ta": "வடித்தலுக்கு முன் நொதித்த கலவையில் உள்ள எத்தனாலின் வழக்கமான செறிவு (% v/v) என்ன?",
+   "o_ta": [
+    "1–2%",
+    "40–50%",
+    "95–99%",
+    "8–12%"
+   ],
+   "e_ta": "✅ நொதித்தலுக்குப் பின் நொதித்த கலவையில் 8–12% v/v எத்தனால் இருக்கும். ஏனெனில் உயர் எத்தனால் செறிவுகளில் ஈஸ்ட் தடுக்கப்படுகிறது (14–15%-க்கு மேல் விளைபொருள் தடுப்பு). 95–99% வரை செறிவூட்ட வடித்தல் தேவை."
   },
   {
    "q": "The Pasteur Effect refers to:",
@@ -3794,7 +3866,15 @@
     "The sterilisation of fermentation medium by heat"
    ],
    "a": 1,
-   "e": "✅ The Pasteur Effect, described by Louis Pasteur, refers to the inhibition of fermentation by oxygen. When O₂ is available, yeast prefers aerobic respiration (higher ATP yield). Fermentation only dominates under anaerobic conditions."
+   "e": "✅ The Pasteur Effect, described by Louis Pasteur, refers to the inhibition of fermentation by oxygen. When O₂ is available, yeast prefers aerobic respiration (higher ATP yield). Fermentation only dominates under anaerobic conditions.",
+   "q_ta": "பாஸ்டர் விளைவு குறிப்பது:",
+   "o_ta": [
+    "ஆக்சிஜன் இருக்கும்போது நொதித்தல் அதிகரித்தல்",
+    "ஆக்சிஜனால் நொதித்தல் தடுக்கப்படுதல் (காற்றுள்ள சுவாசம் விரும்பப்படுதல்)",
+    "அமைலேஸால் ஸ்டார்ச் குளுக்கோஸாக மாறுதல்",
+    "வெப்பத்தால் நொதித்தல் ஊடகத்தைக் கிருமிநீக்கம் செய்தல்"
+   ],
+   "e_ta": "✅ லூயி பாஸ்டர் விவரித்த பாஸ்டர் விளைவு, ஆக்சிஜனால் நொதித்தல் தடுக்கப்படுவதைக் குறிக்கிறது. O₂ கிடைக்கும்போது ஈஸ்ட் அதிக ATP தரும் காற்றுள்ள சுவாசத்தை விரும்புகிறது. காற்றிலா நிலைகளில் மட்டுமே நொதித்தல் ஆதிக்கம் செலுத்துகிறது."
   }
  ],
  "molecular_markers_app.html": [
@@ -3807,7 +3887,15 @@
     "Repeated Fragment Ligation Polymorphism"
    ],
    "a": 0,
-   "e": "RFLP = Restriction Fragment Length Polymorphism — DNA variation detected by differences in fragment lengths produced by restriction enzyme digestion."
+   "e": "RFLP = Restriction Fragment Length Polymorphism — DNA variation detected by differences in fragment lengths produced by restriction enzyme digestion.",
+   "q_ta": "RFLP என்பதன் விரிவு என்ன?",
+   "o_ta": [
+    "Restriction Fragment Length Polymorphism",
+    "Random Fragment Length Polymorphism",
+    "Restriction Fragment Locus Polymorphism",
+    "Repeated Fragment Ligation Polymorphism"
+   ],
+   "e_ta": "RFLP = கட்டுறு துண்டு நீள பல்லுருவமைப்பு — கட்டுறு நொதிச் செரிமானத்தால் உருவாகும் துண்டுகளின் நீள வேறுபாடுகளால் கண்டறியப்படும் DNA மாறுபாடு."
   },
   {
    "q": "Which enzyme is central to the RFLP technique?",
@@ -3818,7 +3906,15 @@
     "Reverse transcriptase"
    ],
    "a": 2,
-   "e": "Restriction endonucleases (restriction enzymes) cut DNA at specific palindromic recognition sequences, generating fragments of different lengths in different individuals."
+   "e": "Restriction endonucleases (restriction enzymes) cut DNA at specific palindromic recognition sequences, generating fragments of different lengths in different individuals.",
+   "q_ta": "RFLP நுட்பத்தின் மையமாக உள்ள நொதி எது?",
+   "o_ta": [
+    "DNA பாலிமெரேஸ்",
+    "லைகேஸ்",
+    "கட்டுறு எண்டோநியுக்ளியேஸ்",
+    "தலைகீழ் படியெடுப்பி"
+   ],
+   "e_ta": "கட்டுறு எண்டோநியுக்ளியேஸ்கள் (கட்டுறு நொதிகள்) குறிப்பிட்ட பாலிண்ட்ரோம் அடையாள வரிசைகளில் DNA-வை வெட்டி, வெவ்வேறு தனிநபர்களில் வெவ்வேறு நீளத் துண்டுகளை உருவாக்குகின்றன."
   },
   {
    "q": "RAPD uses primers that are approximately how long?",
@@ -3829,7 +3925,15 @@
     "100 nucleotides"
    ],
    "a": 1,
-   "e": "RAPD uses short arbitrary primers of approximately 10 nucleotides. Their short length and arbitrary sequence allow them to bind at multiple sites across the genome at low annealing temperature."
+   "e": "RAPD uses short arbitrary primers of approximately 10 nucleotides. Their short length and arbitrary sequence allow them to bind at multiple sites across the genome at low annealing temperature.",
+   "q_ta": "RAPD-இல் பயன்படும் பிரைமர்கள் தோராயமாக எத்தனை நீளமுள்ளவை?",
+   "o_ta": [
+    "50 நியுக்ளியோடைடுகள்",
+    "10 நியுக்ளியோடைடுகள்",
+    "25 நியுக்ளியோடைடுகள்",
+    "100 நியுக்ளியோடைடுகள்"
+   ],
+   "e_ta": "RAPD சுமார் 10 நியுக்ளியோடைடுகள் கொண்ட குறுகிய தற்போக்குப் பிரைமர்களைப் பயன்படுத்துகிறது. அவற்றின் குறுகிய நீளமும் தற்போக்கு வரிசையும் குறைந்த இணைவு வெப்பநிலையில் மரபணுத்தொகை முழுவதும் பல இடங்களில் பிணைய அனுமதிக்கின்றன."
   },
   {
    "q": "RAPD is classified as a __________ marker.",
@@ -3840,7 +3944,15 @@
     "Dominant"
    ],
    "a": 3,
-   "e": "RAPD is a dominant marker — it detects the presence or absence of a band only. It cannot distinguish between homozygous (AA) and heterozygous (Aa) individuals, unlike co-dominant markers."
+   "e": "RAPD is a dominant marker — it detects the presence or absence of a band only. It cannot distinguish between homozygous (AA) and heterozygous (Aa) individuals, unlike co-dominant markers.",
+   "q_ta": "RAPD ஒரு __________ குறிப்பான் என வகைப்படுத்தப்படுகிறது.",
+   "o_ta": [
+    "இணை ஓங்கு",
+    "ஒடுங்கு",
+    "இணை ஓங்கு மற்றும் ஒடுங்கு",
+    "ஓங்கு"
+   ],
+   "e_ta": "RAPD ஓங்கு குறிப்பான் — இது ஒரு பட்டை இருப்பதையோ இல்லாததையோ மட்டுமே கண்டறிகிறது. இணை ஓங்கு குறிப்பான்களைப் போலன்றி, ஒத்தமைவு (AA), மாறுபட்டமைவு (Aa) தனிநபர்களை இதனால் வேறுபடுத்த இயலாது."
   },
   {
    "q": "DNA fingerprinting detects variation in which type of DNA sequences?",
@@ -3851,7 +3963,15 @@
     "Mitochondrial DNA only"
    ],
    "a": 2,
-   "e": "DNA fingerprinting exploits VNTRs (minisatellites) and STRs (microsatellites) — regions where short DNA sequences are repeated in tandem, with the number of repeats varying greatly between individuals."
+   "e": "DNA fingerprinting exploits VNTRs (minisatellites) and STRs (microsatellites) — regions where short DNA sequences are repeated in tandem, with the number of repeats varying greatly between individuals.",
+   "q_ta": "DNA கைரேகையியல் எவ்வகை DNA வரிசைகளிலுள்ள மாறுபாட்டைக் கண்டறிகிறது?",
+   "o_ta": [
+    "குறியீடு செய்யும் எக்சான் வரிசைகள்",
+    "ஊக்குவிப்புப் பகுதிகள்",
+    "மாறுபடும் எண்ணிக்கை வரிசைத் தொடர் மீள்கள் (VNTRs) / குறுகிய வரிசைத் தொடர் மீள்கள் (STRs)",
+    "மைட்டோகாண்ட்ரிய DNA மட்டும்"
+   ],
+   "e_ta": "DNA கைரேகையியல் VNTRs (மினிசாட்டிலைட்டுகள்), STRs (மைக்ரோசாட்டிலைட்டுகள்) ஆகியவற்றைப் பயன்படுத்துகிறது — குறுகிய DNA வரிசைகள் தொடராக மீள்பவை; மீள்களின் எண்ணிக்கை தனிநபர்களிடையே பெரிதும் மாறுபடும்."
   },
   {
    "q": "Who pioneered DNA fingerprinting?",
@@ -3862,7 +3982,15 @@
     "Francis Crick"
    ],
    "a": 1,
-   "e": "Sir Alec Jeffreys at the University of Leicester, UK, developed DNA fingerprinting in 1984 and first applied it legally in 1986."
+   "e": "Sir Alec Jeffreys at the University of Leicester, UK, developed DNA fingerprinting in 1984 and first applied it legally in 1986.",
+   "q_ta": "DNA கைரேகையியலை முன்னோடியாக உருவாக்கியவர் யார்?",
+   "o_ta": [
+    "கேரி முல்லிஸ்",
+    "சர் அலெக் ஜெஃப்ரீஸ்",
+    "எட்வின் சதர்ன்",
+    "ஃபிரான்சிஸ் கிரிக்"
+   ],
+   "e_ta": "இங்கிலாந்தின் லெஸ்டர் பல்கலைக்கழகத்தில் சர் அலெக் ஜெஃப்ரீஸ் 1984-இல் DNA கைரேகையியலை உருவாக்கி, 1986-இல் சட்டப்படி முதன்முதலில் பயன்படுத்தினார்."
   },
   {
    "q": "Which step is unique to RFLP but NOT required in RAPD?",
@@ -3873,7 +4001,15 @@
     "Southern blotting and probe hybridisation"
    ],
    "a": 3,
-   "e": "Southern blotting and probe hybridisation are required in RFLP to detect specific fragments after gel separation. RAPD directly visualises PCR products on a gel — no Southern blotting is needed."
+   "e": "Southern blotting and probe hybridisation are required in RFLP to detect specific fragments after gel separation. RAPD directly visualises PCR products on a gel — no Southern blotting is needed.",
+   "q_ta": "RFLP-க்கு மட்டுமே உரியதும் RAPD-க்குத் தேவைப்படாததுமான படி எது?",
+   "o_ta": [
+    "DNA பிரித்தெடுத்தல்",
+    "ஜெல் மின்னொட்டம்",
+    "பட்டை அமைப்புப் பகுப்பாய்வு",
+    "சதர்ன் புளாட்டிங், துணுக்குக் கலப்பினமாக்கல்"
+   ],
+   "e_ta": "ஜெல் பிரிப்புக்குப் பின் குறிப்பிட்ட துண்டுகளைக் கண்டறிய RFLP-இல் சதர்ன் புளாட்டிங்கும் துணுக்குக் கலப்பினமாக்கலும் தேவை. RAPD PCR விளைபொருள்களை ஜெல்லில் நேரடியாகக் காண்கிறது — சதர்ன் புளாட்டிங் தேவையில்லை."
   },
   {
    "q": "Which molecular marker technique requires NO prior sequence knowledge of the genome?",
@@ -3884,7 +4020,15 @@
     "SSR markers"
    ],
    "a": 0,
-   "e": "RAPD requires no prior DNA sequence knowledge — its arbitrary primers amplify random segments wherever they find complementary binding sites in the genome. This is its major practical advantage."
+   "e": "RAPD requires no prior DNA sequence knowledge — its arbitrary primers amplify random segments wherever they find complementary binding sites in the genome. This is its major practical advantage.",
+   "q_ta": "மரபணுத்தொகை பற்றிய முன் வரிசை அறிவு எதுவும் தேவைப்படாத மூலக்கூற்றுக் குறிப்பான் நுட்பம் எது?",
+   "o_ta": [
+    "RAPD",
+    "RFLP",
+    "DNA கைரேகையியல் (அசல் VNTR முறை)",
+    "SSR குறிப்பான்கள்"
+   ],
+   "e_ta": "RAPD-க்கு முன் DNA வரிசை அறிவு தேவையில்லை — அதன் தற்போக்குப் பிரைமர்கள் மரபணுத்தொகையில் நிரப்புப் பிணைப்பு இடங்களைக் கண்ட இடங்களிலெல்லாம் தற்போக்குப் பகுதிகளைப் பெருக்குகின்றன. இதுவே இதன் முக்கியச் செயல்முறை நன்மை."
   },
   {
    "q": "In paternity testing using DNA fingerprinting, which principle applies?",
@@ -3895,7 +4039,15 @@
     "Child inherits all bands from the mother only"
    ],
    "a": 0,
-   "e": "Each child inherits approximately half its DNA from each biological parent. The child's DNA profile should therefore contain bands (alleles) shared with both the biological mother and biological father."
+   "e": "Each child inherits approximately half its DNA from each biological parent. The child's DNA profile should therefore contain bands (alleles) shared with both the biological mother and biological father.",
+   "q_ta": "DNA கைரேகையியலைப் பயன்படுத்தும் தந்தைமை சோதனையில் எக்கொள்கை பொருந்துகிறது?",
+   "o_ta": [
+    "குழந்தையின் வரைவு இரு உயிரியல் பெற்றோருடனும் பட்டைகளைப் பகிர்கிறது",
+    "குழந்தையின் வரைவு ஒரு பெற்றோருடையதுடன் ஒத்தது",
+    "குழந்தையின் வரைவு பெற்றோருடன் தொடர்பற்றது",
+    "குழந்தை அனைத்துப் பட்டைகளையும் தாயிடமிருந்து மட்டுமே பெறுகிறது"
+   ],
+   "e_ta": "ஒவ்வொரு குழந்தையும் தன் DNA-வில் ஏறத்தாழ பாதியை ஒவ்வோர் உயிரியல் பெற்றோரிடமிருந்தும் பெறுகிறது. எனவே குழந்தையின் DNA வரைவில் உயிரியல் தாய், உயிரியல் தந்தை இருவருடனும் பகிரப்படும் பட்டைகள் (அல்லீல்கள்) இருக்க வேண்டும்."
   },
   {
    "q": "Which of the following is NOT an application of DNA fingerprinting?",
@@ -3906,7 +4058,15 @@
     "Designing new restriction enzymes"
    ],
    "a": 3,
-   "e": "Designing restriction enzymes is a protein engineering task unrelated to DNA fingerprinting. DNA fingerprinting applications include forensics, paternity testing, wildlife monitoring, individual identification, and population genetics."
+   "e": "Designing restriction enzymes is a protein engineering task unrelated to DNA fingerprinting. DNA fingerprinting applications include forensics, paternity testing, wildlife monitoring, individual identification, and population genetics.",
+   "q_ta": "பின்வருவனவற்றுள் DNA கைரேகையியலின் பயன்பாடு அல்லாதது எது?",
+   "o_ta": [
+    "தடயவியல் அடையாளம் காணல்",
+    "காட்டுயிர் எண்ணிக்கைக் கண்காணிப்பு",
+    "தந்தைமை சோதனை",
+    "புதிய கட்டுறு நொதிகளை வடிவமைத்தல்"
+   ],
+   "e_ta": "கட்டுறு நொதிகளை வடிவமைத்தல் DNA கைரேகையியலுடன் தொடர்பற்ற புரதப் பொறியியல் பணி. DNA கைரேகையியலின் பயன்பாடுகள்: தடயவியல், தந்தைமை சோதனை, காட்டுயிர்க் கண்காணிப்பு, தனிநபர் அடையாளம் காணல், மக்கள்தொகை மரபியல்."
   }
  ],
  "pcr_principle_types_applications.html": [
@@ -3919,7 +4079,15 @@
     "Kary Mullis, 1983"
    ],
    "a": 3,
-   "e": "PCR (Polymerase Chain Reaction) was invented by Kary Mullis in 1983 while working at Cetus Corporation. He was awarded the Nobel Prize in Chemistry in 1993 for this revolutionary invention. Sanger developed DNA sequencing in 1977; Watson and Crick described DNA structure in 1953."
+   "e": "PCR (Polymerase Chain Reaction) was invented by Kary Mullis in 1983 while working at Cetus Corporation. He was awarded the Nobel Prize in Chemistry in 1993 for this revolutionary invention. Sanger developed DNA sequencing in 1977; Watson and Crick described DNA structure in 1953.",
+   "q_ta": "PCR-ஐக் கண்டுபிடித்தவர் யார்? எந்த ஆண்டில்?",
+   "o_ta": [
+    "ஃபிரெடரிக் சேங்கர், 1977",
+    "ஜேம்ஸ் வாட்சன், 1953",
+    "ஹெர்பர்ட் பாயர், 1973",
+    "கேரி முல்லிஸ், 1983"
+   ],
+   "e_ta": "PCR (பாலிமெரேஸ் தொடர் வினை) சீட்டஸ் கார்ப்பரேஷனில் பணியாற்றியபோது 1983-இல் கேரி முல்லிஸால் கண்டுபிடிக்கப்பட்டது. இப்புரட்சிகரக் கண்டுபிடிப்புக்காக அவருக்கு 1993-இல் வேதியியலுக்கான நோபல் பரிசு வழங்கப்பட்டது. சேங்கர் 1977-இல் DNA வரிசையாக்கத்தை உருவாக்கினார்; வாட்சனும் கிரிக்கும் 1953-இல் DNA அமைப்பை விவரித்தனர்."
   },
   {
    "q": "What is the correct sequence of the three stages of a PCR cycle?",
@@ -3930,7 +4098,15 @@
     "Denaturation → Extension → Annealing"
    ],
    "a": 1,
-   "e": "The correct order is Denaturation (94–96°C) → Annealing (50–65°C) → Extension (72°C). First, DNA strands are separated by heat; then primers bind to their complementary sequences at lower temperature; finally, Taq polymerase extends the primers at 72°C to synthesise the new strand."
+   "e": "The correct order is Denaturation (94–96°C) → Annealing (50–65°C) → Extension (72°C). First, DNA strands are separated by heat; then primers bind to their complementary sequences at lower temperature; finally, Taq polymerase extends the primers at 72°C to synthesise the new strand.",
+   "q_ta": "PCR சுழற்சியின் மூன்று நிலைகளின் சரியான வரிசை எது?",
+   "o_ta": [
+    "இணைதல் → இயல்பிழத்தல் → நீட்சி",
+    "இயல்பிழத்தல் → இணைதல் → நீட்சி",
+    "நீட்சி → இணைதல் → இயல்பிழத்தல்",
+    "இயல்பிழத்தல் → நீட்சி → இணைதல்"
+   ],
+   "e_ta": "சரியான வரிசை: இயல்பிழத்தல் (94–96°C) → இணைதல் (50–65°C) → நீட்சி (72°C). முதலில் வெப்பத்தால் DNA இழைகள் பிரிகின்றன; பின்னர் குறைந்த வெப்பநிலையில் பிரைமர்கள் தம் நிரப்பு வரிசைகளுடன் பிணைகின்றன; இறுதியாக 72°C-இல் Taq பாலிமெரேஸ் பிரைமர்களை நீட்டிப் புதிய இழையைத் தொகுக்கிறது."
   },
   {
    "q": "What is the temperature used in the extension step of PCR and why?",
@@ -3941,7 +4117,15 @@
     "37°C — standard enzyme temperature"
    ],
    "a": 0,
-   "e": "The extension step is performed at 72°C because this is the optimal activity temperature of Taq DNA polymerase (isolated from Thermus aquaticus, a hot spring bacterium). At 72°C, Taq extends primers at a rate of approximately 1000 bp/minute, synthesising the new complementary strand from the annealed primers."
+   "e": "The extension step is performed at 72°C because this is the optimal activity temperature of Taq DNA polymerase (isolated from Thermus aquaticus, a hot spring bacterium). At 72°C, Taq extends primers at a rate of approximately 1000 bp/minute, synthesising the new complementary strand from the annealed primers.",
+   "q_ta": "PCR-இன் நீட்சிப் படியில் பயன்படும் வெப்பநிலை என்ன? ஏன்?",
+   "o_ta": [
+    "72°C — Taq DNA பாலிமெரேஸ் செயல்பாட்டுக்கு உகந்த வெப்பநிலை",
+    "94–96°C — DNA-வை உருக்க",
+    "50–65°C — பிரைமர் இணைவுக்கு",
+    "37°C — நொதிகளுக்கான தரநிலை வெப்பநிலை"
+   ],
+   "e_ta": "நீட்சிப் படி 72°C-இல் நடைபெறுகிறது; ஏனெனில் இதுவே Taq DNA பாலிமெரேஸின் (வெந்நீர் ஊற்றுப் பாக்டீரியாவான Thermus aquaticus-இலிருந்து பிரித்தெடுக்கப்பட்டது) உகந்த செயல்பாட்டு வெப்பநிலை. 72°C-இல் Taq ஒரு நிமிடத்துக்குத் தோராயமாக 1000 bp வேகத்தில் பிரைமர்களை நீட்டி, இணைந்த பிரைமர்களிலிருந்து புதிய நிரப்பு இழையைத் தொகுக்கிறது."
   },
   {
    "q": "After 30 cycles of PCR starting from a single DNA molecule, approximately how many copies are produced?",
@@ -3952,7 +4136,15 @@
     "1 million copies"
    ],
    "a": 0,
-   "e": "The number of copies after n cycles = 2ⁿ. After 30 cycles: 2³⁰ = 1,073,741,824 ≈ 1 billion (10⁹) copies. This exponential amplification is the key power of PCR — each cycle doubles the number of copies, because products of each cycle serve as templates for the next."
+   "e": "The number of copies after n cycles = 2ⁿ. After 30 cycles: 2³⁰ = 1,073,741,824 ≈ 1 billion (10⁹) copies. This exponential amplification is the key power of PCR — each cycle doubles the number of copies, because products of each cycle serve as templates for the next.",
+   "q_ta": "ஒரே DNA மூலக்கூறிலிருந்து தொடங்கி 30 PCR சுழற்சிகளுக்குப் பின் தோராயமாக எத்தனை படிகள் உருவாகின்றன?",
+   "o_ta": [
+    "100 கோடி படிகள் (∼10⁹)",
+    "30 படிகள்",
+    "1,000 படிகள்",
+    "10 லட்சம் படிகள்"
+   ],
+   "e_ta": "n சுழற்சிகளுக்குப் பின் படிகளின் எண்ணிக்கை = 2ⁿ. 30 சுழற்சிகளுக்குப் பின்: 2³⁰ = 1,073,741,824 ≈ 100 கோடி (10⁹) படிகள். இப்படிமுறைப் பெருக்கமே PCR-இன் முக்கிய ஆற்றல் — ஒவ்வொரு சுழற்சியிலும் படிகளின் எண்ணிக்கை இரட்டிக்கிறது, ஏனெனில் ஒவ்வொரு சுழற்சியின் விளைபொருள்களும் அடுத்த சுழற்சிக்கு வார்ப்புருக்களாகின்றன."
   },
   {
    "q": "Which enzyme makes PCR practical for automation by withstanding repeated heating to 95°C?",
@@ -3963,7 +4155,15 @@
     "Reverse Transcriptase"
    ],
    "a": 1,
-   "e": "Taq DNA Polymerase, isolated from the thermophilic bacterium Thermus aquaticus, is heat-stable and survives the 94–96°C denaturation step that would destroy ordinary enzymes. Before Taq polymerase was used, researchers had to add fresh enzyme after each denaturation step, making automation impractical."
+   "e": "Taq DNA Polymerase, isolated from the thermophilic bacterium Thermus aquaticus, is heat-stable and survives the 94–96°C denaturation step that would destroy ordinary enzymes. Before Taq polymerase was used, researchers had to add fresh enzyme after each denaturation step, making automation impractical.",
+   "q_ta": "95°C வரை மீண்டும் மீண்டும் வெப்பப்படுத்துவதைத் தாங்கி PCR-ஐத் தானியங்கிக்கு உகந்ததாக்கும் நொதி எது?",
+   "o_ta": [
+    "DNA லைகேஸ் (T4)",
+    "Taq DNA பாலிமெரேஸ்",
+    "E. coli DNA பாலிமெரேஸ் I",
+    "தலைகீழ் படியெடுப்பி"
+   ],
+   "e_ta": "வெப்பம் விரும்பும் பாக்டீரியாவான Thermus aquaticus-இலிருந்து பிரித்தெடுக்கப்பட்ட Taq DNA பாலிமெரேஸ் வெப்பம்தாங்குவது; சாதாரண நொதிகளை அழிக்கும் 94–96°C இயல்பிழத்தல் படியையும் தாங்கி உயிர்வாழ்கிறது. Taq பயன்படுத்தப்படும் முன், ஒவ்வோர் இயல்பிழத்தல் படிக்குப் பின்னும் புதிய நொதியைச் சேர்க்க வேண்டியிருந்தது; இது தானியங்கியை நடைமுறைக்கு ஒவ்வாததாக்கியது."
   },
   {
    "q": "In RT-PCR, what is the role of reverse transcriptase?",
@@ -3974,7 +4174,15 @@
     "It converts RNA (mRNA) into complementary DNA (cDNA) before PCR amplification"
    ],
    "a": 3,
-   "e": "In RT-PCR, reverse transcriptase converts single-stranded mRNA into complementary DNA (cDNA) in a step BEFORE PCR thermal cycling. This reverse transcription step is essential because Taq polymerase can only copy DNA templates. The resulting cDNA then serves as the template for standard PCR amplification."
+   "e": "In RT-PCR, reverse transcriptase converts single-stranded mRNA into complementary DNA (cDNA) in a step BEFORE PCR thermal cycling. This reverse transcription step is essential because Taq polymerase can only copy DNA templates. The resulting cDNA then serves as the template for standard PCR amplification.",
+   "q_ta": "RT-PCR-இல் தலைகீழ் படியெடுப்பியின் பங்கு என்ன?",
+   "o_ta": [
+    "உயர் வெப்பநிலையில் DNA வார்ப்புருவை இயல்பிழக்கச் செய்கிறது",
+    "வெப்பச் சுழற்சியின்போது cDNA-வைப் பெருக்குகிறது",
+    "PCR விளைபொருளை ஒளிர்வால் அடையாளமிடுகிறது",
+    "PCR பெருக்கத்துக்கு முன் RNA-வை (mRNA) நிரப்பு DNA-வாக (cDNA) மாற்றுகிறது"
+   ],
+   "e_ta": "RT-PCR-இல் தலைகீழ் படியெடுப்பி PCR வெப்பச் சுழற்சிக்கு முன்பான படியில் ஒற்றை இழை mRNA-வை நிரப்பு DNA-வாக (cDNA) மாற்றுகிறது. Taq பாலிமெரேஸ் DNA வார்ப்புருக்களை மட்டுமே நகலெடுக்க முடியுமாதலால் இத்தலைகீழ்ப் படியெடுப்புப் படி இன்றியமையாதது. இவ்வாறு உருவான cDNA பின்னர் வழக்கமான PCR பெருக்கத்துக்கு வார்ப்புருவாகிறது."
   },
   {
    "q": "What is the main advantage of Nested PCR over conventional PCR?",
@@ -3985,7 +4193,15 @@
     "It provides much higher sensitivity and specificity using two sets of primers"
    ],
    "a": 3,
-   "e": "Nested PCR uses two sequential PCR reactions: the first uses outer primers to amplify a larger region, and the second uses inner (nested) primers within the first product. This two-round approach dramatically increases sensitivity (detects very low copy number targets) and specificity (the probability of non-specific products matching BOTH outer and inner primer pairs is extremely low)."
+   "e": "Nested PCR uses two sequential PCR reactions: the first uses outer primers to amplify a larger region, and the second uses inner (nested) primers within the first product. This two-round approach dramatically increases sensitivity (detects very low copy number targets) and specificity (the probability of non-specific products matching BOTH outer and inner primer pairs is extremely low).",
+   "q_ta": "வழக்கமான PCR-ஐவிட உள்ளமை PCR-இன் முதன்மை நன்மை என்ன?",
+   "o_ta": [
+    "குறைவான கூறுகளே தேவை",
+    "குறைந்த இயல்பிழத்தல் வெப்பநிலையைப் பயன்படுத்துகிறது",
+    "தலைகீழ்ப் படியெடுப்பு இன்றி RNA-வை நேரடியாகப் பெருக்க முடியும்",
+    "இரு பிரைமர் தொகுப்புகளைப் பயன்படுத்தி மிக உயர்ந்த உணர்திறனையும் தனித்தன்மையையும் தருகிறது"
+   ],
+   "e_ta": "உள்ளமை PCR இரு தொடர் PCR வினைகளைப் பயன்படுத்துகிறது: முதல் வினை வெளிப் பிரைமர்களால் பெரிய பகுதியைப் பெருக்குகிறது; இரண்டாவது, முதல் விளைபொருளுக்குள் அமையும் உள் (உள்ளமை) பிரைமர்களைப் பயன்படுத்துகிறது. இந்த இரு சுற்று அணுகுமுறை உணர்திறனையும் (மிகக் குறைந்த படி எண்ணிக்கை இலக்குகளைக் கண்டறிதல்) தனித்தன்மையையும் (குறிப்பிடாத விளைபொருள்கள் வெளி, உள் பிரைமர் இணைகள் இரண்டிலும் பொருந்தும் நிகழ்தகவு மிகக் குறைவு) வெகுவாக உயர்த்துகிறது."
   },
   {
    "q": "What is the role of Mg²⁺ ions in PCR?",
@@ -3996,7 +4212,15 @@
     "Mg²⁺ prevents primer dimer formation"
    ],
    "a": 1,
-   "e": "Magnesium ions (Mg²⁺, added as MgCl₂ at 1.5–2.5 mM) serve as an essential cofactor for Taq DNA polymerase catalytic activity. Mg²⁺ also stabilises primer-template duplexes during annealing. The Mg²⁺ concentration critically affects PCR: too little = no amplification; too much = non-specific bands. Optimising Mg²⁺ concentration is a key troubleshooting step in PCR."
+   "e": "Magnesium ions (Mg²⁺, added as MgCl₂ at 1.5–2.5 mM) serve as an essential cofactor for Taq DNA polymerase catalytic activity. Mg²⁺ also stabilises primer-template duplexes during annealing. The Mg²⁺ concentration critically affects PCR: too little = no amplification; too much = non-specific bands. Optimising Mg²⁺ concentration is a key troubleshooting step in PCR.",
+   "q_ta": "PCR-இல் Mg²⁺ அயனிகளின் பங்கு என்ன?",
+   "o_ta": [
+    "Mg²⁺ DNA இரட்டைச் சுருளை இயல்பிழக்கச் செய்கிறது",
+    "Mg²⁺ Taq DNA பாலிமெரேஸ் செயல்பாட்டுக்கு இன்றியமையாத துணைக்காரணி; பிரைமர்–வார்ப்புரு இரட்டைகளை நிலைப்படுத்துகிறது",
+    "Mg²⁺ பாலிமெரேஸுக்கான ஆற்றல் மூலம்",
+    "Mg²⁺ பிரைமர் இருமம் உருவாவதைத் தடுக்கிறது"
+   ],
+   "e_ta": "மெக்னீசிய அயனிகள் (Mg²⁺, 1.5–2.5 mM-இல் MgCl₂ ஆகச் சேர்க்கப்படுபவை) Taq DNA பாலிமெரேஸ் வினையூக்கச் செயல்பாட்டுக்கு இன்றியமையாத துணைக்காரணியாகச் செயல்படுகின்றன. இணைதலின்போது பிரைமர்–வார்ப்புரு இரட்டைகளையும் Mg²⁺ நிலைப்படுத்துகிறது. Mg²⁺ செறிவு PCR-ஐ மிகவும் பாதிக்கிறது: மிகக் குறைவு = பெருக்கமில்லை; மிக அதிகம் = குறிப்பிடாத பட்டைகள். Mg²⁺ செறிவை உகப்பாக்குதல் PCR சிக்கல் நீக்கலில் முக்கியப் படி."
   },
   {
    "q": "Which type of PCR is used in COVID-19 diagnosis to detect the SARS-CoV-2 virus?",
@@ -4007,7 +4231,15 @@
     "Nested PCR"
    ],
    "a": 2,
-   "e": "SARS-CoV-2 is an RNA virus, so its genome is RNA (not DNA). RT-PCR is used because it first converts the viral RNA to cDNA using reverse transcriptase, then amplifies the cDNA by PCR. In practice, COVID-19 testing uses RT-qPCR (real-time RT-PCR), which also quantifies the viral load. Conventional PCR cannot detect RNA viruses directly."
+   "e": "SARS-CoV-2 is an RNA virus, so its genome is RNA (not DNA). RT-PCR is used because it first converts the viral RNA to cDNA using reverse transcriptase, then amplifies the cDNA by PCR. In practice, COVID-19 testing uses RT-qPCR (real-time RT-PCR), which also quantifies the viral load. Conventional PCR cannot detect RNA viruses directly.",
+   "q_ta": "SARS-CoV-2 வைரஸைக் கண்டறிய கோவிட்-19 நோய்கண்டறிதலில் பயன்படும் PCR வகை எது?",
+   "o_ta": [
+    "வழக்கமான PCR",
+    "பல்லிலக்கு PCR",
+    "RT-PCR (தலைகீழ் படியெடுப்பி PCR)",
+    "உள்ளமை PCR"
+   ],
+   "e_ta": "SARS-CoV-2 ஒரு RNA வைரஸ்; எனவே அதன் மரபணுத்தொகை DNA அல்ல, RNA. RT-PCR பயன்படுத்தப்படுவதற்குக் காரணம், அது முதலில் தலைகீழ் படியெடுப்பியால் வைரஸ் RNA-வை cDNA ஆக மாற்றி, பின்னர் PCR மூலம் cDNA-வைப் பெருக்குகிறது. நடைமுறையில் கோவிட்-19 சோதனை RT-qPCR (நிகழ்நேர RT-PCR) பயன்படுத்துகிறது; இது வைரஸ் சுமையையும் அளவிடுகிறது. வழக்கமான PCR-ஆல் RNA வைரஸ்களை நேரடியாகக் கண்டறிய இயலாது."
   },
   {
    "q": "What does Multiplex PCR allow that conventional single-target PCR cannot?",
@@ -4018,7 +4250,15 @@
     "Quantification of the starting amount of DNA"
    ],
    "a": 2,
-   "e": "Multiplex PCR uses multiple pairs of primers in a single PCR reaction, each pair amplifying a different target sequence. This allows simultaneous detection of multiple targets in one tube — saving time, cost, and sample. Applications include STR profiling (forensics), multi-pathogen detection panels, and deletion screening in genetic disorders (e.g., Duchenne muscular dystrophy)."
+   "e": "Multiplex PCR uses multiple pairs of primers in a single PCR reaction, each pair amplifying a different target sequence. This allows simultaneous detection of multiple targets in one tube — saving time, cost, and sample. Applications include STR profiling (forensics), multi-pathogen detection panels, and deletion screening in genetic disorders (e.g., Duchenne muscular dystrophy).",
+   "q_ta": "வழக்கமான ஒற்றை இலக்கு PCR-ஆல் இயலாத எதைப் பல்லிலக்கு PCR சாத்தியமாக்குகிறது?",
+   "o_ta": [
+    "ஒற்றைச் செல்லிலிருந்து DNA-வைப் பெருக்குதல்",
+    "RNA வைரஸ்களைக் கண்டறிதல்",
+    "ஒரே வினையில் பல இலக்கு DNA வரிசைகளை ஒரே நேரத்தில் பெருக்குதல்",
+    "தொடக்க DNA அளவை அளவிடுதல்"
+   ],
+   "e_ta": "பல்லிலக்கு PCR ஒரே PCR வினையில் பல பிரைமர் இணைகளைப் பயன்படுத்துகிறது; ஒவ்வோர் இணையும் வெவ்வேறு இலக்கு வரிசையைப் பெருக்குகிறது. இதனால் ஒரே குழாயில் பல இலக்குகளை ஒரே நேரத்தில் கண்டறிய முடிகிறது — நேரம், செலவு, மாதிரி மிச்சம். பயன்பாடுகள்: STR வரைவாக்கம் (தடயவியல்), பல நோய்க்கிருமி கண்டறிதல் தொகுப்புகள், மரபுக் கோளாறுகளில் நீக்கச் சலிக்கை (எ.கா. டுஷேன் தசைச் சிதைவு)."
   }
  ],
  "protein_databases_app.html": [
