@@ -2978,7 +2978,7 @@
     "q": "Define gene cloning. Describe the step-by-step procedure of gene cloning.",
     "a": "Definition: gene cloning = producing multiple identical copies of a specific gene using recombinant DNA technology. Steps in order: (1) Isolation of gene of interest (RE digestion/PCR/cDNA); (2) Restriction digestion of gene and vector with same RE; (3) Ligation with T4 DNA ligase; (4) Formation of recombinant DNA; (5) Transformation into E. coli (heat shock/electroporation); (6) Selection on antibiotic medium; (7) Screening for recombinants; (8) Colony multiplication and verification. Mention requirements: insert DNA, vector (ori + marker + MCS), restriction enzyme, DNA ligase, competent E. coli. Include a simple flow diagram: gene → RE cut → ligation → transform → select → screen.",
     "q_ta": "மரபணு குளோனாக்கத்தை வரையறுக்க. மரபணு குளோனாக்கத்தின் படிநிலைச் செயல்முறையை விவரிக்க.",
-    "a_ta": "வரையறை: மரபணு குளோனாக்கம் = மறுசேர்க்கை DNA தொழில்நுட்பத்தால் குறிப்பிட்ட மரபணுவின் பல ஒத்த நகல்களை உருவாக்குதல். படிகள் வரிசையில்: (1) ஆர்வமுள்ள மரபணுவைப் பிரித்தெடுத்தல் (RE வெட்டல்/PCR/cDNA); (2) மரபணுவையும் தாங்கிக்கடத்தியையும் ஒரே RE-யால் கட்டுறு வெட்டல்; (3) T4 DNA லைகேஸால் இணைத்தல்; (4) மறுசேர்க்கை DNA உருவாதல்; (5) E. coli-க்குள் உருமாற்றம் (வெப்ப அதிர்ச்சி/மின்துளையிடல்); (6) உயிர்எதிர்ப்பிப் பொருள் ஊடகத்தில் தேர்வு; (7) மறுசேர்க்கைகளுக்கான சலிப்பு; (8) காலனிப் பெருக்கமும் சரிபார்ப்பும். தேவைகளைக் குறிப்பிடுக: செருகல் DNA, தாங்கிக்கடத்தி (ori + குறிப்பான் + MCS), கட்டுறு நொதி, DNA லைகேஸ், ஏற்புத்திறன் கொண்ட E. coli. எளிய ஓட்ட வரைபடம் சேர்க்க: மரபணு → RE வெட்டல் → இணைத்தல் → உருமாற்றம் → தேர்வு → சலிப்பு."
+    "a_ta": "வரையறை: மரபணு குளோனாக்கம் = மறுசேர்க்கை DNA தொழில்நுட்பத்தால் குறிப்பிட்ட மரபணுவின் பல ஒத்த நகல்களை உருவாக்குதல். படிகள் வரிசையில்: (1) ஆர்வமுள்ள மரபணுவைப் பிரித்தெடுத்தல் (RE வெட்டல்/PCR/cDNA); (2) மரபணுவையும் தாங்கிக்கடத்தியையும் ஒரே RE-யால் கட்டுறு வெட்டல்; (3) T4 DNA லைகேஸால் இணைத்தல்; (4) மறுசேர்க்கை DNA உருவாதல்; (5) E. coli-க்குள் உருமாற்றம் (வெப்ப அதிர்ச்சி/மின்துளைப்பு); (6) உயிர்எதிர்ப்பிப் பொருள் ஊடகத்தில் தேர்வு; (7) மறுசேர்க்கைகளுக்கான சலிப்பு; (8) காலனிப் பெருக்கமும் சரிபார்ப்பும். தேவைகளைக் குறிப்பிடுக: செருகல் DNA, தாங்கிக்கடத்தி (ori + குறிப்பான் + MCS), கட்டுறு நொதி, DNA லைகேஸ், ஏற்புத்திறன் கொண்ட E. coli. எளிய ஓட்ட வரைபடம் சேர்க்க: மரபணு → RE வெட்டல் → இணைத்தல் → உருமாற்றம் → தேர்வு → சலிப்பு."
    },
    {
     "q": "What is blue-white screening? Explain its principle and significance in clone selection.",
@@ -3028,7 +3028,7 @@
     "t": "Transformation",
     "d": "The uptake of foreign DNA by a bacterial cell. In gene cloning, competent E. coli cells take up recombinant vectors by heat shock (CaCl₂ method) or electroporation.",
     "t_ta": "உருமாற்றம்",
-    "d_ta": "பாக்டீரியச் செல் அயல் DNA-வை எடுத்துக்கொள்ளுதல். மரபணு குளோனாக்கத்தில், ஏற்புத்திறன் கொண்ட E. coli செல்கள் வெப்ப அதிர்ச்சி (CaCl₂ முறை) அல்லது மின்துளையிடல் மூலம் மறுசேர்க்கைத் தாங்கிக்கடத்திகளை எடுத்துக்கொள்கின்றன."
+    "d_ta": "பாக்டீரியச் செல் அயல் DNA-வை எடுத்துக்கொள்ளுதல். மரபணு குளோனாக்கத்தில், ஏற்புத்திறன் கொண்ட E. coli செல்கள் வெப்ப அதிர்ச்சி (CaCl₂ முறை) அல்லது மின்துளைப்பு மூலம் மறுசேர்க்கைத் தாங்கிக்கடத்திகளை எடுத்துக்கொள்கின்றன."
    },
    {
     "t": "Recombinant DNA",
@@ -3058,7 +3058,7 @@
     "t": "Competent Cell",
     "d": "A bacterial cell that has been chemically (CaCl₂) or physically (electroporation) treated to become capable of taking up exogenous DNA from its environment during transformation.",
     "t_ta": "ஏற்புத்திறன் செல்",
-    "d_ta": "உருமாற்றத்தின்போது சூழலிலிருந்து புறவழி DNA-வை எடுத்துக்கொள்ளும் திறன் பெற வேதியியல் (CaCl₂) அல்லது இயற்பியல் (மின்துளையிடல்) முறையில் சிகிச்சையளிக்கப்பட்ட பாக்டீரியச் செல்."
+    "d_ta": "உருமாற்றத்தின்போது சூழலிலிருந்து புறவழி DNA-வை எடுத்துக்கொள்ளும் திறன் பெற வேதியியல் (CaCl₂) அல்லது இயற்பியல் (மின்துளைப்பு) முறையில் சிகிச்சையளிக்கப்பட்ட பாக்டீரியச் செல்."
    },
    {
     "t": "Sticky Ends",
@@ -3085,7 +3085,7 @@
    "5 தேவைகள்: மூல DNA + தாங்கிக்கடத்தி + கட்டுறு நொதி + DNA லைகேஸ் + ஓம்புயிர்ச் செல் (E. coli). இவை சேர்ந்து குளோனாக்கச் செயல்முறை முழுவதையும் இயலச் செய்கின்றன.",
    "கட்டுறு நொதிகள்: இணக்கமான ஒட்டும் முனைகளை உருவாக்கச் செருகலுக்கும் தாங்கிக்கடத்திக்கும் ஒரே நொதியைப் பயன்படுத்த வேண்டும். பொது எடுத்துக்காட்டுகள்: EcoRI (GAATTC), BamHI (GGATCC), HindIII (AAGCTT).",
    "DNA லைகேஸ் (T4): 3'-OH, 5'-பாஸ்பேட் முனைகளுக்கிடையே பாஸ்போடைஎஸ்டர் பிணைப்புகளை மூடுகிறது. செருகலைத் தாங்கிக்கடத்தியில் இணைக்கிறது. ATP, Mg²⁺ தேவை. வழக்கமாக 16°C-இல் இரவு முழுவதும் அடைகாக்கப்படுகிறது.",
-   "உருமாற்றம்: மறுசேர்க்கை DNA-வை E. coli-க்குள் செலுத்துதல். முறைகள்: CaCl₂/வெப்ப அதிர்ச்சி (42°C) அல்லது மின்துளையிடல். 10³–10⁵ செல்களில் ~1 மட்டுமே உருமாறுகிறது.",
+   "உருமாற்றம்: மறுசேர்க்கை DNA-வை E. coli-க்குள் செலுத்துதல். முறைகள்: CaCl₂/வெப்ப அதிர்ச்சி (42°C) அல்லது மின்துளைப்பு. 10³–10⁵ செல்களில் ~1 மட்டுமே உருமாறுகிறது.",
    "உயிர்எதிர்ப்பிப் பொருள் தேர்வு: செல்கள் ஆம்பிசிலின் ஊடகத்தில் பரப்பப்படுகின்றன. தாங்கிக்கடத்தி (amp^r) கொண்ட செல்கள் மட்டுமே உயிர்வாழும். இது உருமாறிய செல்களைத் தேர்ந்தெடுக்கிறது (ஆனால் மறுசேர்க்கைகளை மட்டும் அல்ல).",
    "நீல–வெள்ளைச் சலிப்பு: நீல காலனிகள் = மறுசேர்க்கை அல்லாதவை (lacZ சேதமின்றி, β-gal செயல்படுகிறது, X-gal பிளக்கப்பட்டு → நீலம்). வெள்ளை காலனிகள் = மறுசேர்க்கை (செருகல் lacZ-ஐ சீர்குலைக்கிறது, β-gal இல்லை, நிறம் இல்லை). வெள்ளை காலனிகளைத் தேர்ந்தெடு!",
    "செருகல் செயலிழப்பு: pBR322-இல்: BamHI/SalI இடத்தில் செருகல் tet^r-ஐ சீர்குலைக்கிறது. மறுசேர்க்கைகள் = amp^r, tet^s. மறுசேர்க்கை அல்லாதவை = amp^r, tet^r. பிரதியெடுப்புத் தட்டுமுறையால் உறுதிசெய்யப்படுகிறது.",
@@ -3115,74 +3115,123 @@
   "sa": [
    {
     "q": "What is transformation? Describe the steps involved in artificial transformation of E. coli.",
-    "a": "Definition: uptake of naked exogenous DNA by a bacterial cell leading to heritable change. First described by Griffith (1928); molecular basis by Avery et al. (1944). Steps: (1) Grow E. coli to log phase; (2) Wash in ice-cold CaCl₂ → competent cells; (3) Add recombinant plasmid DNA, incubate on ice (DNA adsorbs to cell surface); (4) Heat shock at 42°C for 90 sec → DNA enters through temporary membrane disruptions; (5) Recovery in LB medium at 37°C; (6) Plate on antibiotic selection medium → transformants survive. Transformation efficiency: 10⁵–10⁸ transformants/µg DNA. Alternative: electroporation gives 10–100× higher efficiency."
+    "a": "Definition: uptake of naked exogenous DNA by a bacterial cell leading to heritable change. First described by Griffith (1928); molecular basis by Avery et al. (1944). Steps: (1) Grow E. coli to log phase; (2) Wash in ice-cold CaCl₂ → competent cells; (3) Add recombinant plasmid DNA, incubate on ice (DNA adsorbs to cell surface); (4) Heat shock at 42°C for 90 sec → DNA enters through temporary membrane disruptions; (5) Recovery in LB medium at 37°C; (6) Plate on antibiotic selection medium → transformants survive. Transformation efficiency: 10⁵–10⁸ transformants/µg DNA. Alternative: electroporation gives 10–100× higher efficiency.",
+    "q_ta": "உருமாற்றம் என்றால் என்ன? E. coli-இன் செயற்கை உருமாற்றத்தில் உள்ள படிகளை விவரிக்க.",
+    "a_ta": "வரையறை: பாக்டீரியச் செல் வெற்று அயல் DNA-வை எடுத்துக்கொண்டு மரபுவழிக் கடத்தத்தக்க மாற்றம் அடைதல். கிரிஃபித் (1928) முதலில் விவரித்தார்; மூலக்கூற்று அடிப்படையை ஏவரி மற்றும் பிறர் (1944) நிறுவினர். படிகள்: (1) E. coli-ஐ log நிலை வரை வளர்; (2) பனிக்கட்டிக் குளிர் CaCl₂-இல் கழுவு → ஏற்புத்திறன் செல்கள்; (3) மறுசேர்க்கைப் பிளாஸ்மிடு DNA-வைச் சேர்த்து, பனியில் அடைகாக்க (DNA செல் மேற்பரப்பில் ஒட்டுகிறது); (4) 42°C-இல் 90 வினாடி வெப்ப அதிர்ச்சி → தற்காலிகச் சவ்வுச் சிதைவுகள் வழியாக DNA நுழைகிறது; (5) 37°C-இல் LB ஊடகத்தில் மீட்பு; (6) உயிர்எதிர்ப்பிப் பொருள் தேர்வு ஊடகத்தில் பரப்பு → உருமாறியவை உயிர்வாழ்கின்றன. உருமாற்றத் திறன்: 10⁵–10⁸ உருமாறியவை/µg DNA. மாற்று: மின்துளைப்பு 10–100 மடங்கு அதிகத் திறன் தருகிறது."
    },
    {
     "q": "Explain transduction as a method of gene transfer. What are the types of viral vectors used?",
-    "a": "Definition: gene delivery using modified viral vectors; most efficient method for in vivo delivery. Principle: viral pathogenic/replication genes removed → gene of interest inserted → packaged using packaging cell line → replication-deficient recombinant virus produced. Types: (a) Retrovirus (MLV) — stable integration, dividing cells only; (b) Lentivirus (HIV-derived) — stable, non-dividing cells, used in CAR-T; (c) Adenovirus — high efficiency, episomal, transient; (d) AAV — safe, long-term expression, used in Luxturna, Zolgensma. Limitations: insert size limited by capsid; insertional mutagenesis risk (retroviruses); immune response."
+    "a": "Definition: gene delivery using modified viral vectors; most efficient method for in vivo delivery. Principle: viral pathogenic/replication genes removed → gene of interest inserted → packaged using packaging cell line → replication-deficient recombinant virus produced. Types: (a) Retrovirus (MLV) — stable integration, dividing cells only; (b) Lentivirus (HIV-derived) — stable, non-dividing cells, used in CAR-T; (c) Adenovirus — high efficiency, episomal, transient; (d) AAV — safe, long-term expression, used in Luxturna, Zolgensma. Limitations: insert size limited by capsid; insertional mutagenesis risk (retroviruses); immune response.",
+    "q_ta": "மரபணுச் செலுத்தும் முறையாக டிரான்ஸ்டக்ஷனை விளக்குக. பயன்படும் வைரஸ் தாங்கிக்கடத்திகளின் வகைகள் யாவை?",
+    "a_ta": "வரையறை: மாற்றியமைக்கப்பட்ட வைரஸ் தாங்கிக்கடத்திகளால் மரபணுச் செலுத்தல்; உடலகச் செலுத்தலுக்கு மிகத் திறமையான முறை. தத்துவம்: வைரஸின் நோய்க்காரண/இரட்டிப்பு மரபணுக்கள் நீக்கப்பட்டு → ஆர்வமுள்ள மரபணு செருகப்படுகிறது → அடைப்புச் செல் வரிசையால் அடைக்கப்பட்டு → இரட்டிப்புத் திறனற்ற மறுசேர்க்கை வைரஸ் உருவாகிறது. வகைகள்: (அ) ரெட்ரோவைரஸ் (MLV) — நிலையான ஒருங்கிணைப்பு, பிரியும் செல்கள் மட்டும்; (ஆ) லென்டிவைரஸ் (HIV-யிலிருந்து பெறப்பட்டது) — நிலையானது, பிரியாத செல்கள், CAR-T-இல் பயன்படுகிறது; (இ) அடினோவைரஸ் — உயர் திறன், எபிசோம், தற்காலிகம்; (ஈ) AAV — பாதுகாப்பானது, நீண்டகால வெளிப்பாடு, Luxturna, Zolgensma-வில் பயன்படுகிறது. வரம்புகள்: கேப்சிட்டால் செருகல் அளவு வரம்பு; செருகல் திடீர்மாற்ற அபாயம் (ரெட்ரோவைரஸ்கள்); நோயெதிர்ப்புத் துலங்கல்."
    },
    {
     "q": "Describe electroporation and liposome fusion as methods for introducing DNA into eukaryotic cells.",
-    "a": "Electroporation: high-voltage electric pulse (0.1–10 kV/cm) → temporary pores in lipid bilayer → DNA enters by electrophoresis and diffusion → pores reseal → cell recovers. Works for bacteria and eukaryotes. Good for hard-to-transfect cells. Used for CRISPR-Cas9 delivery. Liposome fusion: cationic lipids + DNA → lipoplex → binds cell surface (electrostatic) → endocytosis → endosomal escape → DNA in cytoplasm → nuclear entry. Advantages: protects DNA; targetable; in vivo use. Example: LNPs in mRNA COVID-19 vaccines. Compare: electroporation is physical (electric); liposome is chemical (lipid-based). Both can transfect non-dividing cells. Liposomes can be targeted; electroporation is universal."
+    "a": "Electroporation: high-voltage electric pulse (0.1–10 kV/cm) → temporary pores in lipid bilayer → DNA enters by electrophoresis and diffusion → pores reseal → cell recovers. Works for bacteria and eukaryotes. Good for hard-to-transfect cells. Used for CRISPR-Cas9 delivery. Liposome fusion: cationic lipids + DNA → lipoplex → binds cell surface (electrostatic) → endocytosis → endosomal escape → DNA in cytoplasm → nuclear entry. Advantages: protects DNA; targetable; in vivo use. Example: LNPs in mRNA COVID-19 vaccines. Compare: electroporation is physical (electric); liposome is chemical (lipid-based). Both can transfect non-dividing cells. Liposomes can be targeted; electroporation is universal.",
+    "q_ta": "மெய்க்கருச் செல்களுக்குள் DNA-வைச் செலுத்தும் முறைகளாக மின்துளைப்பையும் லிப்போசோம் இணைவையும் விவரிக்க.",
+    "a_ta": "மின்துளைப்பு: உயர் மின்னழுத்த மின்துடிப்பு (0.1–10 kV/cm) → கொழுப்பு இரட்டை அடுக்கில் தற்காலிகத் துளைகள் → DNA மின்னாற்பகுப்பு, விரவல் மூலம் நுழைகிறது → துளைகள் மீண்டும் மூடுகின்றன → செல் மீள்கிறது. பாக்டீரியாவுக்கும் மெய்க்கருவிகளுக்கும் பொருந்தும். டிரான்ஸ்ஃபெக்ட் செய்யக் கடினமான செல்களுக்கு நல்லது. CRISPR-Cas9 செலுத்தலுக்குப் பயன்படுகிறது. லிப்போசோம் இணைவு: நேர்மின்னூட்டக் கொழுப்புகள் + DNA → லிப்போபிளெக்ஸ் → செல் மேற்பரப்பில் (நிலைமின் விசையால்) இணைகிறது → எண்டோசைட்டோசிஸ் → எண்டோசோம் தப்புதல் → DNA சைட்டோபிளாசத்தில் → உட்கருவுக்குள் நுழைவு. நன்மைகள்: DNA-வைப் பாதுகாக்கிறது; இலக்கிடத்தக்கது; உடலகப் பயன்பாடு. எடுத்துக்காட்டு: mRNA COVID-19 தடுப்பூசிகளில் LNP-கள். ஒப்பீடு: மின்துளைப்பு இயற்பியல் (மின்); லிப்போசோம் வேதியியல் (கொழுப்பு-சார்ந்தது). இரண்டும் பிரியாத செல்களை டிரான்ஸ்ஃபெக்ட் செய்யலாம். லிப்போசோம்களை இலக்கிடலாம்; மின்துளைப்பு உலகளாவியது."
    },
    {
     "q": "What is microinjection? Explain its role in creating transgenic animals.",
-    "a": "Definition: direct mechanical injection of DNA into individual cells using glass needle (0.1–0.5 µm tip) under micromanipulator guidance. Procedure: fertilised egg held by suction pipette → DNA solution in injection needle → needle inserted into male pronucleus → DNA injected → egg transferred to surrogate mother. Transgenic mouse creation: pioneer work by Gordon and Ruddle (1981). DNA integrates randomly into chromosomes → expression in all cells of resulting animal → stable germline transmission. Advantages: direct, no carrier needed; can deliver any molecule. Limitations: extremely low throughput (one cell at a time); high technical skill; cell damage risk. Clinical application: ICSI (intracytoplasmic sperm injection) in human IVF."
+    "a": "Definition: direct mechanical injection of DNA into individual cells using glass needle (0.1–0.5 µm tip) under micromanipulator guidance. Procedure: fertilised egg held by suction pipette → DNA solution in injection needle → needle inserted into male pronucleus → DNA injected → egg transferred to surrogate mother. Transgenic mouse creation: pioneer work by Gordon and Ruddle (1981). DNA integrates randomly into chromosomes → expression in all cells of resulting animal → stable germline transmission. Advantages: direct, no carrier needed; can deliver any molecule. Limitations: extremely low throughput (one cell at a time); high technical skill; cell damage risk. Clinical application: ICSI (intracytoplasmic sperm injection) in human IVF.",
+    "q_ta": "நுண்ணூசி செலுத்தல் என்றால் என்ன? மாற்றுமரபணு விலங்குகளை உருவாக்குவதில் அதன் பங்கை விளக்குக.",
+    "a_ta": "வரையறை: நுண்கையாளியின் வழிகாட்டலில் கண்ணாடி ஊசியால் (0.1–0.5 µm முனை) தனிச் செல்களுக்குள் DNA-வை நேரடியாக இயந்திர முறையில் செலுத்துதல். செயல்முறை: கருவுற்ற முட்டை உறிஞ்சு குழாயால் பிடிக்கப்படுகிறது → செலுத்தும் ஊசியில் DNA கரைசல் → ஊசி ஆண் முன்கருவுக்குள் செருகப்படுகிறது → DNA செலுத்தப்படுகிறது → முட்டை வாடகைத் தாய்க்கு மாற்றப்படுகிறது. மாற்றுமரபணுச் சுண்டெலி உருவாக்கம்: கோர்டன், ரடில் (1981) முன்னோடிப் பணி. DNA நிறமூர்த்தங்களில் தற்போக்காக ஒருங்கிணைகிறது → உருவாகும் விலங்கின் அனைத்துச் செல்களிலும் வெளிப்பாடு → நிலையான இனச்செல் வழிக் கடத்தல். நன்மைகள்: நேரடியானது, கடத்தி தேவையில்லை; எந்த மூலக்கூற்றையும் செலுத்தலாம். வரம்புகள்: மிகக் குறைந்த செயல்திறன் (ஒரு நேரத்தில் ஒரு செல்); உயர் தொழில்நுட்பத் திறன் தேவை; செல் சேத அபாயம். மருத்துவப் பயன்பாடு: மனித IVF-இல் ICSI (சைட்டோபிளாசத்துக்குள் விந்து செலுத்தல்)."
    },
    {
     "q": "Compare any four methods of introducing recombinant DNA into host cells. (4-mark table question)",
-    "a": "(structured as a comparison table): Transformation: Prokaryotes; CaCl₂/heat shock; moderate efficiency; simple, cheap; bacteria only; gene cloning. Transduction: Eukaryotes (dividing + non-dividing); viral infection; very high efficiency; stable integration; capsid size limit; gene therapy. Electroporation: Prokaryotes + eukaryotes; electric pulse creates pores; high efficiency; universal; high cell death risk; CRISPR delivery. Microinjection: Large cells (oocytes); mechanical injection into nucleus; high per cell but very low throughput; direct, no carrier; transgenic animals. Liposome Fusion: Eukaryotes; lipoplex + endocytosis + endosomal escape; moderate–high; targetable; endosomal entrapment; mRNA vaccines, siRNA delivery. Draw a table with columns: Method | Cell Type | Mechanism | Efficiency | Application."
+    "a": "(structured as a comparison table): Transformation: Prokaryotes; CaCl₂/heat shock; moderate efficiency; simple, cheap; bacteria only; gene cloning. Transduction: Eukaryotes (dividing + non-dividing); viral infection; very high efficiency; stable integration; capsid size limit; gene therapy. Electroporation: Prokaryotes + eukaryotes; electric pulse creates pores; high efficiency; universal; high cell death risk; CRISPR delivery. Microinjection: Large cells (oocytes); mechanical injection into nucleus; high per cell but very low throughput; direct, no carrier; transgenic animals. Liposome Fusion: Eukaryotes; lipoplex + endocytosis + endosomal escape; moderate–high; targetable; endosomal entrapment; mRNA vaccines, siRNA delivery. Draw a table with columns: Method | Cell Type | Mechanism | Efficiency | Application.",
+    "q_ta": "ஓம்புயிர்ச் செல்களுக்குள் மறுசேர்க்கை DNA-வைச் செலுத்தும் ஏதேனும் நான்கு முறைகளை ஒப்பிடுக. (4-மதிப்பெண் அட்டவணை வினா)",
+    "a_ta": "(ஒப்பீட்டு அட்டவணையாக அமைக்க): உருமாற்றம்: புரோகேரியோட்டுகள்; CaCl₂/வெப்ப அதிர்ச்சி; மிதமான திறன்; எளிது, மலிவு; பாக்டீரியா மட்டும்; மரபணு குளோனாக்கம். டிரான்ஸ்டக்ஷன்: மெய்க்கருவிகள் (பிரியும் + பிரியாத); வைரஸ் தொற்று; மிக உயர் திறன்; நிலையான ஒருங்கிணைப்பு; கேப்சிட் அளவு வரம்பு; மரபணு சிகிச்சை. மின்துளைப்பு: புரோகேரியோட்டுகள் + மெய்க்கருவிகள்; மின்துடிப்பு துளைகளை உருவாக்குகிறது; உயர் திறன்; உலகளாவியது; செல் இறப்பு அபாயம் அதிகம்; CRISPR செலுத்தல். நுண்ணூசி செலுத்தல்: பெரிய செல்கள் (கருமுட்டைகள்); உட்கருவுக்குள் இயந்திரச் செலுத்தல்; ஒரு செல்லுக்கு உயர்வு ஆனால் செயல்திறன் மிகக் குறைவு; நேரடியானது, கடத்தி தேவையில்லை; மாற்றுமரபணு விலங்குகள். லிப்போசோம் இணைவு: மெய்க்கருவிகள்; லிப்போபிளெக்ஸ் + எண்டோசைட்டோசிஸ் + எண்டோசோம் தப்புதல்; மிதமான–உயர்; இலக்கிடத்தக்கது; எண்டோசோமில் சிக்குதல்; mRNA தடுப்பூசிகள், siRNA செலுத்தல். நெடுவரிசைகள் கொண்ட அட்டவணை வரைக: முறை | செல் வகை | இயங்குமுறை | திறன் | பயன்பாடு."
    }
   ],
   "gl": [
    {
     "t": "Transformation",
-    "d": "The uptake of naked exogenous DNA by a bacterial cell, leading to a heritable change. In the laboratory, bacteria are made artificially competent using CaCl₂ and heat shock to take up plasmid DNA."
+    "d": "The uptake of naked exogenous DNA by a bacterial cell, leading to a heritable change. In the laboratory, bacteria are made artificially competent using CaCl₂ and heat shock to take up plasmid DNA.",
+    "t_ta": "உருமாற்றம்",
+    "d_ta": "பாக்டீரியச் செல் வெற்று அயல் DNA-வை எடுத்துக்கொண்டு மரபுவழிக் கடத்தத்தக்க மாற்றம் அடைதல். ஆய்வகத்தில், பிளாஸ்மிடு DNA-வை எடுத்துக்கொள்ள CaCl₂, வெப்ப அதிர்ச்சி மூலம் பாக்டீரியாக்கள் செயற்கையாக ஏற்புத்திறன் பெறுகின்றன."
    },
    {
     "t": "Transfection",
-    "d": "The introduction of foreign nucleic acids (DNA or RNA) into eukaryotic cells by non-viral methods. Includes chemical methods (calcium phosphate, cationic lipids) and physical methods (electroporation, microinjection). Can be transient or stable."
+    "d": "The introduction of foreign nucleic acids (DNA or RNA) into eukaryotic cells by non-viral methods. Includes chemical methods (calcium phosphate, cationic lipids) and physical methods (electroporation, microinjection). Can be transient or stable.",
+    "t_ta": "டிரான்ஸ்ஃபெக்ஷன்",
+    "d_ta": "வைரஸற்ற முறைகளால் மெய்க்கருச் செல்களுக்குள் அயல் நியுக்ளிக் அமிலங்களை (DNA அல்லது RNA) செலுத்துதல். வேதியியல் முறைகள் (கால்சியம் பாஸ்பேட், நேர்மின்னூட்டக் கொழுப்புகள்), இயற்பியல் முறைகள் (மின்துளைப்பு, நுண்ணூசி செலுத்தல்) அடங்கும். தற்காலிகமாகவோ நிலையானதாகவோ இருக்கலாம்."
    },
    {
     "t": "Transduction",
-    "d": "The delivery of foreign genetic material into host cells using a viral vector. The pathogenic genes of the virus are replaced by the gene of interest; the recombinant virus infects cells with high efficiency but cannot replicate."
+    "d": "The delivery of foreign genetic material into host cells using a viral vector. The pathogenic genes of the virus are replaced by the gene of interest; the recombinant virus infects cells with high efficiency but cannot replicate.",
+    "t_ta": "டிரான்ஸ்டக்ஷன்",
+    "d_ta": "வைரஸ் தாங்கிக்கடத்தியால் ஓம்புயிர்ச் செல்களுக்குள் அயல் மரபுப் பொருளைச் செலுத்துதல். வைரஸின் நோய்க்காரண மரபணுக்கள் ஆர்வமுள்ள மரபணுவால் மாற்றப்படுகின்றன; மறுசேர்க்கை வைரஸ் செல்களை உயர் திறனுடன் தொற்றும், ஆனால் இரட்டிப்பாக முடியாது."
    },
    {
     "t": "Viral Vector",
-    "d": "A modified virus used as a gene delivery vehicle. The viral genes responsible for disease and replication are removed and replaced by the therapeutic gene. Common types include AAV, lentivirus, adenovirus, and retrovirus."
+    "d": "A modified virus used as a gene delivery vehicle. The viral genes responsible for disease and replication are removed and replaced by the therapeutic gene. Common types include AAV, lentivirus, adenovirus, and retrovirus.",
+    "t_ta": "வைரஸ் தாங்கிக்கடத்தி",
+    "d_ta": "மரபணுச் செலுத்தும் ஊர்தியாகப் பயன்படும் மாற்றியமைக்கப்பட்ட வைரஸ். நோயையும் இரட்டிப்பையும் ஏற்படுத்தும் வைரஸ் மரபணுக்கள் நீக்கப்பட்டு, சிகிச்சை மரபணு இடப்படுகிறது. பொது வகைகள்: AAV, லென்டிவைரஸ், அடினோவைரஸ், ரெட்ரோவைரஸ்."
    },
    {
     "t": "Electroporation",
-    "d": "A physical method of gene delivery in which a brief high-voltage electric pulse (0.1–10 kV/cm) applied to cells in the presence of DNA creates temporary nanopores in the plasma membrane, through which DNA enters the cell."
+    "d": "A physical method of gene delivery in which a brief high-voltage electric pulse (0.1–10 kV/cm) applied to cells in the presence of DNA creates temporary nanopores in the plasma membrane, through which DNA enters the cell.",
+    "t_ta": "மின்துளைப்பு",
+    "d_ta": "DNA இருக்கும்போது செல்களுக்கு அளிக்கப்படும் குறுகிய உயர் மின்னழுத்த மின்துடிப்பு (0.1–10 kV/cm) பிளாஸ்மா சவ்வில் தற்காலிக நானோ துளைகளை உருவாக்கி, DNA செல்லுக்குள் நுழையும் இயற்பியல் மரபணுச் செலுத்தல் முறை."
    },
    {
     "t": "Liposome",
-    "d": "A spherical artificial lipid bilayer vesicle that can encapsulate DNA, RNA, drugs, or other molecules. Cationic liposomes form complexes (lipoplexes) with negatively charged DNA for cellular delivery by membrane fusion or endocytosis."
+    "d": "A spherical artificial lipid bilayer vesicle that can encapsulate DNA, RNA, drugs, or other molecules. Cationic liposomes form complexes (lipoplexes) with negatively charged DNA for cellular delivery by membrane fusion or endocytosis.",
+    "t_ta": "லிப்போசோம்",
+    "d_ta": "DNA, RNA, மருந்துகள் அல்லது பிற மூலக்கூறுகளை உள்ளடக்கக்கூடிய கோள வடிவச் செயற்கைக் கொழுப்பு இரட்டை அடுக்குப் பை. நேர்மின்னூட்ட லிப்போசோம்கள் எதிர்மின்னூட்ட DNA-வுடன் கூட்டமைப்புகளை (லிப்போபிளெக்ஸ்) உருவாக்கி, சவ்வு இணைவு அல்லது எண்டோசைட்டோசிஸ் மூலம் செல்லுக்குள் செலுத்துகின்றன."
    },
    {
     "t": "Microinjection",
-    "d": "A physical technique in which DNA or other molecules are directly injected into individual cells (usually into the nucleus or cytoplasm) using an ultra-fine glass capillary needle controlled by a micromanipulator under microscopic guidance."
+    "d": "A physical technique in which DNA or other molecules are directly injected into individual cells (usually into the nucleus or cytoplasm) using an ultra-fine glass capillary needle controlled by a micromanipulator under microscopic guidance.",
+    "t_ta": "நுண்ணூசி செலுத்தல்",
+    "d_ta": "நுண்ணோக்கி வழிகாட்டலில் நுண்கையாளியால் கட்டுப்படுத்தப்படும் மிக நுண்ணிய கண்ணாடிக் குழாய் ஊசியால் DNA அல்லது பிற மூலக்கூறுகளைத் தனிச் செல்களுக்குள் (பொதுவாக உட்கரு அல்லது சைட்டோபிளாசத்தில்) நேரடியாகச் செலுத்தும் இயற்பியல் நுட்பம்."
    },
    {
     "t": "Competent Cell",
-    "d": "A bacterial cell that is capable of taking up exogenous DNA. Natural competence occurs in some species; artificial competence is induced in E. coli by CaCl₂ treatment, making cells able to take up plasmid DNA during heat shock transformation."
+    "d": "A bacterial cell that is capable of taking up exogenous DNA. Natural competence occurs in some species; artificial competence is induced in E. coli by CaCl₂ treatment, making cells able to take up plasmid DNA during heat shock transformation.",
+    "t_ta": "ஏற்புத்திறன் செல்",
+    "d_ta": "அயல் DNA-வை எடுத்துக்கொள்ளும் திறன் கொண்ட பாக்டீரியச் செல். சில இனங்களில் இயல்பான ஏற்புத்திறன் உண்டு; E. coli-இல் CaCl₂ சிகிச்சையால் செயற்கை ஏற்புத்திறன் உண்டாக்கப்பட்டு, வெப்ப அதிர்ச்சி உருமாற்றத்தின்போது பிளாஸ்மிடு DNA-வை எடுத்துக்கொள்ளச் செய்யப்படுகிறது."
    },
    {
     "t": "Lipid Nanoparticle (LNP)",
-    "d": "An advanced, nanoscale lipid-based delivery vehicle (~80–150 nm) that encapsulates mRNA or siRNA, protecting it from nuclease degradation. LNPs were used in COVID-19 mRNA vaccines (Pfizer-BioNTech, Moderna) to deliver mRNA into human cells."
+    "d": "An advanced, nanoscale lipid-based delivery vehicle (~80–150 nm) that encapsulates mRNA or siRNA, protecting it from nuclease degradation. LNPs were used in COVID-19 mRNA vaccines (Pfizer-BioNTech, Moderna) to deliver mRNA into human cells.",
+    "t_ta": "கொழுப்பு நானோ துகள் (LNP)",
+    "d_ta": "mRNA அல்லது siRNA-வை உள்ளடக்கி, நியுக்ளியேஸ் சிதைவிலிருந்து பாதுகாக்கும் மேம்பட்ட, நானோ அளவு (~80–150 nm) கொழுப்பு-சார்ந்த செலுத்தும் ஊர்தி. mRNA-வை மனிதச் செல்களுக்குள் செலுத்த COVID-19 mRNA தடுப்பூசிகளில் (Pfizer-BioNTech, Moderna) LNP-கள் பயன்படுத்தப்பட்டன."
    },
    {
     "t": "Stable Transfection",
-    "d": "A transfection outcome in which the foreign DNA integrates into the host cell chromosome, becoming permanently heritable in all daughter cells. Required for long-term gene expression studies and therapeutic applications."
+    "d": "A transfection outcome in which the foreign DNA integrates into the host cell chromosome, becoming permanently heritable in all daughter cells. Required for long-term gene expression studies and therapeutic applications.",
+    "t_ta": "நிலையான டிரான்ஸ்ஃபெக்ஷன்",
+    "d_ta": "அயல் DNA ஓம்புயிர்ச் செல் நிறமூர்த்தத்தில் ஒருங்கிணைந்து, அனைத்து மகள் செல்களிலும் நிரந்தரமாக மரபுவழி கடத்தப்படும் டிரான்ஸ்ஃபெக்ஷன் விளைவு. நீண்டகால மரபணு வெளிப்பாட்டு ஆய்வுகளுக்கும் சிகிச்சைப் பயன்பாடுகளுக்கும் தேவை."
    },
    {
     "t": "Endosomal Escape",
-    "d": "The process by which DNA, RNA, or other cargo delivered via endocytosis escapes from the endosome before lysosomal fusion and degradation. A critical step in efficient liposome-mediated and nanoparticle-based gene delivery."
+    "d": "The process by which DNA, RNA, or other cargo delivered via endocytosis escapes from the endosome before lysosomal fusion and degradation. A critical step in efficient liposome-mediated and nanoparticle-based gene delivery.",
+    "t_ta": "எண்டோசோம் தப்புதல்",
+    "d_ta": "எண்டோசைட்டோசிஸ் மூலம் செலுத்தப்பட்ட DNA, RNA அல்லது பிற சுமை, லைசோசோம் இணைவும் சிதைவும் நிகழும் முன் எண்டோசோமிலிருந்து தப்பும் செயல்முறை. லிப்போசோம்-வழி, நானோதுகள்-வழி மரபணுச் செலுத்தலின் திறனுக்கு முக்கியமான படி."
    },
    {
     "t": "AAV (Adeno-Associated Virus)",
-    "d": "A small, non-pathogenic, single-stranded DNA virus used as a gene therapy vector. Provides long-term gene expression with minimal immune response. Used in approved gene therapies: Luxturna (blindness), Zolgensma (SMA), Hemgenix (haemophilia)."
+    "d": "A small, non-pathogenic, single-stranded DNA virus used as a gene therapy vector. Provides long-term gene expression with minimal immune response. Used in approved gene therapies: Luxturna (blindness), Zolgensma (SMA), Hemgenix (haemophilia).",
+    "t_ta": "AAV (அடினோ-தொடர்புடைய வைரஸ்)",
+    "d_ta": "மரபணு சிகிச்சைத் தாங்கிக்கடத்தியாகப் பயன்படும் சிறிய, நோயுண்டாக்காத, ஒற்றை இழை DNA வைரஸ். குறைந்த நோயெதிர்ப்புத் துலங்கலுடன் நீண்டகால மரபணு வெளிப்பாட்டைத் தருகிறது. அங்கீகரிக்கப்பட்ட மரபணு சிகிச்சைகளில் பயன்படுகிறது: Luxturna (பார்வையிழப்பு), Zolgensma (SMA), Hemgenix (ஹீமோஃபிலியா)."
    }
+  ],
+  "title_ta": "மறுசேர்க்கை DNA-வை ஓம்புயிர்ச் செல்களுக்குள் செலுத்துதல்",
+  "kp_ta": [
+   "உருமாற்றம் (புரோகேரியோட்டுகள்): CaCl₂ + வெப்ப அதிர்ச்சி (42°C) பாக்டீரியாவை ஏற்புத்திறன் கொண்டதாக்குகிறது. DNA தற்காலிகத் துளைகள் வழியாக நுழைகிறது. பாக்டீரியாவுக்கு மட்டுமே. உருமாறியவற்றை உயிர்எதிர்ப்பிப் பொருள் தட்டுகளில் தேர்ந்தெடு.",
+   "டிரான்ஸ்ஃபெக்ஷன் (மெய்க்கருவிகள்): மெய்க்கருச் செல்களுக்குள் DNA-வை வைரஸற்ற முறையில் செலுத்துதல். வேதியியல் (CaPO₄, நேர்மின்னூட்டக் கொழுப்புகள்) அல்லது இயற்பியல் (மின்துளைப்பு, நுண்ணூசி செலுத்தல்). தற்காலிக அல்லது நிலையான வெளிப்பாடு.",
+   "டிரான்ஸ்டக்ஷன் (வைரஸ்): உடலகத்தில் மிகத் திறமையான முறை. மாற்றியமைக்கப்பட்ட வைரஸ் ஏற்பி-வழி தொற்றால் மரபணுவைச் செலுத்துகிறது. வகைகள்: ரெட்ரோவைரஸ் (நிலையானது), லென்டிவைரஸ் (பிரியாத செல்கள்), அடினோவைரஸ் (எபிசோம்), AAV (பாதுகாப்பானது, நீண்டகாலம்).",
+   "நுண்ணூசி செலுத்தல்: கண்ணாடி ஊசியையும் நுண்கையாளியையும் பயன்படுத்தி DNA-வை நேரடியாக உட்கருவுக்குள் இயற்பியல் முறையில் செலுத்துதல். மாற்றுமரபணுச் சுண்டெலி உற்பத்திக்கான முதன்மை முறை. ஒரு நேரத்தில் ஒரு செல் — குறைந்த செயல்திறன்.",
+   "மின்துளைப்பு: உயர் மின்னழுத்த மின்துடிப்பு கொழுப்பு இரட்டை அடுக்கில் தற்காலிகத் துளைகளை உருவாக்குகிறது. DNA துளைகள் வழியாக நுழைகிறது. உலகளாவியது — பாக்டீரியாவுக்கும் மெய்க்கருவிகளுக்கும் பொருந்தும். டிரான்ஸ்ஃபெக்ட் செய்யக் கடினமான செல்களுக்குச் சிறந்தது.",
+   "லிப்போசோம் இணைவு: நேர்மின்னூட்டக் கொழுப்புகள் DNA-வுடன் லிப்போபிளெக்ஸ்களை உருவாக்குகின்றன. செல் உள்ளெடுப்பு எண்டோசைட்டோசிஸ் + எண்டோசோம் தப்புதல் மூலம். இலக்கிடத்தக்கது. mRNA தடுப்பூசிகள் (LNP-கள்), siRNA சிகிச்சைகளின் அடிப்படை.",
+   "முக்கிய வேறுபாடு: உருமாற்றம் = புரோகேரியோட்டுகள். டிரான்ஸ்ஃபெக்ஷன் = மெய்க்கருவிகள் (வைரஸற்றது). டிரான்ஸ்டக்ஷன் = வைரஸ். நுண்ணூசி செலுத்தல் = நேரடி உட்கருச் செலுத்தல். மின்துளைப்பு = மின்துளைகள். லிப்போசோம் = கொழுப்புப் பை இணைவு.",
+   "உடலகத்தில் மிகத் திறமையானது: உடலக மரபணுச் செலுத்தலில் டிரான்ஸ்டக்ஷன் (வைரஸ் தாங்கிக்கடத்திகள்) மிகத் திறமையானது; குறிப்பாக FDA-அங்கீகரித்த மரபணு சிகிச்சைகளில் பயன்படும் AAV, லென்டிவைரஸ் தாங்கிக்கடத்திகள்.",
+   "உட்கருத் தடை: மெய்க்கருச் செல்களுக்கு உட்கருச் சவ்வு உண்டு — DNA செல் சவ்வையும் உட்கருச் சவ்வையும் கடக்க வேண்டும்; புரோகேரியோட்டுகளில் செல் சவ்வை மட்டுமே கடக்க வேண்டும்.",
+   "AAV மரபணு சிகிச்சைகள்: Luxturna (RPE65 மரபணு — பார்வையிழப்பு), Zolgensma (SMN1 மரபணு — தண்டுவடத் தசை நலிவு), Hemgenix (F9 மரபணு — ஹீமோஃபிலியா B) — அனைத்தும் AAV தாங்கிக்கடத்திகளைப் பயன்படுத்துகின்றன.",
+   "mRNA தடுப்பூசிகள்: Pfizer-BioNTech, Moderna COVID-19 தடுப்பூசிகள் தசைச் செல்களுக்குள் mRNA-வைச் செலுத்தக் கொழுப்பு நானோ துகள்களை (LNP) பயன்படுத்துகின்றன — லிப்போசோம் தொழில்நுட்பத்தின் புரட்சிகரப் பயன்பாடு.",
+   "நிலையான – தற்காலிக: நிலையான ஒருங்கிணைப்பு: ரெட்ரோவைரல், லென்டிவைரல், சில டிரான்ஸ்ஃபெக்ஷன்கள் (நிரந்தரம்). தற்காலிகம்: அடினோவைரல், பிளாஸ்மிடு டிரான்ஸ்ஃபெக்ஷன் (தற்காலிகம், ஒருங்கிணைப்பு இல்லை). சரியான முறையைத் தேர்ந்தெடுக்க இது முக்கியம்."
   ]
  },
  "molecular_markers_app.html": {
@@ -3203,74 +3252,121 @@
   "sa": [
    {
     "q": "What are molecular markers? Describe the principle and procedure of RFLP with a suitable diagram.",
-    "a": "Define molecular marker (specific DNA sequence detecting polymorphism). RFLP principle: restriction enzymes cut at recognition sites → mutations alter fragment lengths. Steps: DNA isolation → restriction digestion → gel electrophoresis → Southern blotting → probe hybridisation → band pattern analysis. Diagram: DNA → enzyme cuts → two different fragment sizes → gel bands. Mention co-dominant nature and applications (gene mapping, plant breeding)."
+    "a": "Define molecular marker (specific DNA sequence detecting polymorphism). RFLP principle: restriction enzymes cut at recognition sites → mutations alter fragment lengths. Steps: DNA isolation → restriction digestion → gel electrophoresis → Southern blotting → probe hybridisation → band pattern analysis. Diagram: DNA → enzyme cuts → two different fragment sizes → gel bands. Mention co-dominant nature and applications (gene mapping, plant breeding).",
+    "q_ta": "மூலக்கூற்றுக் குறிப்பான்கள் என்றால் என்ன? RFLP-இன் தத்துவத்தையும் செயல்முறையையும் பொருத்தமான வரைபடத்துடன் விவரிக்க.",
+    "a_ta": "மூலக்கூற்றுக் குறிப்பானை வரையறு (பல்லுருவமைப்பைக் கண்டறியும் குறிப்பிட்ட DNA வரிசை). RFLP தத்துவம்: கட்டுறு நொதிகள் அடையாள இடங்களில் வெட்டுகின்றன → திடீர்மாற்றங்கள் துண்டு நீளங்களை மாற்றுகின்றன. படிகள்: DNA பிரித்தெடுப்பு → கட்டுறு வெட்டல் → ஜெல் மின்னாற்பகுப்பு → சதர்ன் ப்ளாட்டிங் → துருவிக் கலப்பினமாக்கல் → பட்டை அமைப்புப் பகுப்பாய்வு. வரைபடம்: DNA → நொதி வெட்டுகள் → இரு வெவ்வேறு துண்டு அளவுகள் → ஜெல் பட்டைகள். இணை ஓங்குத் தன்மையையும் பயன்பாடுகளையும் (மரபணு வரைபடமாக்கல், தாவர இனப்பெருக்கம்) குறிப்பிடுக."
    },
    {
     "q": "Explain the principle and steps involved in RAPD analysis. What are its advantages over RFLP?",
-    "a": "RAPD principle: single arbitrary ~10 nt primer binds at multiple sites at low annealing temperature → PCR amplifies random segments → presence/absence polymorphism. Steps: DNA isolation → PCR with random primer → gel electrophoresis → band pattern analysis. Advantages over RFLP: no prior sequence knowledge, smaller DNA quantity, no radioactive probes, faster, cheaper. Mention dominant marker limitation."
+    "a": "RAPD principle: single arbitrary ~10 nt primer binds at multiple sites at low annealing temperature → PCR amplifies random segments → presence/absence polymorphism. Steps: DNA isolation → PCR with random primer → gel electrophoresis → band pattern analysis. Advantages over RFLP: no prior sequence knowledge, smaller DNA quantity, no radioactive probes, faster, cheaper. Mention dominant marker limitation.",
+    "q_ta": "RAPD பகுப்பாய்வின் தத்துவத்தையும் படிகளையும் விளக்குக. RFLP-ஐ விட அதன் நன்மைகள் யாவை?",
+    "a_ta": "RAPD தத்துவம்: ஒற்றைத் தன்னிச்சையான ~10 nt பிரைமர் குறைந்த பிணைதல் வெப்பநிலையில் பல இடங்களில் இணைகிறது → PCR தற்போக்குத் துண்டுகளைப் பெருக்குகிறது → இருப்பு/இன்மை பல்லுருவமைப்பு. படிகள்: DNA பிரித்தெடுப்பு → தற்போக்குப் பிரைமருடன் PCR → ஜெல் மின்னாற்பகுப்பு → பட்டை அமைப்புப் பகுப்பாய்வு. RFLP-ஐ விட நன்மைகள்: முன் வரிசை அறிவு தேவையில்லை, குறைந்த DNA அளவு, கதிரியக்கத் துருவிகள் இல்லை, விரைவானது, மலிவானது. ஓங்கு குறிப்பான் என்ற வரம்பைக் குறிப்பிடுக."
    },
    {
     "q": "Describe the principle of DNA fingerprinting and discuss its applications in forensic science and paternity testing.",
-    "a": "Principle: VNTRs/STRs are highly variable between individuals → different repeat numbers → unique fragment sizes → unique band profile (DNA fingerprint). Pioneer: Sir Alec Jeffreys, 1984. Steps: DNA isolation → PCR/RFLP of VNTR loci → gel separation → band profile → comparison. Forensics: crime scene DNA profile matched to suspect. Paternity: child inherits 50% from each parent — profile comparison confirms/excludes parentage."
+    "a": "Principle: VNTRs/STRs are highly variable between individuals → different repeat numbers → unique fragment sizes → unique band profile (DNA fingerprint). Pioneer: Sir Alec Jeffreys, 1984. Steps: DNA isolation → PCR/RFLP of VNTR loci → gel separation → band profile → comparison. Forensics: crime scene DNA profile matched to suspect. Paternity: child inherits 50% from each parent — profile comparison confirms/excludes parentage.",
+    "q_ta": "DNA கைரேகையியலின் தத்துவத்தை விவரித்து, தடயவியல், தந்தைமைச் சோதனையில் அதன் பயன்பாடுகளை விவாதிக்க.",
+    "a_ta": "தத்துவம்: VNTR/STR-கள் தனியர்களிடையே மிக மாறுபடுகின்றன → வெவ்வேறு மீள் எண்ணிக்கைகள் → தனித்துவமான துண்டு அளவுகள் → தனித்துவமான பட்டை விவரக்குறிப்பு (DNA கைரேகை). முன்னோடி: சர் அலெக் ஜெஃப்ரீஸ், 1984. படிகள்: DNA பிரித்தெடுப்பு → VNTR இடங்களின் PCR/RFLP → ஜெல் பிரிப்பு → பட்டை விவரக்குறிப்பு → ஒப்பீடு. தடயவியல்: குற்றம் நடந்த இடத்தின் DNA விவரக்குறிப்பு சந்தேக நபருடன் பொருத்தப்படுகிறது. தந்தைமை: குழந்தை ஒவ்வொரு பெற்றோரிடமிருந்தும் 50% பெறுகிறது — விவரக்குறிப்பு ஒப்பீடு பெற்றோர் உறவை உறுதிப்படுத்துகிறது/மறுக்கிறது."
    },
    {
     "q": "Compare RFLP, RAPD, and DNA Fingerprinting with reference to principle, technique, advantages, limitations, and applications.",
-    "a": "Use a table format. RFLP: restriction enzyme, Southern blot, co-dominant, high reproducibility, expensive, used in gene mapping. RAPD: PCR with random primer, dominant, low reproducibility, cheap, used for diversity studies. DNA FP: VNTR/STR variation, co-dominant, highly discriminatory, forensics/paternity. Distinguish co-dominant vs dominant. Mention sequence knowledge requirement: RFLP needs it; RAPD does not; DNA FP partially does."
+    "a": "Use a table format. RFLP: restriction enzyme, Southern blot, co-dominant, high reproducibility, expensive, used in gene mapping. RAPD: PCR with random primer, dominant, low reproducibility, cheap, used for diversity studies. DNA FP: VNTR/STR variation, co-dominant, highly discriminatory, forensics/paternity. Distinguish co-dominant vs dominant. Mention sequence knowledge requirement: RFLP needs it; RAPD does not; DNA FP partially does.",
+    "q_ta": "தத்துவம், நுட்பம், நன்மைகள், வரம்புகள், பயன்பாடுகள் தொடர்பாக RFLP, RAPD, DNA கைரேகையியல் ஆகியவற்றை ஒப்பிடுக.",
+    "a_ta": "அட்டவணை வடிவத்தைப் பயன்படுத்துக. RFLP: கட்டுறு நொதி, சதர்ன் ப்ளாட், இணை ஓங்கு, உயர் மீளுருவாக்கம், விலை உயர்ந்தது, மரபணு வரைபடமாக்கலில் பயன்படுகிறது. RAPD: தற்போக்குப் பிரைமருடன் PCR, ஓங்கு, குறைந்த மீளுருவாக்கம், மலிவு, பன்முகத்தன்மை ஆய்வுகளில் பயன்படுகிறது. DNA FP: VNTR/STR மாறுபாடு, இணை ஓங்கு, மிகத் துல்லிய வேறுபாடு, தடயவியல்/தந்தைமை. இணை ஓங்கு – ஓங்கு வேறுபாட்டைக் காட்டுக. வரிசை அறிவுத் தேவையைக் குறிப்பிடுக: RFLP-க்குத் தேவை; RAPD-க்குத் தேவையில்லை; DNA FP-க்குப் பகுதியளவு தேவை."
    },
    {
     "q": "Discuss the role of molecular markers in biotechnology. Give examples of their importance in agriculture and medicine.",
-    "a": "Cover: genetic diversity assessment, species/strain identification, gene mapping, marker-assisted selection (MAS), evolutionary studies, medical diagnostics. Agriculture: crop improvement (disease resistance, yield), plant taxonomy, identification of plant pathogens. Medicine: diagnosis of genetic disorders, forensic identification, bone marrow transplant confirmation, infectious disease pathogen identification. Give 2–3 concrete examples for each domain."
+    "a": "Cover: genetic diversity assessment, species/strain identification, gene mapping, marker-assisted selection (MAS), evolutionary studies, medical diagnostics. Agriculture: crop improvement (disease resistance, yield), plant taxonomy, identification of plant pathogens. Medicine: diagnosis of genetic disorders, forensic identification, bone marrow transplant confirmation, infectious disease pathogen identification. Give 2–3 concrete examples for each domain.",
+    "q_ta": "உயிரித்தொழில்நுட்பத்தில் மூலக்கூற்றுக் குறிப்பான்களின் பங்கை விவாதிக்க. வேளாண்மையிலும் மருத்துவத்திலும் அவற்றின் முக்கியத்துவத்துக்கு எடுத்துக்காட்டுகள் தருக.",
+    "a_ta": "உள்ளடக்குக: மரபணுப் பன்முகத்தன்மை மதிப்பீடு, இன/திரிபு அடையாளம், மரபணு வரைபடமாக்கல், குறிப்பான்-உதவித் தேர்வு (MAS), பரிணாம ஆய்வுகள், மருத்துவக் கண்டறிதல். வேளாண்மை: பயிர் மேம்பாடு (நோய் எதிர்ப்பு, விளைச்சல்), தாவர வகைப்பாட்டியல், தாவர நோய்க்காரணிகளின் அடையாளம். மருத்துவம்: மரபுக் கோளாறுகளின் கண்டறிதல், தடயவியல் அடையாளம், எலும்பு மஜ்ஜை மாற்று உறுதிப்படுத்தல், தொற்றுநோய்க் காரணிகளின் அடையாளம். ஒவ்வொரு துறைக்கும் 2–3 உறுதியான எடுத்துக்காட்டுகள் தருக."
    }
   ],
   "gl": [
    {
     "t": "Polymorphism",
-    "d": "The existence of multiple genetically distinct forms at a locus within a population. Molecular markers detect and measure polymorphism."
+    "d": "The existence of multiple genetically distinct forms at a locus within a population. Molecular markers detect and measure polymorphism.",
+    "t_ta": "பல்லுருவமைப்பு",
+    "d_ta": "ஓர் உயிர்த்தொகையில் ஓர் இடத்தில் மரபணு ரீதியாகத் தனித்துவமான பல வடிவங்கள் இருத்தல். மூலக்கூற்றுக் குறிப்பான்கள் பல்லுருவமைப்பைக் கண்டறிந்து அளவிடுகின்றன."
    },
    {
     "t": "Restriction Enzyme",
-    "d": "An enzyme that cuts double-stranded DNA at specific short palindromic recognition sequences (restriction sites)."
+    "d": "An enzyme that cuts double-stranded DNA at specific short palindromic recognition sequences (restriction sites).",
+    "t_ta": "கட்டுறு நொதி",
+    "d_ta": "குறிப்பிட்ட குறுகிய பாலிண்ட்ரோம் அடையாள வரிசைகளில் (கட்டுறு இடங்கள்) இரட்டை இழை DNA-வை வெட்டும் நொதி."
    },
    {
     "t": "Primer",
-    "d": "A short single-stranded DNA or RNA sequence (~10–25 nt) that provides a starting point for DNA synthesis in PCR."
+    "d": "A short single-stranded DNA or RNA sequence (~10–25 nt) that provides a starting point for DNA synthesis in PCR.",
+    "t_ta": "பிரைமர்",
+    "d_ta": "PCR-இல் DNA தொகுப்புக்குத் தொடக்கப்புள்ளியை வழங்கும் குறுகிய (~10–25 nt) ஒற்றை இழை DNA அல்லது RNA வரிசை."
    },
    {
     "t": "Amplification",
-    "d": "The process of producing many copies of a specific DNA segment using PCR (Polymerase Chain Reaction)."
+    "d": "The process of producing many copies of a specific DNA segment using PCR (Polymerase Chain Reaction).",
+    "t_ta": "பெருக்கம்",
+    "d_ta": "PCR (பாலிமரேஸ் சங்கிலி வினை) மூலம் குறிப்பிட்ட DNA துண்டின் பல நகல்களை உருவாக்கும் செயல்முறை."
    },
    {
     "t": "Band Pattern",
-    "d": "The arrangement of DNA fragments separated by gel electrophoresis, appearing as bands at positions corresponding to fragment size."
+    "d": "The arrangement of DNA fragments separated by gel electrophoresis, appearing as bands at positions corresponding to fragment size.",
+    "t_ta": "பட்டை அமைப்பு",
+    "d_ta": "ஜெல் மின்னாற்பகுப்பால் பிரிக்கப்பட்ட DNA துண்டுகளின் அமைப்பு; துண்டு அளவுக்குரிய இடங்களில் பட்டைகளாகத் தோன்றுகிறது."
    },
    {
     "t": "Molecular Marker",
-    "d": "A specific DNA segment of known chromosomal location used to identify genetic variation between individuals or populations."
+    "d": "A specific DNA segment of known chromosomal location used to identify genetic variation between individuals or populations.",
+    "t_ta": "மூலக்கூற்றுக் குறிப்பான்",
+    "d_ta": "தனியர்கள் அல்லது உயிர்த்தொகைகளுக்கிடையேயான மரபணு மாறுபாட்டை அடையாளம் காணப் பயன்படும், அறியப்பட்ட நிறமூர்த்த இடமுடைய குறிப்பிட்ட DNA துண்டு."
    },
    {
     "t": "DNA Profile / Fingerprint",
-    "d": "A set of DNA characteristics (band positions or allele sizes) that are unique to an individual and used for identification."
+    "d": "A set of DNA characteristics (band positions or allele sizes) that are unique to an individual and used for identification.",
+    "t_ta": "DNA விவரக்குறிப்பு / கைரேகை",
+    "d_ta": "ஒரு தனிநபருக்கு மட்டுமே தனித்துவமான DNA பண்புகளின் (பட்டை இடங்கள் அல்லது அல்லீல் அளவுகள்) தொகுப்பு; அடையாளம் காணப் பயன்படுகிறது."
    },
    {
     "t": "VNTR",
-    "d": "Variable Number Tandem Repeat — a region of the genome where a short sequence motif is repeated, with the repeat number varying between individuals."
+    "d": "Variable Number Tandem Repeat — a region of the genome where a short sequence motif is repeated, with the repeat number varying between individuals.",
+    "t_ta": "VNTR",
+    "d_ta": "மாறுபடும் எண்ணிக்கை தொடர் மீள் — மரபணுத்தொகையில் குறுகிய வரிசை மோடிஃப் மீள்கின்ற பகுதி; மீள் எண்ணிக்கை தனியர்களிடையே மாறுபடுகிறது."
    },
    {
     "t": "STR / Microsatellite",
-    "d": "Short Tandem Repeat — a short (2–6 bp) sequence repeated in tandem; highly variable and widely used in modern DNA fingerprinting."
+    "d": "Short Tandem Repeat — a short (2–6 bp) sequence repeated in tandem; highly variable and widely used in modern DNA fingerprinting.",
+    "t_ta": "STR / நுண்செயற்கோள்",
+    "d_ta": "குறுகிய தொடர் மீள் — தொடராக மீளும் குறுகிய (2–6 bp) வரிசை; மிக மாறுபடக்கூடியது; நவீன DNA கைரேகையியலில் பரவலாகப் பயன்படுகிறது."
    },
    {
     "t": "Southern Blotting",
-    "d": "A technique (developed by Edwin Southern) for transferring DNA fragments from a gel to a membrane for detection by probe hybridisation."
+    "d": "A technique (developed by Edwin Southern) for transferring DNA fragments from a gel to a membrane for detection by probe hybridisation.",
+    "t_ta": "சதர்ன் ப்ளாட்டிங்",
+    "d_ta": "ஜெல்லிலிருந்து DNA துண்டுகளை சவ்வுக்கு மாற்றி, துருவிக் கலப்பினமாக்கலால் கண்டறியும் நுட்பம் (எட்வின் சதர்ன் உருவாக்கினார்)."
    },
    {
     "t": "Co-dominant Marker",
-    "d": "A marker that allows both alleles (e.g., AA, Aa, aa) to be distinguished — unlike dominant markers which only show presence or absence."
+    "d": "A marker that allows both alleles (e.g., AA, Aa, aa) to be distinguished — unlike dominant markers which only show presence or absence.",
+    "t_ta": "இணை ஓங்கு குறிப்பான்",
+    "d_ta": "இரு அல்லீல்களையும் (எ.கா., AA, Aa, aa) வேறுபடுத்த அனுமதிக்கும் குறிப்பான் — இருப்பு அல்லது இன்மையை மட்டுமே காட்டும் ஓங்கு குறிப்பான்களைப் போலன்றி."
    },
    {
     "t": "Marker-Assisted Selection",
-    "d": "Using molecular markers linked to desirable genes to select individuals during breeding, without needing to wait for phenotype expression."
+    "d": "Using molecular markers linked to desirable genes to select individuals during breeding, without needing to wait for phenotype expression.",
+    "t_ta": "குறிப்பான்-உதவித் தேர்வு",
+    "d_ta": "புறத்தோற்ற வெளிப்பாட்டுக்குக் காத்திராமல், இனப்பெருக்கத்தின்போது விரும்பத்தக்க மரபணுக்களுடன் இணைந்த மூலக்கூற்றுக் குறிப்பான்களால் தனியர்களைத் தேர்ந்தெடுத்தல்."
    }
+  ],
+  "title_ta": "மூலக்கூற்றுக் குறிப்பான்கள்: RFLP, RAPD, DNA கைரேகையியல்",
+  "kp_ta": [
+   "மூலக்கூற்றுக் குறிப்பான்கள் DNA நிலையில் மரபணு மாறுபாட்டை (பல்லுருவமைப்பு) கண்டறிகின்றன — சூழலால் பாதிக்கப்படுவதில்லை.",
+   "RFLP = கட்டுறு துண்டு நீள பல்லுருவமைப்பு — கட்டுறு நொதிகள் DNA-வை வெட்டுகின்றன → வெவ்வேறு தனியருக்கு வெவ்வேறு நீளத் துண்டுகள் உருவாகி, சதர்ன் ப்ளாட்டிங்கால் கண்டறியப்படுகின்றன.",
+   "RAPD = தற்போக்குப் பெருக்கப்பட்ட பல்லுருவ DNA — தன்னிச்சையான குறுகிய பிரைமர்கள் PCR மூலம் பல தற்போக்கு இடங்களைப் பெருக்குகின்றன — வரிசை அறிவு தேவையில்லை; ஓங்கு குறிப்பான்.",
+   "DNA கைரேகையியல் மிக மாறுபடும் VNTR/STR பகுதிகளைப் பயன்படுத்துகிறது — ஒவ்வொருவருக்கும் தனித்துவமான மீள் எண்ணிக்கை → தனித்துவமான பட்டை அமைப்பு (DNA விவரக்குறிப்பு).",
+   "RFLP இணை ஓங்கு (ஹெட்டிரோசைகஸ்களைக் கண்டறிகிறது); RAPD ஓங்கு (இருப்பு/இன்மை மட்டும்); DNA கைரேகையியல் இணை ஓங்கு.",
+   "DNA கைரேகையியலுக்கு சர் அலெக் ஜெஃப்ரீஸ் (1984) முன்னோடி; முதல் சட்டப் பயன்பாடு 1986.",
+   "DNA கைரேகையியல் பயன்பாடுகள்: தடயவியல், தந்தைமை, குற்ற விசாரணை, தனிநபர் அடையாளம், வனவுயிர்ப் பாதுகாப்பு, உயிர்த்தொகை மற்றும் பல்லுயிர் ஆய்வுகள்.",
+   "உயிரித்தொழில்நுட்பத்தில் மூலக்கூற்றுக் குறிப்பான்கள்: மரபணுப் பன்முகத்தன்மை, இன அடையாளம், மரபணு வரைபடமாக்கல், குறிப்பான்-உதவித் தேர்வு (MAS), பரிணாம ஆய்வுகள், மருத்துவக் கண்டறிதல்.",
+   "RAPD: மிக விரைவானது, மலிவானது; RFLP: மிக நம்பகமானது; DNA கைரேகையியல்: தனிநபர்களை மிகத் துல்லியமாக வேறுபடுத்துவது.",
+   "நவீன தடயவியல் DNA விவரக்குறிப்பு 15–20 இடங்களில் STR பகுப்பாய்வைப் பயன்படுத்துகிறது — தற்செயல் பொருத்த நிகழ்தகவு ஒரு டிரில்லியனில் ஒன்றுக்கும் குறைவு."
   ]
  },
  "pcr_principle_types_applications.html": {
@@ -3293,66 +3389,111 @@
   "sa": [
    {
     "q": "What is PCR? Explain its principle and the three stages of a PCR cycle.",
-    "a": "Definition: Polymerase Chain Reaction — in vitro exponential amplification of a specific DNA segment using thermal cycling. Invented by Kary Mullis (1983); Nobel Prize 1993. Principle: repeated cycles of denaturation → annealing → extension; each cycle doubles copies; exponential amplification = 2ⁿ after n cycles. Stage 1 — Denaturation: 94–96°C; H-bonds broken; dsDNA → 2 ssDNA templates. Stage 2 — Annealing: 50–65°C; primers (forward + reverse) bind complementary template sequences; Tm−5°C rule. Stage 3 — Extension: 72°C; Taq polymerase adds dNTPs 5'→3' from primers; rate ~1000 bp/min. After 30–40 cycles → ~10⁶–10⁹ copies. Include a diagram of the temperature cycle."
+    "a": "Definition: Polymerase Chain Reaction — in vitro exponential amplification of a specific DNA segment using thermal cycling. Invented by Kary Mullis (1983); Nobel Prize 1993. Principle: repeated cycles of denaturation → annealing → extension; each cycle doubles copies; exponential amplification = 2ⁿ after n cycles. Stage 1 — Denaturation: 94–96°C; H-bonds broken; dsDNA → 2 ssDNA templates. Stage 2 — Annealing: 50–65°C; primers (forward + reverse) bind complementary template sequences; Tm−5°C rule. Stage 3 — Extension: 72°C; Taq polymerase adds dNTPs 5'→3' from primers; rate ~1000 bp/min. After 30–40 cycles → ~10⁶–10⁹ copies. Include a diagram of the temperature cycle.",
+    "q_ta": "PCR என்றால் என்ன? அதன் தத்துவத்தையும் PCR சுழற்சியின் மூன்று நிலைகளையும் விளக்குக.",
+    "a_ta": "வரையறை: பாலிமரேஸ் சங்கிலி வினை — வெப்பச் சுழற்சியால் குறிப்பிட்ட DNA துண்டின் உடலகவெளி அடுக்குக்குறிப் பெருக்கம். கேரி முல்லிஸ் (1983) கண்டுபிடித்தார்; நோபல் பரிசு 1993. தத்துவம்: இயல்பிழத்தல் → பிணைதல் → நீட்சி என்ற திரும்பத் திரும்ப நிகழும் சுழற்சிகள்; ஒவ்வொரு சுழற்சியும் நகல்களை இரட்டிப்பாக்குகிறது; அடுக்குக்குறிப் பெருக்கம் = n சுழற்சிகளுக்குப் பின் 2ⁿ. நிலை 1 — இயல்பிழத்தல்: 94–96°C; H-பிணைப்புகள் உடைகின்றன; dsDNA → 2 ssDNA வார்ப்புருக்கள். நிலை 2 — பிணைதல்: 50–65°C; பிரைமர்கள் (முன்னோக்கி + பின்னோக்கி) நிரப்பு வார்ப்புரு வரிசைகளுடன் இணைகின்றன; Tm−5°C விதி. நிலை 3 — நீட்சி: 72°C; Taq பாலிமரேஸ் பிரைமர்களிலிருந்து 5'→3' திசையில் dNTP-களைச் சேர்க்கிறது; வேகம் ~1000 bp/நிமிடம். 30–40 சுழற்சிகளுக்குப் பின் → ~10⁶–10⁹ நகல்கள். வெப்பநிலைச் சுழற்சி வரைபடத்தைச் சேர்க்க."
    },
    {
     "q": "What are the components required for PCR? State the function of each.",
-    "a": "Template DNA — source DNA with target sequence. Primers (×2, forward + reverse) — define amplicon; 18–25 nt; provide 3'-OH for extension. Taq DNA polymerase — heat-stable; from T. aquaticus; synthesises new strand at 72°C. dNTPs (dATP, dTTP, dGTP, dCTP) — building blocks for DNA synthesis. PCR buffer (Tris-HCl, KCl) — maintains optimal pH 8.3–8.8. MgCl₂ (1.5–2.5 mM) — essential polymerase cofactor; stabilises primer-template duplexes. Thermal cycler — automated temperature control. Exam tip: Know the role of Mg²⁺ separately — it's frequently asked alone."
+    "a": "Template DNA — source DNA with target sequence. Primers (×2, forward + reverse) — define amplicon; 18–25 nt; provide 3'-OH for extension. Taq DNA polymerase — heat-stable; from T. aquaticus; synthesises new strand at 72°C. dNTPs (dATP, dTTP, dGTP, dCTP) — building blocks for DNA synthesis. PCR buffer (Tris-HCl, KCl) — maintains optimal pH 8.3–8.8. MgCl₂ (1.5–2.5 mM) — essential polymerase cofactor; stabilises primer-template duplexes. Thermal cycler — automated temperature control. Exam tip: Know the role of Mg²⁺ separately — it's frequently asked alone.",
+    "q_ta": "PCR-க்குத் தேவையான கூறுகள் யாவை? ஒவ்வொன்றின் செயல்பாட்டையும் குறிப்பிடுக.",
+    "a_ta": "வார்ப்புரு DNA — இலக்கு வரிசை கொண்ட மூல DNA. பிரைமர்கள் (×2, முன்னோக்கி + பின்னோக்கி) — அம்ப்ளிகானை வரையறுக்கின்றன; 18–25 nt; நீட்சிக்கு 3'-OH வழங்குகின்றன. Taq DNA பாலிமரேஸ் — வெப்பம் தாங்குவது; T. aquaticus-இலிருந்து; 72°C-இல் புதிய இழையைத் தொகுக்கிறது. dNTP-கள் (dATP, dTTP, dGTP, dCTP) — DNA தொகுப்புக்கான கட்டுமானக் கூறுகள். PCR தாங்கல் (Tris-HCl, KCl) — உகந்த pH 8.3–8.8-ஐப் பராமரிக்கிறது. MgCl₂ (1.5–2.5 mM) — பாலிமரேஸுக்கு இன்றியமையாத துணைக்காரணி; பிரைமர்–வார்ப்புரு இரட்டைச் சுருள்களை நிலைப்படுத்துகிறது. வெப்பச் சுழற்சி இயந்திரம் — தானியங்கி வெப்பநிலைக் கட்டுப்பாடு. தேர்வுக் குறிப்பு: Mg²⁺-இன் பங்கைத் தனியாக அறிக — அது அடிக்கடி தனியாகக் கேட்கப்படுகிறது."
    },
    {
     "q": "What is RT-PCR? How does it differ from conventional PCR and what are its applications?",
-    "a": "RT-PCR = Reverse Transcriptase PCR. Uses RNA as starting material, not DNA. Key step: RNA → cDNA by reverse transcriptase (RNA-dependent DNA polymerase) BEFORE PCR. Two-step process: (1) RT step: mRNA + oligo-dT primer + RT enzyme → cDNA; (2) PCR: cDNA amplified by standard thermal cycling. Difference from conventional PCR: conventional uses DNA template directly; RT-PCR requires reverse transcription first to convert RNA to cDNA. Applications: detection of RNA viruses (SARS-CoV-2, HIV, influenza); gene expression analysis; transcriptome studies. COVID-19 diagnosis: RT-qPCR combines reverse transcription + real-time PCR."
+    "a": "RT-PCR = Reverse Transcriptase PCR. Uses RNA as starting material, not DNA. Key step: RNA → cDNA by reverse transcriptase (RNA-dependent DNA polymerase) BEFORE PCR. Two-step process: (1) RT step: mRNA + oligo-dT primer + RT enzyme → cDNA; (2) PCR: cDNA amplified by standard thermal cycling. Difference from conventional PCR: conventional uses DNA template directly; RT-PCR requires reverse transcription first to convert RNA to cDNA. Applications: detection of RNA viruses (SARS-CoV-2, HIV, influenza); gene expression analysis; transcriptome studies. COVID-19 diagnosis: RT-qPCR combines reverse transcription + real-time PCR.",
+    "q_ta": "RT-PCR என்றால் என்ன? வழக்கமான PCR-இலிருந்து அது எவ்வாறு வேறுபடுகிறது? அதன் பயன்பாடுகள் யாவை?",
+    "a_ta": "RT-PCR = ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ் PCR. DNA-வுக்குப் பதிலாக RNA-வைத் தொடக்கப் பொருளாகப் பயன்படுத்துகிறது. முக்கியப் படி: PCR-க்கு முன் ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸால் (RNA-சார்ந்த DNA பாலிமரேஸ்) RNA → cDNA. இரு படிச் செயல்முறை: (1) RT படி: mRNA + oligo-dT பிரைமர் + RT நொதி → cDNA; (2) PCR: cDNA நிலையான வெப்பச் சுழற்சியால் பெருக்கப்படுகிறது. வழக்கமான PCR-இலிருந்து வேறுபாடு: வழக்கமான PCR DNA வார்ப்புருவை நேரடியாகப் பயன்படுத்துகிறது; RT-PCR-க்கு RNA-வை cDNA ஆக மாற்ற முதலில் ரிவர்ஸ் டிரான்ஸ்கிரிப்ஷன் தேவை. பயன்பாடுகள்: RNA வைரஸ்களின் கண்டறிதல் (SARS-CoV-2, HIV, இன்ஃப்ளூயன்சா); மரபணு வெளிப்பாட்டுப் பகுப்பாய்வு; படியெடுப்புத்தொகை ஆய்வுகள். COVID-19 கண்டறிதல்: RT-qPCR ரிவர்ஸ் டிரான்ஸ்கிரிப்ஷனையும் நிகழ்நேர PCR-ஐயும் இணைக்கிறது."
    },
    {
     "q": "What is exponential amplification in PCR? Calculate the number of copies after 20 cycles.",
-    "a": "Exponential amplification: each cycle doubles the target DNA, so copies increase as powers of 2. Formula: Number of copies = 2ⁿ (where n = number of cycles starting from 1 molecule). After 20 cycles: 2²⁰ = 1,048,576 ≈ 1 million copies. After 30 cycles: 2³⁰ ≈ 1.07 × 10⁹ ≈ 1 billion copies. Why exponential? Because products of each cycle serve as templates in the next cycle — not just the original two strands. Practical note: efficiency is not 100% in real reactions, so actual yield is somewhat lower (typically 80–90% efficiency per cycle)."
+    "a": "Exponential amplification: each cycle doubles the target DNA, so copies increase as powers of 2. Formula: Number of copies = 2ⁿ (where n = number of cycles starting from 1 molecule). After 20 cycles: 2²⁰ = 1,048,576 ≈ 1 million copies. After 30 cycles: 2³⁰ ≈ 1.07 × 10⁹ ≈ 1 billion copies. Why exponential? Because products of each cycle serve as templates in the next cycle — not just the original two strands. Practical note: efficiency is not 100% in real reactions, so actual yield is somewhat lower (typically 80–90% efficiency per cycle).",
+    "q_ta": "PCR-இல் அடுக்குக்குறிப் பெருக்கம் என்றால் என்ன? 20 சுழற்சிகளுக்குப் பின் நகல்களின் எண்ணிக்கையைக் கணக்கிடுக.",
+    "a_ta": "அடுக்குக்குறிப் பெருக்கம்: ஒவ்வொரு சுழற்சியும் இலக்கு DNA-வை இரட்டிப்பாக்குவதால், நகல்கள் 2-இன் அடுக்குகளாக அதிகரிக்கின்றன. சூத்திரம்: நகல்களின் எண்ணிக்கை = 2ⁿ (n = 1 மூலக்கூறிலிருந்து தொடங்கும் சுழற்சிகளின் எண்ணிக்கை). 20 சுழற்சிகளுக்குப் பின்: 2²⁰ = 1,048,576 ≈ 10 லட்சம் நகல்கள். 30 சுழற்சிகளுக்குப் பின்: 2³⁰ ≈ 1.07 × 10⁹ ≈ 100 கோடி நகல்கள். ஏன் அடுக்குக்குறி? ஒவ்வொரு சுழற்சியின் விளைபொருள்களும் அடுத்த சுழற்சியில் வார்ப்புருக்களாகச் செயல்படுவதால் — அசல் இரு இழைகள் மட்டுமல்ல. நடைமுறைக் குறிப்பு: உண்மை வினைகளில் திறன் 100% அல்ல; எனவே உண்மை விளைச்சல் சற்றுக் குறைவு (வழக்கமாக ஒரு சுழற்சிக்கு 80–90% திறன்)."
    },
    {
     "q": "Describe the applications of PCR in medical diagnosis, forensics, and animal biotechnology.",
-    "a": "Medical diagnosis: RT-PCR detects RNA viruses (SARS-CoV-2 → COVID-19, HIV, hepatitis C); conventional PCR detects bacterial pathogens (M. tuberculosis, Chlamydia); multiplex PCR panels detect multiple pathogens in one test. Genetic disorder analysis: Detects mutations in CFTR (cystic fibrosis), HBB (sickle cell), BRCA1/2 (breast cancer); prenatal diagnosis from amniotic fluid cells. Forensic science: STR profiling by multiplex PCR from blood, hair, skin cells at crime scenes; DNA fingerprinting for identification; paternity testing. Animal biotechnology: Sex determination of embryos (SRY gene); detection of transgene integration in transgenic animals; breed/species identification; detection of animal pathogens; quality control of animal products. Gene cloning: Amplifies gene of interest for cloning into vector; colony PCR confirms successful insertion."
+    "a": "Medical diagnosis: RT-PCR detects RNA viruses (SARS-CoV-2 → COVID-19, HIV, hepatitis C); conventional PCR detects bacterial pathogens (M. tuberculosis, Chlamydia); multiplex PCR panels detect multiple pathogens in one test. Genetic disorder analysis: Detects mutations in CFTR (cystic fibrosis), HBB (sickle cell), BRCA1/2 (breast cancer); prenatal diagnosis from amniotic fluid cells. Forensic science: STR profiling by multiplex PCR from blood, hair, skin cells at crime scenes; DNA fingerprinting for identification; paternity testing. Animal biotechnology: Sex determination of embryos (SRY gene); detection of transgene integration in transgenic animals; breed/species identification; detection of animal pathogens; quality control of animal products. Gene cloning: Amplifies gene of interest for cloning into vector; colony PCR confirms successful insertion.",
+    "q_ta": "மருத்துவக் கண்டறிதல், தடயவியல், விலங்கு உயிரித்தொழில்நுட்பம் ஆகியவற்றில் PCR-இன் பயன்பாடுகளை விவரிக்க.",
+    "a_ta": "மருத்துவக் கண்டறிதல்: RT-PCR RNA வைரஸ்களைக் கண்டறிகிறது (SARS-CoV-2 → COVID-19, HIV, ஹெபடைடிஸ் C); வழக்கமான PCR பாக்டீரிய நோய்க்காரணிகளைக் கண்டறிகிறது (M. tuberculosis, Chlamydia); பல்முனை PCR பலகைகள் ஒரே சோதனையில் பல நோய்க்காரணிகளைக் கண்டறிகின்றன. மரபுக் கோளாறுப் பகுப்பாய்வு: CFTR (சிஸ்டிக் ஃபைப்ரோசிஸ்), HBB (அரிவாள் செல்), BRCA1/2 (மார்புப் புற்றுநோய்) ஆகியவற்றில் திடீர்மாற்றங்களைக் கண்டறிகிறது; பனிக்குடநீர்ச் செல்களிலிருந்து பிறப்புக்கு முந்தைய கண்டறிதல். தடயவியல் அறிவியல்: குற்றம் நடந்த இடங்களின் இரத்தம், முடி, தோல் செல்களிலிருந்து பல்முனை PCR மூலம் STR விவரக்குறிப்பு; அடையாளத்துக்கு DNA கைரேகையியல்; தந்தைமைச் சோதனை. விலங்கு உயிரித்தொழில்நுட்பம்: கருக்களின் பாலினத் தீர்மானம் (SRY மரபணு); மாற்றுமரபணு விலங்குகளில் மாற்றுமரபணு ஒருங்கிணைப்பைக் கண்டறிதல்; இனம்/சிற்றினம் அடையாளம்; விலங்கு நோய்க்காரணிகளைக் கண்டறிதல்; விலங்குப் பொருள்களின் தரக் கட்டுப்பாடு. மரபணு குளோனாக்கம்: தாங்கிக்கடத்தியில் குளோன் செய்ய ஆர்வமுள்ள மரபணுவைப் பெருக்குகிறது; காலனி PCR வெற்றிகரமான செருகலை உறுதிசெய்கிறது."
    }
   ],
   "gl": [
    {
     "t": "PCR (Polymerase Chain Reaction)",
-    "d": "An in vitro technique for amplifying a specific DNA segment exponentially using repeated thermal cycling steps (denaturation, annealing, extension) and a thermostable DNA polymerase. Invented by Kary Mullis in 1983."
+    "d": "An in vitro technique for amplifying a specific DNA segment exponentially using repeated thermal cycling steps (denaturation, annealing, extension) and a thermostable DNA polymerase. Invented by Kary Mullis in 1983.",
+    "t_ta": "PCR (பாலிமரேஸ் சங்கிலி வினை)",
+    "d_ta": "வெப்பம் தாங்கும் DNA பாலிமரேஸையும் திரும்பத் திரும்ப நிகழும் வெப்பச் சுழற்சிப் படிகளையும் (இயல்பிழத்தல், பிணைதல், நீட்சி) பயன்படுத்தி, குறிப்பிட்ட DNA துண்டை அடுக்குக்குறியாகப் பெருக்கும் உடலகவெளி நுட்பம். 1983-இல் கேரி முல்லிஸ் கண்டுபிடித்தார்."
    },
    {
     "t": "Template DNA",
-    "d": "The source DNA containing the target sequence to be amplified in PCR. Can be genomic DNA, cDNA, plasmid DNA, or forensic/clinical samples. Typically used in nanogram quantities per reaction."
+    "d": "The source DNA containing the target sequence to be amplified in PCR. Can be genomic DNA, cDNA, plasmid DNA, or forensic/clinical samples. Typically used in nanogram quantities per reaction.",
+    "t_ta": "வார்ப்புரு DNA",
+    "d_ta": "PCR-இல் பெருக்கப்பட வேண்டிய இலக்கு வரிசை கொண்ட மூல DNA. மரபணுத்தொகை DNA, cDNA, பிளாஸ்மிடு DNA அல்லது தடயவியல்/மருத்துவ மாதிரிகளாக இருக்கலாம். பொதுவாக ஒரு வினைக்கு நானோகிராம் அளவுகளில் பயன்படுகிறது."
    },
    {
     "t": "Primer",
-    "d": "A short (18–25 nt) synthetic single-stranded oligonucleotide complementary to the template flanking the target region. Two primers are required: forward (sense) and reverse (antisense). Defines the exact boundaries of the amplified product (amplicon)."
+    "d": "A short (18–25 nt) synthetic single-stranded oligonucleotide complementary to the template flanking the target region. Two primers are required: forward (sense) and reverse (antisense). Defines the exact boundaries of the amplified product (amplicon).",
+    "t_ta": "பிரைமர்",
+    "d_ta": "இலக்குப் பகுதியைச் சூழ்ந்துள்ள வார்ப்புருவுக்கு நிரப்பியதான குறுகிய (18–25 nt) செயற்கை ஒற்றை இழை ஒலிகோநியுக்ளியோடைடு. இரண்டு பிரைமர்கள் தேவை: முன்னோக்கி (உணர்) மற்றும் பின்னோக்கி (எதிருணர்). பெருக்கப்படும் விளைபொருளின் (அம்ப்ளிகான்) எல்லைகளைத் துல்லியமாக வரையறுக்கின்றன."
    },
    {
     "t": "Denaturation",
-    "d": "The first stage of each PCR cycle. Heating to 94–96°C breaks hydrogen bonds between base pairs, separating the double-stranded DNA into single-stranded templates for primer binding in the next step."
+    "d": "The first stage of each PCR cycle. Heating to 94–96°C breaks hydrogen bonds between base pairs, separating the double-stranded DNA into single-stranded templates for primer binding in the next step.",
+    "t_ta": "இயல்பிழத்தல்",
+    "d_ta": "ஒவ்வொரு PCR சுழற்சியின் முதல் நிலை. 94–96°C வெப்பமூட்டல் கார இணைகளுக்கிடையேயான ஹைட்ரஜன் பிணைப்புகளை உடைத்து, இரட்டை இழை DNA-வை அடுத்த படியில் பிரைமர் இணைவதற்கான ஒற்றை இழை வார்ப்புருக்களாகப் பிரிக்கிறது."
    },
    {
     "t": "Annealing",
-    "d": "The second stage of each PCR cycle (50–65°C). Primers hybridise to their complementary sequences on the single-stranded template through Watson-Crick base pairing. Annealing temperature = Tm − 5°C of the primers."
+    "d": "The second stage of each PCR cycle (50–65°C). Primers hybridise to their complementary sequences on the single-stranded template through Watson-Crick base pairing. Annealing temperature = Tm − 5°C of the primers.",
+    "t_ta": "பிணைதல்",
+    "d_ta": "ஒவ்வொரு PCR சுழற்சியின் இரண்டாம் நிலை (50–65°C). வாட்சன்–கிரிக் கார இணைப்பால் பிரைமர்கள் ஒற்றை இழை வார்ப்புருவிலுள்ள தங்கள் நிரப்பு வரிசைகளுடன் கலப்பினமாகின்றன. பிணைதல் வெப்பநிலை = பிரைமர்களின் Tm − 5°C."
    },
    {
     "t": "Extension",
-    "d": "The third stage of each PCR cycle (72°C). Taq DNA polymerase extends each primer by adding dNTPs complementary to the template in the 5'→3' direction, synthesising a new complementary DNA strand."
+    "d": "The third stage of each PCR cycle (72°C). Taq DNA polymerase extends each primer by adding dNTPs complementary to the template in the 5'→3' direction, synthesising a new complementary DNA strand.",
+    "t_ta": "நீட்சி",
+    "d_ta": "ஒவ்வொரு PCR சுழற்சியின் மூன்றாம் நிலை (72°C). Taq DNA பாலிமரேஸ் வார்ப்புருவுக்கு நிரப்பியான dNTP-களை 5'→3' திசையில் சேர்த்து ஒவ்வொரு பிரைமரையும் நீட்டி, புதிய நிரப்பு DNA இழையைத் தொகுக்கிறது."
    },
    {
     "t": "Taq Polymerase",
-    "d": "A thermostable DNA polymerase isolated from Thermus aquaticus, a bacterium from hot springs. Withstands the 94–96°C denaturation step of PCR. Optimal activity at 72°C. Rate: ~1000 bp/min. Lacks 3'→5' proofreading exonuclease activity."
+    "d": "A thermostable DNA polymerase isolated from Thermus aquaticus, a bacterium from hot springs. Withstands the 94–96°C denaturation step of PCR. Optimal activity at 72°C. Rate: ~1000 bp/min. Lacks 3'→5' proofreading exonuclease activity.",
+    "t_ta": "Taq பாலிமரேஸ்",
+    "d_ta": "வெந்நீரூற்றுகளில் வாழும் பாக்டீரியமான Thermus aquaticus-இலிருந்து பிரித்தெடுக்கப்பட்ட வெப்பம் தாங்கும் DNA பாலிமரேஸ். PCR-இன் 94–96°C இயல்பிழத்தல் படியைத் தாங்குகிறது. 72°C-இல் உகந்த செயல்பாடு. வேகம்: ~1000 bp/நிமிடம். 3'→5' திருத்தும் எக்சோநியுக்ளியேஸ் செயல்பாடு இல்லை."
    },
    {
     "t": "Thermal Cycler",
-    "d": "A programmable device that automatically and precisely controls the temperature cycling of PCR reactions. Alternates between the denaturation, annealing, and extension temperatures for the programmed number of cycles, enabling complete automation of PCR."
+    "d": "A programmable device that automatically and precisely controls the temperature cycling of PCR reactions. Alternates between the denaturation, annealing, and extension temperatures for the programmed number of cycles, enabling complete automation of PCR.",
+    "t_ta": "வெப்பச் சுழற்சி இயந்திரம்",
+    "d_ta": "PCR வினைகளின் வெப்பநிலைச் சுழற்சியைத் தானாகவும் துல்லியமாகவும் கட்டுப்படுத்தும் நிரலிடத்தக்க கருவி. நிரலிடப்பட்ட சுழற்சிகள் வரை இயல்பிழத்தல், பிணைதல், நீட்சி வெப்பநிலைகளுக்கிடையே மாறி மாறி இயங்கி, PCR-ஐ முழுமையாகத் தானியங்கியாக்குகிறது."
    },
    {
     "t": "Amplicon",
-    "d": "The PCR product — the double-stranded DNA fragment amplified between (and including) the two primer sequences. Its size is fixed by the primer positions and is detected as a band on agarose gel electrophoresis."
+    "d": "The PCR product — the double-stranded DNA fragment amplified between (and including) the two primer sequences. Its size is fixed by the primer positions and is detected as a band on agarose gel electrophoresis.",
+    "t_ta": "அம்ப்ளிகான்",
+    "d_ta": "PCR விளைபொருள் — இரு பிரைமர் வரிசைகளுக்கிடையே (அவற்றையும் உள்ளடக்கி) பெருக்கப்பட்ட இரட்டை இழை DNA துண்டு. அதன் அளவு பிரைமர் இடங்களால் நிர்ணயிக்கப்பட்டு, அகரோஸ் ஜெல் மின்னாற்பகுப்பில் பட்டையாகக் கண்டறியப்படுகிறது."
    },
    {
     "t": "Reverse Transcriptase",
-    "d": "RNA-dependent DNA polymerase from retroviruses (e.g., MMLV-RT). In RT-PCR, converts single-stranded mRNA into complementary DNA (cDNA) before PCR amplification. Essential for detecting and studying RNA targets including RNA viruses."
+    "d": "RNA-dependent DNA polymerase from retroviruses (e.g., MMLV-RT). In RT-PCR, converts single-stranded mRNA into complementary DNA (cDNA) before PCR amplification. Essential for detecting and studying RNA targets including RNA viruses.",
+    "t_ta": "ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ்",
+    "d_ta": "ரெட்ரோவைரஸ்களிலிருந்து (எ.கா., MMLV-RT) பெறப்படும் RNA-சார்ந்த DNA பாலிமரேஸ். RT-PCR-இல், PCR பெருக்கத்துக்கு முன் ஒற்றை இழை mRNA-வை நிரப்பு DNA (cDNA) ஆக மாற்றுகிறது. RNA வைரஸ்கள் உள்ளிட்ட RNA இலக்குகளைக் கண்டறியவும் ஆய்வுசெய்யவும் இன்றியமையாதது."
    }
+  ],
+  "title_ta": "PCR: தத்துவம், வகைகள், பயன்பாடுகள்",
+  "kp_ta": [
+   "PCR முழு வடிவம்: பாலிமரேஸ் சங்கிலி வினை. 1983-இல் கேரி முல்லிஸ் கண்டுபிடித்தார். வேதியியலுக்கான நோபல் பரிசு 1993. உடலகவெளி (இன் விட்ரோ) DNA பெருக்க நுட்பம்.",
+   "தத்துவம்: வெப்பச் சுழற்சியால் அடுக்குக்குறிப் பெருக்கம்: இயல்பிழத்தல் → பிணைதல் → நீட்சி. n சுழற்சிகளுக்குப் பின் 2ⁿ நகல்கள். 30 சுழற்சிகளுக்குப் பின் ~10⁹ நகல்கள்.",
+   "Taq பாலிமரேஸ்: Thermus aquaticus-இலிருந்து. வெப்பத்தைத் தாங்கும் (95°C-ஐத் தாங்குகிறது). 72°C-இல் உகந்தது. வேகம் ~1000 bp/நிமிடம். திருத்தும் திறன் (3'→5' எக்சோநியுக்ளியேஸ்) இல்லை.",
+   "PCR-இன் மூன்று படிகள்: இயல்பிழத்தல் (94–96°C) → பிணைதல் (50–65°C) → நீட்சி (72°C). ஒவ்வொரு சுழற்சியும் DNA-வை இரட்டிப்பாக்குகிறது. வழக்கமாக 25–40 சுழற்சிகள்.",
+   "Mg²⁺ பங்கு: Taq பாலிமரேஸுக்கு இன்றியமையாத துணைக்காரணி. பிரைமர்–வார்ப்புரு இரட்டைச் சுருள்களையும் நிலைப்படுத்துகிறது. உகந்த அளவு: 1.5–2.5 mM. அதிக Mg²⁺ குறிப்பற்ற பெருக்கத்தை உண்டாக்கும்.",
+   "RT-PCR: RNA → cDNA (ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸால்) → PCR. RNA வைரஸ் கண்டறிதலுக்குப் பயன்படுகிறது. COVID-19 கண்டறிதல் சோதனையின் அடிப்படை. அளவுசார் PCR (qPCR) போன்றது அல்ல.",
+   "qPCR: ஒளிர்வுச் சாயங்கள் (SYBR Green) அல்லது துருவிகள் (TaqMan) மூலம் பெருக்கத்தை நிகழ்நேரத்தில் கண்காணித்தல். அளவுசார்ந்தது. வைரஸ் சுமை அளவீட்டுக்கும் மரபணு வெளிப்பாட்டுக்கும் பயன்படுகிறது.",
+   "பல்முனை PCR: ஒரே வினையில் பல பிரைமர் இணைகள். பல இலக்குகளை ஒரே நேரத்தில் பெருக்குகிறது. தடயவியல் STR விவரக்குறிப்பிலும் பல நோய்க்காரணி ஆய்வுப் பலகைகளிலும் பயன்படுகிறது.",
+   "உள்ளமை PCR: தொடர்ச்சியான இரு PCR-கள். முதலில் வெளிப் பிரைமர்கள், பின் விளைபொருளில் உள் (உள்ளமை) பிரைமர்கள். குறைந்த நகல் இலக்குகளுக்கு மிக உயர் உணர்திறனும் தனித்தன்மையும்.",
+   "பயன்பாடுகள்: மருத்துவக் கண்டறிதல் (COVID, HIV), தடயவியல் (DNA கைரேகையியல்), மரபுக் கோளாறுகள் (சிஸ்டிக் ஃபைப்ரோசிஸ்), மரபணு குளோனாக்கம், விலங்கு உயிரித்தொழில்நுட்பம், தொல்லியல் DNA.",
+   "வரம்புகள்: முன் வரிசை அறிவு தேவை. மாசுபாடு தவறான நேர்மறைகளை உண்டாக்கும். Taq பிழைகள் (திருத்தம் இல்லை). Mg²⁺ அல்லது பிணைதல் வெப்பநிலை உகந்ததாக இல்லையெனில் குறிப்பற்ற பட்டைகள்.",
+   "பிரைமர்கள்: 18–25 nt செயற்கை ஒலிகோக்கள். இரண்டு தேவை: முன்னோக்கி + பின்னோக்கி. இலக்கைச் சூழ்ந்துள்ள வார்ப்புருவுக்கு நிரப்பியவை. பிணைதல் வெப்பநிலை = Tm − 5°C. பெருக்கப்படும் துண்டை (அம்ப்ளிகான்) வரையறுக்கின்றன."
   ]
  },
  "protein_databases_app.html": {
