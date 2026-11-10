@@ -148,8 +148,8 @@
       },
       {
        "en": "**Sensitive to conditions:** Activity influenced by temperature, pH, and cofactors.",
-       "ta": "**சூழ்நிலைக்கு உணர்திறன்:** வெப்பநிலை, pH மற்றும் துணைக்காரணிகளால் செயல்பாடு பாதிக்கப்படும்.",
-       "ta_status": "draft"
+       "ta": "**சூழ்நிலைக்கு உணர்திறன்:** வெப்பநிலை, pH மற்றும் cofactor-களால் செயல்பாடு பாதிக்கப்படும்.",
+       "ta_status": "bracketed"
       },
       {
        "en": "**Protein in nature:** Most enzymes are proteins; their three-dimensional shape determines their function.",
@@ -686,8 +686,8 @@
       },
       {
        "en": "**Cleavage:** The enzyme cleaves both strands of the DNA. Type II enzymes typically cut within or adjacent to the recognition sequence, using Mg²⁺ ions as essential cofactors.",
-       "ta": "**வெட்டுதல்:** நொதி DNA-வின் இரு இழைகளையும் வெட்டுகிறது. வகை II நொதிகள் பொதுவாக அடையாளத் தொடர் வரிசைக்குள் அல்லது அதை ஒட்டி, Mg²⁺ அயனிகளை இன்றியமையாத துணைக்காரணியாகப் பயன்படுத்தி வெட்டுகின்றன.",
-       "ta_status": "draft"
+       "ta": "**வெட்டுதல்:** நொதி DNA-வின் இரு இழைகளையும் வெட்டுகிறது. வகை II நொதிகள் பொதுவாக அடையாளத் தொடர் வரிசைக்குள் அல்லது அதை ஒட்டி, Mg²⁺ அயனிகளை இன்றியமையாத cofactor-ஆகப் பயன்படுத்தி வெட்டுகின்றன.",
+       "ta_status": "bracketed"
       },
       {
        "en": "**Release:** The two DNA fragments are released, and the enzyme is free to act on another DNA molecule.",
@@ -846,8 +846,8 @@
      "type": "p",
      "text": {
       "en": "DNA polymerases synthesize new DNA strands by adding deoxyribonucleotides to a growing chain in the **5' to 3' direction**, using a template strand and a primer.",
-      "ta": "DNA பாலிமரேஸ்கள், வார்ப்பு இழையையும் தொடக்கியையும் (பிரைமர்) பயன்படுத்தி, வளரும் சங்கிலியில் **5' முதல் 3' திசையில்** டிஆக்சிரைபோநியூக்ளியோடைடுகளைச் சேர்த்துப் புதிய DNA இழைகளைத் தொகுக்கின்றன.",
-      "ta_status": "draft"
+      "ta": "DNA பாலிமரேஸ்கள், template இழையையும் primer-ஐயும் பயன்படுத்தி, வளரும் சங்கிலியில் **5' முதல் 3' திசையில்** டிஆக்சிரைபோநியூக்ளியோடைடுகளைச் சேர்த்துப் புதிய DNA இழைகளைத் தொகுக்கின்றன.",
+      "ta_status": "bracketed"
      }
     },
     {
@@ -896,8 +896,8 @@
      "type": "p",
      "text": {
       "en": "Reverse transcriptase (RT) synthesizes a **complementary DNA (cDNA)** strand from an mRNA template — the reverse of the normal flow of genetic information.",
-      "ta": "ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ் (RT), mRNA வார்ப்பிலிருந்து **நிரப்பு DNA (cDNA)** இழையைத் தொகுக்கிறது — மரபணுத் தகவலின் இயல்பான ஓட்டத்துக்கு எதிர்த்திசையில்.",
-      "ta_status": "draft"
+      "ta": "ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ் (RT), mRNA template-இலிருந்து **நிரப்பு DNA (cDNA)** இழையைத் தொகுக்கிறது — மரபணுத் தகவலின் இயல்பான ஓட்டத்துக்கு எதிர்த்திசையில்.",
+      "ta_status": "bracketed"
      }
     },
     {
@@ -1034,8 +1034,8 @@
       },
       {
        "en": "**Property:** Thermostable — survives repeated heat denaturation cycles at 94 to 95°C",
-       "ta": "**பண்பு:** வெப்பம் தாங்கும் — 94 முதல் 95°C வெப்பத்தில் மீண்டும் மீண்டும் நிகழும் வெப்ப இயல்பிழப்புச் சுழற்சிகளைத் தாங்கும்",
-       "ta_status": "draft"
+       "ta": "**பண்பு:** வெப்பம் தாங்கும் — 94 முதல் 95°C வெப்பத்தில் மீண்டும் மீண்டும் நிகழும் வெப்ப denaturation சுழற்சிகளைத் தாங்கும்",
+       "ta_status": "bracketed"
       },
       {
        "en": "**Limitation:** Lacks 3' to 5' proofreading exonuclease activity (higher error rate than proofreading polymerases)",
@@ -1176,8 +1176,8 @@
      "type": "p",
      "text": {
       "en": "**Reverse transcriptase** converts mRNA into cDNA using mRNA as a template. This cDNA represents only the expressed, intron-free coding sequence of a gene — ideal for expression in prokaryotic systems.",
-      "ta": "**ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ்** mRNA-வை வார்ப்பாகக் கொண்டு cDNA-வாக மாற்றுகிறது. இந்த cDNA, மரபணுவின் வெளிப்படும், இன்ட்ரான் அற்ற குறியீட்டு வரிசையை மட்டுமே பிரதிபலிப்பதால் புரோகேரியோட்டு அமைப்புகளில் வெளிப்படுத்த ஏற்றது.",
-      "ta_status": "draft"
+      "ta": "**ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ்** mRNA-வை template-ஆகக் கொண்டு cDNA-வாக மாற்றுகிறது. இந்த cDNA, மரபணுவின் வெளிப்படும், இன்ட்ரான் அற்ற குறியீட்டு வரிசையை மட்டுமே பிரதிபலிப்பதால் புரோகேரியோட்டு அமைப்புகளில் வெளிப்படுத்த ஏற்றது.",
+      "ta_status": "bracketed"
      }
     },
     {
@@ -1295,8 +1295,8 @@
      },
      "answer": {
       "en": "Synthesizes cDNA from an mRNA template. Used in RT-PCR and construction of cDNA libraries. Derived from retroviruses like HIV and MMLV.",
-      "ta": "mRNA வார்ப்பிலிருந்து cDNA-வைத் தொகுக்கிறது. RT-PCR-லும் cDNA நூலக உருவாக்கத்திலும் பயன்படுகிறது. HIV, MMLV போன்ற ரெட்ரோவைரஸ்களிலிருந்து பெறப்படுகிறது.",
-      "ta_status": "draft"
+      "ta": "mRNA template-இலிருந்து cDNA-வைத் தொகுக்கிறது. RT-PCR-லும் cDNA நூலக உருவாக்கத்திலும் பயன்படுகிறது. HIV, MMLV போன்ற ரெட்ரோவைரஸ்களிலிருந்து பெறப்படுகிறது.",
+      "ta_status": "bracketed"
      }
     },
     {
@@ -1308,8 +1308,8 @@
      },
      "answer": {
       "en": "Thermostable DNA polymerase from _Thermus aquaticus_. Withstands PCR denaturation cycles. Extends primers during extension step at approximately 72°C.",
-      "ta": "_Thermus aquaticus_-இலிருந்து பெறப்பட்ட வெப்பம் தாங்கும் DNA பாலிமரேஸ். PCR இயல்பிழப்புச் சுழற்சிகளைத் தாங்கும். நீட்டிப்பு நிலையில் ஏறத்தாழ 72°C-இல் பிரைமர்களை நீட்டிக்கிறது.",
-      "ta_status": "draft"
+      "ta": "_Thermus aquaticus_-இலிருந்து பெறப்பட்ட வெப்பம் தாங்கும் DNA பாலிமரேஸ். PCR denaturation சுழற்சிகளைத் தாங்கும். நீட்டிப்பு நிலையில் ஏறத்தாழ 72°C-இல் பிரைமர்களை நீட்டிக்கிறது.",
+      "ta_status": "bracketed"
      }
     },
     {
@@ -1579,8 +1579,8 @@
        },
        {
         "en": "Synthesizes DNA from RNA template (RNA to DNA)",
-        "ta": "RNA வார்ப்பிலிருந்து DNA-வைத் தொகுக்கிறது (RNA-விலிருந்து DNA)",
-        "ta_status": "draft"
+        "ta": "RNA template-இலிருந்து DNA-வைத் தொகுக்கிறது (RNA-விலிருந்து DNA)",
+        "ta_status": "bracketed"
        },
        {
         "en": "Produces cDNA from mRNA for cloning expressed genes",
@@ -1970,8 +1970,8 @@
      },
      "definition": {
       "en": "Complementary DNA. Synthesized from an mRNA template by reverse transcriptase. Represents only the exon sequences (coding regions) with no introns.",
-      "ta": "நிரப்பு DNA. mRNA வார்ப்பிலிருந்து ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸால் தொகுக்கப்படுகிறது. இன்ட்ரான்கள் இன்றி எக்சான் வரிசைகளை (குறியீட்டுப் பகுதிகள்) மட்டுமே குறிக்கிறது.",
-      "ta_status": "draft"
+      "ta": "நிரப்பு DNA. mRNA template-இலிருந்து ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸால் தொகுக்கப்படுகிறது. இன்ட்ரான்கள் இன்றி எக்சான் வரிசைகளை (குறியீட்டுப் பகுதிகள்) மட்டுமே குறிக்கிறது.",
+      "ta_status": "bracketed"
      }
     },
     {
@@ -2177,8 +2177,8 @@
       },
       {
        "en": "T4 DNA ligase uses ATP; _E. coli_ ligase uses NAD⁺ as cofactor.",
-       "ta": "T4 DNA லைகேஸ் ATP-ஐயும், _E. coli_ லைகேஸ் NAD⁺-ஐயும் துணைக்காரணியாகப் பயன்படுத்துகின்றன.",
-       "ta_status": "draft"
+       "ta": "T4 DNA லைகேஸ் ATP-ஐயும், _E. coli_ லைகேஸ் NAD⁺-ஐயும் cofactor-ஆகப் பயன்படுத்துகின்றன.",
+       "ta_status": "bracketed"
       },
       {
        "en": "Critical step in gene cloning: joins insert DNA to linearized vector to form recombinant DNA.",
@@ -2224,8 +2224,8 @@
       },
       {
        "en": "Deviates from central dogma: synthesizes DNA from RNA template (RNA to DNA direction).",
-       "ta": "மையக் கோட்பாட்டிலிருந்து விலகுகிறது: RNA வார்ப்பிலிருந்து DNA-வைத் தொகுக்கிறது (RNA-விலிருந்து DNA திசை).",
-       "ta_status": "draft"
+       "ta": "மையக் கோட்பாட்டிலிருந்து விலகுகிறது: RNA template-இலிருந்து DNA-வைத் தொகுக்கிறது (RNA-விலிருந்து DNA திசை).",
+       "ta_status": "bracketed"
       },
       {
        "en": "Produces complementary DNA (cDNA) from mRNA; cDNA contains only coding (exon) sequences.",

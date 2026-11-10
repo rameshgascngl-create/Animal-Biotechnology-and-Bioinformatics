@@ -29,10 +29,11 @@ PDF, and it is Botany, not Zoology. Further pages of the same chapter (gene tran
 | nuclease, exo-, endonuclease | நியுக்ளியேஸ், எக்சோ-, எண்டோநியுக்ளியேஸ் | Board |
 | enzyme; thermostable | நொதி; வெப்பம் தாங்கும் | Board |
 | genome | மரபணு தொகையம் | Board; "genomic library" rendered மரபணு தொகையம் நூலகம் (derived, Unverified) |
-| template / primer | வார்ப்பு / தொடக்கி (பிரைமர்) | Unverified (not in the Board pages read) |
-| cofactor, denaturation | துணைக்காரணி, இயல்பிழப்பு | Unverified |
+| template, primer, cofactor, denaturation | kept in English (`template`, `primer`, `cofactor`, `denaturation`) | No Board term found; not coined (owner rule below) |
 | cDNA, reverse transcriptase | cDNA, ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ் | Unverified |
 | prokaryote / eukaryote, intron / exon, clone | புரோகேரியோட்டு / யூகேரியோட்டு, இன்ட்ரான் / எக்சான், குளோன் | Unverified |
+
+**Owner rule: where no appropriate Tamil word is found in school or university texts, keep the English term; do not coin Tamil.** Phonetic transliterations that the Board itself uses (e.g. இன்ட்ரான், புரோகேரியோட்டு) stay.
 
 Rules: enzyme names (EcoRI, Taq), organisms, chemical symbols, units and DNA sequences stay in Latin script; DNA, RNA, cDNA,
 PCR, ATP stay in Latin. Markup `**bold**` and `_italic_` is preserved. Glossary headwords carry the English term in brackets
