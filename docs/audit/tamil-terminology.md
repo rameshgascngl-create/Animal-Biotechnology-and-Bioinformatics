@@ -38,3 +38,16 @@ PDF, and it is Botany, not Zoology. Further pages of the same chapter (gene tran
 Rules: enzyme names (EcoRI, Taq), organisms, chemical symbols, units and DNA sequences stay in Latin script; DNA, RNA, cDNA,
 PCR, ATP stay in Latin. Markup `**bold**` and `_italic_` is preserved. Glossary headwords carry the English term in brackets
 (`ta_status = bracketed`).
+
+## Electrophoresis verification — 10 November 2026
+
+The Government of Tamil Nadu **Class XII Botany, Tamil medium (2019)**,
+printed p.115 / PDF p.123, §4.7.4 uses **மின்னாற்பிரித்தல்** and
+**இழும மின்னாற்பிரித்தல்**. Verified from the text of the actual textbook PDF
+at the [public mirror](https://athiyamanteam.com/wp-content/uploads/2019/11/New-TN-Samacheer-Book-12th-Std-Botany-TM-Athiyaman-Team-Part-1.pdf).
+The host is not an official government domain. No Drive access was used.
+
+The previous electrophoresis wording மின்னாற்பகுப்பு is replaced in chapter,
+quiz, revision and diagram Tamil data. The shared source is
+`tools/i18n/tamil_glossary.json`; extractor carry-over and rendering use it.
+This does not approve all Tamil content: owner review remains pending.

@@ -586,7 +586,7 @@
      "type": "p",
      "text": {
       "en": "Separation by Gel or Capillary Electrophoresis",
-      "ta": "ஜெல் அல்லது நுண்குழாய் மின்னாற்பகுப்பால் பிரித்தல்",
+      "ta": "ஜெல் அல்லது நுண்குழாய் மின்னாற்பிரித்தலால் பிரித்தல்",
       "ta_status": "draft"
      }
     },
@@ -604,12 +604,12 @@
      "items": [
       {
        "en": "**Denaturing polyacrylamide gel electrophoresis (PAGE):** Original method. Formamide denatures secondary structures. Fragments migrate through the gel matrix — smaller fragments move faster and migrate farther from the wells. Typically resolves fragments from ~10 to ~1000 nt with single-nucleotide resolution.",
-       "ta": "**இயல்பிழக்கச் செய்யும் பாலிஅக்ரிலமைடு ஜெல் மின்னாற்பகுப்பு (PAGE):** தொடக்க முறை. ஃபார்மாமைடு இரண்டாம்நிலை அமைப்புகளை இயல்பிழக்கச் செய்யும். துண்டுகள் ஜெல் அணி வழியே நகரும் — சிறிய துண்டுகள் வேகமாக நகர்ந்து கிணறுகளிலிருந்து தொலைவு செல்லும். பொதுவாக ~10 முதல் ~1000 nt வரை ஒற்றை நியுக்ளியோடைடு பிரிதிறனுடன் பிரிக்கும்.",
+       "ta": "**இயல்பிழக்கச் செய்யும் பாலிஅக்ரிலமைடு இழும மின்னாற்பிரித்தல் (PAGE):** தொடக்க முறை. ஃபார்மாமைடு இரண்டாம்நிலை அமைப்புகளை இயல்பிழக்கச் செய்யும். துண்டுகள் ஜெல் அணி வழியே நகரும் — சிறிய துண்டுகள் வேகமாக நகர்ந்து கிணறுகளிலிருந்து தொலைவு செல்லும். பொதுவாக ~10 முதல் ~1000 nt வரை ஒற்றை நியுக்ளியோடைடு பிரிதிறனுடன் பிரிக்கும்.",
        "ta_status": "draft"
       },
       {
        "en": "**Capillary electrophoresis (CE):** Modern automated method. DNA fragments migrate through a thin capillary tube filled with polymer. Fragments pass a laser detector — each ddNTP carries a different fluorescent dye and emits a different colour when excited.",
-       "ta": "**நுண்குழாய் மின்னாற்பகுப்பு (CE):** நவீன தானியங்கி முறை. DNA துண்டுகள் பலபடி நிரப்பிய மெல்லிய நுண்குழாய் வழியே நகர்கின்றன. துண்டுகள் லேசர் கண்டறிவியைக் கடக்கும் — ஒவ்வொரு ddNTP-யும் வேறுபட்ட ஒளிர்வுச் சாயத்தைச் சுமந்து தூண்டப்படும்போது வேறுபட்ட நிறத்தை உமிழும்.",
+       "ta": "**நுண்குழாய் மின்னாற்பிரித்தல் (CE):** நவீன தானியங்கி முறை. DNA துண்டுகள் பலபடி நிரப்பிய மெல்லிய நுண்குழாய் வழியே நகர்கின்றன. துண்டுகள் லேசர் கண்டறிவியைக் கடக்கும் — ஒவ்வொரு ddNTP-யும் வேறுபட்ட ஒளிர்வுச் சாயத்தைச் சுமந்து தூண்டப்படும்போது வேறுபட்ட நிறத்தை உமிழும்.",
        "ta_status": "draft"
       }
      ]
@@ -709,7 +709,7 @@
       },
       {
        "en": "Fragments separated by capillary electrophoresis pass a laser — each emits its specific colour.",
-       "ta": "நுண்குழாய் மின்னாற்பகுப்பால் பிரிக்கப்பட்ட துண்டுகள் லேசரைக் கடக்கும் — ஒவ்வொன்றும் தனக்குரிய நிறத்தை உமிழும்.",
+       "ta": "நுண்குழாய் மின்னாற்பிரித்தலால் பிரிக்கப்பட்ட துண்டுகள் லேசரைக் கடக்கும் — ஒவ்வொன்றும் தனக்குரிய நிறத்தை உமிழும்.",
        "ta_status": "draft"
       },
       {
@@ -993,7 +993,7 @@
      "items": [
       {
        "en": "4 🔬 Capillary Electrophoresis Denatured fragments loaded into capillary filled with polymer. High-voltage applied — fragments migrate by size (small = fast). Laser detects fluorescent colour as each fragment passes the detection window.",
-       "ta": "4 🔬 நுண்குழாய் மின்னாற்பகுப்பு இயல்பிழந்த துண்டுகள் பலபடி நிரப்பிய நுண்குழாயில் ஏற்றப்படுகின்றன. உயர்மின்னழுத்தம் செலுத்தப்படுகிறது — துண்டுகள் அளவால் நகர்கின்றன (சிறியது = வேகம்). ஒவ்வொரு துண்டும் கண்டறியும் சாளரத்தைக் கடக்கும்போது லேசர் ஒளிர்வு நிறத்தைக் கண்டறிகிறது.",
+       "ta": "4 🔬 நுண்குழாய் மின்னாற்பிரித்தல் இயல்பிழந்த துண்டுகள் பலபடி நிரப்பிய நுண்குழாயில் ஏற்றப்படுகின்றன. உயர்மின்னழுத்தம் செலுத்தப்படுகிறது — துண்டுகள் அளவால் நகர்கின்றன (சிறியது = வேகம்). ஒவ்வொரு துண்டும் கண்டறியும் சாளரத்தைக் கடக்கும்போது லேசர் ஒளிர்வு நிறத்தைக் கண்டறிகிறது.",
        "ta_status": "draft"
       }
      ]
@@ -1568,7 +1568,7 @@
        },
        {
         "en": "Capillary electrophoresis",
-        "ta": "நுண்குழாய் மின்னாற்பகுப்பு",
+        "ta": "நுண்குழாய் மின்னாற்பிரித்தல்",
         "ta_status": "draft"
        }
       ],
@@ -1768,7 +1768,7 @@
      "type": "reveal",
      "question": {
       "en": "Electrophoresis",
-      "ta": "மின்னாற்பகுப்பு",
+      "ta": "மின்னாற்பிரித்தல்",
       "ta_status": "draft"
      },
      "answer": {
@@ -1786,7 +1786,7 @@
      },
      "answer": {
       "en": "The graphical output (electropherogram) of automated fluorescent Sanger sequencing. Coloured peaks on a time axis represent individual nucleotides detected as fluorescently labelled fragments pass the laser detector in the capillary electrophoresis instrument.",
-      "ta": "தானியங்கி ஒளிர்வு சேங்கர் வரிசைப்படுத்தலின் வரைபட வெளியீடு (எலக்ட்ரோஃபெரோகிராம்). நுண்குழாய் மின்னாற்பகுப்புக் கருவியில் ஒளிர்வுக் குறியிட்ட துண்டுகள் லேசர் கண்டறிவியைக் கடக்கும்போது கண்டறியப்படும் தனி நியுக்ளியோடைடுகளைக் காலஅச்சில் நிற உச்சங்கள் குறிக்கின்றன.",
+      "ta": "தானியங்கி ஒளிர்வு சேங்கர் வரிசைப்படுத்தலின் வரைபட வெளியீடு (எலக்ட்ரோஃபெரோகிராம்). நுண்குழாய் மின்னாற்பிரித்தல்க் கருவியில் ஒளிர்வுக் குறியிட்ட துண்டுகள் லேசர் கண்டறிவியைக் கடக்கும்போது கண்டறியப்படும் தனி நியுக்ளியோடைடுகளைக் காலஅச்சில் நிற உச்சங்கள் குறிக்கின்றன.",
       "ta_status": "draft"
      }
     },
@@ -1807,12 +1807,12 @@
      "type": "reveal",
      "question": {
       "en": "Capillary Electrophoresis",
-      "ta": "நுண்குழாய் மின்னாற்பகுப்பு",
+      "ta": "நுண்குழாய் மின்னாற்பிரித்தல்",
       "ta_status": "draft"
      },
      "answer": {
       "en": "A modern, automated alternative to slab gel electrophoresis used in Sanger sequencing. DNA fragments migrate through a thin (~75 µm) capillary filled with polymer. A laser detects fluorescence as each fragment passes — provides higher resolution, speed, and throughput than traditional gel electrophoresis.",
-      "ta": "சேங்கர் வரிசைப்படுத்தலில் பயன்படும், தகடு ஜெல் மின்னாற்பகுப்புக்கு மாற்றான நவீன தானியங்கி முறை. DNA துண்டுகள் பலபடி நிரப்பிய மெல்லிய (~75 µm) நுண்குழாய் வழியே நகர்கின்றன. ஒவ்வொரு துண்டும் கடக்கும்போது லேசர் ஒளிர்வைக் கண்டறிகிறது — பாரம்பரிய ஜெல் மின்னாற்பகுப்பைவிட அதிகப் பிரிதிறன், வேகம், செயல்திறன்.",
+      "ta": "சேங்கர் வரிசைப்படுத்தலில் பயன்படும், தகடு இழும மின்னாற்பிரித்தலுக்கு மாற்றான நவீன தானியங்கி முறை. DNA துண்டுகள் பலபடி நிரப்பிய மெல்லிய (~75 µm) நுண்குழாய் வழியே நகர்கின்றன. ஒவ்வொரு துண்டும் கடக்கும்போது லேசர் ஒளிர்வைக் கண்டறிகிறது — பாரம்பரிய இழும மின்னாற்பிரித்தலைவிட அதிகப் பிரிதிறன், வேகம், செயல்திறன்.",
       "ta_status": "draft"
      }
     }
@@ -1880,7 +1880,7 @@
      "type": "p",
      "text": {
       "en": "**Modern Method**Single reaction, four fluorescently labelled ddNTPs (each different colour), capillary electrophoresis, chromatogram output, automated base calling.",
-      "ta": "**நவீன முறை**ஒரே வினை, நான்கு ஒளிர்வுக் குறியிட்ட ddNTP-கள் (ஒவ்வொன்றும் வேறு நிறம்), நுண்குழாய் மின்னாற்பகுப்பு, குரோமடோகிராம் வெளியீடு, தானியங்கி காரம் அறிதல்.",
+      "ta": "**நவீன முறை**ஒரே வினை, நான்கு ஒளிர்வுக் குறியிட்ட ddNTP-கள் (ஒவ்வொன்றும் வேறு நிறம்), நுண்குழாய் மின்னாற்பிரித்தல், குரோமடோகிராம் வெளியீடு, தானியங்கி காரம் அறிதல்.",
       "ta_status": "draft"
      }
     },
@@ -1920,7 +1920,7 @@
      "type": "p",
      "text": {
       "en": "**Correct Step Order**Denature DNA → Anneal primer → Polymerase extends + ddNTP terminates → Fragments of all sizes form → Electrophoresis separates → Read sequence from chromatogram.",
-      "ta": "**சரியான படி வரிசை**DNA-வை டினேச்சுரேஷன் செய் → பிரைமரை அனீல் செய் → பாலிமரேஸ் நீட்டிக்கும் + ddNTP முடிவுறுத்தும் → அனைத்து அளவுத் துண்டுகளும் உருவாகும் → மின்னாற்பகுப்பு பிரிக்கும் → குரோமடோகிராமிலிருந்து வரிசையை வாசி.",
+      "ta": "**சரியான படி வரிசை**DNA-வை டினேச்சுரேஷன் செய் → பிரைமரை அனீல் செய் → பாலிமரேஸ் நீட்டிக்கும் + ddNTP முடிவுறுத்தும் → அனைத்து அளவுத் துண்டுகளும் உருவாகும் → மின்னாற்பிரித்தல் பிரிக்கும் → குரோமடோகிராமிலிருந்து வரிசையை வாசி.",
       "ta_status": "draft"
      }
     }
@@ -2018,7 +2018,7 @@
      "type": "glossary",
      "term": {
       "en": "Electrophoresis",
-      "ta": "மின்னாற்பகுப்பு",
+      "ta": "மின்னாற்பிரித்தல்",
       "ta_status": "draft"
      },
      "definition": {
@@ -2044,7 +2044,7 @@
      "type": "glossary",
      "term": {
       "en": "Capillary Electrophoresis",
-      "ta": "நுண்குழாய் மின்னாற்பகுப்பு",
+      "ta": "நுண்குழாய் மின்னாற்பிரித்தல்",
       "ta_status": "draft"
      },
      "definition": {
@@ -2128,7 +2128,7 @@
       },
       {
        "en": "Separation by electrophoresis and reading the positions gives the complete sequence.",
-       "ta": "மின்னாற்பகுப்பால் பிரித்து நிலைகளை வாசித்தால் முழு வரிசை கிடைக்கும்.",
+       "ta": "மின்னாற்பிரித்தலால் பிரித்து நிலைகளை வாசித்தால் முழு வரிசை கிடைக்கும்.",
        "ta_status": "draft"
       },
       {
@@ -2232,7 +2232,7 @@
       },
       {
        "en": "Step 5: Fragments denatured and loaded into capillary electrophoresis instrument.",
-       "ta": "படி 5: துண்டுகள் இயல்பிழக்கச் செய்யப்பட்டு நுண்குழாய் மின்னாற்பகுப்புக் கருவியில் ஏற்றப்படும்.",
+       "ta": "படி 5: துண்டுகள் இயல்பிழக்கச் செய்யப்பட்டு நுண்குழாய் மின்னாற்பிரித்தல்க் கருவியில் ஏற்றப்படும்.",
        "ta_status": "draft"
       },
       {

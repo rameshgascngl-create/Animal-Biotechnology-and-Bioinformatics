@@ -351,7 +351,7 @@
      "type": "p",
      "text": {
       "en": "Restriction enzymes recognise and cut DNA at specific palindromic sequences called _restriction sites_. If a mutation alters a restriction site (gains or loses it), the enzyme will produce **fragments of different lengths** — this length difference (polymorphism) is the marker. When separated by gel electrophoresis and detected with a labelled probe (Southern blotting), different individuals show different band patterns.",
-      "ta": "கட்டுப்பாட்டு நொதிகள் _கட்டுப்பாட்டு நொதி தளங்கள்_ எனப்படும் குறிப்பிட்ட முன்பின் ஒத்த வரிசைகளில் DNA-வை அறிந்து வெட்டும். திடீர்மாற்றம் ஒரு கட்டுப்பாட்டு நொதி தளத்தை மாற்றினால் (பெற்றால் அல்லது இழந்தால்), நொதி **வெவ்வேறு நீளத் துண்டுகளை** உருவாக்கும் — இந்நீள வேறுபாடே (பல்லுருவமைப்பு) குறிப்பான். ஜெல் மின்னாற்பகுப்பால் பிரித்து, குறியிட்ட துருவியால் (சதர்ன் பிளாட்டிங்) கண்டறியும்போது வெவ்வேறு தனிநபர்கள் வெவ்வேறு பட்டை அமைப்புகளைக் காட்டுவர்.",
+      "ta": "கட்டுப்பாட்டு நொதிகள் _கட்டுப்பாட்டு நொதி தளங்கள்_ எனப்படும் குறிப்பிட்ட முன்பின் ஒத்த வரிசைகளில் DNA-வை அறிந்து வெட்டும். திடீர்மாற்றம் ஒரு கட்டுப்பாட்டு நொதி தளத்தை மாற்றினால் (பெற்றால் அல்லது இழந்தால்), நொதி **வெவ்வேறு நீளத் துண்டுகளை** உருவாக்கும் — இந்நீள வேறுபாடே (பல்லுருவமைப்பு) குறிப்பான். இழும மின்னாற்பிரித்தலால் பிரித்து, குறியிட்ட துருவியால் (சதர்ன் பிளாட்டிங்) கண்டறியும்போது வெவ்வேறு தனிநபர்கள் வெவ்வேறு பட்டை அமைப்புகளைக் காட்டுவர்.",
       "ta_status": "draft"
      }
     },
@@ -378,7 +378,7 @@
       },
       {
        "en": "3 **Gel Electrophoresis**The digested DNA fragments are separated by size on an agarose gel — smaller fragments travel further.",
-       "ta": "3 **ஜெல் மின்னாற்பகுப்பு**செரிக்கப்பட்ட DNA துண்டுகள் அகரோஸ் ஜெல்லில் அளவால் பிரிக்கப்படும் — சிறிய துண்டுகள் தொலைவு நகரும்.",
+       "ta": "3 **இழும மின்னாற்பிரித்தல்**செரிக்கப்பட்ட DNA துண்டுகள் அகரோஸ் ஜெல்லில் அளவால் பிரிக்கப்படும் — சிறிய துண்டுகள் தொலைவு நகரும்.",
        "ta_status": "draft"
       },
       {
@@ -539,7 +539,7 @@
       },
       {
        "en": "5 steps: DNA isolation → restriction digestion → gel electrophoresis → Southern blotting/probe → pattern analysis",
-       "ta": "5 படிகள்: DNA தனிமைப்படுத்தல் → கட்டுப்பாட்டு நொதிச் செரிப்பு → ஜெல் மின்னாற்பகுப்பு → சதர்ன் பிளாட்டிங்/துருவி → அமைப்புப் பகுப்பாய்வு",
+       "ta": "5 படிகள்: DNA தனிமைப்படுத்தல் → கட்டுப்பாட்டு நொதிச் செரிப்பு → இழும மின்னாற்பிரித்தல் → சதர்ன் பிளாட்டிங்/துருவி → அமைப்புப் பகுப்பாய்வு",
        "ta_status": "draft"
       },
       {
@@ -625,7 +625,7 @@
       },
       {
        "en": "4 **Gel Electrophoresis**PCR products are separated on an agarose gel. Each lane shows a unique pattern of amplified bands for each individual.",
-       "ta": "4 **ஜெல் மின்னாற்பகுப்பு**PCR விளைபொருள்கள் அகரோஸ் ஜெல்லில் பிரிக்கப்படும். ஒவ்வொரு தடமும் ஒவ்வொரு தனிநபருக்கும் தனித்த பெருக்கிய பட்டை அமைப்பைக் காட்டும்.",
+       "ta": "4 **இழும மின்னாற்பிரித்தல்**PCR விளைபொருள்கள் அகரோஸ் ஜெல்லில் பிரிக்கப்படும். ஒவ்வொரு தடமும் ஒவ்வொரு தனிநபருக்கும் தனித்த பெருக்கிய பட்டை அமைப்பைக் காட்டும்.",
        "ta_status": "draft"
       },
       {
@@ -776,7 +776,7 @@
       },
       {
        "en": "5 steps: DNA isolation → random primer PCR → amplification → gel electrophoresis → band pattern analysis",
-       "ta": "5 படிகள்: DNA தனிமைப்படுத்தல் → சீரற்ற பிரைமர் PCR → பெருக்கம் → ஜெல் மின்னாற்பகுப்பு → பட்டை அமைப்புப் பகுப்பாய்வு",
+       "ta": "5 படிகள்: DNA தனிமைப்படுத்தல் → சீரற்ற பிரைமர் PCR → பெருக்கம் → இழும மின்னாற்பிரித்தல் → பட்டை அமைப்புப் பகுப்பாய்வு",
        "ta_status": "draft"
       },
       {
@@ -881,7 +881,7 @@
       },
       {
        "en": "3 **Fragment Separation**Fragments separated by gel electrophoresis or capillary electrophoresis (modern). Fragments are ordered by size.",
-       "ta": "3 **துண்டுப் பிரிப்பு**துண்டுகள் ஜெல் மின்னாற்பகுப்பு அல்லது (நவீன) நுண்குழாய் மின்னாற்பகுப்பால் பிரிக்கப்படும். துண்டுகள் அளவு வரிசையில் அமையும்.",
+       "ta": "3 **துண்டுப் பிரிப்பு**துண்டுகள் இழும மின்னாற்பிரித்தல் அல்லது (நவீன) நுண்குழாய் மின்னாற்பிரித்தலால் பிரிக்கப்படும். துண்டுகள் அளவு வரிசையில் அமையும்.",
        "ta_status": "draft"
       },
       {
@@ -1941,7 +1941,7 @@
       },
       {
        "en": "Steps: isolation → digestion → gel electrophoresis → Southern blotting → probe → detection",
-       "ta": "படிகள்: தனிமைப்படுத்தல் → செரிப்பு → ஜெல் மின்னாற்பகுப்பு → சதர்ன் பிளாட்டிங் → துருவி → கண்டறிதல்",
+       "ta": "படிகள்: தனிமைப்படுத்தல் → செரிப்பு → இழும மின்னாற்பிரித்தல் → சதர்ன் பிளாட்டிங் → துருவி → கண்டறிதல்",
        "ta_status": "draft"
       },
       {
@@ -2258,7 +2258,7 @@
      "type": "p",
      "text": {
       "en": "The arrangement of DNA fragments separated by gel electrophoresis, appearing as bands at positions corresponding to fragment size.",
-      "ta": "ஜெல் மின்னாற்பகுப்பால் பிரிக்கப்பட்ட DNA துண்டுகளின் அமைப்பு; துண்டு அளவுக்கு ஒத்த இடங்களில் பட்டைகளாகத் தோன்றும்.",
+      "ta": "இழும மின்னாற்பிரித்தலால் பிரிக்கப்பட்ட DNA துண்டுகளின் அமைப்பு; துண்டு அளவுக்கு ஒத்த இடங்களில் பட்டைகளாகத் தோன்றும்.",
       "ta_status": "draft"
      }
     },
@@ -2412,7 +2412,7 @@
      "type": "p",
      "text": {
       "en": "Define molecular marker (specific DNA sequence detecting polymorphism). RFLP principle: restriction enzymes cut at recognition sites → mutations alter fragment lengths. Steps: DNA isolation → restriction digestion → gel electrophoresis → Southern blotting → probe hybridisation → band pattern analysis. Diagram: DNA → enzyme cuts → two different fragment sizes → gel bands. Mention co-dominant nature and applications (gene mapping, plant breeding).",
-      "ta": "மூலக்கூறுக் குறிப்பானை வரையறுக்க (பல்லுருவமைப்பைக் கண்டறியும் குறிப்பிட்ட DNA வரிசை). RFLP கோட்பாடு: கட்டுப்பாட்டு நொதிகள் அறிதல் தளங்களில் வெட்டும் → திடீர்மாற்றங்கள் துண்டு நீளங்களை மாற்றும். படிகள்: DNA தனிமைப்படுத்தல் → கட்டுப்பாட்டு நொதிச் செரிப்பு → ஜெல் மின்னாற்பகுப்பு → சதர்ன் பிளாட்டிங் → துருவி கலப்பினமாக்கல் → பட்டை அமைப்புப் பகுப்பாய்வு. படம்: DNA → நொதி வெட்டு → இரு வேறு துண்டு அளவுகள் → ஜெல் பட்டைகள். இணை ஓங்குத் தன்மையையும் பயன்பாடுகளையும் (மரபணு வரைபடம், தாவர இனப்பெருக்கம்) குறிப்பிடுக.",
+      "ta": "மூலக்கூறுக் குறிப்பானை வரையறுக்க (பல்லுருவமைப்பைக் கண்டறியும் குறிப்பிட்ட DNA வரிசை). RFLP கோட்பாடு: கட்டுப்பாட்டு நொதிகள் அறிதல் தளங்களில் வெட்டும் → திடீர்மாற்றங்கள் துண்டு நீளங்களை மாற்றும். படிகள்: DNA தனிமைப்படுத்தல் → கட்டுப்பாட்டு நொதிச் செரிப்பு → இழும மின்னாற்பிரித்தல் → சதர்ன் பிளாட்டிங் → துருவி கலப்பினமாக்கல் → பட்டை அமைப்புப் பகுப்பாய்வு. படம்: DNA → நொதி வெட்டு → இரு வேறு துண்டு அளவுகள் → ஜெல் பட்டைகள். இணை ஓங்குத் தன்மையையும் பயன்பாடுகளையும் (மரபணு வரைபடம், தாவர இனப்பெருக்கம்) குறிப்பிடுக.",
       "ta_status": "draft"
      }
     },
@@ -2436,7 +2436,7 @@
      "type": "p",
      "text": {
       "en": "RAPD principle: single arbitrary ~10 nt primer binds at multiple sites at low annealing temperature → PCR amplifies random segments → presence/absence polymorphism. Steps: DNA isolation → PCR with random primer → gel electrophoresis → band pattern analysis. Advantages over RFLP: no prior sequence knowledge, smaller DNA quantity, no radioactive probes, faster, cheaper. Mention dominant marker limitation.",
-      "ta": "RAPD கோட்பாடு: ஒற்றைத் தன்னிச்சை ~10 nt பிரைமர் குறைந்த அனீலிங் வெப்பநிலையில் பல தளங்களில் பிணையும் → PCR சீரற்ற பகுதிகளைப் பெருக்கும் → இருப்பு/இன்மைப் பல்லுருவமைப்பு. படிகள்: DNA தனிமைப்படுத்தல் → சீரற்ற பிரைமருடன் PCR → ஜெல் மின்னாற்பகுப்பு → பட்டை அமைப்புப் பகுப்பாய்வு. RFLP-ஐவிட நன்மைகள்: முன் வரிசை அறிவு தேவையில்லை, குறைந்த DNA, கதிரியக்கத் துருவிகள் இல்லை, விரைவு, மலிவு. ஓங்கு குறிப்பான் என்ற வரம்பைக் குறிப்பிடுக.",
+      "ta": "RAPD கோட்பாடு: ஒற்றைத் தன்னிச்சை ~10 nt பிரைமர் குறைந்த அனீலிங் வெப்பநிலையில் பல தளங்களில் பிணையும் → PCR சீரற்ற பகுதிகளைப் பெருக்கும் → இருப்பு/இன்மைப் பல்லுருவமைப்பு. படிகள்: DNA தனிமைப்படுத்தல் → சீரற்ற பிரைமருடன் PCR → இழும மின்னாற்பிரித்தல் → பட்டை அமைப்புப் பகுப்பாய்வு. RFLP-ஐவிட நன்மைகள்: முன் வரிசை அறிவு தேவையில்லை, குறைந்த DNA, கதிரியக்கத் துருவிகள் இல்லை, விரைவு, மலிவு. ஓங்கு குறிப்பான் என்ற வரம்பைக் குறிப்பிடுக.",
       "ta_status": "draft"
      }
     },

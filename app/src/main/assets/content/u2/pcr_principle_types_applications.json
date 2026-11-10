@@ -778,7 +778,7 @@
      "items": [
       {
        "en": "5 📊 Detection & Analysis PCR product is analysed by: agarose gel electrophoresis (band size), DNA sequencing, restriction digestion, hybridisation, or real-time fluorescence detection (qPCR). Results in 1–3 hours total.",
-       "ta": "5 📊 கண்டறிதலும் பகுப்பாய்வும் PCR விளைபொருள் பகுப்பாய்வு: அகரோஸ் ஜெல் மின்னாற்பகுப்பு (பட்டை அளவு), DNA வரிசைப்படுத்தல், ரெஸ்ட்ரிக்ஷன் செரித்தல், கலப்பினமாக்கல் அல்லது நிகழ்நேர ஒளிர்வுக் கண்டறிதல் (qPCR). மொத்தம் 1–3 மணி நேரத்தில் முடிவு.",
+       "ta": "5 📊 கண்டறிதலும் பகுப்பாய்வும் PCR விளைபொருள் பகுப்பாய்வு: அகரோஸ் இழும மின்னாற்பிரித்தல் (பட்டை அளவு), DNA வரிசைப்படுத்தல், ரெஸ்ட்ரிக்ஷன் செரித்தல், கலப்பினமாக்கல் அல்லது நிகழ்நேர ஒளிர்வுக் கண்டறிதல் (qPCR). மொத்தம் 1–3 மணி நேரத்தில் முடிவு.",
        "ta_status": "draft"
       }
      ]
@@ -799,7 +799,7 @@
      "type": "p",
      "text": {
       "en": "1. Conventional PCR **Principle:** Standard thermal cycling with two primers amplifying a specific DNA region. **Detection:** Agarose gel electrophoresis after the reaction. **Use:** Basic amplification, clone verification, pathogen detection. **Limitation:** Qualitative — shows presence/absence, not quantity.",
-      "ta": "1. வழக்கமான PCR **கோட்பாடு:** இரு பிரைமர்கள் குறிப்பிட்ட DNA பகுதியைப் பெருக்கும் நிலையான வெப்பச் சுழற்சி. **கண்டறிதல்:** வினைக்குப் பின் அகரோஸ் ஜெல் மின்னாற்பகுப்பு. **பயன்:** அடிப்படைப் பெருக்கம், குளோன் சரிபார்ப்பு, நோய்க்கிருமி கண்டறிதல். **வரம்பு:** தரமானது — இருப்பு/இன்மையை மட்டும் காட்டும், அளவை அல்ல.",
+      "ta": "1. வழக்கமான PCR **கோட்பாடு:** இரு பிரைமர்கள் குறிப்பிட்ட DNA பகுதியைப் பெருக்கும் நிலையான வெப்பச் சுழற்சி. **கண்டறிதல்:** வினைக்குப் பின் அகரோஸ் இழும மின்னாற்பிரித்தல். **பயன்:** அடிப்படைப் பெருக்கம், குளோன் சரிபார்ப்பு, நோய்க்கிருமி கண்டறிதல். **வரம்பு:** தரமானது — இருப்பு/இன்மையை மட்டும் காட்டும், அளவை அல்ல.",
       "ta_status": "draft"
      }
     },
@@ -2215,7 +2215,7 @@
      },
      "definition": {
       "en": "The PCR product — the double-stranded DNA fragment amplified between (and including) the two primer sequences. Its size is fixed by the primer positions and is detected as a band on agarose gel electrophoresis.",
-      "ta": "PCR விளைபொருள் — இரு பிரைமர் வரிசைகளுக்கு இடையே (அவை உட்பட) பெருக்கப்பட்ட இரட்டை இழை DNA துண்டு. பிரைமர் நிலைகளால் அதன் அளவு நிர்ணயிக்கப்படுகிறது; அகரோஸ் ஜெல் மின்னாற்பகுப்பில் பட்டையாகக் கண்டறியப்படும்.",
+      "ta": "PCR விளைபொருள் — இரு பிரைமர் வரிசைகளுக்கு இடையே (அவை உட்பட) பெருக்கப்பட்ட இரட்டை இழை DNA துண்டு. பிரைமர் நிலைகளால் அதன் அளவு நிர்ணயிக்கப்படுகிறது; அகரோஸ் இழும மின்னாற்பிரித்தலில் பட்டையாகக் கண்டறியப்படும்.",
       "ta_status": "draft"
      }
     },

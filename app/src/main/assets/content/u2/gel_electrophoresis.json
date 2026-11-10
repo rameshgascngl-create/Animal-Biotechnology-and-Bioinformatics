@@ -3,7 +3,7 @@
  "unit": "II",
  "title": {
   "en": "Gel Electrophoresis",
-  "ta": "ஜெல் மின்னாற்பகுப்பு",
+  "ta": "இழும மின்னாற்பிரித்தல்",
   "ta_status": "draft"
  },
  "sections": [
@@ -29,7 +29,7 @@
    "id": "s02",
    "title": {
     "en": "Gel Electrophoresis",
-    "ta": "ஜெல் மின்னாற்பகுப்பு",
+    "ta": "இழும மின்னாற்பிரித்தல்",
     "ta_status": "draft"
    },
    "blocks": [
@@ -63,7 +63,7 @@
      "items": [
       {
        "en": "Define gel electrophoresis and explain its importance in molecular biology.",
-       "ta": "ஜெல் மின்னாற்பகுப்பை வரையறுத்து, மூலக்கூறு உயிரியலில் அதன் முக்கியத்துவத்தை விளக்குதல்.",
+       "ta": "இழும மின்னாற்பிரித்தலை வரையறுத்து, மூலக்கூறு உயிரியலில் அதன் முக்கியத்துவத்தை விளக்குதல்.",
        "ta_status": "draft"
       },
       {
@@ -73,12 +73,12 @@
       },
       {
        "en": "Describe all components and types of gel electrophoresis systems.",
-       "ta": "ஜெல் மின்னாற்பகுப்பு அமைப்புகளின் அனைத்துக் கூறுகளையும் வகைகளையும் விவரித்தல்.",
+       "ta": "இழும மின்னாற்பிரித்தல் அமைப்புகளின் அனைத்துக் கூறுகளையும் வகைகளையும் விவரித்தல்.",
        "ta_status": "draft"
       },
       {
        "en": "Outline the step-by-step procedure for agarose gel electrophoresis.",
-       "ta": "அகரோஸ் ஜெல் மின்னாற்பகுப்பின் படிப்படியான செயல்முறையை வரைதல்.",
+       "ta": "அகரோஸ் இழும மின்னாற்பிரித்தலின் படிப்படியான செயல்முறையை வரைதல்.",
        "ta_status": "draft"
       },
       {
@@ -99,7 +99,7 @@
    "id": "s03",
    "title": {
     "en": "Introduction to Gel Electrophoresis",
-    "ta": "ஜெல் மின்னாற்பகுப்பு – அறிமுகம்",
+    "ta": "இழும மின்னாற்பிரித்தல் – அறிமுகம்",
     "ta_status": "draft"
    },
    "blocks": [
@@ -115,7 +115,7 @@
      "type": "p",
      "text": {
       "en": "Gel electrophoresis is a laboratory technique used to **separate macromolecules** — primarily DNA, RNA, and proteins — based on their **size and electrical charge** by causing them to migrate through a porous gel matrix under the influence of an **electric field**.",
-      "ta": "ஜெல் மின்னாற்பகுப்பு என்பது DNA, RNA, புரதங்கள் போன்ற **பெருமூலக்கூறுகளை** **மின்புலத்தின்** தாக்கத்தில் நுண்துளை ஜெல் அணி வழியாக நகரச் செய்து, அவற்றின் **அளவு, மின்னூட்டம்** அடிப்படையில் **பிரிக்கும்** ஆய்வக நுட்பம்.",
+      "ta": "இழும மின்னாற்பிரித்தல் என்பது DNA, RNA, புரதங்கள் போன்ற **பெருமூலக்கூறுகளை** **மின்புலத்தின்** தாக்கத்தில் நுண்துளை ஜெல் அணி வழியாக நகரச் செய்து, அவற்றின் **அளவு, மின்னூட்டம்** அடிப்படையில் **பிரிக்கும்** ஆய்வக நுட்பம்.",
       "ta_status": "draft"
      }
     },
@@ -196,7 +196,7 @@
    "id": "s04",
    "title": {
     "en": "Principle of Gel Electrophoresis",
-    "ta": "ஜெல் மின்னாற்பகுப்பின் கோட்பாடு",
+    "ta": "இழும மின்னாற்பிரித்தலின் கோட்பாடு",
     "ta_status": "draft"
    },
    "blocks": [
@@ -326,7 +326,7 @@
    "id": "s05",
    "title": {
     "en": "Types of Gel Electrophoresis",
-    "ta": "ஜெல் மின்னாற்பகுப்பின் வகைகள்",
+    "ta": "இழும மின்னாற்பிரித்தலின் வகைகள்",
     "ta_status": "draft"
    },
    "blocks": [
@@ -334,7 +334,7 @@
      "type": "p",
      "text": {
       "en": "**A. Agarose Gel Electrophoresis**",
-      "ta": "**A. அகரோஸ் ஜெல் மின்னாற்பகுப்பு**",
+      "ta": "**A. அகரோஸ் இழும மின்னாற்பிரித்தல்**",
       "ta_status": "draft"
      }
     },
@@ -373,7 +373,7 @@
      "type": "p",
      "text": {
       "en": "**B. Polyacrylamide Gel Electrophoresis (PAGE)**",
-      "ta": "**B. பாலிஅக்ரிலமைடு ஜெல் மின்னாற்பகுப்பு (PAGE)**",
+      "ta": "**B. பாலிஅக்ரிலமைடு இழும மின்னாற்பிரித்தல் (PAGE)**",
       "ta_status": "bracketed"
      }
     },
@@ -454,7 +454,7 @@
    "id": "s06",
    "title": {
     "en": "Components of the Gel Electrophoresis System",
-    "ta": "ஜெல் மின்னாற்பகுப்பு அமைப்பின் கூறுகள்",
+    "ta": "இழும மின்னாற்பிரித்தல் அமைப்பின் கூறுகள்",
     "ta_status": "draft"
    },
    "blocks": [
@@ -502,7 +502,7 @@
      "type": "p",
      "text": {
       "en": "6. Electrophoresis ChamberHorizontal tank (agarose) or vertical apparatus (PAGE). Contains electrode connections and buffer. Holds gel in place with cathode at well end and anode at far end.",
-      "ta": "6. மின்னாற்பகுப்புத் தொட்டிகிடை தொட்டி (அகரோஸ்) அல்லது நிலைக்குத்துக் கருவி (PAGE). மின்முனை இணைப்புகளும் இடையகமும் உள்ளன. கிணறு முனையில் எதிர்மின்முனையும் மறுமுனையில் நேர்மின்முனையும் இருக்க ஜெல்லைத் தாங்குகிறது.",
+      "ta": "6. மின்னாற்பிரித்தல்த் தொட்டிகிடை தொட்டி (அகரோஸ்) அல்லது நிலைக்குத்துக் கருவி (PAGE). மின்முனை இணைப்புகளும் இடையகமும் உள்ளன. கிணறு முனையில் எதிர்மின்முனையும் மறுமுனையில் நேர்மின்முனையும் இருக்க ஜெல்லைத் தாங்குகிறது.",
       "ta_status": "draft"
      }
     },
@@ -539,7 +539,7 @@
    "id": "s07",
    "title": {
     "en": "Steps in Agarose Gel Electrophoresis",
-    "ta": "அகரோஸ் ஜெல் மின்னாற்பகுப்பின் படிகள்",
+    "ta": "அகரோஸ் இழும மின்னாற்பிரித்தலின் படிகள்",
     "ta_status": "draft"
    },
    "blocks": [
@@ -587,7 +587,7 @@
      "type": "p",
      "text": {
       "en": "Gel is placed in the electrophoresis chamber flooded with TAE buffer (just covering the gel). DNA samples are mixed with 6× loading dye (1 part dye : 5 parts DNA). Using a micropipette, the DNA ladder is loaded into lane 1, then samples into subsequent wells — carefully to avoid disturbing adjacent wells.",
-      "ta": "ஜெல் TAE இடையகம் நிரப்பப்பட்ட மின்னாற்பகுப்புத் தொட்டியில் (ஜெல்லை மட்டும் மூடும் அளவு) வைக்கப்படுகிறது. DNA மாதிரிகள் 6× ஏற்றும் சாயத்துடன் (1 பங்கு சாயம் : 5 பங்கு DNA) கலக்கப்படுகின்றன. நுண்பிப்பெட்டால் தடம் 1-இல் DNA ஏணியும், பின் அடுத்தடுத்த கிணறுகளில் மாதிரிகளும் அருகிலுள்ள கிணறுகள் கலையாதவாறு கவனமாக ஏற்றப்படுகின்றன.",
+      "ta": "ஜெல் TAE இடையகம் நிரப்பப்பட்ட மின்னாற்பிரித்தல்த் தொட்டியில் (ஜெல்லை மட்டும் மூடும் அளவு) வைக்கப்படுகிறது. DNA மாதிரிகள் 6× ஏற்றும் சாயத்துடன் (1 பங்கு சாயம் : 5 பங்கு DNA) கலக்கப்படுகின்றன. நுண்பிப்பெட்டால் தடம் 1-இல் DNA ஏணியும், பின் அடுத்தடுத்த கிணறுகளில் மாதிரிகளும் அருகிலுள்ள கிணறுகள் கலையாதவாறு கவனமாக ஏற்றப்படுகின்றன.",
       "ta_status": "draft"
      }
     },
@@ -703,7 +703,7 @@
      "type": "p",
      "text": {
       "en": "Fig. 1 — Agarose Gel Electrophoresis Setup (Fully Labeled)",
-      "ta": "படம் 1 — அகரோஸ் ஜெல் மின்னாற்பகுப்பு அமைப்பு (முழுப் பெயரிட்டது)",
+      "ta": "படம் 1 — அகரோஸ் இழும மின்னாற்பிரித்தல் அமைப்பு (முழுப் பெயரிட்டது)",
       "ta_status": "draft"
      }
     },
@@ -712,7 +712,7 @@
      "id": "gel_electrophoresis-d01",
      "caption": {
       "en": "Gel electrophoresis setup diagram",
-      "ta": "ஜெல் மின்னாற்பகுப்பு அமைப்பு வரைபடம்",
+      "ta": "இழும மின்னாற்பிரித்தல் அமைப்பு வரைபடம்",
       "ta_status": "draft"
      },
      "labels": [
@@ -861,7 +861,7 @@
      "kind": "info",
      "text": {
       "en": "**Why does size matter?** The agarose gel is a fixed mesh of pores. Large DNA fragments must squeeze through multiple pores at once — they are physically retarded. Small fragments slip through easily. This differential resistance to migration is the entire basis of molecular sieving in gel electrophoresis.",
-      "ta": "**அளவு ஏன் முக்கியம்?** அகரோஸ் ஜெல் துளைகளின் நிலையான வலையமைப்பு. பெரிய DNA துண்டுகள் ஒரே நேரத்தில் பல துளைகள் வழியே நெருக்கிக் கொண்டு செல்ல வேண்டியிருப்பதால் உடல்ரீதியாகத் தடைப்படுகின்றன. சிறிய துண்டுகள் எளிதில் நழுவிச் செல்கின்றன. நகர்வுக்கான இந்த வேறுபட்ட தடையே ஜெல் மின்னாற்பகுப்பில் மூலக்கூறு சல்லடையின் முழு அடிப்படை.",
+      "ta": "**அளவு ஏன் முக்கியம்?** அகரோஸ் ஜெல் துளைகளின் நிலையான வலையமைப்பு. பெரிய DNA துண்டுகள் ஒரே நேரத்தில் பல துளைகள் வழியே நெருக்கிக் கொண்டு செல்ல வேண்டியிருப்பதால் உடல்ரீதியாகத் தடைப்படுகின்றன. சிறிய துண்டுகள் எளிதில் நழுவிச் செல்கின்றன. நகர்வுக்கான இந்த வேறுபட்ட தடையே இழும மின்னாற்பிரித்தலில் மூலக்கூறு சல்லடையின் முழு அடிப்படை.",
       "ta_status": "draft"
      }
     }
@@ -873,7 +873,7 @@
    "id": "s10",
    "title": {
     "en": "Gel Electrophoresis Workflow — Click Each Step",
-    "ta": "ஜெல் மின்னாற்பகுப்புப் பணிப்பாய்வு — ஒவ்வொரு படியையும் தொடுக",
+    "ta": "இழும மின்னாற்பிரித்தல்ப் பணிப்பாய்வு — ஒவ்வொரு படியையும் தொடுக",
     "ta_status": "draft"
    },
    "blocks": [
@@ -910,7 +910,7 @@
      "items": [
       {
        "en": "3 ⚡ Run Electrophoresis Apply 70–120 V DC (cathode at wells, anode at far end). Run until bromophenol blue dye front is 75–80% down gel. Takes 30–60 min at 100 V.",
-       "ta": "3 ⚡ மின்னாற்பகுப்பை ஓட்டுதல் 70–120 V DC செலுத்தவும் (கிணறுகளில் எதிர்மின்முனை, மறுமுனையில் நேர்மின்முனை). புரோமோஃபினால் நீலச் சாய முனை ஜெல்லில் 75–80% கடக்கும் வரை ஓட்டவும். 100 V-இல் 30–60 நிமிடம் ஆகும்.",
+       "ta": "3 ⚡ மின்னாற்பிரித்தலை ஓட்டுதல் 70–120 V DC செலுத்தவும் (கிணறுகளில் எதிர்மின்முனை, மறுமுனையில் நேர்மின்முனை). புரோமோஃபினால் நீலச் சாய முனை ஜெல்லில் 75–80% கடக்கும் வரை ஓட்டவும். 100 V-இல் 30–60 நிமிடம் ஆகும்.",
        "ta_status": "draft"
       }
      ]
@@ -943,7 +943,7 @@
    "id": "s11",
    "title": {
     "en": "Applications of Gel Electrophoresis",
-    "ta": "ஜெல் மின்னாற்பகுப்பின் பயன்பாடுகள்",
+    "ta": "இழும மின்னாற்பிரித்தலின் பயன்பாடுகள்",
     "ta_status": "draft"
    },
    "blocks": [
@@ -1612,7 +1612,7 @@
      "kind": "info",
      "text": {
       "en": "**Exam tip:** After gel electrophoresis, bands of interest can be cut out of the gel with a scalpel and the DNA extracted by gel extraction kit. This purified DNA can then be used for cloning, sequencing, or other downstream applications.",
-      "ta": "**தேர்வுக் குறிப்பு:** ஜெல் மின்னாற்பகுப்புக்குப் பின் ஆர்வப் பட்டைகளை ஸ்கால்பெலால் வெட்டி, ஜெல் பிரித்தெடுப்புக் கருவித்தொகுதியால் DNA-வைப் பிரித்தெடுக்கலாம். இத்தூய DNA குளோனாக்கம், வரிசைப்படுத்தல் போன்ற பின்செயல்களுக்குப் பயன்படும்.",
+      "ta": "**தேர்வுக் குறிப்பு:** இழும மின்னாற்பிரித்தலுக்குப் பின் ஆர்வப் பட்டைகளை ஸ்கால்பெலால் வெட்டி, ஜெல் பிரித்தெடுப்புக் கருவித்தொகுதியால் DNA-வைப் பிரித்தெடுக்கலாம். இத்தூய DNA குளோனாக்கம், வரிசைப்படுத்தல் போன்ற பின்செயல்களுக்குப் பயன்படும்.",
       "ta_status": "draft"
      }
     },
@@ -1633,7 +1633,7 @@
      },
      "answer": {
       "en": "Polysaccharide from red algae (Gelidium/Gracilaria). Forms a porous gel when dissolved in buffer and cooled. Pore size is inversely proportional to concentration. 0.5% for large DNA (1–50 kb); 2–3% for small fragments (50–500 bp). The standard matrix for DNA and RNA electrophoresis.",
-      "ta": "சிவப்பு ஆல்காக்களிலிருந்து (ஜெலிடியம்/கிராசிலேரியா) பெறப்படும் பாலிசாக்கரைடு. இடையகத்தில் கரைத்துக் குளிர்வித்தால் நுண்துளை ஜெல்லாகும். துளை அளவு செறிவுக்கு எதிர்விகிதம். பெரிய DNA-வுக்கு (1–50 kb) 0.5%; சிறிய துண்டுகளுக்கு (50–500 bp) 2–3%. DNA, RNA மின்னாற்பகுப்புக்கு நிலையான அணி.",
+      "ta": "சிவப்பு ஆல்காக்களிலிருந்து (ஜெலிடியம்/கிராசிலேரியா) பெறப்படும் பாலிசாக்கரைடு. இடையகத்தில் கரைத்துக் குளிர்வித்தால் நுண்துளை ஜெல்லாகும். துளை அளவு செறிவுக்கு எதிர்விகிதம். பெரிய DNA-வுக்கு (1–50 kb) 0.5%; சிறிய துண்டுகளுக்கு (50–500 bp) 2–3%. DNA, RNA மின்னாற்பிரித்தலுக்கு நிலையான அணி.",
       "ta_status": "draft"
      }
     },
@@ -1641,12 +1641,12 @@
      "type": "reveal",
      "question": {
       "en": "Electrophoresis",
-      "ta": "மின்னாற்பகுப்பு",
+      "ta": "மின்னாற்பிரித்தல்",
       "ta_status": "draft"
      },
      "answer": {
       "en": "Movement of charged molecules through a medium under an applied electric field. Negatively charged DNA migrates towards the anode (+). Positive molecules migrate towards cathode (−). In gel electrophoresis, the gel matrix introduces size-dependent sieving.",
-      "ta": "செலுத்தப்படும் மின்புலத்தில் மின்னூட்ட மூலக்கூறுகள் ஊடகம் வழியே நகர்தல். எதிர்மின்னூட்ட DNA நேர்மின்முனை (+) நோக்கி நகரும். நேர்மின்னூட்ட மூலக்கூறுகள் எதிர்மின்முனை (−) நோக்கி நகரும். ஜெல் மின்னாற்பகுப்பில் ஜெல் அணி அளவைச் சார்ந்த சல்லடைத்தன்மையை அறிமுகப்படுத்துகிறது.",
+      "ta": "செலுத்தப்படும் மின்புலத்தில் மின்னூட்ட மூலக்கூறுகள் ஊடகம் வழியே நகர்தல். எதிர்மின்னூட்ட DNA நேர்மின்முனை (+) நோக்கி நகரும். நேர்மின்னூட்ட மூலக்கூறுகள் எதிர்மின்முனை (−) நோக்கி நகரும். இழும மின்னாற்பிரித்தலில் ஜெல் அணி அளவைச் சார்ந்த சல்லடைத்தன்மையை அறிமுகப்படுத்துகிறது.",
       "ta_status": "draft"
      }
     },
@@ -1698,7 +1698,7 @@
      },
      "answer": {
       "en": "The physical process by which a porous matrix separates molecules by size. In gel electrophoresis, smaller DNA fragments navigate through gel pores more easily than larger ones. Large fragments experience greater resistance from multiple simultaneous pore interactions, causing them to migrate more slowly.",
-      "ta": "நுண்துளை அணி மூலக்கூறுகளை அளவால் பிரிக்கும் இயற்பியல் செயல். ஜெல் மின்னாற்பகுப்பில் சிறிய DNA துண்டுகள் ஜெல் துளைகளைப் பெரியவற்றைவிட எளிதில் கடக்கின்றன. பெரிய துண்டுகள் ஒரே நேரத்தில் பல துளைகளுடன் தொடர்புகொள்வதால் அதிகத் தடையை உணர்ந்து மெதுவாக நகர்கின்றன.",
+      "ta": "நுண்துளை அணி மூலக்கூறுகளை அளவால் பிரிக்கும் இயற்பியல் செயல். இழும மின்னாற்பிரித்தலில் சிறிய DNA துண்டுகள் ஜெல் துளைகளைப் பெரியவற்றைவிட எளிதில் கடக்கின்றன. பெரிய துண்டுகள் ஒரே நேரத்தில் பல துளைகளுடன் தொடர்புகொள்வதால் அதிகத் தடையை உணர்ந்து மெதுவாக நகர்கின்றன.",
       "ta_status": "draft"
      }
     },
@@ -1711,7 +1711,7 @@
      },
      "answer": {
       "en": "Tris-Acetate-EDTA buffer. Standard buffer for agarose DNA gel electrophoresis. Tris buffers pH to 8.0–8.3. Acetate provides ionic conductivity. EDTA chelates Mg²⁺ to inhibit DNase activity and protect DNA during the run. The same buffer fills both the gel and the chamber.",
-      "ta": "டிரிஸ்-அசிடேட்-EDTA இடையகம். அகரோஸ் DNA ஜெல் மின்னாற்பகுப்புக்கான நிலையான இடையகம். டிரிஸ் pH-ஐ 8.0–8.3-இல் நிறுத்துகிறது. அசிடேட் அயனிக் கடத்துத்திறனைத் தருகிறது. EDTA, Mg²⁺-ஐப் பிணைத்து DNase செயலைத் தடுத்து ஓட்டத்தின்போது DNA-வைப் பாதுகாக்கிறது. ஜெல்லிலும் தொட்டியிலும் ஒரே இடையகமே நிரப்பப்படுகிறது.",
+      "ta": "டிரிஸ்-அசிடேட்-EDTA இடையகம். அகரோஸ் DNA இழும மின்னாற்பிரித்தல்க்கான நிலையான இடையகம். டிரிஸ் pH-ஐ 8.0–8.3-இல் நிறுத்துகிறது. அசிடேட் அயனிக் கடத்துத்திறனைத் தருகிறது. EDTA, Mg²⁺-ஐப் பிணைத்து DNase செயலைத் தடுத்து ஓட்டத்தின்போது DNA-வைப் பாதுகாக்கிறது. ஜெல்லிலும் தொட்டியிலும் ஒரே இடையகமே நிரப்பப்படுகிறது.",
       "ta_status": "draft"
      }
     },
@@ -1724,7 +1724,7 @@
      },
      "answer": {
       "en": "Sodium Dodecyl Sulphate-Polyacrylamide Gel Electrophoresis. SDS is an anionic detergent that binds to proteins proportionally to chain length, coating them with a uniform negative charge proportional to their mass. This removes differences in native protein charge/shape, so separation is ONLY by molecular weight.",
-      "ta": "சோடியம் டோடெசைல் சல்ஃபேட்-பாலிஅக்ரிலமைடு ஜெல் மின்னாற்பகுப்பு. SDS ஓர் அனயனிச் சவர்க்காரம்; சங்கிலி நீளத்துக்கு விகிதமாகப் புரதங்களுடன் பிணைந்து, நிறைக்கு விகிதமான சீரான எதிர்மின்னூட்டத்தால் மூடுகிறது. இதனால் இயல்புப் புரத மின்னூட்ட/வடிவ வேறுபாடுகள் நீங்கி, பிரிப்பு மூலக்கூறு எடையால் **மட்டுமே** நடைபெறுகிறது.",
+      "ta": "சோடியம் டோடெசைல் சல்ஃபேட்-பாலிஅக்ரிலமைடு இழும மின்னாற்பிரித்தல். SDS ஓர் அனயனிச் சவர்க்காரம்; சங்கிலி நீளத்துக்கு விகிதமாகப் புரதங்களுடன் பிணைந்து, நிறைக்கு விகிதமான சீரான எதிர்மின்னூட்டத்தால் மூடுகிறது. இதனால் இயல்புப் புரத மின்னூட்ட/வடிவ வேறுபாடுகள் நீங்கி, பிரிப்பு மூலக்கூறு எடையால் **மட்டுமே** நடைபெறுகிறது.",
       "ta_status": "draft"
      }
     }
@@ -1744,7 +1744,7 @@
      "type": "p",
      "text": {
       "en": "**Definition**Gel electrophoresis separates DNA/RNA/proteins based on size and charge using an electric field through a porous gel matrix acting as a molecular sieve.",
-      "ta": "**வரையறை**ஜெல் மின்னாற்பகுப்பு, மூலக்கூறு சல்லடையாகச் செயல்படும் நுண்துளை ஜெல் அணி வழியே மின்புலம் செலுத்தி DNA/RNA/புரதங்களை அளவு, மின்னூட்டத்தால் பிரிக்கிறது.",
+      "ta": "**வரையறை**இழும மின்னாற்பிரித்தல், மூலக்கூறு சல்லடையாகச் செயல்படும் நுண்துளை ஜெல் அணி வழியே மின்புலம் செலுத்தி DNA/RNA/புரதங்களை அளவு, மின்னூட்டத்தால் பிரிக்கிறது.",
       "ta_status": "draft"
      }
     },
@@ -1852,7 +1852,7 @@
      "type": "glossary",
      "term": {
       "en": "Electrophoresis",
-      "ta": "மின்னாற்பகுப்பு",
+      "ta": "மின்னாற்பிரித்தல்",
       "ta_status": "draft"
      },
      "definition": {
@@ -1870,7 +1870,7 @@
      },
      "definition": {
       "en": "A linear polysaccharide extracted from red algae, used as the gel matrix in DNA/RNA electrophoresis. Forms a porous network when solidified from hot solution. Pore size is controlled by agarose concentration.",
-      "ta": "சிவப்பு ஆல்காக்களிலிருந்து பிரித்தெடுக்கப்படும் நேர்கோட்டு பாலிசாக்கரைடு; DNA/RNA மின்னாற்பகுப்பில் ஜெல் அணியாகப் பயன்படுகிறது. சூடான கரைசல் உறையும்போது நுண்துளை வலையமைப்பை உருவாக்கும். துளை அளவு அகரோஸ் செறிவால் கட்டுப்படுத்தப்படுகிறது.",
+      "ta": "சிவப்பு ஆல்காக்களிலிருந்து பிரித்தெடுக்கப்படும் நேர்கோட்டு பாலிசாக்கரைடு; DNA/RNA மின்னாற்பிரித்தலில் ஜெல் அணியாகப் பயன்படுகிறது. சூடான கரைசல் உறையும்போது நுண்துளை வலையமைப்பை உருவாக்கும். துளை அளவு அகரோஸ் செறிவால் கட்டுப்படுத்தப்படுகிறது.",
       "ta_status": "draft"
      }
     },
@@ -1883,7 +1883,7 @@
      },
      "definition": {
       "en": "The positive (+) electrode in an electrophoresis system. Negatively charged DNA migrates towards the anode. Located at the end of the gel farthest from the sample wells.",
-      "ta": "மின்னாற்பகுப்பு அமைப்பிலுள்ள நேர்மின்முனை (+). எதிர்மின்னூட்ட DNA அனோடை நோக்கி நகரும். மாதிரிக் கிணறுகளிலிருந்து தொலைவிலுள்ள ஜெல் முனையில் அமைந்திருக்கும்.",
+      "ta": "மின்னாற்பிரித்தல் அமைப்பிலுள்ள நேர்மின்முனை (+). எதிர்மின்னூட்ட DNA அனோடை நோக்கி நகரும். மாதிரிக் கிணறுகளிலிருந்து தொலைவிலுள்ள ஜெல் முனையில் அமைந்திருக்கும்.",
       "ta_status": "draft"
      }
     },
@@ -1909,7 +1909,7 @@
      },
      "definition": {
       "en": "A molecular weight standard containing a mixture of DNA fragments of precisely known sizes. Run alongside unknown samples in gel electrophoresis to provide a reference for size estimation by comparison of migration distances.",
-      "ta": "துல்லியமாக அறியப்பட்ட அளவுடைய DNA துண்டுகளின் கலவையடங்கிய மூலக்கூறு எடைத் தரம். அறியாத மாதிரிகளுடன் ஜெல் மின்னாற்பகுப்பில் ஓட்டப்பட்டு, நகர்வுத் தொலைவுகளை ஒப்பிட்டு அளவு மதிப்பிட குறிப்பாகப் பயன்படுகிறது.",
+      "ta": "துல்லியமாக அறியப்பட்ட அளவுடைய DNA துண்டுகளின் கலவையடங்கிய மூலக்கூறு எடைத் தரம். அறியாத மாதிரிகளுடன் இழும மின்னாற்பிரித்தலில் ஓட்டப்பட்டு, நகர்வுத் தொலைவுகளை ஒப்பிட்டு அளவு மதிப்பிட குறிப்பாகப் பயன்படுகிறது.",
       "ta_status": "draft"
      }
     },
@@ -1922,7 +1922,7 @@
      },
      "definition": {
       "en": "The porous network (agarose or polyacrylamide) through which molecules migrate in electrophoresis. Acts as a molecular sieve — resistance to migration increases with molecule size, enabling size-based separation.",
-      "ta": "மூலக்கூறுகள் மின்னாற்பகுப்பில் நகரும் நுண்துளை வலையமைப்பு (அகரோஸ் அல்லது பாலிஅக்ரிலமைடு). மூலக்கூறு சல்லடையாகச் செயல்படுகிறது — மூலக்கூறு அளவுடன் நகர்வுத் தடை உயர்வதால் அளவை அடிப்படையாகக் கொண்ட பிரிப்பு சாத்தியமாகிறது.",
+      "ta": "மூலக்கூறுகள் மின்னாற்பிரித்தலில் நகரும் நுண்துளை வலையமைப்பு (அகரோஸ் அல்லது பாலிஅக்ரிலமைடு). மூலக்கூறு சல்லடையாகச் செயல்படுகிறது — மூலக்கூறு அளவுடன் நகர்வுத் தடை உயர்வதால் அளவை அடிப்படையாகக் கொண்ட பிரிப்பு சாத்தியமாகிறது.",
       "ta_status": "draft"
      }
     },
@@ -1948,7 +1948,7 @@
      },
      "definition": {
       "en": "Process of making separated molecules visible after electrophoresis. For DNA: ethidium bromide (EtBr) intercalates into DNA and fluoresces under UV. Safer alternatives: SYBR Green, GelRed. For proteins: Coomassie Blue, silver stain.",
-      "ta": "மின்னாற்பகுப்புக்குப் பின் பிரிக்கப்பட்ட மூலக்கூறுகளைக் கண்ணுக்குத் தெரியச் செய்யும் செயல். DNA-வுக்கு: எத்திடியம் புரோமைடு (EtBr) DNA-வில் இடைச்செருகி UV-யில் ஒளிரும். பாதுகாப்பான மாற்றுகள்: SYBR Green, GelRed. புரதங்களுக்கு: கூமாசி நீலம், வெள்ளிச் சாயம்.",
+      "ta": "மின்னாற்பிரித்தலுக்குப் பின் பிரிக்கப்பட்ட மூலக்கூறுகளைக் கண்ணுக்குத் தெரியச் செய்யும் செயல். DNA-வுக்கு: எத்திடியம் புரோமைடு (EtBr) DNA-வில் இடைச்செருகி UV-யில் ஒளிரும். பாதுகாப்பான மாற்றுகள்: SYBR Green, GelRed. புரதங்களுக்கு: கூமாசி நீலம், வெள்ளிச் சாயம்.",
       "ta_status": "draft"
      }
     },
@@ -2002,7 +2002,7 @@
      "type": "p",
      "text": {
       "en": "**1. What is gel electrophoresis? Explain its principle with reference to DNA separation.**",
-      "ta": "**1. ஜெல் மின்னாற்பகுப்பு என்றால் என்ன? DNA பிரிப்பைச் சுட்டி அதன் கோட்பாட்டை விளக்குக.**",
+      "ta": "**1. இழும மின்னாற்பிரித்தல் என்றால் என்ன? DNA பிரிப்பைச் சுட்டி அதன் கோட்பாட்டை விளக்குக.**",
       "ta_status": "draft"
      }
     },
@@ -2054,7 +2054,7 @@
      "type": "p",
      "text": {
       "en": "**2. Describe the procedure for agarose gel electrophoresis. List all components and their functions.**",
-      "ta": "**2. அகரோஸ் ஜெல் மின்னாற்பகுப்பின் செயல்முறையை விவரிக்க. அனைத்துக் கூறுகளையும் அவற்றின் செயல்களையும் பட்டியலிடுக.**",
+      "ta": "**2. அகரோஸ் இழும மின்னாற்பிரித்தலின் செயல்முறையை விவரிக்க. அனைத்துக் கூறுகளையும் அவற்றின் செயல்களையும் பட்டியலிடுக.**",
       "ta_status": "draft"
      }
     },
@@ -2138,7 +2138,7 @@
      "type": "p",
      "text": {
       "en": "**4. Compare agarose gel electrophoresis with SDS-PAGE. What are the applications of each?**",
-      "ta": "**4. அகரோஸ் ஜெல் மின்னாற்பகுப்பையும் SDS-PAGE-ஐயும் ஒப்பிடுக. ஒவ்வொன்றின் பயன்பாடுகள் யாவை?**",
+      "ta": "**4. அகரோஸ் இழும மின்னாற்பிரித்தலையும் SDS-PAGE-ஐயும் ஒப்பிடுக. ஒவ்வொன்றின் பயன்பாடுகள் யாவை?**",
       "ta_status": "draft"
      }
     },
@@ -2185,7 +2185,7 @@
      "type": "p",
      "text": {
       "en": "**5. What is a DNA ladder? Why is it essential in gel electrophoresis? Give an example of a commonly used ladder.**",
-      "ta": "**5. DNA ஏணி என்றால் என்ன? ஜெல் மின்னாற்பகுப்பில் அது ஏன் இன்றியமையாதது? பரவலாகப் பயன்படும் ஓர் ஏணியை எடுத்துக்காட்டுக.**",
+      "ta": "**5. DNA ஏணி என்றால் என்ன? இழும மின்னாற்பிரித்தலில் அது ஏன் இன்றியமையாதது? பரவலாகப் பயன்படும் ஓர் ஏணியை எடுத்துக்காட்டுக.**",
       "ta_status": "draft"
      }
     },

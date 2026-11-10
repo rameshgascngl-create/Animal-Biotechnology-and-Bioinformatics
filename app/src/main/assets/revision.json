@@ -2850,13 +2850,13 @@
    {
     "q": "What is gel electrophoresis? Explain its principle with reference to DNA separation.",
     "a": "Definition: technique to separate DNA/RNA/proteins based on size and charge using an electric field through a gel matrix acting as a molecular sieve. DNA is negatively charged (phosphate backbone) → migrates towards anode (+) when electric field applied. Gel = molecular sieve; smaller fragments navigate pores more easily → migrate farther; larger fragments retarded → stay closer to well. All DNA has same charge-to-mass ratio → separation is purely by SIZE via molecular sieving, not charge. Relationship: log(fragment size in bp) is inversely proportional to migration distance → straight line on semi-log graph. Include diagram: cathode (−), wells, gel slab, sample bands, DNA migration arrow, anode (+).",
-    "q_ta": "ஜெல் மின்னாற்பகுப்பு என்றால் என்ன? DNA பிரிப்பைக் கொண்டு அதன் தத்துவத்தை விளக்குக.",
+    "q_ta": "இழும மின்னாற்பிரித்தல் என்றால் என்ன? DNA பிரிப்பைக் கொண்டு அதன் தத்துவத்தை விளக்குக.",
     "a_ta": "வரையறை: மூலக்கூற்றுச் சல்லடையாகச் செயல்படும் ஜெல் அணியின் வழியே மின்புலத்தைப் பயன்படுத்தி, DNA/RNA/புரதங்களை அளவு, மின்னூட்டத்தால் பிரிக்கும் நுட்பம். DNA எதிர்மின்னூட்டம் கொண்டது (பாஸ்பேட் முதுகெலும்பு) → மின்புலம் அளிக்கும்போது நேர்மின்முனையை (+) நோக்கி நகர்கிறது. ஜெல் = மூலக்கூற்றுச் சல்லடை; சிறிய துண்டுகள் துளைகளை எளிதில் கடந்து → தொலைவாக நகரும்; பெரிய துண்டுகள் தடைபட்டு → கிணற்றுக்கு அருகிலேயே இருக்கும். அனைத்து DNA-வுக்கும் மின்னூட்டம்–நிறை விகிதம் ஒன்றே → பிரிதல் மின்னூட்டத்தால் அல்ல, மூலக்கூற்றுச் சல்லடை வழியாக அளவால் மட்டுமே நடைபெறுகிறது. தொடர்பு: log(துண்டு அளவு bp) நகர்வுத் தொலைவுக்கு எதிர்விகிதத்தில் உள்ளது → அரை-மடக்கை வரைபடத்தில் நேர்கோடு. வரைபடம் சேர்க்க: எதிர்மின்முனை (−), கிணறுகள், ஜெல் பலகை, மாதிரிப் பட்டைகள், DNA நகர்வு அம்பு, நேர்மின்முனை (+)."
    },
    {
     "q": "Describe the procedure for agarose gel electrophoresis. List all components and their functions.",
     "a": "Components and functions: Agarose (molecular sieve matrix); TAE buffer (pH maintenance, ionic conductivity, DNase inhibitor via EDTA); DNA sample; loading dye (glycerol = density, tracking dyes = migration monitor); DNA ladder (size standard); power supply (70–120 V DC); EtBr/SYBR Green (visualisation); UV transilluminator (band detection). Procedure (6 steps): (1) Prepare agarose gel in TAE → cool → add EtBr → pour with comb → solidify. (2) Place gel in buffer-filled chamber. (3) Mix samples with loading dye; load ladder + samples. (4) Apply 70–120 V; run 30–60 min until dye front 80% of gel. (5) Visualise under UV. (6) Photograph and interpret against ladder. Loading dye detail: glycerol prevents sample floating out of well; bromophenol blue provides visible tracking at ~300 bp equivalent position.",
-    "q_ta": "அகரோஸ் ஜெல் மின்னாற்பகுப்பின் செயல்முறையை விவரிக்க. அனைத்துக் கூறுகளையும் அவற்றின் செயல்பாடுகளையும் பட்டியலிடுக.",
+    "q_ta": "அகரோஸ் இழும மின்னாற்பிரித்தலின் செயல்முறையை விவரிக்க. அனைத்துக் கூறுகளையும் அவற்றின் செயல்பாடுகளையும் பட்டியலிடுக.",
     "a_ta": "கூறுகளும் செயல்பாடுகளும்: அகரோஸ் (மூலக்கூற்றுச் சல்லடை அணி); TAE தாங்கல் (pH பராமரிப்பு, அயனிக் கடத்துத்திறன், EDTA வழி DNase தடுப்பு); DNA மாதிரி; ஏற்றும் சாயம் (கிளிசரால் = அடர்த்தி, கண்காணிப்புச் சாயங்கள் = நகர்வுக் கண்காணிப்பு); DNA ஏணி (அளவுத் தரநிலை); மின்வழங்கி (70–120 V DC); EtBr/SYBR Green (காட்சிப்படுத்தல்); UV டிரான்சிலுமினேட்டர் (பட்டை கண்டறிதல்). செயல்முறை (6 படிகள்): (1) TAE-இல் அகரோஸ் ஜெல்லைத் தயாரி → குளிர்வி → EtBr சேர் → சீப்புடன் ஊற்று → திண்மமாக்கு. (2) தாங்கல் நிரப்பிய கலனில் ஜெல்லை வை. (3) மாதிரிகளை ஏற்றும் சாயத்துடன் கலந்து; ஏணி + மாதிரிகளை ஏற்று. (4) 70–120 V அளி; சாய முன்முனை ஜெல்லின் 80% அடையும் வரை 30–60 நிமிடம் இயக்கு. (5) UV-இல் காண். (6) படமெடுத்து ஏணியுடன் ஒப்பிட்டு விளக்கு. ஏற்றும் சாய விவரம்: கிளிசரால் மாதிரி கிணற்றிலிருந்து மிதந்து வெளியேறாமல் தடுக்கிறது; புரோமோஃபீனால் நீலம் ~300 bp நிலைக்குச் சமமான இடத்தில் காணக்கூடிய கண்காணிப்பை வழங்குகிறது."
    },
    {
@@ -2868,13 +2868,13 @@
    {
     "q": "Compare agarose gel electrophoresis with SDS-PAGE. What are the applications of each?",
     "a": "Agarose gel: Matrix = agarose (0.5–3%); horizontal; separates DNA and RNA by SIZE; stain = EtBr/SYBR Green (UV); applications = PCR analysis, restriction mapping, DNA fingerprinting, Southern blot, clone verification. SDS-PAGE: Matrix = polyacrylamide + SDS; vertical; separates proteins by MOLECULAR WEIGHT only; SDS coats protein with uniform negative charge proportional to chain length → removes native charge/shape differences; stain = Coomassie Blue / silver stain; applications = protein MW determination, Western blot, proteomic analysis, recombinant protein purity. Key difference: agarose for nucleic acids; SDS-PAGE for proteins. SDS eliminates native protein charge — MW is sole separating factor. Both use electric field; both separate by size (through different mechanisms). Draw a comparison table: Feature | Agarose | SDS-PAGE — matrix, molecule, separation basis, orientation, stain, application.",
-    "q_ta": "அகரோஸ் ஜெல் மின்னாற்பகுப்பையும் SDS-PAGE-ஐயும் ஒப்பிடுக. ஒவ்வொன்றின் பயன்பாடுகள் என்ன?",
+    "q_ta": "அகரோஸ் இழும மின்னாற்பிரித்தலையும் SDS-PAGE-ஐயும் ஒப்பிடுக. ஒவ்வொன்றின் பயன்பாடுகள் என்ன?",
     "a_ta": "அகரோஸ் ஜெல்: அணி = அகரோஸ் (0.5–3%); கிடைமட்டம்; DNA, RNA-வை அளவால் பிரிக்கிறது; சாயம் = EtBr/SYBR Green (UV); பயன்பாடுகள் = PCR பகுப்பாய்வு, கட்டுறு வரைபடமாக்கல், DNA கைரேகையியல், சதர்ன் ப்ளாட், குளோன் சரிபார்ப்பு. SDS-PAGE: அணி = பாலிஅக்ரிலமைடு + SDS; செங்குத்து; புரதங்களை மூலக்கூற்று எடையால் மட்டுமே பிரிக்கிறது; SDS புரதத்தை சங்கிலி நீளத்துக்கு விகிதமான சீரான எதிர்மின்னூட்டத்துடன் மூடுகிறது → இயல்பான மின்னூட்ட/வடிவ வேறுபாடுகளை நீக்குகிறது; சாயம் = Coomassie நீலம் / வெள்ளிச் சாயம்; பயன்பாடுகள் = புரத மூலக்கூற்று எடை நிர்ணயம், வெஸ்டர்ன் ப்ளாட், புரதத்தொகைப் பகுப்பாய்வு, மறுசேர்க்கைப் புரதத் தூய்மை. முக்கிய வேறுபாடு: அகரோஸ் நியுக்ளிக் அமிலங்களுக்கு; SDS-PAGE புரதங்களுக்கு. SDS இயல்பான புரத மின்னூட்டத்தை நீக்குகிறது — மூலக்கூற்று எடையே பிரிக்கும் ஒரே காரணி. இரண்டும் மின்புலத்தைப் பயன்படுத்துகின்றன; இரண்டும் அளவால் (வெவ்வேறு இயங்குமுறைகளில்) பிரிக்கின்றன. ஒப்பீட்டு அட்டவணை வரைக: பண்பு | அகரோஸ் | SDS-PAGE — அணி, மூலக்கூறு, பிரிதல் அடிப்படை, அமைப்பு, சாயம், பயன்பாடு."
    },
    {
     "q": "What is a DNA ladder? Why is it essential in gel electrophoresis? Give an example of a commonly used ladder.",
     "a": "A DNA ladder (molecular weight marker) is a premixed solution of DNA fragments of precisely known sizes loaded in a dedicated lane alongside experimental samples. Examples: 100 bp ladder (bands at 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000 bp); 1 kb ladder (0.5, 1, 1.5, 2, 3, 4, 5, 6, 8, 10 kb); HyperLadder (multiple ranges). Why essential: without a ladder, it is impossible to determine the size of unknown fragments from their position alone — only relative positions are visible. Use: (1) provides reference migration distances for known sizes; (2) allows construction of log(bp) vs distance standard curve; (3) unknown fragment sizes estimated by interpolation. Some ladders have one prominent bright band (e.g., 500 bp in the 100 bp ladder or 1 kb in the 1 kb ladder) with double the DNA loading for easy orientation.",
-    "q_ta": "DNA ஏணி என்றால் என்ன? ஜெல் மின்னாற்பகுப்பில் அது ஏன் இன்றியமையாதது? பொதுவாகப் பயன்படும் ஓர் ஏணியை எடுத்துக்காட்டுக.",
+    "q_ta": "DNA ஏணி என்றால் என்ன? இழும மின்னாற்பிரித்தலில் அது ஏன் இன்றியமையாதது? பொதுவாகப் பயன்படும் ஓர் ஏணியை எடுத்துக்காட்டுக.",
     "a_ta": "DNA ஏணி (மூலக்கூற்று எடைக் குறிப்பான்) என்பது, சோதனை மாதிரிகளுடன் தனித் தடத்தில் ஏற்றப்படும், துல்லியமாக அறியப்பட்ட அளவுகளுடைய DNA துண்டுகளின் முன்கலந்த கரைசல். எடுத்துக்காட்டுகள்: 100 bp ஏணி (100, 200, 300, 400, 500, 600, 700, 800, 900, 1000 bp பட்டைகள்); 1 kb ஏணி (0.5, 1, 1.5, 2, 3, 4, 5, 6, 8, 10 kb); HyperLadder (பல வரம்புகள்). ஏன் இன்றியமையாதது: ஏணி இல்லாமல், நிலையை மட்டும் கொண்டு அறியப்படாத துண்டுகளின் அளவைத் தீர்மானிக்க இயலாது — ஒப்பீட்டு நிலைகள் மட்டுமே தெரியும். பயன்: (1) அறியப்பட்ட அளவுகளுக்கான நகர்வுத் தொலைவுகளைத் தருகிறது; (2) log(bp) – தொலைவுத் திட்ட வளைவை அமைக்க உதவுகிறது; (3) அறியப்படாத துண்டுகளின் அளவு இடைச்செருகலால் மதிப்பிடப்படுகிறது. சில ஏணிகளில் ஒரு முக்கியப் பிரகாசமான பட்டை (எ.கா., 100 bp ஏணியில் 500 bp அல்லது 1 kb ஏணியில் 1 kb) இருமடங்கு DNA ஏற்றத்துடன், எளிதாக நிலையறிய உதவுகிறது."
    }
   ],
@@ -2882,20 +2882,20 @@
    {
     "t": "Electrophoresis",
     "d": "Movement of charged molecules through a medium under an electric field. Negatively charged DNA migrates towards the positive electrode (anode). The rate of migration depends on the molecule's size, charge, and the resistance of the medium.",
-    "t_ta": "மின்னாற்பகுப்பு (எலக்ட்ரோஃபோரசிஸ்)",
+    "t_ta": "மின்னாற்பிரித்தல் (எலக்ட்ரோஃபோரசிஸ்)",
     "d_ta": "மின்புலத்தின் கீழ் ஊடகம் வழியாக மின்னூட்டம் கொண்ட மூலக்கூறுகள் நகர்தல். எதிர்மின்னூட்ட DNA நேர்மின்முனையை (அனோடு) நோக்கி நகர்கிறது. நகர்வு வேகம் மூலக்கூற்றின் அளவு, மின்னூட்டம், ஊடகத்தின் தடை ஆகியவற்றைப் பொறுத்தது."
    },
    {
     "t": "Agarose",
     "d": "A linear polysaccharide extracted from red algae, used as the gel matrix in DNA/RNA electrophoresis. Forms a porous network when solidified from hot solution. Pore size is controlled by agarose concentration.",
     "t_ta": "அகரோஸ்",
-    "d_ta": "சிவப்புப் பாசிகளிலிருந்து பிரித்தெடுக்கப்படும் நேர்கோட்டுப் பல்சர்க்கரை; DNA/RNA மின்னாற்பகுப்பில் ஜெல் அணியாகப் பயன்படுகிறது. சூடான கரைசலிலிருந்து திண்மமாகும்போது துளையுள்ள வலையமைப்பை உருவாக்குகிறது. துளை அளவு அகரோஸ் செறிவால் கட்டுப்படுத்தப்படுகிறது."
+    "d_ta": "சிவப்புப் பாசிகளிலிருந்து பிரித்தெடுக்கப்படும் நேர்கோட்டுப் பல்சர்க்கரை; DNA/RNA மின்னாற்பிரித்தலில் ஜெல் அணியாகப் பயன்படுகிறது. சூடான கரைசலிலிருந்து திண்மமாகும்போது துளையுள்ள வலையமைப்பை உருவாக்குகிறது. துளை அளவு அகரோஸ் செறிவால் கட்டுப்படுத்தப்படுகிறது."
    },
    {
     "t": "Anode",
     "d": "The positive (+) electrode in an electrophoresis system. Negatively charged DNA migrates towards the anode. Located at the end of the gel farthest from the sample wells.",
     "t_ta": "நேர்மின்முனை (அனோடு)",
-    "d_ta": "மின்னாற்பகுப்பு அமைப்பில் நேர் (+) மின்முனை. எதிர்மின்னூட்ட DNA அனோடை நோக்கி நகர்கிறது. மாதிரிக் கிணறுகளிலிருந்து தொலைவில் உள்ள ஜெல் முனையில் அமைந்துள்ளது."
+    "d_ta": "மின்னாற்பிரித்தல் அமைப்பில் நேர் (+) மின்முனை. எதிர்மின்னூட்ட DNA அனோடை நோக்கி நகர்கிறது. மாதிரிக் கிணறுகளிலிருந்து தொலைவில் உள்ள ஜெல் முனையில் அமைந்துள்ளது."
    },
    {
     "t": "Cathode",
@@ -2907,13 +2907,13 @@
     "t": "DNA Ladder",
     "d": "A molecular weight standard containing a mixture of DNA fragments of precisely known sizes. Run alongside unknown samples in gel electrophoresis to provide a reference for size estimation by comparison of migration distances.",
     "t_ta": "DNA ஏணி",
-    "d_ta": "துல்லியமாக அறியப்பட்ட அளவுகளுடைய DNA துண்டுகளின் கலவையைக் கொண்ட மூலக்கூற்று எடைத் தரநிலை. ஜெல் மின்னாற்பகுப்பில் அறியப்படாத மாதிரிகளுடன் இயக்கப்பட்டு, நகர்வுத் தொலைவுகளை ஒப்பிட்டு அளவை மதிப்பிடக் குறிப்பை வழங்குகிறது."
+    "d_ta": "துல்லியமாக அறியப்பட்ட அளவுகளுடைய DNA துண்டுகளின் கலவையைக் கொண்ட மூலக்கூற்று எடைத் தரநிலை. இழும மின்னாற்பிரித்தலில் அறியப்படாத மாதிரிகளுடன் இயக்கப்பட்டு, நகர்வுத் தொலைவுகளை ஒப்பிட்டு அளவை மதிப்பிடக் குறிப்பை வழங்குகிறது."
    },
    {
     "t": "Gel Matrix",
     "d": "The porous network (agarose or polyacrylamide) through which molecules migrate in electrophoresis. Acts as a molecular sieve — resistance to migration increases with molecule size, enabling size-based separation.",
     "t_ta": "ஜெல் அணி",
-    "d_ta": "மின்னாற்பகுப்பில் மூலக்கூறுகள் நகரும் துளையுள்ள வலையமைப்பு (அகரோஸ் அல்லது பாலிஅக்ரிலமைடு). மூலக்கூற்றுச் சல்லடையாகச் செயல்படுகிறது — மூலக்கூறு அளவு அதிகரிக்க நகர்வுக்கான தடை அதிகரித்து, அளவு சார்ந்த பிரிப்பை இயலச் செய்கிறது."
+    "d_ta": "மின்னாற்பிரித்தலில் மூலக்கூறுகள் நகரும் துளையுள்ள வலையமைப்பு (அகரோஸ் அல்லது பாலிஅக்ரிலமைடு). மூலக்கூற்றுச் சல்லடையாகச் செயல்படுகிறது — மூலக்கூறு அளவு அதிகரிக்க நகர்வுக்கான தடை அதிகரித்து, அளவு சார்ந்த பிரிப்பை இயலச் செய்கிறது."
    },
    {
     "t": "Migration",
@@ -2925,7 +2925,7 @@
     "t": "Staining",
     "d": "Process of making separated molecules visible after electrophoresis. For DNA: ethidium bromide (EtBr) intercalates into DNA and fluoresces under UV. Safer alternatives: SYBR Green, GelRed. For proteins: Coomassie Blue, silver stain.",
     "t_ta": "சாயமேற்றல்",
-    "d_ta": "மின்னாற்பகுப்புக்குப் பின் பிரிக்கப்பட்ட மூலக்கூறுகளைக் காணும்படி செய்யும் செயல்முறை. DNA-வுக்கு: எத்திடியம் புரோமைடு (EtBr) DNA-வுக்குள் நுழைந்து UV-இல் ஒளிர்கிறது. பாதுகாப்பான மாற்றுகள்: SYBR Green, GelRed. புரதங்களுக்கு: Coomassie நீலம், வெள்ளிச் சாயம்."
+    "d_ta": "மின்னாற்பிரித்தலுக்குப் பின் பிரிக்கப்பட்ட மூலக்கூறுகளைக் காணும்படி செய்யும் செயல்முறை. DNA-வுக்கு: எத்திடியம் புரோமைடு (EtBr) DNA-வுக்குள் நுழைந்து UV-இல் ஒளிர்கிறது. பாதுகாப்பான மாற்றுகள்: SYBR Green, GelRed. புரதங்களுக்கு: Coomassie நீலம், வெள்ளிச் சாயம்."
    },
    {
     "t": "Loading Dye",
@@ -2940,9 +2940,9 @@
     "d_ta": "DNA கார இணைகளுக்கிடையே நுழையும் ஒளிர்வுச் சாயம். UV ஒளியில் (302 nm) பிரகாசமான ஆரஞ்சு ஒளிர்ந்து DNA பட்டைகளைக் காணச்செய்கிறது. ஒரு பட்டைக்கு ~1–10 ng DNA-வைக் கண்டறிகிறது. வலிமையான திடீர்மாற்றி, புற்றூக்கி — SYBR Green, GelRed ஆகியவை பாதுகாப்பான மாற்றுகள்."
    }
   ],
-  "title_ta": "ஜெல் மின்னாற்பகுப்பு",
+  "title_ta": "இழும மின்னாற்பிரித்தல்",
   "kp_ta": [
-   "வரையறை: துளையுள்ள ஜெல் அணி மூலக்கூற்றுச் சல்லடையாகச் செயல்பட, மின்புலத்தின் வழியே DNA/RNA/புரதங்களை அளவு, மின்னூட்டத்தின் அடிப்படையில் ஜெல் மின்னாற்பகுப்பு பிரிக்கிறது.",
+   "வரையறை: துளையுள்ள ஜெல் அணி மூலக்கூற்றுச் சல்லடையாகச் செயல்பட, மின்புலத்தின் வழியே DNA/RNA/புரதங்களை அளவு, மின்னூட்டத்தின் அடிப்படையில் இழும மின்னாற்பிரித்தல் பிரிக்கிறது.",
    "DNA மின்னூட்டம்: DNA எதிர்மின்னூட்டம் கொண்டது (பாஸ்பேட் முதுகெலும்பு). நேர்மின்முனையை (+) நோக்கி நகர்கிறது. கிணறுகள் எப்போதும் ஜெல்லின் எதிர்மின்முனை (−) முனையில் இருக்கும்.",
    "நகர்வு விதி: சிறிய துண்டுகள் கிணறுகளிலிருந்து வேகமாகவும் தொலைவாகவும் நகரும். பெரிய துண்டுகள் மெதுவாக நகர்ந்து கிணறுகளுக்கு அருகிலேயே இருக்கும். log(bp) ∝ −தொலைவு.",
    "அகரோஸ் செறிவு: 0.5–0.8%: பெரிய DNA (2–50 kb). 1%: பொதுப் பயன்பாடு. 2–3%: சிறிய துண்டுகள் (50–500 bp). அதிக % = சிறிய துளைகள் = சிறிய துண்டுகளின் சிறந்த பிரிதிறன்.",
@@ -3129,7 +3129,7 @@
     "q": "Describe electroporation and liposome fusion as methods for introducing DNA into eukaryotic cells.",
     "a": "Electroporation: high-voltage electric pulse (0.1–10 kV/cm) → temporary pores in lipid bilayer → DNA enters by electrophoresis and diffusion → pores reseal → cell recovers. Works for bacteria and eukaryotes. Good for hard-to-transfect cells. Used for CRISPR-Cas9 delivery. Liposome fusion: cationic lipids + DNA → lipoplex → binds cell surface (electrostatic) → endocytosis → endosomal escape → DNA in cytoplasm → nuclear entry. Advantages: protects DNA; targetable; in vivo use. Example: LNPs in mRNA COVID-19 vaccines. Compare: electroporation is physical (electric); liposome is chemical (lipid-based). Both can transfect non-dividing cells. Liposomes can be targeted; electroporation is universal.",
     "q_ta": "மெய்க்கருச் செல்களுக்குள் DNA-வைச் செலுத்தும் முறைகளாக மின்துளைப்பையும் லிப்போசோம் இணைவையும் விவரிக்க.",
-    "a_ta": "மின்துளைப்பு: உயர் மின்னழுத்த மின்துடிப்பு (0.1–10 kV/cm) → கொழுப்பு இரட்டை அடுக்கில் தற்காலிகத் துளைகள் → DNA மின்னாற்பகுப்பு, விரவல் மூலம் நுழைகிறது → துளைகள் மீண்டும் மூடுகின்றன → செல் மீள்கிறது. பாக்டீரியாவுக்கும் மெய்க்கருவிகளுக்கும் பொருந்தும். டிரான்ஸ்ஃபெக்ட் செய்யக் கடினமான செல்களுக்கு நல்லது. CRISPR-Cas9 செலுத்தலுக்குப் பயன்படுகிறது. லிப்போசோம் இணைவு: நேர்மின்னூட்டக் கொழுப்புகள் + DNA → லிப்போபிளெக்ஸ் → செல் மேற்பரப்பில் (நிலைமின் விசையால்) இணைகிறது → எண்டோசைட்டோசிஸ் → எண்டோசோம் தப்புதல் → DNA சைட்டோபிளாசத்தில் → உட்கருவுக்குள் நுழைவு. நன்மைகள்: DNA-வைப் பாதுகாக்கிறது; இலக்கிடத்தக்கது; உடலகப் பயன்பாடு. எடுத்துக்காட்டு: mRNA COVID-19 தடுப்பூசிகளில் LNP-கள். ஒப்பீடு: மின்துளைப்பு இயற்பியல் (மின்); லிப்போசோம் வேதியியல் (கொழுப்பு-சார்ந்தது). இரண்டும் பிரியாத செல்களை டிரான்ஸ்ஃபெக்ட் செய்யலாம். லிப்போசோம்களை இலக்கிடலாம்; மின்துளைப்பு உலகளாவியது."
+    "a_ta": "மின்துளைப்பு: உயர் மின்னழுத்த மின்துடிப்பு (0.1–10 kV/cm) → கொழுப்பு இரட்டை அடுக்கில் தற்காலிகத் துளைகள் → DNA மின்னாற்பிரித்தல், விரவல் மூலம் நுழைகிறது → துளைகள் மீண்டும் மூடுகின்றன → செல் மீள்கிறது. பாக்டீரியாவுக்கும் மெய்க்கருவிகளுக்கும் பொருந்தும். டிரான்ஸ்ஃபெக்ட் செய்யக் கடினமான செல்களுக்கு நல்லது. CRISPR-Cas9 செலுத்தலுக்குப் பயன்படுகிறது. லிப்போசோம் இணைவு: நேர்மின்னூட்டக் கொழுப்புகள் + DNA → லிப்போபிளெக்ஸ் → செல் மேற்பரப்பில் (நிலைமின் விசையால்) இணைகிறது → எண்டோசைட்டோசிஸ் → எண்டோசோம் தப்புதல் → DNA சைட்டோபிளாசத்தில் → உட்கருவுக்குள் நுழைவு. நன்மைகள்: DNA-வைப் பாதுகாக்கிறது; இலக்கிடத்தக்கது; உடலகப் பயன்பாடு. எடுத்துக்காட்டு: mRNA COVID-19 தடுப்பூசிகளில் LNP-கள். ஒப்பீடு: மின்துளைப்பு இயற்பியல் (மின்); லிப்போசோம் வேதியியல் (கொழுப்பு-சார்ந்தது). இரண்டும் பிரியாத செல்களை டிரான்ஸ்ஃபெக்ட் செய்யலாம். லிப்போசோம்களை இலக்கிடலாம்; மின்துளைப்பு உலகளாவியது."
    },
    {
     "q": "What is microinjection? Explain its role in creating transgenic animals.",
@@ -3254,13 +3254,13 @@
     "q": "What are molecular markers? Describe the principle and procedure of RFLP with a suitable diagram.",
     "a": "Define molecular marker (specific DNA sequence detecting polymorphism). RFLP principle: restriction enzymes cut at recognition sites → mutations alter fragment lengths. Steps: DNA isolation → restriction digestion → gel electrophoresis → Southern blotting → probe hybridisation → band pattern analysis. Diagram: DNA → enzyme cuts → two different fragment sizes → gel bands. Mention co-dominant nature and applications (gene mapping, plant breeding).",
     "q_ta": "மூலக்கூற்றுக் குறிப்பான்கள் என்றால் என்ன? RFLP-இன் தத்துவத்தையும் செயல்முறையையும் பொருத்தமான வரைபடத்துடன் விவரிக்க.",
-    "a_ta": "மூலக்கூற்றுக் குறிப்பானை வரையறு (பல்லுருவமைப்பைக் கண்டறியும் குறிப்பிட்ட DNA வரிசை). RFLP தத்துவம்: கட்டுறு நொதிகள் அடையாள இடங்களில் வெட்டுகின்றன → திடீர்மாற்றங்கள் துண்டு நீளங்களை மாற்றுகின்றன. படிகள்: DNA பிரித்தெடுப்பு → கட்டுறு வெட்டல் → ஜெல் மின்னாற்பகுப்பு → சதர்ன் ப்ளாட்டிங் → துருவிக் கலப்பினமாக்கல் → பட்டை அமைப்புப் பகுப்பாய்வு. வரைபடம்: DNA → நொதி வெட்டுகள் → இரு வெவ்வேறு துண்டு அளவுகள் → ஜெல் பட்டைகள். இணை ஓங்குத் தன்மையையும் பயன்பாடுகளையும் (மரபணு வரைபடமாக்கல், தாவர இனப்பெருக்கம்) குறிப்பிடுக."
+    "a_ta": "மூலக்கூற்றுக் குறிப்பானை வரையறு (பல்லுருவமைப்பைக் கண்டறியும் குறிப்பிட்ட DNA வரிசை). RFLP தத்துவம்: கட்டுறு நொதிகள் அடையாள இடங்களில் வெட்டுகின்றன → திடீர்மாற்றங்கள் துண்டு நீளங்களை மாற்றுகின்றன. படிகள்: DNA பிரித்தெடுப்பு → கட்டுறு வெட்டல் → இழும மின்னாற்பிரித்தல் → சதர்ன் ப்ளாட்டிங் → துருவிக் கலப்பினமாக்கல் → பட்டை அமைப்புப் பகுப்பாய்வு. வரைபடம்: DNA → நொதி வெட்டுகள் → இரு வெவ்வேறு துண்டு அளவுகள் → ஜெல் பட்டைகள். இணை ஓங்குத் தன்மையையும் பயன்பாடுகளையும் (மரபணு வரைபடமாக்கல், தாவர இனப்பெருக்கம்) குறிப்பிடுக."
    },
    {
     "q": "Explain the principle and steps involved in RAPD analysis. What are its advantages over RFLP?",
     "a": "RAPD principle: single arbitrary ~10 nt primer binds at multiple sites at low annealing temperature → PCR amplifies random segments → presence/absence polymorphism. Steps: DNA isolation → PCR with random primer → gel electrophoresis → band pattern analysis. Advantages over RFLP: no prior sequence knowledge, smaller DNA quantity, no radioactive probes, faster, cheaper. Mention dominant marker limitation.",
     "q_ta": "RAPD பகுப்பாய்வின் தத்துவத்தையும் படிகளையும் விளக்குக. RFLP-ஐ விட அதன் நன்மைகள் யாவை?",
-    "a_ta": "RAPD தத்துவம்: ஒற்றைத் தன்னிச்சையான ~10 nt பிரைமர் குறைந்த பிணைதல் வெப்பநிலையில் பல இடங்களில் இணைகிறது → PCR தற்போக்குத் துண்டுகளைப் பெருக்குகிறது → இருப்பு/இன்மை பல்லுருவமைப்பு. படிகள்: DNA பிரித்தெடுப்பு → தற்போக்குப் பிரைமருடன் PCR → ஜெல் மின்னாற்பகுப்பு → பட்டை அமைப்புப் பகுப்பாய்வு. RFLP-ஐ விட நன்மைகள்: முன் வரிசை அறிவு தேவையில்லை, குறைந்த DNA அளவு, கதிரியக்கத் துருவிகள் இல்லை, விரைவானது, மலிவானது. ஓங்கு குறிப்பான் என்ற வரம்பைக் குறிப்பிடுக."
+    "a_ta": "RAPD தத்துவம்: ஒற்றைத் தன்னிச்சையான ~10 nt பிரைமர் குறைந்த பிணைதல் வெப்பநிலையில் பல இடங்களில் இணைகிறது → PCR தற்போக்குத் துண்டுகளைப் பெருக்குகிறது → இருப்பு/இன்மை பல்லுருவமைப்பு. படிகள்: DNA பிரித்தெடுப்பு → தற்போக்குப் பிரைமருடன் PCR → இழும மின்னாற்பிரித்தல் → பட்டை அமைப்புப் பகுப்பாய்வு. RFLP-ஐ விட நன்மைகள்: முன் வரிசை அறிவு தேவையில்லை, குறைந்த DNA அளவு, கதிரியக்கத் துருவிகள் இல்லை, விரைவானது, மலிவானது. ஓங்கு குறிப்பான் என்ற வரம்பைக் குறிப்பிடுக."
    },
    {
     "q": "Describe the principle of DNA fingerprinting and discuss its applications in forensic science and paternity testing.",
@@ -3310,7 +3310,7 @@
     "t": "Band Pattern",
     "d": "The arrangement of DNA fragments separated by gel electrophoresis, appearing as bands at positions corresponding to fragment size.",
     "t_ta": "பட்டை அமைப்பு",
-    "d_ta": "ஜெல் மின்னாற்பகுப்பால் பிரிக்கப்பட்ட DNA துண்டுகளின் அமைப்பு; துண்டு அளவுக்குரிய இடங்களில் பட்டைகளாகத் தோன்றுகிறது."
+    "d_ta": "இழும மின்னாற்பிரித்தலால் பிரிக்கப்பட்ட DNA துண்டுகளின் அமைப்பு; துண்டு அளவுக்குரிய இடங்களில் பட்டைகளாகத் தோன்றுகிறது."
    },
    {
     "t": "Molecular Marker",
@@ -3471,7 +3471,7 @@
     "t": "Amplicon",
     "d": "The PCR product — the double-stranded DNA fragment amplified between (and including) the two primer sequences. Its size is fixed by the primer positions and is detected as a band on agarose gel electrophoresis.",
     "t_ta": "அம்ப்ளிகான்",
-    "d_ta": "PCR விளைபொருள் — இரு பிரைமர் வரிசைகளுக்கிடையே (அவற்றையும் உள்ளடக்கி) பெருக்கப்பட்ட இரட்டை இழை DNA துண்டு. அதன் அளவு பிரைமர் இடங்களால் நிர்ணயிக்கப்பட்டு, அகரோஸ் ஜெல் மின்னாற்பகுப்பில் பட்டையாகக் கண்டறியப்படுகிறது."
+    "d_ta": "PCR விளைபொருள் — இரு பிரைமர் வரிசைகளுக்கிடையே (அவற்றையும் உள்ளடக்கி) பெருக்கப்பட்ட இரட்டை இழை DNA துண்டு. அதன் அளவு பிரைமர் இடங்களால் நிர்ணயிக்கப்பட்டு, அகரோஸ் இழும மின்னாற்பிரித்தலில் பட்டையாகக் கண்டறியப்படுகிறது."
    },
    {
     "t": "Reverse Transcriptase",
@@ -3653,7 +3653,7 @@
     "q": "What is the principle of Sanger's chain termination method of DNA sequencing?",
     "a": "Principle: chain-termination (dideoxy method) using dideoxynucleotide triphosphates (ddNTPs) as chain terminators. ddNTPs are structural analogues of normal dNTPs but lack a 3'-OH group (have 3'-H instead). DNA polymerase incorporates ddNTPs into the growing chain at random positions — when ddNTP is incorporated, no further elongation is possible (no 3'-OH for next phosphodiester bond). This produces a population of fragments of all possible lengths, each starting at the primer and ending at a specific base type. Separation by electrophoresis and reading the positions gives the complete sequence. Developed by Frederick Sanger in 1977 (Nobel Prize Chemistry 1980).",
     "q_ta": "DNA வரிசைப்படுத்தலுக்கான சேங்கரின் சங்கிலி முடிவுறுத்தல் முறையின் தத்துவம் என்ன?",
-    "a_ta": "தத்துவம்: டைடிஆக்ஸிநியுக்ளியோடைடு டிரைபாஸ்பேட்டுகளை (ddNTP) சங்கிலி முடிவுறுத்திகளாகப் பயன்படுத்தும் சங்கிலி முடிவுறுத்தல் (டைடிஆக்ஸி முறை). ddNTP-கள் இயல்பான dNTP-களின் அமைப்பொத்த ஒப்புமைகள்; ஆனால் 3'-OH தொகுதி இல்லை (அதற்குப் பதில் 3'-H). DNA பாலிமரேஸ் வளரும் சங்கிலியில் தற்போக்கு இடங்களில் ddNTP-களைச் சேர்க்கிறது — ddNTP சேர்க்கப்பட்டதும் மேலும் நீட்சி இயலாது (அடுத்த பாஸ்போடைஎஸ்டர் பிணைப்புக்கு 3'-OH இல்லை). இது பிரைமரில் தொடங்கி குறிப்பிட்ட கார வகையில் முடியும், சாத்தியமான அனைத்து நீளங்களின் துண்டுத் தொகையை உருவாக்குகிறது. மின்னாற்பகுப்பால் பிரித்து இடங்களை வாசிப்பது முழு வரிசையைத் தருகிறது. ஃபிரடெரிக் சேங்கர் 1977-இல் உருவாக்கினார் (வேதியியல் நோபல் பரிசு 1980)."
+    "a_ta": "தத்துவம்: டைடிஆக்ஸிநியுக்ளியோடைடு டிரைபாஸ்பேட்டுகளை (ddNTP) சங்கிலி முடிவுறுத்திகளாகப் பயன்படுத்தும் சங்கிலி முடிவுறுத்தல் (டைடிஆக்ஸி முறை). ddNTP-கள் இயல்பான dNTP-களின் அமைப்பொத்த ஒப்புமைகள்; ஆனால் 3'-OH தொகுதி இல்லை (அதற்குப் பதில் 3'-H). DNA பாலிமரேஸ் வளரும் சங்கிலியில் தற்போக்கு இடங்களில் ddNTP-களைச் சேர்க்கிறது — ddNTP சேர்க்கப்பட்டதும் மேலும் நீட்சி இயலாது (அடுத்த பாஸ்போடைஎஸ்டர் பிணைப்புக்கு 3'-OH இல்லை). இது பிரைமரில் தொடங்கி குறிப்பிட்ட கார வகையில் முடியும், சாத்தியமான அனைத்து நீளங்களின் துண்டுத் தொகையை உருவாக்குகிறது. மின்னாற்பிரித்தலால் பிரித்து இடங்களை வாசிப்பது முழு வரிசையைத் தருகிறது. ஃபிரடெரிக் சேங்கர் 1977-இல் உருவாக்கினார் (வேதியியல் நோபல் பரிசு 1980)."
    },
    {
     "q": "Why does the incorporation of a dideoxynucleotide (ddNTP) cause chain termination? Explain with reference to its structure.",
@@ -3665,7 +3665,7 @@
     "q": "Describe the steps involved in Sanger DNA sequencing. How is the sequence determined from the result?",
     "a": "Step 1: Denature template DNA to single strands (heat or NaOH). Step 2: Anneal oligonucleotide primer to template (50–60°C). Step 3: Add DNA polymerase, all four dNTPs, and all four fluorescently labelled ddNTPs (100× lower concentration than dNTPs). Step 4: Synthesis proceeds; at each position, ddNTP may be randomly incorporated → chain terminates at every possible position → population of fragments of all lengths is produced. Step 5: Fragments denatured and loaded into capillary electrophoresis instrument. Step 6: Fragments separated by size; laser detects fluorescent colour as each fragment elutes. Sequence determination: chromatogram shows coloured peaks; each colour = one base; peaks read left to right (small = earliest in 5'→3' sequence).",
     "q_ta": "சேங்கர் DNA வரிசைப்படுத்தலில் உள்ள படிகளை விவரிக்க. முடிவிலிருந்து வரிசை எவ்வாறு தீர்மானிக்கப்படுகிறது?",
-    "a_ta": "படி 1: வார்ப்புரு DNA-வை ஒற்றை இழைகளாக இயல்பிழக்கச் செய் (வெப்பம் அல்லது NaOH). படி 2: ஒலிகோநியுக்ளியோடைடு பிரைமரை வார்ப்புருவுடன் பிணை (50–60°C). படி 3: DNA பாலிமரேஸ், நான்கு dNTP-கள், நான்கு ஒளிர்வுக் குறிப்பிட்ட ddNTP-கள் (dNTP-களை விட 100 மடங்கு குறைந்த செறிவு) ஆகியவற்றைச் சேர். படி 4: தொகுப்பு நடைபெறுகிறது; ஒவ்வோர் இடத்திலும் ddNTP தற்போக்காகச் சேரலாம் → சாத்தியமான ஒவ்வோர் இடத்திலும் சங்கிலி முடிகிறது → அனைத்து நீளங்களின் துண்டுத் தொகை உருவாகிறது. படி 5: துண்டுகள் இயல்பிழக்கப்பட்டு நுண்குழாய் மின்னாற்பகுப்புக் கருவியில் ஏற்றப்படுகின்றன. படி 6: துண்டுகள் அளவால் பிரிக்கப்படுகின்றன; ஒவ்வொரு துண்டும் வெளியேறும்போது லேசர் ஒளிர்வு நிறத்தைக் கண்டறிகிறது. வரிசைத் தீர்மானம்: நிறப்படம் நிறப் உச்சங்களைக் காட்டுகிறது; ஒவ்வொரு நிறமும் ஒரு காரம்; உச்சங்கள் இடமிருந்து வலமாக வாசிக்கப்படுகின்றன (சிறியது = 5'→3' வரிசையில் முந்தையது)."
+    "a_ta": "படி 1: வார்ப்புரு DNA-வை ஒற்றை இழைகளாக இயல்பிழக்கச் செய் (வெப்பம் அல்லது NaOH). படி 2: ஒலிகோநியுக்ளியோடைடு பிரைமரை வார்ப்புருவுடன் பிணை (50–60°C). படி 3: DNA பாலிமரேஸ், நான்கு dNTP-கள், நான்கு ஒளிர்வுக் குறிப்பிட்ட ddNTP-கள் (dNTP-களை விட 100 மடங்கு குறைந்த செறிவு) ஆகியவற்றைச் சேர். படி 4: தொகுப்பு நடைபெறுகிறது; ஒவ்வோர் இடத்திலும் ddNTP தற்போக்காகச் சேரலாம் → சாத்தியமான ஒவ்வோர் இடத்திலும் சங்கிலி முடிகிறது → அனைத்து நீளங்களின் துண்டுத் தொகை உருவாகிறது. படி 5: துண்டுகள் இயல்பிழக்கப்பட்டு நுண்குழாய் மின்னாற்பிரித்தல்க் கருவியில் ஏற்றப்படுகின்றன. படி 6: துண்டுகள் அளவால் பிரிக்கப்படுகின்றன; ஒவ்வொரு துண்டும் வெளியேறும்போது லேசர் ஒளிர்வு நிறத்தைக் கண்டறிகிறது. வரிசைத் தீர்மானம்: நிறப்படம் நிறப் உச்சங்களைக் காட்டுகிறது; ஒவ்வொரு நிறமும் ஒரு காரம்; உச்சங்கள் இடமிருந்து வலமாக வாசிக்கப்படுகின்றன (சிறியது = 5'→3' வரிசையில் முந்தையது)."
    },
    {
     "q": "What is the role of dNTPs and ddNTPs in Sanger sequencing? Why are ddNTPs added at a much lower concentration than dNTPs?",
@@ -3720,7 +3720,7 @@
    {
     "t": "Electrophoresis",
     "d": "A technique that uses an electric field to separate charged molecules (such as DNA fragments) by size. Smaller fragments migrate faster and farther in the gel or capillary. Enables single-nucleotide resolution of Sanger sequencing fragments.",
-    "t_ta": "மின்னாற்பகுப்பு (எலக்ட்ரோஃபோரசிஸ்)",
+    "t_ta": "மின்னாற்பிரித்தல் (எலக்ட்ரோஃபோரசிஸ்)",
     "d_ta": "மின்புலத்தைப் பயன்படுத்தி மின்னூட்ட மூலக்கூறுகளை (DNA துண்டுகள் போன்றவை) அளவால் பிரிக்கும் நுட்பம். சிறிய துண்டுகள் ஜெல் அல்லது நுண்குழாயில் வேகமாகவும் தொலைவாகவும் நகரும். சேங்கர் வரிசைப்படுத்தல் துண்டுகளின் ஒற்றை-நியுக்ளியோடைடு பிரிதிறனை இயலச் செய்கிறது."
    },
    {
@@ -3732,7 +3732,7 @@
    {
     "t": "Capillary Electrophoresis",
     "d": "A modern, automated separation method used in Sanger sequencing where DNA fragments migrate through a thin polymer-filled capillary tube. Laser detection of fluorescence allows high-resolution, high-throughput sequencing (e.g., ABI 3730xl platform).",
-    "t_ta": "நுண்குழாய் மின்னாற்பகுப்பு",
+    "t_ta": "நுண்குழாய் மின்னாற்பிரித்தல்",
     "d_ta": "சேங்கர் வரிசைப்படுத்தலில் பயன்படும் நவீன, தானியங்கிப் பிரிப்பு முறை; DNA துண்டுகள் பாலிமர் நிரப்பிய மெல்லிய நுண்குழாய் வழியாக நகர்கின்றன. ஒளிர்வின் லேசர் கண்டறிதல் உயர் பிரிதிறன், உயர் செயல்திறன் வரிசைப்படுத்தலை (எ.கா., ABI 3730xl தளம்) இயலச் செய்கிறது."
    },
    {
@@ -3750,12 +3750,12 @@
    "துண்டு ஏணி: வினை சாத்தியமான அனைத்து நீளங்களிலும் துண்டுகளை உருவாக்குகிறது; ஒவ்வொன்றும் குறிப்பிட்ட நியுக்ளியோடைடு வகையில் முடிகிறது. துண்டு அளவுகளை வரிசையாக வாசிப்பது வரிசையை வெளிப்படுத்துகிறது.",
    "dNTP:ddNTP விகிதம்: ddNTP-கள் dNTP-களை விட ~100 மடங்கு நீர்த்தவை; இதனால் ஒவ்வொரு இடத்திலும் தற்போக்குச் சேர்க்கை நிகழ்ந்து, துண்டு அளவுகளின் முழு ஏணி உருவாகிறது.",
    "அசல் முறை: நான்கு தனி வினைகள் (ddA, ddT, ddG, ddC), கதிரியக்கக் குறிப்பிடல், 4-தடப் பாலிஅக்ரிலமைடு ஜெல், கீழிருந்து மேலாக வாசிப்பு, ஆட்டோரேடியோகிராஃபி.",
-   "நவீன முறை: ஒற்றை வினை, நான்கு ஒளிர்வுக் குறிப்பிட்ட ddNTP-கள் (ஒவ்வொன்றும் வெவ்வேறு நிறம்), நுண்குழாய் மின்னாற்பகுப்பு, நிறப்படம் வெளியீடு, தானியங்கி கார அழைப்பு.",
+   "நவீன முறை: ஒற்றை வினை, நான்கு ஒளிர்வுக் குறிப்பிட்ட ddNTP-கள் (ஒவ்வொன்றும் வெவ்வேறு நிறம்), நுண்குழாய் மின்னாற்பிரித்தல், நிறப்படம் வெளியீடு, தானியங்கி கார அழைப்பு.",
    "ஜெல் வாசிப்பு: கீழிருந்து மேலாக வாசிக்க (சிறியது = முந்தைய இடம்). ஒவ்வொரு பட்டையின் தடம்/நிறம் = அந்த இடத்தின் நியுக்ளியோடைடு. வரிசை என்பது 5'→3' திசையில் வாசிக்கப்படும் புதிய இழை.",
    "வாசிப்பு நீளமும் துல்லியமும்: ஒரு இயக்கத்துக்கு 600–1000 நம்பகமான காரங்கள்; உயர்தரக் காரங்களுக்கு >99.99% துல்லியம். முதல் 15–40 காரங்கள் நம்பகமற்றவையாக இருக்கலாம்.",
    "பயன்பாடுகள்: குளோன் சரிபார்ப்பு, திடீர்மாற்றக் கண்டறிதல், மனித மரபணுத்தொகைத் திட்டம், மருத்துவக் கண்டறிதல், நோய்க்காரணி அடையாளம், தடயவியல்.",
    "NGS-உடன் ஒப்பிடுகையில் வரம்பு: ஒரு வினைக்கு ~1 kb மட்டுமே (குறைந்த செயல்திறன்); முழு மரபணுத்தொகைகளுக்கு விலை உயர்வு. NGS பில்லியன் கணக்கான காரங்களை ஒரே நேரத்தில் வரிசைப்படுத்தும்; ஆனால் இலக்கு வரிசைப்படுத்தலின் துல்லியத்துக்குச் சேங்கரே தங்கத் தரநிலை.",
-   "சரியான படி வரிசை: DNA-வை இயல்பிழக்கச் செய் → பிரைமரைப் பிணை → பாலிமரேஸ் நீட்டி + ddNTP முடிவுறுத்துகிறது → அனைத்து அளவுகளின் துண்டுகள் உருவாகின்றன → மின்னாற்பகுப்பு பிரிக்கிறது → நிறப்படத்திலிருந்து வரிசையை வாசி."
+   "சரியான படி வரிசை: DNA-வை இயல்பிழக்கச் செய் → பிரைமரைப் பிணை → பாலிமரேஸ் நீட்டி + ddNTP முடிவுறுத்துகிறது → அனைத்து அளவுகளின் துண்டுகள் உருவாகின்றன → மின்னாற்பிரித்தல் பிரிக்கிறது → நிறப்படத்திலிருந்து வரிசையை வாசி."
   ]
  },
  "screening_selection_recombinants.html": {

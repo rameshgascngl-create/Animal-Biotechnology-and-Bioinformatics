@@ -118,7 +118,7 @@
      "type": "p",
      "text": {
       "en": "**Blotting** is a group of techniques in which macromolecules (DNA, RNA or protein) separated by gel electrophoresis are transferred to a membrane and then detected with a labelled _probe_. The membrane is a durable, accessible copy of the gel.",
-      "ta": "**பிளாட்டிங்** என்பது ஜெல் மின்னாற்பகுப்பால் பிரிக்கப்பட்ட பெருமூலக்கூறுகளை (DNA, RNA அல்லது புரதம்) சவ்வுக்கு மாற்றி, பின் குறியிடப்பட்ட _துருவியால்_ கண்டறியும் நுட்பங்களின் தொகுதி. சவ்வு என்பது ஜெல்லின் நீடித்த, எளிதில் கையாளத்தக்க நகல்.",
+      "ta": "**பிளாட்டிங்** என்பது இழும மின்னாற்பிரித்தலால் பிரிக்கப்பட்ட பெருமூலக்கூறுகளை (DNA, RNA அல்லது புரதம்) சவ்வுக்கு மாற்றி, பின் குறியிடப்பட்ட _துருவியால்_ கண்டறியும் நுட்பங்களின் தொகுதி. சவ்வு என்பது ஜெல்லின் நீடித்த, எளிதில் கையாளத்தக்க நகல்.",
       "ta_status": "draft"
      }
     },
@@ -127,7 +127,7 @@
      "kind": "info",
      "text": {
       "en": "Definition\nBlotting is the transfer of electrophoretically separated nucleic acids or proteins from a gel onto a membrane (nitrocellulose, nylon or PVDF), followed by detection of a specific target with a labelled probe.",
-      "ta": "வரையறை\nபிளாட்டிங் என்பது மின்னாற்பகுப்பால் பிரிக்கப்பட்ட நியூக்ளிக் அமிலங்கள் அல்லது புரதங்களை ஜெல்லிலிருந்து சவ்வுக்கு (நைட்ரோசெல்லுலோஸ், நைலான் அல்லது PVDF) மாற்றி, குறியிடப்பட்ட துருவியால் குறிப்பிட்ட இலக்கைக் கண்டறிதல்.",
+      "ta": "வரையறை\nபிளாட்டிங் என்பது மின்னாற்பிரித்தலால் பிரிக்கப்பட்ட நியூக்ளிக் அமிலங்கள் அல்லது புரதங்களை ஜெல்லிலிருந்து சவ்வுக்கு (நைட்ரோசெல்லுலோஸ், நைலான் அல்லது PVDF) மாற்றி, குறியிடப்பட்ட துருவியால் குறிப்பிட்ட இலக்கைக் கண்டறிதல்.",
       "ta_status": "draft"
      }
     },
@@ -177,7 +177,7 @@
      "type": "p",
      "text": {
       "en": "**1. Separate**gel electrophoresis",
-      "ta": "**1. பிரித்தல்**ஜெல் மின்னாற்பகுப்பு",
+      "ta": "**1. பிரித்தல்**இழும மின்னாற்பிரித்தல்",
       "ta_status": "draft"
      }
     },
@@ -546,7 +546,7 @@
      "type": "p",
      "text": {
       "en": "**2. Electrophoresis**agarose gel",
-      "ta": "**2. மின்னாற்பகுப்பு**அகரோஸ் ஜெல்",
+      "ta": "**2. மின்னாற்பிரித்தல்**அகரோஸ் ஜெல்",
       "ta_status": "draft"
      }
     },
@@ -1452,7 +1452,7 @@
      "kind": "info",
      "text": {
       "en": "**Related variants**\n• **Southwestern blot** — proteins on a membrane probed with labelled DNA to find DNA-binding proteins.\n• **Dot/slot blot** — samples spotted directly without electrophoresis (presence/absence, no size).\n• **Colony hybridisation** — bacterial colonies lifted onto a membrane and probed to find recombinant clones.",
-      "ta": "**தொடர்புடைய மாறுபாடுகள்**\n• **சதர்ன்வெஸ்டர்ன் பிளாட்** — சவ்வின்மேல் புரதங்களைக் குறியிடப்பட்ட DNA-வால் துருவியிட்டு DNA-பிணைப்புப் புரதங்களைக் கண்டறிதல்.\n• **புள்ளி/பிளவு பிளாட்** — மின்னாற்பகுப்பின்றி மாதிரிகளை நேரடியாகப் புள்ளியிடுதல் (இருக்கிறதா இல்லையா; அளவு தெரியாது).\n• **குழும கலப்பினமாக்கல்** — பாக்டீரியக் குழுமங்களைச் சவ்வில் ஒற்றியெடுத்துத் துருவியிட்டு மறுகூட்டிணைவுக் குளோன்களைக் கண்டறிதல்.",
+      "ta": "**தொடர்புடைய மாறுபாடுகள்**\n• **சதர்ன்வெஸ்டர்ன் பிளாட்** — சவ்வின்மேல் புரதங்களைக் குறியிடப்பட்ட DNA-வால் துருவியிட்டு DNA-பிணைப்புப் புரதங்களைக் கண்டறிதல்.\n• **புள்ளி/பிளவு பிளாட்** — மின்னாற்பிரித்தலின்றி மாதிரிகளை நேரடியாகப் புள்ளியிடுதல் (இருக்கிறதா இல்லையா; அளவு தெரியாது).\n• **குழும கலப்பினமாக்கல்** — பாக்டீரியக் குழுமங்களைச் சவ்வில் ஒற்றியெடுத்துத் துருவியிட்டு மறுகூட்டிணைவுக் குளோன்களைக் கண்டறிதல்.",
       "ta_status": "draft"
      }
     }
@@ -1639,7 +1639,7 @@
      "type": "p",
      "text": {
       "en": "Blotting is the transfer of electrophoretically separated DNA, RNA or protein from a gel to a membrane, followed by detection with a labelled probe. The three types are **Southern** (DNA), **Northern** (RNA) and **Western** (protein).",
-      "ta": "பிளாட்டிங் என்பது மின்னாற்பகுப்பால் பிரிக்கப்பட்ட DNA, RNA அல்லது புரதத்தை ஜெல்லிலிருந்து சவ்வுக்கு மாற்றி, குறியிடப்பட்ட துருவியால் கண்டறிதல். மூன்று வகைகள்: **சதர்ன்** (DNA), **நார்தர்ன்** (RNA), **வெஸ்டர்ன்** (புரதம்).",
+      "ta": "பிளாட்டிங் என்பது மின்னாற்பிரித்தலால் பிரிக்கப்பட்ட DNA, RNA அல்லது புரதத்தை ஜெல்லிலிருந்து சவ்வுக்கு மாற்றி, குறியிடப்பட்ட துருவியால் கண்டறிதல். மூன்று வகைகள்: **சதர்ன்** (DNA), **நார்தர்ன்** (RNA), **வெஸ்டர்ன்** (புரதம்).",
       "ta_status": "draft"
      }
     },
@@ -1655,7 +1655,7 @@
      "type": "p",
      "text": {
       "en": "Restriction digestion of DNA → agarose gel electrophoresis → depurination and alkali denaturation → capillary transfer to nitrocellulose/nylon membrane → fixation by UV or baking → prehybridisation (blocking) → hybridisation with labelled probe → washing → autoradiographic detection.",
-      "ta": "DNA-வின் ரெஸ்ட்ரிக்ஷன் செரித்தல் → அகரோஸ் ஜெல் மின்னாற்பகுப்பு → டீபியூரினேஷனும் கார இயல்பிழப்பும் → நைட்ரோசெல்லுலோஸ்/நைலான் சவ்வுக்கு நுண்புழை மாற்றம் → UV அல்லது சூடாக்கலால் பொருத்துதல் → முன்கலப்பினமாக்கல் (அடைத்தல்) → குறியிடப்பட்ட துருவியுடன் கலப்பினமாக்கல் → கழுவுதல் → தன்படமெடுத்தல் மூலம் கண்டறிதல்.",
+      "ta": "DNA-வின் ரெஸ்ட்ரிக்ஷன் செரித்தல் → அகரோஸ் இழும மின்னாற்பிரித்தல் → டீபியூரினேஷனும் கார இயல்பிழப்பும் → நைட்ரோசெல்லுலோஸ்/நைலான் சவ்வுக்கு நுண்புழை மாற்றம் → UV அல்லது சூடாக்கலால் பொருத்துதல் → முன்கலப்பினமாக்கல் (அடைத்தல்) → குறியிடப்பட்ட துருவியுடன் கலப்பினமாக்கல் → கழுவுதல் → தன்படமெடுத்தல் மூலம் கண்டறிதல்.",
       "ta_status": "draft"
      }
     },

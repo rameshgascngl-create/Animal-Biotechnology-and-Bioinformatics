@@ -9,7 +9,10 @@ FONT = 'file://' + os.path.abspath(os.path.join(ROOT, 'app/src/main/res/font/not
 FONTB = 'file://' + os.path.abspath(os.path.join(ROOT, 'app/src/main/res/font/notosanstamil_bold.ttf'))
 sys.path.insert(0, HERE)
 from art import DIAGRAMS as ART
+sys.path.insert(0, os.path.join(HERE, '..'))
+from tamil_terms import normalise_terms
 ta = json.load(open(os.path.join(HERE, 'ta_strings.json'), encoding='utf8')) if os.path.exists(os.path.join(HERE, 'ta_strings.json')) else {}
+ta = {k: normalise_terms(v) for k,v in ta.items()}
 args = sys.argv[1:]
 only = set(args[args.index('--ids') + 1].split(',')) if '--ids' in args else None
 en_only = '--en-only' in args

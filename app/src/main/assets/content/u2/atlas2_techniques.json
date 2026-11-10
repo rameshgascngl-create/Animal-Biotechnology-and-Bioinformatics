@@ -91,7 +91,7 @@
       },
       {
        "en": "✓Explain agarose gel electrophoresis and compare Southern, Northern and Western blots.",
-       "ta": "✓அகரோஸ் ஜெல் மின்னாற்பகுப்பை விளக்கி, சதர்ன், நார்தர்ன், வெஸ்டர்ன் பிளாட்களை ஒப்பிடுதல்.",
+       "ta": "✓அகரோஸ் இழும மின்னாற்பிரித்தலை விளக்கி, சதர்ன், நார்தர்ன், வெஸ்டர்ன் பிளாட்களை ஒப்பிடுதல்.",
        "ta_status": "draft"
       }
      ]
@@ -749,7 +749,7 @@
    "id": "s07",
    "title": {
     "en": "Gel Electrophoresis and Blotting",
-    "ta": "ஜெல் மின்னாற்பகுப்பும் பிளாட்டிங்கும்",
+    "ta": "இழும மின்னாற்பிரித்தல்ம் பிளாட்டிங்கும்",
     "ta_status": "draft"
    },
    "blocks": [
@@ -1263,7 +1263,7 @@
      "type": "p",
      "text": {
       "en": "Q.7Why does DNA migrate to the anode in electrophoresis?▼",
-      "ta": "வி.7மின்னாற்பகுப்பில் DNA ஏன் நேர்மின்முனையை நோக்கி நகர்கிறது?▼",
+      "ta": "வி.7மின்னாற்பிரித்தலில் DNA ஏன் நேர்மின்முனையை நோக்கி நகர்கிறது?▼",
       "ta_status": "draft"
      }
     },

@@ -800,6 +800,7 @@ def carry_over_tamil(chapter, previous):
     Returns the paths whose Tamil had to be dropped because the English changed or disappeared."""
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
     from ta_io import walk
+    from tamil_terms import normalise_terms
     old = {p: d for p, d in walk(previous)}
     dropped = []
     for p, d in walk(chapter):
@@ -807,7 +808,7 @@ def carry_over_tamil(chapter, previous):
         if o is None or "ta" not in o:
             continue
         if o["en"] == d["en"]:
-            d["ta"], d["ta_status"] = o["ta"], o.get("ta_status", "draft")
+            d["ta"], d["ta_status"] = normalise_terms(o["ta"]), o.get("ta_status", "draft")
         else:
             dropped.append(p)
     return dropped
