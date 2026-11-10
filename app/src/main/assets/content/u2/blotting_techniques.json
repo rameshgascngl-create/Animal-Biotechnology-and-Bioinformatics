@@ -2,19 +2,25 @@
  "id": "blotting_techniques",
  "unit": "II",
  "title": {
-  "en": "Blotting Techniques"
+  "en": "Blotting Techniques",
+  "ta": "பிளாட்டிங் நுட்பங்கள்",
+  "ta_status": "draft"
  },
  "sections": [
   {
    "id": "s01",
    "title": {
-    "en": "Overview"
+    "en": "Overview",
+    "ta": "மேலோட்டம்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "🧪 Unit II · Techniques in Animal Biotechnology"
+      "en": "🧪 Unit II · Techniques in Animal Biotechnology",
+      "ta": "🧪 அலகு II · விலங்கு உயிரித் தொழில்நுட்பவியலில் நுட்பங்கள்",
+      "ta_status": "draft"
      }
     }
    ]
@@ -22,31 +28,41 @@
   {
    "id": "s02",
    "title": {
-    "en": "Blotting Techniques: Southern, Northern and Western"
+    "en": "Blotting Techniques: Southern, Northern and Western",
+    "ta": "பிளாட்டிங் நுட்பங்கள்: சதர்ன், நார்தர்ன், வெஸ்டர்ன்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Southern, Northern and Western Blotting"
+      "en": "Southern, Northern and Western Blotting",
+      "ta": "சதர்ன், நார்தர்ன், வெஸ்டர்ன் பிளாட்டிங்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "A genome holds billions of bases and a cell holds thousands of proteins. **Blotting** lets us pick out one DNA fragment, one RNA or one protein from that crowd. This module explains the three classical blots, how they work, and when to use each."
+      "en": "A genome holds billions of bases and a cell holds thousands of proteins. **Blotting** lets us pick out one DNA fragment, one RNA or one protein from that crowd. This module explains the three classical blots, how they work, and when to use each.",
+      "ta": "ஒரு மரபணுத்தொகை பில்லியன் கணக்கான காரணிகளைக் கொண்டுள்ளது; ஒரு செல் ஆயிரக்கணக்கான புரதங்களைக் கொண்டுள்ளது. **பிளாட்டிங்** அக்கூட்டத்திலிருந்து ஒரு DNA துண்டை, ஒரு RNA-வை அல்லது ஒரு புரதத்தைத் தேர்ந்தெடுக்க உதவுகிறது. இம்மூன்று செவ்வியல் பிளாட்டுகளும் எவ்வாறு செயல்படுகின்றன, எப்போது எதைப் பயன்படுத்துவது என்பதை இத்தொகுதி விளக்குகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "📚 5 chapters🎯 10 MCQs📝 Exam questions🎓 B.Sc. Zoology / Biotechnology"
+      "en": "📚 5 chapters🎯 10 MCQs📝 Exam questions🎓 B.Sc. Zoology / Biotechnology",
+      "ta": "📚 5 அத்தியாயங்கள்🎯 10 MCQ-கள்📝 தேர்வு வினாக்கள்🎓 B.Sc. விலங்கியல் / உயிரித் தொழில்நுட்பவியல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🎯 Learning Objectives**"
+      "en": "**🎯 Learning Objectives**",
+      "ta": "**🎯 கற்றல் நோக்கங்கள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -54,19 +70,29 @@
      "ordered": false,
      "items": [
       {
-       "en": "✓Define blotting and explain why separated molecules are transferred to a membrane."
+       "en": "✓Define blotting and explain why separated molecules are transferred to a membrane.",
+       "ta": "✓பிளாட்டிங்கை வரையறுத்து, பிரிக்கப்பட்ட மூலக்கூறுகள் சவ்வுக்கு ஏன் மாற்றப்படுகின்றன என்பதை விளக்குதல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "✓Describe the steps of Southern blotting and the role of denaturation, probes and stringency."
+       "en": "✓Describe the steps of Southern blotting and the role of denaturation, probes and stringency.",
+       "ta": "✓சதர்ன் பிளாட்டிங்கின் படிகளையும், இயல்பிழக்கச் செய்தல், துருவிகள், கடுமைத்தன்மையின் பங்கையும் விவரித்தல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "✓Explain how Northern blotting differs and what it reveals about gene expression."
+       "en": "✓Explain how Northern blotting differs and what it reveals about gene expression.",
+       "ta": "✓நார்தர்ன் பிளாட்டிங் எவ்வாறு வேறுபடுகிறது, மரபணு வெளிப்பாடு பற்றி எதை வெளிப்படுத்துகிறது என்பதை விளக்குதல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "✓Explain the principle and steps of Western blotting with primary and secondary antibodies."
+       "en": "✓Explain the principle and steps of Western blotting with primary and secondary antibodies.",
+       "ta": "✓முதல்நிலை, இரண்டாம்நிலை எதிர்ப்பொருள்களுடன் வெஸ்டர்ன் பிளாட்டிங்கின் கோட்பாட்டையும் படிகளையும் விளக்குதல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "✓Choose the correct blot for a given experimental question."
+       "en": "✓Choose the correct blot for a given experimental question.",
+       "ta": "✓கொடுக்கப்பட்ட ஆய்வுக் கேள்விக்குச் சரியான பிளாட்டைத் தேர்ந்தெடுத்தல்.",
+       "ta_status": "draft"
       }
      ]
     }
@@ -75,32 +101,42 @@
   {
    "id": "s03",
    "title": {
-    "en": "Blotting Techniques: Principle & Overview"
+    "en": "Blotting Techniques: Principle & Overview",
+    "ta": "பிளாட்டிங் நுட்பங்கள்: கோட்பாடும் மேலோட்டமும்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Blotting transfers separated biomolecules from a gel onto a solid membrane, where a specific probe can find one target among thousands."
+      "en": "Blotting transfers separated biomolecules from a gel onto a solid membrane, where a specific probe can find one target among thousands.",
+      "ta": "பிளாட்டிங் பிரிக்கப்பட்ட உயிர்மூலக்கூறுகளை ஜெல்லிலிருந்து திட சவ்வுக்கு மாற்றுகிறது; அங்கு ஆயிரக்கணக்கானவற்றுள் ஓர் இலக்கை ஒரு குறிப்பிட்ட துருவி கண்டறிய முடியும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Blotting** is a group of techniques in which macromolecules (DNA, RNA or protein) separated by gel electrophoresis are transferred to a membrane and then detected with a labelled _probe_. The membrane is a durable, accessible copy of the gel."
+      "en": "**Blotting** is a group of techniques in which macromolecules (DNA, RNA or protein) separated by gel electrophoresis are transferred to a membrane and then detected with a labelled _probe_. The membrane is a durable, accessible copy of the gel.",
+      "ta": "**பிளாட்டிங்** என்பது ஜெல் மின்னாற்பகுப்பால் பிரிக்கப்பட்ட பெருமூலக்கூறுகளை (DNA, RNA அல்லது புரதம்) சவ்வுக்கு மாற்றி, பின் குறியிடப்பட்ட _துருவியால்_ கண்டறியும் நுட்பங்களின் தொகுதி. சவ்வு என்பது ஜெல்லின் நீடித்த, எளிதில் கையாளத்தக்க நகல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Definition\nBlotting is the transfer of electrophoretically separated nucleic acids or proteins from a gel onto a membrane (nitrocellulose, nylon or PVDF), followed by detection of a specific target with a labelled probe."
+      "en": "Definition\nBlotting is the transfer of electrophoretically separated nucleic acids or proteins from a gel onto a membrane (nitrocellulose, nylon or PVDF), followed by detection of a specific target with a labelled probe.",
+      "ta": "வரையறை\nபிளாட்டிங் என்பது மின்னாற்பகுப்பால் பிரிக்கப்பட்ட நியூக்ளிக் அமிலங்கள் அல்லது புரதங்களை ஜெல்லிலிருந்து சவ்வுக்கு (நைட்ரோசெல்லுலோஸ், நைலான் அல்லது PVDF) மாற்றி, குறியிடப்பட்ட துருவியால் குறிப்பிட்ட இலக்கைக் கண்டறிதல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Why transfer to a membrane?**"
+      "en": "**Why transfer to a membrane?**",
+      "ta": "**சவ்வுக்கு ஏன் மாற்ற வேண்டும்?**",
+      "ta_status": "draft"
      }
     },
     {
@@ -108,213 +144,315 @@
      "ordered": false,
      "items": [
       {
-       "en": "A gel is fragile and probes cannot diffuse into it efficiently."
+       "en": "A gel is fragile and probes cannot diffuse into it efficiently.",
+       "ta": "ஜெல் உடையக்கூடியது; துருவிகள் அதற்குள் திறம்படப் பரவ முடியாது.",
+       "ta_status": "draft"
       },
       {
-       "en": "A membrane immobilises the bands in the same pattern as the gel."
+       "en": "A membrane immobilises the bands in the same pattern as the gel.",
+       "ta": "சவ்வு பட்டைகளை ஜெல்லிலுள்ள அதே அமைப்பில் அசைவற்றதாக்குகிறது.",
+       "ta_status": "draft"
       },
       {
-       "en": "The same membrane can be probed repeatedly (stripped and re-probed)."
+       "en": "The same membrane can be probed repeatedly (stripped and re-probed).",
+       "ta": "அதே சவ்வை மீண்டும் மீண்டும் துருவியிடலாம் (நீக்கி மறுதுருவியிடல்).",
+       "ta_status": "draft"
       },
       {
-       "en": "Sensitivity is high: a single gene in a whole genome can be detected."
+       "en": "Sensitivity is high: a single gene in a whole genome can be detected.",
+       "ta": "உணர்திறன் அதிகம்: முழு மரபணுத்தொகையில் ஒரே மரபணுவையும் கண்டறியலாம்.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**General steps of any blot**"
+      "en": "**General steps of any blot**",
+      "ta": "**எந்தப் பிளாட்டுக்கும் பொதுவான படிகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**1. Separate**gel electrophoresis"
+      "en": "**1. Separate**gel electrophoresis",
+      "ta": "**1. பிரித்தல்**ஜெல் மின்னாற்பகுப்பு",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**2. Transfer**gel → membrane"
+      "en": "**2. Transfer**gel → membrane",
+      "ta": "**2. மாற்றுதல்**ஜெல் → சவ்வு",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**3. Immobilise**fix to membrane"
+      "en": "**3. Immobilise**fix to membrane",
+      "ta": "**3. அசைவற்றதாக்கல்**சவ்வில் பொருத்துதல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**4. Block**cover free sites"
+      "en": "**4. Block**cover free sites",
+      "ta": "**4. அடைத்தல்**காலித் தளங்களை மூடுதல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**5. Probe**hybridise / bind"
+      "en": "**5. Probe**hybridise / bind",
+      "ta": "**5. துருவியிடல்**கலப்பினமாக்கு / பிணை",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**6. Detect**signal"
+      "en": "**6. Detect**signal",
+      "ta": "**6. கண்டறிதல்**சமிக்ஞை",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click a step to see what happens."
+      "en": "Click a step to see what happens.",
+      "ta": "ஒரு படியைத் தொட்டு என்ன நடக்கிறது என்பதை அறிக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Where do the names come from?**"
+      "en": "**Where do the names come from?**",
+      "ta": "**பெயர்கள் எங்கிருந்து வந்தன?**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**A scientific pun**\n• **Southern blot** (1975) — named after its inventor, **Edwin M. Southern**. It is not named after a direction.\n• **Northern** and **Western** blots were named by analogy (wordplay) for RNA and protein detection."
+      "en": "**A scientific pun**\n• **Southern blot** (1975) — named after its inventor, **Edwin M. Southern**. It is not named after a direction.\n• **Northern** and **Western** blots were named by analogy (wordplay) for RNA and protein detection.",
+      "ta": "**ஓர் அறிவியல் சொல்விளையாட்டு**\n• **சதர்ன் பிளாட்** (1975) — கண்டுபிடித்த **எட்வின் எம். சதர்ன்** பெயரால் அழைக்கப்படுகிறது; திசையின் பெயரல்ல.\n• **நார்தர்ன்**, **வெஸ்டர்ன்** பிளாட்டுகள் முறையே RNA, புரதக் கண்டறிதலுக்கு ஒப்புமையாக (சொல்விளையாட்டாக) பெயரிடப்பட்டன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Comparison at a glance**"
+      "en": "**Comparison at a glance**",
+      "ta": "**ஒரே பார்வையில் ஒப்பீடு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "table",
      "header": [
       {
-       "en": "Feature"
+       "en": "Feature",
+       "ta": "பண்பு",
+       "ta_status": "draft"
       },
       {
-       "en": "Southern blot"
+       "en": "Southern blot",
+       "ta": "சதர்ன் பிளாட்",
+       "ta_status": "draft"
       },
       {
-       "en": "Northern blot"
+       "en": "Northern blot",
+       "ta": "நார்தர்ன் பிளாட்",
+       "ta_status": "draft"
       },
       {
-       "en": "Western blot"
+       "en": "Western blot",
+       "ta": "வெஸ்டர்ன் பிளாட்",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Target**"
+        "en": "**Target**",
+        "ta": "**இலக்கு**",
+        "ta_status": "draft"
        },
        {
-        "en": "DNA"
+        "en": "DNA",
+        "ta": "DNA",
+        "ta_status": "draft"
        },
        {
-        "en": "RNA (mRNA)"
+        "en": "RNA (mRNA)",
+        "ta": "RNA (mRNA)",
+        "ta_status": "draft"
        },
        {
-        "en": "Protein"
+        "en": "Protein",
+        "ta": "புரதம்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Introduced by**"
+        "en": "**Introduced by**",
+        "ta": "**அறிமுகப்படுத்தியவர்**",
+        "ta_status": "draft"
        },
        {
-        "en": "E. M. Southern, 1975"
+        "en": "E. M. Southern, 1975",
+        "ta": "இ. எம். சதர்ன், 1975",
+        "ta_status": "draft"
        },
        {
-        "en": "Alwine, Kemp & Stark, 1977"
+        "en": "Alwine, Kemp & Stark, 1977",
+        "ta": "அல்வைன், கெம்ப் & ஸ்டார்க், 1977",
+        "ta_status": "draft"
        },
        {
-        "en": "Towbin et al., 1979 (named by Burnette, 1981)"
+        "en": "Towbin et al., 1979 (named by Burnette, 1981)",
+        "ta": "டவ்பின் மற்றும் பலர், 1979 (பர்னெட்டால் பெயரிடப்பட்டது, 1981)",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Gel**"
+        "en": "**Gel**",
+        "ta": "**ஜெல்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Agarose (native)"
+        "en": "Agarose (native)",
+        "ta": "அகரோஸ் (இயல்பு நிலை)",
+        "ta_status": "draft"
        },
        {
-        "en": "Denaturing agarose (formaldehyde)"
+        "en": "Denaturing agarose (formaldehyde)",
+        "ta": "இயல்பிழக்கச் செய்யும் அகரோஸ் (ஃபார்மால்டிஹைடு)",
+        "ta_status": "draft"
        },
        {
-        "en": "SDS-PAGE"
+        "en": "SDS-PAGE",
+        "ta": "SDS-PAGE",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Pre-transfer treatment**"
+        "en": "**Pre-transfer treatment**",
+        "ta": "**மாற்றத்துக்கு முந்தைய சிகிச்சை**",
+        "ta_status": "draft"
        },
        {
-        "en": "Restriction digestion; depurination; alkali denaturation"
+        "en": "Restriction digestion; depurination; alkali denaturation",
+        "ta": "ரெஸ்ட்ரிக்ஷன் செரித்தல்; டீபியூரினேஷன்; காரத்தால் இயல்பிழக்கச் செய்தல்",
+        "ta_status": "draft"
        },
        {
-        "en": "Denatured by formaldehyde in the gel; no alkali (RNA would hydrolyse)"
+        "en": "Denatured by formaldehyde in the gel; no alkali (RNA would hydrolyse)",
+        "ta": "ஜெல்லிலுள்ள ஃபார்மால்டிஹைடால் இயல்பிழக்கம்; காரம் இல்லை (RNA நீராற்பகுப்படையும்)",
+        "ta_status": "draft"
        },
        {
-        "en": "SDS denatures protein"
+        "en": "SDS denatures protein",
+        "ta": "SDS புரதத்தை இயல்பிழக்கச் செய்கிறது",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Transfer**"
+        "en": "**Transfer**",
+        "ta": "**மாற்றம்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Capillary (or vacuum)"
+        "en": "Capillary (or vacuum)",
+        "ta": "நுண்புழை (அல்லது வெற்றிடம்)",
+        "ta_status": "draft"
        },
        {
-        "en": "Capillary"
+        "en": "Capillary",
+        "ta": "நுண்புழை",
+        "ta_status": "draft"
        },
        {
-        "en": "Electroblotting (wet/semi-dry)"
+        "en": "Electroblotting (wet/semi-dry)",
+        "ta": "மின்பிளாட்டிங் (ஈர/அரை உலர்)",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Membrane**"
+        "en": "**Membrane**",
+        "ta": "**சவ்வு**",
+        "ta_status": "draft"
        },
        {
-        "en": "Nylon / nitrocellulose"
+        "en": "Nylon / nitrocellulose",
+        "ta": "நைலான் / நைட்ரோசெல்லுலோஸ்",
+        "ta_status": "draft"
        },
        {
-        "en": "Nylon (preferred)"
+        "en": "Nylon (preferred)",
+        "ta": "நைலான் (விரும்பப்படுவது)",
+        "ta_status": "draft"
        },
        {
-        "en": "Nitrocellulose / PVDF"
+        "en": "Nitrocellulose / PVDF",
+        "ta": "நைட்ரோசெல்லுலோஸ் / PVDF",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Probe**"
+        "en": "**Probe**",
+        "ta": "**துருவி**",
+        "ta_status": "draft"
        },
        {
-        "en": "Labelled DNA/RNA"
+        "en": "Labelled DNA/RNA",
+        "ta": "குறியிடப்பட்ட DNA/RNA",
+        "ta_status": "draft"
        },
        {
-        "en": "Labelled DNA/RNA"
+        "en": "Labelled DNA/RNA",
+        "ta": "குறியிடப்பட்ட DNA/RNA",
+        "ta_status": "draft"
        },
        {
-        "en": "Primary antibody + enzyme-linked secondary antibody"
+        "en": "Primary antibody + enzyme-linked secondary antibody",
+        "ta": "முதல்நிலை எதிர்ப்பொருள் + நொதி இணைந்த இரண்டாம்நிலை எதிர்ப்பொருள்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Answers**"
+        "en": "**Answers**",
+        "ta": "**விடையளிப்பது**",
+        "ta_status": "draft"
        },
        {
-        "en": "Is the gene present? How many copies? Fragment size"
+        "en": "Is the gene present? How many copies? Fragment size",
+        "ta": "மரபணு உள்ளதா? எத்தனை நகல்கள்? துண்டின் அளவு",
+        "ta_status": "draft"
        },
        {
-        "en": "Is the gene expressed? Transcript size and amount"
+        "en": "Is the gene expressed? Transcript size and amount",
+        "ta": "மரபணு வெளிப்படுகிறதா? படியின் அளவும் அளவீடும்",
+        "ta_status": "draft"
        },
        {
-        "en": "Is the protein present? Size and amount"
+        "en": "Is the protein present? Size and amount",
+        "ta": "புரதம் உள்ளதா? அளவும் அளவீடும்",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -325,39 +463,51 @@
   {
    "id": "s04",
    "title": {
-    "en": "Southern Blotting (DNA)"
+    "en": "Southern Blotting (DNA)",
+    "ta": "சதர்ன் பிளாட்டிங் (DNA)",
+    "ta_status": "bracketed"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Southern blotting detects a specific DNA sequence in a complex DNA sample such as the whole genome."
+      "en": "Southern blotting detects a specific DNA sequence in a complex DNA sample such as the whole genome.",
+      "ta": "முழு மரபணுத்தொகை போன்ற சிக்கலான DNA மாதிரியில் குறிப்பிட்ட DNA வரிசையைச் சதர்ன் பிளாட்டிங் கண்டறிகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Southern blot\nA method to detect a specific DNA fragment among many by transferring size-separated, denatured DNA from an agarose gel to a membrane and hybridising it with a labelled complementary probe.\nEdwin M. Southern, 1975"
+      "en": "Southern blot\nA method to detect a specific DNA fragment among many by transferring size-separated, denatured DNA from an agarose gel to a membrane and hybridising it with a labelled complementary probe.\nEdwin M. Southern, 1975",
+      "ta": "சதர்ன் பிளாட்\nஅளவால் பிரிக்கப்பட்ட, இயல்பிழந்த DNA-வை அகரோஸ் ஜெல்லிலிருந்து சவ்வுக்கு மாற்றி, குறியிடப்பட்ட நிரப்புத் துருவியுடன் கலப்பினமாக்கி, பலவற்றுள் குறிப்பிட்ட DNA துண்டைக் கண்டறியும் முறை.\nஎட்வின் எம். சதர்ன், 1975",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Principle**"
+      "en": "**Principle**",
+      "ta": "**கோட்பாடு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Single-stranded DNA on the membrane forms **hydrogen-bonded hybrids** only with a probe of complementary sequence. After washing away unbound probe, the label shows where the target fragment lies."
+      "en": "Single-stranded DNA on the membrane forms **hydrogen-bonded hybrids** only with a probe of complementary sequence. After washing away unbound probe, the label shows where the target fragment lies.",
+      "ta": "சவ்வுமேல் உள்ள ஒற்றை இழை DNA, நிரப்பு வரிசையுள்ள துருவியுடன் மட்டுமே **ஹைட்ரஜன் பிணைப்புக் கலப்பினங்களை** உருவாக்குகிறது. பிணையாத துருவியைக் கழுவி நீக்கிய பின், குறியீடு இலக்குத் துண்டு உள்ள இடத்தைக் காட்டுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "blotting_techniques-d01",
      "caption": {
-      "en": "Fig. 1. Capillary transfer set-up used in Southern (and Northern) blotting. Buffer rises through the gel, carrying nucleic acids onto the membrane."
+      "en": "Fig. 1. Capillary transfer set-up used in Southern (and Northern) blotting. Buffer rises through the gel, carrying nucleic acids onto the membrane.",
+      "ta": "படம் 1. சதர்ன் (மற்றும் நார்தர்ன்) பிளாட்டிங்கில் பயன்படும் நுண்புழை மாற்ற அமைப்பு. இடையகம் ஜெல் வழியாக மேலேறி நியூக்ளிக் அமிலங்களைச் சவ்வுக்குக் கொண்டு செல்கிறது.",
+      "ta_status": "draft"
      },
      "labels": [
       "Buffer reservoir (20× SSC / alkaline buffer)",
@@ -379,67 +529,89 @@
     {
      "type": "p",
      "text": {
-      "en": "**Steps in Southern blotting (click each step)**"
+      "en": "**Steps in Southern blotting (click each step)**",
+      "ta": "**சதர்ன் பிளாட்டிங்கின் படிகள் (ஒவ்வொன்றையும் தொடுக)**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**1. Digest**restriction enzyme"
+      "en": "**1. Digest**restriction enzyme",
+      "ta": "**1. செரித்தல்**ரெஸ்ட்ரிக்ஷன் நொதி",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**2. Electrophoresis**agarose gel"
+      "en": "**2. Electrophoresis**agarose gel",
+      "ta": "**2. மின்னாற்பகுப்பு**அகரோஸ் ஜெல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**3. Denature**HCl then NaOH"
+      "en": "**3. Denature**HCl then NaOH",
+      "ta": "**3. இயல்பிழக்கச் செய்தல்**HCl பின் NaOH",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**4. Transfer**capillary blot"
+      "en": "**4. Transfer**capillary blot",
+      "ta": "**4. மாற்றுதல்**நுண்புழைப் பிளாட்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**5. Fix**UV / bake"
+      "en": "**5. Fix**UV / bake",
+      "ta": "**5. பொருத்துதல்**UV / சூடாக்கல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**6. Hybridise**labelled probe"
+      "en": "**6. Hybridise**labelled probe",
+      "ta": "**6. கலப்பினமாக்கல்**குறியிடப்பட்ட துருவி",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**7. Wash & detect**autoradiography"
+      "en": "**7. Wash & detect**autoradiography",
+      "ta": "**7. கழுவிக் கண்டறிதல்**தன்படமெடுத்தல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click a step to see what happens."
+      "en": "Click a step to see what happens.",
+      "ta": "ஒரு படியைத் தொட்டு என்ன நடக்கிறது என்பதை அறிக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Key points to remember**"
+      "en": "**Key points to remember**",
+      "ta": "**நினைவில் கொள்ள வேண்டிய முக்கியக் குறிப்புகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Probes and labels▼"
+      "en": "Probes and labels▼",
+      "ta": "துருவிகளும் குறியீடுகளும்▼",
+      "ta_status": "draft"
      }
     },
     {
@@ -447,20 +619,28 @@
      "ordered": false,
      "items": [
       {
-       "en": "A **probe** is a short single-stranded DNA/RNA complementary to the target."
+       "en": "A **probe** is a short single-stranded DNA/RNA complementary to the target.",
+       "ta": "**துருவி** என்பது இலக்குக்கு நிரப்பான குறுகிய ஒற்றை இழை DNA/RNA.",
+       "ta_status": "draft"
       },
       {
-       "en": "Radioactive label: 32P (very sensitive, hazardous)."
+       "en": "Radioactive label: 32P (very sensitive, hazardous).",
+       "ta": "கதிரியக்கக் குறியீடு: 32P (மிக உணர்திறன் உடையது, ஆபத்தானது).",
+       "ta_status": "draft"
       },
       {
-       "en": "Non-radioactive: digoxigenin (DIG), biotin, fluorescence — safer and widely used now."
+       "en": "Non-radioactive: digoxigenin (DIG), biotin, fluorescence — safer and widely used now.",
+       "ta": "கதிரியக்கமற்றவை: டிகாக்சிஜெனின் (DIG), பயோட்டின், ஒளிர்வு — பாதுகாப்பானவை, இப்போது பரவலாகப் பயன்படுகின்றன.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "Stringency▼"
+      "en": "Stringency▼",
+      "ta": "கடுமைத்தன்மை▼",
+      "ta_status": "draft"
      }
     },
     {
@@ -468,32 +648,44 @@
      "ordered": false,
      "items": [
       {
-       "en": "Stringency = how strictly the probe must match to stay bound."
+       "en": "Stringency = how strictly the probe must match to stay bound.",
+       "ta": "கடுமைத்தன்மை = துருவி பிணைந்திருக்க எவ்வளவு கண்டிப்பாகப் பொருந்த வேண்டும் என்பது.",
+       "ta_status": "draft"
       },
       {
-       "en": "It is raised by **higher temperature** and **lower salt concentration**."
+       "en": "It is raised by **higher temperature** and **lower salt concentration**.",
+       "ta": "**அதிக வெப்பநிலை**, **குறைந்த உப்புச் செறிவு** இதை உயர்த்துகின்றன.",
+       "ta_status": "draft"
       },
       {
-       "en": "High stringency discards mismatched hybrids and reduces false positives."
+       "en": "High stringency discards mismatched hybrids and reduces false positives.",
+       "ta": "அதிகக் கடுமைத்தன்மை பொருந்தாத கலப்பினங்களை நீக்கி, தவறான நேர்மறைகளைக் குறைக்கிறது.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "Why alkali denaturation?▼"
+      "en": "Why alkali denaturation?▼",
+      "ta": "காரத்தால் ஏன் இயல்பிழக்கச் செய்ய வேண்டும்?▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Double-stranded DNA is not efficiently retained by the membrane and cannot hybridise with the probe. Single strands bind and leave bases free to pair with the probe."
+      "en": "Double-stranded DNA is not efficiently retained by the membrane and cannot hybridise with the probe. Single strands bind and leave bases free to pair with the probe.",
+      "ta": "இரட்டை இழை DNA சவ்வில் திறம்பட நிலைத்திருக்காது; துருவியுடன் கலப்பினமாகவும் இயலாது. ஒற்றை இழைகள் பிணைந்து, துருவியுடன் இணைய காரணிகளை விடுவிக்கின்றன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Applications of Southern blotting**"
+      "en": "**Applications of Southern blotting**",
+      "ta": "**சதர்ன் பிளாட்டிங்கின் பயன்பாடுகள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -501,19 +693,29 @@
      "ordered": false,
      "items": [
       {
-       "en": "Detecting a particular gene or confirming a cloned insert in a recombinant clone."
+       "en": "Detecting a particular gene or confirming a cloned insert in a recombinant clone.",
+       "ta": "மறுகூட்டிணைவுக் குளோனில் குறிப்பிட்ட மரபணுவைக் கண்டறிதல் அல்லது நகலாக்கிய செருகியை உறுதிப்படுத்துதல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Checking **transgene integration** and copy number in transgenic animals/plants."
+       "en": "Checking **transgene integration** and copy number in transgenic animals/plants.",
+       "ta": "மாற்றுயிர் விலங்குகள்/தாவரங்களில் **மாற்றுமரபணு இணைவையும்** நகல் எண்ணிக்கையையும் சரிபார்த்தல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Restriction mapping and **RFLP analysis**."
+       "en": "Restriction mapping and **RFLP analysis**.",
+       "ta": "ரெஸ்ட்ரிக்ஷன் வரைபடமாக்கலும் **RFLP பகுப்பாய்வும்**.",
+       "ta_status": "draft"
       },
       {
-       "en": "DNA fingerprinting (VNTR analysis) — paternity and forensic testing."
+       "en": "DNA fingerprinting (VNTR analysis) — paternity and forensic testing.",
+       "ta": "DNA கைரேகைப் பதிவு (VNTR பகுப்பாய்வு) — தந்தைமை, தடயவியல் சோதனை.",
+       "ta_status": "bracketed"
       },
       {
-       "en": "Detecting gene rearrangements, deletions and amplification in genetic disease and cancer."
+       "en": "Detecting gene rearrangements, deletions and amplification in genetic disease and cancer.",
+       "ta": "மரபுநோய், புற்றுநோயில் மரபணு மறுசீரமைப்புகள், நீக்கங்கள், பெருக்கங்களைக் கண்டறிதல்.",
+       "ta_status": "draft"
       }
      ]
     }
@@ -523,84 +725,122 @@
   {
    "id": "s05",
    "title": {
-    "en": "Northern Blotting (RNA)"
+    "en": "Northern Blotting (RNA)",
+    "ta": "நார்தர்ன் பிளாட்டிங் (RNA)",
+    "ta_status": "bracketed"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Northern blotting measures the size and abundance of a specific RNA, so it shows whether a gene is expressed."
+      "en": "Northern blotting measures the size and abundance of a specific RNA, so it shows whether a gene is expressed.",
+      "ta": "நார்தர்ன் பிளாட்டிங் குறிப்பிட்ட RNA-வின் அளவையும் மிகுதியையும் அளவிடுவதால், மரபணு வெளிப்படுகிறதா என்பதைக் காட்டுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Northern blot\nA technique for detecting a specific RNA (usually mRNA) in a sample by size-separation on a denaturing gel, transfer to a membrane and hybridisation with a labelled probe.\nAlwine, Kemp and Stark, 1977"
+      "en": "Northern blot\nA technique for detecting a specific RNA (usually mRNA) in a sample by size-separation on a denaturing gel, transfer to a membrane and hybridisation with a labelled probe.\nAlwine, Kemp and Stark, 1977",
+      "ta": "நார்தர்ன் பிளாட்\nமாதிரியிலுள்ள குறிப்பிட்ட RNA-வை (பொதுவாக mRNA) இயல்பிழக்கச் செய்யும் ஜெல்லில் அளவால் பிரித்து, சவ்வுக்கு மாற்றி, குறியிடப்பட்ட துருவியுடன் கலப்பினமாக்கிக் கண்டறியும் நுட்பம்.\nஅல்வைன், கெம்ப் மற்றும் ஸ்டார்க், 1977",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**How it differs from Southern blotting**"
+      "en": "**How it differs from Southern blotting**",
+      "ta": "**சதர்ன் பிளாட்டிங்கிலிருந்து இது எவ்வாறு வேறுபடுகிறது**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "table",
      "header": [
       {
-       "en": "Step"
+       "en": "Step",
+       "ta": "படி",
+       "ta_status": "draft"
       },
       {
-       "en": "Southern"
+       "en": "Southern",
+       "ta": "சதர்ன்",
+       "ta_status": "draft"
       },
       {
-       "en": "Northern"
+       "en": "Northern",
+       "ta": "நார்தர்ன்",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Starting material**"
+        "en": "**Starting material**",
+        "ta": "**தொடக்கப் பொருள்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Genomic DNA, restriction-digested"
+        "en": "Genomic DNA, restriction-digested",
+        "ta": "மரபணு தொகைய DNA, ரெஸ்ட்ரிக்ஷன் நொதியால் செரிக்கப்பட்டது",
+        "ta_status": "draft"
        },
        {
-        "en": "Total RNA or poly(A)+ mRNA (no digestion)"
+        "en": "Total RNA or poly(A)+ mRNA (no digestion)",
+        "ta": "மொத்த RNA அல்லது poly(A)+ mRNA (செரித்தல் இல்லை)",
+        "ta_status": "bracketed"
        }
       ],
       [
        {
-        "en": "**Gel**"
+        "en": "**Gel**",
+        "ta": "**ஜெல்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Ordinary agarose"
+        "en": "Ordinary agarose",
+        "ta": "சாதாரண அகரோஸ்",
+        "ta_status": "draft"
        },
        {
-        "en": "**Formaldehyde** (or glyoxal) denaturing agarose"
+        "en": "**Formaldehyde** (or glyoxal) denaturing agarose",
+        "ta": "**ஃபார்மால்டிஹைடு** (அல்லது கிளையாக்சல்) இயல்பிழக்கச் செய்யும் அகரோஸ்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Alkali treatment**"
+        "en": "**Alkali treatment**",
+        "ta": "**கார சிகிச்சை**",
+        "ta_status": "draft"
        },
        {
-        "en": "Yes (NaOH)"
+        "en": "Yes (NaOH)",
+        "ta": "ஆம் (NaOH)",
+        "ta_status": "bracketed"
        },
        {
-        "en": "**No** — alkali hydrolyses RNA"
+        "en": "**No** — alkali hydrolyses RNA",
+        "ta": "**இல்லை** — காரம் RNA-வை நீராற்பகுக்கும்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Precautions**"
+        "en": "**Precautions**",
+        "ta": "**முன்னெச்சரிக்கைகள்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Routine"
+        "en": "Routine",
+        "ta": "வழக்கமானவை",
+        "ta_status": "draft"
        },
        {
-        "en": "Strict **RNase-free** technique: DEPC-treated water, gloves"
+        "en": "Strict **RNase-free** technique: DEPC-treated water, gloves",
+        "ta": "கண்டிப்பான **RNase-அற்ற** நுட்பம்: DEPC சிகிச்சையளித்த நீர், கையுறைகள்",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -609,98 +849,130 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Why a denaturing gel?**\nRNA is single-stranded but folds into secondary structures (hairpins). Denaturants keep it unfolded so that migration depends on **length only** and size can be read against an RNA ladder."
+      "en": "**Why a denaturing gel?**\nRNA is single-stranded but folds into secondary structures (hairpins). Denaturants keep it unfolded so that migration depends on **length only** and size can be read against an RNA ladder.",
+      "ta": "**இயல்பிழக்கச் செய்யும் ஜெல் ஏன்?**\nRNA ஒற்றை இழையாயினும் இரண்டாம்நிலை அமைப்புகளாக (முடிச்சுகள்) மடிகிறது. இயல்பிழக்கச் செய்பவை அதை விரித்த நிலையில் வைப்பதால் நகர்வு **நீளத்தை மட்டுமே** சார்ந்து, RNA ஏணியுடன் ஒப்பிட்டு அளவை வாசிக்க முடிகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Steps**"
+      "en": "**Steps**",
+      "ta": "**படிகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**1. Isolate RNA**RNase-free"
+      "en": "**1. Isolate RNA**RNase-free",
+      "ta": "**1. RNA தனிப்பிரிப்பு**RNase-அற்றது",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**2. Gel run**formaldehyde agarose"
+      "en": "**2. Gel run**formaldehyde agarose",
+      "ta": "**2. ஜெல் ஓட்டம்**ஃபார்மால்டிஹைடு அகரோஸ்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**3. Transfer**capillary to nylon"
+      "en": "**3. Transfer**capillary to nylon",
+      "ta": "**3. மாற்றுதல்**நைலானுக்கு நுண்புழை",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**4. Hybridise**labelled probe"
+      "en": "**4. Hybridise**labelled probe",
+      "ta": "**4. கலப்பினமாக்கல்**குறியிடப்பட்ட துருவி",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**5. Detect & compare**band intensity"
+      "en": "**5. Detect & compare**band intensity",
+      "ta": "**5. கண்டறிந்து ஒப்பிடுதல்**பட்டைச் செறிவு",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click a step to see what happens."
+      "en": "Click a step to see what happens.",
+      "ta": "ஒரு படியைத் தொட்டு என்ன நடக்கிறது என்பதை அறிக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**What it tells us**"
+      "en": "**What it tells us**",
+      "ta": "**இது நமக்கு என்ன சொல்கிறது**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Gene expression**"
+      "en": "**Gene expression**",
+      "ta": "**மரபணு வெளிப்பாடு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Is the gene transcribed in this tissue? How much?"
+      "en": "Is the gene transcribed in this tissue? How much?",
+      "ta": "இத்திசுவில் மரபணு படியெடுக்கப்படுகிறதா? எவ்வளவு?",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Transcript size**"
+      "en": "**Transcript size**",
+      "ta": "**படியின் அளவு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Detects alternative splicing and different mRNA isoforms."
+      "en": "Detects alternative splicing and different mRNA isoforms.",
+      "ta": "மாற்று பிளவுறுதலையும் வெவ்வேறு mRNA ஐசோஃபார்ம்களையும் கண்டறிகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Timing**"
+      "en": "**Timing**",
+      "ta": "**நேரம்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Compare samples across development, stress or drug treatment."
+      "en": "Compare samples across development, stress or drug treatment.",
+      "ta": "வளர்ச்சி, அழுத்தம் அல்லது மருந்துச் சிகிச்சையின்போது மாதிரிகளை ஒப்பிடுக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Note for exams**\nToday, **RT-qPCR** and RNA-seq are more sensitive and quantitative, but Northern blotting remains the classic method to show transcript _size_ directly."
+      "en": "**Note for exams**\nToday, **RT-qPCR** and RNA-seq are more sensitive and quantitative, but Northern blotting remains the classic method to show transcript _size_ directly.",
+      "ta": "**தேர்வுக்கான குறிப்பு**\nஇன்று **RT-qPCR**, RNA-seq மிக உணர்திறனும் அளவீட்டுத் திறனும் உடையவை; ஆயினும் படியின் _அளவை_ நேரடியாகக் காட்டும் செவ்வியல் முறையாக நார்தர்ன் பிளாட்டிங் நீடிக்கிறது.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -709,138 +981,194 @@
   {
    "id": "s06",
    "title": {
-    "en": "Western Blotting (Protein)"
+    "en": "Western Blotting (Protein)",
+    "ta": "வெஸ்டர்ன் பிளாட்டிங் (புரதம்)",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Western blotting identifies a specific protein in a mixture using antibodies. It is also called immunoblotting."
+      "en": "Western blotting identifies a specific protein in a mixture using antibodies. It is also called immunoblotting.",
+      "ta": "வெஸ்டர்ன் பிளாட்டிங் கலவையிலுள்ள குறிப்பிட்ட புரதத்தை எதிர்ப்பொருள்களால் அடையாளம் காண்கிறது. நோயெதிர்ப்பு பிளாட்டிங் எனவும் அழைக்கப்படும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Western blot (immunoblot)\nA technique in which proteins separated by SDS-PAGE are electrophoretically transferred to a membrane and detected with a specific primary antibody and an enzyme-linked secondary antibody.\nTowbin et al., 1979; named by W. N. Burnette, 1981"
+      "en": "Western blot (immunoblot)\nA technique in which proteins separated by SDS-PAGE are electrophoretically transferred to a membrane and detected with a specific primary antibody and an enzyme-linked secondary antibody.\nTowbin et al., 1979; named by W. N. Burnette, 1981",
+      "ta": "வெஸ்டர்ன் பிளாட் (நோயெதிர்ப்பு பிளாட்)\nSDS-PAGE-யால் பிரிக்கப்பட்ட புரதங்கள் மின்னாற்றலால் சவ்வுக்கு மாற்றப்பட்டு, குறிப்பிட்ட முதல்நிலை எதிர்ப்பொருளாலும் நொதி இணைந்த இரண்டாம்நிலை எதிர்ப்பொருளாலும் கண்டறியப்படும் நுட்பம்.\nடவ்பின் மற்றும் பலர், 1979; டபிள்யூ. என். பர்னெட்டால் பெயரிடப்பட்டது, 1981",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Steps (click each step)**"
+      "en": "**Steps (click each step)**",
+      "ta": "**படிகள் (ஒவ்வொன்றையும் தொடுக)**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**1. Sample prep**lysis"
+      "en": "**1. Sample prep**lysis",
+      "ta": "**1. மாதிரித் தயாரிப்பு**செல் சிதைத்தல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**2. SDS-PAGE**separate by size"
+      "en": "**2. SDS-PAGE**separate by size",
+      "ta": "**2. SDS-PAGE**அளவால் பிரித்தல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**3. Electroblot**gel → membrane"
+      "en": "**3. Electroblot**gel → membrane",
+      "ta": "**3. மின்பிளாட்டிங்**ஜெல் → சவ்வு",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**4. Block**BSA / milk"
+      "en": "**4. Block**BSA / milk",
+      "ta": "**4. அடைத்தல்**BSA / பால்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**5. Primary Ab**specific binding"
+      "en": "**5. Primary Ab**specific binding",
+      "ta": "**5. முதல்நிலை எதிர்ப்பொருள்**குறிப்பிட்ட பிணைப்பு",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**6. Secondary Ab**enzyme-linked"
+      "en": "**6. Secondary Ab**enzyme-linked",
+      "ta": "**6. இரண்டாம்நிலை எதிர்ப்பொருள்**நொதி இணைந்தது",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**7. Detect**ECL / colour"
+      "en": "**7. Detect**ECL / colour",
+      "ta": "**7. கண்டறிதல்**ECL / நிறம்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click a step to see what happens."
+      "en": "Click a step to see what happens.",
+      "ta": "ஒரு படியைத் தொட்டு என்ன நடக்கிறது என்பதை அறிக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Primary versus secondary antibody**"
+      "en": "**Primary versus secondary antibody**",
+      "ta": "**முதல்நிலை – இரண்டாம்நிலை எதிர்ப்பொருள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "table",
      "header": [
       {
-       "en": ""
+       "en": "",
+       "ta": "",
+       "ta_status": "draft"
       },
       {
-       "en": "Primary antibody"
+       "en": "Primary antibody",
+       "ta": "முதல்நிலை எதிர்ப்பொருள்",
+       "ta_status": "draft"
       },
       {
-       "en": "Secondary antibody"
+       "en": "Secondary antibody",
+       "ta": "இரண்டாம்நிலை எதிர்ப்பொருள்",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Binds to**"
+        "en": "**Binds to**",
+        "ta": "**பிணைவது**",
+        "ta_status": "draft"
        },
        {
-        "en": "The target protein (antigen)"
+        "en": "The target protein (antigen)",
+        "ta": "இலக்குப் புரதம் (எதிர்ப்பொருள் ஊக்கி)",
+        "ta_status": "draft"
        },
        {
-        "en": "The Fc region of the primary antibody"
+        "en": "The Fc region of the primary antibody",
+        "ta": "முதல்நிலை எதிர்ப்பொருளின் Fc பகுதி",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Label**"
+        "en": "**Label**",
+        "ta": "**குறியீடு**",
+        "ta_status": "draft"
        },
        {
-        "en": "Usually unlabelled"
+        "en": "Usually unlabelled",
+        "ta": "பொதுவாகக் குறியிடப்படாதது",
+        "ta_status": "draft"
        },
        {
-        "en": "Enzyme (HRP/AP) or fluorophore"
+        "en": "Enzyme (HRP/AP) or fluorophore",
+        "ta": "நொதி (HRP/AP) அல்லது ஒளிர்வுப் பொருள்",
+        "ta_status": "bracketed"
        }
       ],
       [
        {
-        "en": "**Raised in**"
+        "en": "**Raised in**",
+        "ta": "**உருவாக்கப்பட்ட உயிரினம்**",
+        "ta_status": "draft"
        },
        {
-        "en": "e.g. mouse, rabbit"
+        "en": "e.g. mouse, rabbit",
+        "ta": "எ.கா. எலி, முயல்",
+        "ta_status": "draft"
        },
        {
-        "en": "Another species against the primary's species (e.g. goat anti-mouse IgG)"
+        "en": "Another species against the primary's species (e.g. goat anti-mouse IgG)",
+        "ta": "முதல்நிலை எதிர்ப்பொருளின் சிற்றினத்துக்கு எதிராக வேறொரு சிற்றினம் (எ.கா. ஆடு எதிர்-எலி IgG)",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Benefit**"
+        "en": "**Benefit**",
+        "ta": "**நன்மை**",
+        "ta_status": "draft"
        },
        {
-        "en": "Specificity"
+        "en": "Specificity",
+        "ta": "தனித்தன்மை",
+        "ta_status": "draft"
        },
        {
-        "en": "Signal amplification — one primary binds several secondaries"
+        "en": "Signal amplification — one primary binds several secondaries",
+        "ta": "சமிக்ஞைப் பெருக்கம் — ஒரு முதல்நிலை எதிர்ப்பொருளுடன் பல இரண்டாம்நிலை எதிர்ப்பொருள்கள் பிணைகின்றன",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -849,14 +1177,18 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Applications**\n• **Diagnosis of HIV**: confirmatory test after a positive ELISA (detects antibodies to viral proteins).\n• Confirming expression of a **recombinant protein**.\n• Studying protein modification (phosphorylation) and degradation.\n• Detecting disease proteins such as prion protein (BSE)."
+      "en": "**Applications**\n• **Diagnosis of HIV**: confirmatory test after a positive ELISA (detects antibodies to viral proteins).\n• Confirming expression of a **recombinant protein**.\n• Studying protein modification (phosphorylation) and degradation.\n• Detecting disease proteins such as prion protein (BSE).",
+      "ta": "**பயன்பாடுகள்**\n• **HIV நோயறிதல்**: ELISA நேர்மறைக்குப் பின் உறுதிப்படுத்தும் சோதனை (வைரஸ் புரதங்களுக்கெதிரான எதிர்ப்பொருள்களைக் கண்டறிகிறது).\n• **மறுகூட்டிணைவுப் புரதத்தின்** வெளிப்பாட்டை உறுதிப்படுத்துதல்.\n• புரத மாற்றங்களையும் (பாஸ்பேட்டேற்றம்) சிதைவையும் ஆய்வு செய்தல்.\n• பிரியான் புரதம் (BSE) போன்ற நோய்ப் புரதங்களைக் கண்டறிதல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Common problems**\n• **High background** → insufficient blocking or too much antibody.\n• **No band** → poor transfer or inactive antibody.\n• **Extra bands** → degradation or cross-reactivity."
+      "en": "**Common problems**\n• **High background** → insufficient blocking or too much antibody.\n• **No band** → poor transfer or inactive antibody.\n• **Extra bands** → degradation or cross-reactivity.",
+      "ta": "**பொதுவான சிக்கல்கள்**\n• **அதிகப் பின்னணி** → போதிய அடைப்பின்மை அல்லது அதிக எதிர்ப்பொருள்.\n• **பட்டை இல்லை** → மோசமான மாற்றம் அல்லது செயலற்ற எதிர்ப்பொருள்.\n• **கூடுதல் பட்டைகள்** → சிதைவு அல்லது குறுக்கு வினை.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -865,184 +1197,252 @@
   {
    "id": "s07",
    "title": {
-    "en": "Interactive Practice & Related Blots"
+    "en": "Interactive Practice & Related Blots",
+    "ta": "ஊடாடும் பயிற்சியும் தொடர்புடைய பிளாட்டுகளும்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Reveal the answers, then use the decision table to choose the right blot."
+      "en": "Reveal the answers, then use the decision table to choose the right blot.",
+      "ta": "விடைகளை அறிந்து, பின் முடிவு அட்டவணையைப் பயன்படுத்திச் சரியான பிளாட்டைத் தேர்ந்தெடுக்க.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Click to reveal**"
+      "en": "**Click to reveal**",
+      "ta": "**தொட்டு அறிக**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Which blot for DNA?**"
+      "en": "**Which blot for DNA?**",
+      "ta": "**DNA-வுக்கு எந்தப் பிளாட்?**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click to reveal"
+      "en": "Click to reveal",
+      "ta": "அறியத் தொடுக",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Answer**Southern** blot (Edwin Southern, 1975)."
+      "en": "Answer**Southern** blot (Edwin Southern, 1975).",
+      "ta": "விடை**சதர்ன்** பிளாட் (எட்வின் சதர்ன், 1975).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Which blot for RNA?**"
+      "en": "**Which blot for RNA?**",
+      "ta": "**RNA-வுக்கு எந்தப் பிளாட்?**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click to reveal"
+      "en": "Click to reveal",
+      "ta": "அறியத் தொடுக",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Answer**Northern** blot. It measures gene expression and transcript size."
+      "en": "Answer**Northern** blot. It measures gene expression and transcript size.",
+      "ta": "விடை**நார்தர்ன்** பிளாட். இது மரபணு வெளிப்பாட்டையும் படியின் அளவையும் அளவிடுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Which blot for protein?**"
+      "en": "**Which blot for protein?**",
+      "ta": "**புரதத்துக்கு எந்தப் பிளாட்?**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click to reveal"
+      "en": "Click to reveal",
+      "ta": "அறியத் தொடுக",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Answer**Western** blot (immunoblot) using antibodies."
+      "en": "Answer**Western** blot (immunoblot) using antibodies.",
+      "ta": "விடை எதிர்ப்பொருள்களைப் பயன்படுத்தும் **வெஸ்டர்ன்** பிளாட் (நோயெதிர்ப்பு பிளாட்).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Why is NaOH not used in Northern blotting?**"
+      "en": "**Why is NaOH not used in Northern blotting?**",
+      "ta": "**நார்தர்ன் பிளாட்டிங்கில் NaOH ஏன் பயன்படுத்தப்படுவதில்லை?**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click to reveal"
+      "en": "Click to reveal",
+      "ta": "அறியத் தொடுக",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "AnswerAlkali **hydrolyses RNA**; formaldehyde is used for denaturation instead."
+      "en": "AnswerAlkali **hydrolyses RNA**; formaldehyde is used for denaturation instead.",
+      "ta": "விடைகாரம் **RNA-வை நீராற்பகுக்கிறது**; இயல்பிழக்கச் செய்ய ஃபார்மால்டிஹைடு பயன்படுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Purpose of blocking**"
+      "en": "**Purpose of blocking**",
+      "ta": "**அடைத்தலின் நோக்கம்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click to reveal"
+      "en": "Click to reveal",
+      "ta": "அறியத் தொடுக",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "AnswerTo cover free membrane sites so probe/antibody does not bind non-specifically (reduces background)."
+      "en": "AnswerTo cover free membrane sites so probe/antibody does not bind non-specifically (reduces background).",
+      "ta": "விடைசவ்வின் காலித் தளங்களை மூடி, துருவி/எதிர்ப்பொருள் குறிப்பிட்டதல்லாதவற்றுடன் பிணைவதைத் தடுக்க (பின்னணியைக் குறைக்க).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**HIV confirmation test**"
+      "en": "**HIV confirmation test**",
+      "ta": "**HIV உறுதிப்படுத்தும் சோதனை**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click to reveal"
+      "en": "Click to reveal",
+      "ta": "அறியத் தொடுக",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Answer**Western blot** detecting antibodies to HIV proteins."
+      "en": "Answer**Western blot** detecting antibodies to HIV proteins.",
+      "ta": "விடை HIV புரதங்களுக்கெதிரான எதிர்ப்பொருள்களைக் கண்டறியும் **வெஸ்டர்ன் பிளாட்**.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Which blot should I use?**"
+      "en": "**Which blot should I use?**",
+      "ta": "**நான் எந்தப் பிளாட்டைப் பயன்படுத்த வேண்டும்?**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "table",
      "header": [
       {
-       "en": "Question to answer"
+       "en": "Question to answer",
+       "ta": "விடையளிக்க வேண்டிய வினா",
+       "ta_status": "draft"
       },
       {
-       "en": "Choose"
+       "en": "Choose",
+       "ta": "தேர்வு",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Does a transgenic mouse carry the inserted gene, and in how many copies?**"
+        "en": "**Does a transgenic mouse carry the inserted gene, and in how many copies?**",
+        "ta": "**மாற்றுயிர் எலி செருகிய மரபணுவைச் சுமக்கிறதா? எத்தனை நகல்களில்?**",
+        "ta_status": "draft"
        },
        {
-        "en": "Southern blot (or PCR for presence)"
+        "en": "Southern blot (or PCR for presence)",
+        "ta": "சதர்ன் பிளாட் (இருப்புக்கு PCR-உம் பயன்படலாம்)",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Is a gene switched on in liver but not in muscle?**"
+        "en": "**Is a gene switched on in liver but not in muscle?**",
+        "ta": "**ஒரு மரபணு கல்லீரலில் இயக்கத்தில் உள்ளதா, தசையில் இல்லையா?**",
+        "ta_status": "draft"
        },
        {
-        "en": "Northern blot / RT-PCR"
+        "en": "Northern blot / RT-PCR",
+        "ta": "நார்தர்ன் பிளாட் / RT-PCR",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Is the recombinant protein made, and what is its size?**"
+        "en": "**Is the recombinant protein made, and what is its size?**",
+        "ta": "**மறுகூட்டிணைவுப் புரதம் உருவாகிறதா, அதன் அளவு என்ன?**",
+        "ta_status": "draft"
        },
        {
-        "en": "Western blot"
+        "en": "Western blot",
+        "ta": "வெஸ்டர்ன் பிளாட்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Does an individual carry a particular RFLP allele?**"
+        "en": "**Does an individual carry a particular RFLP allele?**",
+        "ta": "**ஒருவர் குறிப்பிட்ட RFLP அல்லீலைச் சுமக்கிறாரா?**",
+        "ta_status": "draft"
        },
        {
-        "en": "Southern blot"
+        "en": "Southern blot",
+        "ta": "சதர்ன் பிளாட்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Which protein binds a DNA sequence? (variant)**"
+        "en": "**Which protein binds a DNA sequence? (variant)**",
+        "ta": "**எந்தப் புரதம் DNA வரிசையுடன் பிணைகிறது? (மாறுபாடு)**",
+        "ta_status": "draft"
        },
        {
-        "en": "Southwestern blot"
+        "en": "Southwestern blot",
+        "ta": "சதர்ன்வெஸ்டர்ன் பிளாட்",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -1051,7 +1451,9 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Related variants**\n• **Southwestern blot** — proteins on a membrane probed with labelled DNA to find DNA-binding proteins.\n• **Dot/slot blot** — samples spotted directly without electrophoresis (presence/absence, no size).\n• **Colony hybridisation** — bacterial colonies lifted onto a membrane and probed to find recombinant clones."
+      "en": "**Related variants**\n• **Southwestern blot** — proteins on a membrane probed with labelled DNA to find DNA-binding proteins.\n• **Dot/slot blot** — samples spotted directly without electrophoresis (presence/absence, no size).\n• **Colony hybridisation** — bacterial colonies lifted onto a membrane and probed to find recombinant clones.",
+      "ta": "**தொடர்புடைய மாறுபாடுகள்**\n• **சதர்ன்வெஸ்டர்ன் பிளாட்** — சவ்வின்மேல் புரதங்களைக் குறியிடப்பட்ட DNA-வால் துருவியிட்டு DNA-பிணைப்புப் புரதங்களைக் கண்டறிதல்.\n• **புள்ளி/பிளவு பிளாட்** — மின்னாற்பகுப்பின்றி மாதிரிகளை நேரடியாகப் புள்ளியிடுதல் (இருக்கிறதா இல்லையா; அளவு தெரியாது).\n• **குழும கலப்பினமாக்கல்** — பாக்டீரியக் குழுமங்களைச் சவ்வில் ஒற்றியெடுத்துத் துருவியிட்டு மறுகூட்டிணைவுக் குளோன்களைக் கண்டறிதல்.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -1060,199 +1462,265 @@
   {
    "id": "s08",
    "title": {
-    "en": "Summary & Exam Revision"
+    "en": "Summary & Exam Revision",
+    "ta": "சுருக்கமும் தேர்வு மீள்பார்வையும்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Key points and model answers likely to appear in university examinations."
+      "en": "Key points and model answers likely to appear in university examinations.",
+      "ta": "பல்கலைக்கழகத் தேர்வுகளில் வர வாய்ப்புள்ள முக்கியக் குறிப்புகளும் மாதிரி விடைகளும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Key exam points**"
+      "en": "**Key exam points**",
+      "ta": "**முக்கியத் தேர்வுக் குறிப்புகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "1"
+      "en": "1",
+      "ta": "1",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Southern blot** (E. M. Southern, 1975) → DNA; **Northern** → RNA; **Western** → protein."
+      "en": "**Southern blot** (E. M. Southern, 1975) → DNA; **Northern** → RNA; **Western** → protein.",
+      "ta": "**சதர்ன் பிளாட்** (இ. எம். சதர்ன், 1975) → DNA; **நார்தர்ன்** → RNA; **வெஸ்டர்ன்** → புரதம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "2"
+      "en": "2",
+      "ta": "2",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Gel → membrane transfer preserves the band pattern; **probes** then locate the target."
+      "en": "Gel → membrane transfer preserves the band pattern; **probes** then locate the target.",
+      "ta": "ஜெல் → சவ்வு மாற்றம் பட்டை அமைப்பைப் பாதுகாக்கிறது; **துருவிகள்** பின் இலக்கைக் கண்டறிகின்றன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "3"
+      "en": "3",
+      "ta": "3",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Southern and Northern blots rely on **nucleic acid hybridisation**; Western relies on **antigen–antibody binding**."
+      "en": "Southern and Northern blots rely on **nucleic acid hybridisation**; Western relies on **antigen–antibody binding**.",
+      "ta": "சதர்ன், நார்தர்ன் பிளாட்டுகள் **நியூக்ளிக் அமிலக் கலப்பினமாக்கலை** சார்ந்தவை; வெஸ்டர்ன் **எதிர்ப்பொருள் ஊக்கி–எதிர்ப்பொருள் பிணைப்பை** சார்ந்தது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "4"
+      "en": "4",
+      "ta": "4",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Southern: DNA is **denatured with alkali**. Northern: **formaldehyde** gel, no alkali, RNase-free."
+      "en": "Southern: DNA is **denatured with alkali**. Northern: **formaldehyde** gel, no alkali, RNase-free.",
+      "ta": "சதர்ன்: DNA **காரத்தால் இயல்பிழக்கம்**. நார்தர்ன்: **ஃபார்மால்டிஹைடு** ஜெல், காரம் இல்லை, RNase-அற்றது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "5"
+      "en": "5",
+      "ta": "5",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Membranes: nylon/nitrocellulose for nucleic acids; nitrocellulose/PVDF for proteins."
+      "en": "Membranes: nylon/nitrocellulose for nucleic acids; nitrocellulose/PVDF for proteins.",
+      "ta": "சவ்வுகள்: நியூக்ளிக் அமிலங்களுக்கு நைலான்/நைட்ரோசெல்லுலோஸ்; புரதங்களுக்கு நைட்ரோசெல்லுலோஸ்/PVDF.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "6"
+      "en": "6",
+      "ta": "6",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Transfer: **capillary** (Southern/Northern) versus **electroblotting** (Western)."
+      "en": "Transfer: **capillary** (Southern/Northern) versus **electroblotting** (Western).",
+      "ta": "மாற்றம்: **நுண்புழை** (சதர்ன்/நார்தர்ன்) – **மின்பிளாட்டிங்** (வெஸ்டர்ன்).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "7"
+      "en": "7",
+      "ta": "7",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Blocking** reduces background; **stringency** is raised by high temperature and low salt."
+      "en": "**Blocking** reduces background; **stringency** is raised by high temperature and low salt.",
+      "ta": "**அடைத்தல்** பின்னணியைக் குறைக்கிறது; **கடுமைத்தன்மை** அதிக வெப்பநிலை, குறைந்த உப்பால் உயர்கிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "8"
+      "en": "8",
+      "ta": "8",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Uses: transgene confirmation, RFLP, DNA fingerprinting (Southern); gene expression (Northern); HIV confirmation, recombinant protein (Western)."
+      "en": "Uses: transgene confirmation, RFLP, DNA fingerprinting (Southern); gene expression (Northern); HIV confirmation, recombinant protein (Western).",
+      "ta": "பயன்கள்: மாற்றுமரபணு உறுதிப்படுத்தல், RFLP, DNA கைரேகைப் பதிவு (சதர்ன்); மரபணு வெளிப்பாடு (நார்தர்ன்); HIV உறுதிப்படுத்தல், மறுகூட்டிணைவுப் புரதம் (வெஸ்டர்ன்).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Short-answer questions**"
+      "en": "**Short-answer questions**",
+      "ta": "**சுருக்க விடை வினாக்கள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click a question to reveal the model answer."
+      "en": "Click a question to reveal the model answer.",
+      "ta": "மாதிரி விடையை அறிய ஒரு வினாவைத் தொடுக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.1What is blotting? Name the three types.▼"
+      "en": "Q.1What is blotting? Name the three types.▼",
+      "ta": "வி.1பிளாட்டிங் என்றால் என்ன? மூன்று வகைகளைக் குறிப்பிடுக.▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Blotting is the transfer of electrophoretically separated DNA, RNA or protein from a gel to a membrane, followed by detection with a labelled probe. The three types are **Southern** (DNA), **Northern** (RNA) and **Western** (protein)."
+      "en": "Blotting is the transfer of electrophoretically separated DNA, RNA or protein from a gel to a membrane, followed by detection with a labelled probe. The three types are **Southern** (DNA), **Northern** (RNA) and **Western** (protein).",
+      "ta": "பிளாட்டிங் என்பது மின்னாற்பகுப்பால் பிரிக்கப்பட்ட DNA, RNA அல்லது புரதத்தை ஜெல்லிலிருந்து சவ்வுக்கு மாற்றி, குறியிடப்பட்ட துருவியால் கண்டறிதல். மூன்று வகைகள்: **சதர்ன்** (DNA), **நார்தர்ன்** (RNA), **வெஸ்டர்ன்** (புரதம்).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.2Describe the steps of Southern blotting.▼"
+      "en": "Q.2Describe the steps of Southern blotting.▼",
+      "ta": "வி.2சதர்ன் பிளாட்டிங்கின் படிகளை விவரிக்க.▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Restriction digestion of DNA → agarose gel electrophoresis → depurination and alkali denaturation → capillary transfer to nitrocellulose/nylon membrane → fixation by UV or baking → prehybridisation (blocking) → hybridisation with labelled probe → washing → autoradiographic detection."
+      "en": "Restriction digestion of DNA → agarose gel electrophoresis → depurination and alkali denaturation → capillary transfer to nitrocellulose/nylon membrane → fixation by UV or baking → prehybridisation (blocking) → hybridisation with labelled probe → washing → autoradiographic detection.",
+      "ta": "DNA-வின் ரெஸ்ட்ரிக்ஷன் செரித்தல் → அகரோஸ் ஜெல் மின்னாற்பகுப்பு → டீபியூரினேஷனும் கார இயல்பிழப்பும் → நைட்ரோசெல்லுலோஸ்/நைலான் சவ்வுக்கு நுண்புழை மாற்றம் → UV அல்லது சூடாக்கலால் பொருத்துதல் → முன்கலப்பினமாக்கல் (அடைத்தல்) → குறியிடப்பட்ட துருவியுடன் கலப்பினமாக்கல் → கழுவுதல் → தன்படமெடுத்தல் மூலம் கண்டறிதல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.3How does Northern blotting differ from Southern blotting?▼"
+      "en": "Q.3How does Northern blotting differ from Southern blotting?▼",
+      "ta": "வி.3நார்தர்ன் பிளாட்டிங் சதர்ன் பிளாட்டிங்கிலிருந்து எவ்வாறு வேறுபடுகிறது?▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Northern detects **RNA**; the gel is denaturing (formaldehyde), alkali is not used because it hydrolyses RNA, and RNase-free conditions are essential. It shows transcript size and level of expression."
+      "en": "Northern detects **RNA**; the gel is denaturing (formaldehyde), alkali is not used because it hydrolyses RNA, and RNase-free conditions are essential. It shows transcript size and level of expression.",
+      "ta": "நார்தர்ன் **RNA-வைக்** கண்டறிகிறது; ஜெல் இயல்பிழக்கச் செய்வது (ஃபார்மால்டிஹைடு); காரம் RNA-வை நீராற்பகுப்பதால் பயன்படுத்தப்படுவதில்லை; RNase-அற்ற நிலைகள் இன்றியமையாதவை. படியின் அளவையும் வெளிப்பாட்டு அளவையும் காட்டுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.4Explain the principle of Western blotting.▼"
+      "en": "Q.4Explain the principle of Western blotting.▼",
+      "ta": "வி.4வெஸ்டர்ன் பிளாட்டிங்கின் கோட்பாட்டை விளக்குக.▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Proteins separated by SDS-PAGE are electroblotted onto a membrane, blocked, and probed with a specific primary antibody. An enzyme-linked secondary antibody binds the primary antibody and generates a visible or chemiluminescent signal at the position of the target protein."
+      "en": "Proteins separated by SDS-PAGE are electroblotted onto a membrane, blocked, and probed with a specific primary antibody. An enzyme-linked secondary antibody binds the primary antibody and generates a visible or chemiluminescent signal at the position of the target protein.",
+      "ta": "SDS-PAGE-யால் பிரிக்கப்பட்ட புரதங்கள் சவ்வுக்கு மின்பிளாட் செய்யப்பட்டு, அடைக்கப்பட்டு, குறிப்பிட்ட முதல்நிலை எதிர்ப்பொருளால் துருவியிடப்படுகின்றன. நொதி இணைந்த இரண்டாம்நிலை எதிர்ப்பொருள் முதல்நிலை எதிர்ப்பொருளுடன் பிணைந்து, இலக்குப் புரதம் உள்ள இடத்தில் கண்ணுக்குத் தெரியும் அல்லது வேதிஒளிர்வுச் சமிக்ஞையை உருவாக்குகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.5What is stringency in hybridisation?▼"
+      "en": "Q.5What is stringency in hybridisation?▼",
+      "ta": "வி.5கலப்பினமாக்கலில் கடுமைத்தன்மை என்றால் என்ன?▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Stringency is the strictness of conditions that determine how closely a probe must match its target to remain bound. High temperature and low salt give high stringency and fewer false positives."
+      "en": "Stringency is the strictness of conditions that determine how closely a probe must match its target to remain bound. High temperature and low salt give high stringency and fewer false positives.",
+      "ta": "கடுமைத்தன்மை என்பது துருவி பிணைந்திருக்க இலக்குடன் எவ்வளவு நெருக்கமாகப் பொருந்த வேண்டும் என்பதைத் தீர்மானிக்கும் நிலைகளின் கண்டிப்பு. அதிக வெப்பநிலையும் குறைந்த உப்பும் அதிகக் கடுமைத்தன்மையையும் குறைவான தவறான நேர்மறைகளையும் தருகின்றன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.6Write two applications of Western blotting.▼"
+      "en": "Q.6Write two applications of Western blotting.▼",
+      "ta": "வி.6வெஸ்டர்ன் பிளாட்டிங்கின் இரு பயன்பாடுகளை எழுதுக.▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "(1) Confirmatory test for HIV infection; (2) confirming expression and size of a recombinant protein in a host cell."
+      "en": "(1) Confirmatory test for HIV infection; (2) confirming expression and size of a recombinant protein in a host cell.",
+      "ta": "(1) HIV தொற்றுக்கான உறுதிப்படுத்தும் சோதனை; (2) ஓம்புயிரி செல்லில் மறுகூட்டிணைவுப் புரதத்தின் வெளிப்பாட்டையும் அளவையும் உறுதிப்படுத்துதல்.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -1261,121 +1729,173 @@
   {
    "id": "s09",
    "title": {
-    "en": "Key Terms & Glossary"
+    "en": "Key Terms & Glossary",
+    "ta": "முக்கியச் சொற்களும் சொற்களஞ்சியமும்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Important terms in simple language."
+      "en": "Important terms in simple language.",
+      "ta": "எளிய மொழியில் முக்கியச் சொற்கள்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Blotting"
+      "en": "Blotting",
+      "ta": "பிளாட்டிங்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Transfer of separated biomolecules from a gel to a membrane for detection."
+      "en": "Transfer of separated biomolecules from a gel to a membrane for detection.",
+      "ta": "பிரிக்கப்பட்ட உயிர்மூலக்கூறுகளை ஜெல்லிலிருந்து கண்டறிதலுக்காகச் சவ்வுக்கு மாற்றுதல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Probe"
+      "en": "Probe",
+      "ta": "துருவி",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "A labelled single-stranded nucleic acid (or antibody) that binds a specific target."
+      "en": "A labelled single-stranded nucleic acid (or antibody) that binds a specific target.",
+      "ta": "குறிப்பிட்ட இலக்குடன் பிணையும் குறியிடப்பட்ட ஒற்றை இழை நியூக்ளிக் அமிலம் (அல்லது எதிர்ப்பொருள்).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Hybridisation"
+      "en": "Hybridisation",
+      "ta": "கலப்பினமாக்கல்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Base pairing between a probe and its complementary target sequence."
+      "en": "Base pairing between a probe and its complementary target sequence.",
+      "ta": "துருவிக்கும் அதன் நிரப்பு இலக்கு வரிசைக்கும் இடையிலான காரண இணைவு.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Stringency"
+      "en": "Stringency",
+      "ta": "கடுமைத்தன்மை",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "How demanding the washing/hybridisation conditions are; high stringency requires near-perfect matches."
+      "en": "How demanding the washing/hybridisation conditions are; high stringency requires near-perfect matches.",
+      "ta": "கழுவுதல்/கலப்பினமாக்கல் நிலைகள் எவ்வளவு கண்டிப்பானவை; அதிகக் கடுமைத்தன்மைக்கு ஏறத்தாழ முழுமையான பொருத்தம் தேவை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Capillary transfer"
+      "en": "Capillary transfer",
+      "ta": "நுண்புழை மாற்றம்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Moving molecules from gel to membrane by buffer drawn up through absorbent paper."
+      "en": "Moving molecules from gel to membrane by buffer drawn up through absorbent paper.",
+      "ta": "உறிஞ்சும் தாளின் வழியாக மேலெழுப்பப்படும் இடையகத்தால் மூலக்கூறுகளை ஜெல்லிலிருந்து சவ்வுக்கு நகர்த்துதல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Electroblotting"
+      "en": "Electroblotting",
+      "ta": "மின்பிளாட்டிங்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Transfer of proteins out of a gel to a membrane using an electric field."
+      "en": "Transfer of proteins out of a gel to a membrane using an electric field.",
+      "ta": "மின்புலத்தைப் பயன்படுத்திப் புரதங்களை ஜெல்லிலிருந்து சவ்வுக்கு மாற்றுதல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Blocking agent"
+      "en": "Blocking agent",
+      "ta": "அடைக்கும் காரணி",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Protein or DNA solution (milk, BSA, Denhardt's) that covers free membrane sites."
+      "en": "Protein or DNA solution (milk, BSA, Denhardt's) that covers free membrane sites.",
+      "ta": "சவ்வின் காலித் தளங்களை மூடும் புரதம் அல்லது DNA கரைசல் (பால், BSA, டென்ஹார்ட்ஸ்).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Primary antibody"
+      "en": "Primary antibody",
+      "ta": "முதல்நிலை எதிர்ப்பொருள்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Antibody that recognises the target protein."
+      "en": "Antibody that recognises the target protein.",
+      "ta": "இலக்குப் புரதத்தை அடையாளம் காணும் எதிர்ப்பொருள்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Secondary antibody"
+      "en": "Secondary antibody",
+      "ta": "இரண்டாம்நிலை எதிர்ப்பொருள்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Enzyme-conjugated antibody that recognises the primary antibody."
+      "en": "Enzyme-conjugated antibody that recognises the primary antibody.",
+      "ta": "முதல்நிலை எதிர்ப்பொருளை அடையாளம் காணும் நொதி இணைந்த எதிர்ப்பொருள்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Autoradiography"
+      "en": "Autoradiography",
+      "ta": "தன்படமெடுத்தல்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Detection of radioactive signal using X-ray film."
+      "en": "Detection of radioactive signal using X-ray film.",
+      "ta": "X-கதிர்ப் படலத்தால் கதிரியக்கச் சமிக்ஞையைக் கண்டறிதல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "PVDF"
+      "en": "PVDF",
+      "ta": "PVDF",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Polyvinylidene difluoride: a membrane that binds proteins strongly."
+      "en": "Polyvinylidene difluoride: a membrane that binds proteins strongly.",
+      "ta": "பாலிவினைலிடீன் டைஃப்ளூரைடு: புரதங்களை வலுவாகப் பிணைக்கும் சவ்வு.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Housekeeping gene"
+      "en": "Housekeeping gene",
+      "ta": "வீட்டுப் பராமரிப்பு மரபணு",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "A constitutively expressed gene (e.g. GAPDH) used as a loading control."
+      "en": "A constitutively expressed gene (e.g. GAPDH) used as a loading control.",
+      "ta": "ஏற்றல் கட்டுப்பாடாகப் பயன்படும், தொடர்ந்து வெளிப்படும் மரபணு (எ.கா. GAPDH).",
+      "ta_status": "draft"
      }
     }
    ],
