@@ -2,19 +2,25 @@
  "id": "hgp_ethics_ipr",
  "unit": "IV",
  "title": {
-  "en": "Human Genome Project, Ethics & IPR"
+  "en": "Human Genome Project, Ethics & IPR",
+  "ta": "மனித மரபணுத்தொகைத் திட்டம், நெறிமுறைகள் மற்றும் IPR",
+  "ta_status": "draft"
  },
  "sections": [
   {
    "id": "s01",
    "title": {
-    "en": "Overview"
+    "en": "Overview",
+    "ta": "மேலோட்டம்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "🧬 Unit IV · Applications and Ethics"
+      "en": "🧬 Unit IV · Applications and Ethics",
+      "ta": "🧬 அலகு IV · பயன்பாடுகளும் நெறிமுறைகளும்",
+      "ta_status": "draft"
      }
     }
    ]
@@ -22,31 +28,41 @@
   {
    "id": "s02",
    "title": {
-    "en": "Human Genome Project, Ethics and IPR"
+    "en": "Human Genome Project, Ethics and IPR",
+    "ta": "மனித மரபணுத்தொகைத் திட்டம், நெறிமுறைகள், IPR",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Human Genome Project · Bioethics · Intellectual Property Rights"
+      "en": "Human Genome Project · Bioethics · Intellectual Property Rights",
+      "ta": "மனித மரபணுத்தொகைத் திட்டம் · உயிர்நெறியியல் · அறிவுசார் சொத்துரிமைகள்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "The Human Genome Project gave us the \"parts list\" of a human being. With that power come questions of privacy, fairness and ownership. This module covers the mapping and sequencing of the human genome, its applications, the ethical issues of biotechnology and the basics of intellectual property rights."
+      "en": "The Human Genome Project gave us the \"parts list\" of a human being. With that power come questions of privacy, fairness and ownership. This module covers the mapping and sequencing of the human genome, its applications, the ethical issues of biotechnology and the basics of intellectual property rights.",
+      "ta": "மனித மரபணுத்தொகைத் திட்டம் மனிதரின் “உறுப்புப் பட்டியலை” நமக்கு அளித்தது. இந்த ஆற்றலுடன் தனியுரிமை, நியாயம், உரிமை குறித்த வினாக்களும் எழுகின்றன. இப்பகுதி மனித மரபணுத்தொகைய வரைபடமாக்கல், வரிசைப்படுத்தல், அதன் பயன்பாடுகள், உயிரித் தொழில்நுட்பத்தின் நெறிமுறைச் சிக்கல்கள், அறிவுசார் சொத்துரிமையின் அடிப்படைகளை உள்ளடக்குகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "📚 5 chapters🎯 10 MCQs📝 Exam questions🎓 B.Sc. Zoology / Biotechnology"
+      "en": "📚 5 chapters🎯 10 MCQs📝 Exam questions🎓 B.Sc. Zoology / Biotechnology",
+      "ta": "📚 5 அத்தியாயங்கள்🎯 10 MCQ-கள்📝 தேர்வு வினாக்கள்🎓 B.Sc. விலங்கியல் / உயிரித் தொழில்நுட்பவியல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🎯 Learning Objectives**"
+      "en": "**🎯 Learning Objectives**",
+      "ta": "**🎯 கற்றல் நோக்கங்கள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -54,19 +70,29 @@
      "ordered": false,
      "items": [
       {
-       "en": "✓Describe the aims, timeline and strategies of the Human Genome Project."
+       "en": "✓Describe the aims, timeline and strategies of the Human Genome Project.",
+       "ta": "✓மனித மரபணுத்தொகைத் திட்டத்தின் நோக்கங்கள், கால வரிசை, உத்திகளை விவரிக்க.",
+       "ta_status": "draft"
       },
       {
-       "en": "✓Differentiate genetic, cytogenetic and physical maps."
+       "en": "✓Differentiate genetic, cytogenetic and physical maps.",
+       "ta": "✓மரபணு, செல்மரபியல், இயற்பியல் வரைபடங்களை வேறுபடுத்துக.",
+       "ta_status": "draft"
       },
       {
-       "en": "✓List the main findings and applications of the HGP."
+       "en": "✓List the main findings and applications of the HGP.",
+       "ta": "✓HGP-யின் முக்கியக் கண்டுபிடிப்புகளையும் பயன்பாடுகளையும் பட்டியலிடுக.",
+       "ta_status": "draft"
       },
       {
-       "en": "✓Discuss socio-ethical problems and the regulation of biotechnology in India."
+       "en": "✓Discuss socio-ethical problems and the regulation of biotechnology in India.",
+       "ta": "✓இந்தியாவில் உயிரித் தொழில்நுட்பத்தின் சமூக-நெறிமுறைச் சிக்கல்களையும் ஒழுங்குமுறையையும் விவாதிக்க.",
+       "ta_status": "draft"
       },
       {
-       "en": "✓Explain patents, other forms of IPR, landmark cases and biopiracy."
+       "en": "✓Explain patents, other forms of IPR, landmark cases and biopiracy.",
+       "ta": "✓காப்புரிமைகள், பிற IPR வடிவங்கள், முக்கிய வழக்குகள், உயிரிக் கொள்ளையை விளக்குக.",
+       "ta_status": "draft"
       }
      ]
     }
@@ -75,128 +101,170 @@
   {
    "id": "s03",
    "title": {
-    "en": "Human Genome Project (HGP): Overview"
+    "en": "Human Genome Project (HGP): Overview",
+    "ta": "மனித மரபணுத்தொகைத் திட்டம் (HGP): மேலோட்டம்",
+    "ta_status": "bracketed"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "The HGP read the complete DNA sequence of a human being, one of the largest collaborative projects in biology."
+      "en": "The HGP read the complete DNA sequence of a human being, one of the largest collaborative projects in biology.",
+      "ta": "HGP மனிதரின் முழு DNA வரிசையை வாசித்தது; உயிரியலின் மிகப்பெரிய கூட்டுத் திட்டங்களில் ஒன்று.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Human Genome Project\nAn international research programme (1990–2003) to determine the sequence of the roughly 3 billion base pairs of the human genome, identify its genes, and develop tools and ethical guidelines for using the information."
+      "en": "Human Genome Project\nAn international research programme (1990–2003) to determine the sequence of the roughly 3 billion base pairs of the human genome, identify its genes, and develop tools and ethical guidelines for using the information.",
+      "ta": "மனித மரபணுத்தொகைத் திட்டம்\nமனித மரபணுத்தொகையத்தின் சுமார் 300 கோடி காரச் சோடிகளின் வரிசையைக் கண்டறிந்து, அதன் மரபணுக்களை அடையாளம் கண்டு, தகவலைப் பயன்படுத்துவதற்கான கருவிகளையும் நெறிமுறை வழிகாட்டுதல்களையும் உருவாக்கும் பன்னாட்டு ஆய்வுத் திட்டம் (1990–2003).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "1990"
+      "en": "1990",
+      "ta": "1990",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Officially launched"
+      "en": "Officially launched",
+      "ta": "அதிகாரப்பூர்வத் தொடக்கம்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "2003"
+      "en": "2003",
+      "ta": "2003",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Completed (99% of euchromatic DNA)"
+      "en": "Completed (99% of euchromatic DNA)",
+      "ta": "நிறைவு (யூக்ரோமேட்டின் DNA-வில் 99%)",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "~3.1 Gb"
+      "en": "~3.1 Gb",
+      "ta": "~3.1 Gb",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Haploid genome size"
+      "en": "Haploid genome size",
+      "ta": "ஒற்றைமடிய மரபணுத்தொகைய அளவு",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "~20,000"
+      "en": "~20,000",
+      "ta": "~20,000",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Protein-coding genes"
+      "en": "Protein-coding genes",
+      "ta": "புரதம் குறியீடும் மரபணுக்கள்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Timeline**"
+      "en": "**Timeline**",
+      "ta": "**கால வரிசை**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**1953** — Watson and Crick propose the structure of DNA"
+      "en": "**1953** — Watson and Crick propose the structure of DNA",
+      "ta": "**1953** — வாட்சனும் கிரிக்கும் DNA அமைப்பை முன்மொழிந்தனர்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**1977** — Sanger and Maxam–Gilbert sequencing methods"
+      "en": "**1977** — Sanger and Maxam–Gilbert sequencing methods",
+      "ta": "**1977** — சேங்கர், மாக்சம்–கில்பர்ட் வரிசைப்படுத்தும் முறைகள்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**1990** — HGP formally begins (US DOE and NIH; James Watson first head of the NIH genome office; Francis Collins later led it)"
+      "en": "**1990** — HGP formally begins (US DOE and NIH; James Watson first head of the NIH genome office; Francis Collins later led it)",
+      "ta": "**1990** — HGP முறையாகத் தொடங்கியது (US DOE, NIH; NIH மரபணுத்தொகை அலுவலகத்தின் முதல் தலைவர் ஜேம்ஸ் வாட்சன்; பின்னர் பிரான்சிஸ் காலின்ஸ் தலைமை வகித்தார்)",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**1998** — Celera Genomics (Craig Venter) starts a private shotgun effort"
+      "en": "**1998** — Celera Genomics (Craig Venter) starts a private shotgun effort",
+      "ta": "**1998** — செலெரா ஜீனோமிக்ஸ் (கிரெய்க் வென்டர்) தனியார் ஷாட்கன் முயற்சியைத் தொடங்கியது",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**June 2000** — Joint announcement of a working draft"
+      "en": "**June 2000** — Joint announcement of a working draft",
+      "ta": "**ஜூன் 2000** — செயல்படும் வரைவுக்கான கூட்டு அறிவிப்பு",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Feb 2001** — Draft published in _Nature_ (public consortium) and _Science_ (Celera)"
+      "en": "**Feb 2001** — Draft published in _Nature_ (public consortium) and _Science_ (Celera)",
+      "ta": "**பிப்ரவரி 2001** — வரைவு _Nature_ (பொது கூட்டமைப்பு), _Science_ (செலெரா) இதழ்களில் வெளியானது",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**April 2003** — Sequence declared essentially complete, 50 years after the DNA double helix"
+      "en": "**April 2003** — Sequence declared essentially complete, 50 years after the DNA double helix",
+      "ta": "**ஏப்ரல் 2003** — DNA இரட்டைச் சுருளுக்கு 50 ஆண்டுகளுக்குப் பிறகு, வரிசை அடிப்படையில் நிறைவடைந்ததாக அறிவிக்கப்பட்டது",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**2022** — Telomere-to-Telomere (T2T) consortium publishes the first truly gapless human genome sequence"
+      "en": "**2022** — Telomere-to-Telomere (T2T) consortium publishes the first truly gapless human genome sequence",
+      "ta": "**2022** — டீலோமியர்-முதல்-டீலோமியர் (T2T) கூட்டமைப்பு முதல் உண்மையான இடைவெளியற்ற மனித மரபணுத்தொகைய வரிசையை வெளியிட்டது",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Goals of the project**"
+      "en": "**Goals of the project**",
+      "ta": "**திட்டத்தின் இலக்குகள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -204,22 +272,34 @@
      "ordered": false,
      "items": [
       {
-       "en": "Identify all human genes (~20,000–25,000 estimated then)."
+       "en": "Identify all human genes (~20,000–25,000 estimated then).",
+       "ta": "எல்லா மனித மரபணுக்களையும் அடையாளம் காணுதல் (அன்று ~20,000–25,000 என மதிப்பீடு).",
+       "ta_status": "draft"
       },
       {
-       "en": "Determine the sequence of the 3 billion base pairs."
+       "en": "Determine the sequence of the 3 billion base pairs.",
+       "ta": "300 கோடி காரச் சோடிகளின் வரிசையைக் கண்டறிதல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Store the data in public databases."
+       "en": "Store the data in public databases.",
+       "ta": "தரவுகளைப் பொது தரவுத்தளங்களில் சேமித்தல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Improve tools for data analysis."
+       "en": "Improve tools for data analysis.",
+       "ta": "தரவுப் பகுப்பாய்வுக் கருவிகளை மேம்படுத்துதல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Transfer technologies to industry."
+       "en": "Transfer technologies to industry.",
+       "ta": "தொழில்நுட்பங்களைத் தொழில்துறைக்கு மாற்றுதல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Address the **ethical, legal and social implications (ELSI)**; 3–5% of the budget was devoted to ELSI research."
+       "en": "Address the **ethical, legal and social implications (ELSI)**; 3–5% of the budget was devoted to ELSI research.",
+       "ta": "**நெறிமுறை, சட்ட, சமூகத் தாக்கங்களை (ELSI)** எதிர்கொள்ளுதல்; வரவு-செலவில் 3–5% ELSI ஆய்வுக்கு ஒதுக்கப்பட்டது.",
+       "ta_status": "draft"
       }
      ]
     },
@@ -227,7 +307,9 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Who took part?**\nThe **International Human Genome Sequencing Consortium**: USA, UK (Wellcome Trust, Sanger Centre), France, Germany, Japan and China, with data released freely on the internet. India contributed through scientists and later its own population genome studies."
+      "en": "**Who took part?**\nThe **International Human Genome Sequencing Consortium**: USA, UK (Wellcome Trust, Sanger Centre), France, Germany, Japan and China, with data released freely on the internet. India contributed through scientists and later its own population genome studies.",
+      "ta": "**யார் பங்கேற்றனர்?**\n**பன்னாட்டு மனித மரபணுத்தொகை வரிசைப்படுத்தும் கூட்டமைப்பு**: அமெரிக்கா, இங்கிலாந்து (வெல்கம் அறக்கட்டளை, சேங்கர் மையம்), பிரான்ஸ், ஜெர்மனி, ஜப்பான், சீனா; தரவுகள் இணையத்தில் இலவசமாக வெளியிடப்பட்டன. இந்தியா அறிவியலாளர்கள் மூலமும் பின்னர் தன் மக்கள்தொகை மரபணுத்தொகை ஆய்வுகள் மூலமும் பங்களித்தது.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -236,86 +318,130 @@
   {
    "id": "s04",
    "title": {
-    "en": "Mapping of the Human Genome"
+    "en": "Mapping of the Human Genome",
+    "ta": "மனித மரபணுத்தொகைய வரைபடமாக்கல்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Before sequencing, maps provide landmarks so that sequence pieces can be assembled in the right order."
+      "en": "Before sequencing, maps provide landmarks so that sequence pieces can be assembled in the right order.",
+      "ta": "வரிசைப்படுத்தும் முன், வரிசைத் துண்டுகளைச் சரியான வரிசையில் இணைக்க உதவும் அடையாளங்களை வரைபடங்கள் அளிக்கின்றன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "table",
      "header": [
       {
-       "en": "Type of map"
+       "en": "Type of map",
+       "ta": "வரைபட வகை",
+       "ta_status": "draft"
       },
       {
-       "en": "Based on"
+       "en": "Based on",
+       "ta": "அடிப்படை",
+       "ta_status": "draft"
       },
       {
-       "en": "Unit / resolution"
+       "en": "Unit / resolution",
+       "ta": "அலகு / தெளிவுத்திறன்",
+       "ta_status": "draft"
       },
       {
-       "en": "Markers"
+       "en": "Markers",
+       "ta": "குறிப்பான்கள்",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Genetic (linkage) map**"
+        "en": "**Genetic (linkage) map**",
+        "ta": "**மரபணு (இணைப்பு) வரைபடம்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Recombination frequency between loci"
+        "en": "Recombination frequency between loci",
+        "ta": "இடங்களுக்கிடையே மறுசேர்க்கை அதிர்வெண்",
+        "ta_status": "draft"
        },
        {
-        "en": "centiMorgan (cM); 1 cM ≈ 1% recombination"
+        "en": "centiMorgan (cM); 1 cM ≈ 1% recombination",
+        "ta": "சென்டிமார்கன் (cM); 1 cM ≈ 1% மறுசேர்க்கை",
+        "ta_status": "bracketed"
        },
        {
-        "en": "RFLP, microsatellites (STRs), SNPs"
+        "en": "RFLP, microsatellites (STRs), SNPs",
+        "ta": "RFLP, மைக்ரோசாட்டிலைட்டுகள் (STRs), SNP-கள்",
+        "ta_status": "bracketed"
        }
       ],
       [
        {
-        "en": "**Cytogenetic map**"
+        "en": "**Cytogenetic map**",
+        "ta": "**செல்மரபியல் வரைபடம்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Chromosome banding patterns"
+        "en": "Chromosome banding patterns",
+        "ta": "நிறப்புரிப் பட்டை அமைப்புகள்",
+        "ta_status": "draft"
        },
        {
-        "en": "Bands (low resolution)"
+        "en": "Bands (low resolution)",
+        "ta": "பட்டைகள் (குறைந்த தெளிவுத்திறன்)",
+        "ta_status": "draft"
        },
        {
-        "en": "Giemsa bands, FISH probes"
+        "en": "Giemsa bands, FISH probes",
+        "ta": "கீம்சா பட்டைகள், FISH துருவிகள்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Physical map**"
+        "en": "**Physical map**",
+        "ta": "**இயற்பியல் வரைபடம்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Actual distances in DNA"
+        "en": "Actual distances in DNA",
+        "ta": "DNA-வில் உண்மையான தொலைவுகள்",
+        "ta_status": "draft"
        },
        {
-        "en": "Base pairs / kb / Mb"
+        "en": "Base pairs / kb / Mb",
+        "ta": "காரச் சோடிகள் / kb / Mb",
+        "ta_status": "draft"
        },
        {
-        "en": "Restriction sites, STS, clone contigs"
+        "en": "Restriction sites, STS, clone contigs",
+        "ta": "கட்டுப்பாட்டு இடங்கள், STS, குளோன் காண்டிக்குகள்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Sequence map**"
+        "en": "**Sequence map**",
+        "ta": "**வரிசை வரைபடம்**",
+        "ta_status": "draft"
        },
        {
-        "en": "The complete nucleotide sequence"
+        "en": "The complete nucleotide sequence",
+        "ta": "முழுமையான நியுக்ளியோடைடு வரிசை",
+        "ta_status": "draft"
        },
        {
-        "en": "Single base"
+        "en": "Single base",
+        "ta": "ஒற்றைக் காரம்",
+        "ta_status": "draft"
        },
        {
-        "en": "Whole sequence"
+        "en": "Whole sequence",
+        "ta": "முழு வரிசை",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -323,65 +449,97 @@
     {
      "type": "p",
      "text": {
-      "en": "**Two strategies for sequencing**"
+      "en": "**Two strategies for sequencing**",
+      "ta": "**வரிசைப்படுத்துவதற்கான இரு உத்திகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "table",
      "header": [
       {
-       "en": ""
+       "en": "",
+       "ta": "",
+       "ta_status": "draft"
       },
       {
-       "en": "Hierarchical clone-by-clone (public consortium)"
+       "en": "Hierarchical clone-by-clone (public consortium)",
+       "ta": "படிநிலை குளோன்-குளோன் (பொது கூட்டமைப்பு)",
+       "ta_status": "draft"
       },
       {
-       "en": "Whole-genome shotgun (Celera)"
+       "en": "Whole-genome shotgun (Celera)",
+       "ta": "முழு மரபணுத்தொகைய ஷாட்கன் (செலெரா)",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Idea**"
+        "en": "**Idea**",
+        "ta": "**கருத்து**",
+        "ta_status": "draft"
        },
        {
-        "en": "Map first, then sequence ordered clones"
+        "en": "Map first, then sequence ordered clones",
+        "ta": "முதலில் வரைபடமாக்கி, பின்னர் வரிசைப்படுத்திய குளோன்களை வரிசைப்படுத்தல்",
+        "ta_status": "draft"
        },
        {
-        "en": "Shear whole genome, sequence at random, assemble by computer"
+        "en": "Shear whole genome, sequence at random, assemble by computer",
+        "ta": "முழு மரபணுத்தொகையத்தையும் துண்டாக்கி, சீரற்று வரிசைப்படுத்தி, கணினியால் தொகுத்தல்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Vector**"
+        "en": "**Vector**",
+        "ta": "**தாங்கிக்கடத்தி**",
+        "ta_status": "draft"
        },
        {
-        "en": "BACs (bacterial artificial chromosomes), 100–200 kb inserts"
+        "en": "BACs (bacterial artificial chromosomes), 100–200 kb inserts",
+        "ta": "BAC-கள் (பாக்டீரிய செயற்கை நிறப்புரிகள்), 100–200 kb செருகல்கள்",
+        "ta_status": "draft"
        },
        {
-        "en": "Plasmid libraries (2, 10, 50 kb inserts)"
+        "en": "Plasmid libraries (2, 10, 50 kb inserts)",
+        "ta": "பிளாஸ்மிடு நூலகங்கள் (2, 10, 50 kb செருகல்கள்)",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Advantage**"
+        "en": "**Advantage**",
+        "ta": "**நன்மை**",
+        "ta_status": "draft"
        },
        {
-        "en": "Easier assembly of repeats"
+        "en": "Easier assembly of repeats",
+        "ta": "மீள்வரிசைகளைத் தொகுப்பது எளிது",
+        "ta_status": "draft"
        },
        {
-        "en": "Faster and cheaper"
+        "en": "Faster and cheaper",
+        "ta": "விரைவானது, மலிவானது",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Disadvantage**"
+        "en": "**Disadvantage**",
+        "ta": "**குறை**",
+        "ta_status": "draft"
        },
        {
-        "en": "Slow, labour-intensive"
+        "en": "Slow, labour-intensive",
+        "ta": "மெதுவானது, உழைப்பு மிகுந்தது",
+        "ta_status": "draft"
        },
        {
-        "en": "Difficult assembly of repeats"
+        "en": "Difficult assembly of repeats",
+        "ta": "மீள்வரிசைகளைத் தொகுப்பது கடினம்",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -389,44 +547,58 @@
     {
      "type": "p",
      "text": {
-      "en": "**1. Chromosome**genome"
+      "en": "**1. Chromosome**genome",
+      "ta": "**1. நிறப்புரி**மரபணுத்தொகையம்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**2. BAC library**fragments cloned"
+      "en": "**2. BAC library**fragments cloned",
+      "ta": "**2. BAC நூலகம்**துண்டுகள் குளோன் செய்யப்படும்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**3. Contigs**overlaps"
+      "en": "**3. Contigs**overlaps",
+      "ta": "**3. காண்டிக்குகள்**மேற்பொருந்தல்கள்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**4. Sequencing**Sanger automated"
+      "en": "**4. Sequencing**Sanger automated",
+      "ta": "**4. வரிசைப்படுத்தல்**தானியங்கி சேங்கர்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**5. Assembly**computer"
+      "en": "**5. Assembly**computer",
+      "ta": "**5. தொகுப்பு**கணினி",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click a step to see what happens."
+      "en": "Click a step to see what happens.",
+      "ta": "என்ன நிகழ்கிறது எனக் காண ஒரு படியைத் தொடுக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**ESTs and STS**\n**Expressed Sequence Tags (ESTs)** are short sequences from cDNA that mark expressed genes. **Sequence-tagged sites (STSs)** are short, unique, PCR-amplifiable sequences used as landmarks in the physical map."
+      "en": "**ESTs and STS**\n**Expressed Sequence Tags (ESTs)** are short sequences from cDNA that mark expressed genes. **Sequence-tagged sites (STSs)** are short, unique, PCR-amplifiable sequences used as landmarks in the physical map.",
+      "ta": "**ESTs மற்றும் STS**\n**வெளிப்படும் வரிசைக் குறிகள் (ESTs)** என்பவை வெளிப்படும் மரபணுக்களைக் குறிக்கும் cDNA-வின் குறுகிய வரிசைகள். **வரிசைக்குறி இடங்கள் (STSs)** என்பவை இயற்பியல் வரைபடத்தில் அடையாளங்களாகப் பயன்படும் குறுகிய, தனித்துவமான, PCR மூலம் பெருக்கத்தக்க வரிசைகள்.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -435,78 +607,112 @@
   {
    "id": "s05",
    "title": {
-    "en": "Salient Findings and Applications of the HGP"
+    "en": "Salient Findings and Applications of the HGP",
+    "ta": "HGP-யின் முக்கியக் கண்டுபிடிப்புகளும் பயன்பாடுகளும்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "The sequence revealed how few genes we have and how much of the genome is not coding."
+      "en": "The sequence revealed how few genes we have and how much of the genome is not coding.",
+      "ta": "நமக்கு எவ்வளவு குறைவான மரபணுக்களே உள்ளன, மரபணுத்தொகையத்தில் எவ்வளவு பகுதி குறியீடற்றது என்பதை வரிசை வெளிப்படுத்தியது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Key findings**"
+      "en": "**Key findings**",
+      "ta": "**முக்கியக் கண்டுபிடிப்புகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "table",
      "header": [
       {
-       "en": "Finding"
+       "en": "Finding",
+       "ta": "கண்டுபிடிப்பு",
+       "ta_status": "draft"
       },
       {
-       "en": "Detail"
+       "en": "Detail",
+       "ta": "விவரம்",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Gene number**"
+        "en": "**Gene number**",
+        "ta": "**மரபணு எண்ணிக்கை**",
+        "ta_status": "draft"
        },
        {
-        "en": "≈ 20,000 protein-coding genes (far fewer than the 100,000 once predicted)"
+        "en": "≈ 20,000 protein-coding genes (far fewer than the 100,000 once predicted)",
+        "ta": "≈ 20,000 புரதம் குறியீடும் மரபணுக்கள் (ஒருகாலத்தில் கணிக்கப்பட்ட 1,00,000-ஐவிடப் பெருங்குறைவு)",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Coding DNA**"
+        "en": "**Coding DNA**",
+        "ta": "**குறியீட்டு DNA**",
+        "ta_status": "draft"
        },
        {
-        "en": "Only about 1–2% of the genome codes for proteins"
+        "en": "Only about 1–2% of the genome codes for proteins",
+        "ta": "மரபணுத்தொகையத்தில் சுமார் 1–2% மட்டுமே புரதத்தைக் குறியீடு செய்கிறது",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Repeats**"
+        "en": "**Repeats**",
+        "ta": "**மீள்வரிசைகள்**",
+        "ta_status": "draft"
        },
        {
-        "en": "About half is repetitive sequence; **Alu** (a SINE) is the most abundant repeat (~10%)"
+        "en": "About half is repetitive sequence; **Alu** (a SINE) is the most abundant repeat (~10%)",
+        "ta": "ஏறத்தாழ பாதி மீள்வரிசை; **Alu** (ஒரு SINE) மிக அதிகமான மீள்வரிசை (~10%)",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Variation**"
+        "en": "**Variation**",
+        "ta": "**மாறுபாடு**",
+        "ta_status": "draft"
        },
        {
-        "en": "Any two people are about **99.9%** identical; SNPs occur about once per 1,000 bases"
+        "en": "Any two people are about **99.9%** identical; SNPs occur about once per 1,000 bases",
+        "ta": "எந்த இருவரும் சுமார் **99.9%** ஒத்தவர்; SNP-கள் ஏறத்தாழ ஒவ்வொரு 1,000 காரங்களுக்கும் ஒன்று",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Chromosomes**"
+        "en": "**Chromosomes**",
+        "ta": "**நிறப்புரிகள்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Chromosome 1 is the largest; chromosome 21 is the smallest autosome; Y has few genes"
+        "en": "Chromosome 1 is the largest; chromosome 21 is the smallest autosome; Y has few genes",
+        "ta": "நிறப்புரி 1 மிகப்பெரியது; நிறப்புரி 21 மிகச்சிறிய உடல் நிறப்புரி; Y-இல் குறைவான மரபணுக்கள்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Gene density**"
+        "en": "**Gene density**",
+        "ta": "**மரபணு அடர்த்தி**",
+        "ta_status": "draft"
        },
        {
-        "en": "Uneven: gene-rich regions and large gene deserts"
+        "en": "Uneven: gene-rich regions and large gene deserts",
+        "ta": "சீரற்றது: மரபணு மிகுந்த பகுதிகளும் பெரிய மரபணுப் பாலைவனங்களும்",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -514,13 +720,17 @@
     {
      "type": "p",
      "text": {
-      "en": "**Applications**"
+      "en": "**Applications**",
+      "ta": "**பயன்பாடுகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Medicine**"
+      "en": "**Medicine**",
+      "ta": "**மருத்துவம்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -528,23 +738,33 @@
      "ordered": false,
      "items": [
       {
-       "en": "Identification of disease genes (cystic fibrosis, Huntington's)."
+       "en": "Identification of disease genes (cystic fibrosis, Huntington's).",
+       "ta": "நோய் மரபணுக்களை அடையாளம் காணுதல் (சிஸ்டிக் ஃபைப்ரோசிஸ், ஹன்டிங்டன்).",
+       "ta_status": "draft"
       },
       {
-       "en": "Predictive and prenatal genetic tests."
+       "en": "Predictive and prenatal genetic tests.",
+       "ta": "முன்கணிப்பு, பிறப்புக்கு முந்தைய மரபணுச் சோதனைகள்.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Pharmacogenomics** and personalised medicine."
+       "en": "**Pharmacogenomics** and personalised medicine.",
+       "ta": "**பார்மகோஜினோமிக்ஸ்**, தனிநபர் மருத்துவம்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Gene therapy targets."
+       "en": "Gene therapy targets.",
+       "ta": "மரபணுச் சிகிச்சை இலக்குகள்.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Forensics**"
+      "en": "**Forensics**",
+      "ta": "**தடயவியல்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -552,17 +772,23 @@
      "ordered": false,
      "items": [
       {
-       "en": "DNA profiling and identification."
+       "en": "DNA profiling and identification.",
+       "ta": "DNA சுயவிவரம், அடையாளம் காணுதல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Paternity testing."
+       "en": "Paternity testing.",
+       "ta": "தந்தைமைச் சோதனை.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Agriculture & environment**"
+      "en": "**Agriculture & environment**",
+      "ta": "**வேளாண்மையும் சுற்றுச்சூழலும்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -570,17 +796,23 @@
      "ordered": false,
      "items": [
       {
-       "en": "Genome projects of crops and livestock."
+       "en": "Genome projects of crops and livestock.",
+       "ta": "பயிர்கள், கால்நடைகளின் மரபணுத்தொகைத் திட்டங்கள்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Microbial genomics for bioremediation."
+       "en": "Microbial genomics for bioremediation.",
+       "ta": "உயிரிவழி சீரமைப்புக்கான நுண்ணுயிர் மரபணுத்தொகையியல்.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Evolution**"
+      "en": "**Evolution**",
+      "ta": "**பரிணாமம்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -588,17 +820,23 @@
      "ordered": false,
      "items": [
       {
-       "en": "Comparative genomics with chimpanzee and other species."
+       "en": "Comparative genomics with chimpanzee and other species.",
+       "ta": "சிம்பன்சி, பிற இனங்களுடன் ஒப்பீட்டு மரபணுத்தொகையியல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Tracing human migrations."
+       "en": "Tracing human migrations.",
+       "ta": "மனிதப் புலம்பெயர்வுகளைத் தடம் காணுதல்.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Bioinformatics**"
+      "en": "**Bioinformatics**",
+      "ta": "**உயிரித் தகவலியல்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -606,14 +844,18 @@
      "ordered": false,
      "items": [
       {
-       "en": "Created the demand for databases and tools (GenBank, BLAST)."
+       "en": "Created the demand for databases and tools (GenBank, BLAST).",
+       "ta": "தரவுத்தளங்கள், கருவிகளுக்கான தேவையை உருவாக்கியது (GenBank, BLAST).",
+       "ta_status": "bracketed"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Population genomics**"
+      "en": "**Population genomics**",
+      "ta": "**மக்கள்தொகை மரபணுத்தொகையியல்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -621,7 +863,9 @@
      "ordered": false,
      "items": [
       {
-       "en": "National projects such as GenomeIndia (DBT) map the genetic diversity of Indian populations."
+       "en": "National projects such as GenomeIndia (DBT) map the genetic diversity of Indian populations.",
+       "ta": "GenomeIndia (DBT) போன்ற தேசியத் திட்டங்கள் இந்திய மக்கள்தொகையின் மரபணு வேறுபாட்டை வரைபடமாக்குகின்றன.",
+       "ta_status": "draft"
       }
      ]
     },
@@ -629,7 +873,9 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**After the HGP**\nCheap **next-generation sequencing** now sequences a genome in hours for a few hundred dollars, enabling projects such as the 1000 Genomes Project, ENCODE and cancer genome atlases."
+      "en": "**After the HGP**\nCheap **next-generation sequencing** now sequences a genome in hours for a few hundred dollars, enabling projects such as the 1000 Genomes Project, ENCODE and cancer genome atlases.",
+      "ta": "**HGP-க்குப் பின்**\nமலிவான **அடுத்த தலைமுறை வரிசைப்படுத்தல்** இப்போது சில நூறு டாலர்களுக்கு மணிநேரங்களில் மரபணுத்தொகையத்தை வரிசைப்படுத்துகிறது; 1000 Genomes திட்டம், ENCODE, புற்றுநோய் மரபணுத்தொகை அட்லஸ்கள் போன்றவற்றைச் சாத்தியமாக்குகிறது.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -638,47 +884,34 @@
   {
    "id": "s06",
    "title": {
-    "en": "Ethics in Biotechnology: Socio-ethical Problems"
+    "en": "Ethics in Biotechnology: Socio-ethical Problems",
+    "ta": "உயிரித் தொழில்நுட்பத்தில் நெறிமுறைகள்: சமூக-நெறிமுறைச் சிக்கல்கள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Technology raises questions of what we can do versus what we should do."
+      "en": "Technology raises questions of what we can do versus what we should do.",
+      "ta": "நாம் என்ன செய்யலாம் என்பதற்கும் என்ன செய்ய வேண்டும் என்பதற்கும் இடையிலான வினாக்களைத் தொழில்நுட்பம் எழுப்புகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Bioethics\nThe study of moral issues arising from biological research and its applications. Four core principles: **autonomy**, **beneficence**, **non-maleficence** and **justice**."
+      "en": "Bioethics\nThe study of moral issues arising from biological research and its applications. Four core principles: **autonomy**, **beneficence**, **non-maleficence** and **justice**.",
+      "ta": "உயிர்நெறியியல்\nஉயிரியல் ஆய்வுகளிலிருந்தும் அவற்றின் பயன்பாடுகளிலிருந்தும் எழும் அறநெறிச் சிக்கல்களைப் பற்றிய படிப்பு. நான்கு அடிப்படைக் கோட்பாடுகள்: **தன்னாட்சி**, **நன்மை செய்தல்**, **தீங்கு தவிர்த்தல்**, **நீதி**.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Genetic privacy and discrimination▼"
-     }
-    },
-    {
-     "type": "bullets",
-     "ordered": false,
-     "items": [
-      {
-       "en": "Genetic information is highly personal and can reveal family risks."
-      },
-      {
-       "en": "Risk of discrimination by insurers or employers; in the USA the **GINA (2008)** law prohibits it in health insurance and employment."
-      },
-      {
-       "en": "Need for confidentiality and secure data storage."
-      }
-     ]
-    },
-    {
-     "type": "p",
-     "text": {
-      "en": "Informed consent▼"
+      "en": "Genetic privacy and discrimination▼",
+      "ta": "மரபணுத் தனியுரிமையும் பாகுபாடும்▼",
+      "ta_status": "draft"
      }
     },
     {
@@ -686,17 +919,28 @@
      "ordered": false,
      "items": [
       {
-       "en": "Participants must know the risks, benefits and uses of data before agreeing."
+       "en": "Genetic information is highly personal and can reveal family risks.",
+       "ta": "மரபணுத் தகவல் மிகவும் தனிப்பட்டது; குடும்ப ஆபத்துகளை வெளிப்படுத்தக்கூடும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Special care for children, the mentally ill and indigenous communities."
+       "en": "Risk of discrimination by insurers or employers; in the USA the **GINA (2008)** law prohibits it in health insurance and employment.",
+       "ta": "காப்பீட்டாளர்கள் அல்லது வேலையளிப்பவர்களால் பாகுபாடு காட்டப்படும் ஆபத்து; அமெரிக்காவில் **GINA (2008)** சட்டம் சுகாதாரக் காப்பீடு, வேலைவாய்ப்பில் இதைத் தடை செய்கிறது.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Need for confidentiality and secure data storage.",
+       "ta": "இரகசியக் காப்பும் பாதுகாப்பான தரவுச் சேமிப்பும் தேவை.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "Germline editing and \"designer babies\"▼"
+      "en": "Informed consent▼",
+      "ta": "தெரிந்த ஒப்புதல்▼",
+      "ta_status": "draft"
      }
     },
     {
@@ -704,20 +948,23 @@
      "ordered": false,
      "items": [
       {
-       "en": "Changes are inherited by future generations without their consent."
+       "en": "Participants must know the risks, benefits and uses of data before agreeing.",
+       "ta": "ஒப்புக்கொள்ளுமுன் பங்கேற்பாளர்கள் ஆபத்துகள், நன்மைகள், தரவுப் பயன்பாடுகளை அறிய வேண்டும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "In 2018, He Jiankui announced the birth of gene-edited twins; the scientific community condemned this and he was imprisoned in China."
-      },
-      {
-       "en": "Germline editing for reproduction is prohibited in many countries."
+       "en": "Special care for children, the mentally ill and indigenous communities.",
+       "ta": "குழந்தைகள், மனநலம் குன்றியவர்கள், பழங்குடிச் சமூகங்களுக்குச் சிறப்புக் கவனம்.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "GM food and environment▼"
+      "en": "Germline editing and \"designer babies\"▼",
+      "ta": "கருவழித் திருத்தமும் “வடிவமைக்கப்பட்ட குழந்தைகளும்”▼",
+      "ta_status": "draft"
      }
     },
     {
@@ -725,17 +972,28 @@
      "ordered": false,
      "items": [
       {
-       "en": "Concerns: allergenicity, gene flow to wild relatives, loss of biodiversity, resistance in pests."
+       "en": "Changes are inherited by future generations without their consent.",
+       "ta": "மாற்றங்கள் எதிர்காலத் தலைமுறைகளுக்கு அவர்கள் ஒப்புதலின்றி மரபுவழி வரும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Right to know: labelling of GM foods."
+       "en": "In 2018, He Jiankui announced the birth of gene-edited twins; the scientific community condemned this and he was imprisoned in China.",
+       "ta": "2018-இல் ஹே ஜியான்குய் மரபணுத் திருத்தம் செய்யப்பட்ட இரட்டையர் பிறந்ததாக அறிவித்தார்; அறிவியல் சமூகம் இதைக் கண்டித்தது; அவர் சீனாவில் சிறைத்தண்டனை பெற்றார்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Germline editing for reproduction is prohibited in many countries.",
+       "ta": "இனப்பெருக்கத்துக்கான கருவழித் திருத்தம் பல நாடுகளில் தடை செய்யப்பட்டுள்ளது.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "Animal welfare▼"
+      "en": "GM food and environment▼",
+      "ta": "GM உணவும் சுற்றுச்சூழலும்▼",
+      "ta_status": "draft"
      }
     },
     {
@@ -743,17 +1001,23 @@
      "ordered": false,
      "items": [
       {
-       "en": "The **3Rs**: Replace, Reduce, Refine."
+       "en": "Concerns: allergenicity, gene flow to wild relatives, loss of biodiversity, resistance in pests.",
+       "ta": "கவலைகள்: ஒவ்வாமை, காட்டு உறவினங்களுக்கு மரபணுப் பரவல், பல்லுயிர் இழப்பு, பூச்சிகளின் எதிர்ப்புத்திறன்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Institutional Animal Ethics Committees (CPCSEA in India) approve experiments."
+       "en": "Right to know: labelling of GM foods.",
+       "ta": "அறியும் உரிமை: GM உணவுகளுக்குச் சீட்டிடல்.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "Justice and access▼"
+      "en": "Animal welfare▼",
+      "ta": "விலங்கு நலன்▼",
+      "ta_status": "draft"
      }
     },
     {
@@ -761,17 +1025,23 @@
      "ordered": false,
      "items": [
       {
-       "en": "Gene therapies and biologics can cost millions; unequal access between rich and poor."
+       "en": "The **3Rs**: Replace, Reduce, Refine.",
+       "ta": "**3R-கள்**: மாற்றுதல் (Replace), குறைத்தல் (Reduce), மேம்படுத்தல் (Refine).",
+       "ta_status": "bracketed"
       },
       {
-       "en": "Benefit-sharing with communities that supply genetic resources."
+       "en": "Institutional Animal Ethics Committees (CPCSEA in India) approve experiments.",
+       "ta": "நிறுவன விலங்கு நெறிமுறைக் குழுக்கள் (இந்தியாவில் CPCSEA) சோதனைகளுக்கு ஒப்புதல் அளிக்கின்றன.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "Dual use and bioweapons▼"
+      "en": "Justice and access▼",
+      "ta": "நீதியும் அணுகலும்▼",
+      "ta_status": "draft"
      }
     },
     {
@@ -779,73 +1049,129 @@
      "ordered": false,
      "items": [
       {
-       "en": "Research with legitimate benefits may be misused; oversight needed."
+       "en": "Gene therapies and biologics can cost millions; unequal access between rich and poor.",
+       "ta": "மரபணுச் சிகிச்சைகள், உயிர்மருந்துகள் மில்லியன்கள் செலவாகலாம்; ஏழை – பணக்காரர் இடையே சமமற்ற அணுகல்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Benefit-sharing with communities that supply genetic resources.",
+       "ta": "மரபணு வளங்களை அளிக்கும் சமூகங்களுடன் பயன் பகிர்தல்.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Regulation in India**"
+      "en": "Dual use and bioweapons▼",
+      "ta": "இரட்டைப் பயன்பாடும் உயிரி ஆயுதங்களும்▼",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Research with legitimate benefits may be misused; oversight needed.",
+       "ta": "நியாயமான நன்மைகள் உள்ள ஆய்வு தவறாகப் பயன்படுத்தப்படலாம்; மேற்பார்வை தேவை.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Regulation in India**",
+      "ta": "**இந்தியாவில் ஒழுங்குமுறை**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "table",
      "header": [
       {
-       "en": "Body / law"
+       "en": "Body / law",
+       "ta": "அமைப்பு / சட்டம்",
+       "ta_status": "draft"
       },
       {
-       "en": "Role"
+       "en": "Role",
+       "ta": "பங்கு",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Environment (Protection) Act, 1986 and Rules, 1989**"
+        "en": "**Environment (Protection) Act, 1986 and Rules, 1989**",
+        "ta": "**சுற்றுச்சூழல் (பாதுகாப்பு) சட்டம், 1986 மற்றும் விதிகள், 1989**",
+        "ta_status": "draft"
        },
        {
-        "en": "Rules for manufacture, use, import, export and storage of hazardous micro-organisms and GMOs"
+        "en": "Rules for manufacture, use, import, export and storage of hazardous micro-organisms and GMOs",
+        "ta": "அபாயகர நுண்ணுயிர்கள், GMO-க்களின் உற்பத்தி, பயன்பாடு, இறக்குமதி, ஏற்றுமதி, சேமிப்புக்கான விதிகள்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**GEAC** (Genetic Engineering Appraisal Committee)**"
+        "en": "**GEAC** (Genetic Engineering Appraisal Committee)**",
+        "ta": "**GEAC** (மரபணுப் பொறியியல் மதிப்பீட்டுக் குழு)**",
+        "ta_status": "draft"
        },
        {
-        "en": "Under MoEF&CC; approves environmental release of GMOs"
+        "en": "Under MoEF&CC; approves environmental release of GMOs",
+        "ta": "MoEF&CC கீழ்; GMO-க்களைச் சுற்றுச்சூழலில் வெளியிட ஒப்புதல் அளிக்கும்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**RCGM** and **IBSC** (DBT)**"
+        "en": "**RCGM** and **IBSC** (DBT)**",
+        "ta": "**RCGM** மற்றும் **IBSC** (DBT)**",
+        "ta_status": "bracketed"
        },
        {
-        "en": "Review of research on GMOs; Institutional Biosafety Committees at institutions"
+        "en": "Review of research on GMOs; Institutional Biosafety Committees at institutions",
+        "ta": "GMO ஆய்வுகளின் மறுஆய்வு; நிறுவனங்களில் நிறுவன உயிரிப் பாதுகாப்புக் குழுக்கள்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**ICMR** guidelines**"
+        "en": "**ICMR** guidelines**",
+        "ta": "**ICMR** வழிகாட்டுதல்கள்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Ethical guidelines for biomedical research on human participants"
+        "en": "Ethical guidelines for biomedical research on human participants",
+        "ta": "மனிதப் பங்கேற்பாளர்கள் மீதான உயிர்மருத்துவ ஆய்வுக்கான நெறிமுறை வழிகாட்டுதல்கள்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Cartagena Protocol on Biosafety (2000)**"
+        "en": "**Cartagena Protocol on Biosafety (2000)**",
+        "ta": "**உயிரிப் பாதுகாப்புக்கான கார்டஜீனா நெறிமுறை (2000)**",
+        "ta_status": "draft"
        },
        {
-        "en": "International agreement on safe transboundary movement of living modified organisms"
+        "en": "International agreement on safe transboundary movement of living modified organisms",
+        "ta": "மரபணு மாற்றப்பட்ட உயிரினங்கள் எல்லை கடந்து பாதுகாப்பாக நகர்வதற்கான பன்னாட்டு ஒப்பந்தம்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Asilomar Conference (1975)**"
+        "en": "**Asilomar Conference (1975)**",
+        "ta": "**அசிலோமர் மாநாடு (1975)**",
+        "ta_status": "draft"
        },
        {
-        "en": "Scientists' early voluntary guidelines for recombinant DNA research"
+        "en": "Scientists' early voluntary guidelines for recombinant DNA research",
+        "ta": "மறுகூட்டிணைவு DNA ஆய்வுக்கு அறிவியலாளர்களின் ஆரம்பகாலத் தன்னார்வ வழிகாட்டுதல்கள்",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -856,127 +1182,191 @@
   {
    "id": "s07",
    "title": {
-    "en": "Intellectual Property Rights (IPR)"
+    "en": "Intellectual Property Rights (IPR)",
+    "ta": "அறிவுசார் சொத்துரிமைகள் (IPR)",
+    "ta_status": "bracketed"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "IPR gives inventors exclusive rights over their creations, encouraging investment in biotechnology while raising debates about patenting life."
+      "en": "IPR gives inventors exclusive rights over their creations, encouraging investment in biotechnology while raising debates about patenting life.",
+      "ta": "IPR கண்டுபிடிப்பாளர்களுக்குத் தம் படைப்புகள் மீது தனிப்பட்ட உரிமைகளை அளித்து, உயிரித் தொழில்நுட்பத்தில் முதலீட்டை ஊக்குவிக்கிறது; அதே நேரம் உயிர்களுக்குக் காப்புரிமை பெறுவது குறித்த விவாதங்களையும் எழுப்புகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Intellectual property rights\nLegal rights granted to a creator or inventor to exclude others from using an intellectual creation for a fixed period, so that they can recover investment and profit from their work."
+      "en": "Intellectual property rights\nLegal rights granted to a creator or inventor to exclude others from using an intellectual creation for a fixed period, so that they can recover investment and profit from their work.",
+      "ta": "அறிவுசார் சொத்துரிமைகள்\nஒரு படைப்பாளி அல்லது கண்டுபிடிப்பாளர் தம் முதலீட்டையும் பயனையும் திரும்பப் பெறும்படி, ஓர் அறிவுசார் படைப்பைக் குறிப்பிட்ட காலத்துக்குப் பிறர் பயன்படுத்தாதவாறு தடுக்க அவருக்கு வழங்கப்படும் சட்ட உரிமைகள்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Forms of IPR**"
+      "en": "**Forms of IPR**",
+      "ta": "**IPR வடிவங்கள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "table",
      "header": [
       {
-       "en": "Form"
+       "en": "Form",
+       "ta": "வடிவம்",
+       "ta_status": "draft"
       },
       {
-       "en": "Protects"
+       "en": "Protects",
+       "ta": "பாதுகாப்பது",
+       "ta_status": "draft"
       },
       {
-       "en": "Duration (typical)"
+       "en": "Duration (typical)",
+       "ta": "காலம் (பொதுவாக)",
+       "ta_status": "draft"
       },
       {
-       "en": "Biotechnology example"
+       "en": "Biotechnology example",
+       "ta": "உயிரித் தொழில்நுட்ப எடுத்துக்காட்டு",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Patent**"
+        "en": "**Patent**",
+        "ta": "**காப்புரிமை (Patent)**",
+        "ta_status": "bracketed"
        },
        {
-        "en": "Inventions (products, processes)"
+        "en": "Inventions (products, processes)",
+        "ta": "கண்டுபிடிப்புகள் (பொருள்கள், செயல்முறைகள்)",
+        "ta_status": "draft"
        },
        {
-        "en": "20 years from filing (TRIPS)"
+        "en": "20 years from filing (TRIPS)",
+        "ta": "விண்ணப்பித்த நாளிலிருந்து 20 ஆண்டுகள் (TRIPS)",
+        "ta_status": "bracketed"
        },
        {
-        "en": "Recombinant insulin process, PCR, transgenic mouse method"
+        "en": "Recombinant insulin process, PCR, transgenic mouse method",
+        "ta": "மறுகூட்டிணைவு இன்சுலின் செயல்முறை, PCR, மரபணுமாற்ற எலி முறை",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Copyright**"
+        "en": "**Copyright**",
+        "ta": "**பதிப்புரிமை (Copyright)**",
+        "ta_status": "bracketed"
        },
        {
-        "en": "Original literary/artistic works, software"
+        "en": "Original literary/artistic works, software",
+        "ta": "அசல் இலக்கிய/கலைப் படைப்புகள், மென்பொருள்",
+        "ta_status": "draft"
        },
        {
-        "en": "Life + 60 years (India)"
+        "en": "Life + 60 years (India)",
+        "ta": "ஆயுள் + 60 ஆண்டுகள் (இந்தியா)",
+        "ta_status": "draft"
        },
        {
-        "en": "Bioinformatics software, textbooks"
+        "en": "Bioinformatics software, textbooks",
+        "ta": "உயிரித் தகவலியல் மென்பொருள், பாடநூல்கள்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Trademark**"
+        "en": "**Trademark**",
+        "ta": "**வணிகக்குறி (Trademark)**",
+        "ta_status": "bracketed"
        },
        {
-        "en": "Brand names, logos"
+        "en": "Brand names, logos",
+        "ta": "பிராண்டு பெயர்கள், சின்னங்கள்",
+        "ta_status": "draft"
        },
        {
-        "en": "10 years, renewable"
+        "en": "10 years, renewable",
+        "ta": "10 ஆண்டுகள், புதுப்பிக்கத்தக்கது",
+        "ta_status": "draft"
        },
        {
-        "en": "Brand name of a drug (Herceptin)"
+        "en": "Brand name of a drug (Herceptin)",
+        "ta": "மருந்தின் பிராண்டு பெயர் (Herceptin)",
+        "ta_status": "bracketed"
        }
       ],
       [
        {
-        "en": "**Trade secret**"
+        "en": "**Trade secret**",
+        "ta": "**வணிக ரகசியம்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Confidential business information"
+        "en": "Confidential business information",
+        "ta": "இரகசிய வணிகத் தகவல்",
+        "ta_status": "draft"
        },
        {
-        "en": "As long as secret"
+        "en": "As long as secret",
+        "ta": "ரகசியமாக இருக்கும் வரை",
+        "ta_status": "draft"
        },
        {
-        "en": "Media formulations of a company"
+        "en": "Media formulations of a company",
+        "ta": "ஒரு நிறுவனத்தின் ஊடகத் தயாரிப்பு விகிதங்கள்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Geographical Indication (GI)**"
+        "en": "**Geographical Indication (GI)**",
+        "ta": "**புவிசார் குறியீடு (GI)**",
+        "ta_status": "bracketed"
        },
        {
-        "en": "Products from a region with special quality"
+        "en": "Products from a region with special quality",
+        "ta": "சிறப்புத் தரம் கொண்ட ஒரு பகுதியின் பொருள்கள்",
+        "ta_status": "draft"
        },
        {
-        "en": "10 years, renewable"
+        "en": "10 years, renewable",
+        "ta": "10 ஆண்டுகள், புதுப்பிக்கத்தக்கது",
+        "ta_status": "draft"
        },
        {
-        "en": "Darjeeling tea, Basmati rice"
+        "en": "Darjeeling tea, Basmati rice",
+        "ta": "டார்ஜிலிங் தேநீர், பாஸ்மதி அரிசி",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Plant breeders' rights**"
+        "en": "**Plant breeders' rights**",
+        "ta": "**தாவர வளர்ப்பாளர் உரிமைகள்**",
+        "ta_status": "draft"
        },
        {
-        "en": "New plant varieties"
+        "en": "New plant varieties",
+        "ta": "புதிய தாவர வகைகள்",
+        "ta_status": "draft"
        },
        {
-        "en": "15–18 years"
+        "en": "15–18 years",
+        "ta": "15–18 ஆண்டுகள்",
+        "ta_status": "draft"
        },
        {
-        "en": "New hybrid variety (PPV&FR Act, 2001)"
+        "en": "New hybrid variety (PPV&FR Act, 2001)",
+        "ta": "புதிய கலப்பின வகை (PPV&FR சட்டம், 2001)",
+        "ta_status": "bracketed"
        }
       ]
      ]
@@ -984,172 +1374,244 @@
     {
      "type": "p",
      "text": {
-      "en": "**Patent criteria**"
+      "en": "**Patent criteria**",
+      "ta": "**காப்புரிமைக்கான நிபந்தனைகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Novelty**"
+      "en": "**Novelty**",
+      "ta": "**புதுமை**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Not previously known or published anywhere."
+      "en": "Not previously known or published anywhere.",
+      "ta": "எங்கும் முன்னர் அறியப்படாத அல்லது வெளியிடப்படாதது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Inventive step**"
+      "en": "**Inventive step**",
+      "ta": "**கண்டுபிடிப்புப் படி**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Not obvious to a person skilled in the art."
+      "en": "Not obvious to a person skilled in the art.",
+      "ta": "அத்துறையில் திறன்பெற்றவருக்குப் புலப்படாதது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Industrial applicability**"
+      "en": "**Industrial applicability**",
+      "ta": "**தொழிற்சாலைப் பயன்பாடு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Capable of being made or used in industry."
+      "en": "Capable of being made or used in industry.",
+      "ta": "தொழில்துறையில் உருவாக்க அல்லது பயன்படுத்தக்கூடியது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Patenting micro-organisms: Budapest Treaty**\nThe **Budapest Treaty (1977)** recognises the deposit of a micro-organism in an International Depositary Authority as part of the patent application. In India, a deposit centre is IMTECH, Chandigarh (MTCC)."
+      "en": "**Patenting micro-organisms: Budapest Treaty**\nThe **Budapest Treaty (1977)** recognises the deposit of a micro-organism in an International Depositary Authority as part of the patent application. In India, a deposit centre is IMTECH, Chandigarh (MTCC).",
+      "ta": "**நுண்ணுயிர்களுக்குக் காப்புரிமை: புடாபெஸ்ட் ஒப்பந்தம்**\n**புடாபெஸ்ட் ஒப்பந்தம் (1977)** ஒரு நுண்ணுயிரைப் பன்னாட்டு வைப்பு அதிகார அமைப்பில் வைப்பதைக் காப்புரிமை விண்ணப்பத்தின் பகுதியாக ஏற்கிறது. இந்தியாவில் வைப்பு மையம் IMTECH, சண்டிகர் (MTCC).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Important international and Indian instruments**"
+      "en": "**Important international and Indian instruments**",
+      "ta": "**முக்கியப் பன்னாட்டு, இந்தியக் கருவிகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**TRIPS (1995)** — WTO agreement setting minimum IPR standards; 20-year patent term"
+      "en": "**TRIPS (1995)** — WTO agreement setting minimum IPR standards; 20-year patent term",
+      "ta": "**TRIPS (1995)** — குறைந்தபட்ச IPR தரங்களை நிர்ணயிக்கும் WTO ஒப்பந்தம்; 20 ஆண்டு காப்புரிமைக் காலம்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Convention on Biological Diversity (1992)** — Sovereign rights over biological resources; access and benefit sharing (Nagoya Protocol, 2010)"
+      "en": "**Convention on Biological Diversity (1992)** — Sovereign rights over biological resources; access and benefit sharing (Nagoya Protocol, 2010)",
+      "ta": "**உயிரிப் பல்வகைமை உடன்படிக்கை (1992)** — உயிரி வளங்கள் மீதான இறையாண்மை உரிமை; அணுகலும் பயன் பகிர்வும் (நகோயா நெறிமுறை, 2010)",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Indian Patents Act, 1970** — Amended in 2005 to allow product patents; **Section 3(j)** excludes plants, animals, seeds, varieties and essentially biological processes; Section 3(d) restricts patents on new forms of known substances without enhanced efficacy"
+      "en": "**Indian Patents Act, 1970** — Amended in 2005 to allow product patents; **Section 3(j)** excludes plants, animals, seeds, varieties and essentially biological processes; Section 3(d) restricts patents on new forms of known substances without enhanced efficacy",
+      "ta": "**இந்தியக் காப்புரிமைச் சட்டம், 1970** — 2005-இல் பொருள் காப்புரிமையை அனுமதிக்கத் திருத்தப்பட்டது; **பிரிவு 3(j)** தாவரங்கள், விலங்குகள், விதைகள், வகைகள், அடிப்படையில் உயிரியல் செயல்முறைகளை விலக்குகிறது; பிரிவு 3(d) மேம்பட்ட திறன் இல்லாத, அறிந்த பொருள்களின் புதிய வடிவங்களுக்குக் காப்புரிமையை வரம்பிடுகிறது",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Biological Diversity Act, 2002** — National Biodiversity Authority (Chennai) regulates access to biological resources"
+      "en": "**Biological Diversity Act, 2002** — National Biodiversity Authority (Chennai) regulates access to biological resources",
+      "ta": "**உயிரிப் பல்வகைமைச் சட்டம், 2002** — தேசிய பல்லுயிர்ப் பெருக்க ஆணையம் (சென்னை) உயிரி வளங்களுக்கான அணுகலை ஒழுங்குபடுத்துகிறது",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**PPV&FR Act, 2001** — Protects plant varieties and farmers' rights"
+      "en": "**PPV&FR Act, 2001** — Protects plant varieties and farmers' rights",
+      "ta": "**PPV&FR சட்டம், 2001** — தாவர வகைகளையும் உழவர் உரிமைகளையும் பாதுகாக்கிறது",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Landmark cases**"
+      "en": "**Landmark cases**",
+      "ta": "**முக்கிய வழக்குகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "table",
      "header": [
       {
-       "en": "Case"
+       "en": "Case",
+       "ta": "வழக்கு",
+       "ta_status": "draft"
       },
       {
-       "en": "Issue"
+       "en": "Issue",
+       "ta": "பிரச்சினை",
+       "ta_status": "draft"
       },
       {
-       "en": "Outcome"
+       "en": "Outcome",
+       "ta": "முடிவு",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Diamond v. Chakrabarty (1980)**"
+        "en": "**Diamond v. Chakrabarty (1980)**",
+        "ta": "**டயமண்ட் – சக்ரவர்த்தி (1980)**",
+        "ta_status": "draft"
        },
        {
-        "en": "Patent on a genetically engineered bacterium"
+        "en": "Patent on a genetically engineered bacterium",
+        "ta": "மரபணுப் பொறியியல் பாக்டீரியாவுக்குக் காப்புரிமை",
+        "ta_status": "draft"
        },
        {
-        "en": "US Supreme Court allowed it"
+        "en": "US Supreme Court allowed it",
+        "ta": "அமெரிக்க உச்சநீதிமன்றம் அனுமதித்தது",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Harvard Oncomouse (1988)**"
+        "en": "**Harvard Oncomouse (1988)**",
+        "ta": "**ஹார்வர்டு ஆங்கோமவுஸ் (1988)**",
+        "ta_status": "draft"
        },
        {
-        "en": "First patented transgenic animal (USA)"
+        "en": "First patented transgenic animal (USA)",
+        "ta": "காப்புரிமை பெற்ற முதல் மரபணுமாற்ற விலங்கு (அமெரிக்கா)",
+        "ta_status": "draft"
        },
        {
-        "en": "Granted in the USA; contested in Canada and Europe"
+        "en": "Granted in the USA; contested in Canada and Europe",
+        "ta": "அமெரிக்காவில் வழங்கப்பட்டது; கனடா, ஐரோப்பாவில் எதிர்க்கப்பட்டது",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Neem patent (EPO)**"
+        "en": "**Neem patent (EPO)**",
+        "ta": "**வேப்பம் காப்புரிமை (EPO)**",
+        "ta_status": "bracketed"
        },
        {
-        "en": "Patent on antifungal use of neem oil (W. R. Grace and USDA)"
+        "en": "Patent on antifungal use of neem oil (W. R. Grace and USDA)",
+        "ta": "வேப்ப எண்ணெயின் பூஞ்சை எதிர்ப்புப் பயனுக்குக் காப்புரிமை (W. R. கிரேஸ், USDA)",
+        "ta_status": "bracketed"
        },
        {
-        "en": "Revoked in 2000 after challenge by India and others"
+        "en": "Revoked in 2000 after challenge by India and others",
+        "ta": "இந்தியா மற்றும் பிறரின் சவாலுக்குப் பின் 2000-இல் ரத்து செய்யப்பட்டது",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Turmeric (USPTO, 1995)**"
+        "en": "**Turmeric (USPTO, 1995)**",
+        "ta": "**மஞ்சள் (USPTO, 1995)**",
+        "ta_status": "bracketed"
        },
        {
-        "en": "Patent on wound healing use of turmeric"
+        "en": "Patent on wound healing use of turmeric",
+        "ta": "மஞ்சளின் காயம் ஆற்றும் பயனுக்குக் காப்புரிமை",
+        "ta_status": "draft"
        },
        {
-        "en": "Revoked in 1997 after CSIR challenge"
+        "en": "Revoked in 1997 after CSIR challenge",
+        "ta": "CSIR சவாலுக்குப் பின் 1997-இல் ரத்து செய்யப்பட்டது",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Basmati rice (RiceTec, 1997)**"
+        "en": "**Basmati rice (RiceTec, 1997)**",
+        "ta": "**பாஸ்மதி அரிசி (RiceTec, 1997)**",
+        "ta_status": "bracketed"
        },
        {
-        "en": "Patent on basmati lines and grains"
+        "en": "Patent on basmati lines and grains",
+        "ta": "பாஸ்மதி வரிசைகள், தானியங்களுக்குக் காப்புரிமை",
+        "ta_status": "draft"
        },
        {
-        "en": "India challenged; key claims withdrawn or struck in 2001"
+        "en": "India challenged; key claims withdrawn or struck in 2001",
+        "ta": "இந்தியா சவால் விடுத்தது; முக்கியக் கோரிக்கைகள் 2001-இல் திரும்பப் பெறப்பட்டன அல்லது தள்ளுபடியாயின",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**AMP v. Myriad (2013)**"
+        "en": "**AMP v. Myriad (2013)**",
+        "ta": "**AMP – மையரிட் (2013)**",
+        "ta_status": "draft"
        },
        {
-        "en": "Patent on isolated human BRCA genes"
+        "en": "Patent on isolated human BRCA genes",
+        "ta": "தனிமைப்படுத்திய மனித BRCA மரபணுக்களுக்குக் காப்புரிமை",
+        "ta_status": "draft"
        },
        {
-        "en": "US Supreme Court: natural DNA not patentable; cDNA is"
+        "en": "US Supreme Court: natural DNA not patentable; cDNA is",
+        "ta": "அமெரிக்க உச்சநீதிமன்றம்: இயற்கை DNA-வுக்குக் காப்புரிமை இல்லை; cDNA-வுக்கு உண்டு",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -1158,7 +1620,9 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Biopiracy**\nBiopiracy is the unauthorised commercial use of biological resources or traditional knowledge without sharing benefits. India's **Traditional Knowledge Digital Library (TKDL)** documents traditional knowledge to prevent wrongful patents."
+      "en": "**Biopiracy**\nBiopiracy is the unauthorised commercial use of biological resources or traditional knowledge without sharing benefits. India's **Traditional Knowledge Digital Library (TKDL)** documents traditional knowledge to prevent wrongful patents.",
+      "ta": "**உயிரிக் கொள்ளை**\nஉயிரி வளங்கள் அல்லது மரபுசார் அறிவை, பயன் பகிராமல் அனுமதியின்றி வணிகரீதியாகப் பயன்படுத்துவது உயிரிக் கொள்ளை (Biopiracy). தவறான காப்புரிமைகளைத் தடுக்க, இந்தியாவின் **மரபுசார் அறிவு எண்ணிமநூலகம் (TKDL)** மரபுசார் அறிவை ஆவணப்படுத்துகிறது.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -1167,223 +1631,297 @@
   {
    "id": "s08",
    "title": {
-    "en": "Summary & Exam Revision"
+    "en": "Summary & Exam Revision",
+    "ta": "சுருக்கமும் தேர்வுத் திருப்புதலும்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Key points and model answers likely to appear in university examinations."
+      "en": "Key points and model answers likely to appear in university examinations.",
+      "ta": "பல்கலைக்கழகத் தேர்வுகளில் வர வாய்ப்புள்ள முக்கியக் குறிப்புகளும் மாதிரி விடைகளும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Key exam points**"
+      "en": "**Key exam points**",
+      "ta": "**முக்கியத் தேர்வுக் குறிப்புகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "1"
+      "en": "1",
+      "ta": "1",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**HGP**: 1990–2003; ~3.1 Gb; ~20,000 genes; <2% coding; ~99.9% similarity between individuals."
+      "en": "**HGP**: 1990–2003; ~3.1 Gb; ~20,000 genes; <2% coding; ~99.9% similarity between individuals.",
+      "ta": "**HGP**: 1990–2003; ~3.1 Gb; ~20,000 மரபணுக்கள்; <2% குறியீடு; தனிநபர்களிடையே ~99.9% ஒற்றுமை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "2"
+      "en": "2",
+      "ta": "2",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Public consortium (clone-by-clone, BAC) versus Celera (whole-genome shotgun); T2T gapless genome in 2022."
+      "en": "Public consortium (clone-by-clone, BAC) versus Celera (whole-genome shotgun); T2T gapless genome in 2022.",
+      "ta": "பொது கூட்டமைப்பு (குளோன்-குளோன், BAC) – செலெரா (முழு மரபணுத்தொகைய ஷாட்கன்); 2022-இல் T2T இடைவெளியற்ற மரபணுத்தொகையம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "3"
+      "en": "3",
+      "ta": "3",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Maps: genetic (cM), cytogenetic (bands), physical (bp), sequence map."
+      "en": "Maps: genetic (cM), cytogenetic (bands), physical (bp), sequence map.",
+      "ta": "வரைபடங்கள்: மரபணு (cM), செல்மரபியல் (பட்டைகள்), இயற்பியல் (bp), வரிசை வரைபடம்.",
+      "ta_status": "bracketed"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "4"
+      "en": "4",
+      "ta": "4",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Applications: disease genes, pharmacogenomics, forensics, evolution, bioinformatics."
+      "en": "Applications: disease genes, pharmacogenomics, forensics, evolution, bioinformatics.",
+      "ta": "பயன்பாடுகள்: நோய் மரபணுக்கள், பார்மகோஜினோமிக்ஸ், தடயவியல், பரிணாமம், உயிரித் தகவலியல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "5"
+      "en": "5",
+      "ta": "5",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**ELSI** accounted for 3–5% of the HGP budget."
+      "en": "**ELSI** accounted for 3–5% of the HGP budget.",
+      "ta": "HGP வரவு-செலவில் **ELSI** 3–5% ஆகும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "6"
+      "en": "6",
+      "ta": "6",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Ethics: privacy, consent, discrimination, germline editing, GM food, animal welfare, equity."
+      "en": "Ethics: privacy, consent, discrimination, germline editing, GM food, animal welfare, equity.",
+      "ta": "நெறிமுறைகள்: தனியுரிமை, ஒப்புதல், பாகுபாடு, கருவழித் திருத்தம், GM உணவு, விலங்கு நலன், சமநிலை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "7"
+      "en": "7",
+      "ta": "7",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "India: **GEAC**, RCGM, IBSC; EPA 1986/Rules 1989; Biological Diversity Act 2002; PPV&FR Act 2001."
+      "en": "India: **GEAC**, RCGM, IBSC; EPA 1986/Rules 1989; Biological Diversity Act 2002; PPV&FR Act 2001.",
+      "ta": "இந்தியா: **GEAC**, RCGM, IBSC; EPA 1986/விதிகள் 1989; உயிரிப் பல்வகைமைச் சட்டம் 2002; PPV&FR சட்டம் 2001.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "8"
+      "en": "8",
+      "ta": "8",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Patent criteria: novelty, inventive step, industrial applicability; TRIPS: 20 years; Budapest Treaty for microbes."
+      "en": "Patent criteria: novelty, inventive step, industrial applicability; TRIPS: 20 years; Budapest Treaty for microbes.",
+      "ta": "காப்புரிமை நிபந்தனைகள்: புதுமை, கண்டுபிடிப்புப் படி, தொழிற்சாலைப் பயன்பாடு; TRIPS: 20 ஆண்டுகள்; நுண்ணுயிர்களுக்குப் புடாபெஸ்ட் ஒப்பந்தம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "9"
+      "en": "9",
+      "ta": "9",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Section 3(j) of Indian Patents Act excludes plants and animals; neem and turmeric patents revoked."
+      "en": "Section 3(j) of Indian Patents Act excludes plants and animals; neem and turmeric patents revoked.",
+      "ta": "இந்தியக் காப்புரிமைச் சட்டப் பிரிவு 3(j) தாவரங்கள், விலங்குகளை விலக்குகிறது; வேம்பு, மஞ்சள் காப்புரிமைகள் ரத்து செய்யப்பட்டன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Short-answer questions**"
+      "en": "**Short-answer questions**",
+      "ta": "**குறுவினாக்கள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click a question to reveal the model answer."
+      "en": "Click a question to reveal the model answer.",
+      "ta": "மாதிரி விடையைக் காண வினாவைத் தொடுக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.1What is the Human Genome Project? State its goals.▼"
+      "en": "Q.1What is the Human Genome Project? State its goals.▼",
+      "ta": "வி.1மனித மரபணுத்தொகைத் திட்டம் என்றால் என்ன? அதன் இலக்குகளைக் கூறுக.▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "An international project (1990–2003) to sequence the ~3 billion base pairs of the human genome, identify its genes, store data in databases, develop analysis tools, and study the ethical, legal and social implications."
+      "en": "An international project (1990–2003) to sequence the ~3 billion base pairs of the human genome, identify its genes, store data in databases, develop analysis tools, and study the ethical, legal and social implications.",
+      "ta": "மனித மரபணுத்தொகையத்தின் ~300 கோடி காரச் சோடிகளை வரிசைப்படுத்தி, மரபணுக்களை அடையாளம் கண்டு, தரவுகளைத் தரவுத்தளங்களில் சேமித்து, பகுப்பாய்வுக் கருவிகளை உருவாக்கி, நெறிமுறை, சட்ட, சமூகத் தாக்கங்களை ஆராயும் பன்னாட்டுத் திட்டம் (1990–2003).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.2Differentiate genetic and physical maps.▼"
+      "en": "Q.2Differentiate genetic and physical maps.▼",
+      "ta": "வி.2மரபணு, இயற்பியல் வரைபடங்களை வேறுபடுத்துக.▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "A genetic map is based on recombination frequency (cM) between markers; a physical map shows actual distance in base pairs using restriction sites, STS and clone contigs."
+      "en": "A genetic map is based on recombination frequency (cM) between markers; a physical map shows actual distance in base pairs using restriction sites, STS and clone contigs.",
+      "ta": "மரபணு வரைபடம் குறிப்பான்களுக்கிடையிலான மறுசேர்க்கை அதிர்வெண்ணை (cM) அடிப்படையாகக் கொண்டது; இயற்பியல் வரைபடம் கட்டுப்பாட்டு இடங்கள், STS, குளோன் காண்டிக்குகள் மூலம் காரச் சோடிகளில் உண்மைத் தொலைவைக் காட்டும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.3Compare the public and Celera approaches.▼"
+      "en": "Q.3Compare the public and Celera approaches.▼",
+      "ta": "வி.3பொது, செலெரா அணுகுமுறைகளை ஒப்பிடுக.▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "The public consortium used hierarchical clone-by-clone BAC sequencing guided by maps; Celera used whole-genome shotgun sequencing followed by computer assembly."
+      "en": "The public consortium used hierarchical clone-by-clone BAC sequencing guided by maps; Celera used whole-genome shotgun sequencing followed by computer assembly.",
+      "ta": "பொது கூட்டமைப்பு வரைபடங்களால் வழிநடத்தப்பட்ட படிநிலை குளோன்-குளோன் BAC வரிசைப்படுத்தலைப் பயன்படுத்தியது; செலெரா முழு மரபணுத்தொகைய ஷாட்கன் வரிசைப்படுத்தலையும் அதன்பின் கணினித் தொகுப்பையும் பயன்படுத்தியது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.4List four applications of HGP.▼"
+      "en": "Q.4List four applications of HGP.▼",
+      "ta": "வி.4HGP-யின் நான்கு பயன்பாடுகளைப் பட்டியலிடுக.▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Identification of disease genes, predictive testing and pharmacogenomics, forensic DNA profiling, comparative genomics/evolution, development of bioinformatics."
+      "en": "Identification of disease genes, predictive testing and pharmacogenomics, forensic DNA profiling, comparative genomics/evolution, development of bioinformatics.",
+      "ta": "நோய் மரபணுக்களை அடையாளம் காணுதல், முன்கணிப்புச் சோதனையும் பார்மகோஜினோமிக்ஸும், தடயவியல் DNA சுயவிவரம், ஒப்பீட்டு மரபணுத்தொகையியல்/பரிணாமம், உயிரித் தகவலியல் வளர்ச்சி.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.5What are the ethical issues related to genetic information?▼"
+      "en": "Q.5What are the ethical issues related to genetic information?▼",
+      "ta": "வி.5மரபணுத் தகவல் தொடர்பான நெறிமுறைச் சிக்கல்கள் யாவை?▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Privacy, discrimination by insurers/employers, informed consent, genetic testing of minors, germline editing, access and equity."
+      "en": "Privacy, discrimination by insurers/employers, informed consent, genetic testing of minors, germline editing, access and equity.",
+      "ta": "தனியுரிமை, காப்பீட்டாளர்/வேலையளிப்பவர் பாகுபாடு, தெரிந்த ஒப்புதல், சிறார்களுக்கு மரபணுச் சோதனை, கருவழித் திருத்தம், அணுகலும் சமநிலையும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.6What is a patent? What are the criteria for patentability?▼"
+      "en": "Q.6What is a patent? What are the criteria for patentability?▼",
+      "ta": "வி.6காப்புரிமை என்றால் என்ன? காப்புரிமைக்கான நிபந்தனைகள் யாவை?▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "A patent is an exclusive right for 20 years to an inventor in exchange for disclosure. The invention must be novel, involve an inventive step and be industrially applicable."
+      "en": "A patent is an exclusive right for 20 years to an inventor in exchange for disclosure. The invention must be novel, involve an inventive step and be industrially applicable.",
+      "ta": "காப்புரிமை என்பது தகவலை வெளியிடுவதற்கு ஈடாகக் கண்டுபிடிப்பாளருக்கு 20 ஆண்டுகளுக்கு வழங்கப்படும் தனிப்பட்ட உரிமை. கண்டுபிடிப்பு புதியதாகவும், கண்டுபிடிப்புப் படி உடையதாகவும், தொழிற்சாலையில் பயன்படுவதாகவும் இருக்க வேண்டும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.7What is biopiracy? Give an example.▼"
+      "en": "Q.7What is biopiracy? Give an example.▼",
+      "ta": "வி.7உயிரிக் கொள்ளை என்றால் என்ன? எடுத்துக்காட்டு தருக.▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Unauthorised exploitation of biological resources or traditional knowledge without benefit sharing. Example: the patents on neem and turmeric, later revoked."
+      "en": "Unauthorised exploitation of biological resources or traditional knowledge without benefit sharing. Example: the patents on neem and turmeric, later revoked.",
+      "ta": "பயன் பகிராமல் உயிரி வளங்கள் அல்லது மரபுசார் அறிவை அனுமதியின்றிச் சுரண்டுதல். எடுத்துக்காட்டு: பின்னர் ரத்து செய்யப்பட்ட வேம்பு, மஞ்சள் மீதான காப்புரிமைகள்.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -1392,121 +1930,173 @@
   {
    "id": "s09",
    "title": {
-    "en": "Key Terms & Glossary"
+    "en": "Key Terms & Glossary",
+    "ta": "முக்கியச் சொற்களும் சொற்களஞ்சியமும்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Important terms in simple language."
+      "en": "Important terms in simple language.",
+      "ta": "முக்கியச் சொற்கள் எளிய மொழியில்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Genome"
+      "en": "Genome",
+      "ta": "மரபணுத்தொகையம்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "The complete set of DNA of an organism."
+      "en": "The complete set of DNA of an organism.",
+      "ta": "ஓர் உயிரினத்தின் முழு DNA தொகுப்பு.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Contig"
+      "en": "Contig",
+      "ta": "காண்டிக்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "A set of overlapping DNA fragments forming a continuous sequence."
+      "en": "A set of overlapping DNA fragments forming a continuous sequence.",
+      "ta": "தொடர்ச்சியான வரிசையை உருவாக்கும், ஒன்றன்மேல் ஒன்று படியும் DNA துண்டுகளின் தொகுப்பு.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "BAC"
+      "en": "BAC",
+      "ta": "BAC",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Bacterial artificial chromosome, a vector carrying 100–200 kb inserts."
+      "en": "Bacterial artificial chromosome, a vector carrying 100–200 kb inserts.",
+      "ta": "100–200 kb செருகல்களைக் கொண்டு செல்லும் தாங்கிக்கடத்தியான பாக்டீரிய செயற்கை நிறப்புரி.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "STS"
+      "en": "STS",
+      "ta": "STS",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Sequence-tagged site: short unique DNA sequence used as a map landmark."
+      "en": "Sequence-tagged site: short unique DNA sequence used as a map landmark.",
+      "ta": "வரிசைக்குறி இடம்: வரைபட அடையாளமாகப் பயன்படும் குறுகிய, தனித்துவமான DNA வரிசை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "SNP"
+      "en": "SNP",
+      "ta": "SNP",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Single nucleotide polymorphism: a single-base difference between individuals."
+      "en": "Single nucleotide polymorphism: a single-base difference between individuals.",
+      "ta": "ஒற்றை நியுக்ளியோடைடு பல்லுருவமைப்பு: தனிநபர்களிடையே ஒரே ஒரு காரத்தில் வேறுபாடு.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "ELSI"
+      "en": "ELSI",
+      "ta": "ELSI",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Ethical, Legal and Social Implications of genomics research."
+      "en": "Ethical, Legal and Social Implications of genomics research.",
+      "ta": "மரபணுத்தொகையியல் ஆய்வின் நெறிமுறை, சட்ட, சமூகத் தாக்கங்கள்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Informed consent"
+      "en": "Informed consent",
+      "ta": "தெரிந்த ஒப்புதல்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Voluntary agreement after understanding risks and benefits."
+      "en": "Voluntary agreement after understanding risks and benefits.",
+      "ta": "ஆபத்துகளையும் நன்மைகளையும் புரிந்துகொண்டபின் அளிக்கும் தன்னார்வ ஒப்புதல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Patent"
+      "en": "Patent",
+      "ta": "காப்புரிமை",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Exclusive right to an invention for a fixed period (20 years)."
+      "en": "Exclusive right to an invention for a fixed period (20 years).",
+      "ta": "குறிப்பிட்ட காலத்துக்கு (20 ஆண்டுகள்) ஒரு கண்டுபிடிப்பின் மீதான தனிப்பட்ட உரிமை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "TRIPS"
+      "en": "TRIPS",
+      "ta": "TRIPS",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "WTO agreement on Trade-Related Aspects of Intellectual Property Rights."
+      "en": "WTO agreement on Trade-Related Aspects of Intellectual Property Rights.",
+      "ta": "அறிவுசார் சொத்துரிமையின் வணிகம் தொடர்பான அம்சங்கள் குறித்த WTO ஒப்பந்தம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Biopiracy"
+      "en": "Biopiracy",
+      "ta": "உயிரிக் கொள்ளை",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Unauthorised commercial use of biological resources or traditional knowledge."
+      "en": "Unauthorised commercial use of biological resources or traditional knowledge.",
+      "ta": "உயிரி வளங்கள் அல்லது மரபுசார் அறிவை அனுமதியின்றி வணிகரீதியாகப் பயன்படுத்துதல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "GEAC"
+      "en": "GEAC",
+      "ta": "GEAC",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Genetic Engineering Appraisal Committee, India's regulator of GMO release."
+      "en": "Genetic Engineering Appraisal Committee, India's regulator of GMO release.",
+      "ta": "மரபணுப் பொறியியல் மதிப்பீட்டுக் குழு, GMO வெளியீட்டை ஒழுங்குபடுத்தும் இந்திய அமைப்பு.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Geographical Indication"
+      "en": "Geographical Indication",
+      "ta": "புவிசார் குறியீடு",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Tag for products with qualities linked to their region of origin."
+      "en": "Tag for products with qualities linked to their region of origin.",
+      "ta": "தோற்றப் பகுதியோடு தொடர்புடைய தரம் உள்ள பொருள்களுக்கான குறியீடு.",
+      "ta_status": "draft"
      }
     }
    ],
