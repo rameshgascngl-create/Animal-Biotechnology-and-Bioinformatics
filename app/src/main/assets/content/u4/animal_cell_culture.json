@@ -2,25 +2,33 @@
  "id": "animal_cell_culture",
  "unit": "IV",
  "title": {
-  "en": "Animal Cell Culture Techniques"
+  "en": "Animal Cell Culture Techniques",
+  "ta": "விலங்கு செல் வளர்ப்பு நுட்பங்கள்",
+  "ta_status": "draft"
  },
  "sections": [
   {
    "id": "s01",
    "title": {
-    "en": "Animal Cell Culture Techniques"
+    "en": "Animal Cell Culture Techniques",
+    "ta": "விலங்கு செல் வளர்ப்பு நுட்பங்கள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Department of Zoology — GASC Nagercoil"
+      "en": "Department of Zoology — GASC Nagercoil",
+      "ta": "விலங்கியல் துறை — GASC நாகர்கோவில்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Unit Overview"
+      "en": "Unit Overview",
+      "ta": "அலகு மேலோட்டம்",
+      "ta_status": "draft"
      }
     }
    ]
@@ -28,26 +36,34 @@
   {
    "id": "s02",
    "title": {
-    "en": "Animal Cell Culture"
+    "en": "Animal Cell Culture",
+    "ta": "விலங்கு செல் வளர்ப்பு",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Animal cell culture is the process of growing cells isolated from animal tissues under controlled _in vitro_ conditions — temperature, pH, CO₂, and nutrition. It is a cornerstone technique enabling research in cancer biology, drug development, vaccine production, and regenerative medicine."
+      "en": "Animal cell culture is the process of growing cells isolated from animal tissues under controlled _in vitro_ conditions — temperature, pH, CO₂, and nutrition. It is a cornerstone technique enabling research in cancer biology, drug development, vaccine production, and regenerative medicine.",
+      "ta": "விலங்கு செல் வளர்ப்பு என்பது விலங்குத் திசுக்களிலிருந்து பிரித்த செல்களை வெப்பநிலை, pH, CO₂, ஊட்டச்சத்து ஆகியவை கட்டுப்படுத்தப்பட்ட _இன் விட்ரோ_ சூழலில் வளர்க்கும் செயல்முறை. புற்றுநோய் உயிரியல், மருந்து உருவாக்கம், தடுப்பூசி உற்பத்தி, மீளுருவாக்க மருத்துவம் ஆகிய ஆய்வுகளுக்கு இது அடிப்படை நுட்பம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🔬 Annotated Animal Cell — Key Organelles**"
+      "en": "**🔬 Annotated Animal Cell — Key Organelles**",
+      "ta": "**🔬 குறிப்பிட்ட விலங்கு செல் — முக்கிய செல்லுறுப்புகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "animal_cell_culture-d01",
      "caption": {
-      "en": ""
+      "en": "",
+      "ta": "",
+      "ta_status": "draft"
      },
      "labels": [
       "Nucleus",
@@ -69,49 +85,25 @@
     {
      "type": "p",
      "text": {
-      "en": "**Definition**"
+      "en": "**Definition**",
+      "ta": "**வரையறை**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Removal of cells from an animal and growing them under **controlled in vitro conditions** — mimicking the in vivo environment of temperature, pH, CO₂, osmolarity, and nutrients."
+      "en": "Removal of cells from an animal and growing them under **controlled in vitro conditions** — mimicking the in vivo environment of temperature, pH, CO₂, osmolarity, and nutrients.",
+      "ta": "விலங்கிலிருந்து செல்களை அகற்றி, வெப்பநிலை, pH, CO₂, ஊடுபரவல் அழுத்தம், ஊட்டச்சத்துகள் ஆகிய உடலக (in vivo) சூழலைப் போன்ற **கட்டுப்படுத்தப்பட்ட இன் விட்ரோ நிலைகளில்** வளர்த்தல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Historical Milestones**"
-     }
-    },
-    {
-     "type": "bullets",
-     "ordered": false,
-     "items": [
-      {
-       "en": "1907 — Ross Harrison: nerve fiber culture"
-      },
-      {
-       "en": "1943 — Earle: mouse fibroblast monolayer"
-      },
-      {
-       "en": "1951 — HeLa cells (first immortal line)"
-      },
-      {
-       "en": "1975 — Monoclonal antibody technology"
-      },
-      {
-       "en": "1998 — Human ES cell isolation"
-      },
-      {
-       "en": "2006 — iPSC generation (Yamanaka)"
-      }
-     ]
-    },
-    {
-     "type": "p",
-     "text": {
-      "en": "**Applications**"
+      "en": "**Historical Milestones**",
+      "ta": "**வரலாற்று மைல்கற்கள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -119,29 +111,43 @@
      "ordered": false,
      "items": [
       {
-       "en": "Vaccine & biopharmaceutical production"
+       "en": "1907 — Ross Harrison: nerve fiber culture",
+       "ta": "1907 — ராஸ் ஹாரிசன்: நரம்பிழை வளர்ப்பு",
+       "ta_status": "draft"
       },
       {
-       "en": "Cancer biology research"
+       "en": "1943 — Earle: mouse fibroblast monolayer",
+       "ta": "1943 — ஏர்ல்: எலி ஃபைப்ரோபிளாஸ்ட் ஒற்றை அடுக்கு",
+       "ta_status": "draft"
       },
       {
-       "en": "Drug toxicity & screening"
+       "en": "1951 — HeLa cells (first immortal line)",
+       "ta": "1951 — HeLa செல்கள் (முதல் சாகா செல் வரிசை)",
+       "ta_status": "draft"
       },
       {
-       "en": "Genetic engineering"
+       "en": "1975 — Monoclonal antibody technology",
+       "ta": "1975 — ஒற்றைக்குளோன் எதிர்ப்பொருள் தொழில்நுட்பம்",
+       "ta_status": "draft"
       },
       {
-       "en": "Tissue engineering & regenerative medicine"
+       "en": "1998 — Human ES cell isolation",
+       "ta": "1998 — மனித ES செல் பிரித்தெடுப்பு",
+       "ta_status": "draft"
       },
       {
-       "en": "Virology studies"
+       "en": "2006 — iPSC generation (Yamanaka)",
+       "ta": "2006 — iPSC உருவாக்கம் (யமனகா)",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Limitations**"
+      "en": "**Applications**",
+      "ta": "**பயன்பாடுகள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -149,33 +155,91 @@
      "ordered": false,
      "items": [
       {
-       "en": "Loss of 3D cell–cell interactions"
+       "en": "Vaccine & biopharmaceutical production",
+       "ta": "தடுப்பூசி, உயிர்மருந்துப் பொருள் உற்பத்தி",
+       "ta_status": "draft"
       },
       {
-       "en": "Genetic drift over passages"
+       "en": "Cancer biology research",
+       "ta": "புற்றுநோய் உயிரியல் ஆய்வு",
+       "ta_status": "draft"
       },
       {
-       "en": "Risk of mycoplasma contamination"
+       "en": "Drug toxicity & screening",
+       "ta": "மருந்து நச்சுத்தன்மை, சலிக்கை",
+       "ta_status": "draft"
       },
       {
-       "en": "Expensive and labor-intensive"
+       "en": "Genetic engineering",
+       "ta": "மரபணுப் பொறியியல்",
+       "ta_status": "draft"
       },
       {
-       "en": "May not replicate in vivo physiology fully"
+       "en": "Tissue engineering & regenerative medicine",
+       "ta": "திசுப் பொறியியல், மீளுருவாக்க மருத்துவம்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Virology studies",
+       "ta": "வைரஸ் ஆய்வுகள்",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**🔄 Scope & Classification of Animal Cell Culture**"
+      "en": "**Limitations**",
+      "ta": "**வரம்புகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Loss of 3D cell–cell interactions",
+       "ta": "முப்பரிமாண செல்–செல் இடைவினைகள் இழக்கப்படுதல்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Genetic drift over passages",
+       "ta": "பாசேஜ்களில் மரபணு விலகல்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Risk of mycoplasma contamination",
+       "ta": "மைக்கோபிளாஸ்மா மாசுபாட்டு ஆபத்து",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Expensive and labor-intensive",
+       "ta": "செலவும் உழைப்பும் மிகுதி",
+       "ta_status": "draft"
+      },
+      {
+       "en": "May not replicate in vivo physiology fully",
+       "ta": "உடலக உடலியலை முழுமையாகப் பிரதிபலிக்காமல் போகலாம்",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔄 Scope & Classification of Animal Cell Culture**",
+      "ta": "**🔄 விலங்கு செல் வளர்ப்பின் நோக்கெல்லையும் வகைப்பாடும்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "steps",
      "items": [
       {
-       "en": "Animal Cell CultureIn vitro growth of animal cells"
+       "en": "Animal Cell CultureIn vitro growth of animal cells",
+       "ta": "விலங்கு செல் வளர்ப்புவிலங்கு செல்களின் இன் விட்ரோ வளர்ச்சி",
+       "ta_status": "draft"
       }
      ]
     },
@@ -183,7 +247,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "Cell CultureDispersed single cells Tissue CultureOrganized tissues Organ Culture3D organ structure maintained"
+       "en": "Cell CultureDispersed single cells Tissue CultureOrganized tissues Organ Culture3D organ structure maintained",
+       "ta": "செல் வளர்ப்புதனித்தனிச் செல்கள் திசு வளர்ப்புஒழுங்கமைந்த திசுக்கள் உறுப்பு வளர்ப்புமுப்பரிமாண உறுப்பு அமைப்பு பேணப்படும்",
+       "ta_status": "draft"
       }
      ]
     },
@@ -191,14 +257,18 @@
      "type": "steps",
      "items": [
       {
-       "en": "Primary CultureDirect from tissue Cell LinesPassaged / immortalized Stem Cell CultureUndifferentiated Artificial SkinApplied organ culture"
+       "en": "Primary CultureDirect from tissue Cell LinesPassaged / immortalized Stem Cell CultureUndifferentiated Artificial SkinApplied organ culture",
+       "ta": "முதல்நிலை வளர்ப்புதிசுவிலிருந்து நேரடியாக செல் வரிசைகள்பாசேஜ் செய்யப்பட்ட / சாகா நிலை தண்டு செல் வளர்ப்புவேறுபாடடையாதவை செயற்கைத் தோல்பயன்பாட்டு உறுப்பு வளர்ப்பு",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "Module 1"
+      "en": "Module 1",
+      "ta": "பகுதி 1",
+      "ta_status": "draft"
      }
     }
    ]
@@ -206,26 +276,34 @@
   {
    "id": "s03",
    "title": {
-    "en": "Basic Requirements of Cell Culture"
+    "en": "Basic Requirements of Cell Culture",
+    "ta": "செல் வளர்ப்புக்கான அடிப்படைத் தேவைகள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Successful animal cell culture requires meticulous control of physical, chemical, and biological parameters. Every component of the culture environment must be optimized to sustain cell viability, proliferation, and function."
+      "en": "Successful animal cell culture requires meticulous control of physical, chemical, and biological parameters. Every component of the culture environment must be optimized to sustain cell viability, proliferation, and function.",
+      "ta": "வெற்றிகரமான விலங்கு செல் வளர்ப்புக்கு இயற்பியல், வேதி, உயிரியல் காரணிகளின் நுட்பமான கட்டுப்பாடு தேவை. செல்களின் உயிர்வாழ்தல், பெருக்கம், செயல்பாட்டைத் தக்கவைக்க வளர்ப்புச் சூழலின் ஒவ்வொரு கூறும் உகந்ததாக இருக்க வேண்டும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🏗️ Core Cell Culture Laboratory Equipment**"
+      "en": "**🏗️ Core Cell Culture Laboratory Equipment**",
+      "ta": "**🏗️ செல் வளர்ப்பு ஆய்வகத்தின் முக்கியக் கருவிகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "animal_cell_culture-d02",
      "caption": {
-      "en": ""
+      "en": "",
+      "ta": "",
+      "ta_status": "draft"
      },
      "labels": [
       "Biosafety",
@@ -251,14 +329,18 @@
     {
      "type": "p",
      "text": {
-      "en": "**📋 Basic Requirements — Flow Overview**"
+      "en": "**📋 Basic Requirements — Flow Overview**",
+      "ta": "**📋 அடிப்படைத் தேவைகள் — ஓட்ட மேலோட்டம்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "steps",
      "items": [
       {
-       "en": "Cell Culture Requirements"
+       "en": "Cell Culture Requirements",
+       "ta": "செல் வளர்ப்புத் தேவைகள்",
+       "ta_status": "draft"
       }
      ]
     },
@@ -266,101 +348,153 @@
      "type": "steps",
      "items": [
       {
-       "en": "PhysicalTemperature, pH, CO₂ ▼ 37°C · pH 7.2–7.45–10% CO₂ atmosphere ChemicalNutrients, hormones ▼ Basal Media + SerumDMEM / RPMI + 10% FBS BiologicalCell type, density ▼ Inoculum · SubcultureAvoid overgrowth SterilityBSC, antibiotics ▼ Aseptic TechniqueNo contamination"
+       "en": "PhysicalTemperature, pH, CO₂ ▼ 37°C · pH 7.2–7.45–10% CO₂ atmosphere ChemicalNutrients, hormones ▼ Basal Media + SerumDMEM / RPMI + 10% FBS BiologicalCell type, density ▼ Inoculum · SubcultureAvoid overgrowth SterilityBSC, antibiotics ▼ Aseptic TechniqueNo contamination",
+       "ta": "இயற்பியல்வெப்பநிலை, pH, CO₂ ▼ 37°C · pH 7.2–7.45–10% CO₂ சூழல் வேதிஊட்டச்சத்துகள், ஹார்மோன்கள் ▼ அடிப்படை ஊடகம் + சீரம்DMEM / RPMI + 10% FBS உயிரியல்செல் வகை, அடர்த்தி ▼ செலுத்துபொருள் · துணை வளர்ப்புமிகை வளர்ச்சியைத் தவிர்க்க நுண்ணுயிர் நீக்கம்BSC, ஆன்டிபயாடிக்குகள் ▼ நுண்ணுயிர் நீக்க நுட்பம்மாசுபாடு இல்லை",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**🧼 Sterilization Methods in Cell Culture**"
+      "en": "**🧼 Sterilization Methods in Cell Culture**",
+      "ta": "**🧼 செல் வளர்ப்பில் நுண்ணுயிர் நீக்க முறைகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "table",
      "header": [
       {
-       "en": "Method"
+       "en": "Method",
+       "ta": "முறை",
+       "ta_status": "draft"
       },
       {
-       "en": "Agent / Condition"
+       "en": "Agent / Condition",
+       "ta": "காரணி / நிலை",
+       "ta_status": "draft"
       },
       {
-       "en": "Used For"
+       "en": "Used For",
+       "ta": "பயன்படுவது",
+       "ta_status": "draft"
       },
       {
-       "en": "Time"
+       "en": "Time",
+       "ta": "நேரம்",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Autoclaving**"
+        "en": "**Autoclaving**",
+        "ta": "**ஆட்டோகிளேவிங்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Steam 121°C, 15 psi"
+        "en": "Steam 121°C, 15 psi",
+        "ta": "நீராவி 121°C, 15 psi",
+        "ta_status": "draft"
        },
        {
-        "en": "Glassware, media, instruments"
+        "en": "Glassware, media, instruments",
+        "ta": "கண்ணாடிப் பொருள்கள், ஊடகம், கருவிகள்",
+        "ta_status": "draft"
        },
        {
-        "en": "15–20 min"
+        "en": "15–20 min",
+        "ta": "15–20 நிமி",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Dry Heat**"
+        "en": "**Dry Heat**",
+        "ta": "**உலர் வெப்பம்**",
+        "ta_status": "draft"
        },
        {
-        "en": "160–170°C oven"
+        "en": "160–170°C oven",
+        "ta": "160–170°C அடுப்பு",
+        "ta_status": "draft"
        },
        {
-        "en": "Glassware, powders"
+        "en": "Glassware, powders",
+        "ta": "கண்ணாடிப் பொருள்கள், தூள்கள்",
+        "ta_status": "draft"
        },
        {
-        "en": "1–2 hr"
+        "en": "1–2 hr",
+        "ta": "1–2 மணி",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**UV Radiation**"
+        "en": "**UV Radiation**",
+        "ta": "**UV கதிர்வீச்சு**",
+        "ta_status": "draft"
        },
        {
-        "en": "254 nm UV light"
+        "en": "254 nm UV light",
+        "ta": "254 nm UV ஒளி",
+        "ta_status": "draft"
        },
        {
-        "en": "BSC interior, surfaces"
+        "en": "BSC interior, surfaces",
+        "ta": "BSC உட்புறம், மேற்பரப்புகள்",
+        "ta_status": "draft"
        },
        {
-        "en": "20–30 min"
+        "en": "20–30 min",
+        "ta": "20–30 நிமி",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Membrane Filtration**"
+        "en": "**Membrane Filtration**",
+        "ta": "**சவ்வு வடிகட்டல்**",
+        "ta_status": "draft"
        },
        {
-        "en": "0.22 µm filter"
+        "en": "0.22 µm filter",
+        "ta": "0.22 µm வடிகட்டி",
+        "ta_status": "draft"
        },
        {
-        "en": "Heat-sensitive media, serum"
+        "en": "Heat-sensitive media, serum",
+        "ta": "வெப்பத்தால் பாதிக்கப்படும் ஊடகம், சீரம்",
+        "ta_status": "draft"
        },
        {
-        "en": "Continuous"
+        "en": "Continuous",
+        "ta": "தொடர்ச்சியாக",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Chemical**"
+        "en": "**Chemical**",
+        "ta": "**வேதி முறை**",
+        "ta_status": "draft"
        },
        {
-        "en": "70% ethanol, bleach"
+        "en": "70% ethanol, bleach",
+        "ta": "70% எத்தனால், பிளீச்",
+        "ta_status": "draft"
        },
        {
-        "en": "Surfaces, skin decontamination"
+        "en": "Surfaces, skin decontamination",
+        "ta": "மேற்பரப்புகள், தோல் தூய்மையாக்கம்",
+        "ta_status": "draft"
        },
        {
-        "en": "As required"
+        "en": "As required",
+        "ta": "தேவைக்கேற்ப",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -368,7 +502,9 @@
     {
      "type": "p",
      "text": {
-      "en": "**Temperature & Atmosphere**"
+      "en": "**Temperature & Atmosphere**",
+      "ta": "**வெப்பநிலையும் சூழலும்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -376,26 +512,38 @@
      "ordered": false,
      "items": [
       {
-       "en": "Mammalian cells: **37°C**"
+       "en": "Mammalian cells: **37°C**",
+       "ta": "பாலூட்டி செல்கள்: **37°C**",
+       "ta_status": "draft"
       },
       {
-       "en": "CO₂ incubator: **5–10% CO₂**"
+       "en": "CO₂ incubator: **5–10% CO₂**",
+       "ta": "CO₂ அடைகாப்பி: **5–10% CO₂**",
+       "ta_status": "draft"
       },
       {
-       "en": "CO₂ buffers bicarbonate in media"
+       "en": "CO₂ buffers bicarbonate in media",
+       "ta": "CO₂ ஊடகத்திலுள்ள பைகார்பனேட்டைத் தாங்கல் செய்யும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Humidity: ≥95% prevents evaporation"
+       "en": "Humidity: ≥95% prevents evaporation",
+       "ta": "ஈரப்பதம்: ≥95% ஆவியாதலைத் தடுக்கும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Bird-derived cells: 38.5°C"
+       "en": "Bird-derived cells: 38.5°C",
+       "ta": "பறவை செல்கள்: 38.5°C",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**pH & Osmolarity**"
+      "en": "**pH & Osmolarity**",
+      "ta": "**pH-உம் ஊடுபரவல் அழுத்தமும்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -403,26 +551,38 @@
      "ordered": false,
      "items": [
       {
-       "en": "Optimal pH: **7.2 – 7.4**"
+       "en": "Optimal pH: **7.2 – 7.4**",
+       "ta": "உகந்த pH: **7.2 – 7.4**",
+       "ta_status": "draft"
       },
       {
-       "en": "Indicator: Phenol red (yellow = acidic)"
+       "en": "Indicator: Phenol red (yellow = acidic)",
+       "ta": "காட்டி: பீனால் சிவப்பு (மஞ்சள் = அமிலம்)",
+       "ta_status": "draft"
       },
       {
-       "en": "Buffering: NaHCO₃ / HEPES"
+       "en": "Buffering: NaHCO₃ / HEPES",
+       "ta": "தாங்கல்: NaHCO₃ / HEPES",
+       "ta_status": "draft"
       },
       {
-       "en": "Osmolarity: **280–320 mOsm/kg**"
+       "en": "Osmolarity: **280–320 mOsm/kg**",
+       "ta": "ஊடுபரவல் அழுத்தம்: **280–320 mOsm/kg**",
+       "ta_status": "draft"
       },
       {
-       "en": "NaCl adjusts osmotic pressure"
+       "en": "NaCl adjusts osmotic pressure",
+       "ta": "NaCl ஊடுபரவல் அழுத்தத்தைச் சரிசெய்யும்",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Substrata for Cell Attachment**"
+      "en": "**Substrata for Cell Attachment**",
+      "ta": "**செல் ஒட்டுதலுக்கான அடித்தளங்கள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -430,26 +590,38 @@
      "ordered": false,
      "items": [
       {
-       "en": "Tissue culture polystyrene (TCPS)"
+       "en": "Tissue culture polystyrene (TCPS)",
+       "ta": "திசு வளர்ப்பு பாலிஸ்டைரீன் (TCPS)",
+       "ta_status": "bracketed"
       },
       {
-       "en": "Fibronectin / collagen coating"
+       "en": "Fibronectin / collagen coating",
+       "ta": "ஃபைப்ரோநெக்டின் / கொலாஜன் பூச்சு",
+       "ta_status": "draft"
       },
       {
-       "en": "Poly-L-lysine for neurons"
+       "en": "Poly-L-lysine for neurons",
+       "ta": "நரம்புகளுக்குப் பாலி-L-லைசின்",
+       "ta_status": "draft"
       },
       {
-       "en": "Matrigel for 3D culture"
+       "en": "Matrigel for 3D culture",
+       "ta": "முப்பரிமாண வளர்ப்புக்கு மேட்ரிஜெல்",
+       "ta_status": "draft"
       },
       {
-       "en": "Suspension culture for non-adherent cells"
+       "en": "Suspension culture for non-adherent cells",
+       "ta": "ஒட்டாத செல்களுக்கு மிதவை வளர்ப்பு",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "Module 2"
+      "en": "Module 2",
+      "ta": "பகுதி 2",
+      "ta_status": "draft"
      }
     }
    ]
@@ -457,26 +629,34 @@
   {
    "id": "s04",
    "title": {
-    "en": "Natural & Synthetic Culture Media"
+    "en": "Natural & Synthetic Culture Media",
+    "ta": "இயற்கை, செயற்கை வளர்ப்பு ஊடகங்கள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Culture media provide the essential nutrients, growth factors, and physicochemical conditions required for cell survival. Media are broadly classified as **natural** (biological fluids) and **synthetic** (chemically defined or serum-supplemented formulations)."
+      "en": "Culture media provide the essential nutrients, growth factors, and physicochemical conditions required for cell survival. Media are broadly classified as **natural** (biological fluids) and **synthetic** (chemically defined or serum-supplemented formulations).",
+      "ta": "வளர்ப்பு ஊடகம் செல்லின் உயிர்வாழ்வுக்குத் தேவையான ஊட்டச்சத்துகள், வளர்ச்சிக் காரணிகள், இயற்பிய வேதிச் சூழலை அளிக்கிறது. ஊடகங்கள் **இயற்கை** (உயிரியல் திரவங்கள்), **செயற்கை** (வேதியியல் வரையறுக்கப்பட்ட அல்லது சீரம் சேர்த்த கலவைகள்) என வகைப்படுத்தப்படுகின்றன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**📊 Classification of Culture Media**"
+      "en": "**📊 Classification of Culture Media**",
+      "ta": "**📊 வளர்ப்பு ஊடகங்களின் வகைப்பாடு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "steps",
      "items": [
       {
-       "en": "Culture Media"
+       "en": "Culture Media",
+       "ta": "வளர்ப்பு ஊடகங்கள்",
+       "ta_status": "draft"
       }
      ]
     },
@@ -484,21 +664,27 @@
      "type": "steps",
      "items": [
       {
-       "en": "Natural MediaBiological origin ▼ Blood PlasmaEarly cultures Serum (FBS)Growth factors Tissue ExtractsChick embryo Synthetic MediaChemically defined ▼ Serum-based+10% FBS Serum-freeSF / CDM Protein-freePFM"
+       "en": "Natural MediaBiological origin ▼ Blood PlasmaEarly cultures Serum (FBS)Growth factors Tissue ExtractsChick embryo Synthetic MediaChemically defined ▼ Serum-based+10% FBS Serum-freeSF / CDM Protein-freePFM",
+       "ta": "இயற்கை ஊடகம்உயிரியல் மூலம் ▼ இரத்த பிளாஸ்மாஆரம்பகால வளர்ப்புகள் சீரம் (FBS)வளர்ச்சிக் காரணிகள் திசுச் சாறுகள்கோழிக் கரு செயற்கை ஊடகம்வேதியியல் வரையறுக்கப்பட்டது ▼ சீரம் சேர்த்தது+10% FBS சீரம் இல்லாததுSF / CDM புரதம் இல்லாததுPFM",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**🔬 Components of a Synthetic Culture Medium**"
+      "en": "**🔬 Components of a Synthetic Culture Medium**",
+      "ta": "**🔬 செயற்கை வளர்ப்பு ஊடகத்தின் கூறுகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "animal_cell_culture-d03",
      "caption": {
-      "en": ""
+      "en": "",
+      "ta": "",
+      "ta_status": "draft"
      },
      "labels": [
       "Culture",
@@ -527,108 +713,166 @@
     {
      "type": "p",
      "text": {
-      "en": "**📋 Commonly Used Synthetic Culture Media**"
+      "en": "**📋 Commonly Used Synthetic Culture Media**",
+      "ta": "**📋 பொதுவாகப் பயன்படும் செயற்கை வளர்ப்பு ஊடகங்கள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "table",
      "header": [
       {
-       "en": "Medium"
+       "en": "Medium",
+       "ta": "ஊடகம்",
+       "ta_status": "draft"
       },
       {
-       "en": "Full Name"
+       "en": "Full Name",
+       "ta": "முழுப்பெயர்",
+       "ta_status": "draft"
       },
       {
-       "en": "Cell Types"
+       "en": "Cell Types",
+       "ta": "செல் வகைகள்",
+       "ta_status": "draft"
       },
       {
-       "en": "Key Feature"
+       "en": "Key Feature",
+       "ta": "முக்கியப் பண்பு",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**DMEM**"
+        "en": "**DMEM**",
+        "ta": "**DMEM**",
+        "ta_status": "draft"
        },
        {
-        "en": "Dulbecco's Modified Eagle's Medium"
+        "en": "Dulbecco's Modified Eagle's Medium",
+        "ta": "டல்பெக்கோவின் மாற்றிய ஈகிள் ஊடகம்",
+        "ta_status": "draft"
        },
        {
-        "en": "Fibroblasts, epithelial, ES cells"
+        "en": "Fibroblasts, epithelial, ES cells",
+        "ta": "ஃபைப்ரோபிளாஸ்ட், மேலணி, ES செல்கள்",
+        "ta_status": "draft"
        },
        {
-        "en": "High glucose (4.5 g/L)"
+        "en": "High glucose (4.5 g/L)",
+        "ta": "அதிகக் குளுக்கோஸ் (4.5 g/L)",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**RPMI 1640**"
+        "en": "**RPMI 1640**",
+        "ta": "**RPMI 1640**",
+        "ta_status": "draft"
        },
        {
-        "en": "Roswell Park Memorial Institute"
+        "en": "Roswell Park Memorial Institute",
+        "ta": "ராஸ்வெல் பார்க் நினைவு நிறுவனம்",
+        "ta_status": "draft"
        },
        {
-        "en": "Lymphocytes, hematopoietic"
+        "en": "Lymphocytes, hematopoietic",
+        "ta": "நிணநீர்ச் செல்கள், குருதியாக்கச் செல்கள்",
+        "ta_status": "draft"
        },
        {
-        "en": "Suitable for suspension culture"
+        "en": "Suitable for suspension culture",
+        "ta": "மிதவை வளர்ப்புக்கு ஏற்றது",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**MEM**"
+        "en": "**MEM**",
+        "ta": "**MEM**",
+        "ta_status": "draft"
        },
        {
-        "en": "Minimum Essential Medium"
+        "en": "Minimum Essential Medium",
+        "ta": "குறைந்தபட்சத் தேவை ஊடகம்",
+        "ta_status": "draft"
        },
        {
-        "en": "General purpose"
+        "en": "General purpose",
+        "ta": "பொதுப் பயன்பாடு",
+        "ta_status": "draft"
        },
        {
-        "en": "Low amino acid formulation"
+        "en": "Low amino acid formulation",
+        "ta": "குறைந்த அமினோ அமில உருவாக்கம்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Ham's F12**"
+        "en": "**Ham's F12**",
+        "ta": "**ஹாம்ஸ் F12**",
+        "ta_status": "draft"
        },
        {
-        "en": "Ham's Nutrient Mixture F-12"
+        "en": "Ham's Nutrient Mixture F-12",
+        "ta": "ஹாமின் ஊட்டச்சத்துக் கலவை F-12",
+        "ta_status": "draft"
        },
        {
-        "en": "CHO, fibroblasts"
+        "en": "CHO, fibroblasts",
+        "ta": "CHO, ஃபைப்ரோபிளாஸ்ட்கள்",
+        "ta_status": "draft"
        },
        {
-        "en": "Low serum requirement"
+        "en": "Low serum requirement",
+        "ta": "குறைந்த சீரம் தேவை",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**DMEM/F12**"
+        "en": "**DMEM/F12**",
+        "ta": "**DMEM/F12**",
+        "ta_status": "draft"
        },
        {
-        "en": "1:1 Mixture"
+        "en": "1:1 Mixture",
+        "ta": "1:1 கலவை",
+        "ta_status": "draft"
        },
        {
-        "en": "Stem cells, 3D organoids"
+        "en": "Stem cells, 3D organoids",
+        "ta": "தண்டு செல்கள், முப்பரிமாண ஆர்கனாய்டுகள்",
+        "ta_status": "draft"
        },
        {
-        "en": "Combined nutrient richness"
+        "en": "Combined nutrient richness",
+        "ta": "ஒருங்கிணைந்த ஊட்டச்சத்து வளம்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Neurobasal**"
+        "en": "**Neurobasal**",
+        "ta": "**நியூரோபேசல்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Neurobasal Medium"
+        "en": "Neurobasal Medium",
+        "ta": "நியூரோபேசல் ஊடகம்",
+        "ta_status": "draft"
        },
        {
-        "en": "Primary neurons"
+        "en": "Primary neurons",
+        "ta": "முதல்நிலை நியூரான்கள்",
+        "ta_status": "draft"
        },
        {
-        "en": "Serum-free with B27 supplement"
+        "en": "Serum-free with B27 supplement",
+        "ta": "B27 சேர்க்கையுடன் சீரம் இல்லாதது",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -637,20 +881,26 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**🌿 Natural Media**\n• **Blood Plasma:** Used in early plasma clot cultures as substratum\n• **Serum (FBS):** Contains GFs, hormones, attachment proteins\n• **Lymph:** Historical use for special cell types\n• **Amniotic Fluid:** Prenatal cell culture\n• **Chick Embryo Extract:** Mitogenic; early virology use"
+      "en": "**🌿 Natural Media**\n• **Blood Plasma:** Used in early plasma clot cultures as substratum\n• **Serum (FBS):** Contains GFs, hormones, attachment proteins\n• **Lymph:** Historical use for special cell types\n• **Amniotic Fluid:** Prenatal cell culture\n• **Chick Embryo Extract:** Mitogenic; early virology use",
+      "ta": "**🌿 இயற்கை ஊடகங்கள்**\n• **இரத்த பிளாஸ்மா:** ஆரம்பகால பிளாஸ்மா கட்டி வளர்ப்புகளில் அடித்தளமாகப் பயன்பட்டது\n• **சீரம் (FBS):** வளர்ச்சிக் காரணிகள், ஹார்மோன்கள், ஒட்டுதல் புரதங்கள் உடையது\n• **நிணநீர்:** சிறப்புச் செல் வகைகளுக்கு வரலாற்றுப் பயன்பாடு\n• **பனிக்குடநீர்:** பிறப்பிற்கு முந்தைய செல் வளர்ப்பு\n• **கோழிக்கரு சாறு:** செல்பிளவைத் தூண்டும்; ஆரம்பகால வைரஸ் ஆய்வில் பயன்பாடு",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**🔬 Serum-Free Media (SFM)**\n• Eliminates batch-to-batch variability of serum\n• Supplemented with defined growth factors\n• Preferred for biopharmaceutical production\n• Reduces risk of mycoplasma contamination\n• Examples: Knockout DMEM, StemPro, X-VIVO"
+      "en": "**🔬 Serum-Free Media (SFM)**\n• Eliminates batch-to-batch variability of serum\n• Supplemented with defined growth factors\n• Preferred for biopharmaceutical production\n• Reduces risk of mycoplasma contamination\n• Examples: Knockout DMEM, StemPro, X-VIVO",
+      "ta": "**🔬 சீரம் இல்லா ஊடகங்கள் (SFM)**\n• சீரத்தின் தொகுதிக்குத் தொகுதி மாறுபாட்டை நீக்கும்\n• வரையறுக்கப்பட்ட வளர்ச்சிக் காரணிகள் சேர்க்கப்படும்\n• உயிர்மருந்து உற்பத்திக்கு விரும்பப்படும்\n• மைக்கோபிளாஸ்மா மாசுபாட்டு ஆபத்தைக் குறைக்கும்\n• எடுத்துக்காட்டுகள்: Knockout DMEM, StemPro, X-VIVO",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Module 3"
+      "en": "Module 3",
+      "ta": "பகுதி 3",
+      "ta_status": "draft"
      }
     }
    ]
@@ -658,26 +908,34 @@
   {
    "id": "s05",
    "title": {
-    "en": "Primary Culture"
+    "en": "Primary Culture",
+    "ta": "முதல்நிலை வளர்ப்பு",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "A **primary culture** is established directly from excised tissue or organs. Cells are dissociated and cultured in vitro for the first time. Primary cultures are finite — they can only be maintained for a limited number of passages before senescence occurs (Hayflick limit)."
+      "en": "A **primary culture** is established directly from excised tissue or organs. Cells are dissociated and cultured in vitro for the first time. Primary cultures are finite — they can only be maintained for a limited number of passages before senescence occurs (Hayflick limit).",
+      "ta": "**முதல்நிலை வளர்ப்பு** என்பது வெட்டி எடுத்த திசு அல்லது உறுப்பிலிருந்து நேரடியாக உருவாக்கப்படுவது. செல்கள் பிரிக்கப்பட்டு முதன்முறையாக இன் விட்ரோவில் வளர்க்கப்படுகின்றன. முதல்நிலை வளர்ப்புகள் வரையறைக்குட்பட்டவை — முதுமையடையும் (ஹேஃப்ளிக் வரம்பு) முன் குறிப்பிட்ட எண்ணிக்கையிலான பாசேஜ்கள் மட்டுமே பேண முடியும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🔄 Primary Culture — Step-by-Step Process Flow**"
+      "en": "**🔄 Primary Culture — Step-by-Step Process Flow**",
+      "ta": "**🔄 முதல்நிலை வளர்ப்பு — படிப்படியான செயல்முறை ஓட்டம்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "steps",
      "items": [
       {
-       "en": "Animal Tissue CollectionSterile biopsy / organ harvest"
+       "en": "Animal Tissue CollectionSterile biopsy / organ harvest",
+       "ta": "விலங்குத் திசு சேகரிப்புநுண்ணுயிர் நீக்கிய திசுத்துண்டு / உறுப்பு எடுத்தல்",
+       "ta_status": "draft"
       }
      ]
     },
@@ -685,7 +943,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "Wash with PBS / Balanced Salt SolutionRemove blood, debris, bacteria"
+       "en": "Wash with PBS / Balanced Salt SolutionRemove blood, debris, bacteria",
+       "ta": "PBS / சமநிலை உப்புக் கரைசலில் கழுவுதல்இரத்தம், துகள்கள், பாக்டீரியாக்களை நீக்குதல்",
+       "ta_status": "draft"
       }
      ]
     },
@@ -693,7 +953,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "Mechanical DissociationMincing, sieving, scraping OR Enzymatic DissociationTrypsin / Collagenase / Dispase"
+       "en": "Mechanical DissociationMincing, sieving, scraping OR Enzymatic DissociationTrypsin / Collagenase / Dispase",
+       "ta": "இயந்திரவழிப் பிரித்தல்நறுக்குதல், சலித்தல், சுரண்டுதல் அல்லது நொதிவழிப் பிரித்தல்டிரிப்சின் / கொலாஜனேஸ் / டிஸ்பேஸ்",
+       "ta_status": "draft"
       }
      ]
     },
@@ -701,7 +963,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "Single Cell SuspensionFilter through 70–100 µm cell strainer"
+       "en": "Single Cell SuspensionFilter through 70–100 µm cell strainer",
+       "ta": "ஒற்றைச் செல் தொங்கல்70–100 µm செல் வடிகட்டி வழியாக வடிகட்டுதல்",
+       "ta_status": "draft"
       }
      ]
     },
@@ -709,7 +973,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "Centrifuge 200 × g, 5 min → Discard Supernatant"
+       "en": "Centrifuge 200 × g, 5 min → Discard Supernatant",
+       "ta": "200 × g-இல் 5 நிமிடம் மையவிலக்கு → மேல்மிதப்பை நீக்குதல்",
+       "ta_status": "draft"
       }
      ]
     },
@@ -717,7 +983,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "Resuspend in Complete Culture MediumDMEM + 10% FBS + Pen-Strep"
+       "en": "Resuspend in Complete Culture MediumDMEM + 10% FBS + Pen-Strep",
+       "ta": "முழு வளர்ப்பு ஊடகத்தில் மீளத்தொங்கவிடுதல்DMEM + 10% FBS + பென்-ஸ்ட்ரெப்",
+       "ta_status": "draft"
       }
      ]
     },
@@ -725,7 +993,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "Hemocytometer Count + Trypan Blue Viability ≥ 90%"
+       "en": "Hemocytometer Count + Trypan Blue Viability ≥ 90%",
+       "ta": "ஹீமோசைட்டோமீட்டர் எண்ணிக்கை + டிரிப்பான் நீல உயிர்ப்புத்திறன் ≥ 90%",
+       "ta_status": "draft"
       }
      ]
     },
@@ -733,7 +1003,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "Seed in Culture Flask — T25 / T75 / 6-well plate"
+       "en": "Seed in Culture Flask — T25 / T75 / 6-well plate",
+       "ta": "வளர்ப்புக் குடுவையில் விதைத்தல் — T25 / T75 / 6-கிணறு தட்டு",
+       "ta_status": "draft"
       }
      ]
     },
@@ -741,7 +1013,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "Incubate: 37°C · 5% CO₂ · 95% HumidityCheck 24–48 hrs for attachment & morphology"
+       "en": "Incubate: 37°C · 5% CO₂ · 95% HumidityCheck 24–48 hrs for attachment & morphology",
+       "ta": "அடைகாத்தல்: 37°C · 5% CO₂ · 95% ஈரப்பதம்ஒட்டுதல், உருவ அமைப்பை 24–48 மணியில் சரிபார்க்க",
+       "ta_status": "draft"
       }
      ]
     },
@@ -749,118 +1023,156 @@
      "type": "steps",
      "items": [
       {
-       "en": "Adherent CultureFibroblasts, epithelial cells Suspension CultureLymphocytes, hematopoietic cells"
+       "en": "Adherent CultureFibroblasts, epithelial cells Suspension CultureLymphocytes, hematopoietic cells",
+       "ta": "ஒட்டுவகை வளர்ப்புஃபைப்ரோபிளாஸ்ட், மேலணிச் செல்கள் மிதவை வளர்ப்புநிணநீர்ச் செல்கள், குருதியாக்கச் செல்கள்",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "1"
+      "en": "1",
+      "ta": "1",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Tissue Preparation**"
+      "en": "**Tissue Preparation**",
+      "ta": "**திசு தயாரிப்பு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Tissue collected aseptically, placed in cold PBS/HBSS, and minced into 1–2 mm³ fragments. Blood and connective tissue removed by repeated washing."
+      "en": "Tissue collected aseptically, placed in cold PBS/HBSS, and minced into 1–2 mm³ fragments. Blood and connective tissue removed by repeated washing.",
+      "ta": "நுண்ணுயிர் நீக்க முறையில் சேகரித்த திசு குளிர் PBS/HBSS-இல் வைக்கப்பட்டு 1–2 mm³ துண்டுகளாக நறுக்கப்படும். இரத்தமும் இணைப்புத் திசுவும் மீண்டும் மீண்டும் கழுவி நீக்கப்படும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "2"
+      "en": "2",
+      "ta": "2",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Enzymatic Dissociation**"
+      "en": "**Enzymatic Dissociation**",
+      "ta": "**நொதிவழிப் பிரித்தல்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Trypsin (0.05–0.25%) cleaves surface proteins disrupting cell–cell contacts. Collagenase (Type I–IV) digests ECM collagen. Incubate at 37°C for 15–60 min with gentle agitation."
+      "en": "Trypsin (0.05–0.25%) cleaves surface proteins disrupting cell–cell contacts. Collagenase (Type I–IV) digests ECM collagen. Incubate at 37°C for 15–60 min with gentle agitation.",
+      "ta": "டிரிப்சின் (0.05–0.25%) மேற்பரப்புப் புரதங்களைப் பிளந்து செல்–செல் தொடர்புகளைத் தளர்த்தும். கொலாஜனேஸ் (வகை I–IV) புறச்செல் அணியிலுள்ள கொலாஜனைச் செரிக்கும். மெதுவாகக் குலுக்கியபடி 37°C-இல் 15–60 நிமிடம் அடைகாக்க.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "3"
+      "en": "3",
+      "ta": "3",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Neutralization & Centrifugation**"
+      "en": "**Neutralization & Centrifugation**",
+      "ta": "**நடுநிலையாக்கமும் மையவிலக்கும்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "FBS neutralizes trypsin activity. Centrifuge at 200×g for 5 min. Discard supernatant, resuspend pellet in complete medium."
+      "en": "FBS neutralizes trypsin activity. Centrifuge at 200×g for 5 min. Discard supernatant, resuspend pellet in complete medium.",
+      "ta": "FBS டிரிப்சின் செயலை நடுநிலையாக்கும். 200×g-இல் 5 நிமிடம் மையவிலக்கு செய்க. மேல்மிதப்பை நீக்கி, அடிவண்டலை முழு ஊடகத்தில் மீளத்தொங்கவிடுக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "4"
+      "en": "4",
+      "ta": "4",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Cell Counting & Viability**"
+      "en": "**Cell Counting & Viability**",
+      "ta": "**செல் எண்ணிக்கையும் உயிர்ப்புத்திறனும்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Count using hemocytometer. Trypan blue exclusion: live cells remain clear, dead cells stain blue. Viability should be ≥90% for optimal culture establishment."
+      "en": "Count using hemocytometer. Trypan blue exclusion: live cells remain clear, dead cells stain blue. Viability should be ≥90% for optimal culture establishment.",
+      "ta": "ஹீமோசைட்டோமீட்டரால் எண்ணுக. டிரிப்பான் நீல விலக்கல்: உயிருள்ள செல்கள் நிறமற்றவை; இறந்த செல்கள் நீலமாகக் கறைபடும். சிறந்த வளர்ப்புக்கு உயிர்ப்புத்திறன் ≥90% இருக்க வேண்டும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "5"
+      "en": "5",
+      "ta": "5",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Plating & Monitoring**"
+      "en": "**Plating & Monitoring**",
+      "ta": "**விதைத்தலும் கண்காணிப்பும்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Seed at 10⁴–10⁵ cells/cm². Incubate in CO₂ incubator. Monitor daily by inverted microscopy for morphology, attachment, and confluence."
+      "en": "Seed at 10⁴–10⁵ cells/cm². Incubate in CO₂ incubator. Monitor daily by inverted microscopy for morphology, attachment, and confluence.",
+      "ta": "10⁴–10⁵ செல்கள்/cm²-இல் விதைக்க. CO₂ அடைகாப்பியில் வைக்க. உருவ அமைப்பு, ஒட்டுதல், நிறைவளர்ச்சியை (கன்ஃப்ளூயன்ஸ்) தலைகீழ் நுண்ணோக்கியால் நாள்தோறும் கண்காணிக்க.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**⚠️ Explant vs. Monolayer Culture**\n**Explant culture:** Small tissue fragments placed directly on surface; cells migrate outward. Preserves tissue architecture briefly.\n\n**Monolayer culture:** Dissociated single cells attach and grow flat. More reproducible and amenable to quantitative analysis."
+      "en": "**⚠️ Explant vs. Monolayer Culture**\n**Explant culture:** Small tissue fragments placed directly on surface; cells migrate outward. Preserves tissue architecture briefly.\n\n**Monolayer culture:** Dissociated single cells attach and grow flat. More reproducible and amenable to quantitative analysis.",
+      "ta": "**⚠️ எக்ஸ்பிளான்ட் – ஒற்றை அடுக்கு வளர்ப்பு**\n**எக்ஸ்பிளான்ட் வளர்ப்பு:** சிறு திசுத்துண்டுகள் மேற்பரப்பில் நேரடியாக வைக்கப்படும்; செல்கள் வெளிநோக்கி நகரும். திசு அமைப்பைச் சிறிதுகாலம் பேணும்.\n\n**ஒற்றை அடுக்கு வளர்ப்பு:** பிரிக்கப்பட்ட தனிச் செல்கள் ஒட்டித் தட்டையாக வளரும். மீளுருவாகும் தன்மையும் அளவுசார் பகுப்பாய்வுக்கு ஏற்றதும் அதிகம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**📉 Limitations of Primary Culture**\n• Finite lifespan — Hayflick limit (~50 divisions)\n• Heterogeneous cell population\n• Batch variability between preparations\n• Requires fresh tissue each time\n• Cells undergo crisis and eventual senescence"
+      "en": "**📉 Limitations of Primary Culture**\n• Finite lifespan — Hayflick limit (~50 divisions)\n• Heterogeneous cell population\n• Batch variability between preparations\n• Requires fresh tissue each time\n• Cells undergo crisis and eventual senescence",
+      "ta": "**📉 முதல்நிலை வளர்ப்பின் வரம்புகள்**\n• வரையறுக்கப்பட்ட ஆயுள் — ஹேஃப்ளிக் வரம்பு (~50 பிரிவுகள்)\n• பலவகைச் செல் தொகை\n• தயாரிப்புகளுக்கிடையே தொகுதி மாறுபாடு\n• ஒவ்வொரு முறையும் புதிய திசு தேவை\n• செல்கள் நெருக்கடியையும் இறுதியில் முதுமையையும் அடையும்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Module 4"
+      "en": "Module 4",
+      "ta": "பகுதி 4",
+      "ta_status": "draft"
      }
     }
    ]
@@ -868,26 +1180,34 @@
   {
    "id": "s06",
    "title": {
-    "en": "Cell Lines"
+    "en": "Cell Lines",
+    "ta": "செல் வரிசைகள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "When a primary culture is subcultured (passaged) for the first time, it becomes a **cell line**. Cell lines may be _finite_ (limited passages) or _continuous/immortalized_ (indefinitely proliferating). They are essential tools in biological research and industrial biomanufacturing."
+      "en": "When a primary culture is subcultured (passaged) for the first time, it becomes a **cell line**. Cell lines may be _finite_ (limited passages) or _continuous/immortalized_ (indefinitely proliferating). They are essential tools in biological research and industrial biomanufacturing.",
+      "ta": "முதல்நிலை வளர்ப்பு முதன்முறையாகத் துணை வளர்ப்பு (பாசேஜ்) செய்யப்படும்போது அது **செல் வரிசை** ஆகிறது. செல் வரிசைகள் _வரையறுக்கப்பட்டவை_ (குறைந்த பாசேஜ்கள்) அல்லது _தொடர்ச்சியான/சாகா நிலை அடைந்தவை_ (முடிவின்றிப் பெருகுபவை) ஆகலாம். இவை உயிரியல் ஆய்வு, தொழில்துறை உயிர்த்தயாரிப்பின் இன்றியமையாக் கருவிகள்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🔁 Subculturing (Passaging) — Process Flow**"
+      "en": "**🔁 Subculturing (Passaging) — Process Flow**",
+      "ta": "**🔁 துணை வளர்ப்பு (பாசேஜிங்) — செயல்முறை ஓட்டம்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "steps",
      "items": [
       {
-       "en": "Confluent Monolayer Culture (~80–90% confluency)"
+       "en": "Confluent Monolayer Culture (~80–90% confluency)",
+       "ta": "நிறைவளர்ச்சி அடைந்த ஒற்றை அடுக்கு வளர்ப்பு (~80–90% கன்ஃப்ளூயன்சி)",
+       "ta_status": "draft"
       }
      ]
     },
@@ -895,7 +1215,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "Remove Medium → Wash with PBS (removes serum)"
+       "en": "Remove Medium → Wash with PBS (removes serum)",
+       "ta": "ஊடகத்தை நீக்குக → PBS-ஆல் கழுவுக (சீரத்தை நீக்கும்)",
+       "ta_status": "draft"
       }
      ]
     },
@@ -903,7 +1225,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "Add Trypsin-EDTA (0.05%) · Incubate 3–5 min at 37°C"
+       "en": "Add Trypsin-EDTA (0.05%) · Incubate 3–5 min at 37°C",
+       "ta": "டிரிப்சின்-EDTA (0.05%) சேர்த்து 37°C-இல் 3–5 நிமிடம் அடைகாக்க",
+       "ta_status": "draft"
       }
      ]
     },
@@ -911,7 +1235,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "Neutralize with Complete Medium (3× volume with FBS)"
+       "en": "Neutralize with Complete Medium (3× volume with FBS)",
+       "ta": "முழு ஊடகத்தால் நடுநிலையாக்குக (FBS-உடன் 3 மடங்கு கொள்ளளவு)",
+       "ta_status": "bracketed"
       }
      ]
     },
@@ -919,7 +1245,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "Centrifuge · Count · Resuspend · Trypan Blue Viability Check"
+       "en": "Centrifuge · Count · Resuspend · Trypan Blue Viability Check",
+       "ta": "மையவிலக்கு · எண்ணுதல் · மீளத்தொங்கவிடுதல் · டிரிப்பான் நீல உயிர்ப்புத்திறன் சோதனை",
+       "ta_status": "draft"
       }
      ]
     },
@@ -927,7 +1255,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "Seed into New Flask at 1:3 – 1:10 Split Ratio"
+       "en": "Seed into New Flask at 1:3 – 1:10 Split Ratio",
+       "ta": "1:3 – 1:10 பிரிப்பு விகிதத்தில் புதிய குடுவையில் விதைக்க",
+       "ta_status": "draft"
       }
      ]
     },
@@ -935,21 +1265,27 @@
      "type": "steps",
      "items": [
       {
-       "en": "Continue PassagingFinite: ~20–50 passages ImmortalizationSpontaneous / viral / oncogene Cell BankingCryopreservation at −196°C"
+       "en": "Continue PassagingFinite: ~20–50 passages ImmortalizationSpontaneous / viral / oncogene Cell BankingCryopreservation at −196°C",
+       "ta": "பாசேஜிங்கைத் தொடர்கவரையறுக்கப்பட்டது: ~20–50 பாசேஜ்கள் இம்மார்டலைசேஷன்தன்னிச்சை / வைரஸ் / புற்றுமரபணு செல் வங்கிப்படுத்தல்−196°C-இல் கிரையோபிரிசர்வேஷன்",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**📈 Primary Culture → Cell Line → Continuous Line**"
+      "en": "**📈 Primary Culture → Cell Line → Continuous Line**",
+      "ta": "**📈 முதல்நிலை வளர்ப்பு → செல் வரிசை → தொடர் வரிசை**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "animal_cell_culture-d04",
      "caption": {
-      "en": ""
+      "en": "",
+      "ta": "",
+      "ta_status": "draft"
      },
      "labels": [
       "Passage →",
@@ -969,122 +1305,188 @@
     {
      "type": "p",
      "text": {
-      "en": "**🌟 Important Established Cell Lines**"
+      "en": "**🌟 Important Established Cell Lines**",
+      "ta": "**🌟 முக்கியமான நிறுவப்பட்ட செல் வரிசைகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "table",
      "header": [
       {
-       "en": "Cell Line"
+       "en": "Cell Line",
+       "ta": "செல் வரிசை",
+       "ta_status": "draft"
       },
       {
-       "en": "Origin"
+       "en": "Origin",
+       "ta": "மூலம்",
+       "ta_status": "draft"
       },
       {
-       "en": "Type"
+       "en": "Type",
+       "ta": "வகை",
+       "ta_status": "draft"
       },
       {
-       "en": "Major Use"
+       "en": "Major Use",
+       "ta": "முக்கியப் பயன்",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**HeLa**"
+        "en": "**HeLa**",
+        "ta": "**HeLa**",
+        "ta_status": "draft"
        },
        {
-        "en": "Human cervical carcinoma (Henrietta Lacks, 1951)"
+        "en": "Human cervical carcinoma (Henrietta Lacks, 1951)",
+        "ta": "மனிதக் கருப்பைவாய்ப் புற்று (ஹென்றியேட்டா லாக்ஸ், 1951)",
+        "ta_status": "draft"
        },
        {
-        "en": "Continuous"
+        "en": "Continuous",
+        "ta": "தொடர்ச்சியானது",
+        "ta_status": "draft"
        },
        {
-        "en": "Virology, cancer, vaccine research"
+        "en": "Virology, cancer, vaccine research",
+        "ta": "வைரஸ் ஆய்வு, புற்றுநோய், தடுப்பூசி ஆய்வு",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**CHO**"
+        "en": "**CHO**",
+        "ta": "**CHO**",
+        "ta_status": "draft"
        },
        {
-        "en": "Chinese hamster ovary"
+        "en": "Chinese hamster ovary",
+        "ta": "சீன வெள்ளெலி சூலகம்",
+        "ta_status": "draft"
        },
        {
-        "en": "Continuous"
+        "en": "Continuous",
+        "ta": "தொடர்ச்சியானது",
+        "ta_status": "draft"
        },
        {
-        "en": "Recombinant protein / antibody production"
+        "en": "Recombinant protein / antibody production",
+        "ta": "மறுகூட்டிணைவுப் புரதம் / எதிர்ப்பொருள் உற்பத்தி",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Vero**"
+        "en": "**Vero**",
+        "ta": "**Vero**",
+        "ta_status": "draft"
        },
        {
-        "en": "African green monkey kidney"
+        "en": "African green monkey kidney",
+        "ta": "ஆப்பிரிக்கப் பச்சைக் குரங்குச் சிறுநீரகம்",
+        "ta_status": "draft"
        },
        {
-        "en": "Continuous"
+        "en": "Continuous",
+        "ta": "தொடர்ச்சியானது",
+        "ta_status": "draft"
        },
        {
-        "en": "Virus propagation, vaccine production"
+        "en": "Virus propagation, vaccine production",
+        "ta": "வைரஸ் பெருக்கம், தடுப்பூசி உற்பத்தி",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**NIH 3T3**"
+        "en": "**NIH 3T3**",
+        "ta": "**NIH 3T3**",
+        "ta_status": "draft"
        },
        {
-        "en": "Mouse embryonic fibroblast"
+        "en": "Mouse embryonic fibroblast",
+        "ta": "எலிக் கரு ஃபைப்ரோபிளாஸ்ட்",
+        "ta_status": "draft"
        },
        {
-        "en": "Continuous"
+        "en": "Continuous",
+        "ta": "தொடர்ச்சியானது",
+        "ta_status": "draft"
        },
        {
-        "en": "Transfection, adipocyte differentiation"
+        "en": "Transfection, adipocyte differentiation",
+        "ta": "டிரான்ஸ்ஃபெக்ஷன், கொழுப்புச் செல் வேறுபாடடைதல்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**MCF-7**"
+        "en": "**MCF-7**",
+        "ta": "**MCF-7**",
+        "ta_status": "draft"
        },
        {
-        "en": "Human breast carcinoma"
+        "en": "Human breast carcinoma",
+        "ta": "மனித மார்பகப் புற்று",
+        "ta_status": "draft"
        },
        {
-        "en": "Continuous"
+        "en": "Continuous",
+        "ta": "தொடர்ச்சியானது",
+        "ta_status": "draft"
        },
        {
-        "en": "Breast cancer research"
+        "en": "Breast cancer research",
+        "ta": "மார்பகப் புற்றுநோய் ஆய்வு",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Jurkat**"
+        "en": "**Jurkat**",
+        "ta": "**Jurkat**",
+        "ta_status": "draft"
        },
        {
-        "en": "Human T lymphocyte leukemia"
+        "en": "Human T lymphocyte leukemia",
+        "ta": "மனித T நிணநீர்ச் செல் இரத்தப் புற்று",
+        "ta_status": "draft"
        },
        {
-        "en": "Continuous"
+        "en": "Continuous",
+        "ta": "தொடர்ச்சியானது",
+        "ta_status": "draft"
        },
        {
-        "en": "Immunology, apoptosis research"
+        "en": "Immunology, apoptosis research",
+        "ta": "நோயெதிர்ப்பியல், அப்போப்டோசிஸ் ஆய்வு",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**PC12**"
+        "en": "**PC12**",
+        "ta": "**PC12**",
+        "ta_status": "draft"
        },
        {
-        "en": "Rat adrenal pheochromocytoma"
+        "en": "Rat adrenal pheochromocytoma",
+        "ta": "எலி அட்ரீனல் பியோகுரோமோசைட்டோமா",
+        "ta_status": "draft"
        },
        {
-        "en": "Continuous"
+        "en": "Continuous",
+        "ta": "தொடர்ச்சியானது",
+        "ta_status": "draft"
        },
        {
-        "en": "Neuroscience, NGF differentiation studies"
+        "en": "Neuroscience, NGF differentiation studies",
+        "ta": "நரம்பியல், NGF வேறுபாடடைதல் ஆய்வுகள்",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -1092,14 +1494,18 @@
     {
      "type": "p",
      "text": {
-      "en": "**❄️ Cryopreservation — Cell Banking Flow**"
+      "en": "**❄️ Cryopreservation — Cell Banking Flow**",
+      "ta": "**❄️ கிரையோபிரிசர்வேஷன் — செல் வங்கி ஓட்டம்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "steps",
      "items": [
       {
-       "en": "Harvest cells at 80% confluency → Freeze medium: 90% FBS + 10% DMSO → Controlled-rate freezing: −1°C/min → Store in liquid N₂ at −196°C"
+       "en": "Harvest cells at 80% confluency → Freeze medium: 90% FBS + 10% DMSO → Controlled-rate freezing: −1°C/min → Store in liquid N₂ at −196°C",
+       "ta": "80% கன்ஃப்ளூயன்சியில் செல்களை அறுவடை செய்க → உறைவு ஊடகம்: 90% FBS + 10% DMSO → கட்டுப்படுத்தப்பட்ட வீத உறைவு: −1°C/நிமி → −196°C திரவ N₂-இல் சேமிக்க",
+       "ta_status": "draft"
       }
      ]
     },
@@ -1107,14 +1513,18 @@
      "type": "steps",
      "items": [
       {
-       "en": "Thaw rapidly at 37°C water bath → Dilute DMSO → Seed → Culture ✓"
+       "en": "Thaw rapidly at 37°C water bath → Dilute DMSO → Seed → Culture ✓",
+       "ta": "37°C நீர்க்குளியலில் விரைவாக உருக்குக → DMSO-வைக் கரைத்துக் குறைக்க → விதைக்க → வளர்க்க ✓",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "Module 5"
+      "en": "Module 5",
+      "ta": "பகுதி 5",
+      "ta_status": "draft"
      }
     }
    ]
@@ -1122,26 +1532,34 @@
   {
    "id": "s07",
    "title": {
-    "en": "Stem Cells: Types, Culture & Applications"
+    "en": "Stem Cells: Types, Culture & Applications",
+    "ta": "தண்டு செல்கள்: வகைகள், வளர்ப்பு, பயன்பாடுகள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Stem cells are undifferentiated cells capable of **self-renewal** and **differentiation** into specialized cell types. They hold immense therapeutic potential in regenerative medicine, disease modeling, and drug discovery."
+      "en": "Stem cells are undifferentiated cells capable of **self-renewal** and **differentiation** into specialized cell types. They hold immense therapeutic potential in regenerative medicine, disease modeling, and drug discovery.",
+      "ta": "தண்டு செல்கள் **தன்புதுப்பித்தல்**, சிறப்புச் செல் வகைகளாக **வேறுபாடடைதல்** ஆகிய திறன்களுடைய வேறுபாடடையா செல்கள். மீளுருவாக்க மருத்துவம், நோய் மாதிரியாக்கம், மருந்து கண்டுபிடிப்பு ஆகியவற்றில் இவை பெரும் சிகிச்சை ஆற்றல் கொண்டவை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🔺 Stem Cell Potency Hierarchy**"
+      "en": "**🔺 Stem Cell Potency Hierarchy**",
+      "ta": "**🔺 தண்டு செல் ஆற்றல் படிநிலை**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "animal_cell_culture-d05",
      "caption": {
-      "en": ""
+      "en": "",
+      "ta": "",
+      "ta_status": "draft"
      },
      "labels": [
       "Totipotent",
@@ -1158,86 +1576,114 @@
     {
      "type": "p",
      "text": {
-      "en": "**Embryonic Stem Cells (ESCs)**"
+      "en": "**Embryonic Stem Cells (ESCs)**",
+      "ta": "**கரு தண்டு செல்கள் (ESCs)**",
+      "ta_status": "bracketed"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Derived from the **inner cell mass** of blastocyst (3–5 days). Pluripotent — form all 3 germ layers. Cultured on feeder layers (MEFs) or Matrigel with LIF/bFGF."
+      "en": "Derived from the **inner cell mass** of blastocyst (3–5 days). Pluripotent — form all 3 germ layers. Cultured on feeder layers (MEFs) or Matrigel with LIF/bFGF.",
+      "ta": "பிளாஸ்டோசிஸ்டின் **உள்செல் திரள்** (3–5 நாள்) இலிருந்து பெறப்படுபவை. புளூரிபொட்டென்ட் — மூன்று கரு அடுக்குகளையும் உருவாக்கும். ஃபீடர் அடுக்குகளில் (MEFs) அல்லது LIF/bFGF-உடன் மேட்ரிஜெல்லில் வளர்க்கப்படும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Induced Pluripotent Stem Cells (iPSCs)**"
+      "en": "**Induced Pluripotent Stem Cells (iPSCs)**",
+      "ta": "**தூண்டப்பட்ட புளூரிபொட்டென்ட் தண்டு செல்கள் (iPSCs)**",
+      "ta_status": "bracketed"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Adult somatic cells reprogrammed using Yamanaka factors: **Oct4, Sox2, Klf4, c-Myc** (2006 Nobel). Avoids ESC ethical issues. Enables autologous therapy."
+      "en": "Adult somatic cells reprogrammed using Yamanaka factors: **Oct4, Sox2, Klf4, c-Myc** (2006 Nobel). Avoids ESC ethical issues. Enables autologous therapy.",
+      "ta": "முதிர்ந்த உடல் செல்கள் யமனகா காரணிகளான **Oct4, Sox2, Klf4, c-Myc** மூலம் மறுநிரலாக்கப்படுகின்றன (2006 நோபல்). ESC நெறிமுறைச் சிக்கல்களைத் தவிர்க்கும். தன்செல் சிகிச்சையைச் சாத்தியமாக்கும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Hematopoietic Stem Cells (HSCs)**"
+      "en": "**Hematopoietic Stem Cells (HSCs)**",
+      "ta": "**குருதியாக்க தண்டு செல்கள் (HSCs)**",
+      "ta_status": "bracketed"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Found in **bone marrow** (Lin⁻ Sca1⁺ c-Kit⁺). Give rise to all blood cell lineages. Used clinically in bone marrow transplantation. CD34⁺ in humans."
+      "en": "Found in **bone marrow** (Lin⁻ Sca1⁺ c-Kit⁺). Give rise to all blood cell lineages. Used clinically in bone marrow transplantation. CD34⁺ in humans.",
+      "ta": "**எலும்பு மஜ்ஜையில்** (Lin⁻ Sca1⁺ c-Kit⁺) காணப்படுபவை. எல்லா இரத்தச் செல் வழிமரபுகளையும் உருவாக்கும். எலும்பு மஜ்ஜை மாற்றுச்சிகிச்சையில் மருத்துவப் பயன்பாடு. மனிதரில் CD34⁺.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Mesenchymal Stem Cells (MSCs)**"
+      "en": "**Mesenchymal Stem Cells (MSCs)**",
+      "ta": "**மீசன்கைமல் தண்டு செல்கள் (MSCs)**",
+      "ta_status": "bracketed"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Stromal cells from **bone marrow, adipose, umbilical cord**. Differentiate into osteoblasts, chondrocytes, adipocytes. CD105⁺ CD73⁺ CD90⁺ surface markers."
+      "en": "Stromal cells from **bone marrow, adipose, umbilical cord**. Differentiate into osteoblasts, chondrocytes, adipocytes. CD105⁺ CD73⁺ CD90⁺ surface markers.",
+      "ta": "**எலும்பு மஜ்ஜை, கொழுப்புத் திசு, தொப்புள்கொடி** ஆகியவற்றிலிருந்து பெறப்படும் ஸ்ட்ரோமல் செல்கள். ஆஸ்டியோபிளாஸ்ட், காண்ட்ரோசைட், அடிபோசைட்டுகளாக வேறுபாடடையும். CD105⁺ CD73⁺ CD90⁺ மேற்பரப்புக் குறிப்பான்கள்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Neural Stem Cells (NSCs)**"
+      "en": "**Neural Stem Cells (NSCs)**",
+      "ta": "**நரம்புத் தண்டு செல்கள் (NSCs)**",
+      "ta_status": "bracketed"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Reside in **subventricular zone** and hippocampus. Form neurospheres in vitro. Differentiate into neurons, astrocytes, and oligodendrocytes."
+      "en": "Reside in **subventricular zone** and hippocampus. Form neurospheres in vitro. Differentiate into neurons, astrocytes, and oligodendrocytes.",
+      "ta": "**சப்வென்ட்ரிகுலர் மண்டலம்**, ஹிப்போகேம்பஸ் ஆகியவற்றில் உள்ளன. இன் விட்ரோவில் நியூரோஸ்பியர்களை உருவாக்கும். நியூரான், அஸ்ட்ரோசைட், ஒலிகோடென்ட்ரோசைட்டுகளாக வேறுபாடடையும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Cardiac Stem Cells**"
+      "en": "**Cardiac Stem Cells**",
+      "ta": "**இதயத் தண்டு செல்கள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Found in cardiac niches (c-Kit⁺ or Sca1⁺). Can regenerate cardiomyocytes post-myocardial infarction. Key target of cardiac regenerative therapy."
+      "en": "Found in cardiac niches (c-Kit⁺ or Sca1⁺). Can regenerate cardiomyocytes post-myocardial infarction. Key target of cardiac regenerative therapy.",
+      "ta": "இதய நிச்களில் (c-Kit⁺ அல்லது Sca1⁺) காணப்படும். மாரடைப்புக்குப் பின் இதயத்தசைச் செல்களை மீளுருவாக்கும். இதய மீளுருவாக்கச் சிகிச்சையின் முக்கிய இலக்கு.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🧫 ESC / iPSC Culture Protocol Flow**"
+      "en": "**🧫 ESC / iPSC Culture Protocol Flow**",
+      "ta": "**🧫 ESC / iPSC வளர்ப்பு நெறிமுறை ஓட்டம்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "steps",
      "items": [
       {
-       "en": "Source: Blastocyst ICM ▼ Isolate ICMImmunosurgery / laser dissection OR Source: Adult Somatic Cells ▼ Reprogram w/ Oct4, Sox2, Klf4, c-MycRetroviral / Sendai / mRNA delivery"
+       "en": "Source: Blastocyst ICM ▼ Isolate ICMImmunosurgery / laser dissection OR Source: Adult Somatic Cells ▼ Reprogram w/ Oct4, Sox2, Klf4, c-MycRetroviral / Sendai / mRNA delivery",
+       "ta": "மூலம்: பிளாஸ்டோசிஸ்ட் ICM ▼ ICM-ஐப் பிரித்தெடுத்தல்நோயெதிர்ப்பு அறுவை / லேசர் துண்டித்தல் அல்லது மூலம்: முதிர்ந்த உடல் செல்கள் ▼ Oct4, Sox2, Klf4, c-Myc-ஆல் மறுநிரலாக்குதல்ரெட்ரோவைரஸ் / Sendai / mRNA செலுத்தல்",
+       "ta_status": "draft"
       }
      ]
     },
@@ -1245,7 +1691,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "Plate on Feeder Layer (MEF) or MatrigelmTeSR1 / Essential 8 medium"
+       "en": "Plate on Feeder Layer (MEF) or MatrigelmTeSR1 / Essential 8 medium",
+       "ta": "ஃபீடர் அடுக்கில் (MEF) அல்லது மேட்ரிஜெல்லில் வளர்த்தல்mTeSR1 / Essential 8 ஊடகம்",
+       "ta_status": "draft"
       }
      ]
     },
@@ -1253,7 +1701,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "Self-renewal maintenance: LIF (mouse) / bFGF (human)Daily medium change; passage every 3–7 days"
+       "en": "Self-renewal maintenance: LIF (mouse) / bFGF (human)Daily medium change; passage every 3–7 days",
+       "ta": "தன்புதுப்பித்தலைப் பேணுதல்: LIF (எலி) / bFGF (மனிதன்)தினமும் ஊடகம் மாற்றுதல்; 3–7 நாளுக்கொருமுறை பாசேஜ்",
+       "ta_status": "draft"
       }
      ]
     },
@@ -1261,105 +1711,157 @@
      "type": "steps",
      "items": [
       {
-       "en": "Maintain PluripotencyCharacterize: Oct4, Nanog, SSEA4 Directed DifferentiationEBs, growth factors, small molecules"
+       "en": "Maintain PluripotencyCharacterize: Oct4, Nanog, SSEA4 Directed DifferentiationEBs, growth factors, small molecules",
+       "ta": "புளூரிபொட்டென்சியைப் பேணுதல்பண்பறிதல்: Oct4, Nanog, SSEA4 வழிநடத்தப்பட்ட வேறுபாடடைதல்EBs, வளர்ச்சிக் காரணிகள், சிறு மூலக்கூறுகள்",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**💊 Clinical & Research Applications of Stem Cells**"
+      "en": "**💊 Clinical & Research Applications of Stem Cells**",
+      "ta": "**💊 தண்டு செல்களின் மருத்துவ, ஆய்வுப் பயன்பாடுகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "table",
      "header": [
       {
-       "en": "Application"
+       "en": "Application",
+       "ta": "பயன்பாடு",
+       "ta_status": "draft"
       },
       {
-       "en": "Stem Cell Type"
+       "en": "Stem Cell Type",
+       "ta": "தண்டு செல் வகை",
+       "ta_status": "draft"
       },
       {
-       "en": "Status"
+       "en": "Status",
+       "ta": "நிலை",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Bone Marrow Transplant**"
+        "en": "**Bone Marrow Transplant**",
+        "ta": "**எலும்பு மஜ்ஜை மாற்றுச்சிகிச்சை**",
+        "ta_status": "draft"
        },
        {
-        "en": "HSCs"
+        "en": "HSCs",
+        "ta": "HSCs",
+        "ta_status": "draft"
        },
        {
-        "en": "Clinical — leukemia, lymphoma"
+        "en": "Clinical — leukemia, lymphoma",
+        "ta": "மருத்துவப் பயன்பாடு — இரத்தப் புற்று, நிணநீர்க் கழலை",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Parkinson's Disease**"
+        "en": "**Parkinson's Disease**",
+        "ta": "**பார்க்கின்சன் நோய்**",
+        "ta_status": "draft"
        },
        {
-        "en": "iPSC-derived dopaminergic neurons"
+        "en": "iPSC-derived dopaminergic neurons",
+        "ta": "iPSC-யிலிருந்து பெறப்பட்ட டோபமின் நியூரான்கள்",
+        "ta_status": "draft"
        },
        {
-        "en": "Phase I/II trials"
+        "en": "Phase I/II trials",
+        "ta": "கட்டம் I/II சோதனைகள்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Macular Degeneration**"
+        "en": "**Macular Degeneration**",
+        "ta": "**விழிப்புள்ளிச் சிதைவு**",
+        "ta_status": "draft"
        },
        {
-        "en": "iPSC-derived RPE cells"
+        "en": "iPSC-derived RPE cells",
+        "ta": "iPSC-யிலிருந்து பெறப்பட்ட RPE செல்கள்",
+        "ta_status": "draft"
        },
        {
-        "en": "Phase I/II trials"
+        "en": "Phase I/II trials",
+        "ta": "கட்டம் I/II சோதனைகள்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Cartilage Repair**"
+        "en": "**Cartilage Repair**",
+        "ta": "**குருத்தெலும்புச் சீரமைப்பு**",
+        "ta_status": "draft"
        },
        {
-        "en": "MSCs"
+        "en": "MSCs",
+        "ta": "MSCs",
+        "ta_status": "draft"
        },
        {
-        "en": "Clinical — orthopedic use"
+        "en": "Clinical — orthopedic use",
+        "ta": "மருத்துவப் பயன்பாடு — எலும்பியல்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Skin Grafts**"
+        "en": "**Skin Grafts**",
+        "ta": "**தோல் ஒட்டுகள்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Epidermal stem cells"
+        "en": "Epidermal stem cells",
+        "ta": "மேற்றோல் தண்டு செல்கள்",
+        "ta_status": "draft"
        },
        {
-        "en": "Clinical — burn patients"
+        "en": "Clinical — burn patients",
+        "ta": "மருத்துவப் பயன்பாடு — தீக்காய நோயாளிகள்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Disease Modeling**"
+        "en": "**Disease Modeling**",
+        "ta": "**நோய் மாதிரியாக்கம்**",
+        "ta_status": "draft"
        },
        {
-        "en": "iPSCs (patient-derived)"
+        "en": "iPSCs (patient-derived)",
+        "ta": "iPSCs (நோயாளியிடமிருந்து பெறப்பட்டவை)",
+        "ta_status": "draft"
        },
        {
-        "en": "ALS, Alzheimer's, diabetes models"
+        "en": "ALS, Alzheimer's, diabetes models",
+        "ta": "ALS, அல்சைமர், நீரிழிவு மாதிரிகள்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Drug Screening**"
+        "en": "**Drug Screening**",
+        "ta": "**மருந்துச் சலிக்கை**",
+        "ta_status": "draft"
        },
        {
-        "en": "Organoids from iPSCs"
+        "en": "Organoids from iPSCs",
+        "ta": "iPSC-யிலிருந்து பெறப்பட்ட ஆர்கனாய்டுகள்",
+        "ta_status": "draft"
        },
        {
-        "en": "Liver, cardiac, intestinal organoids"
+        "en": "Liver, cardiac, intestinal organoids",
+        "ta": "கல்லீரல், இதயம், குடல் ஆர்கனாய்டுகள்",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -1367,7 +1869,9 @@
     {
      "type": "p",
      "text": {
-      "en": "Module 6"
+      "en": "Module 6",
+      "ta": "பகுதி 6",
+      "ta_status": "draft"
      }
     }
    ]
@@ -1375,26 +1879,34 @@
   {
    "id": "s08",
    "title": {
-    "en": "Organ Culture"
+    "en": "Organ Culture",
+    "ta": "உறுப்பு வளர்ப்பு",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Organ culture maintains the **three-dimensional architecture** and tissue organization of whole organs or organ fragments in vitro. Unlike cell culture, it preserves cell–cell and cell–matrix interactions, providing a more physiologically relevant experimental model."
+      "en": "Organ culture maintains the **three-dimensional architecture** and tissue organization of whole organs or organ fragments in vitro. Unlike cell culture, it preserves cell–cell and cell–matrix interactions, providing a more physiologically relevant experimental model.",
+      "ta": "உறுப்பு வளர்ப்பு முழு உறுப்புகள் அல்லது உறுப்புத் துண்டுகளின் **முப்பரிமாண அமைப்பையும்** திசு ஒழுங்கமைப்பையும் இன் விட்ரோவில் பேணுகிறது. செல் வளர்ப்பைப் போலன்றி, செல்–செல், செல்–அணி இடைவினைகளைப் பாதுகாத்து, உடலியலோடு மிகவும் பொருந்திய ஆய்வு மாதிரியை அளிக்கிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**📊 Methods of Organ Culture — Flow Classification**"
+      "en": "**📊 Methods of Organ Culture — Flow Classification**",
+      "ta": "**📊 உறுப்பு வளர்ப்பு முறைகள் — ஓட்ட வகைப்பாடு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "steps",
      "items": [
       {
-       "en": "Organ Culture"
+       "en": "Organ Culture",
+       "ta": "உறுப்பு வளர்ப்பு",
+       "ta_status": "draft"
       }
      ]
     },
@@ -1402,21 +1914,27 @@
      "type": "steps",
      "items": [
       {
-       "en": "Watch Glass Method Organ on plasma clot in watch glass. Early method by Fell & Robison (1929) Grid / Raft Method Organ on stainless steel grid at liquid–air interface; widely used for skin, limb buds Perfusion Culture Oxygenated medium perfused through intact organ vasculature continuously Roller Tube Method Slowly rotating tube ensures even medium distribution around organ slices"
+       "en": "Watch Glass Method Organ on plasma clot in watch glass. Early method by Fell & Robison (1929) Grid / Raft Method Organ on stainless steel grid at liquid–air interface; widely used for skin, limb buds Perfusion Culture Oxygenated medium perfused through intact organ vasculature continuously Roller Tube Method Slowly rotating tube ensures even medium distribution around organ slices",
+       "ta": "கடிகாரக் கண்ணாடி முறை பிளாஸ்மா கட்டியின் மீது கடிகாரக் கண்ணாடியில் உறுப்பு. ஃபெல் & ராபிசன் (1929) ஆரம்ப முறை கிரிட் / ராஃப்ட் முறை திரவ–காற்று இடைமுகத்தில் துருப்பிடிக்காத எஃகு வலைமீது உறுப்பு; தோல், உறுப்பு அரும்புகளுக்குப் பரவலான பயன்பாடு பாய்ச்சல் வளர்ப்பு ஆக்சிஜனேற்றிய ஊடகம் முழு உறுப்பின் இரத்தக்குழாய்களின் வழியே தொடர்ந்து பாய்ச்சப்படும் உருளைக் குழாய் முறை மெதுவாகச் சுழலும் குழாய் உறுப்புத் துண்டுகளைச் சுற்றி ஊடகத்தை ஒரே சீராகப் பரப்பும்",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**🔬 Grid Method — Organ Culture Setup Diagram**"
+      "en": "**🔬 Grid Method — Organ Culture Setup Diagram**",
+      "ta": "**🔬 கிரிட் முறை — உறுப்பு வளர்ப்பு அமைப்பு வரைபடம்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "animal_cell_culture-d06",
      "caption": {
-      "en": ""
+      "en": "",
+      "ta": "",
+      "ta_status": "draft"
      },
      "labels": [
       "Medium level",
@@ -1430,20 +1948,26 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**✅ Advantages of Organ Culture**\n• Preserves 3D tissue architecture & histology\n• Maintains cell–cell & cell–ECM interactions\n• Closer to in vivo physiology than cell culture\n• Suitable for short-term drug testing\n• Ideal for developmental biology studies"
+      "en": "**✅ Advantages of Organ Culture**\n• Preserves 3D tissue architecture & histology\n• Maintains cell–cell & cell–ECM interactions\n• Closer to in vivo physiology than cell culture\n• Suitable for short-term drug testing\n• Ideal for developmental biology studies",
+      "ta": "**✅ உறுப்பு வளர்ப்பின் நன்மைகள்**\n• முப்பரிமாணத் திசு அமைப்பையும் திசுவியலையும் பேணும்\n• செல்–செல், செல்–புறச்செல் அணி இடைவினைகளைப் பேணும்\n• செல் வளர்ப்பைவிட உடலக உடலியலுக்கு நெருக்கமானது\n• குறுகிய காலப் மருந்துச் சோதனைகளுக்கு ஏற்றது\n• வளர்ச்சி உயிரியல் ஆய்வுகளுக்கு உகந்தது",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**🔬 Applications of Organ Culture**\n• Limb bud & developmental biology studies\n• Cornea, thyroid, pancreas organ cultures\n• Testing teratogenic compounds\n• Drug metabolism studies (liver slices)\n• Tumor microenvironment research"
+      "en": "**🔬 Applications of Organ Culture**\n• Limb bud & developmental biology studies\n• Cornea, thyroid, pancreas organ cultures\n• Testing teratogenic compounds\n• Drug metabolism studies (liver slices)\n• Tumor microenvironment research",
+      "ta": "**🔬 உறுப்பு வளர்ப்பின் பயன்பாடுகள்**\n• உறுப்பு அரும்பு, வளர்ச்சி உயிரியல் ஆய்வுகள்\n• விழிவெண்படலம், தைராய்டு, கணைய உறுப்பு வளர்ப்புகள்\n• கருச்சிதைவு விளைவிக்கும் சேர்மங்களைச் சோதித்தல்\n• மருந்து வளர்சிதை மாற்ற ஆய்வுகள் (கல்லீரல் துண்டுகள்)\n• கட்டிச் சூழல் ஆய்வு",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Module 7"
+      "en": "Module 7",
+      "ta": "பகுதி 7",
+      "ta_status": "draft"
      }
     }
    ]
@@ -1451,26 +1975,34 @@
   {
    "id": "s09",
    "title": {
-    "en": "Artificial Skin — Applied Organ Culture"
+    "en": "Artificial Skin — Applied Organ Culture",
+    "ta": "செயற்கைத் தோல் — பயன்பாட்டு உறுப்பு வளர்ப்பு",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Artificial skin (tissue-engineered skin) is a **bioengineered construct** recreating the epidermal-dermal interface using keratinocytes and fibroblasts on a scaffold. It is a landmark application of organ culture technology for treating severe burns and chronic wounds."
+      "en": "Artificial skin (tissue-engineered skin) is a **bioengineered construct** recreating the epidermal-dermal interface using keratinocytes and fibroblasts on a scaffold. It is a landmark application of organ culture technology for treating severe burns and chronic wounds.",
+      "ta": "செயற்கைத் தோல் (திசுப் பொறியியல் தோல்) என்பது ஸ்கேஃபோல்டின்மீது கெரட்டினோசைட்டுகளையும் ஃபைப்ரோபிளாஸ்ட்களையும் கொண்டு மேற்றோல்–தோலிடை இடைமுகத்தை மீளுருவாக்கும் **உயிரிப்பொறியியல் கட்டமைப்பு**. கடுமையான தீக்காயங்கள், நாள்பட்ட புண்களுக்குச் சிகிச்சையளிக்கும் உறுப்பு வளர்ப்புத் தொழில்நுட்பத்தின் குறிப்பிடத்தக்க பயன்பாடு.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🩹 Natural Skin vs. Tissue-Engineered Skin — Structure Comparison**"
+      "en": "**🩹 Natural Skin vs. Tissue-Engineered Skin — Structure Comparison**",
+      "ta": "**🩹 இயற்கைத் தோல் – திசுப் பொறியியல் தோல் — அமைப்பு ஒப்பீடு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "animal_cell_culture-d07",
      "caption": {
-      "en": ""
+      "en": "",
+      "ta": "",
+      "ta_status": "draft"
      },
      "labels": [
       "Natural Skin",
@@ -1497,14 +2029,18 @@
     {
      "type": "p",
      "text": {
-      "en": "**🔄 Production of Tissue-Engineered Skin**"
+      "en": "**🔄 Production of Tissue-Engineered Skin**",
+      "ta": "**🔄 திசுப் பொறியியல் தோல் உற்பத்தி**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "steps",
      "items": [
       {
-       "en": "Keratinocyte HarvestPatient biopsy → enzymatic dissociation ▼ Expand in DMEM + EGF + FBST-flask → multilayer culture Dermal Scaffold PreparationAcellular dermis / collagen gel ▼ Seed Fibroblasts → Collagen MatrixECM remodeling allowed"
+       "en": "Keratinocyte HarvestPatient biopsy → enzymatic dissociation ▼ Expand in DMEM + EGF + FBST-flask → multilayer culture Dermal Scaffold PreparationAcellular dermis / collagen gel ▼ Seed Fibroblasts → Collagen MatrixECM remodeling allowed",
+       "ta": "கெரட்டினோசைட் அறுவடைநோயாளியிடம் திசுத்துண்டு → நொதிவழிப் பிரித்தல் ▼ DMEM + EGF + FBS-இல் பெருக்குதல்T-குடுவை → பல அடுக்கு வளர்ப்பு தோலிடை ஸ்கேஃபோல்டு தயாரிப்புசெல் நீக்கிய தோலிடை / கொலாஜன் ஜெல் ▼ ஃபைப்ரோபிளாஸ்ட்களை விதைத்தல் → கொலாஜன் அணிECM மறுவடிவமைப்புக்கு அனுமதி",
+       "ta_status": "draft"
       }
      ]
     },
@@ -1512,7 +2048,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "Seed Keratinocytes onto Dermal EquivalentAir-liquid interface culture → promotes stratification"
+       "en": "Seed Keratinocytes onto Dermal EquivalentAir-liquid interface culture → promotes stratification",
+       "ta": "தோலிடைச் சமவடிவில் கெரட்டினோசைட்டுகளை விதைத்தல்காற்று–திரவ இடைமுக வளர்ப்பு → அடுக்கமைவைத் தூண்டும்",
+       "ta_status": "draft"
       }
      ]
     },
@@ -1520,7 +2058,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "Maturation: 14–21 daysCornification and barrier function development"
+       "en": "Maturation: 14–21 daysCornification and barrier function development",
+       "ta": "முதிர்ச்சி: 14–21 நாள்கள்கெரட்டினாதல், தடுப்புச் செயல் வளர்ச்சி",
+       "ta_status": "draft"
       }
      ]
     },
@@ -1528,101 +2068,153 @@
      "type": "steps",
      "items": [
       {
-       "en": "Quality TestingHistology · Barrier · Viability Clinical ApplicationBurns · Ulcers · Reconstructive surgery"
+       "en": "Quality TestingHistology · Barrier · Viability Clinical ApplicationBurns · Ulcers · Reconstructive surgery",
+       "ta": "தரச் சோதனைதிசுவியல் · தடுப்பு · உயிர்ப்புத்திறன் மருத்துவப் பயன்பாடுதீக்காயம் · புண்கள் · மறுசீரமைப்பு அறுவை",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**🏥 Commercial Artificial Skin Products**"
+      "en": "**🏥 Commercial Artificial Skin Products**",
+      "ta": "**🏥 வணிகரீதியான செயற்கைத் தோல் பொருள்கள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "table",
      "header": [
       {
-       "en": "Product"
+       "en": "Product",
+       "ta": "பொருள்",
+       "ta_status": "draft"
       },
       {
-       "en": "Type"
+       "en": "Type",
+       "ta": "வகை",
+       "ta_status": "draft"
       },
       {
-       "en": "Components"
+       "en": "Components",
+       "ta": "கூறுகள்",
+       "ta_status": "draft"
       },
       {
-       "en": "Application"
+       "en": "Application",
+       "ta": "பயன்பாடு",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Apligraf®**"
+        "en": "**Apligraf®**",
+        "ta": "**Apligraf®**",
+        "ta_status": "draft"
        },
        {
-        "en": "Bilayered"
+        "en": "Bilayered",
+        "ta": "இரு அடுக்கு",
+        "ta_status": "draft"
        },
        {
-        "en": "Allogeneic keratinocytes + dermal fibroblasts in collagen"
+        "en": "Allogeneic keratinocytes + dermal fibroblasts in collagen",
+        "ta": "கொலாஜனில் பிறர்செல் கெரட்டினோசைட்டுகள் + தோலிடை ஃபைப்ரோபிளாஸ்ட்கள்",
+        "ta_status": "draft"
        },
        {
-        "en": "Venous leg ulcers, diabetic foot ulcers"
+        "en": "Venous leg ulcers, diabetic foot ulcers",
+        "ta": "சிரைக்கால் புண்கள், நீரிழிவுக் கால் புண்கள்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Integra®**"
+        "en": "**Integra®**",
+        "ta": "**Integra®**",
+        "ta_status": "draft"
        },
        {
-        "en": "Acellular matrix"
+        "en": "Acellular matrix",
+        "ta": "செல் அற்ற அணி",
+        "ta_status": "draft"
        },
        {
-        "en": "Bovine collagen + chondroitin-6-sulfate + silicone"
+        "en": "Bovine collagen + chondroitin-6-sulfate + silicone",
+        "ta": "மாட்டுக் கொலாஜன் + காண்ட்ராய்டின்-6-சல்பேட் + சிலிகான்",
+        "ta_status": "draft"
        },
        {
-        "en": "Full-thickness burns"
+        "en": "Full-thickness burns",
+        "ta": "முழு தடிமன் தீக்காயங்கள்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Epicel®**"
+        "en": "**Epicel®**",
+        "ta": "**Epicel®**",
+        "ta_status": "draft"
        },
        {
-        "en": "Epidermal only"
+        "en": "Epidermal only",
+        "ta": "மேற்றோல் மட்டும்",
+        "ta_status": "draft"
        },
        {
-        "en": "Autologous keratinocytes on murine fibroblast feeder"
+        "en": "Autologous keratinocytes on murine fibroblast feeder",
+        "ta": "எலி ஃபைப்ரோபிளாஸ்ட் ஃபீடர்மீது தன்செல் கெரட்டினோசைட்டுகள்",
+        "ta_status": "draft"
        },
        {
-        "en": "Massive burns (>30% BSA)"
+        "en": "Massive burns (>30% BSA)",
+        "ta": "பெரும் தீக்காயங்கள் (>30% BSA)",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Dermagraft®**"
+        "en": "**Dermagraft®**",
+        "ta": "**Dermagraft®**",
+        "ta_status": "draft"
        },
        {
-        "en": "Dermal substitute"
+        "en": "Dermal substitute",
+        "ta": "தோலிடைப் பதிலி",
+        "ta_status": "draft"
        },
        {
-        "en": "Neonatal fibroblasts seeded on polyglactin mesh"
+        "en": "Neonatal fibroblasts seeded on polyglactin mesh",
+        "ta": "பாலிகிளாக்டின் வலைமீது விதைக்கப்பட்ட பிறந்த குழந்தை ஃபைப்ரோபிளாஸ்ட்கள்",
+        "ta_status": "draft"
        },
        {
-        "en": "Diabetic foot ulcers"
+        "en": "Diabetic foot ulcers",
+        "ta": "நீரிழிவுக் கால் புண்கள்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**OrCel®**"
+        "en": "**OrCel®**",
+        "ta": "**OrCel®**",
+        "ta_status": "draft"
        },
        {
-        "en": "Bilayered"
+        "en": "Bilayered",
+        "ta": "இரு அடுக்கு",
+        "ta_status": "draft"
        },
        {
-        "en": "Allogeneic cells in bovine collagen sponge"
+        "en": "Allogeneic cells in bovine collagen sponge",
+        "ta": "மாட்டுக் கொலாஜன் கடற்பஞ்சில் பிறர்செல்கள்",
+        "ta_status": "draft"
        },
        {
-        "en": "Burns, donor site wounds"
+        "en": "Burns, donor site wounds",
+        "ta": "தீக்காயங்கள், கொடையாளர் தளக் காயங்கள்",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -1631,21 +2223,27 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**✅ Clinical Advantages**\n• Overcomes donor site shortage in severe burns\n• Autologous constructs — no immune rejection\n• Reduced scarring vs. split-thickness grafts\n• Off-the-shelf allogeneic products available\n• Platform for cosmetic drug testing (EpiDerm™)\n• Alternative to animal testing"
+      "en": "**✅ Clinical Advantages**\n• Overcomes donor site shortage in severe burns\n• Autologous constructs — no immune rejection\n• Reduced scarring vs. split-thickness grafts\n• Off-the-shelf allogeneic products available\n• Platform for cosmetic drug testing (EpiDerm™)\n• Alternative to animal testing",
+      "ta": "**✅ மருத்துவ நன்மைகள்**\n• கடுமையான தீக்காயங்களில் கொடையாளர் தளப் பற்றாக்குறையைத் தீர்க்கும்\n• தன்செல் கட்டமைப்புகள் — நோயெதிர்ப்பு நிராகரிப்பு இல்லை\n• பிளவுத் தடிமன் ஒட்டுகளைவிடக் குறைந்த வடு\n• தயார்நிலை பிறர்செல் பொருள்கள் கிடைக்கும்\n• அழகுசாதன மருந்துச் சோதனை மேடை (EpiDerm™)\n• விலங்குச் சோதனைக்கு மாற்று",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**🔭 Future Challenges**\n• Vascularization — no capillary network\n• Lack of hair follicles, sweat/sebaceous glands\n• Melanocyte integration for skin pigmentation\n• Innervation — no sensory nerve endings\n• Long-term mechanical durability\n• High manufacturing cost"
+      "en": "**🔭 Future Challenges**\n• Vascularization — no capillary network\n• Lack of hair follicles, sweat/sebaceous glands\n• Melanocyte integration for skin pigmentation\n• Innervation — no sensory nerve endings\n• Long-term mechanical durability\n• High manufacturing cost",
+      "ta": "**🔭 எதிர்காலச் சவால்கள்**\n• இரத்தக்குழாய் உருவாக்கம் — நுண்குழாய் வலை இல்லை\n• முடிக்கால்கள், வியர்வை/எண்ணெய்ச் சுரப்பிகள் இல்லை\n• தோல் நிறமூட்டலுக்கு மெலனோசைட் ஒருங்கிணைப்பு\n• நரம்பூட்டம் — உணர்வு நரம்பு முனைகள் இல்லை\n• நீண்டகால இயந்திர உறுதி\n• அதிக உற்பத்திச் செலவு",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**🖨️ 3D Bioprinting of Skin — Emerging Frontier**\n3D bioprinting deposits cell-laden bioinks (keratinocytes, fibroblasts, melanocytes) layer-by-layer with high precision. Recent advances achieve full-thickness skin substitutes with melanocyte integration. Companies like CELLINK and Organovo are pioneering commercial bioprinted skin platforms for wound healing therapies and cosmetic safety testing, moving toward in situ printing directly on wounds."
+      "en": "**🖨️ 3D Bioprinting of Skin — Emerging Frontier**\n3D bioprinting deposits cell-laden bioinks (keratinocytes, fibroblasts, melanocytes) layer-by-layer with high precision. Recent advances achieve full-thickness skin substitutes with melanocyte integration. Companies like CELLINK and Organovo are pioneering commercial bioprinted skin platforms for wound healing therapies and cosmetic safety testing, moving toward in situ printing directly on wounds.",
+      "ta": "**🖨️ தோலின் 3D உயிரி அச்சிடல் — வளரும் எல்லை**\n3D உயிரி அச்சிடல் செல் நிரம்பிய உயிர்மைகளை (கெரட்டினோசைட்டுகள், ஃபைப்ரோபிளாஸ்ட்கள், மெலனோசைட்டுகள்) உயர் துல்லியத்துடன் அடுக்கடுக்காகப் படியவைக்கிறது. சமீபத்திய முன்னேற்றங்கள் மெலனோசைட் ஒருங்கிணைந்த முழு தடிமன் தோல் பதிலிகளை உருவாக்குகின்றன. CELLINK, Organovo போன்ற நிறுவனங்கள் காயம் ஆற்றும் சிகிச்சைகள், அழகுசாதனப் பாதுகாப்புச் சோதனைக்கான வணிக உயிரி அச்சுத் தோல் மேடைகளை முன்னெடுக்கின்றன; காயத்தின் மேலேயே நேரடியாக அச்சிடும் (இன் சிட்டு) நிலையை நோக்கி நகர்கின்றன.",
+      "ta_status": "draft"
      }
     }
    ]

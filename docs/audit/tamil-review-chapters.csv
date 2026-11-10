@@ -6540,3 +6540,384 @@ transgenic_animal_technology.json,sections/8/blocks/9/term,Pharming,பார்
 transgenic_animal_technology.json,sections/8/blocks/9/definition,Production of pharmaceutical proteins in farm animals or plants.,பண்ணை விலங்குகள் அல்லது தாவரங்களில் மருந்தியல் புரதங்களை உற்பத்தி செய்தல்.,draft,
 transgenic_animal_technology.json,sections/8/blocks/10/term,Cre-lox,Cre-lox,draft,
 transgenic_animal_technology.json,sections/8/blocks/10/definition,Recombinase system for conditional (tissue-specific) gene deletion.,நிபந்தனை (திசுக்குரிய) மரபணு நீக்கத்துக்கான ரீகாம்பினேஸ் அமைப்பு.,draft,
+animal_cell_culture.json,title,Animal Cell Culture Techniques,விலங்கு செல் வளர்ப்பு நுட்பங்கள்,draft,
+animal_cell_culture.json,sections/0/title,Animal Cell Culture Techniques,விலங்கு செல் வளர்ப்பு நுட்பங்கள்,draft,
+animal_cell_culture.json,sections/0/blocks/0/text,Department of Zoology — GASC Nagercoil,விலங்கியல் துறை — GASC நாகர்கோவில்,draft,
+animal_cell_culture.json,sections/0/blocks/1/text,Unit Overview,அலகு மேலோட்டம்,draft,
+animal_cell_culture.json,sections/1/title,Animal Cell Culture,விலங்கு செல் வளர்ப்பு,draft,
+animal_cell_culture.json,sections/1/blocks/0/text,"Animal cell culture is the process of growing cells isolated from animal tissues under controlled _in vitro_ conditions — temperature, pH, CO₂, and nutrition. It is a cornerstone technique enabling research in cancer biology, drug development, vaccine production, and regenerative medicine.","விலங்கு செல் வளர்ப்பு என்பது விலங்குத் திசுக்களிலிருந்து பிரித்த செல்களை வெப்பநிலை, pH, CO₂, ஊட்டச்சத்து ஆகியவை கட்டுப்படுத்தப்பட்ட _இன் விட்ரோ_ சூழலில் வளர்க்கும் செயல்முறை. புற்றுநோய் உயிரியல், மருந்து உருவாக்கம், தடுப்பூசி உற்பத்தி, மீளுருவாக்க மருத்துவம் ஆகிய ஆய்வுகளுக்கு இது அடிப்படை நுட்பம்.",draft,
+animal_cell_culture.json,sections/1/blocks/1/text,**🔬 Annotated Animal Cell — Key Organelles**,**🔬 குறிப்பிட்ட விலங்கு செல் — முக்கிய செல்லுறுப்புகள்**,draft,
+animal_cell_culture.json,sections/1/blocks/2/caption,,,draft,
+animal_cell_culture.json,sections/1/blocks/3/text,**Definition**,**வரையறை**,draft,
+animal_cell_culture.json,sections/1/blocks/4/text,"Removal of cells from an animal and growing them under **controlled in vitro conditions** — mimicking the in vivo environment of temperature, pH, CO₂, osmolarity, and nutrients.","விலங்கிலிருந்து செல்களை அகற்றி, வெப்பநிலை, pH, CO₂, ஊடுபரவல் அழுத்தம், ஊட்டச்சத்துகள் ஆகிய உடலக (in vivo) சூழலைப் போன்ற **கட்டுப்படுத்தப்பட்ட இன் விட்ரோ நிலைகளில்** வளர்த்தல்.",draft,
+animal_cell_culture.json,sections/1/blocks/5/text,**Historical Milestones**,**வரலாற்று மைல்கற்கள்**,draft,
+animal_cell_culture.json,sections/1/blocks/6/items/0,1907 — Ross Harrison: nerve fiber culture,1907 — ராஸ் ஹாரிசன்: நரம்பிழை வளர்ப்பு,draft,
+animal_cell_culture.json,sections/1/blocks/6/items/1,1943 — Earle: mouse fibroblast monolayer,1943 — ஏர்ல்: எலி ஃபைப்ரோபிளாஸ்ட் ஒற்றை அடுக்கு,draft,
+animal_cell_culture.json,sections/1/blocks/6/items/2,1951 — HeLa cells (first immortal line),1951 — HeLa செல்கள் (முதல் சாகா செல் வரிசை),draft,
+animal_cell_culture.json,sections/1/blocks/6/items/3,1975 — Monoclonal antibody technology,1975 — ஒற்றைக்குளோன் எதிர்ப்பொருள் தொழில்நுட்பம்,draft,
+animal_cell_culture.json,sections/1/blocks/6/items/4,1998 — Human ES cell isolation,1998 — மனித ES செல் பிரித்தெடுப்பு,draft,
+animal_cell_culture.json,sections/1/blocks/6/items/5,2006 — iPSC generation (Yamanaka),2006 — iPSC உருவாக்கம் (யமனகா),draft,
+animal_cell_culture.json,sections/1/blocks/7/text,**Applications**,**பயன்பாடுகள்**,draft,
+animal_cell_culture.json,sections/1/blocks/8/items/0,Vaccine & biopharmaceutical production,"தடுப்பூசி, உயிர்மருந்துப் பொருள் உற்பத்தி",draft,
+animal_cell_culture.json,sections/1/blocks/8/items/1,Cancer biology research,புற்றுநோய் உயிரியல் ஆய்வு,draft,
+animal_cell_culture.json,sections/1/blocks/8/items/2,Drug toxicity & screening,"மருந்து நச்சுத்தன்மை, சலிக்கை",draft,
+animal_cell_culture.json,sections/1/blocks/8/items/3,Genetic engineering,மரபணுப் பொறியியல்,draft,
+animal_cell_culture.json,sections/1/blocks/8/items/4,Tissue engineering & regenerative medicine,"திசுப் பொறியியல், மீளுருவாக்க மருத்துவம்",draft,
+animal_cell_culture.json,sections/1/blocks/8/items/5,Virology studies,வைரஸ் ஆய்வுகள்,draft,
+animal_cell_culture.json,sections/1/blocks/9/text,**Limitations**,**வரம்புகள்**,draft,
+animal_cell_culture.json,sections/1/blocks/10/items/0,Loss of 3D cell–cell interactions,முப்பரிமாண செல்–செல் இடைவினைகள் இழக்கப்படுதல்,draft,
+animal_cell_culture.json,sections/1/blocks/10/items/1,Genetic drift over passages,பாசேஜ்களில் மரபணு விலகல்,draft,
+animal_cell_culture.json,sections/1/blocks/10/items/2,Risk of mycoplasma contamination,மைக்கோபிளாஸ்மா மாசுபாட்டு ஆபத்து,draft,
+animal_cell_culture.json,sections/1/blocks/10/items/3,Expensive and labor-intensive,செலவும் உழைப்பும் மிகுதி,draft,
+animal_cell_culture.json,sections/1/blocks/10/items/4,May not replicate in vivo physiology fully,உடலக உடலியலை முழுமையாகப் பிரதிபலிக்காமல் போகலாம்,draft,
+animal_cell_culture.json,sections/1/blocks/11/text,**🔄 Scope & Classification of Animal Cell Culture**,**🔄 விலங்கு செல் வளர்ப்பின் நோக்கெல்லையும் வகைப்பாடும்**,draft,
+animal_cell_culture.json,sections/1/blocks/12/items/0,Animal Cell CultureIn vitro growth of animal cells,விலங்கு செல் வளர்ப்புவிலங்கு செல்களின் இன் விட்ரோ வளர்ச்சி,draft,
+animal_cell_culture.json,sections/1/blocks/13/items/0,Cell CultureDispersed single cells Tissue CultureOrganized tissues Organ Culture3D organ structure maintained,செல் வளர்ப்புதனித்தனிச் செல்கள் திசு வளர்ப்புஒழுங்கமைந்த திசுக்கள் உறுப்பு வளர்ப்புமுப்பரிமாண உறுப்பு அமைப்பு பேணப்படும்,draft,
+animal_cell_culture.json,sections/1/blocks/14/items/0,Primary CultureDirect from tissue Cell LinesPassaged / immortalized Stem Cell CultureUndifferentiated Artificial SkinApplied organ culture,முதல்நிலை வளர்ப்புதிசுவிலிருந்து நேரடியாக செல் வரிசைகள்பாசேஜ் செய்யப்பட்ட / சாகா நிலை தண்டு செல் வளர்ப்புவேறுபாடடையாதவை செயற்கைத் தோல்பயன்பாட்டு உறுப்பு வளர்ப்பு,draft,
+animal_cell_culture.json,sections/1/blocks/15/text,Module 1,பகுதி 1,draft,
+animal_cell_culture.json,sections/2/title,Basic Requirements of Cell Culture,செல் வளர்ப்புக்கான அடிப்படைத் தேவைகள்,draft,
+animal_cell_culture.json,sections/2/blocks/0/text,"Successful animal cell culture requires meticulous control of physical, chemical, and biological parameters. Every component of the culture environment must be optimized to sustain cell viability, proliferation, and function.","வெற்றிகரமான விலங்கு செல் வளர்ப்புக்கு இயற்பியல், வேதி, உயிரியல் காரணிகளின் நுட்பமான கட்டுப்பாடு தேவை. செல்களின் உயிர்வாழ்தல், பெருக்கம், செயல்பாட்டைத் தக்கவைக்க வளர்ப்புச் சூழலின் ஒவ்வொரு கூறும் உகந்ததாக இருக்க வேண்டும்.",draft,
+animal_cell_culture.json,sections/2/blocks/1/text,**🏗️ Core Cell Culture Laboratory Equipment**,**🏗️ செல் வளர்ப்பு ஆய்வகத்தின் முக்கியக் கருவிகள்**,draft,
+animal_cell_culture.json,sections/2/blocks/2/caption,,,draft,
+animal_cell_culture.json,sections/2/blocks/3/text,**📋 Basic Requirements — Flow Overview**,**📋 அடிப்படைத் தேவைகள் — ஓட்ட மேலோட்டம்**,draft,
+animal_cell_culture.json,sections/2/blocks/4/items/0,Cell Culture Requirements,செல் வளர்ப்புத் தேவைகள்,draft,
+animal_cell_culture.json,sections/2/blocks/5/items/0,"PhysicalTemperature, pH, CO₂ ▼ 37°C · pH 7.2–7.45–10% CO₂ atmosphere ChemicalNutrients, hormones ▼ Basal Media + SerumDMEM / RPMI + 10% FBS BiologicalCell type, density ▼ Inoculum · SubcultureAvoid overgrowth SterilityBSC, antibiotics ▼ Aseptic TechniqueNo contamination","இயற்பியல்வெப்பநிலை, pH, CO₂ ▼ 37°C · pH 7.2–7.45–10% CO₂ சூழல் வேதிஊட்டச்சத்துகள், ஹார்மோன்கள் ▼ அடிப்படை ஊடகம் + சீரம்DMEM / RPMI + 10% FBS உயிரியல்செல் வகை, அடர்த்தி ▼ செலுத்துபொருள் · துணை வளர்ப்புமிகை வளர்ச்சியைத் தவிர்க்க நுண்ணுயிர் நீக்கம்BSC, ஆன்டிபயாடிக்குகள் ▼ நுண்ணுயிர் நீக்க நுட்பம்மாசுபாடு இல்லை",draft,
+animal_cell_culture.json,sections/2/blocks/6/text,**🧼 Sterilization Methods in Cell Culture**,**🧼 செல் வளர்ப்பில் நுண்ணுயிர் நீக்க முறைகள்**,draft,
+animal_cell_culture.json,sections/2/blocks/7/header/0,Method,முறை,draft,
+animal_cell_culture.json,sections/2/blocks/7/header/1,Agent / Condition,காரணி / நிலை,draft,
+animal_cell_culture.json,sections/2/blocks/7/header/2,Used For,பயன்படுவது,draft,
+animal_cell_culture.json,sections/2/blocks/7/header/3,Time,நேரம்,draft,
+animal_cell_culture.json,sections/2/blocks/7/rows/0/0,**Autoclaving**,**ஆட்டோகிளேவிங்**,draft,
+animal_cell_culture.json,sections/2/blocks/7/rows/0/1,"Steam 121°C, 15 psi","நீராவி 121°C, 15 psi",draft,
+animal_cell_culture.json,sections/2/blocks/7/rows/0/2,"Glassware, media, instruments","கண்ணாடிப் பொருள்கள், ஊடகம், கருவிகள்",draft,
+animal_cell_culture.json,sections/2/blocks/7/rows/0/3,15–20 min,15–20 நிமி,draft,
+animal_cell_culture.json,sections/2/blocks/7/rows/1/0,**Dry Heat**,**உலர் வெப்பம்**,draft,
+animal_cell_culture.json,sections/2/blocks/7/rows/1/1,160–170°C oven,160–170°C அடுப்பு,draft,
+animal_cell_culture.json,sections/2/blocks/7/rows/1/2,"Glassware, powders","கண்ணாடிப் பொருள்கள், தூள்கள்",draft,
+animal_cell_culture.json,sections/2/blocks/7/rows/1/3,1–2 hr,1–2 மணி,draft,
+animal_cell_culture.json,sections/2/blocks/7/rows/2/0,**UV Radiation**,**UV கதிர்வீச்சு**,draft,
+animal_cell_culture.json,sections/2/blocks/7/rows/2/1,254 nm UV light,254 nm UV ஒளி,draft,
+animal_cell_culture.json,sections/2/blocks/7/rows/2/2,"BSC interior, surfaces","BSC உட்புறம், மேற்பரப்புகள்",draft,
+animal_cell_culture.json,sections/2/blocks/7/rows/2/3,20–30 min,20–30 நிமி,draft,
+animal_cell_culture.json,sections/2/blocks/7/rows/3/0,**Membrane Filtration**,**சவ்வு வடிகட்டல்**,draft,
+animal_cell_culture.json,sections/2/blocks/7/rows/3/1,0.22 µm filter,0.22 µm வடிகட்டி,draft,
+animal_cell_culture.json,sections/2/blocks/7/rows/3/2,"Heat-sensitive media, serum","வெப்பத்தால் பாதிக்கப்படும் ஊடகம், சீரம்",draft,
+animal_cell_culture.json,sections/2/blocks/7/rows/3/3,Continuous,தொடர்ச்சியாக,draft,
+animal_cell_culture.json,sections/2/blocks/7/rows/4/0,**Chemical**,**வேதி முறை**,draft,
+animal_cell_culture.json,sections/2/blocks/7/rows/4/1,"70% ethanol, bleach","70% எத்தனால், பிளீச்",draft,
+animal_cell_culture.json,sections/2/blocks/7/rows/4/2,"Surfaces, skin decontamination","மேற்பரப்புகள், தோல் தூய்மையாக்கம்",draft,
+animal_cell_culture.json,sections/2/blocks/7/rows/4/3,As required,தேவைக்கேற்ப,draft,
+animal_cell_culture.json,sections/2/blocks/8/text,**Temperature & Atmosphere**,**வெப்பநிலையும் சூழலும்**,draft,
+animal_cell_culture.json,sections/2/blocks/9/items/0,Mammalian cells: **37°C**,பாலூட்டி செல்கள்: **37°C**,draft,
+animal_cell_culture.json,sections/2/blocks/9/items/1,CO₂ incubator: **5–10% CO₂**,CO₂ அடைகாப்பி: **5–10% CO₂**,draft,
+animal_cell_culture.json,sections/2/blocks/9/items/2,CO₂ buffers bicarbonate in media,CO₂ ஊடகத்திலுள்ள பைகார்பனேட்டைத் தாங்கல் செய்யும்,draft,
+animal_cell_culture.json,sections/2/blocks/9/items/3,Humidity: ≥95% prevents evaporation,ஈரப்பதம்: ≥95% ஆவியாதலைத் தடுக்கும்,draft,
+animal_cell_culture.json,sections/2/blocks/9/items/4,Bird-derived cells: 38.5°C,பறவை செல்கள்: 38.5°C,draft,
+animal_cell_culture.json,sections/2/blocks/10/text,**pH & Osmolarity**,**pH-உம் ஊடுபரவல் அழுத்தமும்**,draft,
+animal_cell_culture.json,sections/2/blocks/11/items/0,Optimal pH: **7.2 – 7.4**,உகந்த pH: **7.2 – 7.4**,draft,
+animal_cell_culture.json,sections/2/blocks/11/items/1,Indicator: Phenol red (yellow = acidic),காட்டி: பீனால் சிவப்பு (மஞ்சள் = அமிலம்),draft,
+animal_cell_culture.json,sections/2/blocks/11/items/2,Buffering: NaHCO₃ / HEPES,தாங்கல்: NaHCO₃ / HEPES,draft,
+animal_cell_culture.json,sections/2/blocks/11/items/3,Osmolarity: **280–320 mOsm/kg**,ஊடுபரவல் அழுத்தம்: **280–320 mOsm/kg**,draft,
+animal_cell_culture.json,sections/2/blocks/11/items/4,NaCl adjusts osmotic pressure,NaCl ஊடுபரவல் அழுத்தத்தைச் சரிசெய்யும்,draft,
+animal_cell_culture.json,sections/2/blocks/12/text,**Substrata for Cell Attachment**,**செல் ஒட்டுதலுக்கான அடித்தளங்கள்**,draft,
+animal_cell_culture.json,sections/2/blocks/13/items/0,Tissue culture polystyrene (TCPS),திசு வளர்ப்பு பாலிஸ்டைரீன் (TCPS),bracketed,
+animal_cell_culture.json,sections/2/blocks/13/items/1,Fibronectin / collagen coating,ஃபைப்ரோநெக்டின் / கொலாஜன் பூச்சு,draft,
+animal_cell_culture.json,sections/2/blocks/13/items/2,Poly-L-lysine for neurons,நரம்புகளுக்குப் பாலி-L-லைசின்,draft,
+animal_cell_culture.json,sections/2/blocks/13/items/3,Matrigel for 3D culture,முப்பரிமாண வளர்ப்புக்கு மேட்ரிஜெல்,draft,
+animal_cell_culture.json,sections/2/blocks/13/items/4,Suspension culture for non-adherent cells,ஒட்டாத செல்களுக்கு மிதவை வளர்ப்பு,draft,
+animal_cell_culture.json,sections/2/blocks/14/text,Module 2,பகுதி 2,draft,
+animal_cell_culture.json,sections/3/title,Natural & Synthetic Culture Media,"இயற்கை, செயற்கை வளர்ப்பு ஊடகங்கள்",draft,
+animal_cell_culture.json,sections/3/blocks/0/text,"Culture media provide the essential nutrients, growth factors, and physicochemical conditions required for cell survival. Media are broadly classified as **natural** (biological fluids) and **synthetic** (chemically defined or serum-supplemented formulations).","வளர்ப்பு ஊடகம் செல்லின் உயிர்வாழ்வுக்குத் தேவையான ஊட்டச்சத்துகள், வளர்ச்சிக் காரணிகள், இயற்பிய வேதிச் சூழலை அளிக்கிறது. ஊடகங்கள் **இயற்கை** (உயிரியல் திரவங்கள்), **செயற்கை** (வேதியியல் வரையறுக்கப்பட்ட அல்லது சீரம் சேர்த்த கலவைகள்) என வகைப்படுத்தப்படுகின்றன.",draft,
+animal_cell_culture.json,sections/3/blocks/1/text,**📊 Classification of Culture Media**,**📊 வளர்ப்பு ஊடகங்களின் வகைப்பாடு**,draft,
+animal_cell_culture.json,sections/3/blocks/2/items/0,Culture Media,வளர்ப்பு ஊடகங்கள்,draft,
+animal_cell_culture.json,sections/3/blocks/3/items/0,Natural MediaBiological origin ▼ Blood PlasmaEarly cultures Serum (FBS)Growth factors Tissue ExtractsChick embryo Synthetic MediaChemically defined ▼ Serum-based+10% FBS Serum-freeSF / CDM Protein-freePFM,இயற்கை ஊடகம்உயிரியல் மூலம் ▼ இரத்த பிளாஸ்மாஆரம்பகால வளர்ப்புகள் சீரம் (FBS)வளர்ச்சிக் காரணிகள் திசுச் சாறுகள்கோழிக் கரு செயற்கை ஊடகம்வேதியியல் வரையறுக்கப்பட்டது ▼ சீரம் சேர்த்தது+10% FBS சீரம் இல்லாததுSF / CDM புரதம் இல்லாததுPFM,draft,
+animal_cell_culture.json,sections/3/blocks/4/text,**🔬 Components of a Synthetic Culture Medium**,**🔬 செயற்கை வளர்ப்பு ஊடகத்தின் கூறுகள்**,draft,
+animal_cell_culture.json,sections/3/blocks/5/caption,,,draft,
+animal_cell_culture.json,sections/3/blocks/6/text,**📋 Commonly Used Synthetic Culture Media**,**📋 பொதுவாகப் பயன்படும் செயற்கை வளர்ப்பு ஊடகங்கள்**,draft,
+animal_cell_culture.json,sections/3/blocks/7/header/0,Medium,ஊடகம்,draft,
+animal_cell_culture.json,sections/3/blocks/7/header/1,Full Name,முழுப்பெயர்,draft,
+animal_cell_culture.json,sections/3/blocks/7/header/2,Cell Types,செல் வகைகள்,draft,
+animal_cell_culture.json,sections/3/blocks/7/header/3,Key Feature,முக்கியப் பண்பு,draft,
+animal_cell_culture.json,sections/3/blocks/7/rows/0/0,**DMEM**,**DMEM**,draft,
+animal_cell_culture.json,sections/3/blocks/7/rows/0/1,Dulbecco's Modified Eagle's Medium,டல்பெக்கோவின் மாற்றிய ஈகிள் ஊடகம்,draft,
+animal_cell_culture.json,sections/3/blocks/7/rows/0/2,"Fibroblasts, epithelial, ES cells","ஃபைப்ரோபிளாஸ்ட், மேலணி, ES செல்கள்",draft,
+animal_cell_culture.json,sections/3/blocks/7/rows/0/3,High glucose (4.5 g/L),அதிகக் குளுக்கோஸ் (4.5 g/L),draft,
+animal_cell_culture.json,sections/3/blocks/7/rows/1/0,**RPMI 1640**,**RPMI 1640**,draft,
+animal_cell_culture.json,sections/3/blocks/7/rows/1/1,Roswell Park Memorial Institute,ராஸ்வெல் பார்க் நினைவு நிறுவனம்,draft,
+animal_cell_culture.json,sections/3/blocks/7/rows/1/2,"Lymphocytes, hematopoietic","நிணநீர்ச் செல்கள், குருதியாக்கச் செல்கள்",draft,
+animal_cell_culture.json,sections/3/blocks/7/rows/1/3,Suitable for suspension culture,மிதவை வளர்ப்புக்கு ஏற்றது,draft,
+animal_cell_culture.json,sections/3/blocks/7/rows/2/0,**MEM**,**MEM**,draft,
+animal_cell_culture.json,sections/3/blocks/7/rows/2/1,Minimum Essential Medium,குறைந்தபட்சத் தேவை ஊடகம்,draft,
+animal_cell_culture.json,sections/3/blocks/7/rows/2/2,General purpose,பொதுப் பயன்பாடு,draft,
+animal_cell_culture.json,sections/3/blocks/7/rows/2/3,Low amino acid formulation,குறைந்த அமினோ அமில உருவாக்கம்,draft,
+animal_cell_culture.json,sections/3/blocks/7/rows/3/0,**Ham's F12**,**ஹாம்ஸ் F12**,draft,
+animal_cell_culture.json,sections/3/blocks/7/rows/3/1,Ham's Nutrient Mixture F-12,ஹாமின் ஊட்டச்சத்துக் கலவை F-12,draft,
+animal_cell_culture.json,sections/3/blocks/7/rows/3/2,"CHO, fibroblasts","CHO, ஃபைப்ரோபிளாஸ்ட்கள்",draft,
+animal_cell_culture.json,sections/3/blocks/7/rows/3/3,Low serum requirement,குறைந்த சீரம் தேவை,draft,
+animal_cell_culture.json,sections/3/blocks/7/rows/4/0,**DMEM/F12**,**DMEM/F12**,draft,
+animal_cell_culture.json,sections/3/blocks/7/rows/4/1,1:1 Mixture,1:1 கலவை,draft,
+animal_cell_culture.json,sections/3/blocks/7/rows/4/2,"Stem cells, 3D organoids","தண்டு செல்கள், முப்பரிமாண ஆர்கனாய்டுகள்",draft,
+animal_cell_culture.json,sections/3/blocks/7/rows/4/3,Combined nutrient richness,ஒருங்கிணைந்த ஊட்டச்சத்து வளம்,draft,
+animal_cell_culture.json,sections/3/blocks/7/rows/5/0,**Neurobasal**,**நியூரோபேசல்**,draft,
+animal_cell_culture.json,sections/3/blocks/7/rows/5/1,Neurobasal Medium,நியூரோபேசல் ஊடகம்,draft,
+animal_cell_culture.json,sections/3/blocks/7/rows/5/2,Primary neurons,முதல்நிலை நியூரான்கள்,draft,
+animal_cell_culture.json,sections/3/blocks/7/rows/5/3,Serum-free with B27 supplement,B27 சேர்க்கையுடன் சீரம் இல்லாதது,draft,
+animal_cell_culture.json,sections/3/blocks/8/text,"**🌿 Natural Media**
+• **Blood Plasma:** Used in early plasma clot cultures as substratum
+• **Serum (FBS):** Contains GFs, hormones, attachment proteins
+• **Lymph:** Historical use for special cell types
+• **Amniotic Fluid:** Prenatal cell culture
+• **Chick Embryo Extract:** Mitogenic; early virology use","**🌿 இயற்கை ஊடகங்கள்**
+• **இரத்த பிளாஸ்மா:** ஆரம்பகால பிளாஸ்மா கட்டி வளர்ப்புகளில் அடித்தளமாகப் பயன்பட்டது
+• **சீரம் (FBS):** வளர்ச்சிக் காரணிகள், ஹார்மோன்கள், ஒட்டுதல் புரதங்கள் உடையது
+• **நிணநீர்:** சிறப்புச் செல் வகைகளுக்கு வரலாற்றுப் பயன்பாடு
+• **பனிக்குடநீர்:** பிறப்பிற்கு முந்தைய செல் வளர்ப்பு
+• **கோழிக்கரு சாறு:** செல்பிளவைத் தூண்டும்; ஆரம்பகால வைரஸ் ஆய்வில் பயன்பாடு",draft,
+animal_cell_culture.json,sections/3/blocks/9/text,"**🔬 Serum-Free Media (SFM)**
+• Eliminates batch-to-batch variability of serum
+• Supplemented with defined growth factors
+• Preferred for biopharmaceutical production
+• Reduces risk of mycoplasma contamination
+• Examples: Knockout DMEM, StemPro, X-VIVO","**🔬 சீரம் இல்லா ஊடகங்கள் (SFM)**
+• சீரத்தின் தொகுதிக்குத் தொகுதி மாறுபாட்டை நீக்கும்
+• வரையறுக்கப்பட்ட வளர்ச்சிக் காரணிகள் சேர்க்கப்படும்
+• உயிர்மருந்து உற்பத்திக்கு விரும்பப்படும்
+• மைக்கோபிளாஸ்மா மாசுபாட்டு ஆபத்தைக் குறைக்கும்
+• எடுத்துக்காட்டுகள்: Knockout DMEM, StemPro, X-VIVO",draft,
+animal_cell_culture.json,sections/3/blocks/10/text,Module 3,பகுதி 3,draft,
+animal_cell_culture.json,sections/4/title,Primary Culture,முதல்நிலை வளர்ப்பு,draft,
+animal_cell_culture.json,sections/4/blocks/0/text,A **primary culture** is established directly from excised tissue or organs. Cells are dissociated and cultured in vitro for the first time. Primary cultures are finite — they can only be maintained for a limited number of passages before senescence occurs (Hayflick limit).,**முதல்நிலை வளர்ப்பு** என்பது வெட்டி எடுத்த திசு அல்லது உறுப்பிலிருந்து நேரடியாக உருவாக்கப்படுவது. செல்கள் பிரிக்கப்பட்டு முதன்முறையாக இன் விட்ரோவில் வளர்க்கப்படுகின்றன. முதல்நிலை வளர்ப்புகள் வரையறைக்குட்பட்டவை — முதுமையடையும் (ஹேஃப்ளிக் வரம்பு) முன் குறிப்பிட்ட எண்ணிக்கையிலான பாசேஜ்கள் மட்டுமே பேண முடியும்.,draft,
+animal_cell_culture.json,sections/4/blocks/1/text,**🔄 Primary Culture — Step-by-Step Process Flow**,**🔄 முதல்நிலை வளர்ப்பு — படிப்படியான செயல்முறை ஓட்டம்**,draft,
+animal_cell_culture.json,sections/4/blocks/2/items/0,Animal Tissue CollectionSterile biopsy / organ harvest,விலங்குத் திசு சேகரிப்புநுண்ணுயிர் நீக்கிய திசுத்துண்டு / உறுப்பு எடுத்தல்,draft,
+animal_cell_culture.json,sections/4/blocks/3/items/0,"Wash with PBS / Balanced Salt SolutionRemove blood, debris, bacteria","PBS / சமநிலை உப்புக் கரைசலில் கழுவுதல்இரத்தம், துகள்கள், பாக்டீரியாக்களை நீக்குதல்",draft,
+animal_cell_culture.json,sections/4/blocks/4/items/0,"Mechanical DissociationMincing, sieving, scraping OR Enzymatic DissociationTrypsin / Collagenase / Dispase","இயந்திரவழிப் பிரித்தல்நறுக்குதல், சலித்தல், சுரண்டுதல் அல்லது நொதிவழிப் பிரித்தல்டிரிப்சின் / கொலாஜனேஸ் / டிஸ்பேஸ்",draft,
+animal_cell_culture.json,sections/4/blocks/5/items/0,Single Cell SuspensionFilter through 70–100 µm cell strainer,ஒற்றைச் செல் தொங்கல்70–100 µm செல் வடிகட்டி வழியாக வடிகட்டுதல்,draft,
+animal_cell_culture.json,sections/4/blocks/6/items/0,"Centrifuge 200 × g, 5 min → Discard Supernatant",200 × g-இல் 5 நிமிடம் மையவிலக்கு → மேல்மிதப்பை நீக்குதல்,draft,
+animal_cell_culture.json,sections/4/blocks/7/items/0,Resuspend in Complete Culture MediumDMEM + 10% FBS + Pen-Strep,முழு வளர்ப்பு ஊடகத்தில் மீளத்தொங்கவிடுதல்DMEM + 10% FBS + பென்-ஸ்ட்ரெப்,draft,
+animal_cell_culture.json,sections/4/blocks/8/items/0,Hemocytometer Count + Trypan Blue Viability ≥ 90%,ஹீமோசைட்டோமீட்டர் எண்ணிக்கை + டிரிப்பான் நீல உயிர்ப்புத்திறன் ≥ 90%,draft,
+animal_cell_culture.json,sections/4/blocks/9/items/0,Seed in Culture Flask — T25 / T75 / 6-well plate,வளர்ப்புக் குடுவையில் விதைத்தல் — T25 / T75 / 6-கிணறு தட்டு,draft,
+animal_cell_culture.json,sections/4/blocks/10/items/0,Incubate: 37°C · 5% CO₂ · 95% HumidityCheck 24–48 hrs for attachment & morphology,"அடைகாத்தல்: 37°C · 5% CO₂ · 95% ஈரப்பதம்ஒட்டுதல், உருவ அமைப்பை 24–48 மணியில் சரிபார்க்க",draft,
+animal_cell_culture.json,sections/4/blocks/11/items/0,"Adherent CultureFibroblasts, epithelial cells Suspension CultureLymphocytes, hematopoietic cells","ஒட்டுவகை வளர்ப்புஃபைப்ரோபிளாஸ்ட், மேலணிச் செல்கள் மிதவை வளர்ப்புநிணநீர்ச் செல்கள், குருதியாக்கச் செல்கள்",draft,
+animal_cell_culture.json,sections/4/blocks/12/text,1,1,draft,
+animal_cell_culture.json,sections/4/blocks/13/text,**Tissue Preparation**,**திசு தயாரிப்பு**,draft,
+animal_cell_culture.json,sections/4/blocks/14/text,"Tissue collected aseptically, placed in cold PBS/HBSS, and minced into 1–2 mm³ fragments. Blood and connective tissue removed by repeated washing.",நுண்ணுயிர் நீக்க முறையில் சேகரித்த திசு குளிர் PBS/HBSS-இல் வைக்கப்பட்டு 1–2 mm³ துண்டுகளாக நறுக்கப்படும். இரத்தமும் இணைப்புத் திசுவும் மீண்டும் மீண்டும் கழுவி நீக்கப்படும்.,draft,
+animal_cell_culture.json,sections/4/blocks/15/text,2,2,draft,
+animal_cell_culture.json,sections/4/blocks/16/text,**Enzymatic Dissociation**,**நொதிவழிப் பிரித்தல்**,draft,
+animal_cell_culture.json,sections/4/blocks/17/text,Trypsin (0.05–0.25%) cleaves surface proteins disrupting cell–cell contacts. Collagenase (Type I–IV) digests ECM collagen. Incubate at 37°C for 15–60 min with gentle agitation.,டிரிப்சின் (0.05–0.25%) மேற்பரப்புப் புரதங்களைப் பிளந்து செல்–செல் தொடர்புகளைத் தளர்த்தும். கொலாஜனேஸ் (வகை I–IV) புறச்செல் அணியிலுள்ள கொலாஜனைச் செரிக்கும். மெதுவாகக் குலுக்கியபடி 37°C-இல் 15–60 நிமிடம் அடைகாக்க.,draft,
+animal_cell_culture.json,sections/4/blocks/18/text,3,3,draft,
+animal_cell_culture.json,sections/4/blocks/19/text,**Neutralization & Centrifugation**,**நடுநிலையாக்கமும் மையவிலக்கும்**,draft,
+animal_cell_culture.json,sections/4/blocks/20/text,"FBS neutralizes trypsin activity. Centrifuge at 200×g for 5 min. Discard supernatant, resuspend pellet in complete medium.","FBS டிரிப்சின் செயலை நடுநிலையாக்கும். 200×g-இல் 5 நிமிடம் மையவிலக்கு செய்க. மேல்மிதப்பை நீக்கி, அடிவண்டலை முழு ஊடகத்தில் மீளத்தொங்கவிடுக.",draft,
+animal_cell_culture.json,sections/4/blocks/21/text,4,4,draft,
+animal_cell_culture.json,sections/4/blocks/22/text,**Cell Counting & Viability**,**செல் எண்ணிக்கையும் உயிர்ப்புத்திறனும்**,draft,
+animal_cell_culture.json,sections/4/blocks/23/text,"Count using hemocytometer. Trypan blue exclusion: live cells remain clear, dead cells stain blue. Viability should be ≥90% for optimal culture establishment.",ஹீமோசைட்டோமீட்டரால் எண்ணுக. டிரிப்பான் நீல விலக்கல்: உயிருள்ள செல்கள் நிறமற்றவை; இறந்த செல்கள் நீலமாகக் கறைபடும். சிறந்த வளர்ப்புக்கு உயிர்ப்புத்திறன் ≥90% இருக்க வேண்டும்.,draft,
+animal_cell_culture.json,sections/4/blocks/24/text,5,5,draft,
+animal_cell_culture.json,sections/4/blocks/25/text,**Plating & Monitoring**,**விதைத்தலும் கண்காணிப்பும்**,draft,
+animal_cell_culture.json,sections/4/blocks/26/text,"Seed at 10⁴–10⁵ cells/cm². Incubate in CO₂ incubator. Monitor daily by inverted microscopy for morphology, attachment, and confluence.","10⁴–10⁵ செல்கள்/cm²-இல் விதைக்க. CO₂ அடைகாப்பியில் வைக்க. உருவ அமைப்பு, ஒட்டுதல், நிறைவளர்ச்சியை (கன்ஃப்ளூயன்ஸ்) தலைகீழ் நுண்ணோக்கியால் நாள்தோறும் கண்காணிக்க.",draft,
+animal_cell_culture.json,sections/4/blocks/27/text,"**⚠️ Explant vs. Monolayer Culture**
+**Explant culture:** Small tissue fragments placed directly on surface; cells migrate outward. Preserves tissue architecture briefly.
+
+**Monolayer culture:** Dissociated single cells attach and grow flat. More reproducible and amenable to quantitative analysis.","**⚠️ எக்ஸ்பிளான்ட் – ஒற்றை அடுக்கு வளர்ப்பு**
+**எக்ஸ்பிளான்ட் வளர்ப்பு:** சிறு திசுத்துண்டுகள் மேற்பரப்பில் நேரடியாக வைக்கப்படும்; செல்கள் வெளிநோக்கி நகரும். திசு அமைப்பைச் சிறிதுகாலம் பேணும்.
+
+**ஒற்றை அடுக்கு வளர்ப்பு:** பிரிக்கப்பட்ட தனிச் செல்கள் ஒட்டித் தட்டையாக வளரும். மீளுருவாகும் தன்மையும் அளவுசார் பகுப்பாய்வுக்கு ஏற்றதும் அதிகம்.",draft,
+animal_cell_culture.json,sections/4/blocks/28/text,"**📉 Limitations of Primary Culture**
+• Finite lifespan — Hayflick limit (~50 divisions)
+• Heterogeneous cell population
+• Batch variability between preparations
+• Requires fresh tissue each time
+• Cells undergo crisis and eventual senescence","**📉 முதல்நிலை வளர்ப்பின் வரம்புகள்**
+• வரையறுக்கப்பட்ட ஆயுள் — ஹேஃப்ளிக் வரம்பு (~50 பிரிவுகள்)
+• பலவகைச் செல் தொகை
+• தயாரிப்புகளுக்கிடையே தொகுதி மாறுபாடு
+• ஒவ்வொரு முறையும் புதிய திசு தேவை
+• செல்கள் நெருக்கடியையும் இறுதியில் முதுமையையும் அடையும்",draft,
+animal_cell_culture.json,sections/4/blocks/29/text,Module 4,பகுதி 4,draft,
+animal_cell_culture.json,sections/5/title,Cell Lines,செல் வரிசைகள்,draft,
+animal_cell_culture.json,sections/5/blocks/0/text,"When a primary culture is subcultured (passaged) for the first time, it becomes a **cell line**. Cell lines may be _finite_ (limited passages) or _continuous/immortalized_ (indefinitely proliferating). They are essential tools in biological research and industrial biomanufacturing.","முதல்நிலை வளர்ப்பு முதன்முறையாகத் துணை வளர்ப்பு (பாசேஜ்) செய்யப்படும்போது அது **செல் வரிசை** ஆகிறது. செல் வரிசைகள் _வரையறுக்கப்பட்டவை_ (குறைந்த பாசேஜ்கள்) அல்லது _தொடர்ச்சியான/சாகா நிலை அடைந்தவை_ (முடிவின்றிப் பெருகுபவை) ஆகலாம். இவை உயிரியல் ஆய்வு, தொழில்துறை உயிர்த்தயாரிப்பின் இன்றியமையாக் கருவிகள்.",draft,
+animal_cell_culture.json,sections/5/blocks/1/text,**🔁 Subculturing (Passaging) — Process Flow**,**🔁 துணை வளர்ப்பு (பாசேஜிங்) — செயல்முறை ஓட்டம்**,draft,
+animal_cell_culture.json,sections/5/blocks/2/items/0,Confluent Monolayer Culture (~80–90% confluency),நிறைவளர்ச்சி அடைந்த ஒற்றை அடுக்கு வளர்ப்பு (~80–90% கன்ஃப்ளூயன்சி),draft,
+animal_cell_culture.json,sections/5/blocks/3/items/0,Remove Medium → Wash with PBS (removes serum),ஊடகத்தை நீக்குக → PBS-ஆல் கழுவுக (சீரத்தை நீக்கும்),draft,
+animal_cell_culture.json,sections/5/blocks/4/items/0,Add Trypsin-EDTA (0.05%) · Incubate 3–5 min at 37°C,டிரிப்சின்-EDTA (0.05%) சேர்த்து 37°C-இல் 3–5 நிமிடம் அடைகாக்க,draft,
+animal_cell_culture.json,sections/5/blocks/5/items/0,Neutralize with Complete Medium (3× volume with FBS),முழு ஊடகத்தால் நடுநிலையாக்குக (FBS-உடன் 3 மடங்கு கொள்ளளவு),bracketed,
+animal_cell_culture.json,sections/5/blocks/6/items/0,Centrifuge · Count · Resuspend · Trypan Blue Viability Check,மையவிலக்கு · எண்ணுதல் · மீளத்தொங்கவிடுதல் · டிரிப்பான் நீல உயிர்ப்புத்திறன் சோதனை,draft,
+animal_cell_culture.json,sections/5/blocks/7/items/0,Seed into New Flask at 1:3 – 1:10 Split Ratio,1:3 – 1:10 பிரிப்பு விகிதத்தில் புதிய குடுவையில் விதைக்க,draft,
+animal_cell_culture.json,sections/5/blocks/8/items/0,Continue PassagingFinite: ~20–50 passages ImmortalizationSpontaneous / viral / oncogene Cell BankingCryopreservation at −196°C,பாசேஜிங்கைத் தொடர்கவரையறுக்கப்பட்டது: ~20–50 பாசேஜ்கள் இம்மார்டலைசேஷன்தன்னிச்சை / வைரஸ் / புற்றுமரபணு செல் வங்கிப்படுத்தல்−196°C-இல் கிரையோபிரிசர்வேஷன்,draft,
+animal_cell_culture.json,sections/5/blocks/9/text,**📈 Primary Culture → Cell Line → Continuous Line**,**📈 முதல்நிலை வளர்ப்பு → செல் வரிசை → தொடர் வரிசை**,draft,
+animal_cell_culture.json,sections/5/blocks/10/caption,,,draft,
+animal_cell_culture.json,sections/5/blocks/11/text,**🌟 Important Established Cell Lines**,**🌟 முக்கியமான நிறுவப்பட்ட செல் வரிசைகள்**,draft,
+animal_cell_culture.json,sections/5/blocks/12/header/0,Cell Line,செல் வரிசை,draft,
+animal_cell_culture.json,sections/5/blocks/12/header/1,Origin,மூலம்,draft,
+animal_cell_culture.json,sections/5/blocks/12/header/2,Type,வகை,draft,
+animal_cell_culture.json,sections/5/blocks/12/header/3,Major Use,முக்கியப் பயன்,draft,
+animal_cell_culture.json,sections/5/blocks/12/rows/0/0,**HeLa**,**HeLa**,draft,
+animal_cell_culture.json,sections/5/blocks/12/rows/0/1,"Human cervical carcinoma (Henrietta Lacks, 1951)","மனிதக் கருப்பைவாய்ப் புற்று (ஹென்றியேட்டா லாக்ஸ், 1951)",draft,
+animal_cell_culture.json,sections/5/blocks/12/rows/0/2,Continuous,தொடர்ச்சியானது,draft,
+animal_cell_culture.json,sections/5/blocks/12/rows/0/3,"Virology, cancer, vaccine research","வைரஸ் ஆய்வு, புற்றுநோய், தடுப்பூசி ஆய்வு",draft,
+animal_cell_culture.json,sections/5/blocks/12/rows/1/0,**CHO**,**CHO**,draft,
+animal_cell_culture.json,sections/5/blocks/12/rows/1/1,Chinese hamster ovary,சீன வெள்ளெலி சூலகம்,draft,
+animal_cell_culture.json,sections/5/blocks/12/rows/1/2,Continuous,தொடர்ச்சியானது,draft,
+animal_cell_culture.json,sections/5/blocks/12/rows/1/3,Recombinant protein / antibody production,மறுகூட்டிணைவுப் புரதம் / எதிர்ப்பொருள் உற்பத்தி,draft,
+animal_cell_culture.json,sections/5/blocks/12/rows/2/0,**Vero**,**Vero**,draft,
+animal_cell_culture.json,sections/5/blocks/12/rows/2/1,African green monkey kidney,ஆப்பிரிக்கப் பச்சைக் குரங்குச் சிறுநீரகம்,draft,
+animal_cell_culture.json,sections/5/blocks/12/rows/2/2,Continuous,தொடர்ச்சியானது,draft,
+animal_cell_culture.json,sections/5/blocks/12/rows/2/3,"Virus propagation, vaccine production","வைரஸ் பெருக்கம், தடுப்பூசி உற்பத்தி",draft,
+animal_cell_culture.json,sections/5/blocks/12/rows/3/0,**NIH 3T3**,**NIH 3T3**,draft,
+animal_cell_culture.json,sections/5/blocks/12/rows/3/1,Mouse embryonic fibroblast,எலிக் கரு ஃபைப்ரோபிளாஸ்ட்,draft,
+animal_cell_culture.json,sections/5/blocks/12/rows/3/2,Continuous,தொடர்ச்சியானது,draft,
+animal_cell_culture.json,sections/5/blocks/12/rows/3/3,"Transfection, adipocyte differentiation","டிரான்ஸ்ஃபெக்ஷன், கொழுப்புச் செல் வேறுபாடடைதல்",draft,
+animal_cell_culture.json,sections/5/blocks/12/rows/4/0,**MCF-7**,**MCF-7**,draft,
+animal_cell_culture.json,sections/5/blocks/12/rows/4/1,Human breast carcinoma,மனித மார்பகப் புற்று,draft,
+animal_cell_culture.json,sections/5/blocks/12/rows/4/2,Continuous,தொடர்ச்சியானது,draft,
+animal_cell_culture.json,sections/5/blocks/12/rows/4/3,Breast cancer research,மார்பகப் புற்றுநோய் ஆய்வு,draft,
+animal_cell_culture.json,sections/5/blocks/12/rows/5/0,**Jurkat**,**Jurkat**,draft,
+animal_cell_culture.json,sections/5/blocks/12/rows/5/1,Human T lymphocyte leukemia,மனித T நிணநீர்ச் செல் இரத்தப் புற்று,draft,
+animal_cell_culture.json,sections/5/blocks/12/rows/5/2,Continuous,தொடர்ச்சியானது,draft,
+animal_cell_culture.json,sections/5/blocks/12/rows/5/3,"Immunology, apoptosis research","நோயெதிர்ப்பியல், அப்போப்டோசிஸ் ஆய்வு",draft,
+animal_cell_culture.json,sections/5/blocks/12/rows/6/0,**PC12**,**PC12**,draft,
+animal_cell_culture.json,sections/5/blocks/12/rows/6/1,Rat adrenal pheochromocytoma,எலி அட்ரீனல் பியோகுரோமோசைட்டோமா,draft,
+animal_cell_culture.json,sections/5/blocks/12/rows/6/2,Continuous,தொடர்ச்சியானது,draft,
+animal_cell_culture.json,sections/5/blocks/12/rows/6/3,"Neuroscience, NGF differentiation studies","நரம்பியல், NGF வேறுபாடடைதல் ஆய்வுகள்",draft,
+animal_cell_culture.json,sections/5/blocks/13/text,**❄️ Cryopreservation — Cell Banking Flow**,**❄️ கிரையோபிரிசர்வேஷன் — செல் வங்கி ஓட்டம்**,draft,
+animal_cell_culture.json,sections/5/blocks/14/items/0,Harvest cells at 80% confluency → Freeze medium: 90% FBS + 10% DMSO → Controlled-rate freezing: −1°C/min → Store in liquid N₂ at −196°C,80% கன்ஃப்ளூயன்சியில் செல்களை அறுவடை செய்க → உறைவு ஊடகம்: 90% FBS + 10% DMSO → கட்டுப்படுத்தப்பட்ட வீத உறைவு: −1°C/நிமி → −196°C திரவ N₂-இல் சேமிக்க,draft,
+animal_cell_culture.json,sections/5/blocks/15/items/0,Thaw rapidly at 37°C water bath → Dilute DMSO → Seed → Culture ✓,37°C நீர்க்குளியலில் விரைவாக உருக்குக → DMSO-வைக் கரைத்துக் குறைக்க → விதைக்க → வளர்க்க ✓,draft,
+animal_cell_culture.json,sections/5/blocks/16/text,Module 5,பகுதி 5,draft,
+animal_cell_culture.json,sections/6/title,"Stem Cells: Types, Culture & Applications","தண்டு செல்கள்: வகைகள், வளர்ப்பு, பயன்பாடுகள்",draft,
+animal_cell_culture.json,sections/6/blocks/0/text,"Stem cells are undifferentiated cells capable of **self-renewal** and **differentiation** into specialized cell types. They hold immense therapeutic potential in regenerative medicine, disease modeling, and drug discovery.","தண்டு செல்கள் **தன்புதுப்பித்தல்**, சிறப்புச் செல் வகைகளாக **வேறுபாடடைதல்** ஆகிய திறன்களுடைய வேறுபாடடையா செல்கள். மீளுருவாக்க மருத்துவம், நோய் மாதிரியாக்கம், மருந்து கண்டுபிடிப்பு ஆகியவற்றில் இவை பெரும் சிகிச்சை ஆற்றல் கொண்டவை.",draft,
+animal_cell_culture.json,sections/6/blocks/1/text,**🔺 Stem Cell Potency Hierarchy**,**🔺 தண்டு செல் ஆற்றல் படிநிலை**,draft,
+animal_cell_culture.json,sections/6/blocks/2/caption,,,draft,
+animal_cell_culture.json,sections/6/blocks/3/text,**Embryonic Stem Cells (ESCs)**,**கரு தண்டு செல்கள் (ESCs)**,bracketed,
+animal_cell_culture.json,sections/6/blocks/4/text,Derived from the **inner cell mass** of blastocyst (3–5 days). Pluripotent — form all 3 germ layers. Cultured on feeder layers (MEFs) or Matrigel with LIF/bFGF.,பிளாஸ்டோசிஸ்டின் **உள்செல் திரள்** (3–5 நாள்) இலிருந்து பெறப்படுபவை. புளூரிபொட்டென்ட் — மூன்று கரு அடுக்குகளையும் உருவாக்கும். ஃபீடர் அடுக்குகளில் (MEFs) அல்லது LIF/bFGF-உடன் மேட்ரிஜெல்லில் வளர்க்கப்படும்.,draft,
+animal_cell_culture.json,sections/6/blocks/5/text,**Induced Pluripotent Stem Cells (iPSCs)**,**தூண்டப்பட்ட புளூரிபொட்டென்ட் தண்டு செல்கள் (iPSCs)**,bracketed,
+animal_cell_culture.json,sections/6/blocks/6/text,"Adult somatic cells reprogrammed using Yamanaka factors: **Oct4, Sox2, Klf4, c-Myc** (2006 Nobel). Avoids ESC ethical issues. Enables autologous therapy.","முதிர்ந்த உடல் செல்கள் யமனகா காரணிகளான **Oct4, Sox2, Klf4, c-Myc** மூலம் மறுநிரலாக்கப்படுகின்றன (2006 நோபல்). ESC நெறிமுறைச் சிக்கல்களைத் தவிர்க்கும். தன்செல் சிகிச்சையைச் சாத்தியமாக்கும்.",draft,
+animal_cell_culture.json,sections/6/blocks/7/text,**Hematopoietic Stem Cells (HSCs)**,**குருதியாக்க தண்டு செல்கள் (HSCs)**,bracketed,
+animal_cell_culture.json,sections/6/blocks/8/text,Found in **bone marrow** (Lin⁻ Sca1⁺ c-Kit⁺). Give rise to all blood cell lineages. Used clinically in bone marrow transplantation. CD34⁺ in humans.,**எலும்பு மஜ்ஜையில்** (Lin⁻ Sca1⁺ c-Kit⁺) காணப்படுபவை. எல்லா இரத்தச் செல் வழிமரபுகளையும் உருவாக்கும். எலும்பு மஜ்ஜை மாற்றுச்சிகிச்சையில் மருத்துவப் பயன்பாடு. மனிதரில் CD34⁺.,draft,
+animal_cell_culture.json,sections/6/blocks/9/text,**Mesenchymal Stem Cells (MSCs)**,**மீசன்கைமல் தண்டு செல்கள் (MSCs)**,bracketed,
+animal_cell_culture.json,sections/6/blocks/10/text,"Stromal cells from **bone marrow, adipose, umbilical cord**. Differentiate into osteoblasts, chondrocytes, adipocytes. CD105⁺ CD73⁺ CD90⁺ surface markers.","**எலும்பு மஜ்ஜை, கொழுப்புத் திசு, தொப்புள்கொடி** ஆகியவற்றிலிருந்து பெறப்படும் ஸ்ட்ரோமல் செல்கள். ஆஸ்டியோபிளாஸ்ட், காண்ட்ரோசைட், அடிபோசைட்டுகளாக வேறுபாடடையும். CD105⁺ CD73⁺ CD90⁺ மேற்பரப்புக் குறிப்பான்கள்.",draft,
+animal_cell_culture.json,sections/6/blocks/11/text,**Neural Stem Cells (NSCs)**,**நரம்புத் தண்டு செல்கள் (NSCs)**,bracketed,
+animal_cell_culture.json,sections/6/blocks/12/text,"Reside in **subventricular zone** and hippocampus. Form neurospheres in vitro. Differentiate into neurons, astrocytes, and oligodendrocytes.","**சப்வென்ட்ரிகுலர் மண்டலம்**, ஹிப்போகேம்பஸ் ஆகியவற்றில் உள்ளன. இன் விட்ரோவில் நியூரோஸ்பியர்களை உருவாக்கும். நியூரான், அஸ்ட்ரோசைட், ஒலிகோடென்ட்ரோசைட்டுகளாக வேறுபாடடையும்.",draft,
+animal_cell_culture.json,sections/6/blocks/13/text,**Cardiac Stem Cells**,**இதயத் தண்டு செல்கள்**,draft,
+animal_cell_culture.json,sections/6/blocks/14/text,Found in cardiac niches (c-Kit⁺ or Sca1⁺). Can regenerate cardiomyocytes post-myocardial infarction. Key target of cardiac regenerative therapy.,இதய நிச்களில் (c-Kit⁺ அல்லது Sca1⁺) காணப்படும். மாரடைப்புக்குப் பின் இதயத்தசைச் செல்களை மீளுருவாக்கும். இதய மீளுருவாக்கச் சிகிச்சையின் முக்கிய இலக்கு.,draft,
+animal_cell_culture.json,sections/6/blocks/15/text,**🧫 ESC / iPSC Culture Protocol Flow**,**🧫 ESC / iPSC வளர்ப்பு நெறிமுறை ஓட்டம்**,draft,
+animal_cell_culture.json,sections/6/blocks/16/items/0,"Source: Blastocyst ICM ▼ Isolate ICMImmunosurgery / laser dissection OR Source: Adult Somatic Cells ▼ Reprogram w/ Oct4, Sox2, Klf4, c-MycRetroviral / Sendai / mRNA delivery","மூலம்: பிளாஸ்டோசிஸ்ட் ICM ▼ ICM-ஐப் பிரித்தெடுத்தல்நோயெதிர்ப்பு அறுவை / லேசர் துண்டித்தல் அல்லது மூலம்: முதிர்ந்த உடல் செல்கள் ▼ Oct4, Sox2, Klf4, c-Myc-ஆல் மறுநிரலாக்குதல்ரெட்ரோவைரஸ் / Sendai / mRNA செலுத்தல்",draft,
+animal_cell_culture.json,sections/6/blocks/17/items/0,Plate on Feeder Layer (MEF) or MatrigelmTeSR1 / Essential 8 medium,ஃபீடர் அடுக்கில் (MEF) அல்லது மேட்ரிஜெல்லில் வளர்த்தல்mTeSR1 / Essential 8 ஊடகம்,draft,
+animal_cell_culture.json,sections/6/blocks/18/items/0,Self-renewal maintenance: LIF (mouse) / bFGF (human)Daily medium change; passage every 3–7 days,தன்புதுப்பித்தலைப் பேணுதல்: LIF (எலி) / bFGF (மனிதன்)தினமும் ஊடகம் மாற்றுதல்; 3–7 நாளுக்கொருமுறை பாசேஜ்,draft,
+animal_cell_culture.json,sections/6/blocks/19/items/0,"Maintain PluripotencyCharacterize: Oct4, Nanog, SSEA4 Directed DifferentiationEBs, growth factors, small molecules","புளூரிபொட்டென்சியைப் பேணுதல்பண்பறிதல்: Oct4, Nanog, SSEA4 வழிநடத்தப்பட்ட வேறுபாடடைதல்EBs, வளர்ச்சிக் காரணிகள், சிறு மூலக்கூறுகள்",draft,
+animal_cell_culture.json,sections/6/blocks/20/text,**💊 Clinical & Research Applications of Stem Cells**,"**💊 தண்டு செல்களின் மருத்துவ, ஆய்வுப் பயன்பாடுகள்**",draft,
+animal_cell_culture.json,sections/6/blocks/21/header/0,Application,பயன்பாடு,draft,
+animal_cell_culture.json,sections/6/blocks/21/header/1,Stem Cell Type,தண்டு செல் வகை,draft,
+animal_cell_culture.json,sections/6/blocks/21/header/2,Status,நிலை,draft,
+animal_cell_culture.json,sections/6/blocks/21/rows/0/0,**Bone Marrow Transplant**,**எலும்பு மஜ்ஜை மாற்றுச்சிகிச்சை**,draft,
+animal_cell_culture.json,sections/6/blocks/21/rows/0/1,HSCs,HSCs,draft,
+animal_cell_culture.json,sections/6/blocks/21/rows/0/2,"Clinical — leukemia, lymphoma","மருத்துவப் பயன்பாடு — இரத்தப் புற்று, நிணநீர்க் கழலை",draft,
+animal_cell_culture.json,sections/6/blocks/21/rows/1/0,**Parkinson's Disease**,**பார்க்கின்சன் நோய்**,draft,
+animal_cell_culture.json,sections/6/blocks/21/rows/1/1,iPSC-derived dopaminergic neurons,iPSC-யிலிருந்து பெறப்பட்ட டோபமின் நியூரான்கள்,draft,
+animal_cell_culture.json,sections/6/blocks/21/rows/1/2,Phase I/II trials,கட்டம் I/II சோதனைகள்,draft,
+animal_cell_culture.json,sections/6/blocks/21/rows/2/0,**Macular Degeneration**,**விழிப்புள்ளிச் சிதைவு**,draft,
+animal_cell_culture.json,sections/6/blocks/21/rows/2/1,iPSC-derived RPE cells,iPSC-யிலிருந்து பெறப்பட்ட RPE செல்கள்,draft,
+animal_cell_culture.json,sections/6/blocks/21/rows/2/2,Phase I/II trials,கட்டம் I/II சோதனைகள்,draft,
+animal_cell_culture.json,sections/6/blocks/21/rows/3/0,**Cartilage Repair**,**குருத்தெலும்புச் சீரமைப்பு**,draft,
+animal_cell_culture.json,sections/6/blocks/21/rows/3/1,MSCs,MSCs,draft,
+animal_cell_culture.json,sections/6/blocks/21/rows/3/2,Clinical — orthopedic use,மருத்துவப் பயன்பாடு — எலும்பியல்,draft,
+animal_cell_culture.json,sections/6/blocks/21/rows/4/0,**Skin Grafts**,**தோல் ஒட்டுகள்**,draft,
+animal_cell_culture.json,sections/6/blocks/21/rows/4/1,Epidermal stem cells,மேற்றோல் தண்டு செல்கள்,draft,
+animal_cell_culture.json,sections/6/blocks/21/rows/4/2,Clinical — burn patients,மருத்துவப் பயன்பாடு — தீக்காய நோயாளிகள்,draft,
+animal_cell_culture.json,sections/6/blocks/21/rows/5/0,**Disease Modeling**,**நோய் மாதிரியாக்கம்**,draft,
+animal_cell_culture.json,sections/6/blocks/21/rows/5/1,iPSCs (patient-derived),iPSCs (நோயாளியிடமிருந்து பெறப்பட்டவை),draft,
+animal_cell_culture.json,sections/6/blocks/21/rows/5/2,"ALS, Alzheimer's, diabetes models","ALS, அல்சைமர், நீரிழிவு மாதிரிகள்",draft,
+animal_cell_culture.json,sections/6/blocks/21/rows/6/0,**Drug Screening**,**மருந்துச் சலிக்கை**,draft,
+animal_cell_culture.json,sections/6/blocks/21/rows/6/1,Organoids from iPSCs,iPSC-யிலிருந்து பெறப்பட்ட ஆர்கனாய்டுகள்,draft,
+animal_cell_culture.json,sections/6/blocks/21/rows/6/2,"Liver, cardiac, intestinal organoids","கல்லீரல், இதயம், குடல் ஆர்கனாய்டுகள்",draft,
+animal_cell_culture.json,sections/6/blocks/22/text,Module 6,பகுதி 6,draft,
+animal_cell_culture.json,sections/7/title,Organ Culture,உறுப்பு வளர்ப்பு,draft,
+animal_cell_culture.json,sections/7/blocks/0/text,"Organ culture maintains the **three-dimensional architecture** and tissue organization of whole organs or organ fragments in vitro. Unlike cell culture, it preserves cell–cell and cell–matrix interactions, providing a more physiologically relevant experimental model.","உறுப்பு வளர்ப்பு முழு உறுப்புகள் அல்லது உறுப்புத் துண்டுகளின் **முப்பரிமாண அமைப்பையும்** திசு ஒழுங்கமைப்பையும் இன் விட்ரோவில் பேணுகிறது. செல் வளர்ப்பைப் போலன்றி, செல்–செல், செல்–அணி இடைவினைகளைப் பாதுகாத்து, உடலியலோடு மிகவும் பொருந்திய ஆய்வு மாதிரியை அளிக்கிறது.",draft,
+animal_cell_culture.json,sections/7/blocks/1/text,**📊 Methods of Organ Culture — Flow Classification**,**📊 உறுப்பு வளர்ப்பு முறைகள் — ஓட்ட வகைப்பாடு**,draft,
+animal_cell_culture.json,sections/7/blocks/2/items/0,Organ Culture,உறுப்பு வளர்ப்பு,draft,
+animal_cell_culture.json,sections/7/blocks/3/items/0,"Watch Glass Method Organ on plasma clot in watch glass. Early method by Fell & Robison (1929) Grid / Raft Method Organ on stainless steel grid at liquid–air interface; widely used for skin, limb buds Perfusion Culture Oxygenated medium perfused through intact organ vasculature continuously Roller Tube Method Slowly rotating tube ensures even medium distribution around organ slices","கடிகாரக் கண்ணாடி முறை பிளாஸ்மா கட்டியின் மீது கடிகாரக் கண்ணாடியில் உறுப்பு. ஃபெல் & ராபிசன் (1929) ஆரம்ப முறை கிரிட் / ராஃப்ட் முறை திரவ–காற்று இடைமுகத்தில் துருப்பிடிக்காத எஃகு வலைமீது உறுப்பு; தோல், உறுப்பு அரும்புகளுக்குப் பரவலான பயன்பாடு பாய்ச்சல் வளர்ப்பு ஆக்சிஜனேற்றிய ஊடகம் முழு உறுப்பின் இரத்தக்குழாய்களின் வழியே தொடர்ந்து பாய்ச்சப்படும் உருளைக் குழாய் முறை மெதுவாகச் சுழலும் குழாய் உறுப்புத் துண்டுகளைச் சுற்றி ஊடகத்தை ஒரே சீராகப் பரப்பும்",draft,
+animal_cell_culture.json,sections/7/blocks/4/text,**🔬 Grid Method — Organ Culture Setup Diagram**,**🔬 கிரிட் முறை — உறுப்பு வளர்ப்பு அமைப்பு வரைபடம்**,draft,
+animal_cell_culture.json,sections/7/blocks/5/caption,,,draft,
+animal_cell_culture.json,sections/7/blocks/6/text,"**✅ Advantages of Organ Culture**
+• Preserves 3D tissue architecture & histology
+• Maintains cell–cell & cell–ECM interactions
+• Closer to in vivo physiology than cell culture
+• Suitable for short-term drug testing
+• Ideal for developmental biology studies","**✅ உறுப்பு வளர்ப்பின் நன்மைகள்**
+• முப்பரிமாணத் திசு அமைப்பையும் திசுவியலையும் பேணும்
+• செல்–செல், செல்–புறச்செல் அணி இடைவினைகளைப் பேணும்
+• செல் வளர்ப்பைவிட உடலக உடலியலுக்கு நெருக்கமானது
+• குறுகிய காலப் மருந்துச் சோதனைகளுக்கு ஏற்றது
+• வளர்ச்சி உயிரியல் ஆய்வுகளுக்கு உகந்தது",draft,
+animal_cell_culture.json,sections/7/blocks/7/text,"**🔬 Applications of Organ Culture**
+• Limb bud & developmental biology studies
+• Cornea, thyroid, pancreas organ cultures
+• Testing teratogenic compounds
+• Drug metabolism studies (liver slices)
+• Tumor microenvironment research","**🔬 உறுப்பு வளர்ப்பின் பயன்பாடுகள்**
+• உறுப்பு அரும்பு, வளர்ச்சி உயிரியல் ஆய்வுகள்
+• விழிவெண்படலம், தைராய்டு, கணைய உறுப்பு வளர்ப்புகள்
+• கருச்சிதைவு விளைவிக்கும் சேர்மங்களைச் சோதித்தல்
+• மருந்து வளர்சிதை மாற்ற ஆய்வுகள் (கல்லீரல் துண்டுகள்)
+• கட்டிச் சூழல் ஆய்வு",draft,
+animal_cell_culture.json,sections/7/blocks/8/text,Module 7,பகுதி 7,draft,
+animal_cell_culture.json,sections/8/title,Artificial Skin — Applied Organ Culture,செயற்கைத் தோல் — பயன்பாட்டு உறுப்பு வளர்ப்பு,draft,
+animal_cell_culture.json,sections/8/blocks/0/text,Artificial skin (tissue-engineered skin) is a **bioengineered construct** recreating the epidermal-dermal interface using keratinocytes and fibroblasts on a scaffold. It is a landmark application of organ culture technology for treating severe burns and chronic wounds.,"செயற்கைத் தோல் (திசுப் பொறியியல் தோல்) என்பது ஸ்கேஃபோல்டின்மீது கெரட்டினோசைட்டுகளையும் ஃபைப்ரோபிளாஸ்ட்களையும் கொண்டு மேற்றோல்–தோலிடை இடைமுகத்தை மீளுருவாக்கும் **உயிரிப்பொறியியல் கட்டமைப்பு**. கடுமையான தீக்காயங்கள், நாள்பட்ட புண்களுக்குச் சிகிச்சையளிக்கும் உறுப்பு வளர்ப்புத் தொழில்நுட்பத்தின் குறிப்பிடத்தக்க பயன்பாடு.",draft,
+animal_cell_culture.json,sections/8/blocks/1/text,**🩹 Natural Skin vs. Tissue-Engineered Skin — Structure Comparison**,**🩹 இயற்கைத் தோல் – திசுப் பொறியியல் தோல் — அமைப்பு ஒப்பீடு**,draft,
+animal_cell_culture.json,sections/8/blocks/2/caption,,,draft,
+animal_cell_culture.json,sections/8/blocks/3/text,**🔄 Production of Tissue-Engineered Skin**,**🔄 திசுப் பொறியியல் தோல் உற்பத்தி**,draft,
+animal_cell_culture.json,sections/8/blocks/4/items/0,Keratinocyte HarvestPatient biopsy → enzymatic dissociation ▼ Expand in DMEM + EGF + FBST-flask → multilayer culture Dermal Scaffold PreparationAcellular dermis / collagen gel ▼ Seed Fibroblasts → Collagen MatrixECM remodeling allowed,கெரட்டினோசைட் அறுவடைநோயாளியிடம் திசுத்துண்டு → நொதிவழிப் பிரித்தல் ▼ DMEM + EGF + FBS-இல் பெருக்குதல்T-குடுவை → பல அடுக்கு வளர்ப்பு தோலிடை ஸ்கேஃபோல்டு தயாரிப்புசெல் நீக்கிய தோலிடை / கொலாஜன் ஜெல் ▼ ஃபைப்ரோபிளாஸ்ட்களை விதைத்தல் → கொலாஜன் அணிECM மறுவடிவமைப்புக்கு அனுமதி,draft,
+animal_cell_culture.json,sections/8/blocks/5/items/0,Seed Keratinocytes onto Dermal EquivalentAir-liquid interface culture → promotes stratification,தோலிடைச் சமவடிவில் கெரட்டினோசைட்டுகளை விதைத்தல்காற்று–திரவ இடைமுக வளர்ப்பு → அடுக்கமைவைத் தூண்டும்,draft,
+animal_cell_culture.json,sections/8/blocks/6/items/0,Maturation: 14–21 daysCornification and barrier function development,"முதிர்ச்சி: 14–21 நாள்கள்கெரட்டினாதல், தடுப்புச் செயல் வளர்ச்சி",draft,
+animal_cell_culture.json,sections/8/blocks/7/items/0,Quality TestingHistology · Barrier · Viability Clinical ApplicationBurns · Ulcers · Reconstructive surgery,தரச் சோதனைதிசுவியல் · தடுப்பு · உயிர்ப்புத்திறன் மருத்துவப் பயன்பாடுதீக்காயம் · புண்கள் · மறுசீரமைப்பு அறுவை,draft,
+animal_cell_culture.json,sections/8/blocks/8/text,**🏥 Commercial Artificial Skin Products**,**🏥 வணிகரீதியான செயற்கைத் தோல் பொருள்கள்**,draft,
+animal_cell_culture.json,sections/8/blocks/9/header/0,Product,பொருள்,draft,
+animal_cell_culture.json,sections/8/blocks/9/header/1,Type,வகை,draft,
+animal_cell_culture.json,sections/8/blocks/9/header/2,Components,கூறுகள்,draft,
+animal_cell_culture.json,sections/8/blocks/9/header/3,Application,பயன்பாடு,draft,
+animal_cell_culture.json,sections/8/blocks/9/rows/0/0,**Apligraf®**,**Apligraf®**,draft,
+animal_cell_culture.json,sections/8/blocks/9/rows/0/1,Bilayered,இரு அடுக்கு,draft,
+animal_cell_culture.json,sections/8/blocks/9/rows/0/2,Allogeneic keratinocytes + dermal fibroblasts in collagen,கொலாஜனில் பிறர்செல் கெரட்டினோசைட்டுகள் + தோலிடை ஃபைப்ரோபிளாஸ்ட்கள்,draft,
+animal_cell_culture.json,sections/8/blocks/9/rows/0/3,"Venous leg ulcers, diabetic foot ulcers","சிரைக்கால் புண்கள், நீரிழிவுக் கால் புண்கள்",draft,
+animal_cell_culture.json,sections/8/blocks/9/rows/1/0,**Integra®**,**Integra®**,draft,
+animal_cell_culture.json,sections/8/blocks/9/rows/1/1,Acellular matrix,செல் அற்ற அணி,draft,
+animal_cell_culture.json,sections/8/blocks/9/rows/1/2,Bovine collagen + chondroitin-6-sulfate + silicone,மாட்டுக் கொலாஜன் + காண்ட்ராய்டின்-6-சல்பேட் + சிலிகான்,draft,
+animal_cell_culture.json,sections/8/blocks/9/rows/1/3,Full-thickness burns,முழு தடிமன் தீக்காயங்கள்,draft,
+animal_cell_culture.json,sections/8/blocks/9/rows/2/0,**Epicel®**,**Epicel®**,draft,
+animal_cell_culture.json,sections/8/blocks/9/rows/2/1,Epidermal only,மேற்றோல் மட்டும்,draft,
+animal_cell_culture.json,sections/8/blocks/9/rows/2/2,Autologous keratinocytes on murine fibroblast feeder,எலி ஃபைப்ரோபிளாஸ்ட் ஃபீடர்மீது தன்செல் கெரட்டினோசைட்டுகள்,draft,
+animal_cell_culture.json,sections/8/blocks/9/rows/2/3,Massive burns (>30% BSA),பெரும் தீக்காயங்கள் (>30% BSA),draft,
+animal_cell_culture.json,sections/8/blocks/9/rows/3/0,**Dermagraft®**,**Dermagraft®**,draft,
+animal_cell_culture.json,sections/8/blocks/9/rows/3/1,Dermal substitute,தோலிடைப் பதிலி,draft,
+animal_cell_culture.json,sections/8/blocks/9/rows/3/2,Neonatal fibroblasts seeded on polyglactin mesh,பாலிகிளாக்டின் வலைமீது விதைக்கப்பட்ட பிறந்த குழந்தை ஃபைப்ரோபிளாஸ்ட்கள்,draft,
+animal_cell_culture.json,sections/8/blocks/9/rows/3/3,Diabetic foot ulcers,நீரிழிவுக் கால் புண்கள்,draft,
+animal_cell_culture.json,sections/8/blocks/9/rows/4/0,**OrCel®**,**OrCel®**,draft,
+animal_cell_culture.json,sections/8/blocks/9/rows/4/1,Bilayered,இரு அடுக்கு,draft,
+animal_cell_culture.json,sections/8/blocks/9/rows/4/2,Allogeneic cells in bovine collagen sponge,மாட்டுக் கொலாஜன் கடற்பஞ்சில் பிறர்செல்கள்,draft,
+animal_cell_culture.json,sections/8/blocks/9/rows/4/3,"Burns, donor site wounds","தீக்காயங்கள், கொடையாளர் தளக் காயங்கள்",draft,
+animal_cell_culture.json,sections/8/blocks/10/text,"**✅ Clinical Advantages**
+• Overcomes donor site shortage in severe burns
+• Autologous constructs — no immune rejection
+• Reduced scarring vs. split-thickness grafts
+• Off-the-shelf allogeneic products available
+• Platform for cosmetic drug testing (EpiDerm™)
+• Alternative to animal testing","**✅ மருத்துவ நன்மைகள்**
+• கடுமையான தீக்காயங்களில் கொடையாளர் தளப் பற்றாக்குறையைத் தீர்க்கும்
+• தன்செல் கட்டமைப்புகள் — நோயெதிர்ப்பு நிராகரிப்பு இல்லை
+• பிளவுத் தடிமன் ஒட்டுகளைவிடக் குறைந்த வடு
+• தயார்நிலை பிறர்செல் பொருள்கள் கிடைக்கும்
+• அழகுசாதன மருந்துச் சோதனை மேடை (EpiDerm™)
+• விலங்குச் சோதனைக்கு மாற்று",draft,
+animal_cell_culture.json,sections/8/blocks/11/text,"**🔭 Future Challenges**
+• Vascularization — no capillary network
+• Lack of hair follicles, sweat/sebaceous glands
+• Melanocyte integration for skin pigmentation
+• Innervation — no sensory nerve endings
+• Long-term mechanical durability
+• High manufacturing cost","**🔭 எதிர்காலச் சவால்கள்**
+• இரத்தக்குழாய் உருவாக்கம் — நுண்குழாய் வலை இல்லை
+• முடிக்கால்கள், வியர்வை/எண்ணெய்ச் சுரப்பிகள் இல்லை
+• தோல் நிறமூட்டலுக்கு மெலனோசைட் ஒருங்கிணைப்பு
+• நரம்பூட்டம் — உணர்வு நரம்பு முனைகள் இல்லை
+• நீண்டகால இயந்திர உறுதி
+• அதிக உற்பத்திச் செலவு",draft,
+animal_cell_culture.json,sections/8/blocks/12/text,"**🖨️ 3D Bioprinting of Skin — Emerging Frontier**
+3D bioprinting deposits cell-laden bioinks (keratinocytes, fibroblasts, melanocytes) layer-by-layer with high precision. Recent advances achieve full-thickness skin substitutes with melanocyte integration. Companies like CELLINK and Organovo are pioneering commercial bioprinted skin platforms for wound healing therapies and cosmetic safety testing, moving toward in situ printing directly on wounds.","**🖨️ தோலின் 3D உயிரி அச்சிடல் — வளரும் எல்லை**
+3D உயிரி அச்சிடல் செல் நிரம்பிய உயிர்மைகளை (கெரட்டினோசைட்டுகள், ஃபைப்ரோபிளாஸ்ட்கள், மெலனோசைட்டுகள்) உயர் துல்லியத்துடன் அடுக்கடுக்காகப் படியவைக்கிறது. சமீபத்திய முன்னேற்றங்கள் மெலனோசைட் ஒருங்கிணைந்த முழு தடிமன் தோல் பதிலிகளை உருவாக்குகின்றன. CELLINK, Organovo போன்ற நிறுவனங்கள் காயம் ஆற்றும் சிகிச்சைகள், அழகுசாதனப் பாதுகாப்புச் சோதனைக்கான வணிக உயிரி அச்சுத் தோல் மேடைகளை முன்னெடுக்கின்றன; காயத்தின் மேலேயே நேரடியாக அச்சிடும் (இன் சிட்டு) நிலையை நோக்கி நகர்கின்றன.",draft,
