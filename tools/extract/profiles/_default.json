@@ -1,0 +1,5 @@
+{
+  "drop_selectors": ["nav", "#sidebar", "#navbar", "#topnav", "#mob-hdr", "#overlay", "footer", ".app-footer", ".sb-foot"],
+  "skip_ids": [],
+  "ignore_script_literals": ["Swipe sideways"]
+}
