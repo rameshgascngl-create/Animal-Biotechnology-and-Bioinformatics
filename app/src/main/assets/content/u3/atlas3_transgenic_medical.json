@@ -2,19 +2,25 @@
  "id": "atlas3_transgenic_medical",
  "unit": "III",
  "title": {
-  "en": "Atlas III: Transgenic & Medical"
+  "en": "Atlas III: Transgenic & Medical",
+  "ta": "அட்லஸ் III: மரபணுமாற்றமும் மருத்துவமும்",
+  "ta_status": "draft"
  },
  "sections": [
   {
    "id": "s01",
    "title": {
-    "en": "Overview"
+    "en": "Overview",
+    "ta": "மேலோட்டம்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "🎨 Unit III · Diagram Atlas"
+      "en": "🎨 Unit III · Diagram Atlas",
+      "ta": "🎨 அலகு III · வரைபட அட்லஸ்",
+      "ta_status": "draft"
      }
     }
    ]
@@ -22,31 +28,41 @@
   {
    "id": "s02",
    "title": {
-    "en": "Diagram Atlas III: Transgenic Animals and Medical Biotechnology"
+    "en": "Diagram Atlas III: Transgenic Animals and Medical Biotechnology",
+    "ta": "வரைபட அட்லஸ் III: மரபணுமாற்ற விலங்குகளும் மருத்துவ உயிரித் தொழில்நுட்பவியலும்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Transgenesis · Knockout · Dolly · Hybridoma · Gene therapy · CRISPR · Markers"
+      "en": "Transgenesis · Knockout · Dolly · Hybridoma · Gene therapy · CRISPR · Markers",
+      "ta": "மரபணுமாற்றம் · நாக்-அவுட் · டாலி · ஹைப்ரிடோமா · மரபணு சிகிச்சை · CRISPR · குறிப்பான்கள்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Seventeen diagrams and flow charts for Unit III: how transgenic and knockout mice are made, how Dolly was cloned, how HAT selects hybridomas, the logic of gene therapy and CAR-T, how CRISPR cuts and repairs DNA, and how markers and fingerprints are read."
+      "en": "Seventeen diagrams and flow charts for Unit III: how transgenic and knockout mice are made, how Dolly was cloned, how HAT selects hybridomas, the logic of gene therapy and CAR-T, how CRISPR cuts and repairs DNA, and how markers and fingerprints are read.",
+      "ta": "அலகு III-க்கான பதினேழு வரைபடங்களும் பாய்வு விளக்கப்படங்களும்: மரபணுமாற்ற, நாக்-அவுட் எலிகள் எவ்வாறு உருவாக்கப்படுகின்றன; டாலி எவ்வாறு குளோனாக்கப்பட்டது; HAT எவ்வாறு ஹைப்ரிடோமாக்களைத் தெரிவு செய்கிறது; மரபணு சிகிச்சை, CAR-T-யின் தர்க்கம்; CRISPR எவ்வாறு DNA-வை வெட்டி சரிசெய்கிறது; குறிப்பான்களும் கைரேகைகளும் எவ்வாறு வாசிக்கப்படுகின்றன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "📚 6 chapters🎯 10 MCQs📝 Exam questions🎓 B.Sc. Zoology / Biotechnology"
+      "en": "📚 6 chapters🎯 10 MCQs📝 Exam questions🎓 B.Sc. Zoology / Biotechnology",
+      "ta": "📚 6 பாடங்கள்🎯 10 MCQ-கள்📝 தேர்வு வினாக்கள்🎓 B.Sc. விலங்கியல் / உயிரித் தொழில்நுட்பவியல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🎯 Learning Objectives**"
+      "en": "**🎯 Learning Objectives**",
+      "ta": "**🎯 கற்றல் நோக்கங்கள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -54,19 +70,29 @@
      "ordered": false,
      "items": [
       {
-       "en": "✓Draw the steps of producing transgenic and knockout mice."
+       "en": "✓Draw the steps of producing transgenic and knockout mice.",
+       "ta": "✓மரபணுமாற்ற, நாக்-அவுட் எலிகளை உருவாக்கும் படிகளை வரைக.",
+       "ta_status": "draft"
       },
       {
-       "en": "✓Explain somatic cell nuclear transfer using Dolly."
+       "en": "✓Explain somatic cell nuclear transfer using Dolly.",
+       "ta": "✓டாலியைக் கொண்டு உடல் செல் உட்கரு மாற்றத்தை விளக்குக.",
+       "ta_status": "draft"
       },
       {
-       "en": "✓Explain HAT selection and name the four classes of monoclonal antibody."
+       "en": "✓Explain HAT selection and name the four classes of monoclonal antibody.",
+       "ta": "✓HAT தெரிவை விளக்கி, ஒற்றைக்குளோன் எதிர்ப்பொருளின் நான்கு வகுப்புகளைக் குறிப்பிடுக.",
+       "ta_status": "draft"
       },
       {
-       "en": "✓Compare ex vivo, in vivo and CAR-T gene therapy."
+       "en": "✓Compare ex vivo, in vivo and CAR-T gene therapy.",
+       "ta": "✓உடல்வெளி (ex vivo), உடலக (in vivo), CAR-T மரபணு சிகிச்சைகளை ஒப்பிடுக.",
+       "ta_status": "bracketed"
       },
       {
-       "en": "✓Describe CRISPR-Cas9 and compare RFLP, RAPD and STR fingerprinting."
+       "en": "✓Describe CRISPR-Cas9 and compare RFLP, RAPD and STR fingerprinting.",
+       "ta": "✓CRISPR-Cas9-ஐ விவரித்து, RFLP, RAPD, STR கைரேகைப் பதிவுகளை ஒப்பிடுக.",
+       "ta_status": "draft"
       }
      ]
     }
@@ -75,27 +101,35 @@
   {
    "id": "s03",
    "title": {
-    "en": "Transgenesis: Making a Transgenic Mouse"
+    "en": "Transgenesis: Making a Transgenic Mouse",
+    "ta": "மரபணுமாற்றம்: மரபணுமாற்ற எலியை உருவாக்குதல்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "A transgenic animal carries a foreign gene (transgene) in its genome and passes it on."
+      "en": "A transgenic animal carries a foreign gene (transgene) in its genome and passes it on.",
+      "ta": "மரபணுமாற்ற விலங்கு தன் மரபணுத்தொகையத்தில் அயல் மரபணுவை (மாற்றுமரபணு) கொண்டிருந்து அதைச் சந்ததிக்கு அளிக்கும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Transgenic animal\nAn animal whose genome contains a stably integrated foreign gene (transgene) that is transmitted through the germ line."
+      "en": "Transgenic animal\nAn animal whose genome contains a stably integrated foreign gene (transgene) that is transmitted through the germ line.",
+      "ta": "மரபணுமாற்ற விலங்கு\nஅயல் மரபணு (மாற்றுமரபணு) நிலையாக இணைக்கப்பட்ட மரபணுத்தொகையம் கொண்டு, அதைக் கருவழியாகக் கடத்தும் விலங்கு.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "atlas3_transgenic_medical-d01",
      "caption": {
-      "en": "Fig. 1. Components of a transgene construct."
+      "en": "Fig. 1. Components of a transgene construct.",
+      "ta": "படம் 1. மாற்றுமரபணு அமைப்பின் கூறுகள்.",
+      "ta_status": "draft"
      },
      "labels": [
       "Typical transgene construct (linear DNA for injection)",
@@ -119,7 +153,9 @@
      "type": "diagram",
      "id": "atlas3_transgenic_medical-d02",
      "caption": {
-      "en": "Fig. 2. Pronuclear microinjection, the commonest method (Gordon _et al._ 1980; Palmiter and Brinster 1982)."
+      "en": "Fig. 2. Pronuclear microinjection, the commonest method (Gordon _et al._ 1980; Palmiter and Brinster 1982).",
+      "ta": "படம் 2. முன்உட்கரு நுண்செலுத்தல் — மிகப் பொதுவான முறை (கார்டன் _மற்றும் பலர்_ 1980; பால்மிட்டர், பிரின்ஸ்டர் 1982).",
+      "ta_status": "draft"
      },
      "labels": [
       "1. Superovulate donor",
@@ -148,69 +184,105 @@
      "type": "table",
      "header": [
       {
-       "en": "Method"
+       "en": "Method",
+       "ta": "முறை",
+       "ta_status": "draft"
       },
       {
-       "en": "Principle"
+       "en": "Principle",
+       "ta": "கோட்பாடு",
+       "ta_status": "draft"
       },
       {
-       "en": "Note"
+       "en": "Note",
+       "ta": "குறிப்பு",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Pronuclear microinjection**"
+        "en": "**Pronuclear microinjection**",
+        "ta": "**முன்உட்கரு நுண்செலுத்தல்**",
+        "ta_status": "draft"
        },
        {
-        "en": "DNA injected into the male pronucleus"
+        "en": "DNA injected into the male pronucleus",
+        "ta": "ஆண் முன்உட்கருவினுள் DNA செலுத்தப்படும்",
+        "ta_status": "draft"
        },
        {
-        "en": "Random integration; mosaic founders"
+        "en": "Random integration; mosaic founders",
+        "ta": "சீரற்ற இணைவு; மொசைக் நிறுவனர்கள்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Retroviral / lentiviral**"
+        "en": "**Retroviral / lentiviral**",
+        "ta": "**ரெட்ரோவைரஸ் / லென்டிவைரஸ்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Virus infects embryos"
+        "en": "Virus infects embryos",
+        "ta": "வைரஸ் கருக்களைத் தொற்றும்",
+        "ta_status": "draft"
        },
        {
-        "en": "Size limit; silencing"
+        "en": "Size limit; silencing",
+        "ta": "அளவு வரம்பு; அமைதியாக்கம்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**ES-cell gene targeting**"
+        "en": "**ES-cell gene targeting**",
+        "ta": "**ES செல் மரபணு இலக்கிடல்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Homologous recombination in ES cells"
+        "en": "Homologous recombination in ES cells",
+        "ta": "ES செல்களில் ஒத்த மறுகூட்டிணைவு",
+        "ta_status": "draft"
        },
        {
-        "en": "Precise knock-in and knockout"
+        "en": "Precise knock-in and knockout",
+        "ta": "துல்லியமான நாக்-இன், நாக்-அவுட்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**SCNT cloning**"
+        "en": "**SCNT cloning**",
+        "ta": "**SCNT குளோனாக்கம்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Transfected donor cell + enucleated egg"
+        "en": "Transfected donor cell + enucleated egg",
+        "ta": "டிரான்ஸ்ஃபெக்ட் செய்த கொடைச் செல் + உட்கரு நீக்கிய முட்டை",
+        "ta_status": "draft"
        },
        {
-        "en": "Used in sheep, goats, cattle"
+        "en": "Used in sheep, goats, cattle",
+        "ta": "செம்மறி, வெள்ளாடு, மாடுகளில் பயன்படுகிறது",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**CRISPR in zygotes**"
+        "en": "**CRISPR in zygotes**",
+        "ta": "**கருவணுக்களில் CRISPR**",
+        "ta_status": "draft"
        },
        {
-        "en": "Cas9 + gRNA injected"
+        "en": "Cas9 + gRNA injected",
+        "ta": "Cas9 + gRNA செலுத்தப்படும்",
+        "ta_status": "draft"
        },
        {
-        "en": "Rapid knockout and knock-in"
+        "en": "Rapid knockout and knock-in",
+        "ta": "விரைவான நாக்-அவுட், நாக்-இன்",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -221,20 +293,26 @@
   {
    "id": "s04",
    "title": {
-    "en": "Knockout Mice and Dolly the Sheep"
+    "en": "Knockout Mice and Dolly the Sheep",
+    "ta": "நாக்-அவுட் எலிகளும் செம்மறி டாலியும்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Two classical landmarks: targeted gene disruption in mice (Capecchi, Evans, Smithies; Nobel 2007) and cloning from an adult cell (Wilmut, Campbell 1996)."
+      "en": "Two classical landmarks: targeted gene disruption in mice (Capecchi, Evans, Smithies; Nobel 2007) and cloning from an adult cell (Wilmut, Campbell 1996).",
+      "ta": "இரு செவ்வியல் மைல்கற்கள்: எலிகளில் இலக்கிட்ட மரபணுச் சிதைவு (கபெச்சி, எவான்ஸ், ஸ்மித்தீஸ்; நோபல் 2007), முதிர் செல்லிலிருந்து குளோனாக்கம் (வில்மட், கேம்ப்பெல் 1996).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "atlas3_transgenic_medical-d03",
      "caption": {
-      "en": "Fig. 3. Gene targeting with a neo (positive) and tk (negative) selection vector."
+      "en": "Fig. 3. Gene targeting with a neo (positive) and tk (negative) selection vector.",
+      "ta": "படம் 3. neo (நேர்மறை), tk (எதிர்மறை) தெரிவு தாங்கிக்கடத்தியுடன் மரபணு இலக்கிடல்.",
+      "ta_status": "draft"
      },
      "labels": [
       "Wild-type locus",
@@ -259,7 +337,9 @@
      "type": "diagram",
      "id": "atlas3_transgenic_medical-d04",
      "caption": {
-      "en": "Fig. 4. From ES cell to knockout mouse."
+      "en": "Fig. 4. From ES cell to knockout mouse.",
+      "ta": "படம் 4. ES செல்லிலிருந்து நாக்-அவுட் எலி வரை.",
+      "ta_status": "draft"
      },
      "labels": [
       "Design vector; electroporate",
@@ -285,7 +365,9 @@
      "type": "diagram",
      "id": "atlas3_transgenic_medical-d05",
      "caption": {
-      "en": "Fig. 5. Somatic cell nuclear transfer. Dolly was the only live lamb from 277 fusions."
+      "en": "Fig. 5. Somatic cell nuclear transfer. Dolly was the only live lamb from 277 fusions.",
+      "ta": "படம் 5. உடல் செல் உட்கரு மாற்றம். 277 இணைவுகளில் உயிருடன் பிறந்த ஒரே ஆட்டுக்குட்டி டாலி.",
+      "ta_status": "draft"
      },
      "labels": [
       "Donor: udder (mammary)",
@@ -317,7 +399,9 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**PG focus**\n• Conditional knockouts (Cre-loxP) restrict gene deletion to a tissue or time.\n• Dolly’s mitochondrial DNA came from the egg donor, so she was a nuclear clone, not a complete genetic copy.\n• Related: embryonic cloning (embryo splitting) differs from SCNT."
+      "en": "**PG focus**\n• Conditional knockouts (Cre-loxP) restrict gene deletion to a tissue or time.\n• Dolly’s mitochondrial DNA came from the egg donor, so she was a nuclear clone, not a complete genetic copy.\n• Related: embryonic cloning (embryo splitting) differs from SCNT.",
+      "ta": "**முதுநிலைக் கவனம்**\n• நிபந்தனை நாக்-அவுட்கள் (Cre-loxP) மரபணு நீக்கத்தை ஒரு திசுவுக்கு அல்லது ஒரு நேரத்துக்கு வரம்பிடும்.\n• டாலியின் மைட்டோகாண்ட்ரிய DNA முட்டைக் கொடையாளியிடமிருந்து வந்ததால், அவள் உட்கரு குளோனே தவிர, முழு மரபணு நகல் அல்ல.\n• தொடர்பு: கருக் குளோனாக்கம் (கரு பிளத்தல்) SCNT-யிலிருந்து வேறுபட்டது.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -326,77 +410,113 @@
   {
    "id": "s05",
    "title": {
-    "en": "Animals as Bioreactors, Superbug and Bioremediation"
+    "en": "Animals as Bioreactors, Superbug and Bioremediation",
+    "ta": "விலங்குகள் உயிர்வினையகங்களாக; சூப்பர்பக்கும் உயிரிவழி சீரமைப்பும்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Transgenic animals can make drugs in milk; engineered microbes can clean up pollutants; both raise biosafety questions."
+      "en": "Transgenic animals can make drugs in milk; engineered microbes can clean up pollutants; both raise biosafety questions.",
+      "ta": "மரபணுமாற்ற விலங்குகள் பாலில் மருந்துகளை உருவாக்கலாம்; பொறியியல் நுண்ணுயிரிகள் மாசுகளைத் தூய்மையாக்கலாம்; இரண்டும் உயிர்ப் பாதுகாப்பு வினாக்களை எழுப்புகின்றன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Animal bioreactor:** a transgenic animal that secretes a therapeutic protein into milk, blood, egg white or urine. Milk is preferred because yields are high (g/L) and proteins are glycosylated like human proteins."
+      "en": "**Animal bioreactor:** a transgenic animal that secretes a therapeutic protein into milk, blood, egg white or urine. Milk is preferred because yields are high (g/L) and proteins are glycosylated like human proteins.",
+      "ta": "**விலங்கு உயிர்வினையகம்:** சிகிச்சைப் புரதத்தைப் பால், இரத்தம், முட்டை வெள்ளைக்கரு அல்லது சிறுநீரில் சுரக்கும் மரபணுமாற்ற விலங்கு. பாலில் விளைச்சல் அதிகம் (g/L), புரதங்கள் மனிதப் புரதங்களைப் போலவே கிளைக்கோசைலேற்றம் பெறுவதால் பால் விரும்பப்படுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "table",
      "header": [
       {
-       "en": "Animal / product"
+       "en": "Animal / product",
+       "ta": "விலங்கு / விளைபொருள்",
+       "ta_status": "draft"
       },
       {
-       "en": "Use"
+       "en": "Use",
+       "ta": "பயன்",
+       "ta_status": "draft"
       },
       {
-       "en": "Status"
+       "en": "Status",
+       "ta": "நிலை",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Goat: human antithrombin (ATryn)**"
+        "en": "**Goat: human antithrombin (ATryn)**",
+        "ta": "**வெள்ளாடு: மனித ஆன்டித்ராம்பின் (ATryn)**",
+        "ta_status": "bracketed"
        },
        {
-        "en": "Prevents clotting in hereditary antithrombin deficiency"
+        "en": "Prevents clotting in hereditary antithrombin deficiency",
+        "ta": "மரபுவழி ஆன்டித்ராம்பின் குறைபாட்டில் இரத்த உறைதலைத் தடுக்கும்",
+        "ta_status": "draft"
        },
        {
-        "en": "Approved EU 2006, USA 2009 (later withdrawn commercially)"
+        "en": "Approved EU 2006, USA 2009 (later withdrawn commercially)",
+        "ta": "ஐரோப்பிய ஒன்றியம் 2006, அமெரிக்கா 2009-இல் ஒப்புதல் (பின்னர் வணிகரீதியாகத் திரும்பப் பெறப்பட்டது)",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Rabbit: C1-esterase inhibitor (Ruconest)**"
+        "en": "**Rabbit: C1-esterase inhibitor (Ruconest)**",
+        "ta": "**முயல்: C1-எஸ்டரேஸ் தடுப்பி (Ruconest)**",
+        "ta_status": "bracketed"
        },
        {
-        "en": "Hereditary angioedema"
+        "en": "Hereditary angioedema",
+        "ta": "மரபுவழி ஆஞ்சியோஎடிமா",
+        "ta_status": "draft"
        },
        {
-        "en": "Approved"
+        "en": "Approved",
+        "ta": "ஒப்புதல் பெற்றது",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Sheep: α1-antitrypsin; goat: lactoferrin**"
+        "en": "**Sheep: α1-antitrypsin; goat: lactoferrin**",
+        "ta": "**செம்மறி: α1-ஆன்டிட்ரிப்சின்; வெள்ளாடு: லேக்டோஃபெரின்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Emphysema; antimicrobial"
+        "en": "Emphysema; antimicrobial",
+        "ta": "எம்பிசீமா; நுண்ணுயிர் எதிர்ப்பி",
+        "ta_status": "draft"
        },
        {
-        "en": "Clinical or experimental"
+        "en": "Clinical or experimental",
+        "ta": "மருத்துவ அல்லது ஆய்வுநிலை",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Chicken: human enzymes in egg white (Kanuma, sebelipase α)**"
+        "en": "**Chicken: human enzymes in egg white (Kanuma, sebelipase α)**",
+        "ta": "**கோழி: முட்டை வெள்ளைக்கருவில் மனித நொதிகள் (Kanuma, செபெலிபேஸ் α)**",
+        "ta_status": "bracketed"
        },
        {
-        "en": "Lysosomal acid lipase deficiency"
+        "en": "Lysosomal acid lipase deficiency",
+        "ta": "லைசோசோம் அமில லிப்பேஸ் குறைபாடு",
+        "ta_status": "draft"
        },
        {
-        "en": "Approved"
+        "en": "Approved",
+        "ta": "ஒப்புதல் பெற்றது",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -405,7 +525,9 @@
      "type": "diagram",
      "id": "atlas3_transgenic_medical-d06",
      "caption": {
-      "en": "Fig. 6. Anand Mohan Chakrabarty’s plasmid-combined _Pseudomonas_: the first patented living organism."
+      "en": "Fig. 6. Anand Mohan Chakrabarty’s plasmid-combined _Pseudomonas_: the first patented living organism.",
+      "ta": "படம் 6. ஆனந்த் மோகன் சக்கரவர்த்தியின் பிளாஸ்மிட் இணைந்த _சூடோமோனாஸ்_: காப்புரிமை பெற்ற முதல் உயிரினம்.",
+      "ta_status": "draft"
      },
      "labels": [
       "Four hydrocarbon-degrading",
@@ -427,69 +549,105 @@
      "type": "table",
      "header": [
       {
-       "en": "Bioremediation approach"
+       "en": "Bioremediation approach",
+       "ta": "உயிரிவழி சீரமைப்பு அணுகுமுறை",
+       "ta_status": "draft"
       },
       {
-       "en": "Idea"
+       "en": "Idea",
+       "ta": "கருத்து",
+       "ta_status": "draft"
       },
       {
-       "en": "Example"
+       "en": "Example",
+       "ta": "எடுத்துக்காட்டு",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Biostimulation**"
+        "en": "**Biostimulation**",
+        "ta": "**உயிர்த்தூண்டல்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Add nutrients to boost native microbes"
+        "en": "Add nutrients to boost native microbes",
+        "ta": "உள்ளூர் நுண்ணுயிரிகளைப் பெருக்க ஊட்டச்சத்துகளைச் சேர்த்தல்",
+        "ta_status": "draft"
        },
        {
-        "en": "N and P on oiled shorelines"
+        "en": "N and P on oiled shorelines",
+        "ta": "எண்ணெய் படிந்த கடற்கரைகளில் N, P",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Bioaugmentation**"
+        "en": "**Bioaugmentation**",
+        "ta": "**உயிர்ப்பெருக்கம்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Add selected or engineered microbes"
+        "en": "Add selected or engineered microbes",
+        "ta": "தெரிவு செய்த அல்லது பொறியியல் நுண்ணுயிரிகளைச் சேர்த்தல்",
+        "ta_status": "draft"
        },
        {
-        "en": "Pseudomonas for hydrocarbons"
+        "en": "Pseudomonas for hydrocarbons",
+        "ta": "ஹைட்ரோகார்பன்களுக்குச் சூடோமோனாஸ்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Bioventing / biosparging**"
+        "en": "**Bioventing / biosparging**",
+        "ta": "**உயிர்க் காற்றோட்டம் / உயிர்க் காற்றூட்டம்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Supply air to soil or groundwater"
+        "en": "Supply air to soil or groundwater",
+        "ta": "மண் அல்லது நிலத்தடி நீருக்குக் காற்றளித்தல்",
+        "ta_status": "draft"
        },
        {
-        "en": "Fuel-contaminated sites"
+        "en": "Fuel-contaminated sites",
+        "ta": "எரிபொருள் மாசுற்ற இடங்கள்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Landfarming / composting**"
+        "en": "**Landfarming / composting**",
+        "ta": "**நிலவளர்ப்பு / மக்கவைத்தல்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Mix contaminated soil, aerate"
+        "en": "Mix contaminated soil, aerate",
+        "ta": "மாசுற்ற மண்ணைக் கலந்து காற்றோட்டம் தருதல்",
+        "ta_status": "draft"
        },
        {
-        "en": "Oily sludge"
+        "en": "Oily sludge",
+        "ta": "எண்ணெய்ச் சேறு",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Phytoremediation**"
+        "en": "**Phytoremediation**",
+        "ta": "**தாவரவழி சீரமைப்பு**",
+        "ta_status": "draft"
        },
        {
-        "en": "Plants take up or degrade pollutants"
+        "en": "Plants take up or degrade pollutants",
+        "ta": "தாவரங்கள் மாசுகளை உறிஞ்சுதல் அல்லது சிதைத்தல்",
+        "ta_status": "draft"
        },
        {
-        "en": "Heavy metals"
+        "en": "Heavy metals",
+        "ta": "கனஉலோகங்கள்",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -498,7 +656,9 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Bioweapons (concept only)**\n• The 1972 Biological Weapons Convention (in force 1975) bans development, production and stockpiling of biological agents as weapons.\n• CDC Category A agents (highest priority) include anthrax, smallpox, plague, botulinum toxin, tularaemia and viral haemorrhagic fevers.\n• Response relies on surveillance, vaccines, antimicrobials and biosafety/biosecurity rules."
+      "en": "**Bioweapons (concept only)**\n• The 1972 Biological Weapons Convention (in force 1975) bans development, production and stockpiling of biological agents as weapons.\n• CDC Category A agents (highest priority) include anthrax, smallpox, plague, botulinum toxin, tularaemia and viral haemorrhagic fevers.\n• Response relies on surveillance, vaccines, antimicrobials and biosafety/biosecurity rules.",
+      "ta": "**உயிரி ஆயுதங்கள் (கருத்து மட்டும்)**\n• 1972 உயிரி ஆயுத ஒப்பந்தம் (1975-இல் நடைமுறை) உயிரிக் காரணிகளை ஆயுதங்களாக உருவாக்குதல், உற்பத்தி செய்தல், சேமித்தலைத் தடை செய்கிறது.\n• CDC வகை A காரணிகளில் (முதன்மை முன்னுரிமை) ஆந்த்ராக்ஸ், பெரியம்மை, பிளேக், போட்டுலினம் நச்சு, டியூலரேமியா, வைரஸ் இரத்தக்கசிவுக் காய்ச்சல்கள் அடங்கும்.\n• எதிர்கொள்ளல் கண்காணிப்பு, தடுப்பூசிகள், நுண்ணுயிர் எதிர்ப்பிகள், உயிரிப் பாதுகாப்பு/உயிரிப் பாதுகாவல் விதிகளைச் சார்ந்தது.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -507,20 +667,26 @@
   {
    "id": "s06",
    "title": {
-    "en": "Hybridoma Technology and Monoclonal Antibodies"
+    "en": "Hybridoma Technology and Monoclonal Antibodies",
+    "ta": "ஹைப்ரிடோமா தொழில்நுட்பமும் ஒற்றைக்குளோன் எதிர்ப்பொருட்களும்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Köhler and Milstein (1975; Nobel 1984) fused a B cell with a myeloma cell to make an immortal antibody factory."
+      "en": "Köhler and Milstein (1975; Nobel 1984) fused a B cell with a myeloma cell to make an immortal antibody factory.",
+      "ta": "கோலரும் மில்ஸ்டீனும் (1975; நோபல் 1984) B செல்லையும் மைலோமா செல்லையும் இணைத்து, அழிவற்ற எதிர்ப்பொருள் தொழிற்சாலையை உருவாக்கினர்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "atlas3_transgenic_medical-d07",
      "caption": {
-      "en": "Fig. 7. Production of monoclonal antibodies."
+      "en": "Fig. 7. Production of monoclonal antibodies.",
+      "ta": "படம் 7. ஒற்றைக்குளோன் எதிர்ப்பொருட்களின் உற்பத்தி.",
+      "ta_status": "draft"
      },
      "labels": [
       "Immunise mouse",
@@ -548,7 +714,9 @@
      "type": "diagram",
      "id": "atlas3_transgenic_medical-d08",
      "caption": {
-      "en": "Fig. 8. Why HAT medium selects only hybrids."
+      "en": "Fig. 8. Why HAT medium selects only hybrids.",
+      "ta": "படம் 8. HAT ஊடகம் ஏன் கலப்பினச் செல்களை மட்டுமே தெரிவு செய்கிறது.",
+      "ta_status": "draft"
      },
      "labels": [
       "HAT medium: hypoxanthine + aminopterin + thymidine",
@@ -568,7 +736,9 @@
      "type": "diagram",
      "id": "atlas3_transgenic_medical-d09",
      "caption": {
-      "en": "Fig. 9. Reducing immunogenicity: the name stem tells you how human an antibody is."
+      "en": "Fig. 9. Reducing immunogenicity: the name stem tells you how human an antibody is.",
+      "ta": "படம் 9. நோயெதிர்ப்புத் தூண்டலைக் குறைத்தல்: பெயர் முடிவு எதிர்ப்பொருள் எவ்வளவு மனிதத் தன்மையுடையது என்பதைக் காட்டும்.",
+      "ta_status": "draft"
      },
      "labels": [
       "Fraction of human sequence (approximate)",
@@ -586,43 +756,63 @@
      "type": "table",
      "header": [
       {
-       "en": "Application"
+       "en": "Application",
+       "ta": "பயன்பாடு",
+       "ta_status": "draft"
       },
       {
-       "en": "Example"
+       "en": "Example",
+       "ta": "எடுத்துக்காட்டு",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Diagnosis**"
+        "en": "**Diagnosis**",
+        "ta": "**நோயறிதல்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Pregnancy test strips (hCG), ELISA, flow cytometry"
+        "en": "Pregnancy test strips (hCG), ELISA, flow cytometry",
+        "ta": "கர்ப்பச் சோதனைப் பட்டைகள் (hCG), ELISA, பாய்வு செல்லளவையியல்",
+        "ta_status": "bracketed"
        }
       ],
       [
        {
-        "en": "**Therapy**"
+        "en": "**Therapy**",
+        "ta": "**சிகிச்சை**",
+        "ta_status": "draft"
        },
        {
-        "en": "Trastuzumab (HER2, breast cancer), rituximab (CD20), adalimumab (TNFα)"
+        "en": "Trastuzumab (HER2, breast cancer), rituximab (CD20), adalimumab (TNFα)",
+        "ta": "டிராஸ்டுசுமாப் (HER2, மார்பகப் புற்றுநோய்), ரிட்டுக்ஸிமாப் (CD20), அடாலிமுமாப் (TNFα)",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Purification**"
+        "en": "**Purification**",
+        "ta": "**தூய்மையாக்கல்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Immunoaffinity chromatography"
+        "en": "Immunoaffinity chromatography",
+        "ta": "நோயெதிர்ப்பு நாட்டக் குரோமடோகிராபி",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Research**"
+        "en": "**Research**",
+        "ta": "**ஆய்வு**",
+        "ta_status": "draft"
        },
        {
-        "en": "Immunohistochemistry, Western blot"
+        "en": "Immunohistochemistry, Western blot",
+        "ta": "நோயெதிர்ப்புத் திசுவேதியியல், வெஸ்டர்ன் பிளாட்",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -633,20 +823,26 @@
   {
    "id": "s07",
    "title": {
-    "en": "Gene Therapy, Cancer Treatment and CRISPR Editing"
+    "en": "Gene Therapy, Cancer Treatment and CRISPR Editing",
+    "ta": "மரபணு சிகிச்சை, புற்றுநோய்ச் சிகிச்சை, CRISPR திருத்தம்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Gene therapy adds or corrects genes; genome editing changes the genome itself."
+      "en": "Gene therapy adds or corrects genes; genome editing changes the genome itself.",
+      "ta": "மரபணு சிகிச்சை மரபணுக்களைச் சேர்க்கிறது அல்லது சரிசெய்கிறது; மரபணுத்தொகையத் திருத்தம் மரபணுத்தொகையத்தையே மாற்றுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "atlas3_transgenic_medical-d10",
      "caption": {
-      "en": "Fig. 10. Ex vivo gene therapy (first successful trial: ADA-SCID, 1990)."
+      "en": "Fig. 10. Ex vivo gene therapy (first successful trial: ADA-SCID, 1990).",
+      "ta": "படம் 10. உடல்வெளி மரபணு சிகிச்சை (முதல் வெற்றிகரமான சோதனை: ADA-SCID, 1990).",
+      "ta_status": "draft"
      },
      "labels": [
       "Isolate patient cells",
@@ -666,7 +862,9 @@
      "type": "diagram",
      "id": "atlas3_transgenic_medical-d11",
      "caption": {
-      "en": "Fig. 11. In vivo gene therapy (for example voretigene neparvovec for RPE65 retinal dystrophy, approved 2017)."
+      "en": "Fig. 11. In vivo gene therapy (for example voretigene neparvovec for RPE65 retinal dystrophy, approved 2017).",
+      "ta": "படம் 11. உடலக மரபணு சிகிச்சை (எ.கா. RPE65 விழித்திரைச் சிதைவுக்கான வோரெட்டிஜீன் நெபர்வோவெக், 2017-இல் ஒப்புதல்).",
+      "ta_status": "draft"
      },
      "labels": [
       "Package gene in a vector",
@@ -687,7 +885,9 @@
      "type": "diagram",
      "id": "atlas3_transgenic_medical-d12",
      "caption": {
-      "en": "Fig. 12. CAR-T therapy, a cancer treatment that is ex vivo gene therapy."
+      "en": "Fig. 12. CAR-T therapy, a cancer treatment that is ex vivo gene therapy.",
+      "ta": "படம் 12. CAR-T சிகிச்சை — உடல்வெளி மரபணு சிகிச்சையான புற்றுநோய்ச் சிகிச்சை.",
+      "ta_status": "draft"
      },
      "labels": [
       "Leukapheresis:",
@@ -713,43 +913,63 @@
      "type": "table",
      "header": [
       {
-       "en": "Cancer gene-therapy strategy"
+       "en": "Cancer gene-therapy strategy",
+       "ta": "புற்றுநோய் மரபணு சிகிச்சை உத்தி",
+       "ta_status": "draft"
       },
       {
-       "en": "Principle"
+       "en": "Principle",
+       "ta": "கோட்பாடு",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Gene replacement**"
+        "en": "**Gene replacement**",
+        "ta": "**மரபணு மாற்றீடு**",
+        "ta_status": "draft"
        },
        {
-        "en": "Restore tumour suppressor (p53)"
+        "en": "Restore tumour suppressor (p53)",
+        "ta": "கட்டி அடக்கியை (p53) மீட்டமைத்தல்",
+        "ta_status": "bracketed"
        }
       ],
       [
        {
-        "en": "**Suicide gene**"
+        "en": "**Suicide gene**",
+        "ta": "**தற்கொலை மரபணு**",
+        "ta_status": "draft"
        },
        {
-        "en": "HSV-tk + ganciclovir kills transduced tumour cells"
+        "en": "HSV-tk + ganciclovir kills transduced tumour cells",
+        "ta": "HSV-tk + கான்சிக்ளோவிர் டிரான்ஸ்டியூஸ் செய்த கட்டிச் செல்களைக் கொல்லும்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Oncolytic virus**"
+        "en": "**Oncolytic virus**",
+        "ta": "**புற்றுநோய்ச் சிதைப்பு வைரஸ்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Replicates in cancer cells (talimogene laherparepvec, T-VEC)"
+        "en": "Replicates in cancer cells (talimogene laherparepvec, T-VEC)",
+        "ta": "புற்றுநோய்ச் செல்களில் பெருகும் (டாலிமோஜீன் லேஹெர்பரெப்வெக், T-VEC)",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Immunotherapy**"
+        "en": "**Immunotherapy**",
+        "ta": "**நோயெதிர்ப்புச் சிகிச்சை**",
+        "ta_status": "draft"
        },
        {
-        "en": "CAR-T cells or cytokine genes"
+        "en": "CAR-T cells or cytokine genes",
+        "ta": "CAR-T செல்கள் அல்லது சைட்டோகைன் மரபணுக்கள்",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -758,7 +978,9 @@
      "type": "diagram",
      "id": "atlas3_transgenic_medical-d13",
      "caption": {
-      "en": "Fig. 13. SpCas9 needs a PAM (NGG) next to a 20-nt target."
+      "en": "Fig. 13. SpCas9 needs a PAM (NGG) next to a 20-nt target.",
+      "ta": "படம் 13. SpCas9-க்கு 20-nt இலக்கை அடுத்து PAM (NGG) தேவை.",
+      "ta_status": "bracketed"
      },
      "labels": [
       "SpCas9 target recognition",
@@ -822,7 +1044,9 @@
      "type": "diagram",
      "id": "atlas3_transgenic_medical-d14",
      "caption": {
-      "en": "Fig. 14. A CRISPR experiment from design to verification."
+      "en": "Fig. 14. A CRISPR experiment from design to verification.",
+      "ta": "படம் 14. வடிவமைப்பிலிருந்து சரிபார்ப்பு வரை ஒரு CRISPR சோதனை.",
+      "ta_status": "draft"
      },
      "labels": [
       "Design guide RNA",
@@ -844,7 +1068,9 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**PG focus**\n• Base editors (C→T, A→G) and prime editors change bases without a double-strand break.\n• Casgevy (exa-cel) edits BCL11A enhancer in haematopoietic stem cells for sickle cell disease and β-thalassaemia (approved 2023)."
+      "en": "**PG focus**\n• Base editors (C→T, A→G) and prime editors change bases without a double-strand break.\n• Casgevy (exa-cel) edits BCL11A enhancer in haematopoietic stem cells for sickle cell disease and β-thalassaemia (approved 2023).",
+      "ta": "**முதுநிலைக் கவனம்**\n• அடிப்படைத் திருத்திகளும் (C→T, A→G) முதன்மைத் திருத்திகளும் இரட்டை இழை முறிவு இல்லாமல் காரங்களை மாற்றும்.\n• அரிவாள் செல் நோய், β-தலசீமியாவுக்காக இரத்த உருவாக்க ஸ்டெம் செல்களில் Casgevy (exa-cel) BCL11A ஊக்குவிப்புப் பகுதியைத் திருத்துகிறது (2023-இல் ஒப்புதல்).",
+      "ta_status": "draft"
      }
     }
    ],
@@ -853,20 +1079,26 @@
   {
    "id": "s08",
    "title": {
-    "en": "Molecular Markers: RFLP, RAPD and DNA Fingerprinting"
+    "en": "Molecular Markers: RFLP, RAPD and DNA Fingerprinting",
+    "ta": "மூலக்கூறுக் குறிப்பான்கள்: RFLP, RAPD, DNA கைரேகைப் பதிவு",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Markers reveal differences in DNA between individuals, populations and species."
+      "en": "Markers reveal differences in DNA between individuals, populations and species.",
+      "ta": "குறிப்பான்கள் தனிநபர்கள், இனக்கூட்டங்கள், சிற்றினங்களிடையே DNA வேறுபாடுகளை வெளிப்படுத்துகின்றன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "atlas3_transgenic_medical-d15",
      "caption": {
-      "en": "Fig. 15. RFLP depends on gain or loss of restriction sites, or insertions and deletions between them."
+      "en": "Fig. 15. RFLP depends on gain or loss of restriction sites, or insertions and deletions between them.",
+      "ta": "படம் 15. RFLP, கட்டுப்பாட்டு நொதி தளங்களின் பெறல்/இழப்பு அல்லது அவற்றினிடையே செருகல்கள், நீக்கங்களைச் சார்ந்தது.",
+      "ta_status": "draft"
      },
      "labels": [
       "Extract genomic DNA",
@@ -886,7 +1118,9 @@
      "type": "diagram",
      "id": "atlas3_transgenic_medical-d16",
      "caption": {
-      "en": "Fig. 16. RAPD uses one short arbitrary primer."
+      "en": "Fig. 16. RAPD uses one short arbitrary primer.",
+      "ta": "படம் 16. RAPD ஒரு குறுகிய தன்னிச்சைப் பிரைமரைப் பயன்படுத்துகிறது.",
+      "ta_status": "draft"
      },
      "labels": [
       "5′",
@@ -901,7 +1135,9 @@
      "type": "diagram",
      "id": "atlas3_transgenic_medical-d17",
      "caption": {
-      "en": "Fig. 17. DNA fingerprint comparison (illustrative)."
+      "en": "Fig. 17. DNA fingerprint comparison (illustrative).",
+      "ta": "படம் 17. DNA கைரேகை ஒப்பீடு (விளக்கப்படம்).",
+      "ta_status": "draft"
      },
      "labels": [
       "Ladder",
@@ -920,87 +1156,135 @@
      "type": "table",
      "header": [
       {
-       "en": "Marker"
+       "en": "Marker",
+       "ta": "குறிப்பான்",
+       "ta_status": "draft"
       },
       {
-       "en": "Inheritance"
+       "en": "Inheritance",
+       "ta": "மரபுப் பண்பு",
+       "ta_status": "draft"
       },
       {
-       "en": "Needs sequence info?"
+       "en": "Needs sequence info?",
+       "ta": "வரிசைத் தகவல் தேவையா?",
+       "ta_status": "draft"
       },
       {
-       "en": "Reproducibility"
+       "en": "Reproducibility",
+       "ta": "மீளுருவாக்கத்திறன்",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**RFLP**"
+        "en": "**RFLP**",
+        "ta": "**RFLP**",
+        "ta_status": "draft"
        },
        {
-        "en": "Co-dominant"
+        "en": "Co-dominant",
+        "ta": "இணை ஆட்சி",
+        "ta_status": "draft"
        },
        {
-        "en": "Probe needed"
+        "en": "Probe needed",
+        "ta": "துருவி தேவை",
+        "ta_status": "draft"
        },
        {
-        "en": "High"
+        "en": "High",
+        "ta": "அதிகம்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**RAPD**"
+        "en": "**RAPD**",
+        "ta": "**RAPD**",
+        "ta_status": "draft"
        },
        {
-        "en": "Dominant"
+        "en": "Dominant",
+        "ta": "ஆட்சி",
+        "ta_status": "draft"
        },
        {
-        "en": "No"
+        "en": "No",
+        "ta": "இல்லை",
+        "ta_status": "draft"
        },
        {
-        "en": "Low"
+        "en": "Low",
+        "ta": "குறைவு",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**AFLP**"
+        "en": "**AFLP**",
+        "ta": "**AFLP**",
+        "ta_status": "draft"
        },
        {
-        "en": "Dominant"
+        "en": "Dominant",
+        "ta": "ஆட்சி",
+        "ta_status": "draft"
        },
        {
-        "en": "No"
+        "en": "No",
+        "ta": "இல்லை",
+        "ta_status": "draft"
        },
        {
-        "en": "High"
+        "en": "High",
+        "ta": "அதிகம்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**SSR / STR**"
+        "en": "**SSR / STR**",
+        "ta": "**SSR / STR**",
+        "ta_status": "draft"
        },
        {
-        "en": "Co-dominant"
+        "en": "Co-dominant",
+        "ta": "இணை ஆட்சி",
+        "ta_status": "draft"
        },
        {
-        "en": "Flanking primers"
+        "en": "Flanking primers",
+        "ta": "பக்கவாட்டுப் பிரைமர்கள்",
+        "ta_status": "draft"
        },
        {
-        "en": "High"
+        "en": "High",
+        "ta": "அதிகம்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**SNP**"
+        "en": "**SNP**",
+        "ta": "**SNP**",
+        "ta_status": "draft"
        },
        {
-        "en": "Co-dominant"
+        "en": "Co-dominant",
+        "ta": "இணை ஆட்சி",
+        "ta_status": "draft"
        },
        {
-        "en": "Yes"
+        "en": "Yes",
+        "ta": "ஆம்",
+        "ta_status": "draft"
        },
        {
-        "en": "Very high"
+        "en": "Very high",
+        "ta": "மிக அதிகம்",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -1009,7 +1293,9 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Applications of DNA fingerprinting (Alec Jeffreys, 1984)**\n• Forensics: identity from blood, semen, hair roots.\n• Paternity and kinship; disaster victim identification.\n• Wildlife forensics and breed authentication.\n• Genetic diversity and mapping in conservation and breeding."
+      "en": "**Applications of DNA fingerprinting (Alec Jeffreys, 1984)**\n• Forensics: identity from blood, semen, hair roots.\n• Paternity and kinship; disaster victim identification.\n• Wildlife forensics and breed authentication.\n• Genetic diversity and mapping in conservation and breeding.",
+      "ta": "**DNA கைரேகைப் பதிவின் பயன்பாடுகள் (அலெக் ஜெஃப்ரிஸ், 1984)**\n• தடயவியல்: இரத்தம், விந்து, மயிர்வேரிலிருந்து அடையாளம்.\n• தந்தைவழி, உறவுமுறை; பேரிடர் பாதிப்பாளர் அடையாளம்.\n• வனவிலங்கு தடயவியல், இன அங்கீகாரம்.\n• பாதுகாப்பு, இனப்பெருக்கத்தில் மரபணு பன்மையும் வரைபடமும்.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -1018,235 +1304,313 @@
   {
    "id": "s09",
    "title": {
-    "en": "Summary & Exam Revision"
+    "en": "Summary & Exam Revision",
+    "ta": "சுருக்கமும் தேர்வுத் திருப்புதலும்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Key points and model answers likely to appear in university examinations."
+      "en": "Key points and model answers likely to appear in university examinations.",
+      "ta": "பல்கலைக்கழகத் தேர்வுகளில் வர வாய்ப்புள்ள முக்கியக் குறிப்புகளும் மாதிரி விடைகளும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Key exam points**"
+      "en": "**Key exam points**",
+      "ta": "**தேர்வுக்கான முக்கியக் குறிப்புகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "1"
+      "en": "1",
+      "ta": "1",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Transgene = promoter + coding sequence + poly(A); microinjection into the **male pronucleus**."
+      "en": "Transgene = promoter + coding sequence + poly(A); microinjection into the **male pronucleus**.",
+      "ta": "மாற்றுமரபணு = ஊக்குவிப்பி + குறியீட்டு வரிசை + poly(A); **ஆண் முன்உட்கருவினுள்** நுண்செலுத்தல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "2"
+      "en": "2",
+      "ta": "2",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Knockout: ES cells, neo/tk selection, blastocyst injection, chimera, breed; 1:2:1 in F2."
+      "en": "Knockout: ES cells, neo/tk selection, blastocyst injection, chimera, breed; 1:2:1 in F2.",
+      "ta": "நாக்-அவுட்: ES செல்கள், neo/tk தெரிவு, பிளாஸ்டோசிஸ்ட் செலுத்தல், கைமீரா, இனக்கலப்பு; F2-இல் 1:2:1.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "3"
+      "en": "3",
+      "ta": "3",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Dolly (1996): SCNT from an adult mammary cell; 277 fusions gave 1 live lamb."
+      "en": "Dolly (1996): SCNT from an adult mammary cell; 277 fusions gave 1 live lamb.",
+      "ta": "டாலி (1996): முதிர் பால்சுரப்பிச் செல்லிலிருந்து SCNT; 277 இணைவுகளில் 1 உயிருள்ள ஆட்டுக்குட்டி.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "4"
+      "en": "4",
+      "ta": "4",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Animal bioreactors secrete drugs in milk (goat antithrombin, rabbit C1-inhibitor)."
+      "en": "Animal bioreactors secrete drugs in milk (goat antithrombin, rabbit C1-inhibitor).",
+      "ta": "விலங்கு உயிர்வினையகங்கள் பாலில் மருந்துகளைச் சுரக்கும் (வெள்ளாடு ஆன்டித்ராம்பின், முயல் C1-தடுப்பி).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "5"
+      "en": "5",
+      "ta": "5",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Superbug (Chakrabarty): Pseudomonas with 4 plasmids; Diamond v. Chakrabarty (1980)."
+      "en": "Superbug (Chakrabarty): Pseudomonas with 4 plasmids; Diamond v. Chakrabarty (1980).",
+      "ta": "சூப்பர்பக் (சக்கரவர்த்தி): 4 பிளாஸ்மிட்கள் கொண்ட சூடோமோனாஸ்; டயமண்ட் – சக்கரவர்த்தி வழக்கு (1980).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "6"
+      "en": "6",
+      "ta": "6",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Hybridoma: B cell + HGPRT− myeloma; HAT selects; screen, clone, expand."
+      "en": "Hybridoma: B cell + HGPRT− myeloma; HAT selects; screen, clone, expand.",
+      "ta": "ஹைப்ரிடோமா: B செல் + HGPRT− மைலோமா; HAT தெரிவு; சலிக்கை, குளோனாக்கம், பெருக்கம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "7"
+      "en": "7",
+      "ta": "7",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "-omab, -ximab, -zumab, -umab = murine, chimeric, humanised, human."
+      "en": "-omab, -ximab, -zumab, -umab = murine, chimeric, humanised, human.",
+      "ta": "-omab, -ximab, -zumab, -umab = முறையே எலி, கலப்பின, மனிதமயமாக்கப்பட்ட, மனித எதிர்ப்பொருள்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "8"
+      "en": "8",
+      "ta": "8",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Ex vivo vs in vivo gene therapy; CAR-T is ex vivo; oncolytic viruses and suicide genes."
+      "en": "Ex vivo vs in vivo gene therapy; CAR-T is ex vivo; oncolytic viruses and suicide genes.",
+      "ta": "உடல்வெளி – உடலக மரபணு சிகிச்சை; CAR-T உடல்வெளி வகை; புற்றுநோய்ச் சிதைப்பு வைரஸ்கள், தற்கொலை மரபணுக்கள்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "9"
+      "en": "9",
+      "ta": "9",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "CRISPR: gRNA + Cas9 + NGG PAM; NHEJ vs HDR."
+      "en": "CRISPR: gRNA + Cas9 + NGG PAM; NHEJ vs HDR.",
+      "ta": "CRISPR: gRNA + Cas9 + NGG PAM; NHEJ மற்றும் HDR.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "10"
+      "en": "10",
+      "ta": "10",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "RFLP (co-dominant), RAPD (dominant), STR fingerprinting (forensics)."
+      "en": "RFLP (co-dominant), RAPD (dominant), STR fingerprinting (forensics).",
+      "ta": "RFLP (இணை ஆட்சி), RAPD (ஆட்சி), STR கைரேகைப் பதிவு (தடயவியல்).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Short-answer questions**"
+      "en": "**Short-answer questions**",
+      "ta": "**குறுவினாக்கள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click a question to reveal the model answer."
+      "en": "Click a question to reveal the model answer.",
+      "ta": "ஒரு வினாவைத் தொட்டு மாதிரி விடையைக் காண்க.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.1Describe the production of a transgenic mouse.▼"
+      "en": "Q.1Describe the production of a transgenic mouse.▼",
+      "ta": "வி.1மரபணுமாற்ற எலியின் உற்பத்தியை விவரிக்க.▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "A construct (promoter + gene + poly A) is injected into the male pronucleus of fertilised eggs; embryos are transferred to a pseudopregnant foster; pups are screened by PCR/Southern; founders are bred to confirm germ-line transmission."
+      "en": "A construct (promoter + gene + poly A) is injected into the male pronucleus of fertilised eggs; embryos are transferred to a pseudopregnant foster; pups are screened by PCR/Southern; founders are bred to confirm germ-line transmission.",
+      "ta": "கட்டமைப்பு (ஊக்குவிப்பி + மரபணு + poly A) கருவுற்ற முட்டைகளின் ஆண் முன்உட்கருவினுள் செலுத்தப்படும்; கருக்கள் போலிக் கர்ப்பமுற்ற வளர்ப்புத்தாய்க்கு மாற்றப்படும்; குட்டிகள் PCR/சதர்ன் முறையால் சலிக்கை செய்யப்படும்; கருவழிக் கடத்தலை உறுதிப்படுத்த நிறுவனர்கள் இனக்கலப்பு செய்யப்படும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.2How is a knockout mouse produced?▼"
+      "en": "Q.2How is a knockout mouse produced?▼",
+      "ta": "வி.2நாக்-அவுட் எலி எவ்வாறு உருவாக்கப்படுகிறது?▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "A targeting vector with a neo cassette replaces an exon in ES cells by homologous recombination; neo and tk selection enriches targeted cells; they are injected into blastocysts to give chimeras; breeding gives heterozygotes and then homozygous knockouts."
+      "en": "A targeting vector with a neo cassette replaces an exon in ES cells by homologous recombination; neo and tk selection enriches targeted cells; they are injected into blastocysts to give chimeras; breeding gives heterozygotes and then homozygous knockouts.",
+      "ta": "neo கேசட் கொண்ட இலக்கிடு தாங்கிக்கடத்தி ES செல்களில் ஒத்த மறுகூட்டிணைவால் ஓர் எக்சானை மாற்றும்; neo, tk தெரிவு இலக்கிடப்பட்ட செல்களைச் செறிவூட்டும்; அவை பிளாஸ்டோசிஸ்ட்களில் செலுத்தப்பட்டுக் கைமீராக்களைத் தரும்; இனக்கலப்பு ஹெட்டிரோசைகஸ் எலிகளையும் பின்னர் ஹோமோசைகஸ் நாக்-அவுட்களையும் தரும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.3Explain the cloning of Dolly.▼"
+      "en": "Q.3Explain the cloning of Dolly.▼",
+      "ta": "வி.3டாலியின் குளோனாக்கத்தை விளக்குக.▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "A mammary cell from an adult ewe was starved to G0 and fused by electrical pulse with an enucleated egg; the embryo was cultured and transferred to a surrogate; 1 of 277 fusions produced a live lamb in 1996."
+      "en": "A mammary cell from an adult ewe was starved to G0 and fused by electrical pulse with an enucleated egg; the embryo was cultured and transferred to a surrogate; 1 of 277 fusions produced a live lamb in 1996.",
+      "ta": "முதிர்ந்த பெண் ஆட்டின் பால்சுரப்பிச் செல் G0 நிலைக்குப் பட்டினியிடப்பட்டு, மின் துடிப்பால் உட்கரு நீக்கிய முட்டையுடன் இணைக்கப்பட்டது; கரு வளர்க்கப்பட்டு வாடகைத் தாய்க்கு மாற்றப்பட்டது; 1996-இல் 277 இணைவுகளில் 1 உயிருள்ள ஆட்டுக்குட்டியைத் தந்தது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.4What is the role of HAT medium?▼"
+      "en": "Q.4What is the role of HAT medium?▼",
+      "ta": "வி.4HAT ஊடகத்தின் பங்கு யாது?▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Aminopterin blocks de novo nucleotide synthesis, so cells must use the salvage pathway (HGPRT, TK). HGPRT-minus myeloma cells die; unfused B cells die naturally; only hybrids survive."
+      "en": "Aminopterin blocks de novo nucleotide synthesis, so cells must use the salvage pathway (HGPRT, TK). HGPRT-minus myeloma cells die; unfused B cells die naturally; only hybrids survive.",
+      "ta": "அமினோப்டெரின் புதிதாக நியுக்ளியோடைடு தொகுப்பைத் தடுப்பதால், செல்கள் மீட்புப் பாதையை (HGPRT, TK) பயன்படுத்த வேண்டும். HGPRT-இல்லாத மைலோமா செல்கள் இறக்கும்; இணையாத B செல்கள் இயல்பாக இறக்கும்; கலப்பினங்கள் மட்டுமே உயிர்வாழும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.5Differentiate ex vivo and in vivo gene therapy.▼"
+      "en": "Q.5Differentiate ex vivo and in vivo gene therapy.▼",
+      "ta": "வி.5உடல்வெளி – உடலக மரபணு சிகிச்சையை வேறுபடுத்துக.▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Ex vivo: patient cells are modified outside the body and returned. In vivo: the gene vector is injected directly into the patient."
+      "en": "Ex vivo: patient cells are modified outside the body and returned. In vivo: the gene vector is injected directly into the patient.",
+      "ta": "உடல்வெளி: நோயாளியின் செல்கள் உடலுக்கு வெளியே மாற்றப்பட்டுத் திரும்ப அளிக்கப்படும். உடலகம்: மரபணுத் தாங்கிக்கடத்தி நேரடியாக நோயாளியில் செலுத்தப்படும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.6Write short notes on CRISPR-Cas9.▼"
+      "en": "Q.6Write short notes on CRISPR-Cas9.▼",
+      "ta": "வி.6CRISPR-Cas9 பற்றிச் சிறுகுறிப்பு வரைக.▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "A guide RNA directs Cas9 to a 20-nt target adjacent to an NGG PAM; Cas9 makes a double-strand break; NHEJ gives knockouts and HDR gives precise edits."
+      "en": "A guide RNA directs Cas9 to a 20-nt target adjacent to an NGG PAM; Cas9 makes a double-strand break; NHEJ gives knockouts and HDR gives precise edits.",
+      "ta": "வழிகாட்டி RNA, Cas9-ஐ NGG PAM அடுத்த 20-nt இலக்குக்கு வழிநடத்தும்; Cas9 இரட்டை இழை முறிவை உண்டாக்கும்; NHEJ நாக்-அவுட்களையும் HDR துல்லிய திருத்தங்களையும் தரும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.7Distinguish RFLP and RAPD.▼"
+      "en": "Q.7Distinguish RFLP and RAPD.▼",
+      "ta": "வி.7RFLP – RAPD-ஐ வேறுபடுத்துக.▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "RFLP detects fragment-length differences using restriction enzymes and a probe (co-dominant, reproducible). RAPD uses random primers in PCR (dominant, quick, less reproducible)."
+      "en": "RFLP detects fragment-length differences using restriction enzymes and a probe (co-dominant, reproducible). RAPD uses random primers in PCR (dominant, quick, less reproducible).",
+      "ta": "RFLP கட்டுப்பாட்டு நொதிகளையும் துருவியையும் கொண்டு துண்டு நீள வேறுபாடுகளைக் கண்டறியும் (இணை ஆட்சி, மீளுருவாக்கத்தக்கது). RAPD PCR-இல் தன்னிச்சைப் பிரைமர்களைப் பயன்படுத்தும் (ஆட்சி, விரைவு, குறைந்த மீளுருவாக்கத்திறன்).",
+      "ta_status": "draft"
      }
     }
    ],
@@ -1255,121 +1619,173 @@
   {
    "id": "s10",
    "title": {
-    "en": "Key Terms & Glossary"
+    "en": "Key Terms & Glossary",
+    "ta": "முக்கியச் சொற்களும் சொற்களஞ்சியமும்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Important terms in simple language."
+      "en": "Important terms in simple language.",
+      "ta": "முக்கியச் சொற்கள் எளிய மொழியில்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Transgene"
+      "en": "Transgene",
+      "ta": "மாற்றுமரபணு",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "A foreign gene inserted into an organism."
+      "en": "A foreign gene inserted into an organism.",
+      "ta": "ஓர் உயிரினத்தில் செருகப்பட்ட அயல் மரபணு.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Founder (F0)"
+      "en": "Founder (F0)",
+      "ta": "நிறுவனர் (F0)",
+      "ta_status": "bracketed"
      },
      "definition": {
-      "en": "First transgenic animal produced."
+      "en": "First transgenic animal produced.",
+      "ta": "உருவாக்கப்படும் முதல் மரபணுமாற்ற விலங்கு.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "ES cell"
+      "en": "ES cell",
+      "ta": "ES செல்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Embryonic stem cell, pluripotent and from the inner cell mass."
+      "en": "Embryonic stem cell, pluripotent and from the inner cell mass.",
+      "ta": "உள்செல் திரளிலிருந்து வரும், பல்திறன் கொண்ட கரு ஸ்டெம் செல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Chimera"
+      "en": "Chimera",
+      "ta": "கைமீரா",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Animal containing cells from two different embryos."
+      "en": "Animal containing cells from two different embryos.",
+      "ta": "இரு வெவ்வேறு கருக்களிலிருந்து வந்த செல்களைக் கொண்ட விலங்கு.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "SCNT"
+      "en": "SCNT",
+      "ta": "SCNT",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Somatic cell nuclear transfer."
+      "en": "Somatic cell nuclear transfer.",
+      "ta": "உடல் செல் உட்கரு மாற்றம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "HGPRT"
+      "en": "HGPRT",
+      "ta": "HGPRT",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Hypoxanthine-guanine phosphoribosyl transferase of the salvage pathway."
+      "en": "Hypoxanthine-guanine phosphoribosyl transferase of the salvage pathway.",
+      "ta": "மீட்புப் பாதையின் ஹைப்போசாந்தின்-குவானின் பாஸ்போரிபோசில் டிரான்ஸ்ஃபெரேஸ்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Epitope"
+      "en": "Epitope",
+      "ta": "எபிடோப்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Part of an antigen recognised by an antibody."
+      "en": "Part of an antigen recognised by an antibody.",
+      "ta": "எதிர்ப்பொருளால் அறியப்படும் எதிர்ப்பொருள் தூண்டியின் பகுதி.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Ex vivo"
+      "en": "Ex vivo",
+      "ta": "உடல்வெளி",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Treatment performed outside the body on removed cells."
+      "en": "Treatment performed outside the body on removed cells.",
+      "ta": "அகற்றிய செல்களுக்கு உடலுக்கு வெளியே செய்யப்படும் சிகிச்சை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "PAM"
+      "en": "PAM",
+      "ta": "PAM",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Protospacer adjacent motif needed by Cas9."
+      "en": "Protospacer adjacent motif needed by Cas9.",
+      "ta": "Cas9-க்குத் தேவையான புரோட்டோஸ்பேசர் அடுத்த மையக்கருவி.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "NHEJ"
+      "en": "NHEJ",
+      "ta": "NHEJ",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Non-homologous end joining; error-prone DNA repair."
+      "en": "Non-homologous end joining; error-prone DNA repair.",
+      "ta": "ஒத்தமையற்ற முனை இணைப்பு; பிழைக்கு வாய்ப்புள்ள DNA பழுதுநீக்கம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "HDR"
+      "en": "HDR",
+      "ta": "HDR",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Homology-directed repair using a template."
+      "en": "Homology-directed repair using a template.",
+      "ta": "வார்ப்புருவைப் பயன்படுத்தும் ஒத்தமைவு வழிப் பழுதுநீக்கம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "STR"
+      "en": "STR",
+      "ta": "STR",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Short tandem repeat used in DNA profiling."
+      "en": "Short tandem repeat used in DNA profiling.",
+      "ta": "DNA சுயவிவரப் பதிவில் பயன்படும் குறுகிய தொடர் மீள்வரிசை.",
+      "ta_status": "draft"
      }
     }
    ],
