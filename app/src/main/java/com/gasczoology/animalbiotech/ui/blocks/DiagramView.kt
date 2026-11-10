@@ -123,7 +123,7 @@ private fun FlatImage(a: DiagramAsset, description: String) {
                     TextButton(onClick = { zoom = 1f; pan = Offset.Zero }) { Text("Reset / மீட்டமை") }
                     TextButton(onClick = { expanded = false }) { Text("Close / மூடு") }
                 }
-                Box(Modifier.weight(1f).fillMaxWidth().clip(androidx.compose.foundation.shape.RectangleShape)
+                Box(Modifier.weight(1f).fillMaxWidth().clip(androidx.compose.ui.graphics.RectangleShape)
                     .pointerInput(Unit) {
                         detectTransformGestures { _, delta, factor, _ ->
                             zoom = (zoom * factor).coerceIn(1f, 5f)
