@@ -11,7 +11,7 @@ Success means:
 1. No `android.webkit` import and no `assets/modules/*.html` in the shipped APK.
 2. Unit I (exact scope in section 1.1) is readable natively with text, tables, callouts, key terms, glossary, and diagrams.
 3. A language setting (English / தமிழ் / Both) applies to Unit I chapters, all 292 quiz questions, all 29 revision sets, syllabus titles, and UI strings.
-4. Units II to V lose the WebView in the same release. Their chapters open a native "chapter text coming" screen with one-tap access to that topic's quiz, revision set and glossary (section 6.3). This is a deliberate, temporary reduction: students cannot read Units II to V chapter text inside the app until those units are converted.
+4. **Amended (owner request: "completely android based"):** every one of the 29 chapters ships as a native bilingual reader; no chapter is left on the WebView or on a placeholder screen at release. Chapters whose Tamil is not yet authored show English with the visible "Tamil pending" marker. The "chapter text coming" screen of section 6.3 survives only as an internal safety net for a chapter whose JSON fails to parse, never as a planned end state.
 5. Every Tamil string is flagged for owner review; none is presented as final.
 6. Package id `com.gasczoology.animalbiotech`, minSdk 26, targetSdk 35, debug keystore and `build-apk.yml` stay unchanged, so installs update in place.
 
@@ -129,10 +129,11 @@ Each milestone is one commit (or small PR) that must build green in GitHub Actio
 |---|---|---|---|
 | M1 | Schema and types: `Model.kt`, `Lang.kt`, `ChapterRepo.kt` plus JVM unit tests. Not wired into the UI. | new files only | app behaves exactly as today |
 | M2 | Extractor (`tools/`, Python) with its own unit tests; generates English JSON for the six Unit I files; extract report **including a diagram inventory**: every `<svg>` and `<figure>` in the six pilot files counted and listed (file, index, caption/id, rough element count), so M5 scope is verified against real data. JSON added to assets but unused. | tools/, assets | app unchanged |
-| M3 | Tamil for the six **chapter** JSON files, plus their review CSV; schema and coverage validator (Python). | assets, docs | app unchanged |
+| M2b | **Added.** Extractor extended to all 29 chapters (145 diagrams: 32/33/34/24/22 by unit); reproducibility check in CI. Delivered. | tools/, assets | app unchanged |
+| M3 | Tamil for the six **chapter** JSON files, then Units II to V per unit (same review CSV process), plus their review CSV; schema and coverage validator (Python). | assets, docs | app unchanged |
 | M3b | Tamil for **all 292 quiz questions** (question, four options, explanation), **all 29 revision sets** (title, key points, short answers, glossary terms and definitions) and **syllabus titles/notes**, authored inline as `*_ta` fields that the current parsers ignore, plus their review CSV (`docs/audit/tamil-review-quiz-revision.csv`). Data only. | assets, docs | app unchanged |
-| M4 | Reader UI (`LessonScreen` and block composables), language toggle. Unit I opens native; other topics still use the WebView. | ui/, MainActivity | both paths work |
-| M5 | Native diagrams for Unit I, audit log. | ui/diagram, docs | both paths work |
+| M4 | Reader UI (`LessonScreen` and block composables), language toggle. **All 29 chapters open native** (Units II to V in English with "Tamil pending" until M3 reaches them). | ui/, MainActivity | both paths work |
+| M5 | Native diagrams for all **145** (one generic Canvas renderer over per-diagram draw specs, bilingual labels by id), audit log. | ui/diagram, docs | both paths work |
 | M6 | Screens consume the M3b `*_ta` fields: bilingual quiz, revision, glossary, syllabus, search; fallback screen for topics without JSON. No Tamil authoring happens in M6. | existing screens | both paths work |
 | M7 | WebView removal, last: delete `android.webkit` use and `assets/modules`, update proguard/README, version bump. | MainActivity, assets | final |
 

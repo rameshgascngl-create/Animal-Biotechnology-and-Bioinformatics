@@ -227,6 +227,8 @@ fun normaliseTable(header: List<Bi>, rows: List<List<Bi>>): List<List<Bi>>   // 
 - [ ] **Step 2:** Implement parsing and render all list/detail text through a shared `pick(en, ta, lang)` helper built on `Bi.shown`. Add the language toggle to the About tab.
 - [ ] **Step 3:** Run tests; push; green CI.
 
+> **Amendment (completely native):** `FallbackChapterScreen` is now only a parse-failure safety net. Every topic routes to `LessonScreen` (Task 9) because all 29 chapter JSONs exist (M2b). Tasks 8 and 9 (diagrams, reader) cover all 145 diagrams, not 32.
+
 ### Task 11: Search and fallback screen
 
 **Files:** Modify `Study.kt` (`buildIndex`, `SearchScreen`); Create `ui/FallbackChapterScreen.kt`; Test `SearchTest.kt`
@@ -244,7 +246,7 @@ fun normaliseTable(header: List<Bi>, rows: List<List<Bi>>): List<List<Bi>>   // 
 **Files:** Modify `Screens.kt` (delete `ReaderScreen`), `MainActivity.kt`, `README.md`, `docs/privacy.html` if it mentions web content; Delete `app/src/main/assets/modules/`, `headings.json` if unused; Modify `app/build.gradle.kts` (`versionCode = 7`, `versionName = "2.0.0"`)
 
 - [ ] **Step 1: Failing check:** add a JVM test `NoWebViewTest` that scans `app/src/main/java` for the string `android.webkit` and asserts none are found, and asserts `assets/modules` does not exist.
-- [ ] **Step 2:** Remove `ReaderScreen` and every call site (Units II to V now route to `FallbackChapterScreen`), the HTML assets and any `Topic.url`.
+- [ ] **Step 2:** Remove `ReaderScreen` and every call site (all units already route to `LessonScreen`), the HTML assets and any `Topic.url`.
 - [ ] **Step 3:** Fix the README (292 MCQs across 29 modules; native reader; build instructions) and update `docs/RELEASE.md` if it references WebView.
 - [ ] **Step 4:** Run tests; push; green CI; download the APK artefact and confirm with `unzip -l` that `assets/modules` is absent and no `android.webkit` appears in `strings classes*.dex`.
 - [ ] **Step 5:** Open a PR into `main` with the audit reports linked. **M7 done.**
