@@ -8379,7 +8379,7 @@ bioinformatics_tools_alignment_blast.json,sections/4/blocks/9/text,**Interpretin
 bioinformatics_tools_alignment_blast.json,sections/4/blocks/10/items/0,**E-value**: expected number of hits with this score or better by chance in a database of that size. Smaller is better; < 10−5–10−10 usually suggests significance.,**E-மதிப்பு**: அவ்வளவு அளவுள்ள தரவுத்தளத்தில் இந்த மதிப்பெண் அல்லது சிறந்ததுடன் தற்செயலாக எதிர்பார்க்கப்படும் பொருத்தங்களின் எண்ணிக்கை. சிறியது சிறந்தது; < 10−5–10−10 பொதுவாக முக்கியத்துவத்தைக் குறிக்கும்.,draft,
 bioinformatics_tools_alignment_blast.json,sections/4/blocks/10/items/1,"**Bit score**: normalised score, independent of the scoring system; higher is better.",**பிட் மதிப்பெண்**: இயல்பாக்கப்பட்ட மதிப்பெண்; மதிப்பிடல் அமைப்பைச் சாராதது; அதிகமாக இருந்தால் சிறந்தது.,draft,
 bioinformatics_tools_alignment_blast.json,sections/4/blocks/10/items/2,**Query coverage** and **percent identity** should be read together with the E-value.,**வினா மூடலும்** **சதவீத ஒத்தமைவும்** E-மதிப்புடன் சேர்த்து வாசிக்கப்பட வேண்டும்.,draft,
-bioinformatics_tools_alignment_blast.json,sections/4/blocks/11/text,**BLAST versus FASTA**,**BLAST – FASTA**,draft,
+bioinformatics_tools_alignment_blast.json,sections/4/blocks/11/text,**BLAST versus FASTA**,**BLAST மற்றும் FASTA ஒப்பீடு**,draft,
 bioinformatics_tools_alignment_blast.json,sections/4/blocks/12/header/0,,,draft,
 bioinformatics_tools_alignment_blast.json,sections/4/blocks/12/header/1,BLAST,BLAST,draft,
 bioinformatics_tools_alignment_blast.json,sections/4/blocks/12/header/2,FASTA,FASTA,draft,
