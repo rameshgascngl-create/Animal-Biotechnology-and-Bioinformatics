@@ -2,25 +2,33 @@
  "id": "gene_therapy_app",
  "unit": "III",
  "title": {
-  "en": "Gene Therapy – Ex Vivo & In Vivo | GASC Nagercoil"
+  "en": "Gene Therapy – Ex Vivo & In Vivo | GASC Nagercoil",
+  "ta": "மரபணுச் சிகிச்சை – உடல்வெளி மற்றும் உடலக முறைகள் | GASC நாகர்கோவில்",
+  "ta_status": "draft"
  },
  "sections": [
   {
    "id": "s01",
    "title": {
-    "en": "Gene Therapy\nEx Vivo · In Vivo · Cancer Treatment"
+    "en": "Gene Therapy\nEx Vivo · In Vivo · Cancer Treatment",
+    "ta": "மரபணுச் சிகிச்சை\nஉடல்வெளி · உடலகம் · புற்றுநோய்ச் சிகிச்சை",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "An interactive, exam-ready study module for undergraduate students — designed for self-learning, classroom use, and revision."
+      "en": "An interactive, exam-ready study module for undergraduate students — designed for self-learning, classroom use, and revision.",
+      "ta": "இளநிலை மாணவர்களுக்கான ஊடாடும், தேர்வுக்குத் தயாரான கற்றல் பகுதி — தானே கற்றல், வகுப்பறைப் பயன்பாடு, திருப்புதலுக்கு வடிவமைக்கப்பட்டது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Learning Objectives**"
+      "en": "**Learning Objectives**",
+      "ta": "**கற்றல் நோக்கங்கள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -28,29 +36,43 @@
      "ordered": false,
      "items": [
       {
-       "en": "Define gene therapy and explain its basic principle"
+       "en": "Define gene therapy and explain its basic principle",
+       "ta": "மரபணுச் சிகிச்சையை வரையறுத்து அதன் அடிப்படைக் கோட்பாட்டை விளக்குக",
+       "ta_status": "draft"
       },
       {
-       "en": "Distinguish between ex vivo and in vivo gene therapy"
+       "en": "Distinguish between ex vivo and in vivo gene therapy",
+       "ta": "உடல்வெளி, உடலக மரபணுச் சிகிச்சைகளை வேறுபடுத்துக",
+       "ta_status": "draft"
       },
       {
-       "en": "Describe the step-by-step procedure of each approach"
+       "en": "Describe the step-by-step procedure of each approach",
+       "ta": "ஒவ்வொரு அணுகுமுறையின் படிப்படியான செயல்முறையை விவரிக்க",
+       "ta_status": "draft"
       },
       {
-       "en": "Explain the role of vectors in gene delivery"
+       "en": "Explain the role of vectors in gene delivery",
+       "ta": "மரபணுக் கடத்தலில் தாங்கிக்கடத்திகளின் பங்கை விளக்குக",
+       "ta_status": "draft"
       },
       {
-       "en": "Discuss how gene therapy is applied in cancer treatment"
+       "en": "Discuss how gene therapy is applied in cancer treatment",
+       "ta": "புற்றுநோய்ச் சிகிச்சையில் மரபணுச் சிகிச்சை எவ்வாறு பயன்படுகிறது என்பதை விவாதிக்க",
+       "ta_status": "draft"
       },
       {
-       "en": "Evaluate advantages, limitations, and ethical concerns"
+       "en": "Evaluate advantages, limitations, and ethical concerns",
+       "ta": "நன்மைகள், வரம்புகள், நெறிமுறைக் கவலைகளை மதிப்பிடுக",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "SECTION 01"
+      "en": "SECTION 01",
+      "ta": "பிரிவு 01",
+      "ta_status": "draft"
      }
     }
    ],
@@ -59,63 +81,51 @@
   {
    "id": "s02",
    "title": {
-    "en": "Introduction to Gene Therapy"
+    "en": "Introduction to Gene Therapy",
+    "ta": "மரபணுச் சிகிச்சை – அறிமுகம்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Definition\n**Gene therapy** is a medical approach in which therapeutic genes are introduced into a patient's cells to correct or compensate for a faulty gene that causes disease."
+      "en": "Definition\n**Gene therapy** is a medical approach in which therapeutic genes are introduced into a patient's cells to correct or compensate for a faulty gene that causes disease.",
+      "ta": "வரையறை\n**மரபணுச் சிகிச்சை** என்பது நோயை உண்டாக்கும் குறைபாடுள்ள மரபணுவைச் சரிசெய்ய அல்லது ஈடுசெய்ய, சிகிச்சை மரபணுக்களை நோயாளியின் செல்களுள் செலுத்தும் மருத்துவ அணுகுமுறை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Most genetic diseases arise from mutations — changes in DNA sequence — that disrupt normal protein function. Gene therapy aims to address the underlying genetic cause rather than just the symptoms."
+      "en": "Most genetic diseases arise from mutations — changes in DNA sequence — that disrupt normal protein function. Gene therapy aims to address the underlying genetic cause rather than just the symptoms.",
+      "ta": "பெரும்பாலான மரபு நோய்கள் DNA வரிசையில் ஏற்படும் மாற்றங்களான திடீர்மாற்றங்களால் உண்டாகின்றன; இவை இயல்பான புரதச் செயலைக் குலைக்கும். மரபணுச் சிகிச்சை அறிகுறிகளை மட்டுமன்றி, அடிப்படை மரபணுக் காரணத்தையே சரிசெய்ய முயல்கிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "The concept rests on a simple idea: _if a defective gene causes a disease, delivering a functional copy of that gene into the right cells should restore normal function._"
+      "en": "The concept rests on a simple idea: _if a defective gene causes a disease, delivering a functional copy of that gene into the right cells should restore normal function._",
+      "ta": "இக்கருத்து எளிய எண்ணத்தின் மேல் அமைந்தது: _குறைபாடுள்ள மரபணு நோயை உண்டாக்கினால், சரியான செல்களுள் அம்மரபணுவின் செயல்படும் படியைச் செலுத்தினால் இயல்புச் செயல் மீளும்._",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "exam",
      "text": {
-      "en": "Exam Point\nGene therapy was first clinically attempted in 1990 on a child with ADA-SCID (Adenosine Deaminase Deficiency — a form of \"bubble boy\" disease), marking a landmark in modern medicine."
+      "en": "Exam Point\nGene therapy was first clinically attempted in 1990 on a child with ADA-SCID (Adenosine Deaminase Deficiency — a form of \"bubble boy\" disease), marking a landmark in modern medicine.",
+      "ta": "தேர்வுக் குறிப்பு\nமரபணுச் சிகிச்சை 1990-இல் ADA-SCID (அடினோசின் டிஅமினேஸ் குறைபாடு — “குமிழிச் சிறுவன்” நோயின் ஒரு வகை) உள்ள குழந்தைக்கு முதன்முதலில் மருத்துவ முறையில் முயலப்பட்டது; இது நவீன மருத்துவத்தில் ஒரு மைல்கல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Importance in Modern Medicine**"
-     }
-    },
-    {
-     "type": "bullets",
-     "ordered": false,
-     "items": [
-      {
-       "en": "Offers potential cure for inherited (single-gene) disorders"
-      },
-      {
-       "en": "Provides new strategies for treating cancer"
-      },
-      {
-       "en": "Reduces dependence on life-long drug therapy"
-      },
-      {
-       "en": "Forms the basis of precision medicine"
-      }
-     ]
-    },
-    {
-     "type": "p",
-     "text": {
-      "en": "Quick Revision"
+      "en": "**Importance in Modern Medicine**",
+      "ta": "**நவீன மருத்துவத்தில் முக்கியத்துவம்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -123,26 +133,72 @@
      "ordered": false,
      "items": [
       {
-       "en": "Gene therapy treats disease at the genetic level — not just symptoms"
+       "en": "Offers potential cure for inherited (single-gene) disorders",
+       "ta": "மரபு (ஒற்றை மரபணு) நோய்களுக்கு நிரந்தரத் தீர்வுக்கான வாய்ப்பு",
+       "ta_status": "draft"
       },
       {
-       "en": "It involves delivering functional genes into patient cells"
+       "en": "Provides new strategies for treating cancer",
+       "ta": "புற்றுநோய்க்குப் புதிய சிகிச்சை உத்திகளை அளிக்கும்",
+       "ta_status": "draft"
       },
       {
-       "en": "The therapeutic gene replaces, repairs, or silences a defective gene"
+       "en": "Reduces dependence on life-long drug therapy",
+       "ta": "வாழ்நாள் முழுவதும் மருந்து சார்வைக் குறைக்கும்",
+       "ta_status": "draft"
       },
       {
-       "en": "First clinical trial: 1990 (ADA-SCID, USA)"
-      },
-      {
-       "en": "It is a cornerstone of modern biotechnology and personalised medicine"
+       "en": "Forms the basis of precision medicine",
+       "ta": "துல்லிய மருத்துவத்தின் அடிப்படையாகும்",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "SECTION 02"
+      "en": "Quick Revision",
+      "ta": "விரைவுத் திருப்புதல்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Gene therapy treats disease at the genetic level — not just symptoms",
+       "ta": "மரபணுச் சிகிச்சை நோயை மரபணு நிலையில் குணப்படுத்தும் — அறிகுறிகளை மட்டுமல்ல",
+       "ta_status": "draft"
+      },
+      {
+       "en": "It involves delivering functional genes into patient cells",
+       "ta": "செயல்படும் மரபணுக்களை நோயாளியின் செல்களுள் செலுத்துவது இதில் அடங்கும்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "The therapeutic gene replaces, repairs, or silences a defective gene",
+       "ta": "சிகிச்சை மரபணு குறைபாடுள்ள மரபணுவை மாற்றும், சரிசெய்யும் அல்லது மௌனமாக்கும்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "First clinical trial: 1990 (ADA-SCID, USA)",
+       "ta": "முதல் மருத்துவச் சோதனை: 1990 (ADA-SCID, அமெரிக்கா)",
+       "ta_status": "bracketed"
+      },
+      {
+       "en": "It is a cornerstone of modern biotechnology and personalised medicine",
+       "ta": "இது நவீன உயிரித் தொழில்நுட்பவியல், தனிநபர் மருத்துவத்தின் மூலைக்கல்",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 02",
+      "ta": "பிரிவு 02",
+      "ta_status": "draft"
      }
     }
    ]
@@ -150,61 +206,81 @@
   {
    "id": "s03",
    "title": {
-    "en": "Basic Principle of Gene Therapy"
+    "en": "Basic Principle of Gene Therapy",
+    "ta": "மரபணுச் சிகிச்சையின் அடிப்படைக் கோட்பாடு",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Gene therapy is based on three core strategies for handling a faulty gene:"
+      "en": "Gene therapy is based on three core strategies for handling a faulty gene:",
+      "ta": "குறைபாடுள்ள மரபணுவைக் கையாள மரபணுச் சிகிச்சை மூன்று மைய உத்திகளை அடிப்படையாகக் கொண்டது:",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Replace**"
+      "en": "**Replace**",
+      "ta": "**மாற்றுதல்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Insert a functional copy of the defective gene"
+      "en": "Insert a functional copy of the defective gene",
+      "ta": "குறைபாடுள்ள மரபணுவின் செயல்படும் படியைச் செருகுதல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Repair**"
+      "en": "**Repair**",
+      "ta": "**சரிசெய்தல்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Correct the existing mutation in the DNA sequence"
+      "en": "Correct the existing mutation in the DNA sequence",
+      "ta": "DNA வரிசையிலுள்ள திடீர்மாற்றத்தைத் திருத்துதல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Silence**"
+      "en": "**Silence**",
+      "ta": "**மௌனமாக்குதல்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Switch off a harmful gene that is overactive"
+      "en": "Switch off a harmful gene that is overactive",
+      "ta": "மிகையாகச் செயல்படும் தீங்கு மரபணுவை நிறுத்துதல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Role of Vectors**"
+      "en": "**Role of Vectors**",
+      "ta": "**தாங்கிக்கடத்திகளின் பங்கு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "A **vector** is the delivery vehicle that carries the therapeutic gene into target cells. Without an efficient vector, the gene cannot reach or enter the correct cell. The vector must:"
+      "en": "A **vector** is the delivery vehicle that carries the therapeutic gene into target cells. Without an efficient vector, the gene cannot reach or enter the correct cell. The vector must:",
+      "ta": "**தாங்கிக்கடத்தி** என்பது சிகிச்சை மரபணுவை இலக்குச் செல்களுள் கொண்டு செல்லும் கடத்து ஊர்தி. திறமையான தாங்கிக்கடத்தி இல்லாவிட்டால் மரபணு சரியான செல்லை அடையவோ உள்நுழையவோ முடியாது. தாங்கிக்கடத்தி:",
+      "ta_status": "draft"
      }
     },
     {
@@ -212,16 +288,24 @@
      "ordered": false,
      "items": [
       {
-       "en": "Carry the therapeutic gene"
+       "en": "Carry the therapeutic gene",
+       "ta": "சிகிச்சை மரபணுவைச் சுமக்க வேண்டும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Enter the target cell"
+       "en": "Enter the target cell",
+       "ta": "இலக்குச் செல்லினுள் நுழைய வேண்டும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Deliver the gene to the nucleus"
+       "en": "Deliver the gene to the nucleus",
+       "ta": "மரபணுவை உட்கருவுக்குக் கொண்டு சேர்க்க வேண்டும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Allow the gene to be expressed (produce protein)"
+       "en": "Allow the gene to be expressed (produce protein)",
+       "ta": "மரபணு வெளிப்பாடடைய (புரதம் உருவாக) அனுமதிக்க வேண்டும்",
+       "ta_status": "draft"
       }
      ]
     },
@@ -229,13 +313,17 @@
      "type": "callout",
      "kind": "exam",
      "text": {
-      "en": "Note on Somatic Gene Therapy\nMost approved and ongoing clinical trials use **somatic gene therapy** — modifying body (somatic) cells of the patient. These changes are not passed to offspring. Germline gene therapy (modifying reproductive cells) raises serious ethical concerns and is not routinely practised."
+      "en": "Note on Somatic Gene Therapy\nMost approved and ongoing clinical trials use **somatic gene therapy** — modifying body (somatic) cells of the patient. These changes are not passed to offspring. Germline gene therapy (modifying reproductive cells) raises serious ethical concerns and is not routinely practised.",
+      "ta": "உடல் மரபணுச் சிகிச்சை பற்றிய குறிப்பு\nஅங்கீகரிக்கப்பட்ட, நடைபெறும் பெரும்பாலான மருத்துவச் சோதனைகள் நோயாளியின் உடல் செல்களை மாற்றும் **உடல் மரபணுச் சிகிச்சையையே** பயன்படுத்துகின்றன. இம்மாற்றங்கள் சந்ததிகளுக்குக் கடத்தப்படுவதில்லை. கருவழி மரபணுச் சிகிச்சை (இனப்பெருக்கச் செல்களை மாற்றுதல்) கடுமையான நெறிமுறைக் கவலைகளை எழுப்புவதால் வழக்கமாகச் செய்யப்படுவதில்லை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Quick Revision"
+      "en": "Quick Revision",
+      "ta": "விரைவுத் திருப்புதல்",
+      "ta_status": "draft"
      }
     },
     {
@@ -243,26 +331,38 @@
      "ordered": false,
      "items": [
       {
-       "en": "Three strategies: replace, repair, or silence a defective gene"
+       "en": "Three strategies: replace, repair, or silence a defective gene",
+       "ta": "மூன்று உத்திகள்: குறைபாடுள்ள மரபணுவை மாற்றுதல், சரிசெய்தல் அல்லது மௌனமாக்குதல்",
+       "ta_status": "draft"
       },
       {
-       "en": "Vectors are carriers that deliver the therapeutic gene"
+       "en": "Vectors are carriers that deliver the therapeutic gene",
+       "ta": "தாங்கிக்கடத்திகள் சிகிச்சை மரபணுவைக் கொண்டு சேர்க்கும் ஊர்திகள்",
+       "ta_status": "draft"
       },
       {
-       "en": "Gene must reach the nucleus and be expressed to be effective"
+       "en": "Gene must reach the nucleus and be expressed to be effective",
+       "ta": "பயனளிக்க மரபணு உட்கருவை அடைந்து வெளிப்பாடடைய வேண்டும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Somatic gene therapy affects body cells only — not inheritable"
+       "en": "Somatic gene therapy affects body cells only — not inheritable",
+       "ta": "உடல் மரபணுச் சிகிச்சை உடல் செல்களை மட்டுமே பாதிக்கும் — மரபுவழி வராது",
+       "ta_status": "draft"
       },
       {
-       "en": "Germline gene therapy is ethically restricted"
+       "en": "Germline gene therapy is ethically restricted",
+       "ta": "கருவழி மரபணுச் சிகிச்சை நெறிமுறைப்படி கட்டுப்படுத்தப்பட்டது",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "SECTION 03"
+      "en": "SECTION 03",
+      "ta": "பிரிவு 03",
+      "ta_status": "draft"
      }
     }
    ]
@@ -270,85 +370,113 @@
   {
    "id": "s04",
    "title": {
-    "en": "Types of Gene Therapy"
+    "en": "Types of Gene Therapy",
+    "ta": "மரபணுச் சிகிச்சையின் வகைகள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Gene therapy is broadly classified into two types based on **where** the gene transfer takes place:"
+      "en": "Gene therapy is broadly classified into two types based on **where** the gene transfer takes place:",
+      "ta": "மரபணுக் கடத்தல் **எங்கு** நிகழ்கிறது என்பதன் அடிப்படையில் மரபணுச் சிகிச்சை இரு வகைகளாகப் பிரிக்கப்படுகிறது:",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Ex Vivo**"
+      "en": "**Ex Vivo**",
+      "ta": "**உடல்வெளி (Ex Vivo)**",
+      "ta_status": "bracketed"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Gene transfer happens _outside_ the patient's body. Cells are removed, modified in the lab, and returned."
+      "en": "Gene transfer happens _outside_ the patient's body. Cells are removed, modified in the lab, and returned.",
+      "ta": "மரபணுக் கடத்தல் நோயாளியின் உடலுக்கு _வெளியே_ நிகழும். செல்கள் அகற்றப்பட்டு, ஆய்வகத்தில் மாற்றப்பட்டுத் திருப்பிச் செலுத்தப்படும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**In Vivo**"
+      "en": "**In Vivo**",
+      "ta": "**உடலகம் (In Vivo)**",
+      "ta_status": "bracketed"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Gene transfer happens _inside_ the patient's body. The therapeutic gene/vector is delivered directly into the patient."
+      "en": "Gene transfer happens _inside_ the patient's body. The therapeutic gene/vector is delivered directly into the patient.",
+      "ta": "மரபணுக் கடத்தல் நோயாளியின் உடலுக்கு _உள்ளேயே_ நிகழும். சிகிச்சை மரபணு/தாங்கிக்கடத்தி நேரடியாக நோயாளியினுள் செலுத்தப்படும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**⚠️ Common Confusions**"
+      "en": "**⚠️ Common Confusions**",
+      "ta": "**⚠️ பொதுவான குழப்பங்கள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Gene Therapy vs Gene Cloning**"
+      "en": "**Gene Therapy vs Gene Cloning**",
+      "ta": "**மரபணுச் சிகிச்சை – மரபணு குளோனிங்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Gene therapy** introduces a therapeutic gene into a patient's cells to treat disease. **Gene cloning** is the process of making multiple identical copies of a gene (usually in bacteria) for study or production — it does not involve treating a patient. Gene cloning is often a _tool used to prepare_ the therapeutic gene before it is used in gene therapy."
+      "en": "**Gene therapy** introduces a therapeutic gene into a patient's cells to treat disease. **Gene cloning** is the process of making multiple identical copies of a gene (usually in bacteria) for study or production — it does not involve treating a patient. Gene cloning is often a _tool used to prepare_ the therapeutic gene before it is used in gene therapy.",
+      "ta": "**மரபணுச் சிகிச்சை** நோயைக் குணப்படுத்த நோயாளியின் செல்களுள் சிகிச்சை மரபணுவைச் செலுத்துவது. **மரபணு குளோனிங்** என்பது ஆய்வுக்கோ உற்பத்திக்கோ மரபணுவின் பல ஒத்த படிகளை (பெரும்பாலும் பாக்டீரியாவில்) உருவாக்கும் செயல்முறை — இதில் நோயாளிக்குச் சிகிச்சை இல்லை. மரபணுச் சிகிச்சைக்குப் பயன்படுத்துமுன் சிகிச்சை மரபணுவைத் தயாரிக்க மரபணு குளோனிங் பெரும்பாலும் _கருவியாகப் பயன்படுகிறது_.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Gene Therapy vs Genetic Engineering**"
+      "en": "**Gene Therapy vs Genetic Engineering**",
+      "ta": "**மரபணுச் சிகிச்சை – மரபணுப் பொறியியல்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Genetic engineering** is a broad set of laboratory techniques for altering DNA in any organism — including crops, bacteria, and animals — for various purposes. **Gene therapy** is a specific _medical application_ of genetic engineering focused on treating human disease. All gene therapy involves genetic engineering, but not all genetic engineering is gene therapy."
+      "en": "**Genetic engineering** is a broad set of laboratory techniques for altering DNA in any organism — including crops, bacteria, and animals — for various purposes. **Gene therapy** is a specific _medical application_ of genetic engineering focused on treating human disease. All gene therapy involves genetic engineering, but not all genetic engineering is gene therapy.",
+      "ta": "**மரபணுப் பொறியியல்** என்பது பயிர்கள், பாக்டீரியா, விலங்குகள் உள்பட எந்த உயிரினத்தின் DNA-வையும் பல்வேறு நோக்கங்களுக்காக மாற்றும் பரந்த ஆய்வகத் தொழில்நுட்பத் தொகுப்பு. **மரபணுச் சிகிச்சை** என்பது மனித நோயைக் குணப்படுத்துவதில் கவனம் செலுத்தும் மரபணுப் பொறியியலின் ஒரு குறிப்பிட்ட _மருத்துவப் பயன்பாடு_. எல்லா மரபணுச் சிகிச்சையும் மரபணுப் பொறியியலே; ஆனால் எல்லா மரபணுப் பொறியியலும் மரபணுச் சிகிச்சை அல்ல.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Ex Vivo vs In Vitro**"
+      "en": "**Ex Vivo vs In Vitro**",
+      "ta": "**உடல்வெளி – இன் விட்ரோ**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Ex vivo** means \"outside the living body\" but using cells taken from a living patient that are returned after modification. **In vitro** means experiments conducted entirely in lab conditions (e.g., in a test tube or culture dish), without necessarily returning cells to a patient."
+      "en": "**Ex vivo** means \"outside the living body\" but using cells taken from a living patient that are returned after modification. **In vitro** means experiments conducted entirely in lab conditions (e.g., in a test tube or culture dish), without necessarily returning cells to a patient.",
+      "ta": "**உடல்வெளி (Ex vivo)** என்பது “உயிருள்ள உடலுக்கு வெளியே” என்பது; ஆனால் உயிருள்ள நோயாளியிடமிருந்து எடுத்த செல்கள் மாற்றத்துக்குப் பின் திருப்பிச் செலுத்தப்படும். **இன் விட்ரோ (In vitro)** என்பது (எ.கா. சோதனைக் குழாய் அல்லது வளர்ப்புத் தட்டில்) முழுவதும் ஆய்வகச் சூழலில் நடத்தப்படும் சோதனைகள்; செல்கள் நோயாளிக்குத் திருப்பிச் செலுத்தப்பட வேண்டிய அவசியமில்லை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Quick Revision"
+      "en": "Quick Revision",
+      "ta": "விரைவுத் திருப்புதல்",
+      "ta_status": "draft"
      }
     },
     {
@@ -356,23 +484,33 @@
      "ordered": false,
      "items": [
       {
-       "en": "Ex vivo = outside the body; in vivo = inside the body"
+       "en": "Ex vivo = outside the body; in vivo = inside the body",
+       "ta": "உடல்வெளி = உடலுக்கு வெளியே; உடலகம் = உடலுக்கு உள்ளே",
+       "ta_status": "draft"
       },
       {
-       "en": "Gene therapy ≠ gene cloning (cloning copies genes; therapy uses them to treat disease)"
+       "en": "Gene therapy ≠ gene cloning (cloning copies genes; therapy uses them to treat disease)",
+       "ta": "மரபணுச் சிகிச்சை ≠ மரபணு குளோனிங் (குளோனிங் மரபணுக்களைப் படியெடுக்கும்; சிகிச்சை அவற்றைக் கொண்டு நோயைக் குணப்படுத்தும்)",
+       "ta_status": "draft"
       },
       {
-       "en": "Genetic engineering is broad; gene therapy is its medical application in humans"
+       "en": "Genetic engineering is broad; gene therapy is its medical application in humans",
+       "ta": "மரபணுப் பொறியியல் பரந்தது; மரபணுச் சிகிச்சை மனிதரில் அதன் மருத்துவப் பயன்பாடு",
+       "ta_status": "draft"
       },
       {
-       "en": "Ex vivo is generally safer; in vivo is more convenient but harder to control"
+       "en": "Ex vivo is generally safer; in vivo is more convenient but harder to control",
+       "ta": "உடல்வெளி பொதுவாகப் பாதுகாப்பானது; உடலகம் வசதியானது ஆனால் கட்டுப்படுத்துவது கடினம்",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "SECTION 04"
+      "en": "SECTION 04",
+      "ta": "பிரிவு 04",
+      "ta_status": "draft"
      }
     }
    ]
@@ -380,53 +518,73 @@
   {
    "id": "s05",
    "title": {
-    "en": "Ex Vivo Gene Therapy"
+    "en": "Ex Vivo Gene Therapy",
+    "ta": "உடல்வெளி மரபணுச் சிகிச்சை",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Definition\n**Ex vivo gene therapy** involves removing cells from the patient, introducing the therapeutic gene into these cells outside the body (in a laboratory setting), and then returning the genetically modified cells back into the patient."
+      "en": "Definition\n**Ex vivo gene therapy** involves removing cells from the patient, introducing the therapeutic gene into these cells outside the body (in a laboratory setting), and then returning the genetically modified cells back into the patient.",
+      "ta": "வரையறை\n**உடல்வெளி மரபணுச் சிகிச்சை** என்பது நோயாளியிடமிருந்து செல்களை அகற்றி, உடலுக்கு வெளியே (ஆய்வகத்தில்) அவற்றினுள் சிகிச்சை மரபணுவைச் செலுத்தி, மரபணு மாற்றப்பட்ட செல்களை மீண்டும் நோயாளியினுள் செலுத்துவது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Step-by-Step Procedure**"
+      "en": "**Step-by-Step Procedure**",
+      "ta": "**படிப்படியான செயல்முறை**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "steps",
      "items": [
       {
-       "en": "1 **Cell Isolation** Appropriate cells (e.g., haematopoietic stem cells, T-lymphocytes) are removed from the patient by a biopsy or blood draw."
+       "en": "1 **Cell Isolation** Appropriate cells (e.g., haematopoietic stem cells, T-lymphocytes) are removed from the patient by a biopsy or blood draw.",
+       "ta": "1 **செல் பிரித்தெடுத்தல்** பொருத்தமான செல்கள் (எ.கா. குருதியாக்க ஸ்டெம் செல்கள், T-நிணநீர்ச் செல்கள்) திசுத்துண்டு அல்லது இரத்தம் எடுத்தல் மூலம் நோயாளியிடமிருந்து அகற்றப்படும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "2 **Gene Transfer (In Vitro)** A vector carrying the therapeutic gene is introduced into the isolated cells in a laboratory culture dish or bioreactor."
+       "en": "2 **Gene Transfer (In Vitro)** A vector carrying the therapeutic gene is introduced into the isolated cells in a laboratory culture dish or bioreactor.",
+       "ta": "2 **மரபணுக் கடத்தல் (இன் விட்ரோ)** சிகிச்சை மரபணு கொண்ட தாங்கிக்கடத்தி, ஆய்வக வளர்ப்புத் தட்டு அல்லது உயிர்வினைக்கலனில் பிரித்தெடுத்த செல்களுள் செலுத்தப்படும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "3 **Selection & Verification** Successfully modified cells are selected and confirmed to carry the therapeutic gene using molecular techniques (e.g., PCR, Southern blotting)."
+       "en": "3 **Selection & Verification** Successfully modified cells are selected and confirmed to carry the therapeutic gene using molecular techniques (e.g., PCR, Southern blotting).",
+       "ta": "3 **தெரிவும் சரிபார்ப்பும்** வெற்றிகரமாக மாற்றப்பட்ட செல்கள் தெரிவு செய்யப்பட்டு, மூலக்கூறு நுட்பங்களால் (எ.கா. PCR, சதர்ன் கறையேற்றம்) சிகிச்சை மரபணுவைக் கொண்டுள்ளனவா என உறுதிசெய்யப்படும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "4 **Cell Expansion** The verified modified cells are grown in large numbers under sterile laboratory conditions."
+       "en": "4 **Cell Expansion** The verified modified cells are grown in large numbers under sterile laboratory conditions.",
+       "ta": "4 **செல் பெருக்கம்** சரிபார்க்கப்பட்ட மாற்றிய செல்கள் நுண்ணுயிர் நீக்கிய ஆய்வகச் சூழலில் பெரும் எண்ணிக்கையில் வளர்க்கப்படும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "5 **Reintroduction into Patient** The expanded modified cells are transfused or transplanted back into the same patient, where they resume normal function."
+       "en": "5 **Reintroduction into Patient** The expanded modified cells are transfused or transplanted back into the same patient, where they resume normal function.",
+       "ta": "5 **நோயாளியினுள் மீளச்செலுத்துதல்** பெருக்கிய மாற்றிய செல்கள் அதே நோயாளியினுள் செலுத்தப்படும் அல்லது மாற்றப்படும்; அங்கு அவை இயல்புச் செயலைத் தொடரும்.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Concept Diagram — Ex Vivo Gene Therapy**"
+      "en": "**Concept Diagram — Ex Vivo Gene Therapy**",
+      "ta": "**கருத்து வரைபடம் — உடல்வெளி மரபணுச் சிகிச்சை**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "gene_therapy_app-d01",
      "caption": {
-      "en": "Ex Vivo Gene Therapy Diagram"
+      "en": "Ex Vivo Gene Therapy Diagram",
+      "ta": "உடல்வெளி மரபணுச் சிகிச்சை வரைபடம்",
+      "ta_status": "draft"
      },
      "labels": [
       "1. Isolate",
@@ -454,7 +612,9 @@
     {
      "type": "p",
      "text": {
-      "en": "**✅ Advantages**"
+      "en": "**✅ Advantages**",
+      "ta": "**✅ நன்மைகள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -462,23 +622,33 @@
      "ordered": false,
      "items": [
       {
-       "en": "Precise control over gene modification"
+       "en": "Precise control over gene modification",
+       "ta": "மரபணு மாற்றத்தின் மீது துல்லியக் கட்டுப்பாடு",
+       "ta_status": "draft"
       },
       {
-       "en": "Modified cells verified before return"
+       "en": "Modified cells verified before return",
+       "ta": "திருப்பிச் செலுத்துமுன் மாற்றிய செல்கள் சரிபார்க்கப்படும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Lower risk of systemic immune reaction"
+       "en": "Lower risk of systemic immune reaction",
+       "ta": "உடல் முழுவதும் நோயெதிர்ப்பு வினைக்கான ஆபத்து குறைவு",
+       "ta_status": "draft"
       },
       {
-       "en": "Safer for patient"
+       "en": "Safer for patient",
+       "ta": "நோயாளிக்குப் பாதுகாப்பானது",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**❌ Limitations**"
+      "en": "**❌ Limitations**",
+      "ta": "**❌ வரம்புகள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -486,16 +656,24 @@
      "ordered": false,
      "items": [
       {
-       "en": "Complex, time-consuming process"
+       "en": "Complex, time-consuming process",
+       "ta": "சிக்கலான, நேரம் எடுக்கும் செயல்முறை",
+       "ta_status": "draft"
       },
       {
-       "en": "Only suitable for accessible cell types"
+       "en": "Only suitable for accessible cell types",
+       "ta": "எளிதில் அணுகக்கூடிய செல் வகைகளுக்கு மட்டுமே ஏற்றது",
+       "ta_status": "draft"
       },
       {
-       "en": "High cost and technical skill required"
+       "en": "High cost and technical skill required",
+       "ta": "அதிகச் செலவும் தொழில்நுட்பத் திறனும் தேவை",
+       "ta_status": "draft"
       },
       {
-       "en": "Not suitable for solid organs"
+       "en": "Not suitable for solid organs",
+       "ta": "திட உறுப்புகளுக்கு ஏற்றதல்ல",
+       "ta_status": "draft"
       }
      ]
     },
@@ -503,13 +681,17 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Clinical Examples\n• **ADA-SCID** — T-lymphocytes modified with functional ADA gene (first human gene therapy trial)\n• **Beta-thalassaemia** — haematopoietic stem cells corrected with functional beta-globin gene\n• **CAR-T cell therapy** — T-cells engineered ex vivo to target cancer cells"
+      "en": "Clinical Examples\n• **ADA-SCID** — T-lymphocytes modified with functional ADA gene (first human gene therapy trial)\n• **Beta-thalassaemia** — haematopoietic stem cells corrected with functional beta-globin gene\n• **CAR-T cell therapy** — T-cells engineered ex vivo to target cancer cells",
+      "ta": "மருத்துவ எடுத்துக்காட்டுகள்\n• **ADA-SCID** — செயல்படும் ADA மரபணுவுடன் மாற்றப்பட்ட T-நிணநீர்ச் செல்கள் (முதல் மனித மரபணுச் சிகிச்சைச் சோதனை)\n• **பீட்டா-தலசீமியா** — செயல்படும் பீட்டா-குளோபின் மரபணுவால் திருத்தப்பட்ட குருதியாக்க ஸ்டெம் செல்கள்\n• **CAR-T செல் சிகிச்சை** — புற்றுச் செல்களை இலக்கிடும்படி உடல்வெளியில் வடிவமைக்கப்பட்ட T-செல்கள்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Quick Revision"
+      "en": "Quick Revision",
+      "ta": "விரைவுத் திருப்புதல்",
+      "ta_status": "draft"
      }
     },
     {
@@ -517,26 +699,38 @@
      "ordered": false,
      "items": [
       {
-       "en": "Ex vivo = cells removed → modified in lab → returned to patient"
+       "en": "Ex vivo = cells removed → modified in lab → returned to patient",
+       "ta": "உடல்வெளி = செல்கள் அகற்றல் → ஆய்வகத்தில் மாற்றல் → நோயாளிக்குத் திருப்புதல்",
+       "ta_status": "draft"
       },
       {
-       "en": "Verification step is a key advantage — only confirmed cells are returned"
+       "en": "Verification step is a key advantage — only confirmed cells are returned",
+       "ta": "சரிபார்ப்புப் படி முக்கிய நன்மை — உறுதிசெய்யப்பட்ட செல்கள் மட்டுமே திருப்பப்படும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Best suited for haematopoietic (blood-forming) stem cells"
+       "en": "Best suited for haematopoietic (blood-forming) stem cells",
+       "ta": "குருதியாக்க (இரத்தம் உருவாக்கும்) ஸ்டெம் செல்களுக்கு மிகப் பொருத்தமானது",
+       "ta_status": "draft"
       },
       {
-       "en": "ADA-SCID is the classic clinical example"
+       "en": "ADA-SCID is the classic clinical example",
+       "ta": "ADA-SCID தலைசிறந்த மருத்துவ எடுத்துக்காட்டு",
+       "ta_status": "draft"
       },
       {
-       "en": "CAR-T cell therapy for cancer is a modern ex vivo approach"
+       "en": "CAR-T cell therapy for cancer is a modern ex vivo approach",
+       "ta": "புற்றுநோய்க்கான CAR-T செல் சிகிச்சை நவீன உடல்வெளி அணுகுமுறை",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "SECTION 05"
+      "en": "SECTION 05",
+      "ta": "பிரிவு 05",
+      "ta_status": "draft"
      }
     }
    ]
@@ -544,50 +738,68 @@
   {
    "id": "s06",
    "title": {
-    "en": "In Vivo Gene Therapy"
+    "en": "In Vivo Gene Therapy",
+    "ta": "உடலக மரபணுச் சிகிச்சை",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Definition\n**In vivo gene therapy** involves the direct delivery of the therapeutic gene (packaged in a vector) into the patient's body — straight into the target tissue or organ — without removing cells."
+      "en": "Definition\n**In vivo gene therapy** involves the direct delivery of the therapeutic gene (packaged in a vector) into the patient's body — straight into the target tissue or organ — without removing cells.",
+      "ta": "வரையறை\n**உடலக மரபணுச் சிகிச்சை** என்பது செல்களை அகற்றாமல், தாங்கிக்கடத்தியில் அடைக்கப்பட்ட சிகிச்சை மரபணுவை நோயாளியின் உடலுள் — இலக்குத் திசு அல்லது உறுப்புக்கு நேரடியாக — செலுத்துவது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Step-by-Step Procedure**"
+      "en": "**Step-by-Step Procedure**",
+      "ta": "**படிப்படியான செயல்முறை**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "steps",
      "items": [
       {
-       "en": "1 **Prepare Therapeutic Construct** The therapeutic gene is cloned into an appropriate vector (viral or non-viral) in the laboratory."
+       "en": "1 **Prepare Therapeutic Construct** The therapeutic gene is cloned into an appropriate vector (viral or non-viral) in the laboratory.",
+       "ta": "1 **சிகிச்சைக் கட்டமைப்பைத் தயாரித்தல்** சிகிச்சை மரபணு ஆய்வகத்தில் பொருத்தமான தாங்கிக்கடத்தியில் (வைரஸ் அல்லது வைரஸ் அல்லாத) குளோன் செய்யப்படும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "2 **Route of Administration** The vector–gene construct is administered to the patient via injection (intravenous, intramuscular), inhalation (lungs), or direct organ injection."
+       "en": "2 **Route of Administration** The vector–gene construct is administered to the patient via injection (intravenous, intramuscular), inhalation (lungs), or direct organ injection.",
+       "ta": "2 **செலுத்தும் வழி** தாங்கிக்கடத்தி–மரபணுக் கட்டமைப்பு ஊசி (நரம்புவழி, தசைவழி), உள்ளிழுப்பு (நுரையீரல்) அல்லது நேரடி உறுப்பு ஊசி மூலம் நோயாளிக்குச் செலுத்தப்படும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "3 **Vector Reaches Target Cells** The vector travels through the bloodstream or tissue and enters the target cells in the living organ."
+       "en": "3 **Vector Reaches Target Cells** The vector travels through the bloodstream or tissue and enters the target cells in the living organ.",
+       "ta": "3 **தாங்கிக்கடத்தி இலக்குச் செல்களை அடைதல்** தாங்கிக்கடத்தி இரத்த ஓட்டம் அல்லது திசு வழியாகச் சென்று, உயிருள்ள உறுப்பிலுள்ள இலக்குச் செல்களினுள் நுழையும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "4 **Gene Integration / Expression** The therapeutic gene is delivered to the cell nucleus, where it is expressed (transcribed and translated) to produce the therapeutic protein."
+       "en": "4 **Gene Integration / Expression** The therapeutic gene is delivered to the cell nucleus, where it is expressed (transcribed and translated) to produce the therapeutic protein.",
+       "ta": "4 **மரபணு இணைதல் / வெளிப்பாடு** சிகிச்சை மரபணு செல் உட்கருவை அடைந்து, வெளிப்பாடடைந்து (படியெடுக்கப்பட்டு மொழிபெயர்க்கப்பட்டு) சிகிச்சைப் புரதத்தை உருவாக்கும்.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Concept Diagram — In Vivo Gene Therapy**"
+      "en": "**Concept Diagram — In Vivo Gene Therapy**",
+      "ta": "**கருத்து வரைபடம் — உடலக மரபணுச் சிகிச்சை**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "gene_therapy_app-d02",
      "caption": {
-      "en": "In Vivo Gene Therapy Diagram"
+      "en": "In Vivo Gene Therapy Diagram",
+      "ta": "உடலக மரபணுச் சிகிச்சை வரைபடம்",
+      "ta_status": "draft"
      },
      "labels": [
       "1. Prepare",
@@ -611,7 +823,9 @@
     {
      "type": "p",
      "text": {
-      "en": "**✅ Advantages**"
+      "en": "**✅ Advantages**",
+      "ta": "**✅ நன்மைகள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -619,23 +833,33 @@
      "ordered": false,
      "items": [
       {
-       "en": "Simpler — no cell removal needed"
+       "en": "Simpler — no cell removal needed",
+       "ta": "எளிமையானது — செல் அகற்றல் தேவையில்லை",
+       "ta_status": "draft"
       },
       {
-       "en": "Suitable for organs (liver, lung, brain)"
+       "en": "Suitable for organs (liver, lung, brain)",
+       "ta": "உறுப்புகளுக்கு (கல்லீரல், நுரையீரல், மூளை) ஏற்றது",
+       "ta_status": "draft"
       },
       {
-       "en": "Faster administration"
+       "en": "Faster administration",
+       "ta": "விரைவாகச் செலுத்தலாம்",
+       "ta_status": "draft"
       },
       {
-       "en": "Can target many cell types at once"
+       "en": "Can target many cell types at once",
+       "ta": "பல செல் வகைகளை ஒரே நேரத்தில் இலக்கிடலாம்",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**❌ Limitations**"
+      "en": "**❌ Limitations**",
+      "ta": "**❌ வரம்புகள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -643,16 +867,24 @@
      "ordered": false,
      "items": [
       {
-       "en": "Vector may trigger immune response"
+       "en": "Vector may trigger immune response",
+       "ta": "தாங்கிக்கடத்தி நோயெதிர்ப்பு வினையைத் தூண்டலாம்",
+       "ta_status": "draft"
       },
       {
-       "en": "Difficult to control specificity"
+       "en": "Difficult to control specificity",
+       "ta": "தனித்தன்மையைக் கட்டுப்படுத்துவது கடினம்",
+       "ta_status": "draft"
       },
       {
-       "en": "Risk of off-target gene delivery"
+       "en": "Risk of off-target gene delivery",
+       "ta": "இலக்கு அல்லாத இடங்களில் மரபணு சேரும் ஆபத்து",
+       "ta_status": "draft"
       },
       {
-       "en": "Cells cannot be verified before treatment"
+       "en": "Cells cannot be verified before treatment",
+       "ta": "சிகிச்சைக்கு முன் செல்களைச் சரிபார்க்க இயலாது",
+       "ta_status": "draft"
       }
      ]
     },
@@ -660,13 +892,17 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Clinical Examples\n• **Cystic Fibrosis** — CFTR gene delivered by aerosol/vector into lung cells\n• **Haemophilia B** — Factor IX gene delivered by AAV vector into liver cells\n• **Leber Congenital Amaurosis** — RPE65 gene delivered by AAV into retinal cells (Luxturna — FDA approved)"
+      "en": "Clinical Examples\n• **Cystic Fibrosis** — CFTR gene delivered by aerosol/vector into lung cells\n• **Haemophilia B** — Factor IX gene delivered by AAV vector into liver cells\n• **Leber Congenital Amaurosis** — RPE65 gene delivered by AAV into retinal cells (Luxturna — FDA approved)",
+      "ta": "மருத்துவ எடுத்துக்காட்டுகள்\n• **சிஸ்டிக் ஃபைப்ரோசிஸ்** — CFTR மரபணு நுரையீரல் செல்களுள் ஏரோசால்/தாங்கிக்கடத்தி வழியாகச் செலுத்தப்படும்\n• **ஹீமோஃபிலியா B** — Factor IX மரபணு AAV தாங்கிக்கடத்தி மூலம் கல்லீரல் செல்களுள் செலுத்தப்படும்\n• **லெபர் பிறவி விழிப்படல அழிவு** — RPE65 மரபணு AAV மூலம் விழித்திரைச் செல்களுள் செலுத்தப்படும் (Luxturna — FDA அங்கீகாரம்)",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Quick Revision"
+      "en": "Quick Revision",
+      "ta": "விரைவுத் திருப்புதல்",
+      "ta_status": "draft"
      }
     },
     {
@@ -674,26 +910,38 @@
      "ordered": false,
      "items": [
       {
-       "en": "In vivo = vector + gene delivered directly into patient's body"
+       "en": "In vivo = vector + gene delivered directly into patient's body",
+       "ta": "உடலகம் = தாங்கிக்கடத்தி + மரபணு நேரடியாக நோயாளியின் உடலினுள் செலுத்தப்படுதல்",
+       "ta_status": "draft"
       },
       {
-       "en": "No cell isolation step — simpler but harder to control"
+       "en": "No cell isolation step — simpler but harder to control",
+       "ta": "செல் பிரித்தெடுக்கும் படி இல்லை — எளிமையானது ஆனால் கட்டுப்படுத்துவது கடினம்",
+       "ta_status": "draft"
       },
       {
-       "en": "Immune response to the vector is a major limitation"
+       "en": "Immune response to the vector is a major limitation",
+       "ta": "தாங்கிக்கடத்திக்கான நோயெதிர்ப்பு வினை முக்கிய வரம்பு",
+       "ta_status": "draft"
       },
       {
-       "en": "AAV (Adeno-Associated Virus) is the most commonly used vector for in vivo therapy"
+       "en": "AAV (Adeno-Associated Virus) is the most commonly used vector for in vivo therapy",
+       "ta": "AAV (அடினோ-தொடர்புடைய வைரஸ்) உடலகச் சிகிச்சையில் மிகப் பொதுவாகப் பயன்படும் தாங்கிக்கடத்தி",
+       "ta_status": "draft"
       },
       {
-       "en": "Luxturna (eye disease) is a landmark FDA-approved in vivo gene therapy product"
+       "en": "Luxturna (eye disease) is a landmark FDA-approved in vivo gene therapy product",
+       "ta": "Luxturna (கண் நோய்) FDA அங்கீகரித்த குறிப்பிடத்தக்க உடலக மரபணுச் சிகிச்சைப் பொருள்",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "SECTION 06"
+      "en": "SECTION 06",
+      "ta": "பிரிவு 06",
+      "ta_status": "draft"
      }
     }
    ]
@@ -701,26 +949,34 @@
   {
    "id": "s07",
    "title": {
-    "en": "Comparison: Ex Vivo vs In Vivo"
+    "en": "Comparison: Ex Vivo vs In Vivo",
+    "ta": "ஒப்பீடு: உடல்வெளி – உடலகம்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "**Side-by-Side Comparison Diagram**"
+      "en": "**Side-by-Side Comparison Diagram**",
+      "ta": "**அருகருகான ஒப்பீட்டு வரைபடம்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "🧫 Ex Vivo Gene Therapy"
+      "en": "🧫 Ex Vivo Gene Therapy",
+      "ta": "🧫 உடல்வெளி மரபணுச் சிகிச்சை",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "gene_therapy_app-d03",
      "caption": {
-      "en": ""
+      "en": "",
+      "ta": "",
+      "ta_status": "draft"
      },
      "labels": [
       "🧑",
@@ -738,14 +994,18 @@
     {
      "type": "p",
      "text": {
-      "en": "💉 In Vivo Gene Therapy"
+      "en": "💉 In Vivo Gene Therapy",
+      "ta": "💉 உடலக மரபணுச் சிகிச்சை",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "gene_therapy_app-d04",
      "caption": {
-      "en": ""
+      "en": "",
+      "ta": "",
+      "ta_status": "draft"
      },
      "labels": [
       "LABORATORY",
@@ -763,120 +1023,182 @@
     {
      "type": "p",
      "text": {
-      "en": "**Detailed Comparison Table**"
+      "en": "**Detailed Comparison Table**",
+      "ta": "**விரிவான ஒப்பீட்டு அட்டவணை**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "table",
      "header": [
       {
-       "en": "Feature"
+       "en": "Feature",
+       "ta": "பண்பு",
+       "ta_status": "draft"
       },
       {
-       "en": "Ex Vivo Gene Therapy"
+       "en": "Ex Vivo Gene Therapy",
+       "ta": "உடல்வெளி மரபணுச் சிகிச்சை",
+       "ta_status": "draft"
       },
       {
-       "en": "In Vivo Gene Therapy"
+       "en": "In Vivo Gene Therapy",
+       "ta": "உடலக மரபணுச் சிகிச்சை",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "Site of Gene Transfer"
+        "en": "Site of Gene Transfer",
+        "ta": "மரபணுக் கடத்தல் நிகழும் இடம்",
+        "ta_status": "draft"
        },
        {
-        "en": "Outside the patient's body (in the lab)"
+        "en": "Outside the patient's body (in the lab)",
+        "ta": "நோயாளியின் உடலுக்கு வெளியே (ஆய்வகத்தில்)",
+        "ta_status": "draft"
        },
        {
-        "en": "Inside the patient's body"
+        "en": "Inside the patient's body",
+        "ta": "நோயாளியின் உடலுக்கு உள்ளே",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "Procedure"
+        "en": "Procedure",
+        "ta": "செயல்முறை",
+        "ta_status": "draft"
        },
        {
-        "en": "Cells removed → modified in lab → returned"
+        "en": "Cells removed → modified in lab → returned",
+        "ta": "செல்கள் அகற்றல் → ஆய்வகத்தில் மாற்றல் → திருப்புதல்",
+        "ta_status": "draft"
        },
        {
-        "en": "Vector + gene delivered directly into patient"
+        "en": "Vector + gene delivered directly into patient",
+        "ta": "தாங்கிக்கடத்தி + மரபணு நேரடியாக நோயாளியினுள் செலுத்தப்படும்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "Cell Verification"
+        "en": "Cell Verification",
+        "ta": "செல் சரிபார்ப்பு",
+        "ta_status": "draft"
        },
        {
-        "en": "Possible before reinfusion"
+        "en": "Possible before reinfusion",
+        "ta": "மீளச்செலுத்துமுன் சாத்தியம்",
+        "ta_status": "draft"
        },
        {
-        "en": "Not possible — no pre-verification"
+        "en": "Not possible — no pre-verification",
+        "ta": "சாத்தியமில்லை — முன்சரிபார்ப்பு இல்லை",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "Complexity"
+        "en": "Complexity",
+        "ta": "சிக்கல்தன்மை",
+        "ta_status": "draft"
        },
        {
-        "en": "More complex, multi-step"
+        "en": "More complex, multi-step",
+        "ta": "மிகச் சிக்கலானது, பல படிகள்",
+        "ta_status": "draft"
        },
        {
-        "en": "Simpler, fewer steps"
+        "en": "Simpler, fewer steps",
+        "ta": "எளிமையானது, குறைந்த படிகள்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "Suitable for"
+        "en": "Suitable for",
+        "ta": "ஏற்றது",
+        "ta_status": "draft"
        },
        {
-        "en": "Accessible cells (blood, bone marrow)"
+        "en": "Accessible cells (blood, bone marrow)",
+        "ta": "எளிதில் அணுகும் செல்கள் (இரத்தம், எலும்பு மஜ்ஜை)",
+        "ta_status": "draft"
        },
        {
-        "en": "Organs (lung, liver, eye, brain)"
+        "en": "Organs (lung, liver, eye, brain)",
+        "ta": "உறுப்புகள் (நுரையீரல், கல்லீரல், கண், மூளை)",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "Risk of Immune Response"
+        "en": "Risk of Immune Response",
+        "ta": "நோயெதிர்ப்பு வினை ஆபத்து",
+        "ta_status": "draft"
        },
        {
-        "en": "Lower (autologous cells returned)"
+        "en": "Lower (autologous cells returned)",
+        "ta": "குறைவு (தன்னுடைய செல்களே திருப்பப்படுகின்றன)",
+        "ta_status": "draft"
        },
        {
-        "en": "Higher (vector may trigger immune reaction)"
+        "en": "Higher (vector may trigger immune reaction)",
+        "ta": "அதிகம் (தாங்கிக்கடத்தி நோயெதிர்ப்பு வினையைத் தூண்டலாம்)",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "Safety"
+        "en": "Safety",
+        "ta": "பாதுகாப்பு",
+        "ta_status": "draft"
        },
        {
-        "en": "Safer — controlled conditions"
+        "en": "Safer — controlled conditions",
+        "ta": "பாதுகாப்பானது — கட்டுப்படுத்தப்பட்ட சூழல்",
+        "ta_status": "draft"
        },
        {
-        "en": "Less controlled — systemic spread risk"
+        "en": "Less controlled — systemic spread risk",
+        "ta": "குறைவாகக் கட்டுப்படுத்தப்படுவது — உடல் முழுவதும் பரவும் ஆபத்து",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "Cost"
+        "en": "Cost",
+        "ta": "செலவு",
+        "ta_status": "draft"
        },
        {
-        "en": "High (lab procedures needed)"
+        "en": "High (lab procedures needed)",
+        "ta": "அதிகம் (ஆய்வகச் செயல்முறைகள் தேவை)",
+        "ta_status": "draft"
        },
        {
-        "en": "Relatively lower per treatment"
+        "en": "Relatively lower per treatment",
+        "ta": "ஒரு சிகிச்சைக்குச் சற்றுக் குறைவு",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "Applications"
+        "en": "Applications",
+        "ta": "பயன்பாடுகள்",
+        "ta_status": "draft"
        },
        {
-        "en": "ADA-SCID, beta-thalassaemia, CAR-T"
+        "en": "ADA-SCID, beta-thalassaemia, CAR-T",
+        "ta": "ADA-SCID, பீட்டா-தலசீமியா, CAR-T",
+        "ta_status": "draft"
        },
        {
-        "en": "Cystic fibrosis, haemophilia, Leber's amaurosis"
+        "en": "Cystic fibrosis, haemophilia, Leber's amaurosis",
+        "ta": "சிஸ்டிக் ஃபைப்ரோசிஸ், ஹீமோஃபிலியா, லெபர் விழிப்படல அழிவு",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -884,7 +1206,9 @@
     {
      "type": "p",
      "text": {
-      "en": "Quick Revision"
+      "en": "Quick Revision",
+      "ta": "விரைவுத் திருப்புதல்",
+      "ta_status": "draft"
      }
     },
     {
@@ -892,26 +1216,38 @@
      "ordered": false,
      "items": [
       {
-       "en": "Ex vivo: cells out → modified → returned. In vivo: gene goes in directly"
+       "en": "Ex vivo: cells out → modified → returned. In vivo: gene goes in directly",
+       "ta": "உடல்வெளி: செல்கள் வெளியே → மாற்றம் → திருப்புதல். உடலகம்: மரபணு நேரடியாக உள்ளே செல்லும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Key advantage of ex vivo: cell verification before return"
+       "en": "Key advantage of ex vivo: cell verification before return",
+       "ta": "உடல்வெளியின் முக்கிய நன்மை: திருப்புமுன் செல் சரிபார்ப்பு",
+       "ta_status": "draft"
       },
       {
-       "en": "Key advantage of in vivo: suitable for solid organs and tissues"
+       "en": "Key advantage of in vivo: suitable for solid organs and tissues",
+       "ta": "உடலகத்தின் முக்கிய நன்மை: திட உறுப்புகள், திசுக்களுக்கு ஏற்றது",
+       "ta_status": "draft"
       },
       {
-       "en": "Ex vivo is safer but more complex and expensive"
+       "en": "Ex vivo is safer but more complex and expensive",
+       "ta": "உடல்வெளி பாதுகாப்பானது ஆனால் சிக்கலானது, செலவு மிகுந்தது",
+       "ta_status": "draft"
       },
       {
-       "en": "In vivo carries risk of immune reaction to the vector"
+       "en": "In vivo carries risk of immune reaction to the vector",
+       "ta": "உடலகத்தில் தாங்கிக்கடத்திக்கு நோயெதிர்ப்பு வினை ஆபத்து உண்டு",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "SECTION 07"
+      "en": "SECTION 07",
+      "ta": "பிரிவு 07",
+      "ta_status": "draft"
      }
     }
    ]
@@ -919,19 +1255,25 @@
   {
    "id": "s08",
    "title": {
-    "en": "Vectors Used in Gene Therapy"
+    "en": "Vectors Used in Gene Therapy",
+    "ta": "மரபணுச் சிகிச்சையில் பயன்படும் தாங்கிக்கடத்திகள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "A **vector** is the delivery system that carries the therapeutic gene into the target cell. Choosing the right vector is critical for the success of gene therapy."
+      "en": "A **vector** is the delivery system that carries the therapeutic gene into the target cell. Choosing the right vector is critical for the success of gene therapy.",
+      "ta": "**தாங்கிக்கடத்தி** என்பது சிகிச்சை மரபணுவை இலக்குச் செல்லுள் கொண்டு செல்லும் கடத்து அமைப்பு. சரியான தாங்கிக்கடத்தியைத் தெரிவு செய்வது மரபணுச் சிகிச்சையின் வெற்றிக்கு முக்கியம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🦠 Retroviral Vectors**"
+      "en": "**🦠 Retroviral Vectors**",
+      "ta": "**🦠 ரெட்ரோவைரஸ் தாங்கிக்கடத்திகள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -939,23 +1281,33 @@
      "ordered": false,
      "items": [
       {
-       "en": "Derived from retroviruses (e.g., Moloney murine leukaemia virus)"
+       "en": "Derived from retroviruses (e.g., Moloney murine leukaemia virus)",
+       "ta": "ரெட்ரோவைரஸ்களிலிருந்து பெறப்பட்டவை (எ.கா. மோலோனி எலி இரத்தப் புற்று வைரஸ்)",
+       "ta_status": "draft"
       },
       {
-       "en": "Integrate permanently into host genome"
+       "en": "Integrate permanently into host genome",
+       "ta": "ஓம்புயிரி மரபணுத்தொகையத்தில் நிரந்தரமாக இணையும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Good for dividing cells (e.g., stem cells)"
+       "en": "Good for dividing cells (e.g., stem cells)",
+       "ta": "பிளவுறும் செல்களுக்கு (எ.கா. ஸ்டெம் செல்கள்) ஏற்றவை",
+       "ta_status": "draft"
       },
       {
-       "en": "Risk: insertional mutagenesis"
+       "en": "Risk: insertional mutagenesis",
+       "ta": "ஆபத்து: உட்செருகல் திடீர்மாற்றவாக்கம்",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**🧬 Adenoviral Vectors**"
+      "en": "**🧬 Adenoviral Vectors**",
+      "ta": "**🧬 அடினோவைரஸ் தாங்கிக்கடத்திகள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -963,23 +1315,33 @@
      "ordered": false,
      "items": [
       {
-       "en": "Derived from adenoviruses (common cold virus)"
+       "en": "Derived from adenoviruses (common cold virus)",
+       "ta": "அடினோவைரஸ்களிலிருந்து (சளிக்காய்ச்சல் வைரஸ்) பெறப்பட்டவை",
+       "ta_status": "draft"
       },
       {
-       "en": "High transduction efficiency"
+       "en": "High transduction efficiency",
+       "ta": "உயர் டிரான்ஸ்டக்ஷன் திறன்",
+       "ta_status": "draft"
       },
       {
-       "en": "Do not integrate — transient expression"
+       "en": "Do not integrate — transient expression",
+       "ta": "இணைவதில்லை — தற்காலிக வெளிப்பாடு",
+       "ta_status": "draft"
       },
       {
-       "en": "Risk: strong immune response"
+       "en": "Risk: strong immune response",
+       "ta": "ஆபத்து: வலுவான நோயெதிர்ப்பு வினை",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**⭕ AAV Vectors**"
+      "en": "**⭕ AAV Vectors**",
+      "ta": "**⭕ AAV தாங்கிக்கடத்திகள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -987,23 +1349,33 @@
      "ordered": false,
      "items": [
       {
-       "en": "Adeno-Associated Virus — most popular today"
+       "en": "Adeno-Associated Virus — most popular today",
+       "ta": "அடினோ-தொடர்புடைய வைரஸ் — இன்று மிகப் பிரபலமானது",
+       "ta_status": "draft"
       },
       {
-       "en": "Low immunogenicity; stable expression"
+       "en": "Low immunogenicity; stable expression",
+       "ta": "குறைந்த நோயெதிர்ப்பு உண்டாக்கும் திறன்; நிலையான வெளிப்பாடு",
+       "ta_status": "draft"
       },
       {
-       "en": "Used in Luxturna and Zolgensma"
+       "en": "Used in Luxturna and Zolgensma",
+       "ta": "Luxturna, Zolgensma ஆகியவற்றில் பயன்படுகிறது",
+       "ta_status": "draft"
       },
       {
-       "en": "Limited cargo capacity (<5 kb)"
+       "en": "Limited cargo capacity (<5 kb)",
+       "ta": "சுமக்கும் அளவு வரம்புடையது (<5 kb)",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**💊 Non-Viral Vectors**"
+      "en": "**💊 Non-Viral Vectors**",
+      "ta": "**💊 வைரஸ் அல்லாத தாங்கிக்கடத்திகள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -1011,16 +1383,24 @@
      "ordered": false,
      "items": [
       {
-       "en": "Liposomes, nanoparticles, naked DNA"
+       "en": "Liposomes, nanoparticles, naked DNA",
+       "ta": "லிப்போசோம்கள், நானோதுகள்கள், வெற்று DNA",
+       "ta_status": "draft"
       },
       {
-       "en": "Lower immune response than viral vectors"
+       "en": "Lower immune response than viral vectors",
+       "ta": "வைரஸ் தாங்கிக்கடத்திகளைவிடக் குறைந்த நோயெதிர்ப்பு வினை",
+       "ta_status": "draft"
       },
       {
-       "en": "Less efficient gene delivery"
+       "en": "Less efficient gene delivery",
+       "ta": "மரபணுக் கடத்தல் திறன் குறைவு",
+       "ta_status": "draft"
       },
       {
-       "en": "Used in some cancer & vaccine approaches"
+       "en": "Used in some cancer & vaccine approaches",
+       "ta": "சில புற்றுநோய், தடுப்பூசி அணுகுமுறைகளில் பயன்படுகிறது",
+       "ta_status": "draft"
       }
      ]
     },
@@ -1028,13 +1408,17 @@
      "type": "callout",
      "kind": "exam",
      "text": {
-      "en": "Exam Point\n**Viral vectors are more efficient** than non-viral vectors but carry greater risks (immune reaction, insertional mutagenesis). AAV is currently the most preferred vector for approved gene therapies."
+      "en": "Exam Point\n**Viral vectors are more efficient** than non-viral vectors but carry greater risks (immune reaction, insertional mutagenesis). AAV is currently the most preferred vector for approved gene therapies.",
+      "ta": "தேர்வுக் குறிப்பு\n**வைரஸ் தாங்கிக்கடத்திகள்** வைரஸ் அல்லாதவற்றைவிடத் **திறன் மிக்கவை**; ஆனால் அதிக ஆபத்துகளையும் (நோயெதிர்ப்பு வினை, உட்செருகல் திடீர்மாற்றவாக்கம்) கொண்டவை. அங்கீகரிக்கப்பட்ட மரபணுச் சிகிச்சைகளுக்கு AAV தற்போது மிகவும் விரும்பப்படும் தாங்கிக்கடத்தி.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Quick Revision"
+      "en": "Quick Revision",
+      "ta": "விரைவுத் திருப்புதல்",
+      "ta_status": "draft"
      }
     },
     {
@@ -1042,26 +1426,38 @@
      "ordered": false,
      "items": [
       {
-       "en": "Vectors = gene delivery vehicles"
+       "en": "Vectors = gene delivery vehicles",
+       "ta": "தாங்கிக்கடத்திகள் = மரபணுக் கடத்து ஊர்திகள்",
+       "ta_status": "draft"
       },
       {
-       "en": "Viral vectors (retrovirus, adenovirus, AAV) are most efficient"
+       "en": "Viral vectors (retrovirus, adenovirus, AAV) are most efficient",
+       "ta": "வைரஸ் தாங்கிக்கடத்திகள் (ரெட்ரோவைரஸ், அடினோவைரஸ், AAV) மிகத் திறன் மிக்கவை",
+       "ta_status": "draft"
       },
       {
-       "en": "AAV is currently the most widely used approved vector"
+       "en": "AAV is currently the most widely used approved vector",
+       "ta": "AAV இன்று மிகப் பரவலாகப் பயன்படும் அங்கீகரிக்கப்பட்ட தாங்கிக்கடத்தி",
+       "ta_status": "draft"
       },
       {
-       "en": "Non-viral vectors (liposomes) are safer but less efficient"
+       "en": "Non-viral vectors (liposomes) are safer but less efficient",
+       "ta": "வைரஸ் அல்லாத தாங்கிக்கடத்திகள் (லிப்போசோம்கள்) பாதுகாப்பானவை ஆனால் திறன் குறைவு",
+       "ta_status": "draft"
       },
       {
-       "en": "Retroviral vectors integrate into genome — risk of mutagenesis"
+       "en": "Retroviral vectors integrate into genome — risk of mutagenesis",
+       "ta": "ரெட்ரோவைரஸ் தாங்கிக்கடத்திகள் மரபணுத்தொகையத்தில் இணையும் — திடீர்மாற்றவாக்க ஆபத்து",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "SECTION 08"
+      "en": "SECTION 08",
+      "ta": "பிரிவு 08",
+      "ta_status": "draft"
      }
     }
    ]
@@ -1069,81 +1465,107 @@
   {
    "id": "s09",
    "title": {
-    "en": "Role of Gene Therapy in Cancer Treatment"
+    "en": "Role of Gene Therapy in Cancer Treatment",
+    "ta": "புற்றுநோய்ச் சிகிச்சையில் மரபணுச் சிகிச்சையின் பங்கு",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Background\nCancer is fundamentally a genetic disease — it arises when genes that regulate cell growth become damaged or dysregulated. Gene therapy offers strategies to directly address this at the molecular level."
+      "en": "Background\nCancer is fundamentally a genetic disease — it arises when genes that regulate cell growth become damaged or dysregulated. Gene therapy offers strategies to directly address this at the molecular level.",
+      "ta": "பின்னணி\nபுற்றுநோய் அடிப்படையில் ஒரு மரபு நோய் — செல் வளர்ச்சியை ஒழுங்குபடுத்தும் மரபணுக்கள் சேதமடையும்போது அல்லது சீர்குலையும்போது உண்டாகிறது. மரபணுச் சிகிச்சை இதை மூலக்கூறு நிலையிலேயே நேரடியாகக் கையாளும் உத்திகளை அளிக்கிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Key Approaches in Cancer Gene Therapy**"
+      "en": "**Key Approaches in Cancer Gene Therapy**",
+      "ta": "**புற்றுநோய் மரபணுச் சிகிச்சையின் முக்கிய அணுகுமுறைகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🛡️ Tumour Suppressor Restoration**"
+      "en": "**🛡️ Tumour Suppressor Restoration**",
+      "ta": "**🛡️ கட்டி அடக்கி மரபணுவை மீட்டல்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Many cancers involve loss of tumour suppressor genes like _p53_. Delivering a functional copy of p53 into tumour cells can restore normal cell cycle control and trigger apoptosis (cell death) in cancer cells."
+      "en": "Many cancers involve loss of tumour suppressor genes like _p53_. Delivering a functional copy of p53 into tumour cells can restore normal cell cycle control and trigger apoptosis (cell death) in cancer cells.",
+      "ta": "பல புற்றுநோய்களில் _p53_ போன்ற கட்டி அடக்கி மரபணுக்கள் இழக்கப்படுகின்றன. p53-யின் செயல்படும் படியைக் கட்டிச் செல்களுள் செலுத்தினால், இயல்பான செல் சுழற்சிக் கட்டுப்பாடு மீண்டு, புற்றுச் செல்களில் அப்போப்டோசிஸ் (செல் இறப்பு) தூண்டப்படும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**💪 Immune System Stimulation**"
+      "en": "**💪 Immune System Stimulation**",
+      "ta": "**💪 நோயெதிர்ப்பு மண்டலத் தூண்டல்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Genes encoding immune-stimulating molecules (cytokines, antigens) are introduced to activate the immune system to recognise and destroy cancer cells. CAR-T cell therapy is a landmark application of this approach."
+      "en": "Genes encoding immune-stimulating molecules (cytokines, antigens) are introduced to activate the immune system to recognise and destroy cancer cells. CAR-T cell therapy is a landmark application of this approach.",
+      "ta": "புற்றுச் செல்களை அறிந்து அழிக்க நோயெதிர்ப்பு மண்டலத்தைச் செயல்படுத்தும் நோயெதிர்ப்புத் தூண்டு மூலக்கூறுகளை (சைட்டோகைன்கள், எதிர்ப்பொருள் தூண்டிகள்) குறியீடு செய்யும் மரபணுக்கள் செலுத்தப்படும். CAR-T செல் சிகிச்சை இவ்வணுகுமுறையின் குறிப்பிடத்தக்க பயன்பாடு.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**☠️ Suicide Gene Therapy**"
+      "en": "**☠️ Suicide Gene Therapy**",
+      "ta": "**☠️ தற்கொலை மரபணுச் சிகிச்சை**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "A \"suicide gene\" (e.g., HSV-TK) is introduced into cancer cells. When a harmless prodrug is given, the enzyme produced by the suicide gene converts it into a toxic compound specifically inside cancer cells, killing them."
+      "en": "A \"suicide gene\" (e.g., HSV-TK) is introduced into cancer cells. When a harmless prodrug is given, the enzyme produced by the suicide gene converts it into a toxic compound specifically inside cancer cells, killing them.",
+      "ta": "“தற்கொலை மரபணு” (எ.கா. HSV-TK) புற்றுச் செல்களுள் செலுத்தப்படும். தீங்கற்ற புரோட்ரக் (முன்மருந்து) கொடுக்கப்படும்போது, தற்கொலை மரபணு உருவாக்கும் நொதி அதைப் புற்றுச் செல்களுக்குள்ளேயே நச்சுப் பொருளாக மாற்றி அவற்றைக் கொல்லும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🎯 Selective Targeting**"
+      "en": "**🎯 Selective Targeting**",
+      "ta": "**🎯 தெரிவுசெய்த இலக்கிடல்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Vectors are engineered to deliver genes only to cancer cells (using tumour-specific promoters or surface receptors), minimising damage to healthy tissue — a major advantage over conventional chemotherapy."
+      "en": "Vectors are engineered to deliver genes only to cancer cells (using tumour-specific promoters or surface receptors), minimising damage to healthy tissue — a major advantage over conventional chemotherapy.",
+      "ta": "கட்டிக்கே உரிய ஊக்கிகள் அல்லது மேற்பரப்பு ஏற்பிகளைப் பயன்படுத்தி, புற்றுச் செல்களுக்கு மட்டுமே மரபணுவைக் கொண்டு சேர்க்கும்படி தாங்கிக்கடத்திகள் வடிவமைக்கப்படுகின்றன; இது ஆரோக்கியத் திசுக்களுக்கான சேதத்தைக் குறைக்கும் — வழக்கமான வேதிச்சிகிச்சையைவிட முக்கிய நன்மை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Concept Diagram — Gene Therapy in Cancer**"
+      "en": "**Concept Diagram — Gene Therapy in Cancer**",
+      "ta": "**கருத்து வரைபடம் — புற்றுநோயில் மரபணுச் சிகிச்சை**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "gene_therapy_app-d05",
      "caption": {
-      "en": ""
+      "en": "",
+      "ta": "",
+      "ta_status": "draft"
      },
      "labels": [
       "Cancer Cell",
@@ -1167,13 +1589,17 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Clinical Significance\n• **Gendicine** (China, 2003) — first approved gene therapy product; p53-expressing adenovirus for head and neck cancer\n• **CAR-T cell therapies** (Kymriah, Yescarta) — FDA approved for certain leukaemias and lymphomas\n• These therapies represent a shift from non-specific chemotherapy to precise molecular targeting"
+      "en": "Clinical Significance\n• **Gendicine** (China, 2003) — first approved gene therapy product; p53-expressing adenovirus for head and neck cancer\n• **CAR-T cell therapies** (Kymriah, Yescarta) — FDA approved for certain leukaemias and lymphomas\n• These therapies represent a shift from non-specific chemotherapy to precise molecular targeting",
+      "ta": "மருத்துவ முக்கியத்துவம்\n• **Gendicine** (சீனா, 2003) — அங்கீகரிக்கப்பட்ட முதல் மரபணுச் சிகிச்சைப் பொருள்; தலை, கழுத்துப் புற்றுநோய்க்கான p53-வெளிப்படுத்தும் அடினோவைரஸ்\n• **CAR-T செல் சிகிச்சைகள்** (Kymriah, Yescarta) — சில இரத்தப் புற்றுநோய்கள், நிணநீர்க் கழலைகளுக்கு FDA அங்கீகாரம்\n• இச்சிகிச்சைகள் குறிப்பற்ற வேதிச்சிகிச்சையிலிருந்து துல்லிய மூலக்கூறு இலக்கிடலுக்கான மாற்றத்தைக் காட்டுகின்றன",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Quick Revision"
+      "en": "Quick Revision",
+      "ta": "விரைவுத் திருப்புதல்",
+      "ta_status": "draft"
      }
     },
     {
@@ -1181,26 +1607,38 @@
      "ordered": false,
      "items": [
       {
-       "en": "Cancer is a genetic disease — gene therapy directly targets the molecular cause"
+       "en": "Cancer is a genetic disease — gene therapy directly targets the molecular cause",
+       "ta": "புற்றுநோய் ஒரு மரபு நோய் — மரபணுச் சிகிச்சை மூலக்கூறுக் காரணத்தை நேரடியாக இலக்கிடும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Four key approaches: tumour suppressor restoration, immune stimulation, suicide gene therapy, selective targeting"
+       "en": "Four key approaches: tumour suppressor restoration, immune stimulation, suicide gene therapy, selective targeting",
+       "ta": "நான்கு முக்கிய அணுகுமுறைகள்: கட்டி அடக்கி மீட்டல், நோயெதிர்ப்புத் தூண்டல், தற்கொலை மரபணுச் சிகிச்சை, தெரிவுசெய்த இலக்கிடல்",
+       "ta_status": "draft"
       },
       {
-       "en": "p53 is the most important tumour suppressor gene in gene therapy research"
+       "en": "p53 is the most important tumour suppressor gene in gene therapy research",
+       "ta": "மரபணுச் சிகிச்சை ஆய்வில் p53 மிக முக்கியக் கட்டி அடக்கி மரபணு",
+       "ta_status": "draft"
       },
       {
-       "en": "CAR-T cell therapy is an ex vivo approach for blood cancers"
+       "en": "CAR-T cell therapy is an ex vivo approach for blood cancers",
+       "ta": "CAR-T செல் சிகிச்சை இரத்தப் புற்றுநோய்களுக்கான உடல்வெளி அணுகுமுறை",
+       "ta_status": "draft"
       },
       {
-       "en": "Suicide gene therapy uses a prodrug system to selectively kill cancer cells"
+       "en": "Suicide gene therapy uses a prodrug system to selectively kill cancer cells",
+       "ta": "தற்கொலை மரபணுச் சிகிச்சை புற்றுச் செல்களைத் தெரிவாகக் கொல்ல புரோட்ரக் அமைப்பைப் பயன்படுத்தும்",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "SECTION 09"
+      "en": "SECTION 09",
+      "ta": "பிரிவு 09",
+      "ta_status": "draft"
      }
     }
    ]
@@ -1208,13 +1646,17 @@
   {
    "id": "s10",
    "title": {
-    "en": "Advantages and Limitations of Gene Therapy"
+    "en": "Advantages and Limitations of Gene Therapy",
+    "ta": "மரபணுச் சிகிச்சையின் நன்மைகளும் வரம்புகளும்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "**✅ Advantages**"
+      "en": "**✅ Advantages**",
+      "ta": "**✅ நன்மைகள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -1222,26 +1664,38 @@
      "ordered": false,
      "items": [
       {
-       "en": "Treats the root genetic cause of disease"
+       "en": "Treats the root genetic cause of disease",
+       "ta": "நோயின் அடிப்படை மரபணுக் காரணத்தைக் குணப்படுத்தும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Potential for permanent cure (single treatment)"
+       "en": "Potential for permanent cure (single treatment)",
+       "ta": "ஒரே சிகிச்சையில் நிரந்தரத் தீர்வுக்கு வாய்ப்பு",
+       "ta_status": "draft"
       },
       {
-       "en": "Applicable to inherited and acquired diseases"
+       "en": "Applicable to inherited and acquired diseases",
+       "ta": "மரபு, பெறப்பட்ட நோய்கள் இரண்டுக்கும் பொருந்தும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Highly specific targeting possible"
+       "en": "Highly specific targeting possible",
+       "ta": "உயர் தனித்தன்மை இலக்கிடல் சாத்தியம்",
+       "ta_status": "draft"
       },
       {
-       "en": "Opens new avenues for untreatable diseases"
+       "en": "Opens new avenues for untreatable diseases",
+       "ta": "குணப்படுத்த முடியாத நோய்களுக்குப் புதிய வழிகளைத் திறக்கும்",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**❌ Limitations**"
+      "en": "**❌ Limitations**",
+      "ta": "**❌ வரம்புகள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -1249,19 +1703,29 @@
      "ordered": false,
      "items": [
       {
-       "en": "Risk of immune reaction to vectors"
+       "en": "Risk of immune reaction to vectors",
+       "ta": "தாங்கிக்கடத்திகளுக்கு நோயெதிர்ப்பு வினை ஆபத்து",
+       "ta_status": "draft"
       },
       {
-       "en": "Insertional mutagenesis (retroviral vectors)"
+       "en": "Insertional mutagenesis (retroviral vectors)",
+       "ta": "உட்செருகல் திடீர்மாற்றவாக்கம் (ரெட்ரோவைரஸ் தாங்கிக்கடத்திகள்)",
+       "ta_status": "draft"
       },
       {
-       "en": "Short-lived gene expression in many cases"
+       "en": "Short-lived gene expression in many cases",
+       "ta": "பல நேரங்களில் மரபணு வெளிப்பாடு குறுகிய காலமே நீடிக்கும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Difficult to target specific tissues precisely"
+       "en": "Difficult to target specific tissues precisely",
+       "ta": "குறிப்பிட்ட திசுக்களைத் துல்லியமாக இலக்கிடுவது கடினம்",
+       "ta_status": "draft"
       },
       {
-       "en": "Extremely high cost; limited accessibility"
+       "en": "Extremely high cost; limited accessibility",
+       "ta": "மிக அதிகச் செலவு; எளிதில் அணுக இயலாது",
+       "ta_status": "draft"
       }
      ]
     },
@@ -1269,13 +1733,17 @@
      "type": "callout",
      "kind": "warn",
      "text": {
-      "en": "Delivery Difficulty\nVectors must evade the immune system, survive in the bloodstream, reach the correct cell type, enter the nucleus, and sustain gene expression — each step is a potential point of failure."
+      "en": "Delivery Difficulty\nVectors must evade the immune system, survive in the bloodstream, reach the correct cell type, enter the nucleus, and sustain gene expression — each step is a potential point of failure.",
+      "ta": "செலுத்துதலின் சிரமம்\nதாங்கிக்கடத்திகள் நோயெதிர்ப்பு மண்டலத்தைத் தவிர்க்க வேண்டும், இரத்த ஓட்டத்தில் உயிர்பிழைக்க வேண்டும், சரியான செல் வகையை அடைய வேண்டும், உட்கருவினுள் நுழைய வேண்டும், மரபணு வெளிப்பாட்டைத் தக்கவைக்க வேண்டும் — இவ்வொவ்வொரு படியும் தோல்விக்கான சாத்தியப் புள்ளி.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Quick Revision"
+      "en": "Quick Revision",
+      "ta": "விரைவுத் திருப்புதல்",
+      "ta_status": "draft"
      }
     },
     {
@@ -1283,26 +1751,38 @@
      "ordered": false,
      "items": [
       {
-       "en": "Gene therapy can treat the root cause — not just symptoms"
+       "en": "Gene therapy can treat the root cause — not just symptoms",
+       "ta": "மரபணுச் சிகிச்சை அறிகுறிகளை மட்டுமன்றி அடிப்படைக் காரணத்தையே குணப்படுத்தும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Immune rejection of viral vectors is the most common clinical problem"
+       "en": "Immune rejection of viral vectors is the most common clinical problem",
+       "ta": "வைரஸ் தாங்கிக்கடத்திகளுக்கு நோயெதிர்ப்பு நிராகரிப்பு மிகப் பொதுவான மருத்துவச் சிக்கல்",
+       "ta_status": "draft"
       },
       {
-       "en": "Insertional mutagenesis (accidental cancer-causing gene disruption) is a risk with retroviral vectors"
+       "en": "Insertional mutagenesis (accidental cancer-causing gene disruption) is a risk with retroviral vectors",
+       "ta": "உட்செருகல் திடீர்மாற்றவாக்கம் (தற்செயலாகப் புற்றுநோயை உண்டாக்கும் மரபணுச் சிதைவு) ரெட்ரோவைரஸ் தாங்கிக்கடத்திகளில் ஓர் ஆபத்து",
+       "ta_status": "draft"
       },
       {
-       "en": "Cost remains a major barrier — some approved products cost millions per dose"
+       "en": "Cost remains a major barrier — some approved products cost millions per dose",
+       "ta": "செலவு பெருந்தடை — சில அங்கீகரிக்கப்பட்ட பொருள்கள் ஒரு தவணைக்கு மில்லியன் கணக்கில் செலவாகும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Short-lived expression often requires repeated treatment"
+       "en": "Short-lived expression often requires repeated treatment",
+       "ta": "குறுகிய கால வெளிப்பாடு பெரும்பாலும் மீண்டும் சிகிச்சை அளிக்கத் தேவைப்படுத்தும்",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "SECTION 10"
+      "en": "SECTION 10",
+      "ta": "பிரிவு 10",
+      "ta_status": "draft"
      }
     }
    ]
@@ -1310,61 +1790,81 @@
   {
    "id": "s11",
    "title": {
-    "en": "Ethical and Clinical Considerations"
+    "en": "Ethical and Clinical Considerations",
+    "ta": "நெறிமுறை, மருத்துவக் கருத்துகள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "**⚠️ Safety Issues**"
+      "en": "**⚠️ Safety Issues**",
+      "ta": "**⚠️ பாதுகாப்புச் சிக்கல்கள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Vectors may trigger dangerous immune responses (e.g., Jesse Gelsinger case, 1999 — first gene therapy death). Rigorous safety testing is mandatory."
+      "en": "Vectors may trigger dangerous immune responses (e.g., Jesse Gelsinger case, 1999 — first gene therapy death). Rigorous safety testing is mandatory.",
+      "ta": "தாங்கிக்கடத்திகள் ஆபத்தான நோயெதிர்ப்பு வினைகளைத் தூண்டலாம் (எ.கா. ஜெஸ்ஸி கெல்சிங்கர் நிகழ்வு, 1999 — மரபணுச் சிகிச்சையில் முதல் இறப்பு). கடுமையான பாதுகாப்புச் சோதனை கட்டாயம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🕰️ Long-Term Effects**"
+      "en": "**🕰️ Long-Term Effects**",
+      "ta": "**🕰️ நீண்டகால விளைவுகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Gene therapy is relatively new. Long-term consequences of gene integration or silencing are not fully known."
+      "en": "Gene therapy is relatively new. Long-term consequences of gene integration or silencing are not fully known.",
+      "ta": "மரபணுச் சிகிச்சை ஒப்பீட்டளவில் புதியது. மரபணு இணைவு அல்லது மௌனமாக்கலின் நீண்டகால விளைவுகள் முழுமையாக அறியப்படவில்லை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**💰 Cost and Access**"
+      "en": "**💰 Cost and Access**",
+      "ta": "**💰 செலவும் அணுகலும்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Some treatments (Zolgensma — ~$2 million/dose) are inaccessible to most patients globally. Equitable access is a major ethical challenge."
+      "en": "Some treatments (Zolgensma — ~$2 million/dose) are inaccessible to most patients globally. Equitable access is a major ethical challenge.",
+      "ta": "சில சிகிச்சைகள் (Zolgensma — ஒரு தவணைக்கு ~$2 மில்லியன்) உலகளவில் பெரும்பாலான நோயாளிகளுக்கு எட்டாதவை. சமமான அணுகல் பெரிய நெறிமுறைச் சவால்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🔬 Responsible Use**"
+      "en": "**🔬 Responsible Use**",
+      "ta": "**🔬 பொறுப்புள்ள பயன்பாடு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Germline gene therapy could alter the human gene pool. Strict international guidelines (e.g., He Jiankui case controversy) govern its use."
+      "en": "Germline gene therapy could alter the human gene pool. Strict international guidelines (e.g., He Jiankui case controversy) govern its use.",
+      "ta": "கருவழி மரபணுச் சிகிச்சை மனித மரபணுக் குழுமத்தையே மாற்றலாம். இதன் பயன்பாட்டைக் கடுமையான பன்னாட்டு வழிகாட்டுதல்கள் (எ.கா. ஹே ஜியான்குய் சர்ச்சை) கட்டுப்படுத்துகின்றன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Quick Revision"
+      "en": "Quick Revision",
+      "ta": "விரைவுத் திருப்புதல்",
+      "ta_status": "draft"
      }
     },
     {
@@ -1372,26 +1872,38 @@
      "ordered": false,
      "items": [
       {
-       "en": "Safety: Jesse Gelsinger (1999) — landmark tragedy prompting strict safety protocols"
+       "en": "Safety: Jesse Gelsinger (1999) — landmark tragedy prompting strict safety protocols",
+       "ta": "பாதுகாப்பு: ஜெஸ்ஸி கெல்சிங்கர் (1999) — கடுமையான பாதுகாப்பு நெறிமுறைகளுக்கு வழிவகுத்த முக்கிய துயரம்",
+       "ta_status": "draft"
       },
       {
-       "en": "Long-term integration effects are still under study"
+       "en": "Long-term integration effects are still under study",
+       "ta": "நீண்டகால மரபணு இணைவு விளைவுகள் இன்னும் ஆய்வில் உள்ளன",
+       "ta_status": "draft"
       },
       {
-       "en": "Cost is a critical barrier — gene therapies among the world's most expensive treatments"
+       "en": "Cost is a critical barrier — gene therapies among the world's most expensive treatments",
+       "ta": "செலவு முக்கியத் தடை — மரபணுச் சிகிச்சைகள் உலகின் மிக விலையுயர்ந்த சிகிச்சைகளில் அடங்கும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Germline gene therapy is ethically restricted internationally"
+       "en": "Germline gene therapy is ethically restricted internationally",
+       "ta": "கருவழி மரபணுச் சிகிச்சை பன்னாட்டளவில் நெறிமுறைப்படி கட்டுப்படுத்தப்பட்டது",
+       "ta_status": "draft"
       },
       {
-       "en": "He Jiankui (2018) — controversial germline editing of human embryos, widely condemned"
+       "en": "He Jiankui (2018) — controversial germline editing of human embryos, widely condemned",
+       "ta": "ஹே ஜியான்குய் (2018) — மனிதக் கருக்களில் சர்ச்சைக்குரிய கருவழித் திருத்தம்; பரவலாகக் கண்டிக்கப்பட்டது",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "SECTION 11"
+      "en": "SECTION 11",
+      "ta": "பிரிவு 11",
+      "ta_status": "draft"
      }
     }
    ]
@@ -1399,38 +1911,50 @@
   {
    "id": "s12",
    "title": {
-    "en": "Interactive Learning"
+    "en": "Interactive Learning",
+    "ta": "ஊடாடும் கற்றல்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Click each topic to expand key concepts. Use for quick review and exam preparation."
+      "en": "Click each topic to expand key concepts. Use for quick review and exam preparation.",
+      "ta": "முக்கியக் கருத்துகளை விரிக்க ஒவ்வொரு தலைப்பையும் தொடுக. விரைவுத் திருப்புதல், தேர்வுத் தயாரிப்புக்குப் பயன்படுத்துக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**📖 Gene Therapy — Core Concept**"
+      "en": "**📖 Gene Therapy — Core Concept**",
+      "ta": "**📖 மரபணுச் சிகிச்சை — மையக் கருத்து**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Gene therapy introduces, alters, or replaces genetic material in a patient's cells to treat or prevent disease. The therapeutic gene is delivered via a vector that carries it to target cells, where it is expressed to produce a functional protein."
+      "en": "Gene therapy introduces, alters, or replaces genetic material in a patient's cells to treat or prevent disease. The therapeutic gene is delivered via a vector that carries it to target cells, where it is expressed to produce a functional protein.",
+      "ta": "மரபணுச் சிகிச்சை நோயைக் குணப்படுத்த அல்லது தடுக்க நோயாளியின் செல்களில் மரபுப் பொருளைச் செலுத்துகிறது, மாற்றுகிறது அல்லது பதிலீடு செய்கிறது. சிகிச்சை மரபணு தாங்கிக்கடத்தி மூலம் இலக்குச் செல்களுக்குக் கொண்டு செல்லப்பட்டு, வெளிப்பாடடைந்து செயல்படும் புரதத்தை உருவாக்குகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Click to Reveal — Definition\nA defective gene that causes a hereditary disease is called a mutant allele. Gene therapy provides a functional copy of this gene — called the transgene or therapeutic gene."
+      "en": "Click to Reveal — Definition\nA defective gene that causes a hereditary disease is called a mutant allele. Gene therapy provides a functional copy of this gene — called the transgene or therapeutic gene.",
+      "ta": "தொட்டு வெளிப்படுத்துக — வரையறை\nஒரு மரபு நோயை உண்டாக்கும் குறைபாடுள்ள மரபணு திடீர்மாற்ற அல்லீல் எனப்படும். மரபணுச் சிகிச்சை இம்மரபணுவின் செயல்படும் படியை — மாற்றுமரபணு அல்லது சிகிச்சை மரபணு என்றழைக்கப்படுவதை — அளிக்கிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🧫 Ex Vivo — Key Points**"
+      "en": "**🧫 Ex Vivo — Key Points**",
+      "ta": "**🧫 உடல்வெளி — முக்கியக் குறிப்புகள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -1438,19 +1962,29 @@
      "ordered": false,
      "items": [
       {
-       "en": "Cells are removed from the patient"
+       "en": "Cells are removed from the patient",
+       "ta": "செல்கள் நோயாளியிடமிருந்து அகற்றப்படும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Therapeutic gene is introduced in the lab using a vector"
+       "en": "Therapeutic gene is introduced in the lab using a vector",
+       "ta": "சிகிச்சை மரபணு ஆய்வகத்தில் தாங்கிக்கடத்தி மூலம் செலுத்தப்படும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Modified cells are selected, verified, and expanded"
+       "en": "Modified cells are selected, verified, and expanded",
+       "ta": "மாற்றிய செல்கள் தெரிவு செய்யப்பட்டு, சரிபார்க்கப்பட்டு, பெருக்கப்படும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Cells are returned to the patient by infusion or transplant"
+       "en": "Cells are returned to the patient by infusion or transplant",
+       "ta": "செல்கள் உட்செலுத்தல் அல்லது மாற்றுச்சிகிச்சை மூலம் நோயாளிக்குத் திருப்பப்படும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Suitable for blood cells, bone marrow stem cells"
+       "en": "Suitable for blood cells, bone marrow stem cells",
+       "ta": "இரத்த செல்கள், எலும்பு மஜ்ஜை ஸ்டெம் செல்களுக்கு ஏற்றது",
+       "ta_status": "draft"
       }
      ]
     },
@@ -1458,13 +1992,17 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Remember\nThe major advantage of ex vivo is that modified cells can be verified before reinfusion, reducing risk."
+      "en": "Remember\nThe major advantage of ex vivo is that modified cells can be verified before reinfusion, reducing risk.",
+      "ta": "நினைவில் கொள்க\nமாற்றிய செல்களை மீளச்செலுத்துமுன் சரிபார்க்கலாம் என்பதே உடல்வெளியின் முக்கிய நன்மை; இது ஆபத்தைக் குறைக்கும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**💉 In Vivo — Key Points**"
+      "en": "**💉 In Vivo — Key Points**",
+      "ta": "**💉 உடலகம் — முக்கியக் குறிப்புகள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -1472,19 +2010,29 @@
      "ordered": false,
      "items": [
       {
-       "en": "No cell removal — vector + gene delivered directly into patient"
+       "en": "No cell removal — vector + gene delivered directly into patient",
+       "ta": "செல் அகற்றல் இல்லை — தாங்கிக்கடத்தி + மரபணு நேரடியாக நோயாளியினுள் செலுத்தப்படும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Given by injection, inhalation, or direct organ delivery"
+       "en": "Given by injection, inhalation, or direct organ delivery",
+       "ta": "ஊசி, உள்ளிழுப்பு அல்லது நேரடி உறுப்புச் செலுத்தல் மூலம் அளிக்கப்படும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Vector must find and enter target cells inside the body"
+       "en": "Vector must find and enter target cells inside the body",
+       "ta": "தாங்கிக்கடத்தி உடலினுள் இலக்குச் செல்களைக் கண்டறிந்து நுழைய வேண்டும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Suitable for organ targets (liver, lung, eye)"
+       "en": "Suitable for organ targets (liver, lung, eye)",
+       "ta": "உறுப்பு இலக்குகளுக்கு (கல்லீரல், நுரையீரல், கண்) ஏற்றது",
+       "ta_status": "draft"
       },
       {
-       "en": "Risk: immune response to the vector"
+       "en": "Risk: immune response to the vector",
+       "ta": "ஆபத்து: தாங்கிக்கடத்திக்கு நோயெதிர்ப்பு வினை",
+       "ta_status": "draft"
       }
      ]
     },
@@ -1492,13 +2040,17 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Remember\nAAV (Adeno-Associated Virus) is the most commonly used vector for in vivo gene therapy today."
+      "en": "Remember\nAAV (Adeno-Associated Virus) is the most commonly used vector for in vivo gene therapy today.",
+      "ta": "நினைவில் கொள்க\nAAV (அடினோ-தொடர்புடைய வைரஸ்) இன்று உடலக மரபணுச் சிகிச்சையில் மிகப் பொதுவாகப் பயன்படும் தாங்கிக்கடத்தி.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🎗️ Cancer Treatment Role — Key Points**"
+      "en": "**🎗️ Cancer Treatment Role — Key Points**",
+      "ta": "**🎗️ புற்றுநோய்ச் சிகிச்சையில் பங்கு — முக்கியக் குறிப்புகள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -1506,16 +2058,24 @@
      "ordered": false,
      "items": [
       {
-       "en": "Restores tumour suppressor genes (e.g., p53)"
+       "en": "Restores tumour suppressor genes (e.g., p53)",
+       "ta": "கட்டி அடக்கி மரபணுக்களை (எ.கா. p53) மீட்டல்",
+       "ta_status": "draft"
       },
       {
-       "en": "Stimulates immune response (cytokine genes, CAR-T)"
+       "en": "Stimulates immune response (cytokine genes, CAR-T)",
+       "ta": "நோயெதிர்ப்பு வினையைத் தூண்டல் (சைட்டோகைன் மரபணுக்கள், CAR-T)",
+       "ta_status": "draft"
       },
       {
-       "en": "Suicide gene therapy — selective cancer cell killing"
+       "en": "Suicide gene therapy — selective cancer cell killing",
+       "ta": "தற்கொலை மரபணுச் சிகிச்சை — புற்றுச் செல்களைத் தெரிவாகக் கொல்லுதல்",
+       "ta_status": "draft"
       },
       {
-       "en": "Targets cancer cells while sparing normal tissue"
+       "en": "Targets cancer cells while sparing normal tissue",
+       "ta": "இயல்புத் திசுவைத் தவிர்த்துப் புற்றுச் செல்களை இலக்கிடுதல்",
+       "ta_status": "draft"
       }
      ]
     },
@@ -1523,40 +2083,25 @@
      "type": "callout",
      "kind": "exam",
      "text": {
-      "en": "Exam Focus\nCAR-T (Chimeric Antigen Receptor T-cell) therapy is an ex vivo approach where T-cells are engineered to recognise and destroy cancer cells."
+      "en": "Exam Focus\nCAR-T (Chimeric Antigen Receptor T-cell) therapy is an ex vivo approach where T-cells are engineered to recognise and destroy cancer cells.",
+      "ta": "தேர்வுக் கவனம்\nCAR-T (கைமீரிக் ஆன்டிஜென் ஏற்பி T-செல்) சிகிச்சை என்பது புற்றுச் செல்களை அறிந்து அழிக்கும்படி T-செல்கள் வடிவமைக்கப்படும் உடல்வெளி அணுகுமுறை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**⚖️ Advantages and Limitations — Summary**"
+      "en": "**⚖️ Advantages and Limitations — Summary**",
+      "ta": "**⚖️ நன்மைகளும் வரம்புகளும் — சுருக்கம்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Key Advantages**"
-     }
-    },
-    {
-     "type": "bullets",
-     "ordered": false,
-     "items": [
-      {
-       "en": "Treats root genetic cause"
-      },
-      {
-       "en": "Potential for permanent cure"
-      },
-      {
-       "en": "Targets specific cell types"
-      }
-     ]
-    },
-    {
-     "type": "p",
-     "text": {
-      "en": "**Key Limitations**"
+      "en": "**Key Advantages**",
+      "ta": "**முக்கிய நன்மைகள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -1564,20 +2109,57 @@
      "ordered": false,
      "items": [
       {
-       "en": "Immune reaction risk"
+       "en": "Treats root genetic cause",
+       "ta": "அடிப்படை மரபணுக் காரணத்தைக் குணப்படுத்தும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Insertional mutagenesis"
+       "en": "Potential for permanent cure",
+       "ta": "நிரந்தரத் தீர்வுக்கு வாய்ப்பு",
+       "ta_status": "draft"
       },
       {
-       "en": "High cost and complexity"
+       "en": "Targets specific cell types",
+       "ta": "குறிப்பிட்ட செல் வகைகளை இலக்கிடும்",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "SECTION 13"
+      "en": "**Key Limitations**",
+      "ta": "**முக்கிய வரம்புகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Immune reaction risk",
+       "ta": "நோயெதிர்ப்பு வினை ஆபத்து",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Insertional mutagenesis",
+       "ta": "உட்செருகல் திடீர்மாற்றவாக்கம்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "High cost and complexity",
+       "ta": "அதிகச் செலவும் சிக்கலும்",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 13",
+      "ta": "பிரிவு 13",
+      "ta_status": "draft"
      }
     }
    ]
@@ -1585,7 +2167,9 @@
   {
    "id": "s13",
    "title": {
-    "en": "Summary & Revision Bullets"
+    "en": "Summary & Revision Bullets",
+    "ta": "சுருக்கமும் திருப்புதல் குறிப்புகளும்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
@@ -1593,113 +2177,173 @@
      "ordered": false,
      "items": [
       {
-       "en": "Gene therapy introduces a therapeutic gene into patient cells to treat genetic disease at the molecular level."
+       "en": "Gene therapy introduces a therapeutic gene into patient cells to treat genetic disease at the molecular level.",
+       "ta": "மரபணுச் சிகிச்சை, மரபு நோயை மூலக்கூறு நிலையில் குணப்படுத்த நோயாளியின் செல்களுள் சிகிச்சை மரபணுவைச் செலுத்துகிறது.",
+       "ta_status": "draft"
       },
       {
-       "en": "Three core strategies: replace, repair, or silence a defective gene."
+       "en": "Three core strategies: replace, repair, or silence a defective gene.",
+       "ta": "மூன்று மைய உத்திகள்: குறைபாடுள்ள மரபணுவை மாற்றுதல், சரிசெய்தல் அல்லது மௌனமாக்குதல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Ex vivo gene therapy: cells removed from patient → gene introduced in lab → modified cells returned."
+       "en": "Ex vivo gene therapy: cells removed from patient → gene introduced in lab → modified cells returned.",
+       "ta": "உடல்வெளி மரபணுச் சிகிச்சை: நோயாளியிடமிருந்து செல்கள் அகற்றல் → ஆய்வகத்தில் மரபணு செலுத்தல் → மாற்றிய செல்கள் திருப்புதல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "In vivo gene therapy: vector + therapeutic gene delivered directly into the patient's body."
+       "en": "In vivo gene therapy: vector + therapeutic gene delivered directly into the patient's body.",
+       "ta": "உடலக மரபணுச் சிகிச்சை: தாங்கிக்கடத்தி + சிகிச்சை மரபணு நேரடியாக நோயாளியின் உடலினுள் செலுத்தப்படுதல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Ex vivo is safer and allows cell verification; in vivo is simpler and suitable for solid organs."
+       "en": "Ex vivo is safer and allows cell verification; in vivo is simpler and suitable for solid organs.",
+       "ta": "உடல்வெளி பாதுகாப்பானது, செல் சரிபார்ப்புக்கு இடமளிக்கும்; உடலகம் எளிமையானது, திட உறுப்புகளுக்கு ஏற்றது.",
+       "ta_status": "draft"
       },
       {
-       "en": "Vectors (viral or non-viral) are essential gene delivery vehicles; AAV is the most widely used today."
+       "en": "Vectors (viral or non-viral) are essential gene delivery vehicles; AAV is the most widely used today.",
+       "ta": "தாங்கிக்கடத்திகள் (வைரஸ் அல்லது வைரஸ் அல்லாதவை) மரபணுக் கடத்து ஊர்திகளாகத் தேவை; இன்று AAV மிகப் பரவலாகப் பயன்படுகிறது.",
+       "ta_status": "draft"
       },
       {
-       "en": "In cancer: gene therapy restores tumour suppressors (p53), activates immunity, or selectively kills cancer cells (suicide gene therapy)."
+       "en": "In cancer: gene therapy restores tumour suppressors (p53), activates immunity, or selectively kills cancer cells (suicide gene therapy).",
+       "ta": "புற்றுநோயில்: மரபணுச் சிகிச்சை கட்டி அடக்கிகளை (p53) மீட்கும், நோயெதிர்ப்பைச் செயல்படுத்தும் அல்லது புற்றுச் செல்களைத் தெரிவாகக் கொல்லும் (தற்கொலை மரபணுச் சிகிச்சை).",
+       "ta_status": "draft"
       },
       {
-       "en": "CAR-T cell therapy is a major ex vivo application for blood cancers."
+       "en": "CAR-T cell therapy is a major ex vivo application for blood cancers.",
+       "ta": "CAR-T செல் சிகிச்சை இரத்தப் புற்றுநோய்களுக்கான முக்கிய உடல்வெளிப் பயன்பாடு.",
+       "ta_status": "draft"
       },
       {
-       "en": "Limitations: immune response to vectors, insertional mutagenesis, high cost, short-lived expression."
+       "en": "Limitations: immune response to vectors, insertional mutagenesis, high cost, short-lived expression.",
+       "ta": "வரம்புகள்: தாங்கிக்கடத்திக்கு நோயெதிர்ப்பு வினை, உட்செருகல் திடீர்மாற்றவாக்கம், அதிகச் செலவு, குறுகிய கால வெளிப்பாடு.",
+       "ta_status": "draft"
       },
       {
-       "en": "Ethical concerns include germline modification, equitable access, and long-term unknown effects."
+       "en": "Ethical concerns include germline modification, equitable access, and long-term unknown effects.",
+       "ta": "நெறிமுறைக் கவலைகள்: கருவழி மாற்றம், சமமான அணுகல், அறியப்படாத நீண்டகால விளைவுகள்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Key approved products: Luxturna (eye disease, AAV, in vivo), Kymriah/Yescarta (CAR-T, ex vivo, blood cancer)."
+       "en": "Key approved products: Luxturna (eye disease, AAV, in vivo), Kymriah/Yescarta (CAR-T, ex vivo, blood cancer).",
+       "ta": "முக்கிய அங்கீகரிக்கப்பட்ட பொருள்கள்: Luxturna (கண் நோய், AAV, உடலகம்), Kymriah/Yescarta (CAR-T, உடல்வெளி, இரத்தப் புற்றுநோய்).",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Important Differences: Ex Vivo vs In Vivo (Exam Quick Table)**"
+      "en": "**Important Differences: Ex Vivo vs In Vivo (Exam Quick Table)**",
+      "ta": "**முக்கிய வேறுபாடுகள்: உடல்வெளி – உடலகம் (தேர்வு விரைவு அட்டவணை)**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "table",
      "header": [
       {
-       "en": "Point"
+       "en": "Point",
+       "ta": "குறிப்பு",
+       "ta_status": "draft"
       },
       {
-       "en": "Ex Vivo"
+       "en": "Ex Vivo",
+       "ta": "உடல்வெளி",
+       "ta_status": "draft"
       },
       {
-       "en": "In Vivo"
+       "en": "In Vivo",
+       "ta": "உடலகம்",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "Gene transfer site"
+        "en": "Gene transfer site",
+        "ta": "மரபணுக் கடத்தல் இடம்",
+        "ta_status": "draft"
        },
        {
-        "en": "Outside body (lab)"
+        "en": "Outside body (lab)",
+        "ta": "உடலுக்கு வெளியே (ஆய்வகம்)",
+        "ta_status": "draft"
        },
        {
-        "en": "Inside body"
+        "en": "Inside body",
+        "ta": "உடலுக்கு உள்ளே",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "Cell verification"
+        "en": "Cell verification",
+        "ta": "செல் சரிபார்ப்பு",
+        "ta_status": "draft"
        },
        {
-        "en": "Yes — before return"
+        "en": "Yes — before return",
+        "ta": "உண்டு — திருப்புமுன்",
+        "ta_status": "draft"
        },
        {
-        "en": "No"
+        "en": "No",
+        "ta": "இல்லை",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "Cell isolation"
+        "en": "Cell isolation",
+        "ta": "செல் பிரித்தெடுத்தல்",
+        "ta_status": "draft"
        },
        {
-        "en": "Required"
+        "en": "Required",
+        "ta": "தேவை",
+        "ta_status": "draft"
        },
        {
-        "en": "Not required"
+        "en": "Not required",
+        "ta": "தேவையில்லை",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "Immune risk"
+        "en": "Immune risk",
+        "ta": "நோயெதிர்ப்பு ஆபத்து",
+        "ta_status": "draft"
        },
        {
-        "en": "Lower"
+        "en": "Lower",
+        "ta": "குறைவு",
+        "ta_status": "draft"
        },
        {
-        "en": "Higher"
+        "en": "Higher",
+        "ta": "அதிகம்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "Target"
+        "en": "Target",
+        "ta": "இலக்கு",
+        "ta_status": "draft"
        },
        {
-        "en": "Blood/marrow cells"
+        "en": "Blood/marrow cells",
+        "ta": "இரத்தம்/மஜ்ஜை செல்கள்",
+        "ta_status": "draft"
        },
        {
-        "en": "Solid organs"
+        "en": "Solid organs",
+        "ta": "திட உறுப்புகள்",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -1707,7 +2351,9 @@
     {
      "type": "p",
      "text": {
-      "en": "SECTION 14"
+      "en": "SECTION 14",
+      "ta": "பிரிவு 14",
+      "ta_status": "draft"
      }
     }
    ]
@@ -1715,157 +2361,209 @@
   {
    "id": "s14",
    "title": {
-    "en": "Glossary of Key Terms"
+    "en": "Glossary of Key Terms",
+    "ta": "முக்கியச் சொற்களின் சொற்களஞ்சியம்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "**Gene Therapy**"
+      "en": "**Gene Therapy**",
+      "ta": "**மரபணுச் சிகிச்சை**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Medical approach using therapeutic genes to treat or prevent disease by correcting genetic abnormalities in patient cells."
+      "en": "Medical approach using therapeutic genes to treat or prevent disease by correcting genetic abnormalities in patient cells.",
+      "ta": "நோயாளியின் செல்களிலுள்ள மரபணு முறைகேடுகளைச் சரிசெய்து நோயைக் குணப்படுத்த அல்லது தடுக்கச் சிகிச்சை மரபணுக்களைப் பயன்படுத்தும் மருத்துவ அணுகுமுறை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Ex Vivo**"
+      "en": "**Ex Vivo**",
+      "ta": "**உடல்வெளி (Ex Vivo)**",
+      "ta_status": "bracketed"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Latin for \"outside the living.\" Gene modification occurs outside the patient's body in a lab setting before cells are returned."
+      "en": "Latin for \"outside the living.\" Gene modification occurs outside the patient's body in a lab setting before cells are returned.",
+      "ta": "“உயிருள்ளதற்கு வெளியே” எனப் பொருள்படும் இலத்தீன் சொல். செல்கள் திருப்பப்படுமுன் மரபணு மாற்றம் நோயாளியின் உடலுக்கு வெளியே ஆய்வகத்தில் நிகழும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**In Vivo**"
+      "en": "**In Vivo**",
+      "ta": "**உடலகம் (In Vivo)**",
+      "ta_status": "bracketed"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Latin for \"within the living.\" Gene delivery occurs directly inside the patient's body without removing cells."
+      "en": "Latin for \"within the living.\" Gene delivery occurs directly inside the patient's body without removing cells.",
+      "ta": "“உயிருள்ளதற்கு உள்ளே” எனப் பொருள்படும் இலத்தீன் சொல். செல்களை அகற்றாமல் மரபணுக் கடத்தல் நேரடியாக நோயாளியின் உடலினுள் நிகழும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Vector**"
+      "en": "**Vector**",
+      "ta": "**தாங்கிக்கடத்தி**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "A carrier (usually viral) used to deliver therapeutic genetic material into target cells."
+      "en": "A carrier (usually viral) used to deliver therapeutic genetic material into target cells.",
+      "ta": "சிகிச்சை மரபுப் பொருளை இலக்குச் செல்களுள் கொண்டு சேர்க்கப் பயன்படும் கடத்தி (பொதுவாக வைரஸ்).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Therapeutic Gene**"
+      "en": "**Therapeutic Gene**",
+      "ta": "**சிகிச்சை மரபணு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "A functional copy of a gene introduced into patient cells to compensate for a defective or missing gene."
+      "en": "A functional copy of a gene introduced into patient cells to compensate for a defective or missing gene.",
+      "ta": "குறைபாடுள்ள அல்லது இல்லாத மரபணுவை ஈடுசெய்ய நோயாளியின் செல்களுள் செலுத்தப்படும் மரபணுவின் செயல்படும் படி.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Target Cell**"
+      "en": "**Target Cell**",
+      "ta": "**இலக்குச் செல்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "The specific cell type into which the therapeutic gene is introduced to produce the desired effect."
+      "en": "The specific cell type into which the therapeutic gene is introduced to produce the desired effect.",
+      "ta": "விரும்பிய விளைவை உண்டாக்க சிகிச்சை மரபணு செலுத்தப்படும் குறிப்பிட்ட செல் வகை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Tumour Suppressor Gene**"
+      "en": "**Tumour Suppressor Gene**",
+      "ta": "**கட்டி அடக்கி மரபணு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "A gene (e.g., p53) that normally restrains cell growth; when mutated, can lead to cancer."
+      "en": "A gene (e.g., p53) that normally restrains cell growth; when mutated, can lead to cancer.",
+      "ta": "இயல்பாகச் செல் வளர்ச்சியைக் கட்டுப்படுத்தும் மரபணு (எ.கா. p53); திடீர்மாற்றம் அடையும்போது புற்றுநோய்க்கு வழிவகுக்கலாம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Mutation**"
+      "en": "**Mutation**",
+      "ta": "**திடீர்மாற்றம்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "A permanent change in the DNA sequence of a gene, which may disrupt normal protein function."
+      "en": "A permanent change in the DNA sequence of a gene, which may disrupt normal protein function.",
+      "ta": "மரபணுவின் DNA வரிசையில் ஏற்படும் நிரந்தர மாற்றம்; இது இயல்பான புரதச் செயலைக் குலைக்கலாம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**AAV**"
+      "en": "**AAV**",
+      "ta": "**AAV**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Adeno-Associated Virus — a small, non-pathogenic virus widely used as a vector in approved gene therapies."
+      "en": "Adeno-Associated Virus — a small, non-pathogenic virus widely used as a vector in approved gene therapies.",
+      "ta": "அடினோ-தொடர்புடைய வைரஸ் — அங்கீகரிக்கப்பட்ட மரபணுச் சிகிச்சைகளில் தாங்கிக்கடத்தியாகப் பரவலாகப் பயன்படும் சிறிய, நோய் உண்டாக்காத வைரஸ்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**CAR-T Cell Therapy**"
+      "en": "**CAR-T Cell Therapy**",
+      "ta": "**CAR-T செல் சிகிச்சை**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "An ex vivo approach where T-lymphocytes are engineered with chimeric antigen receptors to target and destroy cancer cells."
+      "en": "An ex vivo approach where T-lymphocytes are engineered with chimeric antigen receptors to target and destroy cancer cells.",
+      "ta": "புற்றுச் செல்களை இலக்கிட்டு அழிக்க, T-நிணநீர்ச் செல்கள் கைமீரிக் ஆன்டிஜென் ஏற்பிகளுடன் வடிவமைக்கப்படும் உடல்வெளி அணுகுமுறை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Somatic Gene Therapy**"
+      "en": "**Somatic Gene Therapy**",
+      "ta": "**உடல் மரபணுச் சிகிச்சை**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Gene modification of body (non-reproductive) cells; changes are not heritable by offspring."
+      "en": "Gene modification of body (non-reproductive) cells; changes are not heritable by offspring.",
+      "ta": "உடல் (இனப்பெருக்கமற்ற) செல்களின் மரபணு மாற்றம்; மாற்றங்கள் சந்ததிகளுக்குக் கடத்தப்படாது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Insertional Mutagenesis**"
+      "en": "**Insertional Mutagenesis**",
+      "ta": "**உட்செருகல் திடீர்மாற்றவாக்கம்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "A risk where a retroviral vector integrates near a proto-oncogene, potentially activating cancer-causing pathways."
+      "en": "A risk where a retroviral vector integrates near a proto-oncogene, potentially activating cancer-causing pathways.",
+      "ta": "ரெட்ரோவைரஸ் தாங்கிக்கடத்தி ஒரு புற்றுத்தூண்டு மரபணுவுக்கு அருகில் இணைந்து, புற்றுநோயை உண்டாக்கும் பாதைகளைச் செயல்படுத்தக்கூடிய ஆபத்து.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "SECTION 15"
+      "en": "SECTION 15",
+      "ta": "பிரிவு 15",
+      "ta_status": "draft"
      }
     }
    ]
@@ -1873,97 +2571,129 @@
   {
    "id": "s15",
    "title": {
-    "en": "Frequently Asked University Exam Questions"
+    "en": "Frequently Asked University Exam Questions",
+    "ta": "பல்கலைக்கழகத் தேர்வுகளில் அடிக்கடி கேட்கப்படும் வினாக்கள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "1. Define gene therapy. Explain the basic principle and types of gene therapy with suitable examples."
+      "en": "1. Define gene therapy. Explain the basic principle and types of gene therapy with suitable examples.",
+      "ta": "1. மரபணுச் சிகிச்சையை வரையறுக்க. அதன் அடிப்படைக் கோட்பாட்டையும் வகைகளையும் தகுந்த எடுத்துக்காட்டுகளுடன் விளக்குக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Show Hint**"
+      "en": "**Show Hint**",
+      "ta": "**குறிப்பைக் காட்டுக**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Define gene therapy (delivery of therapeutic gene to correct defective gene). Explain the three strategies (replace, repair, silence). Describe ex vivo and in vivo types. Give examples: ADA-SCID (ex vivo), haemophilia B (in vivo)."
+      "en": "Define gene therapy (delivery of therapeutic gene to correct defective gene). Explain the three strategies (replace, repair, silence). Describe ex vivo and in vivo types. Give examples: ADA-SCID (ex vivo), haemophilia B (in vivo).",
+      "ta": "மரபணுச் சிகிச்சையை வரையறுக (குறைபாடுள்ள மரபணுவைச் சரிசெய்ய சிகிச்சை மரபணுவைச் செலுத்துதல்). மூன்று உத்திகளை (மாற்றுதல், சரிசெய்தல், மௌனமாக்குதல்) விளக்குக. உடல்வெளி, உடலக வகைகளை விவரிக்க. எடுத்துக்காட்டுகள்: ADA-SCID (உடல்வெளி), ஹீமோஃபிலியா B (உடலகம்).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "2. Differentiate between ex vivo and in vivo gene therapy. Which approach is considered safer and why?"
+      "en": "2. Differentiate between ex vivo and in vivo gene therapy. Which approach is considered safer and why?",
+      "ta": "2. உடல்வெளி, உடலக மரபணுச் சிகிச்சைகளை வேறுபடுத்துக. எந்த அணுகுமுறை பாதுகாப்பானதாகக் கருதப்படுகிறது, ஏன்?",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Show Hint**"
+      "en": "**Show Hint**",
+      "ta": "**குறிப்பைக் காட்டுக**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Tabular comparison on: site of gene transfer, cell verification, procedure, immune risk, suitable cell types, cost. Ex vivo is safer because modified cells are verified before reintroduction, reducing risk of harmful immune reactions or off-target effects."
+      "en": "Tabular comparison on: site of gene transfer, cell verification, procedure, immune risk, suitable cell types, cost. Ex vivo is safer because modified cells are verified before reintroduction, reducing risk of harmful immune reactions or off-target effects.",
+      "ta": "அட்டவணை வடிவில் ஒப்பிடுக: மரபணுக் கடத்தல் இடம், செல் சரிபார்ப்பு, செயல்முறை, நோயெதிர்ப்பு ஆபத்து, ஏற்ற செல் வகைகள், செலவு. மாற்றிய செல்கள் மீளச்செலுத்துமுன் சரிபார்க்கப்படுவதால் தீங்கு விளைவிக்கும் நோயெதிர்ப்பு வினை அல்லது இலக்கு அல்லா விளைவுகளின் ஆபத்து குறைவதால் உடல்வெளி பாதுகாப்பானது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "3. Describe the role of vectors in gene therapy. Compare viral and non-viral vectors."
+      "en": "3. Describe the role of vectors in gene therapy. Compare viral and non-viral vectors.",
+      "ta": "3. மரபணுச் சிகிச்சையில் தாங்கிக்கடத்திகளின் பங்கை விவரிக்க. வைரஸ், வைரஸ் அல்லாத தாங்கிக்கடத்திகளை ஒப்பிடுக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Show Hint**"
+      "en": "**Show Hint**",
+      "ta": "**குறிப்பைக் காட்டுக**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Define vector as gene delivery vehicle. Explain properties required. Discuss viral vectors (retrovirus, adenovirus, AAV) — high efficiency, immune risk, integration. Non-viral vectors (liposomes) — lower efficiency, safer. Note AAV as preferred approved vector."
+      "en": "Define vector as gene delivery vehicle. Explain properties required. Discuss viral vectors (retrovirus, adenovirus, AAV) — high efficiency, immune risk, integration. Non-viral vectors (liposomes) — lower efficiency, safer. Note AAV as preferred approved vector.",
+      "ta": "தாங்கிக்கடத்தியை மரபணுக் கடத்து ஊர்தி என வரையறுக. தேவையான பண்புகளை விளக்குக. வைரஸ் தாங்கிக்கடத்திகளை (ரெட்ரோவைரஸ், அடினோவைரஸ், AAV) — உயர் திறன், நோயெதிர்ப்பு ஆபத்து, இணைவு — விவாதிக்க. வைரஸ் அல்லாதவை (லிப்போசோம்கள்) — குறைந்த திறன், பாதுகாப்பு. அங்கீகரிக்கப்பட்ட விருப்பத் தாங்கிக்கடத்தியாக AAV-ஐக் குறிப்பிடுக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "4. Explain the application of gene therapy in cancer treatment with special reference to suicide gene therapy and tumour suppressor gene restoration."
+      "en": "4. Explain the application of gene therapy in cancer treatment with special reference to suicide gene therapy and tumour suppressor gene restoration.",
+      "ta": "4. புற்றுநோய்ச் சிகிச்சையில் மரபணுச் சிகிச்சையின் பயன்பாட்டைத் தற்கொலை மரபணுச் சிகிச்சை, கட்டி அடக்கி மரபணு மீட்டலைச் சிறப்புக் குறிப்புடன் விளக்குக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Show Hint**"
+      "en": "**Show Hint**",
+      "ta": "**குறிப்பைக் காட்டுக**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Explain cancer as a genetic disease. Discuss: (a) p53 tumour suppressor restoration, (b) suicide gene therapy — HSV-TK gene + prodrug system, (c) immune stimulation / CAR-T. Mention Gendicine and CAR-T approvals as clinical examples."
+      "en": "Explain cancer as a genetic disease. Discuss: (a) p53 tumour suppressor restoration, (b) suicide gene therapy — HSV-TK gene + prodrug system, (c) immune stimulation / CAR-T. Mention Gendicine and CAR-T approvals as clinical examples.",
+      "ta": "புற்றுநோயை ஒரு மரபு நோயாக விளக்குக. விவாதிக்க: (அ) p53 கட்டி அடக்கி மீட்டல், (ஆ) தற்கொலை மரபணுச் சிகிச்சை — HSV-TK மரபணு + புரோட்ரக் அமைப்பு, (இ) நோயெதிர்ப்புத் தூண்டல் / CAR-T. மருத்துவ எடுத்துக்காட்டுகளாக Gendicine, CAR-T அங்கீகாரங்களைக் குறிப்பிடுக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "5. Discuss the ethical and clinical limitations of gene therapy. Why is germline gene therapy considered controversial?"
+      "en": "5. Discuss the ethical and clinical limitations of gene therapy. Why is germline gene therapy considered controversial?",
+      "ta": "5. மரபணுச் சிகிச்சையின் நெறிமுறை, மருத்துவ வரம்புகளை விவாதிக்க. கருவழி மரபணுச் சிகிச்சை ஏன் சர்ச்சைக்குரியதாகக் கருதப்படுகிறது?",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Show Hint**"
+      "en": "**Show Hint**",
+      "ta": "**குறிப்பைக் காட்டுக**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Clinical limitations: immune response, insertional mutagenesis, short-lived expression, high cost. Ethical issues: safety (Jesse Gelsinger), equitable access, long-term unknown effects. Germline therapy alters heritable genome — permanent changes passed to all future generations; He Jiankui case as example."
+      "en": "Clinical limitations: immune response, insertional mutagenesis, short-lived expression, high cost. Ethical issues: safety (Jesse Gelsinger), equitable access, long-term unknown effects. Germline therapy alters heritable genome — permanent changes passed to all future generations; He Jiankui case as example.",
+      "ta": "மருத்துவ வரம்புகள்: நோயெதிர்ப்பு வினை, உட்செருகல் திடீர்மாற்றவாக்கம், குறுகிய கால வெளிப்பாடு, அதிகச் செலவு. நெறிமுறைச் சிக்கல்கள்: பாதுகாப்பு (ஜெஸ்ஸி கெல்சிங்கர்), சமமான அணுகல், அறியப்படாத நீண்டகால விளைவுகள். கருவழிச் சிகிச்சை மரபுவழி மரபணுத்தொகையத்தை மாற்றுவதால், மாற்றங்கள் எதிர்காலத் தலைமுறைகள் அனைத்துக்கும் கடத்தப்படும்; ஹே ஜியான்குய் சர்ச்சை எடுத்துக்காட்டு.",
+      "ta_status": "draft"
      }
     }
    ]
