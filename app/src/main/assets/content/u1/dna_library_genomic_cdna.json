@@ -2,19 +2,25 @@
  "id": "dna_library_genomic_cdna",
  "unit": "I",
  "title": {
-  "en": "DNA Library – Genomic & cDNA Library"
+  "en": "DNA Library – Genomic & cDNA Library",
+  "ta": "DNA நூலகம் – மரபணு தொகைய மற்றும் cDNA நூலகம்",
+  "ta_status": "draft"
  },
  "sections": [
   {
    "id": "s01",
    "title": {
-    "en": "Overview"
+    "en": "Overview",
+    "ta": "மேலோட்டம்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "B.Sc. Zoology / Biotechnology"
+      "en": "B.Sc. Zoology / Biotechnology",
+      "ta": "B.Sc. விலங்கியல் / உயிரித் தொழில்நுட்பவியல்",
+      "ta_status": "draft"
      }
     }
    ]
@@ -22,25 +28,33 @@
   {
    "id": "s02",
    "title": {
-    "en": "DNA Library"
+    "en": "DNA Library",
+    "ta": "DNA நூலகம்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Genomic Library · cDNA Library · Construction & Applications"
+      "en": "Genomic Library · cDNA Library · Construction & Applications",
+      "ta": "மரபணு தொகைய நூலகம் · cDNA நூலகம் · உருவாக்கமும் பயன்பாடுகளும்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Imagine being able to store the entire genetic blueprint of an organism — every gene, every regulatory sequence — inside millions of bacterial colonies in a petri dish. That's the power of a DNA library. This app will take you through how these remarkable collections are built and why they revolutionised modern biology."
+      "en": "Imagine being able to store the entire genetic blueprint of an organism — every gene, every regulatory sequence — inside millions of bacterial colonies in a petri dish. That's the power of a DNA library. This app will take you through how these remarkable collections are built and why they revolutionised modern biology.",
+      "ta": "ஓர் உயிரினத்தின் முழு மரபணு வரைபடத்தையும் — ஒவ்வொரு மரபணுவையும், ஒவ்வொரு ஒழுங்குபடுத்தும் வரிசையையும் — ஒரு பெட்ரி தட்டிலுள்ள மில்லியன் கணக்கான பாக்டீரியக் குழுமங்களுக்குள் சேமிக்க முடிந்தால் எப்படி இருக்கும்? அதுவே DNA நூலகத்தின் ஆற்றல். இந்த அற்புதத் தொகுப்புகள் எவ்வாறு உருவாக்கப்படுகின்றன, அவை நவீன உயிரியலை ஏன் புரட்டிப்போட்டன என்பதை இச்செயலி விளக்கும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🎯 Learning Objectives**"
+      "en": "**🎯 Learning Objectives**",
+      "ta": "**🎯 கற்றல் நோக்கங்கள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -48,22 +62,34 @@
      "ordered": false,
      "items": [
       {
-       "en": "Define DNA library and explain its importance in genetic engineering."
+       "en": "Define DNA library and explain its importance in genetic engineering.",
+       "ta": "DNA நூலகத்தை வரையறுத்து மரபணுப் பொறியியலில் அதன் முக்கியத்துவத்தை விளக்குதல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Distinguish between genomic DNA library and cDNA library."
+       "en": "Distinguish between genomic DNA library and cDNA library.",
+       "ta": "மரபணு தொகைய DNA நூலகத்தையும் cDNA நூலகத்தையும் பிரித்தறிதல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Describe step-by-step construction of a genomic DNA library."
+       "en": "Describe step-by-step construction of a genomic DNA library.",
+       "ta": "மரபணு தொகைய DNA நூலக உருவாக்கத்தைப் படிப்படியாக விவரித்தல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Explain the role of reverse transcriptase in cDNA library construction."
+       "en": "Explain the role of reverse transcriptase in cDNA library construction.",
+       "ta": "cDNA நூலக உருவாக்கத்தில் ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸின் பங்கை விளக்குதல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Compare the two library types using their features, advantages, and applications."
+       "en": "Compare the two library types using their features, advantages, and applications.",
+       "ta": "இரு நூலக வகைகளையும் அவற்றின் பண்புகள், நன்மைகள், பயன்பாடுகளின் அடிப்படையில் ஒப்பிடுதல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "List the vectors used in DNA library construction."
+       "en": "List the vectors used in DNA library construction.",
+       "ta": "DNA நூலக உருவாக்கத்தில் பயன்படும் தாங்கிக்கடத்திகளைப் பட்டியலிடுதல்.",
+       "ta_status": "draft"
       }
      ]
     }
@@ -72,31 +98,41 @@
   {
    "id": "s03",
    "title": {
-    "en": "Introduction to DNA Library"
+    "en": "Introduction to DNA Library",
+    "ta": "DNA நூலகம் – அறிமுகம்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "**What Is a DNA Library?**"
+      "en": "**What Is a DNA Library?**",
+      "ta": "**DNA நூலகம் என்றால் என்ன?**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "A DNA library is a collection of **cloned DNA fragments**, each carried in a vector (such as a plasmid or bacteriophage), stored in a population of host cells (usually _Escherichia coli_). Together, these clones represent — in theory — _all or most_ of the genetic information from the source organism."
+      "en": "A DNA library is a collection of **cloned DNA fragments**, each carried in a vector (such as a plasmid or bacteriophage), stored in a population of host cells (usually _Escherichia coli_). Together, these clones represent — in theory — _all or most_ of the genetic information from the source organism.",
+      "ta": "DNA நூலகம் என்பது **நகலாக்கிய DNA துண்டுகளின்** தொகுப்பு; ஒவ்வொன்றும் ஒரு தாங்கிக்கடத்தியில் (பிளாஸ்மிட் அல்லது பாக்டீரியோஃபேஜ் போன்றவை) சுமக்கப்பட்டு, ஓம்புயிரி செல் தொகையில் (பொதுவாக _Escherichia coli_) சேமிக்கப்படுகிறது. இக்குளோன்கள் அனைத்தும் சேர்ந்து — கொள்கையளவில் — மூல உயிரினத்தின் _அனைத்து அல்லது பெரும்பாலான_ மரபணுத் தகவலைப் பிரதிநிதித்துவப்படுத்துகின்றன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Think of a DNA library as a **physical filing system**: just as a library of books stores human knowledge, a DNA library stores an organism's genetic information in the form of cloned DNA segments, each in a separate bacterial colony."
+      "en": "Think of a DNA library as a **physical filing system**: just as a library of books stores human knowledge, a DNA library stores an organism's genetic information in the form of cloned DNA segments, each in a separate bacterial colony.",
+      "ta": "DNA நூலகத்தை ஒரு **இயற்பியல் தாக்கல் அமைப்பாக** எண்ணுக: புத்தக நூலகம் மனித அறிவைச் சேமிப்பது போல, DNA நூலகம் ஓர் உயிரினத்தின் மரபணுத் தகவலை நகலாக்கிய DNA துண்டுகளாக, தனித்தனிப் பாக்டீரியக் குழுமங்களில் சேமிக்கிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Why Are DNA Libraries Needed?**"
+      "en": "**Why Are DNA Libraries Needed?**",
+      "ta": "**DNA நூலகங்கள் ஏன் தேவை?**",
+      "ta_status": "draft"
      }
     },
     {
@@ -104,19 +140,29 @@
      "ordered": false,
      "items": [
       {
-       "en": "**Genome complexity:** A human cell contains ~3.2 billion base pairs of DNA — far too large to study as a whole. Libraries allow individual genes to be isolated, studied, and manipulated."
+       "en": "**Genome complexity:** A human cell contains ~3.2 billion base pairs of DNA — far too large to study as a whole. Libraries allow individual genes to be isolated, studied, and manipulated.",
+       "ta": "**மரபணுத்தொகைச் சிக்கல்:** மனித செல்லில் ~3.2 பில்லியன் காரண இணைகள் உள்ளன — முழுமையாக ஆய்வு செய்ய முடியாத அளவு பெரியது. நூலகங்கள் தனித்தனி மரபணுக்களைத் தனித்துப் பிரித்து, ஆய்வு செய்து, கையாள உதவுகின்றன.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Gene isolation:** To clone and express a specific gene, a researcher must first find it within a library."
+       "en": "**Gene isolation:** To clone and express a specific gene, a researcher must first find it within a library.",
+       "ta": "**மரபணுத் தனிப்பிரிப்பு:** குறிப்பிட்ட மரபணுவை நகலாக்கி வெளிப்படுத்த, ஆய்வாளர் முதலில் அதை நூலகத்தில் கண்டறிய வேண்டும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Genome mapping:** Libraries provide the overlapping clones needed to assemble a physical map of entire chromosomes."
+       "en": "**Genome mapping:** Libraries provide the overlapping clones needed to assemble a physical map of entire chromosomes.",
+       "ta": "**மரபணுத்தொகை வரைபடமாக்கல்:** முழுக் குரோமோசோம்களின் இயற்பியல் வரைபடத்தை இணைக்கத் தேவையான ஒன்றையொன்று மேற்பொருந்தும் குளோன்களை நூலகங்கள் வழங்குகின்றன.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Gene expression analysis:** cDNA libraries reveal which genes are active in a specific tissue or condition."
+       "en": "**Gene expression analysis:** cDNA libraries reveal which genes are active in a specific tissue or condition.",
+       "ta": "**மரபணு வெளிப்பாட்டுப் பகுப்பாய்வு:** குறிப்பிட்ட திசுவில் அல்லது நிலையில் எந்த மரபணுக்கள் செயல்படுகின்றன என்பதை cDNA நூலகங்கள் வெளிப்படுத்துகின்றன.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Long-term storage:** Libraries preserve genetic material indefinitely in living bacteria at −70°C."
+       "en": "**Long-term storage:** Libraries preserve genetic material indefinitely in living bacteria at −70°C.",
+       "ta": "**நீண்டகாலச் சேமிப்பு:** −70°C-ல் உயிருள்ள பாக்டீரியாவில் மரபுப் பொருளைக் காலவரையின்றி நூலகங்கள் பாதுகாக்கின்றன.",
+       "ta_status": "draft"
       }
      ]
     },
@@ -124,19 +170,25 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Core Concept:** A DNA library is a permanent, amplifiable, and searchable repository of genetic information — the molecular equivalent of a genome archive."
+      "en": "**Core Concept:** A DNA library is a permanent, amplifiable, and searchable repository of genetic information — the molecular equivalent of a genome archive.",
+      "ta": "**மையக் கருத்து:** DNA நூலகம் என்பது மரபணுத் தகவலின் நிரந்தர, பெருக்கத்தக்க, தேடத்தக்க களஞ்சியம் — மரபணுத்தொகைக் காப்பகத்தின் மூலக்கூறு வடிவம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Basic Concept of Storing Genetic Information**"
+      "en": "**Basic Concept of Storing Genetic Information**",
+      "ta": "**மரபணுத் தகவலைச் சேமிக்கும் அடிப்படைக் கருத்து**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "DNA from an organism is cut into fragments using **restriction enzymes**. Each fragment is inserted into a **vector** and introduced into a host cell. Each transformed host cell contains one (or a few) DNA fragments. A complete library consists of enough individual clones to cover the entire genome (or transcriptome) of the source organism."
+      "en": "DNA from an organism is cut into fragments using **restriction enzymes**. Each fragment is inserted into a **vector** and introduced into a host cell. Each transformed host cell contains one (or a few) DNA fragments. A complete library consists of enough individual clones to cover the entire genome (or transcriptome) of the source organism.",
+      "ta": "உயிரினத்தின் DNA **ரெஸ்ட்ரிக்ஷன் நொதிகளால்** துண்டுகளாக வெட்டப்படுகிறது. ஒவ்வொரு துண்டும் **தாங்கிக்கடத்தியில்** செருகப்பட்டு ஓம்புயிரி செல்லுக்குள் செலுத்தப்படுகிறது. மாற்றப்பட்ட ஒவ்வொரு ஓம்புயிரி செல்லும் ஒன்று (அல்லது சில) DNA துண்டுகளைக் கொண்டிருக்கும். முழுமையான நூலகம், மூல உயிரினத்தின் முழு மரபணுத்தொகையை (அல்லது படியெடுப்புத் தொகையை) உள்ளடக்கப் போதுமான தனிக் குளோன்களைக் கொண்டிருக்கும்.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -146,44 +198,58 @@
   {
    "id": "s04",
    "title": {
-    "en": "Types of DNA Libraries"
+    "en": "Types of DNA Libraries",
+    "ta": "DNA நூலகங்களின் வகைகள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "There are two main types of DNA libraries, each with different sources of DNA and different applications:"
+      "en": "There are two main types of DNA libraries, each with different sources of DNA and different applications:",
+      "ta": "DNA நூலகங்கள் இரு முக்கிய வகைகள்; ஒவ்வொன்றுக்கும் DNA-வின் மூலமும் பயன்பாடுகளும் வேறுபடுகின்றன:",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "📖 Genomic DNA Library"
+      "en": "📖 Genomic DNA Library",
+      "ta": "📖 மரபணு தொகைய DNA நூலகம்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Source:** Total genomic DNA (all chromosomes).\n**Contains:** All coding + non-coding sequences including introns, promoters, and regulatory regions.\n**Best for:** Genome mapping, gene structure analysis, regulatory studies."
+      "en": "**Source:** Total genomic DNA (all chromosomes).\n**Contains:** All coding + non-coding sequences including introns, promoters, and regulatory regions.\n**Best for:** Genome mapping, gene structure analysis, regulatory studies.",
+      "ta": "**மூலம்:** மொத்த மரபணு தொகைய DNA (அனைத்துக் குரோமோசோம்களும்).\n**கொண்டுள்ளது:** இன்ட்ரான்கள், புரோமோட்டர்கள், ஒழுங்குபடுத்தும் பகுதிகள் உட்பட அனைத்துக் குறியீட்டு + குறியீடற்ற வரிசைகள்.\n**சிறந்தது:** மரபணுத்தொகை வரைபடமாக்கல், மரபணு அமைப்புப் பகுப்பாய்வு, ஒழுங்குபடுத்தல் ஆய்வுகள்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "🧬 cDNA Library"
+      "en": "🧬 cDNA Library",
+      "ta": "🧬 cDNA நூலகம்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Source:** mRNA (messenger RNA) converted to complementary DNA (cDNA).\n**Contains:** Only coding sequences (exons) expressed in a particular tissue/time.\n**Best for:** Gene expression studies, protein production in bacteria, transcriptomics."
+      "en": "**Source:** mRNA (messenger RNA) converted to complementary DNA (cDNA).\n**Contains:** Only coding sequences (exons) expressed in a particular tissue/time.\n**Best for:** Gene expression studies, protein production in bacteria, transcriptomics.",
+      "ta": "**மூலம்:** நிரப்பு DNA-வாக (cDNA) மாற்றப்பட்ட mRNA (தூது RNA).\n**கொண்டுள்ளது:** குறிப்பிட்ட திசு/நேரத்தில் வெளிப்படும் குறியீட்டு வரிசைகள் (எக்சான்கள்) மட்டும்.\n**சிறந்தது:** மரபணு வெளிப்பாட்டு ஆய்வுகள், பாக்டீரியாவில் புரத உற்பத்தி, படியெடுப்புத் தொகையியல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "warn",
      "text": {
-      "en": "**Key Difference at a Glance:** A genomic library contains _everything_ — exons, introns, and non-coding DNA. A cDNA library contains _only expressed genes_, without introns, specific to one tissue/condition."
+      "en": "**Key Difference at a Glance:** A genomic library contains _everything_ — exons, introns, and non-coding DNA. A cDNA library contains _only expressed genes_, without introns, specific to one tissue/condition.",
+      "ta": "**ஒரே பார்வையில் முக்கிய வேறுபாடு:** மரபணு தொகைய நூலகம் _அனைத்தையும்_ — எக்சான்கள், இன்ட்ரான்கள், குறியீடற்ற DNA — கொண்டுள்ளது. cDNA நூலகம் ஒரு திசு/நிலைக்கே உரிய, இன்ட்ரான்கள் இல்லாத _வெளிப்படும் மரபணுக்களை மட்டுமே_ கொண்டுள்ளது.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -193,49 +259,65 @@
   {
    "id": "s05",
    "title": {
-    "en": "Genomic DNA Library"
+    "en": "Genomic DNA Library",
+    "ta": "மரபணு தொகைய DNA நூலகம்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "**Definition**"
+      "en": "**Definition**",
+      "ta": "**வரையறை**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "A genomic DNA library is a collection of cloned DNA fragments that together represent the **entire genome** of an organism — including all genes, introns, exons, promoters, enhancers, and non-coding sequences — inserted into vectors and maintained in bacterial host cells."
+      "en": "A genomic DNA library is a collection of cloned DNA fragments that together represent the **entire genome** of an organism — including all genes, introns, exons, promoters, enhancers, and non-coding sequences — inserted into vectors and maintained in bacterial host cells.",
+      "ta": "மரபணு தொகைய DNA நூலகம் என்பது அனைத்து மரபணுக்கள், இன்ட்ரான்கள், எக்சான்கள், புரோமோட்டர்கள், என்ஹேன்சர்கள், குறியீடற்ற வரிசைகள் உட்பட ஓர் உயிரினத்தின் **முழு மரபணுத்தொகையையும்** சேர்ந்து பிரதிநிதித்துவப்படுத்தும் நகலாக்கிய DNA துண்டுகளின் தொகுப்பு; தாங்கிக்கடத்திகளில் செருகப்பட்டுப் பாக்டீரிய ஓம்புயிரி செல்களில் பராமரிக்கப்படுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Source of DNA**"
+      "en": "**Source of DNA**",
+      "ta": "**DNA-வின் மூலம்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "The source is the **total genomic DNA** isolated from any nucleated cell of the organism. All cells of an organism contain the same genomic DNA regardless of tissue type, so any tissue can be used (blood, liver, leaf, etc.)."
+      "en": "The source is the **total genomic DNA** isolated from any nucleated cell of the organism. All cells of an organism contain the same genomic DNA regardless of tissue type, so any tissue can be used (blood, liver, leaf, etc.).",
+      "ta": "உயிரினத்தின் எந்த உட்கரு கொண்ட செல்லிலிருந்தும் தனித்துப் பிரிக்கப்படும் **மொத்த மரபணு தொகைய DNA** மூலமாகும். திசு வகை எதுவாயினும் ஓர் உயிரினத்தின் அனைத்துச் செல்களிலும் ஒரே மரபணு தொகைய DNA இருப்பதால், எந்தத் திசுவையும் (இரத்தம், கல்லீரல், இலை போன்றவை) பயன்படுத்தலாம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Steps in Construction of a Genomic Library**"
+      "en": "**Steps in Construction of a Genomic Library**",
+      "ta": "**மரபணு தொகைய நூலகம் உருவாக்கும் படிகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "1**DNA Isolation:** Total genomic DNA is extracted from cells using lysis, proteinase K treatment, phenol-chloroform extraction, and ethanol precipitation. The DNA must be of high molecular weight and purity."
+      "en": "1**DNA Isolation:** Total genomic DNA is extracted from cells using lysis, proteinase K treatment, phenol-chloroform extraction, and ethanol precipitation. The DNA must be of high molecular weight and purity.",
+      "ta": "1**DNA தனிப்பிரிப்பு:** செல் சிதைவு, புரோட்டினேஸ் K சிகிச்சை, பீனால்-குளோரோஃபார்ம் பிரித்தெடுத்தல், எத்தனால் வீழ்படிவு மூலம் மொத்த மரபணு தொகைய DNA செல்களிலிருந்து எடுக்கப்படுகிறது. DNA உயர் மூலக்கூறு எடையும் தூய்மையும் கொண்டிருக்க வேண்டும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "2**DNA Fragmentation:** The large genomic DNA is cut into fragments of suitable size using either:"
+      "en": "2**DNA Fragmentation:** The large genomic DNA is cut into fragments of suitable size using either:",
+      "ta": "2**DNA துண்டாக்கம்:** பெரிய மரபணு தொகைய DNA பின்வருவனவற்றில் ஒன்றால் தகுந்த அளவு துண்டுகளாக வெட்டப்படுகிறது:",
+      "ta_status": "draft"
      }
     },
     {
@@ -243,55 +325,73 @@
      "ordered": false,
      "items": [
       {
-       "en": "**Restriction endonucleases** (e.g., EcoRI, HindIII) — partial digestion to produce overlapping fragments; or"
+       "en": "**Restriction endonucleases** (e.g., EcoRI, HindIII) — partial digestion to produce overlapping fragments; or",
+       "ta": "**ரெஸ்ட்ரிக்ஷன் எண்டோநியுக்ளியேஸ்கள்** (எ.கா. EcoRI, HindIII) — ஒன்றையொன்று மேற்பொருந்தும் துண்டுகளை உருவாக்க பகுதி செரித்தல்; அல்லது",
+       "ta_status": "draft"
       },
       {
-       "en": "**Mechanical shearing** (sonication or nebulization) — random physical fragmentation followed by end-repair."
+       "en": "**Mechanical shearing** (sonication or nebulization) — random physical fragmentation followed by end-repair.",
+       "ta": "**இயந்திரவழி வெட்டுதல்** (ஒலியாலான சிதைத்தல் அல்லது நெபுலைசேஷன்) — தற்செயலான இயற்பியல் துண்டாக்கம், அதைத் தொடர்ந்து முனைப் பழுதுநீக்கம்.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "The fragment size depends on the vector used: 15–20 kb for cosmids, 35–45 kb for BACs, 200 kb–2 Mb for YACs."
+      "en": "The fragment size depends on the vector used: 15–20 kb for cosmids, 35–45 kb for BACs, 200 kb–2 Mb for YACs.",
+      "ta": "துண்டு அளவு பயன்படும் தாங்கிக்கடத்தியைப் பொறுத்தது: காஸ்மிட்களுக்கு 15–20 kb, BAC-களுக்கு 35–45 kb, YAC-களுக்கு 200 kb–2 Mb.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "3**Insertion into Vectors:** DNA fragments are ligated into suitable vectors (lambda phage, cosmids, BACs, or YACs) using **DNA ligase**. Compatible ends are created by using the same restriction enzyme on both the insert and vector."
+      "en": "3**Insertion into Vectors:** DNA fragments are ligated into suitable vectors (lambda phage, cosmids, BACs, or YACs) using **DNA ligase**. Compatible ends are created by using the same restriction enzyme on both the insert and vector.",
+      "ta": "3**தாங்கிக்கடத்திகளில் செருகுதல்:** **DNA லைகேஸ்** மூலம் DNA துண்டுகள் தகுந்த தாங்கிக்கடத்திகளில் (லாம்டா பேஜ், காஸ்மிட்கள், BAC-கள் அல்லது YAC-கள்) இணைக்கப்படுகின்றன. செருகி, தாங்கிக்கடத்தி இரண்டிலும் ஒரே ரெஸ்ட்ரிக்ஷன் நொதியைப் பயன்படுத்தி பொருந்தும் முனைகள் உருவாக்கப்படுகின்றன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "4**Transformation into Host Cells:** The recombinant vectors are introduced into _E. coli_ (or yeast for YACs) by transformation (plasmids) or transduction (phage vectors). Each host cell takes up one recombinant clone."
+      "en": "4**Transformation into Host Cells:** The recombinant vectors are introduced into _E. coli_ (or yeast for YACs) by transformation (plasmids) or transduction (phage vectors). Each host cell takes up one recombinant clone.",
+      "ta": "4**ஓம்புயிரி செல்களுக்குள் தகவல் பரிமாற்றம்:** மறுகூட்டிணைவுத் தாங்கிக்கடத்திகள் _E. coli_-க்குள் (YAC-களுக்கு ஈஸ்ட்) தகவல் பரிமாற்றம் (பிளாஸ்மிட்கள்) அல்லது கடத்துதல் (பேஜ் தாங்கிக்கடத்திகள்) மூலம் செலுத்தப்படுகின்றன. ஒவ்வொரு ஓம்புயிரி செல்லும் ஒரு மறுகூட்டிணைவுக் குளோனை ஏற்கிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "5**Storage as a Library:** The collection of all transformed colonies together constitutes the genomic library. It is stored at −70°C in glycerol stocks for long-term use. Each colony contains a unique DNA fragment from the source genome."
+      "en": "5**Storage as a Library:** The collection of all transformed colonies together constitutes the genomic library. It is stored at −70°C in glycerol stocks for long-term use. Each colony contains a unique DNA fragment from the source genome.",
+      "ta": "5**நூலகமாகச் சேமித்தல்:** மாற்றப்பட்ட அனைத்துக் குழுமங்களின் தொகுப்பே மரபணு தொகைய நூலகம். நீண்டகாலப் பயன்பாட்டுக்கு −70°C-ல் கிளிசரால் சேமிப்புகளாக வைக்கப்படுகிறது. ஒவ்வொரு குழுமமும் மூல மரபணுத்தொகையிலிருந்து ஒரு தனித்துவ DNA துண்டைக் கொண்டுள்ளது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Library Size:** The number of clones needed to represent the entire genome at least once (with 99% probability) is calculated using the Clarke-Carbon formula: _N = ln(1-P) / ln(1 - f)_, where P is the probability of finding a sequence and f is the fractional size of each insert relative to the genome."
+      "en": "**Library Size:** The number of clones needed to represent the entire genome at least once (with 99% probability) is calculated using the Clarke-Carbon formula: _N = ln(1-P) / ln(1 - f)_, where P is the probability of finding a sequence and f is the fractional size of each insert relative to the genome.",
+      "ta": "**நூலக அளவு:** முழு மரபணுத்தொகையையும் குறைந்தது ஒருமுறை (99% நிகழ்தகவுடன்) பிரதிநிதித்துவப்படுத்தத் தேவையான குளோன்களின் எண்ணிக்கை கிளார்க்-கார்பன் வாய்பாட்டால் கணக்கிடப்படுகிறது: _N = ln(1-P) / ln(1 - f)_; இங்கு P என்பது ஒரு வரிசையைக் கண்டறியும் நிகழ்தகவு, f என்பது மரபணுத்தொகையுடன் ஒப்பிடும்போது ஒவ்வொரு செருகியின் பின்ன அளவு.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Fig. 1 — Construction of a Genomic DNA Library"
+      "en": "Fig. 1 — Construction of a Genomic DNA Library",
+      "ta": "படம் 1 — மரபணு தொகைய DNA நூலக உருவாக்கம்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "dna_library_genomic_cdna-d01",
      "caption": {
-      "en": "Genomic library construction"
+      "en": "Genomic library construction",
+      "ta": "மரபணு தொகைய நூலக உருவாக்கம்",
+      "ta_status": "draft"
      },
      "labels": [
       "Step 1: Isolate Genomic DNA",
@@ -324,7 +424,9 @@
     {
      "type": "p",
      "text": {
-      "en": "**Characteristics of a Genomic Library**"
+      "en": "**Characteristics of a Genomic Library**",
+      "ta": "**மரபணு தொகைய நூலகத்தின் பண்புகள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -332,23 +434,33 @@
      "ordered": false,
      "items": [
       {
-       "en": "Contains both coding and **non-coding DNA sequences** (introns, promoters, intergenic regions)."
+       "en": "Contains both coding and **non-coding DNA sequences** (introns, promoters, intergenic regions).",
+       "ta": "குறியீட்டு, **குறியீடற்ற DNA வரிசைகள்** (இன்ட்ரான்கள், புரோமோட்டர்கள், மரபணுகளுக்கிடையேயான பகுதிகள்) இரண்டையும் கொண்டுள்ளது.",
+       "ta_status": "draft"
       },
       {
-       "en": "Same in all cell types of an organism (since all cells share the same genome)."
+       "en": "Same in all cell types of an organism (since all cells share the same genome).",
+       "ta": "ஓர் உயிரினத்தின் அனைத்துச் செல் வகைகளிலும் ஒன்றே (அனைத்துச் செல்களும் ஒரே மரபணுத்தொகையைக் கொண்டுள்ளதால்).",
+       "ta_status": "draft"
       },
       {
-       "en": "Size is proportional to genome complexity — human genome libraries require ~800,000–1,000,000 cosmid clones for complete coverage."
+       "en": "Size is proportional to genome complexity — human genome libraries require ~800,000–1,000,000 cosmid clones for complete coverage.",
+       "ta": "அளவு மரபணுத்தொகையின் சிக்கலுக்கு விகிதாசாரம் — முழுமையான உள்ளடக்கத்துக்கு மனித மரபணுத்தொகை நூலகங்களுக்கு ~8,00,000–10,00,000 காஸ்மிட் குளோன்கள் தேவை.",
+       "ta_status": "draft"
       },
       {
-       "en": "Allows recovery of entire gene loci including regulatory regions."
+       "en": "Allows recovery of entire gene loci including regulatory regions.",
+       "ta": "ஒழுங்குபடுத்தும் பகுதிகள் உட்பட முழு மரபணுக் களங்களையும் மீட்க அனுமதிக்கிறது.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Advantages**"
+      "en": "**Advantages**",
+      "ta": "**நன்மைகள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -356,23 +468,33 @@
      "ordered": false,
      "items": [
       {
-       "en": "Represents the **complete genome** including regulatory and structural elements."
+       "en": "Represents the **complete genome** including regulatory and structural elements.",
+       "ta": "ஒழுங்குபடுத்தும், கட்டமைப்புக் கூறுகள் உட்பட **முழு மரபணுத்தொகையையும்** பிரதிநிதித்துவப்படுத்துகிறது.",
+       "ta_status": "draft"
       },
       {
-       "en": "Tissue-independent — any cell type can be used as source."
+       "en": "Tissue-independent — any cell type can be used as source.",
+       "ta": "திசு சாராதது — எந்தச் செல் வகையையும் மூலமாகப் பயன்படுத்தலாம்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Essential for genome sequencing projects and chromosome walking."
+       "en": "Essential for genome sequencing projects and chromosome walking.",
+       "ta": "மரபணுத்தொகை வரிசைப்படுத்தும் திட்டங்களுக்கும் குரோமோசோம் நடைபயணத்துக்கும் இன்றியமையாதது.",
+       "ta_status": "draft"
       },
       {
-       "en": "Permanent, stable repository of genetic information."
+       "en": "Permanent, stable repository of genetic information.",
+       "ta": "மரபணுத் தகவலின் நிரந்தர, நிலையான களஞ்சியம்.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Limitations**"
+      "en": "**Limitations**",
+      "ta": "**வரம்புகள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -380,23 +502,33 @@
      "ordered": false,
      "items": [
       {
-       "en": "Very large number of clones required for complete genome coverage."
+       "en": "Very large number of clones required for complete genome coverage.",
+       "ta": "முழு மரபணுத்தொகை உள்ளடக்கத்துக்கு மிக அதிக எண்ணிக்கையிலான குளோன்கள் தேவை.",
+       "ta_status": "draft"
       },
       {
-       "en": "Contains non-coding and repetitive DNA that may complicate analysis."
+       "en": "Contains non-coding and repetitive DNA that may complicate analysis.",
+       "ta": "பகுப்பாய்வைச் சிக்கலாக்கக்கூடிய குறியீடற்ற, திரும்பத் திரும்ப வரும் DNA உள்ளது.",
+       "ta_status": "draft"
       },
       {
-       "en": "Eukaryotic genes (with introns) cannot be directly expressed in prokaryotic hosts."
+       "en": "Eukaryotic genes (with introns) cannot be directly expressed in prokaryotic hosts.",
+       "ta": "யூகேரியோட்டு மரபணுக்களை (இன்ட்ரான்களுடன்) புரோகேரியோட்டு ஓம்புயிரிகளில் நேரடியாக வெளிப்படுத்த இயலாது.",
+       "ta_status": "draft"
       },
       {
-       "en": "Screening can be laborious without efficient hybridization probes."
+       "en": "Screening can be laborious without efficient hybridization probes.",
+       "ta": "திறமையான கலப்பினமாக்கல் DNA துருவிகள் இல்லாமல் சலிக்கை உழைப்பு மிகுந்ததாக இருக்கலாம்.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Applications**"
+      "en": "**Applications**",
+      "ta": "**பயன்பாடுகள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -404,19 +536,29 @@
      "ordered": false,
      "items": [
       {
-       "en": "Genome sequencing projects (e.g., Human Genome Project)."
+       "en": "Genome sequencing projects (e.g., Human Genome Project).",
+       "ta": "மரபணுத்தொகை வரிசைப்படுத்தும் திட்டங்கள் (எ.கா. மனித மரபணுத்தொகைத் திட்டம்).",
+       "ta_status": "draft"
       },
       {
-       "en": "Chromosome walking and jumping to map disease genes."
+       "en": "Chromosome walking and jumping to map disease genes.",
+       "ta": "நோய் மரபணுக்களை வரைபடமாக்க குரோமோசோம் நடைபயணமும் தாவலும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Identification and characterization of gene regulatory regions."
+       "en": "Identification and characterization of gene regulatory regions.",
+       "ta": "மரபணு ஒழுங்குபடுத்தும் பகுதிகளை அடையாளம் கண்டு பண்பறிதல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Comparative genomics and evolutionary studies."
+       "en": "Comparative genomics and evolutionary studies.",
+       "ta": "ஒப்பீட்டு மரபணுத்தொகையியலும் பரிணாம ஆய்வுகளும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Isolation of full-length genes including all introns."
+       "en": "Isolation of full-length genes including all introns.",
+       "ta": "அனைத்து இன்ட்ரான்களுடனும் முழு நீள மரபணுக்களைத் தனித்துப் பிரித்தல்.",
+       "ta_status": "draft"
       }
      ]
     }
@@ -427,105 +569,139 @@
   {
    "id": "s06",
    "title": {
-    "en": "cDNA Library"
+    "en": "cDNA Library",
+    "ta": "cDNA நூலகம்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "**Definition**"
+      "en": "**Definition**",
+      "ta": "**வரையறை**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "A cDNA library is a collection of cloned **complementary DNA (cDNA)** molecules synthesised from the **mRNA** of a specific cell type, tissue, or developmental stage. Because it is derived from mRNA, a cDNA library represents only the _expressed genes_ — those actively transcribed at the time of RNA isolation."
+      "en": "A cDNA library is a collection of cloned **complementary DNA (cDNA)** molecules synthesised from the **mRNA** of a specific cell type, tissue, or developmental stage. Because it is derived from mRNA, a cDNA library represents only the _expressed genes_ — those actively transcribed at the time of RNA isolation.",
+      "ta": "cDNA நூலகம் என்பது குறிப்பிட்ட செல் வகை, திசு அல்லது வளர்ச்சி நிலையின் **mRNA**-விலிருந்து தொகுக்கப்பட்ட, நகலாக்கிய **நிரப்பு DNA (cDNA)** மூலக்கூறுகளின் தொகுப்பு. mRNA-விலிருந்து பெறப்படுவதால், RNA தனிப்பிரிக்கப்பட்ட நேரத்தில் செயல்பட்டுப் படியெடுக்கப்பட்ட _வெளிப்படும் மரபணுக்களை மட்டுமே_ cDNA நூலகம் பிரதிநிதித்துவப்படுத்துகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Source: mRNA**"
+      "en": "**Source: mRNA**",
+      "ta": "**மூலம்: mRNA**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Unlike a genomic library that uses total DNA, a cDNA library uses **messenger RNA (mRNA)** as the starting material. mRNA represents only the transcribed and processed genes in a cell — it has already had its introns removed by splicing."
+      "en": "Unlike a genomic library that uses total DNA, a cDNA library uses **messenger RNA (mRNA)** as the starting material. mRNA represents only the transcribed and processed genes in a cell — it has already had its introns removed by splicing.",
+      "ta": "மொத்த DNA-வைப் பயன்படுத்தும் மரபணு தொகைய நூலகத்தைப் போலன்றி, cDNA நூலகம் **தூது RNA (mRNA)** -வைத் தொடக்கப் பொருளாகப் பயன்படுத்துகிறது. செல்லில் படியெடுக்கப்பட்டுச் செயலாக்கப்பட்ட மரபணுக்களை மட்டுமே mRNA பிரதிநிதித்துவப்படுத்துகிறது — பிளவுறுதல் மூலம் அதன் இன்ட்ரான்கள் ஏற்கெனவே நீக்கப்பட்டுவிட்டன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Role of Reverse Transcriptase**"
+      "en": "**Role of Reverse Transcriptase**",
+      "ta": "**ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸின் பங்கு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "The key enzyme in cDNA synthesis is reverse transcriptase (RNA-dependent DNA polymerase), derived from retroviruses. It performs the critical step of synthesising a **DNA strand (cDNA) from the mRNA template** — reversing the normal direction of the central dogma."
+      "en": "The key enzyme in cDNA synthesis is reverse transcriptase (RNA-dependent DNA polymerase), derived from retroviruses. It performs the critical step of synthesising a **DNA strand (cDNA) from the mRNA template** — reversing the normal direction of the central dogma.",
+      "ta": "cDNA தொகுப்பின் முக்கிய நொதி, ரெட்ரோவைரஸ்களிலிருந்து பெறப்படும் ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ் (RNA-சார் DNA பாலிமரேஸ்). **mRNA டெம்ப்ளேட்டிலிருந்து DNA இழையை (cDNA)** தொகுக்கும் முக்கியப் படியை இது செய்கிறது — மைய மறையத்தின் இயல்பான திசையைத் தலைகீழாக்குகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "warn",
      "text": {
-      "en": "**Central Dogma Reversal:** Normal flow: DNA → RNA → Protein.\nReverse transcriptase catalyses: **mRNA → cDNA** (complementary DNA). This cDNA is a DNA copy of the mRNA — intron-free and ready for expression in bacteria."
+      "en": "**Central Dogma Reversal:** Normal flow: DNA → RNA → Protein.\nReverse transcriptase catalyses: **mRNA → cDNA** (complementary DNA). This cDNA is a DNA copy of the mRNA — intron-free and ready for expression in bacteria.",
+      "ta": "**மைய மறையத் தலைகீழாக்கம்:** இயல்பான ஓட்டம்: DNA → RNA → புரதம்.\nரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ் வினையூக்குவது: **mRNA → cDNA** (நிரப்பு DNA). இந்த cDNA என்பது mRNA-வின் DNA நகல் — இன்ட்ரான்கள் அற்றது, பாக்டீரியாவில் வெளிப்படுத்தத் தயாரானது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Steps in Construction of a cDNA Library**"
+      "en": "**Steps in Construction of a cDNA Library**",
+      "ta": "**cDNA நூலகம் உருவாக்கும் படிகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "1**mRNA Isolation:** Total RNA is extracted from the target tissue. Poly-A mRNA is purified using **oligo-dT cellulose chromatography** — the poly-A tail of eukaryotic mRNA binds to the oligo-dT column, allowing selective isolation of mRNA from total RNA."
+      "en": "1**mRNA Isolation:** Total RNA is extracted from the target tissue. Poly-A mRNA is purified using **oligo-dT cellulose chromatography** — the poly-A tail of eukaryotic mRNA binds to the oligo-dT column, allowing selective isolation of mRNA from total RNA.",
+      "ta": "1**mRNA தனிப்பிரிப்பு:** இலக்குத் திசுவிலிருந்து மொத்த RNA எடுக்கப்படுகிறது. **oligo-dT செல்லுலோஸ் நிறப்பிரிகை** மூலம் Poly-A mRNA தூய்மையாக்கப்படுகிறது — யூகேரியோட்டு mRNA-வின் poly-A வால் oligo-dT நிரலுடன் பிணைவதால், மொத்த RNA-விலிருந்து mRNA தேர்ந்து பிரிக்கப்படுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "2**First-Strand cDNA Synthesis:** An **oligo-dT primer** (or random hexamer) anneals to the poly-A tail of mRNA. **Reverse transcriptase** extends the primer using the mRNA as template, synthesising a complementary DNA strand (first-strand cDNA), creating an mRNA:cDNA hybrid."
+      "en": "2**First-Strand cDNA Synthesis:** An **oligo-dT primer** (or random hexamer) anneals to the poly-A tail of mRNA. **Reverse transcriptase** extends the primer using the mRNA as template, synthesising a complementary DNA strand (first-strand cDNA), creating an mRNA:cDNA hybrid.",
+      "ta": "2**முதல் இழை cDNA தொகுப்பு:** **oligo-dT பிரைமர்** (அல்லது சீரற்ற ஹெக்சாமர்) mRNA-வின் poly-A வாலுடன் இணைகிறது. **ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ்** mRNA-வை டெம்ப்ளேட்டாகக் கொண்டு பிரைமரை நீட்டி, நிரப்பு DNA இழையை (முதல் இழை cDNA) தொகுத்து, mRNA:cDNA கலப்பினத்தை உருவாக்குகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "3**RNA Removal:** The mRNA template is degraded using **RNase H** (which degrades RNA in an RNA:DNA hybrid) or alkaline hydrolysis (NaOH), leaving the single-stranded cDNA (ss-cDNA)."
+      "en": "3**RNA Removal:** The mRNA template is degraded using **RNase H** (which degrades RNA in an RNA:DNA hybrid) or alkaline hydrolysis (NaOH), leaving the single-stranded cDNA (ss-cDNA).",
+      "ta": "3**RNA நீக்கம்:** **RNase H** (RNA:DNA கலப்பினத்திலுள்ள RNA-வைச் சிதைப்பது) அல்லது காரநீராற்பகுப்பு (NaOH) மூலம் mRNA டெம்ப்ளேட் சிதைக்கப்பட்டு, ஒற்றை இழை cDNA (ss-cDNA) எஞ்சுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "4**Second-Strand cDNA Synthesis:** **DNA Polymerase I** (using RNase H to generate RNA primers) or Klenow fragment synthesises the second DNA strand, converting single-stranded cDNA to **double-stranded cDNA (ds-cDNA)**."
+      "en": "4**Second-Strand cDNA Synthesis:** **DNA Polymerase I** (using RNase H to generate RNA primers) or Klenow fragment synthesises the second DNA strand, converting single-stranded cDNA to **double-stranded cDNA (ds-cDNA)**.",
+      "ta": "4**இரண்டாம் இழை cDNA தொகுப்பு:** **DNA பாலிமரேஸ் I** (RNA பிரைமர்களை உருவாக்க RNase H-ஐப் பயன்படுத்தி) அல்லது கிளெனோ துண்டு இரண்டாம் DNA இழையைத் தொகுத்து, ஒற்றை இழை cDNA-வை **இரட்டை இழை cDNA-வாக (ds-cDNA)** மாற்றுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "5**Linker/Adaptor Addition:** Restriction enzyme linkers or adaptors are ligated to the ends of the blunt-ended ds-cDNA, creating compatible ends for cloning into vectors."
+      "en": "5**Linker/Adaptor Addition:** Restriction enzyme linkers or adaptors are ligated to the ends of the blunt-ended ds-cDNA, creating compatible ends for cloning into vectors.",
+      "ta": "5**லிங்கர்/அடாப்டர் சேர்த்தல்:** மழுங்கிய முனை ds-cDNA-வின் முனைகளில் ரெஸ்ட்ரிக்ஷன் நொதி லிங்கர்கள் அல்லது அடாப்டர்கள் இணைக்கப்பட்டு, தாங்கிக்கடத்திகளில் நகலாக்கப் பொருந்தும் முனைகள் உருவாக்கப்படுகின்றன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "6**Insertion into Vector and Cloning:** The ds-cDNA is ligated into an appropriate vector (plasmid or lambda phage). The recombinant vectors are transformed into competent _E. coli_ cells and plated on selective media."
+      "en": "6**Insertion into Vector and Cloning:** The ds-cDNA is ligated into an appropriate vector (plasmid or lambda phage). The recombinant vectors are transformed into competent _E. coli_ cells and plated on selective media.",
+      "ta": "6**தாங்கிக்கடத்தியில் செருகலும் நகலாக்கமும்:** ds-cDNA ஏற்ற தாங்கிக்கடத்தியில் (பிளாஸ்மிட் அல்லது லாம்டா பேஜ்) இணைக்கப்படுகிறது. மறுகூட்டிணைவுத் தாங்கிக்கடத்திகள் தகுதி பெற்ற _E. coli_ செல்களுக்குள் செலுத்தப்பட்டுத் தேர்வு ஊடகத்தில் வளர்க்கப்படுகின்றன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Fig. 2 — Construction of a cDNA Library"
+      "en": "Fig. 2 — Construction of a cDNA Library",
+      "ta": "படம் 2 — cDNA நூலக உருவாக்கம்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "dna_library_genomic_cdna-d02",
      "caption": {
-      "en": "cDNA library construction"
+      "en": "cDNA library construction",
+      "ta": "cDNA நூலக உருவாக்கம்",
+      "ta_status": "draft"
      },
      "labels": [
       "Step 1: Isolate mRNA",
@@ -568,7 +744,9 @@
     {
      "type": "p",
      "text": {
-      "en": "**Characteristics of a cDNA Library**"
+      "en": "**Characteristics of a cDNA Library**",
+      "ta": "**cDNA நூலகத்தின் பண்புகள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -576,23 +754,33 @@
      "ordered": false,
      "items": [
       {
-       "en": "Contains only **coding sequences** (exons) — no introns or non-coding DNA."
+       "en": "Contains only **coding sequences** (exons) — no introns or non-coding DNA.",
+       "ta": "**குறியீட்டு வரிசைகளை** (எக்சான்கள்) மட்டுமே கொண்டுள்ளது — இன்ட்ரான்கள், குறியீடற்ற DNA இல்லை.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Tissue-specific and condition-specific** — reflects the genes expressed in that particular cell type/condition."
+       "en": "**Tissue-specific and condition-specific** — reflects the genes expressed in that particular cell type/condition.",
+       "ta": "**திசுவுக்கும் நிலைக்கும் உரியது** — அந்தக் குறிப்பிட்ட செல் வகை/நிலையில் வெளிப்படும் மரபணுக்களைப் பிரதிபலிக்கிறது.",
+       "ta_status": "draft"
       },
       {
-       "en": "Generally smaller than genomic libraries — only expressed genes are represented."
+       "en": "Generally smaller than genomic libraries — only expressed genes are represented.",
+       "ta": "பொதுவாக மரபணு தொகைய நூலகங்களை விடச் சிறியது — வெளிப்படும் மரபணுக்கள் மட்டுமே பிரதிநிதித்துவம் பெறுகின்றன.",
+       "ta_status": "draft"
       },
       {
-       "en": "mRNA abundance affects representation — highly expressed genes are over-represented."
+       "en": "mRNA abundance affects representation — highly expressed genes are over-represented.",
+       "ta": "mRNA மிகுதி பிரதிநிதித்துவத்தைப் பாதிக்கிறது — அதிகம் வெளிப்படும் மரபணுக்கள் மிகையாகப் பிரதிநிதித்துவம் பெறுகின்றன.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Advantages**"
+      "en": "**Advantages**",
+      "ta": "**நன்மைகள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -600,23 +788,33 @@
      "ordered": false,
      "items": [
       {
-       "en": "Intron-free — eukaryotic genes can be **expressed directly in bacterial hosts**."
+       "en": "Intron-free — eukaryotic genes can be **expressed directly in bacterial hosts**.",
+       "ta": "இன்ட்ரான்கள் இல்லாதது — யூகேரியோட்டு மரபணுக்களை **பாக்டீரிய ஓம்புயிரிகளில் நேரடியாக வெளிப்படுத்தலாம்**.",
+       "ta_status": "draft"
       },
       {
-       "en": "Smaller and easier to screen compared to genomic libraries."
+       "en": "Smaller and easier to screen compared to genomic libraries.",
+       "ta": "மரபணு தொகைய நூலகங்களுடன் ஒப்பிடச் சிறியது, சலிக்க எளிது.",
+       "ta_status": "draft"
       },
       {
-       "en": "Reveals which genes are expressed in a particular tissue or developmental stage."
+       "en": "Reveals which genes are expressed in a particular tissue or developmental stage.",
+       "ta": "குறிப்பிட்ட திசு அல்லது வளர்ச்சி நிலையில் எந்த மரபணுக்கள் வெளிப்படுகின்றன என்பதை வெளிப்படுத்துகிறது.",
+       "ta_status": "draft"
       },
       {
-       "en": "Useful for producing recombinant proteins (e.g., insulin, growth hormone)."
+       "en": "Useful for producing recombinant proteins (e.g., insulin, growth hormone).",
+       "ta": "மறுகூட்டிணைவுப் புரதங்களை (எ.கா. இன்சுலின், வளர்ச்சி ஹார்மோன்) உற்பத்தி செய்யப் பயன்படுகிறது.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Limitations**"
+      "en": "**Limitations**",
+      "ta": "**வரம்புகள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -624,23 +822,33 @@
      "ordered": false,
      "items": [
       {
-       "en": "Does not contain promoters, introns, or regulatory sequences from the original gene."
+       "en": "Does not contain promoters, introns, or regulatory sequences from the original gene.",
+       "ta": "மூல மரபணுவின் புரோமோட்டர்கள், இன்ட்ரான்கள், ஒழுங்குபடுத்தும் வரிசைகள் இல்லை.",
+       "ta_status": "draft"
       },
       {
-       "en": "Limited to genes expressed under the specific conditions at the time of mRNA isolation."
+       "en": "Limited to genes expressed under the specific conditions at the time of mRNA isolation.",
+       "ta": "mRNA தனிப்பிரிப்பின்போது இருந்த குறிப்பிட்ட நிலைகளில் வெளிப்படும் மரபணுக்களுக்கு மட்டுமே வரம்புக்குட்பட்டது.",
+       "ta_status": "draft"
       },
       {
-       "en": "Low-abundance mRNAs may be under-represented or absent."
+       "en": "Low-abundance mRNAs may be under-represented or absent.",
+       "ta": "குறைந்த மிகுதி mRNA-க்கள் குறைவாகப் பிரதிநிதித்துவம் பெறலாம் அல்லது இல்லாமல் போகலாம்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Requires high-quality RNA isolation (RNA is fragile and easily degraded by RNases)."
+       "en": "Requires high-quality RNA isolation (RNA is fragile and easily degraded by RNases).",
+       "ta": "உயர்தர RNA தனிப்பிரிப்பு தேவை (RNA எளிதில் உடையக்கூடியது, RNase-களால் சிதையும்).",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Applications**"
+      "en": "**Applications**",
+      "ta": "**பயன்பாடுகள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -648,19 +856,29 @@
      "ordered": false,
      "items": [
       {
-       "en": "Production of recombinant proteins in bacteria (intron-free cDNA can be directly expressed)."
+       "en": "Production of recombinant proteins in bacteria (intron-free cDNA can be directly expressed).",
+       "ta": "பாக்டீரியாவில் மறுகூட்டிணைவுப் புரதங்களை உற்பத்தி செய்தல் (இன்ட்ரான் இல்லாத cDNA-வை நேரடியாக வெளிப்படுத்தலாம்).",
+       "ta_status": "draft"
       },
       {
-       "en": "Identification and characterisation of genes expressed in a specific tissue or disease state."
+       "en": "Identification and characterisation of genes expressed in a specific tissue or disease state.",
+       "ta": "குறிப்பிட்ட திசு அல்லது நோய் நிலையில் வெளிப்படும் மரபணுக்களை அடையாளம் கண்டு பண்பறிதல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Microarray and RNA-Seq expression profiling studies."
+       "en": "Microarray and RNA-Seq expression profiling studies.",
+       "ta": "மைக்ரோஅரே, RNA-Seq வெளிப்பாட்டுச் சுயவிவர ஆய்வுகள்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Two-hybrid protein interaction screens using cDNA libraries."
+       "en": "Two-hybrid protein interaction screens using cDNA libraries.",
+       "ta": "cDNA நூலகங்களைப் பயன்படுத்தும் இருகலப்பினப் புரத இடைவினைச் சலிக்கைகள்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Discovery of tissue-specific genes for diagnostic and therapeutic targets."
+       "en": "Discovery of tissue-specific genes for diagnostic and therapeutic targets.",
+       "ta": "நோயறிதல், சிகிச்சை இலக்குகளுக்குத் திசு-சிறப்பு மரபணுக்களைக் கண்டறிதல்.",
+       "ta_status": "draft"
       }
      ]
     }
@@ -671,153 +889,233 @@
   {
    "id": "s07",
    "title": {
-    "en": "Comparison: Genomic Library vs cDNA Library"
+    "en": "Comparison: Genomic Library vs cDNA Library",
+    "ta": "ஒப்பீடு: மரபணு தொகைய நூலகம் – cDNA நூலகம்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "table",
      "header": [
       {
-       "en": "Feature"
+       "en": "Feature",
+       "ta": "பண்பு",
+       "ta_status": "draft"
       },
       {
-       "en": "Genomic DNA Library"
+       "en": "Genomic DNA Library",
+       "ta": "மரபணு தொகைய DNA நூலகம்",
+       "ta_status": "draft"
       },
       {
-       "en": "cDNA Library"
+       "en": "cDNA Library",
+       "ta": "cDNA நூலகம்",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Source of DNA**"
+        "en": "**Source of DNA**",
+        "ta": "**DNA-வின் மூலம்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Total genomic DNA from any nucleated cell"
+        "en": "Total genomic DNA from any nucleated cell",
+        "ta": "உட்கரு கொண்ட எந்தச் செல்லிலிருந்தும் பெறும் மொத்த மரபணு தொகைய DNA",
+        "ta_status": "draft"
        },
        {
-        "en": "mRNA converted to cDNA via reverse transcriptase"
+        "en": "mRNA converted to cDNA via reverse transcriptase",
+        "ta": "ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ் மூலம் cDNA-வாக மாற்றப்பட்ட mRNA",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Introns present?**"
+        "en": "**Introns present?**",
+        "ta": "**இன்ட்ரான்கள் உண்டா?**",
+        "ta_status": "draft"
        },
        {
-        "en": "Yes — contains introns and exons"
+        "en": "Yes — contains introns and exons",
+        "ta": "ஆம் — இன்ட்ரான்கள், எக்சான்கள் இரண்டும் உள்ளன",
+        "ta_status": "draft"
        },
        {
-        "en": "No — introns already removed by splicing"
+        "en": "No — introns already removed by splicing",
+        "ta": "இல்லை — பிளவுறுதலால் இன்ட்ரான்கள் ஏற்கெனவே நீக்கப்பட்டுவிட்டன",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Non-coding sequences**"
+        "en": "**Non-coding sequences**",
+        "ta": "**குறியீடற்ற வரிசைகள்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Yes — promoters, enhancers, intergenic DNA"
+        "en": "Yes — promoters, enhancers, intergenic DNA",
+        "ta": "ஆம் — புரோமோட்டர்கள், என்ஹேன்சர்கள், மரபணுகளுக்கிடையேயான DNA",
+        "ta_status": "draft"
        },
        {
-        "en": "No — only coding (expressed) sequences"
+        "en": "No — only coding (expressed) sequences",
+        "ta": "இல்லை — குறியீட்டு (வெளிப்படும்) வரிசைகள் மட்டும்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Tissue specificity**"
+        "en": "**Tissue specificity**",
+        "ta": "**திசு சிறப்புத்தன்மை**",
+        "ta_status": "draft"
        },
        {
-        "en": "Same in all tissues of the organism"
+        "en": "Same in all tissues of the organism",
+        "ta": "உயிரினத்தின் அனைத்துத் திசுக்களிலும் ஒன்றே",
+        "ta_status": "draft"
        },
        {
-        "en": "Tissue-specific and condition-specific"
+        "en": "Tissue-specific and condition-specific",
+        "ta": "திசுவுக்கும் நிலைக்கும் உரியது",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Library size**"
+        "en": "**Library size**",
+        "ta": "**நூலக அளவு**",
+        "ta_status": "draft"
        },
        {
-        "en": "Very large (hundreds of thousands to millions of clones)"
+        "en": "Very large (hundreds of thousands to millions of clones)",
+        "ta": "மிகப் பெரியது (இலட்சக்கணக்கிலிருந்து மில்லியன் குளோன்கள்)",
+        "ta_status": "draft"
        },
        {
-        "en": "Smaller (thousands to tens of thousands of clones)"
+        "en": "Smaller (thousands to tens of thousands of clones)",
+        "ta": "சிறியது (ஆயிரக்கணக்கிலிருந்து பத்தாயிரக்கணக்கான குளோன்கள்)",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Vectors used**"
+        "en": "**Vectors used**",
+        "ta": "**பயன்படும் தாங்கிக்கடத்திகள்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Lambda phage, cosmids, BACs, YACs"
+        "en": "Lambda phage, cosmids, BACs, YACs",
+        "ta": "லாம்டா பேஜ், காஸ்மிட்கள், BAC-கள், YAC-கள்",
+        "ta_status": "draft"
        },
        {
-        "en": "Plasmids, lambda phage (pUC, lambda gt10, gt11)"
+        "en": "Plasmids, lambda phage (pUC, lambda gt10, gt11)",
+        "ta": "பிளாஸ்மிட்கள், லாம்டா பேஜ் (pUC, lambda gt10, gt11)",
+        "ta_status": "bracketed"
        }
       ],
       [
        {
-        "en": "**Expression in prokaryotes**"
+        "en": "**Expression in prokaryotes**",
+        "ta": "**புரோகேரியோட்டுகளில் வெளிப்பாடு**",
+        "ta_status": "draft"
        },
        {
-        "en": "Difficult — eukaryotic introns cannot be spliced"
+        "en": "Difficult — eukaryotic introns cannot be spliced",
+        "ta": "கடினம் — யூகேரியோட்டு இன்ட்ரான்களைப் பிளக்க இயலாது",
+        "ta_status": "draft"
        },
        {
-        "en": "Yes — directly expressible in E. coli"
+        "en": "Yes — directly expressible in E. coli",
+        "ta": "ஆம் — E. coli-யில் நேரடியாக வெளிப்படுத்தலாம்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Gene regulatory info**"
+        "en": "**Gene regulatory info**",
+        "ta": "**மரபணு ஒழுங்குபடுத்தல் தகவல்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Yes — full promoter and regulatory sequences"
+        "en": "Yes — full promoter and regulatory sequences",
+        "ta": "ஆம் — முழு புரோமோட்டர், ஒழுங்குபடுத்தும் வரிசைகள்",
+        "ta_status": "draft"
        },
        {
-        "en": "No — only mRNA-derived coding sequence"
+        "en": "No — only mRNA-derived coding sequence",
+        "ta": "இல்லை — mRNA-விலிருந்து பெறப்பட்ட குறியீட்டு வரிசை மட்டும்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Screening complexity**"
+        "en": "**Screening complexity**",
+        "ta": "**சலிக்கையின் சிக்கல்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Complex — large number of clones to screen"
+        "en": "Complex — large number of clones to screen",
+        "ta": "சிக்கலானது — சலிக்க வேண்டிய குளோன்கள் மிக அதிகம்",
+        "ta_status": "draft"
        },
        {
-        "en": "Simpler — fewer clones, enriched for coding sequences"
+        "en": "Simpler — fewer clones, enriched for coding sequences",
+        "ta": "எளிது — குறைவான குளோன்கள், குறியீட்டு வரிசைகளால் செறிவூட்டப்பட்டவை",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Key applications**"
+        "en": "**Key applications**",
+        "ta": "**முக்கியப் பயன்பாடுகள்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Genome mapping, gene structure, whole genome sequencing"
+        "en": "Genome mapping, gene structure, whole genome sequencing",
+        "ta": "மரபணுத்தொகை வரைபடமாக்கல், மரபணு அமைப்பு, முழு மரபணுத்தொகை வரிசைப்படுத்தல்",
+        "ta_status": "draft"
        },
        {
-        "en": "Gene expression studies, recombinant protein production"
+        "en": "Gene expression studies, recombinant protein production",
+        "ta": "மரபணு வெளிப்பாட்டு ஆய்வுகள், மறுகூட்டிணைவுப் புரத உற்பத்தி",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Starting enzyme**"
+        "en": "**Starting enzyme**",
+        "ta": "**தொடக்க நொதி**",
+        "ta_status": "draft"
        },
        {
-        "en": "Restriction endonuclease (or mechanical shearing)"
+        "en": "Restriction endonuclease (or mechanical shearing)",
+        "ta": "ரெஸ்ட்ரிக்ஷன் எண்டோநியுக்ளியேஸ் (அல்லது இயந்திரவழி வெட்டுதல்)",
+        "ta_status": "draft"
        },
        {
-        "en": "Reverse transcriptase (RNA → cDNA)"
+        "en": "Reverse transcriptase (RNA → cDNA)",
+        "ta": "ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ் (RNA → cDNA)",
+        "ta_status": "bracketed"
        }
       ],
       [
        {
-        "en": "**Human Genome Project use**"
+        "en": "**Human Genome Project use**",
+        "ta": "**மனித மரபணுத்தொகைத் திட்டத்தில் பயன்பாடு**",
+        "ta_status": "draft"
        },
        {
-        "en": "Primary tool — YAC and BAC genomic libraries used"
+        "en": "Primary tool — YAC and BAC genomic libraries used",
+        "ta": "முதன்மைக் கருவி — YAC, BAC மரபணு தொகைய நூலகங்கள் பயன்படுத்தப்பட்டன",
+        "ta_status": "draft"
        },
        {
-        "en": "Used for expressed sequence tag (EST) projects"
+        "en": "Used for expressed sequence tag (EST) projects",
+        "ta": "வெளிப்படும் வரிசைக் குறிச்சொல் (EST) திட்டங்களுக்குப் பயன்படுத்தப்பட்டது",
+        "ta_status": "bracketed"
        }
       ]
      ]
@@ -829,26 +1127,34 @@
   {
    "id": "s08",
    "title": {
-    "en": "Library Construction: Concept Flow"
+    "en": "Library Construction: Concept Flow",
+    "ta": "நூலக உருவாக்கம்: கருத்துப் பாய்வு",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Click each step to reveal process details."
+      "en": "Click each step to reveal process details.",
+      "ta": "செயல்முறை விவரங்களை அறிய ஒவ்வொரு படியையும் தொடுக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "🔵 Genomic Library Path:"
+      "en": "🔵 Genomic Library Path:",
+      "ta": "🔵 மரபணு தொகைய நூலகப் பாதை:",
+      "ta_status": "draft"
      }
     },
     {
      "type": "steps",
      "items": [
       {
-       "en": "1 🧬 Total DNA Isolation All chromosomal DNA is extracted from any cell of the organism. The source is the total genome — all chromosomes, all sequences."
+       "en": "1 🧬 Total DNA Isolation All chromosomal DNA is extracted from any cell of the organism. The source is the total genome — all chromosomes, all sequences.",
+       "ta": "1 🧬 மொத்த DNA தனிப்பிரிப்பு. உயிரினத்தின் எந்தச் செல்லிலிருந்தும் அனைத்துக் குரோமோசோம் DNA-வும் எடுக்கப்படுகிறது. மூலம் மொத்த மரபணுத்தொகை — அனைத்துக் குரோமோசோம்கள், அனைத்து வரிசைகள்.",
+       "ta_status": "draft"
       }
      ]
     },
@@ -856,7 +1162,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "2 ✂️ Restriction Digestion Restriction enzymes (partially) cut genomic DNA into overlapping fragments of appropriate size (15–45 kb). Partial digestion ensures overlapping fragments for complete genome coverage."
+       "en": "2 ✂️ Restriction Digestion Restriction enzymes (partially) cut genomic DNA into overlapping fragments of appropriate size (15–45 kb). Partial digestion ensures overlapping fragments for complete genome coverage.",
+       "ta": "2 ✂️ ரெஸ்ட்ரிக்ஷன் செரித்தல். ரெஸ்ட்ரிக்ஷன் நொதிகள் மரபணு தொகைய DNA-வை (பகுதியாக) தகுந்த அளவு (15–45 kb) மேற்பொருந்தும் துண்டுகளாக வெட்டுகின்றன. பகுதி செரித்தல் முழு மரபணுத்தொகை உள்ளடக்கத்துக்கு மேற்பொருந்தும் துண்டுகளை உறுதி செய்கிறது.",
+       "ta_status": "draft"
       }
      ]
     },
@@ -864,7 +1172,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "3 🔗 Ligation into Vector DNA fragments are ligated into lambda phage, cosmid, or YAC vectors using DNA ligase. Each vector carries one (or a few) genomic fragment(s)."
+       "en": "3 🔗 Ligation into Vector DNA fragments are ligated into lambda phage, cosmid, or YAC vectors using DNA ligase. Each vector carries one (or a few) genomic fragment(s).",
+       "ta": "3 🔗 தாங்கிக்கடத்தியில் இணைத்தல். DNA லைகேஸால் DNA துண்டுகள் லாம்டா பேஜ், காஸ்மிட் அல்லது YAC தாங்கிக்கடத்திகளில் இணைக்கப்படுகின்றன. ஒவ்வொரு தாங்கிக்கடத்தியும் ஒன்று (அல்லது சில) மரபணு தொகைய துண்டுகளைச் சுமக்கிறது.",
+       "ta_status": "draft"
       }
      ]
     },
@@ -872,7 +1182,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "4 🧫 Transform E. coli Recombinant vectors are introduced into E. coli by transformation or transduction (phage). Each transformed colony carries a unique genomic DNA fragment."
+       "en": "4 🧫 Transform E. coli Recombinant vectors are introduced into E. coli by transformation or transduction (phage). Each transformed colony carries a unique genomic DNA fragment.",
+       "ta": "4 🧫 E. coli-யில் மாற்றுதல். மறுகூட்டிணைவுத் தாங்கிக்கடத்திகள் தகவல் பரிமாற்றம் அல்லது கடத்துதல் (பேஜ்) மூலம் E. coli-க்குள் செலுத்தப்படுகின்றன. மாற்றப்பட்ட ஒவ்வொரு குழுமமும் ஒரு தனித்துவ மரபணு தொகைய DNA துண்டைக் கொண்டுள்ளது.",
+       "ta_status": "draft"
       }
      ]
     },
@@ -880,21 +1192,27 @@
      "type": "steps",
      "items": [
       {
-       "en": "5 📚 Genomic Library The complete collection of transformed colonies = the genomic library. Together they represent the entire genome of the organism. Stored at −70°C in glycerol stocks."
+       "en": "5 📚 Genomic Library The complete collection of transformed colonies = the genomic library. Together they represent the entire genome of the organism. Stored at −70°C in glycerol stocks.",
+       "ta": "5 📚 மரபணு தொகைய நூலகம். மாற்றப்பட்ட குழுமங்களின் முழுத் தொகுப்பு = மரபணு தொகைய நூலகம். அவை சேர்ந்து உயிரினத்தின் முழு மரபணுத்தொகையைப் பிரதிநிதித்துவப்படுத்துகின்றன. −70°C-ல் கிளிசரால் சேமிப்புகளாக வைக்கப்படுகிறது.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "🟢 cDNA Library Path:"
+      "en": "🟢 cDNA Library Path:",
+      "ta": "🟢 cDNA நூலகப் பாதை:",
+      "ta_status": "draft"
      }
     },
     {
      "type": "steps",
      "items": [
       {
-       "en": "1 📝 mRNA Isolation Poly-A mRNA is isolated from the specific tissue of interest using oligo-dT cellulose affinity chromatography. Only expressed genes' mRNAs are captured."
+       "en": "1 📝 mRNA Isolation Poly-A mRNA is isolated from the specific tissue of interest using oligo-dT cellulose affinity chromatography. Only expressed genes' mRNAs are captured.",
+       "ta": "1 📝 mRNA தனிப்பிரிப்பு. oligo-dT செல்லுலோஸ் நாட்ட நிறப்பிரிகை மூலம் ஆர்வமுள்ள குறிப்பிட்ட திசுவிலிருந்து Poly-A mRNA தனித்துப் பிரிக்கப்படுகிறது. வெளிப்படும் மரபணுக்களின் mRNA-க்கள் மட்டுமே பிடிக்கப்படுகின்றன.",
+       "ta_status": "draft"
       }
      ]
     },
@@ -902,7 +1220,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "2 🔄 Reverse Transcription Reverse transcriptase uses the mRNA as template to synthesise first-strand cDNA (mRNA → cDNA). RNase H then removes the mRNA, leaving single-stranded cDNA."
+       "en": "2 🔄 Reverse Transcription Reverse transcriptase uses the mRNA as template to synthesise first-strand cDNA (mRNA → cDNA). RNase H then removes the mRNA, leaving single-stranded cDNA.",
+       "ta": "2 🔄 ரிவர்ஸ் டிரான்ஸ்கிரிப்ஷன். ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ் mRNA-வை டெம்ப்ளேட்டாகக் கொண்டு முதல் இழை cDNA-வைத் தொகுக்கிறது (mRNA → cDNA). பின்னர் RNase H mRNA-வை நீக்கி, ஒற்றை இழை cDNA-வை எஞ்சச் செய்கிறது.",
+       "ta_status": "draft"
       }
      ]
     },
@@ -910,7 +1230,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "3 🧬 Second Strand Synthesis DNA Polymerase I synthesises the second cDNA strand, converting ss-cDNA into ds-cDNA (double-stranded). Linkers/adaptors are added for cloning."
+       "en": "3 🧬 Second Strand Synthesis DNA Polymerase I synthesises the second cDNA strand, converting ss-cDNA into ds-cDNA (double-stranded). Linkers/adaptors are added for cloning.",
+       "ta": "3 🧬 இரண்டாம் இழைத் தொகுப்பு. DNA பாலிமரேஸ் I இரண்டாம் cDNA இழையைத் தொகுத்து ss-cDNA-வை ds-cDNA-வாக (இரட்டை இழை) மாற்றுகிறது. நகலாக்கத்துக்கு லிங்கர்கள்/அடாப்டர்கள் சேர்க்கப்படுகின்றன.",
+       "ta_status": "draft"
       }
      ]
     },
@@ -918,7 +1240,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "4 🔗 Ligate into Vector ds-cDNA is ligated into a cloning vector (e.g., lambda gt11, pUC plasmid). The recombinant vector is transformed into E. coli host cells."
+       "en": "4 🔗 Ligate into Vector ds-cDNA is ligated into a cloning vector (e.g., lambda gt11, pUC plasmid). The recombinant vector is transformed into E. coli host cells.",
+       "ta": "4 🔗 தாங்கிக்கடத்தியில் இணைத்தல். ds-cDNA நகலாக்கத் தாங்கிக்கடத்தியில் (எ.கா. lambda gt11, pUC பிளாஸ்மிட்) இணைக்கப்படுகிறது. மறுகூட்டிணைவுத் தாங்கிக்கடத்தி E. coli ஓம்புயிரி செல்களுக்குள் செலுத்தப்படுகிறது.",
+       "ta_status": "draft"
       }
      ]
     },
@@ -926,7 +1250,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "5 🧫 cDNA Library All transformed colonies together = the cDNA library. Represents only expressed genes, tissue-specific, intron-free. Used for protein expression and gene discovery."
+       "en": "5 🧫 cDNA Library All transformed colonies together = the cDNA library. Represents only expressed genes, tissue-specific, intron-free. Used for protein expression and gene discovery.",
+       "ta": "5 🧫 cDNA நூலகம். மாற்றப்பட்ட அனைத்துக் குழுமங்களின் தொகுப்பு = cDNA நூலகம். வெளிப்படும் மரபணுக்களை மட்டுமே, திசு-சிறப்பாக, இன்ட்ரான்கள் இன்றிப் பிரதிநிதித்துவப்படுத்துகிறது. புரத வெளிப்பாட்டுக்கும் மரபணுக் கண்டுபிடிப்புக்கும் பயன்படுகிறது.",
+       "ta_status": "draft"
       }
      ]
     }
@@ -937,32 +1263,42 @@
   {
    "id": "s09",
    "title": {
-    "en": "Step-by-Step cDNA Synthesis (Interactive)"
+    "en": "Step-by-Step cDNA Synthesis (Interactive)",
+    "ta": "படிப்படியான cDNA தொகுப்பு (ஊடாடும்)",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Click the step buttons or use Prev/Next to walk through cDNA synthesis. Each step shows a labeled SVG diagram and explanation."
+      "en": "Click the step buttons or use Prev/Next to walk through cDNA synthesis. Each step shows a labeled SVG diagram and explanation.",
+      "ta": "cDNA தொகுப்பின் வழியே செல்ல படி பொத்தான்களையோ முந்தைய/அடுத்து என்பதையோ தொடுக. ஒவ்வொரு படியும் பெயரிடப்பட்ட SVG படத்தையும் விளக்கத்தையும் காட்டும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Step 1: Isolate mRNA from Target Tissue**"
+      "en": "**Step 1: Isolate mRNA from Target Tissue**",
+      "ta": "**படி 1: இலக்குத் திசுவிலிருந்து mRNA தனிப்பிரிப்பு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Total RNA is extracted from the tissue of interest (e.g., pancreas). Poly-A mRNA is selectively purified using oligo-dT cellulose chromatography — the poly-A tail (AAAA...) of eukaryotic mRNA binds to the oligo-dT beads, while rRNA and tRNA pass through."
+      "en": "Total RNA is extracted from the tissue of interest (e.g., pancreas). Poly-A mRNA is selectively purified using oligo-dT cellulose chromatography — the poly-A tail (AAAA...) of eukaryotic mRNA binds to the oligo-dT beads, while rRNA and tRNA pass through.",
+      "ta": "ஆர்வமுள்ள திசுவிலிருந்து (எ.கா. கணையம்) மொத்த RNA எடுக்கப்படுகிறது. oligo-dT செல்லுலோஸ் நிறப்பிரிகை மூலம் Poly-A mRNA தேர்ந்து தூய்மையாக்கப்படுகிறது — யூகேரியோட்டு mRNA-வின் poly-A வால் (AAAA...) oligo-dT மணிகளுடன் பிணைகிறது; rRNA, tRNA கடந்து செல்கின்றன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "dna_library_genomic_cdna-d04",
      "caption": {
-      "en": "Step 1: Isolate mRNA from Target Tissue"
+      "en": "Step 1: Isolate mRNA from Target Tissue",
+      "ta": "படி 1: இலக்குத் திசுவிலிருந்து mRNA தனிப்பிரிப்பு",
+      "ta_status": "draft"
      },
      "labels": [
       "Target",
@@ -979,20 +1315,26 @@
     {
      "type": "p",
      "text": {
-      "en": "**Step 2: Oligo-dT Primer Anneals to Poly-A Tail**"
+      "en": "**Step 2: Oligo-dT Primer Anneals to Poly-A Tail**",
+      "ta": "**படி 2: oligo-dT பிரைமர் poly-A வாலுடன் இணைதல்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "An oligo-dT primer (a short string of thymidines, TTTTTT...) is added to the purified mRNA. It binds by complementary base pairing (A-T) to the poly-A tail at the 3' end of the mRNA, providing a free 3'-OH group for reverse transcriptase to begin synthesis."
+      "en": "An oligo-dT primer (a short string of thymidines, TTTTTT...) is added to the purified mRNA. It binds by complementary base pairing (A-T) to the poly-A tail at the 3' end of the mRNA, providing a free 3'-OH group for reverse transcriptase to begin synthesis.",
+      "ta": "தூய்மையாக்கப்பட்ட mRNA-வில் oligo-dT பிரைமர் (தைமிடின்களின் குறுகிய சரம், TTTTTT...) சேர்க்கப்படுகிறது. நிரப்புக் காரண இணைவு (A-T) மூலம் mRNA-வின் 3′ முனையிலுள்ள poly-A வாலுடன் பிணைந்து, ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ் தொகுப்பைத் தொடங்க இலவச 3′-OH தொகுதியை வழங்குகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "dna_library_genomic_cdna-d05",
      "caption": {
-      "en": "Step 2: Oligo-dT Primer Anneals to Poly-A Tail"
+      "en": "Step 2: Oligo-dT Primer Anneals to Poly-A Tail",
+      "ta": "படி 2: oligo-dT பிரைமர் poly-A வாலுடன் இணைதல்",
+      "ta_status": "draft"
      },
      "labels": [
       "5'",
@@ -1009,20 +1351,26 @@
     {
      "type": "p",
      "text": {
-      "en": "**Step 3: Reverse Transcriptase Synthesises First-Strand cDNA**"
+      "en": "**Step 3: Reverse Transcriptase Synthesises First-Strand cDNA**",
+      "ta": "**படி 3: ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ் முதல் இழை cDNA-வைத் தொகுத்தல்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Reverse transcriptase (RT) extends the oligo-dT primer in the 5'→3' direction, using the mRNA as template. It reads the mRNA 3'→5' and synthesises a complementary DNA strand. The result is an mRNA:cDNA hybrid duplex."
+      "en": "Reverse transcriptase (RT) extends the oligo-dT primer in the 5'→3' direction, using the mRNA as template. It reads the mRNA 3'→5' and synthesises a complementary DNA strand. The result is an mRNA:cDNA hybrid duplex.",
+      "ta": "ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ் (RT) mRNA-வை டெம்ப்ளேட்டாகக் கொண்டு oligo-dT பிரைமரை 5′→3′ திசையில் நீட்டுகிறது. mRNA-வை 3′→5′ திசையில் வாசித்து நிரப்பு DNA இழையைத் தொகுக்கிறது. விளைவு: mRNA:cDNA கலப்பின இரட்டைச் சுருள்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "dna_library_genomic_cdna-d06",
      "caption": {
-      "en": "Step 3: Reverse Transcriptase Synthesises First-Strand cDNA"
+      "en": "Step 3: Reverse Transcriptase Synthesises First-Strand cDNA",
+      "ta": "படி 3: ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ் முதல் இழை cDNA-வைத் தொகுத்தல்",
+      "ta_status": "draft"
      },
      "labels": [
       "5'",
@@ -1042,20 +1390,26 @@
     {
      "type": "p",
      "text": {
-      "en": "**Step 4: Degrade mRNA (RNase H Treatment)**"
+      "en": "**Step 4: Degrade mRNA (RNase H Treatment)**",
+      "ta": "**படி 4: mRNA-வைச் சிதைத்தல் (RNase H சிகிச்சை)**",
+      "ta_status": "bracketed"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "RNase H (or NaOH alkaline hydrolysis) specifically degrades the RNA strand in the mRNA:cDNA hybrid duplex. This leaves behind the single-stranded cDNA (ss-cDNA). The ss-cDNA now serves as the template for second-strand synthesis."
+      "en": "RNase H (or NaOH alkaline hydrolysis) specifically degrades the RNA strand in the mRNA:cDNA hybrid duplex. This leaves behind the single-stranded cDNA (ss-cDNA). The ss-cDNA now serves as the template for second-strand synthesis.",
+      "ta": "RNase H (அல்லது NaOH காரநீராற்பகுப்பு) mRNA:cDNA கலப்பின இரட்டைச் சுருளிலுள்ள RNA இழையைத் தனித்தன்மையுடன் சிதைக்கிறது. ஒற்றை இழை cDNA (ss-cDNA) எஞ்சுகிறது. ss-cDNA இப்போது இரண்டாம் இழைத் தொகுப்புக்கான டெம்ப்ளேட்டாகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "dna_library_genomic_cdna-d07",
      "caption": {
-      "en": "Step 4: Degrade mRNA (RNase H Treatment)"
+      "en": "Step 4: Degrade mRNA (RNase H Treatment)",
+      "ta": "படி 4: mRNA-வைச் சிதைத்தல் (RNase H சிகிச்சை)",
+      "ta_status": "bracketed"
      },
      "labels": [
       "mRNA (being degraded)",
@@ -1071,20 +1425,26 @@
     {
      "type": "p",
      "text": {
-      "en": "**Step 5: DNA Polymerase I Synthesises Second-Strand cDNA**"
+      "en": "**Step 5: DNA Polymerase I Synthesises Second-Strand cDNA**",
+      "ta": "**படி 5: DNA பாலிமரேஸ் I இரண்டாம் இழை cDNA-வைத் தொகுத்தல்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "DNA Polymerase I (using RNase H to generate short RNA primers from residual RNA fragments) synthesises the complementary second strand. The result is a double-stranded cDNA (ds-cDNA) representing the full coding sequence of the original mRNA."
+      "en": "DNA Polymerase I (using RNase H to generate short RNA primers from residual RNA fragments) synthesises the complementary second strand. The result is a double-stranded cDNA (ds-cDNA) representing the full coding sequence of the original mRNA.",
+      "ta": "DNA பாலிமரேஸ் I (எஞ்சிய RNA துண்டுகளிலிருந்து குறுகிய RNA பிரைமர்களை உருவாக்க RNase H-ஐப் பயன்படுத்தி) நிரப்பு இரண்டாம் இழையைத் தொகுக்கிறது. விளைவு: மூல mRNA-வின் முழுக் குறியீட்டு வரிசையைக் குறிக்கும் இரட்டை இழை cDNA (ds-cDNA).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "dna_library_genomic_cdna-d08",
      "caption": {
-      "en": "Step 5: DNA Polymerase I Synthesises Second-Strand cDNA"
+      "en": "Step 5: DNA Polymerase I Synthesises Second-Strand cDNA",
+      "ta": "படி 5: DNA பாலிமரேஸ் I இரண்டாம் இழை cDNA-வைத் தொகுத்தல்",
+      "ta_status": "draft"
      },
      "labels": [
       "3'",
@@ -1103,20 +1463,26 @@
     {
      "type": "p",
      "text": {
-      "en": "**Step 6: Linker Addition & Ligation into Vector**"
+      "en": "**Step 6: Linker Addition & Ligation into Vector**",
+      "ta": "**படி 6: லிங்கர் சேர்த்தலும் தாங்கிக்கடத்தியில் இணைத்தலும்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Restriction enzyme linkers or adaptors are added to the blunt ends of ds-cDNA to create compatible cohesive ends. The cDNA is then ligated into a cloning vector (e.g., lambda gt11, pUC19). Recombinant vectors are transformed into E. coli, producing the cDNA library."
+      "en": "Restriction enzyme linkers or adaptors are added to the blunt ends of ds-cDNA to create compatible cohesive ends. The cDNA is then ligated into a cloning vector (e.g., lambda gt11, pUC19). Recombinant vectors are transformed into E. coli, producing the cDNA library.",
+      "ta": "பொருந்தும் ஒட்டும் முனைகளை உருவாக்க ds-cDNA-வின் மழுங்கிய முனைகளில் ரெஸ்ட்ரிக்ஷன் நொதி லிங்கர்கள் அல்லது அடாப்டர்கள் சேர்க்கப்படுகின்றன. பின்னர் cDNA நகலாக்கத் தாங்கிக்கடத்தியில் (எ.கா. lambda gt11, pUC19) இணைக்கப்படுகிறது. மறுகூட்டிணைவுத் தாங்கிக்கடத்திகள் E. coli-க்குள் செலுத்தப்பட்டு cDNA நூலகத்தை உருவாக்குகின்றன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "dna_library_genomic_cdna-d09",
      "caption": {
-      "en": "Step 6: Linker Addition & Ligation into Vector"
+      "en": "Step 6: Linker Addition & Ligation into Vector",
+      "ta": "படி 6: லிங்கர் சேர்த்தலும் தாங்கிக்கடத்தியில் இணைத்தலும்",
+      "ta_status": "draft"
      },
      "labels": [
       "ds-cDNA with restriction linkers (adaptors)",
@@ -1140,50 +1506,66 @@
   {
    "id": "s10",
    "title": {
-    "en": "Vectors Used in DNA Libraries"
+    "en": "Vectors Used in DNA Libraries",
+    "ta": "DNA நூலகங்களில் பயன்படும் தாங்கிக்கடத்திகள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "The choice of vector depends on the size of DNA inserts needed and the host organism:"
+      "en": "The choice of vector depends on the size of DNA inserts needed and the host organism:",
+      "ta": "தாங்கிக்கடத்தித் தேர்வு தேவையான DNA செருகுகளின் அளவையும் ஓம்புயிரி உயிரினத்தையும் பொறுத்தது:",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "📎 Plasmids **Insert capacity:** Up to ~10 kb **Host:** E. coli **Examples:** pUC18/19, pBR322 **Use in libraries:** cDNA libraries (small inserts); expression of cloned cDNAs **Advantage:** Easy manipulation; high copy number; blue-white selection"
+      "en": "📎 Plasmids **Insert capacity:** Up to ~10 kb **Host:** E. coli **Examples:** pUC18/19, pBR322 **Use in libraries:** cDNA libraries (small inserts); expression of cloned cDNAs **Advantage:** Easy manipulation; high copy number; blue-white selection",
+      "ta": "📎 பிளாஸ்மிட்கள் **செருகு கொள்ளளவு:** ~10 kb வரை **ஓம்புயிரி:** E. coli **எடுத்துக்காட்டுகள்:** pUC18/19, pBR322 **நூலகங்களில் பயன்:** cDNA நூலகங்கள் (சிறிய செருகுகள்); நகலாக்கிய cDNA-க்களின் வெளிப்பாடு **நன்மை:** கையாள எளிது; அதிக நகல் எண்ணிக்கை; நீல-வெள்ளைத் தெரிவு",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "🦠 Lambda Phage **Insert capacity:** Up to ~23 kb **Host:** E. coli **Examples:** λgt10, λgt11, λEMBL3, λEMBL4 **Use in libraries:** Both genomic and cDNA libraries; λgt11 is a common cDNA expression vector **Advantage:** Very high transformation efficiency (~10⁸ plaques/µg DNA)"
+      "en": "🦠 Lambda Phage **Insert capacity:** Up to ~23 kb **Host:** E. coli **Examples:** λgt10, λgt11, λEMBL3, λEMBL4 **Use in libraries:** Both genomic and cDNA libraries; λgt11 is a common cDNA expression vector **Advantage:** Very high transformation efficiency (~10⁸ plaques/µg DNA)",
+      "ta": "🦠 லாம்டா பேஜ் **செருகு கொள்ளளவு:** ~23 kb வரை **ஓம்புயிரி:** E. coli **எடுத்துக்காட்டுகள்:** λgt10, λgt11, λEMBL3, λEMBL4 **நூலகங்களில் பயன்:** மரபணு தொகைய, cDNA நூலகங்கள் இரண்டும்; λgt11 பொதுவான cDNA வெளிப்பாட்டுத் தாங்கிக்கடத்தி **நன்மை:** மிக உயர் தகவல் பரிமாற்றத் திறன் (~10⁸ பிளேக்குகள்/µg DNA)",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "⭕ Cosmids **Insert capacity:** 35–45 kb **Host:** E. coli **Examples:** pJB8, sCos1, Lorist vectors **Use in libraries:** Genomic libraries (large chromosomal regions); physical mapping contigs **Advantage:** Large insert + plasmid-like selection; phage-mediated high-efficiency delivery"
+      "en": "⭕ Cosmids **Insert capacity:** 35–45 kb **Host:** E. coli **Examples:** pJB8, sCos1, Lorist vectors **Use in libraries:** Genomic libraries (large chromosomal regions); physical mapping contigs **Advantage:** Large insert + plasmid-like selection; phage-mediated high-efficiency delivery",
+      "ta": "⭕ காஸ்மிட்கள் **செருகு கொள்ளளவு:** 35–45 kb **ஓம்புயிரி:** E. coli **எடுத்துக்காட்டுகள்:** pJB8, sCos1, Lorist தாங்கிக்கடத்திகள் **நூலகங்களில் பயன்:** மரபணு தொகைய நூலகங்கள் (பெரிய குரோமோசோமுப் பகுதிகள்); இயற்பியல் வரைபடக் காண்டிக்குகள் **நன்மை:** பெரிய செருகு + பிளாஸ்மிட் போன்ற தெரிவு; பேஜ் வழி உயர் திறன் செலுத்துதல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "🧫 YAC **Insert capacity:** 200–2,000 kb **Host:** Saccharomyces cerevisiae **Examples:** pYAC4 **Use in libraries:** Genomic libraries for large eukaryotic genomes; Human Genome Project **Advantage:** Largest insert capacity; essential for cloning megabase-scale DNA regions"
+      "en": "🧫 YAC **Insert capacity:** 200–2,000 kb **Host:** Saccharomyces cerevisiae **Examples:** pYAC4 **Use in libraries:** Genomic libraries for large eukaryotic genomes; Human Genome Project **Advantage:** Largest insert capacity; essential for cloning megabase-scale DNA regions",
+      "ta": "🧫 YAC **செருகு கொள்ளளவு:** 200–2,000 kb **ஓம்புயிரி:** Saccharomyces cerevisiae **எடுத்துக்காட்டுகள்:** pYAC4 **நூலகங்களில் பயன்:** பெரிய யூகேரியோட்டு மரபணுத்தொகைகளின் மரபணு தொகைய நூலகங்கள்; மனித மரபணுத்தொகைத் திட்டம் **நன்மை:** மிகப் பெரிய செருகு கொள்ளளவு; மெகா காரண இணை அளவு DNA பகுதிகளை நகலாக்க இன்றியமையாதது",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Fig. 3 — Comparative Insert Capacity of DNA Library Vectors"
+      "en": "Fig. 3 — Comparative Insert Capacity of DNA Library Vectors",
+      "ta": "படம் 3 — DNA நூலகத் தாங்கிக்கடத்திகளின் செருகு கொள்ளளவு ஒப்பீடு",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "dna_library_genomic_cdna-d03",
      "caption": {
-      "en": "Vector insert size comparison"
+      "en": "Vector insert size comparison",
+      "ta": "தாங்கிக்கடத்தி செருகு அளவு ஒப்பீடு",
+      "ta_status": "draft"
      },
      "labels": [
       "0",
@@ -1209,19 +1591,25 @@
   {
    "id": "s11",
    "title": {
-    "en": "Interactive Learning"
+    "en": "Interactive Learning",
+    "ta": "ஊடாடும் கற்றல்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "**📖 Genomic Library — Exam Key Points**"
+      "en": "**📖 Genomic Library — Exam Key Points**",
+      "ta": "**📖 மரபணு தொகைய நூலகம் — தேர்வுக்கான முக்கியக் குறிப்புகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Genomic Library"
+      "en": "Genomic Library",
+      "ta": "மரபணு தொகைய நூலகம்",
+      "ta_status": "draft"
      }
     },
     {
@@ -1229,25 +1617,39 @@
      "ordered": false,
      "items": [
       {
-       "en": "Source: **Total genomic DNA** from any tissue."
+       "en": "Source: **Total genomic DNA** from any tissue.",
+       "ta": "மூலம்: எந்தத் திசுவிலிருந்தும் **மொத்த மரபணு தொகைய DNA**.",
+       "ta_status": "draft"
       },
       {
-       "en": "Contains: exons + introns + promoters + intergenic regions."
+       "en": "Contains: exons + introns + promoters + intergenic regions.",
+       "ta": "கொண்டுள்ளது: எக்சான்கள் + இன்ட்ரான்கள் + புரோமோட்டர்கள் + மரபணுகளுக்கிடையேயான பகுதிகள்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Same in all cell types of the organism."
+       "en": "Same in all cell types of the organism.",
+       "ta": "உயிரினத்தின் அனைத்துச் செல் வகைகளிலும் ஒன்றே.",
+       "ta_status": "draft"
       },
       {
-       "en": "Starting enzyme: **restriction endonuclease** (partial digestion)."
+       "en": "Starting enzyme: **restriction endonuclease** (partial digestion).",
+       "ta": "தொடக்க நொதி: **ரெஸ்ட்ரிக்ஷன் எண்டோநியுக்ளியேஸ்** (பகுதி செரித்தல்).",
+       "ta_status": "draft"
       },
       {
-       "en": "Vectors: lambda phage, cosmids, BACs, YACs."
+       "en": "Vectors: lambda phage, cosmids, BACs, YACs.",
+       "ta": "தாங்கிக்கடத்திகள்: லாம்டா பேஜ், காஸ்மிட்கள், BAC-கள், YAC-கள்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Applications: genome sequencing, chromosome mapping, gene structure studies."
+       "en": "Applications: genome sequencing, chromosome mapping, gene structure studies.",
+       "ta": "பயன்பாடுகள்: மரபணுத்தொகை வரிசைப்படுத்தல், குரோமோசோம் வரைபடமாக்கல், மரபணு அமைப்பு ஆய்வுகள்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Limitation: eukaryotic introns prevent direct expression in bacteria."
+       "en": "Limitation: eukaryotic introns prevent direct expression in bacteria.",
+       "ta": "வரம்பு: யூகேரியோட்டு இன்ட்ரான்கள் பாக்டீரியாவில் நேரடி வெளிப்பாட்டைத் தடுக்கின்றன.",
+       "ta_status": "draft"
       }
      ]
     },
@@ -1255,19 +1657,25 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Exam tip:** A genomic library from a mouse liver and a mouse brain will be _identical_ — all cells carry the same genome."
+      "en": "**Exam tip:** A genomic library from a mouse liver and a mouse brain will be _identical_ — all cells carry the same genome.",
+      "ta": "**தேர்வுக் குறிப்பு:** எலிக் கல்லீரலிலிருந்தும் எலி மூளையிலிருந்தும் உருவாக்கிய மரபணு தொகைய நூலகங்கள் _ஒத்தவையாக_ இருக்கும் — அனைத்துச் செல்களும் ஒரே மரபணுத்தொகையைக் கொண்டுள்ளன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🧬 cDNA Library — Exam Key Points**"
+      "en": "**🧬 cDNA Library — Exam Key Points**",
+      "ta": "**🧬 cDNA நூலகம் — தேர்வுக்கான முக்கியக் குறிப்புகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "cDNA Library"
+      "en": "cDNA Library",
+      "ta": "cDNA நூலகம்",
+      "ta_status": "draft"
      }
     },
     {
@@ -1275,25 +1683,39 @@
      "ordered": false,
      "items": [
       {
-       "en": "Source: **mRNA** from a specific tissue/condition."
+       "en": "Source: **mRNA** from a specific tissue/condition.",
+       "ta": "மூலம்: குறிப்பிட்ட திசு/நிலையிலிருந்து **mRNA**.",
+       "ta_status": "draft"
       },
       {
-       "en": "Contains: only coding sequences (exons) — intron-free."
+       "en": "Contains: only coding sequences (exons) — intron-free.",
+       "ta": "கொண்டுள்ளது: குறியீட்டு வரிசைகள் (எக்சான்கள்) மட்டும் — இன்ட்ரான்கள் இல்லை.",
+       "ta_status": "draft"
       },
       {
-       "en": "Tissue-specific: liver cDNA library ≠ brain cDNA library."
+       "en": "Tissue-specific: liver cDNA library ≠ brain cDNA library.",
+       "ta": "திசு-சிறப்பு: கல்லீரல் cDNA நூலகம் ≠ மூளை cDNA நூலகம்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Key enzyme: **reverse transcriptase** (mRNA → cDNA)."
+       "en": "Key enzyme: **reverse transcriptase** (mRNA → cDNA).",
+       "ta": "முக்கிய நொதி: **ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ்** (mRNA → cDNA).",
+       "ta_status": "bracketed"
       },
       {
-       "en": "Vectors: lambda gt10/gt11, plasmids (pUC series)."
+       "en": "Vectors: lambda gt10/gt11, plasmids (pUC series).",
+       "ta": "தாங்கிக்கடத்திகள்: lambda gt10/gt11, பிளாஸ்மிட்கள் (pUC தொடர்).",
+       "ta_status": "bracketed"
       },
       {
-       "en": "Applications: protein expression in bacteria, EST projects, gene discovery."
+       "en": "Applications: protein expression in bacteria, EST projects, gene discovery.",
+       "ta": "பயன்பாடுகள்: பாக்டீரியாவில் புரத வெளிப்பாடு, EST திட்டங்கள், மரபணுக் கண்டுபிடிப்பு.",
+       "ta_status": "draft"
       },
       {
-       "en": "Limitation: no regulatory/intron sequences; low-abundance mRNAs may be missed."
+       "en": "Limitation: no regulatory/intron sequences; low-abundance mRNAs may be missed.",
+       "ta": "வரம்பு: ஒழுங்குபடுத்தும்/இன்ட்ரான் வரிசைகள் இல்லை; குறைந்த மிகுதி mRNA-க்கள் தவறக்கூடும்.",
+       "ta_status": "draft"
       }
      ]
     },
@@ -1301,25 +1723,33 @@
      "type": "callout",
      "kind": "tip",
      "text": {
-      "en": "**Exam tip:** cDNA library from the pancreatic beta cells will be enriched for insulin mRNA — a highly expressed gene in that tissue."
+      "en": "**Exam tip:** cDNA library from the pancreatic beta cells will be enriched for insulin mRNA — a highly expressed gene in that tissue.",
+      "ta": "**தேர்வுக் குறிப்பு:** கணையப் பீட்டா செல்களின் cDNA நூலகம் இன்சுலின் mRNA-வால் செறிவூட்டப்பட்டிருக்கும் — அத்திசுவில் அதிகம் வெளிப்படும் மரபணு.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🔍 Screening a DNA Library — How to Find Your Gene**"
+      "en": "**🔍 Screening a DNA Library — How to Find Your Gene**",
+      "ta": "**🔍 DNA நூலகத்தைச் சலித்தல் — உங்கள் மரபணுவை எவ்வாறு கண்டறிவது**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Library Screening"
+      "en": "Library Screening",
+      "ta": "நூலகச் சலிக்கை",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "After constructing a library, you must screen it to find the clone carrying your gene of interest. Methods include:"
+      "en": "After constructing a library, you must screen it to find the clone carrying your gene of interest. Methods include:",
+      "ta": "நூலகம் உருவாக்கிய பின், ஆர்வமுள்ள மரபணுவைச் சுமக்கும் குளோனைக் கண்டறிய அதைச் சலிக்க வேண்டும். முறைகள்:",
+      "ta_status": "draft"
      }
     },
     {
@@ -1327,29 +1757,41 @@
      "ordered": false,
      "items": [
       {
-       "en": "**Colony hybridization:** Colonies are blotted onto a nylon membrane and probed with a labelled DNA/RNA probe complementary to the gene of interest. Positive colonies are identified by autoradiography or fluorescence."
+       "en": "**Colony hybridization:** Colonies are blotted onto a nylon membrane and probed with a labelled DNA/RNA probe complementary to the gene of interest. Positive colonies are identified by autoradiography or fluorescence.",
+       "ta": "**குழும கலப்பினமாக்கல்:** குழுமங்கள் நைலான் சவ்வில் ஒற்றியெடுக்கப்பட்டு, ஆர்வமுள்ள மரபணுவுக்கு நிரப்பான குறியிடப்பட்ட DNA/RNA DNA துருவியால் சோதிக்கப்படுகின்றன. நேர்மறைக் குழுமங்கள் தன்படமெடுத்தல் அல்லது ஒளிர்வு மூலம் அடையாளம் காணப்படுகின்றன.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Plaque hybridization:** Same principle but for phage (lambda) libraries using plaque lifts."
+       "en": "**Plaque hybridization:** Same principle but for phage (lambda) libraries using plaque lifts.",
+       "ta": "**பிளேக் கலப்பினமாக்கல்:** அதே கொள்கை; ஆனால் பிளேக் ஒற்றியெடுப்புகளைக் கொண்டு பேஜ் (லாம்டா) நூலகங்களுக்கு.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Immunological screening:** For cDNA expression libraries (e.g., lambda gt11) — antibodies specific to the protein of interest are used to identify colonies expressing the protein."
+       "en": "**Immunological screening:** For cDNA expression libraries (e.g., lambda gt11) — antibodies specific to the protein of interest are used to identify colonies expressing the protein.",
+       "ta": "**நோயெதிர்ப்பியல் சலிக்கை:** cDNA வெளிப்பாட்டு நூலகங்களுக்கு (எ.கா. lambda gt11) — ஆர்வமுள்ள புரதத்துக்கான எதிர்ப்பொருள்கள் அப்புரதத்தை வெளிப்படுத்தும் குழுமங்களை அடையாளம் காணப் பயன்படுகின்றன.",
+       "ta_status": "draft"
       },
       {
-       "en": "**PCR screening:** PCR using gene-specific primers is applied directly to pooled library clones."
+       "en": "**PCR screening:** PCR using gene-specific primers is applied directly to pooled library clones.",
+       "ta": "**PCR சலிக்கை:** மரபணு-சிறப்பு பிரைமர்களைப் பயன்படுத்தும் PCR, தொகுக்கப்பட்ட நூலகக் குளோன்களில் நேரடியாகப் பயன்படுத்தப்படுகிறது.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**🏥 Role of DNA Libraries in Medicine and Research**"
+      "en": "**🏥 Role of DNA Libraries in Medicine and Research**",
+      "ta": "**🏥 மருத்துவத்திலும் ஆராய்ச்சியிலும் DNA நூலகங்களின் பங்கு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Applications"
+      "en": "Applications",
+      "ta": "பயன்பாடுகள்",
+      "ta_status": "draft"
      }
     },
     {
@@ -1357,98 +1799,142 @@
      "ordered": false,
      "items": [
       {
-       "en": "**Human Genome Project (1990–2003):** YAC and BAC genomic libraries were the backbone of the physical mapping and sequencing strategies."
+       "en": "**Human Genome Project (1990–2003):** YAC and BAC genomic libraries were the backbone of the physical mapping and sequencing strategies.",
+       "ta": "**மனித மரபணுத்தொகைத் திட்டம் (1990–2003):** YAC, BAC மரபணு தொகைய நூலகங்கள் இயற்பியல் வரைபடமாக்கல், வரிசைப்படுத்தல் உத்திகளின் முதுகெலும்பாக இருந்தன.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Recombinant insulin production:** A human pancreatic cDNA library was screened to isolate the insulin cDNA, which was then expressed in E. coli for large-scale production."
+       "en": "**Recombinant insulin production:** A human pancreatic cDNA library was screened to isolate the insulin cDNA, which was then expressed in E. coli for large-scale production.",
+       "ta": "**மறுகூட்டிணைவு இன்சுலின் உற்பத்தி:** மனிதக் கணைய cDNA நூலகம் சலிக்கப்பட்டு இன்சுலின் cDNA தனித்துப் பிரிக்கப்பட்டது; பின்னர் பெருமளவு உற்பத்திக்கு E. coli-யில் வெளிப்படுத்தப்பட்டது.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Disease gene discovery:** cDNA libraries from cancerous vs normal tissues reveal differentially expressed genes — potential oncogenes or tumour suppressors."
+       "en": "**Disease gene discovery:** cDNA libraries from cancerous vs normal tissues reveal differentially expressed genes — potential oncogenes or tumour suppressors.",
+       "ta": "**நோய் மரபணுக் கண்டுபிடிப்பு:** புற்றுநோய், இயல்புத் திசுக்களின் cDNA நூலகங்கள் வேறுபட்டு வெளிப்படும் மரபணுக்களை — சாத்தியமான புற்றுமரபணுக்கள் அல்லது கட்டியடக்கிகளை — வெளிப்படுத்துகின்றன.",
+       "ta_status": "draft"
       },
       {
-       "en": "**EST (Expressed Sequence Tag) projects:** Partial sequencing of cDNA library clones generated millions of ESTs — short signatures of expressed genes used to catalogue the human transcriptome."
+       "en": "**EST (Expressed Sequence Tag) projects:** Partial sequencing of cDNA library clones generated millions of ESTs — short signatures of expressed genes used to catalogue the human transcriptome.",
+       "ta": "**EST (வெளிப்படும் வரிசைக் குறிச்சொல்) திட்டங்கள்:** cDNA நூலகக் குளோன்களின் பகுதி வரிசைப்படுத்தல் மில்லியன் கணக்கான EST-களை உருவாக்கியது — மனிதப் படியெடுப்புத் தொகையை அட்டவணைப்படுத்தப் பயன்படும் வெளிப்படும் மரபணுக்களின் குறுகிய கையொப்பங்கள்.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Drug target identification:** Screening cDNA libraries with antibodies or ligands identifies novel drug targets."
+       "en": "**Drug target identification:** Screening cDNA libraries with antibodies or ligands identifies novel drug targets.",
+       "ta": "**மருந்து இலக்கு அடையாளம்:** எதிர்ப்பொருள்கள் அல்லது இணைப்பிகள் கொண்டு cDNA நூலகங்களைச் சலித்தல் புதிய மருந்து இலக்குகளை அடையாளம் காண்கிறது.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Click-to-Reveal Key Terms**"
+      "en": "**Click-to-Reveal Key Terms**",
+      "ta": "**தொட்டு விரிக்க: முக்கியச் சொற்கள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "reveal",
      "question": {
-      "en": "Reverse Transcriptase"
+      "en": "Reverse Transcriptase",
+      "ta": "ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ்",
+      "ta_status": "draft"
      },
      "answer": {
-      "en": "An RNA-dependent DNA polymerase from retroviruses. Synthesises a complementary DNA (cDNA) strand using mRNA as template (mRNA → cDNA). Essential enzyme for cDNA library construction."
+      "en": "An RNA-dependent DNA polymerase from retroviruses. Synthesises a complementary DNA (cDNA) strand using mRNA as template (mRNA → cDNA). Essential enzyme for cDNA library construction.",
+      "ta": "ரெட்ரோவைரஸ்களிலிருந்து பெறப்படும் RNA-சார் DNA பாலிமரேஸ். mRNA-வை டெம்ப்ளேட்டாகக் கொண்டு நிரப்பு DNA (cDNA) இழையைத் தொகுக்கிறது (mRNA → cDNA). cDNA நூலக உருவாக்கத்தின் இன்றியமையாத நொதி.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "reveal",
      "question": {
-      "en": "Oligo-dT Primer"
+      "en": "Oligo-dT Primer",
+      "ta": "oligo-dT பிரைமர்",
+      "ta_status": "draft"
      },
      "answer": {
-      "en": "A short synthetic DNA sequence consisting of thymidine residues (TTTTTT...). Anneals to the poly-A tail of eukaryotic mRNA, providing a primer for reverse transcriptase to initiate cDNA synthesis."
+      "en": "A short synthetic DNA sequence consisting of thymidine residues (TTTTTT...). Anneals to the poly-A tail of eukaryotic mRNA, providing a primer for reverse transcriptase to initiate cDNA synthesis.",
+      "ta": "தைமிடின் எச்சங்களைக் (TTTTTT...) கொண்ட குறுகிய செயற்கை DNA வரிசை. யூகேரியோட்டு mRNA-வின் poly-A வாலுடன் இணைந்து, cDNA தொகுப்பைத் தொடங்க ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸுக்குப் பிரைமராகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "reveal",
      "question": {
-      "en": "Poly-A Tail"
+      "en": "Poly-A Tail",
+      "ta": "Poly-A வால்",
+      "ta_status": "draft"
      },
      "answer": {
-      "en": "A stretch of adenine nucleotides (~150–250 nt) added to the 3' end of eukaryotic mRNA during post-transcriptional processing. Used to selectively purify mRNA from total RNA using oligo-dT cellulose columns."
+      "en": "A stretch of adenine nucleotides (~150–250 nt) added to the 3' end of eukaryotic mRNA during post-transcriptional processing. Used to selectively purify mRNA from total RNA using oligo-dT cellulose columns.",
+      "ta": "படியெடுப்புக்குப் பின் செயலாக்கத்தின்போது யூகேரியோட்டு mRNA-வின் 3′ முனையில் சேர்க்கப்படும் அடினின் நியூக்ளியோடைடுகளின் தொடர் (~150–250 nt). oligo-dT செல்லுலோஸ் நிரல்கள் மூலம் மொத்த RNA-விலிருந்து mRNA-வைத் தேர்ந்து தூய்மையாக்கப் பயன்படுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "reveal",
      "question": {
-      "en": "RNase H"
+      "en": "RNase H",
+      "ta": "RNase H",
+      "ta_status": "draft"
      },
      "answer": {
-      "en": "An enzyme that specifically degrades the RNA strand in an RNA:DNA hybrid. Used in cDNA synthesis to remove the mRNA template after first-strand cDNA synthesis, leaving single-stranded cDNA (ss-cDNA)."
+      "en": "An enzyme that specifically degrades the RNA strand in an RNA:DNA hybrid. Used in cDNA synthesis to remove the mRNA template after first-strand cDNA synthesis, leaving single-stranded cDNA (ss-cDNA).",
+      "ta": "RNA:DNA கலப்பினத்திலுள்ள RNA இழையைத் தனித்தன்மையுடன் சிதைக்கும் நொதி. முதல் இழை cDNA தொகுப்புக்குப் பின் mRNA டெம்ப்ளேட்டை நீக்கி, ஒற்றை இழை cDNA-வை (ss-cDNA) எஞ்சச் செய்ய cDNA தொகுப்பில் பயன்படுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "reveal",
      "question": {
-      "en": "EST"
+      "en": "EST",
+      "ta": "EST",
+      "ta_status": "draft"
      },
      "answer": {
-      "en": "Expressed Sequence Tag — a short partial sequence (~300–500 bp) of a cDNA clone. Used to identify and catalogue expressed genes without sequencing the full gene. Millions of ESTs were generated from cDNA libraries to map the human transcriptome."
+      "en": "Expressed Sequence Tag — a short partial sequence (~300–500 bp) of a cDNA clone. Used to identify and catalogue expressed genes without sequencing the full gene. Millions of ESTs were generated from cDNA libraries to map the human transcriptome.",
+      "ta": "வெளிப்படும் வரிசைக் குறிச்சொல் — cDNA குளோனின் குறுகிய பகுதி வரிசை (~300–500 bp). முழு மரபணுவையும் வரிசைப்படுத்தாமல் வெளிப்படும் மரபணுக்களை அடையாளம் கண்டு அட்டவணைப்படுத்தப் பயன்படுகிறது. மனிதப் படியெடுப்புத் தொகையை வரைபடமாக்க cDNA நூலகங்களிலிருந்து மில்லியன் கணக்கான EST-கள் உருவாக்கப்பட்டன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "reveal",
      "question": {
-      "en": "Clarke-Carbon Formula"
+      "en": "Clarke-Carbon Formula",
+      "ta": "கிளார்க்-கார்பன் வாய்பாடு",
+      "ta_status": "draft"
      },
      "answer": {
-      "en": "Formula used to calculate the number of clones needed for a representative genomic library: N = ln(1−P) / ln(1−f), where P = probability of finding any sequence (usually 0.99) and f = fractional genome size of each insert."
+      "en": "Formula used to calculate the number of clones needed for a representative genomic library: N = ln(1−P) / ln(1−f), where P = probability of finding any sequence (usually 0.99) and f = fractional genome size of each insert.",
+      "ta": "பிரதிநிதித்துவ மரபணு தொகைய நூலகத்துக்குத் தேவையான குளோன்களின் எண்ணிக்கையைக் கணக்கிடப் பயன்படும் வாய்பாடு: N = ln(1−P) / ln(1−f); இங்கு P = எந்த வரிசையையும் கண்டறியும் நிகழ்தகவு (பொதுவாக 0.99), f = ஒவ்வொரு செருகியின் பின்ன மரபணுத்தொகை அளவு.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "reveal",
      "question": {
-      "en": "Chromosome Walking"
+      "en": "Chromosome Walking",
+      "ta": "குரோமோசோம் நடைபயணம்",
+      "ta_status": "draft"
      },
      "answer": {
-      "en": "A technique that uses overlapping clones from a genomic library to navigate across a chromosomal region step-by-step. Each clone serves as a probe to find the next overlapping clone, \"walking\" along the chromosome toward a target gene."
+      "en": "A technique that uses overlapping clones from a genomic library to navigate across a chromosomal region step-by-step. Each clone serves as a probe to find the next overlapping clone, \"walking\" along the chromosome toward a target gene.",
+      "ta": "குரோமோசோமுப் பகுதியில் படிப்படியாகச் செல்ல மரபணு தொகைய நூலகத்தின் மேற்பொருந்தும் குளோன்களைப் பயன்படுத்தும் நுட்பம். ஒவ்வொரு குளோனும் அடுத்த மேற்பொருந்தும் குளோனைக் கண்டறிய DNA துருவியாகப் பயன்பட்டு, இலக்கு மரபணுவை நோக்கிக் குரோமோசோமில் \"நடக்கிறது\".",
+      "ta_status": "draft"
      }
     },
     {
      "type": "reveal",
      "question": {
-      "en": "Transformation"
+      "en": "Transformation",
+      "ta": "தகவல் பரிமாற்றம் (Transformation)",
+      "ta_status": "bracketed"
      },
      "answer": {
-      "en": "The process of introducing foreign DNA (recombinant vector) into a competent host cell (usually E. coli). Successfully transformed cells take up the vector and are selected using antibiotic resistance or other markers on the vector."
+      "en": "The process of introducing foreign DNA (recombinant vector) into a competent host cell (usually E. coli). Successfully transformed cells take up the vector and are selected using antibiotic resistance or other markers on the vector.",
+      "ta": "அந்நிய DNA-வை (மறுகூட்டிணைவுத் தாங்கிக்கடத்தி) தகுதி பெற்ற ஓம்புயிரி செல்லுக்குள் (பொதுவாக E. coli) செலுத்தும் செயல்முறை. வெற்றிகரமாக மாற்றப்பட்ட செல்கள் தாங்கிக்கடத்தியை ஏற்று, அதிலுள்ள ஆன்டிபயாடிக் எதிர்ப்பு அல்லது பிற அடையாளக்குறிகள் மூலம் தெரிவு செய்யப்படுகின்றன.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -1458,79 +1944,105 @@
   {
    "id": "s12",
    "title": {
-    "en": "Summary — Key Exam Points"
+    "en": "Summary — Key Exam Points",
+    "ta": "சுருக்கம் — முக்கியத் தேர்வுக் குறிப்புகள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "**DNA Library Definition**A collection of cloned DNA fragments in vectors stored in host cells, representing all or most of the genetic information of a source organism."
+      "en": "**DNA Library Definition**A collection of cloned DNA fragments in vectors stored in host cells, representing all or most of the genetic information of a source organism.",
+      "ta": "**DNA நூலக வரையறை**ஓம்புயிரி செல்களில் சேமிக்கப்பட்ட தாங்கிக்கடத்திகளிலுள்ள நகலாக்கிய DNA துண்டுகளின் தொகுப்பு; மூல உயிரினத்தின் அனைத்து அல்லது பெரும்பாலான மரபணுத் தகவலைப் பிரதிநிதித்துவப்படுத்துகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Two Types**Genomic library (total DNA, all sequences) and cDNA library (from mRNA, expressed genes only). Choose based on research purpose."
+      "en": "**Two Types**Genomic library (total DNA, all sequences) and cDNA library (from mRNA, expressed genes only). Choose based on research purpose.",
+      "ta": "**இரு வகைகள்**மரபணு தொகைய நூலகம் (மொத்த DNA, அனைத்து வரிசைகளும்), cDNA நூலகம் (mRNA-விலிருந்து, வெளிப்படும் மரபணுக்கள் மட்டும்). ஆய்வு நோக்கத்தின் அடிப்படையில் தேர்ந்தெடுக்கவும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Genomic Library Source**Total genomic DNA from any nucleated cell. Contains exons + introns + non-coding sequences. Same regardless of tissue."
+      "en": "**Genomic Library Source**Total genomic DNA from any nucleated cell. Contains exons + introns + non-coding sequences. Same regardless of tissue.",
+      "ta": "**மரபணு தொகைய நூலகத்தின் மூலம்**உட்கரு கொண்ட எந்தச் செல்லிலிருந்தும் மொத்த மரபணு தொகைய DNA. எக்சான்கள் + இன்ட்ரான்கள் + குறியீடற்ற வரிசைகள். திசு எதுவாயினும் ஒன்றே.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**cDNA Library Source**mRNA from a specific tissue/condition. Converted to cDNA by reverse transcriptase. Contains only expressed, intron-free sequences."
+      "en": "**cDNA Library Source**mRNA from a specific tissue/condition. Converted to cDNA by reverse transcriptase. Contains only expressed, intron-free sequences.",
+      "ta": "**cDNA நூலகத்தின் மூலம்**குறிப்பிட்ட திசு/நிலையிலிருந்து mRNA. ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸால் cDNA-வாக மாற்றப்படுகிறது. வெளிப்படும், இன்ட்ரான் இல்லாத வரிசைகளை மட்டுமே கொண்டது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Key Enzyme: RT**Reverse transcriptase (mRNA→cDNA). Derived from retroviruses. The defining enzyme of cDNA synthesis and cDNA library construction."
+      "en": "**Key Enzyme: RT**Reverse transcriptase (mRNA→cDNA). Derived from retroviruses. The defining enzyme of cDNA synthesis and cDNA library construction.",
+      "ta": "**முக்கிய நொதி: RT**ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ் (mRNA→cDNA). ரெட்ரோவைரஸ்களிலிருந்து பெறப்பட்டது. cDNA தொகுப்பு, cDNA நூலக உருவாக்கத்தின் வரையறுக்கும் நொதி.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Genomic Fragmentation**Partial restriction enzyme digestion (not complete) is preferred to generate overlapping fragments for full genome coverage without gaps."
+      "en": "**Genomic Fragmentation**Partial restriction enzyme digestion (not complete) is preferred to generate overlapping fragments for full genome coverage without gaps.",
+      "ta": "**மரபணு தொகைய துண்டாக்கம்**இடைவெளியின்றி முழு மரபணுத்தொகை உள்ளடக்கத்துக்கு மேற்பொருந்தும் துண்டுகளை உருவாக்க (முழுமையான அல்ல) பகுதி ரெஸ்ட்ரிக்ஷன் நொதிச் செரித்தல் விரும்பப்படுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Vector Choice**Plasmid (<10 kb) → cDNA; Lambda phage (~23 kb) → cDNA and genomic; Cosmid (35–45 kb) → genomic; YAC (200–2000 kb) → large genomic."
+      "en": "**Vector Choice**Plasmid (<10 kb) → cDNA; Lambda phage (~23 kb) → cDNA and genomic; Cosmid (35–45 kb) → genomic; YAC (200–2000 kb) → large genomic.",
+      "ta": "**தாங்கிக்கடத்தித் தேர்வு**பிளாஸ்மிட் (<10 kb) → cDNA; லாம்டா பேஜ் (~23 kb) → cDNA, மரபணு தொகையம்; காஸ்மிட் (35–45 kb) → மரபணு தொகையம்; YAC (200–2000 kb) → பெரிய மரபணு தொகையம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Clarke-Carbon Formula**N = ln(1−P) / ln(1−f). Calculates number of clones needed for complete genome representation at probability P."
+      "en": "**Clarke-Carbon Formula**N = ln(1−P) / ln(1−f). Calculates number of clones needed for complete genome representation at probability P.",
+      "ta": "**கிளார்க்-கார்பன் வாய்பாடு**N = ln(1−P) / ln(1−f). நிகழ்தகவு P-ல் முழு மரபணுத்தொகைப் பிரதிநிதித்துவத்துக்குத் தேவையான குளோன்களின் எண்ணிக்கையைக் கணக்கிடுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Screening Method**Colony/plaque hybridisation with labelled probe, immunological screening, or PCR is used to find the clone of interest from the library."
+      "en": "**Screening Method**Colony/plaque hybridisation with labelled probe, immunological screening, or PCR is used to find the clone of interest from the library.",
+      "ta": "**சலிக்கை முறை**நூலகத்திலிருந்து ஆர்வமுள்ள குளோனைக் கண்டறிய, குறியிடப்பட்ட DNA துருவியுடன் குழும/பிளேக் கலப்பினமாக்கல், நோயெதிர்ப்பியல் சலிக்கை அல்லது PCR பயன்படுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**HGP Connection**YAC and BAC genomic libraries were central to the Human Genome Project (1990–2003). EST projects used cDNA libraries."
+      "en": "**HGP Connection**YAC and BAC genomic libraries were central to the Human Genome Project (1990–2003). EST projects used cDNA libraries.",
+      "ta": "**HGP தொடர்பு**YAC, BAC மரபணு தொகைய நூலகங்கள் மனித மரபணுத்தொகைத் திட்டத்தில் (1990–2003) மையமாக இருந்தன. EST திட்டங்கள் cDNA நூலகங்களைப் பயன்படுத்தின.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**cDNA in Medicine**Human insulin cDNA (from pancreatic cDNA library) was expressed in E. coli to produce recombinant insulin — first recombinant therapeutic protein (1982)."
+      "en": "**cDNA in Medicine**Human insulin cDNA (from pancreatic cDNA library) was expressed in E. coli to produce recombinant insulin — first recombinant therapeutic protein (1982).",
+      "ta": "**மருத்துவத்தில் cDNA**மனித இன்சுலின் cDNA (கணைய cDNA நூலகத்திலிருந்து) E. coli-யில் வெளிப்படுத்தப்பட்டு மறுகூட்டிணைவு இன்சுலினை உருவாக்கியது — முதல் மறுகூட்டிணைவுச் சிகிச்சைப் புரதம் (1982).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Expression Advantage**cDNA can be directly expressed in prokaryotes (no introns to splice) — genomic library clones of eukaryotic genes cannot be directly expressed in E. coli."
+      "en": "**Expression Advantage**cDNA can be directly expressed in prokaryotes (no introns to splice) — genomic library clones of eukaryotic genes cannot be directly expressed in E. coli.",
+      "ta": "**வெளிப்பாட்டு நன்மை**cDNA-வை புரோகேரியோட்டுகளில் நேரடியாக வெளிப்படுத்தலாம் (பிளக்க இன்ட்ரான்கள் இல்லை) — யூகேரியோட்டு மரபணுக்களின் மரபணு தொகைய நூலகக் குளோன்களை E. coli-யில் நேரடியாக வெளிப்படுத்த இயலாது.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -1540,115 +2052,165 @@
   {
    "id": "s13",
    "title": {
-    "en": "Glossary of Key Terms"
+    "en": "Glossary of Key Terms",
+    "ta": "முக்கியச் சொற்களின் சொற்களஞ்சியம்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "glossary",
      "term": {
-      "en": "DNA Library"
+      "en": "DNA Library",
+      "ta": "DNA நூலகம்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "A collection of cloned DNA fragments (in vectors, inside host cells) that together represent the genetic information of a source organism. Exists as genomic library (total DNA) or cDNA library (expressed sequences)."
+      "en": "A collection of cloned DNA fragments (in vectors, inside host cells) that together represent the genetic information of a source organism. Exists as genomic library (total DNA) or cDNA library (expressed sequences).",
+      "ta": "மூல உயிரினத்தின் மரபணுத் தகவலைச் சேர்ந்து பிரதிநிதித்துவப்படுத்தும் (ஓம்புயிரி செல்களுக்குள் தாங்கிக்கடத்திகளிலுள்ள) நகலாக்கிய DNA துண்டுகளின் தொகுப்பு. மரபணு தொகைய நூலகம் (மொத்த DNA) அல்லது cDNA நூலகம் (வெளிப்படும் வரிசைகள்) என இருவகை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Genomic DNA"
+      "en": "Genomic DNA",
+      "ta": "மரபணு தொகைய DNA",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "The complete DNA content of an organism's cell, including all chromosomes with coding genes, introns, promoters, enhancers, repetitive sequences, and intergenic DNA. Present in all nucleated cells of the organism."
+      "en": "The complete DNA content of an organism's cell, including all chromosomes with coding genes, introns, promoters, enhancers, repetitive sequences, and intergenic DNA. Present in all nucleated cells of the organism.",
+      "ta": "குறியீட்டு மரபணுக்கள், இன்ட்ரான்கள், புரோமோட்டர்கள், என்ஹேன்சர்கள், திரும்பத் திரும்ப வரும் வரிசைகள், மரபணுகளுக்கிடையேயான DNA கொண்ட அனைத்துக் குரோமோசோம்கள் உட்பட ஓர் உயிரினத்தின் செல்லிலுள்ள முழு DNA உள்ளடக்கம். உயிரினத்தின் உட்கரு கொண்ட அனைத்துச் செல்களிலும் உள்ளது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "cDNA (Complementary DNA)"
+      "en": "cDNA (Complementary DNA)",
+      "ta": "cDNA (நிரப்பு DNA)",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "A DNA copy of an mRNA molecule, synthesised by reverse transcriptase. Contains only the coding (exon) sequences of a gene — no introns. Used in cDNA libraries and for expression of eukaryotic genes in prokaryotes."
+      "en": "A DNA copy of an mRNA molecule, synthesised by reverse transcriptase. Contains only the coding (exon) sequences of a gene — no introns. Used in cDNA libraries and for expression of eukaryotic genes in prokaryotes.",
+      "ta": "ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸால் தொகுக்கப்பட்ட mRNA மூலக்கூற்றின் DNA நகல். மரபணுவின் குறியீட்டு (எக்சான்) வரிசைகளை மட்டுமே கொண்டுள்ளது — இன்ட்ரான்கள் இல்லை. cDNA நூலகங்களிலும் புரோகேரியோட்டுகளில் யூகேரியோட்டு மரபணுக்களை வெளிப்படுத்தவும் பயன்படுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Reverse Transcriptase"
+      "en": "Reverse Transcriptase",
+      "ta": "ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "An RNA-dependent DNA polymerase found in retroviruses (e.g., HIV, MMLV). Synthesises a complementary DNA (cDNA) strand from an mRNA template. Essential enzyme for cDNA synthesis and cDNA library construction."
+      "en": "An RNA-dependent DNA polymerase found in retroviruses (e.g., HIV, MMLV). Synthesises a complementary DNA (cDNA) strand from an mRNA template. Essential enzyme for cDNA synthesis and cDNA library construction.",
+      "ta": "ரெட்ரோவைரஸ்களில் (எ.கா. HIV, MMLV) காணப்படும் RNA-சார் DNA பாலிமரேஸ். mRNA டெம்ப்ளேட்டிலிருந்து நிரப்பு DNA (cDNA) இழையைத் தொகுக்கிறது. cDNA தொகுப்பு, cDNA நூலக உருவாக்கத்தின் இன்றியமையாத நொதி.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Vector"
+      "en": "Vector",
+      "ta": "தாங்கிக்கடத்தி",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "A DNA molecule (plasmid, bacteriophage, cosmid, or YAC) used to carry a foreign DNA fragment into a host cell where it can replicate. Must have an origin of replication, selectable marker, and restriction sites for cloning."
+      "en": "A DNA molecule (plasmid, bacteriophage, cosmid, or YAC) used to carry a foreign DNA fragment into a host cell where it can replicate. Must have an origin of replication, selectable marker, and restriction sites for cloning.",
+      "ta": "அந்நிய DNA துண்டை ஓம்புயிரி செல்லுக்குள் கொண்டு சென்று பெருக்கப் பயன்படும் DNA மூலக்கூறு (பிளாஸ்மிட், பாக்டீரியோஃபேஜ், காஸ்மிட் அல்லது YAC). பெருக்கமடைதலின் தோற்றம், தேர்ந்தெடுக்கும் அடையாளக்குறி, நகலாக்கத்துக்கான ரெஸ்ட்ரிக்ஷன் இடங்கள் இருக்க வேண்டும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Transformation"
+      "en": "Transformation",
+      "ta": "தகவல் பரிமாற்றம் (Transformation)",
+      "ta_status": "bracketed"
      },
      "definition": {
-      "en": "The uptake of foreign DNA by a bacterial cell. In library construction, recombinant vectors are introduced into competent E. coli by transformation. Successfully transformed cells are selected on antibiotic plates."
+      "en": "The uptake of foreign DNA by a bacterial cell. In library construction, recombinant vectors are introduced into competent E. coli by transformation. Successfully transformed cells are selected on antibiotic plates.",
+      "ta": "பாக்டீரிய செல் அந்நிய DNA-வை உள்ளெடுத்தல். நூலக உருவாக்கத்தில், மறுகூட்டிணைவுத் தாங்கிக்கடத்திகள் தகவல் பரிமாற்றம் மூலம் தகுதி பெற்ற E. coli-க்குள் செலுத்தப்படுகின்றன. வெற்றிகரமாக மாற்றப்பட்ட செல்கள் ஆன்டிபயாடிக் தட்டுகளில் தெரிவு செய்யப்படுகின்றன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Cloning"
+      "en": "Cloning",
+      "ta": "நகலாக்கம்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "The process of inserting a DNA fragment into a vector and propagating it in host cells to produce many identical copies of the fragment. Forms the basis of DNA library construction."
+      "en": "The process of inserting a DNA fragment into a vector and propagating it in host cells to produce many identical copies of the fragment. Forms the basis of DNA library construction.",
+      "ta": "DNA துண்டைத் தாங்கிக்கடத்தியில் செருகி, ஓம்புயிரி செல்களில் பெருக்கி, அத்துண்டின் பல ஒத்த நகல்களை உருவாக்கும் செயல்முறை. DNA நூலக உருவாக்கத்தின் அடிப்படை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Restriction Endonuclease"
+      "en": "Restriction Endonuclease",
+      "ta": "ரெஸ்ட்ரிக்ஷன் எண்டோநியுக்ளியேஸ்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "An enzyme that recognises and cuts double-stranded DNA at specific palindromic sequences. Used in genomic library construction to fragment total DNA into cloneable pieces with compatible ends."
+      "en": "An enzyme that recognises and cuts double-stranded DNA at specific palindromic sequences. Used in genomic library construction to fragment total DNA into cloneable pieces with compatible ends.",
+      "ta": "குறிப்பிட்ட முன்பின் ஒத்த வரிசைகளில் இரட்டை இழை DNA-வை அறிந்து வெட்டும் நொதி. மரபணு தொகைய நூலக உருவாக்கத்தில், மொத்த DNA-வைப் பொருந்தும் முனைகளுடன் நகலாக்கத்தக்க துண்டுகளாக வெட்டப் பயன்படுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Poly-A Tail"
+      "en": "Poly-A Tail",
+      "ta": "Poly-A வால்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "A stretch of ~150–250 adenosine residues added to the 3' end of eukaryotic mRNA after transcription. Used to selectively purify mRNA from total RNA using oligo-dT cellulose chromatography during cDNA library preparation."
+      "en": "A stretch of ~150–250 adenosine residues added to the 3' end of eukaryotic mRNA after transcription. Used to selectively purify mRNA from total RNA using oligo-dT cellulose chromatography during cDNA library preparation.",
+      "ta": "படியெடுப்புக்குப் பின் யூகேரியோட்டு mRNA-வின் 3′ முனையில் சேர்க்கப்படும் ~150–250 அடினோசின் எச்சங்களின் தொடர். cDNA நூலகத் தயாரிப்பில் oligo-dT செல்லுலோஸ் நிறப்பிரிகை மூலம் மொத்த RNA-விலிருந்து mRNA-வைத் தேர்ந்து தூய்மையாக்கப் பயன்படுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "RNase H"
+      "en": "RNase H",
+      "ta": "RNase H",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "An enzyme that degrades the RNA strand of an RNA:DNA hybrid duplex. Used in cDNA synthesis to remove the mRNA template after first-strand cDNA synthesis, leaving single-stranded cDNA for second-strand synthesis."
+      "en": "An enzyme that degrades the RNA strand of an RNA:DNA hybrid duplex. Used in cDNA synthesis to remove the mRNA template after first-strand cDNA synthesis, leaving single-stranded cDNA for second-strand synthesis.",
+      "ta": "RNA:DNA கலப்பின இரட்டைச் சுருளின் RNA இழையைச் சிதைக்கும் நொதி. முதல் இழை cDNA தொகுப்புக்குப் பின் mRNA டெம்ப்ளேட்டை நீக்கி, இரண்டாம் இழைத் தொகுப்புக்கு ஒற்றை இழை cDNA-வை எஞ்சச் செய்ய cDNA தொகுப்பில் பயன்படுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "EST (Expressed Sequence Tag)"
+      "en": "EST (Expressed Sequence Tag)",
+      "ta": "EST (வெளிப்படும் வரிசைக் குறிச்சொல்)",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "A short partial sequence (300–500 bp) of a randomly selected cDNA clone. Used to identify genes without full sequencing. Millions of human ESTs generated from cDNA libraries helped catalogue the human transcriptome."
+      "en": "A short partial sequence (300–500 bp) of a randomly selected cDNA clone. Used to identify genes without full sequencing. Millions of human ESTs generated from cDNA libraries helped catalogue the human transcriptome.",
+      "ta": "தற்செயலாகத் தேர்ந்தெடுக்கப்பட்ட cDNA குளோனின் குறுகிய பகுதி வரிசை (300–500 bp). முழு வரிசைப்படுத்தல் இல்லாமல் மரபணுக்களை அடையாளம் காணப் பயன்படுகிறது. cDNA நூலகங்களிலிருந்து உருவாக்கப்பட்ட மில்லியன் கணக்கான மனித EST-கள் மனிதப் படியெடுப்புத் தொகையை அட்டவணைப்படுத்த உதவின.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Chromosome Walking"
+      "en": "Chromosome Walking",
+      "ta": "குரோமோசோம் நடைபயணம்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "A technique for navigating across a chromosomal region using overlapping genomic library clones. Each new clone is used as a probe to identify the next overlapping clone, progressively moving along the chromosome toward a target gene."
+      "en": "A technique for navigating across a chromosomal region using overlapping genomic library clones. Each new clone is used as a probe to identify the next overlapping clone, progressively moving along the chromosome toward a target gene.",
+      "ta": "மேற்பொருந்தும் மரபணு தொகைய நூலகக் குளோன்களைப் பயன்படுத்திக் குரோமோசோமுப் பகுதியில் செல்லும் நுட்பம். ஒவ்வொரு புதிய குளோனும் அடுத்த மேற்பொருந்தும் குளோனை அடையாளம் காண DNA துருவியாகப் பயன்பட்டு, இலக்கு மரபணுவை நோக்கிக் குரோமோசோமில் படிப்படியாக நகர்கிறது.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -1658,25 +2220,33 @@
   {
    "id": "s14",
    "title": {
-    "en": "Frequently Asked University Exam Questions"
+    "en": "Frequently Asked University Exam Questions",
+    "ta": "பல்கலைக்கழகத் தேர்வுகளில் அடிக்கடி கேட்கப்படும் வினாக்கள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Click each question to expand the answer hints."
+      "en": "Click each question to expand the answer hints.",
+      "ta": "விடைக் குறிப்புகளை விரிக்க ஒவ்வொரு வினாவையும் தொடுக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**1. What is a DNA library? Distinguish between a genomic DNA library and a cDNA library.**"
+      "en": "**1. What is a DNA library? Distinguish between a genomic DNA library and a cDNA library.**",
+      "ta": "**1. DNA நூலகம் என்றால் என்ன? மரபணு தொகைய DNA நூலகத்தையும் cDNA நூலகத்தையும் பிரித்தறிக.**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Answer Hints:**"
+      "en": "**Answer Hints:**",
+      "ta": "**விடைக் குறிப்புகள்:**",
+      "ta_status": "draft"
      }
     },
     {
@@ -1684,32 +2254,46 @@
      "ordered": false,
      "items": [
       {
-       "en": "Define DNA library: a collection of cloned DNA fragments in vectors maintained in host cells; represents the genetic information of a source organism."
+       "en": "Define DNA library: a collection of cloned DNA fragments in vectors maintained in host cells; represents the genetic information of a source organism.",
+       "ta": "DNA நூலகத்தை வரையறு: ஓம்புயிரி செல்களில் பராமரிக்கப்படும் தாங்கிக்கடத்திகளிலுள்ள நகலாக்கிய DNA துண்டுகளின் தொகுப்பு; மூல உயிரினத்தின் மரபணுத் தகவலைப் பிரதிநிதித்துவப்படுத்துகிறது.",
+       "ta_status": "draft"
       },
       {
-       "en": "Genomic library: source = total genomic DNA; contains coding + non-coding + introns; tissue-independent; large number of clones needed."
+       "en": "Genomic library: source = total genomic DNA; contains coding + non-coding + introns; tissue-independent; large number of clones needed.",
+       "ta": "மரபணு தொகைய நூலகம்: மூலம் = மொத்த மரபணு தொகைய DNA; குறியீட்டு + குறியீடற்ற + இன்ட்ரான்களைக் கொண்டது; திசு சாராதது; அதிக எண்ணிக்கையிலான குளோன்கள் தேவை.",
+       "ta_status": "draft"
       },
       {
-       "en": "cDNA library: source = mRNA (via reverse transcriptase → cDNA); contains only expressed, intron-free sequences; tissue-specific; smaller number of clones."
+       "en": "cDNA library: source = mRNA (via reverse transcriptase → cDNA); contains only expressed, intron-free sequences; tissue-specific; smaller number of clones.",
+       "ta": "cDNA நூலகம்: மூலம் = mRNA (ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ் → cDNA வழியாக); வெளிப்படும், இன்ட்ரான் இல்லாத வரிசைகளை மட்டுமே கொண்டது; திசு-சிறப்பு; குறைவான குளோன்கள்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Key difference: genomic library has all genetic information; cDNA library has only information from actively transcribed genes at a specific time/tissue."
+       "en": "Key difference: genomic library has all genetic information; cDNA library has only information from actively transcribed genes at a specific time/tissue.",
+       "ta": "முக்கிய வேறுபாடு: மரபணு தொகைய நூலகத்தில் அனைத்து மரபணுத் தகவலும் உள்ளது; cDNA நூலகத்தில் குறிப்பிட்ட நேரம்/திசுவில் செயல்பட்டுப் படியெடுக்கப்பட்ட மரபணுக்களின் தகவல் மட்டுமே உள்ளது.",
+       "ta_status": "draft"
       },
       {
-       "en": "Practical difference: cDNA can be directly expressed in E. coli (no introns); genomic eukaryotic gene clones cannot."
+       "en": "Practical difference: cDNA can be directly expressed in E. coli (no introns); genomic eukaryotic gene clones cannot.",
+       "ta": "நடைமுறை வேறுபாடு: cDNA-வை E. coli-யில் நேரடியாக வெளிப்படுத்தலாம் (இன்ட்ரான்கள் இல்லை); யூகேரியோட்டு மரபணு தொகைய மரபணுக் குளோன்களை முடியாது.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**2. Describe the steps involved in the construction of a cDNA library. What is the role of reverse transcriptase?**"
+      "en": "**2. Describe the steps involved in the construction of a cDNA library. What is the role of reverse transcriptase?**",
+      "ta": "**2. cDNA நூலகம் உருவாக்குவதில் உள்ள படிகளை விவரிக்க. ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸின் பங்கு என்ன?**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Answer Hints:**"
+      "en": "**Answer Hints:**",
+      "ta": "**விடைக் குறிப்புகள்:**",
+      "ta_status": "draft"
      }
     },
     {
@@ -1717,35 +2301,51 @@
      "ordered": false,
      "items": [
       {
-       "en": "Step 1: Isolate poly-A mRNA from target tissue using oligo-dT cellulose affinity chromatography."
+       "en": "Step 1: Isolate poly-A mRNA from target tissue using oligo-dT cellulose affinity chromatography.",
+       "ta": "படி 1: oligo-dT செல்லுலோஸ் நாட்ட நிறப்பிரிகை மூலம் இலக்குத் திசுவிலிருந்து poly-A mRNA தனிப்பிரிப்பு.",
+       "ta_status": "draft"
       },
       {
-       "en": "Step 2: First-strand cDNA synthesis — oligo-dT primer anneals to poly-A tail; reverse transcriptase synthesises cDNA using mRNA as template → mRNA:cDNA hybrid."
+       "en": "Step 2: First-strand cDNA synthesis — oligo-dT primer anneals to poly-A tail; reverse transcriptase synthesises cDNA using mRNA as template → mRNA:cDNA hybrid.",
+       "ta": "படி 2: முதல் இழை cDNA தொகுப்பு — oligo-dT பிரைமர் poly-A வாலுடன் இணைகிறது; ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ் mRNA-வை டெம்ப்ளேட்டாகக் கொண்டு cDNA-வைத் தொகுக்கிறது → mRNA:cDNA கலப்பினம்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Step 3: Degrade mRNA using RNase H or NaOH → single-stranded cDNA remains."
+       "en": "Step 3: Degrade mRNA using RNase H or NaOH → single-stranded cDNA remains.",
+       "ta": "படி 3: RNase H அல்லது NaOH மூலம் mRNA-வைச் சிதைத்தல் → ஒற்றை இழை cDNA எஞ்சுகிறது.",
+       "ta_status": "draft"
       },
       {
-       "en": "Step 4: Second-strand synthesis — DNA Polymerase I synthesises complementary strand → ds-cDNA."
+       "en": "Step 4: Second-strand synthesis — DNA Polymerase I synthesises complementary strand → ds-cDNA.",
+       "ta": "படி 4: இரண்டாம் இழைத் தொகுப்பு — DNA பாலிமரேஸ் I நிரப்பு இழையைத் தொகுக்கிறது → ds-cDNA.",
+       "ta_status": "draft"
       },
       {
-       "en": "Step 5: Add restriction enzyme linkers/adaptors → ligate into vector (e.g., lambda gt11, pUC) → transform into E. coli."
+       "en": "Step 5: Add restriction enzyme linkers/adaptors → ligate into vector (e.g., lambda gt11, pUC) → transform into E. coli.",
+       "ta": "படி 5: ரெஸ்ட்ரிக்ஷன் நொதி லிங்கர்கள்/அடாப்டர்களைச் சேர்த்தல் → தாங்கிக்கடத்தியில் (எ.கா. lambda gt11, pUC) இணைத்தல் → E. coli-க்குள் தகவல் பரிமாற்றம்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Role of RT: catalyses mRNA → cDNA (RNA-dependent DNA polymerase); reverses central dogma; derived from retroviruses; requires primer (oligo-dT or random hexamer)."
+       "en": "Role of RT: catalyses mRNA → cDNA (RNA-dependent DNA polymerase); reverses central dogma; derived from retroviruses; requires primer (oligo-dT or random hexamer).",
+       "ta": "RT-யின் பங்கு: mRNA → cDNA-வை வினையூக்குகிறது (RNA-சார் DNA பாலிமரேஸ்); மைய மறையத்தைத் தலைகீழாக்குகிறது; ரெட்ரோவைரஸ்களிலிருந்து பெறப்பட்டது; பிரைமர் (oligo-dT அல்லது சீரற்ற ஹெக்சாமர்) தேவை.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**3. Explain the construction of a genomic DNA library. Why is partial digestion preferred over complete digestion?**"
+      "en": "**3. Explain the construction of a genomic DNA library. Why is partial digestion preferred over complete digestion?**",
+      "ta": "**3. மரபணு தொகைய DNA நூலக உருவாக்கத்தை விளக்குக. முழுமையான செரித்தலை விடப் பகுதி செரித்தல் ஏன் விரும்பப்படுகிறது?**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Answer Hints:**"
+      "en": "**Answer Hints:**",
+      "ta": "**விடைக் குறிப்புகள்:**",
+      "ta_status": "draft"
      }
     },
     {
@@ -1753,32 +2353,46 @@
      "ordered": false,
      "items": [
       {
-       "en": "Steps: isolate total genomic DNA → partial restriction enzyme digestion → size selection → ligation into vector → transformation of E. coli → collection of clones = library."
+       "en": "Steps: isolate total genomic DNA → partial restriction enzyme digestion → size selection → ligation into vector → transformation of E. coli → collection of clones = library.",
+       "ta": "படிகள்: மொத்த மரபணு தொகைய DNA தனிப்பிரிப்பு → பகுதி ரெஸ்ட்ரிக்ஷன் நொதிச் செரித்தல் → அளவுத் தேர்வு → தாங்கிக்கடத்தியில் இணைத்தல் → E. coli-க்குள் தகவல் பரிமாற்றம் → குளோன்களின் தொகுப்பு = நூலகம்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Partial vs complete digestion: complete digestion always cuts at the same sites, missing regions between rare restriction sites; partial digestion produces overlapping, random fragments that together cover all sequences."
+       "en": "Partial vs complete digestion: complete digestion always cuts at the same sites, missing regions between rare restriction sites; partial digestion produces overlapping, random fragments that together cover all sequences.",
+       "ta": "பகுதி – முழுமையான செரித்தல்: முழுமையான செரித்தல் எப்போதும் ஒரே இடங்களில் வெட்டுவதால், அரிய ரெஸ்ட்ரிக்ஷன் இடங்களுக்கிடையேயான பகுதிகள் தவறிவிடும்; பகுதி செரித்தல் அனைத்து வரிசைகளையும் சேர்ந்து உள்ளடக்கும் மேற்பொருந்தும், தற்செயல் துண்டுகளை உருவாக்குகிறது.",
+       "ta_status": "draft"
       },
       {
-       "en": "Overlapping inserts are needed for chromosome walking and physical mapping — complete digestion cannot provide this."
+       "en": "Overlapping inserts are needed for chromosome walking and physical mapping — complete digestion cannot provide this.",
+       "ta": "குரோமோசோம் நடைபயணத்துக்கும் இயற்பியல் வரைபடமாக்கலுக்கும் மேற்பொருந்தும் செருகிகள் தேவை — முழுமையான செரித்தலால் இதை வழங்க இயலாது.",
+       "ta_status": "draft"
       },
       {
-       "en": "Library size calculated using Clarke-Carbon formula: N = ln(1−P) / ln(1−f)."
+       "en": "Library size calculated using Clarke-Carbon formula: N = ln(1−P) / ln(1−f).",
+       "ta": "கிளார்க்-கார்பன் வாய்பாட்டால் நூலக அளவு கணக்கிடப்படுகிறது: N = ln(1−P) / ln(1−f).",
+       "ta_status": "draft"
       },
       {
-       "en": "Vectors used: cosmids for 35–45 kb inserts; YACs for megabase inserts; lambda phage for ~20 kb inserts."
+       "en": "Vectors used: cosmids for 35–45 kb inserts; YACs for megabase inserts; lambda phage for ~20 kb inserts.",
+       "ta": "பயன்படும் தாங்கிக்கடத்திகள்: 35–45 kb செருகுகளுக்குக் காஸ்மிட்கள்; மெகா காரண இணை செருகுகளுக்கு YAC-கள்; ~20 kb செருகுகளுக்கு லாம்டா பேஜ்.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**4. Why is a cDNA library preferred over a genomic library for expressing eukaryotic genes in bacteria?**"
+      "en": "**4. Why is a cDNA library preferred over a genomic library for expressing eukaryotic genes in bacteria?**",
+      "ta": "**4. யூகேரியோட்டு மரபணுக்களைப் பாக்டீரியாவில் வெளிப்படுத்த மரபணு தொகைய நூலகத்தை விட cDNA நூலகம் ஏன் விரும்பப்படுகிறது?**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Answer Hints:**"
+      "en": "**Answer Hints:**",
+      "ta": "**விடைக் குறிப்புகள்:**",
+      "ta_status": "draft"
      }
     },
     {
@@ -1786,32 +2400,46 @@
      "ordered": false,
      "items": [
       {
-       "en": "Eukaryotic genes contain introns (non-coding intervening sequences) that are removed by splicing in eukaryotic cells."
+       "en": "Eukaryotic genes contain introns (non-coding intervening sequences) that are removed by splicing in eukaryotic cells.",
+       "ta": "யூகேரியோட்டு மரபணுக்களில் இன்ட்ரான்கள் (குறியீடற்ற இடைப்பட்ட வரிசைகள்) உள்ளன; அவை யூகேரியோட்டு செல்களில் பிளவுறுதலால் நீக்கப்படுகின்றன.",
+       "ta_status": "draft"
       },
       {
-       "en": "Prokaryotes (bacteria) lack the splicing machinery (spliceosome) needed to remove introns from pre-mRNA."
+       "en": "Prokaryotes (bacteria) lack the splicing machinery (spliceosome) needed to remove introns from pre-mRNA.",
+       "ta": "முன்-mRNA-விலிருந்து இன்ட்ரான்களை நீக்கத் தேவையான பிளவுறுத்தும் இயங்குமுறை (ஸ்பைசியோசோம்) புரோகேரியோட்டுகளில் (பாக்டீரியா) இல்லை.",
+       "ta_status": "draft"
       },
       {
-       "en": "If a genomic eukaryotic gene (with introns) is expressed in E. coli, the introns will be read as coding sequence → non-functional or truncated protein."
+       "en": "If a genomic eukaryotic gene (with introns) is expressed in E. coli, the introns will be read as coding sequence → non-functional or truncated protein.",
+       "ta": "இன்ட்ரான்களுடன் கூடிய யூகேரியோட்டு மரபணு தொகைய மரபணு E. coli-யில் வெளிப்படுத்தப்பட்டால், இன்ட்ரான்கள் குறியீட்டு வரிசையாக வாசிக்கப்படும் → செயலற்ற அல்லது துண்டிக்கப்பட்ட புரதம்.",
+       "ta_status": "draft"
       },
       {
-       "en": "cDNA is derived from processed mRNA (introns already removed) → it represents only the coding sequence (exons) → can be directly and correctly translated in E. coli."
+       "en": "cDNA is derived from processed mRNA (introns already removed) → it represents only the coding sequence (exons) → can be directly and correctly translated in E. coli.",
+       "ta": "cDNA செயலாக்கப்பட்ட mRNA-விலிருந்து (இன்ட்ரான்கள் ஏற்கெனவே நீக்கப்பட்டவை) பெறப்படுகிறது → குறியீட்டு வரிசையை (எக்சான்கள்) மட்டுமே குறிக்கிறது → E. coli-யில் நேரடியாகவும் சரியாகவும் மொழிபெயர்க்கப்படலாம்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Example: human insulin cDNA expressed in E. coli produces functional insulin; human insulin genomic clone would not."
+       "en": "Example: human insulin cDNA expressed in E. coli produces functional insulin; human insulin genomic clone would not.",
+       "ta": "எடுத்துக்காட்டு: E. coli-யில் வெளிப்படுத்தப்பட்ட மனித இன்சுலின் cDNA செயல்படும் இன்சுலினை உருவாக்குகிறது; மனித இன்சுலின் மரபணு தொகையக் குளோன் உருவாக்காது.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**5. Write a note on the applications of DNA libraries in biotechnology and medicine.**"
+      "en": "**5. Write a note on the applications of DNA libraries in biotechnology and medicine.**",
+      "ta": "**5. உயிரித் தொழில்நுட்பவியலிலும் மருத்துவத்திலும் DNA நூலகங்களின் பயன்பாடுகள் பற்றிக் குறிப்பு எழுதுக.**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Answer Hints:**"
+      "en": "**Answer Hints:**",
+      "ta": "**விடைக் குறிப்புகள்:**",
+      "ta_status": "draft"
      }
     },
     {
@@ -1819,22 +2447,34 @@
      "ordered": false,
      "items": [
       {
-       "en": "**Human Genome Project:** YAC and BAC genomic libraries provided overlapping clones for physical mapping and sequencing the 3.2 Gb human genome."
+       "en": "**Human Genome Project:** YAC and BAC genomic libraries provided overlapping clones for physical mapping and sequencing the 3.2 Gb human genome.",
+       "ta": "**மனித மரபணுத்தொகைத் திட்டம்:** 3.2 Gb மனித மரபணுத்தொகையை இயற்பியல் வரைபடமாக்கவும் வரிசைப்படுத்தவும் YAC, BAC மரபணு தொகைய நூலகங்கள் மேற்பொருந்தும் குளோன்களை வழங்கின.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Recombinant drug production:** Human insulin, growth hormone, erythropoietin cloned from cDNA libraries and expressed in bacteria/yeast for therapeutic use."
+       "en": "**Recombinant drug production:** Human insulin, growth hormone, erythropoietin cloned from cDNA libraries and expressed in bacteria/yeast for therapeutic use.",
+       "ta": "**மறுகூட்டிணைவு மருந்து உற்பத்தி:** மனித இன்சுலின், வளர்ச்சி ஹார்மோன், எரித்ரோபொயட்டின் cDNA நூலகங்களிலிருந்து நகலாக்கப்பட்டு, சிகிச்சைப் பயன்பாட்டுக்குப் பாக்டீரியா/ஈஸ்டில் வெளிப்படுத்தப்படுகின்றன.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Gene discovery:** cDNA libraries from diseased tissues (cancer, Alzheimer's) vs normal tissues identify differentially expressed genes — potential drug targets."
+       "en": "**Gene discovery:** cDNA libraries from diseased tissues (cancer, Alzheimer's) vs normal tissues identify differentially expressed genes — potential drug targets.",
+       "ta": "**மரபணுக் கண்டுபிடிப்பு:** நோயுற்ற திசுக்களின் (புற்றுநோய், அல்சைமர்) cDNA நூலகங்கள், இயல்புத் திசுக்களுடன் ஒப்பிடும்போது வேறுபட்டு வெளிப்படும் மரபணுக்களை — சாத்தியமான மருந்து இலக்குகளை — அடையாளம் காண்கின்றன.",
+       "ta_status": "draft"
       },
       {
-       "en": "**EST (Expressed Sequence Tag) projects:** Partial sequencing of cDNA library clones generated millions of short gene markers cataloguing the human transcriptome."
+       "en": "**EST (Expressed Sequence Tag) projects:** Partial sequencing of cDNA library clones generated millions of short gene markers cataloguing the human transcriptome.",
+       "ta": "**EST (வெளிப்படும் வரிசைக் குறிச்சொல்) திட்டங்கள்:** cDNA நூலகக் குளோன்களின் பகுதி வரிசைப்படுத்தல் மனிதப் படியெடுப்புத் தொகையை அட்டவணைப்படுத்தும் மில்லியன் கணக்கான குறுகிய மரபணுக் குறியீடுகளை உருவாக்கியது.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Chromosome walking:** Genomic libraries used to navigate chromosomal regions to isolate disease genes (e.g., cystic fibrosis gene isolated by chromosome walking in 1989)."
+       "en": "**Chromosome walking:** Genomic libraries used to navigate chromosomal regions to isolate disease genes (e.g., cystic fibrosis gene isolated by chromosome walking in 1989).",
+       "ta": "**குரோமோசோம் நடைபயணம்:** நோய் மரபணுக்களைத் தனித்துப் பிரிக்கக் குரோமோசோமுப் பகுதிகளில் செல்ல மரபணு தொகைய நூலகங்கள் பயன்படுகின்றன (எ.கா. 1989-ல் குரோமோசோம் நடைபயணம் மூலம் சிஸ்டிக் ஃபைப்ரோசிஸ் மரபணு தனித்துப் பிரிக்கப்பட்டது).",
+       "ta_status": "draft"
       },
       {
-       "en": "**Phage display:** cDNA libraries cloned into phage display vectors to identify protein–protein interactions and novel antibodies."
+       "en": "**Phage display:** cDNA libraries cloned into phage display vectors to identify protein–protein interactions and novel antibodies.",
+       "ta": "**பேஜ் காட்சியமைப்பு:** புரத–புரத இடைவினைகளையும் புதிய எதிர்ப்பொருள்களையும் அடையாளம் காண cDNA நூலகங்கள் பேஜ் காட்சியமைப்புத் தாங்கிக்கடத்திகளில் நகலாக்கப்படுகின்றன.",
+       "ta_status": "draft"
       }
      ]
     }
