@@ -2,19 +2,25 @@
  "id": "biotechnology_fundamentals",
  "unit": "I",
  "title": {
-  "en": "Fundamentals of Biotechnology — Definition, Scope & Importance"
+  "en": "Fundamentals of Biotechnology — Definition, Scope & Importance",
+  "ta": "உயிரித் தொழில்நுட்பவியலின் அடிப்படைகள் — வரையறை, வரம்பு மற்றும் முக்கியத்துவம்",
+  "ta_status": "draft"
  },
  "sections": [
   {
    "id": "s01",
    "title": {
-    "en": "Overview"
+    "en": "Overview",
+    "ta": "மேலோட்டம்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "🧬 Unit 1 · B.Sc. Biotechnology / Zoology"
+      "en": "🧬 Unit 1 · B.Sc. Biotechnology / Zoology",
+      "ta": "🧬 அலகு 1 · B.Sc. உயிரித் தொழில்நுட்பவியல் / விலங்கியல்",
+      "ta_status": "draft"
      }
     }
    ]
@@ -22,31 +28,41 @@
   {
    "id": "s02",
    "title": {
-    "en": "Fundamentals of Biotechnology"
+    "en": "Fundamentals of Biotechnology",
+    "ta": "உயிரித் தொழில்நுட்பவியலின் அடிப்படைகள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Definition, Scope & Importance"
+      "en": "Definition, Scope & Importance",
+      "ta": "வரையறை, வரம்பு மற்றும் முக்கியத்துவம்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Biotechnology is the **science of using living organisms and their components** to develop products and processes that benefit humanity. From life-saving medicines to sustainable agriculture and clean fuels — biotechnology is reshaping every dimension of modern life. This module introduces you to the foundation of this transformative field."
+      "en": "Biotechnology is the **science of using living organisms and their components** to develop products and processes that benefit humanity. From life-saving medicines to sustainable agriculture and clean fuels — biotechnology is reshaping every dimension of modern life. This module introduces you to the foundation of this transformative field.",
+      "ta": "உயிரித் தொழில்நுட்பவியல் என்பது மனிதகுலத்துக்குப் பயனளிக்கும் பொருட்களையும் செயல்முறைகளையும் உருவாக்க **உயிரினங்களையும் அவற்றின் கூறுகளையும் பயன்படுத்தும் அறிவியல்**. உயிர் காக்கும் மருந்துகள் முதல் நிலையான வேளாண்மை, தூய எரிபொருள்கள் வரை — நவீன வாழ்வின் ஒவ்வொரு பரிமாணத்தையும் உயிரித் தொழில்நுட்பவியல் மாற்றியமைக்கிறது. இந்த மாற்றத்தை ஏற்படுத்தும் துறையின் அடித்தளத்தை இத்தொகுதி அறிமுகப்படுத்துகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "📚 10 Sections 🎯 10 MCQ Quiz 📝 Short-Answer Revision ⏱ ~50 min study 🎓 B.Sc. Level"
+      "en": "📚 10 Sections 🎯 10 MCQ Quiz 📝 Short-Answer Revision ⏱ ~50 min study 🎓 B.Sc. Level",
+      "ta": "📚 10 பிரிவுகள் 🎯 10 MCQ வினாடி வினா 📝 சுருக்க விடை மீள்பார்வை ⏱ ~50 நிமிடப் படிப்பு 🎓 B.Sc. நிலை",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🎯 Learning Objectives**"
+      "en": "**🎯 Learning Objectives**",
+      "ta": "**🎯 கற்றல் நோக்கங்கள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -54,25 +70,39 @@
      "ordered": false,
      "items": [
       {
-       "en": "✓Define biotechnology using standard scientific and simple student-friendly language."
+       "en": "✓Define biotechnology using standard scientific and simple student-friendly language.",
+       "ta": "✓தரமான அறிவியல் மொழியிலும் மாணவர்க்கு எளிய மொழியிலும் உயிரித் தொழில்நுட்பவியலை வரையறுத்தல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "✓Identify the key components of biotechnology (organisms, cells, enzymes, technology)."
+       "en": "✓Identify the key components of biotechnology (organisms, cells, enzymes, technology).",
+       "ta": "✓உயிரித் தொழில்நுட்பவியலின் முக்கியக் கூறுகளை (உயிரினங்கள், செல்கள், நொதிகள், தொழில்நுட்பம்) அடையாளம் காணுதல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "✓Describe the major branches and scope of biotechnology with examples."
+       "en": "✓Describe the major branches and scope of biotechnology with examples.",
+       "ta": "✓உயிரித் தொழில்நுட்பவியலின் முக்கியக் கிளைகளையும் வரம்பையும் எடுத்துக்காட்டுகளுடன் விவரித்தல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "✓Explain the importance of biotechnology in healthcare, agriculture, industry, and environment."
+       "en": "✓Explain the importance of biotechnology in healthcare, agriculture, industry, and environment.",
+       "ta": "✓சுகாதாரம், வேளாண்மை, தொழில், சூழலில் உயிரித் தொழில்நுட்பவியலின் முக்கியத்துவத்தை விளக்குதல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "✓Discuss real-world applications such as insulin production, GM crops, and bioremediation."
+       "en": "✓Discuss real-world applications such as insulin production, GM crops, and bioremediation.",
+       "ta": "✓இன்சுலின் உற்பத்தி, GM பயிர்கள், உயிரிவழிச் சீரமைப்பு போன்ற நடைமுறைப் பயன்பாடுகளை விவாதித்தல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "✓Distinguish between Traditional and Modern (rDNA) biotechnology."
+       "en": "✓Distinguish between Traditional and Modern (rDNA) biotechnology.",
+       "ta": "✓பாரம்பரிய மற்றும் நவீன (rDNA) உயிரித் தொழில்நுட்பவியலைப் பிரித்தறிதல்.",
+       "ta_status": "bracketed"
       },
       {
-       "en": "✓Answer short-answer and MCQ-type examination questions on this topic."
+       "en": "✓Answer short-answer and MCQ-type examination questions on this topic.",
+       "ta": "✓இத்தலைப்பிலான சுருக்க விடை மற்றும் MCQ வகைத் தேர்வு வினாக்களுக்கு விடையளித்தல்.",
+       "ta_status": "draft"
       }
      ]
     }
@@ -81,235 +111,327 @@
   {
    "id": "s03",
    "title": {
-    "en": "Definition of Biotechnology"
+    "en": "Definition of Biotechnology",
+    "ta": "உயிரித் தொழில்நுட்பவியலின் வரையறை",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Biotechnology combines biology with technology to create products and processes that solve problems and improve human life."
+      "en": "Biotechnology combines biology with technology to create products and processes that solve problems and improve human life.",
+      "ta": "உயிரித் தொழில்நுட்பவியல் உயிரியலையும் தொழில்நுட்பத்தையும் இணைத்து, சிக்கல்களைத் தீர்த்து மனித வாழ்வை மேம்படுத்தும் பொருட்களையும் செயல்முறைகளையும் உருவாக்குகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Etymology & Origin of the Word**"
+      "en": "**Etymology & Origin of the Word**",
+      "ta": "**சொல்லின் பிறப்பும் தோற்றமும்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**🔤 Word Origin**\nThe word **Biotechnology** comes from three Greek/Latin roots:\n**Bios** (βίος) = Life · **Technē** (τέχνη) = Skill / Art · **Logos** (λόγος) = Study / Science\n\nFirst coined by Hungarian engineer **Károly Ereky** in **1919** to describe large-scale pig production using sugar beets."
+      "en": "**🔤 Word Origin**\nThe word **Biotechnology** comes from three Greek/Latin roots:\n**Bios** (βίος) = Life · **Technē** (τέχνη) = Skill / Art · **Logos** (λόγος) = Study / Science\n\nFirst coined by Hungarian engineer **Károly Ereky** in **1919** to describe large-scale pig production using sugar beets.",
+      "ta": "**🔤 சொல் தோற்றம்**\n**Biotechnology** என்ற சொல் மூன்று கிரேக்க/இலத்தீன் வேர்களிலிருந்து வந்தது:\n**Bios** (βίος) = உயிர் · **Technē** (τέχνη) = திறன் / கலை · **Logos** (λόγος) = படிப்பு / அறிவியல்\n\nசர்க்கரைக் கிழங்குகளைக் கொண்டு பெருமளவில் பன்றி உற்பத்தி செய்வதை விவரிக்க ஹங்கேரியப் பொறியாளர் **கார்ஓலி எரெக்கி** **1919**-ல் இதை முதலில் உருவாக்கினார்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Standard Scientific Definition**"
+      "en": "**Standard Scientific Definition**",
+      "ta": "**தரமான அறிவியல் வரையறை**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "📌 Definition (UN Convention on Biological Diversity, 1992)\n\"Biotechnology means any technological application that uses biological systems, living organisms, or derivatives thereof, to make or modify products or processes for specific use.\"\n— Convention on Biological Diversity (CBD), Article 2, United Nations, 1992"
+      "en": "📌 Definition (UN Convention on Biological Diversity, 1992)\n\"Biotechnology means any technological application that uses biological systems, living organisms, or derivatives thereof, to make or modify products or processes for specific use.\"\n— Convention on Biological Diversity (CBD), Article 2, United Nations, 1992",
+      "ta": "📌 வரையறை (ஐ.நா. உயிரியப் பன்மை மாநாடு, 1992)\n\"உயிரித் தொழில்நுட்பவியல் என்பது குறிப்பிட்ட பயன்பாட்டுக்காக உயிரியல் அமைப்புகள், உயிரினங்கள் அல்லது அவற்றின் வழிப்பொருள்களைப் பயன்படுத்திப் பொருட்களையோ செயல்முறைகளையோ உருவாக்கும் அல்லது மாற்றியமைக்கும் எந்தத் தொழில்நுட்பப் பயன்பாடும் ஆகும்.\"\n— உயிரியப் பன்மை மாநாடு (CBD), பிரிவு 2, ஐக்கிய நாடுகள், 1992",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "📌 Definition (European Federation of Biotechnology)\n\"Biotechnology is the integration of natural sciences and engineering sciences in order to achieve the application of organisms, cells, parts thereof and molecular analogues for products and services.\"\n— European Federation of Biotechnology (EFB)"
+      "en": "📌 Definition (European Federation of Biotechnology)\n\"Biotechnology is the integration of natural sciences and engineering sciences in order to achieve the application of organisms, cells, parts thereof and molecular analogues for products and services.\"\n— European Federation of Biotechnology (EFB)",
+      "ta": "📌 வரையறை (ஐரோப்பிய உயிரித் தொழில்நுட்பவியல் கூட்டமைப்பு)\n\"உயிரித் தொழில்நுட்பவியல் என்பது உயிரினங்கள், செல்கள், அவற்றின் பகுதிகள், மூலக்கூறு ஒப்புமைகளைப் பொருட்களுக்கும் சேவைகளுக்கும் பயன்படுத்த இயற்கை அறிவியலையும் பொறியியல் அறிவியலையும் ஒருங்கிணைப்பதாகும்.\"\n— ஐரோப்பிய உயிரித் தொழில்நுட்பவியல் கூட்டமைப்பு (EFB)",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Simple Explanation for Students**"
+      "en": "**Simple Explanation for Students**",
+      "ta": "**மாணவர்க்கு எளிய விளக்கம்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "In simple terms: **Biotechnology = Biology + Technology.**"
+      "en": "In simple terms: **Biotechnology = Biology + Technology.**",
+      "ta": "எளிமையாக: **உயிரித் தொழில்நுட்பவியல் = உயிரியல் + தொழில்நுட்பம்.**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "It means using _living organisms_ (bacteria, yeast, plants, animals) or their _parts_ (cells, enzymes, DNA) to make useful products or solve problems in medicine, agriculture, food, industry, and the environment."
+      "en": "It means using _living organisms_ (bacteria, yeast, plants, animals) or their _parts_ (cells, enzymes, DNA) to make useful products or solve problems in medicine, agriculture, food, industry, and the environment.",
+      "ta": "மருத்துவம், வேளாண்மை, உணவு, தொழில், சூழலில் பயனுள்ள பொருட்களை உருவாக்க அல்லது சிக்கல்களைத் தீர்க்க _உயிருள்ள உயிரினங்களை_ (பாக்டீரியா, ஈஸ்ட், தாவரங்கள், விலங்குகள்) அல்லது அவற்றின் _பகுதிகளை_ (செல்கள், நொதிகள், DNA) பயன்படுத்துவது என்று பொருள்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**💡 Easy Analogy**\nJust as a **factory** uses machines, raw materials, and energy to manufacture products — biotechnology uses **living cells as biological machines**, with DNA as the programme, enzymes as tools, and organic molecules as raw material."
+      "en": "**💡 Easy Analogy**\nJust as a **factory** uses machines, raw materials, and energy to manufacture products — biotechnology uses **living cells as biological machines**, with DNA as the programme, enzymes as tools, and organic molecules as raw material.",
+      "ta": "**💡 எளிய ஒப்புமை**\nஒரு **தொழிற்சாலை** இயந்திரங்கள், மூலப்பொருள்கள், ஆற்றலைக் கொண்டு பொருட்களைத் தயாரிப்பது போல — உயிரித் தொழில்நுட்பவியல் **உயிருள்ள செல்களை உயிரியல் இயந்திரங்களாகப்** பயன்படுத்துகிறது; DNA நிரல், நொதிகள் கருவிகள், கரிம மூலக்கூறுகள் மூலப்பொருள்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Key Components of Biotechnology**"
+      "en": "**Key Components of Biotechnology**",
+      "ta": "**உயிரித் தொழில்நுட்பவியலின் முக்கியக் கூறுகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Living Organisms**"
+      "en": "**Living Organisms**",
+      "ta": "**உயிருள்ள உயிரினங்கள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Bacteria, yeast, fungi, algae, plants, and animals are used as **biological factories** to produce desired products through their natural metabolic activities."
+      "en": "Bacteria, yeast, fungi, algae, plants, and animals are used as **biological factories** to produce desired products through their natural metabolic activities.",
+      "ta": "பாக்டீரியா, ஈஸ்ட், பூஞ்சை, பாசி, தாவரங்கள், விலங்குகள் ஆகியவை தம் இயற்கை வளர்சிதை மாற்றச் செயல்பாடுகள் மூலம் தேவையான பொருட்களை உருவாக்கும் **உயிரியல் தொழிற்சாலைகளாகப்** பயன்படுகின்றன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Cells & Cell Parts**"
+      "en": "**Cells & Cell Parts**",
+      "ta": "**செல்களும் செல் பகுதிகளும்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Individual cells (prokaryotic or eukaryotic) or their isolated components (ribosomes, mitochondria) can be used to carry out specific reactions."
+      "en": "Individual cells (prokaryotic or eukaryotic) or their isolated components (ribosomes, mitochondria) can be used to carry out specific reactions.",
+      "ta": "தனித்தனி செல்கள் (புரோகேரியோட்டு அல்லது யூகேரியோட்டு) அல்லது அவற்றின் தனித்துப் பிரித்த கூறுகள் (ரைபோசோம்கள், மைட்டோகாண்ட்ரியா) குறிப்பிட்ட வினைகளை நிகழ்த்தப் பயன்படுத்தப்படலாம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Enzymes**"
+      "en": "**Enzymes**",
+      "ta": "**நொதிகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Biological catalysts that speed up chemical reactions. Industrial enzymes like **amylase, protease, and lipase** are produced in bulk by microbial fermentation."
+      "en": "Biological catalysts that speed up chemical reactions. Industrial enzymes like **amylase, protease, and lipase** are produced in bulk by microbial fermentation.",
+      "ta": "வேதிவினைகளை விரைவுபடுத்தும் உயிரியல் வினையூக்கிகள். **அமைலேஸ், புரோட்டியேஸ், லைப்பேஸ்** போன்ற தொழில்துறை நொதிகள் நுண்ணுயிர் நொதித்தல் மூலம் பெருமளவில் உற்பத்தி செய்யப்படுகின்றன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**DNA / Genes**"
+      "en": "**DNA / Genes**",
+      "ta": "**DNA / மரபணுக்கள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Recombinant DNA technology allows scientists to **insert, remove, or modify genes** in organisms to produce new traits or valuable proteins like insulin."
+      "en": "Recombinant DNA technology allows scientists to **insert, remove, or modify genes** in organisms to produce new traits or valuable proteins like insulin.",
+      "ta": "மறுகூட்டிணைவு DNA தொழில்நுட்பம், உயிரினங்களில் மரபணுக்களை **செருக, நீக்க, மாற்றியமைக்க** அறிவியலாளர்களை அனுமதித்து, புதிய பண்புகளையோ இன்சுலின் போன்ற மதிப்புமிக்க புரதங்களையோ உருவாக்க உதவுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Technology & Engineering**"
+      "en": "**Technology & Engineering**",
+      "ta": "**தொழில்நுட்பமும் பொறியியலும்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Bioreactors, downstream processing, genetic engineering tools (CRISPR, PCR), and bioprocess engineering integrate biology with engineering principles."
+      "en": "Bioreactors, downstream processing, genetic engineering tools (CRISPR, PCR), and bioprocess engineering integrate biology with engineering principles.",
+      "ta": "உயிரிவினைக் கலன்கள், கீழ்நிலைச் செயலாக்கம், மரபணுப் பொறியியல் கருவிகள் (CRISPR, PCR), உயிரிச் செயல்முறைப் பொறியியல் ஆகியவை உயிரியலைப் பொறியியல் கோட்பாடுகளுடன் ஒருங்கிணைக்கின்றன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Specific Application**"
+      "en": "**Specific Application**",
+      "ta": "**குறிப்பிட்ட பயன்பாடு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Every biotechnology process has a defined **goal**: producing medicine, improving crops, treating waste, generating fuel, or developing diagnostics."
+      "en": "Every biotechnology process has a defined **goal**: producing medicine, improving crops, treating waste, generating fuel, or developing diagnostics.",
+      "ta": "ஒவ்வொரு உயிரித் தொழில்நுட்பச் செயல்முறைக்கும் வரையறுக்கப்பட்ட **இலக்கு** உண்டு: மருந்து உற்பத்தி, பயிர் மேம்பாடு, கழிவுச் சுத்திகரிப்பு, எரிபொருள் உருவாக்கம் அல்லது நோயறிதல் கருவிகளை உருவாக்குதல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Traditional vs. Modern Biotechnology**"
+      "en": "**Traditional vs. Modern Biotechnology**",
+      "ta": "**பாரம்பரிய – நவீன உயிரித் தொழில்நுட்பவியல்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "table",
      "header": [
       {
-       "en": "Aspect"
+       "en": "Aspect",
+       "ta": "அம்சம்",
+       "ta_status": "draft"
       },
       {
-       "en": "Traditional Biotechnology"
+       "en": "Traditional Biotechnology",
+       "ta": "பாரம்பரிய உயிரித் தொழில்நுட்பவியல்",
+       "ta_status": "draft"
       },
       {
-       "en": "Modern Biotechnology"
+       "en": "Modern Biotechnology",
+       "ta": "நவீன உயிரித் தொழில்நுட்பவியல்",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Basis**"
+        "en": "**Basis**",
+        "ta": "**அடிப்படை**",
+        "ta_status": "draft"
        },
        {
-        "en": "Natural fermentation, selective breeding"
+        "en": "Natural fermentation, selective breeding",
+        "ta": "இயற்கை நொதித்தல், தேர்ந்த இனப்பெருக்கம்",
+        "ta_status": "draft"
        },
        {
-        "en": "Recombinant DNA, genetic engineering, genomics"
+        "en": "Recombinant DNA, genetic engineering, genomics",
+        "ta": "மறுகூட்டிணைவு DNA, மரபணுப் பொறியியல், ஜீனோமிக்ஸ்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Precision**"
+        "en": "**Precision**",
+        "ta": "**துல்லியம்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Low — random, empirical"
+        "en": "Low — random, empirical",
+        "ta": "குறைவு — தற்செயலானது, அனுபவ அடிப்படையிலானது",
+        "ta_status": "draft"
        },
        {
-        "en": "High — targeted gene manipulation"
+        "en": "High — targeted gene manipulation",
+        "ta": "அதிகம் — இலக்கு வைத்த மரபணுக் கையாளுதல்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Tools**"
+        "en": "**Tools**",
+        "ta": "**கருவிகள்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Microorganisms, natural selection"
+        "en": "Microorganisms, natural selection",
+        "ta": "நுண்ணுயிரிகள், இயற்கைத் தேர்வு",
+        "ta_status": "draft"
        },
        {
-        "en": "PCR, CRISPR, restriction enzymes, bioinformatics"
+        "en": "PCR, CRISPR, restriction enzymes, bioinformatics",
+        "ta": "PCR, CRISPR, ரெஸ்ட்ரிக்ஷன் நொதிகள், உயிரித் தகவலியல்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Time period**"
+        "en": "**Time period**",
+        "ta": "**காலம்**",
+        "ta_status": "draft"
        },
        {
-        "en": ">6,000 years ago (bread, wine, cheese)"
+        "en": ">6,000 years ago (bread, wine, cheese)",
+        "ta": ">6,000 ஆண்டுகளுக்கு முன் (ரொட்டி, ஒயின், பாலாடைக்கட்டி)",
+        "ta_status": "draft"
        },
        {
-        "en": "Post-1953 (DNA discovery); accelerated post-1973 (rDNA)"
+        "en": "Post-1953 (DNA discovery); accelerated post-1973 (rDNA)",
+        "ta": "1953-க்குப் பின் (DNA கண்டுபிடிப்பு); 1973-க்குப் பின் (rDNA) வேகமடைந்தது",
+        "ta_status": "bracketed"
        }
       ],
       [
        {
-        "en": "**Products**"
+        "en": "**Products**",
+        "ta": "**பொருட்கள்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Beer, bread, cheese, yoghurt, compost"
+        "en": "Beer, bread, cheese, yoghurt, compost",
+        "ta": "பீர், ரொட்டி, பாலாடைக்கட்டி, தயிர், உரம்",
+        "ta_status": "draft"
        },
        {
-        "en": "Human insulin, GM crops, monoclonal antibodies, gene therapy"
+        "en": "Human insulin, GM crops, monoclonal antibodies, gene therapy",
+        "ta": "மனித இன்சுலின், GM பயிர்கள், ஒற்றைப்படி எதிர்ப்பொருள்கள், மரபணு சிகிச்சை",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Safety concern**"
+        "en": "**Safety concern**",
+        "ta": "**பாதுகாப்புக் கவலை**",
+        "ta_status": "draft"
        },
        {
-        "en": "Minimal — proven safe over centuries"
+        "en": "Minimal — proven safe over centuries",
+        "ta": "மிகக் குறைவு — நூற்றாண்டுகளாகப் பாதுகாப்பானதென நிரூபிக்கப்பட்டது",
+        "ta_status": "draft"
        },
        {
-        "en": "Bioethics, biosafety regulations, GMO controversies"
+        "en": "Bioethics, biosafety regulations, GMO controversies",
+        "ta": "உயிரிநெறிமுறை, உயிரிப் பாதுகாப்பு விதிமுறைகள், GMO சர்ச்சைகள்",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -320,74 +442,50 @@
   {
    "id": "s04",
    "title": {
-    "en": "Scope of Biotechnology"
+    "en": "Scope of Biotechnology",
+    "ta": "உயிரித் தொழில்நுட்பவியலின் வரம்பு",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Biotechnology spans multiple disciplines — identified by colour codes — each addressing a different sector of human need and natural environment."
+      "en": "Biotechnology spans multiple disciplines — identified by colour codes — each addressing a different sector of human need and natural environment.",
+      "ta": "உயிரித் தொழில்நுட்பவியல் பல துறைகளில் பரவியுள்ளது — வண்ணக் குறியீடுகளால் அடையாளம் காணப்படுபவை — ஒவ்வொன்றும் மனிதத் தேவையின், இயற்கைச் சூழலின் வெவ்வேறு துறையைக் கையாள்கிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**The Colour Code System of Biotechnology**"
+      "en": "**The Colour Code System of Biotechnology**",
+      "ta": "**உயிரித் தொழில்நுட்பவியலின் வண்ணக் குறியீட்டு முறை**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**🎨 Why Colour Codes?**\nDifferent branches of biotechnology are internationally categorised by colour codes to indicate their area of application — this system was proposed by the **European Association of Bioindustries (EuropaBio)**."
+      "en": "**🎨 Why Colour Codes?**\nDifferent branches of biotechnology are internationally categorised by colour codes to indicate their area of application — this system was proposed by the **European Association of Bioindustries (EuropaBio)**.",
+      "ta": "**🎨 ஏன் வண்ணக் குறியீடுகள்?**\nஉயிரித் தொழில்நுட்பவியலின் வெவ்வேறு கிளைகள் தம் பயன்பாட்டுத் துறையைக் குறிக்க வண்ணக் குறியீடுகளால் பன்னாட்டளவில் வகைப்படுத்தப்படுகின்றன — இம்முறையை **ஐரோப்பிய உயிரித் தொழிற்துறைக் கூட்டமைப்பு (EuropaBio)** முன்மொழிந்தது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "🔴 Red Biotech"
+      "en": "🔴 Red Biotech",
+      "ta": "🔴 சிவப்பு உயிரித் தொழில்நுட்பவியல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Medical Biotechnology**"
-     }
-    },
-    {
-     "type": "bullets",
-     "ordered": false,
-     "items": [
-      {
-       "en": "Production of vaccines and antibiotics"
-      },
-      {
-       "en": "Gene therapy for inherited diseases"
-      },
-      {
-       "en": "Monoclonal antibodies for cancer"
-      },
-      {
-       "en": "Diagnostic kits (ELISA, PCR)"
-      },
-      {
-       "en": "Stem cell therapy & tissue engineering"
-      },
-      {
-       "en": "Example: _Human insulin via recombinant E. coli_"
-      }
-     ]
-    },
-    {
-     "type": "p",
-     "text": {
-      "en": "🟢 Green Biotech"
-     }
-    },
-    {
-     "type": "p",
-     "text": {
-      "en": "**Agricultural Biotechnology**"
+      "en": "**Medical Biotechnology**",
+      "ta": "**மருத்துவ உயிரித் தொழில்நுட்பவியல்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -395,35 +493,51 @@
      "ordered": false,
      "items": [
       {
-       "en": "Genetically Modified (GM) crops"
+       "en": "Production of vaccines and antibiotics",
+       "ta": "தடுப்பூசிகள், ஆன்டிபயாடிக்குகள் உற்பத்தி",
+       "ta_status": "draft"
       },
       {
-       "en": "Disease-resistant and pest-resistant plants"
+       "en": "Gene therapy for inherited diseases",
+       "ta": "மரபுவழி நோய்களுக்கு மரபணு சிகிச்சை",
+       "ta_status": "draft"
       },
       {
-       "en": "Biofertilisers and biopesticides"
+       "en": "Monoclonal antibodies for cancer",
+       "ta": "புற்றுநோய்க்கு ஒற்றைப்படி எதிர்ப்பொருள்கள்",
+       "ta_status": "draft"
       },
       {
-       "en": "Tissue culture for rapid plant propagation"
+       "en": "Diagnostic kits (ELISA, PCR)",
+       "ta": "நோயறிதல் கருவிகள் (ELISA, PCR)",
+       "ta_status": "bracketed"
       },
       {
-       "en": "Transgenic animals for agricultural improvement"
+       "en": "Stem cell therapy & tissue engineering",
+       "ta": "ஸ்டெம் செல் சிகிச்சையும் திசுப் பொறியியலும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Example: _Bt cotton — pest resistance_"
+       "en": "Example: _Human insulin via recombinant E. coli_",
+       "ta": "எடுத்துக்காட்டு: _மறுகூட்டிணைவு E. coli மூலம் மனித இன்சுலின்_",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "⚪ White Biotech"
+      "en": "🟢 Green Biotech",
+      "ta": "🟢 பசுமை உயிரித் தொழில்நுட்பவியல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Industrial Biotechnology**"
+      "en": "**Agricultural Biotechnology**",
+      "ta": "**வேளாண் உயிரித் தொழில்நுட்பவியல்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -431,35 +545,51 @@
      "ordered": false,
      "items": [
       {
-       "en": "Enzyme production for industry"
+       "en": "Genetically Modified (GM) crops",
+       "ta": "மரபணு மாற்றப்பட்ட (GM) பயிர்கள்",
+       "ta_status": "bracketed"
       },
       {
-       "en": "Bioethanol and biofuels"
+       "en": "Disease-resistant and pest-resistant plants",
+       "ta": "நோய்-எதிர்ப்பு, பூச்சி-எதிர்ப்புத் தாவரங்கள்",
+       "ta_status": "draft"
       },
       {
-       "en": "Bioplastics and bio-based chemicals"
+       "en": "Biofertilisers and biopesticides",
+       "ta": "உயிர் உரங்களும் உயிரிப் பூச்சிக்கொல்லிகளும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Microbial fermentation for food processing"
+       "en": "Tissue culture for rapid plant propagation",
+       "ta": "விரைவான தாவரப் பெருக்கத்துக்குத் திசு வளர்ப்பு",
+       "ta_status": "draft"
       },
       {
-       "en": "Textile, paper, and leather industries"
+       "en": "Transgenic animals for agricultural improvement",
+       "ta": "வேளாண் மேம்பாட்டுக்கு மாற்றுயிர் விலங்குகள்",
+       "ta_status": "draft"
       },
       {
-       "en": "Example: _Bioethanol from sugarcane_"
+       "en": "Example: _Bt cotton — pest resistance_",
+       "ta": "எடுத்துக்காட்டு: _Bt பருத்தி — பூச்சி எதிர்ப்பு_",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "🔵 Blue Biotech"
+      "en": "⚪ White Biotech",
+      "ta": "⚪ வெள்ளை உயிரித் தொழில்நுட்பவியல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Marine / Aquatic Biotechnology**"
+      "en": "**Industrial Biotechnology**",
+      "ta": "**தொழில்துறை உயிரித் தொழில்நுட்பவியல்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -467,32 +597,51 @@
      "ordered": false,
      "items": [
       {
-       "en": "Aquaculture improvement via genetic tools"
+       "en": "Enzyme production for industry",
+       "ta": "தொழில்துறைக்கான நொதி உற்பத்தி",
+       "ta_status": "draft"
       },
       {
-       "en": "Marine organisms as sources of bioactive compounds"
+       "en": "Bioethanol and biofuels",
+       "ta": "உயிரி எத்தனாலும் உயிரி எரிபொருள்களும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Anti-cancer compounds from sea organisms"
+       "en": "Bioplastics and bio-based chemicals",
+       "ta": "உயிரிப் பிளாஸ்டிக்குகளும் உயிரி அடிப்படை வேதிப்பொருள்களும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Bioremediation of marine pollutants"
+       "en": "Microbial fermentation for food processing",
+       "ta": "உணவுச் செயலாக்கத்துக்கு நுண்ணுயிர் நொதித்தல்",
+       "ta_status": "draft"
       },
       {
-       "en": "Example: _Ziconotide (painkiller from cone snail)_"
+       "en": "Textile, paper, and leather industries",
+       "ta": "துணி, காகிதம், தோல் தொழில்கள்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Example: _Bioethanol from sugarcane_",
+       "ta": "எடுத்துக்காட்டு: _கரும்பிலிருந்து உயிரி எத்தனால்_",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "🟡 Yellow Biotech"
+      "en": "🔵 Blue Biotech",
+      "ta": "🔵 நீல உயிரித் தொழில்நுட்பவியல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Food Biotechnology**"
+      "en": "**Marine / Aquatic Biotechnology**",
+      "ta": "**கடல் / நீர்வாழ் உயிரித் தொழில்நுட்பவியல்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -500,32 +649,46 @@
      "ordered": false,
      "items": [
       {
-       "en": "Fermentation (bread, cheese, beer, yoghurt)"
+       "en": "Aquaculture improvement via genetic tools",
+       "ta": "மரபணுக் கருவிகள் மூலம் மீன்வளர்ப்பு மேம்பாடு",
+       "ta_status": "draft"
       },
       {
-       "en": "Nutritional enhancement (Golden Rice)"
+       "en": "Marine organisms as sources of bioactive compounds",
+       "ta": "உயிர்ச்செயல் சேர்மங்களின் மூலங்களாகக் கடல் உயிரினங்கள்",
+       "ta_status": "draft"
       },
       {
-       "en": "Food safety testing & diagnostics"
+       "en": "Anti-cancer compounds from sea organisms",
+       "ta": "கடல் உயிரினங்களிலிருந்து புற்றுநோய் எதிர்ப்புச் சேர்மங்கள்",
+       "ta_status": "draft"
       },
       {
-       "en": "Enzyme-based food processing"
+       "en": "Bioremediation of marine pollutants",
+       "ta": "கடல் மாசுபடுத்திகளின் உயிரிவழிச் சீரமைப்பு",
+       "ta_status": "draft"
       },
       {
-       "en": "Example: _Chymosin (rennet) for cheese_"
+       "en": "Example: _Ziconotide (painkiller from cone snail)_",
+       "ta": "எடுத்துக்காட்டு: _ஜிக்கோனோடைட் (கூம்பு நத்தையிலிருந்து வலிநிவாரணி)_",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "⚫ Grey Biotech"
+      "en": "🟡 Yellow Biotech",
+      "ta": "🟡 மஞ்சள் உயிரித் தொழில்நுட்பவியல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Environmental Biotechnology**"
+      "en": "**Food Biotechnology**",
+      "ta": "**உணவு உயிரித் தொழில்நுட்பவியல்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -533,75 +696,150 @@
      "ordered": false,
      "items": [
       {
-       "en": "Bioremediation of soil and water"
+       "en": "Fermentation (bread, cheese, beer, yoghurt)",
+       "ta": "நொதித்தல் (ரொட்டி, பாலாடைக்கட்டி, பீர், தயிர்)",
+       "ta_status": "draft"
       },
       {
-       "en": "Biological wastewater treatment"
+       "en": "Nutritional enhancement (Golden Rice)",
+       "ta": "ஊட்டச்சத்து மேம்பாடு (கோல்டன் ரைஸ்)",
+       "ta_status": "draft"
       },
       {
-       "en": "Biodegradation of toxic pollutants"
+       "en": "Food safety testing & diagnostics",
+       "ta": "உணவுப் பாதுகாப்புச் சோதனையும் நோயறிதலும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Biogas / biomethane production from waste"
+       "en": "Enzyme-based food processing",
+       "ta": "நொதி அடிப்படை உணவுச் செயலாக்கம்",
+       "ta_status": "draft"
       },
       {
-       "en": "Example: _Pseudomonas — oil spill clean-up_"
+       "en": "Example: _Chymosin (rennet) for cheese_",
+       "ta": "எடுத்துக்காட்டு: _பாலாடைக்கட்டிக்கு கைமோசின் (ரென்னெட்)_",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Scope at a Glance — Hub Diagram**"
+      "en": "⚫ Grey Biotech",
+      "ta": "⚫ சாம்பல் உயிரித் தொழில்நுட்பவியல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "🏥 Medical (Red Biotech)"
+      "en": "**Environmental Biotechnology**",
+      "ta": "**சூழல் உயிரித் தொழில்நுட்பவியல்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Bioremediation of soil and water",
+       "ta": "மண், நீரின் உயிரிவழிச் சீரமைப்பு",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Biological wastewater treatment",
+       "ta": "உயிரியல் கழிவுநீர்ச் சுத்திகரிப்பு",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Biodegradation of toxic pollutants",
+       "ta": "நச்சு மாசுபடுத்திகளின் உயிரிச் சிதைவு",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Biogas / biomethane production from waste",
+       "ta": "கழிவிலிருந்து உயிரிவளி / உயிரி மீத்தேன் உற்பத்தி",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Example: _Pseudomonas — oil spill clean-up_",
+       "ta": "எடுத்துக்காட்டு: _சூடோமோனாஸ் — எண்ணெய்க் கசிவு நீக்கம்_",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Scope at a Glance — Hub Diagram**",
+      "ta": "**ஒரே பார்வையில் வரம்பு — மையப் படம்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "🌾 Agricultural (Green Biotech)"
+      "en": "🏥 Medical (Red Biotech)",
+      "ta": "🏥 மருத்துவம் (சிவப்பு உயிரித் தொழில்நுட்பவியல்)",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "🏭 Industrial (White Biotech)"
+      "en": "🌾 Agricultural (Green Biotech)",
+      "ta": "🌾 வேளாண்மை (பசுமை உயிரித் தொழில்நுட்பவியல்)",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "BIOTECHCentral Hub"
+      "en": "🏭 Industrial (White Biotech)",
+      "ta": "🏭 தொழில்துறை (வெள்ளை உயிரித் தொழில்நுட்பவியல்)",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "🌊 Marine (Blue Biotech)"
+      "en": "BIOTECHCentral Hub",
+      "ta": "உயிரித் தொழில்நுட்பவியல்மையம்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "🍎 Food (Yellow Biotech)"
+      "en": "🌊 Marine (Blue Biotech)",
+      "ta": "🌊 கடல் (நீல உயிரித் தொழில்நுட்பவியல்)",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "🌍 Environmental (Grey Biotech)"
+      "en": "🍎 Food (Yellow Biotech)",
+      "ta": "🍎 உணவு (மஞ்சள் உயிரித் தொழில்நுட்பவியல்)",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🌍 Environmental (Grey Biotech)",
+      "ta": "🌍 சூழல் (சாம்பல் உயிரித் தொழில்நுட்பவியல்)",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**📋 Additional Emerging Areas**\n• **Bioinformatics:** Computational analysis of biological data (genome sequencing, protein modelling)\n• **Nanobiotechnology:** Integration of nanotechnology with biology for drug delivery, diagnostics\n• **Pharmacogenomics:** Personalised medicine based on individual genetic profiles\n• **Synthetic Biology:** Designing artificial biological systems from scratch for industrial applications"
+      "en": "**📋 Additional Emerging Areas**\n• **Bioinformatics:** Computational analysis of biological data (genome sequencing, protein modelling)\n• **Nanobiotechnology:** Integration of nanotechnology with biology for drug delivery, diagnostics\n• **Pharmacogenomics:** Personalised medicine based on individual genetic profiles\n• **Synthetic Biology:** Designing artificial biological systems from scratch for industrial applications",
+      "ta": "**📋 கூடுதல் வளர்ந்துவரும் துறைகள்**\n• **உயிரித் தகவலியல்:** உயிரியல் தரவின் கணினிப் பகுப்பாய்வு (மரபணுத்தொகை வரிசைப்படுத்தல், புரத மாதிரியமைப்பு)\n• **நானோ உயிரித் தொழில்நுட்பவியல்:** மருந்துச் செலுத்துதல், நோயறிதலுக்கு நானோ தொழில்நுட்பத்தையும் உயிரியலையும் இணைத்தல்\n• **மருந்து மரபணுவியல்:** தனிநபரின் மரபணுச் சுயவிவரத்தின் அடிப்படையில் தனிப்பயன் மருத்துவம்\n• **செயற்கை உயிரியல்:** தொழில்துறைப் பயன்பாடுகளுக்குச் செயற்கை உயிரியல் அமைப்புகளை முதலிலிருந்து வடிவமைத்தல்",
+      "ta_status": "draft"
      }
     }
    ],
@@ -610,119 +848,157 @@
   {
    "id": "s05",
    "title": {
-    "en": "Importance of Biotechnology"
+    "en": "Importance of Biotechnology",
+    "ta": "உயிரித் தொழில்நுட்பவியலின் முக்கியத்துவம்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Biotechnology directly addresses the most critical challenges faced by humanity — disease, hunger, pollution, and energy — through biological innovation."
+      "en": "Biotechnology directly addresses the most critical challenges faced by humanity — disease, hunger, pollution, and energy — through biological innovation.",
+      "ta": "நோய், பசி, மாசு, ஆற்றல் ஆகிய மனிதகுலம் எதிர்கொள்ளும் மிக முக்கிய சவால்களை உயிரியல் புத்தாக்கம் மூலம் உயிரித் தொழில்நுட்பவியல் நேரடியாகக் கையாள்கிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**1. Role in Healthcare**"
+      "en": "**1. Role in Healthcare**",
+      "ta": "**1. சுகாதாரத்தில் பங்கு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**🏥 Healthcare & Medicine**\n• **Vaccine production:** Hepatitis B, HPV, COVID-19 (mRNA vaccines) produced via recombinant technology — safer and scalable\n• **Therapeutic proteins:** Human insulin, growth hormone, erythropoietin, clotting factors — expressed in bacteria/yeast/CHO cells\n• **Monoclonal antibodies:** Trastuzumab (Herceptin) for cancer; Adalimumab for autoimmune diseases\n• **Gene therapy:** Correcting defective genes — SCID, haemophilia, Duchenne muscular dystrophy\n• **Diagnostics:** PCR-based tests (COVID-19, HIV), ELISA (pregnancy, hormones), DNA fingerprinting (forensics)\n• **Stem cell therapy:** Regenerating tissues in Parkinson's, diabetes, spinal injury"
+      "en": "**🏥 Healthcare & Medicine**\n• **Vaccine production:** Hepatitis B, HPV, COVID-19 (mRNA vaccines) produced via recombinant technology — safer and scalable\n• **Therapeutic proteins:** Human insulin, growth hormone, erythropoietin, clotting factors — expressed in bacteria/yeast/CHO cells\n• **Monoclonal antibodies:** Trastuzumab (Herceptin) for cancer; Adalimumab for autoimmune diseases\n• **Gene therapy:** Correcting defective genes — SCID, haemophilia, Duchenne muscular dystrophy\n• **Diagnostics:** PCR-based tests (COVID-19, HIV), ELISA (pregnancy, hormones), DNA fingerprinting (forensics)\n• **Stem cell therapy:** Regenerating tissues in Parkinson's, diabetes, spinal injury",
+      "ta": "**🏥 சுகாதாரமும் மருத்துவமும்**\n• **தடுப்பூசி உற்பத்தி:** ஹெபடைடிஸ் B, HPV, COVID-19 (mRNA தடுப்பூசிகள்) மறுகூட்டிணைவுத் தொழில்நுட்பத்தால் உற்பத்தி — பாதுகாப்பானது, பெருமளவில் விரிவாக்கத்தக்கது\n• **சிகிச்சைப் புரதங்கள்:** மனித இன்சுலின், வளர்ச்சி ஹார்மோன், எரித்ரோபொயட்டின், இரத்த உறைவுக் காரணிகள் — பாக்டீரியா/ஈஸ்ட்/CHO செல்களில் வெளிப்படுத்தப்படுகின்றன\n• **ஒற்றைப்படி எதிர்ப்பொருள்கள்:** புற்றுநோய்க்கு டிராஸ்டுசுமாப் (ஹெர்செப்டின்); தன்னெதிர்ப்பு நோய்களுக்கு அடாலிமுமாப்\n• **மரபணு சிகிச்சை:** குறைபாடுள்ள மரபணுக்களைச் சரிசெய்தல் — SCID, ஹீமோஃபிலியா, டியூஷேன் தசை நலிவு\n• **நோயறிதல்:** PCR அடிப்படைச் சோதனைகள் (COVID-19, HIV), ELISA (கர்ப்பம், ஹார்மோன்கள்), DNA கைரேகைப் பதிவு (தடயவியல்)\n• **ஸ்டெம் செல் சிகிச்சை:** பார்க்கின்சன், நீரிழிவு, தண்டுவடக் காயத்தில் திசுக்களை மீளுருவாக்குதல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**2. Role in Agriculture**"
+      "en": "**2. Role in Agriculture**",
+      "ta": "**2. வேளாண்மையில் பங்கு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**🌾 Agriculture & Food Security**\n• **GM crops with high yield:** Golden Rice, Bt cotton, Roundup-Ready soybean — feed more people on less land\n• **Pest & disease resistance:** Bt toxin gene (from _Bacillus thuringiensis_) in cotton, maize, brinjal\n• **Drought and salinity tolerance:** Engineered crops survive harsh climates — crucial for climate change adaptation\n• **Biofertilisers:** _Rhizobium_, _Azospirillum_ fix atmospheric N₂ — reduce chemical fertiliser use\n• **Tissue culture:** Rapid multiplication of disease-free planting material (banana, sugarcane, orchid)\n• **Animal biotechnology:** Transgenic cows producing human lactoferrin in milk; disease-resistant breeds"
+      "en": "**🌾 Agriculture & Food Security**\n• **GM crops with high yield:** Golden Rice, Bt cotton, Roundup-Ready soybean — feed more people on less land\n• **Pest & disease resistance:** Bt toxin gene (from _Bacillus thuringiensis_) in cotton, maize, brinjal\n• **Drought and salinity tolerance:** Engineered crops survive harsh climates — crucial for climate change adaptation\n• **Biofertilisers:** _Rhizobium_, _Azospirillum_ fix atmospheric N₂ — reduce chemical fertiliser use\n• **Tissue culture:** Rapid multiplication of disease-free planting material (banana, sugarcane, orchid)\n• **Animal biotechnology:** Transgenic cows producing human lactoferrin in milk; disease-resistant breeds",
+      "ta": "**🌾 வேளாண்மையும் உணவுப் பாதுகாப்பும்**\n• **அதிக விளைச்சல் GM பயிர்கள்:** கோல்டன் ரைஸ், Bt பருத்தி, ரவுண்டப்-ரெடி சோயா — குறைந்த நிலத்தில் அதிகமானோருக்கு உணவளிக்கின்றன\n• **பூச்சி, நோய் எதிர்ப்பு:** பருத்தி, மக்காச்சோளம், கத்தரியில் Bt நச்சு மரபணு (_Bacillus thuringiensis_-இலிருந்து)\n• **வறட்சி, உவர்ப்புத் தாங்குதிறன்:** பொறியியலால் மாற்றப்பட்ட பயிர்கள் கடுமையான காலநிலையிலும் வாழ்கின்றன — காலநிலை மாற்றத் தகவமைப்புக்கு முக்கியம்\n• **உயிர் உரங்கள்:** _Rhizobium_, _Azospirillum_ வளிமண்டல N₂-ஐ நிலைநிறுத்தி வேதி உரப் பயன்பாட்டைக் குறைக்கின்றன\n• **திசு வளர்ப்பு:** நோயற்ற நடவுப் பொருளை (வாழை, கரும்பு, ஆர்க்கிட்) விரைவாகப் பெருக்குதல்\n• **விலங்கு உயிரித் தொழில்நுட்பவியல்:** பாலில் மனித லாக்டோஃபெரின் உற்பத்தி செய்யும் மாற்றுயிர்ப் பசுக்கள்; நோய்-எதிர்ப்பு இனங்கள்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**3. Role in Industry**"
+      "en": "**3. Role in Industry**",
+      "ta": "**3. தொழில்துறையில் பங்கு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**🏭 Industrial Applications**\n• **Fermentation industry:** Beer, wine, cheese, vinegar, antibiotics, vitamins produced by microbial fermentation\n• **Industrial enzymes:** Amylase (starch), protease (detergent), lipase (leather), cellulase (biofuel) — worth >$6 billion/year globally\n• **Biofuels:** Bioethanol from sugarcane/corn (_S. cerevisiae_); biodiesel from microalgae; biogas from organic waste\n• **Bioplastics:** Polyhydroxyalkanoates (PHA) from bacteria — biodegradable alternative to petroplastics\n• **Textile industry:** Biostoning of denim (cellulase); biofinishing of cotton (protease)\n• **Paper & Pulp:** Enzymatic bleaching replaces toxic chlorine — eco-friendly bioprocessing"
+      "en": "**🏭 Industrial Applications**\n• **Fermentation industry:** Beer, wine, cheese, vinegar, antibiotics, vitamins produced by microbial fermentation\n• **Industrial enzymes:** Amylase (starch), protease (detergent), lipase (leather), cellulase (biofuel) — worth >$6 billion/year globally\n• **Biofuels:** Bioethanol from sugarcane/corn (_S. cerevisiae_); biodiesel from microalgae; biogas from organic waste\n• **Bioplastics:** Polyhydroxyalkanoates (PHA) from bacteria — biodegradable alternative to petroplastics\n• **Textile industry:** Biostoning of denim (cellulase); biofinishing of cotton (protease)\n• **Paper & Pulp:** Enzymatic bleaching replaces toxic chlorine — eco-friendly bioprocessing",
+      "ta": "**🏭 தொழில்துறைப் பயன்பாடுகள்**\n• **நொதித்தல் தொழில்:** பீர், ஒயின், பாலாடைக்கட்டி, வினிகர், ஆன்டிபயாடிக்குகள், வைட்டமின்கள் நுண்ணுயிர் நொதித்தலால் உற்பத்தி\n• **தொழில்துறை நொதிகள்:** அமைலேஸ் (ஸ்டார்ச்), புரோட்டியேஸ் (சலவைத்தூள்), லைப்பேஸ் (தோல்), செல்லுலேஸ் (உயிரி எரிபொருள்) — உலகளவில் ஆண்டுக்கு >$6 பில்லியன் மதிப்பு\n• **உயிரி எரிபொருள்கள்:** கரும்பு/மக்காச்சோளத்திலிருந்து உயிரி எத்தனால் (_S. cerevisiae_); நுண்பாசியிலிருந்து உயிரி டீசல்; கரிமக் கழிவிலிருந்து உயிரிவளி\n• **உயிரிப் பிளாஸ்டிக்குகள்:** பாக்டீரியாவிலிருந்து பாலிஹைட்ராக்சிஅல்கனோயேட்டுகள் (PHA) — பெட்ரோப் பிளாஸ்டிக்குகளுக்கு மக்கும் மாற்று\n• **துணித் தொழில்:** டெனிமின் உயிரிக் கல்லாக்கம் (செல்லுலேஸ்); பருத்தியின் உயிரி முடிப்பு (புரோட்டியேஸ்)\n• **காகிதமும் கூழும்:** நச்சு குளோரினுக்குப் பதிலாக நொதி வெளுப்பு — சூழலுக்கு உகந்த உயிரிச் செயலாக்கம்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**4. Role in Environment**"
+      "en": "**4. Role in Environment**",
+      "ta": "**4. சூழலில் பங்கு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**🌍 Environmental Biotechnology**\n• **Bioremediation:** Microorganisms (_Pseudomonas putida_) degrade petroleum hydrocarbons, pesticides, heavy metals in contaminated soil/water\n• **Biological wastewater treatment:** Activated sludge process; anaerobic digesters reduce BOD/COD by >90%\n• **Biogas production:** Methanogenic bacteria convert organic waste to CH₄ — renewable energy + waste management\n• **Biomining:** Acidothermophilic bacteria (_Thiobacillus_) extract metals (copper, gold) from low-grade ores\n• **Carbon sequestration:** Algal biotechnology captures atmospheric CO₂ while producing biomass/biofuels\n• **Biopesticides:** _Bacillus thuringiensis_ (Bt) as natural pesticide — biodegradable, no soil contamination"
+      "en": "**🌍 Environmental Biotechnology**\n• **Bioremediation:** Microorganisms (_Pseudomonas putida_) degrade petroleum hydrocarbons, pesticides, heavy metals in contaminated soil/water\n• **Biological wastewater treatment:** Activated sludge process; anaerobic digesters reduce BOD/COD by >90%\n• **Biogas production:** Methanogenic bacteria convert organic waste to CH₄ — renewable energy + waste management\n• **Biomining:** Acidothermophilic bacteria (_Thiobacillus_) extract metals (copper, gold) from low-grade ores\n• **Carbon sequestration:** Algal biotechnology captures atmospheric CO₂ while producing biomass/biofuels\n• **Biopesticides:** _Bacillus thuringiensis_ (Bt) as natural pesticide — biodegradable, no soil contamination",
+      "ta": "**🌍 சூழல் உயிரித் தொழில்நுட்பவியல்**\n• **உயிரிவழிச் சீரமைப்பு:** நுண்ணுயிரிகள் (_Pseudomonas putida_) மாசடைந்த மண்/நீரில் பெட்ரோலிய ஹைட்ரோகார்பன்கள், பூச்சிக்கொல்லிகள், கன உலோகங்களைச் சிதைக்கின்றன\n• **உயிரியல் கழிவுநீர்ச் சுத்திகரிப்பு:** செயல்படு கசடு முறை; காற்றின்றிச் செரிக்கும் கலன்கள் BOD/COD-ஐ >90% குறைக்கின்றன\n• **உயிரிவளி உற்பத்தி:** மீத்தேன் உருவாக்கும் பாக்டீரியா கரிமக் கழிவை CH₄-ஆக மாற்றுகிறது — புதுப்பிக்கத்தக்க ஆற்றலும் கழிவு மேலாண்மையும்\n• **உயிரிச் சுரங்கவியல்:** அமில-வெப்ப விரும்பும் பாக்டீரியா (_Thiobacillus_) தரம் குறைந்த தாதுக்களிலிருந்து உலோகங்களை (செம்பு, தங்கம்) எடுக்கிறது\n• **கார்பன் பிடிப்பு:** பாசி உயிரித் தொழில்நுட்பவியல் வளிமண்டல CO₂-ஐப் பிடித்து உயிரித்திரள்/உயிரி எரிபொருள்களை உருவாக்குகிறது\n• **உயிரிப் பூச்சிக்கொல்லிகள்:** _Bacillus thuringiensis_ (Bt) இயற்கைப் பூச்சிக்கொல்லி — மக்கும், மண் மாசு இல்லை",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**5. Societal & Economic Importance**"
+      "en": "**5. Societal & Economic Importance**",
+      "ta": "**5. சமூக, பொருளாதார முக்கியத்துவம்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Economic Growth**"
+      "en": "**Economic Growth**",
+      "ta": "**பொருளாதார வளர்ச்சி**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Global biotechnology market valued at **>$1 trillion (2024)**. India's biotech industry >₹1 lakh crore with >3,000 biotech companies."
+      "en": "Global biotechnology market valued at **>$1 trillion (2024)**. India's biotech industry >₹1 lakh crore with >3,000 biotech companies.",
+      "ta": "உலக உயிரித் தொழில்நுட்பச் சந்தை **>$1 டிரில்லியன் (2024)** மதிப்புடையது. இந்தியாவின் உயிரித் தொழில்நுட்பத் துறை >₹1 இலட்சம் கோடி; >3,000 உயிரித் தொழில்நுட்ப நிறுவனங்கள்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Employment**"
+      "en": "**Employment**",
+      "ta": "**வேலைவாய்ப்பு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Creates millions of direct and indirect jobs — research, manufacturing, regulatory, clinical, bioinformatics sectors."
+      "en": "Creates millions of direct and indirect jobs — research, manufacturing, regulatory, clinical, bioinformatics sectors.",
+      "ta": "ஆராய்ச்சி, உற்பத்தி, ஒழுங்குமுறை, மருத்துவ, உயிரித் தகவலியல் துறைகளில் கோடிக்கணக்கான நேரடி, மறைமுக வேலைவாய்ப்புகளை உருவாக்குகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Sustainability**"
+      "en": "**Sustainability**",
+      "ta": "**நிலைத்தன்மை**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Reduces reliance on fossil fuels; promotes **circular economy**; reduces chemical inputs in agriculture and industry."
+      "en": "Reduces reliance on fossil fuels; promotes **circular economy**; reduces chemical inputs in agriculture and industry.",
+      "ta": "புதைபடிவ எரிபொருள் சார்பைக் குறைக்கிறது; **வட்டப் பொருளாதாரத்தை** ஊக்குவிக்கிறது; வேளாண்மை, தொழிலில் வேதி உள்ளீடுகளைக் குறைக்கிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Food Security**"
+      "en": "**Food Security**",
+      "ta": "**உணவுப் பாதுகாப்பு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "GM crops and tissue culture increase food production for a growing global population (projected ~10 billion by 2050)."
+      "en": "GM crops and tissue culture increase food production for a growing global population (projected ~10 billion by 2050).",
+      "ta": "GM பயிர்களும் திசு வளர்ப்பும் வளரும் உலக மக்கள்தொகைக்கு (2050-க்குள் ~10 பில்லியன் என எதிர்பார்ப்பு) உணவு உற்பத்தியைப் பெருக்குகின்றன.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -731,227 +1007,333 @@
   {
    "id": "s06",
    "title": {
-    "en": "Applications of Biotechnology"
+    "en": "Applications of Biotechnology",
+    "ta": "உயிரித் தொழில்நுட்பவியலின் பயன்பாடுகள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Real-world case studies that illustrate how biotechnology transforms scientific knowledge into practical solutions."
+      "en": "Real-world case studies that illustrate how biotechnology transforms scientific knowledge into practical solutions.",
+      "ta": "அறிவியல் அறிவை நடைமுறைத் தீர்வுகளாக உயிரித் தொழில்நுட்பவியல் எவ்வாறு மாற்றுகிறது என்பதை விளக்கும் நடைமுறை நிகழ்வாய்வுகள்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Case Study 1: Human Insulin Production**"
+      "en": "**Case Study 1: Human Insulin Production**",
+      "ta": "**நிகழ்வாய்வு 1: மனித இன்சுலின் உற்பத்தி**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**💉 How Recombinant Insulin Changed Diabetes Treatment**\n• **Before 1982:** Insulin extracted from pig/cattle pancreas — expensive, allergic reactions, limited supply\n• **1982:** Eli Lilly & Genentech launched Humulin — _first recombinant human insulin_ (rDNA technology)\n• **Process:** Human insulin gene (A & B chains) inserted into _E. coli_ plasmid → bacteria produce insulin protein → extraction + purification\n• **Result:** Unlimited, pure, human-identical insulin available affordably worldwide\n• **Significance:** Proved that rDNA technology can produce life-saving human proteins using bacteria"
+      "en": "**💉 How Recombinant Insulin Changed Diabetes Treatment**\n• **Before 1982:** Insulin extracted from pig/cattle pancreas — expensive, allergic reactions, limited supply\n• **1982:** Eli Lilly & Genentech launched Humulin — _first recombinant human insulin_ (rDNA technology)\n• **Process:** Human insulin gene (A & B chains) inserted into _E. coli_ plasmid → bacteria produce insulin protein → extraction + purification\n• **Result:** Unlimited, pure, human-identical insulin available affordably worldwide\n• **Significance:** Proved that rDNA technology can produce life-saving human proteins using bacteria",
+      "ta": "**💉 மறுகூட்டிணைவு இன்சுலின் நீரிழிவுச் சிகிச்சையை எவ்வாறு மாற்றியது**\n• **1982-க்கு முன்:** பன்றி/மாட்டுக் கணையத்திலிருந்து இன்சுலின் எடுக்கப்பட்டது — விலை உயர்ந்தது, ஒவ்வாமை, குறைந்த அளிப்பு\n• **1982:** எலி லில்லி & ஜெனென்டெக் ஹியூமுலின் அறிமுகம் — _முதல் மறுகூட்டிணைவு மனித இன்சுலின்_ (rDNA தொழில்நுட்பம்)\n• **செயல்முறை:** மனித இன்சுலின் மரபணு (A & B சங்கிலிகள்) _E. coli_ பிளாஸ்மிட்டில் செருகப்படுகிறது → பாக்டீரியா இன்சுலின் புரதத்தை உருவாக்குகிறது → பிரித்தெடுத்துத் தூய்மையாக்கல்\n• **விளைவு:** வரம்பற்ற, தூய, மனிதனுக்கு ஒத்த இன்சுலின் உலகெங்கும் மலிவாகக் கிடைக்கிறது\n• **முக்கியத்துவம்:** பாக்டீரியாவைப் பயன்படுத்தி உயிர் காக்கும் மனிதப் புரதங்களை rDNA தொழில்நுட்பத்தால் உருவாக்கலாம் என நிரூபித்தது",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Case Study 2: Bt Cotton — Pest-Resistant Crop**"
+      "en": "**Case Study 2: Bt Cotton — Pest-Resistant Crop**",
+      "ta": "**நிகழ்வாய்வு 2: Bt பருத்தி — பூச்சி-எதிர்ப்புப் பயிர்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**🌾 Genetically Modified Cotton Protecting Crops & Livelihoods**\n• **Problem:** Bollworm (_Helicoverpa armigera_) — the most damaging cotton pest; requires heavy pesticide use\n• **Solution:** _cry_ gene from _Bacillus thuringiensis_ inserted into cotton genome\n• **Mechanism:** _Cry_ proteins (Bt toxin) form pores in bollworm gut → paralysis and death — harmless to mammals\n• **In India:** Bt cotton approved in 2002; now covers >95% of Indian cotton acreage; pesticide use reduced by ~50%; yield increased by ~30–40%\n• **Concern:** Development of resistance in pests over time; need for refuge zones (20% non-Bt area)"
+      "en": "**🌾 Genetically Modified Cotton Protecting Crops & Livelihoods**\n• **Problem:** Bollworm (_Helicoverpa armigera_) — the most damaging cotton pest; requires heavy pesticide use\n• **Solution:** _cry_ gene from _Bacillus thuringiensis_ inserted into cotton genome\n• **Mechanism:** _Cry_ proteins (Bt toxin) form pores in bollworm gut → paralysis and death — harmless to mammals\n• **In India:** Bt cotton approved in 2002; now covers >95% of Indian cotton acreage; pesticide use reduced by ~50%; yield increased by ~30–40%\n• **Concern:** Development of resistance in pests over time; need for refuge zones (20% non-Bt area)",
+      "ta": "**🌾 பயிர்களையும் வாழ்வாதாரத்தையும் காக்கும் மரபணு மாற்றப்பட்ட பருத்தி**\n• **சிக்கல்:** காய்ப்புழு (_Helicoverpa armigera_) — பருத்தியின் மிகக் கடுமையான பூச்சி; அதிகப் பூச்சிக்கொல்லி தேவை\n• **தீர்வு:** _Bacillus thuringiensis_-இலிருந்து _cry_ மரபணு பருத்தி மரபணுத்தொகையில் செருகப்பட்டது\n• **இயங்குமுறை:** _Cry_ புரதங்கள் (Bt நச்சு) காய்ப்புழுவின் குடலில் துளைகளை உருவாக்கி → செயலிழப்பு, இறப்பு — பாலூட்டிகளுக்குத் தீங்கற்றவை\n• **இந்தியாவில்:** Bt பருத்தி 2002-ல் அனுமதிக்கப்பட்டது; இப்போது இந்தியப் பருத்தி நிலப்பரப்பில் >95%; பூச்சிக்கொல்லிப் பயன்பாடு ~50% குறைந்தது; விளைச்சல் ~30–40% அதிகரித்தது\n• **கவலை:** காலப்போக்கில் பூச்சிகளில் எதிர்ப்பு உருவாதல்; புகலிட மண்டலங்கள் (20% Bt அல்லாத பரப்பு) தேவை",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Case Study 3: Bioremediation of Oil Spills**"
+      "en": "**Case Study 3: Bioremediation of Oil Spills**",
+      "ta": "**நிகழ்வாய்வு 3: எண்ணெய்க் கசிவுகளின் உயிரிவழிச் சீரமைப்பு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**🌊 Using Microbes to Clean Oil Pollution**\n• **First GMO patent:** _Pseudomonas putida_ — \"oil-eating\" superbug — patented by A. M. Chakrabarty in 1980 (US Supreme Court)\n• **How it works:** Hydrocarbon-degrading bacteria break down petroleum compounds into harmless CO₂ and H₂O\n• **Application:** Demonstrated that engineered bacteria can degrade several oil hydrocarbons in the laboratory; it set the legal precedent for patenting living organisms (Diamond v. Chakrabarty, 1980)\n• **Benefit:** Cost-effective, eco-friendly, no harmful chemical residues — in-situ or ex-situ treatment possible"
+      "en": "**🌊 Using Microbes to Clean Oil Pollution**\n• **First GMO patent:** _Pseudomonas putida_ — \"oil-eating\" superbug — patented by A. M. Chakrabarty in 1980 (US Supreme Court)\n• **How it works:** Hydrocarbon-degrading bacteria break down petroleum compounds into harmless CO₂ and H₂O\n• **Application:** Demonstrated that engineered bacteria can degrade several oil hydrocarbons in the laboratory; it set the legal precedent for patenting living organisms (Diamond v. Chakrabarty, 1980)\n• **Benefit:** Cost-effective, eco-friendly, no harmful chemical residues — in-situ or ex-situ treatment possible",
+      "ta": "**🌊 எண்ணெய் மாசை நுண்ணுயிரிகளால் சுத்தம் செய்தல்**\n• **முதல் GMO காப்புரிமை:** _Pseudomonas putida_ — \"எண்ணெய் உண்ணும்\" மேம்பட்ட பாக்டீரியா — 1980-ல் ஏ. எம். சக்ரபர்த்தியால் காப்புரிமை பெறப்பட்டது (அமெரிக்க உச்ச நீதிமன்றம்)\n• **செயல்படும் முறை:** ஹைட்ரோகார்பன்களைச் சிதைக்கும் பாக்டீரியா பெட்ரோலியச் சேர்மங்களைத் தீங்கற்ற CO₂, H₂O-ஆகச் சிதைக்கின்றன\n• **பயன்பாடு:** பொறியியலால் மாற்றப்பட்ட பாக்டீரியா ஆய்வகத்தில் பல எண்ணெய் ஹைட்ரோகார்பன்களைச் சிதைக்க முடியும் என நிரூபித்தது; உயிருள்ள உயிரினங்களுக்குக் காப்புரிமை வழங்கும் சட்ட முன்மாதிரியை உருவாக்கியது (Diamond v. Chakrabarty, 1980)\n• **நன்மை:** செலவு குறைவு, சூழலுக்கு உகந்தது, தீங்கான வேதி எச்சம் இல்லை — அந்த இடத்திலேயோ வேறிடத்திலோ சீரமைக்கலாம்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Case Study 4: PCR — The Photocopier of DNA**"
+      "en": "**Case Study 4: PCR — The Photocopier of DNA**",
+      "ta": "**நிகழ்வாய்வு 4: PCR — DNA-வின் ஒளிநகல் எந்திரம்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**🔬 Polymerase Chain Reaction (PCR)**\n• **Invented by:** Kary Mullis, 1983 (Nobel Prize, Chemistry, 1993)\n• **Principle:** In vitro amplification of specific DNA sequences using thermal cycling (denaturation → annealing → extension)\n• **Enzyme:** _Taq_ DNA polymerase (from thermophilic bacterium _Thermus aquaticus_)\n• **Applications:** COVID-19 diagnosis; DNA fingerprinting; prenatal diagnosis; forensic science; gene cloning; food adulteration testing\n• **Impact:** Called the most important biotechnology technique of the 20th century — enabled the Human Genome Project"
+      "en": "**🔬 Polymerase Chain Reaction (PCR)**\n• **Invented by:** Kary Mullis, 1983 (Nobel Prize, Chemistry, 1993)\n• **Principle:** In vitro amplification of specific DNA sequences using thermal cycling (denaturation → annealing → extension)\n• **Enzyme:** _Taq_ DNA polymerase (from thermophilic bacterium _Thermus aquaticus_)\n• **Applications:** COVID-19 diagnosis; DNA fingerprinting; prenatal diagnosis; forensic science; gene cloning; food adulteration testing\n• **Impact:** Called the most important biotechnology technique of the 20th century — enabled the Human Genome Project",
+      "ta": "**🔬 பாலிமரேஸ் சங்கிலி வினை (PCR)**\n• **கண்டுபிடித்தவர்:** கேரி முல்லிஸ், 1983 (வேதியியலுக்கான நோபல் பரிசு, 1993)\n• **கோட்பாடு:** வெப்பச் சுழற்சி (டினேச்சுரேஷன் → அனீலிங் → நீட்சி) மூலம் குறிப்பிட்ட DNA வரிசைகளை இன்-விட்ரோவில் பெருக்குதல்\n• **நொதி:** _Taq_ DNA பாலிமரேஸ் (வெப்பம் விரும்பும் பாக்டீரியம் _Thermus aquaticus_-இலிருந்து)\n• **பயன்பாடுகள்:** COVID-19 நோயறிதல்; DNA கைரேகைப் பதிவு; பிறப்புக்கு முந்தைய நோயறிதல்; தடயவியல்; மரபணு நகலாக்கம்; உணவுக் கலப்படச் சோதனை\n• **தாக்கம்:** 20-ஆம் நூற்றாண்டின் மிக முக்கிய உயிரித் தொழில்நுட்பத் தொழில்நுட்பம் எனப்படுகிறது — மனித மரபணுத்தொகைத் திட்டத்தை இயலச் செய்தது",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Case Study 5: Golden Rice — Biofortification**"
+      "en": "**Case Study 5: Golden Rice — Biofortification**",
+      "ta": "**நிகழ்வாய்வு 5: கோல்டன் ரைஸ் — உயிர்ச்செறிவூட்டல்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**🍚 Engineering Nutrition into Staple Food**\n• **Problem:** Vitamin A deficiency affects ~190 million children worldwide; causes blindness and increased mortality\n• **Solution:** Genes _psy_ (phytoene synthase from daffodil) and _crtI_ (from bacterium) inserted into rice genome\n• **Result:** Rice grains produce β-carotene (pro-Vitamin A) — gives yellow/golden colour; 1 cup provides ~50% daily Vitamin A requirement\n• **Developers:** Ingo Potrykus & Peter Beyer (1999); now further enhanced — Golden Rice 2\n• **Status:** Approval status differs between countries and has changed over time; check the current position with national regulators"
+      "en": "**🍚 Engineering Nutrition into Staple Food**\n• **Problem:** Vitamin A deficiency affects ~190 million children worldwide; causes blindness and increased mortality\n• **Solution:** Genes _psy_ (phytoene synthase from daffodil) and _crtI_ (from bacterium) inserted into rice genome\n• **Result:** Rice grains produce β-carotene (pro-Vitamin A) — gives yellow/golden colour; 1 cup provides ~50% daily Vitamin A requirement\n• **Developers:** Ingo Potrykus & Peter Beyer (1999); now further enhanced — Golden Rice 2\n• **Status:** Approval status differs between countries and has changed over time; check the current position with national regulators",
+      "ta": "**🍚 முதன்மை உணவில் ஊட்டச்சத்தைப் பொறியியலால் சேர்த்தல்**\n• **சிக்கல்:** வைட்டமின் A குறைபாடு உலகளவில் ~190 மில்லியன் குழந்தைகளைப் பாதிக்கிறது; பார்வையிழப்பையும் அதிக இறப்பையும் ஏற்படுத்துகிறது\n• **தீர்வு:** _psy_ (டாஃபடில்லிலிருந்து ஃபைட்டோயீன் சின்தேஸ்), _crtI_ (பாக்டீரியத்திலிருந்து) மரபணுக்கள் அரிசி மரபணுத்தொகையில் செருகப்பட்டன\n• **விளைவு:** அரிசிமணிகள் β-கரோட்டினை (புரோ-வைட்டமின் A) உருவாக்குகின்றன — மஞ்சள்/தங்க நிறம்; 1 கப் தினசரி வைட்டமின் A தேவையில் ~50% அளிக்கிறது\n• **உருவாக்கியவர்கள்:** இங்கோ போட்ரிகஸ் & பீட்டர் பெயர் (1999); இப்போது மேலும் மேம்பட்டது — கோல்டன் ரைஸ் 2\n• **நிலை:** ஒப்புதல் நிலை நாடுகளுக்கிடையே வேறுபடுகிறது, காலப்போக்கில் மாறியுள்ளது; தற்போதைய நிலையைத் தேசிய ஒழுங்குமுறை அமைப்புகளிடம் சரிபார்க்க",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Major Applications — Quick Reference**"
+      "en": "**Major Applications — Quick Reference**",
+      "ta": "**முக்கியப் பயன்பாடுகள் — விரைவுக் குறிப்பு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "table",
      "header": [
       {
-       "en": "Field"
+       "en": "Field",
+       "ta": "துறை",
+       "ta_status": "draft"
       },
       {
-       "en": "Application"
+       "en": "Application",
+       "ta": "பயன்பாடு",
+       "ta_status": "draft"
       },
       {
-       "en": "Example Product / Process"
+       "en": "Example Product / Process",
+       "ta": "எடுத்துக்காட்டுப் பொருள் / செயல்முறை",
+       "ta_status": "draft"
       },
       {
-       "en": "Microorganism / Technology"
+       "en": "Microorganism / Technology",
+       "ta": "நுண்ணுயிரி / தொழில்நுட்பம்",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Medicine**"
+        "en": "**Medicine**",
+        "ta": "**மருத்துவம்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Hormone production"
+        "en": "Hormone production",
+        "ta": "ஹார்மோன் உற்பத்தி",
+        "ta_status": "draft"
        },
        {
-        "en": "Human insulin (Humulin)"
+        "en": "Human insulin (Humulin)",
+        "ta": "மனித இன்சுலின் (ஹியூமுலின்)",
+        "ta_status": "draft"
        },
        {
-        "en": "_E. coli_ + rDNA"
+        "en": "_E. coli_ + rDNA",
+        "ta": "_E. coli_ + rDNA",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Medicine**"
+        "en": "**Medicine**",
+        "ta": "**மருத்துவம்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Vaccine production"
+        "en": "Vaccine production",
+        "ta": "தடுப்பூசி உற்பத்தி",
+        "ta_status": "draft"
        },
        {
-        "en": "Hepatitis B vaccine"
+        "en": "Hepatitis B vaccine",
+        "ta": "ஹெபடைடிஸ் B தடுப்பூசி",
+        "ta_status": "draft"
        },
        {
-        "en": "Yeast (_S. cerevisiae_)"
+        "en": "Yeast (_S. cerevisiae_)",
+        "ta": "ஈஸ்ட் (_S. cerevisiae_)",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Agriculture**"
+        "en": "**Agriculture**",
+        "ta": "**வேளாண்மை**",
+        "ta_status": "draft"
        },
        {
-        "en": "Pest resistance"
+        "en": "Pest resistance",
+        "ta": "பூச்சி எதிர்ப்பு",
+        "ta_status": "draft"
        },
        {
-        "en": "Bt cotton, Bt brinjal"
+        "en": "Bt cotton, Bt brinjal",
+        "ta": "Bt பருத்தி, Bt கத்தரி",
+        "ta_status": "draft"
        },
        {
-        "en": "_B. thuringiensis_ + GMO"
+        "en": "_B. thuringiensis_ + GMO",
+        "ta": "_B. thuringiensis_ + GMO",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Agriculture**"
+        "en": "**Agriculture**",
+        "ta": "**வேளாண்மை**",
+        "ta_status": "draft"
        },
        {
-        "en": "Weed tolerance"
+        "en": "Weed tolerance",
+        "ta": "களை தாங்குதிறன்",
+        "ta_status": "draft"
        },
        {
-        "en": "Roundup-Ready soybean"
+        "en": "Roundup-Ready soybean",
+        "ta": "ரவுண்டப்-ரெடி சோயா",
+        "ta_status": "draft"
        },
        {
-        "en": "rDNA technology"
+        "en": "rDNA technology",
+        "ta": "rDNA தொழில்நுட்பம்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Industry**"
+        "en": "**Industry**",
+        "ta": "**தொழில்துறை**",
+        "ta_status": "draft"
        },
        {
-        "en": "Biofuel production"
+        "en": "Biofuel production",
+        "ta": "உயிரி எரிபொருள் உற்பத்தி",
+        "ta_status": "draft"
        },
        {
-        "en": "Bioethanol"
+        "en": "Bioethanol",
+        "ta": "உயிரி எத்தனால்",
+        "ta_status": "draft"
        },
        {
-        "en": "_Saccharomyces cerevisiae_"
+        "en": "_Saccharomyces cerevisiae_",
+        "ta": "_Saccharomyces cerevisiae_",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Industry**"
+        "en": "**Industry**",
+        "ta": "**தொழில்துறை**",
+        "ta_status": "draft"
        },
        {
-        "en": "Enzyme production"
+        "en": "Enzyme production",
+        "ta": "நொதி உற்பத்தி",
+        "ta_status": "draft"
        },
        {
-        "en": "Amylase, protease"
+        "en": "Amylase, protease",
+        "ta": "அமைலேஸ், புரோட்டியேஸ்",
+        "ta_status": "draft"
        },
        {
-        "en": "_Aspergillus, Bacillus_"
+        "en": "_Aspergillus, Bacillus_",
+        "ta": "_Aspergillus, Bacillus_",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Environment**"
+        "en": "**Environment**",
+        "ta": "**சூழல்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Bioremediation"
+        "en": "Bioremediation",
+        "ta": "உயிரிவழிச் சீரமைப்பு",
+        "ta_status": "draft"
        },
        {
-        "en": "Petroleum clean-up"
+        "en": "Petroleum clean-up",
+        "ta": "பெட்ரோலிய மாசு நீக்கம்",
+        "ta_status": "draft"
        },
        {
-        "en": "_Pseudomonas putida_"
+        "en": "_Pseudomonas putida_",
+        "ta": "_Pseudomonas putida_",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Diagnostics**"
+        "en": "**Diagnostics**",
+        "ta": "**நோயறிதல்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Disease detection"
+        "en": "Disease detection",
+        "ta": "நோய் கண்டறிதல்",
+        "ta_status": "draft"
        },
        {
-        "en": "COVID-19 RT-PCR, HIV ELISA"
+        "en": "COVID-19 RT-PCR, HIV ELISA",
+        "ta": "COVID-19 RT-PCR, HIV ELISA",
+        "ta_status": "draft"
        },
        {
-        "en": "PCR / Immunoassay"
+        "en": "PCR / Immunoassay",
+        "ta": "PCR / நோயெதிர்ப்புச் சோதனை",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Food**"
+        "en": "**Food**",
+        "ta": "**உணவு**",
+        "ta_status": "draft"
        },
        {
-        "en": "Dairy fermentation"
+        "en": "Dairy fermentation",
+        "ta": "பால் நொதித்தல்",
+        "ta_status": "draft"
        },
        {
-        "en": "Cheese (recombinant chymosin)"
+        "en": "Cheese (recombinant chymosin)",
+        "ta": "பாலாடைக்கட்டி (மறுகூட்டிணைவு கைமோசின்)",
+        "ta_status": "draft"
        },
        {
-        "en": "_Aspergillus niger_"
+        "en": "_Aspergillus niger_",
+        "ta": "_Aspergillus niger_",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -962,76 +1344,49 @@
   {
    "id": "s07",
    "title": {
-    "en": "Interactive Learning Section"
+    "en": "Interactive Learning Section",
+    "ta": "ஊடாடும் கற்றல் பிரிவு",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Explore concepts through interactive accordions, click-to-reveal definitions, and highlight boxes. Engage actively with the content!"
+      "en": "Explore concepts through interactive accordions, click-to-reveal definitions, and highlight boxes. Engage actively with the content!",
+      "ta": "ஊடாடும் அக்கார்டியன்கள், தொட்டு விரிக்கும் வரையறைகள், முனைப்புப் பெட்டிகள் மூலம் கருத்துகளை ஆராய்க. உள்ளடக்கத்துடன் ஆர்வமாக ஈடுபடுக!",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Expand & Explore — Key Concepts**"
+      "en": "**Expand & Explore — Key Concepts**",
+      "ta": "**விரித்து ஆராய்க — முக்கியக் கருத்துகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click each panel to expand / collapse"
+      "en": "Click each panel to expand / collapse",
+      "ta": "விரிக்க / மடக்க ஒவ்வொரு பலகத்தையும் தொடுக",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "What is Recombinant DNA (rDNA) Technology? ▼"
+      "en": "What is Recombinant DNA (rDNA) Technology? ▼",
+      "ta": "மறுகூட்டிணைவு DNA (rDNA) தொழில்நுட்பம் என்றால் என்ன? ▼",
+      "ta_status": "bracketed"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Recombinant DNA (rDNA) technology** is the process of combining DNA from two or more different sources (organisms) to create a new hybrid DNA molecule, which is then inserted into a host organism for expression."
-     }
-    },
-    {
-     "type": "bullets",
-     "ordered": false,
-     "items": [
-      {
-       "en": "**Step 1 — Isolation:** Target gene isolated from source organism using restriction endonucleases"
-      },
-      {
-       "en": "**Step 2 — Cloning vector:** Gene inserted into a plasmid (vector) using DNA ligase"
-      },
-      {
-       "en": "**Step 3 — Transformation:** Recombinant plasmid introduced into host cell (_E. coli_, yeast)"
-      },
-      {
-       "en": "**Step 4 — Selection:** Transformed cells selected (antibiotic resistance / reporter genes)"
-      },
-      {
-       "en": "**Step 5 — Expression:** Host cell expresses foreign gene → produces desired protein"
-      }
-     ]
-    },
-    {
-     "type": "p",
-     "text": {
-      "en": "**Key tools:** Restriction enzymes (molecular scissors), DNA ligase (molecular glue), plasmids (vectors), PCR, gel electrophoresis."
-     }
-    },
-    {
-     "type": "p",
-     "text": {
-      "en": "Restriction Enzymes — Molecular Scissors ▼"
-     }
-    },
-    {
-     "type": "p",
-     "text": {
-      "en": "**Restriction endonucleases** are bacterial enzymes that cut double-stranded DNA at specific recognition sequences (palindromic sequences). They are the foundational tools of genetic engineering."
+      "en": "**Recombinant DNA (rDNA) technology** is the process of combining DNA from two or more different sources (organisms) to create a new hybrid DNA molecule, which is then inserted into a host organism for expression.",
+      "ta": "**மறுகூட்டிணைவு DNA (rDNA) தொழில்நுட்பம்** என்பது இரு அல்லது அதற்கு மேற்பட்ட வெவ்வேறு மூலங்களிலிருந்து (உயிரினங்கள்) DNA-வை இணைத்துப் புதிய கலப்பின DNA மூலக்கூறை உருவாக்கி, வெளிப்பாட்டுக்காக ஓம்புயிரி உயிரினத்தில் செருகும் செயல்முறை.",
+      "ta_status": "draft"
      }
     },
     {
@@ -1039,38 +1394,54 @@
      "ordered": false,
      "items": [
       {
-       "en": "First discovered in bacteria as a defence mechanism against bacteriophages"
+       "en": "**Step 1 — Isolation:** Target gene isolated from source organism using restriction endonucleases",
+       "ta": "**படி 1 — தனித்துப் பிரித்தல்:** ரெஸ்ட்ரிக்ஷன் எண்டோநியுக்ளியேஸ்களால் மூல உயிரினத்திலிருந்து இலக்கு மரபணு தனித்துப் பிரிக்கப்படுகிறது",
+       "ta_status": "draft"
       },
       {
-       "en": "Named by organism: _Eco_RI from _Escherichia coli_; _Bam_HI from _Bacillus amyloliquefaciens_"
+       "en": "**Step 2 — Cloning vector:** Gene inserted into a plasmid (vector) using DNA ligase",
+       "ta": "**படி 2 — நகலாக்கத் தாங்கிக்கடத்தி:** DNA லைகேஸால் மரபணு பிளாஸ்மிட்டில் (தாங்கிக்கடத்தி) செருகப்படுகிறது",
+       "ta_status": "draft"
       },
       {
-       "en": "Type I, II, III — Type II most used in biotechnology (cut at recognition site)"
+       "en": "**Step 3 — Transformation:** Recombinant plasmid introduced into host cell (_E. coli_, yeast)",
+       "ta": "**படி 3 — தகவல் பரிமாற்றம்:** மறுகூட்டிணைவு பிளாஸ்மிட் ஓம்புயிரி செல்லுக்குள் (_E. coli_, ஈஸ்ட்) செலுத்தப்படுகிறது",
+       "ta_status": "draft"
       },
       {
-       "en": "Create **sticky ends** (overhangs) or **blunt ends**"
+       "en": "**Step 4 — Selection:** Transformed cells selected (antibiotic resistance / reporter genes)",
+       "ta": "**படி 4 — தெரிவு:** மாற்றப்பட்ட செல்கள் தெரிவு செய்யப்படுகின்றன (ஆன்டிபயாடிக் எதிர்ப்பு / அறிக்கை மரபணுக்கள்)",
+       "ta_status": "draft"
       },
       {
-       "en": "Werner Arber, Daniel Nathans, Hamilton Smith — Nobel Prize 1978 for restriction enzyme discovery"
+       "en": "**Step 5 — Expression:** Host cell expresses foreign gene → produces desired protein",
+       "ta": "**படி 5 — வெளிப்பாடு:** ஓம்புயிரி செல் அந்நிய மரபணுவை வெளிப்படுத்தி → தேவையான புரதத்தை உருவாக்குகிறது",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "_Example: EcoRI recognises and cuts 5′-GAATTC-3′ sequence_"
+      "en": "**Key tools:** Restriction enzymes (molecular scissors), DNA ligase (molecular glue), plasmids (vectors), PCR, gel electrophoresis.",
+      "ta": "**முக்கியக் கருவிகள்:** ரெஸ்ட்ரிக்ஷன் நொதிகள் (மூலக்கூறு கத்தரிகோல்கள்), DNA லைகேஸ் (மூலக்கூறு பசை), பிளாஸ்மிட்கள் (தாங்கிக்கடத்திகள்), PCR, ஜெல் மின்னாற்பகுப்பு.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Tissue Culture — Totipotency Principle ▼"
+      "en": "Restriction Enzymes — Molecular Scissors ▼",
+      "ta": "ரெஸ்ட்ரிக்ஷன் நொதிகள் — மூலக்கூறு கத்தரிகோல்கள் ▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Plant tissue culture** is the technique of growing plant cells, tissues, or organs on artificial nutrient medium under sterile conditions in vitro."
+      "en": "**Restriction endonucleases** are bacterial enzymes that cut double-stranded DNA at specific recognition sequences (palindromic sequences). They are the foundational tools of genetic engineering.",
+      "ta": "**ரெஸ்ட்ரிக்ஷன் எண்டோநியுக்ளியேஸ்கள்** என்பவை குறிப்பிட்ட அறிதல் வரிசைகளில் (முன்பின் ஒத்த வரிசைகள்) இரட்டை இழை DNA-வை வெட்டும் பாக்டீரிய நொதிகள். மரபணுப் பொறியியலின் அடிப்படைக் கருவிகள்.",
+      "ta_status": "draft"
      }
     },
     {
@@ -1078,32 +1449,54 @@
      "ordered": false,
      "items": [
       {
-       "en": "**Totipotency:** Every plant cell contains the complete genetic information and has the ability to regenerate a whole organism — concept by _Gottlieb Haberlandt_ (1902)"
+       "en": "First discovered in bacteria as a defence mechanism against bacteriophages",
+       "ta": "பாக்டீரியோஃபேஜ்களுக்கு எதிரான தற்காப்பு இயங்குமுறையாகப் பாக்டீரியாக்களில் முதலில் கண்டறியப்பட்டன",
+       "ta_status": "draft"
       },
       {
-       "en": "**Media components:** Minerals, sucrose, vitamins, plant hormones (auxin + cytokinin), agar"
+       "en": "Named by organism: _Eco_RI from _Escherichia coli_; _Bam_HI from _Bacillus amyloliquefaciens_",
+       "ta": "உயிரினத்தின் பெயரால் பெயரிடப்படுகின்றன: _Eco_RI — _Escherichia coli_; _Bam_HI — _Bacillus amyloliquefaciens_",
+       "ta_status": "draft"
       },
       {
-       "en": "**Callus:** Undifferentiated mass of cells formed from explant on hormone-rich medium"
+       "en": "Type I, II, III — Type II most used in biotechnology (cut at recognition site)",
+       "ta": "வகை I, II, III — உயிரித் தொழில்நுட்பவியலில் வகை II அதிகம் பயன்படுகிறது (அறிதல் இடத்தில் வெட்டும்)",
+       "ta_status": "draft"
       },
       {
-       "en": "**Somaclonal variation:** Genetic variation in tissue culture-raised plants — source of new traits"
+       "en": "Create **sticky ends** (overhangs) or **blunt ends**",
+       "ta": "**ஒட்டும் முனைகள்** (நீட்சிகள்) அல்லது **மழுங்கிய முனைகளை** உருவாக்குகின்றன",
+       "ta_status": "draft"
       },
       {
-       "en": "**Applications:** Micropropagation, production of disease-free plants, genetic transformation, somatic hybridisation"
+       "en": "Werner Arber, Daniel Nathans, Hamilton Smith — Nobel Prize 1978 for restriction enzyme discovery",
+       "ta": "வெர்னர் ஆர்பர், டேனியல் நாதன்ஸ், ஹாமில்டன் ஸ்மித் — ரெஸ்ட்ரிக்ஷன் நொதிக் கண்டுபிடிப்புக்கு 1978 நோபல் பரிசு",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "Monoclonal Antibodies (MAbs) — Magic Bullets ▼"
+      "en": "_Example: EcoRI recognises and cuts 5′-GAATTC-3′ sequence_",
+      "ta": "_எடுத்துக்காட்டு: EcoRI 5′-GAATTC-3′ வரிசையை அறிந்து வெட்டுகிறது_",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Monoclonal antibodies** are identical antibodies produced by a single clone of B lymphocytes (hybridoma cells) and are highly specific to a single antigen."
+      "en": "Tissue Culture — Totipotency Principle ▼",
+      "ta": "திசு வளர்ப்பு — முழுத்திறன் கோட்பாடு ▼",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Plant tissue culture** is the technique of growing plant cells, tissues, or organs on artificial nutrient medium under sterile conditions in vitro.",
+      "ta": "**தாவரத் திசு வளர்ப்பு** என்பது தாவர செல்கள், திசுக்கள் அல்லது உறுப்புகளை நுண்ணுயிரற்ற நிலையில் செயற்கை ஊட்டச்சத்து ஊடகத்தில் இன்-விட்ரோவில் வளர்க்கும் நுட்பம்.",
+      "ta_status": "draft"
      }
     },
     {
@@ -1111,29 +1504,46 @@
      "ordered": false,
      "items": [
       {
-       "en": "Concept of **\"Magic Bullet\"** — targeted therapy that attacks only specific cancer cells"
+       "en": "**Totipotency:** Every plant cell contains the complete genetic information and has the ability to regenerate a whole organism — concept by _Gottlieb Haberlandt_ (1902)",
+       "ta": "**முழுத்திறன்:** ஒவ்வொரு தாவர செல்லிலும் முழு மரபணுத் தகவல் உள்ளது; முழு உயிரினத்தையும் மீளுருவாக்கும் திறன் உண்டு — _காட்லீப் ஹேபர்லாண்ட்_ (1902) கருத்து",
+       "ta_status": "draft"
       },
       {
-       "en": "**Kohler & Milstein (1975):** Nobel Prize 1984 — hybridoma technology"
+       "en": "**Media components:** Minerals, sucrose, vitamins, plant hormones (auxin + cytokinin), agar",
+       "ta": "**ஊடகக் கூறுகள்:** கனிமங்கள், சுக்ரோஸ், வைட்டமின்கள், தாவர ஹார்மோன்கள் (ஆக்சின் + சைட்டோகைனின்), அகார்",
+       "ta_status": "draft"
       },
       {
-       "en": "**Process:** Immunise animal → harvest B cells → fuse with myeloma cells → hybridoma → screen → clone"
+       "en": "**Callus:** Undifferentiated mass of cells formed from explant on hormone-rich medium",
+       "ta": "**கேலஸ்:** ஹார்மோன் நிறைந்த ஊடகத்தில் வளர்திசுவிலிருந்து உருவாகும் வேறுபாடடையாத செல் திரள்",
+       "ta_status": "draft"
       },
       {
-       "en": "**Applications:** Cancer therapy (Herceptin, Rituximab), autoimmune diseases (Humira), pregnancy test kits, COVID diagnostics"
+       "en": "**Somaclonal variation:** Genetic variation in tissue culture-raised plants — source of new traits",
+       "ta": "**சோமாக்குளோன் மாறுபாடு:** திசு வளர்ப்புத் தாவரங்களில் ஏற்படும் மரபணு மாறுபாடு — புதிய பண்புகளின் மூலம்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Applications:** Micropropagation, production of disease-free plants, genetic transformation, somatic hybridisation",
+       "ta": "**பயன்பாடுகள்:** நுண்பெருக்கம், நோயற்ற தாவர உற்பத்தி, மரபணு மாற்றம், உடல செல் கலப்பினமாக்கல்",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "Bioremediation — Nature's Clean-Up Crew ▼"
+      "en": "Monoclonal Antibodies (MAbs) — Magic Bullets ▼",
+      "ta": "ஒற்றைப்படி எதிர்ப்பொருள்கள் (MAbs) — மாயக் குண்டுகள் ▼",
+      "ta_status": "bracketed"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Bioremediation** is the use of microorganisms (bacteria, fungi, algae) or plants (_phytoremediation_) to degrade, detoxify, or transform harmful pollutants in the environment into harmless compounds."
+      "en": "**Monoclonal antibodies** are identical antibodies produced by a single clone of B lymphocytes (hybridoma cells) and are highly specific to a single antigen.",
+      "ta": "**ஒற்றைப்படி எதிர்ப்பொருள்கள்** என்பவை B நிணநீர்ச் செல்களின் (கலப்பின செல்கள்) ஒரே குளோனால் உருவாக்கப்படும் ஒத்த எதிர்ப்பொருள்கள்; ஒரே எதிர்ப்பொருள் ஊக்கிக்கு மிகவும் தனித்தன்மை வாய்ந்தவை.",
+      "ta_status": "draft"
      }
     },
     {
@@ -1141,176 +1551,280 @@
      "ordered": false,
      "items": [
       {
-       "en": "**In situ bioremediation:** Treatment at the contaminated site — no excavation needed (e.g., bioventing, biosparging)"
+       "en": "Concept of **\"Magic Bullet\"** — targeted therapy that attacks only specific cancer cells",
+       "ta": "**\"மாயக் குண்டு\"** கருத்து — குறிப்பிட்ட புற்றுநோய் செல்களை மட்டும் தாக்கும் இலக்கு சிகிச்சை",
+       "ta_status": "draft"
       },
       {
-       "en": "**Ex situ:** Contaminated material brought to treatment facility — land farming, biopiles, bioreactors"
+       "en": "**Kohler & Milstein (1975):** Nobel Prize 1984 — hybridoma technology",
+       "ta": "**கோலர் & மில்ஸ்டீன் (1975):** நோபல் பரிசு 1984 — கலப்பின செல் தொழில்நுட்பம்",
+       "ta_status": "draft"
       },
       {
-       "en": "**Phytoremediation:** Sunflowers absorb heavy metals (lead, arsenic); used after Chernobyl nuclear accident"
+       "en": "**Process:** Immunise animal → harvest B cells → fuse with myeloma cells → hybridoma → screen → clone",
+       "ta": "**செயல்முறை:** விலங்குக்கு நோய்த்தடுப்பு → B செல்களை அறுவடை → மைலோமா செல்களுடன் இணைத்தல் → கலப்பின செல் → சலிக்கை → குளோனாக்கம்",
+       "ta_status": "draft"
       },
       {
-       "en": "**Microorganisms:** _Pseudomonas_ (hydrocarbons), _Thiobacillus_ (heavy metals), _Dehalococcoides_ (chlorinated solvents)"
-      },
-      {
-       "en": "**Advantage:** Cost-effective (~10× cheaper than physical/chemical treatment), eco-friendly, no secondary pollutants"
+       "en": "**Applications:** Cancer therapy (Herceptin, Rituximab), autoimmune diseases (Humira), pregnancy test kits, COVID diagnostics",
+       "ta": "**பயன்பாடுகள்:** புற்றுநோய் சிகிச்சை (ஹெர்செப்டின், ரிட்டுக்ஸிமாப்), தன்னெதிர்ப்பு நோய்கள் (ஹூமிரா), கர்ப்பப் பரிசோதனைக் கருவிகள், COVID நோயறிதல்",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Click-to-Reveal — Important Definitions**"
+      "en": "Bioremediation — Nature's Clean-Up Crew ▼",
+      "ta": "உயிரிவழிச் சீரமைப்பு — இயற்கையின் சுத்தப்படுத்தும் குழு ▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "👆 Click each card to reveal its definition"
+      "en": "**Bioremediation** is the use of microorganisms (bacteria, fungi, algae) or plants (_phytoremediation_) to degrade, detoxify, or transform harmful pollutants in the environment into harmless compounds.",
+      "ta": "**உயிரிவழிச் சீரமைப்பு** என்பது சூழலிலுள்ள தீங்கான மாசுபடுத்திகளைத் தீங்கற்ற சேர்மங்களாகச் சிதைக்க, நச்சுநீக்க, மாற்ற நுண்ணுயிரிகளை (பாக்டீரியா, பூஞ்சை, பாசி) அல்லது தாவரங்களைப் (_தாவரவழிச் சீரமைப்பு_) பயன்படுத்துதல்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**In situ bioremediation:** Treatment at the contaminated site — no excavation needed (e.g., bioventing, biosparging)",
+       "ta": "**இடத்திலேயே உயிரிவழிச் சீரமைப்பு:** மாசடைந்த இடத்திலேயே சிகிச்சை — அகழ்வு தேவையில்லை (எ.கா. உயிரிக் காற்றூட்டம், உயிரிக் காற்றுப்பாய்ச்சல்)",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Ex situ:** Contaminated material brought to treatment facility — land farming, biopiles, bioreactors",
+       "ta": "**வேறிடத்தில்:** மாசடைந்த பொருள் சிகிச்சை வசதிக்குக் கொண்டுவரப்படுகிறது — நில வேளாண்மை, உயிரிக் குவியல்கள், உயிரிவினைக் கலன்கள்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Phytoremediation:** Sunflowers absorb heavy metals (lead, arsenic); used after Chernobyl nuclear accident",
+       "ta": "**தாவரவழிச் சீரமைப்பு:** சூரியகாந்தி கன உலோகங்களை (ஈயம், ஆர்சனிக்) உறிஞ்சுகிறது; செர்னோபில் அணு விபத்துக்குப் பின் பயன்படுத்தப்பட்டது",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Microorganisms:** _Pseudomonas_ (hydrocarbons), _Thiobacillus_ (heavy metals), _Dehalococcoides_ (chlorinated solvents)",
+       "ta": "**நுண்ணுயிரிகள்:** _Pseudomonas_ (ஹைட்ரோகார்பன்கள்), _Thiobacillus_ (கன உலோகங்கள்), _Dehalococcoides_ (குளோரின் கரைப்பான்கள்)",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Advantage:** Cost-effective (~10× cheaper than physical/chemical treatment), eco-friendly, no secondary pollutants",
+       "ta": "**நன்மை:** செலவு குறைவு (இயற்பியல்/வேதிச் சிகிச்சையை விட ~10 மடங்கு மலிவு), சூழலுக்கு உகந்தது, இரண்டாம்நிலை மாசுபடுத்திகள் இல்லை",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Click-to-Reveal — Important Definitions**",
+      "ta": "**தொட்டு விரிக்க — முக்கிய வரையறைகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Plasmid**"
+      "en": "👆 Click each card to reveal its definition",
+      "ta": "👆 வரையறையை அறிய ஒவ்வொரு அட்டையையும் தொடுக",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click to reveal"
+      "en": "**Plasmid**",
+      "ta": "**பிளாஸ்மிட்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "DefinitionA small, circular, **extra-chromosomal DNA** molecule found in bacteria, capable of self-replication. Used as a **cloning vector** to carry foreign genes into host cells in rDNA technology."
+      "en": "Click to reveal",
+      "ta": "வரையறையை அறியத் தொடுக",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**GMO**"
+      "en": "DefinitionA small, circular, **extra-chromosomal DNA** molecule found in bacteria, capable of self-replication. Used as a **cloning vector** to carry foreign genes into host cells in rDNA technology.",
+      "ta": "வரையறைபாக்டீரியாக்களில் காணப்படும், தானாகப் பெருகும் திறனுள்ள சிறிய, வட்ட வடிவ **குரோமோசோமுக்கு வெளியே உள்ள DNA** மூலக்கூறு. rDNA தொழில்நுட்பத்தில் அந்நிய மரபணுக்களை ஓம்புயிரி செல்களுக்குக் கொண்டு செல்ல **நகலாக்கத் தாங்கிக்கடத்தியாக** பயன்படுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click to reveal"
+      "en": "**GMO**",
+      "ta": "**GMO**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Definition**Genetically Modified Organism** — an organism whose genetic material has been altered using genetic engineering techniques, introducing genes from another organism to confer new traits (e.g., pest resistance, higher yield)."
+      "en": "Click to reveal",
+      "ta": "வரையறையை அறியத் தொடுக",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Transgenic**"
+      "en": "Definition**Genetically Modified Organism** — an organism whose genetic material has been altered using genetic engineering techniques, introducing genes from another organism to confer new traits (e.g., pest resistance, higher yield).",
+      "ta": "வரையறை**மரபணு மாற்றப்பட்ட உயிரினம்** — புதிய பண்புகளை (எ.கா. பூச்சி எதிர்ப்பு, அதிக விளைச்சல்) அளிக்க, வேறொரு உயிரினத்தின் மரபணுக்களைச் செலுத்தி, மரபணுப் பொறியியல் நுட்பங்களால் மரபுப் பொருள் மாற்றப்பட்ட உயிரினம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click to reveal"
+      "en": "**Transgenic**",
+      "ta": "**மாற்றுயிரி**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "DefinitionAn organism that has had a **foreign gene (transgene)** from another species inserted into its genome using rDNA technology. Examples: Transgenic mice (research), Bt cotton (agriculture), Herman the bull (lactoferrin)."
+      "en": "Click to reveal",
+      "ta": "வரையறையை அறியத் தொடுக",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Fermentation**"
+      "en": "DefinitionAn organism that has had a **foreign gene (transgene)** from another species inserted into its genome using rDNA technology. Examples: Transgenic mice (research), Bt cotton (agriculture), Herman the bull (lactoferrin).",
+      "ta": "வரையறைrDNA தொழில்நுட்பம் மூலம் வேறொரு சிற்றினத்தின் **அந்நிய மரபணு (மாற்றுமரபணு)** தன் மரபணுத்தொகையில் செருகப்பட்ட உயிரினம். எடுத்துக்காட்டுகள்: மாற்றுயிர் எலிகள் (ஆராய்ச்சி), Bt பருத்தி (வேளாண்மை), ஹெர்மன் காளை (லாக்டோஃபெரின்).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click to reveal"
+      "en": "**Fermentation**",
+      "ta": "**நொதித்தல்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "DefinitionA metabolic process in which microorganisms **break down organic compounds** (sugars) under anaerobic conditions to produce energy and products like ethanol, lactic acid, CO₂, or antibiotics."
+      "en": "Click to reveal",
+      "ta": "வரையறையை அறியத் தொடுக",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Bioreactor**"
+      "en": "DefinitionA metabolic process in which microorganisms **break down organic compounds** (sugars) under anaerobic conditions to produce energy and products like ethanol, lactic acid, CO₂, or antibiotics.",
+      "ta": "வரையறைகாற்றின்றிய நிலையில் நுண்ணுயிரிகள் கரிமச் சேர்மங்களை (சர்க்கரைகளை) **சிதைத்து** ஆற்றலையும் எத்தனால், லாக்டிக் அமிலம், CO₂, ஆன்டிபயாடிக்குகள் போன்ற பொருட்களையும் உருவாக்கும் வளர்சிதை மாற்றச் செயல்முறை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click to reveal"
+      "en": "**Bioreactor**",
+      "ta": "**உயிரிவினைக் கலன்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "DefinitionA controlled vessel or system designed to provide optimal **physicochemical conditions** (temperature, pH, oxygen, agitation) for large-scale cultivation of microorganisms to produce industrial products."
+      "en": "Click to reveal",
+      "ta": "வரையறையை அறியத் தொடுக",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Gene Therapy**"
+      "en": "DefinitionA controlled vessel or system designed to provide optimal **physicochemical conditions** (temperature, pH, oxygen, agitation) for large-scale cultivation of microorganisms to produce industrial products.",
+      "ta": "வரையறைதொழில்துறைப் பொருட்களை உருவாக்க நுண்ணுயிரிகளைப் பெருமளவில் வளர்க்க உகந்த **இயற்பிய-வேதி நிலைகளை** (வெப்பநிலை, pH, ஆக்சிஜன், கலக்குதல்) வழங்கும் கட்டுப்படுத்தப்பட்ட கலன் அல்லது அமைப்பு.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click to reveal"
+      "en": "**Gene Therapy**",
+      "ta": "**மரபணு சிகிச்சை**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "DefinitionA medical approach that involves **inserting, altering, or replacing a defective gene** within a person's cells to treat or prevent disease. Ex vivo, in vivo, and in situ approaches exist. Used for SCID, haemophilia."
+      "en": "Click to reveal",
+      "ta": "வரையறையை அறியத் தொடுக",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Cloning**"
+      "en": "DefinitionA medical approach that involves **inserting, altering, or replacing a defective gene** within a person's cells to treat or prevent disease. Ex vivo, in vivo, and in situ approaches exist. Used for SCID, haemophilia.",
+      "ta": "வரையறைநோயைக் குணப்படுத்த அல்லது தடுக்க ஒருவரின் செல்களிலுள்ள **குறைபாடுள்ள மரபணுவைச் செருகுதல், மாற்றுதல் அல்லது பதிலீடு செய்தல்** என்ற மருத்துவ அணுகுமுறை. உடலுக்கு வெளியே, உடலுக்குள், அந்த இடத்திலேயே என்ற அணுகுமுறைகள் உண்டு. SCID, ஹீமோஃபிலியாவுக்குப் பயன்படுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click to reveal"
+      "en": "**Cloning**",
+      "ta": "**நகலாக்கம்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "DefinitionProduction of **genetically identical copies** of a gene (molecular cloning), cell (cellular cloning), or organism (reproductive cloning). Dolly the sheep (1996) was the first cloned mammal from adult somatic cell."
+      "en": "Click to reveal",
+      "ta": "வரையறையை அறியத் தொடுக",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**CRISPR-Cas9**"
+      "en": "DefinitionProduction of **genetically identical copies** of a gene (molecular cloning), cell (cellular cloning), or organism (reproductive cloning). Dolly the sheep (1996) was the first cloned mammal from adult somatic cell.",
+      "ta": "வரையறைமரபணுவின் (மூலக்கூறு நகலாக்கம்), செல்லின் (செல் நகலாக்கம்) அல்லது உயிரினத்தின் (இனப்பெருக்க நகலாக்கம்) **மரபணு ஒத்த நகல்களை** உருவாக்குதல். டாலி ஆடு (1996) முதிர்ந்த உடல செல்லிலிருந்து நகலாக்கப்பட்ட முதல் பாலூட்டி.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click to reveal"
+      "en": "**CRISPR-Cas9**",
+      "ta": "**CRISPR-Cas9**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Definition**Clustered Regularly Interspaced Short Palindromic Repeats** — a revolutionary genome editing tool. Guide RNA directs Cas9 nuclease to precise DNA locations for cutting, enabling gene knockout or correction. Nobel Prize 2020 (Doudna & Charpentier)."
+      "en": "Click to reveal",
+      "ta": "வரையறையை அறியத் தொடுக",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Definition**Clustered Regularly Interspaced Short Palindromic Repeats** — a revolutionary genome editing tool. Guide RNA directs Cas9 nuclease to precise DNA locations for cutting, enabling gene knockout or correction. Nobel Prize 2020 (Doudna & Charpentier).",
+      "ta": "வரையறை**Clustered Regularly Interspaced Short Palindromic Repeats** — புரட்சிகர மரபணுத்தொகைத் திருத்தும் கருவி. வழிகாட்டி RNA, Cas9 நியுக்ளியேஸை DNA-வின் துல்லிய இடங்களுக்கு வழிநடத்தி வெட்டுகிறது; மரபணு நீக்கத்தையோ திருத்தத்தையோ இயலச் செய்கிறது. நோபல் பரிசு 2020 (டூட்னா & ஷார்பென்டியே).",
+      "ta_status": "draft"
      }
     }
    ],
@@ -1319,223 +1833,297 @@
   {
    "id": "s08",
    "title": {
-    "en": "Interactive Concept Map"
+    "en": "Interactive Concept Map",
+    "ta": "ஊடாடும் கருத்து வரைபடம்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "A visual overview of how biotechnology branches connect to tools, products, and societal impacts — hover over each node to highlight it."
+      "en": "A visual overview of how biotechnology branches connect to tools, products, and societal impacts — hover over each node to highlight it.",
+      "ta": "உயிரித் தொழில்நுட்பவியலின் கிளைகள் கருவிகள், பொருட்கள், சமூகத் தாக்கங்களுடன் எவ்வாறு இணைகின்றன என்பதன் காட்சி மேலோட்டம் — முனைப்பாக்க ஒவ்வொரு முனையின் மீதும் தொடுக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🧬 Branches of Biotechnology — Concept Map**"
+      "en": "**🧬 Branches of Biotechnology — Concept Map**",
+      "ta": "**🧬 உயிரித் தொழில்நுட்பவியலின் கிளைகள் — கருத்து வரைபடம்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "BIOTECHNOLOGYApplication of biological systems"
+      "en": "BIOTECHNOLOGYApplication of biological systems",
+      "ta": "உயிரித் தொழில்நுட்பவியல்உயிரியல் அமைப்புகளின் பயன்பாடு",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "🔴 Medical Red Biotech"
+      "en": "🔴 Medical Red Biotech",
+      "ta": "🔴 மருத்துவம் சிவப்பு உயிரித் தொழில்நுட்பவியல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Vaccines"
+      "en": "Vaccines",
+      "ta": "தடுப்பூசிகள்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Insulin"
+      "en": "Insulin",
+      "ta": "இன்சுலின்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Gene Therapy"
+      "en": "Gene Therapy",
+      "ta": "மரபணு சிகிச்சை",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "🟢 Agricultural Green Biotech"
+      "en": "🟢 Agricultural Green Biotech",
+      "ta": "🟢 வேளாண்மை பசுமை உயிரித் தொழில்நுட்பவியல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "GM Crops"
+      "en": "GM Crops",
+      "ta": "GM பயிர்கள்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Bt Cotton"
+      "en": "Bt Cotton",
+      "ta": "Bt பருத்தி",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Tissue Culture"
+      "en": "Tissue Culture",
+      "ta": "திசு வளர்ப்பு",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "⚪ Industrial White Biotech"
+      "en": "⚪ Industrial White Biotech",
+      "ta": "⚪ தொழில்துறை வெள்ளை உயிரித் தொழில்நுட்பவியல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Enzymes"
+      "en": "Enzymes",
+      "ta": "நொதிகள்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Biofuels"
+      "en": "Biofuels",
+      "ta": "உயிரி எரிபொருள்கள்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Fermentation"
+      "en": "Fermentation",
+      "ta": "நொதித்தல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "⚫ Environmental Grey Biotech"
+      "en": "⚫ Environmental Grey Biotech",
+      "ta": "⚫ சூழல் சாம்பல் உயிரித் தொழில்நுட்பவியல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Bioremediation"
+      "en": "Bioremediation",
+      "ta": "உயிரிவழிச் சீரமைப்பு",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Biogas"
+      "en": "Biogas",
+      "ta": "உயிரிவளி",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Biomining"
+      "en": "Biomining",
+      "ta": "உயிரிச் சுரங்கவியல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Core ToolsEnabling technologies"
+      "en": "Core ToolsEnabling technologies",
+      "ta": "முக்கியக் கருவிகள்இயலச் செய்யும் தொழில்நுட்பங்கள்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "rDNA TechnologyCloning, expression"
+      "en": "rDNA TechnologyCloning, expression",
+      "ta": "rDNA தொழில்நுட்பம்நகலாக்கம், வெளிப்பாடு",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "PCRGene amplification"
+      "en": "PCRGene amplification",
+      "ta": "PCRமரபணுப் பெருக்கம்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "FermentationBioreactors"
+      "en": "FermentationBioreactors",
+      "ta": "நொதித்தல்உயிரிவினைக் கலன்கள்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "BioinformaticsData analysis"
+      "en": "BioinformaticsData analysis",
+      "ta": "உயிரித் தகவலியல்தரவுப் பகுப்பாய்வு",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "CRISPR-Cas9Genome editing"
+      "en": "CRISPR-Cas9Genome editing",
+      "ta": "CRISPR-Cas9மரபணுத்தொகைத் திருத்தம்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Products & ImpactSociety benefits"
+      "en": "Products & ImpactSociety benefits",
+      "ta": "பொருட்களும் தாக்கமும்சமூகப் பயன்கள்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Medicines & DiagnosticsInsulin, MAbs, vaccines"
+      "en": "Medicines & DiagnosticsInsulin, MAbs, vaccines",
+      "ta": "மருந்துகளும் நோயறிதலும்இன்சுலின், MAbs, தடுப்பூசிகள்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Improved Crops & FoodGM crops, biofortification"
+      "en": "Improved Crops & FoodGM crops, biofortification",
+      "ta": "மேம்பட்ட பயிர்களும் உணவும்GM பயிர்கள், உயிர்ச்செறிவூட்டல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Biofuels & ChemicalsEthanol, enzymes"
+      "en": "Biofuels & ChemicalsEthanol, enzymes",
+      "ta": "உயிரி எரிபொருள்களும் வேதிப்பொருள்களும்எத்தனால், நொதிகள்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Clean EnvironmentRemediation, biogas"
+      "en": "Clean EnvironmentRemediation, biogas",
+      "ta": "தூய சூழல்சீரமைப்பு, உயிரிவளி",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Process Flow — Recombinant DNA Technology**"
+      "en": "**Process Flow — Recombinant DNA Technology**",
+      "ta": "**செயல்முறை ஓட்டம் — மறுகூட்டிணைவு DNA தொழில்நுட்பம்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "🔬 1. Isolate Gene Restriction enzymes"
+      "en": "🔬 1. Isolate Gene Restriction enzymes",
+      "ta": "🔬 1. மரபணுவைத் தனித்துப் பிரித்தல்ரெஸ்ட்ரிக்ஷன் நொதிகள்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "🔵 2. Insert into Vector Plasmid + DNA ligase"
+      "en": "🔵 2. Insert into Vector Plasmid + DNA ligase",
+      "ta": "🔵 2. தாங்கிக்கடத்தியில் செருகுதல்பிளாஸ்மிட் + DNA லைகேஸ்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "🦠 3. Transform Host E. coli / Yeast"
+      "en": "🦠 3. Transform Host E. coli / Yeast",
+      "ta": "🦠 3. தகவல் பரிமாற்றம்ஓம்புயிரி E. coli / ஈஸ்ட்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "🔍 4. Select & Screen Antibiotic selection"
+      "en": "🔍 4. Select & Screen Antibiotic selection",
+      "ta": "🔍 4. தெரிவும் சலிக்கையும்ஆன்டிபயாடிக் தெரிவு",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "⚗️ 5. Express & Extract Purified protein"
+      "en": "⚗️ 5. Express & Extract Purified protein",
+      "ta": "⚗️ 5. வெளிப்பாடும் பிரித்தெடுத்தலும்தூய்மையாக்கப்பட்ட புரதம்",
+      "ta_status": "draft"
      }
     }
    ],
@@ -1544,295 +2132,393 @@
   {
    "id": "s09",
    "title": {
-    "en": "Summary & Exam Revision"
+    "en": "Summary & Exam Revision",
+    "ta": "சுருக்கமும் தேர்வு மீள்பார்வையும்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Key points for examination preparation — both MCQ and short-answer formats. Review these before your exam."
+      "en": "Key points for examination preparation — both MCQ and short-answer formats. Review these before your exam.",
+      "ta": "தேர்வுத் தயாரிப்புக்கான முக்கியக் குறிப்புகள் — MCQ, சுருக்க விடை இரு வடிவங்களிலும். தேர்வுக்கு முன் இவற்றை மீள்பார்வை செய்க.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Key Exam Points to Remember**"
+      "en": "**Key Exam Points to Remember**",
+      "ta": "**நினைவில் கொள்ள வேண்டிய முக்கியத் தேர்வுக் குறிப்புகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "1"
+      "en": "1",
+      "ta": "1",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Biotechnology** is the application of biological organisms, systems, or processes to make products or modify processes for specific use (UN CBD definition, 1992)."
+      "en": "**Biotechnology** is the application of biological organisms, systems, or processes to make products or modify processes for specific use (UN CBD definition, 1992).",
+      "ta": "**உயிரித் தொழில்நுட்பவியல்** என்பது குறிப்பிட்ட பயன்பாட்டுக்காகப் பொருட்களை உருவாக்க அல்லது செயல்முறைகளை மாற்ற உயிரியல் உயிரினங்கள், அமைப்புகள் அல்லது செயல்முறைகளைப் பயன்படுத்துதல் (ஐ.நா. CBD வரையறை, 1992).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "2"
+      "en": "2",
+      "ta": "2",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "The term **Biotechnology** was coined by Hungarian engineer **Károly Ereky in 1919**."
+      "en": "The term **Biotechnology** was coined by Hungarian engineer **Károly Ereky in 1919**.",
+      "ta": "**உயிரித் தொழில்நுட்பவியல்** என்ற சொல்லை ஹங்கேரியப் பொறியாளர் **கார்ஓலி எரெக்கி 1919**-ல் உருவாக்கினார்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "3"
+      "en": "3",
+      "ta": "3",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Traditional biotechnology** includes fermentation (bread, wine, beer, cheese). **Modern biotechnology** involves rDNA technology, PCR, CRISPR — post-1953 era."
+      "en": "**Traditional biotechnology** includes fermentation (bread, wine, beer, cheese). **Modern biotechnology** involves rDNA technology, PCR, CRISPR — post-1953 era.",
+      "ta": "**பாரம்பரிய உயிரித் தொழில்நுட்பவியலில்** நொதித்தல் (ரொட்டி, ஒயின், பீர், பாலாடைக்கட்டி) அடங்கும். **நவீன உயிரித் தொழில்நுட்பவியலில்** rDNA தொழில்நுட்பம், PCR, CRISPR அடங்கும் — 1953-க்குப் பிந்தைய காலம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "4"
+      "en": "4",
+      "ta": "4",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Branches: **Red** (Medical), **Green** (Agricultural), **White** (Industrial), **Blue** (Marine), **Yellow** (Food), **Grey** (Environmental) biotechnology."
+      "en": "Branches: **Red** (Medical), **Green** (Agricultural), **White** (Industrial), **Blue** (Marine), **Yellow** (Food), **Grey** (Environmental) biotechnology.",
+      "ta": "கிளைகள்: **சிவப்பு** (மருத்துவம்), **பசுமை** (வேளாண்மை), **வெள்ளை** (தொழில்துறை), **நீலம்** (கடல்), **மஞ்சள்** (உணவு), **சாம்பல்** (சூழல்) உயிரித் தொழில்நுட்பவியல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "5"
+      "en": "5",
+      "ta": "5",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**rDNA technology tools:** Restriction endonucleases (scissors), DNA ligase (glue), plasmids (vectors), _E. coli_ (host) — first demonstrated by Cohen & Boyer, 1973."
+      "en": "**rDNA technology tools:** Restriction endonucleases (scissors), DNA ligase (glue), plasmids (vectors), _E. coli_ (host) — first demonstrated by Cohen & Boyer, 1973.",
+      "ta": "**rDNA தொழில்நுட்பக் கருவிகள்:** ரெஸ்ட்ரிக்ஷன் எண்டோநியுக்ளியேஸ்கள் (கத்தரிகோல்), DNA லைகேஸ் (பசை), பிளாஸ்மிட்கள் (தாங்கிக்கடத்திகள்), _E. coli_ (ஓம்புயிரி) — கோஹென் & பாயர், 1973-ல் முதலில் செய்து காட்டினர்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "6"
+      "en": "6",
+      "ta": "6",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**First recombinant protein** produced commercially: Human insulin (Humulin) by Eli Lilly & Genentech, 1982, using _E. coli_."
+      "en": "**First recombinant protein** produced commercially: Human insulin (Humulin) by Eli Lilly & Genentech, 1982, using _E. coli_.",
+      "ta": "வணிக ரீதியாக உற்பத்தி செய்யப்பட்ட **முதல் மறுகூட்டிணைவுப் புரதம்:** _E. coli_ மூலம் எலி லில்லி & ஜெனென்டெக்கின் மனித இன்சுலின் (ஹியூமுலின்), 1982.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "7"
+      "en": "7",
+      "ta": "7",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**PCR** — invented by Kary Mullis (1983, Nobel 1993). Amplifies specific DNA in vitro using thermal cycling; enzyme: _Taq_ polymerase from _Thermus aquaticus_."
+      "en": "**PCR** — invented by Kary Mullis (1983, Nobel 1993). Amplifies specific DNA in vitro using thermal cycling; enzyme: _Taq_ polymerase from _Thermus aquaticus_.",
+      "ta": "**PCR** — கேரி முல்லிஸ் கண்டுபிடித்தார் (1983, நோபல் 1993). வெப்பச் சுழற்சி மூலம் குறிப்பிட்ட DNA-வை இன்-விட்ரோவில் பெருக்குகிறது; நொதி: _Thermus aquaticus_-இலிருந்து _Taq_ பாலிமரேஸ்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "8"
+      "en": "8",
+      "ta": "8",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Bt cotton** contains _cry_ gene from _Bacillus thuringiensis_; produces Bt toxin that kills bollworm. Approved in India in 2002; covers >95% cotton area."
+      "en": "**Bt cotton** contains _cry_ gene from _Bacillus thuringiensis_; produces Bt toxin that kills bollworm. Approved in India in 2002; covers >95% cotton area.",
+      "ta": "**Bt பருத்தியில்** _Bacillus thuringiensis_-இலிருந்து _cry_ மரபணு உள்ளது; காய்ப்புழுவைக் கொல்லும் Bt நச்சை உருவாக்குகிறது. 2002-ல் இந்தியாவில் அனுமதிக்கப்பட்டது; பருத்திப் பரப்பில் >95%.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "9"
+      "en": "9",
+      "ta": "9",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Golden Rice** — biofortified with β-carotene (pro-Vitamin A) using _psy_ and _crtI_ genes. Developed by Potrykus & Beyer (1999) to combat Vitamin A deficiency."
+      "en": "**Golden Rice** — biofortified with β-carotene (pro-Vitamin A) using _psy_ and _crtI_ genes. Developed by Potrykus & Beyer (1999) to combat Vitamin A deficiency.",
+      "ta": "**கோல்டன் ரைஸ்** — _psy_, _crtI_ மரபணுக்களால் β-கரோட்டினுடன் (புரோ-வைட்டமின் A) உயிர்ச்செறிவூட்டப்பட்டது. வைட்டமின் A குறைபாட்டை எதிர்கொள்ள போட்ரிகஸ் & பெயர் (1999) உருவாக்கினர்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "10"
+      "en": "10",
+      "ta": "10",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Monoclonal antibodies** — produced by hybridoma technology (Kohler & Milstein, 1975; Nobel 1984). Single clone B cells + myeloma cells → hybridoma → MAb."
+      "en": "**Monoclonal antibodies** — produced by hybridoma technology (Kohler & Milstein, 1975; Nobel 1984). Single clone B cells + myeloma cells → hybridoma → MAb.",
+      "ta": "**ஒற்றைப்படி எதிர்ப்பொருள்கள்** — கலப்பின செல் தொழில்நுட்பத்தால் உற்பத்தி (கோலர் & மில்ஸ்டீன், 1975; நோபல் 1984). ஒற்றைக் குளோன் B செல்கள் + மைலோமா செல்கள் → கலப்பின செல் → MAb.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "11"
+      "en": "11",
+      "ta": "11",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Dolly the sheep** (1996) — first mammal cloned from adult somatic cell by Ian Wilmut. Proved somatic cell nuclear transfer (SCNT) can reprogram differentiated cells."
+      "en": "**Dolly the sheep** (1996) — first mammal cloned from adult somatic cell by Ian Wilmut. Proved somatic cell nuclear transfer (SCNT) can reprogram differentiated cells.",
+      "ta": "**டாலி ஆடு** (1996) — முதிர்ந்த உடல செல்லிலிருந்து இயன் வில்மட்டால் நகலாக்கப்பட்ட முதல் பாலூட்டி. உடல செல் உட்கரு மாற்றம் (SCNT) வேறுபாடடைந்த செல்களை மீள்நிரலாக்க முடியும் என நிரூபித்தது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "12"
+      "en": "12",
+      "ta": "12",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**CRISPR-Cas9** — genome editing tool derived from bacterial immune system; guide RNA directs Cas9 nuclease to target. Nobel Prize 2020 to Jennifer Doudna & Emmanuelle Charpentier."
+      "en": "**CRISPR-Cas9** — genome editing tool derived from bacterial immune system; guide RNA directs Cas9 nuclease to target. Nobel Prize 2020 to Jennifer Doudna & Emmanuelle Charpentier.",
+      "ta": "**CRISPR-Cas9** — பாக்டீரிய நோய்த்தடுப்பு அமைப்பிலிருந்து பெறப்பட்ட மரபணுத்தொகைத் திருத்தும் கருவி; வழிகாட்டி RNA, Cas9 நியுக்ளியேஸை இலக்குக்கு வழிநடத்துகிறது. ஜெனிஃபர் டூட்னா & இம்மானுவேல் ஷார்பென்டியேவுக்கு 2020 நோபல் பரிசு.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "13"
+      "en": "13",
+      "ta": "13",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Bioremediation** — using microorganisms to degrade pollutants. _Pseudomonas putida_ (first GMO patent by Chakrabarty, 1980) degrades petroleum hydrocarbons."
+      "en": "**Bioremediation** — using microorganisms to degrade pollutants. _Pseudomonas putida_ (first GMO patent by Chakrabarty, 1980) degrades petroleum hydrocarbons.",
+      "ta": "**உயிரிவழிச் சீரமைப்பு** — மாசுபடுத்திகளைச் சிதைக்க நுண்ணுயிரிகளைப் பயன்படுத்துதல். _Pseudomonas putida_ (முதல் GMO காப்புரிமை, சக்ரபர்த்தி, 1980) பெட்ரோலிய ஹைட்ரோகார்பன்களைச் சிதைக்கிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "14"
+      "en": "14",
+      "ta": "14",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Totipotency** — every plant cell can regenerate a complete organism (Haberlandt, 1902). Basis of plant tissue culture — micropropagation, somatic hybridisation."
+      "en": "**Totipotency** — every plant cell can regenerate a complete organism (Haberlandt, 1902). Basis of plant tissue culture — micropropagation, somatic hybridisation.",
+      "ta": "**முழுத்திறன்** — ஒவ்வொரு தாவர செல்லும் முழு உயிரினத்தை மீளுருவாக்க முடியும் (ஹேபர்லாண்ட், 1902). தாவரத் திசு வளர்ப்பின் அடிப்படை — நுண்பெருக்கம், உடல செல் கலப்பினமாக்கல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Short-Answer Revision — University Exam Questions**"
+      "en": "**Short-Answer Revision — University Exam Questions**",
+      "ta": "**சுருக்க விடை மீள்பார்வை — பல்கலைக்கழகத் தேர்வு வினாக்கள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click each question to reveal the model answer"
+      "en": "Click each question to reveal the model answer",
+      "ta": "மாதிரி விடையை அறிய ஒவ்வொரு வினாவையும் தொடுக",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.1 Define biotechnology. Who coined the term? ▼"
+      "en": "Q.1 Define biotechnology. Who coined the term? ▼",
+      "ta": "வி.1 உயிரித் தொழில்நுட்பவியலை வரையறு. இச்சொல்லை உருவாக்கியவர் யார்? ▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Biotechnology** is the application of biological organisms, systems, or processes to make or modify products and processes for specific use (CBD, 1992). It integrates biology with technology to develop solutions for medicine, agriculture, industry, and environment. The term was coined by Hungarian engineer **Károly Ereky in 1919**."
+      "en": "**Biotechnology** is the application of biological organisms, systems, or processes to make or modify products and processes for specific use (CBD, 1992). It integrates biology with technology to develop solutions for medicine, agriculture, industry, and environment. The term was coined by Hungarian engineer **Károly Ereky in 1919**.",
+      "ta": "**உயிரித் தொழில்நுட்பவியல்** என்பது குறிப்பிட்ட பயன்பாட்டுக்காகப் பொருட்களையும் செயல்முறைகளையும் உருவாக்க அல்லது மாற்ற உயிரியல் உயிரினங்கள், அமைப்புகள் அல்லது செயல்முறைகளைப் பயன்படுத்துதல் (CBD, 1992). மருத்துவம், வேளாண்மை, தொழில், சூழலுக்குத் தீர்வுகளை உருவாக்க உயிரியலைத் தொழில்நுட்பத்துடன் ஒருங்கிணைக்கிறது. இச்சொல்லை ஹங்கேரியப் பொறியாளர் **கார்ஓலி எரெக்கி 1919**-ல் உருவாக்கினார்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.2 Distinguish between Traditional and Modern Biotechnology with examples. ▼"
+      "en": "Q.2 Distinguish between Traditional and Modern Biotechnology with examples. ▼",
+      "ta": "வி.2 எடுத்துக்காட்டுகளுடன் பாரம்பரிய, நவீன உயிரித் தொழில்நுட்பவியலைப் பிரித்தறிக. ▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Traditional biotechnology** uses natural organisms without genetic manipulation for processes like fermentation (bread, wine, cheese, yoghurt) over thousands of years. **Modern biotechnology** (post-1953) employs recombinant DNA technology, PCR, CRISPR, and genetic engineering to precisely modify organisms. Examples: Traditional — beer brewing using yeast; Modern — production of human insulin using _E. coli_ with inserted human insulin gene."
+      "en": "**Traditional biotechnology** uses natural organisms without genetic manipulation for processes like fermentation (bread, wine, cheese, yoghurt) over thousands of years. **Modern biotechnology** (post-1953) employs recombinant DNA technology, PCR, CRISPR, and genetic engineering to precisely modify organisms. Examples: Traditional — beer brewing using yeast; Modern — production of human insulin using _E. coli_ with inserted human insulin gene.",
+      "ta": "**பாரம்பரிய உயிரித் தொழில்நுட்பவியல்** ஆயிரக்கணக்கான ஆண்டுகளாக நொதித்தல் (ரொட்டி, ஒயின், பாலாடைக்கட்டி, தயிர்) போன்ற செயல்முறைகளுக்கு மரபணுக் கையாளுதலின்றி இயற்கை உயிரினங்களைப் பயன்படுத்துகிறது. **நவீன உயிரித் தொழில்நுட்பவியல்** (1953-க்குப் பின்) உயிரினங்களைத் துல்லியமாக மாற்ற மறுகூட்டிணைவு DNA தொழில்நுட்பம், PCR, CRISPR, மரபணுப் பொறியியலைப் பயன்படுத்துகிறது. எடுத்துக்காட்டுகள்: பாரம்பரியம் — ஈஸ்ட் கொண்டு பீர் தயாரிப்பு; நவீனம் — மனித இன்சுலின் மரபணு செருகப்பட்ட _E. coli_ மூலம் மனித இன்சுலின் உற்பத்தி.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.3 What are restriction enzymes? Give their role in rDNA technology. ▼"
+      "en": "Q.3 What are restriction enzymes? Give their role in rDNA technology. ▼",
+      "ta": "வி.3 ரெஸ்ட்ரிக்ஷன் நொதிகள் என்றால் என்ன? rDNA தொழில்நுட்பத்தில் அவற்றின் பங்கைத் தருக. ▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Restriction endonucleases** are bacterial enzymes that recognise and cut specific palindromic DNA sequences. They act as \"molecular scissors.\" In rDNA technology, restriction enzymes cut the desired gene from the donor DNA and also cut the vector (plasmid) at the same recognition sequence, creating compatible sticky ends that allow the gene to be inserted into the vector. Example: EcoRI cuts at 5′-GAATTC-3′ sequence. Werner Arber, Nathans & H. Smith won the Nobel Prize in 1978 for their discovery."
+      "en": "**Restriction endonucleases** are bacterial enzymes that recognise and cut specific palindromic DNA sequences. They act as \"molecular scissors.\" In rDNA technology, restriction enzymes cut the desired gene from the donor DNA and also cut the vector (plasmid) at the same recognition sequence, creating compatible sticky ends that allow the gene to be inserted into the vector. Example: EcoRI cuts at 5′-GAATTC-3′ sequence. Werner Arber, Nathans & H. Smith won the Nobel Prize in 1978 for their discovery.",
+      "ta": "**ரெஸ்ட்ரிக்ஷன் எண்டோநியுக்ளியேஸ்கள்** குறிப்பிட்ட முன்பின் ஒத்த DNA வரிசைகளை அறிந்து வெட்டும் பாக்டீரிய நொதிகள். இவை \"மூலக்கூறு கத்தரிகோல்களாகச்\" செயல்படுகின்றன. rDNA தொழில்நுட்பத்தில், ரெஸ்ட்ரிக்ஷன் நொதிகள் கொடையாளி DNA-விலிருந்து தேவையான மரபணுவை வெட்டுகின்றன; தாங்கிக்கடத்தியையும் (பிளாஸ்மிட்) அதே அறிதல் வரிசையில் வெட்டி, மரபணுவைத் தாங்கிக்கடத்தியில் செருக உதவும் பொருந்தும் ஒட்டும் முனைகளை உருவாக்குகின்றன. எடுத்துக்காட்டு: EcoRI 5′-GAATTC-3′ வரிசையில் வெட்டுகிறது. இக்கண்டுபிடிப்புக்கு வெர்னர் ஆர்பர், நாதன்ஸ் & எச். ஸ்மித் 1978-ல் நோபல் பரிசு பெற்றனர்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.4 What is bioremediation? Name two microorganisms used in it. ▼"
+      "en": "Q.4 What is bioremediation? Name two microorganisms used in it. ▼",
+      "ta": "வி.4 உயிரிவழிச் சீரமைப்பு என்றால் என்ன? அதில் பயன்படும் இரு நுண்ணுயிரிகளைக் குறிப்பிடுக. ▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Bioremediation** is the use of living organisms (mainly bacteria and fungi) to degrade, detoxify, or neutralise hazardous pollutants in the environment into harmless substances like CO₂ and H₂O. It is cost-effective, eco-friendly, and produces no secondary pollutants. Two microorganisms: (1) **_Pseudomonas putida_** — degrades petroleum hydrocarbons (oil spills); (2) **_Thiobacillus ferrooxidans_** — used in biomining to extract copper and gold from low-grade ores."
+      "en": "**Bioremediation** is the use of living organisms (mainly bacteria and fungi) to degrade, detoxify, or neutralise hazardous pollutants in the environment into harmless substances like CO₂ and H₂O. It is cost-effective, eco-friendly, and produces no secondary pollutants. Two microorganisms: (1) **_Pseudomonas putida_** — degrades petroleum hydrocarbons (oil spills); (2) **_Thiobacillus ferrooxidans_** — used in biomining to extract copper and gold from low-grade ores.",
+      "ta": "**உயிரிவழிச் சீரமைப்பு** என்பது சூழலிலுள்ள அபாயகரமான மாசுபடுத்திகளை CO₂, H₂O போன்ற தீங்கற்ற பொருட்களாகச் சிதைக்க, நச்சுநீக்க, நடுநிலையாக்க உயிருள்ள உயிரினங்களை (முக்கியமாகப் பாக்டீரியா, பூஞ்சை) பயன்படுத்துதல். செலவு குறைவு, சூழலுக்கு உகந்தது, இரண்டாம்நிலை மாசுபடுத்திகள் இல்லை. இரு நுண்ணுயிரிகள்: (1) **_Pseudomonas putida_** — பெட்ரோலிய ஹைட்ரோகார்பன்களைச் (எண்ணெய்க் கசிவு) சிதைக்கிறது; (2) **_Thiobacillus ferrooxidans_** — தரம் குறைந்த தாதுக்களிலிருந்து செம்பு, தங்கம் எடுக்க உயிரிச் சுரங்கவியலில் பயன்படுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.5 Explain the significance of Bt cotton in India. ▼"
+      "en": "Q.5 Explain the significance of Bt cotton in India. ▼",
+      "ta": "வி.5 இந்தியாவில் Bt பருத்தியின் முக்கியத்துவத்தை விளக்குக. ▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Bt cotton** contains the _cry_ gene from _Bacillus thuringiensis_ which produces Bt toxin (Cry proteins). This toxin forms pores in the gut of bollworm larvae (Helicoverpa armigera) causing death, while being harmless to mammals. **Approved in India in 2002**, Bt cotton now covers over 95% of India's cotton acreage. Its significance: (a) Reduced pesticide use by ~50%; (b) Increased yield by 30–40%; (c) Reduced production costs for farmers; (d) Decreased pesticide-related health hazards. Concern: resistance development in pests over time requires refuge zones."
+      "en": "**Bt cotton** contains the _cry_ gene from _Bacillus thuringiensis_ which produces Bt toxin (Cry proteins). This toxin forms pores in the gut of bollworm larvae (Helicoverpa armigera) causing death, while being harmless to mammals. **Approved in India in 2002**, Bt cotton now covers over 95% of India's cotton acreage. Its significance: (a) Reduced pesticide use by ~50%; (b) Increased yield by 30–40%; (c) Reduced production costs for farmers; (d) Decreased pesticide-related health hazards. Concern: resistance development in pests over time requires refuge zones.",
+      "ta": "**Bt பருத்தியில்** _Bacillus thuringiensis_-இலிருந்து _cry_ மரபணு உள்ளது; இது Bt நச்சை (Cry புரதங்கள்) உருவாக்குகிறது. இந்நச்சு காய்ப்புழு (Helicoverpa armigera) இளவுயிரிகளின் குடலில் துளைகளை உருவாக்கி இறப்பை ஏற்படுத்துகிறது; பாலூட்டிகளுக்குத் தீங்கற்றது. **இந்தியாவில் 2002-ல் அனுமதிக்கப்பட்டது**; இப்போது இந்தியப் பருத்தி நிலப்பரப்பில் 95%-க்கும் மேல் உள்ளது. முக்கியத்துவம்: (அ) பூச்சிக்கொல்லிப் பயன்பாடு ~50% குறைவு; (ஆ) விளைச்சல் 30–40% அதிகரிப்பு; (இ) விவசாயிகளுக்கு உற்பத்திச் செலவு குறைவு; (ஈ) பூச்சிக்கொல்லி தொடர்பான உடல்நல ஆபத்துகள் குறைவு. கவலை: காலப்போக்கில் பூச்சிகளில் எதிர்ப்பு உருவாவதால் புகலிட மண்டலங்கள் தேவை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.6 Write short notes on monoclonal antibodies and their applications. ▼"
+      "en": "Q.6 Write short notes on monoclonal antibodies and their applications. ▼",
+      "ta": "வி.6 ஒற்றைப்படி எதிர்ப்பொருள்கள், அவற்றின் பயன்பாடுகள் பற்றிச் சிறு குறிப்பு எழுதுக. ▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Monoclonal antibodies (MAbs)** are identical antibodies produced by a single clone of B lymphocytes (hybridoma cells) and are highly specific to one antigen. Hybridoma technology was developed by **Kohler & Milstein (1975)**, earning the Nobel Prize in 1984. Process: Immunise animal → B cells + myeloma cells → hybridoma → single clone → MAb. **Applications:** (1) Cancer therapy — Herceptin (breast cancer), Rituximab (lymphoma); (2) Autoimmune diseases — Adalimumab (Humira); (3) Transplant rejection prevention; (4) Diagnostics — pregnancy test kits, COVID-19 rapid tests, HIV tests; (5) Research — Western blot, ELISA, flow cytometry."
+      "en": "**Monoclonal antibodies (MAbs)** are identical antibodies produced by a single clone of B lymphocytes (hybridoma cells) and are highly specific to one antigen. Hybridoma technology was developed by **Kohler & Milstein (1975)**, earning the Nobel Prize in 1984. Process: Immunise animal → B cells + myeloma cells → hybridoma → single clone → MAb. **Applications:** (1) Cancer therapy — Herceptin (breast cancer), Rituximab (lymphoma); (2) Autoimmune diseases — Adalimumab (Humira); (3) Transplant rejection prevention; (4) Diagnostics — pregnancy test kits, COVID-19 rapid tests, HIV tests; (5) Research — Western blot, ELISA, flow cytometry.",
+      "ta": "**ஒற்றைப்படி எதிர்ப்பொருள்கள் (MAbs)** என்பவை B நிணநீர்ச் செல்களின் (கலப்பின செல்கள்) ஒரே குளோனால் உருவாக்கப்படும் ஒத்த எதிர்ப்பொருள்கள்; ஓர் எதிர்ப்பொருள் ஊக்கிக்கு மிகவும் தனித்தன்மை வாய்ந்தவை. கலப்பின செல் தொழில்நுட்பத்தை **கோலர் & மில்ஸ்டீன் (1975)** உருவாக்கி 1984-ல் நோபல் பரிசு பெற்றனர். செயல்முறை: விலங்குக்கு நோய்த்தடுப்பு → B செல்கள் + மைலோமா செல்கள் → கலப்பின செல் → ஒற்றைக் குளோன் → MAb. **பயன்பாடுகள்:** (1) புற்றுநோய் சிகிச்சை — ஹெர்செப்டின் (மார்பகப் புற்று), ரிட்டுக்ஸிமாப் (நிணநீர்ப் புற்று); (2) தன்னெதிர்ப்பு நோய்கள் — அடாலிமுமாப் (ஹூமிரா); (3) மாற்று உறுப்பு நிராகரிப்புத் தடுப்பு; (4) நோயறிதல் — கர்ப்பப் பரிசோதனைக் கருவிகள், COVID-19 விரைவுச் சோதனைகள், HIV சோதனைகள்; (5) ஆராய்ச்சி — வெஸ்டர்ன் பிளாட், ELISA, பாய்வு செல்லளவியல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.7 What is CRISPR-Cas9? Why is it considered a revolutionary tool? ▼"
+      "en": "Q.7 What is CRISPR-Cas9? Why is it considered a revolutionary tool? ▼",
+      "ta": "வி.7 CRISPR-Cas9 என்றால் என்ன? இது ஏன் புரட்சிகரக் கருவியாகக் கருதப்படுகிறது? ▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**CRISPR-Cas9** (Clustered Regularly Interspaced Short Palindromic Repeats — CRISPR-associated protein 9) is a revolutionary genome editing technology derived from a bacterial immune defence system. A **guide RNA (gRNA)** directs the Cas9 nuclease to a specific target DNA sequence, where it makes a precise double-strand cut. The cell's repair mechanism can then introduce desired changes. It is revolutionary because: (a) Highly precise — single base editing possible; (b) Simple to design; (c) Fast and affordable compared to previous tools (ZFN, TALEN); (d) Works in any organism. **Jennifer Doudna & Emmanuelle Charpentier** received the Nobel Prize in Chemistry 2020."
+      "en": "**CRISPR-Cas9** (Clustered Regularly Interspaced Short Palindromic Repeats — CRISPR-associated protein 9) is a revolutionary genome editing technology derived from a bacterial immune defence system. A **guide RNA (gRNA)** directs the Cas9 nuclease to a specific target DNA sequence, where it makes a precise double-strand cut. The cell's repair mechanism can then introduce desired changes. It is revolutionary because: (a) Highly precise — single base editing possible; (b) Simple to design; (c) Fast and affordable compared to previous tools (ZFN, TALEN); (d) Works in any organism. **Jennifer Doudna & Emmanuelle Charpentier** received the Nobel Prize in Chemistry 2020.",
+      "ta": "**CRISPR-Cas9** (Clustered Regularly Interspaced Short Palindromic Repeats — CRISPR-தொடர்புடைய புரதம் 9) என்பது பாக்டீரிய நோய்த்தடுப்புத் தற்காப்பு அமைப்பிலிருந்து பெறப்பட்ட புரட்சிகர மரபணுத்தொகைத் திருத்தும் தொழில்நுட்பம். **வழிகாட்டி RNA (gRNA)** Cas9 நியுக்ளியேஸைக் குறிப்பிட்ட இலக்கு DNA வரிசைக்கு வழிநடத்துகிறது; அங்கு அது துல்லியமாக இரட்டை இழை வெட்டை ஏற்படுத்துகிறது. செல்லின் பழுதுபார்ப்பு இயங்குமுறை பின்னர் விரும்பிய மாற்றங்களை உருவாக்கலாம். புரட்சிகரமாகக் கருதப்படக் காரணங்கள்: (அ) மிகத் துல்லியம் — ஒற்றைக் காரணி திருத்தமும் சாத்தியம்; (ஆ) வடிவமைக்க எளிது; (இ) முந்தைய கருவிகளை (ZFN, TALEN) விட வேகமானது, மலிவானது; (ஈ) எந்த உயிரினத்திலும் செயல்படும். **ஜெனிஃபர் டூட்னா & இம்மானுவேல் ஷார்பென்டியே** 2020 வேதியியல் நோபல் பரிசு பெற்றனர்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.8 Write the importance of biotechnology in healthcare. ▼"
+      "en": "Q.8 Write the importance of biotechnology in healthcare. ▼",
+      "ta": "வி.8 சுகாதாரத்தில் உயிரித் தொழில்நுட்பவியலின் முக்கியத்துவத்தை எழுதுக. ▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Biotechnology's role in healthcare includes: (1) **Therapeutic proteins** — Human insulin, growth hormone, clotting factors, erythropoietin produced via rDNA technology; (2) **Vaccines** — Hepatitis B vaccine (yeast), HPV vaccine, COVID-19 mRNA vaccine (Moderna, Pfizer); (3) **Monoclonal antibodies** — targeted cancer therapy, autoimmune disease treatment; (4) **Gene therapy** — correcting defective genes in SCID, haemophilia, β-thalassaemia; (5) **Diagnostics** — PCR (disease detection), ELISA (hormone levels, pregnancy), DNA fingerprinting (forensics); (6) **Stem cell therapy** — regenerating damaged tissues; (7) **Pharmacogenomics** — personalised drug treatment based on individual genetic profile."
+      "en": "Biotechnology's role in healthcare includes: (1) **Therapeutic proteins** — Human insulin, growth hormone, clotting factors, erythropoietin produced via rDNA technology; (2) **Vaccines** — Hepatitis B vaccine (yeast), HPV vaccine, COVID-19 mRNA vaccine (Moderna, Pfizer); (3) **Monoclonal antibodies** — targeted cancer therapy, autoimmune disease treatment; (4) **Gene therapy** — correcting defective genes in SCID, haemophilia, β-thalassaemia; (5) **Diagnostics** — PCR (disease detection), ELISA (hormone levels, pregnancy), DNA fingerprinting (forensics); (6) **Stem cell therapy** — regenerating damaged tissues; (7) **Pharmacogenomics** — personalised drug treatment based on individual genetic profile.",
+      "ta": "சுகாதாரத்தில் உயிரித் தொழில்நுட்பவியலின் பங்கு: (1) **சிகிச்சைப் புரதங்கள்** — மனித இன்சுலின், வளர்ச்சி ஹார்மோன், இரத்த உறைவுக் காரணிகள், எரித்ரோபொயட்டின் rDNA தொழில்நுட்பத்தால் உற்பத்தி; (2) **தடுப்பூசிகள்** — ஹெபடைடிஸ் B தடுப்பூசி (ஈஸ்ட்), HPV தடுப்பூசி, COVID-19 mRNA தடுப்பூசி (மாடர்னா, ஃபைசர்); (3) **ஒற்றைப்படி எதிர்ப்பொருள்கள்** — இலக்கு புற்றுநோய் சிகிச்சை, தன்னெதிர்ப்பு நோய்ச் சிகிச்சை; (4) **மரபணு சிகிச்சை** — SCID, ஹீமோஃபிலியா, β-தலசீமியாவில் குறைபாடுள்ள மரபணுக்களைச் சரிசெய்தல்; (5) **நோயறிதல்** — PCR (நோய் கண்டறிதல்), ELISA (ஹார்மோன் அளவு, கர்ப்பம்), DNA கைரேகைப் பதிவு (தடயவியல்); (6) **ஸ்டெம் செல் சிகிச்சை** — சேதமடைந்த திசுக்களை மீளுருவாக்குதல்; (7) **மருந்து மரபணுவியல்** — தனிநபரின் மரபணுச் சுயவிவரத்தின் அடிப்படையில் தனிப்பயன் மருந்துச் சிகிச்சை.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -1841,157 +2527,225 @@
   {
    "id": "s10",
    "title": {
-    "en": "Key Terms & Glossary"
+    "en": "Key Terms & Glossary",
+    "ta": "முக்கியச் சொற்களும் சொற்களஞ்சியமும்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Essential scientific terms with clear, student-friendly definitions for quick revision and examination preparation."
+      "en": "Essential scientific terms with clear, student-friendly definitions for quick revision and examination preparation.",
+      "ta": "விரைவு மீள்பார்வைக்கும் தேர்வுத் தயாரிப்புக்கும் மாணவர்க்கு எளிய, தெளிவான வரையறைகளுடன் கூடிய இன்றியமையா அறிவியல் சொற்கள்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Biotechnology"
+      "en": "Biotechnology",
+      "ta": "உயிரித் தொழில்நுட்பவியல்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "The application of **biological organisms, systems, or processes** to develop products and processes for specific uses in medicine, agriculture, industry, and the environment. Coined by Károly Ereky (1919)."
+      "en": "The application of **biological organisms, systems, or processes** to develop products and processes for specific uses in medicine, agriculture, industry, and the environment. Coined by Károly Ereky (1919).",
+      "ta": "மருத்துவம், வேளாண்மை, தொழில், சூழலில் குறிப்பிட்ட பயன்பாடுகளுக்காகப் பொருட்களையும் செயல்முறைகளையும் உருவாக்க **உயிரியல் உயிரினங்கள், அமைப்புகள் அல்லது செயல்முறைகளைப்** பயன்படுத்துதல். கார்ஓலி எரெக்கி உருவாக்கியது (1919).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Recombinant DNA (rDNA)"
+      "en": "Recombinant DNA (rDNA)",
+      "ta": "மறுகூட்டிணைவு DNA (rDNA)",
+      "ta_status": "bracketed"
      },
      "definition": {
-      "en": "A **hybrid DNA molecule** formed by combining DNA sequences from two different organisms using restriction enzymes and DNA ligase. The foundation of modern genetic engineering."
+      "en": "A **hybrid DNA molecule** formed by combining DNA sequences from two different organisms using restriction enzymes and DNA ligase. The foundation of modern genetic engineering.",
+      "ta": "ரெஸ்ட்ரிக்ஷன் நொதிகள், DNA லைகேஸைப் பயன்படுத்தி இரு வெவ்வேறு உயிரினங்களின் DNA வரிசைகளை இணைத்து உருவாக்கப்படும் **கலப்பின DNA மூலக்கூறு**. நவீன மரபணுப் பொறியியலின் அடித்தளம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Restriction Endonuclease"
+      "en": "Restriction Endonuclease",
+      "ta": "ரெஸ்ட்ரிக்ஷன் எண்டோநியுக்ளியேஸ்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "A bacterial enzyme that **cuts double-stranded DNA** at specific palindromic recognition sequences. Acts as \"molecular scissors\" in rDNA technology. Example: EcoRI, BamHI."
+      "en": "A bacterial enzyme that **cuts double-stranded DNA** at specific palindromic recognition sequences. Acts as \"molecular scissors\" in rDNA technology. Example: EcoRI, BamHI.",
+      "ta": "குறிப்பிட்ட முன்பின் ஒத்த அறிதல் வரிசைகளில் **இரட்டை இழை DNA-வை வெட்டும்** பாக்டீரிய நொதி. rDNA தொழில்நுட்பத்தில் \"மூலக்கூறு கத்தரிகோலாகச்\" செயல்படுகிறது. எடுத்துக்காட்டு: EcoRI, BamHI.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Plasmid"
+      "en": "Plasmid",
+      "ta": "பிளாஸ்மிட்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "A small, circular, **extra-chromosomal DNA** molecule in bacteria that replicates independently. Used as a **vector (vehicle)** to carry and express foreign genes in host organisms."
+      "en": "A small, circular, **extra-chromosomal DNA** molecule in bacteria that replicates independently. Used as a **vector (vehicle)** to carry and express foreign genes in host organisms.",
+      "ta": "பாக்டீரியாக்களில் தனித்துப் பெருகும் சிறிய, வட்ட வடிவ, **குரோமோசோமுக்கு வெளியே உள்ள DNA** மூலக்கூறு. ஓம்புயிரி உயிரினங்களில் அந்நிய மரபணுக்களைக் கொண்டு சென்று வெளிப்படுத்த **தாங்கிக்கடத்தியாக (ஊர்தியாக)** பயன்படுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "PCR (Polymerase Chain Reaction)"
+      "en": "PCR (Polymerase Chain Reaction)",
+      "ta": "PCR (பாலிமரேஸ் சங்கிலி வினை)",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "A technique for **amplifying specific DNA sequences** in vitro using thermal cycling (denaturation → annealing → extension). Uses Taq polymerase. Invented by Kary Mullis (1983)."
+      "en": "A technique for **amplifying specific DNA sequences** in vitro using thermal cycling (denaturation → annealing → extension). Uses Taq polymerase. Invented by Kary Mullis (1983).",
+      "ta": "வெப்பச் சுழற்சி (டினேச்சுரேஷன் → அனீலிங் → நீட்சி) மூலம் குறிப்பிட்ட **DNA வரிசைகளை இன்-விட்ரோவில் பெருக்கும்** நுட்பம். Taq பாலிமரேஸைப் பயன்படுத்துகிறது. கேரி முல்லிஸ் கண்டுபிடித்தார் (1983).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "GMO (Genetically Modified Organism)"
+      "en": "GMO (Genetically Modified Organism)",
+      "ta": "GMO (மரபணு மாற்றப்பட்ட உயிரினம்)",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "An organism whose **genome has been altered** using genetic engineering techniques, introducing genes from another species. Examples: Bt cotton, Golden Rice, recombinant E. coli."
+      "en": "An organism whose **genome has been altered** using genetic engineering techniques, introducing genes from another species. Examples: Bt cotton, Golden Rice, recombinant E. coli.",
+      "ta": "மரபணுப் பொறியியல் நுட்பங்களால் வேறொரு சிற்றினத்தின் மரபணுக்களைச் செலுத்தி **மரபணுத்தொகை மாற்றப்பட்ட** உயிரினம். எடுத்துக்காட்டுகள்: Bt பருத்தி, கோல்டன் ரைஸ், மறுகூட்டிணைவு E. coli.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Monoclonal Antibodies (MAbs)"
+      "en": "Monoclonal Antibodies (MAbs)",
+      "ta": "ஒற்றைப்படி எதிர்ப்பொருள்கள் (MAbs)",
+      "ta_status": "bracketed"
      },
      "definition": {
-      "en": "Highly specific antibodies produced by a **single clone of hybridoma cells**, all identical and targeting one specific antigen. Used in cancer therapy, diagnostics, and immunotherapy."
+      "en": "Highly specific antibodies produced by a **single clone of hybridoma cells**, all identical and targeting one specific antigen. Used in cancer therapy, diagnostics, and immunotherapy.",
+      "ta": "கலப்பின செல்களின் **ஒரே குளோனால்** உருவாக்கப்படும், அனைத்தும் ஒத்த, ஒரு குறிப்பிட்ட எதிர்ப்பொருள் ஊக்கியை இலக்காகக் கொண்ட மிகத் தனித்தன்மையான எதிர்ப்பொருள்கள். புற்றுநோய் சிகிச்சை, நோயறிதல், நோயெதிர்ப்புச் சிகிச்சையில் பயன்படுகின்றன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Gene Therapy"
+      "en": "Gene Therapy",
+      "ta": "மரபணு சிகிச்சை",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "A therapeutic approach involving **introduction, alteration, or replacement of a defective gene** in a patient's cells to treat inherited or acquired diseases (e.g., SCID, haemophilia)."
+      "en": "A therapeutic approach involving **introduction, alteration, or replacement of a defective gene** in a patient's cells to treat inherited or acquired diseases (e.g., SCID, haemophilia).",
+      "ta": "மரபுவழி அல்லது பெறப்பட்ட நோய்களைக் குணப்படுத்த நோயாளியின் செல்களில் **குறைபாடுள்ள மரபணுவைச் செருகுதல், மாற்றுதல் அல்லது பதிலீடு செய்தல்** என்ற சிகிச்சை அணுகுமுறை (எ.கா. SCID, ஹீமோஃபிலியா).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Bioremediation"
+      "en": "Bioremediation",
+      "ta": "உயிரிவழிச் சீரமைப்பு",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "The use of **microorganisms or plants to degrade, neutralise, or transform pollutants** in contaminated soil, water, or air into harmless substances. Eco-friendly and cost-effective clean-up technology."
+      "en": "The use of **microorganisms or plants to degrade, neutralise, or transform pollutants** in contaminated soil, water, or air into harmless substances. Eco-friendly and cost-effective clean-up technology.",
+      "ta": "மாசடைந்த மண், நீர், காற்றிலுள்ள **மாசுபடுத்திகளைத் தீங்கற்ற பொருட்களாகச் சிதைக்க, நடுநிலையாக்க, மாற்ற நுண்ணுயிரிகள் அல்லது தாவரங்களைப் பயன்படுத்துதல்**. சூழலுக்கு உகந்த, செலவு குறைந்த சுத்திகரிப்புத் தொழில்நுட்பம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Cloning Vector"
+      "en": "Cloning Vector",
+      "ta": "நகலாக்கத் தாங்கிக்கடத்தி",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "A DNA molecule (plasmid, phage, BAC) used as a **vehicle to carry a foreign gene** into a host cell where it can be replicated and expressed. Must have ori, MCS, selectable marker."
+      "en": "A DNA molecule (plasmid, phage, BAC) used as a **vehicle to carry a foreign gene** into a host cell where it can be replicated and expressed. Must have ori, MCS, selectable marker.",
+      "ta": "அந்நிய மரபணுவை ஓம்புயிரி செல்லுக்குள் கொண்டு சென்று பெருக்கி வெளிப்படுத்தும் **ஊர்தியாகப்** பயன்படும் DNA மூலக்கூறு (பிளாஸ்மிட், பேஜ், BAC). ori, MCS, தேர்ந்தெடுக்கும் அடையாளக்குறி இருக்க வேண்டும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "CRISPR-Cas9"
+      "en": "CRISPR-Cas9",
+      "ta": "CRISPR-Cas9",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "A bacterial-derived **genome editing system** using guide RNA to direct Cas9 nuclease to precise DNA locations for targeted cuts. Revolutionary for gene therapy, crop improvement, and research. Nobel 2020."
+      "en": "A bacterial-derived **genome editing system** using guide RNA to direct Cas9 nuclease to precise DNA locations for targeted cuts. Revolutionary for gene therapy, crop improvement, and research. Nobel 2020.",
+      "ta": "இலக்கு வெட்டுகளுக்கு Cas9 நியுக்ளியேஸை DNA-வின் துல்லிய இடங்களுக்கு வழிநடத்தும் வழிகாட்டி RNA-வைப் பயன்படுத்தும், பாக்டீரியாவிலிருந்து பெறப்பட்ட **மரபணுத்தொகைத் திருத்தும் அமைப்பு**. மரபணு சிகிச்சை, பயிர் மேம்பாடு, ஆராய்ச்சியில் புரட்சிகரமானது. நோபல் 2020.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Fermentation"
+      "en": "Fermentation",
+      "ta": "நொதித்தல்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Microbial **anaerobic breakdown of organic compounds** (sugars) to produce energy, alcohol, acids, or gases. Used industrially to produce ethanol, antibiotics, vitamins, enzymes, and dairy products."
+      "en": "Microbial **anaerobic breakdown of organic compounds** (sugars) to produce energy, alcohol, acids, or gases. Used industrially to produce ethanol, antibiotics, vitamins, enzymes, and dairy products.",
+      "ta": "ஆற்றல், ஆல்கஹால், அமிலங்கள் அல்லது வளிமங்களை உருவாக்க நுண்ணுயிரிகள் **கரிமச் சேர்மங்களைக் (சர்க்கரைகளை) காற்றின்றிச் சிதைத்தல்**. எத்தனால், ஆன்டிபயாடிக்குகள், வைட்டமின்கள், நொதிகள், பால் பொருட்கள் தொழில்துறையில் உற்பத்தி செய்யப் பயன்படுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Totipotency"
+      "en": "Totipotency",
+      "ta": "முழுத்திறன்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "The ability of a single **plant cell to regenerate a complete organism** because it contains the entire genetic information. The fundamental principle underlying plant tissue culture (Haberlandt, 1902)."
+      "en": "The ability of a single **plant cell to regenerate a complete organism** because it contains the entire genetic information. The fundamental principle underlying plant tissue culture (Haberlandt, 1902).",
+      "ta": "முழு மரபணுத் தகவலையும் கொண்டிருப்பதால் ஒற்றை **தாவர செல் முழு உயிரினத்தை மீளுருவாக்கும் திறன்**. தாவரத் திசு வளர்ப்பின் அடிப்படைக் கொள்கை (ஹேபர்லாண்ட், 1902).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Bioreactor"
+      "en": "Bioreactor",
+      "ta": "உயிரிவினைக் கலன்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "A controlled vessel providing optimal conditions (temperature, pH, O₂, agitation) for **large-scale microbial cultivation** to produce industrial products like enzymes, antibiotics, or biofuels."
+      "en": "A controlled vessel providing optimal conditions (temperature, pH, O₂, agitation) for **large-scale microbial cultivation** to produce industrial products like enzymes, antibiotics, or biofuels.",
+      "ta": "நொதிகள், ஆன்டிபயாடிக்குகள், உயிரி எரிபொருள்கள் போன்ற தொழில்துறைப் பொருட்களை உருவாக்க **நுண்ணுயிரிகளைப் பெருமளவில் வளர்க்க** உகந்த நிலைகளை (வெப்பநிலை, pH, O₂, கலக்குதல்) வழங்கும் கட்டுப்படுத்தப்பட்ட கலன்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Transgenic Organism"
+      "en": "Transgenic Organism",
+      "ta": "மாற்றுயிர் உயிரினம்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "An organism that carries a **foreign gene (transgene) from another species** in its genome. The transgene is heritable and expressed in all cells. Examples: Transgenic mice, Bt cotton, Dolly (cloned)."
+      "en": "An organism that carries a **foreign gene (transgene) from another species** in its genome. The transgene is heritable and expressed in all cells. Examples: Transgenic mice, Bt cotton, Dolly (cloned).",
+      "ta": "தன் மரபணுத்தொகையில் **வேறொரு சிற்றினத்தின் அந்நிய மரபணுவை (மாற்றுமரபணு)** கொண்ட உயிரினம். மாற்றுமரபணு மரபுவழி கடத்தப்பட்டு அனைத்துச் செல்களிலும் வெளிப்படுகிறது. எடுத்துக்காட்டுகள்: மாற்றுயிர் எலிகள், Bt பருத்தி, டாலி (நகலாக்கம்).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Stem Cells"
+      "en": "Stem Cells",
+      "ta": "ஸ்டெம் செல்கள்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "**Undifferentiated cells** capable of self-renewal and differentiation into any cell type. Embryonic stem cells (pluripotent) and adult stem cells have therapeutic applications in regenerative medicine."
+      "en": "**Undifferentiated cells** capable of self-renewal and differentiation into any cell type. Embryonic stem cells (pluripotent) and adult stem cells have therapeutic applications in regenerative medicine.",
+      "ta": "தன்னைப் புதுப்பித்துக்கொள்ளவும் எந்தச் செல் வகையாகவும் வேறுபாடடையவும் திறனுள்ள **வேறுபாடடையாத செல்கள்**. கரு ஸ்டெம் செல்களும் (பன்முகத்திறன்) முதிர்ந்த ஸ்டெம் செல்களும் மீளுருவாக்க மருத்துவத்தில் சிகிச்சைப் பயன்பாடுகளைக் கொண்டவை.",
+      "ta_status": "draft"
      }
     }
    ],
