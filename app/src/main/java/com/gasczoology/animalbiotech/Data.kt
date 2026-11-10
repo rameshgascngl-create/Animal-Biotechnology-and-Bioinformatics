@@ -19,7 +19,7 @@ data class Topic(
 
 data class UnitInfo(val roman: String, val title: String, val topics: List<Topic>)
 
-data class Mcq(val id: String, val q: String, val options: List<String>, val answer: Int, val explanation: String)
+data class Mcq(val id: String, val q: String, val options: List<String>, val answer: Int, val explanation: String, val qTa: String = "", val optionsTa: List<String> = emptyList(), val explanationTa: String = "")
 
 data class Saq(val q: String, val a: String)
 data class Term(val term: String, val def: String, val module: String)
@@ -105,7 +105,7 @@ object Repo {
                 val oa = o.getJSONArray("o")
                 val opts = ArrayList<String>()
                 for (k in 0 until oa.length()) opts.add(oa.getString(k))
-                items.add(Mcq("$file#${o.getString("q").hashCode()}", o.getString("q"), opts, o.getInt("a"), o.optString("e", "")))
+                items.add(parseMcq(file, o))
             }
             val m = mods.optJSONObject(file)
             out.add(

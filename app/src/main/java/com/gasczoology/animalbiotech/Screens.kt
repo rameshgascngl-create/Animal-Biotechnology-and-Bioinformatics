@@ -47,6 +47,10 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
+import com.gasczoology.animalbiotech.i18n.Lang
+import com.gasczoology.animalbiotech.content.Bi
+import com.gasczoology.animalbiotech.ui.blocks.BiText
+import androidx.compose.material3.FilterChip
 import kotlinx.coroutines.delay
 
 val Navy = Color(0xFF0F2744)
@@ -132,6 +136,8 @@ fun QuizScreen(
     title: String,
     items: List<Mcq>,
     timeLimitSec: Int = 0,
+    lang: Lang = Lang.EN,
+    onLang: (Lang) -> Unit = {},
     onAnswer: (Mcq, Boolean) -> Unit = { _, _ -> },
     onFinish: (Int) -> Unit,
     onClose: () -> Unit,
@@ -172,7 +178,7 @@ fun QuizScreen(
             )
         },
     ) { inner ->
-        if (done) {
+        if (done || items.isEmpty()) {
             val pct = if (items.isEmpty()) 0 else score * 100 / items.size
             val msg = when {
                 pct >= 90 -> "Excellent. Exam-ready on this topic."
@@ -205,6 +211,14 @@ fun QuizScreen(
                 contentPadding = PaddingValues(16.dp),
                 verticalArrangement = Arrangement.spacedBy(10.dp),
             ) {
+                item(key = "language") {
+                    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                        Lang.entries.forEach { value ->
+                            FilterChip(selected = lang == value, onClick = { onLang(value) },
+                                label = { Text(when (value) { Lang.EN -> "English"; Lang.TA -> "தமிழ்"; Lang.BOTH -> "Both / இரண்டும்" }) })
+                        }
+                    }
+                }
                 item(key = "head$round-$idx") {
                     val clock = if (timeLimitSec > 0) "   ·   %d:%02d left".format(remaining / 60, remaining % 60) else ""
                     Text("Question ${idx + 1} of ${items.size}   ·   Score $score$clock", style = MaterialTheme.typography.labelLarge, color = Teal)
@@ -215,7 +229,7 @@ fun QuizScreen(
                         color = Teal,
                     )
                     Spacer(Modifier.height(14.dp))
-                    Text(q.q, style = MaterialTheme.typography.titleMedium, color = Navy, fontWeight = FontWeight.SemiBold)
+                    BiText(Bi(q.q, q.qTa), lang, 1f, base = MaterialTheme.typography.titleMedium, weight = FontWeight.SemiBold)
                 }
                 items(order.indices.toList(), key = { "o$round-$idx-$it" }) { pos ->
                     val i = order[pos]
@@ -243,7 +257,7 @@ fun QuizScreen(
                     ) {
                         Row(Modifier.padding(14.dp), verticalAlignment = Alignment.Top) {
                             Text("${'A' + pos}.  ", fontWeight = FontWeight.Bold, color = Navy)
-                            Text(q.options[i])
+                            BiText(Bi(q.options[i], q.optionsTa.getOrElse(i) { "" }), lang, 1f, Modifier.weight(1f))
                         }
                     }
                 }
@@ -255,10 +269,10 @@ fun QuizScreen(
                             modifier = Modifier.fillMaxWidth(),
                         ) {
                             Column(Modifier.padding(14.dp)) {
-                                Text(if (ok) "Correct." else "Not quite.", fontWeight = FontWeight.Bold, color = if (ok) Teal else Rose)
+                                Text(pick(if (ok) "Correct." else "Not quite.", if (ok) "சரி." else "தவறான விடை.", lang), fontWeight = FontWeight.Bold, color = if (ok) Teal else Rose)
                                 if (q.explanation.isNotBlank()) {
                                     Spacer(Modifier.height(4.dp))
-                                    Text(q.explanation, style = MaterialTheme.typography.bodyMedium)
+                                    BiText(Bi(q.explanation, q.explanationTa), lang, 1f, base = MaterialTheme.typography.bodyMedium)
                                 }
                             }
                         }
@@ -274,7 +288,7 @@ fun QuizScreen(
                                 }
                             },
                             modifier = Modifier.fillMaxWidth(),
-                        ) { Text(if (idx == items.size - 1) "See score" else "Next question") }
+                        ) { Text(pick(if (idx == items.size - 1) "See score" else "Next question", if (idx == items.size - 1) "மதிப்பெண் காண்க" else "அடுத்த வினா", lang)) }
                     }
                 }
             }

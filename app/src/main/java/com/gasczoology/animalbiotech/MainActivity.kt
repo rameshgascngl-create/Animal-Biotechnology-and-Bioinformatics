@@ -148,6 +148,8 @@ fun App(store: Store) {
         is Screen.QuizRun -> QuizScreen(
             title = s.title,
             items = s.items,
+            lang = lang,
+            onLang = { lang = it; store.putLang(it) },
             timeLimitSec = s.timeLimitSec,
             onAnswer = { m, ok ->
                 wrong = if (ok) store.remove("wrong", m.id) else store.add("wrong", m.id)
