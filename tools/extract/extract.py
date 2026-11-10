@@ -795,6 +795,24 @@ def build_report(results, unit):
     return "\n".join(L)
 
 
+def carry_over_tamil(chapter, previous):
+    """Copy ta/ta_status from a previously written chapter onto matching leaves (same path and same English).
+    Returns the paths whose Tamil had to be dropped because the English changed or disappeared."""
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+    from ta_io import walk
+    old = {p: d for p, d in walk(previous)}
+    dropped = []
+    for p, d in walk(chapter):
+        o = old.get(p)
+        if o is None or "ta" not in o:
+            continue
+        if o["en"] == d["en"]:
+            d["ta"], d["ta_status"] = o["ta"], o.get("ta_status", "draft")
+        else:
+            dropped.append(p)
+    return dropped
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("--unit", required=True)
@@ -820,6 +838,11 @@ def main(argv=None):
              "quiz_n": len(json.loads(Path(a.quizbank).read_text(encoding="utf-8")).get(f, [])),
              "raw_svg": html.count("<svg")}
         results.append(r)
+        target = out / (Path(f).stem + ".json")
+        if target.exists():
+            lost = carry_over_tamil(chapter, json.loads(target.read_text(encoding="utf-8")))
+            if lost:
+                print(f"WARNING {f}: Tamil dropped for {len(lost)} changed strings, e.g. {lost[:3]}")
         (out / (Path(f).stem + ".json")).write_text(
             json.dumps(chapter, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
         failed |= bool(r["unparsed"] or r["coverage"] or r["orphans"])

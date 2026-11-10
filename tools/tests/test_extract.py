@@ -246,3 +246,13 @@ def test_extra_blocks_are_appended_to_named_section_and_missing_section_fails():
     import pytest
     with pytest.raises(ValueError):
         chap(html, {"extra_blocks": [{"section": "nope", "block": {"type": "p", "text": "x"}}]})
+
+
+def test_regeneration_keeps_tamil_when_english_unchanged_and_reports_changed(tmp_path):
+    old = {"sections": [{"blocks": [{"type": "p", "text": {"en": "A", "ta": "அ", "ta_status": "draft"}},
+                                    {"type": "p", "text": {"en": "B", "ta": "ஆ", "ta_status": "draft"}}]}]}
+    new = {"sections": [{"blocks": [{"type": "p", "text": {"en": "A"}}, {"type": "p", "text": {"en": "B2"}}]}]}
+    lost = ex.carry_over_tamil(new, old)
+    assert new["sections"][0]["blocks"][0]["text"]["ta"] == "அ"
+    assert "ta" not in new["sections"][0]["blocks"][1]["text"]
+    assert lost == ["sections/0/blocks/1/text"]
