@@ -1,6 +1,18 @@
 package com.gasczoology.animalbiotech.ui.blocks
 
 import android.graphics.BitmapFactory
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.gestures.detectTransformGestures
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.TextButton
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.graphics.graphicsLayer
+import androidx.compose.ui.input.pointer.pointerInput
+import androidx.compose.ui.window.Dialog
+import androidx.compose.ui.window.DialogProperties
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -101,9 +113,37 @@ fun DiagramView(block: Diagram, lang: Lang, scale: Float) {
 
 @Composable
 private fun FlatImage(a: DiagramAsset, description: String) {
+    var expanded by remember(a) { mutableStateOf(false) }
+    if (expanded) {
+        Dialog(onDismissRequest = { expanded = false }, properties = DialogProperties(usePlatformDefaultWidth = false)) {
+            var zoom by remember { mutableStateOf(1f) }
+            var pan by remember { mutableStateOf(Offset.Zero) }
+            Column(Modifier.fillMaxSize().background(Color.White)) {
+                Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
+                    TextButton(onClick = { zoom = 1f; pan = Offset.Zero }) { Text("Reset / மீட்டமை") }
+                    TextButton(onClick = { expanded = false }) { Text("Close / மூடு") }
+                }
+                Box(Modifier.weight(1f).fillMaxWidth().clip(androidx.compose.foundation.shape.RectangleShape)
+                    .pointerInput(Unit) {
+                        detectTransformGestures { _, delta, factor, _ ->
+                            zoom = (zoom * factor).coerceIn(1f, 5f)
+                            val proposed = pan + delta
+                            val maxX = size.width * (zoom - 1f) / 2f
+                            val maxY = size.height * (zoom - 1f) / 2f
+                            pan = Offset(proposed.x.coerceIn(-maxX, maxX), proposed.y.coerceIn(-maxY, maxY))
+                        }
+                    }, contentAlignment = Alignment.Center) {
+                    Image(a.image, description, Modifier.fillMaxSize().graphicsLayer(
+                        scaleX = zoom, scaleY = zoom, translationX = pan.x, translationY = pan.y), contentScale = ContentScale.Fit)
+                }
+                Text("Pinch to zoom • Drag to move / விரல்களால் பெரிதாக்கி நகர்த்தவும்", Modifier.padding(12.dp))
+            }
+        }
+    }
     Image(
-        bitmap = a.image, contentDescription = description, contentScale = ContentScale.FillWidth,
-        modifier = Modifier.fillMaxWidth().clip(androidx.compose.foundation.shape.RoundedCornerShape(8.dp)),
+        bitmap = a.image, contentDescription = "Diagram: $description", contentScale = ContentScale.FillWidth,
+        modifier = Modifier.fillMaxWidth().clip(androidx.compose.foundation.shape.RoundedCornerShape(8.dp))
+            .clickable(onClickLabel = "Enlarge diagram / படத்தைப் பெரிதாக்கு") { expanded = true },
     )
 }
 
