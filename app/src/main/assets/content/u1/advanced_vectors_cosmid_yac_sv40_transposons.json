@@ -2198,8 +2198,8 @@
     {
      "type": "p",
      "text": {
-      "en": "**Insert Capacity Ranking**Plasmid (<10 kb) < Cosmid (35–45 kb) < Lambda phage (23 kb) < SV40 (~2.5 kb) < YAC (200–2000 kb). Note: SV40 is smallest due to capsid constraint.",
-      "ta": "**செருகு கொள்ளளவு வரிசை**பிளாஸ்மிட் (<10 kb) < காஸ்மிட் (35–45 kb) < லாம்டா பேஜ் (23 kb) < SV40 (~2.5 kb) < YAC (200–2000 kb). குறிப்பு: கேப்சிட் வரம்பால் SV40 மிகச் சிறியது.",
+      "en": "**Insert Capacity Ranking**SV40 (~2.5 kb) < Plasmid (<10 kb) < Lambda phage (~23 kb) < Cosmid (35–45 kb) < YAC (200–2000 kb). Note: SV40 is smallest due to capsid constraint.",
+      "ta": "**செருகு கொள்ளளவு வரிசை**SV40 (~2.5 kb) < பிளாஸ்மிட் (<10 kb) < லாம்டா பேஜ் (~23 kb) < காஸ்மிட் (35–45 kb) < YAC (200–2000 kb). குறிப்பு: கேப்சிட் வரம்பால் SV40 மிகச் சிறியது.",
       "ta_status": "draft"
      }
     },
