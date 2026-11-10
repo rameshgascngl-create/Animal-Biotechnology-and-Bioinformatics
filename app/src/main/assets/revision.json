@@ -3514,74 +3514,121 @@
   "sa": [
    {
     "q": "What is SWISS-PROT? Describe its features and importance as a protein sequence database.",
-    "a": "Define SWISS-PROT (manually reviewed, non-redundant protein sequence database; founded 1986 by Amos Bairoch; SIB + EBI; now part of UniProt). Features: manual expert curation, non-redundant entries, rich annotation (sequence, function, PTMs, disease, organism), cross-references to 100+ databases. Importance: gold standard for protein data quality; preferred for reliable biological interpretation; widely cited in molecular biology research."
+    "a": "Define SWISS-PROT (manually reviewed, non-redundant protein sequence database; founded 1986 by Amos Bairoch; SIB + EBI; now part of UniProt). Features: manual expert curation, non-redundant entries, rich annotation (sequence, function, PTMs, disease, organism), cross-references to 100+ databases. Importance: gold standard for protein data quality; preferred for reliable biological interpretation; widely cited in molecular biology research.",
+    "q_ta": "SWISS-PROT என்றால் என்ன? புரத வரிசைத் தரவுத்தளமாக அதன் பண்புகளையும் முக்கியத்துவத்தையும் விவரிக்க.",
+    "a_ta": "SWISS-PROT-ஐ வரையறு (கைமுறையாக மதிப்பாய்வு செய்யப்பட்ட, நகலற்ற புரத வரிசைத் தரவுத்தளம்; 1986-இல் அமோஸ் பைரோச் நிறுவினார்; SIB + EBI; இப்போது UniProt-இன் பகுதி). பண்புகள்: நிபுணர் கைமுறைத் தொகுப்பு, நகலற்ற பதிவுகள், வளமான குறிப்புரை (வரிசை, செயல்பாடு, மொழிபெயர்ப்புக்குப் பிந்தைய மாற்றங்கள், நோய், உயிரினம்), 100-க்கும் மேற்பட்ட தரவுத்தளங்களுக்கான குறுக்குக் குறிப்புகள். முக்கியத்துவம்: புரதத் தரவுத் தரத்துக்கான தங்கத் தரநிலை; நம்பகமான உயிரியல் விளக்கத்துக்கு விரும்பப்படுகிறது; மூலக்கூற்று உயிரியல் ஆராய்ச்சியில் பரவலாக மேற்கோள் காட்டப்படுகிறது."
    },
    {
     "q": "Explain UniProt and its components. What is the relationship between SWISS-PROT and UniProt?",
-    "a": "UniProt = Universal Protein Resource; created 2002 by SIB + EBI + PIR. Components: UniProtKB (central knowledgebase = Swiss-Prot + TrEMBL), UniRef (sequence clusters), UniParc (archive). Swiss-Prot vs TrEMBL: Swiss-Prot (~570K) = manually reviewed (\"gold standard\"); TrEMBL (~220M) = computationally annotated, awaiting review. Relationship: SWISS-PROT is a subset (reviewed tier) of UniProt. TrEMBL entries graduate to Swiss-Prot after expert review."
+    "a": "UniProt = Universal Protein Resource; created 2002 by SIB + EBI + PIR. Components: UniProtKB (central knowledgebase = Swiss-Prot + TrEMBL), UniRef (sequence clusters), UniParc (archive). Swiss-Prot vs TrEMBL: Swiss-Prot (~570K) = manually reviewed (\"gold standard\"); TrEMBL (~220M) = computationally annotated, awaiting review. Relationship: SWISS-PROT is a subset (reviewed tier) of UniProt. TrEMBL entries graduate to Swiss-Prot after expert review.",
+    "q_ta": "UniProt-ஐயும் அதன் கூறுகளையும் விளக்குக. SWISS-PROT-க்கும் UniProt-க்கும் உள்ள தொடர்பு என்ன?",
+    "a_ta": "UniProt = உலகளாவிய புரத வளம்; 2002-இல் SIB + EBI + PIR உருவாக்கின. கூறுகள்: UniProtKB (மைய அறிவுத்தளம் = Swiss-Prot + TrEMBL), UniRef (வரிசைக் கொத்துகள்), UniParc (காப்பகம்). Swiss-Prot – TrEMBL: Swiss-Prot (~5,70,000) = கைமுறையாக மதிப்பாய்வு செய்யப்பட்டது (“தங்கத் தரநிலை”); TrEMBL (~22 கோடி) = கணினி வழிக் குறிப்புரை, மதிப்பாய்வுக்குக் காத்திருப்பது. தொடர்பு: SWISS-PROT, UniProt-இன் உட்கணம் (மதிப்பாய்வு செய்யப்பட்ட அடுக்கு). TrEMBL பதிவுகள் நிபுணர் மதிப்பாய்வுக்குப் பின் Swiss-Prot-க்கு உயர்த்தப்படுகின்றன."
    },
    {
     "q": "What is the Protein Data Bank (PDB)? Describe the type of data it stores and its importance in structural biology.",
-    "a": "PDB = Protein Data Bank; founded 1971; managed by wwPDB (RCSB, PDBe, PDBj). Data stored: 3D atomic XYZ coordinates (in Å), amino acid/nucleotide sequence, experimental method (X-ray, NMR, Cryo-EM), resolution, ligands, biological assembly. Importance: reveals how proteins fold and function; essential for rational/structure-based drug design; HIV protease inhibitors and COVID-19 antivirals designed using PDB data; training data for AI structure prediction (AlphaFold)."
+    "a": "PDB = Protein Data Bank; founded 1971; managed by wwPDB (RCSB, PDBe, PDBj). Data stored: 3D atomic XYZ coordinates (in Å), amino acid/nucleotide sequence, experimental method (X-ray, NMR, Cryo-EM), resolution, ligands, biological assembly. Importance: reveals how proteins fold and function; essential for rational/structure-based drug design; HIV protease inhibitors and COVID-19 antivirals designed using PDB data; training data for AI structure prediction (AlphaFold).",
+    "q_ta": "புரதத் தரவு வங்கி (PDB) என்றால் என்ன? அது சேமிக்கும் தரவு வகையையும் அமைப்பு உயிரியலில் அதன் முக்கியத்துவத்தையும் விவரிக்க.",
+    "a_ta": "PDB = புரதத் தரவு வங்கி; 1971-இல் நிறுவப்பட்டது; wwPDB (RCSB, PDBe, PDBj) நிர்வகிக்கிறது. சேமிக்கப்படும் தரவு: முப்பரிமாண அணு XYZ ஆயங்கள் (Å-இல்), அமினோ அமில/நியுக்ளியோடைடு வரிசை, சோதனை முறை (X-கதிர், NMR, Cryo-EM), பிரிதிறன், இணைப்பிகள், உயிரியல் அசெம்பிளி. முக்கியத்துவம்: புரதங்கள் எவ்வாறு மடிந்து செயல்படுகின்றன என்பதை வெளிப்படுத்துகிறது; பகுத்தறிவு/அமைப்பு-சார்ந்த மருந்து வடிவமைப்புக்கு இன்றியமையாதது; HIV புரோட்டீயேஸ் தடுப்பான்களும் COVID-19 எதிர்வைரஸ் மருந்துகளும் PDB தரவைக் கொண்டு வடிவமைக்கப்பட்டன; செயற்கை நுண்ணறிவு அமைப்புக் கணிப்புக்கான (AlphaFold) பயிற்சித் தரவு."
    },
    {
     "q": "Distinguish between protein sequence databases and structural databases. Give two examples of each type.",
-    "a": "Protein sequence databases: store 1D amino acid sequences + annotations; tell you WHAT the protein is made of; examples: SWISS-PROT, UniProt (UniProtKB). Structural databases: store 3D atomic coordinates; tell you WHAT SHAPE the protein adopts; examples: PDB, AlphaFold Database. Key distinction: a protein can have a known sequence but unknown structure — not all UniProt proteins are in PDB. Structural data requires laborious experimental methods; sequence data is more easily obtained."
+    "a": "Protein sequence databases: store 1D amino acid sequences + annotations; tell you WHAT the protein is made of; examples: SWISS-PROT, UniProt (UniProtKB). Structural databases: store 3D atomic coordinates; tell you WHAT SHAPE the protein adopts; examples: PDB, AlphaFold Database. Key distinction: a protein can have a known sequence but unknown structure — not all UniProt proteins are in PDB. Structural data requires laborious experimental methods; sequence data is more easily obtained.",
+    "q_ta": "புரத வரிசைத் தரவுத்தளங்களையும் அமைப்புத் தரவுத்தளங்களையும் வேறுபடுத்துக. ஒவ்வொரு வகைக்கும் இரு எடுத்துக்காட்டுகள் தருக.",
+    "a_ta": "புரத வரிசைத் தரவுத்தளங்கள்: ஒரு பரிமாண அமினோ அமில வரிசைகளையும் குறிப்புரைகளையும் சேமிக்கின்றன; புரதம் எதனால் ஆனது என்பதைக் கூறுகின்றன; எடுத்துக்காட்டுகள்: SWISS-PROT, UniProt (UniProtKB). அமைப்புத் தரவுத்தளங்கள்: முப்பரிமாண அணு ஆயங்களைச் சேமிக்கின்றன; புரதம் எந்த வடிவம் கொள்கிறது என்பதைக் கூறுகின்றன; எடுத்துக்காட்டுகள்: PDB, AlphaFold தரவுத்தளம். முக்கிய வேறுபாடு: ஒரு புரதத்தின் வரிசை அறியப்பட்டு அமைப்பு அறியப்படாமல் இருக்கலாம் — அனைத்து UniProt புரதங்களும் PDB-இல் இல்லை. அமைப்புத் தரவுக்குக் கடினமான சோதனை முறைகள் தேவை; வரிசைத் தரவை எளிதில் பெறலாம்."
    },
    {
     "q": "Discuss the applications of protein and structural databases in biotechnology and drug research.",
-    "a": "Applications: (1) Protein identification — BLAST search against UniProt/Swiss-Prot; (2) Functional annotation — retrieve known function without lab experiments; (3) Drug design — PDB active site visualisation, molecular docking, virtual screening; (4) Disease research — Swiss-Prot variant annotations; (5) Evolutionary studies — phylogenetic trees from retrieved sequences; (6) Industrial enzymes — search for thermostable or pH-tolerant homologues; (7) Structure prediction validation (AlphaFold vs PDB). Mention specific examples: HIV protease inhibitors, COVID-19 antivirals."
+    "a": "Applications: (1) Protein identification — BLAST search against UniProt/Swiss-Prot; (2) Functional annotation — retrieve known function without lab experiments; (3) Drug design — PDB active site visualisation, molecular docking, virtual screening; (4) Disease research — Swiss-Prot variant annotations; (5) Evolutionary studies — phylogenetic trees from retrieved sequences; (6) Industrial enzymes — search for thermostable or pH-tolerant homologues; (7) Structure prediction validation (AlphaFold vs PDB). Mention specific examples: HIV protease inhibitors, COVID-19 antivirals.",
+    "q_ta": "உயிரித்தொழில்நுட்பத்திலும் மருந்து ஆராய்ச்சியிலும் புரத, அமைப்புத் தரவுத்தளங்களின் பயன்பாடுகளை விவாதிக்க.",
+    "a_ta": "பயன்பாடுகள்: (1) புரத அடையாளம் — UniProt/Swiss-Prot-க்கு எதிரான BLAST தேடல்; (2) செயல்பாட்டுக் குறிப்புரை — ஆய்வகச் சோதனைகள் இன்றி அறியப்பட்ட செயல்பாட்டை மீட்டல்; (3) மருந்து வடிவமைப்பு — PDB செயல்படு தளக் காட்சிப்படுத்தல், மூலக்கூற்று டாக்கிங், மெய்நிகர்ச் சலிப்பு; (4) நோய் ஆராய்ச்சி — Swiss-Prot மாறுபாட்டுக் குறிப்புரைகள்; (5) பரிணாம ஆய்வுகள் — மீட்கப்பட்ட வரிசைகளிலிருந்து இனவரலாற்று மரங்கள்; (6) தொழில்துறை நொதிகள் — வெப்பம் தாங்கும் அல்லது pH-தாங்கும் ஹோமாலாக்குகளைத் தேடுதல்; (7) அமைப்புக் கணிப்புச் சரிபார்ப்பு (AlphaFold – PDB). குறிப்பிட்ட எடுத்துக்காட்டுகளைக் கூறுக: HIV புரோட்டீயேஸ் தடுப்பான்கள், COVID-19 எதிர்வைரஸ் மருந்துகள்."
    }
   ],
   "gl": [
    {
     "t": "Protein Sequence",
-    "d": "The linear order of amino acids in a polypeptide chain (primary structure); determines the protein's identity and, ultimately, its 3D shape and function."
+    "d": "The linear order of amino acids in a polypeptide chain (primary structure); determines the protein's identity and, ultimately, its 3D shape and function.",
+    "t_ta": "புரத வரிசை",
+    "d_ta": "பாலிபெப்டைடு சங்கிலியில் அமினோ அமிலங்களின் நேர்கோட்டு வரிசை (முதல்நிலை அமைப்பு); புரதத்தின் அடையாளத்தையும், இறுதியில் அதன் முப்பரிமாண வடிவத்தையும் செயல்பாட்டையும் நிர்ணயிக்கிறது."
    },
    {
     "t": "SWISS-PROT",
-    "d": "A manually reviewed, non-redundant protein sequence database; the \"gold standard\" for protein annotation; founded 1986; now the reviewed tier of UniProt."
+    "d": "A manually reviewed, non-redundant protein sequence database; the \"gold standard\" for protein annotation; founded 1986; now the reviewed tier of UniProt.",
+    "t_ta": "SWISS-PROT",
+    "d_ta": "கைமுறையாக மதிப்பாய்வு செய்யப்பட்ட, நகலற்ற புரத வரிசைத் தரவுத்தளம்; புரதக் குறிப்புரைக்கான “தங்கத் தரநிலை”; 1986-இல் நிறுவப்பட்டது; இப்போது UniProt-இன் மதிப்பாய்வு செய்யப்பட்ட அடுக்கு."
    },
    {
     "t": "UniProt",
-    "d": "Universal Protein Resource — the world's most comprehensive protein database, containing UniProtKB (Swiss-Prot + TrEMBL), UniRef, and UniParc; created 2002."
+    "d": "Universal Protein Resource — the world's most comprehensive protein database, containing UniProtKB (Swiss-Prot + TrEMBL), UniRef, and UniParc; created 2002.",
+    "t_ta": "UniProt",
+    "d_ta": "உலகளாவிய புரத வளம் — UniProtKB (Swiss-Prot + TrEMBL), UniRef, UniParc ஆகியவற்றைக் கொண்ட உலகின் மிக விரிவான புரதத் தரவுத்தளம்; 2002-இல் உருவாக்கப்பட்டது."
    },
    {
     "t": "Curated Database",
-    "d": "A database in which entries have been manually reviewed and verified by expert scientists — ensuring accuracy but limiting speed and scale."
+    "d": "A database in which entries have been manually reviewed and verified by expert scientists — ensuring accuracy but limiting speed and scale.",
+    "t_ta": "தொகுக்கப்பட்ட தரவுத்தளம்",
+    "d_ta": "பதிவுகள் நிபுணர் அறிவியலாளர்களால் கைமுறையாக மதிப்பாய்வு செய்யப்பட்டுச் சரிபார்க்கப்பட்ட தரவுத்தளம் — துல்லியத்தை உறுதிசெய்யும்; வேகத்தையும் அளவையும் வரையறுக்கும்."
    },
    {
     "t": "Annotation",
-    "d": "Biological information added to a sequence or structure entry — protein name, function, subcellular location, post-translational modifications, disease links."
+    "d": "Biological information added to a sequence or structure entry — protein name, function, subcellular location, post-translational modifications, disease links.",
+    "t_ta": "குறிப்புரை",
+    "d_ta": "வரிசை அல்லது அமைப்புப் பதிவுடன் சேர்க்கப்படும் உயிரியல் தகவல் — புரதப் பெயர், செயல்பாடு, செல்லகப் பகுதி, மொழிபெயர்ப்புக்குப் பிந்தைய மாற்றங்கள், நோய்த் தொடர்புகள்."
    },
    {
     "t": "PDB",
-    "d": "Protein Data Bank — the world's only archive of three-dimensional structures of biological macromolecules; stores atomic XYZ coordinates determined by X-ray, NMR, or Cryo-EM."
+    "d": "Protein Data Bank — the world's only archive of three-dimensional structures of biological macromolecules; stores atomic XYZ coordinates determined by X-ray, NMR, or Cryo-EM.",
+    "t_ta": "PDB",
+    "d_ta": "புரதத் தரவு வங்கி — உயிரியல் பெருமூலக்கூறுகளின் முப்பரிமாண அமைப்புகளின் உலகின் ஒரே காப்பகம்; X-கதிர், NMR அல்லது Cryo-EM மூலம் நிர்ணயிக்கப்பட்ட அணு XYZ ஆயங்களைச் சேமிக்கிறது."
    },
    {
     "t": "3D Structure",
-    "d": "The complete spatial arrangement of all atoms in a macromolecule — the tertiary (and quaternary) structure. Stored in PDB as XYZ coordinates in Ångströms."
+    "d": "The complete spatial arrangement of all atoms in a macromolecule — the tertiary (and quaternary) structure. Stored in PDB as XYZ coordinates in Ångströms.",
+    "t_ta": "முப்பரிமாண அமைப்பு",
+    "d_ta": "பெருமூலக்கூறில் உள்ள அனைத்து அணுக்களின் முழு வெளி அமைப்பு — மூன்றாம்நிலை (மற்றும் நான்காம்நிலை) அமைப்பு. PDB-இல் ஆங்ஸ்ட்ரோம் அலகில் XYZ ஆயங்களாகச் சேமிக்கப்படுகிறது."
    },
    {
     "t": "Structural Biology",
-    "d": "The branch of molecular biology that studies the molecular structure of biological macromolecules and how structure relates to function."
+    "d": "The branch of molecular biology that studies the molecular structure of biological macromolecules and how structure relates to function.",
+    "t_ta": "அமைப்பு உயிரியல்",
+    "d_ta": "உயிரியல் பெருமூலக்கூறுகளின் மூலக்கூற்று அமைப்பையும், அமைப்புக்கும் செயல்பாட்டுக்கும் உள்ள தொடர்பையும் ஆராயும் மூலக்கூற்று உயிரியலின் பிரிவு."
    },
    {
     "t": "Protein Function",
-    "d": "The biological role a protein performs — enzymatic catalysis, structural support, signalling, transport, or regulation."
+    "d": "The biological role a protein performs — enzymatic catalysis, structural support, signalling, transport, or regulation.",
+    "t_ta": "புரதச் செயல்பாடு",
+    "d_ta": "ஒரு புரதம் ஆற்றும் உயிரியல் பங்கு — நொதி வினையூக்கம், அமைப்பு ஆதரவு, சமிக்ஞை, கடத்தல் அல்லது ஒழுங்குபடுத்தல்."
    },
    {
     "t": "TrEMBL",
-    "d": "The unreviewed tier of UniProtKB — automatically annotated protein sequences from genome sequencing projects; entries await manual curation to graduate to Swiss-Prot."
+    "d": "The unreviewed tier of UniProtKB — automatically annotated protein sequences from genome sequencing projects; entries await manual curation to graduate to Swiss-Prot.",
+    "t_ta": "TrEMBL",
+    "d_ta": "UniProtKB-இன் மதிப்பாய்வு செய்யப்படாத அடுக்கு — மரபணுத்தொகை வரிசைப்படுத்தல் திட்டங்களிலிருந்து தானாகக் குறிப்புரையிடப்பட்ட புரத வரிசைகள்; Swiss-Prot-க்கு உயர, பதிவுகள் கைமுறைத் தொகுப்புக்காகக் காத்திருக்கின்றன."
    },
    {
     "t": "PDB ID",
-    "d": "A unique 4-character alphanumeric identifier assigned to each structure deposited in the Protein Data Bank (e.g., 1HHO for haemoglobin)."
+    "d": "A unique 4-character alphanumeric identifier assigned to each structure deposited in the Protein Data Bank (e.g., 1HHO for haemoglobin).",
+    "t_ta": "PDB ID",
+    "d_ta": "புரதத் தரவு வங்கியில் சேர்க்கப்படும் ஒவ்வோர் அமைப்புக்கும் வழங்கப்படும் தனித்துவமான 4-எழுத்து எழுத்தெண் அடையாளங்காட்டி (எ.கா., ஹீமோகுளோபினுக்கு 1HHO)."
    },
    {
     "t": "Cryo-EM",
-    "d": "Cryo-Electron Microscopy — an experimental technique for determining 3D structures of macromolecules at near-atomic resolution, particularly useful for large complexes."
+    "d": "Cryo-Electron Microscopy — an experimental technique for determining 3D structures of macromolecules at near-atomic resolution, particularly useful for large complexes.",
+    "t_ta": "Cryo-EM",
+    "d_ta": "Cryo-எலக்ட்ரான் நுண்ணோக்கியியல் — பெருமூலக்கூறுகளின் முப்பரிமாண அமைப்புகளை அணுவுக்கு நெருக்கமான பிரிதிறனில் நிர்ணயிக்கும் சோதனை நுட்பம்; குறிப்பாகப் பெரிய கூட்டமைப்புகளுக்குப் பயனுள்ளது."
    }
+  ],
+  "title_ta": "புரதத் தரவுத்தளங்கள்: SWISS-PROT, UniProt, PDB",
+  "kp_ta": [
+   "SWISS-PROT: கைமுறையாகப் பராமரிக்கப்பட்ட புரத வரிசைத் தரவுத்தளம். SWISS-PROT என்பது ஒவ்வொரு பதிவுக்கும் உயர்தரக் குறிப்புரையை வழங்கும், கைமுறையாக மதிப்பாய்வு செய்யப்பட்ட, நகலற்ற புரத வரிசைத் தரவுத்தளம். இது 1986-இல் சுவிஸ் உயிர்த்தகவலியல் நிறுவனத்தில் (SIB) அமோஸ் பைரோச்சால் நிறுவப்பட்டு, இப்போது UniProt-இன் பகுதியாக SIB, ஐரோப்பிய உயிர்த்தகவலியல் நிறுவனம் (EBI) ஆகியவற்றால் கூட்டாகப் பராமரிக்கப்படுகிறது.",
+   "நியுக்ளியோடைடு தரவுத்தளங்கள் (GenBank, EMBL) DNA/RNA வரிசைகளைச் சேமிக்கின்றன; புரத வரிசைத் தரவுத்தளங்கள் (SWISS-PROT, UniProt) அமினோ அமில வரிசைகளைச் சேமிக்கின்றன; அமைப்புத் தரவுத்தளங்கள் (PDB) முப்பரிமாண அணு ஆயங்களைச் சேமிக்கின்றன.",
+   "SWISS-PROT: கைமுறையாக மதிப்பாய்வு செய்யப்பட்ட, நகலற்ற புரத வரிசைத் தரவுத்தளம்; 1986-இல் அமோஸ் பைரோச் நிறுவினார்; SIB + EBI பராமரிக்கின்றன; இப்போது UniProt-இன் மதிப்பாய்வு செய்யப்பட்ட அடுக்கு.",
+   "UniProt: 2002-இல் உருவாக்கப்பட்ட விரிவான புரத வளம்; UniProtKB = Swiss-Prot (மதிப்பாய்வு செய்யப்பட்டது, ~5,70,000) + TrEMBL (மதிப்பாய்வு செய்யப்படாதது, ~22 கோடி பதிவுகள்).",
+   "SWISS-PROT, UniProt-இன் உட்கணம் — அனைத்து Swiss-Prot பதிவுகளும் UniProt-இல் உள்ளன, ஆனால் UniProt-இல் மிக அதிகப் பதிவுகள் உள்ளன.",
+   "PDB (புரதத் தரவு வங்கி): முப்பரிமாணப் பெருமூலக்கூற்று அமைப்புகளின் உலகின் ஒரே காப்பகம்; 1971-இல் நிறுவப்பட்டது; wwPDB நிர்வகிக்கிறது; அணு XYZ ஆயங்கள், சோதனை முறை, இணைப்பிகளைச் சேமிக்கிறது.",
+   "PDB முறைகள்: X-கதிர் படிகவியல், NMR நிறமாலையியல், Cryo-EM. ஒவ்வோர் அமைப்புக்கும் தனித்துவமான 4-எழுத்து PDB ID உண்டு (எ.கா., ஹீமோகுளோபினுக்கு 1HHO).",
+   "தரவு ஓட்டம்: ஆய்வகம் → தரவுத்தளப் பதிவு → சேமிப்பு → மீட்பு → பகுப்பாய்வு/பயன்பாடு.",
+   "பயன்பாடுகள்: புரத அடையாளம் (UniProt), செயல்பாட்டுக் குறிப்புரை (Swiss-Prot), மருந்து வடிவமைப்பு (PDB), பரிணாம ஆய்வுகள் (இரண்டும்), நோய் ஆராய்ச்சி (இரண்டும்).",
+   "AlphaFold 2 (2021) கிட்டத்தட்ட அனைத்து மனிதப் புரதங்களுக்கும் அமைப்புகளைக் கணித்தது — வரிசைத் (UniProt), அமைப்புத் (PDB) தரவுத்தளங்களை இணைக்கிறது."
   ]
  },
  "sanger_dna_sequencing.html": {
@@ -3604,66 +3651,111 @@
   "sa": [
    {
     "q": "What is the principle of Sanger's chain termination method of DNA sequencing?",
-    "a": "Principle: chain-termination (dideoxy method) using dideoxynucleotide triphosphates (ddNTPs) as chain terminators. ddNTPs are structural analogues of normal dNTPs but lack a 3'-OH group (have 3'-H instead). DNA polymerase incorporates ddNTPs into the growing chain at random positions — when ddNTP is incorporated, no further elongation is possible (no 3'-OH for next phosphodiester bond). This produces a population of fragments of all possible lengths, each starting at the primer and ending at a specific base type. Separation by electrophoresis and reading the positions gives the complete sequence. Developed by Frederick Sanger in 1977 (Nobel Prize Chemistry 1980)."
+    "a": "Principle: chain-termination (dideoxy method) using dideoxynucleotide triphosphates (ddNTPs) as chain terminators. ddNTPs are structural analogues of normal dNTPs but lack a 3'-OH group (have 3'-H instead). DNA polymerase incorporates ddNTPs into the growing chain at random positions — when ddNTP is incorporated, no further elongation is possible (no 3'-OH for next phosphodiester bond). This produces a population of fragments of all possible lengths, each starting at the primer and ending at a specific base type. Separation by electrophoresis and reading the positions gives the complete sequence. Developed by Frederick Sanger in 1977 (Nobel Prize Chemistry 1980).",
+    "q_ta": "DNA வரிசைப்படுத்தலுக்கான சேங்கரின் சங்கிலி முடிவுறுத்தல் முறையின் தத்துவம் என்ன?",
+    "a_ta": "தத்துவம்: டைடிஆக்ஸிநியுக்ளியோடைடு டிரைபாஸ்பேட்டுகளை (ddNTP) சங்கிலி முடிவுறுத்திகளாகப் பயன்படுத்தும் சங்கிலி முடிவுறுத்தல் (டைடிஆக்ஸி முறை). ddNTP-கள் இயல்பான dNTP-களின் அமைப்பொத்த ஒப்புமைகள்; ஆனால் 3'-OH தொகுதி இல்லை (அதற்குப் பதில் 3'-H). DNA பாலிமரேஸ் வளரும் சங்கிலியில் தற்போக்கு இடங்களில் ddNTP-களைச் சேர்க்கிறது — ddNTP சேர்க்கப்பட்டதும் மேலும் நீட்சி இயலாது (அடுத்த பாஸ்போடைஎஸ்டர் பிணைப்புக்கு 3'-OH இல்லை). இது பிரைமரில் தொடங்கி குறிப்பிட்ட கார வகையில் முடியும், சாத்தியமான அனைத்து நீளங்களின் துண்டுத் தொகையை உருவாக்குகிறது. மின்னாற்பகுப்பால் பிரித்து இடங்களை வாசிப்பது முழு வரிசையைத் தருகிறது. ஃபிரடெரிக் சேங்கர் 1977-இல் உருவாக்கினார் (வேதியியல் நோபல் பரிசு 1980)."
    },
    {
     "q": "Why does the incorporation of a dideoxynucleotide (ddNTP) cause chain termination? Explain with reference to its structure.",
-    "a": "Normal dNTP has: 5'-triphosphate, deoxyribose sugar with 2'-H and 3'-OH, and a nucleobase. ddNTP differs in ONE critical way: the 3' position of the deoxyribose sugar has a hydrogen atom (3'-H) instead of a hydroxyl group (3'-OH). DNA polymerase extends a chain by catalysing an attack of the 3'-OH on the α-phosphate of the incoming dNTP, forming a new 3'–5' phosphodiester bond and releasing pyrophosphate. When a ddNTP is incorporated: its 5'-phosphate forms a bond with the previous nucleotide's 3'-OH. But the ddNTP itself now sits at the 3' end with only a 3'-H — no hydroxyl group is available to attack the next incoming nucleotide. Therefore, no new phosphodiester bond can form → synthesis is permanently halted → chain termination. Include a structural diagram comparing dNTP and ddNTP showing the 3'-OH vs 3'-H difference."
+    "a": "Normal dNTP has: 5'-triphosphate, deoxyribose sugar with 2'-H and 3'-OH, and a nucleobase. ddNTP differs in ONE critical way: the 3' position of the deoxyribose sugar has a hydrogen atom (3'-H) instead of a hydroxyl group (3'-OH). DNA polymerase extends a chain by catalysing an attack of the 3'-OH on the α-phosphate of the incoming dNTP, forming a new 3'–5' phosphodiester bond and releasing pyrophosphate. When a ddNTP is incorporated: its 5'-phosphate forms a bond with the previous nucleotide's 3'-OH. But the ddNTP itself now sits at the 3' end with only a 3'-H — no hydroxyl group is available to attack the next incoming nucleotide. Therefore, no new phosphodiester bond can form → synthesis is permanently halted → chain termination. Include a structural diagram comparing dNTP and ddNTP showing the 3'-OH vs 3'-H difference.",
+    "q_ta": "டைடிஆக்ஸிநியுக்ளியோடைடு (ddNTP) சேர்க்கப்படுவது சங்கிலி முடிவுறுத்தலை ஏன் ஏற்படுத்துகிறது? அதன் அமைப்பைக் கொண்டு விளக்குக.",
+    "a_ta": "இயல்பான dNTP-இல்: 5'-டிரைபாஸ்பேட், 2'-H மற்றும் 3'-OH கொண்ட டிஆக்ஸிரைபோஸ் சர்க்கரை, நியுக்ளியோகாரம் உள்ளன. ddNTP ஒரு முக்கியமான வகையில் வேறுபடுகிறது: டிஆக்ஸிரைபோஸ் சர்க்கரையின் 3' நிலையில் ஹைட்ராக்சில் தொகுதிக்குப் (3'-OH) பதிலாக ஹைட்ரஜன் அணு (3'-H) உள்ளது. உள்வரும் dNTP-இன் α-பாஸ்பேட்டை 3'-OH தாக்குவதை வினையூக்கி, புதிய 3'–5' பாஸ்போடைஎஸ்டர் பிணைப்பை உருவாக்கிப் பைரோபாஸ்பேட்டை வெளியேற்றுவதன் மூலம் DNA பாலிமரேஸ் சங்கிலியை நீட்டுகிறது. ddNTP சேர்க்கப்படும்போது: அதன் 5'-பாஸ்பேட் முந்தைய நியுக்ளியோடைடின் 3'-OH-உடன் பிணைப்பை உருவாக்குகிறது. ஆனால் ddNTP இப்போது 3'-H மட்டுமே கொண்ட 3' முனையில் இருப்பதால், உள்வரும் அடுத்த நியுக்ளியோடைடைத் தாக்க ஹைட்ராக்சில் தொகுதி இல்லை. எனவே புதிய பாஸ்போடைஎஸ்டர் பிணைப்பு உருவாக இயலாது → தொகுப்பு நிரந்தரமாக நிற்கிறது → சங்கிலி முடிவுறுத்தல். 3'-OH – 3'-H வேறுபாட்டைக் காட்டும் dNTP – ddNTP ஒப்பீட்டு அமைப்பு வரைபடத்தைச் சேர்க்க."
    },
    {
     "q": "Describe the steps involved in Sanger DNA sequencing. How is the sequence determined from the result?",
-    "a": "Step 1: Denature template DNA to single strands (heat or NaOH). Step 2: Anneal oligonucleotide primer to template (50–60°C). Step 3: Add DNA polymerase, all four dNTPs, and all four fluorescently labelled ddNTPs (100× lower concentration than dNTPs). Step 4: Synthesis proceeds; at each position, ddNTP may be randomly incorporated → chain terminates at every possible position → population of fragments of all lengths is produced. Step 5: Fragments denatured and loaded into capillary electrophoresis instrument. Step 6: Fragments separated by size; laser detects fluorescent colour as each fragment elutes. Sequence determination: chromatogram shows coloured peaks; each colour = one base; peaks read left to right (small = earliest in 5'→3' sequence)."
+    "a": "Step 1: Denature template DNA to single strands (heat or NaOH). Step 2: Anneal oligonucleotide primer to template (50–60°C). Step 3: Add DNA polymerase, all four dNTPs, and all four fluorescently labelled ddNTPs (100× lower concentration than dNTPs). Step 4: Synthesis proceeds; at each position, ddNTP may be randomly incorporated → chain terminates at every possible position → population of fragments of all lengths is produced. Step 5: Fragments denatured and loaded into capillary electrophoresis instrument. Step 6: Fragments separated by size; laser detects fluorescent colour as each fragment elutes. Sequence determination: chromatogram shows coloured peaks; each colour = one base; peaks read left to right (small = earliest in 5'→3' sequence).",
+    "q_ta": "சேங்கர் DNA வரிசைப்படுத்தலில் உள்ள படிகளை விவரிக்க. முடிவிலிருந்து வரிசை எவ்வாறு தீர்மானிக்கப்படுகிறது?",
+    "a_ta": "படி 1: வார்ப்புரு DNA-வை ஒற்றை இழைகளாக இயல்பிழக்கச் செய் (வெப்பம் அல்லது NaOH). படி 2: ஒலிகோநியுக்ளியோடைடு பிரைமரை வார்ப்புருவுடன் பிணை (50–60°C). படி 3: DNA பாலிமரேஸ், நான்கு dNTP-கள், நான்கு ஒளிர்வுக் குறிப்பிட்ட ddNTP-கள் (dNTP-களை விட 100 மடங்கு குறைந்த செறிவு) ஆகியவற்றைச் சேர். படி 4: தொகுப்பு நடைபெறுகிறது; ஒவ்வோர் இடத்திலும் ddNTP தற்போக்காகச் சேரலாம் → சாத்தியமான ஒவ்வோர் இடத்திலும் சங்கிலி முடிகிறது → அனைத்து நீளங்களின் துண்டுத் தொகை உருவாகிறது. படி 5: துண்டுகள் இயல்பிழக்கப்பட்டு நுண்குழாய் மின்னாற்பகுப்புக் கருவியில் ஏற்றப்படுகின்றன. படி 6: துண்டுகள் அளவால் பிரிக்கப்படுகின்றன; ஒவ்வொரு துண்டும் வெளியேறும்போது லேசர் ஒளிர்வு நிறத்தைக் கண்டறிகிறது. வரிசைத் தீர்மானம்: நிறப்படம் நிறப் உச்சங்களைக் காட்டுகிறது; ஒவ்வொரு நிறமும் ஒரு காரம்; உச்சங்கள் இடமிருந்து வலமாக வாசிக்கப்படுகின்றன (சிறியது = 5'→3' வரிசையில் முந்தையது)."
    },
    {
     "q": "What is the role of dNTPs and ddNTPs in Sanger sequencing? Why are ddNTPs added at a much lower concentration than dNTPs?",
-    "a": "Role of dNTPs: Normal building blocks — provide the nucleotide subunits for DNA chain elongation. All four (dATP, dTTP, dGTP, dCTP) are needed. Their 3'-OH groups allow the chain to continue growing. Role of ddNTPs: Chain terminators — incorporated randomly at complementary positions and permanently stop synthesis. Each one terminates at a specific base type. In modern sequencing, each carries a different fluorescent dye for base identification. Why low concentration of ddNTPs? If ddNTPs were in equal or higher concentration, almost every fragment would be very short (terminated near the primer). A low ddNTP:dNTP ratio (~1:100) ensures that termination occurs rarely and randomly across the entire length of the template — generating fragments of every possible length from position 1 to ~1000 nt. This complete \"ladder\" of fragment sizes is essential for reading the full sequence."
+    "a": "Role of dNTPs: Normal building blocks — provide the nucleotide subunits for DNA chain elongation. All four (dATP, dTTP, dGTP, dCTP) are needed. Their 3'-OH groups allow the chain to continue growing. Role of ddNTPs: Chain terminators — incorporated randomly at complementary positions and permanently stop synthesis. Each one terminates at a specific base type. In modern sequencing, each carries a different fluorescent dye for base identification. Why low concentration of ddNTPs? If ddNTPs were in equal or higher concentration, almost every fragment would be very short (terminated near the primer). A low ddNTP:dNTP ratio (~1:100) ensures that termination occurs rarely and randomly across the entire length of the template — generating fragments of every possible length from position 1 to ~1000 nt. This complete \"ladder\" of fragment sizes is essential for reading the full sequence.",
+    "q_ta": "சேங்கர் வரிசைப்படுத்தலில் dNTP-கள், ddNTP-களின் பங்கு என்ன? ddNTP-கள் dNTP-களை விட ஏன் மிகக் குறைந்த செறிவில் சேர்க்கப்படுகின்றன?",
+    "a_ta": "dNTP-களின் பங்கு: இயல்பான கட்டுமானக் கூறுகள் — DNA சங்கிலி நீட்சிக்கான நியுக்ளியோடைடு துணை அலகுகளை வழங்குகின்றன. நான்கும் (dATP, dTTP, dGTP, dCTP) தேவை. அவற்றின் 3'-OH தொகுதிகள் சங்கிலி தொடர்ந்து வளர அனுமதிக்கின்றன. ddNTP-களின் பங்கு: சங்கிலி முடிவுறுத்திகள் — நிரப்பு இடங்களில் தற்போக்காகச் சேர்ந்து தொகுப்பை நிரந்தரமாக நிறுத்துகின்றன. ஒவ்வொன்றும் குறிப்பிட்ட கார வகையில் முடிவுறுத்துகிறது. நவீன வரிசைப்படுத்தலில், கார அடையாளத்துக்காக ஒவ்வொன்றும் வெவ்வேறு ஒளிர்வுச் சாயத்தைக் கொண்டுள்ளது. ddNTP-கள் ஏன் குறைந்த செறிவில்? ddNTP-கள் சம அல்லது அதிகச் செறிவில் இருந்தால், கிட்டத்தட்ட ஒவ்வொரு துண்டும் மிகச் சிறியதாக (பிரைமருக்கு அருகில் முடிவுறுத்தப்பட்டு) இருக்கும். குறைந்த ddNTP:dNTP விகிதம் (~1:100) வார்ப்புருவின் முழு நீளத்திலும் முடிவுறுத்தல் அரிதாகவும் தற்போக்காகவும் நிகழ்வதை உறுதிசெய்து, இடம் 1 முதல் ~1000 nt வரை சாத்தியமான ஒவ்வொரு நீளத் துண்டையும் உருவாக்குகிறது. துண்டு அளவுகளின் இந்த முழு “ஏணி” முழு வரிசையையும் வாசிக்க இன்றியமையாதது."
    },
    {
     "q": "List the components required for Sanger sequencing. State the advantages and limitations of this method.",
-    "a": "Components: (1) Template DNA (single-stranded); (2) Primer (specific oligonucleotide); (3) DNA polymerase (Klenow fragment, T7, or Taq); (4) All four dNTPs (dATP, dTTP, dGTP, dCTP); (5) All four ddNTPs (ddATP, ddTTP, ddGTP, ddCTP — each fluorescently labelled); (6) Buffer with Mg²⁺ cofactor. Advantages: High accuracy (>99.99%); long reads (600–1000 bp); gold standard; automated; cost-effective for single genes. Limitations: Low throughput (only ~1 kb per reaction); expensive for whole genomes; first 15–40 bases unreliable; cannot sequence repetitive regions well; requires pure single-sequence template. Brief mention of NGS as higher-throughput alternative, but Sanger remains preferred for targeted, high-accuracy sequencing."
+    "a": "Components: (1) Template DNA (single-stranded); (2) Primer (specific oligonucleotide); (3) DNA polymerase (Klenow fragment, T7, or Taq); (4) All four dNTPs (dATP, dTTP, dGTP, dCTP); (5) All four ddNTPs (ddATP, ddTTP, ddGTP, ddCTP — each fluorescently labelled); (6) Buffer with Mg²⁺ cofactor. Advantages: High accuracy (>99.99%); long reads (600–1000 bp); gold standard; automated; cost-effective for single genes. Limitations: Low throughput (only ~1 kb per reaction); expensive for whole genomes; first 15–40 bases unreliable; cannot sequence repetitive regions well; requires pure single-sequence template. Brief mention of NGS as higher-throughput alternative, but Sanger remains preferred for targeted, high-accuracy sequencing.",
+    "q_ta": "சேங்கர் வரிசைப்படுத்தலுக்குத் தேவையான கூறுகளைப் பட்டியலிடுக. இம்முறையின் நன்மைகளையும் வரம்புகளையும் குறிப்பிடுக.",
+    "a_ta": "கூறுகள்: (1) வார்ப்புரு DNA (ஒற்றை இழை); (2) பிரைமர் (குறிப்பிட்ட ஒலிகோநியுக்ளியோடைடு); (3) DNA பாலிமரேஸ் (க்ளெனோ துண்டு, T7 அல்லது Taq); (4) நான்கு dNTP-கள் (dATP, dTTP, dGTP, dCTP); (5) நான்கு ddNTP-கள் (ddATP, ddTTP, ddGTP, ddCTP — ஒவ்வொன்றும் ஒளிர்வுக் குறிப்பிடப்பட்டது); (6) Mg²⁺ துணைக்காரணியுடன் தாங்கல். நன்மைகள்: உயர் துல்லியம் (>99.99%); நீண்ட வாசிப்புகள் (600–1000 bp); தங்கத் தரநிலை; தானியங்கி; ஒற்றை மரபணுக்களுக்குச் செலவுக்கேற்றது. வரம்புகள்: குறைந்த செயல்திறன் (ஒரு வினைக்கு ~1 kb மட்டும்); முழு மரபணுத்தொகைகளுக்கு விலை உயர்வு; முதல் 15–40 காரங்கள் நம்பகமற்றவை; மீள் பகுதிகளை நன்கு வரிசைப்படுத்த முடியாது; தூய ஒற்றை-வரிசை வார்ப்புரு தேவை. அதிகச் செயல்திறன் கொண்ட மாற்றாக NGS-ஐச் சுருக்கமாகக் குறிப்பிடுக; ஆனால் இலக்கு, உயர்-துல்லிய வரிசைப்படுத்தலுக்குச் சேங்கரே விரும்பப்படுகிறது."
    }
   ],
   "gl": [
    {
     "t": "DNA Sequencing",
-    "d": "The process of determining the precise order of nucleotide bases (A, T, G, C) along a DNA strand. The sequence reveals the genetic information encoded in the DNA molecule."
+    "d": "The process of determining the precise order of nucleotide bases (A, T, G, C) along a DNA strand. The sequence reveals the genetic information encoded in the DNA molecule.",
+    "t_ta": "DNA வரிசைப்படுத்தல்",
+    "d_ta": "ஒரு DNA இழையில் நியுக்ளியோடைடு காரங்களின் (A, T, G, C) துல்லிய வரிசையைத் தீர்மானிக்கும் செயல்முறை. DNA மூலக்கூற்றில் குறியீடு செய்யப்பட்டுள்ள மரபுத் தகவலை வரிசை வெளிப்படுத்துகிறது."
    },
    {
     "t": "Sanger Method",
-    "d": "A DNA sequencing technique developed by Frederick Sanger in 1977, based on the chain-termination principle using dideoxynucleotides. Also called the dideoxy method. Gold standard of DNA sequencing for over 30 years."
+    "d": "A DNA sequencing technique developed by Frederick Sanger in 1977, based on the chain-termination principle using dideoxynucleotides. Also called the dideoxy method. Gold standard of DNA sequencing for over 30 years.",
+    "t_ta": "சேங்கர் முறை",
+    "d_ta": "டைடிஆக்ஸிநியுக்ளியோடைடுகளைப் பயன்படுத்தும் சங்கிலி முடிவுறுத்தல் தத்துவத்தை அடிப்படையாகக் கொண்டு, 1977-இல் ஃபிரடெரிக் சேங்கர் உருவாக்கிய DNA வரிசைப்படுத்தல் நுட்பம். டைடிஆக்ஸி முறை எனவும் அழைக்கப்படுகிறது. 30 ஆண்டுகளுக்கு மேல் DNA வரிசைப்படுத்தலின் தங்கத் தரநிலை."
    },
    {
     "t": "ddNTP (Dideoxynucleotide)",
-    "d": "A synthetic analogue of a normal deoxyribonucleotide triphosphate (dNTP), lacking a 3'-OH group (replaced by 3'-H). When incorporated by DNA polymerase, it permanently terminates chain elongation. Used as chain terminators in Sanger sequencing."
+    "d": "A synthetic analogue of a normal deoxyribonucleotide triphosphate (dNTP), lacking a 3'-OH group (replaced by 3'-H). When incorporated by DNA polymerase, it permanently terminates chain elongation. Used as chain terminators in Sanger sequencing.",
+    "t_ta": "ddNTP (டைடிஆக்ஸிநியுக்ளியோடைடு)",
+    "d_ta": "இயல்பான டிஆக்ஸிரைபோநியுக்ளியோடைடு டிரைபாஸ்பேட்டின் (dNTP) செயற்கை ஒப்புமை; 3'-OH தொகுதி இல்லை (3'-H ஆல் மாற்றப்பட்டது). DNA பாலிமரேஸால் சேர்க்கப்படும்போது சங்கிலி நீட்சியை நிரந்தரமாக முடிவுறுத்துகிறது. சேங்கர் வரிசைப்படுத்தலில் சங்கிலி முடிவுறுத்திகளாகப் பயன்படுகிறது."
    },
    {
     "t": "Chain Termination",
-    "d": "The permanent halting of DNA synthesis caused by incorporation of a ddNTP. Since ddNTPs lack a 3'-OH group, no new phosphodiester bond can be formed — the growing chain cannot be extended further."
+    "d": "The permanent halting of DNA synthesis caused by incorporation of a ddNTP. Since ddNTPs lack a 3'-OH group, no new phosphodiester bond can be formed — the growing chain cannot be extended further.",
+    "t_ta": "சங்கிலி முடிவுறுத்தல்",
+    "d_ta": "ddNTP சேர்க்கப்படுவதால் DNA தொகுப்பு நிரந்தரமாக நிற்றல். ddNTP-களில் 3'-OH தொகுதி இல்லாததால், புதிய பாஸ்போடைஎஸ்டர் பிணைப்பை உருவாக்க இயலாது — வளரும் சங்கிலியை மேலும் நீட்ட முடியாது."
    },
    {
     "t": "Template DNA",
-    "d": "The single-stranded DNA molecule used as the blueprint in DNA synthesis. In Sanger sequencing, the template strand is read 3'→5' by DNA polymerase, which synthesises a new complementary strand in the 5'→3' direction."
+    "d": "The single-stranded DNA molecule used as the blueprint in DNA synthesis. In Sanger sequencing, the template strand is read 3'→5' by DNA polymerase, which synthesises a new complementary strand in the 5'→3' direction.",
+    "t_ta": "வார்ப்புரு DNA",
+    "d_ta": "DNA தொகுப்பில் வரைபடமாகப் பயன்படும் ஒற்றை இழை DNA மூலக்கூறு. சேங்கர் வரிசைப்படுத்தலில், வார்ப்புரு இழை DNA பாலிமரேஸால் 3'→5' திசையில் வாசிக்கப்பட்டு, 5'→3' திசையில் புதிய நிரப்பு இழை தொகுக்கப்படுகிறது."
    },
    {
     "t": "Primer",
-    "d": "A short (18–25 nt) synthetic single-stranded oligonucleotide complementary to the template strand. Provides the free 3'-OH required for DNA polymerase to initiate synthesis. Defines the start and direction of sequencing in Sanger method."
+    "d": "A short (18–25 nt) synthetic single-stranded oligonucleotide complementary to the template strand. Provides the free 3'-OH required for DNA polymerase to initiate synthesis. Defines the start and direction of sequencing in Sanger method.",
+    "t_ta": "பிரைமர்",
+    "d_ta": "வார்ப்புரு இழைக்கு நிரப்பியான குறுகிய (18–25 nt) செயற்கை ஒற்றை இழை ஒலிகோநியுக்ளியோடைடு. DNA பாலிமரேஸ் தொகுப்பைத் தொடங்கத் தேவையான கட்டற்ற 3'-OH-ஐ வழங்குகிறது. சேங்கர் முறையில் வரிசைப்படுத்தலின் தொடக்கத்தையும் திசையையும் வரையறுக்கிறது."
    },
    {
     "t": "Electrophoresis",
-    "d": "A technique that uses an electric field to separate charged molecules (such as DNA fragments) by size. Smaller fragments migrate faster and farther in the gel or capillary. Enables single-nucleotide resolution of Sanger sequencing fragments."
+    "d": "A technique that uses an electric field to separate charged molecules (such as DNA fragments) by size. Smaller fragments migrate faster and farther in the gel or capillary. Enables single-nucleotide resolution of Sanger sequencing fragments.",
+    "t_ta": "மின்னாற்பகுப்பு (எலக்ட்ரோஃபோரசிஸ்)",
+    "d_ta": "மின்புலத்தைப் பயன்படுத்தி மின்னூட்ட மூலக்கூறுகளை (DNA துண்டுகள் போன்றவை) அளவால் பிரிக்கும் நுட்பம். சிறிய துண்டுகள் ஜெல் அல்லது நுண்குழாயில் வேகமாகவும் தொலைவாகவும் நகரும். சேங்கர் வரிசைப்படுத்தல் துண்டுகளின் ஒற்றை-நியுக்ளியோடைடு பிரிதிறனை இயலச் செய்கிறது."
    },
    {
     "t": "Chromatogram (Electropherogram)",
-    "d": "The graphical output of automated fluorescent Sanger sequencing showing coloured peaks on a time axis. Each peak represents one nucleotide — the peak colour identifies the base (A/T/G/C) and peak position reflects fragment size."
+    "d": "The graphical output of automated fluorescent Sanger sequencing showing coloured peaks on a time axis. Each peak represents one nucleotide — the peak colour identifies the base (A/T/G/C) and peak position reflects fragment size.",
+    "t_ta": "நிறப்படம் (எலக்ட்ரோஃபெரோகிராம்)",
+    "d_ta": "தானியங்கி ஒளிர்வுச் சேங்கர் வரிசைப்படுத்தலின் வரைபட வெளியீடு; நேர அச்சில் நிறப் உச்சங்களைக் காட்டுகிறது. ஒவ்வொரு உச்சமும் ஒரு நியுக்ளியோடைடு — உச்ச நிறம் காரத்தையும் (A/T/G/C), உச்ச இடம் துண்டு அளவையும் குறிக்கிறது."
    },
    {
     "t": "Capillary Electrophoresis",
-    "d": "A modern, automated separation method used in Sanger sequencing where DNA fragments migrate through a thin polymer-filled capillary tube. Laser detection of fluorescence allows high-resolution, high-throughput sequencing (e.g., ABI 3730xl platform)."
+    "d": "A modern, automated separation method used in Sanger sequencing where DNA fragments migrate through a thin polymer-filled capillary tube. Laser detection of fluorescence allows high-resolution, high-throughput sequencing (e.g., ABI 3730xl platform).",
+    "t_ta": "நுண்குழாய் மின்னாற்பகுப்பு",
+    "d_ta": "சேங்கர் வரிசைப்படுத்தலில் பயன்படும் நவீன, தானியங்கிப் பிரிப்பு முறை; DNA துண்டுகள் பாலிமர் நிரப்பிய மெல்லிய நுண்குழாய் வழியாக நகர்கின்றன. ஒளிர்வின் லேசர் கண்டறிதல் உயர் பிரிதிறன், உயர் செயல்திறன் வரிசைப்படுத்தலை (எ.கா., ABI 3730xl தளம்) இயலச் செய்கிறது."
    },
    {
     "t": "dNTP (Deoxynucleotide)",
-    "d": "Deoxynucleoside triphosphate — the normal building block of DNA. Contains a deoxyribose sugar with a free 3'-OH group that allows continued chain elongation. Four types: dATP, dTTP, dGTP, dCTP."
+    "d": "Deoxynucleoside triphosphate — the normal building block of DNA. Contains a deoxyribose sugar with a free 3'-OH group that allows continued chain elongation. Four types: dATP, dTTP, dGTP, dCTP.",
+    "t_ta": "dNTP (டிஆக்ஸிநியுக்ளியோடைடு)",
+    "d_ta": "டிஆக்ஸிநியுக்ளியோசைடு டிரைபாஸ்பேட் — DNA-வின் இயல்பான கட்டுமானக் கூறு. சங்கிலி நீட்சி தொடர அனுமதிக்கும் கட்டற்ற 3'-OH தொகுதி கொண்ட டிஆக்ஸிரைபோஸ் சர்க்கரையைக் கொண்டுள்ளது. நான்கு வகைகள்: dATP, dTTP, dGTP, dCTP."
    }
+  ],
+  "title_ta": "DNA வரிசைப்படுத்தல்: சேங்கர் முறை",
+  "kp_ta": [
+   "சேங்கர் முறை: ஃபிரடெரிக் சேங்கர் 1977-இல் உருவாக்கினார் (நோபல் பரிசு 1980). சங்கிலி முடிவுறுத்தல் அல்லது டைடிஆக்ஸி முறை எனவும் அழைக்கப்படுகிறது. DNA வரிசைப்படுத்தலின் தங்கத் தரநிலை.",
+   "முக்கியத் தத்துவம்: ddNTP-களைச் சங்கிலி முடிவுறுத்திகளாகப் பயன்படுத்துகிறது. ddNTP-களில் 3'-OH தொகுதி இல்லை → சேர்க்கப்பட்டால், சங்கிலித் தொகுப்பு நிரந்தரமாக நின்றுவிடும்.",
+   "dNTP – ddNTP: ஒரே அமைப்பு வேறுபாடு: dNTP-இல் 3'-OH உண்டு; ddNTP-இல் 3'-H (OH இல்லை). இந்த ஒற்றை வேறுபாடு அடுத்த பாஸ்போடைஎஸ்டர் பிணைப்பு உருவாவதைத் தடுக்கிறது.",
+   "துண்டு ஏணி: வினை சாத்தியமான அனைத்து நீளங்களிலும் துண்டுகளை உருவாக்குகிறது; ஒவ்வொன்றும் குறிப்பிட்ட நியுக்ளியோடைடு வகையில் முடிகிறது. துண்டு அளவுகளை வரிசையாக வாசிப்பது வரிசையை வெளிப்படுத்துகிறது.",
+   "dNTP:ddNTP விகிதம்: ddNTP-கள் dNTP-களை விட ~100 மடங்கு நீர்த்தவை; இதனால் ஒவ்வொரு இடத்திலும் தற்போக்குச் சேர்க்கை நிகழ்ந்து, துண்டு அளவுகளின் முழு ஏணி உருவாகிறது.",
+   "அசல் முறை: நான்கு தனி வினைகள் (ddA, ddT, ddG, ddC), கதிரியக்கக் குறிப்பிடல், 4-தடப் பாலிஅக்ரிலமைடு ஜெல், கீழிருந்து மேலாக வாசிப்பு, ஆட்டோரேடியோகிராஃபி.",
+   "நவீன முறை: ஒற்றை வினை, நான்கு ஒளிர்வுக் குறிப்பிட்ட ddNTP-கள் (ஒவ்வொன்றும் வெவ்வேறு நிறம்), நுண்குழாய் மின்னாற்பகுப்பு, நிறப்படம் வெளியீடு, தானியங்கி கார அழைப்பு.",
+   "ஜெல் வாசிப்பு: கீழிருந்து மேலாக வாசிக்க (சிறியது = முந்தைய இடம்). ஒவ்வொரு பட்டையின் தடம்/நிறம் = அந்த இடத்தின் நியுக்ளியோடைடு. வரிசை என்பது 5'→3' திசையில் வாசிக்கப்படும் புதிய இழை.",
+   "வாசிப்பு நீளமும் துல்லியமும்: ஒரு இயக்கத்துக்கு 600–1000 நம்பகமான காரங்கள்; உயர்தரக் காரங்களுக்கு >99.99% துல்லியம். முதல் 15–40 காரங்கள் நம்பகமற்றவையாக இருக்கலாம்.",
+   "பயன்பாடுகள்: குளோன் சரிபார்ப்பு, திடீர்மாற்றக் கண்டறிதல், மனித மரபணுத்தொகைத் திட்டம், மருத்துவக் கண்டறிதல், நோய்க்காரணி அடையாளம், தடயவியல்.",
+   "NGS-உடன் ஒப்பிடுகையில் வரம்பு: ஒரு வினைக்கு ~1 kb மட்டுமே (குறைந்த செயல்திறன்); முழு மரபணுத்தொகைகளுக்கு விலை உயர்வு. NGS பில்லியன் கணக்கான காரங்களை ஒரே நேரத்தில் வரிசைப்படுத்தும்; ஆனால் இலக்கு வரிசைப்படுத்தலின் துல்லியத்துக்குச் சேங்கரே தங்கத் தரநிலை.",
+   "சரியான படி வரிசை: DNA-வை இயல்பிழக்கச் செய் → பிரைமரைப் பிணை → பாலிமரேஸ் நீட்டி + ddNTP முடிவுறுத்துகிறது → அனைத்து அளவுகளின் துண்டுகள் உருவாகின்றன → மின்னாற்பகுப்பு பிரிக்கிறது → நிறப்படத்திலிருந்து வரிசையை வாசி."
   ]
  },
  "screening_selection_recombinants.html": {
@@ -3686,66 +3778,111 @@
   "sa": [
    {
     "q": "What is the difference between selection and screening in the context of gene cloning? Give one example of each.",
-    "a": "Selection: An active process where only cells with the desired property survive on selective medium; non-selected cells are eliminated. Example: plating transformed E. coli on ampicillin — only cells with the vector (carrying amp^r gene) survive; non-transformed cells die. Screening: A passive process where all cells survive, but a detectable signal (colour, probe signal) allows identification of cells with the desired property without killing others. Example: blue-white screening — all transformants survive, but recombinants form white colonies while non-recombinants form blue colonies. Key difference: selection = growth/no growth; screening = identifying among surviving colonies. Selection is always step 1 (reduces to transformants); screening is step 2 (identifies recombinants among transformants)."
+    "a": "Selection: An active process where only cells with the desired property survive on selective medium; non-selected cells are eliminated. Example: plating transformed E. coli on ampicillin — only cells with the vector (carrying amp^r gene) survive; non-transformed cells die. Screening: A passive process where all cells survive, but a detectable signal (colour, probe signal) allows identification of cells with the desired property without killing others. Example: blue-white screening — all transformants survive, but recombinants form white colonies while non-recombinants form blue colonies. Key difference: selection = growth/no growth; screening = identifying among surviving colonies. Selection is always step 1 (reduces to transformants); screening is step 2 (identifies recombinants among transformants).",
+    "q_ta": "மரபணு குளோனாக்கச் சூழலில் தேர்வுக்கும் சலிப்புக்கும் உள்ள வேறுபாடு என்ன? ஒவ்வொன்றுக்கும் ஓர் எடுத்துக்காட்டு தருக.",
+    "a_ta": "தேர்வு: விரும்பிய பண்புடைய செல்கள் மட்டுமே தேர்வு ஊடகத்தில் உயிர்வாழும் செயல்மிகு செயல்முறை; தேர்ந்தெடுக்கப்படாத செல்கள் அழிக்கப்படுகின்றன. எடுத்துக்காட்டு: உருமாறிய E. coli-ஐ ஆம்பிசிலினில் பரப்புதல் — தாங்கிக்கடத்தி (amp^r மரபணு) கொண்ட செல்கள் மட்டுமே உயிர்வாழும்; உருமாறாத செல்கள் இறக்கும். சலிப்பு: அனைத்துச் செல்களும் உயிர்வாழும் செயலற்ற செயல்முறை; ஆனால் கண்டறியக்கூடிய சமிக்ஞை (நிறம், துருவிச் சமிக்ஞை) மற்றவற்றைக் கொல்லாமல் விரும்பிய பண்புடைய செல்களை அடையாளம் காண உதவுகிறது. எடுத்துக்காட்டு: நீல–வெள்ளைச் சலிப்பு — அனைத்து உருமாறியவையும் உயிர்வாழும், ஆனால் மறுசேர்க்கைகள் வெள்ளைக் காலனிகளையும், மறுசேர்க்கை அல்லாதவை நீலக் காலனிகளையும் உருவாக்கும். முக்கிய வேறுபாடு: தேர்வு = வளர்ச்சி/வளர்ச்சியின்மை; சலிப்பு = உயிர்வாழும் காலனிகளுக்குள் அடையாளம் காணுதல். தேர்வு எப்போதும் படி 1 (உருமாறியவற்றுக்குக் குறைக்கிறது); சலிப்பு படி 2 (உருமாறியவற்றுக்குள் மறுசேர்க்கைகளை அடையாளம் காண்கிறது)."
    },
    {
     "q": "Describe insertional inactivation using pBR322. How are recombinant clones identified?",
-    "a": "pBR322 has two antibiotic resistance genes: amp^r and tet^r. The tet^r gene contains unique restriction sites BamHI, SalI, and ClaI. When the gene of interest is cloned into the BamHI site (within tet^r), the tet^r gene is disrupted → recombinant cells become tetracycline-sensitive. After transformation, cells are plated on LB + ampicillin → all transformants (both recombinant and non-recombinant) grow. Replica plating to LB + tetracycline: non-recombinants (intact tet^r) grow on both plates; recombinants (disrupted tet^r) grow only on amp plate — ABSENT on tet plate. Recombinants identified as colonies present on amp plate but absent on tet plate. These are picked from the original amp master plate. Result: amp^r, tet^s = recombinant. amp^r, tet^r = non-recombinant."
+    "a": "pBR322 has two antibiotic resistance genes: amp^r and tet^r. The tet^r gene contains unique restriction sites BamHI, SalI, and ClaI. When the gene of interest is cloned into the BamHI site (within tet^r), the tet^r gene is disrupted → recombinant cells become tetracycline-sensitive. After transformation, cells are plated on LB + ampicillin → all transformants (both recombinant and non-recombinant) grow. Replica plating to LB + tetracycline: non-recombinants (intact tet^r) grow on both plates; recombinants (disrupted tet^r) grow only on amp plate — ABSENT on tet plate. Recombinants identified as colonies present on amp plate but absent on tet plate. These are picked from the original amp master plate. Result: amp^r, tet^s = recombinant. amp^r, tet^r = non-recombinant.",
+    "q_ta": "pBR322-ஐப் பயன்படுத்தி செருகல் செயலிழப்பை விவரிக்க. மறுசேர்க்கைக் குளோன்கள் எவ்வாறு அடையாளம் காணப்படுகின்றன?",
+    "a_ta": "pBR322-இல் இரு உயிர்எதிர்ப்பிப் பொருள் எதிர்ப்பு மரபணுக்கள் உள்ளன: amp^r, tet^r. tet^r மரபணுவில் BamHI, SalI, ClaI என்ற தனித்துவமான கட்டுறு இடங்கள் உள்ளன. ஆர்வமுள்ள மரபணு BamHI இடத்தில் (tet^r-க்குள்) குளோன் செய்யப்படும்போது tet^r மரபணு சீர்குலைகிறது → மறுசேர்க்கைச் செல்கள் டெட்ராசைக்ளினுக்கு உணர்திறன் கொண்டவை ஆகின்றன. உருமாற்றத்துக்குப் பின் செல்கள் LB + ஆம்பிசிலினில் பரப்பப்படுகின்றன → அனைத்து உருமாறியவையும் (மறுசேர்க்கை, மறுசேர்க்கை அல்லாதவை) வளரும். LB + டெட்ராசைக்ளினுக்குப் பிரதியெடுப்புத் தட்டுமுறை: மறுசேர்க்கை அல்லாதவை (சேதமற்ற tet^r) இரு தட்டுகளிலும் வளரும்; மறுசேர்க்கைகள் (சீர்குலைந்த tet^r) amp தட்டில் மட்டுமே வளரும் — tet தட்டில் இருக்காது. amp தட்டில் உள்ள ஆனால் tet தட்டில் இல்லாத காலனிகள் மறுசேர்க்கைகளாக அடையாளம் காணப்படுகின்றன. இவை அசல் amp தாய்த் தட்டிலிருந்து எடுக்கப்படுகின்றன. முடிவு: amp^r, tet^s = மறுசேர்க்கை. amp^r, tet^r = மறுசேர்க்கை அல்லாதது."
    },
    {
     "q": "Explain blue-white selection. Why are white colonies considered recombinants in this system?",
-    "a": "Blue-white selection uses pUC vectors (e.g., pUC19) that carry the lacZ-α gene with the MCS inserted within it. Medium: LB + ampicillin (to select transformants) + X-gal (chromogenic substrate for β-gal) + IPTG (lac operon inducer). Without insert: lacZ-α is intact → IPTG induces expression → functional β-galactosidase α-peptide produced (by α-complementation with host lacZ-ω) → β-gal cleaves X-gal → blue compound → BLUE colony = non-recombinant. With insert in MCS: lacZ-α reading frame is disrupted → no functional α-peptide → no α-complementation → β-gal cannot cleave X-gal → no blue compound → colony remains WHITE = recombinant. Therefore, white colonies have an insert disrupting lacZ → they are recombinant transformants. White ≠ necessarily has the correct insert — further confirmation needed (PCR, restriction analysis, sequencing)."
+    "a": "Blue-white selection uses pUC vectors (e.g., pUC19) that carry the lacZ-α gene with the MCS inserted within it. Medium: LB + ampicillin (to select transformants) + X-gal (chromogenic substrate for β-gal) + IPTG (lac operon inducer). Without insert: lacZ-α is intact → IPTG induces expression → functional β-galactosidase α-peptide produced (by α-complementation with host lacZ-ω) → β-gal cleaves X-gal → blue compound → BLUE colony = non-recombinant. With insert in MCS: lacZ-α reading frame is disrupted → no functional α-peptide → no α-complementation → β-gal cannot cleave X-gal → no blue compound → colony remains WHITE = recombinant. Therefore, white colonies have an insert disrupting lacZ → they are recombinant transformants. White ≠ necessarily has the correct insert — further confirmation needed (PCR, restriction analysis, sequencing).",
+    "q_ta": "நீல–வெள்ளைத் தேர்வை விளக்குக. இம்முறையில் வெள்ளைக் காலனிகள் ஏன் மறுசேர்க்கைகளாகக் கருதப்படுகின்றன?",
+    "a_ta": "நீல–வெள்ளைத் தேர்வு, MCS செருகப்பட்ட lacZ-α மரபணுவைக் கொண்ட pUC தாங்கிக்கடத்திகளைப் (எ.கா., pUC19) பயன்படுத்துகிறது. ஊடகம்: LB + ஆம்பிசிலின் (உருமாறியவற்றைத் தேர்ந்தெடுக்க) + X-gal (β-gal-க்கான நிறம் தரும் வினைபடு பொருள்) + IPTG (lac ஓபரான் தூண்டி). செருகல் இல்லாமல்: lacZ-α சேதமின்றி → IPTG வெளிப்பாட்டைத் தூண்டுகிறது → செயல்படும் β-கேலக்டோசிடேஸ் α-பெப்டைடு உருவாகிறது (ஓம்புயிர் lacZ-ω உடன் α-நிரப்புதலால்) → β-gal X-gal-ஐப் பிளக்கிறது → நீலச் சேர்மம் → நீலக் காலனி = மறுசேர்க்கை அல்லாதது. MCS-இல் செருகலுடன்: lacZ-α வாசிப்புச் சட்டம் சீர்குலைகிறது → செயல்படும் α-பெப்டைடு இல்லை → α-நிரப்புதல் இல்லை → β-gal X-gal-ஐப் பிளக்க முடியாது → நீலச் சேர்மம் இல்லை → காலனி வெள்ளையாகவே இருக்கும் = மறுசேர்க்கை. எனவே வெள்ளைக் காலனிகளில் lacZ-ஐ சீர்குலைக்கும் செருகல் உள்ளது → அவை மறுசேர்க்கை உருமாறியவை. வெள்ளை என்பது சரியான செருகல் உள்ளது என்று பொருளாகாது — மேலும் உறுதிப்படுத்தல் தேவை (PCR, கட்டுறு பகுப்பாய்வு, வரிசைப்படுத்தல்)."
    },
    {
     "q": "Describe the steps involved in colony hybridization for identifying recombinant colonies.",
-    "a": "1. Colony transfer: Replica nylon/nitrocellulose membrane placed on master plate — colonies adhere; membrane peeled off. Keep master plate as reference. 2. Cell lysis: Membrane treated with NaOH — cells lyse, DNA released and denatured into single strands. 3. DNA fixation: Membrane baked at 80°C (2 hrs) or UV-cross-linked — single-stranded DNA permanently immobilised on membrane. 4. Pre-hybridisation (blocking): Non-specific sites blocked with salmon sperm DNA/BSA to reduce background. 5. Probe hybridisation: ³²P-labelled ssDNA probe (complementary to gene of interest) added. Probe anneals only to complementary target sequences at appropriate stringency. 6. Washing: Non-specifically bound probe washed off with increasing stringency washes. 7. Detection: Membrane exposed to X-ray film (autoradiography) — positive colonies appear as dark spots. 8. Identification: Alignment marks used to match positive spots on film to corresponding colonies on master plate. Positive colonies picked for further analysis."
+    "a": "1. Colony transfer: Replica nylon/nitrocellulose membrane placed on master plate — colonies adhere; membrane peeled off. Keep master plate as reference. 2. Cell lysis: Membrane treated with NaOH — cells lyse, DNA released and denatured into single strands. 3. DNA fixation: Membrane baked at 80°C (2 hrs) or UV-cross-linked — single-stranded DNA permanently immobilised on membrane. 4. Pre-hybridisation (blocking): Non-specific sites blocked with salmon sperm DNA/BSA to reduce background. 5. Probe hybridisation: ³²P-labelled ssDNA probe (complementary to gene of interest) added. Probe anneals only to complementary target sequences at appropriate stringency. 6. Washing: Non-specifically bound probe washed off with increasing stringency washes. 7. Detection: Membrane exposed to X-ray film (autoradiography) — positive colonies appear as dark spots. 8. Identification: Alignment marks used to match positive spots on film to corresponding colonies on master plate. Positive colonies picked for further analysis.",
+    "q_ta": "மறுசேர்க்கைக் காலனிகளை அடையாளம் காண காலனி கலப்பினமாக்கலில் உள்ள படிகளை விவரிக்க.",
+    "a_ta": "1. காலனி மாற்றம்: நைலான்/நைட்ரோசெல்லுலோஸ் பிரதி சவ்வு தாய்த் தட்டின் மீது வைக்கப்படுகிறது — காலனிகள் ஒட்டிக்கொள்கின்றன; சவ்வு உரிக்கப்படுகிறது. தாய்த் தட்டைக் குறிப்பாக வைத்திரு. 2. செல் சிதைப்பு: சவ்வு NaOH-ஆல் சிகிச்சையளிக்கப்படுகிறது — செல்கள் சிதைந்து, DNA வெளிவந்து ஒற்றை இழைகளாக இயல்பிழக்கிறது. 3. DNA நிலைப்படுத்தல்: சவ்வு 80°C-இல் (2 மணி) சுடப்படுகிறது அல்லது UV-ஆல் குறுக்கிணைக்கப்படுகிறது — ஒற்றை இழை DNA சவ்வில் நிரந்தரமாக நிலைநிறுத்தப்படுகிறது. 4. முன்-கலப்பினமாக்கல் (அடைத்தல்): பின்னணியைக் குறைக்கச் சால்மன் விந்து DNA/BSA-வால் குறிப்பற்ற இடங்கள் அடைக்கப்படுகின்றன. 5. துருவிக் கலப்பினமாக்கல்: ³²P-குறிப்பிடப்பட்ட ssDNA துருவி (ஆர்வமுள்ள மரபணுவுக்கு நிரப்பியது) சேர்க்கப்படுகிறது. துருவி பொருத்தமான கடுமைத்தன்மையில் நிரப்பு இலக்கு வரிசைகளுடன் மட்டுமே இணைகிறது. 6. கழுவுதல்: குறிப்பற்ற முறையில் இணைந்த துருவி, அதிகரிக்கும் கடுமைத்தன்மைக் கழுவல்களால் நீக்கப்படுகிறது. 7. கண்டறிதல்: சவ்வு X-கதிர் ஃபிலிமுக்கு வெளிப்படுத்தப்படுகிறது (ஆட்டோரேடியோகிராஃபி) — நேர்மறைக் காலனிகள் கரும்புள்ளிகளாகத் தோன்றுகின்றன. 8. அடையாளம் காணல்: ஃபிலிமில் உள்ள நேர்மறைப் புள்ளிகளைத் தாய்த் தட்டிலுள்ள தொடர்புடைய காலனிகளுடன் பொருத்த, சீரமைப்புக் குறிகள் பயன்படுகின்றன. நேர்மறைக் காலனிகள் மேலும் பகுப்பாய்வுக்கு எடுக்கப்படுகின்றன."
    },
    {
     "q": "Compare insertional inactivation and blue-white selection as methods of screening recombinants. Which is more convenient and why?",
-    "a": "Insertional Inactivation: Vector pBR322. Insert disrupts tet^r at BamHI site. Recombinants: amp^r, tet^s. Identified by REPLICA PLATING (negative result — absent from tet plate). Two plates needed. Takes 2 days. No special reagents. Blue-White Selection: Vector pUC19. Insert disrupts lacZ-α at MCS. Recombinants: white colonies. Non-recombinants: blue colonies. Identified on SAME plate (positive visual result). One plate, one step. Requires X-gal + IPTG. Blue-white is more convenient because: (a) results visible on the same plate without replica plating; (b) positive visual identification (white = recombinant) vs negative identification (absent from tet plate); (c) faster (overnight); (d) less technically demanding. Both are used after direct antibiotic selection; neither confirms the CORRECT insert — only that some insert is present. Colony hybridization is still needed to confirm the specific gene."
+    "a": "Insertional Inactivation: Vector pBR322. Insert disrupts tet^r at BamHI site. Recombinants: amp^r, tet^s. Identified by REPLICA PLATING (negative result — absent from tet plate). Two plates needed. Takes 2 days. No special reagents. Blue-White Selection: Vector pUC19. Insert disrupts lacZ-α at MCS. Recombinants: white colonies. Non-recombinants: blue colonies. Identified on SAME plate (positive visual result). One plate, one step. Requires X-gal + IPTG. Blue-white is more convenient because: (a) results visible on the same plate without replica plating; (b) positive visual identification (white = recombinant) vs negative identification (absent from tet plate); (c) faster (overnight); (d) less technically demanding. Both are used after direct antibiotic selection; neither confirms the CORRECT insert — only that some insert is present. Colony hybridization is still needed to confirm the specific gene.",
+    "q_ta": "மறுசேர்க்கைகளைச் சலிக்கும் முறைகளாகச் செருகல் செயலிழப்பையும் நீல–வெள்ளைத் தேர்வையும் ஒப்பிடுக. எது வசதியானது, ஏன்?",
+    "a_ta": "செருகல் செயலிழப்பு: தாங்கிக்கடத்தி pBR322. BamHI இடத்தில் செருகல் tet^r-ஐ சீர்குலைக்கிறது. மறுசேர்க்கைகள்: amp^r, tet^s. பிரதியெடுப்புத் தட்டுமுறையால் அடையாளம் காணப்படுகின்றன (எதிர்மறை முடிவு — tet தட்டில் இல்லை). இரு தட்டுகள் தேவை. 2 நாட்கள் ஆகும். சிறப்பு வினைப்பொருள்கள் தேவையில்லை. நீல–வெள்ளைத் தேர்வு: தாங்கிக்கடத்தி pUC19. MCS-இல் செருகல் lacZ-α-ஐ சீர்குலைக்கிறது. மறுசேர்க்கைகள்: வெள்ளைக் காலனிகள். மறுசேர்க்கை அல்லாதவை: நீலக் காலனிகள். ஒரே தட்டிலேயே அடையாளம் காணப்படுகின்றன (நேர்மறைக் காட்சி முடிவு). ஒரு தட்டு, ஒரே படி. X-gal + IPTG தேவை. நீல–வெள்ளை வசதியானது ஏனெனில்: (அ) பிரதியெடுப்புத் தட்டுமுறை இன்றி ஒரே தட்டில் முடிவுகள் தெரிகின்றன; (ஆ) நேர்மறைக் காட்சி அடையாளம் (வெள்ளை = மறுசேர்க்கை) – எதிர்மறை அடையாளம் (tet தட்டில் இல்லை) என்பதை விட; (இ) வேகமானது (ஒரே இரவில்); (ஈ) தொழில்நுட்பக் கடினம் குறைவு. இரண்டும் நேரடி உயிர்எதிர்ப்பிப் பொருள் தேர்வுக்குப் பின் பயன்படுகின்றன; எதுவும் சரியான செருகலை உறுதிசெய்யாது — ஏதோ ஒரு செருகல் உள்ளது என்பதை மட்டுமே காட்டும். குறிப்பிட்ட மரபணுவை உறுதிசெய்ய இன்னும் காலனி கலப்பினமாக்கல் தேவை."
    }
   ],
   "gl": [
    {
     "t": "Recombinant",
-    "d": "A cell or organism containing foreign DNA that has been introduced into its genome or as an episomal element. In gene cloning, a recombinant clone is a bacterial colony carrying a vector with the gene of interest inserted into its MCS."
+    "d": "A cell or organism containing foreign DNA that has been introduced into its genome or as an episomal element. In gene cloning, a recombinant clone is a bacterial colony carrying a vector with the gene of interest inserted into its MCS.",
+    "t_ta": "மறுசேர்க்கை",
+    "d_ta": "மரபணுத்தொகைக்குள்ளோ எபிசோம் கூறாகவோ அயல் DNA செலுத்தப்பட்ட செல் அல்லது உயிரினம். மரபணு குளோனாக்கத்தில், மறுசேர்க்கைக் குளோன் என்பது ஆர்வமுள்ள மரபணு MCS-இல் செருகப்பட்ட தாங்கிக்கடத்தியைக் கொண்ட பாக்டீரியக் காலனி."
    },
    {
     "t": "Selectable Marker",
-    "d": "A gene (typically an antibiotic resistance gene) on a cloning vector used to identify transformed host cells. Only cells expressing the marker gene survive on selective medium. Examples: amp^r, kan^r, tet^r, neo^r."
+    "d": "A gene (typically an antibiotic resistance gene) on a cloning vector used to identify transformed host cells. Only cells expressing the marker gene survive on selective medium. Examples: amp^r, kan^r, tet^r, neo^r.",
+    "t_ta": "தேர்வுக் குறிப்பான்",
+    "d_ta": "உருமாறிய ஓம்புயிர்ச் செல்களை அடையாளம் காணக் குளோனாக்கத் தாங்கிக்கடத்தியில் உள்ள மரபணு (பொதுவாக உயிர்எதிர்ப்பிப் பொருள் எதிர்ப்பு மரபணு). குறிப்பான் மரபணுவை வெளிப்படுத்தும் செல்கள் மட்டுமே தேர்வு ஊடகத்தில் உயிர்வாழும். எடுத்துக்காட்டுகள்: amp^r, kan^r, tet^r, neo^r."
    },
    {
     "t": "Insertional Inactivation",
-    "d": "The disruption of a marker gene's function by inserting foreign DNA into a restriction site within it. Used to distinguish recombinant (marker-inactive) from non-recombinant (marker-active) transformants. Classic example: pBR322 tet^r disrupted by insert at BamHI site."
+    "d": "The disruption of a marker gene's function by inserting foreign DNA into a restriction site within it. Used to distinguish recombinant (marker-inactive) from non-recombinant (marker-active) transformants. Classic example: pBR322 tet^r disrupted by insert at BamHI site.",
+    "t_ta": "செருகல் செயலிழப்பு",
+    "d_ta": "குறிப்பான் மரபணுவுக்குள் உள்ள கட்டுறு இடத்தில் அயல் DNA-வைச் செருகுவதால் அதன் செயல்பாடு சீர்குலைதல். மறுசேர்க்கை (குறிப்பான் செயலிழந்தது), மறுசேர்க்கை அல்லாத (குறிப்பான் செயல்படுவது) உருமாறியவற்றை வேறுபடுத்தப் பயன்படுகிறது. பாரம்பரிய எடுத்துக்காட்டு: BamHI இடத்தில் செருகலால் சீர்குலைந்த pBR322 tet^r."
    },
    {
     "t": "lacZ",
-    "d": "The E. coli gene encoding β-galactosidase. In pUC vectors, the lacZ-α fragment (with MCS within it) is used for blue-white screening. An insert in the MCS disrupts lacZ-α → no functional β-galactosidase → colony remains white (recombinant)."
+    "d": "The E. coli gene encoding β-galactosidase. In pUC vectors, the lacZ-α fragment (with MCS within it) is used for blue-white screening. An insert in the MCS disrupts lacZ-α → no functional β-galactosidase → colony remains white (recombinant).",
+    "t_ta": "lacZ",
+    "d_ta": "β-கேலக்டோசிடேஸைக் குறியீடு செய்யும் E. coli மரபணு. pUC தாங்கிக்கடத்திகளில், lacZ-α துண்டு (MCS-ஐ உள்ளடக்கியது) நீல–வெள்ளைச் சலிப்புக்குப் பயன்படுகிறது. MCS-இல் செருகல் lacZ-α-ஐ சீர்குலைக்கிறது → செயல்படும் β-கேலக்டோசிடேஸ் இல்லை → காலனி வெள்ளையாகவே இருக்கும் (மறுசேர்க்கை)."
    },
    {
     "t": "X-gal",
-    "d": "5-Bromo-4-chloro-3-indolyl-β-D-galactopyranoside. A colourless chromogenic substrate for β-galactosidase. Cleavage by active β-gal releases a blue insoluble compound (5-bromo-4-chloro-indigo), producing blue colonies in blue-white screening."
+    "d": "5-Bromo-4-chloro-3-indolyl-β-D-galactopyranoside. A colourless chromogenic substrate for β-galactosidase. Cleavage by active β-gal releases a blue insoluble compound (5-bromo-4-chloro-indigo), producing blue colonies in blue-white screening.",
+    "t_ta": "X-gal",
+    "d_ta": "5-புரோமோ-4-குளோரோ-3-இண்டோலைல்-β-D-கேலக்டோபைரனோசைடு. β-கேலக்டோசிடேஸுக்கான நிறமற்ற, நிறம் தரும் வினைபடு பொருள். செயல்படும் β-gal-ஆல் பிளக்கப்படும்போது நீலக் கரையாச் சேர்மத்தை (5-புரோமோ-4-குளோரோ-இண்டிகோ) வெளியிட்டு, நீல–வெள்ளைச் சலிப்பில் நீலக் காலனிகளை உருவாக்குகிறது."
    },
    {
     "t": "IPTG",
-    "d": "Isopropyl β-D-1-thiogalactopyranoside. A non-metabolisable inducer of the E. coli lac operon. Induces expression of lacZ-α in pUC vectors during blue-white screening, ensuring sufficient β-galactosidase production for a visible blue signal."
+    "d": "Isopropyl β-D-1-thiogalactopyranoside. A non-metabolisable inducer of the E. coli lac operon. Induces expression of lacZ-α in pUC vectors during blue-white screening, ensuring sufficient β-galactosidase production for a visible blue signal.",
+    "t_ta": "IPTG",
+    "d_ta": "ஐசோபுரோபைல் β-D-தயோகேலக்டோபைரனோசைடு. E. coli lac ஓபரானின் வளர்சிதைமாற்றமாகாத தூண்டி. நீல–வெள்ளைச் சலிப்பின்போது pUC தாங்கிக்கடத்திகளில் lacZ-α வெளிப்பாட்டைத் தூண்டி, காணக்கூடிய நீலச் சமிக்ஞைக்குப் போதுமான β-கேலக்டோசிடேஸ் உற்பத்தியை உறுதிசெய்கிறது."
    },
    {
     "t": "Probe (Nucleic Acid)",
-    "d": "A labelled single-stranded DNA or RNA molecule complementary to a specific target sequence. Used in colony hybridization to identify colonies containing the gene of interest by sequence-specific base pairing. Labelled with ³²P, digoxigenin, or biotin."
+    "d": "A labelled single-stranded DNA or RNA molecule complementary to a specific target sequence. Used in colony hybridization to identify colonies containing the gene of interest by sequence-specific base pairing. Labelled with ³²P, digoxigenin, or biotin.",
+    "t_ta": "துருவி (நியுக்ளிக் அமிலம்)",
+    "d_ta": "குறிப்பிட்ட இலக்கு வரிசைக்கு நிரப்பியதான குறிப்பிடப்பட்ட ஒற்றை இழை DNA அல்லது RNA மூலக்கூறு. வரிசை-தனித்தன்மை கார இணைப்பால் ஆர்வமுள்ள மரபணுவைக் கொண்ட காலனிகளை அடையாளம் காண காலனி கலப்பினமாக்கலில் பயன்படுகிறது. ³²P, டிகாக்சிஜெனின் அல்லது பயோட்டினால் குறிப்பிடப்படுகிறது."
    },
    {
     "t": "Colony Hybridization",
-    "d": "A molecular screening technique where bacterial colonies are transferred to a membrane, lysed, DNA denatured and fixed, and then probed with a labelled nucleic acid probe. Positive colonies (hybridised to probe) are detected by autoradiography and picked from the master plate."
+    "d": "A molecular screening technique where bacterial colonies are transferred to a membrane, lysed, DNA denatured and fixed, and then probed with a labelled nucleic acid probe. Positive colonies (hybridised to probe) are detected by autoradiography and picked from the master plate.",
+    "t_ta": "காலனி கலப்பினமாக்கல்",
+    "d_ta": "பாக்டீரியக் காலனிகள் சவ்வுக்கு மாற்றப்பட்டு, சிதைக்கப்பட்டு, DNA இயல்பிழக்கப்பட்டு நிலைப்படுத்தப்பட்டு, பின் குறிப்பிடப்பட்ட நியுக்ளிக் அமிலத் துருவியுடன் துருவலிடப்படும் மூலக்கூற்றுச் சலிப்பு நுட்பம். நேர்மறைக் காலனிகள் (துருவியுடன் கலப்பினமானவை) ஆட்டோரேடியோகிராஃபியால் கண்டறியப்பட்டுத் தாய்த் தட்டிலிருந்து எடுக்கப்படுகின்றன."
    },
    {
     "t": "Replica Plating",
-    "d": "A technique for making an exact copy of colony positions from one plate to another, using a sterile velvet pad. Used in insertional inactivation to compare growth on ampicillin vs tetracycline plates to identify recombinants (absent on tet plate = amp^r, tet^s)."
+    "d": "A technique for making an exact copy of colony positions from one plate to another, using a sterile velvet pad. Used in insertional inactivation to compare growth on ampicillin vs tetracycline plates to identify recombinants (absent on tet plate = amp^r, tet^s).",
+    "t_ta": "பிரதியெடுப்புத் தட்டுமுறை",
+    "d_ta": "மலட்டு வெல்வெட் பட்டையால் ஒரு தட்டிலிருந்து மற்றொன்றுக்குக் காலனி இடங்களின் துல்லிய நகலை உருவாக்கும் நுட்பம். செருகல் செயலிழப்பில், மறுசேர்க்கைகளை அடையாளம் காண ஆம்பிசிலின் – டெட்ராசைக்ளின் தட்டுகளில் வளர்ச்சியை ஒப்பிடப் பயன்படுகிறது (tet தட்டில் இல்லை = amp^r, tet^s)."
    },
    {
     "t": "α-Complementation",
-    "d": "The reconstitution of functional β-galactosidase by combining the lacZ-α peptide (from pUC vector) with the lacZ-ω peptide (from host strain). An insert in the MCS disrupts lacZ-α → no complementation → no functional β-gal → white colony (recombinant)."
+    "d": "The reconstitution of functional β-galactosidase by combining the lacZ-α peptide (from pUC vector) with the lacZ-ω peptide (from host strain). An insert in the MCS disrupts lacZ-α → no complementation → no functional β-gal → white colony (recombinant).",
+    "t_ta": "α-நிரப்புதல்",
+    "d_ta": "lacZ-α பெப்டைடை (pUC தாங்கிக்கடத்தியிலிருந்து) lacZ-ω பெப்டைடுடன் (ஓம்புயிர்த் திரிபிலிருந்து) இணைத்துச் செயல்படும் β-கேலக்டோசிடேஸை மீளமைத்தல். MCS-இல் செருகல் lacZ-α-ஐ சீர்குலைக்கிறது → நிரப்புதல் இல்லை → செயல்படும் β-gal இல்லை → வெள்ளைக் காலனி (மறுசேர்க்கை)."
    }
+  ],
+  "title_ta": "மறுசேர்க்கைகளைச் சலித்துத் தேர்ந்தெடுத்தல்",
+  "kp_ta": [
+   "சலிப்பின் தேவை: உருமாற்றத்துக்குப் பின் அனைத்துக் காலனி வகைகளும் ஒரே மாதிரித் தோன்றும். உருமாறிய, உருமாறாத செல்களுக்கிடையே சரியான மறுசேர்க்கைத் தாங்கிக்கடத்தி கொண்ட செல்களை அடையாளம் காணத் தேர்வு/சலிப்பு இன்றியமையாதது.",
+   "தேர்வு – சலிப்பு: தேர்வு = செல்கள் உயிர்வாழும் அல்லது இறக்கும் (உயிர்எதிர்ப்பிப் பொருள்). சலிப்பு = அனைத்துச் செல்களும் உயிர்வாழும், ஆனால் ஒரு சமிக்ஞை (நிறம், துருவிச் சமிக்ஞை) மறுசேர்க்கைகளை வேறுபடுத்தும்.",
+   "நேரடித் தேர்வு: தாங்கிக்கடத்தியில் உயிர்எதிர்ப்பிப் பொருள் எதிர்ப்பு. உருமாறியவை மட்டுமே உயிர்வாழும். மறுசேர்க்கையையும் மறுசேர்க்கை அல்லாததையும் வேறுபடுத்தாது. எப்போதும் முதல் படி.",
+   "செருகல் செயலிழப்பு: pBR322 எடுத்துக்காட்டு. BamHI இடத்தில் செருகல் tet^r-ஐ சீர்குலைக்கிறது. மறுசேர்க்கைகள்: amp^r, tet^s. பிரதியெடுப்புத் தட்டுமுறையால் அடையாளம் காணப்படுகின்றன. மறுசேர்க்கைகள் tet தட்டில் இருக்காது.",
+   "நீல–வெள்ளைத் தேர்வு: pUC19 தாங்கிக்கடத்தி. MCS-இல் செருகல் lacZ-α-ஐ சீர்குலைக்கிறது. நீலம் = மறுசேர்க்கை அல்லாதது (lacZ சேதமின்றி, X-gal பிளக்கப்பட்டது). வெள்ளை = மறுசேர்க்கை (lacZ சீர்குலைவு). ஊடகத்தில் X-gal + IPTG தேவை.",
+   "காலனி கலப்பினமாக்கல்: மிகத் தனித்தன்மை வாய்ந்த முறை. குறிப்பிடப்பட்ட துருவி இலக்கு மரபணுவுடன் கலப்பினமாகிறது. படிகள்: காலனி ப்ளாட் → சிதைத்தல் (NaOH) → DNA நிலைப்படுத்தல் → துருவி → கழுவுதல் → ஆட்டோரேடியோகிராஃப் → தாய்த் தட்டிலிருந்து எடுத்தல்.",
+   "X-gal: β-கேலக்டோசிடேஸுக்கான நிறமற்ற வினைபடு பொருள். சேதமற்ற β-gal-ஆல் பிளக்கப்பட்டு → நீலச் சேர்மம். உயிர்எதிர்ப்பிப் பொருள் அல்ல — நிறம் தரும் வினைபடு பொருள்.",
+   "IPTG: நீராற்பகுக்கப்படாத lac ஓபரான் தூண்டி. நீல–வெள்ளைச் சலிப்புக்கு lacZ-α வெளிப்படுவதை உறுதிசெய்கிறது. உயிர்எதிர்ப்பிப் பொருள் அல்ல — படியெடுப்புத் தூண்டி.",
+   "pBR322 – pUC19: pBR322 → செருகல் செயலிழப்பு (இரு உயிர்எதிர்ப்பிப் பொருள் மரபணுக்கள்: amp^r + tet^r). pUC19 → நீல–வெள்ளைத் தேர்வு (lacZ-α + MCS). இரண்டும் நேரடி உயிர்எதிர்ப்பிப் பொருள் தேர்வுடனும் பயன்படுகின்றன.",
+   "காலனி கலப்பினமாக்கலில் துருவி: ³²P-குறிப்பிடப்பட்ட ssDNA அல்லது RNA. ஆர்வமுள்ள மரபணுவுக்கு நிரப்பியது. கலப்பினமாக்கல், கழுவலுக்குப் பின் நேர்மறைக் காலனிகள் X-கதிர் ஃபிலிமில் ஆட்டோரேடியோகிராஃபியால் கண்டறியப்படுகின்றன.",
+   "α-நிரப்புதல்: நீல–வெள்ளையில், தாங்கிக்கடத்தி lacZ-α துண்டையும் ஓம்புயிர் (DH5α, JM109) lacZ-ω-வையும் வழங்குகின்றன. சேர்ந்து செயல்படும் β-கேலக்டோசிடேஸை உருவாக்குகின்றன. செருகல் α-பெப்டைடைச் சீர்குலைக்கிறது → நிரப்புதல் இல்லை → வெள்ளைக் காலனி.",
+   "சரியான செயல்முறை வரிசை: உருமாற்று → உயிர்எதிர்ப்பிப் பொருளில் பரப்பு (நேரடித் தேர்வு) → மறுசேர்க்கைக்குச் சலி (நீல–வெள்ளை அல்லது செருகல் செயலிழப்பு) → காலனி கலப்பினமாக்கல் அல்லது PCR-ஆல் உறுதிசெய் → வரிசைப்படுத்தலால் சரிபார்."
   ]
  },
  "animal_cell_culture.html": {
