@@ -59,6 +59,8 @@ def main():
                     rows.append({'id':did,'defects':defects(m),'measurement':m})
             report['languages'][lang]={'diagrams':len(rows),'affected':sum(bool(r['defects']) for r in rows),'defects':sum(len(r['defects']) for r in rows),'rows':rows}
             print(lang,{k:v for k,v in report['languages'][lang].items() if k!='rows'},flush=True)
+            for r in rows:
+                if r['defects']: print(json.dumps({'lang':lang,'id':r['id'],'defects':r['defects']},ensure_ascii=False),flush=True)
         browser.close()
     Path(args.out).write_text(json.dumps(report,ensure_ascii=False,indent=2))
     return int(any(v['defects'] for v in report['languages'].values()))

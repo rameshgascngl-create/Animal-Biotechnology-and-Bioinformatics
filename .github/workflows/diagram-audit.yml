@@ -1,0 +1,38 @@
+name: Diagram audit (English and Tamil)
+on:
+  push:
+    branches: [feat/native-bilingual-reader]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  diagrams:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r tools/diagrams/requirements.txt
+      - name: Audit both languages (report every candidate)
+        id: audit
+        continue-on-error: true
+        run: python tools/diagrams/check_px.py --out diagram-check.json
+      - name: Measure committed assets
+        run: du -sb app/src/main/assets/diagrams | tee diagram-size-before.txt
+      - name: Rebuild PNGs from source (do not commit binaries)
+        run: |
+          python tools/diagrams/render.py
+          python tools/diagrams/shrink.py
+          du -sb app/src/main/assets/diagrams | tee diagram-size-after.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: bilingual-diagram-audit
+          path: |
+            diagram-check.json
+            diagram-size-*.txt
+            app/src/main/assets/diagrams
+      - name: Keep unresolved collision candidates visible
+        if: steps.audit.outcome != 'success'
+        run: exit 1
