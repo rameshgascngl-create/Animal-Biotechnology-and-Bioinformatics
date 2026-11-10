@@ -2,25 +2,33 @@
  "id": "bioinformatics_databases_app",
  "unit": "V",
  "title": {
-  "en": "Bioinformatics: Nucleotide Sequence Databases | GASC Nagercoil"
+  "en": "Bioinformatics: Nucleotide Sequence Databases | GASC Nagercoil",
+  "ta": "உயிரித் தகவலியல்: நியுக்ளியோடைடு வரிசைத் தரவுத்தளங்கள் | GASC நாகர்கோவில்",
+  "ta_status": "draft"
  },
  "sections": [
   {
    "id": "s01",
    "title": {
-    "en": "Bioinformatics\nNucleotide Sequence Databases: GenBank · EMBL · DDBJ"
+    "en": "Bioinformatics\nNucleotide Sequence Databases: GenBank · EMBL · DDBJ",
+    "ta": "உயிரித் தகவலியல்\nநியுக்ளியோடைடு வரிசைத் தரவுத்தளங்கள்: GenBank · EMBL · DDBJ",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "How billions of DNA sequences are stored, shared, and made globally accessible — the infrastructure powering modern molecular biology."
+      "en": "How billions of DNA sequences are stored, shared, and made globally accessible — the infrastructure powering modern molecular biology.",
+      "ta": "பில்லியன் கணக்கான DNA வரிசைகள் எவ்வாறு சேமிக்கப்பட்டு, பகிரப்பட்டு, உலகளாவிய அணுகலுக்கு உட்படுத்தப்படுகின்றன — நவீன மூலக்கூறு உயிரியலை இயக்கும் அடிப்படைக் கட்டமைப்பு.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Learning Objectives**"
+      "en": "**Learning Objectives**",
+      "ta": "**கற்றல் நோக்கங்கள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -28,29 +36,43 @@
      "ordered": false,
      "items": [
       {
-       "en": "Define bioinformatics and explain its scope and importance"
+       "en": "Define bioinformatics and explain its scope and importance",
+       "ta": "உயிரித் தகவலியலை வரையறுத்து அதன் நோக்கெல்லையையும் முக்கியத்துவத்தையும் விளக்குக",
+       "ta_status": "draft"
       },
       {
-       "en": "Describe the need for biological databases in the genomic era"
+       "en": "Describe the need for biological databases in the genomic era",
+       "ta": "மரபணுத்தொகைய யுகத்தில் உயிரியல் தரவுத்தளங்களின் தேவையை விவரிக்க",
+       "ta_status": "draft"
       },
       {
-       "en": "Explain what nucleotide sequence databases are and why they matter"
+       "en": "Explain what nucleotide sequence databases are and why they matter",
+       "ta": "நியுக்ளியோடைடு வரிசைத் தரவுத்தளங்கள் யாவை, அவை ஏன் முக்கியம் என்பதை விளக்குக",
+       "ta_status": "draft"
       },
       {
-       "en": "Describe GenBank, EMBL, and DDBJ — their features and roles"
+       "en": "Describe GenBank, EMBL, and DDBJ — their features and roles",
+       "ta": "GenBank, EMBL, DDBJ ஆகியவற்றை — அவற்றின் அம்சங்களையும் பங்குகளையும் — விவரிக்க",
+       "ta_status": "draft"
       },
       {
-       "en": "Explain how the three databases collaborate and share data"
+       "en": "Explain how the three databases collaborate and share data",
+       "ta": "இம்மூன்று தரவுத்தளங்களும் எவ்வாறு ஒத்துழைத்துத் தரவைப் பகிர்கின்றன என்பதை விளக்குக",
+       "ta_status": "draft"
       },
       {
-       "en": "Discuss applications of nucleotide databases in research and medicine"
+       "en": "Discuss applications of nucleotide databases in research and medicine",
+       "ta": "ஆராய்ச்சியிலும் மருத்துவத்திலும் நியுக்ளியோடைடு தரவுத்தளங்களின் பயன்பாடுகளை விவாதிக்க",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "SECTION 01"
+      "en": "SECTION 01",
+      "ta": "பிரிவு 01",
+      "ta_status": "draft"
      }
     }
    ],
@@ -59,153 +81,203 @@
   {
    "id": "s02",
    "title": {
-    "en": "Introduction to Bioinformatics"
+    "en": "Introduction to Bioinformatics",
+    "ta": "உயிரித் தகவலியல் அறிமுகம்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Definition\n**Bioinformatics** is an interdisciplinary science that applies principles of **computer science, mathematics, and statistics** to acquire, store, organise, analyse, and interpret biological data — especially large-scale data from genomics, proteomics, and molecular biology."
+      "en": "Definition\n**Bioinformatics** is an interdisciplinary science that applies principles of **computer science, mathematics, and statistics** to acquire, store, organise, analyse, and interpret biological data — especially large-scale data from genomics, proteomics, and molecular biology.",
+      "ta": "வரையறை\n**உயிரித் தகவலியல்** என்பது **கணினி அறிவியல், கணிதம், புள்ளியியல்** கொள்கைகளைப் பயன்படுத்தி — குறிப்பாக மரபணுத்தொகையியல், புரோட்டியோமிக்ஸ், மூலக்கூறு உயிரியலின் பெரிய அளவிலான தரவை — பெற்று, சேமித்து, ஒழுங்கமைத்து, பகுப்பாய்வு செய்து, பொருள்கொள்ளும் பல்துறை அறிவியல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "The word combines _biology_ + _informatics_. The explosive growth of DNA sequence data from genome projects made it impossible to process this information manually — bioinformatics provides the tools and frameworks to handle it computationally."
+      "en": "The word combines _biology_ + _informatics_. The explosive growth of DNA sequence data from genome projects made it impossible to process this information manually — bioinformatics provides the tools and frameworks to handle it computationally.",
+      "ta": "இச்சொல் _உயிரியல்_ + _தகவலியல்_ ஆகியவற்றை இணைக்கிறது. மரபணுத்தொகைய திட்டங்களால் DNA வரிசைத் தரவு வெடிப்பாக வளர்ந்ததால், இத்தகவலைக் கையால் செயலாக்குவது இயலாததாயிற்று — அதைக் கணினி வழியாகக் கையாளும் கருவிகளையும் கட்டமைப்புகளையும் உயிரித் தகவலியல் வழங்குகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Scope of Bioinformatics**"
+      "en": "**Scope of Bioinformatics**",
+      "ta": "**உயிரித் தகவலியலின் நோக்கெல்லை**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🗄️ Data Management**"
+      "en": "**🗄️ Data Management**",
+      "ta": "**🗄️ தரவு மேலாண்மை**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Building and maintaining biological databases for DNA, RNA, protein, and structural data."
+      "en": "Building and maintaining biological databases for DNA, RNA, protein, and structural data.",
+      "ta": "DNA, RNA, புரதம், கட்டமைப்புத் தரவுகளுக்கான உயிரியல் தரவுத்தளங்களை உருவாக்கிப் பராமரித்தல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🔍 Sequence Analysis**"
+      "en": "**🔍 Sequence Analysis**",
+      "ta": "**🔍 வரிசைப் பகுப்பாய்வு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Comparing DNA/protein sequences to find similarities, predict function, and study evolution."
+      "en": "Comparing DNA/protein sequences to find similarities, predict function, and study evolution.",
+      "ta": "ஒப்புமைகளைக் கண்டறியவும், செயலைக் கணிக்கவும், பரிணாமத்தை ஆராயவும் DNA/புரத வரிசைகளை ஒப்பிடுதல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🧬 Genomics**"
+      "en": "**🧬 Genomics**",
+      "ta": "**🧬 மரபணுத்தொகையியல்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Analysing whole-genome data — mapping, annotating, and comparing complete genomes."
+      "en": "Analysing whole-genome data — mapping, annotating, and comparing complete genomes.",
+      "ta": "முழு மரபணுத்தொகைய தரவைப் பகுப்பாய்வு செய்தல் — முழு மரபணுத்தொகைகளை வரைபடமாக்குதல், குறிப்புரை செய்தல், ஒப்பிடுதல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🌳 Phylogenetics**"
+      "en": "**🌳 Phylogenetics**",
+      "ta": "**🌳 பரிணாம மரவியல்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Reconstructing evolutionary relationships between species using molecular data."
+      "en": "Reconstructing evolutionary relationships between species using molecular data.",
+      "ta": "மூலக்கூறுத் தரவைக் கொண்டு இனங்களிடையேயான பரிணாம உறவுகளை மறுகட்டமைத்தல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🧪 Drug Discovery**"
+      "en": "**🧪 Drug Discovery**",
+      "ta": "**🧪 மருந்து கண்டுபிடிப்பு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Identifying drug targets, modelling protein–ligand interactions, and virtual screening."
+      "en": "Identifying drug targets, modelling protein–ligand interactions, and virtual screening.",
+      "ta": "மருந்து இலக்குகளை அடையாளம் காணுதல், புரதம்–இணைப்பி இடைவினைகளை மாதிரியாக்குதல், மெய்நிகர் சலிக்கை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🩺 Medical Genomics**"
+      "en": "**🩺 Medical Genomics**",
+      "ta": "**🩺 மருத்துவ மரபணுத்தொகையியல்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Identifying disease-causing mutations and supporting precision medicine approaches."
+      "en": "Identifying disease-causing mutations and supporting precision medicine approaches.",
+      "ta": "நோயை உண்டாக்கும் திடீர்மாற்றங்களை அடையாளம் காணுதல்; துல்லிய மருத்துவ அணுகுமுறைகளுக்குத் துணைநிற்றல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "exam",
      "text": {
-      "en": "Exam Point\nBioinformatics is often described as the application of **information technology to the study of living things, usually at the molecular level**. Three defining activities: **data storage** (databases), **data analysis** (algorithms/tools), and **knowledge extraction** (biological interpretation)."
+      "en": "Exam Point\nBioinformatics is often described as the application of **information technology to the study of living things, usually at the molecular level**. Three defining activities: **data storage** (databases), **data analysis** (algorithms/tools), and **knowledge extraction** (biological interpretation).",
+      "ta": "தேர்வுக் குறிப்பு\nஉயிரித் தகவலியல் பெரும்பாலும் **உயிரினங்களின், பொதுவாக மூலக்கூறு நிலையிலான, ஆய்வுக்குத் தகவல் தொழில்நுட்பத்தைப் பயன்படுத்துதல்** என விவரிக்கப்படுகிறது. மூன்று வரையறுக்கும் செயல்பாடுகள்: **தரவுச் சேமிப்பு** (தரவுத்தளங்கள்), **தரவுப் பகுப்பாய்வு** (படிமுறைகள்/கருவிகள்), **அறிவுப் பிரித்தெடுப்பு** (உயிரியல் பொருள்கோடல்).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**⚠️ Common Confusions**"
+      "en": "**⚠️ Common Confusions**",
+      "ta": "**⚠️ பொதுவான குழப்பங்கள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Bioinformatics Databases vs Search Tools**"
+      "en": "**Bioinformatics Databases vs Search Tools**",
+      "ta": "**உயிரித் தகவலியல் தரவுத்தளங்கள் – தேடல் கருவிகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "A **bioinformatics database** (e.g., GenBank, EMBL) is a structured repository that _stores_ biological data — like a library. A **search tool** (e.g., BLAST, Entrez) is a software program that _queries_ those databases to find matching sequences — like a library catalogue. You use search tools _to access_ databases; the database itself does not search anything."
+      "en": "A **bioinformatics database** (e.g., GenBank, EMBL) is a structured repository that _stores_ biological data — like a library. A **search tool** (e.g., BLAST, Entrez) is a software program that _queries_ those databases to find matching sequences — like a library catalogue. You use search tools _to access_ databases; the database itself does not search anything.",
+      "ta": "**உயிரித் தகவலியல் தரவுத்தளம்** (எ.கா. GenBank, EMBL) உயிரியல் தரவை _சேமிக்கும்_ ஒழுங்கமைந்த களஞ்சியம் — நூலகம் போல. **தேடல் கருவி** (எ.கா. BLAST, Entrez) அத்தரவுத்தளங்களை _வினவி_ ஒத்த வரிசைகளைக் கண்டறியும் மென்பொருள் — நூலகப் பட்டியல் போல. தரவுத்தளங்களை _அணுக_ தேடல் கருவிகளைப் பயன்படுத்துகிறீர்கள்; தரவுத்தளமே எதையும் தேடுவதில்லை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Bioinformatics Databases vs Sequence Analysis Methods**"
+      "en": "**Bioinformatics Databases vs Sequence Analysis Methods**",
+      "ta": "**உயிரித் தகவலியல் தரவுத்தளங்கள் – வரிசைப் பகுப்பாய்வு முறைகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "A **database** passively stores sequences and associated annotations. A **sequence analysis method** (e.g., pairwise alignment, BLAST search, phylogenetic tree building) is an algorithm or computational technique that processes and compares sequences to extract biological meaning. Analysis methods use databases as their data source but are a separate concept."
+      "en": "A **database** passively stores sequences and associated annotations. A **sequence analysis method** (e.g., pairwise alignment, BLAST search, phylogenetic tree building) is an algorithm or computational technique that processes and compares sequences to extract biological meaning. Analysis methods use databases as their data source but are a separate concept.",
+      "ta": "**தரவுத்தளம்** வரிசைகளையும் தொடர்புடைய குறிப்புரைகளையும் செயலற்ற நிலையில் சேமிக்கிறது. **வரிசைப் பகுப்பாய்வு முறை** (எ.கா. இரட்டை ஒழுங்கமைவு, BLAST தேடல், பரிணாம மரம் உருவாக்கம்) என்பது உயிரியல் பொருளைப் பிரித்தெடுக்க வரிசைகளைச் செயலாக்கி ஒப்பிடும் படிமுறை அல்லது கணினித் தொழில்நுட்பம். பகுப்பாய்வு முறைகள் தரவுத்தளங்களைத் தரவு மூலமாகப் பயன்படுத்துகின்றன; ஆனால் அது வேறொரு கருத்து.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Primary Databases vs Secondary Databases**"
+      "en": "**Primary Databases vs Secondary Databases**",
+      "ta": "**முதன்மைத் தரவுத்தளங்கள் – இரண்டாம்நிலைத் தரவுத்தளங்கள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Primary databases** (e.g., GenBank, EMBL, DDBJ, PDB) store original, experimentally determined data submitted directly by researchers. **Secondary databases** (e.g., UniProt/Swiss-Prot, Pfam, KEGG) are derived or curated databases that add interpretation, annotations, or patterns extracted from primary data — they are not raw submission archives."
+      "en": "**Primary databases** (e.g., GenBank, EMBL, DDBJ, PDB) store original, experimentally determined data submitted directly by researchers. **Secondary databases** (e.g., UniProt/Swiss-Prot, Pfam, KEGG) are derived or curated databases that add interpretation, annotations, or patterns extracted from primary data — they are not raw submission archives.",
+      "ta": "**முதன்மைத் தரவுத்தளங்கள்** (எ.கா. GenBank, EMBL, DDBJ, PDB) ஆய்வாளர்கள் நேரடியாகச் சமர்ப்பித்த, சோதனை வழி கண்டறியப்பட்ட மூலத் தரவைச் சேமிக்கின்றன. **இரண்டாம்நிலைத் தரவுத்தளங்கள்** (எ.கா. UniProt/Swiss-Prot, Pfam, KEGG) முதன்மைத் தரவிலிருந்து பெறப்பட்ட அல்லது பராமரிக்கப்பட்ட, பொருள்கோடல், குறிப்புரை அல்லது வடிவங்களைச் சேர்க்கும் தரவுத்தளங்கள்; அவை மூலச் சமர்ப்பிப்புக் காப்பகங்கள் அல்ல.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Quick Revision"
+      "en": "Quick Revision",
+      "ta": "விரைவுத் திருப்புதல்",
+      "ta_status": "draft"
      }
     },
     {
@@ -213,26 +285,38 @@
      "ordered": false,
      "items": [
       {
-       "en": "Bioinformatics = biology + computer science + mathematics — manages and analyses large biological datasets"
+       "en": "Bioinformatics = biology + computer science + mathematics — manages and analyses large biological datasets",
+       "ta": "உயிரித் தகவலியல் = உயிரியல் + கணினி அறிவியல் + கணிதம் — பெரிய உயிரியல் தரவுத்தொகுப்புகளை மேலாண்மை செய்து பகுப்பாய்வு செய்கிறது",
+       "ta_status": "draft"
       },
       {
-       "en": "Three core activities: data storage, data analysis, and knowledge extraction"
+       "en": "Three core activities: data storage, data analysis, and knowledge extraction",
+       "ta": "மூன்று மையச் செயல்பாடுகள்: தரவுச் சேமிப்பு, தரவுப் பகுப்பாய்வு, அறிவுப் பிரித்தெடுப்பு",
+       "ta_status": "draft"
       },
       {
-       "en": "Databases store data; search tools query it; analysis methods interpret it — three distinct concepts"
+       "en": "Databases store data; search tools query it; analysis methods interpret it — three distinct concepts",
+       "ta": "தரவுத்தளங்கள் தரவைச் சேமிக்கும்; தேடல் கருவிகள் வினவும்; பகுப்பாய்வு முறைகள் பொருள்கோடும் — மூன்று தனித்தனிக் கருத்துகள்",
+       "ta_status": "draft"
       },
       {
-       "en": "Primary databases store original experimental data; secondary databases add curated interpretation"
+       "en": "Primary databases store original experimental data; secondary databases add curated interpretation",
+       "ta": "முதன்மைத் தரவுத்தளங்கள் மூலச் சோதனைத் தரவைச் சேமிக்கும்; இரண்டாம்நிலைத் தரவுத்தளங்கள் பராமரிக்கப்பட்ட பொருள்கோடலைச் சேர்க்கும்",
+       "ta_status": "draft"
       },
       {
-       "en": "The Human Genome Project (completed 2003) generated massive sequence data — bioinformatics made it usable"
+       "en": "The Human Genome Project (completed 2003) generated massive sequence data — bioinformatics made it usable",
+       "ta": "மனித மரபணுத்தொகைய திட்டம் (2003-இல் நிறைவு) மிகப்பெரிய வரிசைத் தரவை உருவாக்கியது — உயிரித் தகவலியல் அதைப் பயன்படுத்தத்தக்கதாக்கியது",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "SECTION 02"
+      "en": "SECTION 02",
+      "ta": "பிரிவு 02",
+      "ta_status": "draft"
      }
     }
    ]
@@ -240,46 +324,64 @@
   {
    "id": "s03",
    "title": {
-    "en": "Need for Bioinformatics"
+    "en": "Need for Bioinformatics",
+    "ta": "உயிரித் தகவலியலின் தேவை",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "The Data Explosion\nBy 2023, GenBank alone contained over **250 billion** nucleotide base pairs from more than **2 billion** sequence records. New sequencing technologies (Next-Generation Sequencing) generate gigabytes of data per experiment. No human team can analyse this manually — bioinformatics tools are essential."
+      "en": "The Data Explosion\nBy 2023, GenBank alone contained over **250 billion** nucleotide base pairs from more than **2 billion** sequence records. New sequencing technologies (Next-Generation Sequencing) generate gigabytes of data per experiment. No human team can analyse this manually — bioinformatics tools are essential.",
+      "ta": "தரவு வெடிப்பு\n2023-க்குள் GenBank மட்டுமே **200 கோடிக்கும்** மேற்பட்ட வரிசைப் பதிவுகளிலிருந்து **25,000 கோடிக்கும்** மேற்பட்ட நியுக்ளியோடைடு காரணைகளைக் கொண்டிருந்தது. புதிய வரிசையாக்கத் தொழில்நுட்பங்கள் (அடுத்த தலைமுறை வரிசையாக்கம்) ஒரு சோதனைக்கே ஜிகாபைட் கணக்கில் தரவை உருவாக்குகின்றன. இதை எந்த மனிதக் குழுவாலும் கையால் பகுப்பாய்வு செய்ய இயலாது — உயிரித் தகவலியல் கருவிகள் இன்றியமையாதவை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Why Bioinformatics Is Indispensable**"
+      "en": "**Why Bioinformatics Is Indispensable**",
+      "ta": "**உயிரித் தகவலியல் ஏன் இன்றியமையாதது**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "steps",
      "items": [
       {
-       "en": "1 **Data Storage at Scale**Genome sequences contain billions of nucleotides. Physical storage and rapid retrieval of sequence records for millions of organisms requires structured digital databases."
+       "en": "1 **Data Storage at Scale**Genome sequences contain billions of nucleotides. Physical storage and rapid retrieval of sequence records for millions of organisms requires structured digital databases.",
+       "ta": "1 **பெரிய அளவிலான தரவுச் சேமிப்பு**மரபணுத்தொகை வரிசைகளில் பில்லியன் கணக்கான நியுக்ளியோடைடுகள் உள்ளன. மில்லியன் கணக்கான உயிரினங்களின் வரிசைப் பதிவுகளைச் சேமிக்கவும் விரைந்து மீட்கவும் கட்டமைக்கப்பட்ட எண்ணிம தரவுத்தளங்கள் தேவை.",
+       "ta_status": "draft"
       },
       {
-       "en": "2 **Data Retrieval**Scientists need to quickly find specific genes, organisms, or sequence features from among billions of records — impossible without database search tools like Entrez or SRS."
+       "en": "2 **Data Retrieval**Scientists need to quickly find specific genes, organisms, or sequence features from among billions of records — impossible without database search tools like Entrez or SRS.",
+       "ta": "2 **தரவு மீட்பு**பில்லியன் கணக்கான பதிவுகளிலிருந்து குறிப்பிட்ட மரபணுக்களையோ உயிரினங்களையோ வரிசை அம்சங்களையோ விரைவாகக் கண்டறிய விஞ்ஞானிகளுக்குத் தேவை — Entrez அல்லது SRS போன்ற தரவுத்தளத் தேடல் கருவிகளின்றி இயலாது.",
+       "ta_status": "draft"
       },
       {
-       "en": "3 **Sequence Comparison and Analysis**Finding similar sequences across species helps infer gene function, evolutionary relationships, and disease relevance — requires computational alignment algorithms."
+       "en": "3 **Sequence Comparison and Analysis**Finding similar sequences across species helps infer gene function, evolutionary relationships, and disease relevance — requires computational alignment algorithms.",
+       "ta": "3 **வரிசை ஒப்பீடும் பகுப்பாய்வும்**இனங்களிடையே ஒத்த வரிசைகளைக் கண்டறிவது மரபணுச் செயல், பரிணாம உறவுகள், நோய்த் தொடர்பு ஆகியவற்றை ஊகிக்க உதவும் — கணினி ஒழுங்கமைவுப் படிமுறைகள் தேவை.",
+       "ta_status": "draft"
       },
       {
-       "en": "4 **Global Data Sharing**Research benefits from shared, publicly accessible data. Bioinformatics infrastructure ensures sequences submitted anywhere in the world become available to all researchers instantly."
+       "en": "4 **Global Data Sharing**Research benefits from shared, publicly accessible data. Bioinformatics infrastructure ensures sequences submitted anywhere in the world become available to all researchers instantly.",
+       "ta": "4 **உலகளாவியத் தரவுப் பகிர்வு**பகிரப்பட்ட, பொதுவில் அணுகக்கூடிய தரவால் ஆராய்ச்சி பயனடைகிறது. உலகில் எங்கு சமர்ப்பிக்கப்பட்ட வரிசையும் எல்லா ஆய்வாளர்களுக்கும் உடனடியாகக் கிடைப்பதை உயிரித் தகவலியல் கட்டமைப்பு உறுதிசெய்கிறது.",
+       "ta_status": "draft"
       },
       {
-       "en": "5 **Annotation and Interpretation**Raw sequences must be annotated — genes, regulatory regions, and features identified — before they are biologically meaningful. Bioinformatics tools automate this process."
+       "en": "5 **Annotation and Interpretation**Raw sequences must be annotated — genes, regulatory regions, and features identified — before they are biologically meaningful. Bioinformatics tools automate this process.",
+       "ta": "5 **குறிப்புரையும் பொருள்கோடலும்**மூல வரிசைகள் உயிரியல் பொருளுடையவை ஆகும் முன் குறிப்புரை செய்யப்பட வேண்டும் — மரபணுக்கள், ஒழுங்குபடுத்தும் பகுதிகள், அம்சங்கள் அடையாளம் காணப்பட வேண்டும். உயிரித் தகவலியல் கருவிகள் இச்செயலைத் தானியக்குகின்றன.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "Quick Revision"
+      "en": "Quick Revision",
+      "ta": "விரைவுத் திருப்புதல்",
+      "ta_status": "draft"
      }
     },
     {
@@ -287,23 +389,33 @@
      "ordered": false,
      "items": [
       {
-       "en": "The genomic era generates data far too large for manual analysis — bioinformatics is essential"
+       "en": "The genomic era generates data far too large for manual analysis — bioinformatics is essential",
+       "ta": "மரபணுத்தொகைய யுகம் கையால் பகுப்பாய்வு செய்ய இயலாத அளவு தரவை உருவாக்குகிறது — உயிரித் தகவலியல் இன்றியமையாதது",
+       "ta_status": "draft"
       },
       {
-       "en": "Five core needs: storage, retrieval, comparison/analysis, global sharing, and annotation"
+       "en": "Five core needs: storage, retrieval, comparison/analysis, global sharing, and annotation",
+       "ta": "ஐந்து மையத் தேவைகள்: சேமிப்பு, மீட்பு, ஒப்பீடு/பகுப்பாய்வு, உலகளாவியப் பகிர்வு, குறிப்புரை",
+       "ta_status": "draft"
       },
       {
-       "en": "Next-Generation Sequencing (NGS) has accelerated sequence data production exponentially"
+       "en": "Next-Generation Sequencing (NGS) has accelerated sequence data production exponentially",
+       "ta": "அடுத்த தலைமுறை வரிசையாக்கம் (NGS) வரிசைத் தரவு உற்பத்தியை அதிவேகமாக்கியுள்ளது",
+       "ta_status": "bracketed"
       },
       {
-       "en": "Without bioinformatics, genome projects like the Human Genome Project could not be completed"
+       "en": "Without bioinformatics, genome projects like the Human Genome Project could not be completed",
+       "ta": "உயிரித் தகவலியல் இன்றி மனித மரபணுத்தொகைய திட்டம் போன்றவற்றை நிறைவு செய்திருக்க இயலாது",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "SECTION 03"
+      "en": "SECTION 03",
+      "ta": "பிரிவு 03",
+      "ta_status": "draft"
      }
     }
    ]
@@ -311,32 +423,42 @@
   {
    "id": "s04",
    "title": {
-    "en": "Biological Databases"
+    "en": "Biological Databases",
+    "ta": "உயிரியல் தரவுத்தளங்கள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Definition\nA **biological database** is an organised collection of biological data stored in a computer system so that it can be retrieved, updated, and analysed efficiently. Databases form the foundation of bioinformatics — they are where experimental data is deposited and from where it is accessed globally."
+      "en": "Definition\nA **biological database** is an organised collection of biological data stored in a computer system so that it can be retrieved, updated, and analysed efficiently. Databases form the foundation of bioinformatics — they are where experimental data is deposited and from where it is accessed globally.",
+      "ta": "வரையறை\n**உயிரியல் தரவுத்தளம்** என்பது திறம்பட மீட்கவும், புதுப்பிக்கவும், பகுப்பாய்வு செய்யவும் கணினியில் சேமிக்கப்பட்ட ஒழுங்கமைந்த உயிரியல் தரவுத் தொகுப்பு. தரவுத்தளங்கள் உயிரித் தகவலியலின் அடித்தளம் — சோதனைத் தரவு இங்கே சேமிக்கப்பட்டு, இங்கிருந்து உலகளவில் அணுகப்படுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Types of Biological Databases**"
+      "en": "**Types of Biological Databases**",
+      "ta": "**உயிரியல் தரவுத்தளங்களின் வகைகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**📂 Primary Databases**"
+      "en": "**📂 Primary Databases**",
+      "ta": "**📂 முதன்மைத் தரவுத்தளங்கள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Store **original, experimentally determined data** submitted directly by researchers. Data is uninterpreted."
+      "en": "Store **original, experimentally determined data** submitted directly by researchers. Data is uninterpreted.",
+      "ta": "ஆய்வாளர்கள் நேரடியாகச் சமர்ப்பித்த **மூல, சோதனை வழிக் கண்டறியப்பட்ட தரவை** சேமிக்கும். தரவு பொருள்கோடப்படாதது.",
+      "ta_status": "draft"
      }
     },
     {
@@ -344,29 +466,41 @@
      "ordered": false,
      "items": [
       {
-       "en": "GenBank (NCBI, USA)"
+       "en": "GenBank (NCBI, USA)",
+       "ta": "GenBank (NCBI, அமெரிக்கா)",
+       "ta_status": "draft"
       },
       {
-       "en": "EMBL Nucleotide Sequence Database (EBI, Europe)"
+       "en": "EMBL Nucleotide Sequence Database (EBI, Europe)",
+       "ta": "EMBL நியுக்ளியோடைடு வரிசைத் தரவுத்தளம் (EBI, ஐரோப்பா)",
+       "ta_status": "bracketed"
       },
       {
-       "en": "DDBJ (DNA Data Bank of Japan)"
+       "en": "DDBJ (DNA Data Bank of Japan)",
+       "ta": "DDBJ (ஜப்பானின் DNA தரவு வங்கி)",
+       "ta_status": "draft"
       },
       {
-       "en": "PDB (Protein Data Bank — structures)"
+       "en": "PDB (Protein Data Bank — structures)",
+       "ta": "PDB (புரதத் தரவு வங்கி — கட்டமைப்புகள்)",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**📑 Secondary Databases**"
+      "en": "**📑 Secondary Databases**",
+      "ta": "**📑 இரண்டாம்நிலைத் தரவுத்தளங்கள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Derived from primary databases through **expert curation and computational analysis**. Add functional annotation and classification."
+      "en": "Derived from primary databases through **expert curation and computational analysis**. Add functional annotation and classification.",
+      "ta": "**நிபுணர் பராமரிப்பு, கணினிப் பகுப்பாய்வு** மூலம் முதன்மைத் தரவுத்தளங்களிலிருந்து பெறப்பட்டவை. செயல்பாட்டுக் குறிப்புரையையும் வகைப்பாட்டையும் சேர்க்கும்.",
+      "ta_status": "draft"
      }
     },
     {
@@ -374,16 +508,24 @@
      "ordered": false,
      "items": [
       {
-       "en": "UniProt / Swiss-Prot (proteins)"
+       "en": "UniProt / Swiss-Prot (proteins)",
+       "ta": "UniProt / Swiss-Prot (புரதங்கள்)",
+       "ta_status": "draft"
       },
       {
-       "en": "Pfam (protein families)"
+       "en": "Pfam (protein families)",
+       "ta": "Pfam (புரதக் குடும்பங்கள்)",
+       "ta_status": "draft"
       },
       {
-       "en": "KEGG (metabolic pathways)"
+       "en": "KEGG (metabolic pathways)",
+       "ta": "KEGG (வளர்சிதை மாற்றப் பாதைகள்)",
+       "ta_status": "draft"
       },
       {
-       "en": "OMIM (human genetic disease)"
+       "en": "OMIM (human genetic disease)",
+       "ta": "OMIM (மனித மரபுநோய்கள்)",
+       "ta_status": "draft"
       }
      ]
     },
@@ -391,13 +533,17 @@
      "type": "callout",
      "kind": "exam",
      "text": {
-      "en": "Exam Point\nThe three major international **nucleotide sequence databases** — GenBank, EMBL, and DDBJ — are all primary databases. Together they form the **International Nucleotide Sequence Database Collaboration (INSDC)**."
+      "en": "Exam Point\nThe three major international **nucleotide sequence databases** — GenBank, EMBL, and DDBJ — are all primary databases. Together they form the **International Nucleotide Sequence Database Collaboration (INSDC)**.",
+      "ta": "தேர்வுக் குறிப்பு\nமூன்று முக்கிய பன்னாட்டு **நியுக்ளியோடைடு வரிசைத் தரவுத்தளங்களும்** — GenBank, EMBL, DDBJ — முதன்மைத் தரவுத்தளங்களே. ஒன்றாக அவை **பன்னாட்டு நியுக்ளியோடைடு வரிசைத் தரவுத்தளக் கூட்டிணைவை (INSDC)** உருவாக்குகின்றன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Quick Revision"
+      "en": "Quick Revision",
+      "ta": "விரைவுத் திருப்புதல்",
+      "ta_status": "draft"
      }
     },
     {
@@ -405,26 +551,38 @@
      "ordered": false,
      "items": [
       {
-       "en": "Biological database = organised, computer-stored collection of biological data for retrieval and analysis"
+       "en": "Biological database = organised, computer-stored collection of biological data for retrieval and analysis",
+       "ta": "உயிரியல் தரவுத்தளம் = மீட்பு, பகுப்பாய்வுக்காகக் கணினியில் சேமிக்கப்பட்ட ஒழுங்கமைந்த உயிரியல் தரவுத் தொகுப்பு",
+       "ta_status": "draft"
       },
       {
-       "en": "Primary databases store original experimental data (submitted by researchers)"
+       "en": "Primary databases store original experimental data (submitted by researchers)",
+       "ta": "முதன்மைத் தரவுத்தளங்கள் மூலச் சோதனைத் தரவைச் சேமிக்கும் (ஆய்வாளர்கள் சமர்ப்பித்தவை)",
+       "ta_status": "draft"
       },
       {
-       "en": "Secondary databases add expert curation and annotation to primary data"
+       "en": "Secondary databases add expert curation and annotation to primary data",
+       "ta": "இரண்டாம்நிலைத் தரவுத்தளங்கள் முதன்மைத் தரவுடன் நிபுணர் பராமரிப்பையும் குறிப்புரையையும் சேர்க்கும்",
+       "ta_status": "draft"
       },
       {
-       "en": "GenBank, EMBL, and DDBJ are the three main primary nucleotide sequence databases"
+       "en": "GenBank, EMBL, and DDBJ are the three main primary nucleotide sequence databases",
+       "ta": "GenBank, EMBL, DDBJ ஆகியவை மூன்று முக்கிய முதன்மை நியுக்ளியோடைடு வரிசைத் தரவுத்தளங்கள்",
+       "ta_status": "draft"
       },
       {
-       "en": "Together they form INSDC — International Nucleotide Sequence Database Collaboration"
+       "en": "Together they form INSDC — International Nucleotide Sequence Database Collaboration",
+       "ta": "ஒன்றாக INSDC — பன்னாட்டு நியுக்ளியோடைடு வரிசைத் தரவுத்தளக் கூட்டிணைவை உருவாக்குகின்றன",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "SECTION 04"
+      "en": "SECTION 04",
+      "ta": "பிரிவு 04",
+      "ta_status": "draft"
      }
     }
    ]
@@ -432,80 +590,106 @@
   {
    "id": "s05",
    "title": {
-    "en": "Nucleotide Sequence Databases"
+    "en": "Nucleotide Sequence Databases",
+    "ta": "நியுக்ளியோடைடு வரிசைத் தரவுத்தளங்கள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Definition\nA **nucleotide sequence database** is a type of biological database that stores DNA and RNA sequence data — along with associated information (organism, gene name, function, publication) — and makes this data freely accessible to researchers worldwide."
+      "en": "Definition\nA **nucleotide sequence database** is a type of biological database that stores DNA and RNA sequence data — along with associated information (organism, gene name, function, publication) — and makes this data freely accessible to researchers worldwide.",
+      "ta": "வரையறை\n**நியுக்ளியோடைடு வரிசைத் தரவுத்தளம்** என்பது DNA, RNA வரிசைத் தரவையும் — தொடர்புடைய தகவல்களுடன் (உயிரினம், மரபணுப் பெயர், செயல், வெளியீடு) — சேமித்து, உலகளாவிய ஆய்வாளர்களுக்கு இலவசமாக அணுகக் கிடைக்கச்செய்யும் உயிரியல் தரவுத்தள வகை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Nucleotide sequence databases are the most fundamental resource in molecular biology. When a researcher sequences a gene or genome, they submit the sequence to one of the three international databases. The data is then shared globally within 24 hours."
+      "en": "Nucleotide sequence databases are the most fundamental resource in molecular biology. When a researcher sequences a gene or genome, they submit the sequence to one of the three international databases. The data is then shared globally within 24 hours.",
+      "ta": "நியுக்ளியோடைடு வரிசைத் தரவுத்தளங்கள் மூலக்கூறு உயிரியலின் மிக அடிப்படை வளம். ஒரு ஆய்வாளர் மரபணுவையோ மரபணுத்தொகையையோ வரிசைப்படுத்தும்போது, அவ்வரிசையை மூன்று பன்னாட்டுத் தரவுத்தளங்களில் ஒன்றுக்குச் சமர்ப்பிக்கிறார். பின்னர் 24 மணி நேரத்துக்குள் தரவு உலகளவில் பகிரப்படுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Why Nucleotide Databases Are Critical**"
+      "en": "**Why Nucleotide Databases Are Critical**",
+      "ta": "**நியுக்ளியோடைடு தரவுத்தளங்கள் ஏன் இன்றியமையாதவை**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**📤 Submission Archive**"
+      "en": "**📤 Submission Archive**",
+      "ta": "**📤 சமர்ப்பிப்புக் காப்பகம்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Many journals require database submission before publication — ensuring all newly determined sequences become public."
+      "en": "Many journals require database submission before publication — ensuring all newly determined sequences become public.",
+      "ta": "பல இதழ்கள் வெளியீட்டுக்கு முன் தரவுத்தளச் சமர்ப்பிப்பைக் கோருகின்றன — புதிதாகக் கண்டறியப்பட்ட அனைத்து வரிசைகளும் பொதுவில் கிடைப்பதை உறுதிசெய்கிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🔬 Research Foundation**"
+      "en": "**🔬 Research Foundation**",
+      "ta": "**🔬 ஆராய்ச்சி அடித்தளம்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Every BLAST search, phylogenetic analysis, and gene cloning project begins with database-retrieved sequences."
+      "en": "Every BLAST search, phylogenetic analysis, and gene cloning project begins with database-retrieved sequences.",
+      "ta": "ஒவ்வொரு BLAST தேடலும், பரிணாமப் பகுப்பாய்வும், மரபணுக் குளோனிங் திட்டமும் தரவுத்தளத்திலிருந்து பெறப்பட்ட வரிசைகளுடன் தொடங்குகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🌍 Global Access**"
+      "en": "**🌍 Global Access**",
+      "ta": "**🌍 உலகளாவிய அணுகல்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Free, open access to all submitted sequences — democratising molecular biology research worldwide."
+      "en": "Free, open access to all submitted sequences — democratising molecular biology research worldwide.",
+      "ta": "சமர்ப்பிக்கப்பட்ட அனைத்து வரிசைகளுக்கும் இலவச, திறந்த அணுகல் — உலகளவில் மூலக்கூறு உயிரியல் ஆராய்ச்சியை ஜனநாயகப்படுத்துகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**📋 Annotation Storage**"
+      "en": "**📋 Annotation Storage**",
+      "ta": "**📋 குறிப்புரைச் சேமிப்பு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Stores not just sequences but functional annotations — gene location, protein product, known variants, and literature references."
+      "en": "Stores not just sequences but functional annotations — gene location, protein product, known variants, and literature references.",
+      "ta": "வரிசைகளை மட்டுமன்றி, செயல்பாட்டுக் குறிப்புரைகளையும் — மரபணு இருப்பிடம், புரத விளைபொருள், அறியப்பட்ட மாறுபாடுகள், இலக்கியக் குறிப்புகள் — சேமிக்கிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Quick Revision"
+      "en": "Quick Revision",
+      "ta": "விரைவுத் திருப்புதல்",
+      "ta_status": "draft"
      }
     },
     {
@@ -513,23 +697,33 @@
      "ordered": false,
      "items": [
       {
-       "en": "Nucleotide databases store DNA/RNA sequences + associated biological annotation"
+       "en": "Nucleotide databases store DNA/RNA sequences + associated biological annotation",
+       "ta": "நியுக்ளியோடைடு தரவுத்தளங்கள் DNA/RNA வரிசைகளையும் தொடர்புடைய உயிரியல் குறிப்புரையையும் சேமிக்கும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Journal submission policies require database deposition — ensuring public availability"
+       "en": "Journal submission policies require database deposition — ensuring public availability",
+       "ta": "இதழ்க் கொள்கைகள் தரவுத்தளச் சேமிப்பைக் கோருகின்றன — பொதுவில் கிடைப்பதை உறுதிசெய்கின்றன",
+       "ta_status": "draft"
       },
       {
-       "en": "Used as the starting point for virtually every molecular biology research project"
+       "en": "Used as the starting point for virtually every molecular biology research project",
+       "ta": "கிட்டத்தட்ட ஒவ்வொரு மூலக்கூறு உயிரியல் ஆராய்ச்சித் திட்டத்தின் தொடக்கப் புள்ளி",
+       "ta_status": "draft"
       },
       {
-       "en": "Free, open access to billions of sequences from all organisms on Earth"
+       "en": "Free, open access to billions of sequences from all organisms on Earth",
+       "ta": "பூமியின் அனைத்து உயிரினங்களின் பில்லியன் கணக்கான வரிசைகளுக்கு இலவச, திறந்த அணுகல்",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "SECTION 05"
+      "en": "SECTION 05",
+      "ta": "பிரிவு 05",
+      "ta_status": "draft"
      }
     }
    ]
@@ -537,109 +731,145 @@
   {
    "id": "s06",
    "title": {
-    "en": "GenBank"
+    "en": "GenBank",
+    "ta": "GenBank",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "🇺🇸 USA · NCBI"
+      "en": "🇺🇸 USA · NCBI",
+      "ta": "🇺🇸 அமெரிக்கா · NCBI",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**GenBank — The US National Nucleotide Sequence Database**"
+      "en": "**GenBank — The US National Nucleotide Sequence Database**",
+      "ta": "**GenBank — அமெரிக்கத் தேசிய நியுக்ளியோடைடு வரிசைத் தரவுத்தளம்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "GenBank is the comprehensive, publicly accessible nucleotide sequence database maintained by the **National Center for Biotechnology Information (NCBI)**, which is part of the **National Institutes of Health (NIH)** in the United States. Established in 1982, it is the world's largest annotated sequence archive."
+      "en": "GenBank is the comprehensive, publicly accessible nucleotide sequence database maintained by the **National Center for Biotechnology Information (NCBI)**, which is part of the **National Institutes of Health (NIH)** in the United States. Established in 1982, it is the world's largest annotated sequence archive.",
+      "ta": "GenBank என்பது அமெரிக்காவின் **தேசிய சுகாதார நிறுவனங்களின் (NIH)** பகுதியான **தேசிய உயிரித் தொழில்நுட்பத் தகவல் மையத்தால் (NCBI)** பராமரிக்கப்படும், விரிவான, பொதுவில் அணுகக்கூடிய நியுக்ளியோடைடு வரிசைத் தரவுத்தளம். 1982-இல் நிறுவப்பட்ட இது, உலகின் மிகப் பெரிய குறிப்புரையிடப்பட்ட வரிசைக் காப்பகம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Key Features of GenBank**"
+      "en": "**Key Features of GenBank**",
+      "ta": "**GenBank-இன் முக்கிய அம்சங்கள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**📅 Founded**"
+      "en": "**📅 Founded**",
+      "ta": "**📅 நிறுவப்பட்டது**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Established in 1982 at NCBI, National Institutes of Health (NIH), Bethesda, USA."
+      "en": "Established in 1982 at NCBI, National Institutes of Health (NIH), Bethesda, USA.",
+      "ta": "1982-இல் அமெரிக்காவின் பெதஸ்டாவிலுள்ள NCBI-யில், தேசிய சுகாதார நிறுவனங்களில் (NIH) நிறுவப்பட்டது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🔢 Scale**"
+      "en": "**🔢 Scale**",
+      "ta": "**🔢 அளவு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Over 250 billion nucleotide bases from >2 billion sequence records (2023); grows by ~10% per year."
+      "en": "Over 250 billion nucleotide bases from >2 billion sequence records (2023); grows by ~10% per year.",
+      "ta": "200 கோடிக்கும் மேற்பட்ட வரிசைப் பதிவுகளிலிருந்து 25,000 கோடிக்கும் மேற்பட்ட நியுக்ளியோடைடு காரணைகள் (2023); ஆண்டுக்குச் சுமார் 10% வளர்கிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🌐 Access Tool**"
+      "en": "**🌐 Access Tool**",
+      "ta": "**🌐 அணுகல் கருவி**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Entrez** search system and **BLAST** tool allow searching and comparing sequences online."
+      "en": "**Entrez** search system and **BLAST** tool allow searching and comparing sequences online.",
+      "ta": "**Entrez** தேடல் அமைப்பும் **BLAST** கருவியும் வரிசைகளை இணையத்தில் தேடவும் ஒப்பிடவும் உதவுகின்றன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**📄 Flat File Format**"
+      "en": "**📄 Flat File Format**",
+      "ta": "**📄 தட்டைக் கோப்பு வடிவம்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "GenBank flat file format: each record has LOCUS, DEFINITION, ORGANISM, FEATURES (genes), ORIGIN (sequence)."
+      "en": "GenBank flat file format: each record has LOCUS, DEFINITION, ORGANISM, FEATURES (genes), ORIGIN (sequence).",
+      "ta": "GenBank தட்டைக் கோப்பு வடிவம்: ஒவ்வொரு பதிவிலும் LOCUS, DEFINITION, ORGANISM, FEATURES (மரபணுக்கள்), ORIGIN (வரிசை) இருக்கும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🔗 Integrated**"
+      "en": "**🔗 Integrated**",
+      "ta": "**🔗 ஒருங்கிணைந்தது**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Linked to PubMed (literature), taxonomy, protein, structure, and other NCBI databases."
+      "en": "Linked to PubMed (literature), taxonomy, protein, structure, and other NCBI databases.",
+      "ta": "PubMed (இலக்கியம்), வகைபாடு, புரதம், கட்டமைப்பு மற்றும் பிற NCBI தரவுத்தளங்களுடன் இணைக்கப்பட்டுள்ளது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🤝 INSDC Member**"
+      "en": "**🤝 INSDC Member**",
+      "ta": "**🤝 INSDC உறுப்பினர்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Exchanges data daily with EMBL (EBI) and DDBJ — all three databases share identical records within 24 hours."
+      "en": "Exchanges data daily with EMBL (EBI) and DDBJ — all three databases share identical records within 24 hours.",
+      "ta": "EMBL (EBI), DDBJ உடன் தினமும் தரவைப் பரிமாறுகிறது — மூன்று தரவுத்தளங்களும் 24 மணி நேரத்துக்குள் ஒரே பதிவுகளைப் பகிர்கின்றன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Type of Data Stored**"
+      "en": "**Type of Data Stored**",
+      "ta": "**சேமிக்கப்படும் தரவு வகை**",
+      "ta_status": "draft"
      }
     },
     {
@@ -647,19 +877,29 @@
      "ordered": false,
      "items": [
       {
-       "en": "DNA and RNA sequences from all organisms (bacteria, viruses, plants, animals, humans)"
+       "en": "DNA and RNA sequences from all organisms (bacteria, viruses, plants, animals, humans)",
+       "ta": "அனைத்து உயிரினங்களின் (பாக்டீரியா, வைரஸ், தாவரங்கள், விலங்குகள், மனிதர்) DNA, RNA வரிசைகள்",
+       "ta_status": "draft"
       },
       {
-       "en": "Genome sequences — complete chromosomes, organellar genomes"
+       "en": "Genome sequences — complete chromosomes, organellar genomes",
+       "ta": "மரபணுத்தொகைய வரிசைகள் — முழுமையான நிறமூர்த்தங்கள், செல்லுறுப்பு மரபணுத்தொகைகள்",
+       "ta_status": "draft"
       },
       {
-       "en": "Expressed Sequence Tags (ESTs), Sequence-Tagged Sites (STSs)"
+       "en": "Expressed Sequence Tags (ESTs), Sequence-Tagged Sites (STSs)",
+       "ta": "வெளிப்பாட்டு வரிசைக் குறிகள் (EST), வரிசைக் குறியிட்ட தளங்கள் (STS)",
+       "ta_status": "bracketed"
       },
       {
-       "en": "Annotations: gene boundaries, coding sequences, protein products, regulatory regions"
+       "en": "Annotations: gene boundaries, coding sequences, protein products, regulatory regions",
+       "ta": "குறிப்புரைகள்: மரபணு எல்லைகள், குறியீட்டு வரிசைகள், புரத விளைபொருள்கள், ஒழுங்குபடுத்தும் பகுதிகள்",
+       "ta_status": "draft"
       },
       {
-       "en": "Associated metadata: organism name, taxonomy, tissue, literature references, submitter information"
+       "en": "Associated metadata: organism name, taxonomy, tissue, literature references, submitter information",
+       "ta": "தொடர்புடைய மெட்டாதரவு: உயிரினப் பெயர், வகைபாடு, திசு, இலக்கியக் குறிப்புகள், சமர்ப்பித்தவர் தகவல்",
+       "ta_status": "draft"
       }
      ]
     },
@@ -667,20 +907,26 @@
      "type": "callout",
      "kind": "exam",
      "text": {
-      "en": "Exam Point\nThe **accession number** is a unique identifier assigned to every sequence in GenBank (e.g., _AY123456_). It is permanent — once assigned, it never changes. This allows researchers worldwide to unambiguously cite and retrieve a specific sequence."
+      "en": "Exam Point\nThe **accession number** is a unique identifier assigned to every sequence in GenBank (e.g., _AY123456_). It is permanent — once assigned, it never changes. This allows researchers worldwide to unambiguously cite and retrieve a specific sequence.",
+      "ta": "தேர்வுக் குறிப்பு\n**அணுகல் எண்** என்பது GenBank-இல் ஒவ்வொரு வரிசைக்கும் ஒதுக்கப்படும் தனித்த அடையாளம் (எ.கா. _AY123456_). இது நிலையானது — ஒருமுறை ஒதுக்கப்பட்டால் மாறாது. இதனால் உலகெங்குமுள்ள ஆய்வாளர்கள் குறிப்பிட்ட வரிசையைத் தெளிவாகக் குறிப்பிடவும் மீட்கவும் முடிகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**GenBank Record Structure (Click sections)**"
+      "en": "**GenBank Record Structure (Click sections)**",
+      "ta": "**GenBank பதிவின் அமைப்பு (பிரிவுகளைத் தொடுக)**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "bioinformatics_databases_app-d01",
      "caption": {
-      "en": "GenBank record structure"
+      "en": "GenBank record structure",
+      "ta": "GenBank பதிவின் அமைப்பு",
+      "ta_status": "draft"
      },
      "labels": [
       "LOCUS",
@@ -704,7 +950,9 @@
     {
      "type": "p",
      "text": {
-      "en": "Quick Revision"
+      "en": "Quick Revision",
+      "ta": "விரைவுத் திருப்புதல்",
+      "ta_status": "draft"
      }
     },
     {
@@ -712,26 +960,38 @@
      "ordered": false,
      "items": [
       {
-       "en": "GenBank = US nucleotide sequence database maintained by NCBI (NIH), founded 1982"
+       "en": "GenBank = US nucleotide sequence database maintained by NCBI (NIH), founded 1982",
+       "ta": "GenBank = NCBI (NIH) பராமரிக்கும் அமெரிக்க நியுக்ளியோடைடு வரிசைத் தரவுத்தளம்; 1982-இல் நிறுவப்பட்டது",
+       "ta_status": "draft"
       },
       {
-       "en": "World's largest sequence archive — over 250 billion base pairs"
+       "en": "World's largest sequence archive — over 250 billion base pairs",
+       "ta": "உலகின் மிகப் பெரிய வரிசைக் காப்பகம் — 25,000 கோடிக்கும் மேற்பட்ட காரணைகள்",
+       "ta_status": "draft"
       },
       {
-       "en": "Searched using Entrez; sequence comparison done using BLAST"
+       "en": "Searched using Entrez; sequence comparison done using BLAST",
+       "ta": "Entrez மூலம் தேடல்; BLAST மூலம் வரிசை ஒப்பீடு",
+       "ta_status": "draft"
       },
       {
-       "en": "Each sequence gets a unique permanent accession number (e.g., AY123456)"
+       "en": "Each sequence gets a unique permanent accession number (e.g., AY123456)",
+       "ta": "ஒவ்வொரு வரிசைக்கும் தனித்த நிலையான அணுகல் எண் உண்டு (எ.கா. AY123456)",
+       "ta_status": "draft"
       },
       {
-       "en": "Member of INSDC — shares all data daily with EMBL and DDBJ"
+       "en": "Member of INSDC — shares all data daily with EMBL and DDBJ",
+       "ta": "INSDC உறுப்பினர் — அனைத்துத் தரவையும் EMBL, DDBJ உடன் தினமும் பகிர்கிறது",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "SECTION 06"
+      "en": "SECTION 06",
+      "ta": "பிரிவு 06",
+      "ta_status": "draft"
      }
     }
    ]
@@ -739,109 +999,145 @@
   {
    "id": "s07",
    "title": {
-    "en": "EMBL Nucleotide Sequence Database"
+    "en": "EMBL Nucleotide Sequence Database",
+    "ta": "EMBL நியுக்ளியோடைடு வரிசைத் தரவுத்தளம்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "🇪🇺 Europe · EBI"
+      "en": "🇪🇺 Europe · EBI",
+      "ta": "🇪🇺 ஐரோப்பா · EBI",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**EMBL — The European Nucleotide Archive (ENA)**"
+      "en": "**EMBL — The European Nucleotide Archive (ENA)**",
+      "ta": "**EMBL — ஐரோப்பிய நியுக்ளியோடைடுக் காப்பகம் (ENA)**",
+      "ta_status": "bracketed"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "The EMBL Nucleotide Sequence Database (now known as the **European Nucleotide Archive — ENA**) is maintained by the **European Bioinformatics Institute (EBI)**, part of the European Molecular Biology Laboratory (EMBL), headquartered in Hinxton, Cambridge, UK. It is Europe's primary repository for nucleotide sequence data."
+      "en": "The EMBL Nucleotide Sequence Database (now known as the **European Nucleotide Archive — ENA**) is maintained by the **European Bioinformatics Institute (EBI)**, part of the European Molecular Biology Laboratory (EMBL), headquartered in Hinxton, Cambridge, UK. It is Europe's primary repository for nucleotide sequence data.",
+      "ta": "EMBL நியுக்ளியோடைடு வரிசைத் தரவுத்தளம் (இப்போது **ஐரோப்பிய நியுக்ளியோடைடுக் காப்பகம் — ENA** எனப்படுகிறது) இங்கிலாந்தின் கேம்பிரிட்ஜ் அருகே ஹிங்ஸ்டனில் தலைமையகம் கொண்ட ஐரோப்பிய மூலக்கூறு உயிரியல் ஆய்வகத்தின் (EMBL) பகுதியான **ஐரோப்பிய உயிரித் தகவலியல் நிறுவனத்தால் (EBI)** பராமரிக்கப்படுகிறது. இது நியுக்ளியோடைடு வரிசைத் தரவுக்கான ஐரோப்பாவின் முதன்மைக் களஞ்சியம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Key Features**"
+      "en": "**Key Features**",
+      "ta": "**முக்கிய அம்சங்கள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**📅 Founded**"
+      "en": "**📅 Founded**",
+      "ta": "**📅 நிறுவப்பட்டது**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Established in 1980 — the world's first nucleotide sequence database, predating GenBank by two years."
+      "en": "Established in 1980 — the world's first nucleotide sequence database, predating GenBank by two years.",
+      "ta": "1980-இல் நிறுவப்பட்டது — உலகின் முதல் நியுக்ளியோடைடு வரிசைத் தரவுத்தளம்; GenBank-ஐ விட இரு ஆண்டுகள் முந்தையது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🌍 Coverage**"
+      "en": "**🌍 Coverage**",
+      "ta": "**🌍 பரப்பு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Receives direct submissions from European and global researchers. Mirrors GenBank and DDBJ data daily."
+      "en": "Receives direct submissions from European and global researchers. Mirrors GenBank and DDBJ data daily.",
+      "ta": "ஐரோப்பிய மற்றும் உலகளாவிய ஆய்வாளர்களிடமிருந்து நேரடிச் சமர்ப்பிப்புகளைப் பெறுகிறது. GenBank, DDBJ தரவை தினமும் பிரதிபலிக்கிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🔎 Access Tools**"
+      "en": "**🔎 Access Tools**",
+      "ta": "**🔎 அணுகல் கருவிகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**SRS** (Sequence Retrieval System) and **FASTA** tools for searching and comparing sequences."
+      "en": "**SRS** (Sequence Retrieval System) and **FASTA** tools for searching and comparing sequences.",
+      "ta": "வரிசைகளைத் தேடவும் ஒப்பிடவும் **SRS** (வரிசை மீட்பு அமைப்பு), **FASTA** கருவிகள்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**📄 EMBL Format**"
+      "en": "**📄 EMBL Format**",
+      "ta": "**📄 EMBL வடிவம்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Uses its own EMBL flat file format: ID, AC (accession), DE (description), OS (organism), SQ (sequence)."
+      "en": "Uses its own EMBL flat file format: ID, AC (accession), DE (description), OS (organism), SQ (sequence).",
+      "ta": "தனக்கே உரிய EMBL தட்டைக் கோப்பு வடிவத்தைப் பயன்படுத்துகிறது: ID, AC (அணுகல் எண்), DE (விளக்கம்), OS (உயிரினம்), SQ (வரிசை).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🔗 Cross-linked**"
+      "en": "**🔗 Cross-linked**",
+      "ta": "**🔗 குறுக்கு இணைப்பு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Integrated with UniProt, PDB, Ensembl, and InterPro — the EBI hosts many interconnected biological databases."
+      "en": "Integrated with UniProt, PDB, Ensembl, and InterPro — the EBI hosts many interconnected biological databases.",
+      "ta": "UniProt, PDB, Ensembl, InterPro உடன் ஒருங்கிணைந்தது — EBI பல இணைக்கப்பட்ட உயிரியல் தரவுத்தளங்களை நடத்துகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🤝 INSDC Member**"
+      "en": "**🤝 INSDC Member**",
+      "ta": "**🤝 INSDC உறுப்பினர்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Founding member of INSDC — exchanges all data with GenBank and DDBJ within 24 hours of submission."
+      "en": "Founding member of INSDC — exchanges all data with GenBank and DDBJ within 24 hours of submission.",
+      "ta": "INSDC-இன் நிறுவன உறுப்பினர் — சமர்ப்பித்த 24 மணி நேரத்துக்குள் அனைத்துத் தரவையும் GenBank, DDBJ உடன் பரிமாறுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Data Stored**"
+      "en": "**Data Stored**",
+      "ta": "**சேமிக்கப்படும் தரவு**",
+      "ta_status": "draft"
      }
     },
     {
@@ -849,19 +1145,29 @@
      "ordered": false,
      "items": [
       {
-       "en": "Nucleotide sequences from all organisms — DNA and RNA"
+       "en": "Nucleotide sequences from all organisms — DNA and RNA",
+       "ta": "அனைத்து உயிரினங்களின் நியுக்ளியோடைடு வரிசைகள் — DNA மற்றும் RNA",
+       "ta_status": "draft"
       },
       {
-       "en": "Whole-genome shotgun sequences and high-throughput sequencing data"
+       "en": "Whole-genome shotgun sequences and high-throughput sequencing data",
+       "ta": "முழு மரபணுத்தொகை ஷாட்கன் வரிசைகளும் உயர்செயல்திறன் வரிசையாக்கத் தரவும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Environmental sequences (metagenomics)"
+       "en": "Environmental sequences (metagenomics)",
+       "ta": "சூழல் வரிசைகள் (மெட்டாஜினோமிக்ஸ்)",
+       "ta_status": "draft"
       },
       {
-       "en": "EST (Expressed Sequence Tags) and STS (Sequence-Tagged Sites)"
+       "en": "EST (Expressed Sequence Tags) and STS (Sequence-Tagged Sites)",
+       "ta": "EST (வெளிப்பாட்டு வரிசைக் குறிகள்), STS (வரிசைக் குறியிட்ட தளங்கள்)",
+       "ta_status": "draft"
       },
       {
-       "en": "Full annotations: feature tables, taxonomy, literature cross-references"
+       "en": "Full annotations: feature tables, taxonomy, literature cross-references",
+       "ta": "முழுக் குறிப்புரைகள்: அம்ச அட்டவணைகள், வகைபாடு, இலக்கியக் குறுக்குக் குறிப்புகள்",
+       "ta_status": "draft"
       }
      ]
     },
@@ -869,13 +1175,17 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Historical Note\nThe EMBL database was established in **1980**, two years before GenBank. It was one of the pioneering efforts in making biological sequence data publicly available — a revolutionary concept at the time."
+      "en": "Historical Note\nThe EMBL database was established in **1980**, two years before GenBank. It was one of the pioneering efforts in making biological sequence data publicly available — a revolutionary concept at the time.",
+      "ta": "வரலாற்றுக் குறிப்பு\nEMBL தரவுத்தளம் GenBank-ஐ விட இரு ஆண்டுகள் முன்பே **1980**-இல் நிறுவப்பட்டது. உயிரியல் வரிசைத் தரவைப் பொதுவில் கிடைக்கச் செய்த முன்னோடி முயற்சிகளில் இது ஒன்று — அக்காலத்தில் இது புரட்சிகரமான கருத்து.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Quick Revision"
+      "en": "Quick Revision",
+      "ta": "விரைவுத் திருப்புதல்",
+      "ta_status": "draft"
      }
     },
     {
@@ -883,26 +1193,38 @@
      "ordered": false,
      "items": [
       {
-       "en": "EMBL database (now ENA) = European primary nucleotide sequence database, maintained by EBI/EMBL"
+       "en": "EMBL database (now ENA) = European primary nucleotide sequence database, maintained by EBI/EMBL",
+       "ta": "EMBL தரவுத்தளம் (இப்போது ENA) = EBI/EMBL பராமரிக்கும் ஐரோப்பிய முதன்மை நியுக்ளியோடைடு வரிசைத் தரவுத்தளம்",
+       "ta_status": "draft"
       },
       {
-       "en": "Oldest nucleotide database — founded 1980 (predates GenBank by 2 years)"
+       "en": "Oldest nucleotide database — founded 1980 (predates GenBank by 2 years)",
+       "ta": "மிகப் பழைய நியுக்ளியோடைடு தரவுத்தளம் — 1980-இல் நிறுவப்பட்டது (GenBank-ஐ விட 2 ஆண்டுகள் முந்தையது)",
+       "ta_status": "draft"
       },
       {
-       "en": "Headquarters: European Bioinformatics Institute (EBI), Hinxton, Cambridge, UK"
+       "en": "Headquarters: European Bioinformatics Institute (EBI), Hinxton, Cambridge, UK",
+       "ta": "தலைமையகம்: ஐரோப்பிய உயிரித் தகவலியல் நிறுவனம் (EBI), ஹிங்ஸ்டன், கேம்பிரிட்ஜ், இங்கிலாந்து",
+       "ta_status": "draft"
       },
       {
-       "en": "Search tools: SRS (Sequence Retrieval System) and FASTA"
+       "en": "Search tools: SRS (Sequence Retrieval System) and FASTA",
+       "ta": "தேடல் கருவிகள்: SRS (வரிசை மீட்பு அமைப்பு), FASTA",
+       "ta_status": "draft"
       },
       {
-       "en": "INSDC founding member — synchronised with GenBank and DDBJ daily"
+       "en": "INSDC founding member — synchronised with GenBank and DDBJ daily",
+       "ta": "INSDC நிறுவன உறுப்பினர் — GenBank, DDBJ உடன் தினமும் ஒத்திசைக்கப்படுகிறது",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "SECTION 07"
+      "en": "SECTION 07",
+      "ta": "பிரிவு 07",
+      "ta_status": "draft"
      }
     }
    ]
@@ -910,109 +1232,145 @@
   {
    "id": "s08",
    "title": {
-    "en": "DDBJ — DNA Data Bank of Japan"
+    "en": "DDBJ — DNA Data Bank of Japan",
+    "ta": "DDBJ — ஜப்பானின் DNA தரவு வங்கி",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "🇯🇵 Japan · NIG"
+      "en": "🇯🇵 Japan · NIG",
+      "ta": "🇯🇵 ஜப்பான் · NIG",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**DDBJ — The Japanese Nucleotide Sequence Database**"
+      "en": "**DDBJ — The Japanese Nucleotide Sequence Database**",
+      "ta": "**DDBJ — ஜப்பானிய நியுக்ளியோடைடு வரிசைத் தரவுத்தளம்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "The **DNA Data Bank of Japan (DDBJ)** is maintained by the **National Institute of Genetics (NIG)** in Mishima, Shizuoka, Japan. It is the Asian hub of the INSDC and accepts sequence submissions primarily (but not exclusively) from Japanese and Asian researchers."
+      "en": "The **DNA Data Bank of Japan (DDBJ)** is maintained by the **National Institute of Genetics (NIG)** in Mishima, Shizuoka, Japan. It is the Asian hub of the INSDC and accepts sequence submissions primarily (but not exclusively) from Japanese and Asian researchers.",
+      "ta": "**ஜப்பானின் DNA தரவு வங்கி (DDBJ)** ஜப்பானின் ஷிசுவோகா மாநிலம் மிஷிமாவிலுள்ள **தேசிய மரபியல் நிறுவனத்தால் (NIG)** பராமரிக்கப்படுகிறது. இது INSDC-இன் ஆசிய மையம்; முக்கியமாக (ஆனால் தனிப்பட்டதாக அல்ல) ஜப்பானிய, ஆசிய ஆய்வாளர்களிடமிருந்து வரிசைச் சமர்ப்பிப்புகளை ஏற்கிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Key Features**"
+      "en": "**Key Features**",
+      "ta": "**முக்கிய அம்சங்கள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**📅 Founded**"
+      "en": "**📅 Founded**",
+      "ta": "**📅 நிறுவப்பட்டது**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Established in 1986 — the most recently founded of the three INSDC databases. Became fully operational in 1987."
+      "en": "Established in 1986 — the most recently founded of the three INSDC databases. Became fully operational in 1987.",
+      "ta": "1986-இல் நிறுவப்பட்டது — மூன்று INSDC தரவுத்தளங்களுள் மிகச் சமீபத்தியது. 1987-இல் முழுமையாகச் செயல்படத் தொடங்கியது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🌏 Focus**"
+      "en": "**🌏 Focus**",
+      "ta": "**🌏 கவனம்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Primary submission hub for Japanese and Asian researchers; receives data internationally as well."
+      "en": "Primary submission hub for Japanese and Asian researchers; receives data internationally as well.",
+      "ta": "ஜப்பானிய, ஆசிய ஆய்வாளர்களுக்கான முதன்மைச் சமர்ப்பிப்பு மையம்; பன்னாட்டளவிலும் தரவைப் பெறுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🔎 Access Tools**"
+      "en": "**🔎 Access Tools**",
+      "ta": "**🔎 அணுகல் கருவிகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Sakura** submission system; **DDBJ Search** and **BLAST** interfaces for retrieval and comparison."
+      "en": "**Sakura** submission system; **DDBJ Search** and **BLAST** interfaces for retrieval and comparison.",
+      "ta": "**Sakura** சமர்ப்பிப்பு அமைப்பு; மீட்பு, ஒப்பீட்டுக்கு **DDBJ Search**, **BLAST** இடைமுகங்கள்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**📄 Format**"
+      "en": "**📄 Format**",
+      "ta": "**📄 வடிவம்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Uses the same flat file format as GenBank — facilitating seamless data exchange across all three databases."
+      "en": "Uses the same flat file format as GenBank — facilitating seamless data exchange across all three databases.",
+      "ta": "GenBank போன்ற அதே தட்டைக் கோப்பு வடிவத்தைப் பயன்படுத்துகிறது — மூன்று தரவுத்தளங்களுக்கிடையே தடையற்ற தரவுப் பரிமாற்றத்தை எளிதாக்குகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🧬 Specialisation**"
+      "en": "**🧬 Specialisation**",
+      "ta": "**🧬 சிறப்புத்துறை**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Notable for large-scale sequencing of Japanese crop and model organisms; strong in rice and marine organism genomics."
+      "en": "Notable for large-scale sequencing of Japanese crop and model organisms; strong in rice and marine organism genomics.",
+      "ta": "ஜப்பானிய பயிர், மாதிரி உயிரினங்களின் பெரிய அளவிலான வரிசையாக்கத்துக்குப் பெயர்பெற்றது; நெல், கடல் உயிரினங்களின் மரபணுத்தொகையியலில் வலிமையானது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🤝 INSDC Member**"
+      "en": "**🤝 INSDC Member**",
+      "ta": "**🤝 INSDC உறுப்பினர்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Full INSDC member since 1987 — synchronises all accepted submissions with GenBank and EMBL within 24 hours."
+      "en": "Full INSDC member since 1987 — synchronises all accepted submissions with GenBank and EMBL within 24 hours.",
+      "ta": "1987 முதல் முழு INSDC உறுப்பினர் — ஏற்கப்பட்ட அனைத்துச் சமர்ப்பிப்புகளையும் 24 மணி நேரத்துக்குள் GenBank, EMBL உடன் ஒத்திசைக்கிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Data Stored**"
+      "en": "**Data Stored**",
+      "ta": "**சேமிக்கப்படும் தரவு**",
+      "ta_status": "draft"
      }
     },
     {
@@ -1020,19 +1378,29 @@
      "ordered": false,
      "items": [
       {
-       "en": "Nucleotide sequences from all organisms, with emphasis on organisms studied in Japan and Asia"
+       "en": "Nucleotide sequences from all organisms, with emphasis on organisms studied in Japan and Asia",
+       "ta": "ஜப்பான், ஆசியாவில் ஆய்வு செய்யப்படும் உயிரினங்களுக்கு முக்கியத்துவத்துடன், அனைத்து உயிரினங்களின் நியுக்ளியோடைடு வரிசைகள்",
+       "ta_status": "draft"
       },
       {
-       "en": "Genome sequence data including large-scale shotgun projects"
+       "en": "Genome sequence data including large-scale shotgun projects",
+       "ta": "பெரிய அளவிலான ஷாட்கன் திட்டங்கள் உட்பட மரபணுத்தொகைய வரிசைத் தரவு",
+       "ta_status": "draft"
       },
       {
-       "en": "EST, STS, and GSS (Genome Survey Sequences)"
+       "en": "EST, STS, and GSS (Genome Survey Sequences)",
+       "ta": "EST, STS, GSS (மரபணுத்தொகைய ஆய்வு வரிசைகள்)",
+       "ta_status": "draft"
       },
       {
-       "en": "Annotated sequences with taxonomy, feature tables, and literature links"
+       "en": "Annotated sequences with taxonomy, feature tables, and literature links",
+       "ta": "வகைபாடு, அம்ச அட்டவணைகள், இலக்கிய இணைப்புகளுடன் குறிப்புரையிடப்பட்ட வரிசைகள்",
+       "ta_status": "draft"
       },
       {
-       "en": "Data from unique Japanese model organisms (e.g., _Oryzias latipes_ — medaka fish)"
+       "en": "Data from unique Japanese model organisms (e.g., _Oryzias latipes_ — medaka fish)",
+       "ta": "தனித்துவமான ஜப்பானிய மாதிரி உயிரினங்களின் தரவு (எ.கா. _Oryzias latipes_ — மெடாகா மீன்)",
+       "ta_status": "draft"
       }
      ]
     },
@@ -1040,13 +1408,17 @@
      "type": "callout",
      "kind": "exam",
      "text": {
-      "en": "Exam Point\nDDBJ uses the **same accession number system** as GenBank and EMBL. A sequence submitted to DDBJ is assigned an accession number and this record becomes available in all three databases within 24 hours — the same record, the same accession number."
+      "en": "Exam Point\nDDBJ uses the **same accession number system** as GenBank and EMBL. A sequence submitted to DDBJ is assigned an accession number and this record becomes available in all three databases within 24 hours — the same record, the same accession number.",
+      "ta": "தேர்வுக் குறிப்பு\nDDBJ, GenBank, EMBL ஆகியவற்றின் **அதே அணுகல் எண் முறையையே** பயன்படுத்துகிறது. DDBJ-க்குச் சமர்ப்பிக்கப்பட்ட வரிசைக்கு ஓர் அணுகல் எண் ஒதுக்கப்பட்டு, அப்பதிவு 24 மணி நேரத்துக்குள் மூன்று தரவுத்தளங்களிலும் கிடைக்கிறது — அதே பதிவு, அதே அணுகல் எண்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Quick Revision"
+      "en": "Quick Revision",
+      "ta": "விரைவுத் திருப்புதல்",
+      "ta_status": "draft"
      }
     },
     {
@@ -1054,26 +1426,38 @@
      "ordered": false,
      "items": [
       {
-       "en": "DDBJ = DNA Data Bank of Japan, maintained by NIG (National Institute of Genetics), Mishima, Japan"
+       "en": "DDBJ = DNA Data Bank of Japan, maintained by NIG (National Institute of Genetics), Mishima, Japan",
+       "ta": "DDBJ = ஜப்பானின் DNA தரவு வங்கி; மிஷிமா, ஜப்பானிலுள்ள NIG (தேசிய மரபியல் நிறுவனம்) பராமரிக்கிறது",
+       "ta_status": "draft"
       },
       {
-       "en": "Founded 1986 — youngest of the three INSDC member databases"
+       "en": "Founded 1986 — youngest of the three INSDC member databases",
+       "ta": "1986-இல் நிறுவப்பட்டது — மூன்று INSDC உறுப்பினர் தரவுத்தளங்களுள் இளையது",
+       "ta_status": "draft"
       },
       {
-       "en": "Primary Asian hub for sequence submission; notable for Japanese and marine organism genomics"
+       "en": "Primary Asian hub for sequence submission; notable for Japanese and marine organism genomics",
+       "ta": "வரிசைச் சமர்ப்பிப்புக்கான முதன்மை ஆசிய மையம்; ஜப்பானிய, கடல் உயிரின மரபணுத்தொகையியலுக்குப் பெயர்பெற்றது",
+       "ta_status": "draft"
       },
       {
-       "en": "Uses Sakura submission system; BLAST for sequence comparison"
+       "en": "Uses Sakura submission system; BLAST for sequence comparison",
+       "ta": "Sakura சமர்ப்பிப்பு அமைப்பையும் வரிசை ஒப்பீட்டுக்கு BLAST-ஐயும் பயன்படுத்துகிறது",
+       "ta_status": "draft"
       },
       {
-       "en": "Full INSDC member — shares all data daily with GenBank and EMBL"
+       "en": "Full INSDC member — shares all data daily with GenBank and EMBL",
+       "ta": "முழு INSDC உறுப்பினர் — அனைத்துத் தரவையும் GenBank, EMBL உடன் தினமும் பகிர்கிறது",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "SECTION 08"
+      "en": "SECTION 08",
+      "ta": "பிரிவு 08",
+      "ta_status": "draft"
      }
     }
    ]
@@ -1081,27 +1465,35 @@
   {
    "id": "s09",
    "title": {
-    "en": "Data Sharing, Collaboration & Global Data Flow"
+    "en": "Data Sharing, Collaboration & Global Data Flow",
+    "ta": "தரவுப் பகிர்வு, ஒத்துழைப்பு, உலகளாவியத் தரவுப் பாய்வு",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "The INSDC Partnership\nGenBank, EMBL, and DDBJ together form the **International Nucleotide Sequence Database Collaboration (INSDC)**. This means a sequence submitted to any one of the three databases is automatically shared with the other two — becoming globally accessible within **24 hours**. A researcher in Australia accessing GenBank sees exactly the same data as one in Japan using DDBJ."
+      "en": "The INSDC Partnership\nGenBank, EMBL, and DDBJ together form the **International Nucleotide Sequence Database Collaboration (INSDC)**. This means a sequence submitted to any one of the three databases is automatically shared with the other two — becoming globally accessible within **24 hours**. A researcher in Australia accessing GenBank sees exactly the same data as one in Japan using DDBJ.",
+      "ta": "INSDC கூட்டிணைவு\nGenBank, EMBL, DDBJ ஆகியவை சேர்ந்து **பன்னாட்டு நியுக்ளியோடைடு வரிசைத் தரவுத்தளக் கூட்டிணைவை (INSDC)** உருவாக்குகின்றன. அதாவது மூன்றில் ஏதேனும் ஒன்றுக்குச் சமர்ப்பிக்கப்படும் வரிசை தானாகவே மற்ற இரண்டுடன் பகிரப்பட்டு **24 மணி நேரத்துக்குள்** உலகளவில் அணுகக் கிடைக்கிறது. ஆஸ்திரேலியாவில் GenBank-ஐ அணுகும் ஆய்வாளர், ஜப்பானில் DDBJ-ஐப் பயன்படுத்துபவர் காணும் அதே தரவையே காண்கிறார்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Database Network — Interconnection Diagram (Click nodes)**"
+      "en": "**Database Network — Interconnection Diagram (Click nodes)**",
+      "ta": "**தரவுத்தள வலையமைப்பு — இடைத்தொடர்பு விளக்கப்படம் (முனைகளைத் தொடுக)**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "bioinformatics_databases_app-d02",
      "caption": {
-      "en": "INSDC network diagram"
+      "en": "INSDC network diagram",
+      "ta": "INSDC வலையமைப்பு விளக்கப்படம்",
+      "ta_status": "draft"
      },
      "labels": [
       "INSDC",
@@ -1126,20 +1518,26 @@
     {
      "type": "p",
      "text": {
-      "en": "**Sequence Data Flow: From Lab to Global Access**"
+      "en": "**Sequence Data Flow: From Lab to Global Access**",
+      "ta": "**வரிசைத் தரவுப் பாய்வு: ஆய்வகத்திலிருந்து உலகளாவிய அணுகல் வரை**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "This diagram shows how a newly determined DNA sequence travels from a researcher's laboratory to becoming globally accessible through the INSDC network. Click each node for details."
+      "en": "This diagram shows how a newly determined DNA sequence travels from a researcher's laboratory to becoming globally accessible through the INSDC network. Click each node for details.",
+      "ta": "புதிதாகக் கண்டறியப்பட்ட DNA வரிசை ஆய்வாளரின் ஆய்வகத்திலிருந்து INSDC வலையமைப்பு வழியாக உலகளாவிய அணுகலுக்கு எவ்வாறு செல்கிறது என்பதை இவ்விளக்கப்படம் காட்டுகிறது. விவரங்களுக்கு ஒவ்வொரு முனையையும் தொடுக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "bioinformatics_databases_app-d03",
      "caption": {
-      "en": "Sequence data flow diagram"
+      "en": "Sequence data flow diagram",
+      "ta": "வரிசைத் தரவுப் பாய்வு விளக்கப்படம்",
+      "ta_status": "draft"
      },
      "labels": [
       "🔬 Lab",
@@ -1164,13 +1562,17 @@
      "type": "callout",
      "kind": "exam",
      "text": {
-      "en": "Exam Point — INSDC Principles\n• **One submission, three databases:** submitting to any one makes data available in all three\n• **24-hour synchronisation:** all three databases are kept identical within one day\n• **Free and open access:** all sequence data in INSDC databases is freely available to anyone\n• **Mandatory for publication:** most journals require sequence deposition before publishing"
+      "en": "Exam Point — INSDC Principles\n• **One submission, three databases:** submitting to any one makes data available in all three\n• **24-hour synchronisation:** all three databases are kept identical within one day\n• **Free and open access:** all sequence data in INSDC databases is freely available to anyone\n• **Mandatory for publication:** most journals require sequence deposition before publishing",
+      "ta": "தேர்வுக் குறிப்பு — INSDC கொள்கைகள்\n• **ஒரு சமர்ப்பிப்பு, மூன்று தரவுத்தளங்கள்:** ஏதேனும் ஒன்றுக்குச் சமர்ப்பித்தால் மூன்றிலும் தரவு கிடைக்கும்\n• **24 மணி நேர ஒத்திசைவு:** மூன்று தரவுத்தளங்களும் ஒரு நாளுக்குள் ஒன்றேபோல் வைக்கப்படுகின்றன\n• **இலவச, திறந்த அணுகல்:** INSDC தரவுத்தளங்களின் அனைத்து வரிசைத் தரவும் யாவருக்கும் இலவசம்\n• **வெளியீட்டுக்குக் கட்டாயம்:** பெரும்பாலான இதழ்கள் வெளியிடும் முன் வரிசைச் சமர்ப்பிப்பைக் கோருகின்றன",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Quick Revision"
+      "en": "Quick Revision",
+      "ta": "விரைவுத் திருப்புதல்",
+      "ta_status": "draft"
      }
     },
     {
@@ -1178,26 +1580,38 @@
      "ordered": false,
      "items": [
       {
-       "en": "INSDC = International Nucleotide Sequence Database Collaboration (GenBank + EMBL + DDBJ)"
+       "en": "INSDC = International Nucleotide Sequence Database Collaboration (GenBank + EMBL + DDBJ)",
+       "ta": "INSDC = பன்னாட்டு நியுக்ளியோடைடு வரிசைத் தரவுத்தளக் கூட்டிணைவு (GenBank + EMBL + DDBJ)",
+       "ta_status": "draft"
       },
       {
-       "en": "A sequence submitted to any one database is shared with the other two within 24 hours"
+       "en": "A sequence submitted to any one database is shared with the other two within 24 hours",
+       "ta": "ஏதேனும் ஒரு தரவுத்தளத்துக்குச் சமர்ப்பிக்கப்படும் வரிசை 24 மணி நேரத்துக்குள் மற்ற இரண்டுடன் பகிரப்படும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Data flow: lab → submission → accession number assigned → INSDC sync → global free access"
+       "en": "Data flow: lab → submission → accession number assigned → INSDC sync → global free access",
+       "ta": "தரவுப் பாய்வு: ஆய்வகம் → சமர்ப்பிப்பு → அணுகல் எண் ஒதுக்கீடு → INSDC ஒத்திசைவு → உலகளாவிய இலவச அணுகல்",
+       "ta_status": "draft"
       },
       {
-       "en": "All three databases contain identical records — different interfaces, same data"
+       "en": "All three databases contain identical records — different interfaces, same data",
+       "ta": "மூன்று தரவுத்தளங்களும் ஒரே பதிவுகளைக் கொண்டவை — வெவ்வேறு இடைமுகங்கள், ஒரே தரவு",
+       "ta_status": "draft"
       },
       {
-       "en": "Journal policies require INSDC submission before publication — ensuring data becomes public"
+       "en": "Journal policies require INSDC submission before publication — ensuring data becomes public",
+       "ta": "இதழ்க் கொள்கைகள் வெளியீட்டுக்கு முன் INSDC சமர்ப்பிப்பைக் கோருகின்றன — தரவு பொதுவில் கிடைப்பதை உறுதிசெய்கின்றன",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "SECTION 09"
+      "en": "SECTION 09",
+      "ta": "பிரிவு 09",
+      "ta_status": "draft"
      }
     }
    ]
@@ -1205,178 +1619,276 @@
   {
    "id": "s10",
    "title": {
-    "en": "Comparison: GenBank · EMBL · DDBJ"
+    "en": "Comparison: GenBank · EMBL · DDBJ",
+    "ta": "ஒப்பீடு: GenBank · EMBL · DDBJ",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "table",
      "header": [
       {
-       "en": "Feature"
+       "en": "Feature",
+       "ta": "அம்சம்",
+       "ta_status": "draft"
       },
       {
-       "en": "GenBank"
+       "en": "GenBank",
+       "ta": "GenBank",
+       "ta_status": "draft"
       },
       {
-       "en": "EMBL / ENA"
+       "en": "EMBL / ENA",
+       "ta": "EMBL / ENA",
+       "ta_status": "draft"
       },
       {
-       "en": "DDBJ"
+       "en": "DDBJ",
+       "ta": "DDBJ",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "Full Name"
+        "en": "Full Name",
+        "ta": "முழுப் பெயர்",
+        "ta_status": "draft"
        },
        {
-        "en": "GenBank (National Genetic Sequence Database)"
+        "en": "GenBank (National Genetic Sequence Database)",
+        "ta": "GenBank (தேசிய மரபணு வரிசைத் தரவுத்தளம்)",
+        "ta_status": "draft"
        },
        {
-        "en": "European Nucleotide Archive (formerly EMBL Database)"
+        "en": "European Nucleotide Archive (formerly EMBL Database)",
+        "ta": "ஐரோப்பிய நியுக்ளியோடைடுக் காப்பகம் (முன்னர் EMBL தரவுத்தளம்)",
+        "ta_status": "draft"
        },
        {
-        "en": "DNA Data Bank of Japan"
+        "en": "DNA Data Bank of Japan",
+        "ta": "ஜப்பானின் DNA தரவு வங்கி",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "Maintaining Organisation"
+        "en": "Maintaining Organisation",
+        "ta": "பராமரிக்கும் அமைப்பு",
+        "ta_status": "draft"
        },
        {
-        "en": "NCBI (National Center for Biotechnology Information), NIH"
+        "en": "NCBI (National Center for Biotechnology Information), NIH",
+        "ta": "NCBI (தேசிய உயிரித் தொழில்நுட்பத் தகவல் மையம்), NIH",
+        "ta_status": "draft"
        },
        {
-        "en": "EBI (European Bioinformatics Institute), EMBL"
+        "en": "EBI (European Bioinformatics Institute), EMBL",
+        "ta": "EBI (ஐரோப்பிய உயிரித் தகவலியல் நிறுவனம்), EMBL",
+        "ta_status": "draft"
        },
        {
-        "en": "NIG (National Institute of Genetics)"
+        "en": "NIG (National Institute of Genetics)",
+        "ta": "NIG (தேசிய மரபியல் நிறுவனம்)",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "Country / Region"
+        "en": "Country / Region",
+        "ta": "நாடு / பகுதி",
+        "ta_status": "draft"
        },
        {
-        "en": "USA (Bethesda, Maryland)"
+        "en": "USA (Bethesda, Maryland)",
+        "ta": "அமெரிக்கா (பெதஸ்டா, மேரிலாந்து)",
+        "ta_status": "draft"
        },
        {
-        "en": "UK / Europe (Hinxton, Cambridge)"
+        "en": "UK / Europe (Hinxton, Cambridge)",
+        "ta": "இங்கிலாந்து / ஐரோப்பா (ஹிங்ஸ்டன், கேம்பிரிட்ஜ்)",
+        "ta_status": "draft"
        },
        {
-        "en": "Japan (Mishima, Shizuoka)"
+        "en": "Japan (Mishima, Shizuoka)",
+        "ta": "ஜப்பான் (மிஷிமா, ஷிசுவோகா)",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "Year Founded"
+        "en": "Year Founded",
+        "ta": "நிறுவிய ஆண்டு",
+        "ta_status": "draft"
        },
        {
-        "en": "1982"
+        "en": "1982",
+        "ta": "1982",
+        "ta_status": "draft"
        },
        {
-        "en": "1980 (oldest)"
+        "en": "1980 (oldest)",
+        "ta": "1980 (மிகப் பழையது)",
+        "ta_status": "draft"
        },
        {
-        "en": "1986 (newest)"
+        "en": "1986 (newest)",
+        "ta": "1986 (மிகப் புதியது)",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "Primary Search Tool"
+        "en": "Primary Search Tool",
+        "ta": "முதன்மைத் தேடல் கருவி",
+        "ta_status": "draft"
        },
        {
-        "en": "Entrez, BLAST"
+        "en": "Entrez, BLAST",
+        "ta": "Entrez, BLAST",
+        "ta_status": "draft"
        },
        {
-        "en": "SRS, FASTA, BLAST"
+        "en": "SRS, FASTA, BLAST",
+        "ta": "SRS, FASTA, BLAST",
+        "ta_status": "draft"
        },
        {
-        "en": "Sakura, BLAST"
+        "en": "Sakura, BLAST",
+        "ta": "Sakura, BLAST",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "Submission System"
+        "en": "Submission System",
+        "ta": "சமர்ப்பிப்பு அமைப்பு",
+        "ta_status": "draft"
        },
        {
-        "en": "BankIt, Sequin, tbl2asn"
+        "en": "BankIt, Sequin, tbl2asn",
+        "ta": "BankIt, Sequin, tbl2asn",
+        "ta_status": "draft"
        },
        {
-        "en": "Webin submission portal"
+        "en": "Webin submission portal",
+        "ta": "Webin சமர்ப்பிப்பு வாயில்",
+        "ta_status": "draft"
        },
        {
-        "en": "Sakura submission system"
+        "en": "Sakura submission system",
+        "ta": "Sakura சமர்ப்பிப்பு அமைப்பு",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "Data Format"
+        "en": "Data Format",
+        "ta": "தரவு வடிவம்",
+        "ta_status": "draft"
        },
        {
-        "en": "GenBank flat file format"
+        "en": "GenBank flat file format",
+        "ta": "GenBank தட்டைக் கோப்பு வடிவம்",
+        "ta_status": "draft"
        },
        {
-        "en": "EMBL flat file format"
+        "en": "EMBL flat file format",
+        "ta": "EMBL தட்டைக் கோப்பு வடிவம்",
+        "ta_status": "draft"
        },
        {
-        "en": "GenBank flat file format"
+        "en": "GenBank flat file format",
+        "ta": "GenBank தட்டைக் கோப்பு வடிவம்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "Data Types"
+        "en": "Data Types",
+        "ta": "தரவு வகைகள்",
+        "ta_status": "draft"
        },
        {
-        "en": "DNA, RNA, genomic, EST, STS, patents"
+        "en": "DNA, RNA, genomic, EST, STS, patents",
+        "ta": "DNA, RNA, மரபணுத்தொகை, EST, STS, காப்புரிமைகள்",
+        "ta_status": "draft"
        },
        {
-        "en": "DNA, RNA, genomic, EST, environmental/metagenomic"
+        "en": "DNA, RNA, genomic, EST, environmental/metagenomic",
+        "ta": "DNA, RNA, மரபணுத்தொகை, EST, சூழல்/மெட்டாஜினோமிக்",
+        "ta_status": "draft"
        },
        {
-        "en": "DNA, RNA, genomic, EST, GSS, Japanese model organisms"
+        "en": "DNA, RNA, genomic, EST, GSS, Japanese model organisms",
+        "ta": "DNA, RNA, மரபணுத்தொகை, EST, GSS, ஜப்பானிய மாதிரி உயிரினங்கள்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "Linked Resources"
+        "en": "Linked Resources",
+        "ta": "இணைக்கப்பட்ட வளங்கள்",
+        "ta_status": "draft"
        },
        {
-        "en": "PubMed, Protein, Taxonomy, Structure (NCBI suite)"
+        "en": "PubMed, Protein, Taxonomy, Structure (NCBI suite)",
+        "ta": "PubMed, புரதம், வகைபாடு, கட்டமைப்பு (NCBI தொகுப்பு)",
+        "ta_status": "bracketed"
        },
        {
-        "en": "UniProt, Ensembl, PDB, InterPro (EBI suite)"
+        "en": "UniProt, Ensembl, PDB, InterPro (EBI suite)",
+        "ta": "UniProt, Ensembl, PDB, InterPro (EBI தொகுப்பு)",
+        "ta_status": "draft"
        },
        {
-        "en": "DRA (sequence reads), DDBJ tools, JGA (genomics)"
+        "en": "DRA (sequence reads), DDBJ tools, JGA (genomics)",
+        "ta": "DRA (வரிசை வாசிப்புகள்), DDBJ கருவிகள், JGA (மரபணுத்தொகையியல்)",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "INSDC Member"
+        "en": "INSDC Member",
+        "ta": "INSDC உறுப்பினர்",
+        "ta_status": "draft"
        },
        {
-        "en": "Yes (founding member)"
+        "en": "Yes (founding member)",
+        "ta": "ஆம் (நிறுவன உறுப்பினர்)",
+        "ta_status": "draft"
        },
        {
-        "en": "Yes (founding member)"
+        "en": "Yes (founding member)",
+        "ta": "ஆம் (நிறுவன உறுப்பினர்)",
+        "ta_status": "draft"
        },
        {
-        "en": "Yes (joined 1987)"
+        "en": "Yes (joined 1987)",
+        "ta": "ஆம் (1987-இல் இணைந்தது)",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "Special Significance"
+        "en": "Special Significance",
+        "ta": "சிறப்பு முக்கியத்துவம்",
+        "ta_status": "draft"
        },
        {
-        "en": "World's largest; most widely used; BLAST tool is the most used bioinformatics tool globally"
+        "en": "World's largest; most widely used; BLAST tool is the most used bioinformatics tool globally",
+        "ta": "உலகிலேயே பெரியது; மிகவும் பரவலாகப் பயன்படுவது; BLAST உலகில் மிக அதிகம் பயன்படும் உயிரித் தகவலியல் கருவி",
+        "ta_status": "draft"
        },
        {
-        "en": "Oldest database; strong European integration; hosts metagenomics data"
+        "en": "Oldest database; strong European integration; hosts metagenomics data",
+        "ta": "மிகப் பழையது; வலுவான ஐரோப்பிய ஒருங்கிணைப்பு; மெட்டாஜினோமிக்ஸ் தரவைக் கொண்டது",
+        "ta_status": "draft"
        },
        {
-        "en": "Asian research hub; notable for rice and marine organism genomes"
+        "en": "Asian research hub; notable for rice and marine organism genomes",
+        "ta": "ஆசிய ஆராய்ச்சி மையம்; நெல், கடல் உயிரின மரபணுத்தொகைகளுக்குப் பெயர்பெற்றது",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -1384,7 +1896,9 @@
     {
      "type": "p",
      "text": {
-      "en": "Quick Revision"
+      "en": "Quick Revision",
+      "ta": "விரைவுத் திருப்புதல்",
+      "ta_status": "draft"
      }
     },
     {
@@ -1392,26 +1906,38 @@
      "ordered": false,
      "items": [
       {
-       "en": "EMBL (1980) is the oldest; GenBank (1982) is second; DDBJ (1986) is newest"
+       "en": "EMBL (1980) is the oldest; GenBank (1982) is second; DDBJ (1986) is newest",
+       "ta": "EMBL (1980) மிகப் பழையது; GenBank (1982) இரண்டாவது; DDBJ (1986) மிகப் புதியது",
+       "ta_status": "draft"
       },
       {
-       "en": "GenBank = NCBI (NIH), USA; EMBL = EBI, UK; DDBJ = NIG, Japan"
+       "en": "GenBank = NCBI (NIH), USA; EMBL = EBI, UK; DDBJ = NIG, Japan",
+       "ta": "GenBank = NCBI (NIH), அமெரிக்கா; EMBL = EBI, இங்கிலாந்து; DDBJ = NIG, ஜப்பான்",
+       "ta_status": "draft"
       },
       {
-       "en": "GenBank uses Entrez + BLAST; EMBL uses SRS + FASTA; DDBJ uses Sakura + BLAST"
+       "en": "GenBank uses Entrez + BLAST; EMBL uses SRS + FASTA; DDBJ uses Sakura + BLAST",
+       "ta": "GenBank Entrez + BLAST-ஐப் பயன்படுத்தும்; EMBL SRS + FASTA-ஐ; DDBJ Sakura + BLAST-ஐ",
+       "ta_status": "draft"
       },
       {
-       "en": "All three are INSDC members — data is identical across all three databases"
+       "en": "All three are INSDC members — data is identical across all three databases",
+       "ta": "மூன்றும் INSDC உறுப்பினர்கள் — மூன்று தரவுத்தளங்களிலும் தரவு ஒன்றே",
+       "ta_status": "draft"
       },
       {
-       "en": "GenBank flat file format is used by both GenBank and DDBJ; EMBL has its own format"
+       "en": "GenBank flat file format is used by both GenBank and DDBJ; EMBL has its own format",
+       "ta": "GenBank தட்டைக் கோப்பு வடிவத்தை GenBank, DDBJ இரண்டும் பயன்படுத்தும்; EMBL-க்குத் தனி வடிவம் உண்டு",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "SECTION 10"
+      "en": "SECTION 10",
+      "ta": "பிரிவு 10",
+      "ta_status": "draft"
      }
     }
    ]
@@ -1419,116 +1945,154 @@
   {
    "id": "s11",
    "title": {
-    "en": "Applications of Nucleotide Databases"
+    "en": "Applications of Nucleotide Databases",
+    "ta": "நியுக்ளியோடைடு தரவுத்தளங்களின் பயன்பாடுகள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "**Gene Identification**"
+      "en": "**Gene Identification**",
+      "ta": "**மரபணு அடையாளம் காணுதல்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Compare unknown sequences against database entries to identify gene identity, structure, and probable function by homology."
+      "en": "Compare unknown sequences against database entries to identify gene identity, structure, and probable function by homology.",
+      "ta": "அறியப்படாத வரிசைகளைத் தரவுத்தளப் பதிவுகளுடன் ஒப்பிட்டு, ஹோமாலஜி மூலம் மரபணுவின் அடையாளம், அமைப்பு, சாத்தியமான செயலைக் கண்டறிதல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Sequence Comparison (BLAST)**"
+      "en": "**Sequence Comparison (BLAST)**",
+      "ta": "**வரிசை ஒப்பீடு (BLAST)**",
+      "ta_status": "bracketed"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "BLAST searches compare a query sequence against millions of database sequences to find similar genes across species in seconds."
+      "en": "BLAST searches compare a query sequence against millions of database sequences to find similar genes across species in seconds.",
+      "ta": "BLAST தேடல்கள் வினா வரிசையை மில்லியன் கணக்கான தரவுத்தள வரிசைகளுடன் ஒப்பிட்டு, இனங்கள் முழுவதும் ஒத்த மரபணுக்களை நொடிகளில் கண்டறிகின்றன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Evolutionary Studies**"
+      "en": "**Evolutionary Studies**",
+      "ta": "**பரிணாம ஆய்வுகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Retrieve homologous sequences from many organisms to build phylogenetic trees and trace evolutionary relationships."
+      "en": "Retrieve homologous sequences from many organisms to build phylogenetic trees and trace evolutionary relationships.",
+      "ta": "பல உயிரினங்களிலிருந்து ஹோமோலாக் வரிசைகளைப் பெற்றுப் பரிணாம மரங்களை உருவாக்கி, பரிணாம உறவுகளைக் கண்டறிதல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Disease Research**"
+      "en": "**Disease Research**",
+      "ta": "**நோய் ஆய்வு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Identify mutations in disease-related genes, find pathogen sequences, and understand genetic basis of inherited disorders."
+      "en": "Identify mutations in disease-related genes, find pathogen sequences, and understand genetic basis of inherited disorders.",
+      "ta": "நோய் தொடர்புடைய மரபணுக்களிலுள்ள திடீர்மாற்றங்களை அடையாளம் காணுதல், நோய்க்கிருமி வரிசைகளைக் கண்டறிதல், மரபுக் கோளாறுகளின் மரபியல் அடிப்படையைப் புரிந்துகொள்ளுதல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Crop Biotechnology**"
+      "en": "**Crop Biotechnology**",
+      "ta": "**பயிர் உயிரித் தொழில்நுட்பவியல்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Retrieve sequences of genes controlling yield, disease resistance, and nutritional quality for targeted crop improvement."
+      "en": "Retrieve sequences of genes controlling yield, disease resistance, and nutritional quality for targeted crop improvement.",
+      "ta": "விளைச்சல், நோய் எதிர்ப்பு, ஊட்டத் தரம் ஆகியவற்றைக் கட்டுப்படுத்தும் மரபணுக்களின் வரிசைகளைப் பெற்று, இலக்குப் பயிர் மேம்பாட்டுக்குப் பயன்படுத்துதல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Drug Discovery**"
+      "en": "**Drug Discovery**",
+      "ta": "**மருந்து கண்டுபிடிப்பு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Identify drug target sequences in pathogen genomes, compare with host sequences to design selective therapeutic strategies."
+      "en": "Identify drug target sequences in pathogen genomes, compare with host sequences to design selective therapeutic strategies.",
+      "ta": "நோய்க்கிருமி மரபணுத்தொகைகளில் மருந்து இலக்கு வரிசைகளை அடையாளம் கண்டு, விருந்தோம்பி வரிசைகளுடன் ஒப்பிட்டுத் தேர்ந்தெடுத்துச் செயல்படும் சிகிச்சை உத்திகளை வடிவமைத்தல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Primer Design**"
+      "en": "**Primer Design**",
+      "ta": "**பிரைமர் வடிவமைப்பு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Retrieve target gene sequences to design specific PCR primers for diagnostic assays, gene cloning, and research."
+      "en": "Retrieve target gene sequences to design specific PCR primers for diagnostic assays, gene cloning, and research.",
+      "ta": "நோயறிதல் சோதனைகள், மரபணுக் குளோனிங், ஆராய்ச்சிக்கான குறிப்பிட்ட PCR பிரைமர்களை வடிவமைக்க இலக்கு மரபணு வரிசைகளைப் பெறுதல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Pathogen Surveillance**"
+      "en": "**Pathogen Surveillance**",
+      "ta": "**நோய்க்கிருமிக் கண்காணிப்பு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Track emergence of new pathogen variants — critical during outbreaks (e.g., COVID-19 variant tracking via GISAID linked to INSDC)."
+      "en": "Track emergence of new pathogen variants — critical during outbreaks (e.g., COVID-19 variant tracking via GISAID linked to INSDC).",
+      "ta": "புதிய நோய்க்கிருமி மாறுபாடுகளின் தோற்றத்தைக் கண்காணித்தல் — நோய்ப்பரவல்களின்போது (எ.கா. INSDC-உடன் இணைந்த GISAID மூலம் COVID-19 மாறுபாடு கண்காணிப்பு) மிக முக்கியம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "exam",
      "text": {
-      "en": "Exam Point\n**BLAST** (Basic Local Alignment Search Tool) is the most widely used bioinformatics tool — it compares a query sequence against all sequences in GenBank and returns similar sequences ranked by statistical significance (E-value). It is available free at NCBI."
+      "en": "Exam Point\n**BLAST** (Basic Local Alignment Search Tool) is the most widely used bioinformatics tool — it compares a query sequence against all sequences in GenBank and returns similar sequences ranked by statistical significance (E-value). It is available free at NCBI.",
+      "ta": "தேர்வுக் குறிப்பு\n**BLAST** (அடிப்படை பகுதி ஒழுங்கமைவுத் தேடல் கருவி) மிகவும் பரவலாகப் பயன்படும் உயிரித் தகவலியல் கருவி — வினா வரிசையை GenBank-இலுள்ள அனைத்து வரிசைகளுடனும் ஒப்பிட்டு, புள்ளியியல் முக்கியத்துவத்தின் (E-மதிப்பு) அடிப்படையில் வரிசைப்படுத்தி ஒத்த வரிசைகளைத் தருகிறது. NCBI-இல் இலவசமாகக் கிடைக்கிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Quick Revision"
+      "en": "Quick Revision",
+      "ta": "விரைவுத் திருப்புதல்",
+      "ta_status": "draft"
      }
     },
     {
@@ -1536,23 +2100,33 @@
      "ordered": false,
      "items": [
       {
-       "en": "8 key application areas: gene ID, sequence comparison, evolution, disease research, crop biotech, drug discovery, primer design, pathogen surveillance"
+       "en": "8 key application areas: gene ID, sequence comparison, evolution, disease research, crop biotech, drug discovery, primer design, pathogen surveillance",
+       "ta": "8 முக்கியப் பயன்பாட்டுத் துறைகள்: மரபணு அடையாளம், வரிசை ஒப்பீடு, பரிணாமம், நோய் ஆய்வு, பயிர் உயிரித் தொழில்நுட்பவியல், மருந்து கண்டுபிடிப்பு, பிரைமர் வடிவமைப்பு, நோய்க்கிருமிக் கண்காணிப்பு",
+       "ta_status": "draft"
       },
       {
-       "en": "BLAST (at NCBI) is the most used bioinformatics tool — searches GenBank in seconds"
+       "en": "BLAST (at NCBI) is the most used bioinformatics tool — searches GenBank in seconds",
+       "ta": "BLAST (NCBI-இல்) மிக அதிகம் பயன்படும் உயிரித் தகவலியல் கருவி — GenBank-ஐ நொடிகளில் தேடுகிறது",
+       "ta_status": "draft"
       },
       {
-       "en": "Phylogenetic trees built from database sequences reveal evolutionary relationships"
+       "en": "Phylogenetic trees built from database sequences reveal evolutionary relationships",
+       "ta": "தரவுத்தள வரிசைகளிலிருந்து உருவாக்கப்படும் பரிணாம மரங்கள் பரிணாம உறவுகளை வெளிப்படுத்துகின்றன",
+       "ta_status": "draft"
       },
       {
-       "en": "COVID-19 pandemic demonstrated real-time use of nucleotide databases for variant tracking"
+       "en": "COVID-19 pandemic demonstrated real-time use of nucleotide databases for variant tracking",
+       "ta": "COVID-19 பெருந்தொற்று மாறுபாடுகளைக் கண்காணிக்க நியுக்ளியோடைடு தரவுத்தளங்களை நிகழ்நேரத்தில் பயன்படுத்தியதை நிரூபித்தது",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "SECTION 11"
+      "en": "SECTION 11",
+      "ta": "பிரிவு 11",
+      "ta_status": "draft"
      }
     }
    ]
@@ -1560,38 +2134,50 @@
   {
    "id": "s12",
    "title": {
-    "en": "Interactive Learning"
+    "en": "Interactive Learning",
+    "ta": "ஊடாடும் கற்றல்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Expand each topic for key points and use click-to-reveal for active recall."
+      "en": "Expand each topic for key points and use click-to-reveal for active recall.",
+      "ta": "முக்கியக் குறிப்புகளுக்காக ஒவ்வொரு தலைப்பையும் விரித்துப் பாருங்கள்; செயலில் நினைவுகூர்தலுக்கு தொட்டு வெளிப்படுத்துங்கள்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**💡 Bioinformatics — Core Concept**"
+      "en": "**💡 Bioinformatics — Core Concept**",
+      "ta": "**💡 உயிரித் தகவலியல் — மையக் கருத்து**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Bioinformatics uses computational tools to acquire, store, and analyse biological data. The three fundamental activities are data storage (databases), data analysis (tools and algorithms), and knowledge extraction (biological interpretation)."
+      "en": "Bioinformatics uses computational tools to acquire, store, and analyse biological data. The three fundamental activities are data storage (databases), data analysis (tools and algorithms), and knowledge extraction (biological interpretation).",
+      "ta": "உயிரித் தகவலியல் உயிரியல் தரவைப் பெறவும், சேமிக்கவும், பகுப்பாய்வு செய்யவும் கணினிக் கருவிகளைப் பயன்படுத்துகிறது. மூன்று அடிப்படைச் செயல்பாடுகள்: தரவுச் சேமிப்பு (தரவுத்தளங்கள்), தரவுப் பகுப்பாய்வு (கருவிகளும் படிமுறைகளும்), அறிவுப் பிரித்தெடுப்பு (உயிரியல் பொருள்கோடல்).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Click to Reveal — Definition\nBioinformatics is the application of information technology and computer science to the storage, retrieval, analysis, and interpretation of biological data, especially DNA, RNA, and protein sequences."
+      "en": "Click to Reveal — Definition\nBioinformatics is the application of information technology and computer science to the storage, retrieval, analysis, and interpretation of biological data, especially DNA, RNA, and protein sequences.",
+      "ta": "வெளிப்படுத்த தொடுக — வரையறை\nஉயிரித் தகவலியல் என்பது உயிரியல் தரவை — குறிப்பாக DNA, RNA, புரத வரிசைகளை — சேமிக்க, மீட்க, பகுப்பாய்வு செய்ய, பொருள்கோட தகவல் தொழில்நுட்பத்தையும் கணினி அறிவியலையும் பயன்படுத்துதல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🗄️ Biological Databases**"
+      "en": "**🗄️ Biological Databases**",
+      "ta": "**🗄️ உயிரியல் தரவுத்தளங்கள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -1599,16 +2185,24 @@
      "ordered": false,
      "items": [
       {
-       "en": "Primary databases store original experimental data — submitted directly by researchers"
+       "en": "Primary databases store original experimental data — submitted directly by researchers",
+       "ta": "முதன்மைத் தரவுத்தளங்கள் ஆய்வாளர்கள் நேரடியாகச் சமர்ப்பித்த மூலச் சோதனைத் தரவைச் சேமிக்கும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Secondary databases add expert curation and interpretation to primary data"
+       "en": "Secondary databases add expert curation and interpretation to primary data",
+       "ta": "இரண்டாம்நிலைத் தரவுத்தளங்கள் முதன்மைத் தரவுடன் நிபுணர் பராமரிப்பையும் பொருள்கோடலையும் சேர்க்கும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Three main primary nucleotide databases: GenBank, EMBL, DDBJ"
+       "en": "Three main primary nucleotide databases: GenBank, EMBL, DDBJ",
+       "ta": "மூன்று முக்கிய முதன்மை நியுக்ளியோடைடு தரவுத்தளங்கள்: GenBank, EMBL, DDBJ",
+       "ta_status": "draft"
       },
       {
-       "en": "All three are INSDC members — synchronised within 24 hours"
+       "en": "All three are INSDC members — synchronised within 24 hours",
+       "ta": "மூன்றும் INSDC உறுப்பினர்கள் — 24 மணி நேரத்துக்குள் ஒத்திசைக்கப்படுகின்றன",
+       "ta_status": "draft"
       }
      ]
     },
@@ -1616,13 +2210,17 @@
      "type": "callout",
      "kind": "exam",
      "text": {
-      "en": "Remember\nINSDC = International Nucleotide Sequence Database Collaboration. Submitting to any one of the three databases makes data available globally through all three within 24 hours."
+      "en": "Remember\nINSDC = International Nucleotide Sequence Database Collaboration. Submitting to any one of the three databases makes data available globally through all three within 24 hours.",
+      "ta": "நினைவில் கொள்க\nINSDC = பன்னாட்டு நியுக்ளியோடைடு வரிசைத் தரவுத்தளக் கூட்டிணைவு. மூன்றில் ஏதேனும் ஒன்றுக்குச் சமர்ப்பித்தால் 24 மணி நேரத்துக்குள் மூன்றின் வழியாகவும் தரவு உலகளவில் கிடைக்கும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🇺🇸 GenBank — Key Points**"
+      "en": "**🇺🇸 GenBank — Key Points**",
+      "ta": "**🇺🇸 GenBank — முக்கியக் குறிப்புகள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -1630,19 +2228,29 @@
      "ordered": false,
      "items": [
       {
-       "en": "Maintained by NCBI (NIH), USA; founded 1982"
+       "en": "Maintained by NCBI (NIH), USA; founded 1982",
+       "ta": "NCBI (NIH), அமெரிக்கா பராமரிக்கிறது; 1982-இல் நிறுவப்பட்டது",
+       "ta_status": "draft"
       },
       {
-       "en": "World's largest nucleotide database — 250+ billion base pairs"
+       "en": "World's largest nucleotide database — 250+ billion base pairs",
+       "ta": "உலகின் மிகப் பெரிய நியுக்ளியோடைடு தரவுத்தளம் — 25,000+ கோடி காரணைகள்",
+       "ta_status": "draft"
       },
       {
-       "en": "Search tools: Entrez (text search) and BLAST (sequence similarity)"
+       "en": "Search tools: Entrez (text search) and BLAST (sequence similarity)",
+       "ta": "தேடல் கருவிகள்: Entrez (உரைத் தேடல்), BLAST (வரிசை ஒப்புமை)",
+       "ta_status": "draft"
       },
       {
-       "en": "Flat file format: LOCUS → DEFINITION → FEATURES → ORGANISM → ORIGIN"
+       "en": "Flat file format: LOCUS → DEFINITION → FEATURES → ORGANISM → ORIGIN",
+       "ta": "தட்டைக் கோப்பு வடிவம்: LOCUS → DEFINITION → FEATURES → ORGANISM → ORIGIN",
+       "ta_status": "draft"
       },
       {
-       "en": "Each sequence has a unique permanent accession number"
+       "en": "Each sequence has a unique permanent accession number",
+       "ta": "ஒவ்வொரு வரிசைக்கும் தனித்த நிலையான அணுகல் எண் உண்டு",
+       "ta_status": "draft"
       }
      ]
     },
@@ -1650,13 +2258,17 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Click to Reveal — Accession Number\nA GenBank accession number (e.g., AY123456) is a permanent, unique identifier assigned to each deposited sequence. It never changes and allows unambiguous global citation of any specific sequence record."
+      "en": "Click to Reveal — Accession Number\nA GenBank accession number (e.g., AY123456) is a permanent, unique identifier assigned to each deposited sequence. It never changes and allows unambiguous global citation of any specific sequence record.",
+      "ta": "வெளிப்படுத்த தொடுக — அணுகல் எண்\nGenBank அணுகல் எண் (எ.கா. AY123456) என்பது சமர்ப்பிக்கப்பட்ட ஒவ்வொரு வரிசைக்கும் ஒதுக்கப்படும் நிலையான, தனித்த அடையாளம். இது மாறாதது; எந்த வரிசைப் பதிவையும் உலகளவில் தெளிவாகக் குறிப்பிட உதவுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🇬🇧 EMBL / ENA — Key Points**"
+      "en": "**🇬🇧 EMBL / ENA — Key Points**",
+      "ta": "**🇬🇧 EMBL / ENA — முக்கியக் குறிப்புகள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -1664,26 +2276,38 @@
      "ordered": false,
      "items": [
       {
-       "en": "Maintained by EBI (EMBL), UK/Europe; founded 1980 — oldest nucleotide database"
+       "en": "Maintained by EBI (EMBL), UK/Europe; founded 1980 — oldest nucleotide database",
+       "ta": "EBI (EMBL), இங்கிலாந்து/ஐரோப்பா பராமரிக்கிறது; 1980-இல் நிறுவப்பட்டது — மிகப் பழைய நியுக்ளியோடைடு தரவுத்தளம்",
+       "ta_status": "draft"
       },
       {
-       "en": "Now formally known as the European Nucleotide Archive (ENA)"
+       "en": "Now formally known as the European Nucleotide Archive (ENA)",
+       "ta": "இப்போது அதிகாரப்பூர்வமாக ஐரோப்பிய நியுக்ளியோடைடுக் காப்பகம் (ENA) எனப்படுகிறது",
+       "ta_status": "bracketed"
       },
       {
-       "en": "Search tools: SRS (Sequence Retrieval System), FASTA, BLAST"
+       "en": "Search tools: SRS (Sequence Retrieval System), FASTA, BLAST",
+       "ta": "தேடல் கருவிகள்: SRS (வரிசை மீட்பு அமைப்பு), FASTA, BLAST",
+       "ta_status": "draft"
       },
       {
-       "en": "Strong integration with other EBI resources: UniProt, Ensembl, InterPro"
+       "en": "Strong integration with other EBI resources: UniProt, Ensembl, InterPro",
+       "ta": "பிற EBI வளங்களுடன் வலுவான ஒருங்கிணைப்பு: UniProt, Ensembl, InterPro",
+       "ta_status": "draft"
       },
       {
-       "en": "Uses EMBL flat file format (different from GenBank format)"
+       "en": "Uses EMBL flat file format (different from GenBank format)",
+       "ta": "EMBL தட்டைக் கோப்பு வடிவத்தைப் (GenBank வடிவத்திலிருந்து வேறுபட்டது) பயன்படுத்துகிறது",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**🇯🇵 DDBJ — Key Points**"
+      "en": "**🇯🇵 DDBJ — Key Points**",
+      "ta": "**🇯🇵 DDBJ — முக்கியக் குறிப்புகள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -1691,19 +2315,29 @@
      "ordered": false,
      "items": [
       {
-       "en": "Maintained by NIG (National Institute of Genetics), Japan; founded 1986"
+       "en": "Maintained by NIG (National Institute of Genetics), Japan; founded 1986",
+       "ta": "NIG (தேசிய மரபியல் நிறுவனம்), ஜப்பான் பராமரிக்கிறது; 1986-இல் நிறுவப்பட்டது",
+       "ta_status": "draft"
       },
       {
-       "en": "Primary hub for Japanese and Asian genomic research"
+       "en": "Primary hub for Japanese and Asian genomic research",
+       "ta": "ஜப்பானிய, ஆசிய மரபணுத்தொகைய ஆராய்ச்சிக்கான முதன்மை மையம்",
+       "ta_status": "draft"
       },
       {
-       "en": "Uses Sakura online submission system"
+       "en": "Uses Sakura online submission system",
+       "ta": "Sakura இணையச் சமர்ப்பிப்பு அமைப்பைப் பயன்படுத்துகிறது",
+       "ta_status": "draft"
       },
       {
-       "en": "Notable for model organisms studied in Japan (e.g., medaka fish, rice)"
+       "en": "Notable for model organisms studied in Japan (e.g., medaka fish, rice)",
+       "ta": "ஜப்பானில் ஆய்வு செய்யப்படும் மாதிரி உயிரினங்களுக்குப் பெயர்பெற்றது (எ.கா. மெடாகா மீன், நெல்)",
+       "ta_status": "draft"
       },
       {
-       "en": "Uses GenBank flat file format — same as NCBI's format"
+       "en": "Uses GenBank flat file format — same as NCBI's format",
+       "ta": "NCBI-இன் வடிவத்தைப் போன்ற GenBank தட்டைக் கோப்பு வடிவத்தைப் பயன்படுத்துகிறது",
+       "ta_status": "draft"
       }
      ]
     },
@@ -1711,13 +2345,17 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Click to Reveal\nDDBJ was the most recently established of the three INSDC databases (1986), but it handles a significant volume of submissions from Japan and East Asia, including many large-scale genomics projects."
+      "en": "Click to Reveal\nDDBJ was the most recently established of the three INSDC databases (1986), but it handles a significant volume of submissions from Japan and East Asia, including many large-scale genomics projects.",
+      "ta": "வெளிப்படுத்த தொடுக\nமூன்று INSDC தரவுத்தளங்களுள் DDBJ மிகச் சமீபத்தில் (1986) நிறுவப்பட்டது; ஆயினும் ஜப்பான், கிழக்காசியாவிலிருந்து பல பெரிய மரபணுத்தொகையியல் திட்டங்கள் உட்பட கணிசமான அளவு சமர்ப்பிப்புகளைக் கையாள்கிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🌐 Applications — Summary**"
+      "en": "**🌐 Applications — Summary**",
+      "ta": "**🌐 பயன்பாடுகள் — சுருக்கம்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -1725,29 +2363,43 @@
      "ordered": false,
      "items": [
       {
-       "en": "**Gene identification:** match unknown sequence to known genes by homology"
+       "en": "**Gene identification:** match unknown sequence to known genes by homology",
+       "ta": "**மரபணு அடையாளம்:** அறியப்படாத வரிசையை ஹோமாலஜி மூலம் அறியப்பட்ட மரபணுக்களுடன் பொருத்துதல்",
+       "ta_status": "draft"
       },
       {
-       "en": "**BLAST search:** find similar sequences across all species in seconds"
+       "en": "**BLAST search:** find similar sequences across all species in seconds",
+       "ta": "**BLAST தேடல்:** அனைத்து இனங்களிலும் ஒத்த வரிசைகளை நொடிகளில் கண்டறிதல்",
+       "ta_status": "draft"
       },
       {
-       "en": "**Phylogenetics:** build evolutionary trees from database-retrieved sequences"
+       "en": "**Phylogenetics:** build evolutionary trees from database-retrieved sequences",
+       "ta": "**பரிணாம மரவியல்:** தரவுத்தளத்திலிருந்து பெற்ற வரிசைகளால் பரிணாம மரங்களை உருவாக்குதல்",
+       "ta_status": "draft"
       },
       {
-       "en": "**Disease research:** identify mutations, pathogen sequences, disease genes"
+       "en": "**Disease research:** identify mutations, pathogen sequences, disease genes",
+       "ta": "**நோய் ஆய்வு:** திடீர்மாற்றங்கள், நோய்க்கிருமி வரிசைகள், நோய் மரபணுக்களை அடையாளம் காணுதல்",
+       "ta_status": "draft"
       },
       {
-       "en": "**Drug design:** find target sequences in pathogen genomes"
+       "en": "**Drug design:** find target sequences in pathogen genomes",
+       "ta": "**மருந்து வடிவமைப்பு:** நோய்க்கிருமி மரபணுத்தொகைகளில் இலக்கு வரிசைகளைக் கண்டறிதல்",
+       "ta_status": "draft"
       },
       {
-       "en": "**Primer design:** design PCR primers from retrieved sequences"
+       "en": "**Primer design:** design PCR primers from retrieved sequences",
+       "ta": "**பிரைமர் வடிவமைப்பு:** பெறப்பட்ட வரிசைகளிலிருந்து PCR பிரைமர்களை வடிவமைத்தல்",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "SECTION 13"
+      "en": "SECTION 13",
+      "ta": "பிரிவு 13",
+      "ta_status": "draft"
      }
     }
    ]
@@ -1755,7 +2407,9 @@
   {
    "id": "s13",
    "title": {
-    "en": "Summary & Revision Bullets"
+    "en": "Summary & Revision Bullets",
+    "ta": "சுருக்கமும் திருப்புதல் குறிப்புகளும்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
@@ -1763,131 +2417,203 @@
      "ordered": false,
      "items": [
       {
-       "en": "Bioinformatics applies computer science and mathematics to store, retrieve, and analyse biological data — especially sequences."
+       "en": "Bioinformatics applies computer science and mathematics to store, retrieve, and analyse biological data — especially sequences.",
+       "ta": "உயிரித் தகவலியல் கணினி அறிவியலையும் கணிதத்தையும் பயன்படுத்தி உயிரியல் தரவை — குறிப்பாக வரிசைகளை — சேமிக்கிறது, மீட்கிறது, பகுப்பாய்வு செய்கிறது.",
+       "ta_status": "draft"
       },
       {
-       "en": "Three core bioinformatics activities: data storage (databases), data analysis (tools/algorithms), knowledge extraction (interpretation)."
+       "en": "Three core bioinformatics activities: data storage (databases), data analysis (tools/algorithms), knowledge extraction (interpretation).",
+       "ta": "மூன்று மைய உயிரித் தகவலியல் செயல்பாடுகள்: தரவுச் சேமிப்பு (தரவுத்தளங்கள்), தரவுப் பகுப்பாய்வு (கருவிகள்/படிமுறைகள்), அறிவுப் பிரித்தெடுப்பு (பொருள்கோடல்).",
+       "ta_status": "draft"
       },
       {
-       "en": "Databases store data; search tools (e.g., BLAST, Entrez) query databases; sequence analysis methods (e.g., alignment) process retrieved data — three distinct concepts."
+       "en": "Databases store data; search tools (e.g., BLAST, Entrez) query databases; sequence analysis methods (e.g., alignment) process retrieved data — three distinct concepts.",
+       "ta": "தரவுத்தளங்கள் தரவைச் சேமிக்கும்; தேடல் கருவிகள் (எ.கா. BLAST, Entrez) தரவுத்தளங்களை வினவும்; வரிசைப் பகுப்பாய்வு முறைகள் (எ.கா. ஒழுங்கமைவு) மீட்கப்பட்ட தரவைச் செயலாக்கும் — மூன்று தனித்தனிக் கருத்துகள்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Primary databases store original experimental data (GenBank, EMBL, DDBJ, PDB); secondary databases add curated annotation (UniProt, KEGG)."
+       "en": "Primary databases store original experimental data (GenBank, EMBL, DDBJ, PDB); secondary databases add curated annotation (UniProt, KEGG).",
+       "ta": "முதன்மைத் தரவுத்தளங்கள் மூலச் சோதனைத் தரவைச் சேமிக்கும் (GenBank, EMBL, DDBJ, PDB); இரண்டாம்நிலைத் தரவுத்தளங்கள் பராமரிக்கப்பட்ட குறிப்புரையைச் சேர்க்கும் (UniProt, KEGG).",
+       "ta_status": "draft"
       },
       {
-       "en": "Nucleotide sequence databases store DNA/RNA sequences with full annotations from all organisms."
+       "en": "Nucleotide sequence databases store DNA/RNA sequences with full annotations from all organisms.",
+       "ta": "நியுக்ளியோடைடு வரிசைத் தரவுத்தளங்கள் அனைத்து உயிரினங்களின் DNA/RNA வரிசைகளை முழுக் குறிப்புரைகளுடன் சேமிக்கும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "GenBank: NCBI, USA, founded 1982 — world's largest; Entrez + BLAST; accession numbers."
+       "en": "GenBank: NCBI, USA, founded 1982 — world's largest; Entrez + BLAST; accession numbers.",
+       "ta": "GenBank: NCBI, அமெரிக்கா, 1982-இல் நிறுவப்பட்டது — உலகின் மிகப் பெரியது; Entrez + BLAST; அணுகல் எண்கள்.",
+       "ta_status": "draft"
       },
       {
-       "en": "EMBL/ENA: EBI, UK, founded 1980 — oldest; SRS + FASTA; strong European resource integration."
+       "en": "EMBL/ENA: EBI, UK, founded 1980 — oldest; SRS + FASTA; strong European resource integration.",
+       "ta": "EMBL/ENA: EBI, இங்கிலாந்து, 1980-இல் நிறுவப்பட்டது — மிகப் பழையது; SRS + FASTA; வலுவான ஐரோப்பிய வள ஒருங்கிணைப்பு.",
+       "ta_status": "draft"
       },
       {
-       "en": "DDBJ: NIG, Japan, founded 1986 — newest; Sakura submission; Asian research hub."
+       "en": "DDBJ: NIG, Japan, founded 1986 — newest; Sakura submission; Asian research hub.",
+       "ta": "DDBJ: NIG, ஜப்பான், 1986-இல் நிறுவப்பட்டது — மிகப் புதியது; Sakura சமர்ப்பிப்பு; ஆசிய ஆராய்ச்சி மையம்.",
+       "ta_status": "draft"
       },
       {
-       "en": "INSDC = International Nucleotide Sequence Database Collaboration — synchronises GenBank, EMBL, DDBJ within 24 hours."
+       "en": "INSDC = International Nucleotide Sequence Database Collaboration — synchronises GenBank, EMBL, DDBJ within 24 hours.",
+       "ta": "INSDC = பன்னாட்டு நியுக்ளியோடைடு வரிசைத் தரவுத்தளக் கூட்டிணைவு — GenBank, EMBL, DDBJ ஆகியவற்றை 24 மணி நேரத்துக்குள் ஒத்திசைக்கிறது.",
+       "ta_status": "draft"
       },
       {
-       "en": "Sequence data flow: lab → submission → accession number → INSDC sync → global free access."
+       "en": "Sequence data flow: lab → submission → accession number → INSDC sync → global free access.",
+       "ta": "வரிசைத் தரவுப் பாய்வு: ஆய்வகம் → சமர்ப்பிப்பு → அணுகல் எண் → INSDC ஒத்திசைவு → உலகளாவிய இலவச அணுகல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Applications: gene identification, BLAST searches, phylogenetics, disease research, drug discovery, primer design, pathogen tracking."
+       "en": "Applications: gene identification, BLAST searches, phylogenetics, disease research, drug discovery, primer design, pathogen tracking.",
+       "ta": "பயன்பாடுகள்: மரபணு அடையாளம், BLAST தேடல்கள், பரிணாம மரவியல், நோய் ஆய்வு, மருந்து கண்டுபிடிப்பு, பிரைமர் வடிவமைப்பு, நோய்க்கிருமிக் கண்காணிப்பு.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Key Differences at a Glance**"
+      "en": "**Key Differences at a Glance**",
+      "ta": "**முக்கிய வேறுபாடுகள் ஒரே பார்வையில்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "table",
      "header": [
       {
-       "en": "Point"
+       "en": "Point",
+       "ta": "அம்சம்",
+       "ta_status": "draft"
       },
       {
-       "en": "GenBank"
+       "en": "GenBank",
+       "ta": "GenBank",
+       "ta_status": "draft"
       },
       {
-       "en": "EMBL"
+       "en": "EMBL",
+       "ta": "EMBL",
+       "ta_status": "draft"
       },
       {
-       "en": "DDBJ"
+       "en": "DDBJ",
+       "ta": "DDBJ",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "Founded"
+        "en": "Founded",
+        "ta": "நிறுவப்பட்டது",
+        "ta_status": "draft"
        },
        {
-        "en": "1982"
+        "en": "1982",
+        "ta": "1982",
+        "ta_status": "draft"
        },
        {
-        "en": "1980 (oldest)"
+        "en": "1980 (oldest)",
+        "ta": "1980 (மிகப் பழையது)",
+        "ta_status": "draft"
        },
        {
-        "en": "1986 (newest)"
+        "en": "1986 (newest)",
+        "ta": "1986 (மிகப் புதியது)",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "Location"
+        "en": "Location",
+        "ta": "இடம்",
+        "ta_status": "draft"
        },
        {
-        "en": "USA"
+        "en": "USA",
+        "ta": "அமெரிக்கா",
+        "ta_status": "draft"
        },
        {
-        "en": "UK/Europe"
+        "en": "UK/Europe",
+        "ta": "இங்கிலாந்து/ஐரோப்பா",
+        "ta_status": "draft"
        },
        {
-        "en": "Japan"
+        "en": "Japan",
+        "ta": "ஜப்பான்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "Organisation"
+        "en": "Organisation",
+        "ta": "அமைப்பு",
+        "ta_status": "draft"
        },
        {
-        "en": "NCBI/NIH"
+        "en": "NCBI/NIH",
+        "ta": "NCBI/NIH",
+        "ta_status": "draft"
        },
        {
-        "en": "EBI/EMBL"
+        "en": "EBI/EMBL",
+        "ta": "EBI/EMBL",
+        "ta_status": "draft"
        },
        {
-        "en": "NIG"
+        "en": "NIG",
+        "ta": "NIG",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "Search Tool"
+        "en": "Search Tool",
+        "ta": "தேடல் கருவி",
+        "ta_status": "draft"
        },
        {
-        "en": "Entrez, BLAST"
+        "en": "Entrez, BLAST",
+        "ta": "Entrez, BLAST",
+        "ta_status": "draft"
        },
        {
-        "en": "SRS, FASTA"
+        "en": "SRS, FASTA",
+        "ta": "SRS, FASTA",
+        "ta_status": "draft"
        },
        {
-        "en": "Sakura, BLAST"
+        "en": "Sakura, BLAST",
+        "ta": "Sakura, BLAST",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "File Format"
+        "en": "File Format",
+        "ta": "கோப்பு வடிவம்",
+        "ta_status": "draft"
        },
        {
-        "en": "GenBank format"
+        "en": "GenBank format",
+        "ta": "GenBank வடிவம்",
+        "ta_status": "draft"
        },
        {
-        "en": "EMBL format"
+        "en": "EMBL format",
+        "ta": "EMBL வடிவம்",
+        "ta_status": "draft"
        },
        {
-        "en": "GenBank format"
+        "en": "GenBank format",
+        "ta": "GenBank வடிவம்",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -1895,7 +2621,9 @@
     {
      "type": "p",
      "text": {
-      "en": "SECTION 14"
+      "en": "SECTION 14",
+      "ta": "பிரிவு 14",
+      "ta_status": "draft"
      }
     }
    ]
@@ -1903,157 +2631,209 @@
   {
    "id": "s14",
    "title": {
-    "en": "Glossary"
+    "en": "Glossary",
+    "ta": "சொற்களஞ்சியம்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "**Bioinformatics**"
+      "en": "**Bioinformatics**",
+      "ta": "**உயிரித் தகவலியல்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "The interdisciplinary science applying computer science and mathematics to store, retrieve, and analyse biological data, especially molecular sequences."
+      "en": "The interdisciplinary science applying computer science and mathematics to store, retrieve, and analyse biological data, especially molecular sequences.",
+      "ta": "உயிரியல் தரவை, குறிப்பாக மூலக்கூறு வரிசைகளை, சேமிக்க, மீட்க, பகுப்பாய்வு செய்யக் கணினி அறிவியலையும் கணிதத்தையும் பயன்படுத்தும் பல்துறை அறிவியல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Database**"
+      "en": "**Database**",
+      "ta": "**தரவுத்தளம்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "An organised collection of data stored in a computer system that can be efficiently searched, retrieved, and updated."
+      "en": "An organised collection of data stored in a computer system that can be efficiently searched, retrieved, and updated.",
+      "ta": "திறம்படத் தேடவும், மீட்கவும், புதுப்பிக்கவும் கூடிய, கணினியில் சேமிக்கப்பட்ட ஒழுங்கமைந்த தரவுத் தொகுப்பு.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Nucleotide Sequence**"
+      "en": "**Nucleotide Sequence**",
+      "ta": "**நியுக்ளியோடைடு வரிசை**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "The order of nucleotide bases (A, T, G, C for DNA; A, U, G, C for RNA) in a DNA or RNA molecule."
+      "en": "The order of nucleotide bases (A, T, G, C for DNA; A, U, G, C for RNA) in a DNA or RNA molecule.",
+      "ta": "DNA அல்லது RNA மூலக்கூறிலுள்ள நியுக்ளியோடைடு காரங்களின் (DNA-வுக்கு A, T, G, C; RNA-வுக்கு A, U, G, C) வரிசை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**GenBank**"
+      "en": "**GenBank**",
+      "ta": "**GenBank**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "The US primary nucleotide sequence database maintained by NCBI (NIH); founded 1982; the world's largest annotated sequence archive."
+      "en": "The US primary nucleotide sequence database maintained by NCBI (NIH); founded 1982; the world's largest annotated sequence archive.",
+      "ta": "NCBI (NIH) பராமரிக்கும் அமெரிக்க முதன்மை நியுக்ளியோடைடு வரிசைத் தரவுத்தளம்; 1982-இல் நிறுவப்பட்டது; உலகின் மிகப் பெரிய குறிப்புரையிடப்பட்ட வரிசைக் காப்பகம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**EMBL / ENA**"
+      "en": "**EMBL / ENA**",
+      "ta": "**EMBL / ENA**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "The European primary nucleotide sequence database (now European Nucleotide Archive) maintained by EBI; the oldest such database, founded 1980."
+      "en": "The European primary nucleotide sequence database (now European Nucleotide Archive) maintained by EBI; the oldest such database, founded 1980.",
+      "ta": "EBI பராமரிக்கும் ஐரோப்பிய முதன்மை நியுக்ளியோடைடு வரிசைத் தரவுத்தளம் (இப்போது ஐரோப்பிய நியுக்ளியோடைடுக் காப்பகம்); இவ்வகையில் மிகப் பழையது, 1980-இல் நிறுவப்பட்டது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**DDBJ**"
+      "en": "**DDBJ**",
+      "ta": "**DDBJ**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "DNA Data Bank of Japan — the Japanese primary nucleotide sequence database maintained by NIG; founded 1986; part of INSDC."
+      "en": "DNA Data Bank of Japan — the Japanese primary nucleotide sequence database maintained by NIG; founded 1986; part of INSDC.",
+      "ta": "ஜப்பானின் DNA தரவு வங்கி — NIG பராமரிக்கும் ஜப்பானிய முதன்மை நியுக்ளியோடைடு வரிசைத் தரவுத்தளம்; 1986-இல் நிறுவப்பட்டது; INSDC-இன் பகுதி.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**INSDC**"
+      "en": "**INSDC**",
+      "ta": "**INSDC**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "International Nucleotide Sequence Database Collaboration — the partnership between GenBank, EMBL, and DDBJ for daily synchronisation of all sequence records."
+      "en": "International Nucleotide Sequence Database Collaboration — the partnership between GenBank, EMBL, and DDBJ for daily synchronisation of all sequence records.",
+      "ta": "பன்னாட்டு நியுக்ளியோடைடு வரிசைத் தரவுத்தளக் கூட்டிணைவு — அனைத்து வரிசைப் பதிவுகளையும் தினமும் ஒத்திசைக்க GenBank, EMBL, DDBJ ஆகியவற்றுக்கிடையேயான கூட்டாண்மை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Accession Number**"
+      "en": "**Accession Number**",
+      "ta": "**அணுகல் எண்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "A unique permanent identifier assigned to each sequence record deposited in an INSDC database (e.g., AY123456). It never changes."
+      "en": "A unique permanent identifier assigned to each sequence record deposited in an INSDC database (e.g., AY123456). It never changes.",
+      "ta": "INSDC தரவுத்தளத்தில் சேமிக்கப்படும் ஒவ்வொரு வரிசைப் பதிவுக்கும் ஒதுக்கப்படும் தனித்த நிலையான அடையாளம் (எ.கா. AY123456). இது மாறாது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Data Retrieval**"
+      "en": "**Data Retrieval**",
+      "ta": "**தரவு மீட்பு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "The process of searching a database and extracting specific records — performed using tools like Entrez (GenBank) or SRS (EMBL)."
+      "en": "The process of searching a database and extracting specific records — performed using tools like Entrez (GenBank) or SRS (EMBL).",
+      "ta": "தரவுத்தளத்தைத் தேடி குறிப்பிட்ட பதிவுகளைப் பிரித்தெடுக்கும் செயல்முறை — Entrez (GenBank) அல்லது SRS (EMBL) போன்ற கருவிகளால் செய்யப்படுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**BLAST**"
+      "en": "**BLAST**",
+      "ta": "**BLAST**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Basic Local Alignment Search Tool — the most widely used bioinformatics tool; compares a query sequence against all database sequences to find similar ones."
+      "en": "Basic Local Alignment Search Tool — the most widely used bioinformatics tool; compares a query sequence against all database sequences to find similar ones.",
+      "ta": "அடிப்படை பகுதி ஒழுங்கமைவுத் தேடல் கருவி — மிகப் பரவலாகப் பயன்படும் உயிரித் தகவலியல் கருவி; வினா வரிசையை அனைத்துத் தரவுத்தள வரிசைகளுடன் ஒப்பிட்டு ஒத்தவற்றைக் கண்டறிகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Primary Database**"
+      "en": "**Primary Database**",
+      "ta": "**முதன்மைத் தரவுத்தளம்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "A database storing original, experimentally determined biological data submitted directly by researchers, without additional curation."
+      "en": "A database storing original, experimentally determined biological data submitted directly by researchers, without additional curation.",
+      "ta": "கூடுதல் பராமரிப்பின்றி, ஆய்வாளர்கள் நேரடியாகச் சமர்ப்பித்த மூல, சோதனை வழிக் கண்டறியப்பட்ட உயிரியல் தரவைச் சேமிக்கும் தரவுத்தளம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Sequence Analysis**"
+      "en": "**Sequence Analysis**",
+      "ta": "**வரிசைப் பகுப்பாய்வு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Computational methods (alignment, BLAST search, phylogenetic analysis) used to compare and interpret sequence data — distinct from database storage."
+      "en": "Computational methods (alignment, BLAST search, phylogenetic analysis) used to compare and interpret sequence data — distinct from database storage.",
+      "ta": "வரிசைத் தரவை ஒப்பிடவும் பொருள்கோடவும் பயன்படும் கணினி முறைகள் (ஒழுங்கமைவு, BLAST தேடல், பரிணாமப் பகுப்பாய்வு) — தரவுத்தளச் சேமிப்பிலிருந்து வேறுபட்டவை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "SECTION 15"
+      "en": "SECTION 15",
+      "ta": "பிரிவு 15",
+      "ta_status": "draft"
      }
     }
    ]
@@ -2061,97 +2841,129 @@
   {
    "id": "s15",
    "title": {
-    "en": "Frequently Asked University Exam Questions"
+    "en": "Frequently Asked University Exam Questions",
+    "ta": "அடிக்கடி கேட்கப்படும் பல்கலைக்கழகத் தேர்வு வினாக்கள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "1. Define bioinformatics. Explain its scope and importance in modern biology."
+      "en": "1. Define bioinformatics. Explain its scope and importance in modern biology.",
+      "ta": "1. உயிரித் தகவலியலை வரையறுக்க. நவீன உயிரியலில் அதன் நோக்கெல்லையையும் முக்கியத்துவத்தையும் விளக்குக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Show Hint**"
+      "en": "**Show Hint**",
+      "ta": "**குறிப்பைக் காட்டு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Define bioinformatics (biology + computer science + mathematics; storage, retrieval, and analysis of biological data). Scope: data management, sequence analysis, genomics, phylogenetics, drug discovery, medical genomics. Importance: manages genomic data explosion; enabled Human Genome Project; essential for BLAST searches, database-based research, precision medicine. Mention three core activities: storage, analysis, knowledge extraction."
+      "en": "Define bioinformatics (biology + computer science + mathematics; storage, retrieval, and analysis of biological data). Scope: data management, sequence analysis, genomics, phylogenetics, drug discovery, medical genomics. Importance: manages genomic data explosion; enabled Human Genome Project; essential for BLAST searches, database-based research, precision medicine. Mention three core activities: storage, analysis, knowledge extraction.",
+      "ta": "உயிரித் தகவலியலை வரையறுக்க (உயிரியல் + கணினி அறிவியல் + கணிதம்; உயிரியல் தரவின் சேமிப்பு, மீட்பு, பகுப்பாய்வு). நோக்கெல்லை: தரவு மேலாண்மை, வரிசைப் பகுப்பாய்வு, மரபணுத்தொகையியல், பரிணாம மரவியல், மருந்து கண்டுபிடிப்பு, மருத்துவ மரபணுத்தொகையியல். முக்கியத்துவம்: மரபணுத்தொகைய தரவு வெடிப்பை மேலாண்மை செய்கிறது; மனித மரபணுத்தொகைய திட்டத்தைச் சாத்தியமாக்கியது; BLAST தேடல்கள், தரவுத்தள அடிப்படை ஆராய்ச்சி, துல்லிய மருத்துவத்துக்கு இன்றியமையாதது. மூன்று மையச் செயல்பாடுகளைக் குறிப்பிடுக: சேமிப்பு, பகுப்பாய்வு, அறிவுப் பிரித்தெடுப்பு.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "2. What are nucleotide sequence databases? Write a note on GenBank — its origin, features, and importance."
+      "en": "2. What are nucleotide sequence databases? Write a note on GenBank — its origin, features, and importance.",
+      "ta": "2. நியுக்ளியோடைடு வரிசைத் தரவுத்தளங்கள் என்பவை யாவை? GenBank பற்றி — அதன் தோற்றம், அம்சங்கள், முக்கியத்துவம் — குறிப்பு எழுதுக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Show Hint**"
+      "en": "**Show Hint**",
+      "ta": "**குறிப்பைக் காட்டு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Define nucleotide sequence databases (store DNA/RNA sequences with annotations; free global access). GenBank: maintained by NCBI (NIH), USA; founded 1982; world's largest annotated archive; search tools Entrez and BLAST; accession numbers; flat file format (LOCUS, DEFINITION, FEATURES, ORGANISM, ORIGIN); INSDC member; importance — universal reference for molecular biology; enables gene identification, BLAST searches, evolutionary studies."
+      "en": "Define nucleotide sequence databases (store DNA/RNA sequences with annotations; free global access). GenBank: maintained by NCBI (NIH), USA; founded 1982; world's largest annotated archive; search tools Entrez and BLAST; accession numbers; flat file format (LOCUS, DEFINITION, FEATURES, ORGANISM, ORIGIN); INSDC member; importance — universal reference for molecular biology; enables gene identification, BLAST searches, evolutionary studies.",
+      "ta": "நியுக்ளியோடைடு வரிசைத் தரவுத்தளங்களை வரையறுக்க (DNA/RNA வரிசைகளைக் குறிப்புரைகளுடன் சேமிக்கும்; இலவச உலகளாவிய அணுகல்). GenBank: NCBI (NIH), அமெரிக்கா பராமரிக்கிறது; 1982-இல் நிறுவப்பட்டது; உலகின் மிகப் பெரிய குறிப்புரையிடப்பட்ட காப்பகம்; தேடல் கருவிகள் Entrez, BLAST; அணுகல் எண்கள்; தட்டைக் கோப்பு வடிவம் (LOCUS, DEFINITION, FEATURES, ORGANISM, ORIGIN); INSDC உறுப்பினர்; முக்கியத்துவம் — மூலக்கூறு உயிரியலின் உலகளாவியக் குறிப்புத் தளம்; மரபணு அடையாளம், BLAST தேடல்கள், பரிணாம ஆய்வுகளைச் சாத்தியமாக்குகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "3. Compare GenBank, EMBL, and DDBJ under the headings: organisation, country, search tools, year of establishment, and collaboration."
+      "en": "3. Compare GenBank, EMBL, and DDBJ under the headings: organisation, country, search tools, year of establishment, and collaboration.",
+      "ta": "3. அமைப்பு, நாடு, தேடல் கருவிகள், நிறுவிய ஆண்டு, ஒத்துழைப்பு ஆகிய தலைப்புகளில் GenBank, EMBL, DDBJ ஆகியவற்றை ஒப்பிடுக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Show Hint**"
+      "en": "**Show Hint**",
+      "ta": "**குறிப்பைக் காட்டு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Table format recommended. GenBank (NCBI/NIH, USA, 1982, Entrez/BLAST); EMBL/ENA (EBI/EMBL, UK, 1980, SRS/FASTA); DDBJ (NIG, Japan, 1986, Sakura/BLAST). All three are INSDC members — synchronised daily. EMBL is oldest; GenBank largest; DDBJ is Asian hub. Same accession number system. Data flow: submission → accession assigned → 24h global sync."
+      "en": "Table format recommended. GenBank (NCBI/NIH, USA, 1982, Entrez/BLAST); EMBL/ENA (EBI/EMBL, UK, 1980, SRS/FASTA); DDBJ (NIG, Japan, 1986, Sakura/BLAST). All three are INSDC members — synchronised daily. EMBL is oldest; GenBank largest; DDBJ is Asian hub. Same accession number system. Data flow: submission → accession assigned → 24h global sync.",
+      "ta": "அட்டவணை வடிவம் பரிந்துரைக்கப்படுகிறது. GenBank (NCBI/NIH, அமெரிக்கா, 1982, Entrez/BLAST); EMBL/ENA (EBI/EMBL, இங்கிலாந்து, 1980, SRS/FASTA); DDBJ (NIG, ஜப்பான், 1986, Sakura/BLAST). மூன்றும் INSDC உறுப்பினர்கள் — தினமும் ஒத்திசைக்கப்படுகின்றன. EMBL மிகப் பழையது; GenBank மிகப் பெரியது; DDBJ ஆசிய மையம். ஒரே அணுகல் எண் முறை. தரவுப் பாய்வு: சமர்ப்பிப்பு → அணுகல் எண் ஒதுக்கீடு → 24 மணி நேர உலகளாவிய ஒத்திசைவு.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "4. Explain the INSDC — International Nucleotide Sequence Database Collaboration. Why is it important for global science?"
+      "en": "4. Explain the INSDC — International Nucleotide Sequence Database Collaboration. Why is it important for global science?",
+      "ta": "4. INSDC — பன்னாட்டு நியுக்ளியோடைடு வரிசைத் தரவுத்தளக் கூட்டிணைவை — விளக்குக. உலக அறிவியலுக்கு இது ஏன் முக்கியம்?",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Show Hint**"
+      "en": "**Show Hint**",
+      "ta": "**குறிப்பைக் காட்டு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "INSDC = partnership between GenBank, EMBL, and DDBJ. Daily synchronisation — submitting to any one makes data available in all three within 24 hours. Importance: (1) no duplication of submission effort for researchers; (2) ensures global access to all sequences regardless of submission location; (3) prevents data siloing; (4) free and open — democratises molecular biology; (5) mandatory submission policies in journals ensure all sequence data becomes public. Mention data flow diagram: lab → submission → accession → sync → global access."
+      "en": "INSDC = partnership between GenBank, EMBL, and DDBJ. Daily synchronisation — submitting to any one makes data available in all three within 24 hours. Importance: (1) no duplication of submission effort for researchers; (2) ensures global access to all sequences regardless of submission location; (3) prevents data siloing; (4) free and open — democratises molecular biology; (5) mandatory submission policies in journals ensure all sequence data becomes public. Mention data flow diagram: lab → submission → accession → sync → global access.",
+      "ta": "INSDC = GenBank, EMBL, DDBJ ஆகியவற்றின் கூட்டாண்மை. தினசரி ஒத்திசைவு — ஏதேனும் ஒன்றுக்குச் சமர்ப்பித்தால் 24 மணி நேரத்துக்குள் மூன்றிலும் தரவு கிடைக்கும். முக்கியத்துவம்: (1) ஆய்வாளர்களுக்குச் சமர்ப்பிப்பு முயற்சி இரட்டிப்பாகாது; (2) சமர்ப்பித்த இடம் எதுவாயினும் அனைத்து வரிசைகளுக்கும் உலகளாவிய அணுகலை உறுதிசெய்கிறது; (3) தரவுத் தனிமைப்படுத்தலைத் தடுக்கிறது; (4) இலவசமும் திறந்ததும் — மூலக்கூறு உயிரியலை ஜனநாயகப்படுத்துகிறது; (5) இதழ்களின் கட்டாயச் சமர்ப்பிப்புக் கொள்கைகள் அனைத்து வரிசைத் தரவும் பொதுவில் கிடைப்பதை உறுதிசெய்கின்றன. தரவுப் பாய்வு விளக்கப்படத்தைக் குறிப்பிடுக: ஆய்வகம் → சமர்ப்பிப்பு → அணுகல் எண் → ஒத்திசைவு → உலகளாவிய அணுகல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "5. Discuss the applications of nucleotide sequence databases in research and medicine. Give examples."
+      "en": "5. Discuss the applications of nucleotide sequence databases in research and medicine. Give examples.",
+      "ta": "5. ஆராய்ச்சியிலும் மருத்துவத்திலும் நியுக்ளியோடைடு வரிசைத் தரவுத்தளங்களின் பயன்பாடுகளை எடுத்துக்காட்டுகளுடன் விவாதிக்க.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Show Hint**"
+      "en": "**Show Hint**",
+      "ta": "**குறிப்பைக் காட்டு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Eight applications: (1) gene identification — BLAST matches unknown sequences; (2) sequence comparison — BLAST across species; (3) evolutionary studies — phylogenetic trees from retrieved sequences; (4) disease research — mutation identification, pathogen genomes; (5) crop biotech — trait gene retrieval; (6) drug discovery — target sequence identification; (7) primer design — PCR and cloning; (8) pathogen surveillance — COVID-19 variant tracking. Mention BLAST (NCBI) as the tool that makes most of these possible."
+      "en": "Eight applications: (1) gene identification — BLAST matches unknown sequences; (2) sequence comparison — BLAST across species; (3) evolutionary studies — phylogenetic trees from retrieved sequences; (4) disease research — mutation identification, pathogen genomes; (5) crop biotech — trait gene retrieval; (6) drug discovery — target sequence identification; (7) primer design — PCR and cloning; (8) pathogen surveillance — COVID-19 variant tracking. Mention BLAST (NCBI) as the tool that makes most of these possible.",
+      "ta": "எட்டுப் பயன்பாடுகள்: (1) மரபணு அடையாளம் — BLAST அறியப்படாத வரிசைகளைப் பொருத்தும்; (2) வரிசை ஒப்பீடு — இனங்கள் முழுவதும் BLAST; (3) பரிணாம ஆய்வுகள் — பெறப்பட்ட வரிசைகளிலிருந்து பரிணாம மரங்கள்; (4) நோய் ஆய்வு — திடீர்மாற்ற அடையாளம், நோய்க்கிருமி மரபணுத்தொகைகள்; (5) பயிர் உயிரித் தொழில்நுட்பவியல் — பண்பு மரபணு மீட்பு; (6) மருந்து கண்டுபிடிப்பு — இலக்கு வரிசை அடையாளம்; (7) பிரைமர் வடிவமைப்பு — PCR, குளோனிங்; (8) நோய்க்கிருமிக் கண்காணிப்பு — COVID-19 மாறுபாடு கண்காணிப்பு. இவற்றில் பெரும்பாலானவற்றைச் சாத்தியமாக்கும் கருவியாக BLAST-ஐ (NCBI) குறிப்பிடுக.",
+      "ta_status": "draft"
      }
     }
    ]
