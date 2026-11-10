@@ -120,102 +120,167 @@
   "sa": [
    {
     "q": "Define biotechnology. Who coined the term?",
-    "a": "Biotechnology is the application of biological organisms, systems, or processes to make or modify products and processes for specific use (CBD, 1992). It integrates biology with technology to develop solutions for medicine, agriculture, industry, and environment. The term was coined by Hungarian engineer Károly Ereky in 1919."
+    "a": "Biotechnology is the application of biological organisms, systems, or processes to make or modify products and processes for specific use (CBD, 1992). It integrates biology with technology to develop solutions for medicine, agriculture, industry, and environment. The term was coined by Hungarian engineer Károly Ereky in 1919.",
+    "q_ta": "உயிரித் தொழில்நுட்பத்தை வரையறுக்க. இச்சொல்லை உருவாக்கியவர் யார்?",
+    "a_ta": "உயிரித் தொழில்நுட்பம் என்பது குறிப்பிட்ட பயன்பாட்டுக்கான பொருள்கள், செயல்முறைகளை உருவாக்க அல்லது மாற்ற உயிரினங்கள், உயிரியல் அமைப்புகள் அல்லது செயல்முறைகளைப் பயன்படுத்துதல் (CBD, 1992). மருத்துவம், வேளாண்மை, தொழில்துறை, சுற்றுச்சூழலுக்கான தீர்வுகளை உருவாக்க உயிரியலைத் தொழில்நுட்பத்துடன் இணைக்கிறது. இச்சொல்லை 1919-இல் ஹங்கேரியப் பொறியாளர் கரோலி எரெக்கி உருவாக்கினார்."
    },
    {
     "q": "Distinguish between Traditional and Modern Biotechnology with examples.",
-    "a": "Traditional biotechnology uses natural organisms without genetic manipulation for processes like fermentation (bread, wine, cheese, yoghurt) over thousands of years. Modern biotechnology (post-1953) employs recombinant DNA technology, PCR, CRISPR, and genetic engineering to precisely modify organisms. Examples: Traditional — beer brewing using yeast; Modern — production of human insulin using E. coli with inserted human insulin gene."
+    "a": "Traditional biotechnology uses natural organisms without genetic manipulation for processes like fermentation (bread, wine, cheese, yoghurt) over thousands of years. Modern biotechnology (post-1953) employs recombinant DNA technology, PCR, CRISPR, and genetic engineering to precisely modify organisms. Examples: Traditional — beer brewing using yeast; Modern — production of human insulin using E. coli with inserted human insulin gene.",
+    "q_ta": "மரபுவழி, நவீன உயிரித் தொழில்நுட்பங்களை எடுத்துக்காட்டுகளுடன் வேறுபடுத்துக.",
+    "a_ta": "மரபுவழி உயிரித் தொழில்நுட்பம் ஆயிரக்கணக்கான ஆண்டுகளாக நொதித்தல் (ரொட்டி, மது, பாலாடைக்கட்டி, தயிர்) போன்ற செயல்முறைகளுக்கு மரபணு மாற்றம் இல்லாமல் இயற்கை உயிரினங்களைப் பயன்படுத்துகிறது. நவீன உயிரித் தொழில்நுட்பம் (1953-க்குப் பிந்தையது) உயிரினங்களைத் துல்லியமாக மாற்ற மறுசேர்க்கை DNA தொழில்நுட்பம், PCR, CRISPR, மரபணுப் பொறியியலைப் பயன்படுத்துகிறது. எடுத்துக்காட்டுகள்: மரபுவழி — ஈஸ்ட் மூலம் பீர் காய்ச்சுதல்; நவீன — மனித இன்சுலின் மரபணு செருகப்பட்ட E. coli மூலம் மனித இன்சுலின் உற்பத்தி."
    },
    {
     "q": "What are restriction enzymes? Give their role in rDNA technology.",
-    "a": "Restriction endonucleases are bacterial enzymes that recognise and cut specific palindromic DNA sequences. They act as \"molecular scissors.\" In rDNA technology, restriction enzymes cut the desired gene from the donor DNA and also cut the vector (plasmid) at the same recognition sequence, creating compatible sticky ends that allow the gene to be inserted into the vector. Example: EcoRI cuts at 5′-GAATTC-3′ sequence. Werner Arber, Nathans & H. Smith won the Nobel Prize in 1978 for their discovery."
+    "a": "Restriction endonucleases are bacterial enzymes that recognise and cut specific palindromic DNA sequences. They act as \"molecular scissors.\" In rDNA technology, restriction enzymes cut the desired gene from the donor DNA and also cut the vector (plasmid) at the same recognition sequence, creating compatible sticky ends that allow the gene to be inserted into the vector. Example: EcoRI cuts at 5′-GAATTC-3′ sequence. Werner Arber, Nathans & H. Smith won the Nobel Prize in 1978 for their discovery.",
+    "q_ta": "கட்டுறு நொதிகள் என்றால் என்ன? rDNA தொழில்நுட்பத்தில் அவற்றின் பங்கைத் தருக.",
+    "a_ta": "கட்டுறு எண்டோநியுக்ளியேஸ்கள் குறிப்பிட்ட பாலிண்ட்ரோம் DNA வரிசைகளை அடையாளம் கண்டு வெட்டும் பாக்டீரிய நொதிகள். அவை 'மூலக்கூறுக் கத்தரிகளாகச்' செயல்படுகின்றன. rDNA தொழில்நுட்பத்தில் கட்டுறு நொதிகள் வழங்கி DNA-விலிருந்து தேவையான மரபணுவை வெட்டுகின்றன; அதே அடையாள வரிசையில் தாங்கிக்கடத்தியையும் (பிளாஸ்மிடு) வெட்டி, மரபணுவைத் தாங்கிக்கடத்தியில் செருக அனுமதிக்கும் இணக்கமான ஒட்டும் முனைகளை உருவாக்குகின்றன. எடுத்துக்காட்டு: EcoRI 5′-GAATTC-3′ வரிசையில் வெட்டுகிறது. வெர்னர் ஆர்பர், நாதன்ஸ், எச். ஸ்மித் ஆகியோர் இக்கண்டுபிடிப்புக்காக 1978-இல் நோபல் பரிசு பெற்றனர்."
    },
    {
     "q": "What is bioremediation? Name two microorganisms used in it.",
-    "a": "Bioremediation is the use of living organisms (mainly bacteria and fungi) to degrade, detoxify, or neutralise hazardous pollutants in the environment into harmless substances like CO₂ and H₂O. It is cost-effective, eco-friendly, and produces no secondary pollutants. Two microorganisms: (1) Pseudomonas putida — degrades petroleum hydrocarbons (oil spills); (2) Thiobacillus ferrooxidans — used in biomining to extract copper and gold from low-grade ores."
+    "a": "Bioremediation is the use of living organisms (mainly bacteria and fungi) to degrade, detoxify, or neutralise hazardous pollutants in the environment into harmless substances like CO₂ and H₂O. It is cost-effective, eco-friendly, and produces no secondary pollutants. Two microorganisms: (1) Pseudomonas putida — degrades petroleum hydrocarbons (oil spills); (2) Thiobacillus ferrooxidans — used in biomining to extract copper and gold from low-grade ores.",
+    "q_ta": "உயிரிவழி சீரமைப்பு என்றால் என்ன? அதில் பயன்படும் இரு நுண்ணுயிர்களைக் குறிப்பிடுக.",
+    "a_ta": "உயிரிவழி சீரமைப்பு என்பது சுற்றுச்சூழலிலுள்ள ஆபத்தான மாசுபாடுகளை CO₂, H₂O போன்ற தீங்கற்ற பொருள்களாகச் சிதைக்க, நச்சுநீக்க அல்லது நடுநிலையாக்க உயிருள்ள உயிரினங்களை (முக்கியமாகப் பாக்டீரியா, பூஞ்சை) பயன்படுத்துதல். இது செலவு குறைந்தது, சூழலுக்கு நட்பானது; இரண்டாம்நிலை மாசுபாடுகளை உருவாக்குவதில்லை. இரு நுண்ணுயிர்கள்: (1) Pseudomonas putida — பெட்ரோலிய ஹைட்ரோகார்பன்களைச் (எண்ணெய்க் கசிவுகள்) சிதைக்கிறது; (2) Thiobacillus ferrooxidans — தரம் குறைந்த தாதுக்களிலிருந்து செம்பு, தங்கத்தைப் பிரித்தெடுக்க உயிரிச் சுரங்கவியலில் பயன்படுகிறது."
    },
    {
     "q": "Explain the significance of Bt cotton in India.",
-    "a": "Bt cotton contains the cry gene from Bacillus thuringiensis which produces Bt toxin (Cry proteins). This toxin forms pores in the gut of bollworm larvae (Helicoverpa armigera) causing death, while being harmless to mammals. Approved in India in 2002, Bt cotton now covers over 95% of India's cotton acreage. Its significance: (a) Reduced pesticide use by ~50%; (b) Increased yield by 30–40%; (c) Reduced production costs for farmers; (d) Decreased pesticide-related health hazards. Concern: resistance development in pests over time requires refuge zones."
+    "a": "Bt cotton contains the cry gene from Bacillus thuringiensis which produces Bt toxin (Cry proteins). This toxin forms pores in the gut of bollworm larvae (Helicoverpa armigera) causing death, while being harmless to mammals. Approved in India in 2002, Bt cotton now covers over 95% of India's cotton acreage. Its significance: (a) Reduced pesticide use by ~50%; (b) Increased yield by 30–40%; (c) Reduced production costs for farmers; (d) Decreased pesticide-related health hazards. Concern: resistance development in pests over time requires refuge zones.",
+    "q_ta": "இந்தியாவில் Bt பருத்தியின் முக்கியத்துவத்தை விளக்குக.",
+    "a_ta": "Bt பருத்தி Bacillus thuringiensis-இலிருந்து பெறப்பட்ட cry மரபணுவைக் கொண்டுள்ளது; இது Bt நச்சை (Cry புரதங்கள்) உற்பத்தி செய்கிறது. இந்நச்சு காய்ப்புழுக்களின் (Helicoverpa armigera) குடலில் துளைகளை உருவாக்கி இறப்பை ஏற்படுத்துகிறது; பாலூட்டிகளுக்குத் தீங்கற்றது. 2002-இல் இந்தியாவில் அங்கீகரிக்கப்பட்ட Bt பருத்தி இப்போது இந்தியப் பருத்திப் பரப்பில் 95%-க்கும் மேல் உள்ளது. முக்கியத்துவம்: (அ) பூச்சிக்கொல்லிப் பயன்பாடு ~50% குறைவு; (ஆ) விளைச்சல் 30–40% அதிகரிப்பு; (இ) விவசாயிகளுக்கு உற்பத்திச் செலவு குறைவு; (ஈ) பூச்சிக்கொல்லி தொடர்பான உடல்நல ஆபத்துகள் குறைவு. கவலை: காலப்போக்கில் பூச்சிகளில் எதிர்ப்பு உருவாவதால் புகலிடப் பகுதிகள் தேவை."
    },
    {
     "q": "Write short notes on monoclonal antibodies and their applications.",
-    "a": "Monoclonal antibodies (MAbs) are identical antibodies produced by a single clone of B lymphocytes (hybridoma cells) and are highly specific to one antigen. Hybridoma technology was developed by Kohler & Milstein (1975), earning the Nobel Prize in 1984. Process: Immunise animal → B cells + myeloma cells → hybridoma → single clone → MAb. Applications: (1) Cancer therapy — Herceptin (breast cancer), Rituximab (lymphoma); (2) Autoimmune diseases — Adalimumab (Humira); (3) Transplant rejection prevention; (4) Diagnostics — pregnancy test kits, COVID-19 rapid tests, HIV tests; (5) Research — Western blot, ELISA, flow cytometry."
+    "a": "Monoclonal antibodies (MAbs) are identical antibodies produced by a single clone of B lymphocytes (hybridoma cells) and are highly specific to one antigen. Hybridoma technology was developed by Kohler & Milstein (1975), earning the Nobel Prize in 1984. Process: Immunise animal → B cells + myeloma cells → hybridoma → single clone → MAb. Applications: (1) Cancer therapy — Herceptin (breast cancer), Rituximab (lymphoma); (2) Autoimmune diseases — Adalimumab (Humira); (3) Transplant rejection prevention; (4) Diagnostics — pregnancy test kits, COVID-19 rapid tests, HIV tests; (5) Research — Western blot, ELISA, flow cytometry.",
+    "q_ta": "ஒற்றைக்குளோன் எதிர்ப்பொருட்களும் அவற்றின் பயன்பாடுகளும் பற்றிக் குறுங்குறிப்பு எழுதுக.",
+    "a_ta": "ஒற்றைக்குளோன் எதிர்ப்பொருட்கள் (MAbs) ஒரே B நிணநீர்ச் செல் குளோனால் (ஹைப்ரிடோமா செல்கள்) உற்பத்தி செய்யப்படும் ஒத்த எதிர்ப்பொருட்கள்; ஒரு எதிர்ப்பொருள் தூண்டிக்கு மிகவும் குறிப்பானவை. ஹைப்ரிடோமா தொழில்நுட்பத்தை கோலர், மில்ஸ்டீன் (1975) உருவாக்கி, 1984-இல் நோபல் பரிசு பெற்றனர். செயல்முறை: விலங்குக்குத் தடுப்பாற்றலூட்டுதல் → B செல்கள் + மைலோமா செல்கள் → ஹைப்ரிடோமா → ஒற்றைக் குளோன் → MAb. பயன்பாடுகள்: (1) புற்றுநோய் சிகிச்சை — ஹெர்செப்டின் (மார்பகப் புற்று), ரிட்டுக்ஸிமாப் (நிணநீர்ப் புற்று); (2) தன்னெதிர்ப்பு நோய்கள் — அடாலிமுமாப் (ஹியூமிரா); (3) உறுப்பு மாற்று நிராகரிப்புத் தடுப்பு; (4) நோய்கண்டறிதல் — கர்ப்ப சோதனைக் கருவிகள், கோவிட்-19 விரைவுச் சோதனைகள், HIV சோதனைகள்; (5) ஆராய்ச்சி — வெஸ்டர்ன் புளாட், ELISA, பாய்வு செல் அளவியல்."
    },
    {
     "q": "What is CRISPR-Cas9? Why is it considered a revolutionary tool?",
-    "a": "CRISPR-Cas9 (Clustered Regularly Interspaced Short Palindromic Repeats — CRISPR-associated protein 9) is a revolutionary genome editing technology derived from a bacterial immune defence system. A guide RNA (gRNA) directs the Cas9 nuclease to a specific target DNA sequence, where it makes a precise double-strand cut. The cell's repair mechanism can then introduce desired changes. It is revolutionary because: (a) Highly precise — single base editing possible; (b) Simple to design; (c) Fast and affordable compared to previous tools (ZFN, TALEN); (d) Works in any organism. Jennifer Doudna & Emmanuelle Charpentier received the Nobel Prize in Chemistry 2020."
+    "a": "CRISPR-Cas9 (Clustered Regularly Interspaced Short Palindromic Repeats — CRISPR-associated protein 9) is a revolutionary genome editing technology derived from a bacterial immune defence system. A guide RNA (gRNA) directs the Cas9 nuclease to a specific target DNA sequence, where it makes a precise double-strand cut. The cell's repair mechanism can then introduce desired changes. It is revolutionary because: (a) Highly precise — single base editing possible; (b) Simple to design; (c) Fast and affordable compared to previous tools (ZFN, TALEN); (d) Works in any organism. Jennifer Doudna & Emmanuelle Charpentier received the Nobel Prize in Chemistry 2020.",
+    "q_ta": "CRISPR-Cas9 என்றால் என்ன? இது ஏன் புரட்சிகரக் கருவியாகக் கருதப்படுகிறது?",
+    "a_ta": "CRISPR-Cas9 (Clustered Regularly Interspaced Short Palindromic Repeats — CRISPR-associated protein 9) பாக்டீரிய நோய்த்தடுப்பு அமைப்பிலிருந்து பெறப்பட்ட புரட்சிகர மரபணுத்தொகைத் திருத்தத் தொழில்நுட்பம். வழிகாட்டி RNA (gRNA) Cas9 நியுக்ளியேஸை குறிப்பிட்ட இலக்கு DNA வரிசைக்கு நடத்திச் செல்கிறது; அங்கு அது துல்லியமான இரட்டை இழை வெட்டை ஏற்படுத்துகிறது. செல்லின் பழுதுநீக்க வழிமுறை பின்னர் விரும்பிய மாற்றங்களை ஏற்படுத்தலாம். இது புரட்சிகரமானது ஏனெனில்: (அ) மிகத் துல்லியம் — ஒற்றைக் காரத் திருத்தமும் சாத்தியம்; (ஆ) வடிவமைக்க எளிது; (இ) முந்தைய கருவிகளுடன் (ZFN, TALEN) ஒப்பிடும்போது வேகமானது, குறைந்த செலவு; (ஈ) எந்த உயிரினத்திலும் செயல்படும். ஜெனிஃபர் டவுட்னா, இமானுவேல் சார்ப்பென்டியே 2020 வேதியியல் நோபல் பரிசைப் பெற்றனர்."
    },
    {
     "q": "Write the importance of biotechnology in healthcare.",
-    "a": "Biotechnology's role in healthcare includes: (1) Therapeutic proteins — Human insulin, growth hormone, clotting factors, erythropoietin produced via rDNA technology; (2) Vaccines — Hepatitis B vaccine (yeast), HPV vaccine, COVID-19 mRNA vaccine (Moderna, Pfizer); (3) Monoclonal antibodies — targeted cancer therapy, autoimmune disease treatment; (4) Gene therapy — correcting defective genes in SCID, haemophilia, β-thalassaemia; (5) Diagnostics — PCR (disease detection), ELISA (hormone levels, pregnancy), DNA fingerprinting (forensics); (6) Stem cell therapy — regenerating damaged tissues; (7) Pharmacogenomics — personalised drug treatment based on individual genetic profile."
+    "a": "Biotechnology's role in healthcare includes: (1) Therapeutic proteins — Human insulin, growth hormone, clotting factors, erythropoietin produced via rDNA technology; (2) Vaccines — Hepatitis B vaccine (yeast), HPV vaccine, COVID-19 mRNA vaccine (Moderna, Pfizer); (3) Monoclonal antibodies — targeted cancer therapy, autoimmune disease treatment; (4) Gene therapy — correcting defective genes in SCID, haemophilia, β-thalassaemia; (5) Diagnostics — PCR (disease detection), ELISA (hormone levels, pregnancy), DNA fingerprinting (forensics); (6) Stem cell therapy — regenerating damaged tissues; (7) Pharmacogenomics — personalised drug treatment based on individual genetic profile.",
+    "q_ta": "சுகாதாரத்தில் உயிரித் தொழில்நுட்பத்தின் முக்கியத்துவத்தை எழுதுக.",
+    "a_ta": "சுகாதாரத்தில் உயிரித் தொழில்நுட்பத்தின் பங்கு: (1) சிகிச்சைப் புரதங்கள் — மனித இன்சுலின், வளர்ச்சி இயக்குநீர், உறைதல் காரணிகள், எரித்ரோபொய்டின் ஆகியவை rDNA தொழில்நுட்பத்தால் உற்பத்தி செய்யப்படுகின்றன; (2) தடுப்பூசிகள் — ஹெப்பாடிட்டிஸ் B தடுப்பூசி (ஈஸ்ட்), HPV தடுப்பூசி, கோவிட்-19 mRNA தடுப்பூசி (மாடெர்னா, ஃபைசர்); (3) ஒற்றைக்குளோன் எதிர்ப்பொருட்கள் — இலக்கிடப்பட்ட புற்றுநோய் சிகிச்சை, தன்னெதிர்ப்பு நோய் சிகிச்சை; (4) மரபணு சிகிச்சை — SCID, ஹீமோஃபீலியா, β-தலசீமியாவில் குறைபாடுள்ள மரபணுக்களைத் திருத்துதல்; (5) நோய்கண்டறிதல் — PCR (நோய் கண்டறிதல்), ELISA (இயக்குநீர் அளவுகள், கர்ப்பம்), DNA கைரேகையியல் (தடயவியல்); (6) தண்டு செல் சிகிச்சை — சேதமடைந்த திசுக்களை மீளுருவாக்குதல்; (7) மருந்து மரபணுவியல் — தனிநபர் மரபணு வரைவின் அடிப்படையிலான தனிப்பயன் மருந்து சிகிச்சை."
    }
   ],
   "gl": [
    {
     "t": "Biotechnology",
-    "d": "The application of biological organisms, systems, or processes to develop products and processes for specific uses in medicine, agriculture, industry, and the environment. Coined by Károly Ereky (1919)."
+    "d": "The application of biological organisms, systems, or processes to develop products and processes for specific uses in medicine, agriculture, industry, and the environment. Coined by Károly Ereky (1919).",
+    "t_ta": "உயிரித் தொழில்நுட்பம்",
+    "d_ta": "மருத்துவம், வேளாண்மை, தொழில்துறை, சுற்றுச்சூழலில் குறிப்பிட்ட பயன்பாடுகளுக்கான பொருள்களையும் செயல்முறைகளையும் உருவாக்க உயிரினங்கள், உயிரியல் அமைப்புகள் அல்லது செயல்முறைகளைப் பயன்படுத்துதல். கரோலி எரெக்கியால் (1919) உருவாக்கப்பட்ட சொல்."
    },
    {
     "t": "Recombinant DNA (rDNA)",
-    "d": "A hybrid DNA molecule formed by combining DNA sequences from two different organisms using restriction enzymes and DNA ligase. The foundation of modern genetic engineering."
+    "d": "A hybrid DNA molecule formed by combining DNA sequences from two different organisms using restriction enzymes and DNA ligase. The foundation of modern genetic engineering.",
+    "t_ta": "மறுசேர்க்கை DNA (rDNA)",
+    "d_ta": "கட்டுறு நொதிகள், DNA லைகேஸைப் பயன்படுத்தி இரு வெவ்வேறு உயிரினங்களின் DNA வரிசைகளை இணைத்து உருவாக்கப்படும் கலப்பின DNA மூலக்கூறு. நவீன மரபணுப் பொறியியலின் அடித்தளம்."
    },
    {
     "t": "Restriction Endonuclease",
-    "d": "A bacterial enzyme that cuts double-stranded DNA at specific palindromic recognition sequences. Acts as \"molecular scissors\" in rDNA technology. Example: EcoRI, BamHI."
+    "d": "A bacterial enzyme that cuts double-stranded DNA at specific palindromic recognition sequences. Acts as \"molecular scissors\" in rDNA technology. Example: EcoRI, BamHI.",
+    "t_ta": "கட்டுறு எண்டோநியுக்ளியேஸ்",
+    "d_ta": "குறிப்பிட்ட பாலிண்ட்ரோம் அடையாள வரிசைகளில் இரட்டை இழை DNA-வை வெட்டும் பாக்டீரிய நொதி. rDNA தொழில்நுட்பத்தில் 'மூலக்கூறுக் கத்தரி'. எ.கா.: EcoRI, BamHI."
    },
    {
     "t": "Plasmid",
-    "d": "A small, circular, extra-chromosomal DNA molecule in bacteria that replicates independently. Used as a vector (vehicle) to carry and express foreign genes in host organisms."
+    "d": "A small, circular, extra-chromosomal DNA molecule in bacteria that replicates independently. Used as a vector (vehicle) to carry and express foreign genes in host organisms.",
+    "t_ta": "பிளாஸ்மிடு",
+    "d_ta": "பாக்டீரியாவிலுள்ள, தனித்துப் பெருகும் சிறிய, வட்ட, நிறமூர்த்தத்துக்கு வெளியிலான DNA மூலக்கூறு. விருந்தோம்பி உயிரினங்களில் அயல் மரபணுக்களைச் சுமக்கவும் வெளிப்படுத்தவும் தாங்கிக்கடத்தியாக (ஊர்தியாக) பயன்படுகிறது."
    },
    {
     "t": "PCR (Polymerase Chain Reaction)",
-    "d": "A technique for amplifying specific DNA sequences in vitro using thermal cycling (denaturation → annealing → extension). Uses Taq polymerase. Invented by Kary Mullis (1983)."
+    "d": "A technique for amplifying specific DNA sequences in vitro using thermal cycling (denaturation → annealing → extension). Uses Taq polymerase. Invented by Kary Mullis (1983).",
+    "t_ta": "PCR (பாலிமெரேஸ் தொடர் வினை)",
+    "d_ta": "வெப்பச் சுழற்சி (இயல்பிழத்தல் → இணைதல் → நீட்சி) மூலம் குறிப்பிட்ட DNA வரிசைகளை இன் விட்ரோ-வில் பெருக்கும் நுட்பம். Taq பாலிமெரேஸைப் பயன்படுத்துகிறது. கேரி முல்லிஸால் (1983) கண்டுபிடிக்கப்பட்டது."
    },
    {
     "t": "GMO (Genetically Modified Organism)",
-    "d": "An organism whose genome has been altered using genetic engineering techniques, introducing genes from another species. Examples: Bt cotton, Golden Rice, recombinant E. coli."
+    "d": "An organism whose genome has been altered using genetic engineering techniques, introducing genes from another species. Examples: Bt cotton, Golden Rice, recombinant E. coli.",
+    "t_ta": "GMO (மரபணு மாற்றப்பட்ட உயிரினம்)",
+    "d_ta": "மரபணுப் பொறியியல் நுட்பங்களால் மரபணுத்தொகை மாற்றப்பட்ட, மற்றொரு இனத்திலிருந்து மரபணுக்கள் செலுத்தப்பட்ட உயிரினம். எடுத்துக்காட்டுகள்: Bt பருத்தி, கோல்டன் ரைஸ், மறுசேர்க்கை E. coli."
    },
    {
     "t": "Monoclonal Antibodies (MAbs)",
-    "d": "Highly specific antibodies produced by a single clone of hybridoma cells, all identical and targeting one specific antigen. Used in cancer therapy, diagnostics, and immunotherapy."
+    "d": "Highly specific antibodies produced by a single clone of hybridoma cells, all identical and targeting one specific antigen. Used in cancer therapy, diagnostics, and immunotherapy.",
+    "t_ta": "ஒற்றைக்குளோன் எதிர்ப்பொருட்கள் (MAbs)",
+    "d_ta": "ஒரே ஹைப்ரிடோமா செல் குளோனால் உற்பத்தி செய்யப்படும், அனைத்தும் ஒத்த, ஒரு குறிப்பிட்ட எதிர்ப்பொருள் தூண்டியை இலக்கிடும் மிகக் குறிப்பான எதிர்ப்பொருட்கள். புற்றுநோய் சிகிச்சை, நோய்கண்டறிதல், நோயெதிர்ப்புச் சிகிச்சையில் பயன்படுகின்றன."
    },
    {
     "t": "Gene Therapy",
-    "d": "A therapeutic approach involving introduction, alteration, or replacement of a defective gene in a patient's cells to treat inherited or acquired diseases (e.g., SCID, haemophilia)."
+    "d": "A therapeutic approach involving introduction, alteration, or replacement of a defective gene in a patient's cells to treat inherited or acquired diseases (e.g., SCID, haemophilia).",
+    "t_ta": "மரபணு சிகிச்சை",
+    "d_ta": "மரபுவழி அல்லது பெறப்பட்ட நோய்களைக் (எ.கா. SCID, ஹீமோஃபீலியா) குணப்படுத்த நோயாளியின் செல்களில் குறைபாடுள்ள மரபணுவைச் செலுத்துதல், மாற்றுதல் அல்லது பதிலீடு செய்தல் ஆகியவற்றை உள்ளடக்கிய சிகிச்சை அணுகுமுறை."
    },
    {
     "t": "Bioremediation",
-    "d": "The use of microorganisms or plants to degrade, neutralise, or transform pollutants in contaminated soil, water, or air into harmless substances. Eco-friendly and cost-effective clean-up technology."
+    "d": "The use of microorganisms or plants to degrade, neutralise, or transform pollutants in contaminated soil, water, or air into harmless substances. Eco-friendly and cost-effective clean-up technology.",
+    "t_ta": "உயிரிவழி சீரமைப்பு",
+    "d_ta": "மாசடைந்த மண், நீர், காற்றிலுள்ள மாசுபாடுகளைத் தீங்கற்ற பொருள்களாகச் சிதைக்க, நடுநிலையாக்க அல்லது மாற்ற நுண்ணுயிர்கள், தாவரங்களைப் பயன்படுத்துதல். சூழலுக்கு நட்பான, செலவு குறைந்த தூய்மையாக்கத் தொழில்நுட்பம்."
    },
    {
     "t": "Cloning Vector",
-    "d": "A DNA molecule (plasmid, phage, BAC) used as a vehicle to carry a foreign gene into a host cell where it can be replicated and expressed. Must have ori, MCS, selectable marker."
+    "d": "A DNA molecule (plasmid, phage, BAC) used as a vehicle to carry a foreign gene into a host cell where it can be replicated and expressed. Must have ori, MCS, selectable marker.",
+    "t_ta": "குளோனிங் தாங்கிக்கடத்தி",
+    "d_ta": "அயல் மரபணுவை விருந்தோம்பி செல்லுக்குள் கொண்டுசென்று, அங்கு பெருக்கவும் வெளிப்படுத்தவும் உதவும் ஊர்தியாகப் பயன்படும் DNA மூலக்கூறு (பிளாஸ்மிடு, ஃபாஜ், BAC). ori, MCS, தேர்வுக் குறிப்பான் இருக்க வேண்டும்."
    },
    {
     "t": "CRISPR-Cas9",
-    "d": "A bacterial-derived genome editing system using guide RNA to direct Cas9 nuclease to precise DNA locations for targeted cuts. Revolutionary for gene therapy, crop improvement, and research. Nobel 2020."
+    "d": "A bacterial-derived genome editing system using guide RNA to direct Cas9 nuclease to precise DNA locations for targeted cuts. Revolutionary for gene therapy, crop improvement, and research. Nobel 2020.",
+    "t_ta": "CRISPR-Cas9",
+    "d_ta": "வழிகாட்டி RNA மூலம் Cas9 நியுக்ளியேஸைத் துல்லியமான DNA இடங்களுக்கு நடத்தி இலக்கிடப்பட்ட வெட்டுகளை ஏற்படுத்தும், பாக்டீரியாவிலிருந்து பெறப்பட்ட மரபணுத்தொகைத் திருத்த அமைப்பு. மரபணு சிகிச்சை, பயிர் மேம்பாடு, ஆராய்ச்சியில் புரட்சிகரமானது. நோபல் 2020."
    },
    {
     "t": "Fermentation",
-    "d": "Microbial anaerobic breakdown of organic compounds (sugars) to produce energy, alcohol, acids, or gases. Used industrially to produce ethanol, antibiotics, vitamins, enzymes, and dairy products."
+    "d": "Microbial anaerobic breakdown of organic compounds (sugars) to produce energy, alcohol, acids, or gases. Used industrially to produce ethanol, antibiotics, vitamins, enzymes, and dairy products.",
+    "t_ta": "நொதித்தல்",
+    "d_ta": "ஆற்றல், ஆல்கஹால், அமிலங்கள் அல்லது வாயுக்களை உருவாக்க கரிமச் சேர்மங்களை (சர்க்கரைகள்) நுண்ணுயிர்கள் காற்றின்றி உடைத்தல். எத்தனால், நுண்ணுயிர்க்கொல்லிகள், வைட்டமின்கள், நொதிகள், பால் பொருள்களைத் தொழில்துறையில் உற்பத்தி செய்யப் பயன்படுகிறது."
    },
    {
     "t": "Totipotency",
-    "d": "The ability of a single plant cell to regenerate a complete organism because it contains the entire genetic information. The fundamental principle underlying plant tissue culture (Haberlandt, 1902)."
+    "d": "The ability of a single plant cell to regenerate a complete organism because it contains the entire genetic information. The fundamental principle underlying plant tissue culture (Haberlandt, 1902).",
+    "t_ta": "முழுத்திறன்",
+    "d_ta": "ஒரு தாவரச் செல்லில் முழு மரபுத் தகவலும் இருப்பதால், அது முழு உயிரினத்தையும் மீளுருவாக்கும் திறன். தாவரத் திசு வளர்ப்பின் அடிப்படைக் கோட்பாடு (ஹேபர்லேண்ட், 1902)."
    },
    {
     "t": "Bioreactor",
-    "d": "A controlled vessel providing optimal conditions (temperature, pH, O₂, agitation) for large-scale microbial cultivation to produce industrial products like enzymes, antibiotics, or biofuels."
+    "d": "A controlled vessel providing optimal conditions (temperature, pH, O₂, agitation) for large-scale microbial cultivation to produce industrial products like enzymes, antibiotics, or biofuels.",
+    "t_ta": "உயிர்வினைக்கலன்",
+    "d_ta": "நொதிகள், நுண்ணுயிர்க்கொல்லிகள், உயிரி எரிபொருள்கள் போன்ற தொழில்துறைப் பொருள்களை உற்பத்தி செய்ய, பெரிய அளவில் நுண்ணுயிர் வளர்ப்புக்கு உகந்த நிலைகளை (வெப்பநிலை, pH, O₂, கலக்குதல்) வழங்கும் கட்டுப்படுத்தப்பட்ட கலன்."
    },
    {
     "t": "Transgenic Organism",
-    "d": "An organism that carries a foreign gene (transgene) from another species in its genome. The transgene is heritable and expressed in all cells. Examples: Transgenic mice, Bt cotton, Dolly (cloned)."
+    "d": "An organism that carries a foreign gene (transgene) from another species in its genome. The transgene is heritable and expressed in all cells. Examples: Transgenic mice, Bt cotton, Dolly (cloned).",
+    "t_ta": "மரபணுமாற்ற உயிரினம்",
+    "d_ta": "வேறோர் இனத்திலிருந்து அயல் மரபணுவை (மாற்றுமரபணு) தன் மரபணுத்தொகையில் கொண்டுள்ள உயிரினம். மாற்றுமரபணு பரம்பரையாகக் கடத்தப்பட்டு அனைத்துச் செல்களிலும் வெளிப்படும். எடுத்துக்காட்டுகள்: மாற்றுமரபணு எலிகள், Bt பருத்தி, டாலி (குளோன் செய்யப்பட்டது)."
    },
    {
     "t": "Stem Cells",
-    "d": "Undifferentiated cells capable of self-renewal and differentiation into any cell type. Embryonic stem cells (pluripotent) and adult stem cells have therapeutic applications in regenerative medicine."
+    "d": "Undifferentiated cells capable of self-renewal and differentiation into any cell type. Embryonic stem cells (pluripotent) and adult stem cells have therapeutic applications in regenerative medicine.",
+    "t_ta": "தண்டு செல்கள்",
+    "d_ta": "தன்புதுப்பித்தலும் எந்த செல் வகையாகவும் வேறுபாடடையும் திறனும் கொண்ட வேறுபாடடையாத செல்கள். கருநிலைத் தண்டு செல்களும் (புளூரிபொட்டென்ட்) முதிர் தண்டு செல்களும் மீளுருவாக்க மருத்துவத்தில் சிகிச்சைப் பயன்பாடுகளைக் கொண்டுள்ளன."
    }
+  ],
+  "title_ta": "உயிரித் தொழில்நுட்பத்தின் அடிப்படைகள் — வரையறை, நோக்கெல்லை, முக்கியத்துவம்",
+  "kp_ta": [
+   "உயிரித் தொழில்நுட்பம் என்பது குறிப்பிட்ட பயன்பாட்டுக்கான பொருள்களை உருவாக்க அல்லது செயல்முறைகளை மாற்ற உயிரினங்கள், உயிரியல் அமைப்புகள் அல்லது செயல்முறைகளைப் பயன்படுத்துதல் (UN CBD வரையறை, 1992).",
+   "உயிரித் தொழில்நுட்பம் (Biotechnology) என்ற சொல்லை 1919-இல் ஹங்கேரியப் பொறியாளர் கரோலி எரெக்கி உருவாக்கினார்.",
+   "மரபுவழி உயிரித் தொழில்நுட்பத்தில் நொதித்தல் (ரொட்டி, மது, பீர், பாலாடைக்கட்டி) அடங்கும். நவீன உயிரித் தொழில்நுட்பத்தில் rDNA தொழில்நுட்பம், PCR, CRISPR அடங்கும் — 1953-க்குப் பிந்தைய காலம்.",
+   "பிரிவுகள்: சிவப்பு (மருத்துவம்), பச்சை (வேளாண்மை), வெள்ளை (தொழில்துறை), நீலம் (கடல்சார்), மஞ்சள் (உணவு), சாம்பல் (சுற்றுச்சூழல்) உயிரித் தொழில்நுட்பம்.",
+   "rDNA தொழில்நுட்பக் கருவிகள்: கட்டுறு எண்டோநியுக்ளியேஸ்கள் (கத்தரி), DNA லைகேஸ் (பசை), பிளாஸ்மிடுகள் (தாங்கிக்கடத்திகள்), E. coli (விருந்தோம்பி) — முதன்முதலில் கோஹன், பாயரால் 1973-இல் நிரூபிக்கப்பட்டது.",
+   "வணிக ரீதியாக உற்பத்தி செய்யப்பட்ட முதல் மறுசேர்க்கைப் புரதம்: மனித இன்சுலின் (ஹியூமுலின்), E. coli மூலம், எலி லில்லி, ஜெனென்டெக் நிறுவனங்களால், 1982-இல்.",
+   "PCR — கேரி முல்லிஸால் (1983, நோபல் 1993) கண்டுபிடிக்கப்பட்டது. வெப்பச் சுழற்சி மூலம் குறிப்பிட்ட DNA-வை இன் விட்ரோ-வில் பெருக்குகிறது; நொதி: Thermus aquaticus-இலிருந்து பெற்ற Taq பாலிமெரேஸ்.",
+   "Bt பருத்தி Bacillus thuringiensis-இலிருந்து பெறப்பட்ட cry மரபணுவைக் கொண்டுள்ளது; காய்ப்புழுவைக் கொல்லும் Bt நச்சை உற்பத்தி செய்கிறது. இந்தியாவில் 2002-இல் அங்கீகரிக்கப்பட்டது; பருத்திப் பரப்பில் >95%-ஐ உள்ளடக்குகிறது.",
+   "கோல்டன் ரைஸ் — psy, crtI மரபணுக்களைப் பயன்படுத்தி β-கரோட்டினால் (புரோ-வைட்டமின் A) உயிர்ச்செறிவூட்டப்பட்டது. வைட்டமின் A குறைபாட்டை எதிர்கொள்ள போட்ரைகஸ், பெயர் (1999) உருவாக்கினர்.",
+   "ஒற்றைக்குளோன் எதிர்ப்பொருட்கள் — ஹைப்ரிடோமா தொழில்நுட்பத்தால் உற்பத்தி செய்யப்படுகின்றன (கோலர், மில்ஸ்டீன், 1975; நோபல் 1984). ஒற்றைக்குளோன் B செல்கள் + மைலோமா செல்கள் → ஹைப்ரிடோமா → MAb.",
+   "டாலி செம்மறியாடு (1996) — முதிர் உடல் செல்லிலிருந்து இயன் வில்மட்டால் குளோன் செய்யப்பட்ட முதல் பாலூட்டி. உடல் செல் உட்கரு மாற்றம் (SCNT) வேறுபாடடைந்த செல்களை மறுநிரலாக்க முடியும் என நிரூபித்தது.",
+   "CRISPR-Cas9 — பாக்டீரிய நோய்த்தடுப்பு அமைப்பிலிருந்து பெறப்பட்ட மரபணுத்தொகைத் திருத்தக் கருவி; வழிகாட்டி RNA, Cas9 நியுக்ளியேஸை இலக்கை நோக்கி நடத்துகிறது. 2020 நோபல் பரிசு ஜெனிஃபர் டவுட்னா, இமானுவேல் சார்ப்பென்டியேவுக்கு.",
+   "உயிரிவழி சீரமைப்பு — மாசுபாடுகளைச் சிதைக்க நுண்ணுயிர்களைப் பயன்படுத்துதல். Pseudomonas putida (சக்ரவர்த்தியால், 1980-இல் முதல் GMO காப்புரிமை) பெட்ரோலிய ஹைட்ரோகார்பன்களைச் சிதைக்கிறது.",
+   "முழுத்திறன் — ஒவ்வொரு தாவரச் செல்லும் முழு உயிரினத்தையும் மீளுருவாக்க முடியும் (ஹேபர்லேண்ட், 1902). தாவரத் திசு வளர்ப்பின் அடிப்படை — நுண்பெருக்கம், உடல் செல் கலப்பினமாக்கல்."
   ]
  },
  "blotting_techniques.html": {
@@ -234,78 +299,125 @@
   "sa": [
    {
     "q": "What is blotting? Name the three types.",
-    "a": "Blotting is the transfer of electrophoretically separated DNA, RNA or protein from a gel to a membrane, followed by detection with a labelled probe. The three types are Southern (DNA), Northern (RNA) and Western (protein)."
+    "a": "Blotting is the transfer of electrophoretically separated DNA, RNA or protein from a gel to a membrane, followed by detection with a labelled probe. The three types are Southern (DNA), Northern (RNA) and Western (protein).",
+    "q_ta": "புளாட்டிங் என்றால் என்ன? அதன் மூன்று வகைகளைக் குறிப்பிடுக.",
+    "a_ta": "புளாட்டிங் என்பது மின்னொட்டத்தால் பிரிக்கப்பட்ட DNA, RNA அல்லது புரதத்தை ஜெல்லிலிருந்து சவ்வுக்கு மாற்றி, அடையாளமிடப்பட்ட துருவியால் கண்டறிதல். மூன்று வகைகள்: சதர்ன் (DNA), நார்தர்ன் (RNA), வெஸ்டர்ன் (புரதம்)."
    },
    {
     "q": "Describe the steps of Southern blotting.",
-    "a": "Restriction digestion of DNA → agarose gel electrophoresis → depurination and alkali denaturation → capillary transfer to nitrocellulose/nylon membrane → fixation by UV or baking → prehybridisation (blocking) → hybridisation with labelled probe → washing → autoradiographic detection."
+    "a": "Restriction digestion of DNA → agarose gel electrophoresis → depurination and alkali denaturation → capillary transfer to nitrocellulose/nylon membrane → fixation by UV or baking → prehybridisation (blocking) → hybridisation with labelled probe → washing → autoradiographic detection.",
+    "q_ta": "சதர்ன் புளாட்டிங்கின் படிகளை விவரிக்க.",
+    "a_ta": "DNA-வின் கட்டுறு நொதிச் செரிமானம் → அகரோஸ் ஜெல் மின்னொட்டம் → பியூரின் நீக்கமும் கார இயல்பிழப்பும் → நைட்ரோசெல்லுலோஸ்/நைலான் சவ்வுக்கு நுண்புழை மாற்றம் → UV அல்லது சுடுதலால் நிலைநிறுத்தம் → முன்-கலப்பினமாக்கல் (அடைத்தல்) → அடையாளமிடப்பட்ட துருவியுடன் கலப்பினமாக்கல் → கழுவுதல் → தன்படமெடுத்தல் மூலம் கண்டறிதல்."
    },
    {
     "q": "How does Northern blotting differ from Southern blotting?",
-    "a": "Northern detects RNA; the gel is denaturing (formaldehyde), alkali is not used because it hydrolyses RNA, and RNase-free conditions are essential. It shows transcript size and level of expression."
+    "a": "Northern detects RNA; the gel is denaturing (formaldehyde), alkali is not used because it hydrolyses RNA, and RNase-free conditions are essential. It shows transcript size and level of expression.",
+    "q_ta": "நார்தர்ன் புளாட்டிங் சதர்ன் புளாட்டிங்கிலிருந்து எவ்வாறு வேறுபடுகிறது?",
+    "a_ta": "நார்தர்ன் RNA-வைக் கண்டறிகிறது; ஜெல் இயல்பிழக்கச் செய்வது (ஃபார்மால்டிஹைடு); RNA-வை நீராற்பகுப்பதால் காரம் பயன்படுத்தப்படுவதில்லை; RNase அற்ற நிலைகள் இன்றியமையாதவை. இது படியெடுப்பின் அளவையும் வெளிப்பாட்டு மட்டத்தையும் காட்டுகிறது."
    },
    {
     "q": "Explain the principle of Western blotting.",
-    "a": "Proteins separated by SDS-PAGE are electroblotted onto a membrane, blocked, and probed with a specific primary antibody. An enzyme-linked secondary antibody binds the primary antibody and generates a visible or chemiluminescent signal at the position of the target protein."
+    "a": "Proteins separated by SDS-PAGE are electroblotted onto a membrane, blocked, and probed with a specific primary antibody. An enzyme-linked secondary antibody binds the primary antibody and generates a visible or chemiluminescent signal at the position of the target protein.",
+    "q_ta": "வெஸ்டர்ன் புளாட்டிங்கின் தத்துவத்தை விளக்குக.",
+    "a_ta": "SDS-PAGE மூலம் பிரிக்கப்பட்ட புரதங்கள் சவ்வின் மீது மின்புளாட் செய்யப்பட்டு, அடைக்கப்பட்டு, குறிப்பிட்ட முதல்நிலை எதிர்ப்பொருளால் சோதிக்கப்படுகின்றன. நொதி இணைந்த இரண்டாம்நிலை எதிர்ப்பொருள் முதல்நிலை எதிர்ப்பொருளுடன் பிணைந்து, இலக்குப் புரதத்தின் இடத்தில் கண்ணுக்குத் தெரியும் அல்லது வேதி-ஒளிர்வு சமிக்ஞையை உருவாக்குகிறது."
    },
    {
     "q": "What is stringency in hybridisation?",
-    "a": "Stringency is the strictness of conditions that determine how closely a probe must match its target to remain bound. High temperature and low salt give high stringency and fewer false positives."
+    "a": "Stringency is the strictness of conditions that determine how closely a probe must match its target to remain bound. High temperature and low salt give high stringency and fewer false positives.",
+    "q_ta": "கலப்பினமாக்கலில் கடுமைத்தன்மை என்றால் என்ன?",
+    "a_ta": "கடுமைத்தன்மை என்பது, துருவி பிணைந்தே இருக்க அது தன் இலக்குடன் எவ்வளவு நெருக்கமாகப் பொருந்த வேண்டும் என்பதை நிர்ணயிக்கும் நிலைகளின் கண்டிப்பு. உயர் வெப்பநிலையும் குறைந்த உப்புச் செறிவும் உயர் கடுமைத்தன்மையையும் குறைவான பொய்யான நேர்மறைகளையும் தருகின்றன."
    },
    {
     "q": "Write two applications of Western blotting.",
-    "a": "(1) Confirmatory test for HIV infection; (2) confirming expression and size of a recombinant protein in a host cell."
+    "a": "(1) Confirmatory test for HIV infection; (2) confirming expression and size of a recombinant protein in a host cell.",
+    "q_ta": "வெஸ்டர்ன் புளாட்டிங்கின் இரு பயன்பாடுகளை எழுதுக.",
+    "a_ta": "(1) HIV தொற்றுக்கான உறுதிப்படுத்தும் சோதனை; (2) விருந்தோம்பி செல்லில் மறுசேர்க்கைப் புரதத்தின் வெளிப்பாட்டையும் அளவையும் உறுதிப்படுத்துதல்."
    }
   ],
   "gl": [
    {
     "t": "Blotting",
-    "d": "Transfer of separated biomolecules from a gel to a membrane for detection."
+    "d": "Transfer of separated biomolecules from a gel to a membrane for detection.",
+    "t_ta": "புளாட்டிங்",
+    "d_ta": "பிரிக்கப்பட்ட உயிர்மூலக்கூறுகளைக் கண்டறிவதற்காக ஜெல்லிலிருந்து சவ்வுக்கு மாற்றுதல்."
    },
    {
     "t": "Probe",
-    "d": "A labelled single-stranded nucleic acid (or antibody) that binds a specific target."
+    "d": "A labelled single-stranded nucleic acid (or antibody) that binds a specific target.",
+    "t_ta": "துருவி",
+    "d_ta": "குறிப்பிட்ட இலக்குடன் பிணையும், அடையாளமிடப்பட்ட ஒற்றை இழை நியுக்ளிக் அமிலம் (அல்லது எதிர்ப்பொருள்)."
    },
    {
     "t": "Hybridisation",
-    "d": "Base pairing between a probe and its complementary target sequence."
+    "d": "Base pairing between a probe and its complementary target sequence.",
+    "t_ta": "கலப்பினமாக்கல்",
+    "d_ta": "துருவிக்கும் அதன் நிரப்பு இலக்கு வரிசைக்கும் இடையேயான காரச்சோடி இணைவு."
    },
    {
     "t": "Stringency",
-    "d": "How demanding the washing/hybridisation conditions are; high stringency requires near-perfect matches."
+    "d": "How demanding the washing/hybridisation conditions are; high stringency requires near-perfect matches.",
+    "t_ta": "கடுமைத்தன்மை",
+    "d_ta": "கழுவுதல்/கலப்பினமாக்கல் நிலைகள் எவ்வளவு கண்டிப்பானவை; உயர் கடுமைத்தன்மைக்கு ஏறத்தாழ முழுமையான பொருத்தம் தேவை."
    },
    {
     "t": "Capillary transfer",
-    "d": "Moving molecules from gel to membrane by buffer drawn up through absorbent paper."
+    "d": "Moving molecules from gel to membrane by buffer drawn up through absorbent paper.",
+    "t_ta": "நுண்புழை மாற்றம்",
+    "d_ta": "உறிஞ்சு தாள் வழியே தாங்கல் மேலே இழுக்கப்படுவதால் மூலக்கூறுகளை ஜெல்லிலிருந்து சவ்வுக்கு நகர்த்துதல்."
    },
    {
     "t": "Electroblotting",
-    "d": "Transfer of proteins out of a gel to a membrane using an electric field."
+    "d": "Transfer of proteins out of a gel to a membrane using an electric field.",
+    "t_ta": "மின்புளாட்டிங்",
+    "d_ta": "மின்புலத்தைப் பயன்படுத்தி புரதங்களை ஜெல்லிலிருந்து சவ்வுக்கு மாற்றுதல்."
    },
    {
     "t": "Blocking agent",
-    "d": "Protein or DNA solution (milk, BSA, Denhardt's) that covers free membrane sites."
+    "d": "Protein or DNA solution (milk, BSA, Denhardt's) that covers free membrane sites.",
+    "t_ta": "அடைக்கும் காரணி",
+    "d_ta": "சவ்வின் காலி இடங்களை மூடும் புரதம் அல்லது DNA கரைசல் (பால், BSA, டென்ஹார்ட்)."
    },
    {
     "t": "Primary antibody",
-    "d": "Antibody that recognises the target protein."
+    "d": "Antibody that recognises the target protein.",
+    "t_ta": "முதல்நிலை எதிர்ப்பொருள்",
+    "d_ta": "இலக்குப் புரதத்தை அடையாளம் காணும் எதிர்ப்பொருள்."
    },
    {
     "t": "Secondary antibody",
-    "d": "Enzyme-conjugated antibody that recognises the primary antibody."
+    "d": "Enzyme-conjugated antibody that recognises the primary antibody.",
+    "t_ta": "இரண்டாம்நிலை எதிர்ப்பொருள்",
+    "d_ta": "முதல்நிலை எதிர்ப்பொருளை அடையாளம் காணும், நொதி இணைந்த எதிர்ப்பொருள்."
    },
    {
     "t": "Autoradiography",
-    "d": "Detection of radioactive signal using X-ray film."
+    "d": "Detection of radioactive signal using X-ray film.",
+    "t_ta": "தன்படமெடுத்தல்",
+    "d_ta": "X-கதிர்ப் படலத்தைப் பயன்படுத்திக் கதிரியக்கச் சமிக்ஞையைக் கண்டறிதல்."
    },
    {
     "t": "PVDF",
-    "d": "Polyvinylidene difluoride: a membrane that binds proteins strongly."
+    "d": "Polyvinylidene difluoride: a membrane that binds proteins strongly.",
+    "t_ta": "PVDF",
+    "d_ta": "பாலிவினைலிடீன் டைஃப்ளூரைடு: புரதங்களை வலுவாகப் பிணைக்கும் சவ்வு."
    },
    {
     "t": "Housekeeping gene",
-    "d": "A constitutively expressed gene (e.g. GAPDH) used as a loading control."
+    "d": "A constitutively expressed gene (e.g. GAPDH) used as a loading control.",
+    "t_ta": "வீட்டுப் பராமரிப்பு மரபணு",
+    "d_ta": "ஏற்றுக் கட்டுப்பாடாகப் பயன்படும், தொடர்ந்து வெளிப்படும் மரபணு (எ.கா. GAPDH)."
    }
+  ],
+  "title_ta": "புளாட்டிங் நுட்பங்கள்",
+  "kp_ta": [
+   "சதர்ன் புளாட் (E. M. சதர்ன், 1975) → DNA; நார்தர்ன் → RNA; வெஸ்டர்ன் → புரதம்.",
+   "ஜெல்லிலிருந்து சவ்வுக்கு மாற்றுவது பட்டை அமைப்பைப் பேணுகிறது; பின்னர் துருவிகள் இலக்கைக் கண்டறிகின்றன.",
+   "சதர்ன், நார்தர்ன் புளாட்கள் நியுக்ளிக் அமிலக் கலப்பினமாக்கலைச் சார்ந்தவை; வெஸ்டர்ன் எதிர்ப்பொருள் தூண்டி–எதிர்ப்பொருள் பிணைப்பைச் சார்ந்தது.",
+   "சதர்ன்: DNA காரத்தால் இயல்பிழக்கச் செய்யப்படுகிறது. நார்தர்ன்: ஃபார்மால்டிஹைடு ஜெல், காரம் இல்லை, RNase அற்றது.",
+   "சவ்வுகள்: நியுக்ளிக் அமிலங்களுக்கு நைலான்/நைட்ரோசெல்லுலோஸ்; புரதங்களுக்கு நைட்ரோசெல்லுலோஸ்/PVDF.",
+   "மாற்றம்: நுண்புழை (சதர்ன்/நார்தர்ன்) – மின்புளாட்டிங் (வெஸ்டர்ன்).",
+   "அடைத்தல் பின்புலத்தைக் குறைக்கிறது; உயர் வெப்பநிலையும் குறைந்த உப்புச் செறிவும் கடுமைத்தன்மையை உயர்த்துகின்றன.",
+   "பயன்கள்: மாற்றுமரபணு உறுதிப்படுத்தல், RFLP, DNA கைரேகையியல் (சதர்ன்); மரபணு வெளிப்பாடு (நார்தர்ன்); HIV உறுதிப்படுத்தல், மறுசேர்க்கைப் புரதம் (வெஸ்டர்ன்)."
   ]
  },
  "crispr_gene_editing_app.html": {
