@@ -1185,7 +1185,7 @@
        },
        {
         "en": "Co-dominant",
-        "ta": "இணை ஆட்சி",
+        "ta": "இணை ஓங்கு",
         "ta_status": "draft"
        },
        {
@@ -1207,7 +1207,7 @@
        },
        {
         "en": "Dominant",
-        "ta": "ஆட்சி",
+        "ta": "ஓங்கு",
         "ta_status": "draft"
        },
        {
@@ -1229,7 +1229,7 @@
        },
        {
         "en": "Dominant",
-        "ta": "ஆட்சி",
+        "ta": "ஓங்கு",
         "ta_status": "draft"
        },
        {
@@ -1251,7 +1251,7 @@
        },
        {
         "en": "Co-dominant",
-        "ta": "இணை ஆட்சி",
+        "ta": "இணை ஓங்கு",
         "ta_status": "draft"
        },
        {
@@ -1273,7 +1273,7 @@
        },
        {
         "en": "Co-dominant",
-        "ta": "இணை ஆட்சி",
+        "ta": "இணை ஓங்கு",
         "ta_status": "draft"
        },
        {
@@ -1481,7 +1481,7 @@
      "type": "p",
      "text": {
       "en": "RFLP (co-dominant), RAPD (dominant), STR fingerprinting (forensics).",
-      "ta": "RFLP (இணை ஆட்சி), RAPD (ஆட்சி), STR கைரேகைப் பதிவு (தடயவியல்).",
+      "ta": "RFLP (இணை ஓங்கு), RAPD (ஓங்கு), STR கைரேகைப் பதிவு (தடயவியல்).",
       "ta_status": "draft"
      }
     },
@@ -1609,7 +1609,7 @@
      "type": "p",
      "text": {
       "en": "RFLP detects fragment-length differences using restriction enzymes and a probe (co-dominant, reproducible). RAPD uses random primers in PCR (dominant, quick, less reproducible).",
-      "ta": "RFLP கட்டுப்பாட்டு நொதிகளையும் துருவியையும் கொண்டு துண்டு நீள வேறுபாடுகளைக் கண்டறியும் (இணை ஆட்சி, மீளுருவாக்கத்தக்கது). RAPD PCR-இல் தன்னிச்சைப் பிரைமர்களைப் பயன்படுத்தும் (ஆட்சி, விரைவு, குறைந்த மீளுருவாக்கத்திறன்).",
+      "ta": "RFLP கட்டுப்பாட்டு நொதிகளையும் துருவியையும் கொண்டு துண்டு நீள வேறுபாடுகளைக் கண்டறியும் (இணை ஓங்கு, மீளுருவாக்கத்தக்கது). RAPD PCR-இல் தன்னிச்சைப் பிரைமர்களைப் பயன்படுத்தும் (ஓங்கு, விரைவு, குறைந்த மீளுருவாக்கத்திறன்).",
       "ta_status": "draft"
      }
     }
