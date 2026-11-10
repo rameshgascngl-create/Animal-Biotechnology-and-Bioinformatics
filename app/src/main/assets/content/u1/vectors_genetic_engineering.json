@@ -1,0 +1,1609 @@
+{
+ "id": "vectors_genetic_engineering",
+ "unit": "I",
+ "title": {
+  "en": "Vectors in Genetic Engineering"
+ },
+ "sections": [
+  {
+   "id": "s01",
+   "title": {
+    "en": "Overview"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "B.Sc. Zoology / Biotechnology"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "title": {
+    "en": "Vectors in Genetic Engineering"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Plasmid Types · pBR322 · Ti Plasmid · Lambda Phage · M13 Phage"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A comprehensive interactive learning resource covering cloning vectors, their characteristic features, and their roles in modern recombinant DNA technology."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🎯 Learning Objectives**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Define vectors and explain their importance in recombinant DNA technology."
+      },
+      {
+       "en": "Describe the general characteristics and types of plasmids."
+      },
+      {
+       "en": "List the characteristic features of an ideal cloning vector."
+      },
+      {
+       "en": "Explain pBR322 and Ti plasmid as plasmid vectors with their features."
+      },
+      {
+       "en": "Describe Lambda phage and M13 phage as bacteriophage vectors."
+      },
+      {
+       "en": "Compare different vectors using their features, insert capacity, and applications."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": {
+    "en": "Introduction to Vectors in Genetic Engineering"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Definition of a Vector**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A vector is a DNA molecule used as a vehicle to carry and transfer a foreign DNA fragment into a host cell, where it can be replicated and/or expressed. The word \"vector\" literally means \"carrier.\""
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Importance in Recombinant DNA Technology**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Vectors are indispensable tools in genetic engineering because a foreign gene fragment by itself cannot survive or replicate inside a host cell. It must be **linked to a vector** that carries the necessary signals for replication, selection, and expression."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Core Functions of a Vector:**\nCarries the gene of interest into a host cell → Enables autonomous replication → Provides selectable markers to identify successful transformants → May facilitate expression of the cloned gene."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**General Role in Transfer and Replication of Foreign DNA**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "The foreign gene is cut with a restriction enzyme and **ligated into the vector**."
+      },
+      {
+       "en": "The resulting **recombinant vector** is introduced into a host cell (e.g., _E. coli_)."
+      },
+      {
+       "en": "Inside the host, the vector replicates using its own **origin of replication (ori)**, producing many copies of the foreign gene."
+      },
+      {
+       "en": "Cells carrying the recombinant vector are identified using **selectable markers** such as antibiotic resistance genes."
+      }
+     ]
+    }
+   ],
+   "icon": "🧬",
+   "label": "Section 1"
+  },
+  {
+   "id": "s04",
+   "title": {
+    "en": "Plasmids"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Definition**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Plasmids are **small, circular, double-stranded, extrachromosomal DNA molecules** found naturally in bacteria (and some yeasts and archaea). They replicate independently of the bacterial chromosome using their own origin of replication."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**General Characteristics**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Size:** Typically 1 to 200 kilobase pairs (kb), much smaller than the chromosome."
+      },
+      {
+       "en": "**Shape:** Circular double-stranded DNA, usually supercoiled."
+      },
+      {
+       "en": "**Replication:** Autonomous replication; independent of the host chromosome."
+      },
+      {
+       "en": "**Dispensable:** Not essential for the host's survival under normal conditions."
+      },
+      {
+       "en": "**Transmissible:** Many plasmids can be transferred between bacteria by conjugation."
+      },
+      {
+       "en": "**Copy number:** Present in multiple copies per cell (from 1 to >100 copies, depending on the type)."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Natural Occurrence in Bacteria**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Plasmids are found naturally in a wide variety of bacteria, including _Escherichia coli_, _Agrobacterium tumefaciens_, _Staphylococcus aureus_, and many others. They often carry genes that provide selective advantages, such as antibiotic resistance or the ability to metabolize unusual compounds."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Importance in Biotechnology**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Widely used as **cloning vectors** due to their small size and easy manipulation."
+      },
+      {
+       "en": "Can carry and replicate foreign DNA fragments in bacterial hosts."
+      },
+      {
+       "en": "Selectable markers on plasmids allow **identification of transformed cells**."
+      },
+      {
+       "en": "Form the basis for expression vectors used to produce **recombinant proteins** (e.g., insulin, growth hormone)."
+      }
+     ]
+    }
+   ],
+   "icon": "⭕",
+   "label": "Section 2"
+  },
+  {
+   "id": "s05",
+   "title": {
+    "en": "Types of Plasmids"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Plasmids are classified based on the genes they carry and the functions they confer:"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fertility (F) Plasmids Carry tra (transfer) genes that enable conjugation and plasmid transfer between bacteria. The host cell becomes a donor (F⁺). Example: F plasmid of _E. coli_."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Resistance (R) Plasmids Carry genes for resistance to one or more antibiotics or heavy metals. Major cause of multi-drug resistance in pathogens. Example: pBR322 (carries amp and tet resistance genes)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Col Plasmids Carry genes encoding colicins — bacteriocins (toxic proteins) that kill other bacteria lacking the same plasmid. Example: ColE1 plasmid of _E. coli_."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Degradative Plasmids Carry genes encoding enzymes for breakdown of unusual organic compounds such as toluene, camphor, and salicylate. Example: TOL plasmid of _Pseudomonas putida_."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Virulence Plasmids Carry genes that enable bacteria to infect and cause disease in host organisms. Example: Ti plasmid of _Agrobacterium tumefaciens_ (causes crown gall disease in plants)."
+     }
+    }
+   ],
+   "icon": "🗂️",
+   "label": "Section 3"
+  },
+  {
+   "id": "s06",
+   "title": {
+    "en": "Characteristic Features of an Ideal Vector"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "An ideal cloning vector should possess the following essential characteristics:"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Origin of Replication (ori)"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A specific DNA sequence where replication begins. Allows the vector to replicate autonomously inside the host cell, independent of the host chromosome."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Selectable Marker Genes"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Genes (e.g., antibiotic resistance genes) that allow identification and selection of transformed host cells carrying the recombinant vector."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Unique Restriction Sites / MCS"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A multiple cloning site (MCS) or polylinker with multiple unique restriction enzyme sites for convenient insertion of foreign DNA fragments."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Small Size"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Small vectors are easier to introduce into host cells (transformation efficiency), manipulate in the lab, and less likely to be degraded inside the host."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "High Copy Number"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Producing many copies per host cell ensures an abundant supply of the cloned DNA for analysis, sequencing, and expression studies."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Stability Inside Host"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The vector must be stably maintained inside the host cell and not be lost or degraded during cell division across multiple generations."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Easy Isolation"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The vector (and its recombinant form) must be easily isolated from host cell lysates and purified using standard laboratory procedures."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Memory Aid (ORSSCSE):** _O_rigin of replication, _R_estriction sites, _S_electable markers, _S_mall size, _C_opy number high, _S_tability, _E_asy isolation."
+     }
+    }
+   ],
+   "icon": "⭐",
+   "label": "Section 4"
+  },
+  {
+   "id": "s07",
+   "title": {
+    "en": "Plasmid Vectors"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**A. pBR322 — The Classic Cloning Vector**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**pBR322** is one of the most widely used and historically important E. coli plasmid cloning vectors. It was constructed in 1977 by Bolivar, Rodriguez, and colleagues (hence the name — _p_ for plasmid, _BR_ for Bolivar and Rodriguez, and _322_ as the strain number)."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "warn",
+     "text": {
+      "en": "**Key Properties at a Glance:**\nSize: 4,361 bp | Host: _E. coli_ | Copy number: ~15–20 copies per cell | Two antibiotic resistance markers"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Important Features of pBR322**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Origin of replication (ori):** Derived from pMB1 (a ColE1-type replicon); enables autonomous replication in _E. coli_."
+      },
+      {
+       "en": "**Ampicillin resistance gene (ampr):** Confers resistance to ampicillin; used to select transformed cells."
+      },
+      {
+       "en": "**Tetracycline resistance gene (tetr):** Confers resistance to tetracycline; used for insertional inactivation screening."
+      },
+      {
+       "en": "**Multiple restriction sites:** Contains unique sites for EcoRI, HindIII, BamHI, SalI, ClaI, PstI, and others within or near the resistance genes."
+      },
+      {
+       "en": "**Small size:** At 4,361 bp, it is easily isolated and transformed into _E. coli_."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Insertional Inactivation — Cloning Strategy**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "If a foreign DNA fragment is inserted into the **BamHI or SalI site** (within the _tetr_ gene), the tetracycline resistance gene is disrupted. Transformed cells can be screened:"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Cells on ampicillin medium → grow (carry the vector)"
+      },
+      {
+       "en": "Same cells on tetracycline medium → do NOT grow (tetr disrupted by insert = recombinant)"
+      },
+      {
+       "en": "This strategy is called **insertional inactivation**."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Insertion into the **PstI site** (within ampr) disrupts ampicillin resistance instead. Recombinants will be amp-sensitive but tet-resistant."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**B. Ti Plasmid — The Plant Engineer**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The **Ti plasmid** (Tumour-inducing plasmid) is a naturally occurring virulence plasmid found in _Agrobacterium tumefaciens_, a gram-negative soil bacterium that causes **crown gall disease** in dicotyledonous plants."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Structure and Key Regions**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**T-DNA (Transfer DNA):** A ~25 kb segment of the Ti plasmid that is transferred and stably integrated into the plant nuclear genome. Contains _onc_ genes (for opine synthesis and tumour formation)."
+      },
+      {
+       "en": "**vir region:** ~35 kb of virulence genes (_virA, virB, virC, virD, virE, virG_) that mediate T-DNA transfer into the plant cell."
+      },
+      {
+       "en": "**ori region:** Origin of replication for maintenance in _Agrobacterium_."
+      },
+      {
+       "en": "**Opine catabolism genes:** Enable _Agrobacterium_ to metabolize opines (amino acid-sugar compounds) produced by the infected plant."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Use in Plant Genetic Engineering**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "To use the Ti plasmid as a vector, the tumour-causing genes in T-DNA are **disarmed** (removed) and replaced with the gene of interest. The modified Ti plasmid (called a **binary vector system**) is used to deliver foreign genes into plant cells, where they integrate into the plant genome and are stably inherited."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Key Significance:** The Ti plasmid is the most important vector system for creating **transgenic plants** — including herbicide-resistant, pest-resistant, and nutritionally enhanced crop plants (e.g., Golden Rice)."
+     }
+    }
+   ],
+   "icon": "🔵",
+   "label": "Section 5"
+  },
+  {
+   "id": "s08",
+   "title": {
+    "en": "Bacteriophage Vectors"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**A. Lambda (λ) Phage — The Genomic Library Builder**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Lambda phage** (bacteriophage λ) is a temperate bacteriophage that infects _E. coli_. It was one of the earliest and most powerful cloning vectors developed for genetic engineering."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Structure and Basic Properties**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Genome:** Linear double-stranded DNA, approximately 48.5 kb in length."
+      },
+      {
+       "en": "**Sticky ends:** Twelve-nucleotide single-stranded cos sites (complementary overhangs) at each end; these allow the linear DNA to circularize inside the host."
+      },
+      {
+       "en": "**Two life cycles:** Lytic cycle (replication and cell lysis) and lysogenic cycle (integration into host chromosome as a prophage)."
+      },
+      {
+       "en": "**Structure:** Icosahedral head (containing the DNA), a tail, and tail fibers for host recognition."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Use as a Cloning Vector**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The central one-third of lambda's genome (~15 kb, containing non-essential genes for lysogeny) can be **replaced by foreign DNA**. Two types of lambda vectors are used:"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Insertion vectors:** Foreign DNA is inserted at a single restriction site. Accommodate up to ~8 kb of insert."
+      },
+      {
+       "en": "**Replacement vectors:** The non-essential \"stuffer\" fragment is replaced by foreign DNA. Accommodate up to ~20–23 kb of insert."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "warn",
+     "text": {
+      "en": "**Insert capacity:** Up to 23 kb (replacement vectors) | **Key advantage:** Much larger insert capacity than plasmids (typically <10 kb)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Importance in Gene Libraries**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Lambda phage vectors are ideal for constructing **genomic DNA libraries** because they can accommodate large inserts. The recombinant phage particles are packaged in vitro and can infect _E. coli_ cells with very high efficiency (10⁸–10⁹ plaques per microgram DNA)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**B. M13 Phage — The Sequencing Vector**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**M13** is a filamentous bacteriophage that specifically infects male (F⁺) strains of _E. coli_ via the F pilus. It is uniquely suited for applications requiring single-stranded DNA."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Structure and Basic Properties**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Genome:** Circular, single-stranded DNA (ssDNA), approximately 6,407 nucleotides."
+      },
+      {
+       "en": "**Shape:** Filamentous (rod-shaped, ~900 nm long × 6 nm wide) — not icosahedral."
+      },
+      {
+       "en": "**Non-lytic:** M13 does not lyse its host; phage particles are continuously secreted through the cell membrane, allowing the host to survive."
+      },
+      {
+       "en": "**Replication:** Replicates as double-stranded replicative form (RF) inside the host; but packages single-stranded DNA into phage particles."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Use in Cloning and DNA Sequencing**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "The RF (double-stranded) form can be manipulated like a plasmid — cut with restriction enzymes and ligated with insert DNA."
+      },
+      {
+       "en": "After replication, **single-stranded DNA** is packaged into phage particles, providing a ready source of ssDNA for **Sanger DNA sequencing**."
+      },
+      {
+       "en": "Single-stranded DNA is also used as a template for **site-directed mutagenesis**."
+      },
+      {
+       "en": "Insert capacity is limited (up to ~1.5 kb for stable maintenance), but the **biological production of ssDNA** makes M13 uniquely valuable."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Key Significance:** M13-based vectors (mp series, e.g., M13mp18, M13mp19) were essential for the development of **chain-termination (Sanger) DNA sequencing** and **phage display technology**."
+     }
+    }
+   ],
+   "icon": "🦠",
+   "label": "Section 6"
+  },
+  {
+   "id": "s09",
+   "title": {
+    "en": "Labeled Biological Diagrams"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "All diagrams are drawn using inline SVG — fully scalable, offline, and academically labeled."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 1 — pBR322 Plasmid Vector (4,361 bp)"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "vectors_genetic_engineering-d01",
+     "caption": {
+      "en": "pBR322 plasmid diagram"
+     },
+     "labels": [
+      "pBR322",
+      "4,361 bp",
+      "ori",
+      "(replication origin)",
+      "amp",
+      "r",
+      "Ampicillin",
+      "resistance",
+      "tet",
+      "r",
+      "Tetracycline",
+      "resistance",
+      "EcoRI",
+      "BamHI",
+      "SalI / ClaI",
+      "HindIII",
+      "PstI",
+      "amp",
+      "r",
+      "gene",
+      "tet",
+      "r",
+      "gene",
+      "Restriction sites",
+      "Origin of replication"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 2 — Ti Plasmid of _Agrobacterium tumefaciens_ (~200 kb)"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "vectors_genetic_engineering-d02",
+     "caption": {
+      "en": "Ti plasmid diagram"
+     },
+     "labels": [
+      "Ti Plasmid",
+      "Agrobacterium",
+      "tumefaciens",
+      "~200 kb",
+      "T-DNA",
+      "Transfer DNA",
+      "~25 kb; integrates",
+      "into plant genome",
+      "Right Border (RB)",
+      "Left Border (LB)",
+      "vir genes",
+      "virA,B,C,D,E,G",
+      "~35 kb; mediate",
+      "T-DNA transfer",
+      "ori",
+      "Replication",
+      "origin",
+      "Opine catabolism",
+      "Metabolizes opines",
+      "produced by plant",
+      "onc genes",
+      "(tumour formation)"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 3 — Lambda (λ) Phage Structure and Genome Organization (~48.5 kb)"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "vectors_genetic_engineering-d03",
+     "caption": {
+      "en": "Lambda phage diagram"
+     },
+     "labels": [
+      "dsDNA",
+      "Icosahedral Head",
+      "(contains linear dsDNA)",
+      "Neck / Connector",
+      "Tail Tube",
+      "(protein sheath)",
+      "Baseplate",
+      "Tail Fibers",
+      "(host recognition)",
+      "cos sites",
+      "(12-nt sticky ends)",
+      "Linear Genome Map (48.5 kb)",
+      "cos",
+      "cos",
+      "Head & Tail Genes (0–22 kb)",
+      "Non-essential (\"stuffer\")",
+      "22–38 kb (replaceable)",
+      "Lysogeny & Reg. Genes",
+      "0 kb",
+      "22 kb",
+      "38 kb",
+      "48.5 kb",
+      "↑ Foreign DNA inserted here ↑"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 4 — M13 Filamentous Phage Structure and Circular ssDNA Genome"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "vectors_genetic_engineering-d04",
+     "caption": {
+      "en": "M13 phage diagram"
+     },
+     "labels": [
+      "pIII / pVI",
+      "pVII / pIX",
+      "~900 nm length",
+      "~6 nm wide",
+      "Tip proteins",
+      "(pIII: host attachment)",
+      "Major coat protein",
+      "pVIII (~2700 copies)",
+      "ssDNA genome",
+      "(circular, ~6.4 kb)",
+      "M13 Circular ssDNA Genome (~6.4 kb)",
+      "MCS / lacZ",
+      "(cloning site)",
+      "M13",
+      "ssDNA",
+      "6,407 nt",
+      "Gene III & VI",
+      "Minor coat / host attachment",
+      "Gene VIII",
+      "Major coat protein",
+      "Gene V",
+      "ssDNA-binding protein",
+      "Gene II (replication)",
+      "Gene VIII (major coat)"
+     ]
+    }
+   ],
+   "icon": "🖼️",
+   "label": "Section 7 — Diagrams"
+  },
+  {
+   "id": "s10",
+   "title": {
+    "en": "How a Vector Carries a Foreign Gene into a Host Cell"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Click each step to reveal details."
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "1 🧬 Isolate Foreign Gene The gene of interest is obtained from the source organism's genomic DNA or synthesized as cDNA from mRNA. It is cut with a specific restriction enzyme to produce compatible ends."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "2 ✂️ Cut Vector with Same RE The cloning vector (e.g., pBR322) is linearized using the same restriction enzyme as used on the insert, creating compatible sticky or blunt ends for ligation."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "3 🔗 Recombinant Vector Forms DNA ligase (T4 DNA ligase) joins the insert DNA to the vector by sealing the compatible ends, forming a circular recombinant DNA molecule (rDNA)."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "4 🧫 Introduce into Host Cell The recombinant vector is introduced into a host cell (e.g., E. coli) by transformation (for plasmids) or transduction (for phage vectors). The cell takes up the vector and is now \"transformed.\""
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "5 📋 Replication & Expression Inside the host, the vector replicates via its ori, producing many copies of the foreign gene. The gene may be expressed to produce a recombinant protein. Transformed cells are selected using antibiotic markers."
+      }
+     ]
+    }
+   ],
+   "icon": "🔄",
+   "label": "Section 8 — Visual Flow"
+  },
+  {
+   "id": "s11",
+   "title": {
+    "en": "Interactive Learning"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Expand Each Vector to Review Key Points**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔵 pBR322 — Features Summary**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Plasmid Vector"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Size: **4,361 bp** | Host: _E. coli_ | Copy number: 15–20"
+      },
+      {
+       "en": "Two resistance markers: **ampr** and **tetr**"
+      },
+      {
+       "en": "Contains unique sites for **EcoRI, HindIII, BamHI, SalI, ClaI, PstI**"
+      },
+      {
+       "en": "Cloning into BamHI or SalI disrupts _tetr_ → **insertional inactivation**"
+      },
+      {
+       "en": "Recombinants: ampr, tets | Non-recombinants: ampr, tetr"
+      },
+      {
+       "en": "ori from pMB1 (ColE1-type replicon)"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Exam tip:** Know the exact bp size (4,361), the names of both resistance genes, and the principle of insertional inactivation."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🌱 Ti Plasmid — Features Summary**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Plant Transformation Vector"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "From: _Agrobacterium tumefaciens_ | Size: ~200 kb"
+      },
+      {
+       "en": "Causes **crown gall disease** in dicots via T-DNA integration"
+      },
+      {
+       "en": "**T-DNA** (~25 kb): integrates into plant nuclear genome; contains onc and opine synthesis genes"
+      },
+      {
+       "en": "**vir region** (~35 kb): virA, B, C, D, E, G — mediate T-DNA excision and transfer"
+      },
+      {
+       "en": "For cloning: T-DNA is **disarmed** (tumour genes removed); gene of interest inserted"
+      },
+      {
+       "en": "Used in **binary vector systems** for creating transgenic plants"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Exam tip:** Know T-DNA borders (LB and RB), vir gene function, and \"disarming\" concept."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔴 Lambda (λ) Phage — Features Summary**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Bacteriophage Vector"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Genome: **linear dsDNA, ~48.5 kb** | Host: _E. coli_"
+      },
+      {
+       "en": "**cos sites**: 12-nt single-stranded sticky ends at both ends of the linear genome"
+      },
+      {
+       "en": "Non-essential (stuffer) region (~15 kb, 22–38 kb) can be **replaced by foreign DNA**"
+      },
+      {
+       "en": "Insert capacity: up to **23 kb** (replacement vectors)"
+      },
+      {
+       "en": "Packaged in vitro into phage heads; infects _E. coli_ at very high efficiency"
+      },
+      {
+       "en": "Ideal for **genomic DNA library construction**"
+      },
+      {
+       "en": "EMBL3, EMBL4, λgt10, λgt11 are commonly used lambda vectors"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "warn",
+     "text": {
+      "en": "**Exam tip:** Know the cos sites, insert capacity (23 kb), and the concept of the stuffer fragment."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🟢 M13 Phage — Features Summary**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Bacteriophage Vector"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Genome: **circular ssDNA, ~6,407 nt** | Host: F⁺ _E. coli_ strains"
+      },
+      {
+       "en": "Filamentous structure: ~900 nm long, ~6 nm wide"
+      },
+      {
+       "en": "**Non-lytic**: secreted through membrane; host survives"
+      },
+      {
+       "en": "Replicates via **double-stranded RF** inside the host; packages ssDNA into particles"
+      },
+      {
+       "en": "Insert capacity: ~1.5 kb (for stable maintenance)"
+      },
+      {
+       "en": "Used for: **Sanger DNA sequencing**, site-directed mutagenesis, phage display"
+      },
+      {
+       "en": "mp series (M13mp18, M13mp19) have **lacZ gene with MCS** for blue-white selection"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Exam tip:** M13 is the ONLY vector providing single-stranded DNA for Sanger sequencing. Know its filamentous structure and non-lytic nature."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Click-to-Reveal: Key Terms**"
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Origin of Replication"
+     },
+     "answer": {
+      "en": "A specific DNA sequence (ori) where DNA replication begins. Allows the vector to replicate autonomously in the host cell, independent of the host chromosome."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Selectable Marker"
+     },
+     "answer": {
+      "en": "A gene (e.g., antibiotic resistance) on the vector that allows selection of transformed cells on selective media. Only cells with the vector survive."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Insertional Inactivation"
+     },
+     "answer": {
+      "en": "A cloning strategy where inserting foreign DNA into a restriction site within a selectable marker gene (e.g., tetr in pBR322) disrupts marker function — used to identify recombinant clones."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "T-DNA"
+     },
+     "answer": {
+      "en": "Transfer DNA — the 25 kb region of the Ti plasmid that is transferred from Agrobacterium and stably integrated into the plant nuclear genome. Flanked by Left Border (LB) and Right Border (RB) sequences."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "cos Sites"
+     },
+     "answer": {
+      "en": "Twelve-nucleotide single-stranded cohesive ends at both termini of the linear lambda phage genome. Allow circularization inside the host and are required for in vitro phage packaging."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Stuffer Fragment"
+     },
+     "answer": {
+      "en": "The non-essential central region (~15 kb) of the lambda phage genome that can be removed and replaced by foreign DNA in lambda replacement vectors. Allows up to 23 kb of insert."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Replicative Form (RF)"
+     },
+     "answer": {
+      "en": "The double-stranded circular form of the M13 phage genome that forms inside the host cell during replication. Can be manipulated like a plasmid for cloning."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Binary Vector System"
+     },
+     "answer": {
+      "en": "A plant transformation system using two separate plasmids: a disarmed Ti plasmid (providing vir genes in trans) and a small binary vector (carrying the foreign gene flanked by T-DNA borders)."
+     }
+    }
+   ],
+   "icon": "🎮",
+   "label": "Section 9 — Interactive"
+  },
+  {
+   "id": "s12",
+   "title": {
+    "en": "Comparison of Major Cloning Vectors"
+   },
+   "blocks": [
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Feature"
+      },
+      {
+       "en": "pBR322"
+      },
+      {
+       "en": "Ti Plasmid"
+      },
+      {
+       "en": "Lambda (λ) Phage"
+      },
+      {
+       "en": "M13 Phage"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Type**"
+       },
+       {
+        "en": "Plasmid vector"
+       },
+       {
+        "en": "Plasmid / plant vector"
+       },
+       {
+        "en": "Bacteriophage vector"
+       },
+       {
+        "en": "Bacteriophage vector"
+       }
+      ],
+      [
+       {
+        "en": "**Source organism**"
+       },
+       {
+        "en": "Constructed from _E. coli_ plasmids"
+       },
+       {
+        "en": "_Agrobacterium tumefaciens_"
+       },
+       {
+        "en": "Bacteriophage (natural)"
+       },
+       {
+        "en": "Filamentous phage (natural)"
+       }
+      ],
+      [
+       {
+        "en": "**Nucleic acid type**"
+       },
+       {
+        "en": "Circular dsDNA"
+       },
+       {
+        "en": "Circular dsDNA"
+       },
+       {
+        "en": "Linear dsDNA"
+       },
+       {
+        "en": "Circular ssDNA"
+       }
+      ],
+      [
+       {
+        "en": "**Size**"
+       },
+       {
+        "en": "4,361 bp"
+       },
+       {
+        "en": "~200 kb"
+       },
+       {
+        "en": "48.5 kb"
+       },
+       {
+        "en": "~6.4 kb"
+       }
+      ],
+      [
+       {
+        "en": "**Insert capacity**"
+       },
+       {
+        "en": "Up to ~8 kb"
+       },
+       {
+        "en": "Up to ~40 kb (T-DNA)"
+       },
+       {
+        "en": "Up to ~23 kb"
+       },
+       {
+        "en": "~1.5 kb (stable)"
+       }
+      ],
+      [
+       {
+        "en": "**Host**"
+       },
+       {
+        "en": "_E. coli_"
+       },
+       {
+        "en": "Dicotyledonous plants"
+       },
+       {
+        "en": "_E. coli_"
+       },
+       {
+        "en": "F⁺ _E. coli_"
+       }
+      ],
+      [
+       {
+        "en": "**Selectable markers**"
+       },
+       {
+        "en": "ampr, tetr"
+       },
+       {
+        "en": "Opine synthesis genes; kanamycin (modified)"
+       },
+       {
+        "en": "Lytic plaques; amber mutations"
+       },
+       {
+        "en": "lacZ (blue-white screening)"
+       }
+      ],
+      [
+       {
+        "en": "**Copy number**"
+       },
+       {
+        "en": "~15–20 per cell"
+       },
+       {
+        "en": "1–5 per cell"
+       },
+       {
+        "en": "High (lytic replication)"
+       },
+       {
+        "en": "High (continuous secretion)"
+       }
+      ],
+      [
+       {
+        "en": "**Key feature**"
+       },
+       {
+        "en": "Insertional inactivation; easy to use"
+       },
+       {
+        "en": "T-DNA integrates into plant genome"
+       },
+       {
+        "en": "Large insert capacity; high infection efficiency"
+       },
+       {
+        "en": "Provides single-stranded DNA"
+       }
+      ],
+      [
+       {
+        "en": "**Main applications**"
+       },
+       {
+        "en": "Routine gene cloning; _E. coli_ expression"
+       },
+       {
+        "en": "Transgenic plant production"
+       },
+       {
+        "en": "Genomic libraries; expression cloning"
+       },
+       {
+        "en": "DNA sequencing; site-directed mutagenesis; phage display"
+       }
+      ]
+     ]
+    }
+   ],
+   "icon": "📋",
+   "label": "Section 10"
+  },
+  {
+   "id": "s13",
+   "title": {
+    "en": "Summary — Key Exam Points"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Vector Definition**A DNA molecule that carries and delivers foreign DNA into a host cell for replication and/or expression."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Ideal Vector Features**Must have ori, selectable marker, unique restriction sites, small size, high copy number, and stability."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Plasmid**Circular, extrachromosomal, self-replicating dsDNA molecule found naturally in bacteria. Dispensable under normal conditions."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**pBR322**4,361 bp; two markers (ampr, tetr); ori from pMB1; uses insertional inactivation for clone detection."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Ti Plasmid**From _Agrobacterium tumefaciens_; ~200 kb; T-DNA integrates into plant genome; used for transgenic plant creation."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**T-DNA**~25 kb segment of Ti plasmid; flanked by Left and Right Borders; integrates stably into plant nuclear DNA."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**vir Genes**~35 kb region of Ti plasmid (virA–G); not transferred to plant but provide functions to excise and transfer T-DNA."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Lambda Phage**Linear dsDNA, 48.5 kb; cos sites; insert up to 23 kb in stuffer region; ideal for genomic libraries."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**M13 Phage**Filamentous; circular ssDNA ~6.4 kb; non-lytic; essential for Sanger sequencing and site-directed mutagenesis."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Insertional Inactivation**Disruption of a marker gene by insert; used in pBR322 to identify recombinant vs non-recombinant clones."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**R Plasmids**Resistance plasmids — carry antibiotic resistance genes; basis of selectable markers in cloning vectors."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**cos Sites**12-nt cohesive ends of lambda DNA; essential for circularization inside host and in vitro packaging into phage heads."
+     }
+    }
+   ],
+   "icon": "📌",
+   "label": "Section 12"
+  },
+  {
+   "id": "s14",
+   "title": {
+    "en": "Glossary of Key Terms"
+   },
+   "blocks": [
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Vector"
+     },
+     "definition": {
+      "en": "A DNA molecule (plasmid, phage, or artificial chromosome) used to carry and transfer foreign DNA into a host cell where it can replicate and/or be expressed."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Origin of Replication (ori)"
+     },
+     "definition": {
+      "en": "A specific DNA sequence on a vector where replication is initiated. Ensures the vector can replicate autonomously inside the host cell, independent of the chromosomal DNA."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Selectable Marker"
+     },
+     "definition": {
+      "en": "A gene (typically conferring antibiotic resistance) on a vector that allows selection of transformed host cells on selective media. Untransformed cells die; transformed cells survive."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Multiple Cloning Site (MCS)"
+     },
+     "definition": {
+      "en": "A short DNA sequence on a cloning vector that contains multiple unique restriction enzyme recognition sites. Also called a polylinker; facilitates insertion of foreign DNA at a defined location."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Insert"
+     },
+     "definition": {
+      "en": "The foreign DNA fragment (gene of interest) that is cloned into the vector. After restriction digestion and ligation, the insert becomes part of the recombinant DNA molecule."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "T-DNA"
+     },
+     "definition": {
+      "en": "Transfer DNA — the ~25 kb segment of the Ti plasmid that is excised and transferred by Agrobacterium into the plant cell, where it integrates stably into the plant nuclear genome."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Phage / Bacteriophage"
+     },
+     "definition": {
+      "en": "A virus that specifically infects bacteria. Used as a cloning vector because it can inject its DNA (along with foreign inserts) into bacterial host cells with high efficiency."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Host Cell"
+     },
+     "definition": {
+      "en": "The cell (usually E. coli or plant cells) into which the recombinant vector is introduced. The host provides the cellular machinery needed for vector replication and gene expression."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Insertional Inactivation"
+     },
+     "definition": {
+      "en": "A screening method in which insertion of foreign DNA into a restriction site within a marker gene disrupts its function, allowing identification of recombinant clones. Used in pBR322 cloning."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "cos Site"
+     },
+     "definition": {
+      "en": "Cohesive-end (cos) sites on the lambda phage genome — 12-nt single-stranded overhangs at both ends of the linear DNA. Essential for circularization inside the host and phage DNA packaging."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Cloning"
+     },
+     "definition": {
+      "en": "The process of inserting a DNA fragment into a vector, introducing it into a host cell, and propagating it to produce many identical copies of the DNA fragment."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Transformation"
+     },
+     "definition": {
+      "en": "The process of introducing recombinant plasmid DNA into a competent bacterial host cell. Successfully transformed cells carry the recombinant vector and are identified by selection on antibiotic media."
+     }
+    }
+   ],
+   "icon": "📖",
+   "label": "Section 13"
+  }
+ ],
+ "skipped": [
+  "quiz"
+ ],
+ "dropped": [
+  {
+   "selector": "nav",
+   "count": 1,
+   "sample": [
+    "Home Intro Plasmids Types Ideal Vector Plasmid Vectors Phage"
+   ]
+  },
+  {
+   "selector": "footer",
+   "count": 1,
+   "sample": [
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh"
+   ]
+  },
+  {
+   "selector": ".rev-hint",
+   "count": 8,
+   "sample": [
+    "Click to reveal",
+    "Click to reveal",
+    "Click to reveal"
+   ]
+  }
+ ],
+ "extractor": "1"
+}

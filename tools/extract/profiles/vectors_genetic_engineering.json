@@ -1,0 +1,51 @@
+{
+  "skip_ids": [
+    "quiz"
+  ],
+  "label_classes": [
+    "chip"
+  ],
+  "callout_classes": [
+    "ibox"
+  ],
+  "reveal": {
+    "container": [
+      "rev-card"
+    ],
+    "front": [
+      "rev-front",
+      "rev-hint"
+    ],
+    "back": [
+      "rev-back"
+    ]
+  },
+  "glossary": {
+    "container": [
+      "gls-card"
+    ],
+    "term": [
+      "gls-term"
+    ],
+    "def": [
+      "gls-def"
+    ]
+  },
+  "steps_item_classes": [
+    "flow-box"
+  ],
+  "button_heading_classes": [
+    "acc-hdr"
+  ],
+  "extra_drop_selectors": [
+    ".rev-hint"
+  ],
+  "accepted_script_literals_note": "Score-feedback messages of the old embedded HTML quiz widget (UI copy, not chapter content). The native quiz has its own feedback strings. Reviewed 2026-11-10.",
+  "accepted_script_literals": [
+    "Outstanding! You have mastered this topic on vectors in genetic engineering.",
+    "%. Strong understanding of vector types and features. Review any missed questions.",
+    "%. Revisit the diagrams and accordion sections to strengthen weaker areas.",
+    "%. Read through each section again carefully and retry.",
+    "%. Start from the introduction and study each vector systematically."
+  ]
+}

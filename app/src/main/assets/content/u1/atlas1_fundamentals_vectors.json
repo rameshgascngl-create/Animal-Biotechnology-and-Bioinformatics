@@ -1,0 +1,1289 @@
+{
+ "id": "atlas1_fundamentals_vectors",
+ "unit": "I",
+ "title": {
+  "en": "Atlas I: Fundamentals & Vectors"
+ },
+ "sections": [
+  {
+   "id": "s01",
+   "title": {
+    "en": "Overview"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "🎨 Unit I · Diagram Atlas"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "title": {
+    "en": "Diagram Atlas I: Fundamentals and Vectors"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Branches · Restriction enzymes · Plasmid, phage and large-insert vectors · Libraries"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fifteen labelled diagrams and flow charts covering Unit I: the colour-coded branches of biotechnology, how restriction enzymes cut, the maps of pBR322 and the Ti plasmid, phage cycles, vector capacities, and library construction. Draw them in the examination with confidence."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "📚 6 chapters🎯 10 MCQs📝 Exam questions🎓 B.Sc. Zoology / Biotechnology"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🎯 Learning Objectives**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "✓Draw and label EcoRI and SmaI cuts and the enzyme toolkit."
+      },
+      {
+       "en": "✓Sketch the maps of pBR322 and the Ti plasmid and predict insertional-inactivation phenotypes."
+      },
+      {
+       "en": "✓Explain lambda cycles, M13, cosmid, YAC, BAC, SV40 and transposon vectors with diagrams."
+      },
+      {
+       "en": "✓Compare vector capacities and choose a vector for a task."
+      },
+      {
+       "en": "✓Contrast genomic and cDNA libraries and calculate library size."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": {
+    "en": "Branches and Milestones of Biotechnology"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "A single picture of what biotechnology covers, and the key dates every student must remember."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Biotechnology"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The use of living organisms, cells or their components to make products or processes for human use (Karl Ereky coined the term in 1919; the Convention on Biological Diversity gives a formal modern definition)."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas1_fundamentals_vectors-d01",
+     "caption": {
+      "en": "Fig. 1. Colour-coded branches of biotechnology (a common convention; some authors add further colours)."
+     },
+     "labels": [
+      "Biotechnology",
+      "living systems + tools",
+      "Red",
+      "Medical and pharma: vaccines, mAbs, gene therapy",
+      "Green",
+      "Agricultural: transgenic crops, biofertilisers",
+      "White",
+      "Industrial: enzymes, ethanol, bioplastics",
+      "Blue",
+      "Marine and aquatic: aquaculture, marine products",
+      "Gold",
+      "Bioinformatics and genomics: databases, tools"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas1_fundamentals_vectors-d02",
+     "caption": {
+      "en": "Fig. 2. Milestones. Click-free summary: 1973 Cohen and Boyer made the first recombinant DNA; 1975 Köhler and Milstein made hybridomas; 1977 Sanger sequencing."
+     },
+     "labels": [
+      "Ancient",
+      "fermentation, breeding",
+      "Classical",
+      "antibiotics, industrial",
+      "fermentation",
+      "1953 / 1973",
+      "DNA structure;",
+      "Cohen–Boyer rDNA",
+      "1975 / 1977",
+      "MAbs; DNA",
+      "sequencing",
+      "1990–2003",
+      "Human Genome",
+      "Project",
+      "2012 onward",
+      "CRISPR editing;",
+      "NGS; iPSCs"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**PG focus**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Distinguish _traditional_ biotechnology (fermentation, breeding) from _modern_ biotechnology (rDNA, cell fusion, gene editing)."
+      },
+      {
+       "en": "Know why the 1975 Asilomar meeting is a landmark for biosafety."
+      }
+     ]
+    }
+   ],
+   "label": "📗 Atlas 1.1"
+  },
+  {
+   "id": "s04",
+   "title": {
+    "en": "Enzymes: Cutting, Joining and Copying DNA"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Restriction enzymes are molecular scissors; ligase is the glue. Know how ends are produced."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas1_fundamentals_vectors-d03",
+     "caption": {
+      "en": "Fig. 3. EcoRI leaves 5′ AATT overhangs; SmaI leaves blunt ends. Red lines mark the cut positions."
+     },
+     "labels": [
+      "EcoRI (G^AATTC): sticky ends",
+      "SmaI (CCC^GGG): blunt ends",
+      "5'",
+      "G",
+      "A",
+      "A",
+      "T",
+      "T",
+      "C",
+      "3'",
+      "3'",
+      "C",
+      "T",
+      "T",
+      "A",
+      "A",
+      "G",
+      "5'",
+      "5'",
+      "G",
+      "3'",
+      "3'",
+      "C",
+      "T",
+      "T",
+      "A",
+      "A",
+      "5'",
+      "5'",
+      "A",
+      "A",
+      "T",
+      "T",
+      "C",
+      "3'",
+      "3'",
+      "G",
+      "5'",
+      "5'-AATT overhangs (complementary, \"sticky\")",
+      "C",
+      "C",
+      "C",
+      "G",
+      "G",
+      "G",
+      "G",
+      "G",
+      "G",
+      "C",
+      "C",
+      "C",
+      "C",
+      "C",
+      "C",
+      "G",
+      "G",
+      "G",
+      "G",
+      "G",
+      "G",
+      "C",
+      "C",
+      "C",
+      "no overhang: ligated less efficiently"
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Type"
+      },
+      {
+       "en": "Cofactors"
+      },
+      {
+       "en": "Recognition / cut"
+      },
+      {
+       "en": "Use"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Type I**"
+       },
+       {
+        "en": "ATP, Mg²⁺, SAM"
+       },
+       {
+        "en": "Cut far from the recognition site (random)"
+       },
+       {
+        "en": "Not used in cloning"
+       }
+      ],
+      [
+       {
+        "en": "**Type II**"
+       },
+       {
+        "en": "Mg²⁺ only"
+       },
+       {
+        "en": "Cut at or near a palindromic site (4–8 bp)"
+       },
+       {
+        "en": "**Standard in cloning** (EcoRI, BamHI, HindIII)"
+       }
+      ],
+      [
+       {
+        "en": "**Type III**"
+       },
+       {
+        "en": "ATP, Mg²⁺"
+       },
+       {
+        "en": "Cut 20–30 bp from the site"
+       },
+       {
+        "en": "Rare"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas1_fundamentals_vectors-d04",
+     "caption": {
+      "en": "Fig. 4. The enzyme toolkit and the job each enzyme does."
+     },
+     "labels": [
+      "Restriction",
+      "endonuclease",
+      "cuts DNA",
+      "DNA ligase",
+      "seals nicks",
+      "(ATP/NAD+)",
+      "Alkaline",
+      "phosphatase",
+      "stops re-ligation",
+      "Taq / Klenow",
+      "DNA polymerase",
+      "fills or extends",
+      "Reverse",
+      "transcriptase",
+      "mRNA to cDNA",
+      "Terminal",
+      "transferase",
+      "adds tails"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Exam tip**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Isoschizomers recognise the same sequence (SmaI and XmaI); neoschizomers cut the same sequence at a different position (SmaI blunt, XmaI sticky). Compatible cohesive ends (BamHI and BglII) can be ligated but the junction is no longer cut by either enzyme."
+     }
+    }
+   ],
+   "label": "📘 Atlas 1.2"
+  },
+  {
+   "id": "s05",
+   "title": {
+    "en": "Plasmid Vectors: pBR322 and the Ti Plasmid"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Plasmids are small, circular, self-replicating DNA molecules. Learn the map of pBR322 and the Ti plasmid structure."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Features of a good plasmid vector: an **origin of replication**, one or more **selectable markers**, unique **restriction sites** (multiple cloning site), small size, and high copy number."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas1_fundamentals_vectors-d05",
+     "caption": {
+      "en": "Fig. 5. pBR322 (4,361 bp). Sites inside tetR (BamHI, SalI, HindIII) allow insertional inactivation of tetracycline resistance; PstI, PvuI and ScaI lie in ampR."
+     },
+     "labels": [
+      "tetR",
+      "rop",
+      "ori",
+      "ampR",
+      "EcoRI 4359",
+      "HindIII 29",
+      "BamHI 375",
+      "SalI 651",
+      "PstI 3609",
+      "PvuI 3735",
+      "ScaI 3846",
+      "pBR322",
+      "4,361 bp"
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Insert at"
+      },
+      {
+       "en": "Gene inactivated"
+      },
+      {
+       "en": "Recombinant phenotype"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**BamHI / SalI / HindIII**"
+       },
+       {
+        "en": "tetR"
+       },
+       {
+        "en": "AmpR TetS"
+       }
+      ],
+      [
+       {
+        "en": "**PstI / PvuI / ScaI**"
+       },
+       {
+        "en": "ampR"
+       },
+       {
+        "en": "AmpS TetR"
+       }
+      ],
+      [
+       {
+        "en": "**EcoRI**"
+       },
+       {
+        "en": "none (outside both genes)"
+       },
+       {
+        "en": "AmpR TetR; needs another screen"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas1_fundamentals_vectors-d06",
+     "caption": {
+      "en": "Fig. 6. Ti plasmid of _Agrobacterium tumefaciens_: the T-DNA lies between the right (RB) and left (LB) borders; vir genes act in trans. Schematic, not to scale."
+     },
+     "labels": [
+      "T-DNA",
+      "vir region (~35 kb)",
+      "oriV / oriT",
+      "opine catabolism",
+      "RB",
+      "LB",
+      "Ti plasmid",
+      "~200 kb"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Ti plasmid in brief**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Wounded plant cells release phenolics (acetosyringone) that activate VirA/VirG."
+      },
+      {
+       "en": "VirD1/D2 nick the borders; the T-strand (with VirE2) passes through the VirB type IV secretion system into the plant nucleus."
+      },
+      {
+       "en": "In disarmed vectors the oncogenes are removed and the gene of interest is placed between the borders."
+      },
+      {
+       "en": "Relevance to animal biotechnology: a classic example of natural genetic engineering and of a binary vector design."
+      }
+     ]
+    }
+   ],
+   "label": "📙 Atlas 1.3"
+  },
+  {
+   "id": "s06",
+   "title": {
+    "en": "Bacteriophage Vectors: Lambda and M13"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Phage vectors carry larger inserts than plasmids and are efficient at infecting cells."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas1_fundamentals_vectors-d07",
+     "caption": {
+      "en": "Fig. 7. Lytic and lysogenic pathways of lambda (λ genome 48.5 kb, linear with 12-base cohesive _cos_ ends)."
+     },
+     "labels": [
+      "Attachment (LamB receptor)",
+      "and DNA injection",
+      "Circularisation at cos",
+      "then cI vs Cro decision",
+      "LYTIC",
+      "LYSOGENIC",
+      "Replication, late genes",
+      "and head/tail assembly",
+      "Lysis (S, R proteins)",
+      "~100 progeny released",
+      "Integrase inserts DNA at attB:",
+      "prophage, cI represses lytic genes",
+      "Replicates with host",
+      "generation after generation",
+      "Induction (UV/SOS: RecA cleaves cI)",
+      "cI high: lysogeny Cro high: lysis"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas1_fundamentals_vectors-d08",
+     "caption": {
+      "en": "Fig. 8. How a lambda replacement vector is used. Packaging accepts DNA of about 75–105% of the wild-type genome."
+     },
+     "labels": [
+      "Replacement vector:",
+      "stuffer fragment",
+      "between two arms",
+      "Cut with enzyme;",
+      "remove stuffer;",
+      "add target DNA (up to ~20 kb)",
+      "Ligate into",
+      "concatemers with cos ends",
+      "In vitro packaging",
+      "(37–52 kb fits;",
+      "undersized stuffer excluded)",
+      "Infect E. coli:",
+      "plaques = library clones"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas1_fundamentals_vectors-d09",
+     "caption": {
+      "en": "Fig. 9. M13 is a filamentous ssDNA phage that infects F⁺ _E. coli_ and does not kill the cell."
+     },
+     "labels": [
+      "M13 (+) strand",
+      "enters via F pilus",
+      "Converted to dsDNA",
+      "RF (replicative form)",
+      "RF replicates;",
+      "rolling circle makes",
+      "(+) ssDNA",
+      "Progeny extruded",
+      "without lysis",
+      "(slow growth)",
+      "Uses: ssDNA template",
+      "for Sanger sequencing,",
+      "mutagenesis, phage display"
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Feature"
+      },
+      {
+       "en": "Lambda"
+      },
+      {
+       "en": "M13"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Genome**"
+       },
+       {
+        "en": "48.5 kb linear dsDNA"
+       },
+       {
+        "en": "6.4 kb circular ssDNA"
+       }
+      ],
+      [
+       {
+        "en": "**Insert capacity**"
+       },
+       {
+        "en": "~20–23 kb (replacement)"
+       },
+       {
+        "en": "~1–1.5 kb (stable)"
+       }
+      ],
+      [
+       {
+        "en": "**Cycle**"
+       },
+       {
+        "en": "Lytic or lysogenic"
+       },
+       {
+        "en": "Chronic, non-lytic"
+       }
+      ],
+      [
+       {
+        "en": "**Main use**"
+       },
+       {
+        "en": "Genomic and cDNA libraries"
+       },
+       {
+        "en": "Sequencing, mutagenesis, phage display"
+       }
+      ]
+     ]
+    }
+   ],
+   "label": "📓 Atlas 1.4"
+  },
+  {
+   "id": "s07",
+   "title": {
+    "en": "Cosmid, YAC, BAC and Animal Virus Vectors"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Genomes are big, so large-insert vectors are needed; animal cells need their own vectors."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas1_fundamentals_vectors-d10",
+     "caption": {
+      "en": "Fig. 10. Cloning capacity (kb, log scale). Pick the vector by the size of DNA you must carry."
+     },
+     "labels": [
+      "1 kb",
+      "10 kb",
+      "100 kb",
+      "1000 kb",
+      "10000 kb",
+      "Plasmid (pUC)",
+      "0.1–10",
+      "Lambda replacement",
+      "5–23",
+      "Cosmid",
+      "35–45",
+      "PAC",
+      "100–300",
+      "BAC",
+      "100–300",
+      "YAC",
+      "200–2000"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas1_fundamentals_vectors-d11",
+     "caption": {
+      "en": "Fig. 11. Cosmid cloning combines plasmid replication with phage packaging."
+     },
+     "labels": [
+      "Cosmid = plasmid",
+      "(ori, ampR) + cos site",
+      "Cut genomic DNA;",
+      "ligate to cosmid arms",
+      "(35–45 kb inserts)",
+      "In vitro lambda",
+      "packaging",
+      "Transduction into",
+      "E. coli; DNA circularises",
+      "at cos",
+      "Replicates as a",
+      "plasmid; colonies",
+      "form on ampicillin"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas1_fundamentals_vectors-d12",
+     "caption": {
+      "en": "Fig. 12. A YAC after ligation to genomic DNA. It behaves as a mini chromosome in yeast."
+     },
+     "labels": [
+      "TEL",
+      "ARS",
+      "CEN",
+      "TRP1",
+      "Foreign DNA",
+      "(200–2000 kb)",
+      "URA3",
+      "ARS",
+      "TEL",
+      "Left arm",
+      "(insert)",
+      "Right arm",
+      "TEL telomere: stability of ends ARS: origin in yeast CEN: segregation at mitosis/meiosis",
+      "TRP1 and URA3: selectable markers in trp1 ura3 yeast hosts (both arms needed = true clone)"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas1_fundamentals_vectors-d13",
+     "caption": {
+      "en": "Fig. 13. SV40, a small DNA tumour virus used to build mammalian expression vectors."
+     },
+     "labels": [
+      "ori (and enhancer / promoters)",
+      "Early region large T, small t",
+      "Late region VP1, VP2, VP3",
+      "SV40",
+      "5.2 kb",
+      "Foreign DNA replaces early or late genes; the missing function is",
+      "supplied by a helper virus or by COS cells (T antigen)."
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas1_fundamentals_vectors-d14",
+     "caption": {
+      "en": "Fig. 14. Transposons (Sleeping Beauty, piggyBac) as cut-and-paste vectors for animal cells."
+     },
+     "labels": [
+      "Donor plasmid:",
+      "ITR – gene – ITR",
+      "Transposase supplied",
+      "in trans (plasmid or mRNA)",
+      "Excision (cut)",
+      "of the cassette",
+      "Integration (paste)",
+      "at TA (Sleeping Beauty)",
+      "or TTAA (piggyBac)",
+      "Stable transgenic",
+      "cell or animal line"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**PG focus**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "YACs suffer from chimerism and instability; BACs (F-factor based, 100–300 kb) became the workhorse of the Human Genome Project."
+      },
+      {
+       "en": "Lentiviral and AAV vectors have largely replaced SV40 in gene therapy."
+      }
+     ]
+    }
+   ],
+   "label": "📒 Atlas 1.5"
+  },
+  {
+   "id": "s08",
+   "title": {
+    "en": "DNA Libraries: Genomic versus cDNA"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "A library is a collection of cloned fragments representing a genome or the mRNA of a tissue."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas1_fundamentals_vectors-d15",
+     "caption": {
+      "en": "Fig. 15. Two library strategies."
+     },
+     "labels": [
+      "Genomic library: isolate DNA, partially digest",
+      "Ligate into vector, package or transform",
+      "Contains all sequences: introns, promoters",
+      "size: N = ln(1−P) / ln(1−f)",
+      "cDNA library: isolate mRNA (oligo-dT)",
+      "Reverse transcriptase, then DNA polymerase I",
+      "Ligate; contains only expressed exons",
+      "tissue and stage specific"
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Feature"
+      },
+      {
+       "en": "Genomic library"
+      },
+      {
+       "en": "cDNA library"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Source**"
+       },
+       {
+        "en": "Genomic DNA (any cell)"
+       },
+       {
+        "en": "mRNA of a tissue or stage"
+       }
+      ],
+      [
+       {
+        "en": "**Contains**"
+       },
+       {
+        "en": "Introns, promoters, regulatory DNA"
+       },
+       {
+        "en": "Exons of expressed genes only"
+       }
+      ],
+      [
+       {
+        "en": "**Size**"
+       },
+       {
+        "en": "Depends on genome"
+       },
+       {
+        "en": "Depends on expressed genes"
+       }
+      ],
+      [
+       {
+        "en": "**Use**"
+       },
+       {
+        "en": "Gene structure and regulation, genome mapping"
+       },
+       {
+        "en": "Expression of eukaryotic genes in bacteria"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Worked example**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Number of clones needed: N = ln(1 − P) / ln(1 − f), where P is the probability (0.99) and f is the insert size ÷ genome size. For the human genome (3.1 × 10⁹ bp) with 20 kb inserts: f = 6.5 × 10⁻⁶, so N ≈ 7 × 10⁵ clones."
+     }
+    }
+   ],
+   "label": "📑 Atlas 1.6"
+  },
+  {
+   "id": "s09",
+   "title": {
+    "en": "Summary & Exam Revision"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Key points and model answers likely to appear in university examinations."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Key exam points"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Colour code: **red** medical, **green** agricultural, **white** industrial, **blue** marine."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Type II restriction enzymes cut palindromes; EcoRI gives 5′ sticky ends, SmaI gives blunt ends."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "3"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Ligase joins; phosphatase stops self-ligation; reverse transcriptase makes cDNA."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "4"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "pBR322: 4,361 bp; **ampR**, **tetR**, ori, rop; BamHI/SalI in tet, PstI in amp."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Ti plasmid: T-DNA between LB and RB, vir genes act in trans; disarmed vectors carry the gene of interest."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "6"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Lambda 48.5 kb: lytic or lysogenic; replacement vectors carry ~20 kb. M13: ssDNA, non-lytic."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "7"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Capacity: plasmid ≤10 kb; lambda ≈ 20–23 kb; cosmid 35–45 kb; BAC/PAC 100–300 kb; YAC 200–2,000 kb."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "8"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SV40 (5.2 kb) and transposons (Sleeping Beauty, piggyBac) are animal-cell vectors."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "9"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Library size: N = ln(1−P) / ln(1−f)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Short-answer questions"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click a question to reveal the model answer."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.1Draw and label the cutting of DNA by EcoRI.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "EcoRI recognises 5′-GAATTC-3′ (palindromic), cuts between G and A on both strands, and leaves 5′ AATT overhangs (sticky ends) that anneal to any other EcoRI-cut DNA."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.2Name four features of an ideal cloning vector.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Origin of replication, selectable marker, unique restriction sites (MCS), small size, high copy number, ability to be introduced into the host."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.3Explain insertional inactivation in pBR322.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Foreign DNA is inserted in a marker gene (for example BamHI in tet). The recombinant loses that resistance but keeps the other (Amp-R Tet-S), identified by replica plating."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.4Differentiate lytic and lysogenic cycles.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Lytic: phage replicates, lyses the cell, releases progeny. Lysogenic: DNA integrates as a prophage, repressed by cI, and replicates with the host until induction."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.5What is a cosmid and why is it useful?▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A plasmid containing lambda cos sites that can be packaged in vitro; carries 35–45 kb inserts and is useful for genomic libraries."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.6Compare genomic and cDNA libraries.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Genomic libraries contain all DNA (introns and regulatory sequences); cDNA libraries contain only exons of genes expressed in the source tissue, made via reverse transcriptase."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.7Why are YACs used for large genomes?▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "They behave as yeast chromosomes (CEN, ARS, TEL) and carry up to 2,000 kb inserts, reducing the number of clones needed."
+     }
+    }
+   ],
+   "label": "📋 Summary"
+  },
+  {
+   "id": "s10",
+   "title": {
+    "en": "Key Terms & Glossary"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Important terms in simple language."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Palindrome"
+     },
+     "definition": {
+      "en": "DNA sequence reading the same 5′→3′ on both strands."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Sticky end"
+     },
+     "definition": {
+      "en": "Single-stranded overhang left by a staggered cut."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Blunt end"
+     },
+     "definition": {
+      "en": "Flush end with no overhang."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "MCS"
+     },
+     "definition": {
+      "en": "Multiple cloning site: cluster of unique restriction sites."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Selectable marker"
+     },
+     "definition": {
+      "en": "Gene (for example antibiotic resistance) used to select cells carrying the vector."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Prophage"
+     },
+     "definition": {
+      "en": "Phage genome integrated into the host chromosome."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "cos site"
+     },
+     "definition": {
+      "en": "Cohesive end site of lambda used for packaging and circularisation."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "T-DNA"
+     },
+     "definition": {
+      "en": "Segment of the Ti plasmid transferred to plant cells."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "BAC"
+     },
+     "definition": {
+      "en": "Bacterial artificial chromosome based on the F plasmid."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "YAC"
+     },
+     "definition": {
+      "en": "Yeast artificial chromosome with CEN, ARS and TEL."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "cDNA"
+     },
+     "definition": {
+      "en": "DNA copied from mRNA by reverse transcriptase."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Transposon"
+     },
+     "definition": {
+      "en": "Mobile DNA element that moves by cut-and-paste or copy-and-paste."
+     }
+    }
+   ],
+   "label": "📖 Glossary"
+  }
+ ],
+ "skipped": [
+  "page-7"
+ ],
+ "dropped": [
+  {
+   "selector": "nav",
+   "count": 1,
+   "sample": [
+    "🎨 Atlas I: Fundamentals & Vectors Animal Biotechnology · Uni"
+   ]
+  },
+  {
+   "selector": "#mob-hdr",
+   "count": 1,
+   "sample": [
+    "☰ Atlas I: Fundamentals & Vectors"
+   ]
+  },
+  {
+   "selector": "#overlay",
+   "count": 1,
+   "sample": []
+  },
+  {
+   "selector": "footer",
+   "count": 10,
+   "sample": [
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh",
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh",
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh"
+   ]
+  },
+  {
+   "selector": ".start-btn",
+   "count": 1,
+   "sample": [
+    "Begin Learning →"
+   ]
+  },
+  {
+   "selector": ".btn-outline",
+   "count": 9,
+   "sample": [
+    "← Atlas I: Fundamentals & Vectors",
+    "← Scope & History",
+    "← Enzymes"
+   ]
+  },
+  {
+   "selector": ".btn-primary",
+   "count": 10,
+   "sample": [
+    "Enzymes →",
+    "Plasmid Vectors →",
+    "Phage Vectors →"
+   ]
+  },
+  {
+   "selector": ".pg-nav",
+   "count": 9,
+   "sample": []
+  }
+ ],
+ "extractor": "1"
+}

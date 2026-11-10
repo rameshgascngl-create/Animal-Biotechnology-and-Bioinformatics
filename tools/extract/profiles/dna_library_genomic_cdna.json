@@ -1,0 +1,63 @@
+{
+  "skip_ids": [
+    "quiz"
+  ],
+  "label_classes": [
+    "chip"
+  ],
+  "callout_classes": [
+    "ib"
+  ],
+  "reveal": {
+    "container": [
+      "rc"
+    ],
+    "front": [
+      "rf",
+      "rh"
+    ],
+    "back": [
+      "rb"
+    ]
+  },
+  "glossary": {
+    "container": [
+      "gc"
+    ],
+    "term": [
+      "gt"
+    ],
+    "def": [
+      "gd"
+    ]
+  },
+  "steps_item_classes": [
+    "fbox"
+  ],
+  "button_heading_classes": [
+    "ah",
+    "eqt"
+  ],
+  "script_steps": {
+    "var": "CDNA_STEPS",
+    "section": "cdna-anim",
+    "title": "title",
+    "desc": "desc",
+    "svg": "svg"
+  },
+  "extra_drop_selectors": [
+    ".cdna-steps-nav",
+    ".cdna-progress",
+    ".cdna-display",
+    ".cdna-nav",
+    ".rh"
+  ],
+  "accepted_script_literals_note": "Score-feedback messages of the old embedded HTML quiz widget (UI copy, not chapter content). The native quiz has its own feedback strings. Reviewed 2026-11-10.",
+  "accepted_script_literals": [
+    "Exceptional! You have mastered the topic of DNA libraries completely.",
+    "%. Strong understanding — review the questions you missed.",
+    "%. Revisit the cDNA and genomic library sections for clarity.",
+    "%. Go through each section carefully and retry.",
+    "%. Study the content again from the beginning and retry."
+  ]
+}

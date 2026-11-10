@@ -251,6 +251,12 @@ fun normaliseTable(header: List<Bi>, rows: List<List<Bi>>): List<List<Bi>>   // 
 
 ---
 
+## Findings recorded after M2 (read before starting M5)
+
+- Diagram count is **32**, confirmed: 26 inline in the page plus 6 held in JavaScript template strings (the cDNA stepper in `dna_library_genomic_cdna`). All 32 are content diagrams (labelled, 13 to 71 shape elements each); none is chrome. Fundamentals and Enzymes have none.
+- Hand-writing 32 Compose composables with that many elements is slow and error-prone. **Proposed for M5 (decide at its start):** convert each SVG into a compact JSON draw-spec by script and render all diagrams with one generic native Canvas renderer, with labels looked up per language by id. Still 100% native, no SVG library, audit log per diagram. This replaces the "one composable per diagram" wording in Task 9.
+- The extractor also moved: buttons are now content unless a profile lists them as UI controls (reported under `dropped` in each chapter JSON and in the report), and prose hidden in JavaScript is checked (`script_orphans`).
+
 ## Self-review notes
 
 - Spec coverage: criteria 1 to 6 map to Tasks 12, 3/8/9, 6/7, 11/12, 6/7, 1/12; sections 4.2 to 4.4 to Tasks 4, 9, 8/10; 6.3 to Task 11; 6.4 to Tasks 4, 8; M3b to Task 7; inventory to Tasks 4/5.

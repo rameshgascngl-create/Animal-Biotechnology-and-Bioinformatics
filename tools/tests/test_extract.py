@@ -35,7 +35,7 @@ BASIC = """<html><head><title>Enzymes – App</title><style>p{}</style></head><b
 def test_basic_blocks_and_chrome_dropped():
     c = chap(BASIC)
     assert types(c) == ["p", "bullets", "table"]
-    text = json.dumps(c, ensure_ascii=False)
+    text = json.dumps(c["sections"], ensure_ascii=False)
     assert "Chapter menu" not in text and "Department of Zoology" not in text and "var x" not in text
     assert c["title"]["en"] == "Enzymes"
     tbl = blocks(c)[2]
@@ -169,3 +169,70 @@ def test_script_prose_not_in_chapter_or_quizbank_is_reported():
     prof = {**BASE, "ignore_script_literals": ["Swipe sideways"]}
     assert ex.script_orphans(html, c, [], prof) == [LONG]
     assert ex.script_orphans(html, c, [LONG], prof) == []  # present in quizbank text
+
+
+def test_content_buttons_are_kept_as_bold_headings_not_dropped():
+    prof = {"button_heading_classes": ["eqt"]}
+    html = ('<body><h2>Exam</h2><button class="eqt"><span>1. What is a cosmid?</span><span>▼</span></button>'
+            '<div class="eqb"><p>A hybrid vector.</p></div></body>')
+    c = chap(html, prof)
+    assert [b["text"]["en"] for b in blocks(c)] == ["**1. What is a cosmid?**", "A hybrid vector."]
+    assert ex.text_coverage(html, c, {**BASE, **prof}) == []
+
+
+def test_unlisted_button_text_is_not_silently_dropped():
+    html = "<body><h2>T</h2><button>Reveal the secret answer</button></body>"
+    c = chap(html)
+    assert "Reveal the secret answer" in json.dumps(c)
+
+
+def test_listed_ui_controls_are_dropped_but_reported():
+    prof = {"drop_selectors": ["nav", "footer", ".btn-next"]}
+    html = '<body><h2>T</h2><p>Body.</p><button class="btn-next">Next Question</button></body>'
+    c = chap(html, prof)
+    assert "Next Question" not in json.dumps(c["sections"])
+    assert c["dropped"] == [{"selector": ".btn-next", "count": 1, "sample": ["Next Question"]}]
+    assert ex.text_coverage(html, c, {**BASE, **prof}) == []
+
+
+def test_section_label_attaches_to_the_following_heading():
+    prof = {"label_classes": ["chip"]}
+    html = '<body><h2>One</h2><p>A.</p><div class="chip">Section 2</div><h2>Two</h2><p>B.</p></body>'
+    c = chap(html, prof)
+    assert c["sections"][1]["label"] == "Section 2"
+    assert types(c) == ["p", "p"]
+
+
+def test_accepted_script_literals_are_exempt_but_others_are_not():
+    msg = "Outstanding performance! You have mastered the whole topic completely."
+    html = f'<body><h2>T</h2><p>Hi.</p><script>var m = "{msg}"; var n = "{LONG}";</script></body>'
+    c = chap(html)
+    prof = {**BASE, "accepted_script_literals": [msg]}
+    assert ex.script_orphans(html, c, [], prof) == [LONG]
+
+
+def test_script_step_titles_are_html_unescaped():
+    html = SCRIPTED.replace("Step 2: Prime", "Step 2: Prime &amp; Extend")
+    c = chap(html, SCRIPT_PROF)
+    assert "**Step 2: Prime & Extend**" in [b["text"]["en"] for b in blocks(c) if b["type"] == "p"]
+
+
+def test_profile_extra_drop_selectors_extend_the_default_list(tmp_path):
+    (tmp_path / "_default.json").write_text(json.dumps({"drop_selectors": ["nav"], "skip_ids": []}))
+    (tmp_path / "demo.json").write_text(json.dumps({"extra_drop_selectors": [".hint"], "skip_ids": ["quiz"]}))
+    prof = ex.load_profile("demo", tmp_path)
+    assert prof["drop_selectors"] == ["nav", ".hint"] and prof["skip_ids"] == ["quiz"]
+    assert ex.load_profile("other", tmp_path)["drop_selectors"] == ["nav"]
+
+
+def test_subheading_classes_become_bold_paragraphs_not_sections():
+    html = '<body><h1>Page</h1><div class="sh">A sub heading</div><p>Body.</p></body>'
+    c = chap(html, {"subheading_classes": ["sh"]})
+    assert len(c["sections"]) == 1
+    assert [b["text"]["en"] for b in blocks(c)] == ["**A sub heading**", "Body."]
+
+
+def test_script_literal_entities_are_unescaped_before_comparison():
+    html = ('<body><h2>T</h2><p>Linker Addition & Ligation into the Vector now.</p>'
+            '<script>var t = "Linker Addition &amp; Ligation into the Vector now.";</script></body>')
+    assert ex.script_orphans(html, chap(html), [], BASE) == []

@@ -15,6 +15,7 @@ Run (from the repo root):
       --report docs/audit/extract-report.md --diagrams docs/audit/diagrams-unit1.json
 """
 import argparse
+import html as htmllib
 import json
 import re
 import sys
@@ -25,7 +26,7 @@ from bs4 import BeautifulSoup, Comment, NavigableString, Tag
 
 VERSION = "1"
 
-DROP_TAGS = {"script", "style", "noscript", "button", "head", "template", "link", "meta", "title"}
+DROP_TAGS = {"script", "style", "noscript", "head", "template", "link", "meta", "title"}
 UNPARSED_TAGS = {"input", "select", "textarea", "canvas", "iframe", "video", "audio", "object",
                  "embed", "marquee", "form", "map", "applet", "frame", "frameset"}
 INLINE_TAGS = {"span", "a", "b", "strong", "i", "em", "u", "small", "sub", "sup", "mark", "abbr",
@@ -34,11 +35,11 @@ INLINE_TAGS = {"span", "a", "b", "strong", "i", "em", "u", "small", "sub", "sup"
 CONTAINER_TAGS = {"div", "section", "article", "main", "aside", "header", "footer", "nav", "body",
                   "html", "blockquote", "details", "summary", "figure", "figcaption", "center",
                   "pre", "address", "fieldset", "legend", "dl", "dt", "dd", "li", "hgroup", "tbody",
-                  "thead", "tfoot", "tr", "td", "th", "caption", "col", "colgroup"}
+                  "thead", "tfoot", "tr", "td", "th", "caption", "col", "colgroup", "button"}
 BLOCK_TAGS = CONTAINER_TAGS | {"p", "ul", "ol", "table", "h1", "h2", "h3", "h4", "h5", "h6", "svg", "hr"}
 KNOWN_TAGS = INLINE_TAGS | BLOCK_TAGS | DROP_TAGS
 SHAPES = ["rect", "circle", "ellipse", "line", "polyline", "polygon", "path", "text", "image", "use"]
-IGNORED_KEYS = {"type", "kind", "id", "source", "selector", "icon", "skipped", "extractor", "unit"}
+IGNORED_KEYS = {"type", "kind", "id", "source", "selector", "icon", "skipped", "extractor", "unit", "dropped"}
 
 
 # --------------------------------------------------------------------------- text helpers
@@ -198,6 +199,7 @@ class _Walk:
         self.skipped = []
         self.steps_run = []
         self.script_done = False
+        self.pending_label = ""
 
     # --- structure
     def section(self, title, icon=""):
@@ -205,6 +207,9 @@ class _Walk:
         self.cur = {"id": f"s{len(self.sections) + 1:02d}", "title": {"en": title}, "blocks": []}
         if icon:
             self.cur["icon"] = icon
+        if self.pending_label:
+            self.cur["label"] = self.pending_label
+            self.pending_label = ""
         self.sections.append(self.cur)
 
     def add(self, block):
@@ -333,16 +338,27 @@ class _Walk:
         if name == "svg":
             self.flush_steps()
             return self.diagram(el, caption="")
+        if cls & set(p.get("label_classes", [])):
+            t = _collapse(self.inline(el)).replace("**", "")
+            if t:
+                self.pending_label = t
+            return
+        if name == "button" and cls & set(p.get("button_heading_classes", [])):
+            self.flush_steps()
+            t = re.sub(r"\s*[+▼▲▾▴⌄⌃]+\s*$", "", _collapse(self.inline(el)).replace("**", ""))
+            if t:
+                self.p(f"**{t}**")
+            return
         step_items = set(p.get("steps_item_classes", []))
         if step_items & cls:
             self.steps_run.append(_collapse(self.flat(el)))
             return
         self.flush_steps()
-        if name in ("h1", "h2") or cls & set(p.get("heading_classes", [])):
+        if (name in ("h1", "h2") or cls & set(p.get("heading_classes", []))) and not cls & set(p.get("subheading_classes", [])):
             icon, title = _split_icon(_collapse(self.inline(el)).replace("**", ""))
             self.section(title, icon)
             return
-        if name in ("h3", "h4", "h5", "h6"):
+        if name in ("h3", "h4", "h5", "h6") or cls & set(p.get("subheading_classes", [])):
             t = _collapse(self.inline(el)).replace("**", "")
             if t:
                 self.p(f"**{t}**")
@@ -487,7 +503,7 @@ class _Walk:
             if steps:
                 break
         for obj in steps:
-            title = _collapse(obj.get(ss.get("title", "title"), ""))
+            title = _collapse(BeautifulSoup(obj.get(ss.get("title", "title"), ""), "lxml").get_text(" "))
             desc = _collapse(BeautifulSoup(obj.get(ss.get("desc", "desc"), ""), "lxml").get_text(" "))
             if title:
                 self.p(f"**{title}**")
@@ -569,9 +585,15 @@ def _prepare(html, source, profile):
                        "where": "content", "section": "", "class": "content"}
                 script_records.append(rec)
                 records.append(rec)
+    dropped = []
     for sel in profile.get("drop_selectors", []):
-        for el in soup.select(sel):
+        els = soup.select(sel)
+        if els:
+            dropped.append({"selector": sel, "count": len(els),
+                            "sample": [_collapse(e.get_text(" "))[:60] for e in els[:3] if _collapse(e.get_text(" "))]})
+        for el in els:
             el.decompose()
+    soup._dropped = dropped
     return soup, records, svg_meta, script_records
 
 
@@ -582,12 +604,14 @@ def _run(html, source, profile):
     body = soup.body or soup
     walk.children(body)
     walk.flush_steps()
+    if walk.pending_label:
+        walk.p(walk.pending_label)
     title_tag = soup.find("title")
     raw_title = _collapse(title_tag.get_text(" ")) if title_tag else Path(source).stem
     title = re.sub(r"\s*[|–—-]\s*(Interactive[^|–—]*|Animal Biotechnology[^|–—]*|[^|–—]*App)$", "", raw_title)
     sections = [s for s in walk.sections if s["blocks"]]
     chapter = {"id": Path(source).stem, "unit": profile.get("unit", ""), "title": {"en": title},
-               "sections": sections, "skipped": walk.skipped, "extractor": VERSION}
+               "sections": sections, "skipped": walk.skipped, "dropped": soup._dropped, "extractor": VERSION}
     return chapter, records
 
 
@@ -657,6 +681,7 @@ def script_orphans(html, chapter, quiz_texts, profile):
     corpus = _corpus(chapter)
     quiz = _norm("\n".join(quiz_texts))
     ignore = profile.get("ignore_script_literals", [])
+    accepted = {_norm(x) for x in profile.get("accepted_script_literals", [])}
     orphans = []
     for sc in soup.find_all("script"):
         code = sc.get_text()
@@ -664,11 +689,11 @@ def script_orphans(html, chapter, quiz_texts, profile):
             lit, _ = _read_js_string(m.group(1), 0)
             pieces = BeautifulSoup(lit, "lxml").get_text("\n").split("\n") if "<" in lit else [lit]
             for piece in pieces:
-                piece = _collapse(piece)
+                piece = _collapse(htmllib.unescape(piece))
                 if len(piece.split()) < 6 or any(s in piece for s in ignore):
                     continue
                 n = _norm(piece)
-                if n in corpus or n in quiz:
+                if n in accepted or n in corpus or n in quiz:
                     continue
                 if piece not in orphans:
                     orphans.append(piece)
@@ -681,7 +706,10 @@ def load_profile(stem, profile_dir):
     base = json.loads((profile_dir / "_default.json").read_text(encoding="utf-8"))
     f = profile_dir / f"{stem}.json"
     if f.exists():
-        base.update(json.loads(f.read_text(encoding="utf-8")))
+        own = json.loads(f.read_text(encoding="utf-8"))
+        extra = own.pop("extra_drop_selectors", [])
+        base.update(own)
+        base["drop_selectors"] = list(base.get("drop_selectors", [])) + extra
     return base
 
 

@@ -1,0 +1,52 @@
+{
+  "skip_ids": [
+    "quiz"
+  ],
+  "label_classes": [
+    "section-tag"
+  ],
+  "callout_classes": [
+    "info-box"
+  ],
+  "reveal": {
+    "container": [
+      "reveal-card"
+    ],
+    "front": [
+      "reveal-front",
+      "reveal-hint"
+    ],
+    "back": [
+      "reveal-back"
+    ]
+  },
+  "glossary": {
+    "container": [
+      "gloss-card"
+    ],
+    "term": [
+      "gloss-term"
+    ],
+    "def": [
+      "gloss-def"
+    ]
+  },
+  "steps_item_classes": [
+    "flow-step"
+  ],
+  "button_heading_classes": [
+    "accordion-header",
+    "exam-q-title"
+  ],
+  "extra_drop_selectors": [
+    ".reveal-hint"
+  ],
+  "accepted_script_literals_note": "Score-feedback messages of the old embedded HTML quiz widget (UI copy, not chapter content). The native quiz has its own feedback strings. Reviewed 2026-11-10.",
+  "accepted_script_literals": [
+    "Outstanding performance! You have mastered the topic of restriction enzymes and genetic engineering enzymes.",
+    "%. Strong understanding of the topic. Review the questions you missed for perfection.",
+    "%. Revisit the sections on enzyme mechanisms and types to strengthen your knowledge.",
+    "%. Go through the content sections and interactive cards again before retrying.",
+    "%. Read through each section carefully, then try the quiz again."
+  ]
+}

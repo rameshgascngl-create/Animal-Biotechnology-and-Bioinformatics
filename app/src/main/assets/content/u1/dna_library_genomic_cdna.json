@@ -1,0 +1,1897 @@
+{
+ "id": "dna_library_genomic_cdna",
+ "unit": "I",
+ "title": {
+  "en": "DNA Library – Genomic & cDNA Library"
+ },
+ "sections": [
+  {
+   "id": "s01",
+   "title": {
+    "en": "Overview"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "B.Sc. Zoology / Biotechnology"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "title": {
+    "en": "DNA Library"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Genomic Library · cDNA Library · Construction & Applications"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Imagine being able to store the entire genetic blueprint of an organism — every gene, every regulatory sequence — inside millions of bacterial colonies in a petri dish. That's the power of a DNA library. This app will take you through how these remarkable collections are built and why they revolutionised modern biology."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🎯 Learning Objectives**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Define DNA library and explain its importance in genetic engineering."
+      },
+      {
+       "en": "Distinguish between genomic DNA library and cDNA library."
+      },
+      {
+       "en": "Describe step-by-step construction of a genomic DNA library."
+      },
+      {
+       "en": "Explain the role of reverse transcriptase in cDNA library construction."
+      },
+      {
+       "en": "Compare the two library types using their features, advantages, and applications."
+      },
+      {
+       "en": "List the vectors used in DNA library construction."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": {
+    "en": "Introduction to DNA Library"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**What Is a DNA Library?**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A DNA library is a collection of **cloned DNA fragments**, each carried in a vector (such as a plasmid or bacteriophage), stored in a population of host cells (usually _Escherichia coli_). Together, these clones represent — in theory — _all or most_ of the genetic information from the source organism."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Think of a DNA library as a **physical filing system**: just as a library of books stores human knowledge, a DNA library stores an organism's genetic information in the form of cloned DNA segments, each in a separate bacterial colony."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Why Are DNA Libraries Needed?**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Genome complexity:** A human cell contains ~3.2 billion base pairs of DNA — far too large to study as a whole. Libraries allow individual genes to be isolated, studied, and manipulated."
+      },
+      {
+       "en": "**Gene isolation:** To clone and express a specific gene, a researcher must first find it within a library."
+      },
+      {
+       "en": "**Genome mapping:** Libraries provide the overlapping clones needed to assemble a physical map of entire chromosomes."
+      },
+      {
+       "en": "**Gene expression analysis:** cDNA libraries reveal which genes are active in a specific tissue or condition."
+      },
+      {
+       "en": "**Long-term storage:** Libraries preserve genetic material indefinitely in living bacteria at −70°C."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Core Concept:** A DNA library is a permanent, amplifiable, and searchable repository of genetic information — the molecular equivalent of a genome archive."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Basic Concept of Storing Genetic Information**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "DNA from an organism is cut into fragments using **restriction enzymes**. Each fragment is inserted into a **vector** and introduced into a host cell. Each transformed host cell contains one (or a few) DNA fragments. A complete library consists of enough individual clones to cover the entire genome (or transcriptome) of the source organism."
+     }
+    }
+   ],
+   "icon": "📚",
+   "label": "Section 1"
+  },
+  {
+   "id": "s04",
+   "title": {
+    "en": "Types of DNA Libraries"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "There are two main types of DNA libraries, each with different sources of DNA and different applications:"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "📖 Genomic DNA Library"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Source:** Total genomic DNA (all chromosomes).\n**Contains:** All coding + non-coding sequences including introns, promoters, and regulatory regions.\n**Best for:** Genome mapping, gene structure analysis, regulatory studies."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🧬 cDNA Library"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Source:** mRNA (messenger RNA) converted to complementary DNA (cDNA).\n**Contains:** Only coding sequences (exons) expressed in a particular tissue/time.\n**Best for:** Gene expression studies, protein production in bacteria, transcriptomics."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "warn",
+     "text": {
+      "en": "**Key Difference at a Glance:** A genomic library contains _everything_ — exons, introns, and non-coding DNA. A cDNA library contains _only expressed genes_, without introns, specific to one tissue/condition."
+     }
+    }
+   ],
+   "icon": "🗂️",
+   "label": "Section 2"
+  },
+  {
+   "id": "s05",
+   "title": {
+    "en": "Genomic DNA Library"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Definition**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A genomic DNA library is a collection of cloned DNA fragments that together represent the **entire genome** of an organism — including all genes, introns, exons, promoters, enhancers, and non-coding sequences — inserted into vectors and maintained in bacterial host cells."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Source of DNA**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The source is the **total genomic DNA** isolated from any nucleated cell of the organism. All cells of an organism contain the same genomic DNA regardless of tissue type, so any tissue can be used (blood, liver, leaf, etc.)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Steps in Construction of a Genomic Library**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1**DNA Isolation:** Total genomic DNA is extracted from cells using lysis, proteinase K treatment, phenol-chloroform extraction, and ethanol precipitation. The DNA must be of high molecular weight and purity."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2**DNA Fragmentation:** The large genomic DNA is cut into fragments of suitable size using either:"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Restriction endonucleases** (e.g., EcoRI, HindIII) — partial digestion to produce overlapping fragments; or"
+      },
+      {
+       "en": "**Mechanical shearing** (sonication or nebulization) — random physical fragmentation followed by end-repair."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The fragment size depends on the vector used: 15–20 kb for cosmids, 35–45 kb for BACs, 200 kb–2 Mb for YACs."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "3**Insertion into Vectors:** DNA fragments are ligated into suitable vectors (lambda phage, cosmids, BACs, or YACs) using **DNA ligase**. Compatible ends are created by using the same restriction enzyme on both the insert and vector."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "4**Transformation into Host Cells:** The recombinant vectors are introduced into _E. coli_ (or yeast for YACs) by transformation (plasmids) or transduction (phage vectors). Each host cell takes up one recombinant clone."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5**Storage as a Library:** The collection of all transformed colonies together constitutes the genomic library. It is stored at −70°C in glycerol stocks for long-term use. Each colony contains a unique DNA fragment from the source genome."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Library Size:** The number of clones needed to represent the entire genome at least once (with 99% probability) is calculated using the Clarke-Carbon formula: _N = ln(1-P) / ln(1 - f)_, where P is the probability of finding a sequence and f is the fractional size of each insert relative to the genome."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 1 — Construction of a Genomic DNA Library"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "dna_library_genomic_cdna-d01",
+     "caption": {
+      "en": "Genomic library construction"
+     },
+     "labels": [
+      "Step 1: Isolate Genomic DNA",
+      "5'",
+      "3'",
+      "3'",
+      "5'",
+      "Total genomic DNA",
+      "Restriction enzyme (partial digestion)",
+      "Step 2: DNA Fragmentation",
+      "Random DNA fragments (15–45 kb)",
+      "DNA ligase + linearised vector",
+      "Step 3: Insert into Vector",
+      "Vector",
+      "+Insert",
+      "Vector",
+      "+Insert",
+      "Vector",
+      "+Insert",
+      "Vector",
+      "+Insert",
+      "···",
+      "n = thousands",
+      "of clones",
+      "Transform into E. coli",
+      "Step 4: Transformation & Storage",
+      "Each colony = one cloned genomic DNA fragment = Genomic Library"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Characteristics of a Genomic Library**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Contains both coding and **non-coding DNA sequences** (introns, promoters, intergenic regions)."
+      },
+      {
+       "en": "Same in all cell types of an organism (since all cells share the same genome)."
+      },
+      {
+       "en": "Size is proportional to genome complexity — human genome libraries require ~800,000–1,000,000 cosmid clones for complete coverage."
+      },
+      {
+       "en": "Allows recovery of entire gene loci including regulatory regions."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Advantages**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Represents the **complete genome** including regulatory and structural elements."
+      },
+      {
+       "en": "Tissue-independent — any cell type can be used as source."
+      },
+      {
+       "en": "Essential for genome sequencing projects and chromosome walking."
+      },
+      {
+       "en": "Permanent, stable repository of genetic information."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Limitations**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Very large number of clones required for complete genome coverage."
+      },
+      {
+       "en": "Contains non-coding and repetitive DNA that may complicate analysis."
+      },
+      {
+       "en": "Eukaryotic genes (with introns) cannot be directly expressed in prokaryotic hosts."
+      },
+      {
+       "en": "Screening can be laborious without efficient hybridization probes."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Applications**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Genome sequencing projects (e.g., Human Genome Project)."
+      },
+      {
+       "en": "Chromosome walking and jumping to map disease genes."
+      },
+      {
+       "en": "Identification and characterization of gene regulatory regions."
+      },
+      {
+       "en": "Comparative genomics and evolutionary studies."
+      },
+      {
+       "en": "Isolation of full-length genes including all introns."
+      }
+     ]
+    }
+   ],
+   "icon": "🔵",
+   "label": "Section 3"
+  },
+  {
+   "id": "s06",
+   "title": {
+    "en": "cDNA Library"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Definition**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A cDNA library is a collection of cloned **complementary DNA (cDNA)** molecules synthesised from the **mRNA** of a specific cell type, tissue, or developmental stage. Because it is derived from mRNA, a cDNA library represents only the _expressed genes_ — those actively transcribed at the time of RNA isolation."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Source: mRNA**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Unlike a genomic library that uses total DNA, a cDNA library uses **messenger RNA (mRNA)** as the starting material. mRNA represents only the transcribed and processed genes in a cell — it has already had its introns removed by splicing."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Role of Reverse Transcriptase**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The key enzyme in cDNA synthesis is reverse transcriptase (RNA-dependent DNA polymerase), derived from retroviruses. It performs the critical step of synthesising a **DNA strand (cDNA) from the mRNA template** — reversing the normal direction of the central dogma."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "warn",
+     "text": {
+      "en": "**Central Dogma Reversal:** Normal flow: DNA → RNA → Protein.\nReverse transcriptase catalyses: **mRNA → cDNA** (complementary DNA). This cDNA is a DNA copy of the mRNA — intron-free and ready for expression in bacteria."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Steps in Construction of a cDNA Library**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1**mRNA Isolation:** Total RNA is extracted from the target tissue. Poly-A mRNA is purified using **oligo-dT cellulose chromatography** — the poly-A tail of eukaryotic mRNA binds to the oligo-dT column, allowing selective isolation of mRNA from total RNA."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2**First-Strand cDNA Synthesis:** An **oligo-dT primer** (or random hexamer) anneals to the poly-A tail of mRNA. **Reverse transcriptase** extends the primer using the mRNA as template, synthesising a complementary DNA strand (first-strand cDNA), creating an mRNA:cDNA hybrid."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "3**RNA Removal:** The mRNA template is degraded using **RNase H** (which degrades RNA in an RNA:DNA hybrid) or alkaline hydrolysis (NaOH), leaving the single-stranded cDNA (ss-cDNA)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "4**Second-Strand cDNA Synthesis:** **DNA Polymerase I** (using RNase H to generate RNA primers) or Klenow fragment synthesises the second DNA strand, converting single-stranded cDNA to **double-stranded cDNA (ds-cDNA)**."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5**Linker/Adaptor Addition:** Restriction enzyme linkers or adaptors are ligated to the ends of the blunt-ended ds-cDNA, creating compatible ends for cloning into vectors."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "6**Insertion into Vector and Cloning:** The ds-cDNA is ligated into an appropriate vector (plasmid or lambda phage). The recombinant vectors are transformed into competent _E. coli_ cells and plated on selective media."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 2 — Construction of a cDNA Library"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "dna_library_genomic_cdna-d02",
+     "caption": {
+      "en": "cDNA library construction"
+     },
+     "labels": [
+      "Step 1: Isolate mRNA",
+      "AAAA(n)",
+      "5'",
+      "3'",
+      "mRNA template",
+      "Oligo-dT primer + Reverse Transcriptase",
+      "Step 2: First-Strand cDNA Synthesis",
+      "AAAA",
+      "TTTT",
+      "mRNA",
+      "cDNA",
+      "RNase H degrades mRNA strand",
+      "Step 3: Remove mRNA → ss-cDNA",
+      "ss-cDNA",
+      "5'",
+      "3'",
+      "DNA Polymerase I (second strand)",
+      "Step 4: Double-Stranded cDNA (ds-cDNA)",
+      "5'→3'",
+      "3'→5'",
+      "ds-cDNA (no introns — exons only)",
+      "Linker addition + ligation into vector",
+      "Step 5: Clone into Vector → cDNA Library",
+      "cDNA-1",
+      "Gene A",
+      "cDNA-2",
+      "Gene B",
+      "cDNA-3",
+      "Gene C",
+      "cDNA-4",
+      "Gene D",
+      "···",
+      "Only expressed",
+      "genes (no introns)",
+      "= cDNA Library (tissue-specific, intron-free)"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Characteristics of a cDNA Library**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Contains only **coding sequences** (exons) — no introns or non-coding DNA."
+      },
+      {
+       "en": "**Tissue-specific and condition-specific** — reflects the genes expressed in that particular cell type/condition."
+      },
+      {
+       "en": "Generally smaller than genomic libraries — only expressed genes are represented."
+      },
+      {
+       "en": "mRNA abundance affects representation — highly expressed genes are over-represented."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Advantages**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Intron-free — eukaryotic genes can be **expressed directly in bacterial hosts**."
+      },
+      {
+       "en": "Smaller and easier to screen compared to genomic libraries."
+      },
+      {
+       "en": "Reveals which genes are expressed in a particular tissue or developmental stage."
+      },
+      {
+       "en": "Useful for producing recombinant proteins (e.g., insulin, growth hormone)."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Limitations**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Does not contain promoters, introns, or regulatory sequences from the original gene."
+      },
+      {
+       "en": "Limited to genes expressed under the specific conditions at the time of mRNA isolation."
+      },
+      {
+       "en": "Low-abundance mRNAs may be under-represented or absent."
+      },
+      {
+       "en": "Requires high-quality RNA isolation (RNA is fragile and easily degraded by RNases)."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Applications**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Production of recombinant proteins in bacteria (intron-free cDNA can be directly expressed)."
+      },
+      {
+       "en": "Identification and characterisation of genes expressed in a specific tissue or disease state."
+      },
+      {
+       "en": "Microarray and RNA-Seq expression profiling studies."
+      },
+      {
+       "en": "Two-hybrid protein interaction screens using cDNA libraries."
+      },
+      {
+       "en": "Discovery of tissue-specific genes for diagnostic and therapeutic targets."
+      }
+     ]
+    }
+   ],
+   "icon": "🟢",
+   "label": "Section 4"
+  },
+  {
+   "id": "s07",
+   "title": {
+    "en": "Comparison: Genomic Library vs cDNA Library"
+   },
+   "blocks": [
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Feature"
+      },
+      {
+       "en": "Genomic DNA Library"
+      },
+      {
+       "en": "cDNA Library"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Source of DNA**"
+       },
+       {
+        "en": "Total genomic DNA from any nucleated cell"
+       },
+       {
+        "en": "mRNA converted to cDNA via reverse transcriptase"
+       }
+      ],
+      [
+       {
+        "en": "**Introns present?**"
+       },
+       {
+        "en": "Yes — contains introns and exons"
+       },
+       {
+        "en": "No — introns already removed by splicing"
+       }
+      ],
+      [
+       {
+        "en": "**Non-coding sequences**"
+       },
+       {
+        "en": "Yes — promoters, enhancers, intergenic DNA"
+       },
+       {
+        "en": "No — only coding (expressed) sequences"
+       }
+      ],
+      [
+       {
+        "en": "**Tissue specificity**"
+       },
+       {
+        "en": "Same in all tissues of the organism"
+       },
+       {
+        "en": "Tissue-specific and condition-specific"
+       }
+      ],
+      [
+       {
+        "en": "**Library size**"
+       },
+       {
+        "en": "Very large (hundreds of thousands to millions of clones)"
+       },
+       {
+        "en": "Smaller (thousands to tens of thousands of clones)"
+       }
+      ],
+      [
+       {
+        "en": "**Vectors used**"
+       },
+       {
+        "en": "Lambda phage, cosmids, BACs, YACs"
+       },
+       {
+        "en": "Plasmids, lambda phage (pUC, lambda gt10, gt11)"
+       }
+      ],
+      [
+       {
+        "en": "**Expression in prokaryotes**"
+       },
+       {
+        "en": "Difficult — eukaryotic introns cannot be spliced"
+       },
+       {
+        "en": "Yes — directly expressible in E. coli"
+       }
+      ],
+      [
+       {
+        "en": "**Gene regulatory info**"
+       },
+       {
+        "en": "Yes — full promoter and regulatory sequences"
+       },
+       {
+        "en": "No — only mRNA-derived coding sequence"
+       }
+      ],
+      [
+       {
+        "en": "**Screening complexity**"
+       },
+       {
+        "en": "Complex — large number of clones to screen"
+       },
+       {
+        "en": "Simpler — fewer clones, enriched for coding sequences"
+       }
+      ],
+      [
+       {
+        "en": "**Key applications**"
+       },
+       {
+        "en": "Genome mapping, gene structure, whole genome sequencing"
+       },
+       {
+        "en": "Gene expression studies, recombinant protein production"
+       }
+      ],
+      [
+       {
+        "en": "**Starting enzyme**"
+       },
+       {
+        "en": "Restriction endonuclease (or mechanical shearing)"
+       },
+       {
+        "en": "Reverse transcriptase (RNA → cDNA)"
+       }
+      ],
+      [
+       {
+        "en": "**Human Genome Project use**"
+       },
+       {
+        "en": "Primary tool — YAC and BAC genomic libraries used"
+       },
+       {
+        "en": "Used for expressed sequence tag (EST) projects"
+       }
+      ]
+     ]
+    }
+   ],
+   "icon": "📊",
+   "label": "Section 5"
+  },
+  {
+   "id": "s08",
+   "title": {
+    "en": "Library Construction: Concept Flow"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Click each step to reveal process details."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🔵 Genomic Library Path:"
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "1 🧬 Total DNA Isolation All chromosomal DNA is extracted from any cell of the organism. The source is the total genome — all chromosomes, all sequences."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "2 ✂️ Restriction Digestion Restriction enzymes (partially) cut genomic DNA into overlapping fragments of appropriate size (15–45 kb). Partial digestion ensures overlapping fragments for complete genome coverage."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "3 🔗 Ligation into Vector DNA fragments are ligated into lambda phage, cosmid, or YAC vectors using DNA ligase. Each vector carries one (or a few) genomic fragment(s)."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "4 🧫 Transform E. coli Recombinant vectors are introduced into E. coli by transformation or transduction (phage). Each transformed colony carries a unique genomic DNA fragment."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "5 📚 Genomic Library The complete collection of transformed colonies = the genomic library. Together they represent the entire genome of the organism. Stored at −70°C in glycerol stocks."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🟢 cDNA Library Path:"
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "1 📝 mRNA Isolation Poly-A mRNA is isolated from the specific tissue of interest using oligo-dT cellulose affinity chromatography. Only expressed genes' mRNAs are captured."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "2 🔄 Reverse Transcription Reverse transcriptase uses the mRNA as template to synthesise first-strand cDNA (mRNA → cDNA). RNase H then removes the mRNA, leaving single-stranded cDNA."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "3 🧬 Second Strand Synthesis DNA Polymerase I synthesises the second cDNA strand, converting ss-cDNA into ds-cDNA (double-stranded). Linkers/adaptors are added for cloning."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "4 🔗 Ligate into Vector ds-cDNA is ligated into a cloning vector (e.g., lambda gt11, pUC plasmid). The recombinant vector is transformed into E. coli host cells."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "5 🧫 cDNA Library All transformed colonies together = the cDNA library. Represents only expressed genes, tissue-specific, intron-free. Used for protein expression and gene discovery."
+      }
+     ]
+    }
+   ],
+   "icon": "🔄",
+   "label": "Section 6 — Flow Diagram"
+  },
+  {
+   "id": "s09",
+   "title": {
+    "en": "Step-by-Step cDNA Synthesis (Interactive)"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Click the step buttons or use Prev/Next to walk through cDNA synthesis. Each step shows a labeled SVG diagram and explanation."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Step 1: Isolate mRNA from Target Tissue**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Total RNA is extracted from the tissue of interest (e.g., pancreas). Poly-A mRNA is selectively purified using oligo-dT cellulose chromatography — the poly-A tail (AAAA...) of eukaryotic mRNA binds to the oligo-dT beads, while rRNA and tRNA pass through."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "dna_library_genomic_cdna-d04",
+     "caption": {
+      "en": "Step 1: Isolate mRNA from Target Tissue"
+     },
+     "labels": [
+      "Target",
+      "Tissue",
+      "Lysis +",
+      "Extraction",
+      "Oligo-dT",
+      "Column",
+      "rRNA / tRNA elutes",
+      "Poly-A mRNA (purified)",
+      "AAA"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Step 2: Oligo-dT Primer Anneals to Poly-A Tail**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "An oligo-dT primer (a short string of thymidines, TTTTTT...) is added to the purified mRNA. It binds by complementary base pairing (A-T) to the poly-A tail at the 3' end of the mRNA, providing a free 3'-OH group for reverse transcriptase to begin synthesis."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "dna_library_genomic_cdna-d05",
+     "caption": {
+      "en": "Step 2: Oligo-dT Primer Anneals to Poly-A Tail"
+     },
+     "labels": [
+      "5'",
+      "3'",
+      "mRNA template",
+      "AAAAAAA",
+      "TTTTTTT",
+      "5'",
+      "Oligo-dT primer annealed to poly-A tail",
+      "Primer provides 3'-OH for reverse transcriptase to extend from",
+      "⋮⋮⋮⋮⋮⋮⋮"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Step 3: Reverse Transcriptase Synthesises First-Strand cDNA**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Reverse transcriptase (RT) extends the oligo-dT primer in the 5'→3' direction, using the mRNA as template. It reads the mRNA 3'→5' and synthesises a complementary DNA strand. The result is an mRNA:cDNA hybrid duplex."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "dna_library_genomic_cdna-d06",
+     "caption": {
+      "en": "Step 3: Reverse Transcriptase Synthesises First-Strand cDNA"
+     },
+     "labels": [
+      "5'",
+      "3'",
+      "mRNA",
+      "AAAA",
+      "⋮⋮⋮⋮⋮⋮⋮",
+      "5'",
+      "cDNA (growing)",
+      "RT",
+      "Direction of",
+      "cDNA synthesis",
+      "3'",
+      "Result: mRNA:cDNA hybrid duplex"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Step 4: Degrade mRNA (RNase H Treatment)**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "RNase H (or NaOH alkaline hydrolysis) specifically degrades the RNA strand in the mRNA:cDNA hybrid duplex. This leaves behind the single-stranded cDNA (ss-cDNA). The ss-cDNA now serves as the template for second-strand synthesis."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "dna_library_genomic_cdna-d07",
+     "caption": {
+      "en": "Step 4: Degrade mRNA (RNase H Treatment)"
+     },
+     "labels": [
+      "mRNA (being degraded)",
+      "✂✂✂",
+      "RNase H",
+      "3'",
+      "5'",
+      "Single-stranded cDNA (ss-cDNA)",
+      "mRNA template removed → ss-cDNA template for second strand",
+      "(Intron-free — only exon sequences remain)"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Step 5: DNA Polymerase I Synthesises Second-Strand cDNA**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "DNA Polymerase I (using RNase H to generate short RNA primers from residual RNA fragments) synthesises the complementary second strand. The result is a double-stranded cDNA (ds-cDNA) representing the full coding sequence of the original mRNA."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "dna_library_genomic_cdna-d08",
+     "caption": {
+      "en": "Step 5: DNA Polymerase I Synthesises Second-Strand cDNA"
+     },
+     "labels": [
+      "3'",
+      "5'",
+      "First-strand cDNA (template)",
+      "| | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |",
+      "5'",
+      "3'",
+      "Second strand (synthesised by DNA Pol I)",
+      "DNA",
+      "Pol I",
+      "Synthesis direction 5'→3'",
+      "Result: Double-stranded cDNA (ds-cDNA) — no introns!"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Step 6: Linker Addition & Ligation into Vector**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Restriction enzyme linkers or adaptors are added to the blunt ends of ds-cDNA to create compatible cohesive ends. The cDNA is then ligated into a cloning vector (e.g., lambda gt11, pUC19). Recombinant vectors are transformed into E. coli, producing the cDNA library."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "dna_library_genomic_cdna-d09",
+     "caption": {
+      "en": "Step 6: Linker Addition & Ligation into Vector"
+     },
+     "labels": [
+      "ds-cDNA with restriction linkers (adaptors)",
+      "L",
+      "R",
+      "Ligation into vector + Transform E. coli",
+      "Vector+",
+      "cDNA-1",
+      "Vector+",
+      "cDNA-2",
+      "Vector+",
+      "cDNA-3",
+      "···",
+      "cDNA Library Complete!"
+     ]
+    }
+   ],
+   "icon": "🎬",
+   "label": "Section 7 — Interactive Animation"
+  },
+  {
+   "id": "s10",
+   "title": {
+    "en": "Vectors Used in DNA Libraries"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "The choice of vector depends on the size of DNA inserts needed and the host organism:"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "📎 Plasmids **Insert capacity:** Up to ~10 kb **Host:** E. coli **Examples:** pUC18/19, pBR322 **Use in libraries:** cDNA libraries (small inserts); expression of cloned cDNAs **Advantage:** Easy manipulation; high copy number; blue-white selection"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🦠 Lambda Phage **Insert capacity:** Up to ~23 kb **Host:** E. coli **Examples:** λgt10, λgt11, λEMBL3, λEMBL4 **Use in libraries:** Both genomic and cDNA libraries; λgt11 is a common cDNA expression vector **Advantage:** Very high transformation efficiency (~10⁸ plaques/µg DNA)"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "⭕ Cosmids **Insert capacity:** 35–45 kb **Host:** E. coli **Examples:** pJB8, sCos1, Lorist vectors **Use in libraries:** Genomic libraries (large chromosomal regions); physical mapping contigs **Advantage:** Large insert + plasmid-like selection; phage-mediated high-efficiency delivery"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🧫 YAC **Insert capacity:** 200–2,000 kb **Host:** Saccharomyces cerevisiae **Examples:** pYAC4 **Use in libraries:** Genomic libraries for large eukaryotic genomes; Human Genome Project **Advantage:** Largest insert capacity; essential for cloning megabase-scale DNA regions"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 3 — Comparative Insert Capacity of DNA Library Vectors"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "dna_library_genomic_cdna-d03",
+     "caption": {
+      "en": "Vector insert size comparison"
+     },
+     "labels": [
+      "0",
+      "10 kb",
+      "23 kb",
+      "45 kb",
+      "≥200 kb",
+      "Vector Type",
+      "Plasmid",
+      "up to 10 kb",
+      "Lambda Phage",
+      "up to 23 kb",
+      "Cosmid",
+      "35–45 kb",
+      "YAC",
+      "200–2000 kb →"
+     ]
+    }
+   ],
+   "icon": "🧰",
+   "label": "Section 8"
+  },
+  {
+   "id": "s11",
+   "title": {
+    "en": "Interactive Learning"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**📖 Genomic Library — Exam Key Points**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Genomic Library"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Source: **Total genomic DNA** from any tissue."
+      },
+      {
+       "en": "Contains: exons + introns + promoters + intergenic regions."
+      },
+      {
+       "en": "Same in all cell types of the organism."
+      },
+      {
+       "en": "Starting enzyme: **restriction endonuclease** (partial digestion)."
+      },
+      {
+       "en": "Vectors: lambda phage, cosmids, BACs, YACs."
+      },
+      {
+       "en": "Applications: genome sequencing, chromosome mapping, gene structure studies."
+      },
+      {
+       "en": "Limitation: eukaryotic introns prevent direct expression in bacteria."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Exam tip:** A genomic library from a mouse liver and a mouse brain will be _identical_ — all cells carry the same genome."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🧬 cDNA Library — Exam Key Points**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "cDNA Library"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Source: **mRNA** from a specific tissue/condition."
+      },
+      {
+       "en": "Contains: only coding sequences (exons) — intron-free."
+      },
+      {
+       "en": "Tissue-specific: liver cDNA library ≠ brain cDNA library."
+      },
+      {
+       "en": "Key enzyme: **reverse transcriptase** (mRNA → cDNA)."
+      },
+      {
+       "en": "Vectors: lambda gt10/gt11, plasmids (pUC series)."
+      },
+      {
+       "en": "Applications: protein expression in bacteria, EST projects, gene discovery."
+      },
+      {
+       "en": "Limitation: no regulatory/intron sequences; low-abundance mRNAs may be missed."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "tip",
+     "text": {
+      "en": "**Exam tip:** cDNA library from the pancreatic beta cells will be enriched for insulin mRNA — a highly expressed gene in that tissue."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔍 Screening a DNA Library — How to Find Your Gene**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Library Screening"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "After constructing a library, you must screen it to find the clone carrying your gene of interest. Methods include:"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Colony hybridization:** Colonies are blotted onto a nylon membrane and probed with a labelled DNA/RNA probe complementary to the gene of interest. Positive colonies are identified by autoradiography or fluorescence."
+      },
+      {
+       "en": "**Plaque hybridization:** Same principle but for phage (lambda) libraries using plaque lifts."
+      },
+      {
+       "en": "**Immunological screening:** For cDNA expression libraries (e.g., lambda gt11) — antibodies specific to the protein of interest are used to identify colonies expressing the protein."
+      },
+      {
+       "en": "**PCR screening:** PCR using gene-specific primers is applied directly to pooled library clones."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🏥 Role of DNA Libraries in Medicine and Research**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Applications"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Human Genome Project (1990–2003):** YAC and BAC genomic libraries were the backbone of the physical mapping and sequencing strategies."
+      },
+      {
+       "en": "**Recombinant insulin production:** A human pancreatic cDNA library was screened to isolate the insulin cDNA, which was then expressed in E. coli for large-scale production."
+      },
+      {
+       "en": "**Disease gene discovery:** cDNA libraries from cancerous vs normal tissues reveal differentially expressed genes — potential oncogenes or tumour suppressors."
+      },
+      {
+       "en": "**EST (Expressed Sequence Tag) projects:** Partial sequencing of cDNA library clones generated millions of ESTs — short signatures of expressed genes used to catalogue the human transcriptome."
+      },
+      {
+       "en": "**Drug target identification:** Screening cDNA libraries with antibodies or ligands identifies novel drug targets."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Click-to-Reveal Key Terms**"
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Reverse Transcriptase"
+     },
+     "answer": {
+      "en": "An RNA-dependent DNA polymerase from retroviruses. Synthesises a complementary DNA (cDNA) strand using mRNA as template (mRNA → cDNA). Essential enzyme for cDNA library construction."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Oligo-dT Primer"
+     },
+     "answer": {
+      "en": "A short synthetic DNA sequence consisting of thymidine residues (TTTTTT...). Anneals to the poly-A tail of eukaryotic mRNA, providing a primer for reverse transcriptase to initiate cDNA synthesis."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Poly-A Tail"
+     },
+     "answer": {
+      "en": "A stretch of adenine nucleotides (~150–250 nt) added to the 3' end of eukaryotic mRNA during post-transcriptional processing. Used to selectively purify mRNA from total RNA using oligo-dT cellulose columns."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "RNase H"
+     },
+     "answer": {
+      "en": "An enzyme that specifically degrades the RNA strand in an RNA:DNA hybrid. Used in cDNA synthesis to remove the mRNA template after first-strand cDNA synthesis, leaving single-stranded cDNA (ss-cDNA)."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "EST"
+     },
+     "answer": {
+      "en": "Expressed Sequence Tag — a short partial sequence (~300–500 bp) of a cDNA clone. Used to identify and catalogue expressed genes without sequencing the full gene. Millions of ESTs were generated from cDNA libraries to map the human transcriptome."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Clarke-Carbon Formula"
+     },
+     "answer": {
+      "en": "Formula used to calculate the number of clones needed for a representative genomic library: N = ln(1−P) / ln(1−f), where P = probability of finding any sequence (usually 0.99) and f = fractional genome size of each insert."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Chromosome Walking"
+     },
+     "answer": {
+      "en": "A technique that uses overlapping clones from a genomic library to navigate across a chromosomal region step-by-step. Each clone serves as a probe to find the next overlapping clone, \"walking\" along the chromosome toward a target gene."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Transformation"
+     },
+     "answer": {
+      "en": "The process of introducing foreign DNA (recombinant vector) into a competent host cell (usually E. coli). Successfully transformed cells take up the vector and are selected using antibiotic resistance or other markers on the vector."
+     }
+    }
+   ],
+   "icon": "🎮",
+   "label": "Section 9 — Interactive"
+  },
+  {
+   "id": "s12",
+   "title": {
+    "en": "Summary — Key Exam Points"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**DNA Library Definition**A collection of cloned DNA fragments in vectors stored in host cells, representing all or most of the genetic information of a source organism."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Two Types**Genomic library (total DNA, all sequences) and cDNA library (from mRNA, expressed genes only). Choose based on research purpose."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Genomic Library Source**Total genomic DNA from any nucleated cell. Contains exons + introns + non-coding sequences. Same regardless of tissue."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**cDNA Library Source**mRNA from a specific tissue/condition. Converted to cDNA by reverse transcriptase. Contains only expressed, intron-free sequences."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key Enzyme: RT**Reverse transcriptase (mRNA→cDNA). Derived from retroviruses. The defining enzyme of cDNA synthesis and cDNA library construction."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Genomic Fragmentation**Partial restriction enzyme digestion (not complete) is preferred to generate overlapping fragments for full genome coverage without gaps."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Vector Choice**Plasmid (<10 kb) → cDNA; Lambda phage (~23 kb) → cDNA and genomic; Cosmid (35–45 kb) → genomic; YAC (200–2000 kb) → large genomic."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Clarke-Carbon Formula**N = ln(1−P) / ln(1−f). Calculates number of clones needed for complete genome representation at probability P."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Screening Method**Colony/plaque hybridisation with labelled probe, immunological screening, or PCR is used to find the clone of interest from the library."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**HGP Connection**YAC and BAC genomic libraries were central to the Human Genome Project (1990–2003). EST projects used cDNA libraries."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**cDNA in Medicine**Human insulin cDNA (from pancreatic cDNA library) was expressed in E. coli to produce recombinant insulin — first recombinant therapeutic protein (1982)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Expression Advantage**cDNA can be directly expressed in prokaryotes (no introns to splice) — genomic library clones of eukaryotic genes cannot be directly expressed in E. coli."
+     }
+    }
+   ],
+   "icon": "📌",
+   "label": "Section 11"
+  },
+  {
+   "id": "s13",
+   "title": {
+    "en": "Glossary of Key Terms"
+   },
+   "blocks": [
+    {
+     "type": "glossary",
+     "term": {
+      "en": "DNA Library"
+     },
+     "definition": {
+      "en": "A collection of cloned DNA fragments (in vectors, inside host cells) that together represent the genetic information of a source organism. Exists as genomic library (total DNA) or cDNA library (expressed sequences)."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Genomic DNA"
+     },
+     "definition": {
+      "en": "The complete DNA content of an organism's cell, including all chromosomes with coding genes, introns, promoters, enhancers, repetitive sequences, and intergenic DNA. Present in all nucleated cells of the organism."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "cDNA (Complementary DNA)"
+     },
+     "definition": {
+      "en": "A DNA copy of an mRNA molecule, synthesised by reverse transcriptase. Contains only the coding (exon) sequences of a gene — no introns. Used in cDNA libraries and for expression of eukaryotic genes in prokaryotes."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Reverse Transcriptase"
+     },
+     "definition": {
+      "en": "An RNA-dependent DNA polymerase found in retroviruses (e.g., HIV, MMLV). Synthesises a complementary DNA (cDNA) strand from an mRNA template. Essential enzyme for cDNA synthesis and cDNA library construction."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Vector"
+     },
+     "definition": {
+      "en": "A DNA molecule (plasmid, bacteriophage, cosmid, or YAC) used to carry a foreign DNA fragment into a host cell where it can replicate. Must have an origin of replication, selectable marker, and restriction sites for cloning."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Transformation"
+     },
+     "definition": {
+      "en": "The uptake of foreign DNA by a bacterial cell. In library construction, recombinant vectors are introduced into competent E. coli by transformation. Successfully transformed cells are selected on antibiotic plates."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Cloning"
+     },
+     "definition": {
+      "en": "The process of inserting a DNA fragment into a vector and propagating it in host cells to produce many identical copies of the fragment. Forms the basis of DNA library construction."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Restriction Endonuclease"
+     },
+     "definition": {
+      "en": "An enzyme that recognises and cuts double-stranded DNA at specific palindromic sequences. Used in genomic library construction to fragment total DNA into cloneable pieces with compatible ends."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Poly-A Tail"
+     },
+     "definition": {
+      "en": "A stretch of ~150–250 adenosine residues added to the 3' end of eukaryotic mRNA after transcription. Used to selectively purify mRNA from total RNA using oligo-dT cellulose chromatography during cDNA library preparation."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "RNase H"
+     },
+     "definition": {
+      "en": "An enzyme that degrades the RNA strand of an RNA:DNA hybrid duplex. Used in cDNA synthesis to remove the mRNA template after first-strand cDNA synthesis, leaving single-stranded cDNA for second-strand synthesis."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "EST (Expressed Sequence Tag)"
+     },
+     "definition": {
+      "en": "A short partial sequence (300–500 bp) of a randomly selected cDNA clone. Used to identify genes without full sequencing. Millions of human ESTs generated from cDNA libraries helped catalogue the human transcriptome."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Chromosome Walking"
+     },
+     "definition": {
+      "en": "A technique for navigating across a chromosomal region using overlapping genomic library clones. Each new clone is used as a probe to identify the next overlapping clone, progressively moving along the chromosome toward a target gene."
+     }
+    }
+   ],
+   "icon": "📖",
+   "label": "Section 12"
+  },
+  {
+   "id": "s14",
+   "title": {
+    "en": "Frequently Asked University Exam Questions"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Click each question to expand the answer hints."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1. What is a DNA library? Distinguish between a genomic DNA library and a cDNA library.**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Define DNA library: a collection of cloned DNA fragments in vectors maintained in host cells; represents the genetic information of a source organism."
+      },
+      {
+       "en": "Genomic library: source = total genomic DNA; contains coding + non-coding + introns; tissue-independent; large number of clones needed."
+      },
+      {
+       "en": "cDNA library: source = mRNA (via reverse transcriptase → cDNA); contains only expressed, intron-free sequences; tissue-specific; smaller number of clones."
+      },
+      {
+       "en": "Key difference: genomic library has all genetic information; cDNA library has only information from actively transcribed genes at a specific time/tissue."
+      },
+      {
+       "en": "Practical difference: cDNA can be directly expressed in E. coli (no introns); genomic eukaryotic gene clones cannot."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**2. Describe the steps involved in the construction of a cDNA library. What is the role of reverse transcriptase?**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Step 1: Isolate poly-A mRNA from target tissue using oligo-dT cellulose affinity chromatography."
+      },
+      {
+       "en": "Step 2: First-strand cDNA synthesis — oligo-dT primer anneals to poly-A tail; reverse transcriptase synthesises cDNA using mRNA as template → mRNA:cDNA hybrid."
+      },
+      {
+       "en": "Step 3: Degrade mRNA using RNase H or NaOH → single-stranded cDNA remains."
+      },
+      {
+       "en": "Step 4: Second-strand synthesis — DNA Polymerase I synthesises complementary strand → ds-cDNA."
+      },
+      {
+       "en": "Step 5: Add restriction enzyme linkers/adaptors → ligate into vector (e.g., lambda gt11, pUC) → transform into E. coli."
+      },
+      {
+       "en": "Role of RT: catalyses mRNA → cDNA (RNA-dependent DNA polymerase); reverses central dogma; derived from retroviruses; requires primer (oligo-dT or random hexamer)."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**3. Explain the construction of a genomic DNA library. Why is partial digestion preferred over complete digestion?**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Steps: isolate total genomic DNA → partial restriction enzyme digestion → size selection → ligation into vector → transformation of E. coli → collection of clones = library."
+      },
+      {
+       "en": "Partial vs complete digestion: complete digestion always cuts at the same sites, missing regions between rare restriction sites; partial digestion produces overlapping, random fragments that together cover all sequences."
+      },
+      {
+       "en": "Overlapping inserts are needed for chromosome walking and physical mapping — complete digestion cannot provide this."
+      },
+      {
+       "en": "Library size calculated using Clarke-Carbon formula: N = ln(1−P) / ln(1−f)."
+      },
+      {
+       "en": "Vectors used: cosmids for 35–45 kb inserts; YACs for megabase inserts; lambda phage for ~20 kb inserts."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**4. Why is a cDNA library preferred over a genomic library for expressing eukaryotic genes in bacteria?**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Eukaryotic genes contain introns (non-coding intervening sequences) that are removed by splicing in eukaryotic cells."
+      },
+      {
+       "en": "Prokaryotes (bacteria) lack the splicing machinery (spliceosome) needed to remove introns from pre-mRNA."
+      },
+      {
+       "en": "If a genomic eukaryotic gene (with introns) is expressed in E. coli, the introns will be read as coding sequence → non-functional or truncated protein."
+      },
+      {
+       "en": "cDNA is derived from processed mRNA (introns already removed) → it represents only the coding sequence (exons) → can be directly and correctly translated in E. coli."
+      },
+      {
+       "en": "Example: human insulin cDNA expressed in E. coli produces functional insulin; human insulin genomic clone would not."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**5. Write a note on the applications of DNA libraries in biotechnology and medicine.**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Human Genome Project:** YAC and BAC genomic libraries provided overlapping clones for physical mapping and sequencing the 3.2 Gb human genome."
+      },
+      {
+       "en": "**Recombinant drug production:** Human insulin, growth hormone, erythropoietin cloned from cDNA libraries and expressed in bacteria/yeast for therapeutic use."
+      },
+      {
+       "en": "**Gene discovery:** cDNA libraries from diseased tissues (cancer, Alzheimer's) vs normal tissues identify differentially expressed genes — potential drug targets."
+      },
+      {
+       "en": "**EST (Expressed Sequence Tag) projects:** Partial sequencing of cDNA library clones generated millions of short gene markers cataloguing the human transcriptome."
+      },
+      {
+       "en": "**Chromosome walking:** Genomic libraries used to navigate chromosomal regions to isolate disease genes (e.g., cystic fibrosis gene isolated by chromosome walking in 1989)."
+      },
+      {
+       "en": "**Phage display:** cDNA libraries cloned into phage display vectors to identify protein–protein interactions and novel antibodies."
+      }
+     ]
+    }
+   ],
+   "icon": "🎓",
+   "label": "Section 13"
+  }
+ ],
+ "skipped": [
+  "quiz"
+ ],
+ "dropped": [
+  {
+   "selector": "nav",
+   "count": 1,
+   "sample": [
+    "Home Intro Types Genomic Library cDNA Library Comparison Flo"
+   ]
+  },
+  {
+   "selector": "footer",
+   "count": 1,
+   "sample": [
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh"
+   ]
+  },
+  {
+   "selector": ".cdna-steps-nav",
+   "count": 1,
+   "sample": []
+  },
+  {
+   "selector": ".cdna-progress",
+   "count": 1,
+   "sample": []
+  },
+  {
+   "selector": ".cdna-display",
+   "count": 1,
+   "sample": []
+  },
+  {
+   "selector": ".cdna-nav",
+   "count": 1,
+   "sample": [
+    "← Prev Next →"
+   ]
+  },
+  {
+   "selector": ".rh",
+   "count": 8,
+   "sample": [
+    "Click to reveal",
+    "Click to reveal",
+    "Click to reveal"
+   ]
+  }
+ ],
+ "extractor": "1"
+}

@@ -1,0 +1,1972 @@
+{
+ "id": "advanced_vectors_cosmid_yac_sv40_transposons",
+ "unit": "I",
+ "title": {
+  "en": "Advanced Vectors – Cosmid, YAC, SV40 & Transposons"
+ },
+ "sections": [
+  {
+   "id": "s01",
+   "title": {
+    "en": "Overview"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "B.Sc. Zoology / Biotechnology"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "title": {
+    "en": "Advanced Cloning Vectors"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Cosmid · YAC · Animal Vector (SV40) · Transposons as Vectors"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "An interactive academic resource covering advanced vector systems used in modern genetic engineering, genome mapping, and gene therapy — designed for undergraduate examination preparation and classroom teaching."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🎯 Learning Objectives**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Explain the limitations of simple plasmid vectors and the need for advanced vectors."
+      },
+      {
+       "en": "Describe the structure and features of cosmid vectors and their applications."
+      },
+      {
+       "en": "Define YAC and explain its components and uses in genome mapping."
+      },
+      {
+       "en": "Describe SV40 as an animal cell vector and its mechanism of gene transfer."
+      },
+      {
+       "en": "Explain transposons, their mechanism of transposition, and use as cloning vectors."
+      },
+      {
+       "en": "Compare all four advanced vector types using their key features and applications."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": {
+    "en": "Introduction to Advanced Vectors"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**What Is a Vector?**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A vector is a DNA molecule used to carry and deliver a foreign gene into a host cell, where it can be replicated and/or expressed. Simple vectors such as plasmids and bacteriophage lambda were developed first and remain important tools. However, they have significant limitations that led to the development of **advanced vectors**."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Limitations of Simple Plasmid Vectors**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Small insert capacity:** Plasmids typically accept only up to 5–10 kb of foreign DNA efficiently; large genes or genomic regions cannot be cloned."
+      },
+      {
+       "en": "**Prokaryotic host only:** Standard plasmids replicate in bacteria and cannot function in eukaryotic (animal or yeast) host cells."
+      },
+      {
+       "en": "**No integration:** Plasmids replicate episomally (separate from the chromosome) and can be lost during cell division; stable integration requires additional tools."
+      },
+      {
+       "en": "**Limited genome analysis:** Small insert sizes make constructing complete genomic libraries of large genomes impractical."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Need for Advanced Vectors**"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Advanced vectors were developed to:** carry very large DNA inserts (up to several hundred kb), function in eukaryotic hosts (yeast, animal cells, plants), integrate stably into the host genome, and enable the cloning of entire genes including their regulatory regions."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Cosmid"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Hybrid of plasmid + lambda cos sites. Accepts 35–45 kb inserts. Replicates in bacteria."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "YAC"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Yeast Artificial Chromosome. Accepts 200–2000 kb inserts. Replicates in yeast cells."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SV40"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Animal virus vector. Delivers genes into mammalian cells. Used in gene expression studies."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Transposon"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Mobile genetic elements. Insert themselves into chromosomes. Used for insertional mutagenesis and gene delivery."
+     }
+    }
+   ],
+   "icon": "🔬",
+   "label": "Section 1"
+  },
+  {
+   "id": "s04",
+   "title": {
+    "en": "Cosmid Vectors"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Definition**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A cosmid is a **hybrid cloning vector** that combines features of a plasmid with the **cos sites** of bacteriophage lambda. The name comes from _cos_ (cohesive end site) + _plasmid_. Cosmids were developed by Collins and Hohn in 1978."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Structure of a Cosmid**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Plasmid backbone:** Contains an _origin of replication (ori)_ for autonomous replication in _E. coli_, and at least one **selectable marker** (e.g., antibiotic resistance gene)."
+      },
+      {
+       "en": "**cos sites:** The 12-nucleotide cohesive end sequences from lambda phage are incorporated into the plasmid. These are essential for **in vitro packaging** into lambda phage heads."
+      },
+      {
+       "en": "**Restriction cloning sites (MCS):** Multiple cloning site for insertion of large foreign DNA fragments."
+      },
+      {
+       "en": "**Size of cosmid vector itself:** Only ~5–6 kb (small backbone), which is why it can accommodate very large inserts."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key Features**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Insert Capacity"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "35–45 kb of foreign DNA — far larger than ordinary plasmids (~5–10 kb) or lambda phage (~23 kb)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "In Vitro Packaging"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Cosmid recombinants are packaged into lambda phage heads in vitro and introduced into E. coli by phage transduction — very high efficiency."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Replication"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Replicates like a plasmid inside E. coli using the ori; not dependent on phage replication machinery."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Selection"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Transformed bacteria selected by antibiotic resistance markers carried on the plasmid backbone."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**How Cosmid Packaging Works**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": true,
+     "items": [
+      {
+       "en": "Large foreign DNA is cut with a restriction enzyme and ligated into the cosmid vector."
+      },
+      {
+       "en": "The recombinant cosmid (35–45 kb total) is packaged _in vitro_ into lambda phage head proteins (which require DNA between two cos sites, typically 37–52 kb in size)."
+      },
+      {
+       "en": "The packaged cosmid is used to infect _E. coli_ cells — entering via lambda's efficient injection mechanism."
+      },
+      {
+       "en": "Inside the cell, the cos sites are cleaved, and the cosmid circularizes and replicates as a plasmid."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Advantages**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Very large insert capacity (35–45 kb) — ideal for cloning whole genes including introns and regulatory regions."
+      },
+      {
+       "en": "High transformation efficiency due to phage-mediated delivery."
+      },
+      {
+       "en": "Stable plasmid replication in _E. coli_."
+      },
+      {
+       "en": "Widely used to construct **genomic libraries of complex organisms**."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Limitations**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Cannot accommodate inserts larger than ~45 kb (packaging size constraint)."
+      },
+      {
+       "en": "Works only in bacterial (_E. coli_) host cells."
+      },
+      {
+       "en": "Chimeric clones (multiple ligated fragments) can be a problem."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "tip",
+     "text": {
+      "en": "**Application:** Cosmids were used extensively in the **Human Genome Project** to construct genomic libraries and generate sequence-ready contigs (overlapping clone maps)."
+     }
+    }
+   ],
+   "icon": "⭕",
+   "label": "Section 2"
+  },
+  {
+   "id": "s05",
+   "title": {
+    "en": "Yeast Artificial Chromosome (YAC)"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Definition**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A Yeast Artificial Chromosome (YAC) is a vector constructed to behave like a functional eukaryotic chromosome inside _Saccharomyces cerevisiae_ (baker's yeast). It can accept and stably maintain enormous fragments of foreign DNA — from **200 kb to 2 Mb (2,000 kb)**. YACs were developed by Burke, Carle, and Olson in 1987."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Structure of a YAC**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A functional YAC must contain all the essential elements of a eukaryotic chromosome:"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Telomeres (TEL):** Repetitive DNA sequences at both ends of the linear YAC. Prevent chromosome degradation and are essential for linear chromosome stability. Derived from _Tetrahymena_ or yeast telomeric sequences."
+      },
+      {
+       "en": "**Centromere (CEN):** A sequence required for proper chromosome segregation during cell division (mitosis and meiosis). Ensures the YAC is distributed equally to daughter cells."
+      },
+      {
+       "en": "**Origin of replication (ARS — Autonomously Replicating Sequence):** Allows the YAC to replicate once per cell cycle in synchrony with the yeast chromosomes."
+      },
+      {
+       "en": "**Selectable markers:** Typically yeast nutritional markers (e.g., _TRP1_ and _URA3_) for selection in yeast, and a bacterial marker for propagation in _E. coli_."
+      },
+      {
+       "en": "**Restriction cloning sites:** For insertion of the large foreign DNA fragment."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "warn",
+     "text": {
+      "en": "**Key Formula:** A YAC = TEL + CEN + ARS + Selectable Markers + Cloning Site + TEL (plus the large foreign DNA insert between the two arms)"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**How a YAC Is Constructed**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": true,
+     "items": [
+      {
+       "en": "The YAC vector (linear or circular) is digested with restriction enzymes to generate **left arm** (TEL + CEN + ARS + marker) and **right arm** (TEL + marker)."
+      },
+      {
+       "en": "Large foreign DNA (200 kb–2 Mb) is inserted between the two arms using ligation."
+      },
+      {
+       "en": "The recombinant YAC is introduced into yeast spheroplasts by **transformation** (polyethylene glycol/calcium chloride method)."
+      },
+      {
+       "en": "Successful transformants are selected on selective media lacking the amino acids corresponding to the marker genes."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Features and Properties**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Insert Capacity"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "200 kb to 2,000 kb (2 Mb). Largest capacity of all standard cloning vectors."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Host"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Saccharomyces cerevisiae (baker's yeast). A simple eukaryote that can propagate in the lab."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Segregation"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "CEN ensures accurate distribution to daughter cells during mitosis — behaves like a real chromosome."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Instability"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "YACs can suffer from chimeric inserts (two unrelated fragments joined) and deletion of internal sequences — major limitation."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Applications**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Human Genome Project:** YAC libraries covered the entire human genome; used for physical mapping and sequencing."
+      },
+      {
+       "en": "**Cloning very large genes:** Genes spanning hundreds of kilobases (e.g., dystrophin at 2.4 Mb) can only be cloned in YACs."
+      },
+      {
+       "en": "**Chromosome walking:** Identifying overlapping YAC clones to navigate across chromosomal regions."
+      },
+      {
+       "en": "**Positional cloning:** Mapping and isolating disease genes by their chromosomal location."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Limitation:** YAC inserts are often chimeric (~50% of clones contain DNA from two non-contiguous regions) and unstable. BACs (Bacterial Artificial Chromosomes) and PACs later replaced YACs in genome sequencing projects due to greater stability."
+     }
+    }
+   ],
+   "icon": "🧫",
+   "label": "Section 3"
+  },
+  {
+   "id": "s06",
+   "title": {
+    "en": "Animal Vector – SV40 (Simian Virus 40)"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Definition**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SV40 (Simian Virus 40) is a small **double-stranded circular DNA virus** that naturally infects African green monkeys and can also infect certain human cells. It was one of the first animal viruses used as a **cloning vector** for introducing foreign genes into mammalian cells."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Source and Discovery**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SV40 was discovered in 1960 as a contaminant of early poliovirus vaccine preparations grown in rhesus monkey kidney cells. It became a crucial research tool in molecular biology for studying DNA replication, transcription, and cell transformation in animal cells."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Structure and Genome Features**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Genome size:** ~5,243 base pairs of circular double-stranded DNA."
+      },
+      {
+       "en": "**Capsid:** Non-enveloped icosahedral protein shell (45 nm diameter)."
+      },
+      {
+       "en": "**Early region:** Encodes _Large T antigen_ (LT-Ag) and _Small T antigen_. LT-Ag drives viral DNA replication and can transform cells."
+      },
+      {
+       "en": "**Late region:** Encodes structural proteins VP1, VP2, and VP3 (capsid proteins) — expressed after DNA replication begins."
+      },
+      {
+       "en": "**Origin of replication (ori):** A 64-bp sequence required for viral DNA replication, recognized by T antigen."
+      },
+      {
+       "en": "**Transcription regulatory region:** Contains promoters and enhancers used in recombinant expression vectors."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Two Infection Outcomes**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Permissive (lytic) infection:** In monkey (COS) cells, SV40 replicates freely, produces progeny virus, and eventually lyses the cell."
+      },
+      {
+       "en": "**Non-permissive (abortive) infection:** In mouse and human cells lacking T antigen, viral DNA integrates into the host chromosome, transforming the cell but not producing new virus."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Mechanism of Gene Transfer Using SV40 Vector**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": true,
+     "items": [
+      {
+       "en": "The **late region** (coding for capsid proteins) is removed from the SV40 genome and replaced with the **foreign gene of interest**."
+      },
+      {
+       "en": "The recombinant SV40 DNA retains the _ori_ and early region (or an artificial promoter)."
+      },
+      {
+       "en": "The recombinant virus is packaged using **helper virus** or a packaging cell line that provides the capsid proteins in trans."
+      },
+      {
+       "en": "The packaged recombinant SV40 infects mammalian host cells efficiently, delivering the foreign gene."
+      },
+      {
+       "en": "Inside the cell, the foreign gene can be **expressed transiently** (episomal) or **stably integrated** into the host chromosome."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**COS Cell System:** COS cells (CV-1 Origin, SV40) are monkey kidney cells stably expressing the SV40 Large T antigen. When recombinant SV40 vectors with ori are introduced into COS cells, they replicate to very high copy numbers — enabling high-level transient gene expression."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Applications**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Transient and stable expression of recombinant proteins in mammalian cells."
+      },
+      {
+       "en": "Study of gene function, RNA processing, and protein localization in animal cells."
+      },
+      {
+       "en": "SV40 promoter and enhancer sequences are used in many mammalian expression vectors (e.g., pcDNA3.1)."
+      },
+      {
+       "en": "Early gene therapy research and vaccine antigen production."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Limitations**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Insert capacity is small (~2.5 kb — limited by the capsid size ~5.2 kb genome)."
+      },
+      {
+       "en": "Requires helper virus or packaging cell line; safety concerns with wild-type SV40 (oncogenic potential)."
+      },
+      {
+       "en": "Largely replaced by safer and more efficient viral vectors (retroviruses, adenoviruses, AAV) in modern gene therapy."
+      }
+     ]
+    }
+   ],
+   "icon": "🦠",
+   "label": "Section 4"
+  },
+  {
+   "id": "s07",
+   "title": {
+    "en": "Transposons as Vectors"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Definition of Transposons**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Transposons (transposable elements, or \"jumping genes\") are **mobile DNA sequences** that can move from one location to another within a genome — or even between genomes — using a \"cut-and-paste\" or \"copy-and-paste\" mechanism. They were discovered by **Barbara McClintock** in maize in the 1940s (Nobel Prize 1983)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Types of Transposons**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Class I — Retrotransposons (copy-and-paste mechanism):** Transpose via an RNA intermediate; the transposon is first transcribed to RNA, then reverse-transcribed back to DNA, which is inserted at a new site. Examples: _Ty elements_ in yeast, _Alu_ and _LINE_ elements in humans."
+      },
+      {
+       "en": "**Class II — DNA Transposons (cut-and-paste mechanism):** Encode a _transposase_ enzyme that excises the transposon from its current location and inserts it at a new chromosomal site. Examples: _Tn3_, _Tn10_, _Tn5_ in bacteria; _P element_ in _Drosophila_; _Sleeping Beauty_ and _piggyBac_ in vertebrates."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Structure of a DNA Transposon**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Terminal Inverted Repeats (TIRs):** Short identical sequences at both ends of the transposon, in inverted orientation. Recognized and bound by transposase."
+      },
+      {
+       "en": "**Transposase gene:** Encodes the enzyme that catalyzes excision and reintegration."
+      },
+      {
+       "en": "**Target Site Duplications (TSDs):** Short direct repeats of the host DNA flanking the transposon, created upon insertion."
+      },
+      {
+       "en": "May also carry **additional genes** such as antibiotic resistance genes (in bacterial transposons)."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Mechanism of Transposition (Cut-and-Paste)**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": true,
+     "items": [
+      {
+       "en": "**Recognition:** Transposase enzyme recognizes and binds to the TIRs at both ends of the transposon."
+      },
+      {
+       "en": "**Excision:** Transposase cuts both DNA strands at each end of the transposon, excising it from the donor site. A double-strand break is left at the donor locus (usually repaired)."
+      },
+      {
+       "en": "**Target capture:** The transposase-bound transposon complex finds and binds to a target site in the genome (often AT-rich sequences)."
+      },
+      {
+       "en": "**Integration:** Transposase makes staggered cuts at the target site and ligates the transposon ends, inserting the transposon into the new location. Host DNA repair fills gaps, creating target site duplications."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Use of Transposons as Vectors in Genetic Engineering**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Insertional mutagenesis:** Transposons are delivered into a genome; random insertion disrupts host genes, creating mutants for phenotypic analysis. Used extensively in _Drosophila_ (P element) and zebrafish."
+      },
+      {
+       "en": "**Gene tagging:** The transposon acts as a molecular tag; disrupted genes are easily identified by using the transposon sequence as a probe."
+      },
+      {
+       "en": "**Stable gene delivery:** Engineered transposons (e.g., _Sleeping Beauty_, _piggyBac_) carry therapeutic genes and integrate stably into mammalian chromosomes — used in gene therapy research."
+      },
+      {
+       "en": "**Transposon delivery systems:** The _Tn5_ transposome system and _P element_ vectors are used for generating transgenic organisms."
+      },
+      {
+       "en": "**Next-generation sequencing library preparation:** Tn5 transposase is used in ATAC-seq and tagmentation-based library prep protocols."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "tip",
+     "text": {
+      "en": "**Sleeping Beauty (SB) Transposon:** A reconstructed \"ancient\" fish transposon, reactivated through molecular evolution. One of the most promising non-viral gene therapy vectors — integrates stably into mammalian genomes with near-random insertion preference (AT-rich TA dinucleotides)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Advantages of Transposons as Vectors**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "No size limitation from viral capsids — can carry larger genes than many viral vectors."
+      },
+      {
+       "en": "Stable genomic integration without viral machinery."
+      },
+      {
+       "en": "Can function in a wide range of host organisms (bacteria to mammals)."
+      },
+      {
+       "en": "Simple two-component system: transposon (carrying gene) + transposase (enzyme source)."
+      }
+     ]
+    }
+   ],
+   "icon": "🔀",
+   "label": "Section 5"
+  },
+  {
+   "id": "s08",
+   "title": {
+    "en": "Labeled Biological Diagrams"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "All diagrams are drawn with inline SVG — scalable, offline, and academically labeled. Hover over parts to highlight them."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 1 — Cosmid Vector Structure"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "advanced_vectors_cosmid_yac_sv40_transposons-d01",
+     "caption": {
+      "en": "Cosmid vector diagram"
+     },
+     "labels": [
+      "Cosmid",
+      "~5–6 kb backbone",
+      "+ 35–45 kb insert",
+      "cos site 1",
+      "(12-nt cohesive end)",
+      "cos site 2",
+      "(enables phage packaging)",
+      "amp",
+      "r",
+      "Antibiotic",
+      "resistance gene",
+      "MCS",
+      "Multiple cloning site",
+      "(foreign DNA inserted here)",
+      "ori",
+      "Origin of replication",
+      "(plasmid-type)",
+      "cos sites (lambda-derived)",
+      "Antibiotic resistance gene",
+      "Multiple cloning site (MCS)",
+      "Origin of replication"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 2 — Yeast Artificial Chromosome (YAC) Structure"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "advanced_vectors_cosmid_yac_sv40_transposons-d02",
+     "caption": {
+      "en": "YAC structure diagram"
+     },
+     "labels": [
+      "TEL",
+      "TRP1",
+      "marker",
+      "CEN",
+      "centromere",
+      "ARS",
+      "ori",
+      "Foreign DNA Insert",
+      "200 kb – 2,000 kb",
+      "URA3",
+      "marker",
+      "TEL",
+      "Telomere",
+      "(protects ends)",
+      "Centromere",
+      "(segregation)",
+      "ARS",
+      "(replication origin)",
+      "Telomere",
+      "Left arm",
+      "TRP1: selectable marker",
+      "Foreign DNA insert",
+      "Cloned between left and right arms",
+      "Right arm",
+      "URA3: selectable marker",
+      "Host: Saccharomyces cerevisiae (yeast) | Capacity: 200 kb – 2,000 kb"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 3 — SV40 Circular Genome and Viral Particle Structure"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "advanced_vectors_cosmid_yac_sv40_transposons-d03",
+     "caption": {
+      "en": "SV40 diagram"
+     },
+     "labels": [
+      "SV40",
+      "~5,243 bp",
+      "circular dsDNA",
+      "Early Region",
+      "Large T antigen (LT-Ag)",
+      "Small T antigen (ST-Ag)",
+      "DNA replication & cell transformation",
+      "Late Region",
+      "VP1, VP2, VP3",
+      "(capsid proteins)",
+      "ori",
+      "(replication origin)",
+      "T-antigen binding site",
+      "Regulatory Region",
+      "Promoter + Enhancer",
+      "SV40 Viral Particle",
+      "Icosahedral capsid, 45 nm",
+      "dsDNA + histones (minichromosome)",
+      "Non-enveloped",
+      "VP1 capsid (icosahedral)",
+      "Histone octamer (host histones)",
+      "= minichromosome inside virion"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 4 — DNA Transposon Structure and Cut-and-Paste Mechanism"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "advanced_vectors_cosmid_yac_sv40_transposons-d04",
+     "caption": {
+      "en": "Transposon mechanism diagram"
+     },
+     "labels": [
+      "A. Transposon Structure",
+      "TSD",
+      "left",
+      "TIR",
+      "left",
+      "Transposase gene",
+      "(+ cargo / gene of interest)",
+      "TIR",
+      "right",
+      "TSD",
+      "right",
+      "Target Site",
+      "Duplication (TSD)",
+      "TIR",
+      "(inverted repeat)",
+      "B. Cut-and-Paste Mechanism",
+      "Transposon",
+      "✂",
+      "Step 1:",
+      "Donor chromosome (transposon in situ)",
+      "Transposase excises",
+      "Transposon (excised)",
+      "Step 2:",
+      "Free transposon–transposase complex",
+      "Inserts at new target site",
+      "Transposon",
+      "Step 3:",
+      "Transposon integrated at new chromosomal location (TSDs flank the element)",
+      "Host DNA",
+      "Target DNA"
+     ]
+    }
+   ],
+   "icon": "🖼️",
+   "label": "Section 6 — Diagrams"
+  },
+  {
+   "id": "s09",
+   "title": {
+    "en": "Gene Transfer Flow: Advanced Vectors"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Click each step to reveal what happens at that stage."
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "1 🧬 Isolate Large DNA Fragment The gene of interest (which may be hundreds of kb in size) is isolated from the source organism's genomic DNA and digested with appropriate restriction enzymes to produce compatible ends."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "2 ✂️ Clone into Advanced Vector The large DNA fragment is ligated into the appropriate vector: Cosmid (35–45 kb), YAC (200 kb–2 Mb), SV40 (~2.5 kb), or a transposon-based system. The insert and vector are joined using DNA ligase."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "3 📦 Package or Prepare Cosmids: packaged in vitro into lambda phage heads. YACs: introduced as linear DNA into yeast spheroplasts. SV40: packaged into viral capsids using helper cell line. Transposons: delivered with transposase mRNA or protein."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "4 🧫 Introduce into Host Cell Cosmids → E. coli (phage transduction). YACs → S. cerevisiae (transformation). SV40 → mammalian cells (viral infection). Transposons → target organism (injection, electroporation, or viral delivery of transposon + transposase)."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "5 ✅ Select & Express Transformed cells are selected using antibiotic resistance (cosmid), nutritional markers (YAC), drug resistance (SV40 neo gene), or reporter genes (transposon). The foreign gene is replicated and expressed in the host."
+      }
+     ]
+    }
+   ],
+   "icon": "🔄",
+   "label": "Section 7 — Visual Flow"
+  },
+  {
+   "id": "s10",
+   "title": {
+    "en": "Comparison of Advanced Cloning Vectors"
+   },
+   "blocks": [
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Feature"
+      },
+      {
+       "en": "Cosmid"
+      },
+      {
+       "en": "YAC"
+      },
+      {
+       "en": "SV40"
+      },
+      {
+       "en": "Transposon"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Full Name**"
+       },
+       {
+        "en": "Cosmid (cos + plasmid)"
+       },
+       {
+        "en": "Yeast Artificial Chromosome"
+       },
+       {
+        "en": "Simian Virus 40"
+       },
+       {
+        "en": "Transposable Element (\"jumping gene\")"
+       }
+      ],
+      [
+       {
+        "en": "**Type**"
+       },
+       {
+        "en": "Hybrid vector (plasmid + cos)"
+       },
+       {
+        "en": "Artificial chromosome vector"
+       },
+       {
+        "en": "Animal virus vector"
+       },
+       {
+        "en": "Mobile genetic element vector"
+       }
+      ],
+      [
+       {
+        "en": "**Nucleic acid**"
+       },
+       {
+        "en": "Circular dsDNA"
+       },
+       {
+        "en": "Linear dsDNA"
+       },
+       {
+        "en": "Circular dsDNA (~5.2 kb)"
+       },
+       {
+        "en": "dsDNA (flanked by TIRs)"
+       }
+      ],
+      [
+       {
+        "en": "**Key structural elements**"
+       },
+       {
+        "en": "ori, ampr, cos sites, MCS"
+       },
+       {
+        "en": "TEL, CEN, ARS, selectable markers, MCS"
+       },
+       {
+        "en": "ori, Early (T-Ag), Late (VP1/2/3), regulatory region"
+       },
+       {
+        "en": "TIRs, transposase gene, TSD (host-derived)"
+       }
+      ],
+      [
+       {
+        "en": "**Insert capacity**"
+       },
+       {
+        "en": "35–45 kb"
+       },
+       {
+        "en": "200–2,000 kb"
+       },
+       {
+        "en": "~2.5 kb"
+       },
+       {
+        "en": "Variable; no strict capsid limit (typically up to ~10–15 kb practically)"
+       }
+      ],
+      [
+       {
+        "en": "**Host organism**"
+       },
+       {
+        "en": "_Escherichia coli_ (bacteria)"
+       },
+       {
+        "en": "_Saccharomyces cerevisiae_ (yeast)"
+       },
+       {
+        "en": "Mammalian cells (monkey, human)"
+       },
+       {
+        "en": "Bacteria, insects, plants, mammals (broad host range)"
+       }
+      ],
+      [
+       {
+        "en": "**Delivery method**"
+       },
+       {
+        "en": "In vitro phage packaging → transduction"
+       },
+       {
+        "en": "Transformation (PEG/CaCl₂) into yeast spheroplasts"
+       },
+       {
+        "en": "Viral infection of permissive cells"
+       },
+       {
+        "en": "Injection, electroporation, viral; requires transposase"
+       }
+      ],
+      [
+       {
+        "en": "**Integration into host genome?**"
+       },
+       {
+        "en": "No (replicates as plasmid)"
+       },
+       {
+        "en": "No (maintained as artificial chromosome)"
+       },
+       {
+        "en": "Yes (in non-permissive cells); episomal in COS cells"
+       },
+       {
+        "en": "Yes (stable chromosomal insertion)"
+       }
+      ],
+      [
+       {
+        "en": "**Key advantages**"
+       },
+       {
+        "en": "Large insert; high delivery efficiency; stable in E. coli"
+       },
+       {
+        "en": "Largest capacity; handles megabase-size DNA"
+       },
+       {
+        "en": "Infects mammalian cells; strong promoters; COS cell amplification"
+       },
+       {
+        "en": "Stable integration; broad host range; no viral sequences required"
+       }
+      ],
+      [
+       {
+        "en": "**Key limitations**"
+       },
+       {
+        "en": "Max ~45 kb; bacteria only; chimeric clones possible"
+       },
+       {
+        "en": "Chimeric and unstable inserts; yeast host only"
+       },
+       {
+        "en": "Small capacity (~2.5 kb); oncogenic potential; needs helper cell"
+       },
+       {
+        "en": "Random insertion (genotoxic risk); lower efficiency than some viral vectors"
+       }
+      ],
+      [
+       {
+        "en": "**Main applications**"
+       },
+       {
+        "en": "Genomic libraries; physical mapping; large gene cloning"
+       },
+       {
+        "en": "Human Genome Project; chromosome walking; megabase cloning"
+       },
+       {
+        "en": "Mammalian gene expression; protein production; gene function studies"
+       },
+       {
+        "en": "Insertional mutagenesis; gene tagging; stable gene therapy; transgenics"
+       }
+      ]
+     ]
+    }
+   ],
+   "icon": "📋",
+   "label": "Section 8"
+  },
+  {
+   "id": "s11",
+   "title": {
+    "en": "Interactive Learning"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**⭕ Cosmid — Key Points for Exams**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Hybrid Vector"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Cosmid = **plasmid backbone + lambda cos sites**."
+      },
+      {
+       "en": "Developed by **Collins and Hohn, 1978**."
+      },
+      {
+       "en": "Insert capacity: **35–45 kb**."
+      },
+      {
+       "en": "Two cos sites are needed for in vitro phage packaging (requires 37–52 kb total DNA between two cos sites)."
+      },
+      {
+       "en": "Replicates like a plasmid inside _E. coli_; does NOT produce phage particles after entry."
+      },
+      {
+       "en": "Used for constructing **genomic libraries** and **chromosome walking**."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Exam tip:** Always remember: cos sites enable packaging, ori enables plasmid replication. A cosmid is NOT a phage — it just borrows the phage packaging system for efficient delivery."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🧫 YAC — Key Points for Exams**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Artificial Chromosome"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Developed by **Burke, Carle, and Olson, 1987**."
+      },
+      {
+       "en": "Requires: **TEL + CEN + ARS + selectable markers**."
+      },
+      {
+       "en": "Insert capacity: **200 kb to 2,000 kb (2 Mb)** — largest of all vectors."
+      },
+      {
+       "en": "Host: _Saccharomyces cerevisiae_ (baker's yeast)."
+      },
+      {
+       "en": "Essential tool in the **Human Genome Project**."
+      },
+      {
+       "en": "Major limitation: **chimeric inserts** and **instability**. BACs later replaced YACs."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Exam tip:** CEN = centromere (segregation); ARS = autonomously replicating sequence (origin of replication in yeast); TEL = telomere (end protection). Memorize: CEN-ARS-TEL."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🦠 SV40 — Key Points for Exams**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Animal Virus Vector"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "SV40 = **Simian Virus 40**; discovered 1960."
+      },
+      {
+       "en": "Genome: **~5,243 bp circular dsDNA**; non-enveloped icosahedral capsid (45 nm)."
+      },
+      {
+       "en": "Early region: **Large T antigen** (drives DNA replication + cell transformation)."
+      },
+      {
+       "en": "Late region: **VP1, VP2, VP3** (capsid proteins)."
+      },
+      {
+       "en": "Insert capacity: **~2.5 kb** (capsid size constraint)."
+      },
+      {
+       "en": "**COS cells** (express Large T antigen) allow episomal amplification of SV40 vectors to very high copy numbers."
+      },
+      {
+       "en": "SV40 ori + promoter/enhancer sequences used in modern mammalian expression vectors."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Exam tip:** Two types of SV40 infection: **lytic** (permissive cells — monkey) and **transforming** (non-permissive cells — mouse, human). T antigen is the key regulatory protein."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔀 Transposons — Key Points for Exams**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Mobile Genetic Elements"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Discovered by **Barbara McClintock, 1940s** (Nobel Prize 1983) in maize (_Zea mays_)."
+      },
+      {
+       "en": "Two classes: **Class I** (retrotransposons, RNA intermediate) and **Class II** (DNA transposons, cut-and-paste)."
+      },
+      {
+       "en": "Key structural elements: **TIRs** (terminal inverted repeats) + **transposase gene** + **TSDs**."
+      },
+      {
+       "en": "Mechanism: **transposase** binds TIRs → excises transposon → inserts at new target site."
+      },
+      {
+       "en": "Examples: _Tn5_, _Tn10_ (bacteria); P element (Drosophila); _Sleeping Beauty_, _piggyBac_ (vertebrates)."
+      },
+      {
+       "en": "Applications: insertional mutagenesis, gene tagging, stable gene therapy, ATAC-seq library prep (Tn5)."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "tip",
+     "text": {
+      "en": "**Exam tip:** Transposons are NOT plasmids or viruses — they are DNA sequences that move within/between genomes. The key enzyme is **transposase**. \"Jumping genes\" is the colloquial term."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Click-to-Reveal Key Terms**"
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "cos Site"
+     },
+     "answer": {
+      "en": "A 12-nucleotide cohesive (sticky) end sequence from bacteriophage lambda. Incorporated into cosmids; essential for in vitro packaging of recombinant cosmid DNA into lambda phage heads for efficient delivery into E. coli."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Telomere (TEL)"
+     },
+     "answer": {
+      "en": "Repetitive DNA sequences at both ends of a eukaryotic linear chromosome. In YACs, telomeres prevent degradation of the artificial chromosome ends and are essential for structural stability in yeast cells."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Centromere (CEN)"
+     },
+     "answer": {
+      "en": "A chromosomal region required for accurate segregation of chromosomes during cell division. The CEN sequence in a YAC ensures it is correctly distributed to daughter cells during mitosis and meiosis in yeast."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "ARS"
+     },
+     "answer": {
+      "en": "Autonomously Replicating Sequence — the origin of replication in yeast. Allows the YAC to replicate once per cell cycle in synchrony with the host's own chromosomes without integrating into the yeast genome."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Transposition"
+     },
+     "answer": {
+      "en": "The process by which a transposable element (transposon) moves from one chromosomal location to another. DNA transposons use a cut-and-paste mechanism mediated by the transposase enzyme."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Large T Antigen"
+     },
+     "answer": {
+      "en": "A key regulatory protein encoded in the SV40 early region. Binds to the viral ori to initiate DNA replication; also suppresses host tumor suppressor proteins (p53, Rb), enabling cell transformation and immortalization."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "TIR"
+     },
+     "answer": {
+      "en": "Terminal Inverted Repeat — short DNA sequences at both ends of a transposon in inverted (mirror-image) orientation. Recognized and bound by the transposase enzyme; essential for excision and integration of the transposon."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Chimeric Insert"
+     },
+     "answer": {
+      "en": "A major artefact in YAC cloning where two or more non-contiguous DNA fragments are ligated together and cloned as if they were a single continuous genomic region. Seen in ~50% of YAC clones; limits accuracy of genome mapping."
+     }
+    }
+   ],
+   "icon": "🎮",
+   "label": "Section 9 — Interactive"
+  },
+  {
+   "id": "s12",
+   "title": {
+    "en": "Summary — Key Exam Points"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Cosmid Definition**Hybrid vector = plasmid backbone + lambda cos sites. Developed by Collins & Hohn (1978). Insert capacity: 35–45 kb."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**cos Sites**12-nt lambda phage cohesive ends incorporated into cosmid. Enable in vitro packaging into phage heads and highly efficient delivery into E. coli."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**YAC Definition**Yeast Artificial Chromosome. Developed 1987. Carries TEL + CEN + ARS + markers. Insert capacity: 200 kb – 2,000 kb."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**YAC Components**TEL = protects ends; CEN = segregation; ARS = replication origin in yeast. All three are mandatory for a functional YAC."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**SV40**Simian Virus 40. ~5,243 bp circular dsDNA. Early region (T antigens) + Late region (VP1, VP2, VP3) + ori. Insert capacity ~2.5 kb."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**COS Cells**Monkey kidney cells expressing SV40 Large T antigen. Allow episomal replication of SV40 vectors to high copy numbers for transient expression."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Transposons**Mobile DNA sequences (\"jumping genes\"). Discovered by Barbara McClintock in maize (Nobel 1983). Class I = retrotransposons; Class II = DNA transposons."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Transposase**Enzyme encoded by DNA transposons that mediates excision and re-insertion (cut-and-paste). Recognizes TIRs at both ends of the transposon."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Sleeping Beauty**Reconstructed ancient fish transposon. Used in non-viral gene therapy for stable gene delivery into mammalian cells. Inserts at TA dinucleotide sites."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Insert Capacity Ranking**Plasmid (<10 kb) < Cosmid (35–45 kb) < Lambda phage (23 kb) < SV40 (~2.5 kb) < YAC (200–2000 kb). Note: SV40 is smallest due to capsid constraint."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Genomic Libraries**Cosmids and YACs are used to build genomic libraries. YAC libraries were essential for the Human Genome Project (1990–2003)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**P Element**A Class II DNA transposon in Drosophila melanogaster. Widely used for insertional mutagenesis, gene tagging, and creation of transgenic flies."
+     }
+    }
+   ],
+   "icon": "📌",
+   "label": "Section 11"
+  },
+  {
+   "id": "s13",
+   "title": {
+    "en": "Glossary of Key Terms"
+   },
+   "blocks": [
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Cosmid"
+     },
+     "definition": {
+      "en": "A hybrid cloning vector that combines a plasmid origin of replication and selectable marker with the lambda phage cos sites for in vitro packaging. Accepts 35–45 kb inserts; replicates in E. coli."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "cos Site"
+     },
+     "definition": {
+      "en": "Twelve-nucleotide single-stranded cohesive (sticky) ends from bacteriophage lambda incorporated into cosmids. Required for in vitro packaging of cosmid DNA into phage heads and efficient delivery into E. coli by transduction."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "YAC (Yeast Artificial Chromosome)"
+     },
+     "definition": {
+      "en": "An artificially constructed chromosome containing telomeres (TEL), centromere (CEN), origin of replication (ARS), selectable markers, and a cloning site. Accepts 200 kb–2,000 kb inserts in Saccharomyces cerevisiae."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Telomere"
+     },
+     "definition": {
+      "en": "Repetitive DNA sequences (TTAGGG in humans) at the ends of linear chromosomes that protect them from degradation and fusion. In YACs, telomeres maintain structural stability and prevent end-to-end chromosome joining."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Centromere"
+     },
+     "definition": {
+      "en": "A chromosomal region required for correct segregation of chromosomes during mitosis and meiosis. Binds spindle microtubules via kinetochore proteins. Essential component of YAC for equal distribution to daughter cells."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Transposition"
+     },
+     "definition": {
+      "en": "The movement of a transposable element (transposon) from one chromosomal location to another, catalyzed by the transposase enzyme. DNA transposons use a cut-and-paste mechanism; retrotransposons use an RNA intermediate."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Transposase"
+     },
+     "definition": {
+      "en": "The enzyme encoded within a DNA transposon that recognizes the terminal inverted repeats (TIRs) and catalyzes excision from the donor site and integration into the new target site. Essential for transposition."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Vector"
+     },
+     "definition": {
+      "en": "A DNA molecule (plasmid, phage, artificial chromosome, or mobile element) used as a vehicle to carry a foreign gene into a host cell, where it can be replicated and/or expressed. Must have an origin of replication and selectable marker."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Insert"
+     },
+     "definition": {
+      "en": "The foreign DNA fragment (gene of interest) that is cloned into a vector for propagation and/or expression. The insert is ligated into the vector's multiple cloning site (MCS) after restriction enzyme digestion."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Host Cell"
+     },
+     "definition": {
+      "en": "The cell into which a recombinant vector is introduced. Provides cellular machinery for vector replication and gene expression. Different vectors require different hosts: bacteria, yeast, mammalian cells."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "TIR (Terminal Inverted Repeat)"
+     },
+     "definition": {
+      "en": "Short DNA sequences at both ends of a DNA transposon, in opposite (inverted) orientations. Recognized by transposase as the boundaries of the transposon element. Essential for excision and integration during transposition."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Large T Antigen (LT-Ag)"
+     },
+     "definition": {
+      "en": "The major SV40 early protein. Functions as a replication initiator by binding to the SV40 ori, and as a transforming protein by inhibiting host tumor suppressors p53 and Rb. Central to SV40 biology and COS cell systems."
+     }
+    }
+   ],
+   "icon": "📖",
+   "label": "Section 12"
+  },
+  {
+   "id": "s14",
+   "title": {
+    "en": "Frequently Asked University Exam Questions"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Click each question to reveal answer hints and key points."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1. What is a cosmid? Describe its structure and explain how it is used as a cloning vector.**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Define cosmid: hybrid vector = plasmid backbone + lambda cos sites. Coined from \"cos + plasmid.\""
+      },
+      {
+       "en": "Developed by Collins and Hohn (1978)."
+      },
+      {
+       "en": "Structure: ori (plasmid-type), antibiotic resistance gene, cos sites (two), MCS."
+      },
+      {
+       "en": "Mechanism: Large insert (35–45 kb) ligated into MCS → cosmid DNA (37–52 kb total) packaged in vitro into lambda heads → phage transduces E. coli → cos sites cleaved inside cell → cosmid circularizes → replicates as plasmid."
+      },
+      {
+       "en": "Applications: genomic libraries, chromosome walking, cloning large genes with regulatory regions."
+      },
+      {
+       "en": "Advantage over plasmids: much larger insert capacity; over lambda phage: stable plasmid maintenance after entry."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**2. Explain the structure of YAC. Why is it preferred for cloning very large DNA fragments?**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "YAC = Yeast Artificial Chromosome. Developed by Burke, Carle, and Olson (1987)."
+      },
+      {
+       "en": "Structure (linear DNA): TEL — (Left arm: TRP1 marker + CEN + ARS) — cloning site — (Right arm: URA3 marker) — TEL."
+      },
+      {
+       "en": "TEL: protects ends from degradation; CEN: ensures equal segregation to daughter cells; ARS: replication origin (replicates once per cell cycle in yeast)."
+      },
+      {
+       "en": "Insert capacity: 200 kb–2,000 kb — far larger than cosmids (35–45 kb), plasmids (<10 kb), or lambda phage (23 kb)."
+      },
+      {
+       "en": "Preferred because: some eukaryotic genes span hundreds of kb; entire gene loci including introns and regulatory regions can be cloned; essential for constructing complete genomic libraries of complex eukaryotes."
+      },
+      {
+       "en": "Used in the Human Genome Project; chromosome walking across large genomic regions."
+      },
+      {
+       "en": "Limitations: chimeric inserts (~50% of clones); instability; replaced by BACs for genome sequencing."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**3. Describe SV40 as an animal cell vector. What is the role of Large T antigen in SV40 biology?**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "SV40 (Simian Virus 40): small (~5,243 bp) circular dsDNA virus infecting monkey and human cells."
+      },
+      {
+       "en": "Genome regions: Early (Large T + Small T antigens) and Late (VP1, VP2, VP3 capsid proteins) + ori + regulatory region."
+      },
+      {
+       "en": "Large T antigen (LT-Ag): (i) Binds SV40 ori to initiate viral DNA replication; (ii) Inhibits tumor suppressors p53 and Rb → cell transformation and immortalization; (iii) Enables COS cell high-level expression system."
+      },
+      {
+       "en": "Vector use: late region removed → replaced with gene of interest → packaged using helper cell providing capsid proteins → infects mammalian cells → transient or stable expression."
+      },
+      {
+       "en": "COS cells (COS-1, COS-7): CV-1 monkey cells stably expressing LT-Ag; SV40 ori-containing vectors replicate episomally to very high copy numbers → high-level transient protein expression."
+      },
+      {
+       "en": "Insert capacity limited to ~2.5 kb due to viral capsid size constraint."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**4. What are transposons? Explain their mechanism of action and use as vectors in genetic engineering.**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Transposons = \"jumping genes\" — mobile DNA sequences that can move from one genomic location to another. Discovered by Barbara McClintock in maize (Nobel Prize 1983)."
+      },
+      {
+       "en": "Classification: Class I (retrotransposons, RNA intermediate, copy-and-paste); Class II (DNA transposons, transposase, cut-and-paste). For genetic engineering, Class II is mainly used."
+      },
+      {
+       "en": "Structure: TIR (left) — transposase gene — TIR (right); flanked by TSDs in host DNA."
+      },
+      {
+       "en": "Mechanism: (1) Transposase binds TIRs; (2) Excises transposon from donor; (3) Finds target site; (4) Makes staggered cuts at target; (5) Inserts transposon; (6) Host repair creates TSDs."
+      },
+      {
+       "en": "Uses as vectors: (a) Insertional mutagenesis — random disruption to create mutants; (b) Gene tagging — identify disrupted genes; (c) Stable gene therapy — Sleeping Beauty, piggyBac deliver therapeutic genes into mammalian chromosomes; (d) Tn5 transposome — library preparation for NGS."
+      },
+      {
+       "en": "Advantages: stable integration; broad host range; no viral components needed; no capsid size limit."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**5. Compare cosmid, YAC, SV40, and transposon vectors with respect to insert size, host, and applications.**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints — Write as a structured table or paragraph:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Cosmid:** Insert 35–45 kb; host = E. coli; application = genomic libraries, large gene cloning; advantage = high delivery efficiency via phage packaging."
+      },
+      {
+       "en": "**YAC:** Insert 200–2,000 kb; host = S. cerevisiae; application = Human Genome Project, megabase cloning, chromosome walking; advantage = largest capacity; limitation = chimeric inserts."
+      },
+      {
+       "en": "**SV40:** Insert ~2.5 kb; host = mammalian cells (monkey, human); application = gene expression studies, recombinant protein production in animal cells; advantage = strong promoter/enhancer; limitation = smallest capacity, oncogenic risk."
+      },
+      {
+       "en": "**Transposon:** Insert variable (no strict capsid limit, practically ~10–15 kb); host = bacteria to mammals (broad); application = insertional mutagenesis, gene tagging, gene therapy; advantage = stable integration, no viral sequences; limitation = random insertion (genotoxicity risk)."
+      },
+      {
+       "en": "For exams: draw a comparison table with columns: Vector | Insert size | Host | Key feature | Application."
+      }
+     ]
+    }
+   ],
+   "icon": "🎓",
+   "label": "Section 13"
+  }
+ ],
+ "skipped": [
+  "quiz"
+ ],
+ "dropped": [
+  {
+   "selector": "nav",
+   "count": 1,
+   "sample": [
+    "Home Intro Cosmid YAC SV40 Transposons Diagrams Flow Compari"
+   ]
+  },
+  {
+   "selector": "footer",
+   "count": 1,
+   "sample": [
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh"
+   ]
+  },
+  {
+   "selector": ".rh",
+   "count": 8,
+   "sample": [
+    "Click to reveal",
+    "Click to reveal",
+    "Click to reveal"
+   ]
+  }
+ ],
+ "extractor": "1"
+}

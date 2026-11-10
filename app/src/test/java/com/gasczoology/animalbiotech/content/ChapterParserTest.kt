@@ -5,6 +5,7 @@ import org.junit.Assert.assertNotNull
 import org.junit.Assert.assertNull
 import org.junit.Assert.assertTrue
 import org.junit.Test
+import java.io.File
 
 class ChapterParserTest {
     private fun chapter(blocks: String) = """
@@ -78,5 +79,22 @@ class ChapterParserTest {
         assertEquals("content/u1/atlas1_fundamentals_vectors.json", chapterAssetPath("atlas1_fundamentals_vectors.html", "I"))
         assertEquals("content/u4/hgp_ethics_ipr.json", chapterAssetPath("hgp_ethics_ipr.html", "IV"))
         assertEquals("content/u5/x.json", chapterAssetPath("x.html", "V"))
+    }
+
+    @Test fun unit1_generated_chapters_parse_cleanly_and_hold_all_32_diagrams() {
+        val dir = listOf("src/main/assets/content/u1", "app/src/main/assets/content/u1")
+            .map(::File).first { it.isDirectory }
+        val files = dir.listFiles { f -> f.extension == "json" }!!.sortedBy { it.name }
+        assertEquals(6, files.size)
+        var diagrams = 0
+        for (f in files) {
+            val r = parseChapter(f.readText())
+            assertTrue("${f.name}: ${r.warnings}", r.warnings.isEmpty())
+            val blocks = r.chapter!!.sections.flatMap { it.blocks }
+            assertTrue("${f.name} has no content", blocks.isNotEmpty())
+            assertTrue("${f.name} contains Unparsed blocks", blocks.none { it is Unparsed })
+            diagrams += blocks.count { it is Diagram }
+        }
+        assertEquals(32, diagrams)
     }
 }

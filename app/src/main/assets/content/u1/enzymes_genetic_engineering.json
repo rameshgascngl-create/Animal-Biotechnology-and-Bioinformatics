@@ -1,0 +1,1680 @@
+{
+ "id": "enzymes_genetic_engineering",
+ "unit": "I",
+ "title": {
+  "en": "Enzymes in Genetic Engineering"
+ },
+ "sections": [
+  {
+   "id": "s01",
+   "title": {
+    "en": "Overview"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "B.Sc. Zoology / Biotechnology"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "title": {
+    "en": "Enzymes in Genetic Engineering"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Restriction Enzymes & Enzymes Useful for Genetic Engineering"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A comprehensive interactive learning resource for undergraduate students — covering molecular scissors, DNA tools, and the enzymes that power modern biotechnology."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Learning Objectives**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Define restriction enzymes and explain their discovery and significance."
+      },
+      {
+       "en": "Describe palindromic sequences, sticky ends, and blunt ends."
+      },
+      {
+       "en": "Classify Types I, II, and III restriction enzymes."
+      },
+      {
+       "en": "Explain the mechanism of restriction enzyme action."
+      },
+      {
+       "en": "Describe DNA ligase, polymerase, reverse transcriptase, Taq polymerase, alkaline phosphatase, and nucleases."
+      },
+      {
+       "en": "Understand the roles of these enzymes in recombinant DNA technology and gene cloning."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": {
+    "en": "Introduction to Enzymes in Biotechnology"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**What Are Enzymes?**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Enzymes are **biological catalysts** — proteins (and in a few cases, RNA molecules called ribozymes) that speed up specific chemical reactions in living cells _without being consumed_ in the process. Each enzyme acts on a specific molecule called its substrate, fitting together like a lock and key."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**General Properties of Enzymes**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**High specificity:** Each enzyme catalyzes only one or a few related reactions."
+      },
+      {
+       "en": "**High efficiency:** Can process thousands of substrate molecules per second."
+      },
+      {
+       "en": "**Reusable:** Not consumed in the reaction; regenerated after each cycle."
+      },
+      {
+       "en": "**Sensitive to conditions:** Activity influenced by temperature, pH, and cofactors."
+      },
+      {
+       "en": "**Protein in nature:** Most enzymes are proteins; their three-dimensional shape determines their function."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Role of Enzymes in Molecular Biology and Biotechnology**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Enzymes are the **workhorses of molecular biology**. They enable scientists to:"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Cut DNA** at precise locations (restriction enzymes)."
+      },
+      {
+       "en": "**Join DNA fragments** from different sources (DNA ligase)."
+      },
+      {
+       "en": "**Copy and amplify DNA** for analysis and cloning (DNA polymerases, Taq polymerase)."
+      },
+      {
+       "en": "**Convert RNA to DNA** for studying gene expression (reverse transcriptase)."
+      },
+      {
+       "en": "**Modify DNA ends** to control cloning efficiency (alkaline phosphatase)."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Key Insight:** Without these specialized enzymes, modern biotechnology — including gene cloning, PCR, gene therapy, and transgenic organisms — would be impossible."
+     }
+    }
+   ],
+   "icon": "🔬",
+   "label": "Section 1"
+  },
+  {
+   "id": "s04",
+   "title": {
+    "en": "Restriction Enzymes"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Definition**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Restriction enzymes (also called restriction endonucleases) are enzymes that recognize specific, short DNA sequences and cleave both strands of the DNA at or near the recognition site."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Discovery and Significance**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "In the early 1970s, **Werner Arber** (Switzerland) discovered that bacteria produce enzymes that \"restrict\" the growth of foreign viruses (bacteriophages) by cutting their DNA. **Hamilton Smith** isolated the first restriction enzyme (_HindII_) in 1970. **Daniel Nathans** first used restriction enzymes to construct a genetic map. All three scientists shared the **Nobel Prize in Physiology or Medicine in 1978** for this discovery."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Biological Role:** In bacteria, restriction enzymes act as a defense mechanism against foreign (viral) DNA. The bacterium's own DNA is protected from cleavage by _methylation_ of bases at restriction sites."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Why Are They Called \"Molecular Scissors\"?**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Just as scissors cut paper at a specific point, restriction enzymes cut DNA at precise, defined sequences with extreme accuracy. This makes them invaluable tools for manipulating DNA in the laboratory — hence the name **molecular scissors**."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Recognition Sequence**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A recognition sequence is a specific 4 to 8 base pair sequence of DNA that a restriction enzyme identifies and binds to before cutting. Most commonly used restriction enzymes recognize **4-base or 6-base** palindromic sequences."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Palindromic Sequence**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A palindromic sequence in DNA is one where the nucleotide sequence on the **5' to 3' strand reads the same as the complementary strand read in the 5' to 3' direction**."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "warn",
+     "text": {
+      "en": "**Example — EcoRI recognition site:**\n5'–G A A T T C–3'\n3'–C T T A A G–5'\nReading the top strand 5' to 3': **GAATTC**\nReading the bottom strand 5' to 3': **GAATTC** — same! This is the palindromic property."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Sticky Ends and Blunt Ends**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Sticky Ends (Cohesive Ends)**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Before EcoRI cleavage:"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5'–G|AATTC–3' 3'–CTTAA|G–5'"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "↓ EcoRI cuts ↓"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "After cleavage — two fragments with overhangs:"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5'–G AATTC–3' 3'–CTTAA G–5'"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "4-nt 5' overhangs: –AATT–"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The staggered cut leaves short single-stranded overhangs that can hydrogen-bond with complementary sequences — making them \"sticky\" for efficient joining of DNA fragments."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Blunt Ends**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Before SmaI cleavage:"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5'–GGG|CCC–3' 3'–CCC|GGG–5'"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "↓ SmaI cuts ↓"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "After cleavage — two blunt-ended fragments:"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5'–GGG CCC–3' 3'–CCC GGG–5'"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "No overhangs — fully base-paired ends"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The straight cut leaves no single-stranded overhangs. Both strands are cut at exactly the same position, producing fully double-stranded ends. Less efficient for ligation."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Types of Restriction Enzymes**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Type I Recognize specific sequences but cut DNA randomly, far from the recognition site. Require ATP, Mg²⁺, and S-adenosylmethionine. Less useful in genetic engineering."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Type II ⭐ Recognize and cut DNA at or near the palindromic recognition site. Cut both strands precisely. Do NOT require ATP. ⭐ Widely used in recombinant DNA technology."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Type III Recognize specific sequences and cut approximately 25 bp away. Require ATP. Produce short 5' overhangs. Intermediate utility in genetic engineering."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Common Examples of Restriction Enzymes**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Enzyme"
+      },
+      {
+       "en": "Source Organism"
+      },
+      {
+       "en": "Recognition Sequence"
+      },
+      {
+       "en": "Cut Type"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**EcoRI**"
+       },
+       {
+        "en": "_Escherichia coli_ RY13"
+       },
+       {
+        "en": "5'–G↓AATTC–3'"
+       },
+       {
+        "en": "Sticky ends (5' overhang)"
+       }
+      ],
+      [
+       {
+        "en": "**HindIII**"
+       },
+       {
+        "en": "_Haemophilus influenzae_ Rd"
+       },
+       {
+        "en": "5'–A↓AGCTT–3'"
+       },
+       {
+        "en": "Sticky ends (5' overhang)"
+       }
+      ],
+      [
+       {
+        "en": "**BamHI**"
+       },
+       {
+        "en": "_Bacillus amyloliquefaciens_ H"
+       },
+       {
+        "en": "5'–G↓GATCC–3'"
+       },
+       {
+        "en": "Sticky ends (5' overhang)"
+       }
+      ],
+      [
+       {
+        "en": "**SmaI**"
+       },
+       {
+        "en": "_Serratia marcescens_"
+       },
+       {
+        "en": "5'–GGG↓CCC–3'"
+       },
+       {
+        "en": "Blunt ends"
+       }
+      ],
+      [
+       {
+        "en": "**PstI**"
+       },
+       {
+        "en": "_Providencia stuartii_"
+       },
+       {
+        "en": "5'–CTGCA↓G–3'"
+       },
+       {
+        "en": "Sticky ends (3' overhang)"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "_Naming convention:_ The enzyme name is derived from the source organism. Example: **Eco**RI = _Escherichia coli_ strain R, first enzyme isolated."
+     }
+    }
+   ],
+   "icon": "✂️",
+   "label": "Section 2"
+  },
+  {
+   "id": "s05",
+   "title": {
+    "en": "Mechanism of Restriction Enzyme Action"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Step-by-Step: How Restriction Enzymes Work**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": true,
+     "items": [
+      {
+       "en": "**Scanning:** The restriction enzyme slides along the double-stranded DNA, scanning for its specific recognition sequence."
+      },
+      {
+       "en": "**Recognition:** When the enzyme encounters its palindromic recognition site, it binds tightly to the DNA through specific hydrogen bonds between the enzyme's amino acids and the DNA bases."
+      },
+      {
+       "en": "**Bending:** The enzyme causes a conformational change — the DNA is slightly bent — which positions the scissile phosphodiester bonds near the catalytic site."
+      },
+      {
+       "en": "**Cleavage:** The enzyme cleaves both strands of the DNA. Type II enzymes typically cut within or adjacent to the recognition sequence, using Mg²⁺ ions as essential cofactors."
+      },
+      {
+       "en": "**Release:** The two DNA fragments are released, and the enzyme is free to act on another DNA molecule."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Cleavage Pattern**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Symmetrical (staggered) cuts** produce sticky ends with single-stranded overhangs (e.g., EcoRI, BamHI, HindIII)."
+      },
+      {
+       "en": "**Straight cuts** at the axis of symmetry produce blunt ends (e.g., SmaI, EcoRV)."
+      },
+      {
+       "en": "**5' overhangs** (most common) occur when the cut is offset toward the 5' end of each strand."
+      },
+      {
+       "en": "**3' overhangs** occur when the cut is offset toward the 3' end (e.g., PstI, KpnI)."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Importance of Precise Cutting in Recombinant DNA Technology**"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "tip",
+     "text": {
+      "en": "**Why precision matters:**\n• Precise cuts allow **specific gene fragments** to be isolated without damaging the gene of interest.\n• Sticky ends produced by the same enzyme can be joined by **DNA ligase**, enabling directed cloning.\n• The same restriction enzyme used on both the **insert DNA and vector** ensures compatible ends for ligation.\n• Restriction mapping allows scientists to **locate genes** and create **genomic libraries**."
+     }
+    }
+   ],
+   "icon": "⚙️",
+   "label": "Section 3"
+  },
+  {
+   "id": "s06",
+   "title": {
+    "en": "Enzymes Useful for Genetic Engineering"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Click on each enzyme to expand and learn about its function and role."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1. DNA Ligase — The Molecular Glue**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Joining Enzyme"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "DNA ligase catalyzes the formation of a **phosphodiester bond** between the 3'-OH of one DNA fragment and the 5'-phosphate of another, effectively **sealing nicks or joining two DNA fragments** into a continuous molecule."
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Source:** T4 bacteriophage (T4 DNA ligase), _E. coli_"
+      },
+      {
+       "en": "**Cofactor:** ATP (T4 ligase) or NAD⁺ (_E. coli_ ligase)"
+      },
+      {
+       "en": "**Key role:** Joins the insert DNA to the vector to form **recombinant DNA**"
+      },
+      {
+       "en": "**Works on:** Both sticky ends and blunt ends (blunt-end ligation is less efficient)"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Analogy:** If restriction enzymes are the scissors that cut DNA, DNA ligase is the \"molecular glue\" that sticks the pieces back together in a precise and covalent manner."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**2. DNA Polymerase — The Copying Machine**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Synthesis Enzyme"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "DNA polymerases synthesize new DNA strands by adding deoxyribonucleotides to a growing chain in the **5' to 3' direction**, using a template strand and a primer."
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**DNA Polymerase I (_E. coli_):** Used to fill gaps in DNA and for nick translation in probe labeling."
+      },
+      {
+       "en": "**Klenow fragment:** Large fragment of DNA Pol I; lacks 5' to 3' exonuclease activity; used to fill 5' overhangs to create blunt ends."
+      },
+      {
+       "en": "**T4 DNA Polymerase:** Has strong 3' to 5' exonuclease activity; used to create blunt ends from recessed 3' ends."
+      },
+      {
+       "en": "**Key roles:** DNA repair, cDNA synthesis, probe labeling, and PCR (via Taq polymerase)."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**3. Reverse Transcriptase — The RNA-to-DNA Copier**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "RNA to DNA Enzyme"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Reverse transcriptase (RT) synthesizes a **complementary DNA (cDNA)** strand from an mRNA template — the reverse of the normal flow of genetic information."
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Source:** Retroviruses (e.g., HIV, Moloney murine leukemia virus)"
+      },
+      {
+       "en": "**Activities:** RNA-dependent DNA polymerase activity + RNase H (degrades RNA in an RNA:DNA hybrid)"
+      },
+      {
+       "en": "**Key role:** Produces cDNA from mRNA for cloning expressed genes without introns"
+      },
+      {
+       "en": "**Application:** RT-PCR for detecting gene expression; cDNA library construction"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "warn",
+     "text": {
+      "en": "**Why use cDNA?** Prokaryotic hosts (like _E. coli_) cannot splice introns. cDNA made from processed mRNA contains only exon sequences — ready for expression in bacterial systems."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**4. Alkaline Phosphatase — The Self-Ligation Preventer**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "End-Modification Enzyme"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Alkaline phosphatase removes the **5'-phosphate group** from the ends of linearized DNA molecules (vectors or fragments)."
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Sources:** Calf intestinal alkaline phosphatase (CIAP), shrimp alkaline phosphatase (SAP)"
+      },
+      {
+       "en": "**Key role:** **Prevents self-ligation** of linearized vector DNA, ensuring that insert DNA must be incorporated for ligation to occur"
+      },
+      {
+       "en": "**Result:** Increases cloning efficiency by reducing background colonies with no insert"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "tip",
+     "text": {
+      "en": "**Important in cloning:** After treating the vector with alkaline phosphatase, it cannot re-ligate with itself. Only when insert DNA (which retains its 5'-phosphate) is added can ligation occur — forcing the formation of recombinant DNA."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**5. Taq Polymerase — The PCR Workhorse**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "PCR Enzyme"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Taq polymerase is a thermostable DNA polymerase originally isolated from **_Thermus aquaticus_**, a bacterium living in hot springs at approximately 70 to 75°C. It can withstand the high temperatures used in PCR (up to 95°C)."
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Source:** _Thermus aquaticus_ (hot springs bacterium)"
+      },
+      {
+       "en": "**Optimal temperature:** Approximately 72°C"
+      },
+      {
+       "en": "**Key role:** DNA synthesis during the extension step of **PCR (Polymerase Chain Reaction)**"
+      },
+      {
+       "en": "**Property:** Thermostable — survives repeated heat denaturation cycles at 94 to 95°C"
+      },
+      {
+       "en": "**Limitation:** Lacks 3' to 5' proofreading exonuclease activity (higher error rate than proofreading polymerases)"
+      },
+      {
+       "en": "**Application:** DNA amplification, sequencing, diagnostic PCR, RFLP analysis"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**6. Nucleases — The DNA/RNA Degraders**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Degradation Enzymes"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Nucleases are enzymes that cleave nucleic acids (DNA or RNA). They are classified based on their mode of action:"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Endonucleases:** Cut within the DNA or RNA chain (e.g., restriction enzymes, DNase I)"
+      },
+      {
+       "en": "**Exonucleases:** Digest nucleic acids from the free ends (e.g., Exonuclease III, S1 nuclease)"
+      },
+      {
+       "en": "**RNase A:** Degrades single-stranded RNA; used to remove RNA contamination from DNA preparations"
+      },
+      {
+       "en": "**S1 nuclease:** Degrades single-stranded DNA or RNA; used in cDNA cloning to remove hairpin loops"
+      },
+      {
+       "en": "**DNase I:** Non-specifically cleaves double-stranded DNA; used in nick translation and RNA preparation"
+      }
+     ]
+    }
+   ],
+   "icon": "🧪",
+   "label": "Section 4"
+  },
+  {
+   "id": "s07",
+   "title": {
+    "en": "Role of These Enzymes in Genetic Engineering"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**1. Cutting DNA**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Restriction enzymes** cut the chromosomal DNA of the organism containing the gene of interest AND the vector DNA at the same restriction sites, producing compatible sticky or blunt ends essential for cloning."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**2. Joining DNA Fragments**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**DNA ligase** covalently joins the gene-of-interest fragment to the vector DNA through phosphodiester bond formation, creating the **recombinant DNA molecule (rDNA)**. This is the core step of gene cloning."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**3. Amplifying DNA**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Taq polymerase** enables **PCR**, which can amplify a single DNA molecule to billions of copies in just a few hours. This is essential for obtaining sufficient DNA for cloning, sequencing, and analysis."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**4. Synthesizing Complementary DNA (cDNA)**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Reverse transcriptase** converts mRNA into cDNA using mRNA as a template. This cDNA represents only the expressed, intron-free coding sequence of a gene — ideal for expression in prokaryotic systems."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**5. Preventing Self-Ligation**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Alkaline phosphatase** removes 5'-phosphate groups from linearized vector DNA. Without these groups, the vector cannot re-ligate with itself, forcing it to incorporate the insert DNA during ligation — significantly reducing background and improving cloning efficiency."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**6. Gene Cloning Applications**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Production of **recombinant proteins** (e.g., insulin, growth hormone, erythropoietin)"
+      },
+      {
+       "en": "Construction of **genomic and cDNA libraries**"
+      },
+      {
+       "en": "Development of **transgenic organisms** for research and agriculture"
+      },
+      {
+       "en": "**Gene therapy** — delivering functional genes to treat genetic disorders"
+      },
+      {
+       "en": "**DNA fingerprinting** and forensic analysis"
+      },
+      {
+       "en": "**Genome editing** with tools like CRISPR-Cas9"
+      }
+     ]
+    }
+   ],
+   "icon": "🔧",
+   "label": "Section 5"
+  },
+  {
+   "id": "s08",
+   "title": {
+    "en": "Interactive Learning: Click to Reveal"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Click any card to reveal the key function of each enzyme or term."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "EcoRI"
+     },
+     "answer": {
+      "en": "Type II restriction endonuclease from _E. coli_. Recognizes 5'-GAATTC-3' and cuts to produce 4-nucleotide 5' sticky ends (-AATT overhangs)."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "DNA Ligase"
+     },
+     "answer": {
+      "en": "Seals nicks in DNA and joins two DNA fragments by forming phosphodiester bonds between 3'-OH and 5'-phosphate ends. Essential for creating recombinant DNA."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Reverse Transcriptase"
+     },
+     "answer": {
+      "en": "Synthesizes cDNA from an mRNA template. Used in RT-PCR and construction of cDNA libraries. Derived from retroviruses like HIV and MMLV."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Taq Polymerase"
+     },
+     "answer": {
+      "en": "Thermostable DNA polymerase from _Thermus aquaticus_. Withstands PCR denaturation cycles. Extends primers during extension step at approximately 72°C."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Alkaline Phosphatase"
+     },
+     "answer": {
+      "en": "Removes 5'-phosphate groups from DNA ends. Prevents vector self-ligation, thereby increasing recombinant clone efficiency in gene cloning."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "BamHI"
+     },
+     "answer": {
+      "en": "Type II restriction enzyme from _Bacillus amyloliquefaciens_. Recognizes 5'-GGATCC-3' and cuts to produce 5' sticky ends (-GATC overhangs)."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "HindIII"
+     },
+     "answer": {
+      "en": "Type II restriction enzyme from _Haemophilus influenzae_. Recognizes 5'-AAGCTT-3' and cuts to produce 5' sticky ends (-AGCT overhangs)."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Klenow Fragment"
+     },
+     "answer": {
+      "en": "Large fragment of _E. coli_ DNA Polymerase I. Lacks 5' to 3' exonuclease activity. Used to fill in 5' overhangs to create blunt ends and in probe labeling."
+     }
+    }
+   ],
+   "icon": "🎮",
+   "label": "Section 6 — Interactive"
+  },
+  {
+   "id": "s09",
+   "title": {
+    "en": "Recombinant DNA Technology — Step-by-Step Flow"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Click on each step to learn more about what happens at that stage."
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "1 🧬 Source DNA and Vector Prepared The genomic DNA containing the gene of interest and the plasmid vector are isolated. Both are ready to be treated with the same restriction enzyme."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "2 ✂️ Restriction Enzyme Cuts DNA The same restriction enzyme (e.g., EcoRI) cuts both the vector and source DNA at their palindromic recognition sequences, producing compatible sticky ends."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "3 🔍 Gene Fragment Obtained The desired gene fragment (insert) is isolated from the digested source DNA, for example by gel electrophoresis and gel extraction."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "4 🔗 DNA Ligase Joins Fragment to Vector T4 DNA ligase seals the compatible sticky ends of the insert and vector, forming covalent phosphodiester bonds and creating a continuous circular recombinant plasmid."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "5 🧫 Recombinant DNA Formed The recombinant DNA molecule (rDNA) — the vector now carrying the gene of interest — is ready for transformation into a host cell (e.g., E. coli) for cloning and expression."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Key Principle:** Using the same restriction enzyme on both the insert and vector ensures **complementary sticky ends** that anneal by hydrogen bonding, allowing DNA ligase to seal the gaps efficiently. This directed cloning ensures the insert is incorporated in a predictable orientation."
+     }
+    }
+   ],
+   "icon": "📊",
+   "label": "Section 7 — Visual Flow"
+  },
+  {
+   "id": "s10",
+   "title": {
+    "en": "Comparison Table: Enzymes in Genetic Engineering"
+   },
+   "blocks": [
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Enzyme"
+      },
+      {
+       "en": "Type / Source"
+      },
+      {
+       "en": "Function"
+      },
+      {
+       "en": "Role in Genetic Engineering"
+      },
+      {
+       "en": "Key Example"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Restriction Endonuclease**"
+       },
+       {
+        "en": "Endonuclease / Bacteria"
+       },
+       {
+        "en": "Recognizes and cleaves specific palindromic sequences in DNA"
+       },
+       {
+        "en": "Cuts both insert DNA and vector at compatible sites for cloning"
+       },
+       {
+        "en": "EcoRI, HindIII, BamHI"
+       }
+      ],
+      [
+       {
+        "en": "**DNA Ligase**"
+       },
+       {
+        "en": "Ligase / T4 phage, _E. coli_"
+       },
+       {
+        "en": "Forms phosphodiester bonds to join DNA fragments"
+       },
+       {
+        "en": "Seals recombinant DNA molecules; joins insert to vector"
+       },
+       {
+        "en": "T4 DNA Ligase"
+       }
+      ],
+      [
+       {
+        "en": "**Taq Polymerase**"
+       },
+       {
+        "en": "DNA Polymerase / _T. aquaticus_"
+       },
+       {
+        "en": "Thermostable DNA synthesis in 5' to 3' direction"
+       },
+       {
+        "en": "DNA amplification by PCR; copies target gene sequences"
+       },
+       {
+        "en": "Taq Pol (PCR)"
+       }
+      ],
+      [
+       {
+        "en": "**Reverse Transcriptase**"
+       },
+       {
+        "en": "RNA-dependent DNA Pol / Retroviruses"
+       },
+       {
+        "en": "Synthesizes DNA from RNA template (RNA to DNA)"
+       },
+       {
+        "en": "Produces cDNA from mRNA for cloning expressed genes"
+       },
+       {
+        "en": "MMLV-RT, HIV-RT"
+       }
+      ],
+      [
+       {
+        "en": "**Alkaline Phosphatase**"
+       },
+       {
+        "en": "Phosphatase / Calf intestine, Shrimp"
+       },
+       {
+        "en": "Removes 5'-phosphate groups from DNA ends"
+       },
+       {
+        "en": "Prevents vector self-ligation; improves cloning efficiency"
+       },
+       {
+        "en": "CIAP, SAP"
+       }
+      ],
+      [
+       {
+        "en": "**DNA Polymerase I (Klenow)**"
+       },
+       {
+        "en": "DNA Polymerase / _E. coli_"
+       },
+       {
+        "en": "DNA repair; filling in recessed 3' ends"
+       },
+       {
+        "en": "Creates blunt ends; used in probe labeling (nick translation)"
+       },
+       {
+        "en": "Klenow fragment"
+       }
+      ],
+      [
+       {
+        "en": "**S1 Nuclease**"
+       },
+       {
+        "en": "Endonuclease / _Aspergillus_"
+       },
+       {
+        "en": "Degrades single-stranded DNA and RNA"
+       },
+       {
+        "en": "Removes hairpin loops in cDNA synthesis; creates blunt ends"
+       },
+       {
+        "en": "S1 Nuclease"
+       }
+      ],
+      [
+       {
+        "en": "**DNase I**"
+       },
+       {
+        "en": "Endonuclease / Bovine pancreas"
+       },
+       {
+        "en": "Non-specifically cleaves both strands of double-stranded DNA"
+       },
+       {
+        "en": "Nick translation for probe labeling; removes DNA contamination"
+       },
+       {
+        "en": "DNase I"
+       }
+      ]
+     ]
+    }
+   ],
+   "icon": "📋",
+   "label": "Section 8"
+  },
+  {
+   "id": "s11",
+   "title": {
+    "en": "Summary — Key Exam Points"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick revision points most likely to appear in your university examinations."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Restriction Enzymes** Bacterial defense enzymes that cleave DNA at specific palindromic sequences. Called molecular scissors."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Palindromic Sequence** A DNA sequence that reads the same on both strands in the 5' to 3' direction. Example: GAATTC (EcoRI)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Type II RE — Most Important** Cut at or within recognition site. Do not require ATP. Produce defined, reproducible fragments."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Sticky Ends** Single-stranded overhangs after staggered cleavage. Facilitate directional and efficient cloning."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Blunt Ends** Produced by straight cuts (e.g., SmaI). No overhangs. Require less efficient blunt-end ligation."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**DNA Ligase** Joins DNA fragments via phosphodiester bonds. Uses ATP (T4) or NAD⁺ (E. coli). Creates recombinant DNA."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Taq Polymerase** Thermostable DNA polymerase. Source: _T. aquaticus_. Used in PCR. Optimal at 72°C."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Reverse Transcriptase** Makes cDNA from mRNA. From retroviruses. Used for cloning expressed genes without introns."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Alkaline Phosphatase** Removes 5'-phosphate from vector ends. Prevents self-ligation. Increases recombinant clone efficiency."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Nobel Prize 1978** Awarded to Werner Arber, Hamilton Smith, and Daniel Nathans for discovery and application of restriction enzymes."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**EcoRI** Cuts 5'-G-AATTC-3'. Produces 4-nt 5' sticky ends (-AATT). From _E. coli_ RY13."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**cDNA** Complementary DNA. Made by reverse transcriptase from mRNA. Contains no introns. Used for prokaryotic expression."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Other Important Terms to Remember**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Recombinant DNA (rDNA):** DNA formed by joining DNA from two different sources."
+      },
+      {
+       "en": "**Vector:** DNA molecule (plasmid, phage) used to carry foreign DNA into a host cell."
+      },
+      {
+       "en": "**Cloning:** Production of identical copies of a gene using a host organism."
+      },
+      {
+       "en": "**cDNA library:** A collection of cDNA clones representing mRNAs expressed in a tissue at a given time."
+      },
+      {
+       "en": "**PCR:** Polymerase Chain Reaction — in vitro DNA amplification using thermocycling with Taq polymerase."
+      }
+     ]
+    }
+   ],
+   "icon": "📌",
+   "label": "Section 10"
+  },
+  {
+   "id": "s12",
+   "title": {
+    "en": "Glossary of Key Terms"
+   },
+   "blocks": [
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Palindromic Sequence"
+     },
+     "definition": {
+      "en": "A double-stranded DNA sequence in which both strands read identically in the 5' to 3' direction; the basis for restriction enzyme recognition."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Sticky Ends"
+     },
+     "definition": {
+      "en": "Short single-stranded nucleotide overhangs produced by staggered restriction enzyme cuts. Also called cohesive ends. They can hydrogen-bond with complementary sequences for ligation."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Blunt Ends"
+     },
+     "definition": {
+      "en": "Fully double-stranded DNA ends with no overhangs, produced when a restriction enzyme cuts both strands at the same position within the recognition sequence."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Ligase"
+     },
+     "definition": {
+      "en": "An enzyme that catalyzes formation of covalent phosphodiester bonds between the 3'-OH of one DNA strand and the 5'-phosphate of another, joining two DNA fragments."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Vector"
+     },
+     "definition": {
+      "en": "A DNA molecule (e.g., plasmid, bacteriophage, cosmid) used to carry a foreign DNA fragment into a host cell for replication and/or expression."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Cloning"
+     },
+     "definition": {
+      "en": "The process of inserting a DNA fragment into a vector, introducing it into a host cell, and allowing the host to replicate, producing many identical copies of the DNA."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Recognition Sequence"
+     },
+     "definition": {
+      "en": "A specific short DNA sequence (usually 4 to 8 bp, palindromic) that is recognized and bound by a restriction endonuclease before cleavage of the DNA."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "cDNA"
+     },
+     "definition": {
+      "en": "Complementary DNA. Synthesized from an mRNA template by reverse transcriptase. Represents only the exon sequences (coding regions) with no introns."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Recombinant DNA"
+     },
+     "definition": {
+      "en": "DNA molecule formed by combining DNA sequences from two or more different organisms or sources, typically a gene of interest inserted into a cloning vector."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Methylation"
+     },
+     "definition": {
+      "en": "Addition of a methyl group to specific bases in DNA. Bacteria methylate their own restriction sites to protect their DNA from self-cleavage by their own restriction enzymes."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Transformation"
+     },
+     "definition": {
+      "en": "Introduction of foreign DNA (e.g., recombinant plasmid) into a bacterial cell. Successful transformants are selected using antibiotic resistance or other selectable markers."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Restriction Mapping"
+     },
+     "definition": {
+      "en": "A technique used to characterize a DNA molecule by cutting it with various restriction enzymes and analyzing fragment sizes to determine the positions of restriction sites on the DNA."
+     }
+    }
+   ],
+   "icon": "📖",
+   "label": "Section 11"
+  },
+  {
+   "id": "s13",
+   "title": {
+    "en": "Frequently Asked University Exam Questions"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Click each question to reveal answer hints for your exam preparation."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1. What are restriction endonucleases? Why are they called molecular scissors? Explain with an example.**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Define restriction endonucleases: bacterial defense enzymes that cleave DNA at specific recognition sequences."
+      },
+      {
+       "en": "Molecular scissors analogy: cut DNA at precise, defined sites just as scissors cut at a specific point."
+      },
+      {
+       "en": "Explain palindromic recognition sequence and staggered vs. straight cuts."
+      },
+      {
+       "en": "Give example of EcoRI: recognizes 5'-GAATTC-3', cuts to produce 4-nt 5' sticky ends."
+      },
+      {
+       "en": "Mention biological role: defense against bacteriophage DNA; own DNA protected by methylation."
+      },
+      {
+       "en": "Nobel Prize 1978 awarded to Arber, Smith, and Nathans."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**2. Distinguish between sticky ends and blunt ends produced by restriction enzymes.**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Sticky ends (cohesive ends): staggered cuts leaving 4 to 6 nt single-stranded overhangs; can be 5' or 3' overhangs."
+      },
+      {
+       "en": "Blunt ends: straight cuts with no overhangs; fully base-paired ends."
+      },
+      {
+       "en": "Examples: EcoRI (sticky, 5' overhang), SmaI (blunt)."
+      },
+      {
+       "en": "Cloning relevance: sticky ends allow directed, efficient cloning; blunt ends are less efficient but non-directional."
+      },
+      {
+       "en": "Include a simple diagram showing the cuts and resulting ends (draw the DNA strands before and after cutting)."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**3. Write a note on the role of DNA ligase in genetic engineering.**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "DNA ligase catalyzes formation of phosphodiester bonds between adjacent 3'-OH and 5'-phosphate ends."
+      },
+      {
+       "en": "Seals single-strand nicks and joins two separate DNA fragments into a continuous molecule."
+      },
+      {
+       "en": "T4 DNA ligase uses ATP; _E. coli_ ligase uses NAD⁺ as cofactor."
+      },
+      {
+       "en": "Critical step in gene cloning: joins insert DNA to linearized vector to form recombinant DNA."
+      },
+      {
+       "en": "Can ligate both sticky ends (efficient) and blunt ends (less efficient, requires higher enzyme concentration)."
+      },
+      {
+       "en": "Also functions in DNA repair and replication in vivo."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**4. What is reverse transcriptase? Explain its role in genetic engineering.**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Reverse transcriptase: an RNA-dependent DNA polymerase discovered in retroviruses (Baltimore and Temin, Nobel Prize 1975)."
+      },
+      {
+       "en": "Deviates from central dogma: synthesizes DNA from RNA template (RNA to DNA direction)."
+      },
+      {
+       "en": "Produces complementary DNA (cDNA) from mRNA; cDNA contains only coding (exon) sequences."
+      },
+      {
+       "en": "Importance: eukaryotic genes have introns that cannot be processed by prokaryotic hosts; cDNA lacks introns."
+      },
+      {
+       "en": "Uses: constructing cDNA libraries, RT-PCR, studying gene expression, producing recombinant proteins in bacteria."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**5. Describe the steps involved in construction of recombinant DNA, mentioning the enzymes at each step.**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Step 1 — Isolation:** Isolate source DNA (containing gene of interest) and vector DNA (plasmid)."
+      },
+      {
+       "en": "**Step 2 — Cutting:** Treat both with the same restriction enzyme (e.g., EcoRI) to produce compatible sticky ends."
+      },
+      {
+       "en": "**Step 3 — Dephosphorylation (optional):** Treat vector with alkaline phosphatase to prevent self-ligation."
+      },
+      {
+       "en": "**Step 4 — Ligation:** Mix insert and vector; add T4 DNA ligase and ATP — recombinant DNA formed."
+      },
+      {
+       "en": "**Step 5 — Transformation:** Introduce rDNA into competent host cells (e.g., _E. coli_)."
+      },
+      {
+       "en": "**Step 6 — Selection:** Select transformants using antibiotic resistance, blue-white screening, etc."
+      },
+      {
+       "en": "Draw a simple flow diagram: DNA + vector → restriction digestion → ligation → rDNA → transformation → selection."
+      }
+     ]
+    }
+   ],
+   "icon": "🎓",
+   "label": "Section 12"
+  }
+ ],
+ "skipped": [
+  "quiz"
+ ],
+ "dropped": [
+  {
+   "selector": "nav",
+   "count": 1,
+   "sample": [
+    "Home Intro Restriction Enzymes Mechanism GE Enzymes Roles In"
+   ]
+  },
+  {
+   "selector": "footer",
+   "count": 1,
+   "sample": [
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh"
+   ]
+  },
+  {
+   "selector": ".reveal-hint",
+   "count": 8,
+   "sample": [
+    "Click to reveal",
+    "Click to reveal",
+    "Click to reveal"
+   ]
+  }
+ ],
+ "extractor": "1"
+}

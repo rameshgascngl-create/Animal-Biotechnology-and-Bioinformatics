@@ -1,0 +1,2065 @@
+{
+ "id": "biotechnology_fundamentals",
+ "unit": "I",
+ "title": {
+  "en": "Fundamentals of Biotechnology — Definition, Scope & Importance"
+ },
+ "sections": [
+  {
+   "id": "s01",
+   "title": {
+    "en": "Overview"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "🧬 Unit 1 · B.Sc. Biotechnology / Zoology"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "title": {
+    "en": "Fundamentals of Biotechnology"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Definition, Scope & Importance"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Biotechnology is the **science of using living organisms and their components** to develop products and processes that benefit humanity. From life-saving medicines to sustainable agriculture and clean fuels — biotechnology is reshaping every dimension of modern life. This module introduces you to the foundation of this transformative field."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "📚 10 Sections 🎯 10 MCQ Quiz 📝 Short-Answer Revision ⏱ ~50 min study 🎓 B.Sc. Level"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🎯 Learning Objectives**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "✓Define biotechnology using standard scientific and simple student-friendly language."
+      },
+      {
+       "en": "✓Identify the key components of biotechnology (organisms, cells, enzymes, technology)."
+      },
+      {
+       "en": "✓Describe the major branches and scope of biotechnology with examples."
+      },
+      {
+       "en": "✓Explain the importance of biotechnology in healthcare, agriculture, industry, and environment."
+      },
+      {
+       "en": "✓Discuss real-world applications such as insulin production, GM crops, and bioremediation."
+      },
+      {
+       "en": "✓Distinguish between Traditional and Modern (rDNA) biotechnology."
+      },
+      {
+       "en": "✓Answer short-answer and MCQ-type examination questions on this topic."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": {
+    "en": "Definition of Biotechnology"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Biotechnology combines biology with technology to create products and processes that solve problems and improve human life."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Etymology & Origin of the Word**"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**🔤 Word Origin**\nThe word **Biotechnology** comes from three Greek/Latin roots:\n**Bios** (βίος) = Life · **Technē** (τέχνη) = Skill / Art · **Logos** (λόγος) = Study / Science\n\nFirst coined by Hungarian engineer **Károly Ereky** in **1919** to describe large-scale pig production using sugar beets."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Standard Scientific Definition**"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "📌 Definition (UN Convention on Biological Diversity, 1992)\n\"Biotechnology means any technological application that uses biological systems, living organisms, or derivatives thereof, to make or modify products or processes for specific use.\"\n— Convention on Biological Diversity (CBD), Article 2, United Nations, 1992"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "📌 Definition (European Federation of Biotechnology)\n\"Biotechnology is the integration of natural sciences and engineering sciences in order to achieve the application of organisms, cells, parts thereof and molecular analogues for products and services.\"\n— European Federation of Biotechnology (EFB)"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Simple Explanation for Students**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "In simple terms: **Biotechnology = Biology + Technology.**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "It means using _living organisms_ (bacteria, yeast, plants, animals) or their _parts_ (cells, enzymes, DNA) to make useful products or solve problems in medicine, agriculture, food, industry, and the environment."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**💡 Easy Analogy**\nJust as a **factory** uses machines, raw materials, and energy to manufacture products — biotechnology uses **living cells as biological machines**, with DNA as the programme, enzymes as tools, and organic molecules as raw material."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key Components of Biotechnology**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Living Organisms**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Bacteria, yeast, fungi, algae, plants, and animals are used as **biological factories** to produce desired products through their natural metabolic activities."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Cells & Cell Parts**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Individual cells (prokaryotic or eukaryotic) or their isolated components (ribosomes, mitochondria) can be used to carry out specific reactions."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Enzymes**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Biological catalysts that speed up chemical reactions. Industrial enzymes like **amylase, protease, and lipase** are produced in bulk by microbial fermentation."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**DNA / Genes**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Recombinant DNA technology allows scientists to **insert, remove, or modify genes** in organisms to produce new traits or valuable proteins like insulin."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Technology & Engineering**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Bioreactors, downstream processing, genetic engineering tools (CRISPR, PCR), and bioprocess engineering integrate biology with engineering principles."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Specific Application**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Every biotechnology process has a defined **goal**: producing medicine, improving crops, treating waste, generating fuel, or developing diagnostics."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Traditional vs. Modern Biotechnology**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Aspect"
+      },
+      {
+       "en": "Traditional Biotechnology"
+      },
+      {
+       "en": "Modern Biotechnology"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Basis**"
+       },
+       {
+        "en": "Natural fermentation, selective breeding"
+       },
+       {
+        "en": "Recombinant DNA, genetic engineering, genomics"
+       }
+      ],
+      [
+       {
+        "en": "**Precision**"
+       },
+       {
+        "en": "Low — random, empirical"
+       },
+       {
+        "en": "High — targeted gene manipulation"
+       }
+      ],
+      [
+       {
+        "en": "**Tools**"
+       },
+       {
+        "en": "Microorganisms, natural selection"
+       },
+       {
+        "en": "PCR, CRISPR, restriction enzymes, bioinformatics"
+       }
+      ],
+      [
+       {
+        "en": "**Time period**"
+       },
+       {
+        "en": ">6,000 years ago (bread, wine, cheese)"
+       },
+       {
+        "en": "Post-1953 (DNA discovery); accelerated post-1973 (rDNA)"
+       }
+      ],
+      [
+       {
+        "en": "**Products**"
+       },
+       {
+        "en": "Beer, bread, cheese, yoghurt, compost"
+       },
+       {
+        "en": "Human insulin, GM crops, monoclonal antibodies, gene therapy"
+       }
+      ],
+      [
+       {
+        "en": "**Safety concern**"
+       },
+       {
+        "en": "Minimal — proven safe over centuries"
+       },
+       {
+        "en": "Bioethics, biosafety regulations, GMO controversies"
+       }
+      ]
+     ]
+    }
+   ],
+   "label": "📘 Chapter 1"
+  },
+  {
+   "id": "s04",
+   "title": {
+    "en": "Scope of Biotechnology"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Biotechnology spans multiple disciplines — identified by colour codes — each addressing a different sector of human need and natural environment."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**The Colour Code System of Biotechnology**"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**🎨 Why Colour Codes?**\nDifferent branches of biotechnology are internationally categorised by colour codes to indicate their area of application — this system was proposed by the **European Association of Bioindustries (EuropaBio)**."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🔴 Red Biotech"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Medical Biotechnology**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Production of vaccines and antibiotics"
+      },
+      {
+       "en": "Gene therapy for inherited diseases"
+      },
+      {
+       "en": "Monoclonal antibodies for cancer"
+      },
+      {
+       "en": "Diagnostic kits (ELISA, PCR)"
+      },
+      {
+       "en": "Stem cell therapy & tissue engineering"
+      },
+      {
+       "en": "Example: _Human insulin via recombinant E. coli_"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🟢 Green Biotech"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Agricultural Biotechnology**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Genetically Modified (GM) crops"
+      },
+      {
+       "en": "Disease-resistant and pest-resistant plants"
+      },
+      {
+       "en": "Biofertilisers and biopesticides"
+      },
+      {
+       "en": "Tissue culture for rapid plant propagation"
+      },
+      {
+       "en": "Transgenic animals for agricultural improvement"
+      },
+      {
+       "en": "Example: _Bt cotton — pest resistance_"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "⚪ White Biotech"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Industrial Biotechnology**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Enzyme production for industry"
+      },
+      {
+       "en": "Bioethanol and biofuels"
+      },
+      {
+       "en": "Bioplastics and bio-based chemicals"
+      },
+      {
+       "en": "Microbial fermentation for food processing"
+      },
+      {
+       "en": "Textile, paper, and leather industries"
+      },
+      {
+       "en": "Example: _Bioethanol from sugarcane_"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🔵 Blue Biotech"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Marine / Aquatic Biotechnology**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Aquaculture improvement via genetic tools"
+      },
+      {
+       "en": "Marine organisms as sources of bioactive compounds"
+      },
+      {
+       "en": "Anti-cancer compounds from sea organisms"
+      },
+      {
+       "en": "Bioremediation of marine pollutants"
+      },
+      {
+       "en": "Example: _Ziconotide (painkiller from cone snail)_"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🟡 Yellow Biotech"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Food Biotechnology**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Fermentation (bread, cheese, beer, yoghurt)"
+      },
+      {
+       "en": "Nutritional enhancement (Golden Rice)"
+      },
+      {
+       "en": "Food safety testing & diagnostics"
+      },
+      {
+       "en": "Enzyme-based food processing"
+      },
+      {
+       "en": "Example: _Chymosin (rennet) for cheese_"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "⚫ Grey Biotech"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Environmental Biotechnology**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Bioremediation of soil and water"
+      },
+      {
+       "en": "Biological wastewater treatment"
+      },
+      {
+       "en": "Biodegradation of toxic pollutants"
+      },
+      {
+       "en": "Biogas / biomethane production from waste"
+      },
+      {
+       "en": "Example: _Pseudomonas — oil spill clean-up_"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Scope at a Glance — Hub Diagram**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🏥 Medical (Red Biotech)"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🌾 Agricultural (Green Biotech)"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🏭 Industrial (White Biotech)"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "BIOTECHCentral Hub"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🌊 Marine (Blue Biotech)"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🍎 Food (Yellow Biotech)"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🌍 Environmental (Grey Biotech)"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**📋 Additional Emerging Areas**\n• **Bioinformatics:** Computational analysis of biological data (genome sequencing, protein modelling)\n• **Nanobiotechnology:** Integration of nanotechnology with biology for drug delivery, diagnostics\n• **Pharmacogenomics:** Personalised medicine based on individual genetic profiles\n• **Synthetic Biology:** Designing artificial biological systems from scratch for industrial applications"
+     }
+    }
+   ],
+   "label": "📗 Chapter 2"
+  },
+  {
+   "id": "s05",
+   "title": {
+    "en": "Importance of Biotechnology"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Biotechnology directly addresses the most critical challenges faced by humanity — disease, hunger, pollution, and energy — through biological innovation."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1. Role in Healthcare**"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**🏥 Healthcare & Medicine**\n• **Vaccine production:** Hepatitis B, HPV, COVID-19 (mRNA vaccines) produced via recombinant technology — safer and scalable\n• **Therapeutic proteins:** Human insulin, growth hormone, erythropoietin, clotting factors — expressed in bacteria/yeast/CHO cells\n• **Monoclonal antibodies:** Trastuzumab (Herceptin) for cancer; Adalimumab for autoimmune diseases\n• **Gene therapy:** Correcting defective genes — SCID, haemophilia, Duchenne muscular dystrophy\n• **Diagnostics:** PCR-based tests (COVID-19, HIV), ELISA (pregnancy, hormones), DNA fingerprinting (forensics)\n• **Stem cell therapy:** Regenerating tissues in Parkinson's, diabetes, spinal injury"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**2. Role in Agriculture**"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**🌾 Agriculture & Food Security**\n• **GM crops with high yield:** Golden Rice, Bt cotton, Roundup-Ready soybean — feed more people on less land\n• **Pest & disease resistance:** Bt toxin gene (from _Bacillus thuringiensis_) in cotton, maize, brinjal\n• **Drought and salinity tolerance:** Engineered crops survive harsh climates — crucial for climate change adaptation\n• **Biofertilisers:** _Rhizobium_, _Azospirillum_ fix atmospheric N₂ — reduce chemical fertiliser use\n• **Tissue culture:** Rapid multiplication of disease-free planting material (banana, sugarcane, orchid)\n• **Animal biotechnology:** Transgenic cows producing human lactoferrin in milk; disease-resistant breeds"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**3. Role in Industry**"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**🏭 Industrial Applications**\n• **Fermentation industry:** Beer, wine, cheese, vinegar, antibiotics, vitamins produced by microbial fermentation\n• **Industrial enzymes:** Amylase (starch), protease (detergent), lipase (leather), cellulase (biofuel) — worth >$6 billion/year globally\n• **Biofuels:** Bioethanol from sugarcane/corn (_S. cerevisiae_); biodiesel from microalgae; biogas from organic waste\n• **Bioplastics:** Polyhydroxyalkanoates (PHA) from bacteria — biodegradable alternative to petroplastics\n• **Textile industry:** Biostoning of denim (cellulase); biofinishing of cotton (protease)\n• **Paper & Pulp:** Enzymatic bleaching replaces toxic chlorine — eco-friendly bioprocessing"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**4. Role in Environment**"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**🌍 Environmental Biotechnology**\n• **Bioremediation:** Microorganisms (_Pseudomonas putida_) degrade petroleum hydrocarbons, pesticides, heavy metals in contaminated soil/water\n• **Biological wastewater treatment:** Activated sludge process; anaerobic digesters reduce BOD/COD by >90%\n• **Biogas production:** Methanogenic bacteria convert organic waste to CH₄ — renewable energy + waste management\n• **Biomining:** Acidothermophilic bacteria (_Thiobacillus_) extract metals (copper, gold) from low-grade ores\n• **Carbon sequestration:** Algal biotechnology captures atmospheric CO₂ while producing biomass/biofuels\n• **Biopesticides:** _Bacillus thuringiensis_ (Bt) as natural pesticide — biodegradable, no soil contamination"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**5. Societal & Economic Importance**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Economic Growth**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Global biotechnology market valued at **>$1 trillion (2024)**. India's biotech industry >₹1 lakh crore with >3,000 biotech companies."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Employment**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Creates millions of direct and indirect jobs — research, manufacturing, regulatory, clinical, bioinformatics sectors."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Sustainability**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Reduces reliance on fossil fuels; promotes **circular economy**; reduces chemical inputs in agriculture and industry."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Food Security**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "GM crops and tissue culture increase food production for a growing global population (projected ~10 billion by 2050)."
+     }
+    }
+   ],
+   "label": "📙 Chapter 3"
+  },
+  {
+   "id": "s06",
+   "title": {
+    "en": "Applications of Biotechnology"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Real-world case studies that illustrate how biotechnology transforms scientific knowledge into practical solutions."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Case Study 1: Human Insulin Production**"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**💉 How Recombinant Insulin Changed Diabetes Treatment**\n• **Before 1982:** Insulin extracted from pig/cattle pancreas — expensive, allergic reactions, limited supply\n• **1982:** Eli Lilly & Genentech launched Humulin — _first recombinant human insulin_ (rDNA technology)\n• **Process:** Human insulin gene (A & B chains) inserted into _E. coli_ plasmid → bacteria produce insulin protein → extraction + purification\n• **Result:** Unlimited, pure, human-identical insulin available affordably worldwide\n• **Significance:** Proved that rDNA technology can produce life-saving human proteins using bacteria"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Case Study 2: Bt Cotton — Pest-Resistant Crop**"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**🌾 Genetically Modified Cotton Protecting Crops & Livelihoods**\n• **Problem:** Bollworm (_Helicoverpa armigera_) — the most damaging cotton pest; requires heavy pesticide use\n• **Solution:** _cry_ gene from _Bacillus thuringiensis_ inserted into cotton genome\n• **Mechanism:** _Cry_ proteins (Bt toxin) form pores in bollworm gut → paralysis and death — harmless to mammals\n• **In India:** Bt cotton approved in 2002; now covers >95% of Indian cotton acreage; pesticide use reduced by ~50%; yield increased by ~30–40%\n• **Concern:** Development of resistance in pests over time; need for refuge zones (20% non-Bt area)"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Case Study 3: Bioremediation of Oil Spills**"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**🌊 Using Microbes to Clean Oil Pollution**\n• **First GMO patent:** _Pseudomonas putida_ — \"oil-eating\" superbug — patented by A. M. Chakrabarty in 1980 (US Supreme Court)\n• **How it works:** Hydrocarbon-degrading bacteria break down petroleum compounds into harmless CO₂ and H₂O\n• **Application:** Demonstrated that engineered bacteria can degrade several oil hydrocarbons in the laboratory; it set the legal precedent for patenting living organisms (Diamond v. Chakrabarty, 1980)\n• **Benefit:** Cost-effective, eco-friendly, no harmful chemical residues — in-situ or ex-situ treatment possible"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Case Study 4: PCR — The Photocopier of DNA**"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**🔬 Polymerase Chain Reaction (PCR)**\n• **Invented by:** Kary Mullis, 1983 (Nobel Prize, Chemistry, 1993)\n• **Principle:** In vitro amplification of specific DNA sequences using thermal cycling (denaturation → annealing → extension)\n• **Enzyme:** _Taq_ DNA polymerase (from thermophilic bacterium _Thermus aquaticus_)\n• **Applications:** COVID-19 diagnosis; DNA fingerprinting; prenatal diagnosis; forensic science; gene cloning; food adulteration testing\n• **Impact:** Called the most important biotechnology technique of the 20th century — enabled the Human Genome Project"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Case Study 5: Golden Rice — Biofortification**"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**🍚 Engineering Nutrition into Staple Food**\n• **Problem:** Vitamin A deficiency affects ~190 million children worldwide; causes blindness and increased mortality\n• **Solution:** Genes _psy_ (phytoene synthase from daffodil) and _crtI_ (from bacterium) inserted into rice genome\n• **Result:** Rice grains produce β-carotene (pro-Vitamin A) — gives yellow/golden colour; 1 cup provides ~50% daily Vitamin A requirement\n• **Developers:** Ingo Potrykus & Peter Beyer (1999); now further enhanced — Golden Rice 2\n• **Status:** Approval status differs between countries and has changed over time; check the current position with national regulators"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Major Applications — Quick Reference**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Field"
+      },
+      {
+       "en": "Application"
+      },
+      {
+       "en": "Example Product / Process"
+      },
+      {
+       "en": "Microorganism / Technology"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Medicine**"
+       },
+       {
+        "en": "Hormone production"
+       },
+       {
+        "en": "Human insulin (Humulin)"
+       },
+       {
+        "en": "_E. coli_ + rDNA"
+       }
+      ],
+      [
+       {
+        "en": "**Medicine**"
+       },
+       {
+        "en": "Vaccine production"
+       },
+       {
+        "en": "Hepatitis B vaccine"
+       },
+       {
+        "en": "Yeast (_S. cerevisiae_)"
+       }
+      ],
+      [
+       {
+        "en": "**Agriculture**"
+       },
+       {
+        "en": "Pest resistance"
+       },
+       {
+        "en": "Bt cotton, Bt brinjal"
+       },
+       {
+        "en": "_B. thuringiensis_ + GMO"
+       }
+      ],
+      [
+       {
+        "en": "**Agriculture**"
+       },
+       {
+        "en": "Weed tolerance"
+       },
+       {
+        "en": "Roundup-Ready soybean"
+       },
+       {
+        "en": "rDNA technology"
+       }
+      ],
+      [
+       {
+        "en": "**Industry**"
+       },
+       {
+        "en": "Biofuel production"
+       },
+       {
+        "en": "Bioethanol"
+       },
+       {
+        "en": "_Saccharomyces cerevisiae_"
+       }
+      ],
+      [
+       {
+        "en": "**Industry**"
+       },
+       {
+        "en": "Enzyme production"
+       },
+       {
+        "en": "Amylase, protease"
+       },
+       {
+        "en": "_Aspergillus, Bacillus_"
+       }
+      ],
+      [
+       {
+        "en": "**Environment**"
+       },
+       {
+        "en": "Bioremediation"
+       },
+       {
+        "en": "Petroleum clean-up"
+       },
+       {
+        "en": "_Pseudomonas putida_"
+       }
+      ],
+      [
+       {
+        "en": "**Diagnostics**"
+       },
+       {
+        "en": "Disease detection"
+       },
+       {
+        "en": "COVID-19 RT-PCR, HIV ELISA"
+       },
+       {
+        "en": "PCR / Immunoassay"
+       }
+      ],
+      [
+       {
+        "en": "**Food**"
+       },
+       {
+        "en": "Dairy fermentation"
+       },
+       {
+        "en": "Cheese (recombinant chymosin)"
+       },
+       {
+        "en": "_Aspergillus niger_"
+       }
+      ]
+     ]
+    }
+   ],
+   "label": "📕 Chapter 4"
+  },
+  {
+   "id": "s07",
+   "title": {
+    "en": "Interactive Learning Section"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Explore concepts through interactive accordions, click-to-reveal definitions, and highlight boxes. Engage actively with the content!"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Expand & Explore — Key Concepts**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click each panel to expand / collapse"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "What is Recombinant DNA (rDNA) Technology? ▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Recombinant DNA (rDNA) technology** is the process of combining DNA from two or more different sources (organisms) to create a new hybrid DNA molecule, which is then inserted into a host organism for expression."
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Step 1 — Isolation:** Target gene isolated from source organism using restriction endonucleases"
+      },
+      {
+       "en": "**Step 2 — Cloning vector:** Gene inserted into a plasmid (vector) using DNA ligase"
+      },
+      {
+       "en": "**Step 3 — Transformation:** Recombinant plasmid introduced into host cell (_E. coli_, yeast)"
+      },
+      {
+       "en": "**Step 4 — Selection:** Transformed cells selected (antibiotic resistance / reporter genes)"
+      },
+      {
+       "en": "**Step 5 — Expression:** Host cell expresses foreign gene → produces desired protein"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key tools:** Restriction enzymes (molecular scissors), DNA ligase (molecular glue), plasmids (vectors), PCR, gel electrophoresis."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Restriction Enzymes — Molecular Scissors ▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Restriction endonucleases** are bacterial enzymes that cut double-stranded DNA at specific recognition sequences (palindromic sequences). They are the foundational tools of genetic engineering."
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "First discovered in bacteria as a defence mechanism against bacteriophages"
+      },
+      {
+       "en": "Named by organism: _Eco_RI from _Escherichia coli_; _Bam_HI from _Bacillus amyloliquefaciens_"
+      },
+      {
+       "en": "Type I, II, III — Type II most used in biotechnology (cut at recognition site)"
+      },
+      {
+       "en": "Create **sticky ends** (overhangs) or **blunt ends**"
+      },
+      {
+       "en": "Werner Arber, Daniel Nathans, Hamilton Smith — Nobel Prize 1978 for restriction enzyme discovery"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "_Example: EcoRI recognises and cuts 5′-GAATTC-3′ sequence_"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Tissue Culture — Totipotency Principle ▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Plant tissue culture** is the technique of growing plant cells, tissues, or organs on artificial nutrient medium under sterile conditions in vitro."
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Totipotency:** Every plant cell contains the complete genetic information and has the ability to regenerate a whole organism — concept by _Gottlieb Haberlandt_ (1902)"
+      },
+      {
+       "en": "**Media components:** Minerals, sucrose, vitamins, plant hormones (auxin + cytokinin), agar"
+      },
+      {
+       "en": "**Callus:** Undifferentiated mass of cells formed from explant on hormone-rich medium"
+      },
+      {
+       "en": "**Somaclonal variation:** Genetic variation in tissue culture-raised plants — source of new traits"
+      },
+      {
+       "en": "**Applications:** Micropropagation, production of disease-free plants, genetic transformation, somatic hybridisation"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Monoclonal Antibodies (MAbs) — Magic Bullets ▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Monoclonal antibodies** are identical antibodies produced by a single clone of B lymphocytes (hybridoma cells) and are highly specific to a single antigen."
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Concept of **\"Magic Bullet\"** — targeted therapy that attacks only specific cancer cells"
+      },
+      {
+       "en": "**Kohler & Milstein (1975):** Nobel Prize 1984 — hybridoma technology"
+      },
+      {
+       "en": "**Process:** Immunise animal → harvest B cells → fuse with myeloma cells → hybridoma → screen → clone"
+      },
+      {
+       "en": "**Applications:** Cancer therapy (Herceptin, Rituximab), autoimmune diseases (Humira), pregnancy test kits, COVID diagnostics"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Bioremediation — Nature's Clean-Up Crew ▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Bioremediation** is the use of microorganisms (bacteria, fungi, algae) or plants (_phytoremediation_) to degrade, detoxify, or transform harmful pollutants in the environment into harmless compounds."
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**In situ bioremediation:** Treatment at the contaminated site — no excavation needed (e.g., bioventing, biosparging)"
+      },
+      {
+       "en": "**Ex situ:** Contaminated material brought to treatment facility — land farming, biopiles, bioreactors"
+      },
+      {
+       "en": "**Phytoremediation:** Sunflowers absorb heavy metals (lead, arsenic); used after Chernobyl nuclear accident"
+      },
+      {
+       "en": "**Microorganisms:** _Pseudomonas_ (hydrocarbons), _Thiobacillus_ (heavy metals), _Dehalococcoides_ (chlorinated solvents)"
+      },
+      {
+       "en": "**Advantage:** Cost-effective (~10× cheaper than physical/chemical treatment), eco-friendly, no secondary pollutants"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Click-to-Reveal — Important Definitions**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "👆 Click each card to reveal its definition"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Plasmid**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click to reveal"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "DefinitionA small, circular, **extra-chromosomal DNA** molecule found in bacteria, capable of self-replication. Used as a **cloning vector** to carry foreign genes into host cells in rDNA technology."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**GMO**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click to reveal"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Definition**Genetically Modified Organism** — an organism whose genetic material has been altered using genetic engineering techniques, introducing genes from another organism to confer new traits (e.g., pest resistance, higher yield)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Transgenic**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click to reveal"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "DefinitionAn organism that has had a **foreign gene (transgene)** from another species inserted into its genome using rDNA technology. Examples: Transgenic mice (research), Bt cotton (agriculture), Herman the bull (lactoferrin)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Fermentation**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click to reveal"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "DefinitionA metabolic process in which microorganisms **break down organic compounds** (sugars) under anaerobic conditions to produce energy and products like ethanol, lactic acid, CO₂, or antibiotics."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Bioreactor**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click to reveal"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "DefinitionA controlled vessel or system designed to provide optimal **physicochemical conditions** (temperature, pH, oxygen, agitation) for large-scale cultivation of microorganisms to produce industrial products."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Gene Therapy**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click to reveal"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "DefinitionA medical approach that involves **inserting, altering, or replacing a defective gene** within a person's cells to treat or prevent disease. Ex vivo, in vivo, and in situ approaches exist. Used for SCID, haemophilia."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Cloning**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click to reveal"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "DefinitionProduction of **genetically identical copies** of a gene (molecular cloning), cell (cellular cloning), or organism (reproductive cloning). Dolly the sheep (1996) was the first cloned mammal from adult somatic cell."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**CRISPR-Cas9**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click to reveal"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Definition**Clustered Regularly Interspaced Short Palindromic Repeats** — a revolutionary genome editing tool. Guide RNA directs Cas9 nuclease to precise DNA locations for cutting, enabling gene knockout or correction. Nobel Prize 2020 (Doudna & Charpentier)."
+     }
+    }
+   ],
+   "label": "🎮 Chapter 5 — Interactive"
+  },
+  {
+   "id": "s08",
+   "title": {
+    "en": "Interactive Concept Map"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "A visual overview of how biotechnology branches connect to tools, products, and societal impacts — hover over each node to highlight it."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🧬 Branches of Biotechnology — Concept Map**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "BIOTECHNOLOGYApplication of biological systems"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🔴 Medical Red Biotech"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Vaccines"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Insulin"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Gene Therapy"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🟢 Agricultural Green Biotech"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "GM Crops"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Bt Cotton"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Tissue Culture"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "⚪ Industrial White Biotech"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Enzymes"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Biofuels"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fermentation"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "⚫ Environmental Grey Biotech"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Bioremediation"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Biogas"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Biomining"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Core ToolsEnabling technologies"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "rDNA TechnologyCloning, expression"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "PCRGene amplification"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "FermentationBioreactors"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "BioinformaticsData analysis"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "CRISPR-Cas9Genome editing"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Products & ImpactSociety benefits"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Medicines & DiagnosticsInsulin, MAbs, vaccines"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Improved Crops & FoodGM crops, biofortification"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Biofuels & ChemicalsEthanol, enzymes"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Clean EnvironmentRemediation, biogas"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Process Flow — Recombinant DNA Technology**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🔬 1. Isolate Gene Restriction enzymes"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🔵 2. Insert into Vector Plasmid + DNA ligase"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🦠 3. Transform Host E. coli / Yeast"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🔍 4. Select & Screen Antibiotic selection"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "⚗️ 5. Express & Extract Purified protein"
+     }
+    }
+   ],
+   "label": "🗺️ Chapter 6"
+  },
+  {
+   "id": "s09",
+   "title": {
+    "en": "Summary & Exam Revision"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Key points for examination preparation — both MCQ and short-answer formats. Review these before your exam."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key Exam Points to Remember**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Biotechnology** is the application of biological organisms, systems, or processes to make products or modify processes for specific use (UN CBD definition, 1992)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The term **Biotechnology** was coined by Hungarian engineer **Károly Ereky in 1919**."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "3"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Traditional biotechnology** includes fermentation (bread, wine, beer, cheese). **Modern biotechnology** involves rDNA technology, PCR, CRISPR — post-1953 era."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "4"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Branches: **Red** (Medical), **Green** (Agricultural), **White** (Industrial), **Blue** (Marine), **Yellow** (Food), **Grey** (Environmental) biotechnology."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**rDNA technology tools:** Restriction endonucleases (scissors), DNA ligase (glue), plasmids (vectors), _E. coli_ (host) — first demonstrated by Cohen & Boyer, 1973."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "6"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**First recombinant protein** produced commercially: Human insulin (Humulin) by Eli Lilly & Genentech, 1982, using _E. coli_."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "7"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**PCR** — invented by Kary Mullis (1983, Nobel 1993). Amplifies specific DNA in vitro using thermal cycling; enzyme: _Taq_ polymerase from _Thermus aquaticus_."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "8"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Bt cotton** contains _cry_ gene from _Bacillus thuringiensis_; produces Bt toxin that kills bollworm. Approved in India in 2002; covers >95% cotton area."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "9"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Golden Rice** — biofortified with β-carotene (pro-Vitamin A) using _psy_ and _crtI_ genes. Developed by Potrykus & Beyer (1999) to combat Vitamin A deficiency."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "10"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Monoclonal antibodies** — produced by hybridoma technology (Kohler & Milstein, 1975; Nobel 1984). Single clone B cells + myeloma cells → hybridoma → MAb."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "11"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Dolly the sheep** (1996) — first mammal cloned from adult somatic cell by Ian Wilmut. Proved somatic cell nuclear transfer (SCNT) can reprogram differentiated cells."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "12"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**CRISPR-Cas9** — genome editing tool derived from bacterial immune system; guide RNA directs Cas9 nuclease to target. Nobel Prize 2020 to Jennifer Doudna & Emmanuelle Charpentier."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "13"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Bioremediation** — using microorganisms to degrade pollutants. _Pseudomonas putida_ (first GMO patent by Chakrabarty, 1980) degrades petroleum hydrocarbons."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "14"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Totipotency** — every plant cell can regenerate a complete organism (Haberlandt, 1902). Basis of plant tissue culture — micropropagation, somatic hybridisation."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Short-Answer Revision — University Exam Questions**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click each question to reveal the model answer"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.1 Define biotechnology. Who coined the term? ▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Biotechnology** is the application of biological organisms, systems, or processes to make or modify products and processes for specific use (CBD, 1992). It integrates biology with technology to develop solutions for medicine, agriculture, industry, and environment. The term was coined by Hungarian engineer **Károly Ereky in 1919**."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.2 Distinguish between Traditional and Modern Biotechnology with examples. ▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Traditional biotechnology** uses natural organisms without genetic manipulation for processes like fermentation (bread, wine, cheese, yoghurt) over thousands of years. **Modern biotechnology** (post-1953) employs recombinant DNA technology, PCR, CRISPR, and genetic engineering to precisely modify organisms. Examples: Traditional — beer brewing using yeast; Modern — production of human insulin using _E. coli_ with inserted human insulin gene."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.3 What are restriction enzymes? Give their role in rDNA technology. ▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Restriction endonucleases** are bacterial enzymes that recognise and cut specific palindromic DNA sequences. They act as \"molecular scissors.\" In rDNA technology, restriction enzymes cut the desired gene from the donor DNA and also cut the vector (plasmid) at the same recognition sequence, creating compatible sticky ends that allow the gene to be inserted into the vector. Example: EcoRI cuts at 5′-GAATTC-3′ sequence. Werner Arber, Nathans & H. Smith won the Nobel Prize in 1978 for their discovery."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.4 What is bioremediation? Name two microorganisms used in it. ▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Bioremediation** is the use of living organisms (mainly bacteria and fungi) to degrade, detoxify, or neutralise hazardous pollutants in the environment into harmless substances like CO₂ and H₂O. It is cost-effective, eco-friendly, and produces no secondary pollutants. Two microorganisms: (1) **_Pseudomonas putida_** — degrades petroleum hydrocarbons (oil spills); (2) **_Thiobacillus ferrooxidans_** — used in biomining to extract copper and gold from low-grade ores."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.5 Explain the significance of Bt cotton in India. ▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Bt cotton** contains the _cry_ gene from _Bacillus thuringiensis_ which produces Bt toxin (Cry proteins). This toxin forms pores in the gut of bollworm larvae (Helicoverpa armigera) causing death, while being harmless to mammals. **Approved in India in 2002**, Bt cotton now covers over 95% of India's cotton acreage. Its significance: (a) Reduced pesticide use by ~50%; (b) Increased yield by 30–40%; (c) Reduced production costs for farmers; (d) Decreased pesticide-related health hazards. Concern: resistance development in pests over time requires refuge zones."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.6 Write short notes on monoclonal antibodies and their applications. ▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Monoclonal antibodies (MAbs)** are identical antibodies produced by a single clone of B lymphocytes (hybridoma cells) and are highly specific to one antigen. Hybridoma technology was developed by **Kohler & Milstein (1975)**, earning the Nobel Prize in 1984. Process: Immunise animal → B cells + myeloma cells → hybridoma → single clone → MAb. **Applications:** (1) Cancer therapy — Herceptin (breast cancer), Rituximab (lymphoma); (2) Autoimmune diseases — Adalimumab (Humira); (3) Transplant rejection prevention; (4) Diagnostics — pregnancy test kits, COVID-19 rapid tests, HIV tests; (5) Research — Western blot, ELISA, flow cytometry."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.7 What is CRISPR-Cas9? Why is it considered a revolutionary tool? ▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**CRISPR-Cas9** (Clustered Regularly Interspaced Short Palindromic Repeats — CRISPR-associated protein 9) is a revolutionary genome editing technology derived from a bacterial immune defence system. A **guide RNA (gRNA)** directs the Cas9 nuclease to a specific target DNA sequence, where it makes a precise double-strand cut. The cell's repair mechanism can then introduce desired changes. It is revolutionary because: (a) Highly precise — single base editing possible; (b) Simple to design; (c) Fast and affordable compared to previous tools (ZFN, TALEN); (d) Works in any organism. **Jennifer Doudna & Emmanuelle Charpentier** received the Nobel Prize in Chemistry 2020."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.8 Write the importance of biotechnology in healthcare. ▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Biotechnology's role in healthcare includes: (1) **Therapeutic proteins** — Human insulin, growth hormone, clotting factors, erythropoietin produced via rDNA technology; (2) **Vaccines** — Hepatitis B vaccine (yeast), HPV vaccine, COVID-19 mRNA vaccine (Moderna, Pfizer); (3) **Monoclonal antibodies** — targeted cancer therapy, autoimmune disease treatment; (4) **Gene therapy** — correcting defective genes in SCID, haemophilia, β-thalassaemia; (5) **Diagnostics** — PCR (disease detection), ELISA (hormone levels, pregnancy), DNA fingerprinting (forensics); (6) **Stem cell therapy** — regenerating damaged tissues; (7) **Pharmacogenomics** — personalised drug treatment based on individual genetic profile."
+     }
+    }
+   ],
+   "label": "📋 Summary"
+  },
+  {
+   "id": "s10",
+   "title": {
+    "en": "Key Terms & Glossary"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Essential scientific terms with clear, student-friendly definitions for quick revision and examination preparation."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Biotechnology"
+     },
+     "definition": {
+      "en": "The application of **biological organisms, systems, or processes** to develop products and processes for specific uses in medicine, agriculture, industry, and the environment. Coined by Károly Ereky (1919)."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Recombinant DNA (rDNA)"
+     },
+     "definition": {
+      "en": "A **hybrid DNA molecule** formed by combining DNA sequences from two different organisms using restriction enzymes and DNA ligase. The foundation of modern genetic engineering."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Restriction Endonuclease"
+     },
+     "definition": {
+      "en": "A bacterial enzyme that **cuts double-stranded DNA** at specific palindromic recognition sequences. Acts as \"molecular scissors\" in rDNA technology. Example: EcoRI, BamHI."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Plasmid"
+     },
+     "definition": {
+      "en": "A small, circular, **extra-chromosomal DNA** molecule in bacteria that replicates independently. Used as a **vector (vehicle)** to carry and express foreign genes in host organisms."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "PCR (Polymerase Chain Reaction)"
+     },
+     "definition": {
+      "en": "A technique for **amplifying specific DNA sequences** in vitro using thermal cycling (denaturation → annealing → extension). Uses Taq polymerase. Invented by Kary Mullis (1983)."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "GMO (Genetically Modified Organism)"
+     },
+     "definition": {
+      "en": "An organism whose **genome has been altered** using genetic engineering techniques, introducing genes from another species. Examples: Bt cotton, Golden Rice, recombinant E. coli."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Monoclonal Antibodies (MAbs)"
+     },
+     "definition": {
+      "en": "Highly specific antibodies produced by a **single clone of hybridoma cells**, all identical and targeting one specific antigen. Used in cancer therapy, diagnostics, and immunotherapy."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Gene Therapy"
+     },
+     "definition": {
+      "en": "A therapeutic approach involving **introduction, alteration, or replacement of a defective gene** in a patient's cells to treat inherited or acquired diseases (e.g., SCID, haemophilia)."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Bioremediation"
+     },
+     "definition": {
+      "en": "The use of **microorganisms or plants to degrade, neutralise, or transform pollutants** in contaminated soil, water, or air into harmless substances. Eco-friendly and cost-effective clean-up technology."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Cloning Vector"
+     },
+     "definition": {
+      "en": "A DNA molecule (plasmid, phage, BAC) used as a **vehicle to carry a foreign gene** into a host cell where it can be replicated and expressed. Must have ori, MCS, selectable marker."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "CRISPR-Cas9"
+     },
+     "definition": {
+      "en": "A bacterial-derived **genome editing system** using guide RNA to direct Cas9 nuclease to precise DNA locations for targeted cuts. Revolutionary for gene therapy, crop improvement, and research. Nobel 2020."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Fermentation"
+     },
+     "definition": {
+      "en": "Microbial **anaerobic breakdown of organic compounds** (sugars) to produce energy, alcohol, acids, or gases. Used industrially to produce ethanol, antibiotics, vitamins, enzymes, and dairy products."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Totipotency"
+     },
+     "definition": {
+      "en": "The ability of a single **plant cell to regenerate a complete organism** because it contains the entire genetic information. The fundamental principle underlying plant tissue culture (Haberlandt, 1902)."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Bioreactor"
+     },
+     "definition": {
+      "en": "A controlled vessel providing optimal conditions (temperature, pH, O₂, agitation) for **large-scale microbial cultivation** to produce industrial products like enzymes, antibiotics, or biofuels."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Transgenic Organism"
+     },
+     "definition": {
+      "en": "An organism that carries a **foreign gene (transgene) from another species** in its genome. The transgene is heritable and expressed in all cells. Examples: Transgenic mice, Bt cotton, Dolly (cloned)."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Stem Cells"
+     },
+     "definition": {
+      "en": "**Undifferentiated cells** capable of self-renewal and differentiation into any cell type. Embryonic stem cells (pluripotent) and adult stem cells have therapeutic applications in regenerative medicine."
+     }
+    }
+   ],
+   "label": "📖 Glossary"
+  }
+ ],
+ "skipped": [
+  "page-7"
+ ],
+ "dropped": [
+  {
+   "selector": "nav",
+   "count": 1,
+   "sample": [
+    "🧬 Fundamentals of Biotechnology B.Sc. Digital Textbook Progr"
+   ]
+  },
+  {
+   "selector": "#mob-hdr",
+   "count": 1,
+   "sample": [
+    "☰ Fundamentals of Biotechnology"
+   ]
+  },
+  {
+   "selector": "#overlay",
+   "count": 1,
+   "sample": []
+  },
+  {
+   "selector": "footer",
+   "count": 10,
+   "sample": [
+    "Department of Zoology, GASC, Nagercoil *Created by R. Ramesh",
+    "Department of Zoology, GASC, Nagercoil *Created by R. Ramesh",
+    "Department of Zoology, GASC, Nagercoil *Created by R. Ramesh"
+   ]
+  },
+  {
+   "selector": ".start-btn",
+   "count": 1,
+   "sample": [
+    "Begin Learning →"
+   ]
+  },
+  {
+   "selector": ".btn-outline",
+   "count": 9,
+   "sample": [
+    "← Title Page",
+    "← Definition",
+    "← Scope"
+   ]
+  },
+  {
+   "selector": ".btn-primary",
+   "count": 10,
+   "sample": [
+    "Scope of Biotechnology →",
+    "Importance →",
+    "Applications →"
+   ]
+  },
+  {
+   "selector": ".pg-nav",
+   "count": 9,
+   "sample": []
+  }
+ ],
+ "extractor": "1"
+}
