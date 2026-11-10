@@ -777,7 +777,15 @@
     "30 °C, 0.5% CO₂"
    ],
    "a": 0,
-   "e": "37 °C with 5% CO₂ maintains pH with a bicarbonate buffer."
+   "e": "37 °C with 5% CO₂ maintains pH with a bicarbonate buffer.",
+   "q_ta": "வளர்ப்பிலுள்ள விலங்கு செல்கள் வழக்கமாக வளர்க்கப்படுவது:",
+   "o_ta": [
+    "37 °C, 5% CO₂",
+    "25 °C, CO₂ இல்லை",
+    "42 °C, 20% CO₂",
+    "30 °C, 0.5% CO₂"
+   ],
+   "e_ta": "37 °C, 5% CO₂ பைகார்பனேட் தாங்கலுடன் pH-ஐப் பேணுகிறது."
   },
   {
    "q": "Phenol red in the medium indicates:",
@@ -788,7 +796,15 @@
     "Oxygen level"
    ],
    "a": 2,
-   "e": "It turns yellow when acidic and purple when alkaline."
+   "e": "It turns yellow when acidic and purple when alkaline.",
+   "q_ta": "ஊடகத்திலுள்ள பீனால் சிவப்பு குறிப்பது:",
+   "o_ta": [
+    "வைரஸ் மாசுபாடு",
+    "குளுக்கோஸ் செறிவு",
+    "pH (அமிலமாகும்போது சிவப்பு → மஞ்சள்)",
+    "ஆக்சிஜன் அளவு"
+   ],
+   "e_ta": "அமிலத்தில் மஞ்சளாகவும் காரத்தில் ஊதாவாகவும் மாறும்."
   },
   {
    "q": "Cells should be subcultured during which phase?",
@@ -799,7 +815,15 @@
     "Death"
    ],
    "a": 1,
-   "e": "Subculture in the log phase, at 70–80% confluence."
+   "e": "Subculture in the log phase, at 70–80% confluence.",
+   "q_ta": "செல்களை எந்த நிலையில் துணை வளர்ப்பு செய்ய வேண்டும்?",
+   "o_ta": [
+    "தாமத நிலை",
+    "மடக்கை நிலை",
+    "வீழ்ச்சி நிலை",
+    "இறப்பு நிலை"
+   ],
+   "e_ta": "மடக்கை நிலையில், 70–80% செல் நெருக்கத்தில் துணை வளர்ப்பு செய்க."
   },
   {
    "q": "The Hayflick limit refers to:",
@@ -810,7 +834,15 @@
     "The size limit of a bioreactor"
    ],
    "a": 0,
-   "e": "Normal cells divide about 40–60 times before senescence."
+   "e": "Normal cells divide about 40–60 times before senescence.",
+   "q_ta": "ஹேஃப்ளிக் வரம்பு குறிப்பது:",
+   "o_ta": [
+    "இயல்பு ஈரிணைமை செல்களின் வரையறுக்கப்பட்ட பிரிவுகள் (~50)",
+    "செல்களுக்கான அதிகபட்ச வெப்பநிலை",
+    "புற்றுநோய் செல்களின் எல்லையற்ற பிரிவு",
+    "உயிர்வினைக்கலனின் அளவு வரம்பு"
+   ],
+   "e_ta": "இயல்பு செல்கள் முதுமையடையுமுன் சுமார் 40–60 முறை பிரிகின்றன."
   },
   {
    "q": "Which cell line is used most widely for recombinant protein production?",
@@ -821,7 +853,15 @@
     "NIH 3T3"
    ],
    "a": 2,
-   "e": "CHO cells produce most therapeutic mAbs."
+   "e": "CHO cells produce most therapeutic mAbs.",
+   "q_ta": "மறுசேர்க்கைப் புரத உற்பத்திக்கு மிகப் பரவலாகப் பயன்படும் செல் வரிசை எது?",
+   "o_ta": [
+    "HeLa",
+    "Vero",
+    "CHO",
+    "NIH 3T3"
+   ],
+   "e_ta": "பெரும்பாலான சிகிச்சை ஒற்றைக்கிளை எதிர்ப்பொருள்களை CHO செல்கள் உருவாக்குகின்றன."
   },
   {
    "q": "The Yamanaka factors are:",
@@ -832,7 +872,15 @@
     "Lac, Trp, Ara, Gal"
    ],
    "a": 1,
-   "e": "Four factors reprogram somatic cells to iPSCs."
+   "e": "Four factors reprogram somatic cells to iPSCs.",
+   "q_ta": "யமனாகா காரணிகள் எவை?",
+   "o_ta": [
+    "p53, Rb, Ras, Myc",
+    "Oct4, Sox2, Klf4, c-Myc",
+    "Cas9, gRNA, PAM, Cre",
+    "Lac, Trp, Ara, Gal"
+   ],
+   "e_ta": "நான்கு காரணிகள் உடல் செல்களை iPSC-களாக மீள்நிரலாக்குகின்றன."
   },
   {
    "q": "Pluripotent stem cells can form:",
@@ -843,7 +891,15 @@
     "All three germ layers but not the whole organism"
    ],
    "a": 3,
-   "e": "Pluripotent: any body cell type; totipotent: also extraembryonic tissue."
+   "e": "Pluripotent: any body cell type; totipotent: also extraembryonic tissue.",
+   "q_ta": "பன்முக ஆற்றல் தண்டு செல்கள் உருவாக்கக்கூடியவை:",
+   "o_ta": [
+    "நஞ்சுக்கொடி மட்டும்",
+    "இரத்தச் செல்கள் மட்டும்",
+    "நஞ்சுக்கொடியுடன் கூடிய முழு உயிரினம்",
+    "மூன்று கருப்படைகளையும்; ஆனால் முழு உயிரினத்தை அல்ல"
+   ],
+   "e_ta": "பன்முக ஆற்றல்: எந்த உடல் செல் வகையையும்; முழுமை ஆற்றல்: கருவுக்கு வெளியேயான திசுவையும்."
   },
   {
    "q": "A bioreactor suited to shear-sensitive cells is:",
@@ -854,7 +910,15 @@
     "Airlift reactor"
    ],
    "a": 3,
-   "e": "Airlift has no impeller and gives gentle mixing."
+   "e": "Airlift has no impeller and gives gentle mixing.",
+   "q_ta": "நறுக்கு விசையால் பாதிக்கப்படும் செல்களுக்கு ஏற்ற உயிர்வினைக்கலன்:",
+   "o_ta": [
+    "அதிக rpm-இல் இயங்கும் ரஷ்டன் விசையாழிக் கலக்கித் தொட்டி",
+    "பந்து அரைப்பான்",
+    "மணி அரைப்பான்",
+    "காற்றுத்தூக்கி உலை"
+   ],
+   "e_ta": "காற்றுத்தூக்கி உலையில் சுழலி இல்லை; மென்மையான கலப்பைத் தருகிறது."
   },
   {
    "q": "In ethanol fermentation, the enzyme converting acetaldehyde to ethanol is:",
@@ -865,7 +929,15 @@
     "Alcohol dehydrogenase"
    ],
    "a": 3,
-   "e": "Alcohol dehydrogenase uses NADH and regenerates NAD⁺."
+   "e": "Alcohol dehydrogenase uses NADH and regenerates NAD⁺.",
+   "q_ta": "எத்தனால் நொதித்தலில் அசிட்டால்டிஹைடை எத்தனாலாக மாற்றும் நொதி:",
+   "o_ta": [
+    "பைருவேட் டீகார்பாக்சிலேஸ்",
+    "ஹெக்சோகைனேஸ்",
+    "அமைலேஸ்",
+    "ஆல்கஹால் டீஹைட்ரஜினேஸ்"
+   ],
+   "e_ta": "ஆல்கஹால் டீஹைட்ரஜினேஸ் NADH-ஐப் பயன்படுத்தி NAD⁺-ஐ மீளுருவாக்குகிறது."
   },
   {
    "q": "Which describes the Celera approach to the human genome?",
@@ -876,7 +948,15 @@
     "Chromosome microdissection"
    ],
    "a": 0,
-   "e": "Celera used whole-genome shotgun; the public project used hierarchical BAC mapping."
+   "e": "Celera used whole-genome shotgun; the public project used hierarchical BAC mapping.",
+   "q_ta": "மனித மரபணுத்தொகைக்கான செலரா அணுகுமுறையை விவரிப்பது எது?",
+   "o_ta": [
+    "முழு மரபணுத்தொகை ஷாட்கன் வரிசையாக்கம்",
+    "BAC-களுடன் குளோன்-குளோனாக",
+    "புரத வரிசையாக்கம் மட்டும்",
+    "நிறமூர்த்த நுண்பிளப்பு"
+   ],
+   "e_ta": "செலரா முழு மரபணுத்தொகை ஷாட்கனைப் பயன்படுத்தியது; பொதுத் திட்டம் படிநிலை BAC வரைபடமாக்கலைப் பயன்படுத்தியது."
   },
   {
    "q": "In India a patent lasts for:",
@@ -887,7 +967,15 @@
     "50 years"
    ],
    "a": 1,
-   "e": "Twenty years from the filing date."
+   "e": "Twenty years from the filing date.",
+   "q_ta": "இந்தியாவில் காப்புரிமையின் காலம்:",
+   "o_ta": [
+    "10 ஆண்டுகள்",
+    "விண்ணப்பித்த நாளிலிருந்து 20 ஆண்டுகள்",
+    "14 ஆண்டுகள்",
+    "50 ஆண்டுகள்"
+   ],
+   "e_ta": "விண்ணப்ப நாளிலிருந்து இருபது ஆண்டுகள்."
   }
  ],
  "atlas5_bioinformatics.html": [
@@ -900,7 +988,15 @@
     "Ensembl, UCSC, RefSeq"
    ],
    "a": 0,
-   "e": "GenBank (USA), ENA (Europe) and DDBJ (Japan) exchange data daily."
+   "e": "GenBank (USA), ENA (Europe) and DDBJ (Japan) exchange data daily.",
+   "q_ta": "INSDC-ஐ உருவாக்கும் மூன்று தரவுத்தளங்கள் எவை?",
+   "o_ta": [
+    "GenBank, ENA, DDBJ",
+    "PDB, UniProt, Pfam",
+    "KEGG, OMIM, GEO",
+    "Ensembl, UCSC, RefSeq"
+   ],
+   "e_ta": "GenBank (அமெரிக்கா), ENA (ஐரோப்பா), DDBJ (ஜப்பான்) தினமும் தரவைப் பரிமாறுகின்றன."
   },
   {
    "q": "A FASTA header line begins with:",
@@ -911,7 +1007,15 @@
     "//"
    ],
    "a": 1,
-   "e": "The header starts with >."
+   "e": "The header starts with >.",
+   "q_ta": "FASTA தலைப்பு வரி தொடங்குவது:",
+   "o_ta": [
+    "@",
+    ">",
+    "#",
+    "//"
+   ],
+   "e_ta": "தலைப்பு > குறியுடன் தொடங்கும்."
   },
   {
    "q": "Swiss-Prot entries are:",
@@ -922,7 +1026,15 @@
     "Only 3-D structures"
    ],
    "a": 0,
-   "e": "Swiss-Prot is the reviewed part of UniProtKB; TrEMBL is unreviewed."
+   "e": "Swiss-Prot is the reviewed part of UniProtKB; TrEMBL is unreviewed.",
+   "q_ta": "Swiss-Prot பதிவுகள்:",
+   "o_ta": [
+    "கைமுறையாகப் பராமரிக்கப்பட்டு மதிப்பாய்வு செய்யப்பட்டவை",
+    "மதிப்பாய்வற்றவை, தானியங்கிக் குறிப்புரை கொண்டவை",
+    "நியுக்ளியோடைடு பதிவுகள் மட்டும்",
+    "3-D கட்டமைப்புகள் மட்டும்"
+   ],
+   "e_ta": "Swiss-Prot என்பது UniProtKB-இன் மதிப்பாய்வு செய்யப்பட்ட பகுதி; TrEMBL மதிப்பாய்வற்றது."
   },
   {
    "q": "Which algorithm gives an optimal global alignment?",
@@ -933,7 +1045,15 @@
     "FASTA"
    ],
    "a": 1,
-   "e": "Needleman–Wunsch (1970) is global; Smith–Waterman is local."
+   "e": "Needleman–Wunsch (1970) is global; Smith–Waterman is local.",
+   "q_ta": "எந்தப் படிமுறை உகந்த முழுநீள ஒழுங்கமைவைத் தருகிறது?",
+   "o_ta": [
+    "ஸ்மித்–வாட்டர்மேன்",
+    "நீட்ல்மேன்–வுன்ஷ்",
+    "BLAST",
+    "FASTA"
+   ],
+   "e_ta": "நீட்ல்மேன்–வுன்ஷ் (1970) முழுநீளம்; ஸ்மித்–வாட்டர்மேன் பகுதி."
   },
   {
    "q": "In a dot plot, a long diagonal line indicates:",
@@ -944,7 +1064,15 @@
     "A region of similarity"
    ],
    "a": 3,
-   "e": "Diagonals mark similar segments; off-diagonals mark repeats."
+   "e": "Diagonals mark similar segments; off-diagonals mark repeats.",
+   "q_ta": "புள்ளி வரைபடத்தில் நீண்ட மூலைவிட்டக் கோடு குறிப்பது:",
+   "o_ta": [
+    "தற்செயலான பொருத்தம்",
+    "இடைவெளி",
+    "சட்ட நகர்வு மட்டும்",
+    "ஒப்புமைப் பகுதி"
+   ],
+   "e_ta": "மூலைவிட்டங்கள் ஒத்த துண்டுகளைக் குறிக்கும்; மூலைவிட்டத்துக்கு வெளியேயானவை மீள்வரிசைகளைக் குறிக்கும்."
   },
   {
    "q": "BLASTX compares:",
@@ -955,7 +1083,15 @@
     "Protein to translated database"
    ],
    "a": 2,
-   "e": "BLASTX translates the query in six frames and searches proteins."
+   "e": "BLASTX translates the query in six frames and searches proteins.",
+   "q_ta": "BLASTX ஒப்பிடுவது:",
+   "o_ta": [
+    "புரதத்தைப் புரதத்துடன்",
+    "நியுக்ளியோடைடை நியுக்ளியோடைடுடன்",
+    "மொழிபெயர்க்கப்பட்ட நியுக்ளியோடைடு வினாவைப் புரதத் தரவுத்தளத்துடன்",
+    "புரதத்தை மொழிபெயர்க்கப்பட்ட தரவுத்தளத்துடன்"
+   ],
+   "e_ta": "BLASTX வினாவை ஆறு சட்டங்களில் மொழிபெயர்த்துப் புரதங்களில் தேடும்."
   },
   {
    "q": "Which E-value suggests the most significant match?",
@@ -966,7 +1102,15 @@
     "0.05"
    ],
    "a": 0,
-   "e": "Smaller E-values are more significant."
+   "e": "Smaller E-values are more significant.",
+   "q_ta": "எந்த E-மதிப்பு மிக முக்கியமான பொருத்தத்தைக் குறிக்கிறது?",
+   "o_ta": [
+    "1e-50",
+    "10",
+    "1",
+    "0.05"
+   ],
+   "e_ta": "சிறிய E-மதிப்புகள் அதிக முக்கியத்துவம் உடையவை."
   },
   {
    "q": "BLOSUM62 is a:",
@@ -977,7 +1121,15 @@
     "Sequence database"
    ],
    "a": 1,
-   "e": "BLOSUM62 uses blocks clustered at 62% identity."
+   "e": "BLOSUM62 uses blocks clustered at 62% identity.",
+   "q_ta": "BLOSUM62 என்பது:",
+   "o_ta": [
+    "இடைவெளித் தண்டம்",
+    "பாதுகாக்கப்பட்ட தொகுதிகளிலிருந்து உருவாக்கப்பட்ட பதிலீட்டு அணி",
+    "மரம் உருவாக்கும் முறை",
+    "வரிசைத் தரவுத்தளம்"
+   ],
+   "e_ta": "BLOSUM62, 62% ஒத்தமைவில் கொத்தாக்கப்பட்ட தொகுதிகளைப் பயன்படுத்துகிறது."
   },
   {
    "q": "The PDB stores:",
@@ -988,7 +1140,15 @@
     "Atomic coordinates of macromolecular structures"
    ],
    "a": 3,
-   "e": "The Protein Data Bank archives 3-D coordinates."
+   "e": "The Protein Data Bank archives 3-D coordinates.",
+   "q_ta": "PDB சேமிப்பது:",
+   "o_ta": [
+    "புரத வரிசைகள் மட்டும்",
+    "மரபணு வெளிப்பாட்டுத் தரவு",
+    "காப்புரிமைகள்",
+    "பெருமூலக்கூறுக் கட்டமைப்புகளின் அணு ஆயத்தொலைவுகள்"
+   ],
+   "e_ta": "புரதத் தரவு வங்கி 3-D ஆயத்தொலைவுகளைக் காப்பகப்படுத்துகிறது."
   },
   {
    "q": "The most common experimental method in the PDB is:",
@@ -999,7 +1159,15 @@
     "Circular dichroism"
    ],
    "a": 2,
-   "e": "X-ray crystallography (although cryo-EM is rising)."
+   "e": "X-ray crystallography (although cryo-EM is rising).",
+   "q_ta": "PDB-யில் மிகப் பொதுவான சோதனை முறை:",
+   "o_ta": [
+    "NMR",
+    "நிறை நிறமாலையியல்",
+    "X-கதிர் படிகவியல்",
+    "வட்ட இருநிறப்புமை"
+   ],
+   "e_ta": "X-கதிர் படிகவியல் (கிரையோ-EM வளர்ந்து வருகிறது)."
   },
   {
    "q": "Progressive alignment (ClustalW) first aligns:",
@@ -1010,7 +1178,15 @@
     "The most closely related pair according to the guide tree"
    ],
    "a": 3,
-   "e": "It follows the guide tree from closest to most distant."
+   "e": "It follows the guide tree from closest to most distant.",
+   "q_ta": "படிப்படியான ஒழுங்கமைவு (ClustalW) முதலில் ஒழுங்கமைப்பது:",
+   "o_ta": [
+    "மிக விலகிய இணை",
+    "அகர வரிசையிலுள்ள வரிசைகள்",
+    "தற்போக்கு இணைகள்",
+    "வழிகாட்டி மரத்தின்படி மிக நெருங்கிய தொடர்புடைய இணை"
+   ],
+   "e_ta": "இது வழிகாட்டி மரத்தை நெருங்கியதிலிருந்து விலகியது வரை பின்பற்றும்."
   }
  ],
  "bioinformatics_databases_app.html": [
@@ -1023,7 +1199,15 @@
     "The study of protein three-dimensional structures only"
    ],
    "a": 1,
-   "e": "Bioinformatics is the interdisciplinary science that applies computer science, mathematics, and statistics to acquire, store, organise, analyse, and interpret biological data — especially large-scale molecular sequence data."
+   "e": "Bioinformatics is the interdisciplinary science that applies computer science, mathematics, and statistics to acquire, store, organise, analyse, and interpret biological data — especially large-scale molecular sequence data.",
+   "q_ta": "'உயிரித் தகவலியல்' என்ற சொல் எதைக் குறிக்கிறது?",
+   "o_ta": [
+    "நுண்ணோக்கிகளால் நுண்ணுயிர்களை ஆய்வு செய்தல்",
+    "உயிரியல் தரவைச் சேமிக்க, மீட்க, பகுப்பாய்வு செய்யக் கணினி அறிவியலையும் கணிதத்தையும் பயன்படுத்துதல்",
+    "தொழிற்சாலைப் பொருள்களைத் தயாரிக்க உயிரினங்களைப் பயன்படுத்துதல்",
+    "புரதங்களின் முப்பரிமாணக் கட்டமைப்புகளை மட்டும் ஆய்வு செய்தல்"
+   ],
+   "e_ta": "உயிரித் தகவலியல் என்பது உயிரியல் தரவை — குறிப்பாகப் பெரிய அளவிலான மூலக்கூறு வரிசைத் தரவை — பெற்று, சேமித்து, ஒழுங்கமைத்து, பகுப்பாய்வு செய்து, பொருள்கோடக் கணினி அறிவியல், கணிதம், புள்ளியியலைப் பயன்படுத்தும் பல்துறை அறிவியல்."
   },
   {
    "q": "Which of the following is a PRIMARY nucleotide sequence database?",
@@ -1034,7 +1218,15 @@
     "GenBank"
    ],
    "a": 3,
-   "e": "GenBank is a primary nucleotide sequence database — it stores original, experimentally determined DNA and RNA sequences submitted directly by researchers. UniProt, KEGG, and Pfam are secondary or derived databases."
+   "e": "GenBank is a primary nucleotide sequence database — it stores original, experimentally determined DNA and RNA sequences submitted directly by researchers. UniProt, KEGG, and Pfam are secondary or derived databases.",
+   "q_ta": "பின்வருவனவற்றுள் முதன்மை நியுக்ளியோடைடு வரிசைத் தரவுத்தளம் எது?",
+   "o_ta": [
+    "UniProt",
+    "KEGG",
+    "Pfam",
+    "GenBank"
+   ],
+   "e_ta": "GenBank முதன்மை நியுக்ளியோடைடு வரிசைத் தரவுத்தளம் — ஆய்வாளர்கள் நேரடியாகச் சமர்ப்பித்த, சோதனை வழிக் கண்டறியப்பட்ட மூல DNA, RNA வரிசைகளைச் சேமிக்கிறது. UniProt, KEGG, Pfam ஆகியவை இரண்டாம்நிலை அல்லது பெறப்பட்ட தரவுத்தளங்கள்."
   },
   {
    "q": "GenBank is maintained by which organisation?",
@@ -1045,7 +1237,15 @@
     "World Health Organisation (WHO)"
    ],
    "a": 0,
-   "e": "GenBank is maintained by the National Center for Biotechnology Information (NCBI), which is part of the National Institutes of Health (NIH) in the United States."
+   "e": "GenBank is maintained by the National Center for Biotechnology Information (NCBI), which is part of the National Institutes of Health (NIH) in the United States.",
+   "q_ta": "GenBank எந்த அமைப்பால் பராமரிக்கப்படுகிறது?",
+   "o_ta": [
+    "தேசிய உயிரித் தொழில்நுட்பத் தகவல் மையம் (NCBI), NIH",
+    "ஐரோப்பிய உயிரித் தகவலியல் நிறுவனம் (EBI)",
+    "தேசிய மரபியல் நிறுவனம், ஜப்பான்",
+    "உலக சுகாதார நிறுவனம் (WHO)"
+   ],
+   "e_ta": "GenBank-ஐ அமெரிக்காவின் தேசிய சுகாதார நிறுவனங்களின் (NIH) பகுதியான தேசிய உயிரித் தொழில்நுட்பத் தகவல் மையம் (NCBI) பராமரிக்கிறது."
   },
   {
    "q": "Which is the OLDEST nucleotide sequence database?",
@@ -1056,7 +1256,15 @@
     "PDB (1971)"
    ],
    "a": 2,
-   "e": "The EMBL Nucleotide Sequence Database was established in 1980 — two years before GenBank (1982) and six years before DDBJ (1986), making it the oldest of the three INSDC nucleotide databases."
+   "e": "The EMBL Nucleotide Sequence Database was established in 1980 — two years before GenBank (1982) and six years before DDBJ (1986), making it the oldest of the three INSDC nucleotide databases.",
+   "q_ta": "மிகப் பழைய நியுக்ளியோடைடு வரிசைத் தரவுத்தளம் எது?",
+   "o_ta": [
+    "GenBank (1982)",
+    "DDBJ (1986)",
+    "EMBL தரவுத்தளம் (1980)",
+    "PDB (1971)"
+   ],
+   "e_ta": "EMBL நியுக்ளியோடைடு வரிசைத் தரவுத்தளம் 1980-இல் — GenBank-ஐ (1982) விட இரு ஆண்டுகளும் DDBJ-ஐ (1986) விட ஆறு ஆண்டுகளும் முன்பே — நிறுவப்பட்டதால், மூன்று INSDC நியுக்ளியோடைடு தரவுத்தளங்களுள் மிகப் பழையது."
   },
   {
    "q": "What is INSDC?",
@@ -1067,7 +1275,15 @@
     "Integrated Nucleotide Sequence Design Consortium"
    ],
    "a": 1,
-   "e": "INSDC stands for International Nucleotide Sequence Database Collaboration — the formal partnership between GenBank (USA), EMBL/ENA (Europe), and DDBJ (Japan) for daily synchronisation and sharing of all nucleotide sequence records."
+   "e": "INSDC stands for International Nucleotide Sequence Database Collaboration — the formal partnership between GenBank (USA), EMBL/ENA (Europe), and DDBJ (Japan) for daily synchronisation and sharing of all nucleotide sequence records.",
+   "q_ta": "INSDC என்றால் என்ன?",
+   "o_ta": [
+    "வரிசைத் தரவு சேகரிப்புக்கான பன்னாட்டு வலையமைப்பு",
+    "பன்னாட்டு நியுக்ளியோடைடு வரிசைத் தரவுத்தளக் கூட்டிணைவு — GenBank, EMBL, DDBJ ஆகியவற்றின் கூட்டாண்மை",
+    "இந்தியத் தேசிய அறிவியல் தரவு மையம்",
+    "ஒருங்கிணைந்த நியுக்ளியோடைடு வரிசை வடிவமைப்புக் கூட்டமைப்பு"
+   ],
+   "e_ta": "INSDC என்பது பன்னாட்டு நியுக்ளியோடைடு வரிசைத் தரவுத்தளக் கூட்டிணைவு — அனைத்து நியுக்ளியோடைடு வரிசைப் பதிவுகளையும் தினமும் ஒத்திசைத்துப் பகிர GenBank (அமெரிக்கா), EMBL/ENA (ஐரோப்பா), DDBJ (ஜப்பான்) ஆகியவற்றுக்கிடையேயான முறையான கூட்டாண்மை."
   },
   {
    "q": "Within how many hours does INSDC synchronise a newly submitted sequence across all three databases?",
@@ -1078,7 +1294,15 @@
     "24 hours"
    ],
    "a": 3,
-   "e": "Under the INSDC agreement, a sequence submitted to any one of the three databases (GenBank, EMBL, DDBJ) is shared with and available in the other two within 24 hours of submission."
+   "e": "Under the INSDC agreement, a sequence submitted to any one of the three databases (GenBank, EMBL, DDBJ) is shared with and available in the other two within 24 hours of submission.",
+   "q_ta": "புதிதாகச் சமர்ப்பிக்கப்பட்ட வரிசையை மூன்று தரவுத்தளங்களிலும் INSDC எத்தனை மணி நேரத்துக்குள் ஒத்திசைக்கிறது?",
+   "o_ta": [
+    "1 வாரம்",
+    "48 மணி நேரம்",
+    "1 மாதம்",
+    "24 மணி நேரம்"
+   ],
+   "e_ta": "INSDC ஒப்பந்தப்படி, மூன்று தரவுத்தளங்களுள் (GenBank, EMBL, DDBJ) ஏதேனும் ஒன்றுக்குச் சமர்ப்பிக்கப்படும் வரிசை, சமர்ப்பித்த 24 மணி நேரத்துக்குள் மற்ற இரண்டுடன் பகிரப்பட்டுக் கிடைக்கிறது."
   },
   {
    "q": "The DDBJ database is maintained in which country?",
@@ -1089,7 +1313,15 @@
     "Germany"
    ],
    "a": 2,
-   "e": "DDBJ (DNA Data Bank of Japan) is maintained by the National Institute of Genetics (NIG) in Mishima, Shizuoka, Japan. It is the Asian hub of the INSDC."
+   "e": "DDBJ (DNA Data Bank of Japan) is maintained by the National Institute of Genetics (NIG) in Mishima, Shizuoka, Japan. It is the Asian hub of the INSDC.",
+   "q_ta": "DDBJ தரவுத்தளம் எந்த நாட்டில் பராமரிக்கப்படுகிறது?",
+   "o_ta": [
+    "அமெரிக்கா",
+    "ஐக்கிய இராச்சியம்",
+    "ஜப்பான்",
+    "ஜெர்மனி"
+   ],
+   "e_ta": "DDBJ (ஜப்பானின் DNA தரவு வங்கி) ஜப்பானின் ஷிசுவோகா மாநிலம் மிஷிமாவிலுள்ள தேசிய மரபியல் நிறுவனத்தால் (NIG) பராமரிக்கப்படுகிறது. இது INSDC-இன் ஆசிய மையம்."
   },
   {
    "q": "Which search tool is primarily associated with EMBL nucleotide database searches?",
@@ -1100,7 +1332,15 @@
     "SRS (Sequence Retrieval System)"
    ],
    "a": 3,
-   "e": "SRS (Sequence Retrieval System) is the search tool primarily associated with the EMBL/ENA database at the European Bioinformatics Institute. GenBank uses Entrez; DDBJ uses Sakura."
+   "e": "SRS (Sequence Retrieval System) is the search tool primarily associated with the EMBL/ENA database at the European Bioinformatics Institute. GenBank uses Entrez; DDBJ uses Sakura.",
+   "q_ta": "EMBL நியுக்ளியோடைடு தரவுத்தளத் தேடல்களுடன் முதன்மையாகத் தொடர்புடைய தேடல் கருவி எது?",
+   "o_ta": [
+    "Entrez",
+    "Sakura",
+    "PubMed",
+    "SRS (வரிசை மீட்பு அமைப்பு)"
+   ],
+   "e_ta": "SRS (வரிசை மீட்பு அமைப்பு) ஐரோப்பிய உயிரித் தகவலியல் நிறுவனத்தின் EMBL/ENA தரவுத்தளத்துடன் முதன்மையாகத் தொடர்புடைய தேடல் கருவி. GenBank Entrez-ஐயும், DDBJ Sakura-வையும் பயன்படுத்துகின்றன."
   },
   {
    "q": "What is an 'accession number' in the context of nucleotide databases?",
@@ -1111,7 +1351,15 @@
     "The year the sequence was deposited"
    ],
    "a": 0,
-   "e": "An accession number (e.g., AY123456) is a unique, permanent identifier assigned to each sequence record when it is deposited in an INSDC database. It never changes and allows unambiguous citation and retrieval of any specific sequence globally."
+   "e": "An accession number (e.g., AY123456) is a unique, permanent identifier assigned to each sequence record when it is deposited in an INSDC database. It never changes and allows unambiguous citation and retrieval of any specific sequence globally.",
+   "q_ta": "நியுக்ளியோடைடு தரவுத்தளங்களில் 'அணுகல் எண்' என்றால் என்ன?",
+   "o_ta": [
+    "சேமிக்கப்பட்ட ஒவ்வொரு வரிசைப் பதிவுக்கும் ஒதுக்கப்படும் தனித்த நிலையான அடையாளம்",
+    "தரவுத்தளத்தை அணுகுவதற்கான கடவுச்சொல்",
+    "வரிசையிலுள்ள நியுக்ளியோடைடுகளின் எண்ணிக்கை",
+    "வரிசை சேமிக்கப்பட்ட ஆண்டு"
+   ],
+   "e_ta": "அணுகல் எண் (எ.கா. AY123456) என்பது INSDC தரவுத்தளத்தில் சேமிக்கப்படும்போது ஒவ்வொரு வரிசைப் பதிவுக்கும் ஒதுக்கப்படும் தனித்த, நிலையான அடையாளம். இது மாறாது; எந்த வரிசையையும் உலகளவில் தெளிவாகக் குறிப்பிடவும் மீட்கவும் உதவுகிறது."
   },
   {
    "q": "Which bioinformatics tool is used to compare a query DNA sequence against all sequences in GenBank to find similar sequences?",
@@ -1122,7 +1370,15 @@
     "Sakura"
    ],
    "a": 2,
-   "e": "BLAST (Basic Local Alignment Search Tool) compares a user-submitted query sequence against all sequences in the GenBank database and returns similar sequences ranked by statistical significance (E-value). It is the most widely used bioinformatics tool globally."
+   "e": "BLAST (Basic Local Alignment Search Tool) compares a user-submitted query sequence against all sequences in the GenBank database and returns similar sequences ranked by statistical significance (E-value). It is the most widely used bioinformatics tool globally.",
+   "q_ta": "வினா DNA வரிசையை GenBank-இலுள்ள அனைத்து வரிசைகளுடனும் ஒப்பிட்டு ஒத்த வரிசைகளைக் கண்டறிய எந்த உயிரித் தகவலியல் கருவி பயன்படுகிறது?",
+   "o_ta": [
+    "SRS",
+    "KEGG",
+    "BLAST (அடிப்படை பகுதி ஒழுங்கமைவுத் தேடல் கருவி)",
+    "Sakura"
+   ],
+   "e_ta": "BLAST (அடிப்படை பகுதி ஒழுங்கமைவுத் தேடல் கருவி) பயனர் சமர்ப்பிக்கும் வினா வரிசையை GenBank தரவுத்தளத்திலுள்ள அனைத்து வரிசைகளுடனும் ஒப்பிட்டு, புள்ளியியல் முக்கியத்துவத்தின் (E-மதிப்பு) அடிப்படையில் வரிசைப்படுத்தி ஒத்த வரிசைகளைத் தருகிறது. இது உலகில் மிகப் பரவலாகப் பயன்படும் உயிரித் தகவலியல் கருவி."
   }
  ],
  "bioinformatics_tools_alignment_blast.html": [
@@ -1135,7 +1391,15 @@
     "Database search"
    ],
    "a": 0,
-   "e": "Needleman–Wunsch (1970) gives a global pairwise alignment."
+   "e": "Needleman–Wunsch (1970) gives a global pairwise alignment.",
+   "q_ta": "நீட்ல்மேன்–வுன்ஷ் படிமுறை செய்வது:",
+   "o_ta": [
+    "முழுநீள இரட்டை ஒழுங்கமைவு",
+    "பகுதி இரட்டை ஒழுங்கமைவு",
+    "பல்வரிசை ஒழுங்கமைவு",
+    "தரவுத்தளத் தேடல்"
+   ],
+   "e_ta": "நீட்ல்மேன்–வுன்ஷ் (1970) முழுநீள இரட்டை ஒழுங்கமைவைத் தருகிறது."
   },
   {
    "q": "In Smith–Waterman local alignment, negative scores in the matrix are:",
@@ -1146,7 +1410,15 @@
     "Ignored in the trace-back only"
    ],
    "a": 2,
-   "e": "Scores are floored at zero, so alignments can start anywhere."
+   "e": "Scores are floored at zero, so alignments can start anywhere.",
+   "q_ta": "ஸ்மித்–வாட்டர்மேன் பகுதி ஒழுங்கமைவில் அணியிலுள்ள எதிர்மறை மதிப்பெண்கள்:",
+   "o_ta": [
+    "அப்படியே வைக்கப்படும்",
+    "இருமடங்காக்கப்படும்",
+    "பூஜ்ஜியமாக்கப்படும்",
+    "பின்தடமறிதலில் மட்டும் புறக்கணிக்கப்படும்"
+   ],
+   "e_ta": "மதிப்பெண்கள் பூஜ்ஜியத்துக்குக் கீழே செல்லாததால் ஒழுங்கமைவுகள் எங்கிருந்தும் தொடங்கலாம்."
   },
   {
    "q": "Which substitution matrix is the default for BLASTP?",
@@ -1157,7 +1429,15 @@
     "Identity matrix"
    ],
    "a": 1,
-   "e": "BLOSUM62."
+   "e": "BLOSUM62.",
+   "q_ta": "BLASTP-க்கு இயல்பான பதிலீட்டு அணி எது?",
+   "o_ta": [
+    "PAM1",
+    "BLOSUM62",
+    "PAM250 மட்டும்",
+    "ஒத்தமைவு அணி"
+   ],
+   "e_ta": "BLOSUM62."
   },
   {
    "q": "Homology is best described as:",
@@ -1168,7 +1448,15 @@
     "Shared ancestry (present or absent)"
    ],
    "a": 3,
-   "e": "Sequences are homologous or not; identity and similarity are measurable percentages."
+   "e": "Sequences are homologous or not; identity and similarity are measurable percentages.",
+   "q_ta": "ஹோமாலஜியைச் சிறப்பாக விவரிப்பது:",
+   "o_ta": [
+    "ஒத்தமைவுச் சதவீதம்",
+    "வரிசையில் ஒப்புமை",
+    "ஒத்த புரத நீளம்",
+    "பொது மூதாதை (இருப்பது அல்லது இல்லாதது)"
+   ],
+   "e_ta": "வரிசைகள் ஹோமோலாக் ஆகும் அல்லது ஆகாது; ஒத்தமைவும் ஒப்புமையும் அளவிடக்கூடிய சதவீதங்கள்."
   },
   {
    "q": "Which BLAST program compares a translated nucleotide query with a protein database?",
@@ -1179,7 +1467,15 @@
     "tblastn"
    ],
    "a": 1,
-   "e": "blastx."
+   "e": "blastx.",
+   "q_ta": "மொழிபெயர்க்கப்பட்ட நியுக்ளியோடைடு வினாவைப் புரதத் தரவுத்தளத்துடன் ஒப்பிடும் BLAST நிரல் எது?",
+   "o_ta": [
+    "blastn",
+    "blastx",
+    "blastp",
+    "tblastn"
+   ],
+   "e_ta": "blastx."
   },
   {
    "q": "A smaller E-value indicates:",
@@ -1190,7 +1486,15 @@
     "A more significant match"
    ],
    "a": 3,
-   "e": "Smaller E-value = fewer chance matches expected."
+   "e": "Smaller E-value = fewer chance matches expected.",
+   "q_ta": "சிறிய E-மதிப்பு குறிப்பது:",
+   "o_ta": [
+    "குறைந்த முக்கியத்துவமுள்ள பொருத்தம்",
+    "நீளமான வினா",
+    "பெரிய தரவுத்தளம்",
+    "அதிக முக்கியத்துவமுள்ள பொருத்தம்"
+   ],
+   "e_ta": "சிறிய E-மதிப்பு = எதிர்பார்க்கப்படும் தற்செயல் பொருத்தங்கள் குறைவு."
   },
   {
    "q": "FASTA was developed by:",
@@ -1201,7 +1505,15 @@
     "Henikoff"
    ],
    "a": 2,
-   "e": "Lipman and Pearson (1985)."
+   "e": "Lipman and Pearson (1985).",
+   "q_ta": "FASTA-வை உருவாக்கியவர்கள்:",
+   "o_ta": [
+    "ஆல்ட்ஷுல் மற்றும் பிறர்",
+    "சாங்கர்",
+    "லிப்மேனும் பியர்சனும்",
+    "ஹெனிகாஃப்"
+   ],
+   "e_ta": "லிப்மேனும் பியர்சனும் (1985)."
   },
   {
    "q": "The usual strategy of Clustal for multiple alignment is:",
@@ -1212,7 +1524,15 @@
     "Dot-plot only"
    ],
    "a": 1,
-   "e": "Clustal builds a guide tree and aligns progressively."
+   "e": "Clustal builds a guide tree and aligns progressively.",
+   "q_ta": "பல்வரிசை ஒழுங்கமைவுக்கு Clustal-இன் வழக்கமான உத்தி:",
+   "o_ta": [
+    "N பரிமாணங்களில் துல்லிய இயக்கநிலைத் திட்டமிடல்",
+    "மரத்தால் வழிநடத்தப்படும் படிப்படியான ஒழுங்கமைவு",
+    "தற்போக்கு ஒழுங்கமைவு",
+    "புள்ளி வரைபடம் மட்டும்"
+   ],
+   "e_ta": "Clustal வழிகாட்டி மரத்தை உருவாக்கிப் படிப்படியாக ஒழுங்கமைக்கிறது."
   },
   {
    "q": "Swiss-PdbViewer is used to:",
@@ -1223,7 +1543,15 @@
     "Culture cells"
    ],
    "a": 0,
-   "e": "It is a molecular graphics and modelling tool."
+   "e": "It is a molecular graphics and modelling tool.",
+   "q_ta": "Swiss-PdbViewer பயன்படுவது:",
+   "o_ta": [
+    "புரதக் கட்டமைப்புகளைக் காட்சிப்படுத்தவும், பகுப்பாய்வு செய்யவும், மாதிரியாக்கவும்",
+    "நியுக்ளியோடைடு தரவுத்தளங்களைத் தேட",
+    "DNA-வை வரிசையாக்க",
+    "செல்களை வளர்க்க"
+   ],
+   "e_ta": "இது மூலக்கூறு வரைகலை, மாதிரியாக்கக் கருவி."
   },
   {
    "q": "A PDB file contains:",
@@ -1234,7 +1562,15 @@
     "Atomic coordinates of a macromolecule"
    ],
    "a": 3,
-   "e": "3-D atomic coordinates."
+   "e": "3-D atomic coordinates.",
+   "q_ta": "PDB கோப்பு கொண்டிருப்பது:",
+   "o_ta": [
+    "அமினோ அமில வரிசை மட்டும்",
+    "மரபணு வெளிப்பாட்டுத் தரவு",
+    "பரிணாம மரங்கள்",
+    "பெருமூலக்கூறின் அணு ஆயத்தொலைவுகள்"
+   ],
+   "e_ta": "3-D அணு ஆயத்தொலைவுகள்."
   }
  ],
  "biotechnology_fundamentals.html": [
