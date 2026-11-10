@@ -4271,7 +4271,15 @@
     "A secondary database for metabolic pathway data"
    ],
    "a": 0,
-   "e": "SWISS-PROT is a manually reviewed, non-redundant protein sequence database. Every entry is verified by expert biologists, making it the 'gold standard' for protein sequence data quality."
+   "e": "SWISS-PROT is a manually reviewed, non-redundant protein sequence database. Every entry is verified by expert biologists, making it the 'gold standard' for protein sequence data quality.",
+   "q_ta": "SWISS-PROT-ஐச் சிறப்பாக விவரிப்பது:",
+   "o_ta": [
+    "கைமுறையாக மதிப்பாய்வு செய்யப்பட்ட, நகலற்ற புரத வரிசைத் தரவுத்தளம்",
+    "தானாக உருவாக்கப்படும் நியுக்ளியோடைடு வரிசைத் தரவுத்தளம்",
+    "புரதங்களுக்கான முப்பரிமாண அமைப்புத் தரவுத்தளம்",
+    "வளர்சிதைமாற்றப் பாதைத் தரவுக்கான இரண்டாம்நிலைத் தரவுத்தளம்"
+   ],
+   "e_ta": "SWISS-PROT கைமுறையாக மதிப்பாய்வு செய்யப்பட்ட, நகலற்ற புரத வரிசைத் தரவுத்தளம். ஒவ்வொரு பதிவும் நிபுணர் உயிரியலாளர்களால் சரிபார்க்கப்படுவதால், புரத வரிசைத் தரவுத் தரத்துக்கு இது 'தங்கத் தரநிலை'."
   },
   {
    "q": "Who founded SWISS-PROT and in which year?",
@@ -4282,7 +4290,15 @@
     "James Watson, 1971"
    ],
    "a": 0,
-   "e": "SWISS-PROT was founded in 1986 by Amos Bairoch at the University of Geneva, Switzerland. It is now maintained jointly by the Swiss Institute of Bioinformatics (SIB) and the European Bioinformatics Institute (EBI) as part of UniProt."
+   "e": "SWISS-PROT was founded in 1986 by Amos Bairoch at the University of Geneva, Switzerland. It is now maintained jointly by the Swiss Institute of Bioinformatics (SIB) and the European Bioinformatics Institute (EBI) as part of UniProt.",
+   "q_ta": "SWISS-PROT-ஐ நிறுவியவர் யார்? எந்த ஆண்டில்?",
+   "o_ta": [
+    "அமோஸ் பைரோச், 1986",
+    "ஃபிரெடரிக் சேங்கர், 1977",
+    "வால்டர் கோட், 1982",
+    "ஜேம்ஸ் வாட்சன், 1971"
+   ],
+   "e_ta": "SWISS-PROT 1986-இல் சுவிட்சர்லாந்தின் ஜெனீவா பல்கலைக்கழகத்தில் அமோஸ் பைரோச்சால் நிறுவப்பட்டது. இது தற்போது UniProt-இன் ஒரு பகுதியாக சுவிஸ் உயிர்த்தகவலியல் நிறுவனம் (SIB), ஐரோப்பிய உயிர்த்தகவலியல் நிறுவனம் (EBI) ஆகியவற்றால் கூட்டாகப் பராமரிக்கப்படுகிறது."
   },
   {
    "q": "UniProt (UniProtKB) is divided into two sections. Which of the following correctly identifies them?",
@@ -4293,7 +4309,15 @@
     "BLAST and Entrez"
    ],
    "a": 2,
-   "e": "UniProtKB is divided into Swiss-Prot (~570,000 manually reviewed entries) and TrEMBL (~220 million automatically annotated, unreviewed entries). TrEMBL entries graduate to Swiss-Prot after manual expert curation."
+   "e": "UniProtKB is divided into Swiss-Prot (~570,000 manually reviewed entries) and TrEMBL (~220 million automatically annotated, unreviewed entries). TrEMBL entries graduate to Swiss-Prot after manual expert curation.",
+   "q_ta": "UniProt (UniProtKB) இரு பிரிவுகளாகப் பிரிக்கப்பட்டுள்ளது. அவற்றைச் சரியாகக் குறிப்பிடுவது எது?",
+   "o_ta": [
+    "GenBank and EMBL",
+    "PDB and PIR",
+    "Swiss-Prot (மதிப்பாய்வு செய்யப்பட்டது), TrEMBL (மதிப்பாய்வு செய்யப்படாதது)",
+    "BLAST and Entrez"
+   ],
+   "e_ta": "UniProtKB, Swiss-Prot (~5,70,000 கைமுறையாக மதிப்பாய்வு செய்யப்பட்ட பதிவுகள்), TrEMBL (~22 கோடி தானாகக் குறிப்புரையிடப்பட்ட, மதிப்பாய்வு செய்யப்படாத பதிவுகள்) என இரு பிரிவுகளாக உள்ளது. கைமுறை நிபுணர் தொகுப்பாய்வுக்குப் பின் TrEMBL பதிவுகள் Swiss-Prot-க்கு உயர்த்தப்படுகின்றன."
   },
   {
    "q": "Which of the following correctly describes the relationship between SWISS-PROT and UniProt?",
@@ -4304,7 +4328,15 @@
     "SWISS-PROT stores 3D structures while UniProt stores sequences"
    ],
    "a": 2,
-   "e": "SWISS-PROT (now called Swiss-Prot within UniProt) is the manually reviewed, high-quality tier of the UniProt Knowledgebase. UniProt is the comprehensive umbrella resource that includes both Swiss-Prot and TrEMBL."
+   "e": "SWISS-PROT (now called Swiss-Prot within UniProt) is the manually reviewed, high-quality tier of the UniProt Knowledgebase. UniProt is the comprehensive umbrella resource that includes both Swiss-Prot and TrEMBL.",
+   "q_ta": "SWISS-PROT, UniProt இடையேயான தொடர்பைச் சரியாக விவரிப்பது எது?",
+   "o_ta": [
+    "UniProt, SWISS-PROT-இன் ஒரு பகுதி",
+    "இவை இரண்டும் தொடர்பற்ற, முற்றிலும் சார்பற்ற தரவுத்தளங்கள்",
+    "UniProt அமைப்புக்குள் கைமுறையாக மதிப்பாய்வு செய்யப்பட்ட (Swiss-Prot) அடுக்கு SWISS-PROT",
+    "SWISS-PROT 3D அமைப்புகளைச் சேமிக்கிறது; UniProt வரிசைகளைச் சேமிக்கிறது"
+   ],
+   "e_ta": "SWISS-PROT (UniProt-க்குள் இப்போது Swiss-Prot என அழைக்கப்படுகிறது) UniProt அறிவுத்தளத்தின் கைமுறையாக மதிப்பாய்வு செய்யப்பட்ட, உயர்தர அடுக்கு. Swiss-Prot, TrEMBL இரண்டையும் உள்ளடக்கிய முழுமையான குடைவளம் UniProt."
   },
   {
    "q": "What does PDB stand for and what type of data does it store?",
@@ -4315,7 +4347,15 @@
     "Protein Definition Base — stores protein names and functions"
    ],
    "a": 1,
-   "e": "PDB stands for Protein Data Bank. It stores three-dimensional structural data — atomic XYZ coordinates, experimental details, and ligand information — for proteins, nucleic acids, and their complexes. It does NOT store sequences only; that is the role of UniProt/SWISS-PROT."
+   "e": "PDB stands for Protein Data Bank. It stores three-dimensional structural data — atomic XYZ coordinates, experimental details, and ligand information — for proteins, nucleic acids, and their complexes. It does NOT store sequences only; that is the role of UniProt/SWISS-PROT.",
+   "q_ta": "PDB என்பதன் விரிவு என்ன? அது எவ்வகைத் தரவைச் சேமிக்கிறது?",
+   "o_ta": [
+    "Protein Database — அமினோ அமில வரிசைகளை மட்டும் சேமிக்கிறது",
+    "Protein Data Bank — உயிரியல் பெருமூலக்கூறுகளின் முப்பரிமாண அணு ஆயங்களைச் சேமிக்கிறது",
+    "Primary Database Bank — நியுக்ளியோடைடு வரிசைகளைச் சேமிக்கிறது",
+    "Protein Definition Base — புரதப் பெயர்கள், செயல்பாடுகளைச் சேமிக்கிறது"
+   ],
+   "e_ta": "PDB என்பது Protein Data Bank. இது புரதங்கள், நியுக்ளிக் அமிலங்கள், அவற்றின் கூட்டுப்பொருள்களுக்கான முப்பரிமாண அமைப்புத் தரவை — அணு XYZ ஆயங்கள், சோதனை விவரங்கள், இணைப்பிகள் (ligand) தகவல் — சேமிக்கிறது. இது வரிசைகளை மட்டும் சேமிக்காது; அது UniProt/SWISS-PROT-இன் பங்கு."
   },
   {
    "q": "The Protein Data Bank was founded in which year?",
@@ -4326,7 +4366,15 @@
     "1982"
    ],
    "a": 1,
-   "e": "The Protein Data Bank was established in 1971 at Brookhaven National Laboratory, USA — making it the oldest of the three databases discussed (SWISS-PROT: 1986; UniProt: 2002). It started with just 7 protein structures."
+   "e": "The Protein Data Bank was established in 1971 at Brookhaven National Laboratory, USA — making it the oldest of the three databases discussed (SWISS-PROT: 1986; UniProt: 2002). It started with just 7 protein structures.",
+   "q_ta": "Protein Data Bank நிறுவப்பட்ட ஆண்டு:",
+   "o_ta": [
+    "1986",
+    "1971",
+    "2002",
+    "1982"
+   ],
+   "e_ta": "Protein Data Bank 1971-இல் அமெரிக்காவின் புரூக்ஹேவன் தேசிய ஆய்வகத்தில் நிறுவப்பட்டது — விவாதிக்கப்பட்ட மூன்று தரவுத்தளங்களுள் இதுவே மிகப் பழையது (SWISS-PROT: 1986; UniProt: 2002). இது வெறும் 7 புரத அமைப்புகளுடன் தொடங்கியது."
   },
   {
    "q": "Which experimental methods are used to determine 3D protein structures deposited in PDB?",
@@ -4337,7 +4385,15 @@
     "Sanger sequencing, next-generation sequencing, and mass spectrometry"
    ],
    "a": 2,
-   "e": "Three-dimensional structures in PDB are determined by X-ray crystallography (most common), NMR (Nuclear Magnetic Resonance) spectroscopy, or Cryo-EM (Cryo-Electron Microscopy — rapidly growing in importance for large complexes)."
+   "e": "Three-dimensional structures in PDB are determined by X-ray crystallography (most common), NMR (Nuclear Magnetic Resonance) spectroscopy, or Cryo-EM (Cryo-Electron Microscopy — rapidly growing in importance for large complexes).",
+   "q_ta": "PDB-இல் சேமிக்கப்படும் முப்பரிமாணப் புரத அமைப்புகளைக் கண்டறியப் பயன்படும் சோதனை முறைகள் எவை?",
+   "o_ta": [
+    "PCR, ஜெல் மின்னொட்டம், சதர்ன் புளாட்டிங்",
+    "BLAST தேடல், வரிசை ஒப்பீடு, பரிணாம உறவுப் பகுப்பாய்வு",
+    "X-கதிர் படிகவியல், NMR நிறமாலையியல், குளிர்-எலக்ட்ரான் நுண்ணோக்கியியல்",
+    "சேங்கர் வரிசையாக்கம், அடுத்த தலைமுறை வரிசையாக்கம், நிறை நிறமாலையியல்"
+   ],
+   "e_ta": "PDB-இல் உள்ள முப்பரிமாண அமைப்புகள் X-கதிர் படிகவியல் (மிகப் பரவலானது), NMR (அணுக்கரு காந்த ஒத்திசைவு) நிறமாலையியல், அல்லது Cryo-EM (குளிர்-எலக்ட்ரான் நுண்ணோக்கியியல் — பெரிய கூட்டுப்பொருள்களுக்கு விரைவாக முக்கியத்துவம் பெற்று வருகிறது) மூலம் கண்டறியப்படுகின்றன."
   },
   {
    "q": "What is the key difference between protein sequence databases and structural databases?",
@@ -4348,7 +4404,15 @@
     "Sequence databases store the 1D order of amino acids; structural databases store 3D atomic spatial coordinates"
    ],
    "a": 3,
-   "e": "Protein sequence databases (SWISS-PROT, UniProt) store the one-dimensional order of amino acids in a polypeptide chain. Structural databases (PDB) store three-dimensional atomic coordinates — the precise spatial arrangement of every atom, enabling visualisation of protein shape, active sites, and binding pockets."
+   "e": "Protein sequence databases (SWISS-PROT, UniProt) store the one-dimensional order of amino acids in a polypeptide chain. Structural databases (PDB) store three-dimensional atomic coordinates — the precise spatial arrangement of every atom, enabling visualisation of protein shape, active sites, and binding pockets.",
+   "q_ta": "புரத வரிசைத் தரவுத்தளங்களுக்கும் அமைப்புத் தரவுத்தளங்களுக்கும் இடையேயான முக்கிய வேறுபாடு என்ன?",
+   "o_ta": [
+    "வரிசைத் தரவுத்தளங்கள் இலவசம்; அமைப்புத் தரவுத்தளங்களுக்குச் சந்தா தேவை",
+    "வரிசைத் தரவுத்தளங்கள் பழையவை; அமைப்புத் தரவுத்தளங்கள் புதியவை",
+    "உண்மையான வேறுபாடு இல்லை — இரண்டும் ஒரே தகவலைச் சேமிக்கின்றன",
+    "வரிசைத் தரவுத்தளங்கள் அமினோ அமிலங்களின் 1D வரிசையைச் சேமிக்கின்றன; அமைப்புத் தரவுத்தளங்கள் 3D அணு இடஞ்சார் ஆயங்களைச் சேமிக்கின்றன"
+   ],
+   "e_ta": "புரத வரிசைத் தரவுத்தளங்கள் (SWISS-PROT, UniProt) பாலிபெப்டைடு சங்கிலியிலுள்ள அமினோ அமிலங்களின் ஒரு பரிமாண வரிசையைச் சேமிக்கின்றன. அமைப்புத் தரவுத்தளங்கள் (PDB) முப்பரிமாண அணு ஆயங்களை — ஒவ்வோர் அணுவின் துல்லியமான இடஞ்சார் அமைப்பை — சேமிக்கின்றன; இதனால் புரத வடிவம், செயலிடங்கள், பிணைப்புக் குழிகள் ஆகியவற்றைக் காட்சிப்படுத்த முடிகிறது."
   },
   {
    "q": "Which database is most directly used for structure-based drug design?",
@@ -4359,7 +4423,15 @@
     "PDB (Protein Data Bank)"
    ],
    "a": 3,
-   "e": "Structure-based drug design relies on PDB — by visualising the 3D structure of a target protein's active site, chemists can design molecules that fit precisely into that site. This approach was used to design HIV protease inhibitors and COVID-19 antivirals."
+   "e": "Structure-based drug design relies on PDB — by visualising the 3D structure of a target protein's active site, chemists can design molecules that fit precisely into that site. This approach was used to design HIV protease inhibitors and COVID-19 antivirals.",
+   "q_ta": "அமைப்பு-அடிப்படை மருந்து வடிவமைப்புக்கு மிக நேரடியாகப் பயன்படும் தரவுத்தளம் எது?",
+   "o_ta": [
+    "TrEMBL",
+    "GenBank",
+    "DDBJ",
+    "PDB (Protein Data Bank)"
+   ],
+   "e_ta": "அமைப்பு-அடிப்படை மருந்து வடிவமைப்பு PDB-ஐச் சார்ந்தது — இலக்குப் புரதத்தின் செயலிடத்தின் 3D அமைப்பைக் காட்சிப்படுத்துவதன் மூலம் வேதியியலாளர்கள் அவ்விடத்தில் துல்லியமாகப் பொருந்தும் மூலக்கூறுகளை வடிவமைக்க முடியும். HIV புரோட்டியேஸ் தடுப்பான்கள், கோவிட்-19 வைரஸ் எதிர்ப்பு மருந்துகளை வடிவமைக்க இவ்வணுகுமுறை பயன்பட்டது."
   },
   {
    "q": "A researcher needs to find the annotated function and disease variants of the human insulin receptor protein. Which database should they consult first?",
@@ -4370,7 +4442,15 @@
     "UniProt / SWISS-PROT — to find the annotated protein sequence and function"
    ],
    "a": 3,
-   "e": "For protein function, disease variants, subcellular location, and other biological annotations, UniProt (specifically Swiss-Prot for a well-studied protein like the insulin receptor) is the primary resource. PDB would be consulted for the 3D structure; GenBank for the DNA sequence."
+   "e": "For protein function, disease variants, subcellular location, and other biological annotations, UniProt (specifically Swiss-Prot for a well-studied protein like the insulin receptor) is the primary resource. PDB would be consulted for the 3D structure; GenBank for the DNA sequence.",
+   "q_ta": "ஒரு ஆய்வாளர் மனித இன்சுலின் ஏற்பிப் புரதத்தின் குறிப்புரையிடப்பட்ட செயல்பாட்டையும் நோய் மாறுபாடுகளையும் அறிய வேண்டும். அவர் முதலில் எந்தத் தரவுத்தளத்தை அணுக வேண்டும்?",
+   "o_ta": [
+    "PDB — அதன் 3D அமைப்பைக் காண",
+    "GenBank — DNA வரிசையைக் காண",
+    "KEGG — அதன் வளர்சிதைமாற்றப் பாதையைக் காண",
+    "UniProt / SWISS-PROT — குறிப்புரையிடப்பட்ட புரத வரிசையையும் செயல்பாட்டையும் காண"
+   ],
+   "e_ta": "புரதச் செயல்பாடு, நோய் மாறுபாடுகள், செல்லகத் தானம், பிற உயிரியல் குறிப்புரைகளுக்கு UniProt (இன்சுலின் ஏற்பி போன்ற நன்கு ஆராயப்பட்ட புரதத்துக்கு குறிப்பாக Swiss-Prot) முதன்மை வளம். 3D அமைப்புக்கு PDB-யையும், DNA வரிசைக்கு GenBank-ஐயும் அணுகலாம்."
   }
  ],
  "sanger_dna_sequencing.html": [
@@ -4383,7 +4463,15 @@
     "ddNTP has a modified nucleobase"
    ],
    "a": 1,
-   "e": "The only structural difference between dNTP and ddNTP is at the 3' position of the deoxyribose sugar: dNTP has a free 3'-OH (hydroxyl group) that allows the next phosphodiester bond to form, while ddNTP has only a 3'-H (hydrogen atom) — no OH group. Without 3'-OH, DNA polymerase cannot catalyse the next bond, and chain synthesis terminates permanently."
+   "e": "The only structural difference between dNTP and ddNTP is at the 3' position of the deoxyribose sugar: dNTP has a free 3'-OH (hydroxyl group) that allows the next phosphodiester bond to form, while ddNTP has only a 3'-H (hydrogen atom) — no OH group. Without 3'-OH, DNA polymerase cannot catalyse the next bond, and chain synthesis terminates permanently.",
+   "q_ta": "சங்கிலி முடிவுறுத்தலை இயலச் செய்யும் dNTP-க்கும் ddNTP-க்கும் இடையேயான முக்கிய அமைப்பு வேறுபாடு என்ன?",
+   "o_ta": [
+    "ddNTP-இல் 5'-பாஸ்பேட் தொகுதி இல்லை",
+    "ddNTP-இல் 3' நிலையில் ஹைட்ராக்சில் (OH) தொகுதிக்குப் பதிலாக ஹைட்ரஜன் (H) உள்ளது",
+    "ddNTP-இல் டிஆக்சிரைபோஸுக்குப் பதிலாக ரைபோஸ் சர்க்கரை உள்ளது",
+    "ddNTP-இல் மாற்றியமைக்கப்பட்ட நியுக்ளியோகாரம் உள்ளது"
+   ],
+   "e_ta": "dNTP-க்கும் ddNTP-க்கும் இடையேயான ஒரே அமைப்பு வேறுபாடு டிஆக்சிரைபோஸ் சர்க்கரையின் 3' நிலையில் உள்ளது: dNTP-இல் அடுத்த பாஸ்போடையெஸ்டர் பிணைப்பு உருவாக அனுமதிக்கும் தனித்த 3'-OH (ஹைட்ராக்சில் தொகுதி) உள்ளது; ddNTP-இல் 3'-H (ஹைட்ரஜன் அணு) மட்டுமே உள்ளது — OH தொகுதி இல்லை. 3'-OH இல்லாமல் DNA பாலிமெரேஸ் அடுத்த பிணைப்பை வினையூக்க இயலாது; சங்கிலித் தொகுப்பு நிரந்தரமாக முடிவடைகிறது."
   },
   {
    "q": "In the Sanger sequencing reaction, what is the purpose of adding ddNTPs at a much lower concentration (~100×) than dNTPs?",
@@ -4394,7 +4482,15 @@
     "To ensure termination occurs randomly at every possible position, generating fragments of all lengths"
    ],
    "a": 3,
-   "e": "ddNTPs at low concentration (~1:100 vs dNTPs) ensure that chain termination occurs randomly and infrequently at every position. This produces a complete 'ladder' of fragments with all possible lengths — essential for reading the full sequence. If ddNTPs were too concentrated, only very short fragments (terminated near the primer) would be produced."
+   "e": "ddNTPs at low concentration (~1:100 vs dNTPs) ensure that chain termination occurs randomly and infrequently at every position. This produces a complete 'ladder' of fragments with all possible lengths — essential for reading the full sequence. If ddNTPs were too concentrated, only very short fragments (terminated near the primer) would be produced.",
+   "q_ta": "சேங்கர் வரிசையாக்க வினையில் ddNTP-களை dNTP-களைவிட மிகக் குறைந்த செறிவில் (~100 மடங்கு) சேர்ப்பதன் நோக்கம் என்ன?",
+   "o_ta": [
+    "சிறந்த ஜெல் பிரிதிறனுக்காக அனைத்துத் துண்டுகளும் மிகச் சிறியவையாக இருப்பதை உறுதிசெய்ய",
+    "ddNTP-கள் விலை உயர்ந்தவை என்பதால் செலவைச் சேமிக்க",
+    "வரிசையில் பிரைமர் இணைவதைத் தடுக்க",
+    "ஒவ்வொரு சாத்தியமான இடத்திலும் முடிவுறுத்தல் தற்போக்காக நிகழ்வதை உறுதிசெய்து, அனைத்து நீளங்களிலும் துண்டுகளை உருவாக்க"
+   ],
+   "e_ta": "குறைந்த செறிவிலுள்ள ddNTP-கள் (dNTP-களுடன் ~1:100) சங்கிலி முடிவுறுத்தல் ஒவ்வோர் இடத்திலும் தற்போக்காகவும் அரிதாகவும் நிகழ்வதை உறுதிசெய்கின்றன. இது அனைத்துச் சாத்தியமான நீளங்களிலும் துண்டுகளின் முழுமையான 'ஏணியை' உருவாக்குகிறது — முழு வரிசையை வாசிக்க இன்றியமையாதது. ddNTP-கள் மிகச் செறிவாக இருந்தால், (பிரைமருக்கு அருகில் முடிவுறும்) மிகச் சிறிய துண்டுகள் மட்டுமே உருவாகும்."
   },
   {
    "q": "In modern automated Sanger sequencing using capillary electrophoresis, how are the four different ddNTPs distinguished?",
@@ -4405,7 +4501,15 @@
     "They are distinguished by their different molecular weights in the mass spectrometer"
    ],
    "a": 0,
-   "e": "In modern automated Sanger sequencing, all four ddNTPs (ddA, ddT, ddG, ddC) are present in a single reaction, each labelled with a different fluorescent dye (e.g., ddA=green, ddT=red, ddG=blue, ddC=purple). When fragments pass the laser in the capillary, each emits its characteristic colour, allowing the base at each position to be identified from the chromatogram peak colours."
+   "e": "In modern automated Sanger sequencing, all four ddNTPs (ddA, ddT, ddG, ddC) are present in a single reaction, each labelled with a different fluorescent dye (e.g., ddA=green, ddT=red, ddG=blue, ddC=purple). When fragments pass the laser in the capillary, each emits its characteristic colour, allowing the base at each position to be identified from the chromatogram peak colours.",
+   "q_ta": "நுண்குழாய் மின்னொட்டத்தைப் பயன்படுத்தும் நவீன தானியங்கி சேங்கர் வரிசையாக்கத்தில் நான்கு ddNTP-களும் எவ்வாறு வேறுபடுத்தப்படுகின்றன?",
+   "o_ta": [
+    "ஒவ்வொரு ddNTP-யும் வெவ்வேறு ஒளிர் சாயத்தைச் சுமக்கிறது; லேசரால் தூண்டப்படும்போது தனித்துவ நிறத்தை உமிழ்கிறது",
+    "ஒவ்வொரு ddNTP-யும் தனித் தனி வினைக் குழாயில் உள்ளது",
+    "ஒவ்வொரு ddNTP-யும் வெவ்வேறு கதிரியக்க ஐசோடோப்பால் அடையாளமிடப்பட்டுள்ளது",
+    "நிறை நிறமாலைமானியில் வெவ்வேறு மூலக்கூற்று எடைகளால் வேறுபடுத்தப்படுகின்றன"
+   ],
+   "e_ta": "நவீன தானியங்கி சேங்கர் வரிசையாக்கத்தில் நான்கு ddNTP-களும் (ddA, ddT, ddG, ddC) ஒரே வினையில் உள்ளன; ஒவ்வொன்றும் வெவ்வேறு ஒளிர் சாயத்தால் அடையாளமிடப்பட்டுள்ளது (எ.கா. ddA=பச்சை, ddT=சிவப்பு, ddG=நீலம், ddC=ஊதா). துண்டுகள் நுண்குழாயில் லேசரைக் கடக்கும்போது, ஒவ்வொன்றும் தனக்குரிய நிறத்தை உமிழ்கிறது; நிறமாலைப்படத்தின் உச்ச நிறங்களிலிருந்து ஒவ்வோர் இடத்திலுமுள்ள காரத்தை அடையாளம் காண முடிகிறது."
   },
   {
    "q": "How is the DNA sequence read from a traditional four-lane sequencing gel?",
@@ -4416,7 +4520,15 @@
     "Read the gel from left to right, each column representing one nucleotide position"
    ],
    "a": 2,
-   "e": "In a four-lane Sanger sequencing gel (ddA, ddT, ddG, ddC lanes), the sequence is read from bottom to top — the smallest fragments (shortest, closest to the primer = earliest nucleotide positions) run fastest and are at the bottom. At each band position, reading which lane contains the band gives the nucleotide (A, T, G, or C) at that position in the 5'→3' direction of the new strand."
+   "e": "In a four-lane Sanger sequencing gel (ddA, ddT, ddG, ddC lanes), the sequence is read from bottom to top — the smallest fragments (shortest, closest to the primer = earliest nucleotide positions) run fastest and are at the bottom. At each band position, reading which lane contains the band gives the nucleotide (A, T, G, or C) at that position in the 5'→3' direction of the new strand.",
+   "q_ta": "பாரம்பரிய நான்கு தடச் சேங்கர் வரிசையாக்க ஜெல்லிலிருந்து DNA வரிசை எவ்வாறு வாசிக்கப்படுகிறது?",
+   "o_ta": [
+    "மேலிருந்து கீழ் நோக்கி வாசிக்க; ஒவ்வொரு பட்டையின் தடமும் அவ்விடத்திலுள்ள காரத்தைத் தரும்",
+    "ஒவ்வொரு தடத்திலும் பட்டைகளின் செறிவை ஒப்பிட்டு மிகப் பொதுவான காரத்தைக் கண்டறிய",
+    "கீழிருந்து மேல் நோக்கி (சிறிய துண்டுகள் முதலில்) வாசிக்க; ஒவ்வொரு பட்டையின் தடமும் அவ்விடத்திலுள்ள காரத்தைத் தரும்",
+    "ஜெல்லை இடமிருந்து வலமாக வாசிக்க; ஒவ்வொரு நெடுவரிசையும் ஒரு நியுக்ளியோடைடு இடத்தைக் குறிக்கும்"
+   ],
+   "e_ta": "நான்கு தட சேங்கர் வரிசையாக்க ஜெல்லில் (ddA, ddT, ddG, ddC தடங்கள்) வரிசை கீழிருந்து மேல் வாசிக்கப்படுகிறது — சிறிய துண்டுகள் (குறுகியவை, பிரைமருக்கு அருகிலுள்ளவை = முந்தைய நியுக்ளியோடைடு இடங்கள்) மிக வேகமாக நகர்ந்து கீழே அமைகின்றன. ஒவ்வொரு பட்டை இடத்திலும் எந்தத் தடத்தில் பட்டை உள்ளது என்று வாசிப்பது, புதிய இழையின் 5'→3' திசையில் அவ்விடத்திலுள்ள நியுக்ளியோடைடைத் (A, T, G அல்லது C) தருகிறது."
   },
   {
    "q": "Who developed the chain-termination DNA sequencing method and in which year?",
@@ -4427,7 +4539,15 @@
     "Kary Mullis, 1983"
    ],
    "a": 1,
-   "e": "The chain-termination (dideoxy) DNA sequencing method was developed by Frederick Sanger and colleagues at the MRC Laboratory of Molecular Biology, Cambridge, in 1977. Sanger was awarded the Nobel Prize in Chemistry in 1980 for this achievement — his second Nobel Prize (having received his first in 1958 for protein sequencing of insulin)."
+   "e": "The chain-termination (dideoxy) DNA sequencing method was developed by Frederick Sanger and colleagues at the MRC Laboratory of Molecular Biology, Cambridge, in 1977. Sanger was awarded the Nobel Prize in Chemistry in 1980 for this achievement — his second Nobel Prize (having received his first in 1958 for protein sequencing of insulin).",
+   "q_ta": "சங்கிலி முடிவுறுத்தல் DNA வரிசையாக்க முறையை உருவாக்கியவர் யார்? எந்த ஆண்டில்?",
+   "o_ta": [
+    "ஜேம்ஸ் வாட்சனும் ஃபிரான்சிஸ் கிரிக்கும், 1953",
+    "ஃபிரெடரிக் சேங்கர், 1977",
+    "வால்டர் கில்பர்ட், 1975",
+    "கேரி முல்லிஸ், 1983"
+   ],
+   "e_ta": "சங்கிலி முடிவுறுத்தல் (டைடியாக்சி) DNA வரிசையாக்க முறையை 1977-இல் கேம்பிரிட்ஜிலுள்ள MRC மூலக்கூற்று உயிரியல் ஆய்வகத்தில் ஃபிரெடரிக் சேங்கரும் அவரது சகாக்களும் உருவாக்கினர். இச்சாதனைக்காக சேங்கருக்கு 1980-இல் வேதியியலுக்கான நோபல் பரிசு வழங்கப்பட்டது — இது அவரது இரண்டாம் நோபல் பரிசு (முதலாவது 1958-இல் இன்சுலின் புரத வரிசையாக்கத்துக்காக)."
   },
   {
    "q": "In Sanger sequencing, which component provides the starting point for DNA synthesis by DNA polymerase?",
@@ -4438,7 +4558,15 @@
     "The Mg²⁺ cofactor in the reaction buffer"
    ],
    "a": 0,
-   "e": "The oligonucleotide primer provides the starting point for DNA synthesis. It is a short (18–25 nt) synthetic single-stranded sequence complementary to the template strand, upstream of the region to be sequenced. DNA polymerase requires a free 3'-OH terminus to initiate synthesis — the primer provides this 3'-OH. Without a primer, DNA polymerase cannot begin synthesis."
+   "e": "The oligonucleotide primer provides the starting point for DNA synthesis. It is a short (18–25 nt) synthetic single-stranded sequence complementary to the template strand, upstream of the region to be sequenced. DNA polymerase requires a free 3'-OH terminus to initiate synthesis — the primer provides this 3'-OH. Without a primer, DNA polymerase cannot begin synthesis.",
+   "q_ta": "சேங்கர் வரிசையாக்கத்தில் DNA பாலிமெரேஸ் மூலம் DNA தொகுப்புக்கான தொடக்கப் புள்ளியை வழங்கும் கூறு எது?",
+   "o_ta": [
+    "வார்ப்புருவுக்கு நிரப்பான ஒலிகோநியுக்ளியோடைடு பிரைமர்",
+    "வார்ப்புரு DNA இழையே",
+    "ddNTP சங்கிலி முடிவுறுத்தி",
+    "வினைத் தாங்கலிலுள்ள Mg²⁺ துணைக்காரணி"
+   ],
+   "e_ta": "ஒலிகோநியுக்ளியோடைடு பிரைமர் DNA தொகுப்புக்கான தொடக்கப் புள்ளியை வழங்குகிறது. இது வரிசையாக்கப்பட வேண்டிய பகுதிக்கு மேலுள்ள, வார்ப்புரு இழைக்கு நிரப்பான குறுகிய (18–25 nt) செயற்கை ஒற்றை இழை வரிசை. தொகுப்பைத் தொடங்க DNA பாலிமெரேஸுக்கு தனித்த 3'-OH முனை தேவை — பிரைமர் இந்த 3'-OH-ஐ வழங்குகிறது. பிரைமர் இல்லாமல் DNA பாலிமெரேஸ் தொகுப்பைத் தொடங்க இயலாது."
   },
   {
    "q": "What does the chromatogram (electropherogram) output of automated Sanger sequencing show?",
@@ -4449,7 +4577,15 @@
     "A scatter plot of DNA fragment masses"
    ],
    "a": 2,
-   "e": "The chromatogram (electropherogram) from automated fluorescent Sanger sequencing shows coloured peaks plotted against time (or fragment size). Each peak represents one nucleotide position in the sequence — the peak colour identifies which base is present (e.g., green for A, red for T, blue for G, purple for C). The sequence is read from left to right (earliest eluting = smallest fragments = first bases in 5'→3' direction)."
+   "e": "The chromatogram (electropherogram) from automated fluorescent Sanger sequencing shows coloured peaks plotted against time (or fragment size). Each peak represents one nucleotide position in the sequence — the peak colour identifies which base is present (e.g., green for A, red for T, blue for G, purple for C). The sequence is read from left to right (earliest eluting = smallest fragments = first bases in 5'→3' direction).",
+   "q_ta": "தானியங்கி சேங்கர் வரிசையாக்கத்தின் நிறமாலைப்பட (எலக்ட்ரோபெரோகிராம்) வெளியீடு எதைக் காட்டுகிறது?",
+   "o_ta": [
+    "X-கதிர்த் திரையில் இருண்ட பட்டைகளின் நான்கு தனித் தடங்கள்",
+    "கலப்பினமான துண்டுகளைக் காட்டும் சதர்ன் புளாட் அமைப்பு",
+    "நேர அச்சில் நிறமுள்ள ஒளிர் உச்சங்கள்; ஒவ்வோர் உச்ச நிறமும் ஒரு நியுக்ளியோடைடு காரத்தை அடையாளம் காட்டுகிறது",
+    "DNA துண்டு நிறைகளின் சிதறல் வரைபடம்"
+   ],
+   "e_ta": "தானியங்கி ஒளிர் சேங்கர் வரிசையாக்கத்தின் நிறமாலைப்படம் (எலக்ட்ரோபெரோகிராம்) நேரத்துக்கு (அல்லது துண்டு அளவுக்கு) எதிராக வரையப்பட்ட நிறமுள்ள உச்சங்களைக் காட்டுகிறது. ஒவ்வோர் உச்சமும் வரிசையிலுள்ள ஒரு நியுக்ளியோடைடு இடத்தைக் குறிக்கிறது — உச்ச நிறம் எந்தக் காரம் உள்ளது என்பதை அடையாளம் காட்டுகிறது (எ.கா. A-க்குப் பச்சை, T-க்குச் சிவப்பு, G-க்கு நீலம், C-க்கு ஊதா). வரிசை இடமிருந்து வலமாக வாசிக்கப்படுகிறது (முதலில் வெளியேறுவது = சிறிய துண்டுகள் = 5'→3' திசையில் முதல் காரங்கள்)."
   },
   {
    "q": "Which enzyme is responsible for synthesising the new complementary strand during Sanger sequencing?",
@@ -4460,7 +4596,15 @@
     "DNA polymerase (e.g., Klenow fragment or Taq polymerase)"
    ],
    "a": 3,
-   "e": "DNA polymerase synthesises the new complementary strand in Sanger sequencing. In the original method, the Klenow fragment (large fragment of E. coli DNA Pol I, lacking 5'→3' exonuclease activity) was used. Modern cycle sequencing uses thermostable polymerases like Taq. The polymerase reads the template 3'→5' and synthesises the new strand 5'→3', incorporating dNTPs and occasionally ddNTPs."
+   "e": "DNA polymerase synthesises the new complementary strand in Sanger sequencing. In the original method, the Klenow fragment (large fragment of E. coli DNA Pol I, lacking 5'→3' exonuclease activity) was used. Modern cycle sequencing uses thermostable polymerases like Taq. The polymerase reads the template 3'→5' and synthesises the new strand 5'→3', incorporating dNTPs and occasionally ddNTPs.",
+   "q_ta": "சேங்கர் வரிசையாக்கத்தின்போது புதிய நிரப்பு இழையைத் தொகுப்பதற்குப் பொறுப்பான நொதி எது?",
+   "o_ta": [
+    "RNA பாலிமெரேஸ்",
+    "DNA லைகேஸ்",
+    "தலைகீழ் படியெடுப்பி",
+    "DNA பாலிமெரேஸ் (எ.கா. க்ளெனோ துண்டு அல்லது Taq பாலிமெரேஸ்)"
+   ],
+   "e_ta": "சேங்கர் வரிசையாக்கத்தில் DNA பாலிமெரேஸ் புதிய நிரப்பு இழையைத் தொகுக்கிறது. அசல் முறையில், க்ளெனோ துண்டு (5'→3' எக்ஸோநியுக்ளியேஸ் செயல்பாடற்ற E. coli DNA Pol I-இன் பெரிய துண்டு) பயன்படுத்தப்பட்டது. நவீன சுழற்சி வரிசையாக்கம் Taq போன்ற வெப்பம்தாங்கும் பாலிமெரேஸ்களைப் பயன்படுத்துகிறது. பாலிமெரேஸ் வார்ப்புருவை 3'→5' திசையில் வாசித்து, dNTP-களையும் எப்போதாவது ddNTP-களையும் இணைத்து, புதிய இழையை 5'→3' திசையில் தொகுக்கிறது."
   },
   {
    "q": "A Sanger sequencing run typically provides how many reliable base calls per reaction?",
@@ -4471,7 +4615,15 @@
     "600–1000 bases"
    ],
    "a": 3,
-   "e": "A standard Sanger sequencing run typically provides 600–1000 reliable base calls per reaction, with accuracy greater than 99.99% for high-quality regions. The first 15–40 bases are usually unreliable (primer region). This read length, while limited compared to NGS, is more than sufficient for verifying clones, sequencing single genes, and targeted mutation analysis."
+   "e": "A standard Sanger sequencing run typically provides 600–1000 reliable base calls per reaction, with accuracy greater than 99.99% for high-quality regions. The first 15–40 bases are usually unreliable (primer region). This read length, while limited compared to NGS, is more than sufficient for verifying clones, sequencing single genes, and targeted mutation analysis.",
+   "q_ta": "ஒரு சேங்கர் வரிசையாக்க ஓட்டம் ஒரு வினைக்குத் தோராயமாக எத்தனை நம்பகமான கார அழைப்புகளைத் தருகிறது?",
+   "o_ta": [
+    "50–100 காரங்கள்",
+    "100–200 காரங்கள்",
+    "10,000–50,000 காரங்கள்",
+    "600–1000 காரங்கள்"
+   ],
+   "e_ta": "வழக்கமான சேங்கர் வரிசையாக்க ஓட்டம் ஒரு வினைக்கு 600–1000 நம்பகமான கார அழைப்புகளைத் தருகிறது; உயர்தரப் பகுதிகளில் துல்லியம் 99.99%-க்கும் அதிகம். முதல் 15–40 காரங்கள் பொதுவாக நம்பகமற்றவை (பிரைமர் பகுதி). NGS-உடன் ஒப்பிடும்போது இந்த வாசிப்பு நீளம் வரம்புடையதாயினும், குளோன்களைச் சரிபார்க்கவும், ஒற்றை மரபணுக்களை வரிசையாக்கவும், இலக்கிடப்பட்ட திடீர்மாற்றப் பகுப்பாய்வுக்கும் போதுமானதைவிட அதிகம்."
   },
   {
    "q": "Which of the following is a major limitation of Sanger sequencing compared to next-generation sequencing (NGS)?",
@@ -4482,7 +4634,15 @@
     "Sanger sequencing cannot be used to sequence PCR products or plasmids"
    ],
    "a": 2,
-   "e": "The major limitation of Sanger sequencing is low throughput — only ~600–1000 bp per reaction. Sequencing an entire human genome (3.2 Gb) by Sanger would require millions of reactions and cost ~$3 billion (as in the Human Genome Project). In contrast, modern NGS platforms can sequence billions of bases simultaneously at a fraction of the cost. Sanger remains superior in accuracy and read length for targeted applications."
+   "e": "The major limitation of Sanger sequencing is low throughput — only ~600–1000 bp per reaction. Sequencing an entire human genome (3.2 Gb) by Sanger would require millions of reactions and cost ~$3 billion (as in the Human Genome Project). In contrast, modern NGS platforms can sequence billions of bases simultaneously at a fraction of the cost. Sanger remains superior in accuracy and read length for targeted applications.",
+   "q_ta": "அடுத்த தலைமுறை வரிசையாக்கத்துடன் (NGS) ஒப்பிடும்போது சேங்கர் வரிசையாக்கத்தின் முக்கிய வரம்பு பின்வருவனவற்றுள் எது?",
+   "o_ta": [
+    "சேங்கர் வரிசையாக்கம் NGS முறைகளைவிடக் குறைந்த துல்லியம் உடையது",
+    "சேங்கர் வரிசையாக்கத்தில் ஒவ்வொரு நியுக்ளியோடைடு இடத்துக்கும் தனிப் பிரைமர் தேவை",
+    "சேங்கர் வரிசையாக்கத்தின் செயல்திறன் மிகக் குறைவு — ஒரு வினைக்கு ~1 kb மட்டும் — இது முழு மரபணுத்தொகை வரிசையாக்கத்தை மிகவும் செலவு மிக்கதாகவும் நேரம் எடுப்பதாகவும் ஆக்குகிறது",
+    "சேங்கர் வரிசையாக்கத்தால் PCR விளைபொருள்களையோ பிளாஸ்மிடுகளையோ வரிசையாக்க இயலாது"
+   ],
+   "e_ta": "சேங்கர் வரிசையாக்கத்தின் முக்கிய வரம்பு குறைந்த செயல்திறன் — ஒரு வினைக்கு ~600–1000 bp மட்டுமே. முழு மனித மரபணுத்தொகையை (3.2 Gb) சேங்கர் முறையில் வரிசையாக்க மில்லியன் கணக்கான வினைகளும் சுமார் 300 கோடி அமெரிக்க டாலர் செலவும் ஆகும் (மனித மரபணுத்தொகைத் திட்டத்தைப் போல). மாறாக, நவீன NGS தளங்கள் மிகக் குறைந்த செலவில் கோடிக்கணக்கான காரங்களை ஒரே நேரத்தில் வரிசையாக்க முடியும். இலக்கிடப்பட்ட பயன்பாடுகளில் துல்லியம், வாசிப்பு நீளத்தில் சேங்கர் இன்றும் உயர்ந்தது."
   }
  ],
  "screening_selection_recombinants.html": [
@@ -4495,7 +4655,15 @@
     "A non-recombinant transformant with an intact lacZ-α gene"
    ],
    "a": 3,
-   "e": "Blue colonies have an intact lacZ-α gene (no insert in MCS). β-galactosidase is produced and cleaves X-gal to release a blue compound. These are non-recombinant transformants — the vector re-circularised without incorporating an insert."
+   "e": "Blue colonies have an intact lacZ-α gene (no insert in MCS). β-galactosidase is produced and cleaves X-gal to release a blue compound. These are non-recombinant transformants — the vector re-circularised without incorporating an insert.",
+   "q_ta": "நீல-வெள்ளைச் சலிக்கையில் நீலக் காலனி குறிப்பது:",
+   "o_ta": [
+    "இலக்கு மரபணுவுடன் கூடிய மறுசேர்க்கைக் குளோன்",
+    "நுண்ணுயிர்க்கொல்லியால் கொல்லப்பட்ட, உருமாற்றம் அடையாத செல்",
+    "மிகப் பெரிய உட்செருகு கொண்ட மறுசேர்க்கைக் குளோன்",
+    "சிதையாத lacZ-α மரபணு கொண்ட மறுசேர்க்கையற்ற உருமாறி"
+   ],
+   "e_ta": "நீலக் காலனிகளில் சிதையாத lacZ-α மரபணு உள்ளது (MCS-இல் உட்செருகு இல்லை). β-கேலக்டோசிடேஸ் உருவாகி X-gal-ஐப் பிளந்து நீலச் சேர்மத்தை வெளியிடுகிறது. இவை மறுசேர்க்கையற்ற உருமாறிகள் — உட்செருகை இணைக்காமலே தாங்கிக்கடத்தி மீண்டும் வட்டமானது."
   },
   {
    "q": "In insertional inactivation using pBR322, a recombinant clone is correctly identified as:",
@@ -4506,7 +4674,15 @@
     "Ampicillin-resistant and tetracycline-sensitive"
    ],
    "a": 3,
-   "e": "When the insert is cloned into the BamHI site (within the tet^r gene of pBR322), the tet^r gene is disrupted. Recombinant cells lose tetracycline resistance (tet^s) but retain ampicillin resistance (amp^r) since the amp^r gene is unaffected. They are identified as amp^r but absent from the tetracycline replica plate."
+   "e": "When the insert is cloned into the BamHI site (within the tet^r gene of pBR322), the tet^r gene is disrupted. Recombinant cells lose tetracycline resistance (tet^s) but retain ampicillin resistance (amp^r) since the amp^r gene is unaffected. They are identified as amp^r but absent from the tetracycline replica plate.",
+   "q_ta": "pBR322-ஐப் பயன்படுத்தும் உட்செருகல் செயலிழப்பில் மறுசேர்க்கைக் குளோன் சரியாக அடையாளம் காணப்படுவது:",
+   "o_ta": [
+    "ஆம்பிசிலினுக்கு உணர்திறனும் டெட்ராசைக்ளினுக்கு எதிர்ப்பும் கொண்டது",
+    "ஆம்பிசிலின், டெட்ராசைக்ளின் இரண்டுக்கும் உணர்திறன் கொண்டது",
+    "ஆம்பிசிலின், டெட்ராசைக்ளின் இரண்டுக்கும் எதிர்ப்புடையது",
+    "ஆம்பிசிலினுக்கு எதிர்ப்பும் டெட்ராசைக்ளினுக்கு உணர்திறனும் கொண்டது"
+   ],
+   "e_ta": "உட்செருகு BamHI இடத்தில் (pBR322-இன் tet^r மரபணுவுக்குள்) குளோனிடப்படும்போது tet^r மரபணு சிதைக்கப்படுகிறது. மறுசேர்க்கைச் செல்கள் டெட்ராசைக்ளின் எதிர்ப்பை இழக்கின்றன (tet^s); amp^r மரபணு பாதிக்கப்படாததால் ஆம்பிசிலின் எதிர்ப்பைத் தக்கவைக்கின்றன (amp^r). அவை amp^r ஆகவும் டெட்ராசைக்ளின் நகல் தட்டில் இல்லாதவையாகவும் அடையாளம் காணப்படுகின்றன."
   },
   {
    "q": "What is the role of IPTG in blue-white selection?",
@@ -4517,7 +4693,15 @@
     "It is a restriction enzyme that linearises the vector"
    ],
    "a": 0,
-   "e": "IPTG (isopropyl β-D-1-thiogalactopyranoside) is a synthetic, non-hydrolysable inducer of the lac operon. It induces transcription of the lacZ-α gene in pUC vectors, ensuring sufficient β-galactosidase is produced for the blue colour reaction with X-gal."
+   "e": "IPTG (isopropyl β-D-1-thiogalactopyranoside) is a synthetic, non-hydrolysable inducer of the lac operon. It induces transcription of the lacZ-α gene in pUC vectors, ensuring sufficient β-galactosidase is produced for the blue colour reaction with X-gal.",
+   "q_ta": "நீல-வெள்ளைத் தேர்வில் IPTG-இன் பங்கு என்ன?",
+   "o_ta": [
+    "pUC தாங்கிக்கடத்திகளில் lacZ-α மரபணு வெளிப்பாட்டைத் தூண்டுகிறது",
+    "மறுசேர்க்கையற்ற பாக்டீரியாவை நேரடியாகக் கொல்கிறது",
+    "β-கேலக்டோசிடேஸால் பிளக்கப்பட்டு நீல நிறத்தை உருவாக்கும் நிறம்தரு வினைபடு பொருள்",
+    "தாங்கிக்கடத்தியை நேரியலாக்கும் கட்டுறு நொதி"
+   ],
+   "e_ta": "IPTG (ஐசோபுரோப்பைல் β-D-தயோகேலக்டோபைரனோசைடு) lac ஓபரானின் செயற்கை, நீராற்பகுக்க இயலாத தூண்டி. இது pUC தாங்கிக்கடத்திகளில் lacZ-α மரபணுவின் படியெடுப்பைத் தூண்டி, X-gal உடனான நீல நிற வினைக்குப் போதுமான β-கேலக்டோசிடேஸ் உருவாவதை உறுதிசெய்கிறது."
   },
   {
    "q": "In colony hybridization, what is the purpose of treating the nylon membrane with NaOH?",
@@ -4528,7 +4712,15 @@
     "To select for transformed bacteria"
    ],
    "a": 1,
-   "e": "NaOH (alkali) treatment serves two purposes: it lyses the bacterial cells (releasing DNA) and simultaneously denatures double-stranded DNA into single-stranded DNA. Single-stranded DNA can then hybridise with a complementary probe. The membrane is subsequently neutralised and baked/UV-cross-linked to fix the DNA."
+   "e": "NaOH (alkali) treatment serves two purposes: it lyses the bacterial cells (releasing DNA) and simultaneously denatures double-stranded DNA into single-stranded DNA. Single-stranded DNA can then hybridise with a complementary probe. The membrane is subsequently neutralised and baked/UV-cross-linked to fix the DNA.",
+   "q_ta": "காலனிக் கலப்பினமாக்கலில் நைலான் சவ்வை NaOH-ஆல் சிகிச்சையளிப்பதன் நோக்கம் என்ன?",
+   "o_ta": [
+    "துணுக்கைச் சவ்வில் நிலைநிறுத்த",
+    "செல்களைச் சிதைத்து, இரட்டை இழை DNA-வை ஒற்றை இழைகளாக இயல்பிழக்கச் செய்ய",
+    "கதிரியக்கத் துணுக்கைச் செயல்படுத்த",
+    "உருமாறிய பாக்டீரியாவைத் தேர்ந்தெடுக்க"
+   ],
+   "e_ta": "NaOH (காரம்) சிகிச்சை இரு நோக்கங்களைக் கொண்டது: பாக்டீரிய செல்களைச் சிதைத்து DNA-வை வெளியிடுகிறது; அதே நேரத்தில் இரட்டை இழை DNA-வை ஒற்றை இழை DNA-வாக இயல்பிழக்கச் செய்கிறது. ஒற்றை இழை DNA நிரப்புத் துணுக்குடன் கலப்பினமாகலாம். பின்னர் சவ்வு நடுநிலையாக்கப்பட்டு, DNA-வை நிலைநிறுத்தச் சுடப்படுகிறது அல்லது UV குறுக்கிணைப்புக்கு உட்படுத்தப்படுகிறது."
   },
   {
    "q": "Direct selection using antibiotic resistance identifies:",
@@ -4539,7 +4731,15 @@
     "Only cells that have undergone colony hybridization"
    ],
    "a": 0,
-   "e": "Direct selection identifies cells that have taken up ANY version of the vector — whether it contains the insert (recombinant) or not (re-ligated non-recombinant). Both types carry the antibiotic resistance marker and survive. A second screening step (blue-white, insertional inactivation, or colony hybridization) is always needed to identify recombinants."
+   "e": "Direct selection identifies cells that have taken up ANY version of the vector — whether it contains the insert (recombinant) or not (re-ligated non-recombinant). Both types carry the antibiotic resistance marker and survive. A second screening step (blue-white, insertional inactivation, or colony hybridization) is always needed to identify recombinants.",
+   "q_ta": "நுண்ணுயிர்க்கொல்லி எதிர்ப்பைப் பயன்படுத்தும் நேரடித் தேர்வு அடையாளம் காண்பது:",
+   "o_ta": [
+    "தாங்கிக்கடத்தியின் ஏதேனும் ஒரு வடிவத்தை (உட்செருகுடனோ இன்றியோ) உள்ளெடுத்த செல்களை",
+    "சரியான மறுசேர்க்கை உட்செருகுடைய செல்களை",
+    "சிதையாத lacZ மரபணு உள்ள செல்களை மட்டும்",
+    "காலனிக் கலப்பினமாக்கலுக்கு உட்பட்ட செல்களை மட்டும்"
+   ],
+   "e_ta": "நேரடித் தேர்வு தாங்கிக்கடத்தியின் ஏதேனும் ஒரு வடிவத்தை உள்ளெடுத்த செல்களை — உட்செருகு (மறுசேர்க்கை) கொண்டிருந்தாலும் (மீண்டும் இணைந்த மறுசேர்க்கையற்றது) இன்றியிருந்தாலும் — அடையாளம் காண்கிறது. இரு வகையும் நுண்ணுயிர்க்கொல்லி எதிர்ப்புக் குறிப்பானைச் சுமந்து உயிர்வாழும். மறுசேர்க்கைகளை அடையாளம் காண எப்போதும் இரண்டாம் சலிக்கைப் படி (நீல-வெள்ளை, உட்செருகல் செயலிழப்பு, அல்லது காலனிக் கலப்பினமாக்கல்) தேவை."
   },
   {
    "q": "Replica plating is specifically required in which recombinant screening method?",
@@ -4550,7 +4750,15 @@
     "Colony hybridization"
    ],
    "a": 2,
-   "e": "Insertional inactivation requires replica plating. Colonies from the primary ampicillin selection plate are transferred to a tetracycline plate using a velvet pad. Colonies absent on the tetracycline plate (but present on the ampicillin plate) are identified as recombinants — their tet^r gene was disrupted by the insert."
+   "e": "Insertional inactivation requires replica plating. Colonies from the primary ampicillin selection plate are transferred to a tetracycline plate using a velvet pad. Colonies absent on the tetracycline plate (but present on the ampicillin plate) are identified as recombinants — their tet^r gene was disrupted by the insert.",
+   "q_ta": "எந்த மறுசேர்க்கைச் சலிக்கை முறையில் நகல் தட்டுப்படுத்தல் குறிப்பாகத் தேவைப்படுகிறது?",
+   "o_ta": [
+    "நேரடித் தேர்வு (நுண்ணுயிர்க்கொல்லி எதிர்ப்பு)",
+    "நீல-வெள்ளைத் தேர்வு (lacZ அமைப்பு)",
+    "உட்செருகல் செயலிழப்பு",
+    "காலனிக் கலப்பினமாக்கல்"
+   ],
+   "e_ta": "உட்செருகல் செயலிழப்புக்கு நகல் தட்டுப்படுத்தல் தேவை. முதல்நிலை ஆம்பிசிலின் தேர்வுத் தட்டிலுள்ள காலனிகள் வெல்வெட் பட்டையால் டெட்ராசைக்ளின் தட்டுக்கு மாற்றப்படுகின்றன. டெட்ராசைக்ளின் தட்டில் இல்லாத (ஆம்பிசிலின் தட்டில் உள்ள) காலனிகள் மறுசேர்க்கைகளாக அடையாளம் காணப்படுகின்றன — அவற்றின் tet^r மரபணு உட்செருகால் சிதைக்கப்பட்டுள்ளது."
   },
   {
    "q": "A researcher performs blue-white screening and observes that ALL colonies on the plate are white. The most likely explanation is:",
@@ -4561,7 +4769,15 @@
     "The X-gal substrate was absent from the medium"
    ],
    "a": 3,
-   "e": "If X-gal is absent from the medium, β-galactosidase (even if fully functional) has no substrate to cleave and cannot produce the blue compound. All colonies therefore remain white regardless of whether they are recombinant or not. Without X-gal, blue-white screening cannot work."
+   "e": "If X-gal is absent from the medium, β-galactosidase (even if fully functional) has no substrate to cleave and cannot produce the blue compound. All colonies therefore remain white regardless of whether they are recombinant or not. Without X-gal, blue-white screening cannot work.",
+   "q_ta": "ஓர் ஆய்வாளர் நீல-வெள்ளைச் சலிக்கையை மேற்கொண்டு, தட்டிலுள்ள அனைத்துக் காலனிகளும் வெள்ளையாக இருப்பதைக் காண்கிறார். மிகச் சாத்தியமான விளக்கம்:",
+   "o_ta": [
+    "ஊடகத்தில் IPTG சேர்க்கப்படவில்லை",
+    "உருமாறிகள் அனைத்தும் மறுசேர்க்கை",
+    "lacZ மரபணு அதிகபட்ச அளவில் தொடர்ந்து வெளிப்படுகிறது",
+    "ஊடகத்தில் X-gal வினைபடு பொருள் இல்லை"
+   ],
+   "e_ta": "ஊடகத்தில் X-gal இல்லையெனில், β-கேலக்டோசிடேஸ் முழுமையாகச் செயல்பட்டாலும் பிளப்பதற்கு வினைபடு பொருள் இல்லாததால் நீலச் சேர்மத்தை உருவாக்க இயலாது. எனவே காலனிகள் மறுசேர்க்கையோ இல்லையோ, அனைத்தும் வெள்ளையாகவே இருக்கும். X-gal இல்லாமல் நீல-வெள்ளைச் சலிக்கை செயல்படாது."
   },
   {
    "q": "In colony hybridization, what does a dark spot on the autoradiogram represent?",
@@ -4572,7 +4788,15 @@
     "A colony that expressed antibiotic resistance"
    ],
    "a": 1,
-   "e": "A dark spot on the autoradiogram indicates that the ³²P-labelled probe has hybridised to complementary DNA in that colony's position on the membrane. This means the colony contains the gene of interest. The corresponding colony on the master plate is then picked for further culture and verification."
+   "e": "A dark spot on the autoradiogram indicates that the ³²P-labelled probe has hybridised to complementary DNA in that colony's position on the membrane. This means the colony contains the gene of interest. The corresponding colony on the master plate is then picked for further culture and verification.",
+   "q_ta": "காலனிக் கலப்பினமாக்கலில் தானியங்கு கதிர்ப்படத்திலுள்ள இருண்ட புள்ளி எதைக் குறிக்கிறது?",
+   "o_ta": [
+    "கதிரியக்கத் துணுக்கால் கொல்லப்பட்ட காலனி",
+    "அடையாளமிடப்பட்ட துணுக்குடன் DNA கலப்பினமான காலனி — இலக்கு மரபணு இருப்பதைக் குறிக்கிறது",
+    "அதிக பிளாஸ்மிடு படி எண்ணிக்கை கொண்ட மறுசேர்க்கையற்ற காலனி",
+    "நுண்ணுயிர்க்கொல்லி எதிர்ப்பை வெளிப்படுத்திய காலனி"
+   ],
+   "e_ta": "தானியங்கு கதிர்ப்படத்திலுள்ள இருண்ட புள்ளி, ³²P அடையாளமிடப்பட்ட துணுக்கு சவ்வில் அக்காலனியின் இடத்திலுள்ள நிரப்பு DNA-வுடன் கலப்பினமானதைக் குறிக்கிறது. அதாவது அக்காலனியில் இலக்கு மரபணு உள்ளது. முதன்மைத் தட்டிலுள்ள அதற்கு ஒத்த காலனி மேலும் வளர்க்கவும் சரிபார்க்கவும் எடுக்கப்படுகிறது."
   },
   {
    "q": "What key advantage does colony hybridization have over insertional inactivation and blue-white selection?",
@@ -4583,7 +4807,15 @@
     "Colony hybridization is less expensive than other methods"
    ],
    "a": 0,
-   "e": "Colony hybridization is the only method that confirms the presence of the specific gene of interest — because the probe is designed to be complementary to that specific sequence. Insertional inactivation and blue-white selection only confirm that SOME insert has disrupted a marker gene, but they cannot identify whether the correct gene was cloned."
+   "e": "Colony hybridization is the only method that confirms the presence of the specific gene of interest — because the probe is designed to be complementary to that specific sequence. Insertional inactivation and blue-white selection only confirm that SOME insert has disrupted a marker gene, but they cannot identify whether the correct gene was cloned.",
+   "q_ta": "உட்செருகல் செயலிழப்பு, நீல-வெள்ளைத் தேர்வு ஆகியவற்றைவிடக் காலனிக் கலப்பினமாக்கலுக்கு உள்ள முக்கிய நன்மை என்ன?",
+   "o_ta": [
+    "காலனிக் கலப்பினமாக்கல் ஏதேனும் உட்செருகை அல்ல, குறிப்பிட்ட சரியான உட்செருகை (இலக்கு மரபணு) அடையாளம் காண்கிறது",
+    "காலனிக் கலப்பினமாக்கல் வேகமானது; குறைந்த படிகளே தேவை",
+    "காலனிக் கலப்பினமாக்கலுக்குத் துணுக்கு வரிசை தேவையில்லை",
+    "காலனிக் கலப்பினமாக்கல் பிற முறைகளைவிடக் குறைந்த செலவு"
+   ],
+   "e_ta": "காலனிக் கலப்பினமாக்கல் குறிப்பிட்ட இலக்கு மரபணு இருப்பதை உறுதிசெய்யும் ஒரே முறை — ஏனெனில் துணுக்கு அந்தக் குறிப்பிட்ட வரிசைக்கு நிரப்பானதாக வடிவமைக்கப்படுகிறது. உட்செருகல் செயலிழப்பும் நீல-வெள்ளைத் தேர்வும், ஏதோ ஓர் உட்செருகு குறிப்பான் மரபணுவைச் சிதைத்துள்ளது என்பதை மட்டுமே உறுதிசெய்கின்றன; சரியான மரபணு குளோனிடப்பட்டதா என்பதை அடையாளம் காண இயலாது."
   },
   {
    "q": "Which of the following correctly summarises the events in blue-white screening when a foreign DNA insert is successfully cloned into the MCS of pUC19?",
@@ -4594,7 +4826,15 @@
     "lacZ-α disrupted → β-galactosidase active → X-gal cleaved → blue colony"
    ],
    "a": 2,
-   "e": "When an insert is cloned into the MCS (within lacZ-α), the lacZ-α reading frame is disrupted. This prevents production of a functional α-peptide. Without the α-peptide, α-complementation cannot occur and β-galactosidase is non-functional. X-gal is therefore not cleaved — no blue compound is produced — and the colony remains white. White = recombinant."
+   "e": "When an insert is cloned into the MCS (within lacZ-α), the lacZ-α reading frame is disrupted. This prevents production of a functional α-peptide. Without the α-peptide, α-complementation cannot occur and β-galactosidase is non-functional. X-gal is therefore not cleaved — no blue compound is produced — and the colony remains white. White = recombinant.",
+   "q_ta": "pUC19-இன் MCS-இல் அயல் DNA உட்செருகு வெற்றிகரமாகக் குளோனிடப்படும்போது நீல-வெள்ளைச் சலிக்கையில் நிகழும் நிகழ்வுகளைச் சரியாகச் சுருக்குவது எது?",
+   "o_ta": [
+    "lacZ-α சிதையவில்லை → β-கேலக்டோசிடேஸ் செயல்படுகிறது → X-gal பிளக்கப்படுகிறது → நீலக் காலனி",
+    "lacZ-α சிதையவில்லை → β-கேலக்டோசிடேஸ் செயலற்றது → X-gal பிளக்கப்படவில்லை → வெள்ளைக் காலனி",
+    "lacZ-α சிதைந்தது → β-கேலக்டோசிடேஸ் செயலற்றது → X-gal பிளக்கப்படவில்லை → வெள்ளைக் காலனி",
+    "lacZ-α சிதைந்தது → β-கேலக்டோசிடேஸ் செயல்படுகிறது → X-gal பிளக்கப்படுகிறது → நீலக் காலனி"
+   ],
+   "e_ta": "MCS-இல் (lacZ-α-க்குள்) உட்செருகு குளோனிடப்படும்போது lacZ-α வாசிப்புச் சட்டகம் சிதைகிறது. இதனால் செயல்படும் α-பெப்டைடு உருவாவதில்லை. α-பெப்டைடு இல்லாமல் α-நிரப்புதல் நிகழாது; β-கேலக்டோசிடேஸ் செயலற்றதாகிறது. எனவே X-gal பிளக்கப்படுவதில்லை — நீலச் சேர்மம் உருவாகாது — காலனி வெள்ளையாகவே இருக்கும். வெள்ளை = மறுசேர்க்கை."
   }
  ],
  "superbug_bioremediation_bioweapons.html": [
