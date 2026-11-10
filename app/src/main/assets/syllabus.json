@@ -9,44 +9,57 @@
      "title": "Definition, Scope and Importance of Biotechnology",
      "note": "Definition, branches, scope, importance",
      "file": "biotechnology_fundamentals.html",
-     "hash": ""
+     "hash": "",
+     "title_ta": "உயிரித் தொழில்நுட்பவியலின் வரையறை, நோக்கெல்லை, முக்கியத்துவம்",
+     "note_ta": "வரையறை, கிளைகள், நோக்கெல்லை, முக்கியத்துவம்"
     },
     {
      "id": "t2",
      "title": "Enzymes: restriction enzymes and enzymes useful for genetic engineering",
      "note": "Restriction endonucleases, ligase, polymerases",
      "file": "enzymes_genetic_engineering.html",
-     "hash": ""
+     "hash": "",
+     "title_ta": "நொதிகள்: கட்டுறு நொதிகளும் மரபணுப் பொறியியலுக்குப் பயன்படும் நொதிகளும்",
+     "note_ta": "கட்டுறு எண்டோநியுக்ளியேஸ்கள், லைகேஸ், பாலிமெரேஸ்கள்"
     },
     {
      "id": "t3",
      "title": "Vectors: plasmids, pBR322, Ti plasmid, lambda, M13",
      "note": "Plasmid types, phage vectors",
      "file": "vectors_genetic_engineering.html",
-     "hash": ""
+     "hash": "",
+     "title_ta": "தாங்கிக்கடத்திகள்: பிளாஸ்மிடுகள், pBR322, Ti பிளாஸ்மிடு, லாம்டா, M13",
+     "note_ta": "பிளாஸ்மிடு வகைகள், பாஜ் தாங்கிக்கடத்திகள்"
     },
     {
      "id": "t4",
      "title": "Cosmid, YAC, SV40 and transposons as vectors",
      "note": "Advanced and animal vectors",
      "file": "advanced_vectors_cosmid_yac_sv40_transposons.html",
-     "hash": ""
+     "hash": "",
+     "title_ta": "காஸ்மிடு, YAC, SV40, இடம்பெயர் மரபணுக்கள் தாங்கிக்கடத்திகளாக",
+     "note_ta": "மேம்பட்ட, விலங்குத் தாங்கிக்கடத்திகள்"
     },
     {
      "id": "t5",
      "title": "DNA library: genomic and cDNA",
      "note": "Construction and screening of libraries",
      "file": "dna_library_genomic_cdna.html",
-     "hash": ""
+     "hash": "",
+     "title_ta": "DNA நூலகம்: மரபணுத்தொகைய, cDNA",
+     "note_ta": "நூலகங்களின் உருவாக்கமும் சலிக்கையும்"
     },
     {
      "id": "atlasI",
      "title": "Diagram Atlas I: biotech colour code, enzyme toolkit, vector maps, library flow charts",
      "note": "15 diagrams",
      "file": "atlas1_fundamentals_vectors.html",
-     "hash": ""
+     "hash": "",
+     "title_ta": "விளக்கப்பட அட்லஸ் I: உயிரித் தொழில்நுட்ப வண்ணக் குறியீடு, நொதிக் கருவித்தொகுப்பு, தாங்கிக்கடத்தி வரைபடங்கள், நூலகப் பாய்வு வரைபடங்கள்",
+     "note_ta": "15 விளக்கப்படங்கள்"
     }
-   ]
+   ],
+   "title_ta": "உயிரித் தொழில்நுட்பவியலின் அடிப்படைகள்"
   },
   {
    "roman": "II",
@@ -57,58 +70,75 @@
      "title": "Gene cloning: steps and selection of clones",
      "note": "Cloning workflow",
      "file": "gene_cloning_steps_selection.html",
-     "hash": ""
+     "hash": "",
+     "title_ta": "மரபணுக் குளோனிங்: படிகளும் குளோன்களின் தேர்வும்",
+     "note_ta": "குளோனிங் பணிப்போக்கு"
     },
     {
      "id": "t7",
      "title": "Introducing rDNA into host cells (transformation, transfection, transduction, microinjection, electroporation, liposomes)",
      "note": "Gene transfer methods",
      "file": "gene_transfer_methods_rdna_host_cells.html",
-     "hash": ""
+     "hash": "",
+     "title_ta": "rDNA-வை விருந்தோம்பி செல்களுக்குள் செலுத்துதல் (உருமாற்றம், கடத்துதல், கடத்தல், நுண்ணூசி ஏற்றம், மின்துளையிடல், லிப்போசோம்கள்)",
+     "note_ta": "மரபணு மாற்ற முறைகள்"
     },
     {
      "id": "t8",
      "title": "Screening and selection of recombinants (direct selection, insertional inactivation, blue-white, colony hybridisation)",
      "note": "Selection strategies",
      "file": "screening_selection_recombinants.html",
-     "hash": ""
+     "hash": "",
+     "title_ta": "மறுசேர்க்கைகளைச் சலித்துத் தேர்ந்தெடுத்தல் (நேரடித் தேர்வு, உட்செருகல் செயலிழப்பு, நீல-வெள்ளை, காலனி கலப்பினமாக்கல்)",
+     "note_ta": "தேர்வு உத்திகள்"
     },
     {
      "id": "t9",
      "title": "Blotting techniques: Southern, Northern, Western",
      "note": "New module",
      "file": "blotting_techniques.html",
-     "hash": ""
+     "hash": "",
+     "title_ta": "கறையாக்க நுட்பங்கள்: சதர்ன், நார்தர்ன், வெஸ்டர்ன்",
+     "note_ta": "புதிய பாடப்பகுதி"
     },
     {
      "id": "t10",
      "title": "DNA sequencing: Sanger method",
      "note": "Chain termination",
      "file": "sanger_dna_sequencing.html",
-     "hash": ""
+     "hash": "",
+     "title_ta": "DNA வரிசையாக்கம்: சாங்கர் முறை",
+     "note_ta": "சங்கிலி முடிவுறுத்தம்"
     },
     {
      "id": "t11",
      "title": "PCR: principle, types and applications",
      "note": "Thermal cycling, RT-PCR, qPCR",
      "file": "pcr_principle_types_applications.html",
-     "hash": ""
+     "hash": "",
+     "title_ta": "PCR: தத்துவம், வகைகள், பயன்பாடுகள்",
+     "note_ta": "வெப்பச் சுழற்சி, RT-PCR, qPCR"
     },
     {
      "id": "t12",
      "title": "Gel electrophoresis",
      "note": "Agarose, PAGE, pulsed field",
      "file": "gel_electrophoresis.html",
-     "hash": ""
+     "hash": "",
+     "title_ta": "ஜெல் மின்னொட்டம்",
+     "note_ta": "அகரோஸ், PAGE, துடிப்பு புலம்"
     },
     {
      "id": "atlasII",
      "title": "Diagram Atlas II: cloning, gene transfer, selection, Sanger, PCR and gel diagrams",
      "note": "9 diagrams",
      "file": "atlas2_techniques.html",
-     "hash": ""
+     "hash": "",
+     "title_ta": "விளக்கப்பட அட்லஸ் II: குளோனிங், மரபணு மாற்றம், தேர்வு, சாங்கர், PCR, ஜெல் விளக்கப்படங்கள்",
+     "note_ta": "9 விளக்கப்படங்கள்"
     }
-   ]
+   ],
+   "title_ta": "விலங்கு உயிரித் தொழில்நுட்பவியலின் நுட்பங்கள்"
   },
   {
    "roman": "III",
@@ -119,51 +149,66 @@
      "title": "Transgenesis: transgenes, knock-out mice, Dolly, animals as bioreactors",
      "note": "New module",
      "file": "transgenic_animal_technology.html",
-     "hash": ""
+     "hash": "",
+     "title_ta": "மரபணுமாற்றம்: மாற்றுமரபணுக்கள், மரபணு நீக்க எலிகள், டாலி, உயிர்வினைக்கலன்களாக விலங்குகள்",
+     "note_ta": "புதிய பாடப்பகுதி"
     },
     {
      "id": "t14",
      "title": "Superbug, bioremediation and bioweapons",
      "note": "New module",
      "file": "superbug_bioremediation_bioweapons.html",
-     "hash": ""
+     "hash": "",
+     "title_ta": "சூப்பர்பக், உயிரிவழித் தூய்மையாக்கம், உயிரி ஆயுதங்கள்",
+     "note_ta": "புதிய பாடப்பகுதி"
     },
     {
      "id": "t15",
      "title": "Hybridoma technology and monoclonal antibodies",
      "note": "New module",
      "file": "hybridoma_monoclonal_antibodies.html",
-     "hash": ""
+     "hash": "",
+     "title_ta": "ஹைப்ரிடோமா தொழில்நுட்பமும் ஒற்றைக்கிளை எதிர்ப்பொருள்களும்",
+     "note_ta": "புதிய பாடப்பகுதி"
     },
     {
      "id": "t16",
      "title": "Gene therapy: ex vivo and in vivo; role in cancer treatment",
      "note": "Vectors and clinical examples",
      "file": "gene_therapy_app.html",
-     "hash": ""
+     "hash": "",
+     "title_ta": "மரபணு சிகிச்சை: உடல்வெளி, உடலக; புற்றுநோய் சிகிச்சையில் பங்கு",
+     "note_ta": "தாங்கிக்கடத்திகளும் மருத்துவ எடுத்துக்காட்டுகளும்"
     },
     {
      "id": "t17",
      "title": "CRISPR gene editing",
      "note": "Cas9, guide RNA, repair pathways",
      "file": "crispr_gene_editing_app.html",
-     "hash": ""
+     "hash": "",
+     "title_ta": "CRISPR மரபணுத் திருத்தம்",
+     "note_ta": "Cas9, வழிகாட்டி RNA, பழுது பார்ப்புப் பாதைகள்"
     },
     {
      "id": "t18",
      "title": "Molecular markers: RFLP, RAPD, DNA fingerprinting",
      "note": "Markers and applications",
      "file": "molecular_markers_app.html",
-     "hash": ""
+     "hash": "",
+     "title_ta": "மூலக்கூறுக் குறிப்பான்கள்: RFLP, RAPD, DNA கைரேகை",
+     "note_ta": "குறிப்பான்களும் பயன்பாடுகளும்"
     },
     {
      "id": "atlasIII",
      "title": "Diagram Atlas III: transgenic, knockout, Dolly, hybridoma, gene therapy, CRISPR, markers",
      "note": "17 diagrams",
      "file": "atlas3_transgenic_medical.html",
-     "hash": ""
+     "hash": "",
+     "title_ta": "விளக்கப்பட அட்லஸ் III: மாற்றுமரபணு, மரபணு நீக்கம், டாலி, ஹைப்ரிடோமா, மரபணு சிகிச்சை, CRISPR, குறிப்பான்கள்",
+     "note_ta": "17 விளக்கப்படங்கள்"
     }
-   ]
+   ],
+   "title_ta": "மாற்றுமரபணு விலங்குத் தொழில்நுட்பம்"
   },
   {
    "roman": "IV",
@@ -174,44 +219,57 @@
      "title": "Animal cell culture: media, primary culture, cell lines; stem cells; organ culture and artificial skin",
      "note": "Requirements and techniques",
      "file": "animal_cell_culture.html",
-     "hash": ""
+     "hash": "",
+     "title_ta": "விலங்கு செல் வளர்ப்பு: ஊடகங்கள், முதல்நிலை வளர்ப்பு, செல் வரிசைகள்; தண்டு செல்கள்; உறுப்பு வளர்ப்பும் செயற்கைத் தோலும்",
+     "note_ta": "தேவைகளும் நுட்பங்களும்"
     },
     {
      "id": "t20",
      "title": "Industrial biotechnology: fermentation and ethanol production",
      "note": "Fermenters and ethanol",
      "file": "industrial_biotech_fermentation.html",
-     "hash": ""
+     "hash": "",
+     "title_ta": "தொழிற்சாலை உயிரித் தொழில்நுட்பவியல்: நொதித்தலும் எத்தனால் உற்பத்தியும்",
+     "note_ta": "நொதிப்பான்களும் எத்தனாலும்"
     },
     {
      "id": "t21",
      "title": "Human Genome Project: mapping and applications",
      "note": "Chapters 1–3",
      "file": "hgp_ethics_ipr.html",
-     "hash": "#p1"
+     "hash": "#p1",
+     "title_ta": "மனித மரபணுத்தொகைய திட்டம்: வரைபடமாக்கலும் பயன்பாடுகளும்",
+     "note_ta": "அத்தியாயங்கள் 1–3"
     },
     {
      "id": "t22",
      "title": "Ethics: socio-ethical problems and implications",
      "note": "Chapter 4",
      "file": "hgp_ethics_ipr.html",
-     "hash": "#p4"
+     "hash": "#p4",
+     "title_ta": "நெறிமுறைகள்: சமூக-நெறிமுறைச் சிக்கல்களும் விளைவுகளும்",
+     "note_ta": "அத்தியாயம் 4"
     },
     {
      "id": "t23",
      "title": "Intellectual Property Rights (IPR)",
      "note": "Chapter 5",
      "file": "hgp_ethics_ipr.html",
-     "hash": "#p5"
+     "hash": "#p5",
+     "title_ta": "அறிவுசார் சொத்துரிமைகள் (IPR)",
+     "note_ta": "அத்தியாயம் 5"
     },
     {
      "id": "atlasIV",
      "title": "Diagram Atlas IV: culture, stem cells, bioreactor, ethanol, HGP, ethics and patents",
      "note": "17 diagrams",
      "file": "atlas4_culture_society.html",
-     "hash": ""
+     "hash": "",
+     "title_ta": "விளக்கப்பட அட்லஸ் IV: வளர்ப்பு, தண்டு செல்கள், உயிர்வினைக்கலன், எத்தனால், HGP, நெறிமுறைகள், காப்புரிமைகள்",
+     "note_ta": "17 விளக்கப்படங்கள்"
     }
-   ]
+   ],
+   "title_ta": "பயன்பாடுகளும் நெறிமுறைகளும்"
   },
   {
    "roman": "V",
@@ -222,169 +280,213 @@
      "title": "Definition; nucleotide databases (GenBank, EMBL, DDBJ)",
      "note": "Sequence databases",
      "file": "bioinformatics_databases_app.html",
-     "hash": ""
+     "hash": "",
+     "title_ta": "வரையறை; நியுக்ளியோடைடு தரவுத்தளங்கள் (GenBank, EMBL, DDBJ)",
+     "note_ta": "வரிசைத் தரவுத்தளங்கள்"
     },
     {
      "id": "t25",
      "title": "Protein databases: SWISS-PROT, UniProt; structural database PDB",
      "note": "Protein and structure databases",
      "file": "protein_databases_app.html",
-     "hash": ""
+     "hash": "",
+     "title_ta": "புரதத் தரவுத்தளங்கள்: SWISS-PROT, UniProt; கட்டமைப்புத் தரவுத்தளம் PDB",
+     "note_ta": "புரத, கட்டமைப்புத் தரவுத்தளங்கள்"
     },
     {
      "id": "t26",
      "title": "Sequence alignment: pairwise and multiple",
      "note": "Includes a live alignment calculator",
      "file": "bioinformatics_tools_alignment_blast.html",
-     "hash": "#p1"
+     "hash": "#p1",
+     "title_ta": "வரிசை ஒழுங்கமைவு: இரட்டை, பல்வரிசை",
+     "note_ta": "நேரடி ஒழுங்கமைவுக் கணிப்பான் உட்பட"
     },
     {
      "id": "t27",
      "title": "Similarity search tools: BLAST and FASTA",
      "note": "Chapter 3",
      "file": "bioinformatics_tools_alignment_blast.html",
-     "hash": "#p3"
+     "hash": "#p3",
+     "title_ta": "ஒப்புமைத் தேடல் கருவிகள்: BLAST, FASTA",
+     "note_ta": "அத்தியாயம் 3"
     },
     {
      "id": "t28",
      "title": "Structure visualisation: RasMol and Swiss-PdbViewer",
      "note": "Chapter 4",
      "file": "bioinformatics_tools_alignment_blast.html",
-     "hash": "#p4"
+     "hash": "#p4",
+     "title_ta": "கட்டமைப்புக் காட்சிப்படுத்தல்: RasMol, Swiss-PdbViewer",
+     "note_ta": "அத்தியாயம் 4"
     },
     {
      "id": "t29",
      "title": "Scope and applications of bioinformatics",
      "note": "Chapter 5",
      "file": "bioinformatics_tools_alignment_blast.html",
-     "hash": "#p5"
+     "hash": "#p5",
+     "title_ta": "உயிரித் தகவலியலின் நோக்கெல்லையும் பயன்பாடுகளும்",
+     "note_ta": "அத்தியாயம் 5"
     },
     {
      "id": "atlasV",
      "title": "Diagram Atlas V: databases, alignment matrix, BLAST, MSA, structure, NGS pipeline",
      "note": "15 diagrams",
      "file": "atlas5_bioinformatics.html",
-     "hash": ""
+     "hash": "",
+     "title_ta": "விளக்கப்பட அட்லஸ் V: தரவுத்தளங்கள், ஒழுங்கமைவு அணி, BLAST, MSA, கட்டமைப்பு, NGS பணிவரிசை",
+     "note_ta": "15 விளக்கப்படங்கள்"
     }
-   ]
+   ],
+   "title_ta": "உயிரித் தகவலியல்"
   }
  ],
  "modules": {
   "advanced_vectors_cosmid_yac_sv40_transposons.html": {
    "title": "Advanced Vectors – Cosmid, YAC, SV40 & Transposons",
-   "unit": "I"
+   "unit": "I",
+   "title_ta": "மேம்பட்ட தாங்கிக்கடத்திகள் – காஸ்மிடு, YAC, SV40, இடம்பெயர் மரபணுக்கள்"
   },
   "animal_cell_culture.html": {
    "title": "Animal Cell Culture Techniques",
-   "unit": "IV"
+   "unit": "IV",
+   "title_ta": "விலங்கு செல் வளர்ப்பு நுட்பங்கள்"
   },
   "bioinformatics_databases_app.html": {
    "title": "Bioinformatics: Nucleotide Sequence Databases",
-   "unit": "V"
+   "unit": "V",
+   "title_ta": "உயிரித் தகவலியல்: நியுக்ளியோடைடு வரிசைத் தரவுத்தளங்கள்"
   },
   "bioinformatics_tools_alignment_blast.html": {
    "title": "Alignment, BLAST & Structure Tools",
-   "unit": "V"
+   "unit": "V",
+   "title_ta": "ஒழுங்கமைவு, BLAST, கட்டமைப்புக் கருவிகள்"
   },
   "biotechnology_fundamentals.html": {
    "title": "Fundamentals of Biotechnology — Definition, Scope & Importance",
-   "unit": "I"
+   "unit": "I",
+   "title_ta": "உயிரித் தொழில்நுட்பவியலின் அடிப்படைகள் — வரையறை, நோக்கெல்லை, முக்கியத்துவம்"
   },
   "blotting_techniques.html": {
    "title": "Blotting Techniques",
-   "unit": "II"
+   "unit": "II",
+   "title_ta": "கறையாக்க நுட்பங்கள்"
   },
   "crispr_gene_editing_app.html": {
    "title": "CRISPR Gene Editing",
-   "unit": "III"
+   "unit": "III",
+   "title_ta": "CRISPR மரபணுத் திருத்தம்"
   },
   "dna_library_genomic_cdna.html": {
    "title": "DNA Library – Genomic & cDNA Library",
-   "unit": "I"
+   "unit": "I",
+   "title_ta": "DNA நூலகம் – மரபணுத்தொகைய, cDNA நூலகம்"
   },
   "enzymes_genetic_engineering.html": {
    "title": "Enzymes in Genetic Engineering – Interactive Learning App",
-   "unit": "I"
+   "unit": "I",
+   "title_ta": "மரபணுப் பொறியியலில் நொதிகள் – ஊடாடும் கற்றல் செயலி"
   },
   "gel_electrophoresis.html": {
    "title": "Gel Electrophoresis",
-   "unit": "II"
+   "unit": "II",
+   "title_ta": "ஜெல் மின்னொட்டம்"
   },
   "gene_cloning_steps_selection.html": {
    "title": "Gene Cloning – Steps & Selection of Clones",
-   "unit": "II"
+   "unit": "II",
+   "title_ta": "மரபணுக் குளோனிங் – படிகளும் குளோன்களின் தேர்வும்"
   },
   "gene_therapy_app.html": {
    "title": "Gene Therapy – Ex Vivo & In Vivo",
-   "unit": "III"
+   "unit": "III",
+   "title_ta": "மரபணு சிகிச்சை – உடல்வெளி, உடலக"
   },
   "gene_transfer_methods_rdna_host_cells.html": {
    "title": "Introduction of Recombinant DNA into Host Cells",
-   "unit": "II"
+   "unit": "II",
+   "title_ta": "மறுசேர்க்கை DNA-வை விருந்தோம்பி செல்களுக்குள் செலுத்துதல்"
   },
   "hgp_ethics_ipr.html": {
    "title": "Human Genome Project, Ethics & IPR",
-   "unit": "IV"
+   "unit": "IV",
+   "title_ta": "மனித மரபணுத்தொகைய திட்டம், நெறிமுறைகள், IPR"
   },
   "hybridoma_monoclonal_antibodies.html": {
    "title": "Hybridoma & Monoclonal Antibodies",
-   "unit": "III"
+   "unit": "III",
+   "title_ta": "ஹைப்ரிடோமாவும் ஒற்றைக்கிளை எதிர்ப்பொருள்களும்"
   },
   "industrial_biotech_fermentation.html": {
    "title": "Industrial Biotechnology — Fermentation & Ethanol Production",
-   "unit": "IV"
+   "unit": "IV",
+   "title_ta": "தொழிற்சாலை உயிரித் தொழில்நுட்பவியல் — நொதித்தலும் எத்தனால் உற்பத்தியும்"
   },
   "molecular_markers_app.html": {
    "title": "Molecular Markers: RFLP, RAPD & DNA Fingerprinting",
-   "unit": "III"
+   "unit": "III",
+   "title_ta": "மூலக்கூறுக் குறிப்பான்கள்: RFLP, RAPD, DNA கைரேகை"
   },
   "pcr_principle_types_applications.html": {
    "title": "PCR: Principle, Types & Applications",
-   "unit": "II"
+   "unit": "II",
+   "title_ta": "PCR: தத்துவம், வகைகள், பயன்பாடுகள்"
   },
   "protein_databases_app.html": {
    "title": "Protein Databases: SWISS-PROT, UniProt & PDB",
-   "unit": "V"
+   "unit": "V",
+   "title_ta": "புரதத் தரவுத்தளங்கள்: SWISS-PROT, UniProt, PDB"
   },
   "sanger_dna_sequencing.html": {
    "title": "DNA Sequencing: Sanger Method",
-   "unit": "II"
+   "unit": "II",
+   "title_ta": "DNA வரிசையாக்கம்: சாங்கர் முறை"
   },
   "screening_selection_recombinants.html": {
    "title": "Screening & Selection of Recombinants",
-   "unit": "II"
+   "unit": "II",
+   "title_ta": "மறுசேர்க்கைகளைச் சலித்துத் தேர்ந்தெடுத்தல்"
   },
   "superbug_bioremediation_bioweapons.html": {
    "title": "Superbug, Bioremediation & Bioweapons",
-   "unit": "III"
+   "unit": "III",
+   "title_ta": "சூப்பர்பக், உயிரிவழித் தூய்மையாக்கம், உயிரி ஆயுதங்கள்"
   },
   "transgenic_animal_technology.html": {
    "title": "Transgenic Animal Technology",
-   "unit": "III"
+   "unit": "III",
+   "title_ta": "மாற்றுமரபணு விலங்குத் தொழில்நுட்பம்"
   },
   "vectors_genetic_engineering.html": {
    "title": "Vectors in Genetic Engineering – Interactive Learning App",
-   "unit": "I"
+   "unit": "I",
+   "title_ta": "மரபணுப் பொறியியலில் தாங்கிக்கடத்திகள் – ஊடாடும் கற்றல் செயலி"
   },
   "atlas1_fundamentals_vectors.html": {
    "title": "Diagram Atlas I: Fundamentals & Vectors",
-   "unit": "I"
+   "unit": "I",
+   "title_ta": "விளக்கப்பட அட்லஸ் I: அடிப்படைகளும் தாங்கிக்கடத்திகளும்"
   },
   "atlas2_techniques.html": {
    "title": "Diagram Atlas II: Cloning & Techniques",
-   "unit": "II"
+   "unit": "II",
+   "title_ta": "விளக்கப்பட அட்லஸ் II: குளோனிங்கும் நுட்பங்களும்"
   },
   "atlas3_transgenic_medical.html": {
    "title": "Diagram Atlas III: Transgenic & Medical",
-   "unit": "III"
+   "unit": "III",
+   "title_ta": "விளக்கப்பட அட்லஸ் III: மாற்றுமரபணுவும் மருத்துவமும்"
   },
   "atlas4_culture_society.html": {
    "title": "Diagram Atlas IV: Culture, HGP & Ethics",
-   "unit": "IV"
+   "unit": "IV",
+   "title_ta": "விளக்கப்பட அட்லஸ் IV: வளர்ப்பு, HGP, நெறிமுறைகள்"
   },
   "atlas5_bioinformatics.html": {
    "title": "Diagram Atlas V: Bioinformatics",
-   "unit": "V"
+   "unit": "V",
+   "title_ta": "விளக்கப்பட அட்லஸ் V: உயிரித் தகவலியல்"
   }
  }
 }
