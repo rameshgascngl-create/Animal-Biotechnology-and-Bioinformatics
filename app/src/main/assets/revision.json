@@ -1939,82 +1939,133 @@
   "sa": [
    {
     "q": "Describe the production of a transgenic mouse.",
-    "a": "A construct (promoter + gene + poly A) is injected into the male pronucleus of fertilised eggs; embryos are transferred to a pseudopregnant foster; pups are screened by PCR/Southern; founders are bred to confirm germ-line transmission."
+    "a": "A construct (promoter + gene + poly A) is injected into the male pronucleus of fertilised eggs; embryos are transferred to a pseudopregnant foster; pups are screened by PCR/Southern; founders are bred to confirm germ-line transmission.",
+    "q_ta": "மாற்றுமரபணுச் சுண்டெலி உற்பத்தியை விவரிக்க.",
+    "a_ta": "ஒரு கட்டமைப்பு (ஊக்குவிப்பி + மரபணு + poly A) கருவுற்ற முட்டைகளின் ஆண் முன்கருவுக்குள் செலுத்தப்படுகிறது; கருக்கள் போலிக் கருவுற்ற வளர்ப்புத் தாய்க்கு மாற்றப்படுகின்றன; குட்டிகள் PCR/சதர்ன் மூலம் சலிக்கப்படுகின்றன; இனச்செல் வழிக் கடத்தலை உறுதிசெய்ய தோற்றுவிப்பாளர்கள் இனப்பெருக்கம் செய்யப்படுகின்றன."
    },
    {
     "q": "How is a knockout mouse produced?",
-    "a": "A targeting vector with a neo cassette replaces an exon in ES cells by homologous recombination; neo and tk selection enriches targeted cells; they are injected into blastocysts to give chimeras; breeding gives heterozygotes and then homozygous knockouts."
+    "a": "A targeting vector with a neo cassette replaces an exon in ES cells by homologous recombination; neo and tk selection enriches targeted cells; they are injected into blastocysts to give chimeras; breeding gives heterozygotes and then homozygous knockouts.",
+    "q_ta": "நாக்-அவுட் சுண்டெலி எவ்வாறு உருவாக்கப்படுகிறது?",
+    "a_ta": "neo கேசட் கொண்ட இலக்கிடல் தாங்கிக்கடத்தி ES செல்களில் ஹோமாலஜி மறுசேர்க்கை மூலம் ஓர் எக்சானை மாற்றுகிறது; neo, tk தேர்வு இலக்கிடப்பட்ட செல்களைச் செறிவூட்டுகிறது; அவை பிளாஸ்டோசிஸ்ட்களில் செலுத்தப்பட்டுக் கலப்புயிரிகளைத் தருகின்றன; இனப்பெருக்கம் மாறுபட்டமைவுகளையும் பின்னர் ஒத்தமைவு நாக்-அவுட்களையும் தருகிறது."
    },
    {
     "q": "Explain the cloning of Dolly.",
-    "a": "A mammary cell from an adult ewe was starved to G0 and fused by electrical pulse with an enucleated egg; the embryo was cultured and transferred to a surrogate; 1 of 277 fusions produced a live lamb in 1996."
+    "a": "A mammary cell from an adult ewe was starved to G0 and fused by electrical pulse with an enucleated egg; the embryo was cultured and transferred to a surrogate; 1 of 277 fusions produced a live lamb in 1996.",
+    "q_ta": "டாலியின் குளோனாக்கத்தை விளக்குக.",
+    "a_ta": "முதிர் பெண் செம்மறியின் பாலூட்டிச் சுரப்பிச் செல் G0 நிலைக்குப் பட்டினியிடப்பட்டு, உட்கரு நீக்கப்பட்ட முட்டையுடன் மின்துடிப்பால் இணைக்கப்பட்டது; கரு வளர்க்கப்பட்டு வாடகைத் தாய்க்கு மாற்றப்பட்டது; 277 இணைவுகளில் 1 மட்டும் 1996-இல் உயிருள்ள ஆட்டுக்குட்டியைத் தந்தது."
    },
    {
     "q": "What is the role of HAT medium?",
-    "a": "Aminopterin blocks de novo nucleotide synthesis, so cells must use the salvage pathway (HGPRT, TK). HGPRT-minus myeloma cells die; unfused B cells die naturally; only hybrids survive."
+    "a": "Aminopterin blocks de novo nucleotide synthesis, so cells must use the salvage pathway (HGPRT, TK). HGPRT-minus myeloma cells die; unfused B cells die naturally; only hybrids survive.",
+    "q_ta": "HAT ஊடகத்தின் பங்கு என்ன?",
+    "a_ta": "அமினோப்டெரின் புதிதான நியுக்ளியோடைடு தொகுப்பைத் தடுப்பதால், செல்கள் மீட்புப் பாதையை (HGPRT, TK) பயன்படுத்த வேண்டும். HGPRT-அற்ற மைலோமா செல்கள் இறக்கின்றன; இணையாத B செல்கள் இயல்பாக இறக்கின்றன; கலப்பினங்கள் மட்டுமே உயிர்வாழ்கின்றன."
    },
    {
     "q": "Differentiate ex vivo and in vivo gene therapy.",
-    "a": "Ex vivo: patient cells are modified outside the body and returned. In vivo: the gene vector is injected directly into the patient."
+    "a": "Ex vivo: patient cells are modified outside the body and returned. In vivo: the gene vector is injected directly into the patient.",
+    "q_ta": "உடல்வெளி, உடலக மரபணு சிகிச்சைகளை வேறுபடுத்துக.",
+    "a_ta": "உடல்வெளி: நோயாளியின் செல்கள் உடலுக்கு வெளியே மாற்றப்பட்டுத் திரும்பச் செலுத்தப்படுகின்றன. உடலக: மரபணுத் தாங்கிக்கடத்தி நோயாளிக்குள் நேரடியாகச் செலுத்தப்படுகிறது."
    },
    {
     "q": "Write short notes on CRISPR-Cas9.",
-    "a": "A guide RNA directs Cas9 to a 20-nt target adjacent to an NGG PAM; Cas9 makes a double-strand break; NHEJ gives knockouts and HDR gives precise edits."
+    "a": "A guide RNA directs Cas9 to a 20-nt target adjacent to an NGG PAM; Cas9 makes a double-strand break; NHEJ gives knockouts and HDR gives precise edits.",
+    "q_ta": "CRISPR-Cas9 பற்றிக் குறுங்குறிப்பு எழுதுக.",
+    "a_ta": "வழிகாட்டி RNA, Cas9-ஐ NGG PAM-க்கு அருகிலுள்ள 20-nt இலக்குக்கு நடத்துகிறது; Cas9 இரட்டை இழை வெட்டை ஏற்படுத்துகிறது; NHEJ நாக்-அவுட்களையும் HDR துல்லியத் திருத்தங்களையும் தருகிறது."
    },
    {
     "q": "Distinguish RFLP and RAPD.",
-    "a": "RFLP detects fragment-length differences using restriction enzymes and a probe (co-dominant, reproducible). RAPD uses random primers in PCR (dominant, quick, less reproducible)."
+    "a": "RFLP detects fragment-length differences using restriction enzymes and a probe (co-dominant, reproducible). RAPD uses random primers in PCR (dominant, quick, less reproducible).",
+    "q_ta": "RFLP, RAPD ஆகியவற்றை வேறுபடுத்துக.",
+    "a_ta": "RFLP கட்டுறு நொதிகளையும் துருவியையும் பயன்படுத்தித் துண்டு நீள வேறுபாடுகளைக் கண்டறிகிறது (இணை ஓங்கு, மீளுருவாக்கத்தக்கது). RAPD PCR-இல் தற்போக்குப் பிரைமர்களைப் பயன்படுத்துகிறது (ஓங்கு, விரைவானது, மீளுருவாக்கம் குறைவு)."
    }
   ],
   "gl": [
    {
     "t": "Transgene",
-    "d": "A foreign gene inserted into an organism."
+    "d": "A foreign gene inserted into an organism.",
+    "t_ta": "மாற்றுமரபணு",
+    "d_ta": "ஓர் உயிரினத்துக்குள் செருகப்பட்ட அயல் மரபணு."
    },
    {
     "t": "Founder (F0)",
-    "d": "First transgenic animal produced."
+    "d": "First transgenic animal produced.",
+    "t_ta": "தோற்றுவிப்பாளர் (F0)",
+    "d_ta": "உருவாக்கப்பட்ட முதல் மாற்றுமரபணு விலங்கு."
    },
    {
     "t": "ES cell",
-    "d": "Embryonic stem cell, pluripotent and from the inner cell mass."
+    "d": "Embryonic stem cell, pluripotent and from the inner cell mass.",
+    "t_ta": "ES செல்",
+    "d_ta": "கருநிலைத் தண்டு செல், புளூரிபொட்டென்ட்; உள் செல் திரளிலிருந்து பெறப்படுவது."
    },
    {
     "t": "Chimera",
-    "d": "Animal containing cells from two different embryos."
+    "d": "Animal containing cells from two different embryos.",
+    "t_ta": "கலப்புயிரி",
+    "d_ta": "இரு வெவ்வேறு கருக்களின் செல்களைக் கொண்ட விலங்கு."
    },
    {
     "t": "SCNT",
-    "d": "Somatic cell nuclear transfer."
+    "d": "Somatic cell nuclear transfer.",
+    "t_ta": "SCNT",
+    "d_ta": "உடல் செல் உட்கரு மாற்றம்."
    },
    {
     "t": "HGPRT",
-    "d": "Hypoxanthine-guanine phosphoribosyl transferase of the salvage pathway."
+    "d": "Hypoxanthine-guanine phosphoribosyl transferase of the salvage pathway.",
+    "t_ta": "HGPRT",
+    "d_ta": "மீட்புப் பாதையின் ஹைப்போசாந்தின்–குவானின் பாஸ்போரைபோசைல் டிரான்ஸ்ஃபெரேஸ்."
    },
    {
     "t": "Epitope",
-    "d": "Part of an antigen recognised by an antibody."
+    "d": "Part of an antigen recognised by an antibody.",
+    "t_ta": "எபிடோப்",
+    "d_ta": "எதிர்ப்பொருளால் அடையாளம் காணப்படும் எதிர்ப்பொருள் தூண்டியின் பகுதி."
    },
    {
     "t": "Ex vivo",
-    "d": "Treatment performed outside the body on removed cells."
+    "d": "Treatment performed outside the body on removed cells.",
+    "t_ta": "உடல்வெளி",
+    "d_ta": "எடுக்கப்பட்ட செல்களுக்கு உடலுக்கு வெளியே மேற்கொள்ளப்படும் சிகிச்சை."
    },
    {
     "t": "PAM",
-    "d": "Protospacer adjacent motif needed by Cas9."
+    "d": "Protospacer adjacent motif needed by Cas9.",
+    "t_ta": "PAM",
+    "d_ta": "Cas9-க்குத் தேவையான புரோட்டோஸ்பேசர் அருகு மோடிஃப்."
    },
    {
     "t": "NHEJ",
-    "d": "Non-homologous end joining; error-prone DNA repair."
+    "d": "Non-homologous end joining; error-prone DNA repair.",
+    "t_ta": "NHEJ",
+    "d_ta": "ஒத்தமையற்ற முனை இணைப்பு; பிழைக்கு வாய்ப்புள்ள DNA பழுதுநீக்கம்."
    },
    {
     "t": "HDR",
-    "d": "Homology-directed repair using a template."
+    "d": "Homology-directed repair using a template.",
+    "t_ta": "HDR",
+    "d_ta": "வார்ப்புருவைப் பயன்படுத்தும் ஒத்தமைவு வழிப் பழுதுநீக்கம்."
    },
    {
     "t": "STR",
-    "d": "Short tandem repeat used in DNA profiling."
+    "d": "Short tandem repeat used in DNA profiling.",
+    "t_ta": "STR",
+    "d_ta": "DNA வரைவாக்கத்தில் பயன்படும் குறுகிய வரிசைத் தொடர் மீள்."
    }
+  ],
+  "title_ta": "வரைபட அட்லஸ் III: மாற்றுமரபணுவும் மருத்துவமும்",
+  "kp_ta": [
+   "மாற்றுமரபணு = ஊக்குவிப்பி + குறியீடு வரிசை + poly(A); ஆண் முன்கருவுக்குள் நுண்ணூசி செலுத்தல்.",
+   "நாக்-அவுட்: ES செல்கள், neo/tk தேர்வு, பிளாஸ்டோசிஸ்ட் உட்செலுத்தல், கலப்புயிரி, இனப்பெருக்கம்; F2-இல் 1:2:1.",
+   "டாலி (1996): முதிர் பாலூட்டிச் சுரப்பிச் செல்லிலிருந்து SCNT; 277 இணைவுகளில் 1 உயிருள்ள ஆட்டுக்குட்டி.",
+   "விலங்கு உயிர்வினைக்கலன்கள் பாலில் மருந்துகளைச் சுரக்கின்றன (வெள்ளாட்டு ஆன்டிதிராம்பின், முயல் C1-தடுப்பான்).",
+   "சூப்பர்பக் (சக்ரவர்த்தி): 4 பிளாஸ்மிடுகள் கொண்ட Pseudomonas; டைமண்ட் எதிர் சக்ரவர்த்தி (1980).",
+   "ஹைப்ரிடோமா: B செல் + HGPRT− மைலோமா; HAT தேர்வு; சலித்து, குளோன் செய்து, பெருக்குதல்.",
+   "-omab, -ximab, -zumab, -umab = சுண்டெலி, கலப்பின, மனிதமயமாக்கப்பட்ட, மனித.",
+   "உடல்வெளி – உடலக மரபணு சிகிச்சை; CAR-T உடல்வெளி முறை; புற்றுச் செல் சிதைக்கும் வைரஸ்கள், தற்கொலை மரபணுக்கள்.",
+   "CRISPR: gRNA மற்றும் Cas9, NGG PAM; NHEJ – HDR வழிகள்.",
+   "RFLP (இணை ஓங்கு), RAPD (ஓங்கு), STR கைரேகையியல் (தடயவியல்)."
   ]
  },
  "atlas4_culture_society.html": {
@@ -2035,82 +2086,133 @@
   "sa": [
    {
     "q": "List the requirements for animal cell culture.",
-    "a": "Sterile vessel and aseptic technique; basal medium with serum or defined supplements; 37 °C; 5% CO₂ humidified atmosphere; pH 7.2–7.4 (bicarbonate buffer, phenol red indicator)."
+    "a": "Sterile vessel and aseptic technique; basal medium with serum or defined supplements; 37 °C; 5% CO₂ humidified atmosphere; pH 7.2–7.4 (bicarbonate buffer, phenol red indicator).",
+    "q_ta": "விலங்கு செல் வளர்ப்புக்கான தேவைகளைப் பட்டியலிடுக.",
+    "a_ta": "கிருமியற்ற கலனும் கிருமியற்ற நுட்பமும்; சீரம் அல்லது வரையறுக்கப்பட்ட துணைப்பொருள்களுடன் அடிப்படை ஊடகம்; 37 °C; 5% CO₂ ஈரப்பத வளிமண்டலம்; pH 7.2–7.4 (பைகார்பனேட் தாங்கல், பீனால் சிவப்பு நிறங்காட்டி)."
    },
    {
     "q": "Describe the growth curve of cultured cells.",
-    "a": "Lag (adaptation), log (exponential growth), plateau (confluence, nutrient limitation) and decline (toxic waste, death). Subculture in log phase."
+    "a": "Lag (adaptation), log (exponential growth), plateau (confluence, nutrient limitation) and decline (toxic waste, death). Subculture in log phase.",
+    "q_ta": "வளர்க்கப்பட்ட செல்களின் வளர்ச்சி வளைவை விவரிக்க.",
+    "a_ta": "தகவமைப்பு (லாக்), படிமுறை (log, அடுக்குக்குறி வளர்ச்சி), நிலையான (நிறைவளர்ச்சி, ஊட்டச்சத்துக் குறைவு), சரிவு (நச்சுக் கழிவு, இறப்பு). படிமுறை நிலையில் துணை வளர்ப்பு."
    },
    {
     "q": "Differentiate primary culture and cell line.",
-    "a": "Primary culture is taken directly from tissue; once subcultured it becomes a cell line, finite (40–60 doublings) or continuous (immortal, transformed)."
+    "a": "Primary culture is taken directly from tissue; once subcultured it becomes a cell line, finite (40–60 doublings) or continuous (immortal, transformed).",
+    "q_ta": "முதல்நிலை வளர்ப்பையும் செல் வரிசையையும் வேறுபடுத்துக.",
+    "a_ta": "முதல்நிலை வளர்ப்பு திசுவிலிருந்து நேரடியாக எடுக்கப்படுகிறது; துணை வளர்ப்புக்குப் பின் செல் வரிசையாகிறது; வரையறுக்கப்பட்டது (40–60 இரட்டிப்புகள்) அல்லது தொடர்ச்சியானது (சாகா, உருமாற்றம் அடைந்தது)."
    },
    {
     "q": "What are iPS cells?",
-    "a": "Pluripotent cells made by reprogramming somatic cells with Oct4, Sox2, Klf4 and c-Myc (Yamanaka 2006); patient-specific and avoid embryo destruction."
+    "a": "Pluripotent cells made by reprogramming somatic cells with Oct4, Sox2, Klf4 and c-Myc (Yamanaka 2006); patient-specific and avoid embryo destruction.",
+    "q_ta": "iPS செல்கள் என்றால் என்ன?",
+    "a_ta": "Oct4, Sox2, Klf4, c-Myc மூலம் உடல் செல்களை மறுநிரலாக்கிப் பெறப்படும் புளூரிபொட்டென்ட் செல்கள் (யமனகா 2006); நோயாளி-சார்ந்தவை; கரு அழிப்பைத் தவிர்க்கின்றன."
    },
    {
     "q": "Describe a stirred-tank bioreactor.",
-    "a": "A vessel with impeller, sparger, probes for pH, dissolved oxygen and temperature, jacket, inlet and harvest ports; mixing and aeration are controlled for suspension cells."
+    "a": "A vessel with impeller, sparger, probes for pH, dissolved oxygen and temperature, jacket, inlet and harvest ports; mixing and aeration are controlled for suspension cells.",
+    "q_ta": "கலக்கித் தொட்டி உயிர்வினைக்கலனை விவரிக்க.",
+    "a_ta": "கலக்கி, காற்றுப் பாய்ச்சி, pH, கரைந்த ஆக்சிஜன், வெப்பநிலைக்கான உணரிகள், உறை, உள்ளீட்டு, அறுவடைத் துளைகள் கொண்ட கலன்; தொங்கு செல்களுக்கு கலக்குதலும் காற்றூட்டமும் கட்டுப்படுத்தப்படுகின்றன."
    },
    {
     "q": "Explain how ethanol is produced industrially.",
-    "a": "Molasses or hydrolysed starch is fermented by S. cerevisiae at 30–35 °C; wash with 7–10% ethanol is distilled to ~95% and dehydrated with molecular sieves."
+    "a": "Molasses or hydrolysed starch is fermented by S. cerevisiae at 30–35 °C; wash with 7–10% ethanol is distilled to ~95% and dehydrated with molecular sieves.",
+    "q_ta": "தொழில்துறையில் எத்தனால் எவ்வாறு உற்பத்தி செய்யப்படுகிறது என விளக்குக.",
+    "a_ta": "வெல்லப்பாகு அல்லது நீராற்பகுத்த ஸ்டார்ச் S. cerevisiae-ஆல் 30–35 °C-இல் நொதிக்கப்படுகிறது; 7–10% எத்தனால் கொண்ட கலவை ~95%-க்கு வடிக்கப்பட்டு மூலக்கூறுச் சல்லடைகளால் நீரகற்றப்படுகிறது."
    },
    {
     "q": "Compare the two approaches to the Human Genome Project.",
-    "a": "Public: hierarchical BAC mapping then shotgun of each clone. Celera: whole-genome shotgun and computer assembly. Both converged in 2001."
+    "a": "Public: hierarchical BAC mapping then shotgun of each clone. Celera: whole-genome shotgun and computer assembly. Both converged in 2001.",
+    "q_ta": "மனித மரபணுத்தொகைத் திட்டத்தின் இரு அணுகுமுறைகளையும் ஒப்பிடுக.",
+    "a_ta": "பொது: படிநிலை BAC வரைபடமாக்கல், பின்னர் ஒவ்வொரு குளோனின் துப்பாக்கிக்குண்டு முறை. செலரா: முழு மரபணுத்தொகைத் துப்பாக்கிக்குண்டு, கணினித் தொகுப்பு. இரண்டும் 2001-இல் ஒன்றிணைந்தன."
    }
   ],
   "gl": [
    {
     "t": "Confluence",
-    "d": "Fraction of the surface covered by adherent cells."
+    "d": "Fraction of the surface covered by adherent cells.",
+    "t_ta": "நிறைவளர்ச்சி",
+    "d_ta": "ஒட்டிவளரும் செல்களால் மூடப்பட்ட பரப்பின் பின்னம்."
    },
    {
     "t": "Passage",
-    "d": "Transfer of cells into fresh vessels (subculture)."
+    "d": "Transfer of cells into fresh vessels (subculture).",
+    "t_ta": "பாசேஜ்",
+    "d_ta": "செல்களைப் புதிய கலன்களுக்கு மாற்றுதல் (துணை வளர்ப்பு)."
    },
    {
     "t": "Hayflick limit",
-    "d": "Finite number of divisions of normal cells."
+    "d": "Finite number of divisions of normal cells.",
+    "t_ta": "ஹேஃப்ளிக் வரம்பு",
+    "d_ta": "இயல்பு செல்களின் வரையறுக்கப்பட்ட பிரிவு எண்ணிக்கை."
    },
    {
     "t": "Contact inhibition",
-    "d": "Stopping of growth when cells touch."
+    "d": "Stopping of growth when cells touch.",
+    "t_ta": "தொடுகைத் தடுப்பு",
+    "d_ta": "செல்கள் ஒன்றையொன்று தொடும்போது வளர்ச்சி நின்றுவிடுதல்."
    },
    {
     "t": "Pluripotent",
-    "d": "Able to form all three germ layers."
+    "d": "Able to form all three germ layers.",
+    "t_ta": "புளூரிபொட்டென்ட்",
+    "d_ta": "மூன்று கரு அடுக்குகளையும் உருவாக்கும் திறன் கொண்டது."
    },
    {
     "t": "Perfusion",
-    "d": "Continuous supply of fresh medium with cell retention."
+    "d": "Continuous supply of fresh medium with cell retention.",
+    "t_ta": "உட்பாய்ச்சல்",
+    "d_ta": "செல்களைத் தக்கவைத்துப் புதிய ஊடகத்தைத் தொடர்ந்து வழங்குதல்."
    },
    {
     "t": "Sparger",
-    "d": "Device that bubbles gas into a bioreactor."
+    "d": "Device that bubbles gas into a bioreactor.",
+    "t_ta": "காற்றுப் பாய்ச்சி",
+    "d_ta": "உயிர்வினைக்கலனுக்குள் வாயுவைக் குமிழ்களாகச் செலுத்தும் கருவி."
    },
    {
     "t": "Contig",
-    "d": "Set of overlapping DNA clones or reads."
+    "d": "Set of overlapping DNA clones or reads.",
+    "t_ta": "காண்டிக்",
+    "d_ta": "ஒன்றன்மேல் ஒன்று படியும் DNA குளோன்கள் அல்லது வாசிப்புகளின் தொகுப்பு."
    },
    {
     "t": "BAC",
-    "d": "Bacterial artificial chromosome (100–200 kb)."
+    "d": "Bacterial artificial chromosome (100–200 kb).",
+    "t_ta": "BAC",
+    "d_ta": "பாக்டீரியச் செயற்கை நிறமூர்த்தம் (100–200 kb)."
    },
    {
     "t": "Prior art",
-    "d": "Existing knowledge that may defeat novelty of a patent."
+    "d": "Existing knowledge that may defeat novelty of a patent.",
+    "t_ta": "முந்தைய அறிவு (பிரயர் ஆர்ட்)",
+    "d_ta": "காப்புரிமையின் புதுமையைத் தகர்க்கக்கூடிய ஏற்கெனவே உள்ள அறிவு."
    },
    {
     "t": "GEAC",
-    "d": "Genetic Engineering Appraisal Committee, India."
+    "d": "Genetic Engineering Appraisal Committee, India.",
+    "t_ta": "GEAC",
+    "d_ta": "மரபணுப் பொறியியல் மதிப்பீட்டுக் குழு, இந்தியா."
    },
    {
     "t": "3Rs",
-    "d": "Replace, Reduce, Refine in animal research."
+    "d": "Replace, Reduce, Refine in animal research.",
+    "t_ta": "3R-கள்",
+    "d_ta": "விலங்கு ஆராய்ச்சியில் மாற்றுதல், குறைத்தல், மேம்படுத்தல்."
    }
+  ],
+  "title_ta": "வரைபட அட்லஸ் IV: வளர்ப்பு, HGP, நெறிமுறைகள்",
+  "kp_ta": [
+   "வளர்ப்பு நிலைகள்: 37 °C, 5% CO₂, pH 7.2–7.4, ஈரப்பதம், கிருமியற்றது; சீரம் 5–10%.",
+   "வளர்ச்சி வளைவு: தகவமைப்பு (லாக்), படிமுறை (log), நிலையான, சரிவு; படிமுறை நிலையில் துணை வளர்ப்பு.",
+   "இயல்பு செல்களுக்கு வரையறுக்கப்பட்ட ஆயுள் உண்டு (ஹேஃப்ளிக் வரம்பு ~50); தொடர் வரிசைகள் உருமாற்றம் அடைந்தவை.",
+   "HeLa, CHO, Vero, HEK-293, BHK-21: தோற்றத்தையும் பயன்பாட்டையும் அறிக.",
+   "தண்டு செல் ஆற்றல்: முழுத்திறன் > புளூரிபொட்டென்ட் > பல்திறன்; Oct4, Sox2, Klf4, c-Myc மூலம் iPSC-கள்.",
+   "செயற்கைத் தோல்: கொலாஜன்/ஃபைப்ரோபிளாஸ்ட் அணியில் வளர்க்கப்பட்ட கெரட்டினோசைட்டுகள்.",
+   "உயிர்வினைக்கலன்கள்: கலக்கித் தொட்டி, காற்றுத்தூக்கி, உள்ளீடற்ற இழை, நிரப்பிய படுகை; தொகுதி, ஊட்டத் தொகுதி, உட்பாய்ச்சல்.",
+   "எத்தனால்: பைருவேட் → அசிட்டால்டிஹைடு + CO₂ → எத்தனால்; ஈஸ்ட்; வடித்தல்.",
+   "HGP: 1990–2003, 3.1 Gb, ~20 000 மரபணுக்கள், ~1.5% குறியீடு செய்பவை; BAC – துப்பாக்கிக்குண்டு.",
+   "காப்புரிமை: புதுமை, கண்டுபிடிப்புப் படி, தொழில் பயன்பாடு; இந்தியாவில் 20 ஆண்டுகள்; RCGM, GEAC, CPCSEA ஒழுங்குபடுத்துகின்றன."
   ]
  },
  "atlas5_bioinformatics.html": {
@@ -2131,82 +2233,133 @@
   "sa": [
    {
     "q": "Differentiate primary and secondary databases.",
-    "a": "Primary databases hold raw data submitted by researchers (GenBank, PDB); secondary databases hold curated or derived information (Swiss-Prot, Pfam, PROSITE, RefSeq)."
+    "a": "Primary databases hold raw data submitted by researchers (GenBank, PDB); secondary databases hold curated or derived information (Swiss-Prot, Pfam, PROSITE, RefSeq).",
+    "q_ta": "முதல்நிலை, இரண்டாம்நிலைத் தரவுத்தளங்களை வேறுபடுத்துக.",
+    "a_ta": "முதல்நிலைத் தரவுத்தளங்கள் ஆராய்ச்சியாளர்கள் சமர்ப்பித்த மூலத் தரவைக் கொண்டவை (GenBank, PDB); இரண்டாம்நிலைத் தரவுத்தளங்கள் தொகுக்கப்பட்ட அல்லது பெறப்பட்ட தகவலைக் கொண்டவை (Swiss-Prot, Pfam, PROSITE, RefSeq)."
    },
    {
     "q": "What is FASTA format?",
-    "a": "A text format with a header line starting with “>” followed by the sequence in one or more lines."
+    "a": "A text format with a header line starting with “>” followed by the sequence in one or more lines.",
+    "q_ta": "FASTA வடிவம் என்றால் என்ன?",
+    "a_ta": "“>” எனத் தொடங்கும் தலைப்பு வரியையும், அதைத் தொடர்ந்து ஒன்று அல்லது அதற்கு மேற்பட்ட வரிகளில் வரிசையையும் கொண்ட உரை வடிவம்."
    },
    {
     "q": "Distinguish global and local alignment.",
-    "a": "Global (Needleman–Wunsch) aligns whole sequences; local (Smith–Waterman) finds the best matching regions."
+    "a": "Global (Needleman–Wunsch) aligns whole sequences; local (Smith–Waterman) finds the best matching regions.",
+    "q_ta": "முழுநீள, பகுதி ஒப்பீடுகளை வேறுபடுத்துக.",
+    "a_ta": "முழுநீளம் (நீடில்மன்–வுன்ஷ்) முழு வரிசைகளையும் ஒப்பிடுகிறது; பகுதி (ஸ்மித்–வாட்டர்மன்) சிறப்பாகப் பொருந்தும் பகுதிகளைக் கண்டறிகிறது."
    },
    {
     "q": "Explain how BLAST works.",
-    "a": "Query split into words; neighbourhood words found; database scanned for seeds; hits extended into HSPs; scores converted to bit scores and E-values."
+    "a": "Query split into words; neighbourhood words found; database scanned for seeds; hits extended into HSPs; scores converted to bit scores and E-values.",
+    "q_ta": "BLAST எவ்வாறு செயல்படுகிறது என விளக்குக.",
+    "a_ta": "வினா சொற்களாகப் பிரிக்கப்படுகிறது; அண்மைச் சொற்கள் கண்டறியப்படுகின்றன; விதைகளுக்காகத் தரவுத்தளம் ஸ்கேன் செய்யப்படுகிறது; பொருத்தங்கள் HSP-களாக நீட்டிக்கப்படுகின்றன; மதிப்பெண்கள் பிட் மதிப்பெண்களாகவும் E-மதிப்புகளாகவும் மாற்றப்படுகின்றன."
    },
    {
     "q": "What does an E-value of 1e–25 mean?",
-    "a": "Only 1e–25 matches of that score are expected by chance in a database of that size, so the hit is highly significant."
+    "a": "Only 1e–25 matches of that score are expected by chance in a database of that size, so the hit is highly significant.",
+    "q_ta": "1e–25 என்ற E-மதிப்பு எதைக் குறிக்கிறது?",
+    "a_ta": "அத்தகைய தரவுத்தள அளவில், அந்த மதிப்பெண்ணுக்குச் சமமான 1e–25 பொருத்தங்கள் மட்டுமே தற்செயலாக எதிர்பார்க்கப்படுகின்றன; எனவே அந்தப் பொருத்தம் மிக முக்கியமானது."
    },
    {
     "q": "Write short notes on the PDB.",
-    "a": "Archive of experimentally determined 3-D structures (X-ray, NMR, cryo-EM) with a 4-character ID; ATOM records give x, y, z coordinates."
+    "a": "Archive of experimentally determined 3-D structures (X-ray, NMR, cryo-EM) with a 4-character ID; ATOM records give x, y, z coordinates.",
+    "q_ta": "PDB பற்றிக் குறுங்குறிப்பு எழுதுக.",
+    "a_ta": "4-எழுத்து அடையாளத்துடன் சோதனை வழி கண்டறியப்பட்ட 3-D அமைப்புகளின் (X-கதிர், NMR, cryo-EM) காப்பகம்; ATOM பதிவுகள் x, y, z ஆயங்களைத் தருகின்றன."
    },
    {
     "q": "List applications of bioinformatics.",
-    "a": "Gene finding, variant calling, phylogenetics, drug design, structure prediction, transcriptomics, breeding and CRISPR guide design."
+    "a": "Gene finding, variant calling, phylogenetics, drug design, structure prediction, transcriptomics, breeding and CRISPR guide design.",
+    "q_ta": "உயிர்த்தகவலியலின் பயன்பாடுகளைப் பட்டியலிடுக.",
+    "a_ta": "மரபணு கண்டறிதல், மாறுபாடு அழைப்பு, பரிணாம உறவுப் பகுப்பாய்வு, மருந்து வடிவமைப்பு, அமைப்புக் கணிப்பு, படியெடுப்புத்தொகையியல், இனப்பெருக்கம், CRISPR வழிகாட்டி வடிவமைப்பு."
    }
   ],
   "gl": [
    {
     "t": "INSDC",
-    "d": "International Nucleotide Sequence Database Collaboration."
+    "d": "International Nucleotide Sequence Database Collaboration.",
+    "t_ta": "INSDC",
+    "d_ta": "சர்வதேச நியுக்ளியோடைடு வரிசைத் தரவுத்தளக் கூட்டிணைவு."
    },
    {
     "t": "Accession number",
-    "d": "Stable identifier for a database record."
+    "d": "Stable identifier for a database record.",
+    "t_ta": "அக்சஷன் எண்",
+    "d_ta": "தரவுத்தளப் பதிவுக்கான நிலையான அடையாளங்காட்டி."
    },
    {
     "t": "Homology",
-    "d": "Similarity due to common ancestry."
+    "d": "Similarity due to common ancestry.",
+    "t_ta": "ஹோமாலஜி",
+    "d_ta": "பொதுவான மூதாதையால் ஏற்படும் ஒற்றுமை."
    },
    {
     "t": "HSP",
-    "d": "High-scoring segment pair found by BLAST."
+    "d": "High-scoring segment pair found by BLAST.",
+    "t_ta": "HSP",
+    "d_ta": "BLAST கண்டறியும் உயர்-மதிப்பெண் பகுதி இணை."
    },
    {
     "t": "E-value",
-    "d": "Expected number of chance hits with equal or better score."
+    "d": "Expected number of chance hits with equal or better score.",
+    "t_ta": "E-மதிப்பு",
+    "d_ta": "சமமான அல்லது சிறந்த மதிப்பெண் கொண்ட தற்செயல் பொருத்தங்களின் எதிர்பார்க்கப்படும் எண்ணிக்கை."
    },
    {
     "t": "Bit score",
-    "d": "Normalised alignment score."
+    "d": "Normalised alignment score.",
+    "t_ta": "பிட் மதிப்பெண்",
+    "d_ta": "இயல்பாக்கப்பட்ட ஒப்பீட்டு மதிப்பெண்."
    },
    {
     "t": "Orthologue",
-    "d": "Homologous gene separated by speciation."
+    "d": "Homologous gene separated by speciation.",
+    "t_ta": "ஆர்த்தோலாக்",
+    "d_ta": "இனமாக்கத்தால் பிரிந்த ஹோமாலஜி மரபணு."
    },
    {
     "t": "Paralogue",
-    "d": "Homologous gene separated by duplication."
+    "d": "Homologous gene separated by duplication.",
+    "t_ta": "பாராலாக்",
+    "d_ta": "இரட்டிப்பாக்கத்தால் பிரிந்த ஹோமாலஜி மரபணு."
    },
    {
     "t": "Contig",
-    "d": "Contiguous assembled sequence from overlapping reads."
+    "d": "Contiguous assembled sequence from overlapping reads.",
+    "t_ta": "காண்டிக்",
+    "d_ta": "ஒன்றன்மேல் ஒன்று படியும் வாசிப்புகளிலிருந்து தொகுக்கப்பட்ட தொடர்ச்சியான வரிசை."
    },
    {
     "t": "Phred score",
-    "d": "Quality value Q = −10 log₁₀ P(error)."
+    "d": "Quality value Q = −10 log₁₀ P(error).",
+    "t_ta": "Phred மதிப்பெண்",
+    "d_ta": "தர மதிப்பு Q = −10 log₁₀ P(பிழை)."
    },
    {
     "t": "Clade",
-    "d": "Ancestor and all its descendants."
+    "d": "Ancestor and all its descendants.",
+    "t_ta": "கிளேடு",
+    "d_ta": "ஒரு மூதாதையும் அதன் அனைத்து வழித்தோன்றல்களும்."
    },
    {
     "t": "pLDDT",
-    "d": "AlphaFold per-residue confidence (0–100)."
+    "d": "AlphaFold per-residue confidence (0–100).",
+    "t_ta": "pLDDT",
+    "d_ta": "ஒவ்வோர் எச்சத்துக்குமான AlphaFold நம்பகத்தன்மை (0–100)."
    }
+  ],
+  "title_ta": "வரைபட அட்லஸ் V: உயிர்த்தகவலியல்",
+  "kp_ta": [
+   "INSDC: GenBank, ENA, DDBJ தரவைப் பகிர்கின்றன; UniProt (Swiss-Prot மதிப்பாய்வு செய்யப்பட்டது, TrEMBL மதிப்பாய்வு செய்யப்படாதது); அமைப்புகளுக்கு PDB.",
+   "FASTA: > தலைப்பு + வரிசை; FASTQ கூடுதலாக Phred தர மதிப்பெண்களைச் சேர்க்கிறது.",
+   "ஹோமாலஜி ஆம்/இல்லை; ஒற்றுமையும் முழுமையான ஒத்தமைவும் சதவீதங்கள்.",
+   "நீடில்மன்–வுன்ஷ் = முழுநீளம்; ஸ்மித்–வாட்டர்மன் = பகுதி; இரண்டும் இயக்கநிலைத் திட்டமிடலைப் பயன்படுத்துகின்றன.",
+   "PAM, BLOSUM62 பதிலீட்டு அணிகள்; அஃபைன் இடைவெளித் தண்டனைகள்.",
+   "BLAST: விதைச் சொற்கள், நீட்சி, HSP, பிட் மதிப்பெண், E-மதிப்பு; BLASTN/P/X/TBLASTN/TBLASTX.",
+   "குறைந்த E-மதிப்பு அதிக முக்கியத்துவத்தைக் குறிக்கும்; 1e-5 பொதுவான எல்லை.",
+   "பல வரிசை ஒப்பீடு (MSA) பாதுகாக்கப்பட்ட எச்சங்களை வெளிப்படுத்துகிறது; வழிகாட்டி மரங்கள் படிப்படியான ஒப்பீடுகளை வரிசைப்படுத்துகின்றன.",
+   "புரத அமைப்பு: முதல்நிலை, இரண்டாம்நிலை, மூன்றாம்நிலை, நான்காம்நிலை; PDB கோப்புகள் ATOM பதிவுகளைப் பட்டியலிடுகின்றன.",
+   "AlphaFold நம்பகத்தன்மை மதிப்பெண்களுடன் (pLDDT) அமைப்புகளைக் கணிக்கிறது."
   ]
  },
  "advanced_vectors_cosmid_yac_sv40_transposons.html": {
