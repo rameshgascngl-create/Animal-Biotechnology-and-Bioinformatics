@@ -1,0 +1,1753 @@
+{
+ "id": "sanger_dna_sequencing",
+ "unit": "II",
+ "title": {
+  "en": "DNA Sequencing: Sanger Method"
+ },
+ "sections": [
+  {
+   "id": "s01",
+   "title": {
+    "en": "Overview"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Molecular Biology · B.Sc. Zoology / Biotechnology"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "title": {
+    "en": "DNA Sequencing: The Sanger Method"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Chain Termination · Dideoxynucleotides · Fragment Separation · Sequence Reading"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Knowing the precise order of nucleotides in a DNA molecule was the dream that unlocked the entire genome era. Frederick Sanger's elegant chain-termination method — awarded the Nobel Prize in Chemistry in 1980 — made that dream a reality and became the gold standard of DNA sequencing for over three decades."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🎯 Learning Objectives**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Define DNA sequencing and explain its importance in biology and medicine."
+      },
+      {
+       "en": "Explain the chain termination principle of the Sanger method."
+      },
+      {
+       "en": "Describe the role of dNTPs and ddNTPs in Sanger sequencing."
+      },
+      {
+       "en": "List all components required and describe each step of the Sanger method."
+      },
+      {
+       "en": "Interpret a sequencing gel and fluorescent chromatogram output."
+      },
+      {
+       "en": "Discuss the advantages, limitations, and applications of Sanger sequencing."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": {
+    "en": "Introduction to DNA Sequencing"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**What Is DNA Sequencing?**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "DNA sequencing is the process of determining the precise order of the four nucleotide bases — **Adenine (A), Thymine (T), Guanine (G), and Cytosine (C)** — along a strand of DNA. The resulting sequence is the \"primary structure\" of that DNA molecule."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Importance in Molecular Biology, Biotechnology, and Genetic Analysis**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Gene identification:** Reveals the coding sequences, regulatory regions, and boundaries of genes."
+      },
+      {
+       "en": "**Mutation detection:** Identifies single nucleotide polymorphisms (SNPs) and disease-causing mutations."
+      },
+      {
+       "en": "**Cloning verification:** Confirms that the correct gene was cloned into the vector and no errors were introduced by PCR."
+      },
+      {
+       "en": "**Genome projects:** The entire Human Genome Project (3.2 Gb) was sequenced using Sanger sequencing."
+      },
+      {
+       "en": "**Evolutionary studies:** Comparing sequences across species reveals phylogenetic relationships."
+      },
+      {
+       "en": "**Forensics and diagnostics:** Pathogen identification, cancer mutation profiling."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Introduction to the Sanger Method**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The Sanger method (also called the **chain-termination method or dideoxy method**) was developed by **Frederick Sanger** and colleagues at the MRC Laboratory of Molecular Biology, Cambridge, in 1977. It exploits the ability of DNA polymerase to synthesise a complementary copy of a template strand — but uses specially modified nucleotides that terminate synthesis at known positions, producing a series of DNA fragments whose sizes reveal the sequence."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Nobel Prize:** Frederick Sanger was awarded the Nobel Prize in Chemistry in **1980** for developing this method — his second Nobel Prize (he had won his first in 1958 for protein sequencing). Sanger is one of only four people to have received two Nobel Prizes."
+     }
+    }
+   ],
+   "icon": "🧬",
+   "label": "Section 1"
+  },
+  {
+   "id": "s04",
+   "title": {
+    "en": "Principle of the Sanger Method"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Chain Termination Principle**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The Sanger method is based on the chain termination (or dideoxy termination) principle: when a **dideoxynucleotide triphosphate (ddNTP)** is incorporated into a growing DNA chain by DNA polymerase, synthesis **stops immediately** — the chain is \"terminated.\" This produces a population of DNA fragments of all possible lengths, each ending at a specific nucleotide type."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Role of DNA Polymerase**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**DNA polymerase** (modified DNA Pol I — Klenow fragment, or thermostable Taq/T7 polymerase) reads the template strand in the **3'→5' direction** and synthesises a new complementary strand in the **5'→3' direction** by adding dNTPs to the 3'-OH of the growing chain. It requires a primer to initiate synthesis."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Role of Normal Deoxynucleotides (dNTPs)**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The four standard deoxynucleotide triphosphates — **dATP, dTTP, dGTP, dCTP** — are incorporated normally into the growing chain. Each dNTP provides:"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "The **nucleobase** for specific base pairing with the template."
+      },
+      {
+       "en": "The **deoxyribose sugar** with a free **3'-OH group** that allows the next nucleotide to be added."
+      },
+      {
+       "en": "**Three phosphate groups** — the outer two are cleaved to release energy for bond formation."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Role of Dideoxynucleotides (ddNTPs)**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The four **dideoxynucleotide triphosphates** — **ddATP, ddTTP, ddGTP, ddCTP** — are chemically modified analogues of normal dNTPs. They are identical to dNTPs _except_ that the **3'-OH group on the deoxyribose sugar is replaced by a hydrogen atom (3'-H)**."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Why Chain Elongation Stops When ddNTP Is Added**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "DNA synthesis requires a free **3'-OH group** on the last nucleotide to form a new **3'–5' phosphodiester bond** with the incoming nucleotide. When a ddNTP is incorporated:"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "It is paired with the complementary template base (e.g., ddATP pairs with T on template)."
+      },
+      {
+       "en": "The ddNTP is added to the 3' end of the growing chain via its 5'-phosphate."
+      },
+      {
+       "en": "However, the ddNTP has **no 3'-OH group** (only a 3'-H)."
+      },
+      {
+       "en": "Without a 3'-OH, DNA polymerase **cannot form the next phosphodiester bond**."
+      },
+      {
+       "en": "Result: DNA synthesis **terminates permanently** at that position."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Key Equation:** dNTP (3'-OH) → chain continues | ddNTP (3'-H, no OH) → chain TERMINATES immediately."
+     }
+    }
+   ],
+   "icon": "⚗️",
+   "label": "Section 2"
+  },
+  {
+   "id": "s05",
+   "title": {
+    "en": "Components Required for Sanger Sequencing"
+   },
+   "blocks": [
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**1. Template DNA**\nThe single-stranded or denatured double-stranded DNA whose sequence is to be determined. Must be pure and in sufficient quantity. Can be a plasmid, PCR product, or genomic fragment."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**2. Primer**\nA short synthetic oligonucleotide (18–25 nt) complementary to the template. Provides the free 3'-OH needed for DNA polymerase to start synthesis. Defines the starting point and orientation of sequencing."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "tip",
+     "text": {
+      "en": "**3. DNA Polymerase**\nSynthesises the new complementary strand. Requires high fidelity and processivity. Klenow fragment (original), T7 DNA polymerase, or Taq polymerase (cycle sequencing). Lacks 5'→3' exonuclease activity (Klenow/T7)."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**4. dNTPs (all four)**\ndATP, dTTP, dGTP, dCTP — the normal building blocks for DNA synthesis. Incorporated throughout the growing chain, providing 3'-OH for chain elongation."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**5. ddNTPs (chain terminators)**\nddATP, ddTTP, ddGTP, ddCTP — added at low concentration relative to dNTPs. Each terminates the chain when incorporated. In modern fluorescent Sanger, each ddNTP carries a different fluorescent dye."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**6. Buffer & Conditions**\nAppropriate buffer (Tris-HCl, pH 7.5–8.0), MgCl₂ (cofactor for polymerase), denaturing agent (formamide for gel), reaction temperature (37°C for Klenow; 96°C denaturation for cycle sequencing)."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Key Ratio:** ddNTPs are added at a concentration approximately **100× lower** than dNTPs. This ensures that ddNTPs are incorporated randomly and infrequently — producing fragments of all possible lengths, not just very short ones."
+     }
+    }
+   ],
+   "icon": "🧪",
+   "label": "Section 3"
+  },
+  {
+   "id": "s06",
+   "title": {
+    "en": "Steps in Sanger Sequencing"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "1"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Denaturation of Template DNA"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The double-stranded template DNA is denatured into single strands by heating (95–96°C) or by treatment with alkali (NaOH). Single-stranded template is essential because DNA polymerase can only copy a single-stranded template."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Primer Annealing"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A specific oligonucleotide primer (18–25 nt) is annealed to the template at a complementary sequence upstream of the region to be sequenced. The temperature is lowered (50–60°C) to allow hydrogen bonding between the primer and template."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "3"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "DNA Synthesis by DNA Polymerase"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "DNA polymerase extends the primer by adding nucleotides complementary to the template in the 5'→3' direction. All four dNTPs and a small amount of all four ddNTPs are present simultaneously in a single reaction tube (modern fluorescent Sanger method). In the original radioactive method, four separate reactions were used, each containing one type of ddNTP."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "4"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Random Incorporation of ddNTPs (Chain Termination)"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "At each position in the growing chain, the polymerase may incorporate either the normal dNTP (chain continues) or the ddNTP analogue (chain terminates). Because ddNTPs lack a 3'-OH group, synthesis stops permanently at that nucleotide. The random but statistical nature of incorporation means that termination occurs at every possible position in the sequence."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Formation of DNA Fragments of Different Lengths"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The sequencing reaction generates a **ladder of DNA fragments** — a population of molecules that all start at the primer and end at every possible position in the template (wherever a ddNTP was incorporated). Each fragment has a defined length and ends with a specific ddNTP:"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Fragments ending in ddATP → terminated at every A position in the new strand."
+      },
+      {
+       "en": "Fragments ending in ddTTP → terminated at every T position."
+      },
+      {
+       "en": "Fragments ending in ddGTP → terminated at every G position."
+      },
+      {
+       "en": "Fragments ending in ddCTP → terminated at every C position."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "6"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Separation by Gel or Capillary Electrophoresis"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The mixture of fragments is separated by size using:"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Denaturing polyacrylamide gel electrophoresis (PAGE):** Original method. Formamide denatures secondary structures. Fragments migrate through the gel matrix — smaller fragments move faster and migrate farther from the wells. Typically resolves fragments from ~10 to ~1000 nt with single-nucleotide resolution."
+      },
+      {
+       "en": "**Capillary electrophoresis (CE):** Modern automated method. DNA fragments migrate through a thin capillary tube filled with polymer. Fragments pass a laser detector — each ddNTP carries a different fluorescent dye and emits a different colour when excited."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "7"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Reading of DNA Sequence"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Gel method:** The pattern of bands on the gel is read from bottom (smallest = shortest = closest to the primer end) to top (largest = furthest from primer). The lane containing each band reveals the terminal base at that position."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Fluorescent capillary method (modern):** The laser detector records fluorescence colour in real time as fragments pass. The output is a **chromatogram (electropherogram)** — coloured peaks, each colour corresponding to one base. The sequence is read from left (small fragments, earliest detected) to right (larger fragments, later detected)."
+     }
+    }
+   ],
+   "icon": "🪜",
+   "label": "Section 4"
+  },
+  {
+   "id": "s07",
+   "title": {
+    "en": "Interpretation of Results"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Reading Fragment Sizes from a Gel**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "In the original radioactive Sanger method, four reactions (A, T, G, C) are run in parallel lanes on a denaturing gel. Radioactively labelled fragments appear as dark bands. The sequence is read from the **bottom of the gel upwards** — the lowest band (smallest fragment, i.e., the one nearest the primer) is read first."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "At each band position, you record the lane (A, T, G, or C) in which the band appears. Reading upward from position 1 to the top gives the sequence of the new (complementary) strand in the 5'→3' direction."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Modern Fluorescent Chromatogram (Electropherogram)**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "In automated fluorescent Sanger sequencing (Applied Biosystems ABI 3730xl system):"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "A single reaction contains all four ddNTPs, each labelled with a **different fluorescent dye**: typically ddA = green, ddT = red, ddG = blue, ddC = purple/black."
+      },
+      {
+       "en": "Fragments separated by capillary electrophoresis pass a laser — each emits its specific colour."
+      },
+      {
+       "en": "The detector records a **chromatogram: coloured peaks on a time axis**."
+      },
+      {
+       "en": "Each peak represents one nucleotide position in the sequence."
+      },
+      {
+       "en": "The sequence is read from left (smallest fragments = earliest positions) to right."
+      },
+      {
+       "en": "Base-calling software (e.g., Phred) automatically reads the sequence and assigns quality scores."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "tip",
+     "text": {
+      "en": "**Read length:** A single Sanger run typically provides **600–1000 reliable base calls** per reaction, with accuracy greater than 99.99% for high-quality regions."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Sequence Determination from the Template**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The sequence obtained is that of the **newly synthesised strand** (complementary to the template), read in the 5'→3' direction. To obtain the template strand sequence, take the reverse complement."
+     }
+    }
+   ],
+   "icon": "📊",
+   "label": "Section 5"
+  },
+  {
+   "id": "s08",
+   "title": {
+    "en": "Labeled Diagrams"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 1 — dNTP vs ddNTP: Why ddNTP Causes Chain Termination"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "sanger_dna_sequencing-d01",
+     "caption": {
+      "en": "dNTP vs ddNTP comparison showing 3-OH vs 3-H"
+     },
+     "labels": [
+      "dNTP",
+      "(Normal deoxynucleotide)",
+      "ddNTP",
+      "(Dideoxynucleotide)",
+      "γ-P",
+      "β-P",
+      "α-P",
+      "Sugar",
+      "(deoxyribose)",
+      "Base",
+      "(A/T/G/C)",
+      "2'-H",
+      "3'-OH",
+      "free!",
+      "✓ Chain CONTINUES",
+      "3'-OH available for next",
+      "nucleotide addition",
+      "3'-OH attacks α-phosphate",
+      "of next incoming dNTP →",
+      "phosphodiester bond formed",
+      "vs",
+      "γ-P",
+      "β-P",
+      "α-P",
+      "Sugar",
+      "(dideoxyribose)",
+      "Base",
+      "(A/T/G/C)",
+      "2'-H",
+      "3'-H",
+      "NO –OH!",
+      "✗",
+      "✗ Chain TERMINATES",
+      "No 3'-OH → cannot",
+      "form next bond",
+      "3' position has only H",
+      "→ cannot attack next dNTP",
+      "→ permanent chain stop",
+      "Critical Difference:",
+      "dNTP has 3'-OH | ddNTP has 3'-H (no OH)"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 2 — Sanger Reaction: Chain Termination Producing a Fragment Ladder"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "sanger_dna_sequencing-d02",
+     "caption": {
+      "en": "Sanger reaction fragment ladder"
+     },
+     "labels": [
+      "Template: 3'",
+      "— T — A — C — G — T — A — G — C — A — T —",
+      "5'",
+      "Primer: 5'",
+      "— A —",
+      "Fragment 1:",
+      "A",
+      "T*",
+      "← ddTTP terminates here (pos 1)",
+      "Fragment 2:",
+      "A",
+      "— T",
+      "G*",
+      "← ddGTP terminates (pos 2)",
+      "Fragment 3:",
+      "A",
+      "— T — G",
+      "C*",
+      "← ddCTP terminates (pos 3)",
+      "Fragment 4:",
+      "A",
+      "— T — G — C",
+      "A*",
+      "← ddATP terminates (pos 4)",
+      "Fragment 5:",
+      "A",
+      "— T — G — C — A",
+      "T*",
+      "← ddTTP terminates (pos 5)",
+      "· · ·",
+      "(fragments continue for every position)",
+      "Legend: * = ddNTP chain terminator (each labelled with a different fluorescent dye in modern sequencing)",
+      "ddA* = Green",
+      "ddT* = Red",
+      "ddG* = Blue",
+      "ddC* = Purple",
+      "Sequence read 5'→3': A T G C A T ... (read bottom to top on gel; left to right on chromatogram)"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 3 — Sequencing Gel (left) and Modern Fluorescent Chromatogram (right)"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "sanger_dna_sequencing-d03",
+     "caption": {
+      "en": "Sequencing gel and chromatogram"
+     },
+     "labels": [
+      "Denaturing Polyacrylamide Gel",
+      "(Original radioactive method — 4 lanes)",
+      "ddA",
+      "ddT",
+      "ddG",
+      "ddC",
+      "A",
+      "T",
+      "G",
+      "C",
+      "A",
+      "T",
+      "C",
+      "G",
+      "A",
+      "Read direction (small → large)",
+      "5'→3' sequence:",
+      "A T G C A T C G A",
+      "Fluorescent Chromatogram",
+      "(Modern capillary electrophoresis output)",
+      "Time / Fragment size →",
+      "A",
+      "T",
+      "G",
+      "C",
+      "A",
+      "T",
+      "C",
+      "G",
+      "A",
+      "5'– A T G C A T C G A –3'",
+      "Each peak = one base; read left → right",
+      "Colour identifies base; peak position = fragment size"
+     ]
+    }
+   ],
+   "icon": "🖼️",
+   "label": "Section 6 — Diagrams"
+  },
+  {
+   "id": "s09",
+   "title": {
+    "en": "Sanger Sequencing Workflow — Click Each Step"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Click any step to expand details."
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "1 🧬 Template DNA Purified single-stranded or double-stranded DNA containing the region to be sequenced. Denatured to single strands by heating at 95°C or treatment with NaOH."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "2 🔑 Primer Annealing A specific oligonucleotide primer anneals to the complementary sequence on the template at 50–60°C. Defines the start point and direction of synthesis."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "3 ⚗️ DNA Synthesis + ddNTP Termination DNA polymerase extends the primer. All four dNTPs and four fluorescently labelled ddNTPs are present. Randomly, a ddNTP is incorporated at each position, terminating the chain. This produces fragments of every possible length."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "4 🔬 Capillary Electrophoresis Denatured fragments loaded into capillary filled with polymer. High-voltage applied — fragments migrate by size (small = fast). Laser detects fluorescent colour as each fragment passes the detection window."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "5 📈 Chromatogram Generation Detector records fluorescence intensity over time. Each peak = one base, each colour = one base identity (A=green, T=red, G=blue, C=purple typically). Base-calling software reads the sequence."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "6 💻 Sequence Output & Analysis The software outputs the nucleotide sequence as text (e.g., 5'-ATGCATCGA...-3'). Quality scores (Phred) assigned to each base. Sequence aligned against reference databases (BLAST, GenBank) for identification."
+      }
+     ]
+    }
+   ],
+   "icon": "🔄",
+   "label": "Section 7 — Workflow"
+  },
+  {
+   "id": "s10",
+   "title": {
+    "en": "Advantages and Limitations"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**✅ Advantages**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**High accuracy:** Error rate <0.001%; considered the \"gold standard\" for accuracy."
+      },
+      {
+       "en": "**Long read length:** 600–1000 reliable bases per run."
+      },
+      {
+       "en": "**Well-established:** Decades of optimisation; robust and reproducible."
+      },
+      {
+       "en": "**Cost-effective for small targets:** Ideal for sequencing single genes, verifying clones, detecting point mutations."
+      },
+      {
+       "en": "**Widely used:** Standard method in clinical diagnostics, forensics, and research labs."
+      },
+      {
+       "en": "**Automated:** ABI 3730xl can run 384 samples simultaneously."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**⚠️ Limitations**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Limited throughput:** Maximum ~1 kb per reaction; sequencing an entire genome requires millions of reactions."
+      },
+      {
+       "en": "**Expensive for whole genomes:** The Human Genome Project (Sanger-based) cost ~$3 billion."
+      },
+      {
+       "en": "**Cannot sequence GC-rich or repetitive regions easily:** Secondary structures cause compression artefacts."
+      },
+      {
+       "en": "**First ~15–40 bases unreliable** (primer region — poor resolution at very short lengths)."
+      },
+      {
+       "en": "**Requires pure, single template:** Mixtures of sequences give ambiguous chromatograms."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Brief Comparison with Modern Next-Generation Sequencing (NGS)**"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Next-generation sequencing (NGS) technologies (Illumina, PacBio, Oxford Nanopore) can sequence billions of base pairs simultaneously at very low cost (~$0.001/Mb vs ~$0.50/Mb for Sanger). However, Sanger remains the preferred method for validating single-gene mutations, confirming cloning results, and clinical diagnostic applications requiring high accuracy and long reads."
+     }
+    }
+   ],
+   "icon": "⚖️",
+   "label": "Section 8"
+  },
+  {
+   "id": "s11",
+   "title": {
+    "en": "Applications of Sanger Sequencing"
+   },
+   "blocks": [
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Gene Analysis**\nDetermining the complete nucleotide sequence of a gene, its intron-exon organisation, promoter, and regulatory elements."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Mutation Detection**\nIdentifying single nucleotide polymorphisms (SNPs), point mutations, insertions, and deletions associated with genetic diseases (e.g., cystic fibrosis, sickle cell disease, BRCA1/2 in cancer)."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "tip",
+     "text": {
+      "en": "**Confirmation of Cloned DNA**\nVerifying that a gene was correctly inserted into a vector during cloning and that no PCR errors or mutations were introduced."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Human Genome Project**\nSanger sequencing was the primary technology used to sequence the entire 3.2 Gb human genome (1990–2003), leading to the identification of ~20,000–25,000 human genes."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Medical Diagnostics**\nClinical sequencing of pathogen genomes (HIV drug resistance monitoring, SARS-CoV-2 variant identification), BRCA1/2 testing, pharmacogenomics."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Forensic Science**\nDNA fingerprinting and identification using mitochondrial DNA sequencing for forensic investigations and species identification."
+     }
+    }
+   ],
+   "icon": "🏥",
+   "label": "Section 9"
+  },
+  {
+   "id": "s12",
+   "title": {
+    "en": "Comparison: dNTP vs ddNTP"
+   },
+   "blocks": [
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Feature"
+      },
+      {
+       "en": "dNTP (Deoxynucleotide)"
+      },
+      {
+       "en": "ddNTP (Dideoxynucleotide)"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Full name**"
+       },
+       {
+        "en": "Deoxynucleoside triphosphate"
+       },
+       {
+        "en": "Dideoxyribonucleoside triphosphate"
+       }
+      ],
+      [
+       {
+        "en": "**Examples**"
+       },
+       {
+        "en": "dATP, dTTP, dGTP, dCTP"
+       },
+       {
+        "en": "ddATP, ddTTP, ddGTP, ddCTP"
+       }
+      ],
+      [
+       {
+        "en": "**Sugar type**"
+       },
+       {
+        "en": "2'-deoxyribose"
+       },
+       {
+        "en": "2',3'-dideoxyribose"
+       }
+      ],
+      [
+       {
+        "en": "**3' position**"
+       },
+       {
+        "en": "Free **3'-OH** group present"
+       },
+       {
+        "en": "3'-H only — **no 3'-OH group**"
+       }
+      ],
+      [
+       {
+        "en": "**2' position**"
+       },
+       {
+        "en": "2'-H (no OH, hence \"deoxy\")"
+       },
+       {
+        "en": "2'-H (same as dNTP)"
+       }
+      ],
+      [
+       {
+        "en": "**Effect on chain**"
+       },
+       {
+        "en": "Chain elongation **continues** — 3'-OH is available for next phosphodiester bond"
+       },
+       {
+        "en": "Chain elongation **terminates permanently** — no 3'-OH to react with next nucleotide"
+       }
+      ],
+      [
+       {
+        "en": "**Incorporation by polymerase**"
+       },
+       {
+        "en": "Normal substrate; incorporated at every position"
+       },
+       {
+        "en": "Analogue; incorporated randomly at low frequency (1:100 ratio vs dNTP)"
+       }
+      ],
+      [
+       {
+        "en": "**Role in Sanger sequencing**"
+       },
+       {
+        "en": "Provides the building blocks for growing the complementary strand throughout synthesis"
+       },
+       {
+        "en": "Acts as chain terminator; each fragment ends at a specific base position; carries fluorescent label in modern sequencing"
+       }
+      ],
+      [
+       {
+        "en": "**Concentration in reaction**"
+       },
+       {
+        "en": "High (standard working concentration, e.g., 200 µM)"
+       },
+       {
+        "en": "Low (~1–2 µM — ~100× lower than dNTPs)"
+       }
+      ],
+      [
+       {
+        "en": "**Natural occurrence**"
+       },
+       {
+        "en": "Natural building block of DNA"
+       },
+       {
+        "en": "Synthetic analogue; does not occur naturally"
+       }
+      ],
+      [
+       {
+        "en": "**Label**"
+       },
+       {
+        "en": "Unlabelled (or radioisotope in classic method)"
+       },
+       {
+        "en": "Fluorescently labelled (each of the four carries a different fluorescent dye in modern Sanger)"
+       }
+      ]
+     ]
+    }
+   ],
+   "icon": "📋",
+   "label": "Section 10"
+  },
+  {
+   "id": "s13",
+   "title": {
+    "en": "Interactive Learning"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**⚗️ Chain Termination Principle — Exam Key Points**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Core Principle"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "ddNTPs lack a **3'-OH group** (they have 3'-H instead)."
+      },
+      {
+       "en": "DNA polymerase requires a 3'-OH to catalyse the next phosphodiester bond."
+      },
+      {
+       "en": "When ddNTP is incorporated → chain terminates permanently at that position."
+      },
+      {
+       "en": "dNTPs are added at ~100× higher concentration than ddNTPs — ensures all possible fragment lengths are produced."
+      },
+      {
+       "en": "The sequence is determined by which ddNTP terminated each fragment and the fragment's length."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Exam tip:** The ONLY structural difference between dNTP and ddNTP is the 3' position: dNTP has 3'-OH, ddNTP has 3'-H. This single difference is the entire basis of Sanger sequencing."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔬 Original vs Modern Sanger Sequencing**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Methodology"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Feature"
+      },
+      {
+       "en": "Original (1977)"
+      },
+      {
+       "en": "Modern (automated)"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "Reactions"
+       },
+       {
+        "en": "4 separate (ddA, ddT, ddG, ddC)"
+       },
+       {
+        "en": "Single reaction (all 4 ddNTPs)"
+       }
+      ],
+      [
+       {
+        "en": "Detection"
+       },
+       {
+        "en": "Radioactive (³⁵S, ³²P)"
+       },
+       {
+        "en": "Fluorescent dye-labelled ddNTPs"
+       }
+      ],
+      [
+       {
+        "en": "Separation"
+       },
+       {
+        "en": "PAGE gel (4 lanes)"
+       },
+       {
+        "en": "Capillary electrophoresis"
+       }
+      ],
+      [
+       {
+        "en": "Output"
+       },
+       {
+        "en": "Autoradiogram bands (read by eye)"
+       },
+       {
+        "en": "Chromatogram (coloured peaks, software reads)"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**📈 Reading a Sequencing Gel — Exam Guidance**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Gel Interpretation"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "The gel has four lanes: ddA, ddT, ddG, ddC (each lane contains fragments terminated by that ddNTP)."
+      },
+      {
+       "en": "Smallest fragments (fewest nucleotides from primer) are at the **bottom** (run furthest in gel)."
+      },
+      {
+       "en": "Read the sequence from **bottom to top** — the lowest band is position 1."
+      },
+      {
+       "en": "At each band position, record which lane (A, T, G, or C) contains the band."
+      },
+      {
+       "en": "The sequence obtained is the **new (complementary) strand** read 5'→3'."
+      },
+      {
+       "en": "Example: if from bottom to top you have bands in lanes A, T, G, C, A → sequence is 5'-ATGCA-3'."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Exam tip:** Always read gel bottom-to-top (small fragments = closer to primer = read first in 5'→3' direction). Modern chromatograms are read left-to-right (same logic — smaller fragments elute first)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🏥 Applications — Exam Key Points**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Applications"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Developed by **Frederick Sanger (1977)** — Nobel Prize Chemistry 1980."
+      },
+      {
+       "en": "Used to sequence the **Human Genome Project (1990–2003)**."
+      },
+      {
+       "en": "Gold standard for **mutation detection** in clinical settings (BRCA1/2, CFTR, etc.)."
+      },
+      {
+       "en": "Routine use: **verification of recombinant DNA constructs** after cloning."
+      },
+      {
+       "en": "Accurate read length: **600–1000 bp** per reaction, >99.99% accuracy."
+      },
+      {
+       "en": "Phred quality scores assigned to each base by base-calling software."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Click-to-Reveal Key Definitions**"
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "ddNTP"
+     },
+     "answer": {
+      "en": "Dideoxynucleoside triphosphate. A synthetic analogue of a normal dNTP with H at the 3' position instead of OH. When incorporated by DNA polymerase, it permanently terminates chain elongation because the next phosphodiester bond cannot be formed without a 3'-OH group."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Chain Termination"
+     },
+     "answer": {
+      "en": "The permanent halting of DNA synthesis when a ddNTP is incorporated into the growing chain. Because ddNTPs lack a 3'-OH group, DNA polymerase cannot add the next nucleotide — the chain is irreversibly terminated at that position."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Template DNA"
+     },
+     "answer": {
+      "en": "The single-stranded or denatured DNA molecule whose nucleotide sequence is to be determined. DNA polymerase reads the template in the 3'→5' direction to synthesise the new complementary strand in the 5'→3' direction."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Primer"
+     },
+     "answer": {
+      "en": "A short (18–25 nt) synthetic oligonucleotide complementary to the template strand, upstream of the region to be sequenced. Provides the free 3'-OH group needed for DNA polymerase to initiate synthesis and defines the start position of the sequence read."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Electrophoresis"
+     },
+     "answer": {
+      "en": "A technique that separates charged molecules by size in an electric field. In Sanger sequencing, denatured DNA fragments migrate through a gel or capillary — smaller fragments travel faster and farther, allowing fragments differing by a single nucleotide to be resolved."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Chromatogram"
+     },
+     "answer": {
+      "en": "The graphical output (electropherogram) of automated fluorescent Sanger sequencing. Coloured peaks on a time axis represent individual nucleotides detected as fluorescently labelled fragments pass the laser detector in the capillary electrophoresis instrument."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Phred Score"
+     },
+     "answer": {
+      "en": "A quality score assigned to each base call in automated Sanger sequencing. Q = -10 × log₁₀(P), where P is the error probability. Phred Q20 = 99% accuracy; Q30 = 99.9% accuracy. High-quality Sanger sequence typically has Phred scores >40."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Capillary Electrophoresis"
+     },
+     "answer": {
+      "en": "A modern, automated alternative to slab gel electrophoresis used in Sanger sequencing. DNA fragments migrate through a thin (~75 µm) capillary filled with polymer. A laser detects fluorescence as each fragment passes — provides higher resolution, speed, and throughput than traditional gel electrophoresis."
+     }
+    }
+   ],
+   "icon": "🎮",
+   "label": "Section 11 — Interactive"
+  },
+  {
+   "id": "s14",
+   "title": {
+    "en": "Summary — Key Exam Points"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Sanger Method**Developed by Frederick Sanger in 1977 (Nobel Prize 1980). Also called chain-termination or dideoxy method. The gold standard for DNA sequencing."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key Principle**Uses ddNTPs as chain terminators. ddNTPs lack a 3'-OH group → when incorporated, chain synthesis stops permanently."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**dNTP vs ddNTP**Only structural difference: dNTP has 3'-OH; ddNTP has 3'-H (no OH). This single difference prevents the next phosphodiester bond formation."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Fragment Ladder**Reaction produces fragments of all possible lengths, each ending at a specific nucleotide type. Reading fragment sizes in order reveals the sequence."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**dNTP:ddNTP Ratio**ddNTPs are ~100× more dilute than dNTPs to ensure random incorporation at every position — producing the complete ladder of fragment sizes."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Original Method**Four separate reactions (ddA, ddT, ddG, ddC), radioactive labelling, 4-lane polyacrylamide gel, read bottom to top, autoradiography."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Modern Method**Single reaction, four fluorescently labelled ddNTPs (each different colour), capillary electrophoresis, chromatogram output, automated base calling."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Gel Reading**Read bottom to top (smallest = earliest position). Each band's lane/colour = the nucleotide at that position. Sequence is the new strand read 5'→3'."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Read Length & Accuracy**600–1000 reliable bases per run; >99.99% accuracy for high-quality bases. First 15–40 bases may be unreliable."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Applications**Clone verification, mutation detection, Human Genome Project, clinical diagnostics, pathogen identification, forensics."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Limitation vs NGS**Only ~1 kb per reaction (low throughput); expensive for whole genomes. NGS sequences billions of bases simultaneously but Sanger remains gold standard for accuracy in targeted sequencing."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Correct Step Order**Denature DNA → Anneal primer → Polymerase extends + ddNTP terminates → Fragments of all sizes form → Electrophoresis separates → Read sequence from chromatogram."
+     }
+    }
+   ],
+   "icon": "📌",
+   "label": "Section 13"
+  },
+  {
+   "id": "s15",
+   "title": {
+    "en": "Glossary"
+   },
+   "blocks": [
+    {
+     "type": "glossary",
+     "term": {
+      "en": "DNA Sequencing"
+     },
+     "definition": {
+      "en": "The process of determining the precise order of nucleotide bases (A, T, G, C) along a DNA strand. The sequence reveals the genetic information encoded in the DNA molecule."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Sanger Method"
+     },
+     "definition": {
+      "en": "A DNA sequencing technique developed by Frederick Sanger in 1977, based on the chain-termination principle using dideoxynucleotides. Also called the dideoxy method. Gold standard of DNA sequencing for over 30 years."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "ddNTP (Dideoxynucleotide)"
+     },
+     "definition": {
+      "en": "A synthetic analogue of a normal deoxyribonucleotide triphosphate (dNTP), lacking a 3'-OH group (replaced by 3'-H). When incorporated by DNA polymerase, it permanently terminates chain elongation. Used as chain terminators in Sanger sequencing."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Chain Termination"
+     },
+     "definition": {
+      "en": "The permanent halting of DNA synthesis caused by incorporation of a ddNTP. Since ddNTPs lack a 3'-OH group, no new phosphodiester bond can be formed — the growing chain cannot be extended further."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Template DNA"
+     },
+     "definition": {
+      "en": "The single-stranded DNA molecule used as the blueprint in DNA synthesis. In Sanger sequencing, the template strand is read 3'→5' by DNA polymerase, which synthesises a new complementary strand in the 5'→3' direction."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Primer"
+     },
+     "definition": {
+      "en": "A short (18–25 nt) synthetic single-stranded oligonucleotide complementary to the template strand. Provides the free 3'-OH required for DNA polymerase to initiate synthesis. Defines the start and direction of sequencing in Sanger method."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Electrophoresis"
+     },
+     "definition": {
+      "en": "A technique that uses an electric field to separate charged molecules (such as DNA fragments) by size. Smaller fragments migrate faster and farther in the gel or capillary. Enables single-nucleotide resolution of Sanger sequencing fragments."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Chromatogram (Electropherogram)"
+     },
+     "definition": {
+      "en": "The graphical output of automated fluorescent Sanger sequencing showing coloured peaks on a time axis. Each peak represents one nucleotide — the peak colour identifies the base (A/T/G/C) and peak position reflects fragment size."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Capillary Electrophoresis"
+     },
+     "definition": {
+      "en": "A modern, automated separation method used in Sanger sequencing where DNA fragments migrate through a thin polymer-filled capillary tube. Laser detection of fluorescence allows high-resolution, high-throughput sequencing (e.g., ABI 3730xl platform)."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "dNTP (Deoxynucleotide)"
+     },
+     "definition": {
+      "en": "Deoxynucleoside triphosphate — the normal building block of DNA. Contains a deoxyribose sugar with a free 3'-OH group that allows continued chain elongation. Four types: dATP, dTTP, dGTP, dCTP."
+     }
+    }
+   ],
+   "icon": "📖",
+   "label": "Section 14"
+  },
+  {
+   "id": "s16",
+   "title": {
+    "en": "Frequently Asked University Exam Questions"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Click each question to expand answer hints."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1. What is the principle of Sanger's chain termination method of DNA sequencing?**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Principle: chain-termination (dideoxy method) using dideoxynucleotide triphosphates (ddNTPs) as chain terminators."
+      },
+      {
+       "en": "ddNTPs are structural analogues of normal dNTPs but lack a 3'-OH group (have 3'-H instead)."
+      },
+      {
+       "en": "DNA polymerase incorporates ddNTPs into the growing chain at random positions — when ddNTP is incorporated, no further elongation is possible (no 3'-OH for next phosphodiester bond)."
+      },
+      {
+       "en": "This produces a population of fragments of all possible lengths, each starting at the primer and ending at a specific base type."
+      },
+      {
+       "en": "Separation by electrophoresis and reading the positions gives the complete sequence."
+      },
+      {
+       "en": "Developed by Frederick Sanger in 1977 (Nobel Prize Chemistry 1980)."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**2. Why does the incorporation of a dideoxynucleotide (ddNTP) cause chain termination? Explain with reference to its structure.**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Normal dNTP has: 5'-triphosphate, deoxyribose sugar with 2'-H and 3'-OH, and a nucleobase."
+      },
+      {
+       "en": "ddNTP differs in ONE critical way: the 3' position of the deoxyribose sugar has a hydrogen atom (3'-H) instead of a hydroxyl group (3'-OH)."
+      },
+      {
+       "en": "DNA polymerase extends a chain by catalysing an attack of the 3'-OH on the α-phosphate of the incoming dNTP, forming a new 3'–5' phosphodiester bond and releasing pyrophosphate."
+      },
+      {
+       "en": "When a ddNTP is incorporated: its 5'-phosphate forms a bond with the previous nucleotide's 3'-OH. But the ddNTP itself now sits at the 3' end with only a 3'-H — no hydroxyl group is available to attack the next incoming nucleotide."
+      },
+      {
+       "en": "Therefore, no new phosphodiester bond can form → synthesis is permanently halted → chain termination."
+      },
+      {
+       "en": "Include a structural diagram comparing dNTP and ddNTP showing the 3'-OH vs 3'-H difference."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**3. Describe the steps involved in Sanger DNA sequencing. How is the sequence determined from the result?**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Step 1: Denature template DNA to single strands (heat or NaOH)."
+      },
+      {
+       "en": "Step 2: Anneal oligonucleotide primer to template (50–60°C)."
+      },
+      {
+       "en": "Step 3: Add DNA polymerase, all four dNTPs, and all four fluorescently labelled ddNTPs (100× lower concentration than dNTPs)."
+      },
+      {
+       "en": "Step 4: Synthesis proceeds; at each position, ddNTP may be randomly incorporated → chain terminates at every possible position → population of fragments of all lengths is produced."
+      },
+      {
+       "en": "Step 5: Fragments denatured and loaded into capillary electrophoresis instrument."
+      },
+      {
+       "en": "Step 6: Fragments separated by size; laser detects fluorescent colour as each fragment elutes."
+      },
+      {
+       "en": "Sequence determination: chromatogram shows coloured peaks; each colour = one base; peaks read left to right (small = earliest in 5'→3' sequence)."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**4. What is the role of dNTPs and ddNTPs in Sanger sequencing? Why are ddNTPs added at a much lower concentration than dNTPs?**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Role of dNTPs:** Normal building blocks — provide the nucleotide subunits for DNA chain elongation. All four (dATP, dTTP, dGTP, dCTP) are needed. Their 3'-OH groups allow the chain to continue growing."
+      },
+      {
+       "en": "**Role of ddNTPs:** Chain terminators — incorporated randomly at complementary positions and permanently stop synthesis. Each one terminates at a specific base type. In modern sequencing, each carries a different fluorescent dye for base identification."
+      },
+      {
+       "en": "**Why low concentration of ddNTPs?** If ddNTPs were in equal or higher concentration, almost every fragment would be very short (terminated near the primer). A low ddNTP:dNTP ratio (~1:100) ensures that termination occurs rarely and randomly across the entire length of the template — generating fragments of every possible length from position 1 to ~1000 nt. This complete \"ladder\" of fragment sizes is essential for reading the full sequence."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**5. List the components required for Sanger sequencing. State the advantages and limitations of this method.**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Components:** (1) Template DNA (single-stranded); (2) Primer (specific oligonucleotide); (3) DNA polymerase (Klenow fragment, T7, or Taq); (4) All four dNTPs (dATP, dTTP, dGTP, dCTP); (5) All four ddNTPs (ddATP, ddTTP, ddGTP, ddCTP — each fluorescently labelled); (6) Buffer with Mg²⁺ cofactor."
+      },
+      {
+       "en": "**Advantages:** High accuracy (>99.99%); long reads (600–1000 bp); gold standard; automated; cost-effective for single genes."
+      },
+      {
+       "en": "**Limitations:** Low throughput (only ~1 kb per reaction); expensive for whole genomes; first 15–40 bases unreliable; cannot sequence repetitive regions well; requires pure single-sequence template."
+      },
+      {
+       "en": "Brief mention of NGS as higher-throughput alternative, but Sanger remains preferred for targeted, high-accuracy sequencing."
+      }
+     ]
+    }
+   ],
+   "icon": "🎓",
+   "label": "Section 15"
+  }
+ ],
+ "skipped": [
+  "quiz"
+ ],
+ "dropped": [
+  {
+   "selector": "nav",
+   "count": 1,
+   "sample": [
+    "Home Intro Principle Components Steps Results Diagrams Workf"
+   ]
+  },
+  {
+   "selector": "footer",
+   "count": 1,
+   "sample": [
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh"
+   ]
+  },
+  {
+   "selector": ".rh",
+   "count": 8,
+   "sample": [
+    "Click to reveal",
+    "Click to reveal",
+    "Click to reveal"
+   ]
+  }
+ ],
+ "extractor": "1"
+}

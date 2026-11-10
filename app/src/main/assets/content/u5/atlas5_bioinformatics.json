@@ -1,0 +1,1607 @@
+{
+ "id": "atlas5_bioinformatics",
+ "unit": "V",
+ "title": {
+  "en": "Atlas V: Bioinformatics"
+ },
+ "sections": [
+  {
+   "id": "s01",
+   "title": {
+    "en": "Overview"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "🎨 Unit V · Diagram Atlas"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "title": {
+    "en": "Diagram Atlas V: Bioinformatics Illustrated"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Databases · Formats · Alignment · BLAST · MSA · Structure · Workflow"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fifteen diagrams for Unit V: the database landscape, GenBank and FASTA records, dot plots, a worked Needleman–Wunsch matrix, BLAST flow, multiple alignment and trees, protein structure, PDB anatomy and an NGS pipeline."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "📚 6 chapters🎯 10 MCQs📝 Exam questions🎓 B.Sc. Zoology / Biotechnology"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🎯 Learning Objectives**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "✓Classify biological databases and read GenBank, FASTA and PDB records."
+      },
+      {
+       "en": "✓Perform a global alignment by dynamic programming."
+      },
+      {
+       "en": "✓Explain the BLAST algorithm and interpret E-values."
+      },
+      {
+       "en": "✓Read multiple alignments and phylogenetic trees."
+      },
+      {
+       "en": "✓Describe protein structure levels and a bioinformatics workflow."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": {
+    "en": "Biological Databases and Sequence Formats"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Databases store, curate and share biological information; formats make it machine-readable."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas5_bioinformatics-d01",
+     "caption": {
+      "en": "Fig. 1. Primary, secondary and specialised databases."
+     },
+     "labels": [
+      "Biological databases",
+      "Primary: raw submitted data",
+      "Secondary: curated / derived",
+      "Specialised / integrated",
+      "GenBank (NCBI)",
+      "ENA (EMBL-EBI)",
+      "DDBJ (Japan)",
+      "SRA (reads)",
+      "PDB (structures)",
+      "UniProtKB/Swiss-Prot",
+      "RefSeq",
+      "Pfam / InterPro (families)",
+      "PROSITE (motifs)",
+      "SCOP / CATH (folds)",
+      "Ensembl, UCSC browser",
+      "KEGG, Reactome (pathways)",
+      "OMIM (disease genes)",
+      "dbSNP, ClinVar",
+      "GEO (expression)",
+      "GenBank, ENA and DDBJ (INSDC) exchange data daily, so each holds the same sequences."
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas5_bioinformatics-d02",
+     "caption": {
+      "en": "Fig. 2. Fields of a GenBank record (annotated)."
+     },
+     "labels": [
+      "LOCUS",
+      "NM_000518 444 bp mRNA linear PRI",
+      "name, length, type, division, date",
+      "DEFINITION",
+      "Homo sapiens haemoglobin subunit beta (HBB), mRNA.",
+      "one-line description",
+      "ACCESSION",
+      "NM_000518",
+      "stable identifier; .VERSION tracks changes",
+      "SOURCE / ORGANISM",
+      "Homo sapiens; Eukaryota; Metazoa ...",
+      "species and taxonomy",
+      "REFERENCE",
+      "authors, title, journal, PubMed ID",
+      "publication",
+      "FEATURES",
+      "source, gene, CDS 51..494, /translation=",
+      "annotated regions with coordinates",
+      "ORIGIN",
+      "1 acatttgctt ctgacacaac tgtgttcact agcaacctca ...",
+      "the sequence itself",
+      "//",
+      "end of record"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**FASTA** is the simplest and most widely accepted format:"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": ">sp|P68871|HBB_HUMAN Haemoglobin subunit beta OS=Homo sapiens OX=9606 GN=HBB PE=1 SV=2 MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPK VKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFG KEFTPPVQAAYQKVVAGVANALAHKYH"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas5_bioinformatics-d03",
+     "caption": {
+      "en": "Fig. 3. Anatomy of a FASTA record."
+     },
+     "labels": [
+      "Line 1 begins with “>”:",
+      "identifier + description",
+      "Following lines: sequence",
+      "(60–80 characters per line)",
+      "No spaces, one",
+      "record per entry"
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Format"
+      },
+      {
+       "en": "Content"
+      },
+      {
+       "en": "Note"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**FASTA**"
+       },
+       {
+        "en": "Header line + sequence"
+       },
+       {
+        "en": "Used by BLAST, aligners"
+       }
+      ],
+      [
+       {
+        "en": "**FASTQ**"
+       },
+       {
+        "en": "Sequence + per-base quality (Phred)"
+       },
+       {
+        "en": "Raw NGS reads"
+       }
+      ],
+      [
+       {
+        "en": "**GenBank / EMBL**"
+       },
+       {
+        "en": "Sequence + features"
+       },
+       {
+        "en": "Annotated flat files"
+       }
+      ],
+      [
+       {
+        "en": "**PDB / mmCIF**"
+       },
+       {
+        "en": "Atomic coordinates"
+       },
+       {
+        "en": "3-D structures"
+       }
+      ],
+      [
+       {
+        "en": "**GFF / GTF**"
+       },
+       {
+        "en": "Genomic feature coordinates"
+       },
+       {
+        "en": "Annotation"
+       }
+      ]
+     ]
+    }
+   ],
+   "label": "📗 Atlas 5.1"
+  },
+  {
+   "id": "s04",
+   "title": {
+    "en": "Pairwise Alignment and Dot Plots"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Alignment arranges sequences to reveal homology: similarity due to common ancestry."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Homology vs similarity\nSequences are **homologous** if they share a common ancestor (yes or no); **similarity** is a measurable percentage. Never write “70% homology”."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas5_bioinformatics-d04",
+     "caption": {
+      "en": "Fig. 4. A dot plot compares two sequences visually."
+     },
+     "labels": [
+      "Sequence A",
+      "Sequence B",
+      "G",
+      "A",
+      "T",
+      "T",
+      "A",
+      "C",
+      "A",
+      "G",
+      "A",
+      "T",
+      "T",
+      "A",
+      "C",
+      "A",
+      "G",
+      "A",
+      "T",
+      "T",
+      "A",
+      "C",
+      "A",
+      "T",
+      "T",
+      "A",
+      "C",
+      "A",
+      "G",
+      "A",
+      "Diagonal lines = similar regions. Off-diagonal runs = repeats. Reverse diagonal = inversion. Filtering by window (e.g. 5 of 7 matches) removes noise."
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas5_bioinformatics-d05",
+     "caption": {
+      "en": "Fig. 5. Dynamic programming fills a matrix; the traceback gives the alignment."
+     },
+     "labels": [
+      "Needleman–Wunsch global alignment (match +1, mismatch −1, gap −1)",
+      "–",
+      "G",
+      "A",
+      "T",
+      "T",
+      "A",
+      "C",
+      "A",
+      "–",
+      "0",
+      "-1",
+      "-2",
+      "-3",
+      "-4",
+      "-5",
+      "-6",
+      "-7",
+      "G",
+      "-1",
+      "1",
+      "0",
+      "-1",
+      "-2",
+      "-3",
+      "-4",
+      "-5",
+      "C",
+      "-2",
+      "0",
+      "0",
+      "-1",
+      "-2",
+      "-3",
+      "-2",
+      "-3",
+      "A",
+      "-3",
+      "-1",
+      "1",
+      "0",
+      "-1",
+      "-1",
+      "-2",
+      "-1",
+      "T",
+      "-4",
+      "-2",
+      "0",
+      "2",
+      "1",
+      "0",
+      "-1",
+      "-2",
+      "G",
+      "-5",
+      "-3",
+      "-1",
+      "1",
+      "1",
+      "0",
+      "-1",
+      "-2",
+      "C",
+      "-6",
+      "-4",
+      "-2",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0",
+      "A",
+      "-7",
+      "-5",
+      "-3",
+      "-1",
+      "-1",
+      "1",
+      "0",
+      "2",
+      "Teal cells = traceback path",
+      "G-ATTACA",
+      "| | | ||",
+      "GCA-TGCA",
+      "Score = 2 (bottom-right cell)",
+      "Local alignment (Smith–Waterman): no negatives; start/stop anywhere."
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": ""
+      },
+      {
+       "en": "Global"
+      },
+      {
+       "en": "Local"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Algorithm**"
+       },
+       {
+        "en": "Needleman–Wunsch (1970)"
+       },
+       {
+        "en": "Smith–Waterman (1981)"
+       }
+      ],
+      [
+       {
+        "en": "**Aligns**"
+       },
+       {
+        "en": "Entire length of both sequences"
+       },
+       {
+        "en": "Best matching sub-regions"
+       }
+      ],
+      [
+       {
+        "en": "**Use**"
+       },
+       {
+        "en": "Closely related, same-length sequences"
+       },
+       {
+        "en": "Domains, distant homologues, database searching"
+       }
+      ],
+      [
+       {
+        "en": "**Tools**"
+       },
+       {
+        "en": "EMBOSS Needle, Clustal"
+       },
+       {
+        "en": "EMBOSS Water, BLAST (heuristic)"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**PG focus**\n• Substitution matrices: PAM (evolutionary distance) and BLOSUM62 (clustered blocks; default in BLAST).\n• Affine gap penalty: gap opening plus extension, penalising long gaps less per position."
+     }
+    }
+   ],
+   "label": "📘 Atlas 5.2"
+  },
+  {
+   "id": "s05",
+   "title": {
+    "en": "BLAST: How Database Searching Works"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "BLAST trades the full dynamic-programming guarantee for speed by seeding with short words."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas5_bioinformatics-d06",
+     "caption": {
+      "en": "Fig. 6. Seed, extend and score (Altschul _et al._ 1990)."
+     },
+     "labels": [
+      "Query sequence;",
+      "choose program and",
+      "database",
+      "Split query into words",
+      "(k = 3 aa or 11 nt)",
+      "Find neighbourhood",
+      "words scoring ≥ T in the",
+      "substitution matrix",
+      "Scan database for exact",
+      "word hits (seeds)",
+      "Extend hits both ways",
+      "(two-hit method) into",
+      "HSPs (X-drop)",
+      "Compute bit score and",
+      "E-value; rank hits",
+      "Report: alignment,",
+      "identity, coverage,",
+      "E-value"
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Program"
+      },
+      {
+       "en": "Query → database"
+      },
+      {
+       "en": "Typical use"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**BLASTN**"
+       },
+       {
+        "en": "Nucleotide → nucleotide"
+       },
+       {
+        "en": "Closely related genes; species ID"
+       }
+      ],
+      [
+       {
+        "en": "**BLASTP**"
+       },
+       {
+        "en": "Protein → protein"
+       },
+       {
+        "en": "Homologues, function prediction"
+       }
+      ],
+      [
+       {
+        "en": "**BLASTX**"
+       },
+       {
+        "en": "Translated nt (6 frames) → protein"
+       },
+       {
+        "en": "Unknown ESTs / genomic DNA"
+       }
+      ],
+      [
+       {
+        "en": "**TBLASTN**"
+       },
+       {
+        "en": "Protein → translated nt database"
+       },
+       {
+        "en": "Find genes in unannotated genomes"
+       }
+      ],
+      [
+       {
+        "en": "**TBLASTX**"
+       },
+       {
+        "en": "Translated → translated"
+       },
+       {
+        "en": "Distant gene discovery"
+       }
+      ],
+      [
+       {
+        "en": "**PSI-BLAST**"
+       },
+       {
+        "en": "Profile iteration"
+       },
+       {
+        "en": "Remote homologues"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas5_bioinformatics-d07",
+     "caption": {
+      "en": "Fig. 7. Reading the E-value."
+     },
+     "labels": [
+      "Interpreting the E-value (expected chance hits, depends on database size)",
+      "≥ 1",
+      "Not significant (many chance hits)",
+      "0.01–1",
+      "Borderline; check alignment",
+      "< 1e-5",
+      "Probably homologous",
+      "< 1e-50",
+      "Near-identical / orthologue",
+      "E = K · m · n · e^(−λS) (S raw score; m, n lengths of query and database)"
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Reading a BLAST report**\n• **Query cover**: fraction of query aligned. **% identity**: matches in the aligned region. **Bit score**: normalised, database-independent. **E-value**: lower is more significant.\n• A high identity over a short stretch can be less convincing than 40% over a full domain."
+     }
+    }
+   ],
+   "label": "📙 Atlas 5.3"
+  },
+  {
+   "id": "s06",
+   "title": {
+    "en": "Multiple Sequence Alignment and Phylogenetic Trees"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Aligning many sequences reveals conserved residues and evolutionary relationships."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas5_bioinformatics-d08",
+     "caption": {
+      "en": "Fig. 8. Conservation shows which positions matter."
+     },
+     "labels": [
+      "Haemoglobin β N-terminal region (illustrative, simplified)",
+      "Human",
+      "M",
+      "V",
+      "H",
+      "L",
+      "T",
+      "P",
+      "E",
+      "E",
+      "K",
+      "S",
+      "A",
+      "V",
+      "T",
+      "A",
+      "L",
+      "W",
+      "G",
+      "K",
+      "Chimp",
+      "M",
+      "V",
+      "H",
+      "L",
+      "T",
+      "P",
+      "E",
+      "E",
+      "K",
+      "S",
+      "A",
+      "V",
+      "T",
+      "A",
+      "L",
+      "W",
+      "G",
+      "K",
+      "Mouse",
+      "M",
+      "V",
+      "H",
+      "L",
+      "T",
+      "D",
+      "A",
+      "E",
+      "K",
+      "A",
+      "A",
+      "V",
+      "S",
+      "C",
+      "L",
+      "W",
+      "G",
+      "K",
+      "Chicken",
+      "M",
+      "V",
+      "H",
+      "W",
+      "T",
+      "A",
+      "E",
+      "E",
+      "K",
+      "Q",
+      "L",
+      "I",
+      "T",
+      "G",
+      "L",
+      "W",
+      "G",
+      "K",
+      "Shark",
+      "M",
+      "V",
+      "H",
+      "W",
+      "S",
+      "A",
+      "E",
+      "E",
+      "K",
+      "Q",
+      "L",
+      "I",
+      "T",
+      "G",
+      "L",
+      "W",
+      "G",
+      "K",
+      "*",
+      "*",
+      "*",
+      ":",
+      ":",
+      ":",
+      "*",
+      "*",
+      ":",
+      ":",
+      ":",
+      "*",
+      "*",
+      "*",
+      "*",
+      "Conservation",
+      "* identical in all sequences : conservative substitution Highly conserved sites mark functional or structural residues (e.g. heme contacts)."
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas5_bioinformatics-d09",
+     "caption": {
+      "en": "Fig. 9. Progressive alignment."
+     },
+     "labels": [
+      "Pairwise alignment of",
+      "all sequence pairs",
+      "Distance matrix",
+      "Guide tree",
+      "(neighbour-joining/UPGMA)",
+      "Progressive alignment",
+      "following the tree:",
+      "closest pair first",
+      "Refine; view",
+      "conservation, build",
+      "phylogeny"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas5_bioinformatics-d10",
+     "caption": {
+      "en": "Fig. 10. Reading a phylogenetic tree."
+     },
+     "labels": [
+      "Human",
+      "Mouse",
+      "Chicken",
+      "Shark",
+      "Lamprey",
+      "root",
+      "Branch length ∝ evolutionary change. Clades = common ancestor + all descendants. Tree methods: distance (NJ), parsimony, maximum likelihood, Bayesian. Support: bootstrap values."
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Tool"
+      },
+      {
+       "en": "Method"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Clustal Omega**"
+       },
+       {
+        "en": "Progressive; guide tree"
+       }
+      ],
+      [
+       {
+        "en": "**MUSCLE / MAFFT**"
+       },
+       {
+        "en": "Iterative refinement; fast"
+       }
+      ],
+      [
+       {
+        "en": "**T-Coffee**"
+       },
+       {
+        "en": "Consistency-based"
+       }
+      ],
+      [
+       {
+        "en": "**MEGA / IQ-TREE / RAxML**"
+       },
+       {
+        "en": "Tree building (NJ, ML)"
+       }
+      ]
+     ]
+    }
+   ],
+   "label": "📒 Atlas 5.4"
+  },
+  {
+   "id": "s07",
+   "title": {
+    "en": "Protein Structure, PDB and Prediction"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Function follows from three-dimensional structure, which the PDB archives."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas5_bioinformatics-d11",
+     "caption": {
+      "en": "Fig. 11. Hierarchy of protein structure."
+     },
+     "labels": [
+      "Primary",
+      "Amino-acid sequence",
+      "(peptide bonds)",
+      "M-V-H-L-T-P-E-E",
+      "Secondary",
+      "α-helix, β-sheet,",
+      "turns (H-bonds in",
+      "backbone)",
+      "Tertiary",
+      "3-D fold of one chain",
+      "(hydrophobic core,",
+      "disulphides, salt bridges)",
+      "Quaternary",
+      "Several chains",
+      "(haemoglobin α2β2)",
+      "Fold stabilised by H-bonds, hydrophobic effect, ionic and covalent (S–S) interactions."
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas5_bioinformatics-d12",
+     "caption": {
+      "en": "Fig. 12. Sections of a PDB file."
+     },
+     "labels": [
+      "HEADER / TITLE",
+      "PDB ID (4 characters, e.g. 1HHO), date, title",
+      "EXPDTA",
+      "X-RAY DIFFRACTION; NMR; ELECTRON MICROSCOPY",
+      "REMARK 2",
+      "Resolution (e.g. 2.1 Å; lower is better)",
+      "SEQRES / HELIX / SHEET",
+      "Sequence and secondary structure",
+      "HETATM",
+      "Ligands, heme, water, ions",
+      "ATOM",
+      "serial, atom, residue, chain, x y z (Å), occupancy, B-factor"
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Method"
+      },
+      {
+       "en": "Sample"
+      },
+      {
+       "en": "Strength"
+      },
+      {
+       "en": "Limit"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**X-ray crystallography**"
+       },
+       {
+        "en": "Protein crystal"
+       },
+       {
+        "en": "Atomic resolution; ~85% of PDB entries"
+       },
+       {
+        "en": "Crystallisation; static view"
+       }
+      ],
+      [
+       {
+        "en": "**NMR spectroscopy**"
+       },
+       {
+        "en": "Solution, <~40 kDa"
+       },
+       {
+        "en": "Dynamics, native-like state"
+       },
+       {
+        "en": "Size limit"
+       }
+      ],
+      [
+       {
+        "en": "**Cryo-EM**"
+       },
+       {
+        "en": "Frozen vitrified particles"
+       },
+       {
+        "en": "Large complexes, no crystals"
+       },
+       {
+        "en": "Needs high-end microscope"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Representation"
+      },
+      {
+       "en": "Shows"
+      },
+      {
+       "en": "Best for"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Cartoon / ribbon**"
+       },
+       {
+        "en": "Helices, sheets, loops"
+       },
+       {
+        "en": "Overall fold"
+       }
+      ],
+      [
+       {
+        "en": "**Ball-and-stick**"
+       },
+       {
+        "en": "Atoms and bonds"
+       },
+       {
+        "en": "Ligands, active sites"
+       }
+      ],
+      [
+       {
+        "en": "**Spacefill (CPK)**"
+       },
+       {
+        "en": "van der Waals surface"
+       },
+       {
+        "en": "Packing, shape"
+       }
+      ],
+      [
+       {
+        "en": "**Surface**"
+       },
+       {
+        "en": "Solvent-accessible surface"
+       },
+       {
+        "en": "Pockets, docking"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas5_bioinformatics-d13",
+     "caption": {
+      "en": "Fig. 13. From sequence to a predicted structure (AlphaFold: Nobel Prize in Chemistry 2024)."
+     },
+     "labels": [
+      "Sequence (FASTA)",
+      "Homology search for",
+      "templates (BLAST / HHpred)",
+      "Deep-learning prediction",
+      "(AlphaFold, RoseTTAFold):",
+      "MSA + structure module",
+      "Model + confidence",
+      "(pLDDT; PAE)",
+      "Validate (Ramachandran,",
+      "MolProbity); refine",
+      "Use: docking, mutation",
+      "effects, drug design"
+     ]
+    }
+   ],
+   "label": "📓 Atlas 5.5"
+  },
+  {
+   "id": "s08",
+   "title": {
+    "en": "Bioinformatics Workflow and Applications"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Bioinformatics combines biology, computer science and statistics to turn data into knowledge."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas5_bioinformatics-d14",
+     "caption": {
+      "en": "Fig. 14. A general workflow."
+     },
+     "labels": [
+      "Biological question",
+      "Data: sequencing,",
+      "mass spectrometry,",
+      "microarray",
+      "Store and retrieve",
+      "(databases)",
+      "Analyse: alignment,",
+      "annotation, statistics",
+      "Interpret: pathways,",
+      "structure, evolution",
+      "Validate in the",
+      "laboratory"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas5_bioinformatics-d15",
+     "caption": {
+      "en": "Fig. 15. A typical NGS pipeline."
+     },
+     "labels": [
+      "Raw reads (FASTQ)",
+      "Quality control and",
+      "trimming (FastQC)",
+      "Align to reference",
+      "(BWA, HISAT2) → BAM",
+      "Call variants (GATK)",
+      "or count reads (RNA-seq)",
+      "Annotate (Ensembl VEP,",
+      "ClinVar)",
+      "Interpret and report"
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Area"
+      },
+      {
+       "en": "Application"
+      },
+      {
+       "en": "Tool / database"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Genomics**"
+       },
+       {
+        "en": "Gene finding, variant calling, comparative genomics"
+       },
+       {
+        "en": "Ensembl, UCSC, GATK"
+       }
+      ],
+      [
+       {
+        "en": "**Transcriptomics**"
+       },
+       {
+        "en": "Differential expression, RNA-seq"
+       },
+       {
+        "en": "DESeq2, GEO"
+       }
+      ],
+      [
+       {
+        "en": "**Proteomics**"
+       },
+       {
+        "en": "Protein identification, PTMs"
+       },
+       {
+        "en": "UniProt, Mascot"
+       }
+      ],
+      [
+       {
+        "en": "**Drug discovery**"
+       },
+       {
+        "en": "Docking, virtual screening, ADMET"
+       },
+       {
+        "en": "AutoDock, PDB, ChEMBL"
+       }
+      ],
+      [
+       {
+        "en": "**Evolution**"
+       },
+       {
+        "en": "Phylogenetics, molecular clock"
+       },
+       {
+        "en": "MEGA, IQ-TREE"
+       }
+      ],
+      [
+       {
+        "en": "**Animal biotechnology**"
+       },
+       {
+        "en": "Genome-assisted breeding, transgene design, primer design, CRISPR guide design"
+       },
+       {
+        "en": "Primer-BLAST, CRISPOR, Ensembl animals"
+       }
+      ]
+     ]
+    }
+   ],
+   "label": "📑 Atlas 5.6"
+  },
+  {
+   "id": "s09",
+   "title": {
+    "en": "Summary & Exam Revision"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Key points and model answers likely to appear in university examinations."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key exam points**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "INSDC: GenBank, ENA and DDBJ share data; UniProt (Swiss-Prot reviewed, TrEMBL unreviewed); PDB for structures."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "FASTA: > header + sequence; FASTQ adds Phred quality scores."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "3"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Homology is yes/no; similarity and identity are percentages."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "4"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Needleman–Wunsch = global; Smith–Waterman = local; both use dynamic programming."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "PAM and BLOSUM62 are substitution matrices; affine gap penalties."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "6"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "BLAST: seed words, extension, HSP, bit score, E-value; BLASTN/P/X/TBLASTN/TBLASTX."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "7"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Lower E-value means more significant; 1e-5 is a common threshold."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "8"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "MSA reveals conserved residues; guide trees order progressive alignments."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "9"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Protein structure: primary, secondary, tertiary and quaternary; PDB files list ATOM records."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "10"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "AlphaFold predicts structures with confidence scores (pLDDT)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Short-answer questions**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click a question to reveal the model answer."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.1Differentiate primary and secondary databases.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Primary databases hold raw data submitted by researchers (GenBank, PDB); secondary databases hold curated or derived information (Swiss-Prot, Pfam, PROSITE, RefSeq)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.2What is FASTA format?▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A text format with a header line starting with “>” followed by the sequence in one or more lines."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.3Distinguish global and local alignment.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Global (Needleman–Wunsch) aligns whole sequences; local (Smith–Waterman) finds the best matching regions."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.4Explain how BLAST works.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Query split into words; neighbourhood words found; database scanned for seeds; hits extended into HSPs; scores converted to bit scores and E-values."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.5What does an E-value of 1e–25 mean?▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Only 1e–25 matches of that score are expected by chance in a database of that size, so the hit is highly significant."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.6Write short notes on the PDB.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Archive of experimentally determined 3-D structures (X-ray, NMR, cryo-EM) with a 4-character ID; ATOM records give x, y, z coordinates."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.7List applications of bioinformatics.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Gene finding, variant calling, phylogenetics, drug design, structure prediction, transcriptomics, breeding and CRISPR guide design."
+     }
+    }
+   ],
+   "label": "📋 Summary"
+  },
+  {
+   "id": "s10",
+   "title": {
+    "en": "Key Terms & Glossary"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Important terms in simple language."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "INSDC"
+     },
+     "definition": {
+      "en": "International Nucleotide Sequence Database Collaboration."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Accession number"
+     },
+     "definition": {
+      "en": "Stable identifier for a database record."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Homology"
+     },
+     "definition": {
+      "en": "Similarity due to common ancestry."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "HSP"
+     },
+     "definition": {
+      "en": "High-scoring segment pair found by BLAST."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "E-value"
+     },
+     "definition": {
+      "en": "Expected number of chance hits with equal or better score."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Bit score"
+     },
+     "definition": {
+      "en": "Normalised alignment score."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Orthologue"
+     },
+     "definition": {
+      "en": "Homologous gene separated by speciation."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Paralogue"
+     },
+     "definition": {
+      "en": "Homologous gene separated by duplication."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Contig"
+     },
+     "definition": {
+      "en": "Contiguous assembled sequence from overlapping reads."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Phred score"
+     },
+     "definition": {
+      "en": "Quality value Q = −10 log₁₀ P(error)."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Clade"
+     },
+     "definition": {
+      "en": "Ancestor and all its descendants."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "pLDDT"
+     },
+     "definition": {
+      "en": "AlphaFold per-residue confidence (0–100)."
+     }
+    }
+   ],
+   "label": "📖 Glossary"
+  }
+ ],
+ "skipped": [
+  "page-7"
+ ],
+ "dropped": [
+  {
+   "selector": "nav",
+   "count": 1,
+   "sample": [
+    "🎨 Atlas V: Bioinformatics Animal Biotechnology · Unit V Prog"
+   ]
+  },
+  {
+   "selector": "#mob-hdr",
+   "count": 1,
+   "sample": [
+    "☰ Atlas V: Bioinformatics"
+   ]
+  },
+  {
+   "selector": "#overlay",
+   "count": 1,
+   "sample": []
+  },
+  {
+   "selector": "footer",
+   "count": 10,
+   "sample": [
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh",
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh",
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh"
+   ]
+  },
+  {
+   "selector": ".start-btn",
+   "count": 1,
+   "sample": [
+    "Begin Learning →"
+   ]
+  },
+  {
+   "selector": ".btn-outline",
+   "count": 9,
+   "sample": [
+    "← Atlas V: Bioinformatics",
+    "← Databases & Records",
+    "← Sequence Alignment"
+   ]
+  },
+  {
+   "selector": ".btn-primary",
+   "count": 10,
+   "sample": [
+    "Sequence Alignment →",
+    "BLAST →",
+    "MSA & Phylogeny →"
+   ]
+  },
+  {
+   "selector": ".pg-nav",
+   "count": 9,
+   "sample": []
+  }
+ ],
+ "extractor": "1"
+}

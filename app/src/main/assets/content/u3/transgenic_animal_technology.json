@@ -1,0 +1,1216 @@
+{
+ "id": "transgenic_animal_technology",
+ "unit": "III",
+ "title": {
+  "en": "Transgenic Animal Technology"
+ },
+ "sections": [
+  {
+   "id": "s01",
+   "title": {
+    "en": "Overview"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "🦬 Unit III · Transgenic Animal Technology"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "title": {
+    "en": "Transgenic Animal Technology"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Transgenesis, Knock-out Mice, Dolly and Animal Bioreactors"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Adding, removing or editing a gene in an animal is one of the most powerful ways to learn what genes do and to make useful products. This module covers the concept of transgenesis, how transgenic and knock-out animals are made, the cloning of Dolly, and the use of animals as bioreactors."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "📚 5 chapters🎯 10 MCQs📝 Exam questions🎓 B.Sc. Zoology / Biotechnology"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🎯 Learning Objectives**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "✓Define transgenesis, transgene and transgenic animal."
+      },
+      {
+       "en": "✓Describe pronuclear microinjection and ES cell-based methods."
+      },
+      {
+       "en": "✓Explain how knock-out mice are produced, including positive-negative selection."
+      },
+      {
+       "en": "✓Describe cloning of Dolly by somatic cell nuclear transfer."
+      },
+      {
+       "en": "✓Give examples of animals as bioreactors and discuss ethical issues."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": {
+    "en": "Transgenesis: Concept and Transgenes"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "A transgenic animal carries a foreign gene in every cell and passes it to its offspring."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Transgenic animal\nAn animal whose genome has been altered by the stable introduction of a foreign gene (**transgene**) into its germ line, so that the gene is inherited by the next generation."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key terms**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Term"
+      },
+      {
+       "en": "Meaning"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Transgene**"
+       },
+       {
+        "en": "The foreign gene (or modified gene) introduced into the animal"
+       }
+      ],
+      [
+       {
+        "en": "**Transgenesis**"
+       },
+       {
+        "en": "The process of producing a transgenic organism"
+       }
+      ],
+      [
+       {
+        "en": "**Founder animal**"
+       },
+       {
+        "en": "The first transgenic animal carrying the transgene in its germ line"
+       }
+      ],
+      [
+       {
+        "en": "**Germline transmission**"
+       },
+       {
+        "en": "Passing of the transgene through gametes to offspring"
+       }
+      ],
+      [
+       {
+        "en": "**Knock-out**"
+       },
+       {
+        "en": "A gene made non-functional (loss of function)"
+       }
+      ],
+      [
+       {
+        "en": "**Knock-in**"
+       },
+       {
+        "en": "A gene replaced or inserted at a defined locus (gain/alteration of function)"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Structure of a transgene construct**"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "transgenic_animal_technology-d01",
+     "caption": {
+      "en": "Fig. 1. A typical transgene: promoter + coding sequence + polyadenylation signal (+ selectable marker)."
+     },
+     "labels": [
+      "Promoter",
+      "tissue-specific",
+      "Gene of interest (cDNA)",
+      "e.g. human protein",
+      "Poly-A",
+      "signal / stop",
+      "Marker",
+      "Promoter decides WHERE and WHEN the transgene is expressed"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Why make transgenic animals?**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Medicine**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Produce human therapeutic proteins in milk or blood."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Research**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Study gene function and model human diseases (e.g. cancer, cystic fibrosis)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Agriculture**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Faster growth, disease resistance, improved milk or wool."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Testing**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Test vaccine and drug safety in animals with human-like responses."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Landmark: the \"super mouse\" (1982)**\nPalmiter and Brinster injected the **rat growth hormone gene** fused to the mouse _metallothionein_ promoter into mouse eggs. Transgenic mice grew almost **twice the size** of normal littermates."
+     }
+    }
+   ],
+   "label": "📗 Chapter 1"
+  },
+  {
+   "id": "s04",
+   "title": {
+    "en": "Methods of Producing Transgenic Animals"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Three main routes are used: microinjection into eggs, manipulation of embryonic stem cells and viral vectors."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1. Pronuclear microinjection (most common for mice)**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1. Construct**linear DNA"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**2. Superovulation**donor females"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**3. Inject**male pronucleus"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**4. Implant**pseudopregnant"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**5. Screen**tail DNA"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**6. Breed**germ line"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click a step to see what happens."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**2. Embryonic stem (ES) cell-mediated transfer**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "ES cells are pluripotent cells from the inner cell mass of a blastocyst (Evans & Kaufman, 1981)."
+      },
+      {
+       "en": "DNA is introduced into cultured ES cells; **correct clones are selected** in vitro."
+      },
+      {
+       "en": "Selected ES cells are injected into a host blastocyst to give a **chimeric** animal."
+      },
+      {
+       "en": "Allows **targeted** changes by homologous recombination — the basis for knock-outs."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**3. Retroviral and other methods**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Method"
+      },
+      {
+       "en": "Principle"
+      },
+      {
+       "en": "Limitation"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Retroviral vector**"
+       },
+       {
+        "en": "Recombinant (replication-defective) retrovirus infects embryo"
+       },
+       {
+        "en": "Small insert size; gene silencing"
+       }
+      ],
+      [
+       {
+        "en": "**Sperm-mediated transfer**"
+       },
+       {
+        "en": "Sperm incubated with DNA then used for fertilisation"
+       },
+       {
+        "en": "Low reproducibility"
+       }
+      ],
+      [
+       {
+        "en": "**Somatic cell nuclear transfer (SCNT)**"
+       },
+       {
+        "en": "Nucleus of a genetically modified cell is transferred to an enucleated egg"
+       },
+       {
+        "en": "Technically demanding, low efficiency"
+       }
+      ],
+      [
+       {
+        "en": "**CRISPR-Cas9 microinjection**"
+       },
+       {
+        "en": "Cas9 + guide RNA injected into zygotes for precise edits"
+       },
+       {
+        "en": "Mosaicism, off-target effects"
+       }
+      ]
+     ]
+    }
+   ],
+   "label": "📘 Chapter 2"
+  },
+  {
+   "id": "s05",
+   "title": {
+    "en": "Transgenic Animal Models: Knock-out Mice"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Knock-out mice have a chosen gene switched off, revealing what the gene normally does."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Gene knock-out\nThe deliberate inactivation of a specific gene by **gene targeting**: homologous recombination replaces or disrupts the gene in embryonic stem cells, from which a mutant mouse is derived.\nCapecchi, Evans and Smithies received the Nobel Prize in Physiology or Medicine in 2007 for this work"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "transgenic_animal_technology-d02",
+     "caption": {
+      "en": "Fig. 2. Production of a knock-out mouse by gene targeting in ES cells."
+     },
+     "labels": [
+      "Targeting vector",
+      "neo R inside gene; tk outside",
+      "ES cells (129 strain)",
+      "homologous recombination",
+      "Select: G418 + ganciclovir",
+      "positive-negative selection",
+      "Inject into C57BL/6 blastocyst",
+      "implant in foster mother",
+      "Chimeric mouse (mixed coat)",
+      "agouti + black patches",
+      "Mate with wild type",
+      "germline transmission",
+      "Heterozygote +/−",
+      "F1 (agouti)",
+      "inter-cross",
+      "Homozygous knock-out",
+      "−/− (25% of F2)"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Positive-negative selection**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Marker"
+      },
+      {
+       "en": "Position in vector"
+      },
+      {
+       "en": "Drug"
+      },
+      {
+       "en": "Outcome"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**_neo_R**"
+       },
+       {
+        "en": "Inside the homologous region (disrupts the target gene)"
+       },
+       {
+        "en": "G418 (neomycin analogue)"
+       },
+       {
+        "en": "Only cells that took up the vector survive (positive selection)"
+       }
+      ],
+      [
+       {
+        "en": "**_tk_ (HSV thymidine kinase)**"
+       },
+       {
+        "en": "Outside the homology arms"
+       },
+       {
+        "en": "Ganciclovir"
+       },
+       {
+        "en": "Cells with **random** integration keep _tk_ and die (negative selection)"
+       }
+      ],
+      [
+       {
+        "en": "**Result**"
+       },
+       {
+        "en": ""
+       },
+       {
+        "en": ""
+       },
+       {
+        "en": "Survivors are enriched for **correct homologous recombination**"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Why use coat colour?▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "ES cells from the **129** strain carry the _agouti_ coat colour allele; host blastocysts from **C57BL/6** are black. Agouti patches in a chimera show that ES-derived cells contribute, and agouti offspring after mating show **germline transmission**."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Conditional knock-outs (Cre-lox)▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "If a gene is essential for development, complete knock-out is lethal. The **Cre recombinase / loxP** system deletes the gene only in chosen tissues or at a chosen time."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Knock-out vs knock-in▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Knock-out: gene function removed. Knock-in: a gene or mutation is inserted at a specific locus (e.g. a human disease allele)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Examples▼"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**CFTR** knock-out mouse: model for cystic fibrosis."
+      },
+      {
+       "en": "**p53** knock-out mouse: develops tumours early — model for cancer."
+      },
+      {
+       "en": "**Oncomouse** (Harvard, 1988): first patented animal; carries an activated oncogene."
+      }
+     ]
+    }
+   ],
+   "label": "📙 Chapter 3"
+  },
+  {
+   "id": "s06",
+   "title": {
+    "en": "Dolly the Sheep: Cloning by SCNT"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Dolly was the first mammal cloned from an adult somatic cell, proving that differentiated cells can be reprogrammed."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1996"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Dolly born, Roslin Institute"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "277"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "reconstructed eggs fused"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "live lamb"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "6 yrs"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "lifespan (died 2003)"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Dolly** was produced by **Ian Wilmut**, **Keith Campbell** and colleagues at the Roslin Institute, Edinburgh. The result was published in _Nature_ in 1997. She was named after Dolly Parton, because the donor cell came from a _mammary gland_."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "transgenic_animal_technology-d03",
+     "caption": {
+      "en": "Fig. 3. Somatic cell nuclear transfer (SCNT) used to clone Dolly. The lamb was white-faced like the Finn Dorset donor, proving the nucleus came from the donor."
+     },
+     "labels": [
+      "Donor: Finn Dorset ewe",
+      "mammary gland cell (6-year-old)",
+      "Scottish Blackface ewe",
+      "unfertilised egg (oocyte)",
+      "Serum starvation (G0)",
+      "quiescent donor cell",
+      "Enucleation",
+      "own nucleus removed",
+      "Cell fusion by electric pulse",
+      "donor nucleus in enucleated egg",
+      "Embryo cultured to blastocyst",
+      "Surrogate ewe",
+      "(Blackface)",
+      "Dolly born 5 July 1996 (white face)"
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**What Dolly proved**\n• The nucleus of a **differentiated adult cell** still contains the complete genome.\n• The egg cytoplasm can **reprogram** it to totipotency.\n• Led to induced pluripotent stem cells (iPSCs, 2006)."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Facts that examiners ask**\n• Of 277 reconstructed embryos, 29 developed to blastocysts, 13 ewes were implanted and only **one** lamb (Dolly) was born.\n• Dolly gave birth to six lambs by natural mating.\n• She was euthanised in **February 2003** because of progressive lung disease; she also had arthritis. Her telomeres were somewhat shorter, debated as a sign of premature ageing."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Concerns about cloning**\n• Very low success rate and abnormal pregnancies/large offspring.\n• Animal welfare concerns.\n• Ethical objections to human reproductive cloning, which is prohibited in many countries (including guidelines in India)."
+     }
+    }
+   ],
+   "label": "📒 Chapter 4"
+  },
+  {
+   "id": "s07",
+   "title": {
+    "en": "Applications: Animals as Bioreactors"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Transgenic animals can act as living factories (pharming) that secrete valuable human proteins in milk, blood or eggs."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Pharming** (pharmaceutical farming) places a human gene under a _mammary-specific promoter_, such as β-lactoglobulin, β-casein or whey acidic protein. The protein is made only in the mammary gland and secreted into milk, from which it is purified."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1. Human gene**cDNA"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**2. Fuse promoter**mammary-specific"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**3. Transfer**microinjection / SCNT"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**4. Transgenic female**founder"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**5. Milk**protein secreted"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**6. Purify**downstream processing"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click a step to see what happens."
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Animal"
+      },
+      {
+       "en": "Product"
+      },
+      {
+       "en": "Use"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Goat**"
+       },
+       {
+        "en": "Recombinant human **antithrombin** (ATryn)"
+       },
+       {
+        "en": "Prevents blood clots; approved in the EU (2006) and USA (2009)"
+       }
+      ],
+      [
+       {
+        "en": "**Sheep**"
+       },
+       {
+        "en": "Human **α-1-antitrypsin** (the sheep \"Tracy\")"
+       },
+       {
+        "en": "Emphysema / cystic fibrosis lung disease"
+       }
+      ],
+      [
+       {
+        "en": "**Cow**"
+       },
+       {
+        "en": "Human **lactoferrin** (\"Herman\" the bull and daughters)"
+       },
+       {
+        "en": "Antimicrobial, infant formula"
+       }
+      ],
+      [
+       {
+        "en": "**Rabbit**"
+       },
+       {
+        "en": "Recombinant **C1 esterase inhibitor** (Ruconest)"
+       },
+       {
+        "en": "Hereditary angioedema"
+       }
+      ],
+      [
+       {
+        "en": "**Chicken**"
+       },
+       {
+        "en": "Proteins in egg white"
+       },
+       {
+        "en": "Under development"
+       }
+      ],
+      [
+       {
+        "en": "**Pig**"
+       },
+       {
+        "en": "Organs with human-compatible genes (xenotransplantation)"
+       },
+       {
+        "en": "GalSafe pig approved for food and medical use by the US FDA in 2020"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Other applications of transgenic animals**\n• **Disease models**: cancer, Alzheimer's, diabetes.\n• **Vaccine and drug safety testing**.\n• **Agriculture**: AquAdvantage salmon (faster growth, approved by FDA in 2015).\n• **Biological research tools**: GFP-expressing animals to track cells."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Ethical and safety issues**\n• Animal welfare and the 3Rs (Replace, Reduce, Refine).\n• Possible gene flow to wild populations.\n• Patenting of animals; public acceptance."
+     }
+    }
+   ],
+   "label": "🌾 Chapter 5"
+  },
+  {
+   "id": "s08",
+   "title": {
+    "en": "Summary & Exam Revision"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Key points and model answers likely to appear in university examinations."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key exam points**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Transgene** = foreign gene; **transgenic animal** carries it in the germ line."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Methods: **pronuclear microinjection**, **ES cell-mediated** transfer, retroviral vectors, SCNT, CRISPR."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "3"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Super mouse** (Palmiter and Brinster, 1982): rat GH gene with metallothionein promoter."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "4"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Knock-out**: gene targeting by homologous recombination in ES cells; _neo_ (positive) and _tk_ (negative) selection."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Coat-colour markers (129 agouti ES cells; C57BL/6 black host) reveal chimerism and germline transmission."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "6"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Dolly** (1996): SCNT from mammary cell; Ian Wilmut and Keith Campbell; 1 of 277 embryos; died 2003."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "7"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Bioreactors**: mammary-specific promoters; ATryn (goat), alpha-1-antitrypsin (sheep), lactoferrin (cow)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "8"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2007 Nobel Prize: Capecchi, Evans, Smithies (gene targeting)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Short-answer questions**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click a question to reveal the model answer."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.1Define transgenic animal. Give two examples.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A transgenic animal carries a foreign gene (transgene) stably integrated in its genome and transmitted to offspring. Examples: super mouse with rat growth hormone gene; goat producing human antithrombin in milk."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.2Describe pronuclear microinjection.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fertilised eggs are collected from superovulated females; linearised transgene DNA is injected into the male pronucleus; embryos are transferred into pseudopregnant foster mothers; pups are screened by PCR or Southern blotting of tail DNA; founders are bred to establish a line."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.3How is a knock-out mouse produced?▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A targeting vector containing neoR (inside the homology region) and tk (outside) is introduced into ES cells; positive-negative selection (G418 + ganciclovir) enriches homologous recombinants; selected ES cells are injected into blastocysts to give chimeras; germline transmission yields heterozygotes, which are inter-crossed to obtain homozygous knock-outs."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.4Explain how Dolly was created.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A nucleus from a mammary gland cell of a Finn Dorset ewe was fused by electric pulse with an enucleated egg of a Scottish Blackface ewe; the embryo was cultured and implanted into a surrogate ewe. Dolly was born on 5 July 1996 at the Roslin Institute."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.5What is meant by animals as bioreactors?▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Transgenic animals that produce recombinant human proteins in milk or other body fluids under tissue-specific promoters, e.g. antithrombin in goat milk and alpha-1-antitrypsin in sheep milk."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.6Mention two ethical issues of transgenic animals.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Animal suffering and welfare; ecological risk and gene flow; patenting of life forms."
+     }
+    }
+   ],
+   "label": "📋 Summary"
+  },
+  {
+   "id": "s09",
+   "title": {
+    "en": "Key Terms & Glossary"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Important terms in simple language."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Transgene"
+     },
+     "definition": {
+      "en": "A foreign gene introduced into an organism."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Founder"
+     },
+     "definition": {
+      "en": "The first transgenic animal of a line."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Pseudopregnant female"
+     },
+     "definition": {
+      "en": "Female mated with a vasectomised male; her uterus is ready to receive embryos."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "ES cell"
+     },
+     "definition": {
+      "en": "Embryonic stem cell: pluripotent cell from the blastocyst inner cell mass."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Chimera"
+     },
+     "definition": {
+      "en": "An animal made of cells from two genetically different embryos."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Homologous recombination"
+     },
+     "definition": {
+      "en": "Exchange between identical DNA sequences, used for gene targeting."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "SCNT"
+     },
+     "definition": {
+      "en": "Somatic cell nuclear transfer: transfer of a somatic nucleus into an enucleated egg."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Knock-out"
+     },
+     "definition": {
+      "en": "Loss-of-function mutation created in a chosen gene."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Pharming"
+     },
+     "definition": {
+      "en": "Production of pharmaceutical proteins in farm animals or plants."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Cre-lox"
+     },
+     "definition": {
+      "en": "Recombinase system for conditional (tissue-specific) gene deletion."
+     }
+    }
+   ],
+   "label": "📖 Glossary"
+  }
+ ],
+ "skipped": [
+  "page-6"
+ ],
+ "dropped": [
+  {
+   "selector": "nav",
+   "count": 1,
+   "sample": [
+    "🦬 Transgenic Animal Technology Animal Biotechnology · Unit I"
+   ]
+  },
+  {
+   "selector": "#mob-hdr",
+   "count": 1,
+   "sample": [
+    "☰ Transgenic Animal Technology"
+   ]
+  },
+  {
+   "selector": "#overlay",
+   "count": 1,
+   "sample": []
+  },
+  {
+   "selector": "footer",
+   "count": 9,
+   "sample": [
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh",
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh",
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh"
+   ]
+  },
+  {
+   "selector": ".start-btn",
+   "count": 1,
+   "sample": [
+    "Begin Learning →"
+   ]
+  },
+  {
+   "selector": ".btn-outline",
+   "count": 8,
+   "sample": [
+    "← Transgenic Animal Technology",
+    "← Concept & Transgenes",
+    "← Methods of Gene Transfer"
+   ]
+  },
+  {
+   "selector": ".btn-primary",
+   "count": 9,
+   "sample": [
+    "Methods of Gene Transfer →",
+    "Knock-out Mice →",
+    "Dolly the Sheep →"
+   ]
+  },
+  {
+   "selector": ".pg-nav",
+   "count": 8,
+   "sample": []
+  }
+ ],
+ "extractor": "1"
+}

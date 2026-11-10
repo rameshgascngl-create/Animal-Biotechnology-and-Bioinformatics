@@ -1,0 +1,1159 @@
+{
+ "id": "atlas2_techniques",
+ "unit": "II",
+ "title": {
+  "en": "Atlas II: Techniques"
+ },
+ "sections": [
+  {
+   "id": "s01",
+   "title": {
+    "en": "Overview"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "🎨 Unit II · Diagram Atlas"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "title": {
+    "en": "Diagram Atlas II: Techniques in Animal Biotechnology"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Cloning · Gene transfer · Screening · Sequencing · PCR · Gels and blots"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Labelled diagrams, flow charts and worked schematics for every technique in Unit II. Use them to practise drawing the cloning pathway, blue-white and replica-plating results, a Sanger gel, a PCR profile and an agarose gel."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "📚 5 chapters🎯 10 MCQs📝 Exam questions🎓 B.Sc. Zoology / Biotechnology"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🎯 Learning Objectives**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "✓Draw the gene-cloning flow chart and explain each step."
+      },
+      {
+       "en": "✓Compare six gene-transfer methods and match them to hosts."
+      },
+      {
+       "en": "✓Interpret replica-plating, blue-white and colony-hybridisation results."
+      },
+      {
+       "en": "✓Read a Sanger gel and describe the PCR cycle quantitatively."
+      },
+      {
+       "en": "✓Explain agarose gel electrophoresis and compare Southern, Northern and Western blots."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": {
+    "en": "Gene Cloning: Steps from Gene to Clone"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Memorise the eight-step sequence and what each step achieves."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas2_techniques-d01",
+     "caption": {
+      "en": "Fig. 1. Flow chart of gene cloning."
+     },
+     "labels": [
+      "1. Isolate target",
+      "DNA and vector",
+      "2. Cut both with the",
+      "same restriction enzyme",
+      "3. Ligate with",
+      "T4 DNA ligase",
+      "4. Introduce into",
+      "host (transformation)",
+      "5. Select cells that",
+      "took up the vector",
+      "6. Screen for",
+      "recombinants",
+      "7. Verify: colony PCR,",
+      "digest, sequencing",
+      "8. Grow and express",
+      "or store the clone"
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Ligation basics**\nT4 DNA ligase joins 5′-phosphate to 3′-OH. Sticky ends ligate efficiently at 12–16 °C overnight; blunt ends need more enzyme and are helped by PEG. Dephosphorylating the vector with alkaline phosphatase reduces self-ligation."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**PG focus**\nCompare restriction cloning with TA cloning, Gateway (att-site recombination) and Gibson assembly (exonuclease, polymerase, ligase one-pot)."
+     }
+    }
+   ],
+   "label": "📗 Atlas 2.1"
+  },
+  {
+   "id": "s04",
+   "title": {
+    "en": "Introducing rDNA into Host Cells"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Different hosts need different methods. Learn the six methods with the host they suit."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas2_techniques-d02",
+     "caption": {
+      "en": "Fig. 2. Six gene-transfer methods in one view."
+     },
+     "labels": [
+      "Transformation",
+      "Bacteria / yeast take up naked DNA. CaCl₂ + heat shock (42 °C, 30–90 s) or electroporation.",
+      "Transfection",
+      "Non-viral DNA into animal cells: calcium phosphate, lipofection, electroporation. Transient or stable.",
+      "Transduction",
+      "Virus carries the DNA in. Phage P1 in bacteria; retro-, lenti-, adeno- and AAV vectors in animals.",
+      "Microinjection",
+      "Fine glass needle delivers DNA into nucleus or pronucleus (transgenic mice, ~1–2 pl).",
+      "Electroporation",
+      "Brief high-voltage pulse opens transient membrane pores; DNA enters by electrophoresis.",
+      "Liposome fusion",
+      "DNA enclosed in lipid vesicles fuses with the cell membrane (lipofection, gene therapy)."
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Method"
+      },
+      {
+       "en": "Host"
+      },
+      {
+       "en": "Efficiency / note"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Heat-shock transformation**"
+       },
+       {
+        "en": "E. coli (CaCl₂ competent)"
+       },
+       {
+        "en": "10⁵–10⁷ colonies per µg DNA"
+       }
+      ],
+      [
+       {
+        "en": "**Electroporation**"
+       },
+       {
+        "en": "Bacteria, yeast, animal cells"
+       },
+       {
+        "en": "Up to 10⁹–10¹⁰ per µg in bacteria; can kill cells"
+       }
+      ],
+      [
+       {
+        "en": "**Calcium phosphate / lipofection**"
+       },
+       {
+        "en": "Cultured animal cells"
+       },
+       {
+        "en": "Easy, transient expression"
+       }
+      ],
+      [
+       {
+        "en": "**Viral transduction**"
+       },
+       {
+        "en": "Animal cells and tissues"
+       },
+       {
+        "en": "Highest efficiency; size limits and safety issues"
+       }
+      ],
+      [
+       {
+        "en": "**Microinjection**"
+       },
+       {
+        "en": "Oocytes, zygotes, single cells"
+       },
+       {
+        "en": "Direct, skilled work, one cell at a time"
+       }
+      ]
+     ]
+    }
+   ],
+   "label": "📘 Atlas 2.2"
+  },
+  {
+   "id": "s05",
+   "title": {
+    "en": "Screening and Selection of Recombinants"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Selection removes cells without the vector; screening finds those with the insert."
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Term"
+      },
+      {
+       "en": "Purpose"
+      },
+      {
+       "en": "Example"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Selection**"
+       },
+       {
+        "en": "Only desired cells survive"
+       },
+       {
+        "en": "Ampicillin kills cells without ampR"
+       }
+      ],
+      [
+       {
+        "en": "**Screening**"
+       },
+       {
+        "en": "Distinguish cells; all survive"
+       },
+       {
+        "en": "Blue-white; colony hybridisation; replica plating"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas2_techniques-d03",
+     "caption": {
+      "en": "Fig. 3. Insertional inactivation of tet in pBR322 detected by replica plating."
+     },
+     "labels": [
+      "Master plate: ampicillin",
+      "Replica: ampicillin + tetracycline",
+      "All transformants",
+      "Amp resistant",
+      "Colonies 3, 5, 7 absent",
+      "Tet-sensitive = recombinant",
+      "1",
+      "1",
+      "2",
+      "2",
+      "3",
+      "4",
+      "4",
+      "5",
+      "6",
+      "6",
+      "7",
+      "replica",
+      "Interpretation",
+      "Grows on both plates:",
+      "vector without insert (tet intact)",
+      "Grows on amp only:",
+      "insert in tet = RECOMBINANT",
+      "Pick it from the master plate"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas2_techniques-d04",
+     "caption": {
+      "en": "Fig. 4. Blue-white screening with pUC-type vectors (lacZα and a host with lacZΔM15)."
+     },
+     "labels": [
+      "Vector with lacZα intact",
+      "(no insert)",
+      "LacZα + host LacZΔM15",
+      "= active β-galactosidase",
+      "(α-complementation)",
+      "X-gal cleaved to",
+      "blue 5-bromo-4-chloro-",
+      "indigo: BLUE colony",
+      "Vector + insert in MCS",
+      "(inside lacZα)",
+      "LacZα disrupted:",
+      "no complementation,",
+      "no active enzyme",
+      "X-gal not cleaved:",
+      "WHITE colony =",
+      "RECOMBINANT",
+      "Plates contain ampicillin (selects the vector), IPTG (inducer of the lac promoter, non-metabolisable) and X-gal (chromogenic substrate).",
+      "Picked white colonies are verified by colony PCR or digestion (rare false positives: small or in-frame inserts that keep lacZα active)."
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas2_techniques-d05",
+     "caption": {
+      "en": "Fig. 5. Colony hybridisation (Grunstein and Hogness) finds clones carrying a particular sequence."
+     },
+     "labels": [
+      "Master plate with",
+      "bacterial colonies",
+      "Press nylon or",
+      "nitrocellulose membrane",
+      "(colony lift)",
+      "Lyse cells; denature",
+      "DNA (NaOH); fix to",
+      "membrane (UV or 80 °C)",
+      "Hybridise with labelled",
+      "single-stranded probe",
+      "(32P or DIG)",
+      "Wash; detect by",
+      "autoradiography",
+      "or chemiluminescence",
+      "Align film with master;",
+      "pick positive colonies"
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Direct selection**\nThe cloned gene itself gives a selectable phenotype, for example complementing an auxotroph (a _trp_⁻ yeast cell regains growth without tryptophan)."
+     }
+    }
+   ],
+   "label": "📙 Atlas 2.3"
+  },
+  {
+   "id": "s06",
+   "title": {
+    "en": "DNA Sequencing (Sanger) and PCR"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Two key techniques: one reads a sequence, the other amplifies it."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas2_techniques-d06",
+     "caption": {
+      "en": "Fig. 6. Principle of chain-termination sequencing (Sanger, 1977)."
+     },
+     "labels": [
+      "Template DNA +",
+      "primer + DNA polymerase",
+      "dNTPs + low level of",
+      "chain-terminating ddNTPs",
+      "Synthesis stops at random",
+      "points (no 3′-OH)",
+      "Fragments separated by size",
+      "(capillary, 1 bp resolution)",
+      "Laser reads the dye on the",
+      "last base: sequence read-out"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas2_techniques-d07",
+     "caption": {
+      "en": "Fig. 7. Reading a gel of four ddNTP reactions and the equivalent chromatogram. Example sequence is invented."
+     },
+     "labels": [
+      "ddA",
+      "ddC",
+      "ddG",
+      "ddT",
+      "– cathode (wells)",
+      "+ anode",
+      "Read from the bottom (shortest) to the top (longest): 5′ GATCGTACCTAG 3′",
+      "Newly made strand is complementary to the template: template = 3′ CTAGCATGGATC 5′",
+      "G",
+      "A",
+      "T",
+      "C",
+      "G",
+      "T",
+      "A",
+      "C",
+      "C",
+      "T",
+      "A",
+      "G",
+      "Capillary chromatogram (dye-terminators)"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas2_techniques-d08",
+     "caption": {
+      "en": "Fig. 8. Thermal profile of PCR (schematic; times and temperatures depend on the primers and polymerase)."
+     },
+     "labels": [
+      "40 °C",
+      "55 °C",
+      "72 °C",
+      "95 °C",
+      "initial denaturation",
+      "denature",
+      "anneal primers",
+      "extend (Taq)",
+      "… 25–35 cycles … final extension",
+      "time →"
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Cycle"
+      },
+      {
+       "en": "Copies of target (theoretical, 2n)"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**0**"
+       },
+       {
+        "en": "1"
+       }
+      ],
+      [
+       {
+        "en": "**10**"
+       },
+       {
+        "en": "1,024"
+       }
+      ],
+      [
+       {
+        "en": "**20**"
+       },
+       {
+        "en": "1,048,576"
+       }
+      ],
+      [
+       {
+        "en": "**30**"
+       },
+       {
+        "en": "~1.07 × 10⁹"
+       }
+      ],
+      [
+       {
+        "en": "**35**"
+       },
+       {
+        "en": "~3.4 × 10¹⁰"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "PCR type"
+      },
+      {
+       "en": "Feature"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**RT-PCR**"
+       },
+       {
+        "en": "RNA → cDNA first (reverse transcriptase), then PCR"
+       }
+      ],
+      [
+       {
+        "en": "**Real-time (qPCR)**"
+       },
+       {
+        "en": "Fluorescence monitored each cycle; quantitative (Ct value)"
+       }
+      ],
+      [
+       {
+        "en": "**Nested**"
+       },
+       {
+        "en": "Two rounds with inner primers: more specific"
+       }
+      ],
+      [
+       {
+        "en": "**Multiplex**"
+       },
+       {
+        "en": "Several primer pairs in one tube"
+       }
+      ],
+      [
+       {
+        "en": "**Inverse**"
+       },
+       {
+        "en": "Amplifies unknown DNA flanking a known sequence"
+       }
+      ],
+      [
+       {
+        "en": "**Colony PCR**"
+       },
+       {
+        "en": "Tests bacterial colonies for an insert"
+       }
+      ]
+     ]
+    }
+   ],
+   "label": "📒 Atlas 2.4"
+  },
+  {
+   "id": "s07",
+   "title": {
+    "en": "Gel Electrophoresis and Blotting"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Separate by size, then detect: this pair of ideas underlies most molecular biology."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas2_techniques-d09",
+     "caption": {
+      "en": "Fig. 9. An agarose gel. Lane labels and sizes are illustrative."
+     },
+     "labels": [
+      "Ladder",
+      "Plasmid",
+      "Digest",
+      "PCR",
+      "Control",
+      "– cathode (wells)",
+      "+ anode",
+      "10 kb",
+      "6 kb",
+      "4 kb",
+      "3 kb",
+      "2 kb",
+      "1 kb",
+      "0.5 kb",
+      "DNA is negatively charged (phosphate backbone) and moves to the anode (+).",
+      "Smaller fragments move faster through the agarose mesh. Distance ∝ −log(size).",
+      "Stain: ethidium bromide (mutagen) or safer SYBR/GelRed; view under UV.",
+      "Undigested plasmid shows 3 forms: supercoiled (fastest), linear, nicked/open circular (slowest)."
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": ""
+      },
+      {
+       "en": "Southern"
+      },
+      {
+       "en": "Northern"
+      },
+      {
+       "en": "Western"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Target**"
+       },
+       {
+        "en": "DNA"
+       },
+       {
+        "en": "RNA"
+       },
+       {
+        "en": "Protein"
+       }
+      ],
+      [
+       {
+        "en": "**Separation**"
+       },
+       {
+        "en": "Agarose gel (after digest)"
+       },
+       {
+        "en": "Denaturing agarose (formaldehyde)"
+       },
+       {
+        "en": "SDS-PAGE"
+       }
+      ],
+      [
+       {
+        "en": "**Membrane**"
+       },
+       {
+        "en": "Nylon / nitrocellulose"
+       },
+       {
+        "en": "Nylon"
+       },
+       {
+        "en": "PVDF / nitrocellulose"
+       }
+      ],
+      [
+       {
+        "en": "**Probe**"
+       },
+       {
+        "en": "Labelled DNA"
+       },
+       {
+        "en": "Labelled DNA or RNA"
+       },
+       {
+        "en": "Primary antibody + enzyme-linked secondary"
+       }
+      ],
+      [
+       {
+        "en": "**Named after**"
+       },
+       {
+        "en": "Edwin Southern (1975)"
+       },
+       {
+        "en": "Pun on Southern"
+       },
+       {
+        "en": "Pun on Southern"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1. Separate**gel"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**2. Transfer**blot"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**3. Probe**hybridise / bind"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**4. Detect**signal"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click a step to see what happens."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**PG focus**\nWhy use formaldehyde in Northern gels? RNA forms secondary structure that would make migration depend on shape; formaldehyde keeps it denatured so that migration reflects length."
+     }
+    }
+   ],
+   "label": "📓 Atlas 2.5"
+  },
+  {
+   "id": "s08",
+   "title": {
+    "en": "Summary & Exam Revision"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Key points and model answers likely to appear in university examinations."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key exam points**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Cloning: isolate, cut, ligate, transform, select, screen, verify, grow."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Transformation (bacteria), transfection (animal cells), transduction (virus), microinjection, electroporation, liposome fusion."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "3"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Selection = survivors only; screening = tell clones apart."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "4"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Insertional inactivation: recombinant is Amp-R Tet-S when inserted in tet."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Blue-white: lacZα, X-gal, IPTG; white = recombinant."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "6"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Colony hybridisation uses a labelled probe on a membrane lift of colonies."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "7"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Sanger: ddNTP terminators; read from shortest to longest fragment."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "8"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "PCR: denature 94–95, anneal 50–65, extend 72 °C; 2n amplification."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "9"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Southern DNA, Northern RNA, Western protein."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Short-answer questions**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click a question to reveal the model answer."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.1List the steps of gene cloning.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Isolate target DNA and vector; cut with restriction enzyme; ligate; introduce into host; select transformants; screen for recombinants; verify; grow and express."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.2Differentiate transformation, transfection and transduction.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Transformation: uptake of naked DNA by bacteria/yeast. Transfection: non-viral DNA into animal cells. Transduction: gene transfer by a virus."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.3Explain blue-white screening.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The vector carries lacZα in its MCS. Without insert, α-complementation makes active β-galactosidase which cleaves X-gal to blue. Insert disrupts lacZα, so colonies are white."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.4How does replica plating identify recombinants?▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Colonies from a master ampicillin plate are replicated on amp + tet. Colonies absent on the second plate have lost tet through insertional inactivation, so they carry inserts."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.5State the principle of Sanger sequencing.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "DNA polymerase extends a primer; occasional incorporation of ddNTPs (no 3′-OH) terminates chains. Fragments of all lengths are separated by size and the terminal base read."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.6Write the three steps of a PCR cycle with temperatures.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Denaturation 94–95 °C; annealing 50–65 °C; extension 72 °C (Taq)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.7Why does DNA migrate to the anode in electrophoresis?▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The phosphate backbone carries a negative charge, so DNA moves toward the positive electrode; mobility decreases with log of size."
+     }
+    }
+   ],
+   "label": "📋 Summary"
+  },
+  {
+   "id": "s09",
+   "title": {
+    "en": "Key Terms & Glossary"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Important terms in simple language."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Ligation"
+     },
+     "definition": {
+      "en": "Joining DNA ends with ligase."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Competent cell"
+     },
+     "definition": {
+      "en": "Cell treated to take up DNA."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Selection"
+     },
+     "definition": {
+      "en": "Process allowing only vector-containing cells to grow."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Screening"
+     },
+     "definition": {
+      "en": "Process that identifies cells with insert among survivors."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Replica plating"
+     },
+     "definition": {
+      "en": "Transfer of colony pattern from one plate to others."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "X-gal"
+     },
+     "definition": {
+      "en": "Chromogenic substrate cleaved by β-galactosidase."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "IPTG"
+     },
+     "definition": {
+      "en": "Non-metabolisable inducer of the lac operon."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "ddNTP"
+     },
+     "definition": {
+      "en": "Dideoxynucleotide that terminates DNA synthesis."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Amplicon"
+     },
+     "definition": {
+      "en": "Product of PCR amplification."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Ct value"
+     },
+     "definition": {
+      "en": "Cycle number at which fluorescence crosses threshold in qPCR."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Probe"
+     },
+     "definition": {
+      "en": "Labelled nucleic acid or antibody used for detection."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Anode"
+     },
+     "definition": {
+      "en": "Positive electrode."
+     }
+    }
+   ],
+   "label": "📖 Glossary"
+  }
+ ],
+ "skipped": [
+  "page-6"
+ ],
+ "dropped": [
+  {
+   "selector": "nav",
+   "count": 1,
+   "sample": [
+    "🎨 Atlas II: Techniques Animal Biotechnology · Unit II Progre"
+   ]
+  },
+  {
+   "selector": "#mob-hdr",
+   "count": 1,
+   "sample": [
+    "☰ Atlas II: Techniques"
+   ]
+  },
+  {
+   "selector": "#overlay",
+   "count": 1,
+   "sample": []
+  },
+  {
+   "selector": "footer",
+   "count": 9,
+   "sample": [
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh",
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh",
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh"
+   ]
+  },
+  {
+   "selector": ".start-btn",
+   "count": 1,
+   "sample": [
+    "Begin Learning →"
+   ]
+  },
+  {
+   "selector": ".btn-outline",
+   "count": 8,
+   "sample": [
+    "← Atlas II: Techniques",
+    "← Gene Cloning",
+    "← Gene Transfer"
+   ]
+  },
+  {
+   "selector": ".btn-primary",
+   "count": 9,
+   "sample": [
+    "Gene Transfer →",
+    "Screening →",
+    "Sequencing & PCR →"
+   ]
+  },
+  {
+   "selector": ".pg-nav",
+   "count": 8,
+   "sample": []
+  }
+ ],
+ "extractor": "1"
+}

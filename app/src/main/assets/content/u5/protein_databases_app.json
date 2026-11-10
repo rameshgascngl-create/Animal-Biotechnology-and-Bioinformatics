@@ -1,0 +1,1939 @@
+{
+ "id": "protein_databases_app",
+ "unit": "V",
+ "title": {
+  "en": "Protein Databases: SWISS-PROT, UniProt & PDB | GASC Nagercoil"
+ },
+ "sections": [
+  {
+   "id": "s01",
+   "title": {
+    "en": "Protein Sequence & Structural Databases\nSWISS-PROT · UniProt · PDB"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "From amino acid sequences to three-dimensional atomic structures — the databases that power modern protein science."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Learning Objectives**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Define protein sequence databases and explain their importance"
+      },
+      {
+       "en": "Describe SWISS-PROT — its curation philosophy and key features"
+      },
+      {
+       "en": "Explain UniProt — its sections, scope, and relationship to SWISS-PROT"
+      },
+      {
+       "en": "Describe the Protein Data Bank (PDB) and the data it stores"
+      },
+      {
+       "en": "Distinguish between sequence databases and structural databases"
+      },
+      {
+       "en": "Compare SWISS-PROT, UniProt, and PDB in a table"
+      },
+      {
+       "en": "Discuss applications of protein and structural databases"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 01"
+     }
+    }
+   ],
+   "label": "B.Sc. Zoology / Biotechnology"
+  },
+  {
+   "id": "s02",
+   "title": {
+    "en": "Introduction to Biological & Protein Sequence Databases"
+   },
+   "blocks": [
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Biological Database — Definition\nA **biological database** is an organised, computer-stored collection of biological data that can be efficiently searched, retrieved, and analysed. These databases form the data infrastructure of modern molecular biology and bioinformatics."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Protein Sequence Database — Definition\nA **protein sequence database** stores the linear order of amino acids (the primary sequence) in proteins, along with functional annotations — protein name, function, source organism, post-translational modifications, and literature references."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Proteins are the molecular machines of the cell. Understanding a protein's sequence reveals its evolutionary relationships, and understanding its three-dimensional structure reveals how it works and how it can be targeted by drugs. Dedicated databases exist for each level of this knowledge."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**⚠️ Common Confusions**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Nucleotide Databases vs Protein Sequence Databases**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Nucleotide databases** (e.g., GenBank, EMBL, DDBJ) store DNA and RNA sequences — the genetic code as written in nucleotide bases (A, T, G, C). They record the genome. **Protein sequence databases** (e.g., SWISS-PROT, UniProt) store amino acid sequences — the translated products of genes. Each protein entry represents what a gene _makes_, not the gene itself. A single nucleotide gene entry can correspond to one protein entry in a protein database."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Protein Sequence Databases vs Structural Databases**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Protein sequence databases** record the _one-dimensional_ order of amino acids in a polypeptide chain (primary structure). They tell you _what_ the protein is made of. **Structural databases** (e.g., PDB) store _three-dimensional_ atomic coordinates — the precise spatial arrangement of every atom in a protein, determined by X-ray crystallography, NMR, or cryo-EM. They tell you _what shape_ the protein adopts, which is essential for understanding function and designing drugs. A protein can have a known sequence but an unknown structure; not all proteins in SWISS-PROT or UniProt have an entry in PDB."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**SWISS-PROT vs UniProt — Are They the Same?**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**UniProt** is the comprehensive umbrella protein database. It has two tiers: **Swiss-Prot** (manually reviewed, high-quality, curated entries — the \"gold standard\") and **TrEMBL** (computationally analysed, not yet manually reviewed — much larger but less verified). So SWISS-PROT is a _subset_ of UniProt — all SWISS-PROT entries are in UniProt, but UniProt contains far more entries than SWISS-PROT alone."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Nucleotide DBs (GenBank/EMBL) store DNA/RNA; protein sequence DBs store amino acid sequences"
+      },
+      {
+       "en": "Structural DBs (PDB) store 3D atomic coordinates — a different level of information from sequence"
+      },
+      {
+       "en": "SWISS-PROT is the manually curated tier _within_ UniProt — not a separate standalone database"
+      },
+      {
+       "en": "A protein can have a known sequence (in UniProt) but no known 3D structure (not in PDB)"
+      },
+      {
+       "en": "Databases store data; search tools (e.g., BLAST) query those databases"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 02"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": {
+    "en": "SWISS-PROT"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "🇨🇭 Switzerland / 🇺🇸 USA · SIB & EBI"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**SWISS-PROT — The Manually Curated Protein Sequence Database**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**SWISS-PROT** is a manually reviewed, non-redundant protein sequence database that provides high-quality annotation for each entry. It was established in 1986 at the Swiss Institute of Bioinformatics (SIB) by Amos Bairoch and is now maintained jointly by SIB and the European Bioinformatics Institute (EBI) as part of UniProt."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key Features**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**✍️ Manual Curation**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Every entry is reviewed by expert biologists who verify sequence data and add annotations from published literature."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🚫 Non-Redundant**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Duplicate sequences from the same protein/organism are merged into one entry — one protein, one record."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**📋 Rich Annotation**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Each entry contains: protein name, function, active site residues, post-translational modifications, subcellular location, disease associations."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔗 Cross-References**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Linked to over 100 other databases — nucleotide databases, PDB, metabolic pathways, genome databases."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**📅 Founded 1986**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Created by Amos Bairoch at the University of Geneva; now one of the world's most widely cited biological databases."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**⭐ Gold Standard**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Considered the highest-quality protein sequence database — researchers prefer its entries for reliable, vetted information."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Type of Information Stored**"
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "1 **Protein Name & Synonyms** Official protein name, alternative names, and gene names from multiple organisms."
+      },
+      {
+       "en": "2 **Amino Acid Sequence** The complete primary sequence of amino acids (one-letter or three-letter code) with sequence length."
+      },
+      {
+       "en": "3 **Protein Function** Biological role — enzymatic activity, catalytic mechanism, binding partners, cellular role."
+      },
+      {
+       "en": "4 **Source Organism & Taxonomy** Species of origin, taxonomic lineage, and gene locus information."
+      },
+      {
+       "en": "5 **Post-Translational Modifications** Phosphorylation, glycosylation, disulfide bonds, signal peptides, and other modifications."
+      },
+      {
+       "en": "6 **Disease Associations & Variants** Mutations linked to human diseases, natural variants, and their phenotypic effects."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Exam Point\nSWISS-PROT is described as a **manually curated, non-redundant protein sequence database**. Its most important characteristic is _manual expert review_ — distinguishing it from automatically generated databases like TrEMBL. Quality over quantity."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "SWISS-PROT = manually reviewed, non-redundant protein sequence database; founded 1986"
+      },
+      {
+       "en": "Maintained jointly by SIB (Switzerland) and EBI (UK); now part of UniProt"
+      },
+      {
+       "en": "Each entry: protein name, amino acid sequence, function, organism, PTMs, disease links"
+      },
+      {
+       "en": "Manual expert review = highest quality/reliability among protein databases"
+      },
+      {
+       "en": "\"Non-redundant\" means duplicate sequences are merged — one protein = one record"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 03"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "title": {
+    "en": "UniProt — Universal Protein Resource"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "🌐 Global · SIB + EBI + PIR"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**UniProt — The Comprehensive Protein Information Resource**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**UniProt** (Universal Protein Resource) is the world's most comprehensive and freely accessible protein database. It was created in 2002 through a collaboration between the Swiss Institute of Bioinformatics (SIB), the European Bioinformatics Institute (EBI), and the Protein Information Resource (PIR) at Georgetown University, USA."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Structure of UniProt**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🌐 UniProtKB (UniProt Knowledgebase)**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The central component of UniProt — contains all protein sequences with annotations"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**⭐ Swiss-Prot**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Manually Reviewed**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "~570,000 entries\nExpert-curated\nHigh quality\n\"Gold standard\""
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**📂 TrEMBL**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Unreviewed**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "~220 million entries\nComputer annotated\nAwaiting curation\nLarge but less verified"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "UniProtKB also links to UniRef (sequence clusters) and UniParc (sequence archive)"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key Features of UniProt**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🌐 Comprehensive**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Contains protein entries from all organisms — bacteria, archaea, viruses, plants, animals, fungi."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🆓 Free Access**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "All data freely available at uniprot.org — no registration required for basic searching or downloading."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔍 Powerful Search**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Search by protein name, gene name, organism, function, GO term, or BLAST similarity."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔗 Cross-Database Links**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Connected to GenBank, EMBL, PDB, OMIM, Pfam, KEGG, and hundreds of other resources."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**📊 Regular Updates**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Updated every 8 weeks with new sequences from automatic processing of genome databases."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**📖 GO Annotations**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Gene Ontology (GO) terms describe molecular function, biological process, and cellular component for each protein."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Swiss-Prot vs TrEMBL — The Critical Distinction\n**Swiss-Prot** (~570,000 entries): manually reviewed by experts; each annotation verified against published literature; highest reliability.\n\n**TrEMBL** (~220 million entries): automatically annotated by computational pipelines from genome sequencing projects; not yet manually curated. Entries move from TrEMBL to Swiss-Prot after manual review."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "UniProt = Universal Protein Resource; created 2002 by SIB + EBI + PIR"
+      },
+      {
+       "en": "UniProtKB = the main protein knowledgebase, divided into Swiss-Prot and TrEMBL"
+      },
+      {
+       "en": "Swiss-Prot (~570 K entries) = manually reviewed (\"gold standard\"); TrEMBL (~220 M) = unreviewed, computationally annotated"
+      },
+      {
+       "en": "SWISS-PROT is a subset of UniProt — all SWISS-PROT entries are in UniProt"
+      },
+      {
+       "en": "UniProt is the world's largest and most comprehensive freely accessible protein database"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 04"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "title": {
+    "en": "PDB — Protein Data Bank"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "🌐 Global · RCSB PDB"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**PDB — The Global Repository of 3D Biological Macromolecular Structures**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The **Protein Data Bank (PDB)** is the single worldwide archive of three-dimensional structural data for biological macromolecules — proteins, nucleic acids, and their complexes. It was established in **1971** at Brookhaven National Laboratory, USA, and is now managed by the **Worldwide Protein Data Bank (wwPDB)**, a collaboration of RCSB PDB (USA), PDBe (EBI, UK), PDBj (Japan), and BMRB (USA)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key Features**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**📅 Founded 1971**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The oldest structural biology database. Started with just 7 structures; now contains over 220,000 structures."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔬 Experimental Methods**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Structures determined by X-ray crystallography, NMR spectroscopy, or Cryo-Electron Microscopy (cryo-EM)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**📐 3D Coordinates**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Stores precise XYZ coordinates (in Ångströms) of every atom in the macromolecule."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🆔 PDB ID**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Each structure has a unique 4-character PDB ID (e.g., 1HHO for haemoglobin). Used to cite and retrieve structures."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**💊 Drug Design**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Essential for rational drug design — visualising enzyme active sites and designing molecules that fit precisely."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🌐 wwPDB Alliance**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Maintained by the worldwide PDB (wwPDB) consortium — RCSB (USA), PDBe (UK), PDBj (Japan), ensuring global access."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Data Stored in Each PDB Entry**"
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "A **3D Atomic Coordinates** XYZ coordinates (in Ångströms) of every non-hydrogen atom in the structure — the core data."
+      },
+      {
+       "en": "B **Sequence Information** Amino acid or nucleotide sequence of the macromolecule, linked to corresponding UniProt entries."
+      },
+      {
+       "en": "C **Experimental Details** Method used (X-ray, NMR, cryo-EM), resolution, R-factor, and quality metrics of the structure determination."
+      },
+      {
+       "en": "D **Ligands and Small Molecules** Coordinates of bound cofactors, inhibitors, substrates, and metal ions within the structure."
+      },
+      {
+       "en": "E **Biological Assembly** Information about the functional quaternary structure — the biologically active form of the protein complex."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Exam Point\nThe PDB file format stores 3D structural data in text files. Each atom is listed with its element, residue, chain, and XYZ coordinates. A typical structure might contain thousands of atom records. The PDB ID **1HHO** is the famous haemoglobin structure — one of the most cited protein structures in biology."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "PDB = Protein Data Bank; founded 1971; world's only archive of 3D biological macromolecular structures"
+      },
+      {
+       "en": "Managed by wwPDB consortium: RCSB (USA), PDBe (UK), PDBj (Japan)"
+      },
+      {
+       "en": "Data stored: 3D atomic coordinates, amino acid sequence, experimental method, ligands, quality metrics"
+      },
+      {
+       "en": "Methods: X-ray crystallography, NMR spectroscopy, Cryo-EM"
+      },
+      {
+       "en": "Each structure has a unique 4-character PDB ID (e.g., 1HHO for haemoglobin)"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 05"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "title": {
+    "en": "Comparison Diagrams"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Side-by-Side: Sequence Database vs Structural Database**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click any box in the diagrams below for an explanation."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🔤 Sequence Database (e.g., UniProt / SWISS-PROT)"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "protein_databases_app-d01",
+     "caption": {
+      "en": ""
+     },
+     "labels": [
+      "Protein Source",
+      "(organism / experiment)",
+      "1D Amino Acid Sequence",
+      "M-A-K-L-V-T-S-D-E-K-…",
+      "Rich Annotation",
+      "function, PTMs, disease,",
+      "subcellular location",
+      "Use: Identify, classify",
+      "predict function, evolution"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🔬 Structural Database (e.g., PDB)"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "protein_databases_app-d02",
+     "caption": {
+      "en": ""
+     },
+     "labels": [
+      "Experimental Method",
+      "X-ray / NMR / Cryo-EM",
+      "3D Atomic Coordinates",
+      "X, Y, Z positions (Å) per atom",
+      "Structure Information",
+      "alpha helices, beta sheets,",
+      "loops, ligands, active site",
+      "Use: Drug design, fold",
+      "analysis, mechanism"
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Core Distinction\nSequence databases (SWISS-PROT, UniProt) store **what the protein is made of** (amino acid order = 1D). Structural databases (PDB) store **what shape the protein adopts** (atomic coordinates in 3D space). Both are needed for complete understanding of a protein."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Data Flow: Biological Data → Database → Analysis (Click nodes)**"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "protein_databases_app-d03",
+     "caption": {
+      "en": "Data flow diagram"
+     },
+     "labels": [
+      "🔬 Biological",
+      "Data (lab)",
+      "sequence / structure",
+      "📥 Database",
+      "Entry & Curation",
+      "ID assigned",
+      "💾 Storage",
+      "UniProt / PDB",
+      "freely accessible",
+      "🔍 Retrieval",
+      "Search & access",
+      "BLAST / name / ID",
+      "🧪 Analysis &",
+      "Application",
+      "drug design / research",
+      "Click each step for explanation"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**SWISS-PROT within the UniProt System (Click nodes)**"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "protein_databases_app-d04",
+     "caption": {
+      "en": "UniProt system diagram"
+     },
+     "labels": [
+      "🌐 UniProt — Universal Protein Resource",
+      "UniProtKB (Central Knowledgebase)",
+      "⭐ Swiss-Prot",
+      "Manually Reviewed",
+      "~570,000 entries",
+      "\"Gold Standard\"",
+      "high quality / curated",
+      "📂 TrEMBL",
+      "Unreviewed",
+      "~220 million entries",
+      "computer-annotated",
+      "awaiting curation",
+      "after review",
+      "UniRef",
+      "Sequence clusters",
+      "UniParc",
+      "Sequence archive"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Sequence DB (UniProt/SWISS-PROT) = 1D amino acid order + annotations; Structural DB (PDB) = 3D atomic coordinates"
+      },
+      {
+       "en": "UniProt contains UniProtKB (Swiss-Prot + TrEMBL), UniRef, and UniParc"
+      },
+      {
+       "en": "Swiss-Prot entries can be promoted from TrEMBL after manual expert review"
+      },
+      {
+       "en": "PDB ID = unique 4-character code for each structure (e.g., 1HHO = haemoglobin)"
+      },
+      {
+       "en": "Data flow: lab → database entry → storage → retrieval → analysis/application"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 06"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "title": {
+    "en": "Comparison: SWISS-PROT · UniProt · PDB"
+   },
+   "blocks": [
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Feature"
+      },
+      {
+       "en": "SWISS-PROT"
+      },
+      {
+       "en": "UniProt"
+      },
+      {
+       "en": "PDB"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "Full Name"
+       },
+       {
+        "en": "SWISS-PROT Protein Knowledgebase"
+       },
+       {
+        "en": "Universal Protein Resource"
+       },
+       {
+        "en": "Protein Data Bank"
+       }
+      ],
+      [
+       {
+        "en": "Type of Database"
+       },
+       {
+        "en": "Protein sequence (curated)"
+       },
+       {
+        "en": "Protein sequence + function (comprehensive)"
+       },
+       {
+        "en": "Macromolecular structure (3D)"
+       }
+      ],
+      [
+       {
+        "en": "Data Stored"
+       },
+       {
+        "en": "Amino acid sequences + rich manual annotations"
+       },
+       {
+        "en": "Amino acid sequences + functional annotations (reviewed & unreviewed)"
+       },
+       {
+        "en": "3D atomic coordinates, experimental details, ligands"
+       }
+      ],
+      [
+       {
+        "en": "Curation"
+       },
+       {
+        "en": "Manual expert review — every entry verified"
+       },
+       {
+        "en": "Two tiers: manually reviewed (Swiss-Prot) + automatically annotated (TrEMBL)"
+       },
+       {
+        "en": "Experimental data — validated by wwPDB curators"
+       }
+      ],
+      [
+       {
+        "en": "Maintained by"
+       },
+       {
+        "en": "SIB (Switzerland) & EBI (UK) — now part of UniProt"
+       },
+       {
+        "en": "SIB + EBI + PIR (global consortium)"
+       },
+       {
+        "en": "wwPDB: RCSB (USA), PDBe (UK), PDBj (Japan)"
+       }
+      ],
+      [
+       {
+        "en": "Year Founded"
+       },
+       {
+        "en": "1986"
+       },
+       {
+        "en": "2002"
+       },
+       {
+        "en": "1971 (oldest)"
+       }
+      ],
+      [
+       {
+        "en": "Size (approx.)"
+       },
+       {
+        "en": "~570,000 entries"
+       },
+       {
+        "en": "~220+ million entries (UniProtKB total)"
+       },
+       {
+        "en": ">220,000 structures"
+       }
+      ],
+      [
+       {
+        "en": "Unique Identifier"
+       },
+       {
+        "en": "UniProt Accession (e.g., P00533)"
+       },
+       {
+        "en": "UniProt Accession (e.g., P00533)"
+       },
+       {
+        "en": "PDB ID (e.g., 1HHO) — 4 characters"
+       }
+      ],
+      [
+       {
+        "en": "Key Tool"
+       },
+       {
+        "en": "BLAST, sequence search at uniprot.org"
+       },
+       {
+        "en": "UniProt search, BLAST, PSI-BLAST"
+       },
+       {
+        "en": "PDB viewer (Mol*, PyMOL), structure search"
+       }
+      ],
+      [
+       {
+        "en": "Main Use"
+       },
+       {
+        "en": "Protein function, identity, evolutionary analysis"
+       },
+       {
+        "en": "Comprehensive protein information retrieval"
+       },
+       {
+        "en": "Drug design, structural biology, mechanism studies"
+       }
+      ],
+      [
+       {
+        "en": "Relationship"
+       },
+       {
+        "en": "Subset of UniProt (the reviewed tier)"
+       },
+       {
+        "en": "Umbrella — contains Swiss-Prot + TrEMBL"
+       },
+       {
+        "en": "Independent structural database; cross-linked to UniProt"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Swiss-Prot (1986) is the reviewed tier of UniProt; UniProt (2002) is the umbrella resource; PDB (1971) is the oldest, storing 3D structures"
+      },
+      {
+       "en": "Swiss-Prot = quality; TrEMBL = quantity; PDB = 3D spatial data"
+      },
+      {
+       "en": "Swiss-Prot and UniProt share the same accession number system (P00533 style)"
+      },
+      {
+       "en": "PDB uses a unique 4-character ID (1HHO style) — completely different system"
+      },
+      {
+       "en": "PDB entries are cross-linked to UniProt — you can go from sequence to structure and back"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 07"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "title": {
+    "en": "Applications of Protein & Structural Databases"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Protein Identification**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Compare an unknown protein sequence against SWISS-PROT/UniProt using BLAST to identify what the protein is and which organism it comes from."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Functional Annotation**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "UniProt annotations reveal what a protein does — enzymatic function, binding partners, cellular role — without repeating lab experiments."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Evolutionary Studies**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Retrieve homologous protein sequences from multiple species to build phylogenetic trees and trace protein evolution over millions of years."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Comparative Studies**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Compare the same protein across species — to study conservation, divergence, and which regions are functionally critical."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Drug Design**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "PDB structures reveal the shape of enzyme active sites and receptor binding pockets — enabling researchers to design drugs that fit precisely."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Structural Analysis**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Analyse secondary and tertiary structure, identify binding domains, active site residues, and predict how mutations affect protein folding."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Disease Research**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Swiss-Prot disease variant annotations and PDB structures of disease-related proteins help understand the molecular basis of genetic disorders."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Biotechnology**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Retrieve sequences for industrial enzymes; design improved variants; screen for homologues with desirable properties in microorganism or plant databases."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Exam Point\n**Structure-based drug design** relies entirely on PDB data. By visualising the 3D structure of a target protein (e.g., a viral protease), chemists can design small molecules that block the active site — a strategy used in developing HIV drugs (protease inhibitors) and COVID-19 antivirals."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "8 key applications: protein identification, functional annotation, evolution, comparative studies, drug design, structural analysis, disease research, biotechnology"
+      },
+      {
+       "en": "UniProt is the first resource used to identify and characterise a new protein"
+      },
+      {
+       "en": "PDB is indispensable for structure-based drug design — visualising active sites in 3D"
+      },
+      {
+       "en": "HIV protease inhibitors and COVID-19 antivirals were designed using PDB structures"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 08"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "title": {
+    "en": "Role in Bioinformatics"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔤 Protein Sequence Databases**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Foundation of sequence analysis workflows"
+      },
+      {
+       "en": "BLAST searches identify similar proteins across species"
+      },
+      {
+       "en": "Multiple sequence alignment for phylogenetics"
+      },
+      {
+       "en": "Domain and motif identification (Pfam, InterPro)"
+      },
+      {
+       "en": "Function prediction by homology"
+      },
+      {
+       "en": "Proteomics data interpretation"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔬 Structural Databases (PDB)**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Source for 3D structure visualisation and analysis"
+      },
+      {
+       "en": "Molecular docking and virtual drug screening"
+      },
+      {
+       "en": "Protein structure prediction validation (AlphaFold)"
+      },
+      {
+       "en": "Understanding protein folding mechanisms"
+      },
+      {
+       "en": "Comparative structural analysis across proteins"
+      },
+      {
+       "en": "Identifying conserved structural motifs"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "AlphaFold & PDB\nIn 2021, DeepMind's **AlphaFold 2** AI predicted structures for nearly all human proteins. These predicted structures were deposited in the AlphaFold Database (linked to UniProt and PDB), revolutionising structural biology. This demonstrates how sequence databases and structural databases are deeply interconnected in modern bioinformatics."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Sequence databases power: BLAST, multiple alignment, domain analysis, function prediction"
+      },
+      {
+       "en": "Structural databases (PDB) power: drug docking, fold analysis, structure prediction validation"
+      },
+      {
+       "en": "AlphaFold 2 (2021) predicted nearly all human protein structures — deposited in AlphaFold DB linked to UniProt and PDB"
+      },
+      {
+       "en": "The two types of database are complementary — sequence + structure together give a complete picture of a protein"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 09"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "title": {
+    "en": "Interactive Learning"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Expand each topic for key points and click-to-reveal for active recall practice."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🗄️ Protein Databases — Overview**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Protein sequence databases store amino acid sequences with functional annotations. They are essential for protein identification, function prediction, and evolutionary analysis."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Click to Reveal\nThree key protein/structural databases: SWISS-PROT (manually curated sequences), UniProt (comprehensive — Swiss-Prot + TrEMBL), and PDB (3D atomic coordinates of macromolecular structures)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**⭐ SWISS-PROT — Key Points**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Manually reviewed, non-redundant protein sequence database"
+      },
+      {
+       "en": "Founded 1986 by Amos Bairoch (University of Geneva)"
+      },
+      {
+       "en": "Maintained by SIB + EBI; now part of UniProt"
+      },
+      {
+       "en": "Data: protein name, amino acid sequence, function, organism, PTMs, disease links"
+      },
+      {
+       "en": "The \"gold standard\" — highest reliability in protein databases"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Remember\nThe defining feature of SWISS-PROT is manual expert curation — every annotation is verified by biologists against published literature. This is what distinguishes it from automatically generated databases."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🌐 UniProt — Key Points**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Created 2002 by SIB + EBI + PIR; world's largest protein database"
+      },
+      {
+       "en": "Contains UniProtKB (Swiss-Prot + TrEMBL), UniRef, and UniParc"
+      },
+      {
+       "en": "Swiss-Prot (~570K) = reviewed; TrEMBL (~220M) = unreviewed"
+      },
+      {
+       "en": "Free access at uniprot.org; search by name, function, organism, BLAST"
+      },
+      {
+       "en": "GO annotations describe molecular function, biological process, cellular component"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Click to Reveal — TrEMBL meaning\nTrEMBL = Translated EMBL — it was originally created to hold protein sequences automatically translated from nucleotide sequences submitted to the EMBL nucleotide database. It grew far larger than Swiss-Prot as genome sequencing accelerated."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔬 PDB — Key Points**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Founded 1971 at Brookhaven National Laboratory, USA"
+      },
+      {
+       "en": "World's only archive of 3D biological macromolecular structures"
+      },
+      {
+       "en": "Managed by wwPDB consortium: RCSB (USA), PDBe (UK), PDBj (Japan)"
+      },
+      {
+       "en": "Data: 3D atomic coordinates (XYZ in Å), experimental method, ligands, quality metrics"
+      },
+      {
+       "en": "Methods: X-ray crystallography, NMR spectroscopy, Cryo-EM"
+      },
+      {
+       "en": "Each structure has a unique 4-character PDB ID (e.g., 1HHO)"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Remember\nPDB started with just 7 protein structures in 1971. By 2024 it contains over 220,000 structures. The dramatic growth was driven by improvements in X-ray crystallography, and more recently, Cryo-EM technology which can solve structures of large complexes impossible to crystallise."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🧪 Applications — Summary**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**UniProt/SWISS-PROT:** protein ID, function, evolution, disease variant lookup, comparative studies"
+      },
+      {
+       "en": "**PDB:** drug design (active site visualisation), structural analysis, fold classification, mechanism studies"
+      },
+      {
+       "en": "Both types are interconnected — UniProt entries link to PDB structures"
+      },
+      {
+       "en": "AlphaFold predictions are linked to UniProt accessions — bridging sequence and structure"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 11"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "title": {
+    "en": "Summary & Revision Bullets"
+   },
+   "blocks": [
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Nucleotide databases (GenBank, EMBL) store DNA/RNA sequences; protein sequence databases (SWISS-PROT, UniProt) store amino acid sequences; structural databases (PDB) store 3D atomic coordinates."
+      },
+      {
+       "en": "SWISS-PROT: manually reviewed, non-redundant protein sequence database; founded 1986 by Amos Bairoch; maintained by SIB + EBI; now the reviewed tier of UniProt."
+      },
+      {
+       "en": "UniProt: comprehensive protein resource created 2002; UniProtKB = Swiss-Prot (reviewed, ~570K) + TrEMBL (unreviewed, ~220M entries)."
+      },
+      {
+       "en": "SWISS-PROT is a subset of UniProt — all Swiss-Prot entries are in UniProt, but UniProt contains far more entries."
+      },
+      {
+       "en": "PDB (Protein Data Bank): world's only archive of 3D macromolecular structures; founded 1971; managed by wwPDB; stores atomic XYZ coordinates, experimental method, ligands."
+      },
+      {
+       "en": "PDB methods: X-ray crystallography, NMR spectroscopy, Cryo-EM. Each structure has a unique 4-character PDB ID (e.g., 1HHO for haemoglobin)."
+      },
+      {
+       "en": "Data flow: lab → database entry → storage → retrieval → analysis/application."
+      },
+      {
+       "en": "Applications: protein ID (UniProt), functional annotation (Swiss-Prot), drug design (PDB), evolutionary studies (both), disease research (both)."
+      },
+      {
+       "en": "AlphaFold 2 (2021) predicted structures for nearly all human proteins — linking sequence (UniProt) and structure (PDB) databases."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key Differences at a Glance**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Point"
+      },
+      {
+       "en": "SWISS-PROT"
+      },
+      {
+       "en": "UniProt"
+      },
+      {
+       "en": "PDB"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "Data type"
+       },
+       {
+        "en": "Protein sequence (curated)"
+       },
+       {
+        "en": "Protein sequence (reviewed + unreviewed)"
+       },
+       {
+        "en": "3D structure (atomic coordinates)"
+       }
+      ],
+      [
+       {
+        "en": "Founded"
+       },
+       {
+        "en": "1986"
+       },
+       {
+        "en": "2002"
+       },
+       {
+        "en": "1971"
+       }
+      ],
+      [
+       {
+        "en": "Curation"
+       },
+       {
+        "en": "Manual — gold standard"
+       },
+       {
+        "en": "Manual (Swiss-Prot) + auto (TrEMBL)"
+       },
+       {
+        "en": "Experimental data + wwPDB validation"
+       }
+      ],
+      [
+       {
+        "en": "Size"
+       },
+       {
+        "en": "~570,000 entries"
+       },
+       {
+        "en": "~220 million entries"
+       },
+       {
+        "en": ">220,000 structures"
+       }
+      ],
+      [
+       {
+        "en": "Unique ID"
+       },
+       {
+        "en": "UniProt accession"
+       },
+       {
+        "en": "UniProt accession"
+       },
+       {
+        "en": "4-char PDB ID"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 12"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "title": {
+    "en": "Glossary"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Protein Sequence**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The linear order of amino acids in a polypeptide chain (primary structure); determines the protein's identity and, ultimately, its 3D shape and function."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**SWISS-PROT**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A manually reviewed, non-redundant protein sequence database; the \"gold standard\" for protein annotation; founded 1986; now the reviewed tier of UniProt."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**UniProt**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Universal Protein Resource — the world's most comprehensive protein database, containing UniProtKB (Swiss-Prot + TrEMBL), UniRef, and UniParc; created 2002."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Curated Database**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A database in which entries have been manually reviewed and verified by expert scientists — ensuring accuracy but limiting speed and scale."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Annotation**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Biological information added to a sequence or structure entry — protein name, function, subcellular location, post-translational modifications, disease links."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**PDB**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Protein Data Bank — the world's only archive of three-dimensional structures of biological macromolecules; stores atomic XYZ coordinates determined by X-ray, NMR, or Cryo-EM."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**3D Structure**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The complete spatial arrangement of all atoms in a macromolecule — the tertiary (and quaternary) structure. Stored in PDB as XYZ coordinates in Ångströms."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Structural Biology**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The branch of molecular biology that studies the molecular structure of biological macromolecules and how structure relates to function."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Protein Function**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The biological role a protein performs — enzymatic catalysis, structural support, signalling, transport, or regulation."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**TrEMBL**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The unreviewed tier of UniProtKB — automatically annotated protein sequences from genome sequencing projects; entries await manual curation to graduate to Swiss-Prot."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**PDB ID**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A unique 4-character alphanumeric identifier assigned to each structure deposited in the Protein Data Bank (e.g., 1HHO for haemoglobin)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Cryo-EM**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Cryo-Electron Microscopy — an experimental technique for determining 3D structures of macromolecules at near-atomic resolution, particularly useful for large complexes."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 13"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "title": {
+    "en": "Frequently Asked University Exam Questions"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "1. What is SWISS-PROT? Describe its features and importance as a protein sequence database."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Show Hint**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Define SWISS-PROT (manually reviewed, non-redundant protein sequence database; founded 1986 by Amos Bairoch; SIB + EBI; now part of UniProt). Features: manual expert curation, non-redundant entries, rich annotation (sequence, function, PTMs, disease, organism), cross-references to 100+ databases. Importance: gold standard for protein data quality; preferred for reliable biological interpretation; widely cited in molecular biology research."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2. Explain UniProt and its components. What is the relationship between SWISS-PROT and UniProt?"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Show Hint**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "UniProt = Universal Protein Resource; created 2002 by SIB + EBI + PIR. Components: UniProtKB (central knowledgebase = Swiss-Prot + TrEMBL), UniRef (sequence clusters), UniParc (archive). Swiss-Prot vs TrEMBL: Swiss-Prot (~570K) = manually reviewed (\"gold standard\"); TrEMBL (~220M) = computationally annotated, awaiting review. Relationship: SWISS-PROT is a subset (reviewed tier) of UniProt. TrEMBL entries graduate to Swiss-Prot after expert review."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "3. What is the Protein Data Bank (PDB)? Describe the type of data it stores and its importance in structural biology."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Show Hint**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "PDB = Protein Data Bank; founded 1971; managed by wwPDB (RCSB, PDBe, PDBj). Data stored: 3D atomic XYZ coordinates (in Å), amino acid/nucleotide sequence, experimental method (X-ray, NMR, Cryo-EM), resolution, ligands, biological assembly. Importance: reveals how proteins fold and function; essential for rational/structure-based drug design; HIV protease inhibitors and COVID-19 antivirals designed using PDB data; training data for AI structure prediction (AlphaFold)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "4. Distinguish between protein sequence databases and structural databases. Give two examples of each type."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Show Hint**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Protein sequence databases: store 1D amino acid sequences + annotations; tell you WHAT the protein is made of; examples: SWISS-PROT, UniProt (UniProtKB). Structural databases: store 3D atomic coordinates; tell you WHAT SHAPE the protein adopts; examples: PDB, AlphaFold Database. Key distinction: a protein can have a known sequence but unknown structure — not all UniProt proteins are in PDB. Structural data requires laborious experimental methods; sequence data is more easily obtained."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5. Discuss the applications of protein and structural databases in biotechnology and drug research."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Show Hint**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Applications: (1) Protein identification — BLAST search against UniProt/Swiss-Prot; (2) Functional annotation — retrieve known function without lab experiments; (3) Drug design — PDB active site visualisation, molecular docking, virtual screening; (4) Disease research — Swiss-Prot variant annotations; (5) Evolutionary studies — phylogenetic trees from retrieved sequences; (6) Industrial enzymes — search for thermostable or pH-tolerant homologues; (7) Structure prediction validation (AlphaFold vs PDB). Mention specific examples: HIV protease inhibitors, COVID-19 antivirals."
+     }
+    }
+   ]
+  }
+ ],
+ "skipped": [
+  "quiz"
+ ],
+ "dropped": [
+  {
+   "selector": "nav",
+   "count": 1,
+   "sample": [
+    "Protein & Structural Databases Intro SWISS-PROT UniProt PDB "
+   ]
+  },
+  {
+   "selector": "footer",
+   "count": 1,
+   "sample": [
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh"
+   ]
+  },
+  {
+   "selector": ".ar",
+   "count": 5,
+   "sample": [
+    "▼",
+    "▼",
+    "▼"
+   ]
+  }
+ ],
+ "extractor": "1"
+}

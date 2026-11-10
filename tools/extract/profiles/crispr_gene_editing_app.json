@@ -1,0 +1,36 @@
+{
+  "skip_ids": [
+    "quiz"
+  ],
+  "label_classes": [
+    "section-number",
+    "chip"
+  ],
+  "heading_classes": [
+    "section-title"
+  ],
+  "callout_classes": [
+    "hbox"
+  ],
+  "glossary": {
+    "container": "gloss-card",
+    "term": "dt",
+    "def": "dd"
+  },
+  "steps_item_classes": [
+    "step"
+  ],
+  "button_heading_classes": [
+    "accordion-btn",
+    "eq-hint-btn"
+  ],
+  "extra_drop_selectors": [
+    ".arrow"
+  ],
+  "accepted_script_literals": [
+    "🏆 Excellent! You have a strong command of CRISPR concepts.",
+    "👍 Good work. Review the mechanism and components sections once more.",
+    "📚 Fair attempt. Focus on the mechanism, PAM sequence, and repair pathways.",
+    "🔄 Keep revising. Start with the components and mechanism sections for solid understanding."
+  ]
+}

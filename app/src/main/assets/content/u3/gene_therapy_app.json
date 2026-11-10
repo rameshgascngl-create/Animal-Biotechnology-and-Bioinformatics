@@ -1,0 +1,2001 @@
+{
+ "id": "gene_therapy_app",
+ "unit": "III",
+ "title": {
+  "en": "Gene Therapy – Ex Vivo & In Vivo | GASC Nagercoil"
+ },
+ "sections": [
+  {
+   "id": "s01",
+   "title": {
+    "en": "Gene Therapy\nEx Vivo · In Vivo · Cancer Treatment"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "An interactive, exam-ready study module for undergraduate students — designed for self-learning, classroom use, and revision."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Learning Objectives**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Define gene therapy and explain its basic principle"
+      },
+      {
+       "en": "Distinguish between ex vivo and in vivo gene therapy"
+      },
+      {
+       "en": "Describe the step-by-step procedure of each approach"
+      },
+      {
+       "en": "Explain the role of vectors in gene delivery"
+      },
+      {
+       "en": "Discuss how gene therapy is applied in cancer treatment"
+      },
+      {
+       "en": "Evaluate advantages, limitations, and ethical concerns"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 01"
+     }
+    }
+   ],
+   "label": "B.Sc. Zoology / Biotechnology"
+  },
+  {
+   "id": "s02",
+   "title": {
+    "en": "Introduction to Gene Therapy"
+   },
+   "blocks": [
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Definition\n**Gene therapy** is a medical approach in which therapeutic genes are introduced into a patient's cells to correct or compensate for a faulty gene that causes disease."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Most genetic diseases arise from mutations — changes in DNA sequence — that disrupt normal protein function. Gene therapy aims to address the underlying genetic cause rather than just the symptoms."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The concept rests on a simple idea: _if a defective gene causes a disease, delivering a functional copy of that gene into the right cells should restore normal function._"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "exam",
+     "text": {
+      "en": "Exam Point\nGene therapy was first clinically attempted in 1990 on a child with ADA-SCID (Adenosine Deaminase Deficiency — a form of \"bubble boy\" disease), marking a landmark in modern medicine."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Importance in Modern Medicine**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Offers potential cure for inherited (single-gene) disorders"
+      },
+      {
+       "en": "Provides new strategies for treating cancer"
+      },
+      {
+       "en": "Reduces dependence on life-long drug therapy"
+      },
+      {
+       "en": "Forms the basis of precision medicine"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Gene therapy treats disease at the genetic level — not just symptoms"
+      },
+      {
+       "en": "It involves delivering functional genes into patient cells"
+      },
+      {
+       "en": "The therapeutic gene replaces, repairs, or silences a defective gene"
+      },
+      {
+       "en": "First clinical trial: 1990 (ADA-SCID, USA)"
+      },
+      {
+       "en": "It is a cornerstone of modern biotechnology and personalised medicine"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 02"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": {
+    "en": "Basic Principle of Gene Therapy"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Gene therapy is based on three core strategies for handling a faulty gene:"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Replace**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Insert a functional copy of the defective gene"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Repair**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Correct the existing mutation in the DNA sequence"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Silence**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Switch off a harmful gene that is overactive"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Role of Vectors**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A **vector** is the delivery vehicle that carries the therapeutic gene into target cells. Without an efficient vector, the gene cannot reach or enter the correct cell. The vector must:"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Carry the therapeutic gene"
+      },
+      {
+       "en": "Enter the target cell"
+      },
+      {
+       "en": "Deliver the gene to the nucleus"
+      },
+      {
+       "en": "Allow the gene to be expressed (produce protein)"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "exam",
+     "text": {
+      "en": "Note on Somatic Gene Therapy\nMost approved and ongoing clinical trials use **somatic gene therapy** — modifying body (somatic) cells of the patient. These changes are not passed to offspring. Germline gene therapy (modifying reproductive cells) raises serious ethical concerns and is not routinely practised."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Three strategies: replace, repair, or silence a defective gene"
+      },
+      {
+       "en": "Vectors are carriers that deliver the therapeutic gene"
+      },
+      {
+       "en": "Gene must reach the nucleus and be expressed to be effective"
+      },
+      {
+       "en": "Somatic gene therapy affects body cells only — not inheritable"
+      },
+      {
+       "en": "Germline gene therapy is ethically restricted"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 03"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "title": {
+    "en": "Types of Gene Therapy"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Gene therapy is broadly classified into two types based on **where** the gene transfer takes place:"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Ex Vivo**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Gene transfer happens _outside_ the patient's body. Cells are removed, modified in the lab, and returned."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**In Vivo**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Gene transfer happens _inside_ the patient's body. The therapeutic gene/vector is delivered directly into the patient."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**⚠️ Common Confusions**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Gene Therapy vs Gene Cloning**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Gene therapy** introduces a therapeutic gene into a patient's cells to treat disease. **Gene cloning** is the process of making multiple identical copies of a gene (usually in bacteria) for study or production — it does not involve treating a patient. Gene cloning is often a _tool used to prepare_ the therapeutic gene before it is used in gene therapy."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Gene Therapy vs Genetic Engineering**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Genetic engineering** is a broad set of laboratory techniques for altering DNA in any organism — including crops, bacteria, and animals — for various purposes. **Gene therapy** is a specific _medical application_ of genetic engineering focused on treating human disease. All gene therapy involves genetic engineering, but not all genetic engineering is gene therapy."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Ex Vivo vs In Vitro**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Ex vivo** means \"outside the living body\" but using cells taken from a living patient that are returned after modification. **In vitro** means experiments conducted entirely in lab conditions (e.g., in a test tube or culture dish), without necessarily returning cells to a patient."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Ex vivo = outside the body; in vivo = inside the body"
+      },
+      {
+       "en": "Gene therapy ≠ gene cloning (cloning copies genes; therapy uses them to treat disease)"
+      },
+      {
+       "en": "Genetic engineering is broad; gene therapy is its medical application in humans"
+      },
+      {
+       "en": "Ex vivo is generally safer; in vivo is more convenient but harder to control"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 04"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "title": {
+    "en": "Ex Vivo Gene Therapy"
+   },
+   "blocks": [
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Definition\n**Ex vivo gene therapy** involves removing cells from the patient, introducing the therapeutic gene into these cells outside the body (in a laboratory setting), and then returning the genetically modified cells back into the patient."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Step-by-Step Procedure**"
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "1 **Cell Isolation** Appropriate cells (e.g., haematopoietic stem cells, T-lymphocytes) are removed from the patient by a biopsy or blood draw."
+      },
+      {
+       "en": "2 **Gene Transfer (In Vitro)** A vector carrying the therapeutic gene is introduced into the isolated cells in a laboratory culture dish or bioreactor."
+      },
+      {
+       "en": "3 **Selection & Verification** Successfully modified cells are selected and confirmed to carry the therapeutic gene using molecular techniques (e.g., PCR, Southern blotting)."
+      },
+      {
+       "en": "4 **Cell Expansion** The verified modified cells are grown in large numbers under sterile laboratory conditions."
+      },
+      {
+       "en": "5 **Reintroduction into Patient** The expanded modified cells are transfused or transplanted back into the same patient, where they resume normal function."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Concept Diagram — Ex Vivo Gene Therapy**"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "gene_therapy_app-d01",
+     "caption": {
+      "en": "Ex Vivo Gene Therapy Diagram"
+     },
+     "labels": [
+      "1. Isolate",
+      "Patient Cells",
+      "(blood/biopsy)",
+      "→",
+      "2. Gene",
+      "Introduction",
+      "(vector used)",
+      "→",
+      "3. Select &",
+      "Verify Cells",
+      "(PCR / blotting)",
+      "→",
+      "4. Expand",
+      "Modified Cells",
+      "(lab culture)",
+      "→",
+      "5. Return to",
+      "Patient",
+      "(infusion)",
+      "Click each step for details"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**✅ Advantages**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Precise control over gene modification"
+      },
+      {
+       "en": "Modified cells verified before return"
+      },
+      {
+       "en": "Lower risk of systemic immune reaction"
+      },
+      {
+       "en": "Safer for patient"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**❌ Limitations**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Complex, time-consuming process"
+      },
+      {
+       "en": "Only suitable for accessible cell types"
+      },
+      {
+       "en": "High cost and technical skill required"
+      },
+      {
+       "en": "Not suitable for solid organs"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Clinical Examples\n• **ADA-SCID** — T-lymphocytes modified with functional ADA gene (first human gene therapy trial)\n• **Beta-thalassaemia** — haematopoietic stem cells corrected with functional beta-globin gene\n• **CAR-T cell therapy** — T-cells engineered ex vivo to target cancer cells"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Ex vivo = cells removed → modified in lab → returned to patient"
+      },
+      {
+       "en": "Verification step is a key advantage — only confirmed cells are returned"
+      },
+      {
+       "en": "Best suited for haematopoietic (blood-forming) stem cells"
+      },
+      {
+       "en": "ADA-SCID is the classic clinical example"
+      },
+      {
+       "en": "CAR-T cell therapy for cancer is a modern ex vivo approach"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 05"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "title": {
+    "en": "In Vivo Gene Therapy"
+   },
+   "blocks": [
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Definition\n**In vivo gene therapy** involves the direct delivery of the therapeutic gene (packaged in a vector) into the patient's body — straight into the target tissue or organ — without removing cells."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Step-by-Step Procedure**"
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "1 **Prepare Therapeutic Construct** The therapeutic gene is cloned into an appropriate vector (viral or non-viral) in the laboratory."
+      },
+      {
+       "en": "2 **Route of Administration** The vector–gene construct is administered to the patient via injection (intravenous, intramuscular), inhalation (lungs), or direct organ injection."
+      },
+      {
+       "en": "3 **Vector Reaches Target Cells** The vector travels through the bloodstream or tissue and enters the target cells in the living organ."
+      },
+      {
+       "en": "4 **Gene Integration / Expression** The therapeutic gene is delivered to the cell nucleus, where it is expressed (transcribed and translated) to produce the therapeutic protein."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Concept Diagram — In Vivo Gene Therapy**"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "gene_therapy_app-d02",
+     "caption": {
+      "en": "In Vivo Gene Therapy Diagram"
+     },
+     "labels": [
+      "1. Prepare",
+      "Gene + Vector",
+      "(lab preparation)",
+      "→",
+      "2. Administer",
+      "to Patient",
+      "(injection / inhale)",
+      "→",
+      "3. Vector",
+      "Reaches Target",
+      "(inside body)",
+      "→",
+      "4. Gene Expressed",
+      "Therapeutic protein produced",
+      "(normal function restored)",
+      "Click each step for details"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**✅ Advantages**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Simpler — no cell removal needed"
+      },
+      {
+       "en": "Suitable for organs (liver, lung, brain)"
+      },
+      {
+       "en": "Faster administration"
+      },
+      {
+       "en": "Can target many cell types at once"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**❌ Limitations**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Vector may trigger immune response"
+      },
+      {
+       "en": "Difficult to control specificity"
+      },
+      {
+       "en": "Risk of off-target gene delivery"
+      },
+      {
+       "en": "Cells cannot be verified before treatment"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Clinical Examples\n• **Cystic Fibrosis** — CFTR gene delivered by aerosol/vector into lung cells\n• **Haemophilia B** — Factor IX gene delivered by AAV vector into liver cells\n• **Leber Congenital Amaurosis** — RPE65 gene delivered by AAV into retinal cells (Luxturna — FDA approved)"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "In vivo = vector + gene delivered directly into patient's body"
+      },
+      {
+       "en": "No cell isolation step — simpler but harder to control"
+      },
+      {
+       "en": "Immune response to the vector is a major limitation"
+      },
+      {
+       "en": "AAV (Adeno-Associated Virus) is the most commonly used vector for in vivo therapy"
+      },
+      {
+       "en": "Luxturna (eye disease) is a landmark FDA-approved in vivo gene therapy product"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 06"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "title": {
+    "en": "Comparison: Ex Vivo vs In Vivo"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Side-by-Side Comparison Diagram**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🧫 Ex Vivo Gene Therapy"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "gene_therapy_app-d03",
+     "caption": {
+      "en": ""
+     },
+     "labels": [
+      "🧑",
+      "PATIENT",
+      "Cells removed",
+      "LABORATORY",
+      "Gene introduced into cells",
+      "Verified & expanded",
+      "Modified Cells",
+      "Confirmed & ready",
+      "Returned to patient",
+      "🧑"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "💉 In Vivo Gene Therapy"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "gene_therapy_app-d04",
+     "caption": {
+      "en": ""
+     },
+     "labels": [
+      "LABORATORY",
+      "Gene + Vector prepared",
+      "Administered",
+      "🧑",
+      "PATIENT",
+      "(gene delivered in body)",
+      "Vector targets cells",
+      "Target Organ / Cells",
+      "Gene expressed → protein made",
+      "✅"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Detailed Comparison Table**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Feature"
+      },
+      {
+       "en": "Ex Vivo Gene Therapy"
+      },
+      {
+       "en": "In Vivo Gene Therapy"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "Site of Gene Transfer"
+       },
+       {
+        "en": "Outside the patient's body (in the lab)"
+       },
+       {
+        "en": "Inside the patient's body"
+       }
+      ],
+      [
+       {
+        "en": "Procedure"
+       },
+       {
+        "en": "Cells removed → modified in lab → returned"
+       },
+       {
+        "en": "Vector + gene delivered directly into patient"
+       }
+      ],
+      [
+       {
+        "en": "Cell Verification"
+       },
+       {
+        "en": "Possible before reinfusion"
+       },
+       {
+        "en": "Not possible — no pre-verification"
+       }
+      ],
+      [
+       {
+        "en": "Complexity"
+       },
+       {
+        "en": "More complex, multi-step"
+       },
+       {
+        "en": "Simpler, fewer steps"
+       }
+      ],
+      [
+       {
+        "en": "Suitable for"
+       },
+       {
+        "en": "Accessible cells (blood, bone marrow)"
+       },
+       {
+        "en": "Organs (lung, liver, eye, brain)"
+       }
+      ],
+      [
+       {
+        "en": "Risk of Immune Response"
+       },
+       {
+        "en": "Lower (autologous cells returned)"
+       },
+       {
+        "en": "Higher (vector may trigger immune reaction)"
+       }
+      ],
+      [
+       {
+        "en": "Safety"
+       },
+       {
+        "en": "Safer — controlled conditions"
+       },
+       {
+        "en": "Less controlled — systemic spread risk"
+       }
+      ],
+      [
+       {
+        "en": "Cost"
+       },
+       {
+        "en": "High (lab procedures needed)"
+       },
+       {
+        "en": "Relatively lower per treatment"
+       }
+      ],
+      [
+       {
+        "en": "Applications"
+       },
+       {
+        "en": "ADA-SCID, beta-thalassaemia, CAR-T"
+       },
+       {
+        "en": "Cystic fibrosis, haemophilia, Leber's amaurosis"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Ex vivo: cells out → modified → returned. In vivo: gene goes in directly"
+      },
+      {
+       "en": "Key advantage of ex vivo: cell verification before return"
+      },
+      {
+       "en": "Key advantage of in vivo: suitable for solid organs and tissues"
+      },
+      {
+       "en": "Ex vivo is safer but more complex and expensive"
+      },
+      {
+       "en": "In vivo carries risk of immune reaction to the vector"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 07"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "title": {
+    "en": "Vectors Used in Gene Therapy"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "A **vector** is the delivery system that carries the therapeutic gene into the target cell. Choosing the right vector is critical for the success of gene therapy."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🦠 Retroviral Vectors**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Derived from retroviruses (e.g., Moloney murine leukaemia virus)"
+      },
+      {
+       "en": "Integrate permanently into host genome"
+      },
+      {
+       "en": "Good for dividing cells (e.g., stem cells)"
+      },
+      {
+       "en": "Risk: insertional mutagenesis"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🧬 Adenoviral Vectors**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Derived from adenoviruses (common cold virus)"
+      },
+      {
+       "en": "High transduction efficiency"
+      },
+      {
+       "en": "Do not integrate — transient expression"
+      },
+      {
+       "en": "Risk: strong immune response"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**⭕ AAV Vectors**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Adeno-Associated Virus — most popular today"
+      },
+      {
+       "en": "Low immunogenicity; stable expression"
+      },
+      {
+       "en": "Used in Luxturna and Zolgensma"
+      },
+      {
+       "en": "Limited cargo capacity (<5 kb)"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**💊 Non-Viral Vectors**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Liposomes, nanoparticles, naked DNA"
+      },
+      {
+       "en": "Lower immune response than viral vectors"
+      },
+      {
+       "en": "Less efficient gene delivery"
+      },
+      {
+       "en": "Used in some cancer & vaccine approaches"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "exam",
+     "text": {
+      "en": "Exam Point\n**Viral vectors are more efficient** than non-viral vectors but carry greater risks (immune reaction, insertional mutagenesis). AAV is currently the most preferred vector for approved gene therapies."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Vectors = gene delivery vehicles"
+      },
+      {
+       "en": "Viral vectors (retrovirus, adenovirus, AAV) are most efficient"
+      },
+      {
+       "en": "AAV is currently the most widely used approved vector"
+      },
+      {
+       "en": "Non-viral vectors (liposomes) are safer but less efficient"
+      },
+      {
+       "en": "Retroviral vectors integrate into genome — risk of mutagenesis"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 08"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "title": {
+    "en": "Role of Gene Therapy in Cancer Treatment"
+   },
+   "blocks": [
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Background\nCancer is fundamentally a genetic disease — it arises when genes that regulate cell growth become damaged or dysregulated. Gene therapy offers strategies to directly address this at the molecular level."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key Approaches in Cancer Gene Therapy**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🛡️ Tumour Suppressor Restoration**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Many cancers involve loss of tumour suppressor genes like _p53_. Delivering a functional copy of p53 into tumour cells can restore normal cell cycle control and trigger apoptosis (cell death) in cancer cells."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**💪 Immune System Stimulation**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Genes encoding immune-stimulating molecules (cytokines, antigens) are introduced to activate the immune system to recognise and destroy cancer cells. CAR-T cell therapy is a landmark application of this approach."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**☠️ Suicide Gene Therapy**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A \"suicide gene\" (e.g., HSV-TK) is introduced into cancer cells. When a harmless prodrug is given, the enzyme produced by the suicide gene converts it into a toxic compound specifically inside cancer cells, killing them."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🎯 Selective Targeting**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Vectors are engineered to deliver genes only to cancer cells (using tumour-specific promoters or surface receptors), minimising damage to healthy tissue — a major advantage over conventional chemotherapy."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Concept Diagram — Gene Therapy in Cancer**"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "gene_therapy_app-d05",
+     "caption": {
+      "en": ""
+     },
+     "labels": [
+      "Cancer Cell",
+      "Defective p53 /",
+      "overactive oncogene",
+      "→",
+      "Gene Therapy",
+      "Vector delivers gene",
+      "(p53 / suicide / CAR-T)",
+      "→",
+      "Result",
+      "Tumour cell death /",
+      "immune clearance",
+      "→",
+      "Outcome",
+      "Tumour regression /",
+      "remission in patient"
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Clinical Significance\n• **Gendicine** (China, 2003) — first approved gene therapy product; p53-expressing adenovirus for head and neck cancer\n• **CAR-T cell therapies** (Kymriah, Yescarta) — FDA approved for certain leukaemias and lymphomas\n• These therapies represent a shift from non-specific chemotherapy to precise molecular targeting"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Cancer is a genetic disease — gene therapy directly targets the molecular cause"
+      },
+      {
+       "en": "Four key approaches: tumour suppressor restoration, immune stimulation, suicide gene therapy, selective targeting"
+      },
+      {
+       "en": "p53 is the most important tumour suppressor gene in gene therapy research"
+      },
+      {
+       "en": "CAR-T cell therapy is an ex vivo approach for blood cancers"
+      },
+      {
+       "en": "Suicide gene therapy uses a prodrug system to selectively kill cancer cells"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 09"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "title": {
+    "en": "Advantages and Limitations of Gene Therapy"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**✅ Advantages**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Treats the root genetic cause of disease"
+      },
+      {
+       "en": "Potential for permanent cure (single treatment)"
+      },
+      {
+       "en": "Applicable to inherited and acquired diseases"
+      },
+      {
+       "en": "Highly specific targeting possible"
+      },
+      {
+       "en": "Opens new avenues for untreatable diseases"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**❌ Limitations**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Risk of immune reaction to vectors"
+      },
+      {
+       "en": "Insertional mutagenesis (retroviral vectors)"
+      },
+      {
+       "en": "Short-lived gene expression in many cases"
+      },
+      {
+       "en": "Difficult to target specific tissues precisely"
+      },
+      {
+       "en": "Extremely high cost; limited accessibility"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "warn",
+     "text": {
+      "en": "Delivery Difficulty\nVectors must evade the immune system, survive in the bloodstream, reach the correct cell type, enter the nucleus, and sustain gene expression — each step is a potential point of failure."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Gene therapy can treat the root cause — not just symptoms"
+      },
+      {
+       "en": "Immune rejection of viral vectors is the most common clinical problem"
+      },
+      {
+       "en": "Insertional mutagenesis (accidental cancer-causing gene disruption) is a risk with retroviral vectors"
+      },
+      {
+       "en": "Cost remains a major barrier — some approved products cost millions per dose"
+      },
+      {
+       "en": "Short-lived expression often requires repeated treatment"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 10"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "title": {
+    "en": "Ethical and Clinical Considerations"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**⚠️ Safety Issues**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Vectors may trigger dangerous immune responses (e.g., Jesse Gelsinger case, 1999 — first gene therapy death). Rigorous safety testing is mandatory."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🕰️ Long-Term Effects**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Gene therapy is relatively new. Long-term consequences of gene integration or silencing are not fully known."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**💰 Cost and Access**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Some treatments (Zolgensma — ~$2 million/dose) are inaccessible to most patients globally. Equitable access is a major ethical challenge."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔬 Responsible Use**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Germline gene therapy could alter the human gene pool. Strict international guidelines (e.g., He Jiankui case controversy) govern its use."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Safety: Jesse Gelsinger (1999) — landmark tragedy prompting strict safety protocols"
+      },
+      {
+       "en": "Long-term integration effects are still under study"
+      },
+      {
+       "en": "Cost is a critical barrier — gene therapies among the world's most expensive treatments"
+      },
+      {
+       "en": "Germline gene therapy is ethically restricted internationally"
+      },
+      {
+       "en": "He Jiankui (2018) — controversial germline editing of human embryos, widely condemned"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 11"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "title": {
+    "en": "Interactive Learning"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Click each topic to expand key concepts. Use for quick review and exam preparation."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**📖 Gene Therapy — Core Concept**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Gene therapy introduces, alters, or replaces genetic material in a patient's cells to treat or prevent disease. The therapeutic gene is delivered via a vector that carries it to target cells, where it is expressed to produce a functional protein."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Click to Reveal — Definition\nA defective gene that causes a hereditary disease is called a mutant allele. Gene therapy provides a functional copy of this gene — called the transgene or therapeutic gene."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🧫 Ex Vivo — Key Points**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Cells are removed from the patient"
+      },
+      {
+       "en": "Therapeutic gene is introduced in the lab using a vector"
+      },
+      {
+       "en": "Modified cells are selected, verified, and expanded"
+      },
+      {
+       "en": "Cells are returned to the patient by infusion or transplant"
+      },
+      {
+       "en": "Suitable for blood cells, bone marrow stem cells"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Remember\nThe major advantage of ex vivo is that modified cells can be verified before reinfusion, reducing risk."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**💉 In Vivo — Key Points**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "No cell removal — vector + gene delivered directly into patient"
+      },
+      {
+       "en": "Given by injection, inhalation, or direct organ delivery"
+      },
+      {
+       "en": "Vector must find and enter target cells inside the body"
+      },
+      {
+       "en": "Suitable for organ targets (liver, lung, eye)"
+      },
+      {
+       "en": "Risk: immune response to the vector"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Remember\nAAV (Adeno-Associated Virus) is the most commonly used vector for in vivo gene therapy today."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🎗️ Cancer Treatment Role — Key Points**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Restores tumour suppressor genes (e.g., p53)"
+      },
+      {
+       "en": "Stimulates immune response (cytokine genes, CAR-T)"
+      },
+      {
+       "en": "Suicide gene therapy — selective cancer cell killing"
+      },
+      {
+       "en": "Targets cancer cells while sparing normal tissue"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "exam",
+     "text": {
+      "en": "Exam Focus\nCAR-T (Chimeric Antigen Receptor T-cell) therapy is an ex vivo approach where T-cells are engineered to recognise and destroy cancer cells."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**⚖️ Advantages and Limitations — Summary**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key Advantages**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Treats root genetic cause"
+      },
+      {
+       "en": "Potential for permanent cure"
+      },
+      {
+       "en": "Targets specific cell types"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key Limitations**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Immune reaction risk"
+      },
+      {
+       "en": "Insertional mutagenesis"
+      },
+      {
+       "en": "High cost and complexity"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 13"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "title": {
+    "en": "Summary & Revision Bullets"
+   },
+   "blocks": [
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Gene therapy introduces a therapeutic gene into patient cells to treat genetic disease at the molecular level."
+      },
+      {
+       "en": "Three core strategies: replace, repair, or silence a defective gene."
+      },
+      {
+       "en": "Ex vivo gene therapy: cells removed from patient → gene introduced in lab → modified cells returned."
+      },
+      {
+       "en": "In vivo gene therapy: vector + therapeutic gene delivered directly into the patient's body."
+      },
+      {
+       "en": "Ex vivo is safer and allows cell verification; in vivo is simpler and suitable for solid organs."
+      },
+      {
+       "en": "Vectors (viral or non-viral) are essential gene delivery vehicles; AAV is the most widely used today."
+      },
+      {
+       "en": "In cancer: gene therapy restores tumour suppressors (p53), activates immunity, or selectively kills cancer cells (suicide gene therapy)."
+      },
+      {
+       "en": "CAR-T cell therapy is a major ex vivo application for blood cancers."
+      },
+      {
+       "en": "Limitations: immune response to vectors, insertional mutagenesis, high cost, short-lived expression."
+      },
+      {
+       "en": "Ethical concerns include germline modification, equitable access, and long-term unknown effects."
+      },
+      {
+       "en": "Key approved products: Luxturna (eye disease, AAV, in vivo), Kymriah/Yescarta (CAR-T, ex vivo, blood cancer)."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Important Differences: Ex Vivo vs In Vivo (Exam Quick Table)**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Point"
+      },
+      {
+       "en": "Ex Vivo"
+      },
+      {
+       "en": "In Vivo"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "Gene transfer site"
+       },
+       {
+        "en": "Outside body (lab)"
+       },
+       {
+        "en": "Inside body"
+       }
+      ],
+      [
+       {
+        "en": "Cell verification"
+       },
+       {
+        "en": "Yes — before return"
+       },
+       {
+        "en": "No"
+       }
+      ],
+      [
+       {
+        "en": "Cell isolation"
+       },
+       {
+        "en": "Required"
+       },
+       {
+        "en": "Not required"
+       }
+      ],
+      [
+       {
+        "en": "Immune risk"
+       },
+       {
+        "en": "Lower"
+       },
+       {
+        "en": "Higher"
+       }
+      ],
+      [
+       {
+        "en": "Target"
+       },
+       {
+        "en": "Blood/marrow cells"
+       },
+       {
+        "en": "Solid organs"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 14"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "title": {
+    "en": "Glossary of Key Terms"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Gene Therapy**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Medical approach using therapeutic genes to treat or prevent disease by correcting genetic abnormalities in patient cells."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Ex Vivo**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Latin for \"outside the living.\" Gene modification occurs outside the patient's body in a lab setting before cells are returned."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**In Vivo**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Latin for \"within the living.\" Gene delivery occurs directly inside the patient's body without removing cells."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Vector**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A carrier (usually viral) used to deliver therapeutic genetic material into target cells."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Therapeutic Gene**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A functional copy of a gene introduced into patient cells to compensate for a defective or missing gene."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Target Cell**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The specific cell type into which the therapeutic gene is introduced to produce the desired effect."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Tumour Suppressor Gene**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A gene (e.g., p53) that normally restrains cell growth; when mutated, can lead to cancer."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Mutation**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A permanent change in the DNA sequence of a gene, which may disrupt normal protein function."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**AAV**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Adeno-Associated Virus — a small, non-pathogenic virus widely used as a vector in approved gene therapies."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**CAR-T Cell Therapy**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "An ex vivo approach where T-lymphocytes are engineered with chimeric antigen receptors to target and destroy cancer cells."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Somatic Gene Therapy**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Gene modification of body (non-reproductive) cells; changes are not heritable by offspring."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Insertional Mutagenesis**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A risk where a retroviral vector integrates near a proto-oncogene, potentially activating cancer-causing pathways."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 15"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "title": {
+    "en": "Frequently Asked University Exam Questions"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "1. Define gene therapy. Explain the basic principle and types of gene therapy with suitable examples."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Show Hint**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Define gene therapy (delivery of therapeutic gene to correct defective gene). Explain the three strategies (replace, repair, silence). Describe ex vivo and in vivo types. Give examples: ADA-SCID (ex vivo), haemophilia B (in vivo)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2. Differentiate between ex vivo and in vivo gene therapy. Which approach is considered safer and why?"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Show Hint**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Tabular comparison on: site of gene transfer, cell verification, procedure, immune risk, suitable cell types, cost. Ex vivo is safer because modified cells are verified before reintroduction, reducing risk of harmful immune reactions or off-target effects."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "3. Describe the role of vectors in gene therapy. Compare viral and non-viral vectors."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Show Hint**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Define vector as gene delivery vehicle. Explain properties required. Discuss viral vectors (retrovirus, adenovirus, AAV) — high efficiency, immune risk, integration. Non-viral vectors (liposomes) — lower efficiency, safer. Note AAV as preferred approved vector."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "4. Explain the application of gene therapy in cancer treatment with special reference to suicide gene therapy and tumour suppressor gene restoration."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Show Hint**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Explain cancer as a genetic disease. Discuss: (a) p53 tumour suppressor restoration, (b) suicide gene therapy — HSV-TK gene + prodrug system, (c) immune stimulation / CAR-T. Mention Gendicine and CAR-T approvals as clinical examples."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5. Discuss the ethical and clinical limitations of gene therapy. Why is germline gene therapy considered controversial?"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Show Hint**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Clinical limitations: immune response, insertional mutagenesis, short-lived expression, high cost. Ethical issues: safety (Jesse Gelsinger), equitable access, long-term unknown effects. Germline therapy alters heritable genome — permanent changes passed to all future generations; He Jiankui case as example."
+     }
+    }
+   ]
+  }
+ ],
+ "skipped": [
+  "quiz"
+ ],
+ "dropped": [
+  {
+   "selector": "nav",
+   "count": 1,
+   "sample": [
+    "Gene Therapy Intro Types Ex Vivo In Vivo Compare Cancer Quiz"
+   ]
+  },
+  {
+   "selector": "footer",
+   "count": 1,
+   "sample": [
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh"
+   ]
+  },
+  {
+   "selector": ".arrow",
+   "count": 5,
+   "sample": [
+    "▼",
+    "▼",
+    "▼"
+   ]
+  }
+ ],
+ "extractor": "1"
+}

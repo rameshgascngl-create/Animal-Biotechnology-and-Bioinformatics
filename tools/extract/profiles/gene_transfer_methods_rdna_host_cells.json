@@ -1,0 +1,51 @@
+{
+  "skip_ids": [
+    "quiz"
+  ],
+  "label_classes": [
+    "chip"
+  ],
+  "callout_classes": [
+    "ib"
+  ],
+  "reveal": {
+    "container": [
+      "rc"
+    ],
+    "front": [
+      "rf",
+      "rh"
+    ],
+    "back": [
+      "rb"
+    ]
+  },
+  "glossary": {
+    "container": [
+      "gc"
+    ],
+    "term": [
+      "gt"
+    ],
+    "def": [
+      "gd"
+    ]
+  },
+  "steps_item_classes": [
+    "fbox"
+  ],
+  "button_heading_classes": [
+    "ah",
+    "eqt"
+  ],
+  "extra_drop_selectors": [
+    ".rh"
+  ],
+  "accepted_script_literals": [
+    "%. Great work — review any missed questions.",
+    "%. Revisit the detailed method sections for the ones you missed.",
+    "%. Start from the overview and work through each method step by step.",
+    "%. Study the mechanism of each method carefully and retry.",
+    "Outstanding! You have completely mastered all gene transfer methods."
+  ]
+}

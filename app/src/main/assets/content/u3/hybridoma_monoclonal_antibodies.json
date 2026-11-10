@@ -1,0 +1,967 @@
+{
+ "id": "hybridoma_monoclonal_antibodies",
+ "unit": "III",
+ "title": {
+  "en": "Hybridoma & Monoclonal Antibodies"
+ },
+ "sections": [
+  {
+   "id": "s01",
+   "title": {
+    "en": "Overview"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "🧬 Unit III · Medical Biotechnology"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "title": {
+    "en": "Hybridoma Technology and Monoclonal Antibodies"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Hybridoma Technology and Monoclonal Antibodies"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Antibodies are the immune system's precision tools. By fusing an antibody-producing cell with an immortal tumour cell, Köhler and Milstein created a way to make unlimited quantities of a single, perfectly specific antibody."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "📚 4 chapters🎯 10 MCQs📝 Exam questions🎓 B.Sc. Zoology / Biotechnology"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🎯 Learning Objectives**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "✓Distinguish polyclonal and monoclonal antibodies."
+      },
+      {
+       "en": "✓Describe the steps of hybridoma technology."
+      },
+      {
+       "en": "✓Explain HAT selection with its biochemical basis."
+      },
+      {
+       "en": "✓Describe chimeric, humanised and fully human antibodies."
+      },
+      {
+       "en": "✓List applications of monoclonal antibodies in medicine and research."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": {
+    "en": "Antibodies: Polyclonal versus Monoclonal"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Monoclonal antibodies are identical antibodies from a single B-cell clone that recognise one epitope."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "An **antibody** (immunoglobulin) is a Y-shaped glycoprotein made by plasma cells. It binds an _antigen_ at a specific site called the **epitope**."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "hybridoma_monoclonal_antibodies-d01",
+     "caption": {
+      "en": "Fig. 1. Structure of an IgG antibody."
+     },
+     "labels": [
+      "Antigen-binding site",
+      "Antigen-binding site",
+      "Variable region (V H + V L )",
+      "Fab fragment",
+      "(binds antigen)",
+      "Hinge region",
+      "Heavy chain (blue)",
+      "Light chain (red)",
+      "Fc region",
+      "(effector function, constant)",
+      "Two identical heavy + two identical light chains joined by disulphide bonds"
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Feature"
+      },
+      {
+       "en": "Polyclonal antibodies"
+      },
+      {
+       "en": "Monoclonal antibodies (MAbs)"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Source**"
+       },
+       {
+        "en": "Many B-cell clones"
+       },
+       {
+        "en": "**One** B-cell clone (hybridoma)"
+       }
+      ],
+      [
+       {
+        "en": "**Epitope recognised**"
+       },
+       {
+        "en": "Many different epitopes"
+       },
+       {
+        "en": "**One** epitope"
+       }
+      ],
+      [
+       {
+        "en": "**Specificity**"
+       },
+       {
+        "en": "Lower; cross-reactivity"
+       },
+       {
+        "en": "Very high"
+       }
+      ],
+      [
+       {
+        "en": "**Batch consistency**"
+       },
+       {
+        "en": "Varies between animals"
+       },
+       {
+        "en": "Uniform, unlimited supply"
+       }
+      ],
+      [
+       {
+        "en": "**Production**"
+       },
+       {
+        "en": "Immunise animal and collect serum"
+       },
+       {
+        "en": "Hybridoma culture"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Monoclonal antibody\nA population of identical antibodies, all produced by a single clone of B lymphocytes and directed against a single antigenic determinant."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Historical landmark**\n**Georges Köhler and César Milstein** (Cambridge, 1975) fused antibody-producing B cells with myeloma cells to make immortal antibody-secreting **hybridomas**. They shared the **1984 Nobel Prize** in Physiology or Medicine with Niels Jerne."
+     }
+    }
+   ],
+   "label": "📗 Chapter 1"
+  },
+  {
+   "id": "s04",
+   "title": {
+    "en": "Hybridoma Technology: Step by Step"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Fuse a mortal antibody-making cell with an immortal cancer cell to get a cell that does both jobs."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Hybridoma\nA hybrid cell formed by fusion of a B lymphocyte (which makes a specific antibody but dies in culture) with a myeloma cell (immortal but makes no antibody). It secretes monoclonal antibody and divides indefinitely."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Steps (click each step)**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1. Immunise**BALB/c mouse"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**2. Harvest spleen**B cells"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**3. Fuse**PEG"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**4. HAT selection**only hybrids live"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**5. Screen**ELISA"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**6. Clone**limiting dilution"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**7. Produce**in vitro / ascites"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click a step to see what happens."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Why HAT selection works**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Cell type"
+      },
+      {
+       "en": "De novo purine/dTMP synthesis"
+      },
+      {
+       "en": "Salvage pathway (HGPRT)"
+      },
+      {
+       "en": "Fate in HAT medium"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Myeloma cell (HGPRT−)**"
+       },
+       {
+        "en": "Blocked by **aminopterin**"
+       },
+       {
+        "en": "Absent"
+       },
+       {
+        "en": "Dies"
+       }
+      ],
+      [
+       {
+        "en": "**Normal B cell**"
+       },
+       {
+        "en": "Blocked by aminopterin"
+       },
+       {
+        "en": "Present, but short lifespan"
+       },
+       {
+        "en": "Dies after a few days"
+       }
+      ],
+      [
+       {
+        "en": "**Hybridoma**"
+       },
+       {
+        "en": "Blocked"
+       },
+       {
+        "en": "Present (from B cell) and immortal (from myeloma)"
+       },
+       {
+        "en": "**Survives and grows**"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Remember**\nAminopterin blocks the **de novo** pathway; hypoxanthine and thymidine feed the **salvage** pathway, which needs HGPRT. Only cells with HGPRT can use that rescue."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Alternative: phage display▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Gene fragments for antibody variable regions are displayed on bacteriophage and selected without immunising animals. **George Smith and Gregory Winter** shared the 2018 Nobel Prize in Chemistry; adalimumab was the first fully human antibody developed this way."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Problems with mouse antibodies▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Humans make **HAMA** (human anti-mouse antibodies), which clear the drug and may cause allergic reactions. This led to chimeric, humanised and fully human antibodies."
+     }
+    }
+   ],
+   "label": "📘 Chapter 2"
+  },
+  {
+   "id": "s05",
+   "title": {
+    "en": "Engineered Monoclonal Antibodies"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Genetic engineering reduces the mouse content of therapeutic antibodies."
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Type"
+      },
+      {
+       "en": "Mouse content"
+      },
+      {
+       "en": "Suffix"
+      },
+      {
+       "en": "Example"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Murine**"
+       },
+       {
+        "en": "Entire antibody"
+       },
+       {
+        "en": "-omab"
+       },
+       {
+        "en": "Muromonab-CD3 (OKT3, first therapeutic MAb, 1986)"
+       }
+      ],
+      [
+       {
+        "en": "**Chimeric**"
+       },
+       {
+        "en": "Mouse variable regions + human constant regions (~65% human)"
+       },
+       {
+        "en": "-ximab"
+       },
+       {
+        "en": "Rituximab, infliximab"
+       }
+      ],
+      [
+       {
+        "en": "**Humanised**"
+       },
+       {
+        "en": "Only mouse CDRs on a human framework (~95% human)"
+       },
+       {
+        "en": "-zumab"
+       },
+       {
+        "en": "Trastuzumab, bevacizumab"
+       }
+      ],
+      [
+       {
+        "en": "**Fully human**"
+       },
+       {
+        "en": "None"
+       },
+       {
+        "en": "-umab"
+       },
+       {
+        "en": "Adalimumab, pembrolizumab, nivolumab"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**CDRs**\nThe antigen-binding specificity lies in the **complementarity-determining regions (CDRs)** of the variable domains. Humanisation grafts only these loops onto a human antibody scaffold."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1. Mouse MAb**immunogenic"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**2. Chimeric**V from mouse"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**3. Humanised**CDR grafting"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**4. Fully human**transgenic mice / phage"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click a step to see what happens."
+     }
+    }
+   ],
+   "label": "📙 Chapter 3"
+  },
+  {
+   "id": "s06",
+   "title": {
+    "en": "Applications of Monoclonal Antibodies"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "MAbs are used in therapy, diagnosis, purification and research."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Cancer therapy**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Trastuzumab** (Herceptin) — HER2-positive breast cancer."
+      },
+      {
+       "en": "**Rituximab** — anti-CD20, B-cell lymphoma (1997, first cancer MAb)."
+      },
+      {
+       "en": "**Pembrolizumab** — anti-PD-1 checkpoint inhibitor."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Autoimmune disease**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Adalimumab** and **infliximab** block TNF-α in rheumatoid arthritis, Crohn's disease."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Diagnosis**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Pregnancy test strips (anti-hCG)."
+      },
+      {
+       "en": "ELISA and rapid antigen tests."
+      },
+      {
+       "en": "Blood grouping, tumour markers (PSA)."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Research & purification**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Immunoaffinity chromatography."
+      },
+      {
+       "en": "Western blotting, immunofluorescence, flow cytometry."
+      },
+      {
+       "en": "Tissue typing and cell sorting."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Transplantation**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Anti-CD3 (OKT3) to prevent graft rejection."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Imaging**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Radiolabelled MAbs for tumour imaging."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Limitations**\n• Expensive to produce.\n• Immunogenicity of non-human antibodies.\n• Poor penetration into solid tumours.\n• Hybridomas can lose chromosomes and stop secreting."
+     }
+    }
+   ],
+   "label": "📒 Chapter 4"
+  },
+  {
+   "id": "s07",
+   "title": {
+    "en": "Summary & Exam Revision"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Key points and model answers likely to appear in university examinations."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key exam points**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Hybridoma** = B lymphocyte + myeloma cell; Köhler & Milstein, 1975; Nobel 1984."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Myeloma cells are **HGPRT-deficient**; **HAT medium** selects hybrids."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "3"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fusing agent: **PEG**. Screening: **ELISA**. Cloning: **limiting dilution**."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "4"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Mouse antibodies cause **HAMA**; solution: chimeric (-ximab), humanised (-zumab), human (-umab)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Phage display (Smith and Winter, Nobel 2018) produces fully human MAbs."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "6"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Uses: cancer therapy, autoimmune disease, diagnostics, purification, research."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Short-answer questions**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click a question to reveal the model answer."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.1What are monoclonal antibodies? How are they different from polyclonal antibodies?▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "MAbs are identical antibodies from a single B-cell clone, specific for one epitope. Polyclonal antibodies come from many clones and recognise many epitopes."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.2Describe the production of monoclonal antibodies.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Immunise mouse → collect spleen B cells → fuse with HGPRT-deficient myeloma cells using PEG → select hybridomas in HAT medium → screen supernatants by ELISA → clone by limiting dilution → large-scale culture or ascites → purification."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.3Explain the role of HAT medium.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Aminopterin blocks de novo nucleotide synthesis, so cells must use the HGPRT salvage pathway with hypoxanthine and thymidine. HGPRT-deficient myeloma cells die, B cells die naturally, and hybridomas survive."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.4Give four applications of MAbs.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Cancer therapy (trastuzumab, rituximab); diagnosis (pregnancy test, ELISA); immunoaffinity purification; prevention of graft rejection (OKT3); imaging."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.5Why are humanised antibodies preferred?▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "They reduce the HAMA response, have longer half-lives and are safer for repeated administration."
+     }
+    }
+   ],
+   "label": "📋 Summary"
+  },
+  {
+   "id": "s08",
+   "title": {
+    "en": "Key Terms & Glossary"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Important terms in simple language."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Antibody"
+     },
+     "definition": {
+      "en": "Y-shaped protein that binds a specific antigen."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Epitope"
+     },
+     "definition": {
+      "en": "The part of an antigen recognised by an antibody."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Hybridoma"
+     },
+     "definition": {
+      "en": "Immortal antibody-secreting cell formed by B cell and myeloma fusion."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "HAT medium"
+     },
+     "definition": {
+      "en": "Hypoxanthine-Aminopterin-Thymidine medium that selects hybridomas."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "HGPRT"
+     },
+     "definition": {
+      "en": "Hypoxanthine-guanine phosphoribosyl transferase, enzyme of the salvage pathway."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Ascites"
+     },
+     "definition": {
+      "en": "Fluid in the mouse peritoneum that accumulates MAb-secreting hybridoma cells."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "CDR"
+     },
+     "definition": {
+      "en": "Complementarity-determining region of the antibody variable domain."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "HAMA"
+     },
+     "definition": {
+      "en": "Human anti-mouse antibody immune response."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Phage display"
+     },
+     "definition": {
+      "en": "Technique displaying peptides or antibody fragments on phage for selection."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Fc region"
+     },
+     "definition": {
+      "en": "Constant tail of an antibody that engages immune effector functions."
+     }
+    }
+   ],
+   "label": "📖 Glossary"
+  }
+ ],
+ "skipped": [
+  "page-5"
+ ],
+ "dropped": [
+  {
+   "selector": "nav",
+   "count": 1,
+   "sample": [
+    "🧬 Hybridoma & Monoclonal Antibodies Animal Biotechnology · U"
+   ]
+  },
+  {
+   "selector": "#mob-hdr",
+   "count": 1,
+   "sample": [
+    "☰ Hybridoma & Monoclonal Antibodies"
+   ]
+  },
+  {
+   "selector": "#overlay",
+   "count": 1,
+   "sample": []
+  },
+  {
+   "selector": "footer",
+   "count": 8,
+   "sample": [
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh",
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh",
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh"
+   ]
+  },
+  {
+   "selector": ".start-btn",
+   "count": 1,
+   "sample": [
+    "Begin Learning →"
+   ]
+  },
+  {
+   "selector": ".btn-outline",
+   "count": 7,
+   "sample": [
+    "← Hybridoma & Monoclonal Antibodies",
+    "← Antibodies & MAbs",
+    "← Hybridoma Technology"
+   ]
+  },
+  {
+   "selector": ".btn-primary",
+   "count": 8,
+   "sample": [
+    "Hybridoma Technology →",
+    "Humanised MAbs →",
+    "Applications →"
+   ]
+  },
+  {
+   "selector": ".pg-nav",
+   "count": 7,
+   "sample": []
+  }
+ ],
+ "extractor": "1"
+}

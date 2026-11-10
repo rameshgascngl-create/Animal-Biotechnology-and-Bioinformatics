@@ -97,4 +97,27 @@ class ChapterParserTest {
         }
         assertEquals(32, diagrams)
     }
+
+    @Test fun all_29_generated_chapters_parse_cleanly_and_hold_all_145_diagrams() {
+        val root = listOf("src/main/assets/content", "app/src/main/assets/content")
+            .map(::File).first { it.isDirectory }
+        val perUnit = mapOf("u1" to 32, "u2" to 33, "u3" to 34, "u4" to 24, "u5" to 22)
+        val counts = mapOf("u1" to 6, "u2" to 8, "u3" to 7, "u4" to 4, "u5" to 4)
+        var total = 0
+        for ((u, expected) in perUnit) {
+            val files = File(root, u).listFiles { f -> f.extension == "json" }!!.sortedBy { it.name }
+            assertEquals("$u file count", counts[u], files.size)
+            var diagrams = 0
+            for (f in files) {
+                val r = parseChapter(f.readText())
+                assertTrue("${f.name}: ${r.warnings}", r.warnings.isEmpty())
+                val blocks = r.chapter!!.sections.flatMap { it.blocks }
+                assertTrue("${f.name} contains Unparsed blocks", blocks.none { it is Unparsed })
+                diagrams += blocks.count { it is Diagram }
+            }
+            assertEquals("$u diagrams", expected, diagrams)
+            total += diagrams
+        }
+        assertEquals(145, total)
+    }
 }

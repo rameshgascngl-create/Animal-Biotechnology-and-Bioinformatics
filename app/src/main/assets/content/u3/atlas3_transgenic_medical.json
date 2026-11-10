@@ -1,0 +1,1443 @@
+{
+ "id": "atlas3_transgenic_medical",
+ "unit": "III",
+ "title": {
+  "en": "Atlas III: Transgenic & Medical"
+ },
+ "sections": [
+  {
+   "id": "s01",
+   "title": {
+    "en": "Overview"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "🎨 Unit III · Diagram Atlas"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "title": {
+    "en": "Diagram Atlas III: Transgenic Animals and Medical Biotechnology"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Transgenesis · Knockout · Dolly · Hybridoma · Gene therapy · CRISPR · Markers"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Seventeen diagrams and flow charts for Unit III: how transgenic and knockout mice are made, how Dolly was cloned, how HAT selects hybridomas, the logic of gene therapy and CAR-T, how CRISPR cuts and repairs DNA, and how markers and fingerprints are read."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "📚 6 chapters🎯 10 MCQs📝 Exam questions🎓 B.Sc. Zoology / Biotechnology"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🎯 Learning Objectives**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "✓Draw the steps of producing transgenic and knockout mice."
+      },
+      {
+       "en": "✓Explain somatic cell nuclear transfer using Dolly."
+      },
+      {
+       "en": "✓Explain HAT selection and name the four classes of monoclonal antibody."
+      },
+      {
+       "en": "✓Compare ex vivo, in vivo and CAR-T gene therapy."
+      },
+      {
+       "en": "✓Describe CRISPR-Cas9 and compare RFLP, RAPD and STR fingerprinting."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": {
+    "en": "Transgenesis: Making a Transgenic Mouse"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "A transgenic animal carries a foreign gene (transgene) in its genome and passes it on."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Transgenic animal\nAn animal whose genome contains a stably integrated foreign gene (transgene) that is transmitted through the germ line."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas3_transgenic_medical-d01",
+     "caption": {
+      "en": "Fig. 1. Components of a transgene construct."
+     },
+     "labels": [
+      "Typical transgene construct (linear DNA for injection)",
+      "Promoter /",
+      "enhancer",
+      "5′ UTR +",
+      "intron",
+      "Coding sequence",
+      "(cDNA or gene)",
+      "3′ UTR +",
+      "poly(A) signal",
+      "controls where and when",
+      "introns improve expression",
+      "encodes the product",
+      "stabilises mRNA",
+      "Example: β-lactoglobulin or αS1-casein promoter + human gene → protein secreted in milk.",
+      "Metallothionein promoter (zinc inducible) + growth hormone gene gave the “super-mouse” (Palmiter and Brinster, 1982)."
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas3_transgenic_medical-d02",
+     "caption": {
+      "en": "Fig. 2. Pronuclear microinjection, the commonest method (Gordon _et al._ 1980; Palmiter and Brinster 1982)."
+     },
+     "labels": [
+      "1. Superovulate donor",
+      "female (PMSG then hCG)",
+      "and mate",
+      "2. Collect fertilised",
+      "eggs (zygotes)",
+      "3. Inject linear transgene",
+      "into the male pronucleus",
+      "(2–2000 copies)",
+      "4. Culture to 2-cell or",
+      "blastocyst; check viability",
+      "5. Transfer to pseudo-",
+      "pregnant foster mother",
+      "(mated with vasectomised male)",
+      "6. Screen pups: tail DNA",
+      "by PCR or Southern blot",
+      "7. Founder (F0), often",
+      "mosaic; ~1–30% of pups",
+      "transgenic",
+      "8. Breed to F1 for",
+      "germ-line transmission"
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Method"
+      },
+      {
+       "en": "Principle"
+      },
+      {
+       "en": "Note"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Pronuclear microinjection**"
+       },
+       {
+        "en": "DNA injected into the male pronucleus"
+       },
+       {
+        "en": "Random integration; mosaic founders"
+       }
+      ],
+      [
+       {
+        "en": "**Retroviral / lentiviral**"
+       },
+       {
+        "en": "Virus infects embryos"
+       },
+       {
+        "en": "Size limit; silencing"
+       }
+      ],
+      [
+       {
+        "en": "**ES-cell gene targeting**"
+       },
+       {
+        "en": "Homologous recombination in ES cells"
+       },
+       {
+        "en": "Precise knock-in and knockout"
+       }
+      ],
+      [
+       {
+        "en": "**SCNT cloning**"
+       },
+       {
+        "en": "Transfected donor cell + enucleated egg"
+       },
+       {
+        "en": "Used in sheep, goats, cattle"
+       }
+      ],
+      [
+       {
+        "en": "**CRISPR in zygotes**"
+       },
+       {
+        "en": "Cas9 + gRNA injected"
+       },
+       {
+        "en": "Rapid knockout and knock-in"
+       }
+      ]
+     ]
+    }
+   ],
+   "label": "📗 Atlas 3.1"
+  },
+  {
+   "id": "s04",
+   "title": {
+    "en": "Knockout Mice and Dolly the Sheep"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Two classical landmarks: targeted gene disruption in mice (Capecchi, Evans, Smithies; Nobel 2007) and cloning from an adult cell (Wilmut, Campbell 1996)."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas3_transgenic_medical-d03",
+     "caption": {
+      "en": "Fig. 3. Gene targeting with a neo (positive) and tk (negative) selection vector."
+     },
+     "labels": [
+      "Wild-type locus",
+      "Exon 1",
+      "Exon 2",
+      "Exon 3",
+      "Targeting vector",
+      "Homology arm 1",
+      "neo (positive)",
+      "Homology arm 2",
+      "tk (negative)",
+      "homologous recombination (crossover in arms)",
+      "Targeted allele (exon 2 replaced)",
+      "Exon 1",
+      "neo replaces exon 2: gene disrupted",
+      "Exon 3",
+      "Random integration keeps tk: ganciclovir kills those cells.",
+      "Correct targeting loses tk but keeps neo: resistant to G418 and ganciclovir."
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas3_transgenic_medical-d04",
+     "caption": {
+      "en": "Fig. 4. From ES cell to knockout mouse."
+     },
+     "labels": [
+      "Design vector; electroporate",
+      "into mouse ES cells",
+      "(129 strain)",
+      "G418 + ganciclovir:",
+      "enrich targeted ES",
+      "cells; verify by PCR/Southern",
+      "Inject ES cells into a",
+      "blastocyst (C57BL/6)",
+      "Implant in foster",
+      "mother; chimeric pups",
+      "(mixed coat colour)",
+      "Breed chimeras:",
+      "germ-line transmission",
+      "gives heterozygotes (+/−)",
+      "Cross heterozygotes:",
+      "25% +/+, 50% +/−,",
+      "25% −/− (knockout)"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas3_transgenic_medical-d05",
+     "caption": {
+      "en": "Fig. 5. Somatic cell nuclear transfer. Dolly was the only live lamb from 277 fusions."
+     },
+     "labels": [
+      "Donor: udder (mammary)",
+      "cell from a 6-year-old",
+      "Finn Dorset ewe",
+      "Serum starvation puts the",
+      "donor cell in G0",
+      "Egg from Scottish Blackface",
+      "ewe: nucleus removed",
+      "(enucleation)",
+      "Electrofusion of donor cell",
+      "with enucleated egg;",
+      "electrical activation",
+      "Culture ~6 days to",
+      "blastocyst",
+      "(277 fused, 29 embryos)",
+      "Transfer to Blackface",
+      "surrogate: 13 pregnancies,",
+      "1 live lamb",
+      "Dolly born 5 July 1996",
+      "(Roslin Institute);",
+      "euthanised 2003",
+      "Genetically identical to the",
+      "nuclear DNA donor",
+      "(mtDNA from the egg)"
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**PG focus**\n• Conditional knockouts (Cre-loxP) restrict gene deletion to a tissue or time.\n• Dolly’s mitochondrial DNA came from the egg donor, so she was a nuclear clone, not a complete genetic copy.\n• Related: embryonic cloning (embryo splitting) differs from SCNT."
+     }
+    }
+   ],
+   "label": "📘 Atlas 3.2"
+  },
+  {
+   "id": "s05",
+   "title": {
+    "en": "Animals as Bioreactors, Superbug and Bioremediation"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Transgenic animals can make drugs in milk; engineered microbes can clean up pollutants; both raise biosafety questions."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Animal bioreactor:** a transgenic animal that secretes a therapeutic protein into milk, blood, egg white or urine. Milk is preferred because yields are high (g/L) and proteins are glycosylated like human proteins."
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Animal / product"
+      },
+      {
+       "en": "Use"
+      },
+      {
+       "en": "Status"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Goat: human antithrombin (ATryn)**"
+       },
+       {
+        "en": "Prevents clotting in hereditary antithrombin deficiency"
+       },
+       {
+        "en": "Approved EU 2006, USA 2009 (later withdrawn commercially)"
+       }
+      ],
+      [
+       {
+        "en": "**Rabbit: C1-esterase inhibitor (Ruconest)**"
+       },
+       {
+        "en": "Hereditary angioedema"
+       },
+       {
+        "en": "Approved"
+       }
+      ],
+      [
+       {
+        "en": "**Sheep: α1-antitrypsin; goat: lactoferrin**"
+       },
+       {
+        "en": "Emphysema; antimicrobial"
+       },
+       {
+        "en": "Clinical or experimental"
+       }
+      ],
+      [
+       {
+        "en": "**Chicken: human enzymes in egg white (Kanuma, sebelipase α)**"
+       },
+       {
+        "en": "Lysosomal acid lipase deficiency"
+       },
+       {
+        "en": "Approved"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas3_transgenic_medical-d06",
+     "caption": {
+      "en": "Fig. 6. Anand Mohan Chakrabarty’s plasmid-combined _Pseudomonas_: the first patented living organism."
+     },
+     "labels": [
+      "Four hydrocarbon-degrading",
+      "plasmids (CAM, OCT,",
+      "XYL, NAH) from different",
+      "Pseudomonas strains",
+      "Conjugation brings",
+      "plasmids into one cell;",
+      "CAM and OCT recombine",
+      "Engineered Pseudomonas",
+      "(Chakrabarty, GE) degrades",
+      "more oil components",
+      "Patent allowed:",
+      "Diamond v. Chakrabarty,",
+      "US Supreme Court, 1980"
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Bioremediation approach"
+      },
+      {
+       "en": "Idea"
+      },
+      {
+       "en": "Example"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Biostimulation**"
+       },
+       {
+        "en": "Add nutrients to boost native microbes"
+       },
+       {
+        "en": "N and P on oiled shorelines"
+       }
+      ],
+      [
+       {
+        "en": "**Bioaugmentation**"
+       },
+       {
+        "en": "Add selected or engineered microbes"
+       },
+       {
+        "en": "Pseudomonas for hydrocarbons"
+       }
+      ],
+      [
+       {
+        "en": "**Bioventing / biosparging**"
+       },
+       {
+        "en": "Supply air to soil or groundwater"
+       },
+       {
+        "en": "Fuel-contaminated sites"
+       }
+      ],
+      [
+       {
+        "en": "**Landfarming / composting**"
+       },
+       {
+        "en": "Mix contaminated soil, aerate"
+       },
+       {
+        "en": "Oily sludge"
+       }
+      ],
+      [
+       {
+        "en": "**Phytoremediation**"
+       },
+       {
+        "en": "Plants take up or degrade pollutants"
+       },
+       {
+        "en": "Heavy metals"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Bioweapons (concept only)**\n• The 1972 Biological Weapons Convention (in force 1975) bans development, production and stockpiling of biological agents as weapons.\n• CDC Category A agents (highest priority) include anthrax, smallpox, plague, botulinum toxin, tularaemia and viral haemorrhagic fevers.\n• Response relies on surveillance, vaccines, antimicrobials and biosafety/biosecurity rules."
+     }
+    }
+   ],
+   "label": "📙 Atlas 3.3"
+  },
+  {
+   "id": "s06",
+   "title": {
+    "en": "Hybridoma Technology and Monoclonal Antibodies"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Köhler and Milstein (1975; Nobel 1984) fused a B cell with a myeloma cell to make an immortal antibody factory."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas3_transgenic_medical-d07",
+     "caption": {
+      "en": "Fig. 7. Production of monoclonal antibodies."
+     },
+     "labels": [
+      "Immunise mouse",
+      "with antigen",
+      "Remove spleen:",
+      "plasma B cells",
+      "making antibody",
+      "Fuse with HGPRT− myeloma",
+      "(PEG or electrofusion)",
+      "HAT medium",
+      "selects hybrids",
+      "Screen supernatants",
+      "(ELISA) for the",
+      "wanted antibody",
+      "Single-cell cloning",
+      "(limiting dilution)",
+      "Expand in culture",
+      "or ascites;",
+      "cryopreserve",
+      "Purify MAb",
+      "(Protein A/G)"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas3_transgenic_medical-d08",
+     "caption": {
+      "en": "Fig. 8. Why HAT medium selects only hybrids."
+     },
+     "labels": [
+      "HAT medium: hypoxanthine + aminopterin + thymidine",
+      "Myeloma cell (HGPRT−)",
+      "Spleen B cell (HGPRT+)",
+      "Hybridoma (HGPRT+ from B cell,",
+      "immortal from myeloma)",
+      "de novo purine synthesis blocked by aminopterin; salvage pathway needs HGPRT: absent",
+      "salvage pathway works but cells die in days (finite life span)",
+      "salvage pathway works; continued division (inherited from myeloma)",
+      "DIES",
+      "DIES",
+      "SURVIVES AND GROWS"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas3_transgenic_medical-d09",
+     "caption": {
+      "en": "Fig. 9. Reducing immunogenicity: the name stem tells you how human an antibody is."
+     },
+     "labels": [
+      "Fraction of human sequence (approximate)",
+      "Murine (-omab)",
+      "0%",
+      "Chimeric (-ximab)",
+      "65%",
+      "Humanised (-zumab)",
+      "~90%",
+      "Fully human (-umab)",
+      "100%"
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Application"
+      },
+      {
+       "en": "Example"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Diagnosis**"
+       },
+       {
+        "en": "Pregnancy test strips (hCG), ELISA, flow cytometry"
+       }
+      ],
+      [
+       {
+        "en": "**Therapy**"
+       },
+       {
+        "en": "Trastuzumab (HER2, breast cancer), rituximab (CD20), adalimumab (TNFα)"
+       }
+      ],
+      [
+       {
+        "en": "**Purification**"
+       },
+       {
+        "en": "Immunoaffinity chromatography"
+       }
+      ],
+      [
+       {
+        "en": "**Research**"
+       },
+       {
+        "en": "Immunohistochemistry, Western blot"
+       }
+      ]
+     ]
+    }
+   ],
+   "label": "📒 Atlas 3.4"
+  },
+  {
+   "id": "s07",
+   "title": {
+    "en": "Gene Therapy, Cancer Treatment and CRISPR Editing"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Gene therapy adds or corrects genes; genome editing changes the genome itself."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas3_transgenic_medical-d10",
+     "caption": {
+      "en": "Fig. 10. Ex vivo gene therapy (first successful trial: ADA-SCID, 1990)."
+     },
+     "labels": [
+      "Isolate patient cells",
+      "(for example T cells",
+      "or stem cells)",
+      "Culture; insert therapeutic",
+      "gene with a retroviral or",
+      "lentiviral vector",
+      "Check and expand",
+      "corrected cells",
+      "Return the cells",
+      "to the patient",
+      "(infusion)"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas3_transgenic_medical-d11",
+     "caption": {
+      "en": "Fig. 11. In vivo gene therapy (for example voretigene neparvovec for RPE65 retinal dystrophy, approved 2017)."
+     },
+     "labels": [
+      "Package gene in a vector",
+      "(AAV, adenovirus,",
+      "lipid nanoparticle)",
+      "Inject directly into the",
+      "target tissue or blood",
+      "(for example subretinal)",
+      "Cells in the body take up",
+      "the gene and make the",
+      "missing protein",
+      "Monitor: immune",
+      "response, duration,",
+      "off-target effects"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas3_transgenic_medical-d12",
+     "caption": {
+      "en": "Fig. 12. CAR-T therapy, a cancer treatment that is ex vivo gene therapy."
+     },
+     "labels": [
+      "Leukapheresis:",
+      "remove patient T cells",
+      "Activate T cells;",
+      "transduce with lentiviral",
+      "CAR gene",
+      "CAR (anti-CD19) = scFv",
+      "+ CD3ζ + costimulatory",
+      "domain",
+      "Expand in the laboratory;",
+      "lymphodepleting",
+      "chemotherapy for patient",
+      "Infuse CAR-T cells:",
+      "they kill CD19+",
+      "leukaemia cells",
+      "Watch for cytokine",
+      "release syndrome",
+      "and neurotoxicity"
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Cancer gene-therapy strategy"
+      },
+      {
+       "en": "Principle"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Gene replacement**"
+       },
+       {
+        "en": "Restore tumour suppressor (p53)"
+       }
+      ],
+      [
+       {
+        "en": "**Suicide gene**"
+       },
+       {
+        "en": "HSV-tk + ganciclovir kills transduced tumour cells"
+       }
+      ],
+      [
+       {
+        "en": "**Oncolytic virus**"
+       },
+       {
+        "en": "Replicates in cancer cells (talimogene laherparepvec, T-VEC)"
+       }
+      ],
+      [
+       {
+        "en": "**Immunotherapy**"
+       },
+       {
+        "en": "CAR-T cells or cytokine genes"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas3_transgenic_medical-d13",
+     "caption": {
+      "en": "Fig. 13. SpCas9 needs a PAM (NGG) next to a 20-nt target."
+     },
+     "labels": [
+      "SpCas9 target recognition",
+      "5′",
+      "3′",
+      "A",
+      "U",
+      "C",
+      "G",
+      "G",
+      "C",
+      "G",
+      "C",
+      "T",
+      "A",
+      "C",
+      "G",
+      "A",
+      "U",
+      "A",
+      "U",
+      "G",
+      "C",
+      "C",
+      "G",
+      "T",
+      "A",
+      "T",
+      "A",
+      "G",
+      "C",
+      "C",
+      "G",
+      "A",
+      "U",
+      "G",
+      "C",
+      "T",
+      "A",
+      "C",
+      "G",
+      "C",
+      "G",
+      "A",
+      "U",
+      "T",
+      "G",
+      "G",
+      "PAM (NGG)",
+      "guide RNA spacer (20 nt, red) pairs with the target strand",
+      "cut: 3 bp upstream of PAM",
+      "NHEJ (error-prone, no template)",
+      "small insertions/deletions (indels)",
+      "frame-shift → gene knockout",
+      "HDR (needs a donor template, S/G2)",
+      "precise edit or gene insertion",
+      "low efficiency in non-dividing cells"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas3_transgenic_medical-d14",
+     "caption": {
+      "en": "Fig. 14. A CRISPR experiment from design to verification."
+     },
+     "labels": [
+      "Design guide RNA",
+      "(crRNA + tracrRNA",
+      "or sgRNA)",
+      "Deliver Cas9 + gRNA",
+      "(plasmid, mRNA,",
+      "ribonucleoprotein, AAV)",
+      "Cas9 unwinds DNA at",
+      "PAM and cuts both",
+      "strands (RuvC, HNH)",
+      "Cell repairs break:",
+      "NHEJ or HDR",
+      "Verify edit: sequencing;",
+      "check off-target sites"
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**PG focus**\n• Base editors (C→T, A→G) and prime editors change bases without a double-strand break.\n• Casgevy (exa-cel) edits BCL11A enhancer in haematopoietic stem cells for sickle cell disease and β-thalassaemia (approved 2023)."
+     }
+    }
+   ],
+   "label": "📓 Atlas 3.5"
+  },
+  {
+   "id": "s08",
+   "title": {
+    "en": "Molecular Markers: RFLP, RAPD and DNA Fingerprinting"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Markers reveal differences in DNA between individuals, populations and species."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas3_transgenic_medical-d15",
+     "caption": {
+      "en": "Fig. 15. RFLP depends on gain or loss of restriction sites, or insertions and deletions between them."
+     },
+     "labels": [
+      "Extract genomic DNA",
+      "Digest with a restriction",
+      "enzyme",
+      "Separate fragments",
+      "on agarose gel",
+      "Southern transfer and",
+      "hybridise with labelled",
+      "probe",
+      "Autoradiograph:",
+      "bands differ in length",
+      "between individuals"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas3_transgenic_medical-d16",
+     "caption": {
+      "en": "Fig. 16. RAPD uses one short arbitrary primer."
+     },
+     "labels": [
+      "5′",
+      "3′",
+      "Random 10-mer primer binds at many sites on both strands (low stringency)",
+      "Product only where two primer sites face each other within ~3 kb: amplicon 1",
+      "amplicon 2",
+      "Polymorphism = presence/absence of bands (dominant marker). Quick and cheap but poorly reproducible."
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas3_transgenic_medical-d17",
+     "caption": {
+      "en": "Fig. 17. DNA fingerprint comparison (illustrative)."
+     },
+     "labels": [
+      "Ladder",
+      "Evidence",
+      "Victim",
+      "Suspect A",
+      "Suspect B",
+      "– cathode (wells)",
+      "+ anode",
+      "Evidence and Suspect B give identical band patterns: consistent with a match.",
+      "Suspect A and the victim differ: excluded as the source.",
+      "Modern forensics scores 20 STR loci (CODIS) and gives a random-match probability below 1 in a billion."
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Marker"
+      },
+      {
+       "en": "Inheritance"
+      },
+      {
+       "en": "Needs sequence info?"
+      },
+      {
+       "en": "Reproducibility"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**RFLP**"
+       },
+       {
+        "en": "Co-dominant"
+       },
+       {
+        "en": "Probe needed"
+       },
+       {
+        "en": "High"
+       }
+      ],
+      [
+       {
+        "en": "**RAPD**"
+       },
+       {
+        "en": "Dominant"
+       },
+       {
+        "en": "No"
+       },
+       {
+        "en": "Low"
+       }
+      ],
+      [
+       {
+        "en": "**AFLP**"
+       },
+       {
+        "en": "Dominant"
+       },
+       {
+        "en": "No"
+       },
+       {
+        "en": "High"
+       }
+      ],
+      [
+       {
+        "en": "**SSR / STR**"
+       },
+       {
+        "en": "Co-dominant"
+       },
+       {
+        "en": "Flanking primers"
+       },
+       {
+        "en": "High"
+       }
+      ],
+      [
+       {
+        "en": "**SNP**"
+       },
+       {
+        "en": "Co-dominant"
+       },
+       {
+        "en": "Yes"
+       },
+       {
+        "en": "Very high"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Applications of DNA fingerprinting (Alec Jeffreys, 1984)**\n• Forensics: identity from blood, semen, hair roots.\n• Paternity and kinship; disaster victim identification.\n• Wildlife forensics and breed authentication.\n• Genetic diversity and mapping in conservation and breeding."
+     }
+    }
+   ],
+   "label": "📑 Atlas 3.6"
+  },
+  {
+   "id": "s09",
+   "title": {
+    "en": "Summary & Exam Revision"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Key points and model answers likely to appear in university examinations."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key exam points**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Transgene = promoter + coding sequence + poly(A); microinjection into the **male pronucleus**."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Knockout: ES cells, neo/tk selection, blastocyst injection, chimera, breed; 1:2:1 in F2."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "3"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Dolly (1996): SCNT from an adult mammary cell; 277 fusions gave 1 live lamb."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "4"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Animal bioreactors secrete drugs in milk (goat antithrombin, rabbit C1-inhibitor)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Superbug (Chakrabarty): Pseudomonas with 4 plasmids; Diamond v. Chakrabarty (1980)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "6"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Hybridoma: B cell + HGPRT− myeloma; HAT selects; screen, clone, expand."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "7"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "-omab, -ximab, -zumab, -umab = murine, chimeric, humanised, human."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "8"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Ex vivo vs in vivo gene therapy; CAR-T is ex vivo; oncolytic viruses and suicide genes."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "9"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "CRISPR: gRNA + Cas9 + NGG PAM; NHEJ vs HDR."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "10"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "RFLP (co-dominant), RAPD (dominant), STR fingerprinting (forensics)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Short-answer questions**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click a question to reveal the model answer."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.1Describe the production of a transgenic mouse.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A construct (promoter + gene + poly A) is injected into the male pronucleus of fertilised eggs; embryos are transferred to a pseudopregnant foster; pups are screened by PCR/Southern; founders are bred to confirm germ-line transmission."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.2How is a knockout mouse produced?▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A targeting vector with a neo cassette replaces an exon in ES cells by homologous recombination; neo and tk selection enriches targeted cells; they are injected into blastocysts to give chimeras; breeding gives heterozygotes and then homozygous knockouts."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.3Explain the cloning of Dolly.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A mammary cell from an adult ewe was starved to G0 and fused by electrical pulse with an enucleated egg; the embryo was cultured and transferred to a surrogate; 1 of 277 fusions produced a live lamb in 1996."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.4What is the role of HAT medium?▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Aminopterin blocks de novo nucleotide synthesis, so cells must use the salvage pathway (HGPRT, TK). HGPRT-minus myeloma cells die; unfused B cells die naturally; only hybrids survive."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.5Differentiate ex vivo and in vivo gene therapy.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Ex vivo: patient cells are modified outside the body and returned. In vivo: the gene vector is injected directly into the patient."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.6Write short notes on CRISPR-Cas9.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A guide RNA directs Cas9 to a 20-nt target adjacent to an NGG PAM; Cas9 makes a double-strand break; NHEJ gives knockouts and HDR gives precise edits."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.7Distinguish RFLP and RAPD.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "RFLP detects fragment-length differences using restriction enzymes and a probe (co-dominant, reproducible). RAPD uses random primers in PCR (dominant, quick, less reproducible)."
+     }
+    }
+   ],
+   "label": "📋 Summary"
+  },
+  {
+   "id": "s10",
+   "title": {
+    "en": "Key Terms & Glossary"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Important terms in simple language."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Transgene"
+     },
+     "definition": {
+      "en": "A foreign gene inserted into an organism."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Founder (F0)"
+     },
+     "definition": {
+      "en": "First transgenic animal produced."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "ES cell"
+     },
+     "definition": {
+      "en": "Embryonic stem cell, pluripotent and from the inner cell mass."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Chimera"
+     },
+     "definition": {
+      "en": "Animal containing cells from two different embryos."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "SCNT"
+     },
+     "definition": {
+      "en": "Somatic cell nuclear transfer."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "HGPRT"
+     },
+     "definition": {
+      "en": "Hypoxanthine-guanine phosphoribosyl transferase of the salvage pathway."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Epitope"
+     },
+     "definition": {
+      "en": "Part of an antigen recognised by an antibody."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Ex vivo"
+     },
+     "definition": {
+      "en": "Treatment performed outside the body on removed cells."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "PAM"
+     },
+     "definition": {
+      "en": "Protospacer adjacent motif needed by Cas9."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "NHEJ"
+     },
+     "definition": {
+      "en": "Non-homologous end joining; error-prone DNA repair."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "HDR"
+     },
+     "definition": {
+      "en": "Homology-directed repair using a template."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "STR"
+     },
+     "definition": {
+      "en": "Short tandem repeat used in DNA profiling."
+     }
+    }
+   ],
+   "label": "📖 Glossary"
+  }
+ ],
+ "skipped": [
+  "page-7"
+ ],
+ "dropped": [
+  {
+   "selector": "nav",
+   "count": 1,
+   "sample": [
+    "🎨 Atlas III: Transgenic & Medical Animal Biotechnology · Uni"
+   ]
+  },
+  {
+   "selector": "#mob-hdr",
+   "count": 1,
+   "sample": [
+    "☰ Atlas III: Transgenic & Medical"
+   ]
+  },
+  {
+   "selector": "#overlay",
+   "count": 1,
+   "sample": []
+  },
+  {
+   "selector": "footer",
+   "count": 10,
+   "sample": [
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh",
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh",
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh"
+   ]
+  },
+  {
+   "selector": ".start-btn",
+   "count": 1,
+   "sample": [
+    "Begin Learning →"
+   ]
+  },
+  {
+   "selector": ".btn-outline",
+   "count": 9,
+   "sample": [
+    "← Atlas III: Transgenic & Medical",
+    "← Transgenesis",
+    "← Knockout & Dolly"
+   ]
+  },
+  {
+   "selector": ".btn-primary",
+   "count": 10,
+   "sample": [
+    "Knockout & Dolly →",
+    "Bioreactors & Superbug →",
+    "Hybridoma & MAbs →"
+   ]
+  },
+  {
+   "selector": ".pg-nav",
+   "count": 9,
+   "sample": []
+  }
+ ],
+ "extractor": "1"
+}

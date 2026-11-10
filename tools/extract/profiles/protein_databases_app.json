@@ -1,0 +1,36 @@
+{
+  "skip_ids": [
+    "quiz"
+  ],
+  "label_classes": [
+    "snum",
+    "chip"
+  ],
+  "heading_classes": [
+    "stit"
+  ],
+  "callout_classes": [
+    "hb"
+  ],
+  "glossary": {
+    "container": "gc",
+    "term": "dt",
+    "def": "dd"
+  },
+  "steps_item_classes": [
+    "step"
+  ],
+  "button_heading_classes": [
+    "ab",
+    "hbtn"
+  ],
+  "extra_drop_selectors": [
+    ".ar"
+  ],
+  "accepted_script_literals": [
+    "🏆 Excellent! Strong command of protein and structural databases.",
+    "👍 Good work. Review the Swiss-Prot vs TrEMBL distinction and PDB features.",
+    "📚 Fair attempt. Focus on the comparison table and sequence vs structural database difference.",
+    "🔄 Keep revising. Start with SWISS-PROT and UniProt definitions, then PDB."
+  ]
+}

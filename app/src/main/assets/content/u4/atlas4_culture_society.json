@@ -1,0 +1,1610 @@
+{
+ "id": "atlas4_culture_society",
+ "unit": "IV",
+ "title": {
+  "en": "Atlas IV: Culture, HGP & Ethics"
+ },
+ "sections": [
+  {
+   "id": "s01",
+   "title": {
+    "en": "Overview"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "🎨 Unit IV · Diagram Atlas"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "title": {
+    "en": "Diagram Atlas IV: Cell Culture, Fermentation and Society"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Cell culture · Stem cells · Bioreactors · Ethanol · HGP · Ethics · IPR"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Seventeen diagrams for Unit IV: the culture workflow and its requirements, growth curve, finite and continuous lines, stem-cell hierarchy and iPSCs, artificial skin, a stirred-tank bioreactor, ethanol pathway and process, strategies of the Human Genome Project, and the ethical, regulatory and patent frameworks."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "📚 7 chapters🎯 10 MCQs📝 Exam questions🎓 B.Sc. Zoology / Biotechnology"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🎯 Learning Objectives**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "✓Draw the culture workflow and growth curve."
+      },
+      {
+       "en": "✓Distinguish primary cultures, finite and continuous lines."
+      },
+      {
+       "en": "✓Explain stem-cell potency and iPSC generation."
+      },
+      {
+       "en": "✓Label a stirred-tank bioreactor and compare reactor types."
+      },
+      {
+       "en": "✓Compare the two HGP strategies and outline patenting and regulation."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": {
+    "en": "Animal Cell Culture: Workflow, Requirements and Media"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Culture means growing cells outside the animal under controlled, sterile conditions."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Animal cell culture\nGrowth of cells dissociated from animal tissue, in a vessel with a defined medium, at 37 °C, pH 7.2–7.4 and 5% CO₂, under aseptic conditions."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas4_culture_society-d01",
+     "caption": {
+      "en": "Fig. 1. A typical culture cycle from tissue to frozen stock."
+     },
+     "labels": [
+      "Aseptic collection of",
+      "tissue (biopsy, embryo)",
+      "Disaggregate: mechanical,",
+      "trypsin or collagenase",
+      "Seed cells in medium",
+      "+ serum in flask/dish",
+      "Incubate 37 °C, 5% CO₂,",
+      "humid; cells attach",
+      "Monitor daily; change",
+      "medium every 2‑3 days",
+      "Confluent: trypsinise",
+      "and subculture (passage)",
+      "Characterise; test for",
+      "mycoplasma",
+      "Cryopreserve in 10% DMSO",
+      "in liquid N₂ (−196 °C)"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas4_culture_society-d02",
+     "caption": {
+      "en": "Fig. 2. Everything cultured cells need."
+     },
+     "labels": [
+      "Culture vessel",
+      "(flask, dish,",
+      "roller bottle)",
+      "Medium: nutrients,",
+      "glucose, amino acids,",
+      "vitamins, salts",
+      "Serum (5–10% FBS):",
+      "growth factors,",
+      "attachment factors",
+      "Gas phase:",
+      "5% CO₂ + air",
+      "37 °C incubator,",
+      "humidified",
+      "pH 7.2–7.4: bicarbonate",
+      "buffer, phenol red",
+      "Sterile technique:",
+      "laminar-flow cabinet,",
+      "antibiotics",
+      "Healthy cells"
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Medium type"
+      },
+      {
+       "en": "Examples"
+      },
+      {
+       "en": "Notes"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Natural**"
+       },
+       {
+        "en": "Plasma clot, serum, tissue extract, embryo extract"
+       },
+       {
+        "en": "Complex, variable; early work (Harrison 1907)"
+       }
+      ],
+      [
+       {
+        "en": "**Artificial: basal**"
+       },
+       {
+        "en": "MEM, DMEM, RPMI-1640, Ham’s F-12, Medium 199"
+       },
+       {
+        "en": "Defined salts, amino acids, vitamins, glucose; needs serum"
+       }
+      ],
+      [
+       {
+        "en": "**Serum-free**"
+       },
+       {
+        "en": "Supplemented with insulin, transferrin, selenium"
+       },
+       {
+        "en": "Reproducible; used for biopharmaceuticals"
+       }
+      ],
+      [
+       {
+        "en": "**Chemically defined / protein-free**"
+       },
+       {
+        "en": "CHO and hybridoma media"
+       },
+       {
+        "en": "No animal components: safer, easier purification"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Culture"
+      },
+      {
+       "en": "Description"
+      },
+      {
+       "en": "Example"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Adherent (monolayer)**"
+       },
+       {
+        "en": "Attach to the surface; need trypsin for passage"
+       },
+       {
+        "en": "Fibroblasts, epithelial cells"
+       }
+      ],
+      [
+       {
+        "en": "**Suspension**"
+       },
+       {
+        "en": "Grow free in medium; scalable in bioreactors"
+       },
+       {
+        "en": "Hybridoma, lymphocytes, CHO-S"
+       }
+      ],
+      [
+       {
+        "en": "**Primary**"
+       },
+       {
+        "en": "Directly from tissue"
+       },
+       {
+        "en": "Chick embryo fibroblasts"
+       }
+      ],
+      [
+       {
+        "en": "**Cell line**"
+       },
+       {
+        "en": "Subcultured many times"
+       },
+       {
+        "en": "Finite or continuous"
+       }
+      ]
+     ]
+    }
+   ],
+   "label": "📗 Atlas 4.1"
+  },
+  {
+   "id": "s04",
+   "title": {
+    "en": "Growth Curve, Primary Culture and Cell Lines"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Cell populations follow a predictable curve; most normal cells have a finite life span."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas4_culture_society-d03",
+     "caption": {
+      "en": "Fig. 3. Growth curve: subculture during log phase."
+     },
+     "labels": [
+      "Time (days after seeding)",
+      "log viable cell number",
+      "Lag",
+      "Log (exponential)",
+      "Plateau",
+      "Decline",
+      "adaptation; enzyme synthesis",
+      "doubling time constant (≈20–36 h)",
+      "confluence, contact inhibition, nutrient limitation",
+      "toxic wastes, cell death",
+      "Subculture here (70–80% confluent)"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas4_culture_society-d04",
+     "caption": {
+      "en": "Fig. 4. Finite versus continuous cell lines."
+     },
+     "labels": [
+      "Primary culture",
+      "(direct from tissue;",
+      "mixed cells)",
+      "Secondary cultures:",
+      "first passage onwards",
+      "(finite life span)",
+      "Finite cell line:",
+      "40–60 doublings",
+      "(Hayflick limit)",
+      "Senescence and death",
+      "Transformation (spontaneous, viral",
+      "oncogene, or tumour origin)",
+      "→ continuous / immortal cell line",
+      "HeLa, CHO, Vero, HEK-293, BHK-21",
+      "Continuous lines: unlimited division, aneuploid, less contact inhibition"
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Cell line"
+      },
+      {
+       "en": "Origin"
+      },
+      {
+       "en": "Use"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**HeLa**"
+       },
+       {
+        "en": "Human cervical carcinoma (Henrietta Lacks, 1951)"
+       },
+       {
+        "en": "Virology, cancer biology, polio vaccine testing"
+       }
+      ],
+      [
+       {
+        "en": "**CHO**"
+       },
+       {
+        "en": "Chinese hamster ovary"
+       },
+       {
+        "en": "Recombinant protein production (mAbs, tPA)"
+       }
+      ],
+      [
+       {
+        "en": "**Vero**"
+       },
+       {
+        "en": "African green monkey kidney"
+       },
+       {
+        "en": "Vaccine production, virus assays"
+       }
+      ],
+      [
+       {
+        "en": "**HEK-293**"
+       },
+       {
+        "en": "Human embryonic kidney"
+       },
+       {
+        "en": "Transfection, viral vectors, protein expression"
+       }
+      ],
+      [
+       {
+        "en": "**BHK-21**"
+       },
+       {
+        "en": "Baby hamster kidney"
+       },
+       {
+        "en": "Foot-and-mouth disease vaccine"
+       }
+      ],
+      [
+       {
+        "en": "**NIH 3T3**"
+       },
+       {
+        "en": "Mouse embryo fibroblast"
+       },
+       {
+        "en": "Transformation (focus formation) assays"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**PG focus**\n• Hayflick (1961): normal human fibroblasts divide about 50 times, a limit linked to telomere shortening.\n• Cross-contamination is a major problem: HeLa has overgrown many lines, so authenticate lines by STR profiling.\n• Test regularly for mycoplasma (PCR, Hoechst stain)."
+     }
+    }
+   ],
+   "label": "📘 Atlas 4.2"
+  },
+  {
+   "id": "s05",
+   "title": {
+    "en": "Stem Cells, iPSCs, Organ Culture and Artificial Skin"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Stem cells self-renew and differentiate; they underpin regenerative medicine and tissue engineering."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas4_culture_society-d05",
+     "caption": {
+      "en": "Fig. 5. Potency hierarchy."
+     },
+     "labels": [
+      "Zygote (totipotent)",
+      "Blastocyst: inner cell mass",
+      "+ trophoblast",
+      "Embryonic stem cells (ESC)",
+      "pluripotent",
+      "Ectoderm",
+      "skin, neurons",
+      "Mesoderm",
+      "muscle, blood, bone",
+      "Endoderm",
+      "gut, liver, lung",
+      "Adult stem cells",
+      "multipotent: HSC, MSC,",
+      "neural, epidermal",
+      "iPSC: somatic cell +",
+      "Oct4, Sox2, Klf4, c-Myc",
+      "(Yamanaka, 2006)",
+      "Potency: totipotent > pluripotent > multipotent > unipotent"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas4_culture_society-d06",
+     "caption": {
+      "en": "Fig. 6. Yamanaka’s reprogramming (Nobel Prize 2012 with Gurdon)."
+     },
+     "labels": [
+      "Skin fibroblasts or blood",
+      "cells from patient",
+      "Introduce Oct4, Sox2,",
+      "Klf4, c-Myc (Sendai virus",
+      "or episomal plasmids)",
+      "Reprogrammed to iPSC:",
+      "ESC-like colonies",
+      "Differentiate in vitro:",
+      "cardiomyocytes, neurons,",
+      "beta cells",
+      "Disease modelling, drug",
+      "screening, autologous",
+      "cell therapy"
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Stem-cell source"
+      },
+      {
+       "en": "Advantages"
+      },
+      {
+       "en": "Concerns"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Embryonic (ESC)**"
+       },
+       {
+        "en": "Pluripotent, unlimited growth"
+       },
+       {
+        "en": "Ethical objections; teratoma risk; immune rejection"
+       }
+      ],
+      [
+       {
+        "en": "**Adult (HSC, MSC)**"
+       },
+       {
+        "en": "Established therapy (bone-marrow transplant); autologous"
+       },
+       {
+        "en": "Limited potency and numbers"
+       }
+      ],
+      [
+       {
+        "en": "**iPSC**"
+       },
+       {
+        "en": "Patient-specific; avoids embryo use"
+       },
+       {
+        "en": "Tumour risk; genetic/epigenetic abnormalities; cost"
+       }
+      ],
+      [
+       {
+        "en": "**Cord blood**"
+       },
+       {
+        "en": "Non-invasive, banked"
+       },
+       {
+        "en": "Small numbers of cells"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Technique"
+      },
+      {
+       "en": "Principle"
+      },
+      {
+       "en": "Use"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Plasma clot / raft**"
+       },
+       {
+        "en": "Explant on a clot or lens paper at medium–air interface"
+       },
+       {
+        "en": "Embryonic organ development"
+       }
+      ],
+      [
+       {
+        "en": "**Agar / grid method (Trowell)**"
+       },
+       {
+        "en": "Tissue on a metal grid at medium surface"
+       },
+       {
+        "en": "Gas exchange in organ culture"
+       }
+      ],
+      [
+       {
+        "en": "**Organ-on-a-chip**"
+       },
+       {
+        "en": "Microfluidic channels with living cells"
+       },
+       {
+        "en": "Drug testing without animals"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas4_culture_society-d07",
+     "caption": {
+      "en": "Fig. 7. Artificial skin mimics epidermis and dermis."
+     },
+     "labels": [
+      "Native skin",
+      "Artificial (cultured) skin",
+      "Epidermis: keratinocytes",
+      "(stratified)",
+      "Basement membrane",
+      "Dermis: fibroblasts",
+      "in collagen",
+      "Hypodermis (fat)",
+      "Cultured keratinocyte sheet",
+      "(Green, 1970s)",
+      "Collagen / biodegradable matrix",
+      "+ fibroblasts (dermal equivalent)",
+      "Silicone layer (temporary",
+      "epidermis): Integra",
+      "Uses: burns, chronic ulcers, drug and cosmetic testing (replaces animals)"
+     ]
+    }
+   ],
+   "label": "📙 Atlas 4.3"
+  },
+  {
+   "id": "s06",
+   "title": {
+    "en": "Bioreactors and Scale-up"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Large-scale culture needs controlled mixing, aeration, temperature and pH."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas4_culture_society-d08",
+     "caption": {
+      "en": "Fig. 8. A stirred-tank bioreactor with sensors and sparger."
+     },
+     "labels": [
+      "Motor",
+      "Sparger (air, O₂, CO₂)",
+      "Inlet: fresh medium",
+      "pH probe",
+      "DO probe",
+      "Temperature probe (37 °C jacket)",
+      "Exhaust gas (through filter)",
+      "Impeller: gentle mixing (low shear)",
+      "Harvest / sampling port",
+      "Stirred-tank bioreactor (CSTR)"
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Bioreactor"
+      },
+      {
+       "en": "Principle"
+      },
+      {
+       "en": "Suited to"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Stirred tank**"
+       },
+       {
+        "en": "Impeller mixes; sparger aerates"
+       },
+       {
+        "en": "Suspension cells; scale up to 20 000 L"
+       }
+      ],
+      [
+       {
+        "en": "**Airlift**"
+       },
+       {
+        "en": "Air bubbles drive circulation, no impeller"
+       },
+       {
+        "en": "Shear-sensitive cells"
+       }
+      ],
+      [
+       {
+        "en": "**Hollow fibre**"
+       },
+       {
+        "en": "Cells outside capillaries; medium flows inside"
+       },
+       {
+        "en": "High-density hybridoma; mAb"
+       }
+      ],
+      [
+       {
+        "en": "**Packed bed / fluidised bed**"
+       },
+       {
+        "en": "Cells on carriers (microcarriers, Cytodex)"
+       },
+       {
+        "en": "Adherent cells at large scale"
+       }
+      ],
+      [
+       {
+        "en": "**Wave / single-use bag**"
+       },
+       {
+        "en": "Rocking platform, disposable bag"
+       },
+       {
+        "en": "Clinical-scale, rapid changeover"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas4_culture_society-d09",
+     "caption": {
+      "en": "Fig. 9. Batch, fed-batch and perfusion operation."
+     },
+     "labels": [
+      "Batch: fixed medium;",
+      "harvest at end",
+      "Fed-batch: nutrient",
+      "fed during run;",
+      "harvest at end",
+      "Continuous / perfusion:",
+      "medium in and out",
+      "continuously, cells retained"
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Scale-up problems**\n• Oxygen transfer limits (kLa) and CO₂ build-up.\n• Shear damage to animal cells (no cell wall): use gentle impellers, Pluronic F-68.\n• Heterogeneous mixing in large tanks."
+     }
+    }
+   ],
+   "label": "📒 Atlas 4.4"
+  },
+  {
+   "id": "s07",
+   "title": {
+    "en": "Industrial Fermentation: Ethanol"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Yeast converts sugars to ethanol and carbon dioxide under anaerobic conditions."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas4_culture_society-d10",
+     "caption": {
+      "en": "Fig. 10. Pathway of ethanol formation by _Saccharomyces cerevisiae_."
+     },
+     "labels": [
+      "Starch / cane molasses (sucrose)",
+      "Hydrolysis: amylase or invertase",
+      "Glucose / fructose",
+      "Glycolysis → 2 pyruvate",
+      "Saccharomyces cerevisiae",
+      "Pyruvate decarboxylase → acetaldehyde + CO₂",
+      "Alcohol dehydrogenase → ethanol (regenerates NAD⁺)",
+      "Net: C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂ (theoretical yield 0.51 g/g)"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas4_culture_society-d11",
+     "caption": {
+      "en": "Fig. 11. Industrial production of ethanol."
+     },
+     "labels": [
+      "Raw material: molasses",
+      "or grain",
+      "Pre-treatment, dilution,",
+      "pH 4.5–5.0, sterilise",
+      "Inoculate yeast;",
+      "ferment 30–35 °C,",
+      "30–72 h (anaerobic)",
+      "Wash (7–10% ethanol)",
+      "Distillation: ~95% ethanol",
+      "(azeotrope)",
+      "Dehydration: molecular",
+      "sieve → absolute ethanol",
+      "Stillage: animal feed",
+      "or biogas",
+      "Use: fuel blend, solvent,",
+      "beverage"
+     ]
+    }
+   ],
+   "label": "📓 Atlas 4.5"
+  },
+  {
+   "id": "s08",
+   "title": {
+    "en": "Human Genome Project: Strategies and Findings"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "The HGP sequenced the human genome and set the model for large-scale, open biology."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas4_culture_society-d12",
+     "caption": {
+      "en": "Fig. 12. Milestones."
+     },
+     "labels": [
+      "1990",
+      "HGP begins (NIH, DOE)",
+      "1998",
+      "Celera formed",
+      "2001",
+      "Draft sequence published",
+      "2003",
+      "Completed (99%)",
+      "2022",
+      "T2T-CHM13: gapless"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas4_culture_society-d13",
+     "caption": {
+      "en": "Fig. 13. Hierarchical (public) approach."
+     },
+     "labels": [
+      "Hierarchical",
+      "(clone-by-clone)",
+      "public consortium",
+      "Break genome into large",
+      "BAC clones (100–200 kb)",
+      "Map clones: fingerprint",
+      "and overlap (contigs)",
+      "Shotgun sequence each",
+      "BAC; assemble"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas4_culture_society-d14",
+     "caption": {
+      "en": "Fig. 14. Whole-genome shotgun (private) approach."
+     },
+     "labels": [
+      "Whole-genome shotgun",
+      "Celera Genomics (Venter)",
+      "Shear genome into random",
+      "fragments; make libraries",
+      "Sequence both ends of",
+      "millions of clones",
+      "Computer assembly of",
+      "scaffolds using overlaps"
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Map type"
+      },
+      {
+       "en": "Unit"
+      },
+      {
+       "en": "Based on"
+      },
+      {
+       "en": "Resolution"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Genetic (linkage)**"
+       },
+       {
+        "en": "centiMorgan (cM)"
+       },
+       {
+        "en": "Recombination frequency"
+       },
+       {
+        "en": "~1 Mb"
+       }
+      ],
+      [
+       {
+        "en": "**Physical: cytogenetic**"
+       },
+       {
+        "en": "Band"
+       },
+       {
+        "en": "Giemsa staining; FISH"
+       },
+       {
+        "en": "~5–10 Mb"
+       }
+      ],
+      [
+       {
+        "en": "**Physical: STS / RH**"
+       },
+       {
+        "en": "cR or kb"
+       },
+       {
+        "en": "Radiation hybrids, STS content"
+       },
+       {
+        "en": "~100 kb"
+       }
+      ],
+      [
+       {
+        "en": "**Sequence**"
+       },
+       {
+        "en": "bp"
+       },
+       {
+        "en": "Nucleotide sequence"
+       },
+       {
+        "en": "1 bp"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Fact"
+      },
+      {
+       "en": "Value"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Genome size**"
+       },
+       {
+        "en": "≈3.1 billion bp (haploid)"
+       }
+      ],
+      [
+       {
+        "en": "**Protein-coding genes**"
+       },
+       {
+        "en": "≈20 000–20 500"
+       }
+      ],
+      [
+       {
+        "en": "**Coding fraction of genome**"
+       },
+       {
+        "en": "≈1.5%"
+       }
+      ],
+      [
+       {
+        "en": "**Repeat content**"
+       },
+       {
+        "en": ">50% (Alu ≈10%, LINE-1 ≈17%)"
+       }
+      ],
+      [
+       {
+        "en": "**Duration; cost**"
+       },
+       {
+        "en": "1990–2003; ≈US$3 billion"
+       }
+      ],
+      [
+       {
+        "en": "**SNP density**"
+       },
+       {
+        "en": "≈1 per 1000 bp between two people"
+       }
+      ]
+     ]
+    }
+   ],
+   "label": "📑 Atlas 4.6"
+  },
+  {
+   "id": "s09",
+   "title": {
+    "en": "Bioethics, Regulation and Intellectual Property"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Powerful technology needs ethical frameworks, legal oversight and a way to reward invention."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas4_culture_society-d15",
+     "caption": {
+      "en": "Fig. 15. Principles of bioethics."
+     },
+     "labels": [
+      "Biotechnology",
+      "ethics",
+      "Autonomy",
+      "Informed consent;",
+      "privacy; right not to know",
+      "Beneficence /",
+      "non-maleficence",
+      "Benefit vs risk;",
+      "biosafety; clinical trials",
+      "Justice",
+      "Fair access; benefit",
+      "sharing; no discrimination",
+      "Animal welfare",
+      "3Rs: Replace, Reduce,",
+      "Refine"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas4_culture_society-d16",
+     "caption": {
+      "en": "Fig. 16. Regulatory pathway in India."
+     },
+     "labels": [
+      "Idea / lead product",
+      "in laboratory",
+      "Institutional Biosafety",
+      "Committee (IBSC)",
+      "Review Committee on",
+      "Genetic Manipulation (RCGM,",
+      "DBT)",
+      "Genetic Engineering",
+      "Appraisal Committee (GEAC,",
+      "MoEF&CC) for environmental",
+      "release",
+      "Animal experiments:",
+      "CPCSEA, IAEC",
+      "Clinical trials: CDSCO,",
+      "Ethics Committee, CTRI",
+      "Approval and",
+      "post-marketing",
+      "surveillance"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas4_culture_society-d17",
+     "caption": {
+      "en": "Fig. 17. From invention to patent."
+     },
+     "labels": [
+      "Invention: novel, inventive",
+      "step, industrial application",
+      "Search prior art",
+      "File application with",
+      "specification and claims",
+      "(Patent Office, India)",
+      "Publication after 18 months",
+      "Request for examination;",
+      "objections and hearing",
+      "Grant (20 years from",
+      "filing) and renewal fees",
+      "Opposition (pre-grant,",
+      "post-grant) or enforcement",
+      "PCT: international filing",
+      "within 12 months"
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "IPR"
+      },
+      {
+       "en": "Protects"
+      },
+      {
+       "en": "Term (India)"
+      },
+      {
+       "en": "Biotech example"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Patent**"
+       },
+       {
+        "en": "Inventions: product or process"
+       },
+       {
+        "en": "20 years"
+       },
+       {
+        "en": "Recombinant insulin process; CRISPR method"
+       }
+      ],
+      [
+       {
+        "en": "**Copyright**"
+       },
+       {
+        "en": "Original expression"
+       },
+       {
+        "en": "Life + 60 years"
+       },
+       {
+        "en": "Databases, software, textbooks"
+       }
+      ],
+      [
+       {
+        "en": "**Trademark**"
+       },
+       {
+        "en": "Brand identity"
+       },
+       {
+        "en": "10 years, renewable"
+       },
+       {
+        "en": "Product names"
+       }
+      ],
+      [
+       {
+        "en": "**Trade secret**"
+       },
+       {
+        "en": "Confidential know-how"
+       },
+       {
+        "en": "As long as secret"
+       },
+       {
+        "en": "Cell-line media formulation"
+       }
+      ],
+      [
+       {
+        "en": "**Plant variety / GI**"
+       },
+       {
+        "en": "Varieties, origin"
+       },
+       {
+        "en": "PPVFR Act 2001; GI Act 1999"
+       },
+       {
+        "en": "Basmati, Darjeeling tea"
+       }
+      ]
+     ]
+    }
+   ],
+   "label": "📎 Atlas 4.7"
+  },
+  {
+   "id": "s10",
+   "title": {
+    "en": "Summary & Exam Revision"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Key points and model answers likely to appear in university examinations."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key exam points**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Culture conditions: 37 °C, 5% CO₂, pH 7.2–7.4, humid, sterile; serum 5–10%."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Growth curve: lag, log, plateau, decline; subculture in log phase."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "3"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Normal cells have a finite life span (Hayflick limit ~50); continuous lines are transformed."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "4"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "HeLa, CHO, Vero, HEK-293, BHK-21: know origin and use."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Stem cell potency: totipotent > pluripotent > multipotent; iPSCs by Oct4, Sox2, Klf4, c-Myc."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "6"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Artificial skin: cultured keratinocytes on a collagen/fibroblast matrix."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "7"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Bioreactors: stirred tank, airlift, hollow fibre, packed bed; batch, fed-batch, perfusion."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "8"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Ethanol: pyruvate → acetaldehyde + CO₂ → ethanol; yeast; distillation."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "9"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "HGP: 1990–2003, 3.1 Gb, ~20 000 genes, ~1.5% coding; BAC vs shotgun."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "10"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Patent: novelty, inventive step, industrial application; 20 years in India; RCGM, GEAC, CPCSEA regulate."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Short-answer questions**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click a question to reveal the model answer."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.1List the requirements for animal cell culture.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Sterile vessel and aseptic technique; basal medium with serum or defined supplements; 37 °C; 5% CO₂ humidified atmosphere; pH 7.2–7.4 (bicarbonate buffer, phenol red indicator)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.2Describe the growth curve of cultured cells.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Lag (adaptation), log (exponential growth), plateau (confluence, nutrient limitation) and decline (toxic waste, death). Subculture in log phase."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.3Differentiate primary culture and cell line.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Primary culture is taken directly from tissue; once subcultured it becomes a cell line, finite (40–60 doublings) or continuous (immortal, transformed)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.4What are iPS cells?▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Pluripotent cells made by reprogramming somatic cells with Oct4, Sox2, Klf4 and c-Myc (Yamanaka 2006); patient-specific and avoid embryo destruction."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.5Describe a stirred-tank bioreactor.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A vessel with impeller, sparger, probes for pH, dissolved oxygen and temperature, jacket, inlet and harvest ports; mixing and aeration are controlled for suspension cells."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.6Explain how ethanol is produced industrially.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Molasses or hydrolysed starch is fermented by _S. cerevisiae_ at 30–35 °C; wash with 7–10% ethanol is distilled to ~95% and dehydrated with molecular sieves."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.7Compare the two approaches to the Human Genome Project.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Public: hierarchical BAC mapping then shotgun of each clone. Celera: whole-genome shotgun and computer assembly. Both converged in 2001."
+     }
+    }
+   ],
+   "label": "📋 Summary"
+  },
+  {
+   "id": "s11",
+   "title": {
+    "en": "Key Terms & Glossary"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Important terms in simple language."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Confluence"
+     },
+     "definition": {
+      "en": "Fraction of the surface covered by adherent cells."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Passage"
+     },
+     "definition": {
+      "en": "Transfer of cells into fresh vessels (subculture)."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Hayflick limit"
+     },
+     "definition": {
+      "en": "Finite number of divisions of normal cells."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Contact inhibition"
+     },
+     "definition": {
+      "en": "Stopping of growth when cells touch."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Pluripotent"
+     },
+     "definition": {
+      "en": "Able to form all three germ layers."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Perfusion"
+     },
+     "definition": {
+      "en": "Continuous supply of fresh medium with cell retention."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Sparger"
+     },
+     "definition": {
+      "en": "Device that bubbles gas into a bioreactor."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Contig"
+     },
+     "definition": {
+      "en": "Set of overlapping DNA clones or reads."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "BAC"
+     },
+     "definition": {
+      "en": "Bacterial artificial chromosome (100–200 kb)."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Prior art"
+     },
+     "definition": {
+      "en": "Existing knowledge that may defeat novelty of a patent."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "GEAC"
+     },
+     "definition": {
+      "en": "Genetic Engineering Appraisal Committee, India."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "3Rs"
+     },
+     "definition": {
+      "en": "Replace, Reduce, Refine in animal research."
+     }
+    }
+   ],
+   "label": "📖 Glossary"
+  }
+ ],
+ "skipped": [
+  "page-8"
+ ],
+ "dropped": [
+  {
+   "selector": "nav",
+   "count": 1,
+   "sample": [
+    "🎨 Atlas IV: Culture, HGP & Ethics Animal Biotechnology · Uni"
+   ]
+  },
+  {
+   "selector": "#mob-hdr",
+   "count": 1,
+   "sample": [
+    "☰ Atlas IV: Culture, HGP & Ethics"
+   ]
+  },
+  {
+   "selector": "#overlay",
+   "count": 1,
+   "sample": []
+  },
+  {
+   "selector": "footer",
+   "count": 11,
+   "sample": [
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh",
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh",
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh"
+   ]
+  },
+  {
+   "selector": ".start-btn",
+   "count": 1,
+   "sample": [
+    "Begin Learning →"
+   ]
+  },
+  {
+   "selector": ".btn-outline",
+   "count": 10,
+   "sample": [
+    "← Atlas IV: Culture, HGP & Ethics",
+    "← Cell Culture Basics",
+    "← Growth & Cell Lines"
+   ]
+  },
+  {
+   "selector": ".btn-primary",
+   "count": 11,
+   "sample": [
+    "Growth & Cell Lines →",
+    "Stem Cells & Tissues →",
+    "Bioreactors →"
+   ]
+  },
+  {
+   "selector": ".pg-nav",
+   "count": 10,
+   "sample": []
+  }
+ ],
+ "extractor": "1"
+}

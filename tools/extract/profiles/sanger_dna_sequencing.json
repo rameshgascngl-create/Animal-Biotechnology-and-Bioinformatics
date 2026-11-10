@@ -1,0 +1,51 @@
+{
+  "skip_ids": [
+    "quiz"
+  ],
+  "label_classes": [
+    "chip"
+  ],
+  "callout_classes": [
+    "ib"
+  ],
+  "reveal": {
+    "container": [
+      "rc"
+    ],
+    "front": [
+      "rf",
+      "rh"
+    ],
+    "back": [
+      "rb"
+    ]
+  },
+  "glossary": {
+    "container": [
+      "gc"
+    ],
+    "term": [
+      "gt"
+    ],
+    "def": [
+      "gd"
+    ]
+  },
+  "steps_item_classes": [
+    "fbox"
+  ],
+  "button_heading_classes": [
+    "ah",
+    "eqt"
+  ],
+  "extra_drop_selectors": [
+    ".rh"
+  ],
+  "accepted_script_literals": [
+    "%. Great understanding — review missed questions.",
+    "%. Read from the beginning and try again.",
+    "%. Revisit the principle and steps sections.",
+    "%. Study each component carefully and retry.",
+    "Outstanding! You have mastered the Sanger DNA sequencing method completely."
+  ]
+}

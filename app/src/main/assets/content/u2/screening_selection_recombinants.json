@@ -1,0 +1,1910 @@
+{
+ "id": "screening_selection_recombinants",
+ "unit": "II",
+ "title": {
+  "en": "Screening & Selection of Recombinants"
+ },
+ "sections": [
+  {
+   "id": "s01",
+   "title": {
+    "en": "Overview"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Animal Biotechnology · B.Sc. Zoology / Biotechnology"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "title": {
+    "en": "Screening & Selection of Recombinants"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Direct Selection · Insertional Inactivation · Blue-White Selection · Colony Hybridization"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "After gene cloning, thousands of bacterial colonies form on an agar plate — but only a tiny fraction carry the correct recombinant DNA. How do scientists find the \"needle in a haystack\"? This app explores all four major strategies used to identify successful recombinant clones."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🎯 Learning Objectives**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Define recombinant clones and explain why screening and selection are essential."
+      },
+      {
+       "en": "Distinguish between selection and screening in the context of gene cloning."
+      },
+      {
+       "en": "Describe direct selection using antibiotic resistance markers."
+      },
+      {
+       "en": "Explain insertional inactivation with pBR322 as an example."
+      },
+      {
+       "en": "Describe the blue-white selection system (lacZ/X-gal/IPTG) in detail."
+      },
+      {
+       "en": "Explain colony hybridization using labeled nucleic acid probes."
+      },
+      {
+       "en": "Compare all four methods using their principles and applications."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": {
+    "en": "Introduction to Screening and Selection"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**What Are Recombinant Cells?**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A recombinant cell (or recombinant clone) is a host cell (usually _E. coli_) that has been successfully transformed with a **recombinant vector** — a vector carrying the gene of interest inserted into its multiple cloning site (MCS). These cells contain and can replicate the desired foreign DNA fragment."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Why Are Screening and Selection Necessary?**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "After a gene cloning experiment, a typical agar plate will contain:"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Non-transformed cells** — did not take up any vector (majority of cells)."
+      },
+      {
+       "en": "**Cells with re-ligated vector** — took up vector that re-circularised without insert."
+      },
+      {
+       "en": "**Cells with recombinant vector** — the desired transformants carrying the gene of interest."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**The Core Problem:** After transformation, all three cell types look identical on an agar plate — they form white, creamy colonies of the same size and shape. Without selection and screening, it is impossible to identify which colonies carry the correct recombinant DNA."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Selection vs Screening — Key Distinction**"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Selection** — a process where _only_ cells with desired properties survive. Non-selected cells are killed or cannot grow. Example: antibiotic selection kills non-transformed cells. Result: active, growth-based identification."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Screening** — a process where all cells survive but a detectable signal (colour change, hybridisation signal) distinguishes recombinants from non-recombinants. Example: blue-white screening, colony hybridisation. Result: visual or probe-based identification."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Overview of Methods**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Direct Selection** — antibiotic resistance marker on vector; only transformed cells survive."
+      },
+      {
+       "en": "**Insertional Inactivation** — insert disrupts a second marker gene (e.g., tetr in pBR322); recombinants lose resistance to a second antibiotic."
+      },
+      {
+       "en": "**Blue-White Selection** — insert disrupts lacZ gene; recombinants form white colonies while non-recombinants form blue colonies on X-gal/IPTG plates."
+      },
+      {
+       "en": "**Colony Hybridization** — a labelled DNA probe hybridises to colonies containing the complementary gene sequence; positive clones identified by autoradiography or fluorescence."
+      }
+     ]
+    }
+   ],
+   "icon": "🔬",
+   "label": "Section 1"
+  },
+  {
+   "id": "s04",
+   "title": {
+    "en": "Direct Selection (Antibiotic Resistance)"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Definition**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Direct selection is a method in which transformed host cells are identified by their ability to **grow on selective media** containing an antibiotic. Only cells that have taken up the vector (which carries an antibiotic resistance gene) survive; all non-transformed cells are killed."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Principle**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The cloning vector carries a selectable marker gene — most commonly an antibiotic resistance gene such as **ampr** (ampicillin resistance) or **kanr** (kanamycin resistance). When transformed cells are plated on medium supplemented with the antibiotic:"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Cells that took up the vector express the resistance gene → **survive and form colonies**."
+      },
+      {
+       "en": "Non-transformed cells lack the resistance gene → **killed by the antibiotic**."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Steps Involved**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": true,
+     "items": [
+      {
+       "en": "Transform bacterial cells with the ligation mixture (contains recombinant + non-recombinant vectors + no vector)."
+      },
+      {
+       "en": "Allow cells to recover in rich LB broth at 37°C for 30–60 minutes (expression of resistance gene)."
+      },
+      {
+       "en": "Plate cells on LB agar supplemented with the appropriate antibiotic (e.g., ampicillin at 100 µg/mL)."
+      },
+      {
+       "en": "Incubate overnight at 37°C."
+      },
+      {
+       "en": "Count and record colonies — **all surviving colonies are transformants** (carry the vector)."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "tip",
+     "text": {
+      "en": "**Important Limitation:** Direct selection only tells us that the cell has taken up _some_ vector. It does NOT distinguish between cells carrying the recombinant vector (with insert) and cells carrying the non-recombinant re-ligated vector (without insert). A second step — insertional inactivation, blue-white screening, or colony hybridisation — is always required."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Advantages**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Simple, reliable, and inexpensive."
+      },
+      {
+       "en": "Eliminates the large majority of non-transformed cells in one step."
+      },
+      {
+       "en": "Works for virtually all plasmid-based cloning systems."
+      },
+      {
+       "en": "First essential step in all gene cloning workflows."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Limitations**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Cannot distinguish recombinant from non-recombinant transformants."
+      },
+      {
+       "en": "Requires vector to carry an appropriate resistance marker gene."
+      },
+      {
+       "en": "Antibiotic breakdown over time can give false positives (satellite colonies)."
+      }
+     ]
+    }
+   ],
+   "icon": "💊",
+   "label": "Section 2"
+  },
+  {
+   "id": "s05",
+   "title": {
+    "en": "Insertional Inactivation"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Definition**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Insertional inactivation is a method of identifying recombinant clones based on the **disruption of a second marker gene** by the insertion of foreign DNA into a restriction site located within that gene. The loss of function of the disrupted gene serves as evidence of successful insert incorporation."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Principle — How It Works**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The classic example uses **pBR322** plasmid, which carries two antibiotic resistance genes:"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**ampr** — ampicillin resistance gene (contains PstI restriction site)."
+      },
+      {
+       "en": "**tetr** — tetracycline resistance gene (contains BamHI, SalI, ClaI restriction sites)."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "When the gene of interest is cloned into the **BamHI site within tetr**:"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "The insert **disrupts the tetr gene** → tetracycline resistance is lost."
+      },
+      {
+       "en": "The ampr gene remains intact → ampicillin resistance is retained."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Identification of Recombinants — Replica Plating**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": true,
+     "items": [
+      {
+       "en": "**Step 1:** Plate all transformed cells on LB + **ampicillin**. All transformants (recombinant and non-recombinant) grow — non-transformed cells are killed."
+      },
+      {
+       "en": "**Step 2:** Prepare a **replica plate** on LB + **tetracycline** by pressing a sterile velvet pad onto the ampicillin plate, then onto the tetracycline plate — transferring the exact colony pattern."
+      },
+      {
+       "en": "**Step 3:** Compare the two plates:"
+      },
+      {
+       "en": "Colonies that grow on **BOTH** amp AND tet → **non-recombinant** (tetr intact, no insert)."
+      },
+      {
+       "en": "Colonies that grow on amp but **NOT** on tet → **recombinant** (tetr disrupted by insert)."
+      },
+      {
+       "en": "**Step 4:** Pick the corresponding white (absent) colonies from the original ampicillin plate for further analysis."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Key Logic:** ampr, tets = recombinant (insert disrupted tetr). ampr, tetr = non-recombinant (vector re-ligated without insert)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Advantages**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Directly distinguishes recombinant from non-recombinant transformants."
+      },
+      {
+       "en": "Does not require any additional substrate or reagent beyond antibiotics."
+      },
+      {
+       "en": "Works for any insert cloned into a restriction site within the marker gene."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Limitations**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Requires **replica plating** — an extra, technically careful step."
+      },
+      {
+       "en": "Labour-intensive for large numbers of colonies."
+      },
+      {
+       "en": "Recombinants are identified by _absence of growth_ on the second plate — easy to miss."
+      },
+      {
+       "en": "Does not confirm the correct insert (only that some insert is present)."
+      }
+     ]
+    }
+   ],
+   "icon": "🔴",
+   "label": "Section 3"
+  },
+  {
+   "id": "s06",
+   "title": {
+    "en": "Blue-White Selection (lacZ System)"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Definition**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Blue-white selection is a visual screening method that uses the **lacZ gene** (encoding β-galactosidase) and the chromogenic substrate **X-gal** to distinguish recombinant (white) colonies from non-recombinant (blue) colonies on the same agar plate."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**The lacZ Gene Principle**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Vectors used for blue-white screening (e.g., pUC19, pUC18) carry a fragment of the _E. coli_ **lacZ** gene encoding the **α-peptide** of β-galactosidase. The **Multiple Cloning Site (MCS)** is inserted within this lacZ-α fragment."
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "When the vector has **no insert**: the lacZ-α sequence is intact → functional α-peptide is produced → in the presence of X-gal and IPTG, β-galactosidase cleaves X-gal → **blue product** → **blue colony**."
+      },
+      {
+       "en": "When an **insert disrupts MCS**: the lacZ-α reading frame is interrupted → non-functional α-peptide → β-galactosidase cannot cleave X-gal → colony remains **white**."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Role of X-gal and IPTG**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**X-gal** (5-bromo-4-chloro-3-indolyl-β-D-galactopyranoside): A colourless synthetic substrate. When cleaved by β-galactosidase, it releases 5-bromo-4-chloro-indigo — an **intense blue compound** that accumulates in the colony."
+      },
+      {
+       "en": "**IPTG** (Isopropyl β-D-1-thiogalactopyranoside): A synthetic, non-hydrolysable inducer of the _lac_ operon. It induces expression of the lacZ-α gene in the vector, ensuring β-galactosidase is produced in sufficient amounts to generate the blue colour."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Blue Colonies vs White Colonies**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔵 BLUE Colony**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Vector re-ligated **without insert**"
+      },
+      {
+       "en": "lacZ-α gene is **intact**"
+      },
+      {
+       "en": "β-galactosidase is **functional**"
+      },
+      {
+       "en": "X-gal is **cleaved** → blue pigment"
+      },
+      {
+       "en": "= **Non-recombinant**"
+      },
+      {
+       "en": "Do NOT pick these colonies"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**⚪ WHITE Colony**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Insert cloned into MCS, **disrupting lacZ-α**"
+      },
+      {
+       "en": "lacZ-α gene is **disrupted**"
+      },
+      {
+       "en": "β-galactosidase is **non-functional**"
+      },
+      {
+       "en": "X-gal is **not cleaved** → no blue pigment"
+      },
+      {
+       "en": "= **Recombinant**"
+      },
+      {
+       "en": "✓ Pick these colonies!"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "tip",
+     "text": {
+      "en": "**Exam Memory Aid:** Blue = Bad (no insert, lacZ active, X-gal cleaved → blue). White = Winner (insert present, lacZ disrupted, X-gal not cleaved → white). Always pick the **white** colonies!"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Selective Medium Requirements**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The agar plate must contain: **Ampicillin** (selects for transformants) + **X-gal** (40 µg/mL, chromogenic substrate) + **IPTG** (0.1 mM, lac inducer)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Advantages**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Rapid, visual — results visible directly on the plate (no replica plating needed)."
+      },
+      {
+       "en": "Highly reliable and widely used in all molecular cloning laboratories."
+      },
+      {
+       "en": "Works simultaneously with antibiotic selection on the same plate."
+      },
+      {
+       "en": "Does not require radioactive probes or hybridisation."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Limitations**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Requires specific vectors with lacZ-α fragment and MCS (e.g., pUC series)."
+      },
+      {
+       "en": "White colonies only indicate an insert disrupted lacZ — not necessarily the correct insert."
+      },
+      {
+       "en": "False whites can occur if the insert is small and in-frame, allowing partial lacZ function."
+      },
+      {
+       "en": "Requires specific _lacZ_-deleted _E. coli_ host strains (e.g., DH5α, JM109) for α-complementation."
+      }
+     ]
+    }
+   ],
+   "icon": "🔵⚪",
+   "label": "Section 4"
+  },
+  {
+   "id": "s07",
+   "title": {
+    "en": "Colony Hybridization"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Definition**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Colony hybridization (also called _in situ_ colony hybridization or Grunstein-Hogness procedure) is a molecular screening technique in which bacterial colonies are transferred to a nylon or nitrocellulose membrane, lysed, and their DNA is hybridised with a **labelled nucleic acid probe** to identify colonies carrying the gene of interest."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Principle**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The principle is based on **nucleic acid hybridisation** — the complementary base pairing between a single-stranded labelled probe and its complementary target DNA sequence denatured and fixed on a membrane. Probe binding produces a detectable signal only at the positions of colonies carrying the matching DNA sequence."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Steps Involved**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": true,
+     "items": [
+      {
+       "en": "**Colony Transfer (Blotting):** A sterile nylon or nitrocellulose membrane is placed on top of a plate containing bacterial colonies. The colonies adhere to the membrane by contact — the membrane is carefully peeled off, with a mirror-image pattern of all colonies transferred. The original plate is kept as a _master plate_ for picking positive clones later."
+      },
+      {
+       "en": "**Cell Lysis:** The membrane with colonies is treated with NaOH (alkali lysis) — this lyses the bacterial cells, releasing DNA, and simultaneously **denatures** the double-stranded DNA into single strands. The membrane is then neutralised with a buffer (e.g., Tris-HCl pH 7.5)."
+      },
+      {
+       "en": "**DNA Fixation:** The single-stranded DNA is fixed to the membrane by baking at 80°C for 2 hours (nitrocellulose) or UV cross-linking (nylon). This permanently immobilises the DNA on the membrane, preventing it from washing off during hybridisation."
+      },
+      {
+       "en": "**Pre-hybridisation (Blocking):** The membrane is incubated in a blocking solution (e.g., containing salmon sperm DNA, BSA) to saturate non-specific binding sites and reduce background noise."
+      },
+      {
+       "en": "**Probe Hybridisation:** A **labelled single-stranded probe** (radioactively labelled with ³²P, or non-radioactively labelled with digoxigenin or biotin) is added to the membrane in hybridisation solution at appropriate stringency conditions (temperature and salt concentration). The probe anneals to complementary target sequences on the membrane."
+      },
+      {
+       "en": "**Washing:** The membrane is washed in solutions of increasing stringency to remove non-specifically bound probe, leaving only probe bound to perfectly complementary sequences."
+      },
+      {
+       "en": "**Detection:** For radioactive probes: the membrane is exposed to X-ray film (autoradiography) — positive colonies appear as dark spots corresponding to their positions on the membrane. For non-radioactive probes: enzyme-linked antibodies or streptavidin produce chemiluminescent or coloured signals."
+      },
+      {
+       "en": "**Identification:** The positive spots on the autoradiogram are aligned with the original master plate using orientation marks. The corresponding positive colonies are picked from the master plate for further analysis."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Probe Design:** The probe is a single-stranded DNA or RNA sequence complementary to the gene of interest. It may be designed based on: (a) a known partial DNA sequence, (b) degenerate oligonucleotide probes based on amino acid sequence of the protein, or (c) a related gene from another species."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Advantages**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Identifies the specific clone carrying the exact gene of interest — not just any insert."
+      },
+      {
+       "en": "Can screen thousands of colonies simultaneously in one experiment."
+      },
+      {
+       "en": "Works even without knowing anything about antibiotic resistance or colour changes."
+      },
+      {
+       "en": "Highly specific — based on DNA sequence complementarity."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Limitations**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Requires a probe complementary to the gene of interest — prior sequence knowledge needed."
+      },
+      {
+       "en": "Radioactive probes require safety precautions; non-radioactive alternatives are less sensitive."
+      },
+      {
+       "en": "Multi-step, time-consuming process (2–3 days for radioactive method)."
+      },
+      {
+       "en": "Risk of false positives from non-specific hybridisation if stringency is not optimised."
+      }
+     ]
+    }
+   ],
+   "icon": "🟢",
+   "label": "Section 5"
+  },
+  {
+   "id": "s08",
+   "title": {
+    "en": "Labeled Mechanism Diagrams"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Academically accurate inline SVG diagrams for all four methods."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 1 — Direct Selection Using Antibiotic Resistance"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "screening_selection_recombinants-d01",
+     "caption": {
+      "en": "Direct selection antibiotic resistance"
+     },
+     "labels": [
+      "Transformation Mix",
+      "rDNA",
+      "vector",
+      "no",
+      "DNA",
+      "plate on",
+      "LB + Ampicillin",
+      "✗ ✗ ✗",
+      "Non-transformed cells die",
+      "Transformants survive (have amp",
+      "r",
+      "Both recombinant AND non-recombinant",
+      "transformants grow ← need 2nd step",
+      "LB (no antibiotic)",
+      "All cells grow (no selection)",
+      "Control plate — cannot identify",
+      "transformants from non-transformants",
+      "Transformant (has vector, amp",
+      "r",
+      ")",
+      "Recombinant transformant (vector + insert)",
+      "✗ = Non-transformed cell (killed by ampicillin)",
+      "Note: Direct selection alone cannot distinguish recombinant (has insert) from non-recombinant (no insert) transformants. A second screening step is required."
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 2 — Insertional Inactivation with pBR322 & Replica Plating"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "screening_selection_recombinants-d02",
+     "caption": {
+      "en": "Insertional inactivation pBR322"
+     },
+     "labels": [
+      "pBR322 Plasmid",
+      "amp",
+      "r",
+      "tet",
+      "r",
+      "BamHI",
+      "ori",
+      "pBR322",
+      "4,361 bp",
+      "Insert at",
+      "BamHI site",
+      "Recombinant pBR322",
+      "INSERT",
+      "(amp",
+      "r",
+      "intact)",
+      "amp",
+      "r",
+      "tet",
+      "s",
+      "disrupted",
+      "Replica Plating",
+      "LB + Ampicillin",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "velvet pad",
+      "replica",
+      "LB + Tetracycline",
+      "✗",
+      "✗",
+      "1",
+      "2",
+      "4",
+      "6",
+      "Colonies 3 and 5 absent → RECOMBINANTS",
+      "Colonies 1,2,4,6 present → non-recombinants",
+      "Pick colonies 3 & 5 from amp plate!",
+      "Legend:",
+      "Non-recombinant: amp",
+      "r",
+      ", tet",
+      "r",
+      "✗ = Recombinant: amp",
+      "r",
+      ", tet",
+      "s",
+      "(absent from tet plate → pick from amp master plate)"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 3 — Blue-White Selection: Molecular Mechanism & Colony Appearance"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "screening_selection_recombinants-d03",
+     "caption": {
+      "en": "Blue-white selection mechanism"
+     },
+     "labels": [
+      "🔵 NON-RECOMBINANT → BLUE",
+      "pUC19",
+      "lacZ intact",
+      "lacZ-α",
+      "amp",
+      "r",
+      "IPTG induces lacZ-α",
+      "β-galactosidase",
+      "(functional enzyme)",
+      "cleaves X-gal",
+      "5-bromo-4-chloro-indigo",
+      "(BLUE insoluble compound)",
+      "BLUE",
+      "COLONY",
+      "✗ Do NOT pick",
+      "No insert in MCS",
+      "Non-recombinant transformant",
+      "vs",
+      "⚪ RECOMBINANT → WHITE",
+      "INSERT in MCS",
+      "pUC19",
+      "lacZ disrupted",
+      "lacZ-α",
+      "broken",
+      "amp",
+      "r",
+      "IPTG added (no effect)",
+      "β-galactosidase",
+      "(non-functional)",
+      "X-gal NOT cleaved",
+      "X-gal remains",
+      "colourless (no blue pigment)",
+      "WHITE",
+      "COLONY",
+      "✓ Pick this colony!",
+      "Insert in MCS disrupted lacZ",
+      "Recombinant transformant",
+      "Medium: LB + Ampicillin + X-gal (40 µg/mL) + IPTG (0.1 mM)"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 4 — Colony Hybridization: Step-by-Step Probe Detection"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "screening_selection_recombinants-d04",
+     "caption": {
+      "en": "Colony hybridization steps"
+     },
+     "labels": [
+      "① Master Plate",
+      "★",
+      "Keep master plate!",
+      "transfer",
+      "② Nylon Membrane",
+      "★",
+      "Colony imprint on membrane",
+      "NaOH lysis",
+      "+ denature",
+      "③ DNA Fixed (ssDNA)",
+      "★",
+      "ss-DNA baked/UV fixed",
+      "★ = target gene ssDNA",
+      "labelled",
+      "probe added",
+      "④ Hybridization",
+      "★ probe",
+      "bound (³²P)",
+      "Probe hybridises ONLY",
+      "to complementary target",
+      "⑤ Wash",
+      "Wash off",
+      "non-specific probe",
+      "Only specific signal remains",
+      "⑥ Autoradiograph (X-ray film)",
+      "★",
+      "White spot = positive clone (★)",
+      "⑦ Pick Positive Clone",
+      "★",
+      "Pick ★ colony from master plate",
+      "for further culture & verification",
+      "Key Elements of Colony Hybridization",
+      "Membrane: Nitrocellulose or nylon",
+      "Probe: ³²P-labelled ssDNA/RNA complementary to gene of interest",
+      "Detection: Autoradiography (radioactive) or chemiluminescence (non-radioactive)",
+      "Lysis: NaOH treatment (alkali lysis + DNA denaturation)",
+      "Hybridization: Stringency controls non-specific binding",
+      "Alignment: Orientation marks align film to master plate"
+     ]
+    }
+   ],
+   "icon": "🖼️",
+   "label": "Section 6 — Diagrams"
+  },
+  {
+   "id": "s09",
+   "title": {
+    "en": "Comparison of Screening and Selection Methods"
+   },
+   "blocks": [
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Feature"
+      },
+      {
+       "en": "Direct Selection"
+      },
+      {
+       "en": "Insertional Inactivation"
+      },
+      {
+       "en": "Blue-White Selection"
+      },
+      {
+       "en": "Colony Hybridization"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Type**"
+       },
+       {
+        "en": "Selection"
+       },
+       {
+        "en": "Screening"
+       },
+       {
+        "en": "Screening"
+       },
+       {
+        "en": "Screening"
+       }
+      ],
+      [
+       {
+        "en": "**Principle**"
+       },
+       {
+        "en": "Antibiotic kills non-transformed cells; transformants survive"
+       },
+       {
+        "en": "Insert disrupts marker gene (tetr); recombinants lose antibiotic resistance"
+       },
+       {
+        "en": "Insert disrupts lacZ-α; no β-gal → no X-gal cleavage → white colony"
+       },
+       {
+        "en": "Labelled probe hybridises to colony DNA; positive by autoradiography or fluorescence"
+       }
+      ],
+      [
+       {
+        "en": "**Marker / probe used**"
+       },
+       {
+        "en": "Antibiotic resistance gene (ampr)"
+       },
+       {
+        "en": "Two antibiotic resistance genes (ampr + tetr)"
+       },
+       {
+        "en": "lacZ-α gene, X-gal, IPTG"
+       },
+       {
+        "en": "Labelled ssDNA or RNA probe complementary to gene of interest"
+       }
+      ],
+      [
+       {
+        "en": "**Identification basis**"
+       },
+       {
+        "en": "Growth vs no growth on antibiotic plate"
+       },
+       {
+        "en": "Growth on amp plate but absence of growth on tet plate (replica plating)"
+       },
+       {
+        "en": "White colony (recombinant) vs blue colony (non-recombinant) on X-gal plate"
+       },
+       {
+        "en": "Dark spot on autoradiogram corresponding to colony position on master plate"
+       }
+      ],
+      [
+       {
+        "en": "**Identifies**"
+       },
+       {
+        "en": "Transformed vs non-transformed cells"
+       },
+       {
+        "en": "Recombinant vs non-recombinant transformants"
+       },
+       {
+        "en": "Recombinant vs non-recombinant transformants"
+       },
+       {
+        "en": "Colony with specific gene of interest"
+       }
+      ],
+      [
+       {
+        "en": "**Speed**"
+       },
+       {
+        "en": "Fast (overnight)"
+       },
+       {
+        "en": "Moderate (2 days — replica plating)"
+       },
+       {
+        "en": "Fast (overnight, same plate)"
+       },
+       {
+        "en": "Slow (2–5 days)"
+       }
+      ],
+      [
+       {
+        "en": "**Advantages**"
+       },
+       {
+        "en": "Simple, reliable, essential first step"
+       },
+       {
+        "en": "No special reagents; works for any insert"
+       },
+       {
+        "en": "Rapid visual; same plate; no replica needed"
+       },
+       {
+        "en": "Identifies specific insert; can screen thousands"
+       }
+      ],
+      [
+       {
+        "en": "**Limitations**"
+       },
+       {
+        "en": "Cannot identify recombinant vs non-recombinant"
+       },
+       {
+        "en": "Requires replica plating; recombinants absent (negative result)"
+       },
+       {
+        "en": "Specific vector required; white ≠ necessarily correct insert"
+       },
+       {
+        "en": "Requires known probe sequence; radioactive hazard; time-consuming"
+       }
+      ],
+      [
+       {
+        "en": "**Vector example**"
+       },
+       {
+        "en": "pUC19, pBR322, any vector"
+       },
+       {
+        "en": "pBR322 (BamHI site in tetr)"
+       },
+       {
+        "en": "pUC19, pUC18, pBluescript"
+       },
+       {
+        "en": "Any cloning vector"
+       }
+      ],
+      [
+       {
+        "en": "**Applications**"
+       },
+       {
+        "en": "All gene cloning workflows (first step)"
+       },
+       {
+        "en": "Genomic library screening; older cloning systems"
+       },
+       {
+        "en": "Standard lab cloning; cDNA library plating"
+       },
+       {
+        "en": "Screening cDNA/genomic libraries; identifying specific gene clones"
+       }
+      ]
+     ]
+    }
+   ],
+   "icon": "📋",
+   "label": "Section 7"
+  },
+  {
+   "id": "s10",
+   "title": {
+    "en": "Recombinant Screening Workflow — Click Each Step"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Click any step to expand details."
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "1 🧬 Gene Cloning (Ligation) The gene of interest is ligated into a vector using restriction enzymes and T4 DNA ligase. The ligation mixture contains recombinant vectors, re-ligated vectors, and uncut vector."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "2 🔄 Transformation into E. coli The ligation mixture is transformed into competent E. coli cells by heat shock (42°C) or electroporation. Only 1 in 10³–10⁵ cells takes up any vector."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "3 💊 Direct Selection (Antibiotic) Cells are plated on LB + ampicillin. Non-transformed cells die. Only cells carrying the vector survive. This step reduces millions of cells to thousands of transformants."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "4 🔵⚪ Blue-White Screening or Insertional Inactivation Blue-white: white colonies on X-gal/IPTG plates = recombinant. Insertional inactivation: amp-resistant but tet-sensitive (replica plating) = recombinant. Narrows transformants to potential recombinants."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "5 🔍 Colony Hybridization (Probe Screen) Colonies are transferred to membrane, lysed, and probed with labelled DNA. Only colonies with the specific gene of interest give a positive signal. Confirms the correct recombinant clone."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "6 ✅ Verify & Amplify Positive clones confirmed by restriction enzyme analysis, PCR, or DNA sequencing. Verified clone grown in large-scale liquid culture for DNA isolation or protein expression."
+      }
+     ]
+    }
+   ],
+   "icon": "🔄",
+   "label": "Section 8 — Workflow"
+  },
+  {
+   "id": "s11",
+   "title": {
+    "en": "Interactive Learning"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**💊 Direct Selection — Exam Key Points**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Selection Method"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Uses antibiotic resistance gene on the vector as a **selectable marker**."
+      },
+      {
+       "en": "Cells plated on antibiotic medium — only transformed cells (carrying vector) survive."
+      },
+      {
+       "en": "Result: all surviving colonies are transformants (have taken up some vector)."
+      },
+      {
+       "en": "**Does NOT identify recombinants** — a second step is always required."
+      },
+      {
+       "en": "Most common markers: ampr (ampicillin), kanr (kanamycin), neor (neomycin)."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Exam tip:** Direct selection = POSITIVE selection. Cells that survive ARE transformed. It is the FIRST step in all gene cloning workflows but cannot distinguish recombinant from non-recombinant transformants."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔴 Insertional Inactivation — Exam Key Points**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Screening Method"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Principle: insert into restriction site within a marker gene disrupts that gene's function."
+      },
+      {
+       "en": "Classic example: **pBR322**. Insert at BamHI site (in tetr) → tetr disrupted."
+      },
+      {
+       "en": "Recombinants: **ampr, tets**. Non-recombinants: **ampr, tetr**."
+      },
+      {
+       "en": "Identified by **replica plating** — absent colonies on tet plate = recombinants."
+      },
+      {
+       "en": "Limitation: identified by ABSENCE of growth — easy to overlook; needs careful comparison."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Exam tip:** Always remember: in pBR322 insertional inactivation, recombinant colonies are ampr but tets. They are identified on the amp plate as colonies ABSENT from the replica tet plate."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔵⚪ Blue-White Selection — Exam Key Points**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Screening Method"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Vector: pUC19 (or pUC18, pBluescript) — contains lacZ-α with MCS within it."
+      },
+      {
+       "en": "Medium: LB + ampicillin + **X-gal** (40 µg/mL) + **IPTG** (0.1 mM)."
+      },
+      {
+       "en": "No insert → lacZ-α intact → β-gal cleaves X-gal → **blue colony** = non-recombinant."
+      },
+      {
+       "en": "Insert in MCS → lacZ-α disrupted → no β-gal → X-gal not cleaved → **white colony** = recombinant."
+      },
+      {
+       "en": "Requires lacZ-α-deleted host strains (e.g., DH5α, JM109) for α-complementation to work."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Exam tip (memory trick):** Blue = Boring (no insert). White = Winner (has insert). X-gal is NOT a selective antibiotic — it is a chromogenic SUBSTRATE. IPTG is NOT an antibiotic — it is the lac INDUCER."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🟢 Colony Hybridization — Exam Key Points**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Screening Method"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "The most **specific** method — identifies the colony with the exact gene of interest."
+      },
+      {
+       "en": "Based on complementary base-pairing between probe and target DNA."
+      },
+      {
+       "en": "Probe: ³²P-labelled ssDNA/RNA complementary to gene of interest."
+      },
+      {
+       "en": "Key steps: colony transfer → lysis (NaOH) → denature DNA → bake/UV fix → block → probe → wash → autoradiograph → align to master plate → pick positive."
+      },
+      {
+       "en": "Can screen thousands of colonies in a single experiment."
+      },
+      {
+       "en": "Works even when blue-white or insertional inactivation cannot identify the specific correct insert."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "tip",
+     "text": {
+      "en": "**Exam tip:** Colony hybridization is the ONLY method that confirms the specific gene of interest is present — all other methods just confirm an insert is present. Know the 7 steps in correct order!"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Click-to-Reveal Key Terms**"
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Recombinant Clone"
+     },
+     "answer": {
+      "en": "A bacterial colony derived from a single cell that has been transformed with a recombinant vector — a vector containing the gene of interest inserted into its cloning site. The colony contains many copies of the recombinant DNA."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Selectable Marker"
+     },
+     "answer": {
+      "en": "A gene on the vector (usually an antibiotic resistance gene) used for selection — only cells carrying the vector survive on medium with the corresponding antibiotic. Examples: amp^r (ampicillin), kan^r (kanamycin), tet^r (tetracycline)."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Insertional Inactivation"
+     },
+     "answer": {
+      "en": "Disruption of a selectable marker gene by insertion of foreign DNA into a restriction site within it. Loss of that marker's function signals successful insert cloning. Used with pBR322: insert into BamHI (tet^r) → recombinants are amp^r, tet^s."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "lacZ Gene"
+     },
+     "answer": {
+      "en": "Gene encoding β-galactosidase in E. coli. In pUC vectors, the lacZ-α fragment (with MCS within it) is used for blue-white screening. When lacZ-α is disrupted by an insert, no functional β-galactosidase forms — colony remains white."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "X-gal"
+     },
+     "answer": {
+      "en": "5-Bromo-4-chloro-3-indolyl-β-D-galactopyranoside. A colourless synthetic substrate for β-galactosidase. When cleaved, it releases 5-bromo-4-chloro-indigo — a bright blue compound. Used at 40 µg/mL in blue-white screening plates."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "IPTG"
+     },
+     "answer": {
+      "en": "Isopropyl β-D-1-thiogalactopyranoside. A non-hydrolysable inducer of the lac operon. Induces expression of the lacZ-α gene in pUC vectors for blue-white screening. Added at 0.1 mM to blue-white plates alongside X-gal."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Nucleic Acid Probe"
+     },
+     "answer": {
+      "en": "A short labelled single-stranded DNA or RNA sequence complementary to the gene of interest. Used in colony hybridization to identify colonies carrying the target gene by sequence-specific hybridisation. Labelled with ³²P (radioactive) or digoxigenin/biotin (non-radioactive)."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Replica Plating"
+     },
+     "answer": {
+      "en": "A technique where an exact copy of colonies from one plate is made on a second plate using a sterile velvet pad. Used in insertional inactivation: colonies present on amp plate but absent on tet plate are recombinants (tet^r gene disrupted by insert)."
+     }
+    }
+   ],
+   "icon": "🎮",
+   "label": "Section 9 — Interactive"
+  },
+  {
+   "id": "s12",
+   "title": {
+    "en": "Summary — Key Exam Points"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Need for Screening**After transformation, all colony types look identical. Selection/screening is essential to identify cells with the correct recombinant vector among transformed and non-transformed cells."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Selection vs Screening**Selection = cells either survive or die (antibiotic). Screening = all cells survive but a signal distinguishes recombinants (colour, probe signal)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Direct Selection**Antibiotic resistance on vector. Only transformants survive. Does NOT distinguish recombinant from non-recombinant. FIRST step always."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Insertional Inactivation**pBR322 example. Insert into BamHI site disrupts tet^r. Recombinants: amp^r, tet^s. Identified by replica plating. Recombinants absent from tet plate."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Blue-White Selection**pUC19 vector. Insert in MCS disrupts lacZ-α. Blue = non-recombinant (lacZ intact, X-gal cleaved). White = recombinant (lacZ disrupted). Needs X-gal + IPTG in medium."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Colony Hybridization**Most specific method. Labelled probe hybridises to target gene. Steps: colony blot → lysis (NaOH) → DNA fixation → probe → wash → autoradiograph → pick from master plate."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**X-gal**Colourless β-galactosidase substrate. Cleaved by intact β-gal → blue compound. NOT an antibiotic — a chromogenic substrate."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**IPTG**Non-hydrolysable lac operon inducer. Ensures lacZ-α is expressed for blue-white screening. NOT an antibiotic — a transcriptional inducer."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**pBR322 vs pUC19**pBR322 → insertional inactivation (two antibiotic genes: amp^r + tet^r). pUC19 → blue-white selection (lacZ-α + MCS). Both also used with direct antibiotic selection."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Probe in Colony Hybridization**³²P-labelled ssDNA or RNA. Complementary to gene of interest. After hybridisation and washing, positive colonies detected by autoradiography on X-ray film."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**α-Complementation**In blue-white, the vector supplies lacZ-α fragment and the host (DH5α, JM109) supplies lacZ-ω. Together they form active β-galactosidase. Insert disrupts α-peptide → no complementation → white colony."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Correct Workflow Order**Transform → plate on antibiotic (direct selection) → screen for recombinant (blue-white or insertional inactivation) → confirm with colony hybridization or PCR → verify by sequencing."
+     }
+    }
+   ],
+   "icon": "📌",
+   "label": "Section 11"
+  },
+  {
+   "id": "s13",
+   "title": {
+    "en": "Glossary"
+   },
+   "blocks": [
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Recombinant"
+     },
+     "definition": {
+      "en": "A cell or organism containing foreign DNA that has been introduced into its genome or as an episomal element. In gene cloning, a recombinant clone is a bacterial colony carrying a vector with the gene of interest inserted into its MCS."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Selectable Marker"
+     },
+     "definition": {
+      "en": "A gene (typically an antibiotic resistance gene) on a cloning vector used to identify transformed host cells. Only cells expressing the marker gene survive on selective medium. Examples: amp^r, kan^r, tet^r, neo^r."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Insertional Inactivation"
+     },
+     "definition": {
+      "en": "The disruption of a marker gene's function by inserting foreign DNA into a restriction site within it. Used to distinguish recombinant (marker-inactive) from non-recombinant (marker-active) transformants. Classic example: pBR322 tet^r disrupted by insert at BamHI site."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "lacZ"
+     },
+     "definition": {
+      "en": "The E. coli gene encoding β-galactosidase. In pUC vectors, the lacZ-α fragment (with MCS within it) is used for blue-white screening. An insert in the MCS disrupts lacZ-α → no functional β-galactosidase → colony remains white (recombinant)."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "X-gal"
+     },
+     "definition": {
+      "en": "5-Bromo-4-chloro-3-indolyl-β-D-galactopyranoside. A colourless chromogenic substrate for β-galactosidase. Cleavage by active β-gal releases a blue insoluble compound (5-bromo-4-chloro-indigo), producing blue colonies in blue-white screening."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "IPTG"
+     },
+     "definition": {
+      "en": "Isopropyl β-D-1-thiogalactopyranoside. A non-metabolisable inducer of the E. coli lac operon. Induces expression of lacZ-α in pUC vectors during blue-white screening, ensuring sufficient β-galactosidase production for a visible blue signal."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Probe (Nucleic Acid)"
+     },
+     "definition": {
+      "en": "A labelled single-stranded DNA or RNA molecule complementary to a specific target sequence. Used in colony hybridization to identify colonies containing the gene of interest by sequence-specific base pairing. Labelled with ³²P, digoxigenin, or biotin."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Colony Hybridization"
+     },
+     "definition": {
+      "en": "A molecular screening technique where bacterial colonies are transferred to a membrane, lysed, DNA denatured and fixed, and then probed with a labelled nucleic acid probe. Positive colonies (hybridised to probe) are detected by autoradiography and picked from the master plate."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Replica Plating"
+     },
+     "definition": {
+      "en": "A technique for making an exact copy of colony positions from one plate to another, using a sterile velvet pad. Used in insertional inactivation to compare growth on ampicillin vs tetracycline plates to identify recombinants (absent on tet plate = amp^r, tet^s)."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "α-Complementation"
+     },
+     "definition": {
+      "en": "The reconstitution of functional β-galactosidase by combining the lacZ-α peptide (from pUC vector) with the lacZ-ω peptide (from host strain). An insert in the MCS disrupts lacZ-α → no complementation → no functional β-gal → white colony (recombinant)."
+     }
+    }
+   ],
+   "icon": "📖",
+   "label": "Section 12"
+  },
+  {
+   "id": "s14",
+   "title": {
+    "en": "Frequently Asked University Exam Questions"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Click each question to expand answer hints."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1. What is the difference between selection and screening in the context of gene cloning? Give one example of each.**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Selection:** An active process where only cells with the desired property survive on selective medium; non-selected cells are eliminated. Example: plating transformed E. coli on ampicillin — only cells with the vector (carrying amp^r gene) survive; non-transformed cells die."
+      },
+      {
+       "en": "**Screening:** A passive process where all cells survive, but a detectable signal (colour, probe signal) allows identification of cells with the desired property without killing others. Example: blue-white screening — all transformants survive, but recombinants form white colonies while non-recombinants form blue colonies."
+      },
+      {
+       "en": "Key difference: selection = growth/no growth; screening = identifying among surviving colonies."
+      },
+      {
+       "en": "Selection is always step 1 (reduces to transformants); screening is step 2 (identifies recombinants among transformants)."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**2. Describe insertional inactivation using pBR322. How are recombinant clones identified?**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "pBR322 has two antibiotic resistance genes: amp^r and tet^r. The tet^r gene contains unique restriction sites BamHI, SalI, and ClaI."
+      },
+      {
+       "en": "When the gene of interest is cloned into the BamHI site (within tet^r), the tet^r gene is disrupted → recombinant cells become tetracycline-sensitive."
+      },
+      {
+       "en": "After transformation, cells are plated on LB + ampicillin → all transformants (both recombinant and non-recombinant) grow."
+      },
+      {
+       "en": "Replica plating to LB + tetracycline: non-recombinants (intact tet^r) grow on both plates; recombinants (disrupted tet^r) grow only on amp plate — ABSENT on tet plate."
+      },
+      {
+       "en": "Recombinants identified as colonies present on amp plate but absent on tet plate. These are picked from the original amp master plate."
+      },
+      {
+       "en": "Result: amp^r, tet^s = recombinant. amp^r, tet^r = non-recombinant."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**3. Explain blue-white selection. Why are white colonies considered recombinants in this system?**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Blue-white selection uses pUC vectors (e.g., pUC19) that carry the lacZ-α gene with the MCS inserted within it."
+      },
+      {
+       "en": "Medium: LB + ampicillin (to select transformants) + X-gal (chromogenic substrate for β-gal) + IPTG (lac operon inducer)."
+      },
+      {
+       "en": "**Without insert:** lacZ-α is intact → IPTG induces expression → functional β-galactosidase α-peptide produced (by α-complementation with host lacZ-ω) → β-gal cleaves X-gal → blue compound → BLUE colony = non-recombinant."
+      },
+      {
+       "en": "**With insert in MCS:** lacZ-α reading frame is disrupted → no functional α-peptide → no α-complementation → β-gal cannot cleave X-gal → no blue compound → colony remains WHITE = recombinant."
+      },
+      {
+       "en": "Therefore, white colonies have an insert disrupting lacZ → they are recombinant transformants. White ≠ necessarily has the correct insert — further confirmation needed (PCR, restriction analysis, sequencing)."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**4. Describe the steps involved in colony hybridization for identifying recombinant colonies.**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "1. **Colony transfer:** Replica nylon/nitrocellulose membrane placed on master plate — colonies adhere; membrane peeled off. Keep master plate as reference."
+      },
+      {
+       "en": "2. **Cell lysis:** Membrane treated with NaOH — cells lyse, DNA released and denatured into single strands."
+      },
+      {
+       "en": "3. **DNA fixation:** Membrane baked at 80°C (2 hrs) or UV-cross-linked — single-stranded DNA permanently immobilised on membrane."
+      },
+      {
+       "en": "4. **Pre-hybridisation (blocking):** Non-specific sites blocked with salmon sperm DNA/BSA to reduce background."
+      },
+      {
+       "en": "5. **Probe hybridisation:** ³²P-labelled ssDNA probe (complementary to gene of interest) added. Probe anneals only to complementary target sequences at appropriate stringency."
+      },
+      {
+       "en": "6. **Washing:** Non-specifically bound probe washed off with increasing stringency washes."
+      },
+      {
+       "en": "7. **Detection:** Membrane exposed to X-ray film (autoradiography) — positive colonies appear as dark spots."
+      },
+      {
+       "en": "8. **Identification:** Alignment marks used to match positive spots on film to corresponding colonies on master plate. Positive colonies picked for further analysis."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**5. Compare insertional inactivation and blue-white selection as methods of screening recombinants. Which is more convenient and why?**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Insertional Inactivation:** Vector pBR322. Insert disrupts tet^r at BamHI site. Recombinants: amp^r, tet^s. Identified by REPLICA PLATING (negative result — absent from tet plate). Two plates needed. Takes 2 days. No special reagents."
+      },
+      {
+       "en": "**Blue-White Selection:** Vector pUC19. Insert disrupts lacZ-α at MCS. Recombinants: white colonies. Non-recombinants: blue colonies. Identified on SAME plate (positive visual result). One plate, one step. Requires X-gal + IPTG."
+      },
+      {
+       "en": "**Blue-white is more convenient** because: (a) results visible on the same plate without replica plating; (b) positive visual identification (white = recombinant) vs negative identification (absent from tet plate); (c) faster (overnight); (d) less technically demanding."
+      },
+      {
+       "en": "Both are used after direct antibiotic selection; neither confirms the CORRECT insert — only that some insert is present. Colony hybridization is still needed to confirm the specific gene."
+      }
+     ]
+    }
+   ],
+   "icon": "🎓",
+   "label": "Section 13"
+  }
+ ],
+ "skipped": [
+  "quiz"
+ ],
+ "dropped": [
+  {
+   "selector": "nav",
+   "count": 1,
+   "sample": [
+    "Home Intro Direct Selection Insertional Inactivation Blue-Wh"
+   ]
+  },
+  {
+   "selector": "footer",
+   "count": 1,
+   "sample": [
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh"
+   ]
+  },
+  {
+   "selector": ".rh",
+   "count": 8,
+   "sample": [
+    "Click to reveal",
+    "Click to reveal",
+    "Click to reveal"
+   ]
+  }
+ ],
+ "extractor": "1"
+}

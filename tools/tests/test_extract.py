@@ -236,3 +236,13 @@ def test_script_literal_entities_are_unescaped_before_comparison():
     html = ('<body><h2>T</h2><p>Linker Addition & Ligation into the Vector now.</p>'
             '<script>var t = "Linker Addition &amp; Ligation into the Vector now.";</script></body>')
     assert ex.script_orphans(html, chap(html), [], BASE) == []
+
+
+def test_extra_blocks_are_appended_to_named_section_and_missing_section_fails():
+    html = "<h2>Blue-White Screening</h2><p>Body.</p>"
+    prof = {"extra_blocks": [{"section": "blue-white", "block": {"type": "p", "text": "From script."}}]}
+    c = chap(html, prof)
+    assert blocks(c)[-1] == {"type": "p", "text": {"en": "From script."}}
+    import pytest
+    with pytest.raises(ValueError):
+        chap(html, {"extra_blocks": [{"section": "nope", "block": {"type": "p", "text": "x"}}]})

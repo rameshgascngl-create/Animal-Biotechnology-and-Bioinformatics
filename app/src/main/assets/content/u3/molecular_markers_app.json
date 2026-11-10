@@ -1,0 +1,1877 @@
+{
+ "id": "molecular_markers_app",
+ "unit": "III",
+ "title": {
+  "en": "Molecular Markers: RFLP, RAPD & DNA Fingerprinting | GASC Nagercoil"
+ },
+ "sections": [
+  {
+   "id": "s01",
+   "title": {
+    "en": "Overview"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "B.Sc. Zoology / Biotechnology"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "title": {
+    "en": "Molecular Markers\nRFLP · RAPD · DNA Fingerprinting"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Tools that read genetic variation directly from DNA — from identifying individuals to mapping genomes. Your complete interactive study guide."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Learning Objectives**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Define molecular markers and explain their significance"
+      },
+      {
+       "en": "Describe the principle, steps, advantages and limitations of RFLP"
+      },
+      {
+       "en": "Describe the principle, steps, advantages and limitations of RAPD"
+      },
+      {
+       "en": "Explain the principle of DNA fingerprinting and its applications"
+      },
+      {
+       "en": "Compare RFLP, RAPD, and DNA fingerprinting in a table"
+      },
+      {
+       "en": "Discuss roles of molecular markers in biotechnology, forensics, and medicine"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 01"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": {
+    "en": "Introduction to Molecular Markers"
+   },
+   "blocks": [
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Definition\nA **molecular marker** is a specific segment of DNA whose chromosomal location is known and which can be used to identify variation between individuals, species, or populations at the DNA level."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Unlike morphological markers (visible traits), molecular markers are **direct indicators of genetic variation** — they are not affected by environment, age, or tissue type. This makes them extremely reliable and reproducible tools in genetics and biotechnology."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Why Are Molecular Markers Important?**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🧬 Genetic Diversity**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Measure and compare variation within and between populations at the DNA level."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🗺️ Gene Mapping**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Locate specific genes on chromosomes by using markers as landmarks."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔬 Species ID**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Identify and distinguish species, strains, and cultivars unambiguously."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🏥 Medical Use**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Diagnose genetic diseases, identify pathogens, and support forensic investigations."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🌾 Crop Breeding**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Accelerate plant and animal breeding through marker-assisted selection (MAS)."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "exam",
+     "text": {
+      "en": "Exam Point\nMolecular markers detect **polymorphism** — differences in DNA sequence at a given locus between individuals. The three most examined marker systems are **RFLP**, **RAPD**, and **DNA Fingerprinting**."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**⚠️ Common Confusions**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Molecular Markers vs DNA Sequencing**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Molecular markers** detect specific, known variable regions of DNA to compare individuals — they do not reveal the full genetic code. **DNA sequencing** determines the exact order of every nucleotide in a DNA stretch. Markers are faster and cheaper; sequencing provides complete information. Markers are often used to _locate_ regions of interest before sequencing is done."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**DNA Fingerprinting vs Molecular Markers (general)**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**DNA fingerprinting** is a specific application of molecular markers focused on generating a unique pattern (profile) for individual identification — it uses highly variable repeated sequences (VNTRs / STRs). **Molecular markers** is the broader category that includes RFLP, RAPD, SSR, SNP, and DNA fingerprinting itself. All DNA fingerprinting uses molecular markers, but not all molecular marker analysis is DNA fingerprinting."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**RFLP vs RAPD — the Core Difference**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**RFLP** uses _restriction enzymes_ to cut DNA at specific sites, then detects fragment length differences — it requires prior knowledge of the genome (for the probe). **RAPD** uses _short arbitrary primers_ in a PCR reaction to randomly amplify DNA segments — it requires _no prior sequence knowledge_. RAPD is simpler and faster but less reproducible; RFLP is reliable but technically demanding."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Molecular markers detect DNA-level variation (polymorphism) between individuals"
+      },
+      {
+       "en": "They are unaffected by environment — more reliable than morphological markers"
+      },
+      {
+       "en": "Three key systems: RFLP (restriction enzymes), RAPD (random PCR), DNA Fingerprinting (variable repeats)"
+      },
+      {
+       "en": "Applications span genetics, medicine, forensics, crop breeding, and conservation"
+      },
+      {
+       "en": "All DNA fingerprinting uses molecular markers; not all marker analysis is fingerprinting"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 02"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "title": {
+    "en": "RFLP — Restriction Fragment Length Polymorphism"
+   },
+   "blocks": [
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Full Form & Definition\n**RFLP** = **R**estriction **F**ragment **L**ength **P**olymorphism.\nA molecular marker technique that detects variation in DNA by using restriction enzymes to cut DNA at specific sequences, generating fragments of different lengths in different individuals."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Principle**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Restriction enzymes recognise and cut DNA at specific palindromic sequences called _restriction sites_. If a mutation alters a restriction site (gains or loses it), the enzyme will produce **fragments of different lengths** — this length difference (polymorphism) is the marker. When separated by gel electrophoresis and detected with a labelled probe (Southern blotting), different individuals show different band patterns."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Step-by-Step Procedure**"
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "1 **DNA Isolation**High-quality genomic DNA is extracted from the sample (tissue, blood, cells)."
+      },
+      {
+       "en": "2 **Restriction Digestion**The DNA is cut with one or more restriction enzymes that recognise specific short palindromic sequences and cut at those sites."
+      },
+      {
+       "en": "3 **Gel Electrophoresis**The digested DNA fragments are separated by size on an agarose gel — smaller fragments travel further."
+      },
+      {
+       "en": "4 **Southern Blotting**Fragments are transferred from the gel onto a nylon or nitrocellulose membrane using the Southern blot technique."
+      },
+      {
+       "en": "5 **Probe Hybridisation**A labelled DNA probe (complementary to the region of interest) is hybridised to the membrane. It binds only to matching fragments."
+      },
+      {
+       "en": "6 **Pattern Detection & Analysis**The probe is detected (autoradiography or chemiluminescence), revealing a band pattern unique to the individual or genotype. Different individuals show different fragment sizes."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**RFLP — Concept Diagram (Click steps for details)**"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "molecular_markers_app-d01",
+     "caption": {
+      "en": "RFLP diagram"
+     },
+     "labels": [
+      "1. DNA",
+      "Isolation",
+      "(genomic DNA)",
+      "2. Restriction",
+      "Digestion",
+      "(enzyme cuts DNA)",
+      "3. Gel",
+      "Electrophoresis",
+      "(size separation)",
+      "4. Southern Blot",
+      "& Probe Hybridisation",
+      "(label & detect bands)",
+      "5. Band Pattern",
+      "Analysis",
+      "(RFLP profile)",
+      "Click each step for explanation"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**✅ Advantages**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Highly reproducible and reliable"
+      },
+      {
+       "en": "Co-dominant marker — distinguishes heterozygotes"
+      },
+      {
+       "en": "Well-suited for gene mapping"
+      },
+      {
+       "en": "Robust across laboratories"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**❌ Limitations**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Requires large amounts of high-quality DNA"
+      },
+      {
+       "en": "Time-consuming and technically demanding"
+      },
+      {
+       "en": "Needs prior sequence knowledge for probe design"
+      },
+      {
+       "en": "Involves radioactive or chemical probes"
+      },
+      {
+       "en": "Expensive"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "exam",
+     "text": {
+      "en": "Exam Point\nRFLP is a **co-dominant** marker — it can distinguish between homozygous (AA or aa) and heterozygous (Aa) individuals, making it very useful for genetic analysis."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "RFLP = Restriction Fragment Length Polymorphism"
+      },
+      {
+       "en": "Principle: restriction enzymes cut DNA at specific sites → different individuals produce fragments of different lengths"
+      },
+      {
+       "en": "5 steps: DNA isolation → restriction digestion → gel electrophoresis → Southern blotting/probe → pattern analysis"
+      },
+      {
+       "en": "Co-dominant marker — can distinguish heterozygotes from homozygotes"
+      },
+      {
+       "en": "Limitation: requires large DNA quantities, prior sequence knowledge, and is technically demanding"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 03"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "title": {
+    "en": "RAPD — Random Amplified Polymorphic DNA"
+   },
+   "blocks": [
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Full Form & Definition\n**RAPD** = **R**andom **A**mplified **P**olymorphic **D**NA.\nA molecular marker technique that uses short, arbitrary (random) primers in a PCR reaction to amplify multiple random segments of genomic DNA. Differences in the amplified band pattern between individuals reveal genetic polymorphism."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Principle**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A single short primer (~10 bp) of arbitrary sequence is used at low annealing temperature. This primer binds to complementary sequences at various locations across the genome, amplifying multiple segments simultaneously. If a primer binding site is mutated or absent in an individual, the corresponding band **disappears from the RAPD profile**, revealing a polymorphism — without any prior knowledge of the genome sequence."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Step-by-Step Procedure**"
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "1 **DNA Isolation**Genomic DNA is extracted from the organism. RAPD requires less DNA than RFLP."
+      },
+      {
+       "en": "2 **PCR with Random Primers**A single short (~10 nt) arbitrary primer is added to the PCR reaction. At low annealing temperature, this primer binds at multiple sites across the genome."
+      },
+      {
+       "en": "3 **PCR Amplification**Multiple DNA segments flanked by primer-binding sites are amplified simultaneously, producing a mixture of fragments of various sizes."
+      },
+      {
+       "en": "4 **Gel Electrophoresis**PCR products are separated on an agarose gel. Each lane shows a unique pattern of amplified bands for each individual."
+      },
+      {
+       "en": "5 **Band Pattern Analysis**Presence or absence of each band is scored. Individuals with a mutation at a primer-binding site will lack that band — revealing RAPD polymorphism."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**RAPD — Concept Diagram (Click steps for details)**"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "molecular_markers_app-d02",
+     "caption": {
+      "en": "RAPD diagram"
+     },
+     "labels": [
+      "1. DNA",
+      "Isolation",
+      "(less needed)",
+      "2. Random",
+      "Primers + PCR",
+      "(~10 nt arbitrary)",
+      "3. PCR",
+      "Amplification",
+      "(multiple fragments)",
+      "4. Gel",
+      "Electrophoresis",
+      "(band separation)",
+      "5. Band Pattern",
+      "Analysis",
+      "(RAPD profile)",
+      "Click each step for explanation"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**✅ Advantages**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "No prior sequence knowledge required"
+      },
+      {
+       "en": "Simple, fast, and inexpensive"
+      },
+      {
+       "en": "Requires small amounts of DNA"
+      },
+      {
+       "en": "No radioactive probes needed"
+      },
+      {
+       "en": "Can scan whole genome quickly"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**❌ Limitations**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Low reproducibility between labs"
+      },
+      {
+       "en": "Dominant marker — cannot distinguish heterozygotes"
+      },
+      {
+       "en": "Sensitive to PCR conditions (temperature, Mg²⁺)"
+      },
+      {
+       "en": "Less informative per locus than RFLP"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "exam",
+     "text": {
+      "en": "Exam Point\nRAPD is a **dominant marker** — a band is either present (1) or absent (0). It cannot distinguish AA from Aa, making it less informative than co-dominant markers like RFLP."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "RAPD = Random Amplified Polymorphic DNA"
+      },
+      {
+       "en": "Principle: short arbitrary primer (~10 nt) amplifies multiple random genomic segments by PCR"
+      },
+      {
+       "en": "5 steps: DNA isolation → random primer PCR → amplification → gel electrophoresis → band pattern analysis"
+      },
+      {
+       "en": "Does NOT require prior sequence knowledge — major advantage over RFLP"
+      },
+      {
+       "en": "Dominant marker — cannot distinguish heterozygotes; lower reproducibility than RFLP"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 04"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "title": {
+    "en": "DNA Fingerprinting"
+   },
+   "blocks": [
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Definition\n**DNA fingerprinting** (also called DNA profiling or DNA typing) is a technique that generates a unique pattern of DNA bands from an individual's genome — analogous to a fingerprint — by exploiting highly variable repeated DNA sequences. No two individuals (except identical twins) share the same DNA fingerprint."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Principle**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The human genome contains regions where short DNA sequences are repeated many times in tandem. The **number of repeats varies greatly between individuals**. These regions are called:"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**VNTRs** — Variable Number Tandem Repeats (minisatellites)"
+      },
+      {
+       "en": "**STRs / Microsatellites** — Short Tandem Repeats (most widely used today)"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Because the number of repeats differs between individuals, the resulting DNA fragments are of different sizes — producing a unique band pattern that serves as an individual's genetic identity."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**General Steps**"
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "1 **DNA Isolation**DNA extracted from the biological sample (blood, saliva, hair root, semen, tissue)."
+      },
+      {
+       "en": "2 **Amplification / Digestion**Target VNTR/STR regions are amplified by PCR (or cut by restriction enzymes in older methods)."
+      },
+      {
+       "en": "3 **Fragment Separation**Fragments separated by gel electrophoresis or capillary electrophoresis (modern). Fragments are ordered by size."
+      },
+      {
+       "en": "4 **Band Profile Generation**The resulting pattern of bands (or peaks in capillary methods) forms the DNA profile — unique to that individual."
+      },
+      {
+       "en": "5 **Comparison**The profile from a sample is compared against a reference profile (suspect, parent, database) — matches or exclusions are determined."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**DNA Fingerprinting — Concept Diagram (Click steps)**"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "molecular_markers_app-d03",
+     "caption": {
+      "en": "DNA fingerprinting diagram"
+     },
+     "labels": [
+      "1. DNA",
+      "Isolation",
+      "(sample DNA)",
+      "2. Amplify",
+      "VNTR / STR",
+      "(PCR-based)",
+      "3. Separate",
+      "Fragments",
+      "(electrophoresis)",
+      "4. Band Profile",
+      "Generated",
+      "(DNA fingerprint)",
+      "5. Compare",
+      "Profiles",
+      "(match/exclude)",
+      "Click each step for explanation"
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Pioneer\nDNA fingerprinting was pioneered by **Sir Alec Jeffreys** at the University of Leicester, UK, in **1984**. His technique using VNTRs was first used in a legal case in 1986 (Enderby murders, UK) — the first time DNA evidence was used in criminal investigation."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "DNA fingerprinting exploits highly variable tandem repeat regions (VNTRs / STRs) in the genome"
+      },
+      {
+       "en": "Number of repeats differs between individuals → unique band pattern"
+      },
+      {
+       "en": "5 steps: DNA isolation → amplify VNTR/STR → separate fragments → generate band profile → compare"
+      },
+      {
+       "en": "Pioneered by Sir Alec Jeffreys (1984, University of Leicester)"
+      },
+      {
+       "en": "No two individuals (except identical twins) share the same DNA fingerprint"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 05"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "title": {
+    "en": "Applications of DNA Fingerprinting"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Forensic Science**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "DNA from crime scenes (blood, hair, saliva) is profiled and compared against suspects or national databases to establish guilt or innocence."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Paternity / Maternity Testing**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Child inherits half the DNA from each parent. Profile comparison determines biological parentage with near certainty."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Criminal Investigation**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Identifies perpetrators or exonerates the innocent. Has overturned wrongful convictions when applied to archived evidence."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Individual Identification**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Identifies disaster victims, missing persons, or unidentified remains when conventional methods fail."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Wildlife Conservation**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Identifies individual animals, detects poaching, monitors breeding programmes, and tracks population movements."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Population Studies**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Analyses genetic diversity within and between populations — useful for evolutionary and demographic research."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Biodiversity Analysis**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Distinguishes species, subspecies, and ecotypes in conservation genetics. Detects cryptic species that appear identical morphologically."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Medical Genetics**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Identifies genetic disease carriers, confirms bone marrow transplant engraftment, and supports organ donor matching."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Interactive Band Pattern Comparison**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "In a DNA profile, **matching bands at the same position** indicate shared alleles. Hover over bands to explore. Lane labels: P = Putative Parent, C = Child, U = Unrelated."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Paternity Test (Match)"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "→ higher = heavier"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "P"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "C"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "M"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Forensic Match"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Scene"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Susp."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "U"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Population Diversity"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Ind1"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Ind2"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Ind3"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "DNA fingerprinting has 8 major application areas: forensics, paternity, criminal investigation, ID of individuals, wildlife conservation, population studies, biodiversity analysis, medical genetics"
+      },
+      {
+       "en": "In forensics: crime scene DNA is matched to a suspect profile"
+      },
+      {
+       "en": "In paternity: child inherits 50% of each parent's profile — mismatched bands exclude parentage"
+      },
+      {
+       "en": "Wildlife conservation: tracks individuals and genetic diversity without physical marking"
+      },
+      {
+       "en": "Sir Alec Jeffreys' technique was first used in a legal case (Enderby murders, UK, 1986)"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 06"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "title": {
+    "en": "Comparison: RFLP · RAPD · DNA Fingerprinting"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Side-by-Side Core Principle Diagram**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🔬 RFLP"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "molecular_markers_app-d04",
+     "caption": {
+      "en": ""
+     },
+     "labels": [
+      "Genomic DNA",
+      "Restriction enzyme cuts",
+      "Fragment A",
+      "1200 bp",
+      "Fragment B",
+      "800 bp",
+      "Gel + Southern blot",
+      "Ind1",
+      "Ind2",
+      "Ind3",
+      "Different band positions"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "⚡ RAPD"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "molecular_markers_app-d05",
+     "caption": {
+      "en": ""
+     },
+     "labels": [
+      "Genomic DNA",
+      "Random primer PCR",
+      "(no prior knowledge)",
+      "Band 1",
+      "Band 2",
+      "Band 3",
+      "absent",
+      "Gel electrophoresis",
+      "Ind1",
+      "Ind2",
+      "Ind3",
+      "Presence / absence pattern"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🧬 DNA Fingerprinting"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "molecular_markers_app-d06",
+     "caption": {
+      "en": ""
+     },
+     "labels": [
+      "Biological Sample",
+      "Amplify VNTRs / STRs",
+      "(variable repeats)",
+      "VNTR allele",
+      "n=12 repeats",
+      "VNTR allele",
+      "n=7 repeats",
+      "Gel / capillary",
+      "Ind1",
+      "Ind2",
+      "Ind3",
+      "Unique profile per individual"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Detailed Comparison Table**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Feature"
+      },
+      {
+       "en": "RFLP"
+      },
+      {
+       "en": "RAPD"
+      },
+      {
+       "en": "DNA Fingerprinting"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "Full Form"
+       },
+       {
+        "en": "Restriction Fragment Length Polymorphism"
+       },
+       {
+        "en": "Random Amplified Polymorphic DNA"
+       },
+       {
+        "en": "DNA Profiling / DNA Typing"
+       }
+      ],
+      [
+       {
+        "en": "Principle"
+       },
+       {
+        "en": "Restriction enzyme cuts → different fragment lengths"
+       },
+       {
+        "en": "Arbitrary short primers amplify random segments by PCR"
+       },
+       {
+        "en": "Variable number tandem repeats (VNTRs/STRs) — unique pattern"
+       }
+      ],
+      [
+       {
+        "en": "Technique Used"
+       },
+       {
+        "en": "Restriction digestion + Southern blotting + probe hybridisation"
+       },
+       {
+        "en": "PCR with ~10 nt random primers"
+       },
+       {
+        "en": "PCR (or RFLP) amplification of VNTR/STR loci"
+       }
+      ],
+      [
+       {
+        "en": "Prior Sequence Knowledge"
+       },
+       {
+        "en": "Yes — needed for probe design"
+       },
+       {
+        "en": "Not required"
+       },
+       {
+        "en": "Partially — VNTR/STR loci targeted"
+       }
+      ],
+      [
+       {
+        "en": "DNA Quantity"
+       },
+       {
+        "en": "Large (µg)"
+       },
+       {
+        "en": "Small (ng)"
+       },
+       {
+        "en": "Very small (trace)"
+       }
+      ],
+      [
+       {
+        "en": "Marker Type"
+       },
+       {
+        "en": "Co-dominant"
+       },
+       {
+        "en": "Dominant"
+       },
+       {
+        "en": "Co-dominant"
+       }
+      ],
+      [
+       {
+        "en": "Reproducibility"
+       },
+       {
+        "en": "High"
+       },
+       {
+        "en": "Low (sensitive to PCR conditions)"
+       },
+       {
+        "en": "High"
+       }
+      ],
+      [
+       {
+        "en": "Cost & Speed"
+       },
+       {
+        "en": "Expensive, slow"
+       },
+       {
+        "en": "Cheap, fast"
+       },
+       {
+        "en": "Moderate cost, fast (PCR-based)"
+       }
+      ],
+      [
+       {
+        "en": "Advantages"
+       },
+       {
+        "en": "Reliable, co-dominant, good for gene mapping"
+       },
+       {
+        "en": "Simple, no prior knowledge, fast"
+       },
+       {
+        "en": "Highly individual-specific, forensic gold standard"
+       }
+      ],
+      [
+       {
+        "en": "Limitations"
+       },
+       {
+        "en": "Needs large DNA, technically demanding, radioactive probes"
+       },
+       {
+        "en": "Dominant, poor reproducibility"
+       },
+       {
+        "en": "Needs intact DNA, interpretation expertise"
+       }
+      ],
+      [
+       {
+        "en": "Applications"
+       },
+       {
+        "en": "Gene mapping, plant breeding, disease linkage"
+       },
+       {
+        "en": "Genetic diversity, taxonomy, crop breeding"
+       },
+       {
+        "en": "Forensics, paternity, wildlife, medical genetics"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "RFLP uses restriction enzymes; RAPD uses PCR with random primers; DNA fingerprinting uses VNTR/STR variation"
+      },
+      {
+       "en": "RAPD is the fastest and cheapest but has poor reproducibility"
+      },
+      {
+       "en": "RFLP and DNA fingerprinting are co-dominant; RAPD is dominant"
+      },
+      {
+       "en": "DNA fingerprinting uses the least DNA — even trace forensic samples work"
+      },
+      {
+       "en": "All three detect DNA polymorphism — they just use different strategies to reveal it"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 07"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "title": {
+    "en": "Role of Molecular Markers in Biotechnology"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**🧬 Genetic Diversity**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quantify and compare genetic variation within and between populations — essential for conservation, breeding, and evolutionary research."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔖 Species & Strain ID**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Distinguish closely related species, ecotypes, cultivars, or pathogen strains that are morphologically identical."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🗺️ Gene Mapping**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "RFLP and other markers act as landmarks to locate specific genes on chromosomes — the basis of genetic maps used in breeding and research."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🌱 Marker-Assisted Selection**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "In plant and animal breeding, desirable genes linked to markers are selected in offspring without direct phenotype testing — faster and more efficient breeding."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🌳 Evolutionary Studies**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Molecular markers trace phylogenetic relationships and evolutionary history between species and populations."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🏥 Medical & Forensic**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Diagnose inherited disorders, identify disease-causing mutations, support organ transplant matching, and enable forensic DNA profiling."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Molecular markers have 6 major biotechnology roles: diversity studies, species ID, gene mapping, MAS, evolutionary studies, medical/forensic"
+      },
+      {
+       "en": "Marker-assisted selection (MAS) uses markers to select for desirable traits without waiting for phenotype expression"
+      },
+      {
+       "en": "Gene maps built using RFLP markers were foundational to the Human Genome Project"
+      },
+      {
+       "en": "Molecular markers can distinguish cryptic species that are morphologically identical"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 08"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "title": {
+    "en": "Interactive Learning"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Expand topics for key points and click-to-reveal for active recall practice."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔬 Molecular Markers — Core Concepts**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Molecular markers are specific DNA sequences that reveal genetic variation between individuals. They are unaffected by the environment and can detect variation at the DNA level directly."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Click to Reveal — Definition of Polymorphism\nPolymorphism = the occurrence of two or more genetically different forms within a population at a locus. Molecular markers detect and quantify polymorphism at the DNA level."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**✂️ RFLP — Key Points**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Uses restriction enzymes to cut DNA at palindromic recognition sites"
+      },
+      {
+       "en": "Mutations that alter restriction sites produce fragments of different lengths"
+      },
+      {
+       "en": "Steps: isolation → digestion → gel electrophoresis → Southern blotting → probe → detection"
+      },
+      {
+       "en": "Co-dominant — distinguishes homozygotes from heterozygotes"
+      },
+      {
+       "en": "Highly reproducible but technically demanding and expensive"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "exam",
+     "text": {
+      "en": "Remember\nSouthern blotting was named after Edwin Southern who developed it in 1975. It transfers DNA from a gel to a membrane for probe-based detection."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**⚡ RAPD — Key Points**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Uses a short (~10 nt) arbitrary primer in PCR — no sequence knowledge needed"
+      },
+      {
+       "en": "Detects presence/absence of amplified bands — dominant marker"
+      },
+      {
+       "en": "Faster and cheaper than RFLP; does not require Southern blotting"
+      },
+      {
+       "en": "Low reproducibility — sensitive to PCR conditions (Mg²⁺, polymerase, temperature)"
+      },
+      {
+       "en": "Used for genetic diversity surveys, species identification, and plant breeding"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "exam",
+     "text": {
+      "en": "Remember\nRAPD was developed by Williams et al. (1990). Low annealing temperature (~36°C) allows the arbitrary primer to bind at multiple sites — this is what generates the multiple-band pattern."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🧬 DNA Fingerprinting — Key Points**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Based on VNTRs (minisatellites) or STRs (microsatellites) — highly variable repeat regions"
+      },
+      {
+       "en": "Each individual has a unique combination of repeat numbers at multiple loci"
+      },
+      {
+       "en": "Produces a unique band pattern — the DNA fingerprint"
+      },
+      {
+       "en": "Pioneered by Sir Alec Jeffreys (1984); first legal use in 1986 (UK)"
+      },
+      {
+       "en": "Modern forensic labs use STR profiling at 15–20 loci — error probability < 1 in a trillion"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "exam",
+     "text": {
+      "en": "Remember\nThe probability that two unrelated individuals share the same DNA fingerprint at 15+ STR loci is less than 1 in 10 trillion — making it the most reliable identification tool in biology."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🌐 Applications — Quick Summary**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**RFLP:** gene mapping, plant and animal breeding, disease diagnosis"
+      },
+      {
+       "en": "**RAPD:** genetic diversity surveys, taxonomy, crop improvement, plant pathogen identification"
+      },
+      {
+       "en": "**DNA Fingerprinting:** forensics, paternity, wildlife tracking, individual identification, medical genetics"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 10"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "title": {
+    "en": "Summary & Revision Bullets"
+   },
+   "blocks": [
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Molecular markers detect genetic variation (polymorphism) at the DNA level — unaffected by environment."
+      },
+      {
+       "en": "RFLP = Restriction Fragment Length Polymorphism — restriction enzymes cut DNA → different individuals produce fragments of different lengths detected by Southern blotting."
+      },
+      {
+       "en": "RAPD = Random Amplified Polymorphic DNA — arbitrary short primers amplify multiple random loci by PCR — no sequence knowledge needed; dominant marker."
+      },
+      {
+       "en": "DNA fingerprinting exploits highly variable VNTR/STR regions — each individual has a unique number of repeats → unique band pattern (DNA profile)."
+      },
+      {
+       "en": "RFLP is co-dominant (detects heterozygotes); RAPD is dominant (only presence/absence); DNA fingerprinting is co-dominant."
+      },
+      {
+       "en": "DNA fingerprinting was pioneered by Sir Alec Jeffreys (1984); first legal use in 1986."
+      },
+      {
+       "en": "Applications of DNA fingerprinting: forensics, paternity, criminal investigation, individual ID, wildlife conservation, population and biodiversity studies."
+      },
+      {
+       "en": "Molecular markers in biotechnology: genetic diversity, species ID, gene mapping, marker-assisted selection (MAS), evolutionary studies, medical diagnosis."
+      },
+      {
+       "en": "RAPD: fastest and cheapest; RFLP: most reliable; DNA fingerprinting: most discriminatory for individuals."
+      },
+      {
+       "en": "Modern forensic DNA profiling uses STR analysis at 15–20 loci — probability of a coincidental match is less than 1 in a trillion."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 11"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "title": {
+    "en": "Glossary"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Polymorphism**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The existence of multiple genetically distinct forms at a locus within a population. Molecular markers detect and measure polymorphism."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Restriction Enzyme**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "An enzyme that cuts double-stranded DNA at specific short palindromic recognition sequences (restriction sites)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Primer**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A short single-stranded DNA or RNA sequence (~10–25 nt) that provides a starting point for DNA synthesis in PCR."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Amplification**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The process of producing many copies of a specific DNA segment using PCR (Polymerase Chain Reaction)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Band Pattern**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The arrangement of DNA fragments separated by gel electrophoresis, appearing as bands at positions corresponding to fragment size."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Molecular Marker**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A specific DNA segment of known chromosomal location used to identify genetic variation between individuals or populations."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**DNA Profile / Fingerprint**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A set of DNA characteristics (band positions or allele sizes) that are unique to an individual and used for identification."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**VNTR**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Variable Number Tandem Repeat — a region of the genome where a short sequence motif is repeated, with the repeat number varying between individuals."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**STR / Microsatellite**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Short Tandem Repeat — a short (2–6 bp) sequence repeated in tandem; highly variable and widely used in modern DNA fingerprinting."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Southern Blotting**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A technique (developed by Edwin Southern) for transferring DNA fragments from a gel to a membrane for detection by probe hybridisation."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Co-dominant Marker**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A marker that allows both alleles (e.g., AA, Aa, aa) to be distinguished — unlike dominant markers which only show presence or absence."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Marker-Assisted Selection**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Using molecular markers linked to desirable genes to select individuals during breeding, without needing to wait for phenotype expression."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 12"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "title": {
+    "en": "Frequently Asked University Exam Questions"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "1. What are molecular markers? Describe the principle and procedure of RFLP with a suitable diagram."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Show Hint**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Define molecular marker (specific DNA sequence detecting polymorphism). RFLP principle: restriction enzymes cut at recognition sites → mutations alter fragment lengths. Steps: DNA isolation → restriction digestion → gel electrophoresis → Southern blotting → probe hybridisation → band pattern analysis. Diagram: DNA → enzyme cuts → two different fragment sizes → gel bands. Mention co-dominant nature and applications (gene mapping, plant breeding)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2. Explain the principle and steps involved in RAPD analysis. What are its advantages over RFLP?"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Show Hint**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "RAPD principle: single arbitrary ~10 nt primer binds at multiple sites at low annealing temperature → PCR amplifies random segments → presence/absence polymorphism. Steps: DNA isolation → PCR with random primer → gel electrophoresis → band pattern analysis. Advantages over RFLP: no prior sequence knowledge, smaller DNA quantity, no radioactive probes, faster, cheaper. Mention dominant marker limitation."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "3. Describe the principle of DNA fingerprinting and discuss its applications in forensic science and paternity testing."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Show Hint**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Principle: VNTRs/STRs are highly variable between individuals → different repeat numbers → unique fragment sizes → unique band profile (DNA fingerprint). Pioneer: Sir Alec Jeffreys, 1984. Steps: DNA isolation → PCR/RFLP of VNTR loci → gel separation → band profile → comparison. Forensics: crime scene DNA profile matched to suspect. Paternity: child inherits 50% from each parent — profile comparison confirms/excludes parentage."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "4. Compare RFLP, RAPD, and DNA Fingerprinting with reference to principle, technique, advantages, limitations, and applications."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Show Hint**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Use a table format. RFLP: restriction enzyme, Southern blot, co-dominant, high reproducibility, expensive, used in gene mapping. RAPD: PCR with random primer, dominant, low reproducibility, cheap, used for diversity studies. DNA FP: VNTR/STR variation, co-dominant, highly discriminatory, forensics/paternity. Distinguish co-dominant vs dominant. Mention sequence knowledge requirement: RFLP needs it; RAPD does not; DNA FP partially does."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5. Discuss the role of molecular markers in biotechnology. Give examples of their importance in agriculture and medicine."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Show Hint**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Cover: genetic diversity assessment, species/strain identification, gene mapping, marker-assisted selection (MAS), evolutionary studies, medical diagnostics. Agriculture: crop improvement (disease resistance, yield), plant taxonomy, identification of plant pathogens. Medicine: diagnosis of genetic disorders, forensic identification, bone marrow transplant confirmation, infectious disease pathogen identification. Give 2–3 concrete examples for each domain."
+     }
+    }
+   ]
+  }
+ ],
+ "skipped": [
+  "quiz"
+ ],
+ "dropped": [
+  {
+   "selector": "nav",
+   "count": 1,
+   "sample": [
+    "Molecular Markers Intro RFLP RAPD DNA FP Compare Apps Quiz G"
+   ]
+  },
+  {
+   "selector": "footer",
+   "count": 1,
+   "sample": [
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh"
+   ]
+  },
+  {
+   "selector": ".arr",
+   "count": 5,
+   "sample": [
+    "▼",
+    "▼",
+    "▼"
+   ]
+  }
+ ],
+ "extractor": "1"
+}

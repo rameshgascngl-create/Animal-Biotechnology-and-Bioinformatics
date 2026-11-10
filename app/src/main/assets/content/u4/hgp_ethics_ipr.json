@@ -1,0 +1,1580 @@
+{
+ "id": "hgp_ethics_ipr",
+ "unit": "IV",
+ "title": {
+  "en": "Human Genome Project, Ethics & IPR"
+ },
+ "sections": [
+  {
+   "id": "s01",
+   "title": {
+    "en": "Overview"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "🧬 Unit IV · Applications and Ethics"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "title": {
+    "en": "Human Genome Project, Ethics and IPR"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Human Genome Project · Bioethics · Intellectual Property Rights"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The Human Genome Project gave us the \"parts list\" of a human being. With that power come questions of privacy, fairness and ownership. This module covers the mapping and sequencing of the human genome, its applications, the ethical issues of biotechnology and the basics of intellectual property rights."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "📚 5 chapters🎯 10 MCQs📝 Exam questions🎓 B.Sc. Zoology / Biotechnology"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🎯 Learning Objectives**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "✓Describe the aims, timeline and strategies of the Human Genome Project."
+      },
+      {
+       "en": "✓Differentiate genetic, cytogenetic and physical maps."
+      },
+      {
+       "en": "✓List the main findings and applications of the HGP."
+      },
+      {
+       "en": "✓Discuss socio-ethical problems and the regulation of biotechnology in India."
+      },
+      {
+       "en": "✓Explain patents, other forms of IPR, landmark cases and biopiracy."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": {
+    "en": "Human Genome Project (HGP): Overview"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "The HGP read the complete DNA sequence of a human being, one of the largest collaborative projects in biology."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Human Genome Project\nAn international research programme (1990–2003) to determine the sequence of the roughly 3 billion base pairs of the human genome, identify its genes, and develop tools and ethical guidelines for using the information."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1990"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Officially launched"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2003"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Completed (99% of euchromatic DNA)"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "~3.1 Gb"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Haploid genome size"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "~20,000"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Protein-coding genes"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Timeline**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1953** — Watson and Crick propose the structure of DNA"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1977** — Sanger and Maxam–Gilbert sequencing methods"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1990** — HGP formally begins (US DOE and NIH; James Watson first head of the NIH genome office; Francis Collins later led it)"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1998** — Celera Genomics (Craig Venter) starts a private shotgun effort"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**June 2000** — Joint announcement of a working draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Feb 2001** — Draft published in _Nature_ (public consortium) and _Science_ (Celera)"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**April 2003** — Sequence declared essentially complete, 50 years after the DNA double helix"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**2022** — Telomere-to-Telomere (T2T) consortium publishes the first truly gapless human genome sequence"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Goals of the project**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Identify all human genes (~20,000–25,000 estimated then)."
+      },
+      {
+       "en": "Determine the sequence of the 3 billion base pairs."
+      },
+      {
+       "en": "Store the data in public databases."
+      },
+      {
+       "en": "Improve tools for data analysis."
+      },
+      {
+       "en": "Transfer technologies to industry."
+      },
+      {
+       "en": "Address the **ethical, legal and social implications (ELSI)**; 3–5% of the budget was devoted to ELSI research."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Who took part?**\nThe **International Human Genome Sequencing Consortium**: USA, UK (Wellcome Trust, Sanger Centre), France, Germany, Japan and China, with data released freely on the internet. India contributed through scientists and later its own population genome studies."
+     }
+    }
+   ],
+   "label": "📗 Chapter 1"
+  },
+  {
+   "id": "s04",
+   "title": {
+    "en": "Mapping of the Human Genome"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Before sequencing, maps provide landmarks so that sequence pieces can be assembled in the right order."
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Type of map"
+      },
+      {
+       "en": "Based on"
+      },
+      {
+       "en": "Unit / resolution"
+      },
+      {
+       "en": "Markers"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Genetic (linkage) map**"
+       },
+       {
+        "en": "Recombination frequency between loci"
+       },
+       {
+        "en": "centiMorgan (cM); 1 cM ≈ 1% recombination"
+       },
+       {
+        "en": "RFLP, microsatellites (STRs), SNPs"
+       }
+      ],
+      [
+       {
+        "en": "**Cytogenetic map**"
+       },
+       {
+        "en": "Chromosome banding patterns"
+       },
+       {
+        "en": "Bands (low resolution)"
+       },
+       {
+        "en": "Giemsa bands, FISH probes"
+       }
+      ],
+      [
+       {
+        "en": "**Physical map**"
+       },
+       {
+        "en": "Actual distances in DNA"
+       },
+       {
+        "en": "Base pairs / kb / Mb"
+       },
+       {
+        "en": "Restriction sites, STS, clone contigs"
+       }
+      ],
+      [
+       {
+        "en": "**Sequence map**"
+       },
+       {
+        "en": "The complete nucleotide sequence"
+       },
+       {
+        "en": "Single base"
+       },
+       {
+        "en": "Whole sequence"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Two strategies for sequencing**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": ""
+      },
+      {
+       "en": "Hierarchical clone-by-clone (public consortium)"
+      },
+      {
+       "en": "Whole-genome shotgun (Celera)"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Idea**"
+       },
+       {
+        "en": "Map first, then sequence ordered clones"
+       },
+       {
+        "en": "Shear whole genome, sequence at random, assemble by computer"
+       }
+      ],
+      [
+       {
+        "en": "**Vector**"
+       },
+       {
+        "en": "BACs (bacterial artificial chromosomes), 100–200 kb inserts"
+       },
+       {
+        "en": "Plasmid libraries (2, 10, 50 kb inserts)"
+       }
+      ],
+      [
+       {
+        "en": "**Advantage**"
+       },
+       {
+        "en": "Easier assembly of repeats"
+       },
+       {
+        "en": "Faster and cheaper"
+       }
+      ],
+      [
+       {
+        "en": "**Disadvantage**"
+       },
+       {
+        "en": "Slow, labour-intensive"
+       },
+       {
+        "en": "Difficult assembly of repeats"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1. Chromosome**genome"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**2. BAC library**fragments cloned"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**3. Contigs**overlaps"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**4. Sequencing**Sanger automated"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**5. Assembly**computer"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click a step to see what happens."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**ESTs and STS**\n**Expressed Sequence Tags (ESTs)** are short sequences from cDNA that mark expressed genes. **Sequence-tagged sites (STSs)** are short, unique, PCR-amplifiable sequences used as landmarks in the physical map."
+     }
+    }
+   ],
+   "label": "📘 Chapter 2"
+  },
+  {
+   "id": "s05",
+   "title": {
+    "en": "Salient Findings and Applications of the HGP"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "The sequence revealed how few genes we have and how much of the genome is not coding."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key findings**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Finding"
+      },
+      {
+       "en": "Detail"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Gene number**"
+       },
+       {
+        "en": "≈ 20,000 protein-coding genes (far fewer than the 100,000 once predicted)"
+       }
+      ],
+      [
+       {
+        "en": "**Coding DNA**"
+       },
+       {
+        "en": "Only about 1–2% of the genome codes for proteins"
+       }
+      ],
+      [
+       {
+        "en": "**Repeats**"
+       },
+       {
+        "en": "About half is repetitive sequence; **Alu** (a SINE) is the most abundant repeat (~10%)"
+       }
+      ],
+      [
+       {
+        "en": "**Variation**"
+       },
+       {
+        "en": "Any two people are about **99.9%** identical; SNPs occur about once per 1,000 bases"
+       }
+      ],
+      [
+       {
+        "en": "**Chromosomes**"
+       },
+       {
+        "en": "Chromosome 1 is the largest; chromosome 21 is the smallest autosome; Y has few genes"
+       }
+      ],
+      [
+       {
+        "en": "**Gene density**"
+       },
+       {
+        "en": "Uneven: gene-rich regions and large gene deserts"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Applications**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Medicine**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Identification of disease genes (cystic fibrosis, Huntington's)."
+      },
+      {
+       "en": "Predictive and prenatal genetic tests."
+      },
+      {
+       "en": "**Pharmacogenomics** and personalised medicine."
+      },
+      {
+       "en": "Gene therapy targets."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Forensics**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "DNA profiling and identification."
+      },
+      {
+       "en": "Paternity testing."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Agriculture & environment**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Genome projects of crops and livestock."
+      },
+      {
+       "en": "Microbial genomics for bioremediation."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Evolution**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Comparative genomics with chimpanzee and other species."
+      },
+      {
+       "en": "Tracing human migrations."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Bioinformatics**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Created the demand for databases and tools (GenBank, BLAST)."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Population genomics**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "National projects such as GenomeIndia (DBT) map the genetic diversity of Indian populations."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**After the HGP**\nCheap **next-generation sequencing** now sequences a genome in hours for a few hundred dollars, enabling projects such as the 1000 Genomes Project, ENCODE and cancer genome atlases."
+     }
+    }
+   ],
+   "label": "📙 Chapter 3"
+  },
+  {
+   "id": "s06",
+   "title": {
+    "en": "Ethics in Biotechnology: Socio-ethical Problems"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Technology raises questions of what we can do versus what we should do."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Bioethics\nThe study of moral issues arising from biological research and its applications. Four core principles: **autonomy**, **beneficence**, **non-maleficence** and **justice**."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Genetic privacy and discrimination▼"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Genetic information is highly personal and can reveal family risks."
+      },
+      {
+       "en": "Risk of discrimination by insurers or employers; in the USA the **GINA (2008)** law prohibits it in health insurance and employment."
+      },
+      {
+       "en": "Need for confidentiality and secure data storage."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Informed consent▼"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Participants must know the risks, benefits and uses of data before agreeing."
+      },
+      {
+       "en": "Special care for children, the mentally ill and indigenous communities."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Germline editing and \"designer babies\"▼"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Changes are inherited by future generations without their consent."
+      },
+      {
+       "en": "In 2018, He Jiankui announced the birth of gene-edited twins; the scientific community condemned this and he was imprisoned in China."
+      },
+      {
+       "en": "Germline editing for reproduction is prohibited in many countries."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "GM food and environment▼"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Concerns: allergenicity, gene flow to wild relatives, loss of biodiversity, resistance in pests."
+      },
+      {
+       "en": "Right to know: labelling of GM foods."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Animal welfare▼"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "The **3Rs**: Replace, Reduce, Refine."
+      },
+      {
+       "en": "Institutional Animal Ethics Committees (CPCSEA in India) approve experiments."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Justice and access▼"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Gene therapies and biologics can cost millions; unequal access between rich and poor."
+      },
+      {
+       "en": "Benefit-sharing with communities that supply genetic resources."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Dual use and bioweapons▼"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Research with legitimate benefits may be misused; oversight needed."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Regulation in India**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Body / law"
+      },
+      {
+       "en": "Role"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Environment (Protection) Act, 1986 and Rules, 1989**"
+       },
+       {
+        "en": "Rules for manufacture, use, import, export and storage of hazardous micro-organisms and GMOs"
+       }
+      ],
+      [
+       {
+        "en": "**GEAC** (Genetic Engineering Appraisal Committee)**"
+       },
+       {
+        "en": "Under MoEF&CC; approves environmental release of GMOs"
+       }
+      ],
+      [
+       {
+        "en": "**RCGM** and **IBSC** (DBT)**"
+       },
+       {
+        "en": "Review of research on GMOs; Institutional Biosafety Committees at institutions"
+       }
+      ],
+      [
+       {
+        "en": "**ICMR** guidelines**"
+       },
+       {
+        "en": "Ethical guidelines for biomedical research on human participants"
+       }
+      ],
+      [
+       {
+        "en": "**Cartagena Protocol on Biosafety (2000)**"
+       },
+       {
+        "en": "International agreement on safe transboundary movement of living modified organisms"
+       }
+      ],
+      [
+       {
+        "en": "**Asilomar Conference (1975)**"
+       },
+       {
+        "en": "Scientists' early voluntary guidelines for recombinant DNA research"
+       }
+      ]
+     ]
+    }
+   ],
+   "label": "📒 Chapter 4"
+  },
+  {
+   "id": "s07",
+   "title": {
+    "en": "Intellectual Property Rights (IPR)"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "IPR gives inventors exclusive rights over their creations, encouraging investment in biotechnology while raising debates about patenting life."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Intellectual property rights\nLegal rights granted to a creator or inventor to exclude others from using an intellectual creation for a fixed period, so that they can recover investment and profit from their work."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Forms of IPR**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Form"
+      },
+      {
+       "en": "Protects"
+      },
+      {
+       "en": "Duration (typical)"
+      },
+      {
+       "en": "Biotechnology example"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Patent**"
+       },
+       {
+        "en": "Inventions (products, processes)"
+       },
+       {
+        "en": "20 years from filing (TRIPS)"
+       },
+       {
+        "en": "Recombinant insulin process, PCR, transgenic mouse method"
+       }
+      ],
+      [
+       {
+        "en": "**Copyright**"
+       },
+       {
+        "en": "Original literary/artistic works, software"
+       },
+       {
+        "en": "Life + 60 years (India)"
+       },
+       {
+        "en": "Bioinformatics software, textbooks"
+       }
+      ],
+      [
+       {
+        "en": "**Trademark**"
+       },
+       {
+        "en": "Brand names, logos"
+       },
+       {
+        "en": "10 years, renewable"
+       },
+       {
+        "en": "Brand name of a drug (Herceptin)"
+       }
+      ],
+      [
+       {
+        "en": "**Trade secret**"
+       },
+       {
+        "en": "Confidential business information"
+       },
+       {
+        "en": "As long as secret"
+       },
+       {
+        "en": "Media formulations of a company"
+       }
+      ],
+      [
+       {
+        "en": "**Geographical Indication (GI)**"
+       },
+       {
+        "en": "Products from a region with special quality"
+       },
+       {
+        "en": "10 years, renewable"
+       },
+       {
+        "en": "Darjeeling tea, Basmati rice"
+       }
+      ],
+      [
+       {
+        "en": "**Plant breeders' rights**"
+       },
+       {
+        "en": "New plant varieties"
+       },
+       {
+        "en": "15–18 years"
+       },
+       {
+        "en": "New hybrid variety (PPV&FR Act, 2001)"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Patent criteria**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Novelty**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Not previously known or published anywhere."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Inventive step**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Not obvious to a person skilled in the art."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Industrial applicability**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Capable of being made or used in industry."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Patenting micro-organisms: Budapest Treaty**\nThe **Budapest Treaty (1977)** recognises the deposit of a micro-organism in an International Depositary Authority as part of the patent application. In India, a deposit centre is IMTECH, Chandigarh (MTCC)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Important international and Indian instruments**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**TRIPS (1995)** — WTO agreement setting minimum IPR standards; 20-year patent term"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Convention on Biological Diversity (1992)** — Sovereign rights over biological resources; access and benefit sharing (Nagoya Protocol, 2010)"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Indian Patents Act, 1970** — Amended in 2005 to allow product patents; **Section 3(j)** excludes plants, animals, seeds, varieties and essentially biological processes; Section 3(d) restricts patents on new forms of known substances without enhanced efficacy"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Biological Diversity Act, 2002** — National Biodiversity Authority (Chennai) regulates access to biological resources"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**PPV&FR Act, 2001** — Protects plant varieties and farmers' rights"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Landmark cases**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Case"
+      },
+      {
+       "en": "Issue"
+      },
+      {
+       "en": "Outcome"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Diamond v. Chakrabarty (1980)**"
+       },
+       {
+        "en": "Patent on a genetically engineered bacterium"
+       },
+       {
+        "en": "US Supreme Court allowed it"
+       }
+      ],
+      [
+       {
+        "en": "**Harvard Oncomouse (1988)**"
+       },
+       {
+        "en": "First patented transgenic animal (USA)"
+       },
+       {
+        "en": "Granted in the USA; contested in Canada and Europe"
+       }
+      ],
+      [
+       {
+        "en": "**Neem patent (EPO)**"
+       },
+       {
+        "en": "Patent on antifungal use of neem oil (W. R. Grace and USDA)"
+       },
+       {
+        "en": "Revoked in 2000 after challenge by India and others"
+       }
+      ],
+      [
+       {
+        "en": "**Turmeric (USPTO, 1995)**"
+       },
+       {
+        "en": "Patent on wound healing use of turmeric"
+       },
+       {
+        "en": "Revoked in 1997 after CSIR challenge"
+       }
+      ],
+      [
+       {
+        "en": "**Basmati rice (RiceTec, 1997)**"
+       },
+       {
+        "en": "Patent on basmati lines and grains"
+       },
+       {
+        "en": "India challenged; key claims withdrawn or struck in 2001"
+       }
+      ],
+      [
+       {
+        "en": "**AMP v. Myriad (2013)**"
+       },
+       {
+        "en": "Patent on isolated human BRCA genes"
+       },
+       {
+        "en": "US Supreme Court: natural DNA not patentable; cDNA is"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Biopiracy**\nBiopiracy is the unauthorised commercial use of biological resources or traditional knowledge without sharing benefits. India's **Traditional Knowledge Digital Library (TKDL)** documents traditional knowledge to prevent wrongful patents."
+     }
+    }
+   ],
+   "label": "📓 Chapter 5"
+  },
+  {
+   "id": "s08",
+   "title": {
+    "en": "Summary & Exam Revision"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Key points and model answers likely to appear in university examinations."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key exam points**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**HGP**: 1990–2003; ~3.1 Gb; ~20,000 genes; <2% coding; ~99.9% similarity between individuals."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Public consortium (clone-by-clone, BAC) versus Celera (whole-genome shotgun); T2T gapless genome in 2022."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "3"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Maps: genetic (cM), cytogenetic (bands), physical (bp), sequence map."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "4"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Applications: disease genes, pharmacogenomics, forensics, evolution, bioinformatics."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**ELSI** accounted for 3–5% of the HGP budget."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "6"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Ethics: privacy, consent, discrimination, germline editing, GM food, animal welfare, equity."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "7"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "India: **GEAC**, RCGM, IBSC; EPA 1986/Rules 1989; Biological Diversity Act 2002; PPV&FR Act 2001."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "8"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Patent criteria: novelty, inventive step, industrial applicability; TRIPS: 20 years; Budapest Treaty for microbes."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "9"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Section 3(j) of Indian Patents Act excludes plants and animals; neem and turmeric patents revoked."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Short-answer questions**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click a question to reveal the model answer."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.1What is the Human Genome Project? State its goals.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "An international project (1990–2003) to sequence the ~3 billion base pairs of the human genome, identify its genes, store data in databases, develop analysis tools, and study the ethical, legal and social implications."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.2Differentiate genetic and physical maps.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A genetic map is based on recombination frequency (cM) between markers; a physical map shows actual distance in base pairs using restriction sites, STS and clone contigs."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.3Compare the public and Celera approaches.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The public consortium used hierarchical clone-by-clone BAC sequencing guided by maps; Celera used whole-genome shotgun sequencing followed by computer assembly."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.4List four applications of HGP.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Identification of disease genes, predictive testing and pharmacogenomics, forensic DNA profiling, comparative genomics/evolution, development of bioinformatics."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.5What are the ethical issues related to genetic information?▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Privacy, discrimination by insurers/employers, informed consent, genetic testing of minors, germline editing, access and equity."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.6What is a patent? What are the criteria for patentability?▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A patent is an exclusive right for 20 years to an inventor in exchange for disclosure. The invention must be novel, involve an inventive step and be industrially applicable."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.7What is biopiracy? Give an example.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Unauthorised exploitation of biological resources or traditional knowledge without benefit sharing. Example: the patents on neem and turmeric, later revoked."
+     }
+    }
+   ],
+   "label": "📋 Summary"
+  },
+  {
+   "id": "s09",
+   "title": {
+    "en": "Key Terms & Glossary"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Important terms in simple language."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Genome"
+     },
+     "definition": {
+      "en": "The complete set of DNA of an organism."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Contig"
+     },
+     "definition": {
+      "en": "A set of overlapping DNA fragments forming a continuous sequence."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "BAC"
+     },
+     "definition": {
+      "en": "Bacterial artificial chromosome, a vector carrying 100–200 kb inserts."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "STS"
+     },
+     "definition": {
+      "en": "Sequence-tagged site: short unique DNA sequence used as a map landmark."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "SNP"
+     },
+     "definition": {
+      "en": "Single nucleotide polymorphism: a single-base difference between individuals."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "ELSI"
+     },
+     "definition": {
+      "en": "Ethical, Legal and Social Implications of genomics research."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Informed consent"
+     },
+     "definition": {
+      "en": "Voluntary agreement after understanding risks and benefits."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Patent"
+     },
+     "definition": {
+      "en": "Exclusive right to an invention for a fixed period (20 years)."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "TRIPS"
+     },
+     "definition": {
+      "en": "WTO agreement on Trade-Related Aspects of Intellectual Property Rights."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Biopiracy"
+     },
+     "definition": {
+      "en": "Unauthorised commercial use of biological resources or traditional knowledge."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "GEAC"
+     },
+     "definition": {
+      "en": "Genetic Engineering Appraisal Committee, India's regulator of GMO release."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Geographical Indication"
+     },
+     "definition": {
+      "en": "Tag for products with qualities linked to their region of origin."
+     }
+    }
+   ],
+   "label": "📖 Glossary"
+  }
+ ],
+ "skipped": [
+  "page-6"
+ ],
+ "dropped": [
+  {
+   "selector": "nav",
+   "count": 1,
+   "sample": [
+    "🧬 Human Genome Project, Ethics & IPR Animal Biotechnology · "
+   ]
+  },
+  {
+   "selector": "#mob-hdr",
+   "count": 1,
+   "sample": [
+    "☰ Human Genome Project, Ethics & IPR"
+   ]
+  },
+  {
+   "selector": "#overlay",
+   "count": 1,
+   "sample": []
+  },
+  {
+   "selector": "footer",
+   "count": 9,
+   "sample": [
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh",
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh",
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh"
+   ]
+  },
+  {
+   "selector": ".start-btn",
+   "count": 1,
+   "sample": [
+    "Begin Learning →"
+   ]
+  },
+  {
+   "selector": ".btn-outline",
+   "count": 8,
+   "sample": [
+    "← Human Genome Project, Ethics & IPR",
+    "← HGP Overview",
+    "← Mapping"
+   ]
+  },
+  {
+   "selector": ".btn-primary",
+   "count": 9,
+   "sample": [
+    "Mapping →",
+    "Findings & Applications →",
+    "Ethics →"
+   ]
+  },
+  {
+   "selector": ".pg-nav",
+   "count": 8,
+   "sample": []
+  }
+ ],
+ "extractor": "1"
+}

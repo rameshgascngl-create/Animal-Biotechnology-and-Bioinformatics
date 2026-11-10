@@ -1,0 +1,1655 @@
+{
+ "id": "gene_cloning_steps_selection",
+ "unit": "II",
+ "title": {
+  "en": "Gene Cloning – Steps & Selection of Clones"
+ },
+ "sections": [
+  {
+   "id": "s01",
+   "title": {
+    "en": "Overview"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Animal Biotechnology · B.Sc. Zoology / Biotechnology"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "title": {
+    "en": "Gene Cloning"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Steps in Cloning · Selection of Clones · Blue-White Screening"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "How do scientists isolate a single gene from billions of base pairs and make millions of identical copies? Gene cloning is the answer — and it forms the foundation of all recombinant DNA technology, from insulin production to cancer diagnostics."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🎯 Learning Objectives**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Define gene cloning and explain its importance in animal biotechnology."
+      },
+      {
+       "en": "List all requirements needed for successful gene cloning."
+      },
+      {
+       "en": "Describe each step in the gene cloning process in correct sequence."
+      },
+      {
+       "en": "Explain why clone selection is necessary and list the key selection methods."
+      },
+      {
+       "en": "Describe the blue-white screening system for identifying recombinant clones."
+      },
+      {
+       "en": "Distinguish between transformation, selection, and screening."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": {
+    "en": "Introduction to Gene Cloning"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Definition**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Gene cloning is the process of making multiple identical copies of a specific gene (or DNA segment) by inserting it into a **vector**, introducing the recombinant vector into a **host cell**, and allowing the host to replicate, producing millions of copies of the gene of interest."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Importance in Animal Biotechnology**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Protein production:** Cloned genes can be expressed in bacteria to produce human proteins — insulin, growth hormone, erythropoietin, and clotting factors."
+      },
+      {
+       "en": "**Gene therapy:** Correct copies of defective genes can be cloned and delivered into patients' cells."
+      },
+      {
+       "en": "**Transgenic animals:** Cloned genes are introduced into animal embryos to create transgenic models for disease research."
+      },
+      {
+       "en": "**Diagnostics:** Cloned DNA probes detect pathogens, genetic mutations, and cancer markers."
+      },
+      {
+       "en": "**Vaccine development:** Antigens encoded by cloned viral genes produce safer subunit vaccines."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Core Concept:** Gene cloning = _isolate_ the gene → _insert_ into a vector → _replicate_ in a host cell → _select_ successful recombinants → _use_ for desired purpose."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Basic Concept: How Cloning Copies a Gene**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The gene of interest is treated as a **molecular \"passenger\"**. A vector (commonly a plasmid) acts as the **\"vehicle\"**. The passenger is loaded into the vehicle using restriction enzymes (cut) and DNA ligase (join). The vehicle enters a bacterial host cell, which divides millions of times — each daughter cell carrying an identical copy of the gene."
+     }
+    }
+   ],
+   "icon": "🔬",
+   "label": "Section 1"
+  },
+  {
+   "id": "s04",
+   "title": {
+    "en": "Requirements for Gene Cloning"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Five essential components must be present for successful gene cloning:"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1. Source DNA The DNA containing the **gene of interest**. Can be genomic DNA (isolated from organism) or cDNA (synthesised from mRNA via reverse transcriptase). This is the \"insert\" to be cloned."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2. Vector A carrier DNA molecule — usually a **plasmid** or bacteriophage — that can replicate autonomously in a host cell. Must have: ori, selectable marker, restriction sites."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "3. Restriction Enzymes **Molecular scissors** — endonucleases that recognise specific palindromic sequences and cut both strands of DNA at defined sites, producing compatible sticky or blunt ends on both insert and vector."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "4. DNA Ligase **Molecular glue** — seals the phosphodiester bonds between the insert and linearised vector, joining them into a circular recombinant DNA molecule. T4 DNA ligase is most commonly used."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5. Host Cell Usually _Escherichia coli_ — a competent bacterial cell that takes up the recombinant vector and replicates it during cell division. Each cell propagates one recombinant clone."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Memory Aid:** _D_NA + _V_ector + _R_estriction enzymes + _L_igase + _H_ost = **DVRLH** — \"Do Very Real Lab Homework!\""
+     }
+    }
+   ],
+   "icon": "🧰",
+   "label": "Section 2"
+  },
+  {
+   "id": "s05",
+   "title": {
+    "en": "Steps in Gene Cloning"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Gene cloning proceeds through seven distinct, sequential steps:"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Isolation of the Gene of Interest"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The target gene is obtained either by:"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Restriction digestion** of total genomic DNA — the enzyme cuts DNA and the fragment containing the gene is isolated (e.g., by gel electrophoresis)."
+      },
+      {
+       "en": "**PCR amplification** — if the gene sequence is known, specific primers are used to amplify only that gene."
+      },
+      {
+       "en": "**cDNA synthesis** — mRNA from a tissue expressing the gene is converted to cDNA using reverse transcriptase."
+      },
+      {
+       "en": "**Chemical synthesis** — for short, well-characterised genes, the sequence is synthesised de novo."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Cutting DNA Using Restriction Enzymes"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Both the **insert DNA** (gene of interest) and the **vector DNA** are digested with the _same restriction enzyme(s)_. This produces compatible ends:"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Sticky ends** (overhangs) — most common; produced by enzymes like EcoRI, BamHI. Complementary overhangs on insert and vector allow them to anneal by hydrogen bonding."
+      },
+      {
+       "en": "**Blunt ends** — produced by enzymes like SmaI, EcoRV. No overhang; less efficient for ligation."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Using the same restriction enzyme on both insert and vector guarantees **compatible cohesive ends** — essential for efficient ligation."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "3"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Preparation of Vector DNA"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "The vector (e.g., pBR322, pUC19) is **linearised** by digestion with the same restriction enzyme used on the insert."
+      },
+      {
+       "en": "Optional: the vector may be **dephosphorylated** using alkaline phosphatase to prevent self-ligation (recircularisation without insert), improving recombinant efficiency."
+      },
+      {
+       "en": "The linearised vector has two free ends with cohesive sequences complementary to the insert ends."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "4"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Ligation: Joining Insert and Vector"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The insert and linearised vector are mixed together. The compatible **sticky ends anneal** (hydrogen bonds between complementary bases). **T4 DNA ligase** then seals the phosphodiester bonds between the 3'-OH and 5'-phosphate ends, covalently joining the insert into the vector."
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "The reaction requires: ATP (energy for T4 DNA ligase), Mg²⁺ cofactor, appropriate temperature (16°C overnight for sticky ends)."
+      },
+      {
+       "en": "The product is a **circular recombinant DNA molecule**."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Formation of Recombinant DNA"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The ligation reaction produces a mixture of molecules:"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Recombinant vector** — vector containing the foreign insert (desired product)."
+      },
+      {
+       "en": "**Re-ligated vector** — vector that recircularised without insert (background)."
+      },
+      {
+       "en": "**Insert concatemers** — multiple inserts ligated together (unwanted)."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The recombinant DNA molecule is now ready for introduction into the host cell. This is the **central product** of the cloning process."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "6"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Transformation into Host Cell"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The recombinant DNA is introduced into competent _E. coli_ cells by transformation:"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Chemical transformation:** Competent cells are prepared by treating with CaCl₂ (disrupts cell membrane). Recombinant DNA is added and the mixture is briefly heat-shocked at 42°C, causing the DNA to enter the cells."
+      },
+      {
+       "en": "**Electroporation:** A brief high-voltage electric pulse creates temporary pores in the cell membrane, allowing DNA entry. Higher efficiency than chemical transformation."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Not all cells take up the vector — typically only 1 in 10³–10⁵ cells is successfully transformed. Selection is therefore essential."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "7"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Multiplication of Clones"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Transformed bacteria are plated on **selective agar medium** (e.g., containing antibiotic). Each transformed cell that survives and divides produces a **colony of genetically identical cells** — a clone."
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Each colony contains millions of copies of the recombinant vector (and hence the cloned gene)."
+      },
+      {
+       "en": "The colonies are then screened to identify those carrying the correct insert."
+      },
+      {
+       "en": "Selected colonies are grown in liquid culture for large-scale DNA/protein production."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 1 — Overview of Gene Cloning Steps"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "gene_cloning_steps_selection-d01",
+     "caption": {
+      "en": "Gene cloning overview"
+     },
+     "labels": [
+      "Source DNA",
+      "5' ────────── 3'",
+      "3' ────────── 5'",
+      "✂",
+      "Restriction enzyme",
+      "Gene Fragment",
+      "G AATTC",
+      "CTTAA G",
+      "5'",
+      "3'",
+      "3'",
+      "5'",
+      "Plasmid Vector",
+      "ori",
+      "MCS",
+      "✂",
+      "amp",
+      "r",
+      "tet",
+      "r",
+      "DNA Ligase (T4)",
+      "Recombinant DNA",
+      "Gene of",
+      "Interest",
+      "Insert",
+      "Transform",
+      "Host Cell (E. coli)",
+      "rDNA",
+      "↺",
+      "Chromosome + Recombinant plasmid",
+      "Selection",
+      "Colonies (Clones) on Selective Agar",
+      "Sticky ends anneal"
+     ]
+    }
+   ],
+   "icon": "🪜",
+   "label": "Section 3"
+  },
+  {
+   "id": "s06",
+   "title": {
+    "en": "Selection of Clones"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Why Is Selection Necessary?**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "After transformation, only a small fraction of bacterial cells actually take up the recombinant vector. The transformation mixture contains:"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Non-transformed cells** — did not take up any vector (majority)."
+      },
+      {
+       "en": "**Cells with re-ligated vector** — took up vector that re-circularised without insert."
+      },
+      {
+       "en": "**Cells with recombinant vector** — took up vector containing the gene of interest (desired)."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**The Problem:** All three types of cells look identical on a plate. Without selection and screening, finding the correct recombinant clone would be like finding a needle in a haystack of billions of bacteria."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Method 1 — Antibiotic Resistance Markers**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Principle:** Vectors carry antibiotic resistance genes (e.g., _ampr_ for ampicillin resistance in pBR322). Only cells that have successfully taken up the vector will carry this resistance gene and survive on antibiotic-containing agar."
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Transformed cells are plated on medium containing **ampicillin**."
+      },
+      {
+       "en": "Only cells that took up the vector (carrying _ampr_) grow → they are **transformants**."
+      },
+      {
+       "en": "Non-transformed cells die — they cannot replicate on ampicillin medium."
+      },
+      {
+       "en": "This step identifies **transformed vs non-transformed** cells, but does NOT yet distinguish recombinant from non-recombinant transformants."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Method 2 — Insertional Inactivation**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Using pBR322 as an example: the vector carries both _ampr_ and _tetr_ (tetracycline resistance) genes. When the gene of interest is cloned into a restriction site _within_ the _tetr_ gene, the tetracycline resistance is **disrupted**."
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Non-recombinant transformants:** ampicillin-resistant AND tetracycline-resistant (tetr gene intact)."
+      },
+      {
+       "en": "**Recombinant transformants:** ampicillin-resistant but tetracycline-sensitive (tetr gene disrupted by insert)."
+      },
+      {
+       "en": "Grow colonies on ampicillin first → replica plate onto tetracycline → colonies that grow on amp but NOT on tet are recombinants."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Method 3 — Blue-White Screening (lacZ System)**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Used with vectors like pUC19 that contain the _lacZ_ gene (encoding β-galactosidase) with an MCS (multiple cloning site) within the _lacZ_ coding sequence."
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "When no insert is present, the _lacZ_ gene is intact → β-galactosidase is produced → cleaves X-gal (a colourless substrate) → produces a **blue compound** → colony appears **blue**."
+      },
+      {
+       "en": "When an insert disrupts the MCS within _lacZ_, β-galactosidase is non-functional → X-gal is not cleaved → colony remains **white**."
+      },
+      {
+       "en": "**Blue colonies = non-recombinant** (no insert, intact lacZ)."
+      },
+      {
+       "en": "**White colonies = recombinant** (insert present, disrupted lacZ)."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "tip",
+     "text": {
+      "en": "**Exam Formula:** Blue = Bad (no insert, lacZ active) | White = Winner (has insert, lacZ disrupted). Pick the white colonies!"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Method 4 — Probe-Based Screening (Colony Hybridisation)**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Once transformants are identified by selection, the correct clone carrying the gene of interest is found by hybridisation:"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Bacterial colonies are transferred to a nylon membrane and lysed."
+      },
+      {
+       "en": "DNA is denatured and fixed to the membrane."
+      },
+      {
+       "en": "A labelled **DNA probe** (complementary to the gene of interest) is applied."
+      },
+      {
+       "en": "Probe hybridises to colonies carrying the matching DNA sequence."
+      },
+      {
+       "en": "Positive colonies are identified by autoradiography or fluorescence."
+      }
+     ]
+    }
+   ],
+   "icon": "🎯",
+   "label": "Section 4"
+  },
+  {
+   "id": "s07",
+   "title": {
+    "en": "Blue-White Screening — Interactive Diagram"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Click the view buttons to see what happens in each scenario. Click individual colonies to learn more."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "📋 Overview / Principle"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🔵 Non-Recombinant (Blue)"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "⚪ Recombinant (White)"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🧫 Petri Dish View"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "gene_cloning_steps_selection-d02",
+     "caption": {
+      "en": "Blue-white screening overview"
+     },
+     "labels": [
+      "pUC19 Vector",
+      "amp",
+      "r",
+      "lacZ",
+      "(β-galactosidase)",
+      "MCS",
+      "(cloning site within lacZ)",
+      "pUC19",
+      "ori + selection",
+      "Outcome",
+      "No Insert",
+      "lacZ intact",
+      "β-gal active",
+      "BLUE",
+      "Insert Present",
+      "lacZ disrupted",
+      "β-gal inactive",
+      "WHITE",
+      "Selective Medium contains:",
+      "Ampicillin (selects transformants) + X-gal + IPTG"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "gene_cloning_steps_selection-d03",
+     "caption": {
+      "en": "Non-recombinant blue colony mechanism"
+     },
+     "labels": [
+      "Step 1: Vector re-ligates (no insert)",
+      "lacZ",
+      "(intact)",
+      "IPTG induces",
+      "Step 2: β-galactosidase produced",
+      "β-galactosidase",
+      "(functional enzyme)",
+      "cleaves X-gal",
+      "Step 3: Blue colour",
+      "X-gal → 5-bromo-4-",
+      "chloro-indigo",
+      "(blue compound)",
+      "BLUE",
+      "COLONY",
+      "Non-recombinant — lacZ intact — NO insert"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "gene_cloning_steps_selection-d04",
+     "caption": {
+      "en": "Recombinant white colony mechanism"
+     },
+     "labels": [
+      "Step 1: Insert disrupts lacZ in MCS",
+      "INSERT",
+      "lacZ",
+      "(DISRUPTED)",
+      "IPTG added",
+      "(no effect)",
+      "Step 2: Non-functional β-galactosidase",
+      "β-galactosidase",
+      "(non-functional)",
+      "X-gal",
+      "not cleaved",
+      "Step 3: Colony stays white",
+      "X-gal remains",
+      "colourless",
+      "(no blue compound)",
+      "WHITE",
+      "COLONY",
+      "✓ RECOMBINANT — lacZ disrupted — INSERT present"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Petri Dish — Blue-White Screening Result (hover over colonies)"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "gene_cloning_steps_selection-d05",
+     "caption": {
+      "en": "Petri dish blue white screening"
+     },
+     "labels": [
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "W",
+      "W",
+      "W",
+      "W",
+      "W★",
+      "LB Agar + Ampicillin + X-gal + IPTG",
+      "B = Blue (non-recombinant) | W = White (recombinant ★ = pick this!)"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Blue — lacZ intact, no insert (non-recombinant)"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "White — lacZ disrupted, insert present (recombinant ✓)"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**🔵 Blue Colony — Non-Recombinant:** The lacZ gene in this cell is _intact_ (no insert was cloned into the MCS). β-galactosidase is expressed and cleaves X-gal in the medium, producing a blue compound. This clone does NOT contain the gene of interest."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**⚪ White Colony — Recombinant ✓:** An insert has been cloned into the MCS, disrupting the lacZ gene. β-galactosidase is non-functional and cannot cleave X-gal — so the colony remains white. This clone MAY contain the gene of interest (confirm by PCR/sequencing)."
+     }
+    }
+   ],
+   "icon": "🔵⚪",
+   "label": "Section 5 — Interactive"
+  },
+  {
+   "id": "s08",
+   "title": {
+    "en": "Gene Cloning Pipeline — Click Each Step"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Click any step to expand its details."
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "1 🧬 Isolate Gene of Interest Extract total genomic DNA or isolate mRNA. Use restriction enzymes, PCR, or reverse transcription to obtain the specific gene or cDNA fragment."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "2 ✂️ Restriction Digestion of DNA and Vector Both the insert DNA and the vector plasmid are cut with the same restriction enzyme. This produces compatible sticky ends on both molecules, allowing them to anneal later."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "3 🔗 Ligation: Insert + Vector T4 DNA ligase joins the insert and linearised vector by sealing the phosphodiester bonds between compatible sticky ends. Result: circular recombinant DNA molecule."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "4 🧫 Transformation into E. coli Recombinant DNA is introduced into competent E. coli cells by heat-shock (42°C) or electroporation. Cells are plated on selective agar with ampicillin (to select transformants)."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "5 🔵⚪ Selection and Screening of Clones Antibiotic selection identifies transformed cells. Blue-white screening or insertional inactivation distinguishes recombinants (white/amp-r-tet-s) from non-recombinants (blue/amp-r-tet-r)."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "6 📋 Verify and Amplify Correct Clone Correct recombinant clones are confirmed by restriction analysis, PCR, or DNA sequencing. The verified clone is grown in large-scale liquid culture for DNA or protein production."
+      }
+     ]
+    }
+   ],
+   "icon": "🔄",
+   "label": "Section 6 — Flow Diagram"
+  },
+  {
+   "id": "s09",
+   "title": {
+    "en": "Comparison: Transformation vs Selection vs Screening"
+   },
+   "blocks": [
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Feature"
+      },
+      {
+       "en": "Transformation"
+      },
+      {
+       "en": "Selection"
+      },
+      {
+       "en": "Screening"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Definition**"
+       },
+       {
+        "en": "Introduction of recombinant DNA into host cell"
+       },
+       {
+        "en": "Identification of cells that took up the vector (any vector)"
+       },
+       {
+        "en": "Identification of cells with the correct recombinant vector (with insert)"
+       }
+      ],
+      [
+       {
+        "en": "**Purpose**"
+       },
+       {
+        "en": "Deliver recombinant DNA into the host bacterium"
+       },
+       {
+        "en": "Distinguish transformed from non-transformed cells"
+       },
+       {
+        "en": "Distinguish recombinant from non-recombinant transformants"
+       }
+      ],
+      [
+       {
+        "en": "**Method**"
+       },
+       {
+        "en": "Heat shock (42°C) with CaCl₂ or electroporation"
+       },
+       {
+        "en": "Antibiotic resistance — only transformed cells survive on antibiotic plates"
+       },
+       {
+        "en": "Blue-white (lacZ/X-gal), insertional inactivation, colony hybridisation, PCR"
+       }
+      ],
+      [
+       {
+        "en": "**What is detected?**"
+       },
+       {
+        "en": "Entry of DNA into the cell"
+       },
+       {
+        "en": "Presence of the vector (antibiotic resistance marker)"
+       },
+       {
+        "en": "Presence of insert within the vector (disruption of lacZ or tetr)"
+       }
+      ],
+      [
+       {
+        "en": "**Outcome**"
+       },
+       {
+        "en": "Cells now contain the recombinant vector"
+       },
+       {
+        "en": "Surviving colonies all carry the vector"
+       },
+       {
+        "en": "Correct recombinant clone identified (white colony; ampr/tets)"
+       }
+      ],
+      [
+       {
+        "en": "**Example**"
+       },
+       {
+        "en": "CaCl₂/heat shock; electroporation"
+       },
+       {
+        "en": "Growth on LB + ampicillin plate"
+       },
+       {
+        "en": "White colonies on X-gal/IPTG plate; replica plating on tetracycline"
+       }
+      ],
+      [
+       {
+        "en": "**Required for**"
+       },
+       {
+        "en": "All gene cloning experiments"
+       },
+       {
+        "en": "Identifying any transformed host cell"
+       },
+       {
+        "en": "Finding the specific clone with the desired insert"
+       }
+      ]
+     ]
+    }
+   ],
+   "icon": "📋",
+   "label": "Section 7"
+  },
+  {
+   "id": "s10",
+   "title": {
+    "en": "Interactive Learning"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**✂️ Why Must the Same Restriction Enzyme Be Used on Insert and Vector?**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Key Concept"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Using the same restriction enzyme on both insert and vector ensures they both have **complementary cohesive (sticky) ends**. For example, if EcoRI is used on both, the insert ends with 5'-AATT overhangs and the vector ends with 5'-AATT overhangs — these can anneal by hydrogen bonding before DNA ligase seals them."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "If different enzymes are used, the ends would be incompatible — they cannot anneal, so ligation efficiency drops to near zero."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Exception:** Blunt-end ligation — any blunt-ended insert can be ligated into any blunt-ended vector (e.g., using SmaI), but this is far less efficient and non-directional."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🧫 What Is Competent Cell Preparation?**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Transformation"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Bacterial cells are not normally able to take up naked DNA from their environment. They must be made \"**competent**\" — artificially rendered capable of DNA uptake."
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Chemical method (CaCl₂):** Bacteria are washed in ice-cold CaCl₂ solution. The calcium ions partially disrupt the cell membrane and create a state where DNA can adsorb to the surface. Heat shock (42°C for 90 seconds) drives the DNA into the cell."
+      },
+      {
+       "en": "**Electroporation:** A high-voltage pulse (1,500–2,500 V/cm) creates transient pores in the membrane. More efficient, used for difficult-to-transform bacteria."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔵 Why Is Alkaline Phosphatase Treatment of the Vector Useful?**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Clone Selection"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "When a vector is linearised by a restriction enzyme, the two ends have 5'-phosphate groups. These can re-ligate (vector re-circularises without insert), increasing the background of non-recombinant colonies."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Alkaline phosphatase** (CIAP or SAP) removes the 5'-phosphate groups from the linearised vector. Without phosphates, the vector ends cannot self-ligate — only when insert DNA (which retains its 5'-phosphates) is added can ligation occur. This greatly reduces background and increases recombinant efficiency."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**⭐ Steps in Order — Exam Sequence Check**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Exam Prep"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The correct sequence for gene cloning (must memorise!):"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": true,
+     "items": [
+      {
+       "en": "Isolate gene of interest (restriction digestion / PCR / cDNA)"
+      },
+      {
+       "en": "Cut both insert and vector with same restriction enzyme → compatible sticky ends"
+      },
+      {
+       "en": "Prepare vector (linearise; optionally dephosphorylate with alkaline phosphatase)"
+      },
+      {
+       "en": "Ligate insert + vector using T4 DNA ligase → recombinant DNA"
+      },
+      {
+       "en": "Transform recombinant DNA into competent E. coli (heat shock or electroporation)"
+      },
+      {
+       "en": "Plate on selective medium (ampicillin) → only transformed cells grow"
+      },
+      {
+       "en": "Screen for recombinants (blue-white / insertional inactivation)"
+      },
+      {
+       "en": "Confirm correct clone (restriction mapping / PCR / sequencing)"
+      },
+      {
+       "en": "Amplify and use (large-scale growth, protein expression, etc.)"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Click-to-Reveal Key Concepts**"
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Sticky Ends"
+     },
+     "answer": {
+      "en": "Short single-stranded overhangs produced by staggered restriction enzyme cuts (e.g., EcoRI produces 5'-AATT overhangs). Complementary sticky ends on insert and vector can anneal by hydrogen bonding, facilitating efficient ligation."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "lacZ Gene"
+     },
+     "answer": {
+      "en": "Encodes β-galactosidase in E. coli. In pUC vectors, the MCS is within lacZ. An insert disrupts lacZ → no functional β-galactosidase → X-gal not cleaved → white colony. Used in blue-white screening."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "X-gal"
+     },
+     "answer": {
+      "en": "5-Bromo-4-chloro-3-indolyl-β-D-galactopyranoside. A colourless substrate that β-galactosidase cleaves into a blue compound (5-bromo-4-chloro-indigo). Used with IPTG (inducer) in blue-white screening plates."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "IPTG"
+     },
+     "answer": {
+      "en": "Isopropyl β-D-1-thiogalactopyranoside — a synthetic inducer of the lac operon. Induces expression of lacZ gene in bacterial cells on blue-white screening plates, allowing β-galactosidase to be produced."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Insertional Inactivation"
+     },
+     "answer": {
+      "en": "A screening method where inserting DNA into a restriction site within a marker gene (e.g., tet^r in pBR322) disrupts that gene's function. Recombinant: amp^r, tet^s. Non-recombinant: amp^r, tet^r. Identified by replica plating."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Colony Hybridisation"
+     },
+     "answer": {
+      "en": "A screening method where bacterial colonies are transferred to a nylon membrane, lysed, DNA denatured and fixed. A labelled probe (complementary to gene of interest) hybridises to positive clones, detected by autoradiography or fluorescence."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Recombinant DNA"
+     },
+     "answer": {
+      "en": "A hybrid DNA molecule formed by joining DNA sequences from two different sources — typically a gene of interest (insert) ligated into a vector. The product of the ligation step in gene cloning."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Replica Plating"
+     },
+     "answer": {
+      "en": "A technique where an exact copy of colonies from one agar plate is transferred to a second plate with different selective medium (e.g., from ampicillin to tetracycline). Used in insertional inactivation to identify recombinant clones that grow on amp but not on tet."
+     }
+    }
+   ],
+   "icon": "🎮",
+   "label": "Section 8 — Interactive"
+  },
+  {
+   "id": "s11",
+   "title": {
+    "en": "Summary — Key Exam Points"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Gene Cloning**Process of making identical copies of a specific gene by inserting it into a vector, introducing into a host cell, and allowing replication. Core of recombinant DNA technology."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**5 Requirements**Source DNA + Vector + Restriction enzyme + DNA ligase + Host cell (E. coli). Together they enable the entire cloning process."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Restriction Enzymes**Must use the same enzyme on insert and vector to produce compatible sticky ends. Common examples: EcoRI (GAATTC), BamHI (GGATCC), HindIII (AAGCTT)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**DNA Ligase (T4)**Seals phosphodiester bonds between 3'-OH and 5'-phosphate ends. Joins insert into vector. Requires ATP and Mg²⁺. Usually incubated at 16°C overnight."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Transformation**Introduction of recombinant DNA into E. coli. Methods: CaCl₂/heat shock (42°C) or electroporation. Only ~1 in 10³–10⁵ cells is transformed."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Antibiotic Selection**Cells plated on medium with ampicillin. Only cells carrying the vector (amp^r) survive. This selects for transformed cells (but not specifically recombinants)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Blue-White Screening**Blue colonies = non-recombinant (lacZ intact, β-gal active, cleaves X-gal → blue). White colonies = recombinant (insert disrupts lacZ, no β-gal, no colour). Pick WHITE colonies!"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Insertional Inactivation**In pBR322: insert into BamHI/SalI site disrupts tet^r. Recombinants = amp^r, tet^s. Non-recombinants = amp^r, tet^r. Confirmed by replica plating."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Alkaline Phosphatase**Removes 5'-phosphates from linearised vector to prevent self-ligation. Dramatically reduces background of non-recombinant colonies."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Correct Cloning Sequence**Isolate gene → Restriction digest → Ligate → Transform → Select on antibiotic → Screen (blue/white or insertional inactivation) → Confirm → Amplify."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Colony Hybridisation**Probe-based screening to identify clone with specific gene. Colonies transferred to membrane → lysed → probed with labelled DNA → positive clones detected by autoradiography."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**pUC19 vs pBR322**pUC19: uses lacZ/blue-white screening; MCS within lacZ. pBR322: uses insertional inactivation; two resistance genes (amp^r + tet^r); insert disrupts tet^r."
+     }
+    }
+   ],
+   "icon": "📌",
+   "label": "Section 10"
+  },
+  {
+   "id": "s12",
+   "title": {
+    "en": "Glossary"
+   },
+   "blocks": [
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Gene Cloning"
+     },
+     "definition": {
+      "en": "The process of making multiple identical copies of a specific gene by inserting it into a vector, introducing the recombinant vector into a host cell, and propagating the host through cell division."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Vector"
+     },
+     "definition": {
+      "en": "A DNA molecule (plasmid, phage, cosmid) used to carry a foreign gene into a host cell. Must have an origin of replication, selectable marker, and restriction sites. Acts as the \"vehicle\" for gene delivery."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Ligation"
+     },
+     "definition": {
+      "en": "The covalent joining of two DNA molecules by DNA ligase. Forms phosphodiester bonds between the 3'-OH and 5'-phosphate termini of compatible DNA ends. Creates the recombinant DNA molecule in gene cloning."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Transformation"
+     },
+     "definition": {
+      "en": "The uptake of foreign DNA by a bacterial cell. In gene cloning, competent E. coli cells take up recombinant vectors by heat shock (CaCl₂ method) or electroporation."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Recombinant DNA"
+     },
+     "definition": {
+      "en": "A hybrid DNA molecule formed by joining DNA sequences from two different sources — specifically the gene of interest (insert) ligated into a cloning vector. The central product of the cloning process."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Selection Marker"
+     },
+     "definition": {
+      "en": "A gene on the vector (usually an antibiotic resistance gene) used to identify and select transformed host cells. Only cells carrying the vector survive on medium with the corresponding antibiotic."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Blue-White Screening"
+     },
+     "definition": {
+      "en": "A method to distinguish recombinant from non-recombinant clones. White colonies carry an insert (lacZ disrupted, no β-gal, X-gal not cleaved). Blue colonies have no insert (lacZ intact, β-gal cleaves X-gal → blue colour)."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Insertional Inactivation"
+     },
+     "definition": {
+      "en": "Disruption of a marker gene (e.g., tet^r) by inserting foreign DNA into a restriction site within it. Cells with the insert lose function of that marker. Used to distinguish recombinant from non-recombinant clones."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Competent Cell"
+     },
+     "definition": {
+      "en": "A bacterial cell that has been chemically (CaCl₂) or physically (electroporation) treated to become capable of taking up exogenous DNA from its environment during transformation."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Sticky Ends"
+     },
+     "definition": {
+      "en": "Short single-stranded complementary overhangs produced by staggered restriction enzyme cuts. Compatible sticky ends on the insert and vector anneal by hydrogen bonding, facilitating efficient ligation."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "X-gal"
+     },
+     "definition": {
+      "en": "5-Bromo-4-chloro-3-indolyl-β-D-galactopyranoside — a synthetic colourless substrate for β-galactosidase. When cleaved by β-gal, it produces a blue compound. Used in blue-white screening with IPTG inducer."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Colony Hybridisation"
+     },
+     "definition": {
+      "en": "A probe-based screening method. Bacterial colonies are lysed on a nylon membrane, DNA denatured, and a labelled probe applied. Hybridisation reveals which colony contains the target gene."
+     }
+    }
+   ],
+   "icon": "📖",
+   "label": "Section 11"
+  },
+  {
+   "id": "s13",
+   "title": {
+    "en": "Frequently Asked University Exam Questions"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Click each question to expand answer hints."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1. Define gene cloning. Describe the step-by-step procedure of gene cloning.**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Definition: gene cloning = producing multiple identical copies of a specific gene using recombinant DNA technology."
+      },
+      {
+       "en": "Steps in order: (1) Isolation of gene of interest (RE digestion/PCR/cDNA); (2) Restriction digestion of gene and vector with same RE; (3) Ligation with T4 DNA ligase; (4) Formation of recombinant DNA; (5) Transformation into E. coli (heat shock/electroporation); (6) Selection on antibiotic medium; (7) Screening for recombinants; (8) Colony multiplication and verification."
+      },
+      {
+       "en": "Mention requirements: insert DNA, vector (ori + marker + MCS), restriction enzyme, DNA ligase, competent E. coli."
+      },
+      {
+       "en": "Include a simple flow diagram: gene → RE cut → ligation → transform → select → screen."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**2. What is blue-white screening? Explain its principle and significance in clone selection.**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Blue-white screening uses the lacZ gene (encoding β-galactosidase) in pUC vectors to distinguish recombinant (white) from non-recombinant (blue) colonies."
+      },
+      {
+       "en": "Principle: MCS is within lacZ. Without insert → lacZ intact → β-gal produced → cleaves X-gal → blue compound → blue colony. With insert → lacZ disrupted → no functional β-gal → X-gal not cleaved → white colony."
+      },
+      {
+       "en": "Medium: LB agar + ampicillin (select transformants) + X-gal + IPTG (lac operon inducer)."
+      },
+      {
+       "en": "Significance: rapid visual screening without replica plating; picks white colonies as potential recombinants."
+      },
+      {
+       "en": "Limitation: blue-white only shows insert disrupted lacZ — must confirm with PCR/restriction analysis."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**3. What is insertional inactivation? How is it used to select recombinant clones in pBR322 cloning?**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Insertional inactivation: inserting foreign DNA into a restriction site within a selectable marker gene disrupts that gene's function."
+      },
+      {
+       "en": "pBR322 has two markers: amp^r (ampicillin resistance) and tet^r (tetracycline resistance) + unique restriction sites within each."
+      },
+      {
+       "en": "Insert into BamHI or SalI (within tet^r): recombinants = amp^r, tet^s; non-recombinants = amp^r, tet^r."
+      },
+      {
+       "en": "Protocol: grow all colonies on ampicillin → replica plate to tetracycline → colonies growing on amp but NOT tet = recombinants."
+      },
+      {
+       "en": "Advantage: can identify recombinants with any insert (not dependent on lacZ); disadvantage: requires replica plating (more steps than blue-white)."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**4. Explain the role of restriction enzymes and DNA ligase in gene cloning.**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Restriction enzymes** (\"molecular scissors\"): recognise specific palindromic sequences; cleave both strands at/near the site; produce sticky (staggered cut) or blunt (straight cut) ends; Type II used in cloning (e.g., EcoRI, BamHI); same enzyme used on insert and vector ensures compatible ends."
+      },
+      {
+       "en": "**DNA ligase** (\"molecular glue\"): T4 DNA ligase seals phosphodiester bonds; requires ATP and Mg²⁺; joins 3'-OH to 5'-phosphate; conditions: 16°C overnight for sticky ends; joins insert to vector to form recombinant DNA."
+      },
+      {
+       "en": "Together: RE cuts open the vector at MCS and cuts the gene from the source genome with matching ends → ligase joins them to create a continuous circular recombinant DNA molecule."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**5. Why is selection necessary after transformation? Describe TWO methods of clone selection.**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Why selection: transformation is inefficient (~1 in 10³–10⁵ cells takes up vector); the ligation mixture contains non-recombinant (re-ligated) vectors AND recombinant vectors; all transformed cells look identical; selection is needed to identify cells carrying the correct recombinant vector."
+      },
+      {
+       "en": "**Method 1 — Antibiotic selection:** vectors carry amp^r; transformed cells plated on ampicillin medium; only cells with vector survive; distinguishes transformed from non-transformed. Cannot distinguish recombinant from non-recombinant — further screening needed."
+      },
+      {
+       "en": "**Method 2 — Blue-white screening:** pUC vectors; lacZ + MCS; X-gal + IPTG in medium; white colonies = recombinant (insert disrupts lacZ). Quick visual identification."
+      },
+      {
+       "en": "Alternative Method 2 — Insertional inactivation: pBR322; insert disrupts tet^r; recombinants = amp^r + tet^s; detected by replica plating."
+      }
+     ]
+    }
+   ],
+   "icon": "🎓",
+   "label": "Section 12"
+  }
+ ],
+ "skipped": [
+  "quiz"
+ ],
+ "dropped": [
+  {
+   "selector": "nav",
+   "count": 1,
+   "sample": [
+    "Home Intro Requirements Steps Selection Blue-White Flow Diag"
+   ]
+  },
+  {
+   "selector": "footer",
+   "count": 1,
+   "sample": [
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh"
+   ]
+  },
+  {
+   "selector": ".rh",
+   "count": 8,
+   "sample": [
+    "Click to reveal",
+    "Click to reveal",
+    "Click to reveal"
+   ]
+  }
+ ],
+ "extractor": "1"
+}

@@ -1,0 +1,36 @@
+{
+  "skip_ids": [
+    "quiz"
+  ],
+  "label_classes": [
+    "sec-num",
+    "chip"
+  ],
+  "heading_classes": [
+    "sec-title"
+  ],
+  "callout_classes": [
+    "hbox"
+  ],
+  "glossary": {
+    "container": "gc",
+    "term": "dt",
+    "def": "dd"
+  },
+  "steps_item_classes": [
+    "step"
+  ],
+  "button_heading_classes": [
+    "acc-btn",
+    "hint-btn"
+  ],
+  "extra_drop_selectors": [
+    ".arr"
+  ],
+  "accepted_script_literals": [
+    "🏆 Excellent! Strong command of molecular markers.",
+    "👍 Good work. Revisit the RFLP and RAPD comparison.",
+    "📚 Fair attempt. Focus on the comparison table and key definitions.",
+    "🔄 Keep revising. Start with definitions of RFLP, RAPD, and DNA fingerprinting."
+  ]
+}

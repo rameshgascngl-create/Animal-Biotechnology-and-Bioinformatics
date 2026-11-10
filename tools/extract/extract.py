@@ -610,6 +610,14 @@ def _run(html, source, profile):
     raw_title = _collapse(title_tag.get_text(" ")) if title_tag else Path(source).stem
     title = re.sub(r"\s*[|–—-]\s*(Interactive[^|–—]*|Animal Biotechnology[^|–—]*|[^|–—]*App)$", "", raw_title)
     sections = [s for s in walk.sections if s["blocks"]]
+    # extra_blocks: content that exists only inside JavaScript strings (reviewed by hand, see profile)
+    for eb in profile.get("extra_blocks", []):
+        host = next((s for s in sections if eb["section"].lower() in s["title"]["en"].lower()), None)
+        if host is None:
+            raise ValueError(f"extra_blocks: no section matching {eb['section']!r} in {source}")
+        block = dict(eb["block"])
+        block["text"] = {"en": block["text"]} if isinstance(block.get("text"), str) else block.get("text")
+        host["blocks"].append(block)
     chapter = {"id": Path(source).stem, "unit": profile.get("unit", ""), "title": {"en": title},
                "sections": sections, "skipped": walk.skipped, "dropped": soup._dropped, "extractor": VERSION}
     return chapter, records

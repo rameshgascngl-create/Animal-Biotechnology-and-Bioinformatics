@@ -1,0 +1,1672 @@
+{
+ "id": "animal_cell_culture",
+ "unit": "IV",
+ "title": {
+  "en": "Animal Cell Culture Techniques"
+ },
+ "sections": [
+  {
+   "id": "s01",
+   "title": {
+    "en": "Animal Cell Culture Techniques"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Department of Zoology — GASC Nagercoil"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Unit Overview"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "title": {
+    "en": "Animal Cell Culture"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Animal cell culture is the process of growing cells isolated from animal tissues under controlled _in vitro_ conditions — temperature, pH, CO₂, and nutrition. It is a cornerstone technique enabling research in cancer biology, drug development, vaccine production, and regenerative medicine."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔬 Annotated Animal Cell — Key Organelles**"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "animal_cell_culture-d01",
+     "caption": {
+      "en": ""
+     },
+     "labels": [
+      "Nucleus",
+      "Nucleolus",
+      "Mitochondria",
+      "Mitochondria",
+      "Rough ER",
+      "Smooth ER",
+      "Golgi Apparatus",
+      "Lyso",
+      "Lyso",
+      "Vacuole",
+      "Ribosomes",
+      "Cell Membrane",
+      "Cytoplasm",
+      "Cytoskeleton"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Definition**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Removal of cells from an animal and growing them under **controlled in vitro conditions** — mimicking the in vivo environment of temperature, pH, CO₂, osmolarity, and nutrients."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Historical Milestones**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "1907 — Ross Harrison: nerve fiber culture"
+      },
+      {
+       "en": "1943 — Earle: mouse fibroblast monolayer"
+      },
+      {
+       "en": "1951 — HeLa cells (first immortal line)"
+      },
+      {
+       "en": "1975 — Monoclonal antibody technology"
+      },
+      {
+       "en": "1998 — Human ES cell isolation"
+      },
+      {
+       "en": "2006 — iPSC generation (Yamanaka)"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Applications**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Vaccine & biopharmaceutical production"
+      },
+      {
+       "en": "Cancer biology research"
+      },
+      {
+       "en": "Drug toxicity & screening"
+      },
+      {
+       "en": "Genetic engineering"
+      },
+      {
+       "en": "Tissue engineering & regenerative medicine"
+      },
+      {
+       "en": "Virology studies"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Limitations**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Loss of 3D cell–cell interactions"
+      },
+      {
+       "en": "Genetic drift over passages"
+      },
+      {
+       "en": "Risk of mycoplasma contamination"
+      },
+      {
+       "en": "Expensive and labor-intensive"
+      },
+      {
+       "en": "May not replicate in vivo physiology fully"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔄 Scope & Classification of Animal Cell Culture**"
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Animal Cell CultureIn vitro growth of animal cells"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Cell CultureDispersed single cells Tissue CultureOrganized tissues Organ Culture3D organ structure maintained"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Primary CultureDirect from tissue Cell LinesPassaged / immortalized Stem Cell CultureUndifferentiated Artificial SkinApplied organ culture"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Module 1"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": {
+    "en": "Basic Requirements of Cell Culture"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Successful animal cell culture requires meticulous control of physical, chemical, and biological parameters. Every component of the culture environment must be optimized to sustain cell viability, proliferation, and function."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🏗️ Core Cell Culture Laboratory Equipment**"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "animal_cell_culture-d02",
+     "caption": {
+      "en": ""
+     },
+     "labels": [
+      "Biosafety",
+      "Cabinet",
+      "(Class II)",
+      "HEPA filtered",
+      "CO₂",
+      "Incubator",
+      "37°C / 5% CO₂",
+      "Humidified",
+      "Inverted",
+      "Microscope",
+      "Cell monitoring",
+      "Centrifuge",
+      "Cell harvesting",
+      "200–1500 rpm",
+      "Autoclave",
+      "121°C / 15 psi",
+      "15–20 min",
+      "Standard equipment for an animal cell culture laboratory"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**📋 Basic Requirements — Flow Overview**"
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Cell Culture Requirements"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "PhysicalTemperature, pH, CO₂ ▼ 37°C · pH 7.2–7.45–10% CO₂ atmosphere ChemicalNutrients, hormones ▼ Basal Media + SerumDMEM / RPMI + 10% FBS BiologicalCell type, density ▼ Inoculum · SubcultureAvoid overgrowth SterilityBSC, antibiotics ▼ Aseptic TechniqueNo contamination"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🧼 Sterilization Methods in Cell Culture**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Method"
+      },
+      {
+       "en": "Agent / Condition"
+      },
+      {
+       "en": "Used For"
+      },
+      {
+       "en": "Time"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Autoclaving**"
+       },
+       {
+        "en": "Steam 121°C, 15 psi"
+       },
+       {
+        "en": "Glassware, media, instruments"
+       },
+       {
+        "en": "15–20 min"
+       }
+      ],
+      [
+       {
+        "en": "**Dry Heat**"
+       },
+       {
+        "en": "160–170°C oven"
+       },
+       {
+        "en": "Glassware, powders"
+       },
+       {
+        "en": "1–2 hr"
+       }
+      ],
+      [
+       {
+        "en": "**UV Radiation**"
+       },
+       {
+        "en": "254 nm UV light"
+       },
+       {
+        "en": "BSC interior, surfaces"
+       },
+       {
+        "en": "20–30 min"
+       }
+      ],
+      [
+       {
+        "en": "**Membrane Filtration**"
+       },
+       {
+        "en": "0.22 µm filter"
+       },
+       {
+        "en": "Heat-sensitive media, serum"
+       },
+       {
+        "en": "Continuous"
+       }
+      ],
+      [
+       {
+        "en": "**Chemical**"
+       },
+       {
+        "en": "70% ethanol, bleach"
+       },
+       {
+        "en": "Surfaces, skin decontamination"
+       },
+       {
+        "en": "As required"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Temperature & Atmosphere**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Mammalian cells: **37°C**"
+      },
+      {
+       "en": "CO₂ incubator: **5–10% CO₂**"
+      },
+      {
+       "en": "CO₂ buffers bicarbonate in media"
+      },
+      {
+       "en": "Humidity: ≥95% prevents evaporation"
+      },
+      {
+       "en": "Bird-derived cells: 38.5°C"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**pH & Osmolarity**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Optimal pH: **7.2 – 7.4**"
+      },
+      {
+       "en": "Indicator: Phenol red (yellow = acidic)"
+      },
+      {
+       "en": "Buffering: NaHCO₃ / HEPES"
+      },
+      {
+       "en": "Osmolarity: **280–320 mOsm/kg**"
+      },
+      {
+       "en": "NaCl adjusts osmotic pressure"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Substrata for Cell Attachment**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Tissue culture polystyrene (TCPS)"
+      },
+      {
+       "en": "Fibronectin / collagen coating"
+      },
+      {
+       "en": "Poly-L-lysine for neurons"
+      },
+      {
+       "en": "Matrigel for 3D culture"
+      },
+      {
+       "en": "Suspension culture for non-adherent cells"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Module 2"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "title": {
+    "en": "Natural & Synthetic Culture Media"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Culture media provide the essential nutrients, growth factors, and physicochemical conditions required for cell survival. Media are broadly classified as **natural** (biological fluids) and **synthetic** (chemically defined or serum-supplemented formulations)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**📊 Classification of Culture Media**"
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Culture Media"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Natural MediaBiological origin ▼ Blood PlasmaEarly cultures Serum (FBS)Growth factors Tissue ExtractsChick embryo Synthetic MediaChemically defined ▼ Serum-based+10% FBS Serum-freeSF / CDM Protein-freePFM"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔬 Components of a Synthetic Culture Medium**"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "animal_cell_culture-d03",
+     "caption": {
+      "en": ""
+     },
+     "labels": [
+      "Culture",
+      "Medium",
+      "Inorganic Salts",
+      "NaCl, KCl, CaCl₂, MgSO₄",
+      "Carbohydrates",
+      "Glucose · Galactose",
+      "Amino Acids",
+      "All 20 essential AAs",
+      "Vitamins",
+      "B-complex, Vit. C",
+      "Serum / Growth Factors",
+      "FBS: EGF, IGF, FGF",
+      "Transferrin, Albumin",
+      "Antibiotics",
+      "Pen-Strep, Gentamicin",
+      "Buffer System",
+      "NaHCO₃ / HEPES",
+      "pH Indicator",
+      "Phenol Red",
+      "Ultrapure Water",
+      "Milli-Q / double-distilled"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**📋 Commonly Used Synthetic Culture Media**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Medium"
+      },
+      {
+       "en": "Full Name"
+      },
+      {
+       "en": "Cell Types"
+      },
+      {
+       "en": "Key Feature"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**DMEM**"
+       },
+       {
+        "en": "Dulbecco's Modified Eagle's Medium"
+       },
+       {
+        "en": "Fibroblasts, epithelial, ES cells"
+       },
+       {
+        "en": "High glucose (4.5 g/L)"
+       }
+      ],
+      [
+       {
+        "en": "**RPMI 1640**"
+       },
+       {
+        "en": "Roswell Park Memorial Institute"
+       },
+       {
+        "en": "Lymphocytes, hematopoietic"
+       },
+       {
+        "en": "Suitable for suspension culture"
+       }
+      ],
+      [
+       {
+        "en": "**MEM**"
+       },
+       {
+        "en": "Minimum Essential Medium"
+       },
+       {
+        "en": "General purpose"
+       },
+       {
+        "en": "Low amino acid formulation"
+       }
+      ],
+      [
+       {
+        "en": "**Ham's F12**"
+       },
+       {
+        "en": "Ham's Nutrient Mixture F-12"
+       },
+       {
+        "en": "CHO, fibroblasts"
+       },
+       {
+        "en": "Low serum requirement"
+       }
+      ],
+      [
+       {
+        "en": "**DMEM/F12**"
+       },
+       {
+        "en": "1:1 Mixture"
+       },
+       {
+        "en": "Stem cells, 3D organoids"
+       },
+       {
+        "en": "Combined nutrient richness"
+       }
+      ],
+      [
+       {
+        "en": "**Neurobasal**"
+       },
+       {
+        "en": "Neurobasal Medium"
+       },
+       {
+        "en": "Primary neurons"
+       },
+       {
+        "en": "Serum-free with B27 supplement"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**🌿 Natural Media**\n• **Blood Plasma:** Used in early plasma clot cultures as substratum\n• **Serum (FBS):** Contains GFs, hormones, attachment proteins\n• **Lymph:** Historical use for special cell types\n• **Amniotic Fluid:** Prenatal cell culture\n• **Chick Embryo Extract:** Mitogenic; early virology use"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**🔬 Serum-Free Media (SFM)**\n• Eliminates batch-to-batch variability of serum\n• Supplemented with defined growth factors\n• Preferred for biopharmaceutical production\n• Reduces risk of mycoplasma contamination\n• Examples: Knockout DMEM, StemPro, X-VIVO"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Module 3"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "title": {
+    "en": "Primary Culture"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "A **primary culture** is established directly from excised tissue or organs. Cells are dissociated and cultured in vitro for the first time. Primary cultures are finite — they can only be maintained for a limited number of passages before senescence occurs (Hayflick limit)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔄 Primary Culture — Step-by-Step Process Flow**"
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Animal Tissue CollectionSterile biopsy / organ harvest"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Wash with PBS / Balanced Salt SolutionRemove blood, debris, bacteria"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Mechanical DissociationMincing, sieving, scraping OR Enzymatic DissociationTrypsin / Collagenase / Dispase"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Single Cell SuspensionFilter through 70–100 µm cell strainer"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Centrifuge 200 × g, 5 min → Discard Supernatant"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Resuspend in Complete Culture MediumDMEM + 10% FBS + Pen-Strep"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Hemocytometer Count + Trypan Blue Viability ≥ 90%"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Seed in Culture Flask — T25 / T75 / 6-well plate"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Incubate: 37°C · 5% CO₂ · 95% HumidityCheck 24–48 hrs for attachment & morphology"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Adherent CultureFibroblasts, epithelial cells Suspension CultureLymphocytes, hematopoietic cells"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Tissue Preparation**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Tissue collected aseptically, placed in cold PBS/HBSS, and minced into 1–2 mm³ fragments. Blood and connective tissue removed by repeated washing."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Enzymatic Dissociation**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Trypsin (0.05–0.25%) cleaves surface proteins disrupting cell–cell contacts. Collagenase (Type I–IV) digests ECM collagen. Incubate at 37°C for 15–60 min with gentle agitation."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "3"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Neutralization & Centrifugation**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "FBS neutralizes trypsin activity. Centrifuge at 200×g for 5 min. Discard supernatant, resuspend pellet in complete medium."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "4"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Cell Counting & Viability**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Count using hemocytometer. Trypan blue exclusion: live cells remain clear, dead cells stain blue. Viability should be ≥90% for optimal culture establishment."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Plating & Monitoring**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Seed at 10⁴–10⁵ cells/cm². Incubate in CO₂ incubator. Monitor daily by inverted microscopy for morphology, attachment, and confluence."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**⚠️ Explant vs. Monolayer Culture**\n**Explant culture:** Small tissue fragments placed directly on surface; cells migrate outward. Preserves tissue architecture briefly.\n\n**Monolayer culture:** Dissociated single cells attach and grow flat. More reproducible and amenable to quantitative analysis."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**📉 Limitations of Primary Culture**\n• Finite lifespan — Hayflick limit (~50 divisions)\n• Heterogeneous cell population\n• Batch variability between preparations\n• Requires fresh tissue each time\n• Cells undergo crisis and eventual senescence"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Module 4"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "title": {
+    "en": "Cell Lines"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "When a primary culture is subcultured (passaged) for the first time, it becomes a **cell line**. Cell lines may be _finite_ (limited passages) or _continuous/immortalized_ (indefinitely proliferating). They are essential tools in biological research and industrial biomanufacturing."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔁 Subculturing (Passaging) — Process Flow**"
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Confluent Monolayer Culture (~80–90% confluency)"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Remove Medium → Wash with PBS (removes serum)"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Add Trypsin-EDTA (0.05%) · Incubate 3–5 min at 37°C"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Neutralize with Complete Medium (3× volume with FBS)"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Centrifuge · Count · Resuspend · Trypan Blue Viability Check"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Seed into New Flask at 1:3 – 1:10 Split Ratio"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Continue PassagingFinite: ~20–50 passages ImmortalizationSpontaneous / viral / oncogene Cell BankingCryopreservation at −196°C"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**📈 Primary Culture → Cell Line → Continuous Line**"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "animal_cell_culture-d04",
+     "caption": {
+      "en": ""
+     },
+     "labels": [
+      "Passage →",
+      "Primary",
+      "Culture",
+      "P0",
+      "Finite Cell Line",
+      "~20–50 passages",
+      "Normal diploid · Senesces",
+      "Crisis / Immortalization",
+      "Continuous",
+      "Cell Line",
+      "Immortalized · ∞ passages",
+      "Transformed / aneuploid"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🌟 Important Established Cell Lines**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Cell Line"
+      },
+      {
+       "en": "Origin"
+      },
+      {
+       "en": "Type"
+      },
+      {
+       "en": "Major Use"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**HeLa**"
+       },
+       {
+        "en": "Human cervical carcinoma (Henrietta Lacks, 1951)"
+       },
+       {
+        "en": "Continuous"
+       },
+       {
+        "en": "Virology, cancer, vaccine research"
+       }
+      ],
+      [
+       {
+        "en": "**CHO**"
+       },
+       {
+        "en": "Chinese hamster ovary"
+       },
+       {
+        "en": "Continuous"
+       },
+       {
+        "en": "Recombinant protein / antibody production"
+       }
+      ],
+      [
+       {
+        "en": "**Vero**"
+       },
+       {
+        "en": "African green monkey kidney"
+       },
+       {
+        "en": "Continuous"
+       },
+       {
+        "en": "Virus propagation, vaccine production"
+       }
+      ],
+      [
+       {
+        "en": "**NIH 3T3**"
+       },
+       {
+        "en": "Mouse embryonic fibroblast"
+       },
+       {
+        "en": "Continuous"
+       },
+       {
+        "en": "Transfection, adipocyte differentiation"
+       }
+      ],
+      [
+       {
+        "en": "**MCF-7**"
+       },
+       {
+        "en": "Human breast carcinoma"
+       },
+       {
+        "en": "Continuous"
+       },
+       {
+        "en": "Breast cancer research"
+       }
+      ],
+      [
+       {
+        "en": "**Jurkat**"
+       },
+       {
+        "en": "Human T lymphocyte leukemia"
+       },
+       {
+        "en": "Continuous"
+       },
+       {
+        "en": "Immunology, apoptosis research"
+       }
+      ],
+      [
+       {
+        "en": "**PC12**"
+       },
+       {
+        "en": "Rat adrenal pheochromocytoma"
+       },
+       {
+        "en": "Continuous"
+       },
+       {
+        "en": "Neuroscience, NGF differentiation studies"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**❄️ Cryopreservation — Cell Banking Flow**"
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Harvest cells at 80% confluency → Freeze medium: 90% FBS + 10% DMSO → Controlled-rate freezing: −1°C/min → Store in liquid N₂ at −196°C"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Thaw rapidly at 37°C water bath → Dilute DMSO → Seed → Culture ✓"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Module 5"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "title": {
+    "en": "Stem Cells: Types, Culture & Applications"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Stem cells are undifferentiated cells capable of **self-renewal** and **differentiation** into specialized cell types. They hold immense therapeutic potential in regenerative medicine, disease modeling, and drug discovery."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔺 Stem Cell Potency Hierarchy**"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "animal_cell_culture-d05",
+     "caption": {
+      "en": ""
+     },
+     "labels": [
+      "Totipotent",
+      "Zygote · 4-cell embryo · Can form all cells + placenta",
+      "Pluripotent",
+      "ESC · iPSC · Inner cell mass · All 3 germ layers",
+      "Multipotent",
+      "HSC · MSC · Neural Stem Cells · Multiple lineages",
+      "Unipotent / Oligopotent",
+      "Muscle, skin, intestinal stem cells · Single lineage",
+      "Differentiation ↑"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Embryonic Stem Cells (ESCs)**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Derived from the **inner cell mass** of blastocyst (3–5 days). Pluripotent — form all 3 germ layers. Cultured on feeder layers (MEFs) or Matrigel with LIF/bFGF."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Induced Pluripotent Stem Cells (iPSCs)**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Adult somatic cells reprogrammed using Yamanaka factors: **Oct4, Sox2, Klf4, c-Myc** (2006 Nobel). Avoids ESC ethical issues. Enables autologous therapy."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Hematopoietic Stem Cells (HSCs)**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Found in **bone marrow** (Lin⁻ Sca1⁺ c-Kit⁺). Give rise to all blood cell lineages. Used clinically in bone marrow transplantation. CD34⁺ in humans."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Mesenchymal Stem Cells (MSCs)**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Stromal cells from **bone marrow, adipose, umbilical cord**. Differentiate into osteoblasts, chondrocytes, adipocytes. CD105⁺ CD73⁺ CD90⁺ surface markers."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Neural Stem Cells (NSCs)**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Reside in **subventricular zone** and hippocampus. Form neurospheres in vitro. Differentiate into neurons, astrocytes, and oligodendrocytes."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Cardiac Stem Cells**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Found in cardiac niches (c-Kit⁺ or Sca1⁺). Can regenerate cardiomyocytes post-myocardial infarction. Key target of cardiac regenerative therapy."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🧫 ESC / iPSC Culture Protocol Flow**"
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Source: Blastocyst ICM ▼ Isolate ICMImmunosurgery / laser dissection OR Source: Adult Somatic Cells ▼ Reprogram w/ Oct4, Sox2, Klf4, c-MycRetroviral / Sendai / mRNA delivery"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Plate on Feeder Layer (MEF) or MatrigelmTeSR1 / Essential 8 medium"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Self-renewal maintenance: LIF (mouse) / bFGF (human)Daily medium change; passage every 3–7 days"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Maintain PluripotencyCharacterize: Oct4, Nanog, SSEA4 Directed DifferentiationEBs, growth factors, small molecules"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**💊 Clinical & Research Applications of Stem Cells**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Application"
+      },
+      {
+       "en": "Stem Cell Type"
+      },
+      {
+       "en": "Status"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Bone Marrow Transplant**"
+       },
+       {
+        "en": "HSCs"
+       },
+       {
+        "en": "Clinical — leukemia, lymphoma"
+       }
+      ],
+      [
+       {
+        "en": "**Parkinson's Disease**"
+       },
+       {
+        "en": "iPSC-derived dopaminergic neurons"
+       },
+       {
+        "en": "Phase I/II trials"
+       }
+      ],
+      [
+       {
+        "en": "**Macular Degeneration**"
+       },
+       {
+        "en": "iPSC-derived RPE cells"
+       },
+       {
+        "en": "Phase I/II trials"
+       }
+      ],
+      [
+       {
+        "en": "**Cartilage Repair**"
+       },
+       {
+        "en": "MSCs"
+       },
+       {
+        "en": "Clinical — orthopedic use"
+       }
+      ],
+      [
+       {
+        "en": "**Skin Grafts**"
+       },
+       {
+        "en": "Epidermal stem cells"
+       },
+       {
+        "en": "Clinical — burn patients"
+       }
+      ],
+      [
+       {
+        "en": "**Disease Modeling**"
+       },
+       {
+        "en": "iPSCs (patient-derived)"
+       },
+       {
+        "en": "ALS, Alzheimer's, diabetes models"
+       }
+      ],
+      [
+       {
+        "en": "**Drug Screening**"
+       },
+       {
+        "en": "Organoids from iPSCs"
+       },
+       {
+        "en": "Liver, cardiac, intestinal organoids"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Module 6"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "title": {
+    "en": "Organ Culture"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Organ culture maintains the **three-dimensional architecture** and tissue organization of whole organs or organ fragments in vitro. Unlike cell culture, it preserves cell–cell and cell–matrix interactions, providing a more physiologically relevant experimental model."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**📊 Methods of Organ Culture — Flow Classification**"
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Organ Culture"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Watch Glass Method Organ on plasma clot in watch glass. Early method by Fell & Robison (1929) Grid / Raft Method Organ on stainless steel grid at liquid–air interface; widely used for skin, limb buds Perfusion Culture Oxygenated medium perfused through intact organ vasculature continuously Roller Tube Method Slowly rotating tube ensures even medium distribution around organ slices"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔬 Grid Method — Organ Culture Setup Diagram**"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "animal_cell_culture-d06",
+     "caption": {
+      "en": ""
+     },
+     "labels": [
+      "Medium level",
+      "Organ / Tissue Fragment",
+      "Humidified air / 5% CO₂ atmosphere",
+      "Stainless steel grid",
+      "Petri dish"
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**✅ Advantages of Organ Culture**\n• Preserves 3D tissue architecture & histology\n• Maintains cell–cell & cell–ECM interactions\n• Closer to in vivo physiology than cell culture\n• Suitable for short-term drug testing\n• Ideal for developmental biology studies"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**🔬 Applications of Organ Culture**\n• Limb bud & developmental biology studies\n• Cornea, thyroid, pancreas organ cultures\n• Testing teratogenic compounds\n• Drug metabolism studies (liver slices)\n• Tumor microenvironment research"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Module 7"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "title": {
+    "en": "Artificial Skin — Applied Organ Culture"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Artificial skin (tissue-engineered skin) is a **bioengineered construct** recreating the epidermal-dermal interface using keratinocytes and fibroblasts on a scaffold. It is a landmark application of organ culture technology for treating severe burns and chronic wounds."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🩹 Natural Skin vs. Tissue-Engineered Skin — Structure Comparison**"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "animal_cell_culture-d07",
+     "caption": {
+      "en": ""
+     },
+     "labels": [
+      "Natural Skin",
+      "Stratum Corneum (Dead Keratin Cells)",
+      "Epidermis (Keratinocytes)",
+      "Basement Membrane (Laminin / Collagen IV)",
+      "Dermis (Fibroblasts + Col I/III)",
+      "Blood vessels · Hair follicles · Nerve endings",
+      "Sweat glands · Sebaceous glands",
+      "Hypodermis (Adipocytes · Fat)",
+      "Tissue-Engineered Skin",
+      "Cornified Keratinocyte Layer",
+      "Epidermal Equivalent",
+      "Autologous / allogeneic keratinocytes",
+      "Synthetic / Biologic Membrane",
+      "Dermal Equivalent",
+      "Fibroblasts in collagen gel / acellular scaffold",
+      "Nylon mesh · Biodegradable polymers (PGA/PLA)",
+      "Scaffold / Carrier / Backing Layer",
+      "⚠ Currently lacks blood vessels, appendages, innervation",
+      "Key goal: recreate the epidermal–dermal interface in vitro"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔄 Production of Tissue-Engineered Skin**"
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Keratinocyte HarvestPatient biopsy → enzymatic dissociation ▼ Expand in DMEM + EGF + FBST-flask → multilayer culture Dermal Scaffold PreparationAcellular dermis / collagen gel ▼ Seed Fibroblasts → Collagen MatrixECM remodeling allowed"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Seed Keratinocytes onto Dermal EquivalentAir-liquid interface culture → promotes stratification"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Maturation: 14–21 daysCornification and barrier function development"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "Quality TestingHistology · Barrier · Viability Clinical ApplicationBurns · Ulcers · Reconstructive surgery"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🏥 Commercial Artificial Skin Products**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Product"
+      },
+      {
+       "en": "Type"
+      },
+      {
+       "en": "Components"
+      },
+      {
+       "en": "Application"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Apligraf®**"
+       },
+       {
+        "en": "Bilayered"
+       },
+       {
+        "en": "Allogeneic keratinocytes + dermal fibroblasts in collagen"
+       },
+       {
+        "en": "Venous leg ulcers, diabetic foot ulcers"
+       }
+      ],
+      [
+       {
+        "en": "**Integra®**"
+       },
+       {
+        "en": "Acellular matrix"
+       },
+       {
+        "en": "Bovine collagen + chondroitin-6-sulfate + silicone"
+       },
+       {
+        "en": "Full-thickness burns"
+       }
+      ],
+      [
+       {
+        "en": "**Epicel®**"
+       },
+       {
+        "en": "Epidermal only"
+       },
+       {
+        "en": "Autologous keratinocytes on murine fibroblast feeder"
+       },
+       {
+        "en": "Massive burns (>30% BSA)"
+       }
+      ],
+      [
+       {
+        "en": "**Dermagraft®**"
+       },
+       {
+        "en": "Dermal substitute"
+       },
+       {
+        "en": "Neonatal fibroblasts seeded on polyglactin mesh"
+       },
+       {
+        "en": "Diabetic foot ulcers"
+       }
+      ],
+      [
+       {
+        "en": "**OrCel®**"
+       },
+       {
+        "en": "Bilayered"
+       },
+       {
+        "en": "Allogeneic cells in bovine collagen sponge"
+       },
+       {
+        "en": "Burns, donor site wounds"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**✅ Clinical Advantages**\n• Overcomes donor site shortage in severe burns\n• Autologous constructs — no immune rejection\n• Reduced scarring vs. split-thickness grafts\n• Off-the-shelf allogeneic products available\n• Platform for cosmetic drug testing (EpiDerm™)\n• Alternative to animal testing"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**🔭 Future Challenges**\n• Vascularization — no capillary network\n• Lack of hair follicles, sweat/sebaceous glands\n• Melanocyte integration for skin pigmentation\n• Innervation — no sensory nerve endings\n• Long-term mechanical durability\n• High manufacturing cost"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**🖨️ 3D Bioprinting of Skin — Emerging Frontier**\n3D bioprinting deposits cell-laden bioinks (keratinocytes, fibroblasts, melanocytes) layer-by-layer with high precision. Recent advances achieve full-thickness skin substitutes with melanocyte integration. Companies like CELLINK and Organovo are pioneering commercial bioprinted skin platforms for wound healing therapies and cosmetic safety testing, moving toward in situ printing directly on wounds."
+     }
+    }
+   ]
+  }
+ ],
+ "skipped": [],
+ "dropped": [
+  {
+   "selector": "nav",
+   "count": 1,
+   "sample": [
+    "🏠 Overview ⚗️ Requirements 🧪 Culture Media 🧫 Primary Culture"
+   ]
+  },
+  {
+   "selector": "footer",
+   "count": 1,
+   "sample": [
+    "Department of Zoology, Government Arts & Science College (GA"
+   ]
+  }
+ ],
+ "extractor": "1"
+}

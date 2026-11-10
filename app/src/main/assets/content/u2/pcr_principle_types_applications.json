@@ -1,0 +1,1846 @@
+{
+ "id": "pcr_principle_types_applications",
+ "unit": "II",
+ "title": {
+  "en": "PCR: Principle, Types & Applications"
+ },
+ "sections": [
+  {
+   "id": "s01",
+   "title": {
+    "en": "Overview"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Molecular Biology · B.Sc. Zoology / Biotechnology"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "title": {
+    "en": "PCR: Polymerase Chain Reaction"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Principle · Components · Types · Applications"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Imagine making a million copies of a single gene in just a few hours — without any living cells. PCR made that possible. This revolutionary technique, invented by **Kary Mullis in 1983** (Nobel Prize 1993), is the backbone of modern molecular biology, diagnostics, forensics, and genetic research."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🎯 Learning Objectives**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Define PCR and explain its importance in molecular biology and biotechnology."
+      },
+      {
+       "en": "Describe the principle of exponential DNA amplification using thermal cycling."
+      },
+      {
+       "en": "List all components required for PCR and state the function of each."
+      },
+      {
+       "en": "Explain the three stages of each PCR cycle with temperature ranges."
+      },
+      {
+       "en": "Describe five major types of PCR and their applications."
+      },
+      {
+       "en": "Discuss the applications, advantages, and limitations of PCR."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": {
+    "en": "Introduction to PCR"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Full Form and Definition**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "PCR stands for **Polymerase Chain Reaction**. It is an in vitro technique for rapidly amplifying (making millions of copies of) a specific DNA segment from a small amount of starting material, using repeated cycles of heating and cooling."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**History**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "PCR was invented by **Kary Mullis** in 1983 while working at Cetus Corporation. He was awarded the **Nobel Prize in Chemistry in 1993** for this revolutionary discovery. The use of **Taq DNA polymerase** (from the thermophilic bacterium _Thermus aquaticus_) — which is heat-stable — made PCR practical for automation."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Importance in Molecular Biology and Biotechnology**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Amplification from trace amounts:** Can amplify DNA from a single molecule to billions of copies."
+      },
+      {
+       "en": "**Universal tool:** Foundation for DNA sequencing, cloning, genotyping, diagnosis, and forensics."
+      },
+      {
+       "en": "**Speed:** A complete PCR run takes only 1–3 hours."
+      },
+      {
+       "en": "**Sensitivity and specificity:** Detects a single pathogen DNA in a complex sample."
+      },
+      {
+       "en": "**No cell culture required:** Works on any DNA source — blood, tissue, bone, bacteria, viruses."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Basic Concept of DNA Amplification**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "PCR mimics the natural process of **DNA replication** — but in a test tube. A short segment of double-stranded DNA is separated into two single strands (denaturation), short synthetic DNA sequences (primers) bind to each strand (annealing), and a heat-stable DNA polymerase copies each strand (extension). Each cycle doubles the number of target DNA copies — leading to **exponential amplification**: 2ⁿ copies after n cycles."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Key Fact:** After just **30 cycles**, a single DNA molecule can theoretically produce over **1 billion (2³⁰ ≈ 10⁹) copies** of the target sequence."
+     }
+    }
+   ],
+   "icon": "🔬",
+   "label": "Section 1"
+  },
+  {
+   "id": "s04",
+   "title": {
+    "en": "Principle of PCR"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Basic Principle**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "PCR is based on the principle of enzymatic in vitro DNA replication. A specific segment of DNA is amplified using repeated cycles of three temperature-dependent steps: **denaturation, annealing, and extension**. The use of a **thermostable DNA polymerase** (Taq polymerase) allows the reaction to be automated in a thermal cycler."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Role of Complementary Base Pairing**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Two short oligonucleotide **primers** are designed to be complementary to sequences flanking the target DNA segment — one primer for each strand. According to **Watson-Crick base pairing** (A–T and G–C), primers bind specifically to their complementary sequences at reduced temperatures. This specificity ensures that only the target region between the two primers is amplified."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Role of Repeated Thermal Cycling**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A single cycle produces only two copies from one template. However, because the products of each cycle also serve as templates for subsequent cycles, the amount of target DNA **doubles with every cycle**. A thermal cycler automatically controls the heating and cooling between the three stages."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Exponential Amplification**"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "tip",
+     "text": {
+      "en": "**Formula:** Number of copies = **2ⁿ** (where n = number of cycles)\nAfter 10 cycles → 1,024 copies | After 20 cycles → 1,048,576 copies | After 30 cycles → 1,073,741,824 (~10⁹) copies"
+     }
+    }
+   ],
+   "icon": "⚗️",
+   "label": "Section 2"
+  },
+  {
+   "id": "s05",
+   "title": {
+    "en": "Components Required for PCR"
+   },
+   "blocks": [
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**1. Template DNA**\nThe source DNA containing the target sequence to be amplified. Can be genomic DNA, cDNA, or plasmid DNA. Usually in very small amounts (nanogram quantities)."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**2. Primers (×2)**\nShort synthetic oligonucleotides (18–25 nt) complementary to sequences flanking the target region. Two primers: forward (sense) and reverse (antisense), one for each strand. Define the exact region to be amplified."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "tip",
+     "text": {
+      "en": "**3. Taq DNA Polymerase**\nA heat-stable DNA polymerase from _Thermus aquaticus_. Withstands 95°C denaturation cycles. Synthesises the new strand in the 5'→3' direction. Optimal activity at ~72°C."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**4. dNTPs (all four)**\nDeoxyribonucleoside triphosphates: dATP, dTTP, dGTP, dCTP. The building blocks for new DNA strand synthesis. Typically added at 200 µM each."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**5. Buffer**\nTypically Tris-HCl (pH 8.3–8.8) — maintains optimal pH for Taq polymerase activity. Includes KCl to stabilise primer–template interactions."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**6. Mg²⁺ Ions**\nMagnesium chloride (MgCl₂) at 1.5–2.5 mM. Essential cofactor for Taq DNA polymerase activity. Also stabilises primer–template duplexes. Concentration affects specificity — excess Mg²⁺ increases non-specific amplification."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**7. Thermal Cycler**\nA programmable device that precisely controls and rapidly alternates between the three reaction temperatures (95°C, 50–65°C, 72°C) for the required number of cycles. Enables complete automation of PCR."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Typical PCR Reaction Volume:** 25–50 µL in a microcentrifuge tube or 96-well plate. The reaction is set up on ice to prevent premature DNA synthesis."
+     }
+    }
+   ],
+   "icon": "🧪",
+   "label": "Section 3"
+  },
+  {
+   "id": "s06",
+   "title": {
+    "en": "Steps / Stages of Each PCR Cycle"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Each PCR cycle consists of three precisely temperature-controlled stages:"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "94–96°C Denaturation"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The double-stranded template DNA is heated to **94–96°C**. At this temperature, the hydrogen bonds holding the two complementary strands together are broken, separating the DNA into two single-stranded templates. This process is called denaturation. Duration: 20–30 seconds per cycle (initial denaturation: 2–5 minutes to ensure complete denaturation)."
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "This step is critical — incomplete denaturation leads to poor amplification."
+      },
+      {
+       "en": "Taq polymerase is heat-stable and survives this temperature."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "50–65°C Annealing"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The temperature is lowered to **50–65°C** (varies by primer sequence). The two primers bind to their complementary sequences on the single-stranded template DNA through hydrogen bonding. This is called primer annealing. Duration: 20–40 seconds."
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "The annealing temperature is usually 5°C below the melting temperature (Tm) of the primers."
+      },
+      {
+       "en": "Too low: non-specific annealing → non-specific bands. Too high: no annealing → no product."
+      },
+      {
+       "en": "The forward primer anneals to the antisense strand; the reverse primer anneals to the sense strand."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "3"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "72°C Extension / Elongation"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The temperature is raised to **72°C** — the optimal working temperature of Taq DNA polymerase. Starting from the 3'-OH of each annealed primer, Taq polymerase adds dNTPs complementary to the template in the **5'→3' direction**. This is called extension or elongation. Duration: ~1 minute per 1 kb of target."
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Taq polymerase extends at ~1000 bp/minute at 72°C."
+      },
+      {
+       "en": "A final extension step (5–10 minutes at 72°C) completes any partially synthesised strands."
+      },
+      {
+       "en": "Result: two copies of the target DNA from each original template."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Number of Cycles:** Typically **25–40 cycles**. After the last cycle, a **final extension** at 72°C for 5–10 minutes ensures all incomplete strands are finished. Reactions are then held at 4°C for storage."
+     }
+    }
+   ],
+   "icon": "🌡️",
+   "label": "Section 4"
+  },
+  {
+   "id": "s07",
+   "title": {
+    "en": "PCR Cycle Temperature Diagram"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "The diagram below shows the temperature profile of a single PCR cycle. Click each stage to see details."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 1 — Temperature Profile of One PCR Cycle"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "pcr_principle_types_applications-d01",
+     "caption": {
+      "en": "PCR temperature cycle diagram"
+     },
+     "labels": [
+      "°C",
+      "Time",
+      "95",
+      "58",
+      "72",
+      "DENATURATION",
+      "94–96°C · 20–30 sec",
+      "ANNEALING",
+      "50–65°C · 20–40 sec",
+      "EXTENSION",
+      "72°C · ~1 min/kb",
+      "H-bonds broken",
+      "→ ssDNA",
+      "Primers bind",
+      "to template",
+      "Taq extends",
+      "new strand",
+      "↺ Repeat",
+      "25–40×",
+      "Initial: 95°C, 2–5 min"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click each stage card to learn more:"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🔴 Denaturation (94–96°C) +"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Temperature: **94–96°C**"
+      },
+      {
+       "en": "Duration: 20–30 sec (initial: 2–5 min)"
+      },
+      {
+       "en": "Hydrogen bonds between base pairs are broken"
+      },
+      {
+       "en": "dsDNA → 2 single-stranded DNA templates"
+      },
+      {
+       "en": "Taq polymerase survives at this temperature"
+      },
+      {
+       "en": "Incomplete denaturation → poor amplification"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🔵 Annealing (50–65°C) +"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Temperature: **50–65°C** (Tm − 5°C)"
+      },
+      {
+       "en": "Duration: 20–40 sec"
+      },
+      {
+       "en": "Forward & reverse primers bind complementary sequences"
+      },
+      {
+       "en": "Specificity depends on primer sequence and Mg²⁺ concentration"
+      },
+      {
+       "en": "Too low T → non-specific bands; too high T → no product"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🟢 Extension (72°C) +"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Temperature: **72°C** (optimal for Taq)"
+      },
+      {
+       "en": "Duration: ~1 min per 1 kb of product"
+      },
+      {
+       "en": "Taq polymerase adds dNTPs 5'→3' from each primer"
+      },
+      {
+       "en": "Rate: ~1000 bp/min"
+      },
+      {
+       "en": "Final extension: 72°C for 5–10 min after all cycles"
+      },
+      {
+       "en": "Result: two dsDNA copies per template"
+      }
+     ]
+    }
+   ],
+   "icon": "🌡️",
+   "label": "Section 5 — Diagrams"
+  },
+  {
+   "id": "s08",
+   "title": {
+    "en": "PCR Workflow — Click Each Step"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Click any step to expand details."
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "1 🧬 Sample & Template DNA Collect biological sample (blood, tissue, swab, etc.) and extract DNA. Template DNA can be as little as 10–100 ng. Quality DNA is essential — degraded samples give poor results."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "2 🧪 Prepare Reaction Mix Combine in a tube (on ice): template DNA + forward primer + reverse primer + Taq polymerase + dNTPs + PCR buffer + MgCl₂ + nuclease-free water. Total volume: 25–50 µL."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "3 🌡️ Thermal Cycling (25–40 cycles) Tubes are placed in the thermal cycler. Each cycle: 95°C (denaturation, 30s) → 50–65°C (annealing, 30s) → 72°C (extension, 1 min/kb). Each cycle doubles the target DNA."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "4 🔬 Amplified DNA Product After 30–40 cycles, the target DNA is amplified 10⁶–10⁹ fold. The product is a defined-length double-stranded DNA fragment (the amplicon) flanked by the primer sequences."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "5 📊 Detection & Analysis PCR product is analysed by: agarose gel electrophoresis (band size), DNA sequencing, restriction digestion, hybridisation, or real-time fluorescence detection (qPCR). Results in 1–3 hours total."
+      }
+     ]
+    }
+   ],
+   "icon": "🔄",
+   "label": "Section 6 — Workflow"
+  },
+  {
+   "id": "s09",
+   "title": {
+    "en": "Types of PCR"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "1. Conventional PCR **Principle:** Standard thermal cycling with two primers amplifying a specific DNA region. **Detection:** Agarose gel electrophoresis after the reaction. **Use:** Basic amplification, clone verification, pathogen detection. **Limitation:** Qualitative — shows presence/absence, not quantity."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2. RT-PCR (Reverse Transcriptase PCR) **Principle:** mRNA is first converted to cDNA using **reverse transcriptase**, then the cDNA is amplified by standard PCR. **Use:** Detecting gene expression; diagnosing RNA viruses (e.g., SARS-CoV-2, HIV, Influenza). **Application:** COVID-19 diagnostic tests (RT-PCR)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "3. Real-Time PCR / qPCR **Principle:** Amplification is monitored in real time using fluorescent dyes (SYBR Green) or probes (TaqMan). Fluorescence increases as product accumulates. **Use:** Quantification of gene expression, viral load, GMO detection. **Advantage:** Quantitative — measures the amount of starting DNA/RNA."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "4. Multiplex PCR **Principle:** Multiple primer pairs used in a **single reaction** to amplify several target sequences simultaneously. **Use:** Detecting multiple pathogens at once; STR profiling in forensics; deletion/duplication screening in genetic disorders. **Advantage:** Time-saving, cost-effective for multiple targets."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5. Nested PCR **Principle:** Two successive PCR reactions. The **second PCR** uses an inner (nested) pair of primers within the product of the first PCR. **Use:** Detecting very low copy number targets (e.g., HIV in early infection, rare mutations). **Advantage:** Extremely high sensitivity and specificity."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Additional Types (brief):** LAMP-PCR (Loop-mediated isothermal amplification), Hot-Start PCR (minimises non-specific amplification), Digital PCR (absolute quantification), RACE-PCR (rapid amplification of cDNA ends), Allele-Specific PCR (detects single nucleotide variations)."
+     }
+    }
+   ],
+   "icon": "🗂️",
+   "label": "Section 7"
+  },
+  {
+   "id": "s10",
+   "title": {
+    "en": "Applications of PCR"
+   },
+   "blocks": [
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Medical Diagnosis**\nRapid, sensitive detection of bacterial and viral infections. RT-PCR diagnoses SARS-CoV-2, HIV, hepatitis B & C, tuberculosis (_Mycobacterium tuberculosis_), and sexually transmitted infections."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Pathogen Detection**\nIdentifies pathogens in food (Salmonella, E. coli O157:H7), water supplies, and environmental samples. Detects organisms that cannot be easily cultured."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "tip",
+     "text": {
+      "en": "**Genetic Disorder Analysis**\nDetects mutations in genes causing cystic fibrosis, sickle cell anaemia, Huntington's disease, BRCA1/2 (breast cancer). Prenatal diagnosis from foetal cells in amniotic fluid."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Forensic Science**\nDNA profiling from trace evidence — blood, hair, skin cells at crime scenes. STR (short tandem repeat) analysis using multiplex PCR. Identification of disaster victims."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**DNA Fingerprinting**\nPCR amplifies specific STR loci unique to each individual. Used in paternity testing, immigration cases, and individual identification in forensics."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Gene Cloning**\nAmplifies a gene of interest before cloning into a vector. Confirms successful gene insertion by colony PCR. Generates insert DNA for sequencing."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Animal Biotechnology**\nSex determination of embryos in livestock breeding. Detection of transgene integration in transgenic animals. Genetic characterisation of breeds and species identification."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Evolutionary & Research Studies**\nAncient DNA analysis from museum specimens and fossils. Phylogenetic studies comparing species. Metagenomics — identifying microbial communities in environmental samples."
+     }
+    }
+   ],
+   "icon": "🏥",
+   "label": "Section 8"
+  },
+  {
+   "id": "s11",
+   "title": {
+    "en": "Advantages and Limitations"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**✅ Advantages**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Extreme sensitivity:** Detects a single DNA molecule from a complex sample."
+      },
+      {
+       "en": "**High speed:** Complete PCR in 1–3 hours."
+      },
+      {
+       "en": "**Versatility:** Works on any DNA source — blood, bone, hair, formalin-fixed tissue."
+      },
+      {
+       "en": "**High specificity:** Primer-specific amplification of exact target sequence."
+      },
+      {
+       "en": "**Small sample requirement:** Nanogram or even picogram quantities of DNA."
+      },
+      {
+       "en": "**Automation:** Thermal cyclers enable high-throughput, standardised results."
+      },
+      {
+       "en": "**No radioactivity required** (fluorescent methods)."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**⚠️ Limitations**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Prior sequence knowledge required:** Primers must be designed from known sequence."
+      },
+      {
+       "en": "**Contamination:** Extreme sensitivity means even trace contamination gives false positives."
+      },
+      {
+       "en": "**Non-specific amplification:** Incorrect primer binding (mispriming) produces spurious bands if conditions are suboptimal."
+      },
+      {
+       "en": "**Taq polymerase error rate:** Taq lacks proofreading (3'→5' exonuclease) → introduces errors (~1 in 10⁴–10⁵ bp)."
+      },
+      {
+       "en": "**Length limitation:** Standard PCR reliably amplifies up to ~3–5 kb; long-range PCR required for larger fragments."
+      },
+      {
+       "en": "**Qualitative (conventional):** Standard PCR shows presence/absence — not quantity without qPCR."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Common Causes of PCR Failure:** (1) Contamination with exogenous DNA → false positive; (2) Primer dimers (primers bind each other) → smear or small non-specific band; (3) Low Mg²⁺ → no amplification; high Mg²⁺ → non-specific bands; (4) Poor DNA template quality (degraded or inhibitors present)."
+     }
+    }
+   ],
+   "icon": "⚖️",
+   "label": "Section 9"
+  },
+  {
+   "id": "s12",
+   "title": {
+    "en": "Comparison of Major PCR Types"
+   },
+   "blocks": [
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Type"
+      },
+      {
+       "en": "Principle"
+      },
+      {
+       "en": "Main Use"
+      },
+      {
+       "en": "Special Feature"
+      },
+      {
+       "en": "Key Application"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Conventional PCR**"
+       },
+       {
+        "en": "Standard thermal cycling (denature → anneal → extend)"
+       },
+       {
+        "en": "Basic DNA amplification"
+       },
+       {
+        "en": "Post-run gel detection"
+       },
+       {
+        "en": "Pathogen detection, clone verification"
+       }
+      ],
+      [
+       {
+        "en": "**RT-PCR**"
+       },
+       {
+        "en": "Reverse transcription of mRNA → cDNA → PCR"
+       },
+       {
+        "en": "RNA detection, gene expression"
+       },
+       {
+        "en": "Requires reverse transcriptase enzyme"
+       },
+       {
+        "en": "COVID-19 diagnosis, HIV detection"
+       }
+      ],
+      [
+       {
+        "en": "**qPCR (Real-Time PCR)**"
+       },
+       {
+        "en": "Fluorescence monitoring during amplification"
+       },
+       {
+        "en": "Quantification of DNA/RNA"
+       },
+       {
+        "en": "Real-time measurement; no gel needed"
+       },
+       {
+        "en": "Viral load quantification, gene expression"
+       }
+      ],
+      [
+       {
+        "en": "**Multiplex PCR**"
+       },
+       {
+        "en": "Multiple primer pairs in single reaction"
+       },
+       {
+        "en": "Simultaneous detection of multiple targets"
+       },
+       {
+        "en": "Multiple amplicons of different sizes"
+       },
+       {
+        "en": "STR profiling, multi-pathogen screening"
+       }
+      ],
+      [
+       {
+        "en": "**Nested PCR**"
+       },
+       {
+        "en": "Two sequential PCRs with outer + inner primers"
+       },
+       {
+        "en": "Low copy number targets"
+       },
+       {
+        "en": "Inner primers increase specificity"
+       },
+       {
+        "en": "HIV detection, rare mutation analysis"
+       }
+      ],
+      [
+       {
+        "en": "**Hot-Start PCR**"
+       },
+       {
+        "en": "Polymerase inactive until high temperature"
+       },
+       {
+        "en": "Reduce non-specific amplification"
+       },
+       {
+        "en": "Antibody or wax barrier releases polymerase at 95°C"
+       },
+       {
+        "en": "High-specificity amplification"
+       }
+      ]
+     ]
+    }
+   ],
+   "icon": "📋",
+   "label": "Section 10"
+  },
+  {
+   "id": "s13",
+   "title": {
+    "en": "Exponential DNA Amplification Across PCR Cycles"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 2 — How DNA Copies Double Every Cycle"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "pcr_principle_types_applications-d02",
+     "caption": {
+      "en": "Exponential PCR amplification across cycles"
+     },
+     "labels": [
+      "Cycle 0",
+      "1 copy",
+      "×2",
+      "Cycle 1",
+      "2 copies",
+      "×2",
+      "Cycle 2",
+      "4 copies",
+      "×2ⁿ",
+      "Cycle 30",
+      "~10⁹ copies!",
+      "Millions of identical copies",
+      "of the target DNA segment",
+      "Copy Number Growth per Cycle",
+      "Cycle",
+      "Copies (2ⁿ)",
+      "Visual",
+      "n = 1",
+      "2",
+      "n = 5",
+      "32",
+      "n = 10",
+      "1,024",
+      "n = 20",
+      "1,048,576",
+      "n = 30",
+      "~10⁹",
+      "→"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**PCR Copy Number Across Cycles**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Cycle (n)"
+      },
+      {
+       "en": "Copies (2ⁿ)"
+      },
+      {
+       "en": "Approximate count"
+      },
+      {
+       "en": "Bar chart"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "0"
+       },
+       {
+        "en": "2⁰ = 1"
+       },
+       {
+        "en": "1 molecule"
+       },
+       {
+        "en": ""
+       }
+      ],
+      [
+       {
+        "en": "1"
+       },
+       {
+        "en": "2¹ = 2"
+       },
+       {
+        "en": "2 molecules"
+       },
+       {
+        "en": ""
+       }
+      ],
+      [
+       {
+        "en": "5"
+       },
+       {
+        "en": "2⁵ = 32"
+       },
+       {
+        "en": "32 copies"
+       },
+       {
+        "en": ""
+       }
+      ],
+      [
+       {
+        "en": "10"
+       },
+       {
+        "en": "2¹⁰ = 1,024"
+       },
+       {
+        "en": "~1 thousand copies"
+       },
+       {
+        "en": ""
+       }
+      ],
+      [
+       {
+        "en": "20"
+       },
+       {
+        "en": "2²⁰ = 1,048,576"
+       },
+       {
+        "en": "~1 million copies"
+       },
+       {
+        "en": ""
+       }
+      ],
+      [
+       {
+        "en": "30"
+       },
+       {
+        "en": "2³⁰ ≈ 10⁹"
+       },
+       {
+        "en": "~1 billion copies"
+       },
+       {
+        "en": ""
+       }
+      ],
+      [
+       {
+        "en": "35"
+       },
+       {
+        "en": "2³⁵ ≈ 3.4×10¹⁰"
+       },
+       {
+        "en": "~34 billion copies"
+       },
+       {
+        "en": ""
+       }
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "tip",
+     "text": {
+      "en": "**Why exponential?** After cycle 1, each new copy also serves as a template in cycle 2. So the number doubles with every cycle: 1→2→4→8→16→32… This is **exponential growth** — the power of PCR."
+     }
+    }
+   ],
+   "icon": "📈",
+   "label": "Section 11 — Visual"
+  },
+  {
+   "id": "s14",
+   "title": {
+    "en": "Interactive Learning"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**⚗️ Principle — Exam Key Points**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Core Principle"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "PCR = **in vitro DNA amplification** using thermal cycling."
+      },
+      {
+       "en": "Based on: denaturation (strand separation) → annealing (primer binding) → extension (DNA synthesis)."
+      },
+      {
+       "en": "Exponential amplification: **2ⁿ copies** after n cycles."
+      },
+      {
+       "en": "Taq polymerase is heat-stable (survives 95°C denaturation)."
+      },
+      {
+       "en": "Primers define the region amplified — specificity comes from primer sequence."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Exam tip:** Know the three steps, their temperatures, and what happens at each stage. The formula 2ⁿ is frequently asked."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🧪 Components — Exam Key Points**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "7 Components"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Template DNA** — source DNA to be amplified."
+      },
+      {
+       "en": "**Primers (×2)** — forward and reverse, 18–25 nt, define the amplicon."
+      },
+      {
+       "en": "**Taq DNA polymerase** — thermostable, from _Thermus aquaticus_, active at 72°C."
+      },
+      {
+       "en": "**dNTPs** — dATP, dTTP, dGTP, dCTP; building blocks."
+      },
+      {
+       "en": "**PCR buffer** — Tris-HCl pH 8.3, KCl; maintains pH."
+      },
+      {
+       "en": "**MgCl₂** — essential polymerase cofactor (1.5–2.5 mM)."
+      },
+      {
+       "en": "**Thermal cycler** — automated temperature control device."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Exam tip:** Know the role of Mg²⁺ ions — often asked. Too little = no amplification; too much = non-specific bands. Also know why Taq polymerase was a breakthrough (heat stability)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🌡️ PCR Stages — Temperature & Timing**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Three Stages"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Stage"
+      },
+      {
+       "en": "Temperature"
+      },
+      {
+       "en": "Duration"
+      },
+      {
+       "en": "What Happens"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "Initial denaturation"
+       },
+       {
+        "en": "94–96°C"
+       },
+       {
+        "en": "2–5 min"
+       },
+       {
+        "en": "Complete denaturation of template"
+       }
+      ],
+      [
+       {
+        "en": "Denaturation"
+       },
+       {
+        "en": "94–96°C"
+       },
+       {
+        "en": "20–30 sec"
+       },
+       {
+        "en": "H-bonds broken → ssDNA"
+       }
+      ],
+      [
+       {
+        "en": "Annealing"
+       },
+       {
+        "en": "50–65°C"
+       },
+       {
+        "en": "20–40 sec"
+       },
+       {
+        "en": "Primers bind template (Tm−5°C)"
+       }
+      ],
+      [
+       {
+        "en": "Extension"
+       },
+       {
+        "en": "72°C"
+       },
+       {
+        "en": "~1 min/kb"
+       },
+       {
+        "en": "Taq synthesises new strand 5'→3'"
+       }
+      ],
+      [
+       {
+        "en": "Final extension"
+       },
+       {
+        "en": "72°C"
+       },
+       {
+        "en": "5–10 min"
+       },
+       {
+        "en": "Completes all partial strands"
+       }
+      ],
+      [
+       {
+        "en": "Hold"
+       },
+       {
+        "en": "4°C"
+       },
+       {
+        "en": "Indefinite"
+       },
+       {
+        "en": "Storage of product"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🗂️ Types of PCR — Quick Reference**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5 Major Types"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Conventional PCR:** Standard; gel detection; presence/absence."
+      },
+      {
+       "en": "**RT-PCR:** RNA → cDNA → PCR; detects RNA viruses; requires reverse transcriptase."
+      },
+      {
+       "en": "**qPCR / Real-Time PCR:** Fluorescence during cycling; quantitative; no gel needed."
+      },
+      {
+       "en": "**Multiplex PCR:** Multiple primer pairs in one tube; detects multiple targets."
+      },
+      {
+       "en": "**Nested PCR:** Two PCR rounds; outer then inner primers; highest specificity/sensitivity."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Exam tip:** RT-PCR uses reverse transcriptase BEFORE the PCR reaction (mRNA→cDNA), NOT during thermal cycling. Do not confuse RT-PCR with qPCR (real-time PCR). COVID-19 tests = RT-qPCR (both)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Click-to-Reveal Key Terms**"
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Taq Polymerase"
+     },
+     "answer": {
+      "en": "Heat-stable DNA polymerase from Thermus aquaticus (hot springs bacterium). Optimal at 72°C. Withstands 94–96°C denaturation. Rate: ~1000 bp/min. Lacks 3'→5' proofreading exonuclease — error rate ~1/10⁵ bp. Made PCR automation possible."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Primer"
+     },
+     "answer": {
+      "en": "Short (18–25 nt) synthetic single-stranded oligonucleotide complementary to the template flanking the target region. Two primers: forward (sense strand direction) and reverse (antisense strand direction). Defines the amplicon boundaries. Provides 3'-OH for Taq to extend."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Amplicon"
+     },
+     "answer": {
+      "en": "The PCR product — the specific double-stranded DNA fragment amplified between and including the two primers. Its size in base pairs is determined by the positions of the two primers on the template. Visualised as a band on agarose gel."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Thermal Cycler"
+     },
+     "answer": {
+      "en": "A programmable heating/cooling device (PCR machine) that automates the temperature cycling of PCR. Precisely alternates between denaturation (95°C), annealing (50–65°C), and extension (72°C) temperatures for the programmed number of cycles."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "dNTPs"
+     },
+     "answer": {
+      "en": "Deoxynucleoside triphosphates (dATP, dTTP, dGTP, dCTP) — the four building blocks used by Taq polymerase to synthesise the new complementary DNA strand. Added at 200 µM each. The 3'-OH on each dNTP allows the chain to continue growing."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Denaturation"
+     },
+     "answer": {
+      "en": "The first step of each PCR cycle: heating to 94–96°C to break hydrogen bonds between base pairs, separating double-stranded DNA into two single-stranded templates. Without complete denaturation, primers cannot access the template and amplification fails."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Annealing Temperature"
+     },
+     "answer": {
+      "en": "The temperature (50–65°C) at which primers hybridise to the template in PCR. Usually set at 5°C below the melting temperature (Tm) of the primers. Too low → non-specific annealing and extra bands. Too high → primers fail to bind and no product forms."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Reverse Transcriptase"
+     },
+     "answer": {
+      "en": "An RNA-dependent DNA polymerase from retroviruses. In RT-PCR, it converts mRNA into cDNA (reverse transcription) BEFORE PCR amplification. Essential for detecting RNA viruses (SARS-CoV-2, HIV) and studying gene expression. The resulting cDNA is used as template in standard PCR."
+     }
+    }
+   ],
+   "icon": "🎮",
+   "label": "Section 12 — Interactive"
+  },
+  {
+   "id": "s15",
+   "title": {
+    "en": "Summary — Key Exam Points"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**PCR Full Form**Polymerase Chain Reaction. Invented by Kary Mullis in 1983. Nobel Prize in Chemistry 1993. In vitro DNA amplification technique."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Principle**Exponential amplification using thermal cycling: denaturation → annealing → extension. Produces 2ⁿ copies after n cycles. ~10⁹ copies after 30 cycles."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Taq Polymerase**From Thermus aquaticus. Heat-stable (survives 95°C). Optimal at 72°C. Rate ~1000 bp/min. Lacks proofreading (3'→5' exonuclease)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Three PCR Steps**Denaturation (94–96°C) → Annealing (50–65°C) → Extension (72°C). Each cycle doubles the DNA. 25–40 cycles typical."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Mg²⁺ Role**Essential cofactor for Taq polymerase. Also stabilises primer–template duplexes. Optimal: 1.5–2.5 mM. Excess Mg²⁺ causes non-specific amplification."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**RT-PCR**RNA → cDNA (by reverse transcriptase) → PCR. Used for RNA virus detection. Basis of COVID-19 diagnostic test. Not the same as quantitative PCR (qPCR)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**qPCR**Real-time monitoring of amplification using fluorescent dyes (SYBR Green) or probes (TaqMan). Quantitative. Used for viral load measurement and gene expression."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Multiplex PCR**Multiple primer pairs in one reaction. Amplifies several targets simultaneously. Used in forensic STR profiling and multi-pathogen panels."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Nested PCR**Two sequential PCRs. Outer primers first, then inner (nested) primers on the product. Highest sensitivity and specificity for low-copy targets."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Applications**Medical diagnosis (COVID, HIV), forensics (DNA fingerprinting), genetic disorders (cystic fibrosis), gene cloning, animal biotechnology, archaeological DNA."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Limitations**Prior sequence knowledge needed. Contamination causes false positives. Taq errors (no proofreading). Non-specific bands if Mg²⁺ or annealing T not optimised."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Primers**18–25 nt synthetic oligos. Two required: forward + reverse. Complementary to template flanking the target. Annealing T = Tm − 5°C. Define the amplicon."
+     }
+    }
+   ],
+   "icon": "📌",
+   "label": "Section 14"
+  },
+  {
+   "id": "s16",
+   "title": {
+    "en": "Glossary"
+   },
+   "blocks": [
+    {
+     "type": "glossary",
+     "term": {
+      "en": "PCR (Polymerase Chain Reaction)"
+     },
+     "definition": {
+      "en": "An in vitro technique for amplifying a specific DNA segment exponentially using repeated thermal cycling steps (denaturation, annealing, extension) and a thermostable DNA polymerase. Invented by Kary Mullis in 1983."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Template DNA"
+     },
+     "definition": {
+      "en": "The source DNA containing the target sequence to be amplified in PCR. Can be genomic DNA, cDNA, plasmid DNA, or forensic/clinical samples. Typically used in nanogram quantities per reaction."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Primer"
+     },
+     "definition": {
+      "en": "A short (18–25 nt) synthetic single-stranded oligonucleotide complementary to the template flanking the target region. Two primers are required: forward (sense) and reverse (antisense). Defines the exact boundaries of the amplified product (amplicon)."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Denaturation"
+     },
+     "definition": {
+      "en": "The first stage of each PCR cycle. Heating to 94–96°C breaks hydrogen bonds between base pairs, separating the double-stranded DNA into single-stranded templates for primer binding in the next step."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Annealing"
+     },
+     "definition": {
+      "en": "The second stage of each PCR cycle (50–65°C). Primers hybridise to their complementary sequences on the single-stranded template through Watson-Crick base pairing. Annealing temperature = Tm − 5°C of the primers."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Extension"
+     },
+     "definition": {
+      "en": "The third stage of each PCR cycle (72°C). Taq DNA polymerase extends each primer by adding dNTPs complementary to the template in the 5'→3' direction, synthesising a new complementary DNA strand."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Taq Polymerase"
+     },
+     "definition": {
+      "en": "A thermostable DNA polymerase isolated from Thermus aquaticus, a bacterium from hot springs. Withstands the 94–96°C denaturation step of PCR. Optimal activity at 72°C. Rate: ~1000 bp/min. Lacks 3'→5' proofreading exonuclease activity."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Thermal Cycler"
+     },
+     "definition": {
+      "en": "A programmable device that automatically and precisely controls the temperature cycling of PCR reactions. Alternates between the denaturation, annealing, and extension temperatures for the programmed number of cycles, enabling complete automation of PCR."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Amplicon"
+     },
+     "definition": {
+      "en": "The PCR product — the double-stranded DNA fragment amplified between (and including) the two primer sequences. Its size is fixed by the primer positions and is detected as a band on agarose gel electrophoresis."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Reverse Transcriptase"
+     },
+     "definition": {
+      "en": "RNA-dependent DNA polymerase from retroviruses (e.g., MMLV-RT). In RT-PCR, converts single-stranded mRNA into complementary DNA (cDNA) before PCR amplification. Essential for detecting and studying RNA targets including RNA viruses."
+     }
+    }
+   ],
+   "icon": "📖",
+   "label": "Section 15"
+  },
+  {
+   "id": "s17",
+   "title": {
+    "en": "Frequently Asked University Exam Questions"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Click to expand answer hints."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1. What is PCR? Explain its principle and the three stages of a PCR cycle.**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Definition: Polymerase Chain Reaction — in vitro exponential amplification of a specific DNA segment using thermal cycling. Invented by Kary Mullis (1983); Nobel Prize 1993."
+      },
+      {
+       "en": "Principle: repeated cycles of denaturation → annealing → extension; each cycle doubles copies; exponential amplification = 2ⁿ after n cycles."
+      },
+      {
+       "en": "Stage 1 — Denaturation: 94–96°C; H-bonds broken; dsDNA → 2 ssDNA templates."
+      },
+      {
+       "en": "Stage 2 — Annealing: 50–65°C; primers (forward + reverse) bind complementary template sequences; Tm−5°C rule."
+      },
+      {
+       "en": "Stage 3 — Extension: 72°C; Taq polymerase adds dNTPs 5'→3' from primers; rate ~1000 bp/min."
+      },
+      {
+       "en": "After 30–40 cycles → ~10⁶–10⁹ copies. Include a diagram of the temperature cycle."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**2. What are the components required for PCR? State the function of each.**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Template DNA — source DNA with target sequence."
+      },
+      {
+       "en": "Primers (×2, forward + reverse) — define amplicon; 18–25 nt; provide 3'-OH for extension."
+      },
+      {
+       "en": "Taq DNA polymerase — heat-stable; from T. aquaticus; synthesises new strand at 72°C."
+      },
+      {
+       "en": "dNTPs (dATP, dTTP, dGTP, dCTP) — building blocks for DNA synthesis."
+      },
+      {
+       "en": "PCR buffer (Tris-HCl, KCl) — maintains optimal pH 8.3–8.8."
+      },
+      {
+       "en": "MgCl₂ (1.5–2.5 mM) — essential polymerase cofactor; stabilises primer-template duplexes."
+      },
+      {
+       "en": "Thermal cycler — automated temperature control."
+      },
+      {
+       "en": "Exam tip: Know the role of Mg²⁺ separately — it's frequently asked alone."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**3. What is RT-PCR? How does it differ from conventional PCR and what are its applications?**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "RT-PCR = Reverse Transcriptase PCR. Uses RNA as starting material, not DNA."
+      },
+      {
+       "en": "Key step: RNA → cDNA by reverse transcriptase (RNA-dependent DNA polymerase) BEFORE PCR."
+      },
+      {
+       "en": "Two-step process: (1) RT step: mRNA + oligo-dT primer + RT enzyme → cDNA; (2) PCR: cDNA amplified by standard thermal cycling."
+      },
+      {
+       "en": "Difference from conventional PCR: conventional uses DNA template directly; RT-PCR requires reverse transcription first to convert RNA to cDNA."
+      },
+      {
+       "en": "Applications: detection of RNA viruses (SARS-CoV-2, HIV, influenza); gene expression analysis; transcriptome studies."
+      },
+      {
+       "en": "COVID-19 diagnosis: RT-qPCR combines reverse transcription + real-time PCR."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**4. What is exponential amplification in PCR? Calculate the number of copies after 20 cycles.**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Exponential amplification: each cycle doubles the target DNA, so copies increase as powers of 2."
+      },
+      {
+       "en": "Formula: Number of copies = 2ⁿ (where n = number of cycles starting from 1 molecule)."
+      },
+      {
+       "en": "After 20 cycles: 2²⁰ = 1,048,576 ≈ 1 million copies."
+      },
+      {
+       "en": "After 30 cycles: 2³⁰ ≈ 1.07 × 10⁹ ≈ 1 billion copies."
+      },
+      {
+       "en": "Why exponential? Because products of each cycle serve as templates in the next cycle — not just the original two strands."
+      },
+      {
+       "en": "Practical note: efficiency is not 100% in real reactions, so actual yield is somewhat lower (typically 80–90% efficiency per cycle)."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**5. Describe the applications of PCR in medical diagnosis, forensics, and animal biotechnology.**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Medical diagnosis:** RT-PCR detects RNA viruses (SARS-CoV-2 → COVID-19, HIV, hepatitis C); conventional PCR detects bacterial pathogens (M. tuberculosis, Chlamydia); multiplex PCR panels detect multiple pathogens in one test."
+      },
+      {
+       "en": "**Genetic disorder analysis:** Detects mutations in CFTR (cystic fibrosis), HBB (sickle cell), BRCA1/2 (breast cancer); prenatal diagnosis from amniotic fluid cells."
+      },
+      {
+       "en": "**Forensic science:** STR profiling by multiplex PCR from blood, hair, skin cells at crime scenes; DNA fingerprinting for identification; paternity testing."
+      },
+      {
+       "en": "**Animal biotechnology:** Sex determination of embryos (SRY gene); detection of transgene integration in transgenic animals; breed/species identification; detection of animal pathogens; quality control of animal products."
+      },
+      {
+       "en": "**Gene cloning:** Amplifies gene of interest for cloning into vector; colony PCR confirms successful insertion."
+      }
+     ]
+    }
+   ],
+   "icon": "🎓",
+   "label": "Section 16"
+  }
+ ],
+ "skipped": [
+  "quiz"
+ ],
+ "dropped": [
+  {
+   "selector": "nav",
+   "count": 1,
+   "sample": [
+    "Home Intro Principle Components Steps Cycle Diagram Workflow"
+   ]
+  },
+  {
+   "selector": "footer",
+   "count": 1,
+   "sample": [
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh"
+   ]
+  },
+  {
+   "selector": ".rh",
+   "count": 8,
+   "sample": [
+    "Click to reveal",
+    "Click to reveal",
+    "Click to reveal"
+   ]
+  }
+ ],
+ "extractor": "1"
+}

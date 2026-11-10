@@ -1,0 +1,1677 @@
+{
+ "id": "gel_electrophoresis",
+ "unit": "II",
+ "title": {
+  "en": "Gel Electrophoresis"
+ },
+ "sections": [
+  {
+   "id": "s01",
+   "title": {
+    "en": "Overview"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Molecular Biology · B.Sc. Zoology / Biotechnology"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "title": {
+    "en": "Gel Electrophoresis"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Principle · Types · Components · Procedure · Applications"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "How do scientists sort millions of DNA fragments by size after a restriction digest or PCR reaction? Gel electrophoresis — the fundamental technique that uses an electric field to separate molecules through a molecular sieve — is the answer. It underpins virtually every molecular biology workflow in use today."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🎯 Learning Objectives**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Define gel electrophoresis and explain its importance in molecular biology."
+      },
+      {
+       "en": "Explain separation based on size, charge, and molecular sieving."
+      },
+      {
+       "en": "Describe all components and types of gel electrophoresis systems."
+      },
+      {
+       "en": "Outline the step-by-step procedure for agarose gel electrophoresis."
+      },
+      {
+       "en": "Interpret gel results using a DNA ladder to estimate fragment sizes."
+      },
+      {
+       "en": "Compare agarose gel, PAGE, and SDS-PAGE in a structured table."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": {
+    "en": "Introduction to Gel Electrophoresis"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Definition**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Gel electrophoresis is a laboratory technique used to **separate macromolecules** — primarily DNA, RNA, and proteins — based on their **size and electrical charge** by causing them to migrate through a porous gel matrix under the influence of an **electric field**."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Importance in Molecular Biology and Biotechnology**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**DNA analysis:** Separates fragments after restriction enzyme digestion or PCR amplification."
+      },
+      {
+       "en": "**RNA analysis:** Assesses RNA integrity and size during Northern blotting."
+      },
+      {
+       "en": "**Protein analysis:** Determines protein molecular weight and purity (SDS-PAGE)."
+      },
+      {
+       "en": "**Forensics:** DNA fingerprinting by STR profiling for individual identification."
+      },
+      {
+       "en": "**Diagnostics:** Detection of viral/bacterial nucleic acids; identification of genetic mutations."
+      },
+      {
+       "en": "**Clone verification:** Confirms correct gene insertion into cloning vectors."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Basic Concept**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "When an electric field is applied, charged molecules migrate through a gel. The gel acts as a **molecular sieve** — smaller molecules pass through pores more easily and migrate farther, while larger molecules are retarded and move less. This creates distinct **bands** at positions corresponding to molecule size."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Golden Rule:** Smaller molecules → faster migration → farther from well. Larger molecules → slower migration → closer to well."
+     }
+    }
+   ],
+   "icon": "🔬",
+   "label": "Section 1"
+  },
+  {
+   "id": "s04",
+   "title": {
+    "en": "Principle of Gel Electrophoresis"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Movement of Charged Molecules in an Electric Field**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "All DNA and RNA molecules carry a **net negative charge** at neutral pH due to the phosphate groups in their backbone. When an electric field is applied, these negatively charged molecules migrate towards the **positive electrode (anode)**, moving away from the negative electrode (cathode)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Role of Size and Charge**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Charge:** All DNA fragments carry the same charge-to-mass ratio (uniform negative phosphate backbone) → charge alone does NOT separate them."
+      },
+      {
+       "en": "**Size:** The primary separating factor. Smaller fragments experience less resistance from the gel matrix and migrate faster."
+      },
+      {
+       "en": "**Shape:** Supercoiled, relaxed circular, and linear DNA of the same size migrate differently."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**DNA Migration Towards the Anode**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "DNA samples are loaded into wells at the **cathode (−) end**. The applied voltage drives the negatively charged DNA backbone through the gel towards the **anode (+) end**. Wells are always positioned at the negative electrode end."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Molecular Sieving**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The gel matrix forms a mesh-like network of pores:"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Small fragments (e.g., 100 bp)** → navigate pores easily → move quickly → travel far from well."
+      },
+      {
+       "en": "**Large fragments (e.g., 10 kb)** → physically impeded by pores → move slowly → remain close to well."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Fragment Size vs Migration Distance**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "There is a **logarithmic (inverse) relationship** between size and migration distance: _log(bp) is inversely proportional to distance from well_. Plotting log(fragment size) vs migration distance gives a **straight line** — used to estimate unknown sizes by comparison with a DNA ladder."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "tip",
+     "text": {
+      "en": "**Exam Formula:** log(fragment size in bp) ∝ −(migration distance from well)\nSmaller bp → greater distance. | Larger bp → smaller distance."
+     }
+    }
+   ],
+   "icon": "⚡",
+   "label": "Section 2"
+  },
+  {
+   "id": "s05",
+   "title": {
+    "en": "Types of Gel Electrophoresis"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**A. Agarose Gel Electrophoresis**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Matrix:** Agarose — polysaccharide from red algae."
+      },
+      {
+       "en": "**Concentration:** 0.5–3% (higher % = smaller pores = better small-fragment resolution)."
+      },
+      {
+       "en": "**Molecules:** DNA (50 bp–50 kb) and RNA. Orientation: horizontal."
+      },
+      {
+       "en": "**Buffer:** TAE (Tris-Acetate-EDTA) or TBE (Tris-Borate-EDTA)."
+      },
+      {
+       "en": "**Applications:** PCR analysis, restriction mapping, clone verification, Southern blotting."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**B. Polyacrylamide Gel Electrophoresis (PAGE)**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Matrix:** Polyacrylamide (synthetic polymer from acrylamide + bis-acrylamide)."
+      },
+      {
+       "en": "**Concentration:** 4–20% with very small, tunable pore sizes."
+      },
+      {
+       "en": "**Resolution:** Very high; can resolve fragments differing by 1 bp (DNA sequencing gels)."
+      },
+      {
+       "en": "**Applications:** Protein analysis (native PAGE), DNA sequencing, small DNA fragments (10–500 bp)."
+      },
+      {
+       "en": "**Safety:** Acrylamide monomer is a neurotoxin — handle with care."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**C. SDS-PAGE**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Principle:** SDS (sodium dodecyl sulphate) coats proteins with uniform negative charge proportional to their length → separation purely by molecular weight."
+      },
+      {
+       "en": "**Use:** Protein molecular weight determination; purity assessment."
+      },
+      {
+       "en": "**Applications:** Western blotting, proteomic analysis, recombinant protein quality control."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Agarose % Rule of Thumb:** 0.5–0.8% for large DNA (2–50 kb) · 1% for general use (500 bp–10 kb) · 2–3% for small fragments (50–500 bp)"
+     }
+    }
+   ],
+   "icon": "🗂️",
+   "label": "Section 3"
+  },
+  {
+   "id": "s06",
+   "title": {
+    "en": "Components of the Gel Electrophoresis System"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "1. Gel MatrixAgarose or polyacrylamide. Pore size controlled by concentration. Cast as a slab with wells. Acts as the molecular sieve that separates fragments by size."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2. Buffer (TAE/TBE)Maintains pH and ionic strength. Conducts electricity. EDTA in buffer chelates Mg²⁺ to inhibit DNase activity. Must submerge the entire gel in the chamber."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "3. DNA SamplePurified DNA to be analysed (PCR products, restriction digests, genomic DNA). Mixed with loading dye before loading. Typically 50–500 ng per lane."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "4. Loading DyeContains: glycerol/sucrose (increases density → sample sinks into well) + tracking dyes (bromophenol blue ≈ 300 bp; xylene cyanol ≈ 4 kb) to monitor migration."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5. DNA LadderPre-mixed fragments of precisely known sizes (e.g., 100 bp, 500 bp, 1 kb…). Loaded in a dedicated lane. Used to estimate sizes of unknown sample fragments by comparison."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "6. Electrophoresis ChamberHorizontal tank (agarose) or vertical apparatus (PAGE). Contains electrode connections and buffer. Holds gel in place with cathode at well end and anode at far end."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "7. Power SupplyProvides DC electric current (70–120 V typical). Higher voltage = faster migration but more heat. Connected: cathode (−) at wells, anode (+) at far end."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "8. Staining AgentsEthidium bromide (EtBr): intercalates DNA, fluoresces orange under UV — MUTAGENIC. Safer alternatives: SYBR Green, GelRed, GelGreen. Protein gels: Coomassie Blue or silver stain."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Safety:** Ethidium bromide is a potent **mutagen and carcinogen**. Always wear gloves, work in designated EtBr area, dispose of waste properly. SYBR Green and GelRed are widely used safer alternatives."
+     }
+    }
+   ],
+   "icon": "🧰",
+   "label": "Section 4"
+  },
+  {
+   "id": "s07",
+   "title": {
+    "en": "Steps in Agarose Gel Electrophoresis"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "1"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Preparation of the Gel"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Agarose (e.g., 1 g for 1% in 100 mL TAE) is dissolved by heating until fully clear. Cooled to ~55°C, EtBr or safe alternative added, then poured into a casting tray with a comb. Gel solidifies at room temperature in 20–30 minutes forming a firm, translucent slab. Comb is removed to leave the wells."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Sample Preparation and Loading"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Gel is placed in the electrophoresis chamber flooded with TAE buffer (just covering the gel). DNA samples are mixed with 6× loading dye (1 part dye : 5 parts DNA). Using a micropipette, the DNA ladder is loaded into lane 1, then samples into subsequent wells — carefully to avoid disturbing adjacent wells."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "3"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Electrophoresis (Applying Current)"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The lid is secured and electrodes connected: red (+) to anode end, black (−) to cathode end (well end). Voltage set to 70–120 V DC. Current is applied. The tracking dyes in loading buffer (visible blue and purple bands) allow monitoring of migration progress."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "4"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Migration of DNA Fragments"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "DNA fragments migrate from the cathode (well) end towards the anode end at speeds inversely proportional to size. Run continues until the bromophenol blue dye has migrated approximately 75–80% of the gel length — typically 30–60 minutes at 100 V."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Staining and Visualisation"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "If EtBr was added to the gel during casting, the gel can be directly placed on a UV transilluminator (302 nm). EtBr-stained DNA fluoresces bright orange. If staining was not done beforehand, the gel is soaked in EtBr solution (0.5 µg/mL) for 20–30 minutes. Images are captured with a gel documentation (gel doc) system."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "6"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Interpretation of Bands"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Each band = a population of same-sized DNA fragments. Band position (distance from well) is compared to ladder bands to estimate size. Band intensity is proportional to DNA amount. A log(bp) vs distance graph is plotted using ladder bands; sample sizes are interpolated from this line."
+     }
+    }
+   ],
+   "icon": "🪜",
+   "label": "Section 5"
+  },
+  {
+   "id": "s08",
+   "title": {
+    "en": "Labeled Diagrams"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 1 — Agarose Gel Electrophoresis Setup (Fully Labeled)"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "gel_electrophoresis-d01",
+     "caption": {
+      "en": "Gel electrophoresis setup diagram"
+     },
+     "labels": [
+      "⚡ Power Supply",
+      "70–120 V DC",
+      "−ve wire",
+      "+ve wire",
+      "−",
+      "CATHODE",
+      "(negative)",
+      "+",
+      "ANODE",
+      "(positive)",
+      "Buffer solution (TAE/TBE) fills the chamber above and below gel",
+      "Agarose Gel (1%)",
+      "L",
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "DNA migration →",
+      "(small = fast = far)",
+      "Wells",
+      "DNA Ladder (L)",
+      "DNA Samples →",
+      "UV light (302 nm)",
+      "reveals EtBr-stained bands",
+      "Gel slab"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 2 — DNA Fragment Size vs Migration Distance: Gel Image & Standard Curve"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "gel_electrophoresis-d02",
+     "caption": {
+      "en": "Fragment size vs migration distance comparison"
+     },
+     "labels": [
+      "Gel Image",
+      "(UV fluorescence)",
+      "DNA Ladder",
+      "Sample X",
+      "− cathode",
+      "+ anode",
+      "10,000 bp",
+      "5,000 bp",
+      "3,000 bp",
+      "2,000 bp",
+      "1,500 bp",
+      "1,000 bp",
+      "700 bp",
+      "500 bp",
+      "300 bp",
+      "100 bp",
+      "~2,800 bp ←",
+      "~1,100 bp ←",
+      "~380 bp ←",
+      "Standard Curve",
+      "log(bp) vs migration distance",
+      "log (Fragment size in bp)",
+      "Migration Distance from Well (cm)",
+      "4.0",
+      "3.8",
+      "3.6",
+      "3.4",
+      "3.2",
+      "3.0",
+      "2.7",
+      "2.5",
+      "2.0",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "~2,800 bp",
+      "~1,100 bp",
+      "~380 bp",
+      "DNA Ladder (known sizes)",
+      "Sample X (estimated sizes)",
+      "Straight line:",
+      "log(bp) ∝ −distance"
+     ]
+    }
+   ],
+   "icon": "🖼️",
+   "label": "Section 6 — Diagrams"
+  },
+  {
+   "id": "s09",
+   "title": {
+    "en": "Fragment Size vs Migration Speed"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Fragments of different sizes migrating through the same gel at the same time."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "gel_electrophoresis-d03",
+     "caption": {
+      "en": "DNA migration size comparison"
+     },
+     "labels": [
+      "WELLS",
+      "(cathode −)",
+      "+",
+      "anode",
+      "10 kb",
+      "← Very LARGE: moves SLOWLY, stays near wells",
+      "5 kb",
+      "← Large: migrates a moderate distance",
+      "2 kb",
+      "← Medium size: medium migration",
+      "500 bp",
+      "← Migrates far",
+      "100 bp",
+      "SMALLEST: FASTEST →",
+      "Same Run Time — Smaller Fragments Travel Farther",
+      "Migration Direction → (towards + Anode)",
+      "Larger bp = slower = shorter bar | Smaller bp = faster = longer bar"
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Why does size matter?** The agarose gel is a fixed mesh of pores. Large DNA fragments must squeeze through multiple pores at once — they are physically retarded. Small fragments slip through easily. This differential resistance to migration is the entire basis of molecular sieving in gel electrophoresis."
+     }
+    }
+   ],
+   "icon": "🏃",
+   "label": "Section 7 — Migration Visual"
+  },
+  {
+   "id": "s10",
+   "title": {
+    "en": "Gel Electrophoresis Workflow — Click Each Step"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Click any step to expand details."
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "1 🧪 Prepare Gel Dissolve agarose in TAE buffer by boiling. Cool to ~55°C. Add EtBr or safe stain. Pour into casting tray with comb. Solidify 20–30 min. Remove comb to reveal wells."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "2 💧 Load Samples Place gel in buffer-filled chamber. Mix DNA with 6× loading dye. Load DNA ladder in lane 1. Load samples carefully into wells with micropipette."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "3 ⚡ Run Electrophoresis Apply 70–120 V DC (cathode at wells, anode at far end). Run until bromophenol blue dye front is 75–80% down gel. Takes 30–60 min at 100 V."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "4 🔆 Visualise Place gel on UV transilluminator (302 nm). EtBr-stained DNA fluoresces orange. Photograph with gel documentation system. Wear UV eye protection."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "5 📊 Interpret Results Compare sample bands to ladder for size. Note band position (size), intensity (amount of DNA), and number of bands. Plot log(bp) vs distance to estimate unknowns."
+      }
+     ]
+    }
+   ],
+   "icon": "🔄",
+   "label": "Section 8 — Workflow"
+  },
+  {
+   "id": "s11",
+   "title": {
+    "en": "Applications of Gel Electrophoresis"
+   },
+   "blocks": [
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**PCR Verification**\nConfirms correct amplicon size after PCR. Detects primer dimers, non-specific bands, and failed reactions."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Restriction Mapping**\nSeparates restriction digest fragments to determine their sizes and map gene organisation."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "tip",
+     "text": {
+      "en": "**DNA Fingerprinting**\nSTR (short tandem repeat) profiling by multiplex PCR. Used in forensics, paternity testing, and individual identification."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Gene Cloning Analysis**\nColony PCR and restriction digestion confirm correct insert size in recombinant vectors."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Mutation Detection**\nRFLP analysis, deletion/insertion screening. Different mutation profiles produce different band patterns."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Forensic Applications**\nBiological evidence from crime scenes. Disaster victim identification. Immigration casework."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Protein Analysis (SDS-PAGE)**\nMolecular weight determination. Purity assessment of recombinant proteins. Western blot preparation."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Clinical Diagnostics**\nViral/bacterial DNA detection. RNA integrity assessment for transcriptomic studies. Pathogen drug resistance genotyping."
+     }
+    }
+   ],
+   "icon": "🏥",
+   "label": "Section 9"
+  },
+  {
+   "id": "s12",
+   "title": {
+    "en": "Advantages and Limitations"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**✅ Advantages**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Simple and rapid:** Results in 1–2 hours."
+      },
+      {
+       "en": "**Versatile:** Separates DNA, RNA, and proteins."
+      },
+      {
+       "en": "**Semi-quantitative:** Band intensity reflects DNA amount."
+      },
+      {
+       "en": "**Size estimation:** Ladder enables accurate sizing."
+      },
+      {
+       "en": "**Multiple samples:** 20–30 lanes per gel."
+      },
+      {
+       "en": "**Inexpensive:** Low cost reagents; reusable equipment."
+      },
+      {
+       "en": "**PAGE resolution:** Can resolve single base pair differences."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**⚠️ Limitations**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Size range:** Agarose limited to 50 bp–50 kb."
+      },
+      {
+       "en": "**EtBr hazard:** Mutagenic; requires safe handling."
+      },
+      {
+       "en": "**Co-migration:** Very similar sizes (<10% difference) may overlap."
+      },
+      {
+       "en": "**Shape effect:** Circular vs linear DNA of same size migrate differently."
+      },
+      {
+       "en": "**Not quantitative:** Cannot give absolute copy numbers (needs qPCR)."
+      },
+      {
+       "en": "**Irreversible:** Gel cannot be reused once run."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Common Errors:** Smearing = DNA degradation (DNase) or overloading. No bands = failed PCR, wrong buffer, or UV bulb failure. Extra bands = non-specific amplification or contamination. Smile effect (curved bands) = overheating → reduce voltage."
+     }
+    }
+   ],
+   "icon": "⚖️",
+   "label": "Section 10"
+  },
+  {
+   "id": "s13",
+   "title": {
+    "en": "Comparison: Agarose Gel vs PAGE vs SDS-PAGE"
+   },
+   "blocks": [
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Feature"
+      },
+      {
+       "en": "Agarose Gel"
+      },
+      {
+       "en": "Native PAGE"
+      },
+      {
+       "en": "SDS-PAGE"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Matrix**"
+       },
+       {
+        "en": "Agarose (polysaccharide, from red algae)"
+       },
+       {
+        "en": "Polyacrylamide (synthetic)"
+       },
+       {
+        "en": "Polyacrylamide + SDS detergent"
+       }
+      ],
+      [
+       {
+        "en": "**Molecule**"
+       },
+       {
+        "en": "DNA and RNA"
+       },
+       {
+        "en": "Proteins (native state) or small DNA"
+       },
+       {
+        "en": "Proteins (denatured state)"
+       }
+      ],
+      [
+       {
+        "en": "**Separation basis**"
+       },
+       {
+        "en": "Size (+ shape for circular DNA)"
+       },
+       {
+        "en": "Size, shape, and native charge"
+       },
+       {
+        "en": "Molecular weight ONLY (SDS equalises charge)"
+       }
+      ],
+      [
+       {
+        "en": "**Resolution**"
+       },
+       {
+        "en": "Moderate: 50 bp–50 kb range"
+       },
+       {
+        "en": "High: 10 bp–500 bp; proteins up to 500 kDa"
+       },
+       {
+        "en": "Very high: proteins 10–300 kDa"
+       }
+      ],
+      [
+       {
+        "en": "**Concentration**"
+       },
+       {
+        "en": "0.5–3%"
+       },
+       {
+        "en": "4–20%"
+       },
+       {
+        "en": "8–15%"
+       }
+      ],
+      [
+       {
+        "en": "**Orientation**"
+       },
+       {
+        "en": "Horizontal"
+       },
+       {
+        "en": "Vertical"
+       },
+       {
+        "en": "Vertical"
+       }
+      ],
+      [
+       {
+        "en": "**Staining**"
+       },
+       {
+        "en": "EtBr / SYBR Green (UV fluorescence)"
+       },
+       {
+        "en": "EtBr (DNA); Coomassie Blue (protein)"
+       },
+       {
+        "en": "Coomassie Blue or Silver stain"
+       }
+      ],
+      [
+       {
+        "en": "**Applications**"
+       },
+       {
+        "en": "PCR analysis, restriction mapping, DNA fingerprinting, Southern blot"
+       },
+       {
+        "en": "DNA sequencing, analysis of native proteins"
+       },
+       {
+        "en": "Western blot, protein MW, proteomics"
+       }
+      ],
+      [
+       {
+        "en": "**Safety concern**"
+       },
+       {
+        "en": "EtBr: mutagenic (SYBR Green safer)"
+       },
+       {
+        "en": "Acrylamide monomer: neurotoxin"
+       },
+       {
+        "en": "Acrylamide + SDS: both require precautions"
+       }
+      ]
+     ]
+    }
+   ],
+   "icon": "📋",
+   "label": "Section 11"
+  },
+  {
+   "id": "s14",
+   "title": {
+    "en": "Interactive Learning"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**⚡ Principle — Exam Key Points**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Core Principle"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "DNA is negatively charged (phosphate groups) → migrates towards anode (+)."
+      },
+      {
+       "en": "Gel = molecular sieve → smaller fragments navigate pores faster → migrate farther."
+      },
+      {
+       "en": "Separation based on SIZE (all DNA has same charge-to-mass ratio)."
+      },
+      {
+       "en": "**log(bp) ∝ −distance from well** → straight line on semi-log plot."
+      },
+      {
+       "en": "Wells always at the cathode (−) end. DNA moves AWAY from wells."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Exam tip:** Smaller = farther from well = bottom of gel. Larger = closer to well = top of gel. Always remember this direction."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🧰 Components — Exam Key Points**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "8 Components"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Gel matrix (agarose/polyacrylamide):** molecular sieve."
+      },
+      {
+       "en": "**Buffer (TAE/TBE):** maintains pH, conducts current, EDTA inhibits DNase."
+      },
+      {
+       "en": "**Loading dye:** glycerol (density) + tracking dyes (bromophenol blue ≈ 300 bp)."
+      },
+      {
+       "en": "**DNA ladder:** known size reference for estimating unknown fragments."
+      },
+      {
+       "en": "**EtBr:** intercalates into DNA; fluoresces orange under UV — MUTAGENIC."
+      },
+      {
+       "en": "**Power supply:** 70–120 V DC; drives migration."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Exam tip:** Know the function of loading dye — glycerol prevents sample floating out of well; bromophenol blue (visible blue dye) monitors migration (~300 bp equivalent); xylene cyanol tracks larger fragments (~4 kb)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🪜 Procedure — Step Sequence**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "6 Steps in Order"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": true,
+     "items": [
+      {
+       "en": "Prepare agarose gel in TAE buffer → pour → solidify with comb."
+      },
+      {
+       "en": "Place gel in chamber with TAE buffer."
+      },
+      {
+       "en": "Mix DNA samples with loading dye; load ladder + samples into wells."
+      },
+      {
+       "en": "Apply 70–120 V; run until dye front is 75–80% down gel."
+      },
+      {
+       "en": "Visualise under UV (EtBr stained gel → orange fluorescent bands)."
+      },
+      {
+       "en": "Photograph and interpret bands using DNA ladder as size reference."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "tip",
+     "text": {
+      "en": "**Exam tip:** The direction is ALWAYS: wells at cathode (−) end → DNA moves away from wells towards anode (+) end. Voltage applied: red wire (+) to anode, black wire (−) to cathode."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**📊 Interpreting Gel Results**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Gel Analysis"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Each band = population of DNA fragments of the same size."
+      },
+      {
+       "en": "Band position → compare with ladder → estimate fragment size in bp."
+      },
+      {
+       "en": "Band intensity → proportional to amount of DNA in that band."
+      },
+      {
+       "en": "Number of bands → number of distinct-sized fragments in sample."
+      },
+      {
+       "en": "Plot log(bp) vs migration distance using ladder → straight line → read unknown sizes off line."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Exam tip:** After gel electrophoresis, bands of interest can be cut out of the gel with a scalpel and the DNA extracted by gel extraction kit. This purified DNA can then be used for cloning, sequencing, or other downstream applications."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Click-to-Reveal Key Terms**"
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Agarose"
+     },
+     "answer": {
+      "en": "Polysaccharide from red algae (Gelidium/Gracilaria). Forms a porous gel when dissolved in buffer and cooled. Pore size is inversely proportional to concentration. 0.5% for large DNA (1–50 kb); 2–3% for small fragments (50–500 bp). The standard matrix for DNA and RNA electrophoresis."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Electrophoresis"
+     },
+     "answer": {
+      "en": "Movement of charged molecules through a medium under an applied electric field. Negatively charged DNA migrates towards the anode (+). Positive molecules migrate towards cathode (−). In gel electrophoresis, the gel matrix introduces size-dependent sieving."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "DNA Ladder"
+     },
+     "answer": {
+      "en": "A pre-mixed standard containing DNA fragments of precisely known sizes (e.g., 100 bp, 500 bp, 1 kb, 5 kb). Run in a dedicated lane alongside samples. Band positions provide a standard curve (log bp vs distance) for estimating sizes of unknown fragments by interpolation."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Ethidium Bromide"
+     },
+     "answer": {
+      "en": "Planar fluorescent molecule that intercalates between DNA base pairs. When illuminated with UV light (302 nm), EtBr-DNA complexes fluoresce bright orange. Detects as little as 1–10 ng DNA per band. IMPORTANT: EtBr is a potent mutagen and carcinogen. Safer alternatives: SYBR Green, GelRed, GelGreen."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Loading Dye"
+     },
+     "answer": {
+      "en": "Solution mixed with DNA before loading into wells. Contains: (1) glycerol or Ficoll to increase sample density so it sinks into the well and does not diffuse into buffer; (2) bromophenol blue (migrates at ~300 bp equivalent) and xylene cyanol (~4 kb equivalent) for visible tracking of migration progress."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Molecular Sieving"
+     },
+     "answer": {
+      "en": "The physical process by which a porous matrix separates molecules by size. In gel electrophoresis, smaller DNA fragments navigate through gel pores more easily than larger ones. Large fragments experience greater resistance from multiple simultaneous pore interactions, causing them to migrate more slowly."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "TAE Buffer"
+     },
+     "answer": {
+      "en": "Tris-Acetate-EDTA buffer. Standard buffer for agarose DNA gel electrophoresis. Tris buffers pH to 8.0–8.3. Acetate provides ionic conductivity. EDTA chelates Mg²⁺ to inhibit DNase activity and protect DNA during the run. The same buffer fills both the gel and the chamber."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "SDS-PAGE"
+     },
+     "answer": {
+      "en": "Sodium Dodecyl Sulphate-Polyacrylamide Gel Electrophoresis. SDS is an anionic detergent that binds to proteins proportionally to chain length, coating them with a uniform negative charge proportional to their mass. This removes differences in native protein charge/shape, so separation is ONLY by molecular weight."
+     }
+    }
+   ],
+   "icon": "🎮",
+   "label": "Section 12 — Interactive"
+  },
+  {
+   "id": "s15",
+   "title": {
+    "en": "Summary — Key Exam Points"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Definition**Gel electrophoresis separates DNA/RNA/proteins based on size and charge using an electric field through a porous gel matrix acting as a molecular sieve."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**DNA Charge**DNA is negatively charged (phosphate backbone). Migrates towards anode (+). Wells are ALWAYS at the cathode (−) end of the gel."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Migration Rule**Smaller fragments travel FASTER and FARTHER from wells. Larger fragments travel SLOWER and stay CLOSER to wells. log(bp) ∝ −distance."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Agarose Concentration**0.5–0.8%: large DNA (2–50 kb). 1%: general use. 2–3%: small fragments (50–500 bp). Higher % = smaller pores = better resolution of small fragments."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**PAGE**Polyacrylamide gel. Higher resolution than agarose. Can resolve single bp differences (DNA sequencing gels). Used for proteins and small DNA. Vertical orientation. Acrylamide is neurotoxic."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**SDS-PAGE**SDS coats proteins with uniform negative charge proportional to molecular weight → separation by MW only. Used for protein characterisation and Western blotting."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**DNA Ladder**Known-size fragment mixture run in lane 1. Allows construction of log(bp) vs distance standard curve. Unknown fragment sizes estimated by interpolation from this line."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Loading Dye**Glycerol increases density (sample sinks into well). Bromophenol blue (~300 bp) and xylene cyanol (~4 kb) track migration progress without UV."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**EtBr**Intercalates into DNA; fluoresces orange under UV (302 nm). MUTAGENIC — safer alternatives SYBR Green, GelRed. Added to gel during casting or by post-run soaking."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Procedure Order**Prepare gel → load samples + ladder → apply 70–120 V → run 30–60 min → UV visualise → photograph → interpret against ladder."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Applications**PCR product verification, restriction mapping, DNA fingerprinting (forensics), clone confirmation, mutation detection, protein analysis (SDS-PAGE)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Common Errors**Smearing = DNase degradation or overload. No bands = failed PCR. Extra bands = non-specific amplification. Smile effect = overheating → reduce voltage."
+     }
+    }
+   ],
+   "icon": "📌",
+   "label": "Section 14"
+  },
+  {
+   "id": "s16",
+   "title": {
+    "en": "Glossary"
+   },
+   "blocks": [
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Electrophoresis"
+     },
+     "definition": {
+      "en": "Movement of charged molecules through a medium under an electric field. Negatively charged DNA migrates towards the positive electrode (anode). The rate of migration depends on the molecule's size, charge, and the resistance of the medium."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Agarose"
+     },
+     "definition": {
+      "en": "A linear polysaccharide extracted from red algae, used as the gel matrix in DNA/RNA electrophoresis. Forms a porous network when solidified from hot solution. Pore size is controlled by agarose concentration."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Anode"
+     },
+     "definition": {
+      "en": "The positive (+) electrode in an electrophoresis system. Negatively charged DNA migrates towards the anode. Located at the end of the gel farthest from the sample wells."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Cathode"
+     },
+     "definition": {
+      "en": "The negative (−) electrode. DNA sample wells are always at the cathode end — DNA is loaded here and migrates away towards the anode when the electric field is applied."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "DNA Ladder"
+     },
+     "definition": {
+      "en": "A molecular weight standard containing a mixture of DNA fragments of precisely known sizes. Run alongside unknown samples in gel electrophoresis to provide a reference for size estimation by comparison of migration distances."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Gel Matrix"
+     },
+     "definition": {
+      "en": "The porous network (agarose or polyacrylamide) through which molecules migrate in electrophoresis. Acts as a molecular sieve — resistance to migration increases with molecule size, enabling size-based separation."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Migration"
+     },
+     "definition": {
+      "en": "Movement of DNA/RNA/protein through the gel under the applied electric field. Migration distance is inversely proportional to the log of fragment size: smaller fragments migrate farther than larger ones in the same time."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Staining"
+     },
+     "definition": {
+      "en": "Process of making separated molecules visible after electrophoresis. For DNA: ethidium bromide (EtBr) intercalates into DNA and fluoresces under UV. Safer alternatives: SYBR Green, GelRed. For proteins: Coomassie Blue, silver stain."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Loading Dye"
+     },
+     "definition": {
+      "en": "Solution mixed with DNA before loading into wells. Contains glycerol or Ficoll (increases density, keeps sample in well) and tracking dyes (bromophenol blue ≈ 300 bp; xylene cyanol ≈ 4 kb) for visible monitoring of migration."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Ethidium Bromide"
+     },
+     "definition": {
+      "en": "Fluorescent dye that intercalates between DNA base pairs. Fluoresces bright orange under UV light (302 nm), making DNA bands visible. Detects ~1–10 ng DNA per band. Potent mutagen and carcinogen — safer alternatives include SYBR Green and GelRed."
+     }
+    }
+   ],
+   "icon": "📖",
+   "label": "Section 15"
+  },
+  {
+   "id": "s17",
+   "title": {
+    "en": "Frequently Asked University Exam Questions"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Click each question to expand answer hints."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1. What is gel electrophoresis? Explain its principle with reference to DNA separation.**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Definition: technique to separate DNA/RNA/proteins based on size and charge using an electric field through a gel matrix acting as a molecular sieve."
+      },
+      {
+       "en": "DNA is negatively charged (phosphate backbone) → migrates towards anode (+) when electric field applied."
+      },
+      {
+       "en": "Gel = molecular sieve; smaller fragments navigate pores more easily → migrate farther; larger fragments retarded → stay closer to well."
+      },
+      {
+       "en": "All DNA has same charge-to-mass ratio → separation is purely by SIZE via molecular sieving, not charge."
+      },
+      {
+       "en": "Relationship: log(fragment size in bp) is inversely proportional to migration distance → straight line on semi-log graph."
+      },
+      {
+       "en": "Include diagram: cathode (−), wells, gel slab, sample bands, DNA migration arrow, anode (+)."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**2. Describe the procedure for agarose gel electrophoresis. List all components and their functions.**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Components and functions:** Agarose (molecular sieve matrix); TAE buffer (pH maintenance, ionic conductivity, DNase inhibitor via EDTA); DNA sample; loading dye (glycerol = density, tracking dyes = migration monitor); DNA ladder (size standard); power supply (70–120 V DC); EtBr/SYBR Green (visualisation); UV transilluminator (band detection)."
+      },
+      {
+       "en": "**Procedure (6 steps):** (1) Prepare agarose gel in TAE → cool → add EtBr → pour with comb → solidify. (2) Place gel in buffer-filled chamber. (3) Mix samples with loading dye; load ladder + samples. (4) Apply 70–120 V; run 30–60 min until dye front 80% of gel. (5) Visualise under UV. (6) Photograph and interpret against ladder."
+      },
+      {
+       "en": "Loading dye detail: glycerol prevents sample floating out of well; bromophenol blue provides visible tracking at ~300 bp equivalent position."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**3. Explain the relationship between DNA fragment size and migration distance. How is fragment size estimated from a gel?**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Inverse logarithmic relationship: log(fragment size in bp) is proportional to the negative of migration distance from well."
+      },
+      {
+       "en": "Smaller bp → greater distance from well. Larger bp → smaller distance from well."
+      },
+      {
+       "en": "On a semi-log plot (y = log bp, x = migration distance), ladder band positions form a STRAIGHT LINE."
+      },
+      {
+       "en": "Size estimation method: (1) Measure migration distances of all ladder bands. (2) Plot log(bp) vs distance → draw best-fit straight line. (3) Measure migration distance of unknown sample band. (4) Read off corresponding log(bp) from the line → calculate bp."
+      },
+      {
+       "en": "Physical explanation: gel = molecular sieve; larger fragments must negotiate multiple pore interactions simultaneously → retarded; smaller fragments slip through easily."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**4. Compare agarose gel electrophoresis with SDS-PAGE. What are the applications of each?**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Agarose gel:** Matrix = agarose (0.5–3%); horizontal; separates DNA and RNA by SIZE; stain = EtBr/SYBR Green (UV); applications = PCR analysis, restriction mapping, DNA fingerprinting, Southern blot, clone verification."
+      },
+      {
+       "en": "**SDS-PAGE:** Matrix = polyacrylamide + SDS; vertical; separates proteins by MOLECULAR WEIGHT only; SDS coats protein with uniform negative charge proportional to chain length → removes native charge/shape differences; stain = Coomassie Blue / silver stain; applications = protein MW determination, Western blot, proteomic analysis, recombinant protein purity."
+      },
+      {
+       "en": "Key difference: agarose for nucleic acids; SDS-PAGE for proteins. SDS eliminates native protein charge — MW is sole separating factor."
+      },
+      {
+       "en": "Both use electric field; both separate by size (through different mechanisms)."
+      },
+      {
+       "en": "Draw a comparison table: Feature | Agarose | SDS-PAGE — matrix, molecule, separation basis, orientation, stain, application."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**5. What is a DNA ladder? Why is it essential in gel electrophoresis? Give an example of a commonly used ladder.**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "A DNA ladder (molecular weight marker) is a premixed solution of DNA fragments of precisely known sizes loaded in a dedicated lane alongside experimental samples."
+      },
+      {
+       "en": "Examples: 100 bp ladder (bands at 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000 bp); 1 kb ladder (0.5, 1, 1.5, 2, 3, 4, 5, 6, 8, 10 kb); HyperLadder (multiple ranges)."
+      },
+      {
+       "en": "Why essential: without a ladder, it is impossible to determine the size of unknown fragments from their position alone — only relative positions are visible."
+      },
+      {
+       "en": "Use: (1) provides reference migration distances for known sizes; (2) allows construction of log(bp) vs distance standard curve; (3) unknown fragment sizes estimated by interpolation."
+      },
+      {
+       "en": "Some ladders have one prominent bright band (e.g., 500 bp in the 100 bp ladder or 1 kb in the 1 kb ladder) with double the DNA loading for easy orientation."
+      }
+     ]
+    }
+   ],
+   "icon": "🎓",
+   "label": "Section 16"
+  }
+ ],
+ "skipped": [
+  "quiz"
+ ],
+ "dropped": [
+  {
+   "selector": "nav",
+   "count": 1,
+   "sample": [
+    "Home Intro Principle Types Components Procedure Diagrams Mig"
+   ]
+  },
+  {
+   "selector": "footer",
+   "count": 1,
+   "sample": [
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh"
+   ]
+  },
+  {
+   "selector": ".rh",
+   "count": 8,
+   "sample": [
+    "Click to reveal",
+    "Click to reveal",
+    "Click to reveal"
+   ]
+  }
+ ],
+ "extractor": "1"
+}

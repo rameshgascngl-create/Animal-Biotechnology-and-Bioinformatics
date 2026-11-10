@@ -1,0 +1,1037 @@
+{
+ "id": "superbug_bioremediation_bioweapons",
+ "unit": "III",
+ "title": {
+  "en": "Superbug, Bioremediation & Bioweapons"
+ },
+ "sections": [
+  {
+   "id": "s01",
+   "title": {
+    "en": "Overview"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "🦠 Unit III · Environmental and Security Aspects"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "title": {
+    "en": "Superbug, Bioremediation and Bioweapons"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Superbug, Bioremediation and Bioweapons"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Engineered microbes can digest oil, but the same biology can be misused. This module explains the Chakrabarty superbug, the principles of bioremediation and the history, law and defence concerning biological weapons."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "📚 4 chapters🎯 10 MCQs📝 Exam questions🎓 B.Sc. Zoology / Biotechnology"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🎯 Learning Objectives**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "✓Explain what the \"superbug\" is and how it was constructed."
+      },
+      {
+       "en": "✓Describe the significance of Diamond v. Chakrabarty."
+      },
+      {
+       "en": "✓Differentiate biostimulation, bioaugmentation, in situ and ex situ methods."
+      },
+      {
+       "en": "✓Give examples of organisms and pollutants in bioremediation."
+      },
+      {
+       "en": "✓Describe bioweapons, relevant treaties and biosecurity measures."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": {
+    "en": "Superbug: The Oil-Eating Bacterium"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "The first genetically engineered organism to be patented was a \"superbug\" designed to degrade crude oil."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Superbug (in biotechnology)\nA genetically engineered bacterium, developed by **Ananda Mohan Chakrabarty** (General Electric, 1971–72), carrying several hydrocarbon-degrading plasmids so that it can digest more components of crude oil than any single natural strain."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**How the superbug was made**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Different _Pseudomonas_ strains each degrade only some hydrocarbons, because the genes sit on separate plasmids. Chakrabarty used **conjugation** to bring the plasmids into one cell."
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Plasmid"
+      },
+      {
+       "en": "Hydrocarbons degraded"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**CAM**"
+       },
+       {
+        "en": "Camphor"
+       }
+      ],
+      [
+       {
+        "en": "**OCT**"
+       },
+       {
+        "en": "Octane (aliphatic hydrocarbons)"
+       }
+      ],
+      [
+       {
+        "en": "**XYL**"
+       },
+       {
+        "en": "Xylene and toluene"
+       }
+      ],
+      [
+       {
+        "en": "**NAH**"
+       },
+       {
+        "en": "Naphthalene"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Result**\nOne bacterium (_Pseudomonas_ sp., usually cited as _P. putida_) that degrades **about two-thirds of the hydrocarbons** in crude oil, faster than mixed natural strains. The CAM and OCT plasmids are incompatible and recombine into one hybrid plasmid in the engineered strain."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Diamond v. Chakrabarty (1980)**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1971** — Patent application filed for the bacterium"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1980** — US Supreme Court (5–4) rules that a live, human-made micro-organism is **patentable** subject matter"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Impact** — Opened the way to patenting biotechnology inventions, including later patents on transgenic organisms"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Two different meanings of \"superbug\"**\n• **Biotechnology**: Chakrabarty's oil-eating _Pseudomonas_.\n• **Medicine**: bacteria resistant to many antibiotics, e.g. **MRSA**, NDM-1-producing _Enterobacteriaceae_.\n• Read the exam question to see which sense is meant."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Why was it not widely used?**\nThe strain was not adopted for large-scale clean-up. Engineered strains often compete poorly with native microbes, the strain degraded only some oil fractions, and release of genetically modified organisms is tightly regulated."
+     }
+    }
+   ],
+   "label": "📗 Chapter 1"
+  },
+  {
+   "id": "s04",
+   "title": {
+    "en": "Bioremediation"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Living organisms are used to break down or immobilise pollutants and restore a contaminated site."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Bioremediation\nThe use of micro-organisms, fungi, plants or their enzymes to degrade, detoxify or remove pollutants from soil, water or air, converting them to less harmful products (ideally CO2, water and biomass)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Approaches**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Biostimulation**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Adding nutrients (N, P), oxygen or electron acceptors to stimulate the _native_ pollutant-degrading microbes."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Bioaugmentation**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Adding specially selected or engineered microbes to a site that lacks degraders."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Phytoremediation**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Using plants to extract, stabilise or degrade contaminants (e.g. sunflower, Indian mustard for heavy metals)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Mycoremediation**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Using fungi, e.g. white-rot fungi that degrade lignin-like pollutants and dyes."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**In situ versus ex situ**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": ""
+      },
+      {
+       "en": "In situ"
+      },
+      {
+       "en": "Ex situ"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Where**"
+       },
+       {
+        "en": "At the contaminated site"
+       },
+       {
+        "en": "Material excavated and treated elsewhere"
+       }
+      ],
+      [
+       {
+        "en": "**Examples**"
+       },
+       {
+        "en": "Bioventing, biosparging, natural attenuation"
+       },
+       {
+        "en": "Land farming, biopiles, bioreactors"
+       }
+      ],
+      [
+       {
+        "en": "**Cost**"
+       },
+       {
+        "en": "Lower, less disturbance"
+       },
+       {
+        "en": "Higher, but better control"
+       }
+      ],
+      [
+       {
+        "en": "**Speed**"
+       },
+       {
+        "en": "Slower"
+       },
+       {
+        "en": "Faster"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Organisms and pollutants**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Organism"
+      },
+      {
+       "en": "Pollutant treated"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**_Pseudomonas putida_**"
+       },
+       {
+        "en": "Petroleum hydrocarbons, toluene"
+       }
+      ],
+      [
+       {
+        "en": "**_Alcanivorax borkumensis_**"
+       },
+       {
+        "en": "Alkanes in marine oil spills"
+       }
+      ],
+      [
+       {
+        "en": "**_Dehalococcoides_**"
+       },
+       {
+        "en": "Chlorinated solvents (trichloroethene)"
+       }
+      ],
+      [
+       {
+        "en": "**_Geobacter_**"
+       },
+       {
+        "en": "Uranium reduction; metals"
+       }
+      ],
+      [
+       {
+        "en": "**_Deinococcus radiodurans_ (engineered)**"
+       },
+       {
+        "en": "Radioactive mixed waste (mercury, toluene) — experimental"
+       }
+      ],
+      [
+       {
+        "en": "**_Thiobacillus ferrooxidans_**"
+       },
+       {
+        "en": "Bioleaching of copper and other metals"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Case study: Exxon Valdez (Alaska, 1989)**\nAbout 11 million US gallons of crude oil polluted Prince William Sound shorelines. **Fertiliser was applied to stimulate native oil-degrading bacteria** (biostimulation), which greatly accelerated oil removal on treated beaches. It is the classic example of large-scale bioremediation."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Advantages and limits**\n• **Advantages**: low cost, eco-friendly, converts pollutants to harmless products, minimal disturbance.\n• **Limits**: slow, site-specific, incomplete for some pollutants (e.g. some heavy metals cannot be degraded, only transformed), and release of engineered strains is regulated."
+     }
+    }
+   ],
+   "label": "📘 Chapter 2"
+  },
+  {
+   "id": "s05",
+   "title": {
+    "en": "Bioweapons and Biosecurity"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Biological agents can be misused to cause disease. Understanding the history, classification and legal controls is part of responsible biotechnology."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Biological weapon\nA biological weapon uses pathogens (bacteria, viruses, fungi) or their toxins to cause disease or death in humans, animals or plants. **Bioterrorism** is the deliberate release of such agents by non-state actors."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "This chapter is limited to the general, educational level required by the syllabus: classification, history, international law and defence."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**CDC categories of bioterrorism agents**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Category"
+      },
+      {
+       "en": "Description"
+      },
+      {
+       "en": "Examples"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**A**"
+       },
+       {
+        "en": "Highest risk: easily spread, high mortality, need special public-health preparedness"
+       },
+       {
+        "en": "Anthrax (_Bacillus anthracis_), smallpox (variola virus), plague (_Yersinia pestis_), botulism toxin, tularaemia, viral haemorrhagic fevers"
+       }
+      ],
+      [
+       {
+        "en": "**B**"
+       },
+       {
+        "en": "Moderately easy to spread, lower mortality"
+       },
+       {
+        "en": "Brucellosis, Q fever, ricin toxin, salmonellosis"
+       }
+      ],
+      [
+       {
+        "en": "**C**"
+       },
+       {
+        "en": "Emerging pathogens that could be engineered"
+       },
+       {
+        "en": "Nipah virus, hantavirus"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**History and landmarks**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1925** — Geneva Protocol prohibits **use** of chemical and biological weapons in war"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1972 / 1975** — Biological Weapons Convention (BWC) opened for signature in 1972; in force from **1975**; bans development, production and stockpiling"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1979** — Accidental anthrax release at Sverdlovsk (USSR) killed dozens of people"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1995** — Aum Shinrikyo sarin attack in Tokyo; the cult had also attempted biological attacks"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**2001** — Anthrax-contaminated letters in the USA (5 deaths)"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Defence and prevention**\n• **Surveillance** and rapid diagnostics (PCR, immunoassays).\n• **Vaccines** and stockpiled antibiotics/antitoxins.\n• **Biosafety levels BSL-1 to BSL-4** in laboratories.\n• **Dual-use research of concern** oversight — research that has legitimate use but could be misused.\n• Export controls on dangerous pathogens (Australia Group)."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Relevance to India**\nIndia is a party to the Biological Weapons Convention (ratified in 1974) and regulates dangerous pathogens through the Environment (Protection) Act 1986, the Rules for hazardous micro-organisms and genetically engineered organisms (1989), and the WMD Act, 2005."
+     }
+    }
+   ],
+   "label": "📙 Chapter 3"
+  },
+  {
+   "id": "s06",
+   "title": {
+    "en": "Interactive Practice"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Test the key distinctions."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Biostimulation vs bioaugmentation**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click to reveal"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "AnswerBiostimulation adds **nutrients/oxygen** to native microbes. Bioaugmentation adds **new microbes**."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Chakrabarty case**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click to reveal"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Answer**Diamond v. Chakrabarty, 1980**: US Supreme Court allowed a patent on a live genetically engineered bacterium."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Exxon Valdez**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click to reveal"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Answer1989 oil spill; **fertiliser-based biostimulation** sped up clean-up."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Phytoremediation**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click to reveal"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "AnswerUse of **plants** to remove or detoxify pollutants."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**BWC**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click to reveal"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "AnswerBans development, production and stockpiling of biological weapons; in force **1975**."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**MRSA**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click to reveal"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "AnswerMethicillin-resistant _Staphylococcus aureus_: a medical \"superbug\"."
+     }
+    }
+   ],
+   "label": "🎮 Chapter 4"
+  },
+  {
+   "id": "s07",
+   "title": {
+    "en": "Summary & Exam Revision"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Key points and model answers likely to appear in university examinations."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key exam points**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Superbug** (Chakrabarty): _Pseudomonas_ with CAM, OCT, XYL and NAH plasmids; degrades crude oil."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Diamond v. Chakrabarty (1980)**: first patent on a living, engineered organism."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "3"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Bioremediation = biological clean-up: **biostimulation**, **bioaugmentation**, **phytoremediation**."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "4"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "In situ (at site) versus ex situ (excavated)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Exxon Valdez 1989: fertiliser biostimulation accelerated degradation."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "6"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Medical \"superbugs\" (MRSA, NDM-1) are antibiotic-resistant pathogens — a different meaning."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "7"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**BWC (1975)** bans development, production, stockpiling; Geneva Protocol (1925) bans use."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "8"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "CDC Category A agents: anthrax, smallpox, plague, botulism, tularaemia, haemorrhagic fevers."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Short-answer questions**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click a question to reveal the model answer."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.1What is a superbug? Who developed it?▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A genetically engineered _Pseudomonas_ carrying plasmids (CAM, OCT, XYL, NAH) for degrading different hydrocarbons, developed by A. M. Chakrabarty (General Electric) and patented after the US Supreme Court decision of 1980."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.2Define bioremediation. Distinguish biostimulation and bioaugmentation.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Bioremediation is the use of living organisms to degrade or detoxify pollutants. Biostimulation adds nutrients/oxygen to stimulate native microbes; bioaugmentation adds specialised microbes."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.3Differentiate in situ and ex situ bioremediation.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "In situ treats pollutants at the site (bioventing, biosparging); ex situ treats excavated material elsewhere (land farming, biopiles, bioreactors)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.4What are bioweapons? Name two agents.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Bioweapons use pathogens or toxins to cause disease. Examples: _Bacillus anthracis_ (anthrax), _Yersinia pestis_ (plague), variola virus, botulinum toxin."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.5Name the international treaty on biological weapons.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The Biological Weapons Convention (opened 1972; in force 1975) prohibits development, production and stockpiling of biological and toxin weapons."
+     }
+    }
+   ],
+   "label": "📋 Summary"
+  },
+  {
+   "id": "s08",
+   "title": {
+    "en": "Key Terms & Glossary"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Important terms in simple language."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Superbug"
+     },
+     "definition": {
+      "en": "Engineered oil-degrading bacterium; also a drug-resistant pathogen in medicine."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Bioremediation"
+     },
+     "definition": {
+      "en": "Use of organisms to clean polluted environments."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Biostimulation"
+     },
+     "definition": {
+      "en": "Stimulating native microbes by adding nutrients or oxygen."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Bioaugmentation"
+     },
+     "definition": {
+      "en": "Adding specialised microbes to a polluted site."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Phytoremediation"
+     },
+     "definition": {
+      "en": "Using plants to remove or degrade pollutants."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Xenobiotic"
+     },
+     "definition": {
+      "en": "Foreign chemical not normally found in nature, e.g. pesticide."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Biosparging"
+     },
+     "definition": {
+      "en": "Injecting air below the water table to stimulate aerobic degradation."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Bioterrorism"
+     },
+     "definition": {
+      "en": "Deliberate release of pathogens or toxins to harm populations."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "BWC"
+     },
+     "definition": {
+      "en": "Biological Weapons Convention (in force 1975)."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Biosafety level"
+     },
+     "definition": {
+      "en": "Containment level (BSL-1 to BSL-4) matching the risk of the agent."
+     }
+    }
+   ],
+   "label": "📖 Glossary"
+  }
+ ],
+ "skipped": [
+  "page-5"
+ ],
+ "dropped": [
+  {
+   "selector": "nav",
+   "count": 1,
+   "sample": [
+    "🦠 Superbug, Bioremediation & Bioweapons Animal Biotechnology"
+   ]
+  },
+  {
+   "selector": "#mob-hdr",
+   "count": 1,
+   "sample": [
+    "☰ Superbug, Bioremediation & Bioweapons"
+   ]
+  },
+  {
+   "selector": "#overlay",
+   "count": 1,
+   "sample": []
+  },
+  {
+   "selector": "footer",
+   "count": 8,
+   "sample": [
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh",
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh",
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh"
+   ]
+  },
+  {
+   "selector": ".start-btn",
+   "count": 1,
+   "sample": [
+    "Begin Learning →"
+   ]
+  },
+  {
+   "selector": ".btn-outline",
+   "count": 7,
+   "sample": [
+    "← Superbug, Bioremediation & Bioweapons",
+    "← Superbug",
+    "← Bioremediation"
+   ]
+  },
+  {
+   "selector": ".btn-primary",
+   "count": 8,
+   "sample": [
+    "Bioremediation →",
+    "Bioweapons →",
+    "Practice →"
+   ]
+  },
+  {
+   "selector": ".pg-nav",
+   "count": 7,
+   "sample": []
+  }
+ ],
+ "extractor": "1"
+}

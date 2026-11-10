@@ -1,0 +1,1449 @@
+{
+ "id": "blotting_techniques",
+ "unit": "II",
+ "title": {
+  "en": "Blotting Techniques"
+ },
+ "sections": [
+  {
+   "id": "s01",
+   "title": {
+    "en": "Overview"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "🧪 Unit II · Techniques in Animal Biotechnology"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "title": {
+    "en": "Blotting Techniques: Southern, Northern and Western"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Southern, Northern and Western Blotting"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A genome holds billions of bases and a cell holds thousands of proteins. **Blotting** lets us pick out one DNA fragment, one RNA or one protein from that crowd. This module explains the three classical blots, how they work, and when to use each."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "📚 5 chapters🎯 10 MCQs📝 Exam questions🎓 B.Sc. Zoology / Biotechnology"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🎯 Learning Objectives**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "✓Define blotting and explain why separated molecules are transferred to a membrane."
+      },
+      {
+       "en": "✓Describe the steps of Southern blotting and the role of denaturation, probes and stringency."
+      },
+      {
+       "en": "✓Explain how Northern blotting differs and what it reveals about gene expression."
+      },
+      {
+       "en": "✓Explain the principle and steps of Western blotting with primary and secondary antibodies."
+      },
+      {
+       "en": "✓Choose the correct blot for a given experimental question."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": {
+    "en": "Blotting Techniques: Principle & Overview"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Blotting transfers separated biomolecules from a gel onto a solid membrane, where a specific probe can find one target among thousands."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Blotting** is a group of techniques in which macromolecules (DNA, RNA or protein) separated by gel electrophoresis are transferred to a membrane and then detected with a labelled _probe_. The membrane is a durable, accessible copy of the gel."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Definition\nBlotting is the transfer of electrophoretically separated nucleic acids or proteins from a gel onto a membrane (nitrocellulose, nylon or PVDF), followed by detection of a specific target with a labelled probe."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Why transfer to a membrane?**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "A gel is fragile and probes cannot diffuse into it efficiently."
+      },
+      {
+       "en": "A membrane immobilises the bands in the same pattern as the gel."
+      },
+      {
+       "en": "The same membrane can be probed repeatedly (stripped and re-probed)."
+      },
+      {
+       "en": "Sensitivity is high: a single gene in a whole genome can be detected."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**General steps of any blot**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1. Separate**gel electrophoresis"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**2. Transfer**gel → membrane"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**3. Immobilise**fix to membrane"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**4. Block**cover free sites"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**5. Probe**hybridise / bind"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**6. Detect**signal"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click a step to see what happens."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Where do the names come from?**"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**A scientific pun**\n• **Southern blot** (1975) — named after its inventor, **Edwin M. Southern**. It is not named after a direction.\n• **Northern** and **Western** blots were named by analogy (wordplay) for RNA and protein detection."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Comparison at a glance**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Feature"
+      },
+      {
+       "en": "Southern blot"
+      },
+      {
+       "en": "Northern blot"
+      },
+      {
+       "en": "Western blot"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Target**"
+       },
+       {
+        "en": "DNA"
+       },
+       {
+        "en": "RNA (mRNA)"
+       },
+       {
+        "en": "Protein"
+       }
+      ],
+      [
+       {
+        "en": "**Introduced by**"
+       },
+       {
+        "en": "E. M. Southern, 1975"
+       },
+       {
+        "en": "Alwine, Kemp & Stark, 1977"
+       },
+       {
+        "en": "Towbin et al., 1979 (named by Burnette, 1981)"
+       }
+      ],
+      [
+       {
+        "en": "**Gel**"
+       },
+       {
+        "en": "Agarose (native)"
+       },
+       {
+        "en": "Denaturing agarose (formaldehyde)"
+       },
+       {
+        "en": "SDS-PAGE"
+       }
+      ],
+      [
+       {
+        "en": "**Pre-transfer treatment**"
+       },
+       {
+        "en": "Restriction digestion; depurination; alkali denaturation"
+       },
+       {
+        "en": "Denatured by formaldehyde in the gel; no alkali (RNA would hydrolyse)"
+       },
+       {
+        "en": "SDS denatures protein"
+       }
+      ],
+      [
+       {
+        "en": "**Transfer**"
+       },
+       {
+        "en": "Capillary (or vacuum)"
+       },
+       {
+        "en": "Capillary"
+       },
+       {
+        "en": "Electroblotting (wet/semi-dry)"
+       }
+      ],
+      [
+       {
+        "en": "**Membrane**"
+       },
+       {
+        "en": "Nylon / nitrocellulose"
+       },
+       {
+        "en": "Nylon (preferred)"
+       },
+       {
+        "en": "Nitrocellulose / PVDF"
+       }
+      ],
+      [
+       {
+        "en": "**Probe**"
+       },
+       {
+        "en": "Labelled DNA/RNA"
+       },
+       {
+        "en": "Labelled DNA/RNA"
+       },
+       {
+        "en": "Primary antibody + enzyme-linked secondary antibody"
+       }
+      ],
+      [
+       {
+        "en": "**Answers**"
+       },
+       {
+        "en": "Is the gene present? How many copies? Fragment size"
+       },
+       {
+        "en": "Is the gene expressed? Transcript size and amount"
+       },
+       {
+        "en": "Is the protein present? Size and amount"
+       }
+      ]
+     ]
+    }
+   ],
+   "label": "📗 Chapter 1"
+  },
+  {
+   "id": "s04",
+   "title": {
+    "en": "Southern Blotting (DNA)"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Southern blotting detects a specific DNA sequence in a complex DNA sample such as the whole genome."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Southern blot\nA method to detect a specific DNA fragment among many by transferring size-separated, denatured DNA from an agarose gel to a membrane and hybridising it with a labelled complementary probe.\nEdwin M. Southern, 1975"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Principle**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Single-stranded DNA on the membrane forms **hydrogen-bonded hybrids** only with a probe of complementary sequence. After washing away unbound probe, the label shows where the target fragment lies."
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "blotting_techniques-d01",
+     "caption": {
+      "en": "Fig. 1. Capillary transfer set-up used in Southern (and Northern) blotting. Buffer rises through the gel, carrying nucleic acids onto the membrane."
+     },
+     "labels": [
+      "Buffer reservoir (20× SSC / alkaline buffer)",
+      "glass plate (support)",
+      "Filter-paper wick (dips into buffer)",
+      "Agarose gel (DNA bands, inverted)",
+      "Nitrocellulose / nylon membrane",
+      "3 sheets filter paper",
+      "Stack of paper towels",
+      "draw buffer upward",
+      "glass plate",
+      "Weight",
+      "buffer flow",
+      "(capillary action)",
+      "DNA moves out of gel",
+      "…and sticks to membrane"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Steps in Southern blotting (click each step)**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1. Digest**restriction enzyme"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**2. Electrophoresis**agarose gel"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**3. Denature**HCl then NaOH"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**4. Transfer**capillary blot"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**5. Fix**UV / bake"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**6. Hybridise**labelled probe"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**7. Wash & detect**autoradiography"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click a step to see what happens."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key points to remember**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Probes and labels▼"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "A **probe** is a short single-stranded DNA/RNA complementary to the target."
+      },
+      {
+       "en": "Radioactive label: 32P (very sensitive, hazardous)."
+      },
+      {
+       "en": "Non-radioactive: digoxigenin (DIG), biotin, fluorescence — safer and widely used now."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Stringency▼"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Stringency = how strictly the probe must match to stay bound."
+      },
+      {
+       "en": "It is raised by **higher temperature** and **lower salt concentration**."
+      },
+      {
+       "en": "High stringency discards mismatched hybrids and reduces false positives."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Why alkali denaturation?▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Double-stranded DNA is not efficiently retained by the membrane and cannot hybridise with the probe. Single strands bind and leave bases free to pair with the probe."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Applications of Southern blotting**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Detecting a particular gene or confirming a cloned insert in a recombinant clone."
+      },
+      {
+       "en": "Checking **transgene integration** and copy number in transgenic animals/plants."
+      },
+      {
+       "en": "Restriction mapping and **RFLP analysis**."
+      },
+      {
+       "en": "DNA fingerprinting (VNTR analysis) — paternity and forensic testing."
+      },
+      {
+       "en": "Detecting gene rearrangements, deletions and amplification in genetic disease and cancer."
+      }
+     ]
+    }
+   ],
+   "label": "📘 Chapter 2"
+  },
+  {
+   "id": "s05",
+   "title": {
+    "en": "Northern Blotting (RNA)"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Northern blotting measures the size and abundance of a specific RNA, so it shows whether a gene is expressed."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Northern blot\nA technique for detecting a specific RNA (usually mRNA) in a sample by size-separation on a denaturing gel, transfer to a membrane and hybridisation with a labelled probe.\nAlwine, Kemp and Stark, 1977"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**How it differs from Southern blotting**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Step"
+      },
+      {
+       "en": "Southern"
+      },
+      {
+       "en": "Northern"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Starting material**"
+       },
+       {
+        "en": "Genomic DNA, restriction-digested"
+       },
+       {
+        "en": "Total RNA or poly(A)+ mRNA (no digestion)"
+       }
+      ],
+      [
+       {
+        "en": "**Gel**"
+       },
+       {
+        "en": "Ordinary agarose"
+       },
+       {
+        "en": "**Formaldehyde** (or glyoxal) denaturing agarose"
+       }
+      ],
+      [
+       {
+        "en": "**Alkali treatment**"
+       },
+       {
+        "en": "Yes (NaOH)"
+       },
+       {
+        "en": "**No** — alkali hydrolyses RNA"
+       }
+      ],
+      [
+       {
+        "en": "**Precautions**"
+       },
+       {
+        "en": "Routine"
+       },
+       {
+        "en": "Strict **RNase-free** technique: DEPC-treated water, gloves"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Why a denaturing gel?**\nRNA is single-stranded but folds into secondary structures (hairpins). Denaturants keep it unfolded so that migration depends on **length only** and size can be read against an RNA ladder."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Steps**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1. Isolate RNA**RNase-free"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**2. Gel run**formaldehyde agarose"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**3. Transfer**capillary to nylon"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**4. Hybridise**labelled probe"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**5. Detect & compare**band intensity"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click a step to see what happens."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**What it tells us**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Gene expression**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Is the gene transcribed in this tissue? How much?"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Transcript size**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Detects alternative splicing and different mRNA isoforms."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Timing**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Compare samples across development, stress or drug treatment."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Note for exams**\nToday, **RT-qPCR** and RNA-seq are more sensitive and quantitative, but Northern blotting remains the classic method to show transcript _size_ directly."
+     }
+    }
+   ],
+   "label": "📙 Chapter 3"
+  },
+  {
+   "id": "s06",
+   "title": {
+    "en": "Western Blotting (Protein)"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Western blotting identifies a specific protein in a mixture using antibodies. It is also called immunoblotting."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Western blot (immunoblot)\nA technique in which proteins separated by SDS-PAGE are electrophoretically transferred to a membrane and detected with a specific primary antibody and an enzyme-linked secondary antibody.\nTowbin et al., 1979; named by W. N. Burnette, 1981"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Steps (click each step)**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1. Sample prep**lysis"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**2. SDS-PAGE**separate by size"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**3. Electroblot**gel → membrane"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**4. Block**BSA / milk"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**5. Primary Ab**specific binding"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**6. Secondary Ab**enzyme-linked"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**7. Detect**ECL / colour"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click a step to see what happens."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Primary versus secondary antibody**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": ""
+      },
+      {
+       "en": "Primary antibody"
+      },
+      {
+       "en": "Secondary antibody"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Binds to**"
+       },
+       {
+        "en": "The target protein (antigen)"
+       },
+       {
+        "en": "The Fc region of the primary antibody"
+       }
+      ],
+      [
+       {
+        "en": "**Label**"
+       },
+       {
+        "en": "Usually unlabelled"
+       },
+       {
+        "en": "Enzyme (HRP/AP) or fluorophore"
+       }
+      ],
+      [
+       {
+        "en": "**Raised in**"
+       },
+       {
+        "en": "e.g. mouse, rabbit"
+       },
+       {
+        "en": "Another species against the primary's species (e.g. goat anti-mouse IgG)"
+       }
+      ],
+      [
+       {
+        "en": "**Benefit**"
+       },
+       {
+        "en": "Specificity"
+       },
+       {
+        "en": "Signal amplification — one primary binds several secondaries"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Applications**\n• **Diagnosis of HIV**: confirmatory test after a positive ELISA (detects antibodies to viral proteins).\n• Confirming expression of a **recombinant protein**.\n• Studying protein modification (phosphorylation) and degradation.\n• Detecting disease proteins such as prion protein (BSE)."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Common problems**\n• **High background** → insufficient blocking or too much antibody.\n• **No band** → poor transfer or inactive antibody.\n• **Extra bands** → degradation or cross-reactivity."
+     }
+    }
+   ],
+   "label": "📒 Chapter 4"
+  },
+  {
+   "id": "s07",
+   "title": {
+    "en": "Interactive Practice & Related Blots"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Reveal the answers, then use the decision table to choose the right blot."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Click to reveal**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Which blot for DNA?**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click to reveal"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Answer**Southern** blot (Edwin Southern, 1975)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Which blot for RNA?**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click to reveal"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Answer**Northern** blot. It measures gene expression and transcript size."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Which blot for protein?**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click to reveal"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Answer**Western** blot (immunoblot) using antibodies."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Why is NaOH not used in Northern blotting?**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click to reveal"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "AnswerAlkali **hydrolyses RNA**; formaldehyde is used for denaturation instead."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Purpose of blocking**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click to reveal"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "AnswerTo cover free membrane sites so probe/antibody does not bind non-specifically (reduces background)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**HIV confirmation test**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click to reveal"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Answer**Western blot** detecting antibodies to HIV proteins."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Which blot should I use?**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Question to answer"
+      },
+      {
+       "en": "Choose"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Does a transgenic mouse carry the inserted gene, and in how many copies?**"
+       },
+       {
+        "en": "Southern blot (or PCR for presence)"
+       }
+      ],
+      [
+       {
+        "en": "**Is a gene switched on in liver but not in muscle?**"
+       },
+       {
+        "en": "Northern blot / RT-PCR"
+       }
+      ],
+      [
+       {
+        "en": "**Is the recombinant protein made, and what is its size?**"
+       },
+       {
+        "en": "Western blot"
+       }
+      ],
+      [
+       {
+        "en": "**Does an individual carry a particular RFLP allele?**"
+       },
+       {
+        "en": "Southern blot"
+       }
+      ],
+      [
+       {
+        "en": "**Which protein binds a DNA sequence? (variant)**"
+       },
+       {
+        "en": "Southwestern blot"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Related variants**\n• **Southwestern blot** — proteins on a membrane probed with labelled DNA to find DNA-binding proteins.\n• **Dot/slot blot** — samples spotted directly without electrophoresis (presence/absence, no size).\n• **Colony hybridisation** — bacterial colonies lifted onto a membrane and probed to find recombinant clones."
+     }
+    }
+   ],
+   "label": "🎮 Chapter 5"
+  },
+  {
+   "id": "s08",
+   "title": {
+    "en": "Summary & Exam Revision"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Key points and model answers likely to appear in university examinations."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key exam points**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Southern blot** (E. M. Southern, 1975) → DNA; **Northern** → RNA; **Western** → protein."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Gel → membrane transfer preserves the band pattern; **probes** then locate the target."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "3"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Southern and Northern blots rely on **nucleic acid hybridisation**; Western relies on **antigen–antibody binding**."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "4"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Southern: DNA is **denatured with alkali**. Northern: **formaldehyde** gel, no alkali, RNase-free."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Membranes: nylon/nitrocellulose for nucleic acids; nitrocellulose/PVDF for proteins."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "6"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Transfer: **capillary** (Southern/Northern) versus **electroblotting** (Western)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "7"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Blocking** reduces background; **stringency** is raised by high temperature and low salt."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "8"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Uses: transgene confirmation, RFLP, DNA fingerprinting (Southern); gene expression (Northern); HIV confirmation, recombinant protein (Western)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Short-answer questions**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click a question to reveal the model answer."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.1What is blotting? Name the three types.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Blotting is the transfer of electrophoretically separated DNA, RNA or protein from a gel to a membrane, followed by detection with a labelled probe. The three types are **Southern** (DNA), **Northern** (RNA) and **Western** (protein)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.2Describe the steps of Southern blotting.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Restriction digestion of DNA → agarose gel electrophoresis → depurination and alkali denaturation → capillary transfer to nitrocellulose/nylon membrane → fixation by UV or baking → prehybridisation (blocking) → hybridisation with labelled probe → washing → autoradiographic detection."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.3How does Northern blotting differ from Southern blotting?▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Northern detects **RNA**; the gel is denaturing (formaldehyde), alkali is not used because it hydrolyses RNA, and RNase-free conditions are essential. It shows transcript size and level of expression."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.4Explain the principle of Western blotting.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Proteins separated by SDS-PAGE are electroblotted onto a membrane, blocked, and probed with a specific primary antibody. An enzyme-linked secondary antibody binds the primary antibody and generates a visible or chemiluminescent signal at the position of the target protein."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.5What is stringency in hybridisation?▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Stringency is the strictness of conditions that determine how closely a probe must match its target to remain bound. High temperature and low salt give high stringency and fewer false positives."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.6Write two applications of Western blotting.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "(1) Confirmatory test for HIV infection; (2) confirming expression and size of a recombinant protein in a host cell."
+     }
+    }
+   ],
+   "label": "📋 Summary"
+  },
+  {
+   "id": "s09",
+   "title": {
+    "en": "Key Terms & Glossary"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Important terms in simple language."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Blotting"
+     },
+     "definition": {
+      "en": "Transfer of separated biomolecules from a gel to a membrane for detection."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Probe"
+     },
+     "definition": {
+      "en": "A labelled single-stranded nucleic acid (or antibody) that binds a specific target."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Hybridisation"
+     },
+     "definition": {
+      "en": "Base pairing between a probe and its complementary target sequence."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Stringency"
+     },
+     "definition": {
+      "en": "How demanding the washing/hybridisation conditions are; high stringency requires near-perfect matches."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Capillary transfer"
+     },
+     "definition": {
+      "en": "Moving molecules from gel to membrane by buffer drawn up through absorbent paper."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Electroblotting"
+     },
+     "definition": {
+      "en": "Transfer of proteins out of a gel to a membrane using an electric field."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Blocking agent"
+     },
+     "definition": {
+      "en": "Protein or DNA solution (milk, BSA, Denhardt's) that covers free membrane sites."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Primary antibody"
+     },
+     "definition": {
+      "en": "Antibody that recognises the target protein."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Secondary antibody"
+     },
+     "definition": {
+      "en": "Enzyme-conjugated antibody that recognises the primary antibody."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Autoradiography"
+     },
+     "definition": {
+      "en": "Detection of radioactive signal using X-ray film."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "PVDF"
+     },
+     "definition": {
+      "en": "Polyvinylidene difluoride: a membrane that binds proteins strongly."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Housekeeping gene"
+     },
+     "definition": {
+      "en": "A constitutively expressed gene (e.g. GAPDH) used as a loading control."
+     }
+    }
+   ],
+   "label": "📖 Glossary"
+  }
+ ],
+ "skipped": [
+  "page-6"
+ ],
+ "dropped": [
+  {
+   "selector": "nav",
+   "count": 1,
+   "sample": [
+    "🧪 Blotting Techniques Animal Biotechnology · Unit II Progres"
+   ]
+  },
+  {
+   "selector": "#mob-hdr",
+   "count": 1,
+   "sample": [
+    "☰ Blotting Techniques"
+   ]
+  },
+  {
+   "selector": "#overlay",
+   "count": 1,
+   "sample": []
+  },
+  {
+   "selector": "footer",
+   "count": 9,
+   "sample": [
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh",
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh",
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh"
+   ]
+  },
+  {
+   "selector": ".start-btn",
+   "count": 1,
+   "sample": [
+    "Begin Learning →"
+   ]
+  },
+  {
+   "selector": ".btn-outline",
+   "count": 8,
+   "sample": [
+    "← Blotting Techniques",
+    "← Principle & Overview",
+    "← Southern Blotting"
+   ]
+  },
+  {
+   "selector": ".btn-primary",
+   "count": 9,
+   "sample": [
+    "Southern Blotting →",
+    "Northern Blotting →",
+    "Western Blotting →"
+   ]
+  },
+  {
+   "selector": ".pg-nav",
+   "count": 8,
+   "sample": []
+  }
+ ],
+ "extractor": "1"
+}

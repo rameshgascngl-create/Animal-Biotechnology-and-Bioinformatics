@@ -1,0 +1,1885 @@
+{
+ "id": "crispr_gene_editing_app",
+ "unit": "III",
+ "title": {
+  "en": "CRISPR Gene Editing | GASC Nagercoil"
+ },
+ "sections": [
+  {
+   "id": "s01",
+   "title": {
+    "en": "Overview"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "B.Sc. Zoology / Biotechnology"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "title": {
+    "en": "CRISPR Gene Editing"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "A precise molecular tool that has transformed biology — from understanding genomes to treating disease. Your complete interactive study guide."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Learning Objectives**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Explain the full form and definition of CRISPR"
+      },
+      {
+       "en": "Describe its natural origin in bacterial defence systems"
+      },
+      {
+       "en": "Identify the key components: Cas9, gRNA, target DNA, PAM"
+      },
+      {
+       "en": "Outline the step-by-step mechanism of CRISPR gene editing"
+      },
+      {
+       "en": "Differentiate between gene knockout, insertion, and correction"
+      },
+      {
+       "en": "Discuss applications in medicine, agriculture, and research"
+      },
+      {
+       "en": "Evaluate advantages, limitations, and ethical concerns"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 01"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": {
+    "en": "Introduction to CRISPR"
+   },
+   "blocks": [
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Full Form\n**CRISPR** — **C**lustered **R**egularly **I**nterspaced **S**hort **P**alindromic **R**epeats"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Definition\nCRISPR-Cas9 is a revolutionary **gene-editing technology** that allows scientists to precisely locate, cut, and modify specific sequences in the DNA of any living organism — from bacteria to humans — with unprecedented accuracy, speed, and ease."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Originally discovered as part of the **bacterial immune system**, CRISPR has been re-engineered as a versatile molecular tool. It works like a pair of \"molecular scissors\" guided by a customisable RNA molecule to reach any desired location in the genome."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "exam",
+     "text": {
+      "en": "Exam Milestone\nJennifer Doudna and Emmanuelle Charpentier were awarded the **Nobel Prize in Chemistry 2020** for the development of CRISPR-Cas9 as a gene-editing tool."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Why CRISPR Matters**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🎯 Precision**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Targets specific DNA sequences among 3 billion base pairs with high accuracy."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**⚡ Speed**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Experiments that once took years can now be done in days or weeks."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**💰 Cost**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Far cheaper than previous gene editing technologies like ZFN and TALEN."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🌐 Versatility**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Applicable across bacteria, plants, animals, and human cells."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "CRISPR = Clustered Regularly Interspaced Short Palindromic Repeats"
+      },
+      {
+       "en": "CRISPR-Cas9 acts as \"molecular scissors\" to cut DNA at a precise location"
+      },
+      {
+       "en": "Derived from the bacterial immune system — adapted for gene editing"
+      },
+      {
+       "en": "Nobel Prize in Chemistry 2020 awarded to Doudna and Charpentier"
+      },
+      {
+       "en": "Advantages over older methods: precision, speed, low cost, versatility"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 02"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "title": {
+    "en": "Origin and Natural Role of CRISPR"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "CRISPR was not invented — it was **discovered** inside bacteria. It forms part of the **adaptive immune system of prokaryotes** (bacteria and archaea) — their natural way of fighting viral infection."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**How Bacteria Use CRISPR**"
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "1 **Viral Attack** A bacteriophage (virus) injects its DNA into the bacterial cell, attempting to take over."
+      },
+      {
+       "en": "2 **Memory Formation** If the bacterium survives, it stores a short segment of the viral DNA (called a \"spacer\") within its own CRISPR array — creating a molecular memory of the invader."
+      },
+      {
+       "en": "3 **Recognition on Re-infection** On a second attack, the bacterium produces a guide RNA copied from the stored spacer. This RNA recognises the matching viral DNA sequence."
+      },
+      {
+       "en": "4 **Cas Protein Cuts Viral DNA** The Cas protein (CRISPR-associated protein), guided by the RNA, cuts and destroys the viral DNA — neutralising the infection."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Bacterial CRISPR Defence — Concept Diagram**"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "crispr_gene_editing_app-d01",
+     "caption": {
+      "en": "Bacterial CRISPR defence diagram"
+     },
+     "labels": [
+      "Virus",
+      "(attacks cell)",
+      "CRISPR Array",
+      "Viral DNA stored",
+      "as \"spacer\"",
+      "Guide RNA Made",
+      "Recognises viral",
+      "DNA sequence",
+      "Cas Protein Cuts",
+      "Viral DNA destroyed",
+      "→ Cell protected",
+      "Click each step for explanation"
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Key Insight\nScientists realised that if bacteria can be programmed by their spacer RNA to cut any DNA sequence, then this system could be re-engineered to cut any target gene in any organism — simply by designing a custom guide RNA."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "CRISPR is the natural adaptive immune system of bacteria and archaea"
+      },
+      {
+       "en": "Bacteria store viral DNA fragments (spacers) in their CRISPR array as memory"
+      },
+      {
+       "en": "On re-infection, guide RNA (crRNA) recognises the virus and directs Cas to cut it"
+      },
+      {
+       "en": "Cas proteins = CRISPR-Associated proteins — they do the actual DNA cutting"
+      },
+      {
+       "en": "Scientists harnessed this natural system by designing custom guide RNAs"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 03"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "title": {
+    "en": "Components of CRISPR Gene Editing"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "The CRISPR-Cas9 system in the laboratory uses four key components working together:"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**✂️ Cas9 Enzyme**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The \"molecular scissors.\" A large protein that physically cuts both strands of the DNA double helix at the target location, creating a _double-strand break_ (DSB)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🧭 Guide RNA (gRNA)**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A short synthetic RNA molecule (~20 nucleotides) complementary to the target DNA sequence. It acts as a GPS, directing Cas9 to the exact position in the genome."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🎯 Target DNA**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The specific genomic DNA sequence to be edited. The gRNA is designed to match this sequence precisely — a 20-nucleotide \"address\" in the genome."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔑 PAM Sequence**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Protospacer Adjacent Motif** — a short sequence (NGG for SpCas9) immediately next to the target site. Cas9 requires this motif to bind and cut. Without PAM, no cutting occurs."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "exam",
+     "text": {
+      "en": "Exam Note — PAM Sequence\nThe PAM sequence for the most common Cas9 (from _Streptococcus pyogenes_) is **5′-NGG-3′** (where N = any nucleotide). This is located immediately downstream (3′) of the target sequence on the non-template strand. PAM recognition is essential for Cas9 activity."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "4 key components: Cas9, guide RNA (gRNA), target DNA, PAM sequence"
+      },
+      {
+       "en": "Cas9 = nuclease enzyme that cuts both DNA strands"
+      },
+      {
+       "en": "gRNA = ~20 nt RNA that directs Cas9 to the correct genomic location"
+      },
+      {
+       "en": "PAM sequence (NGG) must be present next to the target site for Cas9 to work"
+      },
+      {
+       "en": "gRNA + Cas9 form the \"ribonucleoprotein complex\" — the active editing unit"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 04"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "title": {
+    "en": "Principle of CRISPR Gene Editing"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "The principle of CRISPR gene editing is based on the ability to **create a precise double-strand break (DSB) in DNA** at a user-defined location, and then harness the cell's own natural DNA repair pathways to introduce a desired genetic change."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Core Sequence of Events**"
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "A **Target Recognition** The gRNA (20 nt) base-pairs with the complementary strand of the target DNA. The PAM sequence (NGG) must be adjacent to confirm the correct site."
+      },
+      {
+       "en": "B **Cas9 Binding and Activation** Cas9, complexed with the gRNA, binds to the DNA. It unwinds the double helix and checks for gRNA–DNA complementarity before proceeding."
+      },
+      {
+       "en": "C **Double-Strand Break (DSB)** Cas9 activates its two nuclease domains (HNH and RuvC), each cutting one strand of the DNA double helix — producing a blunt-ended DSB."
+      },
+      {
+       "en": "D **DNA Repair — Two Pathways** _NHEJ (error-prone):_ Cell randomly rejoins the broken ends → small insertions/deletions (indels) → gene disruption (knockout). _HDR (precise):_ If a DNA template is provided, the cell copies it accurately → gene correction or insertion."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Two DNA Repair Pathways — Key Distinction\n**NHEJ** (Non-Homologous End Joining) — fast but error-prone; used for gene _knockout_. | **HDR** (Homology-Directed Repair) — slow but precise; used for gene _correction or insertion_ when a donor template is provided."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "CRISPR works by creating a targeted double-strand break (DSB) in DNA"
+      },
+      {
+       "en": "gRNA finds the target; PAM confirms the site; Cas9 cuts both DNA strands"
+      },
+      {
+       "en": "Cas9 has two nuclease domains: HNH (cuts the complementary strand) and RuvC (cuts the non-complementary strand)"
+      },
+      {
+       "en": "NHEJ repair = error-prone → indels → gene knockout"
+      },
+      {
+       "en": "HDR repair = precise, template-dependent → gene correction or insertion"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 05"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "title": {
+    "en": "Mechanism / Steps of CRISPR Gene Editing"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**CRISPR Mechanism Diagram (Click steps for details)**"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "crispr_gene_editing_app-d02",
+     "caption": {
+      "en": "CRISPR mechanism step diagram"
+     },
+     "labels": [
+      "1. Design",
+      "Guide RNA",
+      "(~20 nt target)",
+      "2. Deliver",
+      "into Cell",
+      "(vector/RNP)",
+      "3. Bind to",
+      "Target DNA",
+      "(PAM verified)",
+      "4. Cas9",
+      "Cuts DNA",
+      "(DSB formed)",
+      "5. DNA",
+      "Repair",
+      "(NHEJ or HDR)",
+      "Edited",
+      "Gene",
+      "Click each step for explanation"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Step-by-Step Written Explanation**"
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "1 **Select Target Gene** The researcher identifies the gene or specific DNA sequence to be edited within the genome."
+      },
+      {
+       "en": "2 **Design Guide RNA** A 20-nucleotide guide RNA (gRNA) is synthesised in the lab, designed to be complementary to the target DNA sequence. This is the \"address label.\""
+      },
+      {
+       "en": "3 **Deliver CRISPR Components into Cell** The gRNA and Cas9 protein are packaged and delivered into the target cell using viral vectors (AAV), electroporation, liposomes, or as a ribonucleoprotein (RNP) complex."
+      },
+      {
+       "en": "4 **Binding to Target DNA** Inside the nucleus, the gRNA binds its complementary DNA sequence. Cas9 checks for the adjacent PAM (NGG) sequence before proceeding."
+      },
+      {
+       "en": "5 **DNA Cutting by Cas9** Cas9's two nuclease domains (HNH and RuvC) each cut one strand of the DNA double helix, creating a precise double-strand break (DSB)."
+      },
+      {
+       "en": "6 **DNA Repair and Editing Outcome** **NHEJ** (no template): introduces insertions or deletions → gene knockout or disruption. **HDR** (with provided template): repairs precisely → gene correction, insertion, or replacement."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "6 steps: design gRNA → deliver into cell → bind target DNA → Cas9 cuts → repair → edited gene"
+      },
+      {
+       "en": "PAM sequence (NGG) is verified by Cas9 before cutting — crucial for specificity"
+      },
+      {
+       "en": "Cas9 has 2 nuclease domains: HNH (complementary strand) and RuvC (non-complementary strand)"
+      },
+      {
+       "en": "NHEJ = no template → indels → knockout; HDR = with template → precise correction"
+      },
+      {
+       "en": "Delivery methods: AAV vectors, electroporation, liposomes, RNP complex"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 06"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "title": {
+    "en": "Types of CRISPR Applications (Gene Editing Outcomes)"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Depending on the repair pathway and whether a donor template is provided, CRISPR can produce three main types of genetic outcomes:"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🚫 Gene Knockout**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Mechanism:** Cas9 cuts the target gene; NHEJ repair introduces random insertions or deletions (indels) → frameshift mutation → non-functional protein."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Use:** Studying gene function by \"switching off\" a gene; cancer research; studying disease models."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**➕ Gene Insertion**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Mechanism:** A donor DNA template containing the new gene is provided alongside CRISPR. HDR pathway integrates the new gene at the cut site."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Use:** Adding a new gene of interest; inserting a therapeutic gene to treat inherited disorders; creating transgenic organisms."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔧 Gene Correction**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Mechanism:** A donor template with the correct DNA sequence is provided. HDR uses this template to repair the mutated sequence precisely."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Use:** Fixing disease-causing mutations (e.g., sickle cell disease, beta-thalassaemia); restoring normal gene function."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Gene knockout = NHEJ repair → indels → disrupted gene; used to study gene function"
+      },
+      {
+       "en": "Gene insertion = HDR + donor template → new gene added at cut site"
+      },
+      {
+       "en": "Gene correction = HDR + correct template → disease mutation repaired precisely"
+      },
+      {
+       "en": "NHEJ is preferred for knockout; HDR is required for insertion and correction"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 07"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "title": {
+    "en": "Applications of CRISPR Gene Editing"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Basic Research**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Understanding gene function by knocking out specific genes and observing the effect in model organisms (mice, zebrafish, _C. elegans_)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Functional Genomics**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Genome-wide CRISPR screens (CRISPR libraries) to identify genes involved in specific biological processes or disease pathways."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Crop Improvement**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Developing disease-resistant, drought-tolerant, or nutritionally enhanced crops. E.g., CRISPR-edited rice with improved yield, hornless cattle."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Animal Biotechnology**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Creating animal models of human disease; editing livestock for disease resistance; generating organs for transplantation research (xenotransplantation)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Medical Biotechnology**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Developing therapies for inherited disorders (sickle cell disease, beta-thalassaemia); cancer immunotherapy (CAR-T enhancement)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Diagnostics**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SHERLOCK and DETECTR — CRISPR-based diagnostic platforms that detect pathogen DNA/RNA with high sensitivity. Used for COVID-19 and other infections."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "exam",
+     "text": {
+      "en": "Clinical Landmark\nIn 2023, **Casgevy** became the world's first approved CRISPR-based therapy — for sickle cell disease and beta-thalassaemia — approved by the UK's MHRA and the US FDA. This marks a historic milestone in medicine."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "6 main areas: basic research, functional genomics, crop improvement, animal biotech, medical biotech, diagnostics"
+      },
+      {
+       "en": "Genome-wide CRISPR screens (libraries) enable high-throughput functional genomics"
+      },
+      {
+       "en": "CRISPR crops are being developed for drought tolerance and disease resistance"
+      },
+      {
+       "en": "SHERLOCK / DETECTR = CRISPR-based diagnostic tools for pathogen detection"
+      },
+      {
+       "en": "Casgevy (2023) = first FDA/MHRA-approved CRISPR therapy (sickle cell disease)"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 08"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "title": {
+    "en": "Role of CRISPR in Medicine"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**🧬 Genetic Disorders**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Diseases caused by single-gene mutations (monogenic disorders) are ideal targets. CRISPR can correct the faulty gene in patient cells. Examples: sickle cell disease, cystic fibrosis, Duchenne muscular dystrophy."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🎗️ Cancer Research**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "CRISPR is used to study cancer-related genes, identify drug targets, and enhance CAR-T cell therapies. It can also potentially disrupt oncogenes or restore tumour suppressor genes directly."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🎯 Precision Medicine**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "CRISPR enables patient-specific gene corrections — tailoring treatment to an individual's exact mutation rather than a generalised approach."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🦠 Infectious Disease**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "CRISPR is being researched to cut and disable viral DNA (HIV integrated into human cells, hepatitis B virus) and to develop rapid diagnostics for pathogens."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "warn",
+     "text": {
+      "en": "Important Caution\nWhile CRISPR holds immense promise, most medical applications are still in clinical trial stages. Approved therapies (e.g., Casgevy) are exceptions, not the norm. Students should present medical applications as potential or investigational unless a specific approval is cited."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "CRISPR is most promising for monogenic (single-gene) disorders"
+      },
+      {
+       "en": "Sickle cell disease and beta-thalassaemia are leading targets — Casgevy approved 2023"
+      },
+      {
+       "en": "In cancer: used to identify drug targets and improve CAR-T cell therapy"
+      },
+      {
+       "en": "Precision medicine: edit the exact patient mutation rather than a general drug"
+      },
+      {
+       "en": "Infectious disease research: disabling integrated viral DNA (HIV, HBV) with CRISPR"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 09"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "title": {
+    "en": "Advantages and Limitations"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**✅ Advantages**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "High precision — targets a specific 20 nt sequence"
+      },
+      {
+       "en": "Fast — experiments completed in days"
+      },
+      {
+       "en": "Low cost vs earlier technologies (ZFN, TALEN)"
+      },
+      {
+       "en": "Easy to design and use (just change the gRNA)"
+      },
+      {
+       "en": "Versatile — works in any organism"
+      },
+      {
+       "en": "Can perform knockout, insertion, or correction"
+      },
+      {
+       "en": "Can edit multiple genes simultaneously (multiplexing)"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**❌ Limitations**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Off-target effects — cuts at unintended similar sequences"
+      },
+      {
+       "en": "PAM sequence requirement limits targetable sites"
+      },
+      {
+       "en": "Delivery into cells/tissues remains challenging"
+      },
+      {
+       "en": "HDR is inefficient in non-dividing cells"
+      },
+      {
+       "en": "Immune response to Cas9 protein possible"
+      },
+      {
+       "en": "Ethical concerns, especially for germline editing"
+      },
+      {
+       "en": "Not all cell types are easily accessible"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "exam",
+     "text": {
+      "en": "Exam Focus — Off-Target Effects\nOff-target editing occurs when Cas9 cuts at sites with sequences similar (but not identical) to the target. This is the most critical safety concern for clinical applications. Newer variants (high-fidelity Cas9, base editors, prime editors) have been developed to reduce this risk."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Key advantages: precision, speed, low cost, easy programmability, versatility"
+      },
+      {
+       "en": "Off-target effects = Cas9 cuts unintended similar sequences — main safety concern"
+      },
+      {
+       "en": "HDR is efficient only in dividing cells — limits correction therapy"
+      },
+      {
+       "en": "Delivery is a major challenge, especially for solid tissues"
+      },
+      {
+       "en": "Newer tools (base editors, prime editors) address some CRISPR-Cas9 limitations"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 10"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "title": {
+    "en": "Ethical and Social Considerations"
+   },
+   "blocks": [
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Somatic vs Germline Editing — Key Distinction\n**Somatic editing** modifies body cells of a living patient — changes affect only that individual and are _not inherited_. This is generally accepted for therapeutic purposes.\n\n**Germline editing** modifies egg, sperm, or embryo cells — changes are _heritable_ and affect all future generations. This is ethically restricted internationally."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**⚠️ He Jiankui Controversy (2018)**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A Chinese scientist edited human embryos (germline) using CRISPR to confer HIV resistance. This was widely condemned by the global scientific community as premature, dangerous, and unethical — highlighting urgent need for governance."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🧬 Designer Babies Concern**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "If germline editing becomes routine, it could be used not just to prevent disease but to \"enhance\" traits (intelligence, appearance) — raising concerns about inequality and eugenics."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**⚖️ Regulatory Framework**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Most countries prohibit clinical germline editing. International bodies (WHO, national ethics committees) are developing guidelines. Transparency, public engagement, and independent oversight are considered essential."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🌍 Equitable Access**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Advanced CRISPR therapies are extremely expensive. Ensuring equitable access globally — not just for wealthy populations — is a major ethical and social challenge."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Somatic editing: affects the individual only — not heritable; generally accepted"
+      },
+      {
+       "en": "Germline editing: heritable changes; affects future generations; internationally restricted"
+      },
+      {
+       "en": "He Jiankui (2018): first germline-edited babies — widely condemned globally"
+      },
+      {
+       "en": "Key concerns: off-target heritable mutations, designer babies, unequal access"
+      },
+      {
+       "en": "Strong regulatory and bioethics frameworks are essential for responsible CRISPR use"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 11"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "title": {
+    "en": "CRISPR vs Traditional Gene Modification Methods"
+   },
+   "blocks": [
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Feature"
+      },
+      {
+       "en": "CRISPR-Cas9"
+      },
+      {
+       "en": "ZFN (Zinc Finger Nucleases)"
+      },
+      {
+       "en": "TALEN"
+      },
+      {
+       "en": "Transgenic (Recombinant DNA)"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "Precision"
+       },
+       {
+        "en": "High — 20 nt target + PAM"
+       },
+       {
+        "en": "Moderate"
+       },
+       {
+        "en": "High"
+       },
+       {
+        "en": "Low — random integration"
+       }
+      ],
+      [
+       {
+        "en": "Design Ease"
+       },
+       {
+        "en": "Very easy — change gRNA sequence"
+       },
+       {
+        "en": "Difficult — protein engineering needed"
+       },
+       {
+        "en": "Moderate"
+       },
+       {
+        "en": "Moderate"
+       }
+      ],
+      [
+       {
+        "en": "Speed"
+       },
+       {
+        "en": "Days to weeks"
+       },
+       {
+        "en": "Months"
+       },
+       {
+        "en": "Weeks–months"
+       },
+       {
+        "en": "Months–years"
+       }
+      ],
+      [
+       {
+        "en": "Cost"
+       },
+       {
+        "en": "Very low"
+       },
+       {
+        "en": "Very high"
+       },
+       {
+        "en": "High"
+       },
+       {
+        "en": "Moderate"
+       }
+      ],
+      [
+       {
+        "en": "Off-target Risk"
+       },
+       {
+        "en": "Present (being improved)"
+       },
+       {
+        "en": "High"
+       },
+       {
+        "en": "Low"
+       },
+       {
+        "en": "High (random insertion)"
+       }
+      ],
+      [
+       {
+        "en": "Multiplexing"
+       },
+       {
+        "en": "Yes — multiple genes at once"
+       },
+       {
+        "en": "Difficult"
+       },
+       {
+        "en": "Difficult"
+       },
+       {
+        "en": "Limited"
+       }
+      ],
+      [
+       {
+        "en": "Applications"
+       },
+       {
+        "en": "Research, medicine, agriculture, diagnostics"
+       },
+       {
+        "en": "Research, limited clinical"
+       },
+       {
+        "en": "Research, some clinical"
+       },
+       {
+        "en": "Crop biotech, protein production"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "CRISPR is superior to ZFN and TALEN in cost, speed, and ease of design"
+      },
+      {
+       "en": "ZFN requires complex protein engineering — expensive and slow"
+      },
+      {
+       "en": "Traditional transgenic methods cause random gene integration — low precision"
+      },
+      {
+       "en": "CRISPR's multiplexing ability (editing multiple genes simultaneously) is a unique advantage"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 12"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "title": {
+    "en": "Interactive Learning"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Expand each topic for key points and click-to-reveal concepts for active recall practice."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔬 Introduction & Full Form**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "CRISPR stands for **C**lustered **R**egularly **I**nterspaced **S**hort **P**alindromic **R**epeats. Combined with Cas9 (CRISPR-Associated protein 9), it forms a programmable gene-editing system."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Click to Reveal — Nobel Prize\nNobel Prize in Chemistry 2020: awarded to Jennifer Doudna and Emmanuelle Charpentier for developing CRISPR-Cas9 as a precise gene-editing tool."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🦠 Natural Role in Bacteria**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "CRISPR arrays in bacteria store short segments of viral DNA (spacers)"
+      },
+      {
+       "en": "On re-infection, a guide RNA is transcribed from the spacer"
+      },
+      {
+       "en": "The guide RNA + Cas protein recognise and cut matching viral DNA"
+      },
+      {
+       "en": "This is the prokaryotic adaptive immune memory system"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Click to Reveal — Discovery Timeline\nCRISPR repeats were first observed in bacteria in 1987 by Yoshizumi Ishino (Japan); their function as an immune defence was proposed by Francisco Mojica in 2005."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🧩 Components — Cas9, gRNA, PAM**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Cas9:** nuclease with two cutting domains (HNH + RuvC)"
+      },
+      {
+       "en": "**gRNA:** ~20 nt programmable RNA; directs Cas9 to the target"
+      },
+      {
+       "en": "**Target DNA:** the specific genomic sequence to be edited"
+      },
+      {
+       "en": "**PAM (NGG):** short motif adjacent to target; required for Cas9 binding"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Click to Reveal — sgRNA\nIn the lab, the natural two-part RNA (crRNA + tracrRNA) is fused into a single single guide RNA (sgRNA) — a simplification that made the system easy to use experimentally."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**⚙️ Mechanism — Step by Step**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": true,
+     "items": [
+      {
+       "en": "Design gRNA complementary to target DNA sequence"
+      },
+      {
+       "en": "Deliver gRNA + Cas9 into target cell (AAV, electroporation, RNP)"
+      },
+      {
+       "en": "gRNA binds target DNA; Cas9 verifies PAM (NGG)"
+      },
+      {
+       "en": "Cas9 cuts both strands → double-strand break (DSB)"
+      },
+      {
+       "en": "NHEJ repair → indels → gene knockout; or HDR → precise correction"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "exam",
+     "text": {
+      "en": "Exam Point\nThe efficiency of HDR is much lower than NHEJ. In most cell types, NHEJ is the dominant repair pathway, making knockout easier to achieve than precise gene correction."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🌐 Applications — Key Examples**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Research:** gene knockouts in mice to model human disease"
+      },
+      {
+       "en": "**Agriculture:** disease-resistant crops; hornless dairy cattle"
+      },
+      {
+       "en": "**Medicine:** Casgevy (2023) for sickle cell disease — first approved CRISPR therapy"
+      },
+      {
+       "en": "**Cancer:** enhancing CAR-T cells; identifying drug targets via CRISPR screens"
+      },
+      {
+       "en": "**Diagnostics:** SHERLOCK and DETECTR for rapid pathogen detection"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**⚖️ Ethics — Key Issues**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Somatic editing (patient cells) — generally accepted, already in clinical use"
+      },
+      {
+       "en": "Germline editing (embryos) — heritable; internationally restricted"
+      },
+      {
+       "en": "He Jiankui (2018) — world's first germline-edited babies; globally condemned"
+      },
+      {
+       "en": "Designer baby concern; inequitable access to expensive therapies"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "warn",
+     "text": {
+      "en": "Remember\nThe key ethical distinction: somatic editing changes only the patient; germline editing changes heritable DNA — affecting all future descendants. This is why germline editing requires much stricter oversight."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 14"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "title": {
+    "en": "Summary & Revision Bullets"
+   },
+   "blocks": [
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "CRISPR = Clustered Regularly Interspaced Short Palindromic Repeats; a natural bacterial defence system adapted for gene editing."
+      },
+      {
+       "en": "CRISPR-Cas9 uses a guide RNA (gRNA) to direct the Cas9 nuclease to cut DNA at a precise location."
+      },
+      {
+       "en": "Four key components: Cas9 enzyme, guide RNA (gRNA), target DNA, PAM sequence (NGG)."
+      },
+      {
+       "en": "Cas9 creates a double-strand break (DSB); repair by NHEJ produces indels (knockout) or by HDR produces precise correction/insertion."
+      },
+      {
+       "en": "Three editing outcomes: gene knockout (NHEJ), gene insertion (HDR + template), gene correction (HDR + correct template)."
+      },
+      {
+       "en": "Applications: basic research, functional genomics, crop improvement, animal biotech, medical therapy, diagnostics."
+      },
+      {
+       "en": "Casgevy (2023) — first approved CRISPR therapy for sickle cell disease and beta-thalassaemia."
+      },
+      {
+       "en": "Advantages over ZFN/TALEN: easier design, faster, cheaper, multiplexing capability."
+      },
+      {
+       "en": "Main limitation: off-target effects — Cas9 may cut at similar unintended sequences."
+      },
+      {
+       "en": "Somatic editing (accepted) vs germline editing (restricted) is the core ethical distinction."
+      },
+      {
+       "en": "Nobel Prize 2020: Jennifer Doudna and Emmanuelle Charpentier."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key Terms to Remember**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Term"
+      },
+      {
+       "en": "Meaning"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "DSB"
+       },
+       {
+        "en": "Double-Strand Break — Cas9 cuts both strands of DNA"
+       }
+      ],
+      [
+       {
+        "en": "NHEJ"
+       },
+       {
+        "en": "Non-Homologous End Joining — error-prone repair → indels → knockout"
+       }
+      ],
+      [
+       {
+        "en": "HDR"
+       },
+       {
+        "en": "Homology-Directed Repair — precise repair using a template → correction/insertion"
+       }
+      ],
+      [
+       {
+        "en": "Indels"
+       },
+       {
+        "en": "Insertions and deletions introduced by NHEJ; cause frameshift mutations"
+       }
+      ],
+      [
+       {
+        "en": "PAM"
+       },
+       {
+        "en": "Protospacer Adjacent Motif (NGG) — required by Cas9 for binding and cutting"
+       }
+      ],
+      [
+       {
+        "en": "sgRNA"
+       },
+       {
+        "en": "Single guide RNA — fused gRNA used in lab experiments"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 15"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "title": {
+    "en": "Glossary"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**CRISPR**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Clustered Regularly Interspaced Short Palindromic Repeats — natural bacterial immune sequences repurposed for gene editing."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Cas9**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A nuclease enzyme (protein) with two cutting domains (HNH, RuvC) that creates a double-strand break in DNA at the target site."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Guide RNA (gRNA)**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A ~20-nucleotide RNA designed to be complementary to the target DNA sequence; directs Cas9 to the correct genomic location."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**PAM Sequence**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Protospacer Adjacent Motif (5′-NGG-3′ for SpCas9) — a short DNA sequence immediately next to the target; required for Cas9 binding and cutting."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Target DNA**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The specific DNA sequence in the genome that the gRNA is designed to match and that Cas9 will cut."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Double-Strand Break (DSB)**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A cut in both strands of the DNA double helix, created by Cas9 at the target location."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**NHEJ**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Non-Homologous End Joining — a fast but error-prone DNA repair pathway that introduces indels at the break site, disrupting gene function."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**HDR**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Homology-Directed Repair — a precise DNA repair pathway that uses a provided donor template to introduce an exact sequence at the break site."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Gene Knockout**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Disruption or inactivation of a gene, typically achieved via NHEJ-mediated indels that cause a frameshift mutation."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Off-Target Effect**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Unintended editing at genomic sites with sequences similar to the intended target — a key safety concern in clinical use."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Germline Editing**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Modification of reproductive cells (egg, sperm, embryo) — changes are heritable and passed to future generations; ethically restricted."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Indels**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Insertions and/or deletions introduced at the cut site by NHEJ repair; often cause frameshift mutations that disrupt the reading frame."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 16"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "title": {
+    "en": "Frequently Asked University Exam Questions"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "1. What is CRISPR? Describe its origin and natural role in bacteria."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Show Hint**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Expand the full form. Define CRISPR-Cas9. Explain the bacterial adaptive immune function: first infection → spacer storage in CRISPR array; re-infection → crRNA produced → Cas protein guided to viral DNA → viral DNA cut. Mention its origin as a natural system later adapted for biotechnology."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2. Describe the components of CRISPR-Cas9 and explain the mechanism of gene editing step by step."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Show Hint**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "List: Cas9 (nuclease, HNH + RuvC domains), gRNA (20 nt, directs Cas9), target DNA, PAM sequence (NGG). Mechanism: design gRNA → deliver into cell → gRNA-Cas9 complex binds target → PAM verified → DSB created → NHEJ (indels/knockout) or HDR (correction with template)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "3. Differentiate between gene knockout, gene insertion, and gene correction with examples."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Show Hint**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Knockout: NHEJ → indels → frameshift → non-functional protein (e.g., studying gene function). Insertion: HDR + donor DNA → new gene added (e.g., inserting therapeutic gene). Correction: HDR + correct template → mutation repaired (e.g., sickle cell disease mutation corrected). Table format recommended."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "4. Discuss the applications of CRISPR gene editing in medicine and agriculture."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Show Hint**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Medicine: genetic disease correction (sickle cell, beta-thalassaemia), cancer research (CAR-T enhancement), infectious disease (HIV, HBV), diagnostics (SHERLOCK, DETECTR), precision medicine. Casgevy (2023) as example. Agriculture: disease-resistant crops, drought tolerance, nutritional enhancement, hornless livestock. Keep explanations educational, not procedural."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5. What are the advantages and ethical concerns associated with CRISPR gene editing?"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Show Hint**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Advantages: precision, speed, low cost, versatility, multiplexing. Limitations: off-target effects, delivery challenges, low HDR efficiency, immune response to Cas9. Ethics: somatic (accepted) vs germline (restricted) editing; He Jiankui controversy (2018); designer baby concerns; equitable access; importance of international regulation and bioethics frameworks."
+     }
+    }
+   ]
+  }
+ ],
+ "skipped": [
+  "quiz"
+ ],
+ "dropped": [
+  {
+   "selector": "nav",
+   "count": 1,
+   "sample": [
+    "CRISPR Gene Editing Intro Origin Components Mechanism Applic"
+   ]
+  },
+  {
+   "selector": "footer",
+   "count": 1,
+   "sample": [
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh"
+   ]
+  },
+  {
+   "selector": ".arrow",
+   "count": 6,
+   "sample": [
+    "▼",
+    "▼",
+    "▼"
+   ]
+  }
+ ],
+ "extractor": "1"
+}

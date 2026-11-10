@@ -1,0 +1,2184 @@
+{
+ "id": "industrial_biotech_fermentation",
+ "unit": "IV",
+ "title": {
+  "en": "Industrial Biotechnology — Fermentation & Ethanol Production"
+ },
+ "sections": [
+  {
+   "id": "s01",
+   "title": {
+    "en": "Overview"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Industrial Biotechnology"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🔬 Industrial Biotechnology · Unit 3"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "title": {
+    "en": "Fermentation & Production\nof Ethanol"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Basic Concepts of Industrial Fermentation"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fermentation is one of the oldest and most important biotechnological processes known to humanity. From ancient bread-making to modern bioethanol fuel, the ability of microorganisms to transform simple sugars into valuable products drives an entire global industry. This module explores the **scientific principles**, **conditions**, and **step-by-step production pathway** of ethanol through industrial fermentation."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "📚 10 Sections 🎯 10 MCQ Quiz ⏱ ~45 min study 🎓 B.Sc. Level"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🎯 Learning Objectives**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "✓Define industrial biotechnology and describe its scope and importance."
+      },
+      {
+       "en": "✓Explain the concept, principle, and types of fermentation."
+      },
+      {
+       "en": "✓Describe the role of microorganisms and enzymes in fermentation."
+      },
+      {
+       "en": "✓List the physicochemical conditions required for efficient fermentation."
+      },
+      {
+       "en": "✓Outline the industrial importance of fermentation across sectors."
+      },
+      {
+       "en": "✓Describe the complete step-by-step process of industrial ethanol production."
+      },
+      {
+       "en": "✓Write and explain the biochemical equation for alcoholic fermentation."
+      },
+      {
+       "en": "✓Identify the industrial applications of ethanol."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": {
+    "en": "Introduction to Industrial Biotechnology"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Industrial biotechnology applies biological systems — primarily microorganisms and their enzymes — to manufacture products of commercial value at scale."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Biotechnology** is the application of living organisms, biological systems, or biological processes to develop products and technologies that benefit humanity. When applied at an industrial or manufacturing scale, it is called **Industrial Biotechnology** (also known as _White Biotechnology_)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Unlike medical biotechnology (Red) or agricultural biotechnology (Green), industrial biotechnology focuses on the use of microorganisms, cells, and enzymes to produce chemicals, fuels, food, textiles, and other valuable materials **more sustainably and economically** than conventional chemical processes."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Definition**"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**📌 Industrial Biotechnology — Defined**\nIndustrial Biotechnology is the **application of biological organisms, systems, or processes in industrial production** to convert raw biological materials (biomass, sugars, starch) into valuable products such as fuels, chemicals, enzymes, food additives, and pharmaceuticals through processes like fermentation."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Scope & Branches**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fermentation"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Microbial Fermentation**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Use of yeast, bacteria, and fungi to produce ethanol, organic acids, vitamins, and antibiotics."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Enzyme Tech"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Enzyme Technology**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Isolation and application of enzymes (amylase, lipase, protease) for industrial processes."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Biofuels"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Biofuel Production**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Conversion of biomass into bioethanol, biodiesel, and biogas as renewable energy sources."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Bioprocessing"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Bioprocess Engineering**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Design and optimisation of bioreactors, upstream & downstream processing for scale-up production."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Why Industrial Biotechnology?**"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**🌿 Advantages Over Conventional Methods**\n• Uses renewable raw materials (sugars, starch, biomass) instead of fossil fuels\n• Operates under mild conditions (low temperature, ambient pressure) — energy efficient\n• Produces fewer toxic by-products — environmentally friendly\n• Microorganisms can be genetically improved to enhance yield\n• Continuous production possible in bioreactors\n• Wide range of products: antibiotics, alcohols, organic acids, vitamins, enzymes"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key Industrial Products**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Product"
+      },
+      {
+       "en": "Microorganism"
+      },
+      {
+       "en": "Application"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Ethanol**"
+       },
+       {
+        "en": "_Saccharomyces cerevisiae_"
+       },
+       {
+        "en": "Biofuel, beverages, solvents"
+       }
+      ],
+      [
+       {
+        "en": "**Penicillin**"
+       },
+       {
+        "en": "_Penicillium chrysogenum_"
+       },
+       {
+        "en": "Antibiotic medicine"
+       }
+      ],
+      [
+       {
+        "en": "**Citric Acid**"
+       },
+       {
+        "en": "_Aspergillus niger_"
+       },
+       {
+        "en": "Food preservative, beverages"
+       }
+      ],
+      [
+       {
+        "en": "**Lactic Acid**"
+       },
+       {
+        "en": "_Lactobacillus_ sp."
+       },
+       {
+        "en": "Food fermentation, bioplastics"
+       }
+      ],
+      [
+       {
+        "en": "**Insulin**"
+       },
+       {
+        "en": "_E. coli_ (recombinant)"
+       },
+       {
+        "en": "Diabetes treatment"
+       }
+      ],
+      [
+       {
+        "en": "**Vinegar (Acetic acid)**"
+       },
+       {
+        "en": "_Acetobacter_ sp."
+       },
+       {
+        "en": "Food industry, preservative"
+       }
+      ]
+     ]
+    }
+   ],
+   "label": "📘 Chapter 1"
+  },
+  {
+   "id": "s04",
+   "title": {
+    "en": "Basic Concepts of Fermentation"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Fermentation is the microbial transformation of organic compounds — typically sugars — into simpler products like alcohol, acids, and gases under controlled conditions."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Click to Reveal — Core Definitions**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "👆 Click each card to reveal its definition"
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "🧫\n**Fermentation**\nClick to reveal"
+     },
+     "answer": {
+      "en": "**Fermentation** is a metabolic process in which microorganisms break down organic compounds (sugars) _without the net use of oxygen_ to produce energy, alcohol, acids, or gases. ✓"
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "⚙️\n**Substrate**\nClick to reveal"
+     },
+     "answer": {
+      "en": "**Substrate** is the organic material (e.g., glucose, sucrose, starch) that microorganisms use as a raw material and energy source during fermentation. ✓"
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "🔬\n**Inoculum**\nClick to reveal"
+     },
+     "answer": {
+      "en": "**Inoculum** is the initial starter culture of microorganisms introduced into the fermentation medium to begin and drive the fermentation process. ✓"
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "🏺\n**Bioreactor**\nClick to reveal"
+     },
+     "answer": {
+      "en": "**Bioreactor** (fermenter) is a closed vessel designed to provide the optimal environment (temperature, pH, aeration) for large-scale microbial growth and product formation. ✓"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Principle of Fermentation**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The fundamental principle of fermentation is **anaerobic catabolism of organic compounds**. In the absence of sufficient oxygen, microorganisms cannot carry out full aerobic respiration. Instead, they partially oxidise glucose through _glycolysis_ to produce pyruvate, which is then reduced to various end-products (ethanol, lactic acid, etc.) while regenerating **NAD⁺** to allow glycolysis to continue."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Overall Equation — Alcoholic Fermentation"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "C₆H₁₂O₆ (Glucose) → 2 C₂H₅OH (Ethanol) + 2 CO₂ + 2 ATP"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Catalysed by Zymase enzyme complex in _Saccharomyces cerevisiae_"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Role of Microorganisms**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Microorganisms are the **biological catalysts** of fermentation. They possess the specific enzymatic machinery to break down complex substrates into simpler products. Different microorganisms produce different end-products from the same starting material."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Yeast (Fungi)**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "_Saccharomyces cerevisiae_ produces **ethanol + CO₂** from glucose. Used in brewing, baking, and bioethanol production."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Lactic Acid Bacteria**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "_Lactobacillus_ sp. converts glucose to **lactic acid**. Used in yoghurt, cheese, silage, and probiotic production."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Bacteria (Others)**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "_Clostridium_ sp. produces **butanol & acetone**; _Acetobacter_ converts ethanol to **acetic acid** (vinegar)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Moulds (Fungi)**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "_Aspergillus_ sp. ferments sugars to **citric acid & gluconic acid**. Also produce industrial enzymes like amylase."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Enzymatic Activity in Fermentation**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Enzymes act as biological catalysts that drive each step of fermentation. Click each accordion panel to explore key enzymes."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🧬 Zymase Complex (Glycolysis + Fermentation) ▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Zymase** is a collective term for the enzyme complex in yeast responsible for alcoholic fermentation. It comprises multiple enzymes working sequentially:"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Hexokinase** — phosphorylates glucose to glucose-6-phosphate"
+      },
+      {
+       "en": "**Phosphofructokinase** — key regulatory enzyme of glycolysis"
+      },
+      {
+       "en": "**Pyruvate kinase** — produces pyruvate from PEP"
+      },
+      {
+       "en": "**Pyruvate decarboxylase** — converts pyruvate → acetaldehyde + CO₂"
+      },
+      {
+       "en": "**Alcohol dehydrogenase (ADH)** — reduces acetaldehyde → ethanol; regenerates NAD⁺"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🌾 Amylase (Starch → Sugar) ▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Amylase** hydrolyses starch into fermentable sugars before fermentation begins (saccharification step)."
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**α-Amylase** — cleaves internal α-1,4 glycosidic bonds → maltodextrins (liquefaction)"
+      },
+      {
+       "en": "**β-Amylase** — cleaves from non-reducing ends → maltose units"
+      },
+      {
+       "en": "**Glucoamylase** — cleaves glucose units completely for direct fermentation"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Produced by _Aspergillus oryzae_, _Bacillus subtilis_, and added to starch-based fermentation media."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🍬 Invertase (Sucrose → Glucose + Fructose) ▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Invertase** (β-fructofuranosidase) is secreted by _S. cerevisiae_ and hydrolyses sucrose into glucose and fructose — both of which can be directly fermented:"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Sucrose → Glucose + Fructose (both enter glycolysis)"
+      },
+      {
+       "en": "Critical when molasses (sucrose-rich) is used as substrate"
+      },
+      {
+       "en": "Allows yeast to use cane sugar and beet sugar substrates efficiently"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🥛 Lactase (Lactose → Glucose + Galactose) ▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Lactase** (β-galactosidase) breaks down milk sugar (lactose) into fermentable monosaccharides:"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Used in dairy fermentation (cheese, yoghurt, kefir production)"
+      },
+      {
+       "en": "Also relevant in whey fermentation for bioethanol"
+      },
+      {
+       "en": "Produced by _Lactobacillus_ and _Kluyveromyces marxianus_"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Types of Fermentation**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🌬️ Aerobic Fermentation**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Occurs **in the presence of oxygen**"
+      },
+      {
+       "en": "Complete oxidation of substrate to CO₂ & H₂O"
+      },
+      {
+       "en": "High ATP yield (~36–38 ATP per glucose)"
+      },
+      {
+       "en": "Products: CO₂, H₂O, biomass, organic acids"
+      },
+      {
+       "en": "Examples: Citric acid, vinegar, single-cell protein"
+      },
+      {
+       "en": "Used for: antibiotic, enzyme, and vitamin production"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🚫🌬️ Anaerobic Fermentation**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Occurs **without oxygen**"
+      },
+      {
+       "en": "Partial oxidation — only 2 ATP per glucose"
+      },
+      {
+       "en": "NAD⁺ regenerated by product formation"
+      },
+      {
+       "en": "Products: ethanol + CO₂, or lactic acid"
+      },
+      {
+       "en": "Examples: Ethanol, lactic acid, biogas"
+      },
+      {
+       "en": "Used for: alcohol, dairy fermentation, silage"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**📋 Sub-types of Anaerobic Fermentation**\n• **Alcoholic fermentation:** Glucose → Ethanol + CO₂ (yeast)\n• **Lactic acid fermentation:** Glucose → Lactic acid (bacteria) — homofermentative vs. heterofermentative\n• **Butyric acid fermentation:** Glucose → Butyric acid + H₂ + CO₂ (_Clostridium_)\n• **Propionic acid fermentation:** Lactic acid → Propionic acid + CO₂ (_Propionibacterium_)"
+     }
+    }
+   ],
+   "label": "📗 Chapter 2"
+  },
+  {
+   "id": "s05",
+   "title": {
+    "en": "Conditions Required for Fermentation"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Efficient fermentation requires careful optimisation of substrate, microbial strain, and physicochemical parameters. Any deviation from optimal conditions reduces yield significantly."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Substrate"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Glucose / Sucrose / Starch"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Carbon and energy source for the microorganism. Must be soluble and at optimum concentration (10–20% for ethanol)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Microorganism"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "_S. cerevisiae_ (Yeast)"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Must be pure culture, high-yielding strain, alcohol-tolerant, and capable of growing rapidly on available substrate."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Temperature"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "25 – 35°C"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Optimal for yeast: 28–32°C. High temperature denatures enzymes; low temperature slows metabolism and growth."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "pH"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "4.5 – 5.5"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Slightly acidic pH optimal for yeast. Low pH prevents bacterial contamination. pH <4 or >6 inhibits fermentation."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Oxygen"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Anaerobic / Microaerophilic"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Minimal O₂ for alcoholic fermentation. Small amounts needed for yeast growth initially; then sealed for anaerobic production."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Nutrients"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "N, P, Vitamins, Minerals"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Nitrogen source (ammonium sulfate), phosphate, potassium, magnesium, and vitamins like biotin and thiamine are essential."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Detailed Conditions — Accordion**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🌾 Substrate — Types and Concentration ▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The substrate must be **rich in fermentable sugars** and cost-effective. Key substrates include:"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Molasses** — by-product of sugar refining; contains 50–55% sucrose; cheap & widely used"
+      },
+      {
+       "en": "**Sugarcane juice** — direct source of sucrose; used in Brazil and India"
+      },
+      {
+       "en": "**Corn/wheat starch** — requires saccharification (amylase treatment) before fermentation"
+      },
+      {
+       "en": "**Cellulosic biomass** — requires pre-treatment + cellulase; used for second-generation ethanol"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Optimal sugar concentration: **10–20% w/v**. Above 20%, osmotic stress inhibits yeast; below 5%, low product yield."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🌡️ Temperature — Critical Parameter ▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Temperature directly affects enzyme activity and cell growth:"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Optimal range for _S. cerevisiae_: **28–32°C**"
+      },
+      {
+       "en": "Below 20°C: Greatly reduced metabolic rate — slow fermentation"
+      },
+      {
+       "en": "Above 40°C: Enzymes denatured; cell death; fermentation stops"
+      },
+      {
+       "en": "Industrial fermenters use **cooling jackets** to control exothermic heat released"
+      },
+      {
+       "en": "Thermotolerant strains (optimum ~38–40°C) reduce cooling costs in tropical countries"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "⚖️ pH — Controlling Contamination and Activity ▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "pH impacts enzyme activity and microbial competition:"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Optimal pH for yeast fermentation: **4.5–5.5**"
+      },
+      {
+       "en": "pH 4.5 minimises contamination by acid-sensitive bacteria"
+      },
+      {
+       "en": "pH above 6 favours bacterial contaminants (lactic acid bacteria)"
+      },
+      {
+       "en": "pH is maintained using phosphate buffers or by controlled addition of H₂SO₄ / NaOH"
+      },
+      {
+       "en": "As fermentation proceeds, CO₂ production naturally lowers pH (carbonic acid)"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🌀 Oxygen Availability — Aerobic vs Anaerobic Phases ▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Oxygen requirement differs by fermentation phase:"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Phase 1 (Aerobic — Growth):** Limited aeration allows yeast biomass multiplication"
+      },
+      {
+       "en": "**Phase 2 (Anaerobic — Production):** Vessel sealed; anaerobic conditions shift yeast metabolism to ethanol production (Pasteur Effect)"
+      },
+      {
+       "en": "High O₂ → _Crabtree effect_: yeast produces ethanol even in aerobic conditions at high glucose"
+      },
+      {
+       "en": "Industrial practice: Sparging with N₂ gas to create fully anaerobic conditions in sealed bioreactors"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🧂 Nutrients — Nitrogen, Minerals & Vitamins ▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Beyond carbon (substrate), yeast requires macro- and micro-nutrients:"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Nitrogen:** Ammonium sulfate [(NH₄)₂SO₄] or urea — for amino acid and protein synthesis"
+      },
+      {
+       "en": "**Phosphorus:** Monopotassium phosphate (KH₂PO₄) — for ATP, nucleic acids"
+      },
+      {
+       "en": "**Magnesium:** MgSO₄ — enzyme cofactor (hexokinase, enolase)"
+      },
+      {
+       "en": "**Vitamins:** Biotin, thiamine (B₁), pantothenic acid — for enzyme function"
+      },
+      {
+       "en": "**Molasses supplementation:** Usually provides sufficient trace elements naturally"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**⚠️ Inhibitors of Fermentation**\n• **Ethanol toxicity:** >14–15% v/v ethanol inhibits yeast growth (product inhibition)\n• **Osmotic stress:** Very high sugar concentration dehydrates cells\n• **Contamination:** Competing bacteria produce acids that lower yield\n• **Heavy metals:** Copper, zinc at high concentrations inhibit enzymes\n• **Temperature extremes:** >40°C denatures critical fermentation enzymes"
+     }
+    }
+   ],
+   "label": "📗 Chapter 3"
+  },
+  {
+   "id": "s06",
+   "title": {
+    "en": "Industrial Importance of Fermentation"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Fermentation is the backbone of numerous industries, providing sustainable routes to produce medicines, fuels, food products, and industrial chemicals."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Pharmaceuticals"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Antibiotics & Medicines**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Penicillin (_Penicillium_)"
+      },
+      {
+       "en": "Streptomycin (_Streptomyces_)"
+      },
+      {
+       "en": "Erythromycin, Tetracycline"
+      },
+      {
+       "en": "Vitamins B₁₂, riboflavin"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Food & Beverage"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Food Industry**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Bread & bakery (yeast — CO₂)"
+      },
+      {
+       "en": "Beer, wine, spirits"
+      },
+      {
+       "en": "Cheese, yoghurt, kefir"
+      },
+      {
+       "en": "Soy sauce, vinegar, tempeh"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Biofuels"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Bioenergy**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Bioethanol from sugarcane/corn"
+      },
+      {
+       "en": "Biogas (methane) from waste"
+      },
+      {
+       "en": "Biodiesel via microbial lipids"
+      },
+      {
+       "en": "Biohydrogen production"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Chemicals"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Organic Chemicals**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Citric acid, lactic acid"
+      },
+      {
+       "en": "Acetone, butanol (ABE)"
+      },
+      {
+       "en": "Acetic acid (vinegar)"
+      },
+      {
+       "en": "Gluconic acid, amino acids"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Enzymes"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Industrial Enzymes**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Amylase (starch processing)"
+      },
+      {
+       "en": "Protease (detergents, leather)"
+      },
+      {
+       "en": "Lipase (food, paper)"
+      },
+      {
+       "en": "Cellulase (textile, biofuel)"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Agriculture"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Agriculture**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Biofertilizers (_Rhizobium_)"
+      },
+      {
+       "en": "Biopesticides (_Bacillus_)"
+      },
+      {
+       "en": "Silage production"
+      },
+      {
+       "en": "Compost acceleration"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Economic & Environmental Significance**"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**🌍 Sustainable Development Goals (SDGs) & Fermentation**\n• **SDG 7 (Clean Energy):** Bioethanol as renewable transport fuel reduces fossil fuel dependency\n• **SDG 3 (Good Health):** Fermentation-derived antibiotics and vaccines save millions of lives annually\n• **SDG 12 (Responsible Consumption):** Agro-industrial waste (molasses, bagasse) converted to valuable products\n• **SDG 13 (Climate Action):** Bioethanol reduces net CO₂ emissions vs. petrol; CO₂ released was first fixed by plants\n• **India context:** India is the 3rd largest ethanol producer globally; National Biofuel Policy targets 20% ethanol blending by 2025"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Industry Sector"
+      },
+      {
+       "en": "Fermentation Product"
+      },
+      {
+       "en": "Annual Global Value"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "Pharmaceutical"
+       },
+       {
+        "en": "Antibiotics, vitamins"
+       },
+       {
+        "en": "~$120 billion"
+       }
+      ],
+      [
+       {
+        "en": "Food & Beverage"
+       },
+       {
+        "en": "Alcoholic beverages, dairy"
+       },
+       {
+        "en": "~$800 billion"
+       }
+      ],
+      [
+       {
+        "en": "Biofuels"
+       },
+       {
+        "en": "Bioethanol, biogas"
+       },
+       {
+        "en": "~$100 billion"
+       }
+      ],
+      [
+       {
+        "en": "Industrial Chemicals"
+       },
+       {
+        "en": "Organic acids, solvents"
+       },
+       {
+        "en": "~$50 billion"
+       }
+      ],
+      [
+       {
+        "en": "Industrial Enzymes"
+       },
+       {
+        "en": "Amylase, protease, lipase"
+       },
+       {
+        "en": "~$10 billion"
+       }
+      ]
+     ]
+    }
+   ],
+   "label": "📙 Chapter 4"
+  },
+  {
+   "id": "s07",
+   "title": {
+    "en": "Production of Ethanol"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Ethanol (C₂H₅OH) is produced industrially through the anaerobic fermentation of sugar-rich substrates by _Saccharomyces cerevisiae_. It is the world's most produced biofuel."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Raw Materials**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1st Generation"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Molasses**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "By-product of sugar cane/beet processing. Contains **45–55% fermentable sugars** (mainly sucrose). Cheapest and most widely used substrate in India and Brazil."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1st Generation"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Sugarcane Juice**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fresh expressed juice with **12–18% sucrose**. Direct and efficient substrate; Brazil's primary ethanol source (~30 billion litres/year)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1st Generation"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Starch Sources**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Corn, wheat, cassava, potato. Requires **saccharification** (enzymatic hydrolysis of starch by amylase) to glucose before fermentation. Primary substrate in USA (corn)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2nd Generation"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Lignocellulosic Biomass**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Agricultural waste: sugarcane bagasse, rice straw, corn stover. Requires **pre-treatment + cellulase**. Not yet commercially dominant but growing rapidly."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Microorganism: _Saccharomyces cerevisiae_**"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**🦠 Why _Saccharomyces cerevisiae_ (Baker's/Brewer's Yeast)?**\n• **High ethanol yield:** Converts ~90–95% of theoretical maximum glucose to ethanol\n• **Ethanol tolerance:** Survives up to 14–15% v/v ethanol (flocculent strains up to 20%)\n• **GRAS status:** Generally Recognised As Safe — used in food and drink\n• **Fast growth:** Doubling time ~90 minutes under optimal conditions\n• **Facultative anaerobe:** Can grow both aerobically (biomass) and anaerobically (ethanol)\n• **Well-characterised:** Fully sequenced genome; amenable to genetic improvement"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Biochemical Basis of Alcoholic Fermentation**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Alcoholic fermentation proceeds in **two main stages**: glycolysis (in the cytoplasm) followed by pyruvate reduction to ethanol."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Step 1 — Glycolysis (Embden–Meyerhof–Parnas Pathway)"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "C₆H₁₂O₆ + 2 ADP + 2 Pᵢ + 2 NAD⁺ → 2 CH₃COCOOH (Pyruvate) + 2 ATP + 2 NADH + 2 H₂O"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Step 2 — Decarboxylation (Pyruvate → Acetaldehyde)"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "CH₃COCOOH —[Pyruvate decarboxylase]→ CH₃CHO (Acetaldehyde) + CO₂"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Step 3 — Reduction (Acetaldehyde → Ethanol)"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "CH₃CHO + NADH + H⁺ —[Alcohol dehydrogenase]→ C₂H₅OH (Ethanol) + NAD⁺"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "NAD⁺ regenerated here allows glycolysis to continue continuously"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Overall Net Reaction"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂ + 2 ATP"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Theoretical yield: 51.1 g ethanol per 100 g glucose (Gay-Lussac's equation)"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Step-by-Step Industrial Production Process**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click on each step in the **Interactive Flowchart** (next chapter) to explore details. Here is a concise overview:"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Step"
+      },
+      {
+       "en": "Process"
+      },
+      {
+       "en": "Key Operation"
+      },
+      {
+       "en": "Purpose"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**1**"
+       },
+       {
+        "en": "Raw material preparation"
+       },
+       {
+        "en": "Dilution, clarification, saccharification"
+       },
+       {
+        "en": "Prepare fermentable sugar solution (12–18° Brix)"
+       }
+      ],
+      [
+       {
+        "en": "**2**"
+       },
+       {
+        "en": "Sterilisation of medium"
+       },
+       {
+        "en": "Heat treatment (80–100°C) or chemical"
+       },
+       {
+        "en": "Eliminate competing microorganisms"
+       }
+      ],
+      [
+       {
+        "en": "**3**"
+       },
+       {
+        "en": "Inoculation"
+       },
+       {
+        "en": "Addition of yeast starter culture"
+       },
+       {
+        "en": "Introduce active _S. cerevisiae_ (2–5% v/v)"
+       }
+      ],
+      [
+       {
+        "en": "**4**"
+       },
+       {
+        "en": "Fermentation"
+       },
+       {
+        "en": "Anaerobic incubation, 28–32°C, pH 4.5–5.5"
+       },
+       {
+        "en": "Conversion of sugars to ethanol + CO₂"
+       }
+      ],
+      [
+       {
+        "en": "**5**"
+       },
+       {
+        "en": "Monitoring"
+       },
+       {
+        "en": "Measure Brix, pH, ethanol, cell density"
+       },
+       {
+        "en": "Ensure optimal process control"
+       }
+      ],
+      [
+       {
+        "en": "**6**"
+       },
+       {
+        "en": "Distillation"
+       },
+       {
+        "en": "Fractional distillation (78°C)"
+       },
+       {
+        "en": "Separate ethanol from fermented wash (~8–12%)"
+       }
+      ],
+      [
+       {
+        "en": "**7**"
+       },
+       {
+        "en": "Rectification"
+       },
+       {
+        "en": "Multiple column distillation"
+       },
+       {
+        "en": "Concentrate ethanol to 95–96% (azeotrope)"
+       }
+      ],
+      [
+       {
+        "en": "**8**"
+       },
+       {
+        "en": "Dehydration / Purification"
+       },
+       {
+        "en": "Molecular sieve, azeotropic distillation"
+       },
+       {
+        "en": "Anhydrous ethanol ≥99.5% for fuel-grade"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Industrial Applications of Ethanol**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Biofuel**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Blended with petrol as **E5, E10, E20**; reduces GHG emissions. India targets E20 blend by 2025 under National Biofuel Policy."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Sanitiser & Antiseptic**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "70% ethanol is a potent antiseptic. Widely used in hand sanitisers, pharmaceutical cleaning, and hospital disinfection."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Industrial Solvent**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Solvent for resins, dyes, perfumes, pharmaceuticals, and cosmetics. Used in extraction, printing, and textile industries."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Beverages**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Base of beer (~4–5%), wine (~12%), whisky (~40%), and other alcoholic drinks produced by yeast fermentation."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Chemical Feedstock**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Precursor for acetic acid, ethyl acetate, diethyl ether, acetaldehyde, and polyethylene (bio-based plastic)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Pharmaceutical**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Solvent and preservative in medicines, cough syrups, tinctures, and extraction of plant-based active compounds."
+     }
+    }
+   ],
+   "label": "📕 Chapter 5"
+  },
+  {
+   "id": "s08",
+   "title": {
+    "en": "Interactive Flowchart"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Explore the complete step-by-step ethanol production process. Click any step to expand its detailed description below."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🏭 Industrial Ethanol Production — Process Flow**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "👆 Click each step to see detailed information"
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "1 **Raw Material Preparation** Collection and processing of substrate 🌾 **Raw Material Preparation:** • **Molasses:** Diluted with water to 10–18° Brix (sugar content); adjusted to pH 4.5–5.0 • **Sugarcane:** Juice expressed by crushing; clarified by settling or centrifugation • **Starch sources:** Milled to flour → cooked at 120–150°C → treated with _α-amylase_ (liquefaction) then _glucoamylase_ (saccharification) to release glucose • Mineral nutrients (N, P, Mg) and vitamins added to the medium ▼"
+      },
+      {
+       "en": "2 **Medium Sterilisation** Elimination of contaminating microorganisms 🔥 **Medium Sterilisation:** • Heating medium to **80–100°C** for 10–30 minutes kills most bacteria and wild yeast • For molasses: often acidification to pH 3.5–4.0 is sufficient to reduce contamination risk • Industrial fermenters use **continuous sterilisation** (flash heat exchange) — faster and energy-efficient • Cooling to inoculation temperature (28–32°C) before yeast addition is essential ▼"
+      },
+      {
+       "en": "3 **Inoculation** Addition of yeast starter culture 🦠 **Inoculation:** • _Saccharomyces cerevisiae_ starter culture prepared in a **seed fermenter** (smaller vessel) • Yeast pre-grown aerobically to build up high cell density (**10⁷–10⁸ cells/mL**) • Inoculation rate: **2–5% v/v** of the main fermenter volume • Active Dry Yeast (ADY) or Compressed Yeast may also be used for industrial batches • Inoculum viability must be ≥90% (checked by methylene blue or trypan blue exclusion) ▼"
+      },
+      {
+       "en": "4 **Fermentation** Anaerobic sugar-to-ethanol conversion 🏺 **Fermentation Phase:** • Bioreactor sealed; anaerobic conditions maintained (**N₂ sparging or CO₂ blanket**) • Temperature: **28–32°C** (controlled by cooling jacket — reaction is exothermic) • pH: maintained at **4.5–5.5** • Duration: **24–72 hours** depending on substrate and strain • Yeast converts glucose → ethanol + CO₂ via Embden–Meyerhof–Parnas pathway • CO₂ produced (≈ 44 g per 100 g glucose) must be vented safely • Final ethanol concentration in _fermented wash_: typically **8–12% v/v** ▼"
+      },
+      {
+       "en": "5 **Ethanol Formation Monitoring** Process analytics and end-point detection 📊 **Monitoring Parameters:** • **Brix (°Bx):** Measures residual sugar concentration — fermentation complete when Brix drops to <2° • **Ethanol content:** Measured by ebulliometer, GC, or specific gravity • **pH:** Monitored continuously; controlled by buffer additions • **Cell count:** Yeast viability and density by microscopy or coulter counter • **CO₂ evolution:** Rate of gas production indicates fermentation activity • Online sensors (pH electrode, dissolved O₂ probe) used in modern plants ▼"
+      },
+      {
+       "en": "6 **Distillation** Separation of ethanol from fermented wash 🏗️ **Distillation:** • Fermented wash (8–12% ethanol) pumped to **distillation columns** • Ethanol boils at **78.4°C**; water boils at 100°C — difference allows separation • **Analyser column:** Strips ethanol from the wash; produces vapour of ~40–50% ethanol • **Rectifier column:** Concentrates ethanol to **95–96%** (azeotropic limit) • Bottom product (slop/stillage) contains water, yeast, and organic residues — used as animal feed or fertiliser • Energy integration: heat recovery systems reduce steam consumption ▼"
+      },
+      {
+       "en": "7 **Dehydration & Purification** Producing anhydrous (fuel-grade) ethanol 💎 **Dehydration to Anhydrous Ethanol:** • 95–96% ethanol forms a **water-ethanol azeotrope** — cannot be further concentrated by simple distillation • Methods to break azeotrope: – **Molecular sieves (zeolite 3Å):** Adsorb water selectively — most common modern method – **Azeotropic distillation:** Add benzene or cyclohexane as entrainer – **Vacuum distillation** or **pervaporation membranes** • Final product: **Anhydrous ethanol ≥99.5%** suitable for fuel blending (E5–E20) • Fuel ethanol is **denatured** with 2–5% petrol to prevent consumption"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**📌 Key Process Parameters Summary**\n• Substrate concentration: **10–18° Brix**\n• Fermentation temperature: **28–32°C**\n• pH: **4.5–5.5**\n• Fermentation time: **24–72 hours**\n• Ethanol in wash: **8–12% v/v**\n• Final ethanol purity: **95–99.5%**"
+     }
+    }
+   ],
+   "label": "🔁 Chapter 6"
+  },
+  {
+   "id": "s09",
+   "title": {
+    "en": "Summary & Key Exam Points"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Consolidated revision points for exam preparation. Review these before your examination."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Core Concepts to Remember**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Industrial Biotechnology** (White Biotechnology) applies microorganisms/enzymes for large-scale manufacture of chemicals, fuels, food, and pharmaceuticals."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Fermentation** is the microbial anaerobic breakdown of organic compounds (sugars) to produce energy, alcohol, acids, or gases."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "3"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The **principle** is NAD⁺ regeneration: NADH produced in glycolysis is re-oxidised by reducing pyruvate to ethanol or lactate, allowing continuous glycolysis."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "4"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key enzyme for alcoholic fermentation:** Pyruvate decarboxylase (pyruvate → acetaldehyde) and Alcohol dehydrogenase (acetaldehyde → ethanol + NAD⁺)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Net equation:** C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂ + 2 ATP (Gay-Lussac; yield = 51.1 g ethanol per 100 g glucose)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "6"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Optimal conditions for yeast fermentation:** Temperature 28–32°C; pH 4.5–5.5; sugar concentration 10–18°Brix; anaerobic; nutrients (N, P, Mg)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "7"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**_Saccharomyces cerevisiae_** is the preferred organism for ethanol production — facultative anaerobe, ethanol-tolerant (up to 14–15%), GRAS, high yield, well-characterised genome."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "8"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Raw materials:** Molasses (cheapest; 50–55% sucrose), Sugarcane juice (direct), Starch sources (corn, wheat — require saccharification by amylase)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "9"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Ethanol production steps:** Raw material prep → Sterilisation → Inoculation → Fermentation (28–32°C, 24–72 h) → Distillation (78.4°C) → Rectification (95–96%) → Dehydration (≥99.5%)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "10"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**95–96% ethanol = azeotropic** (cannot be purified further by simple distillation). Molecular sieves or azeotropic distillation needed for anhydrous (fuel-grade) ethanol."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "11"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Aerobic fermentation** (O₂ present): high ATP yield, products = CO₂ + H₂O + biomass; used for antibiotics, citric acid, enzymes. **Anaerobic**: 2 ATP, products = ethanol or lactic acid."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "12"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Product inhibition:** Ethanol >14–15% v/v inhibits yeast. This limits single-batch ethanol concentration, requiring distillation for concentration."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "13"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Applications of ethanol:** Biofuel (E10, E20 blending), antiseptic (70%), solvent, chemical feedstock (acetaldehyde, ethyl acetate), beverages, pharmaceutical solvent."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "14"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**India's Ethanol Programme:** National Biofuel Policy (2018) targets 20% ethanol blending in petrol (E20) by 2025–26, primarily using molasses and damaged food grains."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Quick Comparison Table**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Parameter"
+      },
+      {
+       "en": "Aerobic Fermentation"
+      },
+      {
+       "en": "Anaerobic Fermentation"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Oxygen**"
+       },
+       {
+        "en": "Required"
+       },
+       {
+        "en": "Not required"
+       }
+      ],
+      [
+       {
+        "en": "**ATP yield**"
+       },
+       {
+        "en": "36–38 ATP"
+       },
+       {
+        "en": "2 ATP"
+       }
+      ],
+      [
+       {
+        "en": "**End products**"
+       },
+       {
+        "en": "CO₂, H₂O, biomass"
+       },
+       {
+        "en": "Ethanol + CO₂ (or lactic acid)"
+       }
+      ],
+      [
+       {
+        "en": "**Application**"
+       },
+       {
+        "en": "Antibiotics, citric acid, enzymes"
+       },
+       {
+        "en": "Ethanol, dairy fermentation"
+       }
+      ],
+      [
+       {
+        "en": "**Efficiency**"
+       },
+       {
+        "en": "High energy extraction"
+       },
+       {
+        "en": "Low energy, high product yield"
+       }
+      ]
+     ]
+    }
+   ],
+   "label": "📋 Summary"
+  },
+  {
+   "id": "s10",
+   "title": {
+    "en": "Key Terms & Glossary"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Important scientific terms with simple, student-friendly definitions for quick revision and exam preparation."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Fermentation"
+     },
+     "definition": {
+      "en": "The microbial metabolic process of **partial anaerobic breakdown of organic compounds** (sugars) to produce energy, alcohol, organic acids, or gases without the net consumption of oxygen."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Substrate"
+     },
+     "definition": {
+      "en": "The **starting material or carbon source** (e.g., glucose, sucrose, starch, molasses) that microorganisms use as food and energy source during fermentation."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Inoculum"
+     },
+     "definition": {
+      "en": "A **small quantity of active starter culture** of the desired microorganism added to a fermentation medium to initiate the fermentation process."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Bioreactor (Fermenter)"
+     },
+     "definition": {
+      "en": "A **controlled vessel or tank** designed to provide optimal physical and chemical conditions (temperature, pH, aeration) for large-scale microbial growth and product synthesis."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Saccharomyces cerevisiae"
+     },
+     "definition": {
+      "en": "The most widely used **yeast in industrial fermentation**. Also called baker's yeast or brewer's yeast; converts sugars to ethanol + CO₂ under anaerobic conditions. GRAS status."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Glycolysis (EMP Pathway)"
+     },
+     "definition": {
+      "en": "The **first stage of sugar metabolism** occurring in the cytoplasm, converting one glucose (6C) into two pyruvate molecules (3C) with a net gain of 2 ATP and 2 NADH."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Zymase"
+     },
+     "definition": {
+      "en": "The **enzyme complex in yeast** responsible for alcoholic fermentation. Includes key enzymes like pyruvate decarboxylase and alcohol dehydrogenase. Discovered by Eduard Buchner (1897)."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Alcohol Dehydrogenase (ADH)"
+     },
+     "definition": {
+      "en": "The enzyme that catalyses the **final step of alcoholic fermentation**: reducing acetaldehyde to ethanol using NADH, thereby regenerating NAD⁺ for continued glycolysis."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Molasses"
+     },
+     "definition": {
+      "en": "A **thick dark syrup by-product** of sugar refining containing 45–55% fermentable sugars. The cheapest and most commonly used substrate for industrial ethanol fermentation."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Saccharification"
+     },
+     "definition": {
+      "en": "The enzymatic **hydrolysis of starch or cellulose into fermentable sugars** (glucose, maltose) using amylase or cellulase enzymes as a preparatory step before fermentation."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Distillation"
+     },
+     "definition": {
+      "en": "A **separation technique** using differences in boiling points to separate ethanol (bp 78.4°C) from water (bp 100°C) in the fermented wash to concentrate the product."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Azeotrope"
+     },
+     "definition": {
+      "en": "A **constant-boiling mixture** of ethanol and water (95.6% ethanol: 4.4% water) that cannot be separated further by simple distillation. Dehydration requires molecular sieves or azeotropic distillation."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Pasteur Effect"
+     },
+     "definition": {
+      "en": "The **inhibition of fermentation by oxygen**, observed by Louis Pasteur. In aerobic conditions, yeast uses aerobic respiration; in anaerobic conditions, it switches to fermentation for energy."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Bioethanol"
+     },
+     "definition": {
+      "en": "Ethanol produced by **biological fermentation of biomass** (sugarcane, corn, cellulose) used as a renewable fuel. Blended with petrol (E5–E20) to reduce fossil fuel dependence and GHG emissions."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "NAD⁺ / NADH"
+     },
+     "definition": {
+      "en": "Nicotinamide adenine dinucleotide — a crucial **electron carrier coenzyme**. NAD⁺ (oxidised) accepts electrons in glycolysis to form NADH. In fermentation, NADH is re-oxidised back to NAD⁺, allowing glycolysis to continue."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Anhydrous Ethanol"
+     },
+     "definition": {
+      "en": "**Ethanol with ≥99.5% purity** (virtually water-free), produced by molecular sieve dehydration. Required for fuel-grade ethanol to prevent engine corrosion and phase separation when blended with petrol."
+     }
+    }
+   ],
+   "label": "📖 Glossary"
+  }
+ ],
+ "skipped": [
+  "page-7"
+ ],
+ "dropped": [
+  {
+   "selector": "nav",
+   "count": 1,
+   "sample": [
+    "🧫 Industrial Biotech B.Sc. Digital Textbook Progress 0% Chap"
+   ]
+  },
+  {
+   "selector": "#overlay",
+   "count": 1,
+   "sample": []
+  },
+  {
+   "selector": "footer",
+   "count": 10,
+   "sample": [
+    "Department of Zoology, GASC, Nagercoil *Created by R. Ramesh",
+    "Department of Zoology, GASC, Nagercoil *Created by R. Ramesh",
+    "Department of Zoology, GASC, Nagercoil *Created by R. Ramesh"
+   ]
+  },
+  {
+   "selector": ".start-btn",
+   "count": 1,
+   "sample": [
+    "Begin Learning →"
+   ]
+  },
+  {
+   "selector": ".btn-outline",
+   "count": 9,
+   "sample": [
+    "← Title Page",
+    "← Introduction",
+    "← Basic Concepts"
+   ]
+  },
+  {
+   "selector": ".btn-primary",
+   "count": 10,
+   "sample": [
+    "Basic Fermentation →",
+    "Conditions for Fermentation →",
+    "Industrial Importance →"
+   ]
+  }
+ ],
+ "extractor": "1"
+}

@@ -1,0 +1,1518 @@
+{
+ "id": "bioinformatics_tools_alignment_blast",
+ "unit": "V",
+ "title": {
+  "en": "Alignment, BLAST & Structure Tools"
+ },
+ "sections": [
+  {
+   "id": "s01",
+   "title": {
+    "en": "Overview"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "🔍 Unit V · Bioinformatics"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "title": {
+    "en": "Bioinformatics Tools: Sequence Alignment, BLAST and Structure Viewers"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Pairwise and Multiple Alignment · BLAST · FASTA · RasMol · Swiss-PdbViewer"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Once sequences and structures are stored in databases, we need tools to compare and view them. This module explains how sequences are aligned, how BLAST and FASTA find relatives in huge databases, how protein structures are visualised, and where bioinformatics is applied. A live calculator lets you build a Needleman–Wunsch or Smith–Waterman matrix yourself."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "📚 5 chapters🎯 10 MCQs📝 Exam questions🎓 B.Sc. Zoology / Biotechnology"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🎯 Learning Objectives**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "✓Differentiate global and local pairwise alignment and perform a small alignment by hand."
+      },
+      {
+       "en": "✓Explain substitution matrices and gap penalties."
+      },
+      {
+       "en": "✓Describe progressive multiple sequence alignment."
+      },
+      {
+       "en": "✓Explain the working and interpretation of BLAST and compare it with FASTA."
+      },
+      {
+       "en": "✓Describe RasMol and Swiss-PdbViewer and list the scope of bioinformatics."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Highlighted cells show the trace-back path."
+     }
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": {
+    "en": "Sequence Alignment: Concepts and Pairwise Alignment"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Alignment arranges sequences to reveal similarity that may reflect shared ancestry, structure or function."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Sequence alignment\nA way of arranging DNA, RNA or protein sequences to identify regions of similarity, by introducing gaps where needed, that may be due to functional, structural or evolutionary relationships."
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Term"
+      },
+      {
+       "en": "Meaning"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Identity**"
+       },
+       {
+        "en": "Percentage of positions with exactly the same residue"
+       }
+      ],
+      [
+       {
+        "en": "**Similarity**"
+       },
+       {
+        "en": "Percentage of positions with identical or chemically similar residues (positive score in the matrix)"
+       }
+      ],
+      [
+       {
+        "en": "**Homology**"
+       },
+       {
+        "en": "Shared ancestry. It is either present or absent; **not** a percentage"
+       }
+      ],
+      [
+       {
+        "en": "**Orthologues**"
+       },
+       {
+        "en": "Homologous genes in different species, from speciation"
+       }
+      ],
+      [
+       {
+        "en": "**Paralogues**"
+       },
+       {
+        "en": "Homologous genes in the same species, from duplication"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Pairwise alignment: two types**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": ""
+      },
+      {
+       "en": "Global"
+      },
+      {
+       "en": "Local"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Aligns**"
+       },
+       {
+        "en": "Entire length of both sequences"
+       },
+       {
+        "en": "Only the best matching regions"
+       }
+      ],
+      [
+       {
+        "en": "**Algorithm**"
+       },
+       {
+        "en": "Needleman–Wunsch (1970)"
+       },
+       {
+        "en": "Smith–Waterman (1981)"
+       }
+      ],
+      [
+       {
+        "en": "**Best for**"
+       },
+       {
+        "en": "Closely related, similar-length sequences"
+       },
+       {
+        "en": "Divergent sequences; shared domains or motifs"
+       }
+      ],
+      [
+       {
+        "en": "**Matrix rule**"
+       },
+       {
+        "en": "Scores can be negative; trace back from bottom-right"
+       },
+       {
+        "en": "Scores floored at 0; trace back from highest score to 0"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Scoring**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**DNA**: simple match / mismatch (for example +1 / −1)."
+      },
+      {
+       "en": "**Proteins**: substitution matrices **PAM** (Dayhoff, evolutionary model) and **BLOSUM** (Henikoff, from conserved blocks; BLOSUM62 is the default in BLAST)."
+      },
+      {
+       "en": "**Gap penalties**: linear, or affine (gap opening + extension), because one long gap is more likely than many short ones."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Dynamic programming in one line**"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Cell rule**\nF(i,j) = max of [ F(i−1,j−1) + s(ai,bj) | F(i−1,j) + gap | F(i,j−1) + gap ] (Smith–Waterman also includes 0)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Try it: alignment calculator**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Sequence 1 Sequence 2"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Match Mismatch Gap (linear) ModeGlobal (NW)Local (SW)"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Press **Align** to fill the matrix and trace back."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Use letters A–Z. Change the scores or switch to local mode to see how the result changes. Dot-plots and the DP matrix show the same idea visually."
+     }
+    }
+   ],
+   "label": "🧬 Chapter 1"
+  },
+  {
+   "id": "s04",
+   "title": {
+    "en": "Multiple Sequence Alignment (MSA)"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "MSA aligns three or more sequences, exposing conserved residues that mark functionally important sites."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Exact dynamic programming for N sequences is computationally impractical (time grows as 2N × LN), so practical tools use **heuristics**."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1. Pairwise**all vs all"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**2. Guide tree**clustering"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**3. Progressive**add in order"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**4. Refine**iteration"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click a step to see what happens."
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Tool"
+      },
+      {
+       "en": "Feature"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Clustal** (ClustalW, Clustal Omega)**"
+       },
+       {
+        "en": "Classic progressive method; Clustal Omega scales to thousands of sequences"
+       }
+      ],
+      [
+       {
+        "en": "**MUSCLE**"
+       },
+       {
+        "en": "Fast and accurate; iterative refinement"
+       }
+      ],
+      [
+       {
+        "en": "**MAFFT**"
+       },
+       {
+        "en": "Fast Fourier transform; suited for large data sets"
+       }
+      ],
+      [
+       {
+        "en": "**T-Coffee**"
+       },
+       {
+        "en": "Combines multiple sources of information for consistency"
+       }
+      ],
+      [
+       {
+        "en": "**Jalview**"
+       },
+       {
+        "en": "Viewer and editor for alignments"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Applications of MSA**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Phylogenetics**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Basis of evolutionary trees."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Motifs and domains**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Find conserved regions and build profiles / HMMs (Pfam)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Primer design**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Identify conserved regions for degenerate primers."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Structure prediction**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Co-varying residues help predict 3-D contacts."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Reading an alignment**\nIn Clustal output: * = identical in all, : = strongly similar, . = weakly similar, blank = not conserved."
+     }
+    }
+   ],
+   "label": "📚 Chapter 2"
+  },
+  {
+   "id": "s05",
+   "title": {
+    "en": "Database Similarity Search: BLAST and FASTA"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Searching a database of millions of sequences needs speed; both tools use heuristics instead of full dynamic programming."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1. Query**your sequence"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**2. Words**seeds"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**3. Scan**database hits"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**4. Extend**HSPs"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**5. Statistics**E-value"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click a step to see what happens."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**BLAST programs**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Program"
+      },
+      {
+       "en": "Query"
+      },
+      {
+       "en": "Database"
+      },
+      {
+       "en": "Use"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**blastn**"
+       },
+       {
+        "en": "Nucleotide"
+       },
+       {
+        "en": "Nucleotide"
+       },
+       {
+        "en": "Identify DNA, find close relatives"
+       }
+      ],
+      [
+       {
+        "en": "**blastp**"
+       },
+       {
+        "en": "Protein"
+       },
+       {
+        "en": "Protein"
+       },
+       {
+        "en": "Find homologous proteins"
+       }
+      ],
+      [
+       {
+        "en": "**blastx**"
+       },
+       {
+        "en": "Nucleotide (translated in 6 frames)"
+       },
+       {
+        "en": "Protein"
+       },
+       {
+        "en": "Find protein products of an unknown DNA or EST"
+       }
+      ],
+      [
+       {
+        "en": "**tblastn**"
+       },
+       {
+        "en": "Protein"
+       },
+       {
+        "en": "Nucleotide (translated in 6 frames)"
+       },
+       {
+        "en": "Find unannotated genes"
+       }
+      ],
+      [
+       {
+        "en": "**tblastx**"
+       },
+       {
+        "en": "Nucleotide (6 frames)"
+       },
+       {
+        "en": "Nucleotide (6 frames)"
+       },
+       {
+        "en": "Compare coding potential of two DNA sequences"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Interpreting results**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**E-value**: expected number of hits with this score or better by chance in a database of that size. Smaller is better; < 10−5–10−10 usually suggests significance."
+      },
+      {
+       "en": "**Bit score**: normalised score, independent of the scoring system; higher is better."
+      },
+      {
+       "en": "**Query coverage** and **percent identity** should be read together with the E-value."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**BLAST versus FASTA**"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": ""
+      },
+      {
+       "en": "BLAST"
+      },
+      {
+       "en": "FASTA"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Authors**"
+       },
+       {
+        "en": "Altschul _et al._ (1990), NCBI"
+       },
+       {
+        "en": "Lipman and Pearson (1985)"
+       }
+      ],
+      [
+       {
+        "en": "**Method**"
+       },
+       {
+        "en": "Word matches, then ungapped / gapped extension to HSPs"
+       },
+       {
+        "en": "Finds diagonal regions of k-tuple matches, rescores the best with a matrix, then does a banded Smith–Waterman"
+       }
+      ],
+      [
+       {
+        "en": "**Word size**"
+       },
+       {
+        "en": "3 (protein), 11 (DNA) default"
+       },
+       {
+        "en": "ktup 1–2 (protein), 4–6 (DNA)"
+       }
+      ],
+      [
+       {
+        "en": "**Strength**"
+       },
+       {
+        "en": "Very fast, widely used, strong statistics"
+       },
+       {
+        "en": "More sensitive for distant matches at smaller ktup"
+       }
+      ],
+      [
+       {
+        "en": "**Variants**"
+       },
+       {
+        "en": "PSI-BLAST (profile iterations), BLAT, DELTA-BLAST"
+       },
+       {
+        "en": "FASTA, SSEARCH, FASTX/Y"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Sensitivity vs speed**\nHeuristic searches may miss weak matches that an exact Smith–Waterman search would find, but they run orders of magnitude faster."
+     }
+    }
+   ],
+   "label": "📕 Chapter 3"
+  },
+  {
+   "id": "s06",
+   "title": {
+    "en": "Protein Structure Visualisation: RasMol and Swiss-PdbViewer"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Structures from the Protein Data Bank (PDB files) can be rotated, coloured and measured on screen."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A **PDB file** is a text file listing the 3-D coordinates (x, y, z) of each atom. Visualisation software reads it and draws the molecule in many styles."
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": ""
+      },
+      {
+       "en": "RasMol"
+      },
+      {
+       "en": "Swiss-PdbViewer (DeepView)"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Developer**"
+       },
+       {
+        "en": "Roger Sayle (1990s); now open source"
+       },
+       {
+        "en": "Nicolas Guex and Manuel Peitsch, Swiss Institute of Bioinformatics"
+       }
+      ],
+      [
+       {
+        "en": "**Platform**"
+       },
+       {
+        "en": "Windows, Mac, Unix"
+       },
+       {
+        "en": "Windows, Mac, Linux"
+       }
+      ],
+      [
+       {
+        "en": "**Display styles**"
+       },
+       {
+        "en": "Wireframe, backbone, sticks, spacefill, ball-and-stick, ribbons / cartoons"
+       },
+       {
+        "en": "Similar styles plus surfaces and electron density"
+       }
+      ],
+      [
+       {
+        "en": "**Special strengths**"
+       },
+       {
+        "en": "Light, fast, command-line scripting"
+       },
+       {
+        "en": "Superimposing structures, measuring distances / angles, mutating residues, homology modelling with SWISS-MODEL"
+       }
+      ],
+      [
+       {
+        "en": "**Inputs**"
+       },
+       {
+        "en": "PDB, mmCIF, MDL Mol"
+       },
+       {
+        "en": "PDB; integrates with the SWISS-MODEL server"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Common colour schemes**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**By chain / structure**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Helices, sheets and coils in different colours."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Hydrophobicity**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Polar surface versus buried hydrophobic core."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Charge**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Acidic (red) and basic (blue) residues."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Temperature (B-factor)**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Shows flexible regions."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Other viewers**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**PyMOL**, **UCSF ChimeraX**, **Jmol / JSmol**, **Mol** (browser-based, on RCSB PDB), **Cn3D** (NCBI)."
+      },
+      {
+       "en": "The **AlphaFold** database provides predicted structures for proteins without experimental data."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Typical tasks**\n• Identify active-site residues and ligands.\n• Measure distances (for example hydrogen bonds).\n• Compare wild type with mutant.\n• Prepare publication-quality figures."
+     }
+    }
+   ],
+   "label": "📓 Chapter 4"
+  },
+  {
+   "id": "s07",
+   "title": {
+    "en": "Scope and Applications of Bioinformatics"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Bioinformatics combines biology, computer science and statistics to store, analyse and interpret biological data."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1970"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Term coined by Hesper and Hogeweg"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1982"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "GenBank/EMBL growth begins"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1990"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "BLAST published"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2003"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "HGP completes"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Genomics**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Genome assembly and annotation."
+      },
+      {
+       "en": "Gene finding and comparative genomics."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Proteomics**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Protein identification and structure prediction."
+      },
+      {
+       "en": "Protein–protein interaction networks."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Drug discovery**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Target identification."
+      },
+      {
+       "en": "Molecular docking and virtual screening."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Medicine**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Personalised medicine, pharmacogenomics."
+      },
+      {
+       "en": "Variant interpretation, cancer genomics."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Agriculture**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Crop and livestock genomics."
+      },
+      {
+       "en": "Marker-assisted breeding."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Evolution & ecology**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Phylogenetics, metagenomics, DNA barcoding."
+      },
+      {
+       "en": "Conservation genetics."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Typical workflow**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1. Data**sequences"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**2. Process**quality control"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**3. Analyse**search & align"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**4. Interpret**biology"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**5. Share**deposit"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click a step to see what happens."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Challenges**\n• Huge data volumes and storage.\n• Data quality and annotation errors.\n• Privacy of human genomic data.\n• Need for trained biologists who can code."
+     }
+    }
+   ],
+   "label": "📒 Chapter 5"
+  },
+  {
+   "id": "s08",
+   "title": {
+    "en": "Summary & Exam Revision"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Key points and model answers likely to appear in university examinations."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key exam points**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Global** = Needleman–Wunsch (1970); **local** = Smith–Waterman (1981); both use dynamic programming."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Scoring: match/mismatch (DNA); **PAM** and **BLOSUM** (proteins); linear or affine gap penalties."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "3"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Identity and similarity are percentages; **homology** is shared ancestry (orthologues vs paralogues)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "4"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**MSA**: progressive using a guide tree (Clustal); iterative (MUSCLE, MAFFT)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**BLAST** (Altschul, 1990): words → seeds → HSP extension → E-value / bit score."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "6"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "blastn, blastp, blastx, tblastn, tblastx."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "7"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**FASTA** (Lipman and Pearson, 1985): k-tuple diagonals, rescoring, banded SW."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "8"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**RasMol** and **Swiss-PdbViewer** display PDB coordinates; Swiss-PdbViewer also models and superimposes."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "9"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Bioinformatics applies to genomics, proteomics, drug design, medicine, agriculture and evolution."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Short-answer questions**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click a question to reveal the model answer."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.1Differentiate global and local alignment.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Global (NW) aligns entire sequences and suits similar sequences of similar length. Local (SW) aligns only the best-matching regions and suits divergent sequences or shared domains."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.2What are PAM and BLOSUM matrices?▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Substitution matrices giving scores for replacing one amino acid with another. PAM is based on an evolutionary model of point accepted mutations; BLOSUM is derived from conserved blocks of related proteins (BLOSUM62 is the default)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.3Explain how BLAST works.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The query is split into words, matching words (seeds) are found in the database, seeds are extended in both directions to form HSPs, and significance is expressed as bit score and E-value."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.4List the BLAST programs.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "blastn, blastp, blastx, tblastn and tblastx, differing in the type of query and database and use of translation."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.5Compare BLAST and FASTA.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Both are heuristic similarity searches. BLAST uses word hits and extension to HSPs and is faster; FASTA uses k-tuple diagonals followed by rescoring and a banded Smith–Waterman, and can be more sensitive at small ktup."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.6What is multiple sequence alignment and name two tools?▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Alignment of three or more sequences to reveal conserved residues, done progressively using a guide tree. Tools: Clustal Omega, MUSCLE, MAFFT, T-Coffee."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.7Name two protein structure visualising tools and their uses.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "RasMol (fast display in wireframe, spacefill, cartoon styles) and Swiss-PdbViewer (analysis, superposition, mutation and homology modelling)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.8State four applications of bioinformatics.▼"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Genome annotation, drug discovery (docking), personalised medicine, evolutionary analysis/phylogeny, crop improvement."
+     }
+    }
+   ],
+   "label": "📋 Summary"
+  },
+  {
+   "id": "s09",
+   "title": {
+    "en": "Key Terms & Glossary"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Important terms in simple language."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Alignment"
+     },
+     "definition": {
+      "en": "Arrangement of sequences to show similarity."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Gap"
+     },
+     "definition": {
+      "en": "A position in an alignment representing an insertion or deletion."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Dynamic programming"
+     },
+     "definition": {
+      "en": "Method that solves a problem by combining optimal solutions to sub-problems."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "PAM"
+     },
+     "definition": {
+      "en": "Point Accepted Mutation matrices from evolutionary models."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "BLOSUM"
+     },
+     "definition": {
+      "en": "Block Substitution Matrix derived from conserved protein blocks."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "HSP"
+     },
+     "definition": {
+      "en": "High-scoring Segment Pair: a local alignment reported by BLAST."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "E-value"
+     },
+     "definition": {
+      "en": "Expected number of chance hits with the same or better score."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Bit score"
+     },
+     "definition": {
+      "en": "Normalised alignment score independent of scoring matrix."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Query"
+     },
+     "definition": {
+      "en": "The sequence you submit for a database search."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Guide tree"
+     },
+     "definition": {
+      "en": "Tree that decides the order of progressive alignment."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "PDB file"
+     },
+     "definition": {
+      "en": "Text file of atomic coordinates of a macromolecule."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Homologue"
+     },
+     "definition": {
+      "en": "A sequence sharing common ancestry with another."
+     }
+    }
+   ],
+   "label": "📖 Glossary"
+  }
+ ],
+ "skipped": [
+  "page-6"
+ ],
+ "dropped": [
+  {
+   "selector": "nav",
+   "count": 1,
+   "sample": [
+    "🔍 Alignment, BLAST & Structure Tools Animal Biotechnology · "
+   ]
+  },
+  {
+   "selector": "#mob-hdr",
+   "count": 1,
+   "sample": [
+    "☰ Alignment, BLAST & Structure Tools"
+   ]
+  },
+  {
+   "selector": "#overlay",
+   "count": 1,
+   "sample": []
+  },
+  {
+   "selector": "footer",
+   "count": 9,
+   "sample": [
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh",
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh",
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh"
+   ]
+  },
+  {
+   "selector": ".start-btn",
+   "count": 1,
+   "sample": [
+    "Begin Learning →"
+   ]
+  },
+  {
+   "selector": ".btn-outline",
+   "count": 8,
+   "sample": [
+    "← Alignment, BLAST & Structure Tools",
+    "← Sequence Alignment",
+    "← Multiple Alignment"
+   ]
+  },
+  {
+   "selector": ".btn-primary",
+   "count": 10,
+   "sample": [
+    "Align",
+    "Multiple Alignment →",
+    "BLAST & FASTA →"
+   ]
+  },
+  {
+   "selector": ".pg-nav",
+   "count": 8,
+   "sample": []
+  }
+ ],
+ "extractor": "1"
+}

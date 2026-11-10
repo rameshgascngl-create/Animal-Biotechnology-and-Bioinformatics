@@ -1,0 +1,1891 @@
+{
+ "id": "gene_transfer_methods_rdna_host_cells",
+ "unit": "II",
+ "title": {
+  "en": "Introduction of Recombinant DNA into Host Cells"
+ },
+ "sections": [
+  {
+   "id": "s01",
+   "title": {
+    "en": "Overview"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Animal Biotechnology · B.Sc. Zoology / Biotechnology"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "title": {
+    "en": "Introduction of Recombinant DNA into Host Cells"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Transformation · Transfection · Transduction · Microinjection · Electroporation · Liposome Fusion"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Once a recombinant DNA molecule is constructed, it must be delivered into a living cell to be replicated and expressed. Different host cells — bacteria, yeast, or animal cells — require very different strategies. This app explores all six major gene delivery methods used in modern biotechnology."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🎯 Learning Objectives**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Define recombinant DNA introduction and explain its importance in genetic engineering."
+      },
+      {
+       "en": "Describe transformation in prokaryotic cells with its steps and applications."
+      },
+      {
+       "en": "Explain the challenges of gene delivery into eukaryotic animal cells."
+      },
+      {
+       "en": "Describe the mechanism, applications, and limitations of transfection, transduction, microinjection, electroporation, and liposome fusion."
+      },
+      {
+       "en": "Compare all six gene transfer methods using their key features."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": {
+    "en": "Introduction to Gene Transfer"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Definition**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The introduction of recombinant DNA into host cells is the process of delivering an engineered DNA molecule (carrying the gene of interest) into a living cell so that the DNA can be replicated and/or expressed to produce the desired protein or effect."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Importance in Biotechnology and Genetic Engineering**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Protein production:** Delivering insulin, growth hormone, or antibody genes into bacteria or animal cells for therapeutic protein manufacture."
+      },
+      {
+       "en": "**Gene therapy:** Introducing functional copies of defective genes into patient cells to treat genetic diseases."
+      },
+      {
+       "en": "**Transgenic organisms:** Creating transgenic animals (e.g., knockout mice, pharming animals) by delivering genes into embryos."
+      },
+      {
+       "en": "**Functional genomics:** Studying gene function by introducing or silencing genes in cell lines."
+      },
+      {
+       "en": "**Vaccine development:** Introducing antigen-encoding DNA into cells for immune response studies."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Overview of Gene Delivery Methods**"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Transformation** — Heat-shock or chemical uptake of naked DNA by bacteria."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "warn",
+     "text": {
+      "en": "**Transfection** — Chemical or physical introduction of DNA into eukaryotic cells."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "tip",
+     "text": {
+      "en": "**Transduction** — Viral delivery of genes into host cells using modified viruses."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Microinjection** — Direct mechanical injection of DNA into the nucleus."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Electroporation** — Electric pulse creates temporary pores in the cell membrane."
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Liposome Fusion** — Lipid vesicles encapsulate and deliver DNA by membrane fusion."
+     }
+    }
+   ],
+   "icon": "🧬",
+   "label": "Section 1"
+  },
+  {
+   "id": "s04",
+   "title": {
+    "en": "Gene Transfer in Prokaryotic Cells — Transformation"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "🔵 Transformation (Prokaryotic)"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Definition**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Transformation is the uptake of naked, exogenous DNA by a bacterial cell from its surrounding environment, leading to a heritable change in the cell's genetic makeup. It was first described by **Frederick Griffith** in 1928 and the molecular basis was established by **Avery, MacLeod, and McCarty** in 1944."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Principle**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Bacterial cells are normally impermeable to large DNA molecules. They must be made **competent** — temporarily able to take up DNA — either naturally or by artificial treatment. Once DNA enters the cell, it can replicate (if it contains an ori) or integrate into the chromosome."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Steps Involved in Artificial Transformation**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": true,
+     "items": [
+      {
+       "en": "**Prepare competent cells:** Exponentially growing _E. coli_ cells are washed in ice-cold CaCl₂ solution. Calcium ions partially destabilise the outer membrane and cell wall, allowing DNA to adsorb to the cell surface."
+      },
+      {
+       "en": "**Mix with recombinant DNA:** Plasmid or recombinant DNA is added to the competent cell suspension on ice (0°C) — DNA adsorbs to the cell surface."
+      },
+      {
+       "en": "**Heat shock:** The mixture is briefly transferred to 42°C for 90 seconds. The sudden temperature change creates a pressure differential that drives the DNA into the cell through transient membrane disruptions."
+      },
+      {
+       "en": "**Recovery:** Cells are diluted in rich LB medium and incubated at 37°C for 30–60 minutes, allowing cells to recover and express any antibiotic resistance marker on the vector."
+      },
+      {
+       "en": "**Selection:** Cells are plated on selective medium (e.g., LB + ampicillin). Only transformed cells (carrying the vector with the resistance gene) survive and form colonies."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Applications**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Introduction of recombinant plasmids into _E. coli_ for gene cloning and protein expression."
+      },
+      {
+       "en": "Production of recombinant proteins — insulin (Humulin), growth hormone, interferons."
+      },
+      {
+       "en": "Creation of genomic and cDNA libraries in bacterial hosts."
+      },
+      {
+       "en": "Fundamental tool in all recombinant DNA technology workflows."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Key Note:** Transformation efficiency is typically 10⁵–10⁸ transformants per microgram of plasmid DNA, depending on cell preparation and plasmid size."
+     }
+    }
+   ],
+   "icon": "🦠",
+   "label": "Section 2"
+  },
+  {
+   "id": "s05",
+   "title": {
+    "en": "Gene Transfer in Eukaryotic Animal Cells"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Challenges in Eukaryotic Gene Delivery**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Introducing DNA into eukaryotic animal cells is far more complex than bacterial transformation:"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Nuclear membrane barrier:** DNA must cross not only the plasma membrane but also the nuclear envelope to reach the genome — an additional physical barrier absent in prokaryotes."
+      },
+      {
+       "en": "**Endosomal degradation:** DNA taken up by endocytosis is often trapped in endosomes and degraded by lysosomal enzymes before reaching the nucleus."
+      },
+      {
+       "en": "**DNA size and complexity:** Eukaryotic genomes are large; many genes include large introns; delivery of multi-kilobase constructs is technically challenging."
+      },
+      {
+       "en": "**Immune response:** Animal cells trigger innate immune responses to foreign DNA, limiting expression."
+      },
+      {
+       "en": "**Cell division requirement:** Many delivery methods require dividing cells for integration (retroviruses), limiting use in non-dividing tissues."
+      },
+      {
+       "en": "**Chromatin structure:** The nucleus is densely packed with histones; efficient transcription requires the gene to be in a transcriptionally accessible region."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "warn",
+     "text": {
+      "en": "**Solution:** Multiple specialised methods have been developed for eukaryotic gene delivery: transfection (chemical and physical), viral transduction, microinjection, electroporation, and liposome-mediated delivery — each with distinct advantages for different cell types and applications."
+     }
+    }
+   ],
+   "icon": "🧫",
+   "label": "Section 3"
+  },
+  {
+   "id": "s06",
+   "title": {
+    "en": "Methods of Gene Transfer — Detailed"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "🟡 B. Transfection"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Transfection refers specifically to the non-viral introduction of nucleic acids (DNA or RNA) into eukaryotic cells. The term is derived from \"transformation\" + \"infection.\""
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Chemical Transfection Methods**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Calcium phosphate co-precipitation:** DNA is mixed with CaCl₂ and phosphate buffer, forming fine DNA-calcium phosphate precipitates that adhere to the cell surface and are taken up by endocytosis. Simple and inexpensive."
+      },
+      {
+       "en": "**DEAE-dextran:** A polycationic reagent that binds DNA and promotes endocytic uptake. Used mainly for transient transfection."
+      },
+      {
+       "en": "**Lipofection (cationic lipids):** Positively charged lipids form complexes (lipoplexes) with negatively charged DNA, which fuse with the cell membrane. More efficient than older chemical methods."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Physical Transfection Methods**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Electroporation:** Electric pulses create temporary pores (covered in detail below)."
+      },
+      {
+       "en": "**Microinjection:** Mechanical injection directly into the nucleus (covered in detail below)."
+      },
+      {
+       "en": "**Biolistics (Gene Gun):** DNA-coated gold or tungsten microparticles are fired into cells using a pressurised gas device."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Transient vs Stable Transfection:** Transient transfection produces temporary gene expression (DNA does not integrate — lost during cell division). Stable transfection results in permanent integration into the host genome and heritable expression."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🟢 C. Transduction"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Transduction is the delivery of foreign genetic material into a host cell using a **viral vector**. The virus naturally injects its nucleic acid into cells with high efficiency — scientists exploit this mechanism by replacing viral genes with the gene of interest."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Role of Viral Vectors**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Viral genes responsible for pathogenicity and replication are removed and replaced with the therapeutic gene."
+      },
+      {
+       "en": "The recombinant viral genome is packaged into viral particles using a **packaging cell line** that provides the structural proteins in trans."
+      },
+      {
+       "en": "These replication-deficient recombinant viruses can infect target cells and deliver the gene but cannot produce new virus particles."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Common Viral Vectors**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Retroviruses (e.g., MLV):** Integrate stably into host genome; require dividing cells; used for permanent gene modification."
+      },
+      {
+       "en": "**Lentiviruses (e.g., HIV-derived):** Integrate into non-dividing cells; used in gene therapy for haematopoietic stem cells (CAR-T cell therapy)."
+      },
+      {
+       "en": "**Adenoviruses:** High efficiency; do not integrate (episomal); transient expression; used in COVID-19 vaccines and cancer gene therapy."
+      },
+      {
+       "en": "**Adeno-Associated Virus (AAV):** Small, non-pathogenic; long-term expression; used in FDA-approved gene therapies (Luxturna for blindness, Zolgensma for SMA)."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "tip",
+     "text": {
+      "en": "**Key Feature:** Transduction is the MOST EFFICIENT method for stable gene delivery in vivo — making it the leading approach in clinical gene therapy."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🟣 D. Microinjection"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Microinjection is the direct, physical injection of DNA (or RNA, protein) into individual cells using an ultra-fine glass capillary needle under a microscope."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Procedure**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Cells are immobilised on a microscope stage using a holding pipette (suction)."
+      },
+      {
+       "en": "A **micromanipulator** precisely positions a fine glass injection needle (0.1–0.5 µm tip diameter)."
+      },
+      {
+       "en": "DNA solution is directly injected into the **nucleus** (pronucleus in fertilised eggs) or cytoplasm under microscopic guidance."
+      },
+      {
+       "en": "Injected cells are transferred to appropriate growth conditions for recovery and expression."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Applications**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Transgenic animal production:** DNA is injected into the pronucleus of fertilised mouse eggs — the primary method for generating transgenic mice."
+      },
+      {
+       "en": "**Gene function studies:** Introduction of mRNA, siRNA, or proteins into individual cells for rapid analysis."
+      },
+      {
+       "en": "**Nuclear transplantation:** Transfer of nuclei in cloning experiments."
+      },
+      {
+       "en": "High technical skill required; low throughput but extremely precise."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Clinical Context:** Intracytoplasmic Sperm Injection (ICSI) — used in IVF treatment — is a form of microinjection where a single sperm cell is injected directly into a human oocyte."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🔷 E. Electroporation"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Electroporation is a physical method in which a brief, high-voltage electric pulse is applied to cells in the presence of DNA, creating transient nanopores in the plasma membrane through which DNA (and other macromolecules) can enter."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Principle**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Cells and DNA are placed between two electrodes in a specialised cuvette."
+      },
+      {
+       "en": "An electric pulse (typically 0.1–10 kV/cm, milliseconds to microseconds duration) is applied."
+      },
+      {
+       "en": "The electric field destabilises the lipid bilayer by inducing charge separation, forming temporary aqueous pores."
+      },
+      {
+       "en": "DNA molecules enter through these pores by electrophoretic force and diffusion."
+      },
+      {
+       "en": "Pores reseal spontaneously within seconds to minutes after the pulse — cells recover if conditions are optimised."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Applications**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Highly efficient transfection of cell lines difficult to transfect by other means (lymphocytes, primary cells)."
+      },
+      {
+       "en": "In vivo electroporation — electrodes applied directly to tissues (skin, muscle, tumour) for in vivo gene delivery."
+      },
+      {
+       "en": "Also used to introduce proteins, RNA, siRNA, CRISPR-Cas9 ribonucleoproteins into cells."
+      },
+      {
+       "en": "Used in both prokaryotic (bacteria) and eukaryotic cell transformation."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Advantage:** Can transfect virtually any cell type; works for large DNA constructs; no cell-type restriction. **Limitation:** High cell mortality if conditions not optimised; requires specialised equipment."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🔶 F. Liposome Fusion (Lipofection)"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Liposome fusion (also called lipofection or liposome-mediated transfection) uses **lipid vesicles (liposomes)** to encapsulate DNA and deliver it into cells by fusing with the plasma membrane."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Mechanism**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": true,
+     "items": [
+      {
+       "en": "**Liposome preparation:** Cationic lipids (positively charged) are mixed with the anionic DNA. The electrostatic attraction causes the DNA to be coated and encapsulated in a lipid bilayer vesicle — called a **lipoplex**."
+      },
+      {
+       "en": "**Binding to cell surface:** The positively charged lipoplex binds electrostatically to the negatively charged proteoglycans on the cell surface."
+      },
+      {
+       "en": "**Endocytosis:** The lipoplex is internalised by endocytosis, forming an endosome."
+      },
+      {
+       "en": "**Endosomal escape:** The fusogenic properties of cationic lipids disrupt the endosomal membrane, releasing the DNA into the cytoplasm (otherwise DNA would be degraded in lysosomes)."
+      },
+      {
+       "en": "**Nuclear entry:** DNA is transported to the nucleus (assisted by nuclear localisation signals in dividing cells during mitosis, or by active transport in non-dividing cells)."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Types of Liposomes Used**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Cationic liposomes:** DOTAP, DOSPA, Lipofectamine — most widely used in gene transfection."
+      },
+      {
+       "en": "**pH-sensitive liposomes:** Designed to release DNA specifically in the acidic endosomal environment."
+      },
+      {
+       "en": "**Targeted liposomes:** Surface-modified with antibodies or ligands to target specific cell types for in vivo delivery."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Advantages**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Protects DNA from nuclease degradation in extracellular fluids."
+      },
+      {
+       "en": "Can be targeted to specific cell types using surface ligands."
+      },
+      {
+       "en": "Works on a wide range of cell types including primary cells and non-dividing cells."
+      },
+      {
+       "en": "Can carry large DNA constructs."
+      },
+      {
+       "en": "Suitable for in vivo therapeutic delivery (e.g., mRNA vaccines use lipid nanoparticles — LNPs)."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Real-World Impact:** Lipid nanoparticles (LNPs) — an advanced form of liposomes — are used to deliver the mRNA in **Pfizer-BioNTech and Moderna COVID-19 vaccines**. LNPs protect the fragile mRNA and enable cellular uptake."
+     }
+    }
+   ],
+   "icon": "⚡",
+   "label": "Section 4"
+  },
+  {
+   "id": "s07",
+   "title": {
+    "en": "Labeled Mechanism Diagrams — All Six Methods"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Each diagram shows the mechanism of gene entry for that method. Click or hover to interact."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 1 — Bacterial Transformation (Heat Shock)"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "gene_transfer_methods_rdna_host_cells-d01",
+     "caption": {
+      "en": "Bacterial transformation"
+     },
+     "labels": [
+      "1. CaCl₂ Treatment",
+      "E. coli cell",
+      "+CaCl₂ → competent cell",
+      "2. DNA Adsorption (0°C)",
+      "P",
+      "P",
+      "P",
+      "DNA adsorbs",
+      "to surface",
+      "3. Heat Shock (42°C)",
+      "P",
+      "DNA enters",
+      "through pores",
+      "4. Transformant Colony",
+      "Antibiotic-resistant clone"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 2 — Transfection (Calcium Phosphate Method)"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "gene_transfer_methods_rdna_host_cells-d02",
+     "caption": {
+      "en": "Transfection calcium phosphate"
+     },
+     "labels": [
+      "1. Form DNA-Ca₃(PO₄)₂ Precipitate",
+      "Recombinant DNA",
+      "+ CaCl₂/PO₄",
+      "2. Precipitate Settles on Cells",
+      "Nucleus",
+      "Ca-ppt",
+      "precipitate on cell surface",
+      "3. Endocytosis → Nucleus",
+      "endocytosis",
+      "4. Gene Expression",
+      "mRNA → Protein produced",
+      "Transient or stable expression"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 3 — Viral Transduction"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "gene_transfer_methods_rdna_host_cells-d03",
+     "caption": {
+      "en": "Viral transduction"
+     },
+     "labels": [
+      "1. Recombinant Viral Vector",
+      "Gene",
+      "Modified virus",
+      "(replication-deficient)",
+      "infects cell",
+      "2. Cell Receptor Binding",
+      "Nucleus",
+      "Receptor",
+      "3. Gene Released into Nucleus",
+      "Viral genome enters",
+      "nucleus; gene integrates",
+      "→ Stable gene expression"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 4 — Microinjection into Pronucleus"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "gene_transfer_methods_rdna_host_cells-d04",
+     "caption": {
+      "en": "Microinjection into fertilised egg"
+     },
+     "labels": [
+      "Microinjection into Pronucleus",
+      "Holding pipette",
+      "(suction)",
+      "Male",
+      "Pronucleus",
+      "Female",
+      "DNA",
+      "Needle",
+      "DNA injected directly",
+      "Fertilised egg (zygote)",
+      "~80–100 µm diameter",
+      "→ Transgenic animal generation"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 5 — Electroporation Mechanism"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "gene_transfer_methods_rdna_host_cells-d05",
+     "caption": {
+      "en": "Electroporation mechanism"
+     },
+     "labels": [
+      "Electroporation Cuvette",
+      "−",
+      "+",
+      "Electric field (⚡)",
+      "DNA",
+      "DNA",
+      "pore",
+      "N",
+      "⚡ Electric Pulse Applied",
+      "0.1–10 kV/cm pulse",
+      "ms to µs duration",
+      "After Pulse — Pores Reseal",
+      "DNA",
+      "inside",
+      "Cell survives, DNA transfected"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 6 — Liposome Fusion (Lipofection)"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "gene_transfer_methods_rdna_host_cells-d06",
+     "caption": {
+      "en": "Liposome fusion mechanism"
+     },
+     "labels": [
+      "1. Lipoplex Formation",
+      "DNA",
+      "Lipoplex",
+      "(cationic lipid + DNA)",
+      "2. Binding to Cell Surface",
+      "Nucleus",
+      "DNA",
+      "3. Membrane Fusion → DNA Release",
+      "Fusion",
+      "→ endosome",
+      "escape",
+      "→ DNA reaches nucleus",
+      "Gene expressed as protein"
+     ]
+    }
+   ],
+   "icon": "🖼️",
+   "label": "Section 5 — Diagrams"
+  },
+  {
+   "id": "s08",
+   "title": {
+    "en": "Comparison of All Gene Transfer Methods"
+   },
+   "blocks": [
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Method"
+      },
+      {
+       "en": "Cell Type"
+      },
+      {
+       "en": "Mechanism"
+      },
+      {
+       "en": "Efficiency"
+      },
+      {
+       "en": "Advantages"
+      },
+      {
+       "en": "Limitations"
+      },
+      {
+       "en": "Applications"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Transformation**"
+       },
+       {
+        "en": "Prokaryotes (bacteria)"
+       },
+       {
+        "en": "CaCl₂/heat shock opens membrane pores; DNA enters"
+       },
+       {
+        "en": "Moderate (10⁵–10⁸/µg)"
+       },
+       {
+        "en": "Simple, cheap, well-established"
+       },
+       {
+        "en": "Only bacteria; requires competent cells"
+       },
+       {
+        "en": "E. coli gene cloning; recombinant protein production"
+       }
+      ],
+      [
+       {
+        "en": "**Transfection**"
+       },
+       {
+        "en": "Eukaryotic cells (cell lines)"
+       },
+       {
+        "en": "Ca-phosphate or cationic lipid precipitate → endocytosis"
+       },
+       {
+        "en": "Low to moderate"
+       },
+       {
+        "en": "Simple, inexpensive; works for many cell types"
+       },
+       {
+        "en": "Not efficient for primary cells; cytotoxic"
+       },
+       {
+        "en": "Mammalian gene expression; functional genomics"
+       }
+      ],
+      [
+       {
+        "en": "**Transduction**"
+       },
+       {
+        "en": "Eukaryotic (dividing and non-dividing)"
+       },
+       {
+        "en": "Modified virus infects cell via receptor; injects gene"
+       },
+       {
+        "en": "Very high (>90%)"
+       },
+       {
+        "en": "Highest efficiency; stable integration; in vivo use"
+       },
+       {
+        "en": "Insert size limited by viral capsid; safety concerns"
+       },
+       {
+        "en": "Gene therapy (AAV, lentiviral); CAR-T cell therapy"
+       }
+      ],
+      [
+       {
+        "en": "**Microinjection**"
+       },
+       {
+        "en": "Large cells (oocytes, embryos)"
+       },
+       {
+        "en": "Mechanical injection of DNA directly into nucleus"
+       },
+       {
+        "en": "High per cell; low throughput"
+       },
+       {
+        "en": "Precise; works for any molecule; no carrier needed"
+       },
+       {
+        "en": "Tedious; high technical skill; one cell at a time"
+       },
+       {
+        "en": "Transgenic animal production; ICSI; embryo manipulation"
+       }
+      ],
+      [
+       {
+        "en": "**Electroporation**"
+       },
+       {
+        "en": "Prokaryotes and eukaryotes"
+       },
+       {
+        "en": "Electric pulse creates temporary membrane pores; DNA enters"
+       },
+       {
+        "en": "High (20–80%)"
+       },
+       {
+        "en": "Universal; works for any DNA/RNA/protein; primary cells"
+       },
+       {
+        "en": "High cell mortality if conditions suboptimal; equipment needed"
+       },
+       {
+        "en": "CRISPR delivery; primary cell transfection; bacteria"
+       }
+      ],
+      [
+       {
+        "en": "**Liposome Fusion**"
+       },
+       {
+        "en": "Eukaryotic (dividing and non-dividing)"
+       },
+       {
+        "en": "Cationic lipoplex binds cell surface → endocytosis → membrane fusion"
+       },
+       {
+        "en": "Moderate to high"
+       },
+       {
+        "en": "Protects DNA; targetable; suitable for in vivo delivery"
+       },
+       {
+        "en": "Endosomal entrapment reduces efficiency; cytotoxicity"
+       },
+       {
+        "en": "mRNA vaccines (COVID-19 LNPs); drug delivery; siRNA delivery"
+       }
+      ]
+     ]
+    }
+   ],
+   "icon": "📋",
+   "label": "Section 6"
+  },
+  {
+   "id": "s09",
+   "title": {
+    "en": "Gene Delivery — Concept Flow (Click Steps)"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Click any step to expand details."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🔵 Prokaryotic Pathway (Transformation):"
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "1 🧬 Recombinant Plasmid Gene of interest is ligated into a plasmid vector (e.g., pUC19) using restriction enzymes and DNA ligase. The circular recombinant plasmid is purified."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "2 🧊 Competent Cell Prep (CaCl₂) E. coli cells are washed in ice-cold CaCl₂, which partially disrupts the outer membrane and makes the cells competent — capable of DNA uptake."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "3 🌡️ Heat Shock (42°C) Brief heat shock at 42°C for 90 seconds drives the plasmid DNA through temporary pores in the cell membrane into the bacterial cytoplasm."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "4 🧫 Selection on Antibiotic Transformed cells are plated on LB + antibiotic medium. Only cells carrying the vector (with resistance gene) survive and form colonies — transformants."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "5 ✅ Gene Expression in E. coli The plasmid replicates inside E. coli. The gene of interest is transcribed and translated, producing the recombinant protein in large amounts."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🔶 Eukaryotic Pathway (e.g., Transduction / Lipofection):"
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "1 🧬 Recombinant DNA + Delivery Vehicle The gene of interest is packaged into a viral vector (transduction) or complexed with cationic lipids (lipofection). A mammalian promoter drives expression."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "2 📦 Delivery to Cell Surface Virus binds cell-surface receptor (transduction) or lipoplex binds surface proteoglycans (lipofection), initiating cellular uptake."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "3 🔄 Cross Plasma Membrane + Endosomal Escape Viral particles inject their genome directly; liposomes fuse with endosomal membrane to release DNA into cytoplasm, escaping lysosomal degradation."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "4 🔵 Nuclear Entry + Integration DNA crosses the nuclear envelope. Retroviral/lentiviral vectors integrate stably into the host chromosome. Non-viral and adenoviral DNA may remain episomal."
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "5 ⚗️ Transcription, Translation & Protein Production The gene is transcribed by host RNA Pol II (using mammalian promoter on vector), mRNA is translated, and the therapeutic or reporter protein is produced."
+      }
+     ]
+    }
+   ],
+   "icon": "🔄",
+   "label": "Section 7 — Flow"
+  },
+  {
+   "id": "s10",
+   "title": {
+    "en": "Interactive Learning"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔵 Transformation — Key Points & Exam Notes**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Prokaryotic Method"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Discovered by **Frederick Griffith (1928)**; molecular basis by **Avery, MacLeod, McCarty (1944)**."
+      },
+      {
+       "en": "Used for _E. coli_ and other bacteria; NOT for animal cells directly."
+      },
+      {
+       "en": "Key steps: CaCl₂ → competent cells → add DNA → heat shock 42°C → select on antibiotic."
+      },
+      {
+       "en": "Alternative: **electroporation** for higher efficiency in bacteria."
+      },
+      {
+       "en": "Efficiency: 10⁵–10⁸ colony-forming units per µg of DNA."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Exam tip:** Transformation = prokaryotes (bacteria). Transfection = eukaryotes. Do not confuse these terms."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🟡 Transfection — Key Points & Exam Notes**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Eukaryotic — Non-Viral"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Chemical methods: CaPO₄ co-precipitation, DEAE-dextran, cationic lipids (lipofection)."
+      },
+      {
+       "en": "Physical methods: electroporation, microinjection, biolistics (gene gun)."
+      },
+      {
+       "en": "**Transient transfection:** DNA does not integrate — expression is temporary (hours to days)."
+      },
+      {
+       "en": "**Stable transfection:** DNA integrates into host genome — permanent heritable expression."
+      },
+      {
+       "en": "Most common lab method: Lipofectamine (cationic lipid reagent) — simple, effective for cell lines."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "warn",
+     "text": {
+      "en": "**Exam tip:** The term \"transfection\" specifically applies to eukaryotic cells. It encompasses both chemical and physical methods — electroporation and microinjection can be classified as physical transfection."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🟢 Transduction — Key Points & Exam Notes**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Viral Delivery"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Most EFFICIENT method for in vivo gene delivery."
+      },
+      {
+       "en": "Viral genes replaced by gene of interest → replication-deficient virus."
+      },
+      {
+       "en": "Key vectors: Retrovirus (stable, dividing cells), Lentivirus (stable, non-dividing), Adenovirus (transient, high efficiency), AAV (long-term, safe)."
+      },
+      {
+       "en": "**AAV** — used in FDA-approved gene therapies: Luxturna (blindness), Zolgensma (SMA), Hemgenix (haemophilia B)."
+      },
+      {
+       "en": "Limitation: insert size limited by viral capsid; risk of insertional mutagenesis (retroviruses)."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "tip",
+     "text": {
+      "en": "**Exam tip:** Transduction is the gold standard for clinical gene therapy. Know the difference between lentiviral (integrating, non-dividing cells) and adenoviral (episomal, does not integrate)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🟣 Microinjection — Key Points & Exam Notes**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Physical — Mechanical"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Only method that directly delivers DNA into the **nucleus**."
+      },
+      {
+       "en": "Uses a glass needle (0.1–0.5 µm tip) controlled by a micromanipulator under a microscope."
+      },
+      {
+       "en": "Primary use: **pronuclear microinjection** for creating transgenic mice (Nobel Prize method)."
+      },
+      {
+       "en": "Can deliver DNA, RNA, proteins, antibodies — any soluble molecule."
+      },
+      {
+       "en": "Limitation: very low throughput — one cell at a time; high skill required."
+      },
+      {
+       "en": "Clinical version: ICSI (intracytoplasmic sperm injection) used in human IVF."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Exam tip:** Microinjection is the MOST DIRECT method — no carrier needed, DNA goes straight into nucleus. It is the primary method to create transgenic animals."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔷 Electroporation — Key Points & Exam Notes**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Physical — Electrical"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Works by creating **temporary hydrophilic pores** in the lipid bilayer via electric field."
+      },
+      {
+       "en": "Applicable to BOTH prokaryotes and eukaryotes — most versatile physical method."
+      },
+      {
+       "en": "Can deliver DNA, RNA, CRISPR-Cas9 RNPs, proteins, drugs into cells."
+      },
+      {
+       "en": "Modern systems (e.g., Neon system, Nucleofector) optimise conditions for different cell types."
+      },
+      {
+       "en": "In vivo electroporation — used for direct DNA vaccine delivery into muscle or skin."
+      },
+      {
+       "en": "Key parameters: voltage, pulse duration, number of pulses, temperature."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Exam tip:** Electroporation is BOTH a transfection and transformation method — it works on bacteria, yeast, and mammalian cells. Commonly used when other methods fail (e.g., hard-to-transfect lymphocytes)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔶 Liposome Fusion — Key Points & Exam Notes**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Chemical — Lipid-Based"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Liposomes = artificial lipid bilayer vesicles encapsulating DNA or drugs."
+      },
+      {
+       "en": "Cationic liposomes (positive charge) bind anionic DNA electrostatically — forming **lipoplexes**."
+      },
+      {
+       "en": "Entry: endocytosis → endosomal escape → cytoplasm → nuclear entry."
+      },
+      {
+       "en": "Key advantage: **targetable** — surface-conjugated antibodies/ligands direct delivery to specific cell types."
+      },
+      {
+       "en": "Modern form: Lipid nanoparticles (LNPs) — used in **mRNA vaccines** (COVID-19) and siRNA delivery."
+      },
+      {
+       "en": "Commercial reagent example: Lipofectamine (ThermoFisher)."
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Exam tip:** Liposome fusion is the basis of mRNA COVID-19 vaccines. LNPs protect fragile mRNA and enable cellular uptake in muscle cells. Key concept: endosomal escape is critical for efficiency."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Click-to-Reveal Key Terms**"
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Competent Cell"
+     },
+     "answer": {
+      "en": "A bacterial cell that has been treated (CaCl₂ or electroporation) to become capable of taking up exogenous DNA. Competence is either a naturally occurring state or artificially induced for laboratory transformation."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Viral Vector"
+     },
+     "answer": {
+      "en": "A modified virus with its pathogenic genes removed and replaced by the therapeutic gene of interest. It retains the ability to infect cells and deliver DNA but cannot replicate. Examples: AAV, lentivirus, adenovirus."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Lipoplex"
+     },
+     "answer": {
+      "en": "A complex formed between cationic (positively charged) lipids and negatively charged DNA, held together by electrostatic interactions. Lipoplexes are taken up by cells via endocytosis and used in liposome-mediated transfection."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Endosomal Escape"
+     },
+     "answer": {
+      "en": "The process by which DNA or RNA delivered via endocytosis escapes from the endosome into the cytoplasm before being degraded in lysosomes. Critical step in liposome-mediated and polymer-based gene delivery systems."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Stable vs Transient"
+     },
+     "answer": {
+      "en": "Stable transfection: foreign DNA integrates into host chromosome → permanently inherited in all daughter cells. Transient transfection: DNA is expressed temporarily without integration — lost within days as cells divide."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Lipid Nanoparticle (LNP)"
+     },
+     "answer": {
+      "en": "An advanced form of liposome (~80–150 nm) used to encapsulate and deliver mRNA or siRNA. LNPs were used in the Pfizer-BioNTech and Moderna COVID-19 mRNA vaccines to protect fragile mRNA and enable cellular uptake."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Tropism (Viral)"
+     },
+     "answer": {
+      "en": "The ability of a virus to infect specific cell types, determined by which cell-surface receptors the viral coat proteins recognise. Viral vector tropism determines which cell types can be transduced — critical for gene therapy target specificity."
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Insertional Mutagenesis"
+     },
+     "answer": {
+      "en": "A risk associated with integrating viral vectors (retroviruses) where random insertion of viral DNA into the host genome disrupts a host gene — potentially activating oncogenes or inactivating tumour suppressor genes. Led to leukaemia in some early gene therapy trials."
+     }
+    }
+   ],
+   "icon": "🎮",
+   "label": "Section 8 — Interactive"
+  },
+  {
+   "id": "s11",
+   "title": {
+    "en": "Summary — Key Exam Points"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Transformation (Prokaryotes)**CaCl₂ + heat shock (42°C) makes bacteria competent. DNA enters through temporary pores. Only for bacteria. Select transformants on antibiotic plates."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Transfection (Eukaryotes)**Non-viral delivery of DNA into eukaryotic cells. Chemical (CaPO₄, cationic lipids) or physical (electroporation, microinjection). Transient or stable expression."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Transduction (Viral)**Most efficient in vivo method. Modified virus delivers gene via receptor-mediated infection. Types: retrovirus (stable), lentivirus (non-dividing), adenovirus (episomal), AAV (safe, long-term)."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Microinjection**Physical injection of DNA directly into nucleus using glass needle and micromanipulator. Primary method for transgenic mouse production. One cell at a time — low throughput."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Electroporation**High-voltage electric pulse creates temporary pores in lipid bilayer. DNA enters through pores. Universal — works for bacteria and eukaryotes. Best for hard-to-transfect cells."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Liposome Fusion**Cationic lipids form lipoplexes with DNA. Cell uptake via endocytosis + endosomal escape. Targetable. Basis of mRNA vaccines (LNPs) and siRNA therapeutics."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key Distinction**Transformation = prokaryotes. Transfection = eukaryotes (non-viral). Transduction = viral. Microinjection = direct nuclear injection. Electroporation = electric pores. Liposome = lipid vesicle fusion."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Most Efficient In Vivo**Transduction (viral vectors) is most efficient for in vivo gene delivery, especially AAV and lentiviral vectors used in FDA-approved gene therapies."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Nuclear Barrier**Eukaryotic cells have a nuclear membrane — DNA must cross both plasma membrane AND nuclear envelope, unlike prokaryotes where only the plasma membrane must be crossed."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**AAV Gene Therapies**Luxturna (RPE65 gene — blindness), Zolgensma (SMN1 gene — spinal muscular atrophy), Hemgenix (F9 gene — haemophilia B) — all use AAV vectors."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**mRNA Vaccines**Pfizer-BioNTech and Moderna COVID-19 vaccines use lipid nanoparticles (LNPs) to deliver mRNA into muscle cells — a revolutionary application of liposome technology."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Stable vs Transient**Stable integration: retroviral, lentiviral, some transfection (permanent). Transient: adenoviral, plasmid transfection (temporary, no integration). Critical for choosing right method."
+     }
+    }
+   ],
+   "icon": "📌",
+   "label": "Section 10"
+  },
+  {
+   "id": "s12",
+   "title": {
+    "en": "Glossary"
+   },
+   "blocks": [
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Transformation"
+     },
+     "definition": {
+      "en": "The uptake of naked exogenous DNA by a bacterial cell, leading to a heritable change. In the laboratory, bacteria are made artificially competent using CaCl₂ and heat shock to take up plasmid DNA."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Transfection"
+     },
+     "definition": {
+      "en": "The introduction of foreign nucleic acids (DNA or RNA) into eukaryotic cells by non-viral methods. Includes chemical methods (calcium phosphate, cationic lipids) and physical methods (electroporation, microinjection). Can be transient or stable."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Transduction"
+     },
+     "definition": {
+      "en": "The delivery of foreign genetic material into host cells using a viral vector. The pathogenic genes of the virus are replaced by the gene of interest; the recombinant virus infects cells with high efficiency but cannot replicate."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Viral Vector"
+     },
+     "definition": {
+      "en": "A modified virus used as a gene delivery vehicle. The viral genes responsible for disease and replication are removed and replaced by the therapeutic gene. Common types include AAV, lentivirus, adenovirus, and retrovirus."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Electroporation"
+     },
+     "definition": {
+      "en": "A physical method of gene delivery in which a brief high-voltage electric pulse (0.1–10 kV/cm) applied to cells in the presence of DNA creates temporary nanopores in the plasma membrane, through which DNA enters the cell."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Liposome"
+     },
+     "definition": {
+      "en": "A spherical artificial lipid bilayer vesicle that can encapsulate DNA, RNA, drugs, or other molecules. Cationic liposomes form complexes (lipoplexes) with negatively charged DNA for cellular delivery by membrane fusion or endocytosis."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Microinjection"
+     },
+     "definition": {
+      "en": "A physical technique in which DNA or other molecules are directly injected into individual cells (usually into the nucleus or cytoplasm) using an ultra-fine glass capillary needle controlled by a micromanipulator under microscopic guidance."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Competent Cell"
+     },
+     "definition": {
+      "en": "A bacterial cell that is capable of taking up exogenous DNA. Natural competence occurs in some species; artificial competence is induced in E. coli by CaCl₂ treatment, making cells able to take up plasmid DNA during heat shock transformation."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Lipid Nanoparticle (LNP)"
+     },
+     "definition": {
+      "en": "An advanced, nanoscale lipid-based delivery vehicle (~80–150 nm) that encapsulates mRNA or siRNA, protecting it from nuclease degradation. LNPs were used in COVID-19 mRNA vaccines (Pfizer-BioNTech, Moderna) to deliver mRNA into human cells."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Stable Transfection"
+     },
+     "definition": {
+      "en": "A transfection outcome in which the foreign DNA integrates into the host cell chromosome, becoming permanently heritable in all daughter cells. Required for long-term gene expression studies and therapeutic applications."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Endosomal Escape"
+     },
+     "definition": {
+      "en": "The process by which DNA, RNA, or other cargo delivered via endocytosis escapes from the endosome before lysosomal fusion and degradation. A critical step in efficient liposome-mediated and nanoparticle-based gene delivery."
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "AAV (Adeno-Associated Virus)"
+     },
+     "definition": {
+      "en": "A small, non-pathogenic, single-stranded DNA virus used as a gene therapy vector. Provides long-term gene expression with minimal immune response. Used in approved gene therapies: Luxturna (blindness), Zolgensma (SMA), Hemgenix (haemophilia)."
+     }
+    }
+   ],
+   "icon": "📖",
+   "label": "Section 11"
+  },
+  {
+   "id": "s13",
+   "title": {
+    "en": "Frequently Asked University Exam Questions"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Click each question to expand answer hints."
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1. What is transformation? Describe the steps involved in artificial transformation of E. coli.**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Definition: uptake of naked exogenous DNA by a bacterial cell leading to heritable change. First described by Griffith (1928); molecular basis by Avery et al. (1944)."
+      },
+      {
+       "en": "Steps: (1) Grow E. coli to log phase; (2) Wash in ice-cold CaCl₂ → competent cells; (3) Add recombinant plasmid DNA, incubate on ice (DNA adsorbs to cell surface); (4) Heat shock at 42°C for 90 sec → DNA enters through temporary membrane disruptions; (5) Recovery in LB medium at 37°C; (6) Plate on antibiotic selection medium → transformants survive."
+      },
+      {
+       "en": "Transformation efficiency: 10⁵–10⁸ transformants/µg DNA."
+      },
+      {
+       "en": "Alternative: electroporation gives 10–100× higher efficiency."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**2. Explain transduction as a method of gene transfer. What are the types of viral vectors used?**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Definition: gene delivery using modified viral vectors; most efficient method for in vivo delivery."
+      },
+      {
+       "en": "Principle: viral pathogenic/replication genes removed → gene of interest inserted → packaged using packaging cell line → replication-deficient recombinant virus produced."
+      },
+      {
+       "en": "Types: (a) Retrovirus (MLV) — stable integration, dividing cells only; (b) Lentivirus (HIV-derived) — stable, non-dividing cells, used in CAR-T; (c) Adenovirus — high efficiency, episomal, transient; (d) AAV — safe, long-term expression, used in Luxturna, Zolgensma."
+      },
+      {
+       "en": "Limitations: insert size limited by capsid; insertional mutagenesis risk (retroviruses); immune response."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**3. Describe electroporation and liposome fusion as methods for introducing DNA into eukaryotic cells.**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Electroporation:** high-voltage electric pulse (0.1–10 kV/cm) → temporary pores in lipid bilayer → DNA enters by electrophoresis and diffusion → pores reseal → cell recovers. Works for bacteria and eukaryotes. Good for hard-to-transfect cells. Used for CRISPR-Cas9 delivery."
+      },
+      {
+       "en": "**Liposome fusion:** cationic lipids + DNA → lipoplex → binds cell surface (electrostatic) → endocytosis → endosomal escape → DNA in cytoplasm → nuclear entry. Advantages: protects DNA; targetable; in vivo use. Example: LNPs in mRNA COVID-19 vaccines."
+      },
+      {
+       "en": "Compare: electroporation is physical (electric); liposome is chemical (lipid-based). Both can transfect non-dividing cells. Liposomes can be targeted; electroporation is universal."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**4. What is microinjection? Explain its role in creating transgenic animals.**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Definition: direct mechanical injection of DNA into individual cells using glass needle (0.1–0.5 µm tip) under micromanipulator guidance."
+      },
+      {
+       "en": "Procedure: fertilised egg held by suction pipette → DNA solution in injection needle → needle inserted into male pronucleus → DNA injected → egg transferred to surrogate mother."
+      },
+      {
+       "en": "Transgenic mouse creation: pioneer work by Gordon and Ruddle (1981). DNA integrates randomly into chromosomes → expression in all cells of resulting animal → stable germline transmission."
+      },
+      {
+       "en": "Advantages: direct, no carrier needed; can deliver any molecule. Limitations: extremely low throughput (one cell at a time); high technical skill; cell damage risk."
+      },
+      {
+       "en": "Clinical application: ICSI (intracytoplasmic sperm injection) in human IVF."
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**5. Compare any four methods of introducing recombinant DNA into host cells. (4-mark table question)**"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints (structured as a comparison table):**"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Transformation:** Prokaryotes; CaCl₂/heat shock; moderate efficiency; simple, cheap; bacteria only; gene cloning."
+      },
+      {
+       "en": "**Transduction:** Eukaryotes (dividing + non-dividing); viral infection; very high efficiency; stable integration; capsid size limit; gene therapy."
+      },
+      {
+       "en": "**Electroporation:** Prokaryotes + eukaryotes; electric pulse creates pores; high efficiency; universal; high cell death risk; CRISPR delivery."
+      },
+      {
+       "en": "**Microinjection:** Large cells (oocytes); mechanical injection into nucleus; high per cell but very low throughput; direct, no carrier; transgenic animals."
+      },
+      {
+       "en": "**Liposome Fusion:** Eukaryotes; lipoplex + endocytosis + endosomal escape; moderate–high; targetable; endosomal entrapment; mRNA vaccines, siRNA delivery."
+      },
+      {
+       "en": "Draw a table with columns: Method | Cell Type | Mechanism | Efficiency | Application."
+      }
+     ]
+    }
+   ],
+   "icon": "🎓",
+   "label": "Section 12"
+  }
+ ],
+ "skipped": [
+  "quiz"
+ ],
+ "dropped": [
+  {
+   "selector": "nav",
+   "count": 1,
+   "sample": [
+    "Home Intro Prokaryotic Eukaryotic All Methods Diagrams Compa"
+   ]
+  },
+  {
+   "selector": "footer",
+   "count": 1,
+   "sample": [
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh"
+   ]
+  },
+  {
+   "selector": ".rh",
+   "count": 8,
+   "sample": [
+    "Click to reveal",
+    "Click to reveal",
+    "Click to reveal"
+   ]
+  }
+ ],
+ "extractor": "1"
+}
