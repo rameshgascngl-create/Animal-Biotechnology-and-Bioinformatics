@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Render every source diagram to PNG in Chrome: <id>.png (English) and <id>_ta.png (Tamil labels from ta_strings.json).
 Usage: render.py [--ids a,b] [--en-only]   Existing hand-art ids (art.py) are skipped."""
-import json, glob, os, re, sys, collections
+import json, glob, os, re, sys, collections, shutil
 from playwright.sync_api import sync_playwright
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.join(HERE, '..', '..')
 OUT = os.path.join(ROOT, 'app/src/main/assets/diagrams')
@@ -27,8 +27,9 @@ SHOW = """(i) => { const s=document.querySelectorAll('svg')[i]; let e=s;
     e=e.parentElement; }
   document.querySelectorAll('*').forEach(x=>{const c=getComputedStyle(x).position; if((c==='fixed'||c==='sticky') && !x.contains(s)) x.style.setProperty('display','none','important');});
   s.scrollIntoView(); const r=s.getBoundingClientRect(); return [r.width,r.height]; }"""
-TRANS = """([map, font, fontb]) => { const s = document.querySelectorAll('svg')[window.__i];
+TRANS = """async ([map, font, fontb]) => { const s = document.querySelectorAll('svg')[window.__i];
   const st=document.createElement('style'); st.textContent=`@font-face{font-family:TamilD;src:url(${font});font-weight:400}@font-face{font-family:TamilD;src:url(${fontb});font-weight:700}`; document.head.appendChild(st);
+  await document.fonts.load('12px TamilD'); await document.fonts.load('700 12px TamilD'); await document.fonts.ready;
   const texts=[...s.querySelectorAll('text')]; const ow=new Map(); texts.forEach(t=>ow.set(t,t.getBBox().width));
   const w=document.createTreeWalker(s, NodeFilter.SHOW_TEXT); let n; const nodes=[]; while(n=w.nextNode()) nodes.push(n);
   let hit=0, miss=0; const touched=new Set();
@@ -41,7 +42,7 @@ def main():
     os.makedirs(OUT, exist_ok=True)
     done = 0
     with sync_playwright() as p:
-        b = p.chromium.launch(executable_path='/usr/bin/google-chrome', args=['--no-sandbox'])
+        b = p.chromium.launch(executable_path=os.environ.get('CHROME_BIN') or shutil.which('google-chrome') or shutil.which('chromium'), args=['--no-sandbox'])
         pg = b.new_page(viewport={'width': 960, 'height': 900}, device_scale_factor=2)
         for fn in sorted(inv):
             stem = fn[:-5]
@@ -65,4 +66,5 @@ def main():
                     pg.reload(); pg.wait_for_timeout(300)
         b.close()
     print('rendered', done)
-main()
+if __name__ == "__main__":
+    main()
