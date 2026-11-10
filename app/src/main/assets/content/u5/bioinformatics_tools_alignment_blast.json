@@ -2,19 +2,25 @@
  "id": "bioinformatics_tools_alignment_blast",
  "unit": "V",
  "title": {
-  "en": "Alignment, BLAST & Structure Tools"
+  "en": "Alignment, BLAST & Structure Tools",
+  "ta": "ஒழுங்கமைவு, BLAST மற்றும் கட்டமைப்புக் கருவிகள்",
+  "ta_status": "draft"
  },
  "sections": [
   {
    "id": "s01",
    "title": {
-    "en": "Overview"
+    "en": "Overview",
+    "ta": "மேலோட்டம்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "🔍 Unit V · Bioinformatics"
+      "en": "🔍 Unit V · Bioinformatics",
+      "ta": "🔍 அலகு V · உயிரித் தகவலியல்",
+      "ta_status": "draft"
      }
     }
    ]
@@ -22,31 +28,41 @@
   {
    "id": "s02",
    "title": {
-    "en": "Bioinformatics Tools: Sequence Alignment, BLAST and Structure Viewers"
+    "en": "Bioinformatics Tools: Sequence Alignment, BLAST and Structure Viewers",
+    "ta": "உயிரித் தகவலியல் கருவிகள்: வரிசை ஒழுங்கமைவு, BLAST, கட்டமைப்புக் காட்டிகள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Pairwise and Multiple Alignment · BLAST · FASTA · RasMol · Swiss-PdbViewer"
+      "en": "Pairwise and Multiple Alignment · BLAST · FASTA · RasMol · Swiss-PdbViewer",
+      "ta": "இரட்டை, பல்வரிசை ஒழுங்கமைவு · BLAST · FASTA · RasMol · Swiss-PdbViewer",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Once sequences and structures are stored in databases, we need tools to compare and view them. This module explains how sequences are aligned, how BLAST and FASTA find relatives in huge databases, how protein structures are visualised, and where bioinformatics is applied. A live calculator lets you build a Needleman–Wunsch or Smith–Waterman matrix yourself."
+      "en": "Once sequences and structures are stored in databases, we need tools to compare and view them. This module explains how sequences are aligned, how BLAST and FASTA find relatives in huge databases, how protein structures are visualised, and where bioinformatics is applied. A live calculator lets you build a Needleman–Wunsch or Smith–Waterman matrix yourself.",
+      "ta": "வரிசைகளும் கட்டமைப்புகளும் தரவுத்தளங்களில் சேமிக்கப்பட்ட பின், அவற்றை ஒப்பிடவும் பார்க்கவும் கருவிகள் தேவை. இப்பகுதி வரிசைகள் எவ்வாறு ஒழுங்கமைக்கப்படுகின்றன, பெரிய தரவுத்தளங்களில் BLAST, FASTA உறவுகளை எவ்வாறு கண்டறிகின்றன, புரதக் கட்டமைப்புகள் எவ்வாறு காட்சிப்படுத்தப்படுகின்றன, உயிரித் தகவலியல் எங்கெல்லாம் பயன்படுகிறது என்பதை விளக்குகிறது. நேரடிக் கணிப்பான் மூலம் நீட்ல்மேன்–வுன்ஷ் அல்லது ஸ்மித்–வாட்டர்மேன் அணியை நீங்களே உருவாக்கலாம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "📚 5 chapters🎯 10 MCQs📝 Exam questions🎓 B.Sc. Zoology / Biotechnology"
+      "en": "📚 5 chapters🎯 10 MCQs📝 Exam questions🎓 B.Sc. Zoology / Biotechnology",
+      "ta": "📚 5 அத்தியாயங்கள்🎯 10 MCQ-கள்📝 தேர்வு வினாக்கள்🎓 B.Sc. விலங்கியல் / உயிரித் தொழில்நுட்பவியல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🎯 Learning Objectives**"
+      "en": "**🎯 Learning Objectives**",
+      "ta": "**🎯 கற்றல் நோக்கங்கள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -54,26 +70,38 @@
      "ordered": false,
      "items": [
       {
-       "en": "✓Differentiate global and local pairwise alignment and perform a small alignment by hand."
+       "en": "✓Differentiate global and local pairwise alignment and perform a small alignment by hand.",
+       "ta": "✓முழுநீள, பகுதி இரட்டை ஒழுங்கமைவுகளை வேறுபடுத்தி, சிறிய ஒழுங்கமைவைக் கையால் செய்க.",
+       "ta_status": "draft"
       },
       {
-       "en": "✓Explain substitution matrices and gap penalties."
+       "en": "✓Explain substitution matrices and gap penalties.",
+       "ta": "✓பதிலீட்டு அணிகளையும் இடைவெளித் தண்டங்களையும் விளக்குக.",
+       "ta_status": "draft"
       },
       {
-       "en": "✓Describe progressive multiple sequence alignment."
+       "en": "✓Describe progressive multiple sequence alignment.",
+       "ta": "✓படிப்படியான பல்வரிசை ஒழுங்கமைவை விவரிக்க.",
+       "ta_status": "draft"
       },
       {
-       "en": "✓Explain the working and interpretation of BLAST and compare it with FASTA."
+       "en": "✓Explain the working and interpretation of BLAST and compare it with FASTA.",
+       "ta": "✓BLAST-இன் செயல்பாட்டையும் பொருள்கோடலையும் விளக்கி FASTA-வுடன் ஒப்பிடுக.",
+       "ta_status": "draft"
       },
       {
-       "en": "✓Describe RasMol and Swiss-PdbViewer and list the scope of bioinformatics."
+       "en": "✓Describe RasMol and Swiss-PdbViewer and list the scope of bioinformatics.",
+       "ta": "✓RasMol, Swiss-PdbViewer-ஐ விவரித்து உயிரித் தகவலியலின் நோக்கெல்லையைப் பட்டியலிடுக.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "Highlighted cells show the trace-back path."
+      "en": "Highlighted cells show the trace-back path.",
+      "ta": "ஒளியூட்டிய கட்டங்கள் பின்தடமறிதல் பாதையைக் காட்டுகின்றன.",
+      "ta_status": "draft"
      }
     }
    ]
@@ -81,71 +109,101 @@
   {
    "id": "s03",
    "title": {
-    "en": "Sequence Alignment: Concepts and Pairwise Alignment"
+    "en": "Sequence Alignment: Concepts and Pairwise Alignment",
+    "ta": "வரிசை ஒழுங்கமைவு: கருத்துகளும் இரட்டை ஒழுங்கமைவும்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Alignment arranges sequences to reveal similarity that may reflect shared ancestry, structure or function."
+      "en": "Alignment arranges sequences to reveal similarity that may reflect shared ancestry, structure or function.",
+      "ta": "ஒழுங்கமைவு, பொது மூதாதை, கட்டமைப்பு அல்லது செயலைப் பிரதிபலிக்கக்கூடிய ஒப்புமையை வெளிப்படுத்த வரிசைகளை அடுக்குகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Sequence alignment\nA way of arranging DNA, RNA or protein sequences to identify regions of similarity, by introducing gaps where needed, that may be due to functional, structural or evolutionary relationships."
+      "en": "Sequence alignment\nA way of arranging DNA, RNA or protein sequences to identify regions of similarity, by introducing gaps where needed, that may be due to functional, structural or evolutionary relationships.",
+      "ta": "வரிசை ஒழுங்கமைவு\nசெயல், கட்டமைப்பு அல்லது பரிணாம உறவுகளால் ஏற்பட்டிருக்கக்கூடிய ஒப்புமைப் பகுதிகளை அடையாளம் காண, தேவையான இடங்களில் இடைவெளிகளைச் சேர்த்து DNA, RNA அல்லது புரத வரிசைகளை அடுக்கும் முறை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "table",
      "header": [
       {
-       "en": "Term"
+       "en": "Term",
+       "ta": "சொல்",
+       "ta_status": "draft"
       },
       {
-       "en": "Meaning"
+       "en": "Meaning",
+       "ta": "பொருள்",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Identity**"
+        "en": "**Identity**",
+        "ta": "**ஒத்தமைவு**",
+        "ta_status": "draft"
        },
        {
-        "en": "Percentage of positions with exactly the same residue"
+        "en": "Percentage of positions with exactly the same residue",
+        "ta": "சரியாக ஒரே அமினோ அமிலம் உள்ள இடங்களின் சதவீதம்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Similarity**"
+        "en": "**Similarity**",
+        "ta": "**ஒப்புமை**",
+        "ta_status": "draft"
        },
        {
-        "en": "Percentage of positions with identical or chemically similar residues (positive score in the matrix)"
+        "en": "Percentage of positions with identical or chemically similar residues (positive score in the matrix)",
+        "ta": "ஒத்த அல்லது வேதியியல் ரீதியாக ஒத்த அமினோ அமிலங்கள் உள்ள இடங்களின் சதவீதம் (அணியில் நேர்மறை மதிப்பெண்)",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Homology**"
+        "en": "**Homology**",
+        "ta": "**ஹோமாலஜி**",
+        "ta_status": "draft"
        },
        {
-        "en": "Shared ancestry. It is either present or absent; **not** a percentage"
+        "en": "Shared ancestry. It is either present or absent; **not** a percentage",
+        "ta": "பொது மூதாதை. இது இருக்கும் அல்லது இராது; **சதவீதம் அல்ல**",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Orthologues**"
+        "en": "**Orthologues**",
+        "ta": "**ஆர்த்தோலாக்குகள்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Homologous genes in different species, from speciation"
+        "en": "Homologous genes in different species, from speciation",
+        "ta": "இனப்பிரிவால் வேறுபட்ட இனங்களிலுள்ள ஹோமோலாக் மரபணுக்கள்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Paralogues**"
+        "en": "**Paralogues**",
+        "ta": "**பாராலாக்குகள்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Homologous genes in the same species, from duplication"
+        "en": "Homologous genes in the same species, from duplication",
+        "ta": "மரபணு இரட்டிப்பால் ஒரே இனத்திலுள்ள ஹோமோலாக் மரபணுக்கள்",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -153,65 +211,97 @@
     {
      "type": "p",
      "text": {
-      "en": "**Pairwise alignment: two types**"
+      "en": "**Pairwise alignment: two types**",
+      "ta": "**இரட்டை ஒழுங்கமைவு: இரு வகைகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "table",
      "header": [
       {
-       "en": ""
+       "en": "",
+       "ta": "",
+       "ta_status": "draft"
       },
       {
-       "en": "Global"
+       "en": "Global",
+       "ta": "முழுநீளம்",
+       "ta_status": "draft"
       },
       {
-       "en": "Local"
+       "en": "Local",
+       "ta": "பகுதி",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Aligns**"
+        "en": "**Aligns**",
+        "ta": "**ஒழுங்கமைப்பது**",
+        "ta_status": "draft"
        },
        {
-        "en": "Entire length of both sequences"
+        "en": "Entire length of both sequences",
+        "ta": "இரு வரிசைகளின் முழு நீளம்",
+        "ta_status": "draft"
        },
        {
-        "en": "Only the best matching regions"
+        "en": "Only the best matching regions",
+        "ta": "மிகப் பொருந்தும் பகுதிகள் மட்டும்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Algorithm**"
+        "en": "**Algorithm**",
+        "ta": "**படிமுறை**",
+        "ta_status": "draft"
        },
        {
-        "en": "Needleman–Wunsch (1970)"
+        "en": "Needleman–Wunsch (1970)",
+        "ta": "நீட்ல்மேன்–வுன்ஷ் (1970)",
+        "ta_status": "draft"
        },
        {
-        "en": "Smith–Waterman (1981)"
+        "en": "Smith–Waterman (1981)",
+        "ta": "ஸ்மித்–வாட்டர்மேன் (1981)",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Best for**"
+        "en": "**Best for**",
+        "ta": "**ஏற்றது**",
+        "ta_status": "draft"
        },
        {
-        "en": "Closely related, similar-length sequences"
+        "en": "Closely related, similar-length sequences",
+        "ta": "நெருங்கிய தொடர்புடைய, ஒத்த நீள வரிசைகள்",
+        "ta_status": "draft"
        },
        {
-        "en": "Divergent sequences; shared domains or motifs"
+        "en": "Divergent sequences; shared domains or motifs",
+        "ta": "விலகிய வரிசைகள்; பகிரப்பட்ட களங்கள் அல்லது மையக்கருக்கள்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Matrix rule**"
+        "en": "**Matrix rule**",
+        "ta": "**அணி விதி**",
+        "ta_status": "draft"
        },
        {
-        "en": "Scores can be negative; trace back from bottom-right"
+        "en": "Scores can be negative; trace back from bottom-right",
+        "ta": "மதிப்பெண்கள் எதிர்மறையாகலாம்; வலது-கீழிலிருந்து பின்தடமறிதல்",
+        "ta_status": "draft"
        },
        {
-        "en": "Scores floored at 0; trace back from highest score to 0"
+        "en": "Scores floored at 0; trace back from highest score to 0",
+        "ta": "மதிப்பெண்கள் 0-க்குக் கீழே செல்லாது; அதிகபட்ச மதிப்பெண்ணிலிருந்து 0 வரை பின்தடமறிதல்",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -219,7 +309,9 @@
     {
      "type": "p",
      "text": {
-      "en": "**Scoring**"
+      "en": "**Scoring**",
+      "ta": "**மதிப்பிடல்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -227,57 +319,77 @@
      "ordered": false,
      "items": [
       {
-       "en": "**DNA**: simple match / mismatch (for example +1 / −1)."
+       "en": "**DNA**: simple match / mismatch (for example +1 / −1).",
+       "ta": "**DNA**: எளிய பொருத்தம் / பொருந்தாமை (எ.கா. +1 / −1).",
+       "ta_status": "draft"
       },
       {
-       "en": "**Proteins**: substitution matrices **PAM** (Dayhoff, evolutionary model) and **BLOSUM** (Henikoff, from conserved blocks; BLOSUM62 is the default in BLAST)."
+       "en": "**Proteins**: substitution matrices **PAM** (Dayhoff, evolutionary model) and **BLOSUM** (Henikoff, from conserved blocks; BLOSUM62 is the default in BLAST).",
+       "ta": "**புரதங்கள்**: பதிலீட்டு அணிகள் **PAM** (டேஹாஃப், பரிணாம மாதிரி), **BLOSUM** (ஹெனிகாஃப், பாதுகாக்கப்பட்ட தொகுதிகளிலிருந்து; BLAST-இல் BLOSUM62 இயல்பு).",
+       "ta_status": "draft"
       },
       {
-       "en": "**Gap penalties**: linear, or affine (gap opening + extension), because one long gap is more likely than many short ones."
+       "en": "**Gap penalties**: linear, or affine (gap opening + extension), because one long gap is more likely than many short ones.",
+       "ta": "**இடைவெளித் தண்டங்கள்**: நேரியல் அல்லது அஃபைன் (இடைவெளி தொடக்கம் + நீட்சி), ஏனெனில் பல குறுகிய இடைவெளிகளைவிட ஒரு நீண்ட இடைவெளி ஏற்பட வாய்ப்பு அதிகம்.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Dynamic programming in one line**"
+      "en": "**Dynamic programming in one line**",
+      "ta": "**இயக்கநிலைத் திட்டமிடல் ஒரே வரியில்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Cell rule**\nF(i,j) = max of [ F(i−1,j−1) + s(ai,bj) | F(i−1,j) + gap | F(i,j−1) + gap ] (Smith–Waterman also includes 0)."
+      "en": "**Cell rule**\nF(i,j) = max of [ F(i−1,j−1) + s(ai,bj) | F(i−1,j) + gap | F(i,j−1) + gap ] (Smith–Waterman also includes 0).",
+      "ta": "**கட்ட விதி**\nF(i,j) = [ F(i−1,j−1) + s(ai,bj) | F(i−1,j) + இடைவெளி | F(i,j−1) + இடைவெளி ] இவற்றின் பெருமம் (ஸ்மித்–வாட்டர்மேனில் 0-வும் சேரும்).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Try it: alignment calculator**"
+      "en": "**Try it: alignment calculator**",
+      "ta": "**முயன்று பார்க்க: ஒழுங்கமைவுக் கணிப்பான்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Sequence 1 Sequence 2"
+      "en": "Sequence 1 Sequence 2",
+      "ta": "வரிசை 1 வரிசை 2",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Match Mismatch Gap (linear) ModeGlobal (NW)Local (SW)"
+      "en": "Match Mismatch Gap (linear) ModeGlobal (NW)Local (SW)",
+      "ta": "பொருத்தம் பொருந்தாமை இடைவெளி (நேரியல்) முறைமுழுநீளம் (NW)பகுதி (SW)",
+      "ta_status": "bracketed"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Press **Align** to fill the matrix and trace back."
+      "en": "Press **Align** to fill the matrix and trace back.",
+      "ta": "அணியை நிரப்பிப் பின்தடமறிய **ஒழுங்கமை** அழுத்துக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Use letters A–Z. Change the scores or switch to local mode to see how the result changes. Dot-plots and the DP matrix show the same idea visually."
+      "en": "Use letters A–Z. Change the scores or switch to local mode to see how the result changes. Dot-plots and the DP matrix show the same idea visually.",
+      "ta": "A–Z எழுத்துகளைப் பயன்படுத்துக. முடிவு எவ்வாறு மாறுகிறது என்பதைக் காண மதிப்பெண்களை மாற்றுக அல்லது பகுதி முறைக்கு மாறுக. புள்ளி வரைபடங்களும் DP அணியும் இதே கருத்தைக் காட்சிவழிக் காட்டுகின்றன.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -286,100 +398,140 @@
   {
    "id": "s04",
    "title": {
-    "en": "Multiple Sequence Alignment (MSA)"
+    "en": "Multiple Sequence Alignment (MSA)",
+    "ta": "பல்வரிசை ஒழுங்கமைவு (MSA)",
+    "ta_status": "bracketed"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "MSA aligns three or more sequences, exposing conserved residues that mark functionally important sites."
+      "en": "MSA aligns three or more sequences, exposing conserved residues that mark functionally important sites.",
+      "ta": "MSA மூன்று அல்லது மேற்பட்ட வரிசைகளை ஒழுங்கமைத்து, செயல்முக்கியத் தளங்களைக் குறிக்கும் பாதுகாக்கப்பட்ட அமினோ அமிலங்களை வெளிப்படுத்துகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Exact dynamic programming for N sequences is computationally impractical (time grows as 2N × LN), so practical tools use **heuristics**."
+      "en": "Exact dynamic programming for N sequences is computationally impractical (time grows as 2N × LN), so practical tools use **heuristics**.",
+      "ta": "N வரிசைகளுக்குத் துல்லிய இயக்கநிலைத் திட்டமிடல் கணக்கீட்டுரீதியாக நடைமுறைக்கு ஒவ்வாதது (நேரம் 2N × LN ஆக வளரும்); எனவே நடைமுறைக் கருவிகள் **ஹியூரிஸ்டிக்குகளைப்** பயன்படுத்துகின்றன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**1. Pairwise**all vs all"
+      "en": "**1. Pairwise**all vs all",
+      "ta": "**1. இரட்டை**அனைத்தும் அனைத்துடன்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**2. Guide tree**clustering"
+      "en": "**2. Guide tree**clustering",
+      "ta": "**2. வழிகாட்டி மரம்**கொத்தாக்கல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**3. Progressive**add in order"
+      "en": "**3. Progressive**add in order",
+      "ta": "**3. படிப்படியானது**வரிசையாகச் சேர்த்தல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**4. Refine**iteration"
+      "en": "**4. Refine**iteration",
+      "ta": "**4. மேம்படுத்தல்**திரும்பச்செய்தல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click a step to see what happens."
+      "en": "Click a step to see what happens.",
+      "ta": "என்ன நிகழ்கிறது எனக் காண ஒரு படியைத் தொடுக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "table",
      "header": [
       {
-       "en": "Tool"
+       "en": "Tool",
+       "ta": "கருவி",
+       "ta_status": "draft"
       },
       {
-       "en": "Feature"
+       "en": "Feature",
+       "ta": "அம்சம்",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Clustal** (ClustalW, Clustal Omega)**"
+        "en": "**Clustal** (ClustalW, Clustal Omega)**",
+        "ta": "**Clustal** (ClustalW, Clustal Omega)**",
+        "ta_status": "draft"
        },
        {
-        "en": "Classic progressive method; Clustal Omega scales to thousands of sequences"
+        "en": "Classic progressive method; Clustal Omega scales to thousands of sequences",
+        "ta": "பாரம்பரியப் படிப்படியான முறை; Clustal Omega ஆயிரக்கணக்கான வரிசைகள் வரை அளவிடும்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**MUSCLE**"
+        "en": "**MUSCLE**",
+        "ta": "**MUSCLE**",
+        "ta_status": "draft"
        },
        {
-        "en": "Fast and accurate; iterative refinement"
+        "en": "Fast and accurate; iterative refinement",
+        "ta": "வேகமானது, துல்லியமானது; திரும்பச்செய்து மேம்படுத்தல்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**MAFFT**"
+        "en": "**MAFFT**",
+        "ta": "**MAFFT**",
+        "ta_status": "draft"
        },
        {
-        "en": "Fast Fourier transform; suited for large data sets"
+        "en": "Fast Fourier transform; suited for large data sets",
+        "ta": "வேக ஃபூரியர் உருமாற்றம்; பெரிய தரவுத்தொகுப்புகளுக்கு ஏற்றது",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**T-Coffee**"
+        "en": "**T-Coffee**",
+        "ta": "**T-Coffee**",
+        "ta_status": "draft"
        },
        {
-        "en": "Combines multiple sources of information for consistency"
+        "en": "Combines multiple sources of information for consistency",
+        "ta": "நிலைத்தன்மைக்கு பல தகவல் மூலங்களை இணைக்கும்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Jalview**"
+        "en": "**Jalview**",
+        "ta": "**Jalview**",
+        "ta_status": "draft"
        },
        {
-        "en": "Viewer and editor for alignments"
+        "en": "Viewer and editor for alignments",
+        "ta": "ஒழுங்கமைவுகளுக்கான காட்டியும் திருத்தியும்",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -387,62 +539,82 @@
     {
      "type": "p",
      "text": {
-      "en": "**Applications of MSA**"
+      "en": "**Applications of MSA**",
+      "ta": "**MSA-வின் பயன்பாடுகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Phylogenetics**"
+      "en": "**Phylogenetics**",
+      "ta": "**பரிணாம மரவியல்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Basis of evolutionary trees."
+      "en": "Basis of evolutionary trees.",
+      "ta": "பரிணாம மரங்களுக்கு அடிப்படை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Motifs and domains**"
+      "en": "**Motifs and domains**",
+      "ta": "**மையக்கருக்களும் களங்களும்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Find conserved regions and build profiles / HMMs (Pfam)."
+      "en": "Find conserved regions and build profiles / HMMs (Pfam).",
+      "ta": "பாதுகாக்கப்பட்ட பகுதிகளைக் கண்டறிந்து சுயவிவரங்கள் / HMM-களை உருவாக்குதல் (Pfam).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Primer design**"
+      "en": "**Primer design**",
+      "ta": "**பிரைமர் வடிவமைப்பு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Identify conserved regions for degenerate primers."
+      "en": "Identify conserved regions for degenerate primers.",
+      "ta": "சிதைந்த பிரைமர்களுக்குப் பாதுகாக்கப்பட்ட பகுதிகளை அடையாளம் காணுதல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Structure prediction**"
+      "en": "**Structure prediction**",
+      "ta": "**கட்டமைப்புக் கணிப்பு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Co-varying residues help predict 3-D contacts."
+      "en": "Co-varying residues help predict 3-D contacts.",
+      "ta": "இணைந்து மாறும் அமினோ அமிலங்கள் முப்பரிமாணத் தொடர்புகளைக் கணிக்க உதவும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Reading an alignment**\nIn Clustal output: * = identical in all, : = strongly similar, . = weakly similar, blank = not conserved."
+      "en": "**Reading an alignment**\nIn Clustal output: * = identical in all, : = strongly similar, . = weakly similar, blank = not conserved.",
+      "ta": "**ஒழுங்கமைவை வாசித்தல்**\nClustal வெளியீட்டில்: * = அனைத்திலும் ஒத்தது, : = வலுவான ஒப்புமை, . = மெல்லிய ஒப்புமை, வெற்று = பாதுகாக்கப்படவில்லை.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -451,142 +623,208 @@
   {
    "id": "s05",
    "title": {
-    "en": "Database Similarity Search: BLAST and FASTA"
+    "en": "Database Similarity Search: BLAST and FASTA",
+    "ta": "தரவுத்தள ஒப்புமைத் தேடல்: BLAST மற்றும் FASTA",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Searching a database of millions of sequences needs speed; both tools use heuristics instead of full dynamic programming."
+      "en": "Searching a database of millions of sequences needs speed; both tools use heuristics instead of full dynamic programming.",
+      "ta": "மில்லியன் கணக்கான வரிசைகளுள்ள தரவுத்தளத்தில் தேட வேகம் தேவை; இரு கருவிகளும் முழு இயக்கநிலைத் திட்டமிடலுக்குப் பதிலாக ஹியூரிஸ்டிக்குகளைப் பயன்படுத்துகின்றன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**1. Query**your sequence"
+      "en": "**1. Query**your sequence",
+      "ta": "**1. வினா**உங்கள் வரிசை",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**2. Words**seeds"
+      "en": "**2. Words**seeds",
+      "ta": "**2. சொற்கள்**விதைகள்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**3. Scan**database hits"
+      "en": "**3. Scan**database hits",
+      "ta": "**3. வருடல்**தரவுத்தளப் பொருத்தங்கள்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**4. Extend**HSPs"
+      "en": "**4. Extend**HSPs",
+      "ta": "**4. நீட்டிப்பு**HSP-கள்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**5. Statistics**E-value"
+      "en": "**5. Statistics**E-value",
+      "ta": "**5. புள்ளியியல்**E-மதிப்பு",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click a step to see what happens."
+      "en": "Click a step to see what happens.",
+      "ta": "என்ன நிகழ்கிறது எனக் காண ஒரு படியைத் தொடுக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**BLAST programs**"
+      "en": "**BLAST programs**",
+      "ta": "**BLAST நிரல்கள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "table",
      "header": [
       {
-       "en": "Program"
+       "en": "Program",
+       "ta": "நிரல்",
+       "ta_status": "draft"
       },
       {
-       "en": "Query"
+       "en": "Query",
+       "ta": "வினா",
+       "ta_status": "draft"
       },
       {
-       "en": "Database"
+       "en": "Database",
+       "ta": "தரவுத்தளம்",
+       "ta_status": "draft"
       },
       {
-       "en": "Use"
+       "en": "Use",
+       "ta": "பயன்",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**blastn**"
+        "en": "**blastn**",
+        "ta": "**blastn**",
+        "ta_status": "draft"
        },
        {
-        "en": "Nucleotide"
+        "en": "Nucleotide",
+        "ta": "நியுக்ளியோடைடு",
+        "ta_status": "draft"
        },
        {
-        "en": "Nucleotide"
+        "en": "Nucleotide",
+        "ta": "நியுக்ளியோடைடு",
+        "ta_status": "draft"
        },
        {
-        "en": "Identify DNA, find close relatives"
+        "en": "Identify DNA, find close relatives",
+        "ta": "DNA-வை அடையாளம் காணுதல், நெருங்கிய உறவுகளைக் கண்டறிதல்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**blastp**"
+        "en": "**blastp**",
+        "ta": "**blastp**",
+        "ta_status": "draft"
        },
        {
-        "en": "Protein"
+        "en": "Protein",
+        "ta": "புரதம்",
+        "ta_status": "draft"
        },
        {
-        "en": "Protein"
+        "en": "Protein",
+        "ta": "புரதம்",
+        "ta_status": "draft"
        },
        {
-        "en": "Find homologous proteins"
+        "en": "Find homologous proteins",
+        "ta": "ஹோமோலாக் புரதங்களைக் கண்டறிதல்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**blastx**"
+        "en": "**blastx**",
+        "ta": "**blastx**",
+        "ta_status": "draft"
        },
        {
-        "en": "Nucleotide (translated in 6 frames)"
+        "en": "Nucleotide (translated in 6 frames)",
+        "ta": "நியுக்ளியோடைடு (6 சட்டங்களில் மொழிபெயர்க்கப்பட்டது)",
+        "ta_status": "draft"
        },
        {
-        "en": "Protein"
+        "en": "Protein",
+        "ta": "புரதம்",
+        "ta_status": "draft"
        },
        {
-        "en": "Find protein products of an unknown DNA or EST"
+        "en": "Find protein products of an unknown DNA or EST",
+        "ta": "அறியப்படாத DNA அல்லது EST-யின் புரதப் பொருள்களைக் கண்டறிதல்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**tblastn**"
+        "en": "**tblastn**",
+        "ta": "**tblastn**",
+        "ta_status": "draft"
        },
        {
-        "en": "Protein"
+        "en": "Protein",
+        "ta": "புரதம்",
+        "ta_status": "draft"
        },
        {
-        "en": "Nucleotide (translated in 6 frames)"
+        "en": "Nucleotide (translated in 6 frames)",
+        "ta": "நியுக்ளியோடைடு (6 சட்டங்களில் மொழிபெயர்க்கப்பட்டது)",
+        "ta_status": "draft"
        },
        {
-        "en": "Find unannotated genes"
+        "en": "Find unannotated genes",
+        "ta": "குறிப்புரை செய்யப்படாத மரபணுக்களைக் கண்டறிதல்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**tblastx**"
+        "en": "**tblastx**",
+        "ta": "**tblastx**",
+        "ta_status": "draft"
        },
        {
-        "en": "Nucleotide (6 frames)"
+        "en": "Nucleotide (6 frames)",
+        "ta": "நியுக்ளியோடைடு (6 சட்டங்கள்)",
+        "ta_status": "draft"
        },
        {
-        "en": "Nucleotide (6 frames)"
+        "en": "Nucleotide (6 frames)",
+        "ta": "நியுக்ளியோடைடு (6 சட்டங்கள்)",
+        "ta_status": "draft"
        },
        {
-        "en": "Compare coding potential of two DNA sequences"
+        "en": "Compare coding potential of two DNA sequences",
+        "ta": "இரு DNA வரிசைகளின் குறியீட்டுத் திறனை ஒப்பிடுதல்",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -594,7 +832,9 @@
     {
      "type": "p",
      "text": {
-      "en": "**Interpreting results**"
+      "en": "**Interpreting results**",
+      "ta": "**முடிவுகளைப் பொருள்கொள்ளுதல்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -602,89 +842,133 @@
      "ordered": false,
      "items": [
       {
-       "en": "**E-value**: expected number of hits with this score or better by chance in a database of that size. Smaller is better; < 10−5–10−10 usually suggests significance."
+       "en": "**E-value**: expected number of hits with this score or better by chance in a database of that size. Smaller is better; < 10−5–10−10 usually suggests significance.",
+       "ta": "**E-மதிப்பு**: அவ்வளவு அளவுள்ள தரவுத்தளத்தில் இந்த மதிப்பெண் அல்லது சிறந்ததுடன் தற்செயலாக எதிர்பார்க்கப்படும் பொருத்தங்களின் எண்ணிக்கை. சிறியது சிறந்தது; < 10−5–10−10 பொதுவாக முக்கியத்துவத்தைக் குறிக்கும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Bit score**: normalised score, independent of the scoring system; higher is better."
+       "en": "**Bit score**: normalised score, independent of the scoring system; higher is better.",
+       "ta": "**பிட் மதிப்பெண்**: இயல்பாக்கப்பட்ட மதிப்பெண்; மதிப்பிடல் அமைப்பைச் சாராதது; அதிகமாக இருந்தால் சிறந்தது.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Query coverage** and **percent identity** should be read together with the E-value."
+       "en": "**Query coverage** and **percent identity** should be read together with the E-value.",
+       "ta": "**வினா மூடலும்** **சதவீத ஒத்தமைவும்** E-மதிப்புடன் சேர்த்து வாசிக்கப்பட வேண்டும்.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**BLAST versus FASTA**"
+      "en": "**BLAST versus FASTA**",
+      "ta": "**BLAST – FASTA**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "table",
      "header": [
       {
-       "en": ""
+       "en": "",
+       "ta": "",
+       "ta_status": "draft"
       },
       {
-       "en": "BLAST"
+       "en": "BLAST",
+       "ta": "BLAST",
+       "ta_status": "draft"
       },
       {
-       "en": "FASTA"
+       "en": "FASTA",
+       "ta": "FASTA",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Authors**"
+        "en": "**Authors**",
+        "ta": "**ஆசிரியர்கள்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Altschul _et al._ (1990), NCBI"
+        "en": "Altschul _et al._ (1990), NCBI",
+        "ta": "ஆல்ட்ஷுல் _மற்றும் பிறர்_ (1990), NCBI",
+        "ta_status": "draft"
        },
        {
-        "en": "Lipman and Pearson (1985)"
+        "en": "Lipman and Pearson (1985)",
+        "ta": "லிப்மேனும் பியர்சனும் (1985)",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Method**"
+        "en": "**Method**",
+        "ta": "**முறை**",
+        "ta_status": "draft"
        },
        {
-        "en": "Word matches, then ungapped / gapped extension to HSPs"
+        "en": "Word matches, then ungapped / gapped extension to HSPs",
+        "ta": "சொற் பொருத்தங்கள், பின்னர் இடைவெளியற்ற / இடைவெளியுடன் HSP-களுக்கு நீட்டிப்பு",
+        "ta_status": "draft"
        },
        {
-        "en": "Finds diagonal regions of k-tuple matches, rescores the best with a matrix, then does a banded Smith–Waterman"
+        "en": "Finds diagonal regions of k-tuple matches, rescores the best with a matrix, then does a banded Smith–Waterman",
+        "ta": "k-டியூபிள் பொருத்தங்களின் மூலைவிட்டப் பகுதிகளைக் கண்டறிந்து, சிறந்தவற்றை அணியால் மீண்டும் மதிப்பிட்டு, பின்னர் பட்டை ஸ்மித்–வாட்டர்மேன் செய்யும்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Word size**"
+        "en": "**Word size**",
+        "ta": "**சொல் அளவு**",
+        "ta_status": "draft"
        },
        {
-        "en": "3 (protein), 11 (DNA) default"
+        "en": "3 (protein), 11 (DNA) default",
+        "ta": "3 (புரதம்), 11 (DNA) இயல்பு",
+        "ta_status": "draft"
        },
        {
-        "en": "ktup 1–2 (protein), 4–6 (DNA)"
+        "en": "ktup 1–2 (protein), 4–6 (DNA)",
+        "ta": "ktup 1–2 (புரதம்), 4–6 (DNA)",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Strength**"
+        "en": "**Strength**",
+        "ta": "**வலிமை**",
+        "ta_status": "draft"
        },
        {
-        "en": "Very fast, widely used, strong statistics"
+        "en": "Very fast, widely used, strong statistics",
+        "ta": "மிக வேகமானது, பரவலாகப் பயன்படுவது, வலுவான புள்ளியியல்",
+        "ta_status": "draft"
        },
        {
-        "en": "More sensitive for distant matches at smaller ktup"
+        "en": "More sensitive for distant matches at smaller ktup",
+        "ta": "சிறிய ktup-இல் தொலைவான பொருத்தங்களுக்கு அதிக உணர்திறன்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Variants**"
+        "en": "**Variants**",
+        "ta": "**மாற்றுவடிவங்கள்**",
+        "ta_status": "draft"
        },
        {
-        "en": "PSI-BLAST (profile iterations), BLAT, DELTA-BLAST"
+        "en": "PSI-BLAST (profile iterations), BLAT, DELTA-BLAST",
+        "ta": "PSI-BLAST (சுயவிவரத் திரும்பச்செய்தல்), BLAT, DELTA-BLAST",
+        "ta_status": "draft"
        },
        {
-        "en": "FASTA, SSEARCH, FASTX/Y"
+        "en": "FASTA, SSEARCH, FASTX/Y",
+        "ta": "FASTA, SSEARCH, FASTX/Y",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -693,7 +977,9 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Sensitivity vs speed**\nHeuristic searches may miss weak matches that an exact Smith–Waterman search would find, but they run orders of magnitude faster."
+      "en": "**Sensitivity vs speed**\nHeuristic searches may miss weak matches that an exact Smith–Waterman search would find, but they run orders of magnitude faster.",
+      "ta": "**உணர்திறன் – வேகம்**\nஹியூரிஸ்டிக் தேடல்கள் துல்லியமான ஸ்மித்–வாட்டர்மேன் தேடல் கண்டறியும் பலவீனப் பொருத்தங்களைத் தவறவிடலாம்; ஆனால் பல மடங்கு வேகமாக இயங்கும்.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -702,88 +988,130 @@
   {
    "id": "s06",
    "title": {
-    "en": "Protein Structure Visualisation: RasMol and Swiss-PdbViewer"
+    "en": "Protein Structure Visualisation: RasMol and Swiss-PdbViewer",
+    "ta": "புரதக் கட்டமைப்புக் காட்சிப்படுத்தல்: RasMol மற்றும் Swiss-PdbViewer",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Structures from the Protein Data Bank (PDB files) can be rotated, coloured and measured on screen."
+      "en": "Structures from the Protein Data Bank (PDB files) can be rotated, coloured and measured on screen.",
+      "ta": "புரதத் தரவு வங்கியின் (PDB கோப்புகள்) கட்டமைப்புகளைத் திரையில் சுழற்றவும், வண்ணமிடவும், அளக்கவும் முடியும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "A **PDB file** is a text file listing the 3-D coordinates (x, y, z) of each atom. Visualisation software reads it and draws the molecule in many styles."
+      "en": "A **PDB file** is a text file listing the 3-D coordinates (x, y, z) of each atom. Visualisation software reads it and draws the molecule in many styles.",
+      "ta": "**PDB கோப்பு** என்பது ஒவ்வோர் அணுவின் முப்பரிமாண ஆயத்தொலைவுகளை (x, y, z) பட்டியலிடும் உரைக் கோப்பு. காட்சிப்படுத்தும் மென்பொருள் அதை வாசித்து மூலக்கூறை பல பாணிகளில் வரையும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "table",
      "header": [
       {
-       "en": ""
+       "en": "",
+       "ta": "",
+       "ta_status": "draft"
       },
       {
-       "en": "RasMol"
+       "en": "RasMol",
+       "ta": "RasMol",
+       "ta_status": "draft"
       },
       {
-       "en": "Swiss-PdbViewer (DeepView)"
+       "en": "Swiss-PdbViewer (DeepView)",
+       "ta": "Swiss-PdbViewer (DeepView)",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Developer**"
+        "en": "**Developer**",
+        "ta": "**உருவாக்குநர்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Roger Sayle (1990s); now open source"
+        "en": "Roger Sayle (1990s); now open source",
+        "ta": "ரோஜர் சேல் (1990கள்); இப்போது திறந்த மூலம்",
+        "ta_status": "draft"
        },
        {
-        "en": "Nicolas Guex and Manuel Peitsch, Swiss Institute of Bioinformatics"
+        "en": "Nicolas Guex and Manuel Peitsch, Swiss Institute of Bioinformatics",
+        "ta": "நிக்கோலா குவெக்ஸ், மானுவல் பெய்ட்ச், சுவிஸ் உயிரித் தகவலியல் நிறுவனம்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Platform**"
+        "en": "**Platform**",
+        "ta": "**தளம்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Windows, Mac, Unix"
+        "en": "Windows, Mac, Unix",
+        "ta": "Windows, Mac, Unix",
+        "ta_status": "draft"
        },
        {
-        "en": "Windows, Mac, Linux"
+        "en": "Windows, Mac, Linux",
+        "ta": "Windows, Mac, Linux",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Display styles**"
+        "en": "**Display styles**",
+        "ta": "**காட்சிப் பாணிகள்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Wireframe, backbone, sticks, spacefill, ball-and-stick, ribbons / cartoons"
+        "en": "Wireframe, backbone, sticks, spacefill, ball-and-stick, ribbons / cartoons",
+        "ta": "கம்பிச்சட்டம், முதுகெலும்பு, குச்சிகள், ஸ்பேஸ்ஃபில், பந்து-குச்சி, ரிப்பன்கள் / கார்ட்டூன்கள்",
+        "ta_status": "draft"
        },
        {
-        "en": "Similar styles plus surfaces and electron density"
+        "en": "Similar styles plus surfaces and electron density",
+        "ta": "ஒத்த பாணிகளுடன் மேற்பரப்புகளும் எலக்ட்ரான் அடர்த்தியும்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Special strengths**"
+        "en": "**Special strengths**",
+        "ta": "**சிறப்பு வலிமைகள்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Light, fast, command-line scripting"
+        "en": "Light, fast, command-line scripting",
+        "ta": "இலகுவானது, வேகமானது, கட்டளை வரி நிரலாக்கம்",
+        "ta_status": "draft"
        },
        {
-        "en": "Superimposing structures, measuring distances / angles, mutating residues, homology modelling with SWISS-MODEL"
+        "en": "Superimposing structures, measuring distances / angles, mutating residues, homology modelling with SWISS-MODEL",
+        "ta": "கட்டமைப்புகளை மேற்பொருத்துதல், தொலைவுகள் / கோணங்களை அளத்தல், அமினோ அமிலங்களை மாற்றுதல், SWISS-MODEL மூலம் ஹோமாலஜி மாதிரியாக்கம்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Inputs**"
+        "en": "**Inputs**",
+        "ta": "**உள்ளீடுகள்**",
+        "ta_status": "draft"
        },
        {
-        "en": "PDB, mmCIF, MDL Mol"
+        "en": "PDB, mmCIF, MDL Mol",
+        "ta": "PDB, mmCIF, MDL Mol",
+        "ta_status": "draft"
        },
        {
-        "en": "PDB; integrates with the SWISS-MODEL server"
+        "en": "PDB; integrates with the SWISS-MODEL server",
+        "ta": "PDB; SWISS-MODEL சேவையகத்துடன் ஒருங்கிணைந்தது",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -791,61 +1119,81 @@
     {
      "type": "p",
      "text": {
-      "en": "**Common colour schemes**"
+      "en": "**Common colour schemes**",
+      "ta": "**பொதுவான வண்ணத் திட்டங்கள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**By chain / structure**"
+      "en": "**By chain / structure**",
+      "ta": "**சங்கிலி / கட்டமைப்பு வாரியாக**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Helices, sheets and coils in different colours."
+      "en": "Helices, sheets and coils in different colours.",
+      "ta": "சுருள்கள், தகடுகள், சுருள்வளையங்கள் வெவ்வேறு நிறங்களில்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Hydrophobicity**"
+      "en": "**Hydrophobicity**",
+      "ta": "**நீர்வெறுப்புத் தன்மை**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Polar surface versus buried hydrophobic core."
+      "en": "Polar surface versus buried hydrophobic core.",
+      "ta": "முனைவுறு மேற்பரப்பு – புதைந்த நீர்வெறுப்பு மையம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Charge**"
+      "en": "**Charge**",
+      "ta": "**மின்னூட்டம்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Acidic (red) and basic (blue) residues."
+      "en": "Acidic (red) and basic (blue) residues.",
+      "ta": "அமில (சிவப்பு), கார (நீலம்) அமினோ அமிலங்கள்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Temperature (B-factor)**"
+      "en": "**Temperature (B-factor)**",
+      "ta": "**வெப்பநிலை (B-காரணி)**",
+      "ta_status": "bracketed"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Shows flexible regions."
+      "en": "Shows flexible regions.",
+      "ta": "நெகிழ்வான பகுதிகளைக் காட்டும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Other viewers**"
+      "en": "**Other viewers**",
+      "ta": "**பிற காட்டிகள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -853,10 +1201,14 @@
      "ordered": false,
      "items": [
       {
-       "en": "**PyMOL**, **UCSF ChimeraX**, **Jmol / JSmol**, **Mol** (browser-based, on RCSB PDB), **Cn3D** (NCBI)."
+       "en": "**PyMOL**, **UCSF ChimeraX**, **Jmol / JSmol**, **Mol** (browser-based, on RCSB PDB), **Cn3D** (NCBI).",
+       "ta": "**PyMOL**, **UCSF ChimeraX**, **Jmol / JSmol**, **Mol** (உலாவி அடிப்படையிலானது, RCSB PDB-இல்), **Cn3D** (NCBI).",
+       "ta_status": "draft"
       },
       {
-       "en": "The **AlphaFold** database provides predicted structures for proteins without experimental data."
+       "en": "The **AlphaFold** database provides predicted structures for proteins without experimental data.",
+       "ta": "சோதனைத் தரவு இல்லாத புரதங்களுக்கு **AlphaFold** தரவுத்தளம் கணிக்கப்பட்ட கட்டமைப்புகளை அளிக்கிறது.",
+       "ta_status": "draft"
       }
      ]
     },
@@ -864,7 +1216,9 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Typical tasks**\n• Identify active-site residues and ligands.\n• Measure distances (for example hydrogen bonds).\n• Compare wild type with mutant.\n• Prepare publication-quality figures."
+      "en": "**Typical tasks**\n• Identify active-site residues and ligands.\n• Measure distances (for example hydrogen bonds).\n• Compare wild type with mutant.\n• Prepare publication-quality figures.",
+      "ta": "**வழக்கமான பணிகள்**\n• செயல்படு தள அமினோ அமிலங்கள், ஈனிகளை அடையாளம் காணுதல்.\n• தொலைவுகளை (எ.கா. ஹைட்ரஜன் பிணைப்புகள்) அளத்தல்.\n• இயல்பு வகையை உருமாற்றத்துடன் ஒப்பிடுதல்.\n• வெளியீட்டுத் தர உருவங்களைத் தயாரித்தல்.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -873,103 +1227,89 @@
   {
    "id": "s07",
    "title": {
-    "en": "Scope and Applications of Bioinformatics"
+    "en": "Scope and Applications of Bioinformatics",
+    "ta": "உயிரித் தகவலியலின் நோக்கெல்லையும் பயன்பாடுகளும்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Bioinformatics combines biology, computer science and statistics to store, analyse and interpret biological data."
+      "en": "Bioinformatics combines biology, computer science and statistics to store, analyse and interpret biological data.",
+      "ta": "உயிரித் தகவலியல் உயிரியல், கணினி அறிவியல், புள்ளியியலை இணைத்து உயிரியல் தரவைச் சேமித்து, பகுத்தாய்ந்து, பொருள்கொள்கிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "1970"
+      "en": "1970",
+      "ta": "1970",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Term coined by Hesper and Hogeweg"
+      "en": "Term coined by Hesper and Hogeweg",
+      "ta": "ஹெஸ்பரும் ஹோகெவெக்கும் இச்சொல்லை உருவாக்கினர்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "1982"
+      "en": "1982",
+      "ta": "1982",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "GenBank/EMBL growth begins"
+      "en": "GenBank/EMBL growth begins",
+      "ta": "GenBank/EMBL வளர்ச்சி தொடக்கம்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "1990"
+      "en": "1990",
+      "ta": "1990",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "BLAST published"
+      "en": "BLAST published",
+      "ta": "BLAST வெளியிடப்பட்டது",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "2003"
+      "en": "2003",
+      "ta": "2003",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "HGP completes"
+      "en": "HGP completes",
+      "ta": "HGP நிறைவு",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Genomics**"
-     }
-    },
-    {
-     "type": "bullets",
-     "ordered": false,
-     "items": [
-      {
-       "en": "Genome assembly and annotation."
-      },
-      {
-       "en": "Gene finding and comparative genomics."
-      }
-     ]
-    },
-    {
-     "type": "p",
-     "text": {
-      "en": "**Proteomics**"
-     }
-    },
-    {
-     "type": "bullets",
-     "ordered": false,
-     "items": [
-      {
-       "en": "Protein identification and structure prediction."
-      },
-      {
-       "en": "Protein–protein interaction networks."
-      }
-     ]
-    },
-    {
-     "type": "p",
-     "text": {
-      "en": "**Drug discovery**"
+      "en": "**Genomics**",
+      "ta": "**மரபணுத்தொகையியல்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -977,17 +1317,23 @@
      "ordered": false,
      "items": [
       {
-       "en": "Target identification."
+       "en": "Genome assembly and annotation.",
+       "ta": "மரபணுத்தொகையத் தொகுப்பும் குறிப்புரையும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Molecular docking and virtual screening."
+       "en": "Gene finding and comparative genomics.",
+       "ta": "மரபணு கண்டறிதலும் ஒப்பீட்டு மரபணுத்தொகையியலும்.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Medicine**"
+      "en": "**Proteomics**",
+      "ta": "**புரதவியல்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -995,17 +1341,23 @@
      "ordered": false,
      "items": [
       {
-       "en": "Personalised medicine, pharmacogenomics."
+       "en": "Protein identification and structure prediction.",
+       "ta": "புரத அடையாளமும் கட்டமைப்புக் கணிப்பும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Variant interpretation, cancer genomics."
+       "en": "Protein–protein interaction networks.",
+       "ta": "புரத–புரத இடைவினை வலையமைப்புகள்.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Agriculture**"
+      "en": "**Drug discovery**",
+      "ta": "**மருந்து கண்டுபிடிப்பு**",
+      "ta_status": "draft"
      }
     },
     {
@@ -1013,17 +1365,23 @@
      "ordered": false,
      "items": [
       {
-       "en": "Crop and livestock genomics."
+       "en": "Target identification.",
+       "ta": "இலக்கு அடையாளம்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Marker-assisted breeding."
+       "en": "Molecular docking and virtual screening.",
+       "ta": "மூலக்கூறு டாக்கிங், மெய்நிகர் சலிக்கை.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Evolution & ecology**"
+      "en": "**Medicine**",
+      "ta": "**மருத்துவம்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -1031,60 +1389,128 @@
      "ordered": false,
      "items": [
       {
-       "en": "Phylogenetics, metagenomics, DNA barcoding."
+       "en": "Personalised medicine, pharmacogenomics.",
+       "ta": "தனிநபர் மருத்துவம், பார்மகோஜினோமிக்ஸ்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Conservation genetics."
+       "en": "Variant interpretation, cancer genomics.",
+       "ta": "மாறுபாட்டுப் பொருள்கோடல், புற்றுநோய் மரபணுத்தொகையியல்.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Typical workflow**"
+      "en": "**Agriculture**",
+      "ta": "**வேளாண்மை**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Crop and livestock genomics.",
+       "ta": "பயிர், கால்நடை மரபணுத்தொகையியல்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Marker-assisted breeding.",
+       "ta": "குறிப்பான் உதவி இனப்பெருக்கம்.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Evolution & ecology**",
+      "ta": "**பரிணாமமும் சூழலியலும்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Phylogenetics, metagenomics, DNA barcoding.",
+       "ta": "பரிணாம மரவியல், மெட்டாஜினோமிக்ஸ், DNA பார்கோடிங்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Conservation genetics.",
+       "ta": "பாதுகாப்பு மரபியல்.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Typical workflow**",
+      "ta": "**வழக்கமான பணிப்போக்கு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**1. Data**sequences"
+      "en": "**1. Data**sequences",
+      "ta": "**1. தரவு**வரிசைகள்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**2. Process**quality control"
+      "en": "**2. Process**quality control",
+      "ta": "**2. செயலாக்கம்**தரக் கட்டுப்பாடு",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**3. Analyse**search & align"
+      "en": "**3. Analyse**search & align",
+      "ta": "**3. பகுப்பாய்வு**தேடலும் ஒழுங்கமைவும்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**4. Interpret**biology"
+      "en": "**4. Interpret**biology",
+      "ta": "**4. பொருள்கோடல்**உயிரியல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**5. Share**deposit"
+      "en": "**5. Share**deposit",
+      "ta": "**5. பகிர்வு**வைப்பு",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click a step to see what happens."
+      "en": "Click a step to see what happens.",
+      "ta": "என்ன நிகழ்கிறது எனக் காண ஒரு படியைத் தொடுக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Challenges**\n• Huge data volumes and storage.\n• Data quality and annotation errors.\n• Privacy of human genomic data.\n• Need for trained biologists who can code."
+      "en": "**Challenges**\n• Huge data volumes and storage.\n• Data quality and annotation errors.\n• Privacy of human genomic data.\n• Need for trained biologists who can code.",
+      "ta": "**சவால்கள்**\n• பெரிய தரவு அளவுகளும் சேமிப்பும்.\n• தரவுத் தரமும் குறிப்புரைப் பிழைகளும்.\n• மனித மரபணுத்தொகைய தரவின் தனியுரிமை.\n• நிரலாக்கத் தெரிந்த பயிற்சி பெற்ற உயிரியலாளர்களுக்கான தேவை.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -1093,235 +1519,313 @@
   {
    "id": "s08",
    "title": {
-    "en": "Summary & Exam Revision"
+    "en": "Summary & Exam Revision",
+    "ta": "சுருக்கமும் தேர்வுத் திருப்புதலும்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Key points and model answers likely to appear in university examinations."
+      "en": "Key points and model answers likely to appear in university examinations.",
+      "ta": "பல்கலைக்கழகத் தேர்வுகளில் வர வாய்ப்புள்ள முக்கியக் குறிப்புகளும் மாதிரி விடைகளும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Key exam points**"
+      "en": "**Key exam points**",
+      "ta": "**முக்கியத் தேர்வுக் குறிப்புகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "1"
+      "en": "1",
+      "ta": "1",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Global** = Needleman–Wunsch (1970); **local** = Smith–Waterman (1981); both use dynamic programming."
+      "en": "**Global** = Needleman–Wunsch (1970); **local** = Smith–Waterman (1981); both use dynamic programming.",
+      "ta": "**முழுநீளம்** = நீட்ல்மேன்–வுன்ஷ் (1970); **பகுதி** = ஸ்மித்–வாட்டர்மேன் (1981); இரண்டும் இயக்கநிலைத் திட்டமிடலைப் பயன்படுத்தும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "2"
+      "en": "2",
+      "ta": "2",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Scoring: match/mismatch (DNA); **PAM** and **BLOSUM** (proteins); linear or affine gap penalties."
+      "en": "Scoring: match/mismatch (DNA); **PAM** and **BLOSUM** (proteins); linear or affine gap penalties.",
+      "ta": "மதிப்பிடல்: பொருத்தம்/பொருந்தாமை (DNA); **PAM**, **BLOSUM** (புரதங்கள்); நேரியல் அல்லது அஃபைன் இடைவெளித் தண்டங்கள்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "3"
+      "en": "3",
+      "ta": "3",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Identity and similarity are percentages; **homology** is shared ancestry (orthologues vs paralogues)."
+      "en": "Identity and similarity are percentages; **homology** is shared ancestry (orthologues vs paralogues).",
+      "ta": "ஒத்தமைவும் ஒப்புமையும் சதவீதங்கள்; **ஹோமாலஜி** என்பது பொது மூதாதை (ஆர்த்தோலாக்குகள் – பாராலாக்குகள்).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "4"
+      "en": "4",
+      "ta": "4",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**MSA**: progressive using a guide tree (Clustal); iterative (MUSCLE, MAFFT)."
+      "en": "**MSA**: progressive using a guide tree (Clustal); iterative (MUSCLE, MAFFT).",
+      "ta": "**MSA**: வழிகாட்டி மரத்துடன் படிப்படியானது (Clustal); திரும்பச்செய்வது (MUSCLE, MAFFT).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "5"
+      "en": "5",
+      "ta": "5",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**BLAST** (Altschul, 1990): words → seeds → HSP extension → E-value / bit score."
+      "en": "**BLAST** (Altschul, 1990): words → seeds → HSP extension → E-value / bit score.",
+      "ta": "**BLAST** (ஆல்ட்ஷுல், 1990): சொற்கள் → விதைகள் → HSP நீட்டிப்பு → E-மதிப்பு / பிட் மதிப்பெண்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "6"
+      "en": "6",
+      "ta": "6",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "blastn, blastp, blastx, tblastn, tblastx."
+      "en": "blastn, blastp, blastx, tblastn, tblastx.",
+      "ta": "blastn, blastp, blastx, tblastn, tblastx.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "7"
+      "en": "7",
+      "ta": "7",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**FASTA** (Lipman and Pearson, 1985): k-tuple diagonals, rescoring, banded SW."
+      "en": "**FASTA** (Lipman and Pearson, 1985): k-tuple diagonals, rescoring, banded SW.",
+      "ta": "**FASTA** (லிப்மேனும் பியர்சனும், 1985): k-டியூபிள் மூலைவிட்டங்கள், மறுமதிப்பீடு, பட்டை SW.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "8"
+      "en": "8",
+      "ta": "8",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**RasMol** and **Swiss-PdbViewer** display PDB coordinates; Swiss-PdbViewer also models and superimposes."
+      "en": "**RasMol** and **Swiss-PdbViewer** display PDB coordinates; Swiss-PdbViewer also models and superimposes.",
+      "ta": "**RasMol**, **Swiss-PdbViewer** PDB ஆயத்தொலைவுகளைக் காட்டும்; Swiss-PdbViewer மாதிரியாக்கமும் மேற்பொருத்தலும் செய்யும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "9"
+      "en": "9",
+      "ta": "9",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Bioinformatics applies to genomics, proteomics, drug design, medicine, agriculture and evolution."
+      "en": "Bioinformatics applies to genomics, proteomics, drug design, medicine, agriculture and evolution.",
+      "ta": "உயிரித் தகவலியல் மரபணுத்தொகையியல், புரதவியல், மருந்து வடிவமைப்பு, மருத்துவம், வேளாண்மை, பரிணாமத்தில் பயன்படுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Short-answer questions**"
+      "en": "**Short-answer questions**",
+      "ta": "**குறுவினாக்கள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click a question to reveal the model answer."
+      "en": "Click a question to reveal the model answer.",
+      "ta": "மாதிரி விடையைக் காண வினாவைத் தொடுக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.1Differentiate global and local alignment.▼"
+      "en": "Q.1Differentiate global and local alignment.▼",
+      "ta": "வி.1முழுநீள, பகுதி ஒழுங்கமைவுகளை வேறுபடுத்துக.▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Global (NW) aligns entire sequences and suits similar sequences of similar length. Local (SW) aligns only the best-matching regions and suits divergent sequences or shared domains."
+      "en": "Global (NW) aligns entire sequences and suits similar sequences of similar length. Local (SW) aligns only the best-matching regions and suits divergent sequences or shared domains.",
+      "ta": "முழுநீளம் (NW) முழு வரிசைகளையும் ஒழுங்கமைக்கும்; ஒத்த நீளமுள்ள ஒத்த வரிசைகளுக்கு ஏற்றது. பகுதி (SW) மிகப் பொருந்தும் பகுதிகளை மட்டும் ஒழுங்கமைக்கும்; விலகிய வரிசைகள் அல்லது பகிரப்பட்ட களங்களுக்கு ஏற்றது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.2What are PAM and BLOSUM matrices?▼"
+      "en": "Q.2What are PAM and BLOSUM matrices?▼",
+      "ta": "வி.2PAM, BLOSUM அணிகள் என்பவை யாவை?▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Substitution matrices giving scores for replacing one amino acid with another. PAM is based on an evolutionary model of point accepted mutations; BLOSUM is derived from conserved blocks of related proteins (BLOSUM62 is the default)."
+      "en": "Substitution matrices giving scores for replacing one amino acid with another. PAM is based on an evolutionary model of point accepted mutations; BLOSUM is derived from conserved blocks of related proteins (BLOSUM62 is the default).",
+      "ta": "ஒரு அமினோ அமிலத்தை மற்றொன்றால் மாற்றுவதற்கான மதிப்பெண்களைத் தரும் பதிலீட்டு அணிகள். PAM புள்ளிவழி ஏற்கப்பட்ட திடீர்மாற்றங்களின் பரிணாம மாதிரியை அடிப்படையாகக் கொண்டது; BLOSUM தொடர்புடைய புரதங்களின் பாதுகாக்கப்பட்ட தொகுதிகளிலிருந்து பெறப்பட்டது (BLOSUM62 இயல்பு).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.3Explain how BLAST works.▼"
+      "en": "Q.3Explain how BLAST works.▼",
+      "ta": "வி.3BLAST எவ்வாறு செயல்படுகிறது என்பதை விளக்குக.▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "The query is split into words, matching words (seeds) are found in the database, seeds are extended in both directions to form HSPs, and significance is expressed as bit score and E-value."
+      "en": "The query is split into words, matching words (seeds) are found in the database, seeds are extended in both directions to form HSPs, and significance is expressed as bit score and E-value.",
+      "ta": "வினா சொற்களாகப் பிரிக்கப்படும்; தரவுத்தளத்தில் பொருந்தும் சொற்கள் (விதைகள்) காணப்படும்; விதைகள் இரு திசைகளிலும் நீட்டிக்கப்பட்டு HSP-களை உருவாக்கும்; முக்கியத்துவம் பிட் மதிப்பெண், E-மதிப்பாக வெளிப்படுத்தப்படும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.4List the BLAST programs.▼"
+      "en": "Q.4List the BLAST programs.▼",
+      "ta": "வி.4BLAST நிரல்களைப் பட்டியலிடுக.▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "blastn, blastp, blastx, tblastn and tblastx, differing in the type of query and database and use of translation."
+      "en": "blastn, blastp, blastx, tblastn and tblastx, differing in the type of query and database and use of translation.",
+      "ta": "blastn, blastp, blastx, tblastn, tblastx — வினா, தரவுத்தள வகையிலும் மொழிபெயர்ப்புப் பயன்பாட்டிலும் வேறுபடுபவை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.5Compare BLAST and FASTA.▼"
+      "en": "Q.5Compare BLAST and FASTA.▼",
+      "ta": "வி.5BLAST – FASTA ஒப்பிடுக.▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Both are heuristic similarity searches. BLAST uses word hits and extension to HSPs and is faster; FASTA uses k-tuple diagonals followed by rescoring and a banded Smith–Waterman, and can be more sensitive at small ktup."
+      "en": "Both are heuristic similarity searches. BLAST uses word hits and extension to HSPs and is faster; FASTA uses k-tuple diagonals followed by rescoring and a banded Smith–Waterman, and can be more sensitive at small ktup.",
+      "ta": "இரண்டும் ஹியூரிஸ்டிக் ஒப்புமைத் தேடல்கள். BLAST சொற் பொருத்தங்களையும் HSP-களுக்கு நீட்டிப்பையும் பயன்படுத்தி வேகமாக இயங்கும்; FASTA k-டியூபிள் மூலைவிட்டங்கள், மறுமதிப்பீடு, பட்டை ஸ்மித்–வாட்டர்மேன் பயன்படுத்தி, சிறிய ktup-இல் அதிக உணர்திறன் பெறலாம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.6What is multiple sequence alignment and name two tools?▼"
+      "en": "Q.6What is multiple sequence alignment and name two tools?▼",
+      "ta": "வி.6பல்வரிசை ஒழுங்கமைவு என்றால் என்ன? இரு கருவிகளைக் குறிப்பிடுக.▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Alignment of three or more sequences to reveal conserved residues, done progressively using a guide tree. Tools: Clustal Omega, MUSCLE, MAFFT, T-Coffee."
+      "en": "Alignment of three or more sequences to reveal conserved residues, done progressively using a guide tree. Tools: Clustal Omega, MUSCLE, MAFFT, T-Coffee.",
+      "ta": "பாதுகாக்கப்பட்ட அமினோ அமிலங்களை வெளிப்படுத்த மூன்று அல்லது மேற்பட்ட வரிசைகளை வழிகாட்டி மரம் மூலம் படிப்படியாக ஒழுங்கமைத்தல். கருவிகள்: Clustal Omega, MUSCLE, MAFFT, T-Coffee.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.7Name two protein structure visualising tools and their uses.▼"
+      "en": "Q.7Name two protein structure visualising tools and their uses.▼",
+      "ta": "வி.7புரதக் கட்டமைப்பைக் காட்சிப்படுத்தும் இரு கருவிகளையும் பயன்பாடுகளையும் குறிப்பிடுக.▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "RasMol (fast display in wireframe, spacefill, cartoon styles) and Swiss-PdbViewer (analysis, superposition, mutation and homology modelling)."
+      "en": "RasMol (fast display in wireframe, spacefill, cartoon styles) and Swiss-PdbViewer (analysis, superposition, mutation and homology modelling).",
+      "ta": "RasMol (கம்பிச்சட்டம், ஸ்பேஸ்ஃபில், கார்ட்டூன் பாணிகளில் விரைவுக் காட்சி), Swiss-PdbViewer (பகுப்பாய்வு, மேற்பொருத்தல், உருமாற்றம், ஹோமாலஜி மாதிரியாக்கம்).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.8State four applications of bioinformatics.▼"
+      "en": "Q.8State four applications of bioinformatics.▼",
+      "ta": "வி.8உயிரித் தகவலியலின் நான்கு பயன்பாடுகளைக் கூறுக.▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Genome annotation, drug discovery (docking), personalised medicine, evolutionary analysis/phylogeny, crop improvement."
+      "en": "Genome annotation, drug discovery (docking), personalised medicine, evolutionary analysis/phylogeny, crop improvement.",
+      "ta": "மரபணுத்தொகைய குறிப்புரை, மருந்து கண்டுபிடிப்பு (டாக்கிங்), தனிநபர் மருத்துவம், பரிணாமப் பகுப்பாய்வு/பரிணாம மரவியல், பயிர் மேம்பாடு.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -1330,121 +1834,173 @@
   {
    "id": "s09",
    "title": {
-    "en": "Key Terms & Glossary"
+    "en": "Key Terms & Glossary",
+    "ta": "முக்கியச் சொற்களும் சொற்களஞ்சியமும்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Important terms in simple language."
+      "en": "Important terms in simple language.",
+      "ta": "முக்கியச் சொற்கள் எளிய மொழியில்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Alignment"
+      "en": "Alignment",
+      "ta": "ஒழுங்கமைவு",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Arrangement of sequences to show similarity."
+      "en": "Arrangement of sequences to show similarity.",
+      "ta": "ஒப்புமையைக் காட்ட வரிசைகளை அடுக்குதல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Gap"
+      "en": "Gap",
+      "ta": "இடைவெளி",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "A position in an alignment representing an insertion or deletion."
+      "en": "A position in an alignment representing an insertion or deletion.",
+      "ta": "ஒழுங்கமைவில் உட்செருகல் அல்லது நீக்கத்தைக் குறிக்கும் இடம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Dynamic programming"
+      "en": "Dynamic programming",
+      "ta": "இயக்கநிலைத் திட்டமிடல்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Method that solves a problem by combining optimal solutions to sub-problems."
+      "en": "Method that solves a problem by combining optimal solutions to sub-problems.",
+      "ta": "துணைச் சிக்கல்களின் சிறந்த தீர்வுகளை இணைத்துச் சிக்கலைத் தீர்க்கும் முறை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "PAM"
+      "en": "PAM",
+      "ta": "PAM",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Point Accepted Mutation matrices from evolutionary models."
+      "en": "Point Accepted Mutation matrices from evolutionary models.",
+      "ta": "பரிணாம மாதிரிகளிலிருந்து பெறப்பட்ட புள்ளிவழி ஏற்கப்பட்ட திடீர்மாற்ற அணிகள்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "BLOSUM"
+      "en": "BLOSUM",
+      "ta": "BLOSUM",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Block Substitution Matrix derived from conserved protein blocks."
+      "en": "Block Substitution Matrix derived from conserved protein blocks.",
+      "ta": "பாதுகாக்கப்பட்ட புரதத் தொகுதிகளிலிருந்து பெறப்பட்ட தொகுதிப் பதிலீட்டு அணி.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "HSP"
+      "en": "HSP",
+      "ta": "HSP",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "High-scoring Segment Pair: a local alignment reported by BLAST."
+      "en": "High-scoring Segment Pair: a local alignment reported by BLAST.",
+      "ta": "உயர் மதிப்பெண் வரிசை இணை: BLAST அறிவிக்கும் பகுதி ஒழுங்கமைவு.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "E-value"
+      "en": "E-value",
+      "ta": "E-மதிப்பு",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Expected number of chance hits with the same or better score."
+      "en": "Expected number of chance hits with the same or better score.",
+      "ta": "அதே அல்லது சிறந்த மதிப்பெண்ணுடன் தற்செயலாக எதிர்பார்க்கப்படும் பொருத்தங்களின் எண்ணிக்கை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Bit score"
+      "en": "Bit score",
+      "ta": "பிட் மதிப்பெண்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Normalised alignment score independent of scoring matrix."
+      "en": "Normalised alignment score independent of scoring matrix.",
+      "ta": "மதிப்பிடல் அணியைச் சாராத இயல்பாக்கப்பட்ட ஒழுங்கமைவு மதிப்பெண்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Query"
+      "en": "Query",
+      "ta": "வினா",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "The sequence you submit for a database search."
+      "en": "The sequence you submit for a database search.",
+      "ta": "தரவுத்தளத் தேடலுக்கு நீங்கள் சமர்ப்பிக்கும் வரிசை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Guide tree"
+      "en": "Guide tree",
+      "ta": "வழிகாட்டி மரம்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Tree that decides the order of progressive alignment."
+      "en": "Tree that decides the order of progressive alignment.",
+      "ta": "படிப்படியான ஒழுங்கமைவின் வரிசையை முடிவுசெய்யும் மரம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "PDB file"
+      "en": "PDB file",
+      "ta": "PDB கோப்பு",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Text file of atomic coordinates of a macromolecule."
+      "en": "Text file of atomic coordinates of a macromolecule.",
+      "ta": "பெருமூலக்கூறின் அணு ஆயத்தொலைவுகளின் உரைக் கோப்பு.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Homologue"
+      "en": "Homologue",
+      "ta": "ஹோமோலாக்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "A sequence sharing common ancestry with another."
+      "en": "A sequence sharing common ancestry with another.",
+      "ta": "மற்றொன்றுடன் பொது மூதாதையைப் பகிரும் வரிசை.",
+      "ta_status": "draft"
      }
     }
    ],
