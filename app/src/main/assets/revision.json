@@ -16,86 +16,138 @@
   "sa": [
    {
     "q": "Differentiate global and local alignment.",
-    "a": "Global (NW) aligns entire sequences and suits similar sequences of similar length. Local (SW) aligns only the best-matching regions and suits divergent sequences or shared domains."
+    "a": "Global (NW) aligns entire sequences and suits similar sequences of similar length. Local (SW) aligns only the best-matching regions and suits divergent sequences or shared domains.",
+    "q_ta": "முழுநீள, பகுதி ஒப்பீடுகளை வேறுபடுத்துக.",
+    "a_ta": "முழுநீளம் (NW) முழு வரிசைகளையும் ஒப்பிடுகிறது; ஒத்த நீளமுள்ள ஒத்த வரிசைகளுக்கு ஏற்றது. பகுதி (SW) சிறப்பாகப் பொருந்தும் பகுதிகளை மட்டுமே ஒப்பிடுகிறது; விலகிய வரிசைகளுக்கும் பகிரப்பட்ட களங்களுக்கும் ஏற்றது."
    },
    {
     "q": "What are PAM and BLOSUM matrices?",
-    "a": "Substitution matrices giving scores for replacing one amino acid with another. PAM is based on an evolutionary model of point accepted mutations; BLOSUM is derived from conserved blocks of related proteins (BLOSUM62 is the default)."
+    "a": "Substitution matrices giving scores for replacing one amino acid with another. PAM is based on an evolutionary model of point accepted mutations; BLOSUM is derived from conserved blocks of related proteins (BLOSUM62 is the default).",
+    "q_ta": "PAM, BLOSUM அணிகள் என்றால் என்ன?",
+    "a_ta": "ஓர் அமினோ அமிலத்தை மற்றொன்றால் பதிலிடுவதற்கு மதிப்பெண் தரும் பதிலீட்டு அணிகள். PAM, ஏற்கப்பட்ட புள்ளித் திடீர்மாற்றங்களின் பரிணாம மாதிரியை அடிப்படையாகக் கொண்டது; BLOSUM, தொடர்புடைய புரதங்களின் பாதுகாக்கப்பட்ட தொகுதிகளிலிருந்து பெறப்படுகிறது (BLOSUM62 இயல்புநிலை)."
    },
    {
     "q": "Explain how BLAST works.",
-    "a": "The query is split into words, matching words (seeds) are found in the database, seeds are extended in both directions to form HSPs, and significance is expressed as bit score and E-value."
+    "a": "The query is split into words, matching words (seeds) are found in the database, seeds are extended in both directions to form HSPs, and significance is expressed as bit score and E-value.",
+    "q_ta": "BLAST எவ்வாறு செயல்படுகிறது என விளக்குக.",
+    "a_ta": "வினா சொற்களாகப் பிரிக்கப்படுகிறது; தரவுத்தளத்தில் பொருந்தும் சொற்கள் (விதைகள்) கண்டறியப்படுகின்றன; விதைகள் இரு திசைகளிலும் நீட்டிக்கப்பட்டு HSP-களை உருவாக்குகின்றன; முக்கியத்துவம் பிட் மதிப்பெண், E-மதிப்பால் வெளிப்படுத்தப்படுகிறது."
    },
    {
     "q": "List the BLAST programs.",
-    "a": "blastn, blastp, blastx, tblastn and tblastx, differing in the type of query and database and use of translation."
+    "a": "blastn, blastp, blastx, tblastn and tblastx, differing in the type of query and database and use of translation.",
+    "q_ta": "BLAST நிரல்களைப் பட்டியலிடுக.",
+    "a_ta": "blastn, blastp, blastx, tblastn, tblastx ஆகியவை; வினா, தரவுத்தள வகை, மொழிபெயர்ப்பின் பயன்பாடு ஆகியவற்றில் வேறுபடுகின்றன."
    },
    {
     "q": "Compare BLAST and FASTA.",
-    "a": "Both are heuristic similarity searches. BLAST uses word hits and extension to HSPs and is faster; FASTA uses k-tuple diagonals followed by rescoring and a banded Smith–Waterman, and can be more sensitive at small ktup."
+    "a": "Both are heuristic similarity searches. BLAST uses word hits and extension to HSPs and is faster; FASTA uses k-tuple diagonals followed by rescoring and a banded Smith–Waterman, and can be more sensitive at small ktup.",
+    "q_ta": "BLAST, FASTA ஆகியவற்றை ஒப்பிடுக.",
+    "a_ta": "இரண்டும் அனுமான முறை ஒற்றுமைத் தேடல்கள். BLAST சொல் பொருத்தங்களையும் HSP-களுக்கான நீட்சியையும் பயன்படுத்துவதால் வேகமானது; FASTA k-tuple மூலைவிட்டங்கள், பின்னர் மறுமதிப்பெண், பட்டை ஸ்மித்–வாட்டர்மன் ஆகியவற்றைப் பயன்படுத்துகிறது; சிறிய ktup-இல் அதிக உணர்திறன் கொண்டதாக இருக்கலாம்."
    },
    {
     "q": "What is multiple sequence alignment and name two tools?",
-    "a": "Alignment of three or more sequences to reveal conserved residues, done progressively using a guide tree. Tools: Clustal Omega, MUSCLE, MAFFT, T-Coffee."
+    "a": "Alignment of three or more sequences to reveal conserved residues, done progressively using a guide tree. Tools: Clustal Omega, MUSCLE, MAFFT, T-Coffee.",
+    "q_ta": "பல வரிசை ஒப்பீடு என்றால் என்ன? இரு கருவிகளைக் குறிப்பிடுக.",
+    "a_ta": "பாதுகாக்கப்பட்ட எச்சங்களை வெளிப்படுத்த மூன்று அல்லது அதற்கு மேற்பட்ட வரிசைகளை ஒப்பிடுதல்; வழிகாட்டி மரத்தால் படிப்படியாகச் செய்யப்படுகிறது. கருவிகள்: Clustal Omega, MUSCLE, MAFFT, T-Coffee."
    },
    {
     "q": "Name two protein structure visualising tools and their uses.",
-    "a": "RasMol (fast display in wireframe, spacefill, cartoon styles) and Swiss-PdbViewer (analysis, superposition, mutation and homology modelling)."
+    "a": "RasMol (fast display in wireframe, spacefill, cartoon styles) and Swiss-PdbViewer (analysis, superposition, mutation and homology modelling).",
+    "q_ta": "இரு புரத அமைப்புக் காட்சிப்படுத்தும் கருவிகளையும் அவற்றின் பயன்களையும் குறிப்பிடுக.",
+    "a_ta": "RasMol (கம்பிச்சட்டம், இடம்நிரப்பி, கார்ட்டூன் பாணிகளில் விரைவுக் காட்சி) மற்றும் Swiss-PdbViewer (பகுப்பாய்வு, மேற்பொருத்தம், திடீர்மாற்றம், ஹோமாலஜி மாதிரியமைப்பு)."
    },
    {
     "q": "State four applications of bioinformatics.",
-    "a": "Genome annotation, drug discovery (docking), personalised medicine, evolutionary analysis/phylogeny, crop improvement."
+    "a": "Genome annotation, drug discovery (docking), personalised medicine, evolutionary analysis/phylogeny, crop improvement.",
+    "q_ta": "உயிர்த்தகவலியலின் நான்கு பயன்பாடுகளைக் குறிப்பிடுக.",
+    "a_ta": "மரபணுத்தொகைக் குறிப்புரை, மருந்து கண்டுபிடிப்பு (டாக்கிங்), தனிநபர் மருத்துவம், பரிணாமப் பகுப்பாய்வு/இனவரலாறு, பயிர் மேம்பாடு."
    }
   ],
   "gl": [
    {
     "t": "Alignment",
-    "d": "Arrangement of sequences to show similarity."
+    "d": "Arrangement of sequences to show similarity.",
+    "t_ta": "ஒப்பீடு",
+    "d_ta": "ஒற்றுமையைக் காட்ட வரிசைகளை அடுக்குதல்."
    },
    {
     "t": "Gap",
-    "d": "A position in an alignment representing an insertion or deletion."
+    "d": "A position in an alignment representing an insertion or deletion.",
+    "t_ta": "இடைவெளி",
+    "d_ta": "ஒப்பீட்டில் செருகல் அல்லது நீக்கத்தைக் குறிக்கும் இடம்."
    },
    {
     "t": "Dynamic programming",
-    "d": "Method that solves a problem by combining optimal solutions to sub-problems."
+    "d": "Method that solves a problem by combining optimal solutions to sub-problems.",
+    "t_ta": "இயக்கநிலைத் திட்டமிடல்",
+    "d_ta": "துணைச் சிக்கல்களின் உகந்த தீர்வுகளை இணைத்து ஒரு சிக்கலைத் தீர்க்கும் முறை."
    },
    {
     "t": "PAM",
-    "d": "Point Accepted Mutation matrices from evolutionary models."
+    "d": "Point Accepted Mutation matrices from evolutionary models.",
+    "t_ta": "PAM",
+    "d_ta": "பரிணாம மாதிரிகளிலிருந்து பெறப்பட்ட ஏற்கப்பட்ட புள்ளித் திடீர்மாற்ற அணிகள்."
    },
    {
     "t": "BLOSUM",
-    "d": "Block Substitution Matrix derived from conserved protein blocks."
+    "d": "Block Substitution Matrix derived from conserved protein blocks.",
+    "t_ta": "BLOSUM",
+    "d_ta": "பாதுகாக்கப்பட்ட புரதத் தொகுதிகளிலிருந்து பெறப்பட்ட தொகுதிப் பதிலீட்டு அணி."
    },
    {
     "t": "HSP",
-    "d": "High-scoring Segment Pair: a local alignment reported by BLAST."
+    "d": "High-scoring Segment Pair: a local alignment reported by BLAST.",
+    "t_ta": "HSP",
+    "d_ta": "உயர்-மதிப்பெண் துண்டு இணை: BLAST அறிவிக்கும் உள்ளூர் ஒப்பீடு."
    },
    {
     "t": "E-value",
-    "d": "Expected number of chance hits with the same or better score."
+    "d": "Expected number of chance hits with the same or better score.",
+    "t_ta": "E-மதிப்பு",
+    "d_ta": "சமமான அல்லது சிறந்த மதிப்பெண் கொண்ட தற்செயல் பொருத்தங்களின் எதிர்பார்க்கப்படும் எண்ணிக்கை."
    },
    {
     "t": "Bit score",
-    "d": "Normalised alignment score independent of scoring matrix."
+    "d": "Normalised alignment score independent of scoring matrix.",
+    "t_ta": "பிட் மதிப்பெண்",
+    "d_ta": "மதிப்பெண் அணியைச் சாராத இயல்பாக்கப்பட்ட ஒப்பீட்டு மதிப்பெண்."
    },
    {
     "t": "Query",
-    "d": "The sequence you submit for a database search."
+    "d": "The sequence you submit for a database search.",
+    "t_ta": "வினா",
+    "d_ta": "தரவுத்தளத் தேடலுக்காக நீங்கள் சமர்ப்பிக்கும் வரிசை."
    },
    {
     "t": "Guide tree",
-    "d": "Tree that decides the order of progressive alignment."
+    "d": "Tree that decides the order of progressive alignment.",
+    "t_ta": "வழிகாட்டி மரம்",
+    "d_ta": "படிப்படியான ஒப்பீட்டின் வரிசையை நிர்ணயிக்கும் மரம்."
    },
    {
     "t": "PDB file",
-    "d": "Text file of atomic coordinates of a macromolecule."
+    "d": "Text file of atomic coordinates of a macromolecule.",
+    "t_ta": "PDB கோப்பு",
+    "d_ta": "பெருமூலக்கூறின் அணு ஆயங்களைக் கொண்ட உரைக் கோப்பு."
    },
    {
     "t": "Homologue",
-    "d": "A sequence sharing common ancestry with another."
+    "d": "A sequence sharing common ancestry with another.",
+    "t_ta": "ஹோமாலஜி வரிசை",
+    "d_ta": "மற்றொன்றுடன் பொது மூதாதையைப் பகிரும் வரிசை."
    }
+  ],
+  "title_ta": "ஒப்பீடு, BLAST, அமைப்புக் கருவிகள்",
+  "kp_ta": [
+   "முழுநீளம் = நீடில்மன்–வுன்ஷ் (1970); பகுதி = ஸ்மித்–வாட்டர்மன் (1981); இரண்டும் இயக்கநிலைத் திட்டமிடலைப் பயன்படுத்துகின்றன.",
+   "மதிப்பெண்: பொருத்தம்/பொருந்தாமை (DNA); PAM, BLOSUM (புரதங்கள்); நேரியல் அல்லது அஃபைன் இடைவெளித் தண்டனைகள்.",
+   "ஒத்தமையும் ஒற்றுமையும் சதவீதங்கள்; ஹோமாலஜி என்பது பொது மூதாதைமை (ஆர்த்தோலாக்குகள், பாராலாக்குகள்).",
+   "MSA: வழிகாட்டி மரத்தைப் பயன்படுத்தும் படிப்படியான முறை (Clustal); மீள்செயல் முறை (MUSCLE, MAFFT).",
+   "BLAST (ஆல்ட்ஷுல், 1990): சொற்கள் → விதைகள் → HSP நீட்சி → E-மதிப்பு / பிட் மதிப்பெண்.",
+   "blastn, blastp, blastx, tblastn, tblastx.",
+   "FASTA (லிப்மன், பியர்சன், 1985): k-tuple மூலைவிட்டங்கள், மறுமதிப்பெண், பட்டை SW.",
+   "RasMol, Swiss-PdbViewer ஆகியவை PDB ஆயங்களைக் காட்டுகின்றன; Swiss-PdbViewer மாதிரியமைத்து மேற்பொருத்தவும் செய்கிறது.",
+   "உயிர்த்தகவலியல் மரபணுத்தொகையியல், புரதத்தொகையியல், மருந்து வடிவமைப்பு, மருத்துவம், வேளாண்மை, பரிணாமம் ஆகியவற்றில் பயன்படுகிறது."
   ]
  },
  "biotechnology_fundamentals.html": {
@@ -2382,74 +2434,123 @@
   "sa": [
    {
     "q": "What is a cosmid? Describe its structure and explain how it is used as a cloning vector.",
-    "a": "Define cosmid: hybrid vector = plasmid backbone + lambda cos sites. Coined from \"cos + plasmid.\" Developed by Collins and Hohn (1978). Structure: ori (plasmid-type), antibiotic resistance gene, cos sites (two), MCS. Mechanism: Large insert (35–45 kb) ligated into MCS → cosmid DNA (37–52 kb total) packaged in vitro into lambda heads → phage transduces E. coli → cos sites cleaved inside cell → cosmid circularizes → replicates as plasmid. Applications: genomic libraries, chromosome walking, cloning large genes with regulatory regions. Advantage over plasmids: much larger insert capacity; over lambda phage: stable plasmid maintenance after entry."
+    "a": "Define cosmid: hybrid vector = plasmid backbone + lambda cos sites. Coined from \"cos + plasmid.\" Developed by Collins and Hohn (1978). Structure: ori (plasmid-type), antibiotic resistance gene, cos sites (two), MCS. Mechanism: Large insert (35–45 kb) ligated into MCS → cosmid DNA (37–52 kb total) packaged in vitro into lambda heads → phage transduces E. coli → cos sites cleaved inside cell → cosmid circularizes → replicates as plasmid. Applications: genomic libraries, chromosome walking, cloning large genes with regulatory regions. Advantage over plasmids: much larger insert capacity; over lambda phage: stable plasmid maintenance after entry.",
+    "q_ta": "காஸ்மிட் என்றால் என்ன? அதன் அமைப்பை விவரித்து, குளோனாக்கத் தாங்கிக்கடத்தியாக அது எவ்வாறு பயன்படுகிறது என விளக்குக.",
+    "a_ta": "வரையறு: காஸ்மிட் = பிளாஸ்மிடு அடித்தளம் + லாம்டா cos இடங்கள் கொண்ட கலப்புத் தாங்கிக்கடத்தி; “cos + plasmid” என்பதிலிருந்து பெயர் பெற்றது. காலின்ஸ், ஹோன் (1978) உருவாக்கினர். அமைப்பு: ori (பிளாஸ்மிடு வகை), உயிர்எதிர்ப்பிப் பொருள் தடுப்பு மரபணு, cos இடங்கள் (இரண்டு), MCS. செயல்முறை: பெரிய செருகல் (35–45 kb) MCS-இல் இணைக்கப்படுகிறது → காஸ்மிட் DNA (மொத்தம் 37–52 kb) உடலகவெளி முறையில் லாம்டா தலைகளுக்குள் அடைக்கப்படுகிறது → பாகாஃபேஜ் E. coli-க்குள் கடத்துகிறது → செல்லுக்குள் cos இடங்கள் வெட்டப்படுகின்றன → காஸ்மிட் வட்டமாகிறது → பிளாஸ்மிடாக இரட்டிப்பாகிறது. பயன்கள்: மரபணுத்தொகை நூலகங்கள், நிறமூர்த்த நடைபயணம், ஒழுங்குபடுத்தும் பகுதிகளுடன் கூடிய பெரிய மரபணுக்களின் குளோனாக்கம். பிளாஸ்மிடுகளை விட மிகப் பெரிய செருகல் கொள்ளளவு; லாம்டா பாகாஃபேஜை விட உள்ளே நுழைந்த பின் நிலையான பிளாஸ்மிடாகப் பராமரிக்கப்படுதல் ஆகியவை அதன் நன்மைகள்."
    },
    {
     "q": "Explain the structure of YAC. Why is it preferred for cloning very large DNA fragments?",
-    "a": "YAC = Yeast Artificial Chromosome. Developed by Burke, Carle, and Olson (1987). Structure (linear DNA): TEL — (Left arm: TRP1 marker + CEN + ARS) — cloning site — (Right arm: URA3 marker) — TEL. TEL: protects ends from degradation; CEN: ensures equal segregation to daughter cells; ARS: replication origin (replicates once per cell cycle in yeast). Insert capacity: 200 kb–2,000 kb — far larger than cosmids (35–45 kb), plasmids (<10 kb), or lambda phage (23 kb). Preferred because: some eukaryotic genes span hundreds of kb; entire gene loci including introns and regulatory regions can be cloned; essential for constructing complete genomic libraries of complex eukaryotes. Used in the Human Genome Project; chromosome walking across large genomic regions. Limitations: chimeric inserts (~50% of clones); instability; replaced by BACs for genome sequencing."
+    "a": "YAC = Yeast Artificial Chromosome. Developed by Burke, Carle, and Olson (1987). Structure (linear DNA): TEL — (Left arm: TRP1 marker + CEN + ARS) — cloning site — (Right arm: URA3 marker) — TEL. TEL: protects ends from degradation; CEN: ensures equal segregation to daughter cells; ARS: replication origin (replicates once per cell cycle in yeast). Insert capacity: 200 kb–2,000 kb — far larger than cosmids (35–45 kb), plasmids (<10 kb), or lambda phage (23 kb). Preferred because: some eukaryotic genes span hundreds of kb; entire gene loci including introns and regulatory regions can be cloned; essential for constructing complete genomic libraries of complex eukaryotes. Used in the Human Genome Project; chromosome walking across large genomic regions. Limitations: chimeric inserts (~50% of clones); instability; replaced by BACs for genome sequencing.",
+    "q_ta": "YAC-இன் அமைப்பை விளக்குக. மிகப் பெரிய DNA துண்டுகளைக் குளோன் செய்ய அது ஏன் விரும்பப்படுகிறது?",
+    "a_ta": "YAC = ஈஸ்ட் செயற்கை நிறமூர்த்தம். பர்க், கார்ல், ஓல்சன் (1987) உருவாக்கினர். அமைப்பு (நேர்கோட்டு DNA): TEL — (இடது கை: TRP1 குறிப்பான் + CEN + ARS) — குளோனாக்க இடம் — (வலது கை: URA3 குறிப்பான்) — TEL. TEL: முனைகளைச் சிதைவிலிருந்து பாதுகாக்கிறது; CEN: மகள் செல்களுக்குச் சமமான பிரிதலை உறுதிசெய்கிறது; ARS: இரட்டிப்புத் தொடக்கப்புள்ளி (ஈஸ்டில் ஒரு செல் சுழற்சிக்கு ஒருமுறை இரட்டிப்பாகிறது). செருகல் கொள்ளளவு: 200 kb–2,000 kb — காஸ்மிடுகள் (35–45 kb), பிளாஸ்மிடுகள் (<10 kb), லாம்டா பாகாஃபேஜ் (23 kb) ஆகியவற்றை விட மிகப் பெரியது. விரும்பப்படக் காரணங்கள்: சில மெய்க்கரு மரபணுக்கள் நூற்றுக்கணக்கான kb நீளமுள்ளவை; இன்ட்ரான்கள், ஒழுங்குபடுத்தும் பகுதிகள் உட்பட முழு மரபணு இடத்தையும் குளோன் செய்யலாம்; சிக்கலான மெய்க்கரு உயிரிகளின் முழுமையான மரபணுத்தொகை நூலகங்களை உருவாக்க அவசியம். மனித மரபணுத்தொகைத் திட்டத்தில் பயன்பட்டது; பெரிய மரபணுத்தொகைப் பகுதிகளில் நிறமூர்த்த நடைபயணம். வரம்புகள்: கலப்புச் செருகல்கள் (~50% குளோன்கள்); நிலையற்ற தன்மை; மரபணுத்தொகை வரிசைப்படுத்தலில் BAC-களால் மாற்றப்பட்டது."
    },
    {
     "q": "Describe SV40 as an animal cell vector. What is the role of Large T antigen in SV40 biology?",
-    "a": "SV40 (Simian Virus 40): small (~5,243 bp) circular dsDNA virus infecting monkey and human cells. Genome regions: Early (Large T + Small T antigens) and Late (VP1, VP2, VP3 capsid proteins) + ori + regulatory region. Large T antigen (LT-Ag): (i) Binds SV40 ori to initiate viral DNA replication; (ii) Inhibits tumor suppressors p53 and Rb → cell transformation and immortalization; (iii) Enables COS cell high-level expression system. Vector use: late region removed → replaced with gene of interest → packaged using helper cell providing capsid proteins → infects mammalian cells → transient or stable expression. COS cells (COS-1, COS-7): CV-1 monkey cells stably expressing LT-Ag; SV40 ori-containing vectors replicate episomally to very high copy numbers → high-level transient protein expression. Insert capacity limited to ~2.5 kb due to viral capsid size constraint."
+    "a": "SV40 (Simian Virus 40): small (~5,243 bp) circular dsDNA virus infecting monkey and human cells. Genome regions: Early (Large T + Small T antigens) and Late (VP1, VP2, VP3 capsid proteins) + ori + regulatory region. Large T antigen (LT-Ag): (i) Binds SV40 ori to initiate viral DNA replication; (ii) Inhibits tumor suppressors p53 and Rb → cell transformation and immortalization; (iii) Enables COS cell high-level expression system. Vector use: late region removed → replaced with gene of interest → packaged using helper cell providing capsid proteins → infects mammalian cells → transient or stable expression. COS cells (COS-1, COS-7): CV-1 monkey cells stably expressing LT-Ag; SV40 ori-containing vectors replicate episomally to very high copy numbers → high-level transient protein expression. Insert capacity limited to ~2.5 kb due to viral capsid size constraint.",
+    "q_ta": "SV40-ஐ விலங்குச் செல் தாங்கிக்கடத்தியாக விவரிக்க. SV40 உயிரியலில் பெரிய T எதிர்ப்பொருள் தூண்டியின் பங்கு என்ன?",
+    "a_ta": "SV40 (சிமியன் வைரஸ் 40): குரங்கு, மனிதச் செல்களைத் தாக்கும் சிறிய (~5,243 bp) வட்ட இரட்டை இழை DNA வைரஸ். மரபணுத்தொகைப் பகுதிகள்: தொடக்கப் பகுதி (பெரிய T + சிறிய T எதிர்ப்பொருள் தூண்டிகள்) மற்றும் பிற்பகுதி (VP1, VP2, VP3 கேப்சிட் புரதங்கள்) + ori + ஒழுங்குபடுத்தும் பகுதி. பெரிய T எதிர்ப்பொருள் தூண்டி (LT-Ag): (i) வைரஸ் DNA இரட்டிப்பைத் தொடங்க SV40 ori-உடன் இணைகிறது; (ii) கட்டி அடக்கிகளான p53, Rb-ஐத் தடுத்து செல் உருமாற்றத்தையும் சாகாத்தன்மையையும் ஏற்படுத்துகிறது; (iii) COS செல் உயர்-வெளிப்பாட்டு அமைப்பை இயலச் செய்கிறது. தாங்கிக்கடத்திப் பயன்பாடு: பிற்பகுதி அகற்றப்பட்டு ஆர்வமுள்ள மரபணு இடப்படுகிறது → கேப்சிட் புரதங்களை வழங்கும் உதவிச் செல்லால் அடைக்கப்படுகிறது → பாலூட்டிச் செல்களைத் தொற்றி, தற்காலிக அல்லது நிலையான வெளிப்பாட்டைத் தருகிறது. COS செல்கள் (COS-1, COS-7): LT-Ag-ஐ நிலையாக வெளிப்படுத்தும் CV-1 குரங்குச் செல்கள்; SV40 ori கொண்ட தாங்கிக்கடத்திகள் மிக அதிக படியெண்ணிக்கையில் எபிசோம் வடிவில் இரட்டிப்பாகி உயர்-அளவுத் தற்காலிகப் புரத வெளிப்பாட்டைத் தருகின்றன. வைரஸ் கேப்சிட் அளவு வரம்பால் செருகல் கொள்ளளவு ~2.5 kb மட்டுமே."
    },
    {
     "q": "What are transposons? Explain their mechanism of action and use as vectors in genetic engineering.",
-    "a": "Transposons = \"jumping genes\" — mobile DNA sequences that can move from one genomic location to another. Discovered by Barbara McClintock in maize (Nobel Prize 1983). Classification: Class I (retrotransposons, RNA intermediate, copy-and-paste); Class II (DNA transposons, transposase, cut-and-paste). For genetic engineering, Class II is mainly used. Structure: TIR (left) — transposase gene — TIR (right); flanked by TSDs in host DNA. Mechanism: (1) Transposase binds TIRs; (2) Excises transposon from donor; (3) Finds target site; (4) Makes staggered cuts at target; (5) Inserts transposon; (6) Host repair creates TSDs. Uses as vectors: (a) Insertional mutagenesis — random disruption to create mutants; (b) Gene tagging — identify disrupted genes; (c) Stable gene therapy — Sleeping Beauty, piggyBac deliver therapeutic genes into mammalian chromosomes; (d) Tn5 transposome — library preparation for NGS. Advantages: stable integration; broad host range; no viral components needed; no capsid size limit."
+    "a": "Transposons = \"jumping genes\" — mobile DNA sequences that can move from one genomic location to another. Discovered by Barbara McClintock in maize (Nobel Prize 1983). Classification: Class I (retrotransposons, RNA intermediate, copy-and-paste); Class II (DNA transposons, transposase, cut-and-paste). For genetic engineering, Class II is mainly used. Structure: TIR (left) — transposase gene — TIR (right); flanked by TSDs in host DNA. Mechanism: (1) Transposase binds TIRs; (2) Excises transposon from donor; (3) Finds target site; (4) Makes staggered cuts at target; (5) Inserts transposon; (6) Host repair creates TSDs. Uses as vectors: (a) Insertional mutagenesis — random disruption to create mutants; (b) Gene tagging — identify disrupted genes; (c) Stable gene therapy — Sleeping Beauty, piggyBac deliver therapeutic genes into mammalian chromosomes; (d) Tn5 transposome — library preparation for NGS. Advantages: stable integration; broad host range; no viral components needed; no capsid size limit.",
+    "q_ta": "தாவு மரபணுக்கள் என்றால் என்ன? அவற்றின் செயல்முறையையும் மரபணுப் பொறியியலில் தாங்கிக்கடத்தியாக அவற்றின் பயன்பாட்டையும் விளக்குக.",
+    "a_ta": "தாவு மரபணுக்கள் = “தாவும் மரபணுக்கள்” — ஒரு மரபணுத்தொகை இடத்திலிருந்து மற்றொன்றுக்கு நகரக்கூடிய DNA வரிசைகள். மக்காச்சோளத்தில் பார்பரா மெக்ளின்டாக் கண்டறிந்தார் (நோபல் பரிசு 1983). வகைப்பாடு: வகுப்பு I (பின்னோக்கித் தாவு மரபணுக்கள், RNA இடைநிலை, நகலெடுத்து-ஒட்டு); வகுப்பு II (DNA தாவு மரபணுக்கள், டிரான்ஸ்போசேஸ், வெட்டி-ஒட்டு). மரபணுப் பொறியியலில் முக்கியமாக வகுப்பு II பயன்படுகிறது. அமைப்பு: TIR (இடது) — டிரான்ஸ்போசேஸ் மரபணு — TIR (வலது); ஓம்புயிர் DNA-வில் TSD-களால் சூழப்பட்டது. செயல்முறை: (1) டிரான்ஸ்போசேஸ் TIR-களுடன் இணைகிறது; (2) தாவு மரபணுவை வழங்கும் இடத்திலிருந்து வெட்டி நீக்குகிறது; (3) இலக்கு இடத்தைக் கண்டறிகிறது; (4) இலக்கில் படிநிலை வெட்டுகளை உண்டாக்குகிறது; (5) தாவு மரபணுவைச் செருகுகிறது; (6) ஓம்புயிர் பழுதுநீக்கம் TSD-களை உருவாக்குகிறது. தாங்கிக்கடத்திப் பயன்கள்: (அ) செருகல் திடீர்மாற்றம் — தற்போக்குச் சீர்குலைவால் திடீர்மாற்றிகளை உருவாக்குதல்; (ஆ) மரபணுக் குறிப்பிடுதல் — சீர்குலைந்த மரபணுக்களை அடையாளம் காணுதல்; (இ) நிலையான மரபணு சிகிச்சை — ஸ்லீப்பிங் பியூட்டி, piggyBac ஆகியவை சிகிச்சை மரபணுக்களைப் பாலூட்டி நிறமூர்த்தங்களுக்குள் செலுத்துகின்றன; (ஈ) Tn5 டிரான்ஸ்போசோம் — NGS நூலகத் தயாரிப்பு. நன்மைகள்: நிலையான ஒருங்கிணைப்பு; பரந்த ஓம்புயிர் வரம்பு; வைரஸ் கூறுகள் தேவையில்லை; கேப்சிட் அளவு வரம்பு இல்லை."
    },
    {
     "q": "Compare cosmid, YAC, SV40, and transposon vectors with respect to insert size, host, and applications.",
-    "a": "— Write as a structured table or paragraph: Cosmid: Insert 35–45 kb; host = E. coli; application = genomic libraries, large gene cloning; advantage = high delivery efficiency via phage packaging. YAC: Insert 200–2,000 kb; host = S. cerevisiae; application = Human Genome Project, megabase cloning, chromosome walking; advantage = largest capacity; limitation = chimeric inserts. SV40: Insert ~2.5 kb; host = mammalian cells (monkey, human); application = gene expression studies, recombinant protein production in animal cells; advantage = strong promoter/enhancer; limitation = smallest capacity, oncogenic risk. Transposon: Insert variable (no strict capsid limit, practically ~10–15 kb); host = bacteria to mammals (broad); application = insertional mutagenesis, gene tagging, gene therapy; advantage = stable integration, no viral sequences; limitation = random insertion (genotoxicity risk). For exams: draw a comparison table with columns: Vector | Insert size | Host | Key feature | Application."
+    "a": "— Write as a structured table or paragraph: Cosmid: Insert 35–45 kb; host = E. coli; application = genomic libraries, large gene cloning; advantage = high delivery efficiency via phage packaging. YAC: Insert 200–2,000 kb; host = S. cerevisiae; application = Human Genome Project, megabase cloning, chromosome walking; advantage = largest capacity; limitation = chimeric inserts. SV40: Insert ~2.5 kb; host = mammalian cells (monkey, human); application = gene expression studies, recombinant protein production in animal cells; advantage = strong promoter/enhancer; limitation = smallest capacity, oncogenic risk. Transposon: Insert variable (no strict capsid limit, practically ~10–15 kb); host = bacteria to mammals (broad); application = insertional mutagenesis, gene tagging, gene therapy; advantage = stable integration, no viral sequences; limitation = random insertion (genotoxicity risk). For exams: draw a comparison table with columns: Vector | Insert size | Host | Key feature | Application.",
+    "q_ta": "செருகல் அளவு, ஓம்புயிர், பயன்பாடுகள் ஆகியவற்றின் அடிப்படையில் காஸ்மிட், YAC, SV40, தாவு மரபணுத் தாங்கிக்கடத்திகளை ஒப்பிடுக.",
+    "a_ta": "— அட்டவணையாகவோ பத்தியாகவோ எழுதுக: காஸ்மிட்: செருகல் 35–45 kb; ஓம்புயிர் = E. coli; பயன்பாடு = மரபணுத்தொகை நூலகங்கள், பெரிய மரபணு குளோனாக்கம்; நன்மை = பாகாஃபேஜ் அடைப்பால் உயர் செலுத்தல் திறன். YAC: செருகல் 200–2,000 kb; ஓம்புயிர் = S. cerevisiae; பயன்பாடு = மனித மரபணுத்தொகைத் திட்டம், மெகாபேஸ் குளோனாக்கம், நிறமூர்த்த நடைபயணம்; நன்மை = மிகப் பெரிய கொள்ளளவு; வரம்பு = கலப்புச் செருகல்கள். SV40: செருகல் ~2.5 kb; ஓம்புயிர் = பாலூட்டிச் செல்கள் (குரங்கு, மனிதன்); பயன்பாடு = மரபணு வெளிப்பாட்டு ஆய்வுகள், விலங்குச் செல்களில் மறுசேர்க்கைப் புரத உற்பத்தி; நன்மை = வலுவான ஊக்குவிப்பி/மிகைப்பி; வரம்பு = மிகச் சிறிய கொள்ளளவு, புற்றுருவாக்க அபாயம். தாவு மரபணு: செருகல் மாறுபடும் (கடுமையான கேப்சிட் வரம்பு இல்லை, நடைமுறையில் ~10–15 kb); ஓம்புயிர் = பாக்டீரியம் முதல் பாலூட்டி வரை (பரந்தது); பயன்பாடு = செருகல் திடீர்மாற்றம், மரபணுக் குறிப்பிடுதல், மரபணு சிகிச்சை; நன்மை = நிலையான ஒருங்கிணைப்பு, வைரஸ் வரிசைகள் இல்லை; வரம்பு = தற்போக்குச் செருகல் (மரபணு நச்சு அபாயம்). தேர்வுக்கு: தாங்கிக்கடத்தி | செருகல் அளவு | ஓம்புயிர் | முக்கியப் பண்பு | பயன்பாடு என்ற நெடுவரிசைகளுடன் ஒப்பீட்டு அட்டவணை வரைக."
    }
   ],
   "gl": [
    {
     "t": "Cosmid",
-    "d": "A hybrid cloning vector that combines a plasmid origin of replication and selectable marker with the lambda phage cos sites for in vitro packaging. Accepts 35–45 kb inserts; replicates in E. coli."
+    "d": "A hybrid cloning vector that combines a plasmid origin of replication and selectable marker with the lambda phage cos sites for in vitro packaging. Accepts 35–45 kb inserts; replicates in E. coli.",
+    "t_ta": "காஸ்மிட்",
+    "d_ta": "பிளாஸ்மிடு இரட்டிப்புத் தொடக்கப்புள்ளியையும் தேர்வுக் குறிப்பானையும் உடலகவெளி அடைப்புக்கான லாம்டா பாகாஃபேஜ் cos இடங்களுடன் இணைக்கும் கலப்புக் குளோனாக்கத் தாங்கிக்கடத்தி. 35–45 kb செருகல்களை ஏற்கிறது; E. coli-இல் இரட்டிப்பாகிறது."
    },
    {
     "t": "cos Site",
-    "d": "Twelve-nucleotide single-stranded cohesive (sticky) ends from bacteriophage lambda incorporated into cosmids. Required for in vitro packaging of cosmid DNA into phage heads and efficient delivery into E. coli by transduction."
+    "d": "Twelve-nucleotide single-stranded cohesive (sticky) ends from bacteriophage lambda incorporated into cosmids. Required for in vitro packaging of cosmid DNA into phage heads and efficient delivery into E. coli by transduction.",
+    "t_ta": "cos இடம்",
+    "d_ta": "காஸ்மிடுகளில் இணைக்கப்பட்ட லாம்டா பாகாஃபேஜின் பன்னிரண்டு நியுக்ளியோடைடு ஒற்றை இழை ஒட்டும் முனைகள். காஸ்மிட் DNA-ஐ பாகாஃபேஜ் தலைகளுக்குள் உடலகவெளி முறையில் அடைக்கவும், கடத்தல் மூலம் E. coli-க்குள் திறமையாகச் செலுத்தவும் தேவை."
    },
    {
     "t": "YAC (Yeast Artificial Chromosome)",
-    "d": "An artificially constructed chromosome containing telomeres (TEL), centromere (CEN), origin of replication (ARS), selectable markers, and a cloning site. Accepts 200 kb–2,000 kb inserts in Saccharomyces cerevisiae."
+    "d": "An artificially constructed chromosome containing telomeres (TEL), centromere (CEN), origin of replication (ARS), selectable markers, and a cloning site. Accepts 200 kb–2,000 kb inserts in Saccharomyces cerevisiae.",
+    "t_ta": "YAC (ஈஸ்ட் செயற்கை நிறமூர்த்தம்)",
+    "d_ta": "முனைக்கூறுகள் (TEL), மையப்பகுதி (CEN), இரட்டிப்புத் தொடக்கப்புள்ளி (ARS), தேர்வுக் குறிப்பான்கள், குளோனாக்க இடம் ஆகியவற்றைக் கொண்ட செயற்கையாக உருவாக்கப்பட்ட நிறமூர்த்தம். Saccharomyces cerevisiae-இல் 200 kb–2,000 kb செருகல்களை ஏற்கிறது."
    },
    {
     "t": "Telomere",
-    "d": "Repetitive DNA sequences (TTAGGG in humans) at the ends of linear chromosomes that protect them from degradation and fusion. In YACs, telomeres maintain structural stability and prevent end-to-end chromosome joining."
+    "d": "Repetitive DNA sequences (TTAGGG in humans) at the ends of linear chromosomes that protect them from degradation and fusion. In YACs, telomeres maintain structural stability and prevent end-to-end chromosome joining.",
+    "t_ta": "முனைக்கூறு (டெலோமியர்)",
+    "d_ta": "நேர்கோட்டு நிறமூர்த்தங்களின் முனைகளில் உள்ள (மனிதரில் TTAGGG) மீள் DNA வரிசைகள்; சிதைவிலிருந்தும் இணைதலிலிருந்தும் அவற்றைப் பாதுகாக்கின்றன. YAC-களில் முனைக்கூறுகள் அமைப்பு நிலைத்தன்மையைப் பராமரித்து முனை-முனை நிறமூர்த்த இணைவைத் தடுக்கின்றன."
    },
    {
     "t": "Centromere",
-    "d": "A chromosomal region required for correct segregation of chromosomes during mitosis and meiosis. Binds spindle microtubules via kinetochore proteins. Essential component of YAC for equal distribution to daughter cells."
+    "d": "A chromosomal region required for correct segregation of chromosomes during mitosis and meiosis. Binds spindle microtubules via kinetochore proteins. Essential component of YAC for equal distribution to daughter cells.",
+    "t_ta": "சென்ட்ரோமியர்",
+    "d_ta": "மைட்டாசிஸ், மியாசிஸ் ஆகியவற்றில் நிறமூர்த்தங்கள் சரியாகப் பிரிவதற்குத் தேவையான நிறமூர்த்தப் பகுதி. கைனடோகோர் புரதங்கள் வழியாக நூற்கதிர் நுண்குழாய்களுடன் இணைகிறது. மகள் செல்களுக்குச் சமமாகப் பகிரப்பட YAC-இன் இன்றியமையாத கூறு."
    },
    {
     "t": "Transposition",
-    "d": "The movement of a transposable element (transposon) from one chromosomal location to another, catalyzed by the transposase enzyme. DNA transposons use a cut-and-paste mechanism; retrotransposons use an RNA intermediate."
+    "d": "The movement of a transposable element (transposon) from one chromosomal location to another, catalyzed by the transposase enzyme. DNA transposons use a cut-and-paste mechanism; retrotransposons use an RNA intermediate.",
+    "t_ta": "இடப்பெயர்வு (டிரான்ஸ்போசிஷன்)",
+    "d_ta": "டிரான்ஸ்போசேஸ் நொதியால் வினையூக்கப்பட்டு, ஒரு தாவு மரபணு ஓர் நிறமூர்த்த இடத்திலிருந்து மற்றொன்றுக்கு நகர்தல். DNA தாவு மரபணுக்கள் வெட்டி-ஒட்டு முறையையும், பின்னோக்கித் தாவு மரபணுக்கள் RNA இடைநிலையையும் பயன்படுத்துகின்றன."
    },
    {
     "t": "Transposase",
-    "d": "The enzyme encoded within a DNA transposon that recognizes the terminal inverted repeats (TIRs) and catalyzes excision from the donor site and integration into the new target site. Essential for transposition."
+    "d": "The enzyme encoded within a DNA transposon that recognizes the terminal inverted repeats (TIRs) and catalyzes excision from the donor site and integration into the new target site. Essential for transposition.",
+    "t_ta": "டிரான்ஸ்போசேஸ்",
+    "d_ta": "DNA தாவு மரபணுவுக்குள் குறியீடு செய்யப்பட்டுள்ள நொதி; முனை தலைகீழ் மீள்களை (TIR) அடையாளம் கண்டு, வழங்கும் இடத்திலிருந்து வெட்டி நீக்கவும் புதிய இலக்கு இடத்தில் ஒருங்கிணைக்கவும் வினையூக்குகிறது. இடப்பெயர்வுக்கு இன்றியமையாதது."
    },
    {
     "t": "Vector",
-    "d": "A DNA molecule (plasmid, phage, artificial chromosome, or mobile element) used as a vehicle to carry a foreign gene into a host cell, where it can be replicated and/or expressed. Must have an origin of replication and selectable marker."
+    "d": "A DNA molecule (plasmid, phage, artificial chromosome, or mobile element) used as a vehicle to carry a foreign gene into a host cell, where it can be replicated and/or expressed. Must have an origin of replication and selectable marker.",
+    "t_ta": "தாங்கிக்கடத்தி",
+    "d_ta": "அயல் மரபணுவை ஓம்புயிர்ச் செல்லுக்குள் கொண்டுசெல்லும் ஊர்தியாகப் பயன்படும் DNA மூலக்கூறு (பிளாஸ்மிடு, பாகாஃபேஜ், செயற்கை நிறமூர்த்தம் அல்லது நகரும் தனிமம்); அங்கு அது இரட்டிப்பாகவோ வெளிப்படவோ செய்யும். இரட்டிப்புத் தொடக்கப்புள்ளியும் தேர்வுக் குறிப்பானும் இருக்க வேண்டும்."
    },
    {
     "t": "Insert",
-    "d": "The foreign DNA fragment (gene of interest) that is cloned into a vector for propagation and/or expression. The insert is ligated into the vector's multiple cloning site (MCS) after restriction enzyme digestion."
+    "d": "The foreign DNA fragment (gene of interest) that is cloned into a vector for propagation and/or expression. The insert is ligated into the vector's multiple cloning site (MCS) after restriction enzyme digestion.",
+    "t_ta": "செருகல்",
+    "d_ta": "பெருக்கத்துக்காகவும் வெளிப்பாட்டுக்காகவும் தாங்கிக்கடத்தியில் குளோன் செய்யப்படும் அயல் DNA துண்டு (ஆர்வமுள்ள மரபணு). கட்டுறு நொதி வெட்டலுக்குப் பின் தாங்கிக்கடத்தியின் பல குளோனாக்க இடத்தில் (MCS) இணைக்கப்படுகிறது."
    },
    {
     "t": "Host Cell",
-    "d": "The cell into which a recombinant vector is introduced. Provides cellular machinery for vector replication and gene expression. Different vectors require different hosts: bacteria, yeast, mammalian cells."
+    "d": "The cell into which a recombinant vector is introduced. Provides cellular machinery for vector replication and gene expression. Different vectors require different hosts: bacteria, yeast, mammalian cells.",
+    "t_ta": "ஓம்புயிர்ச் செல்",
+    "d_ta": "மறுசேர்க்கைத் தாங்கிக்கடத்தி உள்ளே செலுத்தப்படும் செல். தாங்கிக்கடத்தி இரட்டிப்புக்கும் மரபணு வெளிப்பாட்டுக்குமான செல் இயங்குமுறையை வழங்குகிறது. வெவ்வேறு தாங்கிக்கடத்திகளுக்கு பாக்டீரியம், ஈஸ்ட், பாலூட்டிச் செல்கள் எனப் பல ஓம்புயிர்கள் தேவை."
    },
    {
     "t": "TIR (Terminal Inverted Repeat)",
-    "d": "Short DNA sequences at both ends of a DNA transposon, in opposite (inverted) orientations. Recognized by transposase as the boundaries of the transposon element. Essential for excision and integration during transposition."
+    "d": "Short DNA sequences at both ends of a DNA transposon, in opposite (inverted) orientations. Recognized by transposase as the boundaries of the transposon element. Essential for excision and integration during transposition.",
+    "t_ta": "TIR (முனை தலைகீழ் மீள்)",
+    "d_ta": "DNA தாவு மரபணுவின் இரு முனைகளிலும் எதிர் (தலைகீழ்) திசையில் உள்ள குறுகிய DNA வரிசைகள். தாவு மரபணுவின் எல்லைகளாக டிரான்ஸ்போசேஸால் அடையாளம் காணப்படுகின்றன. இடப்பெயர்வில் வெட்டி நீக்கலுக்கும் ஒருங்கிணைப்புக்கும் இன்றியமையாதவை."
    },
    {
     "t": "Large T Antigen (LT-Ag)",
-    "d": "The major SV40 early protein. Functions as a replication initiator by binding to the SV40 ori, and as a transforming protein by inhibiting host tumor suppressors p53 and Rb. Central to SV40 biology and COS cell systems."
+    "d": "The major SV40 early protein. Functions as a replication initiator by binding to the SV40 ori, and as a transforming protein by inhibiting host tumor suppressors p53 and Rb. Central to SV40 biology and COS cell systems.",
+    "t_ta": "பெரிய T எதிர்ப்பொருள் தூண்டி (LT-Ag)",
+    "d_ta": "SV40-இன் முதன்மைத் தொடக்கப் புரதம். SV40 ori-உடன் இணைந்து இரட்டிப்புத் தொடக்கியாகவும், ஓம்புயிர்க் கட்டி அடக்கிகளான p53, Rb-ஐத் தடுத்து உருமாற்றப் புரதமாகவும் செயல்படுகிறது. SV40 உயிரியலுக்கும் COS செல் அமைப்புகளுக்கும் மையமானது."
    }
+  ],
+  "title_ta": "மேம்பட்ட தாங்கிக்கடத்திகள் – காஸ்மிட், YAC, SV40, தாவு மரபணுக்கள்",
+  "kp_ta": [
+   "காஸ்மிட் வரையறை: கலப்பினத் தாங்கிக்கடத்தி = பிளாஸ்மிடு அடித்தளம் + லாம்டா cos இடங்கள். காலின்ஸ், ஹோன் (1978) உருவாக்கினர். செருகல் கொள்ளளவு: 35–45 kb.",
+   "cos இடங்கள்: காஸ்மிடில் இணைக்கப்பட்ட 12-nt லாம்டா பாகாஃபேஜ் ஒட்டும் முனைகள். உடலகவெளி (இன் விட்ரோ) முறையில் பாகாஃபேஜ் தலைக்குள் அடைக்கவும், E. coli-க்குள் மிகத் திறமையாகச் செலுத்தவும் உதவுகின்றன.",
+   "YAC வரையறை: ஈஸ்ட் செயற்கை நிறமூர்த்தம். 1987-இல் உருவாக்கப்பட்டது. TEL + CEN + ARS + குறிப்பான்களைக் கொண்டது. செருகல் கொள்ளளவு: 200 kb – 2,000 kb.",
+   "YAC கூறுகள்: TEL = முனைகளைப் பாதுகாக்கிறது; CEN = பிரிதல்; ARS = ஈஸ்டில் இரட்டிப்புத் தொடக்கப்புள்ளி. செயல்படும் YAC-க்கு மூன்றும் கட்டாயம்.",
+   "SV40: சிமியன் வைரஸ் 40. ~5,243 bp வட்ட இரட்டை இழை DNA. தொடக்கப் பகுதி (T எதிர்ப்பொருள் தூண்டிகள்) + பிற்பகுதி (VP1, VP2, VP3) + ori. செருகல் கொள்ளளவு ~2.5 kb.",
+   "COS செல்கள்: SV40 பெரிய T எதிர்ப்பொருள் தூண்டியை வெளிப்படுத்தும் குரங்கு சிறுநீரகச் செல்கள். தற்காலிக வெளிப்பாட்டுக்காக SV40 தாங்கிக்கடத்திகளை மிக அதிக படியெண்ணிக்கையில் எபிசோம் வடிவில் இரட்டிப்பாக்க உதவுகின்றன.",
+   "தாவு மரபணுக்கள்: நகரும் DNA வரிசைகள் (“தாவும் மரபணுக்கள்”). மக்காச்சோளத்தில் பார்பரா மெக்ளின்டாக் கண்டறிந்தார் (நோபல் 1983). வகுப்பு I = பின்னோக்கித் தாவு மரபணுக்கள்; வகுப்பு II = DNA தாவு மரபணுக்கள்.",
+   "டிரான்ஸ்போசேஸ்: DNA தாவு மரபணுக்கள் குறியீடு செய்யும் நொதி; வெட்டி நீக்கி மீண்டும் செருகுதலை (வெட்டி-ஒட்டு) நிகழ்த்துகிறது. தாவு மரபணுவின் இரு முனைகளிலுள்ள TIR-களை அடையாளம் காண்கிறது.",
+   "ஸ்லீப்பிங் பியூட்டி: மறுஉருவாக்கப்பட்ட பண்டைய மீன் தாவு மரபணு. பாலூட்டிச் செல்களில் நிலையான மரபணுச் செலுத்தலுக்கான வைரஸற்ற மரபணு சிகிச்சையில் பயன்படுகிறது. TA இருநியுக்ளியோடைடு இடங்களில் செருகுகிறது.",
+   "செருகல் கொள்ளளவு வரிசை: பிளாஸ்மிடு (<10 kb) < லாம்டா பாகாஃபேஜ் (23 kb) < காஸ்மிட் (35–45 kb) < YAC (200–2000 kb). SV40 (~2.5 kb) கேப்சிட் வரம்பால் மிகச் சிறியது.",
+   "மரபணுத்தொகை நூலகங்கள்: காஸ்மிடுகளும் YAC-களும் மரபணுத்தொகை நூலகங்களை உருவாக்கப் பயன்படுகின்றன. மனித மரபணுத்தொகைத் திட்டத்துக்கு (1990–2003) YAC நூலகங்கள் அவசியமாக இருந்தன.",
+   "P தனிமம்: Drosophila melanogaster-இல் உள்ள வகுப்பு II DNA தாவு மரபணு. செருகல் திடீர்மாற்றம், மரபணுக் குறிப்பிடுதல், மாற்றுமரபணுப் பூச்சிகளை உருவாக்குதல் ஆகியவற்றில் பரவலாகப் பயன்படுகிறது."
   ]
  },
  "bioinformatics_databases_app.html": {
@@ -2471,74 +2572,122 @@
   "sa": [
    {
     "q": "Define bioinformatics. Explain its scope and importance in modern biology.",
-    "a": "Define bioinformatics (biology + computer science + mathematics; storage, retrieval, and analysis of biological data). Scope: data management, sequence analysis, genomics, phylogenetics, drug discovery, medical genomics. Importance: manages genomic data explosion; enabled Human Genome Project; essential for BLAST searches, database-based research, precision medicine. Mention three core activities: storage, analysis, knowledge extraction."
+    "a": "Define bioinformatics (biology + computer science + mathematics; storage, retrieval, and analysis of biological data). Scope: data management, sequence analysis, genomics, phylogenetics, drug discovery, medical genomics. Importance: manages genomic data explosion; enabled Human Genome Project; essential for BLAST searches, database-based research, precision medicine. Mention three core activities: storage, analysis, knowledge extraction.",
+    "q_ta": "உயிர்த்தகவலியலை வரையறுக்க. நவீன உயிரியலில் அதன் நோக்கத்தையும் முக்கியத்துவத்தையும் விளக்குக.",
+    "a_ta": "உயிர்த்தகவலியலை வரையறு (உயிரியல் + கணினி அறிவியல் + கணிதம்; உயிரியல் தரவின் சேமிப்பு, மீட்பு, பகுப்பாய்வு). நோக்கம்: தரவு மேலாண்மை, வரிசைப் பகுப்பாய்வு, மரபணுத்தொகையியல், இனவரலாற்றியல், மருந்து கண்டுபிடிப்பு, மருத்துவ மரபணுத்தொகையியல். முக்கியத்துவம்: மரபணுத்தொகைத் தரவு வெடிப்பை நிர்வகிக்கிறது; மனித மரபணுத்தொகைத் திட்டத்தை இயலச் செய்தது; BLAST தேடல்கள், தரவுத்தள அடிப்படை ஆராய்ச்சி, துல்லிய மருத்துவம் ஆகியவற்றுக்கு அவசியம். மூன்று முக்கிய செயல்பாடுகளைக் குறிப்பிடுக: சேமிப்பு, பகுப்பாய்வு, அறிவுப் பிரித்தெடுப்பு."
    },
    {
     "q": "What are nucleotide sequence databases? Write a note on GenBank — its origin, features, and importance.",
-    "a": "Define nucleotide sequence databases (store DNA/RNA sequences with annotations; free global access). GenBank: maintained by NCBI (NIH), USA; founded 1982; world's largest annotated archive; search tools Entrez and BLAST; accession numbers; flat file format (LOCUS, DEFINITION, FEATURES, ORGANISM, ORIGIN); INSDC member; importance — universal reference for molecular biology; enables gene identification, BLAST searches, evolutionary studies."
+    "a": "Define nucleotide sequence databases (store DNA/RNA sequences with annotations; free global access). GenBank: maintained by NCBI (NIH), USA; founded 1982; world's largest annotated archive; search tools Entrez and BLAST; accession numbers; flat file format (LOCUS, DEFINITION, FEATURES, ORGANISM, ORIGIN); INSDC member; importance — universal reference for molecular biology; enables gene identification, BLAST searches, evolutionary studies.",
+    "q_ta": "நியுக்ளியோடைடு வரிசைத் தரவுத்தளங்கள் என்றால் என்ன? GenBank-இன் தோற்றம், பண்புகள், முக்கியத்துவம் பற்றிக் குறிப்பு எழுதுக.",
+    "a_ta": "நியுக்ளியோடைடு வரிசைத் தரவுத்தளங்களை வரையறு (குறிப்புரையுடன் DNA/RNA வரிசைகளைச் சேமிக்கின்றன; உலகளாவிய இலவசப் பயன்பாடு). GenBank: அமெரிக்காவின் NCBI (NIH) பராமரிக்கிறது; 1982-இல் நிறுவப்பட்டது; குறிப்புரையுடன் கூடிய உலகின் மிகப் பெரிய காப்பகம்; தேடல் கருவிகள் Entrez, BLAST; அக்சஷன் எண்கள்; தட்டைக் கோப்பு வடிவம் (LOCUS, DEFINITION, FEATURES, ORGANISM, ORIGIN); INSDC உறுப்பினர்; முக்கியத்துவம் — மூலக்கூற்று உயிரியலுக்கான உலகளாவிய குறிப்பு; மரபணு அடையாளம் காணல், BLAST தேடல்கள், பரிணாம ஆய்வுகளுக்கு உதவுகிறது."
    },
    {
     "q": "Compare GenBank, EMBL, and DDBJ under the headings: organisation, country, search tools, year of establishment, and collaboration.",
-    "a": "Table format recommended. GenBank (NCBI/NIH, USA, 1982, Entrez/BLAST); EMBL/ENA (EBI/EMBL, UK, 1980, SRS/FASTA); DDBJ (NIG, Japan, 1986, Sakura/BLAST). All three are INSDC members — synchronised daily. EMBL is oldest; GenBank largest; DDBJ is Asian hub. Same accession number system. Data flow: submission → accession assigned → 24h global sync."
+    "a": "Table format recommended. GenBank (NCBI/NIH, USA, 1982, Entrez/BLAST); EMBL/ENA (EBI/EMBL, UK, 1980, SRS/FASTA); DDBJ (NIG, Japan, 1986, Sakura/BLAST). All three are INSDC members — synchronised daily. EMBL is oldest; GenBank largest; DDBJ is Asian hub. Same accession number system. Data flow: submission → accession assigned → 24h global sync.",
+    "q_ta": "அமைப்பு, நாடு, தேடல் கருவிகள், நிறுவப்பட்ட ஆண்டு, கூட்டிணைவு ஆகிய தலைப்புகளில் GenBank, EMBL, DDBJ ஆகியவற்றை ஒப்பிடுக.",
+    "a_ta": "அட்டவணை வடிவம் பரிந்துரைக்கப்படுகிறது. GenBank (NCBI/NIH, அமெரிக்கா, 1982, Entrez/BLAST); EMBL/ENA (EBI/EMBL, இங்கிலாந்து, 1980, SRS/FASTA); DDBJ (NIG, ஜப்பான், 1986, Sakura/BLAST). மூன்றும் INSDC உறுப்பினர்கள் — தினமும் ஒத்திசைக்கப்படுகின்றன. EMBL மிகப் பழமையானது; GenBank மிகப் பெரியது; DDBJ ஆசிய மையம். ஒரே அக்சஷன் எண் முறை. தரவு ஓட்டம்: சமர்ப்பிப்பு → அக்சஷன் எண் வழங்கல் → 24 மணி நேர உலகளாவிய ஒத்திசைவு."
    },
    {
     "q": "Explain the INSDC — International Nucleotide Sequence Database Collaboration. Why is it important for global science?",
-    "a": "INSDC = partnership between GenBank, EMBL, and DDBJ. Daily synchronisation — submitting to any one makes data available in all three within 24 hours. Importance: (1) no duplication of submission effort for researchers; (2) ensures global access to all sequences regardless of submission location; (3) prevents data siloing; (4) free and open — democratises molecular biology; (5) mandatory submission policies in journals ensure all sequence data becomes public. Mention data flow diagram: lab → submission → accession → sync → global access."
+    "a": "INSDC = partnership between GenBank, EMBL, and DDBJ. Daily synchronisation — submitting to any one makes data available in all three within 24 hours. Importance: (1) no duplication of submission effort for researchers; (2) ensures global access to all sequences regardless of submission location; (3) prevents data siloing; (4) free and open — democratises molecular biology; (5) mandatory submission policies in journals ensure all sequence data becomes public. Mention data flow diagram: lab → submission → accession → sync → global access.",
+    "q_ta": "INSDC — சர்வதேச நியுக்ளியோடைடு வரிசைத் தரவுத்தளக் கூட்டிணைவு — பற்றி விளக்குக. உலக அறிவியலுக்கு இது ஏன் முக்கியம்?",
+    "a_ta": "INSDC = GenBank, EMBL, DDBJ ஆகியவற்றுக்கிடையிலான கூட்டாண்மை. தினசரி ஒத்திசைவு — ஏதேனும் ஒன்றில் சமர்ப்பித்தால் 24 மணி நேரத்துக்குள் மூன்றிலும் தரவு கிடைக்கும். முக்கியத்துவம்: (1) ஆராய்ச்சியாளர்களுக்குச் சமர்ப்பிப்பு முயற்சி இரட்டிப்பாகாது; (2) சமர்ப்பித்த இடம் எதுவாயினும் அனைத்து வரிசைகளுக்கும் உலகளாவிய அணுகல் உறுதி; (3) தரவுத் தனிமைப்படுத்தலைத் தடுக்கிறது; (4) இலவசமும் திறந்ததும் — மூலக்கூற்று உயிரியலை அனைவருக்கும் கொண்டுசேர்க்கிறது; (5) இதழ்களின் கட்டாயச் சமர்ப்பிப்புக் கொள்கைகள் அனைத்து வரிசைத் தரவும் பொதுவில் வருவதை உறுதிசெய்கின்றன. தரவு ஓட்ட வரைபடத்தைக் குறிப்பிடுக: ஆய்வகம் → சமர்ப்பிப்பு → அக்சஷன் → ஒத்திசைவு → உலகளாவிய அணுகல்."
    },
    {
     "q": "Discuss the applications of nucleotide sequence databases in research and medicine. Give examples.",
-    "a": "Eight applications: (1) gene identification — BLAST matches unknown sequences; (2) sequence comparison — BLAST across species; (3) evolutionary studies — phylogenetic trees from retrieved sequences; (4) disease research — mutation identification, pathogen genomes; (5) crop biotech — trait gene retrieval; (6) drug discovery — target sequence identification; (7) primer design — PCR and cloning; (8) pathogen surveillance — COVID-19 variant tracking. Mention BLAST (NCBI) as the tool that makes most of these possible."
+    "a": "Eight applications: (1) gene identification — BLAST matches unknown sequences; (2) sequence comparison — BLAST across species; (3) evolutionary studies — phylogenetic trees from retrieved sequences; (4) disease research — mutation identification, pathogen genomes; (5) crop biotech — trait gene retrieval; (6) drug discovery — target sequence identification; (7) primer design — PCR and cloning; (8) pathogen surveillance — COVID-19 variant tracking. Mention BLAST (NCBI) as the tool that makes most of these possible.",
+    "q_ta": "ஆராய்ச்சியிலும் மருத்துவத்திலும் நியுக்ளியோடைடு வரிசைத் தரவுத்தளங்களின் பயன்பாடுகளை எடுத்துக்காட்டுகளுடன் விவாதிக்க.",
+    "a_ta": "எட்டுப் பயன்பாடுகள்: (1) மரபணு அடையாளம் காணல் — அறியப்படாத வரிசைகளை BLAST பொருத்துகிறது; (2) வரிசை ஒப்பீடு — உயிரினங்களுக்கிடையே BLAST; (3) பரிணாம ஆய்வுகள் — மீட்கப்பட்ட வரிசைகளிலிருந்து இனவரலாற்று மரங்கள்; (4) நோய் ஆராய்ச்சி — திடீர்மாற்ற அடையாளம், நோய்க்காரணி மரபணுத்தொகைகள்; (5) பயிர் உயிரித்தொழில்நுட்பம் — பண்பு மரபணு மீட்பு; (6) மருந்து கண்டுபிடிப்பு — இலக்கு வரிசை அடையாளம்; (7) பிரைமர் வடிவமைப்பு — PCR, குளோனாக்கம்; (8) நோய்க்காரணி கண்காணிப்பு — COVID-19 மாறுபாடு கண்காணிப்பு. இவற்றில் பெரும்பாலானவற்றை இயலச் செய்யும் கருவியாக BLAST (NCBI) குறிப்பிடுக."
    }
   ],
   "gl": [
    {
     "t": "Bioinformatics",
-    "d": "The interdisciplinary science applying computer science and mathematics to store, retrieve, and analyse biological data, especially molecular sequences."
+    "d": "The interdisciplinary science applying computer science and mathematics to store, retrieve, and analyse biological data, especially molecular sequences.",
+    "t_ta": "உயிர்த்தகவலியல்",
+    "d_ta": "உயிரியல் தரவை, குறிப்பாக மூலக்கூற்று வரிசைகளை, சேமித்து, மீட்டு, பகுப்பாய்வு செய்யக் கணினி அறிவியலையும் கணிதத்தையும் பயன்படுத்தும் இடைநிலை அறிவியல்."
    },
    {
     "t": "Database",
-    "d": "An organised collection of data stored in a computer system that can be efficiently searched, retrieved, and updated."
+    "d": "An organised collection of data stored in a computer system that can be efficiently searched, retrieved, and updated.",
+    "t_ta": "தரவுத்தளம்",
+    "d_ta": "கணினி அமைப்பில் சேமிக்கப்பட்டு, திறமையாகத் தேடவும் மீட்கவும் புதுப்பிக்கவும் கூடிய ஒழுங்கமைக்கப்பட்ட தரவுத் தொகுப்பு."
    },
    {
     "t": "Nucleotide Sequence",
-    "d": "The order of nucleotide bases (A, T, G, C for DNA; A, U, G, C for RNA) in a DNA or RNA molecule."
+    "d": "The order of nucleotide bases (A, T, G, C for DNA; A, U, G, C for RNA) in a DNA or RNA molecule.",
+    "t_ta": "நியுக்ளியோடைடு வரிசை",
+    "d_ta": "DNA அல்லது RNA மூலக்கூறில் உள்ள நியுக்ளியோடைடு காரங்களின் (DNA-க்கு A, T, G, C; RNA-க்கு A, U, G, C) வரிசை."
    },
    {
     "t": "GenBank",
-    "d": "The US primary nucleotide sequence database maintained by NCBI (NIH); founded 1982; the world's largest annotated sequence archive."
+    "d": "The US primary nucleotide sequence database maintained by NCBI (NIH); founded 1982; the world's largest annotated sequence archive.",
+    "t_ta": "GenBank",
+    "d_ta": "NCBI (NIH) பராமரிக்கும் அமெரிக்க முதல்நிலை நியுக்ளியோடைடு வரிசைத் தரவுத்தளம்; 1982-இல் நிறுவப்பட்டது; குறிப்புரையுடன் கூடிய உலகின் மிகப் பெரிய வரிசைக் காப்பகம்."
    },
    {
     "t": "EMBL / ENA",
-    "d": "The European primary nucleotide sequence database (now European Nucleotide Archive) maintained by EBI; the oldest such database, founded 1980."
+    "d": "The European primary nucleotide sequence database (now European Nucleotide Archive) maintained by EBI; the oldest such database, founded 1980.",
+    "t_ta": "EMBL / ENA",
+    "d_ta": "EBI பராமரிக்கும் ஐரோப்பிய முதல்நிலை நியுக்ளியோடைடு வரிசைத் தரவுத்தளம் (தற்போது ஐரோப்பிய நியுக்ளியோடைடு காப்பகம்); இத்தகையவற்றில் மிகப் பழமையானது, 1980-இல் நிறுவப்பட்டது."
    },
    {
     "t": "DDBJ",
-    "d": "DNA Data Bank of Japan — the Japanese primary nucleotide sequence database maintained by NIG; founded 1986; part of INSDC."
+    "d": "DNA Data Bank of Japan — the Japanese primary nucleotide sequence database maintained by NIG; founded 1986; part of INSDC.",
+    "t_ta": "DDBJ",
+    "d_ta": "ஜப்பான் DNA தரவு வங்கி — NIG பராமரிக்கும் ஜப்பானிய முதல்நிலை நியுக்ளியோடைடு வரிசைத் தரவுத்தளம்; 1986-இல் நிறுவப்பட்டது; INSDC-இன் பகுதி."
    },
    {
     "t": "INSDC",
-    "d": "International Nucleotide Sequence Database Collaboration — the partnership between GenBank, EMBL, and DDBJ for daily synchronisation of all sequence records."
+    "d": "International Nucleotide Sequence Database Collaboration — the partnership between GenBank, EMBL, and DDBJ for daily synchronisation of all sequence records.",
+    "t_ta": "INSDC",
+    "d_ta": "சர்வதேச நியுக்ளியோடைடு வரிசைத் தரவுத்தளக் கூட்டிணைவு — அனைத்து வரிசைப் பதிவுகளையும் தினமும் ஒத்திசைக்கும் GenBank, EMBL, DDBJ கூட்டாண்மை."
    },
    {
     "t": "Accession Number",
-    "d": "A unique permanent identifier assigned to each sequence record deposited in an INSDC database (e.g., AY123456). It never changes."
+    "d": "A unique permanent identifier assigned to each sequence record deposited in an INSDC database (e.g., AY123456). It never changes.",
+    "t_ta": "அக்சஷன் எண்",
+    "d_ta": "INSDC தரவுத்தளத்தில் சேமிக்கப்படும் ஒவ்வொரு வரிசைப் பதிவுக்கும் வழங்கப்படும் தனித்துவமான நிலையான அடையாளங்காட்டி (எ.கா., AY123456). இது ஒருபோதும் மாறாது."
    },
    {
     "t": "Data Retrieval",
-    "d": "The process of searching a database and extracting specific records — performed using tools like Entrez (GenBank) or SRS (EMBL)."
+    "d": "The process of searching a database and extracting specific records — performed using tools like Entrez (GenBank) or SRS (EMBL).",
+    "t_ta": "தரவு மீட்பு",
+    "d_ta": "தரவுத்தளத்தில் தேடி குறிப்பிட்ட பதிவுகளைப் பிரித்தெடுக்கும் செயல்முறை — Entrez (GenBank) அல்லது SRS (EMBL) போன்ற கருவிகளால் செய்யப்படுகிறது."
    },
    {
     "t": "BLAST",
-    "d": "Basic Local Alignment Search Tool — the most widely used bioinformatics tool; compares a query sequence against all database sequences to find similar ones."
+    "d": "Basic Local Alignment Search Tool — the most widely used bioinformatics tool; compares a query sequence against all database sequences to find similar ones.",
+    "t_ta": "BLAST",
+    "d_ta": "அடிப்படை உள்ளூர் ஒப்பீட்டுத் தேடல் கருவி (Basic Local Alignment Search Tool) — மிகப் பரவலாகப் பயன்படும் உயிர்த்தகவலியல் கருவி; வினா வரிசையைத் தரவுத்தளத்தின் அனைத்து வரிசைகளுடன் ஒப்பிட்டு ஒத்தவற்றைக் கண்டறிகிறது."
    },
    {
     "t": "Primary Database",
-    "d": "A database storing original, experimentally determined biological data submitted directly by researchers, without additional curation."
+    "d": "A database storing original, experimentally determined biological data submitted directly by researchers, without additional curation.",
+    "t_ta": "முதல்நிலைத் தரவுத்தளம்",
+    "d_ta": "கூடுதல் தொகுப்பு இன்றி, ஆராய்ச்சியாளர்கள் நேரடியாகச் சமர்ப்பித்த, சோதனை வழி கண்டறியப்பட்ட மூல உயிரியல் தரவைச் சேமிக்கும் தரவுத்தளம்."
    },
    {
     "t": "Sequence Analysis",
-    "d": "Computational methods (alignment, BLAST search, phylogenetic analysis) used to compare and interpret sequence data — distinct from database storage."
+    "d": "Computational methods (alignment, BLAST search, phylogenetic analysis) used to compare and interpret sequence data — distinct from database storage.",
+    "t_ta": "வரிசைப் பகுப்பாய்வு",
+    "d_ta": "வரிசைத் தரவை ஒப்பிடவும் விளக்கவும் பயன்படும் கணினி முறைகள் (ஒப்பீடு, BLAST தேடல், இனவரலாற்றுப் பகுப்பாய்வு) — தரவுத்தளச் சேமிப்பிலிருந்து வேறுபட்டது."
    }
+  ],
+  "title_ta": "உயிர்த்தகவலியல்: நியுக்ளியோடைடு வரிசைத் தரவுத்தளங்கள்",
+  "kp_ta": [
+   "உயிர்த்தகவலியல் கணினி அறிவியலையும் கணிதத்தையும் பயன்படுத்தி உயிரியல் தரவை, குறிப்பாக வரிசைகளை, சேமித்து, மீட்டு, பகுப்பாய்வு செய்கிறது.",
+   "உயிர்த்தகவலியலின் மூன்று முக்கிய செயல்பாடுகள்: தரவுச் சேமிப்பு (தரவுத்தளங்கள்), தரவுப் பகுப்பாய்வு (கருவிகள்/படிமுறைகள்), அறிவுப் பிரித்தெடுப்பு (விளக்கம்).",
+   "தரவுத்தளங்கள் தரவைச் சேமிக்கின்றன; தேடல் கருவிகள் (எ.கா., BLAST, Entrez) தரவுத்தளங்களை வினவுகின்றன; வரிசைப் பகுப்பாய்வு முறைகள் (எ.கா., ஒப்பீடு) மீட்கப்பட்ட தரவைச் செயலாக்குகின்றன — மூன்றும் வெவ்வேறு கருத்துகள்.",
+   "முதல்நிலைத் தரவுத்தளங்கள் மூலச் சோதனைத் தரவைச் சேமிக்கின்றன (GenBank, EMBL, DDBJ, PDB); இரண்டாம்நிலைத் தரவுத்தளங்கள் தொகுக்கப்பட்ட குறிப்புரையைச் சேர்க்கின்றன (UniProt, KEGG).",
+   "நியுக்ளியோடைடு வரிசைத் தரவுத்தளங்கள் அனைத்து உயிரினங்களின் DNA/RNA வரிசைகளை முழுக் குறிப்புரையுடன் சேமிக்கின்றன.",
+   "GenBank: NCBI, அமெரிக்கா, 1982-இல் நிறுவப்பட்டது — உலகின் மிகப் பெரியது; Entrez + BLAST; அக்சஷன் எண்கள்.",
+   "EMBL/ENA: EBI, இங்கிலாந்து, 1980-இல் நிறுவப்பட்டது — மிகப் பழமையானது; SRS + FASTA; ஐரோப்பிய வளங்களுடன் வலுவான ஒருங்கிணைப்பு.",
+   "DDBJ: NIG, ஜப்பான், 1986-இல் நிறுவப்பட்டது — புதியது; Sakura சமர்ப்பிப்பு; ஆசிய ஆராய்ச்சி மையம்.",
+   "INSDC = சர்வதேச நியுக்ளியோடைடு வரிசைத் தரவுத்தளக் கூட்டிணைவு — GenBank, EMBL, DDBJ ஆகியவற்றை 24 மணி நேரத்துக்குள் ஒத்திசைக்கிறது.",
+   "வரிசைத் தரவு ஓட்டம்: ஆய்வகம் → சமர்ப்பிப்பு → அக்சஷன் எண் → INSDC ஒத்திசைவு → உலகளாவிய இலவசப் பயன்பாடு.",
+   "பயன்பாடுகள்: மரபணு அடையாளம் காணல், BLAST தேடல்கள், இனவரலாற்றியல், நோய் ஆராய்ச்சி, மருந்து கண்டுபிடிப்பு, பிரைமர் வடிவமைப்பு, நோய்க்காரணி கண்காணிப்பு."
   ]
  },
  "dna_library_genomic_cdna.html": {
