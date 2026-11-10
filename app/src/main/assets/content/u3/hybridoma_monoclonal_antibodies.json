@@ -2,19 +2,25 @@
  "id": "hybridoma_monoclonal_antibodies",
  "unit": "III",
  "title": {
-  "en": "Hybridoma & Monoclonal Antibodies"
+  "en": "Hybridoma & Monoclonal Antibodies",
+  "ta": "ஹைப்ரிடோமாவும் ஒற்றைக்குளோன் எதிர்ப்பொருட்களும்",
+  "ta_status": "draft"
  },
  "sections": [
   {
    "id": "s01",
    "title": {
-    "en": "Overview"
+    "en": "Overview",
+    "ta": "மேலோட்டம்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "🧬 Unit III · Medical Biotechnology"
+      "en": "🧬 Unit III · Medical Biotechnology",
+      "ta": "🧬 அலகு III · மருத்துவ உயிரித் தொழில்நுட்பவியல்",
+      "ta_status": "draft"
      }
     }
    ]
@@ -22,31 +28,41 @@
   {
    "id": "s02",
    "title": {
-    "en": "Hybridoma Technology and Monoclonal Antibodies"
+    "en": "Hybridoma Technology and Monoclonal Antibodies",
+    "ta": "ஹைப்ரிடோமா தொழில்நுட்பமும் ஒற்றைக்குளோன் எதிர்ப்பொருட்களும்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Hybridoma Technology and Monoclonal Antibodies"
+      "en": "Hybridoma Technology and Monoclonal Antibodies",
+      "ta": "ஹைப்ரிடோமா தொழில்நுட்பமும் ஒற்றைக்குளோன் எதிர்ப்பொருட்களும்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Antibodies are the immune system's precision tools. By fusing an antibody-producing cell with an immortal tumour cell, Köhler and Milstein created a way to make unlimited quantities of a single, perfectly specific antibody."
+      "en": "Antibodies are the immune system's precision tools. By fusing an antibody-producing cell with an immortal tumour cell, Köhler and Milstein created a way to make unlimited quantities of a single, perfectly specific antibody.",
+      "ta": "எதிர்ப்பொருட்கள் நோயெதிர்ப்பு மண்டலத்தின் துல்லியக் கருவிகள். எதிர்ப்பொருள் உருவாக்கும் செல்லை அழிவற்ற கட்டிச் செல்லுடன் இணைத்து, ஒற்றை, முழுமையாகக் குறிப்பிட்ட எதிர்ப்பொருளை வரம்பின்றி உற்பத்தி செய்யும் வழியைக் கோலரும் மில்ஸ்டீனும் உருவாக்கினர்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "📚 4 chapters🎯 10 MCQs📝 Exam questions🎓 B.Sc. Zoology / Biotechnology"
+      "en": "📚 4 chapters🎯 10 MCQs📝 Exam questions🎓 B.Sc. Zoology / Biotechnology",
+      "ta": "📚 4 பாடங்கள்🎯 10 MCQ-கள்📝 தேர்வு வினாக்கள்🎓 B.Sc. விலங்கியல் / உயிரித் தொழில்நுட்பவியல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🎯 Learning Objectives**"
+      "en": "**🎯 Learning Objectives**",
+      "ta": "**🎯 கற்றல் நோக்கங்கள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -54,19 +70,29 @@
      "ordered": false,
      "items": [
       {
-       "en": "✓Distinguish polyclonal and monoclonal antibodies."
+       "en": "✓Distinguish polyclonal and monoclonal antibodies.",
+       "ta": "✓பல்குளோன், ஒற்றைக்குளோன் எதிர்ப்பொருட்களை வேறுபடுத்துக.",
+       "ta_status": "draft"
       },
       {
-       "en": "✓Describe the steps of hybridoma technology."
+       "en": "✓Describe the steps of hybridoma technology.",
+       "ta": "✓ஹைப்ரிடோமா தொழில்நுட்பத்தின் படிகளை விவரிக்க.",
+       "ta_status": "draft"
       },
       {
-       "en": "✓Explain HAT selection with its biochemical basis."
+       "en": "✓Explain HAT selection with its biochemical basis.",
+       "ta": "✓HAT தெரிவை அதன் உயிர்வேதியியல் அடிப்படையுடன் விளக்குக.",
+       "ta_status": "draft"
       },
       {
-       "en": "✓Describe chimeric, humanised and fully human antibodies."
+       "en": "✓Describe chimeric, humanised and fully human antibodies.",
+       "ta": "✓கலப்பின, மனிதமயமாக்கப்பட்ட, முழு மனித எதிர்ப்பொருட்களை விவரிக்க.",
+       "ta_status": "draft"
       },
       {
-       "en": "✓List applications of monoclonal antibodies in medicine and research."
+       "en": "✓List applications of monoclonal antibodies in medicine and research.",
+       "ta": "✓மருத்துவம், ஆய்வில் ஒற்றைக்குளோன் எதிர்ப்பொருட்களின் பயன்பாடுகளைப் பட்டியலிடுக.",
+       "ta_status": "draft"
       }
      ]
     }
@@ -75,26 +101,34 @@
   {
    "id": "s03",
    "title": {
-    "en": "Antibodies: Polyclonal versus Monoclonal"
+    "en": "Antibodies: Polyclonal versus Monoclonal",
+    "ta": "எதிர்ப்பொருட்கள்: பல்குளோன் – ஒற்றைக்குளோன்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Monoclonal antibodies are identical antibodies from a single B-cell clone that recognise one epitope."
+      "en": "Monoclonal antibodies are identical antibodies from a single B-cell clone that recognise one epitope.",
+      "ta": "ஒற்றைக்குளோன் எதிர்ப்பொருட்கள் ஒரே B செல் குளோனிலிருந்து வரும், ஒரே எபிடோப்பை அறியும் ஒத்த எதிர்ப்பொருட்கள்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "An **antibody** (immunoglobulin) is a Y-shaped glycoprotein made by plasma cells. It binds an _antigen_ at a specific site called the **epitope**."
+      "en": "An **antibody** (immunoglobulin) is a Y-shaped glycoprotein made by plasma cells. It binds an _antigen_ at a specific site called the **epitope**.",
+      "ta": "**எதிர்ப்பொருள்** (இம்யூனோகுளோபுலின்) என்பது பிளாஸ்மா செல்களால் உருவாக்கப்படும் Y வடிவக் கிளைக்கோபுரதம். இது _எதிர்ப்பொருள் தூண்டியை_ **எபிடோப்** என்ற குறிப்பிட்ட இடத்தில் பிணைக்கிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "hybridoma_monoclonal_antibodies-d01",
      "caption": {
-      "en": "Fig. 1. Structure of an IgG antibody."
+      "en": "Fig. 1. Structure of an IgG antibody.",
+      "ta": "படம் 1. IgG எதிர்ப்பொருளின் அமைப்பு.",
+      "ta_status": "draft"
      },
      "labels": [
       "Antigen-binding site",
@@ -114,69 +148,105 @@
      "type": "table",
      "header": [
       {
-       "en": "Feature"
+       "en": "Feature",
+       "ta": "பண்பு",
+       "ta_status": "draft"
       },
       {
-       "en": "Polyclonal antibodies"
+       "en": "Polyclonal antibodies",
+       "ta": "பல்குளோன் எதிர்ப்பொருட்கள்",
+       "ta_status": "draft"
       },
       {
-       "en": "Monoclonal antibodies (MAbs)"
+       "en": "Monoclonal antibodies (MAbs)",
+       "ta": "ஒற்றைக்குளோன் எதிர்ப்பொருட்கள் (MAbs)",
+       "ta_status": "bracketed"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Source**"
+        "en": "**Source**",
+        "ta": "**மூலம்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Many B-cell clones"
+        "en": "Many B-cell clones",
+        "ta": "பல B செல் குளோன்கள்",
+        "ta_status": "draft"
        },
        {
-        "en": "**One** B-cell clone (hybridoma)"
+        "en": "**One** B-cell clone (hybridoma)",
+        "ta": "**ஒரு** B செல் குளோன் (ஹைப்ரிடோமா)",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Epitope recognised**"
+        "en": "**Epitope recognised**",
+        "ta": "**அறியும் எபிடோப்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Many different epitopes"
+        "en": "Many different epitopes",
+        "ta": "பல வேறுபட்ட எபிடோப்கள்",
+        "ta_status": "draft"
        },
        {
-        "en": "**One** epitope"
+        "en": "**One** epitope",
+        "ta": "**ஒரு** எபிடோப்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Specificity**"
+        "en": "**Specificity**",
+        "ta": "**குறிப்பிட்ட தன்மை**",
+        "ta_status": "draft"
        },
        {
-        "en": "Lower; cross-reactivity"
+        "en": "Lower; cross-reactivity",
+        "ta": "குறைவு; குறுக்கு வினை",
+        "ta_status": "draft"
        },
        {
-        "en": "Very high"
+        "en": "Very high",
+        "ta": "மிக அதிகம்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Batch consistency**"
+        "en": "**Batch consistency**",
+        "ta": "**தொகுதி நிலைத்தன்மை**",
+        "ta_status": "draft"
        },
        {
-        "en": "Varies between animals"
+        "en": "Varies between animals",
+        "ta": "விலங்குகளிடையே மாறுபடும்",
+        "ta_status": "draft"
        },
        {
-        "en": "Uniform, unlimited supply"
+        "en": "Uniform, unlimited supply",
+        "ta": "சீரானது, வரம்பற்ற அளிப்பு",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Production**"
+        "en": "**Production**",
+        "ta": "**உற்பத்தி**",
+        "ta_status": "draft"
        },
        {
-        "en": "Immunise animal and collect serum"
+        "en": "Immunise animal and collect serum",
+        "ta": "விலங்கைத் தடுப்பாற்றலூட்டிச் சீரத்தைச் சேகரித்தல்",
+        "ta_status": "draft"
        },
        {
-        "en": "Hybridoma culture"
+        "en": "Hybridoma culture",
+        "ta": "ஹைப்ரிடோமா வளர்ப்பு",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -185,14 +255,18 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Monoclonal antibody\nA population of identical antibodies, all produced by a single clone of B lymphocytes and directed against a single antigenic determinant."
+      "en": "Monoclonal antibody\nA population of identical antibodies, all produced by a single clone of B lymphocytes and directed against a single antigenic determinant.",
+      "ta": "ஒற்றைக்குளோன் எதிர்ப்பொருள்\nஒரே B லிம்போசைட் குளோனால் உருவாக்கப்பட்டு, ஒற்றை எதிர்ப்பொருள் தூண்டிக் காரணியை நோக்கிச் செயல்படும் ஒத்த எதிர்ப்பொருட்களின் தொகை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Historical landmark**\n**Georges Köhler and César Milstein** (Cambridge, 1975) fused antibody-producing B cells with myeloma cells to make immortal antibody-secreting **hybridomas**. They shared the **1984 Nobel Prize** in Physiology or Medicine with Niels Jerne."
+      "en": "**Historical landmark**\n**Georges Köhler and César Milstein** (Cambridge, 1975) fused antibody-producing B cells with myeloma cells to make immortal antibody-secreting **hybridomas**. They shared the **1984 Nobel Prize** in Physiology or Medicine with Niels Jerne.",
+      "ta": "**வரலாற்று மைல்கல்**\n**ஜார்ஜஸ் கோலரும் சீசர் மில்ஸ்டீனும்** (கேம்பிரிட்ஜ், 1975) எதிர்ப்பொருள் உருவாக்கும் B செல்களை மைலோமா செல்களுடன் இணைத்து, அழிவற்ற எதிர்ப்பொருள் சுரக்கும் **ஹைப்ரிடோமாக்களை** உருவாக்கினர். நீல்ஸ் ஜெர்னேவுடன் இவர்கள் **1984 உடலியல் அல்லது மருத்துவ நோபல் பரிசைப்** பகிர்ந்தனர்.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -201,139 +275,197 @@
   {
    "id": "s04",
    "title": {
-    "en": "Hybridoma Technology: Step by Step"
+    "en": "Hybridoma Technology: Step by Step",
+    "ta": "ஹைப்ரிடோமா தொழில்நுட்பம்: படிப்படியாக",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Fuse a mortal antibody-making cell with an immortal cancer cell to get a cell that does both jobs."
+      "en": "Fuse a mortal antibody-making cell with an immortal cancer cell to get a cell that does both jobs.",
+      "ta": "அழியும் எதிர்ப்பொருள் செல்லையும் அழிவற்ற புற்றுநோய்ச் செல்லையும் இணைத்து இரு பணிகளையும் செய்யும் செல்லைப் பெறுதல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Hybridoma\nA hybrid cell formed by fusion of a B lymphocyte (which makes a specific antibody but dies in culture) with a myeloma cell (immortal but makes no antibody). It secretes monoclonal antibody and divides indefinitely."
+      "en": "Hybridoma\nA hybrid cell formed by fusion of a B lymphocyte (which makes a specific antibody but dies in culture) with a myeloma cell (immortal but makes no antibody). It secretes monoclonal antibody and divides indefinitely.",
+      "ta": "ஹைப்ரிடோமா\nB லிம்போசைட்டையும் (குறிப்பிட்ட எதிர்ப்பொருளை உருவாக்கும் ஆனால் வளர்ப்பில் இறக்கும்) மைலோமா செல்லையும் (அழிவற்றது ஆனால் எதிர்ப்பொருள் உருவாக்காதது) இணைத்துப் பெறப்படும் கலப்பினச் செல். இது ஒற்றைக்குளோன் எதிர்ப்பொருளைச் சுரந்து காலவரையின்றி பிளவுறும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Steps (click each step)**"
+      "en": "**Steps (click each step)**",
+      "ta": "**படிகள் (ஒவ்வொன்றையும் தொடுக)**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**1. Immunise**BALB/c mouse"
+      "en": "**1. Immunise**BALB/c mouse",
+      "ta": "**1. தடுப்பாற்றலூட்டல்**BALB/c எலி",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**2. Harvest spleen**B cells"
+      "en": "**2. Harvest spleen**B cells",
+      "ta": "**2. மண்ணீரல் சேகரிப்பு**B செல்கள்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**3. Fuse**PEG"
+      "en": "**3. Fuse**PEG",
+      "ta": "**3. இணைத்தல்**PEG",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**4. HAT selection**only hybrids live"
+      "en": "**4. HAT selection**only hybrids live",
+      "ta": "**4. HAT தெரிவு**கலப்பினங்கள் மட்டுமே உயிர்வாழும்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**5. Screen**ELISA"
+      "en": "**5. Screen**ELISA",
+      "ta": "**5. சலிக்கை**ELISA",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**6. Clone**limiting dilution"
+      "en": "**6. Clone**limiting dilution",
+      "ta": "**6. குளோனாக்கம்**வரம்பு நீர்த்தல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**7. Produce**in vitro / ascites"
+      "en": "**7. Produce**in vitro / ascites",
+      "ta": "**7. உற்பத்தி**in vitro / ஆஸ்கைட்ஸ்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click a step to see what happens."
+      "en": "Click a step to see what happens.",
+      "ta": "ஒரு படியைத் தொட்டு அங்கு நிகழ்வதைக் காண்க.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Why HAT selection works**"
+      "en": "**Why HAT selection works**",
+      "ta": "**HAT தெரிவு ஏன் செயல்படுகிறது**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "table",
      "header": [
       {
-       "en": "Cell type"
+       "en": "Cell type",
+       "ta": "செல் வகை",
+       "ta_status": "draft"
       },
       {
-       "en": "De novo purine/dTMP synthesis"
+       "en": "De novo purine/dTMP synthesis",
+       "ta": "புதிதாக பியூரின்/dTMP தொகுப்பு",
+       "ta_status": "draft"
       },
       {
-       "en": "Salvage pathway (HGPRT)"
+       "en": "Salvage pathway (HGPRT)",
+       "ta": "மீட்புப் பாதை (HGPRT)",
+       "ta_status": "bracketed"
       },
       {
-       "en": "Fate in HAT medium"
+       "en": "Fate in HAT medium",
+       "ta": "HAT ஊடகத்தில் விளைவு",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Myeloma cell (HGPRT−)**"
+        "en": "**Myeloma cell (HGPRT−)**",
+        "ta": "**மைலோமா செல் (HGPRT−)**",
+        "ta_status": "bracketed"
        },
        {
-        "en": "Blocked by **aminopterin**"
+        "en": "Blocked by **aminopterin**",
+        "ta": "**அமினோப்டெரினால்** தடுக்கப்படும்",
+        "ta_status": "draft"
        },
        {
-        "en": "Absent"
+        "en": "Absent",
+        "ta": "இல்லை",
+        "ta_status": "draft"
        },
        {
-        "en": "Dies"
+        "en": "Dies",
+        "ta": "இறக்கும்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Normal B cell**"
+        "en": "**Normal B cell**",
+        "ta": "**இயல்பான B செல்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Blocked by aminopterin"
+        "en": "Blocked by aminopterin",
+        "ta": "அமினோப்டெரினால் தடுக்கப்படும்",
+        "ta_status": "draft"
        },
        {
-        "en": "Present, but short lifespan"
+        "en": "Present, but short lifespan",
+        "ta": "உள்ளது, ஆனால் குறுகிய ஆயுள்",
+        "ta_status": "draft"
        },
        {
-        "en": "Dies after a few days"
+        "en": "Dies after a few days",
+        "ta": "சில நாள்களில் இறக்கும்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Hybridoma**"
+        "en": "**Hybridoma**",
+        "ta": "**ஹைப்ரிடோமா**",
+        "ta_status": "draft"
        },
        {
-        "en": "Blocked"
+        "en": "Blocked",
+        "ta": "தடுக்கப்படும்",
+        "ta_status": "draft"
        },
        {
-        "en": "Present (from B cell) and immortal (from myeloma)"
+        "en": "Present (from B cell) and immortal (from myeloma)",
+        "ta": "உள்ளது (B செல்லிலிருந்து); அழிவற்றது (மைலோமாவிலிருந்து)",
+        "ta_status": "bracketed"
        },
        {
-        "en": "**Survives and grows**"
+        "en": "**Survives and grows**",
+        "ta": "**உயிர்வாழ்ந்து வளரும்**",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -342,31 +474,41 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Remember**\nAminopterin blocks the **de novo** pathway; hypoxanthine and thymidine feed the **salvage** pathway, which needs HGPRT. Only cells with HGPRT can use that rescue."
+      "en": "**Remember**\nAminopterin blocks the **de novo** pathway; hypoxanthine and thymidine feed the **salvage** pathway, which needs HGPRT. Only cells with HGPRT can use that rescue.",
+      "ta": "**நினைவில் கொள்க**\nஅமினோப்டெரின் **புதிய தொகுப்புப்** பாதையைத் தடுக்கும்; ஹைப்போசாந்தினும் தைமிடினும் **மீட்புப்** பாதைக்கு ஊட்டமளிக்கும்; அதற்கு HGPRT தேவை. HGPRT உள்ள செல்கள் மட்டுமே இம்மீட்பைப் பயன்படுத்த முடியும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Alternative: phage display▼"
+      "en": "Alternative: phage display▼",
+      "ta": "மாற்று வழி: பேஜ் காட்சிப்படுத்தல்▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Gene fragments for antibody variable regions are displayed on bacteriophage and selected without immunising animals. **George Smith and Gregory Winter** shared the 2018 Nobel Prize in Chemistry; adalimumab was the first fully human antibody developed this way."
+      "en": "Gene fragments for antibody variable regions are displayed on bacteriophage and selected without immunising animals. **George Smith and Gregory Winter** shared the 2018 Nobel Prize in Chemistry; adalimumab was the first fully human antibody developed this way.",
+      "ta": "எதிர்ப்பொருள் மாறுபடு பகுதிகளுக்கான மரபணுத் துண்டுகள் பாக்டீரியோஃபேஜில் காட்சிப்படுத்தப்பட்டு, விலங்குகளுக்குத் தடுப்பாற்றலூட்டாமல் தெரிவு செய்யப்படும். **ஜார்ஜ் ஸ்மித்தும் கிரிகோரி வின்டரும்** 2018 வேதியியல் நோபல் பரிசைப் பகிர்ந்தனர்; இவ்வழியில் உருவான முதல் முழு மனித எதிர்ப்பொருள் அடாலிமுமாப்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Problems with mouse antibodies▼"
+      "en": "Problems with mouse antibodies▼",
+      "ta": "எலி எதிர்ப்பொருட்களின் சிக்கல்கள்▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Humans make **HAMA** (human anti-mouse antibodies), which clear the drug and may cause allergic reactions. This led to chimeric, humanised and fully human antibodies."
+      "en": "Humans make **HAMA** (human anti-mouse antibodies), which clear the drug and may cause allergic reactions. This led to chimeric, humanised and fully human antibodies.",
+      "ta": "மனிதர்கள் **HAMA** (மனித எலி-எதிர் எதிர்ப்பொருட்கள்) உருவாக்குவர்; அவை மருந்தை அகற்றி ஒவ்வாமையை உண்டாக்கலாம். இது கலப்பின, மனிதமயமாக்கப்பட்ட, முழு மனித எதிர்ப்பொருட்களுக்கு வழிவகுத்தது.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -375,86 +517,130 @@
   {
    "id": "s05",
    "title": {
-    "en": "Engineered Monoclonal Antibodies"
+    "en": "Engineered Monoclonal Antibodies",
+    "ta": "பொறியியல் ஒற்றைக்குளோன் எதிர்ப்பொருட்கள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Genetic engineering reduces the mouse content of therapeutic antibodies."
+      "en": "Genetic engineering reduces the mouse content of therapeutic antibodies.",
+      "ta": "மரபணுப் பொறியியல் சிகிச்சை எதிர்ப்பொருட்களில் எலிப் பகுதியைக் குறைக்கிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "table",
      "header": [
       {
-       "en": "Type"
+       "en": "Type",
+       "ta": "வகை",
+       "ta_status": "draft"
       },
       {
-       "en": "Mouse content"
+       "en": "Mouse content",
+       "ta": "எலிப் பகுதி",
+       "ta_status": "draft"
       },
       {
-       "en": "Suffix"
+       "en": "Suffix",
+       "ta": "பின்னொட்டு",
+       "ta_status": "draft"
       },
       {
-       "en": "Example"
+       "en": "Example",
+       "ta": "எடுத்துக்காட்டு",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Murine**"
+        "en": "**Murine**",
+        "ta": "**எலி வகை**",
+        "ta_status": "draft"
        },
        {
-        "en": "Entire antibody"
+        "en": "Entire antibody",
+        "ta": "முழு எதிர்ப்பொருள்",
+        "ta_status": "draft"
        },
        {
-        "en": "-omab"
+        "en": "-omab",
+        "ta": "-omab",
+        "ta_status": "draft"
        },
        {
-        "en": "Muromonab-CD3 (OKT3, first therapeutic MAb, 1986)"
+        "en": "Muromonab-CD3 (OKT3, first therapeutic MAb, 1986)",
+        "ta": "முரோமோனாப்-CD3 (OKT3, முதல் சிகிச்சை MAb, 1986)",
+        "ta_status": "bracketed"
        }
       ],
       [
        {
-        "en": "**Chimeric**"
+        "en": "**Chimeric**",
+        "ta": "**கலப்பினம்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Mouse variable regions + human constant regions (~65% human)"
+        "en": "Mouse variable regions + human constant regions (~65% human)",
+        "ta": "எலி மாறுபடு பகுதிகள் + மனித நிலையான பகுதிகள் (~65% மனிதன்)",
+        "ta_status": "draft"
        },
        {
-        "en": "-ximab"
+        "en": "-ximab",
+        "ta": "-ximab",
+        "ta_status": "draft"
        },
        {
-        "en": "Rituximab, infliximab"
+        "en": "Rituximab, infliximab",
+        "ta": "ரிட்டுக்ஸிமாப், இன்ஃப்ளிக்ஸிமாப்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Humanised**"
+        "en": "**Humanised**",
+        "ta": "**மனிதமயமாக்கப்பட்டது**",
+        "ta_status": "draft"
        },
        {
-        "en": "Only mouse CDRs on a human framework (~95% human)"
+        "en": "Only mouse CDRs on a human framework (~95% human)",
+        "ta": "மனிதச் சட்டகத்தில் எலி CDR-கள் மட்டும் (~95% மனிதன்)",
+        "ta_status": "draft"
        },
        {
-        "en": "-zumab"
+        "en": "-zumab",
+        "ta": "-zumab",
+        "ta_status": "draft"
        },
        {
-        "en": "Trastuzumab, bevacizumab"
+        "en": "Trastuzumab, bevacizumab",
+        "ta": "டிராஸ்டுசுமாப், பெவாசிசுமாப்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Fully human**"
+        "en": "**Fully human**",
+        "ta": "**முழு மனிதன்**",
+        "ta_status": "draft"
        },
        {
-        "en": "None"
+        "en": "None",
+        "ta": "இல்லை",
+        "ta_status": "draft"
        },
        {
-        "en": "-umab"
+        "en": "-umab",
+        "ta": "-umab",
+        "ta_status": "draft"
        },
        {
-        "en": "Adalimumab, pembrolizumab, nivolumab"
+        "en": "Adalimumab, pembrolizumab, nivolumab",
+        "ta": "அடாலிமுமாப், பெம்ப்ரோலிசுமாப், நிவோலுமாப்",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -463,37 +649,49 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**CDRs**\nThe antigen-binding specificity lies in the **complementarity-determining regions (CDRs)** of the variable domains. Humanisation grafts only these loops onto a human antibody scaffold."
+      "en": "**CDRs**\nThe antigen-binding specificity lies in the **complementarity-determining regions (CDRs)** of the variable domains. Humanisation grafts only these loops onto a human antibody scaffold.",
+      "ta": "**CDR-கள்**\nஎதிர்ப்பொருள் தூண்டியுடன் பிணையும் குறிப்பிட்ட தன்மை மாறுபடு களங்களின் **நிரப்புத்தன்மை தீர்மானிக்கும் பகுதிகளில் (CDR)** உள்ளது. மனிதமயமாக்கல் இவ்வளையங்களை மட்டுமே மனித எதிர்ப்பொருள் சட்டகத்தில் ஒட்டுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**1. Mouse MAb**immunogenic"
+      "en": "**1. Mouse MAb**immunogenic",
+      "ta": "**1. எலி MAb**நோயெதிர்ப்புத் தூண்டலுடையது",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**2. Chimeric**V from mouse"
+      "en": "**2. Chimeric**V from mouse",
+      "ta": "**2. கலப்பினம்**V எலியிலிருந்து",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**3. Humanised**CDR grafting"
+      "en": "**3. Humanised**CDR grafting",
+      "ta": "**3. மனிதமயமாக்கல்**CDR ஒட்டுதல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**4. Fully human**transgenic mice / phage"
+      "en": "**4. Fully human**transgenic mice / phage",
+      "ta": "**4. முழு மனிதன்**மரபணுமாற்ற எலிகள் / பேஜ்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click a step to see what happens."
+      "en": "Click a step to see what happens.",
+      "ta": "ஒரு படியைத் தொட்டு அங்கு நிகழ்வதைக் காண்க.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -502,19 +700,25 @@
   {
    "id": "s06",
    "title": {
-    "en": "Applications of Monoclonal Antibodies"
+    "en": "Applications of Monoclonal Antibodies",
+    "ta": "ஒற்றைக்குளோன் எதிர்ப்பொருட்களின் பயன்பாடுகள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "MAbs are used in therapy, diagnosis, purification and research."
+      "en": "MAbs are used in therapy, diagnosis, purification and research.",
+      "ta": "MAb-கள் சிகிச்சை, நோயறிதல், தூய்மையாக்கல், ஆய்வில் பயன்படுகின்றன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Cancer therapy**"
+      "en": "**Cancer therapy**",
+      "ta": "**புற்றுநோய்ச் சிகிச்சை**",
+      "ta_status": "draft"
      }
     },
     {
@@ -522,20 +726,28 @@
      "ordered": false,
      "items": [
       {
-       "en": "**Trastuzumab** (Herceptin) — HER2-positive breast cancer."
+       "en": "**Trastuzumab** (Herceptin) — HER2-positive breast cancer.",
+       "ta": "**டிராஸ்டுசுமாப்** (ஹெர்செப்டின்) — HER2 நேர்மறை மார்பகப் புற்றுநோய்.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Rituximab** — anti-CD20, B-cell lymphoma (1997, first cancer MAb)."
+       "en": "**Rituximab** — anti-CD20, B-cell lymphoma (1997, first cancer MAb).",
+       "ta": "**ரிட்டுக்ஸிமாப்** — எதிர்-CD20, B செல் லிம்போமா (1997, முதல் புற்றுநோய் MAb).",
+       "ta_status": "draft"
       },
       {
-       "en": "**Pembrolizumab** — anti-PD-1 checkpoint inhibitor."
+       "en": "**Pembrolizumab** — anti-PD-1 checkpoint inhibitor.",
+       "ta": "**பெம்ப்ரோலிசுமாப்** — எதிர்-PD-1 சோதனைச்சாவடித் தடுப்பி.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Autoimmune disease**"
+      "en": "**Autoimmune disease**",
+      "ta": "**தன்னெதிர்ப்பு நோய்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -543,14 +755,18 @@
      "ordered": false,
      "items": [
       {
-       "en": "**Adalimumab** and **infliximab** block TNF-α in rheumatoid arthritis, Crohn's disease."
+       "en": "**Adalimumab** and **infliximab** block TNF-α in rheumatoid arthritis, Crohn's disease.",
+       "ta": "**அடாலிமுமாபும்** **இன்ஃப்ளிக்ஸிமாபும்** முடக்கு வாதம், குரோன் நோயில் TNF-α-வைத் தடுக்கும்.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Diagnosis**"
+      "en": "**Diagnosis**",
+      "ta": "**நோயறிதல்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -558,20 +774,28 @@
      "ordered": false,
      "items": [
       {
-       "en": "Pregnancy test strips (anti-hCG)."
+       "en": "Pregnancy test strips (anti-hCG).",
+       "ta": "கர்ப்பச் சோதனைப் பட்டைகள் (எதிர்-hCG).",
+       "ta_status": "draft"
       },
       {
-       "en": "ELISA and rapid antigen tests."
+       "en": "ELISA and rapid antigen tests.",
+       "ta": "ELISA, விரைவு எதிர்ப்பொருள் தூண்டிச் சோதனைகள்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Blood grouping, tumour markers (PSA)."
+       "en": "Blood grouping, tumour markers (PSA).",
+       "ta": "இரத்த வகை அறிதல், கட்டிக் குறிப்பான்கள் (PSA).",
+       "ta_status": "bracketed"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Research & purification**"
+      "en": "**Research & purification**",
+      "ta": "**ஆய்வும் தூய்மையாக்கலும்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -579,20 +803,28 @@
      "ordered": false,
      "items": [
       {
-       "en": "Immunoaffinity chromatography."
+       "en": "Immunoaffinity chromatography.",
+       "ta": "நோயெதிர்ப்பு நாட்டக் குரோமடோகிராபி.",
+       "ta_status": "draft"
       },
       {
-       "en": "Western blotting, immunofluorescence, flow cytometry."
+       "en": "Western blotting, immunofluorescence, flow cytometry.",
+       "ta": "வெஸ்டர்ன் பிளாட்டிங், நோயெதிர்ப்பு ஒளிர்வு, பாய்வு செல்லளவையியல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Tissue typing and cell sorting."
+       "en": "Tissue typing and cell sorting.",
+       "ta": "திசு வகைப்படுத்தலும் செல் பிரித்தலும்.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Transplantation**"
+      "en": "**Transplantation**",
+      "ta": "**உறுப்பு மாற்று**",
+      "ta_status": "draft"
      }
     },
     {
@@ -600,14 +832,18 @@
      "ordered": false,
      "items": [
       {
-       "en": "Anti-CD3 (OKT3) to prevent graft rejection."
+       "en": "Anti-CD3 (OKT3) to prevent graft rejection.",
+       "ta": "ஒட்டு நிராகரிப்பைத் தடுக்க எதிர்-CD3 (OKT3).",
+       "ta_status": "bracketed"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Imaging**"
+      "en": "**Imaging**",
+      "ta": "**படமெடுத்தல்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -615,7 +851,9 @@
      "ordered": false,
      "items": [
       {
-       "en": "Radiolabelled MAbs for tumour imaging."
+       "en": "Radiolabelled MAbs for tumour imaging.",
+       "ta": "கட்டிப் படமெடுப்புக்குக் கதிரியக்கக் குறியிட்ட MAb-கள்.",
+       "ta_status": "draft"
       }
      ]
     },
@@ -623,7 +861,9 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Limitations**\n• Expensive to produce.\n• Immunogenicity of non-human antibodies.\n• Poor penetration into solid tumours.\n• Hybridomas can lose chromosomes and stop secreting."
+      "en": "**Limitations**\n• Expensive to produce.\n• Immunogenicity of non-human antibodies.\n• Poor penetration into solid tumours.\n• Hybridomas can lose chromosomes and stop secreting.",
+      "ta": "**வரம்புகள்**\n• உற்பத்திச் செலவு அதிகம்.\n• மனிதரல்லா எதிர்ப்பொருட்களின் நோயெதிர்ப்புத் தூண்டல்.\n• திடக்கட்டிகளுக்குள் ஊடுருவல் மோசம்.\n• ஹைப்ரிடோமாக்கள் குரோமோசோம்களை இழந்து சுரப்பதை நிறுத்தலாம்.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -632,163 +872,217 @@
   {
    "id": "s07",
    "title": {
-    "en": "Summary & Exam Revision"
+    "en": "Summary & Exam Revision",
+    "ta": "சுருக்கமும் தேர்வுத் திருப்புதலும்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Key points and model answers likely to appear in university examinations."
+      "en": "Key points and model answers likely to appear in university examinations.",
+      "ta": "பல்கலைக்கழகத் தேர்வுகளில் வர வாய்ப்புள்ள முக்கியக் குறிப்புகளும் மாதிரி விடைகளும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Key exam points**"
+      "en": "**Key exam points**",
+      "ta": "**தேர்வுக்கான முக்கியக் குறிப்புகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "1"
+      "en": "1",
+      "ta": "1",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Hybridoma** = B lymphocyte + myeloma cell; Köhler & Milstein, 1975; Nobel 1984."
+      "en": "**Hybridoma** = B lymphocyte + myeloma cell; Köhler & Milstein, 1975; Nobel 1984.",
+      "ta": "**ஹைப்ரிடோமா** = B லிம்போசைட் + மைலோமா செல்; கோலர் – மில்ஸ்டீன், 1975; நோபல் 1984.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "2"
+      "en": "2",
+      "ta": "2",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Myeloma cells are **HGPRT-deficient**; **HAT medium** selects hybrids."
+      "en": "Myeloma cells are **HGPRT-deficient**; **HAT medium** selects hybrids.",
+      "ta": "மைலோமா செல்கள் **HGPRT குறைபாடுடையவை**; **HAT ஊடகம்** கலப்பினங்களைத் தெரிவு செய்கிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "3"
+      "en": "3",
+      "ta": "3",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Fusing agent: **PEG**. Screening: **ELISA**. Cloning: **limiting dilution**."
+      "en": "Fusing agent: **PEG**. Screening: **ELISA**. Cloning: **limiting dilution**.",
+      "ta": "இணைக்கும் காரணி: **PEG**. சலிக்கை: **ELISA**. குளோனாக்கம்: **வரம்பு நீர்த்தல்**.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "4"
+      "en": "4",
+      "ta": "4",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Mouse antibodies cause **HAMA**; solution: chimeric (-ximab), humanised (-zumab), human (-umab)."
+      "en": "Mouse antibodies cause **HAMA**; solution: chimeric (-ximab), humanised (-zumab), human (-umab).",
+      "ta": "எலி எதிர்ப்பொருட்கள் **HAMA**-வை உண்டாக்கும்; தீர்வு: கலப்பினம் (-ximab), மனிதமயமாக்கப்பட்டது (-zumab), மனிதன் (-umab).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "5"
+      "en": "5",
+      "ta": "5",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Phage display (Smith and Winter, Nobel 2018) produces fully human MAbs."
+      "en": "Phage display (Smith and Winter, Nobel 2018) produces fully human MAbs.",
+      "ta": "பேஜ் காட்சிப்படுத்தல் (ஸ்மித், வின்டர், நோபல் 2018) முழு மனித MAb-களை உருவாக்கும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "6"
+      "en": "6",
+      "ta": "6",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Uses: cancer therapy, autoimmune disease, diagnostics, purification, research."
+      "en": "Uses: cancer therapy, autoimmune disease, diagnostics, purification, research.",
+      "ta": "பயன்பாடுகள்: புற்றுநோய்ச் சிகிச்சை, தன்னெதிர்ப்பு நோய், நோயறிதல், தூய்மையாக்கல், ஆய்வு.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Short-answer questions**"
+      "en": "**Short-answer questions**",
+      "ta": "**குறுவினாக்கள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click a question to reveal the model answer."
+      "en": "Click a question to reveal the model answer.",
+      "ta": "ஒரு வினாவைத் தொட்டு மாதிரி விடையைக் காண்க.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.1What are monoclonal antibodies? How are they different from polyclonal antibodies?▼"
+      "en": "Q.1What are monoclonal antibodies? How are they different from polyclonal antibodies?▼",
+      "ta": "வி.1ஒற்றைக்குளோன் எதிர்ப்பொருட்கள் என்றால் என்ன? அவை பல்குளோன் எதிர்ப்பொருட்களிலிருந்து எவ்வாறு வேறுபடுகின்றன?▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "MAbs are identical antibodies from a single B-cell clone, specific for one epitope. Polyclonal antibodies come from many clones and recognise many epitopes."
+      "en": "MAbs are identical antibodies from a single B-cell clone, specific for one epitope. Polyclonal antibodies come from many clones and recognise many epitopes.",
+      "ta": "MAb-கள் ஒரே B செல் குளோனிலிருந்து வரும், ஒரு எபிடோப்புக்குக் குறிப்பிட்ட ஒத்த எதிர்ப்பொருட்கள். பல்குளோன் எதிர்ப்பொருட்கள் பல குளோன்களிலிருந்து வந்து பல எபிடோப்புகளை அறியும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.2Describe the production of monoclonal antibodies.▼"
+      "en": "Q.2Describe the production of monoclonal antibodies.▼",
+      "ta": "வி.2ஒற்றைக்குளோன் எதிர்ப்பொருட்களின் உற்பத்தியை விவரிக்க.▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Immunise mouse → collect spleen B cells → fuse with HGPRT-deficient myeloma cells using PEG → select hybridomas in HAT medium → screen supernatants by ELISA → clone by limiting dilution → large-scale culture or ascites → purification."
+      "en": "Immunise mouse → collect spleen B cells → fuse with HGPRT-deficient myeloma cells using PEG → select hybridomas in HAT medium → screen supernatants by ELISA → clone by limiting dilution → large-scale culture or ascites → purification.",
+      "ta": "எலிக்குத் தடுப்பாற்றலூட்டுதல் → மண்ணீரல் B செல்களைச் சேகரித்தல் → PEG கொண்டு HGPRT குறைபாடுள்ள மைலோமா செல்களுடன் இணைத்தல் → HAT ஊடகத்தில் ஹைப்ரிடோமாக்களைத் தெரிவு செய்தல் → ELISA-வால் மேல்நீரைச் சலிக்கை செய்தல் → வரம்பு நீர்த்தலால் குளோனாக்கம் → பெரிய அளவு வளர்ப்பு அல்லது ஆஸ்கைட்ஸ் → தூய்மையாக்கல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.3Explain the role of HAT medium.▼"
+      "en": "Q.3Explain the role of HAT medium.▼",
+      "ta": "வி.3HAT ஊடகத்தின் பங்கை விளக்குக.▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Aminopterin blocks de novo nucleotide synthesis, so cells must use the HGPRT salvage pathway with hypoxanthine and thymidine. HGPRT-deficient myeloma cells die, B cells die naturally, and hybridomas survive."
+      "en": "Aminopterin blocks de novo nucleotide synthesis, so cells must use the HGPRT salvage pathway with hypoxanthine and thymidine. HGPRT-deficient myeloma cells die, B cells die naturally, and hybridomas survive.",
+      "ta": "அமினோப்டெரின் புதிதாக நியுக்ளியோடைடு தொகுப்பைத் தடுப்பதால், செல்கள் ஹைப்போசாந்தின், தைமிடினுடன் HGPRT மீட்புப் பாதையைப் பயன்படுத்த வேண்டும். HGPRT குறைபாடுள்ள மைலோமா செல்கள் இறக்கும், B செல்கள் இயல்பாக இறக்கும், ஹைப்ரிடோமாக்கள் உயிர்வாழும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.4Give four applications of MAbs.▼"
+      "en": "Q.4Give four applications of MAbs.▼",
+      "ta": "வி.4MAb-களின் நான்கு பயன்பாடுகளைத் தருக.▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Cancer therapy (trastuzumab, rituximab); diagnosis (pregnancy test, ELISA); immunoaffinity purification; prevention of graft rejection (OKT3); imaging."
+      "en": "Cancer therapy (trastuzumab, rituximab); diagnosis (pregnancy test, ELISA); immunoaffinity purification; prevention of graft rejection (OKT3); imaging.",
+      "ta": "புற்றுநோய்ச் சிகிச்சை (டிராஸ்டுசுமாப், ரிட்டுக்ஸிமாப்); நோயறிதல் (கர்ப்பச் சோதனை, ELISA); நோயெதிர்ப்பு நாட்டத் தூய்மையாக்கல்; ஒட்டு நிராகரிப்புத் தடுப்பு (OKT3); படமெடுத்தல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.5Why are humanised antibodies preferred?▼"
+      "en": "Q.5Why are humanised antibodies preferred?▼",
+      "ta": "வி.5மனிதமயமாக்கப்பட்ட எதிர்ப்பொருட்கள் ஏன் விரும்பப்படுகின்றன?▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "They reduce the HAMA response, have longer half-lives and are safer for repeated administration."
+      "en": "They reduce the HAMA response, have longer half-lives and are safer for repeated administration.",
+      "ta": "அவை HAMA வினையைக் குறைக்கும், நீண்ட அரைவாழ்வு உடையவை, மீண்டும் மீண்டும் செலுத்த மிகவும் பாதுகாப்பானவை.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -797,103 +1091,147 @@
   {
    "id": "s08",
    "title": {
-    "en": "Key Terms & Glossary"
+    "en": "Key Terms & Glossary",
+    "ta": "முக்கியச் சொற்களும் சொற்களஞ்சியமும்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Important terms in simple language."
+      "en": "Important terms in simple language.",
+      "ta": "முக்கியச் சொற்கள் எளிய மொழியில்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Antibody"
+      "en": "Antibody",
+      "ta": "எதிர்ப்பொருள்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Y-shaped protein that binds a specific antigen."
+      "en": "Y-shaped protein that binds a specific antigen.",
+      "ta": "குறிப்பிட்ட எதிர்ப்பொருள் தூண்டியைப் பிணைக்கும் Y வடிவப் புரதம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Epitope"
+      "en": "Epitope",
+      "ta": "எபிடோப்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "The part of an antigen recognised by an antibody."
+      "en": "The part of an antigen recognised by an antibody.",
+      "ta": "எதிர்ப்பொருளால் அறியப்படும் எதிர்ப்பொருள் தூண்டியின் பகுதி.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Hybridoma"
+      "en": "Hybridoma",
+      "ta": "ஹைப்ரிடோமா",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Immortal antibody-secreting cell formed by B cell and myeloma fusion."
+      "en": "Immortal antibody-secreting cell formed by B cell and myeloma fusion.",
+      "ta": "B செல், மைலோமா செல் இணைவால் உருவான, எதிர்ப்பொருள் சுரக்கும் அழிவற்ற செல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "HAT medium"
+      "en": "HAT medium",
+      "ta": "HAT ஊடகம்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Hypoxanthine-Aminopterin-Thymidine medium that selects hybridomas."
+      "en": "Hypoxanthine-Aminopterin-Thymidine medium that selects hybridomas.",
+      "ta": "ஹைப்ரிடோமாக்களைத் தெரிவு செய்யும் ஹைப்போசாந்தின்-அமினோப்டெரின்-தைமிடின் ஊடகம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "HGPRT"
+      "en": "HGPRT",
+      "ta": "HGPRT",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Hypoxanthine-guanine phosphoribosyl transferase, enzyme of the salvage pathway."
+      "en": "Hypoxanthine-guanine phosphoribosyl transferase, enzyme of the salvage pathway.",
+      "ta": "மீட்புப் பாதையின் நொதியான ஹைப்போசாந்தின்-குவானின் பாஸ்போரிபோசில் டிரான்ஸ்ஃபெரேஸ்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Ascites"
+      "en": "Ascites",
+      "ta": "ஆஸ்கைட்ஸ்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Fluid in the mouse peritoneum that accumulates MAb-secreting hybridoma cells."
+      "en": "Fluid in the mouse peritoneum that accumulates MAb-secreting hybridoma cells.",
+      "ta": "MAb சுரக்கும் ஹைப்ரிடோமா செல்கள் சேரும் எலியின் வயிற்றுக்குழி நீர்மம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "CDR"
+      "en": "CDR",
+      "ta": "CDR",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Complementarity-determining region of the antibody variable domain."
+      "en": "Complementarity-determining region of the antibody variable domain.",
+      "ta": "எதிர்ப்பொருள் மாறுபடு களத்தின் நிரப்புத்தன்மை தீர்மானிக்கும் பகுதி.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "HAMA"
+      "en": "HAMA",
+      "ta": "HAMA",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Human anti-mouse antibody immune response."
+      "en": "Human anti-mouse antibody immune response.",
+      "ta": "மனித எலி-எதிர் எதிர்ப்பொருள் நோயெதிர்ப்பு வினை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Phage display"
+      "en": "Phage display",
+      "ta": "பேஜ் காட்சிப்படுத்தல்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Technique displaying peptides or antibody fragments on phage for selection."
+      "en": "Technique displaying peptides or antibody fragments on phage for selection.",
+      "ta": "தெரிவுக்காகப் பெப்டைடுகள் அல்லது எதிர்ப்பொருள் துண்டுகளை பேஜில் காட்சிப்படுத்தும் நுட்பம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Fc region"
+      "en": "Fc region",
+      "ta": "Fc பகுதி",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Constant tail of an antibody that engages immune effector functions."
+      "en": "Constant tail of an antibody that engages immune effector functions.",
+      "ta": "நோயெதிர்ப்பு விளைவுச் செயல்களை ஈடுபடுத்தும் எதிர்ப்பொருளின் நிலையான வால்.",
+      "ta_status": "draft"
      }
     }
    ],
