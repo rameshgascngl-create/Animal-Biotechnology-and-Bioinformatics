@@ -88,7 +88,7 @@
       },
       {
        "en": "Understand the roles of these enzymes in recombinant DNA technology and gene cloning.",
-       "ta": "மறுகூட்டிணைவு DNA தொழில்நுட்பத்திலும் மரபணுக் குளோனிங்கிலும் இந்நொதிகளின் பங்கைப் புரிந்துகொள்ளுதல்.",
+       "ta": "மறுகூட்டிணைவு DNA தொழில்நுட்பத்திலும் மரபணுக் நகலாக்கம்கிலும் இந்நொதிகளின் பங்கைப் புரிந்துகொள்ளுதல்.",
        "ta_status": "draft"
       }
      ]
@@ -190,7 +190,7 @@
       },
       {
        "en": "**Copy and amplify DNA** for analysis and cloning (DNA polymerases, Taq polymerase).",
-       "ta": "பகுப்பாய்வுக்கும் குளோனிங்குக்கும் **DNA-வை நகலெடுத்துப் பெருக்குதல்** (DNA பாலிமரேஸ்கள், Taq பாலிமரேஸ்).",
+       "ta": "பகுப்பாய்வுக்கும் நகலாக்கம்குக்கும் **DNA-வை நகலெடுத்துப் பெருக்குதல்** (DNA பாலிமரேஸ்கள், Taq பாலிமரேஸ்).",
        "ta_status": "draft"
       },
       {
@@ -200,7 +200,7 @@
       },
       {
        "en": "**Modify DNA ends** to control cloning efficiency (alkaline phosphatase).",
-       "ta": "குளோனிங் திறனைக் கட்டுப்படுத்த **DNA முனைகளை மாற்றியமைத்தல்** (அல்கலைன் பாஸ்படேஸ்).",
+       "ta": "நகலாக்கம் திறனைக் கட்டுப்படுத்த **DNA முனைகளை மாற்றியமைத்தல்** (அல்கலைன் பாஸ்படேஸ்).",
        "ta_status": "draft"
       }
      ]
@@ -210,7 +210,7 @@
      "kind": "info",
      "text": {
       "en": "**Key Insight:** Without these specialized enzymes, modern biotechnology — including gene cloning, PCR, gene therapy, and transgenic organisms — would be impossible.",
-      "ta": "**முக்கியக் கருத்து:** இந்தச் சிறப்பு நொதிகள் இல்லாவிட்டால், மரபணுக் குளோனிங், PCR, மரபணு சிகிச்சை, மாற்றுயிரிகள் உள்ளிட்ட நவீன உயிரித் தொழில்நுட்பம் சாத்தியமே இல்லை.",
+      "ta": "**முக்கியக் கருத்து:** இந்தச் சிறப்பு நொதிகள் இல்லாவிட்டால், மரபணுக் நகலாக்கம், PCR, மரபணு சிகிச்சை, மாற்றுயிரிகள் உள்ளிட்ட நவீன உயிரித் தொழில்நுட்பம் சாத்தியமே இல்லை.",
       "ta_status": "draft"
      }
     }
@@ -743,7 +743,7 @@
      "kind": "tip",
      "text": {
       "en": "**Why precision matters:**\n• Precise cuts allow **specific gene fragments** to be isolated without damaging the gene of interest.\n• Sticky ends produced by the same enzyme can be joined by **DNA ligase**, enabling directed cloning.\n• The same restriction enzyme used on both the **insert DNA and vector** ensures compatible ends for ligation.\n• Restriction mapping allows scientists to **locate genes** and create **genomic libraries**.",
-      "ta": "**துல்லியம் ஏன் முக்கியம்:**\n• துல்லியமான வெட்டுகள், தேவையான மரபணுவைச் சிதைக்காமல் **குறிப்பிட்ட மரபணுத் துண்டுகளைத்** தனித்துப் பிரிக்க உதவுகின்றன.\n• ஒரே நொதி உருவாக்கும் ஒட்டும் முனைகளை **DNA லைகேஸ்** இணைக்க முடியும்; இதனால் திசைபடுத்தப்பட்ட குளோனிங் சாத்தியமாகிறது.\n• **செருகி DNA மற்றும் தாங்கிக்தாங்கிக்கடத்தி** இரண்டிலும் ஒரே ரெஸ்ட்ரிக்ஷன் நொதியைப் பயன்படுத்துவது இணைப்புக்குப் பொருந்தும் முனைகளை உறுதிசெய்கிறது.\n• ரெஸ்ட்ரிக்ஷன் வரைபடமாக்கல் மூலம் அறிவியலாளர்கள் **மரபணுக்களின் இருப்பிடத்தைக் கண்டறியவும்** **மரபணுத் தொகுதி நூலகங்களை** உருவாக்கவும் முடிகிறது.",
+      "ta": "**துல்லியம் ஏன் முக்கியம்:**\n• துல்லியமான வெட்டுகள், தேவையான மரபணுவைச் சிதைக்காமல் **குறிப்பிட்ட மரபணுத் துண்டுகளைத்** தனித்துப் பிரிக்க உதவுகின்றன.\n• ஒரே நொதி உருவாக்கும் ஒட்டும் முனைகளை **DNA லைகேஸ்** இணைக்க முடியும்; இதனால் திசைபடுத்தப்பட்ட நகலாக்கம் சாத்தியமாகிறது.\n• **செருகி DNA மற்றும் தாங்கிக்தாங்கிக்கடத்தி** இரண்டிலும் ஒரே ரெஸ்ட்ரிக்ஷன் நொதியைப் பயன்படுத்துவது இணைப்புக்குப் பொருந்தும் முனைகளை உறுதிசெய்கிறது.\n• தடைக்கட்டு வரிபடம் மூலம் அறிவியலாளர்கள் **மரபணுக்களின் இருப்பிடத்தைக் கண்டறியவும்** **மரபணுத் தொகுதி நூலகங்களை** உருவாக்கவும் முடிகிறது.",
       "ta_status": "draft"
      }
     }
@@ -856,7 +856,7 @@
      "items": [
       {
        "en": "**DNA Polymerase I (_E. coli_):** Used to fill gaps in DNA and for nick translation in probe labeling.",
-       "ta": "**DNA பாலிமரேஸ் I (_E. coli_):** DNA-வில் இடைவெளிகளை நிரப்பவும், ஆய்வுக்குறிப்பான் (புரோப்) பெயரிடலில் நிக் டிரான்ஸ்லேஷனுக்கும் பயன்படுகிறது.",
+       "ta": "**DNA பாலிமரேஸ் I (_E. coli_):** DNA-வில் இடைவெளிகளை நிரப்பவும், DNA துருவி பெயரிடலில் நிக் டிரான்ஸ்லேஷனுக்கும் பயன்படுகிறது.",
        "ta_status": "draft"
       },
       {
@@ -871,7 +871,7 @@
       },
       {
        "en": "**Key roles:** DNA repair, cDNA synthesis, probe labeling, and PCR (via Taq polymerase).",
-       "ta": "**முக்கியப் பங்குகள்:** DNA பழுதுநீக்கம், cDNA தொகுப்பு, ஆய்வுக்குறிப்பான் பெயரிடல், PCR (Taq பாலிமரேஸ் வழியாக).",
+       "ta": "**முக்கியப் பங்குகள்:** DNA பழுதுநீக்கம், cDNA தொகுப்பு, DNA துருவி பெயரிடல், PCR (Taq பாலிமரேஸ் வழியாக).",
        "ta_status": "draft"
       }
      ]
@@ -916,7 +916,7 @@
       },
       {
        "en": "**Key role:** Produces cDNA from mRNA for cloning expressed genes without introns",
-       "ta": "**முக்கியப் பங்கு:** இன்ட்ரான்கள் இல்லாமல் வெளிப்படும் மரபணுக்களைக் குளோனிங் செய்ய mRNA-விலிருந்து cDNA உருவாக்குதல்",
+       "ta": "**முக்கியப் பங்கு:** இன்ட்ரான்கள் இல்லாமல் வெளிப்படும் மரபணுக்களைக் நகலாக்கம் செய்ய mRNA-விலிருந்து cDNA உருவாக்குதல்",
        "ta_status": "draft"
       },
       {
@@ -975,7 +975,7 @@
       },
       {
        "en": "**Result:** Increases cloning efficiency by reducing background colonies with no insert",
-       "ta": "**விளைவு:** செருகி DNA இல்லாத பின்னணிக் காலனிகளைக் குறைத்துக் குளோனிங் திறனை உயர்த்துகிறது",
+       "ta": "**விளைவு:** செருகி DNA இல்லாத பின்னணிக் காலனிகளைக் குறைத்துக் நகலாக்கம் திறனை உயர்த்துகிறது",
        "ta_status": "draft"
       }
      ]
@@ -985,7 +985,7 @@
      "kind": "tip",
      "text": {
       "en": "**Important in cloning:** After treating the vector with alkaline phosphatase, it cannot re-ligate with itself. Only when insert DNA (which retains its 5'-phosphate) is added can ligation occur — forcing the formation of recombinant DNA.",
-      "ta": "**குளோனிங்கில் முக்கியத்துவம்:** தாங்கிக்கடத்தியை அல்கலைன் பாஸ்படேஸால் பதப்படுத்திய பின் அது தன்னுடன் மீண்டும் இணைய இயலாது. 5'-பாஸ்பேட்டைத் தக்கவைத்துள்ள செருகி DNA சேர்க்கப்படும்போது மட்டுமே இணைப்பு நிகழ்கிறது — இதனால் மறுகூட்டிணைவு DNA உருவாக நேர்கிறது.",
+      "ta": "**நகலாக்கம்கில் முக்கியத்துவம்:** தாங்கிக்கடத்தியை அல்கலைன் பாஸ்படேஸால் பதப்படுத்திய பின் அது தன்னுடன் மீண்டும் இணைய இயலாது. 5'-பாஸ்பேட்டைத் தக்கவைத்துள்ள செருகி DNA சேர்க்கப்படும்போது மட்டுமே இணைப்பு நிகழ்கிறது — இதனால் மறுகூட்டிணைவு DNA உருவாக நேர்கிறது.",
       "ta_status": "draft"
      }
     },
@@ -1094,7 +1094,7 @@
       },
       {
        "en": "**S1 nuclease:** Degrades single-stranded DNA or RNA; used in cDNA cloning to remove hairpin loops",
-       "ta": "**S1 நியுக்ளியேஸ்:** ஒற்றை இழை DNA அல்லது RNA-வைச் சிதைக்கும்; cDNA குளோனிங்கில் ஹேர்பின் வளையங்களை நீக்கப் பயன்படுகிறது",
+       "ta": "**S1 நியுக்ளியேஸ்:** ஒற்றை இழை DNA அல்லது RNA-வைச் சிதைக்கும்; cDNA நகலாக்கம்கில் ஹேர்பின் வளையங்களை நீக்கப் பயன்படுகிறது",
        "ta_status": "draft"
       },
       {
@@ -1128,7 +1128,7 @@
      "type": "p",
      "text": {
       "en": "**Restriction enzymes** cut the chromosomal DNA of the organism containing the gene of interest AND the vector DNA at the same restriction sites, producing compatible sticky or blunt ends essential for cloning.",
-      "ta": "**ரெஸ்ட்ரிக்ஷன் நொதிகள்**, தேவையான மரபணுவைக் கொண்ட உயிரினத்தின் குரோமோசோம் DNA-வையும் தாங்கிக்கடத்தி DNA-வையும் ஒரே ரெஸ்ட்ரிக்ஷன் இடங்களில் வெட்டி, குளோனிங்குக்கு அவசியமான பொருந்தும் ஒட்டும் அல்லது மழுங்கிய முனைகளை உருவாக்குகின்றன.",
+      "ta": "**ரெஸ்ட்ரிக்ஷன் நொதிகள்**, தேவையான மரபணுவைக் கொண்ட உயிரினத்தின் குரோமோசோம் DNA-வையும் தாங்கிக்கடத்தி DNA-வையும் ஒரே ரெஸ்ட்ரிக்ஷன் இடங்களில் வெட்டி, நகலாக்கம்குக்கு அவசியமான பொருந்தும் ஒட்டும் அல்லது மழுங்கிய முனைகளை உருவாக்குகின்றன.",
       "ta_status": "draft"
      }
     },
@@ -1144,7 +1144,7 @@
      "type": "p",
      "text": {
       "en": "**DNA ligase** covalently joins the gene-of-interest fragment to the vector DNA through phosphodiester bond formation, creating the **recombinant DNA molecule (rDNA)**. This is the core step of gene cloning.",
-      "ta": "**DNA லைகேஸ்**, தேவையான மரபணுத் துண்டையும் தாங்கிக்கடத்தி DNA-வையும் பாஸ்போடைஎஸ்டர் பிணைப்பு உருவாக்கம் மூலம் சகப்பிணைப்பால் இணைத்து **மறுகூட்டிணைவு DNA மூலக்கூறை (rDNA)** உருவாக்குகிறது. இதுவே மரபணுக் குளோனிங்கின் மையப் படி.",
+      "ta": "**DNA லைகேஸ்**, தேவையான மரபணுத் துண்டையும் தாங்கிக்கடத்தி DNA-வையும் பாஸ்போடைஎஸ்டர் பிணைப்பு உருவாக்கம் மூலம் சகப்பிணைப்பால் இணைத்து **மறுகூட்டிணைவு DNA மூலக்கூறை (rDNA)** உருவாக்குகிறது. இதுவே மரபணுக் நகலாக்கம்கின் மையப் படி.",
       "ta_status": "draft"
      }
     },
@@ -1160,7 +1160,7 @@
      "type": "p",
      "text": {
       "en": "**Taq polymerase** enables **PCR**, which can amplify a single DNA molecule to billions of copies in just a few hours. This is essential for obtaining sufficient DNA for cloning, sequencing, and analysis.",
-      "ta": "**Taq பாலிமரேஸ்** **PCR**-ஐ சாத்தியமாக்குகிறது; இதன் மூலம் ஒற்றை DNA மூலக்கூறைச் சில மணி நேரத்தில் பில்லியன் கணக்கான நகல்களாகப் பெருக்கலாம். குளோனிங், வரிசைப்படுத்தல், பகுப்பாய்வுக்குத் தேவையான போதிய DNA பெறுவதற்கு இது இன்றியமையாதது.",
+      "ta": "**Taq பாலிமரேஸ்** **PCR**-ஐ சாத்தியமாக்குகிறது; இதன் மூலம் ஒற்றை DNA மூலக்கூறைச் சில மணி நேரத்தில் பில்லியன் கணக்கான நகல்களாகப் பெருக்கலாம். நகலாக்கம், வரிசைப்படுத்தல், பகுப்பாய்வுக்குத் தேவையான போதிய DNA பெறுவதற்கு இது இன்றியமையாதது.",
       "ta_status": "draft"
      }
     },
@@ -1192,7 +1192,7 @@
      "type": "p",
      "text": {
       "en": "**Alkaline phosphatase** removes 5'-phosphate groups from linearized vector DNA. Without these groups, the vector cannot re-ligate with itself, forcing it to incorporate the insert DNA during ligation — significantly reducing background and improving cloning efficiency.",
-      "ta": "**அல்கலைன் பாஸ்படேஸ்** நேர்கோட்டுக் தாங்கிக்கடத்தி DNA-விலிருந்து 5'-பாஸ்பேட் தொகுதிகளை நீக்குகிறது. இத்தொகுதிகள் இல்லாததால் தாங்கிக்கடத்தி தன்னுடன் மீண்டும் இணைய முடியாது; இணைப்பின்போது செருகி DNA-வை ஏற்க நேர்கிறது — இது பின்னணியைக் கணிசமாகக் குறைத்துக் குளோனிங் திறனை மேம்படுத்துகிறது.",
+      "ta": "**அல்கலைன் பாஸ்படேஸ்** நேர்கோட்டுக் தாங்கிக்கடத்தி DNA-விலிருந்து 5'-பாஸ்பேட் தொகுதிகளை நீக்குகிறது. இத்தொகுதிகள் இல்லாததால் தாங்கிக்கடத்தி தன்னுடன் மீண்டும் இணைய முடியாது; இணைப்பின்போது செருகி DNA-வை ஏற்க நேர்கிறது — இது பின்னணியைக் கணிசமாகக் குறைத்துக் நகலாக்கம் திறனை மேம்படுத்துகிறது.",
       "ta_status": "draft"
      }
     },
@@ -1200,7 +1200,7 @@
      "type": "p",
      "text": {
       "en": "**6. Gene Cloning Applications**",
-      "ta": "**6. மரபணுக் குளோனிங் பயன்பாடுகள்**",
+      "ta": "**6. மரபணுக் நகலாக்கம் பயன்பாடுகள்**",
       "ta_status": "draft"
      }
     },
@@ -1215,7 +1215,7 @@
       },
       {
        "en": "Construction of **genomic and cDNA libraries**",
-       "ta": "**மரபணுத்தொகுதி மற்றும் cDNA நூலகங்களின்** உருவாக்கம்",
+       "ta": "**மரபணு தொகையம் மற்றும் cDNA நூலகங்களின்** உருவாக்கம்",
        "ta_status": "draft"
       },
       {
@@ -1321,7 +1321,7 @@
      },
      "answer": {
       "en": "Removes 5'-phosphate groups from DNA ends. Prevents vector self-ligation, thereby increasing recombinant clone efficiency in gene cloning.",
-      "ta": "DNA முனைகளிலிருந்து 5'-பாஸ்பேட் தொகுதிகளை நீக்குகிறது. தாங்கிக்கடத்தியின் தன்னிணைப்பைத் தடுத்து, மரபணுக் குளோனிங்கில் மறுகூட்டிணைவுக் குளோன்களின் திறனை உயர்த்துகிறது.",
+      "ta": "DNA முனைகளிலிருந்து 5'-பாஸ்பேட் தொகுதிகளை நீக்குகிறது. தாங்கிக்கடத்தியின் தன்னிணைப்பைத் தடுத்து, மரபணுக் நகலாக்கம்கில் மறுகூட்டிணைவுக் குளோன்களின் திறனை உயர்த்துகிறது.",
       "ta_status": "draft"
      }
     },
@@ -1360,7 +1360,7 @@
      },
      "answer": {
       "en": "Large fragment of _E. coli_ DNA Polymerase I. Lacks 5' to 3' exonuclease activity. Used to fill in 5' overhangs to create blunt ends and in probe labeling.",
-      "ta": "_E. coli_ DNA பாலிமரேஸ் I-இன் பெரிய துண்டு. 5' முதல் 3' எக்சோநியுக்ளியேஸ் செயல்பாடு இல்லை. 5' நீட்சிகளை நிரப்பி மழுங்கிய முனைகளை உருவாக்கவும் ஆய்வுக்குறிப்பான் பெயரிடலிலும் பயன்படுகிறது.",
+      "ta": "_E. coli_ DNA பாலிமரேஸ் I-இன் பெரிய துண்டு. 5' முதல் 3' எக்சோநியுக்ளியேஸ் செயல்பாடு இல்லை. 5' நீட்சிகளை நிரப்பி மழுங்கிய முனைகளை உருவாக்கவும் DNA துருவி பெயரிடலிலும் பயன்படுகிறது.",
       "ta_status": "draft"
      }
     }
@@ -1389,7 +1389,7 @@
      "items": [
       {
        "en": "1 🧬 Source DNA and Vector Prepared The genomic DNA containing the gene of interest and the plasmid vector are isolated. Both are ready to be treated with the same restriction enzyme.",
-       "ta": "1 🧬 மூல DNA-வும் தாங்கிக்கடத்தியும் தயாரிக்கப்படுகின்றன. தேவையான மரபணுவைக் கொண்ட மரபணுத்தொகுதி DNA-வும் பிளாஸ்மிட் தாங்கிக்கடத்தியும் தனித்துப் பிரிக்கப்படுகின்றன. இரண்டையும் ஒரே ரெஸ்ட்ரிக்ஷன் நொதியால் பதப்படுத்தத் தயாராக உள்ளன.",
+       "ta": "1 🧬 மூல DNA-வும் தாங்கிக்கடத்தியும் தயாரிக்கப்படுகின்றன. தேவையான மரபணுவைக் கொண்ட மரபணு தொகையம் DNA-வும் பிளாஸ்மிட் தாங்கிக்கடத்தியும் தனித்துப் பிரிக்கப்படுகின்றன. இரண்டையும் ஒரே ரெஸ்ட்ரிக்ஷன் நொதியால் பதப்படுத்தத் தயாராக உள்ளன.",
        "ta_status": "draft"
       }
      ]
@@ -1429,7 +1429,7 @@
      "items": [
       {
        "en": "5 🧫 Recombinant DNA Formed The recombinant DNA molecule (rDNA) — the vector now carrying the gene of interest — is ready for transformation into a host cell (e.g., E. coli) for cloning and expression.",
-       "ta": "5 🧫 மறுகூட்டிணைவு DNA உருவாகிறது. மறுகூட்டிணைவு DNA மூலக்கூறு (rDNA) — இப்போது தேவையான மரபணுவைச் சுமக்கும் தாங்கிக்கடத்தி — குளோனிங்கிற்கும் வெளிப்பாட்டிற்கும் ஓம்புயிர் செல்லில் (எ.கா. E. coli) உட்செலுத்தத் (உருமாற்றம்) தயாராக உள்ளது.",
+       "ta": "5 🧫 மறுகூட்டிணைவு DNA உருவாகிறது. மறுகூட்டிணைவு DNA மூலக்கூறு (rDNA) — இப்போது தேவையான மரபணுவைச் சுமக்கும் தாங்கிக்கடத்தி — நகலாக்கம்கிற்கும் வெளிப்பாட்டிற்கும் ஓம்புயிர் செல்லில் (எ.கா. E. coli) உட்செலுத்தத் (தகவல் பரிமாற்றம்) தயாராக உள்ளது.",
        "ta_status": "draft"
       }
      ]
@@ -1439,7 +1439,7 @@
      "kind": "info",
      "text": {
       "en": "**Key Principle:** Using the same restriction enzyme on both the insert and vector ensures **complementary sticky ends** that anneal by hydrogen bonding, allowing DNA ligase to seal the gaps efficiently. This directed cloning ensures the insert is incorporated in a predictable orientation.",
-      "ta": "**முக்கியக் கொள்கை:** செருகி DNA, தாங்கிக்கடத்தி இரண்டிலும் ஒரே ரெஸ்ட்ரிக்ஷன் நொதியைப் பயன்படுத்துவது ஹைட்ரஜன் பிணைப்பால் இணையும் **நிரப்பு ஒட்டும் முனைகளை** உறுதிசெய்து, DNA லைகேஸ் இடைவெளிகளைத் திறம்பட அடைக்க உதவுகிறது. இந்தத் திசைபடுத்தப்பட்ட குளோனிங், செருகி DNA முன்கூட்டியே கணிக்கக்கூடிய திசையமைவில் இணைவதை உறுதிசெய்கிறது.",
+      "ta": "**முக்கியக் கொள்கை:** செருகி DNA, தாங்கிக்கடத்தி இரண்டிலும் ஒரே ரெஸ்ட்ரிக்ஷன் நொதியைப் பயன்படுத்துவது ஹைட்ரஜன் பிணைப்பால் இணையும் **நிரப்பு ஒட்டும் முனைகளை** உறுதிசெய்து, DNA லைகேஸ் இடைவெளிகளைத் திறம்பட அடைக்க உதவுகிறது. இந்தத் திசைபடுத்தப்பட்ட நகலாக்கம், செருகி DNA முன்கூட்டியே கணிக்கக்கூடிய திசையமைவில் இணைவதை உறுதிசெய்கிறது.",
       "ta_status": "draft"
      }
     }
@@ -1503,7 +1503,7 @@
        },
        {
         "en": "Cuts both insert DNA and vector at compatible sites for cloning",
-        "ta": "குளோனிங்குக்குப் பொருந்தும் இடங்களில் செருகி DNA-வையும் தாங்கிக்கடத்தியையும் வெட்டுகிறது",
+        "ta": "நகலாக்கம்குக்குப் பொருந்தும் இடங்களில் செருகி DNA-வையும் தாங்கிக்கடத்தியையும் வெட்டுகிறது",
         "ta_status": "draft"
        },
        {
@@ -1584,7 +1584,7 @@
        },
        {
         "en": "Produces cDNA from mRNA for cloning expressed genes",
-        "ta": "வெளிப்படும் மரபணுக்களைக் குளோனிங் செய்ய mRNA-விலிருந்து cDNA உருவாக்குகிறது",
+        "ta": "வெளிப்படும் மரபணுக்களைக் நகலாக்கம் செய்ய mRNA-விலிருந்து cDNA உருவாக்குகிறது",
         "ta_status": "draft"
        },
        {
@@ -1611,7 +1611,7 @@
        },
        {
         "en": "Prevents vector self-ligation; improves cloning efficiency",
-        "ta": "தாங்கிக்கடத்தியின் தன்னிணைப்பைத் தடுக்கிறது; குளோனிங் திறனை மேம்படுத்துகிறது",
+        "ta": "தாங்கிக்கடத்தியின் தன்னிணைப்பைத் தடுக்கிறது; நகலாக்கம் திறனை மேம்படுத்துகிறது",
         "ta_status": "draft"
        },
        {
@@ -1638,7 +1638,7 @@
        },
        {
         "en": "Creates blunt ends; used in probe labeling (nick translation)",
-        "ta": "மழுங்கிய முனைகளை உருவாக்குகிறது; ஆய்வுக்குறிப்பான் பெயரிடலில் (நிக் டிரான்ஸ்லேஷன்) பயன்படுகிறது",
+        "ta": "மழுங்கிய முனைகளை உருவாக்குகிறது; DNA துருவி பெயரிடலில் (நிக் டிரான்ஸ்லேஷன்) பயன்படுகிறது",
         "ta_status": "draft"
        },
        {
@@ -1692,7 +1692,7 @@
        },
        {
         "en": "Nick translation for probe labeling; removes DNA contamination",
-        "ta": "ஆய்வுக்குறிப்பான் பெயரிடலுக்கான நிக் டிரான்ஸ்லேஷன்; DNA மாசை நீக்குகிறது",
+        "ta": "DNA துருவி பெயரிடலுக்கான நிக் டிரான்ஸ்லேஷன்; DNA மாசை நீக்குகிறது",
         "ta_status": "draft"
        },
        {
@@ -1751,7 +1751,7 @@
      "type": "p",
      "text": {
       "en": "**Sticky Ends** Single-stranded overhangs after staggered cleavage. Facilitate directional and efficient cloning.",
-      "ta": "**ஒட்டும் முனைகள்** படிக்கட்டு வெட்டுக்குப் பின் உருவாகும் ஒற்றை இழை நீட்சிகள். திசைபடுத்தப்பட்ட, திறமையான குளோனிங்குக்கு உதவும்.",
+      "ta": "**ஒட்டும் முனைகள்** படிக்கட்டு வெட்டுக்குப் பின் உருவாகும் ஒற்றை இழை நீட்சிகள். திசைபடுத்தப்பட்ட, திறமையான நகலாக்கம்குக்கு உதவும்.",
       "ta_status": "draft"
      }
     },
@@ -1783,7 +1783,7 @@
      "type": "p",
      "text": {
       "en": "**Reverse Transcriptase** Makes cDNA from mRNA. From retroviruses. Used for cloning expressed genes without introns.",
-      "ta": "**ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ்** mRNA-விலிருந்து cDNA உருவாக்கும். ரெட்ரோவைரஸ்களிலிருந்து பெறப்படுகிறது. இன்ட்ரான் இல்லாமல் வெளிப்படும் மரபணுக்களைக் குளோனிங் செய்யப் பயன்படுகிறது.",
+      "ta": "**ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ்** mRNA-விலிருந்து cDNA உருவாக்கும். ரெட்ரோவைரஸ்களிலிருந்து பெறப்படுகிறது. இன்ட்ரான் இல்லாமல் வெளிப்படும் மரபணுக்களைக் நகலாக்கம் செய்யப் பயன்படுகிறது.",
       "ta_status": "draft"
      }
     },
@@ -1843,7 +1843,7 @@
       },
       {
        "en": "**Cloning:** Production of identical copies of a gene using a host organism.",
-       "ta": "**குளோனிங்:** ஓம்புயிரி உயிரினத்தைப் பயன்படுத்தி ஒரு மரபணுவின் ஒத்த நகல்களை உருவாக்குதல்.",
+       "ta": "**நகலாக்கம்:** ஓம்புயிரி உயிரினத்தைப் பயன்படுத்தி ஒரு மரபணுவின் ஒத்த நகல்களை உருவாக்குதல்.",
        "ta_status": "draft"
       },
       {
@@ -1939,8 +1939,8 @@
      "type": "glossary",
      "term": {
       "en": "Cloning",
-      "ta": "குளோனிங்",
-      "ta_status": "draft"
+      "ta": "நகலாக்கம் (Cloning)",
+      "ta_status": "bracketed"
      },
      "definition": {
       "en": "The process of inserting a DNA fragment into a vector, introducing it into a host cell, and allowing the host to replicate, producing many identical copies of the DNA.",
@@ -1983,7 +1983,7 @@
      },
      "definition": {
       "en": "DNA molecule formed by combining DNA sequences from two or more different organisms or sources, typically a gene of interest inserted into a cloning vector.",
-      "ta": "இரு அல்லது அதற்கு மேற்பட்ட வெவ்வேறு உயிரினங்கள் அல்லது மூலங்களிலிருந்து பெற்ற DNA வரிசைகளை இணைத்து உருவாக்கப்படும் DNA மூலக்கூறு; பொதுவாகத் தேவையான மரபணு ஒரு குளோனிங் தாங்கிக்கடத்தியில் செருகப்பட்டிருக்கும்.",
+      "ta": "இரு அல்லது அதற்கு மேற்பட்ட வெவ்வேறு உயிரினங்கள் அல்லது மூலங்களிலிருந்து பெற்ற DNA வரிசைகளை இணைத்து உருவாக்கப்படும் DNA மூலக்கூறு; பொதுவாகத் தேவையான மரபணு ஒரு நகலாக்கம் தாங்கிக்கடத்தியில் செருகப்பட்டிருக்கும்.",
       "ta_status": "draft"
      }
     },
@@ -2004,12 +2004,12 @@
      "type": "glossary",
      "term": {
       "en": "Transformation",
-      "ta": "உருமாற்றம்",
-      "ta_status": "draft"
+      "ta": "தகவல் பரிமாற்றம் (Transformation)",
+      "ta_status": "bracketed"
      },
      "definition": {
       "en": "Introduction of foreign DNA (e.g., recombinant plasmid) into a bacterial cell. Successful transformants are selected using antibiotic resistance or other selectable markers.",
-      "ta": "அந்நிய DNA-வை (எ.கா. மறுகூட்டிணைவுப் பிளாஸ்மிட்) பாக்டீரியா செல்லுக்குள் செலுத்துதல். வெற்றிகரமான உருமாறிய செல்கள் ஆன்டிபயாடிக் எதிர்ப்பு அல்லது பிற தேர்ந்தெடுக்கும் குறிப்பான்களால் தெரிவு செய்யப்படுகின்றன.",
+      "ta": "அந்நிய DNA-வை (எ.கா. மறுகூட்டிணைவுப் பிளாஸ்மிட்) பாக்டீரியா செல்லுக்குள் செலுத்துதல். வெற்றிகரமான மாற்றப்பட்ட செல்கள் ஆன்டிபயாடிக் எதிர்ப்பு அல்லது பிற தேர்ந்தெடுக்கும் குறிப்பான்களால் தெரிவு செய்யப்படுகின்றன.",
       "ta_status": "draft"
      }
     },
@@ -2017,8 +2017,8 @@
      "type": "glossary",
      "term": {
       "en": "Restriction Mapping",
-      "ta": "ரெஸ்ட்ரிக்ஷன் வரைபடமாக்கல்",
-      "ta_status": "draft"
+      "ta": "தடைக்கட்டு வரிபடம் (Restriction mapping)",
+      "ta_status": "bracketed"
      },
      "definition": {
       "en": "A technique used to characterize a DNA molecule by cutting it with various restriction enzymes and analyzing fragment sizes to determine the positions of restriction sites on the DNA.",
@@ -2135,7 +2135,7 @@
       },
       {
        "en": "Cloning relevance: sticky ends allow directed, efficient cloning; blunt ends are less efficient but non-directional.",
-       "ta": "குளோனிங்கில் முக்கியத்துவம்: ஒட்டும் முனைகள் திசைபடுத்தப்பட்ட, திறமையான குளோனிங்கை அனுமதிக்கும்; மழுங்கிய முனைகள் திறன் குறைவானவை, ஆனால் திசையற்றவை.",
+       "ta": "நகலாக்கம்கில் முக்கியத்துவம்: ஒட்டும் முனைகள் திசைபடுத்தப்பட்ட, திறமையான நகலாக்கம்கை அனுமதிக்கும்; மழுங்கிய முனைகள் திறன் குறைவானவை, ஆனால் திசையற்றவை.",
        "ta_status": "draft"
       },
       {
@@ -2182,7 +2182,7 @@
       },
       {
        "en": "Critical step in gene cloning: joins insert DNA to linearized vector to form recombinant DNA.",
-       "ta": "மரபணுக் குளோனிங்கின் முக்கியப் படி: செருகி DNA-வை நேர்கோட்டுக் தாங்கிக்கடத்தியுடன் இணைத்து மறுகூட்டிணைவு DNA-வை உருவாக்குகிறது.",
+       "ta": "மரபணுக் நகலாக்கம்கின் முக்கியப் படி: செருகி DNA-வை நேர்கோட்டுக் தாங்கிக்கடத்தியுடன் இணைத்து மறுகூட்டிணைவு DNA-வை உருவாக்குகிறது.",
        "ta_status": "draft"
       },
       {
@@ -2286,17 +2286,17 @@
       },
       {
        "en": "**Step 5 — Transformation:** Introduce rDNA into competent host cells (e.g., _E. coli_).",
-       "ta": "**படி 5 — உருமாற்றம்:** rDNA-வைத் தகுந்த ஓம்புயிரி செல்களுக்குள் (எ.கா. _E. coli_) செலுத்துக.",
+       "ta": "**படி 5 — தகவல் பரிமாற்றம்:** rDNA-வைத் தகுந்த ஓம்புயிரி செல்களுக்குள் (எ.கா. _E. coli_) செலுத்துக.",
        "ta_status": "draft"
       },
       {
        "en": "**Step 6 — Selection:** Select transformants using antibiotic resistance, blue-white screening, etc.",
-       "ta": "**படி 6 — தெரிவு செய்தல்:** ஆன்டிபயாடிக் எதிர்ப்பு, நீலம்-வெள்ளை திரையிடல் போன்றவற்றால் உருமாறிய செல்களைத் தெரிவு செய்க.",
+       "ta": "**படி 6 — தெரிவு செய்தல்:** ஆன்டிபயாடிக் எதிர்ப்பு, நீலம்-வெள்ளை சலிக்கை போன்றவற்றால் மாற்றப்பட்ட செல்களைத் தெரிவு செய்க.",
        "ta_status": "draft"
       },
       {
        "en": "Draw a simple flow diagram: DNA + vector → restriction digestion → ligation → rDNA → transformation → selection.",
-       "ta": "எளிய பாய்வு வரைபடம் வரைக: DNA + தாங்கிக்கடத்தி → ரெஸ்ட்ரிக்ஷன் செரிமானம் → இணைத்தல் → rDNA → உருமாற்றம் → தெரிவு.",
+       "ta": "எளிய பாய்வு வரைபடம் வரைக: DNA + தாங்கிக்கடத்தி → ரெஸ்ட்ரிக்ஷன் நொதி வெட்டு → இணைத்தல் → rDNA → தகவல் பரிமாற்றம் → தெரிவு.",
        "ta_status": "draft"
       }
      ]
