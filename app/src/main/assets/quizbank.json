@@ -1583,7 +1583,15 @@
     "Károly Ereky, 1919"
    ],
    "a": 3,
-   "e": "✅ The term Biotechnology was coined by Hungarian engineer Károly Ereky in 1919 to describe large-scale pig production using sugar beets as feed."
+   "e": "✅ The term Biotechnology was coined by Hungarian engineer Károly Ereky in 1919 to describe large-scale pig production using sugar beets as feed.",
+   "q_ta": "'உயிரித் தொழில்நுட்பவியல்' என்ற சொல்லை உருவாக்கியவர் யார், எந்த ஆண்டு?",
+   "o_ta": [
+    "லூயி பாஸ்டர், 1857",
+    "ஜேம்ஸ் வாட்சன், 1953",
+    "ஹெர்பர்ட் பாயர், 1973",
+    "கரோலி எரெக்கி, 1919"
+   ],
+   "e_ta": "✅ சர்க்கரைக் கிழங்கைத் தீவனமாகக் கொண்டு பெரிய அளவில் பன்றி உற்பத்தி செய்வதை விவரிக்க, ஹங்கேரியப் பொறியாளர் கரோலி எரெக்கி 1919-இல் உயிரித் தொழில்நுட்பவியல் என்ற சொல்லை உருவாக்கினார்."
   },
   {
    "q": "Which of the following is the correct UN CBD (1992) definition of biotechnology?",
@@ -1594,7 +1602,15 @@
     "The study of genes and heredity in living organisms"
    ],
    "a": 2,
-   "e": "✅ The UN Convention on Biological Diversity (1992) defines biotechnology as any technological application that uses biological systems, living organisms, or derivatives to make or modify products or processes for specific use."
+   "e": "✅ The UN Convention on Biological Diversity (1992) defines biotechnology as any technological application that uses biological systems, living organisms, or derivatives to make or modify products or processes for specific use.",
+   "q_ta": "உயிரித் தொழில்நுட்பவியலுக்கான ஐ.நா. CBD (1992) வரையறை பின்வருவனவற்றுள் எது?",
+   "o_ta": [
+    "உயிரியல் தரவைப் பகுப்பாய்வு செய்யக் கணினிகளைப் பயன்படுத்துதல்",
+    "தொழிற்சாலை உயிர்வினைக்கலன்களில் நுண்ணுயிர்களை வளர்த்தல்",
+    "பொருள்களை உருவாக்க அல்லது மாற்ற உயிரியல் அமைப்புகள், உயிரினங்கள் அல்லது அவற்றின் வழிப்பொருள்களைப் பயன்படுத்தும் எந்தத் தொழில்நுட்பப் பயன்பாடும்",
+    "உயிரினங்களில் மரபணுக்களையும் பரம்பரையையும் ஆய்வு செய்தல்"
+   ],
+   "e_ta": "✅ ஐ.நா. உயிரியப் பல்வகைமை மாநாடு (1992), உயிரித் தொழில்நுட்பவியலை — குறிப்பிட்ட பயன்பாட்டுக்கான பொருள்களை அல்லது செயல்முறைகளை உருவாக்க அல்லது மாற்ற உயிரியல் அமைப்புகள், உயிரினங்கள் அல்லது அவற்றின் வழிப்பொருள்களைப் பயன்படுத்தும் எந்தத் தொழில்நுட்பப் பயன்பாடும் — என வரையறுக்கிறது."
   },
   {
    "q": "What is the colour code for Agricultural Biotechnology?",
@@ -1605,7 +1621,15 @@
     "White"
    ],
    "a": 1,
-   "e": "✅ Green Biotechnology refers to agricultural applications — GM crops, Bt cotton, tissue culture, biofertilisers. Red = Medical, White = Industrial, Blue = Marine."
+   "e": "✅ Green Biotechnology refers to agricultural applications — GM crops, Bt cotton, tissue culture, biofertilisers. Red = Medical, White = Industrial, Blue = Marine.",
+   "q_ta": "வேளாண் உயிரித் தொழில்நுட்பவியலுக்கான வண்ணக் குறியீடு எது?",
+   "o_ta": [
+    "சிவப்பு",
+    "பச்சை",
+    "நீலம்",
+    "வெள்ளை"
+   ],
+   "e_ta": "✅ பச்சை உயிரித் தொழில்நுட்பவியல் வேளாண் பயன்பாடுகளைக் குறிக்கும் — மரபணு மாற்றப் பயிர்கள், Bt பருத்தி, திசு வளர்ப்பு, உயிர் உரங்கள். சிவப்பு = மருத்துவம், வெள்ளை = தொழிற்சாலை, நீலம் = கடல்."
   },
   {
    "q": "The first recombinant human insulin (Humulin) was commercially produced using:",
@@ -1616,7 +1640,15 @@
     "Escherichia coli"
    ],
    "a": 3,
-   "e": "✅ Human insulin (Humulin) was first produced commercially in 1982 by Eli Lilly using Escherichia coli with the recombinant human insulin gene. This was the first commercially successful rDNA product."
+   "e": "✅ Human insulin (Humulin) was first produced commercially in 1982 by Eli Lilly using Escherichia coli with the recombinant human insulin gene. This was the first commercially successful rDNA product.",
+   "q_ta": "முதல் மறுசேர்க்கை மனித இன்சுலின் (ஹியூமுலின்) வணிக ரீதியாக உற்பத்தி செய்யப்பட்டது எதைப் பயன்படுத்தி?",
+   "o_ta": [
+    "Saccharomyces cerevisiae",
+    "Bacillus subtilis",
+    "Aspergillus niger",
+    "Escherichia coli"
+   ],
+   "e_ta": "✅ மனித இன்சுலின் (ஹியூமுலின்) 1982-இல் எலி லில்லி நிறுவனத்தால் மறுசேர்க்கை மனித இன்சுலின் மரபணுவுடன் Escherichia coli-ஐப் பயன்படுத்தி வணிக ரீதியாக முதலில் உற்பத்தி செய்யப்பட்டது. இது வணிக ரீதியாக வெற்றிபெற்ற முதல் rDNA விளைபொருள்."
   },
   {
    "q": "Which enzyme acts as 'molecular scissors' in recombinant DNA technology?",
@@ -1627,7 +1659,15 @@
     "RNA polymerase"
    ],
    "a": 1,
-   "e": "✅ Restriction endonucleases (restriction enzymes) act as 'molecular scissors' — they cut DNA at specific palindromic recognition sequences. DNA ligase acts as 'molecular glue' to join fragments."
+   "e": "✅ Restriction endonucleases (restriction enzymes) act as 'molecular scissors' — they cut DNA at specific palindromic recognition sequences. DNA ligase acts as 'molecular glue' to join fragments.",
+   "q_ta": "மறுசேர்க்கை DNA தொழில்நுட்பத்தில் 'மூலக்கூறுக் கத்தரிகளாக' செயல்படும் நொதி எது?",
+   "o_ta": [
+    "DNA பாலிமெரேஸ்",
+    "கட்டுறு எண்டோநியுக்ளியேஸ்",
+    "DNA லைகேஸ்",
+    "RNA பாலிமெரேஸ்"
+   ],
+   "e_ta": "✅ கட்டுறு எண்டோநியுக்ளியேஸ்கள் (கட்டுறு நொதிகள்) 'மூலக்கூறுக் கத்தரிகளாக' செயல்படுகின்றன — குறிப்பிட்ட பாலிண்ட்ரோம் அடையாள வரிசைகளில் DNA-வை வெட்டுகின்றன. DNA லைகேஸ் 'மூலக்கூறுப் பசையாக' துண்டுகளை இணைக்கிறது."
   },
   {
    "q": "Bt cotton contains the 'cry' gene derived from:",
@@ -1638,7 +1678,15 @@
     "Rhizobium leguminosarum"
    ],
    "a": 2,
-   "e": "✅ Bt cotton contains the cry gene from Bacillus thuringiensis. This gene encodes Cry proteins (Bt toxin) that are toxic to bollworm larvae but harmless to mammals. Bt cotton was approved in India in 2002."
+   "e": "✅ Bt cotton contains the cry gene from Bacillus thuringiensis. This gene encodes Cry proteins (Bt toxin) that are toxic to bollworm larvae but harmless to mammals. Bt cotton was approved in India in 2002.",
+   "q_ta": "Bt பருத்தி கொண்டுள்ள 'cry' மரபணு எதிலிருந்து பெறப்பட்டது?",
+   "o_ta": [
+    "Escherichia coli",
+    "Pseudomonas putida",
+    "Bacillus thuringiensis",
+    "Rhizobium leguminosarum"
+   ],
+   "e_ta": "✅ Bt பருத்தி, Bacillus thuringiensis-இன் cry மரபணுவைக் கொண்டுள்ளது. இம்மரபணு Cry புரதங்களை (Bt நச்சு) குறியீடு செய்கிறது; இவை பருத்திக் காய்ப்புழுக் கூட்டுப்புழுக்களுக்கு நச்சு, பாலூட்டிகளுக்குத் தீங்கற்றவை. இந்தியாவில் Bt பருத்தி 2002-இல் அங்கீகரிக்கப்பட்டது."
   },
   {
    "q": "PCR (Polymerase Chain Reaction) was invented by:",
@@ -1649,7 +1697,15 @@
     "Stanley Cohen"
    ],
    "a": 2,
-   "e": "✅ Kary Mullis invented PCR in 1983 and received the Nobel Prize in Chemistry in 1993. PCR amplifies specific DNA sequences in vitro using thermal cycling and Taq DNA polymerase from Thermus aquaticus."
+   "e": "✅ Kary Mullis invented PCR in 1983 and received the Nobel Prize in Chemistry in 1993. PCR amplifies specific DNA sequences in vitro using thermal cycling and Taq DNA polymerase from Thermus aquaticus.",
+   "q_ta": "PCR (பாலிமெரேஸ் தொடர் வினை) கண்டுபிடித்தவர்:",
+   "o_ta": [
+    "ஃப்ரெடரிக் சாங்கர்",
+    "பால் பெர்க்",
+    "கேரி முல்லிஸ்",
+    "ஸ்டான்லி கோஹன்"
+   ],
+   "e_ta": "✅ கேரி முல்லிஸ் 1983-இல் PCR-ஐக் கண்டுபிடித்து 1993-இல் வேதியியலுக்கான நோபல் பரிசு பெற்றார். PCR வெப்பச் சுழற்சியையும் Thermus aquaticus-இன் Taq DNA பாலிமெரேஸையும் பயன்படுத்தி, உடலகத்துக்கு வெளியே குறிப்பிட்ட DNA வரிசைகளைப் பெருக்குகிறது."
   },
   {
    "q": "Monoclonal antibody technology (hybridoma technique) was developed by:",
@@ -1660,7 +1716,15 @@
     "Boyer and Cohen, 1973"
    ],
    "a": 0,
-   "e": "✅ Georges Köhler and César Milstein developed hybridoma technology in 1975, earning the Nobel Prize in 1984. The technique fuses B lymphocytes with myeloma cells to produce monoclonal antibodies."
+   "e": "✅ Georges Köhler and César Milstein developed hybridoma technology in 1975, earning the Nobel Prize in 1984. The technique fuses B lymphocytes with myeloma cells to produce monoclonal antibodies.",
+   "q_ta": "ஒற்றைக்கிளை எதிர்ப்பொருள் தொழில்நுட்பத்தை (ஹைப்ரிடோமா நுட்பம்) உருவாக்கியவர்கள்:",
+   "o_ta": [
+    "கோலர் மற்றும் மில்ஸ்டைன், 1975",
+    "வாட்சன் மற்றும் கிரிக், 1953",
+    "டாலி மற்றும் வில்முட், 1996",
+    "பாயர் மற்றும் கோஹன், 1973"
+   ],
+   "e_ta": "✅ ஜார்ஜஸ் கோலரும் சீசர் மில்ஸ்டைனும் 1975-இல் ஹைப்ரிடோமா தொழில்நுட்பத்தை உருவாக்கி 1984-இல் நோபல் பரிசு பெற்றனர். இந்நுட்பம் B நிணநீர்ச் செல்களை மைலோமா செல்களுடன் இணைத்து ஒற்றைக்கிளை எதிர்ப்பொருள்களை உருவாக்குகிறது."
   },
   {
    "q": "Which of the following is a correct example of bioremediation?",
@@ -1671,7 +1735,15 @@
     "Using restriction enzymes to cut DNA"
    ],
    "a": 1,
-   "e": "✅ Bioremediation uses microorganisms to degrade pollutants. Pseudomonas putida (first GMO patented by A. M. Chakrabarty, 1980) can degrade multiple petroleum hydrocarbons and is used in oil spill clean-up."
+   "e": "✅ Bioremediation uses microorganisms to degrade pollutants. Pseudomonas putida (first GMO patented by A. M. Chakrabarty, 1980) can degrade multiple petroleum hydrocarbons and is used in oil spill clean-up.",
+   "q_ta": "உயிரிவழித் தூய்மையாக்கத்துக்குச் சரியான எடுத்துக்காட்டு பின்வருவனவற்றுள் எது?",
+   "o_ta": [
+    "நீரைத் தூய்மையாக்க UV கதிர்வீச்சைப் பயன்படுத்துதல்",
+    "எண்ணெய்க் கசிவுகளில் பெட்ரோலிய ஹைட்ரோகார்பன்களைச் சிதைக்க Pseudomonas putida-ஐப் பயன்படுத்துதல்",
+    "பயிர் விளைச்சலை உயர்த்த நைட்ரஜன் உரங்களைப் பயன்படுத்துதல்",
+    "DNA-வை வெட்டக் கட்டுறு நொதிகளைப் பயன்படுத்துதல்"
+   ],
+   "e_ta": "✅ உயிரிவழித் தூய்மையாக்கம் மாசுகளைச் சிதைக்க நுண்ணுயிர்களைப் பயன்படுத்துகிறது. Pseudomonas putida (ஏ. எம். சக்ரவர்த்தியால் 1980-இல் காப்புரிமை பெற்ற முதல் மரபணு மாற்ற உயிரினம்) பல பெட்ரோலிய ஹைட்ரோகார்பன்களைச் சிதைத்து எண்ணெய்க் கசிவுத் தூய்மையாக்கத்தில் பயன்படுகிறது."
   },
   {
    "q": "CRISPR-Cas9 genome editing technology received the Nobel Prize in Chemistry in:",
@@ -1682,7 +1754,15 @@
     "2022"
    ],
    "a": 0,
-   "e": "✅ Jennifer Doudna and Emmanuelle Charpentier received the Nobel Prize in Chemistry in 2020 for developing CRISPR-Cas9 as a precise genome editing tool, described as 'a tool for rewriting the code of life.'"
+   "e": "✅ Jennifer Doudna and Emmanuelle Charpentier received the Nobel Prize in Chemistry in 2020 for developing CRISPR-Cas9 as a precise genome editing tool, described as 'a tool for rewriting the code of life.'",
+   "q_ta": "CRISPR-Cas9 மரபணுத்தொகைத் திருத்தத் தொழில்நுட்பத்துக்கு வேதியியலுக்கான நோபல் பரிசு எந்த ஆண்டு வழங்கப்பட்டது?",
+   "o_ta": [
+    "2020",
+    "2016",
+    "2018",
+    "2022"
+   ],
+   "e_ta": "✅ CRISPR-Cas9-ஐத் துல்லிய மரபணுத்தொகைத் திருத்தக் கருவியாக உருவாக்கியதற்காக ஜெனிஃபர் டௌட்னாவும் இமானுவேல் சார்ப்பென்டியேவும் 2020-இல் வேதியியலுக்கான நோபல் பரிசு பெற்றனர்; இது 'உயிர்க் குறியீட்டை மீண்டும் எழுதும் கருவி' எனப்படுகிறது."
   }
  ],
  "blotting_techniques.html": [
@@ -1695,7 +1775,15 @@
     "Eastern blotting"
    ],
    "a": 0,
-   "e": "Southern blotting detects DNA; it is named after Edwin Southern (1975)."
+   "e": "Southern blotting detects DNA; it is named after Edwin Southern (1975).",
+   "q_ta": "குறிப்பிட்ட DNA வரிசையைக் கண்டறியப் பயன்படும் கறையாக்க நுட்பம்:",
+   "o_ta": [
+    "சதர்ன் கறையாக்கம்",
+    "நார்தர்ன் கறையாக்கம்",
+    "வெஸ்டர்ன் கறையாக்கம்",
+    "ஈஸ்டர்ன் கறையாக்கம்"
+   ],
+   "e_ta": "சதர்ன் கறையாக்கம் DNA-வைக் கண்டறிகிறது; எட்வின் சதர்னின் (1975) பெயரால் அழைக்கப்படுகிறது."
   },
   {
    "q": "Northern blotting is used to detect:",
@@ -1706,7 +1794,15 @@
     "Lipid"
    ],
    "a": 1,
-   "e": "Northern blotting detects RNA and shows gene expression and transcript size."
+   "e": "Northern blotting detects RNA and shows gene expression and transcript size.",
+   "q_ta": "நார்தர்ன் கறையாக்கம் கண்டறியப் பயன்படுவது:",
+   "o_ta": [
+    "DNA",
+    "RNA",
+    "புரதம்",
+    "கொழுப்பு"
+   ],
+   "e_ta": "நார்தர்ன் கறையாக்கம் RNA-வைக் கண்டறிந்து மரபணு வெளிப்பாட்டையும் படியின் அளவையும் காட்டுகிறது."
   },
   {
    "q": "In a Western blot, proteins are first separated by:",
@@ -1717,7 +1813,15 @@
     "Centrifugation"
    ],
    "a": 2,
-   "e": "Proteins are separated by SDS-PAGE and then electroblotted onto a membrane."
+   "e": "Proteins are separated by SDS-PAGE and then electroblotted onto a membrane.",
+   "q_ta": "வெஸ்டர்ன் கறையாக்கத்தில் புரதங்கள் முதலில் பிரிக்கப்படுவது:",
+   "o_ta": [
+    "அகரோஸ் ஜெல் மின்னொட்டத்தால்",
+    "தாள் நிறப்பிரிகையால்",
+    "SDS-PAGE-ஆல்",
+    "மைய விலக்கலால்"
+   ],
+   "e_ta": "புரதங்கள் SDS-PAGE-ஆல் பிரிக்கப்பட்டுப் பின்னர் சவ்வின் மீது மின்கறையாக்கம் செய்யப்படுகின்றன."
   },
   {
    "q": "Why is the gel treated with NaOH in Southern blotting?",
@@ -1728,7 +1832,15 @@
     "To convert double-stranded DNA to single strands"
    ],
    "a": 3,
-   "e": "Alkali denatures DNA so single strands bind the membrane and can hybridise with the probe."
+   "e": "Alkali denatures DNA so single strands bind the membrane and can hybridise with the probe.",
+   "q_ta": "சதர்ன் கறையாக்கத்தில் ஜெல் NaOH-ஆல் ஏன் சிகிச்சையளிக்கப்படுகிறது?",
+   "o_ta": [
+    "DNA-வைக் கறையிட",
+    "புரதங்களைச் செரிக்க",
+    "துணுக்கியைக் குறிப்பிட",
+    "இரட்டை இழை DNA-வை ஒற்றை இழைகளாக மாற்ற"
+   ],
+   "e_ta": "காரம் DNA-வை இயல்பிழக்கச்செய்வதால் ஒற்றை இழைகள் சவ்வில் பிணைந்து துணுக்கியுடன் கலப்பினமாகும்."
   },
   {
    "q": "Northern blot gels contain formaldehyde in order to:",
@@ -1739,7 +1851,15 @@
     "Label RNA"
    ],
    "a": 1,
-   "e": "Formaldehyde keeps RNA unfolded, so migration reflects length."
+   "e": "Formaldehyde keeps RNA unfolded, so migration reflects length.",
+   "q_ta": "நார்தர்ன் கறையாக்க ஜெல்களில் ஃபார்மால்டிஹைடு இருப்பது ஏன்?",
+   "o_ta": [
+    "RNA-வை நீராற்பகுக்க",
+    "இரண்டாம்நிலை அமைப்பைத் தடுத்து RNA அளவுக்கேற்ப நகரச்செய்ய",
+    "துளை அளவை அதிகரிக்க",
+    "RNA-வைக் குறிப்பிட"
+   ],
+   "e_ta": "ஃபார்மால்டிஹைடு RNA-வை மடிப்பற்ற நிலையில் வைப்பதால் நகர்வு நீளத்தைப் பிரதிபலிக்கிறது."
   },
   {
    "q": "The enzyme commonly linked to the secondary antibody in a Western blot is:",
@@ -1750,7 +1870,15 @@
     "Restriction endonuclease"
    ],
    "a": 1,
-   "e": "HRP (or alkaline phosphatase) catalyses the reaction that produces a signal."
+   "e": "HRP (or alkaline phosphatase) catalyses the reaction that produces a signal.",
+   "q_ta": "வெஸ்டர்ன் கறையாக்கத்தில் இரண்டாம்நிலை எதிர்ப்பொருளுடன் பொதுவாக இணைக்கப்படும் நொதி:",
+   "o_ta": [
+    "DNA பாலிமெரேஸ்",
+    "குதிரைமுள்ளங்கி பெராக்சிடேஸ்",
+    "லைகேஸ்",
+    "கட்டுறு எண்டோநியுக்ளியேஸ்"
+   ],
+   "e_ta": "HRP (அல்லது காரப் பாஸ்படேஸ்) சமிக்ஞையை உருவாக்கும் வினையை வினையூக்குகிறது."
   },
   {
    "q": "The purpose of the blocking step is to:",
@@ -1761,7 +1889,15 @@
     "Increase transfer speed"
    ],
    "a": 2,
-   "e": "Blocking agents (milk, BSA, Denhardt's) occupy unused binding sites and lower background."
+   "e": "Blocking agents (milk, BSA, Denhardt's) occupy unused binding sites and lower background.",
+   "q_ta": "தடுப்புப் படியின் நோக்கம்:",
+   "o_ta": [
+    "புரதங்களை இயல்பிழக்கச்செய்தல்",
+    "DNA-வை வெட்டுதல்",
+    "காலி இடங்களை மூடி பின்னணியைக் குறைத்தல்",
+    "மாற்று வேகத்தை அதிகரித்தல்"
+   ],
+   "e_ta": "தடுப்பு முகவர்கள் (பால், BSA, டென்ஹார்ட்ஸ்) பயன்படுத்தப்படாத பிணைப்பு இடங்களை நிரப்பிப் பின்னணியைக் குறைக்கின்றன."
   },
   {
    "q": "Transfer of DNA in a classical Southern blot is driven by:",
@@ -1772,7 +1908,15 @@
     "Gravity only"
    ],
    "a": 0,
-   "e": "Buffer drawn upward by a stack of paper towels carries DNA to the membrane: capillary transfer."
+   "e": "Buffer drawn upward by a stack of paper towels carries DNA to the membrane: capillary transfer.",
+   "q_ta": "மரபுவழி சதர்ன் கறையாக்கத்தில் DNA மாற்றத்தை இயக்குவது:",
+   "o_ta": [
+    "தாங்கலின் நுண்புழை ஈர்ப்பு",
+    "மின்புலம்",
+    "மையநீக்க விசை",
+    "புவியீர்ப்பு மட்டும்"
+   ],
+   "e_ta": "காகிதத் துண்டு அடுக்கால் மேல்நோக்கி இழுக்கப்படும் தாங்கல் DNA-வைச் சவ்வுக்குக் கொண்டுசெல்கிறது: நுண்புழை மாற்றம்."
   },
   {
    "q": "Which membrane is commonly used in Western blotting?",
@@ -1783,7 +1927,15 @@
     "PVDF or nitrocellulose"
    ],
    "a": 3,
-   "e": "PVDF and nitrocellulose bind proteins well."
+   "e": "PVDF and nitrocellulose bind proteins well.",
+   "q_ta": "வெஸ்டர்ன் கறையாக்கத்தில் பொதுவாகப் பயன்படும் சவ்வு எது?",
+   "o_ta": [
+    "செல்லோபேன்",
+    "டயாலிசிஸ் குழாய்",
+    "அகரோஸ்",
+    "PVDF அல்லது நைட்ரோசெல்லுலோஸ்"
+   ],
+   "e_ta": "PVDF, நைட்ரோசெல்லுலோஸ் புரதங்களை நன்கு பிணைக்கின்றன."
   },
   {
    "q": "To check whether a transgene has integrated into the genome of a transgenic animal, the best blot is:",
@@ -1794,7 +1946,15 @@
     "Dot blot of protein"
    ],
    "a": 2,
-   "e": "Southern blotting shows presence, copy number and integration pattern of DNA."
+   "e": "Southern blotting shows presence, copy number and integration pattern of DNA.",
+   "q_ta": "மாற்றுமரபணு விலங்கின் மரபணுத்தொகையில் மாற்றுமரபணு ஒருங்கிணைந்துள்ளதா எனச் சோதிக்கச் சிறந்த கறையாக்கம்:",
+   "o_ta": [
+    "நார்தர்ன்",
+    "வெஸ்டர்ன்",
+    "சதர்ன்",
+    "புரதப் புள்ளிக் கறையாக்கம்"
+   ],
+   "e_ta": "சதர்ன் கறையாக்கம் DNA-வின் இருப்பு, படி எண்ணிக்கை, ஒருங்கிணைப்பு அமைப்பைக் காட்டுகிறது."
   }
  ],
  "crispr_gene_editing_app.html": [
@@ -1807,7 +1967,15 @@
     "Cascade RNA Interference System for Protein Repair"
    ],
    "a": 0,
-   "e": "CRISPR stands for Clustered Regularly Interspaced Short Palindromic Repeats — sequences found in bacterial genomes as part of their immune system."
+   "e": "CRISPR stands for Clustered Regularly Interspaced Short Palindromic Repeats — sequences found in bacterial genomes as part of their immune system.",
+   "q_ta": "CRISPR என்பதன் விரிவு என்ன?",
+   "o_ta": [
+    "தொகுப்பாகக் குழுமிய, வழக்கமான இடைவெளி கொண்ட குறுகிய பாலிண்ட்ரோம் மீள்வரிசைகள் (Clustered Regularly Interspaced Short Palindromic Repeats)",
+    "துல்லிய ஒழுங்குபாட்டுக்கான கட்டுப்படுத்தப்பட்ட RNA உட்செருகல் அமைப்பு",
+    "ஒருங்கிணைந்த குறுகிய பாலிண்ட்ரோம் RNA-வின் குளோனிங்கும் இரட்டிப்பும்",
+    "புரதப் பழுதுபார்ப்புக்கான அடுக்கு RNA குறுக்கீட்டு அமைப்பு"
+   ],
+   "e_ta": "CRISPR என்பது தொகுப்பாகக் குழுமிய, வழக்கமான இடைவெளி கொண்ட குறுகிய பாலிண்ட்ரோம் மீள்வரிசைகள் — பாக்டீரியா மரபணுத்தொகைகளில் அவற்றின் நோய் எதிர்ப்பு அமைப்பின் பகுதியாகக் காணப்படும் வரிசைகள்."
   },
   {
    "q": "What is the natural function of CRISPR in bacteria?",
@@ -1818,7 +1986,15 @@
     "To produce antibiotics against competing bacteria"
    ],
    "a": 1,
-   "e": "CRISPR is the bacterial adaptive immune system. It stores viral DNA sequences as spacers, and on re-infection, uses them to guide Cas proteins to cut and destroy viral DNA."
+   "e": "CRISPR is the bacterial adaptive immune system. It stores viral DNA sequences as spacers, and on re-infection, uses them to guide Cas proteins to cut and destroy viral DNA.",
+   "q_ta": "பாக்டீரியாவில் CRISPR-இன் இயற்கைச் செயல் என்ன?",
+   "o_ta": [
+    "பாக்டீரியா விரைவாகப் பிரிய உதவுதல்",
+    "வைரஸ் தொற்றுக்கு எதிரான தகவமைப்பு நோய் எதிர்ப்பு அமைப்பாகச் செயல்படுதல்",
+    "பட்டினியின்போது ஆற்றலைச் சேமித்தல்",
+    "போட்டி பாக்டீரியாக்களுக்கு எதிராக நுண்ணுயிர்க்கொல்லிகளை உருவாக்குதல்"
+   ],
+   "e_ta": "CRISPR என்பது பாக்டீரியாவின் தகவமைப்பு நோய் எதிர்ப்பு அமைப்பு. இது வைரஸ் DNA வரிசைகளை இடைவெளிகளாகச் சேமித்து, மீண்டும் தொற்றும்போது Cas புரதங்களை வைரஸ் DNA-வை வெட்டி அழிக்க வழிநடத்தப் பயன்படுத்துகிறது."
   },
   {
    "q": "Which enzyme acts as the 'molecular scissors' in CRISPR gene editing?",
@@ -1829,7 +2005,15 @@
     "Restriction endonuclease EcoRI"
    ],
    "a": 1,
-   "e": "Cas9 (CRISPR-Associated Protein 9) is the nuclease enzyme that creates a double-strand break in DNA at the site directed by the guide RNA."
+   "e": "Cas9 (CRISPR-Associated Protein 9) is the nuclease enzyme that creates a double-strand break in DNA at the site directed by the guide RNA.",
+   "q_ta": "CRISPR மரபணுத் திருத்தத்தில் 'மூலக்கூறுக் கத்தரிகளாக' செயல்படும் நொதி எது?",
+   "o_ta": [
+    "லைகேஸ்",
+    "Cas9",
+    "பாலிமெரேஸ்",
+    "கட்டுறு எண்டோநியுக்ளியேஸ் EcoRI"
+   ],
+   "e_ta": "Cas9 (CRISPR-தொடர்புடைய புரதம் 9) என்பது வழிகாட்டி RNA சுட்டும் இடத்தில் DNA-வில் இரட்டை இழை முறிவை உருவாக்கும் நியுக்ளியேஸ் நொதி."
   },
   {
    "q": "What is the function of the guide RNA (gRNA) in CRISPR-Cas9?",
@@ -1840,7 +2024,15 @@
     "To transcribe the therapeutic protein"
    ],
    "a": 2,
-   "e": "The gRNA (~20 nucleotides) is complementary to the target DNA sequence and acts as a molecular GPS, guiding Cas9 to the precise location in the genome."
+   "e": "The gRNA (~20 nucleotides) is complementary to the target DNA sequence and acts as a molecular GPS, guiding Cas9 to the precise location in the genome.",
+   "q_ta": "CRISPR-Cas9-இல் வழிகாட்டி RNA-வின் (gRNA) செயல் என்ன?",
+   "o_ta": [
+    "இலக்கு இடத்தில் DNA-வை வெட்டுதல்",
+    "வெட்டிய பின் DNA-வைப் பழுதுபார்த்தல்",
+    "Cas9-ஐக் குறிப்பிட்ட இலக்கு DNA வரிசைக்கு வழிநடத்துதல்",
+    "சிகிச்சைப் புரதத்தைப் படியெடுத்தல்"
+   ],
+   "e_ta": "gRNA (~20 நியுக்ளியோடைடுகள்) இலக்கு DNA வரிசைக்கு நிரப்பியாக இருந்து, மூலக்கூறு GPS போலச் செயல்பட்டு Cas9-ஐ மரபணுத்தொகையின் துல்லிய இடத்துக்கு வழிநடத்துகிறது."
   },
   {
    "q": "What is the PAM sequence recognised by SpCas9?",
@@ -1851,7 +2043,15 @@
     "5′-TATA-3′"
    ],
    "a": 1,
-   "e": "The PAM sequence for Streptococcus pyogenes Cas9 (SpCas9) is 5′-NGG-3′ (where N = any nucleotide). This sequence must be present adjacent to the target site for Cas9 to bind and cut."
+   "e": "The PAM sequence for Streptococcus pyogenes Cas9 (SpCas9) is 5′-NGG-3′ (where N = any nucleotide). This sequence must be present adjacent to the target site for Cas9 to bind and cut.",
+   "q_ta": "SpCas9 அடையாளம் காணும் PAM வரிசை எது?",
+   "o_ta": [
+    "5′-ATG-3′",
+    "5′-NGG-3′",
+    "5′-AATAAA-3′",
+    "5′-TATA-3′"
+   ],
+   "e_ta": "Streptococcus pyogenes Cas9-இன் (SpCas9) PAM வரிசை 5′-NGG-3′ (N = ஏதேனும் நியுக்ளியோடைடு). Cas9 பிணைந்து வெட்ட, இவ்வரிசை இலக்கு இடத்தை ஒட்டி இருக்க வேண்டும்."
   },
   {
    "q": "NHEJ (Non-Homologous End Joining) repair after a CRISPR cut typically results in:",
@@ -1862,7 +2062,15 @@
     "Random insertions or deletions (indels), causing gene disruption"
    ],
    "a": 3,
-   "e": "NHEJ is an error-prone repair pathway that randomly rejoins the broken DNA ends, introducing small insertions or deletions (indels) — typically causing a frameshift mutation that disrupts gene function (knockout)."
+   "e": "NHEJ is an error-prone repair pathway that randomly rejoins the broken DNA ends, introducing small insertions or deletions (indels) — typically causing a frameshift mutation that disrupts gene function (knockout).",
+   "q_ta": "CRISPR வெட்டுக்குப் பின் NHEJ (ஹோமாலஜியற்ற முனை இணைப்பு) பழுதுபார்ப்பு வழக்கமாக விளைவிப்பது:",
+   "o_ta": [
+    "துல்லிய மரபணுத் திருத்தம்",
+    "புதிய மரபணுவின் உட்செருகல்",
+    "இலக்கு மரபணுவின் இரட்டிப்பு",
+    "தற்போக்கு உட்செருகல்கள் அல்லது நீக்கங்கள் (இண்டெல்கள்); மரபணுச் சிதைவு"
+   ],
+   "e_ta": "NHEJ என்பது பிழை-வாய்ப்புள்ள பழுதுபார்ப்புப் பாதை; உடைந்த DNA முனைகளைத் தற்போக்காக இணைத்து, சிறிய உட்செருகல்கள் அல்லது நீக்கங்களை (இண்டெல்கள்) உண்டாக்கும் — பொதுவாக மரபணுச் செயலைச் சிதைக்கும் சட்ட நகர்வுத் திடீர்மாற்றம் (மரபணு நீக்கம்) ஏற்படும்."
   },
   {
    "q": "Which DNA repair pathway is used for precise gene correction when a donor template is provided?",
@@ -1873,7 +2081,15 @@
     "NER (Nucleotide Excision Repair)"
    ],
    "a": 0,
-   "e": "HDR (Homology-Directed Repair) uses a provided donor DNA template to repair the cut site with precision — enabling gene correction or insertion of a new sequence."
+   "e": "HDR (Homology-Directed Repair) uses a provided donor DNA template to repair the cut site with precision — enabling gene correction or insertion of a new sequence.",
+   "q_ta": "கொடையாளி வார்ப்புரு தரப்படும்போது துல்லிய மரபணுத் திருத்தத்துக்குப் பயன்படும் DNA பழுதுபார்ப்புப் பாதை எது?",
+   "o_ta": [
+    "HDR (ஹோமாலஜி வழிநடத்தும் பழுதுபார்ப்பு)",
+    "NHEJ (ஹோமாலஜியற்ற முனை இணைப்பு)",
+    "BER (காரம் வெட்டிநீக்கப் பழுதுபார்ப்பு)",
+    "NER (நியுக்ளியோடைடு வெட்டிநீக்கப் பழுதுபார்ப்பு)"
+   ],
+   "e_ta": "HDR (ஹோமாலஜி வழிநடத்தும் பழுதுபார்ப்பு) தரப்படும் கொடையாளி DNA வார்ப்புருவைக் கொண்டு வெட்டிய இடத்தைத் துல்லியமாகப் பழுதுபார்க்கிறது — மரபணுத் திருத்தம் அல்லது புதிய வரிசையின் உட்செருகலை இயலச்செய்கிறது."
   },
   {
    "q": "In 2023, the first approved CRISPR-based gene therapy (Casgevy) was developed for which disease?",
@@ -1884,7 +2100,15 @@
     "Huntington's Disease"
    ],
    "a": 2,
-   "e": "Casgevy was approved by the UK MHRA and US FDA in 2023 for sickle cell disease and beta-thalassaemia, marking the first approved CRISPR-based human therapy."
+   "e": "Casgevy was approved by the UK MHRA and US FDA in 2023 for sickle cell disease and beta-thalassaemia, marking the first approved CRISPR-based human therapy.",
+   "q_ta": "2023-இல் அங்கீகரிக்கப்பட்ட முதல் CRISPR அடிப்படை மரபணு சிகிச்சை (Casgevy) எந்த நோய்க்காக உருவாக்கப்பட்டது?",
+   "o_ta": [
+    "நீர்மத்தடிமன் (சிஸ்டிக் ஃபைப்ரோசிஸ்)",
+    "ஹீமோஃபீலியா A",
+    "அரிவாள் செல் நோய், பீட்டா-தலசீமியா",
+    "ஹண்டிங்டன் நோய்"
+   ],
+   "e_ta": "Casgevy 2023-இல் இங்கிலாந்தின் MHRA-வாலும் அமெரிக்காவின் FDA-வாலும் அரிவாள் செல் நோய், பீட்டா-தலசீமியாவுக்காக அங்கீகரிக்கப்பட்டது; இது அங்கீகரிக்கப்பட்ட முதல் CRISPR அடிப்படை மனித சிகிச்சை."
   },
   {
    "q": "The Nobel Prize in Chemistry 2020 for CRISPR-Cas9 was awarded to:",
@@ -1895,7 +2119,15 @@
     "Jennifer Doudna and Emmanuelle Charpentier"
    ],
    "a": 3,
-   "e": "Jennifer Doudna (UC Berkeley) and Emmanuelle Charpentier (Max Planck Institute) received the 2020 Nobel Prize in Chemistry for developing CRISPR-Cas9 as a precision gene-editing tool."
+   "e": "Jennifer Doudna (UC Berkeley) and Emmanuelle Charpentier (Max Planck Institute) received the 2020 Nobel Prize in Chemistry for developing CRISPR-Cas9 as a precision gene-editing tool.",
+   "q_ta": "CRISPR-Cas9-க்கான 2020 வேதியியல் நோபல் பரிசு யாருக்கு வழங்கப்பட்டது?",
+   "o_ta": [
+    "ஜேம்ஸ் வாட்சன், ஃபிரான்சிஸ் கிரிக்",
+    "ஃபெங் ஜாங், ஜார்ஜ் சர்ச்",
+    "பால் பெர்க், ஹெர்பர்ட் பாயர்",
+    "ஜெனிஃபர் டௌட்னா, இமானுவேல் சார்ப்பென்டியே"
+   ],
+   "e_ta": "CRISPR-Cas9-ஐத் துல்லிய மரபணுத் திருத்தக் கருவியாக உருவாக்கியதற்காக ஜெனிஃபர் டௌட்னாவும் (UC பெர்க்லி) இமானுவேல் சார்ப்பென்டியேவும் (மாக்ஸ் பிளாங்க் நிறுவனம்) 2020 வேதியியல் நோபல் பரிசு பெற்றனர்."
   },
   {
    "q": "Why is CRISPR germline editing considered more ethically concerning than somatic editing?",
@@ -1906,7 +2138,15 @@
     "Germline editing affects only the treated patient"
    ],
    "a": 0,
-   "e": "Germline editing modifies eggs, sperm, or embryos — making the genetic changes heritable. Every future descendant of the edited individual will carry the change, raising profound ethical concerns about consent and unintended consequences."
+   "e": "Germline editing modifies eggs, sperm, or embryos — making the genetic changes heritable. Every future descendant of the edited individual will carry the change, raising profound ethical concerns about consent and unintended consequences.",
+   "q_ta": "உடல் செல் திருத்தத்தைவிட CRISPR இனச்செல் திருத்தம் நெறிமுறை ரீதியாக ஏன் அதிகக் கவலைக்குரியது?",
+   "o_ta": [
+    "இனச்செல் திருத்தம் எதிர்காலத் தலைமுறைகள் அனைத்தையும் பாதிக்கும் மரபுவழி மாற்றங்களை உருவாக்குகிறது",
+    "இனச்செல் திருத்தம் உடல் செல் திருத்தத்தைவிடத் திறன் குறைந்தது",
+    "இனச்செல் திருத்தம் உடல் செல் திருத்தத்தைவிட அதிகச் செலவாகும்",
+    "இனச்செல் திருத்தம் சிகிச்சை பெற்ற நோயாளியை மட்டுமே பாதிக்கிறது"
+   ],
+   "e_ta": "இனச்செல் திருத்தம் முட்டைகள், விந்துகள் அல்லது கருக்களை மாற்றுகிறது — மரபணு மாற்றங்களை மரபுவழியாக்குகிறது. திருத்தப்பட்ட நபரின் எதிர்காலச் சந்ததிகள் அனைத்தும் அம்மாற்றத்தைச் சுமக்கும்; இது ஒப்புதல், எதிர்பாரா விளைவுகள் குறித்த ஆழ்ந்த நெறிமுறைக் கவலைகளை எழுப்புகிறது."
   }
  ],
  "dna_library_genomic_cdna.html": [
@@ -1919,7 +2159,15 @@
     "A physical building where DNA samples are stored at low temperatures"
    ],
    "a": 0,
-   "e": "A DNA library is a collection of cloned DNA fragments, each carried in a vector and maintained in a population of host cells (usually E. coli). Together, the clones represent all or most of the genetic information of the source organism."
+   "e": "A DNA library is a collection of cloned DNA fragments, each carried in a vector and maintained in a population of host cells (usually E. coli). Together, the clones represent all or most of the genetic information of the source organism.",
+   "q_ta": "DNA நூலகம் என்றால் என்ன?",
+   "o_ta": [
+    "மூல உயிரினத்தின் மரபணுத்தொகையைப் பிரதிபலிக்கும், விருந்தோம்பி செல்களில் பராமரிக்கப்படும் தாங்கிக்கடத்திகளிலுள்ள குளோனிடப்பட்ட DNA துண்டுகளின் தொகுப்பு",
+    "கணினிகளில் சேமிக்கப்பட்ட DNA வரிசைகளின் எண்ணிம தரவுத்தளம்",
+    "மரபணுப் பொறியியலில் பயன்படும் தூய்மையாக்கப்பட்ட DNA நொதிகளின் தொகுப்பு",
+    "DNA மாதிரிகள் குறைந்த வெப்பநிலையில் சேமிக்கப்படும் இயற்பியல் கட்டடம்"
+   ],
+   "e_ta": "DNA நூலகம் என்பது ஒவ்வொன்றும் ஒரு தாங்கிக்கடத்தியில் சுமக்கப்பட்டு, விருந்தோம்பி செல் தொகையில் (வழக்கமாக E. coli) பராமரிக்கப்படும் குளோனிடப்பட்ட DNA துண்டுகளின் தொகுப்பு. ஒன்றாக, அக்குளோன்கள் மூல உயிரினத்தின் அனைத்து அல்லது பெரும்பாலான மரபுத் தகவலைப் பிரதிபலிக்கின்றன."
   },
   {
    "q": "What is the primary source of DNA for constructing a genomic DNA library?",
@@ -1930,7 +2178,15 @@
     "Ribosomal RNA (rRNA)"
    ],
    "a": 2,
-   "e": "A genomic DNA library is constructed from total genomic DNA isolated from any nucleated cell of the organism. All cells contain the same genomic DNA regardless of tissue type."
+   "e": "A genomic DNA library is constructed from total genomic DNA isolated from any nucleated cell of the organism. All cells contain the same genomic DNA regardless of tissue type.",
+   "q_ta": "மரபணுத்தொகைய DNA நூலகத்தை உருவாக்க DNA-வின் முதன்மை மூலம் எது?",
+   "o_ta": [
+    "குறிப்பிட்ட திசுவிலிருந்து பிரித்தெடுத்த mRNA",
+    "மைட்டோகாண்ட்ரிய DNA மட்டும்",
+    "உட்கரு கொண்ட எந்தச் செல்லிலிருந்தும் பெற்ற மொத்த மரபணுத்தொகைய DNA",
+    "ரைபோசோம் RNA (rRNA)"
+   ],
+   "e_ta": "மரபணுத்தொகைய DNA நூலகம் உயிரினத்தின் உட்கரு கொண்ட எந்தச் செல்லிலிருந்தும் பிரித்தெடுத்த மொத்த மரபணுத்தொகைய DNA-விலிருந்து உருவாக்கப்படுகிறது. திசு வகை எதுவாயினும் அனைத்துச் செல்களிலும் ஒரே மரபணுத்தொகைய DNA உள்ளது."
   },
   {
    "q": "Which enzyme is central to the construction of a cDNA library?",
@@ -1941,7 +2197,15 @@
     "DNA Polymerase III"
    ],
    "a": 0,
-   "e": "Reverse transcriptase (RNA-dependent DNA polymerase) is the key enzyme in cDNA library construction. It synthesises complementary DNA (cDNA) from mRNA templates, allowing expressed genes to be captured as DNA."
+   "e": "Reverse transcriptase (RNA-dependent DNA polymerase) is the key enzyme in cDNA library construction. It synthesises complementary DNA (cDNA) from mRNA templates, allowing expressed genes to be captured as DNA.",
+   "q_ta": "cDNA நூலக உருவாக்கத்தில் மையமான நொதி எது?",
+   "o_ta": [
+    "தலைகீழ் படியெடுப்பி",
+    "DNA லைகேஸ்",
+    "கட்டுறு எண்டோநியுக்ளியேஸ்",
+    "DNA பாலிமெரேஸ் III"
+   ],
+   "e_ta": "தலைகீழ் படியெடுப்பி (RNA சார்ந்த DNA பாலிமெரேஸ்) cDNA நூலக உருவாக்கத்தின் முக்கிய நொதி. இது mRNA வார்ப்புருக்களிலிருந்து நிரப்பு DNA-வை (cDNA) தொகுத்து, வெளிப்படுத்தப்பட்ட மரபணுக்களை DNA-வாகப் பிடிக்க உதவுகிறது."
   },
   {
    "q": "Why is a cDNA library tissue-specific while a genomic library is not?",
@@ -1952,7 +2216,15 @@
     "Because cDNA is derived from mRNA, which reflects only the genes actively expressed in that specific tissue or condition"
    ],
    "a": 3,
-   "e": "A cDNA library is built from mRNA, which represents only the genes being actively transcribed in a specific tissue at a specific time. Different tissues express different sets of genes. Genomic DNA is identical in all cells of an organism."
+   "e": "A cDNA library is built from mRNA, which represents only the genes being actively transcribed in a specific tissue at a specific time. Different tissues express different sets of genes. Genomic DNA is identical in all cells of an organism.",
+   "q_ta": "மரபணுத்தொகைய நூலகம் அவ்வாறில்லாதபோது cDNA நூலகம் ஏன் திசு சார்ந்தது?",
+   "o_ta": [
+    "வெவ்வேறு திசுக்களில் cDNA நூலகங்கள் வெவ்வேறு கட்டுறு நொதிகளைப் பயன்படுத்துவதால்",
+    "வெவ்வேறு செல் வகைகளில் மரபணுத்தொகைய DNA வேறுபடுவதால்",
+    "cDNA நூலகங்களுக்கான தாங்கிக்கடத்திகள் குறிப்பிட்ட திசுக்களில் மட்டுமே உயிர்வாழ்வதால்",
+    "cDNA, அத்திசுவில் அல்லது நிலையில் செயல்படும் மரபணுக்களை மட்டுமே பிரதிபலிக்கும் mRNA-விலிருந்து பெறப்படுவதால்"
+   ],
+   "e_ta": "cDNA நூலகம் mRNA-விலிருந்து உருவாக்கப்படுகிறது; இது குறிப்பிட்ட திசுவில், குறிப்பிட்ட நேரத்தில் செயலில் படியெடுக்கப்படும் மரபணுக்களை மட்டுமே பிரதிபலிக்கிறது. வெவ்வேறு திசுக்கள் வெவ்வேறு மரபணுத் தொகுதிகளை வெளிப்படுத்துகின்றன. உயிரினத்தின் அனைத்துச் செல்களிலும் மரபணுத்தொகைய DNA ஒன்றே."
   },
   {
    "q": "What is the function of oligo-dT cellulose chromatography in cDNA library construction?",
@@ -1963,7 +2235,15 @@
     "To ligate cDNA into the vector"
    ],
    "a": 1,
-   "e": "Oligo-dT cellulose columns selectively bind the poly-A tail of eukaryotic mRNA through complementary base pairing (A-T). rRNA and tRNA, which lack poly-A tails, pass through the column unbound, allowing purification of mRNA."
+   "e": "Oligo-dT cellulose columns selectively bind the poly-A tail of eukaryotic mRNA through complementary base pairing (A-T). rRNA and tRNA, which lack poly-A tails, pass through the column unbound, allowing purification of mRNA.",
+   "q_ta": "cDNA நூலக உருவாக்கத்தில் oligo-dT செல்லுலோஸ் நிறப்பிரிகையின் செயல் என்ன?",
+   "o_ta": [
+    "மரபணுத்தொகைய DNA-வைச் சிறு துண்டுகளாக்க",
+    "மொத்த RNA-விலிருந்து பாலி-A mRNA-வைத் தேர்ந்து தூய்மையாக்க",
+    "PCR மூலம் cDNA-வைப் பெருக்க",
+    "cDNA-வைத் தாங்கிக்கடத்தியில் இணைக்க"
+   ],
+   "e_ta": "oligo-dT செல்லுலோஸ் நிரல்கள் மெய்யுட்கருவுயிரி mRNA-வின் பாலி-A வாலை நிரப்பு காரச் சோடிசேர்ப்பு (A-T) மூலம் தேர்ந்து பிணைக்கின்றன. பாலி-A வால் இல்லாத rRNA, tRNA ஆகியவை பிணைக்கப்படாமல் நிரல் வழியாகச் சென்றுவிடுவதால் mRNA தூய்மையாகிறது."
   },
   {
    "q": "Why does a cDNA library NOT contain introns?",
@@ -1974,7 +2254,15 @@
     "Because cDNA is made from processed mRNA from which introns have already been spliced out"
    ],
    "a": 3,
-   "e": "mRNA is the result of transcription followed by RNA processing (splicing), which removes introns. cDNA is made by copying this processed mRNA, so it contains only exon sequences — no introns are present in cDNA."
+   "e": "mRNA is the result of transcription followed by RNA processing (splicing), which removes introns. cDNA is made by copying this processed mRNA, so it contains only exon sequences — no introns are present in cDNA.",
+   "q_ta": "cDNA நூலகத்தில் இன்ட்ரான்கள் ஏன் இல்லை?",
+   "o_ta": [
+    "குளோனிங்குக்கு முன் இன்ட்ரான்கள் கட்டுறு நொதிகளால் நீக்கப்படுவதால்",
+    "தலைகீழ் படியெடுப்பியால் இன்ட்ரான் வரிசைகளை நகலெடுக்க இயலாததால்",
+    "மரபணுத்தொகைய DNA-வில் குறியீட்டு வரிசைகள் மட்டுமே இருப்பதால்",
+    "cDNA, இன்ட்ரான்கள் ஏற்கெனவே பிளவுபடுத்தி நீக்கப்பட்ட செயலாக்கப்பட்ட mRNA-விலிருந்து உருவாக்கப்படுவதால்"
+   ],
+   "e_ta": "mRNA என்பது படியெடுப்புக்குப் பின் RNA செயலாக்கத்தின் (பிளவுறுத்தல்) விளைவு; இது இன்ட்ரான்களை நீக்குகிறது. இச்செயலாக்கப்பட்ட mRNA-வை நகலெடுத்து cDNA உருவாக்கப்படுவதால் அதில் எக்சான் வரிசைகள் மட்டுமே உள்ளன — இன்ட்ரான்கள் இல்லை."
   },
   {
    "q": "What is the correct order of steps in cDNA synthesis?",
@@ -1985,7 +2273,15 @@
     "Genomic DNA isolation → restriction digestion → packaging → infection of E. coli"
    ],
    "a": 2,
-   "e": "cDNA synthesis proceeds: (1) mRNA isolation (oligo-dT purification); (2) First-strand synthesis by reverse transcriptase (oligo-dT primer + RT → mRNA:cDNA hybrid); (3) mRNA removal by RNase H; (4) Second-strand synthesis by DNA Polymerase I; (5) Ligation into vector and transformation."
+   "e": "cDNA synthesis proceeds: (1) mRNA isolation (oligo-dT purification); (2) First-strand synthesis by reverse transcriptase (oligo-dT primer + RT → mRNA:cDNA hybrid); (3) mRNA removal by RNase H; (4) Second-strand synthesis by DNA Polymerase I; (5) Ligation into vector and transformation.",
+   "q_ta": "cDNA தொகுப்பின் சரியான படி வரிசை எது?",
+   "o_ta": [
+    "DNA பிரித்தெடுத்தல் → கட்டுறு நொதிச் செரிமானம் → இணைப்பு → உருமாற்றம்",
+    "mRNA பிரித்தெடுத்தல் → PCR பெருக்கம் → ஜெல் மின்னொட்டம் → வரிசையாக்கம்",
+    "mRNA பிரித்தெடுத்தல் → முதல் இழை cDNA தொகுப்பு → mRNA நீக்கம் → இரண்டாம் இழைத் தொகுப்பு → தாங்கிக்கடத்தியில் இணைப்பு",
+    "மரபணுத்தொகைய DNA பிரித்தெடுத்தல் → கட்டுறு நொதிச் செரிமானம் → பொதிவு → E. coli தொற்று"
+   ],
+   "e_ta": "cDNA தொகுப்பு: (1) mRNA பிரித்தெடுத்தல் (oligo-dT தூய்மையாக்கம்); (2) தலைகீழ் படியெடுப்பியால் முதல் இழைத் தொகுப்பு (oligo-dT பிரைமர் + RT → mRNA:cDNA கலப்பினம்); (3) RNase H-ஆல் mRNA நீக்கம்; (4) DNA பாலிமெரேஸ் I-ஆல் இரண்டாம் இழைத் தொகுப்பு; (5) தாங்கிக்கடத்தியில் இணைப்பும் உருமாற்றமும்."
   },
   {
    "q": "Which vector would be most appropriate for constructing a genomic library of a large organism like humans?",
@@ -1996,7 +2292,15 @@
     "A simple cosmid only"
    ],
    "a": 0,
-   "e": "The human genome is ~3.2 Gb. YACs can accept 200–2,000 kb of DNA, making them ideal for constructing complete genomic libraries of large genomes. Standard plasmids (<10 kb) and lambda phage (~23 kb) would require millions of clones each."
+   "e": "The human genome is ~3.2 Gb. YACs can accept 200–2,000 kb of DNA, making them ideal for constructing complete genomic libraries of large genomes. Standard plasmids (<10 kb) and lambda phage (~23 kb) would require millions of clones each.",
+   "q_ta": "மனிதர் போன்ற பெரிய உயிரினத்தின் மரபணுத்தொகைய நூலகத்தை உருவாக்க மிகப் பொருத்தமான தாங்கிக்கடத்தி எது?",
+   "o_ta": [
+    "YAC (ஈஸ்ட் செயற்கை நிறமூர்த்தம்)",
+    "நிலையான பிளாஸ்மிடு (எ.கா. pUC19)",
+    "M13 பாஜ்",
+    "எளிய காஸ்மிடு மட்டும்"
+   ],
+   "e_ta": "மனித மரபணுத்தொகை ~3.2 Gb. YAC-கள் 200–2,000 kb DNA-வை ஏற்பதால் பெரிய மரபணுத்தொகைகளின் முழு நூலகங்களை உருவாக்க இலட்சியமானவை. நிலையான பிளாஸ்மிடுகளுக்கும் (<10 kb) லாம்டா பாஜுக்கும் (~23 kb) ஒவ்வொன்றுக்கும் மில்லியன் கணக்கான குளோன்கள் தேவைப்படும்."
   },
   {
    "q": "What does the Clarke-Carbon formula calculate?",
@@ -2007,7 +2311,15 @@
     "The efficiency of transformation of E. coli"
    ],
    "a": 1,
-   "e": "The Clarke-Carbon formula N = ln(1−P) / ln(1−f) calculates the minimum number of clones (N) required to achieve a probability (P, usually 0.99) of finding any given sequence in a genomic library, where f is the fractional size of each insert relative to the total genome."
+   "e": "The Clarke-Carbon formula N = ln(1−P) / ln(1−f) calculates the minimum number of clones (N) required to achieve a probability (P, usually 0.99) of finding any given sequence in a genomic library, where f is the fractional size of each insert relative to the total genome.",
+   "q_ta": "கிளார்க்–கார்பன் சூத்திரம் எதைக் கணக்கிடுகிறது?",
+   "o_ta": [
+    "DNA துண்டின் மூலக்கூறு எடை",
+    "குறிப்பிட்ட நிகழ்தகவுடன் முழு மரபணுத்தொகையை நூலகத்தில் பிரதிநிதித்துவப்படுத்தத் தேவையான குளோன்களின் எண்ணிக்கை",
+    "மரபணுத்தொகையிலுள்ள கட்டுறு நொதி இடங்களின் எண்ணிக்கை",
+    "E. coli உருமாற்றத் திறன்"
+   ],
+   "e_ta": "கிளார்க்–கார்பன் சூத்திரம் N = ln(1−P) / ln(1−f), மரபணுத்தொகைய நூலகத்தில் எந்த வரிசையையும் காணும் நிகழ்தகவை (P, வழக்கமாக 0.99) அடையத் தேவையான குறைந்தபட்சக் குளோன்களின் எண்ணிக்கையை (N) கணக்கிடுகிறது; இங்கு f என்பது மொத்த மரபணுத்தொகையுடன் ஒப்பிடும் ஒவ்வோர் உட்செருகின் பின்ன அளவு."
   },
   {
    "q": "A researcher wants to produce human insulin using bacteria. Which library would be most appropriate to use as the source of the insulin gene?",
@@ -2018,7 +2330,15 @@
     "A lambda phage genomic library from human liver"
    ],
    "a": 2,
-   "e": "A cDNA library from pancreatic beta cells (which highly express insulin) is ideal. The insulin cDNA lacks introns — bacteria cannot splice introns. The genomic insulin gene contains introns and cannot be correctly expressed in E. coli. This is exactly how recombinant human insulin was produced (approved 1982)."
+   "e": "A cDNA library from pancreatic beta cells (which highly express insulin) is ideal. The insulin cDNA lacks introns — bacteria cannot splice introns. The genomic insulin gene contains introns and cannot be correctly expressed in E. coli. This is exactly how recombinant human insulin was produced (approved 1982).",
+   "q_ta": "ஆய்வாளர் பாக்டீரியாவைக் கொண்டு மனித இன்சுலினை உருவாக்க விரும்புகிறார். இன்சுலின் மரபணுவுக்கான மூலமாக எந்த நூலகம் மிகப் பொருத்தம்?",
+   "o_ta": [
+    "மனித மரபணுத்தொகைய நூலகம்",
+    "ஈஸ்ட் மரபணுத்தொகைய நூலகம்",
+    "மனிதக் கணையத்தின் பீட்டா செல்களிலிருந்து தயாரித்த cDNA நூலகம்",
+    "மனிதக் கல்லீரலிலிருந்து தயாரித்த லாம்டா பாஜ் மரபணுத்தொகைய நூலகம்"
+   ],
+   "e_ta": "இன்சுலினை மிகுதியாக வெளிப்படுத்தும் கணைய பீட்டா செல்களின் cDNA நூலகம் இலட்சியமானது. இன்சுலின் cDNA-வில் இன்ட்ரான்கள் இல்லை — பாக்டீரியாவால் இன்ட்ரான்களைப் பிளக்க இயலாது. மரபணுத்தொகைய இன்சுலின் மரபணுவில் இன்ட்ரான்கள் இருப்பதால் E. coli-இல் சரியாக வெளிப்படுத்த இயலாது. மறுசேர்க்கை மனித இன்சுலின் (1982-இல் அங்கீகரிக்கப்பட்டது) இவ்வாறே உருவாக்கப்பட்டது."
   }
  ],
  "enzymes_genetic_engineering.html": [
