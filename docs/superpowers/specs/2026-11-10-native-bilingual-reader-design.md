@@ -1,7 +1,7 @@
 # Native bilingual (EN/TA) chapter reader: design spec
 
 Date: 2026-11-10 · Owner: Dr. R. Ramesh, Dept. of Zoology, GASC, Nagercoil
-Status: DRAFT v2 (revised after owner review comments), awaiting owner review. No implementation plan until approved.
+Status: APPROVED at v2 (commit 7f0674c) with two additions (v3, below). Plan: docs/superpowers/plans/2026-11-10-native-bilingual-reader.md
 
 ## 1. Goal and success criteria
 
@@ -79,7 +79,7 @@ Block types: `p` (paragraph with inline `**bold**` and `_italic_`), `bullets`, `
 4. Tamil is added into the same JSON (`ta`, `ta_status=draft`). Terms follow Tamil Nadu State Board Biology/Zoology textbook usage; where no standard word is known, `ta` shows Tamil followed by the English term in brackets and `ta_status=bracketed`.
 
 ### 4.3 Diagrams
-- Each of the Unit I diagrams (about 40) is audited against the source science, then rebuilt as a Compose `Canvas` composable with bilingual labels (labels come from the schema, not hard-coded).
+- Each Unit I diagram is audited. A first regex count of inline `<svg>` elements in the six pilot files gives 32 (vectors 4, advanced vectors 4, DNA library 9, Atlas I 15; Fundamentals and Enzymes 0); the M2 inventory is authoritative and replaces this figure. Each is audited against the source science, then rebuilt as a Compose `Canvas` composable with bilingual labels (labels come from the schema, not hard-coded).
 - Audit findings and any corrections are logged in `docs/audit/unit1-diagrams.md` with before/after notes.
 - Chapters with no diagrams (Enzymes, Fundamentals) get new original diagrams (e.g. restriction cut types, biotechnology branches). No third-party artwork is copied. If a photograph is genuinely needed it must be Wikimedia Commons CC0/CC-BY with attribution recorded in `docs/audit/credits.md`; none is assumed.
 - Rendering is vector, theme-aware, and respects the text-size setting.
@@ -128,11 +128,12 @@ Each milestone is one commit (or small PR) that must build green in GitHub Actio
 | # | Milestone | Touches | Build state |
 |---|---|---|---|
 | M1 | Schema and types: `Model.kt`, `Lang.kt`, `ChapterRepo.kt` plus JVM unit tests. Not wired into the UI. | new files only | app behaves exactly as today |
-| M2 | Extractor (`tools/`, Python) with its own unit tests; generates English JSON for the six Unit I files; extract report. JSON added to assets but unused. | tools/, assets | app unchanged |
-| M3 | Tamil layer in the JSON plus review CSV; schema and coverage validator in CI-less Python check. | assets, docs | app unchanged |
+| M2 | Extractor (`tools/`, Python) with its own unit tests; generates English JSON for the six Unit I files; extract report **including a diagram inventory**: every `<svg>` and `<figure>` in the six pilot files counted and listed (file, index, caption/id, rough element count), so M5 scope is verified against real data. JSON added to assets but unused. | tools/, assets | app unchanged |
+| M3 | Tamil for the six **chapter** JSON files, plus their review CSV; schema and coverage validator (Python). | assets, docs | app unchanged |
+| M3b | Tamil for **all 292 quiz questions** (question, four options, explanation), **all 29 revision sets** (title, key points, short answers, glossary terms and definitions) and **syllabus titles/notes**, authored inline as `*_ta` fields that the current parsers ignore, plus their review CSV (`docs/audit/tamil-review-quiz-revision.csv`). Data only. | assets, docs | app unchanged |
 | M4 | Reader UI (`LessonScreen` and block composables), language toggle. Unit I opens native; other topics still use the WebView. | ui/, MainActivity | both paths work |
 | M5 | Native diagrams for Unit I, audit log. | ui/diagram, docs | both paths work |
-| M6 | Bilingual quiz, revision, glossary, syllabus, search; fallback screen for topics without JSON. | existing screens | both paths work |
+| M6 | Screens consume the M3b `*_ta` fields: bilingual quiz, revision, glossary, syllabus, search; fallback screen for topics without JSON. No Tamil authoring happens in M6. | existing screens | both paths work |
 | M7 | WebView removal, last: delete `android.webkit` use and `assets/modules`, update proguard/README, version bump. | MainActivity, assets | final |
 
 The current workflow publishes a `latest` GitHub release on every push to any branch. Before M1, change `build-apk.yml` so the release step runs only on `main` (one-line `if:` condition), so milestone branches do not overwrite the released APK. This is part of M1.
