@@ -3119,7 +3119,15 @@
     "To select for transformed cells on agar plates"
    ],
    "a": 0,
-   "e": "CaCl₂ treatment destabilises the outer membrane and cell wall of bacteria, making cells 'competent' — capable of binding and internalising exogenous DNA. The subsequent heat shock (42°C) drives the DNA through temporary membrane disruptions into the cell."
+   "e": "CaCl₂ treatment destabilises the outer membrane and cell wall of bacteria, making cells 'competent' — capable of binding and internalising exogenous DNA. The subsequent heat shock (42°C) drives the DNA through temporary membrane disruptions into the cell.",
+   "q_ta": "பாக்டீரிய உருமாற்றத்தில் CaCl₂ சிகிச்சையின் முதன்மை நோக்கம் என்ன?",
+   "o_ta": [
+    "வெளிச்சவ்வை ஓரளவு சிதைத்து DNA உள்ளெடுப்பை அனுமதித்து, பாக்டீரியாவைத் திறன்மிக்கதாக்குதல்",
+    "DNA தயாரிப்பைக் கிருமிநீக்கம் செய்தல்",
+    "DNA லைகேஸுக்கு ஆற்றல் மூலத்தை வழங்குதல்",
+    "அகார் தட்டுகளில் உருமாறிய செல்களைத் தேர்ந்தெடுத்தல்"
+   ],
+   "e_ta": "CaCl₂ சிகிச்சை பாக்டீரியாவின் வெளிச்சவ்வையும் செல் சுவரையும் உறுதிகுலையச் செய்து, செல்களை 'திறன்மிக்கவை' ஆக்குகிறது — அதாவது புறத்தோற்ற DNA-வைப் பிணைத்து உள்ளெடுக்கும் திறன் பெறுகின்றன. அடுத்து 42°C வெப்ப அதிர்ச்சி தற்காலிகச் சவ்வுத் துளைகள் வழியாக DNA-வைச் செல்லுக்குள் செலுத்துகிறது."
   },
   {
    "q": "Which gene transfer method is MOST efficient for stable in vivo gene delivery in animal cells?",
@@ -3130,7 +3138,15 @@
     "Electroporation"
    ],
    "a": 1,
-   "e": "Transduction using viral vectors (especially AAV and lentiviral vectors) is the most efficient method for stable in vivo gene delivery. Viruses naturally evolved to efficiently infect cells and deliver their nucleic acids — efficiencies can exceed 90% in target cell types."
+   "e": "Transduction using viral vectors (especially AAV and lentiviral vectors) is the most efficient method for stable in vivo gene delivery. Viruses naturally evolved to efficiently infect cells and deliver their nucleic acids — efficiencies can exceed 90% in target cell types.",
+   "q_ta": "விலங்குச் செல்களில் நிலையான உடலக மரபணு விநியோகத்துக்கு மிகத் திறன்மிக்க மரபணு மாற்ற முறை எது?",
+   "o_ta": [
+    "கால்சியம் பாஸ்பேட் டிரான்ஸ்ஃபெக்ஷன்",
+    "வைரஸ் தாங்கிக்கடத்திகளைப் பயன்படுத்தும் கடத்தல்",
+    "நுண்ணூசி செலுத்தல்",
+    "மின்துளையிடல்"
+   ],
+   "e_ta": "வைரஸ் தாங்கிக்கடத்திகளைப் (குறிப்பாக AAV, லென்டிவைரல் தாங்கிக்கடத்திகள்) பயன்படுத்தும் கடத்தல் நிலையான உடலக மரபணு விநியோகத்துக்கு மிகத் திறன்மிக்க முறை. வைரஸ்கள் இயல்பாகவே செல்களைத் திறம்படத் தொற்றி தம் நியுக்ளிக் அமிலங்களைச் செலுத்தும்படி பரிணமித்தவை — இலக்குச் செல் வகைகளில் திறன் 90%-ஐயும் தாண்டலாம்."
   },
   {
    "q": "In electroporation, how does DNA enter the cell?",
@@ -3141,7 +3157,15 @@
     "A high-voltage electric pulse creates temporary pores in the plasma membrane through which DNA passes"
    ],
    "a": 3,
-   "e": "Electroporation uses a brief high-voltage electric pulse (0.1–10 kV/cm) to create temporary nanopores in the lipid bilayer. DNA enters through these transient pores by electrophoretic force and diffusion. Pores reseal spontaneously after the pulse."
+   "e": "Electroporation uses a brief high-voltage electric pulse (0.1–10 kV/cm) to create temporary nanopores in the lipid bilayer. DNA enters through these transient pores by electrophoretic force and diffusion. Pores reseal spontaneously after the pulse.",
+   "q_ta": "மின்துளையிடலில் DNA செல்லுக்குள் எவ்வாறு நுழைகிறது?",
+   "o_ta": [
+    "கண்ணாடி ஊசி மூலம் DNA இயந்திரவியல் முறையில் செலுத்தப்படுகிறது",
+    "DNA நேர்மின் கொழுப்புகளால் பூசப்பட்டு செல்சவ்வுடன் இணைகிறது",
+    "வைரஸ் உறைப் புரதம் செல்மேற்பரப்பு ஏற்பியுடன் பிணைகிறது",
+    "உயர்மின்னழுத்த மின்துடிப்பு பிளாஸ்மா சவ்வில் தற்காலிகத் துளைகளை உருவாக்க, அவற்றின் வழியாக DNA கடக்கிறது"
+   ],
+   "e_ta": "மின்துளையிடல் சுருக்கமான உயர்மின்னழுத்த மின்துடிப்பை (0.1–10 kV/cm) பயன்படுத்தி கொழுப்பு இரட்டை அடுக்கில் தற்காலிக நானோ துளைகளை உருவாக்குகிறது. மின்னியக்கவிசை, விரவல் மூலம் இத்தற்காலிகத் துளைகளினூடாக DNA நுழைகிறது. துடிப்புக்குப் பின் துளைகள் தாமாகவே மூடிக்கொள்கின்றன."
   },
   {
    "q": "Liposome-mediated transfection (lipofection) delivers DNA into cells primarily via:",
@@ -3152,7 +3176,15 @@
     "Viral receptor-mediated infection"
    ],
    "a": 1,
-   "e": "Cationic lipids form lipoplexes with DNA that bind the cell surface electrostatically. Cells internalise the lipoplexes by endocytosis. The fusogenic properties of the lipid components disrupt the endosomal membrane (endosomal escape), releasing DNA into the cytoplasm."
+   "e": "Cationic lipids form lipoplexes with DNA that bind the cell surface electrostatically. Cells internalise the lipoplexes by endocytosis. The fusogenic properties of the lipid components disrupt the endosomal membrane (endosomal escape), releasing DNA into the cytoplasm.",
+   "q_ta": "லிப்போசோம் வழி டிரான்ஸ்ஃபெக்ஷன் (லிப்போஃபெக்ஷன்) DNA-வை முதன்மையாக எவ்வாறு செல்லுக்குள் செலுத்துகிறது?",
+   "o_ta": [
+    "நுண்ணோக்கி வழிகாட்டும் ஊசியால் நேரடியாகச் செலுத்துதல்",
+    "லிப்போபிளெக்ஸ்களின் உள்ளுறைவு, பின்னர் எண்டோசோம் தப்பித்தல்",
+    "சவ்வுத் துளைகளை உருவாக்கும் மின்துடிப்பு",
+    "வைரஸ் ஏற்பி வழித் தொற்று"
+   ],
+   "e_ta": "நேர்மின் கொழுப்புகள் DNA-வுடன் லிப்போபிளெக்ஸ்களை உருவாக்கி, நிலைமின்னியல் முறையில் செல்மேற்பரப்புடன் பிணைகின்றன. செல்கள் லிப்போபிளெக்ஸ்களை உள்ளுறைவால் உள்ளெடுக்கின்றன. கொழுப்புக் கூறுகளின் இணைவுத் திறன் எண்டோசோம் சவ்வைச் சிதைத்து (எண்டோசோம் தப்பித்தல்), DNA-வைச் சைட்டோபிளாசத்தில் விடுவிக்கிறது."
   },
   {
    "q": "Microinjection is primarily used to produce transgenic animals because it:",
@@ -3163,7 +3195,15 @@
     "Uses viral vectors which integrate into chromosomes"
    ],
    "a": 1,
-   "e": "Microinjection directly introduces DNA into the pronucleus of fertilised eggs using a glass needle guided by a micromanipulator. It requires no carrier, bypasses all cellular barriers, and delivers DNA directly to where integration can occur — making it ideal for transgenic animal production."
+   "e": "Microinjection directly introduces DNA into the pronucleus of fertilised eggs using a glass needle guided by a micromanipulator. It requires no carrier, bypasses all cellular barriers, and delivers DNA directly to where integration can occur — making it ideal for transgenic animal production.",
+   "q_ta": "நுண்ணூசி செலுத்தல் மாற்றுமரபணு விலங்குகளை உருவாக்க முதன்மையாகப் பயன்படுவது ஏனெனில்:",
+   "o_ta": [
+    "எல்லா முறைகளிலும் இதுவே மிக உயர்ந்த திறனை வழங்குகிறது",
+    "எவ்வித ஊர்தியும் இன்றி DNA-வை நேரடியாகக் கருவுக்குள் செலுத்தும் ஒரே முறை இது",
+    "மில்லியன் கணக்கான செல்களில் ஒரே நேரத்தில் செய்யலாம்",
+    "நிறமூர்த்தங்களில் ஒருங்கிணையும் வைரஸ் தாங்கிக்கடத்திகளைப் பயன்படுத்துகிறது"
+   ],
+   "e_ta": "நுண்ணூசி செலுத்தல் நுண்கையாளி வழிகாட்டும் கண்ணாடி ஊசியால் கருவுற்ற முட்டையின் முன்கருவுக்குள் DNA-வை நேரடியாகச் செலுத்துகிறது. இதற்கு ஊர்தி தேவையில்லை; அனைத்துச் செல் தடைகளையும் கடந்து, ஒருங்கிணைப்பு நடைபெறக்கூடிய இடத்துக்கே DNA-வைக் கொண்டு சேர்க்கிறது — எனவே மாற்றுமரபணு விலங்கு உற்பத்திக்கு ஏற்றது."
   },
   {
    "q": "Which viral vector integrates stably into the genome of NON-DIVIDING cells?",
@@ -3174,7 +3214,15 @@
     "Adeno-associated virus (AAV) in most cases"
    ],
    "a": 2,
-   "e": "Lentiviral vectors (derived from HIV) can integrate their genetic material into the genome of both dividing and non-dividing cells, because they encode a pre-integration complex that is actively transported into the nucleus. Classical retroviruses (MLV-based) require cell division for nuclear access."
+   "e": "Lentiviral vectors (derived from HIV) can integrate their genetic material into the genome of both dividing and non-dividing cells, because they encode a pre-integration complex that is actively transported into the nucleus. Classical retroviruses (MLV-based) require cell division for nuclear access.",
+   "q_ta": "பிரிவடையாத செல்களின் மரபணுத்தொகையில் நிலையாக ஒருங்கிணையும் வைரஸ் தாங்கிக்கடத்தி எது?",
+   "o_ta": [
+    "ரெட்ரோவைரஸ் (MLV அடிப்படை)",
+    "அடினோவைரஸ்",
+    "லென்டிவைரஸ் (HIV-யிலிருந்து பெறப்பட்டது)",
+    "பெரும்பாலான நிலைகளில் அடினோ-தொடர்புடைய வைரஸ் (AAV)"
+   ],
+   "e_ta": "லென்டிவைரல் தாங்கிக்கடத்திகள் (HIV-யிலிருந்து பெறப்பட்டவை) பிரிவடையும், பிரிவடையாத செல்கள் இரண்டிலும் தம் மரபுப்பொருளை மரபணுத்தொகையில் ஒருங்கிணைக்க முடியும்; ஏனெனில் அவை கருவுக்குள் செயலூக்கமாகக் கடத்தப்படும் முன்-ஒருங்கிணைப்புச் சிக்கலைக் குறியீடு செய்கின்றன. வழக்கமான ரெட்ரோவைரஸ்கள் (MLV அடிப்படை) கருவுக்குள் நுழைய செல் பிரிவு தேவை."
   },
   {
    "q": "The term 'transfection' specifically refers to:",
@@ -3185,7 +3233,15 @@
     "Introduction of RNA into bacteria by heat shock"
    ],
    "a": 2,
-   "e": "Transfection specifically refers to the non-viral introduction of nucleic acids (DNA or RNA) into eukaryotic cells. It encompasses chemical methods (calcium phosphate, cationic lipids) and physical methods (electroporation, microinjection). The equivalent process in bacteria is called transformation."
+   "e": "Transfection specifically refers to the non-viral introduction of nucleic acids (DNA or RNA) into eukaryotic cells. It encompasses chemical methods (calcium phosphate, cationic lipids) and physical methods (electroporation, microinjection). The equivalent process in bacteria is called transformation.",
+   "q_ta": "'டிரான்ஸ்ஃபெக்ஷன்' என்ற சொல் குறிப்பிட்டுக் குறிப்பது:",
+   "o_ta": [
+    "புரோகேரியோட்டிக் பாக்டீரியாவுக்குள் DNA-வைச் செலுத்துதல்",
+    "பாக்டீரியோஃபாஜ் வைரஸ்களைப் பயன்படுத்தும் மரபணு விநியோகம்",
+    "வைரஸ் அல்லாத முறைகளால் யூகேரியோட்டிக் செல்களுக்குள் நியுக்ளிக் அமிலங்களைச் செலுத்துதல்",
+    "வெப்ப அதிர்ச்சியால் பாக்டீரியாவுக்குள் RNA-வைச் செலுத்துதல்"
+   ],
+   "e_ta": "டிரான்ஸ்ஃபெக்ஷன் என்பது வைரஸ் அல்லாத முறைகளால் யூகேரியோட்டிக் செல்களுக்குள் நியுக்ளிக் அமிலங்களை (DNA அல்லது RNA) செலுத்துவதைக் குறிப்பிடுகிறது. இதில் வேதியியல் முறைகள் (கால்சியம் பாஸ்பேட், நேர்மின் கொழுப்புகள்), இயற்பியல் முறைகள் (மின்துளையிடல், நுண்ணூசி செலுத்தல்) அடங்கும். பாக்டீரியாவில் இதற்கு இணையான செயல்முறை உருமாற்றம் எனப்படுகிறது."
   },
   {
    "q": "Lipid nanoparticles (LNPs) used in mRNA COVID-19 vaccines function primarily to:",
@@ -3196,7 +3252,15 @@
     "Protect fragile mRNA from nuclease degradation and enable its cellular uptake"
    ],
    "a": 3,
-   "e": "LNPs encapsulate and protect the fragile mRNA from nuclease degradation in extracellular fluids, enable binding to cell surfaces and endocytic uptake, and facilitate endosomal escape to deliver intact mRNA into the cytoplasm for translation. mRNA does NOT integrate into the genome."
+   "e": "LNPs encapsulate and protect the fragile mRNA from nuclease degradation in extracellular fluids, enable binding to cell surfaces and endocytic uptake, and facilitate endosomal escape to deliver intact mRNA into the cytoplasm for translation. mRNA does NOT integrate into the genome.",
+   "q_ta": "mRNA கோவிட்-19 தடுப்பூசிகளில் பயன்படும் கொழுப்பு நானோ துகள்கள் (LNPs) முதன்மையாகச் செய்வது:",
+   "o_ta": [
+    "நேரடியாகத் தடுப்பாற்றலைத் தூண்டும் துணைப்பொருளாகச் செயல்படுதல்",
+    "சைட்டோபிளாசத்தில் mRNA-வைப் பெருக்குதல்",
+    "mRNA-வை விருந்தோம்பி மரபணுத்தொகையில் ஒருங்கிணைத்தல்",
+    "நொய்மையான mRNA நியுக்ளியேஸ் சிதைவிலிருந்து பாதுகாத்து, செல் உள்ளெடுப்பை இயலச் செய்தல்"
+   ],
+   "e_ta": "LNPs நொய்மையான mRNA-வை உட்பொதிந்து, புறச்செல் திரவங்களில் நியுக்ளியேஸ் சிதைவிலிருந்து பாதுகாக்கின்றன; செல் மேற்பரப்பில் பிணைந்து உள்ளுறைவு வழி உள்ளெடுக்கப்பட உதவுகின்றன; எண்டோசோம் தப்பித்தலை எளிதாக்கி, சிதையாத mRNA-வை சைட்டோபிளாசத்தில் மொழிபெயர்ப்புக்கு விடுவிக்கின்றன. mRNA மரபணுத்தொகையில் ஒருங்கிணைவதில்லை."
   },
   {
    "q": "A major advantage of transduction (viral gene delivery) over other methods is that it:",
@@ -3207,7 +3271,15 @@
     "Achieves the highest efficiency of gene delivery, especially in vivo"
    ],
    "a": 3,
-   "e": "Viral transduction achieves the highest efficiency of gene delivery, particularly in vivo. Viruses have evolved efficient mechanisms for cell entry via receptor-mediated infection. Efficiencies exceeding 90% in target cell types make transduction the gold standard for clinical gene therapy."
+   "e": "Viral transduction achieves the highest efficiency of gene delivery, particularly in vivo. Viruses have evolved efficient mechanisms for cell entry via receptor-mediated infection. Efficiencies exceeding 90% in target cell types make transduction the gold standard for clinical gene therapy.",
+   "q_ta": "பிற முறைகளைவிடக் கடத்தலின் (வைரஸ் மரபணு விநியோகம்) முக்கிய நன்மை, அது:",
+   "o_ta": [
+    "சிறப்புக் கருவிகள் எதுவும் தேவையில்லை",
+    "எந்த அளவுள்ள மிகப் பெரிய DNA கட்டமைப்புகளையும் வழங்க முடியும்",
+    "வேகமாகப் பிரியும் செல்களில் மட்டுமே செயல்படும்",
+    "மரபணு விநியோகத்தில் மிக உயர்ந்த திறனை, குறிப்பாக உடலகத்தில், அடைகிறது"
+   ],
+   "e_ta": "வைரஸ் கடத்தல் மரபணு விநியோகத்தில் மிக உயர்ந்த திறனை, குறிப்பாக உடலகத்தில், அடைகிறது. ஏற்பி வழித் தொற்று மூலம் செல்லுக்குள் நுழையும் திறன்மிக்க வழிமுறைகளை வைரஸ்கள் பரிணமித்துள்ளன. இலக்குச் செல் வகைகளில் 90%-ஐத் தாண்டும் திறன், மருத்துவ மரபணு சிகிச்சைக்கு கடத்தலை தரநிலையாக்குகிறது."
   },
   {
    "q": "Which of the following correctly pairs the gene transfer method with its primary characteristic?",
@@ -3218,7 +3290,15 @@
     "Liposome fusion — requires CaCl₂ and heat shock to make cells competent"
    ],
    "a": 0,
-   "e": "Electroporation uses a high-voltage electric pulse to create temporary hydrophilic pores in the plasma membrane, and is applicable to both prokaryotic (bacteria) and eukaryotic cells. Transformation uses CaCl₂/heat shock for bacteria; microinjection uses mechanical injection; liposome fusion uses lipid vesicles."
+   "e": "Electroporation uses a high-voltage electric pulse to create temporary hydrophilic pores in the plasma membrane, and is applicable to both prokaryotic (bacteria) and eukaryotic cells. Transformation uses CaCl₂/heat shock for bacteria; microinjection uses mechanical injection; liposome fusion uses lipid vesicles.",
+   "q_ta": "மரபணு மாற்ற முறையையும் அதன் முதன்மைப் பண்பையும் சரியாக இணைக்கும் கூற்று எது?",
+   "o_ta": [
+    "மின்துளையிடல் — மின்துடிப்பு தற்காலிகச் சவ்வுத் துளைகளை உருவாக்குகிறது; பாக்டீரியா, யூகேரியோட்டுகள் இரண்டிலும் செயல்படும்",
+    "உருமாற்றம் — வைரஸ் தொற்று மூலம் யூகேரியோட்டிக் செல் கருக்களுக்குள் DNA-வைச் செலுத்துகிறது",
+    "நுண்ணூசி செலுத்தல் — DNA நுழைய சவ்வுத் துளைகளை உருவாக்க மின்துடிப்புகளைப் பயன்படுத்துகிறது",
+    "லிப்போசோம் இணைவு — செல்களைத் திறன்மிக்கவையாக்க CaCl₂, வெப்ப அதிர்ச்சி தேவை"
+   ],
+   "e_ta": "மின்துளையிடல் உயர்மின்னழுத்த மின்துடிப்பால் பிளாஸ்மா சவ்வில் தற்காலிக நீர்நாட்டத் துளைகளை உருவாக்குகிறது; புரோகேரியோட்டிக் (பாக்டீரியா), யூகேரியோட்டிக் செல்கள் இரண்டுக்கும் பொருந்தும். உருமாற்றம் பாக்டீரியாவுக்கு CaCl₂/வெப்ப அதிர்ச்சியைப் பயன்படுத்துகிறது; நுண்ணூசி செலுத்தல் இயந்திரவியல் முறை; லிப்போசோம் இணைவு கொழுப்புப் பையுருக்களைப் பயன்படுத்துகிறது."
   }
  ],
  "hgp_ethics_ipr.html": [
@@ -3231,7 +3311,15 @@
     "2003"
    ],
    "a": 0,
-   "e": "The HGP began formally in 1990 and was completed in 2003."
+   "e": "The HGP began formally in 1990 and was completed in 2003.",
+   "q_ta": "மனித மரபணுத்தொகைத் திட்டம் அதிகாரப்பூர்வமாகத் தொடங்கப்பட்ட ஆண்டு:",
+   "o_ta": [
+    "1990",
+    "1953",
+    "1975",
+    "2003"
+   ],
+   "e_ta": "HGP முறைப்படி 1990-இல் தொடங்கி 2003-இல் நிறைவடைந்தது."
   },
   {
    "q": "The approximate number of protein-coding genes in the human genome is:",
@@ -3242,7 +3330,15 @@
     "5,00,000"
    ],
    "a": 0,
-   "e": "About 20,000 protein-coding genes."
+   "e": "About 20,000 protein-coding genes.",
+   "q_ta": "மனித மரபணுத்தொகையிலுள்ள புரதம்-குறியீடு மரபணுக்களின் தோராய எண்ணிக்கை:",
+   "o_ta": [
+    "20,000",
+    "1,00,000",
+    "3,000",
+    "5,00,000"
+   ],
+   "e_ta": "ஏறத்தாழ 20,000 புரதம்-குறியீடு மரபணுக்கள்."
   },
   {
    "q": "Craig Venter's Celera Genomics used the:",
@@ -3253,7 +3349,15 @@
     "RFLP method"
    ],
    "a": 2,
-   "e": "Celera used whole-genome shotgun sequencing."
+   "e": "Celera used whole-genome shotgun sequencing.",
+   "q_ta": "கிரெய்க் வென்டரின் செலரா ஜீனோமிக்ஸ் பயன்படுத்தியது:",
+   "o_ta": [
+    "குளோன்-குளோன் BAC முறையை மட்டும்",
+    "முழு நிறமூர்த்தங்களில் மாக்சம்-கில்பர்ட் முறை",
+    "முழு மரபணுத்தொகைத் துப்பாக்கிக்குண்டு (ஷாட்கன்) முறை",
+    "RFLP முறை"
+   ],
+   "e_ta": "செலரா முழு மரபணுத்தொகைத் துப்பாக்கிக்குண்டு வரிசையாக்கத்தைப் பயன்படுத்தியது."
   },
   {
    "q": "The unit of genetic (linkage) maps is:",
@@ -3264,7 +3368,15 @@
     "Kilobase"
    ],
    "a": 0,
-   "e": "Genetic distance is measured in centiMorgans."
+   "e": "Genetic distance is measured in centiMorgans.",
+   "q_ta": "மரபணு (பிணைப்பு) வரைபடங்களின் அலகு:",
+   "o_ta": [
+    "சென்டிமார்கன்",
+    "காரச்சோடி",
+    "டால்டன்",
+    "கிலோகாரம்"
+   ],
+   "e_ta": "மரபணுத் தொலைவு சென்டிமார்கன்களில் அளக்கப்படுகிறது."
   },
   {
    "q": "ELSI in the HGP stands for:",
@@ -3275,7 +3387,15 @@
     "Ethical, Legal and Social Implications"
    ],
    "a": 3,
-   "e": "ELSI programme."
+   "e": "ELSI programme.",
+   "q_ta": "HGP-இல் ELSI என்பது:",
+   "o_ta": [
+    "ஐரோப்பிய உயிரியல் அறிவியல் நிறுவனம்",
+    "வரிசை உட்செருகுகளின் நொதிய நூலகம்",
+    "தொடக்க உயிர் வரிசைத் தகவல்",
+    "நெறிமுறை, சட்ட, சமூகத் தாக்கங்கள்"
+   ],
+   "e_ta": "ELSI திட்டம்."
   },
   {
    "q": "The typical patent term under TRIPS is:",
@@ -3286,7 +3406,15 @@
     "50 years"
    ],
    "a": 2,
-   "e": "20 years from the filing date."
+   "e": "20 years from the filing date.",
+   "q_ta": "TRIPS-இன்படி வழக்கமான காப்புரிமைக் காலம்:",
+   "o_ta": [
+    "5 ஆண்டுகள்",
+    "10 ஆண்டுகள்",
+    "20 ஆண்டுகள்",
+    "50 ஆண்டுகள்"
+   ],
+   "e_ta": "விண்ணப்பித்த நாளிலிருந்து 20 ஆண்டுகள்."
   },
   {
    "q": "The Budapest Treaty deals with:",
@@ -3297,7 +3425,15 @@
     "Deposit of micro-organisms for patent purposes"
    ],
    "a": 3,
-   "e": "It recognises deposit of micro-organisms in patent procedure."
+   "e": "It recognises deposit of micro-organisms in patent procedure.",
+   "q_ta": "புடாபெஸ்ட் ஒப்பந்தம் தொடர்புடையது:",
+   "o_ta": [
+    "பல்லுயிர்த்தன்மை",
+    "GMO-க்களின் உயிர்ப் பாதுகாப்பு",
+    "மனிதக் குளோனிங்",
+    "காப்புரிமை நோக்கங்களுக்கான நுண்ணுயிர் வைப்பு"
+   ],
+   "e_ta": "காப்புரிமை நடைமுறையில் நுண்ணுயிர்களின் வைப்பை இது அங்கீகரிக்கிறது."
   },
   {
    "q": "In India, which Section of the Patents Act excludes plants, animals and essentially biological processes?",
@@ -3308,7 +3444,15 @@
     "Section 10"
    ],
    "a": 1,
-   "e": "Section 3(j)."
+   "e": "Section 3(j).",
+   "q_ta": "இந்தியாவில் தாவரங்கள், விலங்குகள், அடிப்படையில் உயிரியல் செயல்முறைகளை விலக்கும் காப்புரிமைச் சட்டப் பிரிவு எது?",
+   "o_ta": [
+    "பிரிவு 3(d)",
+    "பிரிவு 3(j)",
+    "பிரிவு 5",
+    "பிரிவு 10"
+   ],
+   "e_ta": "பிரிவு 3(j)."
   },
   {
    "q": "Environmental release of GMOs in India is approved by:",
@@ -3319,7 +3463,15 @@
     "CSIR"
    ],
    "a": 1,
-   "e": "The Genetic Engineering Appraisal Committee (GEAC)."
+   "e": "The Genetic Engineering Appraisal Committee (GEAC).",
+   "q_ta": "இந்தியாவில் GMO-க்களின் சுற்றுச்சூழல் வெளியீட்டுக்கு ஒப்புதல் அளிப்பது:",
+   "o_ta": [
+    "ICMR",
+    "GEAC",
+    "UGC",
+    "CSIR"
+   ],
+   "e_ta": "மரபணுப் பொறியியல் மதிப்பீட்டுக் குழு (GEAC)."
   },
   {
    "q": "The patent on turmeric's wound-healing use was revoked after a challenge by:",
@@ -3330,7 +3482,15 @@
     "CSIR"
    ],
    "a": 3,
-   "e": "CSIR challenged the US patent in 1996; it was revoked in 1997."
+   "e": "CSIR challenged the US patent in 1996; it was revoked in 1997.",
+   "q_ta": "மஞ்சளின் காயம் ஆற்றும் பயன்பாட்டுக்கான காப்புரிமை எவரது எதிர்ப்பால் ரத்து செய்யப்பட்டது?",
+   "o_ta": [
+    "ICAR",
+    "DBT",
+    "WHO",
+    "CSIR"
+   ],
+   "e_ta": "CSIR 1996-இல் அமெரிக்கக் காப்புரிமையை எதிர்த்தது; அது 1997-இல் ரத்து செய்யப்பட்டது."
   }
  ],
  "hybridoma_monoclonal_antibodies.html": [
@@ -3343,7 +3503,15 @@
     "Sanger and Gilbert"
    ],
    "a": 1,
-   "e": "Köhler and Milstein, 1975 (Nobel Prize 1984)."
+   "e": "Köhler and Milstein, 1975 (Nobel Prize 1984).",
+   "q_ta": "ஹைப்ரிடோமா தொழில்நுட்பத்தை உருவாக்கியவர்கள்:",
+   "o_ta": [
+    "வாட்சனும் கிரிக்கும்",
+    "கோலரும் மில்ஸ்டீனும்",
+    "கோஹனும் பாயரும்",
+    "சேங்கரும் கில்பர்ட்டும்"
+   ],
+   "e_ta": "கோலரும் மில்ஸ்டீனும், 1975 (நோபல் பரிசு 1984)."
   },
   {
    "q": "A hybridoma is a fusion of:",
@@ -3354,7 +3522,15 @@
     "Two myeloma cells"
    ],
    "a": 1,
-   "e": "B cell (specific antibody) + myeloma (immortal)."
+   "e": "B cell (specific antibody) + myeloma (immortal).",
+   "q_ta": "ஹைப்ரிடோமா என்பது எவற்றின் இணைவு?",
+   "o_ta": [
+    "இரு B செல்கள்",
+    "B நிணநீர்ச் செல்லும் மைலோமா செல்லும்",
+    "T செல்லும் பெருவிழுங்கிச் செல்லும்",
+    "இரு மைலோமா செல்கள்"
+   ],
+   "e_ta": "B செல் (குறிப்பிட்ட எதிர்ப்பொருள்) + மைலோமா (இறப்பற்றது)."
   },
   {
    "q": "The myeloma cells used are deficient in:",
@@ -3365,7 +3541,15 @@
     "HGPRT"
    ],
    "a": 3,
-   "e": "HGPRT-deficient cells cannot use the salvage pathway, so aminopterin kills them."
+   "e": "HGPRT-deficient cells cannot use the salvage pathway, so aminopterin kills them.",
+   "q_ta": "பயன்படுத்தப்படும் மைலோமா செல்களில் குறைபாடுள்ளது:",
+   "o_ta": [
+    "DNA லைகேஸ்",
+    "தலைகீழ் படியெடுப்பி",
+    "அமைலேஸ்",
+    "HGPRT"
+   ],
+   "e_ta": "HGPRT குறைபாடுள்ள செல்கள் மீட்புப் பாதையைப் பயன்படுத்த இயலாது; எனவே அமினோப்டெரின் அவற்றைக் கொல்கிறது."
   },
   {
    "q": "Aminopterin in HAT medium:",
@@ -3376,7 +3560,15 @@
     "Blocks the de novo nucleotide synthesis pathway"
    ],
    "a": 3,
-   "e": "Aminopterin blocks de novo synthesis."
+   "e": "Aminopterin blocks de novo synthesis.",
+   "q_ta": "HAT ஊடகத்தில் அமினோப்டெரின்:",
+   "o_ta": [
+    "இணைவைத் தூண்டுகிறது",
+    "எதிர்ப்பொருள்களுக்கு அடையாளமிடுகிறது",
+    "B செல்களை மட்டும் கொல்கிறது",
+    "புதிதாக நியுக்ளியோடைடு தொகுக்கும் பாதையைத் தடுக்கிறது"
+   ],
+   "e_ta": "அமினோப்டெரின் புதிதான தொகுப்புப் பாதையைத் தடுக்கிறது."
   },
   {
    "q": "The chemical commonly used to fuse cells is:",
@@ -3387,7 +3579,15 @@
     "SDS"
    ],
    "a": 0,
-   "e": "PEG promotes membrane fusion."
+   "e": "PEG promotes membrane fusion.",
+   "q_ta": "செல்களை இணைக்க வழக்கமாகப் பயன்படும் வேதிப்பொருள்:",
+   "o_ta": [
+    "பாலிஎத்திலீன் கிளைக்கால்",
+    "எத்தனால்",
+    "ஃபார்மால்டிஹைடு",
+    "SDS"
+   ],
+   "e_ta": "PEG சவ்வு இணைவை ஊக்குவிக்கிறது."
   },
   {
    "q": "Monoclonal antibodies recognise:",
@@ -3398,7 +3598,15 @@
     "No antigens"
    ],
    "a": 2,
-   "e": "One clone → one epitope."
+   "e": "One clone → one epitope.",
+   "q_ta": "ஒற்றைக்குளோன் எதிர்ப்பொருள்கள் அடையாளம் காண்பது:",
+   "o_ta": [
+    "பல எபிடோப்புகளை",
+    "DNA-வை மட்டும்",
+    "ஒரே ஒரு எபிடோப்பை",
+    "எந்த எதிர்ப்பொருள் தூண்டியையும் இல்லை"
+   ],
+   "e_ta": "ஒரு குளோன் → ஒரு எபிடோப்."
   },
   {
    "q": "MAb names ending in -zumab are:",
@@ -3409,7 +3617,15 @@
     "Phage"
    ],
    "a": 0,
-   "e": "-zumab = humanised."
+   "e": "-zumab = humanised.",
+   "q_ta": "-zumab என முடியும் MAb பெயர்கள்:",
+   "o_ta": [
+    "மனிதமயமாக்கப்பட்டவை",
+    "சுண்டெலி வகை",
+    "கலப்பின வகை",
+    "ஃபாஜ் வகை"
+   ],
+   "e_ta": "-zumab = மனிதமயமாக்கப்பட்டது."
   },
   {
    "q": "HAMA stands for:",
@@ -3420,7 +3636,15 @@
     "Human antigen major allele"
    ],
    "a": 2,
-   "e": "Human anti-mouse antibody response."
+   "e": "Human anti-mouse antibody response.",
+   "q_ta": "HAMA என்பதன் விரிவு:",
+   "o_ta": [
+    "உயர் நாட்ட ஒற்றைக்குளோன் எதிர்ப்பொருள்",
+    "கலப்பு எதிர்ப்பொருள் தூண்டிக் கலவை மதிப்பீடு",
+    "மனித எதிர்-சுண்டெலி எதிர்ப்பொருள்",
+    "மனித எதிர்ப்பொருள் தூண்டி முதன்மை அல்லீல்"
+   ],
+   "e_ta": "மனித எதிர்-சுண்டெலி எதிர்ப்பொருள் துலங்கல்."
   },
   {
    "q": "Trastuzumab targets:",
@@ -3431,7 +3655,15 @@
     "PD-1"
    ],
    "a": 2,
-   "e": "Trastuzumab binds HER2."
+   "e": "Trastuzumab binds HER2.",
+   "q_ta": "டிரஸ்டுஸுமாப் இலக்கிடுவது:",
+   "o_ta": [
+    "CD20",
+    "TNF-ஆல்ஃபா",
+    "HER2",
+    "PD-1"
+   ],
+   "e_ta": "டிரஸ்டுஸுமாப் HER2-உடன் பிணைகிறது."
   },
   {
    "q": "Hybridoma culture supernatants are first screened by:",
@@ -3442,7 +3674,15 @@
     "ELISA"
    ],
    "a": 3,
-   "e": "ELISA detects antibody against the antigen."
+   "e": "ELISA detects antibody against the antigen.",
+   "q_ta": "ஹைப்ரிடோமா வளர்ப்புத் தெளிநீர்கள் முதலில் சலிக்கப்படுவது:",
+   "o_ta": [
+    "PCR",
+    "சதர்ன் புளாட்",
+    "ஜெல் வடிகட்டல்",
+    "ELISA"
+   ],
+   "e_ta": "ELISA எதிர்ப்பொருள் தூண்டிக்கு எதிரான எதிர்ப்பொருளைக் கண்டறிகிறது."
   }
  ],
  "industrial_biotech_fermentation.html": [
