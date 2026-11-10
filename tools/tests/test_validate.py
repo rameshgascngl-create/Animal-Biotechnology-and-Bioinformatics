@@ -42,3 +42,8 @@ def test_merge_never_changes_en_and_rejects_unknown_path():
     import pytest
     with pytest.raises(KeyError):
         ta_io.merge(c, {"nope": "x"})
+
+
+def test_empty_source_cell_may_have_empty_ta():
+    c = {"sections": [{"blocks": [{"type": "table", "header": [{"en": "", "ta": "", "ta_status": "draft"}], "rows": []}]}]}
+    assert v.check_chapter(c, "x") == []

@@ -20,6 +20,8 @@ def check_chapter(chapter, name="chapter"):
     for path, d in walk(chapter):
         where = f"{name}:{path}"
         ta = d.get("ta", "")
+        if not d.get("en", "").strip() and "ta" in d:
+            continue  # empty source cell (e.g. table corner): nothing to translate
         if not ta.strip():
             errs.append(f"{where}: empty ta")
             continue

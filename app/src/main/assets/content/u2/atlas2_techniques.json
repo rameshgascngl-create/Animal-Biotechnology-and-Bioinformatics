@@ -2,19 +2,25 @@
  "id": "atlas2_techniques",
  "unit": "II",
  "title": {
-  "en": "Atlas II: Techniques"
+  "en": "Atlas II: Techniques",
+  "ta": "அட்லஸ் II: நுட்பங்கள்",
+  "ta_status": "draft"
  },
  "sections": [
   {
    "id": "s01",
    "title": {
-    "en": "Overview"
+    "en": "Overview",
+    "ta": "மேலோட்டம்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "🎨 Unit II · Diagram Atlas"
+      "en": "🎨 Unit II · Diagram Atlas",
+      "ta": "🎨 அலகு II · படத் தொகுப்பு",
+      "ta_status": "draft"
      }
     }
    ]
@@ -22,31 +28,41 @@
   {
    "id": "s02",
    "title": {
-    "en": "Diagram Atlas II: Techniques in Animal Biotechnology"
+    "en": "Diagram Atlas II: Techniques in Animal Biotechnology",
+    "ta": "படத் தொகுப்பு II: விலங்கு உயிரித் தொழில்நுட்பவியலில் நுட்பங்கள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Cloning · Gene transfer · Screening · Sequencing · PCR · Gels and blots"
+      "en": "Cloning · Gene transfer · Screening · Sequencing · PCR · Gels and blots",
+      "ta": "நகலாக்கம் · மரபணு மாற்றம் · சலிக்கை · வரிசைப்படுத்தல் · PCR · ஜெல்களும் பிளாட்களும்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Labelled diagrams, flow charts and worked schematics for every technique in Unit II. Use them to practise drawing the cloning pathway, blue-white and replica-plating results, a Sanger gel, a PCR profile and an agarose gel."
+      "en": "Labelled diagrams, flow charts and worked schematics for every technique in Unit II. Use them to practise drawing the cloning pathway, blue-white and replica-plating results, a Sanger gel, a PCR profile and an agarose gel.",
+      "ta": "அலகு II-இலுள்ள ஒவ்வொரு நுட்பத்துக்கும் பெயரிடப்பட்ட படங்கள், பாய்வுப் படங்கள், செயல்முறை வரைபடங்கள். நகலாக்கப் பாதை, நீல-வெள்ளை, படிநகல் தட்டு முடிவுகள், சேங்கர் ஜெல், PCR சுயவிவரம், அகரோஸ் ஜெல் ஆகியவற்றை வரைந்து பயில இவற்றைப் பயன்படுத்துக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "📚 5 chapters🎯 10 MCQs📝 Exam questions🎓 B.Sc. Zoology / Biotechnology"
+      "en": "📚 5 chapters🎯 10 MCQs📝 Exam questions🎓 B.Sc. Zoology / Biotechnology",
+      "ta": "📚 5 அத்தியாயங்கள்🎯 10 MCQ-கள்📝 தேர்வு வினாக்கள்🎓 B.Sc. விலங்கியல் / உயிரித் தொழில்நுட்பவியல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🎯 Learning Objectives**"
+      "en": "**🎯 Learning Objectives**",
+      "ta": "**🎯 கற்றல் நோக்கங்கள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -54,19 +70,29 @@
      "ordered": false,
      "items": [
       {
-       "en": "✓Draw the gene-cloning flow chart and explain each step."
+       "en": "✓Draw the gene-cloning flow chart and explain each step.",
+       "ta": "✓மரபணு நகலாக்கப் பாய்வுப் படத்தை வரைந்து ஒவ்வொரு படியையும் விளக்குதல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "✓Compare six gene-transfer methods and match them to hosts."
+       "en": "✓Compare six gene-transfer methods and match them to hosts.",
+       "ta": "✓ஆறு மரபணு மாற்ற முறைகளை ஒப்பிட்டு, அவற்றை ஓம்புயிரிகளுடன் பொருத்துதல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "✓Interpret replica-plating, blue-white and colony-hybridisation results."
+       "en": "✓Interpret replica-plating, blue-white and colony-hybridisation results.",
+       "ta": "✓படிநகல் தட்டு, நீல-வெள்ளை, குழும கலப்பினமாக்கல் முடிவுகளை விளக்குதல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "✓Read a Sanger gel and describe the PCR cycle quantitatively."
+       "en": "✓Read a Sanger gel and describe the PCR cycle quantitatively.",
+       "ta": "✓சேங்கர் ஜெல்லை வாசித்து, PCR சுழற்சியை அளவுசார்ந்து விவரித்தல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "✓Explain agarose gel electrophoresis and compare Southern, Northern and Western blots."
+       "en": "✓Explain agarose gel electrophoresis and compare Southern, Northern and Western blots.",
+       "ta": "✓அகரோஸ் ஜெல் மின்னாற்பகுப்பை விளக்கி, சதர்ன், நார்தர்ன், வெஸ்டர்ன் பிளாட்களை ஒப்பிடுதல்.",
+       "ta_status": "draft"
       }
      ]
     }
@@ -75,20 +101,26 @@
   {
    "id": "s03",
    "title": {
-    "en": "Gene Cloning: Steps from Gene to Clone"
+    "en": "Gene Cloning: Steps from Gene to Clone",
+    "ta": "மரபணு நகலாக்கம்: மரபணுவிலிருந்து குளோன் வரை படிகள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Memorise the eight-step sequence and what each step achieves."
+      "en": "Memorise the eight-step sequence and what each step achieves.",
+      "ta": "எட்டுப் படி வரிசையையும் ஒவ்வொரு படியின் நோக்கத்தையும் மனப்பாடம் செய்க.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "atlas2_techniques-d01",
      "caption": {
-      "en": "Fig. 1. Flow chart of gene cloning."
+      "en": "Fig. 1. Flow chart of gene cloning.",
+      "ta": "படம் 1. மரபணு நகலாக்கத்தின் பாய்வுப் படம்.",
+      "ta_status": "draft"
      },
      "labels": [
       "1. Isolate target",
@@ -113,14 +145,18 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Ligation basics**\nT4 DNA ligase joins 5′-phosphate to 3′-OH. Sticky ends ligate efficiently at 12–16 °C overnight; blunt ends need more enzyme and are helped by PEG. Dephosphorylating the vector with alkaline phosphatase reduces self-ligation."
+      "en": "**Ligation basics**\nT4 DNA ligase joins 5′-phosphate to 3′-OH. Sticky ends ligate efficiently at 12–16 °C overnight; blunt ends need more enzyme and are helped by PEG. Dephosphorylating the vector with alkaline phosphatase reduces self-ligation.",
+      "ta": "**இணைப்பின் அடிப்படைகள்**\nT4 DNA லைகேஸ் 5′-பாஸ்பேட்டை 3′-OH உடன் இணைக்கிறது. ஒட்டும் முனைகள் 12–16 °C-ல் ஒரு இரவில் திறம்பட இணையும்; மழுங்கிய முனைகளுக்கு அதிக நொதி தேவை, PEG உதவும். காரப் பாஸ்படேஸால் தாங்கிக்கடத்தியின் பாஸ்பேட்டை நீக்குவது தானாக இணைவதைக் குறைக்கிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**PG focus**\nCompare restriction cloning with TA cloning, Gateway (att-site recombination) and Gibson assembly (exonuclease, polymerase, ligase one-pot)."
+      "en": "**PG focus**\nCompare restriction cloning with TA cloning, Gateway (att-site recombination) and Gibson assembly (exonuclease, polymerase, ligase one-pot).",
+      "ta": "**முதுநிலைக் கவனம்**\nரெஸ்ட்ரிக்ஷன் நகலாக்கத்தை TA நகலாக்கம், கேட்வே (att-தள மறுகூட்டிணைவு), கிப்சன் அசெம்பிளி (எக்சோநியுக்ளியேஸ், பாலிமரேஸ், லைகேஸ் ஒரே குழாயில்) ஆகியவற்றுடன் ஒப்பிடுக.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -129,20 +165,26 @@
   {
    "id": "s04",
    "title": {
-    "en": "Introducing rDNA into Host Cells"
+    "en": "Introducing rDNA into Host Cells",
+    "ta": "ஓம்புயிரி செல்களுக்குள் rDNA-வைச் செலுத்துதல்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Different hosts need different methods. Learn the six methods with the host they suit."
+      "en": "Different hosts need different methods. Learn the six methods with the host they suit.",
+      "ta": "வெவ்வேறு ஓம்புயிரிகளுக்கு வெவ்வேறு முறைகள் தேவை. ஆறு முறைகளையும் அவை ஏற்கும் ஓம்புயிரிகளுடன் கற்க.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "atlas2_techniques-d02",
      "caption": {
-      "en": "Fig. 2. Six gene-transfer methods in one view."
+      "en": "Fig. 2. Six gene-transfer methods in one view.",
+      "ta": "படம் 2. ஆறு மரபணு மாற்ற முறைகள் ஒரே பார்வையில்.",
+      "ta_status": "draft"
      },
      "labels": [
       "Transformation",
@@ -163,69 +205,105 @@
      "type": "table",
      "header": [
       {
-       "en": "Method"
+       "en": "Method",
+       "ta": "முறை",
+       "ta_status": "draft"
       },
       {
-       "en": "Host"
+       "en": "Host",
+       "ta": "ஓம்புயிரி",
+       "ta_status": "draft"
       },
       {
-       "en": "Efficiency / note"
+       "en": "Efficiency / note",
+       "ta": "திறன் / குறிப்பு",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Heat-shock transformation**"
+        "en": "**Heat-shock transformation**",
+        "ta": "**வெப்ப அதிர்ச்சித் தகவல் பரிமாற்றம்**",
+        "ta_status": "draft"
        },
        {
-        "en": "E. coli (CaCl₂ competent)"
+        "en": "E. coli (CaCl₂ competent)",
+        "ta": "E. coli (CaCl₂ தகுதி பெற்றது)",
+        "ta_status": "draft"
        },
        {
-        "en": "10⁵–10⁷ colonies per µg DNA"
+        "en": "10⁵–10⁷ colonies per µg DNA",
+        "ta": "ஒரு µg DNA-க்கு 10⁵–10⁷ குழுமங்கள்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Electroporation**"
+        "en": "**Electroporation**",
+        "ta": "**மின்துளைப்பு**",
+        "ta_status": "draft"
        },
        {
-        "en": "Bacteria, yeast, animal cells"
+        "en": "Bacteria, yeast, animal cells",
+        "ta": "பாக்டீரியா, ஈஸ்ட், விலங்கு செல்கள்",
+        "ta_status": "draft"
        },
        {
-        "en": "Up to 10⁹–10¹⁰ per µg in bacteria; can kill cells"
+        "en": "Up to 10⁹–10¹⁰ per µg in bacteria; can kill cells",
+        "ta": "பாக்டீரியாவில் ஒரு µg-க்கு 10⁹–10¹⁰ வரை; செல்களைக் கொல்லக்கூடும்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Calcium phosphate / lipofection**"
+        "en": "**Calcium phosphate / lipofection**",
+        "ta": "**கால்சியம் பாஸ்பேட் / லிப்போஃபெக்ஷன்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Cultured animal cells"
+        "en": "Cultured animal cells",
+        "ta": "வளர்க்கப்படும் விலங்கு செல்கள்",
+        "ta_status": "draft"
        },
        {
-        "en": "Easy, transient expression"
+        "en": "Easy, transient expression",
+        "ta": "எளிது, தற்காலிக வெளிப்பாடு",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Viral transduction**"
+        "en": "**Viral transduction**",
+        "ta": "**வைரஸ் கடத்துதல்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Animal cells and tissues"
+        "en": "Animal cells and tissues",
+        "ta": "விலங்கு செல்களும் திசுக்களும்",
+        "ta_status": "draft"
        },
        {
-        "en": "Highest efficiency; size limits and safety issues"
+        "en": "Highest efficiency; size limits and safety issues",
+        "ta": "மிக உயர் திறன்; அளவு வரம்புகளும் பாதுகாப்புச் சிக்கல்களும்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Microinjection**"
+        "en": "**Microinjection**",
+        "ta": "**நுண்செலுத்தல்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Oocytes, zygotes, single cells"
+        "en": "Oocytes, zygotes, single cells",
+        "ta": "கருமுட்டைகள், கருவுற்ற முட்டைகள், ஒற்றைச் செல்கள்",
+        "ta_status": "draft"
        },
        {
-        "en": "Direct, skilled work, one cell at a time"
+        "en": "Direct, skilled work, one cell at a time",
+        "ta": "நேரடியானது, திறமை தேவை, ஒரு நேரத்தில் ஒரு செல்",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -236,49 +314,71 @@
   {
    "id": "s05",
    "title": {
-    "en": "Screening and Selection of Recombinants"
+    "en": "Screening and Selection of Recombinants",
+    "ta": "மறுகூட்டிணைவுகளைச் சலித்தலும் தெரிவு செய்தலும்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Selection removes cells without the vector; screening finds those with the insert."
+      "en": "Selection removes cells without the vector; screening finds those with the insert.",
+      "ta": "தெரிவு தாங்கிக்கடத்தி இல்லாத செல்களை நீக்குகிறது; சலிக்கை செருகி உள்ளவற்றைக் கண்டறிகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "table",
      "header": [
       {
-       "en": "Term"
+       "en": "Term",
+       "ta": "சொல்",
+       "ta_status": "draft"
       },
       {
-       "en": "Purpose"
+       "en": "Purpose",
+       "ta": "நோக்கம்",
+       "ta_status": "draft"
       },
       {
-       "en": "Example"
+       "en": "Example",
+       "ta": "எடுத்துக்காட்டு",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Selection**"
+        "en": "**Selection**",
+        "ta": "**தெரிவு**",
+        "ta_status": "draft"
        },
        {
-        "en": "Only desired cells survive"
+        "en": "Only desired cells survive",
+        "ta": "விரும்பிய செல்கள் மட்டுமே உயிர்வாழும்",
+        "ta_status": "draft"
        },
        {
-        "en": "Ampicillin kills cells without ampR"
+        "en": "Ampicillin kills cells without ampR",
+        "ta": "ampR இல்லாத செல்களை ஆம்பிசிலின் கொல்லும்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Screening**"
+        "en": "**Screening**",
+        "ta": "**சலிக்கை**",
+        "ta_status": "draft"
        },
        {
-        "en": "Distinguish cells; all survive"
+        "en": "Distinguish cells; all survive",
+        "ta": "செல்களைப் பிரித்தறிதல்; அனைத்தும் உயிர்வாழும்",
+        "ta_status": "draft"
        },
        {
-        "en": "Blue-white; colony hybridisation; replica plating"
+        "en": "Blue-white; colony hybridisation; replica plating",
+        "ta": "நீல-வெள்ளை; குழும கலப்பினமாக்கல்; படிநகல் தட்டு",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -287,7 +387,9 @@
      "type": "diagram",
      "id": "atlas2_techniques-d03",
      "caption": {
-      "en": "Fig. 3. Insertional inactivation of tet in pBR322 detected by replica plating."
+      "en": "Fig. 3. Insertional inactivation of tet in pBR322 detected by replica plating.",
+      "ta": "படம் 3. pBR322-இல் tet-இன் உட்செருகுதல் செயலிழப்பு, படிநகல் தட்டு மூலம் கண்டறியப்படுதல்.",
+      "ta_status": "draft"
      },
      "labels": [
       "Master plate: ampicillin",
@@ -320,7 +422,9 @@
      "type": "diagram",
      "id": "atlas2_techniques-d04",
      "caption": {
-      "en": "Fig. 4. Blue-white screening with pUC-type vectors (lacZα and a host with lacZΔM15)."
+      "en": "Fig. 4. Blue-white screening with pUC-type vectors (lacZα and a host with lacZΔM15).",
+      "ta": "படம் 4. pUC வகைத் தாங்கிக்கடத்திகளுடன் (lacZα மற்றும் lacZΔM15 கொண்ட ஓம்புயிரி) நீல-வெள்ளைச் சலிக்கை.",
+      "ta_status": "draft"
      },
      "labels": [
       "Vector with lacZα intact",
@@ -347,7 +451,9 @@
      "type": "diagram",
      "id": "atlas2_techniques-d05",
      "caption": {
-      "en": "Fig. 5. Colony hybridisation (Grunstein and Hogness) finds clones carrying a particular sequence."
+      "en": "Fig. 5. Colony hybridisation (Grunstein and Hogness) finds clones carrying a particular sequence.",
+      "ta": "படம் 5. குழும கலப்பினமாக்கல் (குருன்ஸ்டீன் & ஹோக்னெஸ்) குறிப்பிட்ட வரிசையைச் சுமக்கும் குளோன்களைக் கண்டறிகிறது.",
+      "ta_status": "draft"
      },
      "labels": [
       "Master plate with",
@@ -372,7 +478,9 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Direct selection**\nThe cloned gene itself gives a selectable phenotype, for example complementing an auxotroph (a _trp_⁻ yeast cell regains growth without tryptophan)."
+      "en": "**Direct selection**\nThe cloned gene itself gives a selectable phenotype, for example complementing an auxotroph (a _trp_⁻ yeast cell regains growth without tryptophan).",
+      "ta": "**நேரடித் தெரிவு**\nநகலாக்கிய மரபணுவே தெரிவுசெய்யத்தக்க புறத்தோற்றத்தை அளிக்கிறது; எ.கா. ஊட்டச்சத்துத் தேவையுள்ள திரிபை ஈடுசெய்தல் (_trp_⁻ ஈஸ்ட் செல் டிரிப்டோஃபான் இல்லாமலே வளர்ச்சியை மீட்கிறது).",
+      "ta_status": "draft"
      }
     }
    ],
@@ -381,20 +489,26 @@
   {
    "id": "s06",
    "title": {
-    "en": "DNA Sequencing (Sanger) and PCR"
+    "en": "DNA Sequencing (Sanger) and PCR",
+    "ta": "DNA வரிசைப்படுத்தல் (சேங்கர்) மற்றும் PCR",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Two key techniques: one reads a sequence, the other amplifies it."
+      "en": "Two key techniques: one reads a sequence, the other amplifies it.",
+      "ta": "இரு முக்கிய நுட்பங்கள்: ஒன்று வரிசையை வாசிக்கிறது, மற்றொன்று அதைப் பெருக்குகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "atlas2_techniques-d06",
      "caption": {
-      "en": "Fig. 6. Principle of chain-termination sequencing (Sanger, 1977)."
+      "en": "Fig. 6. Principle of chain-termination sequencing (Sanger, 1977).",
+      "ta": "படம் 6. சங்கிலி-முடிவு வரிசைப்படுத்தலின் (சேங்கர், 1977) கோட்பாடு.",
+      "ta_status": "draft"
      },
      "labels": [
       "Template DNA +",
@@ -413,7 +527,9 @@
      "type": "diagram",
      "id": "atlas2_techniques-d07",
      "caption": {
-      "en": "Fig. 7. Reading a gel of four ddNTP reactions and the equivalent chromatogram. Example sequence is invented."
+      "en": "Fig. 7. Reading a gel of four ddNTP reactions and the equivalent chromatogram. Example sequence is invented.",
+      "ta": "படம் 7. நான்கு ddNTP வினைகளின் ஜெல்லையும் அதற்குச் சமமான குரோமடோகிராமையும் வாசித்தல். எடுத்துக்காட்டு வரிசை கற்பனையானது.",
+      "ta_status": "draft"
      },
      "labels": [
       "ddA",
@@ -443,7 +559,9 @@
      "type": "diagram",
      "id": "atlas2_techniques-d08",
      "caption": {
-      "en": "Fig. 8. Thermal profile of PCR (schematic; times and temperatures depend on the primers and polymerase)."
+      "en": "Fig. 8. Thermal profile of PCR (schematic; times and temperatures depend on the primers and polymerase).",
+      "ta": "படம் 8. PCR-இன் வெப்பச் சுயவிவரம் (வரைபடம்; நேரங்களும் வெப்பநிலைகளும் பிரைமர்கள், பாலிமரேஸைப் பொறுத்தவை).",
+      "ta_status": "draft"
      },
      "labels": [
       "40 °C",
@@ -462,51 +580,75 @@
      "type": "table",
      "header": [
       {
-       "en": "Cycle"
+       "en": "Cycle",
+       "ta": "சுழற்சி",
+       "ta_status": "draft"
       },
       {
-       "en": "Copies of target (theoretical, 2n)"
+       "en": "Copies of target (theoretical, 2n)",
+       "ta": "இலக்கின் நகல்கள் (கோட்பாட்டளவு, 2n)",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**0**"
+        "en": "**0**",
+        "ta": "**0**",
+        "ta_status": "draft"
        },
        {
-        "en": "1"
+        "en": "1",
+        "ta": "1",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**10**"
+        "en": "**10**",
+        "ta": "**10**",
+        "ta_status": "draft"
        },
        {
-        "en": "1,024"
+        "en": "1,024",
+        "ta": "1,024",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**20**"
+        "en": "**20**",
+        "ta": "**20**",
+        "ta_status": "draft"
        },
        {
-        "en": "1,048,576"
+        "en": "1,048,576",
+        "ta": "1,048,576",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**30**"
+        "en": "**30**",
+        "ta": "**30**",
+        "ta_status": "draft"
        },
        {
-        "en": "~1.07 × 10⁹"
+        "en": "~1.07 × 10⁹",
+        "ta": "~1.07 × 10⁹",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**35**"
+        "en": "**35**",
+        "ta": "**35**",
+        "ta_status": "draft"
        },
        {
-        "en": "~3.4 × 10¹⁰"
+        "en": "~3.4 × 10¹⁰",
+        "ta": "~3.4 × 10¹⁰",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -515,59 +657,87 @@
      "type": "table",
      "header": [
       {
-       "en": "PCR type"
+       "en": "PCR type",
+       "ta": "PCR வகை",
+       "ta_status": "draft"
       },
       {
-       "en": "Feature"
+       "en": "Feature",
+       "ta": "பண்பு",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**RT-PCR**"
+        "en": "**RT-PCR**",
+        "ta": "**RT-PCR**",
+        "ta_status": "draft"
        },
        {
-        "en": "RNA → cDNA first (reverse transcriptase), then PCR"
+        "en": "RNA → cDNA first (reverse transcriptase), then PCR",
+        "ta": "முதலில் RNA → cDNA (ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ்), பின்னர் PCR",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Real-time (qPCR)**"
+        "en": "**Real-time (qPCR)**",
+        "ta": "**நிகழ்நேர (qPCR)**",
+        "ta_status": "bracketed"
        },
        {
-        "en": "Fluorescence monitored each cycle; quantitative (Ct value)"
+        "en": "Fluorescence monitored each cycle; quantitative (Ct value)",
+        "ta": "ஒவ்வொரு சுழற்சியிலும் ஒளிர்வு கண்காணிக்கப்படுகிறது; அளவீட்டுக்குரியது (Ct மதிப்பு)",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Nested**"
+        "en": "**Nested**",
+        "ta": "**உள்ளமை (Nested)**",
+        "ta_status": "bracketed"
        },
        {
-        "en": "Two rounds with inner primers: more specific"
+        "en": "Two rounds with inner primers: more specific",
+        "ta": "உள் பிரைமர்களுடன் இருசுற்றுகள்: மிகவும் தனித்தன்மையானது",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Multiplex**"
+        "en": "**Multiplex**",
+        "ta": "**பலமுக (Multiplex)**",
+        "ta_status": "bracketed"
        },
        {
-        "en": "Several primer pairs in one tube"
+        "en": "Several primer pairs in one tube",
+        "ta": "ஒரே குழாயில் பல பிரைமர் இணைகள்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Inverse**"
+        "en": "**Inverse**",
+        "ta": "**தலைகீழ் (Inverse)**",
+        "ta_status": "bracketed"
        },
        {
-        "en": "Amplifies unknown DNA flanking a known sequence"
+        "en": "Amplifies unknown DNA flanking a known sequence",
+        "ta": "அறியப்பட்ட வரிசையின் இருபுறமும் உள்ள அறியப்படாத DNA-வைப் பெருக்குகிறது",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Colony PCR**"
+        "en": "**Colony PCR**",
+        "ta": "**குழும PCR**",
+        "ta_status": "draft"
        },
        {
-        "en": "Tests bacterial colonies for an insert"
+        "en": "Tests bacterial colonies for an insert",
+        "ta": "பாக்டீரியக் குழுமங்களில் செருகி உள்ளதா எனச் சோதிக்கிறது",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -578,20 +748,26 @@
   {
    "id": "s07",
    "title": {
-    "en": "Gel Electrophoresis and Blotting"
+    "en": "Gel Electrophoresis and Blotting",
+    "ta": "ஜெல் மின்னாற்பகுப்பும் பிளாட்டிங்கும்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Separate by size, then detect: this pair of ideas underlies most molecular biology."
+      "en": "Separate by size, then detect: this pair of ideas underlies most molecular biology.",
+      "ta": "அளவால் பிரித்து, பின் கண்டறிதல்: பெரும்பாலான மூலக்கூறு உயிரியலுக்கு அடிப்படையான இரு கருத்துகள்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "atlas2_techniques-d09",
      "caption": {
-      "en": "Fig. 9. An agarose gel. Lane labels and sizes are illustrative."
+      "en": "Fig. 9. An agarose gel. Lane labels and sizes are illustrative.",
+      "ta": "படம் 9. அகரோஸ் ஜெல். பாதைப் பெயர்களும் அளவுகளும் விளக்கத்துக்காக மட்டுமே.",
+      "ta_status": "draft"
      },
      "labels": [
       "Ladder",
@@ -618,87 +794,135 @@
      "type": "table",
      "header": [
       {
-       "en": ""
+       "en": "",
+       "ta": "",
+       "ta_status": "draft"
       },
       {
-       "en": "Southern"
+       "en": "Southern",
+       "ta": "சதர்ன்",
+       "ta_status": "draft"
       },
       {
-       "en": "Northern"
+       "en": "Northern",
+       "ta": "நார்தர்ன்",
+       "ta_status": "draft"
       },
       {
-       "en": "Western"
+       "en": "Western",
+       "ta": "வெஸ்டர்ன்",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Target**"
+        "en": "**Target**",
+        "ta": "**இலக்கு**",
+        "ta_status": "draft"
        },
        {
-        "en": "DNA"
+        "en": "DNA",
+        "ta": "DNA",
+        "ta_status": "draft"
        },
        {
-        "en": "RNA"
+        "en": "RNA",
+        "ta": "RNA",
+        "ta_status": "draft"
        },
        {
-        "en": "Protein"
+        "en": "Protein",
+        "ta": "புரதம்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Separation**"
+        "en": "**Separation**",
+        "ta": "**பிரித்தல்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Agarose gel (after digest)"
+        "en": "Agarose gel (after digest)",
+        "ta": "அகரோஸ் ஜெல் (செரித்த பின்)",
+        "ta_status": "draft"
        },
        {
-        "en": "Denaturing agarose (formaldehyde)"
+        "en": "Denaturing agarose (formaldehyde)",
+        "ta": "இயல்பிழக்கச் செய்யும் அகரோஸ் (ஃபார்மால்டிஹைடு)",
+        "ta_status": "draft"
        },
        {
-        "en": "SDS-PAGE"
+        "en": "SDS-PAGE",
+        "ta": "SDS-PAGE",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Membrane**"
+        "en": "**Membrane**",
+        "ta": "**சவ்வு**",
+        "ta_status": "draft"
        },
        {
-        "en": "Nylon / nitrocellulose"
+        "en": "Nylon / nitrocellulose",
+        "ta": "நைலான் / நைட்ரோசெல்லுலோஸ்",
+        "ta_status": "draft"
        },
        {
-        "en": "Nylon"
+        "en": "Nylon",
+        "ta": "நைலான்",
+        "ta_status": "draft"
        },
        {
-        "en": "PVDF / nitrocellulose"
+        "en": "PVDF / nitrocellulose",
+        "ta": "PVDF / நைட்ரோசெல்லுலோஸ்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Probe**"
+        "en": "**Probe**",
+        "ta": "**துருவி**",
+        "ta_status": "draft"
        },
        {
-        "en": "Labelled DNA"
+        "en": "Labelled DNA",
+        "ta": "குறியிடப்பட்ட DNA",
+        "ta_status": "draft"
        },
        {
-        "en": "Labelled DNA or RNA"
+        "en": "Labelled DNA or RNA",
+        "ta": "குறியிடப்பட்ட DNA அல்லது RNA",
+        "ta_status": "draft"
        },
        {
-        "en": "Primary antibody + enzyme-linked secondary"
+        "en": "Primary antibody + enzyme-linked secondary",
+        "ta": "முதல்நிலை எதிர்ப்பொருள் + நொதி இணைந்த இரண்டாம்நிலை எதிர்ப்பொருள்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Named after**"
+        "en": "**Named after**",
+        "ta": "**பெயர்க் காரணம்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Edwin Southern (1975)"
+        "en": "Edwin Southern (1975)",
+        "ta": "எட்வின் சதர்ன் (1975)",
+        "ta_status": "draft"
        },
        {
-        "en": "Pun on Southern"
+        "en": "Pun on Southern",
+        "ta": "சதர்ன் என்பதன் சொல்விளையாட்டு",
+        "ta_status": "draft"
        },
        {
-        "en": "Pun on Southern"
+        "en": "Pun on Southern",
+        "ta": "சதர்ன் என்பதன் சொல்விளையாட்டு",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -706,38 +930,50 @@
     {
      "type": "p",
      "text": {
-      "en": "**1. Separate**gel"
+      "en": "**1. Separate**gel",
+      "ta": "**1. பிரித்தல்**ஜெல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**2. Transfer**blot"
+      "en": "**2. Transfer**blot",
+      "ta": "**2. மாற்றுதல்**பிளாட்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**3. Probe**hybridise / bind"
+      "en": "**3. Probe**hybridise / bind",
+      "ta": "**3. துருவியிடல்**கலப்பினமாக்கு / பிணை",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**4. Detect**signal"
+      "en": "**4. Detect**signal",
+      "ta": "**4. கண்டறிதல்**சமிக்ஞை",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click a step to see what happens."
+      "en": "Click a step to see what happens.",
+      "ta": "ஒரு படியைத் தொட்டு என்ன நடக்கிறது என்பதை அறிக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**PG focus**\nWhy use formaldehyde in Northern gels? RNA forms secondary structure that would make migration depend on shape; formaldehyde keeps it denatured so that migration reflects length."
+      "en": "**PG focus**\nWhy use formaldehyde in Northern gels? RNA forms secondary structure that would make migration depend on shape; formaldehyde keeps it denatured so that migration reflects length.",
+      "ta": "**முதுநிலைக் கவனம்**\nநார்தர்ன் ஜெல்களில் ஃபார்மால்டிஹைடு ஏன் பயன்படுகிறது? RNA இரண்டாம்நிலை அமைப்பை உருவாக்குவதால் நகர்வு வடிவத்தைச் சார்ந்துவிடும்; ஃபார்மால்டிஹைடு அதை இயல்பிழந்த நிலையில் வைத்து, நகர்வு நீளத்தைப் பிரதிபலிக்கச் செய்கிறது.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -746,223 +982,297 @@
   {
    "id": "s08",
    "title": {
-    "en": "Summary & Exam Revision"
+    "en": "Summary & Exam Revision",
+    "ta": "சுருக்கமும் தேர்வு மீள்பார்வையும்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Key points and model answers likely to appear in university examinations."
+      "en": "Key points and model answers likely to appear in university examinations.",
+      "ta": "பல்கலைக்கழகத் தேர்வுகளில் வர வாய்ப்புள்ள முக்கியக் குறிப்புகளும் மாதிரி விடைகளும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Key exam points**"
+      "en": "**Key exam points**",
+      "ta": "**முக்கியத் தேர்வுக் குறிப்புகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "1"
+      "en": "1",
+      "ta": "1",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Cloning: isolate, cut, ligate, transform, select, screen, verify, grow."
+      "en": "Cloning: isolate, cut, ligate, transform, select, screen, verify, grow.",
+      "ta": "நகலாக்கம்: தனித்துப் பிரி, வெட்டு, இணை, தகவல் பரிமாற்றம் செய், தெரிவு செய், சலி, சரிபார், வளர்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "2"
+      "en": "2",
+      "ta": "2",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Transformation (bacteria), transfection (animal cells), transduction (virus), microinjection, electroporation, liposome fusion."
+      "en": "Transformation (bacteria), transfection (animal cells), transduction (virus), microinjection, electroporation, liposome fusion.",
+      "ta": "தகவல் பரிமாற்றம் (பாக்டீரியா), டிரான்ஸ்ஃபெக்ஷன் (விலங்கு செல்கள்), கடத்துதல் (வைரஸ்), நுண்செலுத்தல், மின்துளைப்பு, லிப்போசோம் இணைவு.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "3"
+      "en": "3",
+      "ta": "3",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Selection = survivors only; screening = tell clones apart."
+      "en": "Selection = survivors only; screening = tell clones apart.",
+      "ta": "தெரிவு = உயிர்ப்பவை மட்டும்; சலிக்கை = குளோன்களைப் பிரித்தறிதல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "4"
+      "en": "4",
+      "ta": "4",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Insertional inactivation: recombinant is Amp-R Tet-S when inserted in tet."
+      "en": "Insertional inactivation: recombinant is Amp-R Tet-S when inserted in tet.",
+      "ta": "உட்செருகுதல் செயலிழப்பு: tet-இல் செருகினால் மறுகூட்டிணைவு Amp-R Tet-S ஆகும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "5"
+      "en": "5",
+      "ta": "5",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Blue-white: lacZα, X-gal, IPTG; white = recombinant."
+      "en": "Blue-white: lacZα, X-gal, IPTG; white = recombinant.",
+      "ta": "நீல-வெள்ளை: lacZα, X-gal, IPTG; வெள்ளை = மறுகூட்டிணைவு.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "6"
+      "en": "6",
+      "ta": "6",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Colony hybridisation uses a labelled probe on a membrane lift of colonies."
+      "en": "Colony hybridisation uses a labelled probe on a membrane lift of colonies.",
+      "ta": "குழும கலப்பினமாக்கல் குழுமங்களின் சவ்வு ஒற்றியெடுப்பில் குறியிடப்பட்ட DNA துருவியைப் பயன்படுத்துகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "7"
+      "en": "7",
+      "ta": "7",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Sanger: ddNTP terminators; read from shortest to longest fragment."
+      "en": "Sanger: ddNTP terminators; read from shortest to longest fragment.",
+      "ta": "சேங்கர்: ddNTP முடிவுறுத்திகள்; குறுகிய துண்டிலிருந்து நீளமானது வரை வாசிக்க.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "8"
+      "en": "8",
+      "ta": "8",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "PCR: denature 94–95, anneal 50–65, extend 72 °C; 2n amplification."
+      "en": "PCR: denature 94–95, anneal 50–65, extend 72 °C; 2n amplification.",
+      "ta": "PCR: டினேச்சுரேஷன் 94–95, அனீலிங் 50–65, நீட்சி 72 °C; 2n பெருக்கம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "9"
+      "en": "9",
+      "ta": "9",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Southern DNA, Northern RNA, Western protein."
+      "en": "Southern DNA, Northern RNA, Western protein.",
+      "ta": "சதர்ன் DNA, நார்தர்ன் RNA, வெஸ்டர்ன் புரதம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Short-answer questions**"
+      "en": "**Short-answer questions**",
+      "ta": "**சுருக்க விடை வினாக்கள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click a question to reveal the model answer."
+      "en": "Click a question to reveal the model answer.",
+      "ta": "மாதிரி விடையை அறிய ஒரு வினாவைத் தொடுக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.1List the steps of gene cloning.▼"
+      "en": "Q.1List the steps of gene cloning.▼",
+      "ta": "வி.1மரபணு நகலாக்கத்தின் படிகளைப் பட்டியலிடுக.▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Isolate target DNA and vector; cut with restriction enzyme; ligate; introduce into host; select transformants; screen for recombinants; verify; grow and express."
+      "en": "Isolate target DNA and vector; cut with restriction enzyme; ligate; introduce into host; select transformants; screen for recombinants; verify; grow and express.",
+      "ta": "இலக்கு DNA-வையும் தாங்கிக்கடத்தியையும் தனித்துப் பிரித்தல்; ரெஸ்ட்ரிக்ஷன் நொதியால் வெட்டுதல்; இணைத்தல்; ஓம்புயிரிக்குள் செலுத்துதல்; மாற்றப்பட்டவற்றைத் தெரிவு செய்தல்; மறுகூட்டிணைவுகளைச் சலித்தல்; சரிபார்த்தல்; வளர்த்து வெளிப்படுத்துதல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.2Differentiate transformation, transfection and transduction.▼"
+      "en": "Q.2Differentiate transformation, transfection and transduction.▼",
+      "ta": "வி.2தகவல் பரிமாற்றம், டிரான்ஸ்ஃபெக்ஷன், கடத்துதல் ஆகியவற்றை வேறுபடுத்துக.▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Transformation: uptake of naked DNA by bacteria/yeast. Transfection: non-viral DNA into animal cells. Transduction: gene transfer by a virus."
+      "en": "Transformation: uptake of naked DNA by bacteria/yeast. Transfection: non-viral DNA into animal cells. Transduction: gene transfer by a virus.",
+      "ta": "தகவல் பரிமாற்றம்: பாக்டீரியா/ஈஸ்ட் வெற்று DNA-வை உள்ளெடுத்தல். டிரான்ஸ்ஃபெக்ஷன்: விலங்கு செல்களுக்குள் வைரஸ் அல்லாத DNA செலுத்துதல். கடத்துதல்: வைரஸ் மூலம் மரபணு மாற்றம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.3Explain blue-white screening.▼"
+      "en": "Q.3Explain blue-white screening.▼",
+      "ta": "வி.3நீல-வெள்ளைச் சலிக்கையை விளக்குக.▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "The vector carries lacZα in its MCS. Without insert, α-complementation makes active β-galactosidase which cleaves X-gal to blue. Insert disrupts lacZα, so colonies are white."
+      "en": "The vector carries lacZα in its MCS. Without insert, α-complementation makes active β-galactosidase which cleaves X-gal to blue. Insert disrupts lacZα, so colonies are white.",
+      "ta": "தாங்கிக்கடத்தியின் MCS-இல் lacZα உள்ளது. செருகி இல்லாதபோது, α-நிரப்புதலால் செயல்படும் β-கேலக்டோசிடேஸ் உருவாகி X-gal-ஐ நீல நிறமாகப் பிளக்கிறது. செருகி lacZα-வைச் சிதைப்பதால் குழுமங்கள் வெள்ளையாக இருக்கும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.4How does replica plating identify recombinants?▼"
+      "en": "Q.4How does replica plating identify recombinants?▼",
+      "ta": "வி.4படிநகல் தட்டு மறுகூட்டிணைவுகளை எவ்வாறு அடையாளம் காண்கிறது?▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Colonies from a master ampicillin plate are replicated on amp + tet. Colonies absent on the second plate have lost tet through insertional inactivation, so they carry inserts."
+      "en": "Colonies from a master ampicillin plate are replicated on amp + tet. Colonies absent on the second plate have lost tet through insertional inactivation, so they carry inserts.",
+      "ta": "ஆம்பிசிலின் முதன்மைத் தட்டிலிருந்து குழுமங்கள் amp + tet தட்டில் படிநகல் எடுக்கப்படுகின்றன. இரண்டாம் தட்டில் காணப்படாத குழுமங்கள் உட்செருகுதல் செயலிழப்பால் tet-ஐ இழந்துள்ளதால் செருகியைக் கொண்டுள்ளன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.5State the principle of Sanger sequencing.▼"
+      "en": "Q.5State the principle of Sanger sequencing.▼",
+      "ta": "வி.5சேங்கர் வரிசைப்படுத்தலின் கோட்பாட்டைக் கூறுக.▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "DNA polymerase extends a primer; occasional incorporation of ddNTPs (no 3′-OH) terminates chains. Fragments of all lengths are separated by size and the terminal base read."
+      "en": "DNA polymerase extends a primer; occasional incorporation of ddNTPs (no 3′-OH) terminates chains. Fragments of all lengths are separated by size and the terminal base read.",
+      "ta": "DNA பாலிமரேஸ் பிரைமரை நீட்டுகிறது; ddNTP-கள் (3′-OH இல்லாதவை) அவ்வப்போது இணைவதால் சங்கிலிகள் முடிவுறுகின்றன. எல்லா நீளத் துண்டுகளும் அளவால் பிரிக்கப்பட்டு, முடிவு காரணி வாசிக்கப்படுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.6Write the three steps of a PCR cycle with temperatures.▼"
+      "en": "Q.6Write the three steps of a PCR cycle with temperatures.▼",
+      "ta": "வி.6PCR சுழற்சியின் மூன்று படிகளை வெப்பநிலைகளுடன் எழுதுக.▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Denaturation 94–95 °C; annealing 50–65 °C; extension 72 °C (Taq)."
+      "en": "Denaturation 94–95 °C; annealing 50–65 °C; extension 72 °C (Taq).",
+      "ta": "டினேச்சுரேஷன் 94–95 °C; அனீலிங் 50–65 °C; நீட்சி 72 °C (Taq).",
+      "ta_status": "bracketed"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.7Why does DNA migrate to the anode in electrophoresis?▼"
+      "en": "Q.7Why does DNA migrate to the anode in electrophoresis?▼",
+      "ta": "வி.7மின்னாற்பகுப்பில் DNA ஏன் நேர்மின்முனையை நோக்கி நகர்கிறது?▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "The phosphate backbone carries a negative charge, so DNA moves toward the positive electrode; mobility decreases with log of size."
+      "en": "The phosphate backbone carries a negative charge, so DNA moves toward the positive electrode; mobility decreases with log of size.",
+      "ta": "பாஸ்பேட் முதுகெலும்பு எதிர்மின்னூட்டம் கொண்டிருப்பதால் DNA நேர்மின்முனையை நோக்கி நகர்கிறது; நகர்வுத்திறன் அளவின் மடக்கைக்கு ஏற்பக் குறைகிறது.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -971,121 +1281,173 @@
   {
    "id": "s09",
    "title": {
-    "en": "Key Terms & Glossary"
+    "en": "Key Terms & Glossary",
+    "ta": "முக்கியச் சொற்களும் சொற்களஞ்சியமும்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Important terms in simple language."
+      "en": "Important terms in simple language.",
+      "ta": "எளிய மொழியில் முக்கியச் சொற்கள்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Ligation"
+      "en": "Ligation",
+      "ta": "இணைப்பு",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Joining DNA ends with ligase."
+      "en": "Joining DNA ends with ligase.",
+      "ta": "லைகேஸால் DNA முனைகளை இணைத்தல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Competent cell"
+      "en": "Competent cell",
+      "ta": "தகுதி பெற்ற செல்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Cell treated to take up DNA."
+      "en": "Cell treated to take up DNA.",
+      "ta": "DNA-வை உள்ளெடுக்கும்படி சிகிச்சையளிக்கப்பட்ட செல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Selection"
+      "en": "Selection",
+      "ta": "தெரிவு",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Process allowing only vector-containing cells to grow."
+      "en": "Process allowing only vector-containing cells to grow.",
+      "ta": "தாங்கிக்கடத்தி உள்ள செல்கள் மட்டும் வளர அனுமதிக்கும் செயல்முறை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Screening"
+      "en": "Screening",
+      "ta": "சலிக்கை",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Process that identifies cells with insert among survivors."
+      "en": "Process that identifies cells with insert among survivors.",
+      "ta": "உயிர்ப்பவற்றில் செருகி உள்ள செல்களை அடையாளம் காணும் செயல்முறை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Replica plating"
+      "en": "Replica plating",
+      "ta": "படிநகல் தட்டு",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Transfer of colony pattern from one plate to others."
+      "en": "Transfer of colony pattern from one plate to others.",
+      "ta": "ஒரு தட்டிலுள்ள குழும அமைப்பை மற்ற தட்டுகளுக்கு மாற்றுதல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "X-gal"
+      "en": "X-gal",
+      "ta": "X-gal",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Chromogenic substrate cleaved by β-galactosidase."
+      "en": "Chromogenic substrate cleaved by β-galactosidase.",
+      "ta": "β-கேலக்டோசிடேஸால் பிளக்கப்படும் நிறம் தரும் அடிப்பொருள்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "IPTG"
+      "en": "IPTG",
+      "ta": "IPTG",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Non-metabolisable inducer of the lac operon."
+      "en": "Non-metabolisable inducer of the lac operon.",
+      "ta": "lac ஓபரானின் வளர்சிதை மாற்றமடையாத தூண்டி.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "ddNTP"
+      "en": "ddNTP",
+      "ta": "ddNTP",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Dideoxynucleotide that terminates DNA synthesis."
+      "en": "Dideoxynucleotide that terminates DNA synthesis.",
+      "ta": "DNA தொகுப்பை முடிவுறுத்தும் டைடியாக்ஸி நியுக்ளியோடைடு.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Amplicon"
+      "en": "Amplicon",
+      "ta": "ஆம்ப்ளிகான்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Product of PCR amplification."
+      "en": "Product of PCR amplification.",
+      "ta": "PCR பெருக்கத்தின் விளைபொருள்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Ct value"
+      "en": "Ct value",
+      "ta": "Ct மதிப்பு",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Cycle number at which fluorescence crosses threshold in qPCR."
+      "en": "Cycle number at which fluorescence crosses threshold in qPCR.",
+      "ta": "qPCR-இல் ஒளிர்வு வரம்பைக் கடக்கும் சுழற்சி எண்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Probe"
+      "en": "Probe",
+      "ta": "துருவி",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Labelled nucleic acid or antibody used for detection."
+      "en": "Labelled nucleic acid or antibody used for detection.",
+      "ta": "கண்டறிய உதவும் குறியிடப்பட்ட நியூக்ளிக் அமிலம் அல்லது எதிர்ப்பொருள்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Anode"
+      "en": "Anode",
+      "ta": "நேர்மின்முனை",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Positive electrode."
+      "en": "Positive electrode.",
+      "ta": "நேர்மின் முனை.",
+      "ta_status": "draft"
      }
     }
    ],
