@@ -21,10 +21,10 @@ jobs:
       - name: Extractor tests (Python)
         run: |
           pip install -r tools/requirements.txt pytest
-          python3 -I -m pytest tools/tests -q
+          python3 -m pytest tools/tests -q
       - name: Extractor is reproducible (regenerated chapters equal committed)
         run: |
-          for pair in I:1 II:2 III:3 IV:4 V:5; do python3 -I tools/extract/extract.py --unit ${pair%%:*} --out app/src/main/assets/content/u${pair##*:} --report /tmp/r.md --diagrams /tmp/d.json; done
+          for pair in I:1 II:2 III:3 IV:4 V:5; do python3 tools/extract/extract.py --unit ${pair%%:*} --out app/src/main/assets/content/u${pair##*:} --report /tmp/r.md --diagrams /tmp/d.json; done
           git diff --exit-code -- app/src/main/assets/content
       - name: Unit tests
         run: gradle :app:testDebugUnitTest --stacktrace
