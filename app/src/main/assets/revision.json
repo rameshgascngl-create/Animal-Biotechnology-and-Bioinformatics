@@ -1120,90 +1120,142 @@
   "sa": [
    {
     "q": "Define fermentation and state its industrial importance.",
-    "a": "Metabolic conversion of substrates by microorganisms into useful products such as alcohols, organic acids, antibiotics, enzymes and vitamins; it is renewable, energy-efficient and scalable."
+    "a": "Metabolic conversion of substrates by microorganisms into useful products such as alcohols, organic acids, antibiotics, enzymes and vitamins; it is renewable, energy-efficient and scalable.",
+    "q_ta": "நொதித்தலை வரையறுத்து, அதன் தொழில்துறை முக்கியத்துவத்தைக் குறிப்பிடுக.",
+    "a_ta": "நுண்ணுயிர்கள் வினைபடு பொருள்களை ஆல்கஹால்கள், கரிம அமிலங்கள், நுண்ணுயிர்க்கொல்லிகள், நொதிகள், வைட்டமின்கள் போன்ற பயனுள்ள பொருள்களாக வளர்சிதைமாற்றம் மூலம் மாற்றுதல்; இது புதுப்பிக்கத்தக்கது, ஆற்றல் திறன்மிக்கது, அளவு விரிவாக்கத்துக்குரியது."
    },
    {
     "q": "Compare aerobic and anaerobic fermentation.",
-    "a": "Aerobic needs oxygen and yields biomass, citric acid and vinegar; anaerobic occurs without oxygen and yields ethanol, lactic acid and gases."
+    "a": "Aerobic needs oxygen and yields biomass, citric acid and vinegar; anaerobic occurs without oxygen and yields ethanol, lactic acid and gases.",
+    "q_ta": "காற்றுள்ள, காற்றிலா நொதித்தல்களை ஒப்பிடுக.",
+    "a_ta": "காற்றுள்ளதற்கு ஆக்சிஜன் தேவை; உயிர்த்திரள், சிட்ரிக் அமிலம், வினிகரைத் தருகிறது; காற்றிலா நொதித்தல் ஆக்சிஜன் இன்றி நிகழ்ந்து எத்தனால், லாக்டிக் அமிலம், வாயுக்களைத் தருகிறது."
    },
    {
     "q": "Outline the industrial production of ethanol.",
-    "a": "Molasses or starch hydrolysate is diluted and adjusted to pH 4.5–5.5; yeast ferments at 28–32 °C for 24–72 h to 8–12% ethanol; the wash is distilled to about 95% and dehydrated to absolute alcohol."
+    "a": "Molasses or starch hydrolysate is diluted and adjusted to pH 4.5–5.5; yeast ferments at 28–32 °C for 24–72 h to 8–12% ethanol; the wash is distilled to about 95% and dehydrated to absolute alcohol.",
+    "q_ta": "எத்தனாலின் தொழில்துறை உற்பத்தியை விவரிக்க.",
+    "a_ta": "வெல்லப்பாகு அல்லது ஸ்டார்ச் நீராற்பகுப்புப் பொருள் நீர்த்து pH 4.5–5.5 ஆகச் சரிசெய்யப்படுகிறது; ஈஸ்ட் 28–32 °C-இல் 24–72 மணி நொதித்து 8–12% எத்தனாலைத் தருகிறது; கலவை வடிக்கப்பட்டு ~95%-க்கு வந்து, நீரகற்றப்பட்டு நீரற்ற ஆல்கஹாலாகிறது."
    },
    {
     "q": "Why is Saccharomyces cerevisiae preferred?",
-    "a": "High ethanol yield and tolerance, fast growth, facultative anaerobe, GRAS status and a well-characterised, engineerable genome."
+    "a": "High ethanol yield and tolerance, fast growth, facultative anaerobe, GRAS status and a well-characterised, engineerable genome.",
+    "q_ta": "Saccharomyces cerevisiae ஏன் விரும்பப்படுகிறது?",
+    "a_ta": "உயர் எத்தனால் விளைச்சலும் தாங்குதிறனும், விரைவான வளர்ச்சி, விருப்பவழி காற்றிலா உயிரி, GRAS தகுதி, நன்கு வகைப்படுத்தப்பட்ட, பொறியியல் செய்யக்கூடிய மரபணுத்தொகை."
    },
    {
     "q": "What factors inhibit fermentation?",
-    "a": "Product (ethanol) toxicity, osmotic stress, contamination, heavy metals and high temperature."
+    "a": "Product (ethanol) toxicity, osmotic stress, contamination, heavy metals and high temperature.",
+    "q_ta": "நொதித்தலைத் தடுக்கும் காரணிகள் யாவை?",
+    "a_ta": "விளைபொருள் (எத்தனால்) நச்சுத்தன்மை, ஊடுபரவல் அழுத்தம், மாசுபாடு, கனஉலோகங்கள், உயர் வெப்பநிலை."
    }
   ],
   "gl": [
    {
     "t": "Fermentation",
-    "d": "The microbial metabolic process of partial anaerobic breakdown of organic compounds (sugars) to produce energy, alcohol, organic acids, or gases without the net consumption of oxygen."
+    "d": "The microbial metabolic process of partial anaerobic breakdown of organic compounds (sugars) to produce energy, alcohol, organic acids, or gases without the net consumption of oxygen.",
+    "t_ta": "நொதித்தல்",
+    "d_ta": "ஆக்சிஜனை நிகர அளவில் பயன்படுத்தாமல், ஆற்றல், ஆல்கஹால், கரிம அமிலங்கள் அல்லது வாயுக்களை உருவாக்க, கரிமச் சேர்மங்களை (சர்க்கரைகள்) பகுதியளவில் காற்றின்றி உடைக்கும் நுண்ணுயிர் வளர்சிதைமாற்றச் செயல்முறை."
    },
    {
     "t": "Substrate",
-    "d": "The starting material or carbon source (e.g., glucose, sucrose, starch, molasses) that microorganisms use as food and energy source during fermentation."
+    "d": "The starting material or carbon source (e.g., glucose, sucrose, starch, molasses) that microorganisms use as food and energy source during fermentation.",
+    "t_ta": "வினைபடு பொருள்",
+    "d_ta": "நொதித்தலின்போது நுண்ணுயிர்கள் உணவாகவும் ஆற்றல் மூலமாகவும் பயன்படுத்தும் தொடக்கப் பொருள் அல்லது கார்பன் மூலம் (எ.கா. குளுக்கோஸ், சுக்ரோஸ், ஸ்டார்ச், வெல்லப்பாகு)."
    },
    {
     "t": "Inoculum",
-    "d": "A small quantity of active starter culture of the desired microorganism added to a fermentation medium to initiate the fermentation process."
+    "d": "A small quantity of active starter culture of the desired microorganism added to a fermentation medium to initiate the fermentation process.",
+    "t_ta": "உட்செலுத்து வளர்ப்பு",
+    "d_ta": "நொதித்தல் செயல்முறையைத் தொடங்க, நொதித்தல் ஊடகத்தில் சேர்க்கப்படும், விரும்பிய நுண்ணுயிரின் சிறிய அளவிலான செயல்படும் தொடக்க வளர்ப்பு."
    },
    {
     "t": "Bioreactor (Fermenter)",
-    "d": "A controlled vessel or tank designed to provide optimal physical and chemical conditions (temperature, pH, aeration) for large-scale microbial growth and product synthesis."
+    "d": "A controlled vessel or tank designed to provide optimal physical and chemical conditions (temperature, pH, aeration) for large-scale microbial growth and product synthesis.",
+    "t_ta": "உயிர்வினைக்கலன் (நொதிப்பி)",
+    "d_ta": "பெரிய அளவிலான நுண்ணுயிர் வளர்ச்சிக்கும் விளைபொருள் தொகுப்புக்கும் உகந்த இயற்பியல், வேதியியல் நிலைகளை (வெப்பநிலை, pH, காற்றூட்டம்) வழங்க வடிவமைக்கப்பட்ட கட்டுப்படுத்தப்பட்ட கலன் அல்லது தொட்டி."
    },
    {
     "t": "Saccharomyces cerevisiae",
-    "d": "The most widely used yeast in industrial fermentation. Also called baker's yeast or brewer's yeast; converts sugars to ethanol + CO₂ under anaerobic conditions. GRAS status."
+    "d": "The most widely used yeast in industrial fermentation. Also called baker's yeast or brewer's yeast; converts sugars to ethanol + CO₂ under anaerobic conditions. GRAS status.",
+    "t_ta": "Saccharomyces cerevisiae",
+    "d_ta": "தொழில்துறை நொதித்தலில் மிகப் பரவலாகப் பயன்படும் ஈஸ்ட். ரொட்டி ஈஸ்ட் அல்லது மது ஈஸ்ட் எனவும் அழைக்கப்படும்; காற்றிலா நிலைகளில் சர்க்கரைகளை எத்தனால் + CO₂ ஆக மாற்றும். GRAS தகுதி."
    },
    {
     "t": "Glycolysis (EMP Pathway)",
-    "d": "The first stage of sugar metabolism occurring in the cytoplasm, converting one glucose (6C) into two pyruvate molecules (3C) with a net gain of 2 ATP and 2 NADH."
+    "d": "The first stage of sugar metabolism occurring in the cytoplasm, converting one glucose (6C) into two pyruvate molecules (3C) with a net gain of 2 ATP and 2 NADH.",
+    "t_ta": "கிளைக்காலிசிஸ் (EMP பாதை)",
+    "d_ta": "சைட்டோபிளாசத்தில் நிகழும் சர்க்கரை வளர்சிதைமாற்றத்தின் முதல் நிலை; ஒரு குளுக்கோஸை (6C) இரு பைருவேட் மூலக்கூறுகளாக (3C) மாற்றி நிகரமாக 2 ATP, 2 NADH பெறுகிறது."
    },
    {
     "t": "Zymase",
-    "d": "The enzyme complex in yeast responsible for alcoholic fermentation. Includes key enzymes like pyruvate decarboxylase and alcohol dehydrogenase. Discovered by Eduard Buchner (1897)."
+    "d": "The enzyme complex in yeast responsible for alcoholic fermentation. Includes key enzymes like pyruvate decarboxylase and alcohol dehydrogenase. Discovered by Eduard Buchner (1897).",
+    "t_ta": "சைமேஸ்",
+    "d_ta": "ஈஸ்டில் ஆல்கஹால் நொதித்தலுக்குப் பொறுப்பான நொதிச் சிக்கல். பைருவேட் டிகார்பாக்சிலேஸ், ஆல்கஹால் டிஹைட்ரோஜினேஸ் போன்ற முக்கிய நொதிகளை உள்ளடக்கியது. எட்வார்டு புக்னரால் (1897) கண்டுபிடிக்கப்பட்டது."
    },
    {
     "t": "Alcohol Dehydrogenase (ADH)",
-    "d": "The enzyme that catalyses the final step of alcoholic fermentation: reducing acetaldehyde to ethanol using NADH, thereby regenerating NAD⁺ for continued glycolysis."
+    "d": "The enzyme that catalyses the final step of alcoholic fermentation: reducing acetaldehyde to ethanol using NADH, thereby regenerating NAD⁺ for continued glycolysis.",
+    "t_ta": "ஆல்கஹால் டிஹைட்ரோஜினேஸ் (ADH)",
+    "d_ta": "ஆல்கஹால் நொதித்தலின் இறுதிப் படியை வினையூக்கும் நொதி: NADH-ஐப் பயன்படுத்தி அசிட்டால்டிஹைடை எத்தனாலாகக் குறைத்து, கிளைக்காலிசிஸ் தொடர NAD⁺-ஐ மீளுருவாக்குகிறது."
    },
    {
     "t": "Molasses",
-    "d": "A thick dark syrup by-product of sugar refining containing 45–55% fermentable sugars. The cheapest and most commonly used substrate for industrial ethanol fermentation."
+    "d": "A thick dark syrup by-product of sugar refining containing 45–55% fermentable sugars. The cheapest and most commonly used substrate for industrial ethanol fermentation.",
+    "t_ta": "வெல்லப்பாகு",
+    "d_ta": "45–55% நொதிக்கும் சர்க்கரைகள் கொண்ட, சர்க்கரைச் சுத்திகரிப்பின் கெட்டியான, கருமையான பாகு வடிவத் துணைப்பொருள். தொழில்துறை எத்தனால் நொதித்தலுக்குப் பயன்படும் மிகக் குறைந்த விலை, மிகப் பொதுவான வினைபடு பொருள்."
    },
    {
     "t": "Saccharification",
-    "d": "The enzymatic hydrolysis of starch or cellulose into fermentable sugars (glucose, maltose) using amylase or cellulase enzymes as a preparatory step before fermentation."
+    "d": "The enzymatic hydrolysis of starch or cellulose into fermentable sugars (glucose, maltose) using amylase or cellulase enzymes as a preparatory step before fermentation.",
+    "t_ta": "சர்க்கரையாக்கம்",
+    "d_ta": "நொதித்தலுக்கு முந்தைய ஆயத்தப் படியாக, அமைலேஸ் அல்லது செல்லுலேஸ் நொதிகளால் ஸ்டார்ச் அல்லது செல்லுலோஸை நொதிக்கும் சர்க்கரைகளாக (குளுக்கோஸ், மால்டோஸ்) நொதிவழி நீராற்பகுத்தல்."
    },
    {
     "t": "Distillation",
-    "d": "A separation technique using differences in boiling points to separate ethanol (bp 78.4°C) from water (bp 100°C) in the fermented wash to concentrate the product."
+    "d": "A separation technique using differences in boiling points to separate ethanol (bp 78.4°C) from water (bp 100°C) in the fermented wash to concentrate the product.",
+    "t_ta": "வடித்தல்",
+    "d_ta": "நொதித்த கலவையிலிருந்து எத்தனாலை (கொதிநிலை 78.4°C) நீரிலிருந்து (கொதிநிலை 100°C) பிரித்துச் செறிவூட்ட, கொதிநிலை வேறுபாடுகளைப் பயன்படுத்தும் பிரிப்பு நுட்பம்."
    },
    {
     "t": "Azeotrope",
-    "d": "A constant-boiling mixture of ethanol and water (95.6% ethanol: 4.4% water) that cannot be separated further by simple distillation. Dehydration requires molecular sieves or azeotropic distillation."
+    "d": "A constant-boiling mixture of ethanol and water (95.6% ethanol: 4.4% water) that cannot be separated further by simple distillation. Dehydration requires molecular sieves or azeotropic distillation.",
+    "t_ta": "அசியோட்ரோப்",
+    "d_ta": "எத்தனால்–நீரின் மாறாக் கொதிநிலைக் கலவை (95.6% எத்தனால்: 4.4% நீர்); எளிய வடித்தலால் மேலும் பிரிக்க இயலாது. நீரகற்ற மூலக்கூறுச் சல்லடைகள் அல்லது அசியோட்ரோப்பிக் வடித்தல் தேவை."
    },
    {
     "t": "Pasteur Effect",
-    "d": "The inhibition of fermentation by oxygen, observed by Louis Pasteur. In aerobic conditions, yeast uses aerobic respiration; in anaerobic conditions, it switches to fermentation for energy."
+    "d": "The inhibition of fermentation by oxygen, observed by Louis Pasteur. In aerobic conditions, yeast uses aerobic respiration; in anaerobic conditions, it switches to fermentation for energy.",
+    "t_ta": "பாஸ்டர் விளைவு",
+    "d_ta": "லூயி பாஸ்டர் கண்டறிந்த, ஆக்சிஜனால் நொதித்தல் தடுக்கப்படுதல். காற்றுள்ள நிலைகளில் ஈஸ்ட் காற்றுள்ள சுவாசத்தைப் பயன்படுத்துகிறது; காற்றிலா நிலைகளில் ஆற்றலுக்காக நொதித்தலுக்கு மாறுகிறது."
    },
    {
     "t": "Bioethanol",
-    "d": "Ethanol produced by biological fermentation of biomass (sugarcane, corn, cellulose) used as a renewable fuel. Blended with petrol (E5–E20) to reduce fossil fuel dependence and GHG emissions."
+    "d": "Ethanol produced by biological fermentation of biomass (sugarcane, corn, cellulose) used as a renewable fuel. Blended with petrol (E5–E20) to reduce fossil fuel dependence and GHG emissions.",
+    "t_ta": "உயிரி எத்தனால்",
+    "d_ta": "உயிர்த்திரளின் (கரும்பு, சோளம், செல்லுலோஸ்) உயிரியல் நொதித்தலால் உற்பத்தி செய்யப்படும், புதுப்பிக்கத்தக்க எரிபொருளாகப் பயன்படும் எத்தனால். புதைபடிவ எரிபொருள் சார்பையும் GHG உமிழ்வையும் குறைக்க பெட்ரோலுடன் (E5–E20) கலக்கப்படுகிறது."
    },
    {
     "t": "NAD⁺ / NADH",
-    "d": "Nicotinamide adenine dinucleotide — a crucial electron carrier coenzyme. NAD⁺ (oxidised) accepts electrons in glycolysis to form NADH. In fermentation, NADH is re-oxidised back to NAD⁺, allowing glycolysis to continue."
+    "d": "Nicotinamide adenine dinucleotide — a crucial electron carrier coenzyme. NAD⁺ (oxidised) accepts electrons in glycolysis to form NADH. In fermentation, NADH is re-oxidised back to NAD⁺, allowing glycolysis to continue.",
+    "t_ta": "NAD⁺ / NADH",
+    "d_ta": "நிக்கோட்டினமைடு அடினைன் டைநியுக்ளியோடைடு — முக்கிய எலக்ட்ரான் ஏந்தி துணை நொதி. NAD⁺ (ஆக்சிஜனேற்றம் அடைந்தது) கிளைக்காலிசிஸில் எலக்ட்ரான்களை ஏற்று NADH-ஆகிறது. நொதித்தலில் NADH மீண்டும் NAD⁺ ஆக ஆக்சிஜனேற்றம் அடைந்து, கிளைக்காலிசிஸ் தொடர அனுமதிக்கிறது."
    },
    {
     "t": "Anhydrous Ethanol",
-    "d": "Ethanol with ≥99.5% purity (virtually water-free), produced by molecular sieve dehydration. Required for fuel-grade ethanol to prevent engine corrosion and phase separation when blended with petrol."
+    "d": "Ethanol with ≥99.5% purity (virtually water-free), produced by molecular sieve dehydration. Required for fuel-grade ethanol to prevent engine corrosion and phase separation when blended with petrol.",
+    "t_ta": "நீரற்ற எத்தனால்",
+    "d_ta": "≥99.5% தூய்மையுடைய (கிட்டத்தட்ட நீரற்ற) எத்தனால்; மூலக்கூறுச் சல்லடை நீரகற்றலால் உற்பத்தி செய்யப்படுகிறது. பெட்ரோலுடன் கலக்கும்போது இயந்திர அரிப்பையும் நிலைப் பிரிவையும் தடுக்க, எரிபொருள்-தர எத்தனாலுக்குத் தேவை."
    }
+  ],
+  "title_ta": "தொழில்துறை உயிரித் தொழில்நுட்பம் — நொதித்தலும் எத்தனால் உற்பத்தியும்",
+  "kp_ta": [
+   "தொழில்துறை நொதித்தல் புதுப்பிக்கத்தக்க மூலப்பொருள்களை மென்மையான நிலைகளில் பயன்படுத்துகிறது; உயிர்வினைக்கலன்களில் தொடர்ச்சியாக இயங்கும்.",
+   "ஆல்கஹால் நொதித்தல்: ஈஸ்ட் மூலம் குளுக்கோஸ் → எத்தனால் + CO₂; லாக்டிக் அமில பாக்டீரியா மூலம் லாக்டிக் அமிலம்; Clostridium மூலம் பியூட்டைரிக் அமிலம்; Propionibacterium மூலம் புரோப்பியோனிக் அமிலம்.",
+   "Saccharomyces cerevisiae: விருப்பவழி காற்றிலா உயிரி, GRAS, எத்தனால் தாங்குதிறன் 14–15% v/v, இரட்டிப்பு நேரம் சுமார் 90 நிமிடங்கள்.",
+   "எத்தனால் செயல்முறை அளவுகள்: வினைபடு பொருள் 10–18° பிரிக்ஸ், 28–32 °C, pH 4.5–5.5, 24–72 மணி, கலவையில் 8–12% எத்தனால், இறுதியில் 95–99.5%.",
+   "தடுப்பான்கள்: 14–15%-க்கு மேல் எத்தனால் நச்சுத்தன்மை, மிக உயர்ந்த சர்க்கரையால் ஊடுபரவல் அழுத்தம், மாசுபடுத்தும் பாக்டீரியா, கனஉலோகங்கள், 40 °C-க்கு மேல் வெப்பநிலை.",
+   "காற்றுள்ள நொதித்தல் உயிர்த்திரளையும் கரிம அமிலங்களையும் (சிட்ரிக் அமிலம், வினிகர், ஒற்றைச் செல் புரதம்) தருகிறது; காற்றிலா நொதித்தல் எத்தனால், லாக்டிக் அமிலம், வாயுக்களைத் தருகிறது.",
+   "உயிரி எத்தனால் SDG 7, 12, 13-ஐ ஆதரிக்கிறது; இந்தியாவில் தேசிய எத்தனால் கலப்புத் திட்டம் உள்ளது."
   ]
  },
  "superbug_bioremediation_bioweapons.html": {
@@ -1222,66 +1274,107 @@
   "sa": [
    {
     "q": "What is a superbug? Who developed it?",
-    "a": "A genetically engineered Pseudomonas carrying plasmids (CAM, OCT, XYL, NAH) for degrading different hydrocarbons, developed by A. M. Chakrabarty (General Electric) and patented after the US Supreme Court decision of 1980."
+    "a": "A genetically engineered Pseudomonas carrying plasmids (CAM, OCT, XYL, NAH) for degrading different hydrocarbons, developed by A. M. Chakrabarty (General Electric) and patented after the US Supreme Court decision of 1980.",
+    "q_ta": "சூப்பர்பக் என்றால் என்ன? அதை உருவாக்கியவர் யார்?",
+    "a_ta": "வெவ்வேறு ஹைட்ரோகார்பன்களைச் சிதைக்கும் பிளாஸ்மிடுகளை (CAM, OCT, XYL, NAH) சுமக்கும் மரபணுப் பொறியியல் செய்யப்பட்ட Pseudomonas; ஏ. எம். சக்ரவர்த்தியால் (ஜெனரல் எலெக்ட்ரிக்) உருவாக்கப்பட்டு, 1980 அமெரிக்க உச்ச நீதிமன்றத் தீர்ப்புக்குப் பின் காப்புரிமை பெற்றது."
    },
    {
     "q": "Define bioremediation. Distinguish biostimulation and bioaugmentation.",
-    "a": "Bioremediation is the use of living organisms to degrade or detoxify pollutants. Biostimulation adds nutrients/oxygen to stimulate native microbes; bioaugmentation adds specialised microbes."
+    "a": "Bioremediation is the use of living organisms to degrade or detoxify pollutants. Biostimulation adds nutrients/oxygen to stimulate native microbes; bioaugmentation adds specialised microbes.",
+    "q_ta": "உயிரிவழி சீரமைப்பை வரையறுக்க. உயிரித் தூண்டலையும் உயிரி மிகைப்பெருக்கத்தையும் வேறுபடுத்துக.",
+    "a_ta": "உயிரிவழி சீரமைப்பு என்பது மாசுபாடுகளைச் சிதைக்க அல்லது நச்சுநீக்க உயிருள்ள உயிரினங்களைப் பயன்படுத்துதல். உயிரித் தூண்டல் உள்ளூர் நுண்ணுயிர்களைத் தூண்ட ஊட்டச்சத்துகள்/ஆக்சிஜனைச் சேர்க்கிறது; உயிரி மிகைப்பெருக்கம் சிறப்பு நுண்ணுயிர்களைச் சேர்க்கிறது."
    },
    {
     "q": "Differentiate in situ and ex situ bioremediation.",
-    "a": "In situ treats pollutants at the site (bioventing, biosparging); ex situ treats excavated material elsewhere (land farming, biopiles, bioreactors)."
+    "a": "In situ treats pollutants at the site (bioventing, biosparging); ex situ treats excavated material elsewhere (land farming, biopiles, bioreactors).",
+    "q_ta": "இருந்த இடத்திலும் வேறிடத்திலும் நிகழும் உயிரிவழி சீரமைப்பை வேறுபடுத்துக.",
+    "a_ta": "இருந்த இடத்தில் (இன் சிட்டு) முறை மாசுபாடுகளை அவ்விடத்திலேயே சிகிச்சையளிக்கிறது (உயிரிக் காற்றூட்டம், உயிரிக் காற்றுப் பாய்ச்சல்); வேறிட (எக்ஸ் சிட்டு) முறை தோண்டி எடுத்த பொருளை வேறிடத்தில் சிகிச்சையளிக்கிறது (நில வேளாண்மை, உயிரிக் குவியல்கள், உயிர்வினைக்கலன்கள்)."
    },
    {
     "q": "What are bioweapons? Name two agents.",
-    "a": "Bioweapons use pathogens or toxins to cause disease. Examples: Bacillus anthracis (anthrax), Yersinia pestis (plague), variola virus, botulinum toxin."
+    "a": "Bioweapons use pathogens or toxins to cause disease. Examples: Bacillus anthracis (anthrax), Yersinia pestis (plague), variola virus, botulinum toxin.",
+    "q_ta": "உயிரி ஆயுதங்கள் என்றால் என்ன? இரு முகவர்களைக் குறிப்பிடுக.",
+    "a_ta": "உயிரி ஆயுதங்கள் நோயை உண்டாக்க நோய்க்காரணிகளையோ நச்சுகளையோ பயன்படுத்துகின்றன. எடுத்துக்காட்டுகள்: Bacillus anthracis (ஆந்த்ராக்ஸ்), Yersinia pestis (பிளேக்), வேரியோலா வைரஸ், பாட்டுலினம் நச்சு."
    },
    {
     "q": "Name the international treaty on biological weapons.",
-    "a": "The Biological Weapons Convention (opened 1972; in force 1975) prohibits development, production and stockpiling of biological and toxin weapons."
+    "a": "The Biological Weapons Convention (opened 1972; in force 1975) prohibits development, production and stockpiling of biological and toxin weapons.",
+    "q_ta": "உயிரியல் ஆயுதங்கள் தொடர்பான சர்வதேச ஒப்பந்தத்தின் பெயரைக் குறிப்பிடுக.",
+    "a_ta": "உயிரியல் ஆயுத உடன்படிக்கை (1972-இல் கையெழுத்துக்குத் திறக்கப்பட்டது; 1975-இல் நடைமுறைக்கு வந்தது) உயிரியல், நச்சு ஆயுதங்களின் உருவாக்கம், உற்பத்தி, சேமிப்பைத் தடை செய்கிறது."
    }
   ],
   "gl": [
    {
     "t": "Superbug",
-    "d": "Engineered oil-degrading bacterium; also a drug-resistant pathogen in medicine."
+    "d": "Engineered oil-degrading bacterium; also a drug-resistant pathogen in medicine.",
+    "t_ta": "சூப்பர்பக்",
+    "d_ta": "பொறியியல் செய்யப்பட்ட எண்ணெய்-சிதைக்கும் பாக்டீரியம்; மருத்துவத்தில் மருந்து எதிர்ப்பு நோய்க்காரணியையும் குறிக்கும்."
    },
    {
     "t": "Bioremediation",
-    "d": "Use of organisms to clean polluted environments."
+    "d": "Use of organisms to clean polluted environments.",
+    "t_ta": "உயிரிவழி சீரமைப்பு",
+    "d_ta": "மாசடைந்த சூழல்களைத் தூய்மையாக்க உயிரினங்களைப் பயன்படுத்துதல்."
    },
    {
     "t": "Biostimulation",
-    "d": "Stimulating native microbes by adding nutrients or oxygen."
+    "d": "Stimulating native microbes by adding nutrients or oxygen.",
+    "t_ta": "உயிரித் தூண்டல்",
+    "d_ta": "ஊட்டச்சத்துகள் அல்லது ஆக்சிஜனைச் சேர்த்து உள்ளூர் நுண்ணுயிர்களைத் தூண்டுதல்."
    },
    {
     "t": "Bioaugmentation",
-    "d": "Adding specialised microbes to a polluted site."
+    "d": "Adding specialised microbes to a polluted site.",
+    "t_ta": "உயிரி மிகைப்பெருக்கம்",
+    "d_ta": "மாசடைந்த இடத்தில் சிறப்பு நுண்ணுயிர்களைச் சேர்த்தல்."
    },
    {
     "t": "Phytoremediation",
-    "d": "Using plants to remove or degrade pollutants."
+    "d": "Using plants to remove or degrade pollutants.",
+    "t_ta": "தாவரவழி சீரமைப்பு",
+    "d_ta": "மாசுபாடுகளை நீக்க அல்லது சிதைக்கத் தாவரங்களைப் பயன்படுத்துதல்."
    },
    {
     "t": "Xenobiotic",
-    "d": "Foreign chemical not normally found in nature, e.g. pesticide."
+    "d": "Foreign chemical not normally found in nature, e.g. pesticide.",
+    "t_ta": "வெளிப்பொருள் வேதிச்சேர்மம் (ஜெனோபயாடிக்)",
+    "d_ta": "இயற்கையில் இயல்பாகக் காணப்படாத அயல் வேதிப்பொருள், எ.கா. பூச்சிக்கொல்லி."
    },
    {
     "t": "Biosparging",
-    "d": "Injecting air below the water table to stimulate aerobic degradation."
+    "d": "Injecting air below the water table to stimulate aerobic degradation.",
+    "t_ta": "உயிரிக் காற்றுப் பாய்ச்சல்",
+    "d_ta": "காற்றுள்ள சிதைவைத் தூண்ட, நீர்மட்டத்துக்குக் கீழே காற்றைச் செலுத்துதல்."
    },
    {
     "t": "Bioterrorism",
-    "d": "Deliberate release of pathogens or toxins to harm populations."
+    "d": "Deliberate release of pathogens or toxins to harm populations.",
+    "t_ta": "உயிரிப் பயங்கரவாதம்",
+    "d_ta": "மக்களுக்குத் தீங்கு விளைவிக்க நோய்க்காரணிகளையோ நச்சுகளையோ வேண்டுமென்றே வெளியிடுதல்."
    },
    {
     "t": "BWC",
-    "d": "Biological Weapons Convention (in force 1975)."
+    "d": "Biological Weapons Convention (in force 1975).",
+    "t_ta": "BWC",
+    "d_ta": "உயிரியல் ஆயுத உடன்படிக்கை (1975-இல் நடைமுறைக்கு வந்தது)."
    },
    {
     "t": "Biosafety level",
-    "d": "Containment level (BSL-1 to BSL-4) matching the risk of the agent."
+    "d": "Containment level (BSL-1 to BSL-4) matching the risk of the agent.",
+    "t_ta": "உயிர்ப் பாதுகாப்பு நிலை",
+    "d_ta": "முகவரின் ஆபத்துக்குப் பொருந்தும் கட்டுப்பாட்டு நிலை (BSL-1 முதல் BSL-4 வரை)."
    }
+  ],
+  "title_ta": "சூப்பர்பக், உயிரிவழி சீரமைப்பு, உயிரி ஆயுதங்கள்",
+  "kp_ta": [
+   "சூப்பர்பக் (சக்ரவர்த்தி): CAM, OCT, XYL, NAH பிளாஸ்மிடுகள் கொண்ட Pseudomonas; கச்சா எண்ணெயைச் சிதைக்கிறது.",
+   "டைமண்ட் எதிர் சக்ரவர்த்தி (1980): உயிருள்ள, பொறியியல் செய்யப்பட்ட உயிரினத்துக்கான முதல் காப்புரிமை.",
+   "உயிரிவழி சீரமைப்பு = உயிரியல் தூய்மையாக்கம்: உயிரித் தூண்டல், உயிரி மிகைப்பெருக்கம், தாவரவழி சீரமைப்பு.",
+   "இருந்த இடத்தில் (இன் சிட்டு) – வேறிடத்தில் (எக்ஸ் சிட்டு; தோண்டி எடுத்தது).",
+   "எக்ஸான் வால்டெஸ் 1989: உரம் மூலம் உயிரித் தூண்டல் சிதைவை விரைவுபடுத்தியது.",
+   "மருத்துவ 'சூப்பர்பக்குகள்' (MRSA, NDM-1) நுண்ணுயிர்க்கொல்லி எதிர்ப்பு நோய்க்காரணிகள் — வேறு பொருள்.",
+   "BWC (1975) உருவாக்கம், உற்பத்தி, சேமிப்பைத் தடை செய்கிறது; ஜெனீவா நெறிமுறை (1925) பயன்பாட்டைத் தடை செய்கிறது.",
+   "CDC பிரிவு A முகவர்கள்: ஆந்த்ராக்ஸ், பெரியம்மை, பிளேக், பாட்டுலிசம், டுலரீமியா, இரத்தப்போக்குக் காய்ச்சல்கள்."
   ]
  },
  "transgenic_animal_technology.html": {
@@ -1300,70 +1393,113 @@
   "sa": [
    {
     "q": "Define transgenic animal. Give two examples.",
-    "a": "A transgenic animal carries a foreign gene (transgene) stably integrated in its genome and transmitted to offspring. Examples: super mouse with rat growth hormone gene; goat producing human antithrombin in milk."
+    "a": "A transgenic animal carries a foreign gene (transgene) stably integrated in its genome and transmitted to offspring. Examples: super mouse with rat growth hormone gene; goat producing human antithrombin in milk.",
+    "q_ta": "மாற்றுமரபணு விலங்கை வரையறுக்க. இரு எடுத்துக்காட்டுகள் தருக.",
+    "a_ta": "மாற்றுமரபணு விலங்கு தன் மரபணுத்தொகையில் நிலையாக ஒருங்கிணைந்த, சந்ததிக்குக் கடத்தப்படும் அயல் மரபணுவைச் (மாற்றுமரபணு) சுமக்கிறது. எடுத்துக்காட்டுகள்: எலி வளர்ச்சி இயக்குநீர் மரபணு கொண்ட சூப்பர் சுண்டெலி; பாலில் மனித ஆன்டிதிராம்பினை உற்பத்தி செய்யும் வெள்ளாடு."
    },
    {
     "q": "Describe pronuclear microinjection.",
-    "a": "Fertilised eggs are collected from superovulated females; linearised transgene DNA is injected into the male pronucleus; embryos are transferred into pseudopregnant foster mothers; pups are screened by PCR or Southern blotting of tail DNA; founders are bred to establish a line."
+    "a": "Fertilised eggs are collected from superovulated females; linearised transgene DNA is injected into the male pronucleus; embryos are transferred into pseudopregnant foster mothers; pups are screened by PCR or Southern blotting of tail DNA; founders are bred to establish a line.",
+    "q_ta": "முன்கரு நுண்ணூசி செலுத்தலை விவரிக்க.",
+    "a_ta": "மிகை அண்டவிடுப்புச் செய்யப்பட்ட பெண்களிடமிருந்து கருவுற்ற முட்டைகள் சேகரிக்கப்படுகின்றன; நேரியலாக்கப்பட்ட மாற்றுமரபணு DNA ஆண் முன்கருவுக்குள் செலுத்தப்படுகிறது; கருக்கள் போலிக் கருவுற்ற வளர்ப்புத் தாய்மார்களுக்கு மாற்றப்படுகின்றன; வால் DNA-வின் PCR அல்லது சதர்ன் புளாட்டிங் மூலம் குட்டிகள் சலிக்கப்படுகின்றன; வரிசையை நிறுவ தோற்றுவிப்பாளர்கள் இனப்பெருக்கம் செய்யப்படுகின்றன."
    },
    {
     "q": "How is a knock-out mouse produced?",
-    "a": "A targeting vector containing neoR (inside the homology region) and tk (outside) is introduced into ES cells; positive-negative selection (G418 + ganciclovir) enriches homologous recombinants; selected ES cells are injected into blastocysts to give chimeras; germline transmission yields heterozygotes, which are inter-crossed to obtain homozygous knock-outs."
+    "a": "A targeting vector containing neoR (inside the homology region) and tk (outside) is introduced into ES cells; positive-negative selection (G418 + ganciclovir) enriches homologous recombinants; selected ES cells are injected into blastocysts to give chimeras; germline transmission yields heterozygotes, which are inter-crossed to obtain homozygous knock-outs.",
+    "q_ta": "நாக்-அவுட் சுண்டெலி எவ்வாறு உருவாக்கப்படுகிறது?",
+    "a_ta": "neoR (ஹோமாலஜிப் பகுதிக்குள்), tk (வெளியே) கொண்ட இலக்கிடல் தாங்கிக்கடத்தி ES செல்களுக்குள் செலுத்தப்படுகிறது; நேர்மறை-எதிர்மறைத் தேர்வு (G418 + கேன்சிக்ளோவிர்) ஹோமாலஜி மறுசேர்க்கைகளைச் செறிவூட்டுகிறது; தேர்ந்தெடுத்த ES செல்கள் பிளாஸ்டோசிஸ்ட்களில் செலுத்தப்பட்டுக் கலப்புயிரிகளைத் தருகின்றன; இனச்செல் வழிக் கடத்தல் மாறுபட்டமைவுகளைத் தருகிறது; அவை ஒன்றோடொன்று கலக்கப்பட்டு ஒத்தமைவு நாக்-அவுட்களைப் பெறுகின்றன."
    },
    {
     "q": "Explain how Dolly was created.",
-    "a": "A nucleus from a mammary gland cell of a Finn Dorset ewe was fused by electric pulse with an enucleated egg of a Scottish Blackface ewe; the embryo was cultured and implanted into a surrogate ewe. Dolly was born on 5 July 1996 at the Roslin Institute."
+    "a": "A nucleus from a mammary gland cell of a Finn Dorset ewe was fused by electric pulse with an enucleated egg of a Scottish Blackface ewe; the embryo was cultured and implanted into a surrogate ewe. Dolly was born on 5 July 1996 at the Roslin Institute.",
+    "q_ta": "டாலி எவ்வாறு உருவாக்கப்பட்டது என விளக்குக.",
+    "a_ta": "Finn Dorset பெண் செம்மறியின் பாலூட்டிச் சுரப்பிச் செல்லின் உட்கரு, Scottish Blackface பெண் செம்மறியின் உட்கரு நீக்கப்பட்ட முட்டையுடன் மின்துடிப்பால் இணைக்கப்பட்டது; கரு வளர்க்கப்பட்டு வாடகைப் பெண் செம்மறிக்குள் பொருத்தப்பட்டது. டாலி 1996 ஜூலை 5 அன்று ரோஸ்லின் நிறுவனத்தில் பிறந்தது."
    },
    {
     "q": "What is meant by animals as bioreactors?",
-    "a": "Transgenic animals that produce recombinant human proteins in milk or other body fluids under tissue-specific promoters, e.g. antithrombin in goat milk and alpha-1-antitrypsin in sheep milk."
+    "a": "Transgenic animals that produce recombinant human proteins in milk or other body fluids under tissue-specific promoters, e.g. antithrombin in goat milk and alpha-1-antitrypsin in sheep milk.",
+    "q_ta": "விலங்குகள் உயிர்வினைக்கலன்களாக என்பதன் பொருள் என்ன?",
+    "a_ta": "திசு-சார்ந்த ஊக்குவிப்பிகளின் கீழ் பாலிலோ பிற உடல் திரவங்களிலோ மறுசேர்க்கை மனிதப் புரதங்களை உற்பத்தி செய்யும் மாற்றுமரபணு விலங்குகள், எ.கா. வெள்ளாட்டுப் பாலில் ஆன்டிதிராம்பின், செம்மறிப் பாலில் ஆல்ஃபா-1-ஆன்டிடிரிப்சின்."
    },
    {
     "q": "Mention two ethical issues of transgenic animals.",
-    "a": "Animal suffering and welfare; ecological risk and gene flow; patenting of life forms."
+    "a": "Animal suffering and welfare; ecological risk and gene flow; patenting of life forms.",
+    "q_ta": "மாற்றுமரபணு விலங்குகளின் இரு நெறிமுறைச் சிக்கல்களைக் குறிப்பிடுக.",
+    "a_ta": "விலங்குத் துன்பமும் நலனும்; சூழலியல் ஆபத்தும் மரபணுப் பாய்வும்; உயிரினங்களுக்குக் காப்புரிமை."
    }
   ],
   "gl": [
    {
     "t": "Transgene",
-    "d": "A foreign gene introduced into an organism."
+    "d": "A foreign gene introduced into an organism.",
+    "t_ta": "மாற்றுமரபணு",
+    "d_ta": "ஓர் உயிரினத்துக்குள் செலுத்தப்பட்ட அயல் மரபணு."
    },
    {
     "t": "Founder",
-    "d": "The first transgenic animal of a line."
+    "d": "The first transgenic animal of a line.",
+    "t_ta": "தோற்றுவிப்பாளர்",
+    "d_ta": "ஒரு வரிசையின் முதல் மாற்றுமரபணு விலங்கு."
    },
    {
     "t": "Pseudopregnant female",
-    "d": "Female mated with a vasectomised male; her uterus is ready to receive embryos."
+    "d": "Female mated with a vasectomised male; her uterus is ready to receive embryos.",
+    "t_ta": "போலிக் கருவுற்ற பெண்",
+    "d_ta": "விந்துக்குழாய் அறுவைசெய்த ஆணுடன் இணைக்கப்பட்ட பெண்; அதன் கருப்பை கருக்களை ஏற்கத் தயாராக இருக்கும்."
    },
    {
     "t": "ES cell",
-    "d": "Embryonic stem cell: pluripotent cell from the blastocyst inner cell mass."
+    "d": "Embryonic stem cell: pluripotent cell from the blastocyst inner cell mass.",
+    "t_ta": "ES செல்",
+    "d_ta": "கருநிலைத் தண்டு செல்: பிளாஸ்டோசிஸ்டின் உள் செல் திரளிலிருந்து பெறப்படும் புளூரிபொட்டென்ட் செல்."
    },
    {
     "t": "Chimera",
-    "d": "An animal made of cells from two genetically different embryos."
+    "d": "An animal made of cells from two genetically different embryos.",
+    "t_ta": "கலப்புயிரி",
+    "d_ta": "மரபணு ரீதியாக வேறுபட்ட இரு கருக்களின் செல்களால் ஆன விலங்கு."
    },
    {
     "t": "Homologous recombination",
-    "d": "Exchange between identical DNA sequences, used for gene targeting."
+    "d": "Exchange between identical DNA sequences, used for gene targeting.",
+    "t_ta": "ஹோமாலஜி மறுசேர்க்கை",
+    "d_ta": "ஒத்த DNA வரிசைகளுக்கிடையேயான பரிமாற்றம்; மரபணு இலக்கிடலுக்குப் பயன்படுகிறது."
    },
    {
     "t": "SCNT",
-    "d": "Somatic cell nuclear transfer: transfer of a somatic nucleus into an enucleated egg."
+    "d": "Somatic cell nuclear transfer: transfer of a somatic nucleus into an enucleated egg.",
+    "t_ta": "SCNT",
+    "d_ta": "உடல் செல் உட்கரு மாற்றம்: உடல் செல்லின் உட்கருவை உட்கரு நீக்கப்பட்ட முட்டைக்குள் மாற்றுதல்."
    },
    {
     "t": "Knock-out",
-    "d": "Loss-of-function mutation created in a chosen gene."
+    "d": "Loss-of-function mutation created in a chosen gene.",
+    "t_ta": "நாக்-அவுட்",
+    "d_ta": "தேர்ந்தெடுத்த மரபணுவில் உருவாக்கப்படும் செயல் இழப்புத் திடீர்மாற்றம்."
    },
    {
     "t": "Pharming",
-    "d": "Production of pharmaceutical proteins in farm animals or plants."
+    "d": "Production of pharmaceutical proteins in farm animals or plants.",
+    "t_ta": "பார்மிங்",
+    "d_ta": "பண்ணை விலங்குகள் அல்லது தாவரங்களில் மருந்துப் புரதங்களை உற்பத்தி செய்தல்."
    },
    {
     "t": "Cre-lox",
-    "d": "Recombinase system for conditional (tissue-specific) gene deletion."
+    "d": "Recombinase system for conditional (tissue-specific) gene deletion.",
+    "t_ta": "Cre-lox",
+    "d_ta": "நிபந்தனைசார் (திசு-சார்ந்த) மரபணு நீக்கத்துக்கான ரீகாம்பினேஸ் அமைப்பு."
    }
+  ],
+  "title_ta": "மாற்றுமரபணு விலங்குத் தொழில்நுட்பம்",
+  "kp_ta": [
+   "மாற்றுமரபணு = அயல் மரபணு; மாற்றுமரபணு விலங்கு அதை இனச்செல் வரிசையில் சுமக்கிறது.",
+   "முறைகள்: முன்கரு நுண்ணூசி செலுத்தல், ES செல் வழி மாற்றம், ரெட்ரோவைரஸ் தாங்கிக்கடத்திகள், SCNT, CRISPR.",
+   "சூப்பர் சுண்டெலி (பால்மர், பிரிண்ட்சர், 1982): மெட்டலோதயோனீன் ஊக்குவிப்பியுடன் எலி GH மரபணு.",
+   "நாக்-அவுட்: ES செல்களில் ஹோமாலஜி மறுசேர்க்கை வழி மரபணு இலக்கிடல்; neo (நேர்மறை), tk (எதிர்மறை) தேர்வு.",
+   "உரோம நிறக் குறிப்பான்கள் (129 அகூட்டி ES செல்கள்; C57BL/6 கருப்பு விருந்தோம்பி) கலப்புயிரி நிலையையும் இனச்செல் வழிக் கடத்தலையும் வெளிப்படுத்துகின்றன.",
+   "டாலி (1996): பாலூட்டிச் சுரப்பிச் செல்லிலிருந்து SCNT; இயன் வில்மட், கீத் கேம்ப்பெல்; 277 கருக்களில் 1; 2003-இல் இறந்தது.",
+   "உயிர்வினைக்கலன்கள்: பாலூட்டிச் சுரப்பி-சார்ந்த ஊக்குவிப்பிகள்; ATryn (வெள்ளாடு), ஆல்ஃபா-1-ஆன்டிடிரிப்சின் (செம்மறி), லாக்டோஃபெரின் (பசு).",
+   "2007 நோபல் பரிசு: கபெச்சி, எவன்ஸ், ஸ்மித்தீஸ் (மரபணு இலக்கிடல்)."
   ]
  },
  "vectors_genetic_engineering.html": {
