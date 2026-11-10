@@ -2,19 +2,25 @@
  "id": "sanger_dna_sequencing",
  "unit": "II",
  "title": {
-  "en": "DNA Sequencing: Sanger Method"
+  "en": "DNA Sequencing: Sanger Method",
+  "ta": "DNA வரிசைப்படுத்தல்: சேங்கர் முறை",
+  "ta_status": "draft"
  },
  "sections": [
   {
    "id": "s01",
    "title": {
-    "en": "Overview"
+    "en": "Overview",
+    "ta": "மேலோட்டம்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Molecular Biology · B.Sc. Zoology / Biotechnology"
+      "en": "Molecular Biology · B.Sc. Zoology / Biotechnology",
+      "ta": "மூலக்கூறு உயிரியல் · B.Sc. விலங்கியல் / உயிரித் தொழில்நுட்பவியல்",
+      "ta_status": "draft"
      }
     }
    ]
@@ -22,25 +28,33 @@
   {
    "id": "s02",
    "title": {
-    "en": "DNA Sequencing: The Sanger Method"
+    "en": "DNA Sequencing: The Sanger Method",
+    "ta": "DNA வரிசைப்படுத்தல்: சேங்கர் முறை",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Chain Termination · Dideoxynucleotides · Fragment Separation · Sequence Reading"
+      "en": "Chain Termination · Dideoxynucleotides · Fragment Separation · Sequence Reading",
+      "ta": "சங்கிலி முடிவுறுத்தல் · டைடிஆக்சி நியுக்ளியோடைடுகள் · துண்டுப் பிரிப்பு · வரிசை வாசிப்பு",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Knowing the precise order of nucleotides in a DNA molecule was the dream that unlocked the entire genome era. Frederick Sanger's elegant chain-termination method — awarded the Nobel Prize in Chemistry in 1980 — made that dream a reality and became the gold standard of DNA sequencing for over three decades."
+      "en": "Knowing the precise order of nucleotides in a DNA molecule was the dream that unlocked the entire genome era. Frederick Sanger's elegant chain-termination method — awarded the Nobel Prize in Chemistry in 1980 — made that dream a reality and became the gold standard of DNA sequencing for over three decades.",
+      "ta": "DNA மூலக்கூறிலுள்ள நியுக்ளியோடைடுகளின் துல்லிய வரிசையை அறிவதே மரபணுத்தொகைய யுகத்தைத் திறந்த கனவு. 1980-இல் வேதியியலுக்கான நோபல் பரிசு பெற்ற ஃபிரெடெரிக் சேங்கரின் நேர்த்தியான சங்கிலி முடிவுறுத்தல் முறை அக்கனவை நனவாக்கி, மூன்று பத்தாண்டுகளுக்கு மேலாக DNA வரிசைப்படுத்தலின் தங்கத் தரநிலையாக விளங்கியது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🎯 Learning Objectives**"
+      "en": "**🎯 Learning Objectives**",
+      "ta": "**🎯 கற்றல் நோக்கங்கள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -48,22 +62,34 @@
      "ordered": false,
      "items": [
       {
-       "en": "Define DNA sequencing and explain its importance in biology and medicine."
+       "en": "Define DNA sequencing and explain its importance in biology and medicine.",
+       "ta": "DNA வரிசைப்படுத்தலை வரையறுத்து, உயிரியலிலும் மருத்துவத்திலும் அதன் முக்கியத்துவத்தை விளக்குதல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Explain the chain termination principle of the Sanger method."
+       "en": "Explain the chain termination principle of the Sanger method.",
+       "ta": "சேங்கர் முறையின் சங்கிலி முடிவுறுத்தல் கோட்பாட்டை விளக்குதல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Describe the role of dNTPs and ddNTPs in Sanger sequencing."
+       "en": "Describe the role of dNTPs and ddNTPs in Sanger sequencing.",
+       "ta": "சேங்கர் வரிசைப்படுத்தலில் dNTP-கள், ddNTP-களின் பங்கை விவரித்தல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "List all components required and describe each step of the Sanger method."
+       "en": "List all components required and describe each step of the Sanger method.",
+       "ta": "தேவையான அனைத்துக் கூறுகளையும் பட்டியலிட்டு, சேங்கர் முறையின் ஒவ்வொரு படியையும் விவரித்தல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Interpret a sequencing gel and fluorescent chromatogram output."
+       "en": "Interpret a sequencing gel and fluorescent chromatogram output.",
+       "ta": "வரிசைப்படுத்தும் ஜெல்லையும் ஒளிர்வு குரோமடோகிராம் வெளியீட்டையும் விளக்குதல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Discuss the advantages, limitations, and applications of Sanger sequencing."
+       "en": "Discuss the advantages, limitations, and applications of Sanger sequencing.",
+       "ta": "சேங்கர் வரிசைப்படுத்தலின் நன்மைகள், வரம்புகள், பயன்பாடுகளை விவாதித்தல்.",
+       "ta_status": "draft"
       }
      ]
     }
@@ -72,25 +98,33 @@
   {
    "id": "s03",
    "title": {
-    "en": "Introduction to DNA Sequencing"
+    "en": "Introduction to DNA Sequencing",
+    "ta": "DNA வரிசைப்படுத்தல் – அறிமுகம்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "**What Is DNA Sequencing?**"
+      "en": "**What Is DNA Sequencing?**",
+      "ta": "**DNA வரிசைப்படுத்தல் என்றால் என்ன?**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "DNA sequencing is the process of determining the precise order of the four nucleotide bases — **Adenine (A), Thymine (T), Guanine (G), and Cytosine (C)** — along a strand of DNA. The resulting sequence is the \"primary structure\" of that DNA molecule."
+      "en": "DNA sequencing is the process of determining the precise order of the four nucleotide bases — **Adenine (A), Thymine (T), Guanine (G), and Cytosine (C)** — along a strand of DNA. The resulting sequence is the \"primary structure\" of that DNA molecule.",
+      "ta": "DNA வரிசைப்படுத்தல் என்பது DNA இழையின் நான்கு நியுக்ளியோடைடு காரங்களான — **அடினின் (A), தைமின் (T), குவானின் (G), சைட்டோசின் (C)** — துல்லிய வரிசையை நிர்ணயிக்கும் செயல்முறை. கிடைக்கும் வரிசை அந்த DNA மூலக்கூறின் “முதல்நிலை அமைப்பு”.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Importance in Molecular Biology, Biotechnology, and Genetic Analysis**"
+      "en": "**Importance in Molecular Biology, Biotechnology, and Genetic Analysis**",
+      "ta": "**மூலக்கூறு உயிரியல், உயிரித் தொழில்நுட்பவியல், மரபியல் பகுப்பாய்வில் முக்கியத்துவம்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -98,42 +132,60 @@
      "ordered": false,
      "items": [
       {
-       "en": "**Gene identification:** Reveals the coding sequences, regulatory regions, and boundaries of genes."
+       "en": "**Gene identification:** Reveals the coding sequences, regulatory regions, and boundaries of genes.",
+       "ta": "**மரபணு அடையாளம்:** குறியீட்டு வரிசைகள், ஒழுங்குபடுத்தும் பகுதிகள், மரபணு எல்லைகளை வெளிப்படுத்தும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Mutation detection:** Identifies single nucleotide polymorphisms (SNPs) and disease-causing mutations."
+       "en": "**Mutation detection:** Identifies single nucleotide polymorphisms (SNPs) and disease-causing mutations.",
+       "ta": "**திடீர்மாற்றக் கண்டறிதல்:** ஒற்றை நியுக்ளியோடைடு பல்லுருவமைப்புகளையும் (SNP) நோய்க்காரணத் திடீர்மாற்றங்களையும் அடையாளம் காணும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Cloning verification:** Confirms that the correct gene was cloned into the vector and no errors were introduced by PCR."
+       "en": "**Cloning verification:** Confirms that the correct gene was cloned into the vector and no errors were introduced by PCR.",
+       "ta": "**குளோனாக்கச் சரிபார்ப்பு:** சரியான மரபணு தாங்கிக்கடத்தியில் குளோனாக்கப்பட்டதையும் PCR-ஆல் பிழைகள் புகவில்லை என்பதையும் உறுதிப்படுத்தும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Genome projects:** The entire Human Genome Project (3.2 Gb) was sequenced using Sanger sequencing."
+       "en": "**Genome projects:** The entire Human Genome Project (3.2 Gb) was sequenced using Sanger sequencing.",
+       "ta": "**மரபணுத்தொகையத் திட்டங்கள்:** முழு மனித மரபணுத்தொகையத் திட்டமும் (3.2 Gb) சேங்கர் வரிசைப்படுத்தலால் வரிசைப்படுத்தப்பட்டது.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Evolutionary studies:** Comparing sequences across species reveals phylogenetic relationships."
+       "en": "**Evolutionary studies:** Comparing sequences across species reveals phylogenetic relationships.",
+       "ta": "**பரிணாம ஆய்வுகள்:** சிற்றினங்களிடையே வரிசைகளை ஒப்பிட்டு இனவரலாற்றுத் தொடர்புகளை வெளிப்படுத்தும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Forensics and diagnostics:** Pathogen identification, cancer mutation profiling."
+       "en": "**Forensics and diagnostics:** Pathogen identification, cancer mutation profiling.",
+       "ta": "**தடயவியலும் நோயறிதலும்:** நோய்க்கிருமி அடையாளம், புற்றுநோய்த் திடீர்மாற்றச் சுயவிவரப் பதிவு.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Introduction to the Sanger Method**"
+      "en": "**Introduction to the Sanger Method**",
+      "ta": "சேங்கர் முறை – அறிமுகம்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "The Sanger method (also called the **chain-termination method or dideoxy method**) was developed by **Frederick Sanger** and colleagues at the MRC Laboratory of Molecular Biology, Cambridge, in 1977. It exploits the ability of DNA polymerase to synthesise a complementary copy of a template strand — but uses specially modified nucleotides that terminate synthesis at known positions, producing a series of DNA fragments whose sizes reveal the sequence."
+      "en": "The Sanger method (also called the **chain-termination method or dideoxy method**) was developed by **Frederick Sanger** and colleagues at the MRC Laboratory of Molecular Biology, Cambridge, in 1977. It exploits the ability of DNA polymerase to synthesise a complementary copy of a template strand — but uses specially modified nucleotides that terminate synthesis at known positions, producing a series of DNA fragments whose sizes reveal the sequence.",
+      "ta": "சேங்கர் முறை (**சங்கிலி முடிவுறுத்தல் முறை** அல்லது **டைடிஆக்சி முறை** எனவும் அழைக்கப்படும்) 1977-இல் கேம்பிரிட்ஜ் MRC மூலக்கூறு உயிரியல் ஆய்வகத்தில் **ஃபிரெடெரிக் சேங்கரும்** அவர் சகாக்களும் உருவாக்கியது. டெம்ப்ளேட் இழையின் நிரப்பு நகலைத் தொகுக்கும் DNA பாலிமரேஸின் திறனைப் பயன்படுத்துகிறது — ஆனால் தொகுப்பை அறியப்பட்ட இடங்களில் நிறுத்தும் சிறப்பாக மாற்றியமைத்த நியுக்ளியோடைடுகளைப் பயன்படுத்தி, அளவுகள் வரிசையை வெளிப்படுத்தும் DNA துண்டுத் தொடரை உருவாக்குகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Nobel Prize:** Frederick Sanger was awarded the Nobel Prize in Chemistry in **1980** for developing this method — his second Nobel Prize (he had won his first in 1958 for protein sequencing). Sanger is one of only four people to have received two Nobel Prizes."
+      "en": "**Nobel Prize:** Frederick Sanger was awarded the Nobel Prize in Chemistry in **1980** for developing this method — his second Nobel Prize (he had won his first in 1958 for protein sequencing). Sanger is one of only four people to have received two Nobel Prizes.",
+      "ta": "**நோபல் பரிசு:** இம்முறையை உருவாக்கியதற்காக ஃபிரெடெரிக் சேங்கருக்கு **1980-இல்** வேதியியல் நோபல் பரிசு வழங்கப்பட்டது — இது அவரது இரண்டாம் நோபல் பரிசு (முதலாவது 1958-இல் புரத வரிசைப்படுத்தலுக்காக). இரு நோபல் பரிசுகள் பெற்ற நால்வரில் சேங்கரும் ஒருவர்.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -143,43 +195,57 @@
   {
    "id": "s04",
    "title": {
-    "en": "Principle of the Sanger Method"
+    "en": "Principle of the Sanger Method",
+    "ta": "சேங்கர் முறையின் கோட்பாடு",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "**Chain Termination Principle**"
+      "en": "**Chain Termination Principle**",
+      "ta": "**சங்கிலி முடிவுறுத்தல் கோட்பாடு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "The Sanger method is based on the chain termination (or dideoxy termination) principle: when a **dideoxynucleotide triphosphate (ddNTP)** is incorporated into a growing DNA chain by DNA polymerase, synthesis **stops immediately** — the chain is \"terminated.\" This produces a population of DNA fragments of all possible lengths, each ending at a specific nucleotide type."
+      "en": "The Sanger method is based on the chain termination (or dideoxy termination) principle: when a **dideoxynucleotide triphosphate (ddNTP)** is incorporated into a growing DNA chain by DNA polymerase, synthesis **stops immediately** — the chain is \"terminated.\" This produces a population of DNA fragments of all possible lengths, each ending at a specific nucleotide type.",
+      "ta": "சேங்கர் முறை சங்கிலி முடிவுறுத்தல் (டைடிஆக்சி முடிவுறுத்தல்) கோட்பாட்டை அடிப்படையாகக் கொண்டது: **டைடிஆக்சிநியுக்ளியோடைடு டிரைபாஸ்பேட் (ddNTP)** வளரும் DNA சங்கிலியில் DNA பாலிமரேசால் இணைக்கப்படும்போது தொகுப்பு **உடனே நின்றுவிடும்** — சங்கிலி “முடிவுறுத்தப்படுகிறது”. இது சாத்தியமான அனைத்து நீளங்களிலும் DNA துண்டுகளின் தொகையை உருவாக்கும்; ஒவ்வொன்றும் குறிப்பிட்ட நியுக்ளியோடைடு வகையில் முடியும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Role of DNA Polymerase**"
+      "en": "**Role of DNA Polymerase**",
+      "ta": "**DNA பாலிமரேஸின் பங்கு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**DNA polymerase** (modified DNA Pol I — Klenow fragment, or thermostable Taq/T7 polymerase) reads the template strand in the **3'→5' direction** and synthesises a new complementary strand in the **5'→3' direction** by adding dNTPs to the 3'-OH of the growing chain. It requires a primer to initiate synthesis."
+      "en": "**DNA polymerase** (modified DNA Pol I — Klenow fragment, or thermostable Taq/T7 polymerase) reads the template strand in the **3'→5' direction** and synthesises a new complementary strand in the **5'→3' direction** by adding dNTPs to the 3'-OH of the growing chain. It requires a primer to initiate synthesis.",
+      "ta": "**DNA பாலிமரேஸ்** (மாற்றிய DNA பாலிமரேஸ் I — கிளினோ துண்டு, அல்லது வெப்பம் தாங்கும் Taq/T7 பாலிமரேஸ்) டெம்ப்ளேட் இழையை **3'→5' திசையில்** வாசித்து, வளரும் சங்கிலியின் 3'-OH-இல் dNTP-களைச் சேர்த்துப் புதிய நிரப்பு இழையை **5'→3' திசையில்** தொகுக்கிறது. தொகுப்பைத் தொடங்க பிரைமர் தேவை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Role of Normal Deoxynucleotides (dNTPs)**"
+      "en": "**Role of Normal Deoxynucleotides (dNTPs)**",
+      "ta": "**இயல்பான டீஆக்சிநியுக்ளியோடைடுகளின் (dNTP) பங்கு**",
+      "ta_status": "bracketed"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "The four standard deoxynucleotide triphosphates — **dATP, dTTP, dGTP, dCTP** — are incorporated normally into the growing chain. Each dNTP provides:"
+      "en": "The four standard deoxynucleotide triphosphates — **dATP, dTTP, dGTP, dCTP** — are incorporated normally into the growing chain. Each dNTP provides:",
+      "ta": "நான்கு நிலையான டீஆக்சிநியுக்ளியோடைடு டிரைபாஸ்பேட்டுகள் — **dATP, dTTP, dGTP, dCTP** — வளரும் சங்கிலியில் இயல்பாக இணைக்கப்படுகின்றன. ஒவ்வொரு dNTP-யும் தருவது:",
+      "ta_status": "draft"
      }
     },
     {
@@ -187,38 +253,52 @@
      "ordered": false,
      "items": [
       {
-       "en": "The **nucleobase** for specific base pairing with the template."
+       "en": "The **nucleobase** for specific base pairing with the template.",
+       "ta": "டெம்ப்ளேட்டுடன் குறிப்பிட்ட காரப் பிணைப்புக்கான **நியுக்ளியோகாரம்**.",
+       "ta_status": "draft"
       },
       {
-       "en": "The **deoxyribose sugar** with a free **3'-OH group** that allows the next nucleotide to be added."
+       "en": "The **deoxyribose sugar** with a free **3'-OH group** that allows the next nucleotide to be added.",
+       "ta": "அடுத்த நியுக்ளியோடைடைச் சேர்க்க அனுமதிக்கும் தனி **3'-OH தொகுதி** கொண்ட **டீஆக்சிரைபோஸ் சர்க்கரை**.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Three phosphate groups** — the outer two are cleaved to release energy for bond formation."
+       "en": "**Three phosphate groups** — the outer two are cleaved to release energy for bond formation.",
+       "ta": "**மூன்று பாஸ்பேட் தொகுதிகள்** — வெளிப்புற இரண்டு பிணைப்பு உருவாக்க ஆற்றலை விடுவிக்கப் பிளக்கப்படும்.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Role of Dideoxynucleotides (ddNTPs)**"
+      "en": "**Role of Dideoxynucleotides (ddNTPs)**",
+      "ta": "**டைடிஆக்சிநியுக்ளியோடைடுகளின் (ddNTP) பங்கு**",
+      "ta_status": "bracketed"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "The four **dideoxynucleotide triphosphates** — **ddATP, ddTTP, ddGTP, ddCTP** — are chemically modified analogues of normal dNTPs. They are identical to dNTPs _except_ that the **3'-OH group on the deoxyribose sugar is replaced by a hydrogen atom (3'-H)**."
+      "en": "The four **dideoxynucleotide triphosphates** — **ddATP, ddTTP, ddGTP, ddCTP** — are chemically modified analogues of normal dNTPs. They are identical to dNTPs _except_ that the **3'-OH group on the deoxyribose sugar is replaced by a hydrogen atom (3'-H)**.",
+      "ta": "நான்கு **டைடிஆக்சிநியுக்ளியோடைடு டிரைபாஸ்பேட்டுகள்** — **ddATP, ddTTP, ddGTP, ddCTP** — இயல்பான dNTP-களின் வேதியியல் மாற்றிய ஒப்புமைகள். டீஆக்சிரைபோஸ் சர்க்கரையின் **3'-OH தொகுதி ஹைட்ரஜன் அணுவால் (3'-H) மாற்றப்பட்டிருப்பது** தவிர மற்றபடி dNTP-களுக்கு ஒத்தவை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Why Chain Elongation Stops When ddNTP Is Added**"
+      "en": "**Why Chain Elongation Stops When ddNTP Is Added**",
+      "ta": "**ddNTP சேரும்போது சங்கிலி நீட்சி ஏன் நின்றுவிடுகிறது**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "DNA synthesis requires a free **3'-OH group** on the last nucleotide to form a new **3'–5' phosphodiester bond** with the incoming nucleotide. When a ddNTP is incorporated:"
+      "en": "DNA synthesis requires a free **3'-OH group** on the last nucleotide to form a new **3'–5' phosphodiester bond** with the incoming nucleotide. When a ddNTP is incorporated:",
+      "ta": "DNA தொகுப்புக்கு, வரும் நியுக்ளியோடைடுடன் புதிய **3'–5' பாஸ்போடைஎஸ்டர் பிணைப்பை** உருவாக்க, கடைசி நியுக்ளியோடைடில் தனி **3'-OH தொகுதி** தேவை. ddNTP இணையும்போது:",
+      "ta_status": "draft"
      }
     },
     {
@@ -226,19 +306,29 @@
      "ordered": false,
      "items": [
       {
-       "en": "It is paired with the complementary template base (e.g., ddATP pairs with T on template)."
+       "en": "It is paired with the complementary template base (e.g., ddATP pairs with T on template).",
+       "ta": "அது நிரப்பு டெம்ப்ளேட் காரத்துடன் இணைகிறது (எ.கா. ddATP டெம்ப்ளேட்டிலுள்ள T உடன் இணையும்).",
+       "ta_status": "draft"
       },
       {
-       "en": "The ddNTP is added to the 3' end of the growing chain via its 5'-phosphate."
+       "en": "The ddNTP is added to the 3' end of the growing chain via its 5'-phosphate.",
+       "ta": "ddNTP தன் 5'-பாஸ்பேட் வழியாக வளரும் சங்கிலியின் 3' முனையில் சேர்க்கப்படுகிறது.",
+       "ta_status": "draft"
       },
       {
-       "en": "However, the ddNTP has **no 3'-OH group** (only a 3'-H)."
+       "en": "However, the ddNTP has **no 3'-OH group** (only a 3'-H).",
+       "ta": "ஆனால் ddNTP-யில் **3'-OH தொகுதி இல்லை** (3'-H மட்டுமே).",
+       "ta_status": "draft"
       },
       {
-       "en": "Without a 3'-OH, DNA polymerase **cannot form the next phosphodiester bond**."
+       "en": "Without a 3'-OH, DNA polymerase **cannot form the next phosphodiester bond**.",
+       "ta": "3'-OH இல்லாமல் DNA பாலிமரேசால் **அடுத்த பாஸ்போடைஎஸ்டர் பிணைப்பை உருவாக்க இயலாது**.",
+       "ta_status": "draft"
       },
       {
-       "en": "Result: DNA synthesis **terminates permanently** at that position."
+       "en": "Result: DNA synthesis **terminates permanently** at that position.",
+       "ta": "விளைவு: அவ்விடத்தில் DNA தொகுப்பு **நிரந்தரமாக முடிவுறுகிறது**.",
+       "ta_status": "draft"
       }
      ]
     },
@@ -246,7 +336,9 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Key Equation:** dNTP (3'-OH) → chain continues | ddNTP (3'-H, no OH) → chain TERMINATES immediately."
+      "en": "**Key Equation:** dNTP (3'-OH) → chain continues | ddNTP (3'-H, no OH) → chain TERMINATES immediately.",
+      "ta": "**முக்கிய சமன்பாடு:** dNTP (3'-OH) → சங்கிலி தொடரும் | ddNTP (3'-H, OH இல்லை) → சங்கிலி உடனே **முடிவுறும்**.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -256,56 +348,72 @@
   {
    "id": "s05",
    "title": {
-    "en": "Components Required for Sanger Sequencing"
+    "en": "Components Required for Sanger Sequencing",
+    "ta": "சேங்கர் வரிசைப்படுத்தலுக்குத் தேவையான கூறுகள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**1. Template DNA**\nThe single-stranded or denatured double-stranded DNA whose sequence is to be determined. Must be pure and in sufficient quantity. Can be a plasmid, PCR product, or genomic fragment."
+      "en": "**1. Template DNA**\nThe single-stranded or denatured double-stranded DNA whose sequence is to be determined. Must be pure and in sufficient quantity. Can be a plasmid, PCR product, or genomic fragment.",
+      "ta": "**1. டெம்ப்ளேட் DNA**\nவரிசை நிர்ணயிக்கப்படவேண்டிய ஒற்றை இழை அல்லது இயல்பிழந்த இரட்டை இழை DNA. தூய்மையாகவும் போதிய அளவிலும் இருக்க வேண்டும். பிளாஸ்மிட், PCR விளைபொருள் அல்லது மரபணு தொகையத் துண்டாக இருக்கலாம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**2. Primer**\nA short synthetic oligonucleotide (18–25 nt) complementary to the template. Provides the free 3'-OH needed for DNA polymerase to start synthesis. Defines the starting point and orientation of sequencing."
+      "en": "**2. Primer**\nA short synthetic oligonucleotide (18–25 nt) complementary to the template. Provides the free 3'-OH needed for DNA polymerase to start synthesis. Defines the starting point and orientation of sequencing.",
+      "ta": "**2. பிரைமர்**\nடெம்ப்ளேட்டுக்கு நிரப்பான குறுகிய செயற்கை ஒலிகோநியுக்ளியோடைடு (18–25 nt). DNA பாலிமரேஸ் தொகுப்பைத் தொடங்கத் தேவையான தனி 3'-OH-ஐத் தரும். வரிசைப்படுத்தலின் தொடக்கப் புள்ளியையும் திசையையும் வரையறுக்கும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "tip",
      "text": {
-      "en": "**3. DNA Polymerase**\nSynthesises the new complementary strand. Requires high fidelity and processivity. Klenow fragment (original), T7 DNA polymerase, or Taq polymerase (cycle sequencing). Lacks 5'→3' exonuclease activity (Klenow/T7)."
+      "en": "**3. DNA Polymerase**\nSynthesises the new complementary strand. Requires high fidelity and processivity. Klenow fragment (original), T7 DNA polymerase, or Taq polymerase (cycle sequencing). Lacks 5'→3' exonuclease activity (Klenow/T7).",
+      "ta": "**3. DNA பாலிமரேஸ்**\nபுதிய நிரப்பு இழையைத் தொகுக்கும். உயர் துல்லியமும் தொடர்ச்சித்திறனும் தேவை. கிளினோ துண்டு (தொடக்கம்), T7 DNA பாலிமரேஸ் அல்லது Taq பாலிமரேஸ் (சுழற்சி வரிசைப்படுத்தல்). 5'→3' எக்ஸோநியுக்ளியேஸ் செயல் இல்லை (கிளினோ/T7).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**4. dNTPs (all four)**\ndATP, dTTP, dGTP, dCTP — the normal building blocks for DNA synthesis. Incorporated throughout the growing chain, providing 3'-OH for chain elongation."
+      "en": "**4. dNTPs (all four)**\ndATP, dTTP, dGTP, dCTP — the normal building blocks for DNA synthesis. Incorporated throughout the growing chain, providing 3'-OH for chain elongation.",
+      "ta": "**4. dNTP-கள் (நான்கும்)**\ndATP, dTTP, dGTP, dCTP — DNA தொகுப்பின் இயல்பான கட்டுமானக் கூறுகள். வளரும் சங்கிலி முழுவதும் இணைக்கப்பட்டு, சங்கிலி நீட்சிக்கு 3'-OH-ஐத் தரும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**5. ddNTPs (chain terminators)**\nddATP, ddTTP, ddGTP, ddCTP — added at low concentration relative to dNTPs. Each terminates the chain when incorporated. In modern fluorescent Sanger, each ddNTP carries a different fluorescent dye."
+      "en": "**5. ddNTPs (chain terminators)**\nddATP, ddTTP, ddGTP, ddCTP — added at low concentration relative to dNTPs. Each terminates the chain when incorporated. In modern fluorescent Sanger, each ddNTP carries a different fluorescent dye.",
+      "ta": "**5. ddNTP-கள் (சங்கிலி முடிவுறுத்திகள்)**\nddATP, ddTTP, ddGTP, ddCTP — dNTP-களுடன் ஒப்பிடக் குறைந்த செறிவில் சேர்க்கப்படும். ஒவ்வொன்றும் இணையும்போது சங்கிலியை முடிவுறுத்தும். நவீன ஒளிர்வு சேங்கரில் ஒவ்வொரு ddNTP-யும் வேறுபட்ட ஒளிர்வுச் சாயத்தைச் சுமக்கும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**6. Buffer & Conditions**\nAppropriate buffer (Tris-HCl, pH 7.5–8.0), MgCl₂ (cofactor for polymerase), denaturing agent (formamide for gel), reaction temperature (37°C for Klenow; 96°C denaturation for cycle sequencing)."
+      "en": "**6. Buffer & Conditions**\nAppropriate buffer (Tris-HCl, pH 7.5–8.0), MgCl₂ (cofactor for polymerase), denaturing agent (formamide for gel), reaction temperature (37°C for Klenow; 96°C denaturation for cycle sequencing).",
+      "ta": "**6. இடையகமும் நிலைகளும்**\nஏற்ற இடையகம் (டிரிஸ்-HCl, pH 7.5–8.0), MgCl₂ (பாலிமரேஸின் துணைக்காரணி), இயல்பிழக்கச் செய்யும் காரணி (ஜெல்லுக்கு ஃபார்மாமைடு), வினை வெப்பநிலை (கிளினோவுக்கு 37°C; சுழற்சி வரிசைப்படுத்தலுக்கு 96°C டினேச்சுரேஷன்).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Key Ratio:** ddNTPs are added at a concentration approximately **100× lower** than dNTPs. This ensures that ddNTPs are incorporated randomly and infrequently — producing fragments of all possible lengths, not just very short ones."
+      "en": "**Key Ratio:** ddNTPs are added at a concentration approximately **100× lower** than dNTPs. This ensures that ddNTPs are incorporated randomly and infrequently — producing fragments of all possible lengths, not just very short ones.",
+      "ta": "**முக்கிய விகிதம்:** ddNTP-கள் dNTP-களைவிட ஏறத்தாழ **100 மடங்கு குறைந்த** செறிவில் சேர்க்கப்படுகின்றன. இதனால் ddNTP-கள் சீரற்ற முறையிலும் அரிதாகவும் இணைந்து, மிகக் குறுகிய துண்டுகள் மட்டுமின்றிச் சாத்தியமான அனைத்து நீளங்களிலும் துண்டுகள் உருவாகும்.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -315,133 +423,129 @@
   {
    "id": "s06",
    "title": {
-    "en": "Steps in Sanger Sequencing"
+    "en": "Steps in Sanger Sequencing",
+    "ta": "சேங்கர் வரிசைப்படுத்தலின் படிகள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "1"
+      "en": "1",
+      "ta": "1",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Denaturation of Template DNA"
+      "en": "Denaturation of Template DNA",
+      "ta": "டெம்ப்ளேட் DNA டினேச்சுரேஷன்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "The double-stranded template DNA is denatured into single strands by heating (95–96°C) or by treatment with alkali (NaOH). Single-stranded template is essential because DNA polymerase can only copy a single-stranded template."
+      "en": "The double-stranded template DNA is denatured into single strands by heating (95–96°C) or by treatment with alkali (NaOH). Single-stranded template is essential because DNA polymerase can only copy a single-stranded template.",
+      "ta": "இரட்டை இழை டெம்ப்ளேட் DNA வெப்பமேற்றலால் (95–96°C) அல்லது காரத்தால் (NaOH) ஒற்றை இழைகளாக இயல்பிழக்கச் செய்யப்படுகிறது. DNA பாலிமரேஸ் ஒற்றை இழை டெம்ப்ளேட்டை மட்டுமே நகலெடுக்க முடியும் என்பதால் ஒற்றை இழை டெம்ப்ளேட் இன்றியமையாதது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "2"
+      "en": "2",
+      "ta": "2",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Primer Annealing"
+      "en": "Primer Annealing",
+      "ta": "பிரைமர் அனீலிங்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "A specific oligonucleotide primer (18–25 nt) is annealed to the template at a complementary sequence upstream of the region to be sequenced. The temperature is lowered (50–60°C) to allow hydrogen bonding between the primer and template."
+      "en": "A specific oligonucleotide primer (18–25 nt) is annealed to the template at a complementary sequence upstream of the region to be sequenced. The temperature is lowered (50–60°C) to allow hydrogen bonding between the primer and template.",
+      "ta": "வரிசைப்படுத்தப்படும் பகுதிக்கு முன்புறம் உள்ள நிரப்பு வரிசையில் குறிப்பிட்ட ஒலிகோநியுக்ளியோடைடு பிரைமர் (18–25 nt) டெம்ப்ளேட்டுடன் அனீல் செய்யப்படுகிறது. பிரைமருக்கும் டெம்ப்ளேட்டுக்கும் இடையே ஹைட்ரஜன் பிணைப்பு நிகழ வெப்பநிலை (50–60°C) குறைக்கப்படுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "3"
+      "en": "3",
+      "ta": "3",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "DNA Synthesis by DNA Polymerase"
+      "en": "DNA Synthesis by DNA Polymerase",
+      "ta": "DNA பாலிமரேசால் DNA தொகுப்பு",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "DNA polymerase extends the primer by adding nucleotides complementary to the template in the 5'→3' direction. All four dNTPs and a small amount of all four ddNTPs are present simultaneously in a single reaction tube (modern fluorescent Sanger method). In the original radioactive method, four separate reactions were used, each containing one type of ddNTP."
+      "en": "DNA polymerase extends the primer by adding nucleotides complementary to the template in the 5'→3' direction. All four dNTPs and a small amount of all four ddNTPs are present simultaneously in a single reaction tube (modern fluorescent Sanger method). In the original radioactive method, four separate reactions were used, each containing one type of ddNTP.",
+      "ta": "DNA பாலிமரேஸ் டெம்ப்ளேட்டுக்கு நிரப்பான நியுக்ளியோடைடுகளை 5'→3' திசையில் சேர்த்துப் பிரைமரை நீட்டிக்கிறது. நான்கு dNTP-களும் சிறிதளவு நான்கு ddNTP-களும் ஒரே வினைக் குழாயில் ஒரே நேரத்தில் உள்ளன (நவீன ஒளிர்வு சேங்கர் முறை). தொடக்கக் கதிரியக்க முறையில் ஒவ்வொன்றிலும் ஒரு வகை ddNTP கொண்ட நான்கு தனி வினைகள் பயன்பட்டன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "4"
+      "en": "4",
+      "ta": "4",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Random Incorporation of ddNTPs (Chain Termination)"
+      "en": "Random Incorporation of ddNTPs (Chain Termination)",
+      "ta": "ddNTP-களின் சீரற்ற இணைவு (சங்கிலி முடிவுறுத்தல்)",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "At each position in the growing chain, the polymerase may incorporate either the normal dNTP (chain continues) or the ddNTP analogue (chain terminates). Because ddNTPs lack a 3'-OH group, synthesis stops permanently at that nucleotide. The random but statistical nature of incorporation means that termination occurs at every possible position in the sequence."
+      "en": "At each position in the growing chain, the polymerase may incorporate either the normal dNTP (chain continues) or the ddNTP analogue (chain terminates). Because ddNTPs lack a 3'-OH group, synthesis stops permanently at that nucleotide. The random but statistical nature of incorporation means that termination occurs at every possible position in the sequence.",
+      "ta": "வளரும் சங்கிலியின் ஒவ்வொரு இடத்திலும் பாலிமரேஸ் இயல்பான dNTP-ஐ (சங்கிலி தொடரும்) அல்லது ddNTP ஒப்புமையை (சங்கிலி முடிவுறும்) இணைக்கலாம். ddNTP-களில் 3'-OH இல்லாததால் அந்நியுக்ளியோடைடில் தொகுப்பு நிரந்தரமாக நிற்கும். இணைவின் சீரற்ற, புள்ளியியல் தன்மையால் வரிசையின் ஒவ்வொரு சாத்தியமான இடத்திலும் முடிவுறுதல் நிகழ்கிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "5"
+      "en": "5",
+      "ta": "5",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Formation of DNA Fragments of Different Lengths"
+      "en": "Formation of DNA Fragments of Different Lengths",
+      "ta": "வெவ்வேறு நீளமுள்ள DNA துண்டுகள் உருவாதல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "The sequencing reaction generates a **ladder of DNA fragments** — a population of molecules that all start at the primer and end at every possible position in the template (wherever a ddNTP was incorporated). Each fragment has a defined length and ends with a specific ddNTP:"
-     }
-    },
-    {
-     "type": "bullets",
-     "ordered": false,
-     "items": [
-      {
-       "en": "Fragments ending in ddATP → terminated at every A position in the new strand."
-      },
-      {
-       "en": "Fragments ending in ddTTP → terminated at every T position."
-      },
-      {
-       "en": "Fragments ending in ddGTP → terminated at every G position."
-      },
-      {
-       "en": "Fragments ending in ddCTP → terminated at every C position."
-      }
-     ]
-    },
-    {
-     "type": "p",
-     "text": {
-      "en": "6"
-     }
-    },
-    {
-     "type": "p",
-     "text": {
-      "en": "Separation by Gel or Capillary Electrophoresis"
-     }
-    },
-    {
-     "type": "p",
-     "text": {
-      "en": "The mixture of fragments is separated by size using:"
+      "en": "The sequencing reaction generates a **ladder of DNA fragments** — a population of molecules that all start at the primer and end at every possible position in the template (wherever a ddNTP was incorporated). Each fragment has a defined length and ends with a specific ddNTP:",
+      "ta": "வரிசைப்படுத்தல் வினை **DNA துண்டுகளின் ஏணியை** உருவாக்குகிறது — அனைத்தும் பிரைமரில் தொடங்கி டெம்ப்ளேட்டின் ஒவ்வொரு சாத்தியமான இடத்திலும் (ddNTP இணைந்த இடத்தில்) முடியும் மூலக்கூறுகளின் தொகை. ஒவ்வொரு துண்டுக்கும் வரையறுத்த நீளமும் குறிப்பிட்ட ddNTP-யில் முடிவும் உண்டு:",
+      "ta_status": "draft"
      }
     },
     {
@@ -449,35 +553,97 @@
      "ordered": false,
      "items": [
       {
-       "en": "**Denaturing polyacrylamide gel electrophoresis (PAGE):** Original method. Formamide denatures secondary structures. Fragments migrate through the gel matrix — smaller fragments move faster and migrate farther from the wells. Typically resolves fragments from ~10 to ~1000 nt with single-nucleotide resolution."
+       "en": "Fragments ending in ddATP → terminated at every A position in the new strand.",
+       "ta": "ddATP-யில் முடியும் துண்டுகள் → புதிய இழையின் ஒவ்வொரு A இடத்திலும் முடிந்தவை.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Capillary electrophoresis (CE):** Modern automated method. DNA fragments migrate through a thin capillary tube filled with polymer. Fragments pass a laser detector — each ddNTP carries a different fluorescent dye and emits a different colour when excited."
+       "en": "Fragments ending in ddTTP → terminated at every T position.",
+       "ta": "ddTTP-யில் முடியும் துண்டுகள் → ஒவ்வொரு T இடத்திலும் முடிந்தவை.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Fragments ending in ddGTP → terminated at every G position.",
+       "ta": "ddGTP-யில் முடியும் துண்டுகள் → ஒவ்வொரு G இடத்திலும் முடிந்தவை.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Fragments ending in ddCTP → terminated at every C position.",
+       "ta": "ddCTP-யில் முடியும் துண்டுகள் → ஒவ்வொரு C இடத்திலும் முடிந்தவை.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "7"
+      "en": "6",
+      "ta": "6",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Reading of DNA Sequence"
+      "en": "Separation by Gel or Capillary Electrophoresis",
+      "ta": "ஜெல் அல்லது நுண்குழாய் மின்னாற்பகுப்பால் பிரித்தல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Gel method:** The pattern of bands on the gel is read from bottom (smallest = shortest = closest to the primer end) to top (largest = furthest from primer). The lane containing each band reveals the terminal base at that position."
+      "en": "The mixture of fragments is separated by size using:",
+      "ta": "துண்டுகளின் கலவை பின்வருவனவற்றால் அளவு அடிப்படையில் பிரிக்கப்படுகிறது:",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Denaturing polyacrylamide gel electrophoresis (PAGE):** Original method. Formamide denatures secondary structures. Fragments migrate through the gel matrix — smaller fragments move faster and migrate farther from the wells. Typically resolves fragments from ~10 to ~1000 nt with single-nucleotide resolution.",
+       "ta": "**இயல்பிழக்கச் செய்யும் பாலிஅக்ரிலமைடு ஜெல் மின்னாற்பகுப்பு (PAGE):** தொடக்க முறை. ஃபார்மாமைடு இரண்டாம்நிலை அமைப்புகளை இயல்பிழக்கச் செய்யும். துண்டுகள் ஜெல் அணி வழியே நகரும் — சிறிய துண்டுகள் வேகமாக நகர்ந்து கிணறுகளிலிருந்து தொலைவு செல்லும். பொதுவாக ~10 முதல் ~1000 nt வரை ஒற்றை நியுக்ளியோடைடு பிரிதிறனுடன் பிரிக்கும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Capillary electrophoresis (CE):** Modern automated method. DNA fragments migrate through a thin capillary tube filled with polymer. Fragments pass a laser detector — each ddNTP carries a different fluorescent dye and emits a different colour when excited.",
+       "ta": "**நுண்குழாய் மின்னாற்பகுப்பு (CE):** நவீன தானியங்கி முறை. DNA துண்டுகள் பலபடி நிரப்பிய மெல்லிய நுண்குழாய் வழியே நகர்கின்றன. துண்டுகள் லேசர் கண்டறிவியைக் கடக்கும் — ஒவ்வொரு ddNTP-யும் வேறுபட்ட ஒளிர்வுச் சாயத்தைச் சுமந்து தூண்டப்படும்போது வேறுபட்ட நிறத்தை உமிழும்.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "7",
+      "ta": "7",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Fluorescent capillary method (modern):** The laser detector records fluorescence colour in real time as fragments pass. The output is a **chromatogram (electropherogram)** — coloured peaks, each colour corresponding to one base. The sequence is read from left (small fragments, earliest detected) to right (larger fragments, later detected)."
+      "en": "Reading of DNA Sequence",
+      "ta": "DNA வரிசையை வாசித்தல்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Gel method:** The pattern of bands on the gel is read from bottom (smallest = shortest = closest to the primer end) to top (largest = furthest from primer). The lane containing each band reveals the terminal base at that position.",
+      "ta": "**ஜெல் முறை:** ஜெல்லிலுள்ள பட்டை அமைப்பு கீழிருந்து (சிறியது = குறுகியது = பிரைமர் முனைக்கு அருகில்) மேல் நோக்கி (பெரியது = பிரைமரிலிருந்து தொலைவில்) வாசிக்கப்படுகிறது. ஒவ்வொரு பட்டையும் இருக்கும் தடம் அவ்விடத்தின் முனைக் காரத்தை வெளிப்படுத்தும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Fluorescent capillary method (modern):** The laser detector records fluorescence colour in real time as fragments pass. The output is a **chromatogram (electropherogram)** — coloured peaks, each colour corresponding to one base. The sequence is read from left (small fragments, earliest detected) to right (larger fragments, later detected).",
+      "ta": "**ஒளிர்வு நுண்குழாய் முறை (நவீனம்):** துண்டுகள் கடக்கும்போது லேசர் கண்டறிவி ஒளிர்வு நிறத்தை நிகழ்நேரத்தில் பதிவு செய்கிறது. வெளியீடு **குரோமடோகிராம் (எலக்ட்ரோஃபெரோகிராம்)** — ஒவ்வொரு நிறமும் ஒரு காரத்துக்கு உரிய நிற உச்சங்கள். வரிசை இடமிருந்து (சிறிய துண்டுகள், முதலில் கண்டறியப்பட்டவை) வலமாக (பெரிய துண்டுகள், பின்னர் கண்டறியப்பட்டவை) வாசிக்கப்படுகிறது.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -487,37 +653,49 @@
   {
    "id": "s07",
    "title": {
-    "en": "Interpretation of Results"
+    "en": "Interpretation of Results",
+    "ta": "முடிவுகளை விளக்குதல்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "**Reading Fragment Sizes from a Gel**"
+      "en": "**Reading Fragment Sizes from a Gel**",
+      "ta": "**ஜெல்லிலிருந்து துண்டு அளவுகளை வாசித்தல்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "In the original radioactive Sanger method, four reactions (A, T, G, C) are run in parallel lanes on a denaturing gel. Radioactively labelled fragments appear as dark bands. The sequence is read from the **bottom of the gel upwards** — the lowest band (smallest fragment, i.e., the one nearest the primer) is read first."
+      "en": "In the original radioactive Sanger method, four reactions (A, T, G, C) are run in parallel lanes on a denaturing gel. Radioactively labelled fragments appear as dark bands. The sequence is read from the **bottom of the gel upwards** — the lowest band (smallest fragment, i.e., the one nearest the primer) is read first.",
+      "ta": "தொடக்கக் கதிரியக்க சேங்கர் முறையில் நான்கு வினைகள் (A, T, G, C) இயல்பிழக்கச் செய்யும் ஜெல்லில் இணையாக ஓட்டப்படுகின்றன. கதிரியக்கக் குறியிட்ட துண்டுகள் கரும்பட்டைகளாகத் தோன்றும். வரிசை **ஜெல்லின் அடியிலிருந்து மேல்நோக்கி** வாசிக்கப்படுகிறது — மிகக் கீழுள்ள பட்டை (மிகச் சிறிய துண்டு, அதாவது பிரைமருக்கு மிக அருகிலுள்ளது) முதலில் வாசிக்கப்படுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "At each band position, you record the lane (A, T, G, or C) in which the band appears. Reading upward from position 1 to the top gives the sequence of the new (complementary) strand in the 5'→3' direction."
+      "en": "At each band position, you record the lane (A, T, G, or C) in which the band appears. Reading upward from position 1 to the top gives the sequence of the new (complementary) strand in the 5'→3' direction.",
+      "ta": "ஒவ்வொரு பட்டை இடத்திலும் அப்பட்டை தோன்றும் தடத்தை (A, T, G அல்லது C) பதிவு செய்க. நிலை 1 முதல் மேலே வரை வாசித்தால் புதிய (நிரப்பு) இழையின் வரிசை 5'→3' திசையில் கிடைக்கும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Modern Fluorescent Chromatogram (Electropherogram)**"
+      "en": "**Modern Fluorescent Chromatogram (Electropherogram)**",
+      "ta": "**நவீன ஒளிர்வு குரோமடோகிராம் (எலக்ட்ரோஃபெரோகிராம்)**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "In automated fluorescent Sanger sequencing (Applied Biosystems ABI 3730xl system):"
+      "en": "In automated fluorescent Sanger sequencing (Applied Biosystems ABI 3730xl system):",
+      "ta": "தானியங்கி ஒளிர்வு சேங்கர் வரிசைப்படுத்தலில் (Applied Biosystems ABI 3730xl அமைப்பு):",
+      "ta_status": "draft"
      }
     },
     {
@@ -525,22 +703,34 @@
      "ordered": false,
      "items": [
       {
-       "en": "A single reaction contains all four ddNTPs, each labelled with a **different fluorescent dye**: typically ddA = green, ddT = red, ddG = blue, ddC = purple/black."
+       "en": "A single reaction contains all four ddNTPs, each labelled with a **different fluorescent dye**: typically ddA = green, ddT = red, ddG = blue, ddC = purple/black.",
+       "ta": "ஒரே வினையில் நான்கு ddNTP-களும் உள்ளன; ஒவ்வொன்றும் **வேறுபட்ட ஒளிர்வுச் சாயத்தால்** குறியிடப்பட்டது: பொதுவாக ddA = பச்சை, ddT = சிவப்பு, ddG = நீலம், ddC = ஊதா/கருப்பு.",
+       "ta_status": "draft"
       },
       {
-       "en": "Fragments separated by capillary electrophoresis pass a laser — each emits its specific colour."
+       "en": "Fragments separated by capillary electrophoresis pass a laser — each emits its specific colour.",
+       "ta": "நுண்குழாய் மின்னாற்பகுப்பால் பிரிக்கப்பட்ட துண்டுகள் லேசரைக் கடக்கும் — ஒவ்வொன்றும் தனக்குரிய நிறத்தை உமிழும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "The detector records a **chromatogram: coloured peaks on a time axis**."
+       "en": "The detector records a **chromatogram: coloured peaks on a time axis**.",
+       "ta": "கண்டறிவி **குரோமடோகிராமைப் பதிவு செய்கிறது: நேர அச்சில் நிற உச்சங்கள்**.",
+       "ta_status": "draft"
       },
       {
-       "en": "Each peak represents one nucleotide position in the sequence."
+       "en": "Each peak represents one nucleotide position in the sequence.",
+       "ta": "ஒவ்வோர் உச்சமும் வரிசையில் ஒரு நியுக்ளியோடைடு இடத்தைக் குறிக்கிறது.",
+       "ta_status": "draft"
       },
       {
-       "en": "The sequence is read from left (smallest fragments = earliest positions) to right."
+       "en": "The sequence is read from left (smallest fragments = earliest positions) to right.",
+       "ta": "வரிசை இடமிருந்து (சிறிய துண்டுகள் = முந்தைய இடங்கள்) வலமாக வாசிக்கப்படுகிறது.",
+       "ta_status": "draft"
       },
       {
-       "en": "Base-calling software (e.g., Phred) automatically reads the sequence and assigns quality scores."
+       "en": "Base-calling software (e.g., Phred) automatically reads the sequence and assigns quality scores.",
+       "ta": "காரம் அறியும் மென்பொருள் (எ.கா. ஃப்ரெட்) வரிசையைத் தானாக வாசித்துத் தர மதிப்பெண்களை ஒதுக்குகிறது.",
+       "ta_status": "draft"
       }
      ]
     },
@@ -548,19 +738,25 @@
      "type": "callout",
      "kind": "tip",
      "text": {
-      "en": "**Read length:** A single Sanger run typically provides **600–1000 reliable base calls** per reaction, with accuracy greater than 99.99% for high-quality regions."
+      "en": "**Read length:** A single Sanger run typically provides **600–1000 reliable base calls** per reaction, with accuracy greater than 99.99% for high-quality regions.",
+      "ta": "**வாசிப்பு நீளம்:** ஒரு சேங்கர் ஓட்டம் பொதுவாக ஒரு வினைக்கு **600–1000 நம்பகமான காரங்களைத்** தரும்; உயர்தரப் பகுதிகளில் துல்லியம் 99.99%-க்கு மேல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Sequence Determination from the Template**"
+      "en": "**Sequence Determination from the Template**",
+      "ta": "**டெம்ப்ளேட்டிலிருந்து வரிசை நிர்ணயம்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "The sequence obtained is that of the **newly synthesised strand** (complementary to the template), read in the 5'→3' direction. To obtain the template strand sequence, take the reverse complement."
+      "en": "The sequence obtained is that of the **newly synthesised strand** (complementary to the template), read in the 5'→3' direction. To obtain the template strand sequence, take the reverse complement.",
+      "ta": "கிடைக்கும் வரிசை **புதிதாகத் தொகுக்கப்பட்ட இழையினது** (டெம்ப்ளேட்டுக்கு நிரப்பானது), 5'→3' திசையில் வாசிக்கப்பட்டது. டெம்ப்ளேட் இழை வரிசையைப் பெற, தலைகீழ் நிரப்பியை எடுக்கவும்.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -570,20 +766,26 @@
   {
    "id": "s08",
    "title": {
-    "en": "Labeled Diagrams"
+    "en": "Labeled Diagrams",
+    "ta": "பெயரிட்ட படங்கள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Fig. 1 — dNTP vs ddNTP: Why ddNTP Causes Chain Termination"
+      "en": "Fig. 1 — dNTP vs ddNTP: Why ddNTP Causes Chain Termination",
+      "ta": "படம் 1 — dNTP – ddNTP: ddNTP சங்கிலி முடிவுறுத்தலை ஏன் உண்டாக்குகிறது",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "sanger_dna_sequencing-d01",
      "caption": {
-      "en": "dNTP vs ddNTP comparison showing 3-OH vs 3-H"
+      "en": "dNTP vs ddNTP comparison showing 3-OH vs 3-H",
+      "ta": "3'-OH – 3'-H வேறுபாட்டைக் காட்டும் dNTP – ddNTP ஒப்பீடு",
+      "ta_status": "draft"
      },
      "labels": [
       "dNTP",
@@ -631,14 +833,18 @@
     {
      "type": "p",
      "text": {
-      "en": "Fig. 2 — Sanger Reaction: Chain Termination Producing a Fragment Ladder"
+      "en": "Fig. 2 — Sanger Reaction: Chain Termination Producing a Fragment Ladder",
+      "ta": "படம் 2 — சேங்கர் வினை: சங்கிலி முடிவுறுத்தல் துண்டு ஏணியை உருவாக்குதல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "sanger_dna_sequencing-d02",
      "caption": {
-      "en": "Sanger reaction fragment ladder"
+      "en": "Sanger reaction fragment ladder",
+      "ta": "சேங்கர் வினைத் துண்டு ஏணி",
+      "ta_status": "draft"
      },
      "labels": [
       "Template: 3'",
@@ -683,14 +889,18 @@
     {
      "type": "p",
      "text": {
-      "en": "Fig. 3 — Sequencing Gel (left) and Modern Fluorescent Chromatogram (right)"
+      "en": "Fig. 3 — Sequencing Gel (left) and Modern Fluorescent Chromatogram (right)",
+      "ta": "படம் 3 — வரிசைப்படுத்தும் ஜெல் (இடது), நவீன ஒளிர்வு குரோமடோகிராம் (வலது)",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "sanger_dna_sequencing-d03",
      "caption": {
-      "en": "Sequencing gel and chromatogram"
+      "en": "Sequencing gel and chromatogram",
+      "ta": "வரிசைப்படுத்தும் ஜெல்லும் குரோமடோகிராமும்",
+      "ta_status": "draft"
      },
      "labels": [
       "Denaturing Polyacrylamide Gel",
@@ -735,20 +945,26 @@
   {
    "id": "s09",
    "title": {
-    "en": "Sanger Sequencing Workflow — Click Each Step"
+    "en": "Sanger Sequencing Workflow — Click Each Step",
+    "ta": "சேங்கர் வரிசைப்படுத்தல் பணிப்பாய்வு — ஒவ்வொரு படியையும் தொடுக",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Click any step to expand details."
+      "en": "Click any step to expand details.",
+      "ta": "எந்தப் படியையும் தொட்டு விவரங்களை விரிவாக்குக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "steps",
      "items": [
       {
-       "en": "1 🧬 Template DNA Purified single-stranded or double-stranded DNA containing the region to be sequenced. Denatured to single strands by heating at 95°C or treatment with NaOH."
+       "en": "1 🧬 Template DNA Purified single-stranded or double-stranded DNA containing the region to be sequenced. Denatured to single strands by heating at 95°C or treatment with NaOH.",
+       "ta": "1 🧬 டெம்ப்ளேட் DNA வரிசைப்படுத்தவேண்டிய பகுதியைக் கொண்ட தூய ஒற்றை இழை அல்லது இரட்டை இழை DNA. 95°C வெப்பமேற்றலாலோ NaOH சிகிச்சையாலோ ஒற்றை இழைகளாக இயல்பிழக்கச் செய்யப்படுகிறது.",
+       "ta_status": "draft"
       }
      ]
     },
@@ -756,7 +972,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "2 🔑 Primer Annealing A specific oligonucleotide primer anneals to the complementary sequence on the template at 50–60°C. Defines the start point and direction of synthesis."
+       "en": "2 🔑 Primer Annealing A specific oligonucleotide primer anneals to the complementary sequence on the template at 50–60°C. Defines the start point and direction of synthesis.",
+       "ta": "2 🔑 பிரைமர் அனீலிங் குறிப்பிட்ட ஒலிகோநியுக்ளியோடைடு பிரைமர் 50–60°C-இல் டெம்ப்ளேட்டின் நிரப்பு வரிசையுடன் அனீலாகிறது. தொகுப்பின் தொடக்கப் புள்ளியையும் திசையையும் வரையறுக்கிறது.",
+       "ta_status": "draft"
       }
      ]
     },
@@ -764,7 +982,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "3 ⚗️ DNA Synthesis + ddNTP Termination DNA polymerase extends the primer. All four dNTPs and four fluorescently labelled ddNTPs are present. Randomly, a ddNTP is incorporated at each position, terminating the chain. This produces fragments of every possible length."
+       "en": "3 ⚗️ DNA Synthesis + ddNTP Termination DNA polymerase extends the primer. All four dNTPs and four fluorescently labelled ddNTPs are present. Randomly, a ddNTP is incorporated at each position, terminating the chain. This produces fragments of every possible length.",
+       "ta": "3 ⚗️ DNA தொகுப்பு + ddNTP முடிவுறுத்தல் DNA பாலிமரேஸ் பிரைமரை நீட்டிக்கிறது. நான்கு dNTP-களும் ஒளிர்வுக் குறியிட்ட நான்கு ddNTP-களும் உள்ளன. சீரற்ற முறையில் ஒவ்வோர் இடத்திலும் ddNTP இணைந்து சங்கிலியை முடிவுறுத்துகிறது. இது சாத்தியமான ஒவ்வொரு நீளத்திலும் துண்டுகளை உருவாக்குகிறது.",
+       "ta_status": "draft"
       }
      ]
     },
@@ -772,7 +992,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "4 🔬 Capillary Electrophoresis Denatured fragments loaded into capillary filled with polymer. High-voltage applied — fragments migrate by size (small = fast). Laser detects fluorescent colour as each fragment passes the detection window."
+       "en": "4 🔬 Capillary Electrophoresis Denatured fragments loaded into capillary filled with polymer. High-voltage applied — fragments migrate by size (small = fast). Laser detects fluorescent colour as each fragment passes the detection window.",
+       "ta": "4 🔬 நுண்குழாய் மின்னாற்பகுப்பு இயல்பிழந்த துண்டுகள் பலபடி நிரப்பிய நுண்குழாயில் ஏற்றப்படுகின்றன. உயர்மின்னழுத்தம் செலுத்தப்படுகிறது — துண்டுகள் அளவால் நகர்கின்றன (சிறியது = வேகம்). ஒவ்வொரு துண்டும் கண்டறியும் சாளரத்தைக் கடக்கும்போது லேசர் ஒளிர்வு நிறத்தைக் கண்டறிகிறது.",
+       "ta_status": "draft"
       }
      ]
     },
@@ -780,7 +1002,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "5 📈 Chromatogram Generation Detector records fluorescence intensity over time. Each peak = one base, each colour = one base identity (A=green, T=red, G=blue, C=purple typically). Base-calling software reads the sequence."
+       "en": "5 📈 Chromatogram Generation Detector records fluorescence intensity over time. Each peak = one base, each colour = one base identity (A=green, T=red, G=blue, C=purple typically). Base-calling software reads the sequence.",
+       "ta": "5 📈 குரோமடோகிராம் உருவாக்கம் கண்டறிவி காலப்போக்கில் ஒளிர்வுச் செறிவைப் பதிவு செய்கிறது. ஒவ்வோர் உச்சமும் ஒரு காரம், ஒவ்வொரு நிறமும் ஒரு காரத்தின் அடையாளம் (பொதுவாக A=பச்சை, T=சிவப்பு, G=நீலம், C=ஊதா). காரம் அறியும் மென்பொருள் வரிசையை வாசிக்கிறது.",
+       "ta_status": "draft"
       }
      ]
     },
@@ -788,7 +1012,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "6 💻 Sequence Output & Analysis The software outputs the nucleotide sequence as text (e.g., 5'-ATGCATCGA...-3'). Quality scores (Phred) assigned to each base. Sequence aligned against reference databases (BLAST, GenBank) for identification."
+       "en": "6 💻 Sequence Output & Analysis The software outputs the nucleotide sequence as text (e.g., 5'-ATGCATCGA...-3'). Quality scores (Phred) assigned to each base. Sequence aligned against reference databases (BLAST, GenBank) for identification.",
+       "ta": "6 💻 வரிசை வெளியீடும் பகுப்பாய்வும் மென்பொருள் நியுக்ளியோடைடு வரிசையை உரையாக வெளியிடுகிறது (எ.கா. 5'-ATGCATCGA...-3'). ஒவ்வொரு காரத்துக்கும் ஃப்ரெட் தர மதிப்பெண்கள் ஒதுக்கப்படும். அடையாளம் காண வரிசை குறிப்புத் தரவுத்தளங்களுடன் (BLAST, GenBank) ஒப்பிடப்படுகிறது.",
+       "ta_status": "draft"
       }
      ]
     }
@@ -799,13 +1025,17 @@
   {
    "id": "s10",
    "title": {
-    "en": "Advantages and Limitations"
+    "en": "Advantages and Limitations",
+    "ta": "நன்மைகளும் வரம்புகளும்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "**✅ Advantages**"
+      "en": "**✅ Advantages**",
+      "ta": "**✅ நன்மைகள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -813,29 +1043,43 @@
      "ordered": false,
      "items": [
       {
-       "en": "**High accuracy:** Error rate <0.001%; considered the \"gold standard\" for accuracy."
+       "en": "**High accuracy:** Error rate <0.001%; considered the \"gold standard\" for accuracy.",
+       "ta": "**உயர் துல்லியம்:** பிழை விகிதம் <0.001%; துல்லியத்துக்கான “தங்கத் தரநிலை”.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Long read length:** 600–1000 reliable bases per run."
+       "en": "**Long read length:** 600–1000 reliable bases per run.",
+       "ta": "**நீண்ட வாசிப்பு நீளம்:** ஓட்டத்துக்கு 600–1000 நம்பகமான காரங்கள்.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Well-established:** Decades of optimisation; robust and reproducible."
+       "en": "**Well-established:** Decades of optimisation; robust and reproducible.",
+       "ta": "**நன்கு நிறுவப்பட்டது:** பல பத்தாண்டுகளின் மேம்பாடு; வலுவானது, மீளத்தக்கது.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Cost-effective for small targets:** Ideal for sequencing single genes, verifying clones, detecting point mutations."
+       "en": "**Cost-effective for small targets:** Ideal for sequencing single genes, verifying clones, detecting point mutations.",
+       "ta": "**சிறிய இலக்குகளுக்குச் செலவு குறைவு:** ஒற்றை மரபணுக்களை வரிசைப்படுத்த, குளோன்களைச் சரிபார்க்க, புள்ளித் திடீர்மாற்றங்களைக் கண்டறிய ஏற்றது.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Widely used:** Standard method in clinical diagnostics, forensics, and research labs."
+       "en": "**Widely used:** Standard method in clinical diagnostics, forensics, and research labs.",
+       "ta": "**பரவலான பயன்பாடு:** மருத்துவ நோயறிதல், தடயவியல், ஆய்வகங்களில் நிலையான முறை.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Automated:** ABI 3730xl can run 384 samples simultaneously."
+       "en": "**Automated:** ABI 3730xl can run 384 samples simultaneously.",
+       "ta": "**தானியங்கி:** ABI 3730xl ஒரே நேரத்தில் 384 மாதிரிகளை ஓட்டும்.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**⚠️ Limitations**"
+      "en": "**⚠️ Limitations**",
+      "ta": "**⚠️ வரம்புகள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -843,33 +1087,47 @@
      "ordered": false,
      "items": [
       {
-       "en": "**Limited throughput:** Maximum ~1 kb per reaction; sequencing an entire genome requires millions of reactions."
+       "en": "**Limited throughput:** Maximum ~1 kb per reaction; sequencing an entire genome requires millions of reactions.",
+       "ta": "**குறைந்த செயல்திறன்:** ஒரு வினைக்கு அதிகபட்சம் ~1 kb; முழு மரபணுத்தொகையை வரிசைப்படுத்த மில்லியன் கணக்கான வினைகள் தேவை.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Expensive for whole genomes:** The Human Genome Project (Sanger-based) cost ~$3 billion."
+       "en": "**Expensive for whole genomes:** The Human Genome Project (Sanger-based) cost ~$3 billion.",
+       "ta": "**முழு மரபணுத்தொகைக்குச் செலவு அதிகம்:** மனித மரபணுத்தொகையத் திட்டத்துக்கு (சேங்கர் அடிப்படை) ~3 பில்லியன் அமெரிக்க டாலர் செலவானது.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Cannot sequence GC-rich or repetitive regions easily:** Secondary structures cause compression artefacts."
+       "en": "**Cannot sequence GC-rich or repetitive regions easily:** Secondary structures cause compression artefacts.",
+       "ta": "**GC நிறைந்த அல்லது மீள்வரிசைப் பகுதிகளை எளிதில் வரிசைப்படுத்த இயலாது:** இரண்டாம்நிலை அமைப்புகள் அமுக்க விளைவுகளை உண்டாக்கும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "**First ~15–40 bases unreliable** (primer region — poor resolution at very short lengths)."
+       "en": "**First ~15–40 bases unreliable** (primer region — poor resolution at very short lengths).",
+       "ta": "**முதல் ~15–40 காரங்கள் நம்பகமற்றவை** (பிரைமர் பகுதி — மிகக் குறுகிய நீளங்களில் மோசமான பிரிதிறன்).",
+       "ta_status": "draft"
       },
       {
-       "en": "**Requires pure, single template:** Mixtures of sequences give ambiguous chromatograms."
+       "en": "**Requires pure, single template:** Mixtures of sequences give ambiguous chromatograms.",
+       "ta": "**தூய, ஒற்றை டெம்ப்ளேட் தேவை:** வரிசைக் கலவைகள் தெளிவற்ற குரோமடோகிராம்களைத் தரும்.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Brief Comparison with Modern Next-Generation Sequencing (NGS)**"
+      "en": "**Brief Comparison with Modern Next-Generation Sequencing (NGS)**",
+      "ta": "**நவீன அடுத்த தலைமுறை வரிசைப்படுத்தலுடன் (NGS) சுருக்க ஒப்பீடு**",
+      "ta_status": "bracketed"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Next-generation sequencing (NGS) technologies (Illumina, PacBio, Oxford Nanopore) can sequence billions of base pairs simultaneously at very low cost (~$0.001/Mb vs ~$0.50/Mb for Sanger). However, Sanger remains the preferred method for validating single-gene mutations, confirming cloning results, and clinical diagnostic applications requiring high accuracy and long reads."
+      "en": "Next-generation sequencing (NGS) technologies (Illumina, PacBio, Oxford Nanopore) can sequence billions of base pairs simultaneously at very low cost (~$0.001/Mb vs ~$0.50/Mb for Sanger). However, Sanger remains the preferred method for validating single-gene mutations, confirming cloning results, and clinical diagnostic applications requiring high accuracy and long reads.",
+      "ta": "அடுத்த தலைமுறை வரிசைப்படுத்தல் (NGS) தொழில்நுட்பங்கள் (Illumina, PacBio, Oxford Nanopore) மிகக் குறைந்த செலவில் (~$0.001/Mb – சேங்கருக்கு ~$0.50/Mb) பில்லியன் கணக்கான கார இணைகளை ஒரே நேரத்தில் வரிசைப்படுத்தும். ஆயினும் ஒற்றை மரபணுத் திடீர்மாற்றங்களை உறுதிப்படுத்த, குளோனாக்க முடிவுகளை உறுதிசெய்ய, உயர் துல்லியமும் நீண்ட வாசிப்பும் தேவைப்படும் மருத்துவ நோயறிதலுக்குச் சேங்கரே விரும்பப்படுகிறது.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -879,49 +1137,63 @@
   {
    "id": "s11",
    "title": {
-    "en": "Applications of Sanger Sequencing"
+    "en": "Applications of Sanger Sequencing",
+    "ta": "சேங்கர் வரிசைப்படுத்தலின் பயன்பாடுகள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Gene Analysis**\nDetermining the complete nucleotide sequence of a gene, its intron-exon organisation, promoter, and regulatory elements."
+      "en": "**Gene Analysis**\nDetermining the complete nucleotide sequence of a gene, its intron-exon organisation, promoter, and regulatory elements.",
+      "ta": "**மரபணு பகுப்பாய்வு**\nமரபணுவின் முழு நியுக்ளியோடைடு வரிசை, இன்ட்ரான்–எக்ஸான் அமைப்பு, ஊக்குவிப்பி, ஒழுங்குபடுத்தும் கூறுகளை நிர்ணயித்தல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Mutation Detection**\nIdentifying single nucleotide polymorphisms (SNPs), point mutations, insertions, and deletions associated with genetic diseases (e.g., cystic fibrosis, sickle cell disease, BRCA1/2 in cancer)."
+      "en": "**Mutation Detection**\nIdentifying single nucleotide polymorphisms (SNPs), point mutations, insertions, and deletions associated with genetic diseases (e.g., cystic fibrosis, sickle cell disease, BRCA1/2 in cancer).",
+      "ta": "**திடீர்மாற்றக் கண்டறிதல்**\nமரபுநோய்களுடன் (எ.கா. சிஸ்டிக் ஃபைப்ரோசிஸ், அரிவாள் செல் நோய், புற்றுநோயில் BRCA1/2) தொடர்புடைய ஒற்றை நியுக்ளியோடைடு பல்லுருவமைப்புகள் (SNP), புள்ளித் திடீர்மாற்றங்கள், செருகல்கள், நீக்கங்களை அடையாளம் காணுதல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "tip",
      "text": {
-      "en": "**Confirmation of Cloned DNA**\nVerifying that a gene was correctly inserted into a vector during cloning and that no PCR errors or mutations were introduced."
+      "en": "**Confirmation of Cloned DNA**\nVerifying that a gene was correctly inserted into a vector during cloning and that no PCR errors or mutations were introduced.",
+      "ta": "**குளோனாக்கிய DNA உறுதிப்படுத்தல்**\nகுளோனாக்கத்தின்போது மரபணு தாங்கிக்கடத்தியில் சரியாகச் செருகப்பட்டதையும் PCR பிழைகள் அல்லது திடீர்மாற்றங்கள் புகவில்லை என்பதையும் சரிபார்த்தல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Human Genome Project**\nSanger sequencing was the primary technology used to sequence the entire 3.2 Gb human genome (1990–2003), leading to the identification of ~20,000–25,000 human genes."
+      "en": "**Human Genome Project**\nSanger sequencing was the primary technology used to sequence the entire 3.2 Gb human genome (1990–2003), leading to the identification of ~20,000–25,000 human genes.",
+      "ta": "**மனித மரபணுத்தொகையத் திட்டம்**\n3.2 Gb மனித மரபணுத்தொகையத்தை (1990–2003) வரிசைப்படுத்த முதன்மைத் தொழில்நுட்பம் சேங்கர் வரிசைப்படுத்தல்; இது ~20,000–25,000 மனித மரபணுக்களை அடையாளம் காண வழிவகுத்தது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Medical Diagnostics**\nClinical sequencing of pathogen genomes (HIV drug resistance monitoring, SARS-CoV-2 variant identification), BRCA1/2 testing, pharmacogenomics."
+      "en": "**Medical Diagnostics**\nClinical sequencing of pathogen genomes (HIV drug resistance monitoring, SARS-CoV-2 variant identification), BRCA1/2 testing, pharmacogenomics.",
+      "ta": "**மருத்துவ நோயறிதல்**\nநோய்க்கிருமி மரபணுத்தொகையங்களின் மருத்துவ வரிசைப்படுத்தல் (HIV மருந்தெதிர்ப்புக் கண்காணிப்பு, SARS-CoV-2 திரிபு அடையாளம்), BRCA1/2 சோதனை, மருந்து மரபணுத்தொகையியல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Forensic Science**\nDNA fingerprinting and identification using mitochondrial DNA sequencing for forensic investigations and species identification."
+      "en": "**Forensic Science**\nDNA fingerprinting and identification using mitochondrial DNA sequencing for forensic investigations and species identification.",
+      "ta": "**தடயவியல் அறிவியல்**\nதடயவியல் விசாரணைகளுக்கும் சிற்றினம் அடையாளம் காணவும் மைட்டோகாண்ட்ரிய DNA வரிசைப்படுத்தல் மூலம் DNA கைரேகைப் பதிவும் அடையாளம் காணலும்.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -931,142 +1203,216 @@
   {
    "id": "s12",
    "title": {
-    "en": "Comparison: dNTP vs ddNTP"
+    "en": "Comparison: dNTP vs ddNTP",
+    "ta": "ஒப்பீடு: dNTP – ddNTP",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "table",
      "header": [
       {
-       "en": "Feature"
+       "en": "Feature",
+       "ta": "பண்பு",
+       "ta_status": "draft"
       },
       {
-       "en": "dNTP (Deoxynucleotide)"
+       "en": "dNTP (Deoxynucleotide)",
+       "ta": "dNTP (டீஆக்சிநியுக்ளியோடைடு)",
+       "ta_status": "draft"
       },
       {
-       "en": "ddNTP (Dideoxynucleotide)"
+       "en": "ddNTP (Dideoxynucleotide)",
+       "ta": "ddNTP (டைடிஆக்சிநியுக்ளியோடைடு)",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Full name**"
+        "en": "**Full name**",
+        "ta": "**முழுப்பெயர்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Deoxynucleoside triphosphate"
+        "en": "Deoxynucleoside triphosphate",
+        "ta": "டீஆக்சிநியுக்ளியோசைடு டிரைபாஸ்பேட்",
+        "ta_status": "draft"
        },
        {
-        "en": "Dideoxyribonucleoside triphosphate"
+        "en": "Dideoxyribonucleoside triphosphate",
+        "ta": "டைடிஆக்சிரைபோநியுக்ளியோசைடு டிரைபாஸ்பேட்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Examples**"
+        "en": "**Examples**",
+        "ta": "**எடுத்துக்காட்டுகள்**",
+        "ta_status": "draft"
        },
        {
-        "en": "dATP, dTTP, dGTP, dCTP"
+        "en": "dATP, dTTP, dGTP, dCTP",
+        "ta": "dATP, dTTP, dGTP, dCTP",
+        "ta_status": "draft"
        },
        {
-        "en": "ddATP, ddTTP, ddGTP, ddCTP"
+        "en": "ddATP, ddTTP, ddGTP, ddCTP",
+        "ta": "ddATP, ddTTP, ddGTP, ddCTP",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Sugar type**"
+        "en": "**Sugar type**",
+        "ta": "**சர்க்கரை வகை**",
+        "ta_status": "draft"
        },
        {
-        "en": "2'-deoxyribose"
+        "en": "2'-deoxyribose",
+        "ta": "2'-டீஆக்சிரைபோஸ்",
+        "ta_status": "draft"
        },
        {
-        "en": "2',3'-dideoxyribose"
+        "en": "2',3'-dideoxyribose",
+        "ta": "2',3'-டைடிஆக்சிரைபோஸ்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**3' position**"
+        "en": "**3' position**",
+        "ta": "**3' நிலை**",
+        "ta_status": "draft"
        },
        {
-        "en": "Free **3'-OH** group present"
+        "en": "Free **3'-OH** group present",
+        "ta": "தனி **3'-OH** தொகுதி உண்டு",
+        "ta_status": "draft"
        },
        {
-        "en": "3'-H only — **no 3'-OH group**"
+        "en": "3'-H only — **no 3'-OH group**",
+        "ta": "3'-H மட்டும் — **3'-OH தொகுதி இல்லை**",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**2' position**"
+        "en": "**2' position**",
+        "ta": "**2' நிலை**",
+        "ta_status": "draft"
        },
        {
-        "en": "2'-H (no OH, hence \"deoxy\")"
+        "en": "2'-H (no OH, hence \"deoxy\")",
+        "ta": "2'-H (OH இல்லை, எனவே “டீஆக்சி”)",
+        "ta_status": "draft"
        },
        {
-        "en": "2'-H (same as dNTP)"
+        "en": "2'-H (same as dNTP)",
+        "ta": "2'-H (dNTP-யைப் போன்றதே)",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Effect on chain**"
+        "en": "**Effect on chain**",
+        "ta": "**சங்கிலியின்மேல் விளைவு**",
+        "ta_status": "draft"
        },
        {
-        "en": "Chain elongation **continues** — 3'-OH is available for next phosphodiester bond"
+        "en": "Chain elongation **continues** — 3'-OH is available for next phosphodiester bond",
+        "ta": "சங்கிலி நீட்சி **தொடரும்** — அடுத்த பாஸ்போடைஎஸ்டர் பிணைப்புக்கு 3'-OH உள்ளது",
+        "ta_status": "draft"
        },
        {
-        "en": "Chain elongation **terminates permanently** — no 3'-OH to react with next nucleotide"
+        "en": "Chain elongation **terminates permanently** — no 3'-OH to react with next nucleotide",
+        "ta": "சங்கிலி நீட்சி **நிரந்தரமாக முடிவுறும்** — அடுத்த நியுக்ளியோடைடுடன் வினைபுரிய 3'-OH இல்லை",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Incorporation by polymerase**"
+        "en": "**Incorporation by polymerase**",
+        "ta": "**பாலிமரேசால் இணைவு**",
+        "ta_status": "draft"
        },
        {
-        "en": "Normal substrate; incorporated at every position"
+        "en": "Normal substrate; incorporated at every position",
+        "ta": "இயல்பான அடிக்கூறு; ஒவ்வோர் இடத்திலும் இணைக்கப்படும்",
+        "ta_status": "draft"
        },
        {
-        "en": "Analogue; incorporated randomly at low frequency (1:100 ratio vs dNTP)"
+        "en": "Analogue; incorporated randomly at low frequency (1:100 ratio vs dNTP)",
+        "ta": "ஒப்புமை; குறைந்த அதிர்வெண்ணில் சீரற்ற முறையில் இணைக்கப்படும் (dNTP-உடன் 1:100 விகிதம்)",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Role in Sanger sequencing**"
+        "en": "**Role in Sanger sequencing**",
+        "ta": "**சேங்கர் வரிசைப்படுத்தலில் பங்கு**",
+        "ta_status": "draft"
        },
        {
-        "en": "Provides the building blocks for growing the complementary strand throughout synthesis"
+        "en": "Provides the building blocks for growing the complementary strand throughout synthesis",
+        "ta": "தொகுப்பு முழுவதும் வளரும் நிரப்பு இழைக்குக் கட்டுமானக் கூறுகளைத் தரும்",
+        "ta_status": "draft"
        },
        {
-        "en": "Acts as chain terminator; each fragment ends at a specific base position; carries fluorescent label in modern sequencing"
+        "en": "Acts as chain terminator; each fragment ends at a specific base position; carries fluorescent label in modern sequencing",
+        "ta": "சங்கிலி முடிவுறுத்தியாகச் செயல்படும்; ஒவ்வொரு துண்டும் குறிப்பிட்ட கார இடத்தில் முடியும்; நவீன வரிசைப்படுத்தலில் ஒளிர்வுக் குறியீடு சுமக்கும்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Concentration in reaction**"
+        "en": "**Concentration in reaction**",
+        "ta": "**வினையில் செறிவு**",
+        "ta_status": "draft"
        },
        {
-        "en": "High (standard working concentration, e.g., 200 µM)"
+        "en": "High (standard working concentration, e.g., 200 µM)",
+        "ta": "அதிகம் (நிலையான வேலைச் செறிவு, எ.கா. 200 µM)",
+        "ta_status": "draft"
        },
        {
-        "en": "Low (~1–2 µM — ~100× lower than dNTPs)"
+        "en": "Low (~1–2 µM — ~100× lower than dNTPs)",
+        "ta": "குறைவு (~1–2 µM — dNTP-களைவிட ~100 மடங்கு குறைவு)",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Natural occurrence**"
+        "en": "**Natural occurrence**",
+        "ta": "**இயற்கையில் காணப்படுதல்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Natural building block of DNA"
+        "en": "Natural building block of DNA",
+        "ta": "DNA-வின் இயற்கைக் கட்டுமானக் கூறு",
+        "ta_status": "draft"
        },
        {
-        "en": "Synthetic analogue; does not occur naturally"
+        "en": "Synthetic analogue; does not occur naturally",
+        "ta": "செயற்கை ஒப்புமை; இயற்கையில் இல்லை",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Label**"
+        "en": "**Label**",
+        "ta": "**குறியீடு**",
+        "ta_status": "draft"
        },
        {
-        "en": "Unlabelled (or radioisotope in classic method)"
+        "en": "Unlabelled (or radioisotope in classic method)",
+        "ta": "குறியீடற்றது (தொடக்க முறையில் கதிரியக்க ஐசோடோப்பு)",
+        "ta_status": "draft"
        },
        {
-        "en": "Fluorescently labelled (each of the four carries a different fluorescent dye in modern Sanger)"
+        "en": "Fluorescently labelled (each of the four carries a different fluorescent dye in modern Sanger)",
+        "ta": "ஒளிர்வுக் குறியிட்டது (நவீன சேங்கரில் நான்கும் வேறுபட்ட ஒளிர்வுச் சாயத்தைச் சுமக்கும்)",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -1078,19 +1424,25 @@
   {
    "id": "s13",
    "title": {
-    "en": "Interactive Learning"
+    "en": "Interactive Learning",
+    "ta": "ஊடாடும் கற்றல்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "**⚗️ Chain Termination Principle — Exam Key Points**"
+      "en": "**⚗️ Chain Termination Principle — Exam Key Points**",
+      "ta": "**⚗️ சங்கிலி முடிவுறுத்தல் கோட்பாடு — தேர்வுக்கான முக்கியக் குறிப்புகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Core Principle"
+      "en": "Core Principle",
+      "ta": "மையக் கோட்பாடு",
+      "ta_status": "draft"
      }
     },
     {
@@ -1098,19 +1450,29 @@
      "ordered": false,
      "items": [
       {
-       "en": "ddNTPs lack a **3'-OH group** (they have 3'-H instead)."
+       "en": "ddNTPs lack a **3'-OH group** (they have 3'-H instead).",
+       "ta": "ddNTP-களில் **3'-OH தொகுதி இல்லை** (அதற்குப் பதிலாக 3'-H).",
+       "ta_status": "draft"
       },
       {
-       "en": "DNA polymerase requires a 3'-OH to catalyse the next phosphodiester bond."
+       "en": "DNA polymerase requires a 3'-OH to catalyse the next phosphodiester bond.",
+       "ta": "அடுத்த பாஸ்போடைஎஸ்டர் பிணைப்பை வினையூக்க DNA பாலிமரேசுக்கு 3'-OH தேவை.",
+       "ta_status": "draft"
       },
       {
-       "en": "When ddNTP is incorporated → chain terminates permanently at that position."
+       "en": "When ddNTP is incorporated → chain terminates permanently at that position.",
+       "ta": "ddNTP இணைந்தால் → அவ்விடத்தில் சங்கிலி நிரந்தரமாக முடிவுறும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "dNTPs are added at ~100× higher concentration than ddNTPs — ensures all possible fragment lengths are produced."
+       "en": "dNTPs are added at ~100× higher concentration than ddNTPs — ensures all possible fragment lengths are produced.",
+       "ta": "dNTP-கள் ddNTP-களைவிட ~100 மடங்கு அதிகச் செறிவில் சேர்க்கப்படுகின்றன — சாத்தியமான அனைத்து நீளத் துண்டுகளும் உருவாவதை உறுதிசெய்கிறது.",
+       "ta_status": "draft"
       },
       {
-       "en": "The sequence is determined by which ddNTP terminated each fragment and the fragment's length."
+       "en": "The sequence is determined by which ddNTP terminated each fragment and the fragment's length.",
+       "ta": "ஒவ்வொரு துண்டையும் எந்த ddNTP முடிவுறுத்தியது, துண்டின் நீளம் என்ன என்பதைக் கொண்டு வரிசை நிர்ணயிக்கப்படும்.",
+       "ta_status": "draft"
       }
      ]
     },
@@ -1118,77 +1480,113 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Exam tip:** The ONLY structural difference between dNTP and ddNTP is the 3' position: dNTP has 3'-OH, ddNTP has 3'-H. This single difference is the entire basis of Sanger sequencing."
+      "en": "**Exam tip:** The ONLY structural difference between dNTP and ddNTP is the 3' position: dNTP has 3'-OH, ddNTP has 3'-H. This single difference is the entire basis of Sanger sequencing.",
+      "ta": "**தேர்வுக் குறிப்பு:** dNTP – ddNTP-க்கு இடையே ஒரே அமைப்பு வேறுபாடு 3' நிலை: dNTP-இல் 3'-OH, ddNTP-இல் 3'-H. இந்த ஒரே வேறுபாடுதான் சேங்கர் வரிசைப்படுத்தலின் முழு அடிப்படை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🔬 Original vs Modern Sanger Sequencing**"
+      "en": "**🔬 Original vs Modern Sanger Sequencing**",
+      "ta": "**🔬 தொடக்க – நவீன சேங்கர் வரிசைப்படுத்தல்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Methodology"
+      "en": "Methodology",
+      "ta": "செயல்முறை",
+      "ta_status": "draft"
      }
     },
     {
      "type": "table",
      "header": [
       {
-       "en": "Feature"
+       "en": "Feature",
+       "ta": "பண்பு",
+       "ta_status": "draft"
       },
       {
-       "en": "Original (1977)"
+       "en": "Original (1977)",
+       "ta": "தொடக்கம் (1977)",
+       "ta_status": "draft"
       },
       {
-       "en": "Modern (automated)"
+       "en": "Modern (automated)",
+       "ta": "நவீனம் (தானியங்கி)",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "Reactions"
+        "en": "Reactions",
+        "ta": "வினைகள்",
+        "ta_status": "draft"
        },
        {
-        "en": "4 separate (ddA, ddT, ddG, ddC)"
+        "en": "4 separate (ddA, ddT, ddG, ddC)",
+        "ta": "4 தனி வினைகள் (ddA, ddT, ddG, ddC)",
+        "ta_status": "bracketed"
        },
        {
-        "en": "Single reaction (all 4 ddNTPs)"
+        "en": "Single reaction (all 4 ddNTPs)",
+        "ta": "ஒரே வினை (4 ddNTP-களும்)",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "Detection"
+        "en": "Detection",
+        "ta": "கண்டறிதல்",
+        "ta_status": "draft"
        },
        {
-        "en": "Radioactive (³⁵S, ³²P)"
+        "en": "Radioactive (³⁵S, ³²P)",
+        "ta": "கதிரியக்கம் (³⁵S, ³²P)",
+        "ta_status": "draft"
        },
        {
-        "en": "Fluorescent dye-labelled ddNTPs"
+        "en": "Fluorescent dye-labelled ddNTPs",
+        "ta": "ஒளிர்வுச் சாயக் குறியிட்ட ddNTP-கள்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "Separation"
+        "en": "Separation",
+        "ta": "பிரித்தல்",
+        "ta_status": "draft"
        },
        {
-        "en": "PAGE gel (4 lanes)"
+        "en": "PAGE gel (4 lanes)",
+        "ta": "PAGE ஜெல் (4 தடங்கள்)",
+        "ta_status": "draft"
        },
        {
-        "en": "Capillary electrophoresis"
+        "en": "Capillary electrophoresis",
+        "ta": "நுண்குழாய் மின்னாற்பகுப்பு",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "Output"
+        "en": "Output",
+        "ta": "வெளியீடு",
+        "ta_status": "draft"
        },
        {
-        "en": "Autoradiogram bands (read by eye)"
+        "en": "Autoradiogram bands (read by eye)",
+        "ta": "தன்படமெடுத்தல் பட்டைகள் (கண்ணால் வாசிக்கப்படும்)",
+        "ta_status": "draft"
        },
        {
-        "en": "Chromatogram (coloured peaks, software reads)"
+        "en": "Chromatogram (coloured peaks, software reads)",
+        "ta": "குரோமடோகிராம் (நிற உச்சங்கள், மென்பொருள் வாசிக்கும்)",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -1196,13 +1594,17 @@
     {
      "type": "p",
      "text": {
-      "en": "**📈 Reading a Sequencing Gel — Exam Guidance**"
+      "en": "**📈 Reading a Sequencing Gel — Exam Guidance**",
+      "ta": "**📈 வரிசைப்படுத்தும் ஜெல்லை வாசித்தல் — தேர்வு வழிகாட்டல்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Gel Interpretation"
+      "en": "Gel Interpretation",
+      "ta": "ஜெல் விளக்கம்",
+      "ta_status": "draft"
      }
     },
     {
@@ -1210,22 +1612,34 @@
      "ordered": false,
      "items": [
       {
-       "en": "The gel has four lanes: ddA, ddT, ddG, ddC (each lane contains fragments terminated by that ddNTP)."
+       "en": "The gel has four lanes: ddA, ddT, ddG, ddC (each lane contains fragments terminated by that ddNTP).",
+       "ta": "ஜெல்லில் நான்கு தடங்கள்: ddA, ddT, ddG, ddC (ஒவ்வொரு தடத்திலும் அந்த ddNTP-யால் முடிவுறுத்தப்பட்ட துண்டுகள்).",
+       "ta_status": "draft"
       },
       {
-       "en": "Smallest fragments (fewest nucleotides from primer) are at the **bottom** (run furthest in gel)."
+       "en": "Smallest fragments (fewest nucleotides from primer) are at the **bottom** (run furthest in gel).",
+       "ta": "மிகச் சிறிய துண்டுகள் (பிரைமரிலிருந்து குறைவான நியுக்ளியோடைடுகள்) **அடியில்** (ஜெல்லில் மிகத் தொலைவு ஓடியவை) இருக்கும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Read the sequence from **bottom to top** — the lowest band is position 1."
+       "en": "Read the sequence from **bottom to top** — the lowest band is position 1.",
+       "ta": "வரிசையை **கீழிருந்து மேலாக** வாசிக்க — மிகக் கீழுள்ள பட்டை நிலை 1.",
+       "ta_status": "draft"
       },
       {
-       "en": "At each band position, record which lane (A, T, G, or C) contains the band."
+       "en": "At each band position, record which lane (A, T, G, or C) contains the band.",
+       "ta": "ஒவ்வொரு பட்டை இடத்திலும் எந்தத் தடத்தில் (A, T, G அல்லது C) பட்டை உள்ளது என்பதைப் பதிவு செய்க.",
+       "ta_status": "draft"
       },
       {
-       "en": "The sequence obtained is the **new (complementary) strand** read 5'→3'."
+       "en": "The sequence obtained is the **new (complementary) strand** read 5'→3'.",
+       "ta": "கிடைக்கும் வரிசை 5'→3' திசையில் வாசிக்கப்பட்ட **புதிய (நிரப்பு) இழை**.",
+       "ta_status": "draft"
       },
       {
-       "en": "Example: if from bottom to top you have bands in lanes A, T, G, C, A → sequence is 5'-ATGCA-3'."
+       "en": "Example: if from bottom to top you have bands in lanes A, T, G, C, A → sequence is 5'-ATGCA-3'.",
+       "ta": "எடுத்துக்காட்டு: கீழிருந்து மேலாக A, T, G, C, A தடங்களில் பட்டைகள் இருப்பின் → வரிசை 5'-ATGCA-3'.",
+       "ta_status": "draft"
       }
      ]
     },
@@ -1233,19 +1647,25 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Exam tip:** Always read gel bottom-to-top (small fragments = closer to primer = read first in 5'→3' direction). Modern chromatograms are read left-to-right (same logic — smaller fragments elute first)."
+      "en": "**Exam tip:** Always read gel bottom-to-top (small fragments = closer to primer = read first in 5'→3' direction). Modern chromatograms are read left-to-right (same logic — smaller fragments elute first).",
+      "ta": "**தேர்வுக் குறிப்பு:** ஜெல்லை எப்போதும் கீழிருந்து மேலாக வாசிக்க (சிறிய துண்டுகள் = பிரைமருக்கு அருகில் = 5'→3' திசையில் முதலில் வாசிக்கப்படுபவை). நவீன குரோமடோகிராம்கள் இடமிருந்து வலமாக வாசிக்கப்படும் (அதே தர்க்கம் — சிறிய துண்டுகள் முதலில் வெளிவரும்).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🏥 Applications — Exam Key Points**"
+      "en": "**🏥 Applications — Exam Key Points**",
+      "ta": "**🏥 பயன்பாடுகள் — தேர்வுக்கான முக்கியக் குறிப்புகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Applications"
+      "en": "Applications",
+      "ta": "பயன்பாடுகள்",
+      "ta_status": "draft"
      }
     },
     {
@@ -1253,101 +1673,147 @@
      "ordered": false,
      "items": [
       {
-       "en": "Developed by **Frederick Sanger (1977)** — Nobel Prize Chemistry 1980."
+       "en": "Developed by **Frederick Sanger (1977)** — Nobel Prize Chemistry 1980.",
+       "ta": "**ஃபிரெடெரிக் சேங்கர் (1977)** உருவாக்கியது — 1980 வேதியியல் நோபல் பரிசு.",
+       "ta_status": "draft"
       },
       {
-       "en": "Used to sequence the **Human Genome Project (1990–2003)**."
+       "en": "Used to sequence the **Human Genome Project (1990–2003)**.",
+       "ta": "**மனித மரபணுத்தொகையத் திட்டத்தை (1990–2003)** வரிசைப்படுத்தப் பயன்பட்டது.",
+       "ta_status": "draft"
       },
       {
-       "en": "Gold standard for **mutation detection** in clinical settings (BRCA1/2, CFTR, etc.)."
+       "en": "Gold standard for **mutation detection** in clinical settings (BRCA1/2, CFTR, etc.).",
+       "ta": "மருத்துவச் சூழல்களில் **திடீர்மாற்றக் கண்டறிதலுக்கான** தங்கத் தரநிலை (BRCA1/2, CFTR போன்றவை).",
+       "ta_status": "draft"
       },
       {
-       "en": "Routine use: **verification of recombinant DNA constructs** after cloning."
+       "en": "Routine use: **verification of recombinant DNA constructs** after cloning.",
+       "ta": "வழக்கமான பயன்: குளோனாக்கத்துக்குப் பின் **மறுகூட்டிணைவு DNA அமைப்புகளைச் சரிபார்த்தல்**.",
+       "ta_status": "draft"
       },
       {
-       "en": "Accurate read length: **600–1000 bp** per reaction, >99.99% accuracy."
+       "en": "Accurate read length: **600–1000 bp** per reaction, >99.99% accuracy.",
+       "ta": "துல்லிய வாசிப்பு நீளம்: ஒரு வினைக்கு **600–1000 bp**, >99.99% துல்லியம்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Phred quality scores assigned to each base by base-calling software."
+       "en": "Phred quality scores assigned to each base by base-calling software.",
+       "ta": "காரம் அறியும் மென்பொருளால் ஒவ்வொரு காரத்துக்கும் ஃப்ரெட் தர மதிப்பெண்கள் ஒதுக்கப்படும்.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Click-to-Reveal Key Definitions**"
+      "en": "**Click-to-Reveal Key Definitions**",
+      "ta": "**தொட்டு வெளிப்படுத்தும் முக்கிய வரையறைகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "reveal",
      "question": {
-      "en": "ddNTP"
+      "en": "ddNTP",
+      "ta": "ddNTP",
+      "ta_status": "draft"
      },
      "answer": {
-      "en": "Dideoxynucleoside triphosphate. A synthetic analogue of a normal dNTP with H at the 3' position instead of OH. When incorporated by DNA polymerase, it permanently terminates chain elongation because the next phosphodiester bond cannot be formed without a 3'-OH group."
+      "en": "Dideoxynucleoside triphosphate. A synthetic analogue of a normal dNTP with H at the 3' position instead of OH. When incorporated by DNA polymerase, it permanently terminates chain elongation because the next phosphodiester bond cannot be formed without a 3'-OH group.",
+      "ta": "டைடிஆக்சிநியுக்ளியோசைடு டிரைபாஸ்பேட். இயல்பான dNTP-யின் செயற்கை ஒப்புமை; 3' நிலையில் OH-க்குப் பதிலாக H உள்ளது. DNA பாலிமரேசால் இணைக்கப்பட்டால், 3'-OH இல்லாமல் அடுத்த பாஸ்போடைஎஸ்டர் பிணைப்பை உருவாக்க இயலாததால் சங்கிலி நீட்சியை நிரந்தரமாக முடிவுறுத்தும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "reveal",
      "question": {
-      "en": "Chain Termination"
+      "en": "Chain Termination",
+      "ta": "சங்கிலி முடிவுறுத்தல்",
+      "ta_status": "draft"
      },
      "answer": {
-      "en": "The permanent halting of DNA synthesis when a ddNTP is incorporated into the growing chain. Because ddNTPs lack a 3'-OH group, DNA polymerase cannot add the next nucleotide — the chain is irreversibly terminated at that position."
+      "en": "The permanent halting of DNA synthesis when a ddNTP is incorporated into the growing chain. Because ddNTPs lack a 3'-OH group, DNA polymerase cannot add the next nucleotide — the chain is irreversibly terminated at that position.",
+      "ta": "வளரும் சங்கிலியில் ddNTP இணையும்போது DNA தொகுப்பு நிரந்தரமாக நிற்றல். ddNTP-களில் 3'-OH இல்லாததால் DNA பாலிமரேசால் அடுத்த நியுக்ளியோடைடைச் சேர்க்க இயலாது — சங்கிலி அவ்விடத்தில் மீளாது முடிவுறும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "reveal",
      "question": {
-      "en": "Template DNA"
+      "en": "Template DNA",
+      "ta": "டெம்ப்ளேட் DNA",
+      "ta_status": "draft"
      },
      "answer": {
-      "en": "The single-stranded or denatured DNA molecule whose nucleotide sequence is to be determined. DNA polymerase reads the template in the 3'→5' direction to synthesise the new complementary strand in the 5'→3' direction."
+      "en": "The single-stranded or denatured DNA molecule whose nucleotide sequence is to be determined. DNA polymerase reads the template in the 3'→5' direction to synthesise the new complementary strand in the 5'→3' direction.",
+      "ta": "நியுக்ளியோடைடு வரிசை நிர்ணயிக்கப்படவேண்டிய ஒற்றை இழை அல்லது இயல்பிழந்த DNA மூலக்கூறு. DNA பாலிமரேஸ் டெம்ப்ளேட்டை 3'→5' திசையில் வாசித்துப் புதிய நிரப்பு இழையை 5'→3' திசையில் தொகுக்கிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "reveal",
      "question": {
-      "en": "Primer"
+      "en": "Primer",
+      "ta": "பிரைமர்",
+      "ta_status": "draft"
      },
      "answer": {
-      "en": "A short (18–25 nt) synthetic oligonucleotide complementary to the template strand, upstream of the region to be sequenced. Provides the free 3'-OH group needed for DNA polymerase to initiate synthesis and defines the start position of the sequence read."
+      "en": "A short (18–25 nt) synthetic oligonucleotide complementary to the template strand, upstream of the region to be sequenced. Provides the free 3'-OH group needed for DNA polymerase to initiate synthesis and defines the start position of the sequence read.",
+      "ta": "வரிசைப்படுத்தப்படும் பகுதிக்கு முன்புறம், டெம்ப்ளேட் இழைக்கு நிரப்பான குறுகிய (18–25 nt) செயற்கை ஒலிகோநியுக்ளியோடைடு. DNA பாலிமரேஸ் தொகுப்பைத் தொடங்கத் தேவையான தனி 3'-OH-ஐத் தந்து, வரிசை வாசிப்பின் தொடக்க நிலையை வரையறுக்கிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "reveal",
      "question": {
-      "en": "Electrophoresis"
+      "en": "Electrophoresis",
+      "ta": "மின்னாற்பகுப்பு",
+      "ta_status": "draft"
      },
      "answer": {
-      "en": "A technique that separates charged molecules by size in an electric field. In Sanger sequencing, denatured DNA fragments migrate through a gel or capillary — smaller fragments travel faster and farther, allowing fragments differing by a single nucleotide to be resolved."
+      "en": "A technique that separates charged molecules by size in an electric field. In Sanger sequencing, denatured DNA fragments migrate through a gel or capillary — smaller fragments travel faster and farther, allowing fragments differing by a single nucleotide to be resolved.",
+      "ta": "மின்புலத்தில் மின்னூட்ட மூலக்கூறுகளை அளவால் பிரிக்கும் நுட்பம். சேங்கர் வரிசைப்படுத்தலில் இயல்பிழந்த DNA துண்டுகள் ஜெல் அல்லது நுண்குழாய் வழியே நகரும் — சிறிய துண்டுகள் வேகமாகவும் தொலைவாகவும் நகர்ந்து, ஒற்றை நியுக்ளியோடைடு வேறுபாடுள்ள துண்டுகளையும் பிரிக்கின்றன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "reveal",
      "question": {
-      "en": "Chromatogram"
+      "en": "Chromatogram",
+      "ta": "குரோமடோகிராம்",
+      "ta_status": "draft"
      },
      "answer": {
-      "en": "The graphical output (electropherogram) of automated fluorescent Sanger sequencing. Coloured peaks on a time axis represent individual nucleotides detected as fluorescently labelled fragments pass the laser detector in the capillary electrophoresis instrument."
+      "en": "The graphical output (electropherogram) of automated fluorescent Sanger sequencing. Coloured peaks on a time axis represent individual nucleotides detected as fluorescently labelled fragments pass the laser detector in the capillary electrophoresis instrument.",
+      "ta": "தானியங்கி ஒளிர்வு சேங்கர் வரிசைப்படுத்தலின் வரைபட வெளியீடு (எலக்ட்ரோஃபெரோகிராம்). நுண்குழாய் மின்னாற்பகுப்புக் கருவியில் ஒளிர்வுக் குறியிட்ட துண்டுகள் லேசர் கண்டறிவியைக் கடக்கும்போது கண்டறியப்படும் தனி நியுக்ளியோடைடுகளைக் காலஅச்சில் நிற உச்சங்கள் குறிக்கின்றன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "reveal",
      "question": {
-      "en": "Phred Score"
+      "en": "Phred Score",
+      "ta": "ஃப்ரெட் மதிப்பெண்",
+      "ta_status": "draft"
      },
      "answer": {
-      "en": "A quality score assigned to each base call in automated Sanger sequencing. Q = -10 × log₁₀(P), where P is the error probability. Phred Q20 = 99% accuracy; Q30 = 99.9% accuracy. High-quality Sanger sequence typically has Phred scores >40."
+      "en": "A quality score assigned to each base call in automated Sanger sequencing. Q = -10 × log₁₀(P), where P is the error probability. Phred Q20 = 99% accuracy; Q30 = 99.9% accuracy. High-quality Sanger sequence typically has Phred scores >40.",
+      "ta": "தானியங்கி சேங்கர் வரிசைப்படுத்தலில் ஒவ்வொரு காரம் அறிதலுக்கும் ஒதுக்கப்படும் தர மதிப்பெண். Q = −10 × log₁₀(P), இதில் P பிழைநிகழ்தகவு. ஃப்ரெட் Q20 = 99% துல்லியம்; Q30 = 99.9% துல்லியம். உயர்தர சேங்கர் வரிசை பொதுவாக ஃப்ரெட் மதிப்பெண் >40 கொண்டிருக்கும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "reveal",
      "question": {
-      "en": "Capillary Electrophoresis"
+      "en": "Capillary Electrophoresis",
+      "ta": "நுண்குழாய் மின்னாற்பகுப்பு",
+      "ta_status": "draft"
      },
      "answer": {
-      "en": "A modern, automated alternative to slab gel electrophoresis used in Sanger sequencing. DNA fragments migrate through a thin (~75 µm) capillary filled with polymer. A laser detects fluorescence as each fragment passes — provides higher resolution, speed, and throughput than traditional gel electrophoresis."
+      "en": "A modern, automated alternative to slab gel electrophoresis used in Sanger sequencing. DNA fragments migrate through a thin (~75 µm) capillary filled with polymer. A laser detects fluorescence as each fragment passes — provides higher resolution, speed, and throughput than traditional gel electrophoresis.",
+      "ta": "சேங்கர் வரிசைப்படுத்தலில் பயன்படும், தகடு ஜெல் மின்னாற்பகுப்புக்கு மாற்றான நவீன தானியங்கி முறை. DNA துண்டுகள் பலபடி நிரப்பிய மெல்லிய (~75 µm) நுண்குழாய் வழியே நகர்கின்றன. ஒவ்வொரு துண்டும் கடக்கும்போது லேசர் ஒளிர்வைக் கண்டறிகிறது — பாரம்பரிய ஜெல் மின்னாற்பகுப்பைவிட அதிகப் பிரிதிறன், வேகம், செயல்திறன்.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -1357,79 +1823,105 @@
   {
    "id": "s14",
    "title": {
-    "en": "Summary — Key Exam Points"
+    "en": "Summary — Key Exam Points",
+    "ta": "சுருக்கம் — தேர்வுக்கான முக்கியக் குறிப்புகள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "**Sanger Method**Developed by Frederick Sanger in 1977 (Nobel Prize 1980). Also called chain-termination or dideoxy method. The gold standard for DNA sequencing."
+      "en": "**Sanger Method**Developed by Frederick Sanger in 1977 (Nobel Prize 1980). Also called chain-termination or dideoxy method. The gold standard for DNA sequencing.",
+      "ta": "**சேங்கர் முறை**1977-இல் ஃபிரெடெரிக் சேங்கர் உருவாக்கியது (நோபல் பரிசு 1980). சங்கிலி முடிவுறுத்தல் அல்லது டைடிஆக்சி முறை எனவும் அழைக்கப்படும். DNA வரிசைப்படுத்தலின் தங்கத் தரநிலை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Key Principle**Uses ddNTPs as chain terminators. ddNTPs lack a 3'-OH group → when incorporated, chain synthesis stops permanently."
+      "en": "**Key Principle**Uses ddNTPs as chain terminators. ddNTPs lack a 3'-OH group → when incorporated, chain synthesis stops permanently.",
+      "ta": "**முக்கியக் கோட்பாடு**ddNTP-களைச் சங்கிலி முடிவுறுத்திகளாகப் பயன்படுத்துகிறது. ddNTP-களில் 3'-OH இல்லை → இணைந்தால் சங்கிலித் தொகுப்பு நிரந்தரமாக நிற்கும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**dNTP vs ddNTP**Only structural difference: dNTP has 3'-OH; ddNTP has 3'-H (no OH). This single difference prevents the next phosphodiester bond formation."
+      "en": "**dNTP vs ddNTP**Only structural difference: dNTP has 3'-OH; ddNTP has 3'-H (no OH). This single difference prevents the next phosphodiester bond formation.",
+      "ta": "**dNTP – ddNTP**ஒரே அமைப்பு வேறுபாடு: dNTP-இல் 3'-OH; ddNTP-இல் 3'-H (OH இல்லை). இவ்வொரு வேறுபாடு அடுத்த பாஸ்போடைஎஸ்டர் பிணைப்பு உருவாவதைத் தடுக்கிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Fragment Ladder**Reaction produces fragments of all possible lengths, each ending at a specific nucleotide type. Reading fragment sizes in order reveals the sequence."
+      "en": "**Fragment Ladder**Reaction produces fragments of all possible lengths, each ending at a specific nucleotide type. Reading fragment sizes in order reveals the sequence.",
+      "ta": "**துண்டு ஏணி**வினை சாத்தியமான அனைத்து நீளங்களிலும் துண்டுகளை உருவாக்குகிறது; ஒவ்வொன்றும் குறிப்பிட்ட நியுக்ளியோடைடு வகையில் முடியும். துண்டு அளவுகளை வரிசையாக வாசித்தால் வரிசை தெரியும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**dNTP:ddNTP Ratio**ddNTPs are ~100× more dilute than dNTPs to ensure random incorporation at every position — producing the complete ladder of fragment sizes."
+      "en": "**dNTP:ddNTP Ratio**ddNTPs are ~100× more dilute than dNTPs to ensure random incorporation at every position — producing the complete ladder of fragment sizes.",
+      "ta": "**dNTP : ddNTP விகிதம்**ddNTP-கள் dNTP-களைவிட ~100 மடங்கு நீர்த்தவை — ஒவ்வோர் இடத்திலும் சீரற்ற இணைவை உறுதிசெய்து, துண்டு அளவுகளின் முழு ஏணியை உருவாக்க.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Original Method**Four separate reactions (ddA, ddT, ddG, ddC), radioactive labelling, 4-lane polyacrylamide gel, read bottom to top, autoradiography."
+      "en": "**Original Method**Four separate reactions (ddA, ddT, ddG, ddC), radioactive labelling, 4-lane polyacrylamide gel, read bottom to top, autoradiography.",
+      "ta": "**தொடக்க முறை**நான்கு தனி வினைகள் (ddA, ddT, ddG, ddC), கதிரியக்கக் குறியீடு, 4-தட பாலிஅக்ரிலமைடு ஜெல், கீழிருந்து மேலாக வாசிப்பு, தன்படமெடுத்தல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Modern Method**Single reaction, four fluorescently labelled ddNTPs (each different colour), capillary electrophoresis, chromatogram output, automated base calling."
+      "en": "**Modern Method**Single reaction, four fluorescently labelled ddNTPs (each different colour), capillary electrophoresis, chromatogram output, automated base calling.",
+      "ta": "**நவீன முறை**ஒரே வினை, நான்கு ஒளிர்வுக் குறியிட்ட ddNTP-கள் (ஒவ்வொன்றும் வேறு நிறம்), நுண்குழாய் மின்னாற்பகுப்பு, குரோமடோகிராம் வெளியீடு, தானியங்கி காரம் அறிதல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Gel Reading**Read bottom to top (smallest = earliest position). Each band's lane/colour = the nucleotide at that position. Sequence is the new strand read 5'→3'."
+      "en": "**Gel Reading**Read bottom to top (smallest = earliest position). Each band's lane/colour = the nucleotide at that position. Sequence is the new strand read 5'→3'.",
+      "ta": "**ஜெல் வாசிப்பு**கீழிருந்து மேலாக வாசிக்க (சிறியது = முந்தைய இடம்). ஒவ்வொரு பட்டையின் தடம்/நிறம் = அவ்விடத்து நியுக்ளியோடைடு. வரிசை 5'→3' திசையில் வாசிக்கப்படும் புதிய இழை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Read Length & Accuracy**600–1000 reliable bases per run; >99.99% accuracy for high-quality bases. First 15–40 bases may be unreliable."
+      "en": "**Read Length & Accuracy**600–1000 reliable bases per run; >99.99% accuracy for high-quality bases. First 15–40 bases may be unreliable.",
+      "ta": "**வாசிப்பு நீளமும் துல்லியமும்**ஓட்டத்துக்கு 600–1000 நம்பகமான காரங்கள்; உயர்தரக் காரங்களுக்கு >99.99% துல்லியம். முதல் 15–40 காரங்கள் நம்பகமற்றதாக இருக்கலாம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Applications**Clone verification, mutation detection, Human Genome Project, clinical diagnostics, pathogen identification, forensics."
+      "en": "**Applications**Clone verification, mutation detection, Human Genome Project, clinical diagnostics, pathogen identification, forensics.",
+      "ta": "**பயன்பாடுகள்**குளோன் சரிபார்ப்பு, திடீர்மாற்றக் கண்டறிதல், மனித மரபணுத்தொகையத் திட்டம், மருத்துவ நோயறிதல், நோய்க்கிருமி அடையாளம், தடயவியல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Limitation vs NGS**Only ~1 kb per reaction (low throughput); expensive for whole genomes. NGS sequences billions of bases simultaneously but Sanger remains gold standard for accuracy in targeted sequencing."
+      "en": "**Limitation vs NGS**Only ~1 kb per reaction (low throughput); expensive for whole genomes. NGS sequences billions of bases simultaneously but Sanger remains gold standard for accuracy in targeted sequencing.",
+      "ta": "**NGS-உடன் வரம்பு**ஒரு வினைக்கு ~1 kb மட்டுமே (குறைந்த செயல்திறன்); முழு மரபணுத்தொகைக்குச் செலவு அதிகம். NGS பில்லியன் காரங்களை ஒரே நேரத்தில் வரிசைப்படுத்தும்; ஆயினும் இலக்கு வரிசைப்படுத்தலில் துல்லியத்துக்குச் சேங்கரே தங்கத் தரநிலை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Correct Step Order**Denature DNA → Anneal primer → Polymerase extends + ddNTP terminates → Fragments of all sizes form → Electrophoresis separates → Read sequence from chromatogram."
+      "en": "**Correct Step Order**Denature DNA → Anneal primer → Polymerase extends + ddNTP terminates → Fragments of all sizes form → Electrophoresis separates → Read sequence from chromatogram.",
+      "ta": "**சரியான படி வரிசை**DNA-வை டினேச்சுரேஷன் செய் → பிரைமரை அனீல் செய் → பாலிமரேஸ் நீட்டிக்கும் + ddNTP முடிவுறுத்தும் → அனைத்து அளவுத் துண்டுகளும் உருவாகும் → மின்னாற்பகுப்பு பிரிக்கும் → குரோமடோகிராமிலிருந்து வரிசையை வாசி.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -1439,97 +1931,139 @@
   {
    "id": "s15",
    "title": {
-    "en": "Glossary"
+    "en": "Glossary",
+    "ta": "சொற்களஞ்சியம்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "glossary",
      "term": {
-      "en": "DNA Sequencing"
+      "en": "DNA Sequencing",
+      "ta": "DNA வரிசைப்படுத்தல்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "The process of determining the precise order of nucleotide bases (A, T, G, C) along a DNA strand. The sequence reveals the genetic information encoded in the DNA molecule."
+      "en": "The process of determining the precise order of nucleotide bases (A, T, G, C) along a DNA strand. The sequence reveals the genetic information encoded in the DNA molecule.",
+      "ta": "DNA இழையில் நியுக்ளியோடைடு காரங்களின் (A, T, G, C) துல்லிய வரிசையை நிர்ணயிக்கும் செயல்முறை. வரிசை DNA மூலக்கூறில் குறியீடு செய்யப்பட்ட மரபுத் தகவலை வெளிப்படுத்துகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Sanger Method"
+      "en": "Sanger Method",
+      "ta": "சேங்கர் முறை",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "A DNA sequencing technique developed by Frederick Sanger in 1977, based on the chain-termination principle using dideoxynucleotides. Also called the dideoxy method. Gold standard of DNA sequencing for over 30 years."
+      "en": "A DNA sequencing technique developed by Frederick Sanger in 1977, based on the chain-termination principle using dideoxynucleotides. Also called the dideoxy method. Gold standard of DNA sequencing for over 30 years.",
+      "ta": "டைடிஆக்சிநியுக்ளியோடைடுகளைப் பயன்படுத்தும் சங்கிலி முடிவுறுத்தல் கோட்பாட்டை அடிப்படையாகக் கொண்டு 1977-இல் ஃபிரெடெரிக் சேங்கர் உருவாக்கிய DNA வரிசைப்படுத்தல் நுட்பம். டைடிஆக்சி முறை எனவும் அழைக்கப்படும். 30 ஆண்டுகளுக்கு மேல் DNA வரிசைப்படுத்தலின் தங்கத் தரநிலை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "ddNTP (Dideoxynucleotide)"
+      "en": "ddNTP (Dideoxynucleotide)",
+      "ta": "ddNTP (டைடிஆக்சிநியுக்ளியோடைடு)",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "A synthetic analogue of a normal deoxyribonucleotide triphosphate (dNTP), lacking a 3'-OH group (replaced by 3'-H). When incorporated by DNA polymerase, it permanently terminates chain elongation. Used as chain terminators in Sanger sequencing."
+      "en": "A synthetic analogue of a normal deoxyribonucleotide triphosphate (dNTP), lacking a 3'-OH group (replaced by 3'-H). When incorporated by DNA polymerase, it permanently terminates chain elongation. Used as chain terminators in Sanger sequencing.",
+      "ta": "இயல்பான டீஆக்சிநியுக்ளியோடைடு டிரைபாஸ்பேட்டின் (dNTP) செயற்கை ஒப்புமை; 3'-OH இல்லாதது (3'-H ஆல் மாற்றப்பட்டது). DNA பாலிமரேசால் இணைக்கப்பட்டால் சங்கிலி நீட்சியை நிரந்தரமாக முடிவுறுத்தும். சேங்கர் வரிசைப்படுத்தலில் சங்கிலி முடிவுறுத்திகளாகப் பயன்படும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Chain Termination"
+      "en": "Chain Termination",
+      "ta": "சங்கிலி முடிவுறுத்தல்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "The permanent halting of DNA synthesis caused by incorporation of a ddNTP. Since ddNTPs lack a 3'-OH group, no new phosphodiester bond can be formed — the growing chain cannot be extended further."
+      "en": "The permanent halting of DNA synthesis caused by incorporation of a ddNTP. Since ddNTPs lack a 3'-OH group, no new phosphodiester bond can be formed — the growing chain cannot be extended further.",
+      "ta": "ddNTP இணைவதால் DNA தொகுப்பு நிரந்தரமாக நிற்றல். ddNTP-களில் 3'-OH இல்லாததால் புதிய பாஸ்போடைஎஸ்டர் பிணைப்பை உருவாக்க இயலாது — வளரும் சங்கிலியை மேலும் நீட்ட இயலாது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Template DNA"
+      "en": "Template DNA",
+      "ta": "டெம்ப்ளேட் DNA",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "The single-stranded DNA molecule used as the blueprint in DNA synthesis. In Sanger sequencing, the template strand is read 3'→5' by DNA polymerase, which synthesises a new complementary strand in the 5'→3' direction."
+      "en": "The single-stranded DNA molecule used as the blueprint in DNA synthesis. In Sanger sequencing, the template strand is read 3'→5' by DNA polymerase, which synthesises a new complementary strand in the 5'→3' direction.",
+      "ta": "DNA தொகுப்பில் வரைபடமாகப் பயன்படும் ஒற்றை இழை DNA மூலக்கூறு. சேங்கர் வரிசைப்படுத்தலில் டெம்ப்ளேட் இழை DNA பாலிமரேசால் 3'→5' திசையில் வாசிக்கப்பட்டு, புதிய நிரப்பு இழை 5'→3' திசையில் தொகுக்கப்படுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Primer"
+      "en": "Primer",
+      "ta": "பிரைமர்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "A short (18–25 nt) synthetic single-stranded oligonucleotide complementary to the template strand. Provides the free 3'-OH required for DNA polymerase to initiate synthesis. Defines the start and direction of sequencing in Sanger method."
+      "en": "A short (18–25 nt) synthetic single-stranded oligonucleotide complementary to the template strand. Provides the free 3'-OH required for DNA polymerase to initiate synthesis. Defines the start and direction of sequencing in Sanger method.",
+      "ta": "டெம்ப்ளேட் இழைக்கு நிரப்பான குறுகிய (18–25 nt) செயற்கை ஒற்றை இழை ஒலிகோநியுக்ளியோடைடு. DNA பாலிமரேஸ் தொகுப்பைத் தொடங்கத் தேவையான தனி 3'-OH-ஐத் தரும். சேங்கர் முறையில் வரிசைப்படுத்தலின் தொடக்கத்தையும் திசையையும் வரையறுக்கும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Electrophoresis"
+      "en": "Electrophoresis",
+      "ta": "மின்னாற்பகுப்பு",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "A technique that uses an electric field to separate charged molecules (such as DNA fragments) by size. Smaller fragments migrate faster and farther in the gel or capillary. Enables single-nucleotide resolution of Sanger sequencing fragments."
+      "en": "A technique that uses an electric field to separate charged molecules (such as DNA fragments) by size. Smaller fragments migrate faster and farther in the gel or capillary. Enables single-nucleotide resolution of Sanger sequencing fragments.",
+      "ta": "மின்புலத்தைப் பயன்படுத்தி மின்னூட்ட மூலக்கூறுகளை (DNA துண்டுகள் போன்றவை) அளவால் பிரிக்கும் நுட்பம். ஜெல் அல்லது நுண்குழாயில் சிறிய துண்டுகள் வேகமாகவும் தொலைவாகவும் நகரும். சேங்கர் வரிசைப்படுத்தல் துண்டுகளின் ஒற்றை நியுக்ளியோடைடு பிரிதிறனைச் சாத்தியமாக்கும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Chromatogram (Electropherogram)"
+      "en": "Chromatogram (Electropherogram)",
+      "ta": "குரோமடோகிராம் (எலக்ட்ரோஃபெரோகிராம்)",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "The graphical output of automated fluorescent Sanger sequencing showing coloured peaks on a time axis. Each peak represents one nucleotide — the peak colour identifies the base (A/T/G/C) and peak position reflects fragment size."
+      "en": "The graphical output of automated fluorescent Sanger sequencing showing coloured peaks on a time axis. Each peak represents one nucleotide — the peak colour identifies the base (A/T/G/C) and peak position reflects fragment size.",
+      "ta": "காலஅச்சில் நிற உச்சங்களைக் காட்டும் தானியங்கி ஒளிர்வு சேங்கர் வரிசைப்படுத்தலின் வரைபட வெளியீடு. ஒவ்வோர் உச்சமும் ஒரு நியுக்ளியோடைடைக் குறிக்கிறது — உச்ச நிறம் காரத்தை (A/T/G/C) அடையாளம் காட்டும்; உச்ச நிலை துண்டு அளவைப் பிரதிபலிக்கும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Capillary Electrophoresis"
+      "en": "Capillary Electrophoresis",
+      "ta": "நுண்குழாய் மின்னாற்பகுப்பு",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "A modern, automated separation method used in Sanger sequencing where DNA fragments migrate through a thin polymer-filled capillary tube. Laser detection of fluorescence allows high-resolution, high-throughput sequencing (e.g., ABI 3730xl platform)."
+      "en": "A modern, automated separation method used in Sanger sequencing where DNA fragments migrate through a thin polymer-filled capillary tube. Laser detection of fluorescence allows high-resolution, high-throughput sequencing (e.g., ABI 3730xl platform).",
+      "ta": "சேங்கர் வரிசைப்படுத்தலில் பயன்படும் நவீன தானியங்கிப் பிரிப்பு முறை; DNA துண்டுகள் பலபடி நிரப்பிய மெல்லிய நுண்குழாய் வழியே நகர்கின்றன. ஒளிர்வுக்கான லேசர் கண்டறிதல் உயர் பிரிதிறன், அதிகச் செயல்திறன் வரிசைப்படுத்தலைச் சாத்தியமாக்கும் (எ.கா. ABI 3730xl தளம்).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "dNTP (Deoxynucleotide)"
+      "en": "dNTP (Deoxynucleotide)",
+      "ta": "dNTP (டீஆக்சிநியுக்ளியோடைடு)",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Deoxynucleoside triphosphate — the normal building block of DNA. Contains a deoxyribose sugar with a free 3'-OH group that allows continued chain elongation. Four types: dATP, dTTP, dGTP, dCTP."
+      "en": "Deoxynucleoside triphosphate — the normal building block of DNA. Contains a deoxyribose sugar with a free 3'-OH group that allows continued chain elongation. Four types: dATP, dTTP, dGTP, dCTP.",
+      "ta": "டீஆக்சிநியுக்ளியோசைடு டிரைபாஸ்பேட் — DNA-வின் இயல்பான கட்டுமானக் கூறு. சங்கிலி நீட்சி தொடர அனுமதிக்கும் தனி 3'-OH தொகுதி கொண்ட டீஆக்சிரைபோஸ் சர்க்கரை உள்ளது. நான்கு வகைகள்: dATP, dTTP, dGTP, dCTP.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -1539,25 +2073,33 @@
   {
    "id": "s16",
    "title": {
-    "en": "Frequently Asked University Exam Questions"
+    "en": "Frequently Asked University Exam Questions",
+    "ta": "பல்கலைக்கழகத் தேர்வுகளில் அடிக்கடி கேட்கப்படும் வினாக்கள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Click each question to expand answer hints."
+      "en": "Click each question to expand answer hints.",
+      "ta": "ஒவ்வொரு வினாவையும் தொட்டு விடைக் குறிப்புகளை விரிவாக்குக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**1. What is the principle of Sanger's chain termination method of DNA sequencing?**"
+      "en": "**1. What is the principle of Sanger's chain termination method of DNA sequencing?**",
+      "ta": "**1. சேங்கரின் சங்கிலி முடிவுறுத்தல் DNA வரிசைப்படுத்தல் முறையின் கோட்பாடு யாது?**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Answer Hints:**"
+      "en": "**Answer Hints:**",
+      "ta": "**விடைக் குறிப்புகள்:**",
+      "ta_status": "draft"
      }
     },
     {
@@ -1565,35 +2107,51 @@
      "ordered": false,
      "items": [
       {
-       "en": "Principle: chain-termination (dideoxy method) using dideoxynucleotide triphosphates (ddNTPs) as chain terminators."
+       "en": "Principle: chain-termination (dideoxy method) using dideoxynucleotide triphosphates (ddNTPs) as chain terminators.",
+       "ta": "கோட்பாடு: டைடிஆக்சிநியுக்ளியோடைடு டிரைபாஸ்பேட்டுகளை (ddNTP) சங்கிலி முடிவுறுத்திகளாகப் பயன்படுத்தும் சங்கிலி முடிவுறுத்தல் (டைடிஆக்சி) முறை.",
+       "ta_status": "draft"
       },
       {
-       "en": "ddNTPs are structural analogues of normal dNTPs but lack a 3'-OH group (have 3'-H instead)."
+       "en": "ddNTPs are structural analogues of normal dNTPs but lack a 3'-OH group (have 3'-H instead).",
+       "ta": "ddNTP-கள் இயல்பான dNTP-களின் அமைப்பு ஒப்புமைகள்; ஆனால் 3'-OH இல்லை (அதற்குப் பதிலாக 3'-H).",
+       "ta_status": "draft"
       },
       {
-       "en": "DNA polymerase incorporates ddNTPs into the growing chain at random positions — when ddNTP is incorporated, no further elongation is possible (no 3'-OH for next phosphodiester bond)."
+       "en": "DNA polymerase incorporates ddNTPs into the growing chain at random positions — when ddNTP is incorporated, no further elongation is possible (no 3'-OH for next phosphodiester bond).",
+       "ta": "DNA பாலிமரேஸ் ddNTP-களை வளரும் சங்கிலியில் சீரற்ற இடங்களில் இணைக்கிறது — ddNTP இணைந்தால் மேலும் நீட்சி இயலாது (அடுத்த பாஸ்போடைஎஸ்டர் பிணைப்புக்கு 3'-OH இல்லை).",
+       "ta_status": "draft"
       },
       {
-       "en": "This produces a population of fragments of all possible lengths, each starting at the primer and ending at a specific base type."
+       "en": "This produces a population of fragments of all possible lengths, each starting at the primer and ending at a specific base type.",
+       "ta": "இது சாத்தியமான அனைத்து நீளங்களிலும் துண்டுகளின் தொகையை உருவாக்கும்; ஒவ்வொன்றும் பிரைமரில் தொடங்கிக் குறிப்பிட்ட கார வகையில் முடியும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Separation by electrophoresis and reading the positions gives the complete sequence."
+       "en": "Separation by electrophoresis and reading the positions gives the complete sequence.",
+       "ta": "மின்னாற்பகுப்பால் பிரித்து நிலைகளை வாசித்தால் முழு வரிசை கிடைக்கும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Developed by Frederick Sanger in 1977 (Nobel Prize Chemistry 1980)."
+       "en": "Developed by Frederick Sanger in 1977 (Nobel Prize Chemistry 1980).",
+       "ta": "1977-இல் ஃபிரெடெரிக் சேங்கர் உருவாக்கினார் (வேதியியல் நோபல் பரிசு 1980).",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**2. Why does the incorporation of a dideoxynucleotide (ddNTP) cause chain termination? Explain with reference to its structure.**"
+      "en": "**2. Why does the incorporation of a dideoxynucleotide (ddNTP) cause chain termination? Explain with reference to its structure.**",
+      "ta": "**2. டைடிஆக்சிநியுக்ளியோடைடு (ddNTP) இணைவு சங்கிலி முடிவுறுத்தலை ஏன் உண்டாக்குகிறது? அதன் அமைப்பைக் குறிப்பிட்டு விளக்குக.**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Answer Hints:**"
+      "en": "**Answer Hints:**",
+      "ta": "**விடைக் குறிப்புகள்:**",
+      "ta_status": "draft"
      }
     },
     {
@@ -1601,35 +2159,51 @@
      "ordered": false,
      "items": [
       {
-       "en": "Normal dNTP has: 5'-triphosphate, deoxyribose sugar with 2'-H and 3'-OH, and a nucleobase."
+       "en": "Normal dNTP has: 5'-triphosphate, deoxyribose sugar with 2'-H and 3'-OH, and a nucleobase.",
+       "ta": "இயல்பான dNTP-யில்: 5'-டிரைபாஸ்பேட், 2'-H, 3'-OH கொண்ட டீஆக்சிரைபோஸ் சர்க்கரை, நியுக்ளியோகாரம் உள்ளன.",
+       "ta_status": "draft"
       },
       {
-       "en": "ddNTP differs in ONE critical way: the 3' position of the deoxyribose sugar has a hydrogen atom (3'-H) instead of a hydroxyl group (3'-OH)."
+       "en": "ddNTP differs in ONE critical way: the 3' position of the deoxyribose sugar has a hydrogen atom (3'-H) instead of a hydroxyl group (3'-OH).",
+       "ta": "ddNTP ஒரே முக்கிய வகையில் வேறுபடுகிறது: டீஆக்சிரைபோஸ் சர்க்கரையின் 3' நிலையில் ஹைட்ராக்சில் தொகுதிக்கு (3'-OH) பதிலாக ஹைட்ரஜன் அணு (3'-H) உள்ளது.",
+       "ta_status": "draft"
       },
       {
-       "en": "DNA polymerase extends a chain by catalysing an attack of the 3'-OH on the α-phosphate of the incoming dNTP, forming a new 3'–5' phosphodiester bond and releasing pyrophosphate."
+       "en": "DNA polymerase extends a chain by catalysing an attack of the 3'-OH on the α-phosphate of the incoming dNTP, forming a new 3'–5' phosphodiester bond and releasing pyrophosphate.",
+       "ta": "வரும் dNTP-யின் α-பாஸ்பேட்டை 3'-OH தாக்குவதை வினையூக்கி, புதிய 3'–5' பாஸ்போடைஎஸ்டர் பிணைப்பை உருவாக்கிப் பைரோபாஸ்பேட்டை விடுவித்து DNA பாலிமரேஸ் சங்கிலியை நீட்டுகிறது.",
+       "ta_status": "draft"
       },
       {
-       "en": "When a ddNTP is incorporated: its 5'-phosphate forms a bond with the previous nucleotide's 3'-OH. But the ddNTP itself now sits at the 3' end with only a 3'-H — no hydroxyl group is available to attack the next incoming nucleotide."
+       "en": "When a ddNTP is incorporated: its 5'-phosphate forms a bond with the previous nucleotide's 3'-OH. But the ddNTP itself now sits at the 3' end with only a 3'-H — no hydroxyl group is available to attack the next incoming nucleotide.",
+       "ta": "ddNTP இணையும்போது: அதன் 5'-பாஸ்பேட் முந்தைய நியுக்ளியோடைடின் 3'-OH உடன் பிணைப்பை உருவாக்குகிறது. ஆனால் ddNTP இப்போது 3' முனையில் 3'-H உடன் மட்டுமே உள்ளது — வரும் அடுத்த நியுக்ளியோடைடைத் தாக்க ஹைட்ராக்சில் தொகுதி இல்லை.",
+       "ta_status": "draft"
       },
       {
-       "en": "Therefore, no new phosphodiester bond can form → synthesis is permanently halted → chain termination."
+       "en": "Therefore, no new phosphodiester bond can form → synthesis is permanently halted → chain termination.",
+       "ta": "எனவே புதிய பாஸ்போடைஎஸ்டர் பிணைப்பு உருவாக இயலாது → தொகுப்பு நிரந்தரமாக நிற்கும் → சங்கிலி முடிவுறுத்தல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Include a structural diagram comparing dNTP and ddNTP showing the 3'-OH vs 3'-H difference."
+       "en": "Include a structural diagram comparing dNTP and ddNTP showing the 3'-OH vs 3'-H difference.",
+       "ta": "3'-OH – 3'-H வேறுபாட்டைக் காட்டும் dNTP – ddNTP அமைப்பு வரைபடத்தைச் சேர்க்க.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**3. Describe the steps involved in Sanger DNA sequencing. How is the sequence determined from the result?**"
+      "en": "**3. Describe the steps involved in Sanger DNA sequencing. How is the sequence determined from the result?**",
+      "ta": "**3. சேங்கர் DNA வரிசைப்படுத்தலின் படிகளை விவரிக்க. முடிவிலிருந்து வரிசை எவ்வாறு நிர்ணயிக்கப்படுகிறது?**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Answer Hints:**"
+      "en": "**Answer Hints:**",
+      "ta": "**விடைக் குறிப்புகள்:**",
+      "ta_status": "draft"
      }
     },
     {
@@ -1637,38 +2211,56 @@
      "ordered": false,
      "items": [
       {
-       "en": "Step 1: Denature template DNA to single strands (heat or NaOH)."
+       "en": "Step 1: Denature template DNA to single strands (heat or NaOH).",
+       "ta": "படி 1: டெம்ப்ளேட் DNA-வை ஒற்றை இழைகளாக இயல்பிழக்கச் செய் (வெப்பம் அல்லது NaOH).",
+       "ta_status": "draft"
       },
       {
-       "en": "Step 2: Anneal oligonucleotide primer to template (50–60°C)."
+       "en": "Step 2: Anneal oligonucleotide primer to template (50–60°C).",
+       "ta": "படி 2: ஒலிகோநியுக்ளியோடைடு பிரைமரை டெம்ப்ளேட்டுடன் அனீல் செய் (50–60°C).",
+       "ta_status": "draft"
       },
       {
-       "en": "Step 3: Add DNA polymerase, all four dNTPs, and all four fluorescently labelled ddNTPs (100× lower concentration than dNTPs)."
+       "en": "Step 3: Add DNA polymerase, all four dNTPs, and all four fluorescently labelled ddNTPs (100× lower concentration than dNTPs).",
+       "ta": "படி 3: DNA பாலிமரேஸ், நான்கு dNTP-கள், ஒளிர்வுக் குறியிட்ட நான்கு ddNTP-கள் (dNTP-களைவிட 100 மடங்கு குறைந்த செறிவு) சேர்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Step 4: Synthesis proceeds; at each position, ddNTP may be randomly incorporated → chain terminates at every possible position → population of fragments of all lengths is produced."
+       "en": "Step 4: Synthesis proceeds; at each position, ddNTP may be randomly incorporated → chain terminates at every possible position → population of fragments of all lengths is produced.",
+       "ta": "படி 4: தொகுப்பு தொடரும்; ஒவ்வோர் இடத்திலும் ddNTP சீரற்ற முறையில் இணையலாம் → சாத்தியமான ஒவ்வோர் இடத்திலும் சங்கிலி முடிவுறும் → அனைத்து நீளத் துண்டுகளின் தொகை உருவாகும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Step 5: Fragments denatured and loaded into capillary electrophoresis instrument."
+       "en": "Step 5: Fragments denatured and loaded into capillary electrophoresis instrument.",
+       "ta": "படி 5: துண்டுகள் இயல்பிழக்கச் செய்யப்பட்டு நுண்குழாய் மின்னாற்பகுப்புக் கருவியில் ஏற்றப்படும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Step 6: Fragments separated by size; laser detects fluorescent colour as each fragment elutes."
+       "en": "Step 6: Fragments separated by size; laser detects fluorescent colour as each fragment elutes.",
+       "ta": "படி 6: துண்டுகள் அளவால் பிரிக்கப்படும்; ஒவ்வொரு துண்டும் வெளிவரும்போது லேசர் ஒளிர்வு நிறத்தைக் கண்டறியும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Sequence determination: chromatogram shows coloured peaks; each colour = one base; peaks read left to right (small = earliest in 5'→3' sequence)."
+       "en": "Sequence determination: chromatogram shows coloured peaks; each colour = one base; peaks read left to right (small = earliest in 5'→3' sequence).",
+       "ta": "வரிசை நிர்ணயம்: குரோமடோகிராம் நிற உச்சங்களைக் காட்டும்; ஒவ்வொரு நிறமும் ஒரு காரம்; உச்சங்கள் இடமிருந்து வலமாக வாசிக்கப்படும் (சிறியது = 5'→3' வரிசையில் முந்தையது).",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**4. What is the role of dNTPs and ddNTPs in Sanger sequencing? Why are ddNTPs added at a much lower concentration than dNTPs?**"
+      "en": "**4. What is the role of dNTPs and ddNTPs in Sanger sequencing? Why are ddNTPs added at a much lower concentration than dNTPs?**",
+      "ta": "**4. சேங்கர் வரிசைப்படுத்தலில் dNTP-கள், ddNTP-களின் பங்கு யாது? ddNTP-கள் dNTP-களைவிட ஏன் மிகக் குறைந்த செறிவில் சேர்க்கப்படுகின்றன?**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Answer Hints:**"
+      "en": "**Answer Hints:**",
+      "ta": "**விடைக் குறிப்புகள்:**",
+      "ta_status": "draft"
      }
     },
     {
@@ -1676,26 +2268,36 @@
      "ordered": false,
      "items": [
       {
-       "en": "**Role of dNTPs:** Normal building blocks — provide the nucleotide subunits for DNA chain elongation. All four (dATP, dTTP, dGTP, dCTP) are needed. Their 3'-OH groups allow the chain to continue growing."
+       "en": "**Role of dNTPs:** Normal building blocks — provide the nucleotide subunits for DNA chain elongation. All four (dATP, dTTP, dGTP, dCTP) are needed. Their 3'-OH groups allow the chain to continue growing.",
+       "ta": "**dNTP-களின் பங்கு:** இயல்பான கட்டுமானக் கூறுகள் — DNA சங்கிலி நீட்சிக்கு நியுக்ளியோடைடு துணையலகுகளைத் தரும். நான்கும் (dATP, dTTP, dGTP, dCTP) தேவை. அவற்றின் 3'-OH தொகுதிகள் சங்கிலி வளர்ச்சியைத் தொடர அனுமதிக்கின்றன.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Role of ddNTPs:** Chain terminators — incorporated randomly at complementary positions and permanently stop synthesis. Each one terminates at a specific base type. In modern sequencing, each carries a different fluorescent dye for base identification."
+       "en": "**Role of ddNTPs:** Chain terminators — incorporated randomly at complementary positions and permanently stop synthesis. Each one terminates at a specific base type. In modern sequencing, each carries a different fluorescent dye for base identification.",
+       "ta": "**ddNTP-களின் பங்கு:** சங்கிலி முடிவுறுத்திகள் — நிரப்பு இடங்களில் சீரற்ற முறையில் இணைந்து தொகுப்பை நிரந்தரமாக நிறுத்தும். ஒவ்வொன்றும் குறிப்பிட்ட கார வகையில் முடிவுறுத்தும். நவீன வரிசைப்படுத்தலில் ஒவ்வொன்றும் காரத்தை அடையாளம் காண வேறுபட்ட ஒளிர்வுச் சாயத்தைச் சுமக்கும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Why low concentration of ddNTPs?** If ddNTPs were in equal or higher concentration, almost every fragment would be very short (terminated near the primer). A low ddNTP:dNTP ratio (~1:100) ensures that termination occurs rarely and randomly across the entire length of the template — generating fragments of every possible length from position 1 to ~1000 nt. This complete \"ladder\" of fragment sizes is essential for reading the full sequence."
+       "en": "**Why low concentration of ddNTPs?** If ddNTPs were in equal or higher concentration, almost every fragment would be very short (terminated near the primer). A low ddNTP:dNTP ratio (~1:100) ensures that termination occurs rarely and randomly across the entire length of the template — generating fragments of every possible length from position 1 to ~1000 nt. This complete \"ladder\" of fragment sizes is essential for reading the full sequence.",
+       "ta": "**ddNTP-கள் ஏன் குறைந்த செறிவில்?** ddNTP-கள் சமமான அல்லது அதிகச் செறிவில் இருந்தால் ஏறத்தாழ ஒவ்வொரு துண்டும் மிகக் குறுகியதாக (பிரைமருக்கு அருகில் முடிவுற்றதாக) இருக்கும். குறைந்த ddNTP : dNTP விகிதம் (~1:100) முடிவுறுதல் அரிதாகவும் டெம்ப்ளேட் முழு நீளத்திலும் சீரற்றதாகவும் நிகழ்வதை உறுதிசெய்து, இடம் 1 முதல் ~1000 nt வரை சாத்தியமான ஒவ்வொரு நீளத் துண்டையும் உருவாக்கும். இந்தத் துண்டு அளவுகளின் முழு “ஏணி” முழு வரிசையையும் வாசிக்க இன்றியமையாதது.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**5. List the components required for Sanger sequencing. State the advantages and limitations of this method.**"
+      "en": "**5. List the components required for Sanger sequencing. State the advantages and limitations of this method.**",
+      "ta": "**5. சேங்கர் வரிசைப்படுத்தலுக்குத் தேவையான கூறுகளைப் பட்டியலிடுக. இம்முறையின் நன்மைகளையும் வரம்புகளையும் குறிப்பிடுக.**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Answer Hints:**"
+      "en": "**Answer Hints:**",
+      "ta": "**விடைக் குறிப்புகள்:**",
+      "ta_status": "draft"
      }
     },
     {
@@ -1703,16 +2305,24 @@
      "ordered": false,
      "items": [
       {
-       "en": "**Components:** (1) Template DNA (single-stranded); (2) Primer (specific oligonucleotide); (3) DNA polymerase (Klenow fragment, T7, or Taq); (4) All four dNTPs (dATP, dTTP, dGTP, dCTP); (5) All four ddNTPs (ddATP, ddTTP, ddGTP, ddCTP — each fluorescently labelled); (6) Buffer with Mg²⁺ cofactor."
+       "en": "**Components:** (1) Template DNA (single-stranded); (2) Primer (specific oligonucleotide); (3) DNA polymerase (Klenow fragment, T7, or Taq); (4) All four dNTPs (dATP, dTTP, dGTP, dCTP); (5) All four ddNTPs (ddATP, ddTTP, ddGTP, ddCTP — each fluorescently labelled); (6) Buffer with Mg²⁺ cofactor.",
+       "ta": "**கூறுகள்:** (1) டெம்ப்ளேட் DNA (ஒற்றை இழை); (2) பிரைமர் (குறிப்பிட்ட ஒலிகோநியுக்ளியோடைடு); (3) DNA பாலிமரேஸ் (கிளினோ துண்டு, T7 அல்லது Taq); (4) நான்கு dNTP-களும் (dATP, dTTP, dGTP, dCTP); (5) நான்கு ddNTP-களும் (ddATP, ddTTP, ddGTP, ddCTP — ஒவ்வொன்றும் ஒளிர்வுக் குறியிட்டது); (6) Mg²⁺ துணைக்காரணியுடன் இடையகம்.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Advantages:** High accuracy (>99.99%); long reads (600–1000 bp); gold standard; automated; cost-effective for single genes."
+       "en": "**Advantages:** High accuracy (>99.99%); long reads (600–1000 bp); gold standard; automated; cost-effective for single genes.",
+       "ta": "**நன்மைகள்:** உயர் துல்லியம் (>99.99%); நீண்ட வாசிப்புகள் (600–1000 bp); தங்கத் தரநிலை; தானியங்கி; ஒற்றை மரபணுக்களுக்குச் செலவு குறைவு.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Limitations:** Low throughput (only ~1 kb per reaction); expensive for whole genomes; first 15–40 bases unreliable; cannot sequence repetitive regions well; requires pure single-sequence template."
+       "en": "**Limitations:** Low throughput (only ~1 kb per reaction); expensive for whole genomes; first 15–40 bases unreliable; cannot sequence repetitive regions well; requires pure single-sequence template.",
+       "ta": "**வரம்புகள்:** குறைந்த செயல்திறன் (ஒரு வினைக்கு ~1 kb மட்டுமே); முழு மரபணுத்தொகைக்குச் செலவு அதிகம்; முதல் 15–40 காரங்கள் நம்பகமற்றவை; மீள்வரிசைப் பகுதிகளை நன்கு வரிசைப்படுத்த இயலாது; தூய ஒற்றை வரிசை டெம்ப்ளேட் தேவை.",
+       "ta_status": "draft"
       },
       {
-       "en": "Brief mention of NGS as higher-throughput alternative, but Sanger remains preferred for targeted, high-accuracy sequencing."
+       "en": "Brief mention of NGS as higher-throughput alternative, but Sanger remains preferred for targeted, high-accuracy sequencing.",
+       "ta": "அதிகச் செயல்திறன் மாற்றாக NGS-ஐச் சுருக்கமாகக் குறிப்பிடுக; ஆயினும் இலக்கு, உயர் துல்லிய வரிசைப்படுத்தலுக்குச் சேங்கரே விரும்பப்படுகிறது.",
+       "ta_status": "draft"
       }
      ]
     }
