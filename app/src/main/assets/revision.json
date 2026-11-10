@@ -727,74 +727,122 @@
   "sa": [
    {
     "q": "Define gene therapy.",
-    "a": "Introduction of a functional gene into a patient’s cells to correct, replace or silence a faulty gene and treat or prevent disease."
+    "a": "Introduction of a functional gene into a patient’s cells to correct, replace or silence a faulty gene and treat or prevent disease.",
+    "q_ta": "மரபணு சிகிச்சையை வரையறுக்க.",
+    "a_ta": "குறைபாடுள்ள மரபணுவைத் திருத்த, மாற்ற அல்லது அமைதிப்படுத்தி, நோயைக் குணப்படுத்த அல்லது தடுக்க, நோயாளியின் செல்களுக்குள் செயல்படும் மரபணுவைச் செலுத்துதல்."
    },
    {
     "q": "Differentiate ex vivo and in vivo gene therapy.",
-    "a": "Ex vivo: cells are taken out, modified, verified and returned (for example ADA-SCID, CAR-T). In vivo: the vector is injected into the patient (for example AAV in Luxturna); simpler but less controllable."
+    "a": "Ex vivo: cells are taken out, modified, verified and returned (for example ADA-SCID, CAR-T). In vivo: the vector is injected into the patient (for example AAV in Luxturna); simpler but less controllable.",
+    "q_ta": "உடல்வெளி, உடலக மரபணு சிகிச்சைகளை வேறுபடுத்துக.",
+    "a_ta": "உடல்வெளி: செல்கள் வெளியே எடுக்கப்பட்டு, மாற்றப்பட்டு, சரிபார்க்கப்பட்டுத் திரும்பச் செலுத்தப்படுகின்றன (எ.கா. ADA-SCID, CAR-T). உடலக: தாங்கிக்கடத்தி நோயாளிக்குள் செலுத்தப்படுகிறது (எ.கா. Luxturna-வில் AAV); எளிமையானது, ஆனால் கட்டுப்படுத்துவது குறைவு."
    },
    {
     "q": "Name the vectors used in gene therapy.",
-    "a": "Viral: retrovirus/lentivirus (integrating), adenovirus (large, immunogenic), AAV (safe, long expression, small capacity). Non-viral: liposomes, lipid nanoparticles and naked DNA."
+    "a": "Viral: retrovirus/lentivirus (integrating), adenovirus (large, immunogenic), AAV (safe, long expression, small capacity). Non-viral: liposomes, lipid nanoparticles and naked DNA.",
+    "q_ta": "மரபணு சிகிச்சையில் பயன்படும் தாங்கிக்கடத்திகளைக் குறிப்பிடுக.",
+    "a_ta": "வைரஸ்: ரெட்ரோவைரஸ்/லென்டிவைரஸ் (ஒருங்கிணைபவை), அடினோவைரஸ் (பெரியது, நோயெதிர்ப்பைத் தூண்டுவது), AAV (பாதுகாப்பானது, நீண்டகால வெளிப்பாடு, சிறிய கொள்ளளவு). வைரஸ் அல்லாதவை: லிப்போசோம்கள், கொழுப்பு நானோ துகள்கள், வெற்று DNA."
    },
    {
     "q": "How is gene therapy used against cancer?",
-    "a": "By restoring p53, inserting suicide genes (HSV-tk with ganciclovir), stimulating immunity with cytokine genes or CAR-T cells, and using oncolytic viruses."
+    "a": "By restoring p53, inserting suicide genes (HSV-tk with ganciclovir), stimulating immunity with cytokine genes or CAR-T cells, and using oncolytic viruses.",
+    "q_ta": "புற்றுநோய்க்கு எதிராக மரபணு சிகிச்சை எவ்வாறு பயன்படுத்தப்படுகிறது?",
+    "a_ta": "p53-ஐ மீட்டமைத்தல், தற்கொலை மரபணுக்களைச் செருகுதல் (கேன்சிக்ளோவிருடன் HSV-tk), சைட்டோகைன் மரபணுக்கள் அல்லது CAR-T செல்களால் நோயெதிர்ப்பைத் தூண்டுதல், புற்றுச் செல் சிதைக்கும் (ஆன்கோலிடிக்) வைரஸ்களைப் பயன்படுத்துதல்."
    },
    {
     "q": "What are the limitations of gene therapy?",
-    "a": "Immune response to vectors, insertional mutagenesis, short-lived expression, difficulty in targeting tissues, high cost and ethical limits on germline editing."
+    "a": "Immune response to vectors, insertional mutagenesis, short-lived expression, difficulty in targeting tissues, high cost and ethical limits on germline editing.",
+    "q_ta": "மரபணு சிகிச்சையின் வரம்புகள் யாவை?",
+    "a_ta": "தாங்கிக்கடத்திகளுக்கு எதிரான நோயெதிர்ப்புத் துலங்கல், இன்செர்ஷனல் மியூட்டஜெனிசிஸ், குறுகியகால வெளிப்பாடு, திசுக்களை இலக்கிடுவதில் சிரமம், அதிகச் செலவு, கருவழித் திருத்தத்துக்கான நெறிமுறை வரம்புகள்."
    }
   ],
   "gl": [
    {
     "t": "Gene Therapy",
-    "d": "Medical approach using therapeutic genes to treat or prevent disease by correcting genetic abnormalities in patient cells."
+    "d": "Medical approach using therapeutic genes to treat or prevent disease by correcting genetic abnormalities in patient cells.",
+    "t_ta": "மரபணு சிகிச்சை",
+    "d_ta": "நோயாளியின் செல்களிலுள்ள மரபணுக் குறைபாடுகளைத் திருத்துவதன் மூலம் நோயைக் குணப்படுத்த அல்லது தடுக்க சிகிச்சை மரபணுக்களைப் பயன்படுத்தும் மருத்துவ அணுகுமுறை."
    },
    {
     "t": "Ex Vivo",
-    "d": "Latin for \"outside the living.\" Gene modification occurs outside the patient's body in a lab setting before cells are returned."
+    "d": "Latin for \"outside the living.\" Gene modification occurs outside the patient's body in a lab setting before cells are returned.",
+    "t_ta": "உடல்வெளி",
+    "d_ta": "லத்தீன் மொழியில் 'உயிருள்ளதற்கு வெளியே'. செல்கள் திரும்பச் செலுத்தப்படும் முன், நோயாளியின் உடலுக்கு வெளியே ஆய்வகத்தில் மரபணு மாற்றம் நிகழ்கிறது."
    },
    {
     "t": "In Vivo",
-    "d": "Latin for \"within the living.\" Gene delivery occurs directly inside the patient's body without removing cells."
+    "d": "Latin for \"within the living.\" Gene delivery occurs directly inside the patient's body without removing cells.",
+    "t_ta": "உடலக",
+    "d_ta": "லத்தீன் மொழியில் 'உயிருள்ளதற்குள்'. செல்களை எடுக்காமல், நோயாளியின் உடலுக்குள் நேரடியாக மரபணு விநியோகம் நிகழ்கிறது."
    },
    {
     "t": "Vector",
-    "d": "A carrier (usually viral) used to deliver therapeutic genetic material into target cells."
+    "d": "A carrier (usually viral) used to deliver therapeutic genetic material into target cells.",
+    "t_ta": "தாங்கிக்கடத்தி",
+    "d_ta": "சிகிச்சை மரபுப்பொருளை இலக்குச் செல்களுக்குள் செலுத்தப் பயன்படும் ஊர்தி (பொதுவாக வைரஸ்)."
    },
    {
     "t": "Therapeutic Gene",
-    "d": "A functional copy of a gene introduced into patient cells to compensate for a defective or missing gene."
+    "d": "A functional copy of a gene introduced into patient cells to compensate for a defective or missing gene.",
+    "t_ta": "சிகிச்சை மரபணு",
+    "d_ta": "குறைபாடுள்ள அல்லது இல்லாத மரபணுவை ஈடுசெய்ய நோயாளியின் செல்களுக்குள் செலுத்தப்படும் மரபணுவின் செயல்படும் படி."
    },
    {
     "t": "Target Cell",
-    "d": "The specific cell type into which the therapeutic gene is introduced to produce the desired effect."
+    "d": "The specific cell type into which the therapeutic gene is introduced to produce the desired effect.",
+    "t_ta": "இலக்குச் செல்",
+    "d_ta": "விரும்பிய விளைவை உருவாக்க, சிகிச்சை மரபணு செலுத்தப்படும் குறிப்பிட்ட செல் வகை."
    },
    {
     "t": "Tumour Suppressor Gene",
-    "d": "A gene (e.g., p53) that normally restrains cell growth; when mutated, can lead to cancer."
+    "d": "A gene (e.g., p53) that normally restrains cell growth; when mutated, can lead to cancer.",
+    "t_ta": "கட்டி அடக்கி மரபணு",
+    "d_ta": "இயல்பாகச் செல் வளர்ச்சியைக் கட்டுப்படுத்தும் மரபணு (எ.கா. p53); திடீர்மாற்றம் அடைந்தால் புற்றுநோய்க்கு வழிவகுக்கலாம்."
    },
    {
     "t": "Mutation",
-    "d": "A permanent change in the DNA sequence of a gene, which may disrupt normal protein function."
+    "d": "A permanent change in the DNA sequence of a gene, which may disrupt normal protein function.",
+    "t_ta": "திடீர்மாற்றம்",
+    "d_ta": "மரபணுவின் DNA வரிசையில் ஏற்படும் நிலையான மாற்றம்; இயல்பான புரதச் செயல்பாட்டைச் சிதைக்கலாம்."
    },
    {
     "t": "AAV",
-    "d": "Adeno-Associated Virus — a small, non-pathogenic virus widely used as a vector in approved gene therapies."
+    "d": "Adeno-Associated Virus — a small, non-pathogenic virus widely used as a vector in approved gene therapies.",
+    "t_ta": "AAV",
+    "d_ta": "Adeno-Associated Virus — அங்கீகரிக்கப்பட்ட மரபணு சிகிச்சைகளில் தாங்கிக்கடத்தியாகப் பரவலாகப் பயன்படும், நோய்க்காரணியற்ற சிறிய வைரஸ்."
    },
    {
     "t": "CAR-T Cell Therapy",
-    "d": "An ex vivo approach where T-lymphocytes are engineered with chimeric antigen receptors to target and destroy cancer cells."
+    "d": "An ex vivo approach where T-lymphocytes are engineered with chimeric antigen receptors to target and destroy cancer cells.",
+    "t_ta": "CAR-T செல் சிகிச்சை",
+    "d_ta": "T-நிணநீர்ச் செல்கள் கலப்பின எதிர்ப்பொருள் தூண்டி ஏற்பிகளுடன் பொறியியல் செய்யப்பட்டு, புற்றுச் செல்களை இலக்கிட்டு அழிக்கும் உடல்வெளி அணுகுமுறை."
    },
    {
     "t": "Somatic Gene Therapy",
-    "d": "Gene modification of body (non-reproductive) cells; changes are not heritable by offspring."
+    "d": "Gene modification of body (non-reproductive) cells; changes are not heritable by offspring.",
+    "t_ta": "உடல் செல் மரபணு சிகிச்சை",
+    "d_ta": "உடல் (இனப்பெருக்கமற்ற) செல்களின் மரபணு மாற்றம்; மாற்றங்கள் சந்ததிக்கு மரபுவழி வராது."
    },
    {
     "t": "Insertional Mutagenesis",
-    "d": "A risk where a retroviral vector integrates near a proto-oncogene, potentially activating cancer-causing pathways."
+    "d": "A risk where a retroviral vector integrates near a proto-oncogene, potentially activating cancer-causing pathways.",
+    "t_ta": "இன்செர்ஷனல் மியூட்டஜெனிசிஸ்",
+    "d_ta": "ரெட்ரோவைரஸ் தாங்கிக்கடத்தி புற்றுமுன் மரபணுவுக்கு அருகே ஒருங்கிணைந்து, புற்றுநோயை உண்டாக்கும் பாதைகளைச் செயல்படுத்தக்கூடும் என்ற ஆபத்து."
    }
+  ],
+  "title_ta": "மரபணு சிகிச்சை – உடல்வெளி, உடலக முறைகள்",
+  "kp_ta": [
+   "மரபணு சிகிச்சை குறைபாடுள்ள மரபணுவை மாற்றியோ, பழுதுநீக்கியோ, அமைதிப்படுத்தியோ மரபணு மட்டத்தில் நோயை சிகிச்சையளிக்கிறது.",
+   "முதல் மருத்துவ மரபணு சிகிச்சைச் சோதனை: 1990, ADA-SCID.",
+   "உடல் செல் மரபணு சிகிச்சை உடல் செல்களைப் பாதிக்கிறது; மரபுவழி வராது; கருவழி சிகிச்சை நெறிமுறை ரீதியாகக் கட்டுப்படுத்தப்பட்டது.",
+   "உடல்வெளி: செல்கள் எடுக்கப்பட்டு, ஆய்வகத்தில் மாற்றப்பட்டு, சரிபார்க்கப்பட்டு, திரும்பச் செலுத்தப்படும்; உடலக: தாங்கிக்கடத்தியும் மரபணுவும் நோயாளிக்குள் நேரடியாகச் செலுத்தப்படும்.",
+   "உடல்வெளி முறை திருத்தப்பட்ட செல்களைச் சரிபார்க்க அனுமதிக்கிறது; இரத்தச் செல்களுக்கு (குருதியாக்கத் தண்டு செல்கள்) ஏற்றது; உடலக முறை திண்ம உறுப்புகளுக்கு ஏற்றது; ஆனால் தாங்கிக்கடத்திக்கு எதிரான நோயெதிர்ப்புத் துலங்கல் ஆபத்து உண்டு.",
+   "இரத்தப் புற்றுநோய்களுக்கான CAR-T சிகிச்சை ஒரு உடல்வெளி அணுகுமுறை.",
+   "உடலக சிகிச்சைக்கு AAV மிகப் பரவலாகப் பயன்படும் தாங்கிக்கடத்தி; Luxturna (RPE65 விழித்திரை நோய்) அங்கீகரிக்கப்பட்ட முக்கியத் தயாரிப்பு.",
+   "வைரஸ் தாங்கிக்கடத்திகள் (ரெட்ரோவைரஸ், அடினோவைரஸ், AAV) திறன்மிக்கவை; வைரஸ் அல்லாத தாங்கிக்கடத்திகள் (லிப்போசோம்கள்) பாதுகாப்பானவை, ஆனால் திறன் குறைவு.",
+   "ரெட்ரோவைரஸ் தாங்கிக்கடத்திகள் மரபணுத்தொகையில் ஒருங்கிணைந்து, இன்செர்ஷனல் மியூட்டஜெனிசிஸ் ஆபத்தைக் கொண்டுள்ளன.",
+   "புற்றுநோய் மரபணு சிகிச்சை: கட்டி அடக்கிகளை (p53) மீட்டமைத்தல், நோயெதிர்ப்பைத் தூண்டுதல், முன்மருந்துடன் தற்கொலை மரபணுக்கள், தேர்ந்த இலக்கிடல்.",
+   "மரபணு சிகிச்சை மரபணுக் குளோனிங் அல்ல: குளோனிங் மரபணுக்களை நகலெடுக்கிறது; சிகிச்சை நோயைக் குணப்படுத்த மரபணுக்களைப் பயன்படுத்துகிறது."
   ]
  },
  "hgp_ethics_ipr.html": {
@@ -814,82 +862,132 @@
   "sa": [
    {
     "q": "What is the Human Genome Project? State its goals.",
-    "a": "An international project (1990–2003) to sequence the ~3 billion base pairs of the human genome, identify its genes, store data in databases, develop analysis tools, and study the ethical, legal and social implications."
+    "a": "An international project (1990–2003) to sequence the ~3 billion base pairs of the human genome, identify its genes, store data in databases, develop analysis tools, and study the ethical, legal and social implications.",
+    "q_ta": "மனித மரபணுத்தொகைத் திட்டம் என்றால் என்ன? அதன் இலக்குகளைக் குறிப்பிடுக.",
+    "a_ta": "மனித மரபணுத்தொகையின் ~300 கோடி காரச்சோடிகளை வரிசையாக்கவும், மரபணுக்களை அடையாளம் காணவும், தரவுகளைத் தரவுத்தளங்களில் சேமிக்கவும், பகுப்பாய்வுக் கருவிகளை உருவாக்கவும், நெறிமுறை, சட்ட, சமூகத் தாக்கங்களை ஆராயவும் மேற்கொள்ளப்பட்ட சர்வதேசத் திட்டம் (1990–2003)."
    },
    {
     "q": "Differentiate genetic and physical maps.",
-    "a": "A genetic map is based on recombination frequency (cM) between markers; a physical map shows actual distance in base pairs using restriction sites, STS and clone contigs."
+    "a": "A genetic map is based on recombination frequency (cM) between markers; a physical map shows actual distance in base pairs using restriction sites, STS and clone contigs.",
+    "q_ta": "மரபணு, இயற்பியல் வரைபடங்களை வேறுபடுத்துக.",
+    "a_ta": "மரபணு வரைபடம் குறிப்பான்களுக்கிடையேயான மறுசேர்க்கை அதிர்வெண்ணை (cM) அடிப்படையாகக் கொண்டது; இயற்பியல் வரைபடம் கட்டுறு இடங்கள், STS, குளோன் காண்டிக்குகளைப் பயன்படுத்தி காரச்சோடிகளில் உண்மையான தொலைவைக் காட்டுகிறது."
    },
    {
     "q": "Compare the public and Celera approaches.",
-    "a": "The public consortium used hierarchical clone-by-clone BAC sequencing guided by maps; Celera used whole-genome shotgun sequencing followed by computer assembly."
+    "a": "The public consortium used hierarchical clone-by-clone BAC sequencing guided by maps; Celera used whole-genome shotgun sequencing followed by computer assembly.",
+    "q_ta": "பொது அணுகுமுறையையும் செலரா அணுகுமுறையையும் ஒப்பிடுக.",
+    "a_ta": "பொதுக் கூட்டமைப்பு வரைபடங்களால் வழிநடத்தப்பட்ட படிநிலை குளோன்-குளோன் BAC வரிசையாக்கத்தைப் பயன்படுத்தியது; செலரா முழு மரபணுத்தொகைத் துப்பாக்கிக்குண்டு வரிசையாக்கத்தையும் அதைத் தொடர்ந்து கணினித் தொகுப்பையும் பயன்படுத்தியது."
    },
    {
     "q": "List four applications of HGP.",
-    "a": "Identification of disease genes, predictive testing and pharmacogenomics, forensic DNA profiling, comparative genomics/evolution, development of bioinformatics."
+    "a": "Identification of disease genes, predictive testing and pharmacogenomics, forensic DNA profiling, comparative genomics/evolution, development of bioinformatics.",
+    "q_ta": "HGP-இன் நான்கு பயன்பாடுகளைப் பட்டியலிடுக.",
+    "a_ta": "நோய் மரபணுக்களை அடையாளம் காணல், முன்கணிப்புச் சோதனையும் மருந்து மரபணுவியலும், தடயவியல் DNA வரைவாக்கம், ஒப்பீட்டு மரபணுத்தொகையியல்/பரிணாமம், உயிர்த்தகவலியல் வளர்ச்சி."
    },
    {
     "q": "What are the ethical issues related to genetic information?",
-    "a": "Privacy, discrimination by insurers/employers, informed consent, genetic testing of minors, germline editing, access and equity."
+    "a": "Privacy, discrimination by insurers/employers, informed consent, genetic testing of minors, germline editing, access and equity.",
+    "q_ta": "மரபணுத் தகவல் தொடர்பான நெறிமுறைச் சிக்கல்கள் யாவை?",
+    "a_ta": "தனியுரிமை, காப்பீட்டாளர்கள்/முதலாளிகளின் பாகுபாடு, தெரிந்த ஒப்புதல், சிறார்களுக்கான மரபணுச் சோதனை, கருவழித் திருத்தம், அணுகலும் சமநிலையும்."
    },
    {
     "q": "What is a patent? What are the criteria for patentability?",
-    "a": "A patent is an exclusive right for 20 years to an inventor in exchange for disclosure. The invention must be novel, involve an inventive step and be industrially applicable."
+    "a": "A patent is an exclusive right for 20 years to an inventor in exchange for disclosure. The invention must be novel, involve an inventive step and be industrially applicable.",
+    "q_ta": "காப்புரிமை என்றால் என்ன? காப்புரிமைத் தகுதிக்கான அளவுகோல்கள் யாவை?",
+    "a_ta": "காப்புரிமை என்பது வெளிப்படுத்தலுக்கு ஈடாகக் கண்டுபிடிப்பாளருக்கு 20 ஆண்டுகளுக்கு வழங்கப்படும் தனியுரிமை. கண்டுபிடிப்பு புதியதாக இருக்க வேண்டும், கண்டுபிடிப்புப் படியை உள்ளடக்க வேண்டும், தொழில் பயன்பாட்டுக்குத் தகுதியானதாக இருக்க வேண்டும்."
    },
    {
     "q": "What is biopiracy? Give an example.",
-    "a": "Unauthorised exploitation of biological resources or traditional knowledge without benefit sharing. Example: the patents on neem and turmeric, later revoked."
+    "a": "Unauthorised exploitation of biological resources or traditional knowledge without benefit sharing. Example: the patents on neem and turmeric, later revoked.",
+    "q_ta": "உயிரிக் கொள்ளை (பயோபைரசி) என்றால் என்ன? ஓர் எடுத்துக்காட்டு தருக.",
+    "a_ta": "பலன் பகிர்வு இல்லாமல் உயிரியல் வளங்களையோ மரபுவழி அறிவையோ அனுமதியின்றிச் சுரண்டுதல். எடுத்துக்காட்டு: வேம்பு, மஞ்சள் மீதான காப்புரிமைகள் (பின்னர் ரத்து செய்யப்பட்டன)."
    }
   ],
   "gl": [
    {
     "t": "Genome",
-    "d": "The complete set of DNA of an organism."
+    "d": "The complete set of DNA of an organism.",
+    "t_ta": "மரபணுத்தொகை",
+    "d_ta": "ஓர் உயிரினத்தின் முழுமையான DNA தொகுப்பு."
    },
    {
     "t": "Contig",
-    "d": "A set of overlapping DNA fragments forming a continuous sequence."
+    "d": "A set of overlapping DNA fragments forming a continuous sequence.",
+    "t_ta": "காண்டிக்",
+    "d_ta": "தொடர்ச்சியான வரிசையை உருவாக்கும், ஒன்றன்மேல் ஒன்று படியும் DNA துண்டுகளின் தொகுப்பு."
    },
    {
     "t": "BAC",
-    "d": "Bacterial artificial chromosome, a vector carrying 100–200 kb inserts."
+    "d": "Bacterial artificial chromosome, a vector carrying 100–200 kb inserts.",
+    "t_ta": "BAC",
+    "d_ta": "பாக்டீரியச் செயற்கை நிறமூர்த்தம்; 100–200 kb உட்செருகுகளைச் சுமக்கும் தாங்கிக்கடத்தி."
    },
    {
     "t": "STS",
-    "d": "Sequence-tagged site: short unique DNA sequence used as a map landmark."
+    "d": "Sequence-tagged site: short unique DNA sequence used as a map landmark.",
+    "t_ta": "STS",
+    "d_ta": "வரிசை-குறியிட்ட இடம்: வரைபடத்தின் அடையாளக் குறியாகப் பயன்படும் குறுகிய, தனித்துவ DNA வரிசை."
    },
    {
     "t": "SNP",
-    "d": "Single nucleotide polymorphism: a single-base difference between individuals."
+    "d": "Single nucleotide polymorphism: a single-base difference between individuals.",
+    "t_ta": "SNP",
+    "d_ta": "ஒற்றை நியுக்ளியோடைடு பல்லுருவமைப்பு: தனிநபர்களிடையே ஒரே ஒரு காரத்தில் உள்ள வேறுபாடு."
    },
    {
     "t": "ELSI",
-    "d": "Ethical, Legal and Social Implications of genomics research."
+    "d": "Ethical, Legal and Social Implications of genomics research.",
+    "t_ta": "ELSI",
+    "d_ta": "மரபணுத்தொகை ஆராய்ச்சியின் நெறிமுறை, சட்ட, சமூகத் தாக்கங்கள்."
    },
    {
     "t": "Informed consent",
-    "d": "Voluntary agreement after understanding risks and benefits."
+    "d": "Voluntary agreement after understanding risks and benefits.",
+    "t_ta": "தெரிந்த ஒப்புதல்",
+    "d_ta": "ஆபத்துகளையும் நன்மைகளையும் புரிந்துகொண்ட பின் அளிக்கும் தன்னார்வ ஒப்புதல்."
    },
    {
     "t": "Patent",
-    "d": "Exclusive right to an invention for a fixed period (20 years)."
+    "d": "Exclusive right to an invention for a fixed period (20 years).",
+    "t_ta": "காப்புரிமை",
+    "d_ta": "ஒரு கண்டுபிடிப்புக்கு நிலையான காலத்துக்கு (20 ஆண்டுகள்) வழங்கப்படும் தனியுரிமை."
    },
    {
     "t": "TRIPS",
-    "d": "WTO agreement on Trade-Related Aspects of Intellectual Property Rights."
+    "d": "WTO agreement on Trade-Related Aspects of Intellectual Property Rights.",
+    "t_ta": "TRIPS",
+    "d_ta": "அறிவுசார் சொத்துரிமையின் வணிகம் தொடர்பான அம்சங்களுக்கான WTO ஒப்பந்தம்."
    },
    {
     "t": "Biopiracy",
-    "d": "Unauthorised commercial use of biological resources or traditional knowledge."
+    "d": "Unauthorised commercial use of biological resources or traditional knowledge.",
+    "t_ta": "உயிரிக் கொள்ளை",
+    "d_ta": "உயிரியல் வளங்கள் அல்லது மரபுவழி அறிவை அனுமதியின்றி வணிகரீதியாகப் பயன்படுத்துதல்."
    },
    {
     "t": "GEAC",
-    "d": "Genetic Engineering Appraisal Committee, India's regulator of GMO release."
+    "d": "Genetic Engineering Appraisal Committee, India's regulator of GMO release.",
+    "t_ta": "GEAC",
+    "d_ta": "மரபணுப் பொறியியல் மதிப்பீட்டுக் குழு; GMO வெளியீட்டுக்கான இந்தியாவின் ஒழுங்குமுறை அமைப்பு."
    },
    {
     "t": "Geographical Indication",
-    "d": "Tag for products with qualities linked to their region of origin."
+    "d": "Tag for products with qualities linked to their region of origin.",
+    "t_ta": "புவிசார் குறியீடு",
+    "d_ta": "பிறப்பிடப் பகுதியுடன் தொடர்புடைய தரங்கள் கொண்ட பொருள்களுக்கான குறியீடு."
    }
+  ],
+  "title_ta": "மனித மரபணுத்தொகைத் திட்டம், நெறிமுறைகள், அறிவுசார் சொத்துரிமை",
+  "kp_ta": [
+   "HGP: 1990–2003; ~3.1 Gb; ~20,000 மரபணுக்கள்; <2% குறியீடு செய்பவை; தனிநபர்களிடையே ~99.9% ஒற்றுமை.",
+   "பொதுக் கூட்டமைப்பு (குளோன்-குளோன், BAC) – செலரா (முழு மரபணுத்தொகைத் துப்பாக்கிக்குண்டு); 2022-இல் T2T இடைவெளியற்ற மரபணுத்தொகை.",
+   "வரைபடங்கள்: மரபணு (cM), உயிரணுவியல் (பட்டைகள்), இயற்பியல் (bp), வரிசை வரைபடம்.",
+   "பயன்பாடுகள்: நோய் மரபணுக்கள், மருந்து மரபணுவியல், தடயவியல், பரிணாமம், உயிர்த்தகவலியல்.",
+   "HGP நிதியில் 3–5% ELSI-க்கு ஒதுக்கப்பட்டது.",
+   "நெறிமுறைகள்: தனியுரிமை, ஒப்புதல், பாகுபாடு, கருவழித் திருத்தம், GM உணவு, விலங்கு நலன், சமநிலை.",
+   "இந்தியா: GEAC, RCGM, IBSC; EPA 1986/விதிகள் 1989; உயிரியல் பல்வகைமைச் சட்டம் 2002; PPV&FR சட்டம் 2001.",
+   "காப்புரிமை அளவுகோல்கள்: புதுமை, கண்டுபிடிப்புப் படி, தொழில் பயன்பாட்டுத் தகுதி; TRIPS: 20 ஆண்டுகள்; நுண்ணுயிர்களுக்கு புடாபெஸ்ட் ஒப்பந்தம்.",
+   "இந்தியக் காப்புரிமைச் சட்டப் பிரிவு 3(j) தாவரங்களையும் விலங்குகளையும் விலக்குகிறது; வேம்பு, மஞ்சள் காப்புரிமைகள் ரத்து செய்யப்பட்டன."
   ]
  },
  "hybridoma_monoclonal_antibodies.html": {
@@ -906,66 +1004,105 @@
   "sa": [
    {
     "q": "What are monoclonal antibodies? How are they different from polyclonal antibodies?",
-    "a": "MAbs are identical antibodies from a single B-cell clone, specific for one epitope. Polyclonal antibodies come from many clones and recognise many epitopes."
+    "a": "MAbs are identical antibodies from a single B-cell clone, specific for one epitope. Polyclonal antibodies come from many clones and recognise many epitopes.",
+    "q_ta": "ஒற்றைக்குளோன் எதிர்ப்பொருட்கள் என்றால் என்ன? அவை பலகுளோன் எதிர்ப்பொருட்களிலிருந்து எவ்வாறு வேறுபடுகின்றன?",
+    "a_ta": "MAb-கள் ஒரே B செல் குளோனிலிருந்து வரும், ஒரு எபிடோப்புக்குக் குறிப்பான ஒத்த எதிர்ப்பொருட்கள். பலகுளோன் எதிர்ப்பொருட்கள் பல குளோன்களிலிருந்து வந்து பல எபிடோப்புகளை அடையாளம் காண்கின்றன."
    },
    {
     "q": "Describe the production of monoclonal antibodies.",
-    "a": "Immunise mouse → collect spleen B cells → fuse with HGPRT-deficient myeloma cells using PEG → select hybridomas in HAT medium → screen supernatants by ELISA → clone by limiting dilution → large-scale culture or ascites → purification."
+    "a": "Immunise mouse → collect spleen B cells → fuse with HGPRT-deficient myeloma cells using PEG → select hybridomas in HAT medium → screen supernatants by ELISA → clone by limiting dilution → large-scale culture or ascites → purification.",
+    "q_ta": "ஒற்றைக்குளோன் எதிர்ப்பொருட்களின் உற்பத்தியை விவரிக்க.",
+    "a_ta": "சுண்டெலிக்குத் தடுப்பாற்றலூட்டல் → மண்ணீரல் B செல்களைச் சேகரித்தல் → PEG கொண்டு HGPRT குறைபாடுள்ள மைலோமா செல்களுடன் இணைத்தல் → HAT ஊடகத்தில் ஹைப்ரிடோமாக்களைத் தேர்ந்தெடுத்தல் → ELISA மூலம் தெளிநீர்களைச் சலித்தல் → எல்லை நீர்த்தலால் குளோனிங் → பெரிய அளவு வளர்ப்பு அல்லது அசைட்டீஸ் → தூய்மையாக்கல்."
    },
    {
     "q": "Explain the role of HAT medium.",
-    "a": "Aminopterin blocks de novo nucleotide synthesis, so cells must use the HGPRT salvage pathway with hypoxanthine and thymidine. HGPRT-deficient myeloma cells die, B cells die naturally, and hybridomas survive."
+    "a": "Aminopterin blocks de novo nucleotide synthesis, so cells must use the HGPRT salvage pathway with hypoxanthine and thymidine. HGPRT-deficient myeloma cells die, B cells die naturally, and hybridomas survive.",
+    "q_ta": "HAT ஊடகத்தின் பங்கை விளக்குக.",
+    "a_ta": "அமினோப்டெரின் புதிதான நியுக்ளியோடைடு தொகுப்பைத் தடுப்பதால், செல்கள் ஹைப்போசாந்தின், தைமிடீனுடன் HGPRT மீட்புப் பாதையைப் பயன்படுத்த வேண்டும். HGPRT குறைபாடுள்ள மைலோமா செல்கள் இறக்கின்றன; B செல்கள் இயல்பாக இறக்கின்றன; ஹைப்ரிடோமாக்கள் உயிர்வாழ்கின்றன."
    },
    {
     "q": "Give four applications of MAbs.",
-    "a": "Cancer therapy (trastuzumab, rituximab); diagnosis (pregnancy test, ELISA); immunoaffinity purification; prevention of graft rejection (OKT3); imaging."
+    "a": "Cancer therapy (trastuzumab, rituximab); diagnosis (pregnancy test, ELISA); immunoaffinity purification; prevention of graft rejection (OKT3); imaging.",
+    "q_ta": "MAb-களின் நான்கு பயன்பாடுகளைத் தருக.",
+    "a_ta": "புற்றுநோய் சிகிச்சை (டிரஸ்டுஸுமாப், ரிட்டுக்ஸிமாப்); நோய்கண்டறிதல் (கர்ப்ப சோதனை, ELISA); நோயெதிர்ப்பு நாட்டத் தூய்மையாக்கல்; ஒட்டு நிராகரிப்புத் தடுப்பு (OKT3); படமெடுத்தல்."
    },
    {
     "q": "Why are humanised antibodies preferred?",
-    "a": "They reduce the HAMA response, have longer half-lives and are safer for repeated administration."
+    "a": "They reduce the HAMA response, have longer half-lives and are safer for repeated administration.",
+    "q_ta": "மனிதமயமாக்கப்பட்ட எதிர்ப்பொருட்கள் ஏன் விரும்பப்படுகின்றன?",
+    "a_ta": "அவை HAMA துலங்கலைக் குறைக்கின்றன, நீண்ட அரை-ஆயுள் கொண்டவை, மீண்டும் மீண்டும் செலுத்த பாதுகாப்பானவை."
    }
   ],
   "gl": [
    {
     "t": "Antibody",
-    "d": "Y-shaped protein that binds a specific antigen."
+    "d": "Y-shaped protein that binds a specific antigen.",
+    "t_ta": "எதிர்ப்பொருள்",
+    "d_ta": "குறிப்பிட்ட எதிர்ப்பொருள் தூண்டியுடன் பிணையும் Y வடிவப் புரதம்."
    },
    {
     "t": "Epitope",
-    "d": "The part of an antigen recognised by an antibody."
+    "d": "The part of an antigen recognised by an antibody.",
+    "t_ta": "எபிடோப்",
+    "d_ta": "எதிர்ப்பொருளால் அடையாளம் காணப்படும் எதிர்ப்பொருள் தூண்டியின் பகுதி."
    },
    {
     "t": "Hybridoma",
-    "d": "Immortal antibody-secreting cell formed by B cell and myeloma fusion."
+    "d": "Immortal antibody-secreting cell formed by B cell and myeloma fusion.",
+    "t_ta": "ஹைப்ரிடோமா",
+    "d_ta": "B செல்லும் மைலோமாவும் இணைந்து உருவாகும், எதிர்ப்பொருளைச் சுரக்கும் சாகா செல்."
    },
    {
     "t": "HAT medium",
-    "d": "Hypoxanthine-Aminopterin-Thymidine medium that selects hybridomas."
+    "d": "Hypoxanthine-Aminopterin-Thymidine medium that selects hybridomas.",
+    "t_ta": "HAT ஊடகம்",
+    "d_ta": "ஹைப்போசாந்தின்–அமினோப்டெரின்–தைமிடீன் ஊடகம்; ஹைப்ரிடோமாக்களைத் தேர்ந்தெடுக்கிறது."
    },
    {
     "t": "HGPRT",
-    "d": "Hypoxanthine-guanine phosphoribosyl transferase, enzyme of the salvage pathway."
+    "d": "Hypoxanthine-guanine phosphoribosyl transferase, enzyme of the salvage pathway.",
+    "t_ta": "HGPRT",
+    "d_ta": "ஹைப்போசாந்தின்–குவானின் பாஸ்போரைபோசைல் டிரான்ஸ்ஃபெரேஸ், மீட்புப் பாதையின் நொதி."
    },
    {
     "t": "Ascites",
-    "d": "Fluid in the mouse peritoneum that accumulates MAb-secreting hybridoma cells."
+    "d": "Fluid in the mouse peritoneum that accumulates MAb-secreting hybridoma cells.",
+    "t_ta": "அசைட்டீஸ்",
+    "d_ta": "MAb சுரக்கும் ஹைப்ரிடோமா செல்கள் சேரும் சுண்டெலியின் வயிற்றுறைத் திரவம்."
    },
    {
     "t": "CDR",
-    "d": "Complementarity-determining region of the antibody variable domain."
+    "d": "Complementarity-determining region of the antibody variable domain.",
+    "t_ta": "CDR",
+    "d_ta": "எதிர்ப்பொருளின் மாறுபடு களத்திலுள்ள நிரப்புத்தன்மை-தீர்மானிக்கும் பகுதி."
    },
    {
     "t": "HAMA",
-    "d": "Human anti-mouse antibody immune response."
+    "d": "Human anti-mouse antibody immune response.",
+    "t_ta": "HAMA",
+    "d_ta": "மனித எதிர்-சுண்டெலி எதிர்ப்பொருள் நோயெதிர்ப்புத் துலங்கல்."
    },
    {
     "t": "Phage display",
-    "d": "Technique displaying peptides or antibody fragments on phage for selection."
+    "d": "Technique displaying peptides or antibody fragments on phage for selection.",
+    "t_ta": "ஃபாஜ் காட்சிப்படுத்தல்",
+    "d_ta": "தேர்வுக்காக, ஃபாஜின் மேல் பெப்டைடுகளையோ எதிர்ப்பொருள் துண்டுகளையோ காட்சிப்படுத்தும் நுட்பம்."
    },
    {
     "t": "Fc region",
-    "d": "Constant tail of an antibody that engages immune effector functions."
+    "d": "Constant tail of an antibody that engages immune effector functions.",
+    "t_ta": "Fc பகுதி",
+    "d_ta": "நோயெதிர்ப்பு விளைவுச் செயல்பாடுகளை ஈடுபடுத்தும் எதிர்ப்பொருளின் மாறாத வால்."
    }
+  ],
+  "title_ta": "ஹைப்ரிடோமாவும் ஒற்றைக்குளோன் எதிர்ப்பொருட்களும்",
+  "kp_ta": [
+   "ஹைப்ரிடோமா = B நிணநீர்ச் செல் + மைலோமா செல்; கோலர் & மில்ஸ்டீன், 1975; நோபல் 1984.",
+   "மைலோமா செல்களில் HGPRT குறைபாடு உள்ளது; HAT ஊடகம் கலப்பினங்களைத் தேர்ந்தெடுக்கிறது.",
+   "இணைக்கும் காரணி: PEG. சலிக்கை: ELISA. குளோனிங்: எல்லை நீர்த்தல்.",
+   "சுண்டெலி எதிர்ப்பொருட்கள் HAMA-வை ஏற்படுத்துகின்றன; தீர்வு: கலப்பின (-ximab), மனிதமயமாக்கப்பட்ட (-zumab), மனித (-umab).",
+   "ஃபாஜ் காட்சிப்படுத்தல் (ஸ்மித், வின்டர், நோபல் 2018) முழுமையான மனித MAb-களை உருவாக்குகிறது.",
+   "பயன்கள்: புற்றுநோய் சிகிச்சை, தன்னெதிர்ப்பு நோய், நோய்கண்டறிதல், தூய்மையாக்கல், ஆராய்ச்சி."
   ]
  },
  "industrial_biotech_fermentation.html": {
