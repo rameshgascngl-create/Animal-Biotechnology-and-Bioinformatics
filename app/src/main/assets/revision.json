@@ -2710,74 +2710,123 @@
   "sa": [
    {
     "q": "What is a DNA library? Distinguish between a genomic DNA library and a cDNA library.",
-    "a": "Define DNA library: a collection of cloned DNA fragments in vectors maintained in host cells; represents the genetic information of a source organism. Genomic library: source = total genomic DNA; contains coding + non-coding + introns; tissue-independent; large number of clones needed. cDNA library: source = mRNA (via reverse transcriptase → cDNA); contains only expressed, intron-free sequences; tissue-specific; smaller number of clones. Key difference: genomic library has all genetic information; cDNA library has only information from actively transcribed genes at a specific time/tissue. Practical difference: cDNA can be directly expressed in E. coli (no introns); genomic eukaryotic gene clones cannot."
+    "a": "Define DNA library: a collection of cloned DNA fragments in vectors maintained in host cells; represents the genetic information of a source organism. Genomic library: source = total genomic DNA; contains coding + non-coding + introns; tissue-independent; large number of clones needed. cDNA library: source = mRNA (via reverse transcriptase → cDNA); contains only expressed, intron-free sequences; tissue-specific; smaller number of clones. Key difference: genomic library has all genetic information; cDNA library has only information from actively transcribed genes at a specific time/tissue. Practical difference: cDNA can be directly expressed in E. coli (no introns); genomic eukaryotic gene clones cannot.",
+    "q_ta": "DNA நூலகம் என்றால் என்ன? மரபணுத்தொகை DNA நூலகத்தையும் cDNA நூலகத்தையும் வேறுபடுத்துக.",
+    "a_ta": "DNA நூலகத்தை வரையறு: ஓம்புயிர்ச் செல்களில் பராமரிக்கப்படும் தாங்கிக்கடத்திகளில் குளோன் செய்யப்பட்ட DNA துண்டுகளின் தொகுப்பு; மூல உயிரினத்தின் மரபணுத் தகவலைப் பிரதிநிதித்துவப்படுத்துகிறது. மரபணுத்தொகை நூலகம்: மூலம் = மொத்த மரபணுத்தொகை DNA; குறியீடு செய்பவை + குறியீடற்றவை + இன்ட்ரான்கள் உள்ளன; திசுவைச் சாராதது; அதிக எண்ணிக்கையிலான குளோன்கள் தேவை. cDNA நூலகம்: மூலம் = mRNA (ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ் → cDNA); வெளிப்படும், இன்ட்ரான் அற்ற வரிசைகளை மட்டுமே கொண்டது; திசு-சார்ந்தது; குறைந்த எண்ணிக்கையிலான குளோன்கள். முக்கிய வேறுபாடு: மரபணுத்தொகை நூலகத்தில் அனைத்து மரபணுத் தகவலும் உள்ளது; cDNA நூலகத்தில் குறிப்பிட்ட நேரம்/திசுவில் செயல்படும் மரபணுக்களின் தகவல் மட்டுமே உள்ளது. நடைமுறை வேறுபாடு: cDNA-வை நேரடியாக E. coli-இல் வெளிப்படுத்தலாம் (இன்ட்ரான்கள் இல்லை); மெய்க்கரு மரபணுத்தொகை குளோன்களை முடியாது."
    },
    {
     "q": "Describe the steps involved in the construction of a cDNA library. What is the role of reverse transcriptase?",
-    "a": "Step 1: Isolate poly-A mRNA from target tissue using oligo-dT cellulose affinity chromatography. Step 2: First-strand cDNA synthesis — oligo-dT primer anneals to poly-A tail; reverse transcriptase synthesises cDNA using mRNA as template → mRNA:cDNA hybrid. Step 3: Degrade mRNA using RNase H or NaOH → single-stranded cDNA remains. Step 4: Second-strand synthesis — DNA Polymerase I synthesises complementary strand → ds-cDNA. Step 5: Add restriction enzyme linkers/adaptors → ligate into vector (e.g., lambda gt11, pUC) → transform into E. coli. Role of RT: catalyses mRNA → cDNA (RNA-dependent DNA polymerase); reverses central dogma; derived from retroviruses; requires primer (oligo-dT or random hexamer)."
+    "a": "Step 1: Isolate poly-A mRNA from target tissue using oligo-dT cellulose affinity chromatography. Step 2: First-strand cDNA synthesis — oligo-dT primer anneals to poly-A tail; reverse transcriptase synthesises cDNA using mRNA as template → mRNA:cDNA hybrid. Step 3: Degrade mRNA using RNase H or NaOH → single-stranded cDNA remains. Step 4: Second-strand synthesis — DNA Polymerase I synthesises complementary strand → ds-cDNA. Step 5: Add restriction enzyme linkers/adaptors → ligate into vector (e.g., lambda gt11, pUC) → transform into E. coli. Role of RT: catalyses mRNA → cDNA (RNA-dependent DNA polymerase); reverses central dogma; derived from retroviruses; requires primer (oligo-dT or random hexamer).",
+    "q_ta": "cDNA நூலகம் உருவாக்கத்தில் உள்ள படிகளை விவரிக்க. ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸின் பங்கு என்ன?",
+    "a_ta": "படி 1: oligo-dT செல்லுலோஸ் நாட்ட நிறப்பிரிகை மூலம் இலக்குத் திசுவிலிருந்து poly-A mRNA-வைப் பிரித்தெடு. படி 2: முதல் இழை cDNA தொகுப்பு — oligo-dT பிரைமர் poly-A வாலுடன் இணைகிறது; ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ் mRNA-வை வார்ப்புருவாகக் கொண்டு cDNA-வைத் தொகுக்கிறது → mRNA:cDNA கலப்பினம். படி 3: RNase H அல்லது NaOH கொண்டு mRNA-வைச் சிதைக்க → ஒற்றை இழை cDNA எஞ்சுகிறது. படி 4: இரண்டாம் இழைத் தொகுப்பு — DNA பாலிமரேஸ் I நிரப்பு இழையைத் தொகுக்கிறது → ds-cDNA. படி 5: கட்டுறு நொதி இணைப்பிகள்/அடாப்டர்களைச் சேர்த்து → தாங்கிக்கடத்தியில் (எ.கா., லாம்டா gt11, pUC) இணை → E. coli-க்குள் உருமாற்று. RT-இன் பங்கு: mRNA → cDNA-வை வினையூக்குகிறது (RNA-சார்ந்த DNA பாலிமரேஸ்); மையக் கோட்பாட்டைத் தலைகீழாக்குகிறது; ரெட்ரோவைரஸ்களிலிருந்து பெறப்படுகிறது; பிரைமர் தேவை (oligo-dT அல்லது தற்போக்கு ஹெக்சாமர்)."
    },
    {
     "q": "Explain the construction of a genomic DNA library. Why is partial digestion preferred over complete digestion?",
-    "a": "Steps: isolate total genomic DNA → partial restriction enzyme digestion → size selection → ligation into vector → transformation of E. coli → collection of clones = library. Partial vs complete digestion: complete digestion always cuts at the same sites, missing regions between rare restriction sites; partial digestion produces overlapping, random fragments that together cover all sequences. Overlapping inserts are needed for chromosome walking and physical mapping — complete digestion cannot provide this. Library size calculated using Clarke-Carbon formula: N = ln(1−P) / ln(1−f). Vectors used: cosmids for 35–45 kb inserts; YACs for megabase inserts; lambda phage for ~20 kb inserts."
+    "a": "Steps: isolate total genomic DNA → partial restriction enzyme digestion → size selection → ligation into vector → transformation of E. coli → collection of clones = library. Partial vs complete digestion: complete digestion always cuts at the same sites, missing regions between rare restriction sites; partial digestion produces overlapping, random fragments that together cover all sequences. Overlapping inserts are needed for chromosome walking and physical mapping — complete digestion cannot provide this. Library size calculated using Clarke-Carbon formula: N = ln(1−P) / ln(1−f). Vectors used: cosmids for 35–45 kb inserts; YACs for megabase inserts; lambda phage for ~20 kb inserts.",
+    "q_ta": "மரபணுத்தொகை DNA நூலக உருவாக்கத்தை விளக்குக. முழுமையான வெட்டலை விடப் பகுதி வெட்டல் ஏன் விரும்பப்படுகிறது?",
+    "a_ta": "படிகள்: மொத்த மரபணுத்தொகை DNA-வைப் பிரித்தெடு → பகுதி கட்டுறு நொதி வெட்டல் → அளவுத் தேர்வு → தாங்கிக்கடத்தியில் இணைத்தல் → E. coli உருமாற்றம் → குளோன்களின் தொகுப்பு = நூலகம். பகுதி – முழுமையான வெட்டல்: முழுமையான வெட்டல் எப்போதும் ஒரே இடங்களில் வெட்டுவதால், அரிதான கட்டுறு இடங்களுக்கு இடைப்பட்ட பகுதிகள் விடுபடும்; பகுதி வெட்டல் மேற்பொருந்தும், தற்போக்குத் துண்டுகளை உருவாக்கி, அவை சேர்ந்து அனைத்து வரிசைகளையும் உள்ளடக்குகின்றன. நிறமூர்த்த நடைபயணத்துக்கும் இயற்பியல் வரைபடமாக்கலுக்கும் மேற்பொருந்தும் செருகல்கள் தேவை — முழுமையான வெட்டலால் இதைத் தர முடியாது. நூலக அளவு கிளார்க்–கார்பன் சூத்திரத்தால் கணக்கிடப்படுகிறது: N = ln(1−P) / ln(1−f). பயன்படும் தாங்கிக்கடத்திகள்: 35–45 kb செருகல்களுக்குக் காஸ்மிடுகள்; மெகாபேஸ் செருகல்களுக்கு YAC-கள்; ~20 kb செருகல்களுக்கு லாம்டா பாகாஃபேஜ்."
    },
    {
     "q": "Why is a cDNA library preferred over a genomic library for expressing eukaryotic genes in bacteria?",
-    "a": "Eukaryotic genes contain introns (non-coding intervening sequences) that are removed by splicing in eukaryotic cells. Prokaryotes (bacteria) lack the splicing machinery (spliceosome) needed to remove introns from pre-mRNA. If a genomic eukaryotic gene (with introns) is expressed in E. coli, the introns will be read as coding sequence → non-functional or truncated protein. cDNA is derived from processed mRNA (introns already removed) → it represents only the coding sequence (exons) → can be directly and correctly translated in E. coli. Example: human insulin cDNA expressed in E. coli produces functional insulin; human insulin genomic clone would not."
+    "a": "Eukaryotic genes contain introns (non-coding intervening sequences) that are removed by splicing in eukaryotic cells. Prokaryotes (bacteria) lack the splicing machinery (spliceosome) needed to remove introns from pre-mRNA. If a genomic eukaryotic gene (with introns) is expressed in E. coli, the introns will be read as coding sequence → non-functional or truncated protein. cDNA is derived from processed mRNA (introns already removed) → it represents only the coding sequence (exons) → can be directly and correctly translated in E. coli. Example: human insulin cDNA expressed in E. coli produces functional insulin; human insulin genomic clone would not.",
+    "q_ta": "பாக்டீரியாவில் மெய்க்கரு மரபணுக்களை வெளிப்படுத்த, மரபணுத்தொகை நூலகத்தை விட cDNA நூலகம் ஏன் விரும்பப்படுகிறது?",
+    "a_ta": "மெய்க்கரு மரபணுக்களில் இன்ட்ரான்கள் (குறியீடற்ற இடைவரிசைகள்) உள்ளன; அவை மெய்க்கருச் செல்களில் பிளவுறுதலால் நீக்கப்படுகின்றன. புரோகேரியோட்டுகளில் (பாக்டீரியா) pre-mRNA-விலிருந்து இன்ட்ரான்களை நீக்கத் தேவையான பிளவு இயங்குமுறை (ஸ்பைசியோசோம்) இல்லை. இன்ட்ரான்களுடன் கூடிய மெய்க்கர மரபணுத்தொகை மரபணுவை E. coli-இல் வெளிப்படுத்தினால், இன்ட்ரான்கள் குறியீடு வரிசையாகப் படிக்கப்படும் → செயலற்ற அல்லது துண்டிக்கப்பட்ட புரதம். cDNA செயலாக்கப்பட்ட mRNA-விலிருந்து (இன்ட்ரான்கள் ஏற்கெனவே நீக்கப்பட்டவை) பெறப்படுகிறது → குறியீடு வரிசையை (எக்சான்கள்) மட்டுமே குறிக்கிறது → E. coli-இல் நேரடியாகவும் சரியாகவும் மொழிபெயர்க்கப்படலாம். எடுத்துக்காட்டு: மனித இன்சுலின் cDNA E. coli-இல் செயல்படும் இன்சுலினைத் தருகிறது; மனித இன்சுலின் மரபணுத்தொகைக் குளோன் தராது."
    },
    {
     "q": "Write a note on the applications of DNA libraries in biotechnology and medicine.",
-    "a": "Human Genome Project: YAC and BAC genomic libraries provided overlapping clones for physical mapping and sequencing the 3.2 Gb human genome. Recombinant drug production: Human insulin, growth hormone, erythropoietin cloned from cDNA libraries and expressed in bacteria/yeast for therapeutic use. Gene discovery: cDNA libraries from diseased tissues (cancer, Alzheimer's) vs normal tissues identify differentially expressed genes — potential drug targets. EST (Expressed Sequence Tag) projects: Partial sequencing of cDNA library clones generated millions of short gene markers cataloguing the human transcriptome. Chromosome walking: Genomic libraries used to navigate chromosomal regions to isolate disease genes (e.g., cystic fibrosis gene isolated by chromosome walking in 1989). Phage display: cDNA libraries cloned into phage display vectors to identify protein–protein interactions and novel antibodies."
+    "a": "Human Genome Project: YAC and BAC genomic libraries provided overlapping clones for physical mapping and sequencing the 3.2 Gb human genome. Recombinant drug production: Human insulin, growth hormone, erythropoietin cloned from cDNA libraries and expressed in bacteria/yeast for therapeutic use. Gene discovery: cDNA libraries from diseased tissues (cancer, Alzheimer's) vs normal tissues identify differentially expressed genes — potential drug targets. EST (Expressed Sequence Tag) projects: Partial sequencing of cDNA library clones generated millions of short gene markers cataloguing the human transcriptome. Chromosome walking: Genomic libraries used to navigate chromosomal regions to isolate disease genes (e.g., cystic fibrosis gene isolated by chromosome walking in 1989). Phage display: cDNA libraries cloned into phage display vectors to identify protein–protein interactions and novel antibodies.",
+    "q_ta": "உயிரித்தொழில்நுட்பத்திலும் மருத்துவத்திலும் DNA நூலகங்களின் பயன்பாடுகள் பற்றிக் குறிப்பு எழுதுக.",
+    "a_ta": "மனித மரபணுத்தொகைத் திட்டம்: 3.2 Gb மனித மரபணுத்தொகையின் இயற்பியல் வரைபடமாக்கலுக்கும் வரிசைப்படுத்தலுக்கும் YAC, BAC மரபணுத்தொகை நூலகங்கள் மேற்பொருந்தும் குளோன்களை வழங்கின. மறுசேர்க்கை மருந்து உற்பத்தி: மனித இன்சுலின், வளர்ச்சி ஹார்மோன், எரித்ரோபாய்டின் ஆகியவை cDNA நூலகங்களிலிருந்து குளோன் செய்யப்பட்டு, சிகிச்சைக்காக பாக்டீரியா/ஈஸ்டில் வெளிப்படுத்தப்பட்டன. மரபணு கண்டறிதல்: நோயுற்ற திசுக்களின் (புற்றுநோய், அல்சைமர்) cDNA நூலகங்களை இயல்பு திசுக்களுடன் ஒப்பிட்டு, வேறுபாடாக வெளிப்படும் மரபணுக்களை — சாத்தியமான மருந்து இலக்குகளை — அடையாளம் காணலாம். EST (வெளிப்படும் வரிசைக் குறிப்பான்) திட்டங்கள்: cDNA நூலகக் குளோன்களின் பகுதி வரிசைப்படுத்தல், மனிதப் படியெடுப்புத்தொகையைப் பட்டியலிடும் மில்லியன் கணக்கான குறுகிய மரபணுக் குறிப்பான்களை உருவாக்கியது. நிறமூர்த்த நடைபயணம்: நோய் மரபணுக்களைப் பிரித்தெடுக்க நிறமூர்த்தப் பகுதிகளில் வழிசெலுத்த மரபணுத்தொகை நூலகங்கள் (எ.கா., சிஸ்டிக் ஃபைப்ரோசிஸ் மரபணு 1989-இல் நிறமூர்த்த நடைபயணத்தால் பிரித்தெடுக்கப்பட்டது). பாகாஃபேஜ் காட்சியமைப்பு: புரத–புரத இடைவினைகளையும் புதிய எதிர்ப்பொருட்களையும் அடையாளம் காண cDNA நூலகங்கள் பாகாஃபேஜ் காட்சியமைப்புத் தாங்கிக்கடத்திகளில் குளோன் செய்யப்படுகின்றன."
    }
   ],
   "gl": [
    {
     "t": "DNA Library",
-    "d": "A collection of cloned DNA fragments (in vectors, inside host cells) that together represent the genetic information of a source organism. Exists as genomic library (total DNA) or cDNA library (expressed sequences)."
+    "d": "A collection of cloned DNA fragments (in vectors, inside host cells) that together represent the genetic information of a source organism. Exists as genomic library (total DNA) or cDNA library (expressed sequences).",
+    "t_ta": "DNA நூலகம்",
+    "d_ta": "மூல உயிரினத்தின் மரபணுத் தகவலை ஒன்றாகப் பிரதிநிதித்துவப்படுத்தும் குளோன் செய்யப்பட்ட DNA துண்டுகளின் (ஓம்புயிர்ச் செல்களுக்குள் தாங்கிக்கடத்திகளில்) தொகுப்பு. மரபணுத்தொகை நூலகம் (மொத்த DNA) அல்லது cDNA நூலகம் (வெளிப்படும் வரிசைகள்) என இருவகையில் உள்ளது."
    },
    {
     "t": "Genomic DNA",
-    "d": "The complete DNA content of an organism's cell, including all chromosomes with coding genes, introns, promoters, enhancers, repetitive sequences, and intergenic DNA. Present in all nucleated cells of the organism."
+    "d": "The complete DNA content of an organism's cell, including all chromosomes with coding genes, introns, promoters, enhancers, repetitive sequences, and intergenic DNA. Present in all nucleated cells of the organism.",
+    "t_ta": "மரபணுத்தொகை DNA",
+    "d_ta": "ஒரு உயிரினச் செல்லின் முழு DNA உள்ளடக்கம்; குறியீடு செய்யும் மரபணுக்கள், இன்ட்ரான்கள், ஊக்குவிப்பிகள், மிகைப்பிகள், மீள் வரிசைகள், மரபணுக்களுக்கிடையிலான DNA ஆகியவற்றுடன் கூடிய அனைத்து நிறமூர்த்தங்களையும் உள்ளடக்கியது. உயிரினத்தின் அனைத்து உட்கருவுள்ள செல்களிலும் உள்ளது."
    },
    {
     "t": "cDNA (Complementary DNA)",
-    "d": "A DNA copy of an mRNA molecule, synthesised by reverse transcriptase. Contains only the coding (exon) sequences of a gene — no introns. Used in cDNA libraries and for expression of eukaryotic genes in prokaryotes."
+    "d": "A DNA copy of an mRNA molecule, synthesised by reverse transcriptase. Contains only the coding (exon) sequences of a gene — no introns. Used in cDNA libraries and for expression of eukaryotic genes in prokaryotes.",
+    "t_ta": "cDNA (நிரப்பு DNA)",
+    "d_ta": "ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸால் தொகுக்கப்படும் mRNA மூலக்கூறின் DNA நகல். ஒரு மரபணுவின் குறியீடு (எக்சான்) வரிசைகளை மட்டுமே கொண்டது — இன்ட்ரான்கள் இல்லை. cDNA நூலகங்களிலும் புரோகேரியோட்டுகளில் மெய்க்கரு மரபணுக்களை வெளிப்படுத்தவும் பயன்படுகிறது."
    },
    {
     "t": "Reverse Transcriptase",
-    "d": "An RNA-dependent DNA polymerase found in retroviruses (e.g., HIV, MMLV). Synthesises a complementary DNA (cDNA) strand from an mRNA template. Essential enzyme for cDNA synthesis and cDNA library construction."
+    "d": "An RNA-dependent DNA polymerase found in retroviruses (e.g., HIV, MMLV). Synthesises a complementary DNA (cDNA) strand from an mRNA template. Essential enzyme for cDNA synthesis and cDNA library construction.",
+    "t_ta": "ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ்",
+    "d_ta": "ரெட்ரோவைரஸ்களில் (எ.கா., HIV, MMLV) காணப்படும் RNA-சார்ந்த DNA பாலிமரேஸ். mRNA வார்ப்புருவிலிருந்து நிரப்பு DNA (cDNA) இழையைத் தொகுக்கிறது. cDNA தொகுப்புக்கும் cDNA நூலக உருவாக்கத்துக்கும் இன்றியமையாத நொதி."
    },
    {
     "t": "Vector",
-    "d": "A DNA molecule (plasmid, bacteriophage, cosmid, or YAC) used to carry a foreign DNA fragment into a host cell where it can replicate. Must have an origin of replication, selectable marker, and restriction sites for cloning."
+    "d": "A DNA molecule (plasmid, bacteriophage, cosmid, or YAC) used to carry a foreign DNA fragment into a host cell where it can replicate. Must have an origin of replication, selectable marker, and restriction sites for cloning.",
+    "t_ta": "தாங்கிக்கடத்தி",
+    "d_ta": "அயல் DNA துண்டை இரட்டிப்பாகக்கூடிய ஓம்புயிர்ச் செல்லுக்குள் கொண்டுசெல்லப் பயன்படும் DNA மூலக்கூறு (பிளாஸ்மிடு, பாக்டீரியோஃபேஜ், காஸ்மிட் அல்லது YAC). இரட்டிப்புத் தொடக்கப்புள்ளி, தேர்வுக் குறிப்பான், குளோனாக்கத்துக்கான கட்டுறு இடங்கள் இருக்க வேண்டும்."
    },
    {
     "t": "Transformation",
-    "d": "The uptake of foreign DNA by a bacterial cell. In library construction, recombinant vectors are introduced into competent E. coli by transformation. Successfully transformed cells are selected on antibiotic plates."
+    "d": "The uptake of foreign DNA by a bacterial cell. In library construction, recombinant vectors are introduced into competent E. coli by transformation. Successfully transformed cells are selected on antibiotic plates.",
+    "t_ta": "உருமாற்றம்",
+    "d_ta": "பாக்டீரியச் செல் அயல் DNA-வை எடுத்துக்கொள்ளுதல். நூலக உருவாக்கத்தில், மறுசேர்க்கைத் தாங்கிக்கடத்திகள் உருமாற்றம் மூலம் ஏற்புத்திறன் கொண்ட E. coli-க்குள் செலுத்தப்படுகின்றன. வெற்றிகரமாக உருமாறிய செல்கள் உயிர்எதிர்ப்பிப் பொருள் தட்டுகளில் தேர்ந்தெடுக்கப்படுகின்றன."
    },
    {
     "t": "Cloning",
-    "d": "The process of inserting a DNA fragment into a vector and propagating it in host cells to produce many identical copies of the fragment. Forms the basis of DNA library construction."
+    "d": "The process of inserting a DNA fragment into a vector and propagating it in host cells to produce many identical copies of the fragment. Forms the basis of DNA library construction.",
+    "t_ta": "குளோனாக்கம்",
+    "d_ta": "ஒரு DNA துண்டைத் தாங்கிக்கடத்தியில் செருகி, ஓம்புயிர்ச் செல்களில் பெருக்கி, துண்டின் பல ஒத்த நகல்களை உருவாக்கும் செயல்முறை. DNA நூலக உருவாக்கத்தின் அடிப்படை."
    },
    {
     "t": "Restriction Endonuclease",
-    "d": "An enzyme that recognises and cuts double-stranded DNA at specific palindromic sequences. Used in genomic library construction to fragment total DNA into cloneable pieces with compatible ends."
+    "d": "An enzyme that recognises and cuts double-stranded DNA at specific palindromic sequences. Used in genomic library construction to fragment total DNA into cloneable pieces with compatible ends.",
+    "t_ta": "கட்டுறு எண்டோநியூக்ளியேஸ்",
+    "d_ta": "குறிப்பிட்ட பாலிண்ட்ரோம் வரிசைகளில் இரட்டை இழை DNA-வை அடையாளம் கண்டு வெட்டும் நொதி. மரபணுத்தொகை நூலக உருவாக்கத்தில் மொத்த DNA-வை இணக்கமான முனைகளுடன் குளோன் செய்யத்தக்க துண்டுகளாக்கப் பயன்படுகிறது."
    },
    {
     "t": "Poly-A Tail",
-    "d": "A stretch of ~150–250 adenosine residues added to the 3' end of eukaryotic mRNA after transcription. Used to selectively purify mRNA from total RNA using oligo-dT cellulose chromatography during cDNA library preparation."
+    "d": "A stretch of ~150–250 adenosine residues added to the 3' end of eukaryotic mRNA after transcription. Used to selectively purify mRNA from total RNA using oligo-dT cellulose chromatography during cDNA library preparation.",
+    "t_ta": "poly-A வால்",
+    "d_ta": "படியெடுப்புக்குப் பின் மெய்க்கரு mRNA-வின் 3' முனையில் சேர்க்கப்படும் ~150–250 அடினோசின் எச்சங்களின் தொடர். cDNA நூலகத் தயாரிப்பில், oligo-dT செல்லுலோஸ் நிறப்பிரிகையால் மொத்த RNA-விலிருந்து mRNA-வைத் தேர்ந்து தூய்மையாக்கப் பயன்படுகிறது."
    },
    {
     "t": "RNase H",
-    "d": "An enzyme that degrades the RNA strand of an RNA:DNA hybrid duplex. Used in cDNA synthesis to remove the mRNA template after first-strand cDNA synthesis, leaving single-stranded cDNA for second-strand synthesis."
+    "d": "An enzyme that degrades the RNA strand of an RNA:DNA hybrid duplex. Used in cDNA synthesis to remove the mRNA template after first-strand cDNA synthesis, leaving single-stranded cDNA for second-strand synthesis.",
+    "t_ta": "RNase H",
+    "d_ta": "RNA:DNA கலப்பின இரட்டைச் சுருளின் RNA இழையைச் சிதைக்கும் நொதி. cDNA தொகுப்பில், முதல் இழைத் தொகுப்புக்குப் பின் mRNA வார்ப்புருவை நீக்கி, இரண்டாம் இழைத் தொகுப்புக்கு ஒற்றை இழை cDNA-வை விட்டுவைக்கப் பயன்படுகிறது."
    },
    {
     "t": "EST (Expressed Sequence Tag)",
-    "d": "A short partial sequence (300–500 bp) of a randomly selected cDNA clone. Used to identify genes without full sequencing. Millions of human ESTs generated from cDNA libraries helped catalogue the human transcriptome."
+    "d": "A short partial sequence (300–500 bp) of a randomly selected cDNA clone. Used to identify genes without full sequencing. Millions of human ESTs generated from cDNA libraries helped catalogue the human transcriptome.",
+    "t_ta": "EST (வெளிப்படும் வரிசைக் குறிப்பான்)",
+    "d_ta": "தற்போக்காகத் தேர்ந்தெடுக்கப்பட்ட cDNA குளோனின் குறுகிய பகுதி வரிசை (300–500 bp). முழு வரிசைப்படுத்தல் இன்றி மரபணுக்களை அடையாளம் காணப் பயன்படுகிறது. cDNA நூலகங்களிலிருந்து உருவாக்கப்பட்ட மில்லியன் கணக்கான மனித EST-கள் மனிதப் படியெடுப்புத்தொகையைப் பட்டியலிட உதவின."
    },
    {
     "t": "Chromosome Walking",
-    "d": "A technique for navigating across a chromosomal region using overlapping genomic library clones. Each new clone is used as a probe to identify the next overlapping clone, progressively moving along the chromosome toward a target gene."
+    "d": "A technique for navigating across a chromosomal region using overlapping genomic library clones. Each new clone is used as a probe to identify the next overlapping clone, progressively moving along the chromosome toward a target gene.",
+    "t_ta": "நிறமூர்த்த நடைபயணம்",
+    "d_ta": "மேற்பொருந்தும் மரபணுத்தொகை நூலகக் குளோன்களைப் பயன்படுத்தி நிறமூர்த்தப் பகுதியில் வழிசெலுத்தும் நுட்பம். ஒவ்வொரு புதிய குளோனும் அடுத்த மேற்பொருந்தும் குளோனைக் கண்டறியத் துருவியாகப் பயன்படுத்தப்பட்டு, இலக்கு மரபணுவை நோக்கி நிறமூர்த்தத்தில் படிப்படியாக நகர்கிறது."
    }
+  ],
+  "title_ta": "DNA நூலகம் – மரபணுத்தொகை, cDNA நூலகம்",
+  "kp_ta": [
+   "DNA நூலகம் வரையறை: ஓம்புயிர்ச் செல்களில் தாங்கிக்கடத்திகளில் சேமிக்கப்பட்ட குளோன் செய்யப்பட்ட DNA துண்டுகளின் தொகுப்பு; மூல உயிரினத்தின் அனைத்து அல்லது பெரும்பாலான மரபணுத் தகவலைப் பிரதிநிதித்துவப்படுத்துகிறது.",
+   "இரு வகைகள்: மரபணுத்தொகை நூலகம் (மொத்த DNA, அனைத்து வரிசைகள்) மற்றும் cDNA நூலகம் (mRNA-விலிருந்து, வெளிப்படும் மரபணுக்கள் மட்டும்). ஆராய்ச்சி நோக்கத்தைப் பொறுத்துத் தேர்ந்தெடுக்க.",
+   "மரபணுத்தொகை நூலக மூலம்: எந்த உட்கருவுள்ள செல்லிலிருந்தும் பெறப்பட்ட மொத்த மரபணுத்தொகை DNA. எக்சான்கள் + இன்ட்ரான்கள் + குறியீடற்ற வரிசைகள் உள்ளன. திசுவைப் பொறுத்து மாறாது.",
+   "cDNA நூலக மூலம்: குறிப்பிட்ட திசு/நிலையிலிருந்து பெறப்பட்ட mRNA. ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸால் cDNA ஆக மாற்றப்படுகிறது. வெளிப்படும், இன்ட்ரான் அற்ற வரிசைகளை மட்டுமே கொண்டுள்ளது.",
+   "முக்கிய நொதி: RT: ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ் (mRNA→cDNA). ரெட்ரோவைரஸ்களிலிருந்து பெறப்படுகிறது. cDNA தொகுப்புக்கும் cDNA நூலக உருவாக்கத்துக்கும் வரையறுக்கும் நொதி.",
+   "மரபணுத்தொகைத் துண்டாக்கல்: இடைவெளியின்றி முழு மரபணுத்தொகையையும் உள்ளடக்கும் மேற்பொருந்தும் துண்டுகளை உருவாக்க, முழுமையற்ற (பகுதி) கட்டுறு நொதி வெட்டல் விரும்பப்படுகிறது.",
+   "தாங்கிக்கடத்தித் தேர்வு: பிளாஸ்மிடு (<10 kb) → cDNA; லாம்டா பாகாஃபேஜ் (~23 kb) → cDNA மற்றும் மரபணுத்தொகை; காஸ்மிட் (35–45 kb) → மரபணுத்தொகை; YAC (200–2000 kb) → பெரிய மரபணுத்தொகை.",
+   "கிளார்க்–கார்பன் சூத்திரம்: N = ln(1−P) / ln(1−f). நிகழ்தகவு P-இல் முழு மரபணுத்தொகைப் பிரதிநிதித்துவத்துக்குத் தேவையான குளோன்களின் எண்ணிக்கையைக் கணக்கிடுகிறது.",
+   "சலிப்பு முறை: நூலகத்திலிருந்து ஆர்வமுள்ள குளோனைக் கண்டறிய, குறிப்பிடப்பட்ட துருவியுடன் காலனி/பிளேக் கலப்பினமாக்கல், நோயெதிர்ப்பு முறைச் சலிப்பு அல்லது PCR பயன்படுகிறது.",
+   "HGP தொடர்பு: மனித மரபணுத்தொகைத் திட்டத்தில் (1990–2003) YAC, BAC மரபணுத்தொகை நூலகங்கள் மையமாக இருந்தன. EST திட்டங்கள் cDNA நூலகங்களைப் பயன்படுத்தின.",
+   "மருத்துவத்தில் cDNA: மனித இன்சுலின் cDNA (கணைய cDNA நூலகத்திலிருந்து) E. coli-இல் வெளிப்படுத்தப்பட்டு மறுசேர்க்கை இன்சுலின் உருவாக்கப்பட்டது — முதல் மறுசேர்க்கைச் சிகிச்சைப் புரதம் (1982).",
+   "வெளிப்பாட்டு நன்மை: cDNA-வை நேரடியாக புரோகேரியோட்டுகளில் வெளிப்படுத்தலாம் (பிரிக்க இன்ட்ரான்கள் இல்லை) — மெய்க்கரு மரபணுக்களின் மரபணுத்தொகை நூலகக் குளோன்களை நேரடியாக E. coli-இல் வெளிப்படுத்த முடியாது."
   ]
  },
  "gel_electrophoresis.html": {
@@ -2800,66 +2849,111 @@
   "sa": [
    {
     "q": "What is gel electrophoresis? Explain its principle with reference to DNA separation.",
-    "a": "Definition: technique to separate DNA/RNA/proteins based on size and charge using an electric field through a gel matrix acting as a molecular sieve. DNA is negatively charged (phosphate backbone) → migrates towards anode (+) when electric field applied. Gel = molecular sieve; smaller fragments navigate pores more easily → migrate farther; larger fragments retarded → stay closer to well. All DNA has same charge-to-mass ratio → separation is purely by SIZE via molecular sieving, not charge. Relationship: log(fragment size in bp) is inversely proportional to migration distance → straight line on semi-log graph. Include diagram: cathode (−), wells, gel slab, sample bands, DNA migration arrow, anode (+)."
+    "a": "Definition: technique to separate DNA/RNA/proteins based on size and charge using an electric field through a gel matrix acting as a molecular sieve. DNA is negatively charged (phosphate backbone) → migrates towards anode (+) when electric field applied. Gel = molecular sieve; smaller fragments navigate pores more easily → migrate farther; larger fragments retarded → stay closer to well. All DNA has same charge-to-mass ratio → separation is purely by SIZE via molecular sieving, not charge. Relationship: log(fragment size in bp) is inversely proportional to migration distance → straight line on semi-log graph. Include diagram: cathode (−), wells, gel slab, sample bands, DNA migration arrow, anode (+).",
+    "q_ta": "ஜெல் மின்னாற்பகுப்பு என்றால் என்ன? DNA பிரிப்பைக் கொண்டு அதன் தத்துவத்தை விளக்குக.",
+    "a_ta": "வரையறை: மூலக்கூற்றுச் சல்லடையாகச் செயல்படும் ஜெல் அணியின் வழியே மின்புலத்தைப் பயன்படுத்தி, DNA/RNA/புரதங்களை அளவு, மின்னூட்டத்தால் பிரிக்கும் நுட்பம். DNA எதிர்மின்னூட்டம் கொண்டது (பாஸ்பேட் முதுகெலும்பு) → மின்புலம் அளிக்கும்போது நேர்மின்முனையை (+) நோக்கி நகர்கிறது. ஜெல் = மூலக்கூற்றுச் சல்லடை; சிறிய துண்டுகள் துளைகளை எளிதில் கடந்து → தொலைவாக நகரும்; பெரிய துண்டுகள் தடைபட்டு → கிணற்றுக்கு அருகிலேயே இருக்கும். அனைத்து DNA-வுக்கும் மின்னூட்டம்–நிறை விகிதம் ஒன்றே → பிரிதல் மின்னூட்டத்தால் அல்ல, மூலக்கூற்றுச் சல்லடை வழியாக அளவால் மட்டுமே நடைபெறுகிறது. தொடர்பு: log(துண்டு அளவு bp) நகர்வுத் தொலைவுக்கு எதிர்விகிதத்தில் உள்ளது → அரை-மடக்கை வரைபடத்தில் நேர்கோடு. வரைபடம் சேர்க்க: எதிர்மின்முனை (−), கிணறுகள், ஜெல் பலகை, மாதிரிப் பட்டைகள், DNA நகர்வு அம்பு, நேர்மின்முனை (+)."
    },
    {
     "q": "Describe the procedure for agarose gel electrophoresis. List all components and their functions.",
-    "a": "Components and functions: Agarose (molecular sieve matrix); TAE buffer (pH maintenance, ionic conductivity, DNase inhibitor via EDTA); DNA sample; loading dye (glycerol = density, tracking dyes = migration monitor); DNA ladder (size standard); power supply (70–120 V DC); EtBr/SYBR Green (visualisation); UV transilluminator (band detection). Procedure (6 steps): (1) Prepare agarose gel in TAE → cool → add EtBr → pour with comb → solidify. (2) Place gel in buffer-filled chamber. (3) Mix samples with loading dye; load ladder + samples. (4) Apply 70–120 V; run 30–60 min until dye front 80% of gel. (5) Visualise under UV. (6) Photograph and interpret against ladder. Loading dye detail: glycerol prevents sample floating out of well; bromophenol blue provides visible tracking at ~300 bp equivalent position."
+    "a": "Components and functions: Agarose (molecular sieve matrix); TAE buffer (pH maintenance, ionic conductivity, DNase inhibitor via EDTA); DNA sample; loading dye (glycerol = density, tracking dyes = migration monitor); DNA ladder (size standard); power supply (70–120 V DC); EtBr/SYBR Green (visualisation); UV transilluminator (band detection). Procedure (6 steps): (1) Prepare agarose gel in TAE → cool → add EtBr → pour with comb → solidify. (2) Place gel in buffer-filled chamber. (3) Mix samples with loading dye; load ladder + samples. (4) Apply 70–120 V; run 30–60 min until dye front 80% of gel. (5) Visualise under UV. (6) Photograph and interpret against ladder. Loading dye detail: glycerol prevents sample floating out of well; bromophenol blue provides visible tracking at ~300 bp equivalent position.",
+    "q_ta": "அகரோஸ் ஜெல் மின்னாற்பகுப்பின் செயல்முறையை விவரிக்க. அனைத்துக் கூறுகளையும் அவற்றின் செயல்பாடுகளையும் பட்டியலிடுக.",
+    "a_ta": "கூறுகளும் செயல்பாடுகளும்: அகரோஸ் (மூலக்கூற்றுச் சல்லடை அணி); TAE தாங்கல் (pH பராமரிப்பு, அயனிக் கடத்துத்திறன், EDTA வழி DNase தடுப்பு); DNA மாதிரி; ஏற்றும் சாயம் (கிளிசரால் = அடர்த்தி, கண்காணிப்புச் சாயங்கள் = நகர்வுக் கண்காணிப்பு); DNA ஏணி (அளவுத் தரநிலை); மின்வழங்கி (70–120 V DC); EtBr/SYBR Green (காட்சிப்படுத்தல்); UV டிரான்சிலுமினேட்டர் (பட்டை கண்டறிதல்). செயல்முறை (6 படிகள்): (1) TAE-இல் அகரோஸ் ஜெல்லைத் தயாரி → குளிர்வி → EtBr சேர் → சீப்புடன் ஊற்று → திண்மமாக்கு. (2) தாங்கல் நிரப்பிய கலனில் ஜெல்லை வை. (3) மாதிரிகளை ஏற்றும் சாயத்துடன் கலந்து; ஏணி + மாதிரிகளை ஏற்று. (4) 70–120 V அளி; சாய முன்முனை ஜெல்லின் 80% அடையும் வரை 30–60 நிமிடம் இயக்கு. (5) UV-இல் காண். (6) படமெடுத்து ஏணியுடன் ஒப்பிட்டு விளக்கு. ஏற்றும் சாய விவரம்: கிளிசரால் மாதிரி கிணற்றிலிருந்து மிதந்து வெளியேறாமல் தடுக்கிறது; புரோமோஃபீனால் நீலம் ~300 bp நிலைக்குச் சமமான இடத்தில் காணக்கூடிய கண்காணிப்பை வழங்குகிறது."
    },
    {
     "q": "Explain the relationship between DNA fragment size and migration distance. How is fragment size estimated from a gel?",
-    "a": "Inverse logarithmic relationship: log(fragment size in bp) is proportional to the negative of migration distance from well. Smaller bp → greater distance from well. Larger bp → smaller distance from well. On a semi-log plot (y = log bp, x = migration distance), ladder band positions form a STRAIGHT LINE. Size estimation method: (1) Measure migration distances of all ladder bands. (2) Plot log(bp) vs distance → draw best-fit straight line. (3) Measure migration distance of unknown sample band. (4) Read off corresponding log(bp) from the line → calculate bp. Physical explanation: gel = molecular sieve; larger fragments must negotiate multiple pore interactions simultaneously → retarded; smaller fragments slip through easily."
+    "a": "Inverse logarithmic relationship: log(fragment size in bp) is proportional to the negative of migration distance from well. Smaller bp → greater distance from well. Larger bp → smaller distance from well. On a semi-log plot (y = log bp, x = migration distance), ladder band positions form a STRAIGHT LINE. Size estimation method: (1) Measure migration distances of all ladder bands. (2) Plot log(bp) vs distance → draw best-fit straight line. (3) Measure migration distance of unknown sample band. (4) Read off corresponding log(bp) from the line → calculate bp. Physical explanation: gel = molecular sieve; larger fragments must negotiate multiple pore interactions simultaneously → retarded; smaller fragments slip through easily.",
+    "q_ta": "DNA துண்டு அளவுக்கும் நகர்வுத் தொலைவுக்கும் உள்ள தொடர்பை விளக்குக. ஜெல்லிலிருந்து துண்டின் அளவு எவ்வாறு மதிப்பிடப்படுகிறது?",
+    "a_ta": "எதிர்மடக்கைத் தொடர்பு: log(துண்டு அளவு bp), கிணற்றிலிருந்து நகர்வுத் தொலைவின் எதிர்மதிப்புக்கு விகிதமானது. சிறிய bp → கிணற்றிலிருந்து அதிகத் தொலைவு. பெரிய bp → குறைந்த தொலைவு. அரை-மடக்கை வரைபடத்தில் (y = log bp, x = நகர்வுத் தொலைவு), ஏணிப் பட்டை நிலைகள் நேர்கோட்டை அமைக்கின்றன. அளவு மதிப்பிடும் முறை: (1) அனைத்து ஏணிப் பட்டைகளின் நகர்வுத் தொலைவுகளை அளவிடு. (2) log(bp) – தொலைவை வரைந்து → சிறந்த பொருந்தும் நேர்கோட்டை வரை. (3) அறியப்படாத மாதிரிப் பட்டையின் நகர்வுத் தொலைவை அளவிடு. (4) கோட்டிலிருந்து தொடர்புடைய log(bp)-ஐ வாசித்து → bp-ஐக் கணக்கிடு. இயற்பியல் விளக்கம்: ஜெல் = மூலக்கூற்றுச் சல்லடை; பெரிய துண்டுகள் ஒரே நேரத்தில் பல துளை இடைவினைகளைக் கடக்க வேண்டியிருப்பதால் தடைபடுகின்றன; சிறிய துண்டுகள் எளிதில் நழுவிச் செல்கின்றன."
    },
    {
     "q": "Compare agarose gel electrophoresis with SDS-PAGE. What are the applications of each?",
-    "a": "Agarose gel: Matrix = agarose (0.5–3%); horizontal; separates DNA and RNA by SIZE; stain = EtBr/SYBR Green (UV); applications = PCR analysis, restriction mapping, DNA fingerprinting, Southern blot, clone verification. SDS-PAGE: Matrix = polyacrylamide + SDS; vertical; separates proteins by MOLECULAR WEIGHT only; SDS coats protein with uniform negative charge proportional to chain length → removes native charge/shape differences; stain = Coomassie Blue / silver stain; applications = protein MW determination, Western blot, proteomic analysis, recombinant protein purity. Key difference: agarose for nucleic acids; SDS-PAGE for proteins. SDS eliminates native protein charge — MW is sole separating factor. Both use electric field; both separate by size (through different mechanisms). Draw a comparison table: Feature | Agarose | SDS-PAGE — matrix, molecule, separation basis, orientation, stain, application."
+    "a": "Agarose gel: Matrix = agarose (0.5–3%); horizontal; separates DNA and RNA by SIZE; stain = EtBr/SYBR Green (UV); applications = PCR analysis, restriction mapping, DNA fingerprinting, Southern blot, clone verification. SDS-PAGE: Matrix = polyacrylamide + SDS; vertical; separates proteins by MOLECULAR WEIGHT only; SDS coats protein with uniform negative charge proportional to chain length → removes native charge/shape differences; stain = Coomassie Blue / silver stain; applications = protein MW determination, Western blot, proteomic analysis, recombinant protein purity. Key difference: agarose for nucleic acids; SDS-PAGE for proteins. SDS eliminates native protein charge — MW is sole separating factor. Both use electric field; both separate by size (through different mechanisms). Draw a comparison table: Feature | Agarose | SDS-PAGE — matrix, molecule, separation basis, orientation, stain, application.",
+    "q_ta": "அகரோஸ் ஜெல் மின்னாற்பகுப்பையும் SDS-PAGE-ஐயும் ஒப்பிடுக. ஒவ்வொன்றின் பயன்பாடுகள் என்ன?",
+    "a_ta": "அகரோஸ் ஜெல்: அணி = அகரோஸ் (0.5–3%); கிடைமட்டம்; DNA, RNA-வை அளவால் பிரிக்கிறது; சாயம் = EtBr/SYBR Green (UV); பயன்பாடுகள் = PCR பகுப்பாய்வு, கட்டுறு வரைபடமாக்கல், DNA கைரேகையியல், சதர்ன் ப்ளாட், குளோன் சரிபார்ப்பு. SDS-PAGE: அணி = பாலிஅக்ரிலமைடு + SDS; செங்குத்து; புரதங்களை மூலக்கூற்று எடையால் மட்டுமே பிரிக்கிறது; SDS புரதத்தை சங்கிலி நீளத்துக்கு விகிதமான சீரான எதிர்மின்னூட்டத்துடன் மூடுகிறது → இயல்பான மின்னூட்ட/வடிவ வேறுபாடுகளை நீக்குகிறது; சாயம் = Coomassie நீலம் / வெள்ளிச் சாயம்; பயன்பாடுகள் = புரத மூலக்கூற்று எடை நிர்ணயம், வெஸ்டர்ன் ப்ளாட், புரதத்தொகைப் பகுப்பாய்வு, மறுசேர்க்கைப் புரதத் தூய்மை. முக்கிய வேறுபாடு: அகரோஸ் நியுக்ளிக் அமிலங்களுக்கு; SDS-PAGE புரதங்களுக்கு. SDS இயல்பான புரத மின்னூட்டத்தை நீக்குகிறது — மூலக்கூற்று எடையே பிரிக்கும் ஒரே காரணி. இரண்டும் மின்புலத்தைப் பயன்படுத்துகின்றன; இரண்டும் அளவால் (வெவ்வேறு இயங்குமுறைகளில்) பிரிக்கின்றன. ஒப்பீட்டு அட்டவணை வரைக: பண்பு | அகரோஸ் | SDS-PAGE — அணி, மூலக்கூறு, பிரிதல் அடிப்படை, அமைப்பு, சாயம், பயன்பாடு."
    },
    {
     "q": "What is a DNA ladder? Why is it essential in gel electrophoresis? Give an example of a commonly used ladder.",
-    "a": "A DNA ladder (molecular weight marker) is a premixed solution of DNA fragments of precisely known sizes loaded in a dedicated lane alongside experimental samples. Examples: 100 bp ladder (bands at 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000 bp); 1 kb ladder (0.5, 1, 1.5, 2, 3, 4, 5, 6, 8, 10 kb); HyperLadder (multiple ranges). Why essential: without a ladder, it is impossible to determine the size of unknown fragments from their position alone — only relative positions are visible. Use: (1) provides reference migration distances for known sizes; (2) allows construction of log(bp) vs distance standard curve; (3) unknown fragment sizes estimated by interpolation. Some ladders have one prominent bright band (e.g., 500 bp in the 100 bp ladder or 1 kb in the 1 kb ladder) with double the DNA loading for easy orientation."
+    "a": "A DNA ladder (molecular weight marker) is a premixed solution of DNA fragments of precisely known sizes loaded in a dedicated lane alongside experimental samples. Examples: 100 bp ladder (bands at 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000 bp); 1 kb ladder (0.5, 1, 1.5, 2, 3, 4, 5, 6, 8, 10 kb); HyperLadder (multiple ranges). Why essential: without a ladder, it is impossible to determine the size of unknown fragments from their position alone — only relative positions are visible. Use: (1) provides reference migration distances for known sizes; (2) allows construction of log(bp) vs distance standard curve; (3) unknown fragment sizes estimated by interpolation. Some ladders have one prominent bright band (e.g., 500 bp in the 100 bp ladder or 1 kb in the 1 kb ladder) with double the DNA loading for easy orientation.",
+    "q_ta": "DNA ஏணி என்றால் என்ன? ஜெல் மின்னாற்பகுப்பில் அது ஏன் இன்றியமையாதது? பொதுவாகப் பயன்படும் ஓர் ஏணியை எடுத்துக்காட்டுக.",
+    "a_ta": "DNA ஏணி (மூலக்கூற்று எடைக் குறிப்பான்) என்பது, சோதனை மாதிரிகளுடன் தனித் தடத்தில் ஏற்றப்படும், துல்லியமாக அறியப்பட்ட அளவுகளுடைய DNA துண்டுகளின் முன்கலந்த கரைசல். எடுத்துக்காட்டுகள்: 100 bp ஏணி (100, 200, 300, 400, 500, 600, 700, 800, 900, 1000 bp பட்டைகள்); 1 kb ஏணி (0.5, 1, 1.5, 2, 3, 4, 5, 6, 8, 10 kb); HyperLadder (பல வரம்புகள்). ஏன் இன்றியமையாதது: ஏணி இல்லாமல், நிலையை மட்டும் கொண்டு அறியப்படாத துண்டுகளின் அளவைத் தீர்மானிக்க இயலாது — ஒப்பீட்டு நிலைகள் மட்டுமே தெரியும். பயன்: (1) அறியப்பட்ட அளவுகளுக்கான நகர்வுத் தொலைவுகளைத் தருகிறது; (2) log(bp) – தொலைவுத் திட்ட வளைவை அமைக்க உதவுகிறது; (3) அறியப்படாத துண்டுகளின் அளவு இடைச்செருகலால் மதிப்பிடப்படுகிறது. சில ஏணிகளில் ஒரு முக்கியப் பிரகாசமான பட்டை (எ.கா., 100 bp ஏணியில் 500 bp அல்லது 1 kb ஏணியில் 1 kb) இருமடங்கு DNA ஏற்றத்துடன், எளிதாக நிலையறிய உதவுகிறது."
    }
   ],
   "gl": [
    {
     "t": "Electrophoresis",
-    "d": "Movement of charged molecules through a medium under an electric field. Negatively charged DNA migrates towards the positive electrode (anode). The rate of migration depends on the molecule's size, charge, and the resistance of the medium."
+    "d": "Movement of charged molecules through a medium under an electric field. Negatively charged DNA migrates towards the positive electrode (anode). The rate of migration depends on the molecule's size, charge, and the resistance of the medium.",
+    "t_ta": "மின்னாற்பகுப்பு (எலக்ட்ரோஃபோரசிஸ்)",
+    "d_ta": "மின்புலத்தின் கீழ் ஊடகம் வழியாக மின்னூட்டம் கொண்ட மூலக்கூறுகள் நகர்தல். எதிர்மின்னூட்ட DNA நேர்மின்முனையை (அனோடு) நோக்கி நகர்கிறது. நகர்வு வேகம் மூலக்கூற்றின் அளவு, மின்னூட்டம், ஊடகத்தின் தடை ஆகியவற்றைப் பொறுத்தது."
    },
    {
     "t": "Agarose",
-    "d": "A linear polysaccharide extracted from red algae, used as the gel matrix in DNA/RNA electrophoresis. Forms a porous network when solidified from hot solution. Pore size is controlled by agarose concentration."
+    "d": "A linear polysaccharide extracted from red algae, used as the gel matrix in DNA/RNA electrophoresis. Forms a porous network when solidified from hot solution. Pore size is controlled by agarose concentration.",
+    "t_ta": "அகரோஸ்",
+    "d_ta": "சிவப்புப் பாசிகளிலிருந்து பிரித்தெடுக்கப்படும் நேர்கோட்டுப் பல்சர்க்கரை; DNA/RNA மின்னாற்பகுப்பில் ஜெல் அணியாகப் பயன்படுகிறது. சூடான கரைசலிலிருந்து திண்மமாகும்போது துளையுள்ள வலையமைப்பை உருவாக்குகிறது. துளை அளவு அகரோஸ் செறிவால் கட்டுப்படுத்தப்படுகிறது."
    },
    {
     "t": "Anode",
-    "d": "The positive (+) electrode in an electrophoresis system. Negatively charged DNA migrates towards the anode. Located at the end of the gel farthest from the sample wells."
+    "d": "The positive (+) electrode in an electrophoresis system. Negatively charged DNA migrates towards the anode. Located at the end of the gel farthest from the sample wells.",
+    "t_ta": "நேர்மின்முனை (அனோடு)",
+    "d_ta": "மின்னாற்பகுப்பு அமைப்பில் நேர் (+) மின்முனை. எதிர்மின்னூட்ட DNA அனோடை நோக்கி நகர்கிறது. மாதிரிக் கிணறுகளிலிருந்து தொலைவில் உள்ள ஜெல் முனையில் அமைந்துள்ளது."
    },
    {
     "t": "Cathode",
-    "d": "The negative (−) electrode. DNA sample wells are always at the cathode end — DNA is loaded here and migrates away towards the anode when the electric field is applied."
+    "d": "The negative (−) electrode. DNA sample wells are always at the cathode end — DNA is loaded here and migrates away towards the anode when the electric field is applied.",
+    "t_ta": "எதிர்மின்முனை (கேத்தோடு)",
+    "d_ta": "எதிர் (−) மின்முனை. DNA மாதிரிக் கிணறுகள் எப்போதும் கேத்தோடு முனையில் இருக்கும் — இங்கு DNA ஏற்றப்பட்டு, மின்புலம் அளிக்கும்போது அனோடை நோக்கி விலகிச் செல்கிறது."
    },
    {
     "t": "DNA Ladder",
-    "d": "A molecular weight standard containing a mixture of DNA fragments of precisely known sizes. Run alongside unknown samples in gel electrophoresis to provide a reference for size estimation by comparison of migration distances."
+    "d": "A molecular weight standard containing a mixture of DNA fragments of precisely known sizes. Run alongside unknown samples in gel electrophoresis to provide a reference for size estimation by comparison of migration distances.",
+    "t_ta": "DNA ஏணி",
+    "d_ta": "துல்லியமாக அறியப்பட்ட அளவுகளுடைய DNA துண்டுகளின் கலவையைக் கொண்ட மூலக்கூற்று எடைத் தரநிலை. ஜெல் மின்னாற்பகுப்பில் அறியப்படாத மாதிரிகளுடன் இயக்கப்பட்டு, நகர்வுத் தொலைவுகளை ஒப்பிட்டு அளவை மதிப்பிடக் குறிப்பை வழங்குகிறது."
    },
    {
     "t": "Gel Matrix",
-    "d": "The porous network (agarose or polyacrylamide) through which molecules migrate in electrophoresis. Acts as a molecular sieve — resistance to migration increases with molecule size, enabling size-based separation."
+    "d": "The porous network (agarose or polyacrylamide) through which molecules migrate in electrophoresis. Acts as a molecular sieve — resistance to migration increases with molecule size, enabling size-based separation.",
+    "t_ta": "ஜெல் அணி",
+    "d_ta": "மின்னாற்பகுப்பில் மூலக்கூறுகள் நகரும் துளையுள்ள வலையமைப்பு (அகரோஸ் அல்லது பாலிஅக்ரிலமைடு). மூலக்கூற்றுச் சல்லடையாகச் செயல்படுகிறது — மூலக்கூறு அளவு அதிகரிக்க நகர்வுக்கான தடை அதிகரித்து, அளவு சார்ந்த பிரிப்பை இயலச் செய்கிறது."
    },
    {
     "t": "Migration",
-    "d": "Movement of DNA/RNA/protein through the gel under the applied electric field. Migration distance is inversely proportional to the log of fragment size: smaller fragments migrate farther than larger ones in the same time."
+    "d": "Movement of DNA/RNA/protein through the gel under the applied electric field. Migration distance is inversely proportional to the log of fragment size: smaller fragments migrate farther than larger ones in the same time.",
+    "t_ta": "நகர்வு",
+    "d_ta": "அளிக்கப்பட்ட மின்புலத்தில் ஜெல் வழியாக DNA/RNA/புரதம் நகர்தல். நகர்வுத் தொலைவு துண்டு அளவின் log-க்கு எதிர்விகிதத்தில் இருக்கும்: ஒரே நேரத்தில் சிறிய துண்டுகள் பெரியவற்றை விடத் தொலைவாக நகரும்."
    },
    {
     "t": "Staining",
-    "d": "Process of making separated molecules visible after electrophoresis. For DNA: ethidium bromide (EtBr) intercalates into DNA and fluoresces under UV. Safer alternatives: SYBR Green, GelRed. For proteins: Coomassie Blue, silver stain."
+    "d": "Process of making separated molecules visible after electrophoresis. For DNA: ethidium bromide (EtBr) intercalates into DNA and fluoresces under UV. Safer alternatives: SYBR Green, GelRed. For proteins: Coomassie Blue, silver stain.",
+    "t_ta": "சாயமேற்றல்",
+    "d_ta": "மின்னாற்பகுப்புக்குப் பின் பிரிக்கப்பட்ட மூலக்கூறுகளைக் காணும்படி செய்யும் செயல்முறை. DNA-வுக்கு: எத்திடியம் புரோமைடு (EtBr) DNA-வுக்குள் நுழைந்து UV-இல் ஒளிர்கிறது. பாதுகாப்பான மாற்றுகள்: SYBR Green, GelRed. புரதங்களுக்கு: Coomassie நீலம், வெள்ளிச் சாயம்."
    },
    {
     "t": "Loading Dye",
-    "d": "Solution mixed with DNA before loading into wells. Contains glycerol or Ficoll (increases density, keeps sample in well) and tracking dyes (bromophenol blue ≈ 300 bp; xylene cyanol ≈ 4 kb) for visible monitoring of migration."
+    "d": "Solution mixed with DNA before loading into wells. Contains glycerol or Ficoll (increases density, keeps sample in well) and tracking dyes (bromophenol blue ≈ 300 bp; xylene cyanol ≈ 4 kb) for visible monitoring of migration.",
+    "t_ta": "ஏற்றும் சாயம்",
+    "d_ta": "கிணறுகளில் ஏற்றுவதற்கு முன் DNA-வுடன் கலக்கப்படும் கரைசல். கிளிசரால் அல்லது Ficoll (அடர்த்தியை அதிகரித்து மாதிரியைக் கிணற்றில் நிறுத்துகிறது), நகர்வைக் காணக் கண்காணிப்புச் சாயங்கள் (புரோமோஃபீனால் நீலம் ≈ 300 bp; சைலீன் சயனால் ≈ 4 kb) ஆகியவற்றைக் கொண்டுள்ளது."
    },
    {
     "t": "Ethidium Bromide",
-    "d": "Fluorescent dye that intercalates between DNA base pairs. Fluoresces bright orange under UV light (302 nm), making DNA bands visible. Detects ~1–10 ng DNA per band. Potent mutagen and carcinogen — safer alternatives include SYBR Green and GelRed."
+    "d": "Fluorescent dye that intercalates between DNA base pairs. Fluoresces bright orange under UV light (302 nm), making DNA bands visible. Detects ~1–10 ng DNA per band. Potent mutagen and carcinogen — safer alternatives include SYBR Green and GelRed.",
+    "t_ta": "எத்திடியம் புரோமைடு",
+    "d_ta": "DNA கார இணைகளுக்கிடையே நுழையும் ஒளிர்வுச் சாயம். UV ஒளியில் (302 nm) பிரகாசமான ஆரஞ்சு ஒளிர்ந்து DNA பட்டைகளைக் காணச்செய்கிறது. ஒரு பட்டைக்கு ~1–10 ng DNA-வைக் கண்டறிகிறது. வலிமையான திடீர்மாற்றி, புற்றூக்கி — SYBR Green, GelRed ஆகியவை பாதுகாப்பான மாற்றுகள்."
    }
+  ],
+  "title_ta": "ஜெல் மின்னாற்பகுப்பு",
+  "kp_ta": [
+   "வரையறை: துளையுள்ள ஜெல் அணி மூலக்கூற்றுச் சல்லடையாகச் செயல்பட, மின்புலத்தின் வழியே DNA/RNA/புரதங்களை அளவு, மின்னூட்டத்தின் அடிப்படையில் ஜெல் மின்னாற்பகுப்பு பிரிக்கிறது.",
+   "DNA மின்னூட்டம்: DNA எதிர்மின்னூட்டம் கொண்டது (பாஸ்பேட் முதுகெலும்பு). நேர்மின்முனையை (+) நோக்கி நகர்கிறது. கிணறுகள் எப்போதும் ஜெல்லின் எதிர்மின்முனை (−) முனையில் இருக்கும்.",
+   "நகர்வு விதி: சிறிய துண்டுகள் கிணறுகளிலிருந்து வேகமாகவும் தொலைவாகவும் நகரும். பெரிய துண்டுகள் மெதுவாக நகர்ந்து கிணறுகளுக்கு அருகிலேயே இருக்கும். log(bp) ∝ −தொலைவு.",
+   "அகரோஸ் செறிவு: 0.5–0.8%: பெரிய DNA (2–50 kb). 1%: பொதுப் பயன்பாடு. 2–3%: சிறிய துண்டுகள் (50–500 bp). அதிக % = சிறிய துளைகள் = சிறிய துண்டுகளின் சிறந்த பிரிதிறன்.",
+   "PAGE: பாலிஅக்ரிலமைடு ஜெல். அகரோஸை விட அதிகப் பிரிதிறன். ஒற்றை bp வேறுபாடுகளையும் பிரிக்கும் (DNA வரிசைப்படுத்தல் ஜெல்கள்). புரதங்களுக்கும் சிறிய DNA-வுக்கும் பயன்படுகிறது. செங்குத்து அமைப்பு. அக்ரிலமைடு நரம்பு நச்சு.",
+   "SDS-PAGE: SDS புரதங்களை மூலக்கூற்று எடைக்கு விகிதமான சீரான எதிர்மின்னூட்டத்துடன் மூடுகிறது → மூலக்கூற்று எடையால் மட்டுமே பிரிதல். புரத ஆய்வுக்கும் வெஸ்டர்ன் ப்ளாட்டிங்குக்கும் பயன்படுகிறது.",
+   "DNA ஏணி: தடம் 1-இல் இயக்கப்படும், அளவு அறிந்த துண்டுகளின் கலவை. log(bp) – தொலைவு திட்ட வளைவை அமைக்க உதவுகிறது. அறியப்படாத துண்டுகளின் அளவு இந்தக் கோட்டிலிருந்து இடைச்செருகல் மூலம் மதிப்பிடப்படுகிறது.",
+   "ஏற்றும் சாயம்: கிளிசரால் அடர்த்தியை அதிகரிக்கிறது (மாதிரி கிணற்றில் அமிழ்கிறது). புரோமோஃபீனால் நீலம் (~300 bp), சைலீன் சயனால் (~4 kb) UV இன்றி நகர்வின் முன்னேற்றத்தைக் காட்டுகின்றன.",
+   "EtBr: DNA-வுக்குள் இடையில் நுழைகிறது; UV (302 nm)-இல் ஆரஞ்சு ஒளிர்கிறது. திடீர்மாற்றம் உண்டாக்கும் — பாதுகாப்பான மாற்றுகள் SYBR Green, GelRed. ஜெல் ஊற்றும்போது அல்லது இயக்கத்துக்குப் பின் ஊறவைத்துச் சேர்க்கப்படுகிறது.",
+   "செயல்முறை வரிசை: ஜெல் தயாரிப்பு → மாதிரிகள் + ஏணியை ஏற்றுதல் → 70–120 V அளித்தல் → 30–60 நிமிடம் இயக்குதல் → UV-இல் காணுதல் → படமெடுத்தல் → ஏணியுடன் ஒப்பிட்டு விளக்குதல்.",
+   "பயன்பாடுகள்: PCR விளைபொருள் சரிபார்ப்பு, கட்டுறு வரைபடமாக்கல், DNA கைரேகையியல் (தடயவியல்), குளோன் உறுதிப்படுத்தல், திடீர்மாற்றக் கண்டறிதல், புரதப் பகுப்பாய்வு (SDS-PAGE).",
+   "பொதுவான பிழைகள்: கசிவு = DNase சிதைவு அல்லது அதிக ஏற்றம். பட்டைகள் இல்லை = PCR தோல்வி. கூடுதல் பட்டைகள் = குறிப்பற்ற பெருக்கம். புன்னகை விளைவு = அதிக வெப்பம் → மின்னழுத்தத்தைக் குறைக்க."
   ]
  },
  "gene_cloning_steps_selection.html": {
@@ -2882,74 +2976,123 @@
   "sa": [
    {
     "q": "Define gene cloning. Describe the step-by-step procedure of gene cloning.",
-    "a": "Definition: gene cloning = producing multiple identical copies of a specific gene using recombinant DNA technology. Steps in order: (1) Isolation of gene of interest (RE digestion/PCR/cDNA); (2) Restriction digestion of gene and vector with same RE; (3) Ligation with T4 DNA ligase; (4) Formation of recombinant DNA; (5) Transformation into E. coli (heat shock/electroporation); (6) Selection on antibiotic medium; (7) Screening for recombinants; (8) Colony multiplication and verification. Mention requirements: insert DNA, vector (ori + marker + MCS), restriction enzyme, DNA ligase, competent E. coli. Include a simple flow diagram: gene → RE cut → ligation → transform → select → screen."
+    "a": "Definition: gene cloning = producing multiple identical copies of a specific gene using recombinant DNA technology. Steps in order: (1) Isolation of gene of interest (RE digestion/PCR/cDNA); (2) Restriction digestion of gene and vector with same RE; (3) Ligation with T4 DNA ligase; (4) Formation of recombinant DNA; (5) Transformation into E. coli (heat shock/electroporation); (6) Selection on antibiotic medium; (7) Screening for recombinants; (8) Colony multiplication and verification. Mention requirements: insert DNA, vector (ori + marker + MCS), restriction enzyme, DNA ligase, competent E. coli. Include a simple flow diagram: gene → RE cut → ligation → transform → select → screen.",
+    "q_ta": "மரபணு குளோனாக்கத்தை வரையறுக்க. மரபணு குளோனாக்கத்தின் படிநிலைச் செயல்முறையை விவரிக்க.",
+    "a_ta": "வரையறை: மரபணு குளோனாக்கம் = மறுசேர்க்கை DNA தொழில்நுட்பத்தால் குறிப்பிட்ட மரபணுவின் பல ஒத்த நகல்களை உருவாக்குதல். படிகள் வரிசையில்: (1) ஆர்வமுள்ள மரபணுவைப் பிரித்தெடுத்தல் (RE வெட்டல்/PCR/cDNA); (2) மரபணுவையும் தாங்கிக்கடத்தியையும் ஒரே RE-யால் கட்டுறு வெட்டல்; (3) T4 DNA லைகேஸால் இணைத்தல்; (4) மறுசேர்க்கை DNA உருவாதல்; (5) E. coli-க்குள் உருமாற்றம் (வெப்ப அதிர்ச்சி/மின்துளையிடல்); (6) உயிர்எதிர்ப்பிப் பொருள் ஊடகத்தில் தேர்வு; (7) மறுசேர்க்கைகளுக்கான சலிப்பு; (8) காலனிப் பெருக்கமும் சரிபார்ப்பும். தேவைகளைக் குறிப்பிடுக: செருகல் DNA, தாங்கிக்கடத்தி (ori + குறிப்பான் + MCS), கட்டுறு நொதி, DNA லைகேஸ், ஏற்புத்திறன் கொண்ட E. coli. எளிய ஓட்ட வரைபடம் சேர்க்க: மரபணு → RE வெட்டல் → இணைத்தல் → உருமாற்றம் → தேர்வு → சலிப்பு."
    },
    {
     "q": "What is blue-white screening? Explain its principle and significance in clone selection.",
-    "a": "Blue-white screening uses the lacZ gene (encoding β-galactosidase) in pUC vectors to distinguish recombinant (white) from non-recombinant (blue) colonies. Principle: MCS is within lacZ. Without insert → lacZ intact → β-gal produced → cleaves X-gal → blue compound → blue colony. With insert → lacZ disrupted → no functional β-gal → X-gal not cleaved → white colony. Medium: LB agar + ampicillin (select transformants) + X-gal + IPTG (lac operon inducer). Significance: rapid visual screening without replica plating; picks white colonies as potential recombinants. Limitation: blue-white only shows insert disrupted lacZ — must confirm with PCR/restriction analysis."
+    "a": "Blue-white screening uses the lacZ gene (encoding β-galactosidase) in pUC vectors to distinguish recombinant (white) from non-recombinant (blue) colonies. Principle: MCS is within lacZ. Without insert → lacZ intact → β-gal produced → cleaves X-gal → blue compound → blue colony. With insert → lacZ disrupted → no functional β-gal → X-gal not cleaved → white colony. Medium: LB agar + ampicillin (select transformants) + X-gal + IPTG (lac operon inducer). Significance: rapid visual screening without replica plating; picks white colonies as potential recombinants. Limitation: blue-white only shows insert disrupted lacZ — must confirm with PCR/restriction analysis.",
+    "q_ta": "நீல–வெள்ளைச் சலிப்பு என்றால் என்ன? குளோன் தேர்வில் அதன் தத்துவத்தையும் முக்கியத்துவத்தையும் விளக்குக.",
+    "a_ta": "நீல–வெள்ளைச் சலிப்பு pUC தாங்கிக்கடத்திகளிலுள்ள lacZ மரபணுவை (β-கேலக்டோசிடேஸைக் குறியீடு செய்கிறது) பயன்படுத்தி, மறுசேர்க்கை (வெள்ளை) காலனிகளையும் மறுசேர்க்கை அல்லாத (நீல) காலனிகளையும் வேறுபடுத்துகிறது. தத்துவம்: MCS, lacZ-க்குள் உள்ளது. செருகல் இல்லாமல் → lacZ சேதமின்றி → β-gal உருவாகிறது → X-gal-ஐப் பிளக்கிறது → நீலச் சேர்மம் → நீல காலனி. செருகலுடன் → lacZ சீர்குலைகிறது → செயல்படும் β-gal இல்லை → X-gal பிளக்கப்படாது → வெள்ளை காலனி. ஊடகம்: LB அகார் + ஆம்பிசிலின் (உருமாறியவற்றைத் தேர்ந்தெடுக்க) + X-gal + IPTG (lac ஓபரான் தூண்டி). முக்கியத்துவம்: பிரதியெடுப்புத் தட்டுமுறை இன்றி விரைவான காட்சிச் சலிப்பு; வெள்ளை காலனிகளைச் சாத்தியமான மறுசேர்க்கைகளாகத் தேர்ந்தெடுக்கலாம். வரம்பு: செருகல் lacZ-ஐ சீர்குலைத்தது என்பதை மட்டுமே நீல–வெள்ளை காட்டும் — PCR/கட்டுறு பகுப்பாய்வால் உறுதிசெய்ய வேண்டும்."
    },
    {
     "q": "What is insertional inactivation? How is it used to select recombinant clones in pBR322 cloning?",
-    "a": "Insertional inactivation: inserting foreign DNA into a restriction site within a selectable marker gene disrupts that gene's function. pBR322 has two markers: amp^r (ampicillin resistance) and tet^r (tetracycline resistance) + unique restriction sites within each. Insert into BamHI or SalI (within tet^r): recombinants = amp^r, tet^s; non-recombinants = amp^r, tet^r. Protocol: grow all colonies on ampicillin → replica plate to tetracycline → colonies growing on amp but NOT tet = recombinants. Advantage: can identify recombinants with any insert (not dependent on lacZ); disadvantage: requires replica plating (more steps than blue-white)."
+    "a": "Insertional inactivation: inserting foreign DNA into a restriction site within a selectable marker gene disrupts that gene's function. pBR322 has two markers: amp^r (ampicillin resistance) and tet^r (tetracycline resistance) + unique restriction sites within each. Insert into BamHI or SalI (within tet^r): recombinants = amp^r, tet^s; non-recombinants = amp^r, tet^r. Protocol: grow all colonies on ampicillin → replica plate to tetracycline → colonies growing on amp but NOT tet = recombinants. Advantage: can identify recombinants with any insert (not dependent on lacZ); disadvantage: requires replica plating (more steps than blue-white).",
+    "q_ta": "செருகல் செயலிழப்பு என்றால் என்ன? pBR322 குளோனாக்கத்தில் மறுசேர்க்கைக் குளோன்களைத் தேர்ந்தெடுக்க அது எவ்வாறு பயன்படுகிறது?",
+    "a_ta": "செருகல் செயலிழப்பு: தேர்வுக் குறிப்பான் மரபணுவுக்குள் உள்ள கட்டுறு இடத்தில் அயல் DNA-வைச் செருகுவது அந்த மரபணுவின் செயல்பாட்டைச் சீர்குலைக்கிறது. pBR322-இல் இரு குறிப்பான்கள் உள்ளன: amp^r (ஆம்பிசிலின் எதிர்ப்பு), tet^r (டெட்ராசைக்ளின் எதிர்ப்பு) + ஒவ்வொன்றிலும் தனித்துவமான கட்டுறு இடங்கள். BamHI அல்லது SalI-இல் (tet^r-க்குள்) செருகுதல்: மறுசேர்க்கைகள் = amp^r, tet^s; மறுசேர்க்கை அல்லாதவை = amp^r, tet^r. நெறிமுறை: அனைத்துக் காலனிகளையும் ஆம்பிசிலினில் வளர்த்து → டெட்ராசைக்ளினுக்குப் பிரதியெடுப்புத் தட்டுமுறை செய் → amp-இல் வளர்ந்து tet-இல் வளராத காலனிகள் = மறுசேர்க்கைகள். நன்மை: எந்தச் செருகலுடனும் மறுசேர்க்கைகளை அடையாளம் காணலாம் (lacZ-ஐச் சாராதது); குறை: பிரதியெடுப்புத் தட்டுமுறை தேவை (நீல–வெள்ளையை விட அதிகப் படிகள்)."
    },
    {
     "q": "Explain the role of restriction enzymes and DNA ligase in gene cloning.",
-    "a": "Restriction enzymes (\"molecular scissors\"): recognise specific palindromic sequences; cleave both strands at/near the site; produce sticky (staggered cut) or blunt (straight cut) ends; Type II used in cloning (e.g., EcoRI, BamHI); same enzyme used on insert and vector ensures compatible ends. DNA ligase (\"molecular glue\"): T4 DNA ligase seals phosphodiester bonds; requires ATP and Mg²⁺; joins 3'-OH to 5'-phosphate; conditions: 16°C overnight for sticky ends; joins insert to vector to form recombinant DNA. Together: RE cuts open the vector at MCS and cuts the gene from the source genome with matching ends → ligase joins them to create a continuous circular recombinant DNA molecule."
+    "a": "Restriction enzymes (\"molecular scissors\"): recognise specific palindromic sequences; cleave both strands at/near the site; produce sticky (staggered cut) or blunt (straight cut) ends; Type II used in cloning (e.g., EcoRI, BamHI); same enzyme used on insert and vector ensures compatible ends. DNA ligase (\"molecular glue\"): T4 DNA ligase seals phosphodiester bonds; requires ATP and Mg²⁺; joins 3'-OH to 5'-phosphate; conditions: 16°C overnight for sticky ends; joins insert to vector to form recombinant DNA. Together: RE cuts open the vector at MCS and cuts the gene from the source genome with matching ends → ligase joins them to create a continuous circular recombinant DNA molecule.",
+    "q_ta": "மரபணு குளோனாக்கத்தில் கட்டுறு நொதிகளுக்கும் DNA லைகேஸுக்கும் உள்ள பங்கை விளக்குக.",
+    "a_ta": "கட்டுறு நொதிகள் (“மூலக்கூற்றுக் கத்தரிகள்”): குறிப்பிட்ட பாலிண்ட்ரோம் வரிசைகளை அடையாளம் காண்கின்றன; இடத்தில்/அருகில் இரு இழைகளையும் வெட்டுகின்றன; ஒட்டும் (படிநிலை வெட்டு) அல்லது மழுங்கிய (நேர் வெட்டு) முனைகளை உருவாக்குகின்றன; குளோனாக்கத்தில் வகை II பயன்படுகிறது (எ.கா., EcoRI, BamHI); செருகலுக்கும் தாங்கிக்கடத்திக்கும் ஒரே நொதியைப் பயன்படுத்துவது இணக்கமான முனைகளை உறுதிசெய்கிறது. DNA லைகேஸ் (“மூலக்கூற்றுப் பசை”): T4 DNA லைகேஸ் பாஸ்போடைஎஸ்டர் பிணைப்புகளை மூடுகிறது; ATP, Mg²⁺ தேவை; 3'-OH-ஐ 5'-பாஸ்பேட்டுடன் இணைக்கிறது; நிபந்தனைகள்: ஒட்டும் முனைகளுக்கு 16°C-இல் இரவு முழுவதும்; செருகலைத் தாங்கிக்கடத்தியுடன் இணைத்து மறுசேர்க்கை DNA-வை உருவாக்குகிறது. சேர்ந்து: RE தாங்கிக்கடத்தியை MCS-இல் திறந்து, மூல மரபணுத்தொகையிலிருந்து மரபணுவைப் பொருந்தும் முனைகளுடன் வெட்டுகிறது → லைகேஸ் அவற்றை இணைத்துத் தொடர்ச்சியான வட்ட மறுசேர்க்கை DNA மூலக்கூற்றை உருவாக்குகிறது."
    },
    {
     "q": "Why is selection necessary after transformation? Describe TWO methods of clone selection.",
-    "a": "Why selection: transformation is inefficient (~1 in 10³–10⁵ cells takes up vector); the ligation mixture contains non-recombinant (re-ligated) vectors AND recombinant vectors; all transformed cells look identical; selection is needed to identify cells carrying the correct recombinant vector. Method 1 — Antibiotic selection: vectors carry amp^r; transformed cells plated on ampicillin medium; only cells with vector survive; distinguishes transformed from non-transformed. Cannot distinguish recombinant from non-recombinant — further screening needed. Method 2 — Blue-white screening: pUC vectors; lacZ + MCS; X-gal + IPTG in medium; white colonies = recombinant (insert disrupts lacZ). Quick visual identification. Alternative Method 2 — Insertional inactivation: pBR322; insert disrupts tet^r; recombinants = amp^r + tet^s; detected by replica plating."
+    "a": "Why selection: transformation is inefficient (~1 in 10³–10⁵ cells takes up vector); the ligation mixture contains non-recombinant (re-ligated) vectors AND recombinant vectors; all transformed cells look identical; selection is needed to identify cells carrying the correct recombinant vector. Method 1 — Antibiotic selection: vectors carry amp^r; transformed cells plated on ampicillin medium; only cells with vector survive; distinguishes transformed from non-transformed. Cannot distinguish recombinant from non-recombinant — further screening needed. Method 2 — Blue-white screening: pUC vectors; lacZ + MCS; X-gal + IPTG in medium; white colonies = recombinant (insert disrupts lacZ). Quick visual identification. Alternative Method 2 — Insertional inactivation: pBR322; insert disrupts tet^r; recombinants = amp^r + tet^s; detected by replica plating.",
+    "q_ta": "உருமாற்றத்துக்குப் பின் தேர்வு ஏன் அவசியம்? குளோன் தேர்வின் இரு முறைகளை விவரிக்க.",
+    "a_ta": "தேர்வு ஏன்: உருமாற்றம் திறனற்றது (~10³–10⁵ செல்களில் 1 மட்டுமே தாங்கிக்கடத்தியை எடுத்துக்கொள்கிறது); இணைப்புக் கலவையில் மறுசேர்க்கை அல்லாத (மீண்டும் இணைந்த) தாங்கிக்கடத்திகளும் மறுசேர்க்கைத் தாங்கிக்கடத்திகளும் உள்ளன; உருமாறிய அனைத்துச் செல்களும் ஒரே மாதிரித் தோன்றும்; சரியான மறுசேர்க்கைத் தாங்கிக்கடத்தி கொண்ட செல்களை அடையாளம் காணத் தேர்வு தேவை. முறை 1 — உயிர்எதிர்ப்பிப் பொருள் தேர்வு: தாங்கிக்கடத்திகள் amp^r கொண்டவை; உருமாறிய செல்கள் ஆம்பிசிலின் ஊடகத்தில் பரப்பப்படுகின்றன; தாங்கிக்கடத்தி கொண்ட செல்கள் மட்டுமே உயிர்வாழ்கின்றன; உருமாறியவற்றை உருமாறாதவற்றிலிருந்து வேறுபடுத்துகிறது. மறுசேர்க்கையையும் மறுசேர்க்கை அல்லாததையும் வேறுபடுத்த இயலாது — மேலும் சலிப்பு தேவை. முறை 2 — நீல–வெள்ளைச் சலிப்பு: pUC தாங்கிக்கடத்திகள்; lacZ + MCS; ஊடகத்தில் X-gal + IPTG; வெள்ளை காலனிகள் = மறுசேர்க்கை (செருகல் lacZ-ஐ சீர்குலைக்கிறது). விரைவான காட்சி அடையாளம். மாற்று முறை 2 — செருகல் செயலிழப்பு: pBR322; செருகல் tet^r-ஐ சீர்குலைக்கிறது; மறுசேர்க்கைகள் = amp^r + tet^s; பிரதியெடுப்புத் தட்டுமுறையால் கண்டறியப்படுகிறது."
    }
   ],
   "gl": [
    {
     "t": "Gene Cloning",
-    "d": "The process of making multiple identical copies of a specific gene by inserting it into a vector, introducing the recombinant vector into a host cell, and propagating the host through cell division."
+    "d": "The process of making multiple identical copies of a specific gene by inserting it into a vector, introducing the recombinant vector into a host cell, and propagating the host through cell division.",
+    "t_ta": "மரபணு குளோனாக்கம்",
+    "d_ta": "குறிப்பிட்ட மரபணுவைத் தாங்கிக்கடத்தியில் செருகி, மறுசேர்க்கைத் தாங்கிக்கடத்தியை ஓம்புயிர்ச் செல்லுக்குள் செலுத்தி, செல் பிரிவு மூலம் ஓம்புயிரைப் பெருக்கி, அதன் பல ஒத்த நகல்களை உருவாக்கும் செயல்முறை."
    },
    {
     "t": "Vector",
-    "d": "A DNA molecule (plasmid, phage, cosmid) used to carry a foreign gene into a host cell. Must have an origin of replication, selectable marker, and restriction sites. Acts as the \"vehicle\" for gene delivery."
+    "d": "A DNA molecule (plasmid, phage, cosmid) used to carry a foreign gene into a host cell. Must have an origin of replication, selectable marker, and restriction sites. Acts as the \"vehicle\" for gene delivery.",
+    "t_ta": "தாங்கிக்கடத்தி",
+    "d_ta": "அயல் மரபணுவை ஓம்புயிர்ச் செல்லுக்குள் கொண்டுசெல்லப் பயன்படும் DNA மூலக்கூறு (பிளாஸ்மிடு, பாகாஃபேஜ், காஸ்மிட்). இரட்டிப்புத் தொடக்கப்புள்ளி, தேர்வுக் குறிப்பான், கட்டுறு இடங்கள் இருக்க வேண்டும். மரபணுச் செலுத்தலுக்கான “ஊர்தியாக”ச் செயல்படுகிறது."
    },
    {
     "t": "Ligation",
-    "d": "The covalent joining of two DNA molecules by DNA ligase. Forms phosphodiester bonds between the 3'-OH and 5'-phosphate termini of compatible DNA ends. Creates the recombinant DNA molecule in gene cloning."
+    "d": "The covalent joining of two DNA molecules by DNA ligase. Forms phosphodiester bonds between the 3'-OH and 5'-phosphate termini of compatible DNA ends. Creates the recombinant DNA molecule in gene cloning.",
+    "t_ta": "இணைத்தல்",
+    "d_ta": "DNA லைகேஸால் இரு DNA மூலக்கூறுகளைக் கோவலன்ட் பிணைப்பால் இணைத்தல். இணக்கமான DNA முனைகளின் 3'-OH, 5'-பாஸ்பேட் முனைகளுக்கிடையே பாஸ்போடைஎஸ்டர் பிணைப்புகளை உருவாக்குகிறது. மரபணு குளோனாக்கத்தில் மறுசேர்க்கை DNA மூலக்கூற்றை உருவாக்குகிறது."
    },
    {
     "t": "Transformation",
-    "d": "The uptake of foreign DNA by a bacterial cell. In gene cloning, competent E. coli cells take up recombinant vectors by heat shock (CaCl₂ method) or electroporation."
+    "d": "The uptake of foreign DNA by a bacterial cell. In gene cloning, competent E. coli cells take up recombinant vectors by heat shock (CaCl₂ method) or electroporation.",
+    "t_ta": "உருமாற்றம்",
+    "d_ta": "பாக்டீரியச் செல் அயல் DNA-வை எடுத்துக்கொள்ளுதல். மரபணு குளோனாக்கத்தில், ஏற்புத்திறன் கொண்ட E. coli செல்கள் வெப்ப அதிர்ச்சி (CaCl₂ முறை) அல்லது மின்துளையிடல் மூலம் மறுசேர்க்கைத் தாங்கிக்கடத்திகளை எடுத்துக்கொள்கின்றன."
    },
    {
     "t": "Recombinant DNA",
-    "d": "A hybrid DNA molecule formed by joining DNA sequences from two different sources — specifically the gene of interest (insert) ligated into a cloning vector. The central product of the cloning process."
+    "d": "A hybrid DNA molecule formed by joining DNA sequences from two different sources — specifically the gene of interest (insert) ligated into a cloning vector. The central product of the cloning process.",
+    "t_ta": "மறுசேர்க்கை DNA",
+    "d_ta": "இரு வெவ்வேறு மூலங்களின் DNA வரிசைகளை — குறிப்பாக ஆர்வமுள்ள மரபணுவை (செருகல்) குளோனாக்கத் தாங்கிக்கடத்தியில் இணைத்து — உருவாகும் கலப்பு DNA மூலக்கூறு. குளோனாக்கச் செயல்முறையின் மையவிளைபொருள்."
    },
    {
     "t": "Selection Marker",
-    "d": "A gene on the vector (usually an antibiotic resistance gene) used to identify and select transformed host cells. Only cells carrying the vector survive on medium with the corresponding antibiotic."
+    "d": "A gene on the vector (usually an antibiotic resistance gene) used to identify and select transformed host cells. Only cells carrying the vector survive on medium with the corresponding antibiotic.",
+    "t_ta": "தேர்வுக் குறிப்பான்",
+    "d_ta": "உருமாறிய ஓம்புயிர்ச் செல்களை அடையாளம் கண்டு தேர்ந்தெடுக்கத் தாங்கிக்கடத்தியில் (பொதுவாக உயிர்எதிர்ப்பிப் பொருள் எதிர்ப்பு மரபணு) உள்ள மரபணு. தொடர்புடைய உயிர்எதிர்ப்பிப் பொருள் ஊடகத்தில் தாங்கிக்கடத்தி கொண்ட செல்கள் மட்டுமே உயிர்வாழும்."
    },
    {
     "t": "Blue-White Screening",
-    "d": "A method to distinguish recombinant from non-recombinant clones. White colonies carry an insert (lacZ disrupted, no β-gal, X-gal not cleaved). Blue colonies have no insert (lacZ intact, β-gal cleaves X-gal → blue colour)."
+    "d": "A method to distinguish recombinant from non-recombinant clones. White colonies carry an insert (lacZ disrupted, no β-gal, X-gal not cleaved). Blue colonies have no insert (lacZ intact, β-gal cleaves X-gal → blue colour).",
+    "t_ta": "நீல–வெள்ளைச் சலிப்பு",
+    "d_ta": "மறுசேர்க்கை, மறுசேர்க்கை அல்லாத குளோன்களை வேறுபடுத்தும் முறை. வெள்ளை காலனிகள் செருகல் கொண்டவை (lacZ சீர்குலைவு, β-gal இல்லை, X-gal பிளக்கப்படாது). நீல காலனிகளில் செருகல் இல்லை (lacZ சேதமின்றி, β-gal X-gal-ஐப் பிளந்து → நீல நிறம்)."
    },
    {
     "t": "Insertional Inactivation",
-    "d": "Disruption of a marker gene (e.g., tet^r) by inserting foreign DNA into a restriction site within it. Cells with the insert lose function of that marker. Used to distinguish recombinant from non-recombinant clones."
+    "d": "Disruption of a marker gene (e.g., tet^r) by inserting foreign DNA into a restriction site within it. Cells with the insert lose function of that marker. Used to distinguish recombinant from non-recombinant clones.",
+    "t_ta": "செருகல் செயலிழப்பு",
+    "d_ta": "அயல் DNA-வை ஒரு குறிப்பான் மரபணுவுக்குள் (எ.கா., tet^r) உள்ள கட்டுறு இடத்தில் செருகுவதால் அது சீர்குலைதல். செருகல் கொண்ட செல்கள் அந்தக் குறிப்பானின் செயல்பாட்டை இழக்கின்றன. மறுசேர்க்கை, மறுசேர்க்கை அல்லாத குளோன்களை வேறுபடுத்தப் பயன்படுகிறது."
    },
    {
     "t": "Competent Cell",
-    "d": "A bacterial cell that has been chemically (CaCl₂) or physically (electroporation) treated to become capable of taking up exogenous DNA from its environment during transformation."
+    "d": "A bacterial cell that has been chemically (CaCl₂) or physically (electroporation) treated to become capable of taking up exogenous DNA from its environment during transformation.",
+    "t_ta": "ஏற்புத்திறன் செல்",
+    "d_ta": "உருமாற்றத்தின்போது சூழலிலிருந்து புறவழி DNA-வை எடுத்துக்கொள்ளும் திறன் பெற வேதியியல் (CaCl₂) அல்லது இயற்பியல் (மின்துளையிடல்) முறையில் சிகிச்சையளிக்கப்பட்ட பாக்டீரியச் செல்."
    },
    {
     "t": "Sticky Ends",
-    "d": "Short single-stranded complementary overhangs produced by staggered restriction enzyme cuts. Compatible sticky ends on the insert and vector anneal by hydrogen bonding, facilitating efficient ligation."
+    "d": "Short single-stranded complementary overhangs produced by staggered restriction enzyme cuts. Compatible sticky ends on the insert and vector anneal by hydrogen bonding, facilitating efficient ligation.",
+    "t_ta": "ஒட்டும் முனைகள்",
+    "d_ta": "படிநிலை கட்டுறு நொதி வெட்டுகளால் உருவாகும் குறுகிய, ஒற்றை இழை, நிரப்பு நீட்சிகள். செருகலிலும் தாங்கிக்கடத்தியிலும் உள்ள இணக்கமான ஒட்டும் முனைகள் ஹைட்ரஜன் பிணைப்பால் இணைந்து, திறமையான இணைப்புக்கு உதவுகின்றன."
    },
    {
     "t": "X-gal",
-    "d": "5-Bromo-4-chloro-3-indolyl-β-D-galactopyranoside — a synthetic colourless substrate for β-galactosidase. When cleaved by β-gal, it produces a blue compound. Used in blue-white screening with IPTG inducer."
+    "d": "5-Bromo-4-chloro-3-indolyl-β-D-galactopyranoside — a synthetic colourless substrate for β-galactosidase. When cleaved by β-gal, it produces a blue compound. Used in blue-white screening with IPTG inducer.",
+    "t_ta": "X-gal",
+    "d_ta": "5-புரோமோ-4-குளோரோ-3-இண்டோலைல்-β-D-கேலக்டோபைரனோசைடு — β-கேலக்டோசிடேஸுக்கான நிறமற்ற செயற்கை வினைபடு பொருள். β-gal-ஆல் பிளக்கப்படும்போது நீலச் சேர்மத்தை உருவாக்குகிறது. IPTG தூண்டியுடன் நீல–வெள்ளைச் சலிப்பில் பயன்படுகிறது."
    },
    {
     "t": "Colony Hybridisation",
-    "d": "A probe-based screening method. Bacterial colonies are lysed on a nylon membrane, DNA denatured, and a labelled probe applied. Hybridisation reveals which colony contains the target gene."
+    "d": "A probe-based screening method. Bacterial colonies are lysed on a nylon membrane, DNA denatured, and a labelled probe applied. Hybridisation reveals which colony contains the target gene.",
+    "t_ta": "காலனி கலப்பினமாக்கல்",
+    "d_ta": "துருவி-சார்ந்த சலிப்பு முறை. பாக்டீரியக் காலனிகள் நைலான் சவ்வில் சிதைக்கப்பட்டு, DNA இயல்பிழக்கப்பட்டு, குறிப்பிடப்பட்ட துருவி இடப்படுகிறது. கலப்பினமாக்கல் எந்தக் காலனியில் இலக்கு மரபணு உள்ளது என்பதை வெளிப்படுத்துகிறது."
    }
+  ],
+  "title_ta": "மரபணு குளோனாக்கம் – படிகளும் குளோன் தேர்வும்",
+  "kp_ta": [
+   "மரபணு குளோனாக்கம்: குறிப்பிட்ட மரபணுவைத் தாங்கிக்கடத்தியில் செருகி, ஓம்புயிர்ச் செல்லுக்குள் செலுத்தி, இரட்டிப்படைய அனுமதித்து ஒத்த நகல்களை உருவாக்கும் செயல்முறை. மறுசேர்க்கை DNA தொழில்நுட்பத்தின் மையம்.",
+   "5 தேவைகள்: மூல DNA + தாங்கிக்கடத்தி + கட்டுறு நொதி + DNA லைகேஸ் + ஓம்புயிர்ச் செல் (E. coli). இவை சேர்ந்து குளோனாக்கச் செயல்முறை முழுவதையும் இயலச் செய்கின்றன.",
+   "கட்டுறு நொதிகள்: இணக்கமான ஒட்டும் முனைகளை உருவாக்கச் செருகலுக்கும் தாங்கிக்கடத்திக்கும் ஒரே நொதியைப் பயன்படுத்த வேண்டும். பொது எடுத்துக்காட்டுகள்: EcoRI (GAATTC), BamHI (GGATCC), HindIII (AAGCTT).",
+   "DNA லைகேஸ் (T4): 3'-OH, 5'-பாஸ்பேட் முனைகளுக்கிடையே பாஸ்போடைஎஸ்டர் பிணைப்புகளை மூடுகிறது. செருகலைத் தாங்கிக்கடத்தியில் இணைக்கிறது. ATP, Mg²⁺ தேவை. வழக்கமாக 16°C-இல் இரவு முழுவதும் அடைகாக்கப்படுகிறது.",
+   "உருமாற்றம்: மறுசேர்க்கை DNA-வை E. coli-க்குள் செலுத்துதல். முறைகள்: CaCl₂/வெப்ப அதிர்ச்சி (42°C) அல்லது மின்துளையிடல். 10³–10⁵ செல்களில் ~1 மட்டுமே உருமாறுகிறது.",
+   "உயிர்எதிர்ப்பிப் பொருள் தேர்வு: செல்கள் ஆம்பிசிலின் ஊடகத்தில் பரப்பப்படுகின்றன. தாங்கிக்கடத்தி (amp^r) கொண்ட செல்கள் மட்டுமே உயிர்வாழும். இது உருமாறிய செல்களைத் தேர்ந்தெடுக்கிறது (ஆனால் மறுசேர்க்கைகளை மட்டும் அல்ல).",
+   "நீல–வெள்ளைச் சலிப்பு: நீல காலனிகள் = மறுசேர்க்கை அல்லாதவை (lacZ சேதமின்றி, β-gal செயல்படுகிறது, X-gal பிளக்கப்பட்டு → நீலம்). வெள்ளை காலனிகள் = மறுசேர்க்கை (செருகல் lacZ-ஐ சீர்குலைக்கிறது, β-gal இல்லை, நிறம் இல்லை). வெள்ளை காலனிகளைத் தேர்ந்தெடு!",
+   "செருகல் செயலிழப்பு: pBR322-இல்: BamHI/SalI இடத்தில் செருகல் tet^r-ஐ சீர்குலைக்கிறது. மறுசேர்க்கைகள் = amp^r, tet^s. மறுசேர்க்கை அல்லாதவை = amp^r, tet^r. பிரதியெடுப்புத் தட்டுமுறையால் உறுதிசெய்யப்படுகிறது.",
+   "அல்கலைன் பாஸ்பேட்டேஸ்: நேர்கோட்டாக்கிய தாங்கிக்கடத்தியிலிருந்து 5'-பாஸ்பேட்டுகளை நீக்கித் தன்னிணைவைத் தடுக்கிறது. மறுசேர்க்கை அல்லாத காலனிகளின் பின்னணியை வெகுவாகக் குறைக்கிறது.",
+   "சரியான குளோனாக்க வரிசை: மரபணுவைப் பிரித்தெடு → கட்டுறு வெட்டல் → இணை → உருமாற்று → உயிர்எதிர்ப்பிப் பொருளில் தேர் → சலி (நீல/வெள்ளை அல்லது செருகல் செயலிழப்பு) → உறுதிசெய் → பெருக்கு.",
+   "காலனி கலப்பினமாக்கல்: குறிப்பிட்ட மரபணுவுடைய குளோனை அடையாளம் காணத் துருவி-சார்ந்த சலிப்பு. காலனிகள் சவ்வுக்கு மாற்றப்பட்டு → சிதைக்கப்பட்டு → குறிப்பிடப்பட்ட DNA-வுடன் துருவலிடப்பட்டு → நேர்மறை குளோன்கள் ஆட்டோரேடியோகிராஃபி மூலம் கண்டறியப்படுகின்றன.",
+   "pUC19 – pBR322: pUC19: lacZ/நீல–வெள்ளைச் சலிப்பைப் பயன்படுத்துகிறது; MCS lacZ-க்குள் உள்ளது. pBR322: செருகல் செயலிழப்பைப் பயன்படுத்துகிறது; இரு எதிர்ப்பு மரபணுக்கள் (amp^r + tet^r); செருகல் tet^r-ஐ சீர்குலைக்கிறது."
   ]
  },
  "gene_transfer_methods_rdna_host_cells.html": {
