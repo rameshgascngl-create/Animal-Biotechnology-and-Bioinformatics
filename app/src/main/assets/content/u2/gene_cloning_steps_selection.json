@@ -2,19 +2,25 @@
  "id": "gene_cloning_steps_selection",
  "unit": "II",
  "title": {
-  "en": "Gene Cloning – Steps & Selection of Clones"
+  "en": "Gene Cloning – Steps & Selection of Clones",
+  "ta": "மரபணு குளோனாக்கம் – படிகளும் குளோன் தெரிவும்",
+  "ta_status": "draft"
  },
  "sections": [
   {
    "id": "s01",
    "title": {
-    "en": "Overview"
+    "en": "Overview",
+    "ta": "மேலோட்டம்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Animal Biotechnology · B.Sc. Zoology / Biotechnology"
+      "en": "Animal Biotechnology · B.Sc. Zoology / Biotechnology",
+      "ta": "விலங்கு உயிரித் தொழில்நுட்பவியல் · B.Sc. விலங்கியல் / உயிரித் தொழில்நுட்பவியல்",
+      "ta_status": "draft"
      }
     }
    ]
@@ -22,25 +28,33 @@
   {
    "id": "s02",
    "title": {
-    "en": "Gene Cloning"
+    "en": "Gene Cloning",
+    "ta": "மரபணு குளோனாக்கம்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Steps in Cloning · Selection of Clones · Blue-White Screening"
+      "en": "Steps in Cloning · Selection of Clones · Blue-White Screening",
+      "ta": "குளோனாக்கப் படிகள் · குளோன் தெரிவு · நீலம்-வெள்ளை சலிக்கை",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "How do scientists isolate a single gene from billions of base pairs and make millions of identical copies? Gene cloning is the answer — and it forms the foundation of all recombinant DNA technology, from insulin production to cancer diagnostics."
+      "en": "How do scientists isolate a single gene from billions of base pairs and make millions of identical copies? Gene cloning is the answer — and it forms the foundation of all recombinant DNA technology, from insulin production to cancer diagnostics.",
+      "ta": "பில்லியன் கணக்கான கார இணைகளிலிருந்து ஒரே மரபணுவைத் தனிமைப்படுத்தி, அதன் மில்லியன் கணக்கான ஒத்த நகல்களை விஞ்ஞானிகள் எவ்வாறு உருவாக்குகிறார்கள்? மரபணு குளோனாக்கமே அதன் விடை — இன்சுலின் உற்பத்தி முதல் புற்றுநோய் நோயறிதல் வரை அனைத்து மறுகூட்டிணைவு DNA தொழில்நுட்பத்துக்கும் இதுவே அடித்தளம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🎯 Learning Objectives**"
+      "en": "**🎯 Learning Objectives**",
+      "ta": "**🎯 கற்றல் நோக்கங்கள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -48,22 +62,34 @@
      "ordered": false,
      "items": [
       {
-       "en": "Define gene cloning and explain its importance in animal biotechnology."
+       "en": "Define gene cloning and explain its importance in animal biotechnology.",
+       "ta": "மரபணு குளோனாக்கத்தை வரையறுத்து, விலங்கு உயிரித் தொழில்நுட்பவியலில் அதன் முக்கியத்துவத்தை விளக்குதல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "List all requirements needed for successful gene cloning."
+       "en": "List all requirements needed for successful gene cloning.",
+       "ta": "வெற்றிகரமான மரபணு குளோனாக்கத்துக்குத் தேவையான அனைத்தையும் பட்டியலிடுதல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Describe each step in the gene cloning process in correct sequence."
+       "en": "Describe each step in the gene cloning process in correct sequence.",
+       "ta": "மரபணு குளோனாக்கச் செயல்முறையின் ஒவ்வொரு படியையும் சரியான வரிசையில் விவரித்தல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Explain why clone selection is necessary and list the key selection methods."
+       "en": "Explain why clone selection is necessary and list the key selection methods.",
+       "ta": "குளோன் தெரிவு ஏன் தேவை என்பதையும் முக்கியத் தெரிவு முறைகளையும் விளக்குதல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Describe the blue-white screening system for identifying recombinant clones."
+       "en": "Describe the blue-white screening system for identifying recombinant clones.",
+       "ta": "மறுகூட்டிணைவு குளோன்களை அடையாளம் காணும் நீலம்-வெள்ளை சலிக்கை முறையை விவரித்தல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Distinguish between transformation, selection, and screening."
+       "en": "Distinguish between transformation, selection, and screening.",
+       "ta": "தகவல் பரிமாற்றம், தெரிவு, சலிக்கை ஆகியவற்றை வேறுபடுத்துதல்.",
+       "ta_status": "draft"
       }
      ]
     }
@@ -72,25 +98,33 @@
   {
    "id": "s03",
    "title": {
-    "en": "Introduction to Gene Cloning"
+    "en": "Introduction to Gene Cloning",
+    "ta": "மரபணு குளோனாக்கம் – அறிமுகம்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "**Definition**"
+      "en": "**Definition**",
+      "ta": "**வரையறை**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Gene cloning is the process of making multiple identical copies of a specific gene (or DNA segment) by inserting it into a **vector**, introducing the recombinant vector into a **host cell**, and allowing the host to replicate, producing millions of copies of the gene of interest."
+      "en": "Gene cloning is the process of making multiple identical copies of a specific gene (or DNA segment) by inserting it into a **vector**, introducing the recombinant vector into a **host cell**, and allowing the host to replicate, producing millions of copies of the gene of interest.",
+      "ta": "மரபணு குளோனாக்கம் என்பது குறிப்பிட்ட மரபணுவை (அல்லது DNA துண்டை) **தாங்கிக்கடத்தியில்** செருகி, மறுகூட்டிணைவுத் தாங்கிக்கடத்தியை **ஓம்புயிரி செல்லுக்குள்** செலுத்தி, ஓம்புயிரி பெருகும்போது ஆர்வ மரபணுவின் மில்லியன் கணக்கான நகல்களைப் பெறும் செயல்முறை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Importance in Animal Biotechnology**"
+      "en": "**Importance in Animal Biotechnology**",
+      "ta": "**விலங்கு உயிரித் தொழில்நுட்பவியலில் முக்கியத்துவம்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -98,19 +132,29 @@
      "ordered": false,
      "items": [
       {
-       "en": "**Protein production:** Cloned genes can be expressed in bacteria to produce human proteins — insulin, growth hormone, erythropoietin, and clotting factors."
+       "en": "**Protein production:** Cloned genes can be expressed in bacteria to produce human proteins — insulin, growth hormone, erythropoietin, and clotting factors.",
+       "ta": "**புரத உற்பத்தி:** குளோனாக்கிய மரபணுக்களைப் பாக்டீரியாவில் வெளிப்படுத்தி மனிதப் புரதங்களான இன்சுலின், வளர்ச்சி ஹார்மோன், எரித்ரோபாய்டின், உறைதல் காரணிகளை உற்பத்தி செய்யலாம்.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Gene therapy:** Correct copies of defective genes can be cloned and delivered into patients' cells."
+       "en": "**Gene therapy:** Correct copies of defective genes can be cloned and delivered into patients' cells.",
+       "ta": "**மரபணு சிகிச்சை:** குறைபாடுள்ள மரபணுக்களின் சரியான நகல்களைக் குளோனாக்கி நோயாளிகளின் செல்களுக்குள் செலுத்தலாம்.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Transgenic animals:** Cloned genes are introduced into animal embryos to create transgenic models for disease research."
+       "en": "**Transgenic animals:** Cloned genes are introduced into animal embryos to create transgenic models for disease research.",
+       "ta": "**மாற்றுமரபணு விலங்குகள்:** குளோனாக்கிய மரபணுக்களை விலங்கு கருக்களில் புகுத்தி நோய் ஆய்வுக்கான மாற்றுமரபணு மாதிரிகளை உருவாக்கலாம்.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Diagnostics:** Cloned DNA probes detect pathogens, genetic mutations, and cancer markers."
+       "en": "**Diagnostics:** Cloned DNA probes detect pathogens, genetic mutations, and cancer markers.",
+       "ta": "**நோயறிதல்:** குளோனாக்கிய DNA துருவிகள் நோய்க்கிருமிகள், மரபணு திடீர்மாற்றங்கள், புற்றுநோய்க் குறிப்பான்களைக் கண்டறிகின்றன.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Vaccine development:** Antigens encoded by cloned viral genes produce safer subunit vaccines."
+       "en": "**Vaccine development:** Antigens encoded by cloned viral genes produce safer subunit vaccines.",
+       "ta": "**தடுப்பூசி உருவாக்கம்:** குளோனாக்கிய வைரஸ் மரபணுக்கள் குறியீடு செய்யும் எதிர்ப்பொருள் தூண்டிகள் பாதுகாப்பான துணையலகுத் தடுப்பூசிகளைத் தருகின்றன.",
+       "ta_status": "draft"
       }
      ]
     },
@@ -118,19 +162,25 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Core Concept:** Gene cloning = _isolate_ the gene → _insert_ into a vector → _replicate_ in a host cell → _select_ successful recombinants → _use_ for desired purpose."
+      "en": "**Core Concept:** Gene cloning = _isolate_ the gene → _insert_ into a vector → _replicate_ in a host cell → _select_ successful recombinants → _use_ for desired purpose.",
+      "ta": "**மையக் கருத்து:** மரபணு குளோனாக்கம் = மரபணுவைத் _தனிமைப்படுத்து_ → தாங்கிக்கடத்தியில் _செருகு_ → ஓம்புயிரி செல்லில் _பெருக்கு_ → வெற்றிகரமான மறுகூட்டிணைவுகளைத் _தெரிவுசெய்_ → விரும்பிய நோக்குக்குப் _பயன்படுத்து_.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Basic Concept: How Cloning Copies a Gene**"
+      "en": "**Basic Concept: How Cloning Copies a Gene**",
+      "ta": "**அடிப்படைக் கருத்து: குளோனாக்கம் மரபணுவை எவ்வாறு நகலெடுக்கிறது**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "The gene of interest is treated as a **molecular \"passenger\"**. A vector (commonly a plasmid) acts as the **\"vehicle\"**. The passenger is loaded into the vehicle using restriction enzymes (cut) and DNA ligase (join). The vehicle enters a bacterial host cell, which divides millions of times — each daughter cell carrying an identical copy of the gene."
+      "en": "The gene of interest is treated as a **molecular \"passenger\"**. A vector (commonly a plasmid) acts as the **\"vehicle\"**. The passenger is loaded into the vehicle using restriction enzymes (cut) and DNA ligase (join). The vehicle enters a bacterial host cell, which divides millions of times — each daughter cell carrying an identical copy of the gene.",
+      "ta": "ஆர்வ மரபணு ஒரு **மூலக்கூறுப் “பயணியாக”** கருதப்படுகிறது. தாங்கிக்கடத்தி (பொதுவாகப் பிளாஸ்மிட்) **“வாகனமாகச்”** செயல்படுகிறது. ரெஸ்ட்ரிக்ஷன் நொதிகளால் (வெட்ட) DNA லைகேஸால் (இணைக்க) பயணி வாகனத்தில் ஏற்றப்படுகிறது. வாகனம் பாக்டீரிய ஓம்புயிரி செல்லுக்குள் நுழைகிறது; அது மில்லியன் முறை பகுப்படைகிறது — ஒவ்வொரு மகள் செல்லும் மரபணுவின் ஒத்த நகலைச் சுமக்கிறது.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -140,50 +190,66 @@
   {
    "id": "s04",
    "title": {
-    "en": "Requirements for Gene Cloning"
+    "en": "Requirements for Gene Cloning",
+    "ta": "மரபணு குளோனாக்கத்துக்குத் தேவையானவை",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Five essential components must be present for successful gene cloning:"
+      "en": "Five essential components must be present for successful gene cloning:",
+      "ta": "வெற்றிகரமான மரபணு குளோனாக்கத்துக்கு ஐந்து அடிப்படைக் கூறுகள் இருக்க வேண்டும்:",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "1. Source DNA The DNA containing the **gene of interest**. Can be genomic DNA (isolated from organism) or cDNA (synthesised from mRNA via reverse transcriptase). This is the \"insert\" to be cloned."
+      "en": "1. Source DNA The DNA containing the **gene of interest**. Can be genomic DNA (isolated from organism) or cDNA (synthesised from mRNA via reverse transcriptase). This is the \"insert\" to be cloned.",
+      "ta": "1. மூல DNA **ஆர்வ மரபணுவைக்** கொண்ட DNA. உயிரியிலிருந்து பிரித்த மரபணு தொகைய DNA அல்லது mRNA-விலிருந்து ரிவர்ஸ் டிரான்ஸ்கிரிப்டேசால் தொகுத்த cDNA ஆக இருக்கலாம். இதுவே குளோனாக்கப்படவேண்டிய “செருகி”.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "2. Vector A carrier DNA molecule — usually a **plasmid** or bacteriophage — that can replicate autonomously in a host cell. Must have: ori, selectable marker, restriction sites."
+      "en": "2. Vector A carrier DNA molecule — usually a **plasmid** or bacteriophage — that can replicate autonomously in a host cell. Must have: ori, selectable marker, restriction sites.",
+      "ta": "2. தாங்கிக்கடத்தி ஓம்புயிரி செல்லில் தானாகப் பெருகக்கூடிய, பொதுவாக **பிளாஸ்மிட்** அல்லது பாக்டீரியோஃபேஜ் ஆன ஒரு கடத்தி DNA மூலக்கூறு. இதில் ori, தேர்ந்தெடுக்கும் அடையாளக்குறி, ரெஸ்ட்ரிக்ஷன் இடங்கள் இருக்க வேண்டும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "3. Restriction Enzymes **Molecular scissors** — endonucleases that recognise specific palindromic sequences and cut both strands of DNA at defined sites, producing compatible sticky or blunt ends on both insert and vector."
+      "en": "3. Restriction Enzymes **Molecular scissors** — endonucleases that recognise specific palindromic sequences and cut both strands of DNA at defined sites, producing compatible sticky or blunt ends on both insert and vector.",
+      "ta": "3. ரெஸ்ட்ரிக்ஷன் நொதிகள் **மூலக்கூறு கத்தரிகோல்கள்** — குறிப்பிட்ட முன்பின் ஒத்த வரிசைகளை அடையாளம் கண்டு DNA-வின் இரு இழைகளையும் வரையறுத்த இடங்களில் வெட்டி, செருகிக்கும் தாங்கிக்கடத்திக்கும் இணக்கமான ஒட்டும் அல்லது மழுங்கிய முனைகளை உருவாக்கும் எண்டோநியுக்ளியேசுகள்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "4. DNA Ligase **Molecular glue** — seals the phosphodiester bonds between the insert and linearised vector, joining them into a circular recombinant DNA molecule. T4 DNA ligase is most commonly used."
+      "en": "4. DNA Ligase **Molecular glue** — seals the phosphodiester bonds between the insert and linearised vector, joining them into a circular recombinant DNA molecule. T4 DNA ligase is most commonly used.",
+      "ta": "4. DNA லைகேஸ் **மூலக்கூறுப் பசை** — செருகிக்கும் நேர்கோட்டுத் தாங்கிக்கடத்திக்கும் இடையிலான பாஸ்போடைஎஸ்டர் பிணைப்புகளை அடைத்து, அவற்றை வட்ட மறுகூட்டிணைவு DNA மூலக்கூறாக இணைக்கும். T4 DNA லைகேஸ் மிகப் பரவலாகப் பயன்படுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "5. Host Cell Usually _Escherichia coli_ — a competent bacterial cell that takes up the recombinant vector and replicates it during cell division. Each cell propagates one recombinant clone."
+      "en": "5. Host Cell Usually _Escherichia coli_ — a competent bacterial cell that takes up the recombinant vector and replicates it during cell division. Each cell propagates one recombinant clone.",
+      "ta": "5. ஓம்புயிரி செல் பொதுவாக _எஷெரிக்கியா கோலை_ — மறுகூட்டிணைவுத் தாங்கிக்கடத்தியை உள்ளெடுத்து செல் பகுப்பின்போது பெருக்கும் தகுதி பெற்ற பாக்டீரிய செல். ஒவ்வொரு செல்லும் ஒரு மறுகூட்டிணைவு குளோனைப் பெருக்குகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Memory Aid:** _D_NA + _V_ector + _R_estriction enzymes + _L_igase + _H_ost = **DVRLH** — \"Do Very Real Lab Homework!\""
+      "en": "**Memory Aid:** _D_NA + _V_ector + _R_estriction enzymes + _L_igase + _H_ost = **DVRLH** — \"Do Very Real Lab Homework!\"",
+      "ta": "**நினைவுக் குறிப்பு:** DNA (மூலம்) + தாங்கிக்கடத்தி + ரெஸ்ட்ரிக்ஷன் நொதி + லைகேஸ் + ஓம்புயிரி = **5 கூறுகள்**.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -193,31 +259,41 @@
   {
    "id": "s05",
    "title": {
-    "en": "Steps in Gene Cloning"
+    "en": "Steps in Gene Cloning",
+    "ta": "மரபணு குளோனாக்கத்தின் படிகள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Gene cloning proceeds through seven distinct, sequential steps:"
+      "en": "Gene cloning proceeds through seven distinct, sequential steps:",
+      "ta": "மரபணு குளோனாக்கம் ஏழு தனித்தனியான, தொடர் படிகளில் நடைபெறுகிறது:",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "1"
+      "en": "1",
+      "ta": "1",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Isolation of the Gene of Interest"
+      "en": "Isolation of the Gene of Interest",
+      "ta": "ஆர்வ மரபணுவைத் தனிமைப்படுத்துதல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "The target gene is obtained either by:"
+      "en": "The target gene is obtained either by:",
+      "ta": "இலக்கு மரபணு பின்வருவனவற்றால் பெறப்படுகிறது:",
+      "ta_status": "draft"
      }
     },
     {
@@ -225,35 +301,49 @@
      "ordered": false,
      "items": [
       {
-       "en": "**Restriction digestion** of total genomic DNA — the enzyme cuts DNA and the fragment containing the gene is isolated (e.g., by gel electrophoresis)."
+       "en": "**Restriction digestion** of total genomic DNA — the enzyme cuts DNA and the fragment containing the gene is isolated (e.g., by gel electrophoresis).",
+       "ta": "மொத்த மரபணு தொகைய DNA-வின் **ரெஸ்ட்ரிக்ஷன் செரித்தல்** — நொதி DNA-வை வெட்டி, மரபணுவைக் கொண்ட துண்டு தனிமைப்படுத்தப்படுகிறது (எ.கா. ஜெல் மின்னாற்பகுப்பால்).",
+       "ta_status": "draft"
       },
       {
-       "en": "**PCR amplification** — if the gene sequence is known, specific primers are used to amplify only that gene."
+       "en": "**PCR amplification** — if the gene sequence is known, specific primers are used to amplify only that gene.",
+       "ta": "**PCR பெருக்கம்** — மரபணு வரிசை தெரிந்தால், குறிப்பிட்ட பிரைமர்களால் அம்மரபணு மட்டும் பெருக்கப்படுகிறது.",
+       "ta_status": "draft"
       },
       {
-       "en": "**cDNA synthesis** — mRNA from a tissue expressing the gene is converted to cDNA using reverse transcriptase."
+       "en": "**cDNA synthesis** — mRNA from a tissue expressing the gene is converted to cDNA using reverse transcriptase.",
+       "ta": "**cDNA தொகுப்பு** — மரபணுவை வெளிப்படுத்தும் திசுவின் mRNA, ரிவர்ஸ் டிரான்ஸ்கிரிப்டேசால் cDNA ஆக மாற்றப்படுகிறது.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Chemical synthesis** — for short, well-characterised genes, the sequence is synthesised de novo."
+       "en": "**Chemical synthesis** — for short, well-characterised genes, the sequence is synthesised de novo.",
+       "ta": "**வேதித் தொகுப்பு** — குறுகிய, நன்கு அறியப்பட்ட மரபணுக்களுக்கு வரிசை புதிதாகத் தொகுக்கப்படுகிறது.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "2"
+      "en": "2",
+      "ta": "2",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Cutting DNA Using Restriction Enzymes"
+      "en": "Cutting DNA Using Restriction Enzymes",
+      "ta": "ரெஸ்ட்ரிக்ஷன் நொதிகளால் DNA-வை வெட்டுதல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Both the **insert DNA** (gene of interest) and the **vector DNA** are digested with the _same restriction enzyme(s)_. This produces compatible ends:"
+      "en": "Both the **insert DNA** (gene of interest) and the **vector DNA** are digested with the _same restriction enzyme(s)_. This produces compatible ends:",
+      "ta": "**செருகி DNA** (ஆர்வ மரபணு), **தாங்கிக்கடத்தி DNA** இரண்டும் _ஒரே ரெஸ்ட்ரிக்ஷன் நொதி(கள்)_ கொண்டு செரிக்கப்படுகின்றன. இதனால் இணக்கமான முனைகள் உருவாகின்றன:",
+      "ta_status": "draft"
      }
     },
     {
@@ -261,143 +351,14 @@
      "ordered": false,
      "items": [
       {
-       "en": "**Sticky ends** (overhangs) — most common; produced by enzymes like EcoRI, BamHI. Complementary overhangs on insert and vector allow them to anneal by hydrogen bonding."
+       "en": "**Sticky ends** (overhangs) — most common; produced by enzymes like EcoRI, BamHI. Complementary overhangs on insert and vector allow them to anneal by hydrogen bonding.",
+       "ta": "**ஒட்டும் முனைகள்** (நீட்டிப்பு முனைகள்) — மிகப் பொதுவானவை; EcoRI, BamHI போன்ற நொதிகளால் உருவாகின்றன. செருகியிலும் தாங்கிக்கடத்தியிலும் உள்ள நிரப்பு நீட்டிப்புகள் ஹைட்ரஜன் பிணைப்பால் இணைய (அனீலிங்) உதவுகின்றன.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Blunt ends** — produced by enzymes like SmaI, EcoRV. No overhang; less efficient for ligation."
-      }
-     ]
-    },
-    {
-     "type": "callout",
-     "kind": "info",
-     "text": {
-      "en": "Using the same restriction enzyme on both insert and vector guarantees **compatible cohesive ends** — essential for efficient ligation."
-     }
-    },
-    {
-     "type": "p",
-     "text": {
-      "en": "3"
-     }
-    },
-    {
-     "type": "p",
-     "text": {
-      "en": "Preparation of Vector DNA"
-     }
-    },
-    {
-     "type": "bullets",
-     "ordered": false,
-     "items": [
-      {
-       "en": "The vector (e.g., pBR322, pUC19) is **linearised** by digestion with the same restriction enzyme used on the insert."
-      },
-      {
-       "en": "Optional: the vector may be **dephosphorylated** using alkaline phosphatase to prevent self-ligation (recircularisation without insert), improving recombinant efficiency."
-      },
-      {
-       "en": "The linearised vector has two free ends with cohesive sequences complementary to the insert ends."
-      }
-     ]
-    },
-    {
-     "type": "p",
-     "text": {
-      "en": "4"
-     }
-    },
-    {
-     "type": "p",
-     "text": {
-      "en": "Ligation: Joining Insert and Vector"
-     }
-    },
-    {
-     "type": "p",
-     "text": {
-      "en": "The insert and linearised vector are mixed together. The compatible **sticky ends anneal** (hydrogen bonds between complementary bases). **T4 DNA ligase** then seals the phosphodiester bonds between the 3'-OH and 5'-phosphate ends, covalently joining the insert into the vector."
-     }
-    },
-    {
-     "type": "bullets",
-     "ordered": false,
-     "items": [
-      {
-       "en": "The reaction requires: ATP (energy for T4 DNA ligase), Mg²⁺ cofactor, appropriate temperature (16°C overnight for sticky ends)."
-      },
-      {
-       "en": "The product is a **circular recombinant DNA molecule**."
-      }
-     ]
-    },
-    {
-     "type": "p",
-     "text": {
-      "en": "5"
-     }
-    },
-    {
-     "type": "p",
-     "text": {
-      "en": "Formation of Recombinant DNA"
-     }
-    },
-    {
-     "type": "p",
-     "text": {
-      "en": "The ligation reaction produces a mixture of molecules:"
-     }
-    },
-    {
-     "type": "bullets",
-     "ordered": false,
-     "items": [
-      {
-       "en": "**Recombinant vector** — vector containing the foreign insert (desired product)."
-      },
-      {
-       "en": "**Re-ligated vector** — vector that recircularised without insert (background)."
-      },
-      {
-       "en": "**Insert concatemers** — multiple inserts ligated together (unwanted)."
-      }
-     ]
-    },
-    {
-     "type": "p",
-     "text": {
-      "en": "The recombinant DNA molecule is now ready for introduction into the host cell. This is the **central product** of the cloning process."
-     }
-    },
-    {
-     "type": "p",
-     "text": {
-      "en": "6"
-     }
-    },
-    {
-     "type": "p",
-     "text": {
-      "en": "Transformation into Host Cell"
-     }
-    },
-    {
-     "type": "p",
-     "text": {
-      "en": "The recombinant DNA is introduced into competent _E. coli_ cells by transformation:"
-     }
-    },
-    {
-     "type": "bullets",
-     "ordered": false,
-     "items": [
-      {
-       "en": "**Chemical transformation:** Competent cells are prepared by treating with CaCl₂ (disrupts cell membrane). Recombinant DNA is added and the mixture is briefly heat-shocked at 42°C, causing the DNA to enter the cells."
-      },
-      {
-       "en": "**Electroporation:** A brief high-voltage electric pulse creates temporary pores in the cell membrane, allowing DNA entry. Higher efficiency than chemical transformation."
+       "en": "**Blunt ends** — produced by enzymes like SmaI, EcoRV. No overhang; less efficient for ligation.",
+       "ta": "**மழுங்கிய முனைகள்** — SmaI, EcoRV போன்ற நொதிகளால் உருவாகின்றன. நீட்டிப்பு இல்லை; லைகேஷனில் திறன் குறைவு.",
+       "ta_status": "draft"
       }
      ]
     },
@@ -405,25 +366,25 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Not all cells take up the vector — typically only 1 in 10³–10⁵ cells is successfully transformed. Selection is therefore essential."
+      "en": "Using the same restriction enzyme on both insert and vector guarantees **compatible cohesive ends** — essential for efficient ligation.",
+      "ta": "செருகி, தாங்கிக்கடத்தி இரண்டிலும் ஒரே ரெஸ்ட்ரிக்ஷன் நொதியைப் பயன்படுத்துவது **இணக்கமான ஒட்டும் முனைகளை** உறுதிசெய்கிறது — திறமையான லைகேஷனுக்கு இன்றியமையாதது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "7"
+      "en": "3",
+      "ta": "3",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Multiplication of Clones"
-     }
-    },
-    {
-     "type": "p",
-     "text": {
-      "en": "Transformed bacteria are plated on **selective agar medium** (e.g., containing antibiotic). Each transformed cell that survives and divides produces a **colony of genetically identical cells** — a clone."
+      "en": "Preparation of Vector DNA",
+      "ta": "தாங்கிக்கடத்தி DNA தயாரிப்பு",
+      "ta_status": "draft"
      }
     },
     {
@@ -431,27 +392,224 @@
      "ordered": false,
      "items": [
       {
-       "en": "Each colony contains millions of copies of the recombinant vector (and hence the cloned gene)."
+       "en": "The vector (e.g., pBR322, pUC19) is **linearised** by digestion with the same restriction enzyme used on the insert.",
+       "ta": "தாங்கிக்கடத்தி (எ.கா. pBR322, pUC19) செருகியில் பயன்படுத்திய அதே ரெஸ்ட்ரிக்ஷன் நொதியால் செரிக்கப்பட்டு **நேர்கோட்டாக்கப்படுகிறது**.",
+       "ta_status": "draft"
       },
       {
-       "en": "The colonies are then screened to identify those carrying the correct insert."
+       "en": "Optional: the vector may be **dephosphorylated** using alkaline phosphatase to prevent self-ligation (recircularisation without insert), improving recombinant efficiency.",
+       "ta": "விருப்பத்தேர்வு: தாங்கிக்கடத்தி தானே இணைவதை (செருகியின்றி மீண்டும் வட்டமாதல்) தடுக்கவும் மறுகூட்டிணைவுத் திறனை உயர்த்தவும் அல்கலைன் பாஸ்படேசால் **பாஸ்பேட் நீக்கம்** செய்யலாம்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Selected colonies are grown in liquid culture for large-scale DNA/protein production."
+       "en": "The linearised vector has two free ends with cohesive sequences complementary to the insert ends.",
+       "ta": "நேர்கோட்டாக்கிய தாங்கிக்கடத்தியில் செருகியின் முனைகளுக்கு நிரப்பான ஒட்டும் வரிசைகளுடன் இரண்டு தனி முனைகள் உள்ளன.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "Fig. 1 — Overview of Gene Cloning Steps"
+      "en": "4",
+      "ta": "4",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Ligation: Joining Insert and Vector",
+      "ta": "லைகேஷன்: செருகியையும் தாங்கிக்கடத்தியையும் இணைத்தல்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The insert and linearised vector are mixed together. The compatible **sticky ends anneal** (hydrogen bonds between complementary bases). **T4 DNA ligase** then seals the phosphodiester bonds between the 3'-OH and 5'-phosphate ends, covalently joining the insert into the vector.",
+      "ta": "செருகியும் நேர்கோட்டுத் தாங்கிக்கடத்தியும் ஒன்றாகக் கலக்கப்படுகின்றன. இணக்கமான **ஒட்டும் முனைகள் இணைகின்றன** (நிரப்புக் காரங்களுக்கிடையே ஹைட்ரஜன் பிணைப்புகள்). **T4 DNA லைகேஸ்** பின் 3'-OH, 5'-பாஸ்பேட் முனைகளுக்கிடையே பாஸ்போடைஎஸ்டர் பிணைப்புகளை அடைத்து, செருகியைத் தாங்கிக்கடத்தியுடன் கோவலன்ட் முறையில் இணைக்கிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "The reaction requires: ATP (energy for T4 DNA ligase), Mg²⁺ cofactor, appropriate temperature (16°C overnight for sticky ends).",
+       "ta": "வினைக்குத் தேவையானவை: ATP (T4 DNA லைகேஸுக்கு ஆற்றல்), Mg²⁺ துணைக்காரணி, ஏற்ற வெப்பநிலை (ஒட்டும் முனைகளுக்கு 16°C இரவு முழுவதும்).",
+       "ta_status": "draft"
+      },
+      {
+       "en": "The product is a **circular recombinant DNA molecule**.",
+       "ta": "விளைபொருள் **வட்ட மறுகூட்டிணைவு DNA மூலக்கூறு** ஆகும்.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5",
+      "ta": "5",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Formation of Recombinant DNA",
+      "ta": "மறுகூட்டிணைவு DNA உருவாதல்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The ligation reaction produces a mixture of molecules:",
+      "ta": "லைகேஷன் வினை மூலக்கூறுகளின் கலவையை உருவாக்குகிறது:",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Recombinant vector** — vector containing the foreign insert (desired product).",
+       "ta": "**மறுகூட்டிணைவுத் தாங்கிக்கடத்தி** — அந்நியச் செருகியைக் கொண்ட தாங்கிக்கடத்தி (விரும்பிய விளைபொருள்).",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Re-ligated vector** — vector that recircularised without insert (background).",
+       "ta": "**மீள்இணைந்த தாங்கிக்கடத்தி** — செருகியின்றி மீண்டும் வட்டமான தாங்கிக்கடத்தி (பின்னணி).",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Insert concatemers** — multiple inserts ligated together (unwanted).",
+       "ta": "**செருகிக் கான்கேட்டமர்கள்** — பல செருகிகள் ஒன்றாக இணைந்தவை (தேவையற்றவை).",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The recombinant DNA molecule is now ready for introduction into the host cell. This is the **central product** of the cloning process.",
+      "ta": "மறுகூட்டிணைவு DNA மூலக்கூறு இப்போது ஓம்புயிரி செல்லுக்குள் செலுத்தத் தயார். இதுவே குளோனாக்கச் செயல்முறையின் **மையவிளைபொருள்**.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "6",
+      "ta": "6",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Transformation into Host Cell",
+      "ta": "ஓம்புயிரி செல்லுக்குள் தகவல் பரிமாற்றம்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The recombinant DNA is introduced into competent _E. coli_ cells by transformation:",
+      "ta": "மறுகூட்டிணைவு DNA தகுதி பெற்ற _E. coli_ செல்களுக்குள் தகவல் பரிமாற்றத்தால் செலுத்தப்படுகிறது:",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Chemical transformation:** Competent cells are prepared by treating with CaCl₂ (disrupts cell membrane). Recombinant DNA is added and the mixture is briefly heat-shocked at 42°C, causing the DNA to enter the cells.",
+       "ta": "**வேதித் தகவல் பரிமாற்றம்:** தகுதி பெற்ற செல்கள் CaCl₂ கொண்டு சிகிச்சையளிக்கப்படுகின்றன (செல் சவ்வைத் தளர்த்தும்). மறுகூட்டிணைவு DNA சேர்க்கப்பட்டு, கலவை 42°C-இல் சிறிது நேரம் வெப்ப அதிர்ச்சிக்கு உட்படுத்தப்படுகிறது; DNA செல்களுக்குள் நுழைகிறது.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Electroporation:** A brief high-voltage electric pulse creates temporary pores in the cell membrane, allowing DNA entry. Higher efficiency than chemical transformation.",
+       "ta": "**மின்துளைப்பு:** சிறிதளவு நேரம் செலுத்தும் உயர்மின்னழுத்தத் துடிப்பு செல் சவ்வில் தற்காலிகத் துளைகளை உருவாக்கி DNA நுழைய அனுமதிக்கிறது. வேதித் தகவல் பரிமாற்றத்தைவிட அதிகத் திறன்.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Not all cells take up the vector — typically only 1 in 10³–10⁵ cells is successfully transformed. Selection is therefore essential.",
+      "ta": "அனைத்துச் செல்களும் தாங்கிக்கடத்தியை உள்ளெடுப்பதில்லை — பொதுவாக 10³–10⁵ செல்களில் 1 மட்டுமே வெற்றிகரமாக மாற்றப்படுகிறது. எனவே தெரிவு இன்றியமையாதது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "7",
+      "ta": "7",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Multiplication of Clones",
+      "ta": "குளோன்களைப் பெருக்குதல்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Transformed bacteria are plated on **selective agar medium** (e.g., containing antibiotic). Each transformed cell that survives and divides produces a **colony of genetically identical cells** — a clone.",
+      "ta": "மாற்றப்பட்ட பாக்டீரியாக்கள் **தெரிவு அகார் ஊடகத்தில்** (எ.கா. ஆன்டிபயாடிக் கொண்டது) வளர்க்கப்படுகின்றன. உயிர்பிழைத்துப் பகுப்படையும் ஒவ்வொரு மாற்றப்பட்ட செல்லும் **மரபியல் ரீதியாக ஒத்த செல்களின் குழுமத்தை** — குளோனை — உருவாக்குகிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Each colony contains millions of copies of the recombinant vector (and hence the cloned gene).",
+       "ta": "ஒவ்வொரு குழுமமும் மறுகூட்டிணைவுத் தாங்கிக்கடத்தியின் (எனவே குளோனாக்கிய மரபணுவின்) மில்லியன் கணக்கான நகல்களைக் கொண்டுள்ளது.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "The colonies are then screened to identify those carrying the correct insert.",
+       "ta": "சரியான செருகியைச் சுமக்கும் குழுமங்களை அடையாளம் காண அவை பின் சலிக்கப்படுகின்றன.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Selected colonies are grown in liquid culture for large-scale DNA/protein production.",
+       "ta": "தெரிவு செய்த குழுமங்கள் பெரிய அளவிலான DNA/புரத உற்பத்திக்காகத் திரவ வளர்ப்பில் வளர்க்கப்படுகின்றன.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 1 — Overview of Gene Cloning Steps",
+      "ta": "படம் 1 — மரபணு குளோனாக்கப் படிகளின் மேலோட்டம்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "gene_cloning_steps_selection-d01",
      "caption": {
-      "en": "Gene cloning overview"
+      "en": "Gene cloning overview",
+      "ta": "மரபணு குளோனாக்க மேலோட்டம்",
+      "ta_status": "draft"
      },
      "labels": [
       "Source DNA",
@@ -496,19 +654,25 @@
   {
    "id": "s06",
    "title": {
-    "en": "Selection of Clones"
+    "en": "Selection of Clones",
+    "ta": "குளோன்களின் தெரிவு",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "**Why Is Selection Necessary?**"
+      "en": "**Why Is Selection Necessary?**",
+      "ta": "**தெரிவு ஏன் தேவை?**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "After transformation, only a small fraction of bacterial cells actually take up the recombinant vector. The transformation mixture contains:"
+      "en": "After transformation, only a small fraction of bacterial cells actually take up the recombinant vector. The transformation mixture contains:",
+      "ta": "தகவல் பரிமாற்றத்துக்குப் பின் பாக்டீரிய செல்களில் மிகச் சிறு பகுதியே மறுகூட்டிணைவுத் தாங்கிக்கடத்தியை உள்ளெடுக்கிறது. தகவல் பரிமாற்றக் கலவையில் உள்ளவை:",
+      "ta_status": "draft"
      }
     },
     {
@@ -516,13 +680,19 @@
      "ordered": false,
      "items": [
       {
-       "en": "**Non-transformed cells** — did not take up any vector (majority)."
+       "en": "**Non-transformed cells** — did not take up any vector (majority).",
+       "ta": "**மாற்றப்படாத செல்கள்** — எந்தத் தாங்கிக்கடத்தியையும் உள்ளெடுக்கவில்லை (பெரும்பான்மை).",
+       "ta_status": "draft"
       },
       {
-       "en": "**Cells with re-ligated vector** — took up vector that re-circularised without insert."
+       "en": "**Cells with re-ligated vector** — took up vector that re-circularised without insert.",
+       "ta": "**மீள்இணைந்த தாங்கிக்கடத்தி கொண்ட செல்கள்** — செருகியின்றி மீண்டும் வட்டமான தாங்கிக்கடத்தியை உள்ளெடுத்தவை.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Cells with recombinant vector** — took up vector containing the gene of interest (desired)."
+       "en": "**Cells with recombinant vector** — took up vector containing the gene of interest (desired).",
+       "ta": "**மறுகூட்டிணைவுத் தாங்கிக்கடத்தி கொண்ட செல்கள்** — ஆர்வ மரபணுவுள்ள தாங்கிக்கடத்தியை உள்ளெடுத்தவை (விரும்பியவை).",
+       "ta_status": "draft"
       }
      ]
     },
@@ -530,19 +700,25 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**The Problem:** All three types of cells look identical on a plate. Without selection and screening, finding the correct recombinant clone would be like finding a needle in a haystack of billions of bacteria."
+      "en": "**The Problem:** All three types of cells look identical on a plate. Without selection and screening, finding the correct recombinant clone would be like finding a needle in a haystack of billions of bacteria.",
+      "ta": "**சிக்கல்:** மூன்று வகைச் செல்களும் தட்டில் ஒரே மாதிரித் தெரிகின்றன. தெரிவும் சலிக்கையும் இல்லாவிட்டால், சரியான மறுகூட்டிணைவு குளோனைக் கண்டறிவது பில்லியன் கணக்கான பாக்டீரியாக்களில் ஊசியைத் தேடுவதற்குச் சமம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Method 1 — Antibiotic Resistance Markers**"
+      "en": "**Method 1 — Antibiotic Resistance Markers**",
+      "ta": "**முறை 1 — ஆன்டிபயாடிக் எதிர்ப்பு அடையாளக்குறிகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Principle:** Vectors carry antibiotic resistance genes (e.g., _ampr_ for ampicillin resistance in pBR322). Only cells that have successfully taken up the vector will carry this resistance gene and survive on antibiotic-containing agar."
+      "en": "**Principle:** Vectors carry antibiotic resistance genes (e.g., _ampr_ for ampicillin resistance in pBR322). Only cells that have successfully taken up the vector will carry this resistance gene and survive on antibiotic-containing agar.",
+      "ta": "**கோட்பாடு:** தாங்கிக்கடத்திகள் ஆன்டிபயாடிக் எதிர்ப்பு மரபணுக்களைக் கொண்டுள்ளன (எ.கா. pBR322-இல் ஆம்பிசிலின் எதிர்ப்புக்கு _ampr_). தாங்கிக்கடத்தியை வெற்றிகரமாக உள்ளெடுத்த செல்கள் மட்டுமே இவ்வெதிர்ப்பு மரபணுவைச் சுமந்து ஆன்டிபயாடிக் அகாரில் உயிர்பிழைக்கும்.",
+      "ta_status": "draft"
      }
     },
     {
@@ -550,29 +726,41 @@
      "ordered": false,
      "items": [
       {
-       "en": "Transformed cells are plated on medium containing **ampicillin**."
+       "en": "Transformed cells are plated on medium containing **ampicillin**.",
+       "ta": "மாற்றப்பட்ட செல்கள் **ஆம்பிசிலின்** கொண்ட ஊடகத்தில் வளர்க்கப்படுகின்றன.",
+       "ta_status": "draft"
       },
       {
-       "en": "Only cells that took up the vector (carrying _ampr_) grow → they are **transformants**."
+       "en": "Only cells that took up the vector (carrying _ampr_) grow → they are **transformants**.",
+       "ta": "தாங்கிக்கடத்தியை (_ampr_ கொண்டது) உள்ளெடுத்த செல்கள் மட்டுமே வளரும் → அவை **தகவல் பரிமாற்றம் அடைந்த செல்கள் (transformants)**.",
+       "ta_status": "draft"
       },
       {
-       "en": "Non-transformed cells die — they cannot replicate on ampicillin medium."
+       "en": "Non-transformed cells die — they cannot replicate on ampicillin medium.",
+       "ta": "மாற்றப்படாத செல்கள் இறக்கின்றன — ஆம்பிசிலின் ஊடகத்தில் பெருக இயலாது.",
+       "ta_status": "draft"
       },
       {
-       "en": "This step identifies **transformed vs non-transformed** cells, but does NOT yet distinguish recombinant from non-recombinant transformants."
+       "en": "This step identifies **transformed vs non-transformed** cells, but does NOT yet distinguish recombinant from non-recombinant transformants.",
+       "ta": "இப்படி **மாற்றப்பட்டவை – மாற்றப்படாதவை** என அடையாளம் காணப்படும்; ஆனால் மறுகூட்டிணைவு, மறுகூட்டிணைவற்ற மாற்றப்பட்ட செல்களை இன்னும் வேறுபடுத்தாது.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Method 2 — Insertional Inactivation**"
+      "en": "**Method 2 — Insertional Inactivation**",
+      "ta": "**முறை 2 — உட்செருகுதல் செயலிழப்பு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Using pBR322 as an example: the vector carries both _ampr_ and _tetr_ (tetracycline resistance) genes. When the gene of interest is cloned into a restriction site _within_ the _tetr_ gene, the tetracycline resistance is **disrupted**."
+      "en": "Using pBR322 as an example: the vector carries both _ampr_ and _tetr_ (tetracycline resistance) genes. When the gene of interest is cloned into a restriction site _within_ the _tetr_ gene, the tetracycline resistance is **disrupted**.",
+      "ta": "pBR322-ஐ எடுத்துக்காட்டாகக் கொள்வோம்: தாங்கிக்கடத்தியில் _ampr_, _tetr_ (டெட்ராசைக்ளின் எதிர்ப்பு) ஆகிய இரு மரபணுக்களும் உள்ளன. ஆர்வ மரபணு _tetr_ மரபணுவுக்கு _உள்ளே_ உள்ள ரெஸ்ட்ரிக்ஷன் இடத்தில் குளோனாக்கப்பட்டால், டெட்ராசைக்ளின் எதிர்ப்பு **சிதைகிறது**.",
+      "ta_status": "draft"
      }
     },
     {
@@ -580,26 +768,36 @@
      "ordered": false,
      "items": [
       {
-       "en": "**Non-recombinant transformants:** ampicillin-resistant AND tetracycline-resistant (tetr gene intact)."
+       "en": "**Non-recombinant transformants:** ampicillin-resistant AND tetracycline-resistant (tetr gene intact).",
+       "ta": "**மறுகூட்டிணைவற்ற மாற்றப்பட்டவை:** ஆம்பிசிலின் எதிர்ப்பும் டெட்ராசைக்ளின் எதிர்ப்பும் உள்ளவை (tetr மரபணு அப்படியே).",
+       "ta_status": "draft"
       },
       {
-       "en": "**Recombinant transformants:** ampicillin-resistant but tetracycline-sensitive (tetr gene disrupted by insert)."
+       "en": "**Recombinant transformants:** ampicillin-resistant but tetracycline-sensitive (tetr gene disrupted by insert).",
+       "ta": "**மறுகூட்டிணைவு மாற்றப்பட்டவை:** ஆம்பிசிலின் எதிர்ப்பு, ஆனால் டெட்ராசைக்ளினுக்கு உணர்திறன் (tetr மரபணு செருகியால் சிதைந்தது).",
+       "ta_status": "draft"
       },
       {
-       "en": "Grow colonies on ampicillin first → replica plate onto tetracycline → colonies that grow on amp but NOT on tet are recombinants."
+       "en": "Grow colonies on ampicillin first → replica plate onto tetracycline → colonies that grow on amp but NOT on tet are recombinants.",
+       "ta": "முதலில் ஆம்பிசிலினில் குழுமங்களை வளர்த்து → டெட்ராசைக்ளினுக்கு ரெப்ளிகா பிளேட்டிங் செய்க → amp-இல் வளர்ந்து tet-இல் வளராத குழுமங்கள் மறுகூட்டிணைவுகள்.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Method 3 — Blue-White Screening (lacZ System)**"
+      "en": "**Method 3 — Blue-White Screening (lacZ System)**",
+      "ta": "**முறை 3 — நீலம்-வெள்ளை சலிக்கை (lacZ அமைப்பு)**",
+      "ta_status": "bracketed"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Used with vectors like pUC19 that contain the _lacZ_ gene (encoding β-galactosidase) with an MCS (multiple cloning site) within the _lacZ_ coding sequence."
+      "en": "Used with vectors like pUC19 that contain the _lacZ_ gene (encoding β-galactosidase) with an MCS (multiple cloning site) within the _lacZ_ coding sequence.",
+      "ta": "_lacZ_ மரபணுவை (β-கேலக்டோசிடேசைக் குறியீடு செய்வது) கொண்ட pUC19 போன்ற தாங்கிக்கடத்திகளுடன் பயன்படுகிறது; அதன் _lacZ_ குறியீட்டு வரிசைக்குள் MCS (பன்மை குளோனாக்க இடம்) உள்ளது.",
+      "ta_status": "draft"
      }
     },
     {
@@ -607,16 +805,24 @@
      "ordered": false,
      "items": [
       {
-       "en": "When no insert is present, the _lacZ_ gene is intact → β-galactosidase is produced → cleaves X-gal (a colourless substrate) → produces a **blue compound** → colony appears **blue**."
+       "en": "When no insert is present, the _lacZ_ gene is intact → β-galactosidase is produced → cleaves X-gal (a colourless substrate) → produces a **blue compound** → colony appears **blue**.",
+       "ta": "செருகி இல்லாதபோது _lacZ_ மரபணு அப்படியே இருக்கும் → β-கேலக்டோசிடேஸ் உருவாகும் → நிறமற்ற அடிக்கூறான X-gal-ஐப் பிளந்து → **நீலச் சேர்மம்** தோன்றும் → குழுமம் **நீலமாகத்** தெரியும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "When an insert disrupts the MCS within _lacZ_, β-galactosidase is non-functional → X-gal is not cleaved → colony remains **white**."
+       "en": "When an insert disrupts the MCS within _lacZ_, β-galactosidase is non-functional → X-gal is not cleaved → colony remains **white**.",
+       "ta": "செருகி _lacZ_-க்குள் MCS-ஐச் சிதைத்தால் β-கேலக்டோசிடேஸ் செயலற்றது → X-gal பிளக்கப்படாது → குழுமம் **வெள்ளையாகவே** இருக்கும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Blue colonies = non-recombinant** (no insert, intact lacZ)."
+       "en": "**Blue colonies = non-recombinant** (no insert, intact lacZ).",
+       "ta": "**நீலக் குழுமங்கள் = மறுகூட்டிணைவற்றவை** (செருகி இல்லை, lacZ அப்படியே).",
+       "ta_status": "draft"
       },
       {
-       "en": "**White colonies = recombinant** (insert present, disrupted lacZ)."
+       "en": "**White colonies = recombinant** (insert present, disrupted lacZ).",
+       "ta": "**வெள்ளைக் குழுமங்கள் = மறுகூட்டிணைவு** (செருகி உள்ளது, lacZ சிதைந்தது).",
+       "ta_status": "draft"
       }
      ]
     },
@@ -624,19 +830,25 @@
      "type": "callout",
      "kind": "tip",
      "text": {
-      "en": "**Exam Formula:** Blue = Bad (no insert, lacZ active) | White = Winner (has insert, lacZ disrupted). Pick the white colonies!"
+      "en": "**Exam Formula:** Blue = Bad (no insert, lacZ active) | White = Winner (has insert, lacZ disrupted). Pick the white colonies!",
+      "ta": "**தேர்வுச் சூத்திரம்:** நீலம் = தவறு (செருகி இல்லை, lacZ செயல்படுகிறது) | வெள்ளை = வெற்றி (செருகி உள்ளது, lacZ சிதைந்தது). வெள்ளைக் குழுமங்களைத் தெரிவுசெய்க!",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Method 4 — Probe-Based Screening (Colony Hybridisation)**"
+      "en": "**Method 4 — Probe-Based Screening (Colony Hybridisation)**",
+      "ta": "**முறை 4 — துருவி அடிப்படைச் சலிக்கை (குழும கலப்பினமாக்கல்)**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Once transformants are identified by selection, the correct clone carrying the gene of interest is found by hybridisation:"
+      "en": "Once transformants are identified by selection, the correct clone carrying the gene of interest is found by hybridisation:",
+      "ta": "தெரிவால் மாற்றப்பட்ட செல்களை அடையாளம் கண்ட பின், ஆர்வ மரபணுவைச் சுமக்கும் சரியான குளோன் கலப்பினமாக்கலால் கண்டறியப்படுகிறது:",
+      "ta_status": "draft"
      }
     },
     {
@@ -644,19 +856,29 @@
      "ordered": false,
      "items": [
       {
-       "en": "Bacterial colonies are transferred to a nylon membrane and lysed."
+       "en": "Bacterial colonies are transferred to a nylon membrane and lysed.",
+       "ta": "பாக்டீரியக் குழுமங்கள் நைலான் சவ்வுக்கு மாற்றப்பட்டுச் சிதைக்கப்படுகின்றன.",
+       "ta_status": "draft"
       },
       {
-       "en": "DNA is denatured and fixed to the membrane."
+       "en": "DNA is denatured and fixed to the membrane.",
+       "ta": "DNA இயல்பிழக்கச் செய்யப்பட்டுச் சவ்வில் பொருத்தப்படுகிறது.",
+       "ta_status": "draft"
       },
       {
-       "en": "A labelled **DNA probe** (complementary to the gene of interest) is applied."
+       "en": "A labelled **DNA probe** (complementary to the gene of interest) is applied.",
+       "ta": "ஆர்வ மரபணுவுக்கு நிரப்பான குறியிடப்பட்ட **DNA துருவி** செலுத்தப்படுகிறது.",
+       "ta_status": "draft"
       },
       {
-       "en": "Probe hybridises to colonies carrying the matching DNA sequence."
+       "en": "Probe hybridises to colonies carrying the matching DNA sequence.",
+       "ta": "பொருந்தும் DNA வரிசை கொண்ட குழுமங்களுடன் துருவி கலப்பினமாகிறது.",
+       "ta_status": "draft"
       },
       {
-       "en": "Positive colonies are identified by autoradiography or fluorescence."
+       "en": "Positive colonies are identified by autoradiography or fluorescence.",
+       "ta": "நேர்மறைக் குழுமங்கள் தன்படமெடுத்தல் அல்லது ஒளிர்வால் அடையாளம் காணப்படுகின்றன.",
+       "ta_status": "draft"
       }
      ]
     }
@@ -667,44 +889,58 @@
   {
    "id": "s07",
    "title": {
-    "en": "Blue-White Screening — Interactive Diagram"
+    "en": "Blue-White Screening — Interactive Diagram",
+    "ta": "நீலம்-வெள்ளை சலிக்கை — ஊடாடும் வரைபடம்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Click the view buttons to see what happens in each scenario. Click individual colonies to learn more."
+      "en": "Click the view buttons to see what happens in each scenario. Click individual colonies to learn more.",
+      "ta": "ஒவ்வொரு சூழ்நிலையிலும் என்ன நடக்கிறது என அறியக் காட்சிப் பொத்தான்களைத் தொடுக. தனித்தனிக் குழுமங்களைத் தொட்டு மேலும் அறிக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "📋 Overview / Principle"
+      "en": "📋 Overview / Principle",
+      "ta": "📋 மேலோட்டம் / கோட்பாடு",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "🔵 Non-Recombinant (Blue)"
+      "en": "🔵 Non-Recombinant (Blue)",
+      "ta": "🔵 மறுகூட்டிணைவற்றது (நீலம்)",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "⚪ Recombinant (White)"
+      "en": "⚪ Recombinant (White)",
+      "ta": "⚪ மறுகூட்டிணைவு (வெள்ளை)",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "🧫 Petri Dish View"
+      "en": "🧫 Petri Dish View",
+      "ta": "🧫 பெட்ரி தட்டுக் காட்சி",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "gene_cloning_steps_selection-d02",
      "caption": {
-      "en": "Blue-white screening overview"
+      "en": "Blue-white screening overview",
+      "ta": "நீலம்-வெள்ளை சலிக்கை மேலோட்டம்",
+      "ta_status": "draft"
      },
      "labels": [
       "pUC19 Vector",
@@ -733,7 +969,9 @@
      "type": "diagram",
      "id": "gene_cloning_steps_selection-d03",
      "caption": {
-      "en": "Non-recombinant blue colony mechanism"
+      "en": "Non-recombinant blue colony mechanism",
+      "ta": "மறுகூட்டிணைவற்ற நீலக் குழும இயங்குமுறை",
+      "ta_status": "draft"
      },
      "labels": [
       "Step 1: Vector re-ligates (no insert)",
@@ -757,7 +995,9 @@
      "type": "diagram",
      "id": "gene_cloning_steps_selection-d04",
      "caption": {
-      "en": "Recombinant white colony mechanism"
+      "en": "Recombinant white colony mechanism",
+      "ta": "மறுகூட்டிணைவு வெள்ளைக் குழும இயங்குமுறை",
+      "ta_status": "draft"
      },
      "labels": [
       "Step 1: Insert disrupts lacZ in MCS",
@@ -783,14 +1023,18 @@
     {
      "type": "p",
      "text": {
-      "en": "Petri Dish — Blue-White Screening Result (hover over colonies)"
+      "en": "Petri Dish — Blue-White Screening Result (hover over colonies)",
+      "ta": "பெட்ரி தட்டு — நீலம்-வெள்ளை சலிக்கை முடிவு (குழுமங்கள்மேல் நகர்த்துக)",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "gene_cloning_steps_selection-d05",
      "caption": {
-      "en": "Petri dish blue white screening"
+      "en": "Petri dish blue white screening",
+      "ta": "பெட்ரி தட்டு – நீலம்-வெள்ளை சலிக்கை",
+      "ta_status": "draft"
      },
      "labels": [
       "B",
@@ -811,27 +1055,35 @@
     {
      "type": "p",
      "text": {
-      "en": "Blue — lacZ intact, no insert (non-recombinant)"
+      "en": "Blue — lacZ intact, no insert (non-recombinant)",
+      "ta": "நீலம் — lacZ அப்படியே, செருகி இல்லை (மறுகூட்டிணைவற்றது)",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "White — lacZ disrupted, insert present (recombinant ✓)"
+      "en": "White — lacZ disrupted, insert present (recombinant ✓)",
+      "ta": "வெள்ளை — lacZ சிதைந்தது, செருகி உள்ளது (மறுகூட்டிணைவு ✓)",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**🔵 Blue Colony — Non-Recombinant:** The lacZ gene in this cell is _intact_ (no insert was cloned into the MCS). β-galactosidase is expressed and cleaves X-gal in the medium, producing a blue compound. This clone does NOT contain the gene of interest."
+      "en": "**🔵 Blue Colony — Non-Recombinant:** The lacZ gene in this cell is _intact_ (no insert was cloned into the MCS). β-galactosidase is expressed and cleaves X-gal in the medium, producing a blue compound. This clone does NOT contain the gene of interest.",
+      "ta": "**🔵 நீலக் குழுமம் — மறுகூட்டிணைவற்றது:** இச்செல்லின் lacZ மரபணு _அப்படியே_ உள்ளது (MCS-க்குள் செருகி குளோனாக்கப்படவில்லை). β-கேலக்டோசிடேஸ் வெளிப்பட்டு ஊடகத்திலுள்ள X-gal-ஐப் பிளந்து நீலச் சேர்மத்தை உருவாக்குகிறது. இக்குளோனில் ஆர்வ மரபணு **இல்லை**.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**⚪ White Colony — Recombinant ✓:** An insert has been cloned into the MCS, disrupting the lacZ gene. β-galactosidase is non-functional and cannot cleave X-gal — so the colony remains white. This clone MAY contain the gene of interest (confirm by PCR/sequencing)."
+      "en": "**⚪ White Colony — Recombinant ✓:** An insert has been cloned into the MCS, disrupting the lacZ gene. β-galactosidase is non-functional and cannot cleave X-gal — so the colony remains white. This clone MAY contain the gene of interest (confirm by PCR/sequencing).",
+      "ta": "**⚪ வெள்ளைக் குழுமம் — மறுகூட்டிணைவு ✓:** MCS-க்குள் செருகி குளோனாக்கப்பட்டு lacZ மரபணுவைச் சிதைத்துள்ளது. β-கேலக்டோசிடேஸ் செயலற்றதால் X-gal-ஐப் பிளக்க இயலாது — எனவே குழுமம் வெள்ளையாகவே இருக்கும். இக்குளோனில் ஆர்வ மரபணு **இருக்கக்கூடும்** (PCR/வரிசைப்படுத்தலால் உறுதிசெய்க).",
+      "ta_status": "draft"
      }
     }
    ],
@@ -841,20 +1093,26 @@
   {
    "id": "s08",
    "title": {
-    "en": "Gene Cloning Pipeline — Click Each Step"
+    "en": "Gene Cloning Pipeline — Click Each Step",
+    "ta": "மரபணு குளோனாக்கக் குழாய் — ஒவ்வொரு படியையும் தொடுக",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Click any step to expand its details."
+      "en": "Click any step to expand its details.",
+      "ta": "எந்தப் படியையும் தொட்டு விவரங்களை விரிவாக்குக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "steps",
      "items": [
       {
-       "en": "1 🧬 Isolate Gene of Interest Extract total genomic DNA or isolate mRNA. Use restriction enzymes, PCR, or reverse transcription to obtain the specific gene or cDNA fragment."
+       "en": "1 🧬 Isolate Gene of Interest Extract total genomic DNA or isolate mRNA. Use restriction enzymes, PCR, or reverse transcription to obtain the specific gene or cDNA fragment.",
+       "ta": "1 🧬 ஆர்வ மரபணுவைத் தனிமைப்படுத்து மொத்த மரபணு தொகைய DNA-வைப் பிரித்தெடு அல்லது mRNA-வைத் தனிமைப்படுத்து. ரெஸ்ட்ரிக்ஷன் நொதிகள், PCR அல்லது ரிவர்ஸ் டிரான்ஸ்கிரிப்ஷனால் குறிப்பிட்ட மரபணு அல்லது cDNA துண்டைப் பெறு.",
+       "ta_status": "draft"
       }
      ]
     },
@@ -862,7 +1120,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "2 ✂️ Restriction Digestion of DNA and Vector Both the insert DNA and the vector plasmid are cut with the same restriction enzyme. This produces compatible sticky ends on both molecules, allowing them to anneal later."
+       "en": "2 ✂️ Restriction Digestion of DNA and Vector Both the insert DNA and the vector plasmid are cut with the same restriction enzyme. This produces compatible sticky ends on both molecules, allowing them to anneal later.",
+       "ta": "2 ✂️ DNA, தாங்கிக்கடத்தியின் ரெஸ்ட்ரிக்ஷன் செரித்தல் செருகி DNA, தாங்கிக்கடத்திப் பிளாஸ்மிட் இரண்டும் ஒரே ரெஸ்ட்ரிக்ஷன் நொதியால் வெட்டப்படுகின்றன. இதனால் இரு மூலக்கூறுகளிலும் இணக்கமான ஒட்டும் முனைகள் உருவாகி, பின் இணைய உதவுகின்றன.",
+       "ta_status": "draft"
       }
      ]
     },
@@ -870,7 +1130,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "3 🔗 Ligation: Insert + Vector T4 DNA ligase joins the insert and linearised vector by sealing the phosphodiester bonds between compatible sticky ends. Result: circular recombinant DNA molecule."
+       "en": "3 🔗 Ligation: Insert + Vector T4 DNA ligase joins the insert and linearised vector by sealing the phosphodiester bonds between compatible sticky ends. Result: circular recombinant DNA molecule.",
+       "ta": "3 🔗 லைகேஷன்: செருகி + தாங்கிக்கடத்தி T4 DNA லைகேஸ் இணக்கமான ஒட்டும் முனைகளுக்கிடையே பாஸ்போடைஎஸ்டர் பிணைப்புகளை அடைத்துச் செருகியையும் நேர்கோட்டுத் தாங்கிக்கடத்தியையும் இணைக்கிறது. விளைவு: வட்ட மறுகூட்டிணைவு DNA மூலக்கூறு.",
+       "ta_status": "draft"
       }
      ]
     },
@@ -878,7 +1140,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "4 🧫 Transformation into E. coli Recombinant DNA is introduced into competent E. coli cells by heat-shock (42°C) or electroporation. Cells are plated on selective agar with ampicillin (to select transformants)."
+       "en": "4 🧫 Transformation into E. coli Recombinant DNA is introduced into competent E. coli cells by heat-shock (42°C) or electroporation. Cells are plated on selective agar with ampicillin (to select transformants).",
+       "ta": "4 🧫 E. coli-க்குள் தகவல் பரிமாற்றம் மறுகூட்டிணைவு DNA, வெப்ப அதிர்ச்சி (42°C) அல்லது மின்துளைப்பால் தகுதி பெற்ற E. coli செல்களுக்குள் செலுத்தப்படுகிறது. செல்கள் ஆம்பிசிலின் உள்ள தெரிவு அகாரில் வளர்க்கப்படுகின்றன (மாற்றப்பட்ட செல்களைத் தெரிவுசெய்ய).",
+       "ta_status": "draft"
       }
      ]
     },
@@ -886,7 +1150,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "5 🔵⚪ Selection and Screening of Clones Antibiotic selection identifies transformed cells. Blue-white screening or insertional inactivation distinguishes recombinants (white/amp-r-tet-s) from non-recombinants (blue/amp-r-tet-r)."
+       "en": "5 🔵⚪ Selection and Screening of Clones Antibiotic selection identifies transformed cells. Blue-white screening or insertional inactivation distinguishes recombinants (white/amp-r-tet-s) from non-recombinants (blue/amp-r-tet-r).",
+       "ta": "5 🔵⚪ குளோன்களின் தெரிவும் சலிக்கையும் ஆன்டிபயாடிக் தெரிவு மாற்றப்பட்ட செல்களை அடையாளம் காணும். நீலம்-வெள்ளை சலிக்கை அல்லது உட்செருகுதல் செயலிழப்பு மறுகூட்டிணைவுகளை (வெள்ளை/amp-r-tet-s) மறுகூட்டிணைவற்றவற்றிலிருந்து (நீலம்/amp-r-tet-r) வேறுபடுத்தும்.",
+       "ta_status": "draft"
       }
      ]
     },
@@ -894,7 +1160,9 @@
      "type": "steps",
      "items": [
       {
-       "en": "6 📋 Verify and Amplify Correct Clone Correct recombinant clones are confirmed by restriction analysis, PCR, or DNA sequencing. The verified clone is grown in large-scale liquid culture for DNA or protein production."
+       "en": "6 📋 Verify and Amplify Correct Clone Correct recombinant clones are confirmed by restriction analysis, PCR, or DNA sequencing. The verified clone is grown in large-scale liquid culture for DNA or protein production.",
+       "ta": "6 📋 சரியான குளோனைச் சரிபார்த்துப் பெருக்கு சரியான மறுகூட்டிணைவு குளோன்கள் ரெஸ்ட்ரிக்ஷன் பகுப்பாய்வு, PCR அல்லது DNA வரிசைப்படுத்தலால் உறுதிசெய்யப்படுகின்றன. சரிபார்க்கப்பட்ட குளோன் DNA அல்லது புரத உற்பத்திக்குப் பெரிய அளவில் திரவ வளர்ப்பில் வளர்க்கப்படுகிறது.",
+       "ta_status": "draft"
       }
      ]
     }
@@ -905,122 +1173,188 @@
   {
    "id": "s09",
    "title": {
-    "en": "Comparison: Transformation vs Selection vs Screening"
+    "en": "Comparison: Transformation vs Selection vs Screening",
+    "ta": "ஒப்பீடு: தகவல் பரிமாற்றம் – தெரிவு – சலிக்கை",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "table",
      "header": [
       {
-       "en": "Feature"
+       "en": "Feature",
+       "ta": "பண்பு",
+       "ta_status": "draft"
       },
       {
-       "en": "Transformation"
+       "en": "Transformation",
+       "ta": "தகவல் பரிமாற்றம்",
+       "ta_status": "draft"
       },
       {
-       "en": "Selection"
+       "en": "Selection",
+       "ta": "தெரிவு",
+       "ta_status": "draft"
       },
       {
-       "en": "Screening"
+       "en": "Screening",
+       "ta": "சலிக்கை",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Definition**"
+        "en": "**Definition**",
+        "ta": "**வரையறை**",
+        "ta_status": "draft"
        },
        {
-        "en": "Introduction of recombinant DNA into host cell"
+        "en": "Introduction of recombinant DNA into host cell",
+        "ta": "மறுகூட்டிணைவு DNA-வை ஓம்புயிரி செல்லுக்குள் செலுத்துதல்",
+        "ta_status": "draft"
        },
        {
-        "en": "Identification of cells that took up the vector (any vector)"
+        "en": "Identification of cells that took up the vector (any vector)",
+        "ta": "தாங்கிக்கடத்தியை (எதுவாயினும்) உள்ளெடுத்த செல்களை அடையாளம் காணுதல்",
+        "ta_status": "draft"
        },
        {
-        "en": "Identification of cells with the correct recombinant vector (with insert)"
+        "en": "Identification of cells with the correct recombinant vector (with insert)",
+        "ta": "சரியான மறுகூட்டிணைவுத் தாங்கிக்கடத்தி (செருகியுடன்) உள்ள செல்களை அடையாளம் காணுதல்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Purpose**"
+        "en": "**Purpose**",
+        "ta": "**நோக்கம்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Deliver recombinant DNA into the host bacterium"
+        "en": "Deliver recombinant DNA into the host bacterium",
+        "ta": "மறுகூட்டிணைவு DNA-வை ஓம்புயிரிப் பாக்டீரியத்துக்குள் சேர்த்தல்",
+        "ta_status": "draft"
        },
        {
-        "en": "Distinguish transformed from non-transformed cells"
+        "en": "Distinguish transformed from non-transformed cells",
+        "ta": "மாற்றப்பட்ட செல்களையும் மாற்றப்படாதவற்றையும் வேறுபடுத்துதல்",
+        "ta_status": "draft"
        },
        {
-        "en": "Distinguish recombinant from non-recombinant transformants"
+        "en": "Distinguish recombinant from non-recombinant transformants",
+        "ta": "மறுகூட்டிணைவு மாற்றப்பட்டவற்றையும் மறுகூட்டிணைவற்றவற்றையும் வேறுபடுத்துதல்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Method**"
+        "en": "**Method**",
+        "ta": "**முறை**",
+        "ta_status": "draft"
        },
        {
-        "en": "Heat shock (42°C) with CaCl₂ or electroporation"
+        "en": "Heat shock (42°C) with CaCl₂ or electroporation",
+        "ta": "CaCl₂-உடன் வெப்ப அதிர்ச்சி (42°C) அல்லது மின்துளைப்பு",
+        "ta_status": "draft"
        },
        {
-        "en": "Antibiotic resistance — only transformed cells survive on antibiotic plates"
+        "en": "Antibiotic resistance — only transformed cells survive on antibiotic plates",
+        "ta": "ஆன்டிபயாடிக் எதிர்ப்பு — மாற்றப்பட்ட செல்கள் மட்டுமே ஆன்டிபயாடிக் தட்டுகளில் உயிர்பிழைக்கும்",
+        "ta_status": "draft"
        },
        {
-        "en": "Blue-white (lacZ/X-gal), insertional inactivation, colony hybridisation, PCR"
+        "en": "Blue-white (lacZ/X-gal), insertional inactivation, colony hybridisation, PCR",
+        "ta": "நீலம்-வெள்ளை (lacZ/X-gal), உட்செருகுதல் செயலிழப்பு, குழும கலப்பினமாக்கல், PCR",
+        "ta_status": "bracketed"
        }
       ],
       [
        {
-        "en": "**What is detected?**"
+        "en": "**What is detected?**",
+        "ta": "**எது கண்டறியப்படுகிறது?**",
+        "ta_status": "draft"
        },
        {
-        "en": "Entry of DNA into the cell"
+        "en": "Entry of DNA into the cell",
+        "ta": "செல்லுக்குள் DNA நுழைதல்",
+        "ta_status": "draft"
        },
        {
-        "en": "Presence of the vector (antibiotic resistance marker)"
+        "en": "Presence of the vector (antibiotic resistance marker)",
+        "ta": "தாங்கிக்கடத்தியின் இருப்பு (ஆன்டிபயாடிக் எதிர்ப்பு அடையாளக்குறி)",
+        "ta_status": "draft"
        },
        {
-        "en": "Presence of insert within the vector (disruption of lacZ or tetr)"
+        "en": "Presence of insert within the vector (disruption of lacZ or tetr)",
+        "ta": "தாங்கிக்கடத்திக்குள் செருகியின் இருப்பு (lacZ அல்லது tetr சிதைவு)",
+        "ta_status": "bracketed"
        }
       ],
       [
        {
-        "en": "**Outcome**"
+        "en": "**Outcome**",
+        "ta": "**விளைவு**",
+        "ta_status": "draft"
        },
        {
-        "en": "Cells now contain the recombinant vector"
+        "en": "Cells now contain the recombinant vector",
+        "ta": "செல்களில் இப்போது மறுகூட்டிணைவுத் தாங்கிக்கடத்தி உள்ளது",
+        "ta_status": "draft"
        },
        {
-        "en": "Surviving colonies all carry the vector"
+        "en": "Surviving colonies all carry the vector",
+        "ta": "உயிர்பிழைக்கும் குழுமங்கள் அனைத்தும் தாங்கிக்கடத்தியைச் சுமக்கின்றன",
+        "ta_status": "draft"
        },
        {
-        "en": "Correct recombinant clone identified (white colony; ampr/tets)"
+        "en": "Correct recombinant clone identified (white colony; ampr/tets)",
+        "ta": "சரியான மறுகூட்டிணைவு குளோன் அடையாளம் காணப்படுகிறது (வெள்ளைக் குழுமம்; ampr/tets)",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Example**"
+        "en": "**Example**",
+        "ta": "**எடுத்துக்காட்டு**",
+        "ta_status": "draft"
        },
        {
-        "en": "CaCl₂/heat shock; electroporation"
+        "en": "CaCl₂/heat shock; electroporation",
+        "ta": "CaCl₂/வெப்ப அதிர்ச்சி; மின்துளைப்பு",
+        "ta_status": "draft"
        },
        {
-        "en": "Growth on LB + ampicillin plate"
+        "en": "Growth on LB + ampicillin plate",
+        "ta": "LB + ஆம்பிசிலின் தட்டில் வளர்ச்சி",
+        "ta_status": "draft"
        },
        {
-        "en": "White colonies on X-gal/IPTG plate; replica plating on tetracycline"
+        "en": "White colonies on X-gal/IPTG plate; replica plating on tetracycline",
+        "ta": "X-gal/IPTG தட்டில் வெள்ளைக் குழுமங்கள்; டெட்ராசைக்ளினில் ரெப்ளிகா பிளேட்டிங்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Required for**"
+        "en": "**Required for**",
+        "ta": "**தேவைப்படுவது**",
+        "ta_status": "draft"
        },
        {
-        "en": "All gene cloning experiments"
+        "en": "All gene cloning experiments",
+        "ta": "அனைத்து மரபணு குளோனாக்கச் சோதனைகளிலும்",
+        "ta_status": "draft"
        },
        {
-        "en": "Identifying any transformed host cell"
+        "en": "Identifying any transformed host cell",
+        "ta": "மாற்றப்பட்ட எந்த ஓம்புயிரி செல்லையும் அடையாளம் காண",
+        "ta_status": "draft"
        },
        {
-        "en": "Finding the specific clone with the desired insert"
+        "en": "Finding the specific clone with the desired insert",
+        "ta": "விரும்பிய செருகியுடைய குறிப்பிட்ட குளோனைக் கண்டறிய",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -1032,56 +1366,74 @@
   {
    "id": "s10",
    "title": {
-    "en": "Interactive Learning"
+    "en": "Interactive Learning",
+    "ta": "ஊடாடும் கற்றல்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "**✂️ Why Must the Same Restriction Enzyme Be Used on Insert and Vector?**"
+      "en": "**✂️ Why Must the Same Restriction Enzyme Be Used on Insert and Vector?**",
+      "ta": "**✂️ செருகியிலும் தாங்கிக்கடத்தியிலும் ஒரே ரெஸ்ட்ரிக்ஷன் நொதி ஏன் பயன்படுத்தப்பட வேண்டும்?**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Key Concept"
+      "en": "Key Concept",
+      "ta": "முக்கியக் கருத்து",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Using the same restriction enzyme on both insert and vector ensures they both have **complementary cohesive (sticky) ends**. For example, if EcoRI is used on both, the insert ends with 5'-AATT overhangs and the vector ends with 5'-AATT overhangs — these can anneal by hydrogen bonding before DNA ligase seals them."
+      "en": "Using the same restriction enzyme on both insert and vector ensures they both have **complementary cohesive (sticky) ends**. For example, if EcoRI is used on both, the insert ends with 5'-AATT overhangs and the vector ends with 5'-AATT overhangs — these can anneal by hydrogen bonding before DNA ligase seals them.",
+      "ta": "செருகி, தாங்கிக்கடத்தி இரண்டிலும் ஒரே ரெஸ்ட்ரிக்ஷன் நொதியைப் பயன்படுத்துவது இரண்டுக்கும் **நிரப்பான ஒட்டும் (இணைவு) முனைகள்** இருப்பதை உறுதிசெய்கிறது. எ.கா. இரண்டிலும் EcoRI பயன்படுத்தினால், செருகி முனைகளிலும் தாங்கிக்கடத்தி முனைகளிலும் 5'-AATT நீட்டிப்புகள் இருக்கும் — DNA லைகேஸ் அடைப்பதற்கு முன் இவை ஹைட்ரஜன் பிணைப்பால் இணையும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "If different enzymes are used, the ends would be incompatible — they cannot anneal, so ligation efficiency drops to near zero."
+      "en": "If different enzymes are used, the ends would be incompatible — they cannot anneal, so ligation efficiency drops to near zero.",
+      "ta": "வேறுபட்ட நொதிகள் பயன்படுத்தப்பட்டால் முனைகள் இணக்கமற்றவை — இணைய இயலாது; லைகேஷன் திறன் ஏறத்தாழ பூச்சியமாகும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**Exception:** Blunt-end ligation — any blunt-ended insert can be ligated into any blunt-ended vector (e.g., using SmaI), but this is far less efficient and non-directional."
+      "en": "**Exception:** Blunt-end ligation — any blunt-ended insert can be ligated into any blunt-ended vector (e.g., using SmaI), but this is far less efficient and non-directional.",
+      "ta": "**விதிவிலக்கு:** மழுங்கிய முனை லைகேஷன் — எந்த மழுங்கிய முனைச் செருகியையும் எந்த மழுங்கிய முனைத் தாங்கிக்கடத்தியிலும் (எ.கா. SmaI) இணைக்கலாம்; ஆனால் இது மிகக் குறைந்த திறனும் திசையற்றதும் ஆகும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🧫 What Is Competent Cell Preparation?**"
+      "en": "**🧫 What Is Competent Cell Preparation?**",
+      "ta": "**🧫 தகுதி பெற்ற செல் தயாரிப்பு என்றால் என்ன?**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Transformation"
+      "en": "Transformation",
+      "ta": "தகவல் பரிமாற்றம்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Bacterial cells are not normally able to take up naked DNA from their environment. They must be made \"**competent**\" — artificially rendered capable of DNA uptake."
+      "en": "Bacterial cells are not normally able to take up naked DNA from their environment. They must be made \"**competent**\" — artificially rendered capable of DNA uptake.",
+      "ta": "பாக்டீரிய செல்கள் இயல்பாகச் சூழலிலுள்ள வெற்று DNA-வை உள்ளெடுக்க இயலாது. அவை “**தகுதி பெற்றவையாக**” — DNA-வை உள்ளெடுக்கும் திறனுள்ளவையாக — செயற்கையாக மாற்றப்பட வேண்டும்.",
+      "ta_status": "draft"
      }
     },
     {
@@ -1089,53 +1441,71 @@
      "ordered": false,
      "items": [
       {
-       "en": "**Chemical method (CaCl₂):** Bacteria are washed in ice-cold CaCl₂ solution. The calcium ions partially disrupt the cell membrane and create a state where DNA can adsorb to the surface. Heat shock (42°C for 90 seconds) drives the DNA into the cell."
+       "en": "**Chemical method (CaCl₂):** Bacteria are washed in ice-cold CaCl₂ solution. The calcium ions partially disrupt the cell membrane and create a state where DNA can adsorb to the surface. Heat shock (42°C for 90 seconds) drives the DNA into the cell.",
+       "ta": "**வேதி முறை (CaCl₂):** பாக்டீரியா பனிக்குளிர் CaCl₂ கரைசலில் கழுவப்படுகின்றன. கால்சியம் அயனிகள் செல் சவ்வைப் பகுதியளவு தளர்த்தி, DNA மேற்பரப்பில் ஒட்டும் நிலையை உருவாக்குகின்றன. வெப்ப அதிர்ச்சி (42°C, 90 விநாடிகள்) DNA-வை செல்லுக்குள் செலுத்துகிறது.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Electroporation:** A high-voltage pulse (1,500–2,500 V/cm) creates transient pores in the membrane. More efficient, used for difficult-to-transform bacteria."
+       "en": "**Electroporation:** A high-voltage pulse (1,500–2,500 V/cm) creates transient pores in the membrane. More efficient, used for difficult-to-transform bacteria.",
+       "ta": "**மின்துளைப்பு:** உயர்மின்னழுத்தத் துடிப்பு (1,500–2,500 V/cm) சவ்வில் தற்காலிகத் துளைகளை உருவாக்குகிறது. அதிகத் திறன்; தகவல் பரிமாற்றம் கடினமான பாக்டீரியாவுக்குப் பயன்படும்.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**🔵 Why Is Alkaline Phosphatase Treatment of the Vector Useful?**"
+      "en": "**🔵 Why Is Alkaline Phosphatase Treatment of the Vector Useful?**",
+      "ta": "**🔵 தாங்கிக்கடத்திக்கு அல்கலைன் பாஸ்படேஸ் சிகிச்சை ஏன் பயனுள்ளது?**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Clone Selection"
+      "en": "Clone Selection",
+      "ta": "குளோன் தெரிவு",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "When a vector is linearised by a restriction enzyme, the two ends have 5'-phosphate groups. These can re-ligate (vector re-circularises without insert), increasing the background of non-recombinant colonies."
+      "en": "When a vector is linearised by a restriction enzyme, the two ends have 5'-phosphate groups. These can re-ligate (vector re-circularises without insert), increasing the background of non-recombinant colonies.",
+      "ta": "ரெஸ்ட்ரிக்ஷன் நொதியால் தாங்கிக்கடத்தி நேர்கோட்டாக்கப்படும்போது இரு முனைகளிலும் 5'-பாஸ்பேட் தொகுதிகள் உள்ளன. இவை மீண்டும் இணையலாம் (செருகியின்றித் தாங்கிக்கடத்தி வட்டமாதல்); இதனால் மறுகூட்டிணைவற்ற குழுமங்களின் பின்னணி அதிகரிக்கும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Alkaline phosphatase** (CIAP or SAP) removes the 5'-phosphate groups from the linearised vector. Without phosphates, the vector ends cannot self-ligate — only when insert DNA (which retains its 5'-phosphates) is added can ligation occur. This greatly reduces background and increases recombinant efficiency."
+      "en": "**Alkaline phosphatase** (CIAP or SAP) removes the 5'-phosphate groups from the linearised vector. Without phosphates, the vector ends cannot self-ligate — only when insert DNA (which retains its 5'-phosphates) is added can ligation occur. This greatly reduces background and increases recombinant efficiency.",
+      "ta": "**அல்கலைன் பாஸ்படேஸ்** (CIAP அல்லது SAP) நேர்கோட்டுத் தாங்கிக்கடத்தியிலிருந்து 5'-பாஸ்பேட் தொகுதிகளை நீக்குகிறது. பாஸ்பேட் இல்லாததால் தாங்கிக்கடத்தி முனைகள் தானே இணைய இயலாது — 5'-பாஸ்பேட்களைத் தக்கவைத்த செருகி DNA சேர்க்கப்படும்போது மட்டுமே லைகேஷன் நடைபெறும். இது பின்னணியை வெகுவாகக் குறைத்து மறுகூட்டிணைவுத் திறனை உயர்த்துகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**⭐ Steps in Order — Exam Sequence Check**"
+      "en": "**⭐ Steps in Order — Exam Sequence Check**",
+      "ta": "**⭐ படிகள் வரிசையில் — தேர்வு வரிசைச் சரிபார்ப்பு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Exam Prep"
+      "en": "Exam Prep",
+      "ta": "தேர்வுக்குத் தயாராக",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "The correct sequence for gene cloning (must memorise!):"
+      "en": "The correct sequence for gene cloning (must memorise!):",
+      "ta": "மரபணு குளோனாக்கத்தின் சரியான வரிசை (கட்டாயம் மனப்பாடம் செய்க!):",
+      "ta_status": "draft"
      }
     },
     {
@@ -1143,110 +1513,162 @@
      "ordered": true,
      "items": [
       {
-       "en": "Isolate gene of interest (restriction digestion / PCR / cDNA)"
+       "en": "Isolate gene of interest (restriction digestion / PCR / cDNA)",
+       "ta": "ஆர்வ மரபணுவைத் தனிமைப்படுத்து (ரெஸ்ட்ரிக்ஷன் செரித்தல் / PCR / cDNA)",
+       "ta_status": "draft"
       },
       {
-       "en": "Cut both insert and vector with same restriction enzyme → compatible sticky ends"
+       "en": "Cut both insert and vector with same restriction enzyme → compatible sticky ends",
+       "ta": "செருகி, தாங்கிக்கடத்தி இரண்டையும் ஒரே ரெஸ்ட்ரிக்ஷன் நொதியால் வெட்டு → இணக்கமான ஒட்டும் முனைகள்",
+       "ta_status": "draft"
       },
       {
-       "en": "Prepare vector (linearise; optionally dephosphorylate with alkaline phosphatase)"
+       "en": "Prepare vector (linearise; optionally dephosphorylate with alkaline phosphatase)",
+       "ta": "தாங்கிக்கடத்தியைத் தயார்செய் (நேர்கோட்டாக்கு; விரும்பினால் அல்கலைன் பாஸ்படேசால் பாஸ்பேட் நீக்கு)",
+       "ta_status": "draft"
       },
       {
-       "en": "Ligate insert + vector using T4 DNA ligase → recombinant DNA"
+       "en": "Ligate insert + vector using T4 DNA ligase → recombinant DNA",
+       "ta": "T4 DNA லைகேசால் செருகி + தாங்கிக்கடத்தியை இணை → மறுகூட்டிணைவு DNA",
+       "ta_status": "draft"
       },
       {
-       "en": "Transform recombinant DNA into competent E. coli (heat shock or electroporation)"
+       "en": "Transform recombinant DNA into competent E. coli (heat shock or electroporation)",
+       "ta": "மறுகூட்டிணைவு DNA-வைத் தகுதி பெற்ற E. coli-க்குள் செலுத்து (வெப்ப அதிர்ச்சி அல்லது மின்துளைப்பு)",
+       "ta_status": "draft"
       },
       {
-       "en": "Plate on selective medium (ampicillin) → only transformed cells grow"
+       "en": "Plate on selective medium (ampicillin) → only transformed cells grow",
+       "ta": "தெரிவு ஊடகத்தில் (ஆம்பிசிலின்) வளர்க்கவும் → மாற்றப்பட்ட செல்கள் மட்டுமே வளரும்",
+       "ta_status": "draft"
       },
       {
-       "en": "Screen for recombinants (blue-white / insertional inactivation)"
+       "en": "Screen for recombinants (blue-white / insertional inactivation)",
+       "ta": "மறுகூட்டிணைவுகளைச் சலி (நீலம்-வெள்ளை / உட்செருகுதல் செயலிழப்பு)",
+       "ta_status": "draft"
       },
       {
-       "en": "Confirm correct clone (restriction mapping / PCR / sequencing)"
+       "en": "Confirm correct clone (restriction mapping / PCR / sequencing)",
+       "ta": "சரியான குளோனை உறுதிசெய் (ரெஸ்ட்ரிக்ஷன் வரைபடமாக்கல் / PCR / வரிசைப்படுத்தல்)",
+       "ta_status": "draft"
       },
       {
-       "en": "Amplify and use (large-scale growth, protein expression, etc.)"
+       "en": "Amplify and use (large-scale growth, protein expression, etc.)",
+       "ta": "பெருக்கிப் பயன்படுத்து (பெரிய அளவு வளர்ப்பு, புரத வெளிப்பாடு போன்றவை)",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**Click-to-Reveal Key Concepts**"
+      "en": "**Click-to-Reveal Key Concepts**",
+      "ta": "**தொட்டு வெளிப்படுத்தும் முக்கியக் கருத்துகள்**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "reveal",
      "question": {
-      "en": "Sticky Ends"
+      "en": "Sticky Ends",
+      "ta": "ஒட்டும் முனைகள்",
+      "ta_status": "draft"
      },
      "answer": {
-      "en": "Short single-stranded overhangs produced by staggered restriction enzyme cuts (e.g., EcoRI produces 5'-AATT overhangs). Complementary sticky ends on insert and vector can anneal by hydrogen bonding, facilitating efficient ligation."
+      "en": "Short single-stranded overhangs produced by staggered restriction enzyme cuts (e.g., EcoRI produces 5'-AATT overhangs). Complementary sticky ends on insert and vector can anneal by hydrogen bonding, facilitating efficient ligation.",
+      "ta": "ஒழுங்கற்ற வெட்டுகளைச் செய்யும் ரெஸ்ட்ரிக்ஷன் நொதிகள் உருவாக்கும் குறுகிய ஒற்றை இழை நீட்டிப்புகள் (எ.கா. EcoRI 5'-AATT நீட்டிப்புகளை உருவாக்கும்). செருகியிலும் தாங்கிக்கடத்தியிலும் உள்ள நிரப்பு ஒட்டும் முனைகள் ஹைட்ரஜன் பிணைப்பால் இணைந்து திறமையான லைகேஷனுக்கு உதவும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "reveal",
      "question": {
-      "en": "lacZ Gene"
+      "en": "lacZ Gene",
+      "ta": "lacZ மரபணு",
+      "ta_status": "draft"
      },
      "answer": {
-      "en": "Encodes β-galactosidase in E. coli. In pUC vectors, the MCS is within lacZ. An insert disrupts lacZ → no functional β-galactosidase → X-gal not cleaved → white colony. Used in blue-white screening."
+      "en": "Encodes β-galactosidase in E. coli. In pUC vectors, the MCS is within lacZ. An insert disrupts lacZ → no functional β-galactosidase → X-gal not cleaved → white colony. Used in blue-white screening.",
+      "ta": "E. coli-இல் β-கேலக்டோசிடேஸைக் குறியீடு செய்கிறது. pUC தாங்கிக்கடத்திகளில் MCS, lacZ-க்குள் உள்ளது. செருகி lacZ-ஐச் சிதைக்கும் → செயல்படும் β-கேலக்டோசிடேஸ் இல்லை → X-gal பிளக்கப்படாது → வெள்ளைக் குழுமம். நீலம்-வெள்ளை சலிக்கையில் பயன்படும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "reveal",
      "question": {
-      "en": "X-gal"
+      "en": "X-gal",
+      "ta": "X-gal",
+      "ta_status": "draft"
      },
      "answer": {
-      "en": "5-Bromo-4-chloro-3-indolyl-β-D-galactopyranoside. A colourless substrate that β-galactosidase cleaves into a blue compound (5-bromo-4-chloro-indigo). Used with IPTG (inducer) in blue-white screening plates."
+      "en": "5-Bromo-4-chloro-3-indolyl-β-D-galactopyranoside. A colourless substrate that β-galactosidase cleaves into a blue compound (5-bromo-4-chloro-indigo). Used with IPTG (inducer) in blue-white screening plates.",
+      "ta": "5-புரோமோ-4-குளோரோ-3-இண்டோலைல்-β-D-கேலக்டோபைரனோசைடு. β-கேலக்டோசிடேஸ் நீலச் சேர்மமாகப் (5-புரோமோ-4-குளோரோ-இண்டிகோ) பிளக்கும் நிறமற்ற அடிக்கூறு. நீலம்-வெள்ளை சலிக்கைத் தட்டுகளில் IPTG (தூண்டி) உடன் பயன்படும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "reveal",
      "question": {
-      "en": "IPTG"
+      "en": "IPTG",
+      "ta": "IPTG",
+      "ta_status": "draft"
      },
      "answer": {
-      "en": "Isopropyl β-D-1-thiogalactopyranoside — a synthetic inducer of the lac operon. Induces expression of lacZ gene in bacterial cells on blue-white screening plates, allowing β-galactosidase to be produced."
+      "en": "Isopropyl β-D-1-thiogalactopyranoside — a synthetic inducer of the lac operon. Induces expression of lacZ gene in bacterial cells on blue-white screening plates, allowing β-galactosidase to be produced.",
+      "ta": "ஐசோபுரோபைல் β-D-தியோகேலக்டோபைரனோசைடு — lac ஓபரானின் செயற்கைத் தூண்டி. நீலம்-வெள்ளை சலிக்கைத் தட்டுகளில் பாக்டீரிய செல்களில் lacZ மரபணு வெளிப்பாட்டைத் தூண்டி, β-கேலக்டோசிடேஸ் உருவாக உதவுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "reveal",
      "question": {
-      "en": "Insertional Inactivation"
+      "en": "Insertional Inactivation",
+      "ta": "உட்செருகுதல் செயலிழப்பு",
+      "ta_status": "draft"
      },
      "answer": {
-      "en": "A screening method where inserting DNA into a restriction site within a marker gene (e.g., tet^r in pBR322) disrupts that gene's function. Recombinant: amp^r, tet^s. Non-recombinant: amp^r, tet^r. Identified by replica plating."
+      "en": "A screening method where inserting DNA into a restriction site within a marker gene (e.g., tet^r in pBR322) disrupts that gene's function. Recombinant: amp^r, tet^s. Non-recombinant: amp^r, tet^r. Identified by replica plating.",
+      "ta": "அடையாளக்குறி மரபணுவுக்குள் (எ.கா. pBR322-இல் tet^r) உள்ள ரெஸ்ட்ரிக்ஷன் இடத்தில் DNA-வைச் செருகி, அம்மரபணுவின் செயலைச் சிதைக்கும் சலிக்கை முறை. மறுகூட்டிணைவு: amp^r, tet^s. மறுகூட்டிணைவற்றது: amp^r, tet^r. ரெப்ளிகா பிளேட்டிங்கால் அடையாளம் காணப்படும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "reveal",
      "question": {
-      "en": "Colony Hybridisation"
+      "en": "Colony Hybridisation",
+      "ta": "குழும கலப்பினமாக்கல்",
+      "ta_status": "draft"
      },
      "answer": {
-      "en": "A screening method where bacterial colonies are transferred to a nylon membrane, lysed, DNA denatured and fixed. A labelled probe (complementary to gene of interest) hybridises to positive clones, detected by autoradiography or fluorescence."
+      "en": "A screening method where bacterial colonies are transferred to a nylon membrane, lysed, DNA denatured and fixed. A labelled probe (complementary to gene of interest) hybridises to positive clones, detected by autoradiography or fluorescence.",
+      "ta": "பாக்டீரியக் குழுமங்கள் நைலான் சவ்வுக்கு மாற்றப்பட்டுச் சிதைக்கப்பட்டு, DNA இயல்பிழக்கச் செய்யப்பட்டுப் பொருத்தப்படும் சலிக்கை முறை. ஆர்வ மரபணுவுக்கு நிரப்பான குறியிடப்பட்ட துருவி நேர்மறைக் குளோன்களுடன் கலப்பினமாகி, தன்படமெடுத்தல் அல்லது ஒளிர்வால் கண்டறியப்படுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "reveal",
      "question": {
-      "en": "Recombinant DNA"
+      "en": "Recombinant DNA",
+      "ta": "மறுகூட்டிணைவு DNA",
+      "ta_status": "draft"
      },
      "answer": {
-      "en": "A hybrid DNA molecule formed by joining DNA sequences from two different sources — typically a gene of interest (insert) ligated into a vector. The product of the ligation step in gene cloning."
+      "en": "A hybrid DNA molecule formed by joining DNA sequences from two different sources — typically a gene of interest (insert) ligated into a vector. The product of the ligation step in gene cloning.",
+      "ta": "இரு வெவ்வேறு மூலங்களின் DNA வரிசைகளை இணைத்து உருவாக்கிய கலப்பின DNA மூலக்கூறு — பொதுவாகத் தாங்கிக்கடத்தியில் லைகேட் செய்த ஆர்வ மரபணு (செருகி). மரபணு குளோனாக்கத்தில் லைகேஷன் படியின் விளைபொருள்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "reveal",
      "question": {
-      "en": "Replica Plating"
+      "en": "Replica Plating",
+      "ta": "ரெப்ளிகா பிளேட்டிங்",
+      "ta_status": "draft"
      },
      "answer": {
-      "en": "A technique where an exact copy of colonies from one agar plate is transferred to a second plate with different selective medium (e.g., from ampicillin to tetracycline). Used in insertional inactivation to identify recombinant clones that grow on amp but not on tet."
+      "en": "A technique where an exact copy of colonies from one agar plate is transferred to a second plate with different selective medium (e.g., from ampicillin to tetracycline). Used in insertional inactivation to identify recombinant clones that grow on amp but not on tet.",
+      "ta": "ஒரு அகார் தட்டிலுள்ள குழுமங்களின் துல்லியமான நகலை வேறுபட்ட தெரிவு ஊடகமுள்ள இரண்டாம் தட்டுக்கு (எ.கா. ஆம்பிசிலினிலிருந்து டெட்ராசைக்ளினுக்கு) மாற்றும் நுட்பம். உட்செருகுதல் செயலிழப்பில், amp-இல் வளர்ந்து tet-இல் வளராத மறுகூட்டிணைவு குளோன்களை அடையாளம் காணப் பயன்படுகிறது.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -1256,79 +1678,105 @@
   {
    "id": "s11",
    "title": {
-    "en": "Summary — Key Exam Points"
+    "en": "Summary — Key Exam Points",
+    "ta": "சுருக்கம் — தேர்வுக்கான முக்கியக் குறிப்புகள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "**Gene Cloning**Process of making identical copies of a specific gene by inserting it into a vector, introducing into a host cell, and allowing replication. Core of recombinant DNA technology."
+      "en": "**Gene Cloning**Process of making identical copies of a specific gene by inserting it into a vector, introducing into a host cell, and allowing replication. Core of recombinant DNA technology.",
+      "ta": "**மரபணு குளோனாக்கம்**குறிப்பிட்ட மரபணுவைத் தாங்கிக்கடத்தியில் செருகி, ஓம்புயிரி செல்லுக்குள் செலுத்திப் பெருகவிட்டு ஒத்த நகல்களை உருவாக்கும் செயல்முறை. மறுகூட்டிணைவு DNA தொழில்நுட்பத்தின் மையம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**5 Requirements**Source DNA + Vector + Restriction enzyme + DNA ligase + Host cell (E. coli). Together they enable the entire cloning process."
+      "en": "**5 Requirements**Source DNA + Vector + Restriction enzyme + DNA ligase + Host cell (E. coli). Together they enable the entire cloning process.",
+      "ta": "**5 தேவைகள்**மூல DNA + தாங்கிக்கடத்தி + ரெஸ்ட்ரிக்ஷன் நொதி + DNA லைகேஸ் + ஓம்புயிரி செல் (E. coli). இவை ஒன்றிணைந்து முழுக் குளோனாக்கச் செயல்முறையைச் சாத்தியமாக்குகின்றன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Restriction Enzymes**Must use the same enzyme on insert and vector to produce compatible sticky ends. Common examples: EcoRI (GAATTC), BamHI (GGATCC), HindIII (AAGCTT)."
+      "en": "**Restriction Enzymes**Must use the same enzyme on insert and vector to produce compatible sticky ends. Common examples: EcoRI (GAATTC), BamHI (GGATCC), HindIII (AAGCTT).",
+      "ta": "**ரெஸ்ட்ரிக்ஷன் நொதிகள்**செருகி, தாங்கிக்கடத்தி இரண்டிலும் ஒரே நொதியைப் பயன்படுத்தி இணக்கமான ஒட்டும் முனைகளை உருவாக்க வேண்டும். பொது எடுத்துக்காட்டுகள்: EcoRI (GAATTC), BamHI (GGATCC), HindIII (AAGCTT).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**DNA Ligase (T4)**Seals phosphodiester bonds between 3'-OH and 5'-phosphate ends. Joins insert into vector. Requires ATP and Mg²⁺. Usually incubated at 16°C overnight."
+      "en": "**DNA Ligase (T4)**Seals phosphodiester bonds between 3'-OH and 5'-phosphate ends. Joins insert into vector. Requires ATP and Mg²⁺. Usually incubated at 16°C overnight.",
+      "ta": "**DNA லைகேஸ் (T4)**3'-OH, 5'-பாஸ்பேட் முனைகளுக்கிடையே பாஸ்போடைஎஸ்டர் பிணைப்புகளை அடைக்கும். செருகியைத் தாங்கிக்கடத்தியுடன் இணைக்கும். ATP, Mg²⁺ தேவை. வழக்கமாக 16°C-இல் இரவு முழுவதும் அடைகாக்கப்படும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Transformation**Introduction of recombinant DNA into E. coli. Methods: CaCl₂/heat shock (42°C) or electroporation. Only ~1 in 10³–10⁵ cells is transformed."
+      "en": "**Transformation**Introduction of recombinant DNA into E. coli. Methods: CaCl₂/heat shock (42°C) or electroporation. Only ~1 in 10³–10⁵ cells is transformed.",
+      "ta": "**தகவல் பரிமாற்றம்**மறுகூட்டிணைவு DNA-வை E. coli-க்குள் செலுத்துதல். முறைகள்: CaCl₂/வெப்ப அதிர்ச்சி (42°C) அல்லது மின்துளைப்பு. ~10³–10⁵ செல்களில் 1 மட்டுமே மாற்றப்படுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Antibiotic Selection**Cells plated on medium with ampicillin. Only cells carrying the vector (amp^r) survive. This selects for transformed cells (but not specifically recombinants)."
+      "en": "**Antibiotic Selection**Cells plated on medium with ampicillin. Only cells carrying the vector (amp^r) survive. This selects for transformed cells (but not specifically recombinants).",
+      "ta": "**ஆன்டிபயாடிக் தெரிவு**செல்கள் ஆம்பிசிலின் ஊடகத்தில் வளர்க்கப்படுகின்றன. தாங்கிக்கடத்தியைச் (amp^r) சுமக்கும் செல்கள் மட்டுமே உயிர்பிழைக்கும். இது மாற்றப்பட்ட செல்களைத் தெரிவுசெய்கிறது (குறிப்பாக மறுகூட்டிணைவுகளை அல்ல).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Blue-White Screening**Blue colonies = non-recombinant (lacZ intact, β-gal active, cleaves X-gal → blue). White colonies = recombinant (insert disrupts lacZ, no β-gal, no colour). Pick WHITE colonies!"
+      "en": "**Blue-White Screening**Blue colonies = non-recombinant (lacZ intact, β-gal active, cleaves X-gal → blue). White colonies = recombinant (insert disrupts lacZ, no β-gal, no colour). Pick WHITE colonies!",
+      "ta": "**நீலம்-வெள்ளை சலிக்கை**நீலக் குழுமங்கள் = மறுகூட்டிணைவற்றவை (lacZ அப்படியே, β-gal செயல்படும், X-gal பிளக்கும் → நீலம்). வெள்ளைக் குழுமங்கள் = மறுகூட்டிணைவு (செருகி lacZ-ஐச் சிதைக்கும், β-gal இல்லை, நிறமில்லை). வெள்ளைக் குழுமங்களைத் தெரிவுசெய்க!",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Insertional Inactivation**In pBR322: insert into BamHI/SalI site disrupts tet^r. Recombinants = amp^r, tet^s. Non-recombinants = amp^r, tet^r. Confirmed by replica plating."
+      "en": "**Insertional Inactivation**In pBR322: insert into BamHI/SalI site disrupts tet^r. Recombinants = amp^r, tet^s. Non-recombinants = amp^r, tet^r. Confirmed by replica plating.",
+      "ta": "**உட்செருகுதல் செயலிழப்பு**pBR322-இல்: BamHI/SalI இடத்தில் செருகல் tet^r-ஐச் சிதைக்கும். மறுகூட்டிணைவுகள் = amp^r, tet^s. மறுகூட்டிணைவற்றவை = amp^r, tet^r. ரெப்ளிகா பிளேட்டிங்கால் உறுதிசெய்யப்படும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Alkaline Phosphatase**Removes 5'-phosphates from linearised vector to prevent self-ligation. Dramatically reduces background of non-recombinant colonies."
+      "en": "**Alkaline Phosphatase**Removes 5'-phosphates from linearised vector to prevent self-ligation. Dramatically reduces background of non-recombinant colonies.",
+      "ta": "**அல்கலைன் பாஸ்படேஸ்**நேர்கோட்டுத் தாங்கிக்கடத்தியிலிருந்து 5'-பாஸ்பேட்களை நீக்கித் தானே இணைவதைத் தடுக்கும். மறுகூட்டிணைவற்ற குழுமங்களின் பின்னணியை வெகுவாகக் குறைக்கும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Correct Cloning Sequence**Isolate gene → Restriction digest → Ligate → Transform → Select on antibiotic → Screen (blue/white or insertional inactivation) → Confirm → Amplify."
+      "en": "**Correct Cloning Sequence**Isolate gene → Restriction digest → Ligate → Transform → Select on antibiotic → Screen (blue/white or insertional inactivation) → Confirm → Amplify.",
+      "ta": "**சரியான குளோனாக்க வரிசை**மரபணுவைத் தனிமைப்படுத்து → ரெஸ்ட்ரிக்ஷன் செரித்தல் → லைகேட் செய் → தகவல் பரிமாற்றம் → ஆன்டிபயாடிக்கில் தெரிவு → சலிக்கை (நீலம்/வெள்ளை அல்லது உட்செருகுதல் செயலிழப்பு) → உறுதிசெய் → பெருக்கு.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Colony Hybridisation**Probe-based screening to identify clone with specific gene. Colonies transferred to membrane → lysed → probed with labelled DNA → positive clones detected by autoradiography."
+      "en": "**Colony Hybridisation**Probe-based screening to identify clone with specific gene. Colonies transferred to membrane → lysed → probed with labelled DNA → positive clones detected by autoradiography.",
+      "ta": "**குழும கலப்பினமாக்கல்**குறிப்பிட்ட மரபணுவுள்ள குளோனை அடையாளம் காணும் துருவி அடிப்படைச் சலிக்கை. குழுமங்கள் சவ்வுக்கு மாற்றம் → சிதைவு → குறியிடப்பட்ட DNA-வால் துருவியிடல் → நேர்மறைக் குளோன்கள் தன்படமெடுத்தலால் கண்டறியப்படும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**pUC19 vs pBR322**pUC19: uses lacZ/blue-white screening; MCS within lacZ. pBR322: uses insertional inactivation; two resistance genes (amp^r + tet^r); insert disrupts tet^r."
+      "en": "**pUC19 vs pBR322**pUC19: uses lacZ/blue-white screening; MCS within lacZ. pBR322: uses insertional inactivation; two resistance genes (amp^r + tet^r); insert disrupts tet^r.",
+      "ta": "**pUC19 – pBR322**pUC19: lacZ/நீலம்-வெள்ளை சலிக்கை; MCS, lacZ-க்குள். pBR322: உட்செருகுதல் செயலிழப்பு; இரு எதிர்ப்பு மரபணுக்கள் (amp^r + tet^r); செருகி tet^r-ஐச் சிதைக்கும்.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -1338,115 +1786,165 @@
   {
    "id": "s12",
    "title": {
-    "en": "Glossary"
+    "en": "Glossary",
+    "ta": "சொற்களஞ்சியம்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "glossary",
      "term": {
-      "en": "Gene Cloning"
+      "en": "Gene Cloning",
+      "ta": "மரபணு குளோனாக்கம்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "The process of making multiple identical copies of a specific gene by inserting it into a vector, introducing the recombinant vector into a host cell, and propagating the host through cell division."
+      "en": "The process of making multiple identical copies of a specific gene by inserting it into a vector, introducing the recombinant vector into a host cell, and propagating the host through cell division.",
+      "ta": "குறிப்பிட்ட மரபணுவைத் தாங்கிக்கடத்தியில் செருகி, மறுகூட்டிணைவுத் தாங்கிக்கடத்தியை ஓம்புயிரி செல்லுக்குள் செலுத்தி, ஓம்புயிரியை செல் பகுப்பால் பெருக்கி ஒத்த நகல்களை உருவாக்கும் செயல்முறை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Vector"
+      "en": "Vector",
+      "ta": "தாங்கிக்கடத்தி",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "A DNA molecule (plasmid, phage, cosmid) used to carry a foreign gene into a host cell. Must have an origin of replication, selectable marker, and restriction sites. Acts as the \"vehicle\" for gene delivery."
+      "en": "A DNA molecule (plasmid, phage, cosmid) used to carry a foreign gene into a host cell. Must have an origin of replication, selectable marker, and restriction sites. Acts as the \"vehicle\" for gene delivery.",
+      "ta": "அந்நிய மரபணுவை ஓம்புயிரி செல்லுக்குள் கொண்டு செல்லப் பயன்படும் DNA மூலக்கூறு (பிளாஸ்மிட், ஃபேஜ், காஸ்மிட்). பெருக்கமடைதலின் தோற்றம், தேர்ந்தெடுக்கும் அடையாளக்குறி, ரெஸ்ட்ரிக்ஷன் இடங்கள் இருக்க வேண்டும். மரபணுக் கடத்தலுக்கான “வாகனமாகச்” செயல்படுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Ligation"
+      "en": "Ligation",
+      "ta": "லைகேஷன்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "The covalent joining of two DNA molecules by DNA ligase. Forms phosphodiester bonds between the 3'-OH and 5'-phosphate termini of compatible DNA ends. Creates the recombinant DNA molecule in gene cloning."
+      "en": "The covalent joining of two DNA molecules by DNA ligase. Forms phosphodiester bonds between the 3'-OH and 5'-phosphate termini of compatible DNA ends. Creates the recombinant DNA molecule in gene cloning.",
+      "ta": "DNA லைகேசால் இரு DNA மூலக்கூறுகளைக் கோவலன்ட் முறையில் இணைத்தல். இணக்கமான DNA முனைகளின் 3'-OH, 5'-பாஸ்பேட் முனைகளுக்கிடையே பாஸ்போடைஎஸ்டர் பிணைப்புகளை உருவாக்கும். மரபணு குளோனாக்கத்தில் மறுகூட்டிணைவு DNA மூலக்கூறை உருவாக்குகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Transformation"
+      "en": "Transformation",
+      "ta": "தகவல் பரிமாற்றம்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "The uptake of foreign DNA by a bacterial cell. In gene cloning, competent E. coli cells take up recombinant vectors by heat shock (CaCl₂ method) or electroporation."
+      "en": "The uptake of foreign DNA by a bacterial cell. In gene cloning, competent E. coli cells take up recombinant vectors by heat shock (CaCl₂ method) or electroporation.",
+      "ta": "பாக்டீரிய செல் அந்நிய DNA-வை உள்ளெடுத்தல். மரபணு குளோனாக்கத்தில் தகுதி பெற்ற E. coli செல்கள் வெப்ப அதிர்ச்சி (CaCl₂ முறை) அல்லது மின்துளைப்பால் மறுகூட்டிணைவுத் தாங்கிக்கடத்திகளை உள்ளெடுக்கின்றன.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Recombinant DNA"
+      "en": "Recombinant DNA",
+      "ta": "மறுகூட்டிணைவு DNA",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "A hybrid DNA molecule formed by joining DNA sequences from two different sources — specifically the gene of interest (insert) ligated into a cloning vector. The central product of the cloning process."
+      "en": "A hybrid DNA molecule formed by joining DNA sequences from two different sources — specifically the gene of interest (insert) ligated into a cloning vector. The central product of the cloning process.",
+      "ta": "இரு வெவ்வேறு மூலங்களின் DNA வரிசைகளை இணைத்து உருவாக்கிய கலப்பின DNA மூலக்கூறு — குறிப்பாகக் குளோனாக்கத் தாங்கிக்கடத்தியில் லைகேட் செய்த ஆர்வ மரபணு (செருகி). குளோனாக்கச் செயல்முறையின் மைய விளைபொருள்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Selection Marker"
+      "en": "Selection Marker",
+      "ta": "தெரிவு அடையாளக்குறி",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "A gene on the vector (usually an antibiotic resistance gene) used to identify and select transformed host cells. Only cells carrying the vector survive on medium with the corresponding antibiotic."
+      "en": "A gene on the vector (usually an antibiotic resistance gene) used to identify and select transformed host cells. Only cells carrying the vector survive on medium with the corresponding antibiotic.",
+      "ta": "மாற்றப்பட்ட ஓம்புயிரி செல்களை அடையாளம் கண்டு தெரிவுசெய்யப் பயன்படும், தாங்கிக்கடத்தியிலுள்ள மரபணு (பொதுவாக ஆன்டிபயாடிக் எதிர்ப்பு மரபணு). தாங்கிக்கடத்தியைச் சுமக்கும் செல்கள் மட்டுமே தொடர்புடைய ஆன்டிபயாடிக் ஊடகத்தில் உயிர்பிழைக்கும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Blue-White Screening"
+      "en": "Blue-White Screening",
+      "ta": "நீலம்-வெள்ளை சலிக்கை",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "A method to distinguish recombinant from non-recombinant clones. White colonies carry an insert (lacZ disrupted, no β-gal, X-gal not cleaved). Blue colonies have no insert (lacZ intact, β-gal cleaves X-gal → blue colour)."
+      "en": "A method to distinguish recombinant from non-recombinant clones. White colonies carry an insert (lacZ disrupted, no β-gal, X-gal not cleaved). Blue colonies have no insert (lacZ intact, β-gal cleaves X-gal → blue colour).",
+      "ta": "மறுகூட்டிணைவு, மறுகூட்டிணைவற்ற குளோன்களை வேறுபடுத்தும் முறை. வெள்ளைக் குழுமங்கள் செருகியைக் கொண்டவை (lacZ சிதைந்தது, β-gal இல்லை, X-gal பிளக்கப்படாது). நீலக் குழுமங்களில் செருகி இல்லை (lacZ அப்படியே, β-gal X-gal-ஐப் பிளந்து → நீல நிறம்).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Insertional Inactivation"
+      "en": "Insertional Inactivation",
+      "ta": "உட்செருகுதல் செயலிழப்பு",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Disruption of a marker gene (e.g., tet^r) by inserting foreign DNA into a restriction site within it. Cells with the insert lose function of that marker. Used to distinguish recombinant from non-recombinant clones."
+      "en": "Disruption of a marker gene (e.g., tet^r) by inserting foreign DNA into a restriction site within it. Cells with the insert lose function of that marker. Used to distinguish recombinant from non-recombinant clones.",
+      "ta": "அடையாளக்குறி மரபணுவுக்குள் (எ.கா. tet^r) உள்ள ரெஸ்ட்ரிக்ஷன் இடத்தில் அந்நிய DNA-வைச் செருகி அதைச் சிதைத்தல். செருகி உள்ள செல்கள் அவ்வடையாளக்குறியின் செயலை இழக்கின்றன. மறுகூட்டிணைவு, மறுகூட்டிணைவற்ற குளோன்களை வேறுபடுத்தப் பயன்படும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Competent Cell"
+      "en": "Competent Cell",
+      "ta": "தகுதி பெற்ற செல்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "A bacterial cell that has been chemically (CaCl₂) or physically (electroporation) treated to become capable of taking up exogenous DNA from its environment during transformation."
+      "en": "A bacterial cell that has been chemically (CaCl₂) or physically (electroporation) treated to become capable of taking up exogenous DNA from its environment during transformation.",
+      "ta": "தகவல் பரிமாற்றத்தின்போது சூழலிலுள்ள புறவழி DNA-வை உள்ளெடுக்கும் திறன் பெறுமாறு வேதியியல் ரீதியாக (CaCl₂) அல்லது இயற்பியல் ரீதியாக (மின்துளைப்பு) சிகிச்சையளிக்கப்பட்ட பாக்டீரிய செல்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Sticky Ends"
+      "en": "Sticky Ends",
+      "ta": "ஒட்டும் முனைகள்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Short single-stranded complementary overhangs produced by staggered restriction enzyme cuts. Compatible sticky ends on the insert and vector anneal by hydrogen bonding, facilitating efficient ligation."
+      "en": "Short single-stranded complementary overhangs produced by staggered restriction enzyme cuts. Compatible sticky ends on the insert and vector anneal by hydrogen bonding, facilitating efficient ligation.",
+      "ta": "ஒழுங்கற்ற வெட்டுகளைச் செய்யும் ரெஸ்ட்ரிக்ஷன் நொதிகள் உருவாக்கும் குறுகிய, நிரப்பான ஒற்றை இழை நீட்டிப்புகள். செருகியிலும் தாங்கிக்கடத்தியிலும் உள்ள இணக்கமான ஒட்டும் முனைகள் ஹைட்ரஜன் பிணைப்பால் இணைந்து திறமையான லைகேஷனுக்கு உதவும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "X-gal"
+      "en": "X-gal",
+      "ta": "X-gal",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "5-Bromo-4-chloro-3-indolyl-β-D-galactopyranoside — a synthetic colourless substrate for β-galactosidase. When cleaved by β-gal, it produces a blue compound. Used in blue-white screening with IPTG inducer."
+      "en": "5-Bromo-4-chloro-3-indolyl-β-D-galactopyranoside — a synthetic colourless substrate for β-galactosidase. When cleaved by β-gal, it produces a blue compound. Used in blue-white screening with IPTG inducer.",
+      "ta": "5-புரோமோ-4-குளோரோ-3-இண்டோலைல்-β-D-கேலக்டோபைரனோசைடு — β-கேலக்டோசிடேசின் செயற்கை, நிறமற்ற அடிக்கூறு. β-gal பிளக்கும்போது நீலச் சேர்மம் உருவாகிறது. நீலம்-வெள்ளை சலிக்கையில் IPTG தூண்டியுடன் பயன்படும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Colony Hybridisation"
+      "en": "Colony Hybridisation",
+      "ta": "குழும கலப்பினமாக்கல்",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "A probe-based screening method. Bacterial colonies are lysed on a nylon membrane, DNA denatured, and a labelled probe applied. Hybridisation reveals which colony contains the target gene."
+      "en": "A probe-based screening method. Bacterial colonies are lysed on a nylon membrane, DNA denatured, and a labelled probe applied. Hybridisation reveals which colony contains the target gene.",
+      "ta": "துருவி அடிப்படைச் சலிக்கை முறை. பாக்டீரியக் குழுமங்கள் நைலான் சவ்வில் சிதைக்கப்பட்டு, DNA இயல்பிழக்கச் செய்யப்பட்டு, குறியிடப்பட்ட துருவி செலுத்தப்படுகிறது. கலப்பினமாக்கல் எக்குழுமத்தில் இலக்கு மரபணு உள்ளது என்பதைக் காட்டும்.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -1456,25 +1954,33 @@
   {
    "id": "s13",
    "title": {
-    "en": "Frequently Asked University Exam Questions"
+    "en": "Frequently Asked University Exam Questions",
+    "ta": "பல்கலைக்கழகத் தேர்வுகளில் அடிக்கடி கேட்கப்படும் வினாக்கள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Click each question to expand answer hints."
+      "en": "Click each question to expand answer hints.",
+      "ta": "ஒவ்வொரு வினாவையும் தொட்டு விடைக் குறிப்புகளை விரிவாக்குக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**1. Define gene cloning. Describe the step-by-step procedure of gene cloning.**"
+      "en": "**1. Define gene cloning. Describe the step-by-step procedure of gene cloning.**",
+      "ta": "**1. மரபணு குளோனாக்கத்தை வரையறுக்க. மரபணு குளோனாக்கத்தின் படிப்படியான செயல்முறையை விவரிக்க.**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Answer Hints:**"
+      "en": "**Answer Hints:**",
+      "ta": "**விடைக் குறிப்புகள்:**",
+      "ta_status": "draft"
      }
     },
     {
@@ -1482,29 +1988,41 @@
      "ordered": false,
      "items": [
       {
-       "en": "Definition: gene cloning = producing multiple identical copies of a specific gene using recombinant DNA technology."
+       "en": "Definition: gene cloning = producing multiple identical copies of a specific gene using recombinant DNA technology.",
+       "ta": "வரையறை: மரபணு குளோனாக்கம் = மறுகூட்டிணைவு DNA தொழில்நுட்பத்தால் குறிப்பிட்ட மரபணுவின் பல ஒத்த நகல்களை உருவாக்குதல்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Steps in order: (1) Isolation of gene of interest (RE digestion/PCR/cDNA); (2) Restriction digestion of gene and vector with same RE; (3) Ligation with T4 DNA ligase; (4) Formation of recombinant DNA; (5) Transformation into E. coli (heat shock/electroporation); (6) Selection on antibiotic medium; (7) Screening for recombinants; (8) Colony multiplication and verification."
+       "en": "Steps in order: (1) Isolation of gene of interest (RE digestion/PCR/cDNA); (2) Restriction digestion of gene and vector with same RE; (3) Ligation with T4 DNA ligase; (4) Formation of recombinant DNA; (5) Transformation into E. coli (heat shock/electroporation); (6) Selection on antibiotic medium; (7) Screening for recombinants; (8) Colony multiplication and verification.",
+       "ta": "படிகள் வரிசையில்: (1) ஆர்வ மரபணுவைத் தனிமைப்படுத்துதல் (RE செரித்தல்/PCR/cDNA); (2) மரபணுவும் தாங்கிக்கடத்தியும் ஒரே RE-யால் செரித்தல்; (3) T4 DNA லைகேசால் லைகேஷன்; (4) மறுகூட்டிணைவு DNA உருவாதல்; (5) E. coli-க்குள் தகவல் பரிமாற்றம் (வெப்ப அதிர்ச்சி/மின்துளைப்பு); (6) ஆன்டிபயாடிக் ஊடகத்தில் தெரிவு; (7) மறுகூட்டிணைவுகளுக்கான சலிக்கை; (8) குழும பெருக்கமும் சரிபார்ப்பும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Mention requirements: insert DNA, vector (ori + marker + MCS), restriction enzyme, DNA ligase, competent E. coli."
+       "en": "Mention requirements: insert DNA, vector (ori + marker + MCS), restriction enzyme, DNA ligase, competent E. coli.",
+       "ta": "தேவைகளைக் குறிப்பிடுக: செருகி DNA, தாங்கிக்கடத்தி (ori + அடையாளக்குறி + MCS), ரெஸ்ட்ரிக்ஷன் நொதி, DNA லைகேஸ், தகுதி பெற்ற E. coli.",
+       "ta_status": "draft"
       },
       {
-       "en": "Include a simple flow diagram: gene → RE cut → ligation → transform → select → screen."
+       "en": "Include a simple flow diagram: gene → RE cut → ligation → transform → select → screen.",
+       "ta": "எளிய பாய்வு வரைபடம் சேர்க்க: மரபணு → RE வெட்டு → லைகேஷன் → தகவல் பரிமாற்றம் → தெரிவு → சலிக்கை.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**2. What is blue-white screening? Explain its principle and significance in clone selection.**"
+      "en": "**2. What is blue-white screening? Explain its principle and significance in clone selection.**",
+      "ta": "**2. நீலம்-வெள்ளை சலிக்கை என்றால் என்ன? அதன் கோட்பாட்டையும் குளோன் தெரிவில் அதன் முக்கியத்துவத்தையும் விளக்குக.**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Answer Hints:**"
+      "en": "**Answer Hints:**",
+      "ta": "**விடைக் குறிப்புகள்:**",
+      "ta_status": "draft"
      }
     },
     {
@@ -1512,32 +2030,46 @@
      "ordered": false,
      "items": [
       {
-       "en": "Blue-white screening uses the lacZ gene (encoding β-galactosidase) in pUC vectors to distinguish recombinant (white) from non-recombinant (blue) colonies."
+       "en": "Blue-white screening uses the lacZ gene (encoding β-galactosidase) in pUC vectors to distinguish recombinant (white) from non-recombinant (blue) colonies.",
+       "ta": "நீலம்-வெள்ளை சலிக்கை pUC தாங்கிக்கடத்திகளிலுள்ள lacZ மரபணுவை (β-கேலக்டோசிடேசைக் குறியீடு செய்வது) பயன்படுத்தி மறுகூட்டிணைவு (வெள்ளை), மறுகூட்டிணைவற்ற (நீலம்) குழுமங்களை வேறுபடுத்துகிறது.",
+       "ta_status": "draft"
       },
       {
-       "en": "Principle: MCS is within lacZ. Without insert → lacZ intact → β-gal produced → cleaves X-gal → blue compound → blue colony. With insert → lacZ disrupted → no functional β-gal → X-gal not cleaved → white colony."
+       "en": "Principle: MCS is within lacZ. Without insert → lacZ intact → β-gal produced → cleaves X-gal → blue compound → blue colony. With insert → lacZ disrupted → no functional β-gal → X-gal not cleaved → white colony.",
+       "ta": "கோட்பாடு: MCS, lacZ-க்குள் உள்ளது. செருகி இல்லாவிட்டால் → lacZ அப்படியே → β-gal உருவாகும் → X-gal-ஐப் பிளக்கும் → நீலச் சேர்மம் → நீலக் குழுமம். செருகி இருந்தால் → lacZ சிதையும் → செயல்படும் β-gal இல்லை → X-gal பிளக்கப்படாது → வெள்ளைக் குழுமம்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Medium: LB agar + ampicillin (select transformants) + X-gal + IPTG (lac operon inducer)."
+       "en": "Medium: LB agar + ampicillin (select transformants) + X-gal + IPTG (lac operon inducer).",
+       "ta": "ஊடகம்: LB அகார் + ஆம்பிசிலின் (மாற்றப்பட்டவற்றைத் தெரிவுசெய்ய) + X-gal + IPTG (lac ஓபரான் தூண்டி).",
+       "ta_status": "draft"
       },
       {
-       "en": "Significance: rapid visual screening without replica plating; picks white colonies as potential recombinants."
+       "en": "Significance: rapid visual screening without replica plating; picks white colonies as potential recombinants.",
+       "ta": "முக்கியத்துவம்: ரெப்ளிகா பிளேட்டிங் இல்லாமல் விரைவான கட்புலச் சலிக்கை; வெள்ளைக் குழுமங்கள் சாத்தியமான மறுகூட்டிணைவுகளாகத் தெரிவுசெய்யப்படுகின்றன.",
+       "ta_status": "draft"
       },
       {
-       "en": "Limitation: blue-white only shows insert disrupted lacZ — must confirm with PCR/restriction analysis."
+       "en": "Limitation: blue-white only shows insert disrupted lacZ — must confirm with PCR/restriction analysis.",
+       "ta": "வரம்பு: செருகி lacZ-ஐச் சிதைத்ததை மட்டுமே நீலம்-வெள்ளை காட்டும் — PCR/ரெஸ்ட்ரிக்ஷன் பகுப்பாய்வால் உறுதிசெய்ய வேண்டும்.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**3. What is insertional inactivation? How is it used to select recombinant clones in pBR322 cloning?**"
+      "en": "**3. What is insertional inactivation? How is it used to select recombinant clones in pBR322 cloning?**",
+      "ta": "**3. உட்செருகுதல் செயலிழப்பு என்றால் என்ன? pBR322 குளோனாக்கத்தில் மறுகூட்டிணைவு குளோன்களைத் தெரிவுசெய்ய அது எவ்வாறு பயன்படுகிறது?**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Answer Hints:**"
+      "en": "**Answer Hints:**",
+      "ta": "**விடைக் குறிப்புகள்:**",
+      "ta_status": "draft"
      }
     },
     {
@@ -1545,32 +2077,46 @@
      "ordered": false,
      "items": [
       {
-       "en": "Insertional inactivation: inserting foreign DNA into a restriction site within a selectable marker gene disrupts that gene's function."
+       "en": "Insertional inactivation: inserting foreign DNA into a restriction site within a selectable marker gene disrupts that gene's function.",
+       "ta": "உட்செருகுதல் செயலிழப்பு: தெரிவு செய்யக்கூடிய அடையாளக்குறி மரபணுவுக்குள் உள்ள ரெஸ்ட்ரிக்ஷன் இடத்தில் அந்நிய DNA-வைச் செருகுவது அம்மரபணுவின் செயலைச் சிதைக்கிறது.",
+       "ta_status": "draft"
       },
       {
-       "en": "pBR322 has two markers: amp^r (ampicillin resistance) and tet^r (tetracycline resistance) + unique restriction sites within each."
+       "en": "pBR322 has two markers: amp^r (ampicillin resistance) and tet^r (tetracycline resistance) + unique restriction sites within each.",
+       "ta": "pBR322-இல் இரு அடையாளக்குறிகள்: amp^r (ஆம்பிசிலின் எதிர்ப்பு), tet^r (டெட்ராசைக்ளின் எதிர்ப்பு) + ஒவ்வொன்றிலும் தனித்த ரெஸ்ட்ரிக்ஷன் இடங்கள்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Insert into BamHI or SalI (within tet^r): recombinants = amp^r, tet^s; non-recombinants = amp^r, tet^r."
+       "en": "Insert into BamHI or SalI (within tet^r): recombinants = amp^r, tet^s; non-recombinants = amp^r, tet^r.",
+       "ta": "BamHI அல்லது SalI-இல் (tet^r-க்குள்) செருகினால்: மறுகூட்டிணைவுகள் = amp^r, tet^s; மறுகூட்டிணைவற்றவை = amp^r, tet^r.",
+       "ta_status": "draft"
       },
       {
-       "en": "Protocol: grow all colonies on ampicillin → replica plate to tetracycline → colonies growing on amp but NOT tet = recombinants."
+       "en": "Protocol: grow all colonies on ampicillin → replica plate to tetracycline → colonies growing on amp but NOT tet = recombinants.",
+       "ta": "நெறிமுறை: அனைத்துக் குழுமங்களையும் ஆம்பிசிலினில் வளர்க்க → டெட்ராசைக்ளினுக்கு ரெப்ளிகா பிளேட்டிங் செய்க → amp-இல் வளர்ந்து tet-இல் வளராத குழுமங்கள் = மறுகூட்டிணைவுகள்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Advantage: can identify recombinants with any insert (not dependent on lacZ); disadvantage: requires replica plating (more steps than blue-white)."
+       "en": "Advantage: can identify recombinants with any insert (not dependent on lacZ); disadvantage: requires replica plating (more steps than blue-white).",
+       "ta": "நன்மை: எந்தச் செருகியுடனும் மறுகூட்டிணைவுகளை அடையாளம் காணலாம் (lacZ-ஐச் சார்ந்ததல்ல); குறை: ரெப்ளிகா பிளேட்டிங் தேவை (நீலம்-வெள்ளையைவிடக் கூடுதல் படிகள்).",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**4. Explain the role of restriction enzymes and DNA ligase in gene cloning.**"
+      "en": "**4. Explain the role of restriction enzymes and DNA ligase in gene cloning.**",
+      "ta": "**4. மரபணு குளோனாக்கத்தில் ரெஸ்ட்ரிக்ஷன் நொதிகளின், DNA லைகேசின் பங்கை விளக்குக.**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Answer Hints:**"
+      "en": "**Answer Hints:**",
+      "ta": "**விடைக் குறிப்புகள்:**",
+      "ta_status": "draft"
      }
     },
     {
@@ -1578,26 +2124,36 @@
      "ordered": false,
      "items": [
       {
-       "en": "**Restriction enzymes** (\"molecular scissors\"): recognise specific palindromic sequences; cleave both strands at/near the site; produce sticky (staggered cut) or blunt (straight cut) ends; Type II used in cloning (e.g., EcoRI, BamHI); same enzyme used on insert and vector ensures compatible ends."
+       "en": "**Restriction enzymes** (\"molecular scissors\"): recognise specific palindromic sequences; cleave both strands at/near the site; produce sticky (staggered cut) or blunt (straight cut) ends; Type II used in cloning (e.g., EcoRI, BamHI); same enzyme used on insert and vector ensures compatible ends.",
+       "ta": "**ரெஸ்ட்ரிக்ஷன் நொதிகள்** (“மூலக்கூறு கத்தரிகோல்கள்”): குறிப்பிட்ட முன்பின் ஒத்த வரிசைகளை அடையாளம் காணும்; இடத்திலோ அருகிலோ இரு இழைகளையும் வெட்டும்; ஒட்டும் (ஒழுங்கற்ற வெட்டு) அல்லது மழுங்கிய (நேர் வெட்டு) முனைகளை உருவாக்கும்; குளோனாக்கத்தில் வகை II பயன்படும் (எ.கா. EcoRI, BamHI); செருகி, தாங்கிக்கடத்தி இரண்டிலும் ஒரே நொதி இணக்கமான முனைகளை உறுதிசெய்யும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "**DNA ligase** (\"molecular glue\"): T4 DNA ligase seals phosphodiester bonds; requires ATP and Mg²⁺; joins 3'-OH to 5'-phosphate; conditions: 16°C overnight for sticky ends; joins insert to vector to form recombinant DNA."
+       "en": "**DNA ligase** (\"molecular glue\"): T4 DNA ligase seals phosphodiester bonds; requires ATP and Mg²⁺; joins 3'-OH to 5'-phosphate; conditions: 16°C overnight for sticky ends; joins insert to vector to form recombinant DNA.",
+       "ta": "**DNA லைகேஸ்** (“மூலக்கூறுப் பசை”): T4 DNA லைகேஸ் பாஸ்போடைஎஸ்டர் பிணைப்புகளை அடைக்கும்; ATP, Mg²⁺ தேவை; 3'-OH-ஐ 5'-பாஸ்பேட்டுடன் இணைக்கும்; நிலை: ஒட்டும் முனைகளுக்கு 16°C இரவு முழுவதும்; செருகியைத் தாங்கிக்கடத்தியுடன் இணைத்து மறுகூட்டிணைவு DNA-வை உருவாக்கும்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Together: RE cuts open the vector at MCS and cuts the gene from the source genome with matching ends → ligase joins them to create a continuous circular recombinant DNA molecule."
+       "en": "Together: RE cuts open the vector at MCS and cuts the gene from the source genome with matching ends → ligase joins them to create a continuous circular recombinant DNA molecule.",
+       "ta": "ஒன்றிணைந்து: RE மூலமரபணுத்தொகையிலிருந்து மரபணுவைப் பொருந்தும் முனைகளுடன் வெட்டி, தாங்கிக்கடத்தியை MCS-இல் திறக்கிறது → லைகேஸ் அவற்றை இணைத்துத் தொடர்ச்சியான வட்ட மறுகூட்டிணைவு DNA மூலக்கூறை உருவாக்குகிறது.",
+       "ta_status": "draft"
       }
      ]
     },
     {
      "type": "p",
      "text": {
-      "en": "**5. Why is selection necessary after transformation? Describe TWO methods of clone selection.**"
+      "en": "**5. Why is selection necessary after transformation? Describe TWO methods of clone selection.**",
+      "ta": "**5. தகவல் பரிமாற்றத்துக்குப் பின் தெரிவு ஏன் அவசியம்? குளோன் தெரிவின் இரு முறைகளை விவரிக்க.**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**Answer Hints:**"
+      "en": "**Answer Hints:**",
+      "ta": "**விடைக் குறிப்புகள்:**",
+      "ta_status": "draft"
      }
     },
     {
@@ -1605,16 +2161,24 @@
      "ordered": false,
      "items": [
       {
-       "en": "Why selection: transformation is inefficient (~1 in 10³–10⁵ cells takes up vector); the ligation mixture contains non-recombinant (re-ligated) vectors AND recombinant vectors; all transformed cells look identical; selection is needed to identify cells carrying the correct recombinant vector."
+       "en": "Why selection: transformation is inefficient (~1 in 10³–10⁵ cells takes up vector); the ligation mixture contains non-recombinant (re-ligated) vectors AND recombinant vectors; all transformed cells look identical; selection is needed to identify cells carrying the correct recombinant vector.",
+       "ta": "தெரிவு ஏன்: தகவல் பரிமாற்றத் திறன் குறைவு (~10³–10⁵ செல்களில் 1 மட்டுமே தாங்கிக்கடத்தியை உள்ளெடுக்கும்); லைகேஷன் கலவையில் மறுகூட்டிணைவற்ற (மீள்இணைந்த) தாங்கிக்கடத்திகளும் மறுகூட்டிணைவுத் தாங்கிக்கடத்திகளும் உள்ளன; மாற்றப்பட்ட செல்கள் அனைத்தும் ஒரே மாதிரித் தெரியும்; சரியான மறுகூட்டிணைவுத் தாங்கிக்கடத்தியுள்ள செல்களை அடையாளம் காண தெரிவு தேவை.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Method 1 — Antibiotic selection:** vectors carry amp^r; transformed cells plated on ampicillin medium; only cells with vector survive; distinguishes transformed from non-transformed. Cannot distinguish recombinant from non-recombinant — further screening needed."
+       "en": "**Method 1 — Antibiotic selection:** vectors carry amp^r; transformed cells plated on ampicillin medium; only cells with vector survive; distinguishes transformed from non-transformed. Cannot distinguish recombinant from non-recombinant — further screening needed.",
+       "ta": "**முறை 1 — ஆன்டிபயாடிக் தெரிவு:** தாங்கிக்கடத்திகள் amp^r கொண்டவை; மாற்றப்பட்ட செல்கள் ஆம்பிசிலின் ஊடகத்தில் வளர்க்கப்படும்; தாங்கிக்கடத்தி உள்ள செல்கள் மட்டுமே உயிர்பிழைக்கும்; மாற்றப்பட்டவற்றையும் மாற்றப்படாதவற்றையும் வேறுபடுத்தும். மறுகூட்டிணைவு, மறுகூட்டிணைவற்றவற்றை வேறுபடுத்த இயலாது — மேலும் சலிக்கை தேவை.",
+       "ta_status": "draft"
       },
       {
-       "en": "**Method 2 — Blue-white screening:** pUC vectors; lacZ + MCS; X-gal + IPTG in medium; white colonies = recombinant (insert disrupts lacZ). Quick visual identification."
+       "en": "**Method 2 — Blue-white screening:** pUC vectors; lacZ + MCS; X-gal + IPTG in medium; white colonies = recombinant (insert disrupts lacZ). Quick visual identification.",
+       "ta": "**முறை 2 — நீலம்-வெள்ளை சலிக்கை:** pUC தாங்கிக்கடத்திகள்; lacZ + MCS; ஊடகத்தில் X-gal + IPTG; வெள்ளைக் குழுமங்கள் = மறுகூட்டிணைவு (செருகி lacZ-ஐச் சிதைக்கும்). விரைவான கட்புல அடையாளம்.",
+       "ta_status": "draft"
       },
       {
-       "en": "Alternative Method 2 — Insertional inactivation: pBR322; insert disrupts tet^r; recombinants = amp^r + tet^s; detected by replica plating."
+       "en": "Alternative Method 2 — Insertional inactivation: pBR322; insert disrupts tet^r; recombinants = amp^r + tet^s; detected by replica plating.",
+       "ta": "மாற்று முறை 2 — உட்செருகுதல் செயலிழப்பு: pBR322; செருகி tet^r-ஐச் சிதைக்கும்; மறுகூட்டிணைவுகள் = amp^r + tet^s; ரெப்ளிகா பிளேட்டிங்கால் கண்டறியப்படும்.",
+       "ta_status": "draft"
       }
      ]
     }
