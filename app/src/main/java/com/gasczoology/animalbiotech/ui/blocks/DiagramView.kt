@@ -35,51 +35,57 @@ import com.gasczoology.animalbiotech.content.DiagramSpec
 import com.gasczoology.animalbiotech.content.parseDiagramSpec
 import com.gasczoology.animalbiotech.i18n.Lang
 
-private class DiagramAsset(val image: androidx.compose.ui.graphics.ImageBitmap, val spec: DiagramSpec)
+private class DiagramAsset(val image: androidx.compose.ui.graphics.ImageBitmap, val spec: DiagramSpec?)
 
-/** Loads <id>_photo.(png|jpg) if present (a real photograph supplied by the author), otherwise <id>.png. */
-private fun loadAsset(ctx: android.content.Context, id: String): DiagramAsset? = try {
-    val dir = "diagrams/"
-    val names = ctx.assets.list("diagrams")?.toSet() ?: emptySet()
-    val file = listOf("${id}_photo.png", "${id}_photo.jpg", "$id.png").firstOrNull { it in names }
-    val specName = if ("${id}_photo.json" in names) "${id}_photo.json" else "$id.json"
-    val spec = if (file != null && specName in names)
-        parseDiagramSpec(ctx.assets.open(dir + specName).bufferedReader(Charsets.UTF_8).use { it.readText() }) else null
-    val bmp = if (file != null) ctx.assets.open(dir + file).use { BitmapFactory.decodeStream(it) } else null
-    if (bmp != null && spec != null) DiagramAsset(bmp.asImageBitmap(), spec) else null
+private fun decode(ctx: android.content.Context, path: String): android.graphics.Bitmap? = try {
+    val bounds = BitmapFactory.Options().apply { inJustDecodeBounds = true }
+    ctx.assets.open(path).use { BitmapFactory.decodeStream(it, null, bounds) }
+    val opts = BitmapFactory.Options().apply { inSampleSize = if (bounds.outWidth > 1500) 2 else 1 }
+    ctx.assets.open(path).use { BitmapFactory.decodeStream(it, null, opts) }
 } catch (e: Exception) { null }
 
-/** Inline figure: image with numbered badges, caption, and a bilingual legend. Falls back to a caption card. */
+/**
+ * Loads one figure variant. [suffix] is "" (English art) or "_ta" (Tamil-labelled render).
+ * A real photograph supplied as <id>_photo.png|jpg replaces the illustration (and may carry <id>_photo.json markers).
+ */
+private fun loadAsset(ctx: android.content.Context, id: String, suffix: String): DiagramAsset? = try {
+    val names = ctx.assets.list("diagrams")?.toSet() ?: emptySet()
+    val file = listOf("${id}_photo.png", "${id}_photo.jpg", "$id$suffix.png").firstOrNull { it in names }
+    val specName = if ("${id}_photo.json" in names) "${id}_photo.json" else "$id.json"
+    val spec = if (specName in names)
+        parseDiagramSpec(ctx.assets.open("diagrams/$specName").bufferedReader(Charsets.UTF_8).use { it.readText() }) else null
+    val bmp = if (file != null) decode(ctx, "diagrams/$file") else null
+    if (bmp != null) DiagramAsset(bmp.asImageBitmap(), spec?.takeIf { it.markers.isNotEmpty() }) else null
+} catch (e: Exception) { null }
+
+/**
+ * Inline figure. Marker-style art (numbered badges + bilingual legend) follows the language chips through the legend;
+ * browser-rendered figures carry their labels in the image, so English / Tamil / both pick the matching PNG(s).
+ */
 @Composable
 fun DiagramView(block: Diagram, lang: Lang, scale: Float) {
     val ctx = LocalContext.current
-    val asset = remember(block.id) { loadAsset(ctx, block.id) }
+    val en = remember(block.id) { loadAsset(ctx, block.id, "") }
+    val ta = remember(block.id) { loadAsset(ctx, block.id, "_ta") }
     Card(
         colors = CardDefaults.cardColors(containerColor = Color.White),
         border = BorderStroke(1.dp, Color(0xFFB8C4D4)),
     ) {
         Column(Modifier.padding(10.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            if (asset != null) {
-                BoxWithConstraints(Modifier.fillMaxWidth()) {
-                    val w = maxWidth
-                    val h = w / asset.spec.aspect
-                    Image(
-                        bitmap = asset.image, contentDescription = block.caption.en,
-                        contentScale = ContentScale.FillWidth,
-                        modifier = Modifier.fillMaxWidth().clip(androidx.compose.foundation.shape.RoundedCornerShape(8.dp)),
-                    )
-                    asset.spec.markers.forEach { m ->
-                        Box(
-                            Modifier.offset(w * m.x - 11.dp, h * m.y - 11.dp).size(22.dp)
-                                .clip(CircleShape).background(Color(0xFF0B2A4A)),
-                            contentAlignment = Alignment.Center,
-                        ) { Text("${m.n}", color = Color.White, fontSize = 12.sp, fontWeight = FontWeight.Bold) }
-                    }
+            when {
+                en == null -> Text("Figure: ${block.id}", fontSize = (11 * scale).sp, color = Muted)
+                en.spec != null -> MarkerFigure(en, block)
+                else -> {
+                    val showEn = lang != Lang.TA || ta == null
+                    val showTa = lang != Lang.EN && ta != null
+                    if (showEn) FlatImage(en, block.caption.en)
+                    if (showTa) FlatImage(ta!!, block.caption.ta.ifBlank { block.caption.en })
                 }
             }
             BiText(block.caption, lang, scale, base = MaterialTheme.typography.bodyMedium, weight = FontWeight.SemiBold)
-            if (asset != null) {
-                asset.spec.markers.forEach { m ->
+            val legend = en?.spec?.markers
+            if (legend != null) {
+                legend.forEach { m ->
                     Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                         Box(
                             Modifier.size(20.dp).clip(CircleShape).background(Color(0xFF0B2A4A)),
@@ -88,9 +94,31 @@ fun DiagramView(block: Diagram, lang: Lang, scale: Float) {
                         BiText(m.label, lang, scale, Modifier.weight(1f), base = MaterialTheme.typography.bodyMedium)
                     }
                 }
-            } else {
-                Text("Figure: ${block.id}", fontSize = (11 * scale).sp, color = Muted)
             }
+        }
+    }
+}
+
+@Composable
+private fun FlatImage(a: DiagramAsset, description: String) {
+    Image(
+        bitmap = a.image, contentDescription = description, contentScale = ContentScale.FillWidth,
+        modifier = Modifier.fillMaxWidth().clip(androidx.compose.foundation.shape.RoundedCornerShape(8.dp)),
+    )
+}
+
+@Composable
+private fun MarkerFigure(a: DiagramAsset, block: Diagram) {
+    val spec = a.spec ?: return
+    BoxWithConstraints(Modifier.fillMaxWidth()) {
+        val w = maxWidth
+        val h = w / spec.aspect
+        FlatImage(a, block.caption.en)
+        spec.markers.forEach { m ->
+            Box(
+                Modifier.offset(w * m.x - 11.dp, h * m.y - 11.dp).size(22.dp).clip(CircleShape).background(Color(0xFF0B2A4A)),
+                contentAlignment = Alignment.Center,
+            ) { Text("${m.n}", color = Color.White, fontSize = 12.sp, fontWeight = FontWeight.Bold) }
         }
     }
 }

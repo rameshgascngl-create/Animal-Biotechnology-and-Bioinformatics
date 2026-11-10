@@ -56,23 +56,20 @@ def gel_tank():
     # wires
     b.append('<path d="M338 103 C 338 170, 128 140, 128 236" fill="none" stroke="#111" stroke-width="6" stroke-linecap="round"/>')
     b.append('<path d="M462 103 C 462 170, 668 140, 668 236" fill="none" stroke="#b3201a" stroke-width="6" stroke-linecap="round"/>')
-    # gel slab
-    b.append('<g filter="url(#shadow)"><polygon points="230,362 590,362 620,292 260,292" fill="url(#gel)" stroke="#9db37c" stroke-width="1.5"/></g>')
-    b.append('<rect x="230" y="362" width="360" height="16" fill="#b9cf9b" stroke="#9db37c" stroke-width="1.5"/>')
+    # gel slab: flat rectangle (tilted slightly), wells on the left, bands aligned in each lane
+    b.append('<g filter="url(#shadow)"><rect x="210" y="288" width="400" height="108" rx="3" fill="url(#gel)" stroke="#9db37c" stroke-width="1.5"/></g>')
+    b.append('<rect x="210" y="396" width="400" height="12" fill="#b9cf9b" stroke="#9db37c" stroke-width="1.5"/>')
+    ladder = [0.12, 0.24, 0.36, 0.50, 0.64, 0.80]
+    samples = [[0.30, 0.66], [0.42, 0.74], [0.24, 0.52, 0.80], [0.50], [0.34, 0.70]]
     lanes = 6
-    random.seed(7)
-    ladder = [0.18, 0.30, 0.42, 0.56, 0.70, 0.84]
-    samples = [[0.25, 0.62], [0.35, 0.78], [0.20, 0.50, 0.80], [0.45], [0.30, 0.66]]
     for k in range(lanes):
-        t = (k + 0.5) / lanes
-        y = 292 + 70 * t
-        xl = 260 - 30 * t
-        b.append(f'<rect x="{xl+14:.1f}" y="{y-3.2:.1f}" width="16" height="6.4" fill="#3d4a2e" opacity=".75"/>')
+        y = 300 + k * 17.5
+        b.append(f'<rect x="216" y="{y-4.5:.1f}" width="18" height="9" fill="#3d4a2e" opacity=".8"/>')
         pos = ladder if k == 0 else samples[k - 1]
         for p in pos:
-            x = xl + 40 + p * 300
-            b.append(f'<rect x="{x-5:.1f}" y="{y-3.4:.1f}" width="11" height="6.8" rx="2" fill="#ff7a33" opacity=".85" filter="url(#glow)"/>')
-            b.append(f'<rect x="{x-4.5:.1f}" y="{y-2.2:.1f}" width="9" height="4.4" rx="1.5" fill="#ffd2a8"/>')
+            x = 250 + p * 340
+            b.append(f'<rect x="{x-9:.1f}" y="{y-4:.1f}" width="18" height="8" rx="2" fill="#ff7a33" opacity=".85" filter="url(#glow)"/>')
+            b.append(f'<rect x="{x-8:.1f}" y="{y-2.6:.1f}" width="16" height="5.2" rx="1.5" fill="#ffd2a8"/>')
     # glass sheen
     b.append('<polygon points="96,250 90,440 150,440 190,250" fill="url(#glass)" opacity=".5"/>')
     b.append('<rect x="90" y="250" width="620" height="190" rx="10" fill="none" stroke="#8fa7bd" stroke-width="2.5"/>')
@@ -83,10 +80,10 @@ def gel_tank():
      (2, 128, 330, "Cathode (−), wells end", "எதிர்மின்முனை (கேத்தோடு) (−), கிணறுகள் இருக்கும் முனை"),
      (3, 668, 330, "Anode (+)", "நேர்மின்முனை (அனோடு) (+)"),
      (4, 170, 405, "Buffer (TAE/TBE) covers the gel", "ஜெல்லை மூடும் தாங்கல் கரைசல் (TAE/TBE)"),
-     (5, 430, 372, "Agarose gel (1%)", "அகரோஸ் ஜெல் (1%)"),
-     (6, 268, 296, "Wells", "கிணறுகள்"),
-     (7, 300, 305, "DNA ladder lane (L)", "DNA ஏணித் தடம் (L)"),
-     (8, 470, 340, "DNA bands: small fragments move farthest towards the anode", "DNA பட்டைகள்: சிறிய துண்டுகள் நேர்மின்முனையை நோக்கித் தொலைவாக நகரும்"),
+     (5, 560, 392, "Agarose gel (1%)", "அகரோஸ் ஜெல் (1%)"),
+     (6, 225, 300, "Wells", "கிணறுகள்"),
+     (7, 290, 300, "DNA ladder lane (L)", "DNA ஏணித் தடம் (L)"),
+     (8, 420, 330, "DNA bands: small fragments move farthest towards the anode", "DNA பட்டைகள்: சிறிய துண்டுகள் நேர்மின்முனையை நோக்கித் தொலைவாக நகரும்"),
     ]
     return W, H, wrap(W, H, ''.join(b)), marks
 
@@ -157,7 +154,7 @@ def pbr322():
     def m(n, a, r, en, ta):
         x, y = pt(a, r); return (n, x, y, en, ta)
     marks = [
-     m(1, 180, 0, "pBR322 plasmid (4,361 bp)", "pBR322 பிளாஸ்மிடு (4,361 bp)"),
+     m(1, 180, 0, "pBR322 plasmid (4,361 bp; schematic, not to scale)", "pBR322 பிளாஸ்மிட் (4,361 bp; திட்ட வரைபடம், அளவுக்கேற்றதல்ல)"),
      m(2, 175, R, "ori: origin of replication", "ori: இரட்டிப்புத் தொடக்கப்புள்ளி"),
      m(3, 278, R, "amp^r: ampicillin resistance gene", "amp^r: ஆம்பிசிலின் எதிர்ப்பு மரபணு"),
      m(4, 65, R, "tet^r: tetracycline resistance gene", "tet^r: டெட்ராசைக்ளின் எதிர்ப்பு மரபணு"),
