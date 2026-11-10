@@ -2351,7 +2351,15 @@
     "Reverse Transcriptase"
    ],
    "a": 2,
-   "e": "Restriction endonucleases are called molecular scissors because they cut DNA at specific palindromic sequences with extreme precision, just as scissors cut paper at a defined point."
+   "e": "Restriction endonucleases are called molecular scissors because they cut DNA at specific palindromic sequences with extreme precision, just as scissors cut paper at a defined point.",
+   "q_ta": "மரபணுப் பொறியியலில் 'மூலக்கூறுக் கத்தரி' எனப்படும் நொதி எது?",
+   "o_ta": [
+    "DNA லைகேஸ்",
+    "Taq பாலிமெரேஸ்",
+    "கட்டுறு எண்டோநியுக்ளியேஸ்",
+    "தலைகீழ் படியெடுப்பி"
+   ],
+   "e_ta": "கத்தரிக்கோல் காகிதத்தை வரையறுத்த இடத்தில் வெட்டுவது போல, கட்டுறு எண்டோநியுக்ளியேஸ்கள் குறிப்பிட்ட பாலிண்ட்ரோம் வரிசைகளில் DNA-வை மிகத் துல்லியமாக வெட்டுவதால் மூலக்கூறுக் கத்தரிகள் எனப்படுகின்றன."
   },
   {
    "q": "EcoRI recognizes the sequence 5'-GAATTC-3'. What type of ends does it produce after cleavage?",
@@ -2362,7 +2370,15 @@
     "5' sticky ends"
    ],
    "a": 3,
-   "e": "EcoRI makes a staggered cut between G and A on each strand, producing 5' overhangs (single-stranded -AATT tails). These are called 5' sticky ends or cohesive ends."
+   "e": "EcoRI makes a staggered cut between G and A on each strand, producing 5' overhangs (single-stranded -AATT tails). These are called 5' sticky ends or cohesive ends.",
+   "q_ta": "EcoRI 5'-GAATTC-3' வரிசையை அடையாளம் காண்கிறது. வெட்டிய பின் அது எவ்வகை முனைகளை உருவாக்குகிறது?",
+   "o_ta": [
+    "மழுங்கிய முனைகள்",
+    "3' ஒட்டும் முனைகள்",
+    "வட்ட முனைகள்",
+    "5' ஒட்டும் முனைகள்"
+   ],
+   "e_ta": "EcoRI ஒவ்வோர் இழையிலும் G-க்கும் A-க்கும் இடையே படிக்கட்டு வெட்டை ஏற்படுத்தி, 5' நீட்சிகளை (ஒற்றை இழை -AATT வால்கள்) உருவாக்குகிறது. இவை 5' ஒட்டும் முனைகள் அல்லது ஒட்டுறு முனைகள் எனப்படுகின்றன."
   },
   {
    "q": "Which restriction enzyme produces blunt ends?",
@@ -2373,7 +2389,15 @@
     "SmaI"
    ],
    "a": 3,
-   "e": "SmaI cuts 5'-GGG-CCC-3' at the center of its palindromic recognition sequence, producing fully double-stranded blunt ends with no single-stranded overhangs."
+   "e": "SmaI cuts 5'-GGG-CCC-3' at the center of its palindromic recognition sequence, producing fully double-stranded blunt ends with no single-stranded overhangs.",
+   "q_ta": "எந்தக் கட்டுறு நொதி மழுங்கிய முனைகளை உருவாக்குகிறது?",
+   "o_ta": [
+    "EcoRI",
+    "BamHI",
+    "HindIII",
+    "SmaI"
+   ],
+   "e_ta": "SmaI தனது பாலிண்ட்ரோம் அடையாள வரிசையின் நடுவில் 5'-GGG-CCC-3'-ஐ வெட்டி, ஒற்றை இழை நீட்சிகள் இல்லாத முழுமையான இரட்டை இழை மழுங்கிய முனைகளை உருவாக்குகிறது."
   },
   {
    "q": "DNA ligase catalyzes the formation of which type of bond to join two DNA fragments?",
@@ -2384,7 +2408,15 @@
     "Peptide bond"
    ],
    "a": 1,
-   "e": "DNA ligase catalyzes formation of a covalent 3'-5' phosphodiester bond between the 3'-OH of one fragment and the 5'-phosphate of the adjacent fragment, sealing nicks in the DNA backbone."
+   "e": "DNA ligase catalyzes formation of a covalent 3'-5' phosphodiester bond between the 3'-OH of one fragment and the 5'-phosphate of the adjacent fragment, sealing nicks in the DNA backbone.",
+   "q_ta": "இரு DNA துண்டுகளை இணைக்க DNA லைகேஸ் எவ்வகைப் பிணைப்பை உருவாக்குகிறது?",
+   "o_ta": [
+    "ஹைட்ரஜன் பிணைப்பு",
+    "பாஸ்போடையெஸ்டர் பிணைப்பு",
+    "கிளைக்கோசிடிக் பிணைப்பு",
+    "பெப்டைடு பிணைப்பு"
+   ],
+   "e_ta": "DNA லைகேஸ் ஒரு துண்டின் 3'-OH-க்கும் அடுத்த துண்டின் 5'-பாஸ்பேட்டுக்கும் இடையே சகப் பிணைப்பான 3'-5' பாஸ்போடையெஸ்டர் பிணைப்பை உருவாக்கி, DNA முதுகெலும்பிலுள்ள வெட்டுகளை அடைக்கிறது."
   },
   {
    "q": "Reverse transcriptase is used to synthesize which molecule?",
@@ -2395,7 +2427,15 @@
     "DNA from protein"
    ],
    "a": 0,
-   "e": "Reverse transcriptase, found in retroviruses, catalyzes synthesis of complementary DNA (cDNA) using single-stranded mRNA as a template, reversing the normal direction of genetic information flow."
+   "e": "Reverse transcriptase, found in retroviruses, catalyzes synthesis of complementary DNA (cDNA) using single-stranded mRNA as a template, reversing the normal direction of genetic information flow.",
+   "q_ta": "தலைகீழ் படியெடுப்பி எந்த மூலக்கூற்றைத் தொகுக்கப் பயன்படுகிறது?",
+   "o_ta": [
+    "mRNA-விலிருந்து cDNA",
+    "DNA-விலிருந்து mRNA",
+    "mRNA-விலிருந்து புரதம்",
+    "புரதத்திலிருந்து DNA"
+   ],
+   "e_ta": "ரெட்ரோவைரஸ்களில் காணப்படும் தலைகீழ் படியெடுப்பி ஒற்றை இழை mRNA-வை வார்ப்புருவாகக் கொண்டு நிரப்பு DNA-வை (cDNA) தொகுத்து, மரபுத் தகவல் பாய்வின் இயல்பான திசையைத் தலைகீழாக்குகிறது."
   },
   {
    "q": "Taq polymerase is isolated from which source organism?",
@@ -2406,7 +2446,15 @@
     "Thermus thermophilus"
    ],
    "a": 2,
-   "e": "Taq polymerase is isolated from Thermus aquaticus, a thermophilic bacterium found in hot springs. Its thermostability at up to 95°C makes it ideal for use in PCR."
+   "e": "Taq polymerase is isolated from Thermus aquaticus, a thermophilic bacterium found in hot springs. Its thermostability at up to 95°C makes it ideal for use in PCR.",
+   "q_ta": "Taq பாலிமெரேஸ் எந்த மூல உயிரினத்திலிருந்து பிரித்தெடுக்கப்படுகிறது?",
+   "o_ta": [
+    "Escherichia coli",
+    "Bacillus subtilis",
+    "Thermus aquaticus",
+    "Thermus thermophilus"
+   ],
+   "e_ta": "Taq பாலிமெரேஸ் வெந்நீர் ஊற்றுகளில் காணப்படும் வெப்பம் விரும்பும் பாக்டீரியாவான Thermus aquaticus-இலிருந்து பிரித்தெடுக்கப்படுகிறது. 95°C வரை வெப்பம் தாங்கும் தன்மை இதை PCR-க்கு ஏற்றதாக்குகிறது."
   },
   {
    "q": "What is the primary purpose of treating a vector with alkaline phosphatase before cloning?",
@@ -2417,7 +2465,15 @@
     "To degrade any contaminating RNA"
    ],
    "a": 0,
-   "e": "Alkaline phosphatase removes 5'-phosphate groups from linearized vector ends. Without these phosphates, the vector cannot self-ligate, forcing incorporation of insert DNA and improving cloning efficiency."
+   "e": "Alkaline phosphatase removes 5'-phosphate groups from linearized vector ends. Without these phosphates, the vector cannot self-ligate, forcing incorporation of insert DNA and improving cloning efficiency.",
+   "q_ta": "குளோனிங்குக்கு முன் தாங்கிக்கடத்தியைக் காரப் பாஸ்படேஸால் சிகிச்சையளிப்பதன் முதன்மை நோக்கம் என்ன?",
+   "o_ta": [
+    "தாங்கிக்கடத்தி தன்னிணைவைத் தடுக்க",
+    "தாங்கிக்கடத்தியைப் பெருக்க",
+    "தாங்கிக்கடத்தியில் ஒட்டும் முனைகளை உருவாக்க",
+    "மாசுபடுத்தும் RNA-வைச் சிதைக்க"
+   ],
+   "e_ta": "காரப் பாஸ்படேஸ் நேரியலாக்கப்பட்ட தாங்கிக்கடத்தி முனைகளிலுள்ள 5'-பாஸ்பேட் தொகுதிகளை நீக்குகிறது. இப்பாஸ்பேட்டுகள் இன்றித் தாங்கிக்கடத்தி தன்னிணைய இயலாது; உட்செருகு DNA சேர்வதை வலியுறுத்தி குளோனிங் திறனை மேம்படுத்துகிறது."
   },
   {
    "q": "Which Nobel Prize was awarded to Arber, Smith, and Nathans for the discovery of restriction enzymes?",
@@ -2428,7 +2484,15 @@
     "Nobel Prize in Physiology or Medicine 1975"
    ],
    "a": 1,
-   "e": "Werner Arber, Hamilton Smith, and Daniel Nathans were jointly awarded the Nobel Prize in Physiology or Medicine in 1978 for the discovery and application of restriction endonucleases."
+   "e": "Werner Arber, Hamilton Smith, and Daniel Nathans were jointly awarded the Nobel Prize in Physiology or Medicine in 1978 for the discovery and application of restriction endonucleases.",
+   "q_ta": "கட்டுறு நொதிகளைக் கண்டுபிடித்ததற்காக ஆர்பர், ஸ்மித், நாதன்ஸ் ஆகியோருக்கு வழங்கப்பட்ட நோபல் பரிசு எது?",
+   "o_ta": [
+    "1980 வேதியியல் நோபல் பரிசு",
+    "1978 உடலியல் அல்லது மருத்துவ நோபல் பரிசு",
+    "1978 இயற்பியல் நோபல் பரிசு",
+    "1975 உடலியல் அல்லது மருத்துவ நோபல் பரிசு"
+   ],
+   "e_ta": "கட்டுறு எண்டோநியுக்ளியேஸ்களின் கண்டுபிடிப்பு, பயன்பாட்டுக்காக வெர்னர் ஆர்பர், ஹாமில்டன் ஸ்மித், டேனியல் நாதன்ஸ் ஆகியோருக்கு 1978-இல் உடலியல் அல்லது மருத்துவத்துக்கான நோபல் பரிசு கூட்டாக வழங்கப்பட்டது."
   },
   {
    "q": "A palindromic DNA sequence is best described as:",
@@ -2439,7 +2503,15 @@
     "A sequence that is present only in viral genomes"
    ],
    "a": 1,
-   "e": "A palindromic DNA sequence reads identically on both strands in the 5' to 3' direction. For example, GAATTC reads the same on both strands when each is read 5' to 3'. This symmetry is what restriction enzymes recognize."
+   "e": "A palindromic DNA sequence reads identically on both strands in the 5' to 3' direction. For example, GAATTC reads the same on both strands when each is read 5' to 3'. This symmetry is what restriction enzymes recognize.",
+   "q_ta": "பாலிண்ட்ரோம் DNA வரிசையைச் சிறப்பாக விவரிப்பது:",
+   "o_ta": [
+    "பல புரதங்களைக் குறியீடு செய்யும் வரிசை",
+    "இரு இழைகளும் 5' முதல் 3' திசையில் ஒரே மாதிரி வாசிக்கப்படும் வரிசை",
+    "அனைத்து இடங்களிலும் ஒரே நியுக்ளியோடைடு உள்ள வரிசை",
+    "வைரஸ் மரபணுத்தொகைகளில் மட்டும் காணப்படும் வரிசை"
+   ],
+   "e_ta": "பாலிண்ட்ரோம் DNA வரிசை இரு இழைகளிலும் 5' முதல் 3' திசையில் ஒரே மாதிரி வாசிக்கப்படும். எ.கா. GAATTC, ஒவ்வோர் இழையையும் 5' முதல் 3' வரை வாசிக்கும்போது இரண்டிலும் ஒன்றே. இச்சமச்சீரையே கட்டுறு நொதிகள் அடையாளம் காண்கின்றன."
   },
   {
    "q": "Which of the following enzymes is essential for the extension step in PCR?",
@@ -2450,7 +2522,15 @@
     "Alkaline Phosphatase"
    ],
    "a": 0,
-   "e": "Taq polymerase is the thermostable DNA polymerase used in PCR. During the extension step at approximately 72°C, it synthesizes new DNA strands from annealed primers using the denatured template, amplifying the target sequence."
+   "e": "Taq polymerase is the thermostable DNA polymerase used in PCR. During the extension step at approximately 72°C, it synthesizes new DNA strands from annealed primers using the denatured template, amplifying the target sequence.",
+   "q_ta": "PCR-இன் நீட்சிப் படிக்கு இன்றியமையாத நொதி எது?",
+   "o_ta": [
+    "Taq பாலிமெரேஸ்",
+    "DNA லைகேஸ்",
+    "கட்டுறு எண்டோநியுக்ளியேஸ்",
+    "காரப் பாஸ்படேஸ்"
+   ],
+   "e_ta": "Taq பாலிமெரேஸ் PCR-இல் பயன்படும் வெப்பம்தாங்கும் DNA பாலிமெரேஸ். சுமார் 72°C நீட்சிப் படியில், இயல்பிழந்த வார்ப்புருவில் இணைந்த பிரைமர்களிலிருந்து புதிய DNA இழைகளைத் தொகுத்து இலக்கு வரிசையைப் பெருக்குகிறது."
   }
  ],
  "gel_electrophoresis.html": [
@@ -2463,7 +2543,15 @@
     "DNA contains positive nitrogen atoms that attract to the anode"
    ],
    "a": 1,
-   "e": "DNA carries a net negative charge at neutral pH because of the phosphate groups in its backbone. Negatively charged molecules always migrate towards the positive electrode (anode) in an electric field. This consistent negative charge means all DNA fragments have the same charge-to-mass ratio, so separation is based on SIZE (molecular sieving) rather than charge differences between fragments."
+   "e": "DNA carries a net negative charge at neutral pH because of the phosphate groups in its backbone. Negatively charged molecules always migrate towards the positive electrode (anode) in an electric field. This consistent negative charge means all DNA fragments have the same charge-to-mass ratio, so separation is based on SIZE (molecular sieving) rather than charge differences between fragments.",
+   "q_ta": "ஜெல் மின்னொட்டத்தில் DNA ஏன் நேர்மின்வாயை (+) நோக்கி நகர்கிறது?",
+   "o_ta": [
+    "DNA-வின் சர்க்கரை முதுகெலும்பால் அது நேர்மின்னூட்டம் கொண்டுள்ளது",
+    "முதுகெலும்பிலுள்ள பாஸ்பேட் தொகுதிகளால் DNA எதிர்மின்னூட்டம் கொண்டுள்ளதால் நேர்மின்வாயை நோக்கி நகர்கிறது",
+    "DNA நடுநிலையானது; தாங்கல் ஓட்டத்தால் தள்ளப்படுகிறது",
+    "DNA-வில் உள்ள நேர்மின் நைட்ரஜன் அணுக்கள் நேர்மின்வாயை ஈர்க்கின்றன"
+   ],
+   "e_ta": "நடுநிலை pH-இல் DNA-வின் முதுகெலும்பிலுள்ள பாஸ்பேட் தொகுதிகளால் அது நிகர எதிர்மின்னூட்டம் கொண்டுள்ளது. எதிர்மின்னூட்ட மூலக்கூறுகள் மின்புலத்தில் எப்போதும் நேர்மின்வாயை (அனோடு) நோக்கி நகரும். இந்த ஒரே மாதிரியான எதிர்மின்னூட்டத்தால் அனைத்து DNA துண்டுகளுக்கும் மின்னூட்ட–நிறை விகிதம் ஒன்றே; எனவே பிரிப்பு துண்டுகளுக்கிடையேயான மின்னூட்ட வேறுபாட்டால் அல்ல, அளவால் (மூலக்கூறு சல்லடை) நடைபெறுகிறது."
   },
   {
    "q": "In agarose gel electrophoresis, which DNA fragment migrates the FURTHEST from the loading well?",
@@ -2474,7 +2562,15 @@
     "All fragments migrate the same distance"
    ],
    "a": 1,
-   "e": "Smaller DNA fragments pass through gel pores more easily than larger ones (molecular sieving). A 500 bp fragment migrates far more efficiently than a 10,000 bp or 5,000 bp fragment in the same time. This is the fundamental principle — smaller = faster = farther from the well."
+   "e": "Smaller DNA fragments pass through gel pores more easily than larger ones (molecular sieving). A 500 bp fragment migrates far more efficiently than a 10,000 bp or 5,000 bp fragment in the same time. This is the fundamental principle — smaller = faster = farther from the well.",
+   "q_ta": "அகரோஸ் ஜெல் மின்னொட்டத்தில் ஏற்றுக் கிணற்றிலிருந்து மிகத் தொலைவு நகரும் DNA துண்டு எது?",
+   "o_ta": [
+    "10,000 bp துண்டு",
+    "500 bp துண்டு",
+    "5,000 bp துண்டு",
+    "அனைத்துத் துண்டுகளும் ஒரே தொலைவு நகரும்"
+   ],
+   "e_ta": "சிறிய DNA துண்டுகள் பெரியவற்றைவிட ஜெல் துளைகள் வழியாக எளிதாகச் செல்கின்றன (மூலக்கூறு சல்லடை). அதே நேரத்தில் 500 bp துண்டு 10,000 bp அல்லது 5,000 bp துண்டைவிட மிகத் திறம்பட நகர்கிறது. இதுவே அடிப்படைத் தத்துவம் — சிறியது = வேகமானது = கிணற்றிலிருந்து தொலைவானது."
   },
   {
    "q": "What is the mathematical relationship between DNA fragment size and migration distance in gel electrophoresis?",
@@ -2485,7 +2581,15 @@
     "There is no predictable relationship between size and migration distance"
    ],
    "a": 0,
-   "e": "The relationship is logarithmic: log(fragment size in bp) is inversely proportional to migration distance. When log(bp) is plotted against migration distance on a graph, a straight line results. This standard curve from the DNA ladder allows accurate interpolation of unknown fragment sizes."
+   "e": "The relationship is logarithmic: log(fragment size in bp) is inversely proportional to migration distance. When log(bp) is plotted against migration distance on a graph, a straight line results. This standard curve from the DNA ladder allows accurate interpolation of unknown fragment sizes.",
+   "q_ta": "ஜெல் மின்னொட்டத்தில் DNA துண்டின் அளவுக்கும் நகர்வுத் தொலைவுக்கும் இடையேயான கணித உறவு என்ன?",
+   "o_ta": [
+    "துண்டு அளவின் மடக்கை நகர்வுத் தொலைவுக்கு எதிர்விகிதம் (மடக்கை உறவு)",
+    "துண்டு அளவு நகர்வுத் தொலைவுக்கு நேர்விகிதம் (நேரியல் உறவு)",
+    "துண்டு அளவு நகர்வுத் தொலைவின் வர்க்கமூலத்துக்கு நேர்விகிதம்",
+    "அளவுக்கும் நகர்வுத் தொலைவுக்கும் முன்கணிக்கக்கூடிய உறவு இல்லை"
+   ],
+   "e_ta": "உறவு மடக்கை வகையானது: log (துண்டு அளவு, bp) நகர்வுத் தொலைவுக்கு எதிர்விகிதத்தில் உள்ளது. log(bp)-ஐ நகர்வுத் தொலைவுக்கு எதிராக வரைந்தால் நேர்கோடு கிடைக்கும். DNA ஏணியிலிருந்து பெறப்படும் இந்நிலையான வளைவு அறியப்படாத துண்டு அளவுகளைத் துல்லியமாக இடைச்செருகிக் காண உதவுகிறது."
   },
   {
    "q": "What is the PRIMARY function of glycerol in the DNA loading dye?",
@@ -2496,7 +2600,15 @@
     "It prevents the DNA from degrading in the well"
    ],
    "a": 0,
-   "e": "Glycerol (or Ficoll) in the loading dye increases the density of the DNA sample. This ensures the sample sinks to the bottom of the well when loaded and does not diffuse upward into the surrounding buffer. The tracking dyes (bromophenol blue and xylene cyanol) in the loading dye provide visible colour to monitor migration progress."
+   "e": "Glycerol (or Ficoll) in the loading dye increases the density of the DNA sample. This ensures the sample sinks to the bottom of the well when loaded and does not diffuse upward into the surrounding buffer. The tracking dyes (bromophenol blue and xylene cyanol) in the loading dye provide visible colour to monitor migration progress.",
+   "q_ta": "DNA ஏற்றுச் சாயத்தில் கிளிசரால்-இன் முதன்மைச் செயல் என்ன?",
+   "o_ta": [
+    "மாதிரியின் அடர்த்தியை அதிகரித்து, அது கிணற்றில் அமிழ்ந்து தாங்கலுக்குள் மிதந்து செல்லாமல் தடுக்கிறது",
+    "UV ஒளியில் தெரியும்படி DNA-வைக் கறையிடுகிறது",
+    "ஜெல் வழியாக DNA நகர்வை விரைவுபடுத்துகிறது",
+    "கிணற்றில் DNA சிதைவதைத் தடுக்கிறது"
+   ],
+   "e_ta": "ஏற்றுச் சாயத்திலுள்ள கிளிசரால் (அல்லது ஃபிகால்) DNA மாதிரியின் அடர்த்தியை அதிகரிக்கிறது. இதனால் மாதிரி ஏற்றப்படும்போது கிணற்றின் அடியில் அமிழ்ந்து, சுற்றியுள்ள தாங்கலுக்குள் மேல்நோக்கிப் பரவாது. ஏற்றுச் சாயத்திலுள்ள கண்காணிப்புச் சாயங்கள் (புரோமோபீனால் நீலம், சைலீன் சயனால்) நகர்வு முன்னேற்றத்தைக் கண்காணிக்கக் காணத்தக்க நிறத்தைத் தருகின்றன."
   },
   {
    "q": "Ethidium bromide (EtBr) is added to agarose gels to:",
@@ -2507,7 +2619,15 @@
     "Intercalate into DNA and produce orange fluorescence under UV light for band visualisation"
    ],
    "a": 3,
-   "e": "Ethidium bromide intercalates (inserts) between the base pairs of DNA. When illuminated with UV light (302 nm), EtBr-DNA complexes fluoresce bright orange, making the DNA bands visible. EtBr is a sensitive stain — detecting as little as 1–10 ng DNA per band. However, it is a potent mutagen and carcinogen requiring strict safety precautions."
+   "e": "Ethidium bromide intercalates (inserts) between the base pairs of DNA. When illuminated with UV light (302 nm), EtBr-DNA complexes fluoresce bright orange, making the DNA bands visible. EtBr is a sensitive stain — detecting as little as 1–10 ng DNA per band. However, it is a potent mutagen and carcinogen requiring strict safety precautions.",
+   "q_ta": "அகரோஸ் ஜெல்களில் எத்திடியம் புரோமைடு (EtBr) சேர்க்கப்படுவது:",
+   "o_ta": [
+    "DNA துண்டுகளின் நகர்வு வேகத்தை அதிகரிக்க",
+    "மின்னொட்டத்தின்போது ஜெல்லின் pH-ஐப் பேண",
+    "DNA ஜெல் அணியுடன் குறிப்பிட்டதல்லாமல் பிணைவதைத் தடுக்க",
+    "DNA-வுக்குள் ஊடுருவி UV ஒளியில் ஆரஞ்சு ஒளிர்வை ஏற்படுத்தி, பட்டைகளைக் காணச்செய்ய"
+   ],
+   "e_ta": "எத்திடியம் புரோமைடு DNA-வின் காரச் சோடிகளுக்கிடையே ஊடுருவுகிறது (இடைச்செருகல்). UV ஒளியால் (302 nm) ஒளியூட்டப்படும்போது EtBr–DNA கூட்டுப்பொருள்கள் பிரகாச ஆரஞ்சு நிறத்தில் ஒளிர்ந்து DNA பட்டைகளைக் காணச்செய்கின்றன. EtBr உணர்திறன் மிக்க சாயம் — ஒரு பட்டைக்கு 1–10 ng DNA-வையும் கண்டறியும். ஆனால் இது வலுவான திடீர்மாற்றத் தூண்டியும் புற்றுத் தூண்டியுமாதலால் கடுமையான பாதுகாப்பு முன்னெச்சரிக்கைகள் தேவை."
   },
   {
    "q": "In SDS-PAGE, the role of SDS (sodium dodecyl sulphate) is to:",
@@ -2518,7 +2638,15 @@
     "Denature proteins and coat them with uniform negative charge so separation is based only on molecular weight"
    ],
    "a": 3,
-   "e": "SDS is an anionic detergent that binds to proteins proportional to their chain length. This coating of uniform negative charge eliminates differences in the native charge and shape of proteins, ensuring all proteins have the same charge-to-mass ratio. Separation in SDS-PAGE is therefore purely by molecular weight — unlike native PAGE which also depends on shape and intrinsic charge."
+   "e": "SDS is an anionic detergent that binds to proteins proportional to their chain length. This coating of uniform negative charge eliminates differences in the native charge and shape of proteins, ensuring all proteins have the same charge-to-mass ratio. Separation in SDS-PAGE is therefore purely by molecular weight — unlike native PAGE which also depends on shape and intrinsic charge.",
+   "q_ta": "SDS-PAGE-இல் SDS-இன் (சோடியம் டோடெசைல் சல்பேட்) பங்கு:",
+   "o_ta": [
+    "பாலிஅக்ரிலமைடு ஜெல்லின் துளை அளவை அதிகரித்தல்",
+    "புரதப் பட்டைகளைக் காணச்செய்யக் கறையிடுதல்",
+    "மின்னொட்டத்துக்குத் தேவையான அயனி வலிமையை வழங்குதல்",
+    "புரதங்களை இயல்பிழக்கச்செய்து ஒரே மாதிரியான எதிர்மின்னூட்டத்தால் மூடுவதால் பிரிப்பு மூலக்கூறு எடையை மட்டுமே சார்ந்திருத்தல்"
+   ],
+   "e_ta": "SDS என்பது புரதங்களின் சங்கிலி நீளத்துக்கு விகிதமாகப் பிணையும் எதிர்மின்னூட்டத் துப்புரவாக்கி. ஒரே மாதிரியான எதிர்மின்னூட்டப் பூச்சு புரதங்களின் இயல்பு மின்னூட்ட, வடிவ வேறுபாடுகளை நீக்கி, அனைத்துப் புரதங்களுக்கும் ஒரே மின்னூட்ட–நிறை விகிதத்தை உறுதிசெய்கிறது. எனவே SDS-PAGE-இல் பிரிப்பு முற்றிலும் மூலக்கூறு எடையால் — வடிவத்தையும் உள்ளார்ந்த மின்னூட்டத்தையும் சார்ந்த இயல்பு PAGE-ஐப் போலன்றி."
   },
   {
    "q": "What is the main purpose of the DNA ladder loaded in gel electrophoresis?",
@@ -2529,7 +2657,15 @@
     "To prevent DNA degradation during electrophoresis"
    ],
    "a": 2,
-   "e": "A DNA ladder contains fragments of precisely known sizes (e.g., 100 bp, 500 bp, 1 kb…). By measuring the migration distance of each ladder band and plotting log(bp) vs distance, a standard curve (straight line) is generated. Unknown sample band sizes are estimated by measuring their migration distances and interpolating from this standard curve."
+   "e": "A DNA ladder contains fragments of precisely known sizes (e.g., 100 bp, 500 bp, 1 kb…). By measuring the migration distance of each ladder band and plotting log(bp) vs distance, a standard curve (straight line) is generated. Unknown sample band sizes are estimated by measuring their migration distances and interpolating from this standard curve.",
+   "q_ta": "ஜெல் மின்னொட்டத்தில் ஏற்றப்படும் DNA ஏணியின் முதன்மை நோக்கம் என்ன?",
+   "o_ta": [
+    "DNA நகர்வுக்கு ஆற்றல் மூலத்தை வழங்க",
+    "ஒப்பிடுவதற்காக அனைத்து DNA பட்டைகளையும் சீராகக் கறையிட",
+    "அறியப்பட்ட துண்டு அளவுகளுக்கான குறிப்பு நகர்வுத் தொலைவுகளை வழங்கி, அறியப்படாத அளவுகளை மதிப்பிட உதவ",
+    "மின்னொட்டத்தின்போது DNA சிதைவதைத் தடுக்க"
+   ],
+   "e_ta": "DNA ஏணி துல்லியமாக அறியப்பட்ட அளவுகளுள்ள (எ.கா. 100 bp, 500 bp, 1 kb…) துண்டுகளைக் கொண்டுள்ளது. ஒவ்வொரு ஏணிப் பட்டையின் நகர்வுத் தொலைவை அளந்து log(bp)-ஐத் தொலைவுக்கு எதிராக வரைந்தால் நிலையான வளைவு (நேர்கோடு) கிடைக்கிறது. மாதிரிப் பட்டைகளின் நகர்வுத் தொலைவை அளந்து இவ்வளைவிலிருந்து இடைச்செருகி அறியப்படாத அளவுகளை மதிப்பிடலாம்."
   },
   {
    "q": "Why is a 3% agarose gel used instead of a 0.5% gel when analysing PCR products in the 100–500 bp range?",
@@ -2540,7 +2676,15 @@
     "Higher concentration gels run faster, saving time"
    ],
    "a": 2,
-   "e": "Increasing agarose concentration reduces the average pore size of the gel matrix. Smaller pores provide greater retardation to small DNA fragments, improving their separation. A 3% gel is ideal for resolving small fragments (50–500 bp). Conversely, a 0.5% gel has large pores better suited for separating large fragments (5–50 kb) with low resistance to their movement."
+   "e": "Increasing agarose concentration reduces the average pore size of the gel matrix. Smaller pores provide greater retardation to small DNA fragments, improving their separation. A 3% gel is ideal for resolving small fragments (50–500 bp). Conversely, a 0.5% gel has large pores better suited for separating large fragments (5–50 kb) with low resistance to their movement.",
+   "q_ta": "100–500 bp வரம்பிலுள்ள PCR விளைபொருள்களைப் பகுப்பாய்வு செய்யும்போது 0.5% ஜெல்லுக்குப் பதிலாக 3% அகரோஸ் ஜெல் ஏன் பயன்படுத்தப்படுகிறது?",
+   "o_ta": [
+    "3% அகரோஸ் மலிவானதும் தயாரிக்க எளிதானதும்",
+    "3% அகரோஸ் குறைந்த மின்னழுத்தத்தில் மின்சாரத்தை நன்கு கடத்துகிறது",
+    "அதிக அகரோஸ் செறிவு சிறிய துளைகளை உருவாக்கி, சிறிய DNA துண்டுகளுக்கு நல்ல பிரிதிறனைத் தருகிறது",
+    "அதிகச் செறிவு ஜெல்கள் வேகமாக இயங்கி நேரத்தை மிச்சப்படுத்துகின்றன"
+   ],
+   "e_ta": "அகரோஸ் செறிவை அதிகரிப்பது ஜெல் அணியின் சராசரித் துளை அளவைக் குறைக்கிறது. சிறிய துளைகள் சிறிய DNA துண்டுகளுக்கு அதிகத் தடையைத் தந்து அவற்றின் பிரிப்பை மேம்படுத்துகின்றன. 3% ஜெல் சிறிய துண்டுகளைப் (50–500 bp) பிரிக்க ஏற்றது. மாறாக, 0.5% ஜெல்லின் பெரிய துளைகள் பெரிய துண்டுகளை (5–50 kb) அவற்றின் இயக்கத்துக்குக் குறைந்த தடையுடன் பிரிக்கப் பொருத்தமானவை."
   },
   {
    "q": "Where are the DNA samples loaded in agarose gel electrophoresis, and why?",
@@ -2551,7 +2695,15 @@
     "Anywhere on the gel surface — position does not matter"
    ],
    "a": 1,
-   "e": "DNA samples are loaded into wells at the CATHODE (−) end of the gel. Since DNA is negatively charged, it migrates away from the negative electrode (repulsion) and towards the positive electrode (anode). Loading at the cathode end provides the maximum migration path through the entire gel to the anode, achieving maximum separation of different-sized fragments."
+   "e": "DNA samples are loaded into wells at the CATHODE (−) end of the gel. Since DNA is negatively charged, it migrates away from the negative electrode (repulsion) and towards the positive electrode (anode). Loading at the cathode end provides the maximum migration path through the entire gel to the anode, achieving maximum separation of different-sized fragments.",
+   "q_ta": "அகரோஸ் ஜெல் மின்னொட்டத்தில் DNA மாதிரிகள் எங்கு, ஏன் ஏற்றப்படுகின்றன?",
+   "o_ta": [
+    "நேர்மின்வாய் (+) முனையில், DNA எதிர்மின்வாயை நோக்கி நகரும்படி",
+    "எதிர்மின்வாய் (−) முனையில், எதிர்மின்னூட்ட DNA ஜெல் முழுவதும் நேர்மின்வாயை நோக்கி நகரும்படி",
+    "இரு மின்வாய்களுக்கும் சம தொலைவு நகர ஜெல்லின் நடுவில்",
+    "ஜெல் மேற்பரப்பில் எங்கும் — இடம் முக்கியமில்லை"
+   ],
+   "e_ta": "DNA மாதிரிகள் ஜெல்லின் எதிர்மின்வாய் (−) முனையிலுள்ள கிணறுகளில் ஏற்றப்படுகின்றன. DNA எதிர்மின்னூட்டம் கொண்டதால் எதிர்மின்வாயிலிருந்து (விலக்கல்) விலகி நேர்மின்வாயை (அனோடு) நோக்கி நகர்கிறது. எதிர்மின்வாய் முனையில் ஏற்றுவது முழு ஜெல் வழியாக நேர்மின்வாய் வரை அதிகபட்ச நகர்வுப் பாதையை அளித்து, வெவ்வேறு அளவுத் துண்டுகளின் அதிகபட்சப் பிரிப்பை அடையச் செய்கிறது."
   },
   {
    "q": "A researcher runs an agarose gel and observes a smeared band instead of a sharp discrete band. What is the most likely cause?",
@@ -2562,7 +2714,15 @@
     "The DNA sample was degraded (DNase contamination) or the well was overloaded"
    ],
    "a": 3,
-   "e": "Band smearing typically indicates DNA degradation — partial degradation by DNase contamination produces a continuous distribution of fragment sizes instead of a discrete band at one position. Overloading the well with too much DNA can also cause smearing. Solutions: ensure all materials are RNase/DNase-free; reduce DNA loading amount; check sample for intact bands before electrophoresis."
+   "e": "Band smearing typically indicates DNA degradation — partial degradation by DNase contamination produces a continuous distribution of fragment sizes instead of a discrete band at one position. Overloading the well with too much DNA can also cause smearing. Solutions: ensure all materials are RNase/DNase-free; reduce DNA loading amount; check sample for intact bands before electrophoresis.",
+   "q_ta": "ஆய்வாளர் அகரோஸ் ஜெல்லை இயக்கி, கூர்மையான தனிப் பட்டைக்குப் பதிலாகத் தெளிவற்ற பட்டையைக் காண்கிறார். மிகச் சாத்தியமான காரணம் என்ன?",
+   "o_ta": [
+    "மின்னழுத்தம் மிகக் குறைவாக இருந்து போதிய பிரிப்பு இல்லை",
+    "துண்டு அளவுகளுக்கு ஜெல் சதவீதம் மிக அதிகம்",
+    "DNA ஏணி தவறான கிணற்றில் ஏற்றப்பட்டது",
+    "DNA மாதிரி சிதைந்திருந்தது (DNase மாசுபாடு) அல்லது கிணறு மிகை ஏற்றப்பட்டது"
+   ],
+   "e_ta": "பட்டைத் தெளிவின்மை பொதுவாக DNA சிதைவைக் குறிக்கும் — DNase மாசுபாட்டால் பகுதி சிதைவு ஏற்பட்டால், ஓரிடத்தில் தனிப் பட்டைக்குப் பதிலாகத் துண்டு அளவுகளின் தொடர்ச்சியான பரவல் கிடைக்கும். கிணற்றில் மிக அதிக DNA ஏற்றுவதும் தெளிவின்மையை ஏற்படுத்தும். தீர்வுகள்: அனைத்துப் பொருள்களும் RNase/DNase அற்றவை என உறுதிசெய்க; DNA ஏற்றும் அளவைக் குறைக்க; மின்னொட்டத்துக்கு முன் மாதிரியில் சிதையாத பட்டைகள் உள்ளனவா எனச் சரிபார்க்க."
   }
  ],
  "gene_cloning_steps_selection.html": [
@@ -2575,7 +2735,15 @@
     "Amplifying a gene using the polymerase chain reaction only"
    ],
    "a": 2,
-   "e": "Gene cloning is the process of producing multiple identical copies of a specific gene by inserting it into a vector, introducing the recombinant vector into a host cell, and allowing the host to replicate — copying the gene with each cell division."
+   "e": "Gene cloning is the process of producing multiple identical copies of a specific gene by inserting it into a vector, introducing the recombinant vector into a host cell, and allowing the host to replicate — copying the gene with each cell division.",
+   "q_ta": "மரபணுக் குளோனிங்கின் சரியான வரையறை என்ன?",
+   "o_ta": [
+    "முழு உயிரினத்தின் பாலிலா இனப்பெருக்கம்",
+    "உயிரினத்தின் முழு மரபணுத்தொகையை வரிசையாக்கல்",
+    "மறுசேர்க்கை DNA தொழில்நுட்பத்தால் குறிப்பிட்ட மரபணுவின் பல ஒத்த படிகளை உருவாக்குதல்",
+    "பாலிமெரேஸ் தொடர் வினையால் மட்டும் மரபணுவைப் பெருக்குதல்"
+   ],
+   "e_ta": "மரபணுக் குளோனிங் என்பது மரபணுவைத் தாங்கிக்கடத்தியில் செருகி, மறுசேர்க்கைத் தாங்கிக்கடத்தியை விருந்தோம்பி செல்லுக்குள் செலுத்தி, ஒவ்வொரு செல் பிரிவிலும் மரபணுவை நகலெடுக்க விருந்தோம்பியை அனுமதித்து, குறிப்பிட்ட மரபணுவின் பல ஒத்த படிகளை உருவாக்கும் செயல்முறை."
   },
   {
    "q": "Why must the same restriction enzyme be used to cut both the insert DNA and the vector?",
@@ -2586,7 +2754,15 @@
     "To prevent the host cell from degrading the recombinant DNA"
    ],
    "a": 1,
-   "e": "Using the same restriction enzyme on both insert and vector generates identical sticky end sequences on both molecules. These complementary overhangs can anneal by hydrogen bonding, positioning the ends correctly for DNA ligase to seal them covalently."
+   "e": "Using the same restriction enzyme on both insert and vector generates identical sticky end sequences on both molecules. These complementary overhangs can anneal by hydrogen bonding, positioning the ends correctly for DNA ligase to seal them covalently.",
+   "q_ta": "உட்செருகு DNA-வையும் தாங்கிக்கடத்தியையும் வெட்ட ஒரே கட்டுறு நொதி ஏன் பயன்படுத்தப்பட வேண்டும்?",
+   "o_ta": [
+    "DNA-வைச் சிறிய, கையாள எளிய துண்டுகளாக வெட்ட",
+    "இரு மூலக்கூறுகளிலும் இணைப்புக்கான நிரப்பு (இணக்கமான) ஒட்டும் முனைகள் இருப்பதை உறுதிசெய்ய",
+    "கட்டுறு நொதிகள் அயல் DNA-வில் மட்டுமே செயல்படுவதால்",
+    "விருந்தோம்பி செல் மறுசேர்க்கை DNA-வைச் சிதைப்பதைத் தடுக்க"
+   ],
+   "e_ta": "உட்செருகு, தாங்கிக்கடத்தி இரண்டிலும் ஒரே கட்டுறு நொதியைப் பயன்படுத்துவது இரு மூலக்கூறுகளிலும் ஒத்த ஒட்டும் முனை வரிசைகளை உருவாக்குகிறது. இந்த நிரப்பு நீட்சிகள் ஹைட்ரஜன் பிணைப்பால் இணைந்து, DNA லைகேஸ் அவற்றைச் சகப் பிணைப்பால் அடைக்கும் வகையில் முனைகளைச் சரியாக நிலைநிறுத்துகின்றன."
   },
   {
    "q": "T4 DNA ligase is used in gene cloning to:",
@@ -2597,7 +2773,15 @@
     "Introduce recombinant DNA into the host cell"
    ],
    "a": 2,
-   "e": "T4 DNA ligase catalyses the formation of covalent phosphodiester bonds between the 3'-OH of one DNA strand and the 5'-phosphate of the adjacent strand. It 'seals' the nick between the insert and vector, creating a continuous circular recombinant DNA molecule."
+   "e": "T4 DNA ligase catalyses the formation of covalent phosphodiester bonds between the 3'-OH of one DNA strand and the 5'-phosphate of the adjacent strand. It 'seals' the nick between the insert and vector, creating a continuous circular recombinant DNA molecule.",
+   "q_ta": "மரபணுக் குளோனிங்கில் T4 DNA லைகேஸ் பயன்படுவது:",
+   "o_ta": [
+    "குறிப்பிட்ட கட்டுறு இடங்களில் DNA-வை வெட்ட",
+    "PCR மூலம் இலக்கு மரபணுவைப் பெருக்க",
+    "உட்செருகு, தாங்கிக்கடத்தி DNA முனைகளுக்கிடையே பாஸ்போடையெஸ்டர் பிணைப்புகளை உருவாக்க",
+    "மறுசேர்க்கை DNA-வை விருந்தோம்பி செல்லுக்குள் செலுத்த"
+   ],
+   "e_ta": "T4 DNA லைகேஸ் ஓர் DNA இழையின் 3'-OH-க்கும் அடுத்த இழையின் 5'-பாஸ்பேட்டுக்கும் இடையே சகப் பாஸ்போடையெஸ்டர் பிணைப்புகளை உருவாக்குவதை வினையூக்குகிறது. இது உட்செருகுக்கும் தாங்கிக்கடத்திக்கும் இடையேயான வெட்டை 'அடைத்து', தொடர்ச்சியான வட்ட மறுசேர்க்கை DNA மூலக்கூற்றை உருவாக்குகிறது."
   },
   {
    "q": "In blue-white screening, white colonies indicate:",
@@ -2608,7 +2792,15 @@
     "Cells that have died from antibiotic exposure"
    ],
    "a": 1,
-   "e": "White colonies contain an insert cloned into the MCS within the lacZ gene. This disrupts lacZ, so no functional β-galactosidase is produced. X-gal in the medium is not cleaved — no blue compound forms — so the colony appears white. White = recombinant."
+   "e": "White colonies contain an insert cloned into the MCS within the lacZ gene. This disrupts lacZ, so no functional β-galactosidase is produced. X-gal in the medium is not cleaved — no blue compound forms — so the colony appears white. White = recombinant.",
+   "q_ta": "நீல-வெள்ளைச் சலிக்கையில் வெள்ளைக் காலனிகள் குறிப்பது:",
+   "o_ta": [
+    "தாங்கிக்கடத்தி இல்லாத, உருமாற்றம் அடையாத செல்கள்",
+    "உட்செருகு lacZ மரபணுவைச் சிதைத்துள்ள மறுசேர்க்கைக் குளோன்கள்",
+    "lacZ மரபணு சிதையாமல் செயல்படும் செல்கள்",
+    "நுண்ணுயிர்க்கொல்லி வெளிப்பாட்டால் இறந்த செல்கள்"
+   ],
+   "e_ta": "வெள்ளைக் காலனிகள் lacZ மரபணுவினுள்ளிருக்கும் MCS-இல் குளோனிடப்பட்ட உட்செருகைக் கொண்டுள்ளன. இது lacZ-ஐ சிதைப்பதால் செயல்படும் β-கேலக்டோசிடேஸ் உருவாவதில்லை. ஊடகத்திலுள்ள X-gal பிளக்கப்படுவதில்லை — நீலச் சேர்மம் உருவாகாது — எனவே காலனி வெள்ளையாகத் தோன்றுகிறது. வெள்ளை = மறுசேர்க்கை."
   },
   {
    "q": "In blue-white screening, the purpose of adding X-gal to the medium is:",
@@ -2619,7 +2811,15 @@
     "To prevent non-specific protein expression"
    ],
    "a": 0,
-   "e": "X-gal (5-bromo-4-chloro-3-indolyl-β-D-galactopyranoside) is a colourless substrate. When β-galactosidase (encoded by an intact lacZ gene) cleaves X-gal, it releases a blue compound (5-bromo-4-chloro-indigo), turning the colony blue."
+   "e": "X-gal (5-bromo-4-chloro-3-indolyl-β-D-galactopyranoside) is a colourless substrate. When β-galactosidase (encoded by an intact lacZ gene) cleaves X-gal, it releases a blue compound (5-bromo-4-chloro-indigo), turning the colony blue.",
+   "q_ta": "நீல-வெள்ளைச் சலிக்கையில் ஊடகத்தில் X-gal சேர்ப்பதன் நோக்கம்:",
+   "o_ta": [
+    "β-கேலக்டோசிடேஸ் பிளந்து நீல விளைபொருளைத் தரும் நிறமற்ற வினைபடு பொருளை வழங்க",
+    "lac ஓபரானைத் தூண்ட",
+    "ஆம்பிசிலின் எதிர்ப்பு உருமாறிகளைத் தேர்ந்தெடுக்க",
+    "குறிப்பிட்டதல்லாத புரத வெளிப்பாட்டைத் தடுக்க"
+   ],
+   "e_ta": "X-gal (5-புரோமோ-4-குளோரோ-3-இண்டோலைல்-β-D-கேலக்டோபைரனோசைடு) நிறமற்ற வினைபடு பொருள். சிதையாத lacZ மரபணு குறியீடு செய்யும் β-கேலக்டோசிடேஸ் X-gal-ஐப் பிளக்கும்போது நீலச் சேர்மத்தை (5-புரோமோ-4-குளோரோ-இண்டிகோ) வெளியிட்டு, காலனியை நீலமாக்குகிறது."
   },
   {
    "q": "In insertional inactivation using pBR322, when the gene of interest is cloned into the BamHI site (within tet^r), the recombinant cell will be:",
@@ -2630,7 +2830,15 @@
     "Resistant to both ampicillin and tetracycline"
    ],
    "a": 1,
-   "e": "The insert disrupts the tet^r gene (tetracycline resistance), making the cell tetracycline-sensitive. The amp^r gene is not affected, so the cell remains ampicillin-resistant. Recombinants grow on ampicillin but NOT on tetracycline; identified by replica plating."
+   "e": "The insert disrupts the tet^r gene (tetracycline resistance), making the cell tetracycline-sensitive. The amp^r gene is not affected, so the cell remains ampicillin-resistant. Recombinants grow on ampicillin but NOT on tetracycline; identified by replica plating.",
+   "q_ta": "pBR322-ஐப் பயன்படுத்தும் உட்செருகல் செயலிழப்பில், இலக்கு மரபணு BamHI இடத்தில் (tet^r-க்குள்) குளோனிடப்பட்டால், மறுசேர்க்கை செல்:",
+   "o_ta": [
+    "ஆம்பிசிலினுக்கு உணர்திறனும் டெட்ராசைக்ளினுக்கு எதிர்ப்பும் கொண்டது",
+    "ஆம்பிசிலினுக்கு எதிர்ப்பும் டெட்ராசைக்ளினுக்கு உணர்திறனும் கொண்டது",
+    "ஆம்பிசிலின், டெட்ராசைக்ளின் இரண்டுக்கும் உணர்திறன் கொண்டது",
+    "ஆம்பிசிலின், டெட்ராசைக்ளின் இரண்டுக்கும் எதிர்ப்புடையது"
+   ],
+   "e_ta": "உட்செருகு tet^r மரபணுவை (டெட்ராசைக்ளின் எதிர்ப்பு) சிதைப்பதால் செல் டெட்ராசைக்ளினுக்கு உணர்திறன் கொள்கிறது. amp^r மரபணு பாதிக்கப்படாததால் செல் ஆம்பிசிலினுக்கு எதிர்ப்புடன் இருக்கிறது. மறுசேர்க்கைகள் ஆம்பிசிலினில் வளரும்; டெட்ராசைக்ளினில் வளராது; நகல் வளர்ப்பால் அடையாளம் காணப்படுகின்றன."
   },
   {
    "q": "Which method is used to introduce recombinant plasmid DNA into competent E. coli cells?",
@@ -2641,7 +2849,15 @@
     "Conjugation"
    ],
    "a": 0,
-   "e": "Transformation is the process of introducing naked DNA into competent bacterial cells. Two main methods: (1) Chemical — CaCl₂ treatment to make cells competent, followed by brief heat shock at 42°C. (2) Electroporation — a high-voltage electric pulse creates temporary pores for DNA entry."
+   "e": "Transformation is the process of introducing naked DNA into competent bacterial cells. Two main methods: (1) Chemical — CaCl₂ treatment to make cells competent, followed by brief heat shock at 42°C. (2) Electroporation — a high-voltage electric pulse creates temporary pores for DNA entry.",
+   "q_ta": "மறுசேர்க்கைப் பிளாஸ்மிடு DNA-வைத் திறன்மிக்க E. coli செல்களுக்குள் செலுத்தப் பயன்படும் முறை எது?",
+   "o_ta": [
+    "உருமாற்றம் (வெப்ப அதிர்ச்சி அல்லது மின்துளையிடல்)",
+    "மின்னொட்டம்",
+    "பாஜ் மூலம் கடத்தல்",
+    "இணைவு"
+   ],
+   "e_ta": "உருமாற்றம் என்பது திறன்மிக்க பாக்டீரிய செல்களுக்குள் வெற்று DNA-வைச் செலுத்தும் செயல்முறை. இரு முக்கிய முறைகள்: (1) வேதியியல் — செல்களைத் திறன்மிக்கவையாக்க CaCl₂ சிகிச்சை, பின்னர் 42°C-இல் சிறிய வெப்ப அதிர்ச்சி. (2) மின்துளையிடல் — உயர் மின்னழுத்தத் துடிப்பு DNA நுழைய தற்காலிகத் துளைகளை உருவாக்குகிறது."
   },
   {
    "q": "What is the main purpose of alkaline phosphatase treatment of the linearised vector before ligation?",
@@ -2652,7 +2868,15 @@
     "To remove 5'-phosphate groups from vector ends, preventing self-ligation and reducing non-recombinant background"
    ],
    "a": 3,
-   "e": "Alkaline phosphatase removes the 5'-phosphate groups from the linearised vector ends. Without these groups, the vector cannot self-ligate (cannot re-circularise on its own). This forces the vector to ligate only with insert DNA (which retains its 5'-phosphates), greatly reducing the background of non-recombinant clones."
+   "e": "Alkaline phosphatase removes the 5'-phosphate groups from the linearised vector ends. Without these groups, the vector cannot self-ligate (cannot re-circularise on its own). This forces the vector to ligate only with insert DNA (which retains its 5'-phosphates), greatly reducing the background of non-recombinant clones.",
+   "q_ta": "இணைப்புக்கு முன் நேரியலாக்கப்பட்ட தாங்கிக்கடத்தியைக் காரப் பாஸ்படேஸால் சிகிச்சையளிப்பதன் முதன்மை நோக்கம் என்ன?",
+   "o_ta": [
+    "தாங்கிக்கடத்தியைச் சிறிய துண்டுகளாக்க",
+    "சிறந்த இணைப்புக்காகத் தாங்கிக்கடத்தி முனைகளில் பாஸ்பேட் தொகுதிகளைச் சேர்க்க",
+    "தாங்கிக்கடத்தி DNA-வைத் தூய்மையாக்க",
+    "தாங்கிக்கடத்தி முனைகளிலுள்ள 5'-பாஸ்பேட் தொகுதிகளை நீக்கி, தன்னிணைவைத் தடுத்து, மறுசேர்க்கையற்ற பின்னணியைக் குறைக்க"
+   ],
+   "e_ta": "காரப் பாஸ்படேஸ் நேரியலாக்கப்பட்ட தாங்கிக்கடத்தி முனைகளிலுள்ள 5'-பாஸ்பேட் தொகுதிகளை நீக்குகிறது. இத்தொகுதிகள் இன்றித் தாங்கிக்கடத்தி தன்னிணைய (தானாக வட்டமாக) இயலாது. இது தாங்கிக்கடத்தியை (5'-பாஸ்பேட்டுகளைத் தக்கவைத்திருக்கும்) உட்செருகு DNA-வுடன் மட்டுமே இணையுமாறு செய்து, மறுசேர்க்கையற்ற குளோன்களின் பின்னணியை மிகவும் குறைக்கிறது."
   },
   {
    "q": "After transformation, bacterial cells are first plated on ampicillin-containing medium. This step specifically selects for:",
@@ -2663,7 +2887,15 @@
     "Cells that have undergone recombination of their chromosomal DNA"
    ],
    "a": 2,
-   "e": "Plating on ampicillin selects for cells carrying the vector (which has the amp^r gene). Both recombinant (vector + insert) and non-recombinant (re-ligated vector only) cells survive. Non-transformed cells (no vector) die. A second step (blue-white or insertional inactivation) is then needed to distinguish recombinant from non-recombinant transformants."
+   "e": "Plating on ampicillin selects for cells carrying the vector (which has the amp^r gene). Both recombinant (vector + insert) and non-recombinant (re-ligated vector only) cells survive. Non-transformed cells (no vector) die. A second step (blue-white or insertional inactivation) is then needed to distinguish recombinant from non-recombinant transformants.",
+   "q_ta": "உருமாற்றத்துக்குப் பின் பாக்டீரிய செல்கள் முதலில் ஆம்பிசிலின் ஊடகத்தில் வளர்க்கப்படுகின்றன. இப்படி குறிப்பாகத் தேர்ந்தெடுப்பது:",
+   "o_ta": [
+    "சரியான உட்செருகுடன் மறுசேர்க்கைத் தாங்கிக்கடத்தி கொண்ட செல்களை",
+    "உருமாற்றம் அடையாத செல்களை",
+    "உருமாறிய அனைத்துச் செல்களையும் (உட்செருகுடனோ இன்றியோ தாங்கிக்கடத்தியை உள்ளெடுத்தவை)",
+    "நிறமூர்த்த DNA மறுசேர்க்கை அடைந்த செல்களை"
+   ],
+   "e_ta": "ஆம்பிசிலினில் வளர்ப்பது தாங்கிக்கடத்தியைச் (amp^r மரபணு உடையது) சுமக்கும் செல்களைத் தேர்ந்தெடுக்கிறது. மறுசேர்க்கை (தாங்கிக்கடத்தி + உட்செருகு), மறுசேர்க்கையற்ற (மீண்டும் இணைந்த தாங்கிக்கடத்தி மட்டும்) செல்கள் இரண்டும் உயிர்வாழும். உருமாற்றம் அடையாத (தாங்கிக்கடத்தி இல்லாத) செல்கள் இறக்கும். மறுசேர்க்கை, மறுசேர்க்கையற்ற உருமாறிகளை வேறுபடுத்த இரண்டாம் படி (நீல-வெள்ளை அல்லது உட்செருகல் செயலிழப்பு) தேவை."
   },
   {
    "q": "Which of the following is the correct sequence of steps in gene cloning?",
@@ -2674,7 +2906,15 @@
     "Isolation of gene → Restriction digestion → Ligation → Transformation → Selection and screening"
    ],
    "a": 3,
-   "e": "The correct sequence is: (1) Isolate gene of interest; (2) Restriction digestion of gene and vector with same enzyme; (3) Ligation (insert + vector) using T4 DNA ligase; (4) Transformation into competent E. coli; (5) Selection on antibiotic medium (transformants); (6) Screening for recombinants (blue-white / insertional inactivation)."
+   "e": "The correct sequence is: (1) Isolate gene of interest; (2) Restriction digestion of gene and vector with same enzyme; (3) Ligation (insert + vector) using T4 DNA ligase; (4) Transformation into competent E. coli; (5) Selection on antibiotic medium (transformants); (6) Screening for recombinants (blue-white / insertional inactivation).",
+   "q_ta": "மரபணுக் குளோனிங்கில் படிகளின் சரியான வரிசை பின்வருவனவற்றுள் எது?",
+   "o_ta": [
+    "உருமாற்றம் → இணைப்பு → கட்டுறு நொதிச் செரிமானம் → தேர்வு",
+    "தேர்வு → இணைப்பு → உருமாற்றம் → கட்டுறு நொதிச் செரிமானம்",
+    "PCR → வரிசையாக்கம் → குளோனிங் → உருமாற்றம்",
+    "மரபணுவைப் பிரித்தெடுத்தல் → கட்டுறு நொதிச் செரிமானம் → இணைப்பு → உருமாற்றம் → தேர்வும் சலிக்கையும்"
+   ],
+   "e_ta": "சரியான வரிசை: (1) இலக்கு மரபணுவைப் பிரித்தெடுத்தல்; (2) மரபணுவையும் தாங்கிக்கடத்தியையும் ஒரே நொதியால் கட்டுறு நொதிச் செரிமானம் செய்தல்; (3) T4 DNA லைகேஸால் இணைத்தல் (உட்செருகு + தாங்கிக்கடத்தி); (4) திறன்மிக்க E. coli-க்குள் உருமாற்றம்; (5) நுண்ணுயிர்க்கொல்லி ஊடகத்தில் தேர்வு (உருமாறிகள்); (6) மறுசேர்க்கைகளுக்கான சலிக்கை (நீல-வெள்ளை / உட்செருகல் செயலிழப்பு)."
   }
  ],
  "gene_therapy_app.html": [
@@ -2687,7 +2927,15 @@
     "Producing recombinant proteins in yeast"
    ],
    "a": 0,
-   "e": "Gene therapy introduces therapeutic genes into a patient's cells to correct or compensate for a defective gene."
+   "e": "Gene therapy introduces therapeutic genes into a patient's cells to correct or compensate for a defective gene.",
+   "q_ta": "மரபணு சிகிச்சை என்றால் என்ன?",
+   "o_ta": [
+    "நோயைக் குணப்படுத்த நோயாளியின் செல்களுக்குள் சிகிச்சை மரபணுக்களைச் செலுத்துதல்",
+    "ஆய்வுக்காகப் பாக்டீரியாவில் மரபணுக்களைக் குளோனிங் செய்தல்",
+    "அதிக விளைச்சலுக்காகப் பயிர் மரபணுக்களை மாற்றுதல்",
+    "ஈஸ்டில் மறுசேர்க்கைப் புரதங்களை உற்பத்தி செய்தல்"
+   ],
+   "e_ta": "மரபணு சிகிச்சை குறைபாடுள்ள மரபணுவைத் திருத்த அல்லது ஈடுசெய்ய நோயாளியின் செல்களுக்குள் சிகிச்சை மரபணுக்களைச் செலுத்துகிறது."
   },
   {
    "q": "In ex vivo gene therapy, the gene transfer takes place:",
@@ -2698,7 +2946,15 @@
     "In the patient's lymph nodes"
    ],
    "a": 2,
-   "e": "Ex vivo (outside the living) gene therapy involves removing cells, modifying them in the lab, and returning them."
+   "e": "Ex vivo (outside the living) gene therapy involves removing cells, modifying them in the lab, and returning them.",
+   "q_ta": "உடல்வெளி மரபணு சிகிச்சையில் மரபணு மாற்றம் நடைபெறுவது:",
+   "o_ta": [
+    "நோயாளியின் உடலுக்குள்",
+    "நோயாளியின் இரத்த ஓட்டத்தில்",
+    "நோயாளியின் உடலுக்கு வெளியே ஆய்வகத்தில்",
+    "நோயாளியின் நிணநீர்க் கணுக்களில்"
+   ],
+   "e_ta": "உடல்வெளி (உயிருள்ளதற்கு வெளியே) மரபணு சிகிச்சையில் செல்களை எடுத்து, ஆய்வகத்தில் மாற்றி, திரும்பச் செலுத்துகிறோம்."
   },
   {
    "q": "Which of the following is a key advantage of ex vivo gene therapy over in vivo?",
@@ -2709,7 +2965,15 @@
     "Suitable for all solid organs"
    ],
    "a": 1,
-   "e": "The ability to verify modified cells before reinfusion is the major safety advantage of ex vivo gene therapy."
+   "e": "The ability to verify modified cells before reinfusion is the major safety advantage of ex vivo gene therapy.",
+   "q_ta": "உடலக மரபணு சிகிச்சையைவிட உடல்வெளி மரபணு சிகிச்சையின் முக்கிய நன்மை பின்வருவனவற்றுள் எது?",
+   "o_ta": [
+    "எளிய, விரைவான செயல்முறை",
+    "மாற்றப்பட்ட செல்களை மீண்டும் செலுத்துவதற்கு முன் சரிபார்க்கலாம்",
+    "செல்களை நீக்க வேண்டியதில்லை",
+    "அனைத்துத் திண்ம உறுப்புகளுக்கும் ஏற்றது"
+   ],
+   "e_ta": "மறுசெலுத்தலுக்கு முன் மாற்றப்பட்ட செல்களைச் சரிபார்க்கும் திறன் உடல்வெளி மரபணு சிகிச்சையின் முக்கியப் பாதுகாப்பு நன்மை."
   },
   {
    "q": "The first human gene therapy clinical trial (1990) targeted which disease?",
@@ -2720,7 +2984,15 @@
     "ADA-SCID"
    ],
    "a": 3,
-   "e": "ADA-SCID (adenosine deaminase deficiency) was the target of the first approved human gene therapy trial in 1990."
+   "e": "ADA-SCID (adenosine deaminase deficiency) was the target of the first approved human gene therapy trial in 1990.",
+   "q_ta": "முதல் மனித மரபணு சிகிச்சை மருத்துவச் சோதனை (1990) எந்த நோயை இலக்காகக் கொண்டது?",
+   "o_ta": [
+    "நீர்மத்தடிமன் (சிஸ்டிக் ஃபைப்ரோசிஸ்)",
+    "ஹீமோஃபீலியா B",
+    "லெபர் பிறவி விழிப்புலனிழப்பு",
+    "ADA-SCID"
+   ],
+   "e_ta": "ADA-SCID (அடினோசின் டீஅமினேஸ் குறைபாடு) 1990-இல் அங்கீகரிக்கப்பட்ட முதல் மனித மரபணு சிகிச்சைச் சோதனையின் இலக்கு."
   },
   {
    "q": "Which vector is most widely used in currently approved in vivo gene therapies?",
@@ -2731,7 +3003,15 @@
     "Lentivirus"
    ],
    "a": 1,
-   "e": "AAV (Adeno-Associated Virus) is the most popular and widely approved vector for in vivo gene therapy due to its safety profile."
+   "e": "AAV (Adeno-Associated Virus) is the most popular and widely approved vector for in vivo gene therapy due to its safety profile.",
+   "q_ta": "தற்போது அங்கீகரிக்கப்பட்ட உடலக மரபணு சிகிச்சைகளில் மிகப் பரவலாகப் பயன்படும் தாங்கிக்கடத்தி எது?",
+   "o_ta": [
+    "ரெட்ரோவைரஸ்",
+    "அடினோ-தொடர்புடைய வைரஸ் (AAV)",
+    "அடினோவைரஸ்",
+    "லென்டிவைரஸ்"
+   ],
+   "e_ta": "AAV (அடினோ-தொடர்புடைய வைரஸ்) அதன் பாதுகாப்புச் சுயவிவரத்தால் உடலக மரபணு சிகிச்சைக்கு மிகப் பிரபலமான, பரவலாக அங்கீகரிக்கப்பட்ட தாங்கிக்கடத்தி."
   },
   {
    "q": "Suicide gene therapy in cancer works by:",
@@ -2742,7 +3022,15 @@
     "Introducing a gene that converts a harmless prodrug into a toxic compound inside cancer cells"
    ],
    "a": 3,
-   "e": "Suicide gene therapy uses genes like HSV-TK; when given a prodrug, the enzyme produced by this gene converts it into a toxic compound that kills the cancer cell."
+   "e": "Suicide gene therapy uses genes like HSV-TK; when given a prodrug, the enzyme produced by this gene converts it into a toxic compound that kills the cancer cell.",
+   "q_ta": "புற்றுநோயில் தற்கொலை மரபணு சிகிச்சை செயல்படுவது:",
+   "o_ta": [
+    "p53 கட்டி அடக்கி மரபணுவை மீட்டமைப்பதன் மூலம்",
+    "கட்டிகளுக்கு எதிராக இயற்கைக் கொல்லி செல்களைச் செயல்படுத்துவதன் மூலம்",
+    "RNA குறுக்கீட்டால் புற்றுமரபணுக்களை அமைதிப்படுத்துவதன் மூலம்",
+    "புற்றுச் செல்களுக்குள் தீங்கற்ற முன்மருந்தை நச்சுச் சேர்மமாக மாற்றும் மரபணுவைச் செலுத்துவதன் மூலம்"
+   ],
+   "e_ta": "தற்கொலை மரபணு சிகிச்சை HSV-TK போன்ற மரபணுக்களைப் பயன்படுத்துகிறது; முன்மருந்து அளிக்கப்படும்போது இம்மரபணு உருவாக்கும் நொதி அதை நச்சுச் சேர்மமாக மாற்றி புற்றுச் செல்லைக் கொல்கிறது."
   },
   {
    "q": "CAR-T cell therapy is classified as which type of gene therapy?",
@@ -2753,7 +3041,15 @@
     "Non-viral"
    ],
    "a": 2,
-   "e": "CAR-T is an ex vivo approach — T-cells are removed from the patient, engineered in the lab, and returned to target cancer cells."
+   "e": "CAR-T is an ex vivo approach — T-cells are removed from the patient, engineered in the lab, and returned to target cancer cells.",
+   "q_ta": "CAR-T செல் சிகிச்சை எவ்வகை மரபணு சிகிச்சையாக வகைப்படுத்தப்படுகிறது?",
+   "o_ta": [
+    "உடலக",
+    "இனச்செல்",
+    "உடல்வெளி",
+    "வைரஸற்ற"
+   ],
+   "e_ta": "CAR-T ஒரு உடல்வெளி அணுகுமுறை — நோயாளியிடமிருந்து T-செல்கள் எடுக்கப்பட்டு, ஆய்வகத்தில் பொறியியல் செய்யப்பட்டு, புற்றுச் செல்களை இலக்கிடத் திரும்பச் செலுத்தப்படுகின்றன."
   },
   {
    "q": "Insertional mutagenesis is a risk associated with which type of vector?",
@@ -2764,7 +3060,15 @@
     "Retroviral vectors"
    ],
    "a": 3,
-   "e": "Retroviral vectors integrate randomly into the host genome, risking activation of proto-oncogenes — a phenomenon called insertional mutagenesis."
+   "e": "Retroviral vectors integrate randomly into the host genome, risking activation of proto-oncogenes — a phenomenon called insertional mutagenesis.",
+   "q_ta": "இன்செர்ஷனல் மியூட்டஜெனிசிஸ் ஆபத்து எவ்வகைத் தாங்கிக்கடத்தியுடன் தொடர்புடையது?",
+   "o_ta": [
+    "AAV தாங்கிக்கடத்திகள்",
+    "அடினோவைரஸ் தாங்கிக்கடத்திகள்",
+    "லிப்போசோம் தாங்கிக்கடத்திகள்",
+    "ரெட்ரோவைரஸ் தாங்கிக்கடத்திகள்"
+   ],
+   "e_ta": "ரெட்ரோவைரஸ் தாங்கிக்கடத்திகள் விருந்தோம்பி மரபணுத்தொகையில் தற்போக்காக ஒருங்கிணைந்து, புற்றுமுன் மரபணுக்களைச் செயல்படுத்தும் ஆபத்தை ஏற்படுத்துகின்றன — இது இன்செர்ஷனல் மியூட்டஜெனிசிஸ் எனப்படுகிறது."
   },
   {
    "q": "Which tumour suppressor gene is most commonly targeted in cancer gene therapy?",
@@ -2775,7 +3079,15 @@
     "APC"
    ],
    "a": 0,
-   "e": "p53 is the most important tumour suppressor targeted in cancer gene therapy; it is mutated in over 50% of human cancers."
+   "e": "p53 is the most important tumour suppressor targeted in cancer gene therapy; it is mutated in over 50% of human cancers.",
+   "q_ta": "புற்றுநோய் மரபணு சிகிச்சையில் மிக அதிகமாக இலக்கிடப்படும் கட்டி அடக்கி மரபணு எது?",
+   "o_ta": [
+    "p53",
+    "BRCA1",
+    "Rb",
+    "APC"
+   ],
+   "e_ta": "புற்றுநோய் மரபணு சிகிச்சையில் இலக்கிடப்படும் மிக முக்கியக் கட்டி அடக்கி p53; 50%-க்கும் மேற்பட்ட மனிதப் புற்றுநோய்களில் இது திடீர்மாற்றம் அடைந்துள்ளது."
   },
   {
    "q": "Germline gene therapy is considered controversial because:",
@@ -2786,7 +3098,15 @@
     "It is less effective than somatic therapy"
    ],
    "a": 0,
-   "e": "Germline gene therapy modifies reproductive cells, meaning the genetic changes are permanent and passed to all future generations — raising serious ethical concerns."
+   "e": "Germline gene therapy modifies reproductive cells, meaning the genetic changes are permanent and passed to all future generations — raising serious ethical concerns.",
+   "q_ta": "இனச்செல் மரபணு சிகிச்சை சர்ச்சைக்குரியதாகக் கருதப்படுவது ஏனெனில்:",
+   "o_ta": [
+    "மாற்றங்கள் மரபுவழி வருபவை; எதிர்காலத் தலைமுறைகள் அனைத்தையும் பாதிக்கலாம்",
+    "இது இரத்தச் செல்களை மட்டுமே இலக்கிடுகிறது",
+    "இதற்கு வைரஸ் தாங்கிக்கடத்திகள் தேவை",
+    "இது உடல் செல் சிகிச்சையைவிடத் திறன் குறைந்தது"
+   ],
+   "e_ta": "இனச்செல் மரபணு சிகிச்சை இனப்பெருக்கச் செல்களை மாற்றுவதால், மரபணு மாற்றங்கள் நிலையானவையாகி எதிர்காலத் தலைமுறைகள் அனைத்துக்கும் கடத்தப்படுகின்றன — இது கடுமையான நெறிமுறைக் கவலைகளை எழுப்புகிறது."
   }
  ],
  "gene_transfer_methods_rdna_host_cells.html": [
