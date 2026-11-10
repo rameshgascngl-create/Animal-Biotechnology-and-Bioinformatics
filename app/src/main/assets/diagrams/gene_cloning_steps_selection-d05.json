@@ -1,0 +1,39 @@
+{
+ "id": "gene_cloning_steps_selection-d05",
+ "w": 700,
+ "h": 600,
+ "markers": [
+  {
+   "n": 1,
+   "x": 0.3625,
+   "y": 0.5495,
+   "en": "Blue colony: non-recombinant (lacZ intact, X-gal cleaved)",
+   "ta": "நீலக் காலனி: மறுசேர்க்கை அல்லாதது (lacZ சேதமின்றி, X-gal பிளக்கப்பட்டது)",
+   "ta_status": "draft"
+  },
+  {
+   "n": 2,
+   "x": 0.3012,
+   "y": 0.3826,
+   "en": "White colony: recombinant (insert disrupts lacZ) — pick this",
+   "ta": "வெள்ளைக் காலனி: மறுசேர்க்கை (செருகல் lacZ-ஐ சீர்குலைக்கிறது) — இதைத் தேர்ந்தெடு",
+   "ta_status": "draft"
+  },
+  {
+   "n": 3,
+   "x": 0.6714,
+   "y": 0.75,
+   "en": "LB agar + ampicillin + X-gal + IPTG",
+   "ta": "LB அகார் + ஆம்பிசிலின் + X-gal + IPTG",
+   "ta_status": "draft"
+  },
+  {
+   "n": 4,
+   "x": 0.8486,
+   "y": 0.4333,
+   "en": "Petri dish",
+   "ta": "பெட்ரி தட்டு",
+   "ta_status": "draft"
+  }
+ ]
+}

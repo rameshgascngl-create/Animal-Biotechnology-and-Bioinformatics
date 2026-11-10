@@ -1,0 +1,71 @@
+{
+ "id": "gel_electrophoresis-d01",
+ "w": 800,
+ "h": 520,
+ "markers": [
+  {
+   "n": 1,
+   "x": 0.5,
+   "y": 0.1346,
+   "en": "Power supply (70–120 V DC)",
+   "ta": "மின்வழங்கி (70–120 V DC)",
+   "ta_status": "draft"
+  },
+  {
+   "n": 2,
+   "x": 0.16,
+   "y": 0.6346,
+   "en": "Cathode (−), wells end",
+   "ta": "எதிர்மின்முனை (கேத்தோடு) (−), கிணறுகள் இருக்கும் முனை",
+   "ta_status": "draft"
+  },
+  {
+   "n": 3,
+   "x": 0.835,
+   "y": 0.6346,
+   "en": "Anode (+)",
+   "ta": "நேர்மின்முனை (அனோடு) (+)",
+   "ta_status": "draft"
+  },
+  {
+   "n": 4,
+   "x": 0.2125,
+   "y": 0.7788,
+   "en": "Buffer (TAE/TBE) covers the gel",
+   "ta": "ஜெல்லை மூடும் தாங்கல் கரைசல் (TAE/TBE)",
+   "ta_status": "draft"
+  },
+  {
+   "n": 5,
+   "x": 0.5375,
+   "y": 0.7154,
+   "en": "Agarose gel (1%)",
+   "ta": "அகரோஸ் ஜெல் (1%)",
+   "ta_status": "draft"
+  },
+  {
+   "n": 6,
+   "x": 0.335,
+   "y": 0.5692,
+   "en": "Wells",
+   "ta": "கிணறுகள்",
+   "ta_status": "draft"
+  },
+  {
+   "n": 7,
+   "x": 0.375,
+   "y": 0.5865,
+   "en": "DNA ladder lane (L)",
+   "ta": "DNA ஏணித் தடம் (L)",
+   "ta_status": "draft"
+  },
+  {
+   "n": 8,
+   "x": 0.5875,
+   "y": 0.6538,
+   "en": "DNA bands: small fragments move farthest towards the anode",
+   "ta": "DNA பட்டைகள்: சிறிய துண்டுகள் நேர்மின்முனையை நோக்கித் தொலைவாக நகரும்",
+   "ta_status": "draft"
+  }
+ ]
+}

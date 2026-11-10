@@ -143,16 +143,7 @@ fun BlockView(block: Block, lang: Lang, scale: Float) {
             }
         }
         is Reveal -> RevealView(block, lang, scale)
-        is Diagram -> Card(
-            colors = CardDefaults.cardColors(containerColor = Color(0xFFF3F6FA)),
-            border = BorderStroke(1.dp, Color(0xFFB8C4D4)),
-        ) {
-            Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-                Text("Diagram: ${block.id}", fontWeight = FontWeight.SemiBold, color = Muted)
-                BiText(block.caption, lang, scale, base = MaterialTheme.typography.bodyMedium, color = Muted)
-                Text("Native diagram arrives in a later update.", fontSize = (11 * scale).sp, color = Muted)
-            }
-        }
+        is Diagram -> DiagramView(block, lang, scale)
         is Unparsed -> Card(
             colors = CardDefaults.cardColors(containerColor = Color(0xFFFFF4E0)),
             border = BorderStroke(1.dp, Color(0xFFE0A030)),

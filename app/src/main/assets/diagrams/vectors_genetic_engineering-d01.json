@@ -1,0 +1,79 @@
+{
+ "id": "vectors_genetic_engineering-d01",
+ "w": 700,
+ "h": 640,
+ "markers": [
+  {
+   "n": 1,
+   "x": 0.5,
+   "y": 0.5156,
+   "en": "pBR322 plasmid (4,361 bp)",
+   "ta": "pBR322 பிளாஸ்மிடு (4,361 bp)",
+   "ta_status": "draft"
+  },
+  {
+   "n": 2,
+   "x": 0.5255,
+   "y": 0.8347,
+   "en": "ori: origin of replication",
+   "ta": "ori: இரட்டிப்புத் தொடக்கப்புள்ளி",
+   "ta_status": "draft"
+  },
+  {
+   "n": 3,
+   "x": 0.21,
+   "y": 0.471,
+   "en": "amp^r: ampicillin resistance gene",
+   "ta": "amp^r: ஆம்பிசிலின் எதிர்ப்பு மரபணு",
+   "ta_status": "draft"
+  },
+  {
+   "n": 4,
+   "x": 0.7654,
+   "y": 0.3803,
+   "en": "tet^r: tetracycline resistance gene",
+   "ta": "tet^r: டெட்ராசைக்ளின் எதிர்ப்பு மரபணு",
+   "ta_status": "draft"
+  },
+  {
+   "n": 5,
+   "x": 0.5,
+   "y": 0.1422,
+   "en": "EcoRI site",
+   "ta": "EcoRI இடம்",
+   "ta_status": "draft"
+  },
+  {
+   "n": 6,
+   "x": 0.6603,
+   "y": 0.1859,
+   "en": "HindIII site (inside tet^r)",
+   "ta": "HindIII இடம் (tet^r-க்குள்)",
+   "ta_status": "draft"
+  },
+  {
+   "n": 7,
+   "x": 0.769,
+   "y": 0.2857,
+   "en": "SalI / ClaI site (inside tet^r)",
+   "ta": "SalI / ClaI இடம் (tet^r-க்குள்)",
+   "ta_status": "draft"
+  },
+  {
+   "n": 8,
+   "x": 0.8412,
+   "y": 0.5026,
+   "en": "BamHI site (inside tet^r)",
+   "ta": "BamHI இடம் (tet^r-க்குள்)",
+   "ta_status": "draft"
+  },
+  {
+   "n": 9,
+   "x": 0.1588,
+   "y": 0.5026,
+   "en": "PstI site (inside amp^r)",
+   "ta": "PstI இடம் (amp^r-க்குள்)",
+   "ta_status": "draft"
+  }
+ ]
+}
