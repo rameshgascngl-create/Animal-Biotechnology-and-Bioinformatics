@@ -1,6 +1,8 @@
 package com.gasczoology.animalbiotech
 
 import android.content.Context
+import com.gasczoology.animalbiotech.i18n.Lang
+import com.gasczoology.animalbiotech.i18n.parseLang
 import org.json.JSONArray
 import org.json.JSONObject
 
@@ -158,3 +160,7 @@ class Store(ctx: Context) {
         if (score > best(file)) sp.edit().putInt("best_$file", score).apply()
     }
 }
+
+/** Reader language, persisted. Unknown or missing values give English. */
+fun Store.getLang(): Lang = parseLang(getString("lang"))
+fun Store.putLang(l: Lang) = putString("lang", l.name)
