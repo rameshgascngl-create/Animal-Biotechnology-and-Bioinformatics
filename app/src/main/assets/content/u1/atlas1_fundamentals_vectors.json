@@ -2,19 +2,25 @@
  "id": "atlas1_fundamentals_vectors",
  "unit": "I",
  "title": {
-  "en": "Atlas I: Fundamentals & Vectors"
+  "en": "Atlas I: Fundamentals & Vectors",
+  "ta": "அட்லஸ் I: அடிப்படைகளும் தாங்கிக்கடத்திகளும்",
+  "ta_status": "draft"
  },
  "sections": [
   {
    "id": "s01",
    "title": {
-    "en": "Overview"
+    "en": "Overview",
+    "ta": "மேலோட்டம்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "🎨 Unit I · Diagram Atlas"
+      "en": "🎨 Unit I · Diagram Atlas",
+      "ta": "🎨 அலகு I · படத் தொகுப்பு (அட்லஸ்)",
+      "ta_status": "draft"
      }
     }
    ]
@@ -22,31 +28,41 @@
   {
    "id": "s02",
    "title": {
-    "en": "Diagram Atlas I: Fundamentals and Vectors"
+    "en": "Diagram Atlas I: Fundamentals and Vectors",
+    "ta": "படத் தொகுப்பு I: அடிப்படைகளும் தாங்கிக்கடத்திகளும்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Branches · Restriction enzymes · Plasmid, phage and large-insert vectors · Libraries"
+      "en": "Branches · Restriction enzymes · Plasmid, phage and large-insert vectors · Libraries",
+      "ta": "கிளைகள் · ரெஸ்ட்ரிக்ஷன் நொதிகள் · பிளாஸ்மிட், பேஜ் மற்றும் பெரிய செருகு தாங்கிக்கடத்திகள் · நூலகங்கள்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Fifteen labelled diagrams and flow charts covering Unit I: the colour-coded branches of biotechnology, how restriction enzymes cut, the maps of pBR322 and the Ti plasmid, phage cycles, vector capacities, and library construction. Draw them in the examination with confidence."
+      "en": "Fifteen labelled diagrams and flow charts covering Unit I: the colour-coded branches of biotechnology, how restriction enzymes cut, the maps of pBR322 and the Ti plasmid, phage cycles, vector capacities, and library construction. Draw them in the examination with confidence.",
+      "ta": "அலகு I-ஐ உள்ளடக்கிய பதினைந்து குறிப்பிட்ட படங்களும் பாய்வு வரைபடங்களும்: உயிரித் தொழில்நுட்பத்தின் வண்ணக்குறியீட்டுக் கிளைகள், ரெஸ்ட்ரிக்ஷன் நொதிகள் வெட்டும் முறை, pBR322 மற்றும் Ti பிளாஸ்மிட் வரைபடங்கள், பேஜ் சுழற்சிகள், தாங்கிக்கடத்திகளின் கொள்ளளவுகள், நூலக உருவாக்கம். தேர்வில் தன்னம்பிக்கையுடன் வரையுங்கள்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "📚 6 chapters🎯 10 MCQs📝 Exam questions🎓 B.Sc. Zoology / Biotechnology"
+      "en": "📚 6 chapters🎯 10 MCQs📝 Exam questions🎓 B.Sc. Zoology / Biotechnology",
+      "ta": "📚 6 பாடங்கள்🎯 10 பல்தேர்வு வினாக்கள்📝 தேர்வு வினாக்கள்🎓 B.Sc. விலங்கியல் / உயிரித் தொழில்நுட்பவியல்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "**🎯 Learning Objectives**"
+      "en": "**🎯 Learning Objectives**",
+      "ta": "**🎯 கற்றல் நோக்கங்கள்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -54,19 +70,29 @@
      "ordered": false,
      "items": [
       {
-       "en": "✓Draw and label EcoRI and SmaI cuts and the enzyme toolkit."
+       "en": "✓Draw and label EcoRI and SmaI cuts and the enzyme toolkit.",
+       "ta": "✓EcoRI மற்றும் SmaI வெட்டுகளையும் நொதிக் கருவித்தொகுப்பையும் வரைந்து பெயரிடுக.",
+       "ta_status": "draft"
       },
       {
-       "en": "✓Sketch the maps of pBR322 and the Ti plasmid and predict insertional-inactivation phenotypes."
+       "en": "✓Sketch the maps of pBR322 and the Ti plasmid and predict insertional-inactivation phenotypes.",
+       "ta": "✓pBR322 மற்றும் Ti பிளாஸ்மிட் வரைபடங்களை வரைந்து, உட்செருகுதல் செயலிழப்பின் பண்புருக்களை முன்கூட்டியே கூறுக.",
+       "ta_status": "draft"
       },
       {
-       "en": "✓Explain lambda cycles, M13, cosmid, YAC, BAC, SV40 and transposon vectors with diagrams."
+       "en": "✓Explain lambda cycles, M13, cosmid, YAC, BAC, SV40 and transposon vectors with diagrams.",
+       "ta": "✓லாம்டா சுழற்சிகள், M13, காஸ்மிட், YAC, BAC, SV40 மற்றும் டிரான்ஸ்போசான் தாங்கிக்கடத்திகளைப் படங்களுடன் விளக்குக.",
+       "ta_status": "draft"
       },
       {
-       "en": "✓Compare vector capacities and choose a vector for a task."
+       "en": "✓Compare vector capacities and choose a vector for a task.",
+       "ta": "✓தாங்கிக்கடத்திகளின் கொள்ளளவுகளை ஒப்பிட்டு, ஒரு பணிக்கு ஏற்றதைத் தேர்ந்தெடுக்க.",
+       "ta_status": "draft"
       },
       {
-       "en": "✓Contrast genomic and cDNA libraries and calculate library size."
+       "en": "✓Contrast genomic and cDNA libraries and calculate library size.",
+       "ta": "✓மரபணு தொகையம் மற்றும் cDNA நூலகங்களை வேறுபடுத்தி, நூலகத்தின் அளவைக் கணக்கிடுக.",
+       "ta_status": "draft"
       }
      ]
     }
@@ -75,32 +101,42 @@
   {
    "id": "s03",
    "title": {
-    "en": "Branches and Milestones of Biotechnology"
+    "en": "Branches and Milestones of Biotechnology",
+    "ta": "உயிரித் தொழில்நுட்பத்தின் கிளைகளும் மைல்கற்களும்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "A single picture of what biotechnology covers, and the key dates every student must remember."
+      "en": "A single picture of what biotechnology covers, and the key dates every student must remember.",
+      "ta": "உயிரித் தொழில்நுட்பம் எவற்றை உள்ளடக்குகிறது என்பதற்கான ஒரே படமும், ஒவ்வொரு மாணவரும் நினைவில் கொள்ள வேண்டிய முக்கிய ஆண்டுகளும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Biotechnology"
+      "en": "Biotechnology",
+      "ta": "உயிரித் தொழில்நுட்பம்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "The use of living organisms, cells or their components to make products or processes for human use (Karl Ereky coined the term in 1919; the Convention on Biological Diversity gives a formal modern definition)."
+      "en": "The use of living organisms, cells or their components to make products or processes for human use (Karl Ereky coined the term in 1919; the Convention on Biological Diversity gives a formal modern definition).",
+      "ta": "உயிருள்ள உயிரினங்கள், செல்கள் அல்லது அவற்றின் கூறுகளைக் கொண்டு மனிதப் பயன்பாட்டுக்கான பொருட்களையோ செயல்முறைகளையோ உருவாக்குதல் (கார்ல் எரெக்கி 1919-ல் இச்சொல்லை உருவாக்கினார்; உயிரிப் பன்முகத்தன்மை உடன்படிக்கை முறையான நவீன வரையறையை வழங்குகிறது).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "atlas1_fundamentals_vectors-d01",
      "caption": {
-      "en": "Fig. 1. Colour-coded branches of biotechnology (a common convention; some authors add further colours)."
+      "en": "Fig. 1. Colour-coded branches of biotechnology (a common convention; some authors add further colours).",
+      "ta": "படம் 1. உயிரித் தொழில்நுட்பத்தின் வண்ணக்குறியீட்டுக் கிளைகள் (பொதுவான மரபு; சில ஆசிரியர்கள் கூடுதல் வண்ணங்களைச் சேர்க்கின்றனர்).",
+      "ta_status": "draft"
      },
      "labels": [
       "Biotechnology",
@@ -121,7 +157,9 @@
      "type": "diagram",
      "id": "atlas1_fundamentals_vectors-d02",
      "caption": {
-      "en": "Fig. 2. Milestones. Click-free summary: 1973 Cohen and Boyer made the first recombinant DNA; 1975 Köhler and Milstein made hybridomas; 1977 Sanger sequencing."
+      "en": "Fig. 2. Milestones. Click-free summary: 1973 Cohen and Boyer made the first recombinant DNA; 1975 Köhler and Milstein made hybridomas; 1977 Sanger sequencing.",
+      "ta": "படம் 2. மைல்கற்கள். சுருக்கம்: 1973-ல் கோஹன் மற்றும் பாயர் முதல் மறுகூட்டிணைவு DNA-வை உருவாக்கினர்; 1975-ல் கோலர் மற்றும் மில்ஸ்டீன் ஹைப்ரிடோமாக்களை உருவாக்கினர்; 1977-ல் சேங்கர் வரிசைப்படுத்தல்.",
+      "ta_status": "draft"
      },
      "labels": [
       "Ancient",
@@ -146,7 +184,9 @@
     {
      "type": "p",
      "text": {
-      "en": "**PG focus**"
+      "en": "**PG focus**",
+      "ta": "**முதுநிலை கவனம்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -154,10 +194,14 @@
      "ordered": false,
      "items": [
       {
-       "en": "Distinguish _traditional_ biotechnology (fermentation, breeding) from _modern_ biotechnology (rDNA, cell fusion, gene editing)."
+       "en": "Distinguish _traditional_ biotechnology (fermentation, breeding) from _modern_ biotechnology (rDNA, cell fusion, gene editing).",
+       "ta": "_மரபுவழி_ உயிரித் தொழில்நுட்பத்தை (நொதித்தல், இனப்பெருக்கம்) _நவீன_ உயிரித் தொழில்நுட்பத்திலிருந்து (rDNA, செல் இணைவு, மரபணு திருத்தம்) வேறுபடுத்துக.",
+       "ta_status": "draft"
       },
       {
-       "en": "Know why the 1975 Asilomar meeting is a landmark for biosafety."
+       "en": "Know why the 1975 Asilomar meeting is a landmark for biosafety.",
+       "ta": "1975 ஆசிலோமர் கூட்டம் உயிரிப் பாதுகாப்பில் ஏன் ஒரு மைல்கல் என்பதை அறிக.",
+       "ta_status": "draft"
       }
      ]
     }
@@ -167,20 +211,26 @@
   {
    "id": "s04",
    "title": {
-    "en": "Enzymes: Cutting, Joining and Copying DNA"
+    "en": "Enzymes: Cutting, Joining and Copying DNA",
+    "ta": "நொதிகள்: DNA-வை வெட்டுதல், இணைத்தல், நகலெடுத்தல்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Restriction enzymes are molecular scissors; ligase is the glue. Know how ends are produced."
+      "en": "Restriction enzymes are molecular scissors; ligase is the glue. Know how ends are produced.",
+      "ta": "ரெஸ்ட்ரிக்ஷன் நொதிகள் மூலக்கூறு கத்தரிகோல்கள்; லைகேஸ் பசை. முனைகள் எவ்வாறு உருவாகின்றன என்பதை அறிக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "atlas1_fundamentals_vectors-d03",
      "caption": {
-      "en": "Fig. 3. EcoRI leaves 5′ AATT overhangs; SmaI leaves blunt ends. Red lines mark the cut positions."
+      "en": "Fig. 3. EcoRI leaves 5′ AATT overhangs; SmaI leaves blunt ends. Red lines mark the cut positions.",
+      "ta": "படம் 3. EcoRI 5′ AATT நீட்சிகளை விட்டுச் செல்கிறது; SmaI மழுங்கிய முனைகளை விட்டுச் செல்கிறது. சிவப்புக் கோடுகள் வெட்டும் இடங்களைக் குறிக்கின்றன.",
+      "ta_status": "draft"
      },
      "labels": [
       "EcoRI (G^AATTC): sticky ends",
@@ -253,59 +303,91 @@
      "type": "table",
      "header": [
       {
-       "en": "Type"
+       "en": "Type",
+       "ta": "வகை",
+       "ta_status": "draft"
       },
       {
-       "en": "Cofactors"
+       "en": "Cofactors",
+       "ta": "துணைக்காரணிகள்",
+       "ta_status": "draft"
       },
       {
-       "en": "Recognition / cut"
+       "en": "Recognition / cut",
+       "ta": "அடையாளம் / வெட்டு",
+       "ta_status": "draft"
       },
       {
-       "en": "Use"
+       "en": "Use",
+       "ta": "பயன்",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Type I**"
+        "en": "**Type I**",
+        "ta": "**வகை I**",
+        "ta_status": "draft"
        },
        {
-        "en": "ATP, Mg²⁺, SAM"
+        "en": "ATP, Mg²⁺, SAM",
+        "ta": "ATP, Mg²⁺, SAM",
+        "ta_status": "draft"
        },
        {
-        "en": "Cut far from the recognition site (random)"
+        "en": "Cut far from the recognition site (random)",
+        "ta": "அடையாள இடத்திலிருந்து தொலைவில் வெட்டும் (சீரற்றது)",
+        "ta_status": "draft"
        },
        {
-        "en": "Not used in cloning"
+        "en": "Not used in cloning",
+        "ta": "நகலாக்கத்தில் பயன்படுத்தப்படுவதில்லை",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Type II**"
+        "en": "**Type II**",
+        "ta": "**வகை II**",
+        "ta_status": "draft"
        },
        {
-        "en": "Mg²⁺ only"
+        "en": "Mg²⁺ only",
+        "ta": "Mg²⁺ மட்டும்",
+        "ta_status": "draft"
        },
        {
-        "en": "Cut at or near a palindromic site (4–8 bp)"
+        "en": "Cut at or near a palindromic site (4–8 bp)",
+        "ta": "முன்பின் ஒத்த இடத்தில் அல்லது அதன் அருகில் வெட்டும் (4–8 bp)",
+        "ta_status": "draft"
        },
        {
-        "en": "**Standard in cloning** (EcoRI, BamHI, HindIII)"
+        "en": "**Standard in cloning** (EcoRI, BamHI, HindIII)",
+        "ta": "**நகலாக்கத்தில் நிலையான பயன்பாடு** (EcoRI, BamHI, HindIII)",
+        "ta_status": "bracketed"
        }
       ],
       [
        {
-        "en": "**Type III**"
+        "en": "**Type III**",
+        "ta": "**வகை III**",
+        "ta_status": "draft"
        },
        {
-        "en": "ATP, Mg²⁺"
+        "en": "ATP, Mg²⁺",
+        "ta": "ATP, Mg²⁺",
+        "ta_status": "draft"
        },
        {
-        "en": "Cut 20–30 bp from the site"
+        "en": "Cut 20–30 bp from the site",
+        "ta": "அடையாள இடத்திலிருந்து 20–30 bp தொலைவில் வெட்டும்",
+        "ta_status": "draft"
        },
        {
-        "en": "Rare"
+        "en": "Rare",
+        "ta": "அரிது",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -314,7 +396,9 @@
      "type": "diagram",
      "id": "atlas1_fundamentals_vectors-d04",
      "caption": {
-      "en": "Fig. 4. The enzyme toolkit and the job each enzyme does."
+      "en": "Fig. 4. The enzyme toolkit and the job each enzyme does.",
+      "ta": "படம் 4. நொதிக் கருவித்தொகுப்பும் ஒவ்வொரு நொதியின் பணியும்.",
+      "ta_status": "draft"
      },
      "labels": [
       "Restriction",
@@ -340,13 +424,17 @@
     {
      "type": "p",
      "text": {
-      "en": "**Exam tip**"
+      "en": "**Exam tip**",
+      "ta": "**தேர்வுக் குறிப்பு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Isoschizomers recognise the same sequence (SmaI and XmaI); neoschizomers cut the same sequence at a different position (SmaI blunt, XmaI sticky). Compatible cohesive ends (BamHI and BglII) can be ligated but the junction is no longer cut by either enzyme."
+      "en": "Isoschizomers recognise the same sequence (SmaI and XmaI); neoschizomers cut the same sequence at a different position (SmaI blunt, XmaI sticky). Compatible cohesive ends (BamHI and BglII) can be ligated but the junction is no longer cut by either enzyme.",
+      "ta": "ஐசோஸ்கிசோமர்கள் ஒரே வரிசையை அடையாளம் காணும் (SmaI மற்றும் XmaI); நியோஸ்கிசோமர்கள் அதே வரிசையை வேறு இடத்தில் வெட்டும் (SmaI மழுங்கிய, XmaI ஒட்டும்). பொருந்தும் ஒட்டிணைவான முனைகளை (BamHI மற்றும் BglII) இணைக்கலாம்; ஆனால் அந்த இணைப்பு இடத்தை இரு நொதிகளுமே இனி வெட்டாது.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -355,26 +443,34 @@
   {
    "id": "s05",
    "title": {
-    "en": "Plasmid Vectors: pBR322 and the Ti Plasmid"
+    "en": "Plasmid Vectors: pBR322 and the Ti Plasmid",
+    "ta": "பிளாஸ்மிட் தாங்கிக்கடத்திகள்: pBR322 மற்றும் Ti பிளாஸ்மிட்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Plasmids are small, circular, self-replicating DNA molecules. Learn the map of pBR322 and the Ti plasmid structure."
+      "en": "Plasmids are small, circular, self-replicating DNA molecules. Learn the map of pBR322 and the Ti plasmid structure.",
+      "ta": "பிளாஸ்மிட்கள் சிறிய, வட்ட வடிவ, தன்னைத்தானே பெருக்கிக்கொள்ளும் DNA மூலக்கூறுகள். pBR322 வரைபடத்தையும் Ti பிளாஸ்மிட் அமைப்பையும் கற்றுக்கொள்க.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Features of a good plasmid vector: an **origin of replication**, one or more **selectable markers**, unique **restriction sites** (multiple cloning site), small size, and high copy number."
+      "en": "Features of a good plasmid vector: an **origin of replication**, one or more **selectable markers**, unique **restriction sites** (multiple cloning site), small size, and high copy number.",
+      "ta": "நல்ல பிளாஸ்மிட் தாங்கிக்கடத்தியின் பண்புகள்: **பெருக்கமடைதலின் தோற்றம்**, ஒன்று அல்லது அதற்கு மேற்பட்ட **தேர்ந்தெடுக்கும் அடையாளக்குறிகள்**, தனித்த **ரெஸ்ட்ரிக்ஷன் இடங்கள்** (பல நகலாக்கக் களங்கள்), சிறிய அளவு, அதிக நகல் எண்ணிக்கை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "atlas1_fundamentals_vectors-d05",
      "caption": {
-      "en": "Fig. 5. pBR322 (4,361 bp). Sites inside tetR (BamHI, SalI, HindIII) allow insertional inactivation of tetracycline resistance; PstI, PvuI and ScaI lie in ampR."
+      "en": "Fig. 5. pBR322 (4,361 bp). Sites inside tetR (BamHI, SalI, HindIII) allow insertional inactivation of tetracycline resistance; PstI, PvuI and ScaI lie in ampR.",
+      "ta": "படம் 5. pBR322 (4,361 bp). tetR-க்குள் உள்ள இடங்கள் (BamHI, SalI, HindIII) டெட்ராசைக்ளின் எதிர்ப்பின் உட்செருகுதல் செயலிழப்பை அனுமதிக்கின்றன; PstI, PvuI மற்றும் ScaI ஆகியவை ampR-ல் அமைந்துள்ளன.",
+      "ta_status": "draft"
      },
      "labels": [
       "tetR",
@@ -396,47 +492,71 @@
      "type": "table",
      "header": [
       {
-       "en": "Insert at"
+       "en": "Insert at",
+       "ta": "செருகப்படும் இடம்",
+       "ta_status": "draft"
       },
       {
-       "en": "Gene inactivated"
+       "en": "Gene inactivated",
+       "ta": "செயலிழக்கும் மரபணு",
+       "ta_status": "draft"
       },
       {
-       "en": "Recombinant phenotype"
+       "en": "Recombinant phenotype",
+       "ta": "மறுகூட்டிணைவுப் பண்புரு",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**BamHI / SalI / HindIII**"
+        "en": "**BamHI / SalI / HindIII**",
+        "ta": "**BamHI / SalI / HindIII**",
+        "ta_status": "draft"
        },
        {
-        "en": "tetR"
+        "en": "tetR",
+        "ta": "tetR",
+        "ta_status": "draft"
        },
        {
-        "en": "AmpR TetS"
+        "en": "AmpR TetS",
+        "ta": "AmpR TetS",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**PstI / PvuI / ScaI**"
+        "en": "**PstI / PvuI / ScaI**",
+        "ta": "**PstI / PvuI / ScaI**",
+        "ta_status": "draft"
        },
        {
-        "en": "ampR"
+        "en": "ampR",
+        "ta": "ampR",
+        "ta_status": "draft"
        },
        {
-        "en": "AmpS TetR"
+        "en": "AmpS TetR",
+        "ta": "AmpS TetR",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**EcoRI**"
+        "en": "**EcoRI**",
+        "ta": "**EcoRI**",
+        "ta_status": "draft"
        },
        {
-        "en": "none (outside both genes)"
+        "en": "none (outside both genes)",
+        "ta": "எதுவுமில்லை (இரு மரபணுக்களுக்கும் வெளியே)",
+        "ta_status": "draft"
        },
        {
-        "en": "AmpR TetR; needs another screen"
+        "en": "AmpR TetR; needs another screen",
+        "ta": "AmpR TetR; வேறொரு சலிக்கை தேவை",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -445,7 +565,9 @@
      "type": "diagram",
      "id": "atlas1_fundamentals_vectors-d06",
      "caption": {
-      "en": "Fig. 6. Ti plasmid of _Agrobacterium tumefaciens_: the T-DNA lies between the right (RB) and left (LB) borders; vir genes act in trans. Schematic, not to scale."
+      "en": "Fig. 6. Ti plasmid of _Agrobacterium tumefaciens_: the T-DNA lies between the right (RB) and left (LB) borders; vir genes act in trans. Schematic, not to scale.",
+      "ta": "படம் 6. _Agrobacterium tumefaciens_-இன் Ti பிளாஸ்மிட்: T-DNA வலது (RB) மற்றும் இடது (LB) எல்லைகளுக்கு இடையே அமைந்துள்ளது; vir மரபணுக்கள் ட்ரான்ஸ்-ஆக செயல்படுகின்றன. திட்ட வரைபடம்; அளவுக்கேற்றதல்ல.",
+      "ta_status": "draft"
      },
      "labels": [
       "T-DNA",
@@ -461,7 +583,9 @@
     {
      "type": "p",
      "text": {
-      "en": "**Ti plasmid in brief**"
+      "en": "**Ti plasmid in brief**",
+      "ta": "**Ti பிளாஸ்மிட் சுருக்கமாக**",
+      "ta_status": "draft"
      }
     },
     {
@@ -469,16 +593,24 @@
      "ordered": false,
      "items": [
       {
-       "en": "Wounded plant cells release phenolics (acetosyringone) that activate VirA/VirG."
+       "en": "Wounded plant cells release phenolics (acetosyringone) that activate VirA/VirG.",
+       "ta": "காயமுற்ற தாவர செல்கள் VirA/VirG-ஐ இயக்கும் பீனால்களை (அசிட்டோசிரிங்கோன்) வெளியிடுகின்றன.",
+       "ta_status": "draft"
       },
       {
-       "en": "VirD1/D2 nick the borders; the T-strand (with VirE2) passes through the VirB type IV secretion system into the plant nucleus."
+       "en": "VirD1/D2 nick the borders; the T-strand (with VirE2) passes through the VirB type IV secretion system into the plant nucleus.",
+       "ta": "VirD1/D2 எல்லைகளில் வெட்டுகின்றன; T-இழை (VirE2-உடன்) VirB வகை IV சுரப்பு அமைப்பு வழியாகத் தாவர உட்கருவுக்குள் செல்கிறது.",
+       "ta_status": "draft"
       },
       {
-       "en": "In disarmed vectors the oncogenes are removed and the gene of interest is placed between the borders."
+       "en": "In disarmed vectors the oncogenes are removed and the gene of interest is placed between the borders.",
+       "ta": "செயலிழக்கச் செய்யப்பட்ட தாங்கிக்கடத்திகளில் புற்றுமரபணுக்கள் நீக்கப்பட்டு, தேவையான மரபணு எல்லைகளுக்கு இடையே வைக்கப்படுகிறது.",
+       "ta_status": "draft"
       },
       {
-       "en": "Relevance to animal biotechnology: a classic example of natural genetic engineering and of a binary vector design."
+       "en": "Relevance to animal biotechnology: a classic example of natural genetic engineering and of a binary vector design.",
+       "ta": "விலங்கு உயிரித் தொழில்நுட்பத்துடன் தொடர்பு: இயற்கை மரபணுப் பொறியியலுக்கும் இரட்டைத் தாங்கிக்கடத்தி (பைனரி வெக்டர்) வடிவமைப்புக்கும் ஒரு சிறந்த எடுத்துக்காட்டு.",
+       "ta_status": "draft"
       }
      ]
     }
@@ -488,20 +620,26 @@
   {
    "id": "s06",
    "title": {
-    "en": "Bacteriophage Vectors: Lambda and M13"
+    "en": "Bacteriophage Vectors: Lambda and M13",
+    "ta": "பாக்டீரியோஃபேஜ் தாங்கிக்கடத்திகள்: லாம்டா மற்றும் M13",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Phage vectors carry larger inserts than plasmids and are efficient at infecting cells."
+      "en": "Phage vectors carry larger inserts than plasmids and are efficient at infecting cells.",
+      "ta": "பேஜ் தாங்கிக்கடத்திகள் பிளாஸ்மிட்களை விடப் பெரிய செருகு DNA-வைச் சுமக்கின்றன; செல்களைத் தொற்றுவதில் திறன் மிக்கவை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "atlas1_fundamentals_vectors-d07",
      "caption": {
-      "en": "Fig. 7. Lytic and lysogenic pathways of lambda (λ genome 48.5 kb, linear with 12-base cohesive _cos_ ends)."
+      "en": "Fig. 7. Lytic and lysogenic pathways of lambda (λ genome 48.5 kb, linear with 12-base cohesive _cos_ ends).",
+      "ta": "படம் 7. லாம்டாவின் லைடிக் மற்றும் லைசோஜெனிக் வழிகள் (λ மரபணுத்தொகை 48.5 kb, 12 காரங்கள் கொண்ட ஒட்டிணைவான _cos_ முனைகளுடன் நேர்கோடானது).",
+      "ta_status": "draft"
      },
      "labels": [
       "Attachment (LamB receptor)",
@@ -526,7 +664,9 @@
      "type": "diagram",
      "id": "atlas1_fundamentals_vectors-d08",
      "caption": {
-      "en": "Fig. 8. How a lambda replacement vector is used. Packaging accepts DNA of about 75–105% of the wild-type genome."
+      "en": "Fig. 8. How a lambda replacement vector is used. Packaging accepts DNA of about 75–105% of the wild-type genome.",
+      "ta": "படம் 8. லாம்டா பதிலீட்டுத் தாங்கிக்கடத்தி பயன்படுத்தப்படும் முறை. காட்டுவகை மரபணுத்தொகையின் ஏறத்தாழ 75–105% அளவுள்ள DNA-வை பொதிவு ஏற்கும்.",
+      "ta_status": "draft"
      },
      "labels": [
       "Replacement vector:",
@@ -548,7 +688,9 @@
      "type": "diagram",
      "id": "atlas1_fundamentals_vectors-d09",
      "caption": {
-      "en": "Fig. 9. M13 is a filamentous ssDNA phage that infects F⁺ _E. coli_ and does not kill the cell."
+      "en": "Fig. 9. M13 is a filamentous ssDNA phage that infects F⁺ _E. coli_ and does not kill the cell.",
+      "ta": "படம் 9. M13 என்பது F⁺ _E. coli_-யைத் தொற்றி செல்லைக் கொல்லாத இழை வடிவ ssDNA பேஜ் ஆகும்.",
+      "ta_status": "draft"
      },
      "labels": [
       "M13 (+) strand",
@@ -570,58 +712,88 @@
      "type": "table",
      "header": [
       {
-       "en": "Feature"
+       "en": "Feature",
+       "ta": "பண்பு",
+       "ta_status": "draft"
       },
       {
-       "en": "Lambda"
+       "en": "Lambda",
+       "ta": "லாம்டா",
+       "ta_status": "draft"
       },
       {
-       "en": "M13"
+       "en": "M13",
+       "ta": "M13",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Genome**"
+        "en": "**Genome**",
+        "ta": "**மரபணுத்தொகை**",
+        "ta_status": "draft"
        },
        {
-        "en": "48.5 kb linear dsDNA"
+        "en": "48.5 kb linear dsDNA",
+        "ta": "48.5 kb நேர்கோட்டு dsDNA",
+        "ta_status": "draft"
        },
        {
-        "en": "6.4 kb circular ssDNA"
+        "en": "6.4 kb circular ssDNA",
+        "ta": "6.4 kb வட்ட ssDNA",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Insert capacity**"
+        "en": "**Insert capacity**",
+        "ta": "**செருகு கொள்ளளவு**",
+        "ta_status": "draft"
        },
        {
-        "en": "~20–23 kb (replacement)"
+        "en": "~20–23 kb (replacement)",
+        "ta": "~20–23 kb (பதிலீடு)",
+        "ta_status": "draft"
        },
        {
-        "en": "~1–1.5 kb (stable)"
+        "en": "~1–1.5 kb (stable)",
+        "ta": "~1–1.5 kb (நிலையானது)",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Cycle**"
+        "en": "**Cycle**",
+        "ta": "**சுழற்சி**",
+        "ta_status": "draft"
        },
        {
-        "en": "Lytic or lysogenic"
+        "en": "Lytic or lysogenic",
+        "ta": "லைடிக் அல்லது லைசோஜெனிக்",
+        "ta_status": "draft"
        },
        {
-        "en": "Chronic, non-lytic"
+        "en": "Chronic, non-lytic",
+        "ta": "நாள்பட்ட, செல் சிதைக்காதது",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Main use**"
+        "en": "**Main use**",
+        "ta": "**முக்கியப் பயன்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Genomic and cDNA libraries"
+        "en": "Genomic and cDNA libraries",
+        "ta": "மரபணு தொகையம் மற்றும் cDNA நூலகங்கள்",
+        "ta_status": "draft"
        },
        {
-        "en": "Sequencing, mutagenesis, phage display"
+        "en": "Sequencing, mutagenesis, phage display",
+        "ta": "வரிசைப்படுத்தல், திடீர்மாற்ற ஆய்வு, பேஜ் காட்சியமைப்பு",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -632,20 +804,26 @@
   {
    "id": "s07",
    "title": {
-    "en": "Cosmid, YAC, BAC and Animal Virus Vectors"
+    "en": "Cosmid, YAC, BAC and Animal Virus Vectors",
+    "ta": "காஸ்மிட், YAC, BAC மற்றும் விலங்கு வைரஸ் தாங்கிக்கடத்திகள்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Genomes are big, so large-insert vectors are needed; animal cells need their own vectors."
+      "en": "Genomes are big, so large-insert vectors are needed; animal cells need their own vectors.",
+      "ta": "மரபணுத்தொகைகள் பெரியவை என்பதால் பெரிய செருகு தாங்கிக்கடத்திகள் தேவை; விலங்கு செல்களுக்குத் தனித்தாங்கிக்கடத்திகள் தேவை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "atlas1_fundamentals_vectors-d10",
      "caption": {
-      "en": "Fig. 10. Cloning capacity (kb, log scale). Pick the vector by the size of DNA you must carry."
+      "en": "Fig. 10. Cloning capacity (kb, log scale). Pick the vector by the size of DNA you must carry.",
+      "ta": "படம் 10. நகலாக்கக் கொள்ளளவு (kb, மடக்கை அளவு). சுமக்க வேண்டிய DNA-வின் அளவுக்கேற்பத் தாங்கிக்கடத்தியைத் தேர்ந்தெடுக்க.",
+      "ta_status": "draft"
      },
      "labels": [
       "1 kb",
@@ -671,7 +849,9 @@
      "type": "diagram",
      "id": "atlas1_fundamentals_vectors-d11",
      "caption": {
-      "en": "Fig. 11. Cosmid cloning combines plasmid replication with phage packaging."
+      "en": "Fig. 11. Cosmid cloning combines plasmid replication with phage packaging.",
+      "ta": "படம் 11. காஸ்மிட் நகலாக்கம் பிளாஸ்மிட் பெருக்கத்தையும் பேஜ் பொதிவையும் இணைக்கிறது.",
+      "ta_status": "draft"
      },
      "labels": [
       "Cosmid = plasmid",
@@ -693,7 +873,9 @@
      "type": "diagram",
      "id": "atlas1_fundamentals_vectors-d12",
      "caption": {
-      "en": "Fig. 12. A YAC after ligation to genomic DNA. It behaves as a mini chromosome in yeast."
+      "en": "Fig. 12. A YAC after ligation to genomic DNA. It behaves as a mini chromosome in yeast.",
+      "ta": "படம் 12. மரபணுத்தொகைய DNA-வுடன் இணைக்கப்பட்ட பின் YAC. இது ஈஸ்டில் சிறு குரோமோசோமாகச் செயல்படுகிறது.",
+      "ta_status": "draft"
      },
      "labels": [
       "TEL",
@@ -716,7 +898,9 @@
      "type": "diagram",
      "id": "atlas1_fundamentals_vectors-d13",
      "caption": {
-      "en": "Fig. 13. SV40, a small DNA tumour virus used to build mammalian expression vectors."
+      "en": "Fig. 13. SV40, a small DNA tumour virus used to build mammalian expression vectors.",
+      "ta": "படம் 13. SV40, பாலூட்டி வெளிப்பாட்டுத் தாங்கிக்கடத்திகளை உருவாக்கப் பயன்படும் சிறிய DNA கட்டி வைரஸ்.",
+      "ta_status": "draft"
      },
      "labels": [
       "ori (and enhancer / promoters)",
@@ -732,7 +916,9 @@
      "type": "diagram",
      "id": "atlas1_fundamentals_vectors-d14",
      "caption": {
-      "en": "Fig. 14. Transposons (Sleeping Beauty, piggyBac) as cut-and-paste vectors for animal cells."
+      "en": "Fig. 14. Transposons (Sleeping Beauty, piggyBac) as cut-and-paste vectors for animal cells.",
+      "ta": "படம் 14. டிரான்ஸ்போசான்கள் (Sleeping Beauty, piggyBac) விலங்கு செல்களுக்கான வெட்டி-ஒட்டும் தாங்கிக்கடத்திகளாக.",
+      "ta_status": "draft"
      },
      "labels": [
       "Donor plasmid:",
@@ -751,7 +937,9 @@
     {
      "type": "p",
      "text": {
-      "en": "**PG focus**"
+      "en": "**PG focus**",
+      "ta": "**முதுநிலை கவனம்**",
+      "ta_status": "draft"
      }
     },
     {
@@ -759,10 +947,14 @@
      "ordered": false,
      "items": [
       {
-       "en": "YACs suffer from chimerism and instability; BACs (F-factor based, 100–300 kb) became the workhorse of the Human Genome Project."
+       "en": "YACs suffer from chimerism and instability; BACs (F-factor based, 100–300 kb) became the workhorse of the Human Genome Project.",
+       "ta": "YAC-கள் கலப்புயிரிப் பண்பு (கைமெரிசம்) மற்றும் நிலையற்ற தன்மையால் பாதிக்கப்படுகின்றன; BAC-கள் (F-காரணி அடிப்படையிலானவை, 100–300 kb) மனித மரபணுத்தொகைத் திட்டத்தின் முதன்மைக் கருவியாயின.",
+       "ta_status": "draft"
       },
       {
-       "en": "Lentiviral and AAV vectors have largely replaced SV40 in gene therapy."
+       "en": "Lentiviral and AAV vectors have largely replaced SV40 in gene therapy.",
+       "ta": "மரபணு சிகிச்சையில் SV40-க்குப் பதிலாக லென்டிவைரஸ் மற்றும் AAV தாங்கிக்கடத்திகள் பெருமளவு இடம்பிடித்துள்ளன.",
+       "ta_status": "draft"
       }
      ]
     }
@@ -772,20 +964,26 @@
   {
    "id": "s08",
    "title": {
-    "en": "DNA Libraries: Genomic versus cDNA"
+    "en": "DNA Libraries: Genomic versus cDNA",
+    "ta": "DNA நூலகங்கள்: மரபணு தொகையம் மற்றும் cDNA",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "A library is a collection of cloned fragments representing a genome or the mRNA of a tissue."
+      "en": "A library is a collection of cloned fragments representing a genome or the mRNA of a tissue.",
+      "ta": "நூலகம் என்பது ஒரு மரபணுத்தொகையையோ ஒரு திசுவின் mRNA-வையோ பிரதிபலிக்கும் நகலாக்கிய துண்டுகளின் தொகுப்பு.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "diagram",
      "id": "atlas1_fundamentals_vectors-d15",
      "caption": {
-      "en": "Fig. 15. Two library strategies."
+      "en": "Fig. 15. Two library strategies.",
+      "ta": "படம் 15. இரு நூலக உத்திகள்.",
+      "ta_status": "draft"
      },
      "labels": [
       "Genomic library: isolate DNA, partially digest",
@@ -802,58 +1000,88 @@
      "type": "table",
      "header": [
       {
-       "en": "Feature"
+       "en": "Feature",
+       "ta": "பண்பு",
+       "ta_status": "draft"
       },
       {
-       "en": "Genomic library"
+       "en": "Genomic library",
+       "ta": "மரபணு தொகையம் நூலகம்",
+       "ta_status": "draft"
       },
       {
-       "en": "cDNA library"
+       "en": "cDNA library",
+       "ta": "cDNA நூலகம்",
+       "ta_status": "draft"
       }
      ],
      "rows": [
       [
        {
-        "en": "**Source**"
+        "en": "**Source**",
+        "ta": "**மூலம்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Genomic DNA (any cell)"
+        "en": "Genomic DNA (any cell)",
+        "ta": "மரபணு தொகைய DNA (எந்த செல்லும்)",
+        "ta_status": "draft"
        },
        {
-        "en": "mRNA of a tissue or stage"
+        "en": "mRNA of a tissue or stage",
+        "ta": "ஒரு திசு அல்லது நிலையின் mRNA",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Contains**"
+        "en": "**Contains**",
+        "ta": "**கொண்டிருப்பவை**",
+        "ta_status": "draft"
        },
        {
-        "en": "Introns, promoters, regulatory DNA"
+        "en": "Introns, promoters, regulatory DNA",
+        "ta": "இன்ட்ரான்கள், புரோமோட்டர்கள், ஒழுங்குபடுத்தும் DNA",
+        "ta_status": "draft"
        },
        {
-        "en": "Exons of expressed genes only"
+        "en": "Exons of expressed genes only",
+        "ta": "வெளிப்படும் மரபணுக்களின் எக்சான்கள் மட்டும்",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Size**"
+        "en": "**Size**",
+        "ta": "**அளவு**",
+        "ta_status": "draft"
        },
        {
-        "en": "Depends on genome"
+        "en": "Depends on genome",
+        "ta": "மரபணுத்தொகையைப் பொறுத்தது",
+        "ta_status": "draft"
        },
        {
-        "en": "Depends on expressed genes"
+        "en": "Depends on expressed genes",
+        "ta": "வெளிப்படும் மரபணுக்களைப் பொறுத்தது",
+        "ta_status": "draft"
        }
       ],
       [
        {
-        "en": "**Use**"
+        "en": "**Use**",
+        "ta": "**பயன்**",
+        "ta_status": "draft"
        },
        {
-        "en": "Gene structure and regulation, genome mapping"
+        "en": "Gene structure and regulation, genome mapping",
+        "ta": "மரபணு அமைப்பு மற்றும் ஒழுங்குமுறை, மரபணுத்தொகை வரைபடமாக்கல்",
+        "ta_status": "draft"
        },
        {
-        "en": "Expression of eukaryotic genes in bacteria"
+        "en": "Expression of eukaryotic genes in bacteria",
+        "ta": "பாக்டீரியாவில் யூகேரியோட்டு மரபணுக்களின் வெளிப்பாடு",
+        "ta_status": "draft"
        }
       ]
      ]
@@ -861,13 +1089,17 @@
     {
      "type": "p",
      "text": {
-      "en": "**Worked example**"
+      "en": "**Worked example**",
+      "ta": "**தீர்த்த எடுத்துக்காட்டு**",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Number of clones needed: N = ln(1 − P) / ln(1 − f), where P is the probability (0.99) and f is the insert size ÷ genome size. For the human genome (3.1 × 10⁹ bp) with 20 kb inserts: f = 6.5 × 10⁻⁶, so N ≈ 7 × 10⁵ clones."
+      "en": "Number of clones needed: N = ln(1 − P) / ln(1 − f), where P is the probability (0.99) and f is the insert size ÷ genome size. For the human genome (3.1 × 10⁹ bp) with 20 kb inserts: f = 6.5 × 10⁻⁶, so N ≈ 7 × 10⁵ clones.",
+      "ta": "தேவையான நகலிகளின் எண்ணிக்கை: N = ln(1 − P) / ln(1 − f); இங்கு P நிகழ்தகவு (0.99), f = செருகு அளவு ÷ மரபணுத்தொகை அளவு. மனித மரபணுத்தொகைக்கு (3.1 × 10⁹ bp), 20 kb செருகுகளுடன்: f = 6.5 × 10⁻⁶, எனவே N ≈ 7 × 10⁵ நகலிகள்.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -876,223 +1108,297 @@
   {
    "id": "s09",
    "title": {
-    "en": "Summary & Exam Revision"
+    "en": "Summary & Exam Revision",
+    "ta": "சுருக்கமும் தேர்வு மீள்பார்வையும்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Key points and model answers likely to appear in university examinations."
+      "en": "Key points and model answers likely to appear in university examinations.",
+      "ta": "பல்கலைக்கழகத் தேர்வுகளில் வர வாய்ப்புள்ள முக்கியக் குறிப்புகளும் மாதிரி விடைகளும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Key exam points"
+      "en": "Key exam points",
+      "ta": "முக்கியத் தேர்வுக் குறிப்புகள்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "1"
+      "en": "1",
+      "ta": "1",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Colour code: **red** medical, **green** agricultural, **white** industrial, **blue** marine."
+      "en": "Colour code: **red** medical, **green** agricultural, **white** industrial, **blue** marine.",
+      "ta": "வண்ணக் குறியீடு: **சிவப்பு** மருத்துவம், **பச்சை** வேளாண்மை, **வெள்ளை** தொழிற்துறை, **நீலம்** கடல்சார்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "2"
+      "en": "2",
+      "ta": "2",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Type II restriction enzymes cut palindromes; EcoRI gives 5′ sticky ends, SmaI gives blunt ends."
+      "en": "Type II restriction enzymes cut palindromes; EcoRI gives 5′ sticky ends, SmaI gives blunt ends.",
+      "ta": "வகை II ரெஸ்ட்ரிக்ஷன் நொதிகள் முன்பின் ஒத்த வரிசைகளை வெட்டும்; EcoRI 5′ ஒட்டும் முனைகளையும் SmaI மழுங்கிய முனைகளையும் தரும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "3"
+      "en": "3",
+      "ta": "3",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Ligase joins; phosphatase stops self-ligation; reverse transcriptase makes cDNA."
+      "en": "Ligase joins; phosphatase stops self-ligation; reverse transcriptase makes cDNA.",
+      "ta": "லைகேஸ் இணைக்கும்; பாஸ்படேஸ் தன்னிணைப்பைத் தடுக்கும்; ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ் cDNA உருவாக்கும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "4"
+      "en": "4",
+      "ta": "4",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "pBR322: 4,361 bp; **ampR**, **tetR**, ori, rop; BamHI/SalI in tet, PstI in amp."
+      "en": "pBR322: 4,361 bp; **ampR**, **tetR**, ori, rop; BamHI/SalI in tet, PstI in amp.",
+      "ta": "pBR322: 4,361 bp; **ampR**, **tetR**, ori, rop; tet-ல் BamHI/SalI, amp-ல் PstI.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "5"
+      "en": "5",
+      "ta": "5",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Ti plasmid: T-DNA between LB and RB, vir genes act in trans; disarmed vectors carry the gene of interest."
+      "en": "Ti plasmid: T-DNA between LB and RB, vir genes act in trans; disarmed vectors carry the gene of interest.",
+      "ta": "Ti பிளாஸ்மிட்: LB மற்றும் RB-க்கு இடையே T-DNA, vir மரபணுக்கள் ட்ரான்ஸ்-ஆக செயல்படும்; செயலிழக்கச் செய்யப்பட்ட தாங்கிக்கடத்திகள் தேவையான மரபணுவைச் சுமக்கும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "6"
+      "en": "6",
+      "ta": "6",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Lambda 48.5 kb: lytic or lysogenic; replacement vectors carry ~20 kb. M13: ssDNA, non-lytic."
+      "en": "Lambda 48.5 kb: lytic or lysogenic; replacement vectors carry ~20 kb. M13: ssDNA, non-lytic.",
+      "ta": "லாம்டா 48.5 kb: லைடிக் அல்லது லைசோஜெனிக்; பதிலீட்டுத் தாங்கிக்கடத்திகள் ~20 kb சுமக்கும். M13: ssDNA, செல் சிதைக்காதது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "7"
+      "en": "7",
+      "ta": "7",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Capacity: plasmid ≤10 kb; lambda ≈ 20–23 kb; cosmid 35–45 kb; BAC/PAC 100–300 kb; YAC 200–2,000 kb."
+      "en": "Capacity: plasmid ≤10 kb; lambda ≈ 20–23 kb; cosmid 35–45 kb; BAC/PAC 100–300 kb; YAC 200–2,000 kb.",
+      "ta": "கொள்ளளவு: பிளாஸ்மிட் ≤10 kb; லாம்டா ≈ 20–23 kb; காஸ்மிட் 35–45 kb; BAC/PAC 100–300 kb; YAC 200–2,000 kb.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "8"
+      "en": "8",
+      "ta": "8",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "SV40 (5.2 kb) and transposons (Sleeping Beauty, piggyBac) are animal-cell vectors."
+      "en": "SV40 (5.2 kb) and transposons (Sleeping Beauty, piggyBac) are animal-cell vectors.",
+      "ta": "SV40 (5.2 kb) மற்றும் டிரான்ஸ்போசான்கள் (Sleeping Beauty, piggyBac) விலங்கு செல் தாங்கிக்கடத்திகள்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "9"
+      "en": "9",
+      "ta": "9",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Library size: N = ln(1−P) / ln(1−f)."
+      "en": "Library size: N = ln(1−P) / ln(1−f).",
+      "ta": "நூலக அளவு: N = ln(1−P) / ln(1−f).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Short-answer questions"
+      "en": "Short-answer questions",
+      "ta": "குறுகிய விடை வினாக்கள்",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click a question to reveal the model answer."
+      "en": "Click a question to reveal the model answer.",
+      "ta": "வினாவைத் தொட்டு மாதிரி விடையை அறிக.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.1Draw and label the cutting of DNA by EcoRI.▼"
+      "en": "Q.1Draw and label the cutting of DNA by EcoRI.▼",
+      "ta": "வி.1EcoRI-ஆல் DNA வெட்டப்படுவதை வரைந்து பெயரிடுக.▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "EcoRI recognises 5′-GAATTC-3′ (palindromic), cuts between G and A on both strands, and leaves 5′ AATT overhangs (sticky ends) that anneal to any other EcoRI-cut DNA."
+      "en": "EcoRI recognises 5′-GAATTC-3′ (palindromic), cuts between G and A on both strands, and leaves 5′ AATT overhangs (sticky ends) that anneal to any other EcoRI-cut DNA.",
+      "ta": "EcoRI, 5′-GAATTC-3′ (முன்பின் ஒத்த) வரிசையை அடையாளம் கண்டு, இரு இழைகளிலும் G-க்கும் A-க்கும் இடையே வெட்டி, வேறு எந்த EcoRI-வெட்டிய DNA-வுடனும் இணையும் 5′ AATT நீட்சிகளை (ஒட்டும் முனைகள்) விட்டுச் செல்கிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.2Name four features of an ideal cloning vector.▼"
+      "en": "Q.2Name four features of an ideal cloning vector.▼",
+      "ta": "வி.2சிறந்த நகலாக்கத் தாங்கிக்கடத்தியின் நான்கு பண்புகளைக் குறிப்பிடுக.▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Origin of replication, selectable marker, unique restriction sites (MCS), small size, high copy number, ability to be introduced into the host."
+      "en": "Origin of replication, selectable marker, unique restriction sites (MCS), small size, high copy number, ability to be introduced into the host.",
+      "ta": "பெருக்கமடைதலின் தோற்றம், தேர்ந்தெடுக்கும் அடையாளக்குறி, தனித்த ரெஸ்ட்ரிக்ஷன் இடங்கள் (MCS), சிறிய அளவு, அதிக நகல் எண்ணிக்கை, ஓம்புயிரிக்குள் செலுத்தும் திறன்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.3Explain insertional inactivation in pBR322.▼"
+      "en": "Q.3Explain insertional inactivation in pBR322.▼",
+      "ta": "வி.3pBR322-ல் உட்செருகுதல் செயலிழப்பை விளக்குக.▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Foreign DNA is inserted in a marker gene (for example BamHI in tet). The recombinant loses that resistance but keeps the other (Amp-R Tet-S), identified by replica plating."
+      "en": "Foreign DNA is inserted in a marker gene (for example BamHI in tet). The recombinant loses that resistance but keeps the other (Amp-R Tet-S), identified by replica plating.",
+      "ta": "அந்நிய DNA ஒரு அடையாளக்குறி மரபணுவுக்குள் செருகப்படுகிறது (எ.கா. tet-ல் BamHI). மறுகூட்டிணைவு அந்த எதிர்ப்பை இழந்து மற்றொன்றைத் தக்கவைக்கும் (Amp-R Tet-S); இது பிரதி பதித்தல் (replica plating) மூலம் அடையாளம் காணப்படுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.4Differentiate lytic and lysogenic cycles.▼"
+      "en": "Q.4Differentiate lytic and lysogenic cycles.▼",
+      "ta": "வி.4லைடிக் மற்றும் லைசோஜெனிக் சுழற்சிகளை வேறுபடுத்துக.▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Lytic: phage replicates, lyses the cell, releases progeny. Lysogenic: DNA integrates as a prophage, repressed by cI, and replicates with the host until induction."
+      "en": "Lytic: phage replicates, lyses the cell, releases progeny. Lysogenic: DNA integrates as a prophage, repressed by cI, and replicates with the host until induction.",
+      "ta": "லைடிக்: பேஜ் பெருகி, செல்லைச் சிதைத்து, சேய்களை வெளியிடுகிறது. லைசோஜெனிக்: DNA புரோஃபேஜாக இணைந்து, cI-ஆல் அடக்கப்பட்டு, தூண்டப்படும் வரை ஓம்புயிரியுடன் பெருகுகிறது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.5What is a cosmid and why is it useful?▼"
+      "en": "Q.5What is a cosmid and why is it useful?▼",
+      "ta": "வி.5காஸ்மிட் என்றால் என்ன? அது ஏன் பயனுள்ளது?▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "A plasmid containing lambda cos sites that can be packaged in vitro; carries 35–45 kb inserts and is useful for genomic libraries."
+      "en": "A plasmid containing lambda cos sites that can be packaged in vitro; carries 35–45 kb inserts and is useful for genomic libraries.",
+      "ta": "இன்-விட்ரோவில் பொதிக்கக்கூடிய லாம்டா cos இடங்களைக் கொண்ட பிளாஸ்மிட்; 35–45 kb செருகுகளைச் சுமக்கும்; மரபணு தொகையம் நூலகங்களுக்குப் பயனுள்ளது.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.6Compare genomic and cDNA libraries.▼"
+      "en": "Q.6Compare genomic and cDNA libraries.▼",
+      "ta": "வி.6மரபணு தொகையம் மற்றும் cDNA நூலகங்களை ஒப்பிடுக.▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Genomic libraries contain all DNA (introns and regulatory sequences); cDNA libraries contain only exons of genes expressed in the source tissue, made via reverse transcriptase."
+      "en": "Genomic libraries contain all DNA (introns and regulatory sequences); cDNA libraries contain only exons of genes expressed in the source tissue, made via reverse transcriptase.",
+      "ta": "மரபணு தொகையம் நூலகங்கள் அனைத்து DNA-வையும் (இன்ட்ரான்கள், ஒழுங்குபடுத்தும் வரிசைகள்) கொண்டிருக்கும்; cDNA நூலகங்கள் மூல திசுவில் வெளிப்படும் மரபணுக்களின் எக்சான்களை மட்டுமே, ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ் மூலம் உருவாக்கி, கொண்டிருக்கும்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Q.7Why are YACs used for large genomes?▼"
+      "en": "Q.7Why are YACs used for large genomes?▼",
+      "ta": "வி.7பெரிய மரபணுத்தொகைகளுக்கு YAC-கள் ஏன் பயன்படுகின்றன?▼",
+      "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "They behave as yeast chromosomes (CEN, ARS, TEL) and carry up to 2,000 kb inserts, reducing the number of clones needed."
+      "en": "They behave as yeast chromosomes (CEN, ARS, TEL) and carry up to 2,000 kb inserts, reducing the number of clones needed.",
+      "ta": "அவை ஈஸ்ட் குரோமோசோம்களாகச் செயல்பட்டு (CEN, ARS, TEL) 2,000 kb வரை செருகுகளைச் சுமப்பதால் தேவையான நகலிகளின் எண்ணிக்கை குறைகிறது.",
+      "ta_status": "draft"
      }
     }
    ],
@@ -1101,121 +1407,173 @@
   {
    "id": "s10",
    "title": {
-    "en": "Key Terms & Glossary"
+    "en": "Key Terms & Glossary",
+    "ta": "முக்கியச் சொற்களும் அகராதியும்",
+    "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Important terms in simple language."
+      "en": "Important terms in simple language.",
+      "ta": "எளிய மொழியில் முக்கியச் சொற்கள்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Palindrome"
+      "en": "Palindrome",
+      "ta": "முன்பின் ஒத்த வரிசை (Palindrome)",
+      "ta_status": "bracketed"
      },
      "definition": {
-      "en": "DNA sequence reading the same 5′→3′ on both strands."
+      "en": "DNA sequence reading the same 5′→3′ on both strands.",
+      "ta": "இரு இழைகளிலும் 5′→3′ திசையில் ஒரே மாதிரி வாசிக்கப்படும் DNA வரிசை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Sticky end"
+      "en": "Sticky end",
+      "ta": "ஒட்டும் முனை (Sticky end)",
+      "ta_status": "bracketed"
      },
      "definition": {
-      "en": "Single-stranded overhang left by a staggered cut."
+      "en": "Single-stranded overhang left by a staggered cut.",
+      "ta": "படிக்கட்டு வெட்டால் விடப்படும் ஒற்றை இழை நீட்சி.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Blunt end"
+      "en": "Blunt end",
+      "ta": "மழுங்கிய முனை (Blunt end)",
+      "ta_status": "bracketed"
      },
      "definition": {
-      "en": "Flush end with no overhang."
+      "en": "Flush end with no overhang.",
+      "ta": "நீட்சி இல்லாத சமதள முனை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "MCS"
+      "en": "MCS",
+      "ta": "MCS",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Multiple cloning site: cluster of unique restriction sites."
+      "en": "Multiple cloning site: cluster of unique restriction sites.",
+      "ta": "பல நகலாக்கக் களங்கள்: தனித்த ரெஸ்ட்ரிக்ஷன் இடங்களின் தொகுப்பு.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Selectable marker"
+      "en": "Selectable marker",
+      "ta": "தேர்ந்தெடுக்கும் அடையாளக்குறி (Selectable marker)",
+      "ta_status": "bracketed"
      },
      "definition": {
-      "en": "Gene (for example antibiotic resistance) used to select cells carrying the vector."
+      "en": "Gene (for example antibiotic resistance) used to select cells carrying the vector.",
+      "ta": "தாங்கிக்கடத்தியைக் கொண்ட செல்களைத் தேர்ந்தெடுக்கப் பயன்படும் மரபணு (எ.கா. ஆன்டிபயாடிக் எதிர்ப்பு).",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Prophage"
+      "en": "Prophage",
+      "ta": "புரோஃபேஜ் (Prophage)",
+      "ta_status": "bracketed"
      },
      "definition": {
-      "en": "Phage genome integrated into the host chromosome."
+      "en": "Phage genome integrated into the host chromosome.",
+      "ta": "ஓம்புயிரியின் குரோமோசோமில் இணைந்துள்ள பேஜ் மரபணுத்தொகை.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "cos site"
+      "en": "cos site",
+      "ta": "cos களம் (cos site)",
+      "ta_status": "bracketed"
      },
      "definition": {
-      "en": "Cohesive end site of lambda used for packaging and circularisation."
+      "en": "Cohesive end site of lambda used for packaging and circularisation.",
+      "ta": "பொதிவுக்கும் வட்டமாக்கலுக்கும் பயன்படும் லாம்டாவின் ஒட்டிணைவு முனைக் களம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "T-DNA"
+      "en": "T-DNA",
+      "ta": "T-DNA",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Segment of the Ti plasmid transferred to plant cells."
+      "en": "Segment of the Ti plasmid transferred to plant cells.",
+      "ta": "தாவர செல்களுக்கு மாற்றப்படும் Ti பிளாஸ்மிட்டின் பகுதி.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "BAC"
+      "en": "BAC",
+      "ta": "BAC",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Bacterial artificial chromosome based on the F plasmid."
+      "en": "Bacterial artificial chromosome based on the F plasmid.",
+      "ta": "F பிளாஸ்மிட்டை அடிப்படையாகக் கொண்ட பாக்டீரிய செயற்கை குரோமோசோம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "YAC"
+      "en": "YAC",
+      "ta": "YAC",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "Yeast artificial chromosome with CEN, ARS and TEL."
+      "en": "Yeast artificial chromosome with CEN, ARS and TEL.",
+      "ta": "CEN, ARS மற்றும் TEL கொண்ட ஈஸ்ட் செயற்கை குரோமோசோம்.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "cDNA"
+      "en": "cDNA",
+      "ta": "cDNA",
+      "ta_status": "draft"
      },
      "definition": {
-      "en": "DNA copied from mRNA by reverse transcriptase."
+      "en": "DNA copied from mRNA by reverse transcriptase.",
+      "ta": "ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸால் mRNA-விலிருந்து நகலெடுக்கப்பட்ட DNA.",
+      "ta_status": "draft"
      }
     },
     {
      "type": "glossary",
      "term": {
-      "en": "Transposon"
+      "en": "Transposon",
+      "ta": "டிரான்ஸ்போசான் (Transposon)",
+      "ta_status": "bracketed"
      },
      "definition": {
-      "en": "Mobile DNA element that moves by cut-and-paste or copy-and-paste."
+      "en": "Mobile DNA element that moves by cut-and-paste or copy-and-paste.",
+      "ta": "வெட்டி-ஒட்டுதல் அல்லது நகலெடுத்து-ஒட்டுதல் மூலம் நகரும் இடம்பெயரும் DNA கூறு.",
+      "ta_status": "draft"
      }
     }
    ],
