@@ -51,7 +51,7 @@ import com.gasczoology.animalbiotech.ui.padRow
 import com.gasczoology.animalbiotech.ui.tableWidth
 
 private val Navy = Color(0xFF0F2744)
-private val Muted = Color(0xFF3B4F66)
+internal val Muted = Color(0xFF3B4F66)
 
 /** Noto Sans Tamil (SIL OFL 1.1), bundled so Tamil renders the same on every device. */
 val TamilFont = FontFamily(
