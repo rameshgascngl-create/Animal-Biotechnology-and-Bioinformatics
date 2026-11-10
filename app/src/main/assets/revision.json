@@ -439,78 +439,128 @@
   "sa": [
    {
     "q": "What is CRISPR-Cas9?",
-    "a": "A bacterial adaptive immune system adapted for genome editing: a guide RNA directs the Cas9 nuclease to a matching DNA sequence next to an NGG PAM, where it makes a double-strand break."
+    "a": "A bacterial adaptive immune system adapted for genome editing: a guide RNA directs the Cas9 nuclease to a matching DNA sequence next to an NGG PAM, where it makes a double-strand break.",
+    "q_ta": "CRISPR-Cas9 என்றால் என்ன?",
+    "a_ta": "மரபணுத்தொகைத் திருத்தத்துக்காக ஏற்றுக்கொள்ளப்பட்ட பாக்டீரியத் தகவமைப்பு நோய்த்தடுப்பு அமைப்பு: வழிகாட்டி RNA, Cas9 நியுக்ளியேஸை NGG PAM-க்கு அருகிலுள்ள பொருந்தும் DNA வரிசைக்கு நடத்திச் சென்று, அங்கு இரட்டை இழை வெட்டை ஏற்படுத்துகிறது."
    },
    {
     "q": "Explain how a Cas9 break is repaired.",
-    "a": "Non-homologous end joining is error-prone and leaves insertions or deletions that knock out a gene; homology-directed repair uses a donor template for precise correction or insertion and works mainly in dividing cells."
+    "a": "Non-homologous end joining is error-prone and leaves insertions or deletions that knock out a gene; homology-directed repair uses a donor template for precise correction or insertion and works mainly in dividing cells.",
+    "q_ta": "Cas9 வெட்டு எவ்வாறு பழுதுநீக்கப்படுகிறது என விளக்குக.",
+    "a_ta": "ஒத்தமையற்ற முனை இணைப்பு பிழைக்கு வாய்ப்புள்ளது; மரபணுவை நாக்-அவுட் செய்யும் செருகல்கள் அல்லது நீக்கங்களை விட்டுச்செல்கிறது. ஒத்தமைவு வழிப் பழுதுநீக்கம் துல்லியத் திருத்தம் அல்லது செருகலுக்கு வழங்கி வார்ப்புருவைப் பயன்படுத்துகிறது; முக்கியமாகப் பிரியும் செல்களில் செயல்படும்."
    },
    {
     "q": "List the components of the CRISPR-Cas9 system.",
-    "a": "Cas9 nuclease, guide RNA (crRNA + tracrRNA or a single sgRNA), the target DNA and the PAM sequence (NGG for SpCas9)."
+    "a": "Cas9 nuclease, guide RNA (crRNA + tracrRNA or a single sgRNA), the target DNA and the PAM sequence (NGG for SpCas9).",
+    "q_ta": "CRISPR-Cas9 அமைப்பின் கூறுகளைப் பட்டியலிடுக.",
+    "a_ta": "Cas9 நியுக்ளியேஸ், வழிகாட்டி RNA (crRNA + tracrRNA அல்லது ஒற்றை sgRNA), இலக்கு DNA, PAM வரிசை (SpCas9-க்கு NGG)."
    },
    {
     "q": "Compare CRISPR with ZFN and TALEN.",
-    "a": "ZFN and TALEN need a new protein designed for each target; CRISPR only needs a new 20-nt guide RNA, so it is faster, cheaper and easier to multiplex."
+    "a": "ZFN and TALEN need a new protein designed for each target; CRISPR only needs a new 20-nt guide RNA, so it is faster, cheaper and easier to multiplex.",
+    "q_ta": "CRISPR-ஐ ZFN, TALEN உடன் ஒப்பிடுக.",
+    "a_ta": "ZFN, TALEN ஒவ்வோர் இலக்குக்கும் புதிய புரதத்தை வடிவமைக்க வேண்டும்; CRISPR-க்கு புதிய 20-nt வழிகாட்டி RNA மட்டுமே தேவை; எனவே வேகமானது, குறைந்த செலவு, பல இலக்குகளை ஒரே நேரத்தில் திருத்த எளிதானது."
    },
    {
     "q": "What are off-target effects and how are they reduced?",
-    "a": "Cas9 can cut at similar unintended sites. Reduced by careful guide design, high-fidelity Cas9 variants, ribonucleoprotein delivery and sequencing to check edits."
+    "a": "Cas9 can cut at similar unintended sites. Reduced by careful guide design, high-fidelity Cas9 variants, ribonucleoprotein delivery and sequencing to check edits.",
+    "q_ta": "ஆஃப்-டார்கெட் விளைவுகள் என்றால் என்ன? அவை எவ்வாறு குறைக்கப்படுகின்றன?",
+    "a_ta": "Cas9 ஒத்த, எதிர்பாராத இடங்களிலும் வெட்டக்கூடும். கவனமான வழிகாட்டி வடிவமைப்பு, உயர்-நம்பகத்தன்மை Cas9 மாறுபாடுகள், ரைபோநியுக்ளியோபுரத அணைவு விநியோகம், திருத்தங்களைச் சரிபார்க்கும் வரிசையாக்கம் ஆகியவற்றால் குறைக்கப்படுகிறது."
    },
    {
     "q": "Distinguish somatic and germline editing.",
-    "a": "Somatic editing changes body cells and is not inherited (accepted, for example Casgevy); germline editing changes embryos, gametes or their precursors, is heritable and is ethically restricted."
+    "a": "Somatic editing changes body cells and is not inherited (accepted, for example Casgevy); germline editing changes embryos, gametes or their precursors, is heritable and is ethically restricted.",
+    "q_ta": "உடல் செல் திருத்தத்தையும் கருவழித் திருத்தத்தையும் வேறுபடுத்துக.",
+    "a_ta": "உடல் செல் திருத்தம் உடல் செல்களை மாற்றுகிறது; மரபுவழி வராது (ஏற்கப்பட்டது, எ.கா. Casgevy); கருவழித் திருத்தம் கருக்கள், இனச்செல்கள் அல்லது அவற்றின் முன்னோடிகளை மாற்றுகிறது; மரபுவழி வருவது; நெறிமுறை ரீதியாகக் கட்டுப்படுத்தப்பட்டது."
    }
   ],
   "gl": [
    {
     "t": "CRISPR",
-    "d": "Clustered Regularly Interspaced Short Palindromic Repeats — natural bacterial immune sequences repurposed for gene editing."
+    "d": "Clustered Regularly Interspaced Short Palindromic Repeats — natural bacterial immune sequences repurposed for gene editing.",
+    "t_ta": "CRISPR",
+    "d_ta": "Clustered Regularly Interspaced Short Palindromic Repeats — மரபணுத் திருத்தத்துக்காக மறுபயன்படுத்தப்படும் இயற்கைப் பாக்டீரிய நோய்த்தடுப்பு வரிசைகள்."
    },
    {
     "t": "Cas9",
-    "d": "A nuclease enzyme (protein) with two cutting domains (HNH, RuvC) that creates a double-strand break in DNA at the target site."
+    "d": "A nuclease enzyme (protein) with two cutting domains (HNH, RuvC) that creates a double-strand break in DNA at the target site.",
+    "t_ta": "Cas9",
+    "d_ta": "இலக்கு இடத்தில் DNA-வில் இரட்டை இழை வெட்டை உருவாக்கும் இரு வெட்டுக் களங்களைக் (HNH, RuvC) கொண்ட நியுக்ளியேஸ் நொதி (புரதம்)."
    },
    {
     "t": "Guide RNA (gRNA)",
-    "d": "A ~20-nucleotide RNA designed to be complementary to the target DNA sequence; directs Cas9 to the correct genomic location."
+    "d": "A ~20-nucleotide RNA designed to be complementary to the target DNA sequence; directs Cas9 to the correct genomic location.",
+    "t_ta": "வழிகாட்டி RNA (gRNA)",
+    "d_ta": "இலக்கு DNA வரிசைக்கு நிரப்பாக வடிவமைக்கப்பட்ட ~20-நியுக்ளியோடைடு RNA; Cas9-ஐ சரியான மரபணுத்தொகை இடத்துக்கு நடத்துகிறது."
    },
    {
     "t": "PAM Sequence",
-    "d": "Protospacer Adjacent Motif (5′-NGG-3′ for SpCas9) — a short DNA sequence immediately next to the target; required for Cas9 binding and cutting."
+    "d": "Protospacer Adjacent Motif (5′-NGG-3′ for SpCas9) — a short DNA sequence immediately next to the target; required for Cas9 binding and cutting.",
+    "t_ta": "PAM வரிசை",
+    "d_ta": "Protospacer Adjacent Motif (SpCas9-க்கு 5′-NGG-3′) — இலக்குக்கு உடனடியாக அருகிலுள்ள குறுகிய DNA வரிசை; Cas9 பிணைவதற்கும் வெட்டுவதற்கும் தேவை."
    },
    {
     "t": "Target DNA",
-    "d": "The specific DNA sequence in the genome that the gRNA is designed to match and that Cas9 will cut."
+    "d": "The specific DNA sequence in the genome that the gRNA is designed to match and that Cas9 will cut.",
+    "t_ta": "இலக்கு DNA",
+    "d_ta": "gRNA பொருந்தும்படி வடிவமைக்கப்பட்ட, Cas9 வெட்டவிருக்கும் மரபணுத்தொகையிலுள்ள குறிப்பிட்ட DNA வரிசை."
    },
    {
     "t": "Double-Strand Break (DSB)",
-    "d": "A cut in both strands of the DNA double helix, created by Cas9 at the target location."
+    "d": "A cut in both strands of the DNA double helix, created by Cas9 at the target location.",
+    "t_ta": "இரட்டை இழை வெட்டு (DSB)",
+    "d_ta": "இலக்கு இடத்தில் Cas9 உருவாக்கும், DNA இரட்டைச் சுருளின் இரு இழைகளிலும் ஏற்படும் வெட்டு."
    },
    {
     "t": "NHEJ",
-    "d": "Non-Homologous End Joining — a fast but error-prone DNA repair pathway that introduces indels at the break site, disrupting gene function."
+    "d": "Non-Homologous End Joining — a fast but error-prone DNA repair pathway that introduces indels at the break site, disrupting gene function.",
+    "t_ta": "NHEJ",
+    "d_ta": "ஒத்தமையற்ற முனை இணைப்பு — வெட்டு இடத்தில் இன்டெல்களை ஏற்படுத்தி மரபணுச் செயல்பாட்டைச் சிதைக்கும், வேகமான ஆனால் பிழைக்கு வாய்ப்புள்ள DNA பழுதுநீக்கப் பாதை."
    },
    {
     "t": "HDR",
-    "d": "Homology-Directed Repair — a precise DNA repair pathway that uses a provided donor template to introduce an exact sequence at the break site."
+    "d": "Homology-Directed Repair — a precise DNA repair pathway that uses a provided donor template to introduce an exact sequence at the break site.",
+    "t_ta": "HDR",
+    "d_ta": "ஒத்தமைவு வழிப் பழுதுநீக்கம் — வழங்கப்பட்ட வழங்கி வார்ப்புருவைப் பயன்படுத்தி வெட்டு இடத்தில் துல்லியமான வரிசையைச் செலுத்தும் துல்லிய DNA பழுதுநீக்கப் பாதை."
    },
    {
     "t": "Gene Knockout",
-    "d": "Disruption or inactivation of a gene, typically achieved via NHEJ-mediated indels that cause a frameshift mutation."
+    "d": "Disruption or inactivation of a gene, typically achieved via NHEJ-mediated indels that cause a frameshift mutation.",
+    "t_ta": "மரபணு நாக்-அவுட்",
+    "d_ta": "மரபணுவைச் சிதைத்தல் அல்லது செயலிழக்கச் செய்தல்; பொதுவாக NHEJ தூண்டும் இன்டெல்கள் சட்டமாற்றத் திடீர்மாற்றத்தை ஏற்படுத்துவதால் அடையப்படுகிறது."
    },
    {
     "t": "Off-Target Effect",
-    "d": "Unintended editing at genomic sites with sequences similar to the intended target — a key safety concern in clinical use."
+    "d": "Unintended editing at genomic sites with sequences similar to the intended target — a key safety concern in clinical use.",
+    "t_ta": "ஆஃப்-டார்கெட் விளைவு",
+    "d_ta": "நோக்கிய இலக்கை ஒத்த வரிசைகள் கொண்ட மரபணுத்தொகை இடங்களில் எதிர்பாராத திருத்தம் — மருத்துவப் பயன்பாட்டில் முக்கியப் பாதுகாப்புக் கவலை."
    },
    {
     "t": "Germline Editing",
-    "d": "Modification of reproductive cells (egg, sperm, embryo) — changes are heritable and passed to future generations; ethically restricted."
+    "d": "Modification of reproductive cells (egg, sperm, embryo) — changes are heritable and passed to future generations; ethically restricted.",
+    "t_ta": "கருவழித் திருத்தம்",
+    "d_ta": "இனப்பெருக்கச் செல்களை (முட்டை, விந்து, கரு) மாற்றுதல் — மாற்றங்கள் மரபுவழி வந்து எதிர்காலத் தலைமுறைகளுக்குக் கடத்தப்படுகின்றன; நெறிமுறை ரீதியாகக் கட்டுப்படுத்தப்பட்டது."
    },
    {
     "t": "Indels",
-    "d": "Insertions and/or deletions introduced at the cut site by NHEJ repair; often cause frameshift mutations that disrupt the reading frame."
+    "d": "Insertions and/or deletions introduced at the cut site by NHEJ repair; often cause frameshift mutations that disrupt the reading frame.",
+    "t_ta": "இன்டெல்கள்",
+    "d_ta": "NHEJ பழுதுநீக்கத்தால் வெட்டு இடத்தில் ஏற்படும் செருகல்களும்/அல்லது நீக்கங்களும்; பெரும்பாலும் வாசிப்புச் சட்டகத்தைச் சிதைக்கும் சட்டமாற்றத் திடீர்மாற்றங்களை ஏற்படுத்துகின்றன."
    }
+  ],
+  "title_ta": "CRISPR மரபணுத் திருத்தம்",
+  "kp_ta": [
+   "CRISPR = Clustered Regularly Interspaced Short Palindromic Repeats; மரபணுத் திருத்தத்துக்காக ஏற்றுக்கொள்ளப்பட்ட இயற்கைப் பாக்டீரிய நோய்த்தடுப்பு அமைப்பு.",
+   "CRISPR-Cas9 வழிகாட்டி RNA-வை (gRNA) பயன்படுத்தி Cas9 நியுக்ளியேஸை DNA-வில் துல்லியமான இடத்தில் வெட்ட நடத்துகிறது.",
+   "நான்கு முக்கியக் கூறுகள்: Cas9 நொதி, வழிகாட்டி RNA (gRNA), இலக்கு DNA, PAM வரிசை (NGG).",
+   "Cas9 இரட்டை இழை வெட்டை (DSB) உருவாக்குகிறது; NHEJ வழிப் பழுதுநீக்கம் இன்டெல்களை (நாக்-அவுட்) உருவாக்குகிறது; HDR வழி துல்லியத் திருத்தம்/செருகலை ஏற்படுத்துகிறது.",
+   "மூன்று திருத்த விளைவுகள்: மரபணு நாக்-அவுட் (NHEJ), மரபணுச் செருகல் (HDR + வார்ப்புரு), மரபணுத் திருத்தம் (HDR + சரியான வார்ப்புரு).",
+   "பயன்பாடுகள்: அடிப்படை ஆராய்ச்சி, செயல்நிலை மரபணுத்தொகையியல், பயிர் மேம்பாடு, விலங்கு உயிரித் தொழில்நுட்பம், மருத்துவ சிகிச்சை, நோய்கண்டறிதல்.",
+   "Casgevy (2023) — அரிவாள் செல் நோய், பீட்டா-தலசீமியாவுக்கு அங்கீகரிக்கப்பட்ட முதல் CRISPR சிகிச்சை.",
+   "ZFN/TALEN-ஐவிட நன்மைகள்: எளிய வடிவமைப்பு, வேகம், குறைந்த செலவு, பல மரபணுக்களை ஒரே நேரத்தில் திருத்தும் திறன் (மல்டிப்ளெக்ஸிங்).",
+   "முக்கிய வரம்பு: ஆஃப்-டார்கெட் விளைவுகள் — Cas9 ஒத்த, எதிர்பாராத வரிசைகளிலும் வெட்டக்கூடும்.",
+   "உடல் செல் திருத்தம் (ஏற்கப்பட்டது), கருவழித் திருத்தம் (கட்டுப்படுத்தப்பட்டது) என்பதே முக்கிய நெறிமுறை வேறுபாடு.",
+   "நோபல் பரிசு 2020: ஜெனிஃபர் டவுட்னா, இமானுவேல் சார்ப்பென்டியே."
   ]
  },
  "enzymes_genetic_engineering.html": {
@@ -533,78 +583,129 @@
   "sa": [
    {
     "q": "What are restriction enzymes? Give an example.",
-    "a": "Bacterial endonucleases that cut DNA at specific palindromic recognition sequences; EcoRI cuts G^AATTC and leaves 4-nt 5′ sticky ends."
+    "a": "Bacterial endonucleases that cut DNA at specific palindromic recognition sequences; EcoRI cuts G^AATTC and leaves 4-nt 5′ sticky ends.",
+    "q_ta": "கட்டுறு நொதிகள் என்றால் என்ன? ஓர் எடுத்துக்காட்டு தருக.",
+    "a_ta": "குறிப்பிட்ட பாலிண்ட்ரோம் அடையாள வரிசைகளில் DNA-வை வெட்டும் பாக்டீரிய எண்டோநியுக்ளியேஸ்கள்; EcoRI G^AATTC-இல் வெட்டி 4-nt 5′ ஒட்டும் முனைகளை விட்டுச்செல்கிறது."
    },
    {
     "q": "Distinguish sticky and blunt ends.",
-    "a": "Staggered cuts leave single-stranded complementary overhangs (sticky or cohesive ends) that anneal easily; straight cuts such as SmaI leave blunt ends that ligate less efficiently."
+    "a": "Staggered cuts leave single-stranded complementary overhangs (sticky or cohesive ends) that anneal easily; straight cuts such as SmaI leave blunt ends that ligate less efficiently.",
+    "q_ta": "ஒட்டும் முனைகளையும் மழுங்கிய முனைகளையும் வேறுபடுத்துக.",
+    "a_ta": "படிக்கட்டு வெட்டுகள் எளிதில் இணையும் ஒற்றை இழை நிரப்பு நீட்சிகளை (ஒட்டும் அல்லது ஒட்டுறு முனைகள்) விட்டுச்செல்கின்றன; SmaI போன்ற நேரான வெட்டுகள் குறைந்த திறனுடன் இணையும் மழுங்கிய முனைகளை விட்டுச்செல்கின்றன."
    },
    {
     "q": "Write short notes on DNA ligase.",
-    "a": "Joins adjacent 3′-OH and 5′-phosphate ends by forming a phosphodiester bond; T4 ligase uses ATP, E. coli ligase uses NAD⁺; it makes recombinant DNA."
+    "a": "Joins adjacent 3′-OH and 5′-phosphate ends by forming a phosphodiester bond; T4 ligase uses ATP, E. coli ligase uses NAD⁺; it makes recombinant DNA.",
+    "q_ta": "DNA லைகேஸ் பற்றிக் குறுங்குறிப்பு எழுதுக.",
+    "a_ta": "அடுத்தடுத்துள்ள 3′-OH, 5′-பாஸ்பேட் முனைகளை பாஸ்போடையெஸ்டர் பிணைப்பால் இணைக்கிறது; T4 லைகேஸ் ATP-ஐயும், E. coli லைகேஸ் NAD⁺-ஐயும் பயன்படுத்துகிறது; மறுசேர்க்கை DNA-வை உருவாக்குகிறது."
    },
    {
     "q": "What is the role of alkaline phosphatase in cloning?",
-    "a": "It removes 5′ phosphates from the cut vector so it cannot self-ligate, increasing the proportion of recombinant clones."
+    "a": "It removes 5′ phosphates from the cut vector so it cannot self-ligate, increasing the proportion of recombinant clones.",
+    "q_ta": "குளோனிங்கில் காரப் பாஸ்படேஸின் பங்கு என்ன?",
+    "a_ta": "வெட்டப்பட்ட தாங்கிக்கடத்தியிலிருந்து 5′ பாஸ்பேட்டுகளை நீக்குவதால் அது தன்னிணைய இயலாது; மறுசேர்க்கைக் குளோன்களின் விகிதம் அதிகரிக்கிறது."
    },
    {
     "q": "Why is Taq polymerase used in PCR?",
-    "a": "It is a thermostable DNA polymerase from Thermus aquaticus, active at about 72 °C and not denatured at 94–95 °C, so it need not be added each cycle."
+    "a": "It is a thermostable DNA polymerase from Thermus aquaticus, active at about 72 °C and not denatured at 94–95 °C, so it need not be added each cycle.",
+    "q_ta": "PCR-இல் Taq பாலிமெரேஸ் ஏன் பயன்படுத்தப்படுகிறது?",
+    "a_ta": "இது Thermus aquaticus-இலிருந்து பெறப்பட்ட வெப்பம்தாங்கும் DNA பாலிமெரேஸ்; சுமார் 72 °C-இல் செயல்படும்; 94–95 °C-இல் இயல்பிழக்காது; எனவே ஒவ்வொரு சுழற்சியிலும் சேர்க்க வேண்டியதில்லை."
    },
    {
     "q": "What is cDNA and how is it made?",
-    "a": "DNA copied from mRNA by reverse transcriptase; it lacks introns and is used to clone and express eukaryotic genes in bacteria."
+    "a": "DNA copied from mRNA by reverse transcriptase; it lacks introns and is used to clone and express eukaryotic genes in bacteria.",
+    "q_ta": "cDNA என்றால் என்ன? அது எவ்வாறு உருவாக்கப்படுகிறது?",
+    "a_ta": "mRNA-விலிருந்து தலைகீழ் படியெடுப்பியால் நகலெடுக்கப்பட்ட DNA; இதில் இன்ட்ரான்கள் இல்லை; யூகேரியோட்டிக் மரபணுக்களைப் பாக்டீரியாவில் குளோனிங் செய்யவும் வெளிப்படுத்தவும் பயன்படுகிறது."
    }
   ],
   "gl": [
    {
     "t": "Palindromic Sequence",
-    "d": "A double-stranded DNA sequence in which both strands read identically in the 5' to 3' direction; the basis for restriction enzyme recognition."
+    "d": "A double-stranded DNA sequence in which both strands read identically in the 5' to 3' direction; the basis for restriction enzyme recognition.",
+    "t_ta": "பாலிண்ட்ரோம் வரிசை",
+    "d_ta": "இரு இழைகளும் 5' முதல் 3' திசையில் ஒரே மாதிரி வாசிக்கப்படும் இரட்டை இழை DNA வரிசை; கட்டுறு நொதி அடையாளம் காண்பதற்கான அடிப்படை."
    },
    {
     "t": "Sticky Ends",
-    "d": "Short single-stranded nucleotide overhangs produced by staggered restriction enzyme cuts. Also called cohesive ends. They can hydrogen-bond with complementary sequences for ligation."
+    "d": "Short single-stranded nucleotide overhangs produced by staggered restriction enzyme cuts. Also called cohesive ends. They can hydrogen-bond with complementary sequences for ligation.",
+    "t_ta": "ஒட்டும் முனைகள்",
+    "d_ta": "படிக்கட்டு கட்டுறு நொதி வெட்டுகளால் உருவாகும் குறுகிய ஒற்றை இழை நியுக்ளியோடைடு நீட்சிகள். ஒட்டுறு முனைகள் எனவும் அழைக்கப்படும். இணைப்புக்காக நிரப்பு வரிசைகளுடன் ஹைட்ரஜன் பிணைப்பில் இணையும்."
    },
    {
     "t": "Blunt Ends",
-    "d": "Fully double-stranded DNA ends with no overhangs, produced when a restriction enzyme cuts both strands at the same position within the recognition sequence."
+    "d": "Fully double-stranded DNA ends with no overhangs, produced when a restriction enzyme cuts both strands at the same position within the recognition sequence.",
+    "t_ta": "மழுங்கிய முனைகள்",
+    "d_ta": "நீட்சிகள் இல்லாத, முழுமையான இரட்டை இழை DNA முனைகள்; கட்டுறு நொதி அடையாள வரிசைக்குள் ஒரே நிலையில் இரு இழைகளையும் வெட்டும்போது உருவாகும்."
    },
    {
     "t": "Ligase",
-    "d": "An enzyme that catalyzes formation of covalent phosphodiester bonds between the 3'-OH of one DNA strand and the 5'-phosphate of another, joining two DNA fragments."
+    "d": "An enzyme that catalyzes formation of covalent phosphodiester bonds between the 3'-OH of one DNA strand and the 5'-phosphate of another, joining two DNA fragments.",
+    "t_ta": "லைகேஸ்",
+    "d_ta": "ஓர் DNA இழையின் 3'-OH-க்கும் மற்றொன்றின் 5'-பாஸ்பேட்டுக்கும் இடையே சகப் பாஸ்போடையெஸ்டர் பிணைப்புகளை உருவாக்கி இரு DNA துண்டுகளை இணைக்கும் நொதி."
    },
    {
     "t": "Vector",
-    "d": "A DNA molecule (e.g., plasmid, bacteriophage, cosmid) used to carry a foreign DNA fragment into a host cell for replication and/or expression."
+    "d": "A DNA molecule (e.g., plasmid, bacteriophage, cosmid) used to carry a foreign DNA fragment into a host cell for replication and/or expression.",
+    "t_ta": "தாங்கிக்கடத்தி",
+    "d_ta": "அயல் DNA துண்டை விருந்தோம்பி செல்லுக்குள் பெருக்கம் மற்றும்/அல்லது வெளிப்பாட்டுக்காகக் கொண்டுசெல்லப் பயன்படும் DNA மூலக்கூறு (எ.கா. பிளாஸ்மிடு, பாக்டீரியோஃபாஜ், காஸ்மிடு)."
    },
    {
     "t": "Cloning",
-    "d": "The process of inserting a DNA fragment into a vector, introducing it into a host cell, and allowing the host to replicate, producing many identical copies of the DNA."
+    "d": "The process of inserting a DNA fragment into a vector, introducing it into a host cell, and allowing the host to replicate, producing many identical copies of the DNA.",
+    "t_ta": "குளோனிங்",
+    "d_ta": "DNA துண்டைத் தாங்கிக்கடத்தியில் செருகி, விருந்தோம்பி செல்லுக்குள் செலுத்தி, விருந்தோம்பி DNA-வைப் பெருக்கி, பல ஒத்த படிகளை உருவாக்கும் செயல்முறை."
    },
    {
     "t": "Recognition Sequence",
-    "d": "A specific short DNA sequence (usually 4 to 8 bp, palindromic) that is recognized and bound by a restriction endonuclease before cleavage of the DNA."
+    "d": "A specific short DNA sequence (usually 4 to 8 bp, palindromic) that is recognized and bound by a restriction endonuclease before cleavage of the DNA.",
+    "t_ta": "அடையாள வரிசை",
+    "d_ta": "DNA-வை வெட்டுவதற்கு முன் கட்டுறு எண்டோநியுக்ளியேஸால் அடையாளம் காணப்பட்டுப் பிணைக்கப்படும் குறிப்பிட்ட குறுகிய DNA வரிசை (பொதுவாக 4 முதல் 8 bp, பாலிண்ட்ரோம்)."
    },
    {
     "t": "cDNA",
-    "d": "Complementary DNA. Synthesized from an mRNA template by reverse transcriptase. Represents only the exon sequences (coding regions) with no introns."
+    "d": "Complementary DNA. Synthesized from an mRNA template by reverse transcriptase. Represents only the exon sequences (coding regions) with no introns.",
+    "t_ta": "cDNA",
+    "d_ta": "நிரப்பு DNA. mRNA வார்ப்புருவிலிருந்து தலைகீழ் படியெடுப்பியால் தொகுக்கப்படுகிறது. இன்ட்ரான்கள் இல்லாத எக்சான் வரிசைகளை (குறியீடு செய்யும் பகுதிகள்) மட்டுமே குறிக்கிறது."
    },
    {
     "t": "Recombinant DNA",
-    "d": "DNA molecule formed by combining DNA sequences from two or more different organisms or sources, typically a gene of interest inserted into a cloning vector."
+    "d": "DNA molecule formed by combining DNA sequences from two or more different organisms or sources, typically a gene of interest inserted into a cloning vector.",
+    "t_ta": "மறுசேர்க்கை DNA",
+    "d_ta": "இரு அல்லது அதற்கு மேற்பட்ட உயிரினங்கள் அல்லது மூலங்களின் DNA வரிசைகளை இணைத்து உருவாக்கப்படும் DNA மூலக்கூறு; பொதுவாக குளோனிங் தாங்கிக்கடத்தியில் செருகப்பட்ட இலக்கு மரபணு."
    },
    {
     "t": "Methylation",
-    "d": "Addition of a methyl group to specific bases in DNA. Bacteria methylate their own restriction sites to protect their DNA from self-cleavage by their own restriction enzymes."
+    "d": "Addition of a methyl group to specific bases in DNA. Bacteria methylate their own restriction sites to protect their DNA from self-cleavage by their own restriction enzymes.",
+    "t_ta": "மெத்திலேற்றம்",
+    "d_ta": "DNA-வின் குறிப்பிட்ட காரங்களில் மெத்தில் தொகுதியைச் சேர்த்தல். தம் சொந்தக் கட்டுறு நொதிகளால் தம் DNA தன்னையே வெட்டப்படாமல் பாதுகாக்க, பாக்டீரியாக்கள் தம் கட்டுறு இடங்களை மெத்திலேற்றம் செய்கின்றன."
    },
    {
     "t": "Transformation",
-    "d": "Introduction of foreign DNA (e.g., recombinant plasmid) into a bacterial cell. Successful transformants are selected using antibiotic resistance or other selectable markers."
+    "d": "Introduction of foreign DNA (e.g., recombinant plasmid) into a bacterial cell. Successful transformants are selected using antibiotic resistance or other selectable markers.",
+    "t_ta": "உருமாற்றம்",
+    "d_ta": "அயல் DNA-வை (எ.கா. மறுசேர்க்கைப் பிளாஸ்மிடு) பாக்டீரிய செல்லுக்குள் செலுத்துதல். வெற்றிகரமான உருமாறிகள் நுண்ணுயிர்க்கொல்லி எதிர்ப்பு அல்லது பிற தேர்வுக் குறிப்பான்களால் தேர்ந்தெடுக்கப்படுகின்றன."
    },
    {
     "t": "Restriction Mapping",
-    "d": "A technique used to characterize a DNA molecule by cutting it with various restriction enzymes and analyzing fragment sizes to determine the positions of restriction sites on the DNA."
+    "d": "A technique used to characterize a DNA molecule by cutting it with various restriction enzymes and analyzing fragment sizes to determine the positions of restriction sites on the DNA.",
+    "t_ta": "கட்டுறு வரைபடமாக்கல்",
+    "d_ta": "DNA மூலக்கூற்றை வெவ்வேறு கட்டுறு நொதிகளால் வெட்டி, துண்டு அளவுகளைப் பகுத்து, DNA-வில் கட்டுறு இடங்களின் நிலைகளைக் கண்டறியும் நுட்பம்."
    }
+  ],
+  "title_ta": "மரபணுப் பொறியியலில் நொதிகள் – ஊடாடு கற்றல் செயலி",
+  "kp_ta": [
+   "கட்டுறு நொதிகள்: குறிப்பிட்ட பாலிண்ட்ரோம் வரிசைகளில் DNA-வை வெட்டும் பாக்டீரியப் பாதுகாப்பு நொதிகள். மூலக்கூறுக் கத்தரிகள் எனப்படுகின்றன.",
+   "பாலிண்ட்ரோம் வரிசை: இரு இழைகளிலும் 5' முதல் 3' திசையில் ஒரே மாதிரி வாசிக்கப்படும் DNA வரிசை. எடுத்துக்காட்டு: GAATTC (EcoRI).",
+   "வகை II கட்டுறு நொதி — மிக முக்கியமானது: அடையாள இடத்தில் அல்லது அதற்குள் வெட்டும். ATP தேவையில்லை. வரையறுக்கப்பட்ட, மீண்டும் மீண்டும் கிடைக்கும் துண்டுகளை உருவாக்கும்.",
+   "ஒட்டும் முனைகள்: படிக்கட்டு வெட்டுக்குப் பின் உருவாகும் ஒற்றை இழை நீட்சிகள். திசைசார்ந்த, திறன்மிக்க குளோனிங்கை எளிதாக்கும்.",
+   "மழுங்கிய முனைகள்: நேரான வெட்டுகளால் (எ.கா. SmaI) உருவாகும். நீட்சிகள் இல்லை. குறைந்த திறன் கொண்ட மழுங்கிய-முனை இணைப்பு தேவை.",
+   "DNA லைகேஸ்: பாஸ்போடையெஸ்டர் பிணைப்புகளால் DNA துண்டுகளை இணைக்கிறது. ATP (T4) அல்லது NAD⁺ (E. coli) பயன்படுத்தும். மறுசேர்க்கை DNA-வை உருவாக்கும்.",
+   "Taq பாலிமெரேஸ்: வெப்பம்தாங்கும் DNA பாலிமெரேஸ். மூலம்: T. aquaticus. PCR-இல் பயன்படுகிறது. 72°C-இல் உகந்தது.",
+   "தலைகீழ் படியெடுப்பி: mRNA-விலிருந்து cDNA-வை உருவாக்கும். ரெட்ரோவைரஸ்களிலிருந்து பெறப்படுகிறது. இன்ட்ரான்கள் இல்லாமல் வெளிப்படும் மரபணுக்களைக் குளோனிங் செய்யப் பயன்படுகிறது.",
+   "காரப் பாஸ்படேஸ்: தாங்கிக்கடத்தி முனைகளிலுள்ள 5'-பாஸ்பேட்டை நீக்கும். தன்னிணைவைத் தடுக்கும். மறுசேர்க்கைக் குளோன் திறனை அதிகரிக்கும்.",
+   "நோபல் பரிசு 1978: கட்டுறு நொதிகளைக் கண்டுபிடித்துப் பயன்படுத்தியதற்காக வெர்னர் ஆர்பர், ஹாமில்டன் ஸ்மித், டேனியல் நாதன்ஸ் ஆகியோருக்கு வழங்கப்பட்டது.",
+   "EcoRI: 5'-G-AATTC-3' இல் வெட்டும். 4-nt 5' ஒட்டும் முனைகளை (-AATT) உருவாக்கும். E. coli RY13-இலிருந்து பெறப்பட்டது.",
+   "cDNA: நிரப்பு DNA. mRNA-விலிருந்து தலைகீழ் படியெடுப்பியால் உருவாக்கப்படுகிறது. இன்ட்ரான்கள் இல்லை. புரோகேரியோட்டிக் வெளிப்பாட்டுக்குப் பயன்படுகிறது."
   ]
  },
  "gene_therapy_app.html": {
