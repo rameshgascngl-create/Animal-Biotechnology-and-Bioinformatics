@@ -102,10 +102,10 @@ class ReaderCaptureTest {
                         val ch = ChapterRepo.load(activity, t.file, t.unitRoman)?.chapter ?: continue
                         val all = ch.sections.flatMap { it.blocks }
                         val reveal = all.firstOrNull { it is com.gasczoology.animalbiotech.content.Reveal }
-                        val term = all.firstOrNull { it is com.gasczoology.animalbiotech.content.KeyTerm }
+                        val term = all.firstOrNull { it is com.gasczoology.animalbiotech.content.KeyTerm || it is com.gasczoology.animalbiotech.content.GlossaryEntry }
                         val callouts = all.filterIsInstance<com.gasczoology.animalbiotech.content.Callout>().distinctBy { com.gasczoology.animalbiotech.ui.theme.calloutRole(it.kind, it.text.en) }.take(3)
-                        if (reveal != null && term != null && callouts.isNotEmpty()) {
-                            found = ch.copy(sections = listOf(ch.sections.first().copy(blocks = listOf(term, reveal) + callouts)))
+                        if (reveal != null && callouts.isNotEmpty()) {
+                            found = ch.copy(sections = listOf(ch.sections.first().copy(blocks = listOfNotNull(term, reveal) + callouts)))
                             break
                         }
                     }
