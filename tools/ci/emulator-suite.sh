@@ -19,5 +19,6 @@ fi
 adb shell wm size reset; adb shell wm density reset
 adb pull /sdcard/Pictures qa-captures/screenshots || true
 adb pull /sdcard/Android/data/com.gasczoology.animalbiotech/files/hier.xml qa-captures/hier.xml || true
+adb logcat -d -s CITEST:E > qa-captures/citest.txt || true
 adb logcat -d | grep -E 'AndroidRuntime|FATAL|animalbiotech|ActivityTaskManager|WindowManager' | tail -400 > qa-captures/logcat.txt || true
 exit $rc

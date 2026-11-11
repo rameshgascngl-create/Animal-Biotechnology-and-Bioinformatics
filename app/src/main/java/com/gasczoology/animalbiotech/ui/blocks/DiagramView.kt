@@ -124,6 +124,7 @@ fun DiagramView(block: Diagram, lang: Lang, scale: Float) {
 @Composable
 private fun FlatImage(a: DiagramAsset, description: String, lang: Lang) {
     var expanded by remember(a) { mutableStateOf(false) }
+    if (expanded) android.util.Log.e("CITEST", "composing viewer")
     if (expanded) FigureViewer(a, description, lang) { expanded = false }
     // Alt text is already a full sentence for rebuilt figures; older figures only have the caption.
     val label = if (description.startsWith("Diagram") || description.startsWith("படம்")) description
@@ -131,7 +132,7 @@ private fun FlatImage(a: DiagramAsset, description: String, lang: Lang) {
     Image(
         bitmap = a.image, contentDescription = label, contentScale = ContentScale.FillWidth,
         modifier = Modifier.fillMaxWidth().clip(androidx.compose.foundation.shape.RoundedCornerShape(8.dp))
-            .clickable(onClickLabel = tr(lang, "Enlarge diagram", "படத்தைப் பெரிதாக்கு")) { expanded = true },
+            .clickable(onClickLabel = tr(lang, "Enlarge diagram", "படத்தைப் பெரிதாக்கு")) { android.util.Log.e("CITEST", "inline click -> expanded"); expanded = true },
     )
 }
 
@@ -145,7 +146,7 @@ private fun FigureViewer(a: DiagramAsset, description: String, lang: Lang, onClo
         val act = c as? android.app.Activity
         val before = act?.requestedOrientation
         act?.requestedOrientation = android.content.pm.ActivityInfo.SCREEN_ORIENTATION_SENSOR_LANDSCAPE
-        onDispose { if (act != null && before != null) act.requestedOrientation = before }
+        onDispose { android.util.Log.e("CITEST", "viewer disposed"); if (act != null && before != null) act.requestedOrientation = before }
     }
     Dialog(onDismissRequest = onClose, properties = DialogProperties(usePlatformDefaultWidth = false)) {
         var zoom by remember { mutableStateOf(1f) }

@@ -50,8 +50,8 @@ class ReaderCaptureTest {
                     val opened = device.wait(Until.hasObject(By.text("Close")), 5000)
                     capture("03-probe")
                     if (!opened) {
-                        val dir = InstrumentationRegistry.getInstrumentation().targetContext.getExternalFilesDir(null)!!
-                        device.dumpWindowHierarchy(java.io.File(dir, "hier.xml").outputStream())
+                        val bo = java.io.ByteArrayOutputStream(); device.dumpWindowHierarchy(bo)
+                        bo.toString().replace(">", ">\n").lines().filter { "text=\"\"" !in it || "content-desc=\"\"" !in it }.forEach { android.util.Log.e("CITEST", it.take(400)) }
                     }
                     assertTrue(opened)
                     capture("03-enlarged")
