@@ -18,4 +18,6 @@ if [ "${RUN_PILOT:-0}" = "1" ]; then
 fi
 adb shell wm size reset; adb shell wm density reset
 adb pull /sdcard/Pictures qa-captures/screenshots || true
+adb pull /sdcard/Android/data/com.gasczoology.animalbiotech/files/hier.xml qa-captures/hier.xml || true
+adb logcat -d | grep -E 'AndroidRuntime|FATAL|animalbiotech|ActivityTaskManager|WindowManager' | tail -400 > qa-captures/logcat.txt || true
 exit $rc

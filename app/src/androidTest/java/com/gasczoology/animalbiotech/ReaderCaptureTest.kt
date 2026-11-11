@@ -49,7 +49,10 @@ class ReaderCaptureTest {
                     requireNotNull(image).click()
                     val opened = device.wait(Until.hasObject(By.text("Close")), 5000)
                     capture("03-probe")
-                    if (!opened) device.dumpWindowHierarchy(java.io.File("/sdcard/Pictures/hier.xml").also { it.parentFile?.mkdirs() }.outputStream())
+                    if (!opened) {
+                        val dir = InstrumentationRegistry.getInstrumentation().targetContext.getExternalFilesDir(null)!!
+                        device.dumpWindowHierarchy(java.io.File(dir, "hier.xml").outputStream())
+                    }
                     assertTrue(opened)
                     capture("03-enlarged")
                     device.findObject(By.text("Close")).click()
