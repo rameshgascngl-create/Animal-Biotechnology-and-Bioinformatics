@@ -1,6 +1,9 @@
 package com.gasczoology.animalbiotech.ui
 
 import com.gasczoology.animalbiotech.content.Bi
+import com.gasczoology.animalbiotech.content.Chapter
+import com.gasczoology.animalbiotech.content.Paragraph
+import com.gasczoology.animalbiotech.content.Section
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
@@ -35,4 +38,14 @@ class LessonLogicTest {
         val out = normaliseTable(h, listOf(listOf(Bi("Vector", "தாங்கிக்கடத்தி"))))
         assertEquals("தாங்கிக்கடத்தி", out[0][0].ta)
     }
+
+    private fun chap(vararg counts: Int) = Chapter("c", "I", Bi("T"),
+        counts.mapIndexed { i, n -> Section("s$i", Bi("S$i"), List(n) { Paragraph(Bi("w ".repeat(10))) }) })
+
+    @Test fun reading_time_is_at_least_one_minute() = assertEquals(1, readingMinutes(chap(1)))
+
+    @Test fun reading_time_rounds_up_at_200_wpm() = assertEquals(2, readingMinutes(chap(21))) // 210 words
+
+    @Test fun section_starts_skip_title_page_headers_and_blocks() =
+        assertEquals(listOf(1, 4, 7), sectionStartIndices(chap(2, 2, 0)))
 }

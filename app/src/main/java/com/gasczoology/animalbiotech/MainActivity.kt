@@ -110,6 +110,7 @@ fun App(store: Store) {
     var wrong by remember { mutableStateOf(store.getSet("wrong")) }
     var zoom by remember { mutableIntStateOf(store.getInt("zoom", 115)) }
     var lang by remember { mutableStateOf(store.getLang()) }
+    var theme by remember { mutableStateOf(store.getTheme()) }
     var lastId by remember { mutableStateOf(store.getString("last")) }
     var bests by remember { mutableStateOf(quizzes.associate { it.file to store.best(it.file) }) }
 
@@ -121,18 +122,31 @@ fun App(store: Store) {
             val chapter = remember(s.topic.id) { ChapterRepo.load(ctx, s.topic.file, s.topic.unitRoman)?.chapter }
             if (chapter != null) {
                 val quiz = quizzes.firstOrNull { it.file == s.topic.file }
-                LessonScreen(
-                    chapter = chapter,
-                    lang = lang,
-                    onLang = { lang = it; store.putLang(it) },
-                    zoom = zoom,
-                    studied = s.topic.id in studied,
-                    onStudied = { studied = store.toggle("studied", s.topic.id) },
-                    saved = s.topic.id in saved,
-                    onSaved = { saved = store.toggle("saved", s.topic.id) },
-                    onBack = { screen = null },
-                    onQuiz = quiz?.let { q -> { screen = Screen.QuizRun(q.title, q.file, q.items, 0) } },
-                )
+                val flat = remember(units) { units.flatMap { it.topics } }
+                val at = flat.indexOfFirst { it.id == s.topic.id }
+                fun go(t: Topic) { lastId = t.id; store.putString("last", t.id); screen = Screen.Reader(t) }
+                androidx.compose.runtime.key(s.topic.id) {
+                    LessonScreen(
+                        chapter = chapter,
+                        lang = lang,
+                        onLang = { lang = it; store.putLang(it) },
+                        zoom = zoom,
+                        studied = s.topic.id in studied,
+                        onStudied = { studied = store.toggle("studied", s.topic.id) },
+                        saved = s.topic.id in saved,
+                        onSaved = { saved = store.toggle("saved", s.topic.id) },
+                        onBack = { screen = null },
+                        onQuiz = quiz?.let { q -> { screen = Screen.QuizRun(q.title, q.file, q.items, 0) } },
+                        onZoom = { zoom = it; store.putInt("zoom", it) },
+                        theme = theme,
+                        onTheme = { theme = it; store.putTheme(it) },
+                        startIndex = store.getInt("pos_" + s.topic.id, 0),
+                        onPosition = { store.putInt("pos_" + s.topic.id, it) },
+                        onPrev = flat.getOrNull(at - 1)?.let { t -> { go(t) } },
+                        onNext = flat.getOrNull(at + 1)?.let { t -> { go(t) } },
+                        eyebrow = "Unit " + s.topic.unitRoman,
+                    )
+                }
             } else {
                 val quiz = quizzes.firstOrNull { it.file == s.topic.file }
                 ChapterUnavailableScreen(

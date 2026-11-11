@@ -118,4 +118,58 @@ class ReaderCaptureTest {
             }
         }
     }
+
+    @Test fun captureBookThemes() {
+        val device = UiDevice.getInstance(InstrumentationRegistry.getInstrumentation())
+        fun capture(name: String) {
+            device.waitForIdle(); Thread.sleep(600)
+            device.executeShellCommand("screencap -p /sdcard/Pictures/$name.png")
+        }
+        ActivityScenario.launch(MainActivity::class.java).use { scenario ->
+            assertTrue(device.wait(Until.hasObject(By.text("Animal Biotechnology")), 15000))
+            for (lang in Lang.entries) for (theme in com.gasczoology.animalbiotech.ui.theme.ReaderTheme.entries) {
+                scenario.onActivity { activity ->
+                    val ch = Repo.units(activity).flatMap { it.topics }
+                        .firstNotNullOf { ChapterRepo.load(activity, it.file, it.unitRoman)?.chapter }
+                    activity.setContent {
+                        MaterialTheme { LessonScreen(ch, lang, {}, 115, false, {}, false, {}, {}, null,
+                            theme = theme, eyebrow = "Unit I", onNext = {}) }
+                    }
+                }
+                capture("09-book-" + theme.name + "-" + lang.name)
+            }
+        }
+    }
+
+    @Test fun captureBookBodies() {
+        val device = UiDevice.getInstance(InstrumentationRegistry.getInstrumentation())
+        fun capture(name: String) {
+            device.waitForIdle(); Thread.sleep(600)
+            device.executeShellCommand("screencap -p /sdcard/Pictures/$name.png")
+        }
+        ActivityScenario.launch(MainActivity::class.java).use { scenario ->
+            assertTrue(device.wait(Until.hasObject(By.text("Animal Biotechnology")), 15000))
+            for (lang in Lang.entries) for (theme in com.gasczoology.animalbiotech.ui.theme.ReaderTheme.entries) {
+                scenario.onActivity { activity ->
+                    var found: com.gasczoology.animalbiotech.content.Chapter? = null
+                    for (un in Repo.units(activity)) for (t in un.topics) {
+                        val ch = ChapterRepo.load(activity, t.file, t.unitRoman)?.chapter ?: continue
+                        val all = ch.sections.flatMap { it.blocks }
+                        val para = all.firstOrNull { it is com.gasczoology.animalbiotech.content.Paragraph }
+                        val callouts = all.filterIsInstance<com.gasczoology.animalbiotech.content.Callout>().distinctBy { com.gasczoology.animalbiotech.ui.theme.calloutRole(it.kind, it.text.en) }.take(2)
+                        val tbl = all.firstOrNull { it is com.gasczoology.animalbiotech.content.Table }
+                        if (para != null && callouts.isNotEmpty() && tbl != null) {
+                            found = ch.copy(sections = listOf(ch.sections.first().copy(blocks = listOf(para) + callouts + tbl)))
+                            break
+                        }
+                    }
+                    val fx = requireNotNull(found)
+                    activity.setContent {
+                        MaterialTheme { LessonScreen(fx, lang, {}, 115, false, {}, false, {}, {}, null, theme = theme, startIndex = 1) }
+                    }
+                }
+                capture("10-body-" + theme.name + "-" + lang.name)
+            }
+        }
+    }
 }
