@@ -200,7 +200,7 @@ private fun RevealView(r: Reveal, lang: Lang, scale: Float) {
     var open by rememberSaveable { mutableStateOf(false) }
     Column(Modifier.fillMaxWidth().clickable { open = !open }, verticalArrangement = Arrangement.spacedBy(6.dp)) {
         RoleCard(Role.QUESTION, lang, scale) {
-            BiText(r.question, lang, scale, weight = FontWeight.SemiBold, color = Navy)
+            BiText(Bi(stripRevealPrompt(r.question.en), stripRevealPrompt(r.question.ta), r.question.taStatus), lang, scale, weight = FontWeight.SemiBold, color = Navy)
             if (!open) Text(tr(lang, "Tap to reveal the answer", "விடையைக் காண தொடவும்"), fontFamily = TamilFont, fontSize = (12 * scale).sp, color = Muted)
         }
         if (open) RoleCard(Role.ANSWER, lang, scale) { BiText(r.answer, lang, scale) }

@@ -17,4 +17,14 @@ class InlineTest {
         val s = "**Bios** (βίος) = Life · **Technē** = Skill"
         assertEquals("Bios (βίος) = Life · Technē = Skill", parseInline(s).joinToString("") { it.text })
     }
+
+    @Test fun italic_gene_name() = assertEquals(listOf(Span("The ", false), Span("tk", false, true), Span(" gene", false)), parseInline("The _tk_ gene"))
+    @Test fun snake_case_is_not_italic() = assertEquals(listOf(Span("lac_Z_gene", false)), parseInline("lac_Z_gene"))
+    @Test fun unpaired_underscore_stays() = assertEquals(listOf(Span("a _ b", false)), parseInline("a _ b"))
+    @Test fun tamil_italic_with_tamil_suffix() =
+        assertEquals(listOf(Span("\u0BAE\u0BC6", false, true), Span("\u0B90", false)), parseInline("_\u0BAE\u0BC6_\u0B90"))
+    @Test fun bold_with_italic_inside() = assertEquals(listOf(Span("see ", true), Span("tk", true, true)), parseInline("**see _tk_**"))
+    @Test fun no_text_lost_with_italics() = assertEquals("The tk gene", parseInline("The _tk_ gene").joinToString("") { it.text })
+    @Test fun strips_trailing_reveal_prompt() = assertEquals("\uD83E\uDDEB\nFermentation", stripRevealPrompt("\uD83E\uDDEB\nFermentation\nClick to reveal"))
+    @Test fun keeps_single_line_question() = assertEquals("Click to reveal", stripRevealPrompt("Click to reveal"))
 }
