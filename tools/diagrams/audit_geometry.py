@@ -5,7 +5,7 @@ Each SVG is forced to 360 CSS px wide (= 360 dp) and screenshotted at 3x (1080 p
 shipped one (renderer.TRANS: Noto Sans Tamil from app/src/main/res/font, including its shrink-to-fit pass).
 Checks, all measured in the browser on the rendered DOM (screen px at 360 dp):
   outside      element extends beyond the viewBox
-  margin       element inside the 4% safe margin (minor)
+  margin       element inside the 4%-of-width safe margin (all four sides) (minor)
   text_text    two text boxes overlap (boxes trimmed to the ink area)
   text_stroke  a line/outline/ring/arrow stroke passes through a text box
   text_edge    text straddles the edge of a filled shape (partly in, partly out)
@@ -62,7 +62,7 @@ MEASURE = r"""(i) => {
    for(let j=0;j<=n;j++){ const p=o.el.getPointAtLength(L*j/n); o.pts.push([m.a*p.x+m.c*p.y+m.e-R.left, m.b*p.x+m.d*p.y+m.f-R.top]); } }
  const sps=texts.map(t=>[+t.sp.toFixed(2),t.txt.length]);
  const defects=[]; const add=(kind,d)=>defects.push(Object.assign({kind},d));
- const tx=0.5, mx=0.04*W, my=0.04*H;
+ const tx=0.5, mx=0.04*W, my=0.04*W;
  for(const t of texts){
    if(t.x0<-tx||t.x1>W+tx||t.y0<-tx||t.y1>H+tx) add('outside',{what:'text',text:t.txt.slice(0,40)});
    else if(t.x0<mx||t.x1>W-mx||t.y0<my||t.y1>H-my) add('margin',{what:'text',text:t.txt.slice(0,40)});

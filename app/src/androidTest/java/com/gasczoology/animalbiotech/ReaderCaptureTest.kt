@@ -196,4 +196,36 @@ class ReaderCaptureTest {
             }
         }
     }
+
+    /** Pilot figure as the reader really shows it, then the full-screen landscape viewer. File names carry the dp size. */
+    @Test fun capturePilotFigure() {
+        val pilot = "screening_selection_recombinants-d02"
+        val device = UiDevice.getInstance(InstrumentationRegistry.getInstrumentation())
+        val dm = InstrumentationRegistry.getInstrumentation().targetContext.resources.displayMetrics
+        val tag = "${(dm.widthPixels / dm.density).toInt()}x${(dm.heightPixels / dm.density).toInt()}"
+        fun capture(name: String) {
+            device.waitForIdle(); Thread.sleep(900)
+            device.executeShellCommand("screencap -p /sdcard/Pictures/$name.png")
+        }
+        ActivityScenario.launch(MainActivity::class.java).use { scenario ->
+            assertTrue(device.wait(Until.hasObject(By.text("Animal Biotechnology")), 15000))
+            for (lang in Lang.entries) {
+                scenario.onActivity { activity ->
+                    val t = Repo.units(activity).flatMap { it.topics }.first { it.file.startsWith("screening_selection_recombinants") }
+                    val ch = requireNotNull(ChapterRepo.load(activity, t.file, t.unitRoman)?.chapter)
+                    val starts = com.gasczoology.animalbiotech.ui.sectionStartIndices(ch)
+                    var idx = -1
+                    ch.sections.forEachIndexed { si, s -> val bi = s.blocks.indexOfFirst { it is Diagram && it.id == pilot }
+                        if (bi >= 0 && idx < 0) idx = starts[si] + 1 + bi }
+                    require(idx > 0) { "pilot figure not found in chapter" }
+                    activity.setContent { MaterialTheme { LessonScreen(ch, lang, {}, 100, false, {}, false, {}, {}, null, startIndex = idx) } }
+                }
+                capture("12-pilot-inline-$tag-${lang.name}")
+                val prefix = if (lang == Lang.EN) "Diagram" else "படம்"
+                val fig = device.findObject(By.descStartsWith(prefix))
+                if (fig != null) { fig.click(); capture("13-pilot-viewer-$tag-${lang.name}"); device.pressBack(); device.waitForIdle() }
+                else capture("13-pilot-viewer-MISSING-$tag-${lang.name}")
+            }
+        }
+    }
 }

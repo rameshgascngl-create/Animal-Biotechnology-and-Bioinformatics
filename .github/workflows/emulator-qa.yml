@@ -1,7 +1,7 @@
 name: Native reader emulator QA
 on:
   push:
-    branches: [feat/native-bilingual-reader, fix/reader-markdown-tables-title, feat/book-ui, feat/book-reader, feat/figures-inline]
+    branches: [feat/native-bilingual-reader, fix/reader-markdown-tables-title, feat/book-ui, feat/book-reader, feat/figures-inline, audit/figure-geometry]
   workflow_dispatch:
 permissions:
   contents: write
@@ -40,6 +40,13 @@ jobs:
             adb shell am start -W -n com.gasczoology.animalbiotech/.MainActivity | tee qa-captures/cold-start.txt
             stat -c '%s' app/build/outputs/apk/debug/app-debug.apk | tee qa-captures/apk-bytes.txt
             gradle :app:connectedDebugAndroidTest --stacktrace
+            adb shell wm size 1080x2400
+            adb shell wm density 480
+            gradle :app:connectedDebugAndroidTest -Pandroid.testInstrumentationRunnerArguments.class=com.gasczoology.animalbiotech.ReaderCaptureTest#capturePilotFigure --stacktrace
+            adb shell wm density 420
+            gradle :app:connectedDebugAndroidTest -Pandroid.testInstrumentationRunnerArguments.class=com.gasczoology.animalbiotech.ReaderCaptureTest#capturePilotFigure --stacktrace
+            adb shell wm size reset
+            adb shell wm density reset
             adb pull /sdcard/Pictures qa-captures/screenshots
       - uses: actions/upload-artifact@v4
         if: always()
