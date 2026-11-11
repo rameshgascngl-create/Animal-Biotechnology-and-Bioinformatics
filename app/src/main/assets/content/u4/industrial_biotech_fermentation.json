@@ -1,0 +1,3020 @@
+{
+ "id": "industrial_biotech_fermentation",
+ "unit": "IV",
+ "title": {
+  "en": "Industrial Biotechnology — Fermentation & Ethanol Production",
+  "ta": "தொழிற்சாலை உயிரித் தொழில்நுட்பவியல் — நொதித்தலும் எத்தனால் உற்பத்தியும்",
+  "ta_status": "draft"
+ },
+ "sections": [
+  {
+   "id": "s01",
+   "title": {
+    "en": "Overview",
+    "ta": "மேலோட்டம்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Industrial Biotechnology",
+      "ta": "தொழிற்சாலை உயிரித் தொழில்நுட்பவியல்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🔬 Industrial Biotechnology · Unit 3",
+      "ta": "🔬 தொழிற்சாலை உயிரித் தொழில்நுட்பவியல் · அலகு 3",
+      "ta_status": "draft"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "title": {
+    "en": "Fermentation & Production\nof Ethanol",
+    "ta": "நொதித்தலும் எத்தனால்\nஉற்பத்தியும்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Basic Concepts of Industrial Fermentation",
+      "ta": "தொழிற்சாலை நொதித்தலின் அடிப்படைக் கருத்துகள்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fermentation is one of the oldest and most important biotechnological processes known to humanity. From ancient bread-making to modern bioethanol fuel, the ability of microorganisms to transform simple sugars into valuable products drives an entire global industry. This module explores the **scientific principles**, **conditions**, and **step-by-step production pathway** of ethanol through industrial fermentation.",
+      "ta": "நொதித்தல் மனிதகுலம் அறிந்த பழமையான, மிக முக்கியமான உயிரித் தொழில்நுட்பச் செயல்முறைகளில் ஒன்று. பண்டைய ரொட்டி தயாரிப்பிலிருந்து நவீன உயிரி எத்தனால் எரிபொருள் வரை, எளிய சர்க்கரைகளை மதிப்புமிக்க பொருள்களாக மாற்றும் நுண்ணுயிர்களின் திறனே ஒரு முழு உலகத் தொழிலை இயக்குகிறது. இப்பகுதி தொழிற்சாலை நொதித்தல் மூலம் எத்தனால் உற்பத்தியின் **அறிவியல் கொள்கைகள்**, **நிலைகள்**, **படிப்படியான உற்பத்திப் பாதை** ஆகியவற்றை ஆராய்கிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "📚 10 Sections 🎯 10 MCQ Quiz ⏱ ~45 min study 🎓 B.Sc. Level",
+      "ta": "📚 10 பகுதிகள் 🎯 10 MCQ வினாடி வினா ⏱ ~45 நிமி படிப்பு 🎓 B.Sc. நிலை",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🎯 Learning Objectives**",
+      "ta": "**🎯 கற்றல் நோக்கங்கள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "✓Define industrial biotechnology and describe its scope and importance.",
+       "ta": "✓தொழிற்சாலை உயிரித் தொழில்நுட்பவியலை வரையறுத்து அதன் நோக்கெல்லையையும் முக்கியத்துவத்தையும் விவரிக்க.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "✓Explain the concept, principle, and types of fermentation.",
+       "ta": "✓நொதித்தலின் கருத்து, கொள்கை, வகைகளை விளக்குக.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "✓Describe the role of microorganisms and enzymes in fermentation.",
+       "ta": "✓நொதித்தலில் நுண்ணுயிர்கள், நொதிகளின் பங்கை விவரிக்க.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "✓List the physicochemical conditions required for efficient fermentation.",
+       "ta": "✓திறமையான நொதித்தலுக்குத் தேவையான இயற்பிய வேதி நிலைகளைப் பட்டியலிடுக.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "✓Outline the industrial importance of fermentation across sectors.",
+       "ta": "✓பல்வேறு துறைகளில் நொதித்தலின் தொழிற்சாலை முக்கியத்துவத்தை வரையறுக்க.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "✓Describe the complete step-by-step process of industrial ethanol production.",
+       "ta": "✓தொழிற்சாலை எத்தனால் உற்பத்தியின் முழுப் படிப்படியான செயல்முறையை விவரிக்க.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "✓Write and explain the biochemical equation for alcoholic fermentation.",
+       "ta": "✓ஆல்கஹால் நொதித்தலுக்கான உயிர்வேதிச் சமன்பாட்டை எழுதி விளக்குக.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "✓Identify the industrial applications of ethanol.",
+       "ta": "✓எத்தனாலின் தொழிற்சாலைப் பயன்பாடுகளை அடையாளம் காண்க.",
+       "ta_status": "draft"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": {
+    "en": "Introduction to Industrial Biotechnology",
+    "ta": "தொழிற்சாலை உயிரித் தொழில்நுட்பவியல் – அறிமுகம்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Industrial biotechnology applies biological systems — primarily microorganisms and their enzymes — to manufacture products of commercial value at scale.",
+      "ta": "தொழிற்சாலை உயிரித் தொழில்நுட்பவியல் உயிரியல் அமைப்புகளை — முதன்மையாக நுண்ணுயிர்களையும் அவற்றின் நொதிகளையும் — பெரிய அளவில் வணிக மதிப்புள்ள பொருள்களைத் தயாரிக்கப் பயன்படுத்துகிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Biotechnology** is the application of living organisms, biological systems, or biological processes to develop products and technologies that benefit humanity. When applied at an industrial or manufacturing scale, it is called **Industrial Biotechnology** (also known as _White Biotechnology_).",
+      "ta": "**உயிரித் தொழில்நுட்பவியல்** என்பது மனிதகுலத்துக்குப் பயனளிக்கும் பொருள்களையும் தொழில்நுட்பங்களையும் உருவாக்க உயிருள்ள உயிரினங்கள், உயிரியல் அமைப்புகள் அல்லது உயிரியல் செயல்முறைகளைப் பயன்படுத்துதல். இது தொழிற்சாலை அல்லது உற்பத்தி அளவில் பயன்படுத்தப்படும்போது **தொழிற்சாலை உயிரித் தொழில்நுட்பவியல்** (_வெள்ளை உயிரித் தொழில்நுட்பவியல்_ எனவும் அறியப்படும்) எனப்படும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Unlike medical biotechnology (Red) or agricultural biotechnology (Green), industrial biotechnology focuses on the use of microorganisms, cells, and enzymes to produce chemicals, fuels, food, textiles, and other valuable materials **more sustainably and economically** than conventional chemical processes.",
+      "ta": "மருத்துவ (சிவப்பு), வேளாண் (பச்சை) உயிரித் தொழில்நுட்பவியலைப் போலன்றி, தொழிற்சாலை உயிரித் தொழில்நுட்பவியல் நுண்ணுயிர்கள், செல்கள், நொதிகளைக் கொண்டு வேதிப்பொருள்கள், எரிபொருள்கள், உணவு, ஜவுளி, பிற மதிப்புமிக்க பொருள்களை வழக்கமான வேதிச் செயல்முறைகளைவிட **நீடித்த, பொருளாதார வழியில்** தயாரிப்பதில் கவனம் செலுத்துகிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Definition**",
+      "ta": "**வரையறை**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**📌 Industrial Biotechnology — Defined**\nIndustrial Biotechnology is the **application of biological organisms, systems, or processes in industrial production** to convert raw biological materials (biomass, sugars, starch) into valuable products such as fuels, chemicals, enzymes, food additives, and pharmaceuticals through processes like fermentation.",
+      "ta": "**📌 தொழிற்சாலை உயிரித் தொழில்நுட்பவியல் — வரையறை**\nதொழிற்சாலை உயிரித் தொழில்நுட்பவியல் என்பது நொதித்தல் போன்ற செயல்முறைகள் மூலம் மூல உயிரிப் பொருள்களை (உயிர்த்திரள், சர்க்கரைகள், மாவுப்பொருள்) எரிபொருள்கள், வேதிப்பொருள்கள், நொதிகள், உணவுச் சேர்க்கைகள், மருந்துகள் போன்ற மதிப்புமிக்க பொருள்களாக மாற்ற **தொழிற்சாலை உற்பத்தியில் உயிரியல் உயிரினங்கள், அமைப்புகள் அல்லது செயல்முறைகளைப் பயன்படுத்துதல்** ஆகும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Scope & Branches**",
+      "ta": "**நோக்கெல்லையும் கிளைகளும்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fermentation",
+      "ta": "நொதித்தல்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Microbial Fermentation**",
+      "ta": "**நுண்ணுயிர் நொதித்தல்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Use of yeast, bacteria, and fungi to produce ethanol, organic acids, vitamins, and antibiotics.",
+      "ta": "ஈஸ்ட், பாக்டீரியா, பூஞ்சைகளைக் கொண்டு எத்தனால், கரிம அமிலங்கள், வைட்டமின்கள், ஆன்டிபயாடிக்குகளை உற்பத்தி செய்தல்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Enzyme Tech",
+      "ta": "நொதித் தொழில்நுட்பம்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Enzyme Technology**",
+      "ta": "**நொதித் தொழில்நுட்பவியல்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Isolation and application of enzymes (amylase, lipase, protease) for industrial processes.",
+      "ta": "தொழிற்சாலைச் செயல்முறைகளுக்கு நொதிகளை (அமைலேஸ், லிப்பேஸ், புரோட்டியேஸ்) பிரித்தெடுத்துப் பயன்படுத்துதல்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Biofuels",
+      "ta": "உயிரி எரிபொருள்கள்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Biofuel Production**",
+      "ta": "**உயிரி எரிபொருள் உற்பத்தி**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Conversion of biomass into bioethanol, biodiesel, and biogas as renewable energy sources.",
+      "ta": "உயிர்த்திரளை மீளப்பெறத்தக்க ஆற்றல் மூலங்களான உயிரி எத்தனால், உயிரி டீசல், உயிரிவளிமமாக மாற்றுதல்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Bioprocessing",
+      "ta": "உயிர்ச்செயலாக்கம்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Bioprocess Engineering**",
+      "ta": "**உயிர்ச்செயலாக்கப் பொறியியல்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Design and optimisation of bioreactors, upstream & downstream processing for scale-up production.",
+      "ta": "பெருக்க உற்பத்திக்கான உயிர்வினைக்கலன்களின் வடிவமைப்பும் மேம்படுத்தலும், முன்நிலை, பின்நிலைச் செயலாக்கம்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Why Industrial Biotechnology?**",
+      "ta": "**தொழிற்சாலை உயிரித் தொழில்நுட்பவியல் ஏன்?**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**🌿 Advantages Over Conventional Methods**\n• Uses renewable raw materials (sugars, starch, biomass) instead of fossil fuels\n• Operates under mild conditions (low temperature, ambient pressure) — energy efficient\n• Produces fewer toxic by-products — environmentally friendly\n• Microorganisms can be genetically improved to enhance yield\n• Continuous production possible in bioreactors\n• Wide range of products: antibiotics, alcohols, organic acids, vitamins, enzymes",
+      "ta": "**🌿 வழக்கமான முறைகளைவிட நன்மைகள்**\n• புதைபடிவ எரிபொருளுக்குப் பதிலாக மீளப்பெறத்தக்க மூலப்பொருள்களை (சர்க்கரைகள், மாவுப்பொருள், உயிர்த்திரள்) பயன்படுத்தும்\n• மிதமான நிலைகளில் (குறைந்த வெப்பநிலை, சூழல் அழுத்தம்) இயங்கும் — ஆற்றல் சிக்கனம்\n• குறைவான நச்சுத் துணைப்பொருள்கள் — சுற்றுச்சூழலுக்கு நட்பானது\n• விளைச்சலை உயர்த்த நுண்ணுயிர்களை மரபணுவழி மேம்படுத்தலாம்\n• உயிர்வினைக்கலன்களில் தொடர் உற்பத்தி சாத்தியம்\n• பரந்த பொருள் வகைகள்: ஆன்டிபயாடிக்குகள், ஆல்கஹால்கள், கரிம அமிலங்கள், வைட்டமின்கள், நொதிகள்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key Industrial Products**",
+      "ta": "**முக்கியத் தொழிற்சாலைப் பொருள்கள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Product",
+       "ta": "பொருள்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Microorganism",
+       "ta": "நுண்ணுயிர்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Application",
+       "ta": "பயன்பாடு",
+       "ta_status": "draft"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Ethanol**",
+        "ta": "**எத்தனால்**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "_Saccharomyces cerevisiae_",
+        "ta": "_Saccharomyces cerevisiae_",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Biofuel, beverages, solvents",
+        "ta": "உயிரி எரிபொருள், பானங்கள், கரைப்பான்கள்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Penicillin**",
+        "ta": "**பென்சிலின்**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "_Penicillium chrysogenum_",
+        "ta": "_Penicillium chrysogenum_",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Antibiotic medicine",
+        "ta": "ஆன்டிபயாடிக் மருந்து",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Citric Acid**",
+        "ta": "**சிட்ரிக் அமிலம்**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "_Aspergillus niger_",
+        "ta": "_Aspergillus niger_",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Food preservative, beverages",
+        "ta": "உணவுப் பாதுகாப்புப் பொருள், பானங்கள்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Lactic Acid**",
+        "ta": "**லாக்டிக் அமிலம்**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "_Lactobacillus_ sp.",
+        "ta": "_Lactobacillus_ sp.",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Food fermentation, bioplastics",
+        "ta": "உணவு நொதித்தல், உயிரிப் பிளாஸ்டிக்குகள்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Insulin**",
+        "ta": "**இன்சுலின்**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "_E. coli_ (recombinant)",
+        "ta": "_E. coli_ (மறுகூட்டிணைவு)",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Diabetes treatment",
+        "ta": "நீரிழிவுச் சிகிச்சை",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Vinegar (Acetic acid)**",
+        "ta": "**வினிகர் (அசிட்டிக் அமிலம்)**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "_Acetobacter_ sp.",
+        "ta": "_Acetobacter_ sp.",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Food industry, preservative",
+        "ta": "உணவுத் தொழில், பாதுகாப்புப் பொருள்",
+        "ta_status": "draft"
+       }
+      ]
+     ]
+    }
+   ],
+   "label": "📘 Chapter 1"
+  },
+  {
+   "id": "s04",
+   "title": {
+    "en": "Basic Concepts of Fermentation",
+    "ta": "நொதித்தலின் அடிப்படைக் கருத்துகள்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Fermentation is the microbial transformation of organic compounds — typically sugars — into simpler products like alcohol, acids, and gases under controlled conditions.",
+      "ta": "நொதித்தல் என்பது கட்டுப்படுத்தப்பட்ட நிலைகளில் கரிமச் சேர்மங்களை — பொதுவாகச் சர்க்கரைகளை — ஆல்கஹால், அமிலங்கள், வளிமங்கள் போன்ற எளிய பொருள்களாக மாற்றும் நுண்ணுயிர்ச் செயல்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Click to Reveal — Core Definitions**",
+      "ta": "**வெளிப்படுத்தத் தொடுக — முக்கிய வரையறைகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "👆 Click each card to reveal its definition",
+      "ta": "👆 வரையறையை வெளிப்படுத்த ஒவ்வொரு அட்டையையும் தொடுக",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "🧫\n**Fermentation**\nClick to reveal",
+      "ta": "🧫\n**நொதித்தல்**\nவெளிப்படுத்தத் தொடுக",
+      "ta_status": "draft"
+     },
+     "answer": {
+      "en": "**Fermentation** is a metabolic process in which microorganisms break down organic compounds (sugars) _without the net use of oxygen_ to produce energy, alcohol, acids, or gases. ✓",
+      "ta": "**நொதித்தல்** என்பது நுண்ணுயிர்கள் _ஆக்சிஜனை நிகர அளவில் பயன்படுத்தாமல்_ கரிமச் சேர்மங்களை (சர்க்கரைகளை) சிதைத்து ஆற்றல், ஆல்கஹால், அமிலங்கள் அல்லது வளிமங்களை உருவாக்கும் வளர்சிதை மாற்றச் செயல். ✓",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "⚙️\n**Substrate**\nClick to reveal",
+      "ta": "⚙️\n**வினைபடு பொருள்**\nவெளிப்படுத்தத் தொடுக",
+      "ta_status": "draft"
+     },
+     "answer": {
+      "en": "**Substrate** is the organic material (e.g., glucose, sucrose, starch) that microorganisms use as a raw material and energy source during fermentation. ✓",
+      "ta": "**வினைபடு பொருள் (Substrate)** என்பது நொதித்தலின்போது நுண்ணுயிர்கள் மூலப்பொருளாகவும் ஆற்றல் மூலமாகவும் பயன்படுத்தும் கரிமப் பொருள் (எ.கா. குளுக்கோஸ், சுக்ரோஸ், மாவுப்பொருள்). ✓",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "🔬\n**Inoculum**\nClick to reveal",
+      "ta": "🔬\n**இனோக்குலம்**\nவெளிப்படுத்தத் தொடுக",
+      "ta_status": "draft"
+     },
+     "answer": {
+      "en": "**Inoculum** is the initial starter culture of microorganisms introduced into the fermentation medium to begin and drive the fermentation process. ✓",
+      "ta": "**இனோக்குலம் (Inoculum)** என்பது நொதித்தலைத் தொடங்கி இயக்க நொதித்தல் ஊடகத்தில் செலுத்தப்படும் நுண்ணுயிர்களின் தொடக்கக் கலவை வளர்ப்பு. ✓",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "🏺\n**Bioreactor**\nClick to reveal",
+      "ta": "🏺\n**உயிர்வினைக்கலன்**\nவெளிப்படுத்தத் தொடுக",
+      "ta_status": "draft"
+     },
+     "answer": {
+      "en": "**Bioreactor** (fermenter) is a closed vessel designed to provide the optimal environment (temperature, pH, aeration) for large-scale microbial growth and product formation. ✓",
+      "ta": "**உயிர்வினைக்கலன்** (நொதிப்பி) என்பது பெரிய அளவிலான நுண்ணுயிர் வளர்ச்சிக்கும் பொருள் உருவாக்கத்துக்கும் உகந்த சூழலை (வெப்பநிலை, pH, காற்றூட்டம்) அளிக்க வடிவமைக்கப்பட்ட மூடிய கலன். ✓",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Principle of Fermentation**",
+      "ta": "**நொதித்தலின் கொள்கை**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The fundamental principle of fermentation is **anaerobic catabolism of organic compounds**. In the absence of sufficient oxygen, microorganisms cannot carry out full aerobic respiration. Instead, they partially oxidise glucose through _glycolysis_ to produce pyruvate, which is then reduced to various end-products (ethanol, lactic acid, etc.) while regenerating **NAD⁺** to allow glycolysis to continue.",
+      "ta": "நொதித்தலின் அடிப்படைக் கொள்கை **கரிமச் சேர்மங்களின் காற்றில்லா வினைச்சிதைவு**. போதுமான ஆக்சிஜன் இல்லாதபோது நுண்ணுயிர்களால் முழுமையான காற்றுச் சுவாசத்தை நிகழ்த்த இயலாது. அதற்குப் பதிலாக அவை குளுக்கோசை _கிளைகாலிசிஸ்_ வழி பகுதியாக ஆக்சிஜனேற்றம் செய்து பைருவேட்டை உருவாக்குகின்றன; பின்னர் அது பல்வேறு இறுதிப் பொருள்களாக (எத்தனால், லாக்டிக் அமிலம் முதலியன) ஒடுக்கப்படுகிறது; அப்போது கிளைகாலிசிஸ் தொடர **NAD⁺** மீளுருவாகிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Overall Equation — Alcoholic Fermentation",
+      "ta": "ஒட்டுமொத்தச் சமன்பாடு — ஆல்கஹால் நொதித்தல்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "C₆H₁₂O₆ (Glucose) → 2 C₂H₅OH (Ethanol) + 2 CO₂ + 2 ATP",
+      "ta": "C₆H₁₂O₆ (குளுக்கோஸ்) → 2 C₂H₅OH (எத்தனால்) + 2 CO₂ + 2 ATP",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Catalysed by Zymase enzyme complex in _Saccharomyces cerevisiae_",
+      "ta": "_Saccharomyces cerevisiae_-இல் சைமேஸ் நொதித் தொகுப்பால் வினையூக்கப்படுகிறது",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Role of Microorganisms**",
+      "ta": "**நுண்ணுயிர்களின் பங்கு**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Microorganisms are the **biological catalysts** of fermentation. They possess the specific enzymatic machinery to break down complex substrates into simpler products. Different microorganisms produce different end-products from the same starting material.",
+      "ta": "நுண்ணுயிர்கள் நொதித்தலின் **உயிரியல் வினையூக்கிகள்**. சிக்கலான வினைபடு பொருள்களை எளிய பொருள்களாகச் சிதைக்கும் குறிப்பிட்ட நொதி அமைப்பு அவற்றிடம் உண்டு. ஒரே தொடக்கப் பொருளிலிருந்து வெவ்வேறு நுண்ணுயிர்கள் வெவ்வேறு இறுதிப் பொருள்களை உருவாக்கும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Yeast (Fungi)**",
+      "ta": "**ஈஸ்ட் (பூஞ்சை)**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "_Saccharomyces cerevisiae_ produces **ethanol + CO₂** from glucose. Used in brewing, baking, and bioethanol production.",
+      "ta": "_Saccharomyces cerevisiae_ குளுக்கோசிலிருந்து **எத்தனால் + CO₂** உருவாக்கும். மது காய்ச்சல், ரொட்டி தயாரிப்பு, உயிரி எத்தனால் உற்பத்தியில் பயன்படுகிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Lactic Acid Bacteria**",
+      "ta": "**லாக்டிக் அமில பாக்டீரியா**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "_Lactobacillus_ sp. converts glucose to **lactic acid**. Used in yoghurt, cheese, silage, and probiotic production.",
+      "ta": "_Lactobacillus_ sp. குளுக்கோசை **லாக்டிக் அமிலமாக** மாற்றும். தயிர், பாலாடைக்கட்டி, சைலேஜ், புரோபயாடிக் உற்பத்தியில் பயன்படுகிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Bacteria (Others)**",
+      "ta": "**பாக்டீரியா (பிற)**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "_Clostridium_ sp. produces **butanol & acetone**; _Acetobacter_ converts ethanol to **acetic acid** (vinegar).",
+      "ta": "_Clostridium_ sp. **பியூட்டனால் & அசிட்டோன்** உருவாக்கும்; _Acetobacter_ எத்தனாலை **அசிட்டிக் அமிலமாக** (வினிகர்) மாற்றும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Moulds (Fungi)**",
+      "ta": "**பூஞ்சைகள் (மோல்டுகள்)**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "_Aspergillus_ sp. ferments sugars to **citric acid & gluconic acid**. Also produce industrial enzymes like amylase.",
+      "ta": "_Aspergillus_ sp. சர்க்கரைகளை **சிட்ரிக் அமிலமாகவும் குளுக்கோனிக் அமிலமாகவும்** நொதிக்கச் செய்யும். அமைலேஸ் போன்ற தொழிற்சாலை நொதிகளையும் உருவாக்கும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Enzymatic Activity in Fermentation**",
+      "ta": "**நொதித்தலில் நொதிச் செயல்பாடு**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Enzymes act as biological catalysts that drive each step of fermentation. Click each accordion panel to explore key enzymes.",
+      "ta": "நொதிகள் நொதித்தலின் ஒவ்வொரு படியையும் இயக்கும் உயிரியல் வினையூக்கிகள். முக்கிய நொதிகளை அறிய ஒவ்வொரு விரிவுப் பலகத்தையும் தொடுக.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🧬 Zymase Complex (Glycolysis + Fermentation) ▼",
+      "ta": "🧬 சைமேஸ் தொகுப்பு (கிளைகாலிசிஸ் + நொதித்தல்) ▼",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Zymase** is a collective term for the enzyme complex in yeast responsible for alcoholic fermentation. It comprises multiple enzymes working sequentially:",
+      "ta": "**சைமேஸ்** என்பது ஆல்கஹால் நொதித்தலுக்குப் பொறுப்பான ஈஸ்டின் நொதித் தொகுப்பின் கூட்டுப் பெயர். இது வரிசையாகச் செயல்படும் பல நொதிகளைக் கொண்டது:",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Hexokinase** — phosphorylates glucose to glucose-6-phosphate",
+       "ta": "**Hexokinase** — குளுக்கோசை குளுக்கோஸ்-6-பாஸ்பேட்டாகப் பாஸ்பேட்டேற்றும்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Phosphofructokinase** — key regulatory enzyme of glycolysis",
+       "ta": "**Phosphofructokinase** — கிளைகாலிசிஸின் முக்கிய ஒழுங்குபடுத்தும் நொதி",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Pyruvate kinase** — produces pyruvate from PEP",
+       "ta": "**Pyruvate kinase** — PEP-யிலிருந்து பைருவேட்டை உருவாக்கும்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Pyruvate decarboxylase** — converts pyruvate → acetaldehyde + CO₂",
+       "ta": "**Pyruvate decarboxylase** — பைருவேட்டை → அசிட்டால்டிஹைடு + CO₂ ஆக மாற்றும்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Alcohol dehydrogenase (ADH)** — reduces acetaldehyde → ethanol; regenerates NAD⁺",
+       "ta": "**Alcohol dehydrogenase (ADH)** — அசிட்டால்டிஹைடை → எத்தனாலாக ஒடுக்கும்; NAD⁺ மீளுருவாக்கும்",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🌾 Amylase (Starch → Sugar) ▼",
+      "ta": "🌾 அமைலேஸ் (மாவுப்பொருள் → சர்க்கரை) ▼",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Amylase** hydrolyses starch into fermentable sugars before fermentation begins (saccharification step).",
+      "ta": "**அமைலேஸ்** நொதித்தல் தொடங்குமுன் மாவுப்பொருளை நொதிக்கத்தக்க சர்க்கரைகளாக நீராற்பகுக்கும் (சாக்கரிஃபிகேஷன் படி).",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**α-Amylase** — cleaves internal α-1,4 glycosidic bonds → maltodextrins (liquefaction)",
+       "ta": "**α-Amylase** — உட்புற α-1,4 கிளைக்கோசிடிக் பிணைப்புகளைப் பிளந்து → மால்ட்டோடெக்ஸ்டிரின்கள் (திரவமாக்கல்)",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**β-Amylase** — cleaves from non-reducing ends → maltose units",
+       "ta": "**β-Amylase** — ஒடுக்கா முனைகளிலிருந்து பிளந்து → மால்ட்டோஸ் அலகுகள்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Glucoamylase** — cleaves glucose units completely for direct fermentation",
+       "ta": "**Glucoamylase** — நேரடி நொதித்தலுக்குக் குளுக்கோஸ் அலகுகளை முழுமையாகப் பிளக்கும்",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Produced by _Aspergillus oryzae_, _Bacillus subtilis_, and added to starch-based fermentation media.",
+      "ta": "_Aspergillus oryzae_, _Bacillus subtilis_ ஆகியவற்றால் உருவாக்கப்பட்டு, மாவுப்பொருள் சார்ந்த நொதித்தல் ஊடகங்களில் சேர்க்கப்படும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🍬 Invertase (Sucrose → Glucose + Fructose) ▼",
+      "ta": "🍬 இன்வெர்ட்டேஸ் (சுக்ரோஸ் → குளுக்கோஸ் + பிரக்டோஸ்) ▼",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Invertase** (β-fructofuranosidase) is secreted by _S. cerevisiae_ and hydrolyses sucrose into glucose and fructose — both of which can be directly fermented:",
+      "ta": "**இன்வெர்ட்டேஸ்** (β-fructofuranosidase) _S. cerevisiae_ சுரப்பது; சுக்ரோசைக் குளுக்கோசாகவும் பிரக்டோசாகவும் நீராற்பகுக்கும் — இரண்டுமே நேரடியாக நொதிக்கத்தக்கவை:",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Sucrose → Glucose + Fructose (both enter glycolysis)",
+       "ta": "சுக்ரோஸ் → குளுக்கோஸ் + பிரக்டோஸ் (இரண்டும் கிளைகாலிசிஸில் நுழையும்)",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Critical when molasses (sucrose-rich) is used as substrate",
+       "ta": "மொலாசஸ் (சுக்ரோஸ் மிகுந்தது) வினைபடு பொருளாகப் பயன்படும்போது இன்றியமையாதது",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Allows yeast to use cane sugar and beet sugar substrates efficiently",
+       "ta": "கரும்புச் சர்க்கரை, பீட்ரூட் சர்க்கரை வினைபடு பொருள்களை ஈஸ்ட் திறம்படப் பயன்படுத்த உதவும்",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🥛 Lactase (Lactose → Glucose + Galactose) ▼",
+      "ta": "🥛 லாக்டேஸ் (லாக்டோஸ் → குளுக்கோஸ் + கேலக்டோஸ்) ▼",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Lactase** (β-galactosidase) breaks down milk sugar (lactose) into fermentable monosaccharides:",
+      "ta": "**லாக்டேஸ்** (β-galactosidase) பாலிலுள்ள சர்க்கரையான லாக்டோசை நொதிக்கத்தக்க ஒற்றைச் சர்க்கரைகளாகப் பிளக்கும்:",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Used in dairy fermentation (cheese, yoghurt, kefir production)",
+       "ta": "பால் நொதித்தலில் (பாலாடைக்கட்டி, தயிர், கெஃபிர் உற்பத்தி) பயன்படும்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Also relevant in whey fermentation for bioethanol",
+       "ta": "உயிரி எத்தனாலுக்கான மோர் நொதித்தலிலும் தொடர்புடையது",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Produced by _Lactobacillus_ and _Kluyveromyces marxianus_",
+       "ta": "_Lactobacillus_, _Kluyveromyces marxianus_ ஆகியவற்றால் உருவாக்கப்படுகிறது",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Types of Fermentation**",
+      "ta": "**நொதித்தல் வகைகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🌬️ Aerobic Fermentation**",
+      "ta": "**🌬️ காற்றுவழி நொதித்தல்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Occurs **in the presence of oxygen**",
+       "ta": "**ஆக்சிஜன் உள்ளபோது** நிகழும்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Complete oxidation of substrate to CO₂ & H₂O",
+       "ta": "வினைபடு பொருள் CO₂ & H₂O ஆக முழுமையாக ஆக்சிஜனேற்றமடையும்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "High ATP yield (~36–38 ATP per glucose)",
+       "ta": "அதிக ATP விளைவு (ஒரு குளுக்கோசுக்கு ~36–38 ATP)",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Products: CO₂, H₂O, biomass, organic acids",
+       "ta": "பொருள்கள்: CO₂, H₂O, உயிர்த்திரள், கரிம அமிலங்கள்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Examples: Citric acid, vinegar, single-cell protein",
+       "ta": "எடுத்துக்காட்டுகள்: சிட்ரிக் அமிலம், வினிகர், ஒற்றைச்செல் புரதம்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Used for: antibiotic, enzyme, and vitamin production",
+       "ta": "பயன்பாடு: ஆன்டிபயாடிக், நொதி, வைட்டமின் உற்பத்தி",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🚫🌬️ Anaerobic Fermentation**",
+      "ta": "**🚫🌬️ காற்றில்லா நொதித்தல்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Occurs **without oxygen**",
+       "ta": "**ஆக்சிஜன் இன்றி** நிகழும்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Partial oxidation — only 2 ATP per glucose",
+       "ta": "பகுதி ஆக்சிஜனேற்றம் — ஒரு குளுக்கோசுக்கு 2 ATP மட்டும்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "NAD⁺ regenerated by product formation",
+       "ta": "பொருள் உருவாக்கத்தால் NAD⁺ மீளுருவாகும்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Products: ethanol + CO₂, or lactic acid",
+       "ta": "பொருள்கள்: எத்தனால் + CO₂, அல்லது லாக்டிக் அமிலம்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Examples: Ethanol, lactic acid, biogas",
+       "ta": "எடுத்துக்காட்டுகள்: எத்தனால், லாக்டிக் அமிலம், உயிரிவளிமம்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Used for: alcohol, dairy fermentation, silage",
+       "ta": "பயன்பாடு: ஆல்கஹால், பால் நொதித்தல், சைலேஜ்",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**📋 Sub-types of Anaerobic Fermentation**\n• **Alcoholic fermentation:** Glucose → Ethanol + CO₂ (yeast)\n• **Lactic acid fermentation:** Glucose → Lactic acid (bacteria) — homofermentative vs. heterofermentative\n• **Butyric acid fermentation:** Glucose → Butyric acid + H₂ + CO₂ (_Clostridium_)\n• **Propionic acid fermentation:** Lactic acid → Propionic acid + CO₂ (_Propionibacterium_)",
+      "ta": "**📋 காற்றில்லா நொதித்தலின் துணை வகைகள்**\n• **ஆல்கஹால் நொதித்தல்:** குளுக்கோஸ் → எத்தனால் + CO₂ (ஈஸ்ட்)\n• **லாக்டிக் அமில நொதித்தல்:** குளுக்கோஸ் → லாக்டிக் அமிலம் (பாக்டீரியா) — ஹோமோஃபெர்மென்டேட்டிவ் – ஹெட்டிரோஃபெர்மென்டேட்டிவ்\n• **பியூட்டிரிக் அமில நொதித்தல்:** குளுக்கோஸ் → பியூட்டிரிக் அமிலம் + H₂ + CO₂ (_Clostridium_)\n• **புரோப்பியானிக் அமில நொதித்தல்:** லாக்டிக் அமிலம் → புரோப்பியானிக் அமிலம் + CO₂ (_Propionibacterium_)",
+      "ta_status": "draft"
+     }
+    }
+   ],
+   "label": "📗 Chapter 2"
+  },
+  {
+   "id": "s05",
+   "title": {
+    "en": "Conditions Required for Fermentation",
+    "ta": "நொதித்தலுக்குத் தேவையான நிலைகள்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Efficient fermentation requires careful optimisation of substrate, microbial strain, and physicochemical parameters. Any deviation from optimal conditions reduces yield significantly.",
+      "ta": "திறமையான நொதித்தலுக்கு வினைபடு பொருள், நுண்ணுயிர் வகை, இயற்பிய வேதி அளவுருக்களின் கவனமான மேம்படுத்தல் தேவை. உகந்த நிலைகளிலிருந்து எந்த விலகலும் விளைவை மிகவும் குறைக்கும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Substrate",
+      "ta": "வினைபடு பொருள்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Glucose / Sucrose / Starch",
+      "ta": "குளுக்கோஸ் / சுக்ரோஸ் / மாவுப்பொருள்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Carbon and energy source for the microorganism. Must be soluble and at optimum concentration (10–20% for ethanol).",
+      "ta": "நுண்ணுயிருக்கான கார்பன், ஆற்றல் மூலம். கரையும் தன்மையுடனும் உகந்த செறிவிலும் (எத்தனாலுக்கு 10–20%) இருக்க வேண்டும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Microorganism",
+      "ta": "நுண்ணுயிர்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "_S. cerevisiae_ (Yeast)",
+      "ta": "_S. cerevisiae_ (ஈஸ்ட்)",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Must be pure culture, high-yielding strain, alcohol-tolerant, and capable of growing rapidly on available substrate.",
+      "ta": "தூய வளர்ப்பாக, அதிக விளைவு தரும், ஆல்கஹாலைத் தாங்கும், கிடைக்கும் வினைபடு பொருளில் விரைவாக வளரும் வகையாக இருக்க வேண்டும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Temperature",
+      "ta": "வெப்பநிலை",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "25 – 35°C",
+      "ta": "25 – 35°C",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Optimal for yeast: 28–32°C. High temperature denatures enzymes; low temperature slows metabolism and growth.",
+      "ta": "ஈஸ்டுக்கு உகந்தது: 28–32°C. உயர் வெப்பநிலை நொதிகளைச் சிதைக்கும்; குறைந்த வெப்பநிலை வளர்சிதை மாற்றத்தையும் வளர்ச்சியையும் மெதுவாக்கும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "pH",
+      "ta": "pH",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "4.5 – 5.5",
+      "ta": "4.5 – 5.5",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Slightly acidic pH optimal for yeast. Low pH prevents bacterial contamination. pH <4 or >6 inhibits fermentation.",
+      "ta": "சற்று அமிலத்தன்மை ஈஸ்டுக்கு உகந்தது. குறைந்த pH பாக்டீரிய மாசுபாட்டைத் தடுக்கும். pH <4 அல்லது >6 நொதித்தலைத் தடுக்கும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Oxygen",
+      "ta": "ஆக்சிஜன்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Anaerobic / Microaerophilic",
+      "ta": "காற்றில்லா / நுண்காற்றுவழி",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Minimal O₂ for alcoholic fermentation. Small amounts needed for yeast growth initially; then sealed for anaerobic production.",
+      "ta": "ஆல்கஹால் நொதித்தலுக்குக் குறைந்தபட்ச O₂. தொடக்கத்தில் ஈஸ்ட் வளர்ச்சிக்குச் சிறிதளவு தேவை; பின்னர் காற்றில்லா உற்பத்திக்கு மூடப்படும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Nutrients",
+      "ta": "ஊட்டச்சத்துகள்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "N, P, Vitamins, Minerals",
+      "ta": "N, P, வைட்டமின்கள், கனிமங்கள்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Nitrogen source (ammonium sulfate), phosphate, potassium, magnesium, and vitamins like biotin and thiamine are essential.",
+      "ta": "நைட்ரஜன் மூலம் (அம்மோனியம் சல்பேட்), பாஸ்பேட், பொட்டாசியம், மெக்னீசியம், பயோட்டின், தயமின் போன்ற வைட்டமின்கள் அவசியம்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Detailed Conditions — Accordion**",
+      "ta": "**விரிவான நிலைகள் — விரிவுப் பலகம்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🌾 Substrate — Types and Concentration ▼",
+      "ta": "🌾 வினைபடு பொருள் — வகைகளும் செறிவும் ▼",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The substrate must be **rich in fermentable sugars** and cost-effective. Key substrates include:",
+      "ta": "வினைபடு பொருள் **நொதிக்கத்தக்க சர்க்கரைகள் மிகுந்ததாகவும்** செலவு குறைந்ததாகவும் இருக்க வேண்டும். முக்கிய வினைபடு பொருள்கள்:",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Molasses** — by-product of sugar refining; contains 50–55% sucrose; cheap & widely used",
+       "ta": "**மொலாசஸ்** — சர்க்கரைச் சுத்திகரிப்பின் துணைப்பொருள்; 50–55% சுக்ரோஸ் உடையது; மலிவானது, பரவலாகப் பயன்படுவது",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Sugarcane juice** — direct source of sucrose; used in Brazil and India",
+       "ta": "**கரும்புச் சாறு** — சுக்ரோசின் நேரடி மூலம்; பிரேசில், இந்தியாவில் பயன்படுகிறது",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Corn/wheat starch** — requires saccharification (amylase treatment) before fermentation",
+       "ta": "**சோளம்/கோதுமை மாவுப்பொருள்** — நொதிக்குமுன் சாக்கரிஃபிகேஷன் (அமைலேஸ் சிகிச்சை) தேவை",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Cellulosic biomass** — requires pre-treatment + cellulase; used for second-generation ethanol",
+       "ta": "**செல்லுலோஸ் உயிர்த்திரள்** — முன்செயலாக்கம் + செல்லுலேஸ் தேவை; இரண்டாம் தலைமுறை எத்தனாலுக்குப் பயன்படுகிறது",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Optimal sugar concentration: **10–20% w/v**. Above 20%, osmotic stress inhibits yeast; below 5%, low product yield.",
+      "ta": "உகந்த சர்க்கரைச் செறிவு: **10–20% w/v**. 20%-க்கு மேல் ஊடுபரவல் அழுத்தம் ஈஸ்டைத் தடுக்கும்; 5%-க்குக் கீழ் விளைவு குறைவு.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🌡️ Temperature — Critical Parameter ▼",
+      "ta": "🌡️ வெப்பநிலை — முக்கிய அளவுரு ▼",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Temperature directly affects enzyme activity and cell growth:",
+      "ta": "வெப்பநிலை நொதிச் செயல்பாட்டையும் செல் வளர்ச்சியையும் நேரடியாகப் பாதிக்கும்:",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Optimal range for _S. cerevisiae_: **28–32°C**",
+       "ta": "_S. cerevisiae_-க்கு உகந்த வரம்பு: **28–32°C**",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Below 20°C: Greatly reduced metabolic rate — slow fermentation",
+       "ta": "20°C-க்குக் கீழ்: வளர்சிதை மாற்ற வேகம் மிகவும் குறையும் — மெதுவான நொதித்தல்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Above 40°C: Enzymes denatured; cell death; fermentation stops",
+       "ta": "40°C-க்கு மேல்: நொதிகள் சிதையும்; செல் இறப்பு; நொதித்தல் நிற்கும்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Industrial fermenters use **cooling jackets** to control exothermic heat released",
+       "ta": "தொழிற்சாலை நொதிப்பிகள் வெளிப்படும் வெப்பத்தைக் கட்டுப்படுத்த **குளிர்விக்கும் உறைகளைப்** பயன்படுத்தும்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Thermotolerant strains (optimum ~38–40°C) reduce cooling costs in tropical countries",
+       "ta": "வெப்பம் தாங்கும் வகைகள் (உகந்தது ~38–40°C) வெப்பமண்டல நாடுகளில் குளிர்விப்புச் செலவைக் குறைக்கும்",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "⚖️ pH — Controlling Contamination and Activity ▼",
+      "ta": "⚖️ pH — மாசுபாட்டையும் செயல்பாட்டையும் கட்டுப்படுத்துதல் ▼",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "pH impacts enzyme activity and microbial competition:",
+      "ta": "pH நொதிச் செயல்பாட்டையும் நுண்ணுயிர்ப் போட்டியையும் பாதிக்கும்:",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Optimal pH for yeast fermentation: **4.5–5.5**",
+       "ta": "ஈஸ்ட் நொதித்தலுக்கு உகந்த pH: **4.5–5.5**",
+       "ta_status": "draft"
+      },
+      {
+       "en": "pH 4.5 minimises contamination by acid-sensitive bacteria",
+       "ta": "pH 4.5 அமில உணர்திறன் பாக்டீரியாக்களால் ஏற்படும் மாசுபாட்டைக் குறைக்கும்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "pH above 6 favours bacterial contaminants (lactic acid bacteria)",
+       "ta": "pH 6-க்கு மேல் பாக்டீரிய மாசுபடுத்திகளுக்கு (லாக்டிக் அமில பாக்டீரியா) சாதகம்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "pH is maintained using phosphate buffers or by controlled addition of H₂SO₄ / NaOH",
+       "ta": "பாஸ்பேட் தாங்கல்கள் அல்லது H₂SO₄ / NaOH கட்டுப்படுத்திச் சேர்ப்பால் pH பேணப்படும்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "As fermentation proceeds, CO₂ production naturally lowers pH (carbonic acid)",
+       "ta": "நொதித்தல் தொடரும்போது CO₂ உற்பத்தி இயல்பாக pH-ஐக் குறைக்கும் (கார்பானிக் அமிலம்)",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🌀 Oxygen Availability — Aerobic vs Anaerobic Phases ▼",
+      "ta": "🌀 ஆக்சிஜன் கிடைப்பு — காற்றுவழி – காற்றில்லா நிலைகள் ▼",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Oxygen requirement differs by fermentation phase:",
+      "ta": "நொதித்தல் நிலைக்கேற்ப ஆக்சிஜன் தேவை மாறும்:",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Phase 1 (Aerobic — Growth):** Limited aeration allows yeast biomass multiplication",
+       "ta": "**நிலை 1 (காற்றுவழி — வளர்ச்சி):** குறைந்த காற்றூட்டம் ஈஸ்ட் உயிர்த்திரள் பெருகச் செய்யும்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Phase 2 (Anaerobic — Production):** Vessel sealed; anaerobic conditions shift yeast metabolism to ethanol production (Pasteur Effect)",
+       "ta": "**நிலை 2 (காற்றில்லா — உற்பத்தி):** கலன் மூடப்படும்; காற்றில்லா நிலைகள் ஈஸ்ட் வளர்சிதை மாற்றத்தை எத்தனால் உற்பத்திக்கு மாற்றும் (பாஸ்டர் விளைவு)",
+       "ta_status": "draft"
+      },
+      {
+       "en": "High O₂ → _Crabtree effect_: yeast produces ethanol even in aerobic conditions at high glucose",
+       "ta": "அதிக O₂ → _கிராப்ட்ரீ விளைவு_: அதிகக் குளுக்கோசில் காற்றுவழி நிலையிலும் ஈஸ்ட் எத்தனாலை உருவாக்கும்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Industrial practice: Sparging with N₂ gas to create fully anaerobic conditions in sealed bioreactors",
+       "ta": "தொழிற்சாலை நடைமுறை: மூடிய உயிர்வினைக்கலன்களில் முழுமையான காற்றில்லா நிலைக்கு N₂ வளிம ஸ்பார்ஜிங்",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🧂 Nutrients — Nitrogen, Minerals & Vitamins ▼",
+      "ta": "🧂 ஊட்டச்சத்துகள் — நைட்ரஜன், கனிமங்கள், வைட்டமின்கள் ▼",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Beyond carbon (substrate), yeast requires macro- and micro-nutrients:",
+      "ta": "கார்பனுக்கு (வினைபடு பொருள்) மேலாக, ஈஸ்டுக்குப் பெருஞ்சத்துகளும் நுண்சத்துகளும் தேவை:",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Nitrogen:** Ammonium sulfate [(NH₄)₂SO₄] or urea — for amino acid and protein synthesis",
+       "ta": "**நைட்ரஜன்:** அம்மோனியம் சல்பேட் [(NH₄)₂SO₄] அல்லது யூரியா — அமினோ அமிலம், புரத உற்பத்திக்கு",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Phosphorus:** Monopotassium phosphate (KH₂PO₄) — for ATP, nucleic acids",
+       "ta": "**பாஸ்பரஸ்:** மோனோபொட்டாசியம் பாஸ்பேட் (KH₂PO₄) — ATP, நியுக்ளிக் அமிலங்களுக்கு",
+       "ta_status": "bracketed"
+      },
+      {
+       "en": "**Magnesium:** MgSO₄ — enzyme cofactor (hexokinase, enolase)",
+       "ta": "**மெக்னீசியம்:** MgSO₄ — நொதித் துணைக்காரணி (hexokinase, enolase)",
+       "ta_status": "bracketed"
+      },
+      {
+       "en": "**Vitamins:** Biotin, thiamine (B₁), pantothenic acid — for enzyme function",
+       "ta": "**வைட்டமின்கள்:** பயோட்டின், தயமின் (B₁), பேன்டோதெனிக் அமிலம் — நொதிச் செயலுக்கு",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Molasses supplementation:** Usually provides sufficient trace elements naturally",
+       "ta": "**மொலாசஸ் சேர்க்கை:** பொதுவாக போதுமான நுண்தனிமங்களை இயற்கையாகவே அளிக்கும்",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**⚠️ Inhibitors of Fermentation**\n• **Ethanol toxicity:** >14–15% v/v ethanol inhibits yeast growth (product inhibition)\n• **Osmotic stress:** Very high sugar concentration dehydrates cells\n• **Contamination:** Competing bacteria produce acids that lower yield\n• **Heavy metals:** Copper, zinc at high concentrations inhibit enzymes\n• **Temperature extremes:** >40°C denatures critical fermentation enzymes",
+      "ta": "**⚠️ நொதித்தலின் தடுப்பான்கள்**\n• **எத்தனால் நச்சுத்தன்மை:** >14–15% v/v எத்தனால் ஈஸ்ட் வளர்ச்சியைத் தடுக்கும் (பொருள் தடுப்பு)\n• **ஊடுபரவல் அழுத்தம்:** மிக அதிகச் சர்க்கரைச் செறிவு செல்களை நீரிழக்கச் செய்யும்\n• **மாசுபாடு:** போட்டியிடும் பாக்டீரியாக்கள் விளைவைக் குறைக்கும் அமிலங்களை உருவாக்கும்\n• **கன உலோகங்கள்:** அதிகச் செறிவில் தாமிரம், துத்தநாகம் நொதிகளைத் தடுக்கும்\n• **வெப்பநிலை உச்சங்கள்:** >40°C முக்கிய நொதித்தல் நொதிகளைச் சிதைக்கும்",
+      "ta_status": "draft"
+     }
+    }
+   ],
+   "label": "📗 Chapter 3"
+  },
+  {
+   "id": "s06",
+   "title": {
+    "en": "Industrial Importance of Fermentation",
+    "ta": "நொதித்தலின் தொழிற்சாலை முக்கியத்துவம்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Fermentation is the backbone of numerous industries, providing sustainable routes to produce medicines, fuels, food products, and industrial chemicals.",
+      "ta": "மருந்துகள், எரிபொருள்கள், உணவுப் பொருள்கள், தொழிற்சாலை வேதிப்பொருள்களை உருவாக்கும் நீடித்த வழிகளை அளிக்கும் பல தொழில்களின் முதுகெலும்பு நொதித்தல்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Pharmaceuticals",
+      "ta": "மருந்துத் துறை",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Antibiotics & Medicines**",
+      "ta": "**ஆன்டிபயாடிக்குகளும் மருந்துகளும்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Penicillin (_Penicillium_)",
+       "ta": "பென்சிலின் (_Penicillium_)",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Streptomycin (_Streptomyces_)",
+       "ta": "ஸ்ட்ரெப்டோமைசின் (_Streptomyces_)",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Erythromycin, Tetracycline",
+       "ta": "எரித்ரோமைசின், டெட்ராசைக்ளின்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Vitamins B₁₂, riboflavin",
+       "ta": "வைட்டமின்கள் B₁₂, ரிபோஃபிளேவின்",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Food & Beverage",
+      "ta": "உணவும் பானமும்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Food Industry**",
+      "ta": "**உணவுத் தொழில்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Bread & bakery (yeast — CO₂)",
+       "ta": "ரொட்டி & பேக்கரி (ஈஸ்ட் — CO₂)",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Beer, wine, spirits",
+       "ta": "பீர், ஒயின், மதுபானங்கள்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Cheese, yoghurt, kefir",
+       "ta": "பாலாடைக்கட்டி, தயிர், கெஃபிர்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Soy sauce, vinegar, tempeh",
+       "ta": "சோயா சாஸ், வினிகர், டெம்பே",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Biofuels",
+      "ta": "உயிரி எரிபொருள்கள்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Bioenergy**",
+      "ta": "**உயிரி ஆற்றல்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Bioethanol from sugarcane/corn",
+       "ta": "கரும்பு/சோளத்திலிருந்து உயிரி எத்தனால்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Biogas (methane) from waste",
+       "ta": "கழிவிலிருந்து உயிரிவளிமம் (மீத்தேன்)",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Biodiesel via microbial lipids",
+       "ta": "நுண்ணுயிர்க் கொழுப்புகள் மூலம் உயிரி டீசல்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Biohydrogen production",
+       "ta": "உயிரி ஹைட்ரஜன் உற்பத்தி",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Chemicals",
+      "ta": "வேதிப்பொருள்கள்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Organic Chemicals**",
+      "ta": "**கரிம வேதிப்பொருள்கள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Citric acid, lactic acid",
+       "ta": "சிட்ரிக் அமிலம், லாக்டிக் அமிலம்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Acetone, butanol (ABE)",
+       "ta": "அசிட்டோன், பியூட்டனால் (ABE)",
+       "ta_status": "bracketed"
+      },
+      {
+       "en": "Acetic acid (vinegar)",
+       "ta": "அசிட்டிக் அமிலம் (வினிகர்)",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Gluconic acid, amino acids",
+       "ta": "குளுக்கோனிக் அமிலம், அமினோ அமிலங்கள்",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Enzymes",
+      "ta": "நொதிகள்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Industrial Enzymes**",
+      "ta": "**தொழிற்சாலை நொதிகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Amylase (starch processing)",
+       "ta": "அமைலேஸ் (மாவுப்பொருள் செயலாக்கம்)",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Protease (detergents, leather)",
+       "ta": "புரோட்டியேஸ் (சலவைப்பொடிகள், தோல்)",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Lipase (food, paper)",
+       "ta": "லிப்பேஸ் (உணவு, காகிதம்)",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Cellulase (textile, biofuel)",
+       "ta": "செல்லுலேஸ் (ஜவுளி, உயிரி எரிபொருள்)",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Agriculture",
+      "ta": "வேளாண்மை",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Agriculture**",
+      "ta": "**வேளாண்மை**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Biofertilizers (_Rhizobium_)",
+       "ta": "உயிர் உரங்கள் (_Rhizobium_)",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Biopesticides (_Bacillus_)",
+       "ta": "உயிரிப் பூச்சிக்கொல்லிகள் (_Bacillus_)",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Silage production",
+       "ta": "சைலேஜ் உற்பத்தி",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Compost acceleration",
+       "ta": "உரத்தயாரிப்பை விரைவுபடுத்தல்",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Economic & Environmental Significance**",
+      "ta": "**பொருளாதார, சுற்றுச்சூழல் முக்கியத்துவம்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**🌍 Sustainable Development Goals (SDGs) & Fermentation**\n• **SDG 7 (Clean Energy):** Bioethanol as renewable transport fuel reduces fossil fuel dependency\n• **SDG 3 (Good Health):** Fermentation-derived antibiotics and vaccines save millions of lives annually\n• **SDG 12 (Responsible Consumption):** Agro-industrial waste (molasses, bagasse) converted to valuable products\n• **SDG 13 (Climate Action):** Bioethanol reduces net CO₂ emissions vs. petrol; CO₂ released was first fixed by plants\n• **India context:** India is the 3rd largest ethanol producer globally; National Biofuel Policy targets 20% ethanol blending by 2025",
+      "ta": "**🌍 நீடித்த வளர்ச்சி இலக்குகளும் (SDGs) நொதித்தலும்**\n• **SDG 7 (தூய ஆற்றல்):** போக்குவரத்துக்கு மீளப்பெறத்தக்க எரிபொருளான உயிரி எத்தனால் புதைபடிவ எரிபொருள் சார்பைக் குறைக்கும்\n• **SDG 3 (நல்ல உடல்நலம்):** நொதித்தலால் பெறப்பட்ட ஆன்டிபயாடிக்குகளும் தடுப்பூசிகளும் ஆண்டுதோறும் மில்லியன் கணக்கானோரின் உயிரைக் காக்கின்றன\n• **SDG 12 (பொறுப்பான நுகர்வு):** வேளாண்-தொழிற்சாலைக் கழிவுகள் (மொலாசஸ், கரும்புச் சக்கை) மதிப்புமிக்க பொருள்களாக மாற்றப்படுகின்றன\n• **SDG 13 (காலநிலை நடவடிக்கை):** பெட்ரோலுடன் ஒப்பிடும்போது உயிரி எத்தனால் நிகர CO₂ வெளியேற்றத்தைக் குறைக்கும்; வெளியான CO₂ முதலில் தாவரங்களால் நிலைநிறுத்தப்பட்டது\n• **இந்தியச் சூழல்:** உலகில் எத்தனால் உற்பத்தியில் இந்தியா 3-ஆவது பெரிய நாடு; தேசிய உயிரி எரிபொருள் கொள்கை 2025-க்குள் 20% எத்தனால் கலப்பை இலக்காகக் கொண்டது",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Industry Sector",
+       "ta": "தொழில் துறை",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Fermentation Product",
+       "ta": "நொதித்தல் பொருள்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Annual Global Value",
+       "ta": "ஆண்டு உலக மதிப்பு",
+       "ta_status": "draft"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "Pharmaceutical",
+        "ta": "மருந்துத் துறை",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Antibiotics, vitamins",
+        "ta": "ஆன்டிபயாடிக்குகள், வைட்டமின்கள்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "~$120 billion",
+        "ta": "~$120 பில்லியன்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "Food & Beverage",
+        "ta": "உணவும் பானமும்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Alcoholic beverages, dairy",
+        "ta": "மதுபானங்கள், பால் பொருள்கள்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "~$800 billion",
+        "ta": "~$800 பில்லியன்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "Biofuels",
+        "ta": "உயிரி எரிபொருள்கள்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Bioethanol, biogas",
+        "ta": "உயிரி எத்தனால், உயிரிவளிமம்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "~$100 billion",
+        "ta": "~$100 பில்லியன்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "Industrial Chemicals",
+        "ta": "தொழிற்சாலை வேதிப்பொருள்கள்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Organic acids, solvents",
+        "ta": "கரிம அமிலங்கள், கரைப்பான்கள்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "~$50 billion",
+        "ta": "~$50 பில்லியன்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "Industrial Enzymes",
+        "ta": "தொழிற்சாலை நொதிகள்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Amylase, protease, lipase",
+        "ta": "அமைலேஸ், புரோட்டியேஸ், லிப்பேஸ்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "~$10 billion",
+        "ta": "~$10 பில்லியன்",
+        "ta_status": "draft"
+       }
+      ]
+     ]
+    }
+   ],
+   "label": "📙 Chapter 4"
+  },
+  {
+   "id": "s07",
+   "title": {
+    "en": "Production of Ethanol",
+    "ta": "எத்தனால் உற்பத்தி",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Ethanol (C₂H₅OH) is produced industrially through the anaerobic fermentation of sugar-rich substrates by _Saccharomyces cerevisiae_. It is the world's most produced biofuel.",
+      "ta": "எத்தனால் (C₂H₅OH) சர்க்கரை மிகுந்த வினைபடு பொருள்களை _Saccharomyces cerevisiae_ காற்றில்லா நிலையில் நொதிக்கச் செய்து தொழிற்சாலையில் உற்பத்தி செய்யப்படுகிறது. இது உலகில் மிக அதிகம் உற்பத்தியாகும் உயிரி எரிபொருள்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Raw Materials**",
+      "ta": "**மூலப்பொருள்கள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1st Generation",
+      "ta": "முதல் தலைமுறை",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Molasses**",
+      "ta": "**மொலாசஸ்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "By-product of sugar cane/beet processing. Contains **45–55% fermentable sugars** (mainly sucrose). Cheapest and most widely used substrate in India and Brazil.",
+      "ta": "கரும்பு/பீட்ரூட் செயலாக்கத்தின் துணைப்பொருள். **45–55% நொதிக்கத்தக்க சர்க்கரைகள்** (முதன்மையாகச் சுக்ரோஸ்) உடையது. இந்தியாவிலும் பிரேசிலிலும் மிக மலிவான, மிகப் பரவலாகப் பயன்படும் வினைபடு பொருள்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1st Generation",
+      "ta": "முதல் தலைமுறை",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Sugarcane Juice**",
+      "ta": "**கரும்புச் சாறு**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fresh expressed juice with **12–18% sucrose**. Direct and efficient substrate; Brazil's primary ethanol source (~30 billion litres/year).",
+      "ta": "**12–18% சுக்ரோஸ்** உடைய புதிதாகப் பிழிந்த சாறு. நேரடி, திறமையான வினைபடு பொருள்; பிரேசிலின் முதன்மை எத்தனால் மூலம் (~ஆண்டுக்கு 30 பில்லியன் லிட்டர்).",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1st Generation",
+      "ta": "முதல் தலைமுறை",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Starch Sources**",
+      "ta": "**மாவுப்பொருள் மூலங்கள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Corn, wheat, cassava, potato. Requires **saccharification** (enzymatic hydrolysis of starch by amylase) to glucose before fermentation. Primary substrate in USA (corn).",
+      "ta": "சோளம், கோதுமை, மரவள்ளி, உருளைக்கிழங்கு. நொதிக்குமுன் குளுக்கோசாக **சாக்கரிஃபிகேஷன்** (அமைலேஸால் மாவுப்பொருளின் நொதிவழி நீராற்பகுப்பு) தேவை. அமெரிக்காவில் (சோளம்) முதன்மை வினைபடு பொருள்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2nd Generation",
+      "ta": "இரண்டாம் தலைமுறை",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Lignocellulosic Biomass**",
+      "ta": "**லிக்னோசெல்லுலோஸ் உயிர்த்திரள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Agricultural waste: sugarcane bagasse, rice straw, corn stover. Requires **pre-treatment + cellulase**. Not yet commercially dominant but growing rapidly.",
+      "ta": "வேளாண் கழிவுகள்: கரும்புச் சக்கை, நெல் வைக்கோல், சோளத் தட்டை. **முன்செயலாக்கம் + செல்லுலேஸ்** தேவை. இன்னும் வணிகரீதியாக ஆதிக்கம் பெறவில்லை; ஆனால் வேகமாக வளர்கிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Microorganism: _Saccharomyces cerevisiae_**",
+      "ta": "**நுண்ணுயிர்: _Saccharomyces cerevisiae_**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**🦠 Why _Saccharomyces cerevisiae_ (Baker's/Brewer's Yeast)?**\n• **High ethanol yield:** Converts ~90–95% of theoretical maximum glucose to ethanol\n• **Ethanol tolerance:** Survives up to 14–15% v/v ethanol (flocculent strains up to 20%)\n• **GRAS status:** Generally Recognised As Safe — used in food and drink\n• **Fast growth:** Doubling time ~90 minutes under optimal conditions\n• **Facultative anaerobe:** Can grow both aerobically (biomass) and anaerobically (ethanol)\n• **Well-characterised:** Fully sequenced genome; amenable to genetic improvement",
+      "ta": "**🦠 ஏன் _Saccharomyces cerevisiae_ (ரொட்டி/மது ஈஸ்ட்)?**\n• **அதிக எத்தனால் விளைவு:** கோட்பாட்டு அதிகபட்சக் குளுக்கோசில் ~90–95%-ஐ எத்தனாலாக மாற்றும்\n• **எத்தனால் தாங்கும் திறன்:** 14–15% v/v எத்தனால் வரை உயிர்பிழைக்கும் (திரள்வகை வகைகள் 20% வரை)\n• **GRAS நிலை:** பொதுவாகப் பாதுகாப்பானதெனக் கருதப்படுவது — உணவு, பானங்களில் பயன்படுகிறது\n• **விரைவு வளர்ச்சி:** உகந்த நிலைகளில் இரட்டிப்பு நேரம் ~90 நிமிடங்கள்\n• **விருப்பக் காற்றில்லா உயிரி:** காற்றுவழியிலும் (உயிர்த்திரள்) காற்றில்லாவிலும் (எத்தனால்) வளரக்கூடியது\n• **நன்கு பண்பறியப்பட்டது:** மரபணுத்தொகையம் முழுமையாக வரிசைப்படுத்தப்பட்டது; மரபணுவழி மேம்படுத்தலுக்கு ஏற்றது",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Biochemical Basis of Alcoholic Fermentation**",
+      "ta": "**ஆல்கஹால் நொதித்தலின் உயிர்வேதி அடிப்படை**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Alcoholic fermentation proceeds in **two main stages**: glycolysis (in the cytoplasm) followed by pyruvate reduction to ethanol.",
+      "ta": "ஆல்கஹால் நொதித்தல் **இரு முக்கிய நிலைகளில்** நிகழ்கிறது: கிளைகாலிசிஸ் (சைட்டோபிளாசத்தில்), பின்னர் பைருவேட்டை எத்தனாலாக ஒடுக்குதல்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Step 1 — Glycolysis (Embden–Meyerhof–Parnas Pathway)",
+      "ta": "படி 1 — கிளைகாலிசிஸ் (எம்பிடன்–மேயர்ஹாஃப்–பர்னாஸ் பாதை)",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "C₆H₁₂O₆ + 2 ADP + 2 Pᵢ + 2 NAD⁺ → 2 CH₃COCOOH (Pyruvate) + 2 ATP + 2 NADH + 2 H₂O",
+      "ta": "C₆H₁₂O₆ + 2 ADP + 2 Pᵢ + 2 NAD⁺ → 2 CH₃COCOOH (பைருவேட்) + 2 ATP + 2 NADH + 2 H₂O",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Step 2 — Decarboxylation (Pyruvate → Acetaldehyde)",
+      "ta": "படி 2 — கார்பாக்சில் நீக்கம் (பைருவேட் → அசிட்டால்டிஹைடு)",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "CH₃COCOOH —[Pyruvate decarboxylase]→ CH₃CHO (Acetaldehyde) + CO₂",
+      "ta": "CH₃COCOOH —[Pyruvate decarboxylase]→ CH₃CHO (அசிட்டால்டிஹைடு) + CO₂",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Step 3 — Reduction (Acetaldehyde → Ethanol)",
+      "ta": "படி 3 — ஒடுக்கம் (அசிட்டால்டிஹைடு → எத்தனால்)",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "CH₃CHO + NADH + H⁺ —[Alcohol dehydrogenase]→ C₂H₅OH (Ethanol) + NAD⁺",
+      "ta": "CH₃CHO + NADH + H⁺ —[Alcohol dehydrogenase]→ C₂H₅OH (எத்தனால்) + NAD⁺",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "NAD⁺ regenerated here allows glycolysis to continue continuously",
+      "ta": "இங்கு மீளுருவாகும் NAD⁺ கிளைகாலிசிஸைத் தொடர்ச்சியாகத் தொடர அனுமதிக்கிறது",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Overall Net Reaction",
+      "ta": "ஒட்டுமொத்த நிகர வினை",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂ + 2 ATP",
+      "ta": "C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂ + 2 ATP",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Theoretical yield: 51.1 g ethanol per 100 g glucose (Gay-Lussac's equation)",
+      "ta": "கோட்பாட்டு விளைவு: 100 g குளுக்கோசுக்கு 51.1 g எத்தனால் (கே-லுசாக் சமன்பாடு)",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Step-by-Step Industrial Production Process**",
+      "ta": "**படிப்படியான தொழிற்சாலை உற்பத்திச் செயல்முறை**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click on each step in the **Interactive Flowchart** (next chapter) to explore details. Here is a concise overview:",
+      "ta": "விவரங்களை ஆராய **ஊடாடும் ஓட்ட வரைபடத்தில்** (அடுத்த பகுதி) ஒவ்வொரு படியையும் தொடுக. இங்கு சுருக்கமான மேலோட்டம்:",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Step",
+       "ta": "படி",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Process",
+       "ta": "செயல்முறை",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Key Operation",
+       "ta": "முக்கிய இயக்கம்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Purpose",
+       "ta": "நோக்கம்",
+       "ta_status": "draft"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**1**",
+        "ta": "**1**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Raw material preparation",
+        "ta": "மூலப்பொருள் தயாரிப்பு",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Dilution, clarification, saccharification",
+        "ta": "நீர்க்கச் செய்தல், தெளிவாக்கல், சாக்கரிஃபிகேஷன்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Prepare fermentable sugar solution (12–18° Brix)",
+        "ta": "நொதிக்கத்தக்க சர்க்கரைக் கரைசலைத் தயாரித்தல் (12–18° பிரிக்ஸ்)",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**2**",
+        "ta": "**2**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Sterilisation of medium",
+        "ta": "ஊடக நுண்ணுயிர் நீக்கம்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Heat treatment (80–100°C) or chemical",
+        "ta": "வெப்பச் சிகிச்சை (80–100°C) அல்லது வேதிமுறை",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Eliminate competing microorganisms",
+        "ta": "போட்டியிடும் நுண்ணுயிர்களை அழித்தல்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**3**",
+        "ta": "**3**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Inoculation",
+        "ta": "இனோக்குலம் செலுத்தல்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Addition of yeast starter culture",
+        "ta": "ஈஸ்ட் தொடக்க வளர்ப்பைச் சேர்த்தல்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Introduce active _S. cerevisiae_ (2–5% v/v)",
+        "ta": "செயலில் உள்ள _S. cerevisiae_-ஐ (2–5% v/v) அறிமுகப்படுத்துதல்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**4**",
+        "ta": "**4**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Fermentation",
+        "ta": "நொதித்தல்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Anaerobic incubation, 28–32°C, pH 4.5–5.5",
+        "ta": "காற்றில்லா அடைகாத்தல், 28–32°C, pH 4.5–5.5",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Conversion of sugars to ethanol + CO₂",
+        "ta": "சர்க்கரைகளை எத்தனால் + CO₂ ஆக மாற்றுதல்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**5**",
+        "ta": "**5**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Monitoring",
+        "ta": "கண்காணிப்பு",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Measure Brix, pH, ethanol, cell density",
+        "ta": "பிரிக்ஸ், pH, எத்தனால், செல் அடர்த்தியை அளத்தல்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Ensure optimal process control",
+        "ta": "உகந்த செயல்முறைக் கட்டுப்பாட்டை உறுதிசெய்தல்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**6**",
+        "ta": "**6**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Distillation",
+        "ta": "காய்ச்சி வடித்தல்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Fractional distillation (78°C)",
+        "ta": "பகுதிக் காய்ச்சி வடித்தல் (78°C)",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Separate ethanol from fermented wash (~8–12%)",
+        "ta": "நொதித்த வாஷிலிருந்து (~8–12%) எத்தனாலைப் பிரித்தல்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**7**",
+        "ta": "**7**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Rectification",
+        "ta": "ரெக்டிஃபிகேஷன்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Multiple column distillation",
+        "ta": "பல கோபுரக் காய்ச்சி வடித்தல்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Concentrate ethanol to 95–96% (azeotrope)",
+        "ta": "எத்தனாலை 95–96% (அசியோட்ரோப்) வரை செறிவாக்குதல்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**8**",
+        "ta": "**8**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Dehydration / Purification",
+        "ta": "நீர் நீக்கம் / தூய்மையாக்கல்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Molecular sieve, azeotropic distillation",
+        "ta": "மூலக்கூறு சல்லடை, அசியோட்ரோப்பிக் காய்ச்சி வடித்தல்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Anhydrous ethanol ≥99.5% for fuel-grade",
+        "ta": "எரிபொருள் தரத்துக்கு நீரற்ற எத்தனால் ≥99.5%",
+        "ta_status": "draft"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Industrial Applications of Ethanol**",
+      "ta": "**எத்தனாலின் தொழிற்சாலைப் பயன்பாடுகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Biofuel**",
+      "ta": "**உயிரி எரிபொருள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Blended with petrol as **E5, E10, E20**; reduces GHG emissions. India targets E20 blend by 2025 under National Biofuel Policy.",
+      "ta": "பெட்ரோலுடன் **E5, E10, E20** ஆகக் கலக்கப்படும்; GHG வெளியேற்றத்தைக் குறைக்கும். தேசிய உயிரி எரிபொருள் கொள்கையின்படி இந்தியா 2025-க்குள் E20 கலப்பை இலக்காகக் கொண்டுள்ளது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Sanitiser & Antiseptic**",
+      "ta": "**கிருமிநாசினியும் நுண்ணுயிர்க்கொல்லியும்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "70% ethanol is a potent antiseptic. Widely used in hand sanitisers, pharmaceutical cleaning, and hospital disinfection.",
+      "ta": "70% எத்தனால் வலிமையான நுண்ணுயிர்க்கொல்லி. கைச் சுத்திகரிப்பான்கள், மருந்துத் தூய்மையாக்கம், மருத்துவமனை நோய்நீக்கத்தில் பரவலாகப் பயன்படுகிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Industrial Solvent**",
+      "ta": "**தொழிற்சாலைக் கரைப்பான்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Solvent for resins, dyes, perfumes, pharmaceuticals, and cosmetics. Used in extraction, printing, and textile industries.",
+      "ta": "பிசின்கள், சாயங்கள், வாசனைப் பொருள்கள், மருந்துகள், அழகுசாதனப் பொருள்களுக்கான கரைப்பான். பிரித்தெடுத்தல், அச்சு, ஜவுளித் தொழில்களில் பயன்படுகிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Beverages**",
+      "ta": "**பானங்கள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Base of beer (~4–5%), wine (~12%), whisky (~40%), and other alcoholic drinks produced by yeast fermentation.",
+      "ta": "ஈஸ்ட் நொதித்தலால் உருவாகும் பீர் (~4–5%), ஒயின் (~12%), விஸ்கி (~40%), பிற மதுபானங்களுக்கு அடிப்படை.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Chemical Feedstock**",
+      "ta": "**வேதி மூலப்பொருள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Precursor for acetic acid, ethyl acetate, diethyl ether, acetaldehyde, and polyethylene (bio-based plastic).",
+      "ta": "அசிட்டிக் அமிலம், எத்தில் அசிட்டேட், டைஎத்தில் ஈதர், அசிட்டால்டிஹைடு, பாலிஎத்திலீன் (உயிரி அடிப்படைப் பிளாஸ்டிக்) ஆகியவற்றின் முன்னோடி.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Pharmaceutical**",
+      "ta": "**மருந்துத் துறை**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Solvent and preservative in medicines, cough syrups, tinctures, and extraction of plant-based active compounds.",
+      "ta": "மருந்துகள், இருமல் மருந்துகள், டிங்க்சர்களில் கரைப்பானும் பாதுகாப்புப் பொருளும்; தாவர அடிப்படைச் செயல்படு சேர்மங்களைப் பிரித்தெடுத்தல்.",
+      "ta_status": "draft"
+     }
+    }
+   ],
+   "label": "📕 Chapter 5"
+  },
+  {
+   "id": "s08",
+   "title": {
+    "en": "Interactive Flowchart",
+    "ta": "ஊடாடும் ஓட்ட வரைபடம்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Explore the complete step-by-step ethanol production process. Click any step to expand its detailed description below.",
+      "ta": "எத்தனால் உற்பத்தியின் முழுப் படிப்படியான செயல்முறையை ஆராய்க. கீழே விரிவான விளக்கத்தைக் காண எந்தப் படியையும் தொடுக.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🏭 Industrial Ethanol Production — Process Flow**",
+      "ta": "**🏭 தொழிற்சாலை எத்தனால் உற்பத்தி — செயல்முறை ஓட்டம்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "👆 Click each step to see detailed information",
+      "ta": "👆 விரிவான தகவலைக் காண ஒவ்வொரு படியையும் தொடுக",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "1 **Raw Material Preparation** Collection and processing of substrate 🌾 **Raw Material Preparation:** • **Molasses:** Diluted with water to 10–18° Brix (sugar content); adjusted to pH 4.5–5.0 • **Sugarcane:** Juice expressed by crushing; clarified by settling or centrifugation • **Starch sources:** Milled to flour → cooked at 120–150°C → treated with _α-amylase_ (liquefaction) then _glucoamylase_ (saccharification) to release glucose • Mineral nutrients (N, P, Mg) and vitamins added to the medium ▼",
+       "ta": "1 **மூலப்பொருள் தயாரிப்பு** வினைபடு பொருளைச் சேகரித்துச் செயலாக்குதல் 🌾 **மூலப்பொருள் தயாரிப்பு:** • **மொலாசஸ்:** நீரால் 10–18° பிரிக்ஸ் (சர்க்கரை அளவு) வரை நீர்க்கப்படும்; pH 4.5–5.0 ஆகச் சரிசெய்யப்படும் • **கரும்பு:** நசுக்கிச் சாறு பிழியப்படும்; படியவைத்தல் அல்லது மையவிலக்கால் தெளிவாக்கப்படும் • **மாவுப்பொருள் மூலங்கள்:** மாவாக அரைத்து → 120–150°C-இல் சமைத்து → குளுக்கோஸ் வெளிவர _α-amylase_ (திரவமாக்கல்), பின் _glucoamylase_ (சாக்கரிஃபிகேஷன்) கொண்டு சிகிச்சை • கனிம ஊட்டச்சத்துகள் (N, P, Mg), வைட்டமின்கள் ஊடகத்தில் சேர்க்கப்படும் ▼",
+       "ta_status": "draft"
+      },
+      {
+       "en": "2 **Medium Sterilisation** Elimination of contaminating microorganisms 🔥 **Medium Sterilisation:** • Heating medium to **80–100°C** for 10–30 minutes kills most bacteria and wild yeast • For molasses: often acidification to pH 3.5–4.0 is sufficient to reduce contamination risk • Industrial fermenters use **continuous sterilisation** (flash heat exchange) — faster and energy-efficient • Cooling to inoculation temperature (28–32°C) before yeast addition is essential ▼",
+       "ta": "2 **ஊடக நுண்ணுயிர் நீக்கம்** மாசுபடுத்தும் நுண்ணுயிர்களை அழித்தல் 🔥 **ஊடக நுண்ணுயிர் நீக்கம்:** • ஊடகத்தை 10–30 நிமிடம் **80–100°C**-க்கு வெப்பப்படுத்தினால் பெரும்பாலான பாக்டீரியாக்களும் காட்டு ஈஸ்டும் அழியும் • மொலாசசுக்கு: மாசுபாட்டு ஆபத்தைக் குறைக்க pH 3.5–4.0 வரை அமிலமாக்கல் பெரும்பாலும் போதுமானது • தொழிற்சாலை நொதிப்பிகள் **தொடர் நுண்ணுயிர் நீக்கத்தை** (ஃபிளாஷ் வெப்பப் பரிமாற்றி) பயன்படுத்தும் — விரைவானது, ஆற்றல் சிக்கனமானது • ஈஸ்ட் சேர்க்குமுன் இனோக்குலம் செலுத்தும் வெப்பநிலைக்கு (28–32°C) குளிர்விப்பது அவசியம் ▼",
+       "ta_status": "draft"
+      },
+      {
+       "en": "3 **Inoculation** Addition of yeast starter culture 🦠 **Inoculation:** • _Saccharomyces cerevisiae_ starter culture prepared in a **seed fermenter** (smaller vessel) • Yeast pre-grown aerobically to build up high cell density (**10⁷–10⁸ cells/mL**) • Inoculation rate: **2–5% v/v** of the main fermenter volume • Active Dry Yeast (ADY) or Compressed Yeast may also be used for industrial batches • Inoculum viability must be ≥90% (checked by methylene blue or trypan blue exclusion) ▼",
+       "ta": "3 **இனோக்குலம் செலுத்தல்** ஈஸ்ட் தொடக்க வளர்ப்பைச் சேர்த்தல் 🦠 **இனோக்குலம் செலுத்தல்:** • _Saccharomyces cerevisiae_ தொடக்க வளர்ப்பு **விதை நொதிப்பியில்** (சிறிய கலன்) தயாரிக்கப்படும் • அதிகச் செல் அடர்த்தியை (**10⁷–10⁸ செல்கள்/mL**) உருவாக்க ஈஸ்ட் முதலில் காற்றுவழியில் வளர்க்கப்படும் • செலுத்தும் வீதம்: முதன்மை நொதிப்பி கொள்ளளவில் **2–5% v/v** • தொழிற்சாலைத் தொகுதிகளுக்குச் செயலில் உலர் ஈஸ்ட் (ADY) அல்லது அழுத்திய ஈஸ்டும் பயன்படுத்தப்படலாம் • இனோக்குலம் உயிர்ப்புத்திறன் ≥90% இருக்க வேண்டும் (மெத்திலீன் நீலம் அல்லது டிரிப்பான் நீல விலக்கலால் சரிபார்க்கப்படும்) ▼",
+       "ta_status": "draft"
+      },
+      {
+       "en": "4 **Fermentation** Anaerobic sugar-to-ethanol conversion 🏺 **Fermentation Phase:** • Bioreactor sealed; anaerobic conditions maintained (**N₂ sparging or CO₂ blanket**) • Temperature: **28–32°C** (controlled by cooling jacket — reaction is exothermic) • pH: maintained at **4.5–5.5** • Duration: **24–72 hours** depending on substrate and strain • Yeast converts glucose → ethanol + CO₂ via Embden–Meyerhof–Parnas pathway • CO₂ produced (≈ 44 g per 100 g glucose) must be vented safely • Final ethanol concentration in _fermented wash_: typically **8–12% v/v** ▼",
+       "ta": "4 **நொதித்தல்** காற்றில்லா நிலையில் சர்க்கரையை எத்தனாலாக மாற்றுதல் 🏺 **நொதித்தல் நிலை:** • உயிர்வினைக்கலன் மூடப்பட்டு, காற்றில்லா நிலை பேணப்படும் (**N₂ ஸ்பார்ஜிங் அல்லது CO₂ போர்வை**) • வெப்பநிலை: **28–32°C** (குளிர்விக்கும் உறையால் கட்டுப்படுத்தப்படும் — வினை வெப்பம் வெளிவிடுவது) • pH: **4.5–5.5** ஆகப் பேணப்படும் • கால அளவு: வினைபடு பொருள், வகையைப் பொறுத்து **24–72 மணி** • ஈஸ்ட் குளுக்கோசை எம்பிடன்–மேயர்ஹாஃப்–பர்னாஸ் பாதை வழி எத்தனால் + CO₂ ஆக மாற்றும் • உருவாகும் CO₂ (100 g குளுக்கோசுக்கு ≈ 44 g) பாதுகாப்பாக வெளியேற்றப்பட வேண்டும் • _நொதித்த வாஷில்_ இறுதி எத்தனால் செறிவு: பொதுவாக **8–12% v/v** ▼",
+       "ta_status": "draft"
+      },
+      {
+       "en": "5 **Ethanol Formation Monitoring** Process analytics and end-point detection 📊 **Monitoring Parameters:** • **Brix (°Bx):** Measures residual sugar concentration — fermentation complete when Brix drops to <2° • **Ethanol content:** Measured by ebulliometer, GC, or specific gravity • **pH:** Monitored continuously; controlled by buffer additions • **Cell count:** Yeast viability and density by microscopy or coulter counter • **CO₂ evolution:** Rate of gas production indicates fermentation activity • Online sensors (pH electrode, dissolved O₂ probe) used in modern plants ▼",
+       "ta": "5 **எத்தனால் உருவாக்கக் கண்காணிப்பு** செயல்முறைப் பகுப்பாய்வும் முடிவுப் புள்ளி கண்டறிதலும் 📊 **கண்காணிப்பு அளவுருக்கள்:** • **பிரிக்ஸ் (°Bx):** எஞ்சிய சர்க்கரைச் செறிவை அளக்கும் — பிரிக்ஸ் <2° ஆகும்போது நொதித்தல் முடிந்தது • **எத்தனால் அளவு:** எபுல்லியோமீட்டர், GC அல்லது ஒப்படர்த்தியால் அளக்கப்படும் • **pH:** தொடர்ந்து கண்காணிக்கப்பட்டுத் தாங்கல் சேர்க்கையால் கட்டுப்படுத்தப்படும் • **செல் எண்ணிக்கை:** ஈஸ்டின் உயிர்ப்புத்திறனும் அடர்த்தியும் நுண்ணோக்கி அல்லது கூல்டர் எண்ணியால் • **CO₂ வெளியேற்றம்:** வளிம உருவாக்க வீதம் நொதித்தல் செயலைக் காட்டும் • நவீன ஆலைகளில் இணைய உணரிகள் (pH மின்முனை, கரைந்த O₂ ஆய்வி) பயன்படுகின்றன ▼",
+       "ta_status": "draft"
+      },
+      {
+       "en": "6 **Distillation** Separation of ethanol from fermented wash 🏗️ **Distillation:** • Fermented wash (8–12% ethanol) pumped to **distillation columns** • Ethanol boils at **78.4°C**; water boils at 100°C — difference allows separation • **Analyser column:** Strips ethanol from the wash; produces vapour of ~40–50% ethanol • **Rectifier column:** Concentrates ethanol to **95–96%** (azeotropic limit) • Bottom product (slop/stillage) contains water, yeast, and organic residues — used as animal feed or fertiliser • Energy integration: heat recovery systems reduce steam consumption ▼",
+       "ta": "6 **காய்ச்சி வடித்தல்** நொதித்த வாஷிலிருந்து எத்தனாலைப் பிரித்தல் 🏗️ **காய்ச்சி வடித்தல்:** • நொதித்த வாஷ் (8–12% எத்தனால்) **வடித்தல் கோபுரங்களுக்குச்** செலுத்தப்படும் • எத்தனால் **78.4°C**-இல் கொதிக்கும்; நீர் 100°C-இல் — இவ்வேறுபாடு பிரிப்பைச் சாத்தியமாக்கும் • **பகுப்பாய்வுக் கோபுரம்:** வாஷிலிருந்து எத்தனாலைப் பிரித்தெடுத்து ~40–50% எத்தனால் ஆவியை உருவாக்கும் • **ரெக்டிஃபையர் கோபுரம்:** எத்தனாலை **95–96%** (அசியோட்ரோப் வரம்பு) வரை செறிவாக்கும் • அடிப்பொருள் (ஸ்லாப்/ஸ்டில்லேஜ்) நீர், ஈஸ்ட், கரிமக் கழிவுகளைக் கொண்டது — விலங்குத் தீவனமாக அல்லது உரமாகப் பயன்படும் • ஆற்றல் ஒருங்கிணைப்பு: வெப்ப மீட்பு அமைப்புகள் நீராவிப் பயன்பாட்டைக் குறைக்கும் ▼",
+       "ta_status": "draft"
+      },
+      {
+       "en": "7 **Dehydration & Purification** Producing anhydrous (fuel-grade) ethanol 💎 **Dehydration to Anhydrous Ethanol:** • 95–96% ethanol forms a **water-ethanol azeotrope** — cannot be further concentrated by simple distillation • Methods to break azeotrope: – **Molecular sieves (zeolite 3Å):** Adsorb water selectively — most common modern method – **Azeotropic distillation:** Add benzene or cyclohexane as entrainer – **Vacuum distillation** or **pervaporation membranes** • Final product: **Anhydrous ethanol ≥99.5%** suitable for fuel blending (E5–E20) • Fuel ethanol is **denatured** with 2–5% petrol to prevent consumption",
+       "ta": "7 **நீர் நீக்கமும் தூய்மையாக்கலும்** நீரற்ற (எரிபொருள் தர) எத்தனாலை உருவாக்குதல் 💎 **நீரற்ற எத்தனாலுக்கான நீர் நீக்கம்:** • 95–96% எத்தனால் **நீர்–எத்தனால் அசியோட்ரோப்பை** உருவாக்கும் — எளிய காய்ச்சி வடித்தலால் மேலும் செறிவாக்க இயலாது • அசியோட்ரோப்பை உடைக்கும் முறைகள்: – **மூலக்கூறு சல்லடைகள் (ஜியோலைட் 3Å):** நீரைத் தெரிவாக உறிஞ்சும் — மிகப் பொதுவான நவீன முறை – **அசியோட்ரோப்பிக் காய்ச்சி வடித்தல்:** பென்சீன் அல்லது சைக்ளோஹெக்சேனை நுழைவிப்பானாகச் சேர்த்தல் – **வெற்றிடக் காய்ச்சி வடித்தல்** அல்லது **பெர்வேப்பரேஷன் சவ்வுகள்** • இறுதிப் பொருள்: எரிபொருள் கலப்புக்கு (E5–E20) ஏற்ற **நீரற்ற எத்தனால் ≥99.5%** • நுகர்வைத் தடுக்க எரிபொருள் எத்தனால் 2–5% பெட்ரோலுடன் **நச்சூட்டப்படும்**",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**📌 Key Process Parameters Summary**\n• Substrate concentration: **10–18° Brix**\n• Fermentation temperature: **28–32°C**\n• pH: **4.5–5.5**\n• Fermentation time: **24–72 hours**\n• Ethanol in wash: **8–12% v/v**\n• Final ethanol purity: **95–99.5%**",
+      "ta": "**📌 முக்கியச் செயல்முறை அளவுருக்கள் — சுருக்கம்**\n• வினைபடு பொருள் செறிவு: **10–18° பிரிக்ஸ்**\n• நொதித்தல் வெப்பநிலை: **28–32°C**\n• pH: **4.5–5.5**\n• நொதித்தல் நேரம்: **24–72 மணி**\n• வாஷில் எத்தனால்: **8–12% v/v**\n• இறுதி எத்தனால் தூய்மை: **95–99.5%**",
+      "ta_status": "draft"
+     }
+    }
+   ],
+   "label": "🔁 Chapter 6"
+  },
+  {
+   "id": "s09",
+   "title": {
+    "en": "Summary & Key Exam Points",
+    "ta": "சுருக்கமும் முக்கியத் தேர்வுக் குறிப்புகளும்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Consolidated revision points for exam preparation. Review these before your examination.",
+      "ta": "தேர்வுத் தயாரிப்புக்கான தொகுக்கப்பட்ட திருப்புதல் குறிப்புகள். தேர்வுக்கு முன் இவற்றைத் திருப்புக.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Core Concepts to Remember**",
+      "ta": "**நினைவில் கொள்ள வேண்டிய மையக் கருத்துகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1",
+      "ta": "1",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Industrial Biotechnology** (White Biotechnology) applies microorganisms/enzymes for large-scale manufacture of chemicals, fuels, food, and pharmaceuticals.",
+      "ta": "**தொழிற்சாலை உயிரித் தொழில்நுட்பவியல்** (வெள்ளை உயிரித் தொழில்நுட்பவியல்) வேதிப்பொருள்கள், எரிபொருள்கள், உணவு, மருந்துகளின் பெரிய அளவு உற்பத்திக்கு நுண்ணுயிர்கள்/நொதிகளைப் பயன்படுத்தும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2",
+      "ta": "2",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Fermentation** is the microbial anaerobic breakdown of organic compounds (sugars) to produce energy, alcohol, acids, or gases.",
+      "ta": "**நொதித்தல்** என்பது ஆற்றல், ஆல்கஹால், அமிலங்கள் அல்லது வளிமங்களை உருவாக்கக் கரிமச் சேர்மங்களை (சர்க்கரைகளை) நுண்ணுயிர்கள் காற்றில்லா நிலையில் சிதைக்கும் செயல்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "3",
+      "ta": "3",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The **principle** is NAD⁺ regeneration: NADH produced in glycolysis is re-oxidised by reducing pyruvate to ethanol or lactate, allowing continuous glycolysis.",
+      "ta": "**கொள்கை** NAD⁺ மீளுருவாக்கம்: கிளைகாலிசிஸில் உருவான NADH, பைருவேட்டை எத்தனாலாக அல்லது லாக்டேட்டாக ஒடுக்குவதன் மூலம் மீள ஆக்சிஜனேற்றம் அடைந்து, கிளைகாலிசிஸ் தொடர அனுமதிக்கிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "4",
+      "ta": "4",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key enzyme for alcoholic fermentation:** Pyruvate decarboxylase (pyruvate → acetaldehyde) and Alcohol dehydrogenase (acetaldehyde → ethanol + NAD⁺).",
+      "ta": "**ஆல்கஹால் நொதித்தலின் முக்கிய நொதிகள்:** Pyruvate decarboxylase (பைருவேட் → அசிட்டால்டிஹைடு), Alcohol dehydrogenase (அசிட்டால்டிஹைடு → எத்தனால் + NAD⁺).",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5",
+      "ta": "5",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Net equation:** C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂ + 2 ATP (Gay-Lussac; yield = 51.1 g ethanol per 100 g glucose).",
+      "ta": "**நிகரச் சமன்பாடு:** C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂ + 2 ATP (கே-லுசாக்; விளைவு = 100 g குளுக்கோசுக்கு 51.1 g எத்தனால்).",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "6",
+      "ta": "6",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Optimal conditions for yeast fermentation:** Temperature 28–32°C; pH 4.5–5.5; sugar concentration 10–18°Brix; anaerobic; nutrients (N, P, Mg).",
+      "ta": "**ஈஸ்ட் நொதித்தலுக்கு உகந்த நிலைகள்:** வெப்பநிலை 28–32°C; pH 4.5–5.5; சர்க்கரைச் செறிவு 10–18° பிரிக்ஸ்; காற்றில்லா; ஊட்டச்சத்துகள் (N, P, Mg).",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "7",
+      "ta": "7",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**_Saccharomyces cerevisiae_** is the preferred organism for ethanol production — facultative anaerobe, ethanol-tolerant (up to 14–15%), GRAS, high yield, well-characterised genome.",
+      "ta": "**_Saccharomyces cerevisiae_** எத்தனால் உற்பத்திக்கு விரும்பப்படும் உயிரினம் — விருப்பக் காற்றில்லா உயிரி, எத்தனால் தாங்குவது (14–15% வரை), GRAS, அதிக விளைவு, நன்கு பண்பறியப்பட்ட மரபணுத்தொகையம்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "8",
+      "ta": "8",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Raw materials:** Molasses (cheapest; 50–55% sucrose), Sugarcane juice (direct), Starch sources (corn, wheat — require saccharification by amylase).",
+      "ta": "**மூலப்பொருள்கள்:** மொலாசஸ் (மிக மலிவானது; 50–55% சுக்ரோஸ்), கரும்புச் சாறு (நேரடி), மாவுப்பொருள் மூலங்கள் (சோளம், கோதுமை — அமைலேஸால் சாக்கரிஃபிகேஷன் தேவை).",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "9",
+      "ta": "9",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Ethanol production steps:** Raw material prep → Sterilisation → Inoculation → Fermentation (28–32°C, 24–72 h) → Distillation (78.4°C) → Rectification (95–96%) → Dehydration (≥99.5%).",
+      "ta": "**எத்தனால் உற்பத்திப் படிகள்:** மூலப்பொருள் தயாரிப்பு → நுண்ணுயிர் நீக்கம் → இனோக்குலம் செலுத்தல் → நொதித்தல் (28–32°C, 24–72 மணி) → காய்ச்சி வடித்தல் (78.4°C) → ரெக்டிஃபிகேஷன் (95–96%) → நீர் நீக்கம் (≥99.5%).",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "10",
+      "ta": "10",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**95–96% ethanol = azeotropic** (cannot be purified further by simple distillation). Molecular sieves or azeotropic distillation needed for anhydrous (fuel-grade) ethanol.",
+      "ta": "**95–96% எத்தனால் = அசியோட்ரோப்** (எளிய காய்ச்சி வடித்தலால் மேலும் தூய்மையாக்க இயலாது). நீரற்ற (எரிபொருள் தர) எத்தனாலுக்கு மூலக்கூறு சல்லடைகள் அல்லது அசியோட்ரோப்பிக் காய்ச்சி வடித்தல் தேவை.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "11",
+      "ta": "11",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Aerobic fermentation** (O₂ present): high ATP yield, products = CO₂ + H₂O + biomass; used for antibiotics, citric acid, enzymes. **Anaerobic**: 2 ATP, products = ethanol or lactic acid.",
+      "ta": "**காற்றுவழி நொதித்தல்** (O₂ உள்ளபோது): அதிக ATP விளைவு, பொருள்கள் = CO₂ + H₂O + உயிர்த்திரள்; ஆன்டிபயாடிக், சிட்ரிக் அமிலம், நொதிகளுக்குப் பயன்படும். **காற்றில்லா**: 2 ATP, பொருள்கள் = எத்தனால் அல்லது லாக்டிக் அமிலம்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "12",
+      "ta": "12",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Product inhibition:** Ethanol >14–15% v/v inhibits yeast. This limits single-batch ethanol concentration, requiring distillation for concentration.",
+      "ta": "**பொருள் தடுப்பு:** >14–15% v/v எத்தனால் ஈஸ்டைத் தடுக்கும். இது ஒரே தொகுதியில் எத்தனால் செறிவை வரம்பிடுவதால், செறிவாக்கக் காய்ச்சி வடித்தல் தேவை.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "13",
+      "ta": "13",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Applications of ethanol:** Biofuel (E10, E20 blending), antiseptic (70%), solvent, chemical feedstock (acetaldehyde, ethyl acetate), beverages, pharmaceutical solvent.",
+      "ta": "**எத்தனாலின் பயன்பாடுகள்:** உயிரி எரிபொருள் (E10, E20 கலப்பு), நுண்ணுயிர்க்கொல்லி (70%), கரைப்பான், வேதி மூலப்பொருள் (அசிட்டால்டிஹைடு, எத்தில் அசிட்டேட்), பானங்கள், மருந்துக் கரைப்பான்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "14",
+      "ta": "14",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**India's Ethanol Programme:** National Biofuel Policy (2018) targets 20% ethanol blending in petrol (E20) by 2025–26, primarily using molasses and damaged food grains.",
+      "ta": "**இந்தியாவின் எத்தனால் திட்டம்:** தேசிய உயிரி எரிபொருள் கொள்கை (2018) பெட்ரோலில் 2025–26-க்குள் 20% எத்தனால் கலப்பை (E20) இலக்காகக் கொண்டுள்ளது; முதன்மையாக மொலாசஸும் சேதமடைந்த உணவு தானியங்களும் பயன்படுத்தப்படுகின்றன.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Quick Comparison Table**",
+      "ta": "**விரைவு ஒப்பீட்டு அட்டவணை**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Parameter",
+       "ta": "அளவுரு",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Aerobic Fermentation",
+       "ta": "காற்றுவழி நொதித்தல்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Anaerobic Fermentation",
+       "ta": "காற்றில்லா நொதித்தல்",
+       "ta_status": "draft"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Oxygen**",
+        "ta": "**ஆக்சிஜன்**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Required",
+        "ta": "தேவை",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Not required",
+        "ta": "தேவையில்லை",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**ATP yield**",
+        "ta": "**ATP விளைவு**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "36–38 ATP",
+        "ta": "36–38 ATP",
+        "ta_status": "draft"
+       },
+       {
+        "en": "2 ATP",
+        "ta": "2 ATP",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**End products**",
+        "ta": "**இறுதிப் பொருள்கள்**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "CO₂, H₂O, biomass",
+        "ta": "CO₂, H₂O, உயிர்த்திரள்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Ethanol + CO₂ (or lactic acid)",
+        "ta": "எத்தனால் + CO₂ (அல்லது லாக்டிக் அமிலம்)",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Application**",
+        "ta": "**பயன்பாடு**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Antibiotics, citric acid, enzymes",
+        "ta": "ஆன்டிபயாடிக்குகள், சிட்ரிக் அமிலம், நொதிகள்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Ethanol, dairy fermentation",
+        "ta": "எத்தனால், பால் நொதித்தல்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Efficiency**",
+        "ta": "**செயல்திறன்**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "High energy extraction",
+        "ta": "உயர் ஆற்றல் பிரித்தெடுப்பு",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Low energy, high product yield",
+        "ta": "குறைந்த ஆற்றல், உயர் பொருள் விளைவு",
+        "ta_status": "draft"
+       }
+      ]
+     ]
+    }
+   ],
+   "label": "📋 Summary"
+  },
+  {
+   "id": "s10",
+   "title": {
+    "en": "Key Terms & Glossary",
+    "ta": "முக்கியச் சொற்களும் சொற்களஞ்சியமும்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Important scientific terms with simple, student-friendly definitions for quick revision and exam preparation.",
+      "ta": "விரைவுத் திருப்புதல், தேர்வுத் தயாரிப்புக்கான எளிய, மாணவர் நட்பு வரையறைகளுடன் முக்கிய அறிவியல் சொற்கள்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Fermentation",
+      "ta": "நொதித்தல்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "The microbial metabolic process of **partial anaerobic breakdown of organic compounds** (sugars) to produce energy, alcohol, organic acids, or gases without the net consumption of oxygen.",
+      "ta": "ஆக்சிஜனை நிகர அளவில் பயன்படுத்தாமல் ஆற்றல், ஆல்கஹால், கரிம அமிலங்கள் அல்லது வளிமங்களை உருவாக்க **கரிமச் சேர்மங்களை (சர்க்கரைகளைப்) பகுதியாகக் காற்றில்லா நிலையில் சிதைக்கும்** நுண்ணுயிர் வளர்சிதை மாற்றச் செயல்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Substrate",
+      "ta": "வினைபடு பொருள்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "The **starting material or carbon source** (e.g., glucose, sucrose, starch, molasses) that microorganisms use as food and energy source during fermentation.",
+      "ta": "நொதித்தலின்போது நுண்ணுயிர்கள் உணவாகவும் ஆற்றல் மூலமாகவும் பயன்படுத்தும் **தொடக்கப் பொருள் அல்லது கார்பன் மூலம்** (எ.கா. குளுக்கோஸ், சுக்ரோஸ், மாவுப்பொருள், மொலாசஸ்).",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Inoculum",
+      "ta": "இனோக்குலம்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "A **small quantity of active starter culture** of the desired microorganism added to a fermentation medium to initiate the fermentation process.",
+      "ta": "நொதித்தலைத் தொடங்க நொதித்தல் ஊடகத்தில் சேர்க்கப்படும் விரும்பிய நுண்ணுயிரின் **சிறிய அளவு செயலில் உள்ள தொடக்க வளர்ப்பு**.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Bioreactor (Fermenter)",
+      "ta": "உயிர்வினைக்கலன் (நொதிப்பி)",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "A **controlled vessel or tank** designed to provide optimal physical and chemical conditions (temperature, pH, aeration) for large-scale microbial growth and product synthesis.",
+      "ta": "பெரிய அளவிலான நுண்ணுயிர் வளர்ச்சிக்கும் பொருள் உற்பத்திக்கும் உகந்த இயற்பிய, வேதிச் சூழல்களை (வெப்பநிலை, pH, காற்றூட்டம்) அளிக்க வடிவமைக்கப்பட்ட **கட்டுப்படுத்தப்பட்ட கலன் அல்லது தொட்டி**.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Saccharomyces cerevisiae",
+      "ta": "Saccharomyces cerevisiae",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "The most widely used **yeast in industrial fermentation**. Also called baker's yeast or brewer's yeast; converts sugars to ethanol + CO₂ under anaerobic conditions. GRAS status.",
+      "ta": "தொழிற்சாலை நொதித்தலில் மிகப் பரவலாகப் பயன்படும் **ஈஸ்ட்**. ரொட்டி ஈஸ்ட் அல்லது மது ஈஸ்ட் எனவும் அழைக்கப்படும்; காற்றில்லா நிலையில் சர்க்கரைகளை எத்தனால் + CO₂ ஆக மாற்றும். GRAS நிலை.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Glycolysis (EMP Pathway)",
+      "ta": "கிளைகாலிசிஸ் (EMP பாதை)",
+      "ta_status": "bracketed"
+     },
+     "definition": {
+      "en": "The **first stage of sugar metabolism** occurring in the cytoplasm, converting one glucose (6C) into two pyruvate molecules (3C) with a net gain of 2 ATP and 2 NADH.",
+      "ta": "சைட்டோபிளாசத்தில் நிகழும் **சர்க்கரை வளர்சிதை மாற்றத்தின் முதல் நிலை**; ஒரு குளுக்கோசை (6C) இரு பைருவேட் மூலக்கூறுகளாக (3C) மாற்றி, நிகரமாக 2 ATP, 2 NADH பெறும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Zymase",
+      "ta": "சைமேஸ்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "The **enzyme complex in yeast** responsible for alcoholic fermentation. Includes key enzymes like pyruvate decarboxylase and alcohol dehydrogenase. Discovered by Eduard Buchner (1897).",
+      "ta": "ஆல்கஹால் நொதித்தலுக்குப் பொறுப்பான **ஈஸ்டிலுள்ள நொதித் தொகுப்பு**. Pyruvate decarboxylase, alcohol dehydrogenase போன்ற முக்கிய நொதிகளை உள்ளடக்கியது. எட்வர்டு புக்னரால் (1897) கண்டறியப்பட்டது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Alcohol Dehydrogenase (ADH)",
+      "ta": "Alcohol Dehydrogenase (ADH)",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "The enzyme that catalyses the **final step of alcoholic fermentation**: reducing acetaldehyde to ethanol using NADH, thereby regenerating NAD⁺ for continued glycolysis.",
+      "ta": "NADH-ஐப் பயன்படுத்தி அசிட்டால்டிஹைடை எத்தனாலாக ஒடுக்கி, கிளைகாலிசிஸ் தொடர NAD⁺-ஐ மீளுருவாக்கும் **ஆல்கஹால் நொதித்தலின் இறுதிப் படியை** வினையூக்கும் நொதி.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Molasses",
+      "ta": "மொலாசஸ்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "A **thick dark syrup by-product** of sugar refining containing 45–55% fermentable sugars. The cheapest and most commonly used substrate for industrial ethanol fermentation.",
+      "ta": "45–55% நொதிக்கத்தக்க சர்க்கரைகளைக் கொண்ட, சர்க்கரைச் சுத்திகரிப்பின் **அடர்ந்த, கருமையான பாகுத் துணைப்பொருள்**. தொழிற்சாலை எத்தனால் நொதித்தலுக்கு மிக மலிவான, மிகப் பொதுவாகப் பயன்படும் வினைபடு பொருள்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Saccharification",
+      "ta": "சாக்கரிஃபிகேஷன்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "The enzymatic **hydrolysis of starch or cellulose into fermentable sugars** (glucose, maltose) using amylase or cellulase enzymes as a preparatory step before fermentation.",
+      "ta": "நொதித்தலுக்கு முன் ஆயத்தப் படியாக அமைலேஸ் அல்லது செல்லுலேஸ் நொதிகளால் **மாவுப்பொருள் அல்லது செல்லுலோசை நொதிக்கத்தக்க சர்க்கரைகளாக (குளுக்கோஸ், மால்ட்டோஸ்) நொதிவழி நீராற்பகுத்தல்**.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Distillation",
+      "ta": "காய்ச்சி வடித்தல்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "A **separation technique** using differences in boiling points to separate ethanol (bp 78.4°C) from water (bp 100°C) in the fermented wash to concentrate the product.",
+      "ta": "நொதித்த வாஷில் எத்தனாலை (கொதிநிலை 78.4°C) நீரிலிருந்து (கொதிநிலை 100°C) பிரித்துப் பொருளைச் செறிவாக்கக் **கொதிநிலை வேறுபாட்டைப் பயன்படுத்தும் பிரிப்பு நுட்பம்**.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Azeotrope",
+      "ta": "அசியோட்ரோப்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "A **constant-boiling mixture** of ethanol and water (95.6% ethanol: 4.4% water) that cannot be separated further by simple distillation. Dehydration requires molecular sieves or azeotropic distillation.",
+      "ta": "எளிய காய்ச்சி வடித்தலால் மேலும் பிரிக்க இயலாத எத்தனால்–நீரின் **மாறாக் கொதிநிலைக் கலவை** (95.6% எத்தனால்: 4.4% நீர்). நீர் நீக்கத்துக்கு மூலக்கூறு சல்லடைகள் அல்லது அசியோட்ரோப்பிக் காய்ச்சி வடித்தல் தேவை.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Pasteur Effect",
+      "ta": "பாஸ்டர் விளைவு",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "The **inhibition of fermentation by oxygen**, observed by Louis Pasteur. In aerobic conditions, yeast uses aerobic respiration; in anaerobic conditions, it switches to fermentation for energy.",
+      "ta": "லூயி பாஸ்டர் கண்டறிந்த **ஆக்சிஜனால் நொதித்தல் தடுக்கப்படுதல்**. காற்றுவழி நிலையில் ஈஸ்ட் காற்றுச் சுவாசத்தைப் பயன்படுத்தும்; காற்றில்லா நிலையில் ஆற்றலுக்கு நொதித்தலுக்கு மாறும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Bioethanol",
+      "ta": "உயிரி எத்தனால்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "Ethanol produced by **biological fermentation of biomass** (sugarcane, corn, cellulose) used as a renewable fuel. Blended with petrol (E5–E20) to reduce fossil fuel dependence and GHG emissions.",
+      "ta": "புதுப்பிக்கத்தக்க எரிபொருளாகப் பயன்படும், **உயிர்த்திரளின் (கரும்பு, சோளம், செல்லுலோஸ்) உயிரியல் நொதித்தலால்** உருவான எத்தனால். புதைபடிவ எரிபொருள் சார்பையும் GHG வெளியேற்றத்தையும் குறைக்கப் பெட்ரோலுடன் (E5–E20) கலக்கப்படும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "NAD⁺ / NADH",
+      "ta": "NAD⁺ / NADH",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "Nicotinamide adenine dinucleotide — a crucial **electron carrier coenzyme**. NAD⁺ (oxidised) accepts electrons in glycolysis to form NADH. In fermentation, NADH is re-oxidised back to NAD⁺, allowing glycolysis to continue.",
+      "ta": "நிக்கோட்டினாமைடு அடினைன் டைநியுக்ளியோடைடு — முக்கிய **எலக்ட்ரான் கடத்தும் துணைநொதி**. NAD⁺ (ஆக்சிஜனேற்றம் அடைந்தது) கிளைகாலிசிஸில் எலக்ட்ரான்களை ஏற்று NADH ஆகும். நொதித்தலில் NADH மீண்டும் NAD⁺ ஆக ஆக்சிஜனேற்றம் அடைந்து கிளைகாலிசிஸ் தொடர உதவும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Anhydrous Ethanol",
+      "ta": "நீரற்ற எத்தனால்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "**Ethanol with ≥99.5% purity** (virtually water-free), produced by molecular sieve dehydration. Required for fuel-grade ethanol to prevent engine corrosion and phase separation when blended with petrol.",
+      "ta": "**≥99.5% தூய்மையுள்ள எத்தனால்** (கிட்டத்தட்ட நீரற்றது); மூலக்கூறு சல்லடை நீர் நீக்கத்தால் உற்பத்தி செய்யப்படுகிறது. பெட்ரோலுடன் கலக்கும்போது இயந்திர அரிப்பையும் நிலைப் பிரிவையும் தடுக்க எரிபொருள் தர எத்தனாலுக்கு அவசியம்.",
+      "ta_status": "draft"
+     }
+    }
+   ],
+   "label": "📖 Glossary"
+  }
+ ],
+ "skipped": [
+  "page-7"
+ ],
+ "dropped": [
+  {
+   "selector": "nav",
+   "count": 1,
+   "sample": [
+    "🧫 Industrial Biotech B.Sc. Digital Textbook Progress 0% Chap"
+   ]
+  },
+  {
+   "selector": "#overlay",
+   "count": 1,
+   "sample": []
+  },
+  {
+   "selector": "footer",
+   "count": 10,
+   "sample": [
+    "Department of Zoology, GASC, Nagercoil *Created by R. Ramesh",
+    "Department of Zoology, GASC, Nagercoil *Created by R. Ramesh",
+    "Department of Zoology, GASC, Nagercoil *Created by R. Ramesh"
+   ]
+  },
+  {
+   "selector": ".start-btn",
+   "count": 1,
+   "sample": [
+    "Begin Learning →"
+   ]
+  },
+  {
+   "selector": ".btn-outline",
+   "count": 9,
+   "sample": [
+    "← Title Page",
+    "← Introduction",
+    "← Basic Concepts"
+   ]
+  },
+  {
+   "selector": ".btn-primary",
+   "count": 10,
+   "sample": [
+    "Basic Fermentation →",
+    "Conditions for Fermentation →",
+    "Industrial Importance →"
+   ]
+  }
+ ],
+ "extractor": "1"
+}

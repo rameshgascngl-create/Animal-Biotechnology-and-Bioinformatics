@@ -1,0 +1,52 @@
+{
+  "skip_ids": [
+    "page-7"
+  ],
+  "label_classes": [
+    "sec-tag"
+  ],
+  "callout_classes": [
+    "hbox"
+  ],
+  "reveal": {
+    "container": [
+      "reveal-card"
+    ],
+    "front": [
+      "reveal-front",
+      "reveal-hint"
+    ],
+    "back": [
+      "reveal-back"
+    ]
+  },
+  "glossary": {
+    "container": [
+      "gloss-card"
+    ],
+    "term": [
+      "gloss-term"
+    ],
+    "def": [
+      "gloss-def"
+    ]
+  },
+  "steps_item_classes": [
+    "flow-step"
+  ],
+  "subheading_classes": [
+    "sh"
+  ],
+  "extra_drop_selectors": [
+    ".start-btn",
+    ".btn-outline",
+    ".btn-primary"
+  ],
+  "accepted_script_literals": [
+    "Good understanding. Review the topics you missed to strengthen your knowledge.",
+    "Outstanding performance! You have mastered this topic.",
+    "Please carefully re-read all chapters before attempting the quiz again.",
+    "Question ${qi + 1} of 10",
+    "Satisfactory. Please revise the chapters on fermentation and ethanol production."
+  ]
+}

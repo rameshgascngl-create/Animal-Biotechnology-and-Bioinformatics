@@ -1,0 +1,2581 @@
+{
+ "id": "gene_transfer_methods_rdna_host_cells",
+ "unit": "II",
+ "title": {
+  "en": "Introduction of Recombinant DNA into Host Cells",
+  "ta": "மறுகூட்டிணைவு DNA-வை ஓம்புயிரி செல்களுக்குள் செலுத்துதல்",
+  "ta_status": "draft"
+ },
+ "sections": [
+  {
+   "id": "s01",
+   "title": {
+    "en": "Overview",
+    "ta": "மேலோட்டம்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Animal Biotechnology · B.Sc. Zoology / Biotechnology",
+      "ta": "விலங்கு உயிரித் தொழில்நுட்பவியல் · B.Sc. விலங்கியல் / உயிரித் தொழில்நுட்பவியல்",
+      "ta_status": "draft"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "title": {
+    "en": "Introduction of Recombinant DNA into Host Cells",
+    "ta": "மறுகூட்டிணைவு DNA-வை ஓம்புயிரி செல்களுக்குள் செலுத்துதல்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Transformation · Transfection · Transduction · Microinjection · Electroporation · Liposome Fusion",
+      "ta": "தகவல் பரிமாற்றம் · டிரான்ஸ்ஃபெக்ஷன் · டிரான்ஸ்டக்ஷன் · நுண்செலுத்தல் · மின்துளைப்பு · லிப்போசோம் இணைவு",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Once a recombinant DNA molecule is constructed, it must be delivered into a living cell to be replicated and expressed. Different host cells — bacteria, yeast, or animal cells — require very different strategies. This app explores all six major gene delivery methods used in modern biotechnology.",
+      "ta": "மறுகூட்டிணைவு DNA மூலக்கூறு உருவாக்கப்பட்ட பின், அது பெருகவும் வெளிப்படவும் உயிருள்ள செல்லுக்குள் செலுத்தப்பட வேண்டும். பாக்டீரியா, ஈஸ்ட், விலங்கு செல்கள் போன்ற வெவ்வேறு ஓம்புயிரி செல்களுக்கு மிக வேறுபட்ட உத்திகள் தேவை. நவீன உயிரித் தொழில்நுட்பவியலில் பயன்படும் ஆறு முக்கிய மரபணு செலுத்தும் முறைகளையும் இப்பாடம் ஆராய்கிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🎯 Learning Objectives**",
+      "ta": "**🎯 கற்றல் நோக்கங்கள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Define recombinant DNA introduction and explain its importance in genetic engineering.",
+       "ta": "மறுகூட்டிணைவு DNA செலுத்துதலை வரையறுத்து, மரபணுப் பொறியியலில் அதன் முக்கியத்துவத்தை விளக்குதல்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Describe transformation in prokaryotic cells with its steps and applications.",
+       "ta": "புரோகேரியோட்டு செல்களில் தகவல் பரிமாற்றத்தை அதன் படிகளுடனும் பயன்பாடுகளுடனும் விவரித்தல்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Explain the challenges of gene delivery into eukaryotic animal cells.",
+       "ta": "யூகேரியோட்டு விலங்கு செல்களுக்குள் மரபணு செலுத்துவதிலுள்ள சவால்களை விளக்குதல்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Describe the mechanism, applications, and limitations of transfection, transduction, microinjection, electroporation, and liposome fusion.",
+       "ta": "டிரான்ஸ்ஃபெக்ஷன், டிரான்ஸ்டக்ஷன், நுண்செலுத்தல், மின்துளைப்பு, லிப்போசோம் இணைவு ஆகியவற்றின் இயங்குமுறை, பயன்பாடுகள், வரம்புகளை விவரித்தல்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Compare all six gene transfer methods using their key features.",
+       "ta": "ஆறு மரபணு மாற்ற முறைகளையும் அவற்றின் முக்கியப் பண்புகளால் ஒப்பிடுதல்.",
+       "ta_status": "draft"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": {
+    "en": "Introduction to Gene Transfer",
+    "ta": "மரபணு மாற்றம் – அறிமுகம்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Definition**",
+      "ta": "**வரையறை**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The introduction of recombinant DNA into host cells is the process of delivering an engineered DNA molecule (carrying the gene of interest) into a living cell so that the DNA can be replicated and/or expressed to produce the desired protein or effect.",
+      "ta": "மறுகூட்டிணைவு DNA-வை ஓம்புயிரி செல்களுக்குள் செலுத்துதல் என்பது பொறியமைக்கப்பட்ட DNA மூலக்கூறை (ஆர்வ மரபணுவைச் சுமப்பது) உயிருள்ள செல்லுக்குள் சேர்த்து, அந்த DNA பெருகவும்/வெளிப்படவும் செய்து விரும்பிய புரதத்தையோ விளைவையோ பெறும் செயல்முறை.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Importance in Biotechnology and Genetic Engineering**",
+      "ta": "**உயிரித் தொழில்நுட்பவியலிலும் மரபணுப் பொறியியலிலும் முக்கியத்துவம்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Protein production:** Delivering insulin, growth hormone, or antibody genes into bacteria or animal cells for therapeutic protein manufacture.",
+       "ta": "**புரத உற்பத்தி:** சிகிச்சைப் புரத உற்பத்திக்கு இன்சுலின், வளர்ச்சி ஹார்மோன் அல்லது எதிர்ப்பொருள் மரபணுக்களைப் பாக்டீரியா அல்லது விலங்கு செல்களுக்குள் செலுத்துதல்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Gene therapy:** Introducing functional copies of defective genes into patient cells to treat genetic diseases.",
+       "ta": "**மரபணு சிகிச்சை:** மரபுநோய்களுக்குச் சிகிச்சையளிக்க நோயாளி செல்களுக்குள் குறைபாடுள்ள மரபணுக்களின் செயல்படும் நகல்களைச் செலுத்துதல்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Transgenic organisms:** Creating transgenic animals (e.g., knockout mice, pharming animals) by delivering genes into embryos.",
+       "ta": "**மாற்றுமரபணு உயிரிகள்:** கருக்களுக்குள் மரபணுக்களைச் செலுத்தி மாற்றுமரபணு விலங்குகளை (எ.கா. மரபணு நீக்க எலிகள், மருந்துப் பண்ணை விலங்குகள்) உருவாக்குதல்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Functional genomics:** Studying gene function by introducing or silencing genes in cell lines.",
+       "ta": "**செயல்நிலை மரபணுத்தொகையியல்:** செல் வரிசைகளில் மரபணுக்களைச் செலுத்தியோ அடக்கியோ மரபணுச் செயலை ஆராய்தல்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Vaccine development:** Introducing antigen-encoding DNA into cells for immune response studies.",
+       "ta": "**தடுப்பூசி உருவாக்கம்:** நோயெதிர்ப்பு ஆய்வுகளுக்கு எதிர்ப்பொருள் தூண்டி குறியீடு DNA-வைச் செல்களுக்குள் செலுத்துதல்.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Overview of Gene Delivery Methods**",
+      "ta": "**மரபணு செலுத்தும் முறைகள் – மேலோட்டம்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Transformation** — Heat-shock or chemical uptake of naked DNA by bacteria.",
+      "ta": "**தகவல் பரிமாற்றம்** — பாக்டீரியா வெற்று DNA-வை வெப்ப அதிர்ச்சியால் அல்லது வேதியியல் முறையில் உள்ளெடுத்தல்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "warn",
+     "text": {
+      "en": "**Transfection** — Chemical or physical introduction of DNA into eukaryotic cells.",
+      "ta": "**டிரான்ஸ்ஃபெக்ஷன்** — யூகேரியோட்டு செல்களுக்குள் DNA-வை வேதியியல் அல்லது இயற்பியல் முறையில் செலுத்துதல்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "tip",
+     "text": {
+      "en": "**Transduction** — Viral delivery of genes into host cells using modified viruses.",
+      "ta": "**டிரான்ஸ்டக்ஷன்** — மாற்றியமைத்த வைரஸ்களைக் கொண்டு ஓம்புயிரி செல்களுக்குள் மரபணுக்களை வைரஸ் வழியாகச் செலுத்துதல்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Microinjection** — Direct mechanical injection of DNA into the nucleus.",
+      "ta": "**நுண்செலுத்தல்** — DNA-வை உட்கருவுக்குள் நேரடியாக இயந்திர முறையில் செலுத்துதல்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Electroporation** — Electric pulse creates temporary pores in the cell membrane.",
+      "ta": "**மின்துளைப்பு** — மின் துடிப்பு செல் சவ்வில் தற்காலிகத் துளைகளை உருவாக்குதல்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Liposome Fusion** — Lipid vesicles encapsulate and deliver DNA by membrane fusion.",
+      "ta": "**லிப்போசோம் இணைவு** — கொழுப்புப் பைகள் DNA-வைப் பொதிந்து சவ்வு இணைவால் கொண்டுசேர்த்தல்.",
+      "ta_status": "draft"
+     }
+    }
+   ],
+   "icon": "🧬",
+   "label": "Section 1"
+  },
+  {
+   "id": "s04",
+   "title": {
+    "en": "Gene Transfer in Prokaryotic Cells — Transformation",
+    "ta": "புரோகேரியோட்டு செல்களில் மரபணு மாற்றம் — தகவல் பரிமாற்றம்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "🔵 Transformation (Prokaryotic)",
+      "ta": "🔵 தகவல் பரிமாற்றம் (புரோகேரியோட்டு)",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Definition**",
+      "ta": "**வரையறை**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Transformation is the uptake of naked, exogenous DNA by a bacterial cell from its surrounding environment, leading to a heritable change in the cell's genetic makeup. It was first described by **Frederick Griffith** in 1928 and the molecular basis was established by **Avery, MacLeod, and McCarty** in 1944.",
+      "ta": "தகவல் பரிமாற்றம் என்பது பாக்டீரிய செல் தன் சுற்றுச்சூழலிலிருந்து வெற்று, புறவழி DNA-வை உள்ளெடுத்து, செல்லின் மரபுக்கூறில் மரபுவழி மாற்றம் ஏற்படுவது. இதை முதலில் **ஃபிரெடெரிக் கிரிஃபித்** 1928-இல் விவரித்தார்; மூலக்கூறு அடிப்படையை **ஏவரி, மேக்லியோட், மெக்கார்டி** 1944-இல் நிறுவினர்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Principle**",
+      "ta": "**கோட்பாடு**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Bacterial cells are normally impermeable to large DNA molecules. They must be made **competent** — temporarily able to take up DNA — either naturally or by artificial treatment. Once DNA enters the cell, it can replicate (if it contains an ori) or integrate into the chromosome.",
+      "ta": "பாக்டீரிய செல்கள் இயல்பாகப் பெரிய DNA மூலக்கூறுகளுக்குப் புகாதவை. அவை இயற்கையாகவோ செயற்கைச் சிகிச்சையாலோ **தகுதி பெற்றவையாக**, அதாவது DNA-வைத் தற்காலிகமாக உள்ளெடுக்கும் திறனுள்ளவையாக மாற்றப்பட வேண்டும். DNA செல்லுக்குள் நுழைந்ததும், அது (ori இருந்தால்) பெருகலாம் அல்லது குரோமோசோமுடன் இணையலாம்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Steps Involved in Artificial Transformation**",
+      "ta": "**செயற்கைத் தகவல் பரிமாற்றத்தின் படிகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": true,
+     "items": [
+      {
+       "en": "**Prepare competent cells:** Exponentially growing _E. coli_ cells are washed in ice-cold CaCl₂ solution. Calcium ions partially destabilise the outer membrane and cell wall, allowing DNA to adsorb to the cell surface.",
+       "ta": "**தகுதி பெற்ற செல்களைத் தயாரித்தல்:** விரைவாக வளரும் _E. coli_ செல்கள் பனிக்குளிர் CaCl₂ கரைசலில் கழுவப்படுகின்றன. கால்சியம் அயனிகள் வெளிச்சவ்வையும் செல்சுவரையும் பகுதியளவு நிலைகுலைத்து, DNA செல் மேற்பரப்பில் ஒட்ட உதவுகின்றன.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Mix with recombinant DNA:** Plasmid or recombinant DNA is added to the competent cell suspension on ice (0°C) — DNA adsorbs to the cell surface.",
+       "ta": "**மறுகூட்டிணைவு DNA-வுடன் கலத்தல்:** பிளாஸ்மிட் அல்லது மறுகூட்டிணைவு DNA, தகுதி பெற்ற செல் தொங்கலில் பனியில் (0°C) சேர்க்கப்படுகிறது — DNA செல் மேற்பரப்பில் ஒட்டுகிறது.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Heat shock:** The mixture is briefly transferred to 42°C for 90 seconds. The sudden temperature change creates a pressure differential that drives the DNA into the cell through transient membrane disruptions.",
+       "ta": "**வெப்ப அதிர்ச்சி:** கலவை 90 விநாடிகள் 42°C-க்கு விரைவாக மாற்றப்படுகிறது. திடீர் வெப்பநிலை மாற்றம் அழுத்த வேறுபாட்டை உருவாக்கி, தற்காலிகச் சவ்வுச் சிதைவுகள் வழியே DNA-வை செல்லுக்குள் செலுத்துகிறது.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Recovery:** Cells are diluted in rich LB medium and incubated at 37°C for 30–60 minutes, allowing cells to recover and express any antibiotic resistance marker on the vector.",
+       "ta": "**மீட்பு:** செல்கள் வளமான LB ஊடகத்தில் நீர்த்து 37°C-இல் 30–60 நிமிடம் அடைகாக்கப்படுகின்றன; இதனால் செல்கள் மீண்டு, தாங்கிக்கடத்தியிலுள்ள ஆன்டிபயாடிக் எதிர்ப்பு அடையாளக்குறியை வெளிப்படுத்துகின்றன.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Selection:** Cells are plated on selective medium (e.g., LB + ampicillin). Only transformed cells (carrying the vector with the resistance gene) survive and form colonies.",
+       "ta": "**தெரிவு:** செல்கள் தெரிவு ஊடகத்தில் (எ.கா. LB + ஆம்பிசிலின்) வளர்க்கப்படுகின்றன. மாற்றப்பட்ட செல்கள் (எதிர்ப்பு மரபணுவுள்ள தாங்கிக்கடத்தியைச் சுமப்பவை) மட்டுமே உயிர்பிழைத்துக் குழுமங்களை உருவாக்குகின்றன.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Applications**",
+      "ta": "**பயன்பாடுகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Introduction of recombinant plasmids into _E. coli_ for gene cloning and protein expression.",
+       "ta": "மரபணு குளோனாக்கத்துக்கும் புரத வெளிப்பாட்டுக்கும் மறுகூட்டிணைவுப் பிளாஸ்மிட்களை _E. coli_-க்குள் செலுத்துதல்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Production of recombinant proteins — insulin (Humulin), growth hormone, interferons.",
+       "ta": "மறுகூட்டிணைவுப் புரத உற்பத்தி — இன்சுலின் (ஹியூமுலின்), வளர்ச்சி ஹார்மோன், இன்டர்ஃபெரான்கள்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Creation of genomic and cDNA libraries in bacterial hosts.",
+       "ta": "பாக்டீரிய ஓம்புயிரிகளில் மரபணு தொகைய, cDNA நூலகங்களை உருவாக்குதல்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Fundamental tool in all recombinant DNA technology workflows.",
+       "ta": "அனைத்து மறுகூட்டிணைவு DNA தொழில்நுட்பப் பணிப்பாய்வுகளிலும் அடிப்படைக் கருவி.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Key Note:** Transformation efficiency is typically 10⁵–10⁸ transformants per microgram of plasmid DNA, depending on cell preparation and plasmid size.",
+      "ta": "**முக்கியக் குறிப்பு:** செல் தயாரிப்பு, பிளாஸ்மிட் அளவைப் பொறுத்து, தகவல் பரிமாற்றத் திறன் பொதுவாக ஒரு மைக்ரோகிராம் பிளாஸ்மிட் DNA-வுக்கு 10⁵–10⁸ மாற்றப்பட்ட செல்கள்.",
+      "ta_status": "draft"
+     }
+    }
+   ],
+   "icon": "🦠",
+   "label": "Section 2"
+  },
+  {
+   "id": "s05",
+   "title": {
+    "en": "Gene Transfer in Eukaryotic Animal Cells",
+    "ta": "யூகேரியோட்டு விலங்கு செல்களில் மரபணு மாற்றம்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Challenges in Eukaryotic Gene Delivery**",
+      "ta": "**யூகேரியோட்டு மரபணு செலுத்துவதிலுள்ள சவால்கள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Introducing DNA into eukaryotic animal cells is far more complex than bacterial transformation:",
+      "ta": "யூகேரியோட்டு விலங்கு செல்களுக்குள் DNA-வைச் செலுத்துவது பாக்டீரிய தகவல் பரிமாற்றத்தைவிட மிகச் சிக்கலானது:",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Nuclear membrane barrier:** DNA must cross not only the plasma membrane but also the nuclear envelope to reach the genome — an additional physical barrier absent in prokaryotes.",
+       "ta": "**உட்கரு சவ்வுத் தடை:** DNA பிளாஸ்மா சவ்வை மட்டுமல்லாமல், மரபுக்கூறை அடைய உட்கரு உறையையும் கடக்க வேண்டும் — புரோகேரியோட்டுகளில் இல்லாத கூடுதல் இயற்பியல் தடை.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Endosomal degradation:** DNA taken up by endocytosis is often trapped in endosomes and degraded by lysosomal enzymes before reaching the nucleus.",
+       "ta": "**எண்டோசோம் சிதைவு:** எண்டோசைட்டோசிஸால் உள்ளெடுக்கப்பட்ட DNA, உட்கருவை அடையும் முன் பெரும்பாலும் எண்டோசோம்களில் சிக்கி லைசோசோம் நொதிகளால் சிதைக்கப்படுகிறது.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**DNA size and complexity:** Eukaryotic genomes are large; many genes include large introns; delivery of multi-kilobase constructs is technically challenging.",
+       "ta": "**DNA அளவும் சிக்கலும்:** யூகேரியோட்டு மரபுக்கூறுகள் பெரியவை; பல மரபணுக்களில் பெரிய இன்ட்ரான்கள் உள்ளன; பல கிலோ-bp அமைப்புகளைச் செலுத்துவது தொழில்நுட்ப ரீதியாகக் கடினம்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Immune response:** Animal cells trigger innate immune responses to foreign DNA, limiting expression.",
+       "ta": "**நோயெதிர்ப்புத் துலங்கல்:** விலங்கு செல்கள் அந்நிய DNA-வுக்கு உள்ளார்ந்த நோயெதிர்ப்புத் துலங்கல்களைத் தூண்டி வெளிப்பாட்டைக் குறைக்கின்றன.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Cell division requirement:** Many delivery methods require dividing cells for integration (retroviruses), limiting use in non-dividing tissues.",
+       "ta": "**செல் பகுப்புத் தேவை:** பல செலுத்தும் முறைகளுக்கு (ரெட்ரோவைரஸ்கள்) இணைவுக்குப் பகுப்படையும் செல்கள் தேவை; இது பகுப்படையாத திசுக்களில் பயன்பாட்டைக் குறைக்கிறது.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Chromatin structure:** The nucleus is densely packed with histones; efficient transcription requires the gene to be in a transcriptionally accessible region.",
+       "ta": "**குரோமேட்டின் அமைப்பு:** உட்கரு ஹிஸ்டோன்களால் அடர்த்தியாகப் பொதிந்துள்ளது; திறமையான படியெடுப்புக்கு மரபணு படியெடுக்க அணுகத்தக்க பகுதியில் இருக்க வேண்டும்.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "warn",
+     "text": {
+      "en": "**Solution:** Multiple specialised methods have been developed for eukaryotic gene delivery: transfection (chemical and physical), viral transduction, microinjection, electroporation, and liposome-mediated delivery — each with distinct advantages for different cell types and applications.",
+      "ta": "**தீர்வு:** யூகேரியோட்டு மரபணு செலுத்துவதற்குப் பல சிறப்பு முறைகள் உருவாக்கப்பட்டுள்ளன: டிரான்ஸ்ஃபெக்ஷன் (வேதியியல், இயற்பியல்), வைரஸ் டிரான்ஸ்டக்ஷன், நுண்செலுத்தல், மின்துளைப்பு, லிப்போசோம் வழி செலுத்தல் — ஒவ்வொன்றும் வெவ்வேறு செல் வகைகளுக்கும் பயன்பாடுகளுக்கும் தனித்த நன்மைகளுடன்.",
+      "ta_status": "draft"
+     }
+    }
+   ],
+   "icon": "🧫",
+   "label": "Section 3"
+  },
+  {
+   "id": "s06",
+   "title": {
+    "en": "Methods of Gene Transfer — Detailed",
+    "ta": "மரபணு மாற்ற முறைகள் — விரிவாக",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "🟡 B. Transfection",
+      "ta": "🟡 B. டிரான்ஸ்ஃபெக்ஷன்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Transfection refers specifically to the non-viral introduction of nucleic acids (DNA or RNA) into eukaryotic cells. The term is derived from \"transformation\" + \"infection.\"",
+      "ta": "டிரான்ஸ்ஃபெக்ஷன் என்பது குறிப்பாக யூகேரியோட்டு செல்களுக்குள் நியூக்ளிக் அமிலங்களை (DNA அல்லது RNA) வைரஸ் அல்லாத வழியில் செலுத்துதல். இச்சொல் “தகவல் பரிமாற்றம்” + “தொற்று” என்பதிலிருந்து பெறப்பட்டது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Chemical Transfection Methods**",
+      "ta": "**வேதியியல் டிரான்ஸ்ஃபெக்ஷன் முறைகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Calcium phosphate co-precipitation:** DNA is mixed with CaCl₂ and phosphate buffer, forming fine DNA-calcium phosphate precipitates that adhere to the cell surface and are taken up by endocytosis. Simple and inexpensive.",
+       "ta": "**கால்சியம் பாஸ்பேட் இணைப்படிவு:** DNA, CaCl₂, பாஸ்பேட் இடையகத்துடன் கலந்து DNA-கால்சியம் பாஸ்பேட் நுண்படிவுகளை உருவாக்குகிறது; அவை செல் மேற்பரப்பில் ஒட்டி எண்டோசைட்டோசிஸால் உள்ளெடுக்கப்படுகின்றன. எளிமையானது, மலிவானது.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**DEAE-dextran:** A polycationic reagent that binds DNA and promotes endocytic uptake. Used mainly for transient transfection.",
+       "ta": "**DEAE-டெக்ஸ்டிரான்:** DNA-வுடன் பிணைந்து எண்டோசைட்டோசிஸ் உள்ளெடுப்பை ஊக்குவிக்கும் பல-நேர்மின் வினைப்பொருள். முக்கியமாகத் தற்காலிக டிரான்ஸ்ஃபெக்ஷனுக்குப் பயன்படும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Lipofection (cationic lipids):** Positively charged lipids form complexes (lipoplexes) with negatively charged DNA, which fuse with the cell membrane. More efficient than older chemical methods.",
+       "ta": "**லிப்போஃபெக்ஷன் (நேர்மின் கொழுப்புகள்):** நேர்மின்னூட்டக் கொழுப்புகள் எதிர்மின்னூட்ட DNA-வுடன் கூட்டுப்பொருள்களை (லிப்போபிளெக்ஸ்) உருவாக்கி செல் சவ்வுடன் இணைகின்றன. பழைய வேதி முறைகளைவிடத் திறன் அதிகம்.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Physical Transfection Methods**",
+      "ta": "**இயற்பியல் டிரான்ஸ்ஃபெக்ஷன் முறைகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Electroporation:** Electric pulses create temporary pores (covered in detail below).",
+       "ta": "**மின்துளைப்பு:** மின் துடிப்புகள் தற்காலிகத் துளைகளை உருவாக்கும் (கீழே விரிவாக).",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Microinjection:** Mechanical injection directly into the nucleus (covered in detail below).",
+       "ta": "**நுண்செலுத்தல்:** உட்கருவுக்குள் நேரடியாக இயந்திர முறையில் செலுத்துதல் (கீழே விரிவாக).",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Biolistics (Gene Gun):** DNA-coated gold or tungsten microparticles are fired into cells using a pressurised gas device.",
+       "ta": "**பயோலிஸ்டிக்ஸ் (மரபணுத் துப்பாக்கி):** DNA பூசிய தங்க அல்லது டங்ஸ்டன் நுண்துகள்கள் அழுத்தவாயுக் கருவியால் செல்களுக்குள் சுடப்படுகின்றன.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Transient vs Stable Transfection:** Transient transfection produces temporary gene expression (DNA does not integrate — lost during cell division). Stable transfection results in permanent integration into the host genome and heritable expression.",
+      "ta": "**தற்காலிகம் – நிலையான டிரான்ஸ்ஃபெக்ஷன்:** தற்காலிக டிரான்ஸ்ஃபெக்ஷன் தற்காலிக மரபணு வெளிப்பாட்டைத் தரும் (DNA இணைவதில்லை — செல் பகுப்பில் இழக்கப்படும்). நிலையான டிரான்ஸ்ஃபெக்ஷன் ஓம்புயிரி மரபுக்கூறில் நிரந்தர இணைவையும் மரபுவழி வெளிப்பாட்டையும் தரும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🟢 C. Transduction",
+      "ta": "🟢 C. டிரான்ஸ்டக்ஷன்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Transduction is the delivery of foreign genetic material into a host cell using a **viral vector**. The virus naturally injects its nucleic acid into cells with high efficiency — scientists exploit this mechanism by replacing viral genes with the gene of interest.",
+      "ta": "டிரான்ஸ்டக்ஷன் என்பது **வைரஸ் தாங்கிக்கடத்தியைப்** பயன்படுத்தி அந்நிய மரபுப்பொருளை ஓம்புயிரி செல்லுக்குள் செலுத்துதல். வைரஸ் இயற்கையாகவே தன் நியூக்ளிக் அமிலத்தை அதிகத் திறனுடன் செல்களுக்குள் செலுத்துகிறது — வைரஸ் மரபணுக்களுக்குப் பதிலாக ஆர்வ மரபணுவை வைத்து விஞ்ஞானிகள் இவ்வியங்குமுறையைப் பயன்படுத்துகின்றனர்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Role of Viral Vectors**",
+      "ta": "**வைரஸ் தாங்கிக்கடத்திகளின் பங்கு**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Viral genes responsible for pathogenicity and replication are removed and replaced with the therapeutic gene.",
+       "ta": "நோய்க்காரணத்துக்கும் பெருக்கத்துக்கும் காரணமான வைரஸ் மரபணுக்கள் நீக்கப்பட்டுச் சிகிச்சை மரபணுவால் மாற்றப்படுகின்றன.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "The recombinant viral genome is packaged into viral particles using a **packaging cell line** that provides the structural proteins in trans.",
+       "ta": "மறுகூட்டிணைவு வைரஸ் மரபுக்கூறு, கட்டமைப்புப் புரதங்களை டிரான்ஸ் நிலையில் வழங்கும் **பொதிவு செல் வரிசையைக்** கொண்டு வைரஸ் துகள்களுக்குள் பொதியப்படுகிறது.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "These replication-deficient recombinant viruses can infect target cells and deliver the gene but cannot produce new virus particles.",
+       "ta": "பெருக்கத் திறனற்ற இம்மறுகூட்டிணைவு வைரஸ்கள் இலக்குச் செல்களைத் தொற்றி மரபணுவைச் செலுத்தும்; ஆனால் புதிய வைரஸ் துகள்களை உருவாக்க இயலாது.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Common Viral Vectors**",
+      "ta": "**பொதுவான வைரஸ் தாங்கிக்கடத்திகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Retroviruses (e.g., MLV):** Integrate stably into host genome; require dividing cells; used for permanent gene modification.",
+       "ta": "**ரெட்ரோவைரஸ்கள் (எ.கா. MLV):** ஓம்புயிரி மரபுக்கூறில் நிலையாக இணையும்; பகுப்படையும் செல்கள் தேவை; நிரந்தர மரபணு மாற்றத்துக்குப் பயன்படும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Lentiviruses (e.g., HIV-derived):** Integrate into non-dividing cells; used in gene therapy for haematopoietic stem cells (CAR-T cell therapy).",
+       "ta": "**லென்டிவைரஸ்கள் (எ.கா. HIV-யிலிருந்து பெறப்பட்டவை):** பகுப்படையாத செல்களிலும் இணையும்; இரத்தத்தோற்ற ஸ்டெம் செல்களுக்கான மரபணு சிகிச்சையில் (CAR-T செல் சிகிச்சை) பயன்படும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Adenoviruses:** High efficiency; do not integrate (episomal); transient expression; used in COVID-19 vaccines and cancer gene therapy.",
+       "ta": "**அடினோவைரஸ்கள்:** அதிகத் திறன்; இணையாது (எபிசோம் நிலை); தற்காலிக வெளிப்பாடு; COVID-19 தடுப்பூசிகளிலும் புற்றுநோய் மரபணு சிகிச்சையிலும் பயன்படும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Adeno-Associated Virus (AAV):** Small, non-pathogenic; long-term expression; used in FDA-approved gene therapies (Luxturna for blindness, Zolgensma for SMA).",
+       "ta": "**அடினோ-தொடர்புடைய வைரஸ் (AAV):** சிறியது, நோய் உண்டாக்காதது; நீண்டகால வெளிப்பாடு; FDA அங்கீகரித்த மரபணு சிகிச்சைகளில் பயன்படும் (பார்வையிழப்புக்கு Luxturna, SMA-வுக்கு Zolgensma).",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "tip",
+     "text": {
+      "en": "**Key Feature:** Transduction is the MOST EFFICIENT method for stable gene delivery in vivo — making it the leading approach in clinical gene therapy.",
+      "ta": "**முக்கியப் பண்பு:** உயிருள்ள உடலுக்குள் (in vivo) நிலையான மரபணு செலுத்தலுக்கு டிரான்ஸ்டக்ஷனே மிகத் திறனுள்ள முறை — எனவே மருத்துவ மரபணு சிகிச்சையில் முன்னணி அணுகுமுறை.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🟣 D. Microinjection",
+      "ta": "🟣 D. நுண்செலுத்தல்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Microinjection is the direct, physical injection of DNA (or RNA, protein) into individual cells using an ultra-fine glass capillary needle under a microscope.",
+      "ta": "நுண்செலுத்தல் என்பது நுண்ணோக்கியின் கீழ் மிக நுண்ணிய கண்ணாடிக் குழாய் ஊசியால் தனித்தனிச் செல்களுக்குள் DNA-வை (அல்லது RNA, புரதத்தை) நேரடியாக இயந்திர முறையில் செலுத்துதல்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Procedure**",
+      "ta": "**செயல்முறை**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Cells are immobilised on a microscope stage using a holding pipette (suction).",
+       "ta": "செல்கள் பிடிப்புக் குழாயால் (உறிஞ்சல்) நுண்ணோக்கி மேடையில் அசையாமல் பிடிக்கப்படுகின்றன.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "A **micromanipulator** precisely positions a fine glass injection needle (0.1–0.5 µm tip diameter).",
+       "ta": "**நுண்கையாளி** நுண்ணிய கண்ணாடிச் செலுத்தும் ஊசியை (முனை விட்டம் 0.1–0.5 µm) துல்லியமாக நிறுத்துகிறது.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "DNA solution is directly injected into the **nucleus** (pronucleus in fertilised eggs) or cytoplasm under microscopic guidance.",
+       "ta": "நுண்ணோக்கி வழிகாட்டலில் DNA கரைசல் **உட்கருவுக்குள்** (கருவுற்ற முட்டைகளில் முன்உட்கரு) அல்லது சைட்டோபிளாசத்துக்குள் நேரடியாகச் செலுத்தப்படுகிறது.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Injected cells are transferred to appropriate growth conditions for recovery and expression.",
+       "ta": "செலுத்தப்பட்ட செல்கள் மீட்புக்கும் வெளிப்பாட்டுக்கும் ஏற்ற வளர்ச்சி நிலைகளுக்கு மாற்றப்படுகின்றன.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Applications**",
+      "ta": "**பயன்பாடுகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Transgenic animal production:** DNA is injected into the pronucleus of fertilised mouse eggs — the primary method for generating transgenic mice.",
+       "ta": "**மாற்றுமரபணு விலங்கு உற்பத்தி:** கருவுற்ற எலி முட்டைகளின் முன்உட்கருவுக்குள் DNA செலுத்தப்படுகிறது — மாற்றுமரபணு எலிகளை உருவாக்கும் முதன்மை முறை.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Gene function studies:** Introduction of mRNA, siRNA, or proteins into individual cells for rapid analysis.",
+       "ta": "**மரபணுச் செயல் ஆய்வுகள்:** விரைவுப் பகுப்பாய்வுக்கு தனிச் செல்களுக்குள் mRNA, siRNA அல்லது புரதங்களைச் செலுத்துதல்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Nuclear transplantation:** Transfer of nuclei in cloning experiments.",
+       "ta": "**உட்கரு மாற்று:** குளோனாக்கச் சோதனைகளில் உட்கருக்களை மாற்றுதல்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "High technical skill required; low throughput but extremely precise.",
+       "ta": "உயர் தொழில்நுட்பத் திறன் தேவை; குறைந்த செயல்திறன் ஆனால் மிகத் துல்லியம்.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Clinical Context:** Intracytoplasmic Sperm Injection (ICSI) — used in IVF treatment — is a form of microinjection where a single sperm cell is injected directly into a human oocyte.",
+      "ta": "**மருத்துவச் சூழல்:** IVF சிகிச்சையில் பயன்படும் சைட்டோபிளாச விந்து செலுத்தல் (ICSI) நுண்செலுத்தலின் ஒரு வடிவம்; ஒரு விந்தணு நேரடியாக மனித அண்ட செல்லுக்குள் செலுத்தப்படுகிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🔷 E. Electroporation",
+      "ta": "🔷 E. மின்துளைப்பு",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Electroporation is a physical method in which a brief, high-voltage electric pulse is applied to cells in the presence of DNA, creating transient nanopores in the plasma membrane through which DNA (and other macromolecules) can enter.",
+      "ta": "மின்துளைப்பு என்பது DNA இருக்கும்போது செல்களுக்குச் சிறிதளவு நேர உயர்மின்னழுத்த மின் துடிப்பைச் செலுத்தி, DNA (மற்றும் பிற பெருமூலக்கூறுகள்) நுழைய பிளாஸ்மா சவ்வில் தற்காலிக நானோ துளைகளை உருவாக்கும் இயற்பியல் முறை.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Principle**",
+      "ta": "**கோட்பாடு**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Cells and DNA are placed between two electrodes in a specialised cuvette.",
+       "ta": "செல்களும் DNA-வும் சிறப்புக் குவெட்டில் இரு மின்முனைகளுக்கிடையே வைக்கப்படுகின்றன.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "An electric pulse (typically 0.1–10 kV/cm, milliseconds to microseconds duration) is applied.",
+       "ta": "மின் துடிப்பு (பொதுவாக 0.1–10 kV/cm, மில்லி விநாடி முதல் மைக்ரோ விநாடி வரை) செலுத்தப்படுகிறது.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "The electric field destabilises the lipid bilayer by inducing charge separation, forming temporary aqueous pores.",
+       "ta": "மின்புலம் மின்னூட்டப் பிரிப்பைத் தூண்டி கொழுப்பு இரட்டை அடுக்கை நிலைகுலைத்து தற்காலிக நீர்த் துளைகளை உருவாக்குகிறது.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "DNA molecules enter through these pores by electrophoretic force and diffusion.",
+       "ta": "DNA மூலக்கூறுகள் இத்துளைகள் வழியே மின்னாற்பிரித்தல் விசையாலும் பரவலாலும் நுழைகின்றன.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Pores reseal spontaneously within seconds to minutes after the pulse — cells recover if conditions are optimised.",
+       "ta": "துடிப்புக்குப் பின் சில விநாடிகள் முதல் நிமிடங்களுக்குள் துளைகள் தாமே மூடிக்கொள்கின்றன — நிலைகள் உகந்தால் செல்கள் மீள்கின்றன.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Applications**",
+      "ta": "**பயன்பாடுகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Highly efficient transfection of cell lines difficult to transfect by other means (lymphocytes, primary cells).",
+       "ta": "பிற முறைகளால் டிரான்ஸ்ஃபெக்ட் செய்ய இயலாத செல் வரிசைகளின் (நிணநீர்ச் செல்கள், முதல்நிலைச் செல்கள்) மிகத் திறனுள்ள டிரான்ஸ்ஃபெக்ஷன்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "In vivo electroporation — electrodes applied directly to tissues (skin, muscle, tumour) for in vivo gene delivery.",
+       "ta": "உயிருள்ள உடலுக்குள் மின்துளைப்பு — திசுக்களில் (தோல், தசை, கட்டி) மின்முனைகளை நேரடியாகப் பொருத்தி மரபணுவைச் செலுத்துதல்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Also used to introduce proteins, RNA, siRNA, CRISPR-Cas9 ribonucleoproteins into cells.",
+       "ta": "புரதங்கள், RNA, siRNA, CRISPR-Cas9 ரைபோநியுக்ளியோபுரதங்களையும் செல்களுக்குள் செலுத்தப் பயன்படும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Used in both prokaryotic (bacteria) and eukaryotic cell transformation.",
+       "ta": "புரோகேரியோட்டு (பாக்டீரியா), யூகேரியோட்டு செல் தகவல் பரிமாற்றம் இரண்டிலும் பயன்படும்.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Advantage:** Can transfect virtually any cell type; works for large DNA constructs; no cell-type restriction. **Limitation:** High cell mortality if conditions not optimised; requires specialised equipment.",
+      "ta": "**நன்மை:** ஏறத்தாழ எந்தச் செல் வகையையும் டிரான்ஸ்ஃபெக்ட் செய்யலாம்; பெரிய DNA அமைப்புகளுக்கும் பொருந்தும்; செல் வகைக் கட்டுப்பாடு இல்லை. **வரம்பு:** நிலைகள் உகந்ததாக இல்லாவிட்டால் செல் இறப்பு அதிகம்; சிறப்புக் கருவி தேவை.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🔶 F. Liposome Fusion (Lipofection)",
+      "ta": "🔶 F. லிப்போசோம் இணைவு (லிப்போஃபெக்ஷன்)",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Liposome fusion (also called lipofection or liposome-mediated transfection) uses **lipid vesicles (liposomes)** to encapsulate DNA and deliver it into cells by fusing with the plasma membrane.",
+      "ta": "லிப்போசோம் இணைவு (லிப்போஃபெக்ஷன் அல்லது லிப்போசோம் வழி டிரான்ஸ்ஃபெக்ஷன் எனவும் அழைக்கப்படும்) DNA-வைப் பொதிந்து பிளாஸ்மா சவ்வுடன் இணைந்து செல்களுக்குள் கொண்டுசேர்க்கும் **கொழுப்புப் பைகளை (லிப்போசோம்களை)** பயன்படுத்துகிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Mechanism**",
+      "ta": "**இயங்குமுறை**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": true,
+     "items": [
+      {
+       "en": "**Liposome preparation:** Cationic lipids (positively charged) are mixed with the anionic DNA. The electrostatic attraction causes the DNA to be coated and encapsulated in a lipid bilayer vesicle — called a **lipoplex**.",
+       "ta": "**லிப்போசோம் தயாரிப்பு:** நேர்மின்னூட்டக் கொழுப்புகள் அனயனிக் DNA-வுடன் கலக்கப்படுகின்றன. நிலைமின் கவர்ச்சியால் DNA, கொழுப்பு இரட்டை அடுக்குப் பையில் பூசப்பட்டுப் பொதியப்படுகிறது — இது **லிப்போபிளெக்ஸ்** எனப்படும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Binding to cell surface:** The positively charged lipoplex binds electrostatically to the negatively charged proteoglycans on the cell surface.",
+       "ta": "**செல் மேற்பரப்பில் பிணைதல்:** நேர்மின்னூட்ட லிப்போபிளெக்ஸ், செல் மேற்பரப்பிலுள்ள எதிர்மின்னூட்டப் புரோட்டியோகிளைக்கான்களுடன் நிலைமின் முறையில் பிணைகிறது.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Endocytosis:** The lipoplex is internalised by endocytosis, forming an endosome.",
+       "ta": "**எண்டோசைட்டோசிஸ்:** லிப்போபிளெக்ஸ் எண்டோசைட்டோசிஸால் உள்ளெடுக்கப்பட்டு எண்டோசோம் உருவாகிறது.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Endosomal escape:** The fusogenic properties of cationic lipids disrupt the endosomal membrane, releasing the DNA into the cytoplasm (otherwise DNA would be degraded in lysosomes).",
+       "ta": "**எண்டோசோம் தப்பித்தல்:** நேர்மின் கொழுப்புகளின் இணைவுப் பண்புகள் எண்டோசோம் சவ்வைச் சிதைத்து DNA-வைச் சைட்டோபிளாசத்துக்குள் விடுவிக்கின்றன (இல்லாவிட்டால் DNA லைசோசோம்களில் சிதைக்கப்படும்).",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Nuclear entry:** DNA is transported to the nucleus (assisted by nuclear localisation signals in dividing cells during mitosis, or by active transport in non-dividing cells).",
+       "ta": "**உட்கருவுக்குள் நுழைதல்:** DNA உட்கருவுக்குக் கடத்தப்படுகிறது (பகுப்படையும் செல்களில் மைட்டாசிஸின்போது உட்கரு இடமறியும் குறிப்புகளின் உதவியால்; பகுப்படையாத செல்களில் செயல்படு கடத்தலால்).",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Types of Liposomes Used**",
+      "ta": "**பயன்படும் லிப்போசோம் வகைகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Cationic liposomes:** DOTAP, DOSPA, Lipofectamine — most widely used in gene transfection.",
+       "ta": "**நேர்மின் லிப்போசோம்கள்:** DOTAP, DOSPA, Lipofectamine — மரபணு டிரான்ஸ்ஃபெக்ஷனில் மிகப் பரவலாகப் பயன்படுபவை.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**pH-sensitive liposomes:** Designed to release DNA specifically in the acidic endosomal environment.",
+       "ta": "**pH உணர் லிப்போசோம்கள்:** அமில எண்டோசோம் சூழலில் குறிப்பாக DNA-வை விடுவிக்கும்படி வடிவமைக்கப்பட்டவை.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Targeted liposomes:** Surface-modified with antibodies or ligands to target specific cell types for in vivo delivery.",
+       "ta": "**இலக்கிடப்பட்ட லிப்போசோம்கள்:** உயிருள்ள உடலுக்குள் குறிப்பிட்ட செல் வகைகளை இலக்காக்க எதிர்ப்பொருள்கள் அல்லது ஈர்ப்பிகளால் மேற்பரப்பு மாற்றப்பட்டவை.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Advantages**",
+      "ta": "**நன்மைகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Protects DNA from nuclease degradation in extracellular fluids.",
+       "ta": "செல்புற திரவங்களில் நியுக்ளியேஸ் சிதைவிலிருந்து DNA-வைப் பாதுகாக்கும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Can be targeted to specific cell types using surface ligands.",
+       "ta": "மேற்பரப்பு ஈர்ப்பிகளால் குறிப்பிட்ட செல் வகைகளை இலக்காக்கலாம்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Works on a wide range of cell types including primary cells and non-dividing cells.",
+       "ta": "முதல்நிலைச் செல்கள், பகுப்படையாத செல்கள் உட்பட பல செல் வகைகளில் செயல்படும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Can carry large DNA constructs.",
+       "ta": "பெரிய DNA அமைப்புகளையும் சுமக்கும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Suitable for in vivo therapeutic delivery (e.g., mRNA vaccines use lipid nanoparticles — LNPs).",
+       "ta": "உயிருள்ள உடலுக்குள் சிகிச்சையளிக்கும் செலுத்தலுக்கு ஏற்றது (எ.கா. mRNA தடுப்பூசிகள் கொழுப்பு நானோதுகள்களை — LNP — பயன்படுத்துகின்றன).",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Real-World Impact:** Lipid nanoparticles (LNPs) — an advanced form of liposomes — are used to deliver the mRNA in **Pfizer-BioNTech and Moderna COVID-19 vaccines**. LNPs protect the fragile mRNA and enable cellular uptake.",
+      "ta": "**நடைமுறைத் தாக்கம்:** லிப்போசோம்களின் மேம்பட்ட வடிவமான கொழுப்பு நானோதுகள்கள் (LNP) **Pfizer-BioNTech, Moderna COVID-19 தடுப்பூசிகளில்** mRNA-வைச் செலுத்தப் பயன்படுகின்றன. LNP-கள் நுண்ணிய mRNA-வைப் பாதுகாத்து செல்லுக்குள் உள்ளெடுப்பை உறுதிசெய்கின்றன.",
+      "ta_status": "draft"
+     }
+    }
+   ],
+   "icon": "⚡",
+   "label": "Section 4"
+  },
+  {
+   "id": "s07",
+   "title": {
+    "en": "Labeled Mechanism Diagrams — All Six Methods",
+    "ta": "பெயரிட்ட இயங்குமுறை வரைபடங்கள் — ஆறு முறைகளும்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Each diagram shows the mechanism of gene entry for that method. Click or hover to interact.",
+      "ta": "ஒவ்வொரு வரைபடமும் அம்முறையில் மரபணு நுழையும் இயங்குமுறையைக் காட்டுகிறது. தொட்டு அல்லது நகர்த்திக் காண்க.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 1 — Bacterial Transformation (Heat Shock)",
+      "ta": "படம் 1 — பாக்டீரியத் தகவல் பரிமாற்றம் (வெப்ப அதிர்ச்சி)",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "gene_transfer_methods_rdna_host_cells-d01",
+     "caption": {
+      "en": "Bacterial transformation",
+      "ta": "பாக்டீரியத் தகவல் பரிமாற்றம்",
+      "ta_status": "draft"
+     },
+     "labels": [
+      "1. CaCl₂ Treatment",
+      "E. coli cell",
+      "+CaCl₂ → competent cell",
+      "2. DNA Adsorption (0°C)",
+      "P",
+      "P",
+      "P",
+      "DNA adsorbs",
+      "to surface",
+      "3. Heat Shock (42°C)",
+      "P",
+      "DNA enters",
+      "through pores",
+      "4. Transformant Colony",
+      "Antibiotic-resistant clone"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 2 — Transfection (Calcium Phosphate Method)",
+      "ta": "படம் 2 — டிரான்ஸ்ஃபெக்ஷன் (கால்சியம் பாஸ்பேட் முறை)",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "gene_transfer_methods_rdna_host_cells-d02",
+     "caption": {
+      "en": "Transfection calcium phosphate",
+      "ta": "டிரான்ஸ்ஃபெக்ஷன் – கால்சியம் பாஸ்பேட்",
+      "ta_status": "draft"
+     },
+     "labels": [
+      "1. Form DNA-Ca₃(PO₄)₂ Precipitate",
+      "Recombinant DNA",
+      "+ CaCl₂/PO₄",
+      "2. Precipitate Settles on Cells",
+      "Nucleus",
+      "Ca-ppt",
+      "precipitate on cell surface",
+      "3. Endocytosis → Nucleus",
+      "endocytosis",
+      "4. Gene Expression",
+      "mRNA → Protein produced",
+      "Transient or stable expression"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 3 — Viral Transduction",
+      "ta": "படம் 3 — வைரஸ் டிரான்ஸ்டக்ஷன்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "gene_transfer_methods_rdna_host_cells-d03",
+     "caption": {
+      "en": "Viral transduction",
+      "ta": "வைரஸ் டிரான்ஸ்டக்ஷன்",
+      "ta_status": "draft"
+     },
+     "labels": [
+      "1. Recombinant Viral Vector",
+      "Gene",
+      "Modified virus",
+      "(replication-deficient)",
+      "infects cell",
+      "2. Cell Receptor Binding",
+      "Nucleus",
+      "Receptor",
+      "3. Gene Released into Nucleus",
+      "Viral genome enters",
+      "nucleus; gene integrates",
+      "→ Stable gene expression"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 4 — Microinjection into Pronucleus",
+      "ta": "படம் 4 — முன்உட்கருவுக்குள் நுண்செலுத்தல்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "gene_transfer_methods_rdna_host_cells-d04",
+     "caption": {
+      "en": "Microinjection into fertilised egg",
+      "ta": "கருவுற்ற முட்டைக்குள் நுண்செலுத்தல்",
+      "ta_status": "draft"
+     },
+     "labels": [
+      "Microinjection into Pronucleus",
+      "Holding pipette",
+      "(suction)",
+      "Male",
+      "Pronucleus",
+      "Female",
+      "DNA",
+      "Needle",
+      "DNA injected directly",
+      "Fertilised egg (zygote)",
+      "~80–100 µm diameter",
+      "→ Transgenic animal generation"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 5 — Electroporation Mechanism",
+      "ta": "படம் 5 — மின்துளைப்பு இயங்குமுறை",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "gene_transfer_methods_rdna_host_cells-d05",
+     "caption": {
+      "en": "Electroporation mechanism",
+      "ta": "மின்துளைப்பு இயங்குமுறை",
+      "ta_status": "draft"
+     },
+     "labels": [
+      "Electroporation Cuvette",
+      "−",
+      "+",
+      "Electric field (⚡)",
+      "DNA",
+      "DNA",
+      "pore",
+      "N",
+      "⚡ Electric Pulse Applied",
+      "0.1–10 kV/cm pulse",
+      "ms to µs duration",
+      "After Pulse — Pores Reseal",
+      "DNA",
+      "inside",
+      "Cell survives, DNA transfected"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 6 — Liposome Fusion (Lipofection)",
+      "ta": "படம் 6 — லிப்போசோம் இணைவு (லிப்போஃபெக்ஷன்)",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "gene_transfer_methods_rdna_host_cells-d06",
+     "caption": {
+      "en": "Liposome fusion mechanism",
+      "ta": "லிப்போசோம் இணைவு இயங்குமுறை",
+      "ta_status": "draft"
+     },
+     "labels": [
+      "1. Lipoplex Formation",
+      "DNA",
+      "Lipoplex",
+      "(cationic lipid + DNA)",
+      "2. Binding to Cell Surface",
+      "Nucleus",
+      "DNA",
+      "3. Membrane Fusion → DNA Release",
+      "Fusion",
+      "→ endosome",
+      "escape",
+      "→ DNA reaches nucleus",
+      "Gene expressed as protein"
+     ]
+    }
+   ],
+   "icon": "🖼️",
+   "label": "Section 5 — Diagrams"
+  },
+  {
+   "id": "s08",
+   "title": {
+    "en": "Comparison of All Gene Transfer Methods",
+    "ta": "அனைத்து மரபணு மாற்ற முறைகளின் ஒப்பீடு",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Method",
+       "ta": "முறை",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Cell Type",
+       "ta": "செல் வகை",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Mechanism",
+       "ta": "இயங்குமுறை",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Efficiency",
+       "ta": "திறன்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Advantages",
+       "ta": "நன்மைகள்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Limitations",
+       "ta": "வரம்புகள்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Applications",
+       "ta": "பயன்பாடுகள்",
+       "ta_status": "draft"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Transformation**",
+        "ta": "**தகவல் பரிமாற்றம்**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Prokaryotes (bacteria)",
+        "ta": "புரோகேரியோட்டுகள் (பாக்டீரியா)",
+        "ta_status": "draft"
+       },
+       {
+        "en": "CaCl₂/heat shock opens membrane pores; DNA enters",
+        "ta": "CaCl₂/வெப்ப அதிர்ச்சி சவ்வுத் துளைகளைத் திறக்கிறது; DNA நுழைகிறது",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Moderate (10⁵–10⁸/µg)",
+        "ta": "மிதமானது (10⁵–10⁸/µg)",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Simple, cheap, well-established",
+        "ta": "எளிமையானது, மலிவானது, நன்கு நிறுவப்பட்டது",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Only bacteria; requires competent cells",
+        "ta": "பாக்டீரியா மட்டும்; தகுதி பெற்ற செல்கள் தேவை",
+        "ta_status": "draft"
+       },
+       {
+        "en": "E. coli gene cloning; recombinant protein production",
+        "ta": "E. coli மரபணு குளோனாக்கம்; மறுகூட்டிணைவுப் புரத உற்பத்தி",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Transfection**",
+        "ta": "**டிரான்ஸ்ஃபெக்ஷன்**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Eukaryotic cells (cell lines)",
+        "ta": "யூகேரியோட்டு செல்கள் (செல் வரிசைகள்)",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Ca-phosphate or cationic lipid precipitate → endocytosis",
+        "ta": "Ca-பாஸ்பேட் அல்லது நேர்மின் கொழுப்புப் படிவு → எண்டோசைட்டோசிஸ்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Low to moderate",
+        "ta": "குறைவு முதல் மிதமானது",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Simple, inexpensive; works for many cell types",
+        "ta": "எளிமையானது, மலிவானது; பல செல் வகைகளுக்குப் பொருந்தும்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Not efficient for primary cells; cytotoxic",
+        "ta": "முதல்நிலைச் செல்களில் திறன் குறைவு; செல்நச்சு",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Mammalian gene expression; functional genomics",
+        "ta": "பாலூட்டி மரபணு வெளிப்பாடு; செயல்நிலை மரபணுத்தொகையியல்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Transduction**",
+        "ta": "**டிரான்ஸ்டக்ஷன்**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Eukaryotic (dividing and non-dividing)",
+        "ta": "யூகேரியோட்டு (பகுப்படையும், படையாத)",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Modified virus infects cell via receptor; injects gene",
+        "ta": "மாற்றிய வைரஸ் ஏற்பி வழியாகச் செல்லைத் தொற்றி மரபணுவைச் செலுத்துகிறது",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Very high (>90%)",
+        "ta": "மிக அதிகம் (>90%)",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Highest efficiency; stable integration; in vivo use",
+        "ta": "மிக உயர் திறன்; நிலையான இணைவு; உயிருள்ள உடலுக்குள் பயன்பாடு",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Insert size limited by viral capsid; safety concerns",
+        "ta": "வைரஸ் கேப்சிடால் செருகி அளவு வரம்பு; பாதுகாப்புக் கவலைகள்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Gene therapy (AAV, lentiviral); CAR-T cell therapy",
+        "ta": "மரபணு சிகிச்சை (AAV, லென்டிவைரல்); CAR-T செல் சிகிச்சை",
+        "ta_status": "bracketed"
+       }
+      ],
+      [
+       {
+        "en": "**Microinjection**",
+        "ta": "**நுண்செலுத்தல்**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Large cells (oocytes, embryos)",
+        "ta": "பெரிய செல்கள் (முட்டைகள், கருக்கள்)",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Mechanical injection of DNA directly into nucleus",
+        "ta": "DNA-வை உட்கருவுக்குள் நேரடியாக இயந்திர முறையில் செலுத்துதல்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "High per cell; low throughput",
+        "ta": "ஒரு செல்லுக்கு அதிகம்; குறைந்த செயல்திறன்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Precise; works for any molecule; no carrier needed",
+        "ta": "துல்லியம்; எந்த மூலக்கூறுக்கும் பொருந்தும்; கடத்தி தேவையில்லை",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Tedious; high technical skill; one cell at a time",
+        "ta": "சலிப்பூட்டுவது; உயர் தொழில்நுட்பத் திறன்; ஒரு நேரத்தில் ஒரு செல்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Transgenic animal production; ICSI; embryo manipulation",
+        "ta": "மாற்றுமரபணு விலங்கு உற்பத்தி; ICSI; கரு கையாளல்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Electroporation**",
+        "ta": "**மின்துளைப்பு**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Prokaryotes and eukaryotes",
+        "ta": "புரோகேரியோட்டுகளும் யூகேரியோட்டுகளும்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Electric pulse creates temporary membrane pores; DNA enters",
+        "ta": "மின் துடிப்பு தற்காலிகச் சவ்வுத் துளைகளை உருவாக்கும்; DNA நுழைகிறது",
+        "ta_status": "draft"
+       },
+       {
+        "en": "High (20–80%)",
+        "ta": "அதிகம் (20–80%)",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Universal; works for any DNA/RNA/protein; primary cells",
+        "ta": "அனைத்துக்கும் பொருந்தும்; எந்த DNA/RNA/புரதத்துக்கும்; முதல்நிலைச் செல்கள்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "High cell mortality if conditions suboptimal; equipment needed",
+        "ta": "நிலைகள் உகந்ததல்லாவிட்டால் செல் இறப்பு அதிகம்; கருவி தேவை",
+        "ta_status": "draft"
+       },
+       {
+        "en": "CRISPR delivery; primary cell transfection; bacteria",
+        "ta": "CRISPR செலுத்தல்; முதல்நிலைச் செல் டிரான்ஸ்ஃபெக்ஷன்; பாக்டீரியா",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Liposome Fusion**",
+        "ta": "**லிப்போசோம் இணைவு**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Eukaryotic (dividing and non-dividing)",
+        "ta": "யூகேரியோட்டு (பகுப்படையும், படையாத)",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Cationic lipoplex binds cell surface → endocytosis → membrane fusion",
+        "ta": "நேர்மின் லிப்போபிளெக்ஸ் செல் மேற்பரப்பில் பிணையும் → எண்டோசைட்டோசிஸ் → சவ்வு இணைவு",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Moderate to high",
+        "ta": "மிதமானது முதல் அதிகம்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Protects DNA; targetable; suitable for in vivo delivery",
+        "ta": "DNA-வைப் பாதுகாக்கும்; இலக்கிடலாம்; உயிருள்ள உடலுக்குள் செலுத்த ஏற்றது",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Endosomal entrapment reduces efficiency; cytotoxicity",
+        "ta": "எண்டோசோமில் சிக்குவது திறனைக் குறைக்கும்; செல்நச்சு",
+        "ta_status": "draft"
+       },
+       {
+        "en": "mRNA vaccines (COVID-19 LNPs); drug delivery; siRNA delivery",
+        "ta": "mRNA தடுப்பூசிகள் (COVID-19 LNP-கள்); மருந்து செலுத்தல்; siRNA செலுத்தல்",
+        "ta_status": "bracketed"
+       }
+      ]
+     ]
+    }
+   ],
+   "icon": "📋",
+   "label": "Section 6"
+  },
+  {
+   "id": "s09",
+   "title": {
+    "en": "Gene Delivery — Concept Flow (Click Steps)",
+    "ta": "மரபணு செலுத்தல் — கருத்துப் பாய்வு (படிகளைத் தொடுக)",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Click any step to expand details.",
+      "ta": "எந்தப் படியையும் தொட்டு விவரங்களை விரிவாக்குக.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🔵 Prokaryotic Pathway (Transformation):",
+      "ta": "🔵 புரோகேரியோட்டுப் பாதை (தகவல் பரிமாற்றம்):",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "1 🧬 Recombinant Plasmid Gene of interest is ligated into a plasmid vector (e.g., pUC19) using restriction enzymes and DNA ligase. The circular recombinant plasmid is purified.",
+       "ta": "1 🧬 மறுகூட்டிணைவுப் பிளாஸ்மிட் ஆர்வ மரபணு ரெஸ்ட்ரிக்ஷன் நொதிகளாலும் DNA லைகேசாலும் பிளாஸ்மிட் தாங்கிக்கடத்தியில் (எ.கா. pUC19) லைகேட் செய்யப்படுகிறது. வட்ட மறுகூட்டிணைவுப் பிளாஸ்மிட் தூய்மையாக்கப்படுகிறது.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "2 🧊 Competent Cell Prep (CaCl₂) E. coli cells are washed in ice-cold CaCl₂, which partially disrupts the outer membrane and makes the cells competent — capable of DNA uptake.",
+       "ta": "2 🧊 தகுதி பெற்ற செல் தயாரிப்பு (CaCl₂) E. coli செல்கள் பனிக்குளிர் CaCl₂-இல் கழுவப்படுகின்றன; இது வெளிச்சவ்வைப் பகுதியளவு சிதைத்து செல்களைத் தகுதி பெற்றவையாக — DNA-வை உள்ளெடுக்கும் திறனுள்ளவையாக — மாற்றுகிறது.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "3 🌡️ Heat Shock (42°C) Brief heat shock at 42°C for 90 seconds drives the plasmid DNA through temporary pores in the cell membrane into the bacterial cytoplasm.",
+       "ta": "3 🌡️ வெப்ப அதிர்ச்சி (42°C) 90 விநாடி 42°C வெப்ப அதிர்ச்சி பிளாஸ்மிட் DNA-வை செல் சவ்வின் தற்காலிகத் துளைகள் வழியே பாக்டீரிய சைட்டோபிளாசத்துக்குள் செலுத்துகிறது.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "4 🧫 Selection on Antibiotic Transformed cells are plated on LB + antibiotic medium. Only cells carrying the vector (with resistance gene) survive and form colonies — transformants.",
+       "ta": "4 🧫 ஆன்டிபயாடிக்கில் தெரிவு மாற்றப்பட்ட செல்கள் LB + ஆன்டிபயாடிக் ஊடகத்தில் வளர்க்கப்படுகின்றன. தாங்கிக்கடத்தியைச் (எதிர்ப்பு மரபணுவுடன்) சுமக்கும் செல்கள் மட்டுமே உயிர்பிழைத்துக் குழுமங்களை — மாற்றப்பட்ட செல்களை — உருவாக்குகின்றன.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "5 ✅ Gene Expression in E. coli The plasmid replicates inside E. coli. The gene of interest is transcribed and translated, producing the recombinant protein in large amounts.",
+       "ta": "5 ✅ E. coli-இல் மரபணு வெளிப்பாடு பிளாஸ்மிட் E. coli-க்குள் பெருகுகிறது. ஆர்வ மரபணு படியெடுக்கப்பட்டு மொழிபெயர்க்கப்பட்டு மறுகூட்டிணைவுப் புரதம் அதிக அளவில் உருவாகிறது.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🔶 Eukaryotic Pathway (e.g., Transduction / Lipofection):",
+      "ta": "🔶 யூகேரியோட்டுப் பாதை (எ.கா. டிரான்ஸ்டக்ஷன் / லிப்போஃபெக்ஷன்):",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "1 🧬 Recombinant DNA + Delivery Vehicle The gene of interest is packaged into a viral vector (transduction) or complexed with cationic lipids (lipofection). A mammalian promoter drives expression.",
+       "ta": "1 🧬 மறுகூட்டிணைவு DNA + செலுத்தும் வாகனம் ஆர்வ மரபணு வைரஸ் தாங்கிக்கடத்தியில் பொதியப்படுகிறது (டிரான்ஸ்டக்ஷன்) அல்லது நேர்மின் கொழுப்புகளுடன் கூட்டுப்பொருளாகிறது (லிப்போஃபெக்ஷன்). பாலூட்டி ஊக்குவிப்பி வெளிப்பாட்டை இயக்குகிறது.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "2 📦 Delivery to Cell Surface Virus binds cell-surface receptor (transduction) or lipoplex binds surface proteoglycans (lipofection), initiating cellular uptake.",
+       "ta": "2 📦 செல் மேற்பரப்புக்குக் கொண்டுசேர்த்தல் வைரஸ் செல்மேற்பரப்பு ஏற்பியுடன் பிணைகிறது (டிரான்ஸ்டக்ஷன்) அல்லது லிப்போபிளெக்ஸ் மேற்பரப்புப் புரோட்டியோகிளைக்கான்களுடன் பிணைகிறது (லிப்போஃபெக்ஷன்); இது செல் உள்ளெடுப்பைத் தொடங்குகிறது.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "3 🔄 Cross Plasma Membrane + Endosomal Escape Viral particles inject their genome directly; liposomes fuse with endosomal membrane to release DNA into cytoplasm, escaping lysosomal degradation.",
+       "ta": "3 🔄 பிளாஸ்மா சவ்வைக் கடத்தலும் எண்டோசோம் தப்பித்தலும் வைரஸ் துகள்கள் தம் மரபுக்கூறை நேரடியாகச் செலுத்துகின்றன; லிப்போசோம்கள் எண்டோசோம் சவ்வுடன் இணைந்து DNA-வைச் சைட்டோபிளாசத்துக்குள் விடுவித்து லைசோசோம் சிதைவிலிருந்து தப்புகின்றன.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "4 🔵 Nuclear Entry + Integration DNA crosses the nuclear envelope. Retroviral/lentiviral vectors integrate stably into the host chromosome. Non-viral and adenoviral DNA may remain episomal.",
+       "ta": "4 🔵 உட்கருவுக்குள் நுழைதலும் இணைவும் DNA உட்கரு உறையைக் கடக்கிறது. ரெட்ரோவைரல்/லென்டிவைரல் தாங்கிக்கடத்திகள் ஓம்புயிரி குரோமோசோமில் நிலையாக இணைகின்றன. வைரஸ் அல்லாத, அடினோவைரல் DNA எபிசோம் நிலையில் இருக்கலாம்.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "5 ⚗️ Transcription, Translation & Protein Production The gene is transcribed by host RNA Pol II (using mammalian promoter on vector), mRNA is translated, and the therapeutic or reporter protein is produced.",
+       "ta": "5 ⚗️ படியெடுப்பு, மொழிபெயர்ப்பு, புரத உற்பத்தி ஓம்புயிரி RNA பாலிமரேஸ் II மரபணுவைப் (தாங்கிக்கடத்தியிலுள்ள பாலூட்டி ஊக்குவிப்பியைப் பயன்படுத்தி) படியெடுக்கிறது; mRNA மொழிபெயர்க்கப்பட்டுச் சிகிச்சை அல்லது அறிக்கைப் புரதம் உருவாகிறது.",
+       "ta_status": "draft"
+      }
+     ]
+    }
+   ],
+   "icon": "🔄",
+   "label": "Section 7 — Flow"
+  },
+  {
+   "id": "s10",
+   "title": {
+    "en": "Interactive Learning",
+    "ta": "ஊடாடும் கற்றல்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔵 Transformation — Key Points & Exam Notes**",
+      "ta": "**🔵 தகவல் பரிமாற்றம் — முக்கியக் குறிப்புகளும் தேர்வுக் குறிப்புகளும்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Prokaryotic Method",
+      "ta": "புரோகேரியோட்டு முறை",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Discovered by **Frederick Griffith (1928)**; molecular basis by **Avery, MacLeod, McCarty (1944)**.",
+       "ta": "**ஃபிரெடெரிக் கிரிஃபித் (1928)** கண்டறிந்தார்; மூலக்கூறு அடிப்படை **ஏவரி, மேக்லியோட், மெக்கார்டி (1944)**.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Used for _E. coli_ and other bacteria; NOT for animal cells directly.",
+       "ta": "_E. coli_, பிற பாக்டீரியாக்களுக்குப் பயன்படும்; விலங்கு செல்களுக்கு நேரடியாக அல்ல.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Key steps: CaCl₂ → competent cells → add DNA → heat shock 42°C → select on antibiotic.",
+       "ta": "முக்கியப் படிகள்: CaCl₂ → தகுதி பெற்ற செல்கள் → DNA சேர் → 42°C வெப்ப அதிர்ச்சி → ஆன்டிபயாடிக்கில் தெரிவு.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Alternative: **electroporation** for higher efficiency in bacteria.",
+       "ta": "மாற்று: பாக்டீரியாவில் அதிகத் திறனுக்கு **மின்துளைப்பு**.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Efficiency: 10⁵–10⁸ colony-forming units per µg of DNA.",
+       "ta": "திறன்: ஒரு µg DNA-வுக்கு 10⁵–10⁸ குழும உருவாக்கும் அலகுகள்.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Exam tip:** Transformation = prokaryotes (bacteria). Transfection = eukaryotes. Do not confuse these terms.",
+      "ta": "**தேர்வுக் குறிப்பு:** தகவல் பரிமாற்றம் = புரோகேரியோட்டுகள் (பாக்டீரியா). டிரான்ஸ்ஃபெக்ஷன் = யூகேரியோட்டுகள். இச்சொற்களைக் குழப்ப வேண்டாம்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🟡 Transfection — Key Points & Exam Notes**",
+      "ta": "**🟡 டிரான்ஸ்ஃபெக்ஷன் — முக்கியக் குறிப்புகளும் தேர்வுக் குறிப்புகளும்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Eukaryotic — Non-Viral",
+      "ta": "யூகேரியோட்டு — வைரஸ் அல்லாதது",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Chemical methods: CaPO₄ co-precipitation, DEAE-dextran, cationic lipids (lipofection).",
+       "ta": "வேதி முறைகள்: CaPO₄ இணைப்படிவு, DEAE-டெக்ஸ்டிரான், நேர்மின் கொழுப்புகள் (லிப்போஃபெக்ஷன்).",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Physical methods: electroporation, microinjection, biolistics (gene gun).",
+       "ta": "இயற்பியல் முறைகள்: மின்துளைப்பு, நுண்செலுத்தல், பயோலிஸ்டிக்ஸ் (மரபணுத் துப்பாக்கி).",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Transient transfection:** DNA does not integrate — expression is temporary (hours to days).",
+       "ta": "**தற்காலிக டிரான்ஸ்ஃபெக்ஷன்:** DNA இணைவதில்லை — வெளிப்பாடு தற்காலிகம் (மணிநேரம் முதல் நாள்கள் வரை).",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Stable transfection:** DNA integrates into host genome — permanent heritable expression.",
+       "ta": "**நிலையான டிரான்ஸ்ஃபெக்ஷன்:** DNA ஓம்புயிரி மரபுக்கூறில் இணையும் — நிரந்தர மரபுவழி வெளிப்பாடு.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Most common lab method: Lipofectamine (cationic lipid reagent) — simple, effective for cell lines.",
+       "ta": "மிகப் பொதுவான ஆய்வக முறை: Lipofectamine (நேர்மின் கொழுப்பு வினைப்பொருள்) — எளிமையானது, செல் வரிசைகளுக்குத் திறனுள்ளது.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "warn",
+     "text": {
+      "en": "**Exam tip:** The term \"transfection\" specifically applies to eukaryotic cells. It encompasses both chemical and physical methods — electroporation and microinjection can be classified as physical transfection.",
+      "ta": "**தேர்வுக் குறிப்பு:** “டிரான்ஸ்ஃபெக்ஷன்” என்ற சொல் குறிப்பாக யூகேரியோட்டு செல்களுக்கே பொருந்தும். இது வேதி, இயற்பியல் முறைகள் இரண்டையும் உள்ளடக்கும் — மின்துளைப்பையும் நுண்செலுத்தலையும் இயற்பியல் டிரான்ஸ்ஃபெக்ஷனாக வகைப்படுத்தலாம்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🟢 Transduction — Key Points & Exam Notes**",
+      "ta": "**🟢 டிரான்ஸ்டக்ஷன் — முக்கியக் குறிப்புகளும் தேர்வுக் குறிப்புகளும்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Viral Delivery",
+      "ta": "வைரஸ் வழிச் செலுத்தல்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Most EFFICIENT method for in vivo gene delivery.",
+       "ta": "உயிருள்ள உடலுக்குள் மரபணு செலுத்தலுக்கு மிகத் திறனுள்ள முறை.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Viral genes replaced by gene of interest → replication-deficient virus.",
+       "ta": "வைரஸ் மரபணுக்கள் ஆர்வ மரபணுவால் மாற்றப்படும் → பெருக்கத் திறனற்ற வைரஸ்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Key vectors: Retrovirus (stable, dividing cells), Lentivirus (stable, non-dividing), Adenovirus (transient, high efficiency), AAV (long-term, safe).",
+       "ta": "முக்கிய தாங்கிக்கடத்திகள்: ரெட்ரோவைரஸ் (நிலையானது, பகுப்படையும் செல்கள்), லென்டிவைரஸ் (நிலையானது, பகுப்படையாத செல்கள்), அடினோவைரஸ் (தற்காலிகம், அதிகத் திறன்), AAV (நீண்டகாலம், பாதுகாப்பானது).",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**AAV** — used in FDA-approved gene therapies: Luxturna (blindness), Zolgensma (SMA), Hemgenix (haemophilia B).",
+       "ta": "**AAV** — FDA அங்கீகரித்த மரபணு சிகிச்சைகளில்: Luxturna (பார்வையிழப்பு), Zolgensma (SMA), Hemgenix (ஹீமோஃபிலியா B).",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Limitation: insert size limited by viral capsid; risk of insertional mutagenesis (retroviruses).",
+       "ta": "வரம்பு: வைரஸ் கேப்சிடால் செருகி அளவு மட்டுப்படும்; உட்செருகல் திடீர்மாற்ற அபாயம் (ரெட்ரோவைரஸ்கள்).",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "tip",
+     "text": {
+      "en": "**Exam tip:** Transduction is the gold standard for clinical gene therapy. Know the difference between lentiviral (integrating, non-dividing cells) and adenoviral (episomal, does not integrate).",
+      "ta": "**தேர்வுக் குறிப்பு:** மருத்துவ மரபணு சிகிச்சைக்குத் தங்கத் தரநிலை டிரான்ஸ்டக்ஷன். லென்டிவைரல் (இணையும், பகுப்படையாத செல்கள்), அடினோவைரல் (எபிசோம், இணையாது) வேறுபாட்டை அறிக.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🟣 Microinjection — Key Points & Exam Notes**",
+      "ta": "**🟣 நுண்செலுத்தல் — முக்கியக் குறிப்புகளும் தேர்வுக் குறிப்புகளும்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Physical — Mechanical",
+      "ta": "இயற்பியல் — இயந்திரம்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Only method that directly delivers DNA into the **nucleus**.",
+       "ta": "DNA-வை **உட்கருவுக்குள்** நேரடியாகச் செலுத்தும் ஒரே முறை.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Uses a glass needle (0.1–0.5 µm tip) controlled by a micromanipulator under a microscope.",
+       "ta": "நுண்கையாளியால் கட்டுப்படுத்தப்படும், நுண்ணோக்கியின் கீழ் இயக்கப்படும் கண்ணாடி ஊசி (முனை 0.1–0.5 µm).",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Primary use: **pronuclear microinjection** for creating transgenic mice (Nobel Prize method).",
+       "ta": "முதன்மைப் பயன்: மாற்றுமரபணு எலிகளை உருவாக்க **முன்உட்கரு நுண்செலுத்தல்** (நோபல் பரிசு பெற்ற முறை).",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Can deliver DNA, RNA, proteins, antibodies — any soluble molecule.",
+       "ta": "DNA, RNA, புரதங்கள், எதிர்ப்பொருள்கள் — எந்தக் கரையும் மூலக்கூறையும் செலுத்தலாம்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Limitation: very low throughput — one cell at a time; high skill required.",
+       "ta": "வரம்பு: மிகக் குறைந்த செயல்திறன் — ஒரு நேரத்தில் ஒரு செல்; உயர் திறன் தேவை.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Clinical version: ICSI (intracytoplasmic sperm injection) used in human IVF.",
+       "ta": "மருத்துவ வடிவம்: மனித IVF-இல் பயன்படும் ICSI (சைட்டோபிளாச விந்து செலுத்தல்).",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Exam tip:** Microinjection is the MOST DIRECT method — no carrier needed, DNA goes straight into nucleus. It is the primary method to create transgenic animals.",
+      "ta": "**தேர்வுக் குறிப்பு:** நுண்செலுத்தல் மிக நேரடி முறை — கடத்தி தேவையில்லை; DNA நேரடியாக உட்கருவுக்குள் செல்கிறது. மாற்றுமரபணு விலங்குகளை உருவாக்கும் முதன்மை முறை.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔷 Electroporation — Key Points & Exam Notes**",
+      "ta": "**🔷 மின்துளைப்பு — முக்கியக் குறிப்புகளும் தேர்வுக் குறிப்புகளும்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Physical — Electrical",
+      "ta": "இயற்பியல் — மின்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Works by creating **temporary hydrophilic pores** in the lipid bilayer via electric field.",
+       "ta": "மின்புலத்தால் கொழுப்பு இரட்டை அடுக்கில் **தற்காலிக நீர்நாட்டத் துளைகளை** உருவாக்குவதால் செயல்படுகிறது.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Applicable to BOTH prokaryotes and eukaryotes — most versatile physical method.",
+       "ta": "புரோகேரியோட்டுகள், யூகேரியோட்டுகள் இரண்டுக்கும் பொருந்தும் — மிகப் பல்திறன் கொண்ட இயற்பியல் முறை.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Can deliver DNA, RNA, CRISPR-Cas9 RNPs, proteins, drugs into cells.",
+       "ta": "DNA, RNA, CRISPR-Cas9 RNP-கள், புரதங்கள், மருந்துகளைச் செல்களுக்குள் செலுத்தலாம்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Modern systems (e.g., Neon system, Nucleofector) optimise conditions for different cell types.",
+       "ta": "நவீன அமைப்புகள் (எ.கா. Neon அமைப்பு, Nucleofector) வெவ்வேறு செல் வகைகளுக்கு நிலைகளை உகந்ததாக்குகின்றன.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "In vivo electroporation — used for direct DNA vaccine delivery into muscle or skin.",
+       "ta": "உயிருள்ள உடலுக்குள் மின்துளைப்பு — தசை அல்லது தோலுக்குள் DNA தடுப்பூசியை நேரடியாகச் செலுத்தப் பயன்படும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Key parameters: voltage, pulse duration, number of pulses, temperature.",
+       "ta": "முக்கியக் காரணிகள்: மின்னழுத்தம், துடிப்புக் காலம், துடிப்புகளின் எண்ணிக்கை, வெப்பநிலை.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Exam tip:** Electroporation is BOTH a transfection and transformation method — it works on bacteria, yeast, and mammalian cells. Commonly used when other methods fail (e.g., hard-to-transfect lymphocytes).",
+      "ta": "**தேர்வுக் குறிப்பு:** மின்துளைப்பு டிரான்ஸ்ஃபெக்ஷன், தகவல் பரிமாற்றம் இரண்டுக்குமான முறை — பாக்டீரியா, ஈஸ்ட், பாலூட்டி செல்களில் செயல்படும். பிற முறைகள் தோல்வியடையும்போது (எ.கா. டிரான்ஸ்ஃபெக்ட் செய்யக் கடினமான நிணநீர்ச் செல்கள்) பொதுவாகப் பயன்படுகிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔶 Liposome Fusion — Key Points & Exam Notes**",
+      "ta": "**🔶 லிப்போசோம் இணைவு — முக்கியக் குறிப்புகளும் தேர்வுக் குறிப்புகளும்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Chemical — Lipid-Based",
+      "ta": "வேதியியல் — கொழுப்பு அடிப்படை",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Liposomes = artificial lipid bilayer vesicles encapsulating DNA or drugs.",
+       "ta": "லிப்போசோம்கள் = DNA அல்லது மருந்துகளைப் பொதியும் செயற்கைக் கொழுப்பு இரட்டை அடுக்குப் பைகள்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Cationic liposomes (positive charge) bind anionic DNA electrostatically — forming **lipoplexes**.",
+       "ta": "நேர்மின் லிப்போசோம்கள் (நேர்மின்னூட்டம்) அனயனிக் DNA-வுடன் நிலைமின் முறையில் பிணைந்து **லிப்போபிளெக்ஸ்களை** உருவாக்கும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Entry: endocytosis → endosomal escape → cytoplasm → nuclear entry.",
+       "ta": "நுழைவு: எண்டோசைட்டோசிஸ் → எண்டோசோம் தப்பித்தல் → சைட்டோபிளாசம் → உட்கருவுக்குள் நுழைதல்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Key advantage: **targetable** — surface-conjugated antibodies/ligands direct delivery to specific cell types.",
+       "ta": "முக்கிய நன்மை: **இலக்கிடலாம்** — மேற்பரப்பில் இணைந்த எதிர்ப்பொருள்கள்/ஈர்ப்பிகள் குறிப்பிட்ட செல் வகைகளுக்குச் செலுத்தலை வழிநடத்தும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Modern form: Lipid nanoparticles (LNPs) — used in **mRNA vaccines** (COVID-19) and siRNA delivery.",
+       "ta": "நவீன வடிவம்: கொழுப்பு நானோதுகள்கள் (LNP) — **mRNA தடுப்பூசிகளிலும்** (COVID-19) siRNA செலுத்தலிலும் பயன்படும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Commercial reagent example: Lipofectamine (ThermoFisher).",
+       "ta": "வணிக வினைப்பொருள் எடுத்துக்காட்டு: Lipofectamine (ThermoFisher).",
+       "ta_status": "bracketed"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Exam tip:** Liposome fusion is the basis of mRNA COVID-19 vaccines. LNPs protect fragile mRNA and enable cellular uptake in muscle cells. Key concept: endosomal escape is critical for efficiency.",
+      "ta": "**தேர்வுக் குறிப்பு:** லிப்போசோம் இணைவு mRNA COVID-19 தடுப்பூசிகளின் அடிப்படை. LNP-கள் நுண்ணிய mRNA-வைப் பாதுகாத்து தசைச் செல்களில் உள்ளெடுப்பை உறுதிசெய்கின்றன. முக்கியக் கருத்து: திறனுக்கு எண்டோசோம் தப்பித்தல் இன்றியமையாதது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Click-to-Reveal Key Terms**",
+      "ta": "**தொட்டு வெளிப்படுத்தும் முக்கியச் சொற்கள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Competent Cell",
+      "ta": "தகுதி பெற்ற செல்",
+      "ta_status": "draft"
+     },
+     "answer": {
+      "en": "A bacterial cell that has been treated (CaCl₂ or electroporation) to become capable of taking up exogenous DNA. Competence is either a naturally occurring state or artificially induced for laboratory transformation.",
+      "ta": "புறவழி DNA-வை உள்ளெடுக்கும் திறன் பெற (CaCl₂ அல்லது மின்துளைப்பால்) சிகிச்சையளிக்கப்பட்ட பாக்டீரிய செல். தகுதிநிலை இயற்கையாக உள்ள நிலையாகவோ, ஆய்வக தகவல் பரிமாற்றத்துக்குச் செயற்கையாகத் தூண்டப்படுவதாகவோ இருக்கலாம்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Viral Vector",
+      "ta": "வைரஸ் தாங்கிக்கடத்தி",
+      "ta_status": "draft"
+     },
+     "answer": {
+      "en": "A modified virus with its pathogenic genes removed and replaced by the therapeutic gene of interest. It retains the ability to infect cells and deliver DNA but cannot replicate. Examples: AAV, lentivirus, adenovirus.",
+      "ta": "நோய்க்காரண மரபணுக்கள் நீக்கப்பட்டு ஆர்வமுள்ள சிகிச்சை மரபணுவால் மாற்றப்பட்ட வைரஸ். செல்களைத் தொற்றி DNA-வைச் செலுத்தும் திறனைத் தக்கவைக்கும்; ஆனால் பெருக இயலாது. எடுத்துக்காட்டுகள்: AAV, லென்டிவைரஸ், அடினோவைரஸ்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Lipoplex",
+      "ta": "லிப்போபிளெக்ஸ்",
+      "ta_status": "draft"
+     },
+     "answer": {
+      "en": "A complex formed between cationic (positively charged) lipids and negatively charged DNA, held together by electrostatic interactions. Lipoplexes are taken up by cells via endocytosis and used in liposome-mediated transfection.",
+      "ta": "நேர்மின் (நேர்மின்னூட்டக்) கொழுப்புகளுக்கும் எதிர்மின்னூட்ட DNA-வுக்கும் இடையே நிலைமின் இடைவினைகளால் இணைந்த கூட்டுப்பொருள். லிப்போபிளெக்ஸ்கள் எண்டோசைட்டோசிஸால் செல்களுக்குள் உள்ளெடுக்கப்பட்டு லிப்போசோம் வழி டிரான்ஸ்ஃபெக்ஷனில் பயன்படுகின்றன.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Endosomal Escape",
+      "ta": "எண்டோசோம் தப்பித்தல்",
+      "ta_status": "draft"
+     },
+     "answer": {
+      "en": "The process by which DNA or RNA delivered via endocytosis escapes from the endosome into the cytoplasm before being degraded in lysosomes. Critical step in liposome-mediated and polymer-based gene delivery systems.",
+      "ta": "எண்டோசைட்டோசிஸால் வழங்கப்பட்ட DNA அல்லது RNA லைசோசோம்களில் சிதைக்கப்படும் முன் எண்டோசோமிலிருந்து சைட்டோபிளாசத்துக்குள் தப்பிக்கும் செயல். லிப்போசோம் வழி, பலபடி அடிப்படை மரபணு செலுத்தும் அமைப்புகளில் முக்கியப் படி.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Stable vs Transient",
+      "ta": "நிலையானது – தற்காலிகம்",
+      "ta_status": "draft"
+     },
+     "answer": {
+      "en": "Stable transfection: foreign DNA integrates into host chromosome → permanently inherited in all daughter cells. Transient transfection: DNA is expressed temporarily without integration — lost within days as cells divide.",
+      "ta": "நிலையான டிரான்ஸ்ஃபெக்ஷன்: அந்நிய DNA ஓம்புயிரி குரோமோசோமில் இணைந்து அனைத்து மகள் செல்களுக்கும் நிரந்தரமாகக் கடத்தப்படும். தற்காலிக டிரான்ஸ்ஃபெக்ஷன்: DNA இணையாமல் தற்காலிகமாக வெளிப்படும் — செல்கள் பகுப்படையும்போது சில நாள்களில் இழக்கப்படும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Lipid Nanoparticle (LNP)",
+      "ta": "கொழுப்பு நானோதுகள் (LNP)",
+      "ta_status": "bracketed"
+     },
+     "answer": {
+      "en": "An advanced form of liposome (~80–150 nm) used to encapsulate and deliver mRNA or siRNA. LNPs were used in the Pfizer-BioNTech and Moderna COVID-19 mRNA vaccines to protect fragile mRNA and enable cellular uptake.",
+      "ta": "mRNA அல்லது siRNA-வைப் பொதிந்து செலுத்தப் பயன்படும் லிப்போசோமின் மேம்பட்ட வடிவம் (~80–150 nm). Pfizer-BioNTech, Moderna COVID-19 mRNA தடுப்பூசிகளில் நுண்ணிய mRNA-வைப் பாதுகாத்து செல்லுக்குள் உள்ளெடுப்பை உறுதிசெய்ய LNP-கள் பயன்பட்டன.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Tropism (Viral)",
+      "ta": "வைரஸ் செல் நாட்டம் (Tropism)",
+      "ta_status": "bracketed"
+     },
+     "answer": {
+      "en": "The ability of a virus to infect specific cell types, determined by which cell-surface receptors the viral coat proteins recognise. Viral vector tropism determines which cell types can be transduced — critical for gene therapy target specificity.",
+      "ta": "வைரஸ் கோட் புரதங்கள் எந்தச் செல்மேற்பரப்பு ஏற்பிகளை அடையாளம் காண்கின்றன என்பதால் தீர்மானிக்கப்படும், குறிப்பிட்ட செல் வகைகளைத் தொற்றும் வைரஸின் திறன். வைரஸ் தாங்கிக்கடத்தியின் நாட்டம் எச்செல் வகைகளை டிரான்ஸ்டியூஸ் செய்யலாம் என்பதைத் தீர்மானிக்கிறது — மரபணு சிகிச்சையில் இலக்குத் தனித்தன்மைக்கு முக்கியம்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Insertional Mutagenesis",
+      "ta": "உட்செருகல் திடீர்மாற்றம்",
+      "ta_status": "draft"
+     },
+     "answer": {
+      "en": "A risk associated with integrating viral vectors (retroviruses) where random insertion of viral DNA into the host genome disrupts a host gene — potentially activating oncogenes or inactivating tumour suppressor genes. Led to leukaemia in some early gene therapy trials.",
+      "ta": "இணையும் வைரஸ் தாங்கிக்கடத்திகளுடன் (ரெட்ரோவைரஸ்கள்) தொடர்புடைய அபாயம்: வைரஸ் DNA ஓம்புயிரி மரபுக்கூறில் சீரற்ற இடத்தில் செருகி ஓம்புயிரி மரபணுவைச் சிதைத்து, புற்றுமரபணுக்களைச் செயல்படுத்தலாம் அல்லது கட்டியடக்கி மரபணுக்களைச் செயலிழக்கச் செய்யலாம். சில ஆரம்பகால மரபணு சிகிச்சைச் சோதனைகளில் இரத்தப் புற்றுநோய்க்கு வழிவகுத்தது.",
+      "ta_status": "draft"
+     }
+    }
+   ],
+   "icon": "🎮",
+   "label": "Section 8 — Interactive"
+  },
+  {
+   "id": "s11",
+   "title": {
+    "en": "Summary — Key Exam Points",
+    "ta": "சுருக்கம் — தேர்வுக்கான முக்கியக் குறிப்புகள்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Transformation (Prokaryotes)**CaCl₂ + heat shock (42°C) makes bacteria competent. DNA enters through temporary pores. Only for bacteria. Select transformants on antibiotic plates.",
+      "ta": "**தகவல் பரிமாற்றம் (புரோகேரியோட்டுகள்)**CaCl₂ + வெப்ப அதிர்ச்சி (42°C) பாக்டீரியாவைத் தகுதி பெறச் செய்கிறது. DNA தற்காலிகத் துளைகள் வழியே நுழைகிறது. பாக்டீரியாவுக்கு மட்டும். ஆன்டிபயாடிக் தட்டுகளில் மாற்றப்பட்ட செல்களைத் தெரிவுசெய்க.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Transfection (Eukaryotes)**Non-viral delivery of DNA into eukaryotic cells. Chemical (CaPO₄, cationic lipids) or physical (electroporation, microinjection). Transient or stable expression.",
+      "ta": "**டிரான்ஸ்ஃபெக்ஷன் (யூகேரியோட்டுகள்)**யூகேரியோட்டு செல்களுக்குள் DNA-வை வைரஸ் அல்லாத வழியில் செலுத்துதல். வேதியியல் (CaPO₄, நேர்மின் கொழுப்புகள்) அல்லது இயற்பியல் (மின்துளைப்பு, நுண்செலுத்தல்). தற்காலிக அல்லது நிலையான வெளிப்பாடு.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Transduction (Viral)**Most efficient in vivo method. Modified virus delivers gene via receptor-mediated infection. Types: retrovirus (stable), lentivirus (non-dividing), adenovirus (episomal), AAV (safe, long-term).",
+      "ta": "**டிரான்ஸ்டக்ஷன் (வைரஸ்)**உயிருள்ள உடலுக்குள் மிகத் திறனுள்ள முறை. மாற்றிய வைரஸ் ஏற்பி வழித் தொற்றால் மரபணுவைச் செலுத்துகிறது. வகைகள்: ரெட்ரோவைரஸ் (நிலையானது), லென்டிவைரஸ் (பகுப்படையாத செல்கள்), அடினோவைரஸ் (எபிசோம்), AAV (பாதுகாப்பானது, நீண்டகாலம்).",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Microinjection**Physical injection of DNA directly into nucleus using glass needle and micromanipulator. Primary method for transgenic mouse production. One cell at a time — low throughput.",
+      "ta": "**நுண்செலுத்தல்**கண்ணாடி ஊசி, நுண்கையாளியால் DNA-வை உட்கருவுக்குள் நேரடியாகச் செலுத்தும் இயற்பியல் முறை. மாற்றுமரபணு எலி உற்பத்தியின் முதன்மை முறை. ஒரு நேரத்தில் ஒரு செல் — குறைந்த செயல்திறன்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Electroporation**High-voltage electric pulse creates temporary pores in lipid bilayer. DNA enters through pores. Universal — works for bacteria and eukaryotes. Best for hard-to-transfect cells.",
+      "ta": "**மின்துளைப்பு**உயர்மின்னழுத்த மின் துடிப்பு கொழுப்பு இரட்டை அடுக்கில் தற்காலிகத் துளைகளை உருவாக்கும். DNA துளைகள் வழியே நுழையும். அனைத்துக்கும் பொருந்தும் — பாக்டீரியாவுக்கும் யூகேரியோட்டுகளுக்கும். டிரான்ஸ்ஃபெக்ட் செய்யக் கடினமான செல்களுக்குச் சிறந்தது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Liposome Fusion**Cationic lipids form lipoplexes with DNA. Cell uptake via endocytosis + endosomal escape. Targetable. Basis of mRNA vaccines (LNPs) and siRNA therapeutics.",
+      "ta": "**லிப்போசோம் இணைவு**நேர்மின் கொழுப்புகள் DNA-வுடன் லிப்போபிளெக்ஸ்களை உருவாக்கும். எண்டோசைட்டோசிஸ் + எண்டோசோம் தப்பித்தலால் செல் உள்ளெடுப்பு. இலக்கிடலாம். mRNA தடுப்பூசிகள் (LNP-கள்), siRNA சிகிச்சைகளின் அடிப்படை.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key Distinction**Transformation = prokaryotes. Transfection = eukaryotes (non-viral). Transduction = viral. Microinjection = direct nuclear injection. Electroporation = electric pores. Liposome = lipid vesicle fusion.",
+      "ta": "**முக்கிய வேறுபாடு**தகவல் பரிமாற்றம் = புரோகேரியோட்டுகள். டிரான்ஸ்ஃபெக்ஷன் = யூகேரியோட்டுகள் (வைரஸ் அல்லாதது). டிரான்ஸ்டக்ஷன் = வைரஸ். நுண்செலுத்தல் = நேரடி உட்கரு செலுத்தல். மின்துளைப்பு = மின்துளைகள். லிப்போசோம் = கொழுப்புப் பை இணைவு.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Most Efficient In Vivo**Transduction (viral vectors) is most efficient for in vivo gene delivery, especially AAV and lentiviral vectors used in FDA-approved gene therapies.",
+      "ta": "**உயிருள்ள உடலுக்குள் மிகத் திறனுள்ளது**டிரான்ஸ்டக்ஷன் (வைரஸ் தாங்கிக்கடத்திகள்) உயிருள்ள உடலுக்குள் மரபணு செலுத்த மிகத் திறனுள்ளது; குறிப்பாக FDA அங்கீகரித்த மரபணு சிகிச்சைகளில் பயன்படும் AAV, லென்டிவைரல் தாங்கிக்கடத்திகள்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Nuclear Barrier**Eukaryotic cells have a nuclear membrane — DNA must cross both plasma membrane AND nuclear envelope, unlike prokaryotes where only the plasma membrane must be crossed.",
+      "ta": "**உட்கருத் தடை**யூகேரியோட்டு செல்களில் உட்கரு சவ்வு உண்டு — புரோகேரியோட்டுகளில் பிளாஸ்மா சவ்வை மட்டும் கடக்க வேண்டுமாயின், இங்கு DNA பிளாஸ்மா சவ்வையும் உட்கரு உறையையும் கடக்க வேண்டும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**AAV Gene Therapies**Luxturna (RPE65 gene — blindness), Zolgensma (SMN1 gene — spinal muscular atrophy), Hemgenix (F9 gene — haemophilia B) — all use AAV vectors.",
+      "ta": "**AAV மரபணு சிகிச்சைகள்**Luxturna (RPE65 மரபணு — பார்வையிழப்பு), Zolgensma (SMN1 மரபணு — தண்டுவடத் தசைச் சிதைவு), Hemgenix (F9 மரபணு — ஹீமோஃபிலியா B) — அனைத்தும் AAV தாங்கிக்கடத்திகளைப் பயன்படுத்துகின்றன.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**mRNA Vaccines**Pfizer-BioNTech and Moderna COVID-19 vaccines use lipid nanoparticles (LNPs) to deliver mRNA into muscle cells — a revolutionary application of liposome technology.",
+      "ta": "**mRNA தடுப்பூசிகள்**Pfizer-BioNTech, Moderna COVID-19 தடுப்பூசிகள் கொழுப்பு நானோதுகள்களைக் (LNP) கொண்டு mRNA-வைத் தசைச் செல்களுக்குள் செலுத்துகின்றன — லிப்போசோம் தொழில்நுட்பத்தின் புரட்சிகரப் பயன்பாடு.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Stable vs Transient**Stable integration: retroviral, lentiviral, some transfection (permanent). Transient: adenoviral, plasmid transfection (temporary, no integration). Critical for choosing right method.",
+      "ta": "**நிலையானது – தற்காலிகம்**நிலையான இணைவு: ரெட்ரோவைரல், லென்டிவைரல், சில டிரான்ஸ்ஃபெக்ஷன்கள் (நிரந்தரம்). தற்காலிகம்: அடினோவைரல், பிளாஸ்மிட் டிரான்ஸ்ஃபெக்ஷன் (தற்காலிகம், இணைவு இல்லை). சரியான முறையைத் தேர்ந்தெடுக்க இது முக்கியம்.",
+      "ta_status": "draft"
+     }
+    }
+   ],
+   "icon": "📌",
+   "label": "Section 10"
+  },
+  {
+   "id": "s12",
+   "title": {
+    "en": "Glossary",
+    "ta": "சொற்களஞ்சியம்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Transformation",
+      "ta": "தகவல் பரிமாற்றம்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "The uptake of naked exogenous DNA by a bacterial cell, leading to a heritable change. In the laboratory, bacteria are made artificially competent using CaCl₂ and heat shock to take up plasmid DNA.",
+      "ta": "பாக்டீரிய செல் வெற்று புறவழி DNA-வை உள்ளெடுத்து மரபுவழி மாற்றம் ஏற்படுதல். ஆய்வகத்தில் பிளாஸ்மிட் DNA-வை உள்ளெடுக்க CaCl₂, வெப்ப அதிர்ச்சியால் பாக்டீரியா செயற்கையாகத் தகுதி பெறுகிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Transfection",
+      "ta": "டிரான்ஸ்ஃபெக்ஷன்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "The introduction of foreign nucleic acids (DNA or RNA) into eukaryotic cells by non-viral methods. Includes chemical methods (calcium phosphate, cationic lipids) and physical methods (electroporation, microinjection). Can be transient or stable.",
+      "ta": "வைரஸ் அல்லாத முறைகளால் யூகேரியோட்டு செல்களுக்குள் அந்நிய நியூக்ளிக் அமிலங்களை (DNA அல்லது RNA) செலுத்துதல். வேதி (கால்சியம் பாஸ்பேட், நேர்மின் கொழுப்புகள்), இயற்பியல் (மின்துளைப்பு, நுண்செலுத்தல்) முறைகளை உள்ளடக்கும். தற்காலிகமோ நிலையானதோ ஆகலாம்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Transduction",
+      "ta": "டிரான்ஸ்டக்ஷன்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "The delivery of foreign genetic material into host cells using a viral vector. The pathogenic genes of the virus are replaced by the gene of interest; the recombinant virus infects cells with high efficiency but cannot replicate.",
+      "ta": "வைரஸ் தாங்கிக்கடத்தியைப் பயன்படுத்தி ஓம்புயிரி செல்களுக்குள் அந்நிய மரபுப்பொருளைச் செலுத்துதல். வைரஸின் நோய்க்காரண மரபணுக்கள் ஆர்வ மரபணுவால் மாற்றப்படுகின்றன; மறுகூட்டிணைவு வைரஸ் செல்களை அதிகத் திறனுடன் தொற்றும் ஆனால் பெருக இயலாது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Viral Vector",
+      "ta": "வைரஸ் தாங்கிக்கடத்தி",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "A modified virus used as a gene delivery vehicle. The viral genes responsible for disease and replication are removed and replaced by the therapeutic gene. Common types include AAV, lentivirus, adenovirus, and retrovirus.",
+      "ta": "மரபணு செலுத்தும் வாகனமாகப் பயன்படும் மாற்றிய வைரஸ். நோய்க்கும் பெருக்கத்துக்கும் காரணமான வைரஸ் மரபணுக்கள் நீக்கப்பட்டுச் சிகிச்சை மரபணுவால் மாற்றப்படும். பொது வகைகள்: AAV, லென்டிவைரஸ், அடினோவைரஸ், ரெட்ரோவைரஸ்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Electroporation",
+      "ta": "மின்துளைப்பு",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "A physical method of gene delivery in which a brief high-voltage electric pulse (0.1–10 kV/cm) applied to cells in the presence of DNA creates temporary nanopores in the plasma membrane, through which DNA enters the cell.",
+      "ta": "DNA இருக்கும்போது செல்களுக்குச் செலுத்தும் சிறிதளவு நேர உயர்மின்னழுத்த மின் துடிப்பு (0.1–10 kV/cm) பிளாஸ்மா சவ்வில் தற்காலிக நானோ துளைகளை உருவாக்கி, அவற்றின் வழியே DNA செல்லுக்குள் நுழையும் இயற்பியல் மரபணு செலுத்தும் முறை.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Liposome",
+      "ta": "லிப்போசோம்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "A spherical artificial lipid bilayer vesicle that can encapsulate DNA, RNA, drugs, or other molecules. Cationic liposomes form complexes (lipoplexes) with negatively charged DNA for cellular delivery by membrane fusion or endocytosis.",
+      "ta": "DNA, RNA, மருந்துகள் அல்லது பிற மூலக்கூறுகளைப் பொதியக்கூடிய கோள வடிவச் செயற்கைக் கொழுப்பு இரட்டை அடுக்குப் பை. நேர்மின் லிப்போசோம்கள் எதிர்மின்னூட்ட DNA-வுடன் கூட்டுப்பொருள்களை (லிப்போபிளெக்ஸ்) உருவாக்கி, சவ்வு இணைவு அல்லது எண்டோசைட்டோசிஸால் செல்லுக்குக் கொண்டுசேர்க்கின்றன.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Microinjection",
+      "ta": "நுண்செலுத்தல்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "A physical technique in which DNA or other molecules are directly injected into individual cells (usually into the nucleus or cytoplasm) using an ultra-fine glass capillary needle controlled by a micromanipulator under microscopic guidance.",
+      "ta": "நுண்ணோக்கி வழிகாட்டலின் கீழ் நுண்கையாளியால் கட்டுப்படுத்தப்படும் மிக நுண்ணிய கண்ணாடிக் குழாய் ஊசியால் DNA அல்லது பிற மூலக்கூறுகளைத் (பொதுவாக உட்கரு அல்லது சைட்டோபிளாசத்துக்குள்) தனித்தனிச் செல்களுக்குள் நேரடியாகச் செலுத்தும் இயற்பியல் நுட்பம்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Competent Cell",
+      "ta": "தகுதி பெற்ற செல்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "A bacterial cell that is capable of taking up exogenous DNA. Natural competence occurs in some species; artificial competence is induced in E. coli by CaCl₂ treatment, making cells able to take up plasmid DNA during heat shock transformation.",
+      "ta": "புறவழி DNA-வை உள்ளெடுக்கும் திறனுள்ள பாக்டீரிய செல். சில சிற்றினங்களில் இயல்பான தகுதிநிலை உண்டு; E. coli-இல் CaCl₂ சிகிச்சையால் செயற்கைத் தகுதிநிலை தூண்டப்பட்டு, வெப்ப அதிர்ச்சித் தகவல் பரிமாற்றத்தின்போது பிளாஸ்மிட் DNA-வை உள்ளெடுக்கச் செய்கிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Lipid Nanoparticle (LNP)",
+      "ta": "கொழுப்பு நானோதுகள் (LNP)",
+      "ta_status": "bracketed"
+     },
+     "definition": {
+      "en": "An advanced, nanoscale lipid-based delivery vehicle (~80–150 nm) that encapsulates mRNA or siRNA, protecting it from nuclease degradation. LNPs were used in COVID-19 mRNA vaccines (Pfizer-BioNTech, Moderna) to deliver mRNA into human cells.",
+      "ta": "mRNA அல்லது siRNA-வைப் பொதிந்து நியுக்ளியேஸ் சிதைவிலிருந்து பாதுகாக்கும் மேம்பட்ட நானோ அளவுக் கொழுப்பு அடிப்படைச் செலுத்தும் வாகனம் (~80–150 nm). COVID-19 mRNA தடுப்பூசிகளில் (Pfizer-BioNTech, Moderna) mRNA-வை மனிதச் செல்களுக்குள் செலுத்த LNP-கள் பயன்பட்டன.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Stable Transfection",
+      "ta": "நிலையான டிரான்ஸ்ஃபெக்ஷன்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "A transfection outcome in which the foreign DNA integrates into the host cell chromosome, becoming permanently heritable in all daughter cells. Required for long-term gene expression studies and therapeutic applications.",
+      "ta": "அந்நிய DNA ஓம்புயிரி செல் குரோமோசோமில் இணைந்து அனைத்து மகள் செல்களுக்கும் நிரந்தரமாக மரபுவழிக் கடத்தப்படும் டிரான்ஸ்ஃபெக்ஷன் விளைவு. நீண்டகால மரபணு வெளிப்பாட்டு ஆய்வுகளுக்கும் சிகிச்சைப் பயன்பாடுகளுக்கும் தேவை.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Endosomal Escape",
+      "ta": "எண்டோசோம் தப்பித்தல்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "The process by which DNA, RNA, or other cargo delivered via endocytosis escapes from the endosome before lysosomal fusion and degradation. A critical step in efficient liposome-mediated and nanoparticle-based gene delivery.",
+      "ta": "எண்டோசைட்டோசிஸால் வழங்கப்பட்ட DNA, RNA அல்லது பிற சுமைகள் லைசோசோம் இணைவு, சிதைவுக்கு முன் எண்டோசோமிலிருந்து தப்பிக்கும் செயல். திறமையான லிப்போசோம் வழி, நானோதுகள் அடிப்படை மரபணு செலுத்தலில் முக்கியப் படி.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "AAV (Adeno-Associated Virus)",
+      "ta": "AAV (அடினோ-தொடர்புடைய வைரஸ்)",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "A small, non-pathogenic, single-stranded DNA virus used as a gene therapy vector. Provides long-term gene expression with minimal immune response. Used in approved gene therapies: Luxturna (blindness), Zolgensma (SMA), Hemgenix (haemophilia).",
+      "ta": "மரபணு சிகிச்சைத் தாங்கிக்கடத்தியாகப் பயன்படும் சிறிய, நோய் உண்டாக்காத, ஒற்றை இழை DNA வைரஸ். மிகக் குறைந்த நோயெதிர்ப்புத் துலங்கலுடன் நீண்டகால மரபணு வெளிப்பாட்டைத் தருகிறது. அங்கீகரித்த மரபணு சிகிச்சைகளில் பயன்படுகிறது: Luxturna (பார்வையிழப்பு), Zolgensma (SMA), Hemgenix (ஹீமோஃபிலியா).",
+      "ta_status": "draft"
+     }
+    }
+   ],
+   "icon": "📖",
+   "label": "Section 11"
+  },
+  {
+   "id": "s13",
+   "title": {
+    "en": "Frequently Asked University Exam Questions",
+    "ta": "பல்கலைக்கழகத் தேர்வுகளில் அடிக்கடி கேட்கப்படும் வினாக்கள்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Click each question to expand answer hints.",
+      "ta": "ஒவ்வொரு வினாவையும் தொட்டு விடைக் குறிப்புகளை விரிவாக்குக.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1. What is transformation? Describe the steps involved in artificial transformation of E. coli.**",
+      "ta": "**1. தகவல் பரிமாற்றம் என்றால் என்ன? E. coli-யின் செயற்கைத் தகவல் பரிமாற்றத்தின் படிகளை விவரிக்க.**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**",
+      "ta": "**விடைக் குறிப்புகள்:**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Definition: uptake of naked exogenous DNA by a bacterial cell leading to heritable change. First described by Griffith (1928); molecular basis by Avery et al. (1944).",
+       "ta": "வரையறை: பாக்டீரிய செல் வெற்று புறவழி DNA-வை உள்ளெடுத்து மரபுவழி மாற்றம் ஏற்படுதல். கிரிஃபித் (1928) முதலில் விவரித்தார்; மூலக்கூறு அடிப்படை ஏவரி மற்றும் பலர் (1944).",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Steps: (1) Grow E. coli to log phase; (2) Wash in ice-cold CaCl₂ → competent cells; (3) Add recombinant plasmid DNA, incubate on ice (DNA adsorbs to cell surface); (4) Heat shock at 42°C for 90 sec → DNA enters through temporary membrane disruptions; (5) Recovery in LB medium at 37°C; (6) Plate on antibiotic selection medium → transformants survive.",
+       "ta": "படிகள்: (1) E. coli-யை மடக்கை நிலை வரை வளர்க்க; (2) பனிக்குளிர் CaCl₂-இல் கழுவ → தகுதி பெற்ற செல்கள்; (3) மறுகூட்டிணைவுப் பிளாஸ்மிட் DNA சேர்த்துப் பனியில் அடைகாக்க (DNA செல் மேற்பரப்பில் ஒட்டும்); (4) 42°C-இல் 90 விநாடி வெப்ப அதிர்ச்சி → தற்காலிகச் சவ்வுச் சிதைவுகள் வழியே DNA நுழையும்; (5) 37°C-இல் LB ஊடகத்தில் மீட்பு; (6) ஆன்டிபயாடிக் தெரிவு ஊடகத்தில் வளர்க்க → மாற்றப்பட்ட செல்கள் உயிர்பிழைக்கும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Transformation efficiency: 10⁵–10⁸ transformants/µg DNA.",
+       "ta": "தகவல் பரிமாற்றத் திறன்: ஒரு µg DNA-வுக்கு 10⁵–10⁸ மாற்றப்பட்ட செல்கள்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Alternative: electroporation gives 10–100× higher efficiency.",
+       "ta": "மாற்று: மின்துளைப்பு 10–100 மடங்கு அதிகத் திறன் தரும்.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**2. Explain transduction as a method of gene transfer. What are the types of viral vectors used?**",
+      "ta": "**2. மரபணு மாற்ற முறையாக டிரான்ஸ்டக்ஷனை விளக்குக. பயன்படும் வைரஸ் தாங்கிக்கடத்தி வகைகள் யாவை?**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**",
+      "ta": "**விடைக் குறிப்புகள்:**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Definition: gene delivery using modified viral vectors; most efficient method for in vivo delivery.",
+       "ta": "வரையறை: மாற்றிய வைரஸ் தாங்கிக்கடத்திகளைக் கொண்டு மரபணு செலுத்தல்; உயிருள்ள உடலுக்குள் செலுத்தும் மிகத் திறனுள்ள முறை.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Principle: viral pathogenic/replication genes removed → gene of interest inserted → packaged using packaging cell line → replication-deficient recombinant virus produced.",
+       "ta": "கோட்பாடு: வைரஸின் நோய்க்காரண/பெருக்க மரபணுக்கள் நீக்கம் → ஆர்வ மரபணு செருகல் → பொதிவு செல் வரிசையால் பொதித்தல் → பெருக்கத் திறனற்ற மறுகூட்டிணைவு வைரஸ் உருவாதல்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Types: (a) Retrovirus (MLV) — stable integration, dividing cells only; (b) Lentivirus (HIV-derived) — stable, non-dividing cells, used in CAR-T; (c) Adenovirus — high efficiency, episomal, transient; (d) AAV — safe, long-term expression, used in Luxturna, Zolgensma.",
+       "ta": "வகைகள்: (அ) ரெட்ரோவைரஸ் (MLV) — நிலையான இணைவு, பகுப்படையும் செல்கள் மட்டும்; (ஆ) லென்டிவைரஸ் (HIV-யிலிருந்து பெறப்பட்டது) — நிலையானது, பகுப்படையாத செல்கள், CAR-T-இல் பயன்படும்; (இ) அடினோவைரஸ் — அதிகத் திறன், எபிசோம், தற்காலிகம்; (ஈ) AAV — பாதுகாப்பானது, நீண்டகால வெளிப்பாடு, Luxturna, Zolgensma-வில் பயன்படும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Limitations: insert size limited by capsid; insertional mutagenesis risk (retroviruses); immune response.",
+       "ta": "வரம்புகள்: கேப்சிடால் செருகி அளவு மட்டுப்படும்; உட்செருகல் திடீர்மாற்ற அபாயம் (ரெட்ரோவைரஸ்கள்); நோயெதிர்ப்புத் துலங்கல்.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**3. Describe electroporation and liposome fusion as methods for introducing DNA into eukaryotic cells.**",
+      "ta": "**3. யூகேரியோட்டு செல்களுக்குள் DNA செலுத்தும் முறைகளாக மின்துளைப்பையும் லிப்போசோம் இணைவையும் விவரிக்க.**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**",
+      "ta": "**விடைக் குறிப்புகள்:**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Electroporation:** high-voltage electric pulse (0.1–10 kV/cm) → temporary pores in lipid bilayer → DNA enters by electrophoresis and diffusion → pores reseal → cell recovers. Works for bacteria and eukaryotes. Good for hard-to-transfect cells. Used for CRISPR-Cas9 delivery.",
+       "ta": "**மின்துளைப்பு:** உயர்மின்னழுத்த மின் துடிப்பு (0.1–10 kV/cm) → கொழுப்பு இரட்டை அடுக்கில் தற்காலிகத் துளைகள் → DNA மின்னாற்பகுப்பாலும் பரவலாலும் நுழையும் → துளைகள் மூடும் → செல் மீளும். பாக்டீரியா, யூகேரியோட்டுகளில் செயல்படும். டிரான்ஸ்ஃபெக்ட் செய்யக் கடினமான செல்களுக்கு நல்லது. CRISPR-Cas9 செலுத்தலுக்குப் பயன்படும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Liposome fusion:** cationic lipids + DNA → lipoplex → binds cell surface (electrostatic) → endocytosis → endosomal escape → DNA in cytoplasm → nuclear entry. Advantages: protects DNA; targetable; in vivo use. Example: LNPs in mRNA COVID-19 vaccines.",
+       "ta": "**லிப்போசோம் இணைவு:** நேர்மின் கொழுப்புகள் + DNA → லிப்போபிளெக்ஸ் → செல் மேற்பரப்பில் பிணையும் (நிலைமின்) → எண்டோசைட்டோசிஸ் → எண்டோசோம் தப்பித்தல் → சைட்டோபிளாசத்தில் DNA → உட்கருவுக்குள் நுழைதல். நன்மைகள்: DNA-வைப் பாதுகாக்கும்; இலக்கிடலாம்; உயிருள்ள உடலுக்குள் பயன்படும். எடுத்துக்காட்டு: mRNA COVID-19 தடுப்பூசிகளில் LNP-கள்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Compare: electroporation is physical (electric); liposome is chemical (lipid-based). Both can transfect non-dividing cells. Liposomes can be targeted; electroporation is universal.",
+       "ta": "ஒப்பீடு: மின்துளைப்பு இயற்பியல் (மின்) முறை; லிப்போசோம் வேதியியல் (கொழுப்பு அடிப்படை) முறை. இரண்டும் பகுப்படையாத செல்களை டிரான்ஸ்ஃபெக்ட் செய்யலாம். லிப்போசோம்களை இலக்கிடலாம்; மின்துளைப்பு அனைத்துக்கும் பொருந்தும்.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**4. What is microinjection? Explain its role in creating transgenic animals.**",
+      "ta": "**4. நுண்செலுத்தல் என்றால் என்ன? மாற்றுமரபணு விலங்குகளை உருவாக்குவதில் அதன் பங்கை விளக்குக.**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**",
+      "ta": "**விடைக் குறிப்புகள்:**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Definition: direct mechanical injection of DNA into individual cells using glass needle (0.1–0.5 µm tip) under micromanipulator guidance.",
+       "ta": "வரையறை: நுண்கையாளி வழிகாட்டலில் கண்ணாடி ஊசியால் (முனை 0.1–0.5 µm) தனிச் செல்களுக்குள் DNA-வை நேரடியாக இயந்திர முறையில் செலுத்துதல்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Procedure: fertilised egg held by suction pipette → DNA solution in injection needle → needle inserted into male pronucleus → DNA injected → egg transferred to surrogate mother.",
+       "ta": "செயல்முறை: கருவுற்ற முட்டை உறிஞ்சு குழாயால் பிடிக்கப்படும் → DNA கரைசல் செலுத்தும் ஊசியில் → ஆண் முன்உட்கருவுக்குள் ஊசி செருகப்படும் → DNA செலுத்தப்படும் → முட்டை பதிலித் தாய்க்கு மாற்றப்படும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Transgenic mouse creation: pioneer work by Gordon and Ruddle (1981). DNA integrates randomly into chromosomes → expression in all cells of resulting animal → stable germline transmission.",
+       "ta": "மாற்றுமரபணு எலி உருவாக்கம்: கார்டன் மற்றும் ருடில் (1981) முன்னோடிப் பணி. DNA குரோமோசோம்களில் சீரற்ற முறையில் இணையும் → உருவாகும் விலங்கின் அனைத்துச் செல்களிலும் வெளிப்பாடு → நிலையான இனப்பெருக்கச் செல் வழிக் கடத்தல்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Advantages: direct, no carrier needed; can deliver any molecule. Limitations: extremely low throughput (one cell at a time); high technical skill; cell damage risk.",
+       "ta": "நன்மைகள்: நேரடியானது, கடத்தி தேவையில்லை; எந்த மூலக்கூறையும் செலுத்தலாம். வரம்புகள்: மிகக் குறைந்த செயல்திறன் (ஒரு நேரத்தில் ஒரு செல்); உயர் தொழில்நுட்பத் திறன்; செல் சேத அபாயம்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Clinical application: ICSI (intracytoplasmic sperm injection) in human IVF.",
+       "ta": "மருத்துவப் பயன்பாடு: மனித IVF-இல் ICSI (சைட்டோபிளாச விந்து செலுத்தல்).",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**5. Compare any four methods of introducing recombinant DNA into host cells. (4-mark table question)**",
+      "ta": "**5. DNA-வை ஓம்புயிரி செல்களுக்குள் செலுத்தும் ஏதேனும் நான்கு முறைகளை ஒப்பிடுக. (4 மதிப்பெண் அட்டவணை வினா)**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints (structured as a comparison table):**",
+      "ta": "**விடைக் குறிப்புகள் (ஒப்பீட்டு அட்டவணையாக அமைக்கப்பட்டது):**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Transformation:** Prokaryotes; CaCl₂/heat shock; moderate efficiency; simple, cheap; bacteria only; gene cloning.",
+       "ta": "**தகவல் பரிமாற்றம்:** புரோகேரியோட்டுகள்; CaCl₂/வெப்ப அதிர்ச்சி; மிதமான திறன்; எளிமை, மலிவு; பாக்டீரியா மட்டும்; மரபணு குளோனாக்கம்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Transduction:** Eukaryotes (dividing + non-dividing); viral infection; very high efficiency; stable integration; capsid size limit; gene therapy.",
+       "ta": "**டிரான்ஸ்டக்ஷன்:** யூகேரியோட்டுகள் (பகுப்படையும் + படையாத); வைரஸ் தொற்று; மிக அதிகத் திறன்; நிலையான இணைவு; கேப்சிட் அளவு வரம்பு; மரபணு சிகிச்சை.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Electroporation:** Prokaryotes + eukaryotes; electric pulse creates pores; high efficiency; universal; high cell death risk; CRISPR delivery.",
+       "ta": "**மின்துளைப்பு:** புரோகேரியோட்டுகள் + யூகேரியோட்டுகள்; மின் துடிப்பு துளைகளை உருவாக்கும்; அதிகத் திறன்; அனைத்துக்கும் பொருந்தும்; செல் இறப்பு அபாயம் அதிகம்; CRISPR செலுத்தல்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Microinjection:** Large cells (oocytes); mechanical injection into nucleus; high per cell but very low throughput; direct, no carrier; transgenic animals.",
+       "ta": "**நுண்செலுத்தல்:** பெரிய செல்கள் (முட்டைகள்); உட்கருவுக்குள் இயந்திரச் செலுத்தல்; ஒரு செல்லுக்கு அதிகம் ஆனால் மிகக் குறைந்த செயல்திறன்; நேரடியானது, கடத்தி தேவையில்லை; மாற்றுமரபணு விலங்குகள்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Liposome Fusion:** Eukaryotes; lipoplex + endocytosis + endosomal escape; moderate–high; targetable; endosomal entrapment; mRNA vaccines, siRNA delivery.",
+       "ta": "**லிப்போசோம் இணைவு:** யூகேரியோட்டுகள்; லிப்போபிளெக்ஸ் + எண்டோசைட்டோசிஸ் + எண்டோசோம் தப்பித்தல்; மிதமானது–அதிகம்; இலக்கிடலாம்; எண்டோசோமில் சிக்குதல்; mRNA தடுப்பூசிகள், siRNA செலுத்தல்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Draw a table with columns: Method | Cell Type | Mechanism | Efficiency | Application.",
+       "ta": "அட்டவணை வரைக: முறை | செல் வகை | இயங்குமுறை | திறன் | பயன்பாடு.",
+       "ta_status": "draft"
+      }
+     ]
+    }
+   ],
+   "icon": "🎓",
+   "label": "Section 12"
+  }
+ ],
+ "skipped": [
+  "quiz"
+ ],
+ "dropped": [
+  {
+   "selector": "nav",
+   "count": 1,
+   "sample": [
+    "Home Intro Prokaryotic Eukaryotic All Methods Diagrams Compa"
+   ]
+  },
+  {
+   "selector": "footer",
+   "count": 1,
+   "sample": [
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh"
+   ]
+  },
+  {
+   "selector": ".rh",
+   "count": 8,
+   "sample": [
+    "Click to reveal",
+    "Click to reveal",
+    "Click to reveal"
+   ]
+  }
+ ],
+ "extractor": "1"
+}

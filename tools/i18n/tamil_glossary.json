@@ -1,0 +1,17 @@
+{
+  "source": "https://athiyamanteam.com/wp-content/uploads/2019/11/New-TN-Samacheer-Book-12th-Std-Botany-TM-Athiyaman-Team-Part-1.pdf",
+  "source_note": "Government of Tamil Nadu Class XII Botany Tamil, 2019, printed p.115 (PDF p.123), public mirror; not an official hosting domain. Text extracted and checked 2026-11-10. Owner review remains pending.",
+  "terms": [
+    {"en": "electrophoresis", "ta": "மின்னாற்பிரித்தல்", "status": "draft"},
+    {"en": "gel electrophoresis", "ta": "இழும மின்னாற்பிரித்தல்", "status": "draft"}
+  ],
+  "replacements": [
+    ["மின்னாற்பகுப்பால்", "மின்னாற்பிரித்தலால்"],
+    ["மின்னாற்பகுப்பின்", "மின்னாற்பிரித்தலின்"],
+    ["மின்னாற்பகுப்பில்", "மின்னாற்பிரித்தலில்"],
+    ["மின்னாற்பகுப்பை", "மின்னாற்பிரித்தலை"],
+    ["மின்னாற்பகுப்புக்கு", "மின்னாற்பிரித்தலுக்கு"],
+    ["மின்னாற்பகுப்பு", "மின்னாற்பிரித்தல்"],
+    ["ஜெல் மின்னாற்பிரித்த", "இழும மின்னாற்பிரித்த"]
+  ]
+}

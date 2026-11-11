@@ -1,0 +1,52 @@
+{
+  "skip_ids": [
+    "quiz"
+  ],
+  "label_classes": [
+    "chip"
+  ],
+  "callout_classes": [
+    "ib"
+  ],
+  "reveal": {
+    "container": [
+      "rc"
+    ],
+    "front": [
+      "rf",
+      "rh"
+    ],
+    "back": [
+      "rb"
+    ]
+  },
+  "glossary": {
+    "container": [
+      "gc"
+    ],
+    "term": [
+      "gt"
+    ],
+    "def": [
+      "gd"
+    ]
+  },
+  "steps_item_classes": [
+    "fb"
+  ],
+  "button_heading_classes": [
+    "ah",
+    "eqt"
+  ],
+  "extra_drop_selectors": [
+    ".rh"
+  ],
+  "accepted_script_literals_note": "Score-feedback messages of the old embedded HTML quiz widget (UI copy, not chapter content). The native quiz has its own feedback strings. Reviewed 2026-11-10.",
+  "accepted_script_literals": [
+    "Exceptional! You have fully mastered this topic on advanced cloning vectors.",
+    "%. Great understanding — revisit any missed questions.",
+    "%. Review the diagram and accordion sections for the weaker areas.",
+    "%. Study each vector section carefully and retry.",
+    "%. Read each section from the start and attempt the quiz again."
+  ]
+}

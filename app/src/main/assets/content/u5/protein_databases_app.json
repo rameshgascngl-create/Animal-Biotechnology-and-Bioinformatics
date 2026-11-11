@@ -1,0 +1,2659 @@
+{
+ "id": "protein_databases_app",
+ "unit": "V",
+ "title": {
+  "en": "Protein Databases: SWISS-PROT, UniProt & PDB | GASC Nagercoil",
+  "ta": "புரதத் தரவுத்தளங்கள்: SWISS-PROT, UniProt மற்றும் PDB | GASC நாகர்கோவில்",
+  "ta_status": "draft"
+ },
+ "sections": [
+  {
+   "id": "s01",
+   "title": {
+    "en": "Protein Sequence & Structural Databases\nSWISS-PROT · UniProt · PDB",
+    "ta": "புரத வரிசை மற்றும் கட்டமைப்புத் தரவுத்தளங்கள்\nSWISS-PROT · UniProt · PDB",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "From amino acid sequences to three-dimensional atomic structures — the databases that power modern protein science.",
+      "ta": "அமினோ அமில வரிசைகளிலிருந்து முப்பரிமாண அணுக் கட்டமைப்புகள் வரை — நவீன புரத அறிவியலை இயக்கும் தரவுத்தளங்கள்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Learning Objectives**",
+      "ta": "**கற்றல் நோக்கங்கள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Define protein sequence databases and explain their importance",
+       "ta": "புரத வரிசைத் தரவுத்தளங்களை வரையறுத்து அவற்றின் முக்கியத்துவத்தை விளக்குக",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Describe SWISS-PROT — its curation philosophy and key features",
+       "ta": "SWISS-PROT-ஐ — அதன் பராமரிப்புக் கொள்கையையும் முக்கிய அம்சங்களையும் — விவரிக்க",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Explain UniProt — its sections, scope, and relationship to SWISS-PROT",
+       "ta": "UniProt-ஐயும் அதன் பிரிவுகள், நோக்கெல்லை, SWISS-PROT உடனான தொடர்பையும் விளக்குக",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Describe the Protein Data Bank (PDB) and the data it stores",
+       "ta": "புரதத் தரவு வங்கியையும் (PDB) அது சேமிக்கும் தரவையும் விவரிக்க",
+       "ta_status": "bracketed"
+      },
+      {
+       "en": "Distinguish between sequence databases and structural databases",
+       "ta": "வரிசைத் தரவுத்தளங்களையும் கட்டமைப்புத் தரவுத்தளங்களையும் வேறுபடுத்துக",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Compare SWISS-PROT, UniProt, and PDB in a table",
+       "ta": "SWISS-PROT, UniProt, PDB ஆகியவற்றை அட்டவணையில் ஒப்பிடுக",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Discuss applications of protein and structural databases",
+       "ta": "புரத, கட்டமைப்புத் தரவுத்தளங்களின் பயன்பாடுகளை விவாதிக்க",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 01",
+      "ta": "பிரிவு 01",
+      "ta_status": "draft"
+     }
+    }
+   ],
+   "label": "B.Sc. Zoology / Biotechnology"
+  },
+  {
+   "id": "s02",
+   "title": {
+    "en": "Introduction to Biological & Protein Sequence Databases",
+    "ta": "உயிரியல், புரத வரிசைத் தரவுத்தளங்கள் அறிமுகம்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Biological Database — Definition\nA **biological database** is an organised, computer-stored collection of biological data that can be efficiently searched, retrieved, and analysed. These databases form the data infrastructure of modern molecular biology and bioinformatics.",
+      "ta": "உயிரியல் தரவுத்தளம் — வரையறை\n**உயிரியல் தரவுத்தளம்** என்பது திறம்படத் தேடவும், மீட்கவும், பகுப்பாய்வு செய்யவும் கூடிய, கணினியில் சேமிக்கப்பட்ட ஒழுங்கமைந்த உயிரியல் தரவுத் தொகுப்பு. இவை நவீன மூலக்கூறு உயிரியல், உயிரித் தகவலியலின் தரவு அடிப்படைக் கட்டமைப்பாகும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Protein Sequence Database — Definition\nA **protein sequence database** stores the linear order of amino acids (the primary sequence) in proteins, along with functional annotations — protein name, function, source organism, post-translational modifications, and literature references.",
+      "ta": "புரத வரிசைத் தரவுத்தளம் — வரையறை\n**புரத வரிசைத் தரவுத்தளம்** புரதங்களிலுள்ள அமினோ அமிலங்களின் நேர்கோட்டு வரிசையை (முதல்நிலை வரிசை) சேமிக்கிறது; புரதப் பெயர், செயல், மூல உயிரினம், மொழிபெயர்ப்புக்குப் பிந்தைய மாற்றங்கள், இலக்கியக் குறிப்புகள் போன்ற செயல்பாட்டுக் குறிப்புரைகளும் உடன் இருக்கும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Proteins are the molecular machines of the cell. Understanding a protein's sequence reveals its evolutionary relationships, and understanding its three-dimensional structure reveals how it works and how it can be targeted by drugs. Dedicated databases exist for each level of this knowledge.",
+      "ta": "புரதங்கள் செல்லின் மூலக்கூறு இயந்திரங்கள். புரத வரிசையைப் புரிந்துகொள்வது அதன் பரிணாம உறவுகளை வெளிப்படுத்தும்; முப்பரிமாணக் கட்டமைப்பைப் புரிந்துகொள்வது அது எவ்வாறு செயல்படுகிறது, மருந்துகள் அதை எவ்வாறு இலக்காகக் கொள்ளலாம் என்பதை வெளிப்படுத்தும். இந்த அறிவின் ஒவ்வொரு நிலைக்கும் தனித் தரவுத்தளங்கள் உள்ளன.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**⚠️ Common Confusions**",
+      "ta": "**⚠️ பொதுவான குழப்பங்கள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Nucleotide Databases vs Protein Sequence Databases**",
+      "ta": "**நியுக்ளியோடைடு தரவுத்தளங்கள் – புரத வரிசைத் தரவுத்தளங்கள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Nucleotide databases** (e.g., GenBank, EMBL, DDBJ) store DNA and RNA sequences — the genetic code as written in nucleotide bases (A, T, G, C). They record the genome. **Protein sequence databases** (e.g., SWISS-PROT, UniProt) store amino acid sequences — the translated products of genes. Each protein entry represents what a gene _makes_, not the gene itself. A single nucleotide gene entry can correspond to one protein entry in a protein database.",
+      "ta": "**நியுக்ளியோடைடு தரவுத்தளங்கள்** (எ.கா. GenBank, EMBL, DDBJ) DNA, RNA வரிசைகளை — நியுக்ளியோடைடு காரங்களில் (A, T, G, C) எழுதப்பட்ட மரபுக் குறியீட்டை — சேமிக்கின்றன; அவை மரபணுத்தொகையைப் பதிவு செய்கின்றன. **புரத வரிசைத் தரவுத்தளங்கள்** (எ.கா. SWISS-PROT, UniProt) அமினோ அமில வரிசைகளை — மரபணுக்களின் மொழிபெயர்க்கப்பட்ட விளைபொருள்களை — சேமிக்கின்றன. ஒவ்வொரு புரதப் பதிவும் ஒரு மரபணு _உருவாக்குவதை_ குறிக்கிறது, மரபணுவையே அல்ல. ஒரு நியுக்ளியோடைடு மரபணுப் பதிவு, புரதத் தரவுத்தளத்தில் ஒரு புரதப் பதிவுக்கு ஒத்திருக்கலாம்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Protein Sequence Databases vs Structural Databases**",
+      "ta": "**புரத வரிசைத் தரவுத்தளங்கள் – கட்டமைப்புத் தரவுத்தளங்கள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Protein sequence databases** record the _one-dimensional_ order of amino acids in a polypeptide chain (primary structure). They tell you _what_ the protein is made of. **Structural databases** (e.g., PDB) store _three-dimensional_ atomic coordinates — the precise spatial arrangement of every atom in a protein, determined by X-ray crystallography, NMR, or cryo-EM. They tell you _what shape_ the protein adopts, which is essential for understanding function and designing drugs. A protein can have a known sequence but an unknown structure; not all proteins in SWISS-PROT or UniProt have an entry in PDB.",
+      "ta": "**புரத வரிசைத் தரவுத்தளங்கள்** பாலிபெப்டைடு சங்கிலியில் அமினோ அமிலங்களின் _ஒரு பரிமாண_ வரிசையை (முதல்நிலைக் கட்டமைப்பு) பதிவு செய்கின்றன; புரதம் _எவற்றால்_ ஆனது என்பதைக் கூறும். **கட்டமைப்புத் தரவுத்தளங்கள்** (எ.கா. PDB) X-கதிர் படிகவியல், NMR அல்லது கிரையோ-EM மூலம் கண்டறியப்பட்ட, புரதத்திலுள்ள ஒவ்வோர் அணுவின் துல்லிய இடஅமைப்பாகிய _முப்பரிமாண_ அணு ஆயத்தொலைவுகளைச் சேமிக்கின்றன; புரதம் _என்ன வடிவம்_ கொள்கிறது என்பதைக் கூறும் — இது செயலைப் புரிந்துகொள்ளவும் மருந்துகளை வடிவமைக்கவும் இன்றியமையாதது. ஒரு புரதத்தின் வரிசை தெரிந்திருந்தும் கட்டமைப்பு தெரியாமல் இருக்கலாம்; SWISS-PROT அல்லது UniProt-இலுள்ள எல்லாப் புரதங்களுக்கும் PDB-யில் பதிவு இராது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**SWISS-PROT vs UniProt — Are They the Same?**",
+      "ta": "**SWISS-PROT – UniProt: இரண்டும் ஒன்றா?**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**UniProt** is the comprehensive umbrella protein database. It has two tiers: **Swiss-Prot** (manually reviewed, high-quality, curated entries — the \"gold standard\") and **TrEMBL** (computationally analysed, not yet manually reviewed — much larger but less verified). So SWISS-PROT is a _subset_ of UniProt — all SWISS-PROT entries are in UniProt, but UniProt contains far more entries than SWISS-PROT alone.",
+      "ta": "**UniProt** என்பது அனைத்தையும் உள்ளடக்கிய குடைப் புரதத் தரவுத்தளம். அதற்கு இரு அடுக்குகள் உண்டு: **Swiss-Prot** (கைமுறையாக மதிப்பாய்வு செய்யப்பட்ட, உயர்தரப் பதிவுகள் — \"தங்கத் தரம்\") மற்றும் **TrEMBL** (கணினியால் பகுப்பாய்வு செய்யப்பட்டு, இன்னும் கைமுறை மதிப்பாய்வு பெறாதவை — மிகப் பெரியது, ஆனால் குறைவாகச் சரிபார்க்கப்பட்டது). எனவே SWISS-PROT என்பது UniProt-இன் _உட்கணம்_ — எல்லா SWISS-PROT பதிவுகளும் UniProt-இல் உள்ளன; ஆனால் UniProt-இல் SWISS-PROT-ஐ விட மிக அதிகமான பதிவுகள் உள்ளன.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision",
+      "ta": "விரைவுத் திருப்புதல்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Nucleotide DBs (GenBank/EMBL) store DNA/RNA; protein sequence DBs store amino acid sequences",
+       "ta": "நியுக்ளியோடைடு தரவுத்தளங்கள் (GenBank/EMBL) DNA/RNA-வை சேமிக்கும்; புரத வரிசைத் தரவுத்தளங்கள் அமினோ அமில வரிசைகளைச் சேமிக்கும்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Structural DBs (PDB) store 3D atomic coordinates — a different level of information from sequence",
+       "ta": "கட்டமைப்புத் தரவுத்தளங்கள் (PDB) 3D அணு ஆயத்தொலைவுகளைச் சேமிக்கும் — வரிசையிலிருந்து வேறுபட்ட தகவல் நிலை",
+       "ta_status": "draft"
+      },
+      {
+       "en": "SWISS-PROT is the manually curated tier _within_ UniProt — not a separate standalone database",
+       "ta": "SWISS-PROT என்பது UniProt-க்குள் உள்ள கைமுறைப் பராமரிப்பு அடுக்கு — தனித்த தரவுத்தளம் அல்ல",
+       "ta_status": "draft"
+      },
+      {
+       "en": "A protein can have a known sequence (in UniProt) but no known 3D structure (not in PDB)",
+       "ta": "ஒரு புரதத்துக்கு வரிசை தெரிந்திருக்கலாம் (UniProt-இல்); ஆனால் 3D கட்டமைப்பு தெரியாமல் இருக்கலாம் (PDB-யில் இல்லை)",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Databases store data; search tools (e.g., BLAST) query those databases",
+       "ta": "தரவுத்தளங்கள் தரவைச் சேமிக்கும்; தேடல் கருவிகள் (எ.கா. BLAST) அவற்றை வினவும்",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 02",
+      "ta": "பிரிவு 02",
+      "ta_status": "draft"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": {
+    "en": "SWISS-PROT",
+    "ta": "SWISS-PROT",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "🇨🇭 Switzerland / 🇺🇸 USA · SIB & EBI",
+      "ta": "🇨🇭 சுவிட்சர்லாந்து / 🇺🇸 அமெரிக்கா · SIB மற்றும் EBI",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**SWISS-PROT — The Manually Curated Protein Sequence Database**",
+      "ta": "**SWISS-PROT — கைமுறையாகப் பராமரிக்கப்படும் புரத வரிசைத் தரவுத்தளம்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**SWISS-PROT** is a manually reviewed, non-redundant protein sequence database that provides high-quality annotation for each entry. It was established in 1986 at the Swiss Institute of Bioinformatics (SIB) by Amos Bairoch and is now maintained jointly by SIB and the European Bioinformatics Institute (EBI) as part of UniProt.",
+      "ta": "**SWISS-PROT** என்பது கைமுறையாக மதிப்பாய்வு செய்யப்பட்ட, நகலற்ற புரத வரிசைத் தரவுத்தளம்; ஒவ்வொரு பதிவுக்கும் உயர்தரக் குறிப்புரை அளிக்கிறது. இது 1986-இல் அமோஸ் பைரோக்கால் சுவிஸ் உயிரித் தகவலியல் நிறுவனத்தில் (SIB) நிறுவப்பட்டது; இப்போது UniProt-இன் பகுதியாக SIB-யும் ஐரோப்பிய உயிரித் தகவலியல் நிறுவனமும் (EBI) இணைந்து பராமரிக்கின்றன.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key Features**",
+      "ta": "**முக்கிய அம்சங்கள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**✍️ Manual Curation**",
+      "ta": "**✍️ கைமுறைப் பராமரிப்பு**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Every entry is reviewed by expert biologists who verify sequence data and add annotations from published literature.",
+      "ta": "ஒவ்வொரு பதிவையும் நிபுணர் உயிரியலாளர்கள் மதிப்பாய்வு செய்து, வரிசைத் தரவைச் சரிபார்த்து, வெளியிடப்பட்ட இலக்கியத்திலிருந்து குறிப்புரைகளைச் சேர்க்கின்றனர்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🚫 Non-Redundant**",
+      "ta": "**🚫 நகலற்றது**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Duplicate sequences from the same protein/organism are merged into one entry — one protein, one record.",
+      "ta": "ஒரே புரத/உயிரினத்தின் நகல் வரிசைகள் ஒரே பதிவாக இணைக்கப்படும் — ஒரு புரதம், ஒரு பதிவு.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**📋 Rich Annotation**",
+      "ta": "**📋 செறிவான குறிப்புரை**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Each entry contains: protein name, function, active site residues, post-translational modifications, subcellular location, disease associations.",
+      "ta": "ஒவ்வொரு பதிவிலும்: புரதப் பெயர், செயல், செயல்படு தள எச்சங்கள், மொழிபெயர்ப்புக்குப் பிந்தைய மாற்றங்கள், செல்லக இருப்பிடம், நோய்த் தொடர்புகள்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔗 Cross-References**",
+      "ta": "**🔗 குறுக்குக் குறிப்புகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Linked to over 100 other databases — nucleotide databases, PDB, metabolic pathways, genome databases.",
+      "ta": "100-க்கும் மேற்பட்ட பிற தரவுத்தளங்களுடன் — நியுக்ளியோடைடு தரவுத்தளங்கள், PDB, வளர்சிதை மாற்றப் பாதைகள், மரபணுத்தொகைய தரவுத்தளங்கள் — இணைக்கப்பட்டுள்ளது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**📅 Founded 1986**",
+      "ta": "**📅 நிறுவப்பட்டது 1986**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Created by Amos Bairoch at the University of Geneva; now one of the world's most widely cited biological databases.",
+      "ta": "ஜெனீவா பல்கலைக்கழகத்தில் அமோஸ் பைரோக்கால் உருவாக்கப்பட்டது; இன்று உலகில் மிக அதிகமாகக் குறிப்பிடப்படும் உயிரியல் தரவுத்தளங்களில் ஒன்று.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**⭐ Gold Standard**",
+      "ta": "**⭐ தங்கத் தரம்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Considered the highest-quality protein sequence database — researchers prefer its entries for reliable, vetted information.",
+      "ta": "மிக உயர்தரப் புரத வரிசைத் தரவுத்தளமாகக் கருதப்படுகிறது; நம்பகமான, சரிபார்க்கப்பட்ட தகவலுக்கு ஆய்வாளர்கள் இதன் பதிவுகளையே விரும்புகின்றனர்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Type of Information Stored**",
+      "ta": "**சேமிக்கப்படும் தகவல் வகை**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "1 **Protein Name & Synonyms** Official protein name, alternative names, and gene names from multiple organisms.",
+       "ta": "1 **புரதப் பெயரும் ஒத்த பெயர்களும்** அதிகாரப்பூர்வ புரதப் பெயர், மாற்றுப் பெயர்கள், பல உயிரினங்களின் மரபணுப் பெயர்கள்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "2 **Amino Acid Sequence** The complete primary sequence of amino acids (one-letter or three-letter code) with sequence length.",
+       "ta": "2 **அமினோ அமில வரிசை** வரிசை நீளத்துடன் அமினோ அமிலங்களின் முழுமையான முதல்நிலை வரிசை (ஓர் எழுத்து அல்லது மூன்று எழுத்துக் குறியீடு).",
+       "ta_status": "draft"
+      },
+      {
+       "en": "3 **Protein Function** Biological role — enzymatic activity, catalytic mechanism, binding partners, cellular role.",
+       "ta": "3 **புரதச் செயல்** உயிரியல் பங்கு — நொதிச் செயல், வினையூக்கப் பொறிமுறை, இணைவுக் கூட்டாளிகள், செல்லியப் பங்கு.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "4 **Source Organism & Taxonomy** Species of origin, taxonomic lineage, and gene locus information.",
+       "ta": "4 **மூல உயிரினமும் வகைபாடும்** தோன்றிய இனம், வகைபாட்டு வழிமரபு, மரபணு இருப்பிடத் தகவல்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "5 **Post-Translational Modifications** Phosphorylation, glycosylation, disulfide bonds, signal peptides, and other modifications.",
+       "ta": "5 **மொழிபெயர்ப்புக்குப் பிந்தைய மாற்றங்கள்** பாஸ்பரிலேற்றம், கிளைக்கோசிலேற்றம், டைசல்பைடு பிணைப்புகள், சமிக்ஞைப் பெப்டைடுகள் மற்றும் பிற மாற்றங்கள்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "6 **Disease Associations & Variants** Mutations linked to human diseases, natural variants, and their phenotypic effects.",
+       "ta": "6 **நோய்த் தொடர்புகளும் மாறுபாடுகளும்** மனித நோய்களுடன் தொடர்புடைய திடீர்மாற்றங்கள், இயற்கை மாறுபாடுகள், அவற்றின் பண்புசார் விளைவுகள்.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Exam Point\nSWISS-PROT is described as a **manually curated, non-redundant protein sequence database**. Its most important characteristic is _manual expert review_ — distinguishing it from automatically generated databases like TrEMBL. Quality over quantity.",
+      "ta": "தேர்வுக் குறிப்பு\nSWISS-PROT **கைமுறையாகப் பராமரிக்கப்படும், நகலற்ற புரத வரிசைத் தரவுத்தளம்** எனப்படுகிறது. அதன் மிக முக்கிய இயல்பு _கைமுறை நிபுணர் மதிப்பாய்வு_ — இதுவே TrEMBL போன்ற தானியங்கி உருவாக்கத் தரவுத்தளங்களிலிருந்து அதை வேறுபடுத்துகிறது. அளவைவிடத் தரம்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision",
+      "ta": "விரைவுத் திருப்புதல்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "SWISS-PROT = manually reviewed, non-redundant protein sequence database; founded 1986",
+       "ta": "SWISS-PROT = கைமுறையாக மதிப்பாய்வு செய்யப்பட்ட, நகலற்ற புரத வரிசைத் தரவுத்தளம்; 1986-இல் நிறுவப்பட்டது",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Maintained jointly by SIB (Switzerland) and EBI (UK); now part of UniProt",
+       "ta": "SIB (சுவிட்சர்லாந்து), EBI (இங்கிலாந்து) இணைந்து பராமரிக்கின்றன; இப்போது UniProt-இன் பகுதி",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Each entry: protein name, amino acid sequence, function, organism, PTMs, disease links",
+       "ta": "ஒவ்வொரு பதிவிலும்: புரதப் பெயர், அமினோ அமில வரிசை, செயல், உயிரினம், PTM-கள், நோய்த் தொடர்புகள்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Manual expert review = highest quality/reliability among protein databases",
+       "ta": "கைமுறை நிபுணர் மதிப்பாய்வு = புரதத் தரவுத்தளங்களில் உயர்ந்த தரம்/நம்பகத்தன்மை",
+       "ta_status": "draft"
+      },
+      {
+       "en": "\"Non-redundant\" means duplicate sequences are merged — one protein = one record",
+       "ta": "\"நகலற்றது\" என்றால் நகல் வரிசைகள் இணைக்கப்படும் — ஒரு புரதம் = ஒரு பதிவு",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 03",
+      "ta": "பிரிவு 03",
+      "ta_status": "draft"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s04",
+   "title": {
+    "en": "UniProt — Universal Protein Resource",
+    "ta": "UniProt — உலகளாவிய புரத வளம்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "🌐 Global · SIB + EBI + PIR",
+      "ta": "🌐 உலகளாவியது · SIB + EBI + PIR",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**UniProt — The Comprehensive Protein Information Resource**",
+      "ta": "**UniProt — அனைத்தையும் உள்ளடக்கிய புரதத் தகவல் வளம்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**UniProt** (Universal Protein Resource) is the world's most comprehensive and freely accessible protein database. It was created in 2002 through a collaboration between the Swiss Institute of Bioinformatics (SIB), the European Bioinformatics Institute (EBI), and the Protein Information Resource (PIR) at Georgetown University, USA.",
+      "ta": "**UniProt** (Universal Protein Resource) உலகின் மிக விரிவான, இலவசமாகக் கிடைக்கும் புரதத் தரவுத்தளம். இது 2002-இல் சுவிஸ் உயிரித் தகவலியல் நிறுவனம் (SIB), ஐரோப்பிய உயிரித் தகவலியல் நிறுவனம் (EBI), அமெரிக்காவின் ஜார்ஜ்டவுன் பல்கலைக்கழகத்திலுள்ள புரதத் தகவல் வளம் (PIR) ஆகியவற்றின் கூட்டுழைப்பால் உருவாக்கப்பட்டது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Structure of UniProt**",
+      "ta": "**UniProt-இன் அமைப்பு**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🌐 UniProtKB (UniProt Knowledgebase)**",
+      "ta": "**🌐 UniProtKB (UniProt அறிவுத்தளம்)**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The central component of UniProt — contains all protein sequences with annotations",
+      "ta": "UniProt-இன் மையக் கூறு — குறிப்புரைகளுடன் அனைத்துப் புரத வரிசைகளையும் கொண்டது",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**⭐ Swiss-Prot**",
+      "ta": "**⭐ Swiss-Prot**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Manually Reviewed**",
+      "ta": "**கைமுறையாக மதிப்பாய்வு செய்யப்பட்டது**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "~570,000 entries\nExpert-curated\nHigh quality\n\"Gold standard\"",
+      "ta": "~5,70,000 பதிவுகள்\nநிபுணர் பராமரிப்பு\nஉயர் தரம்\n\"தங்கத் தரம்\"",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**📂 TrEMBL**",
+      "ta": "**📂 TrEMBL**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Unreviewed**",
+      "ta": "**மதிப்பாய்வு செய்யப்படாதது**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "~220 million entries\nComputer annotated\nAwaiting curation\nLarge but less verified",
+      "ta": "~22 கோடி பதிவுகள்\nகணினிக் குறிப்புரை\nபராமரிப்புக்குக் காத்திருப்பவை\nபெரியது, ஆனால் குறைவாகச் சரிபார்க்கப்பட்டது",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "UniProtKB also links to UniRef (sequence clusters) and UniParc (sequence archive)",
+      "ta": "UniProtKB, UniRef (வரிசைக் கொத்துகள்), UniParc (வரிசைக் காப்பகம்) ஆகியவற்றுடனும் இணைக்கப்பட்டுள்ளது",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key Features of UniProt**",
+      "ta": "**UniProt-இன் முக்கிய அம்சங்கள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🌐 Comprehensive**",
+      "ta": "**🌐 விரிவானது**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Contains protein entries from all organisms — bacteria, archaea, viruses, plants, animals, fungi.",
+      "ta": "அனைத்து உயிரினங்களின் — பாக்டீரியா, ஆர்க்கியா, வைரஸ்கள், தாவரங்கள், விலங்குகள், பூஞ்சைகள் — புரதப் பதிவுகளைக் கொண்டது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🆓 Free Access**",
+      "ta": "**🆓 இலவச அணுகல்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "All data freely available at uniprot.org — no registration required for basic searching or downloading.",
+      "ta": "அனைத்துத் தரவும் uniprot.org-இல் இலவசமாகக் கிடைக்கும் — அடிப்படைத் தேடல், பதிவிறக்கத்துக்குப் பதிவு தேவையில்லை.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔍 Powerful Search**",
+      "ta": "**🔍 ஆற்றல்மிகு தேடல்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Search by protein name, gene name, organism, function, GO term, or BLAST similarity.",
+      "ta": "புரதப் பெயர், மரபணுப் பெயர், உயிரினம், செயல், GO சொல் அல்லது BLAST ஒப்புமை மூலம் தேடலாம்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔗 Cross-Database Links**",
+      "ta": "**🔗 தரவுத்தளங்களிடை இணைப்புகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Connected to GenBank, EMBL, PDB, OMIM, Pfam, KEGG, and hundreds of other resources.",
+      "ta": "GenBank, EMBL, PDB, OMIM, Pfam, KEGG மற்றும் நூற்றுக்கணக்கான பிற வளங்களுடன் இணைக்கப்பட்டுள்ளது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**📊 Regular Updates**",
+      "ta": "**📊 வழக்கமான புதுப்பிப்புகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Updated every 8 weeks with new sequences from automatic processing of genome databases.",
+      "ta": "மரபணுத்தொகையத் தரவுத்தளங்களிலிருந்து தானியங்கிச் செயலாக்கத்தால் பெறப்படும் புதிய வரிசைகளுடன் ஒவ்வொரு 8 வாரங்களுக்கும் புதுப்பிக்கப்படுகிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**📖 GO Annotations**",
+      "ta": "**📖 GO குறிப்புரைகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Gene Ontology (GO) terms describe molecular function, biological process, and cellular component for each protein.",
+      "ta": "மரபணு வகைப்பாடு (GO) சொற்கள் ஒவ்வொரு புரதத்தின் மூலக்கூறுச் செயல், உயிரியல் செயல்முறை, செல்லகக் கூறு ஆகியவற்றை விவரிக்கின்றன.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Swiss-Prot vs TrEMBL — The Critical Distinction\n**Swiss-Prot** (~570,000 entries): manually reviewed by experts; each annotation verified against published literature; highest reliability.\n\n**TrEMBL** (~220 million entries): automatically annotated by computational pipelines from genome sequencing projects; not yet manually curated. Entries move from TrEMBL to Swiss-Prot after manual review.",
+      "ta": "Swiss-Prot – TrEMBL — முக்கிய வேறுபாடு\n**Swiss-Prot** (~5,70,000 பதிவுகள்): நிபுணர்களால் கைமுறையாக மதிப்பாய்வு செய்யப்பட்டது; ஒவ்வொரு குறிப்புரையும் வெளியிடப்பட்ட இலக்கியத்துடன் சரிபார்க்கப்பட்டது; உயர்ந்த நம்பகத்தன்மை.\n\n**TrEMBL** (~22 கோடி பதிவுகள்): மரபணுத்தொகைய வரிசையாக்கத் திட்டங்களிலிருந்து கணினிச் செயல்முறைகளால் தானாகக் குறிப்புரை செய்யப்பட்டது; இன்னும் கைமுறைப் பராமரிப்பு பெறவில்லை. கைமுறை மதிப்பாய்வுக்குப் பின் பதிவுகள் TrEMBL-இலிருந்து Swiss-Prot-க்கு மாற்றப்படும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision",
+      "ta": "விரைவுத் திருப்புதல்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "UniProt = Universal Protein Resource; created 2002 by SIB + EBI + PIR",
+       "ta": "UniProt = Universal Protein Resource; 2002-இல் SIB + EBI + PIR உருவாக்கியது",
+       "ta_status": "draft"
+      },
+      {
+       "en": "UniProtKB = the main protein knowledgebase, divided into Swiss-Prot and TrEMBL",
+       "ta": "UniProtKB = முதன்மைப் புரத அறிவுத்தளம்; Swiss-Prot, TrEMBL எனப் பிரிக்கப்பட்டது",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Swiss-Prot (~570 K entries) = manually reviewed (\"gold standard\"); TrEMBL (~220 M) = unreviewed, computationally annotated",
+       "ta": "Swiss-Prot (~570 K பதிவுகள்) = கைமுறை மதிப்பாய்வு (\"தங்கத் தரம்\"); TrEMBL (~220 M) = மதிப்பாய்வற்றது, கணினிக் குறிப்புரை",
+       "ta_status": "draft"
+      },
+      {
+       "en": "SWISS-PROT is a subset of UniProt — all SWISS-PROT entries are in UniProt",
+       "ta": "SWISS-PROT என்பது UniProt-இன் உட்கணம் — எல்லா SWISS-PROT பதிவுகளும் UniProt-இல் உள்ளன",
+       "ta_status": "draft"
+      },
+      {
+       "en": "UniProt is the world's largest and most comprehensive freely accessible protein database",
+       "ta": "UniProt உலகின் மிகப் பெரிய, மிக விரிவான, இலவசமாக அணுகக்கூடிய புரதத் தரவுத்தளம்",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 04",
+      "ta": "பிரிவு 04",
+      "ta_status": "draft"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s05",
+   "title": {
+    "en": "PDB — Protein Data Bank",
+    "ta": "PDB — புரதத் தரவு வங்கி",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "🌐 Global · RCSB PDB",
+      "ta": "🌐 உலகளாவியது · RCSB PDB",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**PDB — The Global Repository of 3D Biological Macromolecular Structures**",
+      "ta": "**PDB — உயிரியல் பெருமூலக்கூறுகளின் 3D கட்டமைப்புகளுக்கான உலகளாவிய களஞ்சியம்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The **Protein Data Bank (PDB)** is the single worldwide archive of three-dimensional structural data for biological macromolecules — proteins, nucleic acids, and their complexes. It was established in **1971** at Brookhaven National Laboratory, USA, and is now managed by the **Worldwide Protein Data Bank (wwPDB)**, a collaboration of RCSB PDB (USA), PDBe (EBI, UK), PDBj (Japan), and BMRB (USA).",
+      "ta": "**புரதத் தரவு வங்கி (PDB)** என்பது புரதங்கள், நியுக்ளிக் அமிலங்கள், அவற்றின் தொகுப்புகள் ஆகிய உயிரியல் பெருமூலக்கூறுகளின் முப்பரிமாணக் கட்டமைப்புத் தரவுக்கான ஒரே உலகளாவிய காப்பகம். இது **1971**-இல் அமெரிக்காவின் புரூக்ஹேவன் தேசிய ஆய்வகத்தில் நிறுவப்பட்டது; இப்போது **உலகளாவிய புரதத் தரவு வங்கியால் (wwPDB)** — RCSB PDB (அமெரிக்கா), PDBe (EBI, இங்கிலாந்து), PDBj (ஜப்பான்), BMRB (அமெரிக்கா) ஆகியவற்றின் கூட்டமைப்பு — நிர்வகிக்கப்படுகிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key Features**",
+      "ta": "**முக்கிய அம்சங்கள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**📅 Founded 1971**",
+      "ta": "**📅 நிறுவப்பட்டது 1971**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The oldest structural biology database. Started with just 7 structures; now contains over 220,000 structures.",
+      "ta": "மிகப் பழைய கட்டமைப்பு உயிரியல் தரவுத்தளம். 7 கட்டமைப்புகளுடன் தொடங்கி, இப்போது 2,20,000-க்கும் மேற்பட்டவற்றைக் கொண்டுள்ளது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔬 Experimental Methods**",
+      "ta": "**🔬 சோதனை முறைகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Structures determined by X-ray crystallography, NMR spectroscopy, or Cryo-Electron Microscopy (cryo-EM).",
+      "ta": "X-கதிர் படிகவியல், NMR நிறமாலையியல் அல்லது கிரையோ-எலக்ட்ரான் நுண்ணோக்கி (கிரையோ-EM) மூலம் கண்டறியப்பட்ட கட்டமைப்புகள்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**📐 3D Coordinates**",
+      "ta": "**📐 3D ஆயத்தொலைவுகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Stores precise XYZ coordinates (in Ångströms) of every atom in the macromolecule.",
+      "ta": "பெருமூலக்கூறிலுள்ள ஒவ்வோர் அணுவின் துல்லிய XYZ ஆயத்தொலைவுகளை (ஆங்ஸ்ட்ராமில்) சேமிக்கிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🆔 PDB ID**",
+      "ta": "**🆔 PDB ID**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Each structure has a unique 4-character PDB ID (e.g., 1HHO for haemoglobin). Used to cite and retrieve structures.",
+      "ta": "ஒவ்வொரு கட்டமைப்புக்கும் தனிப்பட்ட 4-எழுத்து PDB ID உண்டு (எ.கா. ஹீமோகுளோபினுக்கு 1HHO). கட்டமைப்புகளைக் குறிப்பிடவும் மீட்கவும் பயன்படும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**💊 Drug Design**",
+      "ta": "**💊 மருந்து வடிவமைப்பு**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Essential for rational drug design — visualising enzyme active sites and designing molecules that fit precisely.",
+      "ta": "பகுத்தறிவு மருந்து வடிவமைப்புக்கு இன்றியமையாதது — நொதிச் செயல்படு தளங்களைக் காட்சிப்படுத்தி, துல்லியமாகப் பொருந்தும் மூலக்கூறுகளை வடிவமைக்க உதவும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🌐 wwPDB Alliance**",
+      "ta": "**🌐 wwPDB கூட்டமைப்பு**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Maintained by the worldwide PDB (wwPDB) consortium — RCSB (USA), PDBe (UK), PDBj (Japan), ensuring global access.",
+      "ta": "உலகளாவிய PDB (wwPDB) கூட்டமைப்பு — RCSB (அமெரிக்கா), PDBe (இங்கிலாந்து), PDBj (ஜப்பான்) — பராமரிக்கிறது; உலகளாவிய அணுகலை உறுதிசெய்கிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Data Stored in Each PDB Entry**",
+      "ta": "**ஒவ்வொரு PDB பதிவிலும் சேமிக்கப்படும் தரவு**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "A **3D Atomic Coordinates** XYZ coordinates (in Ångströms) of every non-hydrogen atom in the structure — the core data.",
+       "ta": "A **3D அணு ஆயத்தொலைவுகள்** கட்டமைப்பிலுள்ள ஹைட்ரஜன் அல்லாத ஒவ்வோர் அணுவின் XYZ ஆயத்தொலைவுகள் (ஆங்ஸ்ட்ராமில்) — மையத் தரவு.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "B **Sequence Information** Amino acid or nucleotide sequence of the macromolecule, linked to corresponding UniProt entries.",
+       "ta": "B **வரிசைத் தகவல்** பெருமூலக்கூறின் அமினோ அமில அல்லது நியுக்ளியோடைடு வரிசை; தொடர்புடைய UniProt பதிவுகளுடன் இணைக்கப்பட்டது.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "C **Experimental Details** Method used (X-ray, NMR, cryo-EM), resolution, R-factor, and quality metrics of the structure determination.",
+       "ta": "C **சோதனை விவரங்கள்** பயன்படுத்தப்பட்ட முறை (X-கதிர், NMR, கிரையோ-EM), பிரித்தறிதிறன், R-காரணி, கட்டமைப்புத் தீர்மானத்தின் தரக் குறிகாட்டிகள்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "D **Ligands and Small Molecules** Coordinates of bound cofactors, inhibitors, substrates, and metal ions within the structure.",
+       "ta": "D **இணைப்பிகளும் சிறு மூலக்கூறுகளும்** கட்டமைப்பினுள் பிணைந்துள்ள துணைக்காரணிகள், தடுப்பிகள், வினைபடு பொருள்கள், உலோக அயனிகளின் ஆயத்தொலைவுகள்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "E **Biological Assembly** Information about the functional quaternary structure — the biologically active form of the protein complex.",
+       "ta": "E **உயிரியல் தொகுப்பு** செயல்பாட்டு நான்காம்நிலைக் கட்டமைப்பு — புரதத் தொகுப்பின் உயிரியல் ரீதியாகச் செயல்படும் வடிவம் — பற்றிய தகவல்.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Exam Point\nThe PDB file format stores 3D structural data in text files. Each atom is listed with its element, residue, chain, and XYZ coordinates. A typical structure might contain thousands of atom records. The PDB ID **1HHO** is the famous haemoglobin structure — one of the most cited protein structures in biology.",
+      "ta": "தேர்வுக் குறிப்பு\nPDB கோப்பு வடிவம் 3D கட்டமைப்புத் தரவை உரைக் கோப்புகளில் சேமிக்கிறது. ஒவ்வோர் அணுவும் அதன் தனிமம், எச்சம், சங்கிலி, XYZ ஆயத்தொலைவுகளுடன் பட்டியலிடப்படும். ஒரு வழக்கமான கட்டமைப்பில் ஆயிரக்கணக்கான அணுப் பதிவுகள் இருக்கலாம். PDB ID **1HHO** புகழ்பெற்ற ஹீமோகுளோபின் கட்டமைப்பு — உயிரியலில் மிக அதிகமாகக் குறிப்பிடப்படும் புரதக் கட்டமைப்புகளில் ஒன்று.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision",
+      "ta": "விரைவுத் திருப்புதல்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "PDB = Protein Data Bank; founded 1971; world's only archive of 3D biological macromolecular structures",
+       "ta": "PDB = புரதத் தரவு வங்கி; 1971-இல் நிறுவப்பட்டது; உயிரியல் பெருமூலக்கூறுகளின் 3D கட்டமைப்புகளுக்கான உலகின் ஒரே காப்பகம்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Managed by wwPDB consortium: RCSB (USA), PDBe (UK), PDBj (Japan)",
+       "ta": "wwPDB கூட்டமைப்பால் நிர்வகிக்கப்படுகிறது: RCSB (அமெரிக்கா), PDBe (இங்கிலாந்து), PDBj (ஜப்பான்)",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Data stored: 3D atomic coordinates, amino acid sequence, experimental method, ligands, quality metrics",
+       "ta": "சேமிக்கப்படும் தரவு: 3D அணு ஆயத்தொலைவுகள், அமினோ அமில வரிசை, சோதனை முறை, இணைப்பிகள், தரக் குறிகாட்டிகள்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Methods: X-ray crystallography, NMR spectroscopy, Cryo-EM",
+       "ta": "முறைகள்: X-கதிர் படிகவியல், NMR நிறமாலையியல், கிரையோ-EM",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Each structure has a unique 4-character PDB ID (e.g., 1HHO for haemoglobin)",
+       "ta": "ஒவ்வொரு கட்டமைப்புக்கும் தனிப்பட்ட 4-எழுத்து PDB ID உண்டு (எ.கா. ஹீமோகுளோபினுக்கு 1HHO)",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 05",
+      "ta": "பிரிவு 05",
+      "ta_status": "draft"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s06",
+   "title": {
+    "en": "Comparison Diagrams",
+    "ta": "ஒப்பீட்டு விளக்கப்படங்கள்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Side-by-Side: Sequence Database vs Structural Database**",
+      "ta": "**அருகருகே: வரிசைத் தரவுத்தளம் – கட்டமைப்புத் தரவுத்தளம்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click any box in the diagrams below for an explanation.",
+      "ta": "கீழே உள்ள விளக்கப்படங்களில் ஏதேனும் ஒரு பெட்டியைத் தொடுக விளக்கத்துக்கு.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🔤 Sequence Database (e.g., UniProt / SWISS-PROT)",
+      "ta": "🔤 வரிசைத் தரவுத்தளம் (எ.கா. UniProt / SWISS-PROT)",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "protein_databases_app-d01",
+     "caption": {
+      "en": "",
+      "ta": "",
+      "ta_status": "draft"
+     },
+     "labels": [
+      "Protein Source",
+      "(organism / experiment)",
+      "1D Amino Acid Sequence",
+      "M-A-K-L-V-T-S-D-E-K-…",
+      "Rich Annotation",
+      "function, PTMs, disease,",
+      "subcellular location",
+      "Use: Identify, classify",
+      "predict function, evolution"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🔬 Structural Database (e.g., PDB)",
+      "ta": "🔬 கட்டமைப்புத் தரவுத்தளம் (எ.கா. PDB)",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "protein_databases_app-d02",
+     "caption": {
+      "en": "",
+      "ta": "",
+      "ta_status": "draft"
+     },
+     "labels": [
+      "Experimental Method",
+      "X-ray / NMR / Cryo-EM",
+      "3D Atomic Coordinates",
+      "X, Y, Z positions (Å) per atom",
+      "Structure Information",
+      "alpha helices, beta sheets,",
+      "loops, ligands, active site",
+      "Use: Drug design, fold",
+      "analysis, mechanism"
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Core Distinction\nSequence databases (SWISS-PROT, UniProt) store **what the protein is made of** (amino acid order = 1D). Structural databases (PDB) store **what shape the protein adopts** (atomic coordinates in 3D space). Both are needed for complete understanding of a protein.",
+      "ta": "முக்கிய வேறுபாடு\nவரிசைத் தரவுத்தளங்கள் (SWISS-PROT, UniProt) **புரதம் எவற்றால் ஆனது** என்பதைச் சேமிக்கின்றன (அமினோ அமில வரிசை = 1D). கட்டமைப்புத் தரவுத்தளங்கள் (PDB) **புரதம் என்ன வடிவம் கொள்கிறது** என்பதைச் சேமிக்கின்றன (3D வெளியில் அணு ஆயத்தொலைவுகள்). புரதத்தை முழுமையாகப் புரிந்துகொள்ள இரண்டும் தேவை.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Data Flow: Biological Data → Database → Analysis (Click nodes)**",
+      "ta": "**தரவுப் பாய்வு: உயிரியல் தரவு → தரவுத்தளம் → பகுப்பாய்வு (முனைகளைத் தொடுக)**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "protein_databases_app-d03",
+     "caption": {
+      "en": "Data flow diagram",
+      "ta": "தரவுப் பாய்வு விளக்கப்படம்",
+      "ta_status": "draft"
+     },
+     "labels": [
+      "🔬 Biological",
+      "Data (lab)",
+      "sequence / structure",
+      "📥 Database",
+      "Entry & Curation",
+      "ID assigned",
+      "💾 Storage",
+      "UniProt / PDB",
+      "freely accessible",
+      "🔍 Retrieval",
+      "Search & access",
+      "BLAST / name / ID",
+      "🧪 Analysis &",
+      "Application",
+      "drug design / research",
+      "Click each step for explanation"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**SWISS-PROT within the UniProt System (Click nodes)**",
+      "ta": "**UniProt அமைப்பில் SWISS-PROT (முனைகளைத் தொடுக)**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "protein_databases_app-d04",
+     "caption": {
+      "en": "UniProt system diagram",
+      "ta": "UniProt அமைப்பு விளக்கப்படம்",
+      "ta_status": "draft"
+     },
+     "labels": [
+      "🌐 UniProt — Universal Protein Resource",
+      "UniProtKB (Central Knowledgebase)",
+      "⭐ Swiss-Prot",
+      "Manually Reviewed",
+      "~570,000 entries",
+      "\"Gold Standard\"",
+      "high quality / curated",
+      "📂 TrEMBL",
+      "Unreviewed",
+      "~220 million entries",
+      "computer-annotated",
+      "awaiting curation",
+      "after review",
+      "UniRef",
+      "Sequence clusters",
+      "UniParc",
+      "Sequence archive"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision",
+      "ta": "விரைவுத் திருப்புதல்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Sequence DB (UniProt/SWISS-PROT) = 1D amino acid order + annotations; Structural DB (PDB) = 3D atomic coordinates",
+       "ta": "வரிசைத் தரவுத்தளம் (UniProt/SWISS-PROT) = 1D அமினோ அமில வரிசை + குறிப்புரைகள்; கட்டமைப்புத் தரவுத்தளம் (PDB) = 3D அணு ஆயத்தொலைவுகள்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "UniProt contains UniProtKB (Swiss-Prot + TrEMBL), UniRef, and UniParc",
+       "ta": "UniProt-இல் UniProtKB (Swiss-Prot + TrEMBL), UniRef, UniParc அடங்கும்",
+       "ta_status": "bracketed"
+      },
+      {
+       "en": "Swiss-Prot entries can be promoted from TrEMBL after manual expert review",
+       "ta": "நிபுணர் கைமுறை மதிப்பாய்வுக்குப் பின் TrEMBL பதிவுகள் Swiss-Prot-க்கு உயர்த்தப்படலாம்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "PDB ID = unique 4-character code for each structure (e.g., 1HHO = haemoglobin)",
+       "ta": "PDB ID = ஒவ்வொரு கட்டமைப்புக்குமான தனிப்பட்ட 4-எழுத்துக் குறியீடு (எ.கா. 1HHO = ஹீமோகுளோபின்)",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Data flow: lab → database entry → storage → retrieval → analysis/application",
+       "ta": "தரவுப் பாய்வு: ஆய்வகம் → தரவுத்தளப் பதிவு → சேமிப்பு → மீட்பு → பகுப்பாய்வு/பயன்பாடு",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 06",
+      "ta": "பிரிவு 06",
+      "ta_status": "draft"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s07",
+   "title": {
+    "en": "Comparison: SWISS-PROT · UniProt · PDB",
+    "ta": "ஒப்பீடு: SWISS-PROT · UniProt · PDB",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Feature",
+       "ta": "அம்சம்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "SWISS-PROT",
+       "ta": "SWISS-PROT",
+       "ta_status": "draft"
+      },
+      {
+       "en": "UniProt",
+       "ta": "UniProt",
+       "ta_status": "draft"
+      },
+      {
+       "en": "PDB",
+       "ta": "PDB",
+       "ta_status": "draft"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "Full Name",
+        "ta": "முழுப் பெயர்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "SWISS-PROT Protein Knowledgebase",
+        "ta": "SWISS-PROT புரத அறிவுத்தளம்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Universal Protein Resource",
+        "ta": "உலகளாவிய புரத வளம்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Protein Data Bank",
+        "ta": "புரதத் தரவு வங்கி",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "Type of Database",
+        "ta": "தரவுத்தள வகை",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Protein sequence (curated)",
+        "ta": "புரத வரிசை (கைமுறைப் பராமரிப்பு)",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Protein sequence + function (comprehensive)",
+        "ta": "புரத வரிசை + செயல் (விரிவானது)",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Macromolecular structure (3D)",
+        "ta": "பெருமூலக்கூறுக் கட்டமைப்பு (3D)",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "Data Stored",
+        "ta": "சேமிக்கப்படும் தரவு",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Amino acid sequences + rich manual annotations",
+        "ta": "அமினோ அமில வரிசைகள் + செறிவான கைமுறைக் குறிப்புரைகள்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Amino acid sequences + functional annotations (reviewed & unreviewed)",
+        "ta": "அமினோ அமில வரிசைகள் + செயல்பாட்டுக் குறிப்புரைகள் (மதிப்பாய்வு செய்யப்பட்டவை, செய்யப்படாதவை)",
+        "ta_status": "draft"
+       },
+       {
+        "en": "3D atomic coordinates, experimental details, ligands",
+        "ta": "3D அணு ஆயத்தொலைவுகள், சோதனை விவரங்கள், இணைப்பிகள்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "Curation",
+        "ta": "பராமரிப்பு",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Manual expert review — every entry verified",
+        "ta": "கைமுறை நிபுணர் மதிப்பாய்வு — ஒவ்வொரு பதிவும் சரிபார்க்கப்பட்டது",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Two tiers: manually reviewed (Swiss-Prot) + automatically annotated (TrEMBL)",
+        "ta": "இரு அடுக்குகள்: கைமுறை மதிப்பாய்வு (Swiss-Prot) + தானியங்கிக் குறிப்புரை (TrEMBL)",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Experimental data — validated by wwPDB curators",
+        "ta": "சோதனைத் தரவு — wwPDB பராமரிப்பாளர்களால் சரிபார்க்கப்பட்டது",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "Maintained by",
+        "ta": "பராமரிப்பவர்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "SIB (Switzerland) & EBI (UK) — now part of UniProt",
+        "ta": "SIB (சுவிட்சர்லாந்து) & EBI (இங்கிலாந்து) — இப்போது UniProt-இன் பகுதி",
+        "ta_status": "draft"
+       },
+       {
+        "en": "SIB + EBI + PIR (global consortium)",
+        "ta": "SIB + EBI + PIR (உலகளாவிய கூட்டமைப்பு)",
+        "ta_status": "draft"
+       },
+       {
+        "en": "wwPDB: RCSB (USA), PDBe (UK), PDBj (Japan)",
+        "ta": "wwPDB: RCSB (அமெரிக்கா), PDBe (இங்கிலாந்து), PDBj (ஜப்பான்)",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "Year Founded",
+        "ta": "நிறுவிய ஆண்டு",
+        "ta_status": "draft"
+       },
+       {
+        "en": "1986",
+        "ta": "1986",
+        "ta_status": "draft"
+       },
+       {
+        "en": "2002",
+        "ta": "2002",
+        "ta_status": "draft"
+       },
+       {
+        "en": "1971 (oldest)",
+        "ta": "1971 (மிகப் பழையது)",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "Size (approx.)",
+        "ta": "அளவு (தோராயம்)",
+        "ta_status": "draft"
+       },
+       {
+        "en": "~570,000 entries",
+        "ta": "~5,70,000 பதிவுகள்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "~220+ million entries (UniProtKB total)",
+        "ta": "~22 கோடிக்கும் மேல் பதிவுகள் (UniProtKB மொத்தம்)",
+        "ta_status": "bracketed"
+       },
+       {
+        "en": ">220,000 structures",
+        "ta": ">2,20,000 கட்டமைப்புகள்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "Unique Identifier",
+        "ta": "தனித்த அடையாளம்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "UniProt Accession (e.g., P00533)",
+        "ta": "UniProt அணுகல் எண் (எ.கா. P00533)",
+        "ta_status": "draft"
+       },
+       {
+        "en": "UniProt Accession (e.g., P00533)",
+        "ta": "UniProt அணுகல் எண் (எ.கா. P00533)",
+        "ta_status": "draft"
+       },
+       {
+        "en": "PDB ID (e.g., 1HHO) — 4 characters",
+        "ta": "PDB ID (எ.கா. 1HHO) — 4 எழுத்துகள்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "Key Tool",
+        "ta": "முக்கியக் கருவி",
+        "ta_status": "draft"
+       },
+       {
+        "en": "BLAST, sequence search at uniprot.org",
+        "ta": "BLAST, uniprot.org-இல் வரிசைத் தேடல்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "UniProt search, BLAST, PSI-BLAST",
+        "ta": "UniProt தேடல், BLAST, PSI-BLAST",
+        "ta_status": "draft"
+       },
+       {
+        "en": "PDB viewer (Mol*, PyMOL), structure search",
+        "ta": "PDB காட்டி (Mol*, PyMOL), கட்டமைப்புத் தேடல்",
+        "ta_status": "bracketed"
+       }
+      ],
+      [
+       {
+        "en": "Main Use",
+        "ta": "முதன்மைப் பயன்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Protein function, identity, evolutionary analysis",
+        "ta": "புரதச் செயல், அடையாளம், பரிணாமப் பகுப்பாய்வு",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Comprehensive protein information retrieval",
+        "ta": "புரதத் தகவலை விரிவாக மீட்டல்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Drug design, structural biology, mechanism studies",
+        "ta": "மருந்து வடிவமைப்பு, கட்டமைப்பு உயிரியல், பொறிமுறை ஆய்வுகள்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "Relationship",
+        "ta": "தொடர்பு",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Subset of UniProt (the reviewed tier)",
+        "ta": "UniProt-இன் உட்கணம் (மதிப்பாய்வு செய்யப்பட்ட அடுக்கு)",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Umbrella — contains Swiss-Prot + TrEMBL",
+        "ta": "குடை வளம் — Swiss-Prot + TrEMBL கொண்டது",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Independent structural database; cross-linked to UniProt",
+        "ta": "தனித்த கட்டமைப்புத் தரவுத்தளம்; UniProt-உடன் குறுக்கிணைக்கப்பட்டது",
+        "ta_status": "draft"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision",
+      "ta": "விரைவுத் திருப்புதல்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Swiss-Prot (1986) is the reviewed tier of UniProt; UniProt (2002) is the umbrella resource; PDB (1971) is the oldest, storing 3D structures",
+       "ta": "Swiss-Prot (1986) UniProt-இன் மதிப்பாய்வு அடுக்கு; UniProt (2002) குடை வளம்; PDB (1971) மிகப் பழையது, 3D கட்டமைப்புகளைச் சேமிப்பது",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Swiss-Prot = quality; TrEMBL = quantity; PDB = 3D spatial data",
+       "ta": "Swiss-Prot = தரம்; TrEMBL = அளவு; PDB = 3D வெளித் தரவு",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Swiss-Prot and UniProt share the same accession number system (P00533 style)",
+       "ta": "Swiss-Prot, UniProt இரண்டும் ஒரே அணுகல் எண் முறையைப் (P00533 வகை) பகிர்கின்றன",
+       "ta_status": "bracketed"
+      },
+      {
+       "en": "PDB uses a unique 4-character ID (1HHO style) — completely different system",
+       "ta": "PDB ஒரு தனித்த, முற்றிலும் வேறான அடையாள முறையைப் (1HHO வகை) பயன்படுத்தும் 4-எழுத்து ID-ஐக் கொண்டுள்ளது",
+       "ta_status": "draft"
+      },
+      {
+       "en": "PDB entries are cross-linked to UniProt — you can go from sequence to structure and back",
+       "ta": "PDB பதிவுகள் UniProt-உடன் குறுக்கிணைக்கப்பட்டுள்ளன — வரிசையிலிருந்து கட்டமைப்புக்கும் திரும்பவும் செல்லலாம்",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 07",
+      "ta": "பிரிவு 07",
+      "ta_status": "draft"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s08",
+   "title": {
+    "en": "Applications of Protein & Structural Databases",
+    "ta": "புரத, கட்டமைப்புத் தரவுத்தளங்களின் பயன்பாடுகள்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Protein Identification**",
+      "ta": "**புரத அடையாளம் காணுதல்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Compare an unknown protein sequence against SWISS-PROT/UniProt using BLAST to identify what the protein is and which organism it comes from.",
+      "ta": "அறியப்படாத புரத வரிசையை BLAST மூலம் SWISS-PROT/UniProt-உடன் ஒப்பிட்டு, அது எந்தப் புரதம், எந்த உயிரினத்தினுடையது என்பதை அடையாளம் காணலாம்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Functional Annotation**",
+      "ta": "**செயல்பாட்டுக் குறிப்புரை**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "UniProt annotations reveal what a protein does — enzymatic function, binding partners, cellular role — without repeating lab experiments.",
+      "ta": "ஆய்வகச் சோதனைகளை மீண்டும் செய்யாமலே UniProt குறிப்புரைகள் புரதத்தின் செயலை — நொதிச் செயல், இணைவுக் கூட்டாளிகள், செல்லியப் பங்கு — வெளிப்படுத்துகின்றன.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Evolutionary Studies**",
+      "ta": "**பரிணாம ஆய்வுகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Retrieve homologous protein sequences from multiple species to build phylogenetic trees and trace protein evolution over millions of years.",
+      "ta": "பல இனங்களிலிருந்து ஹோமோலாக் புரத வரிசைகளைப் பெற்று, பரிணாம மரங்களை உருவாக்கி, பல மில்லியன் ஆண்டுகளாகப் புரதப் பரிணாமத்தைக் கண்டறியலாம்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Comparative Studies**",
+      "ta": "**ஒப்பீட்டு ஆய்வுகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Compare the same protein across species — to study conservation, divergence, and which regions are functionally critical.",
+      "ta": "ஒரே புரதத்தை இனங்களிடையே ஒப்பிட்டு — பாதுகாக்கப்பட்ட தன்மை, விலகல், எந்தப் பகுதிகள் செயல்பாட்டுக்கு இன்றியமையாதவை என்பதை — ஆராயலாம்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Drug Design**",
+      "ta": "**மருந்து வடிவமைப்பு**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "PDB structures reveal the shape of enzyme active sites and receptor binding pockets — enabling researchers to design drugs that fit precisely.",
+      "ta": "PDB கட்டமைப்புகள் நொதிச் செயல்படு தளங்கள், ஏற்பிப் பிணைப்புப் பைகளின் வடிவத்தை வெளிப்படுத்தி, துல்லியமாகப் பொருந்தும் மருந்துகளை வடிவமைக்க ஆய்வாளர்களுக்கு உதவுகின்றன.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Structural Analysis**",
+      "ta": "**கட்டமைப்புப் பகுப்பாய்வு**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Analyse secondary and tertiary structure, identify binding domains, active site residues, and predict how mutations affect protein folding.",
+      "ta": "இரண்டாம்நிலை, மூன்றாம்நிலைக் கட்டமைப்பைப் பகுப்பாய்வு செய்தல், பிணைப்புக் களங்களையும் செயல்படு தள எச்சங்களையும் அடையாளம் காணுதல், திடீர்மாற்றங்கள் புரத மடிப்பை எவ்வாறு பாதிக்கும் என்பதைக் கணித்தல்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Disease Research**",
+      "ta": "**நோய் ஆய்வு**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Swiss-Prot disease variant annotations and PDB structures of disease-related proteins help understand the molecular basis of genetic disorders.",
+      "ta": "Swiss-Prot நோய் மாறுபாட்டுக் குறிப்புரைகளும் நோய் தொடர்புடைய புரதங்களின் PDB கட்டமைப்புகளும் மரபுக் கோளாறுகளின் மூலக்கூறு அடிப்படையைப் புரிந்துகொள்ள உதவுகின்றன.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Biotechnology**",
+      "ta": "**உயிரித் தொழில்நுட்பவியல்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Retrieve sequences for industrial enzymes; design improved variants; screen for homologues with desirable properties in microorganism or plant databases.",
+      "ta": "தொழிற்சாலை நொதிகளுக்கான வரிசைகளைப் பெறுதல்; மேம்படுத்தப்பட்ட வகைகளை வடிவமைத்தல்; நுண்ணுயிர் அல்லது தாவரத் தரவுத்தளங்களில் விரும்பத்தக்க பண்புகளுடைய ஹோமோலாக்குகளைச் சலித்தல்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Exam Point\n**Structure-based drug design** relies entirely on PDB data. By visualising the 3D structure of a target protein (e.g., a viral protease), chemists can design small molecules that block the active site — a strategy used in developing HIV drugs (protease inhibitors) and COVID-19 antivirals.",
+      "ta": "தேர்வுக் குறிப்பு\n**கட்டமைப்பு அடிப்படையிலான மருந்து வடிவமைப்பு** முழுவதும் PDB தரவையே சார்ந்துள்ளது. இலக்குப் புரதத்தின் (எ.கா. வைரஸ் புரோட்டியேஸ்) 3D கட்டமைப்பைக் காட்சிப்படுத்துவதன் மூலம், வேதியியலாளர்கள் செயல்படு தளத்தைத் தடுக்கும் சிறு மூலக்கூறுகளை வடிவமைக்கலாம் — HIV மருந்துகள் (புரோட்டியேஸ் தடுப்பிகள்), COVID-19 வைரஸ் எதிர்ப்பு மருந்துகள் உருவாக்கத்தில் பயன்படுத்தப்பட்ட உத்தி இது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision",
+      "ta": "விரைவுத் திருப்புதல்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "8 key applications: protein identification, functional annotation, evolution, comparative studies, drug design, structural analysis, disease research, biotechnology",
+       "ta": "8 முக்கியப் பயன்பாடுகள்: புரத அடையாளம், செயல்பாட்டுக் குறிப்புரை, பரிணாமம், ஒப்பீட்டு ஆய்வுகள், மருந்து வடிவமைப்பு, கட்டமைப்புப் பகுப்பாய்வு, நோய் ஆய்வு, உயிரித் தொழில்நுட்பவியல்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "UniProt is the first resource used to identify and characterise a new protein",
+       "ta": "புதிய புரதத்தை அடையாளம் காணவும் விவரிக்கவும் முதலில் பயன்படுத்தப்படும் வளம் UniProt",
+       "ta_status": "draft"
+      },
+      {
+       "en": "PDB is indispensable for structure-based drug design — visualising active sites in 3D",
+       "ta": "கட்டமைப்பு அடிப்படையிலான மருந்து வடிவமைப்புக்கு PDB இன்றியமையாதது — செயல்படு தளங்களை 3D-யில் காட்சிப்படுத்துதல்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "HIV protease inhibitors and COVID-19 antivirals were designed using PDB structures",
+       "ta": "HIV புரோட்டியேஸ் தடுப்பிகளும் COVID-19 வைரஸ் எதிர்ப்பு மருந்துகளும் PDB கட்டமைப்புகளைக் கொண்டு வடிவமைக்கப்பட்டன",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 08",
+      "ta": "பிரிவு 08",
+      "ta_status": "draft"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s09",
+   "title": {
+    "en": "Role in Bioinformatics",
+    "ta": "உயிரித் தகவலியலில் பங்கு",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔤 Protein Sequence Databases**",
+      "ta": "**🔤 புரத வரிசைத் தரவுத்தளங்கள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Foundation of sequence analysis workflows",
+       "ta": "வரிசைப் பகுப்பாய்வுப் பணிப்போக்குகளின் அடித்தளம்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "BLAST searches identify similar proteins across species",
+       "ta": "BLAST தேடல்கள் இனங்கள் முழுவதும் ஒத்த புரதங்களை அடையாளம் காண்கின்றன",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Multiple sequence alignment for phylogenetics",
+       "ta": "பரிணாம மரவியலுக்கான பல்வரிசை ஒழுங்கமைவு",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Domain and motif identification (Pfam, InterPro)",
+       "ta": "களம், மையக்கரு அடையாளம் (Pfam, InterPro)",
+       "ta_status": "bracketed"
+      },
+      {
+       "en": "Function prediction by homology",
+       "ta": "ஹோமாலஜி மூலம் செயல் கணிப்பு",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Proteomics data interpretation",
+       "ta": "புரோட்டியோமிக்ஸ் தரவுப் பொருள்கோடல்",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔬 Structural Databases (PDB)**",
+      "ta": "**🔬 கட்டமைப்புத் தரவுத்தளங்கள் (PDB)**",
+      "ta_status": "bracketed"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Source for 3D structure visualisation and analysis",
+       "ta": "3D கட்டமைப்புக் காட்சிப்படுத்தல், பகுப்பாய்வுக்கான மூலம்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Molecular docking and virtual drug screening",
+       "ta": "மூலக்கூறு டாக்கிங், மெய்நிகர் மருந்துச் சலிக்கை",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Protein structure prediction validation (AlphaFold)",
+       "ta": "புரதக் கட்டமைப்புக் கணிப்புச் சரிபார்ப்பு (AlphaFold)",
+       "ta_status": "bracketed"
+      },
+      {
+       "en": "Understanding protein folding mechanisms",
+       "ta": "புரத மடிப்புப் பொறிமுறைகளைப் புரிந்துகொள்ளுதல்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Comparative structural analysis across proteins",
+       "ta": "புரதங்களிடையே ஒப்பீட்டுக் கட்டமைப்புப் பகுப்பாய்வு",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Identifying conserved structural motifs",
+       "ta": "பாதுகாக்கப்பட்ட கட்டமைப்பு மையக்கருக்களை அடையாளம் காணுதல்",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "AlphaFold & PDB\nIn 2021, DeepMind's **AlphaFold 2** AI predicted structures for nearly all human proteins. These predicted structures were deposited in the AlphaFold Database (linked to UniProt and PDB), revolutionising structural biology. This demonstrates how sequence databases and structural databases are deeply interconnected in modern bioinformatics.",
+      "ta": "AlphaFold & PDB\n2021-இல் DeepMind-இன் **AlphaFold 2** செயற்கை நுண்ணறிவு கிட்டத்தட்ட அனைத்து மனிதப் புரதங்களுக்கும் கட்டமைப்புகளைக் கணித்தது. இக்கணிக்கப்பட்ட கட்டமைப்புகள் AlphaFold தரவுத்தளத்தில் (UniProt, PDB உடன் இணைக்கப்பட்டது) சேமிக்கப்பட்டு, கட்டமைப்பு உயிரியலில் புரட்சி ஏற்படுத்தின. நவீன உயிரித் தகவலியலில் வரிசைத் தரவுத்தளங்களும் கட்டமைப்புத் தரவுத்தளங்களும் எவ்வளவு ஆழமாக இணைந்துள்ளன என்பதை இது காட்டுகிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Quick Revision",
+      "ta": "விரைவுத் திருப்புதல்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Sequence databases power: BLAST, multiple alignment, domain analysis, function prediction",
+       "ta": "வரிசைத் தரவுத்தளங்கள் இயக்குபவை: BLAST, பல்வரிசை ஒழுங்கமைவு, களப் பகுப்பாய்வு, செயல் கணிப்பு",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Structural databases (PDB) power: drug docking, fold analysis, structure prediction validation",
+       "ta": "கட்டமைப்புத் தரவுத்தளங்கள் (PDB) இயக்குபவை: மருந்து டாக்கிங், மடிப்புப் பகுப்பாய்வு, கட்டமைப்புக் கணிப்புச் சரிபார்ப்பு",
+       "ta_status": "draft"
+      },
+      {
+       "en": "AlphaFold 2 (2021) predicted nearly all human protein structures — deposited in AlphaFold DB linked to UniProt and PDB",
+       "ta": "AlphaFold 2 (2021) கிட்டத்தட்ட அனைத்து மனிதப் புரதக் கட்டமைப்புகளையும் கணித்தது — UniProt, PDB உடன் இணைக்கப்பட்ட AlphaFold DB-யில் சேமிக்கப்பட்டது",
+       "ta_status": "draft"
+      },
+      {
+       "en": "The two types of database are complementary — sequence + structure together give a complete picture of a protein",
+       "ta": "இரு வகைத் தரவுத்தளங்களும் ஒன்றையொன்று நிறைவு செய்கின்றன — வரிசையும் கட்டமைப்பும் சேர்ந்து புரதத்தின் முழுமையான படத்தைத் தருகின்றன",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 09",
+      "ta": "பிரிவு 09",
+      "ta_status": "draft"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "title": {
+    "en": "Interactive Learning",
+    "ta": "ஊடாடும் கற்றல்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Expand each topic for key points and click-to-reveal for active recall practice.",
+      "ta": "முக்கியக் குறிப்புகளுக்காக ஒவ்வொரு தலைப்பையும் விரித்துப் பாருங்கள்; செயலில் நினைவுகூர்தல் பயிற்சிக்காகத் தொட்டு விடையை வெளிப்படுத்துங்கள்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🗄️ Protein Databases — Overview**",
+      "ta": "**🗄️ புரதத் தரவுத்தளங்கள் — மேலோட்டம்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Protein sequence databases store amino acid sequences with functional annotations. They are essential for protein identification, function prediction, and evolutionary analysis.",
+      "ta": "புரத வரிசைத் தரவுத்தளங்கள் அமினோ அமில வரிசைகளைச் செயல்பாட்டுக் குறிப்புரைகளுடன் சேமிக்கின்றன. புரத அடையாளம், செயல் கணிப்பு, பரிணாமப் பகுப்பாய்வுக்கு இவை இன்றியமையாதவை.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Click to Reveal\nThree key protein/structural databases: SWISS-PROT (manually curated sequences), UniProt (comprehensive — Swiss-Prot + TrEMBL), and PDB (3D atomic coordinates of macromolecular structures).",
+      "ta": "வெளிப்படுத்த தொடுக\nமூன்று முக்கியப் புரத/கட்டமைப்புத் தரவுத்தளங்கள்: SWISS-PROT (கைமுறையாகப் பராமரிக்கப்படும் வரிசைகள்), UniProt (விரிவானது — Swiss-Prot + TrEMBL), PDB (பெருமூலக்கூறுக் கட்டமைப்புகளின் 3D அணு ஆயத்தொலைவுகள்).",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**⭐ SWISS-PROT — Key Points**",
+      "ta": "**⭐ SWISS-PROT — முக்கியக் குறிப்புகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Manually reviewed, non-redundant protein sequence database",
+       "ta": "கைமுறையாக மதிப்பாய்வு செய்யப்பட்ட, நகலற்ற புரத வரிசைத் தரவுத்தளம்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Founded 1986 by Amos Bairoch (University of Geneva)",
+       "ta": "1986-இல் அமோஸ் பைரோக்கால் (ஜெனீவா பல்கலைக்கழகம்) நிறுவப்பட்டது",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Maintained by SIB + EBI; now part of UniProt",
+       "ta": "SIB + EBI பராமரிக்கின்றன; இப்போது UniProt-இன் பகுதி",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Data: protein name, amino acid sequence, function, organism, PTMs, disease links",
+       "ta": "தரவு: புரதப் பெயர், அமினோ அமில வரிசை, செயல், உயிரினம், PTM-கள், நோய்த் தொடர்புகள்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "The \"gold standard\" — highest reliability in protein databases",
+       "ta": "\"தங்கத் தரம்\" — புரதத் தரவுத்தளங்களில் உயர்ந்த நம்பகத்தன்மை",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Remember\nThe defining feature of SWISS-PROT is manual expert curation — every annotation is verified by biologists against published literature. This is what distinguishes it from automatically generated databases.",
+      "ta": "நினைவில் கொள்க\nSWISS-PROT-இன் வரையறுக்கும் இயல்பு கைமுறை நிபுணர் பராமரிப்பு — ஒவ்வொரு குறிப்புரையும் வெளியிடப்பட்ட இலக்கியத்துடன் உயிரியலாளர்களால் சரிபார்க்கப்படுகிறது. இதுவே தானியங்கி உருவாக்கத் தரவுத்தளங்களிலிருந்து அதை வேறுபடுத்துகிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🌐 UniProt — Key Points**",
+      "ta": "**🌐 UniProt — முக்கியக் குறிப்புகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Created 2002 by SIB + EBI + PIR; world's largest protein database",
+       "ta": "2002-இல் SIB + EBI + PIR உருவாக்கியது; உலகின் மிகப் பெரிய புரதத் தரவுத்தளம்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Contains UniProtKB (Swiss-Prot + TrEMBL), UniRef, and UniParc",
+       "ta": "UniProtKB (Swiss-Prot + TrEMBL), UniRef, UniParc ஆகியவற்றைக் கொண்டது",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Swiss-Prot (~570K) = reviewed; TrEMBL (~220M) = unreviewed",
+       "ta": "Swiss-Prot (~570K) = மதிப்பாய்வு செய்யப்பட்டது; TrEMBL (~220M) = மதிப்பாய்வற்றது",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Free access at uniprot.org; search by name, function, organism, BLAST",
+       "ta": "uniprot.org-இல் இலவச அணுகல்; பெயர், செயல், உயிரினம், BLAST மூலம் தேடல்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "GO annotations describe molecular function, biological process, cellular component",
+       "ta": "GO குறிப்புரைகள் மூலக்கூறுச் செயல், உயிரியல் செயல்முறை, செல்லகக் கூறு ஆகியவற்றை விவரிக்கின்றன",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Click to Reveal — TrEMBL meaning\nTrEMBL = Translated EMBL — it was originally created to hold protein sequences automatically translated from nucleotide sequences submitted to the EMBL nucleotide database. It grew far larger than Swiss-Prot as genome sequencing accelerated.",
+      "ta": "வெளிப்படுத்த தொடுக — TrEMBL பொருள்\nTrEMBL = Translated EMBL — EMBL நியுக்ளியோடைடு தரவுத்தளத்தில் சமர்ப்பிக்கப்பட்ட நியுக்ளியோடைடு வரிசைகளிலிருந்து தானாக மொழிபெயர்க்கப்பட்ட புரத வரிசைகளைச் சேமிக்கவே இது முதலில் உருவாக்கப்பட்டது. மரபணுத்தொகைய வரிசையாக்கம் வேகமடைந்ததால் இது Swiss-Prot-ஐ விட மிகப் பெரிதாக வளர்ந்தது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🔬 PDB — Key Points**",
+      "ta": "**🔬 PDB — முக்கியக் குறிப்புகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Founded 1971 at Brookhaven National Laboratory, USA",
+       "ta": "1971-இல் அமெரிக்காவின் புரூக்ஹேவன் தேசிய ஆய்வகத்தில் நிறுவப்பட்டது",
+       "ta_status": "draft"
+      },
+      {
+       "en": "World's only archive of 3D biological macromolecular structures",
+       "ta": "உயிரியல் பெருமூலக்கூறுகளின் 3D கட்டமைப்புகளுக்கான உலகின் ஒரே காப்பகம்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Managed by wwPDB consortium: RCSB (USA), PDBe (UK), PDBj (Japan)",
+       "ta": "wwPDB கூட்டமைப்பு நிர்வகிக்கிறது: RCSB (அமெரிக்கா), PDBe (இங்கிலாந்து), PDBj (ஜப்பான்)",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Data: 3D atomic coordinates (XYZ in Å), experimental method, ligands, quality metrics",
+       "ta": "தரவு: 3D அணு ஆயத்தொலைவுகள் (Å-இல் XYZ), சோதனை முறை, இணைப்பிகள், தரக் குறிகாட்டிகள்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Methods: X-ray crystallography, NMR spectroscopy, Cryo-EM",
+       "ta": "முறைகள்: X-கதிர் படிகவியல், NMR நிறமாலையியல், கிரையோ-EM",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Each structure has a unique 4-character PDB ID (e.g., 1HHO)",
+       "ta": "ஒவ்வொரு கட்டமைப்புக்கும் தனிப்பட்ட 4-எழுத்து PDB ID உண்டு (எ.கா. 1HHO)",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Remember\nPDB started with just 7 protein structures in 1971. By 2024 it contains over 220,000 structures. The dramatic growth was driven by improvements in X-ray crystallography, and more recently, Cryo-EM technology which can solve structures of large complexes impossible to crystallise.",
+      "ta": "நினைவில் கொள்க\n1971-இல் PDB வெறும் 7 புரதக் கட்டமைப்புகளுடன் தொடங்கியது. 2024-க்குள் அது 2,20,000-க்கும் மேற்பட்ட கட்டமைப்புகளைக் கொண்டுள்ளது. X-கதிர் படிகவியலின் மேம்பாடுகளும், அண்மையில் படிகமாக்க இயலாத பெரிய தொகுப்புகளின் கட்டமைப்புகளைத் தீர்க்கவல்ல கிரையோ-EM தொழில்நுட்பமும் இந்தப் பெருவளர்ச்சிக்குக் காரணம்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🧪 Applications — Summary**",
+      "ta": "**🧪 பயன்பாடுகள் — சுருக்கம்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**UniProt/SWISS-PROT:** protein ID, function, evolution, disease variant lookup, comparative studies",
+       "ta": "**UniProt/SWISS-PROT:** புரத அடையாளம், செயல், பரிணாமம், நோய் மாறுபாட்டுத் தேடல், ஒப்பீட்டு ஆய்வுகள்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**PDB:** drug design (active site visualisation), structural analysis, fold classification, mechanism studies",
+       "ta": "**PDB:** மருந்து வடிவமைப்பு (செயல்படு தளக் காட்சிப்படுத்தல்), கட்டமைப்புப் பகுப்பாய்வு, மடிப்பு வகைப்பாடு, பொறிமுறை ஆய்வுகள்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Both types are interconnected — UniProt entries link to PDB structures",
+       "ta": "இரு வகைகளும் ஒன்றோடொன்று இணைந்தவை — UniProt பதிவுகள் PDB கட்டமைப்புகளுடன் இணைகின்றன",
+       "ta_status": "draft"
+      },
+      {
+       "en": "AlphaFold predictions are linked to UniProt accessions — bridging sequence and structure",
+       "ta": "AlphaFold கணிப்புகள் UniProt அணுகல் எண்களுடன் இணைக்கப்பட்டுள்ளன — வரிசையையும் கட்டமைப்பையும் இணைக்கும் பாலம்",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 11",
+      "ta": "பிரிவு 11",
+      "ta_status": "draft"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "title": {
+    "en": "Summary & Revision Bullets",
+    "ta": "சுருக்கமும் திருப்புதல் குறிப்புகளும்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Nucleotide databases (GenBank, EMBL) store DNA/RNA sequences; protein sequence databases (SWISS-PROT, UniProt) store amino acid sequences; structural databases (PDB) store 3D atomic coordinates.",
+       "ta": "நியுக்ளியோடைடு தரவுத்தளங்கள் (GenBank, EMBL) DNA/RNA வரிசைகளைச் சேமிக்கும்; புரத வரிசைத் தரவுத்தளங்கள் (SWISS-PROT, UniProt) அமினோ அமில வரிசைகளைச் சேமிக்கும்; கட்டமைப்புத் தரவுத்தளங்கள் (PDB) 3D அணு ஆயத்தொலைவுகளைச் சேமிக்கும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "SWISS-PROT: manually reviewed, non-redundant protein sequence database; founded 1986 by Amos Bairoch; maintained by SIB + EBI; now the reviewed tier of UniProt.",
+       "ta": "SWISS-PROT: கைமுறையாக மதிப்பாய்வு செய்யப்பட்ட, நகலற்ற புரத வரிசைத் தரவுத்தளம்; 1986-இல் அமோஸ் பைரோக்கால் நிறுவப்பட்டது; SIB + EBI பராமரிக்கின்றன; இப்போது UniProt-இன் மதிப்பாய்வு அடுக்கு.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "UniProt: comprehensive protein resource created 2002; UniProtKB = Swiss-Prot (reviewed, ~570K) + TrEMBL (unreviewed, ~220M entries).",
+       "ta": "UniProt: 2002-இல் உருவாக்கப்பட்ட விரிவான புரத வளம்; UniProtKB = Swiss-Prot (மதிப்பாய்வு செய்யப்பட்டது, ~570K) + TrEMBL (மதிப்பாய்வற்றது, ~220M பதிவுகள்).",
+       "ta_status": "draft"
+      },
+      {
+       "en": "SWISS-PROT is a subset of UniProt — all Swiss-Prot entries are in UniProt, but UniProt contains far more entries.",
+       "ta": "SWISS-PROT என்பது UniProt-இன் உட்கணம் — எல்லா Swiss-Prot பதிவுகளும் UniProt-இல் உள்ளன; ஆனால் UniProt-இல் மிக அதிகமான பதிவுகள் உள்ளன.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "PDB (Protein Data Bank): world's only archive of 3D macromolecular structures; founded 1971; managed by wwPDB; stores atomic XYZ coordinates, experimental method, ligands.",
+       "ta": "PDB (புரதத் தரவு வங்கி): 3D பெருமூலக்கூறுக் கட்டமைப்புகளுக்கான உலகின் ஒரே காப்பகம்; 1971-இல் நிறுவப்பட்டது; wwPDB நிர்வகிக்கிறது; அணு XYZ ஆயத்தொலைவுகள், சோதனை முறை, இணைப்பிகளைச் சேமிக்கிறது.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "PDB methods: X-ray crystallography, NMR spectroscopy, Cryo-EM. Each structure has a unique 4-character PDB ID (e.g., 1HHO for haemoglobin).",
+       "ta": "PDB முறைகள்: X-கதிர் படிகவியல், NMR நிறமாலையியல், கிரையோ-EM. ஒவ்வொரு கட்டமைப்புக்கும் தனிப்பட்ட 4-எழுத்து PDB ID உண்டு (எ.கா. ஹீமோகுளோபினுக்கு 1HHO).",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Data flow: lab → database entry → storage → retrieval → analysis/application.",
+       "ta": "தரவுப் பாய்வு: ஆய்வகம் → தரவுத்தளப் பதிவு → சேமிப்பு → மீட்பு → பகுப்பாய்வு/பயன்பாடு.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Applications: protein ID (UniProt), functional annotation (Swiss-Prot), drug design (PDB), evolutionary studies (both), disease research (both).",
+       "ta": "பயன்பாடுகள்: புரத அடையாளம் (UniProt), செயல்பாட்டுக் குறிப்புரை (Swiss-Prot), மருந்து வடிவமைப்பு (PDB), பரிணாம ஆய்வுகள் (இரண்டும்), நோய் ஆய்வு (இரண்டும்).",
+       "ta_status": "draft"
+      },
+      {
+       "en": "AlphaFold 2 (2021) predicted structures for nearly all human proteins — linking sequence (UniProt) and structure (PDB) databases.",
+       "ta": "AlphaFold 2 (2021) கிட்டத்தட்ட அனைத்து மனிதப் புரதங்களுக்கும் கட்டமைப்புகளைக் கணித்தது — வரிசைத் தரவுத்தளங்களையும் (UniProt) கட்டமைப்புத் தரவுத்தளங்களையும் (PDB) இணைக்கிறது.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key Differences at a Glance**",
+      "ta": "**முக்கிய வேறுபாடுகள் ஒரே பார்வையில்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Point",
+       "ta": "அம்சம்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "SWISS-PROT",
+       "ta": "SWISS-PROT",
+       "ta_status": "draft"
+      },
+      {
+       "en": "UniProt",
+       "ta": "UniProt",
+       "ta_status": "draft"
+      },
+      {
+       "en": "PDB",
+       "ta": "PDB",
+       "ta_status": "draft"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "Data type",
+        "ta": "தரவு வகை",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Protein sequence (curated)",
+        "ta": "புரத வரிசை (கைமுறைப் பராமரிப்பு)",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Protein sequence (reviewed + unreviewed)",
+        "ta": "புரத வரிசை (மதிப்பாய்வு செய்யப்பட்டவை + செய்யப்படாதவை)",
+        "ta_status": "draft"
+       },
+       {
+        "en": "3D structure (atomic coordinates)",
+        "ta": "3D கட்டமைப்பு (அணு ஆயத்தொலைவுகள்)",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "Founded",
+        "ta": "நிறுவப்பட்டது",
+        "ta_status": "draft"
+       },
+       {
+        "en": "1986",
+        "ta": "1986",
+        "ta_status": "draft"
+       },
+       {
+        "en": "2002",
+        "ta": "2002",
+        "ta_status": "draft"
+       },
+       {
+        "en": "1971",
+        "ta": "1971",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "Curation",
+        "ta": "பராமரிப்பு",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Manual — gold standard",
+        "ta": "கைமுறை — தங்கத் தரம்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Manual (Swiss-Prot) + auto (TrEMBL)",
+        "ta": "கைமுறை (Swiss-Prot) + தானியங்கி (TrEMBL)",
+        "ta_status": "bracketed"
+       },
+       {
+        "en": "Experimental data + wwPDB validation",
+        "ta": "சோதனைத் தரவு + wwPDB சரிபார்ப்பு",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "Size",
+        "ta": "அளவு",
+        "ta_status": "draft"
+       },
+       {
+        "en": "~570,000 entries",
+        "ta": "~5,70,000 பதிவுகள்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "~220 million entries",
+        "ta": "~22 கோடி பதிவுகள்",
+        "ta_status": "draft"
+       },
+       {
+        "en": ">220,000 structures",
+        "ta": ">2,20,000 கட்டமைப்புகள்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "Unique ID",
+        "ta": "தனித்த ID",
+        "ta_status": "draft"
+       },
+       {
+        "en": "UniProt accession",
+        "ta": "UniProt அணுகல் எண்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "UniProt accession",
+        "ta": "UniProt அணுகல் எண்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "4-char PDB ID",
+        "ta": "4-எழுத்து PDB ID",
+        "ta_status": "draft"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 12",
+      "ta": "பிரிவு 12",
+      "ta_status": "draft"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "title": {
+    "en": "Glossary",
+    "ta": "சொற்களஞ்சியம்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Protein Sequence**",
+      "ta": "**புரத வரிசை**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The linear order of amino acids in a polypeptide chain (primary structure); determines the protein's identity and, ultimately, its 3D shape and function.",
+      "ta": "பாலிபெப்டைடு சங்கிலியில் அமினோ அமிலங்களின் நேர்கோட்டு வரிசை (முதல்நிலைக் கட்டமைப்பு); புரதத்தின் அடையாளத்தையும், இறுதியில் அதன் 3D வடிவத்தையும் செயலையும் தீர்மானிக்கிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**SWISS-PROT**",
+      "ta": "**SWISS-PROT**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A manually reviewed, non-redundant protein sequence database; the \"gold standard\" for protein annotation; founded 1986; now the reviewed tier of UniProt.",
+      "ta": "கைமுறையாக மதிப்பாய்வு செய்யப்பட்ட, நகலற்ற புரத வரிசைத் தரவுத்தளம்; புரதக் குறிப்புரைக்கான \"தங்கத் தரம்\"; 1986-இல் நிறுவப்பட்டது; இப்போது UniProt-இன் மதிப்பாய்வு அடுக்கு.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**UniProt**",
+      "ta": "**UniProt**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Universal Protein Resource — the world's most comprehensive protein database, containing UniProtKB (Swiss-Prot + TrEMBL), UniRef, and UniParc; created 2002.",
+      "ta": "Universal Protein Resource — UniProtKB (Swiss-Prot + TrEMBL), UniRef, UniParc ஆகியவற்றைக் கொண்ட, உலகின் மிக விரிவான புரதத் தரவுத்தளம்; 2002-இல் உருவாக்கப்பட்டது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Curated Database**",
+      "ta": "**கைமுறைப் பராமரிப்புத் தரவுத்தளம்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A database in which entries have been manually reviewed and verified by expert scientists — ensuring accuracy but limiting speed and scale.",
+      "ta": "பதிவுகள் நிபுணர் விஞ்ஞானிகளால் கைமுறையாக மதிப்பாய்வு செய்யப்பட்டுச் சரிபார்க்கப்பட்ட தரவுத்தளம் — துல்லியத்தை உறுதிசெய்யும்; வேகத்தையும் அளவையும் வரம்பிடும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Annotation**",
+      "ta": "**குறிப்புரை**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Biological information added to a sequence or structure entry — protein name, function, subcellular location, post-translational modifications, disease links.",
+      "ta": "வரிசை அல்லது கட்டமைப்புப் பதிவுடன் சேர்க்கப்படும் உயிரியல் தகவல் — புரதப் பெயர், செயல், செல்லக இருப்பிடம், மொழிபெயர்ப்புக்குப் பிந்தைய மாற்றங்கள், நோய்த் தொடர்புகள்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**PDB**",
+      "ta": "**PDB**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Protein Data Bank — the world's only archive of three-dimensional structures of biological macromolecules; stores atomic XYZ coordinates determined by X-ray, NMR, or Cryo-EM.",
+      "ta": "புரதத் தரவு வங்கி — உயிரியல் பெருமூலக்கூறுகளின் முப்பரிமாணக் கட்டமைப்புகளுக்கான உலகின் ஒரே காப்பகம்; X-கதிர், NMR அல்லது கிரையோ-EM மூலம் கண்டறியப்பட்ட அணு XYZ ஆயத்தொலைவுகளைச் சேமிக்கிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**3D Structure**",
+      "ta": "**3D கட்டமைப்பு**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The complete spatial arrangement of all atoms in a macromolecule — the tertiary (and quaternary) structure. Stored in PDB as XYZ coordinates in Ångströms.",
+      "ta": "பெருமூலக்கூறிலுள்ள அனைத்து அணுக்களின் முழுமையான வெளி அமைப்பு — மூன்றாம்நிலை (மற்றும் நான்காம்நிலை) கட்டமைப்பு. PDB-யில் ஆங்ஸ்ட்ராமில் XYZ ஆயத்தொலைவுகளாகச் சேமிக்கப்படும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Structural Biology**",
+      "ta": "**கட்டமைப்பு உயிரியல்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The branch of molecular biology that studies the molecular structure of biological macromolecules and how structure relates to function.",
+      "ta": "உயிரியல் பெருமூலக்கூறுகளின் மூலக்கூறுக் கட்டமைப்பையும், கட்டமைப்புக்கும் செயலுக்கும் உள்ள தொடர்பையும் ஆராயும் மூலக்கூறு உயிரியலின் பிரிவு.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Protein Function**",
+      "ta": "**புரதச் செயல்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The biological role a protein performs — enzymatic catalysis, structural support, signalling, transport, or regulation.",
+      "ta": "புரதம் ஆற்றும் உயிரியல் பங்கு — நொதி வினையூக்கம், கட்டமைப்பு ஆதரவு, சமிக்ஞை, கடத்தல் அல்லது ஒழுங்குபடுத்தல்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**TrEMBL**",
+      "ta": "**TrEMBL**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The unreviewed tier of UniProtKB — automatically annotated protein sequences from genome sequencing projects; entries await manual curation to graduate to Swiss-Prot.",
+      "ta": "UniProtKB-இன் மதிப்பாய்வற்ற அடுக்கு — மரபணுத்தொகைய வரிசையாக்கத் திட்டங்களிலிருந்து தானாகக் குறிப்புரை செய்யப்பட்ட புரத வரிசைகள்; Swiss-Prot-க்கு உயர, பதிவுகள் கைமுறைப் பராமரிப்புக்காகக் காத்திருக்கின்றன.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**PDB ID**",
+      "ta": "**PDB ID**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A unique 4-character alphanumeric identifier assigned to each structure deposited in the Protein Data Bank (e.g., 1HHO for haemoglobin).",
+      "ta": "புரதத் தரவு வங்கியில் சமர்ப்பிக்கப்படும் ஒவ்வொரு கட்டமைப்புக்கும் ஒதுக்கப்படும் தனிப்பட்ட 4-எழுத்து எண்-எழுத்து அடையாளம் (எ.கா. ஹீமோகுளோபினுக்கு 1HHO).",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Cryo-EM**",
+      "ta": "**கிரையோ-EM**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Cryo-Electron Microscopy — an experimental technique for determining 3D structures of macromolecules at near-atomic resolution, particularly useful for large complexes.",
+      "ta": "கிரையோ-எலக்ட்ரான் நுண்ணோக்கி — பெருமூலக்கூறுகளின் 3D கட்டமைப்புகளை அணுநிலைக்கு அண்மைத் தெளிவில் கண்டறியும் சோதனைத் தொழில்நுட்பம்; பெரிய தொகுப்புகளுக்கு மிகவும் பயனுள்ளது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "SECTION 13",
+      "ta": "பிரிவு 13",
+      "ta_status": "draft"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "title": {
+    "en": "Frequently Asked University Exam Questions",
+    "ta": "அடிக்கடி கேட்கப்படும் பல்கலைக்கழகத் தேர்வு வினாக்கள்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "1. What is SWISS-PROT? Describe its features and importance as a protein sequence database.",
+      "ta": "1. SWISS-PROT என்றால் என்ன? புரத வரிசைத் தரவுத்தளமாக அதன் அம்சங்களையும் முக்கியத்துவத்தையும் விவரிக்க.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Show Hint**",
+      "ta": "**குறிப்பைக் காட்டு**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Define SWISS-PROT (manually reviewed, non-redundant protein sequence database; founded 1986 by Amos Bairoch; SIB + EBI; now part of UniProt). Features: manual expert curation, non-redundant entries, rich annotation (sequence, function, PTMs, disease, organism), cross-references to 100+ databases. Importance: gold standard for protein data quality; preferred for reliable biological interpretation; widely cited in molecular biology research.",
+      "ta": "SWISS-PROT-ஐ வரையறுக்க (கைமுறையாக மதிப்பாய்வு செய்யப்பட்ட, நகலற்ற புரத வரிசைத் தரவுத்தளம்; 1986-இல் அமோஸ் பைரோக்கால் நிறுவப்பட்டது; SIB + EBI; இப்போது UniProt-இன் பகுதி). அம்சங்கள்: கைமுறை நிபுணர் பராமரிப்பு, நகலற்ற பதிவுகள், செறிவான குறிப்புரை (வரிசை, செயல், PTM-கள், நோய், உயிரினம்), 100+ தரவுத்தளங்களுக்குக் குறுக்குக் குறிப்புகள். முக்கியத்துவம்: புரதத் தரவுத் தரத்தில் தங்கத் தரம்; நம்பகமான உயிரியல் பொருள்கோடலுக்கு விரும்பப்படுவது; மூலக்கூறு உயிரியல் ஆய்வுகளில் பரவலாகக் குறிப்பிடப்படுவது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2. Explain UniProt and its components. What is the relationship between SWISS-PROT and UniProt?",
+      "ta": "2. UniProt-ஐயும் அதன் கூறுகளையும் விளக்குக. SWISS-PROT-க்கும் UniProt-க்கும் உள்ள தொடர்பு என்ன?",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Show Hint**",
+      "ta": "**குறிப்பைக் காட்டு**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "UniProt = Universal Protein Resource; created 2002 by SIB + EBI + PIR. Components: UniProtKB (central knowledgebase = Swiss-Prot + TrEMBL), UniRef (sequence clusters), UniParc (archive). Swiss-Prot vs TrEMBL: Swiss-Prot (~570K) = manually reviewed (\"gold standard\"); TrEMBL (~220M) = computationally annotated, awaiting review. Relationship: SWISS-PROT is a subset (reviewed tier) of UniProt. TrEMBL entries graduate to Swiss-Prot after expert review.",
+      "ta": "UniProt = Universal Protein Resource; 2002-இல் SIB + EBI + PIR உருவாக்கியது. கூறுகள்: UniProtKB (மையஅறிவுத்தளம் = Swiss-Prot + TrEMBL), UniRef (வரிசைக் கொத்துகள்), UniParc (காப்பகம்). Swiss-Prot – TrEMBL: Swiss-Prot (~570K) = கைமுறையாக மதிப்பாய்வு செய்யப்பட்டது (\"தங்கத் தரம்\"); TrEMBL (~220M) = கணினிக் குறிப்புரை, மதிப்பாய்வுக்குக் காத்திருப்பது. தொடர்பு: SWISS-PROT என்பது UniProt-இன் உட்கணம் (மதிப்பாய்வு அடுக்கு). நிபுணர் மதிப்பாய்வுக்குப் பின் TrEMBL பதிவுகள் Swiss-Prot-க்கு உயர்த்தப்படும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "3. What is the Protein Data Bank (PDB)? Describe the type of data it stores and its importance in structural biology.",
+      "ta": "3. புரதத் தரவு வங்கி (PDB) என்றால் என்ன? அது சேமிக்கும் தரவு வகையையும் கட்டமைப்பு உயிரியலில் அதன் முக்கியத்துவத்தையும் விவரிக்க.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Show Hint**",
+      "ta": "**குறிப்பைக் காட்டு**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "PDB = Protein Data Bank; founded 1971; managed by wwPDB (RCSB, PDBe, PDBj). Data stored: 3D atomic XYZ coordinates (in Å), amino acid/nucleotide sequence, experimental method (X-ray, NMR, Cryo-EM), resolution, ligands, biological assembly. Importance: reveals how proteins fold and function; essential for rational/structure-based drug design; HIV protease inhibitors and COVID-19 antivirals designed using PDB data; training data for AI structure prediction (AlphaFold).",
+      "ta": "PDB = புரதத் தரவு வங்கி; 1971-இல் நிறுவப்பட்டது; wwPDB (RCSB, PDBe, PDBj) நிர்வகிக்கிறது. சேமிக்கும் தரவு: 3D அணு XYZ ஆயத்தொலைவுகள் (Å-இல்), அமினோ அமில/நியுக்ளியோடைடு வரிசை, சோதனை முறை (X-கதிர், NMR, கிரையோ-EM), பிரித்தறிதிறன், இணைப்பிகள், உயிரியல் தொகுப்பு. முக்கியத்துவம்: புரதங்கள் எவ்வாறு மடிகின்றன, செயல்படுகின்றன என்பதை வெளிப்படுத்துகிறது; பகுத்தறிவு/கட்டமைப்பு அடிப்படை மருந்து வடிவமைப்புக்கு இன்றியமையாதது; HIV புரோட்டியேஸ் தடுப்பிகளும் COVID-19 வைரஸ் எதிர்ப்பு மருந்துகளும் PDB தரவால் வடிவமைக்கப்பட்டன; AI கட்டமைப்புக் கணிப்புக்கான (AlphaFold) பயிற்றுத் தரவு.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "4. Distinguish between protein sequence databases and structural databases. Give two examples of each type.",
+      "ta": "4. புரத வரிசைத் தரவுத்தளங்களையும் கட்டமைப்புத் தரவுத்தளங்களையும் வேறுபடுத்துக. ஒவ்வொரு வகைக்கும் இரு எடுத்துக்காட்டுகள் தருக.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Show Hint**",
+      "ta": "**குறிப்பைக் காட்டு**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Protein sequence databases: store 1D amino acid sequences + annotations; tell you WHAT the protein is made of; examples: SWISS-PROT, UniProt (UniProtKB). Structural databases: store 3D atomic coordinates; tell you WHAT SHAPE the protein adopts; examples: PDB, AlphaFold Database. Key distinction: a protein can have a known sequence but unknown structure — not all UniProt proteins are in PDB. Structural data requires laborious experimental methods; sequence data is more easily obtained.",
+      "ta": "புரத வரிசைத் தரவுத்தளங்கள்: 1D அமினோ அமில வரிசை + குறிப்புரைகளைச் சேமிக்கும்; புரதம் எவற்றால் ஆனது என்பதைக் கூறும்; எடுத்துக்காட்டுகள்: SWISS-PROT, UniProt (UniProtKB). கட்டமைப்புத் தரவுத்தளங்கள்: 3D அணு ஆயத்தொலைவுகளைச் சேமிக்கும்; புரதம் என்ன வடிவம் கொள்கிறது என்பதைக் கூறும்; எடுத்துக்காட்டுகள்: PDB, AlphaFold தரவுத்தளம். முக்கிய வேறுபாடு: ஒரு புரதத்தின் வரிசை தெரிந்திருந்தும் கட்டமைப்பு தெரியாமல் இருக்கலாம் — எல்லா UniProt புரதங்களும் PDB-யில் இல்லை. கட்டமைப்புத் தரவுக்குச் சிரமமான சோதனை முறைகள் தேவை; வரிசைத் தரவு எளிதில் பெறப்படுகிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5. Discuss the applications of protein and structural databases in biotechnology and drug research.",
+      "ta": "5. உயிரித் தொழில்நுட்பவியல், மருந்து ஆய்வில் புரத, கட்டமைப்புத் தரவுத்தளங்களின் பயன்பாடுகளை விவாதிக்க.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Show Hint**",
+      "ta": "**குறிப்பைக் காட்டு**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Applications: (1) Protein identification — BLAST search against UniProt/Swiss-Prot; (2) Functional annotation — retrieve known function without lab experiments; (3) Drug design — PDB active site visualisation, molecular docking, virtual screening; (4) Disease research — Swiss-Prot variant annotations; (5) Evolutionary studies — phylogenetic trees from retrieved sequences; (6) Industrial enzymes — search for thermostable or pH-tolerant homologues; (7) Structure prediction validation (AlphaFold vs PDB). Mention specific examples: HIV protease inhibitors, COVID-19 antivirals.",
+      "ta": "பயன்பாடுகள்: (1) புரத அடையாளம் — UniProt/Swiss-Prot-க்கு எதிராக BLAST தேடல்; (2) செயல்பாட்டுக் குறிப்புரை — ஆய்வகச் சோதனையின்றி அறியப்பட்ட செயலைப் பெறுதல்; (3) மருந்து வடிவமைப்பு — PDB செயல்படு தளக் காட்சிப்படுத்தல், மூலக்கூறு டாக்கிங், மெய்நிகர் சலிக்கை; (4) நோய் ஆய்வு — Swiss-Prot மாறுபாட்டுக் குறிப்புரைகள்; (5) பரிணாம ஆய்வுகள் — பெறப்பட்ட வரிசைகளிலிருந்து பரிணாம மரங்கள்; (6) தொழிற்சாலை நொதிகள் — வெப்பம்தாங்கும் அல்லது pH-தாங்கும் ஹோமோலாக்குகளைத் தேடுதல்; (7) கட்டமைப்புக் கணிப்புச் சரிபார்ப்பு (AlphaFold – PDB). குறிப்பிட்ட எடுத்துக்காட்டுகளைக் குறிப்பிடுக: HIV புரோட்டியேஸ் தடுப்பிகள், COVID-19 வைரஸ் எதிர்ப்பு மருந்துகள்.",
+      "ta_status": "draft"
+     }
+    }
+   ]
+  }
+ ],
+ "skipped": [
+  "quiz"
+ ],
+ "dropped": [
+  {
+   "selector": "nav",
+   "count": 1,
+   "sample": [
+    "Protein & Structural Databases Intro SWISS-PROT UniProt PDB "
+   ]
+  },
+  {
+   "selector": "footer",
+   "count": 1,
+   "sample": [
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh"
+   ]
+  },
+  {
+   "selector": ".ar",
+   "count": 5,
+   "sample": [
+    "▼",
+    "▼",
+    "▼"
+   ]
+  }
+ ],
+ "extractor": "1"
+}

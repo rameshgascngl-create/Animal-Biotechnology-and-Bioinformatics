@@ -1,0 +1,37 @@
+{
+  "skip_ids": [
+    "quiz"
+  ],
+  "label_classes": [
+    "section-number",
+    "chip"
+  ],
+  "heading_classes": [
+    "section-title"
+  ],
+  "callout_classes": [
+    "highlight-box"
+  ],
+  "glossary": {
+    "container": "gloss-card",
+    "term": "dt",
+    "def": "dd"
+  },
+  "steps_item_classes": [
+    "step"
+  ],
+  "button_heading_classes": [
+    "accordion-btn",
+    "eq-hint-btn"
+  ],
+  "extra_drop_selectors": [
+    ".arrow"
+  ],
+  "accepted_script_literals": [
+    "Your Score: ${score} / ${total} (${pct}%)",
+    "🏆 Excellent! You have a strong grasp of gene therapy concepts.",
+    "👍 Good work! Review the sections on vectors and cancer applications.",
+    "📚 Fair attempt. Revisit the ex vivo, in vivo, and ethics sections.",
+    "🔄 Keep revising. Focus on the definitions, step-by-step procedures, and comparison table."
+  ]
+}

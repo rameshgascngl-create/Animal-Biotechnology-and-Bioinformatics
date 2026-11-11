@@ -1,0 +1,39 @@
+{
+  "skip_ids": [
+    "page-7"
+  ],
+  "label_classes": [
+    "sec-tag"
+  ],
+  "callout_classes": [
+    "hbox",
+    "def-box"
+  ],
+  "glossary": {
+    "container": [
+      "gloss-card"
+    ],
+    "term": [
+      "g-term"
+    ],
+    "def": [
+      "g-def"
+    ]
+  },
+  "extra_drop_selectors": [
+    ".start-btn",
+    ".btn-outline",
+    ".btn-primary",
+    ".pg-nav"
+  ],
+  "subheading_classes": [
+    "sh"
+  ],
+  "accepted_script_literals_note": "Score-feedback messages of the old embedded HTML quiz widget (UI copy, not chapter content). The native quiz has its own feedback strings. Reviewed 2026-11-10.",
+  "accepted_script_literals": [
+    "Excellent! You have a thorough understanding of Biotechnology fundamentals.",
+    "Good performance! Review the topics you missed for better understanding.",
+    "Satisfactory. Please revisit the chapters on Definition, Scope, and Applications.",
+    "Please re-read all chapters carefully before retaking the quiz."
+  ]
+}

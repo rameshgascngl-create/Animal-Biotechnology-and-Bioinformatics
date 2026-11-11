@@ -1,0 +1,71 @@
+{
+ "id": "hybridoma_monoclonal_antibodies-d01",
+ "w": 700,
+ "h": 560,
+ "markers": [
+  {
+   "n": 1,
+   "x": 0.28,
+   "y": 0.2857,
+   "en": "Antigen-binding site",
+   "ta": "எதிர்ப்பொருள் தூண்டி இணையும் தளம்",
+   "ta_status": "draft"
+  },
+  {
+   "n": 2,
+   "x": 0.3071,
+   "y": 0.3661,
+   "en": "Variable region (V_H + V_L)",
+   "ta": "மாறும் பகுதி (V_H + V_L)",
+   "ta_status": "draft"
+  },
+  {
+   "n": 3,
+   "x": 0.3743,
+   "y": 0.4679,
+   "en": "Fab fragment (binds antigen)",
+   "ta": "Fab துண்டு (எதிர்ப்பொருள் தூண்டியுடன் இணைகிறது)",
+   "ta_status": "draft"
+  },
+  {
+   "n": 4,
+   "x": 0.5,
+   "y": 0.5893,
+   "en": "Hinge region",
+   "ta": "கீல் பகுதி",
+   "ta_status": "draft"
+  },
+  {
+   "n": 5,
+   "x": 0.4543,
+   "y": 0.7857,
+   "en": "Heavy chain (blue)",
+   "ta": "கனமான சங்கிலி (நீலம்)",
+   "ta_status": "draft"
+  },
+  {
+   "n": 6,
+   "x": 0.2686,
+   "y": 0.45,
+   "en": "Light chain (red)",
+   "ta": "இலகு சங்கிலி (சிவப்பு)",
+   "ta_status": "draft"
+  },
+  {
+   "n": 7,
+   "x": 0.5457,
+   "y": 0.8393,
+   "en": "Fc region (constant; effector function)",
+   "ta": "Fc பகுதி (மாறாதது; செயல்விளைவுச் செயல்பாடு)",
+   "ta_status": "draft"
+  },
+  {
+   "n": 8,
+   "x": 0.5,
+   "y": 0.6643,
+   "en": "Disulphide bonds",
+   "ta": "டைசல்பைடு பிணைப்புகள்",
+   "ta_status": "draft"
+  }
+ ]
+}

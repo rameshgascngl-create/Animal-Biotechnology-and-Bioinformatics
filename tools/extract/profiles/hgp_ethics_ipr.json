@@ -1,0 +1,41 @@
+{
+  "skip_ids": [
+    "page-6"
+  ],
+  "label_classes": [
+    "sec-tag"
+  ],
+  "callout_classes": [
+    "hbox",
+    "def-box"
+  ],
+  "glossary": {
+    "container": [
+      "gloss-card"
+    ],
+    "term": [
+      "g-term"
+    ],
+    "def": [
+      "g-def"
+    ]
+  },
+  "button_heading_classes": [
+    "acc-hdr"
+  ],
+  "subheading_classes": [
+    "sh"
+  ],
+  "extra_drop_selectors": [
+    ".start-btn",
+    ".btn-outline",
+    ".btn-primary",
+    ".pg-nav"
+  ],
+  "accepted_script_literals": [
+    "Good. Revisit the questions you missed.",
+    "Human Genome Project, Ethics & IPR",
+    "Re-read the chapters carefully before retrying.",
+    "Revise the chapters, then retake the quiz."
+  ]
+}

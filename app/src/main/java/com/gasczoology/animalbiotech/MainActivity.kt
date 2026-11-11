@@ -1,6 +1,8 @@
 package com.gasczoology.animalbiotech
 
 import android.os.Bundle
+import com.gasczoology.animalbiotech.content.ChapterRepo
+import com.gasczoology.animalbiotech.ui.LessonScreen
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.BackHandler
 import androidx.activity.compose.setContent
@@ -107,6 +109,7 @@ fun App(store: Store) {
     var saved by remember { mutableStateOf(store.getSet("saved")) }
     var wrong by remember { mutableStateOf(store.getSet("wrong")) }
     var zoom by remember { mutableIntStateOf(store.getInt("zoom", 115)) }
+    var lang by remember { mutableStateOf(store.getLang()) }
     var lastId by remember { mutableStateOf(store.getString("last")) }
     var bests by remember { mutableStateOf(quizzes.associate { it.file to store.best(it.file) }) }
 
@@ -114,18 +117,35 @@ fun App(store: Store) {
     val ready = if (screen == null) readyCount(cards, store) else 0
 
     when (val s = screen) {
-        is Screen.Reader -> ReaderScreen(
-            topic = s.topic,
-            studied = s.topic.id in studied,
-            saved = s.topic.id in saved,
-            zoom = zoom,
-            onBack = { screen = null },
-            onToggleStudied = { studied = store.toggle("studied", s.topic.id) },
-            onToggleSaved = { saved = store.toggle("saved", s.topic.id) },
-        )
+        is Screen.Reader -> {
+            val chapter = remember(s.topic.id) { ChapterRepo.load(ctx, s.topic.file, s.topic.unitRoman)?.chapter }
+            if (chapter != null) {
+                val quiz = quizzes.firstOrNull { it.file == s.topic.file }
+                LessonScreen(
+                    chapter = chapter,
+                    lang = lang,
+                    onLang = { lang = it; store.putLang(it) },
+                    zoom = zoom,
+                    studied = s.topic.id in studied,
+                    onStudied = { studied = store.toggle("studied", s.topic.id) },
+                    saved = s.topic.id in saved,
+                    onSaved = { saved = store.toggle("saved", s.topic.id) },
+                    onBack = { screen = null },
+                    onQuiz = quiz?.let { q -> { screen = Screen.QuizRun(q.title, q.file, q.items, 0) } },
+                )
+            } else {
+                val quiz = quizzes.firstOrNull { it.file == s.topic.file }
+                ChapterUnavailableScreen(
+                    topic = s.topic, lang = lang, onBack = { screen = null },
+                    onQuiz = quiz?.let { q -> { screen = Screen.QuizRun(q.title, q.file, q.items, 0) } },
+                )
+            }
+        }
         is Screen.QuizRun -> QuizScreen(
             title = s.title,
             items = s.items,
+            lang = lang,
+            onLang = { lang = it; store.putLang(it) },
             timeLimitSec = s.timeLimitSec,
             onAnswer = { m, ok ->
                 wrong = if (ok) store.remove("wrong", m.id) else store.add("wrong", m.id)

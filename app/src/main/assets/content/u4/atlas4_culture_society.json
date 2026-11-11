@@ -1,0 +1,2142 @@
+{
+ "id": "atlas4_culture_society",
+ "unit": "IV",
+ "title": {
+  "en": "Atlas IV: Culture, HGP & Ethics",
+  "ta": "அட்லஸ் IV: வளர்ப்பு, HGP மற்றும் நெறிமுறைகள்",
+  "ta_status": "draft"
+ },
+ "sections": [
+  {
+   "id": "s01",
+   "title": {
+    "en": "Overview",
+    "ta": "மேலோட்டம்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "🎨 Unit IV · Diagram Atlas",
+      "ta": "🎨 அலகு IV · வரைபட அட்லஸ்",
+      "ta_status": "draft"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "title": {
+    "en": "Diagram Atlas IV: Cell Culture, Fermentation and Society",
+    "ta": "வரைபட அட்லஸ் IV: செல் வளர்ப்பு, நொதித்தல், சமூகம்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Cell culture · Stem cells · Bioreactors · Ethanol · HGP · Ethics · IPR",
+      "ta": "செல் வளர்ப்பு · தண்டு செல்கள் · உயிர்வினைக்கலன்கள் · எத்தனால் · HGP · நெறிமுறைகள் · IPR",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Seventeen diagrams for Unit IV: the culture workflow and its requirements, growth curve, finite and continuous lines, stem-cell hierarchy and iPSCs, artificial skin, a stirred-tank bioreactor, ethanol pathway and process, strategies of the Human Genome Project, and the ethical, regulatory and patent frameworks.",
+      "ta": "அலகு IV-க்கான பதினேழு வரைபடங்கள்: வளர்ப்புப் பணிப்போக்கும் தேவைகளும், வளர்ச்சி வளைவு, வரையறுக்கப்பட்ட, தொடர்ச்சியான செல் வரிசைகள், தண்டு செல் படிநிலை, iPSC-கள், செயற்கைத் தோல், கலக்கி உயிர்வினைக்கலன், எத்தனால் வளர்சிதைப் பாதையும் செயல்முறையும், மனித மரபணுத்தொகைத் திட்டத்தின் உத்திகள், நெறிமுறை, ஒழுங்குமுறை, காப்புரிமைக் கட்டமைப்புகள்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "📚 7 chapters🎯 10 MCQs📝 Exam questions🎓 B.Sc. Zoology / Biotechnology",
+      "ta": "📚 7 அத்தியாயங்கள்🎯 10 MCQ-கள்📝 தேர்வு வினாக்கள்🎓 B.Sc. விலங்கியல் / உயிரித் தொழில்நுட்பவியல்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🎯 Learning Objectives**",
+      "ta": "**🎯 கற்றல் நோக்கங்கள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "✓Draw the culture workflow and growth curve.",
+       "ta": "✓வளர்ப்புப் பணிப்போக்கையும் வளர்ச்சி வளைவையும் வரைக.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "✓Distinguish primary cultures, finite and continuous lines.",
+       "ta": "✓முதல்நிலை வளர்ப்புகள், வரையறுக்கப்பட்ட, தொடர்ச்சியான செல் வரிசைகளை வேறுபடுத்துக.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "✓Explain stem-cell potency and iPSC generation.",
+       "ta": "✓தண்டு செல் ஆற்றலையும் iPSC உருவாக்கத்தையும் விளக்குக.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "✓Label a stirred-tank bioreactor and compare reactor types.",
+       "ta": "✓கலக்கி உயிர்வினைக்கலனை வரைந்து பெயரிடுக; வினைக்கலன் வகைகளை ஒப்பிடுக.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "✓Compare the two HGP strategies and outline patenting and regulation.",
+       "ta": "✓HGP-யின் இரு உத்திகளை ஒப்பிட்டு, காப்புரிமை, ஒழுங்குமுறையை விளக்குக.",
+       "ta_status": "draft"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": {
+    "en": "Animal Cell Culture: Workflow, Requirements and Media",
+    "ta": "விலங்கு செல் வளர்ப்பு: பணிப்போக்கு, தேவைகள், ஊடகங்கள்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Culture means growing cells outside the animal under controlled, sterile conditions.",
+      "ta": "வளர்ப்பு என்பது கட்டுப்படுத்தப்பட்ட, நுண்ணுயிர் நீக்கிய நிலைகளில் விலங்குக்கு வெளியே செல்களை வளர்ப்பது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Animal cell culture\nGrowth of cells dissociated from animal tissue, in a vessel with a defined medium, at 37 °C, pH 7.2–7.4 and 5% CO₂, under aseptic conditions.",
+      "ta": "விலங்கு செல் வளர்ப்பு\nவிலங்குத் திசுவிலிருந்து பிரித்த செல்களை, வரையறுக்கப்பட்ட ஊடகத்துடன் கலனில், 37 °C, pH 7.2–7.4, 5% CO₂ மற்றும் நுண்ணுயிர் நீக்க நிலைகளில் வளர்த்தல்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas4_culture_society-d01",
+     "caption": {
+      "en": "Fig. 1. A typical culture cycle from tissue to frozen stock.",
+      "ta": "படம் 1. திசுவிலிருந்து உறைந்த இருப்பு வரையிலான வழக்கமான வளர்ப்புச் சுழற்சி.",
+      "ta_status": "draft"
+     },
+     "labels": [
+      "Aseptic collection of",
+      "tissue (biopsy, embryo)",
+      "Disaggregate: mechanical,",
+      "trypsin or collagenase",
+      "Seed cells in medium",
+      "+ serum in flask/dish",
+      "Incubate 37 °C, 5% CO₂,",
+      "humid; cells attach",
+      "Monitor daily; change",
+      "medium every 2‑3 days",
+      "Confluent: trypsinise",
+      "and subculture (passage)",
+      "Characterise; test for",
+      "mycoplasma",
+      "Cryopreserve in 10% DMSO",
+      "in liquid N₂ (−196 °C)"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas4_culture_society-d02",
+     "caption": {
+      "en": "Fig. 2. Everything cultured cells need.",
+      "ta": "படம் 2. வளர்க்கப்படும் செல்களுக்குத் தேவையான அனைத்தும்.",
+      "ta_status": "draft"
+     },
+     "labels": [
+      "Culture vessel",
+      "(flask, dish,",
+      "roller bottle)",
+      "Medium: nutrients,",
+      "glucose, amino acids,",
+      "vitamins, salts",
+      "Serum (5–10% FBS):",
+      "growth factors,",
+      "attachment factors",
+      "Gas phase:",
+      "5% CO₂ + air",
+      "37 °C incubator,",
+      "humidified",
+      "pH 7.2–7.4: bicarbonate",
+      "buffer, phenol red",
+      "Sterile technique:",
+      "laminar-flow cabinet,",
+      "antibiotics",
+      "Healthy cells"
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Medium type",
+       "ta": "ஊடக வகை",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Examples",
+       "ta": "எடுத்துக்காட்டுகள்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Notes",
+       "ta": "குறிப்புகள்",
+       "ta_status": "draft"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Natural**",
+        "ta": "**இயற்கை**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Plasma clot, serum, tissue extract, embryo extract",
+        "ta": "பிளாஸ்மா கட்டி, சீரம், திசுச் சாறு, கருச் சாறு",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Complex, variable; early work (Harrison 1907)",
+        "ta": "சிக்கலானது, மாறுபடும்; ஆரம்பகால ஆய்வு (ஹாரிசன் 1907)",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Artificial: basal**",
+        "ta": "**செயற்கை: அடிப்படை**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "MEM, DMEM, RPMI-1640, Ham’s F-12, Medium 199",
+        "ta": "MEM, DMEM, RPMI-1640, ஹாம்ஸ் F-12, ஊடகம் 199",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Defined salts, amino acids, vitamins, glucose; needs serum",
+        "ta": "வரையறுக்கப்பட்ட உப்புகள், அமினோ அமிலங்கள், வைட்டமின்கள், குளுக்கோஸ்; சீரம் தேவை",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Serum-free**",
+        "ta": "**சீரம் இல்லாதது**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Supplemented with insulin, transferrin, selenium",
+        "ta": "இன்சுலின், டிரான்ஸ்ஃபெரின், செலினியம் சேர்க்கப்பட்டது",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Reproducible; used for biopharmaceuticals",
+        "ta": "மீளுருவாகும் தன்மை; உயிர்மருந்துகளுக்குப் பயன்படும்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Chemically defined / protein-free**",
+        "ta": "**வேதியியல் வரையறுக்கப்பட்ட / புரதம் இல்லாதது**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "CHO and hybridoma media",
+        "ta": "CHO, ஹைப்ரிடோமா ஊடகங்கள்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "No animal components: safer, easier purification",
+        "ta": "விலங்குக் கூறுகள் இல்லை: பாதுகாப்பானது, தூய்மையாக்கல் எளிது",
+        "ta_status": "draft"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Culture",
+       "ta": "வளர்ப்பு",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Description",
+       "ta": "விளக்கம்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Example",
+       "ta": "எடுத்துக்காட்டு",
+       "ta_status": "draft"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Adherent (monolayer)**",
+        "ta": "**ஒட்டுவகை (ஒற்றை அடுக்கு)**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Attach to the surface; need trypsin for passage",
+        "ta": "மேற்பரப்பில் ஒட்டும்; பாசேஜுக்கு டிரிப்சின் தேவை",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Fibroblasts, epithelial cells",
+        "ta": "ஃபைப்ரோபிளாஸ்ட்கள், மேலணிச் செல்கள்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Suspension**",
+        "ta": "**மிதவை**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Grow free in medium; scalable in bioreactors",
+        "ta": "ஊடகத்தில் தனியாக வளரும்; உயிர்வினைக்கலன்களில் பெருக்கலாம்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Hybridoma, lymphocytes, CHO-S",
+        "ta": "ஹைப்ரிடோமா, நிணநீர்ச் செல்கள், CHO-S",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Primary**",
+        "ta": "**முதல்நிலை**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Directly from tissue",
+        "ta": "திசுவிலிருந்து நேரடியாக",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Chick embryo fibroblasts",
+        "ta": "கோழிக்கரு ஃபைப்ரோபிளாஸ்ட்கள்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Cell line**",
+        "ta": "**செல் வரிசை**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Subcultured many times",
+        "ta": "பலமுறை துணை வளர்ப்பு செய்யப்பட்டது",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Finite or continuous",
+        "ta": "வரையறுக்கப்பட்டது அல்லது தொடர்ச்சியானது",
+        "ta_status": "draft"
+       }
+      ]
+     ]
+    }
+   ],
+   "label": "📗 Atlas 4.1"
+  },
+  {
+   "id": "s04",
+   "title": {
+    "en": "Growth Curve, Primary Culture and Cell Lines",
+    "ta": "வளர்ச்சி வளைவு, முதல்நிலை வளர்ப்பு, செல் வரிசைகள்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Cell populations follow a predictable curve; most normal cells have a finite life span.",
+      "ta": "செல் தொகை முன்கணிக்கத்தக்க வளைவைப் பின்பற்றும்; பெரும்பாலான இயல்புச் செல்களுக்கு வரையறுக்கப்பட்ட ஆயுள் உண்டு.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas4_culture_society-d03",
+     "caption": {
+      "en": "Fig. 3. Growth curve: subculture during log phase.",
+      "ta": "படம் 3. வளர்ச்சி வளைவு: லாக் நிலையில் துணை வளர்ப்பு செய்க.",
+      "ta_status": "draft"
+     },
+     "labels": [
+      "Time (days after seeding)",
+      "log viable cell number",
+      "Lag",
+      "Log (exponential)",
+      "Plateau",
+      "Decline",
+      "adaptation; enzyme synthesis",
+      "doubling time constant (≈20–36 h)",
+      "confluence, contact inhibition, nutrient limitation",
+      "toxic wastes, cell death",
+      "Subculture here (70–80% confluent)"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas4_culture_society-d04",
+     "caption": {
+      "en": "Fig. 4. Finite versus continuous cell lines.",
+      "ta": "படம் 4. வரையறுக்கப்பட்ட – தொடர்ச்சியான செல் வரிசைகள்.",
+      "ta_status": "draft"
+     },
+     "labels": [
+      "Primary culture",
+      "(direct from tissue;",
+      "mixed cells)",
+      "Secondary cultures:",
+      "first passage onwards",
+      "(finite life span)",
+      "Finite cell line:",
+      "40–60 doublings",
+      "(Hayflick limit)",
+      "Senescence and death",
+      "Transformation (spontaneous, viral",
+      "oncogene, or tumour origin)",
+      "→ continuous / immortal cell line",
+      "HeLa, CHO, Vero, HEK-293, BHK-21",
+      "Continuous lines: unlimited division, aneuploid, less contact inhibition"
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Cell line",
+       "ta": "செல் வரிசை",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Origin",
+       "ta": "மூலம்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Use",
+       "ta": "பயன்",
+       "ta_status": "draft"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**HeLa**",
+        "ta": "**HeLa**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Human cervical carcinoma (Henrietta Lacks, 1951)",
+        "ta": "மனிதக் கருப்பைவாய்ப் புற்று (ஹென்றியேட்டா லாக்ஸ், 1951)",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Virology, cancer biology, polio vaccine testing",
+        "ta": "வைரஸ் ஆய்வு, புற்றுநோய் உயிரியல், போலியோ தடுப்பூசிச் சோதனை",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**CHO**",
+        "ta": "**CHO**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Chinese hamster ovary",
+        "ta": "சீன வெள்ளெலி சூலகம்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Recombinant protein production (mAbs, tPA)",
+        "ta": "மறுகூட்டிணைவுப் புரத உற்பத்தி (mAbs, tPA)",
+        "ta_status": "bracketed"
+       }
+      ],
+      [
+       {
+        "en": "**Vero**",
+        "ta": "**Vero**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "African green monkey kidney",
+        "ta": "ஆப்பிரிக்கப் பச்சைக் குரங்குச் சிறுநீரகம்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Vaccine production, virus assays",
+        "ta": "தடுப்பூசி உற்பத்தி, வைரஸ் மதிப்பீடுகள்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**HEK-293**",
+        "ta": "**HEK-293**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Human embryonic kidney",
+        "ta": "மனிதக் கரு சிறுநீரகம்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Transfection, viral vectors, protein expression",
+        "ta": "டிரான்ஸ்ஃபெக்ஷன், வைரஸ் தாங்கிக்கடத்திகள், புரத வெளிப்பாடு",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**BHK-21**",
+        "ta": "**BHK-21**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Baby hamster kidney",
+        "ta": "குட்டி வெள்ளெலிச் சிறுநீரகம்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Foot-and-mouth disease vaccine",
+        "ta": "கால்-வாய் நோய்த் தடுப்பூசி",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**NIH 3T3**",
+        "ta": "**NIH 3T3**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Mouse embryo fibroblast",
+        "ta": "எலிக் கரு ஃபைப்ரோபிளாஸ்ட்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Transformation (focus formation) assays",
+        "ta": "உருமாற்ற (ஃபோகஸ் உருவாக்க) மதிப்பீடுகள்",
+        "ta_status": "draft"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**PG focus**\n• Hayflick (1961): normal human fibroblasts divide about 50 times, a limit linked to telomere shortening.\n• Cross-contamination is a major problem: HeLa has overgrown many lines, so authenticate lines by STR profiling.\n• Test regularly for mycoplasma (PCR, Hoechst stain).",
+      "ta": "**PG கவனம்**\n• ஹேஃப்ளிக் (1961): இயல்பு மனித ஃபைப்ரோபிளாஸ்ட்கள் சுமார் 50 முறை பிரியும்; இவ்வரம்பு டீலோமியர் குறுக்கத்துடன் தொடர்புடையது.\n• குறுக்கு மாசுபாடு பெரும் சிக்கல்: HeLa பல வரிசைகளை மிஞ்சியுள்ளது; எனவே STR சுயவிவரம் மூலம் செல் வரிசைகளை உறுதிசெய்க.\n• மைக்கோபிளாஸ்மாவுக்கு (PCR, ஹோக்ஸ்ட் கறை) அடிக்கடி சோதிக்க.",
+      "ta_status": "draft"
+     }
+    }
+   ],
+   "label": "📘 Atlas 4.2"
+  },
+  {
+   "id": "s05",
+   "title": {
+    "en": "Stem Cells, iPSCs, Organ Culture and Artificial Skin",
+    "ta": "தண்டு செல்கள், iPSC-கள், உறுப்பு வளர்ப்பு, செயற்கைத் தோல்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Stem cells self-renew and differentiate; they underpin regenerative medicine and tissue engineering.",
+      "ta": "தண்டு செல்கள் தன்புதுப்பித்தல், வேறுபாடடைதல் செய்யும்; மீளுருவாக்க மருத்துவம், திசுப் பொறியியலின் அடிப்படை.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas4_culture_society-d05",
+     "caption": {
+      "en": "Fig. 5. Potency hierarchy.",
+      "ta": "படம் 5. ஆற்றல் படிநிலை.",
+      "ta_status": "draft"
+     },
+     "labels": [
+      "Zygote (totipotent)",
+      "Blastocyst: inner cell mass",
+      "+ trophoblast",
+      "Embryonic stem cells (ESC)",
+      "pluripotent",
+      "Ectoderm",
+      "skin, neurons",
+      "Mesoderm",
+      "muscle, blood, bone",
+      "Endoderm",
+      "gut, liver, lung",
+      "Adult stem cells",
+      "multipotent: HSC, MSC,",
+      "neural, epidermal",
+      "iPSC: somatic cell +",
+      "Oct4, Sox2, Klf4, c-Myc",
+      "(Yamanaka, 2006)",
+      "Potency: totipotent > pluripotent > multipotent > unipotent"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas4_culture_society-d06",
+     "caption": {
+      "en": "Fig. 6. Yamanaka’s reprogramming (Nobel Prize 2012 with Gurdon).",
+      "ta": "படம் 6. யமனகாவின் மறுநிரலாக்கம் (குர்டனுடன் 2012 நோபல் பரிசு).",
+      "ta_status": "draft"
+     },
+     "labels": [
+      "Skin fibroblasts or blood",
+      "cells from patient",
+      "Introduce Oct4, Sox2,",
+      "Klf4, c-Myc (Sendai virus",
+      "or episomal plasmids)",
+      "Reprogrammed to iPSC:",
+      "ESC-like colonies",
+      "Differentiate in vitro:",
+      "cardiomyocytes, neurons,",
+      "beta cells",
+      "Disease modelling, drug",
+      "screening, autologous",
+      "cell therapy"
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Stem-cell source",
+       "ta": "தண்டு செல் மூலம்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Advantages",
+       "ta": "நன்மைகள்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Concerns",
+       "ta": "கவலைகள்",
+       "ta_status": "draft"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Embryonic (ESC)**",
+        "ta": "**கரு (ESC)**",
+        "ta_status": "bracketed"
+       },
+       {
+        "en": "Pluripotent, unlimited growth",
+        "ta": "புளூரிபொட்டென்ட், வரம்பற்ற வளர்ச்சி",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Ethical objections; teratoma risk; immune rejection",
+        "ta": "நெறிமுறை எதிர்ப்புகள்; டெராட்டோமா ஆபத்து; நோயெதிர்ப்பு நிராகரிப்பு",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Adult (HSC, MSC)**",
+        "ta": "**முதிர்ந்தவை (HSC, MSC)**",
+        "ta_status": "bracketed"
+       },
+       {
+        "en": "Established therapy (bone-marrow transplant); autologous",
+        "ta": "நிறுவப்பட்ட சிகிச்சை (எலும்பு மஜ்ஜை மாற்று); தன்செல்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Limited potency and numbers",
+        "ta": "வரையறுக்கப்பட்ட ஆற்றலும் எண்ணிக்கையும்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**iPSC**",
+        "ta": "**iPSC**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Patient-specific; avoids embryo use",
+        "ta": "நோயாளிக்கே உரியது; கருவைப் பயன்படுத்தாது",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Tumour risk; genetic/epigenetic abnormalities; cost",
+        "ta": "கட்டி ஆபத்து; மரபணு/புறமரபணு முறைகேடுகள்; செலவு",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Cord blood**",
+        "ta": "**தொப்புள்கொடி இரத்தம்**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Non-invasive, banked",
+        "ta": "ஊடுருவாதது, வங்கியில் சேமிக்கப்படுவது",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Small numbers of cells",
+        "ta": "குறைந்த செல் எண்ணிக்கை",
+        "ta_status": "draft"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Technique",
+       "ta": "நுட்பம்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Principle",
+       "ta": "கொள்கை",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Use",
+       "ta": "பயன்",
+       "ta_status": "draft"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Plasma clot / raft**",
+        "ta": "**பிளாஸ்மா கட்டி / ராஃப்ட்**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Explant on a clot or lens paper at medium–air interface",
+        "ta": "ஊடகம்–காற்று இடைமுகத்தில் கட்டி அல்லது லென்ஸ் தாளின்மீது எக்ஸ்பிளான்ட்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Embryonic organ development",
+        "ta": "கரு உறுப்பு வளர்ச்சி",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Agar / grid method (Trowell)**",
+        "ta": "**அகார் / கிரிட் முறை (டிரோவெல்)**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Tissue on a metal grid at medium surface",
+        "ta": "ஊடக மேற்பரப்பில் உலோக வலைமீது திசு",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Gas exchange in organ culture",
+        "ta": "உறுப்பு வளர்ப்பில் வளிமப் பரிமாற்றம்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Organ-on-a-chip**",
+        "ta": "**உறுப்பு-சிப்பில்**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Microfluidic channels with living cells",
+        "ta": "உயிருள்ள செல்களுடன் நுண்பாய்ம வழிகள்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Drug testing without animals",
+        "ta": "விலங்குகள் இன்றி மருந்துச் சோதனை",
+        "ta_status": "draft"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas4_culture_society-d07",
+     "caption": {
+      "en": "Fig. 7. Artificial skin mimics epidermis and dermis.",
+      "ta": "படம் 7. செயற்கைத் தோல் மேற்றோலையும் தோலிடையையும் பின்பற்றுகிறது.",
+      "ta_status": "draft"
+     },
+     "labels": [
+      "Native skin",
+      "Artificial (cultured) skin",
+      "Epidermis: keratinocytes",
+      "(stratified)",
+      "Basement membrane",
+      "Dermis: fibroblasts",
+      "in collagen",
+      "Hypodermis (fat)",
+      "Cultured keratinocyte sheet",
+      "(Green, 1970s)",
+      "Collagen / biodegradable matrix",
+      "+ fibroblasts (dermal equivalent)",
+      "Silicone layer (temporary",
+      "epidermis): Integra",
+      "Uses: burns, chronic ulcers, drug and cosmetic testing (replaces animals)"
+     ]
+    }
+   ],
+   "label": "📙 Atlas 4.3"
+  },
+  {
+   "id": "s06",
+   "title": {
+    "en": "Bioreactors and Scale-up",
+    "ta": "உயிர்வினைக்கலன்களும் பெருக்கமும்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Large-scale culture needs controlled mixing, aeration, temperature and pH.",
+      "ta": "பெரிய அளவிலான வளர்ப்புக்குக் கட்டுப்படுத்தப்பட்ட கலக்குதல், காற்றூட்டம், வெப்பநிலை, pH தேவை.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas4_culture_society-d08",
+     "caption": {
+      "en": "Fig. 8. A stirred-tank bioreactor with sensors and sparger.",
+      "ta": "படம் 8. உணரிகளும் ஸ்பார்ஜரும் கொண்ட கலக்கி உயிர்வினைக்கலன்.",
+      "ta_status": "draft"
+     },
+     "labels": [
+      "Motor",
+      "Sparger (air, O₂, CO₂)",
+      "Inlet: fresh medium",
+      "pH probe",
+      "DO probe",
+      "Temperature probe (37 °C jacket)",
+      "Exhaust gas (through filter)",
+      "Impeller: gentle mixing (low shear)",
+      "Harvest / sampling port",
+      "Stirred-tank bioreactor (CSTR)"
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Bioreactor",
+       "ta": "உயிர்வினைக்கலன்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Principle",
+       "ta": "கொள்கை",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Suited to",
+       "ta": "ஏற்றது",
+       "ta_status": "draft"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Stirred tank**",
+        "ta": "**கலக்கிக் கலன்**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Impeller mixes; sparger aerates",
+        "ta": "இம்பெல்லர் கலக்கும்; ஸ்பார்ஜர் காற்றூட்டும்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Suspension cells; scale up to 20 000 L",
+        "ta": "மிதவைச் செல்கள்; 20 000 L வரை பெருக்கலாம்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Airlift**",
+        "ta": "**காற்றெழுப்புக் கலன்**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Air bubbles drive circulation, no impeller",
+        "ta": "காற்றுக் குமிழ்கள் சுழற்சியை இயக்கும்; இம்பெல்லர் இல்லை",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Shear-sensitive cells",
+        "ta": "உராய்வுக்கு உணர்திறன் உள்ள செல்கள்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Hollow fibre**",
+        "ta": "**துளை இழை**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Cells outside capillaries; medium flows inside",
+        "ta": "செல்கள் நுண்குழாய்களுக்கு வெளியே; ஊடகம் உள்ளே பாயும்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "High-density hybridoma; mAb",
+        "ta": "உயர் அடர்த்தி ஹைப்ரிடோமா; mAb",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Packed bed / fluidised bed**",
+        "ta": "**நிரப்பிய படுக்கை / திரவமாக்கிய படுக்கை**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Cells on carriers (microcarriers, Cytodex)",
+        "ta": "கடத்திகளில் (நுண்கடத்திகள், Cytodex) செல்கள்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Adherent cells at large scale",
+        "ta": "பெரிய அளவில் ஒட்டுவகைச் செல்கள்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Wave / single-use bag**",
+        "ta": "**அலை / ஒருமுறைப் பை**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Rocking platform, disposable bag",
+        "ta": "அசையும் மேடை, தூக்கியெறியும் பை",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Clinical-scale, rapid changeover",
+        "ta": "மருத்துவ அளவு, விரைவு மாற்றம்",
+        "ta_status": "draft"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas4_culture_society-d09",
+     "caption": {
+      "en": "Fig. 9. Batch, fed-batch and perfusion operation.",
+      "ta": "படம் 9. தொகுதி, ஊட்டத் தொகுதி, பெர்ஃபியூஷன் செயல்பாடு.",
+      "ta_status": "draft"
+     },
+     "labels": [
+      "Batch: fixed medium;",
+      "harvest at end",
+      "Fed-batch: nutrient",
+      "fed during run;",
+      "harvest at end",
+      "Continuous / perfusion:",
+      "medium in and out",
+      "continuously, cells retained"
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Scale-up problems**\n• Oxygen transfer limits (kLa) and CO₂ build-up.\n• Shear damage to animal cells (no cell wall): use gentle impellers, Pluronic F-68.\n• Heterogeneous mixing in large tanks.",
+      "ta": "**பெருக்கச் சிக்கல்கள்**\n• ஆக்சிஜன் பரிமாற்ற வரம்புகள் (kLa), CO₂ சேர்தல்.\n• விலங்குச் செல்களுக்கு (செல் சுவர் இல்லை) உராய்வுச் சேதம்: மென்மையான இம்பெல்லர்கள், Pluronic F-68 பயன்படுத்துக.\n• பெரிய தொட்டிகளில் ஒருபடித்தல்லாக் கலப்பு.",
+      "ta_status": "draft"
+     }
+    }
+   ],
+   "label": "📒 Atlas 4.4"
+  },
+  {
+   "id": "s07",
+   "title": {
+    "en": "Industrial Fermentation: Ethanol",
+    "ta": "தொழிற்சாலை நொதித்தல்: எத்தனால்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Yeast converts sugars to ethanol and carbon dioxide under anaerobic conditions.",
+      "ta": "ஈஸ்ட் காற்றில்லா நிலையில் சர்க்கரைகளை எத்தனாலாகவும் கார்பன் டைஆக்சைடாகவும் மாற்றும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas4_culture_society-d10",
+     "caption": {
+      "en": "Fig. 10. Pathway of ethanol formation by _Saccharomyces cerevisiae_.",
+      "ta": "படம் 10. _சக்கரோமைசீஸ் செரிவிசியே_ மூலம் எத்தனால் உருவாகும் பாதை.",
+      "ta_status": "draft"
+     },
+     "labels": [
+      "Starch / cane molasses (sucrose)",
+      "Hydrolysis: amylase or invertase",
+      "Glucose / fructose",
+      "Glycolysis → 2 pyruvate",
+      "Saccharomyces cerevisiae",
+      "Pyruvate decarboxylase → acetaldehyde + CO₂",
+      "Alcohol dehydrogenase → ethanol (regenerates NAD⁺)",
+      "Net: C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂ (theoretical yield 0.51 g/g)"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas4_culture_society-d11",
+     "caption": {
+      "en": "Fig. 11. Industrial production of ethanol.",
+      "ta": "படம் 11. எத்தனாலின் தொழிற்சாலை உற்பத்தி.",
+      "ta_status": "draft"
+     },
+     "labels": [
+      "Raw material: molasses",
+      "or grain",
+      "Pre-treatment, dilution,",
+      "pH 4.5–5.0, sterilise",
+      "Inoculate yeast;",
+      "ferment 30–35 °C,",
+      "30–72 h (anaerobic)",
+      "Wash (7–10% ethanol)",
+      "Distillation: ~95% ethanol",
+      "(azeotrope)",
+      "Dehydration: molecular",
+      "sieve → absolute ethanol",
+      "Stillage: animal feed",
+      "or biogas",
+      "Use: fuel blend, solvent,",
+      "beverage"
+     ]
+    }
+   ],
+   "label": "📓 Atlas 4.5"
+  },
+  {
+   "id": "s08",
+   "title": {
+    "en": "Human Genome Project: Strategies and Findings",
+    "ta": "மனித மரபணுத்தொகைத் திட்டம்: உத்திகளும் கண்டுபிடிப்புகளும்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "The HGP sequenced the human genome and set the model for large-scale, open biology.",
+      "ta": "HGP மனித மரபணுத்தொகையத்தை வரிசைப்படுத்தி, பெரிய அளவிலான திறந்த உயிரியலுக்கு முன்மாதிரியை அமைத்தது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas4_culture_society-d12",
+     "caption": {
+      "en": "Fig. 12. Milestones.",
+      "ta": "படம் 12. மைல்கற்கள்.",
+      "ta_status": "draft"
+     },
+     "labels": [
+      "1990",
+      "HGP begins (NIH, DOE)",
+      "1998",
+      "Celera formed",
+      "2001",
+      "Draft sequence published",
+      "2003",
+      "Completed (99%)",
+      "2022",
+      "T2T-CHM13: gapless"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas4_culture_society-d13",
+     "caption": {
+      "en": "Fig. 13. Hierarchical (public) approach.",
+      "ta": "படம் 13. படிநிலை (பொது) அணுகுமுறை.",
+      "ta_status": "draft"
+     },
+     "labels": [
+      "Hierarchical",
+      "(clone-by-clone)",
+      "public consortium",
+      "Break genome into large",
+      "BAC clones (100–200 kb)",
+      "Map clones: fingerprint",
+      "and overlap (contigs)",
+      "Shotgun sequence each",
+      "BAC; assemble"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas4_culture_society-d14",
+     "caption": {
+      "en": "Fig. 14. Whole-genome shotgun (private) approach.",
+      "ta": "படம் 14. முழு மரபணுத்தொகைய ஷாட்கன் (தனியார்) அணுகுமுறை.",
+      "ta_status": "draft"
+     },
+     "labels": [
+      "Whole-genome shotgun",
+      "Celera Genomics (Venter)",
+      "Shear genome into random",
+      "fragments; make libraries",
+      "Sequence both ends of",
+      "millions of clones",
+      "Computer assembly of",
+      "scaffolds using overlaps"
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Map type",
+       "ta": "வரைபட வகை",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Unit",
+       "ta": "அலகு",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Based on",
+       "ta": "அடிப்படை",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Resolution",
+       "ta": "தெளிவுத்திறன்",
+       "ta_status": "draft"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Genetic (linkage)**",
+        "ta": "**மரபணு (இணைப்பு)**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "centiMorgan (cM)",
+        "ta": "சென்டிமார்கன் (cM)",
+        "ta_status": "bracketed"
+       },
+       {
+        "en": "Recombination frequency",
+        "ta": "மறுசேர்க்கை அதிர்வெண்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "~1 Mb",
+        "ta": "~1 Mb",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Physical: cytogenetic**",
+        "ta": "**இயற்பியல்: செல்மரபியல்**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Band",
+        "ta": "பட்டை",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Giemsa staining; FISH",
+        "ta": "கீம்சா கறையேற்றம்; FISH",
+        "ta_status": "draft"
+       },
+       {
+        "en": "~5–10 Mb",
+        "ta": "~5–10 Mb",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Physical: STS / RH**",
+        "ta": "**இயற்பியல்: STS / RH**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "cR or kb",
+        "ta": "cR அல்லது kb",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Radiation hybrids, STS content",
+        "ta": "கதிர்வீச்சு கலப்பினங்கள், STS உள்ளடக்கம்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "~100 kb",
+        "ta": "~100 kb",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Sequence**",
+        "ta": "**வரிசை**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "bp",
+        "ta": "bp",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Nucleotide sequence",
+        "ta": "நியுக்ளியோடைடு வரிசை",
+        "ta_status": "draft"
+       },
+       {
+        "en": "1 bp",
+        "ta": "1 bp",
+        "ta_status": "draft"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Fact",
+       "ta": "உண்மை",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Value",
+       "ta": "மதிப்பு",
+       "ta_status": "draft"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Genome size**",
+        "ta": "**மரபணுத்தொகைய அளவு**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "≈3.1 billion bp (haploid)",
+        "ta": "≈3.1 பில்லியன் bp (ஒற்றைமடியம்)",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Protein-coding genes**",
+        "ta": "**புரதம் குறியீடும் மரபணுக்கள்**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "≈20 000–20 500",
+        "ta": "≈20 000–20 500",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Coding fraction of genome**",
+        "ta": "**மரபணுத்தொகையத்தில் குறியீட்டுப் பகுதி**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "≈1.5%",
+        "ta": "≈1.5%",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Repeat content**",
+        "ta": "**மீள்வரிசை உள்ளடக்கம்**",
+        "ta_status": "draft"
+       },
+       {
+        "en": ">50% (Alu ≈10%, LINE-1 ≈17%)",
+        "ta": ">50% (Alu ≈10%, LINE-1 ≈17%)",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Duration; cost**",
+        "ta": "**கால அளவு; செலவு**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "1990–2003; ≈US$3 billion",
+        "ta": "1990–2003; ≈US$3 பில்லியன்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**SNP density**",
+        "ta": "**SNP அடர்த்தி**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "≈1 per 1000 bp between two people",
+        "ta": "இருவருக்கிடையே ≈1000 bp-க்கு 1",
+        "ta_status": "draft"
+       }
+      ]
+     ]
+    }
+   ],
+   "label": "📑 Atlas 4.6"
+  },
+  {
+   "id": "s09",
+   "title": {
+    "en": "Bioethics, Regulation and Intellectual Property",
+    "ta": "உயிர்நெறியியல், ஒழுங்குமுறை, அறிவுசார் சொத்துரிமை",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Powerful technology needs ethical frameworks, legal oversight and a way to reward invention.",
+      "ta": "வலிமையான தொழில்நுட்பத்துக்கு நெறிமுறைக் கட்டமைப்புகளும், சட்ட மேற்பார்வையும், கண்டுபிடிப்புக்குப் பரிசளிக்கும் வழியும் தேவை.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "atlas4_culture_society-d15",
+     "caption": {
+      "en": "Fig. 15. Principles of bioethics.",
+      "ta": "படம் 15. உயிர்நெறியியலின் கோட்பாடுகள்.",
+      "ta_status": "draft"
+     },
+     "labels": [
+      "Biotechnology",
+      "ethics",
+      "Autonomy",
+      "Informed consent;",
+      "privacy; right not to know",
+      "Beneficence /",
+      "non-maleficence",
+      "Benefit vs risk;",
+      "biosafety; clinical trials",
+      "Justice",
+      "Fair access; benefit",
+      "sharing; no discrimination",
+      "Animal welfare",
+      "3Rs: Replace, Reduce,",
+      "Refine"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas4_culture_society-d16",
+     "caption": {
+      "en": "Fig. 16. Regulatory pathway in India.",
+      "ta": "படம் 16. இந்தியாவில் ஒழுங்குமுறைப் பாதை.",
+      "ta_status": "draft"
+     },
+     "labels": [
+      "Idea / lead product",
+      "in laboratory",
+      "Institutional Biosafety",
+      "Committee (IBSC)",
+      "Review Committee on",
+      "Genetic Manipulation (RCGM,",
+      "DBT)",
+      "Genetic Engineering",
+      "Appraisal Committee (GEAC,",
+      "MoEF&CC) for environmental",
+      "release",
+      "Animal experiments:",
+      "CPCSEA, IAEC",
+      "Clinical trials: CDSCO,",
+      "Ethics Committee, CTRI",
+      "Approval and",
+      "post-marketing",
+      "surveillance"
+     ]
+    },
+    {
+     "type": "diagram",
+     "id": "atlas4_culture_society-d17",
+     "caption": {
+      "en": "Fig. 17. From invention to patent.",
+      "ta": "படம் 17. கண்டுபிடிப்பிலிருந்து காப்புரிமை வரை.",
+      "ta_status": "draft"
+     },
+     "labels": [
+      "Invention: novel, inventive",
+      "step, industrial application",
+      "Search prior art",
+      "File application with",
+      "specification and claims",
+      "(Patent Office, India)",
+      "Publication after 18 months",
+      "Request for examination;",
+      "objections and hearing",
+      "Grant (20 years from",
+      "filing) and renewal fees",
+      "Opposition (pre-grant,",
+      "post-grant) or enforcement",
+      "PCT: international filing",
+      "within 12 months"
+     ]
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "IPR",
+       "ta": "IPR",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Protects",
+       "ta": "பாதுகாப்பது",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Term (India)",
+       "ta": "காலம் (இந்தியா)",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Biotech example",
+       "ta": "உயிரித் தொழில்நுட்ப எடுத்துக்காட்டு",
+       "ta_status": "draft"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Patent**",
+        "ta": "**காப்புரிமை (Patent)**",
+        "ta_status": "bracketed"
+       },
+       {
+        "en": "Inventions: product or process",
+        "ta": "கண்டுபிடிப்புகள்: பொருள் அல்லது செயல்முறை",
+        "ta_status": "draft"
+       },
+       {
+        "en": "20 years",
+        "ta": "20 ஆண்டுகள்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Recombinant insulin process; CRISPR method",
+        "ta": "மறுகூட்டிணைவு இன்சுலின் செயல்முறை; CRISPR முறை",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Copyright**",
+        "ta": "**பதிப்புரிமை (Copyright)**",
+        "ta_status": "bracketed"
+       },
+       {
+        "en": "Original expression",
+        "ta": "அசல் வெளிப்பாடு",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Life + 60 years",
+        "ta": "ஆயுள் + 60 ஆண்டுகள்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Databases, software, textbooks",
+        "ta": "தரவுத்தளங்கள், மென்பொருள், பாடநூல்கள்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Trademark**",
+        "ta": "**வணிகக்குறி (Trademark)**",
+        "ta_status": "bracketed"
+       },
+       {
+        "en": "Brand identity",
+        "ta": "தயாரிப்பு அடையாளம்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "10 years, renewable",
+        "ta": "10 ஆண்டுகள், புதுப்பிக்கத்தக்கது",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Product names",
+        "ta": "பொருள் பெயர்கள்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Trade secret**",
+        "ta": "**வணிக ரகசியம்**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Confidential know-how",
+        "ta": "இரகசியத் தொழில்நுட்ப அறிவு",
+        "ta_status": "draft"
+       },
+       {
+        "en": "As long as secret",
+        "ta": "ரகசியமாக இருக்கும் வரை",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Cell-line media formulation",
+        "ta": "செல் வரிசை ஊடகத் தயாரிப்பு விகிதம்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Plant variety / GI**",
+        "ta": "**தாவர வகை / GI**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Varieties, origin",
+        "ta": "வகைகள், தோற்றிடம்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "PPVFR Act 2001; GI Act 1999",
+        "ta": "PPVFR சட்டம் 2001; GI சட்டம் 1999",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Basmati, Darjeeling tea",
+        "ta": "பாஸ்மதி, டார்ஜிலிங் தேநீர்",
+        "ta_status": "draft"
+       }
+      ]
+     ]
+    }
+   ],
+   "label": "📎 Atlas 4.7"
+  },
+  {
+   "id": "s10",
+   "title": {
+    "en": "Summary & Exam Revision",
+    "ta": "சுருக்கமும் தேர்வுத் திருப்புதலும்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Key points and model answers likely to appear in university examinations.",
+      "ta": "பல்கலைக்கழகத் தேர்வுகளில் வர வாய்ப்புள்ள முக்கியக் குறிப்புகளும் மாதிரி விடைகளும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key exam points**",
+      "ta": "**முக்கியத் தேர்வுக் குறிப்புகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1",
+      "ta": "1",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Culture conditions: 37 °C, 5% CO₂, pH 7.2–7.4, humid, sterile; serum 5–10%.",
+      "ta": "வளர்ப்பு நிலைகள்: 37 °C, 5% CO₂, pH 7.2–7.4, ஈரப்பதம், நுண்ணுயிர் நீக்கம்; சீரம் 5–10%.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2",
+      "ta": "2",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Growth curve: lag, log, plateau, decline; subculture in log phase.",
+      "ta": "வளர்ச்சி வளைவு: லேக், லாக், பிளேட்டோ, வீழ்ச்சி; லாக் நிலையில் துணை வளர்ப்பு.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "3",
+      "ta": "3",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Normal cells have a finite life span (Hayflick limit ~50); continuous lines are transformed.",
+      "ta": "இயல்புச் செல்களுக்கு வரையறுக்கப்பட்ட ஆயுள் (ஹேஃப்ளிக் வரம்பு ~50); தொடர் வரிசைகள் உருமாறியவை.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "4",
+      "ta": "4",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "HeLa, CHO, Vero, HEK-293, BHK-21: know origin and use.",
+      "ta": "HeLa, CHO, Vero, HEK-293, BHK-21: மூலமும் பயனும் அறிக.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5",
+      "ta": "5",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Stem cell potency: totipotent > pluripotent > multipotent; iPSCs by Oct4, Sox2, Klf4, c-Myc.",
+      "ta": "தண்டு செல் ஆற்றல்: டோட்டிபொட்டென்ட் > புளூரிபொட்டென்ட் > மல்டிபொட்டென்ட்; Oct4, Sox2, Klf4, c-Myc மூலம் iPSC-கள்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "6",
+      "ta": "6",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Artificial skin: cultured keratinocytes on a collagen/fibroblast matrix.",
+      "ta": "செயற்கைத் தோல்: கொலாஜன்/ஃபைப்ரோபிளாஸ்ட் அணிமீது வளர்த்த கெரட்டினோசைட்டுகள்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "7",
+      "ta": "7",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Bioreactors: stirred tank, airlift, hollow fibre, packed bed; batch, fed-batch, perfusion.",
+      "ta": "உயிர்வினைக்கலன்கள்: கலக்கிக் கலன், காற்றெழுப்புக் கலன், துளை இழை, நிரப்பிய படுக்கை; தொகுதி, ஊட்டத் தொகுதி, பெர்ஃபியூஷன்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "8",
+      "ta": "8",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Ethanol: pyruvate → acetaldehyde + CO₂ → ethanol; yeast; distillation.",
+      "ta": "எத்தனால்: பைருவேட் → அசிட்டால்டிஹைடு + CO₂ → எத்தனால்; ஈஸ்ட்; காய்ச்சி வடித்தல்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "9",
+      "ta": "9",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "HGP: 1990–2003, 3.1 Gb, ~20 000 genes, ~1.5% coding; BAC vs shotgun.",
+      "ta": "HGP: 1990–2003, 3.1 Gb, ~20 000 மரபணுக்கள், ~1.5% குறியீட்டுப் பகுதி; BAC – ஷாட்கன்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "10",
+      "ta": "10",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Patent: novelty, inventive step, industrial application; 20 years in India; RCGM, GEAC, CPCSEA regulate.",
+      "ta": "காப்புரிமை: புதுமை, கண்டுபிடிப்புப் படி, தொழிற்சாலைப் பயன்பாடு; இந்தியாவில் 20 ஆண்டுகள்; RCGM, GEAC, CPCSEA ஒழுங்குபடுத்தும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Short-answer questions**",
+      "ta": "**குறுவினாக்கள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click a question to reveal the model answer.",
+      "ta": "மாதிரி விடையைக் காண வினாவைத் தொடுக.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.1List the requirements for animal cell culture.▼",
+      "ta": "வி.1விலங்கு செல் வளர்ப்புக்கான தேவைகளைப் பட்டியலிடுக.▼",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Sterile vessel and aseptic technique; basal medium with serum or defined supplements; 37 °C; 5% CO₂ humidified atmosphere; pH 7.2–7.4 (bicarbonate buffer, phenol red indicator).",
+      "ta": "நுண்ணுயிர் நீக்கிய கலனும் நுண்ணுயிர் நீக்க நுட்பமும்; சீரம் அல்லது வரையறுக்கப்பட்ட சேர்க்கைகளுடன் அடிப்படை ஊடகம்; 37 °C; ஈரப்பதமான 5% CO₂ சூழல்; pH 7.2–7.4 (பைகார்பனேட் தாங்கல், பீனால் சிவப்புக் காட்டி).",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.2Describe the growth curve of cultured cells.▼",
+      "ta": "வி.2வளர்க்கப்படும் செல்களின் வளர்ச்சி வளைவை விவரிக்க.▼",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Lag (adaptation), log (exponential growth), plateau (confluence, nutrient limitation) and decline (toxic waste, death). Subculture in log phase.",
+      "ta": "லேக் (தகவமைவு), லாக் (அடுக்குக்குறி வளர்ச்சி), பிளேட்டோ (கன்ஃப்ளூயன்சி, ஊட்டச்சத்துப் பற்றாக்குறை), வீழ்ச்சி (நச்சுக் கழிவு, இறப்பு). லாக் நிலையில் துணை வளர்ப்பு செய்க.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.3Differentiate primary culture and cell line.▼",
+      "ta": "வி.3முதல்நிலை வளர்ப்புக்கும் செல் வரிசைக்கும் உள்ள வேறுபாடு யாது?▼",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Primary culture is taken directly from tissue; once subcultured it becomes a cell line, finite (40–60 doublings) or continuous (immortal, transformed).",
+      "ta": "முதல்நிலை வளர்ப்பு திசுவிலிருந்து நேரடியாக எடுக்கப்படுவது; துணை வளர்ப்பு செய்யப்பட்டதும் அது செல் வரிசையாகும் — வரையறுக்கப்பட்டது (40–60 இரட்டிப்புகள்) அல்லது தொடர்ச்சியானது (சாகா, உருமாறியது).",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.4What are iPS cells?▼",
+      "ta": "வி.4iPS செல்கள் என்பவை யாவை?▼",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Pluripotent cells made by reprogramming somatic cells with Oct4, Sox2, Klf4 and c-Myc (Yamanaka 2006); patient-specific and avoid embryo destruction.",
+      "ta": "Oct4, Sox2, Klf4, c-Myc மூலம் உடல் செல்களை மறுநிரலாக்கி உருவாக்கிய புளூரிபொட்டென்ட் செல்கள் (யமனகா 2006); நோயாளிக்கே உரியவை; கருவை அழிக்க வேண்டியதில்லை.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.5Describe a stirred-tank bioreactor.▼",
+      "ta": "வி.5கலக்கி உயிர்வினைக்கலனை விவரிக்க.▼",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A vessel with impeller, sparger, probes for pH, dissolved oxygen and temperature, jacket, inlet and harvest ports; mixing and aeration are controlled for suspension cells.",
+      "ta": "இம்பெல்லர், ஸ்பார்ஜர், pH, கரைந்த ஆக்சிஜன், வெப்பநிலைக்கான உணரிகள், உறை, உள்ளீடு, அறுவடைத் துளைகள் கொண்ட கலன்; மிதவைச் செல்களுக்குக் கலப்பும் காற்றூட்டமும் கட்டுப்படுத்தப்படும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.6Explain how ethanol is produced industrially.▼",
+      "ta": "வி.6எத்தனால் தொழிற்சாலையில் எவ்வாறு உற்பத்தியாகிறது என்பதை விளக்குக.▼",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Molasses or hydrolysed starch is fermented by _S. cerevisiae_ at 30–35 °C; wash with 7–10% ethanol is distilled to ~95% and dehydrated with molecular sieves.",
+      "ta": "மொலாசஸ் அல்லது நீராற்பகுத்த மாவுப்பொருள் _S. cerevisiae_ மூலம் 30–35 °C-இல் நொதிக்கப்படும்; 7–10% எத்தனால் உள்ள கழுவுநீர் ~95% வரை காய்ச்சி வடிக்கப்பட்டு மூலக்கூறு சல்லடைகளால் நீர் நீக்கப்படும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.7Compare the two approaches to the Human Genome Project.▼",
+      "ta": "வி.7மனித மரபணுத்தொகைத் திட்டத்தின் இரு அணுகுமுறைகளை ஒப்பிடுக.▼",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Public: hierarchical BAC mapping then shotgun of each clone. Celera: whole-genome shotgun and computer assembly. Both converged in 2001.",
+      "ta": "பொது: படிநிலை BAC வரைபடம், பின்னர் ஒவ்வொரு குளோனின் ஷாட்கன். செலெரா: முழு மரபணுத்தொகைய ஷாட்கனும் கணினித் தொகுப்பும். இரண்டும் 2001-இல் இணைந்தன.",
+      "ta_status": "draft"
+     }
+    }
+   ],
+   "label": "📋 Summary"
+  },
+  {
+   "id": "s11",
+   "title": {
+    "en": "Key Terms & Glossary",
+    "ta": "முக்கியச் சொற்களும் சொற்களஞ்சியமும்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Important terms in simple language.",
+      "ta": "முக்கியச் சொற்கள் எளிய மொழியில்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Confluence",
+      "ta": "கன்ஃப்ளூயன்சி",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "Fraction of the surface covered by adherent cells.",
+      "ta": "ஒட்டுவகைச் செல்களால் மூடப்பட்ட மேற்பரப்பின் பகுதி.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Passage",
+      "ta": "பாசேஜ்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "Transfer of cells into fresh vessels (subculture).",
+      "ta": "செல்களைப் புதிய கலன்களுக்கு மாற்றுதல் (துணை வளர்ப்பு).",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Hayflick limit",
+      "ta": "ஹேஃப்ளிக் வரம்பு",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "Finite number of divisions of normal cells.",
+      "ta": "இயல்புச் செல்கள் பிரியக்கூடிய வரையறுக்கப்பட்ட எண்ணிக்கை.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Contact inhibition",
+      "ta": "தொடுகைத் தடுப்பு",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "Stopping of growth when cells touch.",
+      "ta": "செல்கள் ஒன்றையொன்று தொடும்போது வளர்ச்சி நிற்றல்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Pluripotent",
+      "ta": "புளூரிபொட்டென்ட்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "Able to form all three germ layers.",
+      "ta": "மூன்று கரு அடுக்குகளையும் உருவாக்கும் திறன்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Perfusion",
+      "ta": "பெர்ஃபியூஷன்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "Continuous supply of fresh medium with cell retention.",
+      "ta": "செல்களைத் தக்கவைத்தபடி புதிய ஊடகத்தை தொடர்ச்சியாக அளித்தல்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Sparger",
+      "ta": "ஸ்பார்ஜர்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "Device that bubbles gas into a bioreactor.",
+      "ta": "உயிர்வினைக்கலனுள் வளிமத்தைக் குமிழியாகச் செலுத்தும் கருவி.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Contig",
+      "ta": "காண்டிக்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "Set of overlapping DNA clones or reads.",
+      "ta": "ஒன்றன்மேல் ஒன்று படியும் DNA குளோன்கள் அல்லது வாசிப்புகளின் தொகுப்பு.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "BAC",
+      "ta": "BAC",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "Bacterial artificial chromosome (100–200 kb).",
+      "ta": "பாக்டீரிய செயற்கை நிறப்புரி (100–200 kb).",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Prior art",
+      "ta": "முந்தைய கலை (Prior art)",
+      "ta_status": "bracketed"
+     },
+     "definition": {
+      "en": "Existing knowledge that may defeat novelty of a patent.",
+      "ta": "காப்புரிமையின் புதுமையை மறுக்கக்கூடிய ஏற்கனவே உள்ள அறிவு.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "GEAC",
+      "ta": "GEAC",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "Genetic Engineering Appraisal Committee, India.",
+      "ta": "மரபணுப் பொறியியல் மதிப்பீட்டுக் குழு, இந்தியா.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "3Rs",
+      "ta": "3R-கள்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "Replace, Reduce, Refine in animal research.",
+      "ta": "விலங்கு ஆய்வில் மாற்றுதல் (Replace), குறைத்தல் (Reduce), மேம்படுத்தல் (Refine).",
+      "ta_status": "bracketed"
+     }
+    }
+   ],
+   "label": "📖 Glossary"
+  }
+ ],
+ "skipped": [
+  "page-8"
+ ],
+ "dropped": [
+  {
+   "selector": "nav",
+   "count": 1,
+   "sample": [
+    "🎨 Atlas IV: Culture, HGP & Ethics Animal Biotechnology · Uni"
+   ]
+  },
+  {
+   "selector": "#mob-hdr",
+   "count": 1,
+   "sample": [
+    "☰ Atlas IV: Culture, HGP & Ethics"
+   ]
+  },
+  {
+   "selector": "#overlay",
+   "count": 1,
+   "sample": []
+  },
+  {
+   "selector": "footer",
+   "count": 11,
+   "sample": [
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh",
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh",
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh"
+   ]
+  },
+  {
+   "selector": ".start-btn",
+   "count": 1,
+   "sample": [
+    "Begin Learning →"
+   ]
+  },
+  {
+   "selector": ".btn-outline",
+   "count": 10,
+   "sample": [
+    "← Atlas IV: Culture, HGP & Ethics",
+    "← Cell Culture Basics",
+    "← Growth & Cell Lines"
+   ]
+  },
+  {
+   "selector": ".btn-primary",
+   "count": 11,
+   "sample": [
+    "Growth & Cell Lines →",
+    "Stem Cells & Tissues →",
+    "Bioreactors →"
+   ]
+  },
+  {
+   "selector": ".pg-nav",
+   "count": 10,
+   "sample": []
+  }
+ ],
+ "extractor": "1"
+}

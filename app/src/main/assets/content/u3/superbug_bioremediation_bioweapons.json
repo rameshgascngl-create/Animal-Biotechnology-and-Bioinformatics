@@ -1,0 +1,1393 @@
+{
+ "id": "superbug_bioremediation_bioweapons",
+ "unit": "III",
+ "title": {
+  "en": "Superbug, Bioremediation & Bioweapons",
+  "ta": "சூப்பர்பக், உயிரிவழி சீரமைப்பு, உயிரி ஆயுதங்கள்",
+  "ta_status": "draft"
+ },
+ "sections": [
+  {
+   "id": "s01",
+   "title": {
+    "en": "Overview",
+    "ta": "மேலோட்டம்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "🦠 Unit III · Environmental and Security Aspects",
+      "ta": "🦠 அலகு III · சூழலியல், பாதுகாப்புக் கூறுகள்",
+      "ta_status": "draft"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "title": {
+    "en": "Superbug, Bioremediation and Bioweapons",
+    "ta": "சூப்பர்பக், உயிரிவழி சீரமைப்பு, உயிரி ஆயுதங்கள்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Superbug, Bioremediation and Bioweapons",
+      "ta": "சூப்பர்பக், உயிரிவழி சீரமைப்பு, உயிரி ஆயுதங்கள்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Engineered microbes can digest oil, but the same biology can be misused. This module explains the Chakrabarty superbug, the principles of bioremediation and the history, law and defence concerning biological weapons.",
+      "ta": "பொறியியல் நுண்ணுயிரிகள் எண்ணெயைச் செரிக்க வல்லவை; ஆனால் அதே உயிரியல் தவறாகவும் பயன்படுத்தப்படலாம். இப்பகுதி சக்கரவர்த்தியின் சூப்பர்பக், உயிரிவழி சீரமைப்பின் கோட்பாடுகள், உயிரி ஆயுதங்கள் தொடர்பான வரலாறு, சட்டம், பாதுகாப்பு ஆகியவற்றை விளக்குகிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "📚 4 chapters🎯 10 MCQs📝 Exam questions🎓 B.Sc. Zoology / Biotechnology",
+      "ta": "📚 4 பாடங்கள்🎯 10 MCQ-கள்📝 தேர்வு வினாக்கள்🎓 B.Sc. விலங்கியல் / உயிரித் தொழில்நுட்பவியல்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🎯 Learning Objectives**",
+      "ta": "**🎯 கற்றல் நோக்கங்கள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "✓Explain what the \"superbug\" is and how it was constructed.",
+       "ta": "✓“சூப்பர்பக்” என்றால் என்ன, அது எவ்வாறு உருவாக்கப்பட்டது என்பதை விளக்குக.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "✓Describe the significance of Diamond v. Chakrabarty.",
+       "ta": "✓டயமண்ட் – சக்கரவர்த்தி வழக்கின் முக்கியத்துவத்தை விவரிக்க.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "✓Differentiate biostimulation, bioaugmentation, in situ and ex situ methods.",
+       "ta": "✓உயிர்த்தூண்டல், உயிர்ப்பெருக்கம், இன் சிட்டு, எக்ஸ் சிட்டு முறைகளை வேறுபடுத்துக.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "✓Give examples of organisms and pollutants in bioremediation.",
+       "ta": "✓உயிரிவழி சீரமைப்பில் உயிரினங்கள், மாசுகளின் எடுத்துக்காட்டுகளைத் தருக.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "✓Describe bioweapons, relevant treaties and biosecurity measures.",
+       "ta": "✓உயிரி ஆயுதங்கள், தொடர்புடைய ஒப்பந்தங்கள், உயிர்ப் பாதுகாப்பு நடவடிக்கைகளை விவரிக்க.",
+       "ta_status": "draft"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": {
+    "en": "Superbug: The Oil-Eating Bacterium",
+    "ta": "சூப்பர்பக்: எண்ணெய் உண்ணும் பாக்டீரியம்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "The first genetically engineered organism to be patented was a \"superbug\" designed to degrade crude oil.",
+      "ta": "காப்புரிமை பெற்ற முதல் மரபணுப் பொறியியல் உயிரினம், கச்சா எண்ணெயைச் சிதைக்க வடிவமைக்கப்பட்ட “சூப்பர்பக்”.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Superbug (in biotechnology)\nA genetically engineered bacterium, developed by **Ananda Mohan Chakrabarty** (General Electric, 1971–72), carrying several hydrocarbon-degrading plasmids so that it can digest more components of crude oil than any single natural strain.",
+      "ta": "சூப்பர்பக் (உயிரித் தொழில்நுட்பவியலில்)\n**ஆனந்த மோகன் சக்கரவர்த்தி** (ஜெனரல் எலக்ட்ரிக், 1971–72) உருவாக்கிய, பல ஹைட்ரோகார்பன் சிதைக்கும் பிளாஸ்மிட்களைக் கொண்ட மரபணுப் பொறியியல் பாக்டீரியம்; எந்த ஒரு இயற்கைத் திரிபையும்விட கச்சா எண்ணெயின் அதிகக் கூறுகளைச் செரிக்க வல்லது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**How the superbug was made**",
+      "ta": "**சூப்பர்பக் எவ்வாறு உருவாக்கப்பட்டது**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Different _Pseudomonas_ strains each degrade only some hydrocarbons, because the genes sit on separate plasmids. Chakrabarty used **conjugation** to bring the plasmids into one cell.",
+      "ta": "வெவ்வேறு _சூடோமோனாஸ்_ திரிபுகள் ஒவ்வொன்றும் சில ஹைட்ரோகார்பன்களை மட்டுமே சிதைக்கும்; ஏனெனில் மரபணுக்கள் தனித்தனிப் பிளாஸ்மிட்களில் உள்ளன. சக்கரவர்த்தி **இணைவுறுதல் (conjugation)** மூலம் பிளாஸ்மிட்களை ஒரே செல்லில் கொண்டுவந்தார்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Plasmid",
+       "ta": "பிளாஸ்மிட்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Hydrocarbons degraded",
+       "ta": "சிதைக்கும் ஹைட்ரோகார்பன்கள்",
+       "ta_status": "draft"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**CAM**",
+        "ta": "**CAM**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Camphor",
+        "ta": "கற்பூரம்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**OCT**",
+        "ta": "**OCT**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Octane (aliphatic hydrocarbons)",
+        "ta": "ஆக்டேன் (நேர்சங்கிலி ஹைட்ரோகார்பன்கள்)",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**XYL**",
+        "ta": "**XYL**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Xylene and toluene",
+        "ta": "சைலீன், டொலுவீன்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**NAH**",
+        "ta": "**NAH**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Naphthalene",
+        "ta": "நாப்தலீன்",
+        "ta_status": "draft"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Result**\nOne bacterium (_Pseudomonas_ sp., usually cited as _P. putida_) that degrades **about two-thirds of the hydrocarbons** in crude oil, faster than mixed natural strains. The CAM and OCT plasmids are incompatible and recombine into one hybrid plasmid in the engineered strain.",
+      "ta": "**விளைவு**\nகச்சா எண்ணெயிலுள்ள **ஏறத்தாழ மூன்றில் இரு பங்கு ஹைட்ரோகார்பன்களை** இயற்கைக் கலவைத் திரிபுகளைவிட விரைவாகச் சிதைக்கும் ஒரு பாக்டீரியம் (_சூடோமோனாஸ்_ இனம்; பொதுவாக _P. putida_ எனக் குறிக்கப்படும்). CAM, OCT பிளாஸ்மிட்கள் இணையாதவை; பொறியியல் திரிபில் ஒரே கலப்பினப் பிளாஸ்மிடாக மறுகூட்டிணையும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Diamond v. Chakrabarty (1980)**",
+      "ta": "**டயமண்ட் – சக்கரவர்த்தி வழக்கு (1980)**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1971** — Patent application filed for the bacterium",
+      "ta": "**1971** — பாக்டீரியத்துக்கான காப்புரிமை விண்ணப்பம் தாக்கல்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1980** — US Supreme Court (5–4) rules that a live, human-made micro-organism is **patentable** subject matter",
+      "ta": "**1980** — உயிருள்ள, மனிதனால் உருவாக்கிய நுண்ணுயிரி **காப்புரிமைக்குரியது** என அமெரிக்க உச்சநீதிமன்றம் (5–4) தீர்ப்பு",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Impact** — Opened the way to patenting biotechnology inventions, including later patents on transgenic organisms",
+      "ta": "**தாக்கம்** — மரபணுமாற்ற உயிரினங்கள் மீதான பிந்தைய காப்புரிமைகள் உட்பட, உயிரித் தொழில்நுட்பக் கண்டுபிடிப்புகளுக்குக் காப்புரிமை பெறும் வழியைத் திறந்தது",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Two different meanings of \"superbug\"**\n• **Biotechnology**: Chakrabarty's oil-eating _Pseudomonas_.\n• **Medicine**: bacteria resistant to many antibiotics, e.g. **MRSA**, NDM-1-producing _Enterobacteriaceae_.\n• Read the exam question to see which sense is meant.",
+      "ta": "**“சூப்பர்பக்” என்பதன் இரு வேறு பொருள்கள்**\n• **உயிரித் தொழில்நுட்பவியல்**: சக்கரவர்த்தியின் எண்ணெய் உண்ணும் _சூடோமோனாஸ்_.\n• **மருத்துவம்**: பல ஆன்டிபயாடிக்குகளுக்கு எதிர்ப்புள்ள பாக்டீரியங்கள், எ.கா. **MRSA**, NDM-1 உருவாக்கும் _என்டிரோபாக்டீரியேசி_.\n• எந்தப் பொருளில் கேட்கப்படுகிறது என்பதைத் தேர்வு வினாவிலிருந்து அறிக.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Why was it not widely used?**\nThe strain was not adopted for large-scale clean-up. Engineered strains often compete poorly with native microbes, the strain degraded only some oil fractions, and release of genetically modified organisms is tightly regulated.",
+      "ta": "**இது ஏன் பரவலாகப் பயன்படுத்தப்படவில்லை?**\nபெரிய அளவிலான தூய்மைப்படுத்தலுக்கு இத்திரிபு ஏற்கப்படவில்லை. பொறியியல் திரிபுகள் உள்ளூர் நுண்ணுயிரிகளுடன் பெரும்பாலும் மோசமாகப் போட்டியிடும்; இத்திரிபு எண்ணெயின் சில பகுதிகளை மட்டுமே சிதைத்தது; மரபணு மாற்றிய உயிரினங்களை வெளியிடுவது கடுமையாக ஒழுங்குபடுத்தப்படுகிறது.",
+      "ta_status": "draft"
+     }
+    }
+   ],
+   "label": "📗 Chapter 1"
+  },
+  {
+   "id": "s04",
+   "title": {
+    "en": "Bioremediation",
+    "ta": "உயிரிவழி சீரமைப்பு",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Living organisms are used to break down or immobilise pollutants and restore a contaminated site.",
+      "ta": "மாசுபட்ட இடத்தை மீட்க, மாசுகளைச் சிதைக்க அல்லது அசைவற்றதாக்க உயிரினங்கள் பயன்படுத்தப்படுகின்றன.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Bioremediation\nThe use of micro-organisms, fungi, plants or their enzymes to degrade, detoxify or remove pollutants from soil, water or air, converting them to less harmful products (ideally CO2, water and biomass).",
+      "ta": "உயிரிவழி சீரமைப்பு\nமண், நீர் அல்லது காற்றிலுள்ள மாசுகளைச் சிதைக்க, நச்சுநீக்க அல்லது அகற்ற நுண்ணுயிரிகள், பூஞ்சைகள், தாவரங்கள் அல்லது அவற்றின் நொதிகளைப் பயன்படுத்தி, அவற்றைக் குறைவான தீங்குடைய விளைபொருள்களாக (சிறந்த நிலையில் CO2, நீர், உயிரித்திரள்) மாற்றுதல்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Approaches**",
+      "ta": "**அணுகுமுறைகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Biostimulation**",
+      "ta": "**உயிர்த்தூண்டல்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Adding nutrients (N, P), oxygen or electron acceptors to stimulate the _native_ pollutant-degrading microbes.",
+      "ta": "_உள்ளூர்_ மாசு சிதைக்கும் நுண்ணுயிரிகளைத் தூண்ட ஊட்டச்சத்துகள் (N, P), ஆக்சிஜன் அல்லது எலக்ட்ரான் ஏற்பிகளைச் சேர்த்தல்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Bioaugmentation**",
+      "ta": "**உயிர்ப்பெருக்கம்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Adding specially selected or engineered microbes to a site that lacks degraders.",
+      "ta": "சிதைப்பிகள் இல்லாத இடத்தில் சிறப்பாகத் தெரிவு செய்த அல்லது பொறியியல் நுண்ணுயிரிகளைச் சேர்த்தல்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Phytoremediation**",
+      "ta": "**தாவரவழி சீரமைப்பு**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Using plants to extract, stabilise or degrade contaminants (e.g. sunflower, Indian mustard for heavy metals).",
+      "ta": "மாசுகளை உறிஞ்ச, நிலைப்படுத்த அல்லது சிதைக்கத் தாவரங்களைப் பயன்படுத்தல் (எ.கா. கனஉலோகங்களுக்குச் சூரியகாந்தி, இந்திய கடுகு).",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Mycoremediation**",
+      "ta": "**பூஞ்சைவழி சீரமைப்பு**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Using fungi, e.g. white-rot fungi that degrade lignin-like pollutants and dyes.",
+      "ta": "பூஞ்சைகளைப் பயன்படுத்தல்; எ.கா. லிக்னின் போன்ற மாசுகளையும் சாயங்களையும் சிதைக்கும் வெள்ளை அழுகல் பூஞ்சைகள்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**In situ versus ex situ**",
+      "ta": "**இன் சிட்டு – எக்ஸ் சிட்டு**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "",
+       "ta": "",
+       "ta_status": "draft"
+      },
+      {
+       "en": "In situ",
+       "ta": "இன் சிட்டு",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Ex situ",
+       "ta": "எக்ஸ் சிட்டு",
+       "ta_status": "draft"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Where**",
+        "ta": "**இடம்**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "At the contaminated site",
+        "ta": "மாசுபட்ட இடத்திலேயே",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Material excavated and treated elsewhere",
+        "ta": "பொருள் தோண்டியெடுக்கப்பட்டு வேறிடத்தில் சிகிச்சை",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Examples**",
+        "ta": "**எடுத்துக்காட்டுகள்**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Bioventing, biosparging, natural attenuation",
+        "ta": "உயிர்க் காற்றோட்டம், உயிர்க் காற்றூட்டம், இயற்கைத் தணிவு",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Land farming, biopiles, bioreactors",
+        "ta": "நிலவளர்ப்பு, உயிர்க் குவியல்கள், உயிர்வினையகங்கள்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Cost**",
+        "ta": "**செலவு**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Lower, less disturbance",
+        "ta": "குறைவு, குறைந்த தொந்தரவு",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Higher, but better control",
+        "ta": "அதிகம், ஆனால் சிறந்த கட்டுப்பாடு",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Speed**",
+        "ta": "**வேகம்**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Slower",
+        "ta": "மெதுவானது",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Faster",
+        "ta": "விரைவானது",
+        "ta_status": "draft"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Organisms and pollutants**",
+      "ta": "**உயிரினங்களும் மாசுகளும்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Organism",
+       "ta": "உயிரினம்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Pollutant treated",
+       "ta": "சிகிச்சையளிக்கப்படும் மாசு",
+       "ta_status": "draft"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**_Pseudomonas putida_**",
+        "ta": "**_சூடோமோனாஸ் புட்டிடா_**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Petroleum hydrocarbons, toluene",
+        "ta": "பெட்ரோலிய ஹைட்ரோகார்பன்கள், டொலுவீன்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**_Alcanivorax borkumensis_**",
+        "ta": "**_அல்கனிவோராக்ஸ் போர்க்குமென்சிஸ்_**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Alkanes in marine oil spills",
+        "ta": "கடல் எண்ணெய்க் கசிவுகளிலுள்ள ஆல்கேன்கள்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**_Dehalococcoides_**",
+        "ta": "**_டிஹேலோகாக்கோயிடெஸ்_**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Chlorinated solvents (trichloroethene)",
+        "ta": "குளோரினேற்றம் பெற்ற கரைப்பான்கள் (டிரைகுளோரோஈத்தீன்)",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**_Geobacter_**",
+        "ta": "**_ஜியோபாக்டர்_**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Uranium reduction; metals",
+        "ta": "யுரேனிய ஒடுக்கம்; உலோகங்கள்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**_Deinococcus radiodurans_ (engineered)**",
+        "ta": "**_டீனோகாக்கஸ் ரேடியோடுரான்ஸ்_ (பொறியியல்)**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Radioactive mixed waste (mercury, toluene) — experimental",
+        "ta": "கதிரியக்கக் கலவைக் கழிவு (பாதரசம், டொலுவீன்) — ஆய்வுநிலை",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**_Thiobacillus ferrooxidans_**",
+        "ta": "**_தயோபேசில்லஸ் ஃபெரூஆக்சிடன்ஸ்_**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Bioleaching of copper and other metals",
+        "ta": "செம்பு, பிற உலோகங்களின் உயிர்க் கசிவு",
+        "ta_status": "draft"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Case study: Exxon Valdez (Alaska, 1989)**\nAbout 11 million US gallons of crude oil polluted Prince William Sound shorelines. **Fertiliser was applied to stimulate native oil-degrading bacteria** (biostimulation), which greatly accelerated oil removal on treated beaches. It is the classic example of large-scale bioremediation.",
+      "ta": "**நிகழ்வு ஆய்வு: எக்சான் வால்டெஸ் (அலாஸ்கா, 1989)**\nஏறத்தாழ 11 மில்லியன் அமெரிக்க கேலன் கச்சா எண்ணெய் பிரின்ஸ் வில்லியம் சவுண்ட் கடற்கரைகளை மாசுபடுத்தியது. **உள்ளூர் எண்ணெய் சிதைக்கும் பாக்டீரியங்களைத் தூண்ட உரம் இடப்பட்டது** (உயிர்த்தூண்டல்); இது சிகிச்சையளித்த கடற்கரைகளில் எண்ணெய் அகற்றத்தைப் பெரிதும் விரைவுபடுத்தியது. பெரிய அளவிலான உயிரிவழி சீரமைப்பின் உன்னத எடுத்துக்காட்டு இது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Advantages and limits**\n• **Advantages**: low cost, eco-friendly, converts pollutants to harmless products, minimal disturbance.\n• **Limits**: slow, site-specific, incomplete for some pollutants (e.g. some heavy metals cannot be degraded, only transformed), and release of engineered strains is regulated.",
+      "ta": "**நன்மைகளும் வரம்புகளும்**\n• **நன்மைகள்**: குறைந்த செலவு, சூழல் நட்பு, மாசுகளைத் தீங்கற்ற பொருள்களாக மாற்றுதல், குறைந்த தொந்தரவு.\n• **வரம்புகள்**: மெதுவானது, இடத்துக்கேற்றது, சில மாசுகளுக்கு முழுமையற்றது (எ.கா. சில கனஉலோகங்களைச் சிதைக்க இயலாது, மாற்றம் மட்டுமே செய்யலாம்), பொறியியல் திரிபுகளை வெளியிடுவது ஒழுங்குபடுத்தப்படுகிறது.",
+      "ta_status": "draft"
+     }
+    }
+   ],
+   "label": "📘 Chapter 2"
+  },
+  {
+   "id": "s05",
+   "title": {
+    "en": "Bioweapons and Biosecurity",
+    "ta": "உயிரி ஆயுதங்களும் உயிர்ப் பாதுகாவலும்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Biological agents can be misused to cause disease. Understanding the history, classification and legal controls is part of responsible biotechnology.",
+      "ta": "உயிரிக் காரணிகள் நோயை உண்டாக்கத் தவறாகப் பயன்படுத்தப்படலாம். வரலாறு, வகைப்பாடு, சட்டக் கட்டுப்பாடுகளைப் புரிந்துகொள்வது பொறுப்புள்ள உயிரித் தொழில்நுட்பவியலின் பகுதி.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "Biological weapon\nA biological weapon uses pathogens (bacteria, viruses, fungi) or their toxins to cause disease or death in humans, animals or plants. **Bioterrorism** is the deliberate release of such agents by non-state actors.",
+      "ta": "உயிரி ஆயுதம்\nஉயிரி ஆயுதம் மனிதர், விலங்கு, தாவரங்களில் நோய் அல்லது இறப்பை உண்டாக்க நோய்க்கிருமிகளை (பாக்டீரியங்கள், வைரஸ்கள், பூஞ்சைகள்) அல்லது அவற்றின் நச்சுகளைப் பயன்படுத்தும். **உயிரிப் பயங்கரவாதம்** என்பது அரசு சாரா அமைப்புகள் இத்தகைய காரணிகளை வேண்டுமென்றே வெளியிடுவது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "This chapter is limited to the general, educational level required by the syllabus: classification, history, international law and defence.",
+      "ta": "இப்பாடம் பாடத்திட்டம் கோரும் பொது, கல்வி நிலைக்கு — வகைப்பாடு, வரலாறு, பன்னாட்டுச் சட்டம், தற்காப்பு — வரம்பிடப்பட்டுள்ளது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**CDC categories of bioterrorism agents**",
+      "ta": "**உயிரிப் பயங்கரவாதக் காரணிகளின் CDC வகைகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Category",
+       "ta": "வகை",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Description",
+       "ta": "விளக்கம்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Examples",
+       "ta": "எடுத்துக்காட்டுகள்",
+       "ta_status": "draft"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**A**",
+        "ta": "**A**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Highest risk: easily spread, high mortality, need special public-health preparedness",
+        "ta": "மிக உயர் ஆபத்து: எளிதில் பரவும், அதிக இறப்பு, சிறப்பு பொதுச் சுகாதார ஆயத்தம் தேவை",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Anthrax (_Bacillus anthracis_), smallpox (variola virus), plague (_Yersinia pestis_), botulism toxin, tularaemia, viral haemorrhagic fevers",
+        "ta": "ஆந்த்ராக்ஸ் (_பேசில்லஸ் ஆந்த்ராசிஸ்_), பெரியம்மை (வேரியோலா வைரஸ்), பிளேக் (_யெர்சினியா பெஸ்டிஸ்_), போட்டுலிசம் நச்சு, டியூலரேமியா, வைரஸ் இரத்தக்கசிவுக் காய்ச்சல்கள்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**B**",
+        "ta": "**B**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Moderately easy to spread, lower mortality",
+        "ta": "மிதமான எளிதில் பரவும், குறைந்த இறப்பு",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Brucellosis, Q fever, ricin toxin, salmonellosis",
+        "ta": "புருசெல்லோசிஸ், Q காய்ச்சல், ரிசின் நச்சு, சால்மோனெல்லோசிஸ்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**C**",
+        "ta": "**C**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Emerging pathogens that could be engineered",
+        "ta": "பொறியியலுக்கு உட்படுத்தக்கூடிய புதிதாகத் தோன்றும் நோய்க்கிருமிகள்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Nipah virus, hantavirus",
+        "ta": "நிபா வைரஸ், ஹாண்டாவைரஸ்",
+        "ta_status": "draft"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**History and landmarks**",
+      "ta": "**வரலாறும் மைல்கற்களும்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1925** — Geneva Protocol prohibits **use** of chemical and biological weapons in war",
+      "ta": "**1925** — ஜெனீவா நெறிமுறை போரில் வேதி, உயிரி ஆயுதங்களின் **பயன்பாட்டைத்** தடை செய்கிறது",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1972 / 1975** — Biological Weapons Convention (BWC) opened for signature in 1972; in force from **1975**; bans development, production and stockpiling",
+      "ta": "**1972 / 1975** — உயிரி ஆயுத ஒப்பந்தம் (BWC) 1972-இல் கையெழுத்துக்குத் திறக்கப்பட்டு, **1975-இல்** நடைமுறைக்கு வந்தது; உருவாக்கம், உற்பத்தி, சேமிப்பைத் தடை செய்கிறது",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1979** — Accidental anthrax release at Sverdlovsk (USSR) killed dozens of people",
+      "ta": "**1979** — சோவியத் ஒன்றியத்தின் ஸ்வெர்ட்லோவ்ஸ்கில் தற்செயலான ஆந்த்ராக்ஸ் வெளியீடு; டஜன் கணக்கானோர் இறந்தனர்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1995** — Aum Shinrikyo sarin attack in Tokyo; the cult had also attempted biological attacks",
+      "ta": "**1995** — டோக்கியோவில் ஆம் ஷின்ரிக்கியோவின் சாரின் தாக்குதல்; அவ்வமைப்பு உயிரித் தாக்குதல்களையும் முயன்றிருந்தது",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**2001** — Anthrax-contaminated letters in the USA (5 deaths)",
+      "ta": "**2001** — அமெரிக்காவில் ஆந்த்ராக்ஸ் கலந்த கடிதங்கள் (5 இறப்புகள்)",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Defence and prevention**\n• **Surveillance** and rapid diagnostics (PCR, immunoassays).\n• **Vaccines** and stockpiled antibiotics/antitoxins.\n• **Biosafety levels BSL-1 to BSL-4** in laboratories.\n• **Dual-use research of concern** oversight — research that has legitimate use but could be misused.\n• Export controls on dangerous pathogens (Australia Group).",
+      "ta": "**தற்காப்பும் தடுப்பும்**\n• **கண்காணிப்பும்** விரைவு நோயறிதலும் (PCR, நோயெதிர்ப்புச் சோதனைகள்).\n• **தடுப்பூசிகளும்** சேமித்த ஆன்டிபயாடிக்குகள்/நச்சு எதிர்ப்பிகளும்.\n• ஆய்வகங்களில் **உயிர்ப் பாதுகாப்பு நிலைகள் BSL-1 முதல் BSL-4 வரை**.\n• **இருவழிப் பயன்பாட்டு ஆய்வுக் கவலை** மேற்பார்வை — முறையான பயன்பாடு இருப்பினும் தவறாகப் பயன்படுத்தக்கூடிய ஆய்வு.\n• ஆபத்தான நோய்க்கிருமிகளுக்கு ஏற்றுமதிக் கட்டுப்பாடுகள் (ஆஸ்திரேலியக் குழு).",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Relevance to India**\nIndia is a party to the Biological Weapons Convention (ratified in 1974) and regulates dangerous pathogens through the Environment (Protection) Act 1986, the Rules for hazardous micro-organisms and genetically engineered organisms (1989), and the WMD Act, 2005.",
+      "ta": "**இந்தியாவுக்குத் தொடர்பு**\nஇந்தியா உயிரி ஆயுத ஒப்பந்தத்தில் ஓர் உறுப்பு நாடு (1974-இல் ஒப்புதல்); சுற்றுச்சூழல் (பாதுகாப்பு) சட்டம் 1986, அபாயகரமான நுண்ணுயிரிகள், மரபணுப் பொறியியல் உயிரினங்களுக்கான விதிகள் (1989), WMD சட்டம் 2005 மூலம் ஆபத்தான நோய்க்கிருமிகளை ஒழுங்குபடுத்துகிறது.",
+      "ta_status": "draft"
+     }
+    }
+   ],
+   "label": "📙 Chapter 3"
+  },
+  {
+   "id": "s06",
+   "title": {
+    "en": "Interactive Practice",
+    "ta": "ஊடாடும் பயிற்சி",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Test the key distinctions.",
+      "ta": "முக்கிய வேறுபாடுகளைச் சோதிக்க.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Biostimulation vs bioaugmentation**",
+      "ta": "**உயிர்த்தூண்டல் – உயிர்ப்பெருக்கம்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click to reveal",
+      "ta": "தொட்டுக் காண்க",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "AnswerBiostimulation adds **nutrients/oxygen** to native microbes. Bioaugmentation adds **new microbes**.",
+      "ta": "விடைஉயிர்த்தூண்டல் உள்ளூர் நுண்ணுயிரிகளுக்கு **ஊட்டச்சத்துகள்/ஆக்சிஜனைச்** சேர்க்கிறது. உயிர்ப்பெருக்கம் **புதிய நுண்ணுயிரிகளைச்** சேர்க்கிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Chakrabarty case**",
+      "ta": "**சக்கரவர்த்தி வழக்கு**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click to reveal",
+      "ta": "தொட்டுக் காண்க",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Answer**Diamond v. Chakrabarty, 1980**: US Supreme Court allowed a patent on a live genetically engineered bacterium.",
+      "ta": "விடை**டயமண்ட் – சக்கரவர்த்தி, 1980**: உயிருள்ள மரபணுப் பொறியியல் பாக்டீரியத்துக்குக் காப்புரிமை வழங்க அமெரிக்க உச்சநீதிமன்றம் அனுமதித்தது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Exxon Valdez**",
+      "ta": "**எக்சான் வால்டெஸ்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click to reveal",
+      "ta": "தொட்டுக் காண்க",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Answer1989 oil spill; **fertiliser-based biostimulation** sped up clean-up.",
+      "ta": "விடை1989 எண்ணெய்க் கசிவு; **உரம் சார்ந்த உயிர்த்தூண்டல்** தூய்மைப்படுத்தலை விரைவுபடுத்தியது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Phytoremediation**",
+      "ta": "**தாவரவழி சீரமைப்பு**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click to reveal",
+      "ta": "தொட்டுக் காண்க",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "AnswerUse of **plants** to remove or detoxify pollutants.",
+      "ta": "விடை மாசுகளை அகற்ற அல்லது நச்சுநீக்க **தாவரங்களைப்** பயன்படுத்தல்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**BWC**",
+      "ta": "**BWC**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click to reveal",
+      "ta": "தொட்டுக் காண்க",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "AnswerBans development, production and stockpiling of biological weapons; in force **1975**.",
+      "ta": "விடைஉயிரி ஆயுதங்களின் உருவாக்கம், உற்பத்தி, சேமிப்பைத் தடை செய்கிறது; **1975-இல்** நடைமுறைக்கு வந்தது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**MRSA**",
+      "ta": "**MRSA**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click to reveal",
+      "ta": "தொட்டுக் காண்க",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "AnswerMethicillin-resistant _Staphylococcus aureus_: a medical \"superbug\".",
+      "ta": "விடைமெத்திசிலின் எதிர்ப்பு _ஸ்டேஃபிலோகாக்கஸ் ஆரியஸ்_: மருத்துவ “சூப்பர்பக்”.",
+      "ta_status": "draft"
+     }
+    }
+   ],
+   "label": "🎮 Chapter 4"
+  },
+  {
+   "id": "s07",
+   "title": {
+    "en": "Summary & Exam Revision",
+    "ta": "சுருக்கமும் தேர்வுத் திருப்புதலும்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Key points and model answers likely to appear in university examinations.",
+      "ta": "பல்கலைக்கழகத் தேர்வுகளில் வர வாய்ப்புள்ள முக்கியக் குறிப்புகளும் மாதிரி விடைகளும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Key exam points**",
+      "ta": "**தேர்வுக்கான முக்கியக் குறிப்புகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1",
+      "ta": "1",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Superbug** (Chakrabarty): _Pseudomonas_ with CAM, OCT, XYL and NAH plasmids; degrades crude oil.",
+      "ta": "**சூப்பர்பக்** (சக்கரவர்த்தி): CAM, OCT, XYL, NAH பிளாஸ்மிட்கள் கொண்ட _சூடோமோனாஸ்_; கச்சா எண்ணெயைச் சிதைக்கும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2",
+      "ta": "2",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Diamond v. Chakrabarty (1980)**: first patent on a living, engineered organism.",
+      "ta": "**டயமண்ட் – சக்கரவர்த்தி (1980)**: உயிருள்ள, பொறியியல் உயிரினத்துக்கான முதல் காப்புரிமை.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "3",
+      "ta": "3",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Bioremediation = biological clean-up: **biostimulation**, **bioaugmentation**, **phytoremediation**.",
+      "ta": "உயிரிவழி சீரமைப்பு = உயிரியல் தூய்மைப்படுத்தல்: **உயிர்த்தூண்டல்**, **உயிர்ப்பெருக்கம்**, **தாவரவழி சீரமைப்பு**.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "4",
+      "ta": "4",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "In situ (at site) versus ex situ (excavated).",
+      "ta": "இன் சிட்டு (இடத்திலேயே) – எக்ஸ் சிட்டு (தோண்டியெடுத்து).",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5",
+      "ta": "5",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Exxon Valdez 1989: fertiliser biostimulation accelerated degradation.",
+      "ta": "எக்சான் வால்டெஸ் 1989: உர உயிர்த்தூண்டல் சிதைவை விரைவுபடுத்தியது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "6",
+      "ta": "6",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Medical \"superbugs\" (MRSA, NDM-1) are antibiotic-resistant pathogens — a different meaning.",
+      "ta": "மருத்துவ “சூப்பர்பக்” (MRSA, NDM-1) ஆன்டிபயாடிக் எதிர்ப்பு நோய்க்கிருமிகள் — வேறு பொருள்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "7",
+      "ta": "7",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**BWC (1975)** bans development, production, stockpiling; Geneva Protocol (1925) bans use.",
+      "ta": "**BWC (1975)** உருவாக்கம், உற்பத்தி, சேமிப்பைத் தடை செய்கிறது; ஜெனீவா நெறிமுறை (1925) பயன்பாட்டைத் தடை செய்கிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "8",
+      "ta": "8",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "CDC Category A agents: anthrax, smallpox, plague, botulism, tularaemia, haemorrhagic fevers.",
+      "ta": "CDC வகை A காரணிகள்: ஆந்த்ராக்ஸ், பெரியம்மை, பிளேக், போட்டுலிசம், டியூலரேமியா, இரத்தக்கசிவுக் காய்ச்சல்கள்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Short-answer questions**",
+      "ta": "**குறுவினாக்கள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click a question to reveal the model answer.",
+      "ta": "ஒரு வினாவைத் தொட்டு மாதிரி விடையைக் காண்க.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.1What is a superbug? Who developed it?▼",
+      "ta": "வி.1சூப்பர்பக் என்றால் என்ன? அதை உருவாக்கியவர் யார்?▼",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A genetically engineered _Pseudomonas_ carrying plasmids (CAM, OCT, XYL, NAH) for degrading different hydrocarbons, developed by A. M. Chakrabarty (General Electric) and patented after the US Supreme Court decision of 1980.",
+      "ta": "வெவ்வேறு ஹைட்ரோகார்பன்களைச் சிதைக்கும் பிளாஸ்மிட்களை (CAM, OCT, XYL, NAH) கொண்ட மரபணுப் பொறியியல் _சூடோமோனாஸ்_; ஏ. எம். சக்கரவர்த்தி (ஜெனரல் எலக்ட்ரிக்) உருவாக்கினார்; 1980 அமெரிக்க உச்சநீதிமன்றத் தீர்ப்புக்குப் பின் காப்புரிமை பெற்றது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.2Define bioremediation. Distinguish biostimulation and bioaugmentation.▼",
+      "ta": "வி.2உயிரிவழி சீரமைப்பை வரையறுக்க. உயிர்த்தூண்டல் – உயிர்ப்பெருக்கத்தை வேறுபடுத்துக.▼",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Bioremediation is the use of living organisms to degrade or detoxify pollutants. Biostimulation adds nutrients/oxygen to stimulate native microbes; bioaugmentation adds specialised microbes.",
+      "ta": "உயிரிவழி சீரமைப்பு என்பது மாசுகளைச் சிதைக்க அல்லது நச்சுநீக்க உயிரினங்களைப் பயன்படுத்துதல். உயிர்த்தூண்டல் உள்ளூர் நுண்ணுயிரிகளைத் தூண்ட ஊட்டச்சத்துகள்/ஆக்சிஜனைச் சேர்க்கும்; உயிர்ப்பெருக்கம் சிறப்பு நுண்ணுயிரிகளைச் சேர்க்கும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.3Differentiate in situ and ex situ bioremediation.▼",
+      "ta": "வி.3இன் சிட்டு – எக்ஸ் சிட்டு உயிரிவழி சீரமைப்பை வேறுபடுத்துக.▼",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "In situ treats pollutants at the site (bioventing, biosparging); ex situ treats excavated material elsewhere (land farming, biopiles, bioreactors).",
+      "ta": "இன் சிட்டு மாசுகளை இடத்திலேயே சிகிச்சையளிக்கும் (உயிர்க் காற்றோட்டம், உயிர்க் காற்றூட்டம்); எக்ஸ் சிட்டு தோண்டியெடுத்த பொருளை வேறிடத்தில் சிகிச்சையளிக்கும் (நிலவளர்ப்பு, உயிர்க் குவியல்கள், உயிர்வினையகங்கள்).",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.4What are bioweapons? Name two agents.▼",
+      "ta": "வி.4உயிரி ஆயுதங்கள் என்றால் என்ன? இரு காரணிகளைக் குறிப்பிடுக.▼",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Bioweapons use pathogens or toxins to cause disease. Examples: _Bacillus anthracis_ (anthrax), _Yersinia pestis_ (plague), variola virus, botulinum toxin.",
+      "ta": "உயிரி ஆயுதங்கள் நோயை உண்டாக்க நோய்க்கிருமிகளை அல்லது நச்சுகளைப் பயன்படுத்தும். எடுத்துக்காட்டுகள்: _பேசில்லஸ் ஆந்த்ராசிஸ்_ (ஆந்த்ராக்ஸ்), _யெர்சினியா பெஸ்டிஸ்_ (பிளேக்), வேரியோலா வைரஸ், போட்டுலினம் நச்சு.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Q.5Name the international treaty on biological weapons.▼",
+      "ta": "வி.5உயிரி ஆயுதங்களுக்கான பன்னாட்டு ஒப்பந்தத்தைக் குறிப்பிடுக.▼",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The Biological Weapons Convention (opened 1972; in force 1975) prohibits development, production and stockpiling of biological and toxin weapons.",
+      "ta": "உயிரி ஆயுத ஒப்பந்தம் (1972-இல் திறக்கப்பட்டு, 1975-இல் நடைமுறைக்கு வந்தது) உயிரி, நச்சு ஆயுதங்களின் உருவாக்கம், உற்பத்தி, சேமிப்பைத் தடை செய்கிறது.",
+      "ta_status": "draft"
+     }
+    }
+   ],
+   "label": "📋 Summary"
+  },
+  {
+   "id": "s08",
+   "title": {
+    "en": "Key Terms & Glossary",
+    "ta": "முக்கியச் சொற்களும் சொற்களஞ்சியமும்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Important terms in simple language.",
+      "ta": "முக்கியச் சொற்கள் எளிய மொழியில்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Superbug",
+      "ta": "சூப்பர்பக்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "Engineered oil-degrading bacterium; also a drug-resistant pathogen in medicine.",
+      "ta": "எண்ணெய் சிதைக்கும் பொறியியல் பாக்டீரியம்; மருத்துவத்தில் மருந்தெதிர்ப்பு நோய்க்கிருமியையும் குறிக்கும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Bioremediation",
+      "ta": "உயிரிவழி சீரமைப்பு",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "Use of organisms to clean polluted environments.",
+      "ta": "மாசுபட்ட சூழலைத் தூய்மையாக்க உயிரினங்களைப் பயன்படுத்தல்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Biostimulation",
+      "ta": "உயிர்த்தூண்டல்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "Stimulating native microbes by adding nutrients or oxygen.",
+      "ta": "ஊட்டச்சத்துகள் அல்லது ஆக்சிஜனைச் சேர்த்து உள்ளூர் நுண்ணுயிரிகளைத் தூண்டுதல்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Bioaugmentation",
+      "ta": "உயிர்ப்பெருக்கம்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "Adding specialised microbes to a polluted site.",
+      "ta": "மாசுபட்ட இடத்தில் சிறப்பு நுண்ணுயிரிகளைச் சேர்த்தல்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Phytoremediation",
+      "ta": "தாவரவழி சீரமைப்பு",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "Using plants to remove or degrade pollutants.",
+      "ta": "மாசுகளை அகற்ற அல்லது சிதைக்கத் தாவரங்களைப் பயன்படுத்தல்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Xenobiotic",
+      "ta": "அயலுயிர் வேதிப்பொருள்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "Foreign chemical not normally found in nature, e.g. pesticide.",
+      "ta": "இயற்கையில் பொதுவாகக் காணப்படாத அயல் வேதிப்பொருள்; எ.கா. பூச்சிக்கொல்லி.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Biosparging",
+      "ta": "உயிர்க் காற்றூட்டம்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "Injecting air below the water table to stimulate aerobic degradation.",
+      "ta": "காற்றில் வாழும் சிதைவைத் தூண்ட நிலத்தடி நீர் மட்டத்துக்குக் கீழே காற்றைச் செலுத்தல்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Bioterrorism",
+      "ta": "உயிரிப் பயங்கரவாதம்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "Deliberate release of pathogens or toxins to harm populations.",
+      "ta": "மக்களுக்குத் தீங்கு விளைவிக்க நோய்க்கிருமிகள் அல்லது நச்சுகளை வேண்டுமென்றே வெளியிடுதல்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "BWC",
+      "ta": "BWC",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "Biological Weapons Convention (in force 1975).",
+      "ta": "உயிரி ஆயுத ஒப்பந்தம் (1975-இல் நடைமுறைக்கு வந்தது).",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Biosafety level",
+      "ta": "உயிர்ப் பாதுகாப்பு நிலை",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "Containment level (BSL-1 to BSL-4) matching the risk of the agent.",
+      "ta": "காரணியின் ஆபத்துக்கு ஏற்ற அடைப்பு நிலை (BSL-1 முதல் BSL-4).",
+      "ta_status": "bracketed"
+     }
+    }
+   ],
+   "label": "📖 Glossary"
+  }
+ ],
+ "skipped": [
+  "page-5"
+ ],
+ "dropped": [
+  {
+   "selector": "nav",
+   "count": 1,
+   "sample": [
+    "🦠 Superbug, Bioremediation & Bioweapons Animal Biotechnology"
+   ]
+  },
+  {
+   "selector": "#mob-hdr",
+   "count": 1,
+   "sample": [
+    "☰ Superbug, Bioremediation & Bioweapons"
+   ]
+  },
+  {
+   "selector": "#overlay",
+   "count": 1,
+   "sample": []
+  },
+  {
+   "selector": "footer",
+   "count": 8,
+   "sample": [
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh",
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh",
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh"
+   ]
+  },
+  {
+   "selector": ".start-btn",
+   "count": 1,
+   "sample": [
+    "Begin Learning →"
+   ]
+  },
+  {
+   "selector": ".btn-outline",
+   "count": 7,
+   "sample": [
+    "← Superbug, Bioremediation & Bioweapons",
+    "← Superbug",
+    "← Bioremediation"
+   ]
+  },
+  {
+   "selector": ".btn-primary",
+   "count": 8,
+   "sample": [
+    "Bioremediation →",
+    "Bioweapons →",
+    "Practice →"
+   ]
+  },
+  {
+   "selector": ".pg-nav",
+   "count": 7,
+   "sample": []
+  }
+ ],
+ "extractor": "1"
+}

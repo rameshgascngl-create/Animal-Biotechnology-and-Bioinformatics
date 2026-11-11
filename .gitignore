@@ -5,3 +5,8 @@ local.properties
 *.iml
 *.jks
 *.keystore
+
+# Python bytecode and pytest cache
+__pycache__/
+*.pyc
+.pytest_cache/

@@ -1,0 +1,37 @@
+{
+  "skip_ids": [
+    "page-7"
+  ],
+  "label_classes": [
+    "sec-tag"
+  ],
+  "figure_classes": [
+    "figure"
+  ],
+  "caption_classes": [
+    "figcap"
+  ],
+  "glossary": {
+    "container": [
+      "gloss-card"
+    ],
+    "term": [
+      "g-term"
+    ],
+    "def": [
+      "g-def"
+    ]
+  },
+  "extra_drop_selectors": [
+    ".start-btn",
+    ".btn-outline",
+    ".btn-primary",
+    ".pg-nav"
+  ],
+  "accepted_script_literals_note": "Score-feedback messages of the old embedded HTML quiz widget (UI copy, not chapter content). The native quiz has its own feedback strings. Reviewed 2026-11-10.",
+  "accepted_script_literals": [
+    "Good. Revisit the questions you missed.",
+    "Revise the chapters, then retake the quiz.",
+    "Re-read the chapters carefully before retrying."
+  ]
+}

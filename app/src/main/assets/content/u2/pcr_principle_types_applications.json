@@ -1,0 +1,2554 @@
+{
+ "id": "pcr_principle_types_applications",
+ "unit": "II",
+ "title": {
+  "en": "PCR: Principle, Types & Applications",
+  "ta": "PCR: கோட்பாடு, வகைகள், பயன்பாடுகள்",
+  "ta_status": "draft"
+ },
+ "sections": [
+  {
+   "id": "s01",
+   "title": {
+    "en": "Overview",
+    "ta": "மேலோட்டம்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Molecular Biology · B.Sc. Zoology / Biotechnology",
+      "ta": "மூலக்கூறு உயிரியல் · B.Sc. விலங்கியல் / உயிரித் தொழில்நுட்பவியல்",
+      "ta_status": "draft"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s02",
+   "title": {
+    "en": "PCR: Polymerase Chain Reaction",
+    "ta": "PCR: பாலிமரேஸ் தொடர்வினை",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Principle · Components · Types · Applications",
+      "ta": "கோட்பாடு · கூறுகள் · வகைகள் · பயன்பாடுகள்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Imagine making a million copies of a single gene in just a few hours — without any living cells. PCR made that possible. This revolutionary technique, invented by **Kary Mullis in 1983** (Nobel Prize 1993), is the backbone of modern molecular biology, diagnostics, forensics, and genetic research.",
+      "ta": "உயிருள்ள செல்கள் எதுவுமின்றி, ஒரே மரபணுவின் மில்லியன் நகல்களை சில மணி நேரத்தில் உருவாக்க முடிந்தால் எப்படி இருக்கும்? PCR அதைச் சாத்தியமாக்கியது. **1983-இல் காரி முல்லிஸ்** (நோபல் பரிசு 1993) கண்டுபிடித்த இப்புரட்சிகரமான நுட்பம் நவீன மூலக்கூறு உயிரியல், நோயறிதல், தடயவியல், மரபியல் ஆய்வுகளின் முதுகெலும்பு.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🎯 Learning Objectives**",
+      "ta": "**🎯 கற்றல் நோக்கங்கள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Define PCR and explain its importance in molecular biology and biotechnology.",
+       "ta": "PCR-ஐ வரையறுத்து, மூலக்கூறு உயிரியலிலும் உயிரித் தொழில்நுட்பவியலிலும் அதன் முக்கியத்துவத்தை விளக்குதல்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Describe the principle of exponential DNA amplification using thermal cycling.",
+       "ta": "வெப்பச் சுழற்சியால் DNA படிப்படியாகப் பெருகும் (அடுக்குக்குறிப் பெருக்கம்) கோட்பாட்டை விவரித்தல்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "List all components required for PCR and state the function of each.",
+       "ta": "PCR-க்குத் தேவையான அனைத்துக் கூறுகளையும் அவற்றின் செயல்களுடன் பட்டியலிடுதல்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Explain the three stages of each PCR cycle with temperature ranges.",
+       "ta": "ஒவ்வொரு PCR சுழற்சியின் மூன்று நிலைகளையும் வெப்பநிலை வீச்சுகளுடன் விளக்குதல்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Describe five major types of PCR and their applications.",
+       "ta": "PCR-இன் ஐந்து முக்கிய வகைகளையும் அவற்றின் பயன்பாடுகளையும் விவரித்தல்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Discuss the applications, advantages, and limitations of PCR.",
+       "ta": "PCR-இன் பயன்பாடுகள், நன்மைகள், வரம்புகளை விவாதித்தல்.",
+       "ta_status": "draft"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "s03",
+   "title": {
+    "en": "Introduction to PCR",
+    "ta": "PCR – அறிமுகம்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Full Form and Definition**",
+      "ta": "**முழுப்பெயரும் வரையறையும்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "PCR stands for **Polymerase Chain Reaction**. It is an in vitro technique for rapidly amplifying (making millions of copies of) a specific DNA segment from a small amount of starting material, using repeated cycles of heating and cooling.",
+      "ta": "PCR என்பது **பாலிமரேஸ் தொடர்வினை (Polymerase Chain Reaction)**. இது வெப்பமேற்றல், குளிர்வித்தல் சுழற்சிகளைத் திரும்பத் திரும்பச் செய்து, சிறிதளவு தொடக்கப்பொருளிலிருந்து குறிப்பிட்ட DNA துண்டை விரைவாகப் பெருக்கும் (மில்லியன் நகல்களாக்கும்) உடலுக்கு வெளியிலான (in vitro) நுட்பம்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**History**",
+      "ta": "**வரலாறு**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "PCR was invented by **Kary Mullis** in 1983 while working at Cetus Corporation. He was awarded the **Nobel Prize in Chemistry in 1993** for this revolutionary discovery. The use of **Taq DNA polymerase** (from the thermophilic bacterium _Thermus aquaticus_) — which is heat-stable — made PCR practical for automation.",
+      "ta": "1983-இல் சீட்டஸ் கார்ப்பரேஷனில் பணிபுரிந்தபோது **காரி முல்லிஸ்** PCR-ஐக் கண்டுபிடித்தார். இப்புரட்சிகரக் கண்டுபிடிப்புக்காக **1993-இல் வேதியியலுக்கான நோபல் பரிசு** பெற்றார். வெப்பம்விரும்பும் பாக்டீரியமான _தெர்மஸ் அக்வாட்டிகஸிலிருந்து_ பெறப்பட்ட, வெப்பம் தாங்கும் **Taq DNA பாலிமரேஸ்** PCR-ஐத் தானியங்கியாக நடைமுறைப்படுத்த உதவியது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Importance in Molecular Biology and Biotechnology**",
+      "ta": "**மூலக்கூறு உயிரியலிலும் உயிரித் தொழில்நுட்பவியலிலும் முக்கியத்துவம்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Amplification from trace amounts:** Can amplify DNA from a single molecule to billions of copies.",
+       "ta": "**மிகக் குறைந்த அளவிலிருந்து பெருக்கம்:** ஒரே மூலக்கூறிலிருந்து பில்லியன் நகல்கள் வரை DNA-வைப் பெருக்கலாம்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Universal tool:** Foundation for DNA sequencing, cloning, genotyping, diagnosis, and forensics.",
+       "ta": "**அனைத்துக்குமான கருவி:** DNA வரிசைப்படுத்தல், குளோனாக்கம், மரபணுவகைப்படுத்தல், நோயறிதல், தடயவியல் ஆகியவற்றுக்கு அடித்தளம்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Speed:** A complete PCR run takes only 1–3 hours.",
+       "ta": "**வேகம்:** முழு PCR ஓட்டத்துக்கு 1–3 மணி நேரமே ஆகும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Sensitivity and specificity:** Detects a single pathogen DNA in a complex sample.",
+       "ta": "**உணர்திறனும் தனித்தன்மையும்:** சிக்கலான மாதிரியில் ஒரு நோய்க்கிருமியின் DNA-வையும் கண்டறியும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**No cell culture required:** Works on any DNA source — blood, tissue, bone, bacteria, viruses.",
+       "ta": "**செல் வளர்ப்பு தேவையில்லை:** இரத்தம், திசு, எலும்பு, பாக்டீரியா, வைரஸ் என எந்த DNA மூலத்திலும் செயல்படும்.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Basic Concept of DNA Amplification**",
+      "ta": "**DNA பெருக்கத்தின் அடிப்படைக் கருத்து**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "PCR mimics the natural process of **DNA replication** — but in a test tube. A short segment of double-stranded DNA is separated into two single strands (denaturation), short synthetic DNA sequences (primers) bind to each strand (annealing), and a heat-stable DNA polymerase copies each strand (extension). Each cycle doubles the number of target DNA copies — leading to **exponential amplification**: 2ⁿ copies after n cycles.",
+      "ta": "PCR இயற்கையான **DNA இரட்டிப்பு** நிகழ்வைச் சோதனைக் குழாயில் பின்பற்றுகிறது. இரட்டை இழை DNA-வின் குறுகிய துண்டு இரு ஒற்றை இழைகளாகப் பிரிகிறது (டினேச்சுரேஷன்); குறுகிய செயற்கை DNA வரிசைகள் (பிரைமர்கள்) ஒவ்வோர் இழையுடனும் பிணைகின்றன (அனீலிங்); வெப்பம் தாங்கும் DNA பாலிமரேஸ் ஒவ்வோர் இழையையும் நகலெடுக்கிறது (நீட்டிப்பு). ஒவ்வொரு சுழற்சியும் இலக்கு DNA நகல்களை இரட்டிப்பாக்கி **அடுக்குக்குறிப் பெருக்கத்தை** (n சுழற்சிகளுக்குப் பின் 2ⁿ நகல்கள்) உருவாக்குகிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Key Fact:** After just **30 cycles**, a single DNA molecule can theoretically produce over **1 billion (2³⁰ ≈ 10⁹) copies** of the target sequence.",
+      "ta": "**முக்கிய உண்மை:** வெறும் **30 சுழற்சிகளுக்குப்** பின், ஒரே DNA மூலக்கூறு கோட்பாட்டளவில் இலக்கு வரிசையின் **1 பில்லியனுக்கு (2³⁰ ≈ 10⁹) மேற்பட்ட** நகல்களை உருவாக்கும்.",
+      "ta_status": "draft"
+     }
+    }
+   ],
+   "icon": "🔬",
+   "label": "Section 1"
+  },
+  {
+   "id": "s04",
+   "title": {
+    "en": "Principle of PCR",
+    "ta": "PCR-இன் கோட்பாடு",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**Basic Principle**",
+      "ta": "**அடிப்படைக் கோட்பாடு**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "PCR is based on the principle of enzymatic in vitro DNA replication. A specific segment of DNA is amplified using repeated cycles of three temperature-dependent steps: **denaturation, annealing, and extension**. The use of a **thermostable DNA polymerase** (Taq polymerase) allows the reaction to be automated in a thermal cycler.",
+      "ta": "PCR என்பது நொதி வழி, உடலுக்கு வெளியிலான DNA இரட்டிப்புக் கோட்பாட்டைச் சார்ந்தது. வெப்பநிலையைச் சார்ந்த மூன்று படிகளின் — **டினேச்சுரேஷன், அனீலிங், நீட்டிப்பு** — திரும்பத் திரும்ப நிகழும் சுழற்சிகளால் குறிப்பிட்ட DNA துண்டு பெருக்கப்படுகிறது. **வெப்பம் தாங்கும் DNA பாலிமரேஸ்** (Taq பாலிமரேஸ்) வினையை வெப்பச் சுழற்சிக் கருவியில் தானியங்கியாக்க உதவுகிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Role of Complementary Base Pairing**",
+      "ta": "**நிரப்பு காரப் பிணைப்பின் பங்கு**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Two short oligonucleotide **primers** are designed to be complementary to sequences flanking the target DNA segment — one primer for each strand. According to **Watson-Crick base pairing** (A–T and G–C), primers bind specifically to their complementary sequences at reduced temperatures. This specificity ensures that only the target region between the two primers is amplified.",
+      "ta": "இலக்கு DNA துண்டின் இருபுறமும் உள்ள வரிசைகளுக்கு நிரப்பாக இரு குறுகிய ஒலிகோநியுக்ளியோடைடு **பிரைமர்கள்** வடிவமைக்கப்படுகின்றன — ஒவ்வோர் இழைக்கும் ஒன்று. **வாட்சன்-கிரிக் காரப் பிணைப்பின்படி** (A–T, G–C) குறைந்த வெப்பநிலையில் பிரைமர்கள் தம் நிரப்பு வரிசைகளுடன் குறிப்பாகப் பிணைகின்றன. இத்தனித்தன்மையால் இரு பிரைமர்களுக்கு இடைப்பட்ட இலக்குப் பகுதி மட்டுமே பெருக்கப்படுகிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Role of Repeated Thermal Cycling**",
+      "ta": "**திரும்பத் திரும்ப நிகழும் வெப்பச் சுழற்சியின் பங்கு**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "A single cycle produces only two copies from one template. However, because the products of each cycle also serve as templates for subsequent cycles, the amount of target DNA **doubles with every cycle**. A thermal cycler automatically controls the heating and cooling between the three stages.",
+      "ta": "ஒரே சுழற்சி ஒரு டெம்ப்ளேட்டிலிருந்து இரண்டு நகல்களை மட்டுமே தரும். ஆனால் ஒவ்வொரு சுழற்சியின் விளைபொருள்களும் அடுத்த சுழற்சிகளுக்கு டெம்ப்ளேட்டுகளாகச் செயல்படுவதால், இலக்கு DNA அளவு **ஒவ்வொரு சுழற்சியிலும் இரட்டிப்பாகிறது**. மூன்று நிலைகளுக்கிடையே வெப்பமேற்றல்/குளிர்வித்தலை வெப்பச் சுழற்சிக் கருவி தானாகக் கட்டுப்படுத்துகிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Exponential Amplification**",
+      "ta": "**அடுக்குக்குறிப் பெருக்கம்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "tip",
+     "text": {
+      "en": "**Formula:** Number of copies = **2ⁿ** (where n = number of cycles)\nAfter 10 cycles → 1,024 copies | After 20 cycles → 1,048,576 copies | After 30 cycles → 1,073,741,824 (~10⁹) copies",
+      "ta": "**சூத்திரம்:** நகல்களின் எண்ணிக்கை = **2ⁿ** (n = சுழற்சிகளின் எண்ணிக்கை)\n10 சுழற்சிகளுக்குப் பின் → 1,024 நகல்கள் | 20 சுழற்சிகளுக்குப் பின் → 1,048,576 நகல்கள் | 30 சுழற்சிகளுக்குப் பின் → 1,073,741,824 (~10⁹) நகல்கள்",
+      "ta_status": "draft"
+     }
+    }
+   ],
+   "icon": "⚗️",
+   "label": "Section 2"
+  },
+  {
+   "id": "s05",
+   "title": {
+    "en": "Components Required for PCR",
+    "ta": "PCR-க்குத் தேவையான கூறுகள்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**1. Template DNA**\nThe source DNA containing the target sequence to be amplified. Can be genomic DNA, cDNA, or plasmid DNA. Usually in very small amounts (nanogram quantities).",
+      "ta": "**1. டெம்ப்ளேட் DNA**\nபெருக்கப்படவேண்டிய இலக்கு வரிசையைக் கொண்ட மூல DNA. மரபணு தொகைய DNA, cDNA அல்லது பிளாஸ்மிட் DNA ஆக இருக்கலாம். பொதுவாக மிகச் சிறிய அளவில் (நானோகிராம்).",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**2. Primers (×2)**\nShort synthetic oligonucleotides (18–25 nt) complementary to sequences flanking the target region. Two primers: forward (sense) and reverse (antisense), one for each strand. Define the exact region to be amplified.",
+      "ta": "**2. பிரைமர்கள் (×2)**\nஇலக்குப் பகுதியின் இருபுற வரிசைகளுக்கு நிரப்பான குறுகிய செயற்கை ஒலிகோநியுக்ளியோடைடுகள் (18–25 nt). இரு பிரைமர்கள்: முன்னோக்கு (சென்ஸ்), பின்னோக்கு (ஆன்டிசென்ஸ்) — ஒவ்வோர் இழைக்கும் ஒன்று. பெருக்கப்படும் துல்லியப் பகுதியை வரையறுக்கும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "tip",
+     "text": {
+      "en": "**3. Taq DNA Polymerase**\nA heat-stable DNA polymerase from _Thermus aquaticus_. Withstands 95°C denaturation cycles. Synthesises the new strand in the 5'→3' direction. Optimal activity at ~72°C.",
+      "ta": "**3. Taq DNA பாலிமரேஸ்**\n_தெர்மஸ் அக்வாட்டிகஸிலிருந்து_ பெறப்படும் வெப்பம் தாங்கும் DNA பாலிமரேஸ். 95°C டினேச்சுரேஷன் சுழற்சிகளைத் தாங்கும். புதிய இழையை 5'→3' திசையில் தொகுக்கும். ~72°C-இல் உகந்த செயல்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**4. dNTPs (all four)**\nDeoxyribonucleoside triphosphates: dATP, dTTP, dGTP, dCTP. The building blocks for new DNA strand synthesis. Typically added at 200 µM each.",
+      "ta": "**4. dNTP-கள் (நான்கும்)**\nடீஆக்சிரிபோநியுக்ளியோசைடு டிரைபாஸ்பேட்டுகள்: dATP, dTTP, dGTP, dCTP. புதிய DNA இழைத் தொகுப்புக்கான கட்டுமானக் கூறுகள். பொதுவாக ஒவ்வொன்றும் 200 µM அளவில் சேர்க்கப்படும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**5. Buffer**\nTypically Tris-HCl (pH 8.3–8.8) — maintains optimal pH for Taq polymerase activity. Includes KCl to stabilise primer–template interactions.",
+      "ta": "**5. இடையகம்**\nபொதுவாக டிரிஸ்-HCl (pH 8.3–8.8) — Taq பாலிமரேஸின் உகந்த செயலுக்கான pH-ஐப் பராமரிக்கிறது. பிரைமர்–டெம்ப்ளேட் இடைவினைகளை நிலைப்படுத்த KCl-ஐக் கொண்டுள்ளது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**6. Mg²⁺ Ions**\nMagnesium chloride (MgCl₂) at 1.5–2.5 mM. Essential cofactor for Taq DNA polymerase activity. Also stabilises primer–template duplexes. Concentration affects specificity — excess Mg²⁺ increases non-specific amplification.",
+      "ta": "**6. Mg²⁺ அயனிகள்**\nமெக்னீசியம் குளோரைடு (MgCl₂) 1.5–2.5 mM. Taq DNA பாலிமரேஸ் செயலுக்கு இன்றியமையாத துணைக்காரணி. பிரைமர்–டெம்ப்ளேட் இரட்டையையும் நிலைப்படுத்தும். செறிவு தனித்தன்மையைப் பாதிக்கும் — மிகை Mg²⁺ குறிப்பிட்டதல்லாத பெருக்கத்தை அதிகரிக்கும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**7. Thermal Cycler**\nA programmable device that precisely controls and rapidly alternates between the three reaction temperatures (95°C, 50–65°C, 72°C) for the required number of cycles. Enables complete automation of PCR.",
+      "ta": "**7. வெப்பச் சுழற்சிக் கருவி**\nமூன்று வினை வெப்பநிலைகளுக்கிடையே (95°C, 50–65°C, 72°C) தேவையான சுழற்சிகள் வரை துல்லியமாகவும் விரைவாகவும் மாறி மாறிக் கட்டுப்படுத்தும் நிரலமைக்கத்தக்க சாதனம். PCR-ஐ முழுமையாகத் தானியங்கியாக்கும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Typical PCR Reaction Volume:** 25–50 µL in a microcentrifuge tube or 96-well plate. The reaction is set up on ice to prevent premature DNA synthesis.",
+      "ta": "**பொதுவான PCR வினை கொள்ளளவு:** நுண்மையவிலக்கிக் குழாய் அல்லது 96-கிணறு தட்டில் 25–50 µL. முன்கூட்டியே DNA தொகுப்பு நிகழாமல் தடுக்க வினை பனியில் அமைக்கப்படும்.",
+      "ta_status": "draft"
+     }
+    }
+   ],
+   "icon": "🧪",
+   "label": "Section 3"
+  },
+  {
+   "id": "s06",
+   "title": {
+    "en": "Steps / Stages of Each PCR Cycle",
+    "ta": "ஒவ்வொரு PCR சுழற்சியின் படிகள் / நிலைகள்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Each PCR cycle consists of three precisely temperature-controlled stages:",
+      "ta": "ஒவ்வொரு PCR சுழற்சியும் மூன்று துல்லிய வெப்பநிலைக் கட்டுப்பாட்டு நிலைகளைக் கொண்டுள்ளது:",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "1",
+      "ta": "1",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "94–96°C Denaturation",
+      "ta": "94–96°C டினேச்சுரேஷன்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The double-stranded template DNA is heated to **94–96°C**. At this temperature, the hydrogen bonds holding the two complementary strands together are broken, separating the DNA into two single-stranded templates. This process is called denaturation. Duration: 20–30 seconds per cycle (initial denaturation: 2–5 minutes to ensure complete denaturation).",
+      "ta": "இரட்டை இழை டெம்ப்ளேட் DNA **94–96°C**-க்கு வெப்பமேற்றப்படுகிறது. இவ்வெப்பநிலையில் இரு நிரப்பு இழைகளையும் இணைக்கும் ஹைட்ரஜன் பிணைப்புகள் உடைந்து DNA இரு ஒற்றை இழை டெம்ப்ளேட்டுகளாகப் பிரிகிறது. இது டினேச்சுரேஷன் எனப்படும். காலம்: சுழற்சிக்கு 20–30 விநாடிகள் (தொடக்க டினேச்சுரேஷன்: முழுமையான டினேச்சுரேஷனுக்கு 2–5 நிமிடங்கள்).",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "This step is critical — incomplete denaturation leads to poor amplification.",
+       "ta": "இந்நிலை மிக முக்கியம் — முழுமையற்ற டினேச்சுரேஷன் மோசமான பெருக்கத்தைத் தரும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Taq polymerase is heat-stable and survives this temperature.",
+       "ta": "Taq பாலிமரேஸ் வெப்பம் தாங்குவதால் இவ்வெப்பநிலையிலும் உயிர்பிழைக்கும்.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2",
+      "ta": "2",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "50–65°C Annealing",
+      "ta": "50–65°C அனீலிங்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The temperature is lowered to **50–65°C** (varies by primer sequence). The two primers bind to their complementary sequences on the single-stranded template DNA through hydrogen bonding. This is called primer annealing. Duration: 20–40 seconds.",
+      "ta": "வெப்பநிலை **50–65°C**-க்குக் குறைக்கப்படுகிறது (பிரைமர் வரிசையைப் பொறுத்து மாறும்). இரு பிரைமர்களும் ஒற்றை இழை டெம்ப்ளேட் DNA-வில் தம் நிரப்பு வரிசைகளுடன் ஹைட்ரஜன் பிணைப்பால் பிணைகின்றன. இது பிரைமர் அனீலிங் எனப்படும். காலம்: 20–40 விநாடிகள்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "The annealing temperature is usually 5°C below the melting temperature (Tm) of the primers.",
+       "ta": "அனீலிங் வெப்பநிலை பொதுவாகப் பிரைமர்களின் உருகுநிலையைவிட (Tm) 5°C குறைவு.",
+       "ta_status": "bracketed"
+      },
+      {
+       "en": "Too low: non-specific annealing → non-specific bands. Too high: no annealing → no product.",
+       "ta": "மிகக் குறைவு: குறிப்பிட்டதல்லாத அனீலிங் → குறிப்பிட்டதல்லாத பட்டைகள். மிக அதிகம்: அனீலிங் இல்லை → விளைபொருள் இல்லை.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "The forward primer anneals to the antisense strand; the reverse primer anneals to the sense strand.",
+       "ta": "முன்னோக்கு பிரைமர் ஆன்டிசென்ஸ் இழையுடனும், பின்னோக்கு பிரைமர் சென்ஸ் இழையுடனும் அனீலாகும்.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "3",
+      "ta": "3",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "72°C Extension / Elongation",
+      "ta": "72°C நீட்டிப்பு / நீட்சி",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "The temperature is raised to **72°C** — the optimal working temperature of Taq DNA polymerase. Starting from the 3'-OH of each annealed primer, Taq polymerase adds dNTPs complementary to the template in the **5'→3' direction**. This is called extension or elongation. Duration: ~1 minute per 1 kb of target.",
+      "ta": "வெப்பநிலை **72°C**-க்கு உயர்த்தப்படுகிறது — Taq DNA பாலிமரேஸின் உகந்த செயல் வெப்பநிலை. அனீலான ஒவ்வொரு பிரைமரின் 3'-OH-இலிருந்து தொடங்கி, Taq பாலிமரேஸ் டெம்ப்ளேட்டுக்கு நிரப்பான dNTP-களை **5'→3' திசையில்** சேர்க்கிறது. இது நீட்டிப்பு அல்லது நீட்சி எனப்படும். காலம்: இலக்கின் 1 kb-க்கு ~1 நிமிடம்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Taq polymerase extends at ~1000 bp/minute at 72°C.",
+       "ta": "72°C-இல் Taq பாலிமரேஸ் ~1000 bp/நிமிடம் வேகத்தில் நீட்டிக்கும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "A final extension step (5–10 minutes at 72°C) completes any partially synthesised strands.",
+       "ta": "இறுதி நீட்டிப்புப் படி (72°C-இல் 5–10 நிமிடம்) பகுதியளவு தொகுக்கப்பட்ட இழைகளை நிறைவுசெய்கிறது.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Result: two copies of the target DNA from each original template.",
+       "ta": "விளைவு: ஒவ்வொரு மூல டெம்ப்ளேட்டிலிருந்தும் இலக்கு DNA-வின் இரண்டு நகல்கள்.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Number of Cycles:** Typically **25–40 cycles**. After the last cycle, a **final extension** at 72°C for 5–10 minutes ensures all incomplete strands are finished. Reactions are then held at 4°C for storage.",
+      "ta": "**சுழற்சிகளின் எண்ணிக்கை:** பொதுவாக **25–40 சுழற்சிகள்**. கடைசிச் சுழற்சிக்குப் பின் 72°C-இல் 5–10 நிமிட **இறுதி நீட்டிப்பு** முழுமையற்ற இழைகளை நிறைவுசெய்கிறது. வினைகள் சேமிப்புக்காக 4°C-இல் நிறுத்தி வைக்கப்படும்.",
+      "ta_status": "draft"
+     }
+    }
+   ],
+   "icon": "🌡️",
+   "label": "Section 4"
+  },
+  {
+   "id": "s07",
+   "title": {
+    "en": "PCR Cycle Temperature Diagram",
+    "ta": "PCR சுழற்சி வெப்பநிலை வரைபடம்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "The diagram below shows the temperature profile of a single PCR cycle. Click each stage to see details.",
+      "ta": "கீழ்க்காணும் வரைபடம் ஒரு PCR சுழற்சியின் வெப்பநிலை அமைப்பைக் காட்டுகிறது. விவரங்களைக் காண ஒவ்வொரு நிலையையும் தொடுக.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 1 — Temperature Profile of One PCR Cycle",
+      "ta": "படம் 1 — ஒரு PCR சுழற்சியின் வெப்பநிலை அமைப்பு",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "pcr_principle_types_applications-d01",
+     "caption": {
+      "en": "PCR temperature cycle diagram",
+      "ta": "PCR வெப்பநிலைச் சுழற்சி வரைபடம்",
+      "ta_status": "draft"
+     },
+     "labels": [
+      "°C",
+      "Time",
+      "95",
+      "58",
+      "72",
+      "DENATURATION",
+      "94–96°C · 20–30 sec",
+      "ANNEALING",
+      "50–65°C · 20–40 sec",
+      "EXTENSION",
+      "72°C · ~1 min/kb",
+      "H-bonds broken",
+      "→ ssDNA",
+      "Primers bind",
+      "to template",
+      "Taq extends",
+      "new strand",
+      "↺ Repeat",
+      "25–40×",
+      "Initial: 95°C, 2–5 min"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Click each stage card to learn more:",
+      "ta": "மேலும் அறிய ஒவ்வொரு நிலை அட்டையையும் தொடுக:",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🔴 Denaturation (94–96°C) +",
+      "ta": "🔴 டினேச்சுரேஷன் (94–96°C) +",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Temperature: **94–96°C**",
+       "ta": "வெப்பநிலை: **94–96°C**",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Duration: 20–30 sec (initial: 2–5 min)",
+       "ta": "காலம்: 20–30 விநாடி (தொடக்கம்: 2–5 நிமிடம்)",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Hydrogen bonds between base pairs are broken",
+       "ta": "காரஇணைகளுக்கிடையே ஹைட்ரஜன் பிணைப்புகள் உடையும்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "dsDNA → 2 single-stranded DNA templates",
+       "ta": "dsDNA → 2 ஒற்றை இழை DNA டெம்ப்ளேட்டுகள்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Taq polymerase survives at this temperature",
+       "ta": "Taq பாலிமரேஸ் இவ்வெப்பநிலையில் உயிர்பிழைக்கும்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Incomplete denaturation → poor amplification",
+       "ta": "முழுமையற்ற டினேச்சுரேஷன் → மோசமான பெருக்கம்",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🔵 Annealing (50–65°C) +",
+      "ta": "🔵 அனீலிங் (50–65°C) +",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Temperature: **50–65°C** (Tm − 5°C)",
+       "ta": "வெப்பநிலை: **50–65°C** (Tm − 5°C)",
+       "ta_status": "bracketed"
+      },
+      {
+       "en": "Duration: 20–40 sec",
+       "ta": "காலம்: 20–40 விநாடி",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Forward & reverse primers bind complementary sequences",
+       "ta": "முன்னோக்கு, பின்னோக்கு பிரைமர்கள் நிரப்பு வரிசைகளுடன் பிணையும்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Specificity depends on primer sequence and Mg²⁺ concentration",
+       "ta": "தனித்தன்மை பிரைமர் வரிசையையும் Mg²⁺ செறிவையும் சார்ந்தது",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Too low T → non-specific bands; too high T → no product",
+       "ta": "வெப்பநிலை மிகக் குறைவு → குறிப்பிட்டதல்லாத பட்டைகள்; மிக அதிகம் → விளைபொருள் இல்லை",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "🟢 Extension (72°C) +",
+      "ta": "🟢 நீட்டிப்பு (72°C) +",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Temperature: **72°C** (optimal for Taq)",
+       "ta": "வெப்பநிலை: **72°C** (Taq-க்கு உகந்தது)",
+       "ta_status": "bracketed"
+      },
+      {
+       "en": "Duration: ~1 min per 1 kb of product",
+       "ta": "காலம்: விளைபொருளின் 1 kb-க்கு ~1 நிமிடம்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Taq polymerase adds dNTPs 5'→3' from each primer",
+       "ta": "Taq பாலிமரேஸ் ஒவ்வொரு பிரைமரிலிருந்தும் 5'→3' திசையில் dNTP-களைச் சேர்க்கும்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Rate: ~1000 bp/min",
+       "ta": "வேகம்: ~1000 bp/நிமிடம்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Final extension: 72°C for 5–10 min after all cycles",
+       "ta": "இறுதி நீட்டிப்பு: அனைத்துச் சுழற்சிகளுக்குப் பின் 72°C-இல் 5–10 நிமிடம்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Result: two dsDNA copies per template",
+       "ta": "விளைவு: ஒவ்வொரு டெம்ப்ளேட்டுக்கும் இரண்டு dsDNA நகல்கள்",
+       "ta_status": "draft"
+      }
+     ]
+    }
+   ],
+   "icon": "🌡️",
+   "label": "Section 5 — Diagrams"
+  },
+  {
+   "id": "s08",
+   "title": {
+    "en": "PCR Workflow — Click Each Step",
+    "ta": "PCR பணிப்பாய்வு — ஒவ்வொரு படியையும் தொடுக",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Click any step to expand details.",
+      "ta": "எந்தப் படியையும் தொட்டு விவரங்களை விரிவாக்குக.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "1 🧬 Sample & Template DNA Collect biological sample (blood, tissue, swab, etc.) and extract DNA. Template DNA can be as little as 10–100 ng. Quality DNA is essential — degraded samples give poor results.",
+       "ta": "1 🧬 மாதிரியும் டெம்ப்ளேட் DNA-வும் உயிரியல் மாதிரியைச் (இரத்தம், திசு, துடைப்பான் போன்றவை) சேகரித்து DNA-வைப் பிரித்தெடுக்கவும். டெம்ப்ளேட் DNA 10–100 ng-ஆகவும் இருக்கலாம். தரமான DNA இன்றியமையாதது — சிதைந்த மாதிரிகள் மோசமான முடிவைத் தரும்.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "2 🧪 Prepare Reaction Mix Combine in a tube (on ice): template DNA + forward primer + reverse primer + Taq polymerase + dNTPs + PCR buffer + MgCl₂ + nuclease-free water. Total volume: 25–50 µL.",
+       "ta": "2 🧪 வினைக் கலவை தயாரித்தல் குழாயில் (பனியில்) கலக்கவும்: டெம்ப்ளேட் DNA + முன்னோக்கு பிரைமர் + பின்னோக்கு பிரைமர் + Taq பாலிமரேஸ் + dNTP-கள் + PCR இடையகம் + MgCl₂ + நியுக்ளியேஸ் இல்லாத நீர். மொத்தக் கொள்ளளவு: 25–50 µL.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "3 🌡️ Thermal Cycling (25–40 cycles) Tubes are placed in the thermal cycler. Each cycle: 95°C (denaturation, 30s) → 50–65°C (annealing, 30s) → 72°C (extension, 1 min/kb). Each cycle doubles the target DNA.",
+       "ta": "3 🌡️ வெப்பச் சுழற்சி (25–40 சுழற்சிகள்) குழாய்கள் வெப்பச் சுழற்சிக் கருவியில் வைக்கப்படுகின்றன. ஒவ்வொரு சுழற்சி: 95°C (டினேச்சுரேஷன், 30 வி) → 50–65°C (அனீலிங், 30 வி) → 72°C (நீட்டிப்பு, 1 நிமிடம்/kb). ஒவ்வொரு சுழற்சியும் இலக்கு DNA-வை இரட்டிப்பாக்கும்.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "4 🔬 Amplified DNA Product After 30–40 cycles, the target DNA is amplified 10⁶–10⁹ fold. The product is a defined-length double-stranded DNA fragment (the amplicon) flanked by the primer sequences.",
+       "ta": "4 🔬 பெருக்கப்பட்ட DNA விளைபொருள் 30–40 சுழற்சிகளுக்குப் பின் இலக்கு DNA 10⁶–10⁹ மடங்கு பெருக்கப்படுகிறது. விளைபொருள் பிரைமர் வரிசைகளால் எல்லையிடப்பட்ட, வரையறுத்த நீளமுள்ள இரட்டை இழை DNA துண்டு (ஆம்ப்ளிகான்).",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "steps",
+     "items": [
+      {
+       "en": "5 📊 Detection & Analysis PCR product is analysed by: agarose gel electrophoresis (band size), DNA sequencing, restriction digestion, hybridisation, or real-time fluorescence detection (qPCR). Results in 1–3 hours total.",
+       "ta": "5 📊 கண்டறிதலும் பகுப்பாய்வும் PCR விளைபொருள் பகுப்பாய்வு: அகரோஸ் இழும மின்னாற்பிரித்தல் (பட்டை அளவு), DNA வரிசைப்படுத்தல், ரெஸ்ட்ரிக்ஷன் செரித்தல், கலப்பினமாக்கல் அல்லது நிகழ்நேர ஒளிர்வுக் கண்டறிதல் (qPCR). மொத்தம் 1–3 மணி நேரத்தில் முடிவு.",
+       "ta_status": "draft"
+      }
+     ]
+    }
+   ],
+   "icon": "🔄",
+   "label": "Section 6 — Workflow"
+  },
+  {
+   "id": "s09",
+   "title": {
+    "en": "Types of PCR",
+    "ta": "PCR வகைகள்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "1. Conventional PCR **Principle:** Standard thermal cycling with two primers amplifying a specific DNA region. **Detection:** Agarose gel electrophoresis after the reaction. **Use:** Basic amplification, clone verification, pathogen detection. **Limitation:** Qualitative — shows presence/absence, not quantity.",
+      "ta": "1. வழக்கமான PCR **கோட்பாடு:** இரு பிரைமர்கள் குறிப்பிட்ட DNA பகுதியைப் பெருக்கும் நிலையான வெப்பச் சுழற்சி. **கண்டறிதல்:** வினைக்குப் பின் அகரோஸ் இழும மின்னாற்பிரித்தல். **பயன்:** அடிப்படைப் பெருக்கம், குளோன் சரிபார்ப்பு, நோய்க்கிருமி கண்டறிதல். **வரம்பு:** தரமானது — இருப்பு/இன்மையை மட்டும் காட்டும், அளவை அல்ல.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "2. RT-PCR (Reverse Transcriptase PCR) **Principle:** mRNA is first converted to cDNA using **reverse transcriptase**, then the cDNA is amplified by standard PCR. **Use:** Detecting gene expression; diagnosing RNA viruses (e.g., SARS-CoV-2, HIV, Influenza). **Application:** COVID-19 diagnostic tests (RT-PCR).",
+      "ta": "2. RT-PCR (ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ் PCR) **கோட்பாடு:** mRNA முதலில் **ரிவர்ஸ் டிரான்ஸ்கிரிப்டேசால்** cDNA ஆக மாற்றப்பட்டு, பின் cDNA வழக்கமான PCR-ஆல் பெருக்கப்படும். **பயன்:** மரபணு வெளிப்பாட்டைக் கண்டறிதல்; RNA வைரஸ்களை (எ.கா. SARS-CoV-2, HIV, இன்ஃப்ளூயன்சா) நோயறிதல். **பயன்பாடு:** COVID-19 நோயறிதல் சோதனைகள் (RT-PCR).",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "3. Real-Time PCR / qPCR **Principle:** Amplification is monitored in real time using fluorescent dyes (SYBR Green) or probes (TaqMan). Fluorescence increases as product accumulates. **Use:** Quantification of gene expression, viral load, GMO detection. **Advantage:** Quantitative — measures the amount of starting DNA/RNA.",
+      "ta": "3. நிகழ்நேர PCR / qPCR **கோட்பாடு:** ஒளிர்வுச் சாயங்கள் (SYBR Green) அல்லது துருவிகள் (TaqMan) கொண்டு பெருக்கம் நிகழ்நேரத்தில் கண்காணிக்கப்படும். விளைபொருள் சேரச் சேர ஒளிர்வு உயரும். **பயன்:** மரபணு வெளிப்பாடு, வைரஸ் சுமை, GMO கண்டறிதல் ஆகியவற்றை அளவிடுதல். **நன்மை:** அளவீட்டுத் திறன் — தொடக்க DNA/RNA அளவை அளக்கும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "4. Multiplex PCR **Principle:** Multiple primer pairs used in a **single reaction** to amplify several target sequences simultaneously. **Use:** Detecting multiple pathogens at once; STR profiling in forensics; deletion/duplication screening in genetic disorders. **Advantage:** Time-saving, cost-effective for multiple targets.",
+      "ta": "4. பல்லினப் PCR **கோட்பாடு:** பல இலக்கு வரிசைகளை ஒரே நேரத்தில் பெருக்க **ஒரே வினையில்** பல பிரைமர் இணைகள் பயன்படும். **பயன்:** ஒரே நேரத்தில் பல நோய்க்கிருமிகளைக் கண்டறிதல்; தடயவியலில் STR சுயவிவரப் பதிவு; மரபுநோய்களில் நீக்கம்/இரட்டிப்புத் திரையிடல். **நன்மை:** பல இலக்குகளுக்கு நேரமும் செலவும் மிச்சம்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5. Nested PCR **Principle:** Two successive PCR reactions. The **second PCR** uses an inner (nested) pair of primers within the product of the first PCR. **Use:** Detecting very low copy number targets (e.g., HIV in early infection, rare mutations). **Advantage:** Extremely high sensitivity and specificity.",
+      "ta": "5. நெஸ்டட் PCR **கோட்பாடு:** அடுத்தடுத்த இரு PCR வினைகள். **இரண்டாம் PCR**, முதல் PCR விளைபொருளுக்குள் உள்ள உள் (நெஸ்டட்) பிரைமர் இணையைப் பயன்படுத்தும். **பயன்:** மிகக் குறைந்த நகல் எண்ணுள்ள இலக்குகளைக் கண்டறிதல் (எ.கா. தொடக்கத் தொற்றில் HIV, அரிய திடீர்மாற்றங்கள்). **நன்மை:** மிக அதிக உணர்திறனும் தனித்தன்மையும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Additional Types (brief):** LAMP-PCR (Loop-mediated isothermal amplification), Hot-Start PCR (minimises non-specific amplification), Digital PCR (absolute quantification), RACE-PCR (rapid amplification of cDNA ends), Allele-Specific PCR (detects single nucleotide variations).",
+      "ta": "**கூடுதல் வகைகள் (சுருக்கமாக):** LAMP-PCR (வளைய வழி சமவெப்பப் பெருக்கம்), ஹாட்-ஸ்டார்ட் PCR (குறிப்பிட்டதல்லாத பெருக்கத்தைக் குறைக்கும்), டிஜிட்டல் PCR (முழுமை அளவீடு), RACE-PCR (cDNA முனைகளின் விரைவுப் பெருக்கம்), அல்லீல்-குறிப்பிட்ட PCR (ஒற்றை நியுக்ளியோடைடு மாறுபாடுகளைக் கண்டறியும்).",
+      "ta_status": "draft"
+     }
+    }
+   ],
+   "icon": "🗂️",
+   "label": "Section 7"
+  },
+  {
+   "id": "s10",
+   "title": {
+    "en": "Applications of PCR",
+    "ta": "PCR-இன் பயன்பாடுகள்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Medical Diagnosis**\nRapid, sensitive detection of bacterial and viral infections. RT-PCR diagnoses SARS-CoV-2, HIV, hepatitis B & C, tuberculosis (_Mycobacterium tuberculosis_), and sexually transmitted infections.",
+      "ta": "**மருத்துவ நோயறிதல்**\nபாக்டீரிய, வைரஸ் தொற்றுகளை விரைவாகவும் உணர்திறனுடனும் கண்டறிதல். RT-PCR SARS-CoV-2, HIV, ஹெபடைடிஸ் B & C, காசநோய் (_மைக்கோபாக்டீரியம் டியூபர்குலோசிஸ்_), பாலியல் வழித் தொற்றுகளை நோயறிகிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Pathogen Detection**\nIdentifies pathogens in food (Salmonella, E. coli O157:H7), water supplies, and environmental samples. Detects organisms that cannot be easily cultured.",
+      "ta": "**நோய்க்கிருமி கண்டறிதல்**\nஉணவு (சால்மோனெல்லா, E. coli O157:H7), குடிநீர், சுற்றுச்சூழல் மாதிரிகளில் உள்ள நோய்க்கிருமிகளை அடையாளம் காணும். எளிதில் வளர்க்க இயலாத உயிரிகளையும் கண்டறியும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "tip",
+     "text": {
+      "en": "**Genetic Disorder Analysis**\nDetects mutations in genes causing cystic fibrosis, sickle cell anaemia, Huntington's disease, BRCA1/2 (breast cancer). Prenatal diagnosis from foetal cells in amniotic fluid.",
+      "ta": "**மரபுநோய் பகுப்பாய்வு**\nசிஸ்டிக் ஃபைப்ரோசிஸ், அரிவாள் செல் இரத்தசோகை, ஹண்டிங்டன் நோய், BRCA1/2 (மார்பகப் புற்றுநோய்) ஆகியவற்றை உண்டாக்கும் மரபணுக்களின் திடீர்மாற்றங்களைக் கண்டறியும். பனிக்குட நீரிலுள்ள கருச் செல்களிலிருந்து கருவுக்கு முந்தைய நோயறிதல்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Forensic Science**\nDNA profiling from trace evidence — blood, hair, skin cells at crime scenes. STR (short tandem repeat) analysis using multiplex PCR. Identification of disaster victims.",
+      "ta": "**தடயவியல் அறிவியல்**\nகுற்றம் நடந்த இடத்திலுள்ள இரத்தம், முடி, தோல் செல்கள் போன்ற சிறு சான்றுகளிலிருந்து DNA சுயவிவரப் பதிவு. பல்லினப் PCR கொண்டு STR (குறு தொடர் மீள்வரிசை) பகுப்பாய்வு. பேரிடர் பாதிக்கப்பட்டோர் அடையாளம்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**DNA Fingerprinting**\nPCR amplifies specific STR loci unique to each individual. Used in paternity testing, immigration cases, and individual identification in forensics.",
+      "ta": "**DNA கைரேகைப் பதிவு**\nPCR ஒவ்வொருவருக்கும் தனித்துவமான குறிப்பிட்ட STR இடங்களைப் பெருக்குகிறது. தந்தைமைச் சோதனை, குடியேற்ற வழக்குகள், தடயவியல் தனிநபர் அடையாளத்தில் பயன்படும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Gene Cloning**\nAmplifies a gene of interest before cloning into a vector. Confirms successful gene insertion by colony PCR. Generates insert DNA for sequencing.",
+      "ta": "**மரபணு குளோனாக்கம்**\nதாங்கிக்கடத்தியில் குளோனாக்குமுன் ஆர்வ மரபணுவைப் பெருக்கும். குழும PCR மூலம் மரபணு செருகல் வெற்றியை உறுதிப்படுத்தும். வரிசைப்படுத்தலுக்கான செருகி DNA-வை உருவாக்கும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Animal Biotechnology**\nSex determination of embryos in livestock breeding. Detection of transgene integration in transgenic animals. Genetic characterisation of breeds and species identification.",
+      "ta": "**விலங்கு உயிரித் தொழில்நுட்பவியல்**\nகால்நடை இனப்பெருக்கத்தில் கருக்களின் பாலினத்தைக் கண்டறிதல். மாற்றுமரபணு விலங்குகளில் மாற்றுமரபணு இணைவைக் கண்டறிதல். இனங்கள், சிற்றினங்களின் மரபியல் பண்புக்கூறாய்வு.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Evolutionary & Research Studies**\nAncient DNA analysis from museum specimens and fossils. Phylogenetic studies comparing species. Metagenomics — identifying microbial communities in environmental samples.",
+      "ta": "**பரிணாம, ஆய்வுப் படிப்புகள்**\nஅருங்காட்சியக மாதிரிகள், படிமங்களிலிருந்து தொல் DNA பகுப்பாய்வு. சிற்றினங்களை ஒப்பிடும் இனவரலாற்று ஆய்வுகள். மெட்டாஜீனோமிக்ஸ் — சுற்றுச்சூழல் மாதிரிகளிலுள்ள நுண்ணுயிர்த் தொகுதிகளை அடையாளம் காணுதல்.",
+      "ta_status": "draft"
+     }
+    }
+   ],
+   "icon": "🏥",
+   "label": "Section 8"
+  },
+  {
+   "id": "s11",
+   "title": {
+    "en": "Advantages and Limitations",
+    "ta": "நன்மைகளும் வரம்புகளும்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**✅ Advantages**",
+      "ta": "**✅ நன்மைகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Extreme sensitivity:** Detects a single DNA molecule from a complex sample.",
+       "ta": "**மிக உயர் உணர்திறன்:** சிக்கலான மாதிரியிலிருந்து ஒரே DNA மூலக்கூறையும் கண்டறியும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**High speed:** Complete PCR in 1–3 hours.",
+       "ta": "**அதிக வேகம்:** 1–3 மணி நேரத்தில் முழு PCR.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Versatility:** Works on any DNA source — blood, bone, hair, formalin-fixed tissue.",
+       "ta": "**பல்திறன்:** இரத்தம், எலும்பு, முடி, ஃபார்மாலின் பதப்படுத்திய திசு என எந்த DNA மூலத்திலும் செயல்படும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**High specificity:** Primer-specific amplification of exact target sequence.",
+       "ta": "**உயர் தனித்தன்மை:** துல்லிய இலக்கு வரிசையின் பிரைமர்-குறிப்பிட்ட பெருக்கம்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Small sample requirement:** Nanogram or even picogram quantities of DNA.",
+       "ta": "**சிறிய மாதிரித் தேவை:** நானோகிராம் அல்லது பிகோகிராம் அளவு DNA.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Automation:** Thermal cyclers enable high-throughput, standardised results.",
+       "ta": "**தானியங்கி:** வெப்பச் சுழற்சிக் கருவிகள் அதிகச் செயல்திறன், தரப்படுத்திய முடிவுகளைத் தருகின்றன.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**No radioactivity required** (fluorescent methods).",
+       "ta": "**கதிரியக்கம் தேவையில்லை** (ஒளிர்வு முறைகள்).",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**⚠️ Limitations**",
+      "ta": "**⚠️ வரம்புகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Prior sequence knowledge required:** Primers must be designed from known sequence.",
+       "ta": "**முன்பே வரிசை அறிவு தேவை:** பிரைமர்கள் அறியப்பட்ட வரிசையிலிருந்தே வடிவமைக்கப்பட வேண்டும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Contamination:** Extreme sensitivity means even trace contamination gives false positives.",
+       "ta": "**மாசுபாடு:** மிக உயர் உணர்திறனால் சிறு மாசுபாடும் தவறான நேர்மறையைத் தரும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Non-specific amplification:** Incorrect primer binding (mispriming) produces spurious bands if conditions are suboptimal.",
+       "ta": "**குறிப்பிட்டதல்லாத பெருக்கம்:** நிலைகள் உகந்ததாக இல்லாவிட்டால் பிரைமர்கள் தவறாகப் பிணைந்து (மிஸ்பிரைமிங்) தேவையற்ற பட்டைகளைத் தரும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Taq polymerase error rate:** Taq lacks proofreading (3'→5' exonuclease) → introduces errors (~1 in 10⁴–10⁵ bp).",
+       "ta": "**Taq பாலிமரேஸ் பிழை விகிதம்:** Taq-இல் பிழை திருத்தம் (3'→5' எக்ஸோநியுக்ளியேஸ்) இல்லை → பிழைகளை (~10⁴–10⁵ bp-க்கு 1) உருவாக்கும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Length limitation:** Standard PCR reliably amplifies up to ~3–5 kb; long-range PCR required for larger fragments.",
+       "ta": "**நீள வரம்பு:** நிலையான PCR ~3–5 kb வரை நம்பகமாகப் பெருக்கும்; பெரிய துண்டுகளுக்கு நீண்டவீச்சு PCR தேவை.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Qualitative (conventional):** Standard PCR shows presence/absence — not quantity without qPCR.",
+       "ta": "**தரமானது (வழக்கமானது):** நிலையான PCR இருப்பு/இன்மையை மட்டும் காட்டும் — qPCR இன்றி அளவை அல்ல.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Common Causes of PCR Failure:** (1) Contamination with exogenous DNA → false positive; (2) Primer dimers (primers bind each other) → smear or small non-specific band; (3) Low Mg²⁺ → no amplification; high Mg²⁺ → non-specific bands; (4) Poor DNA template quality (degraded or inhibitors present).",
+      "ta": "**PCR தோல்விக்கான பொதுவான காரணங்கள்:** (1) புறவழி DNA மாசுபாடு → தவறான நேர்மறை; (2) பிரைமர் இரட்டைகள் (பிரைமர்கள் ஒன்றோடொன்று பிணைதல்) → ஒழுகுதல் அல்லது சிறிய குறிப்பிட்டதல்லாத பட்டை; (3) குறைந்த Mg²⁺ → பெருக்கம் இல்லை; அதிக Mg²⁺ → குறிப்பிட்டதல்லாத பட்டைகள்; (4) மோசமான DNA டெம்ப்ளேட் தரம் (சிதைவு அல்லது தடுப்பிகள் இருத்தல்).",
+      "ta_status": "draft"
+     }
+    }
+   ],
+   "icon": "⚖️",
+   "label": "Section 9"
+  },
+  {
+   "id": "s12",
+   "title": {
+    "en": "Comparison of Major PCR Types",
+    "ta": "முக்கிய PCR வகைகளின் ஒப்பீடு",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Type",
+       "ta": "வகை",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Principle",
+       "ta": "கோட்பாடு",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Main Use",
+       "ta": "முதன்மைப் பயன்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Special Feature",
+       "ta": "சிறப்புப் பண்பு",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Key Application",
+       "ta": "முக்கியப் பயன்பாடு",
+       "ta_status": "draft"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "**Conventional PCR**",
+        "ta": "**வழக்கமான PCR**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Standard thermal cycling (denature → anneal → extend)",
+        "ta": "நிலையான வெப்பச் சுழற்சி (டினேச்சுரேஷன் → அனீலிங் → நீட்டிப்பு)",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Basic DNA amplification",
+        "ta": "அடிப்படை DNA பெருக்கம்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Post-run gel detection",
+        "ta": "ஓட்டத்துக்குப் பின் ஜெல் கண்டறிதல்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Pathogen detection, clone verification",
+        "ta": "நோய்க்கிருமி கண்டறிதல், குளோன் சரிபார்ப்பு",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**RT-PCR**",
+        "ta": "**RT-PCR**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Reverse transcription of mRNA → cDNA → PCR",
+        "ta": "mRNA-வின் ரிவர்ஸ் டிரான்ஸ்கிரிப்ஷன் → cDNA → PCR",
+        "ta_status": "draft"
+       },
+       {
+        "en": "RNA detection, gene expression",
+        "ta": "RNA கண்டறிதல், மரபணு வெளிப்பாடு",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Requires reverse transcriptase enzyme",
+        "ta": "ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ் நொதி தேவை",
+        "ta_status": "draft"
+       },
+       {
+        "en": "COVID-19 diagnosis, HIV detection",
+        "ta": "COVID-19 நோயறிதல், HIV கண்டறிதல்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**qPCR (Real-Time PCR)**",
+        "ta": "**qPCR (நிகழ்நேர PCR)**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Fluorescence monitoring during amplification",
+        "ta": "பெருக்கத்தின்போது ஒளிர்வுக் கண்காணிப்பு",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Quantification of DNA/RNA",
+        "ta": "DNA/RNA அளவீடு",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Real-time measurement; no gel needed",
+        "ta": "நிகழ்நேர அளவீடு; ஜெல் தேவையில்லை",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Viral load quantification, gene expression",
+        "ta": "வைரஸ் சுமை அளவீடு, மரபணு வெளிப்பாடு",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Multiplex PCR**",
+        "ta": "**பல்லினப் PCR**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Multiple primer pairs in single reaction",
+        "ta": "ஒரே வினையில் பல பிரைமர் இணைகள்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Simultaneous detection of multiple targets",
+        "ta": "பல இலக்குகளை ஒரே நேரத்தில் கண்டறிதல்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Multiple amplicons of different sizes",
+        "ta": "வெவ்வேறு அளவுள்ள பல ஆம்ப்ளிகான்கள்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "STR profiling, multi-pathogen screening",
+        "ta": "STR சுயவிவரப் பதிவு, பல நோய்க்கிருமித் திரையிடல்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Nested PCR**",
+        "ta": "**நெஸ்டட் PCR**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Two sequential PCRs with outer + inner primers",
+        "ta": "வெளி + உள் பிரைமர்களுடன் தொடர்ச்சியான இரு PCR-கள்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Low copy number targets",
+        "ta": "குறைந்த நகல் எண் இலக்குகள்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Inner primers increase specificity",
+        "ta": "உள் பிரைமர்கள் தனித்தன்மையை உயர்த்தும்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "HIV detection, rare mutation analysis",
+        "ta": "HIV கண்டறிதல், அரிய திடீர்மாற்றப் பகுப்பாய்வு",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "**Hot-Start PCR**",
+        "ta": "**ஹாட்-ஸ்டார்ட் PCR**",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Polymerase inactive until high temperature",
+        "ta": "உயர் வெப்பநிலை வரை பாலிமரேஸ் செயலற்றிருக்கும்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Reduce non-specific amplification",
+        "ta": "குறிப்பிட்டதல்லாத பெருக்கத்தைக் குறைத்தல்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Antibody or wax barrier releases polymerase at 95°C",
+        "ta": "எதிர்ப்பொருள் அல்லது மெழுகுத் தடை 95°C-இல் பாலிமரேஸை விடுவிக்கும்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "High-specificity amplification",
+        "ta": "உயர் தனித்தன்மைப் பெருக்கம்",
+        "ta_status": "draft"
+       }
+      ]
+     ]
+    }
+   ],
+   "icon": "📋",
+   "label": "Section 10"
+  },
+  {
+   "id": "s13",
+   "title": {
+    "en": "Exponential DNA Amplification Across PCR Cycles",
+    "ta": "PCR சுழற்சிகளில் DNA அடுக்குக்குறிப் பெருக்கம்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Fig. 2 — How DNA Copies Double Every Cycle",
+      "ta": "படம் 2 — ஒவ்வொரு சுழற்சியிலும் DNA நகல்கள் இரட்டிப்பாகும் விதம்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "diagram",
+     "id": "pcr_principle_types_applications-d02",
+     "caption": {
+      "en": "Exponential PCR amplification across cycles",
+      "ta": "PCR சுழற்சிகளில் அடுக்குக்குறிப் பெருக்கம்",
+      "ta_status": "draft"
+     },
+     "labels": [
+      "Cycle 0",
+      "1 copy",
+      "×2",
+      "Cycle 1",
+      "2 copies",
+      "×2",
+      "Cycle 2",
+      "4 copies",
+      "×2ⁿ",
+      "Cycle 30",
+      "~10⁹ copies!",
+      "Millions of identical copies",
+      "of the target DNA segment",
+      "Copy Number Growth per Cycle",
+      "Cycle",
+      "Copies (2ⁿ)",
+      "Visual",
+      "n = 1",
+      "2",
+      "n = 5",
+      "32",
+      "n = 10",
+      "1,024",
+      "n = 20",
+      "1,048,576",
+      "n = 30",
+      "~10⁹",
+      "→"
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**PCR Copy Number Across Cycles**",
+      "ta": "**சுழற்சிகளில் PCR நகல் எண்ணிக்கை**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Cycle (n)",
+       "ta": "சுழற்சி (n)",
+       "ta_status": "bracketed"
+      },
+      {
+       "en": "Copies (2ⁿ)",
+       "ta": "நகல்கள் (2ⁿ)",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Approximate count",
+       "ta": "தோராயக் கணக்கு",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Bar chart",
+       "ta": "பட்டை வரைபடம்",
+       "ta_status": "draft"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "0",
+        "ta": "0",
+        "ta_status": "draft"
+       },
+       {
+        "en": "2⁰ = 1",
+        "ta": "2⁰ = 1",
+        "ta_status": "draft"
+       },
+       {
+        "en": "1 molecule",
+        "ta": "1 மூலக்கூறு",
+        "ta_status": "draft"
+       },
+       {
+        "en": "",
+        "ta": "",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "1",
+        "ta": "1",
+        "ta_status": "draft"
+       },
+       {
+        "en": "2¹ = 2",
+        "ta": "2¹ = 2",
+        "ta_status": "draft"
+       },
+       {
+        "en": "2 molecules",
+        "ta": "2 மூலக்கூறுகள்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "",
+        "ta": "",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "5",
+        "ta": "5",
+        "ta_status": "draft"
+       },
+       {
+        "en": "2⁵ = 32",
+        "ta": "2⁵ = 32",
+        "ta_status": "draft"
+       },
+       {
+        "en": "32 copies",
+        "ta": "32 நகல்கள்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "",
+        "ta": "",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "10",
+        "ta": "10",
+        "ta_status": "draft"
+       },
+       {
+        "en": "2¹⁰ = 1,024",
+        "ta": "2¹⁰ = 1,024",
+        "ta_status": "draft"
+       },
+       {
+        "en": "~1 thousand copies",
+        "ta": "~ஆயிரம் நகல்கள்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "",
+        "ta": "",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "20",
+        "ta": "20",
+        "ta_status": "draft"
+       },
+       {
+        "en": "2²⁰ = 1,048,576",
+        "ta": "2²⁰ = 1,048,576",
+        "ta_status": "draft"
+       },
+       {
+        "en": "~1 million copies",
+        "ta": "~10 இலட்சம் நகல்கள்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "",
+        "ta": "",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "30",
+        "ta": "30",
+        "ta_status": "draft"
+       },
+       {
+        "en": "2³⁰ ≈ 10⁹",
+        "ta": "2³⁰ ≈ 10⁹",
+        "ta_status": "draft"
+       },
+       {
+        "en": "~1 billion copies",
+        "ta": "~100 கோடி நகல்கள்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "",
+        "ta": "",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "35",
+        "ta": "35",
+        "ta_status": "draft"
+       },
+       {
+        "en": "2³⁵ ≈ 3.4×10¹⁰",
+        "ta": "2³⁵ ≈ 3.4×10¹⁰",
+        "ta_status": "draft"
+       },
+       {
+        "en": "~34 billion copies",
+        "ta": "~3,400 கோடி நகல்கள்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "",
+        "ta": "",
+        "ta_status": "draft"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "tip",
+     "text": {
+      "en": "**Why exponential?** After cycle 1, each new copy also serves as a template in cycle 2. So the number doubles with every cycle: 1→2→4→8→16→32… This is **exponential growth** — the power of PCR.",
+      "ta": "**ஏன் அடுக்குக்குறி?** முதல் சுழற்சிக்குப் பின் ஒவ்வொரு புதிய நகலும் இரண்டாம் சுழற்சியில் டெம்ப்ளேட்டாகச் செயல்படுகிறது. எனவே ஒவ்வொரு சுழற்சியிலும் எண்ணிக்கை இரட்டிப்பாகிறது: 1→2→4→8→16→32… இதுவே **அடுக்குக்குறி வளர்ச்சி** — PCR-இன் ஆற்றல்.",
+      "ta_status": "draft"
+     }
+    }
+   ],
+   "icon": "📈",
+   "label": "Section 11 — Visual"
+  },
+  {
+   "id": "s14",
+   "title": {
+    "en": "Interactive Learning",
+    "ta": "ஊடாடும் கற்றல்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**⚗️ Principle — Exam Key Points**",
+      "ta": "**⚗️ கோட்பாடு — தேர்வுக்கான முக்கியக் குறிப்புகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Core Principle",
+      "ta": "மையக் கோட்பாடு",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "PCR = **in vitro DNA amplification** using thermal cycling.",
+       "ta": "PCR = வெப்பச் சுழற்சியால் **உடலுக்கு வெளியிலான DNA பெருக்கம்**.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Based on: denaturation (strand separation) → annealing (primer binding) → extension (DNA synthesis).",
+       "ta": "அடிப்படை: டினேச்சுரேஷன் (இழை பிரிதல்) → அனீலிங் (பிரைமர் பிணைதல்) → நீட்டிப்பு (DNA தொகுப்பு).",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Exponential amplification: **2ⁿ copies** after n cycles.",
+       "ta": "அடுக்குக்குறிப் பெருக்கம்: n சுழற்சிகளுக்குப் பின் **2ⁿ நகல்கள்**.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Taq polymerase is heat-stable (survives 95°C denaturation).",
+       "ta": "Taq பாலிமரேஸ் வெப்பம் தாங்கும் (95°C டினேச்சுரேஷனில் உயிர்பிழைக்கும்).",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Primers define the region amplified — specificity comes from primer sequence.",
+       "ta": "பிரைமர்கள் பெருக்கப்படும் பகுதியை வரையறுக்கின்றன — தனித்தன்மை பிரைமர் வரிசையிலிருந்து வருகிறது.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Exam tip:** Know the three steps, their temperatures, and what happens at each stage. The formula 2ⁿ is frequently asked.",
+      "ta": "**தேர்வுக் குறிப்பு:** மூன்று படிகள், அவற்றின் வெப்பநிலைகள், ஒவ்வொரு நிலையிலும் நிகழ்வது ஆகியவற்றை அறிக. 2ⁿ சூத்திரம் அடிக்கடி கேட்கப்படும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🧪 Components — Exam Key Points**",
+      "ta": "**🧪 கூறுகள் — தேர்வுக்கான முக்கியக் குறிப்புகள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "7 Components",
+      "ta": "7 கூறுகள்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Template DNA** — source DNA to be amplified.",
+       "ta": "**டெம்ப்ளேட் DNA** — பெருக்கப்படவேண்டிய மூல DNA.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Primers (×2)** — forward and reverse, 18–25 nt, define the amplicon.",
+       "ta": "**பிரைமர்கள் (×2)** — முன்னோக்கு, பின்னோக்கு; 18–25 nt; ஆம்ப்ளிகானை வரையறுக்கும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Taq DNA polymerase** — thermostable, from _Thermus aquaticus_, active at 72°C.",
+       "ta": "**Taq DNA பாலிமரேஸ்** — வெப்பம் தாங்குவது; _தெர்மஸ் அக்வாட்டிகஸிலிருந்து_; 72°C-இல் செயல்படும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**dNTPs** — dATP, dTTP, dGTP, dCTP; building blocks.",
+       "ta": "**dNTP-கள்** — dATP, dTTP, dGTP, dCTP; கட்டுமானக் கூறுகள்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**PCR buffer** — Tris-HCl pH 8.3, KCl; maintains pH.",
+       "ta": "**PCR இடையகம்** — டிரிஸ்-HCl pH 8.3, KCl; pH-ஐப் பராமரிக்கும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**MgCl₂** — essential polymerase cofactor (1.5–2.5 mM).",
+       "ta": "**MgCl₂** — பாலிமரேஸின் இன்றியமையாத துணைக்காரணி (1.5–2.5 mM).",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Thermal cycler** — automated temperature control device.",
+       "ta": "**வெப்பச் சுழற்சிக் கருவி** — தானியங்கி வெப்பநிலைக் கட்டுப்பாட்டுச் சாதனம்.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Exam tip:** Know the role of Mg²⁺ ions — often asked. Too little = no amplification; too much = non-specific bands. Also know why Taq polymerase was a breakthrough (heat stability).",
+      "ta": "**தேர்வுக் குறிப்பு:** Mg²⁺ அயனிகளின் பங்கை அறிக — அடிக்கடி கேட்கப்படும். மிகக் குறைவு = பெருக்கம் இல்லை; மிகை = குறிப்பிட்டதல்லாத பட்டைகள். Taq பாலிமரேஸ் ஏன் ஒரு திருப்புமுனை (வெப்பத் தாங்குதிறன்) என்பதையும் அறிக.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🌡️ PCR Stages — Temperature & Timing**",
+      "ta": "**🌡️ PCR நிலைகள் — வெப்பநிலையும் நேரமும்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "Three Stages",
+      "ta": "மூன்று நிலைகள்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "table",
+     "header": [
+      {
+       "en": "Stage",
+       "ta": "நிலை",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Temperature",
+       "ta": "வெப்பநிலை",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Duration",
+       "ta": "காலம்",
+       "ta_status": "draft"
+      },
+      {
+       "en": "What Happens",
+       "ta": "நிகழ்வது",
+       "ta_status": "draft"
+      }
+     ],
+     "rows": [
+      [
+       {
+        "en": "Initial denaturation",
+        "ta": "தொடக்க டினேச்சுரேஷன்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "94–96°C",
+        "ta": "94–96°C",
+        "ta_status": "draft"
+       },
+       {
+        "en": "2–5 min",
+        "ta": "2–5 நிமிடம்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Complete denaturation of template",
+        "ta": "டெம்ப்ளேட்டின் முழுமையான டினேச்சுரேஷன்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "Denaturation",
+        "ta": "டினேச்சுரேஷன்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "94–96°C",
+        "ta": "94–96°C",
+        "ta_status": "draft"
+       },
+       {
+        "en": "20–30 sec",
+        "ta": "20–30 வி",
+        "ta_status": "draft"
+       },
+       {
+        "en": "H-bonds broken → ssDNA",
+        "ta": "H-பிணைப்புகள் உடையும் → ssDNA",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "Annealing",
+        "ta": "அனீலிங்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "50–65°C",
+        "ta": "50–65°C",
+        "ta_status": "draft"
+       },
+       {
+        "en": "20–40 sec",
+        "ta": "20–40 வி",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Primers bind template (Tm−5°C)",
+        "ta": "பிரைமர்கள் டெம்ப்ளேட்டுடன் பிணையும் (Tm−5°C)",
+        "ta_status": "bracketed"
+       }
+      ],
+      [
+       {
+        "en": "Extension",
+        "ta": "நீட்டிப்பு",
+        "ta_status": "draft"
+       },
+       {
+        "en": "72°C",
+        "ta": "72°C",
+        "ta_status": "draft"
+       },
+       {
+        "en": "~1 min/kb",
+        "ta": "~1 நிமிடம்/kb",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Taq synthesises new strand 5'→3'",
+        "ta": "Taq புதிய இழையை 5'→3' திசையில் தொகுக்கும்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "Final extension",
+        "ta": "இறுதி நீட்டிப்பு",
+        "ta_status": "draft"
+       },
+       {
+        "en": "72°C",
+        "ta": "72°C",
+        "ta_status": "draft"
+       },
+       {
+        "en": "5–10 min",
+        "ta": "5–10 நிமிடம்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Completes all partial strands",
+        "ta": "அனைத்துப் பகுதி இழைகளையும் நிறைவுசெய்யும்",
+        "ta_status": "draft"
+       }
+      ],
+      [
+       {
+        "en": "Hold",
+        "ta": "நிறுத்தி வைத்தல்",
+        "ta_status": "draft"
+       },
+       {
+        "en": "4°C",
+        "ta": "4°C",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Indefinite",
+        "ta": "வரம்பின்றி",
+        "ta_status": "draft"
+       },
+       {
+        "en": "Storage of product",
+        "ta": "விளைபொருள் சேமிப்பு",
+        "ta_status": "draft"
+       }
+      ]
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**🗂️ Types of PCR — Quick Reference**",
+      "ta": "**🗂️ PCR வகைகள் — விரைவுக் குறிப்பு**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "5 Major Types",
+      "ta": "5 முக்கிய வகைகள்",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Conventional PCR:** Standard; gel detection; presence/absence.",
+       "ta": "**வழக்கமான PCR:** நிலையானது; ஜெல் கண்டறிதல்; இருப்பு/இன்மை.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**RT-PCR:** RNA → cDNA → PCR; detects RNA viruses; requires reverse transcriptase.",
+       "ta": "**RT-PCR:** RNA → cDNA → PCR; RNA வைரஸ்களைக் கண்டறியும்; ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ் தேவை.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**qPCR / Real-Time PCR:** Fluorescence during cycling; quantitative; no gel needed.",
+       "ta": "**qPCR / நிகழ்நேர PCR:** சுழற்சியின்போது ஒளிர்வு; அளவீட்டுத் திறன்; ஜெல் தேவையில்லை.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Multiplex PCR:** Multiple primer pairs in one tube; detects multiple targets.",
+       "ta": "**பல்லினப் PCR:** ஒரே குழாயில் பல பிரைமர் இணைகள்; பல இலக்குகளைக் கண்டறியும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Nested PCR:** Two PCR rounds; outer then inner primers; highest specificity/sensitivity.",
+       "ta": "**நெஸ்டட் PCR:** இரு PCR சுற்றுகள்; முதலில் வெளி, பின் உள் பிரைமர்கள்; மிக உயர் தனித்தன்மை/உணர்திறன்.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "callout",
+     "kind": "info",
+     "text": {
+      "en": "**Exam tip:** RT-PCR uses reverse transcriptase BEFORE the PCR reaction (mRNA→cDNA), NOT during thermal cycling. Do not confuse RT-PCR with qPCR (real-time PCR). COVID-19 tests = RT-qPCR (both).",
+      "ta": "**தேர்வுக் குறிப்பு:** RT-PCR-இல் ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ் PCR வினைக்கு **முன்** (mRNA→cDNA) பயன்படும்; வெப்பச் சுழற்சியின்போது அல்ல. RT-PCR-ஐ qPCR (நிகழ்நேர PCR) உடன் குழப்ப வேண்டாம். COVID-19 சோதனைகள் = RT-qPCR (இரண்டும்).",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Click-to-Reveal Key Terms**",
+      "ta": "**தொட்டு வெளிப்படுத்தும் முக்கியச் சொற்கள்**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Taq Polymerase",
+      "ta": "Taq பாலிமரேஸ்",
+      "ta_status": "draft"
+     },
+     "answer": {
+      "en": "Heat-stable DNA polymerase from Thermus aquaticus (hot springs bacterium). Optimal at 72°C. Withstands 94–96°C denaturation. Rate: ~1000 bp/min. Lacks 3'→5' proofreading exonuclease — error rate ~1/10⁵ bp. Made PCR automation possible.",
+      "ta": "வெப்ப நீரூற்று பாக்டீரியமான தெர்மஸ் அக்வாட்டிகஸிலிருந்து பெறப்படும் வெப்பம் தாங்கும் DNA பாலிமரேஸ். 72°C-இல் உகந்தது. 94–96°C டினேச்சுரேஷனைத் தாங்கும். வேகம்: ~1000 bp/நிமிடம். 3'→5' பிழை திருத்த எக்ஸோநியுக்ளியேஸ் இல்லை — பிழை விகிதம் ~1/10⁵ bp. PCR தானியக்கத்தைச் சாத்தியமாக்கியது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Primer",
+      "ta": "பிரைமர்",
+      "ta_status": "draft"
+     },
+     "answer": {
+      "en": "Short (18–25 nt) synthetic single-stranded oligonucleotide complementary to the template flanking the target region. Two primers: forward (sense strand direction) and reverse (antisense strand direction). Defines the amplicon boundaries. Provides 3'-OH for Taq to extend.",
+      "ta": "இலக்குப் பகுதியின் இருபுற டெம்ப்ளேட் வரிசைக்கு நிரப்பான குறுகிய (18–25 nt) செயற்கை ஒற்றை இழை ஒலிகோநியுக்ளியோடைடு. இரு பிரைமர்கள்: முன்னோக்கு (சென்ஸ் இழைத் திசை), பின்னோக்கு (ஆன்டிசென்ஸ் இழைத் திசை). ஆம்ப்ளிகானின் எல்லைகளை வரையறுக்கும். Taq நீட்டிக்க 3'-OH-ஐத் தரும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Amplicon",
+      "ta": "ஆம்ப்ளிகான்",
+      "ta_status": "draft"
+     },
+     "answer": {
+      "en": "The PCR product — the specific double-stranded DNA fragment amplified between and including the two primers. Its size in base pairs is determined by the positions of the two primers on the template. Visualised as a band on agarose gel.",
+      "ta": "PCR விளைபொருள் — இரு பிரைமர்களுக்கு இடையே (அவை உட்பட) பெருக்கப்பட்ட குறிப்பிட்ட இரட்டை இழை DNA துண்டு. டெம்ப்ளேட்டில் இரு பிரைமர்களின் நிலைகளால் அதன் அளவு (bp) தீர்மானிக்கப்படும். அகரோஸ் ஜெல்லில் பட்டையாகக் காணப்படும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Thermal Cycler",
+      "ta": "வெப்பச் சுழற்சிக் கருவி",
+      "ta_status": "draft"
+     },
+     "answer": {
+      "en": "A programmable heating/cooling device (PCR machine) that automates the temperature cycling of PCR. Precisely alternates between denaturation (95°C), annealing (50–65°C), and extension (72°C) temperatures for the programmed number of cycles.",
+      "ta": "PCR-இன் வெப்பநிலைச் சுழற்சியைத் தானியங்கியாக்கும் நிரலமைக்கத்தக்க வெப்பமேற்றும்/குளிர்விக்கும் சாதனம் (PCR இயந்திரம்). நிரலிட்ட சுழற்சிகளுக்கு டினேச்சுரேஷன் (95°C), அனீலிங் (50–65°C), நீட்டிப்பு (72°C) வெப்பநிலைகளுக்கிடையே துல்லியமாக மாறி மாறிச் செயல்படும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "dNTPs",
+      "ta": "dNTP-கள்",
+      "ta_status": "draft"
+     },
+     "answer": {
+      "en": "Deoxynucleoside triphosphates (dATP, dTTP, dGTP, dCTP) — the four building blocks used by Taq polymerase to synthesise the new complementary DNA strand. Added at 200 µM each. The 3'-OH on each dNTP allows the chain to continue growing.",
+      "ta": "டீஆக்சிநியுக்ளியோசைடு டிரைபாஸ்பேட்டுகள் (dATP, dTTP, dGTP, dCTP) — புதிய நிரப்பு DNA இழையைத் தொகுக்க Taq பாலிமரேஸ் பயன்படுத்தும் நான்கு கட்டுமானக் கூறுகள். ஒவ்வொன்றும் 200 µM அளவில் சேர்க்கப்படும். ஒவ்வொரு dNTP-யின் 3'-OH சங்கிலி தொடர்ந்து வளர அனுமதிக்கிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Denaturation",
+      "ta": "டினேச்சுரேஷன்",
+      "ta_status": "draft"
+     },
+     "answer": {
+      "en": "The first step of each PCR cycle: heating to 94–96°C to break hydrogen bonds between base pairs, separating double-stranded DNA into two single-stranded templates. Without complete denaturation, primers cannot access the template and amplification fails.",
+      "ta": "ஒவ்வொரு PCR சுழற்சியின் முதல் படி: 94–96°C-க்கு வெப்பமேற்றி காரஇணைகளுக்கிடையிலான ஹைட்ரஜன் பிணைப்புகளை உடைத்து, இரட்டை இழை DNA-வை இரு ஒற்றை இழை டெம்ப்ளேட்டுகளாகப் பிரித்தல். முழுமையான டினேச்சுரேஷன் இல்லாவிட்டால் பிரைமர்கள் டெம்ப்ளேட்டை அணுக இயலாது; பெருக்கம் தோல்வியடையும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Annealing Temperature",
+      "ta": "அனீலிங் வெப்பநிலை",
+      "ta_status": "draft"
+     },
+     "answer": {
+      "en": "The temperature (50–65°C) at which primers hybridise to the template in PCR. Usually set at 5°C below the melting temperature (Tm) of the primers. Too low → non-specific annealing and extra bands. Too high → primers fail to bind and no product forms.",
+      "ta": "PCR-இல் பிரைமர்கள் டெம்ப்ளேட்டுடன் கலப்பினமாகும் வெப்பநிலை (50–65°C). பொதுவாகப் பிரைமர்களின் உருகுநிலையைவிட (Tm) 5°C குறைவாக அமைக்கப்படும். மிகக் குறைவு → குறிப்பிட்டதல்லாத அனீலிங், கூடுதல் பட்டைகள். மிக அதிகம் → பிரைமர்கள் பிணையாது; விளைபொருள் உருவாகாது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "reveal",
+     "question": {
+      "en": "Reverse Transcriptase",
+      "ta": "ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ்",
+      "ta_status": "draft"
+     },
+     "answer": {
+      "en": "An RNA-dependent DNA polymerase from retroviruses. In RT-PCR, it converts mRNA into cDNA (reverse transcription) BEFORE PCR amplification. Essential for detecting RNA viruses (SARS-CoV-2, HIV) and studying gene expression. The resulting cDNA is used as template in standard PCR.",
+      "ta": "ரெட்ரோவைரஸ்களிலிருந்து பெறப்படும் RNA சார்ந்த DNA பாலிமரேஸ். RT-PCR-இல் PCR பெருக்கத்துக்கு **முன்** mRNA-வை cDNA ஆக மாற்றுகிறது (ரிவர்ஸ் டிரான்ஸ்கிரிப்ஷன்). RNA வைரஸ்களைக் (SARS-CoV-2, HIV) கண்டறியவும் மரபணு வெளிப்பாட்டை ஆராயவும் இன்றியமையாதது. உருவாகும் cDNA நிலையான PCR-இல் டெம்ப்ளேட்டாகப் பயன்படும்.",
+      "ta_status": "draft"
+     }
+    }
+   ],
+   "icon": "🎮",
+   "label": "Section 12 — Interactive"
+  },
+  {
+   "id": "s15",
+   "title": {
+    "en": "Summary — Key Exam Points",
+    "ta": "சுருக்கம் — தேர்வுக்கான முக்கியக் குறிப்புகள்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "**PCR Full Form**Polymerase Chain Reaction. Invented by Kary Mullis in 1983. Nobel Prize in Chemistry 1993. In vitro DNA amplification technique.",
+      "ta": "**PCR முழுப்பெயர்**பாலிமரேஸ் தொடர்வினை. 1983-இல் காரி முல்லிஸ் கண்டுபிடித்தார். 1993 வேதியியல் நோபல் பரிசு. உடலுக்கு வெளியிலான DNA பெருக்க நுட்பம்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Principle**Exponential amplification using thermal cycling: denaturation → annealing → extension. Produces 2ⁿ copies after n cycles. ~10⁹ copies after 30 cycles.",
+      "ta": "**கோட்பாடு**வெப்பச் சுழற்சியால் அடுக்குக்குறிப் பெருக்கம்: டினேச்சுரேஷன் → அனீலிங் → நீட்டிப்பு. n சுழற்சிகளுக்குப் பின் 2ⁿ நகல்கள். 30 சுழற்சிகளுக்குப் பின் ~10⁹ நகல்கள்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Taq Polymerase**From Thermus aquaticus. Heat-stable (survives 95°C). Optimal at 72°C. Rate ~1000 bp/min. Lacks proofreading (3'→5' exonuclease).",
+      "ta": "**Taq பாலிமரேஸ்**தெர்மஸ் அக்வாட்டிகஸிலிருந்து. வெப்பம் தாங்கும் (95°C-இல் உயிர்பிழைக்கும்). 72°C-இல் உகந்தது. வேகம் ~1000 bp/நிமிடம். பிழை திருத்தம் (3'→5' எக்ஸோநியுக்ளியேஸ்) இல்லை.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Three PCR Steps**Denaturation (94–96°C) → Annealing (50–65°C) → Extension (72°C). Each cycle doubles the DNA. 25–40 cycles typical.",
+      "ta": "**மூன்று PCR படிகள்**டினேச்சுரேஷன் (94–96°C) → அனீலிங் (50–65°C) → நீட்டிப்பு (72°C). ஒவ்வொரு சுழற்சியும் DNA-வை இரட்டிப்பாக்கும். பொதுவாக 25–40 சுழற்சிகள்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Mg²⁺ Role**Essential cofactor for Taq polymerase. Also stabilises primer–template duplexes. Optimal: 1.5–2.5 mM. Excess Mg²⁺ causes non-specific amplification.",
+      "ta": "**Mg²⁺ பங்கு**Taq பாலிமரேஸின் இன்றியமையாத துணைக்காரணி. பிரைமர்–டெம்ப்ளேட் இரட்டையையும் நிலைப்படுத்தும். உகந்த அளவு: 1.5–2.5 mM. மிகை Mg²⁺ குறிப்பிட்டதல்லாத பெருக்கத்தை உண்டாக்கும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**RT-PCR**RNA → cDNA (by reverse transcriptase) → PCR. Used for RNA virus detection. Basis of COVID-19 diagnostic test. Not the same as quantitative PCR (qPCR).",
+      "ta": "**RT-PCR**RNA → cDNA (ரிவர்ஸ் டிரான்ஸ்கிரிப்டேசால்) → PCR. RNA வைரஸ் கண்டறிதலுக்குப் பயன்படும். COVID-19 நோயறிதல் சோதனையின் அடிப்படை. அளவீட்டு PCR (qPCR) போன்றதல்ல.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**qPCR**Real-time monitoring of amplification using fluorescent dyes (SYBR Green) or probes (TaqMan). Quantitative. Used for viral load measurement and gene expression.",
+      "ta": "**qPCR**ஒளிர்வுச் சாயங்கள் (SYBR Green) அல்லது துருவிகள் (TaqMan) கொண்டு பெருக்கத்தை நிகழ்நேரத்தில் கண்காணித்தல். அளவீட்டுத் திறன் உடையது. வைரஸ் சுமை, மரபணு வெளிப்பாடு அளவிடப் பயன்படும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Multiplex PCR**Multiple primer pairs in one reaction. Amplifies several targets simultaneously. Used in forensic STR profiling and multi-pathogen panels.",
+      "ta": "**பல்லினப் PCR**ஒரே வினையில் பல பிரைமர் இணைகள். பல இலக்குகளை ஒரே நேரத்தில் பெருக்கும். தடயவியல் STR சுயவிவரப் பதிவு, பல நோய்க்கிருமிக் குழுக்களில் பயன்படும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Nested PCR**Two sequential PCRs. Outer primers first, then inner (nested) primers on the product. Highest sensitivity and specificity for low-copy targets.",
+      "ta": "**நெஸ்டட் PCR**அடுத்தடுத்த இரு PCR-கள். முதலில் வெளி பிரைமர்கள், பின் விளைபொருளின்மீது உள் (நெஸ்டட்) பிரைமர்கள். குறைந்த நகல் இலக்குகளுக்கு மிக உயர் உணர்திறனும் தனித்தன்மையும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Applications**Medical diagnosis (COVID, HIV), forensics (DNA fingerprinting), genetic disorders (cystic fibrosis), gene cloning, animal biotechnology, archaeological DNA.",
+      "ta": "**பயன்பாடுகள்**மருத்துவ நோயறிதல் (COVID, HIV), தடயவியல் (DNA கைரேகைப் பதிவு), மரபுநோய்கள் (சிஸ்டிக் ஃபைப்ரோசிஸ்), மரபணு குளோனாக்கம், விலங்கு உயிரித் தொழில்நுட்பவியல், தொல்லியல் DNA.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Limitations**Prior sequence knowledge needed. Contamination causes false positives. Taq errors (no proofreading). Non-specific bands if Mg²⁺ or annealing T not optimised.",
+      "ta": "**வரம்புகள்**முன்பே வரிசை அறிவு தேவை. மாசுபாடு தவறான நேர்மறையைத் தரும். Taq பிழைகள் (பிழை திருத்தம் இல்லை). Mg²⁺ அல்லது அனீலிங் வெப்பநிலை உகந்ததாக இல்லாவிட்டால் குறிப்பிட்டதல்லாத பட்டைகள்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Primers**18–25 nt synthetic oligos. Two required: forward + reverse. Complementary to template flanking the target. Annealing T = Tm − 5°C. Define the amplicon.",
+      "ta": "**பிரைமர்கள்**18–25 nt செயற்கை ஒலிகோக்கள். இரண்டு தேவை: முன்னோக்கு + பின்னோக்கு. இலக்கின் இருபுற டெம்ப்ளேட் வரிசைக்கு நிரப்பானவை. அனீலிங் வெப்பநிலை = Tm − 5°C. ஆம்ப்ளிகானை வரையறுக்கும்.",
+      "ta_status": "draft"
+     }
+    }
+   ],
+   "icon": "📌",
+   "label": "Section 14"
+  },
+  {
+   "id": "s16",
+   "title": {
+    "en": "Glossary",
+    "ta": "சொற்களஞ்சியம்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "glossary",
+     "term": {
+      "en": "PCR (Polymerase Chain Reaction)",
+      "ta": "PCR (பாலிமரேஸ் தொடர்வினை)",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "An in vitro technique for amplifying a specific DNA segment exponentially using repeated thermal cycling steps (denaturation, annealing, extension) and a thermostable DNA polymerase. Invented by Kary Mullis in 1983.",
+      "ta": "வெப்பம் தாங்கும் DNA பாலிமரேஸையும் திரும்பத் திரும்ப நிகழும் வெப்பச் சுழற்சிப் படிகளையும் (டினேச்சுரேஷன், அனீலிங், நீட்டிப்பு) பயன்படுத்தி குறிப்பிட்ட DNA துண்டை அடுக்குக்குறியாகப் பெருக்கும் உடலுக்கு வெளியிலான நுட்பம். 1983-இல் காரி முல்லிஸ் கண்டுபிடித்தார்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Template DNA",
+      "ta": "டெம்ப்ளேட் DNA",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "The source DNA containing the target sequence to be amplified in PCR. Can be genomic DNA, cDNA, plasmid DNA, or forensic/clinical samples. Typically used in nanogram quantities per reaction.",
+      "ta": "PCR-இல் பெருக்கப்படவேண்டிய இலக்கு வரிசையைக் கொண்ட மூல DNA. மரபணு தொகைய DNA, cDNA, பிளாஸ்மிட் DNA அல்லது தடயவியல்/மருத்துவ மாதிரிகளாக இருக்கலாம். ஒரு வினைக்குப் பொதுவாக நானோகிராம் அளவில் பயன்படும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Primer",
+      "ta": "பிரைமர்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "A short (18–25 nt) synthetic single-stranded oligonucleotide complementary to the template flanking the target region. Two primers are required: forward (sense) and reverse (antisense). Defines the exact boundaries of the amplified product (amplicon).",
+      "ta": "இலக்குப் பகுதியின் இருபுற டெம்ப்ளேட் வரிசைக்கு நிரப்பான குறுகிய (18–25 nt) செயற்கை ஒற்றை இழை ஒலிகோநியுக்ளியோடைடு. இரு பிரைமர்கள் தேவை: முன்னோக்கு (சென்ஸ்), பின்னோக்கு (ஆன்டிசென்ஸ்). பெருக்கப்பட்ட விளைபொருளின் (ஆம்ப்ளிகான்) துல்லிய எல்லைகளை வரையறுக்கும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Denaturation",
+      "ta": "டினேச்சுரேஷன்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "The first stage of each PCR cycle. Heating to 94–96°C breaks hydrogen bonds between base pairs, separating the double-stranded DNA into single-stranded templates for primer binding in the next step.",
+      "ta": "ஒவ்வொரு PCR சுழற்சியின் முதல் நிலை. 94–96°C-க்கு வெப்பமேற்றல் காரஇணைகளுக்கிடையிலான ஹைட்ரஜன் பிணைப்புகளை உடைத்து, இரட்டை இழை DNA-வை அடுத்த படியில் பிரைமர் பிணைக்கும் ஒற்றை இழை டெம்ப்ளேட்டுகளாகப் பிரிக்கிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Annealing",
+      "ta": "அனீலிங்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "The second stage of each PCR cycle (50–65°C). Primers hybridise to their complementary sequences on the single-stranded template through Watson-Crick base pairing. Annealing temperature = Tm − 5°C of the primers.",
+      "ta": "ஒவ்வொரு PCR சுழற்சியின் இரண்டாம் நிலை (50–65°C). பிரைமர்கள் வாட்சன்-கிரிக் காரப் பிணைப்பால் ஒற்றை இழை டெம்ப்ளேட்டிலுள்ள நிரப்பு வரிசைகளுடன் கலப்பினமாகின்றன. அனீலிங் வெப்பநிலை = பிரைமர்களின் Tm − 5°C.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Extension",
+      "ta": "நீட்டிப்பு",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "The third stage of each PCR cycle (72°C). Taq DNA polymerase extends each primer by adding dNTPs complementary to the template in the 5'→3' direction, synthesising a new complementary DNA strand.",
+      "ta": "ஒவ்வொரு PCR சுழற்சியின் மூன்றாம் நிலை (72°C). Taq DNA பாலிமரேஸ் டெம்ப்ளேட்டுக்கு நிரப்பான dNTP-களை 5'→3' திசையில் சேர்த்து ஒவ்வொரு பிரைமரையும் நீட்டித்துப் புதிய நிரப்பு DNA இழையைத் தொகுக்கிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Taq Polymerase",
+      "ta": "Taq பாலிமரேஸ்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "A thermostable DNA polymerase isolated from Thermus aquaticus, a bacterium from hot springs. Withstands the 94–96°C denaturation step of PCR. Optimal activity at 72°C. Rate: ~1000 bp/min. Lacks 3'→5' proofreading exonuclease activity.",
+      "ta": "வெப்ப நீரூற்று பாக்டீரியமான தெர்மஸ் அக்வாட்டிகஸிலிருந்து தனிமைப்படுத்தப்பட்ட வெப்பம் தாங்கும் DNA பாலிமரேஸ். PCR-இன் 94–96°C டினேச்சுரேஷன் படியைத் தாங்கும். 72°C-இல் உகந்த செயல். வேகம்: ~1000 bp/நிமிடம். 3'→5' பிழை திருத்த எக்ஸோநியுக்ளியேஸ் செயல் இல்லை.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Thermal Cycler",
+      "ta": "வெப்பச் சுழற்சிக் கருவி",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "A programmable device that automatically and precisely controls the temperature cycling of PCR reactions. Alternates between the denaturation, annealing, and extension temperatures for the programmed number of cycles, enabling complete automation of PCR.",
+      "ta": "PCR வினைகளின் வெப்பநிலைச் சுழற்சியைத் தானாகவும் துல்லியமாகவும் கட்டுப்படுத்தும் நிரலமைக்கத்தக்க சாதனம். நிரலிட்ட சுழற்சிகளுக்கு டினேச்சுரேஷன், அனீலிங், நீட்டிப்பு வெப்பநிலைகளுக்கிடையே மாறி PCR-ஐ முழுமையாகத் தானியங்கியாக்குகிறது.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Amplicon",
+      "ta": "ஆம்ப்ளிகான்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "The PCR product — the double-stranded DNA fragment amplified between (and including) the two primer sequences. Its size is fixed by the primer positions and is detected as a band on agarose gel electrophoresis.",
+      "ta": "PCR விளைபொருள் — இரு பிரைமர் வரிசைகளுக்கு இடையே (அவை உட்பட) பெருக்கப்பட்ட இரட்டை இழை DNA துண்டு. பிரைமர் நிலைகளால் அதன் அளவு நிர்ணயிக்கப்படுகிறது; அகரோஸ் இழும மின்னாற்பிரித்தலில் பட்டையாகக் கண்டறியப்படும்.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "glossary",
+     "term": {
+      "en": "Reverse Transcriptase",
+      "ta": "ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ்",
+      "ta_status": "draft"
+     },
+     "definition": {
+      "en": "RNA-dependent DNA polymerase from retroviruses (e.g., MMLV-RT). In RT-PCR, converts single-stranded mRNA into complementary DNA (cDNA) before PCR amplification. Essential for detecting and studying RNA targets including RNA viruses.",
+      "ta": "ரெட்ரோவைரஸ்களிலிருந்து பெறப்படும் RNA சார்ந்த DNA பாலிமரேஸ் (எ.கா. MMLV-RT). RT-PCR-இல் PCR பெருக்கத்துக்கு முன் ஒற்றை இழை mRNA-வை நிரப்பு DNA-வாக (cDNA) மாற்றுகிறது. RNA வைரஸ்கள் உட்பட RNA இலக்குகளைக் கண்டறியவும் ஆராயவும் இன்றியமையாதது.",
+      "ta_status": "draft"
+     }
+    }
+   ],
+   "icon": "📖",
+   "label": "Section 15"
+  },
+  {
+   "id": "s17",
+   "title": {
+    "en": "Frequently Asked University Exam Questions",
+    "ta": "பல்கலைக்கழகத் தேர்வுகளில் அடிக்கடி கேட்கப்படும் வினாக்கள்",
+    "ta_status": "draft"
+   },
+   "blocks": [
+    {
+     "type": "p",
+     "text": {
+      "en": "Click to expand answer hints.",
+      "ta": "விடைக் குறிப்புகளை விரிவாக்கத் தொடுக.",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**1. What is PCR? Explain its principle and the three stages of a PCR cycle.**",
+      "ta": "**1. PCR என்றால் என்ன? அதன் கோட்பாட்டையும் PCR சுழற்சியின் மூன்று நிலைகளையும் விளக்குக.**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**",
+      "ta": "**விடைக் குறிப்புகள்:**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Definition: Polymerase Chain Reaction — in vitro exponential amplification of a specific DNA segment using thermal cycling. Invented by Kary Mullis (1983); Nobel Prize 1993.",
+       "ta": "வரையறை: பாலிமரேஸ் தொடர்வினை — வெப்பச் சுழற்சியால் குறிப்பிட்ட DNA துண்டை உடலுக்கு வெளியே அடுக்குக்குறியாகப் பெருக்குதல். காரி முல்லிஸ் (1983) கண்டுபிடித்தார்; நோபல் பரிசு 1993.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Principle: repeated cycles of denaturation → annealing → extension; each cycle doubles copies; exponential amplification = 2ⁿ after n cycles.",
+       "ta": "கோட்பாடு: டினேச்சுரேஷன் → அனீலிங் → நீட்டிப்புச் சுழற்சிகள்; ஒவ்வொரு சுழற்சியும் நகல்களை இரட்டிப்பாக்கும்; அடுக்குக்குறிப் பெருக்கம் = n சுழற்சிகளுக்குப் பின் 2ⁿ.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Stage 1 — Denaturation: 94–96°C; H-bonds broken; dsDNA → 2 ssDNA templates.",
+       "ta": "நிலை 1 — டினேச்சுரேஷன்: 94–96°C; H-பிணைப்புகள் உடையும்; dsDNA → 2 ssDNA டெம்ப்ளேட்டுகள்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Stage 2 — Annealing: 50–65°C; primers (forward + reverse) bind complementary template sequences; Tm−5°C rule.",
+       "ta": "நிலை 2 — அனீலிங்: 50–65°C; பிரைமர்கள் (முன்னோக்கு + பின்னோக்கு) நிரப்பு டெம்ப்ளேட் வரிசைகளுடன் பிணையும்; Tm−5°C விதி.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Stage 3 — Extension: 72°C; Taq polymerase adds dNTPs 5'→3' from primers; rate ~1000 bp/min.",
+       "ta": "நிலை 3 — நீட்டிப்பு: 72°C; Taq பாலிமரேஸ் பிரைமர்களிலிருந்து 5'→3' திசையில் dNTP-களைச் சேர்க்கும்; வேகம் ~1000 bp/நிமிடம்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "After 30–40 cycles → ~10⁶–10⁹ copies. Include a diagram of the temperature cycle.",
+       "ta": "30–40 சுழற்சிகளுக்குப் பின் → ~10⁶–10⁹ நகல்கள். வெப்பநிலைச் சுழற்சி வரைபடத்தைச் சேர்க்க.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**2. What are the components required for PCR? State the function of each.**",
+      "ta": "**2. PCR-க்குத் தேவையான கூறுகள் யாவை? ஒவ்வொன்றின் செயலையும் குறிப்பிடுக.**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**",
+      "ta": "**விடைக் குறிப்புகள்:**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Template DNA — source DNA with target sequence.",
+       "ta": "டெம்ப்ளேட் DNA — இலக்கு வரிசையுடைய மூல DNA.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Primers (×2, forward + reverse) — define amplicon; 18–25 nt; provide 3'-OH for extension.",
+       "ta": "பிரைமர்கள் (×2, முன்னோக்கு + பின்னோக்கு) — ஆம்ப்ளிகானை வரையறுக்கும்; 18–25 nt; நீட்டிப்புக்கு 3'-OH-ஐத் தரும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Taq DNA polymerase — heat-stable; from T. aquaticus; synthesises new strand at 72°C.",
+       "ta": "Taq DNA பாலிமரேஸ் — வெப்பம் தாங்குவது; T. aquaticus-இலிருந்து; 72°C-இல் புதிய இழையைத் தொகுக்கும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "dNTPs (dATP, dTTP, dGTP, dCTP) — building blocks for DNA synthesis.",
+       "ta": "dNTP-கள் (dATP, dTTP, dGTP, dCTP) — DNA தொகுப்புக்கான கட்டுமானக் கூறுகள்.",
+       "ta_status": "bracketed"
+      },
+      {
+       "en": "PCR buffer (Tris-HCl, KCl) — maintains optimal pH 8.3–8.8.",
+       "ta": "PCR இடையகம் (டிரிஸ்-HCl, KCl) — உகந்த pH 8.3–8.8-ஐப் பராமரிக்கும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "MgCl₂ (1.5–2.5 mM) — essential polymerase cofactor; stabilises primer-template duplexes.",
+       "ta": "MgCl₂ (1.5–2.5 mM) — பாலிமரேஸின் இன்றியமையாத துணைக்காரணி; பிரைமர்-டெம்ப்ளேட் இரட்டையை நிலைப்படுத்தும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Thermal cycler — automated temperature control.",
+       "ta": "வெப்பச் சுழற்சிக் கருவி — தானியங்கி வெப்பநிலைக் கட்டுப்பாடு.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Exam tip: Know the role of Mg²⁺ separately — it's frequently asked alone.",
+       "ta": "தேர்வுக் குறிப்பு: Mg²⁺-இன் பங்கைத் தனியாக அறிக — அது தனியாகவும் அடிக்கடி கேட்கப்படும்.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**3. What is RT-PCR? How does it differ from conventional PCR and what are its applications?**",
+      "ta": "**3. RT-PCR என்றால் என்ன? வழக்கமான PCR-இலிருந்து அது எவ்வாறு வேறுபடுகிறது, அதன் பயன்பாடுகள் யாவை?**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**",
+      "ta": "**விடைக் குறிப்புகள்:**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "RT-PCR = Reverse Transcriptase PCR. Uses RNA as starting material, not DNA.",
+       "ta": "RT-PCR = ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ் PCR. DNA அல்ல, RNA-வைத் தொடக்கப்பொருளாகப் பயன்படுத்தும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Key step: RNA → cDNA by reverse transcriptase (RNA-dependent DNA polymerase) BEFORE PCR.",
+       "ta": "முக்கியப் படி: PCR-க்கு முன் ரிவர்ஸ் டிரான்ஸ்கிரிப்டேசால் (RNA சார்ந்த DNA பாலிமரேஸ்) RNA → cDNA.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Two-step process: (1) RT step: mRNA + oligo-dT primer + RT enzyme → cDNA; (2) PCR: cDNA amplified by standard thermal cycling.",
+       "ta": "இரு படி செயல்முறை: (1) RT படி: mRNA + oligo-dT பிரைமர் + RT நொதி → cDNA; (2) PCR: cDNA நிலையான வெப்பச் சுழற்சியால் பெருக்கப்படும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Difference from conventional PCR: conventional uses DNA template directly; RT-PCR requires reverse transcription first to convert RNA to cDNA.",
+       "ta": "வழக்கமான PCR-இலிருந்து வேறுபாடு: வழக்கமான PCR DNA டெம்ப்ளேட்டை நேரடியாகப் பயன்படுத்தும்; RT-PCR-க்கு முதலில் RNA-வை cDNA ஆக மாற்றும் ரிவர்ஸ் டிரான்ஸ்கிரிப்ஷன் தேவை.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Applications: detection of RNA viruses (SARS-CoV-2, HIV, influenza); gene expression analysis; transcriptome studies.",
+       "ta": "பயன்பாடுகள்: RNA வைரஸ்களைக் (SARS-CoV-2, HIV, இன்ஃப்ளூயன்சா) கண்டறிதல்; மரபணு வெளிப்பாட்டுப் பகுப்பாய்வு; படியெடுப்புத்தொகையப் படிப்புகள்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "COVID-19 diagnosis: RT-qPCR combines reverse transcription + real-time PCR.",
+       "ta": "COVID-19 நோயறிதல்: RT-qPCR ரிவர்ஸ் டிரான்ஸ்கிரிப்ஷனையும் நிகழ்நேர PCR-ஐயும் இணைக்கிறது.",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**4. What is exponential amplification in PCR? Calculate the number of copies after 20 cycles.**",
+      "ta": "**4. PCR-இல் அடுக்குக்குறிப் பெருக்கம் என்றால் என்ன? 20 சுழற்சிகளுக்குப் பின் நகல்களின் எண்ணிக்கையைக் கணக்கிடுக.**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**",
+      "ta": "**விடைக் குறிப்புகள்:**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "Exponential amplification: each cycle doubles the target DNA, so copies increase as powers of 2.",
+       "ta": "அடுக்குக்குறிப் பெருக்கம்: ஒவ்வொரு சுழற்சியும் இலக்கு DNA-வை இரட்டிப்பாக்குவதால் நகல்கள் 2-இன் அடுக்குகளாக உயரும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Formula: Number of copies = 2ⁿ (where n = number of cycles starting from 1 molecule).",
+       "ta": "சூத்திரம்: நகல்களின் எண்ணிக்கை = 2ⁿ (1 மூலக்கூறிலிருந்து தொடங்கி n = சுழற்சிகளின் எண்ணிக்கை).",
+       "ta_status": "draft"
+      },
+      {
+       "en": "After 20 cycles: 2²⁰ = 1,048,576 ≈ 1 million copies.",
+       "ta": "20 சுழற்சிகளுக்குப் பின்: 2²⁰ = 1,048,576 ≈ 10 இலட்சம் நகல்கள்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "After 30 cycles: 2³⁰ ≈ 1.07 × 10⁹ ≈ 1 billion copies.",
+       "ta": "30 சுழற்சிகளுக்குப் பின்: 2³⁰ ≈ 1.07 × 10⁹ ≈ 100 கோடி நகல்கள்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Why exponential? Because products of each cycle serve as templates in the next cycle — not just the original two strands.",
+       "ta": "ஏன் அடுக்குக்குறி? ஒவ்வொரு சுழற்சியின் விளைபொருள்களும் அடுத்த சுழற்சியில் டெம்ப்ளேட்டுகளாகச் செயல்படுவதால் — மூல இரு இழைகள் மட்டுமல்ல.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "Practical note: efficiency is not 100% in real reactions, so actual yield is somewhat lower (typically 80–90% efficiency per cycle).",
+       "ta": "நடைமுறைக் குறிப்பு: உண்மை வினைகளில் திறன் 100% அல்ல; எனவே உண்மை விளைச்சல் சற்றுக் குறைவு (பொதுவாகச் சுழற்சிக்கு 80–90% திறன்).",
+       "ta_status": "draft"
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**5. Describe the applications of PCR in medical diagnosis, forensics, and animal biotechnology.**",
+      "ta": "**5. மருத்துவ நோயறிதல், தடயவியல், விலங்கு உயிரித் தொழில்நுட்பவியலில் PCR-இன் பயன்பாடுகளை விவரிக்க.**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "p",
+     "text": {
+      "en": "**Answer Hints:**",
+      "ta": "**விடைக் குறிப்புகள்:**",
+      "ta_status": "draft"
+     }
+    },
+    {
+     "type": "bullets",
+     "ordered": false,
+     "items": [
+      {
+       "en": "**Medical diagnosis:** RT-PCR detects RNA viruses (SARS-CoV-2 → COVID-19, HIV, hepatitis C); conventional PCR detects bacterial pathogens (M. tuberculosis, Chlamydia); multiplex PCR panels detect multiple pathogens in one test.",
+       "ta": "**மருத்துவ நோயறிதல்:** RT-PCR RNA வைரஸ்களைக் (SARS-CoV-2 → COVID-19, HIV, ஹெபடைடிஸ் C) கண்டறியும்; வழக்கமான PCR பாக்டீரிய நோய்க்கிருமிகளை (M. tuberculosis, கிளாமிடியா) கண்டறியும்; பல்லினப் PCR குழுக்கள் ஒரே சோதனையில் பல நோய்க்கிருமிகளைக் கண்டறியும்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Genetic disorder analysis:** Detects mutations in CFTR (cystic fibrosis), HBB (sickle cell), BRCA1/2 (breast cancer); prenatal diagnosis from amniotic fluid cells.",
+       "ta": "**மரபுநோய் பகுப்பாய்வு:** CFTR (சிஸ்டிக் ஃபைப்ரோசிஸ்), HBB (அரிவாள் செல்), BRCA1/2 (மார்பகப் புற்றுநோய்) ஆகியவற்றில் திடீர்மாற்றங்களைக் கண்டறியும்; பனிக்குட நீர்ச் செல்களிலிருந்து கருவுக்கு முந்தைய நோயறிதல்.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Forensic science:** STR profiling by multiplex PCR from blood, hair, skin cells at crime scenes; DNA fingerprinting for identification; paternity testing.",
+       "ta": "**தடயவியல் அறிவியல்:** குற்றம் நடந்த இடத்து இரத்தம், முடி, தோல் செல்களிலிருந்து பல்லினப் PCR மூலம் STR சுயவிவரப் பதிவு; அடையாளத்துக்கான DNA கைரேகைப் பதிவு; தந்தைமைச் சோதனை.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Animal biotechnology:** Sex determination of embryos (SRY gene); detection of transgene integration in transgenic animals; breed/species identification; detection of animal pathogens; quality control of animal products.",
+       "ta": "**விலங்கு உயிரித் தொழில்நுட்பவியல்:** கருக்களின் பாலினத்தைக் கண்டறிதல் (SRY மரபணு); மாற்றுமரபணு விலங்குகளில் மாற்றுமரபணு இணைவைக் கண்டறிதல்; இனம்/சிற்றினம் அடையாளம்; விலங்கு நோய்க்கிருமிகளைக் கண்டறிதல்; விலங்குப் பொருள்களின் தரக் கட்டுப்பாடு.",
+       "ta_status": "draft"
+      },
+      {
+       "en": "**Gene cloning:** Amplifies gene of interest for cloning into vector; colony PCR confirms successful insertion.",
+       "ta": "**மரபணு குளோனாக்கம்:** தாங்கிக்கடத்தியில் குளோனாக்க ஆர்வ மரபணுவைப் பெருக்கும்; குழும PCR வெற்றிகரமான செருகலை உறுதிப்படுத்தும்.",
+       "ta_status": "draft"
+      }
+     ]
+    }
+   ],
+   "icon": "🎓",
+   "label": "Section 16"
+  }
+ ],
+ "skipped": [
+  "quiz"
+ ],
+ "dropped": [
+  {
+   "selector": "nav",
+   "count": 1,
+   "sample": [
+    "Home Intro Principle Components Steps Cycle Diagram Workflow"
+   ]
+  },
+  {
+   "selector": "footer",
+   "count": 1,
+   "sample": [
+    "Department of Zoology, GASC, Nagercoil Created by R. Ramesh"
+   ]
+  },
+  {
+   "selector": ".rh",
+   "count": 8,
+   "sample": [
+    "Click to reveal",
+    "Click to reveal",
+    "Click to reveal"
+   ]
+  }
+ ],
+ "extractor": "1"
+}

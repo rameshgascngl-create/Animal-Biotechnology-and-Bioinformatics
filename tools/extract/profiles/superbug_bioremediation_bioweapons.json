@@ -1,0 +1,37 @@
+{
+  "skip_ids": [
+    "page-5"
+  ],
+  "label_classes": [
+    "sec-tag"
+  ],
+  "callout_classes": [
+    "hbox",
+    "def-box"
+  ],
+  "glossary": {
+    "container": [
+      "gloss-card"
+    ],
+    "term": [
+      "g-term"
+    ],
+    "def": [
+      "g-def"
+    ]
+  },
+  "subheading_classes": [
+    "sh"
+  ],
+  "extra_drop_selectors": [
+    ".start-btn",
+    ".btn-outline",
+    ".btn-primary",
+    ".pg-nav"
+  ],
+  "accepted_script_literals": [
+    "Good. Revisit the questions you missed.",
+    "Re-read the chapters carefully before retrying.",
+    "Revise the chapters, then retake the quiz."
+  ]
+}

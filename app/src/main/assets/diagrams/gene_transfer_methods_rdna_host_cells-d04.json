@@ -1,0 +1,63 @@
+{
+ "id": "gene_transfer_methods_rdna_host_cells-d04",
+ "w": 760,
+ "h": 560,
+ "markers": [
+  {
+   "n": 1,
+   "x": 0.1974,
+   "y": 0.5179,
+   "en": "Holding pipette (gentle suction)",
+   "ta": "பிடிக்கும் குழாய் (மென்மையான உறிஞ்சல்)",
+   "ta_status": "draft"
+  },
+  {
+   "n": 2,
+   "x": 0.5263,
+   "y": 0.7321,
+   "en": "Fertilised egg (zygote), ~80–100 µm",
+   "ta": "கருவுற்ற முட்டை (கருமுட்டை), ~80–100 µm",
+   "ta_status": "draft"
+  },
+  {
+   "n": 3,
+   "x": 0.6053,
+   "y": 0.5286,
+   "en": "Male pronucleus (larger, injected)",
+   "ta": "ஆண் முன்கரு (பெரியது, இங்கு செலுத்தப்படுகிறது)",
+   "ta_status": "draft"
+  },
+  {
+   "n": 4,
+   "x": 0.4342,
+   "y": 0.5,
+   "en": "Female pronucleus",
+   "ta": "பெண் முன்கரு",
+   "ta_status": "draft"
+  },
+  {
+   "n": 5,
+   "x": 0.7895,
+   "y": 0.45,
+   "en": "Injection needle",
+   "ta": "செலுத்தும் ஊசி",
+   "ta_status": "draft"
+  },
+  {
+   "n": 6,
+   "x": 0.6289,
+   "y": 0.55,
+   "en": "DNA injected directly into the pronucleus",
+   "ta": "DNA நேரடியாக முன்கருவுக்குள் செலுத்தப்படுகிறது",
+   "ta_status": "draft"
+  },
+  {
+   "n": 7,
+   "x": 0.7368,
+   "y": 0.3214,
+   "en": "Zona pellucida",
+   "ta": "சோனா பெலூசிடா",
+   "ta_status": "draft"
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+  "skip_ids": [
+    "quiz"
+  ],
+  "label_classes": [
+    "chip"
+  ],
+  "callout_classes": [
+    "ib"
+  ],
+  "reveal": {
+    "container": [
+      "rc"
+    ],
+    "front": [
+      "rf",
+      "rh"
+    ],
+    "back": [
+      "rb"
+    ]
+  },
+  "glossary": {
+    "container": [
+      "gc"
+    ],
+    "term": [
+      "gt"
+    ],
+    "def": [
+      "gd"
+    ]
+  },
+  "steps_item_classes": [
+    "fbox"
+  ],
+  "button_heading_classes": [
+    "ah",
+    "eqt"
+  ],
+  "extra_drop_selectors": [
+    ".rh"
+  ],
+  "extra_blocks": [
+    {
+      "section": "Blue-White Screening",
+      "block": {
+        "type": "callout",
+        "kind": "info",
+        "text": "**🔵 Blue Colony — Non-Recombinant:** The lacZ gene in this cell is _intact_ (no insert was cloned into the MCS). β-galactosidase is expressed and cleaves X-gal in the medium, producing a blue compound. This clone does NOT contain the gene of interest."
+      }
+    },
+    {
+      "section": "Blue-White Screening",
+      "block": {
+        "type": "callout",
+        "kind": "info",
+        "text": "**⚪ White Colony — Recombinant ✓:** An insert has been cloned into the MCS, disrupting the lacZ gene. β-galactosidase is non-functional and cannot cleave X-gal — so the colony remains white. This clone MAY contain the gene of interest (confirm by PCR/sequencing)."
+      }
+    }
+  ],
+  "accepted_script_literals": [
+    "%. Great work — review any missed questions.",
+    "%. Read each section from the start and try again.",
+    "%. Revisit the selection methods section.",
+    "%. Study the steps carefully and retry.",
+    "Exceptional! You have fully mastered Gene Cloning."
+  ]
+}

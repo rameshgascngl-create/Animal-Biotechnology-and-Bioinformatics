@@ -1,0 +1,36 @@
+{
+  "skip_ids": [
+    "quiz"
+  ],
+  "label_classes": [
+    "sec-num",
+    "chip"
+  ],
+  "heading_classes": [
+    "sec-title"
+  ],
+  "callout_classes": [
+    "hb"
+  ],
+  "glossary": {
+    "container": "gc",
+    "term": "dt",
+    "def": "dd"
+  },
+  "steps_item_classes": [
+    "step"
+  ],
+  "button_heading_classes": [
+    "acc-btn",
+    "hbtn"
+  ],
+  "extra_drop_selectors": [
+    ".arr"
+  ],
+  "accepted_script_literals": [
+    "🏆 Excellent! Strong command of bioinformatics databases.",
+    "👍 Good work. Review the INSDC collaboration and database features.",
+    "📚 Fair attempt. Focus on GenBank, EMBL, DDBJ differences and INSDC.",
+    "🔄 Keep revising. Start with definitions and the comparison table."
+  ]
+}
