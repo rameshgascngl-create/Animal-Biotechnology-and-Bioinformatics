@@ -11,7 +11,9 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.rememberLazyListState
@@ -127,7 +129,7 @@ fun LessonScreen(
     val body = if (lang == Lang.EN) FontFamily.Serif else null
 
     CompositionLocalProvider(LocalReaderPalette provides pal, LocalBodyFont provides body) {
-        Column(Modifier.fillMaxSize().background(pal.bg)) {
+        Column(Modifier.fillMaxSize().background(pal.bg).statusBarsPadding().navigationBarsPadding()) {
             if (bars) {
                 Row(Modifier.fillMaxWidth().padding(horizontal = 4.dp, vertical = 4.dp), verticalAlignment = Alignment.CenterVertically) {
                     IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back", tint = pal.heading) }
@@ -188,7 +190,7 @@ fun LessonScreen(
             if (bars) {
                 Row(Modifier.fillMaxWidth().padding(horizontal = 8.dp, vertical = 2.dp), verticalAlignment = Alignment.CenterVertically) {
                     TextButton(onClick = { onPrev?.invoke() }, enabled = onPrev != null) {
-                        Text("‹ " + tr(lang, "Previous", "முந்தையது"), fontFamily = TamilFont, color = if (onPrev != null) pal.heading else pal.muted)
+                        Text("‹", fontSize = 26.sp, color = if (onPrev != null) pal.heading else pal.muted)
                     }
                     TextButton(onClick = { showContents = true }, modifier = Modifier.weight(1f)) {
                         Text(
@@ -197,7 +199,7 @@ fun LessonScreen(
                         )
                     }
                     TextButton(onClick = { onNext?.invoke() }, enabled = onNext != null) {
-                        Text(tr(lang, "Next", "அடுத்தது") + " ›", fontFamily = TamilFont, color = if (onNext != null) pal.heading else pal.muted)
+                        Text("›", fontSize = 26.sp, color = if (onNext != null) pal.heading else pal.muted)
                     }
                 }
             }
@@ -268,7 +270,7 @@ private fun TitlePage(chapter: Chapter, lang: Lang, scale: Float, eyebrow: Strin
         if (eyebrow.isNotEmpty()) {
             Text(eyebrow.uppercase(), style = MaterialTheme.typography.labelMedium, color = Color(0xFF2F6FB5), fontWeight = FontWeight.Bold, letterSpacing = 1.5.sp)
         }
-        BiText(chapter.title, lang, scale, base = MaterialTheme.typography.headlineMedium, weight = FontWeight.Bold, color = pal.heading)
+        BiText(chapter.title, lang, scale, base = MaterialTheme.typography.headlineSmall, weight = FontWeight.Bold, color = pal.heading)
         Box(Modifier.fillMaxWidth(0.18f).height(3.dp).background(Color(0xFF2F6FB5)))
         Text(
             tr(lang, "${readingMinutes(chapter)} min read · ${chapter.sections.size} sections",
