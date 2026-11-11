@@ -19,7 +19,7 @@ class FigureAnchorsTest {
         val p2 = Paragraph(Bi("Second paragraph"))
         val ch = Chapter("c", "I", Bi("T"), listOf(Section("s1", Bi("S"), listOf(p1, p2))))
         val d = Diagram("atlas-d1", Bi("Fig"))
-        val a = Anchor("atlas-d1", "u1", "c", "s1", "First paragraph about plasmids")
+        val a = Anchor("atlas-d1", "u1", "c", "s1", "firstparagraphaboutplasmids")
         val out = applyAnchors(ch, "c", listOf(a)) { d }
         assertEquals(listOf<Block>(p1, d, p2), out.sections[0].blocks)
         assertEquals(ch, applyAnchors(ch, "other", listOf(a)) { d })
