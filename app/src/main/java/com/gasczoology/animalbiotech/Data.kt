@@ -166,3 +166,6 @@ class Store(ctx: Context) {
 /** Reader language, persisted. Unknown or missing values give English. */
 fun Store.getLang(): Lang = parseLang(getString("lang"))
 fun Store.putLang(l: Lang) = putString("lang", l.name)
+
+fun Store.getTheme(): com.gasczoology.animalbiotech.ui.theme.ReaderTheme = com.gasczoology.animalbiotech.ui.theme.parseReaderTheme(getString("theme"))
+fun Store.putTheme(t: com.gasczoology.animalbiotech.ui.theme.ReaderTheme) = putString("theme", t.name)

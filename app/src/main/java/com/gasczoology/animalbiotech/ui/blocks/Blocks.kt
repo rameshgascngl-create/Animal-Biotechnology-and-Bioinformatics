@@ -22,7 +22,12 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
+import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.Modifier
+import com.gasczoology.animalbiotech.ui.theme.LocalBodyFont
+import com.gasczoology.animalbiotech.ui.theme.LocalReaderPalette
+import com.gasczoology.animalbiotech.ui.theme.ReaderTheme
+import com.gasczoology.animalbiotech.ui.theme.readerPalette
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.Font
@@ -81,8 +86,11 @@ fun BiText(
     modifier: Modifier = Modifier,
     base: TextStyle = MaterialTheme.typography.bodyLarge,
     weight: FontWeight? = null,
-    color: Color = Color(0xFF1B2B3F),
+    color: Color = Color.Unspecified,
 ) {
+    val pal = LocalReaderPalette.current
+    val body = LocalBodyFont.current
+    val color = if (color == Color.Unspecified) pal.text else color
     Column(modifier, verticalArrangement = Arrangement.spacedBy(2.dp)) {
         for (s in bi.shown(lang)) {
             if (s.pending && s.text.isEmpty()) {
@@ -101,8 +109,9 @@ fun BiText(
                 val size = base.fontSize.value.takeIf { !it.isNaN() } ?: 16f
                 Text(
                     inlineText(s.text),
+                    fontFamily = body,
                     fontSize = (size * scale).sp,
-                    lineHeight = (size * scale * 1.45f).sp,
+                    lineHeight = (size * scale * 1.5f).sp,
                     fontWeight = weight,
                     color = color,
                 )
@@ -116,12 +125,21 @@ fun BiText(
 
 @Composable
 fun BlockView(block: Block, lang: Lang, scale: Float) {
+    if (block is Paragraph || block is Bullets) BlockBody(block, lang, scale)
+    else CompositionLocalProvider(
+        LocalReaderPalette provides readerPalette(ReaderTheme.PAPER),
+        LocalBodyFont provides null,
+    ) { BlockBody(block, lang, scale) }
+}
+
+@Composable
+private fun BlockBody(block: Block, lang: Lang, scale: Float) {
     when (block) {
         is Paragraph -> BiText(block.text, lang, scale)
         is Bullets -> Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
             block.items.forEachIndexed { i, item ->
                 Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                    Text(if (block.ordered) "${i + 1}." else "•", color = Navy, fontWeight = FontWeight.Bold)
+                    Text(if (block.ordered) "${i + 1}." else "•", color = LocalReaderPalette.current.heading, fontWeight = FontWeight.Bold)
                     BiText(item, lang, scale, Modifier.weight(1f))
                 }
             }

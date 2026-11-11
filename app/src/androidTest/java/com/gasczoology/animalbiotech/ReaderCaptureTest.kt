@@ -118,4 +118,26 @@ class ReaderCaptureTest {
             }
         }
     }
+
+    @Test fun captureBookThemes() {
+        val device = UiDevice.getInstance(InstrumentationRegistry.getInstrumentation())
+        fun capture(name: String) {
+            device.waitForIdle(); Thread.sleep(600)
+            device.executeShellCommand("screencap -p /sdcard/Pictures/$name.png")
+        }
+        ActivityScenario.launch(MainActivity::class.java).use { scenario ->
+            assertTrue(device.wait(Until.hasObject(By.text("Animal Biotechnology")), 15000))
+            for (lang in Lang.entries) for (theme in com.gasczoology.animalbiotech.ui.theme.ReaderTheme.entries) {
+                scenario.onActivity { activity ->
+                    val ch = Repo.units(activity).flatMap { it.topics }
+                        .firstNotNullOf { ChapterRepo.load(activity, it.file, it.unitRoman)?.chapter }
+                    activity.setContent {
+                        MaterialTheme { LessonScreen(ch, lang, {}, 115, false, {}, false, {}, {}, null,
+                            theme = theme, eyebrow = "Unit I", onNext = {}) }
+                    }
+                }
+                capture("09-book-" + theme.name + "-" + lang.name)
+            }
+        }
+    }
 }
