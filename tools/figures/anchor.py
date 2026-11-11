@@ -71,7 +71,8 @@ def main():
                 best, bj = -1, None
                 for j, t in enumerate(body):
                     if not t: continue
-                    v = sum(idf(w) for w in set(toks(t)) if w in q)
+                    if j > 0 and re.search(r"objective|exam tip|pg focus", body[j - 1], re.I): continue
+                    v = sum(idf(w) for w in set(toks(t)) if w in q) / math.sqrt(len(toks(t)) + 10)
                     if v > best: best, bj = v, j
                 if bj is None: bj = len(body) - 1
                 placed = sc >= 1.0 or sc - run >= 0.3

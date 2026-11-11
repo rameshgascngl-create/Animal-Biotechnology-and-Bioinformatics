@@ -188,7 +188,7 @@ class ReaderCaptureTest {
                     val starts = com.gasczoology.animalbiotech.ui.sectionStartIndices(ch)
                     var idx = 0
                     ch.sections.forEachIndexed { si, s -> val bi = s.blocks.indexOfFirst { it is com.gasczoology.animalbiotech.content.Diagram }
-                        if (bi >= 0 && idx == 0) idx = starts[si] + 1 + bi - 1 }
+                        if (bi >= 0 && idx == 0) idx = starts[si] + 1 + bi }
                     require(idx > 0) { "no inlined figure in enzymes chapter" }
                     activity.setContent { MaterialTheme { LessonScreen(ch, lang, {}, 100, false, {}, false, {}, {}, null, startIndex = idx) } }
                 }
