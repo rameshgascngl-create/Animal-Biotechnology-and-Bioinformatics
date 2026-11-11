@@ -23,6 +23,12 @@ class ReaderCaptureTest {
     private fun md5(device: UiDevice, name: String): String =
         device.executeShellCommand("md5sum /sdcard/Pictures/$name.png").trim().substringBefore(' ')
 
+    /** Failure aid: writes every non-empty content description on screen to the CITEST log tag. */
+    private fun logDescriptions(device: UiDevice) {
+        val bo = java.io.ByteArrayOutputStream(); device.dumpWindowHierarchy(bo)
+        Regex("content-desc=\"([^\"]+)\"").findAll(bo.toString()).forEach { android.util.Log.e("CITEST", "desc: " + it.groupValues[1].take(160)) }
+    }
+
     private fun hasButton(device: UiDevice, label: String) = device.hasObject(By.text(label)) || device.hasObject(By.desc(label))
     private fun button(device: UiDevice, label: String) = device.findObject(By.text(label)) ?: device.findObject(By.desc(label))
 
@@ -80,7 +86,9 @@ class ReaderCaptureTest {
                 }
                 device.waitForIdle()
                 val prefix = if (lang == Lang.TA) "\u0BAA\u0B9F\u0BAE\u0BCD:" else "Diagram:"
-                assertTrue("inline figure not found", device.wait(Until.hasObject(By.descStartsWith(prefix)), 10000))
+                val seen = device.wait(Until.hasObject(By.descStartsWith(prefix)), 10000)
+                if (!seen) { capture("02-lesson-" + lang.name + "-MISSING"); logDescriptions(device) }
+                assertTrue("inline figure not found (prefix $prefix)", seen)
                 capture("02-lesson-" + lang.name)
                 exerciseViewer(device, lang, prefix, "vectors-" + lang.name, ::capture)
             }
