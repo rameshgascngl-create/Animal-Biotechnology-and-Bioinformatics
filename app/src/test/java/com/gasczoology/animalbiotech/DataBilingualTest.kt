@@ -8,7 +8,7 @@ class DataBilingualTest {
     private fun question(extra: String = "") = JSONObject("""{"q":"Vector?","o":["A","B"],"a":1$extra}""")
     @Test fun readsTamilWithoutChangingAnswerOrId() {
         val english = parseMcq("a", question())
-        val tamil = parseMcq("a", question(""", "q_ta":"தாங்கிக்கடத்தி?", "o_ta":["அ","ஆ"], "e_ta":"விளக்கம்"""))
+        val tamil = parseMcq("a", question(""", "q_ta":"தாங்கிக்கடத்தி?", "o_ta":["அ","ஆ"], "e_ta":"விளக்கம்" """))
         assertEquals(english.id, tamil.id)
         assertEquals(1, tamil.answer)
         assertEquals("ஆ", tamil.optionsTa[tamil.answer])

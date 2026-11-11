@@ -549,9 +549,9 @@ footer{background:var(--teal-dk);color:rgba(255,255,255,.85);text-align:center;p
           <line x1="511" y1="58" x2="527" y2="58" stroke="#1a5fa0" stroke-width="1.5" marker-end="url(#aGB)"/>
           <g class="dnode" id="gb5" onclick="dC('gb5','gb-info','ORIGIN / SEQUENCE: The actual nucleotide sequence, displayed as groups of 10 bases per line, numbered from position 1.')">
             <rect x="531" y="30" width="160" height="56" rx="7" fill="#7a1a12" stroke="#cc3b2e" stroke-width="1.5"/>
-            <text x="611" y="49" text-anchor="middle" fill="#fff" font-size="10" font-family="sans-serif" font-weight="bold">ORIGIN</text>
-            <text x="611" y="63" text-anchor="middle" fill="#f5b0aa" font-size="8.5" font-family="sans-serif">Actual nucleotide</text>
-            <text x="611" y="77" text-anchor="middle" fill="#f5b0aa" font-size="8" font-family="sans-serif">sequence (ATGC…)</text>
+            <text transform="translate(16 0)" x="611" y="49" text-anchor="middle" fill="#fff" font-size="10" font-family="sans-serif" font-weight="bold">ORIGIN</text>
+            <text transform="translate(4 0) translate(24 0)" x="611" y="63" text-anchor="middle" fill="#f5b0aa" font-size="8.5" font-family="sans-serif">Actual nucleotide</text>
+            <text transform="translate(8 0) translate(24 0)" x="611" y="77" text-anchor="middle" fill="#f5b0aa" font-size="8" font-family="sans-serif">sequence (ATGC…)</text>
           </g>
           <text x="350" y="128" text-anchor="middle" fill="#4a6a70" font-size="9" font-family="sans-serif" font-style="italic">Click each section for details</text>
         </svg>
@@ -717,19 +717,19 @@ footer{background:var(--teal-dk);color:rgba(255,255,255,.85);text-align:center;p
           <!-- EMBL node (top right) -->
           <g class="dnode" id="n-embl" onclick="dC('n-embl','net-info','EMBL / ENA (EBI, UK): The European hub. World\'s oldest nucleotide database (1980). Accessed via SRS at www.ebi.ac.uk/ena. Strong integration with UniProt, Ensembl, and other EBI resources.')">
             <rect x="490" y="20" width="180" height="84" rx="10" fill="#1a6e44" stroke="#2da367" stroke-width="1.5"/>
-            <text x="580" y="52" text-anchor="middle" fill="#fff" font-size="11" font-family="sans-serif" font-weight="bold">EMBL / ENA</text>
-            <text x="580" y="67" text-anchor="middle" fill="#c5ecd7" font-size="9.5" font-family="sans-serif">EBI · UK · 1980</text>
-            <text x="580" y="82" text-anchor="middle" fill="#c5ecd7" font-size="8.5" font-family="sans-serif">SRS / FASTA</text>
-            <text x="580" y="95" text-anchor="middle" fill="#88ccaa" font-size="8" font-family="sans-serif">ebi.ac.uk/ena</text>
+            <text transform="translate(-8 0) translate(-24 0)" x="580" y="52" text-anchor="middle" fill="#fff" font-size="11" font-family="sans-serif" font-weight="bold">EMBL / ENA</text>
+            <text transform="translate(-8 0) translate(-24 0)" x="580" y="67" text-anchor="middle" fill="#c5ecd7" font-size="9.5" font-family="sans-serif">EBI · UK · 1980</text>
+            <text transform="translate(-24 0)" x="580" y="82" text-anchor="middle" fill="#c5ecd7" font-size="8.5" font-family="sans-serif">SRS / FASTA</text>
+            <text transform="translate(-24 0)" x="580" y="95" text-anchor="middle" fill="#88ccaa" font-size="8" font-family="sans-serif">ebi.ac.uk/ena</text>
           </g>
 
           <!-- DDBJ node (bottom right) -->
           <g class="dnode" id="n-ddbj" onclick="dC('n-ddbj','net-info','DDBJ (NIG, Japan): The Asian hub. Founded 1986. Accepts submissions from Japan and Asia. Accessed via Sakura submission system at www.ddbj.nig.ac.jp. Uses same GenBank flat file format.')">
             <rect x="490" y="160" width="180" height="84" rx="10" fill="#7a1a12" stroke="#cc3b2e" stroke-width="1.5"/>
-            <text x="580" y="192" text-anchor="middle" fill="#fff" font-size="11" font-family="sans-serif" font-weight="bold">DDBJ</text>
-            <text x="580" y="207" text-anchor="middle" fill="#f5c0bc" font-size="9.5" font-family="sans-serif">NIG · Japan · 1986</text>
-            <text x="580" y="222" text-anchor="middle" fill="#f5c0bc" font-size="8.5" font-family="sans-serif">Sakura / BLAST</text>
-            <text x="580" y="235" text-anchor="middle" fill="#e08880" font-size="8" font-family="sans-serif">ddbj.nig.ac.jp</text>
+            <text transform="translate(-16 0)" x="580" y="192" text-anchor="middle" fill="#fff" font-size="11" font-family="sans-serif" font-weight="bold">DDBJ</text>
+            <text transform="translate(-12 0) translate(-24 0)" x="580" y="207" text-anchor="middle" fill="#f5c0bc" font-size="9.5" font-family="sans-serif">NIG · Japan · 1986</text>
+            <text transform="translate(-4 0) translate(-24 0)" x="580" y="222" text-anchor="middle" fill="#f5c0bc" font-size="8.5" font-family="sans-serif">Sakura / BLAST</text>
+            <text transform="translate(-4 16)" x="580" y="235" text-anchor="middle" fill="#e08880" font-size="8" font-family="sans-serif">ddbj.nig.ac.jp</text>
           </g>
 
           <!-- Bidirectional arrows: GenBank ↔ EMBL -->
@@ -746,8 +746,8 @@ footer{background:var(--teal-dk);color:rgba(255,255,255,.85);text-align:center;p
 
           <!-- Exchange labels -->
           <text x="336" y="82" text-anchor="middle" fill="#1a7a82" font-size="8.5" font-family="sans-serif" font-style="italic">daily sync</text>
-          <text x="336" y="185" text-anchor="middle" fill="#1a7a82" font-size="8.5" font-family="sans-serif" font-style="italic">daily sync</text>
-          <text x="620" y="135" text-anchor="middle" fill="#1a7a82" font-size="8.5" font-family="sans-serif" font-style="italic">daily</text>
+          <text transform="translate(0 4)" x="336" y="185" text-anchor="middle" fill="#1a7a82" font-size="8.5" font-family="sans-serif" font-style="italic">daily sync</text>
+          <text transform="translate(16 0)" x="620" y="135" text-anchor="middle" fill="#1a7a82" font-size="8.5" font-family="sans-serif" font-style="italic">daily</text>
         </svg>
         <div id="net-info" class="dinfo"></div>
 
@@ -793,9 +793,9 @@ footer{background:var(--teal-dk);color:rgba(255,255,255,.85);text-align:center;p
 
           <g class="dnode" id="fl5" onclick="dC('fl5','flow-info','Step 5 — Global Access: Any researcher anywhere in the world can now freely retrieve this sequence using the accession number, or find it via similarity search (BLAST). The sequence is also available for download, analysis, and citation in publications.')">
             <rect x="608" y="32" width="140" height="68" rx="8" fill="#1a6e44" stroke="#2da367" stroke-width="1.5"/>
-            <text x="678" y="52" text-anchor="middle" fill="#fff" font-size="10" font-family="sans-serif" font-weight="bold">🌍 Global</text>
-            <text x="678" y="66" text-anchor="middle" fill="#c5ecd7" font-size="9" font-family="sans-serif">Free Access</text>
-            <text x="678" y="80" text-anchor="middle" fill="#c5ecd7" font-size="8.5" font-family="sans-serif">(anyone, anywhere)</text>
+            <text transform="translate(24 0)" x="678" y="52" text-anchor="middle" fill="#fff" font-size="10" font-family="sans-serif" font-weight="bold">🌍 Global</text>
+            <text transform="translate(24 0)" x="678" y="66" text-anchor="middle" fill="#c5ecd7" font-size="9" font-family="sans-serif">Free Access</text>
+            <text transform="translate(12 0) translate(24 0)" x="678" y="80" text-anchor="middle" fill="#c5ecd7" font-size="8.5" font-family="sans-serif">(anyone, anywhere)</text>
           </g>
           <text x="380" y="140" text-anchor="middle" fill="#4a6a70" font-size="9" font-family="sans-serif" font-style="italic">Click each step for explanation</text>
         </svg>

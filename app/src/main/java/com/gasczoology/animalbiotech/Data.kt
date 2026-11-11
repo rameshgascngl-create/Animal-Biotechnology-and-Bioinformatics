@@ -14,7 +14,6 @@ data class Topic(
     val hash: String,
     val unitRoman: String,
 ) {
-    val url: String get() = "file:///android_asset/modules/$file$hash"
 }
 
 data class UnitInfo(val roman: String, val title: String, val topics: List<Topic>)

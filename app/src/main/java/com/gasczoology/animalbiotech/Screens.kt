@@ -1,9 +1,5 @@
 package com.gasczoology.animalbiotech
 
-import android.annotation.SuppressLint
-import android.webkit.WebResourceRequest
-import android.webkit.WebView
-import android.webkit.WebViewClient
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -46,7 +42,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.viewinterop.AndroidView
 import com.gasczoology.animalbiotech.i18n.Lang
 import com.gasczoology.animalbiotech.content.Bi
 import com.gasczoology.animalbiotech.ui.blocks.BiText
@@ -59,73 +54,29 @@ val TealPale = Color(0xFFE3F5F2)
 val RosePale = Color(0xFFFCE8E8)
 val Rose = Color(0xFFB3261E)
 
-/** Hosts one offline HTML module from assets/modules (optionally at a chapter via #pN). */
+/** Shown only if a topic's chapter JSON is missing or unreadable: never a dead end, never a web view. */
 @OptIn(ExperimentalMaterial3Api::class)
-@SuppressLint("SetJavaScriptEnabled")
 @Composable
-fun ReaderScreen(
-    topic: Topic,
-    studied: Boolean,
-    saved: Boolean,
-    zoom: Int,
-    onBack: () -> Unit,
-    onToggleStudied: () -> Unit,
-    onToggleSaved: () -> Unit,
-) {
+fun ChapterUnavailableScreen(topic: Topic, lang: Lang, onBack: () -> Unit, onQuiz: (() -> Unit)?) {
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text(topic.title, maxLines = 1, style = MaterialTheme.typography.titleMedium) },
-                navigationIcon = {
-                    IconButton(onClick = onBack) {
-                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back")
-                    }
-                },
-                actions = {
-                    IconButton(onClick = onToggleSaved) {
-                        Icon(
-                            Icons.Default.Star,
-                            contentDescription = "Save topic",
-                            tint = if (saved) Color(0xFFF5B301) else Color.White.copy(alpha = 0.85f),
-                        )
-                    }
-                    IconButton(onClick = onToggleStudied) {
-                        Icon(
-                            Icons.Default.Check,
-                            contentDescription = "Mark as studied",
-                            tint = if (studied) Color(0xFF5EE6D5) else Color.White.copy(alpha = 0.85f),
-                        )
-                    }
-                },
-                colors = TopAppBarDefaults.topAppBarColors(
-                    containerColor = Navy,
-                    titleContentColor = Color.White,
-                    navigationIconContentColor = Color.White,
-                ),
+                title = { Text(topic.title, maxLines = 1) },
+                navigationIcon = { IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back") } },
+                colors = TopAppBarDefaults.topAppBarColors(containerColor = Navy, titleContentColor = Color.White, navigationIconContentColor = Color.White),
             )
         },
     ) { inner ->
-        AndroidView(
-            modifier = Modifier.fillMaxSize().padding(inner),
-            factory = { ctx ->
-                WebView(ctx).apply {
-                    settings.javaScriptEnabled = true
-                    settings.domStorageEnabled = true
-                    settings.allowFileAccess = false      // android_asset still works
-                    settings.allowContentAccess = false
-                    settings.builtInZoomControls = false
-                    settings.textZoom = zoom
-                    webViewClient = object : WebViewClient() {
-                        override fun shouldOverrideUrlLoading(view: WebView, request: WebResourceRequest): Boolean {
-                            // keep the reader strictly inside the bundled content
-                            return !request.url.toString().startsWith("file:///android_asset/")
-                        }
-                    }
-                    loadUrl(topic.url)
-                }
-            },
-            onRelease = { it.destroy() },
-        )
+        Column(Modifier.fillMaxSize().padding(inner).padding(24.dp), verticalArrangement = Arrangement.spacedBy(16.dp)) {
+            Text(
+                when (lang) {
+                    Lang.TA -> "இந்தப் பாடத்தின் உரை ஏற்றப்படவில்லை. மீண்டும் முயலவும்."
+                    Lang.BOTH -> "Chapter text could not be loaded.\nஇந்தப் பாடத்தின் உரை ஏற்றப்படவில்லை."
+                    else -> "Chapter text could not be loaded."
+                },
+            )
+            if (onQuiz != null) Button(onClick = onQuiz) { Text(if (lang == Lang.TA) "வினாடி வினா" else "Take the quiz") }
+        }
     }
 }
 

@@ -134,14 +134,10 @@ fun App(store: Store) {
                     onQuiz = quiz?.let { q -> { screen = Screen.QuizRun(q.title, q.file, q.items, 0) } },
                 )
             } else {
-                ReaderScreen(
-                    topic = s.topic,
-                    studied = s.topic.id in studied,
-                    saved = s.topic.id in saved,
-                    zoom = zoom,
-                    onBack = { screen = null },
-                    onToggleStudied = { studied = store.toggle("studied", s.topic.id) },
-                    onToggleSaved = { saved = store.toggle("saved", s.topic.id) },
+                val quiz = quizzes.firstOrNull { it.file == s.topic.file }
+                ChapterUnavailableScreen(
+                    topic = s.topic, lang = lang, onBack = { screen = null },
+                    onQuiz = quiz?.let { q -> { screen = Screen.QuizRun(q.title, q.file, q.items, 0) } },
                 )
             }
         }

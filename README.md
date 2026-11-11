@@ -10,10 +10,10 @@ Package: `com.gasczoology.animalbiotech` · minSdk 26 · targetSdk 35 · Kotlin 
 
 ## What is inside
 - Native syllabus screen (34 topics, Units I-V, including five Diagram Atlases) with search, "studied" ticks, progress ring and starred topics.
-- Native quiz screen: 230 MCQs (23 modules x 10) with instant feedback, explanations, final score, best-score memory,
+- Native quiz screen: 292 MCQs across 29 chapters, in English and Tamil with instant feedback, explanations, final score, best-score memory,
   plus random mixed quizzes (whole syllabus / per unit).
-- 29 interactive chapters (incl. 5 Diagram Atlases with 73 diagrams and flow charts) (diagrams, flow charts, short-answer revision, glossary) bundled in `app/src/main/assets/modules/`
-  and shown in a locked-down WebView (no network permission; navigation limited to bundled files).
+- 29 native bilingual (English/Tamil) chapters, including five Diagram Atlases, with 145 inline figures, short-answer revision and a glossary.
+  Chapters are JSON in `app/src/main/assets/content/`; there is no WebView, no HTML in the APK and no network permission.
 - Footer credit: Department of Zoology, GASC, Nagercoil / Created by R. Ramesh.
 
 ## Build the APK
@@ -30,4 +30,4 @@ Create a release keystore, add a `signingConfig`, and build `bundleRelease` (AAB
 around the bundled chapters.
 
 ## Updating content
-Regenerate the modules/hub, copy the HTML files into `assets/modules/`, and update `assets/syllabus.json` and `assets/quizbank.json`.
+Edit the source chapters in `html-suite/`, run `tools/extract/extract.py` to regenerate `assets/content/`, and update `assets/syllabus.json` and `assets/quizbank.json`. CI fails if the committed JSON differs from the extractor output.
