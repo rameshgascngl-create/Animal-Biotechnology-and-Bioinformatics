@@ -85,7 +85,8 @@ class ReaderCaptureTest {
                     }
                 }
                 device.waitForIdle()
-                val prefix = if (lang == Lang.TA) "\u0BAA\u0B9F\u0BAE\u0BCD:" else "Diagram:"
+                // Stem shared by "Diagram:", "Diagram 5." and the Tamil "\u0BAA\u0B9F\u0BAE\u0BCD:" / "\u0BAA\u0B9F\u0BAE\u0BCD 5." (Tamil captions start without the colon).
+                val prefix = if (lang == Lang.TA) "\u0BAA\u0B9F\u0BAE" else "Diagram"
                 val seen = device.wait(Until.hasObject(By.descStartsWith(prefix)), 10000)
                 if (!seen) { capture("02-lesson-" + lang.name + "-MISSING"); logDescriptions(device) }
                 assertTrue("inline figure not found (prefix $prefix)", seen)
