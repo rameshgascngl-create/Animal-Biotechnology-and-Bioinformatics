@@ -20,5 +20,5 @@ fun parseMcq(file: String, o: JSONObject): Mcq {
 }
 
 fun pick(en: String, ta: String, lang: Lang): String = Bi(en, ta).shown(lang).joinToString("\n") {
-    it.text + if (it.pending) " [தமிழ் விரைவில் / Tamil pending]" else ""
+    it.text + if (it.pending) " [தமிழ் விரைவில்]" else ""
 }
