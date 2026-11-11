@@ -1,10 +1,10 @@
 name: Native reader emulator QA
 on:
   push:
-    branches: [feat/native-bilingual-reader]
+    branches: [feat/native-bilingual-reader, fix/reader-markdown-tables-title]
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
 jobs:
   phone:
     runs-on: ubuntu-latest
@@ -50,3 +50,13 @@ jobs:
             app/build/reports/androidTests
             app/build/outputs/androidTest-results
             app/build/outputs/apk/debug/app-debug.apk
+      - name: Publish screenshots to branch qa-captures (so they can be reviewed without downloading artifacts)
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p /tmp/qa && find qa-captures -name '*.png' -exec cp {} /tmp/qa/ \; || true
+          cd /tmp/qa && echo "Screenshots from commit ${GITHUB_SHA}" > README.txt
+          git init -q && git config user.name "github-actions" && git config user.email "actions@users.noreply.github.com"
+          git add -A && git commit -q -m "QA screenshots for ${GITHUB_SHA}"
+          git push -f "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:refs/heads/qa-captures
