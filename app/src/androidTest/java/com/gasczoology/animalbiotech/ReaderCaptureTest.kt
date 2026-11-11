@@ -47,7 +47,9 @@ class ReaderCaptureTest {
                     val image = device.findObject(By.descStartsWith("Diagram:"))
                         ?: device.findObject(By.clazz("android.widget.ImageView"))
                     requireNotNull(image).click()
-                    assertTrue(device.wait(Until.hasObject(By.text("Close")), 5000))
+                    device.wait(Until.hasObject(By.text("Close")), 5000)
+                    capture("03-enlarged-probe")
+                    assertTrue(device.hasObject(By.text("Close")))
                     capture("03-enlarged")
                     device.findObject(By.text("Close")).click()
                 }
