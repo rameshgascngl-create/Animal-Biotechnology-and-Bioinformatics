@@ -2,6 +2,7 @@ package com.gasczoology.animalbiotech.ui.blocks
 
 import android.graphics.BitmapFactory
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.gestures.detectTransformGestures
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.TextButton
@@ -157,7 +158,7 @@ private fun FigureViewer(a: DiagramAsset, description: String, lang: Lang, onClo
                     }
                 }
                 .pointerInput(Unit) {
-                    androidx.compose.foundation.gestures.detectTapGestures(onDoubleTap = {
+                    detectTapGestures(onDoubleTap = {
                         if (zoom > 1f) { zoom = 1f; pan = Offset.Zero } else zoom = 2.5f
                     })
                 }, contentAlignment = Alignment.Center) {
