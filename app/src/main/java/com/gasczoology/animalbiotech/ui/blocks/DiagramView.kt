@@ -2,6 +2,9 @@ package com.gasczoology.animalbiotech.ui.blocks
 
 import android.graphics.BitmapFactory
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.gestures.detectTransformGestures
 import androidx.compose.foundation.layout.fillMaxSize
@@ -146,28 +149,21 @@ private fun FigureViewer(a: DiagramAsset, description: String, lang: Lang, onClo
     }
     Dialog(onDismissRequest = onClose, properties = DialogProperties(usePlatformDefaultWidth = false)) {
         var zoom by remember { mutableStateOf(1f) }
-        var pan by remember { mutableStateOf(Offset.Zero) }
-        Box(Modifier.fillMaxSize().background(Color.White)) {
-            Box(Modifier.fillMaxSize().clip(androidx.compose.ui.graphics.RectangleShape)
-                .pointerInput(Unit) {
-                    detectTransformGestures { _, delta, factor, _ ->
-                        zoom = (zoom * factor).coerceIn(1f, 6f)
-                        val maxX = size.width * (zoom - 1f) / 2f
-                        val maxY = size.height * (zoom - 1f) / 2f
-                        pan = Offset((pan.x + delta.x).coerceIn(-maxX, maxX), (pan.y + delta.y).coerceIn(-maxY, maxY))
-                    }
-                }
-                .pointerInput(Unit) {
-                    detectTapGestures(onDoubleTap = {
-                        if (zoom > 1f) { zoom = 1f; pan = Offset.Zero } else zoom = 2.5f
-                    })
-                }, contentAlignment = Alignment.Center) {
-                Image(a.image, description, Modifier.fillMaxSize().graphicsLayer(
-                    scaleX = zoom, scaleY = zoom, translationX = pan.x, translationY = pan.y), contentScale = ContentScale.Fit)
-            }
-            Row(Modifier.align(Alignment.TopEnd).padding(8.dp), horizontalArrangement = Arrangement.spacedBy(4.dp)) {
-                TextButton(onClick = { zoom = 1f; pan = Offset.Zero }) { Text(tr(lang, "Reset", "மீட்டமை")) }
+        Column(Modifier.fillMaxSize().background(Color.White)) {
+            Row(Modifier.fillMaxWidth().padding(horizontal = 8.dp), horizontalArrangement = Arrangement.End) {
+                TextButton(onClick = { zoom = if (zoom >= 2.4f) 1f else zoom + 0.8f }) { Text(tr(lang, "Zoom +", "பெரிதாக்கு")) }
+                TextButton(onClick = { zoom = 1f }) { Text(tr(lang, "Reset", "மீட்டமை")) }
                 TextButton(onClick = onClose) { Text(tr(lang, "Close", "மூடு")) }
+            }
+            // Figure at full viewer width, scrollable both ways; zoom enlarges the layout so scrolling always reaches every edge.
+            BoxWithConstraints(Modifier.fillMaxSize()) {
+                val base = if (maxWidth < 640.dp) maxWidth else 640.dp
+                Box(Modifier.fillMaxSize().horizontalScroll(androidx.compose.foundation.rememberScrollState())
+                    .verticalScroll(androidx.compose.foundation.rememberScrollState())
+                    .pointerInput(Unit) { detectTapGestures(onDoubleTap = { zoom = if (zoom > 1f) 1f else 1.6f }) },
+                    contentAlignment = Alignment.TopCenter) {
+                    Image(a.image, description, Modifier.width(base * zoom), contentScale = ContentScale.FillWidth)
+                }
             }
         }
     }
