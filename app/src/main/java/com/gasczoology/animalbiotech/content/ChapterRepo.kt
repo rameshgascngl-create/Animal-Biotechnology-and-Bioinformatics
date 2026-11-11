@@ -15,6 +15,20 @@ object ChapterRepo {
         } catch (e: IOException) {
             return null
         }
-        return parseChapter(text).also { cache[path] = it }
+        val parsed = parseChapter(text)
+        val ch = parsed.chapter ?: return parsed.also { cache[path] = it }
+        val withFigures = applyAnchors(ch, file.removeSuffix(".html"), anchors(ctx)) { a -> atlasFigure(ctx, a) }
+        return parsed.copy(chapter = withFigures).also { cache[path] = it }
     }
+
+    private var anchorList: List<Anchor>? = null
+    private fun anchors(ctx: Context): List<Anchor> = anchorList ?: try {
+        parseAnchors(ctx.assets.open("figure_anchors.json").bufferedReader(Charsets.UTF_8).use { it.readText() })
+    } catch (e: Exception) { emptyList() }.also { anchorList = it }
+
+    private fun atlasFigure(ctx: Context, a: Anchor): Diagram? = try {
+        val stem = a.id.substringBeforeLast("-d")
+        val text = ctx.assets.open("content/${a.unit}/$stem.json").bufferedReader(Charsets.UTF_8).use { it.readText() }
+        parseChapter(text).chapter?.sections?.flatMap { it.blocks }?.filterIsInstance<Diagram>()?.firstOrNull { it.id == a.id }
+    } catch (e: Exception) { null }
 }

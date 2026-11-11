@@ -1,0 +1,74 @@
+figure,caption,placed_in,section_title,score,margin_over_runner_up
+atlas3_transgenic_medical-d12,"Fig. 12. CAR-T therapy, a cancer treatment that is ex vivo gene therap",gene_therapy_app/s05,Ex Vivo Gene Therapy,4.291,0.069
+atlas3_transgenic_medical-d04,Fig. 4. From ES cell to knockout mouse.,transgenic_animal_technology/s05,Transgenic Animal Models: Knock-out Mice,5.617,0.084
+atlas5_bioinformatics-d03,Fig. 3. Anatomy of a FASTA record.,bioinformatics_databases_app/s06,GenBank,1.869,0.133
+atlas4_culture_society-d03,Fig. 3. Growth curve: subculture during log phase.,industrial_biotech_fermentation/s05,Conditions Required for Fermentation,2.041,0.138
+atlas4_culture_society-d08,Fig. 8. A stirred-tank bioreactor with sensors and sparger.,industrial_biotech_fermentation/s05,Conditions Required for Fermentation,1.358,0.157
+atlas2_techniques-d01,Fig. 1. Flow chart of gene cloning.,gene_cloning_steps_selection/s03,Introduction to Gene Cloning,3.357,0.159
+atlas2_techniques-d06,"Fig. 6. Principle of chain-termination sequencing (Sanger, 1977).",sanger_dna_sequencing/s06,Steps in Sanger Sequencing,5.674,0.162
+atlas4_culture_society-d09,"Fig. 9. Batch, fed-batch and perfusion operation.",animal_cell_culture/s04,Natural & Synthetic Culture Media,1.88,0.176
+atlas3_transgenic_medical-d09,Fig. 9. Reducing immunogenicity: the name stem tells you how human an ,hybridoma_monoclonal_antibodies/s05,Engineered Monoclonal Antibodies,2.846,0.231
+atlas3_transgenic_medical-d15,"Fig. 15. RFLP depends on gain or loss of restriction sites, or inserti",molecular_markers_app/s04,RFLP — Restriction Fragment Length Polymorphism,4.353,0.291
+atlas4_culture_society-d12,Fig. 12. Milestones.,animal_cell_culture/s02,Animal Cell Culture,1.658,0.325
+atlas1_fundamentals_vectors-d08,Fig. 8. How a lambda replacement vector is used. Packaging accepts DNA,vectors_genetic_engineering/s08,Bacteriophage Vectors,6.409,0.375
+atlas2_techniques-d09,Fig. 9. An agarose gel. Lane labels and sizes are illustrative.,gel_electrophoresis/s04,Principle of Gel Electrophoresis,7.735,0.391
+atlas1_fundamentals_vectors-d06,Fig. 6. Ti plasmid of _Agrobacterium tumefaciens_: the T-DNA lies betw,vectors_genetic_engineering/s09,Labeled Biological Diagrams,4.114,0.413
+atlas3_transgenic_medical-d13,Fig. 13. SpCas9 needs a PAM (NGG) next to a 20-nt target.,crispr_gene_editing_app/s07,Mechanism / Steps of CRISPR Gene Editing,6.682,0.415
+atlas1_fundamentals_vectors-d04,Fig. 4. The enzyme toolkit and the job each enzyme does.,enzymes_genetic_engineering/s02,Enzymes in Genetic Engineering,3.933,0.436
+atlas1_fundamentals_vectors-d10,"Fig. 10. Cloning capacity (kb, log scale). Pick the vector by the size",dna_library_genomic_cdna/s10,Vectors Used in DNA Libraries,5.555,0.448
+atlas4_culture_society-d02,Fig. 2. Everything cultured cells need.,animal_cell_culture/s04,Natural & Synthetic Culture Media,4.827,0.463
+atlas4_culture_society-d01,Fig. 1. A typical culture cycle from tissue to frozen stock.,animal_cell_culture/s05,Primary Culture,5.505,0.612
+atlas5_bioinformatics-d10,Fig. 10. Reading a phylogenetic tree.,bioinformatics_tools_alignment_blast/s04,Multiple Sequence Alignment (MSA),2.534,0.634
+atlas1_fundamentals_vectors-d09,Fig. 9. M13 is a filamentous ssDNA phage that infects F⁺ _E. coli_ and,vectors_genetic_engineering/s08,Bacteriophage Vectors,6.919,0.738
+atlas1_fundamentals_vectors-d03,Fig. 3. EcoRI leaves 5′ AATT overhangs; SmaI leaves blunt ends. Red li,enzymes_genetic_engineering/s04,Restriction Enzymes,7.45,0.778
+atlas3_transgenic_medical-d10,"Fig. 10. Ex vivo gene therapy (first successful trial: ADA-SCID, 1990)",gene_therapy_app/s05,Ex Vivo Gene Therapy,6.737,0.78
+atlas2_techniques-d02,Fig. 2. Six gene-transfer methods in one view.,gene_transfer_methods_rdna_host_cells/s07,Labeled Mechanism Diagrams — All Six Methods,10.873,0.798
+atlas3_transgenic_medical-d16,Fig. 16. RAPD uses one short arbitrary primer.,molecular_markers_app/s05,RAPD — Random Amplified Polymorphic DNA,5.684,0.858
+atlas3_transgenic_medical-d07,Fig. 7. Production of monoclonal antibodies.,hybridoma_monoclonal_antibodies/s04,Hybridoma Technology: Step by Step,9.41,0.883
+atlas1_fundamentals_vectors-d01,Fig. 1. Colour-coded branches of biotechnology (a common convention; s,biotechnology_fundamentals/s04,Scope of Biotechnology,7.034,0.915
+atlas2_techniques-d08,Fig. 8. Thermal profile of PCR (schematic; times and temperatures depe,pcr_principle_types_applications/s07,PCR Cycle Temperature Diagram,5.103,0.965
+atlas4_culture_society-d10,Fig. 10. Pathway of ethanol formation by _Saccharomyces cerevisiae_.,industrial_biotech_fermentation/s07,Production of Ethanol,8.335,0.98
+atlas4_culture_society-d11,Fig. 11. Industrial production of ethanol.,industrial_biotech_fermentation/s07,Production of Ethanol,4.516,1.007
+atlas1_fundamentals_vectors-d15,Fig. 15. Two library strategies.,dna_library_genomic_cdna/s04,Types of DNA Libraries,6.139,1.032
+atlas5_bioinformatics-d11,Fig. 11. Hierarchy of protein structure.,bioinformatics_tools_alignment_blast/s06,Protein Structure Visualisation: RasMol and Swiss-,3.756,1.036
+atlas5_bioinformatics-d08,Fig. 8. Conservation shows which positions matter.,bioinformatics_tools_alignment_blast/s04,Multiple Sequence Alignment (MSA),3.897,1.072
+atlas3_transgenic_medical-d17,Fig. 17. DNA fingerprint comparison (illustrative).,molecular_markers_app/s07,Applications of DNA Fingerprinting,3.354,1.081
+atlas5_bioinformatics-d05,Fig. 5. Dynamic programming fills a matrix; the traceback gives the al,bioinformatics_tools_alignment_blast/s03,Sequence Alignment: Concepts and Pairwise Alignmen,6.242,1.125
+atlas5_bioinformatics-d12,Fig. 12. Sections of a PDB file.,protein_databases_app/s05,PDB — Protein Data Bank,4.974,1.219
+atlas4_culture_society-d14,Fig. 14. Whole-genome shotgun (private) approach.,hgp_ethics_ipr/s04,Mapping of the Human Genome,2.524,1.285
+atlas4_culture_society-d13,Fig. 13. Hierarchical (public) approach.,hgp_ethics_ipr/s04,Mapping of the Human Genome,2.772,1.296
+atlas5_bioinformatics-d13,Fig. 13. From sequence to a predicted structure (AlphaFold: Nobel Priz,protein_databases_app/s09,Role in Bioinformatics,4.471,1.401
+atlas4_culture_society-d16,Fig. 16. Regulatory pathway in India.,hgp_ethics_ipr/s06,Ethics in Biotechnology: Socio-ethical Problems,3.185,1.415
+atlas2_techniques-d03,Fig. 3. Insertional inactivation of tet in pBR322 detected by replica ,screening_selection_recombinants/s05,Insertional Inactivation,9.191,1.519
+atlas3_transgenic_medical-d14,Fig. 14. A CRISPR experiment from design to verification.,crispr_gene_editing_app/s07,Mechanism / Steps of CRISPR Gene Editing,6.615,1.695
+atlas2_techniques-d05,Fig. 5. Colony hybridisation (Grunstein and Hogness) finds clones carr,screening_selection_recombinants/s07,Colony Hybridization,6.909,1.742
+atlas5_bioinformatics-d15,Fig. 15. A typical NGS pipeline.,bioinformatics_tools_alignment_blast/s07,Scope and Applications of Bioinformatics,4.107,1.842
+atlas3_transgenic_medical-d02,"Fig. 2. Pronuclear microinjection, the commonest method (Gordon _et al",transgenic_animal_technology/s04,Methods of Producing Transgenic Animals,9.12,1.939
+atlas5_bioinformatics-d14,Fig. 14. A general workflow.,bioinformatics_tools_alignment_blast/s07,Scope and Applications of Bioinformatics,5.496,1.999
+atlas4_culture_society-d17,Fig. 17. From invention to patent.,hgp_ethics_ipr/s07,Intellectual Property Rights (IPR),2.946,2.179
+atlas1_fundamentals_vectors-d11,Fig. 11. Cosmid cloning combines plasmid replication with phage packag,advanced_vectors_cosmid_yac_sv40_transposons/s04,Cosmid Vectors,7.44,2.19
+atlas1_fundamentals_vectors-d13,"Fig. 13. SV40, a small DNA tumour virus used to build mammalian expres",advanced_vectors_cosmid_yac_sv40_transposons/s06,Animal Vector – SV40 (Simian Virus 40),7.697,2.207
+atlas5_bioinformatics-d02,Fig. 2. Fields of a GenBank record (annotated).,bioinformatics_databases_app/s06,GenBank,6.02,2.388
+atlas5_bioinformatics-d09,Fig. 9. Progressive alignment.,bioinformatics_tools_alignment_blast/s04,Multiple Sequence Alignment (MSA),6.416,2.423
+atlas1_fundamentals_vectors-d07,"Fig. 7. Lytic and lysogenic pathways of lambda (λ genome 48.5 kb, line",vectors_genetic_engineering/s08,Bacteriophage Vectors,8.301,2.478
+atlas2_techniques-d07,Fig. 7. Reading a gel of four ddNTP reactions and the equivalent chrom,sanger_dna_sequencing/s07,Interpretation of Results,8.034,2.506
+atlas1_fundamentals_vectors-d02,Fig. 2. Milestones. Click-free summary: 1973 Cohen and Boyer made the ,biotechnology_fundamentals/s03,Definition of Biotechnology,5.463,2.577
+atlas5_bioinformatics-d04,Fig. 4. A dot plot compares two sequences visually.,bioinformatics_tools_alignment_blast/s03,Sequence Alignment: Concepts and Pairwise Alignmen,5.938,2.615
+atlas3_transgenic_medical-d11,Fig. 11. In vivo gene therapy (for example voretigene neparvovec for R,gene_therapy_app/s06,In Vivo Gene Therapy,6.439,2.647
+atlas1_fundamentals_vectors-d14,"Fig. 14. Transposons (Sleeping Beauty, piggyBac) as cut-and-paste vect",advanced_vectors_cosmid_yac_sv40_transposons/s07,Transposons as Vectors,6.009,2.707
+atlas4_culture_society-d04,Fig. 4. Finite versus continuous cell lines.,animal_cell_culture/s06,Cell Lines,6.784,2.793
+atlas5_bioinformatics-d07,Fig. 7. Reading the E-value.,bioinformatics_tools_alignment_blast/s05,Database Similarity Search: BLAST and FASTA,5.505,3.118
+atlas5_bioinformatics-d01,"Fig. 1. Primary, secondary and specialised databases.",bioinformatics_databases_app/s04,Biological Databases,9.263,3.337
+atlas3_transgenic_medical-d03,Fig. 3. Gene targeting with a neo (positive) and tk (negative) selecti,transgenic_animal_technology/s05,Transgenic Animal Models: Knock-out Mice,7.44,3.58
+atlas4_culture_society-d07,Fig. 7. Artificial skin mimics epidermis and dermis.,animal_cell_culture/s09,Artificial Skin — Applied Organ Culture,5.474,4.181
+atlas4_culture_society-d06,Fig. 6. Yamanaka’s reprogramming (Nobel Prize 2012 with Gurdon).,animal_cell_culture/s07,"Stem Cells: Types, Culture & Applications",8.367,4.711
+atlas2_techniques-d04,Fig. 4. Blue-white screening with pUC-type vectors (lacZα and a host w,screening_selection_recombinants/s06,Blue-White Selection (lacZ System),12.576,4.836
+atlas1_fundamentals_vectors-d05,"Fig. 5. pBR322 (4,361 bp). Sites inside tetR (BamHI, SalI, HindIII) al",vectors_genetic_engineering/s07,Plasmid Vectors,11.952,5.655
+atlas3_transgenic_medical-d01,Fig. 1. Components of a transgene construct.,transgenic_animal_technology/s03,Transgenesis: Concept and Transgenes,11.388,6.202
+atlas1_fundamentals_vectors-d12,Fig. 12. A YAC after ligation to genomic DNA. It behaves as a mini chr,advanced_vectors_cosmid_yac_sv40_transposons/s05,Yeast Artificial Chromosome (YAC),10.632,6.576
+atlas3_transgenic_medical-d05,Fig. 5. Somatic cell nuclear transfer. Dolly was the only live lamb fr,transgenic_animal_technology/s06,Dolly the Sheep: Cloning by SCNT,11.872,7.262
+atlas3_transgenic_medical-d08,Fig. 8. Why HAT medium selects only hybrids.,hybridoma_monoclonal_antibodies/s04,Hybridoma Technology: Step by Step,13.557,7.338
+atlas4_culture_society-d15,Fig. 15. Principles of bioethics.,hgp_ethics_ipr/s06,Ethics in Biotechnology: Socio-ethical Problems,9.53,7.339
+atlas4_culture_society-d05,Fig. 5. Potency hierarchy.,animal_cell_culture/s07,"Stem Cells: Types, Culture & Applications",11.488,8.464
+atlas3_transgenic_medical-d06,Fig. 6. Anand Mohan Chakrabarty’s plasmid-combined _Pseudomonas_: the ,superbug_bioremediation_bioweapons/s03,Superbug: The Oil-Eating Bacterium,11.995,8.898
+atlas5_bioinformatics-d06,"Fig. 6. Seed, extend and score (Altschul _et al._ 1990).",bioinformatics_tools_alignment_blast/s05,Database Similarity Search: BLAST and FASTA,13.211,10.258
