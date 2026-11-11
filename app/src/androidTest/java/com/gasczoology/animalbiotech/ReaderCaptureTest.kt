@@ -172,4 +172,28 @@ class ReaderCaptureTest {
             }
         }
     }
+
+    @Test fun captureInlineFigure() {
+        val device = UiDevice.getInstance(InstrumentationRegistry.getInstrumentation())
+        fun capture(name: String) {
+            device.waitForIdle(); Thread.sleep(800)
+            device.executeShellCommand("screencap -p /sdcard/Pictures/$name.png")
+        }
+        ActivityScenario.launch(MainActivity::class.java).use { scenario ->
+            assertTrue(device.wait(Until.hasObject(By.text("Animal Biotechnology")), 15000))
+            for (lang in Lang.entries) {
+                scenario.onActivity { activity ->
+                    val t = Repo.units(activity).flatMap { it.topics }.first { it.file.startsWith("enzymes_genetic_engineering") }
+                    val ch = requireNotNull(ChapterRepo.load(activity, t.file, t.unitRoman)?.chapter)
+                    val starts = com.gasczoology.animalbiotech.ui.sectionStartIndices(ch)
+                    var idx = 0
+                    ch.sections.forEachIndexed { si, s -> val bi = s.blocks.indexOfFirst { it is com.gasczoology.animalbiotech.content.Diagram }
+                        if (bi >= 0 && idx == 0) idx = starts[si] + 1 + bi }
+                    require(idx > 0) { "no inlined figure in enzymes chapter" }
+                    activity.setContent { MaterialTheme { LessonScreen(ch, lang, {}, 100, false, {}, false, {}, {}, null, startIndex = idx) } }
+                }
+                capture("11-inline-figure-" + lang.name)
+            }
+        }
+    }
 }
