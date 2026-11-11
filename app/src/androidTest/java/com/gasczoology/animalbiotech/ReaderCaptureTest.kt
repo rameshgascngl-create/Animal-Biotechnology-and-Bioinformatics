@@ -81,4 +81,34 @@ class ReaderCaptureTest {
             }
         }
     }
+
+    @Test fun captureHomeAndShadedBlocks() {
+        val device = UiDevice.getInstance(InstrumentationRegistry.getInstrumentation())
+        fun capture(name: String) {
+            device.waitForIdle(); Thread.sleep(600)
+            device.executeShellCommand("screencap -p /sdcard/Pictures/$name.png")
+        }
+        ActivityScenario.launch(MainActivity::class.java).use { scenario ->
+            assertTrue(device.wait(Until.hasObject(By.text("Animal Biotechnology")), 15000))
+            capture("06-home-EN")
+            device.findObject(By.text("\u0BA4\u0BAE\u0BBF\u0BB4\u0BCD")).click()
+            device.waitForIdle()
+            capture("06-home-TA")
+            device.findObject(By.text("English")).click()
+            for (lang in Lang.entries) {
+                scenario.onActivity { activity ->
+                    var found: com.gasczoology.animalbiotech.content.Chapter? = null
+                    for (u in Repo.units(activity)) for (t in u.topics) {
+                        val ch = ChapterRepo.load(activity, t.file, t.unitRoman)?.chapter ?: continue
+                        val sec = ch.sections.firstOrNull { sc -> sc.blocks.any { it is com.gasczoology.animalbiotech.content.Reveal } &&
+                            sc.blocks.any { it is com.gasczoology.animalbiotech.content.KeyTerm || it is com.gasczoology.animalbiotech.content.Callout } }
+                        if (sec != null) { found = ch.copy(sections = listOf(sec)); break }
+                    }
+                    val fixture = requireNotNull(found) { "no chapter with a question and a definition/callout" }
+                    activity.setContent { MaterialTheme { LessonScreen(fixture, lang, {}, 100, false, {}, false, {}, {}, null) } }
+                }
+                capture("07-shaded-" + lang.name)
+            }
+        }
+    }
 }
