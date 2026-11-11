@@ -88,7 +88,7 @@ fun HomeScaffold(
     ready: Int,
     onQuiz: (String, String, List<Mcq>, Int) -> Unit,
 ) {
-    val titles = listOf("" to "", "Revise" to "மீள்பார்வை", "Practice quizzes" to "பயிற்சி வினாடி வினாக்கள்", "Saved topics" to "சேமித்த பாடங்கள்", "About" to "பற்றி")
+    val titles = listOf("" to "", "Revise" to "மீளாய்வு", "Practice quizzes" to "பயிற்சி வினாடி வினாக்கள்", "Saved topics" to "சேமித்த பாடங்கள்", "About" to "பற்றி")
     val titleTa = remember(units) { units.flatMap { it.topics }.associate { it.file to it.titleTa } }
     Scaffold(
         topBar = {
@@ -101,8 +101,8 @@ fun HomeScaffold(
         bottomBar = {
             NavigationBar(containerColor = Color.White) {
                 val items = listOf(
-                    Triple("Syllabus", "பாடங்கள்", Icons.Default.List), Triple("Revise", "மீள்பார்வை", Icons.Default.Edit),
-                    Triple("Quiz", "வினாக்கள்", Icons.Default.CheckCircle), Triple("Saved", "சேமித்தவை", Icons.Default.Star),
+                    Triple("Syllabus", "பாடங்கள்", Icons.Default.List), Triple("Revise", "மீளாய்வு", Icons.Default.Edit),
+                    Triple("Quiz", "வினாக்கள்", Icons.Default.CheckCircle), Triple("Saved", "சேமிப்பு", Icons.Default.Star),
                     Triple("About", "பற்றி", Icons.Default.Info),
                 )
                 items.forEachIndexed { i, (en, ta, icon) ->
@@ -173,7 +173,7 @@ fun HomeTab(
             Box(Modifier.fillMaxWidth().background(Brush.verticalGradient(listOf(Navy, Color(0xFF14506B)))).padding(start = 20.dp, end = 20.dp, bottom = 22.dp, top = 4.dp)) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                        T(lang, "Animal Biotechnology", "விலங்கு உயிரித் தொழில்நுட்பவியல்", size = if (lang == Lang.TA) 22 else 26, weight = FontWeight.Bold, color = Color.White)
+                        T(lang, "Animal Biotechnology", "விலங்கு உயிரித் தொழில்நுட்பவியல்", size = if (lang == Lang.TA) 19 else 26, weight = FontWeight.Bold, color = Color.White)
                         T(lang, "$chapters chapters · $questions questions · 5 units", "$chapters பாடங்கள் · $questions வினாக்கள் · 5 அலகுகள்", size = 13, color = Color.White.copy(alpha = 0.85f))
                         T(lang, "Department of Zoology, GASC, Nagercoil", "விலங்கியல் துறை, அரசு கலை அறிவியல் கல்லூரி, நாகர்கோவில்", size = 11, color = Color.White.copy(alpha = 0.65f))
                     }
@@ -205,7 +205,7 @@ fun HomeTab(
             Row(Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()).padding(horizontal = 16.dp), horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                 val w = Modifier.width(96.dp)
                 Tile(lang, "📝", "Quiz", "வினாக்கள்", UnitAccents[0].second, w) { onTab(2) }
-                Tile(lang, "📖", "Revise", "மீள்பார்வை", UnitAccents[1].second, w) { onTab(1) }
+                Tile(lang, "📖", "Revise", "மீளாய்வு", UnitAccents[1].second, w) { onTab(1) }
                 Tile(lang, "🗂", "Flashcards", "நினைவட்டைகள்", UnitAccents[2].second, w) { onFlash() }
                 Tile(lang, "🔤", "Glossary", "கலைச்சொற்கள்", UnitAccents[3].second, w) { onGlossary() }
                 Tile(lang, "🔍", "Search", "தேடல்", UnitAccents[4].second, w) { onSearch() }
@@ -304,7 +304,7 @@ fun SavedTab(lang: Lang, units: List<UnitInfo>, studied: Set<String>, saved: Set
             Spacer(Modifier.height(8.dp))
             T(lang, "No saved topics yet.", "சேமித்த பாடங்கள் இன்னும் இல்லை.", weight = FontWeight.Bold, color = Navy, size = 16)
             Spacer(Modifier.height(6.dp))
-            T(lang, "Tap the star beside any topic to keep it here for quick revision.", "விரைவு மீள்பார்வைக்காக, ஒரு பாடத்தின் அருகிலுள்ள நட்சத்திரத்தைத் தொடுங்கள்.", align = TextAlign.Center)
+            T(lang, "Tap the star beside any topic to keep it here for quick revision.", "விரைவு மீளாய்வுக்காக, ஒரு பாடத்தின் அருகிலுள்ள நட்சத்திரத்தைத் தொடுங்கள்.", align = TextAlign.Center)
         }
     } else {
         LazyColumn(Modifier.fillMaxSize(), contentPadding = PaddingValues(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -329,7 +329,7 @@ fun AboutTab(lang: Lang, units: List<UnitInfo>, quizzes: List<QuizSet>, zoom: In
                     T(lang, "Animal Biotechnology", "விலங்கு உயிரித் தொழில்நுட்பவியல்", size = 20, weight = FontWeight.Bold, color = Navy)
                     T(lang,
                         "An offline study companion for the five-unit Animal Biotechnology syllabus: $n chapters, $m practice MCQs, illustrated chapters, exam short-answer revision and glossaries. Everything works without an internet connection; the app does not request network access and collects no data.",
-                        "ஐந்து அலகுகள் கொண்ட விலங்கு உயிரித் தொழில்நுட்பவியல் பாடத்திட்டத்துக்கான இணையமில்லாத் துணைக் கருவி: $n பாடங்கள், $m பயிற்சி வினாக்கள், படங்களுடன் கூடிய பாடங்கள், தேர்வுக்கான குறுவிடை மீள்பார்வை, கலைச்சொற்கள். அனைத்தும் இணைய இணைப்பின்றி இயங்கும்; செயலி இணைய அனுமதி கோராது, தரவு எதையும் சேகரிக்காது.")
+                        "ஐந்து அலகுகள் கொண்ட விலங்கு உயிரித் தொழில்நுட்பவியல் பாடத்திட்டத்துக்கான இணையமில்லாத் துணைக் கருவி: $n பாடங்கள், $m பயிற்சி வினாக்கள், படங்களுடன் கூடிய பாடங்கள், தேர்வுக்கான குறுவிடை மீளாய்வு, கலைச்சொற்கள். அனைத்தும் இணைய இணைப்பின்றி இயங்கும்; செயலி இணைய அனுமதி கோராது, தரவு எதையும் சேகரிக்காது.")
                 }
             }
         }

@@ -105,7 +105,7 @@ class ReaderCaptureTest {
                         val term = all.firstOrNull { it is com.gasczoology.animalbiotech.content.KeyTerm || it is com.gasczoology.animalbiotech.content.GlossaryEntry }
                         val callouts = all.filterIsInstance<com.gasczoology.animalbiotech.content.Callout>().distinctBy { com.gasczoology.animalbiotech.ui.theme.calloutRole(it.kind, it.text.en) }.take(3)
                         if (reveal != null && callouts.isNotEmpty()) {
-                            found = ch.copy(sections = listOf(ch.sections.first().copy(blocks = listOfNotNull(term, reveal) + callouts)))
+                            found = ch.copy(sections = listOf(ch.sections.first().copy(blocks = listOfNotNull(reveal, term) + callouts)))
                             break
                         }
                     }
