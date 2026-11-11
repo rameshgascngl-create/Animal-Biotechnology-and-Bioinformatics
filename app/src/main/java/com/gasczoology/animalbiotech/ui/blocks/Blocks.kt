@@ -46,6 +46,14 @@ import com.gasczoology.animalbiotech.content.Summary
 import com.gasczoology.animalbiotech.content.Table
 import com.gasczoology.animalbiotech.content.Unparsed
 import com.gasczoology.animalbiotech.i18n.Lang
+import androidx.compose.foundation.layout.IntrinsicSize
+import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.ui.draw.clip
+import com.gasczoology.animalbiotech.ui.theme.Role
+import com.gasczoology.animalbiotech.ui.theme.calloutRole
+import com.gasczoology.animalbiotech.ui.theme.roleStyle
 import com.gasczoology.animalbiotech.i18n.tr
 import com.gasczoology.animalbiotech.i18n.shown
 import com.gasczoology.animalbiotech.ui.padRow
@@ -132,14 +140,11 @@ fun BlockView(block: Block, lang: Lang, scale: Float) {
         is Callout -> CalloutView(block, lang, scale)
         is KeyTerm -> TermCard(block.term, block.definition, lang, scale)
         is GlossaryEntry -> TermCard(block.term, block.definition, lang, scale)
-        is Summary -> Card(colors = CardDefaults.cardColors(containerColor = Color(0xFFEAF3FF))) {
-            Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                Text(tr(lang, "Summary", "சுருக்கம்"), fontWeight = FontWeight.Bold, color = Navy, fontFamily = TamilFont)
-                block.items.forEach { item ->
-                    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                        Text("✓", color = Navy, fontWeight = FontWeight.Bold)
-                        BiText(item, lang, scale, Modifier.weight(1f))
-                    }
+        is Summary -> RoleCard(Role.SUMMARY, lang, scale) {
+            block.items.forEach { item ->
+                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    Text("✓", color = roleStyle(Role.SUMMARY).edge, fontWeight = FontWeight.Bold)
+                    BiText(item, lang, scale, Modifier.weight(1f))
                 }
             }
         }
@@ -157,45 +162,48 @@ fun BlockView(block: Block, lang: Lang, scale: Float) {
     }
 }
 
+/** A shaded card with a coloured edge bar and a small label, one shade per [Role]. */
+@Composable
+internal fun RoleCard(role: Role, lang: Lang, scale: Float, modifier: Modifier = Modifier, content: @Composable () -> Unit) {
+    val st = roleStyle(role)
+    Row(modifier.fillMaxWidth().height(IntrinsicSize.Min).clip(RoundedCornerShape(12.dp)).background(st.bg)) {
+        Box(Modifier.width(6.dp).fillMaxHeight().background(st.edge))
+        Column(Modifier.padding(horizontal = 14.dp, vertical = 12.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+            Text(
+                st.label(lang).uppercase(),
+                fontFamily = TamilFont,
+                fontWeight = FontWeight.Bold,
+                color = st.edge,
+                fontSize = (11 * scale).sp,
+                letterSpacing = 0.8.sp,
+            )
+            content()
+        }
+    }
+}
+
 @Composable
 private fun TermCard(term: Bi, definition: Bi, lang: Lang, scale: Float) {
-    Card(colors = CardDefaults.cardColors(containerColor = Color(0xFFF7F9FC)), border = BorderStroke(1.dp, Color(0xFFD5DEEA))) {
-        Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-            BiText(term, lang, scale, weight = FontWeight.Bold, color = Navy)
-            BiText(definition, lang, scale, base = MaterialTheme.typography.bodyMedium)
-        }
+    RoleCard(Role.DEFINITION, lang, scale) {
+        BiText(term, lang, scale, weight = FontWeight.Bold, color = Navy)
+        BiText(definition, lang, scale, base = MaterialTheme.typography.bodyMedium)
     }
 }
 
 @Composable
 private fun CalloutView(c: Callout, lang: Lang, scale: Float) {
-    val (bg, edge, label) = when (c.kind) {
-        CalloutKind.INFO -> Triple(Color(0xFFEAF3FF), Color(0xFF2F6FB5), tr(lang, "Note", "குறிப்பு"))
-        CalloutKind.WARN -> Triple(Color(0xFFFFF0EE), Color(0xFFC0392B), tr(lang, "Caution", "எச்சரிக்கை"))
-        CalloutKind.TIP -> Triple(Color(0xFFEAF8EE), Color(0xFF2E8B57), tr(lang, "Tip", "உதவிக்குறிப்பு"))
-        CalloutKind.EXAM -> Triple(Color(0xFFFFF7E0), Color(0xFFB8860B), tr(lang, "Exam", "தேர்வு"))
-    }
-    Card(colors = CardDefaults.cardColors(containerColor = bg), border = BorderStroke(1.dp, edge)) {
-        Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-            Text(label, fontWeight = FontWeight.Bold, color = edge, fontFamily = TamilFont, fontSize = (13 * scale).sp)
-            BiText(c.text, lang, scale)
-        }
-    }
+    RoleCard(calloutRole(c.kind, c.text.en), lang, scale) { BiText(c.text, lang, scale) }
 }
 
 @Composable
 private fun RevealView(r: Reveal, lang: Lang, scale: Float) {
     var open by rememberSaveable { mutableStateOf(false) }
-    Card(
-        modifier = Modifier.fillMaxWidth().clickable { open = !open },
-        colors = CardDefaults.cardColors(containerColor = Color(0xFFF7F9FC)),
-        border = BorderStroke(1.dp, Color(0xFFD5DEEA)),
-    ) {
-        Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-            BiText(r.question, lang, scale, weight = FontWeight.SemiBold, color = Navy)
-            if (open) BiText(r.answer, lang, scale)
-            else Text(tr(lang, "Tap to reveal", "பதிலைக் காண தொடவும்"), fontSize = (12 * scale).sp, color = Muted, fontFamily = TamilFont)
+    Column(Modifier.fillMaxWidth().clickable { open = !open }, verticalArrangement = Arrangement.spacedBy(6.dp)) {
+        RoleCard(Role.QUESTION, lang, scale) {
+            BiText(Bi(stripRevealPrompt(r.question.en), stripRevealPrompt(r.question.ta), r.question.taStatus), lang, scale, weight = FontWeight.SemiBold, color = Navy)
+            if (!open) Text(tr(lang, "Tap to reveal the answer", "விடையைக் காண தொடவும்"), fontFamily = TamilFont, fontSize = (12 * scale).sp, color = Muted)
         }
+        if (open) RoleCard(Role.ANSWER, lang, scale) { BiText(r.answer, lang, scale) }
     }
 }
 

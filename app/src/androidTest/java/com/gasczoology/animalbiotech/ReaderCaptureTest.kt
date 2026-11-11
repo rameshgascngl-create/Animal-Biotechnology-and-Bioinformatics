@@ -81,4 +81,41 @@ class ReaderCaptureTest {
             }
         }
     }
+
+    @Test fun captureHomeAndShadedBlocks() {
+        val device = UiDevice.getInstance(InstrumentationRegistry.getInstrumentation())
+        fun capture(name: String) {
+            device.waitForIdle(); Thread.sleep(600)
+            device.executeShellCommand("screencap -p /sdcard/Pictures/$name.png")
+        }
+        ActivityScenario.launch(MainActivity::class.java).use { scenario ->
+            assertTrue(device.wait(Until.hasObject(By.text("Animal Biotechnology")), 15000))
+            capture("06-home-EN")
+            device.findObject(By.text("\u0BA4\u0BAE\u0BBF\u0BB4\u0BCD")).click()
+            device.waitForIdle()
+            capture("06-home-TA")
+            device.findObject(By.text("English")).click()
+            for (lang in Lang.entries) {
+                scenario.onActivity { activity ->
+                    var found: com.gasczoology.animalbiotech.content.Chapter? = null
+                    for (un in Repo.units(activity)) for (t in un.topics) {
+                        val ch = ChapterRepo.load(activity, t.file, t.unitRoman)?.chapter ?: continue
+                        val all = ch.sections.flatMap { it.blocks }
+                        val reveal = all.firstOrNull { it is com.gasczoology.animalbiotech.content.Reveal }
+                        val term = all.firstOrNull { it is com.gasczoology.animalbiotech.content.KeyTerm || it is com.gasczoology.animalbiotech.content.GlossaryEntry }
+                        val callouts = all.filterIsInstance<com.gasczoology.animalbiotech.content.Callout>().distinctBy { com.gasczoology.animalbiotech.ui.theme.calloutRole(it.kind, it.text.en) }.take(3)
+                        if (reveal != null && callouts.isNotEmpty()) {
+                            found = ch.copy(sections = listOf(ch.sections.first().copy(blocks = listOfNotNull(reveal, term) + callouts)))
+                            break
+                        }
+                    }
+                    val fixture = requireNotNull(found) { "no chapter with a question and a definition/callout" }
+                    activity.setContent { MaterialTheme { LessonScreen(fixture, lang, {}, 100, false, {}, false, {}, {}, null) } }
+                }
+                capture("07-shaded-" + lang.name)
+                device.findObject(By.textStartsWith(if (lang == Lang.TA) "\u0BB5\u0BBF\u0B9F\u0BC8\u0BAF\u0BC8" else "Tap to reveal"))?.click()
+                capture("08-answer-" + lang.name)
+            }
+        }
+    }
 }

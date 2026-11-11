@@ -13,10 +13,11 @@ data class Topic(
     val file: String,
     val hash: String,
     val unitRoman: String,
+    val titleTa: String = "",
 ) {
 }
 
-data class UnitInfo(val roman: String, val title: String, val topics: List<Topic>)
+data class UnitInfo(val roman: String, val title: String, val topics: List<Topic>, val titleTa: String = "")
 
 data class Mcq(val id: String, val q: String, val options: List<String>, val answer: Int, val explanation: String, val qTa: String = "", val optionsTa: List<String> = emptyList(), val explanationTa: String = "")
 
@@ -41,6 +42,7 @@ object Repo {
         unitCache?.let { return it }
         val root = JSONObject(read(ctx, "syllabus.json"))
         val arr = root.getJSONArray("units")
+        val modules = root.getJSONObject("modules")
         val out = ArrayList<UnitInfo>()
         for (i in 0 until arr.length()) {
             val u = arr.getJSONObject(i)
@@ -57,10 +59,11 @@ object Repo {
                         file = t.getString("file"),
                         hash = t.optString("hash", ""),
                         unitRoman = roman,
+                        titleTa = modules.optJSONObject(t.getString("file"))?.optString("title_ta", "") ?: "",
                     )
                 )
             }
-            out.add(UnitInfo(roman, u.getString("title"), topics))
+            out.add(UnitInfo(roman, u.getString("title"), topics, u.optString("title_ta", "")))
         }
         unitCache = out
         return out
