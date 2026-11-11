@@ -47,7 +47,10 @@ class ReaderCaptureTest {
                     val image = device.findObject(By.descStartsWith("Diagram:"))
                         ?: device.findObject(By.clazz("android.widget.ImageView"))
                     requireNotNull(image).click()
-                    assertTrue(device.wait(Until.hasObject(By.text("Close")), 5000))
+                    val opened = device.wait(Until.hasObject(By.text("Close")), 5000)
+                    capture("03-probe")
+                    if (!opened) device.dumpWindowHierarchy(java.io.File("/sdcard/Pictures/hier.xml").also { it.parentFile?.mkdirs() }.outputStream())
+                    assertTrue(opened)
                     capture("03-enlarged")
                     device.findObject(By.text("Close")).click()
                 }
