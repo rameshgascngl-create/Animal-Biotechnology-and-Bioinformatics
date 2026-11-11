@@ -1,0 +1,3186 @@
+[
+ {
+  "id": "advanced_vectors_cosmid_yac_sv40_transposons-d01",
+  "en": {
+   "struct": 0,
+   "small": 21,
+   "margin": 7,
+   "kinds": {},
+   "minsp": 5.6
+  },
+  "ta": {
+   "struct": 1,
+   "small": 21,
+   "margin": 7,
+   "kinds": {
+    "text_stroke": 1
+   },
+   "minsp": 3.7
+  },
+  "v_en": "ok",
+  "v_ta": "minor",
+  "note": "TA: label lines overlap at amp-r; mixed font sizes"
+ },
+ {
+  "id": "advanced_vectors_cosmid_yac_sv40_transposons-d02",
+  "en": {
+   "struct": 6,
+   "small": 26,
+   "margin": 2,
+   "kinds": {
+    "text_text": 1,
+    "text_stroke": 3,
+    "shape_overlap": 2
+   },
+   "minsp": 5.4
+  },
+  "ta": {
+   "struct": 4,
+   "small": 26,
+   "margin": 2,
+   "kinds": {
+    "text_stroke": 2,
+    "shape_overlap": 2
+   },
+   "minsp": 3
+  },
+  "v_en": "minor",
+  "v_ta": "minor",
+  "note": "EN: arm caption runs into URA3 caption"
+ },
+ {
+  "id": "advanced_vectors_cosmid_yac_sv40_transposons-d03",
+  "en": {
+   "struct": 10,
+   "small": 22,
+   "margin": 5,
+   "kinds": {
+    "text_stroke": 8,
+    "covered": 1,
+    "stroke_cross": 1
+   },
+   "minsp": 6
+  },
+  "ta": {
+   "struct": 11,
+   "small": 22,
+   "margin": 5,
+   "kinds": {
+    "text_stroke": 8,
+    "covered": 2,
+    "stroke_cross": 1
+   },
+   "minsp": 3.6
+  },
+  "v_en": "major",
+  "v_ta": "major",
+  "note": "SV40: rings overlap, labels collide with rings and each other"
+ },
+ {
+  "id": "advanced_vectors_cosmid_yac_sv40_transposons-d04",
+  "en": {
+   "struct": 13,
+   "small": 30,
+   "margin": 9,
+   "kinds": {
+    "text_text": 1,
+    "text_stroke": 9,
+    "text_edge": 3
+   },
+   "minsp": 5.1
+  },
+  "ta": {
+   "struct": 15,
+   "small": 30,
+   "margin": 9,
+   "kinds": {
+    "text_stroke": 12,
+    "text_edge": 3
+   },
+   "minsp": 3.1
+  },
+  "v_en": "moderate",
+  "v_ta": "moderate",
+  "note": "TSD/TIR captions collide; step text on arrows"
+ },
+ {
+  "id": "animal_cell_culture-d01",
+  "en": {
+   "struct": 4,
+   "small": 14,
+   "margin": 0,
+   "kinds": {
+    "text_stroke": 4
+   },
+   "minsp": 4.6
+  },
+  "ta": {
+   "struct": 8,
+   "small": 14,
+   "margin": 0,
+   "kinds": {
+    "text_stroke": 6,
+    "covered": 1,
+    "text_edge": 1
+   },
+   "minsp": 2.8
+  },
+  "v_en": "minor",
+  "v_ta": "minor",
+  "note": "dark canvas; labels cross outlines"
+ },
+ {
+  "id": "animal_cell_culture-d02",
+  "en": {
+   "struct": 6,
+   "small": 18,
+   "margin": 0,
+   "kinds": {
+    "text_stroke": 3,
+    "text_edge": 1,
+    "shape_overlap": 2
+   },
+   "minsp": 4.8
+  },
+  "ta": {
+   "struct": 5,
+   "small": 18,
+   "margin": 0,
+   "kinds": {
+    "text_stroke": 2,
+    "text_edge": 1,
+    "shape_overlap": 2
+   },
+   "minsp": 2.9
+  },
+  "v_en": "minor",
+  "v_ta": "minor",
+  "note": "Inverted Microscope label on the shape"
+ },
+ {
+  "id": "animal_cell_culture-d03",
+  "en": {
+   "struct": 0,
+   "small": 21,
+   "margin": 0,
+   "kinds": {},
+   "minsp": 4.9
+  },
+  "ta": {
+   "struct": 4,
+   "small": 21,
+   "margin": 1,
+   "kinds": {
+    "text_stroke": 2,
+    "text_edge": 2
+   },
+   "minsp": 2.9
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": "dark canvas"
+ },
+ {
+  "id": "animal_cell_culture-d04",
+  "en": {
+   "struct": 2,
+   "small": 12,
+   "margin": 1,
+   "kinds": {
+    "text_stroke": 2
+   },
+   "minsp": 4.2
+  },
+  "ta": {
+   "struct": 3,
+   "small": 12,
+   "margin": 1,
+   "kinds": {
+    "text_stroke": 2,
+    "covered": 1
+   },
+   "minsp": 2.8
+  },
+  "v_en": "minor",
+  "v_ta": "moderate",
+  "note": "Crisis/Immortalization label runs into box; TA cut by box"
+ },
+ {
+  "id": "animal_cell_culture-d05",
+  "en": {
+   "struct": 3,
+   "small": 9,
+   "margin": 2,
+   "kinds": {
+    "text_stroke": 2,
+    "text_edge": 1
+   },
+   "minsp": 5.4
+  },
+  "ta": {
+   "struct": 3,
+   "small": 9,
+   "margin": 2,
+   "kinds": {
+    "text_stroke": 2,
+    "text_edge": 1
+   },
+   "minsp": 3.2
+  },
+  "v_en": "minor",
+  "v_ta": "minor",
+  "note": "labels cross triangle edges"
+ },
+ {
+  "id": "animal_cell_culture-d06",
+  "en": {
+   "struct": 8,
+   "small": 5,
+   "margin": 1,
+   "kinds": {
+    "text_edge": 1,
+    "shape_overlap": 7
+   },
+   "minsp": 5.6
+  },
+  "ta": {
+   "struct": 8,
+   "small": 5,
+   "margin": 1,
+   "kinds": {
+    "text_edge": 1,
+    "shape_overlap": 7
+   },
+   "minsp": 3.4
+  },
+  "v_en": "minor",
+  "v_ta": "major",
+  "note": "TA right-edge labels clipped"
+ },
+ {
+  "id": "animal_cell_culture-d07",
+  "en": {
+   "struct": 9,
+   "small": 19,
+   "margin": 1,
+   "kinds": {
+    "outside": 5,
+    "text_stroke": 4
+   },
+   "minsp": 4.8
+  },
+  "ta": {
+   "struct": 9,
+   "small": 19,
+   "margin": 1,
+   "kinds": {
+    "outside": 5,
+    "text_stroke": 4
+   },
+   "minsp": 2.9
+  },
+  "v_en": "major",
+  "v_ta": "major",
+  "note": "right-hand panel cut off at the right edge"
+ },
+ {
+  "id": "atlas1_fundamentals_vectors-d01",
+  "en": {
+   "struct": 1,
+   "small": 12,
+   "margin": 0,
+   "kinds": {
+    "text_stroke": 1
+   },
+   "minsp": 6.8
+  },
+  "ta": {
+   "struct": 2,
+   "small": 12,
+   "margin": 0,
+   "kinds": {
+    "text_stroke": 2
+   },
+   "minsp": 4
+  },
+  "v_en": "ok",
+  "v_ta": "moderate",
+  "note": "TA word overflows the circle"
+ },
+ {
+  "id": "atlas1_fundamentals_vectors-d02",
+  "en": {
+   "struct": 0,
+   "small": 17,
+   "margin": 4,
+   "kinds": {},
+   "minsp": 6.9
+  },
+  "ta": {
+   "struct": 0,
+   "small": 17,
+   "margin": 4,
+   "kinds": {},
+   "minsp": 4.2
+  },
+  "v_en": "ok",
+  "v_ta": "minor",
+  "note": "TA mixed sizes and untranslated fragments"
+ },
+ {
+  "id": "atlas1_fundamentals_vectors-d03",
+  "en": {
+   "struct": 0,
+   "small": 64,
+   "margin": 2,
+   "kinds": {},
+   "minsp": 6.3
+  },
+  "ta": {
+   "struct": 0,
+   "small": 64,
+   "margin": 2,
+   "kinds": {},
+   "minsp": 3.9
+  },
+  "v_en": "ok",
+  "v_ta": "minor",
+  "note": "TA caption mixed sizes"
+ },
+ {
+  "id": "atlas1_fundamentals_vectors-d04",
+  "en": {
+   "struct": 0,
+   "small": 18,
+   "margin": 4,
+   "kinds": {},
+   "minsp": 7.9
+  },
+  "ta": {
+   "struct": 0,
+   "small": 18,
+   "margin": 4,
+   "kinds": {},
+   "minsp": 4.7
+  },
+  "v_en": "ok",
+  "v_ta": "minor",
+  "note": "TA mixed sizes"
+ },
+ {
+  "id": "atlas1_fundamentals_vectors-d05",
+  "en": {
+   "struct": 0,
+   "small": 13,
+   "margin": 0,
+   "kinds": {},
+   "minsp": 6.7
+  },
+  "ta": {
+   "struct": 0,
+   "small": 13,
+   "margin": 0,
+   "kinds": {},
+   "minsp": 6.7
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": ""
+ },
+ {
+  "id": "atlas1_fundamentals_vectors-d06",
+  "en": {
+   "struct": 0,
+   "small": 8,
+   "margin": 0,
+   "kinds": {},
+   "minsp": 6.7
+  },
+  "ta": {
+   "struct": 2,
+   "small": 8,
+   "margin": 0,
+   "kinds": {
+    "text_stroke": 2
+   },
+   "minsp": 4.6
+  },
+  "v_en": "minor",
+  "v_ta": "minor",
+  "note": "labels sit on the ring"
+ },
+ {
+  "id": "atlas1_fundamentals_vectors-d07",
+  "en": {
+   "struct": 1,
+   "small": 16,
+   "margin": 0,
+   "kinds": {
+    "stroke_cross": 1
+   },
+   "minsp": 5.9
+  },
+  "ta": {
+   "struct": 1,
+   "small": 16,
+   "margin": 0,
+   "kinds": {
+    "stroke_cross": 1
+   },
+   "minsp": 3.5
+  },
+  "v_en": "ok",
+  "v_ta": "minor",
+  "note": "TA box touches right edge"
+ },
+ {
+  "id": "atlas1_fundamentals_vectors-d08",
+  "en": {
+   "struct": 0,
+   "small": 13,
+   "margin": 3,
+   "kinds": {},
+   "minsp": 5.8
+  },
+  "ta": {
+   "struct": 0,
+   "small": 13,
+   "margin": 3,
+   "kinds": {},
+   "minsp": 3.6
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": ""
+ },
+ {
+  "id": "atlas1_fundamentals_vectors-d09",
+  "en": {
+   "struct": 0,
+   "small": 13,
+   "margin": 3,
+   "kinds": {},
+   "minsp": 6.4
+  },
+  "ta": {
+   "struct": 0,
+   "small": 13,
+   "margin": 3,
+   "kinds": {},
+   "minsp": 4
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": ""
+ },
+ {
+  "id": "atlas1_fundamentals_vectors-d10",
+  "en": {
+   "struct": 4,
+   "small": 17,
+   "margin": 0,
+   "kinds": {
+    "text_stroke": 4
+   },
+   "minsp": 6.8
+  },
+  "ta": {
+   "struct": 4,
+   "small": 17,
+   "margin": 0,
+   "kinds": {
+    "text_stroke": 4
+   },
+   "minsp": 5.7
+  },
+  "v_en": "minor",
+  "v_ta": "minor",
+  "note": "value labels over gridlines"
+ },
+ {
+  "id": "atlas1_fundamentals_vectors-d11",
+  "en": {
+   "struct": 0,
+   "small": 13,
+   "margin": 3,
+   "kinds": {},
+   "minsp": 6.6
+  },
+  "ta": {
+   "struct": 0,
+   "small": 13,
+   "margin": 3,
+   "kinds": {},
+   "minsp": 4
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": ""
+ },
+ {
+  "id": "atlas1_fundamentals_vectors-d12",
+  "en": {
+   "struct": 0,
+   "small": 14,
+   "margin": 2,
+   "kinds": {},
+   "minsp": 5.9
+  },
+  "ta": {
+   "struct": 0,
+   "small": 14,
+   "margin": 2,
+   "kinds": {},
+   "minsp": 3.9
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": ""
+ },
+ {
+  "id": "atlas1_fundamentals_vectors-d13",
+  "en": {
+   "struct": 0,
+   "small": 7,
+   "margin": 0,
+   "kinds": {},
+   "minsp": 6.7
+  },
+  "ta": {
+   "struct": 0,
+   "small": 7,
+   "margin": 0,
+   "kinds": {},
+   "minsp": 4
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": ""
+ },
+ {
+  "id": "atlas1_fundamentals_vectors-d14",
+  "en": {
+   "struct": 0,
+   "small": 11,
+   "margin": 3,
+   "kinds": {},
+   "minsp": 6.4
+  },
+  "ta": {
+   "struct": 0,
+   "small": 11,
+   "margin": 3,
+   "kinds": {},
+   "minsp": 3.9
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": ""
+ },
+ {
+  "id": "atlas1_fundamentals_vectors-d15",
+  "en": {
+   "struct": 0,
+   "small": 8,
+   "margin": 6,
+   "kinds": {},
+   "minsp": 6.4
+  },
+  "ta": {
+   "struct": 0,
+   "small": 8,
+   "margin": 6,
+   "kinds": {},
+   "minsp": 4.4
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": ""
+ },
+ {
+  "id": "atlas2_techniques-d01",
+  "en": {
+   "struct": 0,
+   "small": 16,
+   "margin": 5,
+   "kinds": {},
+   "minsp": 5.2
+  },
+  "ta": {
+   "struct": 1,
+   "small": 16,
+   "margin": 5,
+   "kinds": {
+    "text_stroke": 1
+   },
+   "minsp": 3.2
+  },
+  "v_en": "ok",
+  "v_ta": "minor",
+  "note": "TA cramped"
+ },
+ {
+  "id": "atlas2_techniques-d02",
+  "en": {
+   "struct": 0,
+   "small": 12,
+   "margin": 6,
+   "kinds": {},
+   "minsp": 6.3
+  },
+  "ta": {
+   "struct": 1,
+   "small": 12,
+   "margin": 7,
+   "kinds": {
+    "text_stroke": 1
+   },
+   "minsp": 3.8
+  },
+  "v_en": "ok",
+  "v_ta": "moderate",
+  "note": "TA text overflows card edges"
+ },
+ {
+  "id": "atlas2_techniques-d03",
+  "en": {
+   "struct": 2,
+   "small": 24,
+   "margin": 2,
+   "kinds": {
+    "text_stroke": 2
+   },
+   "minsp": 4.3
+  },
+  "ta": {
+   "struct": 3,
+   "small": 24,
+   "margin": 0,
+   "kinds": {
+    "text_stroke": 2,
+    "text_edge": 1
+   },
+   "minsp": 3.4
+  },
+  "v_en": "minor",
+  "v_ta": "moderate",
+  "note": "text in interpretation box clipped at box edge (TA worse); blue/white colour cue only? no - numbered"
+ },
+ {
+  "id": "atlas2_techniques-d04",
+  "en": {
+   "struct": 0,
+   "small": 18,
+   "margin": 2,
+   "kinds": {},
+   "minsp": 6.2
+  },
+  "ta": {
+   "struct": 0,
+   "small": 18,
+   "margin": 2,
+   "kinds": {},
+   "minsp": 4.2
+  },
+  "v_en": "ok",
+  "v_ta": "minor",
+  "note": "blue/white colony is colour-only cue"
+ },
+ {
+  "id": "atlas2_techniques-d05",
+  "en": {
+   "struct": 0,
+   "small": 16,
+   "margin": 4,
+   "kinds": {},
+   "minsp": 6.4
+  },
+  "ta": {
+   "struct": 0,
+   "small": 16,
+   "margin": 6,
+   "kinds": {},
+   "minsp": 3.9
+  },
+  "v_en": "ok",
+  "v_ta": "minor",
+  "note": ""
+ },
+ {
+  "id": "atlas2_techniques-d06",
+  "en": {
+   "struct": 0,
+   "small": 10,
+   "margin": 3,
+   "kinds": {},
+   "minsp": 6
+  },
+  "ta": {
+   "struct": 0,
+   "small": 10,
+   "margin": 3,
+   "kinds": {},
+   "minsp": 3.6
+  },
+  "v_en": "ok",
+  "v_ta": "minor",
+  "note": ""
+ },
+ {
+  "id": "atlas2_techniques-d07",
+  "en": {
+   "struct": 0,
+   "small": 21,
+   "margin": 0,
+   "kinds": {},
+   "minsp": 5.3
+  },
+  "ta": {
+   "struct": 0,
+   "small": 21,
+   "margin": 0,
+   "kinds": {},
+   "minsp": 3.2
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": ""
+ },
+ {
+  "id": "atlas2_techniques-d08",
+  "en": {
+   "struct": 0,
+   "small": 10,
+   "margin": 4,
+   "kinds": {},
+   "minsp": 6.3
+  },
+  "ta": {
+   "struct": 0,
+   "small": 10,
+   "margin": 4,
+   "kinds": {},
+   "minsp": 3.8
+  },
+  "v_en": "minor",
+  "v_ta": "minor",
+  "note": "step labels sit on the line"
+ },
+ {
+  "id": "atlas2_techniques-d09",
+  "en": {
+   "struct": 0,
+   "small": 18,
+   "margin": 2,
+   "kinds": {},
+   "minsp": 4.4
+  },
+  "ta": {
+   "struct": 0,
+   "small": 18,
+   "margin": 2,
+   "kinds": {},
+   "minsp": 3.1
+  },
+  "v_en": "ok",
+  "v_ta": "minor",
+  "note": ""
+ },
+ {
+  "id": "atlas3_transgenic_medical-d01",
+  "en": {
+   "struct": 0,
+   "small": 15,
+   "margin": 1,
+   "kinds": {},
+   "minsp": 6.1
+  },
+  "ta": {
+   "struct": 0,
+   "small": 15,
+   "margin": 2,
+   "kinds": {},
+   "minsp": 3.7
+  },
+  "v_en": "ok",
+  "v_ta": "minor",
+  "note": ""
+ },
+ {
+  "id": "atlas3_transgenic_medical-d02",
+  "en": {
+   "struct": 7,
+   "small": 20,
+   "margin": 9,
+   "kinds": {
+    "outside": 1,
+    "text_stroke": 4,
+    "text_edge": 2
+   },
+   "minsp": 3.9
+  },
+  "ta": {
+   "struct": 7,
+   "small": 20,
+   "margin": 10,
+   "kinds": {
+    "outside": 1,
+    "text_stroke": 3,
+    "text_edge": 3
+   },
+   "minsp": 2
+  },
+  "v_en": "moderate",
+  "v_ta": "major",
+  "note": "4th column text cut at right edge (TA)"
+ },
+ {
+  "id": "atlas3_transgenic_medical-d03",
+  "en": {
+   "struct": 1,
+   "small": 16,
+   "margin": 3,
+   "kinds": {
+    "text_stroke": 1
+   },
+   "minsp": 7
+  },
+  "ta": {
+   "struct": 1,
+   "small": 16,
+   "margin": 3,
+   "kinds": {
+    "text_stroke": 1
+   },
+   "minsp": 4.2
+  },
+  "v_en": "ok",
+  "v_ta": "minor",
+  "note": "TA label crosses red connector"
+ },
+ {
+  "id": "atlas3_transgenic_medical-d04",
+  "en": {
+   "struct": 0,
+   "small": 17,
+   "margin": 4,
+   "kinds": {},
+   "minsp": 5.8
+  },
+  "ta": {
+   "struct": 0,
+   "small": 17,
+   "margin": 6,
+   "kinds": {},
+   "minsp": 3.5
+  },
+  "v_en": "ok",
+  "v_ta": "minor",
+  "note": ""
+ },
+ {
+  "id": "atlas3_transgenic_medical-d05",
+  "en": {
+   "struct": 7,
+   "small": 23,
+   "margin": 12,
+   "kinds": {
+    "text_stroke": 4,
+    "text_edge": 3
+   },
+   "minsp": 4.2
+  },
+  "ta": {
+   "struct": 7,
+   "small": 23,
+   "margin": 12,
+   "kinds": {
+    "text_stroke": 4,
+    "text_edge": 3
+   },
+   "minsp": 2.4
+  },
+  "v_en": "moderate",
+  "v_ta": "major",
+  "note": "4th column cut at right edge"
+ },
+ {
+  "id": "atlas3_transgenic_medical-d06",
+  "en": {
+   "struct": 4,
+   "small": 13,
+   "margin": 3,
+   "kinds": {
+    "text_stroke": 3,
+    "text_edge": 1
+   },
+   "minsp": 4.7
+  },
+  "ta": {
+   "struct": 4,
+   "small": 13,
+   "margin": 3,
+   "kinds": {
+    "text_stroke": 3,
+    "text_edge": 1
+   },
+   "minsp": 2.8
+  },
+  "v_en": "minor",
+  "v_ta": "minor",
+  "note": "text touches box edges"
+ },
+ {
+  "id": "atlas3_transgenic_medical-d07",
+  "en": {
+   "struct": 0,
+   "small": 19,
+   "margin": 4,
+   "kinds": {},
+   "minsp": 4.9
+  },
+  "ta": {
+   "struct": 0,
+   "small": 19,
+   "margin": 5,
+   "kinds": {},
+   "minsp": 3.3
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": ""
+ },
+ {
+  "id": "atlas3_transgenic_medical-d08",
+  "en": {
+   "struct": 0,
+   "small": 11,
+   "margin": 1,
+   "kinds": {},
+   "minsp": 5.5
+  },
+  "ta": {
+   "struct": 0,
+   "small": 11,
+   "margin": 0,
+   "kinds": {},
+   "minsp": 3.4
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": ""
+ },
+ {
+  "id": "atlas3_transgenic_medical-d09",
+  "en": {
+   "struct": 0,
+   "small": 9,
+   "margin": 3,
+   "kinds": {},
+   "minsp": 6.2
+  },
+  "ta": {
+   "struct": 0,
+   "small": 9,
+   "margin": 3,
+   "kinds": {},
+   "minsp": 4.2
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": ""
+ },
+ {
+  "id": "atlas3_transgenic_medical-d10",
+  "en": {
+   "struct": 1,
+   "small": 11,
+   "margin": 2,
+   "kinds": {
+    "text_stroke": 1
+   },
+   "minsp": 4.5
+  },
+  "ta": {
+   "struct": 1,
+   "small": 11,
+   "margin": 3,
+   "kinds": {
+    "text_stroke": 1
+   },
+   "minsp": 2.7
+  },
+  "v_en": "minor",
+  "v_ta": "ok",
+  "note": "EN text touches box edge"
+ },
+ {
+  "id": "atlas3_transgenic_medical-d11",
+  "en": {
+   "struct": 0,
+   "small": 12,
+   "margin": 3,
+   "kinds": {},
+   "minsp": 4.9
+  },
+  "ta": {
+   "struct": 0,
+   "small": 12,
+   "margin": 3,
+   "kinds": {},
+   "minsp": 2.9
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": ""
+ },
+ {
+  "id": "atlas3_transgenic_medical-d12",
+  "en": {
+   "struct": 0,
+   "small": 17,
+   "margin": 4,
+   "kinds": {},
+   "minsp": 6.4
+  },
+  "ta": {
+   "struct": 0,
+   "small": 17,
+   "margin": 4,
+   "kinds": {},
+   "minsp": 3.9
+  },
+  "v_en": "ok",
+  "v_ta": "minor",
+  "note": ""
+ },
+ {
+  "id": "atlas3_transgenic_medical-d13",
+  "en": {
+   "struct": 0,
+   "small": 55,
+   "margin": 1,
+   "kinds": {},
+   "minsp": 6.2
+  },
+  "ta": {
+   "struct": 0,
+   "small": 55,
+   "margin": 1,
+   "kinds": {},
+   "minsp": 4
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": "ACCURACY QUERY: guide RNA drawn pairing with the PAM-bearing strand"
+ },
+ {
+  "id": "atlas3_transgenic_medical-d14",
+  "en": {
+   "struct": 0,
+   "small": 13,
+   "margin": 3,
+   "kinds": {},
+   "minsp": 6.4
+  },
+  "ta": {
+   "struct": 0,
+   "small": 13,
+   "margin": 3,
+   "kinds": {},
+   "minsp": 3.9
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": ""
+ },
+ {
+  "id": "atlas3_transgenic_medical-d15",
+  "en": {
+   "struct": 0,
+   "small": 11,
+   "margin": 3,
+   "kinds": {},
+   "minsp": 6.4
+  },
+  "ta": {
+   "struct": 0,
+   "small": 11,
+   "margin": 4,
+   "kinds": {},
+   "minsp": 3.9
+  },
+  "v_en": "ok",
+  "v_ta": "minor",
+  "note": ""
+ },
+ {
+  "id": "atlas3_transgenic_medical-d16",
+  "en": {
+   "struct": 0,
+   "small": 6,
+   "margin": 2,
+   "kinds": {},
+   "minsp": 5.7
+  },
+  "ta": {
+   "struct": 0,
+   "small": 6,
+   "margin": 3,
+   "kinds": {},
+   "minsp": 3.7
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": "6 sp text"
+ },
+ {
+  "id": "atlas3_transgenic_medical-d17",
+  "en": {
+   "struct": 0,
+   "small": 10,
+   "margin": 0,
+   "kinds": {},
+   "minsp": 5.2
+  },
+  "ta": {
+   "struct": 0,
+   "small": 10,
+   "margin": 0,
+   "kinds": {},
+   "minsp": 3.1
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": ""
+ },
+ {
+  "id": "atlas4_culture_society-d01",
+  "en": {
+   "struct": 0,
+   "small": 16,
+   "margin": 7,
+   "kinds": {},
+   "minsp": 4.7
+  },
+  "ta": {
+   "struct": 0,
+   "small": 16,
+   "margin": 7,
+   "kinds": {},
+   "minsp": 2.8
+  },
+  "v_en": "ok",
+  "v_ta": "minor",
+  "note": ""
+ },
+ {
+  "id": "atlas4_culture_society-d02",
+  "en": {
+   "struct": 13,
+   "small": 19,
+   "margin": 1,
+   "kinds": {
+    "text_stroke": 13
+   },
+   "minsp": 6.2
+  },
+  "ta": {
+   "struct": 14,
+   "small": 19,
+   "margin": 1,
+   "kinds": {
+    "text_stroke": 13,
+    "text_edge": 1
+   },
+   "minsp": 3.7
+  },
+  "v_en": "moderate",
+  "v_ta": "major",
+  "note": "spoke lines cut through the centre label; TA label clipped"
+ },
+ {
+  "id": "atlas4_culture_society-d03",
+  "en": {
+   "struct": 0,
+   "small": 11,
+   "margin": 1,
+   "kinds": {},
+   "minsp": 6.5
+  },
+  "ta": {
+   "struct": 0,
+   "small": 11,
+   "margin": 2,
+   "kinds": {},
+   "minsp": 3.9
+  },
+  "v_en": "ok",
+  "v_ta": "minor",
+  "note": ""
+ },
+ {
+  "id": "atlas4_culture_society-d04",
+  "en": {
+   "struct": 0,
+   "small": 15,
+   "margin": 1,
+   "kinds": {},
+   "minsp": 5.6
+  },
+  "ta": {
+   "struct": 0,
+   "small": 15,
+   "margin": 1,
+   "kinds": {},
+   "minsp": 3.3
+  },
+  "v_en": "ok",
+  "v_ta": "minor",
+  "note": ""
+ },
+ {
+  "id": "atlas4_culture_society-d05",
+  "en": {
+   "struct": 0,
+   "small": 18,
+   "margin": 3,
+   "kinds": {},
+   "minsp": 5.9
+  },
+  "ta": {
+   "struct": 0,
+   "small": 18,
+   "margin": 3,
+   "kinds": {},
+   "minsp": 4
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": ""
+ },
+ {
+  "id": "atlas4_culture_society-d06",
+  "en": {
+   "struct": 0,
+   "small": 13,
+   "margin": 3,
+   "kinds": {},
+   "minsp": 6.4
+  },
+  "ta": {
+   "struct": 0,
+   "small": 13,
+   "margin": 4,
+   "kinds": {},
+   "minsp": 3.9
+  },
+  "v_en": "ok",
+  "v_ta": "minor",
+  "note": ""
+ },
+ {
+  "id": "atlas4_culture_society-d07",
+  "en": {
+   "struct": 0,
+   "small": 15,
+   "margin": 2,
+   "kinds": {},
+   "minsp": 5.9
+  },
+  "ta": {
+   "struct": 0,
+   "small": 15,
+   "margin": 2,
+   "kinds": {},
+   "minsp": 3.8
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": ""
+ },
+ {
+  "id": "atlas4_culture_society-d08",
+  "en": {
+   "struct": 0,
+   "small": 10,
+   "margin": 5,
+   "kinds": {},
+   "minsp": 7.3
+  },
+  "ta": {
+   "struct": 0,
+   "small": 10,
+   "margin": 5,
+   "kinds": {},
+   "minsp": 4.4
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": ""
+ },
+ {
+  "id": "atlas4_culture_society-d09",
+  "en": {
+   "struct": 0,
+   "small": 8,
+   "margin": 2,
+   "kinds": {},
+   "minsp": 6
+  },
+  "ta": {
+   "struct": 0,
+   "small": 8,
+   "margin": 3,
+   "kinds": {},
+   "minsp": 3.6
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": ""
+ },
+ {
+  "id": "atlas4_culture_society-d10",
+  "en": {
+   "struct": 0,
+   "small": 8,
+   "margin": 7,
+   "kinds": {},
+   "minsp": 6.1
+  },
+  "ta": {
+   "struct": 0,
+   "small": 8,
+   "margin": 7,
+   "kinds": {},
+   "minsp": 4.2
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": ""
+ },
+ {
+  "id": "atlas4_culture_society-d11",
+  "en": {
+   "struct": 2,
+   "small": 16,
+   "margin": 5,
+   "kinds": {
+    "text_stroke": 2
+   },
+   "minsp": 4.5
+  },
+  "ta": {
+   "struct": 3,
+   "small": 16,
+   "margin": 5,
+   "kinds": {
+    "text_stroke": 3
+   },
+   "minsp": 2.8
+  },
+  "v_en": "minor",
+  "v_ta": "minor",
+  "note": "text touches box edge"
+ },
+ {
+  "id": "atlas4_culture_society-d12",
+  "en": {
+   "struct": 0,
+   "small": 10,
+   "margin": 2,
+   "kinds": {},
+   "minsp": 5.9
+  },
+  "ta": {
+   "struct": 0,
+   "small": 10,
+   "margin": 2,
+   "kinds": {},
+   "minsp": 3.5
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": ""
+ },
+ {
+  "id": "atlas4_culture_society-d13",
+  "en": {
+   "struct": 0,
+   "small": 9,
+   "margin": 3,
+   "kinds": {},
+   "minsp": 5.2
+  },
+  "ta": {
+   "struct": 3,
+   "small": 9,
+   "margin": 3,
+   "kinds": {
+    "text_stroke": 2,
+    "text_edge": 1
+   },
+   "minsp": 2.4
+  },
+  "v_en": "ok",
+  "v_ta": "major",
+  "note": "TA text overflows boxes (2nd, 4th)"
+ },
+ {
+  "id": "atlas4_culture_society-d14",
+  "en": {
+   "struct": 1,
+   "small": 8,
+   "margin": 3,
+   "kinds": {
+    "text_stroke": 1
+   },
+   "minsp": 4.7
+  },
+  "ta": {
+   "struct": 4,
+   "small": 8,
+   "margin": 4,
+   "kinds": {
+    "text_stroke": 3,
+    "text_edge": 1
+   },
+   "minsp": 2.8
+  },
+  "v_en": "minor",
+  "v_ta": "major",
+  "note": "TA text overflows boxes"
+ },
+ {
+  "id": "atlas4_culture_society-d15",
+  "en": {
+   "struct": 0,
+   "small": 15,
+   "margin": 5,
+   "kinds": {},
+   "minsp": 4.9
+  },
+  "ta": {
+   "struct": 0,
+   "small": 15,
+   "margin": 6,
+   "kinds": {},
+   "minsp": 2.9
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": ""
+ },
+ {
+  "id": "atlas4_culture_society-d16",
+  "en": {
+   "struct": 5,
+   "small": 18,
+   "margin": 6,
+   "kinds": {
+    "text_stroke": 3,
+    "text_edge": 2
+   },
+   "minsp": 4.4
+  },
+  "ta": {
+   "struct": 4,
+   "small": 18,
+   "margin": 7,
+   "kinds": {
+    "text_stroke": 3,
+    "text_edge": 1
+   },
+   "minsp": 2.9
+  },
+  "v_en": "minor",
+  "v_ta": "moderate",
+  "note": "4th-box text overflows"
+ },
+ {
+  "id": "atlas4_culture_society-d17",
+  "en": {
+   "struct": 5,
+   "small": 15,
+   "margin": 7,
+   "kinds": {
+    "outside": 1,
+    "text_stroke": 2,
+    "text_edge": 2
+   },
+   "minsp": 4.2
+  },
+  "ta": {
+   "struct": 5,
+   "small": 15,
+   "margin": 7,
+   "kinds": {
+    "outside": 1,
+    "text_stroke": 2,
+    "text_edge": 2
+   },
+   "minsp": 2.7
+  },
+  "v_en": "minor",
+  "v_ta": "major",
+  "note": "TA 4th-column text cut at right edge"
+ },
+ {
+  "id": "atlas5_bioinformatics-d01",
+  "en": {
+   "struct": 0,
+   "small": 20,
+   "margin": 14,
+   "kinds": {},
+   "minsp": 5.9
+  },
+  "ta": {
+   "struct": 0,
+   "small": 20,
+   "margin": 14,
+   "kinds": {},
+   "minsp": 3.8
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": ""
+ },
+ {
+  "id": "atlas5_bioinformatics-d02",
+  "en": {
+   "struct": 0,
+   "small": 23,
+   "margin": 17,
+   "kinds": {},
+   "minsp": 5.9
+  },
+  "ta": {
+   "struct": 0,
+   "small": 23,
+   "margin": 17,
+   "kinds": {},
+   "minsp": 3.5
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": ""
+ },
+ {
+  "id": "atlas5_bioinformatics-d03",
+  "en": {
+   "struct": 0,
+   "small": 6,
+   "margin": 2,
+   "kinds": {},
+   "minsp": 6.8
+  },
+  "ta": {
+   "struct": 0,
+   "small": 6,
+   "margin": 3,
+   "kinds": {},
+   "minsp": 4
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": "6 sp text"
+ },
+ {
+  "id": "atlas5_bioinformatics-d04",
+  "en": {
+   "struct": 0,
+   "small": 31,
+   "margin": 2,
+   "kinds": {},
+   "minsp": 5.9
+  },
+  "ta": {
+   "struct": 0,
+   "small": 31,
+   "margin": 2,
+   "kinds": {},
+   "minsp": 3.5
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": ""
+ },
+ {
+  "id": "atlas5_bioinformatics-d05",
+  "en": {
+   "struct": 0,
+   "small": 87,
+   "margin": 1,
+   "kinds": {},
+   "minsp": 5.9
+  },
+  "ta": {
+   "struct": 0,
+   "small": 87,
+   "margin": 1,
+   "kinds": {},
+   "minsp": 3.5
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": "87 small-text flags: matrix numbers"
+ },
+ {
+  "id": "atlas5_bioinformatics-d06",
+  "en": {
+   "struct": 0,
+   "small": 18,
+   "margin": 5,
+   "kinds": {},
+   "minsp": 4.9
+  },
+  "ta": {
+   "struct": 4,
+   "small": 18,
+   "margin": 6,
+   "kinds": {
+    "text_stroke": 3,
+    "text_edge": 1
+   },
+   "minsp": 2.9
+  },
+  "v_en": "ok",
+  "v_ta": "major",
+  "note": "TA 4th-box text overflows box"
+ },
+ {
+  "id": "atlas5_bioinformatics-d07",
+  "en": {
+   "struct": 0,
+   "small": 10,
+   "margin": 1,
+   "kinds": {},
+   "minsp": 6.1
+  },
+  "ta": {
+   "struct": 0,
+   "small": 10,
+   "margin": 0,
+   "kinds": {},
+   "minsp": 4.2
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": ""
+ },
+ {
+  "id": "atlas5_bioinformatics-d08",
+  "en": {
+   "struct": 0,
+   "small": 113,
+   "margin": 2,
+   "kinds": {},
+   "minsp": 5.9
+  },
+  "ta": {
+   "struct": 0,
+   "small": 113,
+   "margin": 1,
+   "kinds": {},
+   "minsp": 3.5
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": ""
+ },
+ {
+  "id": "atlas5_bioinformatics-d09",
+  "en": {
+   "struct": 0,
+   "small": 11,
+   "margin": 3,
+   "kinds": {},
+   "minsp": 6.4
+  },
+  "ta": {
+   "struct": 0,
+   "small": 11,
+   "margin": 3,
+   "kinds": {},
+   "minsp": 3.9
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": ""
+ },
+ {
+  "id": "atlas5_bioinformatics-d10",
+  "en": {
+   "struct": 0,
+   "small": 7,
+   "margin": 1,
+   "kinds": {},
+   "minsp": 5.9
+  },
+  "ta": {
+   "struct": 0,
+   "small": 7,
+   "margin": 1,
+   "kinds": {},
+   "minsp": 3.5
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": "ACCURACY QUERY: shark drawn as sister of lamprey (jawless) rather than of the bony vertebrates"
+ },
+ {
+  "id": "atlas5_bioinformatics-d11",
+  "en": {
+   "struct": 0,
+   "small": 16,
+   "margin": 3,
+   "kinds": {},
+   "minsp": 4.9
+  },
+  "ta": {
+   "struct": 0,
+   "small": 16,
+   "margin": 3,
+   "kinds": {},
+   "minsp": 2.9
+  },
+  "v_en": "ok",
+  "v_ta": "minor",
+  "note": ""
+ },
+ {
+  "id": "atlas5_bioinformatics-d12",
+  "en": {
+   "struct": 0,
+   "small": 12,
+   "margin": 7,
+   "kinds": {},
+   "minsp": 6.8
+  },
+  "ta": {
+   "struct": 0,
+   "small": 12,
+   "margin": 7,
+   "kinds": {},
+   "minsp": 4.9
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": ""
+ },
+ {
+  "id": "atlas5_bioinformatics-d13",
+  "en": {
+   "struct": 0,
+   "small": 12,
+   "margin": 4,
+   "kinds": {},
+   "minsp": 6.4
+  },
+  "ta": {
+   "struct": 0,
+   "small": 12,
+   "margin": 4,
+   "kinds": {},
+   "minsp": 3.9
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": ""
+ },
+ {
+  "id": "atlas5_bioinformatics-d14",
+  "en": {
+   "struct": 0,
+   "small": 12,
+   "margin": 4,
+   "kinds": {},
+   "minsp": 6.4
+  },
+  "ta": {
+   "struct": 0,
+   "small": 12,
+   "margin": 4,
+   "kinds": {},
+   "minsp": 3.9
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": ""
+ },
+ {
+  "id": "atlas5_bioinformatics-d15",
+  "en": {
+   "struct": 0,
+   "small": 10,
+   "margin": 4,
+   "kinds": {},
+   "minsp": 6.4
+  },
+  "ta": {
+   "struct": 0,
+   "small": 10,
+   "margin": 4,
+   "kinds": {},
+   "minsp": 3.9
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": ""
+ },
+ {
+  "id": "bioinformatics_databases_app-d01",
+  "en": {
+   "struct": 0,
+   "small": 16,
+   "margin": 5,
+   "kinds": {},
+   "minsp": 4.1
+  },
+  "ta": {
+   "struct": 0,
+   "small": 16,
+   "margin": 5,
+   "kinds": {},
+   "minsp": 2.6
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": "dark canvas"
+ },
+ {
+  "id": "bioinformatics_databases_app-d02",
+  "en": {
+   "struct": 1,
+   "small": 17,
+   "margin": 1,
+   "kinds": {
+    "text_stroke": 1
+   },
+   "minsp": 4.1
+  },
+  "ta": {
+   "struct": 1,
+   "small": 17,
+   "margin": 1,
+   "kinds": {
+    "text_stroke": 1
+   },
+   "minsp": 2.6
+  },
+  "v_en": "minor",
+  "v_ta": "minor",
+  "note": "tiny text"
+ },
+ {
+  "id": "bioinformatics_databases_app-d03",
+  "en": {
+   "struct": 2,
+   "small": 16,
+   "margin": 4,
+   "kinds": {
+    "text_stroke": 1,
+    "text_edge": 1
+   },
+   "minsp": 4
+  },
+  "ta": {
+   "struct": 1,
+   "small": 16,
+   "margin": 5,
+   "kinds": {
+    "text_stroke": 1
+   },
+   "minsp": 2.4
+  },
+  "v_en": "moderate",
+  "v_ta": "moderate",
+  "note": "last box text overflows right edge; emoji icons"
+ },
+ {
+  "id": "blotting_techniques-d01",
+  "en": {
+   "struct": 7,
+   "small": 14,
+   "margin": 0,
+   "kinds": {
+    "text_stroke": 5,
+    "text_edge": 2
+   },
+   "minsp": 5.9
+  },
+  "ta": {
+   "struct": 7,
+   "small": 14,
+   "margin": 0,
+   "kinds": {
+    "text_stroke": 5,
+    "text_edge": 2
+   },
+   "minsp": 3.5
+  },
+  "v_en": "major",
+  "v_ta": "major",
+  "note": "stack labels overlap each other and layers"
+ },
+ {
+  "id": "crispr_gene_editing_app-d01",
+  "en": {
+   "struct": 0,
+   "small": 12,
+   "margin": 1,
+   "kinds": {},
+   "minsp": 4.6
+  },
+  "ta": {
+   "struct": 0,
+   "small": 12,
+   "margin": 2,
+   "kinds": {},
+   "minsp": 2.8
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": ""
+ },
+ {
+  "id": "crispr_gene_editing_app-d02",
+  "en": {
+   "struct": 0,
+   "small": 18,
+   "margin": 4,
+   "kinds": {},
+   "minsp": 4
+  },
+  "ta": {
+   "struct": 0,
+   "small": 18,
+   "margin": 4,
+   "kinds": {},
+   "minsp": 2.4
+  },
+  "v_en": "ok",
+  "v_ta": "minor",
+  "note": "TA last box at right edge"
+ },
+ {
+  "id": "dna_library_genomic_cdna-d01",
+  "en": {
+   "struct": 0,
+   "small": 25,
+   "margin": 5,
+   "kinds": {},
+   "minsp": 5.2
+  },
+  "ta": {
+   "struct": 0,
+   "small": 25,
+   "margin": 5,
+   "kinds": {},
+   "minsp": 3.1
+  },
+  "v_en": "moderate",
+  "v_ta": "moderate",
+  "note": "arrows run through step titles"
+ },
+ {
+  "id": "dna_library_genomic_cdna-d02",
+  "en": {
+   "struct": 5,
+   "small": 34,
+   "margin": 12,
+   "kinds": {
+    "text_stroke": 5
+   },
+   "minsp": 5.3
+  },
+  "ta": {
+   "struct": 5,
+   "small": 34,
+   "margin": 13,
+   "kinds": {
+    "text_stroke": 5
+   },
+   "minsp": 3.5
+  },
+  "v_en": "major",
+  "v_ta": "major",
+  "note": "arrows through titles; mRNA/cDNA labels cut at left edge"
+ },
+ {
+  "id": "dna_library_genomic_cdna-d03",
+  "en": {
+   "struct": 3,
+   "small": 9,
+   "margin": 1,
+   "kinds": {
+    "text_stroke": 3
+   },
+   "minsp": 5.8
+  },
+  "ta": {
+   "struct": 4,
+   "small": 9,
+   "margin": 1,
+   "kinds": {
+    "text_stroke": 4
+   },
+   "minsp": 3.5
+  },
+  "v_en": "moderate",
+  "v_ta": "moderate",
+  "note": "arrow runs over the Lysis + Extraction label"
+ },
+ {
+  "id": "dna_library_genomic_cdna-d04",
+  "en": {
+   "struct": 8,
+   "small": 9,
+   "margin": 3,
+   "kinds": {
+    "outside": 2,
+    "text_text": 2,
+    "text_stroke": 2,
+    "text_edge": 2
+   },
+   "minsp": 7.2
+  },
+  "ta": {
+   "struct": 7,
+   "small": 9,
+   "margin": 4,
+   "kinds": {
+    "outside": 1,
+    "text_text": 2,
+    "text_stroke": 2,
+    "text_edge": 2
+   },
+   "minsp": 4.1
+  },
+  "v_en": "major",
+  "v_ta": "major",
+  "note": "caption text cut at the right edge (incomplete sentence); ticks through poly-A text"
+ },
+ {
+  "id": "dna_library_genomic_cdna-d05",
+  "en": {
+   "struct": 10,
+   "small": 12,
+   "margin": 5,
+   "kinds": {
+    "text_text": 1,
+    "text_stroke": 4,
+    "text_edge": 2,
+    "covered": 1,
+    "shape_overlap": 2
+   },
+   "minsp": 6.8
+  },
+  "ta": {
+   "struct": 10,
+   "small": 12,
+   "margin": 5,
+   "kinds": {
+    "text_text": 1,
+    "text_stroke": 4,
+    "text_edge": 2,
+    "covered": 1,
+    "shape_overlap": 2
+   },
+   "minsp": 5.4
+  },
+  "v_en": "moderate",
+  "v_ta": "moderate",
+  "note": "tick marks cross AAAA; RT box overlaps strands"
+ },
+ {
+  "id": "dna_library_genomic_cdna-d06",
+  "en": {
+   "struct": 3,
+   "small": 7,
+   "margin": 2,
+   "kinds": {
+    "text_text": 1,
+    "text_stroke": 1,
+    "text_edge": 1
+   },
+   "minsp": 6.8
+  },
+  "ta": {
+   "struct": 3,
+   "small": 7,
+   "margin": 2,
+   "kinds": {
+    "text_text": 1,
+    "text_stroke": 1,
+    "text_edge": 1
+   },
+   "minsp": 5.4
+  },
+  "v_en": "minor",
+  "v_ta": "minor",
+  "note": "RNase H label on scissors"
+ },
+ {
+  "id": "dna_library_genomic_cdna-d07",
+  "en": {
+   "struct": 15,
+   "small": 11,
+   "margin": 4,
+   "kinds": {
+    "text_text": 1,
+    "text_stroke": 7,
+    "text_edge": 4,
+    "covered": 1,
+    "shape_overlap": 2
+   },
+   "minsp": 6.5
+  },
+  "ta": {
+   "struct": 15,
+   "small": 11,
+   "margin": 4,
+   "kinds": {
+    "text_text": 1,
+    "text_stroke": 7,
+    "text_edge": 4,
+    "covered": 1,
+    "shape_overlap": 2
+   },
+   "minsp": 5
+  },
+  "v_en": "moderate",
+  "v_ta": "moderate",
+  "note": "tick row runs through the DNA Pol I box; ticks stop part-way"
+ },
+ {
+  "id": "dna_library_genomic_cdna-d08",
+  "en": {
+   "struct": 0,
+   "small": 11,
+   "margin": 2,
+   "kinds": {},
+   "minsp": 6.5
+  },
+  "ta": {
+   "struct": 0,
+   "small": 11,
+   "margin": 2,
+   "kinds": {},
+   "minsp": 3.9
+  },
+  "v_en": "moderate",
+  "v_ta": "moderate",
+  "note": "L/R linker boxes clipped at both edges"
+ },
+ {
+  "id": "dna_library_genomic_cdna-d09",
+  "en": {
+   "struct": 0,
+   "small": 14,
+   "margin": 4,
+   "kinds": {},
+   "minsp": 6.4
+  },
+  "ta": {
+   "struct": 0,
+   "small": 14,
+   "margin": 4,
+   "kinds": {},
+   "minsp": 3.9
+  },
+  "v_en": "ok",
+  "v_ta": "minor",
+  "note": "fixed earlier"
+ },
+ {
+  "id": "gel_electrophoresis-d02",
+  "en": {
+   "struct": 1,
+   "small": 45,
+   "margin": 2,
+   "kinds": {
+    "text_edge": 1
+   },
+   "minsp": 5.3
+  },
+  "ta": {
+   "struct": 1,
+   "small": 45,
+   "margin": 2,
+   "kinds": {
+    "text_edge": 1
+   },
+   "minsp": 3.4
+  },
+  "v_en": "moderate",
+  "v_ta": "moderate",
+  "note": "legend overlaps the standard-curve; cathode label under a band"
+ },
+ {
+  "id": "gel_electrophoresis-d03",
+  "en": {
+   "struct": 1,
+   "small": 17,
+   "margin": 7,
+   "kinds": {
+    "text_edge": 1
+   },
+   "minsp": 5.3
+  },
+  "ta": {
+   "struct": 2,
+   "small": 17,
+   "margin": 7,
+   "kinds": {
+    "text_edge": 2
+   },
+   "minsp": 3.2
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": ""
+ },
+ {
+  "id": "gene_cloning_steps_selection-d01",
+  "en": {
+   "struct": 7,
+   "small": 33,
+   "margin": 12,
+   "kinds": {
+    "text_stroke": 4,
+    "covered": 1,
+    "stroke_cross": 2
+   },
+   "minsp": 5
+  },
+  "ta": {
+   "struct": 8,
+   "small": 33,
+   "margin": 12,
+   "kinds": {
+    "text_stroke": 4,
+    "covered": 2,
+    "stroke_cross": 2
+   },
+   "minsp": 3.4
+  },
+  "v_en": "major",
+  "v_ta": "major",
+  "note": "labels collide with plasmid/arrows; bottom caption clipped"
+ },
+ {
+  "id": "gene_cloning_steps_selection-d02",
+  "en": {
+   "struct": 5,
+   "small": 20,
+   "margin": 0,
+   "kinds": {
+    "text_text": 1,
+    "text_stroke": 2,
+    "covered": 1,
+    "stroke_cross": 1
+   },
+   "minsp": 5.1
+  },
+  "ta": {
+   "struct": 4,
+   "small": 20,
+   "margin": 0,
+   "kinds": {
+    "text_stroke": 2,
+    "covered": 1,
+    "stroke_cross": 1
+   },
+   "minsp": 3.5
+  },
+  "v_en": "moderate",
+  "v_ta": "moderate",
+  "note": "amp/MCS labels on the ring; lacZ caption cut at right"
+ },
+ {
+  "id": "gene_cloning_steps_selection-d03",
+  "en": {
+   "struct": 3,
+   "small": 15,
+   "margin": 1,
+   "kinds": {
+    "text_stroke": 3
+   },
+   "minsp": 5.7
+  },
+  "ta": {
+   "struct": 4,
+   "small": 15,
+   "margin": 2,
+   "kinds": {
+    "text_stroke": 3,
+    "covered": 1
+   },
+   "minsp": 3.4
+  },
+  "v_en": "moderate",
+  "v_ta": "moderate",
+  "note": "IPTG/X-gal captions cut or overlapped by boxes"
+ },
+ {
+  "id": "gene_cloning_steps_selection-d04",
+  "en": {
+   "struct": 4,
+   "small": 18,
+   "margin": 1,
+   "kinds": {
+    "text_stroke": 4
+   },
+   "minsp": 5.6
+  },
+  "ta": {
+   "struct": 7,
+   "small": 18,
+   "margin": 2,
+   "kinds": {
+    "text_stroke": 6,
+    "text_edge": 1
+   },
+   "minsp": 3.4
+  },
+  "v_en": "moderate",
+  "v_ta": "moderate",
+  "note": "captions over arrows; red slash through the enzyme label"
+ },
+ {
+  "id": "gene_therapy_app-d01",
+  "en": {
+   "struct": 8,
+   "small": 20,
+   "margin": 2,
+   "kinds": {
+    "text_stroke": 4,
+    "covered": 4
+   },
+   "minsp": 4.6
+  },
+  "ta": {
+   "struct": 8,
+   "small": 20,
+   "margin": 3,
+   "kinds": {
+    "text_stroke": 4,
+    "covered": 4
+   },
+   "minsp": 2.8
+  },
+  "v_en": "minor",
+  "v_ta": "minor",
+  "note": "dark canvas; arrows small"
+ },
+ {
+  "id": "gene_therapy_app-d02",
+  "en": {
+   "struct": 6,
+   "small": 16,
+   "margin": 2,
+   "kinds": {
+    "text_stroke": 3,
+    "covered": 3
+   },
+   "minsp": 4.6
+  },
+  "ta": {
+   "struct": 6,
+   "small": 16,
+   "margin": 2,
+   "kinds": {
+    "text_stroke": 3,
+    "covered": 3
+   },
+   "minsp": 2.9
+  },
+  "v_en": "minor",
+  "v_ta": "minor",
+  "note": ""
+ },
+ {
+  "id": "gene_therapy_app-d03",
+  "en": {
+   "struct": 0,
+   "small": 0,
+   "margin": 1,
+   "kinds": {},
+   "minsp": null
+  },
+  "ta": {
+   "struct": 0,
+   "small": 6,
+   "margin": 1,
+   "kinds": {},
+   "minsp": 7.6
+  },
+  "v_en": "minor",
+  "v_ta": "minor",
+  "note": "bottom patient icon cut at bottom edge; emoji glyphs; tall canvas"
+ },
+ {
+  "id": "gene_therapy_app-d04",
+  "en": {
+   "struct": 0,
+   "small": 0,
+   "margin": 2,
+   "kinds": {},
+   "minsp": null
+  },
+  "ta": {
+   "struct": 0,
+   "small": 6,
+   "margin": 3,
+   "kinds": {},
+   "minsp": 6.5
+  },
+  "v_en": "minor",
+  "v_ta": "minor",
+  "note": "emoji glyphs; final tick circle touches bottom edge"
+ },
+ {
+  "id": "gene_therapy_app-d05",
+  "en": {
+   "struct": 2,
+   "small": 15,
+   "margin": 3,
+   "kinds": {
+    "text_stroke": 2
+   },
+   "minsp": 4.6
+  },
+  "ta": {
+   "struct": 2,
+   "small": 15,
+   "margin": 3,
+   "kinds": {
+    "text_stroke": 2
+   },
+   "minsp": 2.8
+  },
+  "v_en": "major",
+  "v_ta": "major",
+  "note": "wide strip: text rendered ~4 sp, unreadable at 360 dp; needs vertical re-layout"
+ },
+ {
+  "id": "gene_transfer_methods_rdna_host_cells-d01",
+  "en": {
+   "struct": 9,
+   "small": 8,
+   "margin": 2,
+   "kinds": {
+    "text_stroke": 5,
+    "text_edge": 2,
+    "shape_overlap": 2
+   },
+   "minsp": 9.6
+  },
+  "ta": {
+   "struct": 10,
+   "small": 12,
+   "margin": 2,
+   "kinds": {
+    "text_stroke": 5,
+    "text_edge": 3,
+    "shape_overlap": 2
+   },
+   "minsp": 6.5
+  },
+  "v_en": "major",
+  "v_ta": "major",
+  "note": "'Antibiotic-resistant clone' overruns its ellipse; 'E. coli cell' collides with dashed ring; stray vertical rules at right"
+ },
+ {
+  "id": "gene_transfer_methods_rdna_host_cells-d02",
+  "en": {
+   "struct": 2,
+   "small": 3,
+   "margin": 2,
+   "kinds": {
+    "text_stroke": 2
+   },
+   "minsp": 10.2
+  },
+  "ta": {
+   "struct": 3,
+   "small": 10,
+   "margin": 2,
+   "kinds": {
+    "text_stroke": 3
+   },
+   "minsp": 6.8
+  },
+  "v_en": "moderate",
+  "v_ta": "moderate",
+  "note": "'precipitate on cell surface' collides with heading and dots; 'endocytosis' label crosses arrow"
+ },
+ {
+  "id": "gene_transfer_methods_rdna_host_cells-d03",
+  "en": {
+   "struct": 8,
+   "small": 5,
+   "margin": 1,
+   "kinds": {
+    "text_stroke": 7,
+    "text_edge": 1
+   },
+   "minsp": 10.8
+  },
+  "ta": {
+   "struct": 8,
+   "small": 12,
+   "margin": 1,
+   "kinds": {
+    "text_stroke": 6,
+    "text_edge": 2
+   },
+   "minsp": 6.5
+  },
+  "v_en": "major",
+  "v_ta": "major",
+  "note": "'Modified virus' text clipped by capsid ring and spokes; 'Receptor' and 'Nucleus' labels collide with the ring and arrow; 'nucleus; gene integrates' runs outside the cell/under heading; arrow crosses label"
+ },
+ {
+  "id": "gene_transfer_methods_rdna_host_cells-d05",
+  "en": {
+   "struct": 6,
+   "small": 6,
+   "margin": 5,
+   "kinds": {
+    "text_stroke": 3,
+    "text_edge": 2,
+    "shape_overlap": 1
+   },
+   "minsp": 8.4
+  },
+  "ta": {
+   "struct": 5,
+   "small": 11,
+   "margin": 5,
+   "kinds": {
+    "text_stroke": 2,
+    "text_edge": 2,
+    "shape_overlap": 1
+   },
+   "minsp": 5.8
+  },
+  "v_en": "major",
+  "v_ta": "major",
+  "note": "'DNA inside' circle overlaps footer caption 'Cell survives, DNA transfected'; 'pore' label overlaps DNA dot and arrow; footer at bottom edge"
+ },
+ {
+  "id": "gene_transfer_methods_rdna_host_cells-d06",
+  "en": {
+   "struct": 4,
+   "small": 8,
+   "margin": 1,
+   "kinds": {
+    "text_stroke": 2,
+    "shape_overlap": 2
+   },
+   "minsp": 8.4
+  },
+  "ta": {
+   "struct": 4,
+   "small": 12,
+   "margin": 1,
+   "kinds": {
+    "text_stroke": 2,
+    "shape_overlap": 2
+   },
+   "minsp": 6.5
+  },
+  "v_en": "moderate",
+  "v_ta": "moderate",
+  "note": "'Lipoplex' label sits on the ring beads; 'Fusion -> endosome escape' text overlaps the cell outline; DNA ring overlaps cell"
+ },
+ {
+  "id": "molecular_markers_app-d01",
+  "en": {
+   "struct": 1,
+   "small": 16,
+   "margin": 5,
+   "kinds": {
+    "text_stroke": 1
+   },
+   "minsp": 4
+  },
+  "ta": {
+   "struct": 1,
+   "small": 16,
+   "margin": 4,
+   "kinds": {
+    "text_stroke": 1
+   },
+   "minsp": 2.4
+  },
+  "v_en": "major",
+  "v_ta": "major",
+  "note": "wide 5-step strip: text ~4 sp, unreadable at 360 dp; caption tiny; needs vertical re-layout"
+ },
+ {
+  "id": "molecular_markers_app-d02",
+  "en": {
+   "struct": 0,
+   "small": 16,
+   "margin": 3,
+   "kinds": {},
+   "minsp": 4
+  },
+  "ta": {
+   "struct": 0,
+   "small": 16,
+   "margin": 3,
+   "kinds": {},
+   "minsp": 2.4
+  },
+  "v_en": "major",
+  "v_ta": "major",
+  "note": "wide 5-step strip: text ~4 sp, unreadable at 360 dp; needs vertical re-layout"
+ },
+ {
+  "id": "molecular_markers_app-d03",
+  "en": {
+   "struct": 0,
+   "small": 16,
+   "margin": 4,
+   "kinds": {},
+   "minsp": 4
+  },
+  "ta": {
+   "struct": 0,
+   "small": 16,
+   "margin": 4,
+   "kinds": {},
+   "minsp": 2.5
+  },
+  "v_en": "major",
+  "v_ta": "major",
+  "note": "wide 5-step strip: text ~4 sp, unreadable at 360 dp; needs vertical re-layout"
+ },
+ {
+  "id": "molecular_markers_app-d04",
+  "en": {
+   "struct": 0,
+   "small": 0,
+   "margin": 2,
+   "kinds": {},
+   "minsp": null
+  },
+  "ta": {
+   "struct": 0,
+   "small": 3,
+   "margin": 2,
+   "kinds": {},
+   "minsp": 7.7
+  },
+  "v_en": "ok",
+  "v_ta": "ok",
+  "note": "clean; arrow label near-touching Fragment B in EN only marginally"
+ },
+ {
+  "id": "molecular_markers_app-d05",
+  "en": {
+   "struct": 0,
+   "small": 0,
+   "margin": 1,
+   "kinds": {},
+   "minsp": null
+  },
+  "ta": {
+   "struct": 1,
+   "small": 8,
+   "margin": 1,
+   "kinds": {
+    "text_stroke": 1
+   },
+   "minsp": 8.1
+  },
+  "v_en": "minor",
+  "v_ta": "minor",
+  "note": "'absent' text touches bottom edge of Band 3 box; gel lanes distinguished by position only (ok)"
+ },
+ {
+  "id": "molecular_markers_app-d06",
+  "en": {
+   "struct": 0,
+   "small": 0,
+   "margin": 2,
+   "kinds": {},
+   "minsp": null
+  },
+  "ta": {
+   "struct": 0,
+   "small": 8,
+   "margin": 2,
+   "kinds": {},
+   "minsp": 7.5
+  },
+  "v_en": "ok",
+  "v_ta": "minor",
+  "note": "TA: mixed label sizes only; lanes labelled Ind1-3 so colour not sole cue"
+ },
+ {
+  "id": "pcr_principle_types_applications-d01",
+  "en": {
+   "struct": 4,
+   "small": 20,
+   "margin": 4,
+   "kinds": {
+    "text_stroke": 4
+   },
+   "minsp": 5.1
+  },
+  "ta": {
+   "struct": 5,
+   "small": 20,
+   "margin": 3,
+   "kinds": {
+    "text_stroke": 4,
+    "text_edge": 1
+   },
+   "minsp": 3.3
+  },
+  "v_en": "major",
+  "v_ta": "major",
+  "note": "text ~5 sp (20 small); 'Primers bind to template' sits on the curve; TA 'Time' axis label touches right edge, Tamil annotations unreadable"
+ },
+ {
+  "id": "pcr_principle_types_applications-d02",
+  "en": {
+   "struct": 0,
+   "small": 28,
+   "margin": 16,
+   "kinds": {},
+   "minsp": 5.3
+  },
+  "ta": {
+   "struct": 0,
+   "small": 28,
+   "margin": 12,
+   "kinds": {},
+   "minsp": 4
+  },
+  "v_en": "major",
+  "v_ta": "major",
+  "note": "text ~5 sp (28 small); landscape layout; TA right-hand bars/arrow run to the edge; red/blue bars rely on colour plus numbers (ok)"
+ },
+ {
+  "id": "protein_databases_app-d01",
+  "en": {
+   "struct": 0,
+   "small": 0,
+   "margin": 0,
+   "kinds": {},
+   "minsp": null
+  },
+  "ta": {
+   "struct": 0,
+   "small": 4,
+   "margin": 0,
+   "kinds": {},
+   "minsp": 8
+  },
+  "v_en": "ok",
+  "v_ta": "minor",
+  "note": "TA: one line in a larger fallback font (inconsistent size)"
+ },
+ {
+  "id": "protein_databases_app-d02",
+  "en": {
+   "struct": 0,
+   "small": 0,
+   "margin": 0,
+   "kinds": {},
+   "minsp": null
+  },
+  "ta": {
+   "struct": 0,
+   "small": 5,
+   "margin": 0,
+   "kinds": {},
+   "minsp": 7.6
+  },
+  "v_en": "ok",
+  "v_ta": "minor",
+  "note": "TA: one line in a larger fallback font; otherwise clean"
+ },
+ {
+  "id": "protein_databases_app-d03",
+  "en": {
+   "struct": 0,
+   "small": 16,
+   "margin": 4,
+   "kinds": {},
+   "minsp": 4
+  },
+  "ta": {
+   "struct": 0,
+   "small": 16,
+   "margin": 4,
+   "kinds": {},
+   "minsp": 2.4
+  },
+  "v_en": "major",
+  "v_ta": "major",
+  "note": "wide 5-step strip: text ~4 sp, unreadable at 360 dp; emoji icons"
+ },
+ {
+  "id": "protein_databases_app-d04",
+  "en": {
+   "struct": 1,
+   "small": 17,
+   "margin": 1,
+   "kinds": {
+    "text_stroke": 1
+   },
+   "minsp": 3.9
+  },
+  "ta": {
+   "struct": 0,
+   "small": 17,
+   "margin": 1,
+   "kinds": {},
+   "minsp": 2.3
+  },
+  "v_en": "major",
+  "v_ta": "major",
+  "note": "text ~4 sp (17 small); landscape layout; stray dashed arrow 'after review' tiny; needs vertical re-layout"
+ },
+ {
+  "id": "sanger_dna_sequencing-d01",
+  "en": {
+   "struct": 15,
+   "small": 39,
+   "margin": 4,
+   "kinds": {
+    "text_stroke": 13,
+    "covered": 2
+   },
+   "minsp": 5
+  },
+  "ta": {
+   "struct": 20,
+   "small": 39,
+   "margin": 4,
+   "kinds": {
+    "text_stroke": 17,
+    "text_edge": 2,
+    "covered": 1
+   },
+   "minsp": 3
+  },
+  "v_en": "severe",
+  "v_ta": "severe",
+  "note": "ddNTP/dNTP panels: labels overlap sugar pentagon and phosphate circles; 'free!' and '3'-OH' collide; central 'Critical Difference' box covers the bottom captions on both sides; text ~3 sp. Accuracy: needs re-check that ddNTP shows H (not OH) at 3'"
+ },
+ {
+  "id": "sanger_dna_sequencing-d02",
+  "en": {
+   "struct": 1,
+   "small": 37,
+   "margin": 12,
+   "kinds": {
+    "text_stroke": 1
+   },
+   "minsp": 5.7
+  },
+  "ta": {
+   "struct": 1,
+   "small": 37,
+   "margin": 12,
+   "kinds": {
+    "text_stroke": 1
+   },
+   "minsp": 3.6
+  },
+  "v_en": "minor",
+  "v_ta": "minor",
+  "note": "wide landscape: text ~4 sp (37 small); no collisions seen; layout clean but unreadable at 360 dp. Accuracy: template/primer/fragment labels consistent with ATGCAT..."
+ },
+ {
+  "id": "sanger_dna_sequencing-d03",
+  "en": {
+   "struct": 19,
+   "small": 33,
+   "margin": 5,
+   "kinds": {
+    "text_text": 1,
+    "text_stroke": 9,
+    "text_edge": 9
+   },
+   "minsp": 5.5
+  },
+  "ta": {
+   "struct": 18,
+   "small": 33,
+   "margin": 5,
+   "kinds": {
+    "text_stroke": 9,
+    "text_edge": 9
+   },
+   "minsp": 3.5
+  },
+  "v_en": "moderate",
+  "v_ta": "moderate",
+  "note": "faint low-contrast axis captions ('Read direction', '5'->3' sequence') beside gel; ~4 sp text; ACCURACY QUERY: chromatogram reads 5'-ATGCATCGA-3' but d02 template (3' TACGTAGCAT 5') predicts ATGCATCGTA - last base inconsistent across figures"
+ },
+ {
+  "id": "screening_selection_recombinants-d01",
+  "en": {
+   "struct": 5,
+   "small": 23,
+   "margin": 4,
+   "kinds": {
+    "text_text": 2,
+    "text_stroke": 2,
+    "text_edge": 1
+   },
+   "minsp": 4.1
+  },
+  "ta": {
+   "struct": 10,
+   "small": 23,
+   "margin": 4,
+   "kinds": {
+    "text_text": 1,
+    "text_stroke": 5,
+    "text_edge": 3,
+    "covered": 1
+   },
+   "minsp": 1.7
+  },
+  "v_en": "severe",
+  "v_ta": "severe",
+  "note": "text inside LB+Amp plate overlaps colonies and X marks; rDNA/vector/no-DNA circle labels overflow; captions ~4 sp; amp-r superscript glyph tiny/missing in legend"
+ },
+ {
+  "id": "screening_selection_recombinants-d02",
+  "en": {
+   "struct": 11,
+   "small": 49,
+   "margin": 3,
+   "kinds": {
+    "text_text": 1,
+    "text_stroke": 8,
+    "text_edge": 1,
+    "stroke_cross": 1
+   },
+   "minsp": 4.3
+  },
+  "ta": {
+   "struct": 9,
+   "small": 49,
+   "margin": 3,
+   "kinds": {
+    "text_text": 1,
+    "text_stroke": 6,
+    "text_edge": 1,
+    "stroke_cross": 1
+   },
+   "minsp": 2
+  },
+  "v_en": "severe",
+  "v_ta": "severe",
+  "note": "'ori Insert at BamHI site' and 'tet disrupted' labels overlap the plasmid rings and arrow; amp-r/tet-s superscripts render tiny; ~3 sp text; X marks give a non-colour cue on tet plate (good)"
+ },
+ {
+  "id": "screening_selection_recombinants-d03",
+  "en": {
+   "struct": 5,
+   "small": 38,
+   "margin": 3,
+   "kinds": {
+    "text_stroke": 5
+   },
+   "minsp": 4.8
+  },
+  "ta": {
+   "struct": 5,
+   "small": 38,
+   "margin": 3,
+   "kinds": {
+    "text_stroke": 5
+   },
+   "minsp": 3.2
+  },
+  "v_en": "major",
+  "v_ta": "major",
+  "note": "'lacZ-a', 'amp' and 'INSERT in MCS' labels collide with the plasmid rings; ~4 sp text; blue/white has text cues (BLUE/WHITE, pick/do-not-pick) so not colour-only. ACCURACY QUERY: product named '5-bromo-4-chloro-indigo' - the blue dimer is 5,5'-dibromo-4,4'-dichloro-indigo"
+ },
+ {
+  "id": "screening_selection_recombinants-d04",
+  "en": {
+   "struct": 6,
+   "small": 38,
+   "margin": 7,
+   "kinds": {
+    "text_text": 1,
+    "text_stroke": 4,
+    "text_edge": 1
+   },
+   "minsp": 4.8
+  },
+  "ta": {
+   "struct": 9,
+   "small": 38,
+   "margin": 9,
+   "kinds": {
+    "text_stroke": 6,
+    "text_edge": 2,
+    "covered": 1
+   },
+   "minsp": 2.4
+  },
+  "v_en": "severe",
+  "v_ta": "severe",
+  "note": "'NaOH lysis / denature' and 'probe added / labelled' labels overlap arrows and box edges; key-elements panel ~4 sp; TA panel text unreadable"
+ },
+ {
+  "id": "transgenic_animal_technology-d01",
+  "en": {
+   "struct": 1,
+   "small": 8,
+   "margin": 0,
+   "kinds": {
+    "text_stroke": 1
+   },
+   "minsp": 6.3
+  },
+  "ta": {
+   "struct": 4,
+   "small": 8,
+   "margin": 0,
+   "kinds": {
+    "text_stroke": 4
+   },
+   "minsp": 3.8
+  },
+  "v_en": "minor",
+  "v_ta": "minor",
+  "note": "thin wide strip, ~6 sp; no collisions; Tamil fits"
+ },
+ {
+  "id": "transgenic_animal_technology-d02",
+  "en": {
+   "struct": 0,
+   "small": 17,
+   "margin": 5,
+   "kinds": {},
+   "minsp": 6.1
+  },
+  "ta": {
+   "struct": 0,
+   "small": 17,
+   "margin": 5,
+   "kinds": {},
+   "minsp": 3.7
+  },
+  "v_en": "moderate",
+  "v_ta": "moderate",
+  "note": "zig-zag flow with ~5 sp text; 'inter-cross' label on connector very small; no collisions. Accuracy caption consistent (neo inside, tk outside; G418+ganciclovir; 25% of F2 homozygous)"
+ },
+ {
+  "id": "transgenic_animal_technology-d03",
+  "en": {
+   "struct": 0,
+   "small": 14,
+   "margin": 2,
+   "kinds": {},
+   "minsp": 5.9
+  },
+  "ta": {
+   "struct": 0,
+   "small": 14,
+   "margin": 2,
+   "kinds": {},
+   "minsp": 3.5
+  },
+  "v_en": "minor",
+  "v_ta": "minor",
+  "note": "~6 sp text (14 small); clean, no collisions"
+ },
+ {
+  "id": "vectors_genetic_engineering-d02",
+  "en": {
+   "struct": 5,
+   "small": 22,
+   "margin": 6,
+   "kinds": {
+    "text_stroke": 3,
+    "stroke_cross": 2
+   },
+   "minsp": 6.1
+  },
+  "ta": {
+   "struct": 4,
+   "small": 22,
+   "margin": 6,
+   "kinds": {
+    "text_stroke": 2,
+    "stroke_cross": 2
+   },
+   "minsp": 3.3
+  },
+  "v_en": "moderate",
+  "v_ta": "major",
+  "note": "curved 'onc genes (tumour formation)' text lies on the ring; 'Left Border (LB)' marker collides with ring; inner dark ring and outer teal arc visibly offset (reads as a doubled ring); Tamil text ~4 sp. Accuracy: T-DNA flanked by LB/RB, vir region outside - consistent"
+ },
+ {
+  "id": "vectors_genetic_engineering-d03",
+  "en": {
+   "struct": 4,
+   "small": 23,
+   "margin": 5,
+   "kinds": {
+    "text_stroke": 4
+   },
+   "minsp": 6.2
+  },
+  "ta": {
+   "struct": 9,
+   "small": 23,
+   "margin": 6,
+   "kinds": {
+    "text_stroke": 6,
+    "text_edge": 3
+   },
+   "minsp": 3.7
+  },
+  "v_en": "moderate",
+  "v_ta": "major",
+  "note": "EN: small captions; TA: 'Non-essential' and 'Lysogeny & Reg. Genes' strings overflow their segments; ~5 sp text. Accuracy: 48.5 kb, cos sites, 22-38 kb replaceable - consistent"
+ },
+ {
+  "id": "vectors_genetic_engineering-d04",
+  "en": {
+   "struct": 24,
+   "small": 24,
+   "margin": 8,
+   "kinds": {
+    "text_stroke": 16,
+    "text_edge": 5,
+    "shape_overlap": 2,
+    "stroke_cross": 1
+   },
+   "minsp": 5.1
+  },
+  "ta": {
+   "struct": 25,
+   "small": 24,
+   "margin": 8,
+   "kinds": {
+    "text_stroke": 17,
+    "text_edge": 5,
+    "shape_overlap": 2,
+    "stroke_cross": 1
+   },
+   "minsp": 3.2
+  },
+  "v_en": "severe",
+  "v_ta": "severe",
+  "note": "'Major coat protein', 'ssDNA genome', 'Gene VIII' labels run into the virion capsule and leaders; offset double ring; rotated '~900 nm length' overlaps; 25 structural defects in TA. Accuracy: 6,407 nt, pVIII ~2700 copies, 6 nm width consistent"
+ }
+]

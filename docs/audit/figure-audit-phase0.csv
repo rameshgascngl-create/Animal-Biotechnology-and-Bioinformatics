@@ -1,0 +1,146 @@
+id,visual_EN,visual_TA,EN_struct,EN_small_text,EN_min_sp,EN_margin,TA_struct,TA_small_text,TA_min_sp,TA_margin,note
+advanced_vectors_cosmid_yac_sv40_transposons-d01,ok,minor,0,21,5.6,7,1,21,3.7,7,TA: label lines overlap at amp-r; mixed font sizes
+advanced_vectors_cosmid_yac_sv40_transposons-d02,minor,minor,6,26,5.4,2,4,26,3,2,EN: arm caption runs into URA3 caption
+advanced_vectors_cosmid_yac_sv40_transposons-d03,major,major,10,22,6,5,11,22,3.6,5,"SV40: rings overlap, labels collide with rings and each other"
+advanced_vectors_cosmid_yac_sv40_transposons-d04,moderate,moderate,13,30,5.1,9,15,30,3.1,9,TSD/TIR captions collide; step text on arrows
+animal_cell_culture-d01,minor,minor,4,14,4.6,0,8,14,2.8,0,dark canvas; labels cross outlines
+animal_cell_culture-d02,minor,minor,6,18,4.8,0,5,18,2.9,0,Inverted Microscope label on the shape
+animal_cell_culture-d03,ok,ok,0,21,4.9,0,4,21,2.9,1,dark canvas
+animal_cell_culture-d04,minor,moderate,2,12,4.2,1,3,12,2.8,1,Crisis/Immortalization label runs into box; TA cut by box
+animal_cell_culture-d05,minor,minor,3,9,5.4,2,3,9,3.2,2,labels cross triangle edges
+animal_cell_culture-d06,minor,major,8,5,5.6,1,8,5,3.4,1,TA right-edge labels clipped
+animal_cell_culture-d07,major,major,9,19,4.8,1,9,19,2.9,1,right-hand panel cut off at the right edge
+atlas1_fundamentals_vectors-d01,ok,moderate,1,12,6.8,0,2,12,4,0,TA word overflows the circle
+atlas1_fundamentals_vectors-d02,ok,minor,0,17,6.9,4,0,17,4.2,4,TA mixed sizes and untranslated fragments
+atlas1_fundamentals_vectors-d03,ok,minor,0,64,6.3,2,0,64,3.9,2,TA caption mixed sizes
+atlas1_fundamentals_vectors-d04,ok,minor,0,18,7.9,4,0,18,4.7,4,TA mixed sizes
+atlas1_fundamentals_vectors-d05,ok,ok,0,13,6.7,0,0,13,6.7,0,
+atlas1_fundamentals_vectors-d06,minor,minor,0,8,6.7,0,2,8,4.6,0,labels sit on the ring
+atlas1_fundamentals_vectors-d07,ok,minor,1,16,5.9,0,1,16,3.5,0,TA box touches right edge
+atlas1_fundamentals_vectors-d08,ok,ok,0,13,5.8,3,0,13,3.6,3,
+atlas1_fundamentals_vectors-d09,ok,ok,0,13,6.4,3,0,13,4,3,
+atlas1_fundamentals_vectors-d10,minor,minor,4,17,6.8,0,4,17,5.7,0,value labels over gridlines
+atlas1_fundamentals_vectors-d11,ok,ok,0,13,6.6,3,0,13,4,3,
+atlas1_fundamentals_vectors-d12,ok,ok,0,14,5.9,2,0,14,3.9,2,
+atlas1_fundamentals_vectors-d13,ok,ok,0,7,6.7,0,0,7,4,0,
+atlas1_fundamentals_vectors-d14,ok,ok,0,11,6.4,3,0,11,3.9,3,
+atlas1_fundamentals_vectors-d15,ok,ok,0,8,6.4,6,0,8,4.4,6,
+atlas2_techniques-d01,ok,minor,0,16,5.2,5,1,16,3.2,5,TA cramped
+atlas2_techniques-d02,ok,moderate,0,12,6.3,6,1,12,3.8,7,TA text overflows card edges
+atlas2_techniques-d03,minor,moderate,2,24,4.3,2,3,24,3.4,0,text in interpretation box clipped at box edge (TA worse); blue/white colour cue only? no - numbered
+atlas2_techniques-d04,ok,minor,0,18,6.2,2,0,18,4.2,2,blue/white colony is colour-only cue
+atlas2_techniques-d05,ok,minor,0,16,6.4,4,0,16,3.9,6,
+atlas2_techniques-d06,ok,minor,0,10,6,3,0,10,3.6,3,
+atlas2_techniques-d07,ok,ok,0,21,5.3,0,0,21,3.2,0,
+atlas2_techniques-d08,minor,minor,0,10,6.3,4,0,10,3.8,4,step labels sit on the line
+atlas2_techniques-d09,ok,minor,0,18,4.4,2,0,18,3.1,2,
+atlas3_transgenic_medical-d01,ok,minor,0,15,6.1,1,0,15,3.7,2,
+atlas3_transgenic_medical-d02,moderate,major,7,20,3.9,9,7,20,2,10,4th column text cut at right edge (TA)
+atlas3_transgenic_medical-d03,ok,minor,1,16,7,3,1,16,4.2,3,TA label crosses red connector
+atlas3_transgenic_medical-d04,ok,minor,0,17,5.8,4,0,17,3.5,6,
+atlas3_transgenic_medical-d05,moderate,major,7,23,4.2,12,7,23,2.4,12,4th column cut at right edge
+atlas3_transgenic_medical-d06,minor,minor,4,13,4.7,3,4,13,2.8,3,text touches box edges
+atlas3_transgenic_medical-d07,ok,ok,0,19,4.9,4,0,19,3.3,5,
+atlas3_transgenic_medical-d08,ok,ok,0,11,5.5,1,0,11,3.4,0,
+atlas3_transgenic_medical-d09,ok,ok,0,9,6.2,3,0,9,4.2,3,
+atlas3_transgenic_medical-d10,minor,ok,1,11,4.5,2,1,11,2.7,3,EN text touches box edge
+atlas3_transgenic_medical-d11,ok,ok,0,12,4.9,3,0,12,2.9,3,
+atlas3_transgenic_medical-d12,ok,minor,0,17,6.4,4,0,17,3.9,4,
+atlas3_transgenic_medical-d13,ok,ok,0,55,6.2,1,0,55,4,1,ACCURACY QUERY: guide RNA drawn pairing with the PAM-bearing strand
+atlas3_transgenic_medical-d14,ok,ok,0,13,6.4,3,0,13,3.9,3,
+atlas3_transgenic_medical-d15,ok,minor,0,11,6.4,3,0,11,3.9,4,
+atlas3_transgenic_medical-d16,ok,ok,0,6,5.7,2,0,6,3.7,3,6 sp text
+atlas3_transgenic_medical-d17,ok,ok,0,10,5.2,0,0,10,3.1,0,
+atlas4_culture_society-d01,ok,minor,0,16,4.7,7,0,16,2.8,7,
+atlas4_culture_society-d02,moderate,major,13,19,6.2,1,14,19,3.7,1,spoke lines cut through the centre label; TA label clipped
+atlas4_culture_society-d03,ok,minor,0,11,6.5,1,0,11,3.9,2,
+atlas4_culture_society-d04,ok,minor,0,15,5.6,1,0,15,3.3,1,
+atlas4_culture_society-d05,ok,ok,0,18,5.9,3,0,18,4,3,
+atlas4_culture_society-d06,ok,minor,0,13,6.4,3,0,13,3.9,4,
+atlas4_culture_society-d07,ok,ok,0,15,5.9,2,0,15,3.8,2,
+atlas4_culture_society-d08,ok,ok,0,10,7.3,5,0,10,4.4,5,
+atlas4_culture_society-d09,ok,ok,0,8,6,2,0,8,3.6,3,
+atlas4_culture_society-d10,ok,ok,0,8,6.1,7,0,8,4.2,7,
+atlas4_culture_society-d11,minor,minor,2,16,4.5,5,3,16,2.8,5,text touches box edge
+atlas4_culture_society-d12,ok,ok,0,10,5.9,2,0,10,3.5,2,
+atlas4_culture_society-d13,ok,major,0,9,5.2,3,3,9,2.4,3,"TA text overflows boxes (2nd, 4th)"
+atlas4_culture_society-d14,minor,major,1,8,4.7,3,4,8,2.8,4,TA text overflows boxes
+atlas4_culture_society-d15,ok,ok,0,15,4.9,5,0,15,2.9,6,
+atlas4_culture_society-d16,minor,moderate,5,18,4.4,6,4,18,2.9,7,4th-box text overflows
+atlas4_culture_society-d17,minor,major,5,15,4.2,7,5,15,2.7,7,TA 4th-column text cut at right edge
+atlas5_bioinformatics-d01,ok,ok,0,20,5.9,14,0,20,3.8,14,
+atlas5_bioinformatics-d02,ok,ok,0,23,5.9,17,0,23,3.5,17,
+atlas5_bioinformatics-d03,ok,ok,0,6,6.8,2,0,6,4,3,6 sp text
+atlas5_bioinformatics-d04,ok,ok,0,31,5.9,2,0,31,3.5,2,
+atlas5_bioinformatics-d05,ok,ok,0,87,5.9,1,0,87,3.5,1,87 small-text flags: matrix numbers
+atlas5_bioinformatics-d06,ok,major,0,18,4.9,5,4,18,2.9,6,TA 4th-box text overflows box
+atlas5_bioinformatics-d07,ok,ok,0,10,6.1,1,0,10,4.2,0,
+atlas5_bioinformatics-d08,ok,ok,0,113,5.9,2,0,113,3.5,1,
+atlas5_bioinformatics-d09,ok,ok,0,11,6.4,3,0,11,3.9,3,
+atlas5_bioinformatics-d10,ok,ok,0,7,5.9,1,0,7,3.5,1,ACCURACY QUERY: shark drawn as sister of lamprey (jawless) rather than of the bony vertebrates
+atlas5_bioinformatics-d11,ok,minor,0,16,4.9,3,0,16,2.9,3,
+atlas5_bioinformatics-d12,ok,ok,0,12,6.8,7,0,12,4.9,7,
+atlas5_bioinformatics-d13,ok,ok,0,12,6.4,4,0,12,3.9,4,
+atlas5_bioinformatics-d14,ok,ok,0,12,6.4,4,0,12,3.9,4,
+atlas5_bioinformatics-d15,ok,ok,0,10,6.4,4,0,10,3.9,4,
+bioinformatics_databases_app-d01,ok,ok,0,16,4.1,5,0,16,2.6,5,dark canvas
+bioinformatics_databases_app-d02,minor,minor,1,17,4.1,1,1,17,2.6,1,tiny text
+bioinformatics_databases_app-d03,moderate,moderate,2,16,4,4,1,16,2.4,5,last box text overflows right edge; emoji icons
+blotting_techniques-d01,major,major,7,14,5.9,0,7,14,3.5,0,stack labels overlap each other and layers
+crispr_gene_editing_app-d01,ok,ok,0,12,4.6,1,0,12,2.8,2,
+crispr_gene_editing_app-d02,ok,minor,0,18,4,4,0,18,2.4,4,TA last box at right edge
+dna_library_genomic_cdna-d01,moderate,moderate,0,25,5.2,5,0,25,3.1,5,arrows run through step titles
+dna_library_genomic_cdna-d02,major,major,5,34,5.3,12,5,34,3.5,13,arrows through titles; mRNA/cDNA labels cut at left edge
+dna_library_genomic_cdna-d03,moderate,moderate,3,9,5.8,1,4,9,3.5,1,arrow runs over the Lysis + Extraction label
+dna_library_genomic_cdna-d04,major,major,8,9,7.2,3,7,9,4.1,4,caption text cut at the right edge (incomplete sentence); ticks through poly-A text
+dna_library_genomic_cdna-d05,moderate,moderate,10,12,6.8,5,10,12,5.4,5,tick marks cross AAAA; RT box overlaps strands
+dna_library_genomic_cdna-d06,minor,minor,3,7,6.8,2,3,7,5.4,2,RNase H label on scissors
+dna_library_genomic_cdna-d07,moderate,moderate,15,11,6.5,4,15,11,5,4,tick row runs through the DNA Pol I box; ticks stop part-way
+dna_library_genomic_cdna-d08,moderate,moderate,0,11,6.5,2,0,11,3.9,2,L/R linker boxes clipped at both edges
+dna_library_genomic_cdna-d09,ok,minor,0,14,6.4,4,0,14,3.9,4,fixed earlier
+gel_electrophoresis-d02,moderate,moderate,1,45,5.3,2,1,45,3.4,2,legend overlaps the standard-curve; cathode label under a band
+gel_electrophoresis-d03,ok,ok,1,17,5.3,7,2,17,3.2,7,
+gene_cloning_steps_selection-d01,major,major,7,33,5,12,8,33,3.4,12,labels collide with plasmid/arrows; bottom caption clipped
+gene_cloning_steps_selection-d02,moderate,moderate,5,20,5.1,0,4,20,3.5,0,amp/MCS labels on the ring; lacZ caption cut at right
+gene_cloning_steps_selection-d03,moderate,moderate,3,15,5.7,1,4,15,3.4,2,IPTG/X-gal captions cut or overlapped by boxes
+gene_cloning_steps_selection-d04,moderate,moderate,4,18,5.6,1,7,18,3.4,2,captions over arrows; red slash through the enzyme label
+gene_therapy_app-d01,minor,minor,8,20,4.6,2,8,20,2.8,3,dark canvas; arrows small
+gene_therapy_app-d02,minor,minor,6,16,4.6,2,6,16,2.9,2,
+gene_therapy_app-d03,minor,minor,0,0,,1,0,6,7.6,1,bottom patient icon cut at bottom edge; emoji glyphs; tall canvas
+gene_therapy_app-d04,minor,minor,0,0,,2,0,6,6.5,3,emoji glyphs; final tick circle touches bottom edge
+gene_therapy_app-d05,major,major,2,15,4.6,3,2,15,2.8,3,"wide strip: text rendered ~4 sp, unreadable at 360 dp; needs vertical re-layout"
+gene_transfer_methods_rdna_host_cells-d01,major,major,9,8,9.6,2,10,12,6.5,2,'Antibiotic-resistant clone' overruns its ellipse; 'E. coli cell' collides with dashed ring; stray vertical rules at right
+gene_transfer_methods_rdna_host_cells-d02,moderate,moderate,2,3,10.2,2,3,10,6.8,2,'precipitate on cell surface' collides with heading and dots; 'endocytosis' label crosses arrow
+gene_transfer_methods_rdna_host_cells-d03,major,major,8,5,10.8,1,8,12,6.5,1,'Modified virus' text clipped by capsid ring and spokes; 'Receptor' and 'Nucleus' labels collide with the ring and arrow; 'nucleus; gene integrates' runs outside the cell/under heading; arrow crosses label
+gene_transfer_methods_rdna_host_cells-d05,major,major,6,6,8.4,5,5,11,5.8,5,"'DNA inside' circle overlaps footer caption 'Cell survives, DNA transfected'; 'pore' label overlaps DNA dot and arrow; footer at bottom edge"
+gene_transfer_methods_rdna_host_cells-d06,moderate,moderate,4,8,8.4,1,4,12,6.5,1,'Lipoplex' label sits on the ring beads; 'Fusion -> endosome escape' text overlaps the cell outline; DNA ring overlaps cell
+molecular_markers_app-d01,major,major,1,16,4,5,1,16,2.4,4,"wide 5-step strip: text ~4 sp, unreadable at 360 dp; caption tiny; needs vertical re-layout"
+molecular_markers_app-d02,major,major,0,16,4,3,0,16,2.4,3,"wide 5-step strip: text ~4 sp, unreadable at 360 dp; needs vertical re-layout"
+molecular_markers_app-d03,major,major,0,16,4,4,0,16,2.5,4,"wide 5-step strip: text ~4 sp, unreadable at 360 dp; needs vertical re-layout"
+molecular_markers_app-d04,ok,ok,0,0,,2,0,3,7.7,2,clean; arrow label near-touching Fragment B in EN only marginally
+molecular_markers_app-d05,minor,minor,0,0,,1,1,8,8.1,1,'absent' text touches bottom edge of Band 3 box; gel lanes distinguished by position only (ok)
+molecular_markers_app-d06,ok,minor,0,0,,2,0,8,7.5,2,TA: mixed label sizes only; lanes labelled Ind1-3 so colour not sole cue
+pcr_principle_types_applications-d01,major,major,4,20,5.1,4,5,20,3.3,3,"text ~5 sp (20 small); 'Primers bind to template' sits on the curve; TA 'Time' axis label touches right edge, Tamil annotations unreadable"
+pcr_principle_types_applications-d02,major,major,0,28,5.3,16,0,28,4,12,text ~5 sp (28 small); landscape layout; TA right-hand bars/arrow run to the edge; red/blue bars rely on colour plus numbers (ok)
+protein_databases_app-d01,ok,minor,0,0,,0,0,4,8,0,TA: one line in a larger fallback font (inconsistent size)
+protein_databases_app-d02,ok,minor,0,0,,0,0,5,7.6,0,TA: one line in a larger fallback font; otherwise clean
+protein_databases_app-d03,major,major,0,16,4,4,0,16,2.4,4,"wide 5-step strip: text ~4 sp, unreadable at 360 dp; emoji icons"
+protein_databases_app-d04,major,major,1,17,3.9,1,0,17,2.3,1,text ~4 sp (17 small); landscape layout; stray dashed arrow 'after review' tiny; needs vertical re-layout
+sanger_dna_sequencing-d01,severe,severe,15,39,5,4,20,39,3,4,ddNTP/dNTP panels: labels overlap sugar pentagon and phosphate circles; 'free!' and '3'-OH' collide; central 'Critical Difference' box covers the bottom captions on both sides; text ~3 sp. Accuracy: needs re-check that ddNTP shows H (not OH) at 3'
+sanger_dna_sequencing-d02,minor,minor,1,37,5.7,12,1,37,3.6,12,wide landscape: text ~4 sp (37 small); no collisions seen; layout clean but unreadable at 360 dp. Accuracy: template/primer/fragment labels consistent with ATGCAT...
+sanger_dna_sequencing-d03,moderate,moderate,19,33,5.5,5,18,33,3.5,5,"faint low-contrast axis captions ('Read direction', '5'->3' sequence') beside gel; ~4 sp text; ACCURACY QUERY: chromatogram reads 5'-ATGCATCGA-3' but d02 template (3' TACGTAGCAT 5') predicts ATGCATCGTA - last base inconsistent across figures"
+screening_selection_recombinants-d01,severe,severe,5,23,4.1,4,10,23,1.7,4,text inside LB+Amp plate overlaps colonies and X marks; rDNA/vector/no-DNA circle labels overflow; captions ~4 sp; amp-r superscript glyph tiny/missing in legend
+screening_selection_recombinants-d02,severe,severe,11,49,4.3,3,9,49,2,3,'ori Insert at BamHI site' and 'tet disrupted' labels overlap the plasmid rings and arrow; amp-r/tet-s superscripts render tiny; ~3 sp text; X marks give a non-colour cue on tet plate (good)
+screening_selection_recombinants-d03,major,major,5,38,4.8,3,5,38,3.2,3,"'lacZ-a', 'amp' and 'INSERT in MCS' labels collide with the plasmid rings; ~4 sp text; blue/white has text cues (BLUE/WHITE, pick/do-not-pick) so not colour-only. ACCURACY QUERY: product named '5-bromo-4-chloro-indigo' - the blue dimer is 5,5'-dibromo-4,4'-dichloro-indigo"
+screening_selection_recombinants-d04,severe,severe,6,38,4.8,7,9,38,2.4,9,'NaOH lysis / denature' and 'probe added / labelled' labels overlap arrows and box edges; key-elements panel ~4 sp; TA panel text unreadable
+transgenic_animal_technology-d01,minor,minor,1,8,6.3,0,4,8,3.8,0,"thin wide strip, ~6 sp; no collisions; Tamil fits"
+transgenic_animal_technology-d02,moderate,moderate,0,17,6.1,5,0,17,3.7,5,"zig-zag flow with ~5 sp text; 'inter-cross' label on connector very small; no collisions. Accuracy caption consistent (neo inside, tk outside; G418+ganciclovir; 25% of F2 homozygous)"
+transgenic_animal_technology-d03,minor,minor,0,14,5.9,2,0,14,3.5,2,"~6 sp text (14 small); clean, no collisions"
+vectors_genetic_engineering-d02,moderate,major,5,22,6.1,6,4,22,3.3,6,"curved 'onc genes (tumour formation)' text lies on the ring; 'Left Border (LB)' marker collides with ring; inner dark ring and outer teal arc visibly offset (reads as a doubled ring); Tamil text ~4 sp. Accuracy: T-DNA flanked by LB/RB, vir region outside - consistent"
+vectors_genetic_engineering-d03,moderate,major,4,23,6.2,5,9,23,3.7,6,"EN: small captions; TA: 'Non-essential' and 'Lysogeny & Reg. Genes' strings overflow their segments; ~5 sp text. Accuracy: 48.5 kb, cos sites, 22-38 kb replaceable - consistent"
+vectors_genetic_engineering-d04,severe,severe,24,24,5.1,8,25,24,3.2,8,"'Major coat protein', 'ssDNA genome', 'Gene VIII' labels run into the virion capsule and leaders; offset double ring; rotated '~900 nm length' overlaps; 25 structural defects in TA. Accuracy: 6,407 nt, pVIII ~2700 copies, 6 nm width consistent"
+gel_electrophoresis-d01,ok,ok,,,,,,,,,"hand art, no baked text: nothing to overflow; polarity correct (DNA runs to red/anode, wells at cathode end); carries no labels itself - explanation must come from the reader text. Same image in EN and TA"
+gene_cloning_steps_selection-d05,ok,ok,,,,,,,,,hand art plate: blue vs white colonies with one white ringed by a dashed red circle (non-colour cue present but unlabelled). No text in image. NOT the defective figure the shortlist assumed - #10 is not a fix
+vectors_genetic_engineering-d01,minor,minor,,,,,,,,,"hand art plasmid ring: coloured arcs and yellow pins are unlabelled in the image, so the figure is uninterpretable without the surrounding text; colour-only coding"
+hybridoma_monoclonal_antibodies-d01,ok,ok,,,,,,,,,"hand art IgG: heavy chains blue, light chains red, hinge yellow, antigen green; unlabelled; red light chains drawn as detached side rods, simplified"
+gene_transfer_methods_rdna_host_cells-d04,ok,ok,,,,,,,,,"hand art pronuclear microinjection: holding pipette, injection needle, DNA entering the larger (male) pronucleus; unlabelled but accurate"
