@@ -1,5 +1,6 @@
 package com.gasczoology.animalbiotech
 
+import com.gasczoology.animalbiotech.i18n.tr
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -47,6 +48,7 @@ fun ReviseTab(
     onFlash: () -> Unit,
     onSearch: () -> Unit,
     ready: Int,
+    lang: com.gasczoology.animalbiotech.i18n.Lang = com.gasczoology.animalbiotech.i18n.Lang.EN,
 ) {
     val terms = sets.sumOf { it.glossary.size }
     LazyColumn(
@@ -55,17 +57,17 @@ fun ReviseTab(
         verticalArrangement = Arrangement.spacedBy(8.dp),
     ) {
         item(key = "fc") {
-            QuizRow("Flashcards", if (ready > 0) "$ready cards ready today (spaced repetition)" else "Nothing due today", null, onFlash)
+            QuizRow(tr(lang, "Flashcards", "நினைவட்டைகள்"), if (ready > 0) tr(lang, "$ready cards ready today (spaced repetition)", "இன்று $ready அட்டைகள் தயார் (இடைவெளி மீள்பார்வை)") else tr(lang, "Nothing due today", "இன்று எதுவும் இல்லை"), null, onFlash)
         }
         item(key = "se") {
-            QuizRow("Search all content", "Topics, sections, key points, answers and terms", null, onSearch)
+            QuizRow(tr(lang, "Search all content", "அனைத்திலும் தேடுக"), tr(lang, "Topics, sections, key points, answers and terms", "பாடங்கள், பகுதிகள், முக்கியக் கருத்துகள், விடைகள், சொற்கள்"), null, onSearch)
         }
         item(key = "gl") {
-            QuizRow("Glossary: all terms", "$terms terms, searchable", null, onGlossary)
+            QuizRow(tr(lang, "Glossary: all terms", "கலைச்சொற்கள்: அனைத்தும்"), tr(lang, "$terms terms, searchable", "$terms சொற்கள், தேடலாம்"), null, onGlossary)
         }
         item(key = "hd") {
             Text(
-                "Key points, exam short answers and glossary by module",
+                tr(lang, "Key points, exam short answers and glossary by module", "பாடவாரியாக முக்கியக் கருத்துகள், குறுவிடைகள், கலைச்சொற்கள்"),
                 style = MaterialTheme.typography.titleSmall,
                 fontWeight = FontWeight.Bold,
                 color = Teal,
@@ -74,10 +76,10 @@ fun ReviseTab(
         }
         items(sets, key = { it.file }) { rs ->
             val parts = ArrayList<String>()
-            if (rs.keyPoints.isNotEmpty()) parts.add("${rs.keyPoints.size} key points")
-            if (rs.saqs.isNotEmpty()) parts.add("${rs.saqs.size} short answers")
-            if (rs.glossary.isNotEmpty()) parts.add("${rs.glossary.size} terms")
-            QuizRow(rs.title, "Unit ${rs.unitRoman}  ·  " + parts.joinToString(", "), null) { onOpen(rs) }
+            if (rs.keyPoints.isNotEmpty()) parts.add(tr(lang, "${rs.keyPoints.size} key points", "${rs.keyPoints.size} முக்கியக் கருத்துகள்"))
+            if (rs.saqs.isNotEmpty()) parts.add(tr(lang, "${rs.saqs.size} short answers", "${rs.saqs.size} குறுவிடைகள்"))
+            if (rs.glossary.isNotEmpty()) parts.add(tr(lang, "${rs.glossary.size} terms", "${rs.glossary.size} சொற்கள்"))
+            QuizRow(rs.title, tr(lang, "Unit ${rs.unitRoman}", "அலகு ${rs.unitRoman}") + "  ·  " + parts.joinToString(", "), null) { onOpen(rs) }
         }
     }
 }
