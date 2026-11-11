@@ -2,8 +2,8 @@ package com.gasczoology.animalbiotech.i18n
 
 import com.gasczoology.animalbiotech.content.Bi
 
-/** Reader language setting: English only, Tamil only, or both. */
-enum class Lang { EN, TA, BOTH }
+/** Reader language setting: English or Tamil (never both at once). */
+enum class Lang { EN, TA }
 
 /** Unknown, empty or corrupt stored values fall back to English. */
 fun parseLang(raw: String?): Lang = Lang.entries.firstOrNull { it.name == raw } ?: Lang.EN
@@ -19,9 +19,5 @@ fun Bi.shown(lang: Lang): List<Shown> {
     return when (lang) {
         Lang.EN -> listOf(Shown(en, false, false))
         Lang.TA -> if (hasTa) listOf(Shown(ta, true, false)) else listOf(Shown(en, false, true))
-        Lang.BOTH -> listOf(
-            Shown(en, false, false),
-            if (hasTa) Shown(ta, true, false) else Shown("", true, true),
-        )
     }
 }

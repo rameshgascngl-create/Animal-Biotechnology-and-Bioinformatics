@@ -72,7 +72,7 @@ private fun loadAsset(ctx: android.content.Context, id: String, suffix: String):
 
 /**
  * Inline figure. Marker-style art (numbered badges + bilingual legend) follows the language chips through the legend;
- * browser-rendered figures carry their labels in the image, so English / Tamil / both pick the matching PNG(s).
+ * browser-rendered figures carry their labels in the image, so English or Tamil picks the matching PNG.
  */
 @Composable
 fun DiagramView(block: Diagram, lang: Lang, scale: Float) {
@@ -88,8 +88,8 @@ fun DiagramView(block: Diagram, lang: Lang, scale: Float) {
                 en == null -> Text("Figure: ${block.id}", fontSize = (11 * scale).sp, color = Muted)
                 en.spec != null -> MarkerFigure(en, block)
                 else -> {
-                    val showEn = lang != Lang.TA || ta == null
-                    val showTa = lang != Lang.EN && ta != null
+                    val showEn = lang == Lang.EN || ta == null
+                    val showTa = lang == Lang.TA && ta != null
                     if (showEn) FlatImage(en, block.caption.en)
                     if (showTa) FlatImage(ta!!, block.caption.ta.ifBlank { block.caption.en })
                 }

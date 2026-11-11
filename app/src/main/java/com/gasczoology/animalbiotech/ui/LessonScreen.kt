@@ -85,7 +85,6 @@ fun LessonScreen(
                 Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                     FilterChip(selected = lang == Lang.EN, onClick = { onLang(Lang.EN) }, label = { Text("English") })
                     FilterChip(selected = lang == Lang.TA, onClick = { onLang(Lang.TA) }, label = { Text("தமிழ்", fontFamily = TamilFont) })
-                    FilterChip(selected = lang == Lang.BOTH, onClick = { onLang(Lang.BOTH) }, label = { Text("English + தமிழ்", fontFamily = TamilFont) })
                 }
             }
             item(key = "title") {
