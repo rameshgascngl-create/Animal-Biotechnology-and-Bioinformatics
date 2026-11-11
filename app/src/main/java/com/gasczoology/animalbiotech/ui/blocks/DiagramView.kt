@@ -2,6 +2,10 @@ package com.gasczoology.animalbiotech.ui.blocks
 
 import android.graphics.BitmapFactory
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.foundation.horizontalScroll
+import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.gestures.detectTransformGestures
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.TextButton
@@ -31,6 +35,7 @@ import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -48,12 +53,12 @@ import com.gasczoology.animalbiotech.content.parseDiagramSpec
 import com.gasczoology.animalbiotech.i18n.Lang
 import com.gasczoology.animalbiotech.i18n.tr
 
-private class DiagramAsset(val image: androidx.compose.ui.graphics.ImageBitmap, val spec: DiagramSpec?)
+private class DiagramAsset(val image: androidx.compose.ui.graphics.ImageBitmap, val spec: DiagramSpec?, val altEn: String? = null, val altTa: String? = null)
 
 private fun decode(ctx: android.content.Context, path: String): android.graphics.Bitmap? = try {
     val bounds = BitmapFactory.Options().apply { inJustDecodeBounds = true }
     ctx.assets.open(path).use { BitmapFactory.decodeStream(it, null, bounds) }
-    val opts = BitmapFactory.Options().apply { inSampleSize = if (bounds.outWidth > 1500) 2 else 1 }
+    val opts = BitmapFactory.Options().apply { inSampleSize = if (bounds.outWidth > 2400) 2 else 1 }
     ctx.assets.open(path).use { BitmapFactory.decodeStream(it, null, opts) }
 } catch (e: Exception) { null }
 
@@ -68,7 +73,11 @@ private fun loadAsset(ctx: android.content.Context, id: String, suffix: String):
     val spec = if (specName in names)
         parseDiagramSpec(ctx.assets.open("diagrams/$specName").bufferedReader(Charsets.UTF_8).use { it.readText() }) else null
     val bmp = if (file != null) decode(ctx, "diagrams/$file") else null
-    if (bmp != null) DiagramAsset(bmp.asImageBitmap(), spec?.takeIf { it.markers.isNotEmpty() }) else null
+    val alt = if ("$id.alt.json" in names) runCatching {
+        org.json.JSONObject(ctx.assets.open("diagrams/$id.alt.json").bufferedReader(Charsets.UTF_8).use { it.readText() })
+    }.getOrNull() else null
+    if (bmp != null) DiagramAsset(bmp.asImageBitmap(), spec?.takeIf { it.markers.isNotEmpty() },
+        alt?.optString("en")?.takeIf { it.isNotBlank() }, alt?.optString("ta")?.takeIf { it.isNotBlank() }) else null
 } catch (e: Exception) { null }
 
 /**
@@ -91,8 +100,8 @@ fun DiagramView(block: Diagram, lang: Lang, scale: Float) {
                 else -> {
                     val showEn = lang == Lang.EN || ta == null
                     val showTa = lang == Lang.TA && ta != null
-                    if (showEn) FlatImage(en, block.caption.en, lang)
-                    if (showTa) FlatImage(ta!!, block.caption.ta.ifBlank { block.caption.en }, lang)
+                    if (showEn) FlatImage(en, en.altEn ?: block.caption.en, lang)
+                    if (showTa) FlatImage(ta!!, ta!!.altTa ?: en.altTa ?: block.caption.ta.ifBlank { block.caption.en }, lang)
                 }
             }
             BiText(block.caption, lang, scale, base = MaterialTheme.typography.bodyMedium, weight = FontWeight.SemiBold)
@@ -114,37 +123,16 @@ fun DiagramView(block: Diagram, lang: Lang, scale: Float) {
 
 @Composable
 private fun FlatImage(a: DiagramAsset, description: String, lang: Lang) {
-    var expanded by remember(a) { mutableStateOf(false) }
-    if (expanded) {
-        Dialog(onDismissRequest = { expanded = false }, properties = DialogProperties(usePlatformDefaultWidth = false)) {
-            var zoom by remember { mutableStateOf(1f) }
-            var pan by remember { mutableStateOf(Offset.Zero) }
-            Column(Modifier.fillMaxSize().background(Color.White)) {
-                Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
-                    TextButton(onClick = { zoom = 1f; pan = Offset.Zero }) { Text(tr(lang, "Reset", "மீட்டமை")) }
-                    TextButton(onClick = { expanded = false }) { Text(tr(lang, "Close", "மூடு")) }
-                }
-                Box(Modifier.weight(1f).fillMaxWidth().clip(androidx.compose.ui.graphics.RectangleShape)
-                    .pointerInput(Unit) {
-                        detectTransformGestures { _, delta, factor, _ ->
-                            zoom = (zoom * factor).coerceIn(1f, 5f)
-                            val proposed = pan + delta
-                            val maxX = size.width * (zoom - 1f) / 2f
-                            val maxY = size.height * (zoom - 1f) / 2f
-                            pan = Offset(proposed.x.coerceIn(-maxX, maxX), proposed.y.coerceIn(-maxY, maxY))
-                        }
-                    }, contentAlignment = Alignment.Center) {
-                    Image(a.image, description, Modifier.fillMaxSize().graphicsLayer(
-                        scaleX = zoom, scaleY = zoom, translationX = pan.x, translationY = pan.y), contentScale = ContentScale.Fit)
-                }
-                Text(tr(lang, "Pinch to zoom • Drag to move", "விரல்களால் பெரிதாக்கி நகர்த்தவும்"), Modifier.padding(12.dp))
-            }
-        }
-    }
+    val host = LocalFigureViewerHost.current
+    var expanded by remember { mutableStateOf(false) }
+    if (host == null && expanded) FigureViewer(a.image, description, lang) { expanded = false }
+    // Alt text is already a full sentence for rebuilt figures; older figures only have the caption.
+    val label = if (description.startsWith("Diagram") || description.startsWith("படம்")) description
+        else tr(lang, "Diagram: ", "படம்: ") + description
     Image(
-        bitmap = a.image, contentDescription = "Diagram: $description", contentScale = ContentScale.FillWidth,
+        bitmap = a.image, contentDescription = label, contentScale = ContentScale.FillWidth,
         modifier = Modifier.fillMaxWidth().clip(androidx.compose.foundation.shape.RoundedCornerShape(8.dp))
-            .clickable(onClickLabel = tr(lang, "Enlarge diagram", "படத்தைப் பெரிதாக்கு")) { expanded = true },
+            .clickable(onClickLabel = tr(lang, "Enlarge diagram", "படத்தைப் பெரிதாக்கு")) { if (host != null) host.request = ViewerRequest(a.image, description, lang) else expanded = true },
     )
 }
 

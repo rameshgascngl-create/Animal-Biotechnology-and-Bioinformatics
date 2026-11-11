@@ -12,7 +12,7 @@ Related: `docs/figures/legibility-spec.md` (option c).
 | 4 | Double tap | Toggles 1x / 2x about the tap point. |
 | 5 | Touch targets | Zoom in, Zoom out, Reset, Close: each at least 48 x 48 dp. |
 | 6 | Back | System Back / back gesture closes the viewer (Dialog default). Tested. |
-| 7 | Rotation | Zoom and position are kept as scale plus fractions of the pannable range (`rememberSaveable`), so they survive rotation and activity recreation; the open/closed state of the viewer is also saved. |
+| 7 | Rotation | The viewer is hosted above the lesson list (`ProvideFigureViewer` in `LessonScreen`), not inside the figure's list item: turning to landscape re-lays the list out and can drop the figure's item, which would take an item-owned viewer with it (this is the bug the first version had, see the milestone report). Zoom and position are kept as scale plus fractions of the pannable range (`rememberSaveable`) and survive rotation. Not covered: process death while the viewer is open (it reopens closed). |
 | 8 | Language | Visible labels and `contentDescription`s come from `tr(lang, en, ta)`. The figure's description is the figure's alt text in the shown language (`<id>.alt.json`, else the caption). |
 | 9 | TalkBack order | Group traversal: figure (alt text) first, then Zoom in, Zoom out, Reset, Close. The figure also exposes "Zoom in" and "Zoom out" as custom actions so a TalkBack user needs no pinch. |
 
@@ -22,7 +22,7 @@ Related: `docs/figures/legibility-spec.md` (option c).
 - The viewer does not change the stored images and does not remove the existing downsampling for very large bitmaps (`decode` halves only above 2400 px width; it does not tile).
 
 ## Acceptance tests (instrumented, all fatal in CI)
-1. Open: tap inline figure, a node with the figure description exists inside the viewer and the "Close" button exists; the enlarged capture is not byte-identical to the inline capture.
+1. Open and stay open: tap inline figure, the viewer is still open 2 s later, a node with the figure description exists inside the viewer and the "Close" button exists; the enlarged capture is not byte-identical to the inline capture.
 2. Back closes: after `pressBack` the "Close" node is gone.
 3. Close button closes.
 4. Pinch: a two-finger gesture (UiAutomator `pinchOpen`) changes the figure's on-screen bounds or the screenshot differs from the unzoomed one.

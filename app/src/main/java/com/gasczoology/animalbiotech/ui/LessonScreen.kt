@@ -57,6 +57,7 @@ import com.gasczoology.animalbiotech.i18n.tr
 import com.gasczoology.animalbiotech.ui.blocks.BiText
 import com.gasczoology.animalbiotech.ui.blocks.BlockView
 import com.gasczoology.animalbiotech.ui.blocks.TamilFont
+import com.gasczoology.animalbiotech.ui.blocks.ProvideFigureViewer
 import com.gasczoology.animalbiotech.ui.theme.LocalBodyFont
 import com.gasczoology.animalbiotech.ui.theme.LocalReaderPalette
 import com.gasczoology.animalbiotech.ui.theme.ReaderTheme
@@ -129,6 +130,7 @@ fun LessonScreen(
     val body = if (lang == Lang.EN) FontFamily.Serif else null
 
     CompositionLocalProvider(LocalReaderPalette provides pal, LocalBodyFont provides body) {
+      ProvideFigureViewer {
         Column(Modifier.fillMaxSize().background(pal.bg).statusBarsPadding().navigationBarsPadding()) {
             if (bars) {
                 Row(Modifier.fillMaxWidth().padding(horizontal = 4.dp, vertical = 4.dp), verticalAlignment = Alignment.CenterVertically) {
@@ -204,6 +206,7 @@ fun LessonScreen(
                 }
             }
         }
+      }
     }
 
     if (showContents) {
