@@ -18,7 +18,7 @@ class DataBilingualTest {
     @Test fun malformedTamilOptionsFallBackWithoutReindexing() {
         assertTrue(parseMcq("a", question(""", "o_ta":["அ"]""")).optionsTa.isEmpty())
         assertTrue(parseMcq("a", question()).qTa.isEmpty())
-        assertTrue(pick("Vector", "", Lang.TA).contains("Tamil pending"))
+        assertTrue(pick("Vector", "", Lang.TA).contains("தமிழ் விரைவில்"))
         assertEquals("தாங்கிக்கடத்தி", pick("Vector", "தாங்கிக்கடத்தி", Lang.TA))
         assertEquals("Vector", pick("Vector", "தாங்கிக்கடத்தி", Lang.EN))
     }

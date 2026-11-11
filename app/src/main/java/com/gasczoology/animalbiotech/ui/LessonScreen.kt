@@ -30,6 +30,7 @@ import androidx.compose.ui.unit.dp
 import com.gasczoology.animalbiotech.content.Chapter
 import com.gasczoology.animalbiotech.i18n.Lang
 import com.gasczoology.animalbiotech.i18n.shown
+import com.gasczoology.animalbiotech.i18n.tr
 import com.gasczoology.animalbiotech.ui.blocks.BiText
 import com.gasczoology.animalbiotech.ui.blocks.BlockView
 import com.gasczoology.animalbiotech.ui.blocks.TamilFont
@@ -56,7 +57,7 @@ fun LessonScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text(title, maxLines = 1, style = MaterialTheme.typography.titleMedium, fontFamily = if (lang == Lang.TA) TamilFont else null) },
+                title = { Text(title, maxLines = 2, overflow = androidx.compose.ui.text.style.TextOverflow.Ellipsis, style = MaterialTheme.typography.titleSmall, fontFamily = if (lang == Lang.TA) TamilFont else null) },
                 navigationIcon = {
                     IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back") }
                 },
@@ -100,7 +101,7 @@ fun LessonScreen(
             }
             if (onQuiz != null) {
                 item(key = "quiz") {
-                    Button(onClick = onQuiz, modifier = Modifier.fillMaxWidth()) { Text("Practise MCQs / பயிற்சி வினாக்கள்", fontFamily = TamilFont) }
+                    Button(onClick = onQuiz, modifier = Modifier.fillMaxWidth()) { Text(tr(lang, "Practise MCQs", "பயிற்சி வினாக்கள்"), fontFamily = TamilFont) }
                 }
             }
             item(key = "credit") {

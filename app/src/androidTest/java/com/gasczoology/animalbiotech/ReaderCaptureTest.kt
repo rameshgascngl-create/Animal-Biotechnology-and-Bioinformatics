@@ -47,10 +47,37 @@ class ReaderCaptureTest {
                     val image = device.findObject(By.descStartsWith("Diagram:"))
                         ?: device.findObject(By.clazz("android.widget.ImageView"))
                     requireNotNull(image).click()
-                    assertTrue(device.wait(Until.hasObject(By.text("Close / மூடு")), 5000))
+                    assertTrue(device.wait(Until.hasObject(By.text("Close")), 5000))
                     capture("03-enlarged")
-                    device.findObject(By.text("Close / மூடு")).click()
+                    device.findObject(By.text("Close")).click()
                 }
+            }
+        }
+    }
+
+    @Test fun captureBoldTablesAndLabels() {
+        val device = UiDevice.getInstance(InstrumentationRegistry.getInstrumentation())
+        fun capture(name: String) {
+            device.waitForIdle()
+            device.executeShellCommand("screencap -p /sdcard/Pictures/$name.png")
+        }
+        ActivityScenario.launch(MainActivity::class.java).use { scenario ->
+            assertTrue(device.wait(Until.hasObject(By.text("Animal Biotechnology")), 15000))
+            for (lang in Lang.entries) {
+                fun show(file: String, pick: (com.gasczoology.animalbiotech.content.Chapter) -> com.gasczoology.animalbiotech.content.Chapter, shot: String) {
+                    scenario.onActivity { activity ->
+                        val chapter = pick(requireNotNull(ChapterRepo.load(activity, file, "I")?.chapter))
+                        activity.setContent { MaterialTheme { LessonScreen(chapter, lang, {}, 100, false, {}, false, {}, {}, null) } }
+                    }
+                    device.waitForIdle(); Thread.sleep(800)
+                    capture(shot + "-" + lang.name)
+                }
+                show("biotechnology_fundamentals.html", { it }, "04-chapter-start")
+                show("atlas1_fundamentals_vectors.html", { ch ->
+                    val sec = ch.sections.first { sc -> sc.blocks.any { it is com.gasczoology.animalbiotech.content.Table && it.header.size >= 3 } }
+                    val at = sec.blocks.indexOfFirst { it is com.gasczoology.animalbiotech.content.Table && it.header.size >= 3 }
+                    ch.copy(sections = listOf(sec.copy(blocks = sec.blocks.drop(at))))
+                }, "05-wide-table")
             }
         }
     }

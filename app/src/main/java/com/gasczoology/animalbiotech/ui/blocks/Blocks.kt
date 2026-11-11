@@ -46,6 +46,7 @@ import com.gasczoology.animalbiotech.content.Summary
 import com.gasczoology.animalbiotech.content.Table
 import com.gasczoology.animalbiotech.content.Unparsed
 import com.gasczoology.animalbiotech.i18n.Lang
+import com.gasczoology.animalbiotech.i18n.tr
 import com.gasczoology.animalbiotech.i18n.shown
 import com.gasczoology.animalbiotech.ui.padRow
 import com.gasczoology.animalbiotech.ui.tableWidth
@@ -77,11 +78,11 @@ fun BiText(
     Column(modifier, verticalArrangement = Arrangement.spacedBy(2.dp)) {
         for (s in bi.shown(lang)) {
             if (s.pending && s.text.isEmpty()) {
-                Text("தமிழ் விரைவில் / Tamil pending", fontSize = (11 * scale).sp, color = Color(0xFF9A5B00))
+                Text("தமிழ் விரைவில்", fontFamily = TamilFont, fontSize = (11 * scale).sp, color = Color(0xFF9A5B00))
             } else if (s.isTamil) {
                 val size = base.fontSize.value.takeIf { !it.isNaN() } ?: 16f
                 Text(
-                    s.text,
+                    inlineText(s.text),
                     fontFamily = TamilFont,
                     fontSize = (size * scale).sp,
                     lineHeight = (size * scale * 1.35f).sp,
@@ -91,14 +92,14 @@ fun BiText(
             } else {
                 val size = base.fontSize.value.takeIf { !it.isNaN() } ?: 16f
                 Text(
-                    s.text,
+                    inlineText(s.text),
                     fontSize = (size * scale).sp,
                     lineHeight = (size * scale * 1.45f).sp,
                     fontWeight = weight,
                     color = color,
                 )
                 if (s.pending) {
-                    Text("தமிழ் விரைவில் / Tamil pending", fontSize = (11 * scale).sp, color = Color(0xFF9A5B00))
+                    Text("தமிழ் விரைவில்", fontFamily = TamilFont, fontSize = (11 * scale).sp, color = Color(0xFF9A5B00))
                 }
             }
         }
@@ -133,7 +134,7 @@ fun BlockView(block: Block, lang: Lang, scale: Float) {
         is GlossaryEntry -> TermCard(block.term, block.definition, lang, scale)
         is Summary -> Card(colors = CardDefaults.cardColors(containerColor = Color(0xFFEAF3FF))) {
             Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                Text("Summary / சுருக்கம்", fontWeight = FontWeight.Bold, color = Navy, fontFamily = TamilFont)
+                Text(tr(lang, "Summary", "சுருக்கம்"), fontWeight = FontWeight.Bold, color = Navy, fontFamily = TamilFont)
                 block.items.forEach { item ->
                     Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                         Text("✓", color = Navy, fontWeight = FontWeight.Bold)
@@ -169,10 +170,10 @@ private fun TermCard(term: Bi, definition: Bi, lang: Lang, scale: Float) {
 @Composable
 private fun CalloutView(c: Callout, lang: Lang, scale: Float) {
     val (bg, edge, label) = when (c.kind) {
-        CalloutKind.INFO -> Triple(Color(0xFFEAF3FF), Color(0xFF2F6FB5), "Note / குறிப்பு")
-        CalloutKind.WARN -> Triple(Color(0xFFFFF0EE), Color(0xFFC0392B), "Caution / எச்சரிக்கை")
-        CalloutKind.TIP -> Triple(Color(0xFFEAF8EE), Color(0xFF2E8B57), "Tip / உதவிக்குறிப்பு")
-        CalloutKind.EXAM -> Triple(Color(0xFFFFF7E0), Color(0xFFB8860B), "Exam / தேர்வு")
+        CalloutKind.INFO -> Triple(Color(0xFFEAF3FF), Color(0xFF2F6FB5), tr(lang, "Note", "குறிப்பு"))
+        CalloutKind.WARN -> Triple(Color(0xFFFFF0EE), Color(0xFFC0392B), tr(lang, "Caution", "எச்சரிக்கை"))
+        CalloutKind.TIP -> Triple(Color(0xFFEAF8EE), Color(0xFF2E8B57), tr(lang, "Tip", "உதவிக்குறிப்பு"))
+        CalloutKind.EXAM -> Triple(Color(0xFFFFF7E0), Color(0xFFB8860B), tr(lang, "Exam", "தேர்வு"))
     }
     Card(colors = CardDefaults.cardColors(containerColor = bg), border = BorderStroke(1.dp, edge)) {
         Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
@@ -193,26 +194,44 @@ private fun RevealView(r: Reveal, lang: Lang, scale: Float) {
         Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
             BiText(r.question, lang, scale, weight = FontWeight.SemiBold, color = Navy)
             if (open) BiText(r.answer, lang, scale)
-            else Text("Tap to reveal / பதிலைக் காண தொடவும்", fontSize = (12 * scale).sp, color = Muted, fontFamily = TamilFont)
+            else Text(tr(lang, "Tap to reveal", "பதிலைக் காண தொடவும்"), fontSize = (12 * scale).sp, color = Muted, fontFamily = TamilFont)
         }
     }
 }
 
+/**
+ * Two-column tables stay as a grid. Wider tables are stacked: each row becomes a card with its
+ * first cell as the heading and every other cell labelled by its column title, so nothing is clipped on a phone.
+ */
 @Composable
 private fun TableView(t: Table, lang: Lang, scale: Float) {
     val width = tableWidth(t.header, t.rows)
-    val cellW = 170.dp
-    Box(Modifier.horizontalScroll(rememberScrollState())) {
+    val header = padRow(t.header, width)
+    if (width <= 2) {
         Column {
-            Row(Modifier.background(Navy)) {
-                padRow(t.header, width).forEach { c ->
-                    BiText(c, lang, scale, Modifier.width(cellW).padding(8.dp), MaterialTheme.typography.bodyMedium, FontWeight.Bold, Color.White)
-                }
+            Row(Modifier.fillMaxWidth().background(Navy)) {
+                header.forEach { c -> BiText(c, lang, scale, Modifier.weight(1f).padding(8.dp), MaterialTheme.typography.bodyMedium, FontWeight.Bold, Color.White) }
             }
             t.rows.forEachIndexed { i, row ->
-                Row(Modifier.background(if (i % 2 == 0) Color(0xFFF7F9FC) else Color.White)) {
-                    padRow(row, width).forEach { c ->
-                        BiText(c, lang, scale, Modifier.width(cellW).padding(8.dp), MaterialTheme.typography.bodyMedium)
+                Row(Modifier.fillMaxWidth().background(if (i % 2 == 0) Color(0xFFF7F9FC) else Color.White)) {
+                    padRow(row, width).forEach { c -> BiText(c, lang, scale, Modifier.weight(1f).padding(8.dp), MaterialTheme.typography.bodyMedium) }
+                }
+            }
+        }
+    } else {
+        Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            t.rows.forEach { row ->
+                val cells = padRow(row, width)
+                Card(Modifier.fillMaxWidth(), colors = CardDefaults.cardColors(containerColor = Color(0xFFF7F9FC)), border = BorderStroke(1.dp, Color(0xFFD5DEEA))) {
+                    Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                        BiText(cells[0], lang, scale, weight = FontWeight.Bold, color = Navy)
+                        for (j in 1 until width) {
+                            if (cells[j].en.isBlank() && cells[j].ta.isBlank()) continue
+                            Column {
+                                BiText(header[j], lang, scale * 0.8f, base = MaterialTheme.typography.bodySmall, weight = FontWeight.SemiBold, color = Muted)
+                                BiText(cells[j], lang, scale, base = MaterialTheme.typography.bodyMedium)
+                            }
+                        }
                     }
                 }
             }

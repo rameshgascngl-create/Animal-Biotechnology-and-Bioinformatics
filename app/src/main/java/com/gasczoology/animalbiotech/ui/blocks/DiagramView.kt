@@ -46,6 +46,7 @@ import com.gasczoology.animalbiotech.content.Diagram
 import com.gasczoology.animalbiotech.content.DiagramSpec
 import com.gasczoology.animalbiotech.content.parseDiagramSpec
 import com.gasczoology.animalbiotech.i18n.Lang
+import com.gasczoology.animalbiotech.i18n.tr
 
 private class DiagramAsset(val image: androidx.compose.ui.graphics.ImageBitmap, val spec: DiagramSpec?)
 
@@ -86,12 +87,12 @@ fun DiagramView(block: Diagram, lang: Lang, scale: Float) {
         Column(Modifier.padding(10.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
             when {
                 en == null -> Text("Figure: ${block.id}", fontSize = (11 * scale).sp, color = Muted)
-                en.spec != null -> MarkerFigure(en, block)
+                en.spec != null -> MarkerFigure(en, block, lang)
                 else -> {
                     val showEn = lang == Lang.EN || ta == null
                     val showTa = lang == Lang.TA && ta != null
-                    if (showEn) FlatImage(en, block.caption.en)
-                    if (showTa) FlatImage(ta!!, block.caption.ta.ifBlank { block.caption.en })
+                    if (showEn) FlatImage(en, block.caption.en, lang)
+                    if (showTa) FlatImage(ta!!, block.caption.ta.ifBlank { block.caption.en }, lang)
                 }
             }
             BiText(block.caption, lang, scale, base = MaterialTheme.typography.bodyMedium, weight = FontWeight.SemiBold)
@@ -112,7 +113,7 @@ fun DiagramView(block: Diagram, lang: Lang, scale: Float) {
 }
 
 @Composable
-private fun FlatImage(a: DiagramAsset, description: String) {
+private fun FlatImage(a: DiagramAsset, description: String, lang: Lang) {
     var expanded by remember(a) { mutableStateOf(false) }
     if (expanded) {
         Dialog(onDismissRequest = { expanded = false }, properties = DialogProperties(usePlatformDefaultWidth = false)) {
@@ -120,8 +121,8 @@ private fun FlatImage(a: DiagramAsset, description: String) {
             var pan by remember { mutableStateOf(Offset.Zero) }
             Column(Modifier.fillMaxSize().background(Color.White)) {
                 Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
-                    TextButton(onClick = { zoom = 1f; pan = Offset.Zero }) { Text("Reset / மீட்டமை") }
-                    TextButton(onClick = { expanded = false }) { Text("Close / மூடு") }
+                    TextButton(onClick = { zoom = 1f; pan = Offset.Zero }) { Text(tr(lang, "Reset", "மீட்டமை")) }
+                    TextButton(onClick = { expanded = false }) { Text(tr(lang, "Close", "மூடு")) }
                 }
                 Box(Modifier.weight(1f).fillMaxWidth().clip(androidx.compose.ui.graphics.RectangleShape)
                     .pointerInput(Unit) {
@@ -136,24 +137,24 @@ private fun FlatImage(a: DiagramAsset, description: String) {
                     Image(a.image, description, Modifier.fillMaxSize().graphicsLayer(
                         scaleX = zoom, scaleY = zoom, translationX = pan.x, translationY = pan.y), contentScale = ContentScale.Fit)
                 }
-                Text("Pinch to zoom • Drag to move / விரல்களால் பெரிதாக்கி நகர்த்தவும்", Modifier.padding(12.dp))
+                Text(tr(lang, "Pinch to zoom • Drag to move", "விரல்களால் பெரிதாக்கி நகர்த்தவும்"), Modifier.padding(12.dp))
             }
         }
     }
     Image(
         bitmap = a.image, contentDescription = "Diagram: $description", contentScale = ContentScale.FillWidth,
         modifier = Modifier.fillMaxWidth().clip(androidx.compose.foundation.shape.RoundedCornerShape(8.dp))
-            .clickable(onClickLabel = "Enlarge diagram / படத்தைப் பெரிதாக்கு") { expanded = true },
+            .clickable(onClickLabel = tr(lang, "Enlarge diagram", "படத்தைப் பெரிதாக்கு")) { expanded = true },
     )
 }
 
 @Composable
-private fun MarkerFigure(a: DiagramAsset, block: Diagram) {
+private fun MarkerFigure(a: DiagramAsset, block: Diagram, lang: Lang) {
     val spec = a.spec ?: return
     BoxWithConstraints(Modifier.fillMaxWidth()) {
         val w = maxWidth
         val h = w / spec.aspect
-        FlatImage(a, block.caption.en)
+        FlatImage(a, block.caption.en, lang)
         spec.markers.forEach { m ->
             Box(
                 Modifier.offset(w * m.x - 11.dp, h * m.y - 11.dp).size(22.dp).clip(CircleShape).background(Color(0xFF0B2A4A)),
