@@ -98,16 +98,23 @@ class ReaderCaptureTest {
             for (lang in Lang.entries) {
                 scenario.onActivity { activity ->
                     var found: com.gasczoology.animalbiotech.content.Chapter? = null
-                    for (u in Repo.units(activity)) for (t in u.topics) {
+                    for (un in Repo.units(activity)) for (t in un.topics) {
                         val ch = ChapterRepo.load(activity, t.file, t.unitRoman)?.chapter ?: continue
-                        val sec = ch.sections.firstOrNull { sc -> sc.blocks.any { it is com.gasczoology.animalbiotech.content.Reveal } &&
-                            sc.blocks.any { it is com.gasczoology.animalbiotech.content.KeyTerm || it is com.gasczoology.animalbiotech.content.Callout } }
-                        if (sec != null) { found = ch.copy(sections = listOf(sec)); break }
+                        val all = ch.sections.flatMap { it.blocks }
+                        val reveal = all.firstOrNull { it is com.gasczoology.animalbiotech.content.Reveal }
+                        val term = all.firstOrNull { it is com.gasczoology.animalbiotech.content.KeyTerm }
+                        val callouts = all.filterIsInstance<com.gasczoology.animalbiotech.content.Callout>().distinctBy { com.gasczoology.animalbiotech.ui.theme.calloutRole(it.kind, it.text.en) }.take(3)
+                        if (reveal != null && term != null && callouts.isNotEmpty()) {
+                            found = ch.copy(sections = listOf(ch.sections.first().copy(blocks = listOf(term, reveal) + callouts)))
+                            break
+                        }
                     }
                     val fixture = requireNotNull(found) { "no chapter with a question and a definition/callout" }
                     activity.setContent { MaterialTheme { LessonScreen(fixture, lang, {}, 100, false, {}, false, {}, {}, null) } }
                 }
                 capture("07-shaded-" + lang.name)
+                device.findObject(By.textStartsWith(if (lang == Lang.TA) "\u0BB5\u0BBF\u0B9F\u0BC8\u0BAF\u0BC8" else "Tap to reveal"))?.click()
+                capture("08-answer-" + lang.name)
             }
         }
     }

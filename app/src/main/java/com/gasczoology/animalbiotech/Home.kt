@@ -3,6 +3,8 @@ package com.gasczoology.animalbiotech
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.horizontalScroll
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -37,8 +39,8 @@ private val Soft = Color(0xFF3B4F66)
 
 /** Text in the active language with the bundled Tamil font when needed. */
 @Composable
-private fun T(lang: Lang, en: String, ta: String, modifier: Modifier = Modifier, size: Int = 14, weight: FontWeight? = null, color: Color = Ink, align: TextAlign? = null) {
-    Text(tr(lang, en, ta), modifier, fontSize = size.sp, fontWeight = weight, color = color, textAlign = align, fontFamily = if (lang == Lang.TA) TamilFont else null,
+private fun T(lang: Lang, en: String, ta: String, modifier: Modifier = Modifier, size: Int = 14, weight: FontWeight? = null, color: Color = Ink, align: TextAlign? = null, maxLines: Int = Int.MAX_VALUE) {
+    Text(tr(lang, en, ta), modifier, maxLines = maxLines, fontSize = size.sp, fontWeight = weight, color = color, textAlign = align, fontFamily = if (lang == Lang.TA) TamilFont else null,
         lineHeight = (size * (if (lang == Lang.TA) 1.4f else 1.3f)).sp)
 }
 
@@ -99,15 +101,15 @@ fun HomeScaffold(
         bottomBar = {
             NavigationBar(containerColor = Color.White) {
                 val items = listOf(
-                    Triple("Syllabus", "பாடத்திட்டம்", Icons.Default.List), Triple("Revise", "மீள்பார்வை", Icons.Default.Edit),
-                    Triple("Quiz", "வினாடி வினா", Icons.Default.CheckCircle), Triple("Saved", "சேமித்தவை", Icons.Default.Star),
+                    Triple("Syllabus", "பாடங்கள்", Icons.Default.List), Triple("Revise", "மீள்பார்வை", Icons.Default.Edit),
+                    Triple("Quiz", "வினாக்கள்", Icons.Default.CheckCircle), Triple("Saved", "சேமித்தவை", Icons.Default.Star),
                     Triple("About", "பற்றி", Icons.Default.Info),
                 )
                 items.forEachIndexed { i, (en, ta, icon) ->
                     NavigationBarItem(
                         selected = tab == i, onClick = { onTab(i) },
                         icon = { Icon(icon, contentDescription = tr(lang, en, ta)) },
-                        label = { Text(tr(lang, en, ta), fontFamily = if (lang == Lang.TA) TamilFont else null, maxLines = 1, fontSize = 11.sp) },
+                        label = { Text(tr(lang, en, ta), fontFamily = if (lang == Lang.TA) TamilFont else null, maxLines = 1, softWrap = false, fontSize = if (lang == Lang.TA) 10.sp else 11.sp) },
                         colors = NavigationBarItemDefaults.colors(selectedIconColor = Color.White, selectedTextColor = Navy, indicatorColor = Teal),
                     )
                 }
@@ -150,7 +152,7 @@ private fun Tile(lang: Lang, emoji: String, en: String, ta: String, pale: Color,
         horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(4.dp),
     ) {
         Text(emoji, fontSize = 24.sp)
-        T(lang, en, ta, size = 12, weight = FontWeight.SemiBold, color = Navy, align = TextAlign.Center)
+        T(lang, en, ta, size = 12, weight = FontWeight.SemiBold, color = Navy, align = TextAlign.Center, maxLines = 2)
     }
 }
 
@@ -164,14 +166,15 @@ fun HomeTab(
     val total = units.sumOf { it.topics.size }
     val done = units.sumOf { u -> u.topics.count { it.id in studied } }
     val questions = quizzes.sumOf { it.items.size }
+    val chapters = units.flatMap { it.topics }.map { it.file }.distinct().size
     val last = units.flatMap { it.topics }.firstOrNull { it.id == lastId }
     LazyColumn(Modifier.fillMaxSize(), contentPadding = PaddingValues(bottom = 20.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
         item(key = "hero") {
             Box(Modifier.fillMaxWidth().background(Brush.verticalGradient(listOf(Navy, Color(0xFF14506B)))).padding(start = 20.dp, end = 20.dp, bottom = 22.dp, top = 4.dp)) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                        T(lang, "Animal Biotechnology", "விலங்கு உயிரித் தொழில்நுட்பவியல்", size = 26, weight = FontWeight.Bold, color = Color.White)
-                        T(lang, "$total chapters · $questions questions · 5 units", "$total பாடங்கள் · $questions வினாக்கள் · 5 அலகுகள்", size = 13, color = Color.White.copy(alpha = 0.85f))
+                        T(lang, "Animal Biotechnology", "விலங்கு உயிரித் தொழில்நுட்பவியல்", size = if (lang == Lang.TA) 22 else 26, weight = FontWeight.Bold, color = Color.White)
+                        T(lang, "$chapters chapters · $questions questions · 5 units", "$chapters பாடங்கள் · $questions வினாக்கள் · 5 அலகுகள்", size = 13, color = Color.White.copy(alpha = 0.85f))
                         T(lang, "Department of Zoology, GASC, Nagercoil", "விலங்கியல் துறை, அரசு கலை அறிவியல் கல்லூரி, நாகர்கோவில்", size = 11, color = Color.White.copy(alpha = 0.65f))
                     }
                     Spacer(Modifier.width(12.dp))
@@ -199,12 +202,13 @@ fun HomeTab(
             }
         }
         item(key = "tiles") {
-            Row(Modifier.fillMaxWidth().padding(horizontal = 16.dp), horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                Tile(lang, "📝", "Quiz", "வினாடி வினா", UnitAccents[0].second, Modifier.weight(1f)) { onTab(2) }
-                Tile(lang, "📖", "Revise", "மீள்பார்வை", UnitAccents[1].second, Modifier.weight(1f)) { onTab(1) }
-                Tile(lang, "🗂", "Flashcards", "நினைவட்டைகள்", UnitAccents[2].second, Modifier.weight(1f)) { onFlash() }
-                Tile(lang, "🔤", "Glossary", "கலைச்சொற்கள்", UnitAccents[3].second, Modifier.weight(1f)) { onGlossary() }
-                Tile(lang, "🔍", "Search", "தேடல்", UnitAccents[4].second, Modifier.weight(1f)) { onSearch() }
+            Row(Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()).padding(horizontal = 16.dp), horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                val w = Modifier.width(96.dp)
+                Tile(lang, "📝", "Quiz", "வினாக்கள்", UnitAccents[0].second, w) { onTab(2) }
+                Tile(lang, "📖", "Revise", "மீள்பார்வை", UnitAccents[1].second, w) { onTab(1) }
+                Tile(lang, "🗂", "Flashcards", "நினைவட்டைகள்", UnitAccents[2].second, w) { onFlash() }
+                Tile(lang, "🔤", "Glossary", "கலைச்சொற்கள்", UnitAccents[3].second, w) { onGlossary() }
+                Tile(lang, "🔍", "Search", "தேடல்", UnitAccents[4].second, w) { onSearch() }
             }
         }
         units.forEachIndexed { idx, u ->
@@ -317,7 +321,7 @@ fun SavedTab(lang: Lang, units: List<UnitInfo>, studied: Set<String>, saved: Set
 fun AboutTab(lang: Lang, units: List<UnitInfo>, quizzes: List<QuizSet>, zoom: Int, onZoom: (Int) -> Unit) {
     val ctx = LocalContext.current
     val version = remember { runCatching { ctx.packageManager.getPackageInfo(ctx.packageName, 0).versionName }.getOrNull().orEmpty() }
-    val n = units.sumOf { it.topics.size }; val m = quizzes.sumOf { it.items.size }
+    val n = units.flatMap { it.topics }.map { it.file }.distinct().size; val m = quizzes.sumOf { it.items.size }
     LazyColumn(Modifier.fillMaxSize(), contentPadding = PaddingValues(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
         item {
             Card(colors = CardDefaults.cardColors(containerColor = Color.White), modifier = Modifier.fillMaxWidth()) {
