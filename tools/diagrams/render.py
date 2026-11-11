@@ -39,6 +39,11 @@ TRANS = """async ([map, font, fontb]) => { const s = document.querySelectorAll('
   for(const n of nodes){ const t=n.nodeValue.replace(/\\s+/g,' ').trim(); if(!t||['STYLE','SCRIPT'].includes(n.parentNode.tagName)) continue;
     if(map[t]){ n.nodeValue=n.nodeValue.replace(t,map[t]); const text=n.parentNode.closest('text'); if(text){ text.style.setProperty('font-family','TamilD, sans-serif','important'); touched.add(text);} hit++; } else miss++; }
   touched.forEach(t=>{ const o=ow.get(t)||0; const nw=t.getBBox().width; if(o>0 && nw>o*1.02){ const fs=parseFloat(getComputedStyle(t).fontSize)||12; const f=Math.max(0.6,o/nw); t.style.setProperty('font-size',(fs*f)+'px','important'); } });
+  const base=new Map(); touched.forEach(t=>base.set(t,parseFloat(getComputedStyle(t).fontSize)||12)); const floor=new Map(); touched.forEach(t=>floor.set(t,base.get(t)*0.55));
+  const rect=t=>t.getBoundingClientRect(), outer=s.getBoundingClientRect();
+  const clipped=t=>{const r=rect(t); return r.left<outer.left-1||r.top<outer.top-1||r.right>outer.right+1||r.bottom>outer.bottom+1};
+  const hits=t=>{const a=rect(t); return [...s.querySelectorAll('text')].some(o=>{ if(o===t||!o.textContent.trim()) return false; const b=rect(o); return Math.min(a.right,b.right)-Math.max(a.left,b.left)>1 && Math.min(a.bottom,b.bottom)-Math.max(a.top,b.top)>1; })};
+  for(let pass=0; pass<10; pass++){ let changed=false; touched.forEach(t=>{ if(clipped(t)||hits(t)){ const cur=parseFloat(getComputedStyle(t).fontSize)||12; const nxt=Math.max(floor.get(t), cur*0.92); if(nxt<cur-0.01){ t.style.setProperty('font-size', nxt+'px','important'); changed=true; } } }); if(!changed) break; }
   return [hit,miss]; }"""
 
 def main():
