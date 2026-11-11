@@ -9,7 +9,7 @@ class LangTest {
 
     @Test fun parseLang_known_values() {
         assertEquals(Lang.TA, parseLang("TA"))
-        assertEquals(Lang.BOTH, parseLang("BOTH"))
+        assertEquals(Lang.EN, parseLang("BOTH"))   // legacy stored value falls back to English
         assertEquals(Lang.EN, parseLang("EN"))
     }
 
@@ -27,21 +27,11 @@ class LangTest {
         assertEquals(listOf(Shown("காவி", true, false)), vector.shown(Lang.TA))
     }
 
-    @Test fun both_shows_english_first() {
-        assertEquals(
-            listOf(Shown("Vector", false, false), Shown("காவி", true, false)),
-            vector.shown(Lang.BOTH),
-        )
+    @Test fun there_are_exactly_two_languages() {
+        assertEquals(listOf(Lang.EN, Lang.TA), Lang.entries)
     }
 
     @Test fun missing_tamil_falls_back_to_english_with_pending_marker() {
         assertEquals(listOf(Shown("Vector", false, true)), Bi("Vector").shown(Lang.TA))
-    }
-
-    @Test fun missing_tamil_in_both_keeps_english_and_adds_pending_tamil_slot() {
-        assertEquals(
-            listOf(Shown("Vector", false, false), Shown("", true, true)),
-            Bi("Vector").shown(Lang.BOTH),
-        )
     }
 }

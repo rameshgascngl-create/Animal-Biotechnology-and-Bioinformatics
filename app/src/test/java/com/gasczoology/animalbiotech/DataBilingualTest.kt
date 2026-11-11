@@ -19,7 +19,8 @@ class DataBilingualTest {
         assertTrue(parseMcq("a", question(""", "o_ta":["அ"]""")).optionsTa.isEmpty())
         assertTrue(parseMcq("a", question()).qTa.isEmpty())
         assertTrue(pick("Vector", "", Lang.TA).contains("Tamil pending"))
-        assertEquals("Vector\nதாங்கிக்கடத்தி", pick("Vector", "தாங்கிக்கடத்தி", Lang.BOTH))
+        assertEquals("தாங்கிக்கடத்தி", pick("Vector", "தாங்கிக்கடத்தி", Lang.TA))
+        assertEquals("Vector", pick("Vector", "தாங்கிக்கடத்தி", Lang.EN))
     }
     @Test(expected = IllegalArgumentException::class) fun rejectsInvalidAnswer() {
         parseMcq("a", question().put("a", 2))

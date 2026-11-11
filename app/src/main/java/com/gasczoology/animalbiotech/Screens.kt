@@ -71,8 +71,7 @@ fun ChapterUnavailableScreen(topic: Topic, lang: Lang, onBack: () -> Unit, onQui
             Text(
                 when (lang) {
                     Lang.TA -> "இந்தப் பாடத்தின் உரை ஏற்றப்படவில்லை. மீண்டும் முயலவும்."
-                    Lang.BOTH -> "Chapter text could not be loaded.\nஇந்தப் பாடத்தின் உரை ஏற்றப்படவில்லை."
-                    else -> "Chapter text could not be loaded."
+                    Lang.EN -> "Chapter text could not be loaded."
                 },
             )
             if (onQuiz != null) Button(onClick = onQuiz) { Text(if (lang == Lang.TA) "வினாடி வினா" else "Take the quiz") }
@@ -166,7 +165,7 @@ fun QuizScreen(
                     Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                         Lang.entries.forEach { value ->
                             FilterChip(selected = lang == value, onClick = { onLang(value) },
-                                label = { Text(when (value) { Lang.EN -> "English"; Lang.TA -> "தமிழ்"; Lang.BOTH -> "Both / இரண்டும்" }) })
+                                label = { Text(when (value) { Lang.EN -> "English"; Lang.TA -> "தமிழ்" }) })
                         }
                     }
                 }
