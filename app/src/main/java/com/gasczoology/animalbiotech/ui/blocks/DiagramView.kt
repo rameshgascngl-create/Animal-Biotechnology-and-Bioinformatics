@@ -73,13 +73,12 @@ private fun loadAsset(ctx: android.content.Context, id: String, suffix: String):
 
 /**
  * Inline figure. Marker-style art (numbered badges + bilingual legend) follows the language chips through the legend;
- * browser-rendered figures carry their labels in the image, so English or Tamil picks the matching PNG.
+ * browser-rendered figures carry English labels in the image and are shown unchanged in both languages.
  */
 @Composable
 fun DiagramView(block: Diagram, lang: Lang, scale: Float) {
     val ctx = LocalContext.current
     val en = remember(block.id) { loadAsset(ctx, block.id, "") }
-    val ta = remember(block.id) { loadAsset(ctx, block.id, "_ta") }
     Card(
         colors = CardDefaults.cardColors(containerColor = Color.White),
         border = BorderStroke(1.dp, Color(0xFFB8C4D4)),
@@ -88,12 +87,8 @@ fun DiagramView(block: Diagram, lang: Lang, scale: Float) {
             when {
                 en == null -> Text("Figure: ${block.id}", fontSize = (11 * scale).sp, color = Muted)
                 en.spec != null -> MarkerFigure(en, block, lang)
-                else -> {
-                    val showEn = lang == Lang.EN || ta == null
-                    val showTa = lang == Lang.TA && ta != null
-                    if (showEn) FlatImage(en, block.caption.en, lang)
-                    if (showTa) FlatImage(ta!!, block.caption.ta.ifBlank { block.caption.en }, lang)
-                }
+                // Owner decision: Tamil mode also shows the English-labelled figure; only the caption is Tamil.
+                else -> FlatImage(en, block.caption.en, lang)
             }
             BiText(block.caption, lang, scale, base = MaterialTheme.typography.bodyMedium, weight = FontWeight.SemiBold)
             val legend = en?.spec?.markers
