@@ -14,6 +14,10 @@ STOP = set("the a an of and or in on to for with by is are as at from that this 
 
 GENERIC = re.compile(r"summary|interactive|overview|exam|quiz|practice|glossary|objectives|self.?test|revision|further reading|references", re.I)
 
+def key(t):
+    """ASCII letters/digits only, lower-case, first 40: identical in Python and Kotlin (no UTF-16 surprises)."""
+    return re.sub(r"[^a-z0-9]", "", t.lower())[:40]
+
 def toks(s):
     return [w for w in re.findall(r"[a-z0-9]+", s.lower()) if w not in STOP and len(w) > 2]
 
@@ -72,7 +76,7 @@ def main():
                 if bj is None: bj = len(body) - 1
                 placed = sc >= 1.0 or sc - run >= 0.3
                 if placed: out.append({"id": b["id"], "chapter": st, "unit": unit, "section": sec["id"],
-                            "after": body[bj][:48], "score": round(sc, 3), "margin": round(sc - run, 3)})
+                            "after": key(body[bj]), "score": round(sc, 3), "margin": round(sc - run, 3)})
                 rows.append([b["id"], text(b["caption"])[:70], f"{st}/{sec['id']}" if placed else "NOT PLACED (low confidence)", text(sec["title"])[:50],
                              round(sc, 3), round(sc - run, 3)])
     json.dump(out, open(os.path.join(ROOT, "app/src/main/assets/figure_anchors.json"), "w"), ensure_ascii=False, indent=1)

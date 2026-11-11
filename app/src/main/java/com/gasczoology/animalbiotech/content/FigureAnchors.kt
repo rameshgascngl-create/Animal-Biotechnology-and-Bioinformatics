@@ -13,13 +13,13 @@ fun parseAnchors(json: String): List<Anchor> {
     }
 }
 
-/** Text used to match [Anchor.after]: first 48 characters of a prose block's English text. */
+/** Key matched against [Anchor.after]: the first 40 ASCII letters/digits (lower-case) of a prose block's English text. */
 fun anchorKey(b: Block): String? = when (b) {
     is Paragraph -> b.text.en
     is Bullets -> b.items.joinToString(" ") { it.en }
     is Callout -> b.text.en
     else -> null
-}?.take(48)
+}?.lowercase()?.filter { it in 'a'..'z' || it in '0'..'9' }?.take(40)
 
 /**
  * Returns [ch] with each atlas figure for which [lookup] finds a [Diagram] inserted directly after the

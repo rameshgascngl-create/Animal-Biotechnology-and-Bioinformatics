@@ -4,7 +4,7 @@
   "chapter": "biotechnology_fundamentals",
   "unit": "u1",
   "section": "s04",
-  "after": "Genetically Modified (GM) crops Disease-resistan",
+  "after": "geneticallymodifiedgmcropsdiseaseresista",
   "score": 7.034,
   "margin": 0.915
  },
@@ -13,7 +13,7 @@
   "chapter": "biotechnology_fundamentals",
   "unit": "u1",
   "section": "s03",
-  "after": "📌 Definition (UN Convention on Biological Divers",
+  "after": "definitionunconventiononbiologicaldivers",
   "score": 5.463,
   "margin": 2.577
  },
@@ -22,7 +22,7 @@
   "chapter": "enzymes_genetic_engineering",
   "unit": "u1",
   "section": "s04",
-  "after": "The staggered cut leaves short single-stranded o",
+  "after": "thestaggeredcutleavesshortsinglestranded",
   "score": 7.45,
   "margin": 0.778
  },
@@ -31,7 +31,7 @@
   "chapter": "enzymes_genetic_engineering",
   "unit": "u1",
   "section": "s02",
-  "after": "Define restriction enzymes and explain their dis",
+  "after": "definerestrictionenzymesandexplaintheird",
   "score": 3.933,
   "margin": 0.436
  },
@@ -40,7 +40,7 @@
   "chapter": "vectors_genetic_engineering",
   "unit": "u1",
   "section": "s07",
-  "after": "**Origin of replication (ori):** Derived from pM",
+  "after": "originofreplicationoriderivedfrompmb1aco",
   "score": 11.952,
   "margin": 5.655
  },
@@ -49,7 +49,7 @@
   "chapter": "vectors_genetic_engineering",
   "unit": "u1",
   "section": "s09",
-  "after": "Fig. 2 — Ti Plasmid of _Agrobacterium tumefacien",
+  "after": "fig2tiplasmidofagrobacteriumtumefaciens2",
   "score": 4.114,
   "margin": 0.413
  },
@@ -58,7 +58,7 @@
   "chapter": "vectors_genetic_engineering",
   "unit": "u1",
   "section": "s08",
-  "after": "**Genome:** Linear double-stranded DNA, approxim",
+  "after": "genomelineardoublestrandeddnaapproximate",
   "score": 8.301,
   "margin": 2.478
  },
@@ -67,7 +67,7 @@
   "chapter": "vectors_genetic_engineering",
   "unit": "u1",
   "section": "s08",
-  "after": "Lambda phage vectors are ideal for constructing ",
+  "after": "lambdaphagevectorsareidealforconstructin",
   "score": 6.409,
   "margin": 0.375
  },
@@ -76,7 +76,7 @@
   "chapter": "vectors_genetic_engineering",
   "unit": "u1",
   "section": "s08",
-  "after": "**Genome:** Circular, single-stranded DNA (ssDNA",
+  "after": "genomecircularsinglestrandeddnassdnaappr",
   "score": 6.919,
   "margin": 0.738
  },
@@ -85,7 +85,7 @@
   "chapter": "dna_library_genomic_cdna",
   "unit": "u1",
   "section": "s10",
-  "after": "🧫 YAC **Insert capacity:** 200–2,000 kb **Host:*",
+  "after": "yacinsertcapacity2002000kbhostsaccharomy",
   "score": 5.555,
   "margin": 0.448
  },
@@ -94,7 +94,7 @@
   "chapter": "advanced_vectors_cosmid_yac_sv40_transposons",
   "unit": "u1",
   "section": "s04",
-  "after": "**Plasmid backbone:** Contains an _origin of rep",
+  "after": "plasmidbackbonecontainsanoriginofreplica",
   "score": 7.44,
   "margin": 2.19
  },
@@ -103,7 +103,7 @@
   "chapter": "advanced_vectors_cosmid_yac_sv40_transposons",
   "unit": "u1",
   "section": "s05",
-  "after": "**Telomeres (TEL):** Repetitive DNA sequences at",
+  "after": "telomerestelrepetitivednasequencesatboth",
   "score": 10.632,
   "margin": 6.576
  },
@@ -112,7 +112,7 @@
   "chapter": "advanced_vectors_cosmid_yac_sv40_transposons",
   "unit": "u1",
   "section": "s06",
-  "after": "**Genome size:** ~5,243 base pairs of circular d",
+  "after": "genomesize5243basepairsofcirculardoubles",
   "score": 7.697,
   "margin": 2.207
  },
@@ -121,7 +121,7 @@
   "chapter": "advanced_vectors_cosmid_yac_sv40_transposons",
   "unit": "u1",
   "section": "s07",
-  "after": "**Class I — Retrotransposons (copy-and-paste mec",
+  "after": "classiretrotransposonscopyandpastemechan",
   "score": 6.009,
   "margin": 2.707
  },
@@ -130,7 +130,7 @@
   "chapter": "dna_library_genomic_cdna",
   "unit": "u1",
   "section": "s04",
-  "after": "**Key Difference at a Glance:** A genomic librar",
+  "after": "keydifferenceataglanceagenomiclibrarycon",
   "score": 6.139,
   "margin": 1.032
  },
@@ -139,7 +139,7 @@
   "chapter": "gene_cloning_steps_selection",
   "unit": "u2",
   "section": "s03",
-  "after": "**Core Concept:** Gene cloning = _isolate_ the g",
+  "after": "coreconceptgenecloningisolatethegeneinse",
   "score": 3.357,
   "margin": 0.159
  },
@@ -148,7 +148,7 @@
   "chapter": "gene_transfer_methods_rdna_host_cells",
   "unit": "u2",
   "section": "s07",
-  "after": "Fig. 6 — Liposome Fusion (Lipofection)",
+  "after": "fig6liposomefusionlipofection",
   "score": 10.873,
   "margin": 0.798
  },
@@ -157,7 +157,7 @@
   "chapter": "screening_selection_recombinants",
   "unit": "u2",
   "section": "s05",
-  "after": "**Step 1:** Plate all transformed cells on LB + ",
+  "after": "step1platealltransformedcellsonlbampicil",
   "score": 9.191,
   "margin": 1.519
  },
@@ -166,7 +166,7 @@
   "chapter": "screening_selection_recombinants",
   "unit": "u2",
   "section": "s06",
-  "after": "**X-gal** (5-bromo-4-chloro-3-indolyl-β-D-galact",
+  "after": "xgal5bromo4chloro3indolyldgalactopyranos",
   "score": 12.576,
   "margin": 4.836
  },
@@ -175,7 +175,7 @@
   "chapter": "screening_selection_recombinants",
   "unit": "u2",
   "section": "s07",
-  "after": "**Colony Transfer (Blotting):** A sterile nylon ",
+  "after": "colonytransferblottingasterilenylonornit",
   "score": 6.909,
   "margin": 1.742
  },
@@ -184,7 +184,7 @@
   "chapter": "sanger_dna_sequencing",
   "unit": "u2",
   "section": "s06",
-  "after": "At each position in the growing chain, the polym",
+  "after": "ateachpositioninthegrowingchainthepolyme",
   "score": 5.674,
   "margin": 0.162
  },
@@ -193,7 +193,7 @@
   "chapter": "sanger_dna_sequencing",
   "unit": "u2",
   "section": "s07",
-  "after": "A single reaction contains all four ddNTPs, each",
+  "after": "asinglereactioncontainsallfourddntpseach",
   "score": 8.034,
   "margin": 2.506
  },
@@ -202,7 +202,7 @@
   "chapter": "pcr_principle_types_applications",
   "unit": "u2",
   "section": "s07",
-  "after": "Temperature: **72°C** (optimal for Taq) Duration",
+  "after": "temperature72coptimalfortaqduration1minp",
   "score": 5.103,
   "margin": 0.965
  },
@@ -211,7 +211,7 @@
   "chapter": "gel_electrophoresis",
   "unit": "u2",
   "section": "s04",
-  "after": "**Charge:** All DNA fragments carry the same cha",
+  "after": "chargealldnafragmentscarrythesamecharget",
   "score": 7.735,
   "margin": 0.391
  },
@@ -220,7 +220,7 @@
   "chapter": "transgenic_animal_technology",
   "unit": "u3",
   "section": "s03",
-  "after": "**Landmark: the \"super mouse\" (1982)**\nPalmiter ",
+  "after": "landmarkthesupermouse1982palmiterandbrin",
   "score": 11.388,
   "margin": 6.202
  },
@@ -229,7 +229,7 @@
   "chapter": "transgenic_animal_technology",
   "unit": "u3",
   "section": "s04",
-  "after": "**3. Inject**male pronucleus",
+  "after": "3injectmalepronucleus",
   "score": 9.12,
   "margin": 1.939
  },
@@ -238,7 +238,7 @@
   "chapter": "transgenic_animal_technology",
   "unit": "u3",
   "section": "s05",
-  "after": "Gene knock-out\nThe deliberate inactivation of a ",
+  "after": "geneknockoutthedeliberateinactivationofa",
   "score": 7.44,
   "margin": 3.58
  },
@@ -247,7 +247,7 @@
   "chapter": "transgenic_animal_technology",
   "unit": "u3",
   "section": "s05",
-  "after": "Gene knock-out\nThe deliberate inactivation of a ",
+  "after": "geneknockoutthedeliberateinactivationofa",
   "score": 5.617,
   "margin": 0.084
  },
@@ -256,7 +256,7 @@
   "chapter": "transgenic_animal_technology",
   "unit": "u3",
   "section": "s06",
-  "after": "**Facts that examiners ask**\n• Of 277 reconstruc",
+  "after": "factsthatexaminersaskof277reconstructede",
   "score": 11.872,
   "margin": 7.262
  },
@@ -265,7 +265,7 @@
   "chapter": "superbug_bioremediation_bioweapons",
   "unit": "u3",
   "section": "s03",
-  "after": "**Result**\nOne bacterium (_Pseudomonas_ sp., usu",
+  "after": "resultonebacteriumpseudomonasspusuallyci",
   "score": 11.995,
   "margin": 8.898
  },
@@ -274,7 +274,7 @@
   "chapter": "hybridoma_monoclonal_antibodies",
   "unit": "u3",
   "section": "s04",
-  "after": "Hybridoma\nA hybrid cell formed by fusion of a B ",
+  "after": "hybridomaahybridcellformedbyfusionofably",
   "score": 9.41,
   "margin": 0.883
  },
@@ -283,7 +283,7 @@
   "chapter": "hybridoma_monoclonal_antibodies",
   "unit": "u3",
   "section": "s04",
-  "after": "**Remember**\nAminopterin blocks the **de novo** ",
+  "after": "rememberaminopterinblocksthedenovopathwa",
   "score": 13.557,
   "margin": 7.338
  },
@@ -292,7 +292,7 @@
   "chapter": "hybridoma_monoclonal_antibodies",
   "unit": "u3",
   "section": "s05",
-  "after": "**CDRs**\nThe antigen-binding specificity lies in",
+  "after": "cdrstheantigenbindingspecificityliesinth",
   "score": 2.846,
   "margin": 0.231
  },
@@ -301,7 +301,7 @@
   "chapter": "gene_therapy_app",
   "unit": "u3",
   "section": "s05",
-  "after": "Clinical Examples\n• **ADA-SCID** — T-lymphocytes",
+  "after": "clinicalexamplesadascidtlymphocytesmodif",
   "score": 6.737,
   "margin": 0.78
  },
@@ -310,7 +310,7 @@
   "chapter": "gene_therapy_app",
   "unit": "u3",
   "section": "s06",
-  "after": "In vivo = vector + gene delivered directly into ",
+  "after": "invivovectorgenedelivereddirectlyintopat",
   "score": 6.439,
   "margin": 2.647
  },
@@ -319,7 +319,7 @@
   "chapter": "gene_therapy_app",
   "unit": "u3",
   "section": "s05",
-  "after": "Ex vivo = cells removed → modified in lab → retu",
+  "after": "exvivocellsremovedmodifiedinlabreturnedt",
   "score": 4.291,
   "margin": 0.069
  },
@@ -328,7 +328,7 @@
   "chapter": "crispr_gene_editing_app",
   "unit": "u3",
   "section": "s07",
-  "after": "6 steps: design gRNA → deliver into cell → bind ",
+  "after": "6stepsdesigngrnadeliverintocellbindtarge",
   "score": 6.682,
   "margin": 0.415
  },
@@ -337,7 +337,7 @@
   "chapter": "crispr_gene_editing_app",
   "unit": "u3",
   "section": "s07",
-  "after": "6 steps: design gRNA → deliver into cell → bind ",
+  "after": "6stepsdesigngrnadeliverintocellbindtarge",
   "score": 6.615,
   "margin": 1.695
  },
@@ -346,7 +346,7 @@
   "chapter": "molecular_markers_app",
   "unit": "u3",
   "section": "s04",
-  "after": "Restriction enzymes recognise and cut DNA at spe",
+  "after": "restrictionenzymesrecogniseandcutdnaatsp",
   "score": 4.353,
   "margin": 0.291
  },
@@ -355,7 +355,7 @@
   "chapter": "molecular_markers_app",
   "unit": "u3",
   "section": "s05",
-  "after": "Full Form & Definition\n**RAPD** = **R**andom **A",
+  "after": "fullformdefinitionrapdrandomamplifiedpol",
   "score": 5.684,
   "margin": 0.858
  },
@@ -364,7 +364,7 @@
   "chapter": "molecular_markers_app",
   "unit": "u3",
   "section": "s07",
-  "after": "DNA fingerprinting has 8 major application areas",
+  "after": "dnafingerprintinghas8majorapplicationare",
   "score": 3.354,
   "margin": 1.081
  },
@@ -373,7 +373,7 @@
   "chapter": "animal_cell_culture",
   "unit": "u4",
   "section": "s05",
-  "after": "Seed at 10⁴–10⁵ cells/cm². Incubate in CO₂ incub",
+  "after": "seedat1010cellscmincubateincoincubatormo",
   "score": 5.505,
   "margin": 0.612
  },
@@ -382,7 +382,7 @@
   "chapter": "animal_cell_culture",
   "unit": "u4",
   "section": "s04",
-  "after": "Culture media provide the essential nutrients, g",
+  "after": "culturemediaprovidetheessentialnutrients",
   "score": 4.827,
   "margin": 0.463
  },
@@ -391,7 +391,7 @@
   "chapter": "industrial_biotech_fermentation",
   "unit": "u4",
   "section": "s05",
-  "after": "**⚠️ Inhibitors of Fermentation**\n• **Ethanol to",
+  "after": "inhibitorsoffermentationethanoltoxicity1",
   "score": 2.041,
   "margin": 0.138
  },
@@ -400,7 +400,7 @@
   "chapter": "animal_cell_culture",
   "unit": "u4",
   "section": "s06",
-  "after": "When a primary culture is subcultured (passaged)",
+  "after": "whenaprimarycultureissubculturedpassaged",
   "score": 6.784,
   "margin": 2.793
  },
@@ -409,7 +409,7 @@
   "chapter": "animal_cell_culture",
   "unit": "u4",
   "section": "s07",
-  "after": "Adult somatic cells reprogrammed using Yamanaka ",
+  "after": "adultsomaticcellsreprogrammedusingyamana",
   "score": 11.488,
   "margin": 8.464
  },
@@ -418,7 +418,7 @@
   "chapter": "animal_cell_culture",
   "unit": "u4",
   "section": "s07",
-  "after": "Adult somatic cells reprogrammed using Yamanaka ",
+  "after": "adultsomaticcellsreprogrammedusingyamana",
   "score": 8.367,
   "margin": 4.711
  },
@@ -427,7 +427,7 @@
   "chapter": "animal_cell_culture",
   "unit": "u4",
   "section": "s09",
-  "after": "Artificial skin (tissue-engineered skin) is a **",
+  "after": "artificialskintissueengineeredskinisabio",
   "score": 5.474,
   "margin": 4.181
  },
@@ -436,7 +436,7 @@
   "chapter": "industrial_biotech_fermentation",
   "unit": "u4",
   "section": "s05",
-  "after": "**Phase 1 (Aerobic — Growth):** Limited aeration",
+  "after": "phase1aerobicgrowthlimitedaerationallows",
   "score": 1.358,
   "margin": 0.157
  },
@@ -445,7 +445,7 @@
   "chapter": "animal_cell_culture",
   "unit": "u4",
   "section": "s04",
-  "after": "**🔬 Serum-Free Media (SFM)**\n• Eliminates batch-",
+  "after": "serumfreemediasfmeliminatesbatchtobatchv",
   "score": 1.88,
   "margin": 0.176
  },
@@ -454,7 +454,7 @@
   "chapter": "industrial_biotech_fermentation",
   "unit": "u4",
   "section": "s07",
-  "after": "**🦠 Why _Saccharomyces cerevisiae_ (Baker's/Brew",
+  "after": "whysaccharomycescerevisiaebakersbrewersy",
   "score": 8.335,
   "margin": 0.98
  },
@@ -463,7 +463,7 @@
   "chapter": "industrial_biotech_fermentation",
   "unit": "u4",
   "section": "s07",
-  "after": "**🦠 Why _Saccharomyces cerevisiae_ (Baker's/Brew",
+  "after": "whysaccharomycescerevisiaebakersbrewersy",
   "score": 4.516,
   "margin": 1.007
  },
@@ -472,7 +472,7 @@
   "chapter": "animal_cell_culture",
   "unit": "u4",
   "section": "s02",
-  "after": "1907 — Ross Harrison: nerve fiber culture 1943 —",
+  "after": "1907rossharrisonnervefiberculture1943ear",
   "score": 1.658,
   "margin": 0.325
  },
@@ -481,7 +481,7 @@
   "chapter": "hgp_ethics_ipr",
   "unit": "u4",
   "section": "s04",
-  "after": "**ESTs and STS**\n**Expressed Sequence Tags (ESTs",
+  "after": "estsandstsexpressedsequencetagsestsaresh",
   "score": 2.772,
   "margin": 1.296
  },
@@ -490,7 +490,7 @@
   "chapter": "hgp_ethics_ipr",
   "unit": "u4",
   "section": "s04",
-  "after": "**5. Assembly**computer",
+  "after": "5assemblycomputer",
   "score": 2.524,
   "margin": 1.285
  },
@@ -499,7 +499,7 @@
   "chapter": "hgp_ethics_ipr",
   "unit": "u4",
   "section": "s06",
-  "after": "Bioethics\nThe study of moral issues arising from",
+  "after": "bioethicsthestudyofmoralissuesarisingfro",
   "score": 9.53,
   "margin": 7.339
  },
@@ -508,7 +508,7 @@
   "chapter": "hgp_ethics_ipr",
   "unit": "u4",
   "section": "s06",
-  "after": "The **3Rs**: Replace, Reduce, Refine. Institutio",
+  "after": "the3rsreplacereducerefineinstitutionalan",
   "score": 3.185,
   "margin": 1.415
  },
@@ -517,7 +517,7 @@
   "chapter": "hgp_ethics_ipr",
   "unit": "u4",
   "section": "s07",
-  "after": "**Patenting micro-organisms: Budapest Treaty**\nT",
+  "after": "patentingmicroorganismsbudapesttreatythe",
   "score": 2.946,
   "margin": 2.179
  },
@@ -526,7 +526,7 @@
   "chapter": "bioinformatics_databases_app",
   "unit": "u5",
   "section": "s04",
-  "after": "Biological database = organised, computer-stored",
+  "after": "biologicaldatabaseorganisedcomputerstore",
   "score": 9.263,
   "margin": 3.337
  },
@@ -535,7 +535,7 @@
   "chapter": "bioinformatics_databases_app",
   "unit": "u5",
   "section": "s06",
-  "after": "GenBank flat file format: each record has LOCUS,",
+  "after": "genbankflatfileformateachrecordhaslocusd",
   "score": 6.02,
   "margin": 2.388
  },
@@ -544,7 +544,7 @@
   "chapter": "bioinformatics_databases_app",
   "unit": "u5",
   "section": "s06",
-  "after": "GenBank flat file format: each record has LOCUS,",
+  "after": "genbankflatfileformateachrecordhaslocusd",
   "score": 1.869,
   "margin": 0.133
  },
@@ -553,7 +553,7 @@
   "chapter": "bioinformatics_tools_alignment_blast",
   "unit": "u5",
   "section": "s03",
-  "after": "Alignment arranges sequences to reveal similarit",
+  "after": "alignmentarrangessequencestorevealsimila",
   "score": 5.938,
   "margin": 2.615
  },
@@ -562,7 +562,7 @@
   "chapter": "bioinformatics_tools_alignment_blast",
   "unit": "u5",
   "section": "s03",
-  "after": "Match Mismatch Gap (linear) ModeGlobal (NW)Local",
+  "after": "matchmismatchgaplinearmodeglobalnwlocals",
   "score": 6.242,
   "margin": 1.125
  },
@@ -571,7 +571,7 @@
   "chapter": "bioinformatics_tools_alignment_blast",
   "unit": "u5",
   "section": "s05",
-  "after": "**E-value**: expected number of hits with this s",
+  "after": "evalueexpectednumberofhitswiththisscoreo",
   "score": 13.211,
   "margin": 10.258
  },
@@ -580,7 +580,7 @@
   "chapter": "bioinformatics_tools_alignment_blast",
   "unit": "u5",
   "section": "s05",
-  "after": "**E-value**: expected number of hits with this s",
+  "after": "evalueexpectednumberofhitswiththisscoreo",
   "score": 5.505,
   "margin": 3.118
  },
@@ -589,7 +589,7 @@
   "chapter": "bioinformatics_tools_alignment_blast",
   "unit": "u5",
   "section": "s04",
-  "after": "MSA aligns three or more sequences, exposing con",
+  "after": "msaalignsthreeormoresequencesexposingcon",
   "score": 3.897,
   "margin": 1.072
  },
@@ -598,7 +598,7 @@
   "chapter": "bioinformatics_tools_alignment_blast",
   "unit": "u5",
   "section": "s04",
-  "after": "MSA aligns three or more sequences, exposing con",
+  "after": "msaalignsthreeormoresequencesexposingcon",
   "score": 6.416,
   "margin": 2.423
  },
@@ -607,7 +607,7 @@
   "chapter": "bioinformatics_tools_alignment_blast",
   "unit": "u5",
   "section": "s04",
-  "after": "**Reading an alignment**\nIn Clustal output: * = ",
+  "after": "readinganalignmentinclustaloutputidentic",
   "score": 2.534,
   "margin": 0.634
  },
@@ -616,7 +616,7 @@
   "chapter": "bioinformatics_tools_alignment_blast",
   "unit": "u5",
   "section": "s06",
-  "after": "Polar surface versus buried hydrophobic core.",
+  "after": "polarsurfaceversusburiedhydrophobiccore",
   "score": 3.756,
   "margin": 1.036
  },
@@ -625,7 +625,7 @@
   "chapter": "protein_databases_app",
   "unit": "u5",
   "section": "s05",
-  "after": "Exam Point\nThe PDB file format stores 3D structu",
+  "after": "exampointthepdbfileformatstores3dstructu",
   "score": 4.974,
   "margin": 1.219
  },
@@ -634,7 +634,7 @@
   "chapter": "protein_databases_app",
   "unit": "u5",
   "section": "s09",
-  "after": "Sequence databases power: BLAST, multiple alignm",
+  "after": "sequencedatabasespowerblastmultiplealign",
   "score": 4.471,
   "margin": 1.401
  },
@@ -643,7 +643,7 @@
   "chapter": "bioinformatics_tools_alignment_blast",
   "unit": "u5",
   "section": "s07",
-  "after": "Bioinformatics combines biology, computer scienc",
+  "after": "bioinformaticscombinesbiologycomputersci",
   "score": 5.496,
   "margin": 1.999
  },
@@ -652,7 +652,7 @@
   "chapter": "bioinformatics_tools_alignment_blast",
   "unit": "u5",
   "section": "s07",
-  "after": "Bioinformatics combines biology, computer scienc",
+  "after": "bioinformaticscombinesbiologycomputersci",
   "score": 4.107,
   "margin": 1.842
  }
