@@ -25,12 +25,14 @@ class LanguageSampleTest {
         InstrumentationRegistry.getInstrumentation().targetContext.getSharedPreferences("animal_biotech", Context.MODE_PRIVATE).edit().clear().commit()
     }
 
+    /** Genus-style scientific names (Pseudomonas, Bacillus, Escherichia...) stay in Latin in Tamil text, as in the textbooks. */
+    private val taxon = Regex("[A-Z][a-z]{3,}(us|um|ia|ae|ii|monas|coccus|bacter|bacterium|ella|ium)")
     private val tamil = Regex("[஀-௿]")
     private val word = Regex("[A-Za-z][A-Za-z'’\\-]*")
     private val allow = setOf("english", "gasc", "nagercoil", "zoology", "department", "created", "by", "ramesh", "mcq", "mcqs", "version", "dna", "rna", "pcr", "blast",
         "crispr", "cas", "mrna", "trna", "rrna", "cdna", "ssdna", "dsdna", "poly", "oligo", "taq", "ori", "lac", "amp", "tet", "kan", "gfp", "yac", "bac", "pac", "sv", "kb", "bp", "kda", "mm", "ml", "nm", "pam", "hat", "swiss-prot", "swiss", "prot", "pdb", "ncbi", "embl", "fasta", "clustal", "rasmol")
     private fun symbolic(w: String) = w.length <= 2 || w.any { it.isDigit() } || w.all { it.isUpperCase() || !it.isLetter() } ||
-        Regex("[a-z][A-Z]").containsMatchIn(w) || w.lowercase() in allow || w.split('-').all { it.lowercase() in allow || it.length <= 2 }
+        Regex("[a-z][A-Z]").containsMatchIn(w) || taxon.matches(w) || w.lowercase() in allow || w.split('-').all { it.lowercase() in allow || it.length <= 2 }
 
     /** Taps by screen coordinates from a fresh lookup (a held UiObject2 goes stale while the Compose tree recomposes). */
     private fun tap(device: UiDevice, sel: androidx.test.uiautomator.BySelector, wait: Long = 0): Boolean {
