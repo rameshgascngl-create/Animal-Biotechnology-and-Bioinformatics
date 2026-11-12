@@ -34,7 +34,8 @@ jobs:
           $AAPT2 dump badging $APK | grep -E "^package|sdkVersion|targetSdkVersion|application-label:" | tee rc/badging.txt
           grep "uses-permission" rc/permissions.txt | grep -qv "DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" && { echo "FATAL: the app declares permissions"; exit 1; } || echo "manifest permissions: none"
           grep -q "targetSdkVersion:'35'" rc/badging.txt || { echo "FATAL: targetSdk is not 35"; exit 1; }
-          grep -q "sdkVersion:'26'" rc/badging.txt || { echo "FATAL: minSdk is not 26"; exit 1; }
+          $AAPT2 dump xmltree --file AndroidManifest.xml $APK | grep -E "minSdkVersion|targetSdkVersion" | tee rc/sdk-levels.txt
+          grep -q "minSdkVersion.*=26" rc/sdk-levels.txt || { echo "FATAL: minSdk is not 26"; exit 1; }
           mkdir -p /tmp/dex && cd /tmp/dex && unzip -qo "$GITHUB_WORKSPACE/$APK" 'classes*.dex' && cd -
           n=$(cat /tmp/dex/classes*.dex | strings | grep -c "android/webkit/WebView" || true)
           echo "WebView references in R8 dex: $n" | tee rc/webview.txt
