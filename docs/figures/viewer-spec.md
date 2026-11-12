@@ -27,4 +27,4 @@ Related: `docs/figures/legibility-spec.md` (option c).
 3. Close button closes.
 4. Pinch: a two-finger gesture (UiAutomator `pinchOpen`) changes the figure's on-screen bounds or the screenshot differs from the unzoomed one.
 5. Same checks in Tamil with the Tamil labels.
-6. Regression (`viewerSurvivesRotationAndRecreationOnDeepFigure`): a figure deep in a long lesson, reached by scrolling; open the viewer, rotate left, right and back, recreate the activity, the viewer is still open each time; Back closes it.
+6. Regression (`viewerSurvivesRotationAndRecreationOnDeepFigure`): the pilot figure (item 88 of a long lesson), list started 10 items above it and scrolled to it; open the viewer, rotate left, right and back, recreate the activity, the viewer is still open each time; Back closes it.

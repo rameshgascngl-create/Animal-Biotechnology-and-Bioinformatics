@@ -311,7 +311,7 @@ class ReaderCaptureTest {
                 if (bi >= 0 && idx < 0) idx = starts[si] + 1 + bi }
             require(idx > 5) { "pilot figure is not deep in the lesson (index $idx)" }
             android.util.Log.e("CITEST", "deep figure item index = $idx")
-            activity.setContent { MaterialTheme { LessonScreen(ch, Lang.EN, {}, 100, false, {}, false, {}, {}, null, startIndex = 0) } }
+            activity.setContent { MaterialTheme { LessonScreen(ch, Lang.EN, {}, 100, false, {}, false, {}, {}, null, startIndex = (idx - 10).coerceAtLeast(0)) } }
         }
         try {
             ActivityScenario.launch(MainActivity::class.java).use { scenario ->
@@ -320,21 +320,17 @@ class ReaderCaptureTest {
                 var swipes = 0
                 /** Centre of a clickable figure with a quarter screen visible, read eagerly (a node reference goes stale while the list moves). */
                 fun candidate(): Pair<Int, Int>? = try {
-                    device.findObjects(By.descStartsWith("Diagram")).mapNotNull {
+                    device.findObjects(By.descContains("pBR322 plasmid")).mapNotNull {
                         try { val r = it.visibleBounds
                             if (r.height() >= device.displayHeight / 4) Triple(r.centerX(), r.centerY(), it.contentDescription) else null
                         } catch (e: androidx.test.uiautomator.StaleObjectException) { null }
                     }.firstOrNull()?.also { android.util.Log.e("CITEST", "figure ${it.third?.take(80)} at ${it.first},${it.second}") }?.let { it.first to it.second }
                 } catch (e: androidx.test.uiautomator.StaleObjectException) { null }
                 var target: Pair<Int, Int>? = null
-                // UiScrollable drives the list's own scroll action, so it does not depend on fling length
-                val scroller = androidx.test.uiautomator.UiScrollable(androidx.test.uiautomator.UiSelector().scrollable(true)).setMaxSearchSwipes(150)
-                val found = try { scroller.scrollIntoView(androidx.test.uiautomator.UiSelector().descriptionStartsWith("Diagram")) } catch (e: Exception) { false }
-                swipes = if (found) 1 else 150
-                device.waitForIdle(); Thread.sleep(600)
-                target = candidate()
-                var extra = 0
-                while (target == null && found && extra < 6) { device.swipe(device.displayWidth / 2, device.displayHeight * 3 / 4, device.displayWidth / 2, device.displayHeight / 2, 25); device.waitForIdle(); Thread.sleep(400); target = candidate(); extra++ }
+                while (target == null && swipes < 40) {
+                    target = candidate()
+                    if (target == null) { device.swipe(device.displayWidth / 2, device.displayHeight * 3 / 4, device.displayWidth / 2, device.displayHeight / 2, 25); swipes++; device.waitForIdle(); Thread.sleep(500) }
+                }
                 android.util.Log.e("CITEST", "scrolled $swipes swipes to reach a clickable figure with a quarter screen visible")
                 val (cx, cy) = requireNotNull(target) { "no clickable figure reached by scrolling" }
                 device.click(cx, cy)
