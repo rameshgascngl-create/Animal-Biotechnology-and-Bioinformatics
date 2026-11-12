@@ -78,7 +78,7 @@
 <circle cx="116" cy="916" r="4" fill="#374151"/>
 <circle cx="80" cy="894" r="12" fill="#f9fafb"/>
 <polygon points="80.0,887.0 81.7,891.6 86.7,891.8 82.8,894.9 84.1,899.7 80.0,896.9 75.9,899.7 77.2,894.9 73.3,891.8 78.3,891.6" fill="#111827"/>
-<text data-k="d6" data-w="184" x="152" y="864" text-anchor="start" class="s" font-weight="700" fill="#0b2a40"/>
+<text data-k="d6" data-w="184" x="152" y="880" text-anchor="start" class="s" font-weight="700" fill="#0b2a40"/>
 <line x1="80" y1="936" x2="80" y2="960" stroke="#0b6f85" stroke-width="2.5" marker-end="url(#ah)"/>
 <circle cx="36" cy="984" r="13" fill="#0b2a40"/>
 <text data-num="7" x="36" y="989" text-anchor="middle" class="b" font-weight="700" fill="#ffffff"/>
@@ -93,7 +93,7 @@
 <circle cx="78" cy="1056" r="15" fill="none" stroke="#be123c" stroke-width="3.5" stroke-dasharray="5 4"/>
 <circle cx="78" cy="1056" r="10" fill="#047857"/>
 <polygon points="78.0,1050.0 79.5,1054.0 83.7,1054.1 80.4,1056.8 81.5,1060.9 78.0,1058.5 74.5,1060.9 75.6,1056.8 72.3,1054.1 76.5,1054.0" fill="#ffffff"/>
-<text data-k="d7" data-w="184" x="152" y="1026" text-anchor="start" class="s" font-weight="700" fill="#047857"/>
+<text data-k="d7" data-w="184" x="152" y="1044" text-anchor="start" class="s" font-weight="700" fill="#047857"/>
 <line x1="24" y1="1174" x2="336" y2="1174" stroke="#c9d6dc" stroke-width="1.5"/>
 <text data-k="kt" data-w="330" x="180" y="1208" text-anchor="middle" class="h" fill="#0b2a40"/>
 <rect x="24" y="1233" width="6" height="50" rx="3" fill="#0e8fb0"/>

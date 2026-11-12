@@ -60,13 +60,13 @@ y = 5 * PITCH; head(6, y, 't6')
 B.append(f'<rect x="24" y="{y+42}" width="112" height="82" rx="6" fill="#111827" stroke="{GRAY}" stroke-width="3"/>')
 for cx, cy in ((46, 66), (110, 62), (60, 108), (116, 106)): B.append(f'<circle cx="{cx}" cy="{y+cy}" r="4" fill="#374151"/>')
 B.append(f'<circle cx="80" cy="{y+84}" r="12" fill="#f9fafb"/>'); B.append(star(80, y + 84, 7, '#111827'))
-desc('d6', y, 0, DARK, True); link(y)
+desc('d6', y, 16, DARK, True); link(y)
 # 7 pick
 y = 6 * PITCH; head(7, y, 't7')
 B.append(f'<ellipse cx="80" cy="{y+82}" rx="56" ry="38" fill="#fff3c4" stroke="{ORANGE}" stroke-width="3.5"/>')
 for cx, cy in ((46, 82), (114, 82), (62, 106), (98, 106), (66, 60), (96, 60)): B.append(f'<circle cx="{cx}" cy="{y+cy}" r="8" fill="{GREEN}"/>')
 B.append(f'<circle cx="78" cy="{y+84}" r="15" fill="none" stroke="{RED}" stroke-width="3.5" stroke-dasharray="5 4"/>'); B.append(f'<circle cx="78" cy="{y+84}" r="10" fill="{GREEN}"/>'); B.append(star(78, y + 84, 6, '#ffffff'))
-desc('d7', y, 0, GREEN, True)
+desc('d7', y, 18, GREEN, True)
 # key elements
 ky = 7 * PITCH + 74
 B.append(f'<line x1="24" y1="{ky-34}" x2="336" y2="{ky-34}" stroke="#c9d6dc" stroke-width="1.5"/>')
