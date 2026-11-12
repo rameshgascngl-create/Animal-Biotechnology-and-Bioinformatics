@@ -12,7 +12,7 @@ res/font for Tamil; Latin inside Tamil strings also uses Inter), wrapping at dat
 and only then writes the PNGs (1440 px wide) and the alt-text JSON. A failed gate exits non-zero and writes nothing.
 Classes: .h 17, .b 14.5, .s 13.5 units on a 360-unit canvas (13.5 x 300/360 = 11.25 sp).
 """
-import argparse, json, os, shutil, sys
+import argparse, json, os, re, shutil, sys
 from playwright.sync_api import sync_playwright
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.abspath(os.path.join(HERE, '..', '..'))
 sys.path.insert(0, os.path.join(ROOT, 'tools', 'diagrams'))
@@ -21,6 +21,7 @@ INTER = '/usr/share/fonts/opentype/inter/Inter-Regular.otf', '/usr/share/fonts/o
 TAMIL = (os.path.join(ROOT, 'app/src/main/res/font/notosanstamil_regular.ttf'), os.path.join(ROOT, 'app/src/main/res/font/notosanstamil_bold.ttf'))
 STRUCT = {'outside', 'text_text', 'text_stroke', 'text_edge', 'covered', 'shape_overlap', 'stroke_cross', 'arrow_text', 'margin'}
 MIN_SP = 11.0
+MAX_SIDE_PX = 4096
 CSS = """@font-face{font-family:FigEN;src:url(file://%s);font-weight:400}@font-face{font-family:FigEN;src:url(file://%s);font-weight:700}
 @font-face{font-family:FigTA;src:url(file://%s);font-weight:400}@font-face{font-family:FigTA;src:url(file://%s);font-weight:700}
 html,body{margin:0;background:#fff} svg{display:block} svg text{font-family:FigEN,FigTA,sans-serif}
@@ -61,6 +62,9 @@ def main():
         if not os.path.exists(f): sys.exit('missing font ' + f)
     html = '<html><head><meta charset="utf-8"><style>' + CSS % (INTER + TAMIL) + '</style></head><body>' + svg + '</body></html>'
     tmp = os.path.join('/tmp', 'fig_' + a.id + '.html'); open(tmp, 'w', encoding='utf8').write(html)
+    vb = [float(v) for v in re.search(r'viewBox="([^"]+)"', svg).group(1).split()]
+    scale = min(4.0, MAX_SIDE_PX / (vb[3] * 360.0 / vb[2]))  # 4x unless that would put a side over the 4096 px texture limit (AssetSizeTest)
+    scale = int(scale * 100) / 100.0
     os.makedirs(a.audit, exist_ok=True); report = {}; ok = True; out = []
     with sync_playwright() as p:
         b = p.chromium.launch(executable_path=os.environ.get('CHROME_BIN') or shutil.which('google-chrome') or shutil.which('chromium'), args=['--no-sandbox'])
@@ -73,7 +77,7 @@ def main():
             if issues or bad or (m['minsp'] or 0) < MIN_SP - 0.01: ok = False
             pg.locator('svg').screenshot(path=os.path.join(a.audit, f'{a.id}_after{suffix}_300dp.png'))
             pg.evaluate(FORCE_T.replace('__W__', '360'), 0); pg.close()
-            pg = b.new_page(viewport={'width': 800, 'height': 1000}, device_scale_factor=4); pg.goto('file://' + tmp); pg.evaluate(LAYOUT, [S, lang])
+            pg = b.new_page(viewport={'width': 800, 'height': 1000}, device_scale_factor=scale); pg.goto('file://' + tmp); pg.evaluate(LAYOUT, [S, lang])
             pg.evaluate(FORCE_T.replace('__W__', '360'), 0); out.append((lang, suffix, pg.locator('svg').screenshot(type='png'))); pg.close()
         b.close()
     json.dump(report, open(os.path.join(a.audit, a.id + '-geometry.json'), 'w'), ensure_ascii=False, indent=1)
