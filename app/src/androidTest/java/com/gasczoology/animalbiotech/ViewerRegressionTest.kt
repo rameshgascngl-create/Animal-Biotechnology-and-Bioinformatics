@@ -69,7 +69,7 @@ class ViewerRegressionTest {
                 device.click(cx, cy)
                 val close = "Close"
                 fun viewerOpen() = device.wait(Until.hasObject(By.text(close)), 6000) || device.wait(Until.hasObject(By.desc(close)), 1500)
-                if (!viewerOpen()) { logDescriptions(device); org.junit.Assert.fail("viewer did not open") }
+                if (!viewerOpen()) { logDescriptions(device); org.junit.Assert.fail("viewer did not stay open after the click (see CITEST: composing viewer / viewer disposed)") }
                 device.setOrientationLeft(); device.waitForIdle()
                 assertTrue("viewer lost after rotating left", viewerOpen())
                 device.setOrientationRight(); device.waitForIdle()
