@@ -29,6 +29,14 @@ class ReaderCaptureTest {
         Regex("content-desc=\"([^\"]+)\"").findAll(bo.toString()).forEach { android.util.Log.e("CITEST", "desc: " + it.groupValues[1].take(160)) }
     }
 
+    /** Logs PSS and heap figures (kB) from dumpsys meminfo under the CITEST-MEM tag: "moment | label | value". */
+    private fun logMem(device: UiDevice, moment: String) {
+        val out = device.executeShellCommand("dumpsys meminfo com.gasczoology.animalbiotech")
+        for (key in listOf("Java Heap:", "Native Heap:", "Graphics:", "TOTAL PSS:", "TOTAL:")) {
+            out.lines().firstOrNull { it.trim().startsWith(key) }?.let { android.util.Log.e("CITEST-MEM", "$moment | ${it.trim().replace(Regex("\\s+"), " ")}") }
+        }
+    }
+
     private fun hasButton(device: UiDevice, label: String) = device.hasObject(By.text(label)) || device.hasObject(By.desc(label))
     private fun button(device: UiDevice, label: String) = device.findObject(By.text(label)) ?: device.findObject(By.desc(label))
 
@@ -262,6 +270,7 @@ class ReaderCaptureTest {
                 val prefix = if (lang == Lang.EN) "Diagram:" else "\u0BAA\u0B9F\u0BAE\u0BCD:"
                 assertTrue("pilot figure not found", device.wait(Until.hasObject(By.descStartsWith(prefix)), 10000))
                 capture("12-pilot-inline-$tag-${lang.name}")
+                logMem(device, "$tag ${lang.name} inline")
                 val close = if (lang == Lang.EN) "Close" else "\u0BAE\u0BC2\u0B9F\u0BC1"
                 requireNotNull(device.findObject(By.descStartsWith(prefix))).click()
                 assertTrue("pilot viewer did not open", device.wait(Until.hasObject(By.text(close)), 8000) || device.wait(Until.hasObject(By.desc(close)), 2000))
@@ -275,11 +284,11 @@ class ReaderCaptureTest {
                 fig.pinchOpen(0.6f, 400)
                 capture("14-pilot-pinched-$tag-${lang.name}")
                 assertNotEquals("pinch did not change the frame", before, md5(device, "14-pilot-pinched-$tag-${lang.name}"))
-                // memory with the viewer open and zoomed (logged; read from the CI log)
-                device.executeShellCommand("dumpsys meminfo com.gasczoology.animalbiotech").lines().filter { it.isNotBlank() }
-                    .forEach { android.util.Log.e("CITEST-MEM", "$tag ${lang.name} $it") }
+                logMem(device, "$tag ${lang.name} viewer-open-zoomed")
                 device.pressBack()
                 assertTrue("Back did not close the pilot viewer", device.wait(Until.gone(By.text(close)), 5000))
+                System.gc(); Thread.sleep(1500); System.gc()
+                logMem(device, "$tag ${lang.name} viewer-closed-after-gc")
             }
         }
     }
