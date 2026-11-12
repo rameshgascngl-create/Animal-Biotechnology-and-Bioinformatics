@@ -47,37 +47,69 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.produceState
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
 import com.gasczoology.animalbiotech.content.Diagram
 import com.gasczoology.animalbiotech.content.DiagramSpec
 import com.gasczoology.animalbiotech.content.parseDiagramSpec
 import com.gasczoology.animalbiotech.i18n.Lang
 import com.gasczoology.animalbiotech.i18n.tr
 
-private class DiagramAsset(val image: androidx.compose.ui.graphics.ImageBitmap, val spec: DiagramSpec?, val altEn: String? = null, val altTa: String? = null)
+/** Which files belong to a figure, plus its marker spec and alt text. No pixels are decoded here. */
+private class FigureFiles(val enPath: String?, val taPath: String?, val spec: DiagramSpec?, val altEn: String?, val altTa: String?)
 
-private fun decode(ctx: android.content.Context, path: String): android.graphics.Bitmap? = try {
+private const val MAX_BITMAP_SIDE = 4096
+
+/** Power-of-two sub-sampling: as far as the result stays at least [targetWidthPx] wide, and always enough to keep both sides within [MAX_BITMAP_SIDE]. */
+internal fun sampleSizeFor(outW: Int, outH: Int, targetWidthPx: Int?): Int {
+    var sample = 1
+    if (targetWidthPx != null && targetWidthPx > 0) while (outW / (sample * 2) >= targetWidthPx) sample *= 2
+    while (maxOf(outW, outH) / sample > MAX_BITMAP_SIDE) sample *= 2
+    return sample
+}
+
+/**
+ * Decodes an asset. With [targetWidthPx] the image is sub-sampled (powers of two) as far as it can be while staying at least that wide,
+ * so inline figures are decoded at display size, not full size. Whatever the target, no side is allowed above [MAX_BITMAP_SIDE]
+ * (texture limit on some GPUs); shipped figures are at most 3232 px, and the unit test AssetSizeTest enforces the 4096 limit.
+ */
+internal fun decodeFigure(ctx: android.content.Context, path: String, targetWidthPx: Int?): android.graphics.Bitmap? = try {
     val bounds = BitmapFactory.Options().apply { inJustDecodeBounds = true }
     ctx.assets.open(path).use { BitmapFactory.decodeStream(it, null, bounds) }
-    val opts = BitmapFactory.Options().apply { inSampleSize = if (bounds.outWidth > 2400) 2 else 1 }
+    val sample = sampleSizeFor(bounds.outWidth, bounds.outHeight, targetWidthPx)
+    val opts = BitmapFactory.Options().apply { inSampleSize = sample }
     ctx.assets.open(path).use { BitmapFactory.decodeStream(it, null, opts) }
 } catch (e: Exception) { null }
 
+private fun imageSize(ctx: android.content.Context, path: String): Pair<Int, Int>? = try {
+    val bounds = BitmapFactory.Options().apply { inJustDecodeBounds = true }
+    ctx.assets.open(path).use { BitmapFactory.decodeStream(it, null, bounds) }
+    if (bounds.outWidth > 0 && bounds.outHeight > 0) bounds.outWidth to bounds.outHeight else null
+} catch (e: Exception) { null }
+
 /**
- * Loads one figure variant. [suffix] is "" (English art) or "_ta" (Tamil-labelled render).
- * A real photograph supplied as <id>_photo.png|jpg replaces the illustration (and may carry <id>_photo.json markers).
+ * Finds a figure's files. A real photograph supplied as <id>_photo.png|jpg replaces the illustration in both languages
+ * (and may carry <id>_photo.json markers); otherwise English art is <id>.png and the Tamil-labelled render is <id>_ta.png.
  */
-private fun loadAsset(ctx: android.content.Context, id: String, suffix: String): DiagramAsset? = try {
+private fun loadFiles(ctx: android.content.Context, id: String): FigureFiles? = try {
     val names = ctx.assets.list("diagrams")?.toSet() ?: emptySet()
-    val file = listOf("${id}_photo.png", "${id}_photo.jpg", "$id$suffix.png").firstOrNull { it in names }
+    fun pick(suffix: String) = listOf("${id}_photo.png", "${id}_photo.jpg", "$id$suffix.png").firstOrNull { it in names }?.let { "diagrams/$it" }
     val specName = if ("${id}_photo.json" in names) "${id}_photo.json" else "$id.json"
     val spec = if (specName in names)
         parseDiagramSpec(ctx.assets.open("diagrams/$specName").bufferedReader(Charsets.UTF_8).use { it.readText() }) else null
-    val bmp = if (file != null) decode(ctx, "diagrams/$file") else null
     val alt = if ("$id.alt.json" in names) runCatching {
         org.json.JSONObject(ctx.assets.open("diagrams/$id.alt.json").bufferedReader(Charsets.UTF_8).use { it.readText() })
     }.getOrNull() else null
-    if (bmp != null) DiagramAsset(bmp.asImageBitmap(), spec?.takeIf { it.markers.isNotEmpty() },
-        alt?.optString("en")?.takeIf { it.isNotBlank() }, alt?.optString("ta")?.takeIf { it.isNotBlank() }) else null
+    val en = pick("")
+    if (en == null) null else FigureFiles(en, pick("_ta"), spec?.takeIf { it.markers.isNotEmpty() },
+        alt?.optString("en")?.takeIf { it.isNotBlank() }, alt?.optString("ta")?.takeIf { it.isNotBlank() })
 } catch (e: Exception) { null }
 
 /**
@@ -87,25 +119,24 @@ private fun loadAsset(ctx: android.content.Context, id: String, suffix: String):
 @Composable
 fun DiagramView(block: Diagram, lang: Lang, scale: Float) {
     val ctx = LocalContext.current
-    val en = remember(block.id) { loadAsset(ctx, block.id, "") }
-    val ta = remember(block.id) { loadAsset(ctx, block.id, "_ta") }
+    val files = remember(block.id) { loadFiles(ctx, block.id) }
     Card(
         colors = CardDefaults.cardColors(containerColor = Color.White),
         border = BorderStroke(1.dp, Color(0xFFB8C4D4)),
     ) {
         Column(Modifier.padding(10.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
             when {
-                en == null -> Text("Figure: ${block.id}", fontSize = (11 * scale).sp, color = Muted)
-                en.spec != null -> MarkerFigure(en, block, lang)
+                files == null -> Text("Figure: ${block.id}", fontSize = (11 * scale).sp, color = Muted)
+                files.spec != null -> MarkerFigure(files, block, lang)
                 else -> {
-                    val showEn = lang == Lang.EN || ta == null
-                    val showTa = lang == Lang.TA && ta != null
-                    if (showEn) FlatImage(en, en.altEn ?: block.caption.en, lang)
-                    if (showTa) FlatImage(ta!!, ta!!.altTa ?: en.altTa ?: block.caption.ta.ifBlank { block.caption.en }, lang)
+                    // Only the active language's bitmap is ever decoded.
+                    val showTa = lang == Lang.TA && files.taPath != null
+                    if (showTa) FlatImage(files.taPath!!, files.altTa ?: block.caption.ta.ifBlank { block.caption.en }, lang)
+                    else FlatImage(files.enPath!!, files.altEn ?: block.caption.en, lang)
                 }
             }
             BiText(block.caption, lang, scale, base = MaterialTheme.typography.bodyMedium, weight = FontWeight.SemiBold)
-            val legend = en?.spec?.markers
+            val legend = files?.spec?.markers
             if (legend != null) {
                 legend.forEach { m ->
                     Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
@@ -122,27 +153,42 @@ fun DiagramView(block: Diagram, lang: Lang, scale: Float) {
 }
 
 @Composable
-private fun FlatImage(a: DiagramAsset, description: String, lang: Lang) {
+private fun FlatImage(path: String, description: String, lang: Lang) {
+    val ctx = LocalContext.current
     val host = LocalFigureViewerHost.current
-    var expanded by remember { mutableStateOf(false) }
-    if (host == null && expanded) FigureViewer(a.image, description, lang) { expanded = false }
+    var local by remember { mutableStateOf<ViewerRequest?>(null) }
+    if (host == null) local?.let { FigureViewer(it) { local = null } }
     // Alt text is already a full sentence for rebuilt figures; older figures only have the caption.
     val label = if (description.startsWith("Diagram") || description.startsWith("படம்")) description
         else tr(lang, "Diagram: ", "படம்: ") + description
-    Image(
-        bitmap = a.image, contentDescription = label, contentScale = ContentScale.FillWidth,
-        modifier = Modifier.fillMaxWidth().clip(androidx.compose.foundation.shape.RoundedCornerShape(8.dp))
-            .clickable(onClickLabel = tr(lang, "Enlarge diagram", "படத்தைப் பெரிதாக்கு")) { if (host != null) host.request = ViewerRequest(a.image, description, lang) else expanded = true },
-    )
+    val size = remember(path) { imageSize(ctx, path) }
+    val aspect = size?.let { it.first.toFloat() / it.second } ?: 1.5f
+    BoxWithConstraints(Modifier.fillMaxWidth()) {
+        val widthPx = constraints.maxWidth
+        // Decoded at (about) display width; the bitmap is dropped when this item leaves composition.
+        val bmp by produceState<android.graphics.Bitmap?>(null, path, widthPx) {
+            value = withContext(Dispatchers.IO) { decodeFigure(ctx, path, widthPx) }
+        }
+        Box(
+            Modifier.fillMaxWidth().aspectRatio(aspect).clip(androidx.compose.foundation.shape.RoundedCornerShape(8.dp))
+                .clickable(onClickLabel = tr(lang, "Enlarge diagram", "படத்தைப் பெரிதாக்கு")) {
+                    val r = ViewerRequest(path, description, if (lang == Lang.TA) "TA" else "EN")
+                    if (host != null) host.request = r else local = r
+                }
+                .semantics { contentDescription = label },
+        ) {
+            bmp?.let { Image(bitmap = it.asImageBitmap(), contentDescription = null, contentScale = ContentScale.FillBounds, modifier = Modifier.fillMaxSize()) }
+        }
+    }
 }
 
 @Composable
-private fun MarkerFigure(a: DiagramAsset, block: Diagram, lang: Lang) {
-    val spec = a.spec ?: return
+private fun MarkerFigure(f: FigureFiles, block: Diagram, lang: Lang) {
+    val spec = f.spec ?: return
     BoxWithConstraints(Modifier.fillMaxWidth()) {
         val w = maxWidth
         val h = w / spec.aspect
-        FlatImage(a, block.caption.en, lang)
+        FlatImage(f.enPath!!, block.caption.en, lang)
         spec.markers.forEach { m ->
             Box(
                 Modifier.offset(w * m.x - 11.dp, h * m.y - 11.dp).size(22.dp).clip(CircleShape).background(Color(0xFF0B2A4A)),
