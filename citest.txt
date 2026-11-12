@@ -1,0 +1,20 @@
+--------- beginning of main
+11-12 04:17:38.358  2372  2372 E CITEST  : deep figure item index = 88
+11-12 04:17:48.788  2372  2385 E CITEST  : figure Diagram: Insertional inactivation pBR322 at 360,758
+11-12 04:17:48.788  2372  2385 E CITEST  : scrolled 8 swipes to reach a clickable figure with a quarter screen visible
+11-12 04:17:48.920  2372  2372 E CITEST  : inline click -> expanded
+11-12 04:17:48.923  2372  2372 E CITEST  : composing viewer
+11-12 04:17:49.487  2372  2372 E CITEST  : viewer disposed
+11-12 04:17:56.541  2372  2385 E CITEST  : desc: 4:17 AM
+11-12 04:17:56.542  2372  2385 E CITEST  : desc: Android System notification: 
+11-12 04:17:56.542  2372  2385 E CITEST  : desc: Wifi signal full.
+11-12 04:17:56.542  2372  2385 E CITEST  : desc: Phone signal full.
+11-12 04:17:56.542  2372  2385 E CITEST  : desc: Battery charging, 100 percent.
+11-12 04:17:56.542  2372  2385 E CITEST  : desc: Back
+11-12 04:17:56.542  2372  2385 E CITEST  : desc: Home
+11-12 04:17:56.542  2372  2385 E CITEST  : desc: Recents
+11-12 04:17:56.542  2372  2385 E CITEST  : desc: Back
+11-12 04:17:56.542  2372  2385 E CITEST  : desc: Save topic
+11-12 04:17:56.542  2372  2385 E CITEST  : desc: Mark as studied
+11-12 04:17:56.543  2372  2385 E CITEST  : desc: Diagram: Direct selection antibiotic resistance
+11-12 04:17:56.543  2372  2385 E CITEST  : desc: Diagram: Insertional inactivation pBR322
