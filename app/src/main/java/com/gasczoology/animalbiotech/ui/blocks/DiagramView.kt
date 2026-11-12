@@ -191,7 +191,7 @@ private fun MarkerFigure(f: FigureFiles, block: Diagram, lang: Lang) {
     BoxWithConstraints(Modifier.fillMaxWidth()) {
         val w = maxWidth
         val h = w / spec.aspect
-        FlatImage(f.enPath!!, block.caption.en, lang)
+        FlatImage(block.id, f.enPath!!, block.caption.en, lang)
         spec.markers.forEach { m ->
             Box(
                 Modifier.offset(w * m.x - 11.dp, h * m.y - 11.dp).size(22.dp).clip(CircleShape).background(Color(0xFF0B2A4A)),
