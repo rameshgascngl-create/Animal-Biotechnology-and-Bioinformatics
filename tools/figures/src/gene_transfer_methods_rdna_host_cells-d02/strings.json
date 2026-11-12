@@ -1,0 +1,54 @@
+{
+ "t1": {
+  "en": "Form the DNA–calcium phosphate precipitate",
+  "ta": "DNA–கால்சியம் பாஸ்பேட் படிவம் உருவாக்கம்"
+ },
+ "dna": {
+  "en": "Recombinant DNA",
+  "ta": "மறுசேர்க்கை DNA"
+ },
+ "ca": {
+  "en": "+ CaCl₂ / phosphate",
+  "ta": "+ CaCl₂ / பாஸ்பேட்"
+ },
+ "d1": {
+  "en": "DNA, CaCl₂ and phosphate buffer are mixed; fine DNA-bearing particles form",
+  "ta": "DNA, CaCl₂, பாஸ்பேட் தாங்கல் கலந்து நுண்துகள்கள் உருவாகின்றன"
+ },
+ "t2": {
+  "en": "The precipitate settles on the cells",
+  "ta": "படிவு செல்கள்மீது படிகிறது"
+ },
+ "cap": {
+  "en": "Ca-ppt",
+  "ta": "Ca-படிவு"
+ },
+ "d2": {
+  "en": "The precipitate lies on the cell surface",
+  "ta": "செல் மேற்பரப்பில் படிவு படிந்துள்ளது"
+ },
+ "t3": {
+  "en": "Endocytosis towards the nucleus",
+  "ta": "எண்டோசைட்டோசிஸ் மூலம் உட்கருவை நோக்கி"
+ },
+ "d3": {
+  "en": "The cell takes in the particles by endocytosis",
+  "ta": "செல் துகள்களை எண்டோசைட்டோசிஸ் மூலம் உள்ளெடுக்கிறது"
+ },
+ "t4": {
+  "en": "Gene expression",
+  "ta": "மரபணு வெளிப்பாடு"
+ },
+ "d4a": {
+  "en": "mRNA → protein produced",
+  "ta": "mRNA → புரதம் உருவாகிறது"
+ },
+ "d4b": {
+  "en": "Transient or stable expression",
+  "ta": "தற்காலிக அல்லது நிலையான வெளிப்பாடு"
+ },
+ "_alt": {
+  "en": "Diagram: calcium phosphate transfection in four steps. 1: recombinant DNA is mixed with CaCl₂ and phosphate to form a fine precipitate. 2: the precipitate settles on the cell surface. 3: the cell takes it in by endocytosis towards the nucleus. 4: the gene is expressed, giving mRNA and then protein, transiently or stably.",
+  "ta": "படம்: கால்சியம் பாஸ்பேட் மூலம் மரபணு மாற்றம், நான்கு படிகளில். 1: மறுசேர்க்கை DNA, CaCl₂ மற்றும் பாஸ்பேட்டுடன் கலந்து நுண்படிவு உருவாகிறது. 2: படிவு செல் மேற்பரப்பில் படிகிறது. 3: செல் எண்டோசைட்டோசிஸ் மூலம் அதை உட்கருவை நோக்கி உள்ளெடுக்கிறது. 4: மரபணு வெளிப்படுகிறது; mRNA, பின்னர் புரதம் உருவாகிறது; தற்காலிகமாகவோ நிலையாகவோ."
+ }
+}

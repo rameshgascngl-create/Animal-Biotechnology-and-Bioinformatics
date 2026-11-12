@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 898">
+<rect width="360" height="898" fill="#ffffff"/>
+<defs><marker id="ah" markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L5,2.5 L0,5 z" fill="#0b6f85"/></marker></defs>
+<g transform="translate(0,56)">
+<circle cx="180" cy="138" r="84" fill="none" stroke="#d3dde3" stroke-width="16"/>
+<path d="M 107.3 180.0 A 84 84 0 0 1 180.0 54.0" fill="none" stroke="#0ea5b7" stroke-width="16" stroke-linecap="butt"/>
+<path d="M 113.7 147.3 A 67 67 0 0 1 157.1 75.0" fill="none" stroke="#0b5d6b" stroke-width="8" stroke-linecap="butt"/>
+<path d="M 208.7 59.1 A 84 84 0 0 1 263.7 130.7" fill="none" stroke="#4caf82" stroke-width="16" stroke-linecap="butt"/>
+<path d="M 222.0 210.7 A 84 84 0 0 1 123.8 200.4" fill="none" stroke="#c24560" stroke-width="16" stroke-linecap="butt"/>
+<circle cx="258.9" cy="166.7" r="12" fill="#2b7bb0" stroke="#ffffff" stroke-width="3"/>
+<line x1="180.0" y1="66.0" x2="180.0" y2="28.0" stroke="#0b2a40" stroke-width="4"/>
+<line x1="117.6" y1="174.0" x2="84.7" y2="193.0" stroke="#0b2a40" stroke-width="4"/>
+<text data-k="rb" data-w="50" x="180.0" y="20.0" text-anchor="middle" class="b" font-weight="700" fill="#0b2a40"/>
+<text data-k="lb" data-w="50" x="78.73720558371178" y="207.00000000000006" text-anchor="end" class="b" font-weight="700" fill="#0b2a40"/>
+<text data-k="ti" data-w="112" x="180" y="126" text-anchor="middle" class="h" fill="#0b2a40"/>
+<text data-k="kb" data-w="90" x="180" y="184" text-anchor="middle" class="s" fill="#496570"/>
+<rect x="24" y="264" width="16" height="16" rx="3" fill="#0ea5b7"/>
+<text data-k="t_tdna" data-w="284" x="52" y="278" text-anchor="start" class="b" font-weight="700" fill="#0ea5b7"/>
+<text data-k="d_tdna" data-w="284" x="52" y="302" text-anchor="start" class="s" fill="#071e2e"/>
+<rect x="24" y="360" width="16" height="16" rx="3" fill="#0b5d6b"/>
+<text data-k="t_onc" data-w="284" x="52" y="374" text-anchor="start" class="b" font-weight="700" fill="#0b5d6b"/>
+<text data-k="d_onc" data-w="284" x="52" y="398" text-anchor="start" class="s" fill="#071e2e"/>
+<rect x="24" y="434" width="16" height="16" rx="3" fill="#0b2a40"/>
+<text data-k="t_bord" data-w="284" x="52" y="448" text-anchor="start" class="b" font-weight="700" fill="#0b2a40"/>
+<text data-k="d_bord" data-w="284" x="52" y="472" text-anchor="start" class="s" fill="#071e2e"/>
+<rect x="24" y="530" width="16" height="16" rx="3" fill="#c24560"/>
+<text data-k="t_vir" data-w="284" x="52" y="544" text-anchor="start" class="b" font-weight="700" fill="#c24560"/>
+<text data-k="d_vir" data-w="284" x="52" y="568" text-anchor="start" class="s" fill="#071e2e"/>
+<rect x="24" y="626" width="16" height="16" rx="3" fill="#4caf82"/>
+<text data-k="t_opine" data-w="284" x="52" y="640" text-anchor="start" class="b" font-weight="700" fill="#1f7a52"/>
+<text data-k="d_opine" data-w="284" x="52" y="664" text-anchor="start" class="s" fill="#071e2e"/>
+<rect x="24" y="700" width="16" height="16" rx="3" fill="#2b7bb0"/>
+<text data-k="t_ori" data-w="284" x="52" y="714" text-anchor="start" class="b" font-weight="700" fill="#2b7bb0"/>
+<text data-k="d_ori" data-w="284" x="52" y="738" text-anchor="start" class="s" fill="#071e2e"/>
+<text data-k="note" data-w="300" x="180" y="772" text-anchor="middle" class="s" font-style="italic" fill="#496570"/>
+</g>
+</svg>
+

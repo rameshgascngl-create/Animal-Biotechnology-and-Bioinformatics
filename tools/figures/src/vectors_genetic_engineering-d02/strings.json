@@ -1,0 +1,20 @@
+{
+ "rb": {"en": "RB", "ta": "RB"},
+ "lb": {"en": "LB", "ta": "LB"},
+ "ti": {"en": "Ti plasmid", "ta": "Ti பிளாஸ்மிட்"},
+ "kb": {"en": "~200 kb", "ta": "~200 kb"},
+ "t_tdna": {"en": "T-DNA (transfer DNA)", "ta": "T-DNA (DNA மாற்றம்)"},
+ "d_tdna": {"en": "~25 kb; integrates into the plant genome", "ta": "~25 kb; தாவர மரபணுத்தொகைக்குள் ஒருங்கிணைகிறது"},
+ "t_onc": {"en": "onc genes", "ta": "onc மரபணுக்கள்"},
+ "d_onc": {"en": "Lie inside the T-DNA; tumour formation", "ta": "T-DNA-வுக்குள் உள்ளன; கட்டி உருவாதல்"},
+ "t_bord": {"en": "Left and Right Border (LB, RB)", "ta": "இடது, வலது எல்லை (LB, RB)"},
+ "d_bord": {"en": "The two border sequences that mark the ends of the T-DNA", "ta": "T-DNA-வின் இரு முனைகளைக் குறிக்கும் எல்லைத் தொடர்கள்"},
+ "t_vir": {"en": "vir genes", "ta": "vir மரபணுக்கள்"},
+ "d_vir": {"en": "virA,B,C,D,E,G; ~35 kb; lie outside the T-DNA and mediate its transfer", "ta": "virA,B,C,D,E,G; ~35 kb; T-DNA-வுக்கு வெளியே உள்ளன; அதன் மாற்றத்தை நிகழ்த்துகின்றன"},
+ "t_opine": {"en": "Opine catabolism", "ta": "ஒப்பீன் சிதைவு"},
+ "d_opine": {"en": "Metabolises opines produced by the plant", "ta": "தாவரத்தால் உருவாக்கப்பட்ட ஒப்பீன்களைச் சிதைக்கிறது"},
+ "t_ori": {"en": "ori", "ta": "ori"},
+ "d_ori": {"en": "Replication origin", "ta": "இரட்டிப்புத் தொடக்கம்"},
+ "note": {"en": "Arc sizes are schematic, not to scale", "ta": "வில் அளவுகள் வரைபடத்துக்காக; அளவுக்கேற்றவை அல்ல"},
+ "_alt": {"en": "Diagram: map of the Ti plasmid of Agrobacterium tumefaciens, about 200 kb. Round the ring: the T-DNA (about 25 kb) between the Right Border and Left Border, with the onc genes for tumour formation inside it; the vir genes (about 35 kb) outside it, which mediate T-DNA transfer; the opine catabolism region; and the replication origin (ori). Arc sizes are schematic.", "ta": "படம்: அக்ரோபாக்டீரியம் டியூமிஃபேசியன்ஸின் Ti பிளாஸ்மிட் வரைபடம், ஏறத்தாழ 200 kb. வளையத்தில்: வலது எல்லைக்கும் இடது எல்லைக்கும் இடையில் T-DNA (~25 kb), அதற்குள் கட்டி உருவாக்கும் onc மரபணுக்கள்; வெளியே T-DNA மாற்றத்தை நிகழ்த்தும் vir மரபணுக்கள் (~35 kb); ஒப்பீன் சிதைவுப் பகுதி; இரட்டிப்புத் தொடக்கம் (ori). வில் அளவுகள் வரைபடத்துக்காக மட்டுமே."}
+}

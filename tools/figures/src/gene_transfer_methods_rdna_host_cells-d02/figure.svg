@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 826">
+<rect width="360" height="826" fill="#ffffff"/>
+<defs><marker id="ah" markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L5,2.5 L0,5 z" fill="#0b6f85"/></marker></defs>
+<g transform="translate(0,56)">
+<circle cx="36" cy="12" r="13" fill="#0b2a40"/>
+<text data-num="1" x="36" y="17" text-anchor="middle" class="b" font-weight="700" fill="#ffffff"/>
+<text data-k="t1" data-w="282" x="58" y="17" text-anchor="start" class="b" font-weight="700" fill="#0b2a40"/>
+<rect x="28" y="50" width="136" height="38" rx="19" fill="#b6ecf5" stroke="#0e8fb0" stroke-width="3"/>
+<text data-k="dna" data-w="128" x="96" y="74" text-anchor="middle" class="s" fill="#0b4a5a"/>
+<text data-k="ca" data-w="136" x="28" y="108" text-anchor="start" class="s" font-weight="700" fill="#d97706"/>
+<line x1="96" y1="124" x2="96" y2="146" stroke="#d97706" stroke-width="2.5" marker-end="url(#ah)"/>
+<circle cx="54.0" cy="164.0" r="6" fill="#b9c0c5" fill-opacity="0.75"/>
+<circle cx="74.0" cy="160.0" r="6" fill="#b9c0c5" fill-opacity="0.75"/>
+<circle cx="96.0" cy="166.0" r="6" fill="#b9c0c5" fill-opacity="0.75"/>
+<circle cx="116.0" cy="161.0" r="6" fill="#b9c0c5" fill-opacity="0.75"/>
+<text data-k="d1" data-w="164" x="174" y="74" text-anchor="start" class="s" fill="#071e2e"/>
+<circle cx="36" cy="188" r="13" fill="#0b2a40"/>
+<text data-num="2" x="36" y="193" text-anchor="middle" class="b" font-weight="700" fill="#ffffff"/>
+<text data-k="t2" data-w="282" x="58" y="193" text-anchor="start" class="b" font-weight="700" fill="#0b2a40"/>
+<ellipse cx="80" cy="280" rx="46" ry="44" fill="#fff1de" stroke="#d97706" stroke-width="4"/>
+<circle cx="80" cy="280" r="17" fill="#fde68a" stroke="#d97706" stroke-width="3"/>
+<circle cx="35.0" cy="254.0" r="6" fill="#b9c0c5" fill-opacity="0.75"/>
+<circle cx="54.0" cy="235.0" r="6" fill="#b9c0c5" fill-opacity="0.75"/>
+<circle cx="80.0" cy="228.0" r="6" fill="#b9c0c5" fill-opacity="0.75"/>
+<circle cx="106.0" cy="235.0" r="6" fill="#b9c0c5" fill-opacity="0.75"/>
+<circle cx="125.0" cy="254.0" r="6" fill="#b9c0c5" fill-opacity="0.75"/>
+<text data-k="cap" data-w="100" x="80" y="336" text-anchor="middle" class="s" fill="#8a949b"/>
+<text data-k="d2" data-w="164" x="174" y="230" text-anchor="start" class="s" fill="#071e2e"/>
+<circle cx="36" cy="364" r="13" fill="#0b2a40"/>
+<text data-num="3" x="36" y="369" text-anchor="middle" class="b" font-weight="700" fill="#ffffff"/>
+<text data-k="t3" data-w="282" x="58" y="369" text-anchor="start" class="b" font-weight="700" fill="#0b2a40"/>
+<ellipse cx="80" cy="456" rx="46" ry="44" fill="#fff1de" stroke="#d97706" stroke-width="4"/>
+<circle cx="80" cy="456" r="17" fill="#fde68a" stroke="#d97706" stroke-width="3"/>
+<ellipse cx="52" cy="434" rx="10" ry="8" fill="#e3e7ea" stroke="#8a949b" stroke-width="2.5"/>
+<path d="M 61 440 C 70 444, 72 450, 76 454" fill="none" stroke="#d97706" stroke-width="3.5" marker-end="url(#ah)"/>
+<text data-k="d3" data-w="170" x="174" y="420" text-anchor="start" class="s" font-weight="700" fill="#9a4a14"/>
+<circle cx="36" cy="540" r="13" fill="#0b2a40"/>
+<text data-num="4" x="36" y="545" text-anchor="middle" class="b" font-weight="700" fill="#ffffff"/>
+<text data-k="t4" data-w="282" x="58" y="545" text-anchor="start" class="b" font-weight="700" fill="#0b2a40"/>
+<ellipse cx="80" cy="632" rx="46" ry="44" fill="#fff1de" stroke="#d97706" stroke-width="4"/>
+<circle cx="80" cy="632" r="17" fill="#fde68a" stroke="#d97706" stroke-width="3"/>
+<path d="M 100 632 q 10 -14 20 0 t 20 0 t 20 0" fill="none" stroke="#047857" stroke-width="3.5"/>
+<circle cx="150" cy="632" r="0" fill="none"/>
+<text data-k="d4a" data-w="164" x="174" y="582" text-anchor="start" class="s" font-weight="700" fill="#047857"/>
+<text data-k="d4b" data-w="164" x="174" y="638" text-anchor="start" class="s" fill="#071e2e"/>
+</g>
+</svg>
+
