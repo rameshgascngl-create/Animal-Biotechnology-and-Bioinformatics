@@ -1,0 +1,84 @@
+--------- beginning of main
+11-12 12:48:12.004  2350  2364 E CITEST  : LANGUAGE sample: 16 screens, 6 offenders
+11-12 12:48:12.004  2350  2364 E CITEST  : LANGUAGE offender: TA/quiz-question Latin word 'Pseudomonas' in: எண்ணெய்க் கசிவுகளில் பெட்ரோலிய ஹைட்ரோகார்பன்களைச் சிதைக்க Pseudomonas 
+11-12 12:48:12.004  2350  2364 E CITEST  : LANGUAGE offender: TA/quiz-question Latin word 'putida-' in: எண்ணெய்க் கசிவுகளில் பெட்ரோலிய ஹைட்ரோகார்பன்களைச் சிதைக்க Pseudomonas 
+11-12 12:48:12.004  2350  2364 E CITEST  : LANGUAGE offender: TA/quiz-feedback Latin word 'Pseudomonas' in: எண்ணெய்க் கசிவுகளில் பெட்ரோலிய ஹைட்ரோகார்பன்களைச் சிதைக்க Pseudomonas 
+11-12 12:48:12.004  2350  2364 E CITEST  : LANGUAGE offender: TA/quiz-feedback Latin word 'putida-' in: எண்ணெய்க் கசிவுகளில் பெட்ரோலிய ஹைட்ரோகார்பன்களைச் சிதைக்க Pseudomonas 
+11-12 12:48:12.004  2350  2364 E CITEST  : LANGUAGE offender: TA/quiz-result Latin word 'Pseudomonas' in: எண்ணெய்க் கசிவுகளில் பெட்ரோலிய ஹைட்ரோகார்பன்களைச் சிதைக்க Pseudomonas 
+11-12 12:48:12.004  2350  2364 E CITEST  : LANGUAGE offender: TA/quiz-result Latin word 'putida-' in: எண்ணெய்க் கசிவுகளில் பெட்ரோலிய ஹைட்ரோகார்பன்களைச் சிதைக்க Pseudomonas 
+11-12 12:48:52.351  2350  2364 E CITEST-MEM: 360x640 EN inline | Java Heap: 15224 44596
+11-12 12:48:52.355  2350  2364 E CITEST-MEM: 360x640 EN inline | Native Heap: 29168 33192
+11-12 12:48:52.356  2350  2364 E CITEST-MEM: 360x640 EN inline | Graphics: 0 0
+11-12 12:48:52.357  2350  2364 E CITEST-MEM: 360x640 EN inline | TOTAL PSS: 121402 TOTAL RSS: 253508 TOTAL SWAP (KB): 0
+11-12 12:48:59.916  2350  2364 E CITEST-MEM: 360x640 EN viewer-open-zoomed | Java Heap: 15464 44836
+11-12 12:48:59.917  2350  2364 E CITEST-MEM: 360x640 EN viewer-open-zoomed | Native Heap: 50008 54032
+11-12 12:48:59.917  2350  2364 E CITEST-MEM: 360x640 EN viewer-open-zoomed | Graphics: 0 0
+11-12 12:48:59.918  2350  2364 E CITEST-MEM: 360x640 EN viewer-open-zoomed | TOTAL PSS: 142574 TOTAL RSS: 274776 TOTAL SWAP (KB): 0
+11-12 12:49:03.750  2350  2364 E CITEST-MEM: 360x640 EN viewer-closed-after-gc | Java Heap: 15264 44636
+11-12 12:49:03.750  2350  2364 E CITEST-MEM: 360x640 EN viewer-closed-after-gc | Native Heap: 29364 33388
+11-12 12:49:03.751  2350  2364 E CITEST-MEM: 360x640 EN viewer-closed-after-gc | Graphics: 0 0
+11-12 12:49:03.751  2350  2364 E CITEST-MEM: 360x640 EN viewer-closed-after-gc | TOTAL PSS: 121730 TOTAL RSS: 253932 TOTAL SWAP (KB): 0
+11-12 12:49:06.484  2350  2364 E CITEST-MEM: 360x640 TA inline | Java Heap: 15300 44672
+11-12 12:49:06.484  2350  2364 E CITEST-MEM: 360x640 TA inline | Native Heap: 32972 36996
+11-12 12:49:06.485  2350  2364 E CITEST-MEM: 360x640 TA inline | Graphics: 0 0
+11-12 12:49:06.485  2350  2364 E CITEST-MEM: 360x640 TA inline | TOTAL PSS: 125374 TOTAL RSS: 257576 TOTAL SWAP (KB): 0
+11-12 12:49:13.830  2350  2364 E CITEST-MEM: 360x640 TA viewer-open-zoomed | Java Heap: 15500 44872
+11-12 12:49:13.831  2350  2364 E CITEST-MEM: 360x640 TA viewer-open-zoomed | Native Heap: 49136 53160
+11-12 12:49:13.831  2350  2364 E CITEST-MEM: 360x640 TA viewer-open-zoomed | Graphics: 0 0
+11-12 12:49:13.832  2350  2364 E CITEST-MEM: 360x640 TA viewer-open-zoomed | TOTAL PSS: 141818 TOTAL RSS: 274100 TOTAL SWAP (KB): 0
+11-12 12:49:17.976  2350  2364 E CITEST-MEM: 360x640 TA viewer-closed-after-gc | Java Heap: 15296 44668
+11-12 12:49:17.976  2350  2364 E CITEST-MEM: 360x640 TA viewer-closed-after-gc | Native Heap: 29408 33432
+11-12 12:49:17.977  2350  2364 E CITEST-MEM: 360x640 TA viewer-closed-after-gc | Graphics: 0 0
+11-12 12:49:17.977  2350  2364 E CITEST-MEM: 360x640 TA viewer-closed-after-gc | TOTAL PSS: 121894 TOTAL RSS: 254184 TOTAL SWAP (KB): 0
+11-12 12:49:29.396  2350  2350 E CITEST  : deep figure item index = 88
+11-12 12:49:43.102  2350  2364 E CITEST  : figure Diagram: pBR322 plasmid with ampicillin- and tetracycline-resistance genes. Clon at 360,788
+11-12 12:49:43.102  2350  2364 E CITEST  : scrolled 12 swipes to reach a clickable figure with a quarter screen visible
+11-12 12:49:46.089  2350  2350 E CITEST  : deep figure item index = 88
+11-12 12:50:04.200  3345  3359 E CITEST-MEM: 360x800 EN inline | Java Heap: 11996 41344
+11-12 12:50:04.204  3345  3359 E CITEST-MEM: 360x800 EN inline | Native Heap: 18644 22728
+11-12 12:50:04.207  3345  3359 E CITEST-MEM: 360x800 EN inline | Graphics: 0 0
+11-12 12:50:04.208  3345  3359 E CITEST-MEM: 360x800 EN inline | TOTAL PSS: 97744 TOTAL RSS: 218880 TOTAL SWAP (KB): 0
+11-12 12:50:13.685  3345  3359 E CITEST-MEM: 360x800 EN viewer-open-zoomed | Java Heap: 12388 41796
+11-12 12:50:13.686  3345  3359 E CITEST-MEM: 360x800 EN viewer-open-zoomed | Native Heap: 38672 42740
+11-12 12:50:13.686  3345  3359 E CITEST-MEM: 360x800 EN viewer-open-zoomed | Graphics: 0 0
+11-12 12:50:13.687  3345  3359 E CITEST-MEM: 360x800 EN viewer-open-zoomed | TOTAL PSS: 120666 TOTAL RSS: 245452 TOTAL SWAP (KB): 0
+11-12 12:50:17.827  3345  3359 E CITEST-MEM: 360x800 EN viewer-closed-after-gc | Java Heap: 12200 41600
+11-12 12:50:17.827  3345  3359 E CITEST-MEM: 360x800 EN viewer-closed-after-gc | Native Heap: 19216 23280
+11-12 12:50:17.828  3345  3359 E CITEST-MEM: 360x800 EN viewer-closed-after-gc | Graphics: 0 0
+11-12 12:50:17.829  3345  3359 E CITEST-MEM: 360x800 EN viewer-closed-after-gc | TOTAL PSS: 101458 TOTAL RSS: 227032 TOTAL SWAP (KB): 0
+11-12 12:50:20.712  3345  3359 E CITEST-MEM: 360x800 TA inline | Java Heap: 12324 41724
+11-12 12:50:20.714  3345  3359 E CITEST-MEM: 360x800 TA inline | Native Heap: 26936 30996
+11-12 12:50:20.715  3345  3359 E CITEST-MEM: 360x800 TA inline | Graphics: 0 0
+11-12 12:50:20.716  3345  3359 E CITEST-MEM: 360x800 TA inline | TOTAL PSS: 109642 TOTAL RSS: 235600 TOTAL SWAP (KB): 0
+11-12 12:50:29.703  3345  3359 E CITEST-MEM: 360x800 TA viewer-open-zoomed | Java Heap: 12528 41924
+11-12 12:50:29.704  3345  3359 E CITEST-MEM: 360x800 TA viewer-open-zoomed | Native Heap: 39236 43296
+11-12 12:50:29.704  3345  3359 E CITEST-MEM: 360x800 TA viewer-open-zoomed | Graphics: 0 0
+11-12 12:50:29.705  3345  3359 E CITEST-MEM: 360x800 TA viewer-open-zoomed | TOTAL PSS: 122614 TOTAL RSS: 248912 TOTAL SWAP (KB): 0
+11-12 12:50:33.841  3345  3359 E CITEST-MEM: 360x800 TA viewer-closed-after-gc | Java Heap: 12328 41724
+11-12 12:50:33.842  3345  3359 E CITEST-MEM: 360x800 TA viewer-closed-after-gc | Native Heap: 19896 23956
+11-12 12:50:33.843  3345  3359 E CITEST-MEM: 360x800 TA viewer-closed-after-gc | Graphics: 0 0
+11-12 12:50:33.844  3345  3359 E CITEST-MEM: 360x800 TA viewer-closed-after-gc | TOTAL PSS: 103126 TOTAL RSS: 229448 TOTAL SWAP (KB): 0
+11-12 12:55:55.827  4116  4129 E CITEST-MEM: 411x914 EN inline | Java Heap: 11996 41348
+11-12 12:55:55.831  4116  4129 E CITEST-MEM: 411x914 EN inline | Native Heap: 19216 23288
+11-12 12:55:55.834  4116  4129 E CITEST-MEM: 411x914 EN inline | Graphics: 0 0
+11-12 12:55:55.835  4116  4129 E CITEST-MEM: 411x914 EN inline | TOTAL PSS: 99381 TOTAL RSS: 219412 TOTAL SWAP (KB): 0
+11-12 12:56:05.087  4116  4129 E CITEST-MEM: 411x914 EN viewer-open-zoomed | Java Heap: 12388 41800
+11-12 12:56:05.088  4116  4129 E CITEST-MEM: 411x914 EN viewer-open-zoomed | Native Heap: 39172 43240
+11-12 12:56:05.089  4116  4129 E CITEST-MEM: 411x914 EN viewer-open-zoomed | Graphics: 0 0
+11-12 12:56:05.089  4116  4129 E CITEST-MEM: 411x914 EN viewer-open-zoomed | TOTAL PSS: 122206 TOTAL RSS: 245872 TOTAL SWAP (KB): 0
+11-12 12:56:09.236  4116  4129 E CITEST-MEM: 411x914 EN viewer-closed-after-gc | Java Heap: 12200 41604
+11-12 12:56:09.237  4116  4129 E CITEST-MEM: 411x914 EN viewer-closed-after-gc | Native Heap: 19696 23760
+11-12 12:56:09.238  4116  4129 E CITEST-MEM: 411x914 EN viewer-closed-after-gc | Graphics: 0 0
+11-12 12:56:09.239  4116  4129 E CITEST-MEM: 411x914 EN viewer-closed-after-gc | TOTAL PSS: 102973 TOTAL RSS: 227424 TOTAL SWAP (KB): 0
+11-12 12:56:12.219  4116  4129 E CITEST-MEM: 411x914 TA inline | Java Heap: 12320 41724
+11-12 12:56:12.220  4116  4129 E CITEST-MEM: 411x914 TA inline | Native Heap: 27768 31828
+11-12 12:56:12.221  4116  4129 E CITEST-MEM: 411x914 TA inline | Graphics: 0 0
+11-12 12:56:12.222  4116  4129 E CITEST-MEM: 411x914 TA inline | TOTAL PSS: 111553 TOTAL RSS: 236396 TOTAL SWAP (KB): 0
+11-12 12:56:21.001  4116  4129 E CITEST-MEM: 411x914 TA viewer-open-zoomed | Java Heap: 12520 41924
+11-12 12:56:21.001  4116  4129 E CITEST-MEM: 411x914 TA viewer-open-zoomed | Native Heap: 39608 43668
+11-12 12:56:21.002  4116  4129 E CITEST-MEM: 411x914 TA viewer-open-zoomed | Graphics: 0 0
+11-12 12:56:21.003  4116  4129 E CITEST-MEM: 411x914 TA viewer-open-zoomed | TOTAL PSS: 124009 TOTAL RSS: 249172 TOTAL SWAP (KB): 0
+11-12 12:56:25.132  4116  4129 E CITEST-MEM: 411x914 TA viewer-closed-after-gc | Java Heap: 12320 41724
+11-12 12:56:25.133  4116  4129 E CITEST-MEM: 411x914 TA viewer-closed-after-gc | Native Heap: 20292 24352
+11-12 12:56:25.133  4116  4129 E CITEST-MEM: 411x914 TA viewer-closed-after-gc | Graphics: 0 0
+11-12 12:56:25.134  4116  4129 E CITEST-MEM: 411x914 TA viewer-closed-after-gc | TOTAL PSS: 104529 TOTAL RSS: 229720 TOTAL SWAP (KB): 0
