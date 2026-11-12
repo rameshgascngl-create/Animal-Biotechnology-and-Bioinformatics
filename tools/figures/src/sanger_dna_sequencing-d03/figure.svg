@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 996">
+<rect width="360" height="996" fill="#ffffff"/>
+<defs><marker id="ah" markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L5,2.5 L0,5 z" fill="#0b6f85"/></marker></defs>
+<g transform="translate(0,56)">
+<text data-k="gel_h" data-w="304" x="28" y="14" text-anchor="start" class="b" font-weight="700" fill="#0b2a40"/>
+<text data-k="gel_s" data-w="304" x="28" y="58" text-anchor="start" class="s" fill="#2b4a5a"/>
+<rect x="28" y="104" width="304" height="296" rx="10" fill="#1b1b1b" stroke="#444" stroke-width="3"/>
+<text data-k="lit_64_64_41_" data-w="52" x="70" y="130" text-anchor="middle" class="s" font-weight="700" fill="#c8e6c9"/>
+<text data-k="lit_64_64_54_" data-w="52" x="130" y="130" text-anchor="middle" class="s" font-weight="700" fill="#ffcdd2"/>
+<text data-k="lit_64_64_47_" data-w="52" x="190" y="130" text-anchor="middle" class="s" font-weight="700" fill="#bbdefb"/>
+<text data-k="lit_64_64_43_" data-w="52" x="250" y="130" text-anchor="middle" class="s" font-weight="700" fill="#e1bee7"/>
+<rect x="48" y="152" width="44" height="10" rx="3" fill="#c8e6c9"/>
+<text data-k="lit_41_" data-w="16" x="312" y="163" text-anchor="middle" class="s" font-weight="700" fill="#c8e6c9"/>
+<rect x="168" y="179" width="44" height="10" rx="3" fill="#bbdefb"/>
+<text data-k="lit_47_" data-w="16" x="312" y="190" text-anchor="middle" class="s" font-weight="700" fill="#bbdefb"/>
+<rect x="228" y="206" width="44" height="10" rx="3" fill="#e1bee7"/>
+<text data-k="lit_43_" data-w="16" x="312" y="217" text-anchor="middle" class="s" font-weight="700" fill="#e1bee7"/>
+<rect x="108" y="233" width="44" height="10" rx="3" fill="#ffcdd2"/>
+<text data-k="lit_54_" data-w="16" x="312" y="244" text-anchor="middle" class="s" font-weight="700" fill="#ffcdd2"/>
+<rect x="48" y="260" width="44" height="10" rx="3" fill="#c8e6c9"/>
+<text data-k="lit_41_" data-w="16" x="312" y="271" text-anchor="middle" class="s" font-weight="700" fill="#c8e6c9"/>
+<rect x="228" y="287" width="44" height="10" rx="3" fill="#e1bee7"/>
+<text data-k="lit_43_" data-w="16" x="312" y="298" text-anchor="middle" class="s" font-weight="700" fill="#e1bee7"/>
+<rect x="168" y="314" width="44" height="10" rx="3" fill="#bbdefb"/>
+<text data-k="lit_47_" data-w="16" x="312" y="325" text-anchor="middle" class="s" font-weight="700" fill="#bbdefb"/>
+<rect x="108" y="341" width="44" height="10" rx="3" fill="#ffcdd2"/>
+<text data-k="lit_54_" data-w="16" x="312" y="352" text-anchor="middle" class="s" font-weight="700" fill="#ffcdd2"/>
+<rect x="48" y="368" width="44" height="10" rx="3" fill="#c8e6c9"/>
+<text data-k="lit_41_" data-w="16" x="312" y="379" text-anchor="middle" class="s" font-weight="700" fill="#c8e6c9"/>
+<text data-k="dir" data-w="304" x="28" y="424" text-anchor="start" class="s" fill="#2b4a5a"/>
+<text data-k="ch_h" data-w="304" x="28" y="482" text-anchor="start" class="b" font-weight="700" fill="#0b2a40"/>
+<text data-k="ch_s" data-w="304" x="28" y="504" text-anchor="start" class="s" fill="#2b4a5a"/>
+<rect x="28" y="548" width="304" height="218" rx="10" fill="#fafafa" stroke="#c9c9c9" stroke-width="3"/>
+<line x1="36" y1="708" x2="324" y2="708" stroke="#666" stroke-width="2.5"/>
+<path d="M33.0,708 C40.0,708 40.0,612 48.0,612 C56.0,612 56.0,708 63.0,708 Z" fill="#c8e6c9" stroke="#2e7d32" stroke-width="2.5"/>
+<text data-k="lit_41_" data-w="24" x="48.0" y="730" text-anchor="middle" class="b" font-weight="700" fill="#2e7d32"/>
+<path d="M66.5,708 C73.5,708 73.5,624 81.5,624 C89.5,624 89.5,708 96.5,708 Z" fill="#ffcdd2" stroke="#c62828" stroke-width="2.5"/>
+<text data-k="lit_54_" data-w="24" x="81.5" y="730" text-anchor="middle" class="b" font-weight="700" fill="#c62828"/>
+<path d="M100.0,708 C107.0,708 107.0,616 115.0,616 C123.0,616 123.0,708 130.0,708 Z" fill="#bbdefb" stroke="#1565c0" stroke-width="2.5"/>
+<text data-k="lit_47_" data-w="24" x="115.0" y="730" text-anchor="middle" class="b" font-weight="700" fill="#1565c0"/>
+<path d="M133.5,708 C140.5,708 140.5,628 148.5,628 C156.5,628 156.5,708 163.5,708 Z" fill="#e1bee7" stroke="#6a1b9a" stroke-width="2.5"/>
+<text data-k="lit_43_" data-w="24" x="148.5" y="730" text-anchor="middle" class="b" font-weight="700" fill="#6a1b9a"/>
+<path d="M167.0,708 C174.0,708 174.0,618 182.0,618 C190.0,618 190.0,708 197.0,708 Z" fill="#c8e6c9" stroke="#2e7d32" stroke-width="2.5"/>
+<text data-k="lit_41_" data-w="24" x="182.0" y="730" text-anchor="middle" class="b" font-weight="700" fill="#2e7d32"/>
+<path d="M200.5,708 C207.5,708 207.5,630 215.5,630 C223.5,630 223.5,708 230.5,708 Z" fill="#ffcdd2" stroke="#c62828" stroke-width="2.5"/>
+<text data-k="lit_54_" data-w="24" x="215.5" y="730" text-anchor="middle" class="b" font-weight="700" fill="#c62828"/>
+<path d="M234.0,708 C241.0,708 241.0,626 249.0,626 C257.0,626 257.0,708 264.0,708 Z" fill="#e1bee7" stroke="#6a1b9a" stroke-width="2.5"/>
+<text data-k="lit_43_" data-w="24" x="249.0" y="730" text-anchor="middle" class="b" font-weight="700" fill="#6a1b9a"/>
+<path d="M267.5,708 C274.5,708 274.5,614 282.5,614 C290.5,614 290.5,708 297.5,708 Z" fill="#bbdefb" stroke="#1565c0" stroke-width="2.5"/>
+<text data-k="lit_47_" data-w="24" x="282.5" y="730" text-anchor="middle" class="b" font-weight="700" fill="#1565c0"/>
+<path d="M301.0,708 C308.0,708 308.0,620 316.0,620 C324.0,620 324.0,708 331.0,708 Z" fill="#c8e6c9" stroke="#2e7d32" stroke-width="2.5"/>
+<text data-k="lit_41_" data-w="24" x="316.0" y="730" text-anchor="middle" class="b" font-weight="700" fill="#2e7d32"/>
+<text data-k="time" data-w="280" x="180" y="750" text-anchor="middle" class="s" fill="#555"/>
+<text data-k="lit_35_2032_2013_20_41_20_54_20_47_20_43_20_41_20_54_20_43_20_47_20_41_20_2013_33_2032_" data-w="300" x="180" y="800" text-anchor="middle" class="b" font-weight="700" fill="#0b2a40"/>
+<text data-k="n1" data-w="304" x="28" y="828" text-anchor="start" class="s" fill="#2b4a5a"/>
+<text data-k="n2" data-w="304" x="28" y="864" text-anchor="start" class="s" fill="#2b4a5a"/>
+</g>
+</svg>
+

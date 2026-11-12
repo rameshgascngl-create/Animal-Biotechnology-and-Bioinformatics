@@ -1,0 +1,66 @@
+{
+ "tpl": {
+  "en": "Template strand, 3′ → 5′",
+  "ta": "வார்ப்புரு இழை, 3′ → 5′"
+ },
+ "how": {
+  "en": "The primer binds at the 3′ end of the template. The new strand grows 5′ → 3′ until a ddNTP stops it.",
+  "ta": "முதன்மை இழை வார்ப்புருவின் 3′ முனையில் இணைகிறது. ddNTP நிறுத்தும் வரை புதிய இழை 5′ → 3′ திசையில் வளர்கிறது."
+ },
+ "frag": {
+  "en": "Fragments, shortest to longest (cyan block = primer)",
+  "ta": "துண்டுகள், சிறியது முதல் பெரியது வரை (நீலப்பச்சைத் தொகுதி = முதன்மை இழை)"
+ },
+ "rd": {
+  "en": "New strand, 5′ → 3′",
+  "ta": "புதிய இழை, 5′ → 3′"
+ },
+ "rd2": {
+  "en": "Each stop (*) gives one base. The dyes: A green, T red, G blue, C purple.",
+  "ta": "ஒவ்வொரு நிறுத்தமும் (*) ஒரு காரத்தைத் தருகிறது. சாயங்கள்: A பச்சை, T சிவப்பு, G நீலம், C ஊதா."
+ },
+ "lit_33_2032_": {
+  "en": "3′",
+  "ta": "3′"
+ },
+ "lit_35_2032_": {
+  "en": "5′",
+  "ta": "5′"
+ },
+ "lit_54_": {
+  "en": "T",
+  "ta": "T"
+ },
+ "lit_41_": {
+  "en": "A",
+  "ta": "A"
+ },
+ "lit_43_": {
+  "en": "C",
+  "ta": "C"
+ },
+ "lit_47_": {
+  "en": "G",
+  "ta": "G"
+ },
+ "lit_41_2a_": {
+  "en": "A*",
+  "ta": "A*"
+ },
+ "lit_54_2a_": {
+  "en": "T*",
+  "ta": "T*"
+ },
+ "lit_47_2a_": {
+  "en": "G*",
+  "ta": "G*"
+ },
+ "lit_43_2a_": {
+  "en": "C*",
+  "ta": "C*"
+ },
+ "_alt": {
+  "en": "Diagram of the chain-termination fragments in Sanger sequencing. The template, read 3′ to 5′, is T A C G T A G C T. A primer binds at its 3′ end. Nine fragments are shown, each stopped at one more base by a labelled ddNTP, giving the new strand A T G C A T C G A read 5′ to 3′. Dyes: A green, T red, G blue, C purple.",
+  "ta": "சேங்கர் வரிசைப்படுத்தலில் சங்கிலி முடிவுறுத்தல் துண்டுகளின் படம். வார்ப்புரு 3′ இலிருந்து 5′ ஆக T A C G T A G C T. அதன் 3′ முனையில் முதன்மை இழை இணைகிறது. ஒவ்வொரு துண்டும் ஒரு கூடுதல் காரத்தில் ddNTP-யால் நிறுத்தப்பட்டு, புதிய இழை 5′ இலிருந்து 3′ ஆக A T G C A T C G A எனப் பெறப்படுகிறது. சாயங்கள்: A பச்சை, T சிவப்பு, G நீலம், C ஊதா."
+ }
+}

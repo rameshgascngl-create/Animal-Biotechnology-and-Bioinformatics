@@ -1,0 +1,2 @@
+{"template_3to5": "TACGTAGCT", "read_5to3": "ATGCATCGA",
+ "note": "Single source for sanger_dna_sequencing-d02 and -d03. The new strand is the complement of the template, read 5'->3'; the generators assert this."}

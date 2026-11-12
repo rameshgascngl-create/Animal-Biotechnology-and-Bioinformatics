@@ -1,0 +1,74 @@
+{
+ "gel_h": {
+  "en": "Denaturing polyacrylamide gel",
+  "ta": "இயல்பிழப்பு பாலிஅக்ரிலமைடு ஜெல்"
+ },
+ "gel_s": {
+  "en": "Original radioactive method, 4 lanes",
+  "ta": "அசல் கதிரியக்க முறை, 4 தடங்கள்"
+ },
+ "dir": {
+  "en": "Read from the bottom up: the smallest fragment comes first.",
+  "ta": "கீழிருந்து மேலாக வாசி: சிறிய துண்டு முதலில் வரும்."
+ },
+ "ch_h": {
+  "en": "Fluorescent chromatogram",
+  "ta": "ஒளிர்வு நிறவரைவு"
+ },
+ "ch_s": {
+  "en": "Modern capillary electrophoresis output",
+  "ta": "நவீன நுண்குழல் மின்னாற்பிரித்தல் வெளியீடு"
+ },
+ "time": {
+  "en": "Time / fragment size →",
+  "ta": "நேரம் / துண்டு அளவு →"
+ },
+ "n1": {
+  "en": "Each peak is one base; read left → right.",
+  "ta": "ஒவ்வொரு உச்சமும் ஒரு காரம்; இடமிருந்து வலமாக வாசி."
+ },
+ "n2": {
+  "en": "Colour identifies the base; peak position gives the fragment size.",
+  "ta": "நிறம் காரத்தைக் குறிக்கிறது; உச்ச நிலை துண்டின் அளவைக் குறிக்கிறது."
+ },
+ "lit_64_64_41_": {
+  "en": "ddA",
+  "ta": "ddA"
+ },
+ "lit_64_64_54_": {
+  "en": "ddT",
+  "ta": "ddT"
+ },
+ "lit_64_64_47_": {
+  "en": "ddG",
+  "ta": "ddG"
+ },
+ "lit_64_64_43_": {
+  "en": "ddC",
+  "ta": "ddC"
+ },
+ "lit_41_": {
+  "en": "A",
+  "ta": "A"
+ },
+ "lit_47_": {
+  "en": "G",
+  "ta": "G"
+ },
+ "lit_43_": {
+  "en": "C",
+  "ta": "C"
+ },
+ "lit_54_": {
+  "en": "T",
+  "ta": "T"
+ },
+ "lit_35_2032_2013_20_41_20_54_20_47_20_43_20_41_20_54_20_43_20_47_20_41_20_2013_33_2032_": {
+  "en": "5′– A T G C A T C G A –3′",
+  "ta": "5′– A T G C A T C G A –3′"
+ },
+ "_alt": {
+  "en": "Two views of the same Sanger sequence. Top: a denaturing polyacrylamide gel with four lanes, ddA, ddT, ddG and ddC. Reading from the bottom up, the bands spell A T G C A T C G A. Bottom: a fluorescent chromatogram with nine coloured peaks, A green, T red, G blue, C purple, reading left to right as 5′ A T G C A T C G A 3′.",
+  "ta": "ஒரே சேங்கர் வரிசையின் இரு காட்சிகள். மேலே: ddA, ddT, ddG, ddC என நான்கு தடங்கள் கொண்ட இயல்பிழப்பு பாலிஅக்ரிலமைடு ஜெல்; கீழிருந்து மேலாக வாசித்தால் பட்டைகள் A T G C A T C G A எனத் தெரிவிக்கின்றன. கீழே: ஒன்பது நிறமுள்ள உச்சங்கள் கொண்ட ஒளிர்வு நிறவரைவு (A பச்சை, T சிவப்பு, G நீலம், C ஊதா); இடமிருந்து வலமாக 5′ A T G C A T C G A 3′."
+ }
+}
