@@ -6,4 +6,5 @@ adb shell wm size 1080x2400; adb shell wm density 420
 gradle :app:connectedDebugAndroidTest -Pandroid.testInstrumentationRunnerArguments.class=com.gasczoology.animalbiotech.LanguageSampleTest --stacktrace \
   || { echo "RC GATE FAILED: language sample ($4)" | tee -a qa-captures/rc/failures.txt; rc=1; }
 adb logcat -d -s CITEST:E > qa-captures/rc/citest-$4.txt || true
+grep -E "LANGUAGE" qa-captures/rc/citest-$4.txt | sed "s/^.*CITEST *: *//" | head -300
 exit $rc

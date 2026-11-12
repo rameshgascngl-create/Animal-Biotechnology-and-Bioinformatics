@@ -51,6 +51,7 @@ class LanguageSampleTest {
             fun check(name: String) {
                 device.waitForIdle(); Thread.sleep(700); screens++
                 for (t in visible(device)) {
+                    if (t == "தமிழ்" || t == "English") continue   // the language selector shows each language in its own script, by design
                     if (lang == Lang.EN && tamil.containsMatchIn(t)) offenders.add("EN/$name has Tamil: ${t.take(70)}")
                     if (lang == Lang.TA) word.findAll(t).filter { !symbolic(it.value) }.forEach { offenders.add("TA/$name Latin word '${it.value}' in: ${t.take(70)}") }
                 }
@@ -77,7 +78,7 @@ class LanguageSampleTest {
             }
         }
         android.util.Log.e("CITEST", "LANGUAGE sample: $screens screens, ${offenders.size} offenders")
-        offenders.distinct().take(60).forEach { android.util.Log.e("CITEST", "LANGUAGE offender: $it") }
+        offenders.distinct().take(250).forEach { android.util.Log.e("CITEST", "LANGUAGE offender: $it") }
         assertTrue("language rule violated on sampled screens (${offenders.size}):\n" + offenders.distinct().take(25).joinToString("\n"), offenders.isEmpty())
     }
 }
