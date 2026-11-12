@@ -4,6 +4,7 @@
 - **Class 12 Zoology, Tamil medium, 2024 edition** (TNSCERT, the PDF you attached, 336 PDF pages; file header "XII Std Zoology Chapter-5 TM"). Read from its text layer, which has duplicated-letter glitches (I normalised them) and was checked visually on pp. 106-108.
 - Page numbers: **PDF page** first, printed page in brackets. Printed = PDF - 8, verified on PDF pp. 106-108 (printed 98-100); for the others I assumed the same offset, so treat printed numbers as approximate.
 - **Second source, added later: Class 12 Micro Biology, Tamil medium, 2024 edition** (TNSCERT, 312 PDF pages, image-only scan, no text layer). Section below.
+- **Third source: Class 12 Bio-Zoology, Tamil medium, 2024 edition** (312 PDF pages, text layer with the same glitches, normalised). Last section.
 - Not checked: Class 11 Zoology, Class 11/12 Bio-Zoology, the Class 12 Biology books. Earlier I also read a third-party transcription of Bio-Zoology ch. 9 (kalvisolai); it agrees on மறுசேர்க்கை, பிளாஸ்மிட், கடத்தி but is not an official source and I do not cite it below.
 - **This book contains no cloning/selection vocabulary at all**: searching its English terms finds 0 hits for X-gal, replica plating, selectable marker, insertional inactivation, master plate, lacZ, ampicillin, tetracycline, cosmid, electroporation, gene library, ligation, "Gel electrophoresis" (as a heading). So "not found" below means not in this book, not wrong.
 
@@ -96,3 +97,31 @@
 4. **gel wells, colony, replica plating, selectable marker:** now have textbook forms; the earlier "not found" rows for them stand only for the Zoology book.
 5. **Still without a textbook term:** X-gal / blue-white, insertional inactivation, master plate, lytic/lysogenic (unread), dideoxy chain termination. These stay English or listed for you, no guesses.
 6. Fallback-word count: still 30 matched in my regex versus the 32 reported earlier (unreconciled). Of those, DENATURATION, ANNEALING, EXTENSION, WELLS, COLONY now have a textbook Tamil form (conflicts noted); the rest are unchanged.
+
+## Class 12 Bio-Zoology (Tamil medium, 2024)
+**Read from the text layer by keyword search, not page by page.** Printed = PDF - 8 (footer "183" on PDF 191). Two-column text interleaves in the extraction, so I cite only phrases that read cleanly; I did not view page images except to read the footer.
+
+**Result: it adds almost nothing new.** Its wording for the shared topics is identical to the Class 12 Zoology book (same chapter text), and it has no cloning-vector or selection vocabulary.
+
+| English | Tamil | PDF (printed) | Status |
+|---|---|---|---|
+| denaturation / renaturation | இயல்பு திரிபு / இயல்பு மீள்வு (95 °C step) | 191 (183) | same as Zoology book; conflicts with Microbiology இயல்புநீக்கம் |
+| primer | முதன்மை இணைப்பு இழை (Primers) | 191-192 | same as Zoology book |
+| extension | "நீட்சி" in "முதன்மை இணைப்பு இழை நீட்சி" (75 °C, Taq) | 191 | same long phrase; the word நீட்சி alone is used |
+| annealing | no named step; text says the primers "இணைந்து கொள்கின்றன" after rapid cooling | 191 | no term; the English word appears once in the page |
+| PCR | பாலிமரேஸ் சங்கிலி வினை (not எதிர்வினை) | 191 | **spelling differs** from Microbiology (எதிர்வினை) |
+| probe | துலக்கி | 105, 192 | confirmed (third book) |
+| agarose gel electrophoresis | அகரோஸ் கூழ்ம மின்பகுப்பாக்கம் | 105 (97) | same as Zoology; differs from Microbiology |
+| restriction endonuclease | "எண்டோநியூக்ளியேஸ் (Restriction endonuclease) நொதி" | 102 | transliteration only, as in Zoology |
+| DNA ligase | டி.என்.ஏ லைகேஸ் நொதி | 107, 284 | confirmed |
+| recombinant DNA | மறுசேர்க்கை டி.என்.ஏ (rDNA) | 182-186 | confirmed |
+| plasmid | பிளாஸ்மிட் | 184-185 | confirmed |
+| host | விருந்தோம்பி | 99, 138 and others | confirmed (parasitology sense on most pages) |
+| cloning | நகலாக்கம் | 186, 194 | confirmed |
+| vector | கடத்தி (one use, in the gene-therapy passage) | 186 | consistent with both other books |
+| well (gel), colony (microbial), replica plating, selectable marker, X-gal, lacZ | - | - | **not found**; the only hit for "colony" is a street address |
+
+**Net position across the three books**
+- Consistent in all three: மறுசேர்க்கை, பிளாஸ்மிட், கடத்தி (vector), லைகேஸ், துலக்கி, நகலாக்கம், விருந்தோம்பி.
+- The two Zoology-side books (Zoology, Bio-Zoology) agree with each other and conflict with Microbiology on: denaturation, annealing/extension, agarose gel, restriction enzyme, PCR (எதிர்வினை vs வினை). The Microbiology book is the only source for the cloning and selection vocabulary the figures need (selectable marker, replica plating, colony, wells).
+- So the decision is not "which book is right" but "which book governs the Biotechnology app". The app is Animal Biotechnology under Zoology, so I lean to the Zoology-side wording where it exists and to Microbiology only for vocabulary the Zoology books lack. That is a recommendation, not applied.
