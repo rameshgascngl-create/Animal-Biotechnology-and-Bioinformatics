@@ -79,7 +79,7 @@ fun ReviseTab(
             if (rs.keyPoints.isNotEmpty()) parts.add(tr(lang, "${rs.keyPoints.size} key points", "${rs.keyPoints.size} முக்கியக் கருத்துகள்"))
             if (rs.saqs.isNotEmpty()) parts.add(tr(lang, "${rs.saqs.size} short answers", "${rs.saqs.size} குறுவிடைகள்"))
             if (rs.glossary.isNotEmpty()) parts.add(tr(lang, "${rs.glossary.size} terms", "${rs.glossary.size} சொற்கள்"))
-            QuizRow(rs.title, tr(lang, "Unit ${rs.unitRoman}", "அலகு ${rs.unitRoman}") + "  ·  " + parts.joinToString(", "), null) { onOpen(rs) }
+            QuizRow(if (lang == com.gasczoology.animalbiotech.i18n.Lang.TA && rs.titleTa.isNotBlank()) rs.titleTa else rs.title, tr(lang, "Unit ${rs.unitRoman}", "அலகு ${rs.unitRoman}") + "  ·  " + parts.joinToString(", "), null) { onOpen(rs) }
         }
     }
 }

@@ -22,7 +22,7 @@ class LanguageSampleTest {
     private val tamil = Regex("[஀-௿]")
     private val word = Regex("[A-Za-z][A-Za-z'’\\-]*")
     private val allow = setOf("english", "gasc", "nagercoil", "zoology", "department", "created", "by", "ramesh", "mcq", "mcqs", "version", "dna", "rna", "pcr", "blast",
-        "crispr", "cas", "mrna", "trna", "rrna", "cdna", "ssdna", "dsdna", "poly", "oligo", "taq", "ori", "lac", "amp", "tet", "kan", "gfp", "yac", "bac", "pac", "sv", "kb", "bp", "kda", "mm", "ml", "nm", "pam", "hat")
+        "crispr", "cas", "mrna", "trna", "rrna", "cdna", "ssdna", "dsdna", "poly", "oligo", "taq", "ori", "lac", "amp", "tet", "kan", "gfp", "yac", "bac", "pac", "sv", "kb", "bp", "kda", "mm", "ml", "nm", "pam", "hat", "swiss-prot", "swiss", "prot", "pdb", "ncbi", "embl", "fasta", "clustal", "rasmol")
     private fun symbolic(w: String) = w.length <= 2 || w.any { it.isDigit() } || w.all { it.isUpperCase() || !it.isLetter() } ||
         Regex("[a-z][A-Z]").containsMatchIn(w) || w.lowercase() in allow || w.split('-').all { it.lowercase() in allow || it.length <= 2 }
 
@@ -40,7 +40,11 @@ class LanguageSampleTest {
     private fun visible(device: UiDevice): List<String> {
         val bo = java.io.ByteArrayOutputStream(); device.dumpWindowHierarchy(bo)
         val xml = bo.toString("UTF-8")
-        return Regex("(?:text|content-desc)=\"([^\"]*)\"").findAll(xml).map { it.groupValues[1].replace("&#10;", " ").replace("&amp;", "&") }.filter { it.isNotBlank() }.toList()
+        // Only nodes of this app: the status bar, navigation bar and notifications belong to Android, not to the app.
+        val pkg = InstrumentationRegistry.getInstrumentation().targetContext.packageName
+        return Regex("<node [^>]*>").findAll(xml).map { it.value }.filter { it.contains("package=\"$pkg\"") }.flatMap { n ->
+            Regex("(?:text|content-desc)=\"([^\"]*)\"").findAll(n).map { it.groupValues[1].replace("&#10;", " ").replace("&amp;", "&") }
+        }.filter { it.isNotBlank() }.toList()
     }
 
     @Test fun screensAreEnglishOnlyOrTamilOnly() {

@@ -287,7 +287,7 @@ fun QuizTab(lang: Lang, quizzes: List<QuizSet>, bests: Map<String, Int>, wrongId
         item(key = "modhead") { SectionLabel(lang, "Module quizzes (10 MCQs each)", "பாட வினாடி வினாக்கள் (ஒவ்வொன்றிலும் 10)") }
         items(quizzes, key = { it.file }) { qs ->
             val b = bests[qs.file] ?: -1
-            val title = if (lang == Lang.TA) titleTa[qs.file].orEmpty().ifBlank { qs.title } else qs.title
+            val title = if (lang == Lang.TA) qs.titleTa.ifBlank { titleTa[qs.file].orEmpty().ifBlank { qs.title } } else qs.title
             QuizRow(title, tr(lang, "Unit ${qs.unitRoman}", "அலகு ${qs.unitRoman}"), if (b >= 0) tr(lang, "Best $b/${qs.items.size}", "சிறந்தது $b/${qs.items.size}") else null) {
                 onQuiz(qs.title, qs.file, qs.items, 0)
             }

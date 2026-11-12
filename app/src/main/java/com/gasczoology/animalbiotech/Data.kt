@@ -25,10 +25,10 @@ data class Saq(val q: String, val a: String)
 data class Term(val term: String, val def: String, val module: String)
 data class RevisionSet(
     val file: String, val title: String, val unitRoman: String,
-    val keyPoints: List<String>, val saqs: List<Saq>, val glossary: List<Term>,
+    val keyPoints: List<String>, val saqs: List<Saq>, val glossary: List<Term>, val titleTa: String = "",
 )
 
-data class QuizSet(val file: String, val title: String, val unitRoman: String, val items: List<Mcq>)
+data class QuizSet(val file: String, val title: String, val unitRoman: String, val items: List<Mcq>, val titleTa: String = "")
 
 object Repo {
     private var revCache: List<RevisionSet>? = null
@@ -72,6 +72,7 @@ object Repo {
     fun revisions(ctx: Context): List<RevisionSet> {
         revCache?.let { return it }
         val root = JSONObject(read(ctx, "revision.json"))
+        val mods = JSONObject(read(ctx, "syllabus.json")).getJSONObject("modules")
         val out = ArrayList<RevisionSet>()
         val keys = root.keys()
         while (keys.hasNext()) {
@@ -84,7 +85,7 @@ object Repo {
             val b = o.getJSONArray("sa"); for (i in 0 until b.length()) { val x = b.getJSONObject(i); sq.add(Saq(x.getString("q"), x.getString("a"))) }
             val gl = ArrayList<Term>()
             val c = o.getJSONArray("gl"); for (i in 0 until c.length()) { val x = c.getJSONObject(i); gl.add(Term(x.getString("t"), x.getString("d"), title)) }
-            out.add(RevisionSet(file, title, o.optString("unit", ""), kp, sq, gl))
+            out.add(RevisionSet(file, title, o.optString("unit", ""), kp, sq, gl, mods.optJSONObject(file)?.optString("title_ta", "") ?: ""))
         }
         val order = listOf("I", "II", "III", "IV", "V")
         val sorted = out.sortedWith(compareBy({ order.indexOf(it.unitRoman) }, { it.title }))
@@ -116,6 +117,7 @@ object Repo {
                     title = m?.optString("title", file) ?: file,
                     unitRoman = m?.optString("unit", "") ?: "",
                     items = items,
+                    titleTa = m?.optString("title_ta", "") ?: "",
                 )
             )
         }
