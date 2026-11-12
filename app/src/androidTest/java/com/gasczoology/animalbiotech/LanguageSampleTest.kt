@@ -26,6 +26,17 @@ class LanguageSampleTest {
     private fun symbolic(w: String) = w.length <= 2 || w.any { it.isDigit() } || w.all { it.isUpperCase() || !it.isLetter() } ||
         Regex("[a-z][A-Z]").containsMatchIn(w) || w.lowercase() in allow || w.split('-').all { it.lowercase() in allow || it.length <= 2 }
 
+    /** Taps by screen coordinates from a fresh lookup (a held UiObject2 goes stale while the Compose tree recomposes). */
+    private fun tap(device: UiDevice, sel: androidx.test.uiautomator.BySelector, wait: Long = 0): Boolean {
+        repeat(4) {
+            try {
+                val o = (if (wait > 0) device.wait(Until.findObject(sel), wait) else device.findObject(sel)) ?: return false
+                val b = o.visibleBounds; device.click(b.centerX(), b.centerY()); return true
+            } catch (e: androidx.test.uiautomator.StaleObjectException) { Thread.sleep(400) }
+        }
+        return false
+    }
+
     private fun visible(device: UiDevice): List<String> {
         val bo = java.io.ByteArrayOutputStream(); device.dumpWindowHierarchy(bo)
         val xml = bo.toString("UTF-8")
@@ -48,20 +59,19 @@ class LanguageSampleTest {
                 val tab = if (lang == Lang.TA) arrayOf("பாடங்கள்", "மீளாய்வு", "வினாக்கள்", "சேமிப்பு", "பற்றி") else arrayOf("Syllabus", "Revise", "Quiz", "Saved", "About")
                 assertTrue("home did not appear", device.wait(Until.hasObject(By.text(tab[0])), 20000))
                 for ((i, label) in tab.withIndex()) {
-                    device.findObject(By.text(label))?.click(); check("tab-${tab[i]}")
+                    tap(device, By.text(label)); check("tab-${tab[i]}")
                 }
                 // Quiz: exam mode, answer every question, then look at the result screen.
-                device.findObject(By.text(tab[2]))?.click(); device.waitForIdle()
+                tap(device, By.text(tab[2])); device.waitForIdle()
                 val exam = if (lang == Lang.TA) "தேர்வு முறை" else "Exam mode"
-                val row = device.wait(Until.findObject(By.textStartsWith(exam)), 8000)
-                assertTrue("exam-mode row not found ($lang)", row != null)
-                row!!.click(); check("quiz-question")
+                assertTrue("exam-mode row not found ($lang)", tap(device, By.textStartsWith(exam), 8000))
+                check("quiz-question")
                 val next = if (lang == Lang.TA) "அடுத்த வினா" else "Next question"; val score = if (lang == Lang.TA) "மதிப்பெண் காண்க" else "See score"
                 var n = 0
                 while (n < 25 && !device.hasObject(By.text(if (lang == Lang.TA) "வினாடி வினாவை மீண்டும் எழுது" else "Retake quiz"))) {
-                    device.findObject(By.textStartsWith("A."))?.click(); device.waitForIdle()
+                    tap(device, By.textStartsWith("A.")); device.waitForIdle()
                     if (n == 0) check("quiz-feedback")
-                    (device.findObject(By.text(score)) ?: device.findObject(By.text(next)))?.click(); device.waitForIdle(); n++
+                    if (!tap(device, By.text(score))) tap(device, By.text(next)); device.waitForIdle(); n++
                 }
                 check("quiz-result")
             }
