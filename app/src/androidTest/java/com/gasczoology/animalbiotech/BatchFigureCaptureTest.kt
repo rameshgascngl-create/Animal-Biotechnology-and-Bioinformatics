@@ -86,8 +86,15 @@ class BatchFigureCaptureTest {
                 assertPssWithinBudget("inline $id/${lang.name} at $tag")
                 val close = if (lang == Lang.EN) "Close" else "மூடு"
                 var clicked = false
-                for (attempt in 1..3) { try { requireNotNull(device.findObject(sel)) { "figure-$id vanished before click" }.click(); clicked = true; break } catch (e: androidx.test.uiautomator.StaleObjectException) { Thread.sleep(400) } }
-                assertTrue("figure-$id could not be clicked (stale node 3 times)", clicked)
+                // Tap by screen coordinates read from a fresh lookup each attempt: a node click can hit a stale reference while the lazy list settles.
+                for (attempt in 1..4) {
+                    try {
+                        device.waitForIdle(); Thread.sleep(500)
+                        val b = requireNotNull(device.findObject(sel)) { "figure-$id vanished before click" }.visibleBounds
+                        device.click(b.centerX(), b.centerY()); clicked = true; break
+                    } catch (e: androidx.test.uiautomator.StaleObjectException) { Thread.sleep(600) }
+                }
+                assertTrue("figure-$id could not be clicked (stale node 4 times)", clicked)
                 assertTrue("$id/${lang.name}: viewer did not open", device.wait(Until.hasObject(By.text(close)), 8000) || device.wait(Until.hasObject(By.desc(close)), 2000))
                 Thread.sleep(1200)
                 assertTrue("$id/${lang.name}: viewer closed itself", device.hasObject(By.text(close)) || device.hasObject(By.desc(close)))

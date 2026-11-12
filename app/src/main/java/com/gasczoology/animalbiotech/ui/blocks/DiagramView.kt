@@ -77,6 +77,13 @@ internal fun sampleSizeFor(outW: Int, outH: Int, targetWidthPx: Int?): Int {
 }
 
 /**
+ * After power-of-two sub-sampling a figure can still be much wider than the box it is drawn in (1271 px into 940 px is a 1.35x oversize,
+ * which for a tall figure is about 9 MB of pixels plus the same again as a GPU texture). Returns the width to scale to, or null to keep the sampled size.
+ */
+internal fun scaleToWidthFor(sampledW: Int, targetWidthPx: Int?): Int? =
+    if (targetWidthPx != null && targetWidthPx > 0 && sampledW > targetWidthPx * 1.1) targetWidthPx else null
+
+/**
  * Decodes an asset. With [targetWidthPx] the image is sub-sampled (powers of two) as far as it can be while staying at least that wide,
  * so inline figures are decoded at display size, not full size. Whatever the target, no side is allowed above [MAX_BITMAP_SIDE]
  * (texture limit on some GPUs); shipped figures are at most 3232 px, and the unit test AssetSizeTest enforces the 4096 limit.
@@ -85,7 +92,13 @@ internal fun decodeFigure(ctx: android.content.Context, path: String, targetWidt
     val bounds = BitmapFactory.Options().apply { inJustDecodeBounds = true }
     ctx.assets.open(path).use { BitmapFactory.decodeStream(it, null, bounds) }
     val sample = sampleSizeFor(bounds.outWidth, bounds.outHeight, targetWidthPx)
-    val opts = BitmapFactory.Options().apply { inSampleSize = sample }
+    val sampledW = bounds.outWidth / sample
+    val scaleTo = scaleToWidthFor(sampledW, targetWidthPx)
+    val opts = BitmapFactory.Options().apply {
+        inSampleSize = sample
+        // Decoder-side scaling: only the display-size bitmap stays in memory. The enlarged viewer passes no target and keeps full detail.
+        if (scaleTo != null) { inScaled = true; inDensity = sampledW; inTargetDensity = scaleTo }
+    }
     ctx.assets.open(path).use { BitmapFactory.decodeStream(it, null, opts) }
 } catch (e: Exception) { null }
 

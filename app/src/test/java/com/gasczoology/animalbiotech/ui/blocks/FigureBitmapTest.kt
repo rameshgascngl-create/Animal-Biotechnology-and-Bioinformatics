@@ -3,6 +3,7 @@ package com.gasczoology.animalbiotech.ui.blocks
 import java.io.File
 import java.nio.ByteBuffer
 import org.junit.Assert.assertEquals
+import org.junit.Assert.assertNull
 import org.junit.Assert.assertTrue
 import org.junit.Test
 
@@ -33,5 +34,11 @@ class FigureBitmapTest {
             val bb = ByteBuffer.wrap(head); val w = bb.getInt(16); val h = bb.getInt(20)
             assertTrue("${f.name} is ${w}x$h", w in 1..4096 && h in 1..4096)
         }
+    }
+
+    @Test fun scaleToWidthOnlyWhenClearlyOversizedAndInline() {
+        assertEquals(940, scaleToWidthFor(1271, 940))
+        assertNull(scaleToWidthFor(1000, 940))
+        assertNull(scaleToWidthFor(1271, null))
     }
 }
