@@ -1,7 +1,7 @@
 name: Native reader emulator QA
 on:
   push:
-    branches: [feat/native-bilingual-reader, fix/reader-markdown-tables-title, feat/book-ui, feat/book-reader, feat/figures-inline, pilot/screening-d02]
+    branches: [feat/native-bilingual-reader, fix/reader-markdown-tables-title, feat/book-ui, feat/book-reader, feat/figures-inline, pilot/screening-d02, measure/before]
   workflow_dispatch:
 permissions:
   contents: write
