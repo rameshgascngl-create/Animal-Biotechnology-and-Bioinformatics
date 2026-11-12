@@ -327,11 +327,14 @@ class ReaderCaptureTest {
                     }.firstOrNull()?.also { android.util.Log.e("CITEST", "figure ${it.third?.take(80)} at ${it.first},${it.second}") }?.let { it.first to it.second }
                 } catch (e: androidx.test.uiautomator.StaleObjectException) { null }
                 var target: Pair<Int, Int>? = null
-                while (target == null && swipes < 80) {
-                    device.swipe(device.displayWidth / 2, device.displayHeight * 3 / 4, device.displayWidth / 2, device.displayHeight / 2, 25); swipes++
-                    device.waitForIdle(); Thread.sleep(400)
-                    target = candidate()
-                }
+                // UiScrollable drives the list's own scroll action, so it does not depend on fling length
+                val scroller = androidx.test.uiautomator.UiScrollable(androidx.test.uiautomator.UiSelector().scrollable(true)).setMaxSearchSwipes(150)
+                val found = try { scroller.scrollIntoView(androidx.test.uiautomator.UiSelector().descriptionStartsWith("Diagram")) } catch (e: Exception) { false }
+                swipes = if (found) 1 else 150
+                device.waitForIdle(); Thread.sleep(600)
+                target = candidate()
+                var extra = 0
+                while (target == null && found && extra < 6) { device.swipe(device.displayWidth / 2, device.displayHeight * 3 / 4, device.displayWidth / 2, device.displayHeight / 2, 25); device.waitForIdle(); Thread.sleep(400); target = candidate(); extra++ }
                 android.util.Log.e("CITEST", "scrolled $swipes swipes to reach a clickable figure with a quarter screen visible")
                 val (cx, cy) = requireNotNull(target) { "no clickable figure reached by scrolling" }
                 device.click(cx, cy)
