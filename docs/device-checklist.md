@@ -4,7 +4,7 @@
 https://github.com/rameshgascngl-create/Animal-Biotechnology-and-Bioinformatics/releases/download/pilot-screening-d02/AnimalBiotechnology-pilot.apk
 The release notes name the commit it was built from. Android 8 or later. You may need to allow installs from your browser; installing replaces the current app only if the signing key matches (both are CI debug-signed), otherwise uninstall first (reading position and saved items are lost).
 
-Open the chapter *Screening and selection of recombinants* and scroll to the figure with the pBR322 plasmid (Fig. about 40% down the lesson). Do each step in **English, then Tamil** (Tamil: use the language switch on the home screen).
+Open the chapter *Screening and selection of recombinants* and scroll to the figure with the pBR322 plasmid (its caption begins "pBR322 plasmid with ampicillin- and tetracycline-resistance genes"). Do each step in **English, then Tamil** (Tamil: switch the app language to Tamil first).
 
 1. **Look.** Is the inline figure readable at normal arm's length without zooming? Note any label you cannot read or any word that is not in the chosen language (Latin names like AmpR, TetS, BamHI, LB are expected).
 2. **Open and pinch.** Tap the figure; the full-screen viewer opens at fit-to-width. Pinch-zoom in and out, drag to the bottom of the figure, double-tap, press Reset. Note when text stops getting sharper (it is capped at the bitmap's pixel size).
