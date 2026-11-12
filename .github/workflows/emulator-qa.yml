@@ -25,14 +25,18 @@ jobs:
           sudo udevadm trigger --name-match=kvm
       - name: Build app and instrumentation
         run: gradle :app:assembleDebug :app:assembleDebugAndroidTest --stacktrace
+      - name: Record the hash of the regression test file
+        run: |
+          mkdir -p qa-captures
+          sha256sum app/src/androidTest/java/com/gasczoology/animalbiotech/ViewerRegressionTest.kt | tee qa-captures/test-sha256.txt
+          echo "commit ${GITHUB_SHA} run ${GITHUB_RUN_ID} attempt ${GITHUB_RUN_ATTEMPT}" | tee qa-captures/run-id.txt
       - uses: reactivecircus/android-emulator-runner@v2
         with:
           api-level: 35
           arch: x86_64
           profile: pixel_2
           disable-animations: true
-          ram-size: 2048M
-          script: RUN_PILOT=1 bash tools/ci/emulator-suite.sh
+          script: bash tools/ci/emulator-suite.sh
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -42,13 +46,13 @@ jobs:
             app/build/reports/androidTests
             app/build/outputs/androidTest-results
             app/build/outputs/apk/debug/app-debug.apk
-      - name: Publish screenshots to branch qa-captures (so they can be reviewed without downloading artifacts)
+      - name: Publish captures to a branch of their own, qa-runs/<run id>-<attempt> (runs never overwrite one another)
         if: always()
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          mkdir -p /tmp/qa && find qa-captures \( -name '*.png' -o -name '*.txt' \) -exec cp {} /tmp/qa/ \; || true
+          mkdir -p /tmp/qa && find qa-captures \( -name '*.png' -o -name '*.xml' -o -name '*.txt' \) -exec cp {} /tmp/qa/ \; || true
           cd /tmp/qa && echo "Screenshots from commit ${GITHUB_SHA}" > README.txt
           git init -q && git config user.name "github-actions" && git config user.email "actions@users.noreply.github.com"
           git add -A && git commit -q -m "QA screenshots for ${GITHUB_SHA}"
-          git push -f "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:refs/heads/qa-captures
+          git push -f "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:refs/heads/qa-runs/${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}

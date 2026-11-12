@@ -15,12 +15,12 @@
 | plasmid | பிளாஸ்மிட் | ch. 10, insulin gene "எ.கோலையின் பிளாஸ்மிட்டில்" | 12 | PDF 198 (printed 190); also PDF 75 | **confirmed** |
 | vector | project: தாங்கிக்கடத்தி | ch. 5 Molecular Genetics: "கடத்திகள் (Vectors)" | 12 | PDF 106 (printed 98) | **alternative: கடத்தி**; தாங்கிக்கடத்தி not found. Change recommended |
 | host (cell) | project: use of விருந்தோம்பி | ch. 5: "தகுந்த விருந்தோம்பிகளில்" (host organisms) | 12 | PDF 106 (printed 98) | **confirmed as விருந்தோம்பி** (the book does not say "host cell") |
-| restriction endonuclease | project: (varies) | ch. 5: "எண்டோநியூக்ளியேஸ் (Restriction endonuclease) நொதி" | 12 | PDF 107 (printed 99) | **alternative**: the book transliterates; no coined Tamil name |
+| restriction endonuclease | வரையறுக்கப்பட்ட எண்டோநியூக்ளியேஸ் (Restriction endonuclease) நொதி | ch. 5 Molecular Genetics (CORRECTED 2026-11-12: I first wrote that the book only transliterates; the two-column text layer had split the word வரையறுக்கப்பட்ட from its noun, and Bio-Zoology PDF 102 shows it joined) | 12 | PDF 107 (printed 99) | **coined term exists**; long |
 | DNA ligase | லைகேஸ் | ch. 5 replication: "டி.என்.ஏ லைகேஸ் நொதி" | 12 | PDF 112 (printed 104) | **confirmed** (transliteration) |
 | primer | (project varies) | ch. 5: "தொடக்க இழை (Primer)"; ch. 10 PCR uses "முதன்மை இணைப்பு இழை" | 12 | PDF 92 (printed 84); PDF 205 | **alternative**; the book itself uses two names |
 | denaturation | இயல்பு திரிபு | ch. 10 PCR | 12 | PDF 205 (printed 197) | **confirmed** (fallback word DENATURATION) |
 | renaturation | இயல்பு மீள்வு | ch. 10 PCR | 12 | PDF 205 | confirmed |
-| annealing | "முதன்மை இணைப்பு இழை பதப்படுத்தல்" (Primer annealing) | ch. 10 PCR | 12 | PDF 205 | **alternative**; long phrase, will not fit as a one-word step label (fallback word ANNEALING) |
+| annealing | இயல்பு மீள்வு (renaturation), "அல்லது" முதன்மை இணைப்பு இழை பதப்படுத்தல் (Primer annealing) | ch. 10 PCR (CORRECTED 2026-11-12: the book names the step with both; I had recorded only the long phrase) | 12 | PDF 205 (printed 197) | **short form exists** (இயல்பு மீள்வு); whether the book equates it with annealing is my reading of one sentence |
 | extension | "முதன்மை இணைப்பு இழை நீட்சி" (Primer extension) | ch. 10 PCR | 12 | PDF 205-206 | **alternative**, same length problem (fallback word EXTENSION) |
 | probe | துலக்கி | ch. 5 | 12 | PDF 110 (printed 102) | confirmed |
 | blotting | ஒற்றியெடுத்தல் | ch. 5 | 12 | PDF 110 | confirmed |
