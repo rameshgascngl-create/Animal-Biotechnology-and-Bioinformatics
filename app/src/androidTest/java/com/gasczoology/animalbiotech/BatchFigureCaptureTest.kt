@@ -60,6 +60,11 @@ class BatchFigureCaptureTest {
                     device.swipe(dm.widthPixels / 2, (dm.heightPixels * 0.7).toInt(), dm.widthPixels / 2, (dm.heightPixels * 0.3).toInt(), 20)
                     shown = device.wait(Until.hasObject(By.descContains(needle)), 1200); tries++
                 }
+                tries = 0
+                while (!shown && tries < 30) {
+                    device.swipe(dm.widthPixels / 2, (dm.heightPixels * 0.3).toInt(), dm.widthPixels / 2, (dm.heightPixels * 0.7).toInt(), 20)
+                    shown = device.wait(Until.hasObject(By.descContains(needle)), 1200); tries++
+                }
                 if (!shown) {
                     capture("29-fail-$tag-$id-${lang.name}")
                     val out = java.io.ByteArrayOutputStream(); device.dumpWindowHierarchy(out)
