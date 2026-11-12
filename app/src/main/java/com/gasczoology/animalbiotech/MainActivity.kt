@@ -156,7 +156,14 @@ fun App(store: Store) {
             }
         }
         is Screen.QuizRun -> QuizScreen(
-            title = s.title,
+            title = if (lang != Lang.TA) s.title else
+                units.flatMap { it.topics }.firstOrNull { it.file == s.key && s.key.isNotEmpty() }?.titleTa?.takeIf { it.isNotBlank() }
+                    ?: when {
+                        s.title == "Exam mode" -> "தேர்வு முறை"
+                        s.title == "Random 20" -> "சீரற்ற 20 வினாக்கள்"
+                        Regex("Unit (I|II|III|IV|V) mixed").matches(s.title) -> "அலகு " + s.title.removePrefix("Unit ").removeSuffix(" mixed") + ": கலவை வினாக்கள்"
+                        else -> s.title
+                    },
             items = s.items,
             lang = lang,
             onLang = { lang = it; store.putLang(it) },

@@ -13,8 +13,8 @@ android {
         minSdk = 26
         targetSdk = 35
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        versionCode = 7
-        versionName = "2.0.0"
+        versionCode = 8
+        versionName = "0.9.0-rc1"
     }
 
     signingConfigs {
@@ -42,7 +42,9 @@ android {
             isMinifyEnabled = true
             isShrinkResources = true
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
-            if (System.getenv("KEYSTORE_PATH") != null) signingConfig = signingConfigs.getByName("release")
+            // Signed with the release key when CI supplies it; otherwise with the shared debug key so the RC can still be sideloaded and tested.
+            // A debug-signed release build is NOT for distribution (see docs/RELEASE.md); the CI workflow names the file accordingly.
+            signingConfig = if (System.getenv("KEYSTORE_PATH") != null) signingConfigs.getByName("release") else signingConfigs.getByName("debug")
         }
     }
     compileOptions {

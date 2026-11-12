@@ -136,16 +136,16 @@ fun LessonScreen(
         Column(Modifier.fillMaxSize().background(pal.bg).statusBarsPadding().navigationBarsPadding().semantics { testTagsAsResourceId = true }) {
             if (bars) {
                 Row(Modifier.fillMaxWidth().padding(horizontal = 4.dp, vertical = 4.dp), verticalAlignment = Alignment.CenterVertically) {
-                    IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back", tint = pal.heading) }
+                    IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr(lang, "Back", "பின்செல்"), tint = pal.heading) }
                     Text(
                         title, Modifier.weight(1f), maxLines = 1, overflow = TextOverflow.Ellipsis,
                         style = MaterialTheme.typography.titleSmall, color = pal.muted, fontFamily = tamil,
                     )
                     IconButton(onClick = onSaved) {
-                        Icon(Icons.Default.Star, contentDescription = "Save topic", tint = if (saved) Color(0xFFF5B301) else pal.muted)
+                        Icon(Icons.Default.Star, contentDescription = tr(lang, "Save topic", "தலைப்பைச் சேமி"), tint = if (saved) Color(0xFFF5B301) else pal.muted)
                     }
                     IconButton(onClick = onStudied) {
-                        Icon(Icons.Default.Check, contentDescription = "Mark as studied", tint = if (studied) Color(0xFF1F9D8F) else pal.muted)
+                        Icon(Icons.Default.Check, contentDescription = tr(lang, "Mark as studied", "படித்ததாகக் குறி"), tint = if (studied) Color(0xFF1F9D8F) else pal.muted)
                     }
                     TextButton(onClick = { showSettings = true }) { Text("Aa", color = pal.heading, fontWeight = FontWeight.Bold, fontSize = 18.sp) }
                 }

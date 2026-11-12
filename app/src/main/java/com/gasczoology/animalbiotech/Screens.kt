@@ -62,7 +62,7 @@ fun ChapterUnavailableScreen(topic: Topic, lang: Lang, onBack: () -> Unit, onQui
         topBar = {
             TopAppBar(
                 title = { Text(topic.title, maxLines = 1) },
-                navigationIcon = { IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back") } },
+                navigationIcon = { IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = pick("Back", "பின்செல்", lang)) } },
                 colors = TopAppBarDefaults.topAppBarColors(containerColor = Navy, titleContentColor = Color.White, navigationIconContentColor = Color.White),
             )
         },
@@ -117,7 +117,7 @@ fun QuizScreen(
                 title = { Text(title, maxLines = 1, style = MaterialTheme.typography.titleMedium) },
                 navigationIcon = {
                     IconButton(onClick = onClose) {
-                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Close quiz")
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = pick("Close quiz", "வினாடி வினாவை மூடு", lang))
                     }
                 },
                 colors = TopAppBarDefaults.topAppBarColors(
@@ -131,10 +131,10 @@ fun QuizScreen(
         if (done || items.isEmpty()) {
             val pct = if (items.isEmpty()) 0 else score * 100 / items.size
             val msg = when {
-                pct >= 90 -> "Excellent. Exam-ready on this topic."
-                pct >= 70 -> "Good. Revise the questions you missed."
-                pct >= 50 -> "Fair. Re-read the chapters and try again."
-                else -> "Needs work. Study the module, then retake the quiz."
+                pct >= 90 -> pick("Excellent. Exam-ready on this topic.", "சிறப்பு. இந்தத் தலைப்பில் தேர்வுக்குத் தயார்.", lang)
+                pct >= 70 -> pick("Good. Revise the questions you missed.", "நன்று. தவறிய வினாக்களை மீள்பார்க்கவும்.", lang)
+                pct >= 50 -> pick("Fair. Re-read the chapters and try again.", "பரவாயில்லை. அத்தியாயங்களை மீண்டும் படித்து முயலவும்.", lang)
+                else -> pick("Needs work. Study the module, then retake the quiz.", "இன்னும் முயற்சி தேவை. பாடத்தைப் படித்து வினாடி வினாவை மீண்டும் எழுதவும்.", lang)
             }
             Column(
                 Modifier.fillMaxSize().padding(inner).padding(24.dp),
@@ -148,9 +148,9 @@ fun QuizScreen(
                 Spacer(Modifier.height(24.dp))
                 Button(onClick = {
                     idx = 0; chosen = null; score = 0; done = false; round++
-                }) { Text("Retake quiz") }
+                }) { Text(pick("Retake quiz", "வினாடி வினாவை மீண்டும் எழுது", lang)) }
                 Spacer(Modifier.height(8.dp))
-                OutlinedButton(onClick = onClose) { Text("Back to quizzes") }
+                OutlinedButton(onClick = onClose) { Text(pick("Back to quizzes", "வினாடி வினாக்களுக்குத் திரும்பு", lang)) }
             }
         } else {
             val q = items[idx]
@@ -170,8 +170,8 @@ fun QuizScreen(
                     }
                 }
                 item(key = "head$round-$idx") {
-                    val clock = if (timeLimitSec > 0) "   ·   %d:%02d left".format(remaining / 60, remaining % 60) else ""
-                    Text("Question ${idx + 1} of ${items.size}   ·   Score $score$clock", style = MaterialTheme.typography.labelLarge, color = Teal)
+                    val clock = if (timeLimitSec > 0) (if (lang == Lang.TA) "   ·   எஞ்சிய நேரம் %d:%02d" else "   ·   %d:%02d left").format(remaining / 60, remaining % 60) else ""
+                    Text(pick("Question ${idx + 1} of ${items.size}   ·   Score $score", "வினா ${idx + 1} / ${items.size}   ·   மதிப்பெண் $score", lang) + clock, style = MaterialTheme.typography.labelLarge, color = Teal)
                     Spacer(Modifier.height(6.dp))
                     LinearProgressIndicator(
                         progress = { (idx + (if (chosen != null) 1 else 0)).toFloat() / items.size },

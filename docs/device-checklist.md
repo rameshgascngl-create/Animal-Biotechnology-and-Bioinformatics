@@ -1,15 +1,34 @@
-# Device test: pilot figure on a real phone (5 steps)
+# Device checklist: release candidate (v0.9.0-rc1)
 
-**APK** (debug-signed CI build of `pilot/screening-d02`, a pre-release, not the "latest" app):
-https://github.com/rameshgascngl-create/Animal-Biotechnology-and-Bioinformatics/releases/download/pilot-screening-d02/AnimalBiotechnology-pilot.apk
-The release notes name the commit it was built from. Android 8 or later. You may need to allow installs from your browser; installing replaces the current app only if the signing key matches (both are CI debug-signed), otherwise uninstall first (reading position and saved items are lost).
+**APK:** the pre-release asset named in the GitHub Release `v0.9.0-rc1` (Releases page of this repository). If the file name contains `NOT-FOR-DISTRIBUTION`, it is debug-signed: install for testing only. Android 8 (API 26) or later.
+**Nothing below has been run on a physical device or with TalkBack. CI proves install, upgrade, offline start, cold start and the language sample on an emulator only.**
 
-Open the chapter *Screening and selection of recombinants* and scroll to the figure with the pBR322 plasmid (its caption begins "pBR322 plasmid with ampicillin- and tetracycline-resistance genes"). Do each step in **English, then Tamil** (Tamil: switch the app language to Tamil first).
+Do every section **in English, then in Tamil** where it says so. Note: phone model, Android version, steps that failed, what TalkBack spoke.
 
-1. **Look.** Is the inline figure readable at normal arm's length without zooming? Note any label you cannot read or any word that is not in the chosen language (Latin names like AmpR, TetS, BamHI, LB are expected).
-2. **Open and pinch.** Tap the figure; the full-screen viewer opens at fit-to-width. Pinch-zoom in and out, drag to the bottom of the figure, double-tap, press Reset. Note when text stops getting sharper (it is capped at the bitmap's pixel size).
-3. **Rotate.** With the viewer open, turn the phone sideways and back. The viewer must stay open and keep roughly the same zoom and position. (The app no longer forces landscape.)
-4. **Back.** Press the system Back button/gesture once: the viewer must close and the lesson must still be at the same place. Then open it again and use Close.
-5. **TalkBack on** (Settings > Accessibility). Swipe to the figure: it should speak the figure's description in the current language. Double-tap to open; swipe through: figure first, then Zoom in, Zoom out, Reset, Close. Try the "Zoom in" action on the figure (actions menu). Note anything silent, in the wrong language, or out of order.
+## A. Install (clean)
+1. Uninstall any earlier build. Install the RC APK (allow installs from your browser or file manager if asked). It opens to the home screen without a network prompt.
+2. Open one chapter from each of Units I to V. Each opens a native screen (no blank page, no "chapter text could not be loaded").
 
-Report: phone model, Android version, the steps that failed, and the wording TalkBack spoke. **Nothing here has ever been run on a device or with TalkBack; the emulator CI cannot test TalkBack speech.**
+## B. Upgrade over a previous install
+1. On the *previous* build: switch to Tamil, open any chapter, star it (Saved), mark it studied, finish one module quiz, note the best score.
+2. Install the RC over it without uninstalling.
+3. Check: language is still Tamil; "Continue reading" (தொடர்ந்து படிக்க) points to the same chapter at the same position; Saved and studied marks are there; the quiz best score is still shown.
+
+## C. Offline
+1. Switch on aeroplane mode, wifi off. Force-stop the app and open it again.
+2. Open a chapter with figures, open a figure, take a quiz. Nothing asks for the internet.
+
+## D. Both languages
+1. Switch English then Tamil on the home screen, a chapter, a quiz (question, feedback, result screen) and the About tab.
+2. In Tamil mode no English sentence appears except symbols, gene and organism names, units and the institutional credit line. **Known:** Revise, Flashcards, Glossary and Search content is English only (see release notes).
+3. Tamil is a draft machine translation for every chapter; read some chapters and note wrong terms.
+
+## E. Figures: pinch, rotate, Back
+1. Open *Screening and selection of recombinants* (batch figures) and *DNA library: genomic and cDNA*. Is each inline figure readable at arm's length?
+2. Tap a figure: the viewer opens at fit-to-width. Pinch in and out, drag, double-tap, press Reset.
+3. Rotate with the viewer open: it stays open with similar zoom and position.
+4. Press system Back once: the viewer closes and the lesson is at the same place. Open again and use Close.
+
+## F. TalkBack (Settings > Accessibility)
+1. Swipe to a figure: it speaks the figure description in the current language. Double-tap: viewer opens; order is figure, Zoom in, Zoom out, Reset, Close.
+2. Quiz result screen buttons and the Back button are spoken in the current language.
