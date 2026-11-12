@@ -31,6 +31,8 @@ class ReaderCaptureTest {
 
     /** Logs PSS and heap figures (kB) from dumpsys meminfo under the CITEST-MEM tag: "moment | label | value". */
     private fun logMem(device: UiDevice, moment: String) {
+        // The instrumentation runs inside the app process, so collect first: otherwise bitmaps of a closed composition (e.g. the other language) inflate the figure.
+        System.gc(); Thread.sleep(1200); System.gc(); Thread.sleep(300)
         val out = device.executeShellCommand("dumpsys meminfo com.gasczoology.animalbiotech")
         for (key in listOf("Java Heap:", "Native Heap:", "Graphics:", "TOTAL PSS:", "TOTAL:")) {
             out.lines().firstOrNull { it.trim().startsWith(key) }?.let { android.util.Log.e("CITEST-MEM", "$moment | ${it.trim().replace(Regex("\\s+"), " ")}") }
