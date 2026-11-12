@@ -320,7 +320,7 @@ class ReaderCaptureTest {
                 var swipes = 0
                 /** Centre of a clickable figure with a quarter screen visible, read eagerly (a node reference goes stale while the list moves). */
                 fun candidate(): Pair<Int, Int>? = try {
-                    device.findObjects(By.descStartsWith("Diagram").clickable(true)).mapNotNull {
+                    device.findObjects(By.descStartsWith("Diagram")).mapNotNull {
                         try { val r = it.visibleBounds
                             if (r.height() >= device.displayHeight / 4) Triple(r.centerX(), r.centerY(), it.contentDescription) else null
                         } catch (e: androidx.test.uiautomator.StaleObjectException) { null }
