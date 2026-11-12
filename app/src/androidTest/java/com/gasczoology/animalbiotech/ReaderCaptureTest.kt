@@ -318,15 +318,23 @@ class ReaderCaptureTest {
                 assertTrue(device.wait(Until.hasObject(By.text("Animal Biotechnology")), 15000))
                 scenario.onActivity { fixture(it) }
                 var swipes = 0
-                fun candidate() = device.findObjects(By.descStartsWith("Diagram").clickable(true))
-                    .firstOrNull { val r = it.visibleBounds; r.height() >= device.displayHeight / 4 && r.top > 0 && r.bottom < device.displayHeight }
-                while (candidate() == null && swipes < 80) {
+                /** Centre of a fully visible clickable figure, read eagerly (a node reference goes stale while the list moves). */
+                fun candidate(): Pair<Int, Int>? = try {
+                    device.findObjects(By.descStartsWith("Diagram").clickable(true)).mapNotNull {
+                        try { val r = it.visibleBounds
+                            if (r.height() >= device.displayHeight / 4 && r.top > 0 && r.bottom < device.displayHeight) Triple(r.centerX(), r.centerY(), it.contentDescription) else null
+                        } catch (e: androidx.test.uiautomator.StaleObjectException) { null }
+                    }.firstOrNull()?.also { android.util.Log.e("CITEST", "figure ${it.third?.take(80)} at ${it.first},${it.second}") }?.let { it.first to it.second }
+                } catch (e: androidx.test.uiautomator.StaleObjectException) { null }
+                var target: Pair<Int, Int>? = null
+                while (target == null && swipes < 80) {
                     device.swipe(device.displayWidth / 2, device.displayHeight * 3 / 4, device.displayWidth / 2, device.displayHeight / 2, 25); swipes++
+                    device.waitForIdle(); Thread.sleep(400)
+                    target = candidate()
                 }
                 android.util.Log.e("CITEST", "scrolled $swipes swipes to reach a fully visible clickable figure")
-                val fig = requireNotNull(candidate()) { "no clickable figure reached by scrolling" }
-                android.util.Log.e("CITEST", "clicking ${fig.contentDescription?.take(80)} at ${fig.visibleBounds}")
-                fig.click()
+                val (cx, cy) = requireNotNull(target) { "no clickable figure reached by scrolling" }
+                device.click(cx, cy)
                 val close = "Close"
                 fun viewerOpen() = device.wait(Until.hasObject(By.text(close)), 6000) || device.wait(Until.hasObject(By.desc(close)), 1500)
                 if (!viewerOpen()) { logDescriptions(device); org.junit.Assert.fail("viewer did not open") }
