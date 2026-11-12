@@ -1,0 +1,46 @@
+{
+ "t1": {
+  "en": "DNA isolation",
+  "ta": "DNA பிரித்தெடுத்தல்"
+ },
+ "d1": {
+  "en": "Less DNA is needed",
+  "ta": "குறைவான DNA போதும்"
+ },
+ "t2": {
+  "en": "Random primers and PCR",
+  "ta": "தற்செயல் முதன்மை இழைகளும் PCR-உம்"
+ },
+ "d2": {
+  "en": "About 10 nt, arbitrary sequence",
+  "ta": "சுமார் 10 nt, தன்னிச்சை வரிசை"
+ },
+ "t3": {
+  "en": "PCR amplification",
+  "ta": "PCR பெருக்கம்"
+ },
+ "d3": {
+  "en": "Multiple fragments",
+  "ta": "பல துண்டுகள்"
+ },
+ "t4": {
+  "en": "Gel electrophoresis",
+  "ta": "ஜெல் மின்னாற்பிரித்தல்"
+ },
+ "d4": {
+  "en": "The bands separate",
+  "ta": "பட்டைகள் பிரிகின்றன"
+ },
+ "t5": {
+  "en": "Analyse the band pattern",
+  "ta": "பட்டை அமைப்பைப் பகுப்பாய்வு செய்"
+ },
+ "d5": {
+  "en": "RAPD profile",
+  "ta": "RAPD சுயவிவரம்"
+ },
+ "_alt": {
+  "en": "Flow diagram: the RAPD workflow in five steps. Isolate DNA (little is needed); amplify with short arbitrary primers by PCR; this gives several fragments; separate them by gel electrophoresis; analyse the band pattern to give the RAPD profile.",
+  "ta": "பாய்வு படம்: RAPD முறையின் ஐந்து படிகள். DNA-வைப் பிரித்தெடுத்தல் (குறைவாகவே போதும்); குறுகிய தற்செயல் முதன்மை இழைகளுடன் PCR மூலம் பெருக்குதல்; பல துண்டுகள் உருவாகின்றன; ஜெல் மின்னாற்பிரித்தலில் பிரித்தல்; பட்டை அமைப்பிலிருந்து RAPD சுயவிவரம் பெறுதல்."
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "t1": {
+  "en": "DNA isolation",
+  "ta": "DNA பிரித்தெடுத்தல்"
+ },
+ "d1": {
+  "en": "Sample DNA",
+  "ta": "மாதிரி DNA"
+ },
+ "t2": {
+  "en": "Amplify VNTR / STR loci",
+  "ta": "VNTR / STR இடங்களைப் பெருக்கு"
+ },
+ "d2": {
+  "en": "PCR-based",
+  "ta": "PCR அடிப்படையிலானது"
+ },
+ "t3": {
+  "en": "Separate the fragments",
+  "ta": "துண்டுகளைப் பிரி"
+ },
+ "d3": {
+  "en": "Electrophoresis",
+  "ta": "மின்னாற்பிரித்தல்"
+ },
+ "t4": {
+  "en": "Band profile is generated",
+  "ta": "பட்டைச் சுயவிவரம் உருவாகிறது"
+ },
+ "d4": {
+  "en": "DNA fingerprint",
+  "ta": "DNA விரல்ரேகை"
+ },
+ "t5": {
+  "en": "Compare the profiles",
+  "ta": "சுயவிவரங்களை ஒப்பிடு"
+ },
+ "d5": {
+  "en": "Match or exclude",
+  "ta": "பொருந்தும் / விலக்கு"
+ },
+ "_alt": {
+  "en": "Flow diagram: DNA fingerprinting in five steps. Isolate sample DNA; amplify VNTR or STR loci by PCR; separate the fragments by electrophoresis; the band profile is the DNA fingerprint; compare profiles to match or exclude.",
+  "ta": "பாய்வு படம்: DNA விரல்ரேகை ஆய்வின் ஐந்து படிகள். மாதிரி DNA-வைப் பிரித்தெடுத்தல்; VNTR அல்லது STR இடங்களை PCR மூலம் பெருக்குதல்; மின்னாற்பிரித்தலில் துண்டுகளைப் பிரித்தல்; பட்டைச் சுயவிவரமே DNA விரல்ரேகை; சுயவிவரங்களை ஒப்பிட்டுப் பொருத்துதல் அல்லது விலக்குதல்."
+ }
+}

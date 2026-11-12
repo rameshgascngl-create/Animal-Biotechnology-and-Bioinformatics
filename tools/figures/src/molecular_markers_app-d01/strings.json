@@ -1,0 +1,46 @@
+{
+ "t1": {
+  "en": "DNA isolation",
+  "ta": "DNA பிரித்தெடுத்தல்"
+ },
+ "d1": {
+  "en": "Genomic DNA",
+  "ta": "மரபணுத்தொகை DNA"
+ },
+ "t2": {
+  "en": "Restriction digestion",
+  "ta": "ரெஸ்ட்ரிக்ஷன் நொதிச் செரிப்பு"
+ },
+ "d2": {
+  "en": "The enzyme cuts the DNA",
+  "ta": "நொதி DNA-வை வெட்டுகிறது"
+ },
+ "t3": {
+  "en": "Gel electrophoresis",
+  "ta": "ஜெல் மின்னாற்பிரித்தல்"
+ },
+ "d3": {
+  "en": "Fragments separate by size",
+  "ta": "துண்டுகள் அளவுக்கேற்பப் பிரிகின்றன"
+ },
+ "t4": {
+  "en": "Southern blot and probe hybridisation",
+  "ta": "சதர்ன் ப்ளாட் மற்றும் துருவி கலப்பிணைவு"
+ },
+ "d4": {
+  "en": "Label and detect the bands",
+  "ta": "பட்டைகளுக்கு அடையாளமிட்டுக் கண்டறி"
+ },
+ "t5": {
+  "en": "Analyse the band pattern",
+  "ta": "பட்டை அமைப்பைப் பகுப்பாய்வு செய்"
+ },
+ "d5": {
+  "en": "RFLP profile",
+  "ta": "RFLP சுயவிவரம்"
+ },
+ "_alt": {
+  "en": "Flow diagram: the RFLP workflow in five steps. Isolate genomic DNA; digest it with a restriction enzyme; separate the fragments by gel electrophoresis; transfer to a membrane (Southern blot) and hybridise with a labelled probe; analyse the band pattern to give the RFLP profile.",
+  "ta": "பாய்வு படம்: RFLP முறையின் ஐந்து படிகள். மரபணுத்தொகை DNA-வைப் பிரித்தெடுத்தல்; ரெஸ்ட்ரிக்ஷன் நொதியால் செரித்தல்; ஜெல் மின்னாற்பிரித்தலில் துண்டுகளைப் பிரித்தல்; சதர்ன் ப்ளாட் மற்றும் துருவி கலப்பிணைவு மூலம் பட்டைகளைக் கண்டறிதல்; பட்டை அமைப்பிலிருந்து RFLP சுயவிவரம் பெறுதல்."
+ }
+}

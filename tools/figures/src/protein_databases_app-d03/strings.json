@@ -1,0 +1,46 @@
+{
+ "t1": {
+  "en": "Biological data from the lab",
+  "ta": "ஆய்வகத்திலிருந்து உயிரியல் தரவு"
+ },
+ "d1": {
+  "en": "Sequence / structure",
+  "ta": "வரிசை / அமைப்பு"
+ },
+ "t2": {
+  "en": "Database entry and curation",
+  "ta": "தரவுத்தளப் பதிவும் தொகுப்பும்"
+ },
+ "d2": {
+  "en": "An ID is assigned",
+  "ta": "ID ஒதுக்கப்படுகிறது"
+ },
+ "t3": {
+  "en": "Storage",
+  "ta": "சேமிப்பு"
+ },
+ "d3": {
+  "en": "UniProt / PDB, freely accessible",
+  "ta": "UniProt / PDB, கட்டற்ற அணுகல்"
+ },
+ "t4": {
+  "en": "Retrieval: search and access",
+  "ta": "மீட்டெடுப்பு: தேடலும் அணுகலும்"
+ },
+ "d4": {
+  "en": "BLAST / name / ID",
+  "ta": "BLAST / பெயர் / ID"
+ },
+ "t5": {
+  "en": "Analysis and application",
+  "ta": "பகுப்பாய்வும் பயன்பாடும்"
+ },
+ "d5": {
+  "en": "Drug design, research",
+  "ta": "மருந்து வடிவமைப்பு, ஆராய்ச்சி"
+ },
+ "_alt": {
+  "en": "Flow diagram: how protein data reach a database and are used, in five steps. Biological data from the lab (sequence or structure); database entry and curation, with an ID assigned; storage in UniProt or PDB, freely accessible; retrieval by search (BLAST, name or ID); analysis and application such as drug design and research.",
+  "ta": "பாய்வு படம்: புரதத் தரவு தரவுத்தளத்தை அடைந்து பயன்படும் ஐந்து படிகள். ஆய்வகத்திலிருந்து உயிரியல் தரவு (வரிசை அல்லது அமைப்பு); தரவுத்தளப் பதிவும் தொகுப்பும், ID ஒதுக்கீடு; UniProt / PDB-யில் கட்டற்ற அணுகலுடன் சேமிப்பு; BLAST, பெயர் அல்லது ID மூலம் மீட்டெடுப்பு; மருந்து வடிவமைப்பு, ஆராய்ச்சி போன்ற பகுப்பாய்வும் பயன்பாடும்."
+ }
+}
