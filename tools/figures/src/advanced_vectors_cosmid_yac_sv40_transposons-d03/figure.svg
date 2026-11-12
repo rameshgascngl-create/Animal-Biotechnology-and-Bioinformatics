@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 1170">
+<rect width="360" height="1170" fill="#ffffff"/>
+<defs><marker id="ah" markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L5,2.5 L0,5 z" fill="#0b6f85"/></marker></defs>
+<g transform="translate(0,72)">
+<circle cx="180" cy="100" r="59" fill="none" stroke="#0b2a40" stroke-width="3"/>
+<path d="M 193.2 25.2 A 76 76 0 0 1 195.8 174.3" fill="none" stroke="#be3b57" stroke-width="18" stroke-linecap="round"/>
+<path d="M 166.8 174.8 A 76 76 0 0 1 149.1 30.6" fill="none" stroke="#0e7490" stroke-width="18" stroke-linecap="round"/>
+<path d="M 159.1 26.9 A 76 76 0 0 1 177.3 24.0" fill="none" stroke="#3fa37c" stroke-width="18" stroke-linecap="round"/>
+<circle cx="180.0" cy="24.0" r="9" fill="#d9712e" stroke="#ffffff" stroke-width="2.5"/>
+<text data-k="c_sv" data-w="84" x="180" y="96" text-anchor="middle" class="b" font-weight="700" fill="#0b2a40"/>
+<text data-k="c_bp" data-w="84" x="180" y="114" text-anchor="middle" class="s" fill="#496570"/>
+<text data-k="c_ds" data-w="84" x="180" y="132" text-anchor="middle" class="s" fill="#496570"/>
+<rect x="28" y="210" width="14" height="14" rx="3" fill="#be3b57"/>
+<text data-k="r_early" data-w="290" x="52" y="222" text-anchor="start" class="s" font-weight="700" fill="#be3b57"/>
+<text data-k="d_early" data-w="290" x="52" y="242" text-anchor="start" class="s" fill="#071e2e"/>
+<rect x="28" y="314" width="14" height="14" rx="3" fill="#0e7490"/>
+<text data-k="r_late" data-w="290" x="52" y="326" text-anchor="start" class="s" font-weight="700" fill="#0e7490"/>
+<text data-k="d_late" data-w="290" x="52" y="346" text-anchor="start" class="s" fill="#071e2e"/>
+<rect x="28" y="382" width="14" height="14" rx="3" fill="#3fa37c"/>
+<text data-k="r_reg" data-w="290" x="52" y="394" text-anchor="start" class="s" font-weight="700" fill="#3fa37c"/>
+<text data-k="d_reg" data-w="290" x="52" y="414" text-anchor="start" class="s" fill="#071e2e"/>
+<circle cx="35" cy="457" r="8" fill="#d9712e"/>
+<text data-k="r_ori" data-w="290" x="52" y="462" text-anchor="start" class="s" font-weight="700" fill="#9a4a14"/>
+<text data-k="d_ori" data-w="290" x="52" y="482" text-anchor="start" class="s" fill="#071e2e"/>
+<text data-k="note" data-w="320" x="180" y="534" text-anchor="middle" class="s" font-style="italic" fill="#496570"/>
+<line x1="24" y1="576" x2="336" y2="576" stroke="#c9d6dc" stroke-width="1.5"/>
+<text data-k="t2" data-w="330" x="180" y="616" text-anchor="middle" class="h" fill="#0b4a5a"/>
+<polygon points="252.1,755.8 209.8,798.1 150.2,798.1 107.9,755.8 107.9,696.2 150.2,653.9 209.8,653.9 252.1,696.2" fill="#dbeafe" stroke="#2579a8" stroke-width="4"/>
+<circle cx="180" cy="726" r="46" fill="#ecfeff" stroke="#0e7490" stroke-width="3"/>
+<circle cx="210.0" cy="726.0" r="8.5" fill="#be3b57" opacity="0.9"/>
+<circle cx="201.2" cy="747.2" r="8.5" fill="#be3b57" opacity="0.9"/>
+<circle cx="180.0" cy="756.0" r="8.5" fill="#be3b57" opacity="0.9"/>
+<circle cx="158.8" cy="747.2" r="8.5" fill="#be3b57" opacity="0.9"/>
+<circle cx="150.0" cy="726.0" r="8.5" fill="#be3b57" opacity="0.9"/>
+<circle cx="158.8" cy="704.8" r="8.5" fill="#be3b57" opacity="0.9"/>
+<circle cx="180.0" cy="696.0" r="8.5" fill="#be3b57" opacity="0.9"/>
+<circle cx="201.2" cy="704.8" r="8.5" fill="#be3b57" opacity="0.9"/>
+<circle cx="180" cy="726" r="30" fill="none" stroke="#0b2a40" stroke-width="2.5" stroke-dasharray="4 3"/>
+<rect x="28" y="826" width="14" height="14" rx="3" fill="#2579a8"/>
+<text data-k="v_cap" data-w="290" x="52" y="838" text-anchor="start" class="s" fill="#071e2e"/>
+<rect x="28" y="882" width="14" height="14" rx="3" fill="#2579a8"/>
+<text data-k="v_vp1" data-w="290" x="52" y="894" text-anchor="start" class="s" fill="#071e2e"/>
+<rect x="28" y="938" width="14" height="14" rx="3" fill="#0e7490"/>
+<text data-k="v_mini" data-w="290" x="52" y="950" text-anchor="start" class="s" font-weight="700" fill="#071e2e"/>
+<circle cx="35" cy="1001" r="8" fill="#be3b57"/>
+<text data-k="v_hist" data-w="290" x="52" y="1006" text-anchor="start" class="s" fill="#071e2e"/>
+</g>
+</svg>
+

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 844">
+<rect width="360" height="844" fill="#ffffff"/>
+<defs><marker id="ah" markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L5,2.5 L0,5 z" fill="#0b6f85"/></marker></defs>
+<g transform="translate(0,52)">
+<text data-k="t1" data-w="330" x="180" y="22" text-anchor="middle" class="h" fill="#0b2a40"/>
+<rect x="28" y="96" width="206" height="40" rx="20" fill="#fde68a" stroke="#d97706" stroke-width="3.5"/>
+<text data-k="mrna" data-w="170" x="131" y="122" text-anchor="middle" class="b" font-weight="700" fill="#7a3b0a"/>
+<rect x="234" y="96" width="98" height="40" rx="20" fill="#fecdd3" stroke="#be123c" stroke-width="3.5"/>
+<text data-k="polya" data-w="84" x="283" y="122" text-anchor="middle" class="b" font-weight="700" fill="#7f1d2d"/>
+<text data-k="e5" data-w="40" x="28" y="84" text-anchor="start" class="b" font-weight="700" fill="#d97706"/>
+<text data-k="e3" data-w="40" x="332" y="84" text-anchor="end" class="b" font-weight="700" fill="#d97706"/>
+<line x1="252" y1="140" x2="252" y2="160" stroke="#0b2a40" stroke-width="2.5"/>
+<line x1="264" y1="140" x2="264" y2="160" stroke="#0b2a40" stroke-width="2.5"/>
+<line x1="276" y1="140" x2="276" y2="160" stroke="#0b2a40" stroke-width="2.5"/>
+<line x1="288" y1="140" x2="288" y2="160" stroke="#0b2a40" stroke-width="2.5"/>
+<line x1="300" y1="140" x2="300" y2="160" stroke="#0b2a40" stroke-width="2.5"/>
+<line x1="312" y1="140" x2="312" y2="160" stroke="#0b2a40" stroke-width="2.5"/>
+<rect x="234" y="164" width="98" height="40" rx="20" fill="#b6ecf5" stroke="#0e8fb0" stroke-width="3.5"/>
+<text data-k="dt" data-w="84" x="283" y="190" text-anchor="middle" class="b" font-weight="700" fill="#0b4a5a"/>
+<text data-k="p3" data-w="40" x="224" y="224" text-anchor="end" class="b" font-weight="700" fill="#0b6f85"/>
+<text data-k="p5" data-w="40" x="332" y="222" text-anchor="end" class="b" font-weight="700" fill="#0b6f85"/>
+<circle cx="221" cy="184" r="9" fill="#d97706" stroke="#ffffff" stroke-width="2.5"/>
+<text data-k="l_polya" data-w="100" x="283" y="64" text-anchor="middle" class="s" font-weight="700" fill="#be123c"/>
+<line x1="130" y1="262" x2="130" y2="214" stroke="#d97706" stroke-width="2.5" marker-end="url(#ah)"/>
+<text data-k="l_oh" data-w="190" x="150" y="262" text-anchor="start" class="s" font-weight="700" fill="#9a4a14"/>
+<text data-k="t2" data-w="330" x="180" y="386" text-anchor="middle" class="h" fill="#0b2a40"/>
+<text data-k="s1" data-w="304" x="28" y="450" text-anchor="start" class="s" fill="#071e2e"/>
+<rect x="28" y="578" width="14" height="14" rx="3" fill="#fde68a" stroke="#7b8a92" stroke-width="1.5"/>
+<text data-k="k_mrna" data-w="284" x="52" y="590" text-anchor="start" class="s" fill="#071e2e"/>
+<rect x="28" y="626" width="14" height="14" rx="3" fill="#fecdd3" stroke="#7b8a92" stroke-width="1.5"/>
+<text data-k="k_polya" data-w="284" x="52" y="638" text-anchor="start" class="s" fill="#071e2e"/>
+<rect x="28" y="674" width="14" height="14" rx="3" fill="#b6ecf5" stroke="#7b8a92" stroke-width="1.5"/>
+<text data-k="k_primer" data-w="284" x="52" y="686" text-anchor="start" class="s" fill="#071e2e"/>
+<circle cx="35" cy="729" r="8" fill="#d97706"/>
+<text data-k="k_oh" data-w="284" x="52" y="734" text-anchor="start" class="s" fill="#071e2e"/>
+</g>
+</svg>
+

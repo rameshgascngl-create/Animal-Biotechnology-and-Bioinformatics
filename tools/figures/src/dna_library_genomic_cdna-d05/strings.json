@@ -1,0 +1,70 @@
+{
+ "t1": {
+  "en": "Step 2: the primer anneals",
+  "ta": "படி 2: தொடக்க இழை இணைதல்"
+ },
+ "mrna": {
+  "en": "mRNA template",
+  "ta": "mRNA வார்ப்புரு"
+ },
+ "polya": {
+  "en": "AAAAAAA",
+  "ta": "AAAAAAA"
+ },
+ "dt": {
+  "en": "TTTTTTT",
+  "ta": "TTTTTTT"
+ },
+ "e5": {
+  "en": "5′",
+  "ta": "5′"
+ },
+ "e3": {
+  "en": "3′",
+  "ta": "3′"
+ },
+ "p3": {
+  "en": "3′",
+  "ta": "3′"
+ },
+ "p5": {
+  "en": "5′",
+  "ta": "5′"
+ },
+ "l_polya": {
+  "en": "poly-A tail",
+  "ta": "poly-A வால்"
+ },
+ "l_oh": {
+  "en": "3′-OH end: reverse transcriptase extends from here",
+  "ta": "3′-OH முனை: இங்கிருந்து ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ் நீட்சியைத் தொடங்குகிறது"
+ },
+ "t2": {
+  "en": "Oligo-dT primer annealed to the poly-A tail",
+  "ta": "Oligo-dT தொடக்க இழை poly-A வாலுடன் இணைந்தது"
+ },
+ "s1": {
+  "en": "The primer provides a free 3′-OH for reverse transcriptase to extend from",
+  "ta": "ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ் நீட்சியைத் தொடங்க, தொடக்க இழை ⟦free_oh⟧ வழங்குகிறது"
+ },
+ "k_mrna": {
+  "en": "mRNA template (5′ to 3′)",
+  "ta": "mRNA வார்ப்புரு (5′ முதல் 3′)"
+ },
+ "k_polya": {
+  "en": "poly-A tail at the 3′ end of the mRNA",
+  "ta": "mRNA-வின் 3′ முனையிலுள்ள poly-A வால்"
+ },
+ "k_primer": {
+  "en": "oligo-dT primer (T bases pair with A bases)",
+  "ta": "oligo-dT தொடக்க இழை (T காரங்கள் A காரங்களுடன் இணைகின்றன)"
+ },
+ "k_oh": {
+  "en": "3′-OH end of the primer",
+  "ta": "தொடக்க இழையின் 3′-OH முனை"
+ },
+ "_alt": {
+  "en": "Diagram: Step 2 of cDNA synthesis. A short oligo-dT primer (TTTTTTT) anneals by A-T base pairing to the poly-A tail at the 3′ end of the mRNA template. The primer's 3′-OH end points towards the mRNA's 5′ end; it provides a free 3′-OH from which reverse transcriptase extends the new strand.",
+  "ta": "படம்: cDNA தொகுப்பின் படி 2. TTTTTTT கொண்ட குறுகிய oligo-dT தொடக்க இழை, mRNA வார்ப்புருவின் 3′ முனையிலுள்ள poly-A வாலுடன் A-T காரங்களால் இணைகிறது. தொடக்க இழையின் 3′-OH முனை mRNA-வின் 5′ முனையை நோக்கி உள்ளது; அங்கிருந்து ரிவர்ஸ் டிரான்ஸ்கிரிப்டேஸ் புதிய இழையை நீட்டுகிறது."
+ }
+}

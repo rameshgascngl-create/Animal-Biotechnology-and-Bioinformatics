@@ -1,0 +1,74 @@
+{
+ "c_sv": {
+  "en": "SV40",
+  "ta": "SV40"
+ },
+ "c_bp": {
+  "en": "~5,243 bp",
+  "ta": "~5,243 bp"
+ },
+ "c_ds": {
+  "en": "circular dsDNA",
+  "ta": "வட்ட dsDNA"
+ },
+ "r_early": {
+  "en": "Early region",
+  "ta": "தொடக்கப் பகுதி"
+ },
+ "d_early": {
+  "en": "Large T antigen (LT-Ag), small T antigen (ST-Ag)\nDNA replication and cell transformation",
+  "ta": "பெரிய T எதிர்ப்பொருள் தூண்டி (LT-Ag), சிறிய T எதிர்ப்பொருள் தூண்டி (ST-Ag)\nDNA இரட்டிப்பு, செல் உருமாற்றம்"
+ },
+ "r_late": {
+  "en": "Late region",
+  "ta": "பிந்தியப் பகுதி"
+ },
+ "d_late": {
+  "en": "VP1, VP2, VP3 (capsid proteins)",
+  "ta": "VP1, VP2, VP3 (கேப்சிட் புரதங்கள்)"
+ },
+ "r_reg": {
+  "en": "Regulatory region",
+  "ta": "ஒழுங்குபடுத்தும் பகுதி"
+ },
+ "d_reg": {
+  "en": "Promoter + enhancer",
+  "ta": "ஊக்குவிப்பான் + மேம்படுத்தி"
+ },
+ "r_ori": {
+  "en": "ori (replication origin)",
+  "ta": "ori (இரட்டிப்புத் தொடக்கப்புள்ளி)"
+ },
+ "d_ori": {
+  "en": "T-antigen binding site",
+  "ta": "T எதிர்ப்பொருள் தூண்டி இணையும் தளம்"
+ },
+ "note": {
+  "en": "Arc sizes are schematic, not to scale",
+  "ta": "வில் அளவுகள் வரைபடத்துக்காக; அளவுக்கேற்றவை அல்ல"
+ },
+ "t2": {
+  "en": "SV40 viral particle",
+  "ta": "SV40 வைரஸ் துகள்"
+ },
+ "v_cap": {
+  "en": "Icosahedral capsid, 45 nm, non-enveloped",
+  "ta": "இருபது முகக் கேப்சிட், 45 nm, உறையற்றது"
+ },
+ "v_vp1": {
+  "en": "VP1 capsid (icosahedral)",
+  "ta": "VP1 கேப்சிட் (இருபது முகம்)"
+ },
+ "v_mini": {
+  "en": "dsDNA + histones = minichromosome inside the virion",
+  "ta": "dsDNA + ஹிஸ்டோன்கள் = வைரஸ் துகளுக்குள் மினி குரோமோசோம்"
+ },
+ "v_hist": {
+  "en": "Histone octamer (⟦host⟧ histones)",
+  "ta": "ஹிஸ்டோன் எட்டுக்கூறு (⟦host⟧ ஹிஸ்டோன்கள்)"
+ },
+ "_alt": {
+  "en": "Diagram: SV40. A circular double-stranded DNA genome of about 5,243 base pairs with an early region (large T and small T antigens, for DNA replication and cell transformation), a late region (VP1, VP2 and VP3 capsid proteins) and a regulatory region (promoter and enhancer) that contains the ori replication origin and T-antigen binding site. Below, the non-enveloped virion: a 45 nm icosahedral VP1 capsid enclosing the minichromosome, which is dsDNA wound on host histone octamers. Arc sizes are schematic.",
+  "ta": "படம்: SV40. ஏறத்தாழ 5,243 கார இணைகள் கொண்ட வட்ட வடிவ இரட்டை இழை DNA மரபணுத்தொகை; தொடக்கப் பகுதி (DNA இரட்டிப்பு, செல் உருமாற்றத்துக்கான பெரிய T, சிறிய T எதிர்ப்பொருள் தூண்டிகள்), பிந்தியப் பகுதி (VP1, VP2, VP3 கேப்சிட் புரதங்கள்), ori இரட்டிப்புத் தொடக்கப்புள்ளியையும் T எதிர்ப்பொருள் தூண்டி இணையும் தளத்தையும் கொண்ட ஒழுங்குபடுத்தும் பகுதி (ஊக்குவிப்பான், மேம்படுத்தி). கீழே உறையற்ற வைரஸ் துகள்: 45 nm இருபது முகக் கேப்சிட்டுக்குள் ஓம்புயிரி ஹிஸ்டோன் எட்டுக்கூறுகளைச் சுற்றிய dsDNA ஆன மினி குரோமோசோம். வில் அளவுகள் வரைபடத்துக்காக மட்டுமே."
+ }
+}

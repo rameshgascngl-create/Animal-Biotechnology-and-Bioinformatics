@@ -26,7 +26,10 @@ class BatchFigureCaptureTest {
     private val batch = listOf(
         "screening_selection_recombinants-d01",
         "sanger_dna_sequencing-d01",
-        "vectors_genetic_engineering-d04"
+        "vectors_genetic_engineering-d04",
+        "screening_selection_recombinants-d04",
+        "advanced_vectors_cosmid_yac_sv40_transposons-d03",
+        "dna_library_genomic_cdna-d05"
     )
 
     /** Memory budget (Phase 2): total PSS at most 150 MB on the 2 GB AVD, measured after a GC. */

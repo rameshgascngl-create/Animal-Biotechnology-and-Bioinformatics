@@ -1,0 +1,130 @@
+{
+ "t1": {
+  "en": "Master plate",
+  "ta": "முதன்மைத் தட்டு"
+ },
+ "d1": {
+  "en": "Keep the master plate!",
+  "ta": "முதன்மைத் தட்டைப் பாதுகாக்கவும்!"
+ },
+ "a12": {
+  "en": "transfer a replica of the colonies",
+  "ta": "காலனிகளின் படியை மாற்றுதல்"
+ },
+ "t2": {
+  "en": "Nylon membrane",
+  "ta": "நைலான் சவ்வு"
+ },
+ "d2": {
+  "en": "Colony imprint on the membrane",
+  "ta": "சவ்வின் மீது காலனிகளின் பதிவு"
+ },
+ "a23": {
+  "en": "NaOH lysis + denaturation",
+  "ta": "NaOH மூலம் செல் சிதைவு + இயல்புதிரிதல்"
+ },
+ "t3": {
+  "en": "DNA fixed (ssDNA)",
+  "ta": "நிலைப்படுத்தப்பட்ட DNA (ssDNA)"
+ },
+ "d3": {
+  "en": "ssDNA fixed by baking or UV",
+  "ta": "வெப்பமூட்டி அல்லது UV கதிரால் ssDNA நிலைப்படுத்தப்படுகிறது"
+ },
+ "d3b": {
+  "en": "star = target gene (ssDNA)",
+  "ta": "நட்சத்திரம் = இலக்கு மரபணு (ssDNA)"
+ },
+ "t4": {
+  "en": "Hybridization",
+  "ta": "கலப்பு செய்தல்"
+ },
+ "d4a": {
+  "en": "Labelled probe added (32P)",
+  "ta": "அடையாளமிட்ட துலக்கி சேர்க்கப்படுகிறது (32P)"
+ },
+ "d4b": {
+  "en": "The probe binds ONLY to the complementary target",
+  "ta": "துலக்கி நிரப்பு இலக்குடன் மட்டுமே இணைகிறது"
+ },
+ "t5": {
+  "en": "Wash",
+  "ta": "கழுவுதல்"
+ },
+ "d5": {
+  "en": "Non-specific probe is washed off; only the specific signal remains",
+  "ta": "குறிப்பற்ற துலக்கி நீக்கப்படுகிறது; குறிப்பிட்ட சமிக்ஞை மட்டும் எஞ்சுகிறது"
+ },
+ "t6": {
+  "en": "Autoradiograph (X-ray film)",
+  "ta": "ஆட்டோரேடியோகிராஃப் (X-கதிர் புகைப்படச் சுருள்)"
+ },
+ "d6": {
+  "en": "White spot = positive clone (star)",
+  "ta": "வெள்ளைப் புள்ளி = நேர்மறை குளோன் (நட்சத்திரம்)"
+ },
+ "t7": {
+  "en": "Pick the positive clone",
+  "ta": "நேர்மறைக் குளோனைத் தேர்ந்தெடுத்தல்"
+ },
+ "d7": {
+  "en": "Pick the starred colony from the master plate for further culture and verification",
+  "ta": "முதன்மைத் தட்டிலிருந்து நட்சத்திரக் காலனியைத் தேர்ந்தெடுத்து மேலும் வளர்த்துச் சரிபார்க்கவும்"
+ },
+ "kt": {
+  "en": "Key elements of colony hybridization",
+  "ta": "காலனிக் கலப்புச் செய்தலின் முக்கிய கூறுகள்"
+ },
+ "k1": {
+  "en": "Membrane",
+  "ta": "சவ்வு"
+ },
+ "k1d": {
+  "en": "Nitrocellulose or nylon",
+  "ta": "நைட்ரோசெல்லுலோஸ் அல்லது நைலான்"
+ },
+ "k2": {
+  "en": "Probe",
+  "ta": "துலக்கி"
+ },
+ "k2d": {
+  "en": "32P-labelled ssDNA/RNA complementary to the gene of interest",
+  "ta": "ஆர்வமுள்ள மரபணுவுக்கு நிரப்பான, 32P அடையாளமிட்ட ssDNA/RNA"
+ },
+ "k3": {
+  "en": "Detection",
+  "ta": "கண்டறிதல்"
+ },
+ "k3d": {
+  "en": "Autoradiography (radioactive) or chemiluminescence (non-radioactive)",
+  "ta": "ஆட்டோரேடியோகிராஃபி (கதிரியக்கம்) அல்லது வேதி ஒளிர்வு (கதிரியக்கமற்றது)"
+ },
+ "k4": {
+  "en": "Lysis",
+  "ta": "செல் சிதைவு"
+ },
+ "k4d": {
+  "en": "NaOH treatment (alkali lysis + DNA denaturation)",
+  "ta": "NaOH சிகிச்சை (கார சிதைவு + DNA இயல்புதிரிதல்)"
+ },
+ "k5": {
+  "en": "Hybridization",
+  "ta": "கலப்பு செய்தல்"
+ },
+ "k5d": {
+  "en": "Stringency controls non-specific binding",
+  "ta": "கடுமை நிலை குறிப்பற்ற இணைவைக் கட்டுப்படுத்துகிறது"
+ },
+ "k6": {
+  "en": "Alignment",
+  "ta": "சீரமைப்பு"
+ },
+ "k6d": {
+  "en": "Orientation marks align the film with the master plate",
+  "ta": "திசைக்குறிகள் படலத்தை முதன்மைத் தட்டுடன் பொருத்துகின்றன"
+ },
+ "_alt": {
+  "en": "Diagram: the seven steps of colony hybridization. 1 Keep the master plate. 2 Transfer a replica of the colonies to a nylon membrane. 3 Lyse the colonies with NaOH, denature the DNA and fix the single-stranded DNA by baking or UV. 4 Add a labelled probe, which binds only to the complementary target. 5 Wash off non-specific probe. 6 Expose X-ray film: a white spot marks a positive clone. 7 Pick the matching colony from the master plate for further culture and verification. A panel lists the membrane, probe, detection, lysis, hybridization stringency and alignment marks.",
+  "ta": "படம்: காலனிக் கலப்புச் செய்தலின் ஏழு படிகள். 1 முதன்மைத் தட்டைப் பாதுகாத்தல். 2 காலனிகளின் படியை நைலான் சவ்வுக்கு மாற்றுதல். 3 NaOH மூலம் செல்களைச் சிதைத்து DNA-வின் இயல்பைத் திரித்து, ssDNA-வை வெப்பமூட்டி அல்லது UV கதிரால் நிலைப்படுத்துதல். 4 அடையாளமிட்ட துலக்கி நிரப்பு இலக்குடன் மட்டுமே இணைகிறது. 5 குறிப்பற்ற துலக்கியை நீக்குதல். 6 X-கதிர் புகைப்படச் சுருளில் வெள்ளைப் புள்ளி நேர்மறை குளோனைக் காட்டுகிறது. 7 முதன்மைத் தட்டிலிருந்து அந்தக் காலனியைத் தேர்ந்தெடுத்து மேலும் வளர்த்துச் சரிபார்த்தல். சவ்வு, துலக்கி, கண்டறிதல், செல் சிதைவு, கலப்பின் கடுமை நிலை, சீரமைப்புக் குறிகள் ஆகியவை ஒரு பட்டியலில் தரப்பட்டுள்ளன."
+ }
+}
