@@ -43,6 +43,14 @@ jobs:
           gh release delete latest --yes --cleanup-tag 2>/dev/null || true
           gh release create latest AnimalBiotechnology.apk --title "Latest APK" --notes "Debug-signed build of commit ${GITHUB_SHA::7}. Install on Android 8 or later." --target "$GITHUB_SHA"
 
+      - name: Publish pilot APK as a pre-release (never the 'latest' release)
+        if: github.ref == 'refs/heads/pilot/screening-d02'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cp app/build/outputs/apk/debug/app-debug.apk AnimalBiotechnology-pilot.apk
+          gh release delete pilot-screening-d02 --yes --cleanup-tag 2>/dev/null || true
+          gh release create pilot-screening-d02 AnimalBiotechnology-pilot.apk --prerelease --title "Pilot build (screening-d02), not the latest app" --notes "Debug-signed CI build of pilot/screening-d02 commit ${GITHUB_SHA::7}. For the device checklist only." --target "$GITHUB_SHA"
       - name: Lint (report only)
         continue-on-error: true
         run: gradle :app:lintDebug --stacktrace
