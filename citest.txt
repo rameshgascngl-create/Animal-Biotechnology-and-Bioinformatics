@@ -1,0 +1,78 @@
+--------- beginning of main
+11-12 05:29:32.296  2369  2383 E CITEST  : hierarchy for vectors_genetic_engineering-d04/EN: <?xml version='1.0' encoding='UTF-8' standalone='yes' ?> <hierarchy rotation="0">   <node index="0" text="" resource-id="" class="android.widget.FrameLayout" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,0][720,48]" drawing-order="0" hint="" display-id="0">     <node index="0" text="" resource-id="com.android.systemui:id/status_bar_launch_animation_container" class="android.widget.FrameLayout" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,0][720,48]" drawing-order="1" hint="" display-id="0" />     <node index="1" text="" resource-id="com.android.systemui:id/status_bar_container" class="android.widget.FrameLayout" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,0][720,48]" drawing-order="2" hint="" display-id="0">       <node index="0" text="" resource-id="com.android.systemui:id/status_bar" class="android.widget.FrameLayout" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,0][720,48]" drawing-order="1" hint="" display-id="0">         <node index="0" text="" resource-id="com.android.systemui:id/status_bar_contents" class="android.widget.LinearLayout" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[0,0][680,48]" drawing-order="2" hint="" display-id="0">           <node index="0" text="" resource-id="com.android.systemui:id/status_bar_start_side_container" class="android.widget.FrameLayout" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[8,0][340,48]" drawing-order="1" hint="" display-id="0">             <node index="0" text="" resource-id="com.android.systemui:id/status_bar_start_side_content" class="android.widget.FrameLayout" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[8,0][131,48]" drawing-order="1" hint="" display-id="0">               <node index="0" text="" resource-id="com.android.systemui:id/status_bar_start_side_except_heads_up" class="android.widget.LinearLayout" package="com.android.systemui" content-desc="" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[8,0][131,48]" drawing-order="2" hint="" display-id="0">                 <node index="0" text="5:29" resource-id="com.android.systemui:id/clock" class="android.widget.TextView" package="com.android.systemui" content-desc="5:29 AM" checkable="false" checked="false" clickable="false" enabled="true" focusable="false" focused="false" scrollable="false" long-clickable="false" password="false" selected="false" visible-to-user="true" bounds="[8,7][87,40]" drawing-order="2
+11-12 05:30:15.674  2369  2383 E CITEST-MEM: 360x640 EN inline | Java Heap: 14872 44168
+11-12 05:30:15.679  2369  2383 E CITEST-MEM: 360x640 EN inline | Native Heap: 26964 30920
+11-12 05:30:15.680  2369  2383 E CITEST-MEM: 360x640 EN inline | Graphics: 0 0
+11-12 05:30:15.681  2369  2383 E CITEST-MEM: 360x640 EN inline | TOTAL PSS: 117676 TOTAL RSS: 249216 TOTAL SWAP (KB): 0
+11-12 05:30:23.063  2369  2383 E CITEST-MEM: 360x640 EN viewer-open-zoomed | Java Heap: 15104 44472
+11-12 05:30:23.064  2369  2383 E CITEST-MEM: 360x640 EN viewer-open-zoomed | Native Heap: 46608 50564
+11-12 05:30:23.065  2369  2383 E CITEST-MEM: 360x640 EN viewer-open-zoomed | Graphics: 0 0
+11-12 05:30:23.066  2369  2383 E CITEST-MEM: 360x640 EN viewer-open-zoomed | TOTAL PSS: 137673 TOTAL RSS: 269540 TOTAL SWAP (KB): 0
+11-12 05:30:27.219  2369  2383 E CITEST-MEM: 360x640 EN viewer-closed-after-gc | Java Heap: 14900 44268
+11-12 05:30:27.220  2369  2383 E CITEST-MEM: 360x640 EN viewer-closed-after-gc | Native Heap: 27088 31044
+11-12 05:30:27.222  2369  2383 E CITEST-MEM: 360x640 EN viewer-closed-after-gc | Graphics: 0 0
+11-12 05:30:27.223  2369  2383 E CITEST-MEM: 360x640 EN viewer-closed-after-gc | TOTAL PSS: 117953 TOTAL RSS: 249824 TOTAL SWAP (KB): 0
+11-12 05:30:29.956  2369  2383 E CITEST-MEM: 360x640 TA inline | Java Heap: 14936 44304
+11-12 05:30:29.957  2369  2383 E CITEST-MEM: 360x640 TA inline | Native Heap: 32012 35968
+11-12 05:30:29.958  2369  2383 E CITEST-MEM: 360x640 TA inline | Graphics: 0 0
+11-12 05:30:29.959  2369  2383 E CITEST-MEM: 360x640 TA inline | TOTAL PSS: 122937 TOTAL RSS: 254812 TOTAL SWAP (KB): 0
+11-12 05:30:37.584  2369  2383 E CITEST-MEM: 360x640 TA viewer-open-zoomed | Java Heap: 15136 44504
+11-12 05:30:37.585  2369  2383 E CITEST-MEM: 360x640 TA viewer-open-zoomed | Native Heap: 46648 50604
+11-12 05:30:37.586  2369  2383 E CITEST-MEM: 360x640 TA viewer-open-zoomed | Graphics: 0 0
+11-12 05:30:37.587  2369  2383 E CITEST-MEM: 360x640 TA viewer-open-zoomed | TOTAL PSS: 137789 TOTAL RSS: 269680 TOTAL SWAP (KB): 0
+11-12 05:30:41.767  2369  2383 E CITEST-MEM: 360x640 TA viewer-closed-after-gc | Java Heap: 14936 44304
+11-12 05:30:41.768  2369  2383 E CITEST-MEM: 360x640 TA viewer-closed-after-gc | Native Heap: 27160 31116
+11-12 05:30:41.769  2369  2383 E CITEST-MEM: 360x640 TA viewer-closed-after-gc | Graphics: 0 0
+11-12 05:30:41.769  2369  2383 E CITEST-MEM: 360x640 TA viewer-closed-after-gc | TOTAL PSS: 118109 TOTAL RSS: 250004 TOTAL SWAP (KB): 0
+11-12 05:30:53.640  2369  2369 E CITEST  : deep figure item index = 88
+11-12 05:31:07.984  2369  2383 E CITEST  : figure Diagram: pBR322 plasmid with ampicillin- and tetracycline-resistance genes. Clon at 360,779
+11-12 05:31:07.984  2369  2383 E CITEST  : scrolled 12 swipes to reach a clickable figure with a quarter screen visible
+11-12 05:31:11.552  2369  2369 E CITEST  : deep figure item index = 88
+11-12 05:31:32.152  3246  3260 E CITEST-MEM: 360x800 EN inline | Java Heap: 12008 41352
+11-12 05:31:32.157  3246  3260 E CITEST-MEM: 360x800 EN inline | Native Heap: 30536 34520
+11-12 05:31:32.159  3246  3260 E CITEST-MEM: 360x800 EN inline | Graphics: 0 0
+11-12 05:31:32.160  3246  3260 E CITEST-MEM: 360x800 EN inline | TOTAL PSS: 109360 TOTAL RSS: 230652 TOTAL SWAP (KB): 0
+11-12 05:31:42.274  3246  3260 E CITEST-MEM: 360x800 EN viewer-open-zoomed | Java Heap: 12384 41784
+11-12 05:31:42.275  3246  3260 E CITEST-MEM: 360x800 EN viewer-open-zoomed | Native Heap: 50396 54372
+11-12 05:31:42.277  3246  3260 E CITEST-MEM: 360x800 EN viewer-open-zoomed | Graphics: 0 0
+11-12 05:31:42.278  3246  3260 E CITEST-MEM: 360x800 EN viewer-open-zoomed | TOTAL PSS: 132369 TOTAL RSS: 257296 TOTAL SWAP (KB): 0
+11-12 05:31:46.430  3246  3260 E CITEST-MEM: 360x800 EN viewer-closed-after-gc | Java Heap: 12216 41608
+11-12 05:31:46.431  3246  3260 E CITEST-MEM: 360x800 EN viewer-closed-after-gc | Native Heap: 30940 34912
+11-12 05:31:46.432  3246  3260 E CITEST-MEM: 360x800 EN viewer-closed-after-gc | Graphics: 0 0
+11-12 05:31:46.435  3246  3260 E CITEST-MEM: 360x800 EN viewer-closed-after-gc | TOTAL PSS: 113241 TOTAL RSS: 238952 TOTAL SWAP (KB): 0
+11-12 05:31:49.301  3246  3260 E CITEST-MEM: 360x800 TA inline | Java Heap: 12320 41712
+11-12 05:31:49.302  3246  3260 E CITEST-MEM: 360x800 TA inline | Native Heap: 50216 54188
+11-12 05:31:49.303  3246  3260 E CITEST-MEM: 360x800 TA inline | Graphics: 0 0
+11-12 05:31:49.305  3246  3260 E CITEST-MEM: 360x800 TA inline | TOTAL PSS: 132961 TOTAL RSS: 259072 TOTAL SWAP (KB): 0
+11-12 05:31:58.382  3246  3260 E CITEST-MEM: 360x800 TA viewer-open-zoomed | Java Heap: 12520 41912
+11-12 05:31:58.383  3246  3260 E CITEST-MEM: 360x800 TA viewer-open-zoomed | Native Heap: 50684 54656
+11-12 05:31:58.384  3246  3260 E CITEST-MEM: 360x800 TA viewer-open-zoomed | Graphics: 0 0
+11-12 05:31:58.386  3246  3260 E CITEST-MEM: 360x800 TA viewer-open-zoomed | TOTAL PSS: 134029 TOTAL RSS: 260452 TOTAL SWAP (KB): 0
+11-12 05:32:02.530  3246  3260 E CITEST-MEM: 360x800 TA viewer-closed-after-gc | Java Heap: 12316 41708
+11-12 05:32:02.531  3246  3260 E CITEST-MEM: 360x800 TA viewer-closed-after-gc | Native Heap: 31356 35328
+11-12 05:32:02.532  3246  3260 E CITEST-MEM: 360x800 TA viewer-closed-after-gc | Graphics: 0 0
+11-12 05:32:02.533  3246  3260 E CITEST-MEM: 360x800 TA viewer-closed-after-gc | TOTAL PSS: 114533 TOTAL RSS: 240984 TOTAL SWAP (KB): 0
+11-12 05:34:54.469  3971  3985 E CITEST-MEM: 411x914 EN inline | Java Heap: 11996 41344
+11-12 05:34:54.475  3971  3985 E CITEST-MEM: 411x914 EN inline | Native Heap: 30540 34532
+11-12 05:34:54.478  3971  3985 E CITEST-MEM: 411x914 EN inline | Graphics: 0 0
+11-12 05:34:54.479  3971  3985 E CITEST-MEM: 411x914 EN inline | TOTAL PSS: 109287 TOTAL RSS: 230660 TOTAL SWAP (KB): 0
+11-12 05:35:04.559  3971  3985 E CITEST-MEM: 411x914 EN viewer-open-zoomed | Java Heap: 12380 41784
+11-12 05:35:04.560  3971  3985 E CITEST-MEM: 411x914 EN viewer-open-zoomed | Native Heap: 50532 54512
+11-12 05:35:04.561  3971  3985 E CITEST-MEM: 411x914 EN viewer-open-zoomed | Graphics: 0 0
+11-12 05:35:04.562  3971  3985 E CITEST-MEM: 411x914 EN viewer-open-zoomed | TOTAL PSS: 132519 TOTAL RSS: 257580 TOTAL SWAP (KB): 0
+11-12 05:35:08.696  3971  3985 E CITEST-MEM: 411x914 EN viewer-closed-after-gc | Java Heap: 12192 41588
+11-12 05:35:08.697  3971  3985 E CITEST-MEM: 411x914 EN viewer-closed-after-gc | Native Heap: 31124 35100
+11-12 05:35:08.699  3971  3985 E CITEST-MEM: 411x914 EN viewer-closed-after-gc | Graphics: 0 0
+11-12 05:35:08.700  3971  3985 E CITEST-MEM: 411x914 EN viewer-closed-after-gc | TOTAL PSS: 113395 TOTAL RSS: 239156 TOTAL SWAP (KB): 0
+11-12 05:35:11.966  3971  3985 E CITEST-MEM: 411x914 TA inline | Java Heap: 12312 41708
+11-12 05:35:11.967  3971  3985 E CITEST-MEM: 411x914 TA inline | Native Heap: 50756 54728
+11-12 05:35:11.968  3971  3985 E CITEST-MEM: 411x914 TA inline | Graphics: 0 0
+11-12 05:35:11.970  3971  3985 E CITEST-MEM: 411x914 TA inline | TOTAL PSS: 133471 TOTAL RSS: 259616 TOTAL SWAP (KB): 0
+11-12 05:35:21.258  3971  3985 E CITEST-MEM: 411x914 TA viewer-open-zoomed | Java Heap: 12520 41912
+11-12 05:35:21.260  3971  3985 E CITEST-MEM: 411x914 TA viewer-open-zoomed | Native Heap: 51076 55048
+11-12 05:35:21.261  3971  3985 E CITEST-MEM: 411x914 TA viewer-open-zoomed | Graphics: 0 0
+11-12 05:35:21.262  3971  3985 E CITEST-MEM: 411x914 TA viewer-open-zoomed | TOTAL PSS: 134459 TOTAL RSS: 260928 TOTAL SWAP (KB): 0
+11-12 05:35:25.406  3971  3985 E CITEST-MEM: 411x914 TA viewer-closed-after-gc | Java Heap: 12316 41708
+11-12 05:35:25.407  3971  3985 E CITEST-MEM: 411x914 TA viewer-closed-after-gc | Native Heap: 31748 35720
+11-12 05:35:25.408  3971  3985 E CITEST-MEM: 411x914 TA viewer-closed-after-gc | Graphics: 0 0
+11-12 05:35:25.409  3971  3985 E CITEST-MEM: 411x914 TA viewer-closed-after-gc | TOTAL PSS: 114967 TOTAL RSS: 241500 TOTAL SWAP (KB): 0
