@@ -1,0 +1,5 @@
+--------- beginning of main
+11-12 04:17:44.439  2381  2381 E CITEST  : deep figure item index = 88
+11-12 04:17:54.724  2381  2395 E CITEST  : figure Diagram: pBR322 plasmid with ampicillin- and tetracycline-resistance genes. Clon at 360,789
+11-12 04:17:54.724  2381  2395 E CITEST  : scrolled 8 swipes to reach a clickable figure with a quarter screen visible
+11-12 04:17:58.372  2381  2381 E CITEST  : deep figure item index = 88
