@@ -1,0 +1,1 @@
+5e5132360b72ef1e410a04685413a2b45a3a166b13b5aa3d70ccbe408a8f9409  app/src/androidTest/java/com/gasczoology/animalbiotech/ViewerRegressionTest.kt
