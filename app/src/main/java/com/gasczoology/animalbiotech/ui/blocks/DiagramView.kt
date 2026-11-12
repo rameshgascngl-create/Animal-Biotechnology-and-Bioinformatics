@@ -54,6 +54,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.platform.testTag
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import com.gasczoology.animalbiotech.content.Diagram
@@ -131,8 +132,8 @@ fun DiagramView(block: Diagram, lang: Lang, scale: Float) {
                 else -> {
                     // Only the active language's bitmap is ever decoded.
                     val showTa = lang == Lang.TA && files.taPath != null
-                    if (showTa) FlatImage(files.taPath!!, files.altTa ?: block.caption.ta.ifBlank { block.caption.en }, lang)
-                    else FlatImage(files.enPath!!, files.altEn ?: block.caption.en, lang)
+                    if (showTa) FlatImage(block.id, files.taPath!!, files.altTa ?: block.caption.ta.ifBlank { block.caption.en }, lang)
+                    else FlatImage(block.id, files.enPath!!, files.altEn ?: block.caption.en, lang)
                 }
             }
             BiText(block.caption, lang, scale, base = MaterialTheme.typography.bodyMedium, weight = FontWeight.SemiBold)
@@ -153,7 +154,7 @@ fun DiagramView(block: Diagram, lang: Lang, scale: Float) {
 }
 
 @Composable
-private fun FlatImage(path: String, description: String, lang: Lang) {
+private fun FlatImage(figureId: String, path: String, description: String, lang: Lang) {
     val ctx = LocalContext.current
     val host = LocalFigureViewerHost.current
     var local by remember { mutableStateOf<ViewerRequest?>(null) }
@@ -168,6 +169,7 @@ private fun FlatImage(path: String, description: String, lang: Lang) {
         // Decoded at (about) display width; the bitmap is dropped when this item leaves composition.
         val bmp by produceState<android.graphics.Bitmap?>(null, path, widthPx) {
             value = withContext(Dispatchers.IO) { decodeFigure(ctx, path, widthPx) }
+            value?.let { android.util.Log.i("CITEST", "figure-bitmap id=$figureId path=$path target=$widthPx decoded=${it.width}x${it.height} config=${it.config} bytes=${it.allocationByteCount}") }
         }
         Box(
             Modifier.fillMaxWidth().aspectRatio(aspect).clip(androidx.compose.foundation.shape.RoundedCornerShape(8.dp))
@@ -175,7 +177,8 @@ private fun FlatImage(path: String, description: String, lang: Lang) {
                     val r = ViewerRequest(path, description, if (lang == Lang.TA) "TA" else "EN")
                     if (host != null) host.request = r else local = r
                 }
-                .semantics { contentDescription = label },
+                .semantics { contentDescription = label }
+                .testTag("figure-$figureId"),
         ) {
             bmp?.let { Image(bitmap = it.asImageBitmap(), contentDescription = null, contentScale = ContentScale.FillBounds, modifier = Modifier.fillMaxSize()) }
         }

@@ -19,27 +19,34 @@ import org.junit.runner.RunWith
 /**
  * Phase 2 batch capture: for each redrawn figure, in both languages, the reader at its real screen size (inline, then the enlarged viewer).
  * Strict: a missing figure, a viewer that does not open, or one that closes itself fails the test. Screenshots go to /sdcard/Pictures.
- * Each entry is (figure id, text its content description must contain in English, same in Tamil).
+ * Figures are located by the semantics tag figure-<id>; a miss fails with the ID.
  */
 @RunWith(AndroidJUnit4::class)
 class BatchFigureCaptureTest {
     private val batch = listOf(
-        Triple("screening_selection_recombinants-d01", "Direct selection on ampicillin", "ஆம்பிசிலினில் நேரடி"),
-        Triple("sanger_dna_sequencing-d01", "Comparison of a normal deoxynucleotide", "சாதாரண டிஆக்ஸி"),
-        Triple("vectors_genetic_engineering-d04", "M13 phage", "M13 பேஜ்"),
+        "screening_selection_recombinants-d01",
+        "sanger_dna_sequencing-d01",
+        "vectors_genetic_engineering-d04"
     )
+
+    /** Memory budget (Phase 2): total PSS at most 150 MB on the 2 GB AVD, measured after a GC. */
+    private fun assertPssWithinBudget(what: String) {
+        System.gc(); Thread.sleep(800); System.gc(); Thread.sleep(200)
+        val out = UiDevice.getInstance(InstrumentationRegistry.getInstrumentation()).executeShellCommand("dumpsys meminfo com.gasczoology.animalbiotech")
+        val kb = Regex("TOTAL PSS:\\s+(\\d+)").find(out)?.groupValues?.get(1)?.toInt() ?: Regex("TOTAL\\s+(\\d+)").find(out)?.groupValues?.get(1)?.toInt() ?: error("no PSS in meminfo")
+        android.util.Log.i("CITEST", "BUDGET $what PSS=${kb / 1024} MB (limit 150)")
+        assertTrue("PSS budget exceeded at $what: ${kb / 1024} MB > 150 MB", kb <= 150 * 1024)
+    }
 
     @Test fun captureBatchFigures() {
         val inst = InstrumentationRegistry.getInstrumentation()
         val device = UiDevice.getInstance(inst)
         val dm = inst.targetContext.resources.displayMetrics
         val tag = "${(dm.widthPixels / dm.density).toInt()}x${(dm.heightPixels / dm.density).toInt()}"
-        // Phase 2 policy: figures are judged at the real reader widths 360x800 and 411x914 dp. The 360x640 base-suite screen is not part of it.
-        org.junit.Assume.assumeTrue("batch capture runs at 360x800 and 411x914 only", tag != "360x640")
         fun capture(name: String) { device.waitForIdle(); Thread.sleep(900); device.executeShellCommand("screencap -p /sdcard/Pictures/$name.png") }
         ActivityScenario.launch(MainActivity::class.java).use { scenario ->
             assertTrue(device.wait(Until.hasObject(By.text("Animal Biotechnology")), 15000))
-            for ((id, en, ta) in batch) for (lang in Lang.entries) {
+            for (id in batch) for (lang in Lang.entries) {
                 scenario.onActivity { activity ->
                     var found = false
                     for (t in Repo.units(activity).flatMap { it.topics }) {
@@ -54,32 +61,33 @@ class BatchFigureCaptureTest {
                     }
                     require(found) { "figure $id not found in any chapter" }
                 }
-                val needle = if (lang == Lang.EN) en else ta
-                var shown = device.wait(Until.hasObject(By.descContains(needle)), 10000)
-                // Blocks can span several list items, so the arithmetic index is only approximate: start 8 items early and scroll forward until the figure shows.
-                var tries = 0
-                while (!shown && tries < 14) {
-                    device.swipe(dm.widthPixels / 2, (dm.heightPixels * 0.7).toInt(), dm.widthPixels / 2, (dm.heightPixels * 0.3).toInt(), 20)
-                    shown = device.wait(Until.hasObject(By.descContains(needle)), 1200); tries++
-                }
-                tries = 0
-                while (!shown && tries < 30) {
-                    device.swipe(dm.widthPixels / 2, (dm.heightPixels * 0.3).toInt(), dm.widthPixels / 2, (dm.heightPixels * 0.7).toInt(), 20)
-                    shown = device.wait(Until.hasObject(By.descContains(needle)), 1200); tries++
-                }
+                // Figures are found by their stable semantics tag figure-<id> (exposed as a resource id), never by list index or alt text.
+                val sel = By.res("figure-$id")
+                fun visible() = device.hasObject(sel)
+                var shown = device.wait(Until.hasObject(sel), 6000)
+                val w = dm.widthPixels / 2; val h = dm.heightPixels
+                var n = 0
+                while (!shown && n < 60) { device.swipe(w, (h * 0.75).toInt(), w, (h * 0.25).toInt(), 25); shown = device.wait(Until.hasObject(sel), 500); n++ }
+                n = 0
+                while (!shown && n < 120) { device.swipe(w, (h * 0.25).toInt(), w, (h * 0.75).toInt(), 25); shown = device.wait(Until.hasObject(sel), 500); n++ }
                 if (!shown) {
                     capture("29-fail-$tag-$id-${lang.name}")
                     val out = java.io.ByteArrayOutputStream(); device.dumpWindowHierarchy(out)
-                    android.util.Log.e("CITEST", "hierarchy for $id/${lang.name}: " + out.toString("UTF-8").replace("\n", " ").take(6000))
+                    android.util.Log.e("CITEST", "MISSING FIGURE $id/${lang.name} at $tag; resource ids on screen: " + Regex("resource-id=\"([^\"]*)\"").findAll(out.toString("UTF-8")).map { it.groupValues[1] }.filter { it.isNotEmpty() }.toList())
                 }
-                assertTrue("$id/${lang.name}: figure with description containing '$needle' not shown", shown)
+                assertTrue("MISSING FIGURE $id (${lang.name}) at $tag: no node tagged figure-$id in the reader after scrolling both ways", shown)
+                // Bring the figure's top into view so the capture starts at the figure.
+                device.findObject(sel)?.let { o -> val top = o.visibleBounds.top; if (top > h * 0.30) device.swipe(w, (h * 0.70).toInt(), w, (h * 0.70 - (top - h * 0.22)).toInt().coerceAtLeast(10), 25) }
+                device.waitForIdle()
                 capture("20-batch-$tag-$id-${lang.name}-inline")
+                assertPssWithinBudget("inline $id/${lang.name} at $tag")
                 val close = if (lang == Lang.EN) "Close" else "மூடு"
-                requireNotNull(device.findObject(By.descContains(needle))).click()
+                requireNotNull(device.findObject(sel)) { "figure-$id vanished before click" }.click()
                 assertTrue("$id/${lang.name}: viewer did not open", device.wait(Until.hasObject(By.text(close)), 8000) || device.wait(Until.hasObject(By.desc(close)), 2000))
                 Thread.sleep(1200)
                 assertTrue("$id/${lang.name}: viewer closed itself", device.hasObject(By.text(close)) || device.hasObject(By.desc(close)))
                 capture("21-batch-$tag-$id-${lang.name}-viewer")
+                assertPssWithinBudget("viewer $id/${lang.name} at $tag")
                 device.pressBack()
                 assertTrue("$id/${lang.name}: Back did not close the viewer", device.wait(Until.gone(By.text(close)), 5000))
             }

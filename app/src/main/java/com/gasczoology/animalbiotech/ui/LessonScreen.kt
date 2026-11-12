@@ -15,6 +15,8 @@ import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.semantics.testTagsAsResourceId
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material.icons.Icons
@@ -85,7 +87,7 @@ private fun first(b: com.gasczoology.animalbiotech.content.Bi, lang: Lang) =
  * Book-style chapter reader: title page, flowing sections, tap-to-toggle bars, contents list,
  * reading themes, resume position and previous/next chapter. [zoom] is the text size in percent.
  */
-@OptIn(FlowPreview::class)
+@OptIn(FlowPreview::class, androidx.compose.ui.ExperimentalComposeUiApi::class)
 @Composable
 fun LessonScreen(
     chapter: Chapter,
@@ -131,7 +133,7 @@ fun LessonScreen(
 
     CompositionLocalProvider(LocalReaderPalette provides pal, LocalBodyFont provides body) {
       ProvideFigureViewer {
-        Column(Modifier.fillMaxSize().background(pal.bg).statusBarsPadding().navigationBarsPadding()) {
+        Column(Modifier.fillMaxSize().background(pal.bg).statusBarsPadding().navigationBarsPadding().semantics { testTagsAsResourceId = true }) {
             if (bars) {
                 Row(Modifier.fillMaxWidth().padding(horizontal = 4.dp, vertical = 4.dp), verticalAlignment = Alignment.CenterVertically) {
                     IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back", tint = pal.heading) }
