@@ -318,17 +318,18 @@ class ReaderCaptureTest {
                 assertTrue(device.wait(Until.hasObject(By.text("Animal Biotechnology")), 15000))
                 scenario.onActivity { fixture(it) }
                 var swipes = 0
-                while (device.findObject(By.descStartsWith("Diagram")) == null && swipes < 80) {
-                    device.swipe(device.displayWidth / 2, device.displayHeight * 3 / 4, device.displayWidth / 2, device.displayHeight / 4, 20); swipes++
+                fun candidate() = device.findObjects(By.descStartsWith("Diagram").clickable(true))
+                    .firstOrNull { val r = it.visibleBounds; r.height() >= device.displayHeight / 4 && r.top > 0 && r.bottom < device.displayHeight }
+                while (candidate() == null && swipes < 80) {
+                    device.swipe(device.displayWidth / 2, device.displayHeight * 3 / 4, device.displayWidth / 2, device.displayHeight / 2, 25); swipes++
                 }
-                android.util.Log.e("CITEST", "scrolled $swipes swipes to reach a figure")
-                assertTrue("no figure reached by scrolling", swipes < 80)
-                // prefer the pilot figure itself if another figure was reached first
-                var fig = device.findObject(By.descContains("recombinant")) ?: device.findObject(By.descStartsWith("Diagram"))
-                requireNotNull(fig) { "figure missing" }.click()
+                android.util.Log.e("CITEST", "scrolled $swipes swipes to reach a fully visible clickable figure")
+                val fig = requireNotNull(candidate()) { "no clickable figure reached by scrolling" }
+                android.util.Log.e("CITEST", "clicking ${fig.contentDescription?.take(80)} at ${fig.visibleBounds}")
+                fig.click()
                 val close = "Close"
                 fun viewerOpen() = device.wait(Until.hasObject(By.text(close)), 6000) || device.wait(Until.hasObject(By.desc(close)), 1500)
-                assertTrue("viewer did not open", viewerOpen())
+                if (!viewerOpen()) { logDescriptions(device); org.junit.Assert.fail("viewer did not open") }
                 device.setOrientationLeft(); device.waitForIdle()
                 assertTrue("viewer lost after rotating left", viewerOpen())
                 device.setOrientationRight(); device.waitForIdle()
