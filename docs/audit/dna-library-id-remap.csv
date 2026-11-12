@@ -1,0 +1,8 @@
+old_image_id_in_audit,new_id_in_app,what_the_image_shows,caption_in_content
+dna_library_genomic_cdna-d03,dna_library_genomic_cdna-d04,Step 1: isolate mRNA (Target tissue / oligo-dT column),Step 1: Isolate mRNA from Target Tissue
+dna_library_genomic_cdna-d04,dna_library_genomic_cdna-d05,Step 2: oligo-dT primer anneals to poly-A tail,Step 2: Oligo-dT Primer Anneals to Poly-A Tail
+dna_library_genomic_cdna-d05,dna_library_genomic_cdna-d06,Step 3: reverse transcriptase first strand,Step 3: Reverse Transcriptase Synthesises First-Strand cDNA
+dna_library_genomic_cdna-d06,dna_library_genomic_cdna-d07,Step 4: RNase H degrades mRNA,Step 4: Degrade mRNA (RNase H Treatment)
+dna_library_genomic_cdna-d07,dna_library_genomic_cdna-d08,Step 5: DNA Pol I second strand,Step 5: DNA Polymerase I Synthesises Second-Strand cDNA
+dna_library_genomic_cdna-d08,dna_library_genomic_cdna-d09,Step 6: linker addition and ligation,Step 6: Linker Addition & Ligation into Vector
+dna_library_genomic_cdna-d09,dna_library_genomic_cdna-d03,Vector insert size comparison (bar chart),Vector insert size comparison
