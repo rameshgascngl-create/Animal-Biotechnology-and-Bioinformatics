@@ -296,12 +296,12 @@
       },
       {
        "en": "**Recovery:** Cells are diluted in rich LB medium and incubated at 37°C for 30–60 minutes, allowing cells to recover and express any antibiotic resistance marker on the vector.",
-       "ta": "**மீட்பு:** செல்கள் வளமான LB ஊடகத்தில் நீர்த்து 37°C-இல் 30–60 நிமிடம் அடைகாக்கப்படுகின்றன; இதனால் செல்கள் மீண்டு, தாங்கிக்கடத்தியிலுள்ள ஆன்டிபயாடிக் எதிர்ப்பு அடையாளக்குறியை வெளிப்படுத்துகின்றன.",
+       "ta": "**மீட்பு:** செல்கள் வளமான LB ஊடகத்தில் நீர்த்து 37°C-இல் 30–60 நிமிடம் அடைகாக்கப்படுகின்றன; இதனால் செல்கள் மீண்டு, கடத்தியிலுள்ள ஆன்டிபயாடிக் எதிர்ப்பு அடையாளக்குறியை வெளிப்படுத்துகின்றன.",
        "ta_status": "draft"
       },
       {
        "en": "**Selection:** Cells are plated on selective medium (e.g., LB + ampicillin). Only transformed cells (carrying the vector with the resistance gene) survive and form colonies.",
-       "ta": "**தெரிவு:** செல்கள் தெரிவு ஊடகத்தில் (எ.கா. LB + ஆம்பிசிலின்) வளர்க்கப்படுகின்றன. மாற்றப்பட்ட செல்கள் (எதிர்ப்பு மரபணுவுள்ள தாங்கிக்கடத்தியைச் சுமப்பவை) மட்டுமே உயிர்பிழைத்துக் குழுமங்களை உருவாக்குகின்றன.",
+       "ta": "**தெரிவு:** செல்கள் தெரிவு ஊடகத்தில் (எ.கா. LB + ஆம்பிசிலின்) வளர்க்கப்படுகின்றன. மாற்றப்பட்ட செல்கள் (எதிர்ப்பு மரபணுவுள்ள கடத்தியைச் சுமப்பவை) மட்டுமே உயிர்பிழைத்துக் குழுமங்களை உருவாக்குகின்றன.",
        "ta_status": "draft"
       }
      ]
@@ -529,7 +529,7 @@
      "type": "p",
      "text": {
       "en": "Transduction is the delivery of foreign genetic material into a host cell using a **viral vector**. The virus naturally injects its nucleic acid into cells with high efficiency — scientists exploit this mechanism by replacing viral genes with the gene of interest.",
-      "ta": "டிரான்ஸ்டக்ஷன் என்பது **வைரஸ் தாங்கிக்கடத்தியைப்** பயன்படுத்தி அந்நிய மரபுப்பொருளை ஓம்புயிரி செல்லுக்குள் செலுத்துதல். வைரஸ் இயற்கையாகவே தன் நியூக்ளிக் அமிலத்தை அதிகத் திறனுடன் செல்களுக்குள் செலுத்துகிறது — வைரஸ் மரபணுக்களுக்குப் பதிலாக ஆர்வ மரபணுவை வைத்து விஞ்ஞானிகள் இவ்வியங்குமுறையைப் பயன்படுத்துகின்றனர்.",
+      "ta": "டிரான்ஸ்டக்ஷன் என்பது **வைரஸ் கடத்தியைப்** பயன்படுத்தி அந்நிய மரபுப்பொருளை ஓம்புயிரி செல்லுக்குள் செலுத்துதல். வைரஸ் இயற்கையாகவே தன் நியூக்ளிக் அமிலத்தை அதிகத் திறனுடன் செல்களுக்குள் செலுத்துகிறது — வைரஸ் மரபணுக்களுக்குப் பதிலாக ஆர்வ மரபணுவை வைத்து விஞ்ஞானிகள் இவ்வியங்குமுறையைப் பயன்படுத்துகின்றனர்.",
       "ta_status": "draft"
      }
     },
@@ -537,7 +537,7 @@
      "type": "p",
      "text": {
       "en": "**Role of Viral Vectors**",
-      "ta": "**வைரஸ் தாங்கிக்கடத்திகளின் பங்கு**",
+      "ta": "**வைரஸ் கடத்திகளின் பங்கு**",
       "ta_status": "draft"
      }
     },
@@ -566,7 +566,7 @@
      "type": "p",
      "text": {
       "en": "**Common Viral Vectors**",
-      "ta": "**பொதுவான வைரஸ் தாங்கிக்கடத்திகள்**",
+      "ta": "**பொதுவான வைரஸ் கடத்திகள்**",
       "ta_status": "draft"
      }
     },
@@ -1450,7 +1450,7 @@
      "items": [
       {
        "en": "1 🧬 Recombinant Plasmid Gene of interest is ligated into a plasmid vector (e.g., pUC19) using restriction enzymes and DNA ligase. The circular recombinant plasmid is purified.",
-       "ta": "1 🧬 மறுகூட்டிணைவுப் பிளாஸ்மிட் ஆர்வ மரபணு ரெஸ்ட்ரிக்ஷன் நொதிகளாலும் DNA லைகேசாலும் பிளாஸ்மிட் தாங்கிக்கடத்தியில் (எ.கா. pUC19) லைகேட் செய்யப்படுகிறது. வட்ட மறுகூட்டிணைவுப் பிளாஸ்மிட் தூய்மையாக்கப்படுகிறது.",
+       "ta": "1 🧬 மறுகூட்டிணைவுப் பிளாஸ்மிட் ஆர்வ மரபணு ரெஸ்ட்ரிக்ஷன் நொதிகளாலும் DNA லைகேசாலும் பிளாஸ்மிட் கடத்தியில் (எ.கா. pUC19) லைகேட் செய்யப்படுகிறது. வட்ட மறுகூட்டிணைவுப் பிளாஸ்மிட் தூய்மையாக்கப்படுகிறது.",
        "ta_status": "draft"
       }
      ]
@@ -1480,7 +1480,7 @@
      "items": [
       {
        "en": "4 🧫 Selection on Antibiotic Transformed cells are plated on LB + antibiotic medium. Only cells carrying the vector (with resistance gene) survive and form colonies — transformants.",
-       "ta": "4 🧫 ஆன்டிபயாடிக்கில் தெரிவு மாற்றப்பட்ட செல்கள் LB + ஆன்டிபயாடிக் ஊடகத்தில் வளர்க்கப்படுகின்றன. தாங்கிக்கடத்தியைச் (எதிர்ப்பு மரபணுவுடன்) சுமக்கும் செல்கள் மட்டுமே உயிர்பிழைத்துக் குழுமங்களை — மாற்றப்பட்ட செல்களை — உருவாக்குகின்றன.",
+       "ta": "4 🧫 ஆன்டிபயாடிக்கில் தெரிவு மாற்றப்பட்ட செல்கள் LB + ஆன்டிபயாடிக் ஊடகத்தில் வளர்க்கப்படுகின்றன. கடத்தியைச் (எதிர்ப்பு மரபணுவுடன்) சுமக்கும் செல்கள் மட்டுமே உயிர்பிழைத்துக் குழுமங்களை — மாற்றப்பட்ட செல்களை — உருவாக்குகின்றன.",
        "ta_status": "draft"
       }
      ]
@@ -1508,7 +1508,7 @@
      "items": [
       {
        "en": "1 🧬 Recombinant DNA + Delivery Vehicle The gene of interest is packaged into a viral vector (transduction) or complexed with cationic lipids (lipofection). A mammalian promoter drives expression.",
-       "ta": "1 🧬 மறுகூட்டிணைவு DNA + செலுத்தும் வாகனம் ஆர்வ மரபணு வைரஸ் தாங்கிக்கடத்தியில் பொதியப்படுகிறது (டிரான்ஸ்டக்ஷன்) அல்லது நேர்மின் கொழுப்புகளுடன் கூட்டுப்பொருளாகிறது (லிப்போஃபெக்ஷன்). பாலூட்டி ஊக்குவிப்பி வெளிப்பாட்டை இயக்குகிறது.",
+       "ta": "1 🧬 மறுகூட்டிணைவு DNA + செலுத்தும் வாகனம் ஆர்வ மரபணு வைரஸ் கடத்தியில் பொதியப்படுகிறது (டிரான்ஸ்டக்ஷன்) அல்லது நேர்மின் கொழுப்புகளுடன் கூட்டுப்பொருளாகிறது (லிப்போஃபெக்ஷன்). பாலூட்டி ஊக்குவிப்பி வெளிப்பாட்டை இயக்குகிறது.",
        "ta_status": "draft"
       }
      ]
@@ -1538,7 +1538,7 @@
      "items": [
       {
        "en": "4 🔵 Nuclear Entry + Integration DNA crosses the nuclear envelope. Retroviral/lentiviral vectors integrate stably into the host chromosome. Non-viral and adenoviral DNA may remain episomal.",
-       "ta": "4 🔵 உட்கருவுக்குள் நுழைதலும் இணைவும் DNA உட்கரு உறையைக் கடக்கிறது. ரெட்ரோவைரல்/லென்டிவைரல் தாங்கிக்கடத்திகள் ஓம்புயிரி குரோமோசோமில் நிலையாக இணைகின்றன. வைரஸ் அல்லாத, அடினோவைரல் DNA எபிசோம் நிலையில் இருக்கலாம்.",
+       "ta": "4 🔵 உட்கருவுக்குள் நுழைதலும் இணைவும் DNA உட்கரு உறையைக் கடக்கிறது. ரெட்ரோவைரல்/லென்டிவைரல் கடத்திகள் ஓம்புயிரி குரோமோசோமில் நிலையாக இணைகின்றன. வைரஸ் அல்லாத, அடினோவைரல் DNA எபிசோம் நிலையில் இருக்கலாம்.",
        "ta_status": "draft"
       }
      ]
@@ -1548,7 +1548,7 @@
      "items": [
       {
        "en": "5 ⚗️ Transcription, Translation & Protein Production The gene is transcribed by host RNA Pol II (using mammalian promoter on vector), mRNA is translated, and the therapeutic or reporter protein is produced.",
-       "ta": "5 ⚗️ படியெடுப்பு, மொழிபெயர்ப்பு, புரத உற்பத்தி ஓம்புயிரி RNA பாலிமரேஸ் II மரபணுவைப் (தாங்கிக்கடத்தியிலுள்ள பாலூட்டி ஊக்குவிப்பியைப் பயன்படுத்தி) படியெடுக்கிறது; mRNA மொழிபெயர்க்கப்பட்டுச் சிகிச்சை அல்லது அறிக்கைப் புரதம் உருவாகிறது.",
+       "ta": "5 ⚗️ படியெடுப்பு, மொழிபெயர்ப்பு, புரத உற்பத்தி ஓம்புயிரி RNA பாலிமரேஸ் II மரபணுவைப் (கடத்தியிலுள்ள பாலூட்டி ஊக்குவிப்பியைப் பயன்படுத்தி) படியெடுக்கிறது; mRNA மொழிபெயர்க்கப்பட்டுச் சிகிச்சை அல்லது அறிக்கைப் புரதம் உருவாகிறது.",
        "ta_status": "draft"
       }
      ]
@@ -1709,7 +1709,7 @@
       },
       {
        "en": "Key vectors: Retrovirus (stable, dividing cells), Lentivirus (stable, non-dividing), Adenovirus (transient, high efficiency), AAV (long-term, safe).",
-       "ta": "முக்கிய தாங்கிக்கடத்திகள்: ரெட்ரோவைரஸ் (நிலையானது, பகுப்படையும் செல்கள்), லென்டிவைரஸ் (நிலையானது, பகுப்படையாத செல்கள்), அடினோவைரஸ் (தற்காலிகம், அதிகத் திறன்), AAV (நீண்டகாலம், பாதுகாப்பானது).",
+       "ta": "முக்கிய கடத்திகள்: ரெட்ரோவைரஸ் (நிலையானது, பகுப்படையும் செல்கள்), லென்டிவைரஸ் (நிலையானது, பகுப்படையாத செல்கள்), அடினோவைரஸ் (தற்காலிகம், அதிகத் திறன்), AAV (நீண்டகாலம், பாதுகாப்பானது).",
        "ta_status": "draft"
       },
       {
@@ -1941,7 +1941,7 @@
      "type": "reveal",
      "question": {
       "en": "Viral Vector",
-      "ta": "வைரஸ் தாங்கிக்கடத்தி",
+      "ta": "வைரஸ் கடத்தி",
       "ta_status": "draft"
      },
      "answer": {
@@ -2011,7 +2011,7 @@
      },
      "answer": {
       "en": "The ability of a virus to infect specific cell types, determined by which cell-surface receptors the viral coat proteins recognise. Viral vector tropism determines which cell types can be transduced — critical for gene therapy target specificity.",
-      "ta": "வைரஸ் கோட் புரதங்கள் எந்தச் செல்மேற்பரப்பு ஏற்பிகளை அடையாளம் காண்கின்றன என்பதால் தீர்மானிக்கப்படும், குறிப்பிட்ட செல் வகைகளைத் தொற்றும் வைரஸின் திறன். வைரஸ் தாங்கிக்கடத்தியின் நாட்டம் எச்செல் வகைகளை டிரான்ஸ்டியூஸ் செய்யலாம் என்பதைத் தீர்மானிக்கிறது — மரபணு சிகிச்சையில் இலக்குத் தனித்தன்மைக்கு முக்கியம்.",
+      "ta": "வைரஸ் கோட் புரதங்கள் எந்தச் செல்மேற்பரப்பு ஏற்பிகளை அடையாளம் காண்கின்றன என்பதால் தீர்மானிக்கப்படும், குறிப்பிட்ட செல் வகைகளைத் தொற்றும் வைரஸின் திறன். வைரஸ் கடத்தியின் நாட்டம் எச்செல் வகைகளை டிரான்ஸ்டியூஸ் செய்யலாம் என்பதைத் தீர்மானிக்கிறது — மரபணு சிகிச்சையில் இலக்குத் தனித்தன்மைக்கு முக்கியம்.",
       "ta_status": "draft"
      }
     },
@@ -2024,7 +2024,7 @@
      },
      "answer": {
       "en": "A risk associated with integrating viral vectors (retroviruses) where random insertion of viral DNA into the host genome disrupts a host gene — potentially activating oncogenes or inactivating tumour suppressor genes. Led to leukaemia in some early gene therapy trials.",
-      "ta": "இணையும் வைரஸ் தாங்கிக்கடத்திகளுடன் (ரெட்ரோவைரஸ்கள்) தொடர்புடைய அபாயம்: வைரஸ் DNA ஓம்புயிரி மரபுக்கூறில் சீரற்ற இடத்தில் செருகி ஓம்புயிரி மரபணுவைச் சிதைத்து, புற்றுமரபணுக்களைச் செயல்படுத்தலாம் அல்லது கட்டியடக்கி மரபணுக்களைச் செயலிழக்கச் செய்யலாம். சில ஆரம்பகால மரபணு சிகிச்சைச் சோதனைகளில் இரத்தப் புற்றுநோய்க்கு வழிவகுத்தது.",
+      "ta": "இணையும் வைரஸ் கடத்திகளுடன் (ரெட்ரோவைரஸ்கள்) தொடர்புடைய அபாயம்: வைரஸ் DNA ஓம்புயிரி மரபுக்கூறில் சீரற்ற இடத்தில் செருகி ஓம்புயிரி மரபணுவைச் சிதைத்து, புற்றுமரபணுக்களைச் செயல்படுத்தலாம் அல்லது கட்டியடக்கி மரபணுக்களைச் செயலிழக்கச் செய்யலாம். சில ஆரம்பகால மரபணு சிகிச்சைச் சோதனைகளில் இரத்தப் புற்றுநோய்க்கு வழிவகுத்தது.",
       "ta_status": "draft"
      }
     }
@@ -2100,7 +2100,7 @@
      "type": "p",
      "text": {
       "en": "**Most Efficient In Vivo**Transduction (viral vectors) is most efficient for in vivo gene delivery, especially AAV and lentiviral vectors used in FDA-approved gene therapies.",
-      "ta": "**உயிருள்ள உடலுக்குள் மிகத் திறனுள்ளது**டிரான்ஸ்டக்ஷன் (வைரஸ் தாங்கிக்கடத்திகள்) உயிருள்ள உடலுக்குள் மரபணு செலுத்த மிகத் திறனுள்ளது; குறிப்பாக FDA அங்கீகரித்த மரபணு சிகிச்சைகளில் பயன்படும் AAV, லென்டிவைரல் தாங்கிக்கடத்திகள்.",
+      "ta": "**உயிருள்ள உடலுக்குள் மிகத் திறனுள்ளது**டிரான்ஸ்டக்ஷன் (வைரஸ் கடத்திகள்) உயிருள்ள உடலுக்குள் மரபணு செலுத்த மிகத் திறனுள்ளது; குறிப்பாக FDA அங்கீகரித்த மரபணு சிகிச்சைகளில் பயன்படும் AAV, லென்டிவைரல் கடத்திகள்.",
       "ta_status": "draft"
      }
     },
@@ -2116,7 +2116,7 @@
      "type": "p",
      "text": {
       "en": "**AAV Gene Therapies**Luxturna (RPE65 gene — blindness), Zolgensma (SMN1 gene — spinal muscular atrophy), Hemgenix (F9 gene — haemophilia B) — all use AAV vectors.",
-      "ta": "**AAV மரபணு சிகிச்சைகள்**Luxturna (RPE65 மரபணு — பார்வையிழப்பு), Zolgensma (SMN1 மரபணு — தண்டுவடத் தசைச் சிதைவு), Hemgenix (F9 மரபணு — ஹீமோஃபிலியா B) — அனைத்தும் AAV தாங்கிக்கடத்திகளைப் பயன்படுத்துகின்றன.",
+      "ta": "**AAV மரபணு சிகிச்சைகள்**Luxturna (RPE65 மரபணு — பார்வையிழப்பு), Zolgensma (SMN1 மரபணு — தண்டுவடத் தசைச் சிதைவு), Hemgenix (F9 மரபணு — ஹீமோஃபிலியா B) — அனைத்தும் AAV கடத்திகளைப் பயன்படுத்துகின்றன.",
       "ta_status": "draft"
      }
     },
@@ -2183,7 +2183,7 @@
      },
      "definition": {
       "en": "The delivery of foreign genetic material into host cells using a viral vector. The pathogenic genes of the virus are replaced by the gene of interest; the recombinant virus infects cells with high efficiency but cannot replicate.",
-      "ta": "வைரஸ் தாங்கிக்கடத்தியைப் பயன்படுத்தி ஓம்புயிரி செல்களுக்குள் அந்நிய மரபுப்பொருளைச் செலுத்துதல். வைரஸின் நோய்க்காரண மரபணுக்கள் ஆர்வ மரபணுவால் மாற்றப்படுகின்றன; மறுகூட்டிணைவு வைரஸ் செல்களை அதிகத் திறனுடன் தொற்றும் ஆனால் பெருக இயலாது.",
+      "ta": "வைரஸ் கடத்தியைப் பயன்படுத்தி ஓம்புயிரி செல்களுக்குள் அந்நிய மரபுப்பொருளைச் செலுத்துதல். வைரஸின் நோய்க்காரண மரபணுக்கள் ஆர்வ மரபணுவால் மாற்றப்படுகின்றன; மறுகூட்டிணைவு வைரஸ் செல்களை அதிகத் திறனுடன் தொற்றும் ஆனால் பெருக இயலாது.",
       "ta_status": "draft"
      }
     },
@@ -2191,7 +2191,7 @@
      "type": "glossary",
      "term": {
       "en": "Viral Vector",
-      "ta": "வைரஸ் தாங்கிக்கடத்தி",
+      "ta": "வைரஸ் கடத்தி",
       "ta_status": "draft"
      },
      "definition": {
@@ -2300,7 +2300,7 @@
      },
      "definition": {
       "en": "A small, non-pathogenic, single-stranded DNA virus used as a gene therapy vector. Provides long-term gene expression with minimal immune response. Used in approved gene therapies: Luxturna (blindness), Zolgensma (SMA), Hemgenix (haemophilia).",
-      "ta": "மரபணு சிகிச்சைத் தாங்கிக்கடத்தியாகப் பயன்படும் சிறிய, நோய் உண்டாக்காத, ஒற்றை இழை DNA வைரஸ். மிகக் குறைந்த நோயெதிர்ப்புத் துலங்கலுடன் நீண்டகால மரபணு வெளிப்பாட்டைத் தருகிறது. அங்கீகரித்த மரபணு சிகிச்சைகளில் பயன்படுகிறது: Luxturna (பார்வையிழப்பு), Zolgensma (SMA), Hemgenix (ஹீமோஃபிலியா).",
+      "ta": "மரபணு சிகிச்சைக் கடத்தியாகப் பயன்படும் சிறிய, நோய் உண்டாக்காத, ஒற்றை இழை DNA வைரஸ். மிகக் குறைந்த நோயெதிர்ப்புத் துலங்கலுடன் நீண்டகால மரபணு வெளிப்பாட்டைத் தருகிறது. அங்கீகரித்த மரபணு சிகிச்சைகளில் பயன்படுகிறது: Luxturna (பார்வையிழப்பு), Zolgensma (SMA), Hemgenix (ஹீமோஃபிலியா).",
       "ta_status": "draft"
      }
     }
@@ -2370,7 +2370,7 @@
      "type": "p",
      "text": {
       "en": "**2. Explain transduction as a method of gene transfer. What are the types of viral vectors used?**",
-      "ta": "**2. மரபணு மாற்ற முறையாக டிரான்ஸ்டக்ஷனை விளக்குக. பயன்படும் வைரஸ் தாங்கிக்கடத்தி வகைகள் யாவை?**",
+      "ta": "**2. மரபணு மாற்ற முறையாக டிரான்ஸ்டக்ஷனை விளக்குக. பயன்படும் வைரஸ் கடத்தி வகைகள் யாவை?**",
       "ta_status": "draft"
      }
     },
@@ -2388,7 +2388,7 @@
      "items": [
       {
        "en": "Definition: gene delivery using modified viral vectors; most efficient method for in vivo delivery.",
-       "ta": "வரையறை: மாற்றிய வைரஸ் தாங்கிக்கடத்திகளைக் கொண்டு மரபணு செலுத்தல்; உயிருள்ள உடலுக்குள் செலுத்தும் மிகத் திறனுள்ள முறை.",
+       "ta": "வரையறை: மாற்றிய வைரஸ் கடத்திகளைக் கொண்டு மரபணு செலுத்தல்; உயிருள்ள உடலுக்குள் செலுத்தும் மிகத் திறனுள்ள முறை.",
        "ta_status": "draft"
       },
       {

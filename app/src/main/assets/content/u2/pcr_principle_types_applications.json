@@ -906,7 +906,7 @@
      "kind": "info",
      "text": {
       "en": "**Gene Cloning**\nAmplifies a gene of interest before cloning into a vector. Confirms successful gene insertion by colony PCR. Generates insert DNA for sequencing.",
-      "ta": "**மரபணு குளோனாக்கம்**\nதாங்கிக்கடத்தியில் குளோனாக்குமுன் ஆர்வ மரபணுவைப் பெருக்கும். குழும PCR மூலம் மரபணு செருகல் வெற்றியை உறுதிப்படுத்தும். வரிசைப்படுத்தலுக்கான செருகி DNA-வை உருவாக்கும்.",
+      "ta": "**மரபணு குளோனாக்கம்**\nகடத்தியில் குளோனாக்குமுன் ஆர்வ மரபணுவைப் பெருக்கும். குழும PCR மூலம் மரபணு செருகல் வெற்றியை உறுதிப்படுத்தும். வரிசைப்படுத்தலுக்கான செருகி DNA-வை உருவாக்கும்.",
       "ta_status": "draft"
      }
     },
@@ -2512,7 +2512,7 @@
       },
       {
        "en": "**Gene cloning:** Amplifies gene of interest for cloning into vector; colony PCR confirms successful insertion.",
-       "ta": "**மரபணு குளோனாக்கம்:** தாங்கிக்கடத்தியில் குளோனாக்க ஆர்வ மரபணுவைப் பெருக்கும்; குழும PCR வெற்றிகரமான செருகலை உறுதிப்படுத்தும்.",
+       "ta": "**மரபணு குளோனாக்கம்:** கடத்தியில் குளோனாக்க ஆர்வ மரபணுவைப் பெருக்கும்; குழும PCR வெற்றிகரமான செருகலை உறுதிப்படுத்தும்.",
        "ta_status": "draft"
       }
      ]

@@ -88,7 +88,7 @@
       },
       {
        "en": "List the vectors used in DNA library construction.",
-       "ta": "DNA நூலக உருவாக்கத்தில் பயன்படும் தாங்கிக்கடத்திகளைப் பட்டியலிடுதல்.",
+       "ta": "DNA நூலக உருவாக்கத்தில் பயன்படும் கடத்திகளைப் பட்டியலிடுதல்.",
        "ta_status": "draft"
       }
      ]
@@ -115,7 +115,7 @@
      "type": "p",
      "text": {
       "en": "A DNA library is a collection of **cloned DNA fragments**, each carried in a vector (such as a plasmid or bacteriophage), stored in a population of host cells (usually _Escherichia coli_). Together, these clones represent — in theory — _all or most_ of the genetic information from the source organism.",
-      "ta": "DNA நூலகம் என்பது **நகலாக்கிய DNA துண்டுகளின்** தொகுப்பு; ஒவ்வொன்றும் ஒரு தாங்கிக்கடத்தியில் (பிளாஸ்மிட் அல்லது பாக்டீரியோஃபேஜ் போன்றவை) சுமக்கப்பட்டு, ஓம்புயிரி செல் தொகையில் (பொதுவாக _Escherichia coli_) சேமிக்கப்படுகிறது. இக்குளோன்கள் அனைத்தும் சேர்ந்து — கொள்கையளவில் — மூல உயிரினத்தின் _அனைத்து அல்லது பெரும்பாலான_ மரபணுத் தகவலைப் பிரதிநிதித்துவப்படுத்துகின்றன.",
+      "ta": "DNA நூலகம் என்பது **நகலாக்கிய DNA துண்டுகளின்** தொகுப்பு; ஒவ்வொன்றும் ஒரு கடத்தியில் (பிளாஸ்மிட் அல்லது பாக்டீரியோஃபேஜ் போன்றவை) சுமக்கப்பட்டு, ஓம்புயிரி செல் தொகையில் (பொதுவாக _Escherichia coli_) சேமிக்கப்படுகிறது. இக்குளோன்கள் அனைத்தும் சேர்ந்து — கொள்கையளவில் — மூல உயிரினத்தின் _அனைத்து அல்லது பெரும்பாலான_ மரபணுத் தகவலைப் பிரதிநிதித்துவப்படுத்துகின்றன.",
       "ta_status": "draft"
      }
     },
@@ -187,7 +187,7 @@
      "type": "p",
      "text": {
       "en": "DNA from an organism is cut into fragments using **restriction enzymes**. Each fragment is inserted into a **vector** and introduced into a host cell. Each transformed host cell contains one (or a few) DNA fragments. A complete library consists of enough individual clones to cover the entire genome (or transcriptome) of the source organism.",
-      "ta": "உயிரினத்தின் DNA **ரெஸ்ட்ரிக்ஷன் நொதிகளால்** துண்டுகளாக வெட்டப்படுகிறது. ஒவ்வொரு துண்டும் **தாங்கிக்கடத்தியில்** செருகப்பட்டு ஓம்புயிரி செல்லுக்குள் செலுத்தப்படுகிறது. மாற்றப்பட்ட ஒவ்வொரு ஓம்புயிரி செல்லும் ஒன்று (அல்லது சில) DNA துண்டுகளைக் கொண்டிருக்கும். முழுமையான நூலகம், மூல உயிரினத்தின் முழு மரபணுத்தொகையை (அல்லது படியெடுப்புத் தொகையை) உள்ளடக்கப் போதுமான தனிக் குளோன்களைக் கொண்டிருக்கும்.",
+      "ta": "உயிரினத்தின் DNA **ரெஸ்ட்ரிக்ஷன் நொதிகளால்** துண்டுகளாக வெட்டப்படுகிறது. ஒவ்வொரு துண்டும் **கடத்தியில்** செருகப்பட்டு ஓம்புயிரி செல்லுக்குள் செலுத்தப்படுகிறது. மாற்றப்பட்ட ஒவ்வொரு ஓம்புயிரி செல்லும் ஒன்று (அல்லது சில) DNA துண்டுகளைக் கொண்டிருக்கும். முழுமையான நூலகம், மூல உயிரினத்தின் முழு மரபணுத்தொகையை (அல்லது படியெடுப்புத் தொகையை) உள்ளடக்கப் போதுமான தனிக் குளோன்களைக் கொண்டிருக்கும்.",
       "ta_status": "draft"
      }
     }
@@ -276,7 +276,7 @@
      "type": "p",
      "text": {
       "en": "A genomic DNA library is a collection of cloned DNA fragments that together represent the **entire genome** of an organism — including all genes, introns, exons, promoters, enhancers, and non-coding sequences — inserted into vectors and maintained in bacterial host cells.",
-      "ta": "மரபணு தொகைய DNA நூலகம் என்பது அனைத்து மரபணுக்கள், இன்ட்ரான்கள், எக்சான்கள், புரோமோட்டர்கள், என்ஹேன்சர்கள், குறியீடற்ற வரிசைகள் உட்பட ஓர் உயிரினத்தின் **முழு மரபணுத்தொகையையும்** சேர்ந்து பிரதிநிதித்துவப்படுத்தும் நகலாக்கிய DNA துண்டுகளின் தொகுப்பு; தாங்கிக்கடத்திகளில் செருகப்பட்டுப் பாக்டீரிய ஓம்புயிரி செல்களில் பராமரிக்கப்படுகிறது.",
+      "ta": "மரபணு தொகைய DNA நூலகம் என்பது அனைத்து மரபணுக்கள், இன்ட்ரான்கள், எக்சான்கள், புரோமோட்டர்கள், என்ஹேன்சர்கள், குறியீடற்ற வரிசைகள் உட்பட ஓர் உயிரினத்தின் **முழு மரபணுத்தொகையையும்** சேர்ந்து பிரதிநிதித்துவப்படுத்தும் நகலாக்கிய DNA துண்டுகளின் தொகுப்பு; கடத்திகளில் செருகப்பட்டுப் பாக்டீரிய ஓம்புயிரி செல்களில் பராமரிக்கப்படுகிறது.",
       "ta_status": "draft"
      }
     },
@@ -340,7 +340,7 @@
      "type": "p",
      "text": {
       "en": "The fragment size depends on the vector used: 15–20 kb for cosmids, 35–45 kb for BACs, 200 kb–2 Mb for YACs.",
-      "ta": "துண்டு அளவு பயன்படும் தாங்கிக்கடத்தியைப் பொறுத்தது: காஸ்மிட்களுக்கு 15–20 kb, BAC-களுக்கு 35–45 kb, YAC-களுக்கு 200 kb–2 Mb.",
+      "ta": "துண்டு அளவு பயன்படும் கடத்தியைப் பொறுத்தது: காஸ்மிட்களுக்கு 15–20 kb, BAC-களுக்கு 35–45 kb, YAC-களுக்கு 200 kb–2 Mb.",
       "ta_status": "draft"
      }
     },
@@ -348,7 +348,7 @@
      "type": "p",
      "text": {
       "en": "3**Insertion into Vectors:** DNA fragments are ligated into suitable vectors (lambda phage, cosmids, BACs, or YACs) using **DNA ligase**. Compatible ends are created by using the same restriction enzyme on both the insert and vector.",
-      "ta": "3**தாங்கிக்கடத்திகளில் செருகுதல்:** **DNA லைகேஸ்** மூலம் DNA துண்டுகள் தகுந்த தாங்கிக்கடத்திகளில் (லாம்டா பேஜ், காஸ்மிட்கள், BAC-கள் அல்லது YAC-கள்) இணைக்கப்படுகின்றன. செருகி, தாங்கிக்கடத்தி இரண்டிலும் ஒரே ரெஸ்ட்ரிக்ஷன் நொதியைப் பயன்படுத்தி பொருந்தும் முனைகள் உருவாக்கப்படுகின்றன.",
+      "ta": "3**கடத்திகளில் செருகுதல்:** **DNA லைகேஸ்** மூலம் DNA துண்டுகள் தகுந்த கடத்திகளில் (லாம்டா பேஜ், காஸ்மிட்கள், BAC-கள் அல்லது YAC-கள்) இணைக்கப்படுகின்றன. செருகி, கடத்தி இரண்டிலும் ஒரே ரெஸ்ட்ரிக்ஷன் நொதியைப் பயன்படுத்தி பொருந்தும் முனைகள் உருவாக்கப்படுகின்றன.",
       "ta_status": "draft"
      }
     },
@@ -356,7 +356,7 @@
      "type": "p",
      "text": {
       "en": "4**Transformation into Host Cells:** The recombinant vectors are introduced into _E. coli_ (or yeast for YACs) by transformation (plasmids) or transduction (phage vectors). Each host cell takes up one recombinant clone.",
-      "ta": "4**ஓம்புயிரி செல்களுக்குள் தகவல் பரிமாற்றம்:** மறுகூட்டிணைவுத் தாங்கிக்கடத்திகள் _E. coli_-க்குள் (YAC-களுக்கு ஈஸ்ட்) தகவல் பரிமாற்றம் (பிளாஸ்மிட்கள்) அல்லது கடத்துதல் (பேஜ் தாங்கிக்கடத்திகள்) மூலம் செலுத்தப்படுகின்றன. ஒவ்வொரு ஓம்புயிரி செல்லும் ஒரு மறுகூட்டிணைவுக் குளோனை ஏற்கிறது.",
+      "ta": "4**ஓம்புயிரி செல்களுக்குள் தகவல் பரிமாற்றம்:** மறுகூட்டிணைவுக் கடத்திகள் _E. coli_-க்குள் (YAC-களுக்கு ஈஸ்ட்) தகவல் பரிமாற்றம் (பிளாஸ்மிட்கள்) அல்லது கடத்துதல் (பேஜ் கடத்திகள்) மூலம் செலுத்தப்படுகின்றன. ஒவ்வொரு ஓம்புயிரி செல்லும் ஒரு மறுகூட்டிணைவுக் குளோனை ஏற்கிறது.",
       "ta_status": "draft"
      }
     },
@@ -675,7 +675,7 @@
      "type": "p",
      "text": {
       "en": "5**Linker/Adaptor Addition:** Restriction enzyme linkers or adaptors are ligated to the ends of the blunt-ended ds-cDNA, creating compatible ends for cloning into vectors.",
-      "ta": "5**லிங்கர்/அடாப்டர் சேர்த்தல்:** மழுங்கிய முனை ds-cDNA-வின் முனைகளில் ரெஸ்ட்ரிக்ஷன் நொதி லிங்கர்கள் அல்லது அடாப்டர்கள் இணைக்கப்பட்டு, தாங்கிக்கடத்திகளில் நகலாக்கப் பொருந்தும் முனைகள் உருவாக்கப்படுகின்றன.",
+      "ta": "5**லிங்கர்/அடாப்டர் சேர்த்தல்:** மழுங்கிய முனை ds-cDNA-வின் முனைகளில் ரெஸ்ட்ரிக்ஷன் நொதி லிங்கர்கள் அல்லது அடாப்டர்கள் இணைக்கப்பட்டு, கடத்திகளில் நகலாக்கப் பொருந்தும் முனைகள் உருவாக்கப்படுகின்றன.",
       "ta_status": "draft"
      }
     },
@@ -683,7 +683,7 @@
      "type": "p",
      "text": {
       "en": "6**Insertion into Vector and Cloning:** The ds-cDNA is ligated into an appropriate vector (plasmid or lambda phage). The recombinant vectors are transformed into competent _E. coli_ cells and plated on selective media.",
-      "ta": "6**தாங்கிக்கடத்தியில் செருகலும் நகலாக்கமும்:** ds-cDNA ஏற்ற தாங்கிக்கடத்தியில் (பிளாஸ்மிட் அல்லது லாம்டா பேஜ்) இணைக்கப்படுகிறது. மறுகூட்டிணைவுத் தாங்கிக்கடத்திகள் தகுதி பெற்ற _E. coli_ செல்களுக்குள் செலுத்தப்பட்டுத் தேர்வு ஊடகத்தில் வளர்க்கப்படுகின்றன.",
+      "ta": "6**கடத்தியில் செருகலும் நகலாக்கமும்:** ds-cDNA ஏற்ற கடத்தியில் (பிளாஸ்மிட் அல்லது லாம்டா பேஜ்) இணைக்கப்படுகிறது. மறுகூட்டிணைவுக் கடத்திகள் தகுதி பெற்ற _E. coli_ செல்களுக்குள் செலுத்தப்பட்டுத் தேர்வு ஊடகத்தில் வளர்க்கப்படுகின்றன.",
       "ta_status": "draft"
      }
     },
@@ -1002,7 +1002,7 @@
       [
        {
         "en": "**Vectors used**",
-        "ta": "**பயன்படும் தாங்கிக்கடத்திகள்**",
+        "ta": "**பயன்படும் கடத்திகள்**",
         "ta_status": "draft"
        },
        {
@@ -1173,7 +1173,7 @@
      "items": [
       {
        "en": "3 🔗 Ligation into Vector DNA fragments are ligated into lambda phage, cosmid, or YAC vectors using DNA ligase. Each vector carries one (or a few) genomic fragment(s).",
-       "ta": "3 🔗 தாங்கிக்கடத்தியில் இணைத்தல். DNA லைகேஸால் DNA துண்டுகள் லாம்டா பேஜ், காஸ்மிட் அல்லது YAC தாங்கிக்கடத்திகளில் இணைக்கப்படுகின்றன. ஒவ்வொரு தாங்கிக்கடத்தியும் ஒன்று (அல்லது சில) மரபணு தொகைய துண்டுகளைச் சுமக்கிறது.",
+       "ta": "3 🔗 கடத்தியில் இணைத்தல். DNA லைகேஸால் DNA துண்டுகள் லாம்டா பேஜ், காஸ்மிட் அல்லது YAC கடத்திகளில் இணைக்கப்படுகின்றன. ஒவ்வொரு கடத்தியும் ஒன்று (அல்லது சில) மரபணு தொகைய துண்டுகளைச் சுமக்கிறது.",
        "ta_status": "draft"
       }
      ]
@@ -1183,7 +1183,7 @@
      "items": [
       {
        "en": "4 🧫 Transform E. coli Recombinant vectors are introduced into E. coli by transformation or transduction (phage). Each transformed colony carries a unique genomic DNA fragment.",
-       "ta": "4 🧫 E. coli-யில் மாற்றுதல். மறுகூட்டிணைவுத் தாங்கிக்கடத்திகள் தகவல் பரிமாற்றம் அல்லது கடத்துதல் (பேஜ்) மூலம் E. coli-க்குள் செலுத்தப்படுகின்றன. மாற்றப்பட்ட ஒவ்வொரு குழுமமும் ஒரு தனித்துவ மரபணு தொகைய DNA துண்டைக் கொண்டுள்ளது.",
+       "ta": "4 🧫 E. coli-யில் மாற்றுதல். மறுகூட்டிணைவுக் கடத்திகள் தகவல் பரிமாற்றம் அல்லது கடத்துதல் (பேஜ்) மூலம் E. coli-க்குள் செலுத்தப்படுகின்றன. மாற்றப்பட்ட ஒவ்வொரு குழுமமும் ஒரு தனித்துவ மரபணு தொகைய DNA துண்டைக் கொண்டுள்ளது.",
        "ta_status": "draft"
       }
      ]
@@ -1241,7 +1241,7 @@
      "items": [
       {
        "en": "4 🔗 Ligate into Vector ds-cDNA is ligated into a cloning vector (e.g., lambda gt11, pUC plasmid). The recombinant vector is transformed into E. coli host cells.",
-       "ta": "4 🔗 தாங்கிக்கடத்தியில் இணைத்தல். ds-cDNA நகலாக்கத் தாங்கிக்கடத்தியில் (எ.கா. lambda gt11, pUC பிளாஸ்மிட்) இணைக்கப்படுகிறது. மறுகூட்டிணைவுத் தாங்கிக்கடத்தி E. coli ஓம்புயிரி செல்களுக்குள் செலுத்தப்படுகிறது.",
+       "ta": "4 🔗 கடத்தியில் இணைத்தல். ds-cDNA நகலாக்கக் கடத்தியில் (எ.கா. lambda gt11, pUC பிளாஸ்மிட்) இணைக்கப்படுகிறது. மறுகூட்டிணைவுக் கடத்தி E. coli ஓம்புயிரி செல்களுக்குள் செலுத்தப்படுகிறது.",
        "ta_status": "draft"
       }
      ]
@@ -1464,7 +1464,7 @@
      "type": "p",
      "text": {
       "en": "**Step 6: Linker Addition & Ligation into Vector**",
-      "ta": "**படி 6: லிங்கர் சேர்த்தலும் தாங்கிக்கடத்தியில் இணைத்தலும்**",
+      "ta": "**படி 6: லிங்கர் சேர்த்தலும் கடத்தியில் இணைத்தலும்**",
       "ta_status": "draft"
      }
     },
@@ -1472,7 +1472,7 @@
      "type": "p",
      "text": {
       "en": "Restriction enzyme linkers or adaptors are added to the blunt ends of ds-cDNA to create compatible cohesive ends. The cDNA is then ligated into a cloning vector (e.g., lambda gt11, pUC19). Recombinant vectors are transformed into E. coli, producing the cDNA library.",
-      "ta": "பொருந்தும் ஒட்டும் முனைகளை உருவாக்க ds-cDNA-வின் மழுங்கிய முனைகளில் ரெஸ்ட்ரிக்ஷன் நொதி லிங்கர்கள் அல்லது அடாப்டர்கள் சேர்க்கப்படுகின்றன. பின்னர் cDNA நகலாக்கத் தாங்கிக்கடத்தியில் (எ.கா. lambda gt11, pUC19) இணைக்கப்படுகிறது. மறுகூட்டிணைவுத் தாங்கிக்கடத்திகள் E. coli-க்குள் செலுத்தப்பட்டு cDNA நூலகத்தை உருவாக்குகின்றன.",
+      "ta": "பொருந்தும் ஒட்டும் முனைகளை உருவாக்க ds-cDNA-வின் மழுங்கிய முனைகளில் ரெஸ்ட்ரிக்ஷன் நொதி லிங்கர்கள் அல்லது அடாப்டர்கள் சேர்க்கப்படுகின்றன. பின்னர் cDNA நகலாக்கக் கடத்தியில் (எ.கா. lambda gt11, pUC19) இணைக்கப்படுகிறது. மறுகூட்டிணைவுக் கடத்திகள் E. coli-க்குள் செலுத்தப்பட்டு cDNA நூலகத்தை உருவாக்குகின்றன.",
       "ta_status": "draft"
      }
     },
@@ -1481,7 +1481,7 @@
      "id": "dna_library_genomic_cdna-d09",
      "caption": {
       "en": "Step 6: Linker Addition & Ligation into Vector",
-      "ta": "படி 6: லிங்கர் சேர்த்தலும் தாங்கிக்கடத்தியில் இணைத்தலும்",
+      "ta": "படி 6: லிங்கர் சேர்த்தலும் கடத்தியில் இணைத்தலும்",
       "ta_status": "draft"
      },
      "labels": [
@@ -1507,7 +1507,7 @@
    "id": "s10",
    "title": {
     "en": "Vectors Used in DNA Libraries",
-    "ta": "DNA நூலகங்களில் பயன்படும் தாங்கிக்கடத்திகள்",
+    "ta": "DNA நூலகங்களில் பயன்படும் கடத்திகள்",
     "ta_status": "draft"
    },
    "blocks": [
@@ -1515,7 +1515,7 @@
      "type": "p",
      "text": {
       "en": "The choice of vector depends on the size of DNA inserts needed and the host organism:",
-      "ta": "தாங்கிக்கடத்தித் தேர்வு தேவையான DNA செருகுகளின் அளவையும் ஓம்புயிரி உயிரினத்தையும் பொறுத்தது:",
+      "ta": "கடத்தித் தேர்வு தேவையான DNA செருகுகளின் அளவையும் ஓம்புயிரி உயிரினத்தையும் பொறுத்தது:",
       "ta_status": "draft"
      }
     },
@@ -1531,7 +1531,7 @@
      "type": "p",
      "text": {
       "en": "🦠 Lambda Phage **Insert capacity:** Up to ~23 kb **Host:** E. coli **Examples:** λgt10, λgt11, λEMBL3, λEMBL4 **Use in libraries:** Both genomic and cDNA libraries; λgt11 is a common cDNA expression vector **Advantage:** Very high transformation efficiency (~10⁸ plaques/µg DNA)",
-      "ta": "🦠 லாம்டா பேஜ் **செருகு கொள்ளளவு:** ~23 kb வரை **ஓம்புயிரி:** E. coli **எடுத்துக்காட்டுகள்:** λgt10, λgt11, λEMBL3, λEMBL4 **நூலகங்களில் பயன்:** மரபணு தொகைய, cDNA நூலகங்கள் இரண்டும்; λgt11 பொதுவான cDNA வெளிப்பாட்டுத் தாங்கிக்கடத்தி **நன்மை:** மிக உயர் தகவல் பரிமாற்றத் திறன் (~10⁸ பிளேக்குகள்/µg DNA)",
+      "ta": "🦠 லாம்டா பேஜ் **செருகு கொள்ளளவு:** ~23 kb வரை **ஓம்புயிரி:** E. coli **எடுத்துக்காட்டுகள்:** λgt10, λgt11, λEMBL3, λEMBL4 **நூலகங்களில் பயன்:** மரபணு தொகைய, cDNA நூலகங்கள் இரண்டும்; λgt11 பொதுவான cDNA வெளிப்பாட்டுக் கடத்தி **நன்மை:** மிக உயர் தகவல் பரிமாற்றத் திறன் (~10⁸ பிளேக்குகள்/µg DNA)",
       "ta_status": "draft"
      }
     },
@@ -1539,7 +1539,7 @@
      "type": "p",
      "text": {
       "en": "⭕ Cosmids **Insert capacity:** 35–45 kb **Host:** E. coli **Examples:** pJB8, sCos1, Lorist vectors **Use in libraries:** Genomic libraries (large chromosomal regions); physical mapping contigs **Advantage:** Large insert + plasmid-like selection; phage-mediated high-efficiency delivery",
-      "ta": "⭕ காஸ்மிட்கள் **செருகு கொள்ளளவு:** 35–45 kb **ஓம்புயிரி:** E. coli **எடுத்துக்காட்டுகள்:** pJB8, sCos1, Lorist தாங்கிக்கடத்திகள் **நூலகங்களில் பயன்:** மரபணு தொகைய நூலகங்கள் (பெரிய குரோமோசோமுப் பகுதிகள்); இயற்பியல் வரைபடக் காண்டிக்குகள் **நன்மை:** பெரிய செருகு + பிளாஸ்மிட் போன்ற தெரிவு; பேஜ் வழி உயர் திறன் செலுத்துதல்",
+      "ta": "⭕ காஸ்மிட்கள் **செருகு கொள்ளளவு:** 35–45 kb **ஓம்புயிரி:** E. coli **எடுத்துக்காட்டுகள்:** pJB8, sCos1, Lorist கடத்திகள் **நூலகங்களில் பயன்:** மரபணு தொகைய நூலகங்கள் (பெரிய குரோமோசோமுப் பகுதிகள்); இயற்பியல் வரைபடக் காண்டிக்குகள் **நன்மை:** பெரிய செருகு + பிளாஸ்மிட் போன்ற தெரிவு; பேஜ் வழி உயர் திறன் செலுத்துதல்",
       "ta_status": "draft"
      }
     },
@@ -1555,7 +1555,7 @@
      "type": "p",
      "text": {
       "en": "Fig. 3 — Comparative Insert Capacity of DNA Library Vectors",
-      "ta": "படம் 3 — DNA நூலகத் தாங்கிக்கடத்திகளின் செருகு கொள்ளளவு ஒப்பீடு",
+      "ta": "படம் 3 — DNA நூலகக் கடத்திகளின் செருகு கொள்ளளவு ஒப்பீடு",
       "ta_status": "draft"
      }
     },
@@ -1564,7 +1564,7 @@
      "id": "dna_library_genomic_cdna-d03",
      "caption": {
       "en": "Vector insert size comparison",
-      "ta": "தாங்கிக்கடத்தி செருகு அளவு ஒப்பீடு",
+      "ta": "கடத்தி செருகு அளவு ஒப்பீடு",
       "ta_status": "draft"
      },
      "labels": [
@@ -1638,7 +1638,7 @@
       },
       {
        "en": "Vectors: lambda phage, cosmids, BACs, YACs.",
-       "ta": "தாங்கிக்கடத்திகள்: லாம்டா பேஜ், காஸ்மிட்கள், BAC-கள், YAC-கள்.",
+       "ta": "கடத்திகள்: லாம்டா பேஜ், காஸ்மிட்கள், BAC-கள், YAC-கள்.",
        "ta_status": "draft"
       },
       {
@@ -1704,7 +1704,7 @@
       },
       {
        "en": "Vectors: lambda gt10/gt11, plasmids (pUC series).",
-       "ta": "தாங்கிக்கடத்திகள்: lambda gt10/gt11, பிளாஸ்மிட்கள் (pUC தொடர்).",
+       "ta": "கடத்திகள்: lambda gt10/gt11, பிளாஸ்மிட்கள் (pUC தொடர்).",
        "ta_status": "bracketed"
       },
       {
@@ -1933,7 +1933,7 @@
      },
      "answer": {
       "en": "The process of introducing foreign DNA (recombinant vector) into a competent host cell (usually E. coli). Successfully transformed cells take up the vector and are selected using antibiotic resistance or other markers on the vector.",
-      "ta": "அந்நிய DNA-வை (மறுகூட்டிணைவுத் தாங்கிக்கடத்தி) தகுதி பெற்ற ஓம்புயிரி செல்லுக்குள் (பொதுவாக E. coli) செலுத்தும் செயல்முறை. வெற்றிகரமாக மாற்றப்பட்ட செல்கள் தாங்கிக்கடத்தியை ஏற்று, அதிலுள்ள ஆன்டிபயாடிக் எதிர்ப்பு அல்லது பிற அடையாளக்குறிகள் மூலம் தெரிவு செய்யப்படுகின்றன.",
+      "ta": "அந்நிய DNA-வை (மறுகூட்டிணைவுக் கடத்தி) தகுதி பெற்ற ஓம்புயிரி செல்லுக்குள் (பொதுவாக E. coli) செலுத்தும் செயல்முறை. வெற்றிகரமாக மாற்றப்பட்ட செல்கள் கடத்தியை ஏற்று, அதிலுள்ள ஆன்டிபயாடிக் எதிர்ப்பு அல்லது பிற அடையாளக்குறிகள் மூலம் தெரிவு செய்யப்படுகின்றன.",
       "ta_status": "draft"
      }
     }
@@ -1953,7 +1953,7 @@
      "type": "p",
      "text": {
       "en": "**DNA Library Definition**A collection of cloned DNA fragments in vectors stored in host cells, representing all or most of the genetic information of a source organism.",
-      "ta": "**DNA நூலக வரையறை**ஓம்புயிரி செல்களில் சேமிக்கப்பட்ட தாங்கிக்கடத்திகளிலுள்ள நகலாக்கிய DNA துண்டுகளின் தொகுப்பு; மூல உயிரினத்தின் அனைத்து அல்லது பெரும்பாலான மரபணுத் தகவலைப் பிரதிநிதித்துவப்படுத்துகிறது.",
+      "ta": "**DNA நூலக வரையறை**ஓம்புயிரி செல்களில் சேமிக்கப்பட்ட கடத்திகளிலுள்ள நகலாக்கிய DNA துண்டுகளின் தொகுப்பு; மூல உயிரினத்தின் அனைத்து அல்லது பெரும்பாலான மரபணுத் தகவலைப் பிரதிநிதித்துவப்படுத்துகிறது.",
       "ta_status": "draft"
      }
     },
@@ -2001,7 +2001,7 @@
      "type": "p",
      "text": {
       "en": "**Vector Choice**Plasmid (<10 kb) → cDNA; Lambda phage (~23 kb) → cDNA and genomic; Cosmid (35–45 kb) → genomic; YAC (200–2000 kb) → large genomic.",
-      "ta": "**தாங்கிக்கடத்தித் தேர்வு**பிளாஸ்மிட் (<10 kb) → cDNA; லாம்டா பேஜ் (~23 kb) → cDNA, மரபணு தொகையம்; காஸ்மிட் (35–45 kb) → மரபணு தொகையம்; YAC (200–2000 kb) → பெரிய மரபணு தொகையம்.",
+      "ta": "**கடத்தித் தேர்வு**பிளாஸ்மிட் (<10 kb) → cDNA; லாம்டா பேஜ் (~23 kb) → cDNA, மரபணு தொகையம்; காஸ்மிட் (35–45 kb) → மரபணு தொகையம்; YAC (200–2000 kb) → பெரிய மரபணு தொகையம்.",
       "ta_status": "draft"
      }
     },
@@ -2066,7 +2066,7 @@
      },
      "definition": {
       "en": "A collection of cloned DNA fragments (in vectors, inside host cells) that together represent the genetic information of a source organism. Exists as genomic library (total DNA) or cDNA library (expressed sequences).",
-      "ta": "மூல உயிரினத்தின் மரபணுத் தகவலைச் சேர்ந்து பிரதிநிதித்துவப்படுத்தும் (ஓம்புயிரி செல்களுக்குள் தாங்கிக்கடத்திகளிலுள்ள) நகலாக்கிய DNA துண்டுகளின் தொகுப்பு. மரபணு தொகைய நூலகம் (மொத்த DNA) அல்லது cDNA நூலகம் (வெளிப்படும் வரிசைகள்) என இருவகை.",
+      "ta": "மூல உயிரினத்தின் மரபணுத் தகவலைச் சேர்ந்து பிரதிநிதித்துவப்படுத்தும் (ஓம்புயிரி செல்களுக்குள் கடத்திகளிலுள்ள) நகலாக்கிய DNA துண்டுகளின் தொகுப்பு. மரபணு தொகைய நூலகம் (மொத்த DNA) அல்லது cDNA நூலகம் (வெளிப்படும் வரிசைகள்) என இருவகை.",
       "ta_status": "draft"
      }
     },
@@ -2113,7 +2113,7 @@
      "type": "glossary",
      "term": {
       "en": "Vector",
-      "ta": "தாங்கிக்கடத்தி",
+      "ta": "கடத்தி",
       "ta_status": "draft"
      },
      "definition": {
@@ -2131,7 +2131,7 @@
      },
      "definition": {
       "en": "The uptake of foreign DNA by a bacterial cell. In library construction, recombinant vectors are introduced into competent E. coli by transformation. Successfully transformed cells are selected on antibiotic plates.",
-      "ta": "பாக்டீரிய செல் அந்நிய DNA-வை உள்ளெடுத்தல். நூலக உருவாக்கத்தில், மறுகூட்டிணைவுத் தாங்கிக்கடத்திகள் தகவல் பரிமாற்றம் மூலம் தகுதி பெற்ற E. coli-க்குள் செலுத்தப்படுகின்றன. வெற்றிகரமாக மாற்றப்பட்ட செல்கள் ஆன்டிபயாடிக் தட்டுகளில் தெரிவு செய்யப்படுகின்றன.",
+      "ta": "பாக்டீரிய செல் அந்நிய DNA-வை உள்ளெடுத்தல். நூலக உருவாக்கத்தில், மறுகூட்டிணைவுக் கடத்திகள் தகவல் பரிமாற்றம் மூலம் தகுதி பெற்ற E. coli-க்குள் செலுத்தப்படுகின்றன. வெற்றிகரமாக மாற்றப்பட்ட செல்கள் ஆன்டிபயாடிக் தட்டுகளில் தெரிவு செய்யப்படுகின்றன.",
       "ta_status": "draft"
      }
     },
@@ -2144,7 +2144,7 @@
      },
      "definition": {
       "en": "The process of inserting a DNA fragment into a vector and propagating it in host cells to produce many identical copies of the fragment. Forms the basis of DNA library construction.",
-      "ta": "DNA துண்டைத் தாங்கிக்கடத்தியில் செருகி, ஓம்புயிரி செல்களில் பெருக்கி, அத்துண்டின் பல ஒத்த நகல்களை உருவாக்கும் செயல்முறை. DNA நூலக உருவாக்கத்தின் அடிப்படை.",
+      "ta": "DNA துண்டைக் கடத்தியில் செருகி, ஓம்புயிரி செல்களில் பெருக்கி, அத்துண்டின் பல ஒத்த நகல்களை உருவாக்கும் செயல்முறை. DNA நூலக உருவாக்கத்தின் அடிப்படை.",
       "ta_status": "draft"
      }
     },
@@ -2255,7 +2255,7 @@
      "items": [
       {
        "en": "Define DNA library: a collection of cloned DNA fragments in vectors maintained in host cells; represents the genetic information of a source organism.",
-       "ta": "DNA நூலகத்தை வரையறு: ஓம்புயிரி செல்களில் பராமரிக்கப்படும் தாங்கிக்கடத்திகளிலுள்ள நகலாக்கிய DNA துண்டுகளின் தொகுப்பு; மூல உயிரினத்தின் மரபணுத் தகவலைப் பிரதிநிதித்துவப்படுத்துகிறது.",
+       "ta": "DNA நூலகத்தை வரையறு: ஓம்புயிரி செல்களில் பராமரிக்கப்படும் கடத்திகளிலுள்ள நகலாக்கிய DNA துண்டுகளின் தொகுப்பு; மூல உயிரினத்தின் மரபணுத் தகவலைப் பிரதிநிதித்துவப்படுத்துகிறது.",
        "ta_status": "draft"
       },
       {
@@ -2322,7 +2322,7 @@
       },
       {
        "en": "Step 5: Add restriction enzyme linkers/adaptors → ligate into vector (e.g., lambda gt11, pUC) → transform into E. coli.",
-       "ta": "படி 5: ரெஸ்ட்ரிக்ஷன் நொதி லிங்கர்கள்/அடாப்டர்களைச் சேர்த்தல் → தாங்கிக்கடத்தியில் (எ.கா. lambda gt11, pUC) இணைத்தல் → E. coli-க்குள் தகவல் பரிமாற்றம்.",
+       "ta": "படி 5: ரெஸ்ட்ரிக்ஷன் நொதி லிங்கர்கள்/அடாப்டர்களைச் சேர்த்தல் → கடத்தியில் (எ.கா. lambda gt11, pUC) இணைத்தல் → E. coli-க்குள் தகவல் பரிமாற்றம்.",
        "ta_status": "draft"
       },
       {
@@ -2354,7 +2354,7 @@
      "items": [
       {
        "en": "Steps: isolate total genomic DNA → partial restriction enzyme digestion → size selection → ligation into vector → transformation of E. coli → collection of clones = library.",
-       "ta": "படிகள்: மொத்த மரபணு தொகைய DNA தனிப்பிரிப்பு → பகுதி ரெஸ்ட்ரிக்ஷன் நொதிச் செரித்தல் → அளவுத் தேர்வு → தாங்கிக்கடத்தியில் இணைத்தல் → E. coli-க்குள் தகவல் பரிமாற்றம் → குளோன்களின் தொகுப்பு = நூலகம்.",
+       "ta": "படிகள்: மொத்த மரபணு தொகைய DNA தனிப்பிரிப்பு → பகுதி ரெஸ்ட்ரிக்ஷன் நொதிச் செரித்தல் → அளவுத் தேர்வு → கடத்தியில் இணைத்தல் → E. coli-க்குள் தகவல் பரிமாற்றம் → குளோன்களின் தொகுப்பு = நூலகம்.",
        "ta_status": "draft"
       },
       {
@@ -2374,7 +2374,7 @@
       },
       {
        "en": "Vectors used: cosmids for 35–45 kb inserts; YACs for megabase inserts; lambda phage for ~20 kb inserts.",
-       "ta": "பயன்படும் தாங்கிக்கடத்திகள்: 35–45 kb செருகுகளுக்குக் காஸ்மிட்கள்; மெகா காரண இணை செருகுகளுக்கு YAC-கள்; ~20 kb செருகுகளுக்கு லாம்டா பேஜ்.",
+       "ta": "பயன்படும் கடத்திகள்: 35–45 kb செருகுகளுக்குக் காஸ்மிட்கள்; மெகா காரண இணை செருகுகளுக்கு YAC-கள்; ~20 kb செருகுகளுக்கு லாம்டா பேஜ்.",
        "ta_status": "draft"
       }
      ]
@@ -2473,7 +2473,7 @@
       },
       {
        "en": "**Phage display:** cDNA libraries cloned into phage display vectors to identify protein–protein interactions and novel antibodies.",
-       "ta": "**பேஜ் காட்சியமைப்பு:** புரத–புரத இடைவினைகளையும் புதிய எதிர்ப்பொருள்களையும் அடையாளம் காண cDNA நூலகங்கள் பேஜ் காட்சியமைப்புத் தாங்கிக்கடத்திகளில் நகலாக்கப்படுகின்றன.",
+       "ta": "**பேஜ் காட்சியமைப்பு:** புரத–புரத இடைவினைகளையும் புதிய எதிர்ப்பொருள்களையும் அடையாளம் காண cDNA நூலகங்கள் பேஜ் காட்சியமைப்புக் கடத்திகளில் நகலாக்கப்படுகின்றன.",
        "ta_status": "draft"
       }
      ]

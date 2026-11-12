@@ -3,7 +3,7 @@
  "unit": "I",
  "title": {
   "en": "Atlas I: Fundamentals & Vectors",
-  "ta": "அட்லஸ் I: அடிப்படைகளும் தாங்கிக்கடத்திகளும்",
+  "ta": "அட்லஸ் I: அடிப்படைகளும் கடத்திகளும்",
   "ta_status": "draft"
  },
  "sections": [
@@ -29,7 +29,7 @@
    "id": "s02",
    "title": {
     "en": "Diagram Atlas I: Fundamentals and Vectors",
-    "ta": "படத் தொகுப்பு I: அடிப்படைகளும் தாங்கிக்கடத்திகளும்",
+    "ta": "படத் தொகுப்பு I: அடிப்படைகளும் கடத்திகளும்",
     "ta_status": "draft"
    },
    "blocks": [
@@ -37,7 +37,7 @@
      "type": "p",
      "text": {
       "en": "Branches · Restriction enzymes · Plasmid, phage and large-insert vectors · Libraries",
-      "ta": "கிளைகள் · ரெஸ்ட்ரிக்ஷன் நொதிகள் · பிளாஸ்மிட், பேஜ் மற்றும் பெரிய செருகு தாங்கிக்கடத்திகள் · நூலகங்கள்",
+      "ta": "கிளைகள் · ரெஸ்ட்ரிக்ஷன் நொதிகள் · பிளாஸ்மிட், பேஜ் மற்றும் பெரிய செருகு கடத்திகள் · நூலகங்கள்",
       "ta_status": "draft"
      }
     },
@@ -45,7 +45,7 @@
      "type": "p",
      "text": {
       "en": "Fifteen labelled diagrams and flow charts covering Unit I: the colour-coded branches of biotechnology, how restriction enzymes cut, the maps of pBR322 and the Ti plasmid, phage cycles, vector capacities, and library construction. Draw them in the examination with confidence.",
-      "ta": "அலகு I-ஐ உள்ளடக்கிய பதினைந்து குறிப்பிட்ட படங்களும் பாய்வு வரைபடங்களும்: உயிரித் தொழில்நுட்பத்தின் வண்ணக்குறியீட்டுக் கிளைகள், ரெஸ்ட்ரிக்ஷன் நொதிகள் வெட்டும் முறை, pBR322 மற்றும் Ti பிளாஸ்மிட் வரைபடங்கள், பேஜ் சுழற்சிகள், தாங்கிக்கடத்திகளின் கொள்ளளவுகள், நூலக உருவாக்கம். தேர்வில் தன்னம்பிக்கையுடன் வரையுங்கள்.",
+      "ta": "அலகு I-ஐ உள்ளடக்கிய பதினைந்து குறிப்பிட்ட படங்களும் பாய்வு வரைபடங்களும்: உயிரித் தொழில்நுட்பத்தின் வண்ணக்குறியீட்டுக் கிளைகள், ரெஸ்ட்ரிக்ஷன் நொதிகள் வெட்டும் முறை, pBR322 மற்றும் Ti பிளாஸ்மிட் வரைபடங்கள், பேஜ் சுழற்சிகள், கடத்திகளின் கொள்ளளவுகள், நூலக உருவாக்கம். தேர்வில் தன்னம்பிக்கையுடன் வரையுங்கள்.",
       "ta_status": "draft"
      }
     },
@@ -81,12 +81,12 @@
       },
       {
        "en": "✓Explain lambda cycles, M13, cosmid, YAC, BAC, SV40 and transposon vectors with diagrams.",
-       "ta": "✓லாம்டா சுழற்சிகள், M13, காஸ்மிட், YAC, BAC, SV40 மற்றும் டிரான்ஸ்போசான் தாங்கிக்கடத்திகளைப் படங்களுடன் விளக்குக.",
+       "ta": "✓லாம்டா சுழற்சிகள், M13, காஸ்மிட், YAC, BAC, SV40 மற்றும் டிரான்ஸ்போசான் கடத்திகளைப் படங்களுடன் விளக்குக.",
        "ta_status": "draft"
       },
       {
        "en": "✓Compare vector capacities and choose a vector for a task.",
-       "ta": "✓தாங்கிக்கடத்திகளின் கொள்ளளவுகளை ஒப்பிட்டு, ஒரு பணிக்கு ஏற்றதைத் தேர்ந்தெடுக்க.",
+       "ta": "✓கடத்திகளின் கொள்ளளவுகளை ஒப்பிட்டு, ஒரு பணிக்கு ஏற்றதைத் தேர்ந்தெடுக்க.",
        "ta_status": "draft"
       },
       {
@@ -444,7 +444,7 @@
    "id": "s05",
    "title": {
     "en": "Plasmid Vectors: pBR322 and the Ti Plasmid",
-    "ta": "பிளாஸ்மிட் தாங்கிக்கடத்திகள்: pBR322 மற்றும் Ti பிளாஸ்மிட்",
+    "ta": "பிளாஸ்மிட் கடத்திகள்: pBR322 மற்றும் Ti பிளாஸ்மிட்",
     "ta_status": "draft"
    },
    "blocks": [
@@ -460,7 +460,7 @@
      "type": "p",
      "text": {
       "en": "Features of a good plasmid vector: an **origin of replication**, one or more **selectable markers**, unique **restriction sites** (multiple cloning site), small size, and high copy number.",
-      "ta": "நல்ல பிளாஸ்மிட் தாங்கிக்கடத்தியின் பண்புகள்: **பெருக்கமடைதலின் தோற்றம்**, ஒன்று அல்லது அதற்கு மேற்பட்ட **தேர்ந்தெடுக்கும் அடையாளக்குறிகள்**, தனித்த **ரெஸ்ட்ரிக்ஷன் இடங்கள்** (பல நகலாக்கக் களங்கள்), சிறிய அளவு, அதிக நகல் எண்ணிக்கை.",
+      "ta": "நல்ல பிளாஸ்மிட் கடத்தியின் பண்புகள்: **பெருக்கமடைதலின் தோற்றம்**, ஒன்று அல்லது அதற்கு மேற்பட்ட **தேர்ந்தெடுக்கும் அடையாளக்குறிகள்**, தனித்த **ரெஸ்ட்ரிக்ஷன் இடங்கள்** (பல நகலாக்கக் களங்கள்), சிறிய அளவு, அதிக நகல் எண்ணிக்கை.",
       "ta_status": "draft"
      }
     },
@@ -604,12 +604,12 @@
       },
       {
        "en": "In disarmed vectors the oncogenes are removed and the gene of interest is placed between the borders.",
-       "ta": "செயலிழக்கச் செய்யப்பட்ட தாங்கிக்கடத்திகளில் புற்றுமரபணுக்கள் நீக்கப்பட்டு, தேவையான மரபணு எல்லைகளுக்கு இடையே வைக்கப்படுகிறது.",
+       "ta": "செயலிழக்கச் செய்யப்பட்ட கடத்திகளில் புற்றுமரபணுக்கள் நீக்கப்பட்டு, தேவையான மரபணு எல்லைகளுக்கு இடையே வைக்கப்படுகிறது.",
        "ta_status": "draft"
       },
       {
        "en": "Relevance to animal biotechnology: a classic example of natural genetic engineering and of a binary vector design.",
-       "ta": "விலங்கு உயிரித் தொழில்நுட்பத்துடன் தொடர்பு: இயற்கை மரபணுப் பொறியியலுக்கும் இரட்டைத் தாங்கிக்கடத்தி (பைனரி வெக்டர்) வடிவமைப்புக்கும் ஒரு சிறந்த எடுத்துக்காட்டு.",
+       "ta": "விலங்கு உயிரித் தொழில்நுட்பத்துடன் தொடர்பு: இயற்கை மரபணுப் பொறியியலுக்கும் இரட்டைக் கடத்தி (பைனரி வெக்டர்) வடிவமைப்புக்கும் ஒரு சிறந்த எடுத்துக்காட்டு.",
        "ta_status": "draft"
       }
      ]
@@ -621,7 +621,7 @@
    "id": "s06",
    "title": {
     "en": "Bacteriophage Vectors: Lambda and M13",
-    "ta": "பாக்டீரியோஃபேஜ் தாங்கிக்கடத்திகள்: லாம்டா மற்றும் M13",
+    "ta": "பாக்டீரியோஃபேஜ் கடத்திகள்: லாம்டா மற்றும் M13",
     "ta_status": "draft"
    },
    "blocks": [
@@ -629,7 +629,7 @@
      "type": "p",
      "text": {
       "en": "Phage vectors carry larger inserts than plasmids and are efficient at infecting cells.",
-      "ta": "பேஜ் தாங்கிக்கடத்திகள் பிளாஸ்மிட்களை விடப் பெரிய செருகு DNA-வைச் சுமக்கின்றன; செல்களைத் தொற்றுவதில் திறன் மிக்கவை.",
+      "ta": "பேஜ் கடத்திகள் பிளாஸ்மிட்களை விடப் பெரிய செருகு DNA-வைச் சுமக்கின்றன; செல்களைத் தொற்றுவதில் திறன் மிக்கவை.",
       "ta_status": "draft"
      }
     },
@@ -665,7 +665,7 @@
      "id": "atlas1_fundamentals_vectors-d08",
      "caption": {
       "en": "Fig. 8. How a lambda replacement vector is used. Packaging accepts DNA of about 75–105% of the wild-type genome.",
-      "ta": "படம் 8. லாம்டா பதிலீட்டுத் தாங்கிக்கடத்தி பயன்படுத்தப்படும் முறை. காட்டுவகை மரபணுத்தொகையின் ஏறத்தாழ 75–105% அளவுள்ள DNA-வை பொதிவு ஏற்கும்.",
+      "ta": "படம் 8. லாம்டா பதிலீட்டுக் கடத்தி பயன்படுத்தப்படும் முறை. காட்டுவகை மரபணுத்தொகையின் ஏறத்தாழ 75–105% அளவுள்ள DNA-வை பொதிவு ஏற்கும்.",
       "ta_status": "draft"
      },
      "labels": [
@@ -805,7 +805,7 @@
    "id": "s07",
    "title": {
     "en": "Cosmid, YAC, BAC and Animal Virus Vectors",
-    "ta": "காஸ்மிட், YAC, BAC மற்றும் விலங்கு வைரஸ் தாங்கிக்கடத்திகள்",
+    "ta": "காஸ்மிட், YAC, BAC மற்றும் விலங்கு வைரஸ் கடத்திகள்",
     "ta_status": "draft"
    },
    "blocks": [
@@ -813,7 +813,7 @@
      "type": "p",
      "text": {
       "en": "Genomes are big, so large-insert vectors are needed; animal cells need their own vectors.",
-      "ta": "மரபணுத்தொகைகள் பெரியவை என்பதால் பெரிய செருகு தாங்கிக்கடத்திகள் தேவை; விலங்கு செல்களுக்குத் தனித்தாங்கிக்கடத்திகள் தேவை.",
+      "ta": "மரபணுத்தொகைகள் பெரியவை என்பதால் பெரிய செருகு கடத்திகள் தேவை; விலங்கு செல்களுக்குத் தனிக்கடத்திகள் தேவை.",
       "ta_status": "draft"
      }
     },
@@ -822,7 +822,7 @@
      "id": "atlas1_fundamentals_vectors-d10",
      "caption": {
       "en": "Fig. 10. Cloning capacity (kb, log scale). Pick the vector by the size of DNA you must carry.",
-      "ta": "படம் 10. நகலாக்கக் கொள்ளளவு (kb, மடக்கை அளவு). சுமக்க வேண்டிய DNA-வின் அளவுக்கேற்பத் தாங்கிக்கடத்தியைத் தேர்ந்தெடுக்க.",
+      "ta": "படம் 10. நகலாக்கக் கொள்ளளவு (kb, மடக்கை அளவு). சுமக்க வேண்டிய DNA-வின் அளவுக்கேற்பக் கடத்தியைத் தேர்ந்தெடுக்க.",
       "ta_status": "draft"
      },
      "labels": [
@@ -899,7 +899,7 @@
      "id": "atlas1_fundamentals_vectors-d13",
      "caption": {
       "en": "Fig. 13. SV40, a small DNA tumour virus used to build mammalian expression vectors.",
-      "ta": "படம் 13. SV40, பாலூட்டி வெளிப்பாட்டுத் தாங்கிக்கடத்திகளை உருவாக்கப் பயன்படும் சிறிய DNA கட்டி வைரஸ்.",
+      "ta": "படம் 13. SV40, பாலூட்டி வெளிப்பாட்டுக் கடத்திகளை உருவாக்கப் பயன்படும் சிறிய DNA கட்டி வைரஸ்.",
       "ta_status": "draft"
      },
      "labels": [
@@ -917,7 +917,7 @@
      "id": "atlas1_fundamentals_vectors-d14",
      "caption": {
       "en": "Fig. 14. Transposons (Sleeping Beauty, piggyBac) as cut-and-paste vectors for animal cells.",
-      "ta": "படம் 14. டிரான்ஸ்போசான்கள் (Sleeping Beauty, piggyBac) விலங்கு செல்களுக்கான வெட்டி-ஒட்டும் தாங்கிக்கடத்திகளாக.",
+      "ta": "படம் 14. டிரான்ஸ்போசான்கள் (Sleeping Beauty, piggyBac) விலங்கு செல்களுக்கான வெட்டி-ஒட்டும் கடத்திகளாக.",
       "ta_status": "draft"
      },
      "labels": [
@@ -953,7 +953,7 @@
       },
       {
        "en": "Lentiviral and AAV vectors have largely replaced SV40 in gene therapy.",
-       "ta": "மரபணு சிகிச்சையில் SV40-க்குப் பதிலாக லென்டிவைரஸ் மற்றும் AAV தாங்கிக்கடத்திகள் பெருமளவு இடம்பிடித்துள்ளன.",
+       "ta": "மரபணு சிகிச்சையில் SV40-க்குப் பதிலாக லென்டிவைரஸ் மற்றும் AAV கடத்திகள் பெருமளவு இடம்பிடித்துள்ளன.",
        "ta_status": "draft"
       }
      ]
@@ -1205,7 +1205,7 @@
      "type": "p",
      "text": {
       "en": "Ti plasmid: T-DNA between LB and RB, vir genes act in trans; disarmed vectors carry the gene of interest.",
-      "ta": "Ti பிளாஸ்மிட்: LB மற்றும் RB-க்கு இடையே T-DNA, vir மரபணுக்கள் ட்ரான்ஸ்-ஆக செயல்படும்; செயலிழக்கச் செய்யப்பட்ட தாங்கிக்கடத்திகள் தேவையான மரபணுவைச் சுமக்கும்.",
+      "ta": "Ti பிளாஸ்மிட்: LB மற்றும் RB-க்கு இடையே T-DNA, vir மரபணுக்கள் ட்ரான்ஸ்-ஆக செயல்படும்; செயலிழக்கச் செய்யப்பட்ட கடத்திகள் தேவையான மரபணுவைச் சுமக்கும்.",
       "ta_status": "draft"
      }
     },
@@ -1221,7 +1221,7 @@
      "type": "p",
      "text": {
       "en": "Lambda 48.5 kb: lytic or lysogenic; replacement vectors carry ~20 kb. M13: ssDNA, non-lytic.",
-      "ta": "லாம்டா 48.5 kb: லைடிக் அல்லது லைசோஜெனிக்; பதிலீட்டுத் தாங்கிக்கடத்திகள் ~20 kb சுமக்கும். M13: ssDNA, செல் சிதைக்காதது.",
+      "ta": "லாம்டா 48.5 kb: லைடிக் அல்லது லைசோஜெனிக்; பதிலீட்டுக் கடத்திகள் ~20 kb சுமக்கும். M13: ssDNA, செல் சிதைக்காதது.",
       "ta_status": "draft"
      }
     },
@@ -1253,7 +1253,7 @@
      "type": "p",
      "text": {
       "en": "SV40 (5.2 kb) and transposons (Sleeping Beauty, piggyBac) are animal-cell vectors.",
-      "ta": "SV40 (5.2 kb) மற்றும் டிரான்ஸ்போசான்கள் (Sleeping Beauty, piggyBac) விலங்கு செல் தாங்கிக்கடத்திகள்.",
+      "ta": "SV40 (5.2 kb) மற்றும் டிரான்ஸ்போசான்கள் (Sleeping Beauty, piggyBac) விலங்கு செல் கடத்திகள்.",
       "ta_status": "draft"
      }
     },
@@ -1309,7 +1309,7 @@
      "type": "p",
      "text": {
       "en": "Q.2Name four features of an ideal cloning vector.▼",
-      "ta": "வி.2சிறந்த நகலாக்கத் தாங்கிக்கடத்தியின் நான்கு பண்புகளைக் குறிப்பிடுக.▼",
+      "ta": "வி.2சிறந்த நகலாக்கக் கடத்தியின் நான்கு பண்புகளைக் குறிப்பிடுக.▼",
       "ta_status": "draft"
      }
     },
@@ -1481,7 +1481,7 @@
      },
      "definition": {
       "en": "Gene (for example antibiotic resistance) used to select cells carrying the vector.",
-      "ta": "தாங்கிக்கடத்தியைக் கொண்ட செல்களைத் தேர்ந்தெடுக்கப் பயன்படும் மரபணு (எ.கா. ஆன்டிபயாடிக் எதிர்ப்பு).",
+      "ta": "கடத்தியைக் கொண்ட செல்களைத் தேர்ந்தெடுக்கப் பயன்படும் மரபணு (எ.கா. ஆன்டிபயாடிக் எதிர்ப்பு).",
       "ta_status": "draft"
      }
     },

@@ -120,7 +120,7 @@
      "type": "p",
      "text": {
       "en": "A recombinant cell (or recombinant clone) is a host cell (usually _E. coli_) that has been successfully transformed with a **recombinant vector** — a vector carrying the gene of interest inserted into its multiple cloning site (MCS). These cells contain and can replicate the desired foreign DNA fragment.",
-      "ta": "மறுகூட்டிணைவு செல் (அல்லது மறுகூட்டிணைவு குளோன்) என்பது, பல்கிளை இணைப்புத் தளத்தில் (MCS) இலக்கு மரபணு செருகப்பட்ட **மறுகூட்டிணைவு தாங்கிக்கடத்தியால்** வெற்றிகரமாக டிரான்ஸ்ஃபார்ம் செய்யப்பட்ட ஓம்புயிரி செல் (பொதுவாக _E. coli_). இச்செல்கள் விரும்பிய அயல் DNA துண்டைக் கொண்டிருந்து பெருக்கவும் வல்லவை.",
+      "ta": "மறுகூட்டிணைவு செல் (அல்லது மறுகூட்டிணைவு குளோன்) என்பது, பல்கிளை இணைப்புத் தளத்தில் (MCS) இலக்கு மரபணு செருகப்பட்ட **மறுகூட்டிணைவு கடத்தியால்** வெற்றிகரமாக டிரான்ஸ்ஃபார்ம் செய்யப்பட்ட ஓம்புயிரி செல் (பொதுவாக _E. coli_). இச்செல்கள் விரும்பிய அயல் DNA துண்டைக் கொண்டிருந்து பெருக்கவும் வல்லவை.",
       "ta_status": "draft"
      }
     },
@@ -146,17 +146,17 @@
      "items": [
       {
        "en": "**Non-transformed cells** — did not take up any vector (majority of cells).",
-       "ta": "**டிரான்ஸ்ஃபார்ம் ஆகாத செல்கள்** — எந்தத் தாங்கிக்கடத்தியையும் ஏற்கவில்லை (பெரும்பான்மை செல்கள்).",
+       "ta": "**டிரான்ஸ்ஃபார்ம் ஆகாத செல்கள்** — எந்தக் கடத்தியையும் ஏற்கவில்லை (பெரும்பான்மை செல்கள்).",
        "ta_status": "draft"
       },
       {
        "en": "**Cells with re-ligated vector** — took up vector that re-circularised without insert.",
-       "ta": "**மீள் இணைந்த தாங்கிக்கடத்தி கொண்ட செல்கள்** — செருகு இல்லாமல் வட்டமாக மீண்டும் இணைந்த தாங்கிக்கடத்தியை ஏற்றவை.",
+       "ta": "**மீள் இணைந்த கடத்தி கொண்ட செல்கள்** — செருகு இல்லாமல் வட்டமாக மீண்டும் இணைந்த கடத்தியை ஏற்றவை.",
        "ta_status": "draft"
       },
       {
        "en": "**Cells with recombinant vector** — the desired transformants carrying the gene of interest.",
-       "ta": "**மறுகூட்டிணைவு தாங்கிக்கடத்தி கொண்ட செல்கள்** — இலக்கு மரபணுவைக் கொண்ட விரும்பிய டிரான்ஸ்ஃபார்மன்ட்கள்.",
+       "ta": "**மறுகூட்டிணைவு கடத்தி கொண்ட செல்கள்** — இலக்கு மரபணுவைக் கொண்ட விரும்பிய டிரான்ஸ்ஃபார்மன்ட்கள்.",
        "ta_status": "draft"
       }
      ]
@@ -210,7 +210,7 @@
      "items": [
       {
        "en": "**Direct Selection** — antibiotic resistance marker on vector; only transformed cells survive.",
-       "ta": "**நேரடித் தெரிவு** — தாங்கிக்கடத்தியில் ஆன்டிபயாடிக் எதிர்ப்புக் குறிப்பான்; டிரான்ஸ்ஃபார்ம் செய்யப்பட்ட செல்கள் மட்டுமே உயிர்வாழும்.",
+       "ta": "**நேரடித் தெரிவு** — கடத்தியில் ஆன்டிபயாடிக் எதிர்ப்புக் குறிப்பான்; டிரான்ஸ்ஃபார்ம் செய்யப்பட்ட செல்கள் மட்டுமே உயிர்வாழும்.",
        "ta_status": "draft"
       },
       {
@@ -254,7 +254,7 @@
      "type": "p",
      "text": {
       "en": "Direct selection is a method in which transformed host cells are identified by their ability to **grow on selective media** containing an antibiotic. Only cells that have taken up the vector (which carries an antibiotic resistance gene) survive; all non-transformed cells are killed.",
-      "ta": "நேரடித் தெரிவு என்பது, டிரான்ஸ்ஃபார்ம் செய்யப்பட்ட ஓம்புயிரி செல்களை ஆன்டிபயாடிக் கொண்ட **தெரிவு ஊடகத்தில்** வளரும் திறனால் அடையாளம் காணும் முறை. ஆன்டிபயாடிக் எதிர்ப்பு மரபணு கொண்ட தாங்கிக்கடத்தியை ஏற்ற செல்கள் மட்டுமே உயிர்வாழும்; டிரான்ஸ்ஃபார்ம் ஆகாத செல்கள் அனைத்தும் கொல்லப்படும்.",
+      "ta": "நேரடித் தெரிவு என்பது, டிரான்ஸ்ஃபார்ம் செய்யப்பட்ட ஓம்புயிரி செல்களை ஆன்டிபயாடிக் கொண்ட **தெரிவு ஊடகத்தில்** வளரும் திறனால் அடையாளம் காணும் முறை. ஆன்டிபயாடிக் எதிர்ப்பு மரபணு கொண்ட கடத்தியை ஏற்ற செல்கள் மட்டுமே உயிர்வாழும்; டிரான்ஸ்ஃபார்ம் ஆகாத செல்கள் அனைத்தும் கொல்லப்படும்.",
       "ta_status": "draft"
      }
     },
@@ -270,7 +270,7 @@
      "type": "p",
      "text": {
       "en": "The cloning vector carries a selectable marker gene — most commonly an antibiotic resistance gene such as **ampr** (ampicillin resistance) or **kanr** (kanamycin resistance). When transformed cells are plated on medium supplemented with the antibiotic:",
-      "ta": "குளோனாக்கத் தாங்கிக்கடத்தி தெரிவு குறிப்பான் மரபணுவைக் கொண்டிருக்கும் — பெரும்பாலும் **ampr** (ஆம்பிசிலின் எதிர்ப்பு) அல்லது **kanr** (கனாமைசின் எதிர்ப்பு) போன்ற ஆன்டிபயாடிக் எதிர்ப்பு மரபணு. டிரான்ஸ்ஃபார்ம் செய்யப்பட்ட செல்களை ஆன்டிபயாடிக் சேர்த்த ஊடகத்தில் பரப்பும்போது:",
+      "ta": "குளோனாக்கக் கடத்தி தெரிவு குறிப்பான் மரபணுவைக் கொண்டிருக்கும் — பெரும்பாலும் **ampr** (ஆம்பிசிலின் எதிர்ப்பு) அல்லது **kanr** (கனாமைசின் எதிர்ப்பு) போன்ற ஆன்டிபயாடிக் எதிர்ப்பு மரபணு. டிரான்ஸ்ஃபார்ம் செய்யப்பட்ட செல்களை ஆன்டிபயாடிக் சேர்த்த ஊடகத்தில் பரப்பும்போது:",
       "ta_status": "draft"
      }
     },
@@ -280,7 +280,7 @@
      "items": [
       {
        "en": "Cells that took up the vector express the resistance gene → **survive and form colonies**.",
-       "ta": "தாங்கிக்கடத்தியை ஏற்ற செல்கள் எதிர்ப்பு மரபணுவை வெளிப்படுத்தும் → **உயிர்வாழ்ந்து காலனிகளை உருவாக்கும்**.",
+       "ta": "கடத்தியை ஏற்ற செல்கள் எதிர்ப்பு மரபணுவை வெளிப்படுத்தும் → **உயிர்வாழ்ந்து காலனிகளை உருவாக்கும்**.",
        "ta_status": "draft"
       },
       {
@@ -304,7 +304,7 @@
      "items": [
       {
        "en": "Transform bacterial cells with the ligation mixture (contains recombinant + non-recombinant vectors + no vector).",
-       "ta": "பாக்டீரிய செல்களை இணைப்புக் கலவையுடன் (மறுகூட்டிணைவு + மறுகூட்டிணைவற்ற தாங்கிக்கடத்திகள் + தாங்கிக்கடத்தி இல்லாதவை) டிரான்ஸ்ஃபார்ம் செய்தல்.",
+       "ta": "பாக்டீரிய செல்களை இணைப்புக் கலவையுடன் (மறுகூட்டிணைவு + மறுகூட்டிணைவற்ற கடத்திகள் + கடத்தி இல்லாதவை) டிரான்ஸ்ஃபார்ம் செய்தல்.",
        "ta_status": "draft"
       },
       {
@@ -324,7 +324,7 @@
       },
       {
        "en": "Count and record colonies — **all surviving colonies are transformants** (carry the vector).",
-       "ta": "காலனிகளை எண்ணிப் பதிவு செய்தல் — **உயிர்வாழும் காலனிகள் அனைத்தும் டிரான்ஸ்ஃபார்மன்ட்கள்** (தாங்கிக்கடத்தி கொண்டவை).",
+       "ta": "காலனிகளை எண்ணிப் பதிவு செய்தல் — **உயிர்வாழும் காலனிகள் அனைத்தும் டிரான்ஸ்ஃபார்மன்ட்கள்** (கடத்தி கொண்டவை).",
        "ta_status": "draft"
       }
      ]
@@ -334,7 +334,7 @@
      "kind": "tip",
      "text": {
       "en": "**Important Limitation:** Direct selection only tells us that the cell has taken up _some_ vector. It does NOT distinguish between cells carrying the recombinant vector (with insert) and cells carrying the non-recombinant re-ligated vector (without insert). A second step — insertional inactivation, blue-white screening, or colony hybridisation — is always required.",
-      "ta": "**முக்கிய வரம்பு:** நேரடித் தெரிவு செல் _ஏதோ ஒரு_ தாங்கிக்கடத்தியை ஏற்றுள்ளது என்பதை மட்டுமே காட்டும். செருகு உள்ள மறுகூட்டிணைவு தாங்கிக்கடத்தி கொண்ட செல்களையும் செருகு இல்லாமல் மீள் இணைந்த மறுகூட்டிணைவற்ற தாங்கிக்கடத்தி கொண்ட செல்களையும் இது வேறுபடுத்தாது. உட்செருகுதல் செயலிழப்பு, நீல-வெள்ளைச் சலிக்கை அல்லது காலனிக் கலப்பினமாக்கல் ஆகிய இரண்டாம் படி எப்போதும் தேவை.",
+      "ta": "**முக்கிய வரம்பு:** நேரடித் தெரிவு செல் _ஏதோ ஒரு_ கடத்தியை ஏற்றுள்ளது என்பதை மட்டுமே காட்டும். செருகு உள்ள மறுகூட்டிணைவு கடத்தி கொண்ட செல்களையும் செருகு இல்லாமல் மீள் இணைந்த மறுகூட்டிணைவற்ற கடத்தி கொண்ட செல்களையும் இது வேறுபடுத்தாது. உட்செருகுதல் செயலிழப்பு, நீல-வெள்ளைச் சலிக்கை அல்லது காலனிக் கலப்பினமாக்கல் ஆகிய இரண்டாம் படி எப்போதும் தேவை.",
       "ta_status": "draft"
      }
     },
@@ -391,7 +391,7 @@
       },
       {
        "en": "Requires vector to carry an appropriate resistance marker gene.",
-       "ta": "தாங்கிக்கடத்தியில் தகுந்த எதிர்ப்புக் குறிப்பான் மரபணு இருக்க வேண்டும்.",
+       "ta": "கடத்தியில் தகுந்த எதிர்ப்புக் குறிப்பான் மரபணு இருக்க வேண்டும்.",
        "ta_status": "draft"
       },
       {
@@ -534,7 +534,7 @@
      "kind": "info",
      "text": {
       "en": "**Key Logic:** ampr, tets = recombinant (insert disrupted tetr). ampr, tetr = non-recombinant (vector re-ligated without insert).",
-      "ta": "**முக்கியத் தர்க்கம்:** ampr, tets = மறுகூட்டிணைவு (செருகு tetr-ஐச் சிதைத்தது). ampr, tetr = மறுகூட்டிணைவற்றது (செருகு இல்லாமல் தாங்கிக்கடத்தி மீள் இணைந்தது).",
+      "ta": "**முக்கியத் தர்க்கம்:** ampr, tets = மறுகூட்டிணைவு (செருகு tetr-ஐச் சிதைத்தது). ampr, tetr = மறுகூட்டிணைவற்றது (செருகு இல்லாமல் கடத்தி மீள் இணைந்தது).",
       "ta_status": "draft"
      }
     },
@@ -641,7 +641,7 @@
      "type": "p",
      "text": {
       "en": "Vectors used for blue-white screening (e.g., pUC19, pUC18) carry a fragment of the _E. coli_ **lacZ** gene encoding the **α-peptide** of β-galactosidase. The **Multiple Cloning Site (MCS)** is inserted within this lacZ-α fragment.",
-      "ta": "நீல-வெள்ளைச் சலிக்கைக்குப் பயன்படும் தாங்கிக்கடத்திகள் (எ.கா. pUC19, pUC18) β-கேலக்டோசிடேஸின் **α-பெப்டைடைக்** குறிக்கும் _E. coli_ **lacZ** மரபணுத் துண்டைக் கொண்டுள்ளன. **பல்கிளை இணைப்புத் தளம் (MCS)** இந்த lacZ-α துண்டினுள் அமைந்துள்ளது.",
+      "ta": "நீல-வெள்ளைச் சலிக்கைக்குப் பயன்படும் கடத்திகள் (எ.கா. pUC19, pUC18) β-கேலக்டோசிடேஸின் **α-பெப்டைடைக்** குறிக்கும் _E. coli_ **lacZ** மரபணுத் துண்டைக் கொண்டுள்ளன. **பல்கிளை இணைப்புத் தளம் (MCS)** இந்த lacZ-α துண்டினுள் அமைந்துள்ளது.",
       "ta_status": "draft"
      }
     },
@@ -651,7 +651,7 @@
      "items": [
       {
        "en": "When the vector has **no insert**: the lacZ-α sequence is intact → functional α-peptide is produced → in the presence of X-gal and IPTG, β-galactosidase cleaves X-gal → **blue product** → **blue colony**.",
-       "ta": "தாங்கிக்கடத்தியில் **செருகு இல்லாதபோது:** lacZ-α வரிசை சிதையாமல் இருக்கும் → செயல்படும் α-பெப்டைடு உருவாகும் → X-gal, IPTG முன்னிலையில் β-கேலக்டோசிடேஸ் X-gal-ஐப் பிளக்கும் → **நீலப் பொருள்** → **நீலக் காலனி**.",
+       "ta": "கடத்தியில் **செருகு இல்லாதபோது:** lacZ-α வரிசை சிதையாமல் இருக்கும் → செயல்படும் α-பெப்டைடு உருவாகும் → X-gal, IPTG முன்னிலையில் β-கேலக்டோசிடேஸ் X-gal-ஐப் பிளக்கும் → **நீலப் பொருள்** → **நீலக் காலனி**.",
        "ta_status": "draft"
       },
       {
@@ -680,7 +680,7 @@
       },
       {
        "en": "**IPTG** (Isopropyl β-D-1-thiogalactopyranoside): A synthetic, non-hydrolysable inducer of the _lac_ operon. It induces expression of the lacZ-α gene in the vector, ensuring β-galactosidase is produced in sufficient amounts to generate the blue colour.",
-       "ta": "**IPTG** (ஐசோபுரோபைல் β-D-தயோகேலக்டோபைரனோசைடு): _lac_ ஒபரானைத் தூண்டும் செயற்கை, நீராற்பகுக்க இயலாத தூண்டி. தாங்கிக்கடத்தியிலுள்ள lacZ-α மரபணு வெளிப்பாட்டைத் தூண்டி, நீல நிறம் உருவாகப் போதிய β-கேலக்டோசிடேஸ் உற்பத்தியை உறுதிசெய்கிறது.",
+       "ta": "**IPTG** (ஐசோபுரோபைல் β-D-தயோகேலக்டோபைரனோசைடு): _lac_ ஒபரானைத் தூண்டும் செயற்கை, நீராற்பகுக்க இயலாத தூண்டி. கடத்தியிலுள்ள lacZ-α மரபணு வெளிப்பாட்டைத் தூண்டி, நீல நிறம் உருவாகப் போதிய β-கேலக்டோசிடேஸ் உற்பத்தியை உறுதிசெய்கிறது.",
        "ta_status": "draft"
       }
      ]
@@ -707,7 +707,7 @@
      "items": [
       {
        "en": "Vector re-ligated **without insert**",
-       "ta": "தாங்கிக்கடத்தி **செருகு இல்லாமல்** மீள் இணைந்தது",
+       "ta": "கடத்தி **செருகு இல்லாமல்** மீள் இணைந்தது",
        "ta_status": "draft"
       },
       {
@@ -854,7 +854,7 @@
      "items": [
       {
        "en": "Requires specific vectors with lacZ-α fragment and MCS (e.g., pUC series).",
-       "ta": "lacZ-α துண்டும் MCS-உம் கொண்ட குறிப்பிட்ட தாங்கிக்கடத்திகள் (எ.கா. pUC தொடர்) தேவை.",
+       "ta": "lacZ-α துண்டும் MCS-உம் கொண்ட குறிப்பிட்ட கடத்திகள் (எ.கா. pUC தொடர்) தேவை.",
        "ta_status": "draft"
       },
       {
@@ -1544,7 +1544,7 @@
        },
        {
         "en": "Specific vector required; white ≠ necessarily correct insert",
-        "ta": "குறிப்பிட்ட தாங்கிக்கடத்தி தேவை; வெள்ளை என்பது அவசியம் சரியான செருகு அல்ல",
+        "ta": "குறிப்பிட்ட கடத்தி தேவை; வெள்ளை என்பது அவசியம் சரியான செருகு அல்ல",
         "ta_status": "draft"
        },
        {
@@ -1556,12 +1556,12 @@
       [
        {
         "en": "**Vector example**",
-        "ta": "**தாங்கிக்கடத்தி எடுத்துக்காட்டு**",
+        "ta": "**கடத்தி எடுத்துக்காட்டு**",
         "ta_status": "draft"
        },
        {
         "en": "pUC19, pBR322, any vector",
-        "ta": "pUC19, pBR322, எந்தத் தாங்கிக்கடத்தியும்",
+        "ta": "pUC19, pBR322, எந்தக் கடத்தியும்",
         "ta_status": "draft"
        },
        {
@@ -1576,7 +1576,7 @@
        },
        {
         "en": "Any cloning vector",
-        "ta": "எந்த குளோனாக்கத் தாங்கிக்கடத்தியும்",
+        "ta": "எந்த குளோனாக்கக் கடத்தியும்",
         "ta_status": "draft"
        }
       ],
@@ -1634,7 +1634,7 @@
      "items": [
       {
        "en": "1 🧬 Gene Cloning (Ligation) The gene of interest is ligated into a vector using restriction enzymes and T4 DNA ligase. The ligation mixture contains recombinant vectors, re-ligated vectors, and uncut vector.",
-       "ta": "1 🧬 மரபணு குளோனாக்கம் (இணைப்பு) இலக்கு மரபணு கட்டுப்பாட்டு நொதிகளும் T4 DNA லைகேசும் கொண்டு தாங்கிக்கடத்தியில் இணைக்கப்படுகிறது. இணைப்புக் கலவையில் மறுகூட்டிணைவு தாங்கிக்கடத்திகள், மீள் இணைந்த தாங்கிக்கடத்திகள், வெட்டப்படாத தாங்கிக்கடத்தி ஆகியவை இருக்கும்.",
+       "ta": "1 🧬 மரபணு குளோனாக்கம் (இணைப்பு) இலக்கு மரபணு கட்டுப்பாட்டு நொதிகளும் T4 DNA லைகேசும் கொண்டு கடத்தியில் இணைக்கப்படுகிறது. இணைப்புக் கலவையில் மறுகூட்டிணைவு கடத்திகள், மீள் இணைந்த கடத்திகள், வெட்டப்படாத கடத்தி ஆகியவை இருக்கும்.",
        "ta_status": "draft"
       }
      ]
@@ -1644,7 +1644,7 @@
      "items": [
       {
        "en": "2 🔄 Transformation into E. coli The ligation mixture is transformed into competent E. coli cells by heat shock (42°C) or electroporation. Only 1 in 10³–10⁵ cells takes up any vector.",
-       "ta": "2 🔄 E. coli-க்குள் டிரான்ஸ்ஃபார்மேஷன் இணைப்புக் கலவை வெப்ப அதிர்ச்சி (42°C) அல்லது மின்துளைப்பால் தகுதி பெற்ற E. coli செல்களுக்குள் டிரான்ஸ்ஃபார்ம் செய்யப்படுகிறது. 10³–10⁵ செல்களில் 1 மட்டுமே ஏதேனும் தாங்கிக்கடத்தியை ஏற்கும்.",
+       "ta": "2 🔄 E. coli-க்குள் டிரான்ஸ்ஃபார்மேஷன் இணைப்புக் கலவை வெப்ப அதிர்ச்சி (42°C) அல்லது மின்துளைப்பால் தகுதி பெற்ற E. coli செல்களுக்குள் டிரான்ஸ்ஃபார்ம் செய்யப்படுகிறது. 10³–10⁵ செல்களில் 1 மட்டுமே ஏதேனும் கடத்தியை ஏற்கும்.",
        "ta_status": "draft"
       }
      ]
@@ -1654,7 +1654,7 @@
      "items": [
       {
        "en": "3 💊 Direct Selection (Antibiotic) Cells are plated on LB + ampicillin. Non-transformed cells die. Only cells carrying the vector survive. This step reduces millions of cells to thousands of transformants.",
-       "ta": "3 💊 நேரடித் தெரிவு (ஆன்டிபயாடிக்) செல்கள் LB + ஆம்பிசிலின் தட்டில் பரப்பப்படும். டிரான்ஸ்ஃபார்ம் ஆகாத செல்கள் இறக்கும். தாங்கிக்கடத்தி கொண்ட செல்கள் மட்டுமே உயிர்வாழும். இப்படி மில்லியன் கணக்கான செல்கள் ஆயிரக்கணக்கான டிரான்ஸ்ஃபார்மன்ட்களாகக் குறையும்.",
+       "ta": "3 💊 நேரடித் தெரிவு (ஆன்டிபயாடிக்) செல்கள் LB + ஆம்பிசிலின் தட்டில் பரப்பப்படும். டிரான்ஸ்ஃபார்ம் ஆகாத செல்கள் இறக்கும். கடத்தி கொண்ட செல்கள் மட்டுமே உயிர்வாழும். இப்படி மில்லியன் கணக்கான செல்கள் ஆயிரக்கணக்கான டிரான்ஸ்ஃபார்மன்ட்களாகக் குறையும்.",
        "ta_status": "draft"
       }
      ]
@@ -1723,17 +1723,17 @@
      "items": [
       {
        "en": "Uses antibiotic resistance gene on the vector as a **selectable marker**.",
-       "ta": "தாங்கிக்கடத்தியிலுள்ள ஆன்டிபயாடிக் எதிர்ப்பு மரபணுவை **தெரிவு குறிப்பானாகப்** பயன்படுத்தும்.",
+       "ta": "கடத்தியிலுள்ள ஆன்டிபயாடிக் எதிர்ப்பு மரபணுவை **தெரிவு குறிப்பானாகப்** பயன்படுத்தும்.",
        "ta_status": "draft"
       },
       {
        "en": "Cells plated on antibiotic medium — only transformed cells (carrying vector) survive.",
-       "ta": "செல்கள் ஆன்டிபயாடிக் ஊடகத்தில் பரப்பப்படும் — டிரான்ஸ்ஃபார்ம் செய்யப்பட்ட (தாங்கிக்கடத்தி கொண்ட) செல்கள் மட்டுமே உயிர்வாழும்.",
+       "ta": "செல்கள் ஆன்டிபயாடிக் ஊடகத்தில் பரப்பப்படும் — டிரான்ஸ்ஃபார்ம் செய்யப்பட்ட (கடத்தி கொண்ட) செல்கள் மட்டுமே உயிர்வாழும்.",
        "ta_status": "draft"
       },
       {
        "en": "Result: all surviving colonies are transformants (have taken up some vector).",
-       "ta": "விளைவு: உயிர்வாழும் அனைத்துக் காலனிகளும் டிரான்ஸ்ஃபார்மன்ட்கள் (ஏதேனும் தாங்கிக்கடத்தியை ஏற்றவை).",
+       "ta": "விளைவு: உயிர்வாழும் அனைத்துக் காலனிகளும் டிரான்ஸ்ஃபார்மன்ட்கள் (ஏதேனும் கடத்தியை ஏற்றவை).",
        "ta_status": "draft"
       },
       {
@@ -1835,7 +1835,7 @@
      "items": [
       {
        "en": "Vector: pUC19 (or pUC18, pBluescript) — contains lacZ-α with MCS within it.",
-       "ta": "தாங்கிக்கடத்தி: pUC19 (அல்லது pUC18, pBluescript) — அதனுள் MCS உள்ள lacZ-α கொண்டது.",
+       "ta": "கடத்தி: pUC19 (அல்லது pUC18, pBluescript) — அதனுள் MCS உள்ள lacZ-α கொண்டது.",
        "ta_status": "draft"
       },
       {
@@ -1947,7 +1947,7 @@
      },
      "answer": {
       "en": "A bacterial colony derived from a single cell that has been transformed with a recombinant vector — a vector containing the gene of interest inserted into its cloning site. The colony contains many copies of the recombinant DNA.",
-      "ta": "இலக்கு மரபணு தன் குளோனாக்கத் தளத்தில் செருகப்பட்ட மறுகூட்டிணைவு தாங்கிக்கடத்தியால் டிரான்ஸ்ஃபார்ம் செய்யப்பட்ட ஒற்றைச் செல்லிலிருந்து தோன்றிய பாக்டீரியக் காலனி. இக்காலனி மறுகூட்டிணைவு DNA-வின் பல படிகளைக் கொண்டிருக்கும்.",
+      "ta": "இலக்கு மரபணு தன் குளோனாக்கத் தளத்தில் செருகப்பட்ட மறுகூட்டிணைவு கடத்தியால் டிரான்ஸ்ஃபார்ம் செய்யப்பட்ட ஒற்றைச் செல்லிலிருந்து தோன்றிய பாக்டீரியக் காலனி. இக்காலனி மறுகூட்டிணைவு DNA-வின் பல படிகளைக் கொண்டிருக்கும்.",
       "ta_status": "draft"
      }
     },
@@ -1960,7 +1960,7 @@
      },
      "answer": {
       "en": "A gene on the vector (usually an antibiotic resistance gene) used for selection — only cells carrying the vector survive on medium with the corresponding antibiotic. Examples: amp^r (ampicillin), kan^r (kanamycin), tet^r (tetracycline).",
-      "ta": "தெரிவுக்குப் பயன்படும் தாங்கிக்கடத்தியிலுள்ள மரபணு (பொதுவாக ஆன்டிபயாடிக் எதிர்ப்பு மரபணு) — தாங்கிக்கடத்தி கொண்ட செல்கள் மட்டுமே தொடர்புடைய ஆன்டிபயாடிக் ஊடகத்தில் உயிர்வாழும். எடுத்துக்காட்டுகள்: amp^r (ஆம்பிசிலின்), kan^r (கனாமைசின்), tet^r (டெட்ராசைக்ளின்).",
+      "ta": "தெரிவுக்குப் பயன்படும் கடத்தியிலுள்ள மரபணு (பொதுவாக ஆன்டிபயாடிக் எதிர்ப்பு மரபணு) — கடத்தி கொண்ட செல்கள் மட்டுமே தொடர்புடைய ஆன்டிபயாடிக் ஊடகத்தில் உயிர்வாழும். எடுத்துக்காட்டுகள்: amp^r (ஆம்பிசிலின்), kan^r (கனாமைசின்), tet^r (டெட்ராசைக்ளின்).",
       "ta_status": "draft"
      }
     },
@@ -1986,7 +1986,7 @@
      },
      "answer": {
       "en": "Gene encoding β-galactosidase in E. coli. In pUC vectors, the lacZ-α fragment (with MCS within it) is used for blue-white screening. When lacZ-α is disrupted by an insert, no functional β-galactosidase forms — colony remains white.",
-      "ta": "E. coli-இல் β-கேலக்டோசிடேஸைக் குறிக்கும் மரபணு. pUC தாங்கிக்கடத்திகளில் MCS-ஐத் தன்னுள் கொண்ட lacZ-α துண்டு நீல-வெள்ளைச் சலிக்கைக்குப் பயன்படும். செருகால் lacZ-α சிதைந்தால் செயல்படும் β-கேலக்டோசிடேஸ் உருவாகாது — காலனி வெள்ளையாகவே இருக்கும்.",
+      "ta": "E. coli-இல் β-கேலக்டோசிடேஸைக் குறிக்கும் மரபணு. pUC கடத்திகளில் MCS-ஐத் தன்னுள் கொண்ட lacZ-α துண்டு நீல-வெள்ளைச் சலிக்கைக்குப் பயன்படும். செருகால் lacZ-α சிதைந்தால் செயல்படும் β-கேலக்டோசிடேஸ் உருவாகாது — காலனி வெள்ளையாகவே இருக்கும்.",
       "ta_status": "draft"
      }
     },
@@ -2012,7 +2012,7 @@
      },
      "answer": {
       "en": "Isopropyl β-D-1-thiogalactopyranoside. A non-hydrolysable inducer of the lac operon. Induces expression of the lacZ-α gene in pUC vectors for blue-white screening. Added at 0.1 mM to blue-white plates alongside X-gal.",
-      "ta": "ஐசோபுரோபைல் β-D-தயோகேலக்டோபைரனோசைடு. lac ஒபரானின் நீராற்பகுக்க இயலாத தூண்டி. நீல-வெள்ளைச் சலிக்கையில் pUC தாங்கிக்கடத்திகளில் lacZ-α மரபணு வெளிப்பாட்டைத் தூண்டும். X-gal-உடன் நீல-வெள்ளைத் தட்டுகளில் 0.1 mM அளவில் சேர்க்கப்படும்.",
+      "ta": "ஐசோபுரோபைல் β-D-தயோகேலக்டோபைரனோசைடு. lac ஒபரானின் நீராற்பகுக்க இயலாத தூண்டி. நீல-வெள்ளைச் சலிக்கையில் pUC கடத்திகளில் lacZ-α மரபணு வெளிப்பாட்டைத் தூண்டும். X-gal-உடன் நீல-வெள்ளைத் தட்டுகளில் 0.1 mM அளவில் சேர்க்கப்படும்.",
       "ta_status": "draft"
      }
     },
@@ -2058,7 +2058,7 @@
      "type": "p",
      "text": {
       "en": "**Need for Screening**After transformation, all colony types look identical. Selection/screening is essential to identify cells with the correct recombinant vector among transformed and non-transformed cells.",
-      "ta": "**சலிக்கையின் தேவை**டிரான்ஸ்ஃபார்மேஷனுக்குப் பின் அனைத்துக் காலனி வகைகளும் ஒரே மாதிரி தெரியும். டிரான்ஸ்ஃபார்ம் ஆன, ஆகாத செல்களிடையே சரியான மறுகூட்டிணைவு தாங்கிக்கடத்தி கொண்ட செல்களை அடையாளம் காணத் தெரிவு/சலிக்கை இன்றியமையாதது.",
+      "ta": "**சலிக்கையின் தேவை**டிரான்ஸ்ஃபார்மேஷனுக்குப் பின் அனைத்துக் காலனி வகைகளும் ஒரே மாதிரி தெரியும். டிரான்ஸ்ஃபார்ம் ஆன, ஆகாத செல்களிடையே சரியான மறுகூட்டிணைவு கடத்தி கொண்ட செல்களை அடையாளம் காணத் தெரிவு/சலிக்கை இன்றியமையாதது.",
       "ta_status": "draft"
      }
     },
@@ -2074,7 +2074,7 @@
      "type": "p",
      "text": {
       "en": "**Direct Selection**Antibiotic resistance on vector. Only transformants survive. Does NOT distinguish recombinant from non-recombinant. FIRST step always.",
-      "ta": "**நேரடித் தெரிவு**தாங்கிக்கடத்தியில் ஆன்டிபயாடிக் எதிர்ப்பு. டிரான்ஸ்ஃபார்மன்ட்கள் மட்டுமே உயிர்வாழும். மறுகூட்டிணைவு – மறுகூட்டிணைவற்றவற்றை வேறுபடுத்தாது. எப்போதும் முதல் படி.",
+      "ta": "**நேரடித் தெரிவு**கடத்தியில் ஆன்டிபயாடிக் எதிர்ப்பு. டிரான்ஸ்ஃபார்மன்ட்கள் மட்டுமே உயிர்வாழும். மறுகூட்டிணைவு – மறுகூட்டிணைவற்றவற்றை வேறுபடுத்தாது. எப்போதும் முதல் படி.",
       "ta_status": "draft"
      }
     },
@@ -2090,7 +2090,7 @@
      "type": "p",
      "text": {
       "en": "**Blue-White Selection**pUC19 vector. Insert in MCS disrupts lacZ-α. Blue = non-recombinant (lacZ intact, X-gal cleaved). White = recombinant (lacZ disrupted). Needs X-gal + IPTG in medium.",
-      "ta": "**நீல-வெள்ளைத் தெரிவு**pUC19 தாங்கிக்கடத்தி. MCS-இல் செருகு lacZ-α-ஐச் சிதைக்கும். நீலம் = மறுகூட்டிணைவற்றது (lacZ சிதையவில்லை, X-gal பிளக்கப்பட்டது). வெள்ளை = மறுகூட்டிணைவு (lacZ சிதைந்தது). ஊடகத்தில் X-gal + IPTG தேவை.",
+      "ta": "**நீல-வெள்ளைத் தெரிவு**pUC19 கடத்தி. MCS-இல் செருகு lacZ-α-ஐச் சிதைக்கும். நீலம் = மறுகூட்டிணைவற்றது (lacZ சிதையவில்லை, X-gal பிளக்கப்பட்டது). வெள்ளை = மறுகூட்டிணைவு (lacZ சிதைந்தது). ஊடகத்தில் X-gal + IPTG தேவை.",
       "ta_status": "draft"
      }
     },
@@ -2138,7 +2138,7 @@
      "type": "p",
      "text": {
       "en": "**α-Complementation**In blue-white, the vector supplies lacZ-α fragment and the host (DH5α, JM109) supplies lacZ-ω. Together they form active β-galactosidase. Insert disrupts α-peptide → no complementation → white colony.",
-      "ta": "**α-நிரப்பல்**நீல-வெள்ளையில் தாங்கிக்கடத்தி lacZ-α துண்டையும் ஓம்புயிரி (DH5α, JM109) lacZ-ω-வையும் தருகிறது. இரண்டும் இணைந்து செயல்படும் β-கேலக்டோசிடேஸை உருவாக்கும். செருகு α-பெப்டைடைச் சிதைத்தால் நிரப்பல் இல்லை → வெள்ளைக் காலனி.",
+      "ta": "**α-நிரப்பல்**நீல-வெள்ளையில் கடத்தி lacZ-α துண்டையும் ஓம்புயிரி (DH5α, JM109) lacZ-ω-வையும் தருகிறது. இரண்டும் இணைந்து செயல்படும் β-கேலக்டோசிடேஸை உருவாக்கும். செருகு α-பெப்டைடைச் சிதைத்தால் நிரப்பல் இல்லை → வெள்ளைக் காலனி.",
       "ta_status": "draft"
      }
     },
@@ -2171,7 +2171,7 @@
      },
      "definition": {
       "en": "A cell or organism containing foreign DNA that has been introduced into its genome or as an episomal element. In gene cloning, a recombinant clone is a bacterial colony carrying a vector with the gene of interest inserted into its MCS.",
-      "ta": "அயல் DNA தன் மரபணுத்தொகையத்தில் அல்லது எபிசோமாக அறிமுகப்படுத்தப்பட்ட செல் அல்லது உயிரினம். மரபணு குளோனாக்கத்தில் மறுகூட்டிணைவு குளோன் என்பது தன் MCS-இல் இலக்கு மரபணு செருகப்பட்ட தாங்கிக்கடத்தி கொண்ட பாக்டீரியக் காலனி.",
+      "ta": "அயல் DNA தன் மரபணுத்தொகையத்தில் அல்லது எபிசோமாக அறிமுகப்படுத்தப்பட்ட செல் அல்லது உயிரினம். மரபணு குளோனாக்கத்தில் மறுகூட்டிணைவு குளோன் என்பது தன் MCS-இல் இலக்கு மரபணு செருகப்பட்ட கடத்தி கொண்ட பாக்டீரியக் காலனி.",
       "ta_status": "draft"
      }
     },
@@ -2184,7 +2184,7 @@
      },
      "definition": {
       "en": "A gene (typically an antibiotic resistance gene) on a cloning vector used to identify transformed host cells. Only cells expressing the marker gene survive on selective medium. Examples: amp^r, kan^r, tet^r, neo^r.",
-      "ta": "டிரான்ஸ்ஃபார்ம் செய்யப்பட்ட ஓம்புயிரி செல்களை அடையாளம் காணக் குளோனாக்கத் தாங்கிக்கடத்தியிலுள்ள மரபணு (பொதுவாக ஆன்டிபயாடிக் எதிர்ப்பு மரபணு). குறிப்பான் மரபணுவை வெளிப்படுத்தும் செல்கள் மட்டுமே தெரிவு ஊடகத்தில் உயிர்வாழும். எடுத்துக்காட்டுகள்: amp^r, kan^r, tet^r, neo^r.",
+      "ta": "டிரான்ஸ்ஃபார்ம் செய்யப்பட்ட ஓம்புயிரி செல்களை அடையாளம் காணக் குளோனாக்கக் கடத்தியிலுள்ள மரபணு (பொதுவாக ஆன்டிபயாடிக் எதிர்ப்பு மரபணு). குறிப்பான் மரபணுவை வெளிப்படுத்தும் செல்கள் மட்டுமே தெரிவு ஊடகத்தில் உயிர்வாழும். எடுத்துக்காட்டுகள்: amp^r, kan^r, tet^r, neo^r.",
       "ta_status": "draft"
      }
     },
@@ -2210,7 +2210,7 @@
      },
      "definition": {
       "en": "The E. coli gene encoding β-galactosidase. In pUC vectors, the lacZ-α fragment (with MCS within it) is used for blue-white screening. An insert in the MCS disrupts lacZ-α → no functional β-galactosidase → colony remains white (recombinant).",
-      "ta": "β-கேலக்டோசிடேஸைக் குறிக்கும் E. coli மரபணு. pUC தாங்கிக்கடத்திகளில் MCS-ஐத் தன்னுள் கொண்ட lacZ-α துண்டு நீல-வெள்ளைச் சலிக்கைக்குப் பயன்படும். MCS-இல் செருகு lacZ-α-ஐச் சிதைக்கும் → செயல்படும் β-கேலக்டோசிடேஸ் இல்லை → காலனி வெள்ளை (மறுகூட்டிணைவு).",
+      "ta": "β-கேலக்டோசிடேஸைக் குறிக்கும் E. coli மரபணு. pUC கடத்திகளில் MCS-ஐத் தன்னுள் கொண்ட lacZ-α துண்டு நீல-வெள்ளைச் சலிக்கைக்குப் பயன்படும். MCS-இல் செருகு lacZ-α-ஐச் சிதைக்கும் → செயல்படும் β-கேலக்டோசிடேஸ் இல்லை → காலனி வெள்ளை (மறுகூட்டிணைவு).",
       "ta_status": "draft"
      }
     },
@@ -2236,7 +2236,7 @@
      },
      "definition": {
       "en": "Isopropyl β-D-1-thiogalactopyranoside. A non-metabolisable inducer of the E. coli lac operon. Induces expression of lacZ-α in pUC vectors during blue-white screening, ensuring sufficient β-galactosidase production for a visible blue signal.",
-      "ta": "ஐசோபுரோபைல் β-D-தயோகேலக்டோபைரனோசைடு. E. coli lac ஒபரானின் வளர்சிதைமாற்றமாகாத தூண்டி. நீல-வெள்ளைச் சலிக்கையில் pUC தாங்கிக்கடத்திகளில் lacZ-α வெளிப்பாட்டைத் தூண்டி, பார்வைக்குத் தெரியும் நீலச் சைகைக்குப் போதிய β-கேலக்டோசிடேஸ் உற்பத்தியை உறுதிசெய்யும்.",
+      "ta": "ஐசோபுரோபைல் β-D-தயோகேலக்டோபைரனோசைடு. E. coli lac ஒபரானின் வளர்சிதைமாற்றமாகாத தூண்டி. நீல-வெள்ளைச் சலிக்கையில் pUC கடத்திகளில் lacZ-α வெளிப்பாட்டைத் தூண்டி, பார்வைக்குத் தெரியும் நீலச் சைகைக்குப் போதிய β-கேலக்டோசிடேஸ் உற்பத்தியை உறுதிசெய்யும்.",
       "ta_status": "draft"
      }
     },
@@ -2288,7 +2288,7 @@
      },
      "definition": {
       "en": "The reconstitution of functional β-galactosidase by combining the lacZ-α peptide (from pUC vector) with the lacZ-ω peptide (from host strain). An insert in the MCS disrupts lacZ-α → no complementation → no functional β-gal → white colony (recombinant).",
-      "ta": "lacZ-α பெப்டைடை (pUC தாங்கிக்கடத்தியிலிருந்து) lacZ-ω பெப்டைடுடன் (ஓம்புயிரித் திரிபிலிருந்து) இணைத்துச் செயல்படும் β-கேலக்டோசிடேஸை மீண்டும் உருவாக்குதல். MCS-இல் செருகு lacZ-α-ஐச் சிதைக்கும் → நிரப்பல் இல்லை → செயல்படும் β-gal இல்லை → வெள்ளைக் காலனி (மறுகூட்டிணைவு).",
+      "ta": "lacZ-α பெப்டைடை (pUC கடத்தியிலிருந்து) lacZ-ω பெப்டைடுடன் (ஓம்புயிரித் திரிபிலிருந்து) இணைத்துச் செயல்படும் β-கேலக்டோசிடேஸை மீண்டும் உருவாக்குதல். MCS-இல் செருகு lacZ-α-ஐச் சிதைக்கும் → நிரப்பல் இல்லை → செயல்படும் β-gal இல்லை → வெள்ளைக் காலனி (மறுகூட்டிணைவு).",
       "ta_status": "draft"
      }
     }
@@ -2334,7 +2334,7 @@
      "items": [
       {
        "en": "**Selection:** An active process where only cells with the desired property survive on selective medium; non-selected cells are eliminated. Example: plating transformed E. coli on ampicillin — only cells with the vector (carrying amp^r gene) survive; non-transformed cells die.",
-       "ta": "**தெரிவு:** விரும்பிய பண்புள்ள செல்கள் மட்டுமே தெரிவு ஊடகத்தில் உயிர்வாழ, பிற செல்கள் நீக்கப்படும் செயல்மிகு செயல்முறை. எ.கா: டிரான்ஸ்ஃபார்ம் செய்யப்பட்ட E. coli-ஐ ஆம்பிசிலினில் பரப்புதல் — தாங்கிக்கடத்தி (amp^r மரபணு) கொண்ட செல்கள் மட்டுமே உயிர்வாழும்; டிரான்ஸ்ஃபார்ம் ஆகாதவை இறக்கும்.",
+       "ta": "**தெரிவு:** விரும்பிய பண்புள்ள செல்கள் மட்டுமே தெரிவு ஊடகத்தில் உயிர்வாழ, பிற செல்கள் நீக்கப்படும் செயல்மிகு செயல்முறை. எ.கா: டிரான்ஸ்ஃபார்ம் செய்யப்பட்ட E. coli-ஐ ஆம்பிசிலினில் பரப்புதல் — கடத்தி (amp^r மரபணு) கொண்ட செல்கள் மட்டுமே உயிர்வாழும்; டிரான்ஸ்ஃபார்ம் ஆகாதவை இறக்கும்.",
        "ta_status": "draft"
       },
       {
@@ -2428,7 +2428,7 @@
      "items": [
       {
        "en": "Blue-white selection uses pUC vectors (e.g., pUC19) that carry the lacZ-α gene with the MCS inserted within it.",
-       "ta": "நீல-வெள்ளைத் தெரிவு, MCS-ஐத் தன்னுள் கொண்ட lacZ-α மரபணு உள்ள pUC தாங்கிக்கடத்திகளை (எ.கா. pUC19) பயன்படுத்தும்.",
+       "ta": "நீல-வெள்ளைத் தெரிவு, MCS-ஐத் தன்னுள் கொண்ட lacZ-α மரபணு உள்ள pUC கடத்திகளை (எ.கா. pUC19) பயன்படுத்தும்.",
        "ta_status": "draft"
       },
       {
@@ -2537,12 +2537,12 @@
      "items": [
       {
        "en": "**Insertional Inactivation:** Vector pBR322. Insert disrupts tet^r at BamHI site. Recombinants: amp^r, tet^s. Identified by REPLICA PLATING (negative result — absent from tet plate). Two plates needed. Takes 2 days. No special reagents.",
-       "ta": "**உட்செருகுதல் செயலிழப்பு:** தாங்கிக்கடத்தி pBR322. செருகு BamHI தளத்தில் tet^r-ஐச் சிதைக்கும். மறுகூட்டிணைவுகள்: amp^r, tet^s. **ரெப்ளிகா பிளேட்டிங்கால்** அடையாளம் (எதிர்மறை முடிவு — tet தட்டில் இல்லை). இரண்டு தட்டுகள் தேவை. 2 நாள்கள் ஆகும். சிறப்பு வினைப்பொருள்கள் தேவையில்லை.",
+       "ta": "**உட்செருகுதல் செயலிழப்பு:** கடத்தி pBR322. செருகு BamHI தளத்தில் tet^r-ஐச் சிதைக்கும். மறுகூட்டிணைவுகள்: amp^r, tet^s. **ரெப்ளிகா பிளேட்டிங்கால்** அடையாளம் (எதிர்மறை முடிவு — tet தட்டில் இல்லை). இரண்டு தட்டுகள் தேவை. 2 நாள்கள் ஆகும். சிறப்பு வினைப்பொருள்கள் தேவையில்லை.",
        "ta_status": "draft"
       },
       {
        "en": "**Blue-White Selection:** Vector pUC19. Insert disrupts lacZ-α at MCS. Recombinants: white colonies. Non-recombinants: blue colonies. Identified on SAME plate (positive visual result). One plate, one step. Requires X-gal + IPTG.",
-       "ta": "**நீல-வெள்ளைத் தெரிவு:** தாங்கிக்கடத்தி pUC19. செருகு MCS-இல் lacZ-α-ஐச் சிதைக்கும். மறுகூட்டிணைவுகள்: வெள்ளைக் காலனிகள். மறுகூட்டிணைவற்றவை: நீலக் காலனிகள். **அதே தட்டில்** அடையாளம் (நேர்மறைப் பார்வை முடிவு). ஒரு தட்டு, ஒரு படி. X-gal + IPTG தேவை.",
+       "ta": "**நீல-வெள்ளைத் தெரிவு:** கடத்தி pUC19. செருகு MCS-இல் lacZ-α-ஐச் சிதைக்கும். மறுகூட்டிணைவுகள்: வெள்ளைக் காலனிகள். மறுகூட்டிணைவற்றவை: நீலக் காலனிகள். **அதே தட்டில்** அடையாளம் (நேர்மறைப் பார்வை முடிவு). ஒரு தட்டு, ஒரு படி. X-gal + IPTG தேவை.",
        "ta_status": "draft"
       },
       {

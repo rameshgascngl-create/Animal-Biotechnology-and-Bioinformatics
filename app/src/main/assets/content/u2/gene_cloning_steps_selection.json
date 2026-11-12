@@ -115,7 +115,7 @@
      "type": "p",
      "text": {
       "en": "Gene cloning is the process of making multiple identical copies of a specific gene (or DNA segment) by inserting it into a **vector**, introducing the recombinant vector into a **host cell**, and allowing the host to replicate, producing millions of copies of the gene of interest.",
-      "ta": "மரபணு குளோனாக்கம் என்பது குறிப்பிட்ட மரபணுவை (அல்லது DNA துண்டை) **தாங்கிக்கடத்தியில்** செருகி, மறுகூட்டிணைவுத் தாங்கிக்கடத்தியை **ஓம்புயிரி செல்லுக்குள்** செலுத்தி, ஓம்புயிரி பெருகும்போது ஆர்வ மரபணுவின் மில்லியன் கணக்கான நகல்களைப் பெறும் செயல்முறை.",
+      "ta": "மரபணு குளோனாக்கம் என்பது குறிப்பிட்ட மரபணுவை (அல்லது DNA துண்டை) **கடத்தியில்** செருகி, மறுகூட்டிணைவுக் கடத்தியை **ஓம்புயிரி செல்லுக்குள்** செலுத்தி, ஓம்புயிரி பெருகும்போது ஆர்வ மரபணுவின் மில்லியன் கணக்கான நகல்களைப் பெறும் செயல்முறை.",
       "ta_status": "draft"
      }
     },
@@ -163,7 +163,7 @@
      "kind": "info",
      "text": {
       "en": "**Core Concept:** Gene cloning = _isolate_ the gene → _insert_ into a vector → _replicate_ in a host cell → _select_ successful recombinants → _use_ for desired purpose.",
-      "ta": "**மையக் கருத்து:** மரபணு குளோனாக்கம் = மரபணுவைத் _தனிமைப்படுத்து_ → தாங்கிக்கடத்தியில் _செருகு_ → ஓம்புயிரி செல்லில் _பெருக்கு_ → வெற்றிகரமான மறுகூட்டிணைவுகளைத் _தெரிவுசெய்_ → விரும்பிய நோக்குக்குப் _பயன்படுத்து_.",
+      "ta": "**மையக் கருத்து:** மரபணு குளோனாக்கம் = மரபணுவைத் _தனிமைப்படுத்து_ → கடத்தியில் _செருகு_ → ஓம்புயிரி செல்லில் _பெருக்கு_ → வெற்றிகரமான மறுகூட்டிணைவுகளைத் _தெரிவுசெய்_ → விரும்பிய நோக்குக்குப் _பயன்படுத்து_.",
       "ta_status": "draft"
      }
     },
@@ -179,7 +179,7 @@
      "type": "p",
      "text": {
       "en": "The gene of interest is treated as a **molecular \"passenger\"**. A vector (commonly a plasmid) acts as the **\"vehicle\"**. The passenger is loaded into the vehicle using restriction enzymes (cut) and DNA ligase (join). The vehicle enters a bacterial host cell, which divides millions of times — each daughter cell carrying an identical copy of the gene.",
-      "ta": "ஆர்வ மரபணு ஒரு **மூலக்கூறுப் “பயணியாக”** கருதப்படுகிறது. தாங்கிக்கடத்தி (பொதுவாகப் பிளாஸ்மிட்) **“வாகனமாகச்”** செயல்படுகிறது. ரெஸ்ட்ரிக்ஷன் நொதிகளால் (வெட்ட) DNA லைகேஸால் (இணைக்க) பயணி வாகனத்தில் ஏற்றப்படுகிறது. வாகனம் பாக்டீரிய ஓம்புயிரி செல்லுக்குள் நுழைகிறது; அது மில்லியன் முறை பகுப்படைகிறது — ஒவ்வொரு மகள் செல்லும் மரபணுவின் ஒத்த நகலைச் சுமக்கிறது.",
+      "ta": "ஆர்வ மரபணு ஒரு **மூலக்கூறுப் “பயணியாக”** கருதப்படுகிறது. கடத்தி (பொதுவாகப் பிளாஸ்மிட்) **“வாகனமாகச்”** செயல்படுகிறது. ரெஸ்ட்ரிக்ஷன் நொதிகளால் (வெட்ட) DNA லைகேஸால் (இணைக்க) பயணி வாகனத்தில் ஏற்றப்படுகிறது. வாகனம் பாக்டீரிய ஓம்புயிரி செல்லுக்குள் நுழைகிறது; அது மில்லியன் முறை பகுப்படைகிறது — ஒவ்வொரு மகள் செல்லும் மரபணுவின் ஒத்த நகலைச் சுமக்கிறது.",
       "ta_status": "draft"
      }
     }
@@ -215,7 +215,7 @@
      "type": "p",
      "text": {
       "en": "2. Vector A carrier DNA molecule — usually a **plasmid** or bacteriophage — that can replicate autonomously in a host cell. Must have: ori, selectable marker, restriction sites.",
-      "ta": "2. தாங்கிக்கடத்தி ஓம்புயிரி செல்லில் தானாகப் பெருகக்கூடிய, பொதுவாக **பிளாஸ்மிட்** அல்லது பாக்டீரியோஃபேஜ் ஆன ஒரு கடத்தி DNA மூலக்கூறு. இதில் ori, தேர்ந்தெடுக்கும் அடையாளக்குறி, ரெஸ்ட்ரிக்ஷன் இடங்கள் இருக்க வேண்டும்.",
+      "ta": "2. கடத்தி ஓம்புயிரி செல்லில் தானாகப் பெருகக்கூடிய, பொதுவாக **பிளாஸ்மிட்** அல்லது பாக்டீரியோஃபேஜ் ஆன ஒரு கடத்தி DNA மூலக்கூறு. இதில் ori, தேர்ந்தெடுக்கும் அடையாளக்குறி, ரெஸ்ட்ரிக்ஷன் இடங்கள் இருக்க வேண்டும்.",
       "ta_status": "draft"
      }
     },
@@ -223,7 +223,7 @@
      "type": "p",
      "text": {
       "en": "3. Restriction Enzymes **Molecular scissors** — endonucleases that recognise specific palindromic sequences and cut both strands of DNA at defined sites, producing compatible sticky or blunt ends on both insert and vector.",
-      "ta": "3. ரெஸ்ட்ரிக்ஷன் நொதிகள் **மூலக்கூறு கத்தரிகோல்கள்** — குறிப்பிட்ட முன்பின் ஒத்த வரிசைகளை அடையாளம் கண்டு DNA-வின் இரு இழைகளையும் வரையறுத்த இடங்களில் வெட்டி, செருகிக்கும் தாங்கிக்கடத்திக்கும் இணக்கமான ஒட்டும் அல்லது மழுங்கிய முனைகளை உருவாக்கும் எண்டோநியுக்ளியேசுகள்.",
+      "ta": "3. ரெஸ்ட்ரிக்ஷன் நொதிகள் **மூலக்கூறு கத்தரிகோல்கள்** — குறிப்பிட்ட முன்பின் ஒத்த வரிசைகளை அடையாளம் கண்டு DNA-வின் இரு இழைகளையும் வரையறுத்த இடங்களில் வெட்டி, செருகிக்கும் கடத்திக்கும் இணக்கமான ஒட்டும் அல்லது மழுங்கிய முனைகளை உருவாக்கும் எண்டோநியுக்ளியேசுகள்.",
       "ta_status": "draft"
      }
     },
@@ -231,7 +231,7 @@
      "type": "p",
      "text": {
       "en": "4. DNA Ligase **Molecular glue** — seals the phosphodiester bonds between the insert and linearised vector, joining them into a circular recombinant DNA molecule. T4 DNA ligase is most commonly used.",
-      "ta": "4. DNA லைகேஸ் **மூலக்கூறுப் பசை** — செருகிக்கும் நேர்கோட்டுத் தாங்கிக்கடத்திக்கும் இடையிலான பாஸ்போடைஎஸ்டர் பிணைப்புகளை அடைத்து, அவற்றை வட்ட மறுகூட்டிணைவு DNA மூலக்கூறாக இணைக்கும். T4 DNA லைகேஸ் மிகப் பரவலாகப் பயன்படுகிறது.",
+      "ta": "4. DNA லைகேஸ் **மூலக்கூறுப் பசை** — செருகிக்கும் நேர்கோட்டுக் கடத்திக்கும் இடையிலான பாஸ்போடைஎஸ்டர் பிணைப்புகளை அடைத்து, அவற்றை வட்ட மறுகூட்டிணைவு DNA மூலக்கூறாக இணைக்கும். T4 DNA லைகேஸ் மிகப் பரவலாகப் பயன்படுகிறது.",
       "ta_status": "draft"
      }
     },
@@ -239,7 +239,7 @@
      "type": "p",
      "text": {
       "en": "5. Host Cell Usually _Escherichia coli_ — a competent bacterial cell that takes up the recombinant vector and replicates it during cell division. Each cell propagates one recombinant clone.",
-      "ta": "5. ஓம்புயிரி செல் பொதுவாக _எஷெரிக்கியா கோலை_ — மறுகூட்டிணைவுத் தாங்கிக்கடத்தியை உள்ளெடுத்து செல் பகுப்பின்போது பெருக்கும் தகுதி பெற்ற பாக்டீரிய செல். ஒவ்வொரு செல்லும் ஒரு மறுகூட்டிணைவு குளோனைப் பெருக்குகிறது.",
+      "ta": "5. ஓம்புயிரி செல் பொதுவாக _எஷெரிக்கியா கோலை_ — மறுகூட்டிணைவுக் கடத்தியை உள்ளெடுத்து செல் பகுப்பின்போது பெருக்கும் தகுதி பெற்ற பாக்டீரிய செல். ஒவ்வொரு செல்லும் ஒரு மறுகூட்டிணைவு குளோனைப் பெருக்குகிறது.",
       "ta_status": "draft"
      }
     },
@@ -248,7 +248,7 @@
      "kind": "info",
      "text": {
       "en": "**Memory Aid:** _D_NA + _V_ector + _R_estriction enzymes + _L_igase + _H_ost = **DVRLH** — \"Do Very Real Lab Homework!\"",
-      "ta": "**நினைவுக் குறிப்பு:** DNA (மூலம்) + தாங்கிக்கடத்தி + ரெஸ்ட்ரிக்ஷன் நொதி + லைகேஸ் + ஓம்புயிரி = **5 கூறுகள்**.",
+      "ta": "**நினைவுக் குறிப்பு:** DNA (மூலம்) + கடத்தி + ரெஸ்ட்ரிக்ஷன் நொதி + லைகேஸ் + ஓம்புயிரி = **5 கூறுகள்**.",
       "ta_status": "draft"
      }
     }
@@ -342,7 +342,7 @@
      "type": "p",
      "text": {
       "en": "Both the **insert DNA** (gene of interest) and the **vector DNA** are digested with the _same restriction enzyme(s)_. This produces compatible ends:",
-      "ta": "**செருகி DNA** (ஆர்வ மரபணு), **தாங்கிக்கடத்தி DNA** இரண்டும் _ஒரே ரெஸ்ட்ரிக்ஷன் நொதி(கள்)_ கொண்டு செரிக்கப்படுகின்றன. இதனால் இணக்கமான முனைகள் உருவாகின்றன:",
+      "ta": "**செருகி DNA** (ஆர்வ மரபணு), **கடத்தி DNA** இரண்டும் _ஒரே ரெஸ்ட்ரிக்ஷன் நொதி(கள்)_ கொண்டு செரிக்கப்படுகின்றன. இதனால் இணக்கமான முனைகள் உருவாகின்றன:",
       "ta_status": "draft"
      }
     },
@@ -352,7 +352,7 @@
      "items": [
       {
        "en": "**Sticky ends** (overhangs) — most common; produced by enzymes like EcoRI, BamHI. Complementary overhangs on insert and vector allow them to anneal by hydrogen bonding.",
-       "ta": "**ஒட்டும் முனைகள்** (நீட்டிப்பு முனைகள்) — மிகப் பொதுவானவை; EcoRI, BamHI போன்ற நொதிகளால் உருவாகின்றன. செருகியிலும் தாங்கிக்கடத்தியிலும் உள்ள நிரப்பு நீட்டிப்புகள் ஹைட்ரஜன் பிணைப்பால் இணைய (அனீலிங்) உதவுகின்றன.",
+       "ta": "**ஒட்டும் முனைகள்** (நீட்டிப்பு முனைகள்) — மிகப் பொதுவானவை; EcoRI, BamHI போன்ற நொதிகளால் உருவாகின்றன. செருகியிலும் கடத்தியிலும் உள்ள நிரப்பு நீட்டிப்புகள் ஹைட்ரஜன் பிணைப்பால் இணைய (அனீலிங்) உதவுகின்றன.",
        "ta_status": "draft"
       },
       {
@@ -367,7 +367,7 @@
      "kind": "info",
      "text": {
       "en": "Using the same restriction enzyme on both insert and vector guarantees **compatible cohesive ends** — essential for efficient ligation.",
-      "ta": "செருகி, தாங்கிக்கடத்தி இரண்டிலும் ஒரே ரெஸ்ட்ரிக்ஷன் நொதியைப் பயன்படுத்துவது **இணக்கமான ஒட்டும் முனைகளை** உறுதிசெய்கிறது — திறமையான லைகேஷனுக்கு இன்றியமையாதது.",
+      "ta": "செருகி, கடத்தி இரண்டிலும் ஒரே ரெஸ்ட்ரிக்ஷன் நொதியைப் பயன்படுத்துவது **இணக்கமான ஒட்டும் முனைகளை** உறுதிசெய்கிறது — திறமையான லைகேஷனுக்கு இன்றியமையாதது.",
       "ta_status": "draft"
      }
     },
@@ -383,7 +383,7 @@
      "type": "p",
      "text": {
       "en": "Preparation of Vector DNA",
-      "ta": "தாங்கிக்கடத்தி DNA தயாரிப்பு",
+      "ta": "கடத்தி DNA தயாரிப்பு",
       "ta_status": "draft"
      }
     },
@@ -393,17 +393,17 @@
      "items": [
       {
        "en": "The vector (e.g., pBR322, pUC19) is **linearised** by digestion with the same restriction enzyme used on the insert.",
-       "ta": "தாங்கிக்கடத்தி (எ.கா. pBR322, pUC19) செருகியில் பயன்படுத்திய அதே ரெஸ்ட்ரிக்ஷன் நொதியால் செரிக்கப்பட்டு **நேர்கோட்டாக்கப்படுகிறது**.",
+       "ta": "கடத்தி (எ.கா. pBR322, pUC19) செருகியில் பயன்படுத்திய அதே ரெஸ்ட்ரிக்ஷன் நொதியால் செரிக்கப்பட்டு **நேர்கோட்டாக்கப்படுகிறது**.",
        "ta_status": "draft"
       },
       {
        "en": "Optional: the vector may be **dephosphorylated** using alkaline phosphatase to prevent self-ligation (recircularisation without insert), improving recombinant efficiency.",
-       "ta": "விருப்பத்தேர்வு: தாங்கிக்கடத்தி தானே இணைவதை (செருகியின்றி மீண்டும் வட்டமாதல்) தடுக்கவும் மறுகூட்டிணைவுத் திறனை உயர்த்தவும் அல்கலைன் பாஸ்படேசால் **பாஸ்பேட் நீக்கம்** செய்யலாம்.",
+       "ta": "விருப்பத்தேர்வு: கடத்தி தானே இணைவதை (செருகியின்றி மீண்டும் வட்டமாதல்) தடுக்கவும் மறுகூட்டிணைவுத் திறனை உயர்த்தவும் அல்கலைன் பாஸ்படேசால் **பாஸ்பேட் நீக்கம்** செய்யலாம்.",
        "ta_status": "draft"
       },
       {
        "en": "The linearised vector has two free ends with cohesive sequences complementary to the insert ends.",
-       "ta": "நேர்கோட்டாக்கிய தாங்கிக்கடத்தியில் செருகியின் முனைகளுக்கு நிரப்பான ஒட்டும் வரிசைகளுடன் இரண்டு தனி முனைகள் உள்ளன.",
+       "ta": "நேர்கோட்டாக்கிய கடத்தியில் செருகியின் முனைகளுக்கு நிரப்பான ஒட்டும் வரிசைகளுடன் இரண்டு தனி முனைகள் உள்ளன.",
        "ta_status": "draft"
       }
      ]
@@ -420,7 +420,7 @@
      "type": "p",
      "text": {
       "en": "Ligation: Joining Insert and Vector",
-      "ta": "லைகேஷன்: செருகியையும் தாங்கிக்கடத்தியையும் இணைத்தல்",
+      "ta": "லைகேஷன்: செருகியையும் கடத்தியையும் இணைத்தல்",
       "ta_status": "draft"
      }
     },
@@ -428,7 +428,7 @@
      "type": "p",
      "text": {
       "en": "The insert and linearised vector are mixed together. The compatible **sticky ends anneal** (hydrogen bonds between complementary bases). **T4 DNA ligase** then seals the phosphodiester bonds between the 3'-OH and 5'-phosphate ends, covalently joining the insert into the vector.",
-      "ta": "செருகியும் நேர்கோட்டுத் தாங்கிக்கடத்தியும் ஒன்றாகக் கலக்கப்படுகின்றன. இணக்கமான **ஒட்டும் முனைகள் இணைகின்றன** (நிரப்புக் காரங்களுக்கிடையே ஹைட்ரஜன் பிணைப்புகள்). **T4 DNA லைகேஸ்** பின் 3'-OH, 5'-பாஸ்பேட் முனைகளுக்கிடையே பாஸ்போடைஎஸ்டர் பிணைப்புகளை அடைத்து, செருகியைத் தாங்கிக்கடத்தியுடன் கோவலன்ட் முறையில் இணைக்கிறது.",
+      "ta": "செருகியும் நேர்கோட்டுக் கடத்தியும் ஒன்றாகக் கலக்கப்படுகின்றன. இணக்கமான **ஒட்டும் முனைகள் இணைகின்றன** (நிரப்புக் காரங்களுக்கிடையே ஹைட்ரஜன் பிணைப்புகள்). **T4 DNA லைகேஸ்** பின் 3'-OH, 5'-பாஸ்பேட் முனைகளுக்கிடையே பாஸ்போடைஎஸ்டர் பிணைப்புகளை அடைத்து, செருகியைக் கடத்தியுடன் கோவலன்ட் முறையில் இணைக்கிறது.",
       "ta_status": "draft"
      }
     },
@@ -478,12 +478,12 @@
      "items": [
       {
        "en": "**Recombinant vector** — vector containing the foreign insert (desired product).",
-       "ta": "**மறுகூட்டிணைவுத் தாங்கிக்கடத்தி** — அந்நியச் செருகியைக் கொண்ட தாங்கிக்கடத்தி (விரும்பிய விளைபொருள்).",
+       "ta": "**மறுகூட்டிணைவுக் கடத்தி** — அந்நியச் செருகியைக் கொண்ட கடத்தி (விரும்பிய விளைபொருள்).",
        "ta_status": "draft"
       },
       {
        "en": "**Re-ligated vector** — vector that recircularised without insert (background).",
-       "ta": "**மீள்இணைந்த தாங்கிக்கடத்தி** — செருகியின்றி மீண்டும் வட்டமான தாங்கிக்கடத்தி (பின்னணி).",
+       "ta": "**மீள்இணைந்த கடத்தி** — செருகியின்றி மீண்டும் வட்டமான கடத்தி (பின்னணி).",
        "ta_status": "draft"
       },
       {
@@ -546,7 +546,7 @@
      "kind": "info",
      "text": {
       "en": "Not all cells take up the vector — typically only 1 in 10³–10⁵ cells is successfully transformed. Selection is therefore essential.",
-      "ta": "அனைத்துச் செல்களும் தாங்கிக்கடத்தியை உள்ளெடுப்பதில்லை — பொதுவாக 10³–10⁵ செல்களில் 1 மட்டுமே வெற்றிகரமாக மாற்றப்படுகிறது. எனவே தெரிவு இன்றியமையாதது.",
+      "ta": "அனைத்துச் செல்களும் கடத்தியை உள்ளெடுப்பதில்லை — பொதுவாக 10³–10⁵ செல்களில் 1 மட்டுமே வெற்றிகரமாக மாற்றப்படுகிறது. எனவே தெரிவு இன்றியமையாதது.",
       "ta_status": "draft"
      }
     },
@@ -580,7 +580,7 @@
      "items": [
       {
        "en": "Each colony contains millions of copies of the recombinant vector (and hence the cloned gene).",
-       "ta": "ஒவ்வொரு குழுமமும் மறுகூட்டிணைவுத் தாங்கிக்கடத்தியின் (எனவே குளோனாக்கிய மரபணுவின்) மில்லியன் கணக்கான நகல்களைக் கொண்டுள்ளது.",
+       "ta": "ஒவ்வொரு குழுமமும் மறுகூட்டிணைவுக் கடத்தியின் (எனவே குளோனாக்கிய மரபணுவின்) மில்லியன் கணக்கான நகல்களைக் கொண்டுள்ளது.",
        "ta_status": "draft"
       },
       {
@@ -671,7 +671,7 @@
      "type": "p",
      "text": {
       "en": "After transformation, only a small fraction of bacterial cells actually take up the recombinant vector. The transformation mixture contains:",
-      "ta": "தகவல் பரிமாற்றத்துக்குப் பின் பாக்டீரிய செல்களில் மிகச் சிறு பகுதியே மறுகூட்டிணைவுத் தாங்கிக்கடத்தியை உள்ளெடுக்கிறது. தகவல் பரிமாற்றக் கலவையில் உள்ளவை:",
+      "ta": "தகவல் பரிமாற்றத்துக்குப் பின் பாக்டீரிய செல்களில் மிகச் சிறு பகுதியே மறுகூட்டிணைவுக் கடத்தியை உள்ளெடுக்கிறது. தகவல் பரிமாற்றக் கலவையில் உள்ளவை:",
       "ta_status": "draft"
      }
     },
@@ -681,17 +681,17 @@
      "items": [
       {
        "en": "**Non-transformed cells** — did not take up any vector (majority).",
-       "ta": "**மாற்றப்படாத செல்கள்** — எந்தத் தாங்கிக்கடத்தியையும் உள்ளெடுக்கவில்லை (பெரும்பான்மை).",
+       "ta": "**மாற்றப்படாத செல்கள்** — எந்தக் கடத்தியையும் உள்ளெடுக்கவில்லை (பெரும்பான்மை).",
        "ta_status": "draft"
       },
       {
        "en": "**Cells with re-ligated vector** — took up vector that re-circularised without insert.",
-       "ta": "**மீள்இணைந்த தாங்கிக்கடத்தி கொண்ட செல்கள்** — செருகியின்றி மீண்டும் வட்டமான தாங்கிக்கடத்தியை உள்ளெடுத்தவை.",
+       "ta": "**மீள்இணைந்த கடத்தி கொண்ட செல்கள்** — செருகியின்றி மீண்டும் வட்டமான கடத்தியை உள்ளெடுத்தவை.",
        "ta_status": "draft"
       },
       {
        "en": "**Cells with recombinant vector** — took up vector containing the gene of interest (desired).",
-       "ta": "**மறுகூட்டிணைவுத் தாங்கிக்கடத்தி கொண்ட செல்கள்** — ஆர்வ மரபணுவுள்ள தாங்கிக்கடத்தியை உள்ளெடுத்தவை (விரும்பியவை).",
+       "ta": "**மறுகூட்டிணைவுக் கடத்தி கொண்ட செல்கள்** — ஆர்வ மரபணுவுள்ள கடத்தியை உள்ளெடுத்தவை (விரும்பியவை).",
        "ta_status": "draft"
       }
      ]
@@ -717,7 +717,7 @@
      "type": "p",
      "text": {
       "en": "**Principle:** Vectors carry antibiotic resistance genes (e.g., _ampr_ for ampicillin resistance in pBR322). Only cells that have successfully taken up the vector will carry this resistance gene and survive on antibiotic-containing agar.",
-      "ta": "**கோட்பாடு:** தாங்கிக்கடத்திகள் ஆன்டிபயாடிக் எதிர்ப்பு மரபணுக்களைக் கொண்டுள்ளன (எ.கா. pBR322-இல் ஆம்பிசிலின் எதிர்ப்புக்கு _ampr_). தாங்கிக்கடத்தியை வெற்றிகரமாக உள்ளெடுத்த செல்கள் மட்டுமே இவ்வெதிர்ப்பு மரபணுவைச் சுமந்து ஆன்டிபயாடிக் அகாரில் உயிர்பிழைக்கும்.",
+      "ta": "**கோட்பாடு:** கடத்திகள் ஆன்டிபயாடிக் எதிர்ப்பு மரபணுக்களைக் கொண்டுள்ளன (எ.கா. pBR322-இல் ஆம்பிசிலின் எதிர்ப்புக்கு _ampr_). கடத்தியை வெற்றிகரமாக உள்ளெடுத்த செல்கள் மட்டுமே இவ்வெதிர்ப்பு மரபணுவைச் சுமந்து ஆன்டிபயாடிக் அகாரில் உயிர்பிழைக்கும்.",
       "ta_status": "draft"
      }
     },
@@ -732,7 +732,7 @@
       },
       {
        "en": "Only cells that took up the vector (carrying _ampr_) grow → they are **transformants**.",
-       "ta": "தாங்கிக்கடத்தியை (_ampr_ கொண்டது) உள்ளெடுத்த செல்கள் மட்டுமே வளரும் → அவை **தகவல் பரிமாற்றம் அடைந்த செல்கள் (transformants)**.",
+       "ta": "கடத்தியை (_ampr_ கொண்டது) உள்ளெடுத்த செல்கள் மட்டுமே வளரும் → அவை **தகவல் பரிமாற்றம் அடைந்த செல்கள் (transformants)**.",
        "ta_status": "draft"
       },
       {
@@ -759,7 +759,7 @@
      "type": "p",
      "text": {
       "en": "Using pBR322 as an example: the vector carries both _ampr_ and _tetr_ (tetracycline resistance) genes. When the gene of interest is cloned into a restriction site _within_ the _tetr_ gene, the tetracycline resistance is **disrupted**.",
-      "ta": "pBR322-ஐ எடுத்துக்காட்டாகக் கொள்வோம்: தாங்கிக்கடத்தியில் _ampr_, _tetr_ (டெட்ராசைக்ளின் எதிர்ப்பு) ஆகிய இரு மரபணுக்களும் உள்ளன. ஆர்வ மரபணு _tetr_ மரபணுவுக்கு _உள்ளே_ உள்ள ரெஸ்ட்ரிக்ஷன் இடத்தில் குளோனாக்கப்பட்டால், டெட்ராசைக்ளின் எதிர்ப்பு **சிதைகிறது**.",
+      "ta": "pBR322-ஐ எடுத்துக்காட்டாகக் கொள்வோம்: கடத்தியில் _ampr_, _tetr_ (டெட்ராசைக்ளின் எதிர்ப்பு) ஆகிய இரு மரபணுக்களும் உள்ளன. ஆர்வ மரபணு _tetr_ மரபணுவுக்கு _உள்ளே_ உள்ள ரெஸ்ட்ரிக்ஷன் இடத்தில் குளோனாக்கப்பட்டால், டெட்ராசைக்ளின் எதிர்ப்பு **சிதைகிறது**.",
       "ta_status": "draft"
      }
     },
@@ -796,7 +796,7 @@
      "type": "p",
      "text": {
       "en": "Used with vectors like pUC19 that contain the _lacZ_ gene (encoding β-galactosidase) with an MCS (multiple cloning site) within the _lacZ_ coding sequence.",
-      "ta": "_lacZ_ மரபணுவை (β-கேலக்டோசிடேசைக் குறியீடு செய்வது) கொண்ட pUC19 போன்ற தாங்கிக்கடத்திகளுடன் பயன்படுகிறது; அதன் _lacZ_ குறியீட்டு வரிசைக்குள் MCS (பன்மை குளோனாக்க இடம்) உள்ளது.",
+      "ta": "_lacZ_ மரபணுவை (β-கேலக்டோசிடேசைக் குறியீடு செய்வது) கொண்ட pUC19 போன்ற கடத்திகளுடன் பயன்படுகிறது; அதன் _lacZ_ குறியீட்டு வரிசைக்குள் MCS (பன்மை குளோனாக்க இடம்) உள்ளது.",
       "ta_status": "draft"
      }
     },
@@ -1121,7 +1121,7 @@
      "items": [
       {
        "en": "2 ✂️ Restriction Digestion of DNA and Vector Both the insert DNA and the vector plasmid are cut with the same restriction enzyme. This produces compatible sticky ends on both molecules, allowing them to anneal later.",
-       "ta": "2 ✂️ DNA, தாங்கிக்கடத்தியின் ரெஸ்ட்ரிக்ஷன் செரித்தல் செருகி DNA, தாங்கிக்கடத்திப் பிளாஸ்மிட் இரண்டும் ஒரே ரெஸ்ட்ரிக்ஷன் நொதியால் வெட்டப்படுகின்றன. இதனால் இரு மூலக்கூறுகளிலும் இணக்கமான ஒட்டும் முனைகள் உருவாகி, பின் இணைய உதவுகின்றன.",
+       "ta": "2 ✂️ DNA, கடத்தியின் ரெஸ்ட்ரிக்ஷன் செரித்தல் செருகி DNA, கடத்திப் பிளாஸ்மிட் இரண்டும் ஒரே ரெஸ்ட்ரிக்ஷன் நொதியால் வெட்டப்படுகின்றன. இதனால் இரு மூலக்கூறுகளிலும் இணக்கமான ஒட்டும் முனைகள் உருவாகி, பின் இணைய உதவுகின்றன.",
        "ta_status": "draft"
       }
      ]
@@ -1131,7 +1131,7 @@
      "items": [
       {
        "en": "3 🔗 Ligation: Insert + Vector T4 DNA ligase joins the insert and linearised vector by sealing the phosphodiester bonds between compatible sticky ends. Result: circular recombinant DNA molecule.",
-       "ta": "3 🔗 லைகேஷன்: செருகி + தாங்கிக்கடத்தி T4 DNA லைகேஸ் இணக்கமான ஒட்டும் முனைகளுக்கிடையே பாஸ்போடைஎஸ்டர் பிணைப்புகளை அடைத்துச் செருகியையும் நேர்கோட்டுத் தாங்கிக்கடத்தியையும் இணைக்கிறது. விளைவு: வட்ட மறுகூட்டிணைவு DNA மூலக்கூறு.",
+       "ta": "3 🔗 லைகேஷன்: செருகி + கடத்தி T4 DNA லைகேஸ் இணக்கமான ஒட்டும் முனைகளுக்கிடையே பாஸ்போடைஎஸ்டர் பிணைப்புகளை அடைத்துச் செருகியையும் நேர்கோட்டுக் கடத்தியையும் இணைக்கிறது. விளைவு: வட்ட மறுகூட்டிணைவு DNA மூலக்கூறு.",
        "ta_status": "draft"
       }
      ]
@@ -1216,12 +1216,12 @@
        },
        {
         "en": "Identification of cells that took up the vector (any vector)",
-        "ta": "தாங்கிக்கடத்தியை (எதுவாயினும்) உள்ளெடுத்த செல்களை அடையாளம் காணுதல்",
+        "ta": "கடத்தியை (எதுவாயினும்) உள்ளெடுத்த செல்களை அடையாளம் காணுதல்",
         "ta_status": "draft"
        },
        {
         "en": "Identification of cells with the correct recombinant vector (with insert)",
-        "ta": "சரியான மறுகூட்டிணைவுத் தாங்கிக்கடத்தி (செருகியுடன்) உள்ள செல்களை அடையாளம் காணுதல்",
+        "ta": "சரியான மறுகூட்டிணைவுக் கடத்தி (செருகியுடன்) உள்ள செல்களை அடையாளம் காணுதல்",
         "ta_status": "draft"
        }
       ],
@@ -1282,12 +1282,12 @@
        },
        {
         "en": "Presence of the vector (antibiotic resistance marker)",
-        "ta": "தாங்கிக்கடத்தியின் இருப்பு (ஆன்டிபயாடிக் எதிர்ப்பு அடையாளக்குறி)",
+        "ta": "கடத்தியின் இருப்பு (ஆன்டிபயாடிக் எதிர்ப்பு அடையாளக்குறி)",
         "ta_status": "draft"
        },
        {
         "en": "Presence of insert within the vector (disruption of lacZ or tetr)",
-        "ta": "தாங்கிக்கடத்திக்குள் செருகியின் இருப்பு (lacZ அல்லது tetr சிதைவு)",
+        "ta": "கடத்திக்குள் செருகியின் இருப்பு (lacZ அல்லது tetr சிதைவு)",
         "ta_status": "bracketed"
        }
       ],
@@ -1299,12 +1299,12 @@
        },
        {
         "en": "Cells now contain the recombinant vector",
-        "ta": "செல்களில் இப்போது மறுகூட்டிணைவுத் தாங்கிக்கடத்தி உள்ளது",
+        "ta": "செல்களில் இப்போது மறுகூட்டிணைவுக் கடத்தி உள்ளது",
         "ta_status": "draft"
        },
        {
         "en": "Surviving colonies all carry the vector",
-        "ta": "உயிர்பிழைக்கும் குழுமங்கள் அனைத்தும் தாங்கிக்கடத்தியைச் சுமக்கின்றன",
+        "ta": "உயிர்பிழைக்கும் குழுமங்கள் அனைத்தும் கடத்தியைச் சுமக்கின்றன",
         "ta_status": "draft"
        },
        {
@@ -1375,7 +1375,7 @@
      "type": "p",
      "text": {
       "en": "**✂️ Why Must the Same Restriction Enzyme Be Used on Insert and Vector?**",
-      "ta": "**✂️ செருகியிலும் தாங்கிக்கடத்தியிலும் ஒரே ரெஸ்ட்ரிக்ஷன் நொதி ஏன் பயன்படுத்தப்பட வேண்டும்?**",
+      "ta": "**✂️ செருகியிலும் கடத்தியிலும் ஒரே ரெஸ்ட்ரிக்ஷன் நொதி ஏன் பயன்படுத்தப்பட வேண்டும்?**",
       "ta_status": "draft"
      }
     },
@@ -1391,7 +1391,7 @@
      "type": "p",
      "text": {
       "en": "Using the same restriction enzyme on both insert and vector ensures they both have **complementary cohesive (sticky) ends**. For example, if EcoRI is used on both, the insert ends with 5'-AATT overhangs and the vector ends with 5'-AATT overhangs — these can anneal by hydrogen bonding before DNA ligase seals them.",
-      "ta": "செருகி, தாங்கிக்கடத்தி இரண்டிலும் ஒரே ரெஸ்ட்ரிக்ஷன் நொதியைப் பயன்படுத்துவது இரண்டுக்கும் **நிரப்பான ஒட்டும் (இணைவு) முனைகள்** இருப்பதை உறுதிசெய்கிறது. எ.கா. இரண்டிலும் EcoRI பயன்படுத்தினால், செருகி முனைகளிலும் தாங்கிக்கடத்தி முனைகளிலும் 5'-AATT நீட்டிப்புகள் இருக்கும் — DNA லைகேஸ் அடைப்பதற்கு முன் இவை ஹைட்ரஜன் பிணைப்பால் இணையும்.",
+      "ta": "செருகி, கடத்தி இரண்டிலும் ஒரே ரெஸ்ட்ரிக்ஷன் நொதியைப் பயன்படுத்துவது இரண்டுக்கும் **நிரப்பான ஒட்டும் (இணைவு) முனைகள்** இருப்பதை உறுதிசெய்கிறது. எ.கா. இரண்டிலும் EcoRI பயன்படுத்தினால், செருகி முனைகளிலும் கடத்தி முனைகளிலும் 5'-AATT நீட்டிப்புகள் இருக்கும் — DNA லைகேஸ் அடைப்பதற்கு முன் இவை ஹைட்ரஜன் பிணைப்பால் இணையும்.",
       "ta_status": "draft"
      }
     },
@@ -1408,7 +1408,7 @@
      "kind": "info",
      "text": {
       "en": "**Exception:** Blunt-end ligation — any blunt-ended insert can be ligated into any blunt-ended vector (e.g., using SmaI), but this is far less efficient and non-directional.",
-      "ta": "**விதிவிலக்கு:** மழுங்கிய முனை லைகேஷன் — எந்த மழுங்கிய முனைச் செருகியையும் எந்த மழுங்கிய முனைத் தாங்கிக்கடத்தியிலும் (எ.கா. SmaI) இணைக்கலாம்; ஆனால் இது மிகக் குறைந்த திறனும் திசையற்றதும் ஆகும்.",
+      "ta": "**விதிவிலக்கு:** மழுங்கிய முனை லைகேஷன் — எந்த மழுங்கிய முனைச் செருகியையும் எந்த மழுங்கிய முனைக் கடத்தியிலும் (எ.கா. SmaI) இணைக்கலாம்; ஆனால் இது மிகக் குறைந்த திறனும் திசையற்றதும் ஆகும்.",
       "ta_status": "draft"
      }
     },
@@ -1456,7 +1456,7 @@
      "type": "p",
      "text": {
       "en": "**🔵 Why Is Alkaline Phosphatase Treatment of the Vector Useful?**",
-      "ta": "**🔵 தாங்கிக்கடத்திக்கு அல்கலைன் பாஸ்படேஸ் சிகிச்சை ஏன் பயனுள்ளது?**",
+      "ta": "**🔵 கடத்திக்கு அல்கலைன் பாஸ்படேஸ் சிகிச்சை ஏன் பயனுள்ளது?**",
       "ta_status": "draft"
      }
     },
@@ -1472,7 +1472,7 @@
      "type": "p",
      "text": {
       "en": "When a vector is linearised by a restriction enzyme, the two ends have 5'-phosphate groups. These can re-ligate (vector re-circularises without insert), increasing the background of non-recombinant colonies.",
-      "ta": "ரெஸ்ட்ரிக்ஷன் நொதியால் தாங்கிக்கடத்தி நேர்கோட்டாக்கப்படும்போது இரு முனைகளிலும் 5'-பாஸ்பேட் தொகுதிகள் உள்ளன. இவை மீண்டும் இணையலாம் (செருகியின்றித் தாங்கிக்கடத்தி வட்டமாதல்); இதனால் மறுகூட்டிணைவற்ற குழுமங்களின் பின்னணி அதிகரிக்கும்.",
+      "ta": "ரெஸ்ட்ரிக்ஷன் நொதியால் கடத்தி நேர்கோட்டாக்கப்படும்போது இரு முனைகளிலும் 5'-பாஸ்பேட் தொகுதிகள் உள்ளன. இவை மீண்டும் இணையலாம் (செருகியின்றிக் கடத்தி வட்டமாதல்); இதனால் மறுகூட்டிணைவற்ற குழுமங்களின் பின்னணி அதிகரிக்கும்.",
       "ta_status": "draft"
      }
     },
@@ -1480,7 +1480,7 @@
      "type": "p",
      "text": {
       "en": "**Alkaline phosphatase** (CIAP or SAP) removes the 5'-phosphate groups from the linearised vector. Without phosphates, the vector ends cannot self-ligate — only when insert DNA (which retains its 5'-phosphates) is added can ligation occur. This greatly reduces background and increases recombinant efficiency.",
-      "ta": "**அல்கலைன் பாஸ்படேஸ்** (CIAP அல்லது SAP) நேர்கோட்டுத் தாங்கிக்கடத்தியிலிருந்து 5'-பாஸ்பேட் தொகுதிகளை நீக்குகிறது. பாஸ்பேட் இல்லாததால் தாங்கிக்கடத்தி முனைகள் தானே இணைய இயலாது — 5'-பாஸ்பேட்களைத் தக்கவைத்த செருகி DNA சேர்க்கப்படும்போது மட்டுமே லைகேஷன் நடைபெறும். இது பின்னணியை வெகுவாகக் குறைத்து மறுகூட்டிணைவுத் திறனை உயர்த்துகிறது.",
+      "ta": "**அல்கலைன் பாஸ்படேஸ்** (CIAP அல்லது SAP) நேர்கோட்டுக் கடத்தியிலிருந்து 5'-பாஸ்பேட் தொகுதிகளை நீக்குகிறது. பாஸ்பேட் இல்லாததால் கடத்தி முனைகள் தானே இணைய இயலாது — 5'-பாஸ்பேட்களைத் தக்கவைத்த செருகி DNA சேர்க்கப்படும்போது மட்டுமே லைகேஷன் நடைபெறும். இது பின்னணியை வெகுவாகக் குறைத்து மறுகூட்டிணைவுத் திறனை உயர்த்துகிறது.",
       "ta_status": "draft"
      }
     },
@@ -1519,17 +1519,17 @@
       },
       {
        "en": "Cut both insert and vector with same restriction enzyme → compatible sticky ends",
-       "ta": "செருகி, தாங்கிக்கடத்தி இரண்டையும் ஒரே ரெஸ்ட்ரிக்ஷன் நொதியால் வெட்டு → இணக்கமான ஒட்டும் முனைகள்",
+       "ta": "செருகி, கடத்தி இரண்டையும் ஒரே ரெஸ்ட்ரிக்ஷன் நொதியால் வெட்டு → இணக்கமான ஒட்டும் முனைகள்",
        "ta_status": "draft"
       },
       {
        "en": "Prepare vector (linearise; optionally dephosphorylate with alkaline phosphatase)",
-       "ta": "தாங்கிக்கடத்தியைத் தயார்செய் (நேர்கோட்டாக்கு; விரும்பினால் அல்கலைன் பாஸ்படேசால் பாஸ்பேட் நீக்கு)",
+       "ta": "கடத்தியைத் தயார்செய் (நேர்கோட்டாக்கு; விரும்பினால் அல்கலைன் பாஸ்படேசால் பாஸ்பேட் நீக்கு)",
        "ta_status": "draft"
       },
       {
        "en": "Ligate insert + vector using T4 DNA ligase → recombinant DNA",
-       "ta": "T4 DNA லைகேசால் செருகி + தாங்கிக்கடத்தியை இணை → மறுகூட்டிணைவு DNA",
+       "ta": "T4 DNA லைகேசால் செருகி + கடத்தியை இணை → மறுகூட்டிணைவு DNA",
        "ta_status": "draft"
       },
       {
@@ -1576,7 +1576,7 @@
      },
      "answer": {
       "en": "Short single-stranded overhangs produced by staggered restriction enzyme cuts (e.g., EcoRI produces 5'-AATT overhangs). Complementary sticky ends on insert and vector can anneal by hydrogen bonding, facilitating efficient ligation.",
-      "ta": "ஒழுங்கற்ற வெட்டுகளைச் செய்யும் ரெஸ்ட்ரிக்ஷன் நொதிகள் உருவாக்கும் குறுகிய ஒற்றை இழை நீட்டிப்புகள் (எ.கா. EcoRI 5'-AATT நீட்டிப்புகளை உருவாக்கும்). செருகியிலும் தாங்கிக்கடத்தியிலும் உள்ள நிரப்பு ஒட்டும் முனைகள் ஹைட்ரஜன் பிணைப்பால் இணைந்து திறமையான லைகேஷனுக்கு உதவும்.",
+      "ta": "ஒழுங்கற்ற வெட்டுகளைச் செய்யும் ரெஸ்ட்ரிக்ஷன் நொதிகள் உருவாக்கும் குறுகிய ஒற்றை இழை நீட்டிப்புகள் (எ.கா. EcoRI 5'-AATT நீட்டிப்புகளை உருவாக்கும்). செருகியிலும் கடத்தியிலும் உள்ள நிரப்பு ஒட்டும் முனைகள் ஹைட்ரஜன் பிணைப்பால் இணைந்து திறமையான லைகேஷனுக்கு உதவும்.",
       "ta_status": "draft"
      }
     },
@@ -1589,7 +1589,7 @@
      },
      "answer": {
       "en": "Encodes β-galactosidase in E. coli. In pUC vectors, the MCS is within lacZ. An insert disrupts lacZ → no functional β-galactosidase → X-gal not cleaved → white colony. Used in blue-white screening.",
-      "ta": "E. coli-இல் β-கேலக்டோசிடேஸைக் குறியீடு செய்கிறது. pUC தாங்கிக்கடத்திகளில் MCS, lacZ-க்குள் உள்ளது. செருகி lacZ-ஐச் சிதைக்கும் → செயல்படும் β-கேலக்டோசிடேஸ் இல்லை → X-gal பிளக்கப்படாது → வெள்ளைக் குழுமம். நீலம்-வெள்ளை சலிக்கையில் பயன்படும்.",
+      "ta": "E. coli-இல் β-கேலக்டோசிடேஸைக் குறியீடு செய்கிறது. pUC கடத்திகளில் MCS, lacZ-க்குள் உள்ளது. செருகி lacZ-ஐச் சிதைக்கும் → செயல்படும் β-கேலக்டோசிடேஸ் இல்லை → X-gal பிளக்கப்படாது → வெள்ளைக் குழுமம். நீலம்-வெள்ளை சலிக்கையில் பயன்படும்.",
       "ta_status": "draft"
      }
     },
@@ -1654,7 +1654,7 @@
      },
      "answer": {
       "en": "A hybrid DNA molecule formed by joining DNA sequences from two different sources — typically a gene of interest (insert) ligated into a vector. The product of the ligation step in gene cloning.",
-      "ta": "இரு வெவ்வேறு மூலங்களின் DNA வரிசைகளை இணைத்து உருவாக்கிய கலப்பின DNA மூலக்கூறு — பொதுவாகத் தாங்கிக்கடத்தியில் லைகேட் செய்த ஆர்வ மரபணு (செருகி). மரபணு குளோனாக்கத்தில் லைகேஷன் படியின் விளைபொருள்.",
+      "ta": "இரு வெவ்வேறு மூலங்களின் DNA வரிசைகளை இணைத்து உருவாக்கிய கலப்பின DNA மூலக்கூறு — பொதுவாகக் கடத்தியில் லைகேட் செய்த ஆர்வ மரபணு (செருகி). மரபணு குளோனாக்கத்தில் லைகேஷன் படியின் விளைபொருள்.",
       "ta_status": "draft"
      }
     },
@@ -1687,7 +1687,7 @@
      "type": "p",
      "text": {
       "en": "**Gene Cloning**Process of making identical copies of a specific gene by inserting it into a vector, introducing into a host cell, and allowing replication. Core of recombinant DNA technology.",
-      "ta": "**மரபணு குளோனாக்கம்**குறிப்பிட்ட மரபணுவைத் தாங்கிக்கடத்தியில் செருகி, ஓம்புயிரி செல்லுக்குள் செலுத்திப் பெருகவிட்டு ஒத்த நகல்களை உருவாக்கும் செயல்முறை. மறுகூட்டிணைவு DNA தொழில்நுட்பத்தின் மையம்.",
+      "ta": "**மரபணு குளோனாக்கம்**குறிப்பிட்ட மரபணுவைக் கடத்தியில் செருகி, ஓம்புயிரி செல்லுக்குள் செலுத்திப் பெருகவிட்டு ஒத்த நகல்களை உருவாக்கும் செயல்முறை. மறுகூட்டிணைவு DNA தொழில்நுட்பத்தின் மையம்.",
       "ta_status": "draft"
      }
     },
@@ -1695,7 +1695,7 @@
      "type": "p",
      "text": {
       "en": "**5 Requirements**Source DNA + Vector + Restriction enzyme + DNA ligase + Host cell (E. coli). Together they enable the entire cloning process.",
-      "ta": "**5 தேவைகள்**மூல DNA + தாங்கிக்கடத்தி + ரெஸ்ட்ரிக்ஷன் நொதி + DNA லைகேஸ் + ஓம்புயிரி செல் (E. coli). இவை ஒன்றிணைந்து முழுக் குளோனாக்கச் செயல்முறையைச் சாத்தியமாக்குகின்றன.",
+      "ta": "**5 தேவைகள்**மூல DNA + கடத்தி + ரெஸ்ட்ரிக்ஷன் நொதி + DNA லைகேஸ் + ஓம்புயிரி செல் (E. coli). இவை ஒன்றிணைந்து முழுக் குளோனாக்கச் செயல்முறையைச் சாத்தியமாக்குகின்றன.",
       "ta_status": "draft"
      }
     },
@@ -1703,7 +1703,7 @@
      "type": "p",
      "text": {
       "en": "**Restriction Enzymes**Must use the same enzyme on insert and vector to produce compatible sticky ends. Common examples: EcoRI (GAATTC), BamHI (GGATCC), HindIII (AAGCTT).",
-      "ta": "**ரெஸ்ட்ரிக்ஷன் நொதிகள்**செருகி, தாங்கிக்கடத்தி இரண்டிலும் ஒரே நொதியைப் பயன்படுத்தி இணக்கமான ஒட்டும் முனைகளை உருவாக்க வேண்டும். பொது எடுத்துக்காட்டுகள்: EcoRI (GAATTC), BamHI (GGATCC), HindIII (AAGCTT).",
+      "ta": "**ரெஸ்ட்ரிக்ஷன் நொதிகள்**செருகி, கடத்தி இரண்டிலும் ஒரே நொதியைப் பயன்படுத்தி இணக்கமான ஒட்டும் முனைகளை உருவாக்க வேண்டும். பொது எடுத்துக்காட்டுகள்: EcoRI (GAATTC), BamHI (GGATCC), HindIII (AAGCTT).",
       "ta_status": "draft"
      }
     },
@@ -1711,7 +1711,7 @@
      "type": "p",
      "text": {
       "en": "**DNA Ligase (T4)**Seals phosphodiester bonds between 3'-OH and 5'-phosphate ends. Joins insert into vector. Requires ATP and Mg²⁺. Usually incubated at 16°C overnight.",
-      "ta": "**DNA லைகேஸ் (T4)**3'-OH, 5'-பாஸ்பேட் முனைகளுக்கிடையே பாஸ்போடைஎஸ்டர் பிணைப்புகளை அடைக்கும். செருகியைத் தாங்கிக்கடத்தியுடன் இணைக்கும். ATP, Mg²⁺ தேவை. வழக்கமாக 16°C-இல் இரவு முழுவதும் அடைகாக்கப்படும்.",
+      "ta": "**DNA லைகேஸ் (T4)**3'-OH, 5'-பாஸ்பேட் முனைகளுக்கிடையே பாஸ்போடைஎஸ்டர் பிணைப்புகளை அடைக்கும். செருகியைக் கடத்தியுடன் இணைக்கும். ATP, Mg²⁺ தேவை. வழக்கமாக 16°C-இல் இரவு முழுவதும் அடைகாக்கப்படும்.",
       "ta_status": "draft"
      }
     },
@@ -1727,7 +1727,7 @@
      "type": "p",
      "text": {
       "en": "**Antibiotic Selection**Cells plated on medium with ampicillin. Only cells carrying the vector (amp^r) survive. This selects for transformed cells (but not specifically recombinants).",
-      "ta": "**ஆன்டிபயாடிக் தெரிவு**செல்கள் ஆம்பிசிலின் ஊடகத்தில் வளர்க்கப்படுகின்றன. தாங்கிக்கடத்தியைச் (amp^r) சுமக்கும் செல்கள் மட்டுமே உயிர்பிழைக்கும். இது மாற்றப்பட்ட செல்களைத் தெரிவுசெய்கிறது (குறிப்பாக மறுகூட்டிணைவுகளை அல்ல).",
+      "ta": "**ஆன்டிபயாடிக் தெரிவு**செல்கள் ஆம்பிசிலின் ஊடகத்தில் வளர்க்கப்படுகின்றன. கடத்தியைச் (amp^r) சுமக்கும் செல்கள் மட்டுமே உயிர்பிழைக்கும். இது மாற்றப்பட்ட செல்களைத் தெரிவுசெய்கிறது (குறிப்பாக மறுகூட்டிணைவுகளை அல்ல).",
       "ta_status": "draft"
      }
     },
@@ -1751,7 +1751,7 @@
      "type": "p",
      "text": {
       "en": "**Alkaline Phosphatase**Removes 5'-phosphates from linearised vector to prevent self-ligation. Dramatically reduces background of non-recombinant colonies.",
-      "ta": "**அல்கலைன் பாஸ்படேஸ்**நேர்கோட்டுத் தாங்கிக்கடத்தியிலிருந்து 5'-பாஸ்பேட்களை நீக்கித் தானே இணைவதைத் தடுக்கும். மறுகூட்டிணைவற்ற குழுமங்களின் பின்னணியை வெகுவாகக் குறைக்கும்.",
+      "ta": "**அல்கலைன் பாஸ்படேஸ்**நேர்கோட்டுக் கடத்தியிலிருந்து 5'-பாஸ்பேட்களை நீக்கித் தானே இணைவதைத் தடுக்கும். மறுகூட்டிணைவற்ற குழுமங்களின் பின்னணியை வெகுவாகக் குறைக்கும்.",
       "ta_status": "draft"
      }
     },
@@ -1800,7 +1800,7 @@
      },
      "definition": {
       "en": "The process of making multiple identical copies of a specific gene by inserting it into a vector, introducing the recombinant vector into a host cell, and propagating the host through cell division.",
-      "ta": "குறிப்பிட்ட மரபணுவைத் தாங்கிக்கடத்தியில் செருகி, மறுகூட்டிணைவுத் தாங்கிக்கடத்தியை ஓம்புயிரி செல்லுக்குள் செலுத்தி, ஓம்புயிரியை செல் பகுப்பால் பெருக்கி ஒத்த நகல்களை உருவாக்கும் செயல்முறை.",
+      "ta": "குறிப்பிட்ட மரபணுவைக் கடத்தியில் செருகி, மறுகூட்டிணைவுக் கடத்தியை ஓம்புயிரி செல்லுக்குள் செலுத்தி, ஓம்புயிரியை செல் பகுப்பால் பெருக்கி ஒத்த நகல்களை உருவாக்கும் செயல்முறை.",
       "ta_status": "draft"
      }
     },
@@ -1808,7 +1808,7 @@
      "type": "glossary",
      "term": {
       "en": "Vector",
-      "ta": "தாங்கிக்கடத்தி",
+      "ta": "கடத்தி",
       "ta_status": "draft"
      },
      "definition": {
@@ -1839,7 +1839,7 @@
      },
      "definition": {
       "en": "The uptake of foreign DNA by a bacterial cell. In gene cloning, competent E. coli cells take up recombinant vectors by heat shock (CaCl₂ method) or electroporation.",
-      "ta": "பாக்டீரிய செல் அந்நிய DNA-வை உள்ளெடுத்தல். மரபணு குளோனாக்கத்தில் தகுதி பெற்ற E. coli செல்கள் வெப்ப அதிர்ச்சி (CaCl₂ முறை) அல்லது மின்துளைப்பால் மறுகூட்டிணைவுத் தாங்கிக்கடத்திகளை உள்ளெடுக்கின்றன.",
+      "ta": "பாக்டீரிய செல் அந்நிய DNA-வை உள்ளெடுத்தல். மரபணு குளோனாக்கத்தில் தகுதி பெற்ற E. coli செல்கள் வெப்ப அதிர்ச்சி (CaCl₂ முறை) அல்லது மின்துளைப்பால் மறுகூட்டிணைவுக் கடத்திகளை உள்ளெடுக்கின்றன.",
       "ta_status": "draft"
      }
     },
@@ -1852,7 +1852,7 @@
      },
      "definition": {
       "en": "A hybrid DNA molecule formed by joining DNA sequences from two different sources — specifically the gene of interest (insert) ligated into a cloning vector. The central product of the cloning process.",
-      "ta": "இரு வெவ்வேறு மூலங்களின் DNA வரிசைகளை இணைத்து உருவாக்கிய கலப்பின DNA மூலக்கூறு — குறிப்பாகக் குளோனாக்கத் தாங்கிக்கடத்தியில் லைகேட் செய்த ஆர்வ மரபணு (செருகி). குளோனாக்கச் செயல்முறையின் மைய விளைபொருள்.",
+      "ta": "இரு வெவ்வேறு மூலங்களின் DNA வரிசைகளை இணைத்து உருவாக்கிய கலப்பின DNA மூலக்கூறு — குறிப்பாகக் குளோனாக்கக் கடத்தியில் லைகேட் செய்த ஆர்வ மரபணு (செருகி). குளோனாக்கச் செயல்முறையின் மைய விளைபொருள்.",
       "ta_status": "draft"
      }
     },
@@ -1865,7 +1865,7 @@
      },
      "definition": {
       "en": "A gene on the vector (usually an antibiotic resistance gene) used to identify and select transformed host cells. Only cells carrying the vector survive on medium with the corresponding antibiotic.",
-      "ta": "மாற்றப்பட்ட ஓம்புயிரி செல்களை அடையாளம் கண்டு தெரிவுசெய்யப் பயன்படும், தாங்கிக்கடத்தியிலுள்ள மரபணு (பொதுவாக ஆன்டிபயாடிக் எதிர்ப்பு மரபணு). தாங்கிக்கடத்தியைச் சுமக்கும் செல்கள் மட்டுமே தொடர்புடைய ஆன்டிபயாடிக் ஊடகத்தில் உயிர்பிழைக்கும்.",
+      "ta": "மாற்றப்பட்ட ஓம்புயிரி செல்களை அடையாளம் கண்டு தெரிவுசெய்யப் பயன்படும், கடத்தியிலுள்ள மரபணு (பொதுவாக ஆன்டிபயாடிக் எதிர்ப்பு மரபணு). கடத்தியைச் சுமக்கும் செல்கள் மட்டுமே தொடர்புடைய ஆன்டிபயாடிக் ஊடகத்தில் உயிர்பிழைக்கும்.",
       "ta_status": "draft"
      }
     },
@@ -1917,7 +1917,7 @@
      },
      "definition": {
       "en": "Short single-stranded complementary overhangs produced by staggered restriction enzyme cuts. Compatible sticky ends on the insert and vector anneal by hydrogen bonding, facilitating efficient ligation.",
-      "ta": "ஒழுங்கற்ற வெட்டுகளைச் செய்யும் ரெஸ்ட்ரிக்ஷன் நொதிகள் உருவாக்கும் குறுகிய, நிரப்பான ஒற்றை இழை நீட்டிப்புகள். செருகியிலும் தாங்கிக்கடத்தியிலும் உள்ள இணக்கமான ஒட்டும் முனைகள் ஹைட்ரஜன் பிணைப்பால் இணைந்து திறமையான லைகேஷனுக்கு உதவும்.",
+      "ta": "ஒழுங்கற்ற வெட்டுகளைச் செய்யும் ரெஸ்ட்ரிக்ஷன் நொதிகள் உருவாக்கும் குறுகிய, நிரப்பான ஒற்றை இழை நீட்டிப்புகள். செருகியிலும் கடத்தியிலும் உள்ள இணக்கமான ஒட்டும் முனைகள் ஹைட்ரஜன் பிணைப்பால் இணைந்து திறமையான லைகேஷனுக்கு உதவும்.",
       "ta_status": "draft"
      }
     },
@@ -1994,12 +1994,12 @@
       },
       {
        "en": "Steps in order: (1) Isolation of gene of interest (RE digestion/PCR/cDNA); (2) Restriction digestion of gene and vector with same RE; (3) Ligation with T4 DNA ligase; (4) Formation of recombinant DNA; (5) Transformation into E. coli (heat shock/electroporation); (6) Selection on antibiotic medium; (7) Screening for recombinants; (8) Colony multiplication and verification.",
-       "ta": "படிகள் வரிசையில்: (1) ஆர்வ மரபணுவைத் தனிமைப்படுத்துதல் (RE செரித்தல்/PCR/cDNA); (2) மரபணுவும் தாங்கிக்கடத்தியும் ஒரே RE-யால் செரித்தல்; (3) T4 DNA லைகேசால் லைகேஷன்; (4) மறுகூட்டிணைவு DNA உருவாதல்; (5) E. coli-க்குள் தகவல் பரிமாற்றம் (வெப்ப அதிர்ச்சி/மின்துளைப்பு); (6) ஆன்டிபயாடிக் ஊடகத்தில் தெரிவு; (7) மறுகூட்டிணைவுகளுக்கான சலிக்கை; (8) குழும பெருக்கமும் சரிபார்ப்பும்.",
+       "ta": "படிகள் வரிசையில்: (1) ஆர்வ மரபணுவைத் தனிமைப்படுத்துதல் (RE செரித்தல்/PCR/cDNA); (2) மரபணுவும் கடத்தியும் ஒரே RE-யால் செரித்தல்; (3) T4 DNA லைகேசால் லைகேஷன்; (4) மறுகூட்டிணைவு DNA உருவாதல்; (5) E. coli-க்குள் தகவல் பரிமாற்றம் (வெப்ப அதிர்ச்சி/மின்துளைப்பு); (6) ஆன்டிபயாடிக் ஊடகத்தில் தெரிவு; (7) மறுகூட்டிணைவுகளுக்கான சலிக்கை; (8) குழும பெருக்கமும் சரிபார்ப்பும்.",
        "ta_status": "draft"
       },
       {
        "en": "Mention requirements: insert DNA, vector (ori + marker + MCS), restriction enzyme, DNA ligase, competent E. coli.",
-       "ta": "தேவைகளைக் குறிப்பிடுக: செருகி DNA, தாங்கிக்கடத்தி (ori + அடையாளக்குறி + MCS), ரெஸ்ட்ரிக்ஷன் நொதி, DNA லைகேஸ், தகுதி பெற்ற E. coli.",
+       "ta": "தேவைகளைக் குறிப்பிடுக: செருகி DNA, கடத்தி (ori + அடையாளக்குறி + MCS), ரெஸ்ட்ரிக்ஷன் நொதி, DNA லைகேஸ், தகுதி பெற்ற E. coli.",
        "ta_status": "draft"
       },
       {
@@ -2031,7 +2031,7 @@
      "items": [
       {
        "en": "Blue-white screening uses the lacZ gene (encoding β-galactosidase) in pUC vectors to distinguish recombinant (white) from non-recombinant (blue) colonies.",
-       "ta": "நீலம்-வெள்ளை சலிக்கை pUC தாங்கிக்கடத்திகளிலுள்ள lacZ மரபணுவை (β-கேலக்டோசிடேசைக் குறியீடு செய்வது) பயன்படுத்தி மறுகூட்டிணைவு (வெள்ளை), மறுகூட்டிணைவற்ற (நீலம்) குழுமங்களை வேறுபடுத்துகிறது.",
+       "ta": "நீலம்-வெள்ளை சலிக்கை pUC கடத்திகளிலுள்ள lacZ மரபணுவை (β-கேலக்டோசிடேசைக் குறியீடு செய்வது) பயன்படுத்தி மறுகூட்டிணைவு (வெள்ளை), மறுகூட்டிணைவற்ற (நீலம்) குழுமங்களை வேறுபடுத்துகிறது.",
        "ta_status": "draft"
       },
       {
@@ -2125,17 +2125,17 @@
      "items": [
       {
        "en": "**Restriction enzymes** (\"molecular scissors\"): recognise specific palindromic sequences; cleave both strands at/near the site; produce sticky (staggered cut) or blunt (straight cut) ends; Type II used in cloning (e.g., EcoRI, BamHI); same enzyme used on insert and vector ensures compatible ends.",
-       "ta": "**ரெஸ்ட்ரிக்ஷன் நொதிகள்** (“மூலக்கூறு கத்தரிகோல்கள்”): குறிப்பிட்ட முன்பின் ஒத்த வரிசைகளை அடையாளம் காணும்; இடத்திலோ அருகிலோ இரு இழைகளையும் வெட்டும்; ஒட்டும் (ஒழுங்கற்ற வெட்டு) அல்லது மழுங்கிய (நேர் வெட்டு) முனைகளை உருவாக்கும்; குளோனாக்கத்தில் வகை II பயன்படும் (எ.கா. EcoRI, BamHI); செருகி, தாங்கிக்கடத்தி இரண்டிலும் ஒரே நொதி இணக்கமான முனைகளை உறுதிசெய்யும்.",
+       "ta": "**ரெஸ்ட்ரிக்ஷன் நொதிகள்** (“மூலக்கூறு கத்தரிகோல்கள்”): குறிப்பிட்ட முன்பின் ஒத்த வரிசைகளை அடையாளம் காணும்; இடத்திலோ அருகிலோ இரு இழைகளையும் வெட்டும்; ஒட்டும் (ஒழுங்கற்ற வெட்டு) அல்லது மழுங்கிய (நேர் வெட்டு) முனைகளை உருவாக்கும்; குளோனாக்கத்தில் வகை II பயன்படும் (எ.கா. EcoRI, BamHI); செருகி, கடத்தி இரண்டிலும் ஒரே நொதி இணக்கமான முனைகளை உறுதிசெய்யும்.",
        "ta_status": "draft"
       },
       {
        "en": "**DNA ligase** (\"molecular glue\"): T4 DNA ligase seals phosphodiester bonds; requires ATP and Mg²⁺; joins 3'-OH to 5'-phosphate; conditions: 16°C overnight for sticky ends; joins insert to vector to form recombinant DNA.",
-       "ta": "**DNA லைகேஸ்** (“மூலக்கூறுப் பசை”): T4 DNA லைகேஸ் பாஸ்போடைஎஸ்டர் பிணைப்புகளை அடைக்கும்; ATP, Mg²⁺ தேவை; 3'-OH-ஐ 5'-பாஸ்பேட்டுடன் இணைக்கும்; நிலை: ஒட்டும் முனைகளுக்கு 16°C இரவு முழுவதும்; செருகியைத் தாங்கிக்கடத்தியுடன் இணைத்து மறுகூட்டிணைவு DNA-வை உருவாக்கும்.",
+       "ta": "**DNA லைகேஸ்** (“மூலக்கூறுப் பசை”): T4 DNA லைகேஸ் பாஸ்போடைஎஸ்டர் பிணைப்புகளை அடைக்கும்; ATP, Mg²⁺ தேவை; 3'-OH-ஐ 5'-பாஸ்பேட்டுடன் இணைக்கும்; நிலை: ஒட்டும் முனைகளுக்கு 16°C இரவு முழுவதும்; செருகியைக் கடத்தியுடன் இணைத்து மறுகூட்டிணைவு DNA-வை உருவாக்கும்.",
        "ta_status": "draft"
       },
       {
        "en": "Together: RE cuts open the vector at MCS and cuts the gene from the source genome with matching ends → ligase joins them to create a continuous circular recombinant DNA molecule.",
-       "ta": "ஒன்றிணைந்து: RE மூலமரபணுத்தொகையிலிருந்து மரபணுவைப் பொருந்தும் முனைகளுடன் வெட்டி, தாங்கிக்கடத்தியை MCS-இல் திறக்கிறது → லைகேஸ் அவற்றை இணைத்துத் தொடர்ச்சியான வட்ட மறுகூட்டிணைவு DNA மூலக்கூறை உருவாக்குகிறது.",
+       "ta": "ஒன்றிணைந்து: RE மூலமரபணுத்தொகையிலிருந்து மரபணுவைப் பொருந்தும் முனைகளுடன் வெட்டி, கடத்தியை MCS-இல் திறக்கிறது → லைகேஸ் அவற்றை இணைத்துத் தொடர்ச்சியான வட்ட மறுகூட்டிணைவு DNA மூலக்கூறை உருவாக்குகிறது.",
        "ta_status": "draft"
       }
      ]
@@ -2162,17 +2162,17 @@
      "items": [
       {
        "en": "Why selection: transformation is inefficient (~1 in 10³–10⁵ cells takes up vector); the ligation mixture contains non-recombinant (re-ligated) vectors AND recombinant vectors; all transformed cells look identical; selection is needed to identify cells carrying the correct recombinant vector.",
-       "ta": "தெரிவு ஏன்: தகவல் பரிமாற்றத் திறன் குறைவு (~10³–10⁵ செல்களில் 1 மட்டுமே தாங்கிக்கடத்தியை உள்ளெடுக்கும்); லைகேஷன் கலவையில் மறுகூட்டிணைவற்ற (மீள்இணைந்த) தாங்கிக்கடத்திகளும் மறுகூட்டிணைவுத் தாங்கிக்கடத்திகளும் உள்ளன; மாற்றப்பட்ட செல்கள் அனைத்தும் ஒரே மாதிரித் தெரியும்; சரியான மறுகூட்டிணைவுத் தாங்கிக்கடத்தியுள்ள செல்களை அடையாளம் காண தெரிவு தேவை.",
+       "ta": "தெரிவு ஏன்: தகவல் பரிமாற்றத் திறன் குறைவு (~10³–10⁵ செல்களில் 1 மட்டுமே கடத்தியை உள்ளெடுக்கும்); லைகேஷன் கலவையில் மறுகூட்டிணைவற்ற (மீள்இணைந்த) கடத்திகளும் மறுகூட்டிணைவுக் கடத்திகளும் உள்ளன; மாற்றப்பட்ட செல்கள் அனைத்தும் ஒரே மாதிரித் தெரியும்; சரியான மறுகூட்டிணைவுக் கடத்தியுள்ள செல்களை அடையாளம் காண தெரிவு தேவை.",
        "ta_status": "draft"
       },
       {
        "en": "**Method 1 — Antibiotic selection:** vectors carry amp^r; transformed cells plated on ampicillin medium; only cells with vector survive; distinguishes transformed from non-transformed. Cannot distinguish recombinant from non-recombinant — further screening needed.",
-       "ta": "**முறை 1 — ஆன்டிபயாடிக் தெரிவு:** தாங்கிக்கடத்திகள் amp^r கொண்டவை; மாற்றப்பட்ட செல்கள் ஆம்பிசிலின் ஊடகத்தில் வளர்க்கப்படும்; தாங்கிக்கடத்தி உள்ள செல்கள் மட்டுமே உயிர்பிழைக்கும்; மாற்றப்பட்டவற்றையும் மாற்றப்படாதவற்றையும் வேறுபடுத்தும். மறுகூட்டிணைவு, மறுகூட்டிணைவற்றவற்றை வேறுபடுத்த இயலாது — மேலும் சலிக்கை தேவை.",
+       "ta": "**முறை 1 — ஆன்டிபயாடிக் தெரிவு:** கடத்திகள் amp^r கொண்டவை; மாற்றப்பட்ட செல்கள் ஆம்பிசிலின் ஊடகத்தில் வளர்க்கப்படும்; கடத்தி உள்ள செல்கள் மட்டுமே உயிர்பிழைக்கும்; மாற்றப்பட்டவற்றையும் மாற்றப்படாதவற்றையும் வேறுபடுத்தும். மறுகூட்டிணைவு, மறுகூட்டிணைவற்றவற்றை வேறுபடுத்த இயலாது — மேலும் சலிக்கை தேவை.",
        "ta_status": "draft"
       },
       {
        "en": "**Method 2 — Blue-white screening:** pUC vectors; lacZ + MCS; X-gal + IPTG in medium; white colonies = recombinant (insert disrupts lacZ). Quick visual identification.",
-       "ta": "**முறை 2 — நீலம்-வெள்ளை சலிக்கை:** pUC தாங்கிக்கடத்திகள்; lacZ + MCS; ஊடகத்தில் X-gal + IPTG; வெள்ளைக் குழுமங்கள் = மறுகூட்டிணைவு (செருகி lacZ-ஐச் சிதைக்கும்). விரைவான கட்புல அடையாளம்.",
+       "ta": "**முறை 2 — நீலம்-வெள்ளை சலிக்கை:** pUC கடத்திகள்; lacZ + MCS; ஊடகத்தில் X-gal + IPTG; வெள்ளைக் குழுமங்கள் = மறுகூட்டிணைவு (செருகி lacZ-ஐச் சிதைக்கும்). விரைவான கட்புல அடையாளம்.",
        "ta_status": "draft"
       },
       {

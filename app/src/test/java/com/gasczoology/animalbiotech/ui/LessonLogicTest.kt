@@ -35,8 +35,8 @@ class LessonLogicTest {
     }
 
     @Test fun tamil_text_survives_padding() {
-        val out = normaliseTable(h, listOf(listOf(Bi("Vector", "தாங்கிக்கடத்தி"))))
-        assertEquals("தாங்கிக்கடத்தி", out[0][0].ta)
+        val out = normaliseTable(h, listOf(listOf(Bi("Vector", "கடத்தி"))))
+        assertEquals("கடத்தி", out[0][0].ta)
     }
 
     private fun chap(vararg counts: Int) = Chapter("c", "I", Bi("T"),

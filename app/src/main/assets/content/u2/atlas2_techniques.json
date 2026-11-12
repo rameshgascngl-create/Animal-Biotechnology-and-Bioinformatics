@@ -146,7 +146,7 @@
      "kind": "info",
      "text": {
       "en": "**Ligation basics**\nT4 DNA ligase joins 5′-phosphate to 3′-OH. Sticky ends ligate efficiently at 12–16 °C overnight; blunt ends need more enzyme and are helped by PEG. Dephosphorylating the vector with alkaline phosphatase reduces self-ligation.",
-      "ta": "**இணைப்பின் அடிப்படைகள்**\nT4 DNA லைகேஸ் 5′-பாஸ்பேட்டை 3′-OH உடன் இணைக்கிறது. ஒட்டும் முனைகள் 12–16 °C-ல் ஒரு இரவில் திறம்பட இணையும்; மழுங்கிய முனைகளுக்கு அதிக நொதி தேவை, PEG உதவும். காரப் பாஸ்படேஸால் தாங்கிக்கடத்தியின் பாஸ்பேட்டை நீக்குவது தானாக இணைவதைக் குறைக்கிறது.",
+      "ta": "**இணைப்பின் அடிப்படைகள்**\nT4 DNA லைகேஸ் 5′-பாஸ்பேட்டை 3′-OH உடன் இணைக்கிறது. ஒட்டும் முனைகள் 12–16 °C-ல் ஒரு இரவில் திறம்பட இணையும்; மழுங்கிய முனைகளுக்கு அதிக நொதி தேவை, PEG உதவும். காரப் பாஸ்படேஸால் கடத்தியின் பாஸ்பேட்டை நீக்குவது தானாக இணைவதைக் குறைக்கிறது.",
       "ta_status": "draft"
      }
     },
@@ -323,7 +323,7 @@
      "type": "p",
      "text": {
       "en": "Selection removes cells without the vector; screening finds those with the insert.",
-      "ta": "தெரிவு தாங்கிக்கடத்தி இல்லாத செல்களை நீக்குகிறது; சலிக்கை செருகி உள்ளவற்றைக் கண்டறிகிறது.",
+      "ta": "தெரிவு கடத்தி இல்லாத செல்களை நீக்குகிறது; சலிக்கை செருகி உள்ளவற்றைக் கண்டறிகிறது.",
       "ta_status": "draft"
      }
     },
@@ -423,7 +423,7 @@
      "id": "atlas2_techniques-d04",
      "caption": {
       "en": "Fig. 4. Blue-white screening with pUC-type vectors (lacZα and a host with lacZΔM15).",
-      "ta": "படம் 4. pUC வகைத் தாங்கிக்கடத்திகளுடன் (lacZα மற்றும் lacZΔM15 கொண்ட ஓம்புயிரி) நீல-வெள்ளைச் சலிக்கை.",
+      "ta": "படம் 4. pUC வகைக் கடத்திகளுடன் (lacZα மற்றும் lacZΔM15 கொண்ட ஓம்புயிரி) நீல-வெள்ளைச் சலிக்கை.",
       "ta_status": "draft"
      },
      "labels": [
@@ -1175,7 +1175,7 @@
      "type": "p",
      "text": {
       "en": "Isolate target DNA and vector; cut with restriction enzyme; ligate; introduce into host; select transformants; screen for recombinants; verify; grow and express.",
-      "ta": "இலக்கு DNA-வையும் தாங்கிக்கடத்தியையும் தனித்துப் பிரித்தல்; ரெஸ்ட்ரிக்ஷன் நொதியால் வெட்டுதல்; இணைத்தல்; ஓம்புயிரிக்குள் செலுத்துதல்; மாற்றப்பட்டவற்றைத் தெரிவு செய்தல்; மறுகூட்டிணைவுகளைச் சலித்தல்; சரிபார்த்தல்; வளர்த்து வெளிப்படுத்துதல்.",
+      "ta": "இலக்கு DNA-வையும் கடத்தியையும் தனித்துப் பிரித்தல்; ரெஸ்ட்ரிக்ஷன் நொதியால் வெட்டுதல்; இணைத்தல்; ஓம்புயிரிக்குள் செலுத்துதல்; மாற்றப்பட்டவற்றைத் தெரிவு செய்தல்; மறுகூட்டிணைவுகளைச் சலித்தல்; சரிபார்த்தல்; வளர்த்து வெளிப்படுத்துதல்.",
       "ta_status": "draft"
      }
     },
@@ -1207,7 +1207,7 @@
      "type": "p",
      "text": {
       "en": "The vector carries lacZα in its MCS. Without insert, α-complementation makes active β-galactosidase which cleaves X-gal to blue. Insert disrupts lacZα, so colonies are white.",
-      "ta": "தாங்கிக்கடத்தியின் MCS-இல் lacZα உள்ளது. செருகி இல்லாதபோது, α-நிரப்புதலால் செயல்படும் β-கேலக்டோசிடேஸ் உருவாகி X-gal-ஐ நீல நிறமாகப் பிளக்கிறது. செருகி lacZα-வைச் சிதைப்பதால் குழுமங்கள் வெள்ளையாக இருக்கும்.",
+      "ta": "கடத்தியின் MCS-இல் lacZα உள்ளது. செருகி இல்லாதபோது, α-நிரப்புதலால் செயல்படும் β-கேலக்டோசிடேஸ் உருவாகி X-gal-ஐ நீல நிறமாகப் பிளக்கிறது. செருகி lacZα-வைச் சிதைப்பதால் குழுமங்கள் வெள்ளையாக இருக்கும்.",
       "ta_status": "draft"
      }
     },
@@ -1329,7 +1329,7 @@
      },
      "definition": {
       "en": "Process allowing only vector-containing cells to grow.",
-      "ta": "தாங்கிக்கடத்தி உள்ள செல்கள் மட்டும் வளர அனுமதிக்கும் செயல்முறை.",
+      "ta": "கடத்தி உள்ள செல்கள் மட்டும் வளர அனுமதிக்கும் செயல்முறை.",
       "ta_status": "draft"
      }
     },

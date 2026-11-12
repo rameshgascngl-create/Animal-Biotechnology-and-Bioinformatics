@@ -28,8 +28,8 @@
      "note": "Plasmid types, phage vectors",
      "file": "vectors_genetic_engineering.html",
      "hash": "",
-     "title_ta": "தாங்கிக்கடத்திகள்: பிளாஸ்மிடுகள், pBR322, Ti பிளாஸ்மிடு, லாம்டா, M13",
-     "note_ta": "பிளாஸ்மிடு வகைகள், பாஜ் தாங்கிக்கடத்திகள்"
+     "title_ta": "கடத்திகள்: பிளாஸ்மிடுகள், pBR322, Ti பிளாஸ்மிடு, லாம்டா, M13",
+     "note_ta": "பிளாஸ்மிடு வகைகள், பாஜ் கடத்திகள்"
     },
     {
      "id": "t4",
@@ -37,8 +37,8 @@
      "note": "Advanced and animal vectors",
      "file": "advanced_vectors_cosmid_yac_sv40_transposons.html",
      "hash": "",
-     "title_ta": "காஸ்மிடு, YAC, SV40, இடம்பெயர் மரபணுக்கள் தாங்கிக்கடத்திகளாக",
-     "note_ta": "மேம்பட்ட, விலங்குத் தாங்கிக்கடத்திகள்"
+     "title_ta": "காஸ்மிடு, YAC, SV40, இடம்பெயர் மரபணுக்கள் கடத்திகளாக",
+     "note_ta": "மேம்பட்ட, விலங்குக் கடத்திகள்"
     },
     {
      "id": "t5",
@@ -55,7 +55,7 @@
      "note": "15 diagrams",
      "file": "atlas1_fundamentals_vectors.html",
      "hash": "",
-     "title_ta": "விளக்கப்பட அட்லஸ் I: உயிரித் தொழில்நுட்ப வண்ணக் குறியீடு, நொதிக் கருவித்தொகுப்பு, தாங்கிக்கடத்தி வரைபடங்கள், நூலகப் பாய்வு வரைபடங்கள்",
+     "title_ta": "விளக்கப்பட அட்லஸ் I: உயிரித் தொழில்நுட்ப வண்ணக் குறியீடு, நொதிக் கருவித்தொகுப்பு, கடத்தி வரைபடங்கள், நூலகப் பாய்வு வரைபடங்கள்",
      "note_ta": "15 விளக்கப்படங்கள்"
     }
    ],
@@ -178,7 +178,7 @@
      "file": "gene_therapy_app.html",
      "hash": "",
      "title_ta": "மரபணு சிகிச்சை: உடல்வெளி, உடலக; புற்றுநோய் சிகிச்சையில் பங்கு",
-     "note_ta": "தாங்கிக்கடத்திகளும் மருத்துவ எடுத்துக்காட்டுகளும்"
+     "note_ta": "கடத்திகளும் மருத்துவ எடுத்துக்காட்டுகளும்"
     },
     {
      "id": "t17",
@@ -346,7 +346,7 @@
   "advanced_vectors_cosmid_yac_sv40_transposons.html": {
    "title": "Advanced Vectors – Cosmid, YAC, SV40 & Transposons",
    "unit": "I",
-   "title_ta": "மேம்பட்ட தாங்கிக்கடத்திகள் – காஸ்மிடு, YAC, SV40, இடம்பெயர் மரபணுக்கள்"
+   "title_ta": "மேம்பட்ட கடத்திகள் – காஸ்மிடு, YAC, SV40, இடம்பெயர் மரபணுக்கள்"
   },
   "animal_cell_culture.html": {
    "title": "Animal Cell Culture Techniques",
@@ -461,12 +461,12 @@
   "vectors_genetic_engineering.html": {
    "title": "Vectors in Genetic Engineering – Interactive Learning App",
    "unit": "I",
-   "title_ta": "மரபணுப் பொறியியலில் தாங்கிக்கடத்திகள் – ஊடாடும் கற்றல் செயலி"
+   "title_ta": "மரபணுப் பொறியியலில் கடத்திகள் – ஊடாடும் கற்றல் செயலி"
   },
   "atlas1_fundamentals_vectors.html": {
    "title": "Diagram Atlas I: Fundamentals & Vectors",
    "unit": "I",
-   "title_ta": "விளக்கப்பட அட்லஸ் I: அடிப்படைகளும் தாங்கிக்கடத்திகளும்"
+   "title_ta": "விளக்கப்பட அட்லஸ் I: அடிப்படைகளும் கடத்திகளும்"
   },
   "atlas2_techniques.html": {
    "title": "Diagram Atlas II: Cloning & Techniques",

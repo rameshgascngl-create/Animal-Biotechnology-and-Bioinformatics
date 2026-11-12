@@ -143,7 +143,7 @@
       },
       {
        "en": "**Cloning verification:** Confirms that the correct gene was cloned into the vector and no errors were introduced by PCR.",
-       "ta": "**குளோனாக்கச் சரிபார்ப்பு:** சரியான மரபணு தாங்கிக்கடத்தியில் குளோனாக்கப்பட்டதையும் PCR-ஆல் பிழைகள் புகவில்லை என்பதையும் உறுதிப்படுத்தும்.",
+       "ta": "**குளோனாக்கச் சரிபார்ப்பு:** சரியான மரபணு கடத்தியில் குளோனாக்கப்பட்டதையும் PCR-ஆல் பிழைகள் புகவில்லை என்பதையும் உறுதிப்படுத்தும்.",
        "ta_status": "draft"
       },
       {
@@ -1165,7 +1165,7 @@
      "kind": "tip",
      "text": {
       "en": "**Confirmation of Cloned DNA**\nVerifying that a gene was correctly inserted into a vector during cloning and that no PCR errors or mutations were introduced.",
-      "ta": "**குளோனாக்கிய DNA உறுதிப்படுத்தல்**\nகுளோனாக்கத்தின்போது மரபணு தாங்கிக்கடத்தியில் சரியாகச் செருகப்பட்டதையும் PCR பிழைகள் அல்லது திடீர்மாற்றங்கள் புகவில்லை என்பதையும் சரிபார்த்தல்.",
+      "ta": "**குளோனாக்கிய DNA உறுதிப்படுத்தல்**\nகுளோனாக்கத்தின்போது மரபணு கடத்தியில் சரியாகச் செருகப்பட்டதையும் PCR பிழைகள் அல்லது திடீர்மாற்றங்கள் புகவில்லை என்பதையும் சரிபார்த்தல்.",
       "ta_status": "draft"
      }
     },

@@ -3,7 +3,7 @@
  "unit": "I",
  "title": {
   "en": "Advanced Vectors – Cosmid, YAC, SV40 & Transposons",
-  "ta": "மேம்பட்ட தாங்கிக்கடத்திகள் – காஸ்மிட், YAC, SV40 மற்றும் டிரான்ஸ்போசான்கள்",
+  "ta": "மேம்பட்ட கடத்திகள் – காஸ்மிட், YAC, SV40 மற்றும் டிரான்ஸ்போசான்கள்",
   "ta_status": "draft"
  },
  "sections": [
@@ -29,7 +29,7 @@
    "id": "s02",
    "title": {
     "en": "Advanced Cloning Vectors",
-    "ta": "மேம்பட்ட நகலாக்கத் தாங்கிக்கடத்திகள்",
+    "ta": "மேம்பட்ட நகலாக்கக் கடத்திகள்",
     "ta_status": "draft"
    },
    "blocks": [
@@ -37,7 +37,7 @@
      "type": "p",
      "text": {
       "en": "Cosmid · YAC · Animal Vector (SV40) · Transposons as Vectors",
-      "ta": "காஸ்மிட் · YAC · விலங்குத் தாங்கிக்கடத்தி (SV40) · தாங்கிக்கடத்திகளாக டிரான்ஸ்போசான்கள்",
+      "ta": "காஸ்மிட் · YAC · விலங்குக் கடத்தி (SV40) · கடத்திகளாக டிரான்ஸ்போசான்கள்",
       "ta_status": "draft"
      }
     },
@@ -45,7 +45,7 @@
      "type": "p",
      "text": {
       "en": "An interactive academic resource covering advanced vector systems used in modern genetic engineering, genome mapping, and gene therapy — designed for undergraduate examination preparation and classroom teaching.",
-      "ta": "நவீன மரபணுப் பொறியியல், மரபணுத்தொகை வரைபடமாக்கல், மரபணு சிகிச்சையில் பயன்படும் மேம்பட்ட தாங்கிக்கடத்தி அமைப்புகளை உள்ளடக்கிய ஊடாடும் கல்வி வளம்; இளநிலைத் தேர்வுத் தயாரிப்புக்கும் வகுப்பறைக் கற்பித்தலுக்கும் வடிவமைக்கப்பட்டது.",
+      "ta": "நவீன மரபணுப் பொறியியல், மரபணுத்தொகை வரைபடமாக்கல், மரபணு சிகிச்சையில் பயன்படும் மேம்பட்ட கடத்தி அமைப்புகளை உள்ளடக்கிய ஊடாடும் கல்வி வளம்; இளநிலைத் தேர்வுத் தயாரிப்புக்கும் வகுப்பறைக் கற்பித்தலுக்கும் வடிவமைக்கப்பட்டது.",
       "ta_status": "draft"
      }
     },
@@ -63,12 +63,12 @@
      "items": [
       {
        "en": "Explain the limitations of simple plasmid vectors and the need for advanced vectors.",
-       "ta": "எளிய பிளாஸ்மிட் தாங்கிக்கடத்திகளின் வரம்புகளையும் மேம்பட்ட தாங்கிக்கடத்திகளின் தேவையையும் விளக்குதல்.",
+       "ta": "எளிய பிளாஸ்மிட் கடத்திகளின் வரம்புகளையும் மேம்பட்ட கடத்திகளின் தேவையையும் விளக்குதல்.",
        "ta_status": "draft"
       },
       {
        "en": "Describe the structure and features of cosmid vectors and their applications.",
-       "ta": "காஸ்மிட் தாங்கிக்கடத்திகளின் அமைப்பையும் சிறப்புப் பண்புகளையும் பயன்பாடுகளையும் விவரித்தல்.",
+       "ta": "காஸ்மிட் கடத்திகளின் அமைப்பையும் சிறப்புப் பண்புகளையும் பயன்பாடுகளையும் விவரித்தல்.",
        "ta_status": "draft"
       },
       {
@@ -78,17 +78,17 @@
       },
       {
        "en": "Describe SV40 as an animal cell vector and its mechanism of gene transfer.",
-       "ta": "SV40-ஐ விலங்கு செல் தாங்கிக்கடத்தியாகவும் அதன் மரபணு மாற்ற இயங்குமுறையையும் விவரித்தல்.",
+       "ta": "SV40-ஐ விலங்கு செல் கடத்தியாகவும் அதன் மரபணு மாற்ற இயங்குமுறையையும் விவரித்தல்.",
        "ta_status": "draft"
       },
       {
        "en": "Explain transposons, their mechanism of transposition, and use as cloning vectors.",
-       "ta": "டிரான்ஸ்போசான்கள், அவற்றின் இடம்பெயர்தல் இயங்குமுறை, நகலாக்கத் தாங்கிக்கடத்திகளாக அவற்றின் பயன்பாடு ஆகியவற்றை விளக்குதல்.",
+       "ta": "டிரான்ஸ்போசான்கள், அவற்றின் இடம்பெயர்தல் இயங்குமுறை, நகலாக்கக் கடத்திகளாக அவற்றின் பயன்பாடு ஆகியவற்றை விளக்குதல்.",
        "ta_status": "draft"
       },
       {
        "en": "Compare all four advanced vector types using their key features and applications.",
-       "ta": "நான்கு மேம்பட்ட தாங்கிக்கடத்தி வகைகளையும் அவற்றின் முக்கியப் பண்புகள், பயன்பாடுகளின் அடிப்படையில் ஒப்பிடுதல்.",
+       "ta": "நான்கு மேம்பட்ட கடத்தி வகைகளையும் அவற்றின் முக்கியப் பண்புகள், பயன்பாடுகளின் அடிப்படையில் ஒப்பிடுதல்.",
        "ta_status": "draft"
       }
      ]
@@ -99,7 +99,7 @@
    "id": "s03",
    "title": {
     "en": "Introduction to Advanced Vectors",
-    "ta": "மேம்பட்ட தாங்கிக்கடத்திகள் – அறிமுகம்",
+    "ta": "மேம்பட்ட கடத்திகள் – அறிமுகம்",
     "ta_status": "draft"
    },
    "blocks": [
@@ -107,7 +107,7 @@
      "type": "p",
      "text": {
       "en": "**What Is a Vector?**",
-      "ta": "**தாங்கிக்கடத்தி என்றால் என்ன?**",
+      "ta": "**கடத்தி என்றால் என்ன?**",
       "ta_status": "draft"
      }
     },
@@ -115,7 +115,7 @@
      "type": "p",
      "text": {
       "en": "A vector is a DNA molecule used to carry and deliver a foreign gene into a host cell, where it can be replicated and/or expressed. Simple vectors such as plasmids and bacteriophage lambda were developed first and remain important tools. However, they have significant limitations that led to the development of **advanced vectors**.",
-      "ta": "தாங்கிக்கடத்தி என்பது அந்நிய மரபணுவை ஓம்புயிரி செல்லுக்குள் கொண்டு சென்று, அங்கு பெருகவும்/அல்லது வெளிப்படவும் செய்யும் DNA மூலக்கூறு. பிளாஸ்மிட்கள், லாம்டா பேஜ் போன்ற எளிய தாங்கிக்கடத்திகள் முதலில் உருவாக்கப்பட்டவை; இன்றும் முக்கியக் கருவிகளாக உள்ளன. இருப்பினும் அவற்றுக்குள்ள குறிப்பிடத்தக்க வரம்புகளே **மேம்பட்ட தாங்கிக்கடத்திகள்** உருவாக்கப்படக் காரணம்.",
+      "ta": "கடத்தி என்பது அந்நிய மரபணுவை ஓம்புயிரி செல்லுக்குள் கொண்டு சென்று, அங்கு பெருகவும்/அல்லது வெளிப்படவும் செய்யும் DNA மூலக்கூறு. பிளாஸ்மிட்கள், லாம்டா பேஜ் போன்ற எளிய கடத்திகள் முதலில் உருவாக்கப்பட்டவை; இன்றும் முக்கியக் கருவிகளாக உள்ளன. இருப்பினும் அவற்றுக்குள்ள குறிப்பிடத்தக்க வரம்புகளே **மேம்பட்ட கடத்திகள்** உருவாக்கப்படக் காரணம்.",
       "ta_status": "draft"
      }
     },
@@ -123,7 +123,7 @@
      "type": "p",
      "text": {
       "en": "**Limitations of Simple Plasmid Vectors**",
-      "ta": "**எளிய பிளாஸ்மிட் தாங்கிக்கடத்திகளின் வரம்புகள்**",
+      "ta": "**எளிய பிளாஸ்மிட் கடத்திகளின் வரம்புகள்**",
       "ta_status": "draft"
      }
     },
@@ -157,7 +157,7 @@
      "type": "p",
      "text": {
       "en": "**Need for Advanced Vectors**",
-      "ta": "**மேம்பட்ட தாங்கிக்கடத்திகளின் தேவை**",
+      "ta": "**மேம்பட்ட கடத்திகளின் தேவை**",
       "ta_status": "draft"
      }
     },
@@ -166,7 +166,7 @@
      "kind": "info",
      "text": {
       "en": "**Advanced vectors were developed to:** carry very large DNA inserts (up to several hundred kb), function in eukaryotic hosts (yeast, animal cells, plants), integrate stably into the host genome, and enable the cloning of entire genes including their regulatory regions.",
-      "ta": "**மேம்பட்ட தாங்கிக்கடத்திகள் உருவாக்கப்பட்ட நோக்கங்கள்:** மிகப் பெரிய DNA செருகுகளை (பல நூறு kb வரை) ஏற்றல், யூகேரியோட்டு ஓம்புயிரிகளில் (ஈஸ்ட், விலங்கு செல்கள், தாவரங்கள்) செயல்படுதல், ஓம்புயிரி மரபணுத்தொகையில் நிலையாக இணைதல், ஒழுங்குபடுத்தும் பகுதிகளுடன் முழு மரபணுக்களையும் நகலாக்க உதவுதல்.",
+      "ta": "**மேம்பட்ட கடத்திகள் உருவாக்கப்பட்ட நோக்கங்கள்:** மிகப் பெரிய DNA செருகுகளை (பல நூறு kb வரை) ஏற்றல், யூகேரியோட்டு ஓம்புயிரிகளில் (ஈஸ்ட், விலங்கு செல்கள், தாவரங்கள்) செயல்படுதல், ஓம்புயிரி மரபணுத்தொகையில் நிலையாக இணைதல், ஒழுங்குபடுத்தும் பகுதிகளுடன் முழு மரபணுக்களையும் நகலாக்க உதவுதல்.",
       "ta_status": "draft"
      }
     },
@@ -214,7 +214,7 @@
      "type": "p",
      "text": {
       "en": "Animal virus vector. Delivers genes into mammalian cells. Used in gene expression studies.",
-      "ta": "விலங்கு வைரஸ் தாங்கிக்கடத்தி. பாலூட்டி செல்களுக்குள் மரபணுக்களைச் செலுத்தும். மரபணு வெளிப்பாட்டு ஆய்வுகளில் பயன்படுகிறது.",
+      "ta": "விலங்கு வைரஸ் கடத்தி. பாலூட்டி செல்களுக்குள் மரபணுக்களைச் செலுத்தும். மரபணு வெளிப்பாட்டு ஆய்வுகளில் பயன்படுகிறது.",
       "ta_status": "draft"
      }
     },
@@ -242,7 +242,7 @@
    "id": "s04",
    "title": {
     "en": "Cosmid Vectors",
-    "ta": "காஸ்மிட் தாங்கிக்கடத்திகள்",
+    "ta": "காஸ்மிட் கடத்திகள்",
     "ta_status": "draft"
    },
    "blocks": [
@@ -258,7 +258,7 @@
      "type": "p",
      "text": {
       "en": "A cosmid is a **hybrid cloning vector** that combines features of a plasmid with the **cos sites** of bacteriophage lambda. The name comes from _cos_ (cohesive end site) + _plasmid_. Cosmids were developed by Collins and Hohn in 1978.",
-      "ta": "காஸ்மிட் என்பது பிளாஸ்மிட்டின் பண்புகளையும் பாக்டீரியோஃபேஜ் லாம்டாவின் **cos களங்களையும்** இணைக்கும் **கலப்பின நகலாக்கத் தாங்கிக்கடத்தி**. _cos_ (ஒட்டும் முனைக் களம்) + _plasmid_ என்பதிலிருந்து இப்பெயர் வந்தது. காஸ்மிட்கள் 1978-ல் காலின்ஸ் மற்றும் ஹோன் ஆகியோரால் உருவாக்கப்பட்டன.",
+      "ta": "காஸ்மிட் என்பது பிளாஸ்மிட்டின் பண்புகளையும் பாக்டீரியோஃபேஜ் லாம்டாவின் **cos களங்களையும்** இணைக்கும் **கலப்பின நகலாக்கக் கடத்தி**. _cos_ (ஒட்டும் முனைக் களம்) + _plasmid_ என்பதிலிருந்து இப்பெயர் வந்தது. காஸ்மிட்கள் 1978-ல் காலின்ஸ் மற்றும் ஹோன் ஆகியோரால் உருவாக்கப்பட்டன.",
       "ta_status": "draft"
      }
     },
@@ -291,7 +291,7 @@
       },
       {
        "en": "**Size of cosmid vector itself:** Only ~5–6 kb (small backbone), which is why it can accommodate very large inserts.",
-       "ta": "**காஸ்மிட் தாங்கிக்கடத்தியின் அளவு:** ~5–6 kb மட்டுமே (சிறிய முதுகெலும்பு); அதனாலேயே மிகப் பெரிய செருகுகளை ஏற்க முடிகிறது.",
+       "ta": "**காஸ்மிட் கடத்தியின் அளவு:** ~5–6 kb மட்டுமே (சிறிய முதுகெலும்பு); அதனாலேயே மிகப் பெரிய செருகுகளை ஏற்க முடிகிறது.",
        "ta_status": "draft"
       }
      ]
@@ -382,7 +382,7 @@
      "items": [
       {
        "en": "Large foreign DNA is cut with a restriction enzyme and ligated into the cosmid vector.",
-       "ta": "பெரிய அந்நிய DNA ரெஸ்ட்ரிக்ஷன் நொதியால் வெட்டப்பட்டுக் காஸ்மிட் தாங்கிக்கடத்தியில் இணைக்கப்படுகிறது.",
+       "ta": "பெரிய அந்நிய DNA ரெஸ்ட்ரிக்ஷன் நொதியால் வெட்டப்பட்டுக் காஸ்மிட் கடத்தியில் இணைக்கப்படுகிறது.",
        "ta_status": "draft"
       },
       {
@@ -498,7 +498,7 @@
      "type": "p",
      "text": {
       "en": "A Yeast Artificial Chromosome (YAC) is a vector constructed to behave like a functional eukaryotic chromosome inside _Saccharomyces cerevisiae_ (baker's yeast). It can accept and stably maintain enormous fragments of foreign DNA — from **200 kb to 2 Mb (2,000 kb)**. YACs were developed by Burke, Carle, and Olson in 1987.",
-      "ta": "ஈஸ்ட் செயற்கை குரோமோசோம் (YAC) என்பது _Saccharomyces cerevisiae_ (பேக்கரி ஈஸ்ட்) செல்லுக்குள் செயல்படும் யூகேரியோட்டு குரோமோசோம் போல நடந்துகொள்ளுமாறு உருவாக்கப்பட்ட தாங்கிக்கடத்தி. **200 kb முதல் 2 Mb (2,000 kb)** வரையிலான மிகப் பெரிய அந்நிய DNA துண்டுகளை ஏற்று நிலையாகப் பராமரிக்கும். YAC-கள் 1987-ல் பர்க், கார்ல், ஓல்சன் ஆகியோரால் உருவாக்கப்பட்டன.",
+      "ta": "ஈஸ்ட் செயற்கை குரோமோசோம் (YAC) என்பது _Saccharomyces cerevisiae_ (பேக்கரி ஈஸ்ட்) செல்லுக்குள் செயல்படும் யூகேரியோட்டு குரோமோசோம் போல நடந்துகொள்ளுமாறு உருவாக்கப்பட்ட கடத்தி. **200 kb முதல் 2 Mb (2,000 kb)** வரையிலான மிகப் பெரிய அந்நிய DNA துண்டுகளை ஏற்று நிலையாகப் பராமரிக்கும். YAC-கள் 1987-ல் பர்க், கார்ல், ஓல்சன் ஆகியோரால் உருவாக்கப்பட்டன.",
       "ta_status": "draft"
      }
     },
@@ -572,7 +572,7 @@
      "items": [
       {
        "en": "The YAC vector (linear or circular) is digested with restriction enzymes to generate **left arm** (TEL + CEN + ARS + marker) and **right arm** (TEL + marker).",
-       "ta": "YAC தாங்கிக்கடத்தி (நேர்கோட்டு அல்லது வட்ட வடிவ) ரெஸ்ட்ரிக்ஷன் நொதிகளால் வெட்டப்பட்டு **இடது கரம்** (TEL + CEN + ARS + அடையாளக்குறி), **வலது கரம்** (TEL + அடையாளக்குறி) உருவாக்கப்படுகின்றன.",
+       "ta": "YAC கடத்தி (நேர்கோட்டு அல்லது வட்ட வடிவ) ரெஸ்ட்ரிக்ஷன் நொதிகளால் வெட்டப்பட்டு **இடது கரம்** (TEL + CEN + ARS + அடையாளக்குறி), **வலது கரம்** (TEL + அடையாளக்குறி) உருவாக்கப்படுகின்றன.",
        "ta_status": "draft"
       },
       {
@@ -612,7 +612,7 @@
      "type": "p",
      "text": {
       "en": "200 kb to 2,000 kb (2 Mb). Largest capacity of all standard cloning vectors.",
-      "ta": "200 kb முதல் 2,000 kb (2 Mb). நிலையான நகலாக்கத் தாங்கிக்கடத்திகளில் மிகப் பெரிய கொள்ளளவு.",
+      "ta": "200 kb முதல் 2,000 kb (2 Mb). நிலையான நகலாக்கக் கடத்திகளில் மிகப் பெரிய கொள்ளளவு.",
       "ta_status": "draft"
      }
     },
@@ -715,7 +715,7 @@
    "id": "s06",
    "title": {
     "en": "Animal Vector – SV40 (Simian Virus 40)",
-    "ta": "விலங்குத் தாங்கிக்கடத்தி – SV40 (சிமியன் வைரஸ் 40)",
+    "ta": "விலங்குக் கடத்தி – SV40 (சிமியன் வைரஸ் 40)",
     "ta_status": "draft"
    },
    "blocks": [
@@ -731,7 +731,7 @@
      "type": "p",
      "text": {
       "en": "SV40 (Simian Virus 40) is a small **double-stranded circular DNA virus** that naturally infects African green monkeys and can also infect certain human cells. It was one of the first animal viruses used as a **cloning vector** for introducing foreign genes into mammalian cells.",
-      "ta": "SV40 (சிமியன் வைரஸ் 40) என்பது ஆப்பிரிக்கப் பச்சைக் குரங்குகளை இயற்கையாகத் தொற்றும், சில மனித செல்களையும் தொற்றக்கூடிய சிறிய **இரட்டை இழை வட்ட DNA வைரஸ்**. பாலூட்டி செல்களுக்குள் அந்நிய மரபணுக்களைச் செலுத்த **நகலாக்கத் தாங்கிக்கடத்தியாக** முதலில் பயன்படுத்தப்பட்ட விலங்கு வைரஸ்களில் ஒன்று.",
+      "ta": "SV40 (சிமியன் வைரஸ் 40) என்பது ஆப்பிரிக்கப் பச்சைக் குரங்குகளை இயற்கையாகத் தொற்றும், சில மனித செல்களையும் தொற்றக்கூடிய சிறிய **இரட்டை இழை வட்ட DNA வைரஸ்**. பாலூட்டி செல்களுக்குள் அந்நிய மரபணுக்களைச் செலுத்த **நகலாக்கக் கடத்தியாக** முதலில் பயன்படுத்தப்பட்ட விலங்கு வைரஸ்களில் ஒன்று.",
       "ta_status": "draft"
      }
     },
@@ -790,7 +790,7 @@
       },
       {
        "en": "**Transcription regulatory region:** Contains promoters and enhancers used in recombinant expression vectors.",
-       "ta": "**படியெடுத்தல் ஒழுங்குபடுத்தும் பகுதி:** மறுகூட்டிணைவு வெளிப்பாட்டுத் தாங்கிக்கடத்திகளில் பயன்படும் புரோமோட்டர்களையும் என்ஹேன்சர்களையும் கொண்டுள்ளது.",
+       "ta": "**படியெடுத்தல் ஒழுங்குபடுத்தும் பகுதி:** மறுகூட்டிணைவு வெளிப்பாட்டுக் கடத்திகளில் பயன்படும் புரோமோட்டர்களையும் என்ஹேன்சர்களையும் கொண்டுள்ளது.",
        "ta_status": "draft"
       }
      ]
@@ -823,7 +823,7 @@
      "type": "p",
      "text": {
       "en": "**Mechanism of Gene Transfer Using SV40 Vector**",
-      "ta": "**SV40 தாங்கிக்கடத்தி மூலம் மரபணு மாற்ற இயங்குமுறை**",
+      "ta": "**SV40 கடத்தி மூலம் மரபணு மாற்ற இயங்குமுறை**",
       "ta_status": "draft"
      }
     },
@@ -863,7 +863,7 @@
      "kind": "info",
      "text": {
       "en": "**COS Cell System:** COS cells (CV-1 Origin, SV40) are monkey kidney cells stably expressing the SV40 Large T antigen. When recombinant SV40 vectors with ori are introduced into COS cells, they replicate to very high copy numbers — enabling high-level transient gene expression.",
-      "ta": "**COS செல் அமைப்பு:** COS செல்கள் (CV-1 தோற்றம், SV40) SV40 பெரிய T எதிர்ப்பொருளை நிலையாக வெளிப்படுத்தும் குரங்குச் சிறுநீரக செல்கள். ori-யுடன் கூடிய மறுகூட்டிணைவு SV40 தாங்கிக்கடத்திகள் COS செல்களுக்குள் செலுத்தப்படும்போது மிக உயர் நகல் எண்ணிக்கைக்குப் பெருகி, உயர்மட்டத் தற்காலிக மரபணு வெளிப்பாட்டை இயலச் செய்கின்றன.",
+      "ta": "**COS செல் அமைப்பு:** COS செல்கள் (CV-1 தோற்றம், SV40) SV40 பெரிய T எதிர்ப்பொருளை நிலையாக வெளிப்படுத்தும் குரங்குச் சிறுநீரக செல்கள். ori-யுடன் கூடிய மறுகூட்டிணைவு SV40 கடத்திகள் COS செல்களுக்குள் செலுத்தப்படும்போது மிக உயர் நகல் எண்ணிக்கைக்குப் பெருகி, உயர்மட்டத் தற்காலிக மரபணு வெளிப்பாட்டை இயலச் செய்கின்றன.",
       "ta_status": "draft"
      }
     },
@@ -891,7 +891,7 @@
       },
       {
        "en": "SV40 promoter and enhancer sequences are used in many mammalian expression vectors (e.g., pcDNA3.1).",
-       "ta": "SV40 புரோமோட்டர், என்ஹேன்சர் வரிசைகள் பல பாலூட்டி வெளிப்பாட்டுத் தாங்கிக்கடத்திகளில் (எ.கா. pcDNA3.1) பயன்படுகின்றன.",
+       "ta": "SV40 புரோமோட்டர், என்ஹேன்சர் வரிசைகள் பல பாலூட்டி வெளிப்பாட்டுக் கடத்திகளில் (எ.கா. pcDNA3.1) பயன்படுகின்றன.",
        "ta_status": "draft"
       },
       {
@@ -925,7 +925,7 @@
       },
       {
        "en": "Largely replaced by safer and more efficient viral vectors (retroviruses, adenoviruses, AAV) in modern gene therapy.",
-       "ta": "நவீன மரபணு சிகிச்சையில் பாதுகாப்பான, திறன் மிக்க வைரஸ் தாங்கிக்கடத்திகளால் (ரெட்ரோவைரஸ்கள், அடினோவைரஸ்கள், AAV) பெருமளவு மாற்றப்பட்டுவிட்டது.",
+       "ta": "நவீன மரபணு சிகிச்சையில் பாதுகாப்பான, திறன் மிக்க வைரஸ் கடத்திகளால் (ரெட்ரோவைரஸ்கள், அடினோவைரஸ்கள், AAV) பெருமளவு மாற்றப்பட்டுவிட்டது.",
        "ta_status": "draft"
       }
      ]
@@ -938,7 +938,7 @@
    "id": "s07",
    "title": {
     "en": "Transposons as Vectors",
-    "ta": "தாங்கிக்கடத்திகளாக டிரான்ஸ்போசான்கள்",
+    "ta": "கடத்திகளாக டிரான்ஸ்போசான்கள்",
     "ta_status": "draft"
    },
    "blocks": [
@@ -1054,7 +1054,7 @@
      "type": "p",
      "text": {
       "en": "**Use of Transposons as Vectors in Genetic Engineering**",
-      "ta": "**மரபணுப் பொறியியலில் தாங்கிக்கடத்திகளாக டிரான்ஸ்போசான்களின் பயன்பாடு**",
+      "ta": "**மரபணுப் பொறியியலில் கடத்திகளாக டிரான்ஸ்போசான்களின் பயன்பாடு**",
       "ta_status": "draft"
      }
     },
@@ -1079,7 +1079,7 @@
       },
       {
        "en": "**Transposon delivery systems:** The _Tn5_ transposome system and _P element_ vectors are used for generating transgenic organisms.",
-       "ta": "**டிரான்ஸ்போசான் செலுத்து அமைப்புகள்:** _Tn5_ டிரான்ஸ்போசோம் அமைப்பும் _P கூறு_ தாங்கிக்கடத்திகளும் மாற்றுயிர் உயிரினங்களை உருவாக்கப் பயன்படுகின்றன.",
+       "ta": "**டிரான்ஸ்போசான் செலுத்து அமைப்புகள்:** _Tn5_ டிரான்ஸ்போசோம் அமைப்பும் _P கூறு_ கடத்திகளும் மாற்றுயிர் உயிரினங்களை உருவாக்கப் பயன்படுகின்றன.",
        "ta_status": "draft"
       },
       {
@@ -1094,7 +1094,7 @@
      "kind": "tip",
      "text": {
       "en": "**Sleeping Beauty (SB) Transposon:** A reconstructed \"ancient\" fish transposon, reactivated through molecular evolution. One of the most promising non-viral gene therapy vectors — integrates stably into mammalian genomes with near-random insertion preference (AT-rich TA dinucleotides).",
-      "ta": "**Sleeping Beauty (SB) டிரான்ஸ்போசான்:** மூலக்கூறு பரிணாமம் மூலம் மீண்டும் செயல்படுத்தப்பட்ட, மறுகட்டமைக்கப்பட்ட \"பண்டைய\" மீன் டிரான்ஸ்போசான். மிகவும் நம்பிக்கையளிக்கும் வைரஸ் அல்லாத மரபணு சிகிச்சைத் தாங்கிக்கடத்திகளில் ஒன்று; பாலூட்டி மரபணுத்தொகைகளில் ஏறத்தாழ தற்செயலான செருகல் விருப்புடன் (AT நிறைந்த TA இருநியூக்ளியோடைடுகள்) நிலையாக இணைகிறது.",
+      "ta": "**Sleeping Beauty (SB) டிரான்ஸ்போசான்:** மூலக்கூறு பரிணாமம் மூலம் மீண்டும் செயல்படுத்தப்பட்ட, மறுகட்டமைக்கப்பட்ட \"பண்டைய\" மீன் டிரான்ஸ்போசான். மிகவும் நம்பிக்கையளிக்கும் வைரஸ் அல்லாத மரபணு சிகிச்சைக் கடத்திகளில் ஒன்று; பாலூட்டி மரபணுத்தொகைகளில் ஏறத்தாழ தற்செயலான செருகல் விருப்புடன் (AT நிறைந்த TA இருநியூக்ளியோடைடுகள்) நிலையாக இணைகிறது.",
       "ta_status": "draft"
      }
     },
@@ -1102,7 +1102,7 @@
      "type": "p",
      "text": {
       "en": "**Advantages of Transposons as Vectors**",
-      "ta": "**தாங்கிக்கடத்திகளாக டிரான்ஸ்போசான்களின் நன்மைகள்**",
+      "ta": "**கடத்திகளாக டிரான்ஸ்போசான்களின் நன்மைகள்**",
       "ta_status": "draft"
      }
     },
@@ -1112,7 +1112,7 @@
      "items": [
       {
        "en": "No size limitation from viral capsids — can carry larger genes than many viral vectors.",
-       "ta": "வைரஸ் கேப்சிட்களால் அளவு வரம்பு இல்லை — பல வைரஸ் தாங்கிக்கடத்திகளை விடப் பெரிய மரபணுக்களைச் சுமக்க முடியும்.",
+       "ta": "வைரஸ் கேப்சிட்களால் அளவு வரம்பு இல்லை — பல வைரஸ் கடத்திகளை விடப் பெரிய மரபணுக்களைச் சுமக்க முடியும்.",
        "ta_status": "draft"
       },
       {
@@ -1156,7 +1156,7 @@
      "type": "p",
      "text": {
       "en": "Fig. 1 — Cosmid Vector Structure",
-      "ta": "படம் 1 — காஸ்மிட் தாங்கிக்கடத்தியின் அமைப்பு",
+      "ta": "படம் 1 — காஸ்மிட் கடத்தியின் அமைப்பு",
       "ta_status": "draft"
      }
     },
@@ -1165,7 +1165,7 @@
      "id": "advanced_vectors_cosmid_yac_sv40_transposons-d01",
      "caption": {
       "en": "Cosmid vector diagram",
-      "ta": "காஸ்மிட் தாங்கிக்கடத்தி படம்",
+      "ta": "காஸ்மிட் கடத்தி படம்",
       "ta_status": "draft"
      },
      "labels": [
@@ -1335,7 +1335,7 @@
    "id": "s09",
    "title": {
     "en": "Gene Transfer Flow: Advanced Vectors",
-    "ta": "மரபணு மாற்றப் பாய்வு: மேம்பட்ட தாங்கிக்கடத்திகள்",
+    "ta": "மரபணு மாற்றப் பாய்வு: மேம்பட்ட கடத்திகள்",
     "ta_status": "draft"
    },
    "blocks": [
@@ -1362,7 +1362,7 @@
      "items": [
       {
        "en": "2 ✂️ Clone into Advanced Vector The large DNA fragment is ligated into the appropriate vector: Cosmid (35–45 kb), YAC (200 kb–2 Mb), SV40 (~2.5 kb), or a transposon-based system. The insert and vector are joined using DNA ligase.",
-       "ta": "2 ✂️ மேம்பட்ட தாங்கிக்கடத்தியில் நகலாக்குதல். பெரிய DNA துண்டு ஏற்ற தாங்கிக்கடத்தியில் இணைக்கப்படுகிறது: காஸ்மிட் (35–45 kb), YAC (200 kb–2 Mb), SV40 (~2.5 kb) அல்லது டிரான்ஸ்போசான் அடிப்படையிலான அமைப்பு. செருகியும் தாங்கிக்கடத்தியும் DNA லைகேஸால் இணைக்கப்படுகின்றன.",
+       "ta": "2 ✂️ மேம்பட்ட கடத்தியில் நகலாக்குதல். பெரிய DNA துண்டு ஏற்ற கடத்தியில் இணைக்கப்படுகிறது: காஸ்மிட் (35–45 kb), YAC (200 kb–2 Mb), SV40 (~2.5 kb) அல்லது டிரான்ஸ்போசான் அடிப்படையிலான அமைப்பு. செருகியும் கடத்தியும் DNA லைகேஸால் இணைக்கப்படுகின்றன.",
        "ta_status": "draft"
       }
      ]
@@ -1405,7 +1405,7 @@
    "id": "s10",
    "title": {
     "en": "Comparison of Advanced Cloning Vectors",
-    "ta": "மேம்பட்ட நகலாக்கத் தாங்கிக்கடத்திகளின் ஒப்பீடு",
+    "ta": "மேம்பட்ட நகலாக்கக் கடத்திகளின் ஒப்பீடு",
     "ta_status": "draft"
    },
    "blocks": [
@@ -1474,22 +1474,22 @@
        },
        {
         "en": "Hybrid vector (plasmid + cos)",
-        "ta": "கலப்பினத் தாங்கிக்கடத்தி (பிளாஸ்மிட் + cos)",
+        "ta": "கலப்பினக் கடத்தி (பிளாஸ்மிட் + cos)",
         "ta_status": "draft"
        },
        {
         "en": "Artificial chromosome vector",
-        "ta": "செயற்கை குரோமோசோம் தாங்கிக்கடத்தி",
+        "ta": "செயற்கை குரோமோசோம் கடத்தி",
         "ta_status": "draft"
        },
        {
         "en": "Animal virus vector",
-        "ta": "விலங்கு வைரஸ் தாங்கிக்கடத்தி",
+        "ta": "விலங்கு வைரஸ் கடத்தி",
         "ta_status": "draft"
        },
        {
         "en": "Mobile genetic element vector",
-        "ta": "இடம்பெயரும் மரபணுக் கூறு தாங்கிக்கடத்தி",
+        "ta": "இடம்பெயரும் மரபணுக் கூறு கடத்தி",
         "ta_status": "draft"
        }
       ],
@@ -1705,7 +1705,7 @@
        },
        {
         "en": "Random insertion (genotoxic risk); lower efficiency than some viral vectors",
-        "ta": "தற்செயலான செருகல் (மரபணு நச்சு ஆபத்து); சில வைரஸ் தாங்கிக்கடத்திகளை விடக் குறைந்த திறன்",
+        "ta": "தற்செயலான செருகல் (மரபணு நச்சு ஆபத்து); சில வைரஸ் கடத்திகளை விடக் குறைந்த திறன்",
         "ta_status": "draft"
        }
       ],
@@ -1762,7 +1762,7 @@
      "type": "p",
      "text": {
       "en": "Hybrid Vector",
-      "ta": "கலப்பினத் தாங்கிக்கடத்தி",
+      "ta": "கலப்பினக் கடத்தி",
       "ta_status": "draft"
      }
     },
@@ -1843,7 +1843,7 @@
       },
       {
        "en": "Insert capacity: **200 kb to 2,000 kb (2 Mb)** — largest of all vectors.",
-       "ta": "செருகு கொள்ளளவு: **200 kb முதல் 2,000 kb (2 Mb)** — அனைத்துத் தாங்கிக்கடத்திகளிலும் மிகப் பெரியது.",
+       "ta": "செருகு கொள்ளளவு: **200 kb முதல் 2,000 kb (2 Mb)** — அனைத்துக் கடத்திகளிலும் மிகப் பெரியது.",
        "ta_status": "draft"
       },
       {
@@ -1884,7 +1884,7 @@
      "type": "p",
      "text": {
       "en": "Animal Virus Vector",
-      "ta": "விலங்கு வைரஸ் தாங்கிக்கடத்தி",
+      "ta": "விலங்கு வைரஸ் கடத்தி",
       "ta_status": "draft"
      }
     },
@@ -1919,12 +1919,12 @@
       },
       {
        "en": "**COS cells** (express Large T antigen) allow episomal amplification of SV40 vectors to very high copy numbers.",
-       "ta": "**COS செல்கள்** (பெரிய T எதிர்ப்பொருளை வெளிப்படுத்துபவை) SV40 தாங்கிக்கடத்திகளை மிக உயர் நகல் எண்ணிக்கைக்கு எபிசோமாகப் பெருக்க அனுமதிக்கின்றன.",
+       "ta": "**COS செல்கள்** (பெரிய T எதிர்ப்பொருளை வெளிப்படுத்துபவை) SV40 கடத்திகளை மிக உயர் நகல் எண்ணிக்கைக்கு எபிசோமாகப் பெருக்க அனுமதிக்கின்றன.",
        "ta_status": "draft"
       },
       {
        "en": "SV40 ori + promoter/enhancer sequences used in modern mammalian expression vectors.",
-       "ta": "SV40 ori + புரோமோட்டர்/என்ஹேன்சர் வரிசைகள் நவீன பாலூட்டி வெளிப்பாட்டுத் தாங்கிக்கடத்திகளில் பயன்படுகின்றன.",
+       "ta": "SV40 ori + புரோமோட்டர்/என்ஹேன்சர் வரிசைகள் நவீன பாலூட்டி வெளிப்பாட்டுக் கடத்திகளில் பயன்படுகின்றன.",
        "ta_status": "draft"
       }
      ]
@@ -2127,7 +2127,7 @@
      "type": "p",
      "text": {
       "en": "**Cosmid Definition**Hybrid vector = plasmid backbone + lambda cos sites. Developed by Collins & Hohn (1978). Insert capacity: 35–45 kb.",
-      "ta": "**காஸ்மிட் வரையறை**கலப்பினத் தாங்கிக்கடத்தி = பிளாஸ்மிட் முதுகெலும்பு + லாம்டா cos களங்கள். காலின்ஸ் & ஹோன் (1978) உருவாக்கியது. செருகு கொள்ளளவு: 35–45 kb.",
+      "ta": "**காஸ்மிட் வரையறை**கலப்பினக் கடத்தி = பிளாஸ்மிட் முதுகெலும்பு + லாம்டா cos களங்கள். காலின்ஸ் & ஹோன் (1978) உருவாக்கியது. செருகு கொள்ளளவு: 35–45 kb.",
       "ta_status": "draft"
      }
     },
@@ -2167,7 +2167,7 @@
      "type": "p",
      "text": {
       "en": "**COS Cells**Monkey kidney cells expressing SV40 Large T antigen. Allow episomal replication of SV40 vectors to high copy numbers for transient expression.",
-      "ta": "**COS செல்கள்**SV40 பெரிய T எதிர்ப்பொருளை வெளிப்படுத்தும் குரங்குச் சிறுநீரக செல்கள். தற்காலிக வெளிப்பாட்டுக்காக SV40 தாங்கிக்கடத்திகளை உயர் நகல் எண்ணிக்கைக்கு எபிசோமாகப் பெருக்க அனுமதிக்கின்றன.",
+      "ta": "**COS செல்கள்**SV40 பெரிய T எதிர்ப்பொருளை வெளிப்படுத்தும் குரங்குச் சிறுநீரக செல்கள். தற்காலிக வெளிப்பாட்டுக்காக SV40 கடத்திகளை உயர் நகல் எண்ணிக்கைக்கு எபிசோமாகப் பெருக்க அனுமதிக்கின்றன.",
       "ta_status": "draft"
      }
     },
@@ -2240,7 +2240,7 @@
      },
      "definition": {
       "en": "A hybrid cloning vector that combines a plasmid origin of replication and selectable marker with the lambda phage cos sites for in vitro packaging. Accepts 35–45 kb inserts; replicates in E. coli.",
-      "ta": "பிளாஸ்மிட் பெருக்கத் தோற்றம், தேர்ந்தெடுக்கும் அடையாளக்குறி ஆகியவற்றுடன் இன்-விட்ரோ பொதிதலுக்கான லாம்டா பேஜ் cos களங்களை இணைக்கும் கலப்பின நகலாக்கத் தாங்கிக்கடத்தி. 35–45 kb செருகுகளை ஏற்கும்; E. coli-யில் பெருகும்.",
+      "ta": "பிளாஸ்மிட் பெருக்கத் தோற்றம், தேர்ந்தெடுக்கும் அடையாளக்குறி ஆகியவற்றுடன் இன்-விட்ரோ பொதிதலுக்கான லாம்டா பேஜ் cos களங்களை இணைக்கும் கலப்பின நகலாக்கக் கடத்தி. 35–45 kb செருகுகளை ஏற்கும்; E. coli-யில் பெருகும்.",
       "ta_status": "draft"
      }
     },
@@ -2326,7 +2326,7 @@
      "type": "glossary",
      "term": {
       "en": "Vector",
-      "ta": "தாங்கிக்கடத்தி",
+      "ta": "கடத்தி",
       "ta_status": "draft"
      },
      "definition": {
@@ -2344,7 +2344,7 @@
      },
      "definition": {
       "en": "The foreign DNA fragment (gene of interest) that is cloned into a vector for propagation and/or expression. The insert is ligated into the vector's multiple cloning site (MCS) after restriction enzyme digestion.",
-      "ta": "பெருக்கத்துக்கும்/வெளிப்பாட்டுக்கும் தாங்கிக்கடத்தியில் நகலாக்கப்படும் அந்நிய DNA துண்டு (தேவையான மரபணு). ரெஸ்ட்ரிக்ஷன் நொதி வெட்டலுக்குப் பின் தாங்கிக்கடத்தியின் பல நகலாக்கக் களத்தில் (MCS) இணைக்கப்படுகிறது.",
+      "ta": "பெருக்கத்துக்கும்/வெளிப்பாட்டுக்கும் கடத்தியில் நகலாக்கப்படும் அந்நிய DNA துண்டு (தேவையான மரபணு). ரெஸ்ட்ரிக்ஷன் நொதி வெட்டலுக்குப் பின் கடத்தியின் பல நகலாக்கக் களத்தில் (MCS) இணைக்கப்படுகிறது.",
       "ta_status": "draft"
      }
     },
@@ -2357,7 +2357,7 @@
      },
      "definition": {
       "en": "The cell into which a recombinant vector is introduced. Provides cellular machinery for vector replication and gene expression. Different vectors require different hosts: bacteria, yeast, mammalian cells.",
-      "ta": "மறுகூட்டிணைவுத் தாங்கிக்கடத்தி செலுத்தப்படும் செல். தாங்கிக்கடத்தி பெருகவும் மரபணு வெளிப்படவும் தேவையான செல் இயங்குமுறையை வழங்குகிறது. வெவ்வேறு தாங்கிக்கடத்திகளுக்கு வெவ்வேறு ஓம்புயிரிகள் (பாக்டீரியா, ஈஸ்ட், பாலூட்டி செல்கள்) தேவை.",
+      "ta": "மறுகூட்டிணைவுக் கடத்தி செலுத்தப்படும் செல். கடத்தி பெருகவும் மரபணு வெளிப்படவும் தேவையான செல் இயங்குமுறையை வழங்குகிறது. வெவ்வேறு கடத்திகளுக்கு வெவ்வேறு ஓம்புயிரிகள் (பாக்டீரியா, ஈஸ்ட், பாலூட்டி செல்கள்) தேவை.",
       "ta_status": "draft"
      }
     },
@@ -2411,7 +2411,7 @@
      "type": "p",
      "text": {
       "en": "**1. What is a cosmid? Describe its structure and explain how it is used as a cloning vector.**",
-      "ta": "**1. காஸ்மிட் என்றால் என்ன? அதன் அமைப்பை விவரித்து, நகலாக்கத் தாங்கிக்கடத்தியாக எவ்வாறு பயன்படுகிறது என்பதை விளக்குக.**",
+      "ta": "**1. காஸ்மிட் என்றால் என்ன? அதன் அமைப்பை விவரித்து, நகலாக்கக் கடத்தியாக எவ்வாறு பயன்படுகிறது என்பதை விளக்குக.**",
       "ta_status": "draft"
      }
     },
@@ -2429,7 +2429,7 @@
      "items": [
       {
        "en": "Define cosmid: hybrid vector = plasmid backbone + lambda cos sites. Coined from \"cos + plasmid.\"",
-       "ta": "காஸ்மிட்டை வரையறு: கலப்பினத் தாங்கிக்கடத்தி = பிளாஸ்மிட் முதுகெலும்பு + லாம்டா cos களங்கள். \"cos + plasmid\" என்பதிலிருந்து உருவான பெயர்.",
+       "ta": "காஸ்மிட்டை வரையறு: கலப்பினக் கடத்தி = பிளாஸ்மிட் முதுகெலும்பு + லாம்டா cos களங்கள். \"cos + plasmid\" என்பதிலிருந்து உருவான பெயர்.",
        "ta_status": "draft"
       },
       {
@@ -2520,7 +2520,7 @@
      "type": "p",
      "text": {
       "en": "**3. Describe SV40 as an animal cell vector. What is the role of Large T antigen in SV40 biology?**",
-      "ta": "**3. SV40-ஐ விலங்கு செல் தாங்கிக்கடத்தியாக விவரிக்க. SV40 உயிரியலில் பெரிய T எதிர்ப்பொருளின் பங்கு என்ன?**",
+      "ta": "**3. SV40-ஐ விலங்கு செல் கடத்தியாக விவரிக்க. SV40 உயிரியலில் பெரிய T எதிர்ப்பொருளின் பங்கு என்ன?**",
       "ta_status": "draft"
      }
     },
@@ -2553,12 +2553,12 @@
       },
       {
        "en": "Vector use: late region removed → replaced with gene of interest → packaged using helper cell providing capsid proteins → infects mammalian cells → transient or stable expression.",
-       "ta": "தாங்கிக்கடத்திப் பயன்பாடு: பிந்தைய பகுதி நீக்கப்பட்டு → தேவையான மரபணு பதிலீடு → கேப்சிட் புரதங்களை வழங்கும் உதவி செல் மூலம் பொதிக்கப்படுகிறது → பாலூட்டி செல்களைத் தொற்றுகிறது → தற்காலிக அல்லது நிலையான வெளிப்பாடு.",
+       "ta": "கடத்திப் பயன்பாடு: பிந்தைய பகுதி நீக்கப்பட்டு → தேவையான மரபணு பதிலீடு → கேப்சிட் புரதங்களை வழங்கும் உதவி செல் மூலம் பொதிக்கப்படுகிறது → பாலூட்டி செல்களைத் தொற்றுகிறது → தற்காலிக அல்லது நிலையான வெளிப்பாடு.",
        "ta_status": "draft"
       },
       {
        "en": "COS cells (COS-1, COS-7): CV-1 monkey cells stably expressing LT-Ag; SV40 ori-containing vectors replicate episomally to very high copy numbers → high-level transient protein expression.",
-       "ta": "COS செல்கள் (COS-1, COS-7): LT-Ag-ஐ நிலையாக வெளிப்படுத்தும் CV-1 குரங்கு செல்கள்; SV40 ori-யுள்ள தாங்கிக்கடத்திகள் எபிசோமாக மிக உயர் நகல் எண்ணிக்கைக்குப் பெருகி → உயர்மட்டத் தற்காலிகப் புரத வெளிப்பாடு.",
+       "ta": "COS செல்கள் (COS-1, COS-7): LT-Ag-ஐ நிலையாக வெளிப்படுத்தும் CV-1 குரங்கு செல்கள்; SV40 ori-யுள்ள கடத்திகள் எபிசோமாக மிக உயர் நகல் எண்ணிக்கைக்குப் பெருகி → உயர்மட்டத் தற்காலிகப் புரத வெளிப்பாடு.",
        "ta_status": "draft"
       },
       {
@@ -2572,7 +2572,7 @@
      "type": "p",
      "text": {
       "en": "**4. What are transposons? Explain their mechanism of action and use as vectors in genetic engineering.**",
-      "ta": "**4. டிரான்ஸ்போசான்கள் என்றால் என்ன? அவற்றின் செயல் இயங்குமுறையையும் மரபணுப் பொறியியலில் தாங்கிக்கடத்திகளாக அவற்றின் பயன்பாட்டையும் விளக்குக.**",
+      "ta": "**4. டிரான்ஸ்போசான்கள் என்றால் என்ன? அவற்றின் செயல் இயங்குமுறையையும் மரபணுப் பொறியியலில் கடத்திகளாக அவற்றின் பயன்பாட்டையும் விளக்குக.**",
       "ta_status": "draft"
      }
     },
@@ -2610,7 +2610,7 @@
       },
       {
        "en": "Uses as vectors: (a) Insertional mutagenesis — random disruption to create mutants; (b) Gene tagging — identify disrupted genes; (c) Stable gene therapy — Sleeping Beauty, piggyBac deliver therapeutic genes into mammalian chromosomes; (d) Tn5 transposome — library preparation for NGS.",
-       "ta": "தாங்கிக்கடத்திப் பயன்கள்: (அ) உட்செருகு திடீர்மாற்றம் — திடீர்மாற்றிகளை உருவாக்கத் தற்செயலான சிதைப்பு; (ஆ) மரபணுக் குறியிடல் — சிதைந்த மரபணுக்களை அடையாளம் காணுதல்; (இ) நிலையான மரபணு சிகிச்சை — Sleeping Beauty, piggyBac சிகிச்சை மரபணுக்களைப் பாலூட்டி குரோமோசோம்களில் செலுத்துகின்றன; (ஈ) Tn5 டிரான்ஸ்போசோம் — NGS நூலகத் தயாரிப்பு.",
+       "ta": "கடத்திப் பயன்கள்: (அ) உட்செருகு திடீர்மாற்றம் — திடீர்மாற்றிகளை உருவாக்கத் தற்செயலான சிதைப்பு; (ஆ) மரபணுக் குறியிடல் — சிதைந்த மரபணுக்களை அடையாளம் காணுதல்; (இ) நிலையான மரபணு சிகிச்சை — Sleeping Beauty, piggyBac சிகிச்சை மரபணுக்களைப் பாலூட்டி குரோமோசோம்களில் செலுத்துகின்றன; (ஈ) Tn5 டிரான்ஸ்போசோம் — NGS நூலகத் தயாரிப்பு.",
        "ta_status": "draft"
       },
       {
@@ -2624,7 +2624,7 @@
      "type": "p",
      "text": {
       "en": "**5. Compare cosmid, YAC, SV40, and transposon vectors with respect to insert size, host, and applications.**",
-      "ta": "**5. செருகு அளவு, ஓம்புயிரி, பயன்பாடுகளின் அடிப்படையில் காஸ்மிட், YAC, SV40, டிரான்ஸ்போசான் தாங்கிக்கடத்திகளை ஒப்பிடுக.**",
+      "ta": "**5. செருகு அளவு, ஓம்புயிரி, பயன்பாடுகளின் அடிப்படையில் காஸ்மிட், YAC, SV40, டிரான்ஸ்போசான் கடத்திகளை ஒப்பிடுக.**",
       "ta_status": "draft"
      }
     },
@@ -2662,7 +2662,7 @@
       },
       {
        "en": "For exams: draw a comparison table with columns: Vector | Insert size | Host | Key feature | Application.",
-       "ta": "தேர்வுக்கு: வரிசைகளுடன் ஒப்பீட்டு அட்டவணை வரைக: தாங்கிக்கடத்தி | செருகு அளவு | ஓம்புயிரி | முக்கியப் பண்பு | பயன்பாடு.",
+       "ta": "தேர்வுக்கு: வரிசைகளுடன் ஒப்பீட்டு அட்டவணை வரைக: கடத்தி | செருகு அளவு | ஓம்புயிரி | முக்கியப் பண்பு | பயன்பாடு.",
        "ta_status": "draft"
       }
      ]

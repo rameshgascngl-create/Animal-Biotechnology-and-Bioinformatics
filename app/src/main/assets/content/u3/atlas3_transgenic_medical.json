@@ -311,7 +311,7 @@
      "id": "atlas3_transgenic_medical-d03",
      "caption": {
       "en": "Fig. 3. Gene targeting with a neo (positive) and tk (negative) selection vector.",
-      "ta": "படம் 3. neo (நேர்மறை), tk (எதிர்மறை) தெரிவு தாங்கிக்கடத்தியுடன் மரபணு இலக்கிடல்.",
+      "ta": "படம் 3. neo (நேர்மறை), tk (எதிர்மறை) தெரிவு கடத்தியுடன் மரபணு இலக்கிடல்.",
       "ta_status": "draft"
      },
      "labels": [
@@ -1529,7 +1529,7 @@
      "type": "p",
      "text": {
       "en": "A targeting vector with a neo cassette replaces an exon in ES cells by homologous recombination; neo and tk selection enriches targeted cells; they are injected into blastocysts to give chimeras; breeding gives heterozygotes and then homozygous knockouts.",
-      "ta": "neo கேசட் கொண்ட இலக்கிடு தாங்கிக்கடத்தி ES செல்களில் ஒத்த மறுகூட்டிணைவால் ஓர் எக்சானை மாற்றும்; neo, tk தெரிவு இலக்கிடப்பட்ட செல்களைச் செறிவூட்டும்; அவை பிளாஸ்டோசிஸ்ட்களில் செலுத்தப்பட்டுக் கைமீராக்களைத் தரும்; இனக்கலப்பு ஹெட்டிரோசைகஸ் எலிகளையும் பின்னர் ஹோமோசைகஸ் நாக்-அவுட்களையும் தரும்.",
+      "ta": "neo கேசட் கொண்ட இலக்கிடு கடத்தி ES செல்களில் ஒத்த மறுகூட்டிணைவால் ஓர் எக்சானை மாற்றும்; neo, tk தெரிவு இலக்கிடப்பட்ட செல்களைச் செறிவூட்டும்; அவை பிளாஸ்டோசிஸ்ட்களில் செலுத்தப்பட்டுக் கைமீராக்களைத் தரும்; இனக்கலப்பு ஹெட்டிரோசைகஸ் எலிகளையும் பின்னர் ஹோமோசைகஸ் நாக்-அவுட்களையும் தரும்.",
       "ta_status": "draft"
      }
     },
@@ -1577,7 +1577,7 @@
      "type": "p",
      "text": {
       "en": "Ex vivo: patient cells are modified outside the body and returned. In vivo: the gene vector is injected directly into the patient.",
-      "ta": "உடல்வெளி: நோயாளியின் செல்கள் உடலுக்கு வெளியே மாற்றப்பட்டுத் திரும்ப அளிக்கப்படும். உடலகம்: மரபணுத் தாங்கிக்கடத்தி நேரடியாக நோயாளியில் செலுத்தப்படும்.",
+      "ta": "உடல்வெளி: நோயாளியின் செல்கள் உடலுக்கு வெளியே மாற்றப்பட்டுத் திரும்ப அளிக்கப்படும். உடலகம்: மரபணுக் கடத்தி நேரடியாக நோயாளியில் செலுத்தப்படும்.",
       "ta_status": "draft"
      }
     },

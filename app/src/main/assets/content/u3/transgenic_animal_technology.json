@@ -343,7 +343,7 @@
      "type": "p",
      "text": {
       "en": "Three main routes are used: microinjection into eggs, manipulation of embryonic stem cells and viral vectors.",
-      "ta": "மூன்று முக்கிய வழிகள்: முட்டைகளில் நுண்செலுத்தல், கரு ஸ்டெம் செல்களைக் கையாளுதல், வைரஸ் தாங்கிக்கடத்திகள்.",
+      "ta": "மூன்று முக்கிய வழிகள்: முட்டைகளில் நுண்செலுத்தல், கரு ஸ்டெம் செல்களைக் கையாளுதல், வைரஸ் கடத்திகள்.",
       "ta_status": "draft"
      }
     },
@@ -476,7 +476,7 @@
       [
        {
         "en": "**Retroviral vector**",
-        "ta": "**ரெட்ரோவைரஸ் தாங்கிக்கடத்தி**",
+        "ta": "**ரெட்ரோவைரஸ் கடத்தி**",
         "ta_status": "draft"
        },
        {
@@ -617,7 +617,7 @@
       },
       {
        "en": "Position in vector",
-       "ta": "தாங்கிக்கடத்தியில் இடம்",
+       "ta": "கடத்தியில் இடம்",
        "ta_status": "draft"
       },
       {
@@ -650,7 +650,7 @@
        },
        {
         "en": "Only cells that took up the vector survive (positive selection)",
-        "ta": "தாங்கிக்கடத்தியை ஏற்ற செல்கள் மட்டுமே உயிர்வாழும் (நேர்மறைத் தெரிவு)",
+        "ta": "கடத்தியை ஏற்ற செல்கள் மட்டுமே உயிர்வாழும் (நேர்மறைத் தெரிவு)",
         "ta_status": "draft"
        }
       ],
@@ -1200,7 +1200,7 @@
      "type": "p",
      "text": {
       "en": "Methods: **pronuclear microinjection**, **ES cell-mediated** transfer, retroviral vectors, SCNT, CRISPR.",
-      "ta": "முறைகள்: **முன்உட்கரு நுண்செலுத்தல்**, **ES செல் வழி** மாற்றம், ரெட்ரோவைரஸ் தாங்கிக்கடத்திகள், SCNT, CRISPR.",
+      "ta": "முறைகள்: **முன்உட்கரு நுண்செலுத்தல்**, **ES செல் வழி** மாற்றம், ரெட்ரோவைரஸ் கடத்திகள், SCNT, CRISPR.",
       "ta_status": "draft"
      }
     },
@@ -1360,7 +1360,7 @@
      "type": "p",
      "text": {
       "en": "A targeting vector containing neoR (inside the homology region) and tk (outside) is introduced into ES cells; positive-negative selection (G418 + ganciclovir) enriches homologous recombinants; selected ES cells are injected into blastocysts to give chimeras; germline transmission yields heterozygotes, which are inter-crossed to obtain homozygous knock-outs.",
-      "ta": "neoR (ஒத்த பகுதிக்குள்), tk (வெளியே) கொண்ட இலக்கிடு தாங்கிக்கடத்தி ES செல்களில் செலுத்தப்படும்; நேர்மறை-எதிர்மறைத் தெரிவு (G418 + கான்சிக்ளோவிர்) ஒத்த மறுகூட்டிணைவுகளைச் செறிவூட்டும்; தெரிவு செய்த ES செல்கள் பிளாஸ்டோசிஸ்ட்களில் செலுத்தப்பட்டுக் கைமீராக்களைத் தரும்; கருவழிக் கடத்தல் ஹெட்டிரோசைகஸ் எலிகளைத் தரும்; அவற்றை இடைக்கலப்பு செய்து ஹோமோசைகஸ் நாக்-அவுட்கள் பெறப்படும்.",
+      "ta": "neoR (ஒத்த பகுதிக்குள்), tk (வெளியே) கொண்ட இலக்கிடு கடத்தி ES செல்களில் செலுத்தப்படும்; நேர்மறை-எதிர்மறைத் தெரிவு (G418 + கான்சிக்ளோவிர்) ஒத்த மறுகூட்டிணைவுகளைச் செறிவூட்டும்; தெரிவு செய்த ES செல்கள் பிளாஸ்டோசிஸ்ட்களில் செலுத்தப்பட்டுக் கைமீராக்களைத் தரும்; கருவழிக் கடத்தல் ஹெட்டிரோசைகஸ் எலிகளைத் தரும்; அவற்றை இடைக்கலப்பு செய்து ஹோமோசைகஸ் நாக்-அவுட்கள் பெறப்படும்.",
       "ta_status": "draft"
      }
     },

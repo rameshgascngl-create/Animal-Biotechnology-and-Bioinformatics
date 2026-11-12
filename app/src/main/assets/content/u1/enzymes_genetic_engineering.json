@@ -743,7 +743,7 @@
      "kind": "tip",
      "text": {
       "en": "**Why precision matters:**\n• Precise cuts allow **specific gene fragments** to be isolated without damaging the gene of interest.\n• Sticky ends produced by the same enzyme can be joined by **DNA ligase**, enabling directed cloning.\n• The same restriction enzyme used on both the **insert DNA and vector** ensures compatible ends for ligation.\n• Restriction mapping allows scientists to **locate genes** and create **genomic libraries**.",
-      "ta": "**துல்லியம் ஏன் முக்கியம்:**\n• துல்லியமான வெட்டுகள், தேவையான மரபணுவைச் சிதைக்காமல் **குறிப்பிட்ட மரபணுத் துண்டுகளைத்** தனித்துப் பிரிக்க உதவுகின்றன.\n• ஒரே நொதி உருவாக்கும் ஒட்டும் முனைகளை **DNA லைகேஸ்** இணைக்க முடியும்; இதனால் திசைபடுத்தப்பட்ட நகலாக்கம் சாத்தியமாகிறது.\n• **செருகி DNA மற்றும் தாங்கிக்தாங்கிக்கடத்தி** இரண்டிலும் ஒரே ரெஸ்ட்ரிக்ஷன் நொதியைப் பயன்படுத்துவது இணைப்புக்குப் பொருந்தும் முனைகளை உறுதிசெய்கிறது.\n• தடைக்கட்டு வரிபடம் மூலம் அறிவியலாளர்கள் **மரபணுக்களின் இருப்பிடத்தைக் கண்டறியவும்** **மரபணுத் தொகுதி நூலகங்களை** உருவாக்கவும் முடிகிறது.",
+      "ta": "**துல்லியம் ஏன் முக்கியம்:**\n• துல்லியமான வெட்டுகள், தேவையான மரபணுவைச் சிதைக்காமல் **குறிப்பிட்ட மரபணுத் துண்டுகளைத்** தனித்துப் பிரிக்க உதவுகின்றன.\n• ஒரே நொதி உருவாக்கும் ஒட்டும் முனைகளை **DNA லைகேஸ்** இணைக்க முடியும்; இதனால் திசைபடுத்தப்பட்ட நகலாக்கம் சாத்தியமாகிறது.\n• **செருகி DNA மற்றும் கடத்தி** இரண்டிலும் ஒரே ரெஸ்ட்ரிக்ஷன் நொதியைப் பயன்படுத்துவது இணைப்புக்குப் பொருந்தும் முனைகளை உறுதிசெய்கிறது.\n• தடைக்கட்டு வரிபடம் மூலம் அறிவியலாளர்கள் **மரபணுக்களின் இருப்பிடத்தைக் கண்டறியவும்** **மரபணுத் தொகுதி நூலகங்களை** உருவாக்கவும் முடிகிறது.",
       "ta_status": "draft"
      }
     }
@@ -807,7 +807,7 @@
       },
       {
        "en": "**Key role:** Joins the insert DNA to the vector to form **recombinant DNA**",
-       "ta": "**முக்கியப் பங்கு:** செருகி DNA-வைக் தாங்கிக்கடத்தியுடன் இணைத்து **மறுகூட்டிணைவு DNA**-வை உருவாக்குதல்",
+       "ta": "**முக்கியப் பங்கு:** செருகி DNA-வைக் கடத்தியுடன் இணைத்து **மறுகூட்டிணைவு DNA**-வை உருவாக்குதல்",
        "ta_status": "draft"
       },
       {
@@ -955,7 +955,7 @@
      "type": "p",
      "text": {
       "en": "Alkaline phosphatase removes the **5'-phosphate group** from the ends of linearized DNA molecules (vectors or fragments).",
-      "ta": "அல்கலைன் பாஸ்படேஸ், நேர்கோட்டாக்கப்பட்ட DNA மூலக்கூறுகளின் (தாங்கிக்கடத்திகள் அல்லது துண்டுகள்) முனைகளிலுள்ள **5'-பாஸ்பேட் தொகுதியை** நீக்குகிறது.",
+      "ta": "அல்கலைன் பாஸ்படேஸ், நேர்கோட்டாக்கப்பட்ட DNA மூலக்கூறுகளின் (கடத்திகள் அல்லது துண்டுகள்) முனைகளிலுள்ள **5'-பாஸ்பேட் தொகுதியை** நீக்குகிறது.",
       "ta_status": "draft"
      }
     },
@@ -970,7 +970,7 @@
       },
       {
        "en": "**Key role:** **Prevents self-ligation** of linearized vector DNA, ensuring that insert DNA must be incorporated for ligation to occur",
-       "ta": "**முக்கியப் பங்கு:** நேர்கோட்டுக் தாங்கிக்கடத்தி DNA-வின் **தன்னிணைப்பைத் தடுக்கிறது**; இணைப்பு நிகழ செருகி DNA இணைக்கப்பட வேண்டியது கட்டாயமாகிறது",
+       "ta": "**முக்கியப் பங்கு:** நேர்கோட்டுக் கடத்தி DNA-வின் **தன்னிணைப்பைத் தடுக்கிறது**; இணைப்பு நிகழ செருகி DNA இணைக்கப்பட வேண்டியது கட்டாயமாகிறது",
        "ta_status": "draft"
       },
       {
@@ -985,7 +985,7 @@
      "kind": "tip",
      "text": {
       "en": "**Important in cloning:** After treating the vector with alkaline phosphatase, it cannot re-ligate with itself. Only when insert DNA (which retains its 5'-phosphate) is added can ligation occur — forcing the formation of recombinant DNA.",
-      "ta": "**நகலாக்கம்கில் முக்கியத்துவம்:** தாங்கிக்கடத்தியை அல்கலைன் பாஸ்படேஸால் பதப்படுத்திய பின் அது தன்னுடன் மீண்டும் இணைய இயலாது. 5'-பாஸ்பேட்டைத் தக்கவைத்துள்ள செருகி DNA சேர்க்கப்படும்போது மட்டுமே இணைப்பு நிகழ்கிறது — இதனால் மறுகூட்டிணைவு DNA உருவாக நேர்கிறது.",
+      "ta": "**நகலாக்கம்கில் முக்கியத்துவம்:** கடத்தியை அல்கலைன் பாஸ்படேஸால் பதப்படுத்திய பின் அது தன்னுடன் மீண்டும் இணைய இயலாது. 5'-பாஸ்பேட்டைத் தக்கவைத்துள்ள செருகி DNA சேர்க்கப்படும்போது மட்டுமே இணைப்பு நிகழ்கிறது — இதனால் மறுகூட்டிணைவு DNA உருவாக நேர்கிறது.",
       "ta_status": "draft"
      }
     },
@@ -1128,7 +1128,7 @@
      "type": "p",
      "text": {
       "en": "**Restriction enzymes** cut the chromosomal DNA of the organism containing the gene of interest AND the vector DNA at the same restriction sites, producing compatible sticky or blunt ends essential for cloning.",
-      "ta": "**ரெஸ்ட்ரிக்ஷன் நொதிகள்**, தேவையான மரபணுவைக் கொண்ட உயிரினத்தின் குரோமோசோம் DNA-வையும் தாங்கிக்கடத்தி DNA-வையும் ஒரே ரெஸ்ட்ரிக்ஷன் இடங்களில் வெட்டி, நகலாக்கம்குக்கு அவசியமான பொருந்தும் ஒட்டும் அல்லது மழுங்கிய முனைகளை உருவாக்குகின்றன.",
+      "ta": "**ரெஸ்ட்ரிக்ஷன் நொதிகள்**, தேவையான மரபணுவைக் கொண்ட உயிரினத்தின் குரோமோசோம் DNA-வையும் கடத்தி DNA-வையும் ஒரே ரெஸ்ட்ரிக்ஷன் இடங்களில் வெட்டி, நகலாக்கம்குக்கு அவசியமான பொருந்தும் ஒட்டும் அல்லது மழுங்கிய முனைகளை உருவாக்குகின்றன.",
       "ta_status": "draft"
      }
     },
@@ -1144,7 +1144,7 @@
      "type": "p",
      "text": {
       "en": "**DNA ligase** covalently joins the gene-of-interest fragment to the vector DNA through phosphodiester bond formation, creating the **recombinant DNA molecule (rDNA)**. This is the core step of gene cloning.",
-      "ta": "**DNA லைகேஸ்**, தேவையான மரபணுத் துண்டையும் தாங்கிக்கடத்தி DNA-வையும் பாஸ்போடைஎஸ்டர் பிணைப்பு உருவாக்கம் மூலம் சகப்பிணைப்பால் இணைத்து **மறுகூட்டிணைவு DNA மூலக்கூறை (rDNA)** உருவாக்குகிறது. இதுவே மரபணுக் நகலாக்கம்கின் மையப் படி.",
+      "ta": "**DNA லைகேஸ்**, தேவையான மரபணுத் துண்டையும் கடத்தி DNA-வையும் பாஸ்போடைஎஸ்டர் பிணைப்பு உருவாக்கம் மூலம் சகப்பிணைப்பால் இணைத்து **மறுகூட்டிணைவு DNA மூலக்கூறை (rDNA)** உருவாக்குகிறது. இதுவே மரபணுக் நகலாக்கம்கின் மையப் படி.",
       "ta_status": "draft"
      }
     },
@@ -1192,7 +1192,7 @@
      "type": "p",
      "text": {
       "en": "**Alkaline phosphatase** removes 5'-phosphate groups from linearized vector DNA. Without these groups, the vector cannot re-ligate with itself, forcing it to incorporate the insert DNA during ligation — significantly reducing background and improving cloning efficiency.",
-      "ta": "**அல்கலைன் பாஸ்படேஸ்** நேர்கோட்டுக் தாங்கிக்கடத்தி DNA-விலிருந்து 5'-பாஸ்பேட் தொகுதிகளை நீக்குகிறது. இத்தொகுதிகள் இல்லாததால் தாங்கிக்கடத்தி தன்னுடன் மீண்டும் இணைய முடியாது; இணைப்பின்போது செருகி DNA-வை ஏற்க நேர்கிறது — இது பின்னணியைக் கணிசமாகக் குறைத்துக் நகலாக்கம் திறனை மேம்படுத்துகிறது.",
+      "ta": "**அல்கலைன் பாஸ்படேஸ்** நேர்கோட்டுக் கடத்தி DNA-விலிருந்து 5'-பாஸ்பேட் தொகுதிகளை நீக்குகிறது. இத்தொகுதிகள் இல்லாததால் கடத்தி தன்னுடன் மீண்டும் இணைய முடியாது; இணைப்பின்போது செருகி DNA-வை ஏற்க நேர்கிறது — இது பின்னணியைக் கணிசமாகக் குறைத்துக் நகலாக்கம் திறனை மேம்படுத்துகிறது.",
       "ta_status": "draft"
      }
     },
@@ -1321,7 +1321,7 @@
      },
      "answer": {
       "en": "Removes 5'-phosphate groups from DNA ends. Prevents vector self-ligation, thereby increasing recombinant clone efficiency in gene cloning.",
-      "ta": "DNA முனைகளிலிருந்து 5'-பாஸ்பேட் தொகுதிகளை நீக்குகிறது. தாங்கிக்கடத்தியின் தன்னிணைப்பைத் தடுத்து, மரபணுக் நகலாக்கம்கில் மறுகூட்டிணைவுக் குளோன்களின் திறனை உயர்த்துகிறது.",
+      "ta": "DNA முனைகளிலிருந்து 5'-பாஸ்பேட் தொகுதிகளை நீக்குகிறது. கடத்தியின் தன்னிணைப்பைத் தடுத்து, மரபணுக் நகலாக்கம்கில் மறுகூட்டிணைவுக் குளோன்களின் திறனை உயர்த்துகிறது.",
       "ta_status": "draft"
      }
     },
@@ -1389,7 +1389,7 @@
      "items": [
       {
        "en": "1 🧬 Source DNA and Vector Prepared The genomic DNA containing the gene of interest and the plasmid vector are isolated. Both are ready to be treated with the same restriction enzyme.",
-       "ta": "1 🧬 மூல DNA-வும் தாங்கிக்கடத்தியும் தயாரிக்கப்படுகின்றன. தேவையான மரபணுவைக் கொண்ட மரபணு தொகையம் DNA-வும் பிளாஸ்மிட் தாங்கிக்கடத்தியும் தனித்துப் பிரிக்கப்படுகின்றன. இரண்டையும் ஒரே ரெஸ்ட்ரிக்ஷன் நொதியால் பதப்படுத்தத் தயாராக உள்ளன.",
+       "ta": "1 🧬 மூல DNA-வும் கடத்தியும் தயாரிக்கப்படுகின்றன. தேவையான மரபணுவைக் கொண்ட மரபணு தொகையம் DNA-வும் பிளாஸ்மிட் கடத்தியும் தனித்துப் பிரிக்கப்படுகின்றன. இரண்டையும் ஒரே ரெஸ்ட்ரிக்ஷன் நொதியால் பதப்படுத்தத் தயாராக உள்ளன.",
        "ta_status": "draft"
       }
      ]
@@ -1399,7 +1399,7 @@
      "items": [
       {
        "en": "2 ✂️ Restriction Enzyme Cuts DNA The same restriction enzyme (e.g., EcoRI) cuts both the vector and source DNA at their palindromic recognition sequences, producing compatible sticky ends.",
-       "ta": "2 ✂️ ரெஸ்ட்ரிக்ஷன் நொதி DNA-வை வெட்டுகிறது. ஒரே ரெஸ்ட்ரிக்ஷன் நொதி (எ.கா. EcoRI) தாங்கிக்கடத்தியையும் மூல DNA-வையும் அவற்றின் முன்பின் ஒத்த அடையாளத் தொடர் வரிசைகளில் வெட்டி, பொருந்தும் ஒட்டும் முனைகளை உருவாக்குகிறது.",
+       "ta": "2 ✂️ ரெஸ்ட்ரிக்ஷன் நொதி DNA-வை வெட்டுகிறது. ஒரே ரெஸ்ட்ரிக்ஷன் நொதி (எ.கா. EcoRI) கடத்தியையும் மூல DNA-வையும் அவற்றின் முன்பின் ஒத்த அடையாளத் தொடர் வரிசைகளில் வெட்டி, பொருந்தும் ஒட்டும் முனைகளை உருவாக்குகிறது.",
        "ta_status": "draft"
       }
      ]
@@ -1419,7 +1419,7 @@
      "items": [
       {
        "en": "4 🔗 DNA Ligase Joins Fragment to Vector T4 DNA ligase seals the compatible sticky ends of the insert and vector, forming covalent phosphodiester bonds and creating a continuous circular recombinant plasmid.",
-       "ta": "4 🔗 DNA லைகேஸ் துண்டைக் தாங்கிக்கடத்தியுடன் இணைக்கிறது. T4 DNA லைகேஸ் செருகி DNA மற்றும் தாங்கிக்கடத்தியின் பொருந்தும் ஒட்டும் முனைகளை அடைத்து, சகப் பாஸ்போடைஎஸ்டர் பிணைப்புகளை உருவாக்கி, தொடர்ச்சியான வட்ட மறுகூட்டிணைவுப் பிளாஸ்மிட்டை உருவாக்குகிறது.",
+       "ta": "4 🔗 DNA லைகேஸ் துண்டைக் கடத்தியுடன் இணைக்கிறது. T4 DNA லைகேஸ் செருகி DNA மற்றும் கடத்தியின் பொருந்தும் ஒட்டும் முனைகளை அடைத்து, சகப் பாஸ்போடைஎஸ்டர் பிணைப்புகளை உருவாக்கி, தொடர்ச்சியான வட்ட மறுகூட்டிணைவுப் பிளாஸ்மிட்டை உருவாக்குகிறது.",
        "ta_status": "draft"
       }
      ]
@@ -1429,7 +1429,7 @@
      "items": [
       {
        "en": "5 🧫 Recombinant DNA Formed The recombinant DNA molecule (rDNA) — the vector now carrying the gene of interest — is ready for transformation into a host cell (e.g., E. coli) for cloning and expression.",
-       "ta": "5 🧫 மறுகூட்டிணைவு DNA உருவாகிறது. மறுகூட்டிணைவு DNA மூலக்கூறு (rDNA) — இப்போது தேவையான மரபணுவைச் சுமக்கும் தாங்கிக்கடத்தி — நகலாக்கம்கிற்கும் வெளிப்பாட்டிற்கும் ஓம்புயிர் செல்லில் (எ.கா. E. coli) உட்செலுத்தத் (தகவல் பரிமாற்றம்) தயாராக உள்ளது.",
+       "ta": "5 🧫 மறுகூட்டிணைவு DNA உருவாகிறது. மறுகூட்டிணைவு DNA மூலக்கூறு (rDNA) — இப்போது தேவையான மரபணுவைச் சுமக்கும் கடத்தி — நகலாக்கம்கிற்கும் வெளிப்பாட்டிற்கும் ஓம்புயிர் செல்லில் (எ.கா. E. coli) உட்செலுத்தத் (தகவல் பரிமாற்றம்) தயாராக உள்ளது.",
        "ta_status": "draft"
       }
      ]
@@ -1439,7 +1439,7 @@
      "kind": "info",
      "text": {
       "en": "**Key Principle:** Using the same restriction enzyme on both the insert and vector ensures **complementary sticky ends** that anneal by hydrogen bonding, allowing DNA ligase to seal the gaps efficiently. This directed cloning ensures the insert is incorporated in a predictable orientation.",
-      "ta": "**முக்கியக் கொள்கை:** செருகி DNA, தாங்கிக்கடத்தி இரண்டிலும் ஒரே ரெஸ்ட்ரிக்ஷன் நொதியைப் பயன்படுத்துவது ஹைட்ரஜன் பிணைப்பால் இணையும் **நிரப்பு ஒட்டும் முனைகளை** உறுதிசெய்து, DNA லைகேஸ் இடைவெளிகளைத் திறம்பட அடைக்க உதவுகிறது. இந்தத் திசைபடுத்தப்பட்ட நகலாக்கம், செருகி DNA முன்கூட்டியே கணிக்கக்கூடிய திசையமைவில் இணைவதை உறுதிசெய்கிறது.",
+      "ta": "**முக்கியக் கொள்கை:** செருகி DNA, கடத்தி இரண்டிலும் ஒரே ரெஸ்ட்ரிக்ஷன் நொதியைப் பயன்படுத்துவது ஹைட்ரஜன் பிணைப்பால் இணையும் **நிரப்பு ஒட்டும் முனைகளை** உறுதிசெய்து, DNA லைகேஸ் இடைவெளிகளைத் திறம்பட அடைக்க உதவுகிறது. இந்தத் திசைபடுத்தப்பட்ட நகலாக்கம், செருகி DNA முன்கூட்டியே கணிக்கக்கூடிய திசையமைவில் இணைவதை உறுதிசெய்கிறது.",
       "ta_status": "draft"
      }
     }
@@ -1503,7 +1503,7 @@
        },
        {
         "en": "Cuts both insert DNA and vector at compatible sites for cloning",
-        "ta": "நகலாக்கம்குக்குப் பொருந்தும் இடங்களில் செருகி DNA-வையும் தாங்கிக்கடத்தியையும் வெட்டுகிறது",
+        "ta": "நகலாக்கம்குக்குப் பொருந்தும் இடங்களில் செருகி DNA-வையும் கடத்தியையும் வெட்டுகிறது",
         "ta_status": "draft"
        },
        {
@@ -1530,7 +1530,7 @@
        },
        {
         "en": "Seals recombinant DNA molecules; joins insert to vector",
-        "ta": "மறுகூட்டிணைவு DNA மூலக்கூறுகளை அடைக்கிறது; செருகைக் தாங்கிக்கடத்தியுடன் இணைக்கிறது",
+        "ta": "மறுகூட்டிணைவு DNA மூலக்கூறுகளை அடைக்கிறது; செருகைக் கடத்தியுடன் இணைக்கிறது",
         "ta_status": "draft"
        },
        {
@@ -1611,7 +1611,7 @@
        },
        {
         "en": "Prevents vector self-ligation; improves cloning efficiency",
-        "ta": "தாங்கிக்கடத்தியின் தன்னிணைப்பைத் தடுக்கிறது; நகலாக்கம் திறனை மேம்படுத்துகிறது",
+        "ta": "கடத்தியின் தன்னிணைப்பைத் தடுக்கிறது; நகலாக்கம் திறனை மேம்படுத்துகிறது",
         "ta_status": "draft"
        },
        {
@@ -1791,7 +1791,7 @@
      "type": "p",
      "text": {
       "en": "**Alkaline Phosphatase** Removes 5'-phosphate from vector ends. Prevents self-ligation. Increases recombinant clone efficiency.",
-      "ta": "**அல்கலைன் பாஸ்படேஸ்** தாங்கிக்கடத்தி முனைகளிலிருந்து 5'-பாஸ்பேட்டை நீக்கும். தன்னிணைப்பைத் தடுக்கும். மறுகூட்டிணைவுக் குளோன்களின் திறனை உயர்த்தும்.",
+      "ta": "**அல்கலைன் பாஸ்படேஸ்** கடத்தி முனைகளிலிருந்து 5'-பாஸ்பேட்டை நீக்கும். தன்னிணைப்பைத் தடுக்கும். மறுகூட்டிணைவுக் குளோன்களின் திறனை உயர்த்தும்.",
       "ta_status": "draft"
      }
     },
@@ -1838,7 +1838,7 @@
       },
       {
        "en": "**Vector:** DNA molecule (plasmid, phage) used to carry foreign DNA into a host cell.",
-       "ta": "**தாங்கிக்தாங்கிக்கடத்தி:** அந்நிய DNA-வை ஓம்புயிர் செல்லுக்குள் சுமந்து செல்லப் பயன்படும் DNA மூலக்கூறு (பிளாஸ்மிட், பேஜ்).",
+       "ta": "**கடத்தி:** அந்நிய DNA-வை ஓம்புயிர் செல்லுக்குள் சுமந்து செல்லப் பயன்படும் DNA மூலக்கூறு (பிளாஸ்மிட், பேஜ்).",
        "ta_status": "draft"
       },
       {
@@ -1926,7 +1926,7 @@
      "type": "glossary",
      "term": {
       "en": "Vector",
-      "ta": "தாங்கிக்கடத்தி (Vector)",
+      "ta": "கடத்தி (Vector)",
       "ta_status": "bracketed"
      },
      "definition": {
@@ -1944,7 +1944,7 @@
      },
      "definition": {
       "en": "The process of inserting a DNA fragment into a vector, introducing it into a host cell, and allowing the host to replicate, producing many identical copies of the DNA.",
-      "ta": "DNA துண்டைக் தாங்கிக்கடத்தியில் செருகி, ஓம்புயிர் செல்லுக்குள் செலுத்தி, ஓம்புயிரி அதைப் பெருக்கி ஒத்த DNA நகல்கள் பலவற்றை உருவாக்கச் செய்யும் செயல்முறை.",
+      "ta": "DNA துண்டைக் கடத்தியில் செருகி, ஓம்புயிர் செல்லுக்குள் செலுத்தி, ஓம்புயிரி அதைப் பெருக்கி ஒத்த DNA நகல்கள் பலவற்றை உருவாக்கச் செய்யும் செயல்முறை.",
       "ta_status": "draft"
      }
     },
@@ -1983,7 +1983,7 @@
      },
      "definition": {
       "en": "DNA molecule formed by combining DNA sequences from two or more different organisms or sources, typically a gene of interest inserted into a cloning vector.",
-      "ta": "இரு அல்லது அதற்கு மேற்பட்ட வெவ்வேறு உயிரினங்கள் அல்லது மூலங்களிலிருந்து பெற்ற DNA வரிசைகளை இணைத்து உருவாக்கப்படும் DNA மூலக்கூறு; பொதுவாகத் தேவையான மரபணு ஒரு நகலாக்கம் தாங்கிக்கடத்தியில் செருகப்பட்டிருக்கும்.",
+      "ta": "இரு அல்லது அதற்கு மேற்பட்ட வெவ்வேறு உயிரினங்கள் அல்லது மூலங்களிலிருந்து பெற்ற DNA வரிசைகளை இணைத்து உருவாக்கப்படும் DNA மூலக்கூறு; பொதுவாகத் தேவையான மரபணு ஒரு நகலாக்கம் கடத்தியில் செருகப்பட்டிருக்கும்.",
       "ta_status": "draft"
      }
     },
@@ -2182,7 +2182,7 @@
       },
       {
        "en": "Critical step in gene cloning: joins insert DNA to linearized vector to form recombinant DNA.",
-       "ta": "மரபணுக் நகலாக்கம்கின் முக்கியப் படி: செருகி DNA-வை நேர்கோட்டுக் தாங்கிக்கடத்தியுடன் இணைத்து மறுகூட்டிணைவு DNA-வை உருவாக்குகிறது.",
+       "ta": "மரபணுக் நகலாக்கம்கின் முக்கியப் படி: செருகி DNA-வை நேர்கோட்டுக் கடத்தியுடன் இணைத்து மறுகூட்டிணைவு DNA-வை உருவாக்குகிறது.",
        "ta_status": "draft"
       },
       {
@@ -2266,7 +2266,7 @@
      "items": [
       {
        "en": "**Step 1 — Isolation:** Isolate source DNA (containing gene of interest) and vector DNA (plasmid).",
-       "ta": "**படி 1 — தனித்துப் பிரித்தல்:** தேவையான மரபணுவைக் கொண்ட மூல DNA-வையும் தாங்கிக்கடத்தி DNA-வையும் (பிளாஸ்மிட்) தனித்துப் பிரிக்க.",
+       "ta": "**படி 1 — தனித்துப் பிரித்தல்:** தேவையான மரபணுவைக் கொண்ட மூல DNA-வையும் கடத்தி DNA-வையும் (பிளாஸ்மிட்) தனித்துப் பிரிக்க.",
        "ta_status": "draft"
       },
       {
@@ -2276,12 +2276,12 @@
       },
       {
        "en": "**Step 3 — Dephosphorylation (optional):** Treat vector with alkaline phosphatase to prevent self-ligation.",
-       "ta": "**படி 3 — பாஸ்பேட் நீக்கம் (விருப்பத் தேர்வு):** தன்னிணைப்பைத் தடுக்கக் தாங்கிக்கடத்தியை அல்கலைன் பாஸ்படேஸால் பதப்படுத்துக.",
+       "ta": "**படி 3 — பாஸ்பேட் நீக்கம் (விருப்பத் தேர்வு):** தன்னிணைப்பைத் தடுக்கக் கடத்தியை அல்கலைன் பாஸ்படேஸால் பதப்படுத்துக.",
        "ta_status": "draft"
       },
       {
        "en": "**Step 4 — Ligation:** Mix insert and vector; add T4 DNA ligase and ATP — recombinant DNA formed.",
-       "ta": "**படி 4 — இணைத்தல்:** செருகி DNA-வையும் தாங்கிக்கடத்தியையும் கலந்து, T4 DNA லைகேஸும் ATP-யும் சேர்க்க — மறுகூட்டிணைவு DNA உருவாகும்.",
+       "ta": "**படி 4 — இணைத்தல்:** செருகி DNA-வையும் கடத்தியையும் கலந்து, T4 DNA லைகேஸும் ATP-யும் சேர்க்க — மறுகூட்டிணைவு DNA உருவாகும்.",
        "ta_status": "draft"
       },
       {
@@ -2296,7 +2296,7 @@
       },
       {
        "en": "Draw a simple flow diagram: DNA + vector → restriction digestion → ligation → rDNA → transformation → selection.",
-       "ta": "எளிய பாய்வு வரைபடம் வரைக: DNA + தாங்கிக்கடத்தி → ரெஸ்ட்ரிக்ஷன் நொதி வெட்டு → இணைத்தல் → rDNA → தகவல் பரிமாற்றம் → தெரிவு.",
+       "ta": "எளிய பாய்வு வரைபடம் வரைக: DNA + கடத்தி → ரெஸ்ட்ரிக்ஷன் நொதி வெட்டு → இணைத்தல் → rDNA → தகவல் பரிமாற்றம் → தெரிவு.",
        "ta_status": "draft"
       }
      ]

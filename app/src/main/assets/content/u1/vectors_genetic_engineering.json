@@ -3,7 +3,7 @@
  "unit": "I",
  "title": {
   "en": "Vectors in Genetic Engineering",
-  "ta": "மரபணுப் பொறியியலில் தாங்கிக்கடத்திகள்",
+  "ta": "மரபணுப் பொறியியலில் கடத்திகள்",
   "ta_status": "draft"
  },
  "sections": [
@@ -29,7 +29,7 @@
    "id": "s02",
    "title": {
     "en": "Vectors in Genetic Engineering",
-    "ta": "மரபணுப் பொறியியலில் தாங்கிக்கடத்திகள்",
+    "ta": "மரபணுப் பொறியியலில் கடத்திகள்",
     "ta_status": "draft"
    },
    "blocks": [
@@ -45,7 +45,7 @@
      "type": "p",
      "text": {
       "en": "A comprehensive interactive learning resource covering cloning vectors, their characteristic features, and their roles in modern recombinant DNA technology.",
-      "ta": "நகலாக்கத் தாங்கிக்கடத்திகள், அவற்றின் சிறப்புப் பண்புகள் மற்றும் நவீன மறுகூட்டிணைவு DNA தொழில்நுட்பத்தில் அவற்றின் பங்குகளை உள்ளடக்கிய விரிவான ஊடாடும் கற்றல் வளம்.",
+      "ta": "நகலாக்கக் கடத்திகள், அவற்றின் சிறப்புப் பண்புகள் மற்றும் நவீன மறுகூட்டிணைவு DNA தொழில்நுட்பத்தில் அவற்றின் பங்குகளை உள்ளடக்கிய விரிவான ஊடாடும் கற்றல் வளம்.",
       "ta_status": "draft"
      }
     },
@@ -63,7 +63,7 @@
      "items": [
       {
        "en": "Define vectors and explain their importance in recombinant DNA technology.",
-       "ta": "தாங்கிக்கடத்திகளை வரையறுத்து, மறுகூட்டிணைவு DNA தொழில்நுட்பத்தில் அவற்றின் முக்கியத்துவத்தை விளக்குதல்.",
+       "ta": "கடத்திகளை வரையறுத்து, மறுகூட்டிணைவு DNA தொழில்நுட்பத்தில் அவற்றின் முக்கியத்துவத்தை விளக்குதல்.",
        "ta_status": "draft"
       },
       {
@@ -73,22 +73,22 @@
       },
       {
        "en": "List the characteristic features of an ideal cloning vector.",
-       "ta": "சிறந்த நகலாக்கத் தாங்கிக்கடத்தியின் சிறப்புப் பண்புகளைப் பட்டியலிடுதல்.",
+       "ta": "சிறந்த நகலாக்கக் கடத்தியின் சிறப்புப் பண்புகளைப் பட்டியலிடுதல்.",
        "ta_status": "draft"
       },
       {
        "en": "Explain pBR322 and Ti plasmid as plasmid vectors with their features.",
-       "ta": "pBR322 மற்றும் Ti பிளாஸ்மிட்டை அவற்றின் பண்புகளுடன் பிளாஸ்மிட் தாங்கிக்கடத்திகளாக விளக்குதல்.",
+       "ta": "pBR322 மற்றும் Ti பிளாஸ்மிட்டை அவற்றின் பண்புகளுடன் பிளாஸ்மிட் கடத்திகளாக விளக்குதல்.",
        "ta_status": "draft"
       },
       {
        "en": "Describe Lambda phage and M13 phage as bacteriophage vectors.",
-       "ta": "லாம்டா பேஜ் மற்றும் M13 பேஜை பாக்டீரியோஃபேஜ் தாங்கிக்கடத்திகளாக விவரித்தல்.",
+       "ta": "லாம்டா பேஜ் மற்றும் M13 பேஜை பாக்டீரியோஃபேஜ் கடத்திகளாக விவரித்தல்.",
        "ta_status": "draft"
       },
       {
        "en": "Compare different vectors using their features, insert capacity, and applications.",
-       "ta": "பல்வேறு தாங்கிக்கடத்திகளை அவற்றின் பண்புகள், செருகு கொள்ளளவு, பயன்பாடுகளின் அடிப்படையில் ஒப்பிடுதல்.",
+       "ta": "பல்வேறு கடத்திகளை அவற்றின் பண்புகள், செருகு கொள்ளளவு, பயன்பாடுகளின் அடிப்படையில் ஒப்பிடுதல்.",
        "ta_status": "draft"
       }
      ]
@@ -99,7 +99,7 @@
    "id": "s03",
    "title": {
     "en": "Introduction to Vectors in Genetic Engineering",
-    "ta": "மரபணுப் பொறியியலில் தாங்கிக்கடத்திகள் – ஓர் அறிமுகம்",
+    "ta": "மரபணுப் பொறியியலில் கடத்திகள் – ஓர் அறிமுகம்",
     "ta_status": "draft"
    },
    "blocks": [
@@ -107,7 +107,7 @@
      "type": "p",
      "text": {
       "en": "**Definition of a Vector**",
-      "ta": "**தாங்கிக்கடத்தியின் வரையறை**",
+      "ta": "**கடத்தியின் வரையறை**",
       "ta_status": "draft"
      }
     },
@@ -115,7 +115,7 @@
      "type": "p",
      "text": {
       "en": "A vector is a DNA molecule used as a vehicle to carry and transfer a foreign DNA fragment into a host cell, where it can be replicated and/or expressed. The word \"vector\" literally means \"carrier.\"",
-      "ta": "தாங்கிக்கடத்தி என்பது அந்நிய DNA துண்டை ஓம்புயிரி செல்லுக்குள் சுமந்து செலுத்தும் ஊர்தியாகப் பயன்படும் DNA மூலக்கூறு; அங்கு அது பெருகவும்/அல்லது வெளிப்படவும் செய்யும். \"வெக்டர்\" என்ற சொல்லின் நேரடிப் பொருள் \"சுமப்பவர்\".",
+      "ta": "கடத்தி என்பது அந்நிய DNA துண்டை ஓம்புயிரி செல்லுக்குள் சுமந்து செலுத்தும் ஊர்தியாகப் பயன்படும் DNA மூலக்கூறு; அங்கு அது பெருகவும்/அல்லது வெளிப்படவும் செய்யும். \"வெக்டர்\" என்ற சொல்லின் நேரடிப் பொருள் \"சுமப்பவர்\".",
       "ta_status": "draft"
      }
     },
@@ -131,7 +131,7 @@
      "type": "p",
      "text": {
       "en": "Vectors are indispensable tools in genetic engineering because a foreign gene fragment by itself cannot survive or replicate inside a host cell. It must be **linked to a vector** that carries the necessary signals for replication, selection, and expression.",
-      "ta": "அந்நிய மரபணுத் துண்டு தானாக ஓம்புயிரி செல்லுக்குள் உயிர்வாழவோ பெருகவோ முடியாது என்பதால் தாங்கிக்கடத்திகள் மரபணுப் பொறியியலுக்கு இன்றியமையாதவை. பெருக்கம், தெரிவு, வெளிப்பாட்டுக்குத் தேவையான சமிக்ஞைகளைக் கொண்ட **தாங்கிக்கடத்தியுடன் அது இணைக்கப்பட வேண்டும்**.",
+      "ta": "அந்நிய மரபணுத் துண்டு தானாக ஓம்புயிரி செல்லுக்குள் உயிர்வாழவோ பெருகவோ முடியாது என்பதால் கடத்திகள் மரபணுப் பொறியியலுக்கு இன்றியமையாதவை. பெருக்கம், தெரிவு, வெளிப்பாட்டுக்குத் தேவையான சமிக்ஞைகளைக் கொண்ட **கடத்தியுடன் அது இணைக்கப்பட வேண்டும்**.",
       "ta_status": "draft"
      }
     },
@@ -140,7 +140,7 @@
      "kind": "info",
      "text": {
       "en": "**Core Functions of a Vector:**\nCarries the gene of interest into a host cell → Enables autonomous replication → Provides selectable markers to identify successful transformants → May facilitate expression of the cloned gene.",
-      "ta": "**தாங்கிக்கடத்தியின் முக்கியப் பணிகள்:**\nதேவையான மரபணுவை ஓம்புயிரி செல்லுக்குள் சுமந்து செல்லுதல் → தானாகப் பெருகுதலை இயலச் செய்தல் → வெற்றிகரமாக மாற்றப்பட்ட செல்களை அடையாளம் காண தேர்ந்தெடுக்கும் அடையாளக்குறிகளை வழங்குதல் → நகலாக்கிய மரபணுவின் வெளிப்பாட்டுக்கு உதவலாம்.",
+      "ta": "**கடத்தியின் முக்கியப் பணிகள்:**\nதேவையான மரபணுவை ஓம்புயிரி செல்லுக்குள் சுமந்து செல்லுதல் → தானாகப் பெருகுதலை இயலச் செய்தல் → வெற்றிகரமாக மாற்றப்பட்ட செல்களை அடையாளம் காண தேர்ந்தெடுக்கும் அடையாளக்குறிகளை வழங்குதல் → நகலாக்கிய மரபணுவின் வெளிப்பாட்டுக்கு உதவலாம்.",
       "ta_status": "draft"
      }
     },
@@ -158,22 +158,22 @@
      "items": [
       {
        "en": "The foreign gene is cut with a restriction enzyme and **ligated into the vector**.",
-       "ta": "அந்நிய மரபணு ரெஸ்ட்ரிக்ஷன் நொதியால் வெட்டப்பட்டு **தாங்கிக்கடத்தியுடன் இணைக்கப்படுகிறது**.",
+       "ta": "அந்நிய மரபணு ரெஸ்ட்ரிக்ஷன் நொதியால் வெட்டப்பட்டு **கடத்தியுடன் இணைக்கப்படுகிறது**.",
        "ta_status": "draft"
       },
       {
        "en": "The resulting **recombinant vector** is introduced into a host cell (e.g., _E. coli_).",
-       "ta": "இதனால் உருவான **மறுகூட்டிணைவுத் தாங்கிக்கடத்தி** ஓம்புயிரி செல்லுக்குள் (எ.கா. _E. coli_) செலுத்தப்படுகிறது.",
+       "ta": "இதனால் உருவான **மறுகூட்டிணைவுக் கடத்தி** ஓம்புயிரி செல்லுக்குள் (எ.கா. _E. coli_) செலுத்தப்படுகிறது.",
        "ta_status": "draft"
       },
       {
        "en": "Inside the host, the vector replicates using its own **origin of replication (ori)**, producing many copies of the foreign gene.",
-       "ta": "ஓம்புயிரிக்குள் தாங்கிக்கடத்தி தன் **பெருக்கமடைதலின் தோற்றம் (ori)** மூலம் பெருகி, அந்நிய மரபணுவின் பல நகல்களை உருவாக்குகிறது.",
+       "ta": "ஓம்புயிரிக்குள் கடத்தி தன் **பெருக்கமடைதலின் தோற்றம் (ori)** மூலம் பெருகி, அந்நிய மரபணுவின் பல நகல்களை உருவாக்குகிறது.",
        "ta_status": "draft"
       },
       {
        "en": "Cells carrying the recombinant vector are identified using **selectable markers** such as antibiotic resistance genes.",
-       "ta": "மறுகூட்டிணைவுத் தாங்கிக்கடத்தியைக் கொண்ட செல்கள் ஆன்டிபயாடிக் எதிர்ப்பு மரபணுக்கள் போன்ற **தேர்ந்தெடுக்கும் அடையாளக்குறிகள்** மூலம் அடையாளம் காணப்படுகின்றன.",
+       "ta": "மறுகூட்டிணைவுக் கடத்தியைக் கொண்ட செல்கள் ஆன்டிபயாடிக் எதிர்ப்பு மரபணுக்கள் போன்ற **தேர்ந்தெடுக்கும் அடையாளக்குறிகள்** மூலம் அடையாளம் காணப்படுகின்றன.",
        "ta_status": "draft"
       }
      ]
@@ -280,7 +280,7 @@
      "items": [
       {
        "en": "Widely used as **cloning vectors** due to their small size and easy manipulation.",
-       "ta": "சிறிய அளவும் எளிதாகக் கையாளும் தன்மையும் காரணமாக **நகலாக்கத் தாங்கிக்கடத்திகளாக** பரவலாகப் பயன்படுகின்றன.",
+       "ta": "சிறிய அளவும் எளிதாகக் கையாளும் தன்மையும் காரணமாக **நகலாக்கக் கடத்திகளாக** பரவலாகப் பயன்படுகின்றன.",
        "ta_status": "draft"
       },
       {
@@ -295,7 +295,7 @@
       },
       {
        "en": "Form the basis for expression vectors used to produce **recombinant proteins** (e.g., insulin, growth hormone).",
-       "ta": "**மறுகூட்டிணைவுப் புரதங்களை** (எ.கா. இன்சுலின், வளர்ச்சி ஹார்மோன்) உற்பத்தி செய்யும் வெளிப்பாட்டுத் தாங்கிக்கடத்திகளுக்கு அடிப்படையாகின்றன.",
+       "ta": "**மறுகூட்டிணைவுப் புரதங்களை** (எ.கா. இன்சுலின், வளர்ச்சி ஹார்மோன்) உற்பத்தி செய்யும் வெளிப்பாட்டுக் கடத்திகளுக்கு அடிப்படையாகின்றன.",
        "ta_status": "draft"
       }
      ]
@@ -368,7 +368,7 @@
    "id": "s06",
    "title": {
     "en": "Characteristic Features of an Ideal Vector",
-    "ta": "சிறந்த தாங்கிக்கடத்தியின் சிறப்புப் பண்புகள்",
+    "ta": "சிறந்த கடத்தியின் சிறப்புப் பண்புகள்",
     "ta_status": "draft"
    },
    "blocks": [
@@ -376,7 +376,7 @@
      "type": "p",
      "text": {
       "en": "An ideal cloning vector should possess the following essential characteristics:",
-      "ta": "சிறந்த நகலாக்கத் தாங்கிக்கடத்தி பின்வரும் இன்றியமையாத பண்புகளைக் கொண்டிருக்க வேண்டும்:",
+      "ta": "சிறந்த நகலாக்கக் கடத்தி பின்வரும் இன்றியமையாத பண்புகளைக் கொண்டிருக்க வேண்டும்:",
       "ta_status": "draft"
      }
     },
@@ -392,7 +392,7 @@
      "type": "p",
      "text": {
       "en": "A specific DNA sequence where replication begins. Allows the vector to replicate autonomously inside the host cell, independent of the host chromosome.",
-      "ta": "பெருக்கம் தொடங்கும் குறிப்பிட்ட DNA வரிசை. ஓம்புயிரி குரோமோசோமைச் சாராமல் தாங்கிக்கடத்தி ஓம்புயிரி செல்லுக்குள் தானாகப் பெருக உதவுகிறது.",
+      "ta": "பெருக்கம் தொடங்கும் குறிப்பிட்ட DNA வரிசை. ஓம்புயிரி குரோமோசோமைச் சாராமல் கடத்தி ஓம்புயிரி செல்லுக்குள் தானாகப் பெருக உதவுகிறது.",
       "ta_status": "draft"
      }
     },
@@ -408,7 +408,7 @@
      "type": "p",
      "text": {
       "en": "Genes (e.g., antibiotic resistance genes) that allow identification and selection of transformed host cells carrying the recombinant vector.",
-      "ta": "மறுகூட்டிணைவுத் தாங்கிக்கடத்தியைக் கொண்ட மாற்றப்பட்ட ஓம்புயிரி செல்களை அடையாளம் கண்டு தெரிவு செய்ய உதவும் மரபணுக்கள் (எ.கா. ஆன்டிபயாடிக் எதிர்ப்பு மரபணுக்கள்).",
+      "ta": "மறுகூட்டிணைவுக் கடத்தியைக் கொண்ட மாற்றப்பட்ட ஓம்புயிரி செல்களை அடையாளம் கண்டு தெரிவு செய்ய உதவும் மரபணுக்கள் (எ.கா. ஆன்டிபயாடிக் எதிர்ப்பு மரபணுக்கள்).",
       "ta_status": "draft"
      }
     },
@@ -440,7 +440,7 @@
      "type": "p",
      "text": {
       "en": "Small vectors are easier to introduce into host cells (transformation efficiency), manipulate in the lab, and less likely to be degraded inside the host.",
-      "ta": "சிறிய தாங்கிக்கடத்திகளை ஓம்புயிரி செல்லுக்குள் செலுத்துவதும் (தகவல் பரிமாற்றத் திறன்), ஆய்வகத்தில் கையாள்வதும் எளிது; ஓம்புயிரிக்குள் சிதைவதற்கான வாய்ப்பும் குறைவு.",
+      "ta": "சிறிய கடத்திகளை ஓம்புயிரி செல்லுக்குள் செலுத்துவதும் (தகவல் பரிமாற்றத் திறன்), ஆய்வகத்தில் கையாள்வதும் எளிது; ஓம்புயிரிக்குள் சிதைவதற்கான வாய்ப்பும் குறைவு.",
       "ta_status": "draft"
      }
     },
@@ -472,7 +472,7 @@
      "type": "p",
      "text": {
       "en": "The vector must be stably maintained inside the host cell and not be lost or degraded during cell division across multiple generations.",
-      "ta": "தாங்கிக்கடத்தி ஓம்புயிரி செல்லுக்குள் நிலையாகப் பராமரிக்கப்பட வேண்டும்; பல தலைமுறைகளாக செல் பிரிதலின்போது இழக்கப்படவோ சிதைவடையவோ கூடாது.",
+      "ta": "கடத்தி ஓம்புயிரி செல்லுக்குள் நிலையாகப் பராமரிக்கப்பட வேண்டும்; பல தலைமுறைகளாக செல் பிரிதலின்போது இழக்கப்படவோ சிதைவடையவோ கூடாது.",
       "ta_status": "draft"
      }
     },
@@ -488,7 +488,7 @@
      "type": "p",
      "text": {
       "en": "The vector (and its recombinant form) must be easily isolated from host cell lysates and purified using standard laboratory procedures.",
-      "ta": "தாங்கிக்கடத்தியையும் (அதன் மறுகூட்டிணைவு வடிவத்தையும்) ஓம்புயிரி செல் சிதைவுக் கரைசல்களிலிருந்து நிலையான ஆய்வக முறைகளால் எளிதில் தனித்துப் பிரித்துத் தூய்மைப்படுத்த முடிய வேண்டும்.",
+      "ta": "கடத்தியையும் (அதன் மறுகூட்டிணைவு வடிவத்தையும்) ஓம்புயிரி செல் சிதைவுக் கரைசல்களிலிருந்து நிலையான ஆய்வக முறைகளால் எளிதில் தனித்துப் பிரித்துத் தூய்மைப்படுத்த முடிய வேண்டும்.",
       "ta_status": "draft"
      }
     },
@@ -509,7 +509,7 @@
    "id": "s07",
    "title": {
     "en": "Plasmid Vectors",
-    "ta": "பிளாஸ்மிட் தாங்கிக்கடத்திகள்",
+    "ta": "பிளாஸ்மிட் கடத்திகள்",
     "ta_status": "draft"
    },
    "blocks": [
@@ -517,7 +517,7 @@
      "type": "p",
      "text": {
       "en": "**A. pBR322 — The Classic Cloning Vector**",
-      "ta": "**அ. pBR322 — சிறந்த நகலாக்கத் தாங்கிக்கடத்தி**",
+      "ta": "**அ. pBR322 — சிறந்த நகலாக்கக் கடத்தி**",
       "ta_status": "draft"
      }
     },
@@ -525,7 +525,7 @@
      "type": "p",
      "text": {
       "en": "**pBR322** is one of the most widely used and historically important E. coli plasmid cloning vectors. It was constructed in 1977 by Bolivar, Rodriguez, and colleagues (hence the name — _p_ for plasmid, _BR_ for Bolivar and Rodriguez, and _322_ as the strain number).",
-      "ta": "**pBR322** என்பது பரவலாகப் பயன்படுத்தப்பட்ட, வரலாற்று முக்கியத்துவம் வாய்ந்த _E. coli_ பிளாஸ்மிட் நகலாக்கத் தாங்கிக்கடத்தி. இது 1977-ல் பொலிவார், ரோட்ரிகஸ் மற்றும் சக ஆய்வாளர்களால் உருவாக்கப்பட்டது (எனவே பெயர் — _p_ பிளாஸ்மிடுக்கு, _BR_ பொலிவார் மற்றும் ரோட்ரிகஸுக்கு, _322_ திரிபு எண்).",
+      "ta": "**pBR322** என்பது பரவலாகப் பயன்படுத்தப்பட்ட, வரலாற்று முக்கியத்துவம் வாய்ந்த _E. coli_ பிளாஸ்மிட் நகலாக்கக் கடத்தி. இது 1977-ல் பொலிவார், ரோட்ரிகஸ் மற்றும் சக ஆய்வாளர்களால் உருவாக்கப்பட்டது (எனவே பெயர் — _p_ பிளாஸ்மிடுக்கு, _BR_ பொலிவார் மற்றும் ரோட்ரிகஸுக்கு, _322_ திரிபு எண்).",
       "ta_status": "draft"
      }
     },
@@ -599,7 +599,7 @@
      "items": [
       {
        "en": "Cells on ampicillin medium → grow (carry the vector)",
-       "ta": "ஆம்பிசிலின் ஊடகத்தில் செல்கள் → வளர்கின்றன (தாங்கிக்கடத்தியைக் கொண்டுள்ளன)",
+       "ta": "ஆம்பிசிலின் ஊடகத்தில் செல்கள் → வளர்கின்றன (கடத்தியைக் கொண்டுள்ளன)",
        "ta_status": "draft"
       },
       {
@@ -685,7 +685,7 @@
      "type": "p",
      "text": {
       "en": "To use the Ti plasmid as a vector, the tumour-causing genes in T-DNA are **disarmed** (removed) and replaced with the gene of interest. The modified Ti plasmid (called a **binary vector system**) is used to deliver foreign genes into plant cells, where they integrate into the plant genome and are stably inherited.",
-      "ta": "Ti பிளாஸ்மிட்டைத் தாங்கிக்கடத்தியாகப் பயன்படுத்த, T-DNA-வில் கட்டி உருவாக்கும் மரபணுக்கள் **செயலிழக்கச் செய்யப்பட்டு** (நீக்கப்பட்டு) தேவையான மரபணு பதிலீடு செய்யப்படுகிறது. மாற்றியமைக்கப்பட்ட Ti பிளாஸ்மிட் (**இரட்டைத் தாங்கிக்கடத்தி அமைப்பு**) அந்நிய மரபணுக்களைத் தாவர செல்களுக்குள் செலுத்தப் பயன்படுகிறது; அங்கு அவை தாவர மரபணுத்தொகையில் இணைந்து நிலையாக மரபுவழி கடத்தப்படுகின்றன.",
+      "ta": "Ti பிளாஸ்மிட்டைக் கடத்தியாகப் பயன்படுத்த, T-DNA-வில் கட்டி உருவாக்கும் மரபணுக்கள் **செயலிழக்கச் செய்யப்பட்டு** (நீக்கப்பட்டு) தேவையான மரபணு பதிலீடு செய்யப்படுகிறது. மாற்றியமைக்கப்பட்ட Ti பிளாஸ்மிட் (**இரட்டைக் கடத்தி அமைப்பு**) அந்நிய மரபணுக்களைத் தாவர செல்களுக்குள் செலுத்தப் பயன்படுகிறது; அங்கு அவை தாவர மரபணுத்தொகையில் இணைந்து நிலையாக மரபுவழி கடத்தப்படுகின்றன.",
       "ta_status": "draft"
      }
     },
@@ -694,7 +694,7 @@
      "kind": "info",
      "text": {
       "en": "**Key Significance:** The Ti plasmid is the most important vector system for creating **transgenic plants** — including herbicide-resistant, pest-resistant, and nutritionally enhanced crop plants (e.g., Golden Rice).",
-      "ta": "**முக்கியத்துவம்:** களைக்கொல்லி-எதிர்ப்பு, பூச்சி-எதிர்ப்பு, ஊட்டச்சத்து மேம்படுத்தப்பட்ட பயிர்கள் (எ.கா. கோல்டன் ரைஸ்) உள்ளிட்ட **மாற்றுயிர்த் தாவரங்களை** உருவாக்குவதற்கான மிக முக்கியமான தாங்கிக்கடத்தி அமைப்பு Ti பிளாஸ்மிட் ஆகும்.",
+      "ta": "**முக்கியத்துவம்:** களைக்கொல்லி-எதிர்ப்பு, பூச்சி-எதிர்ப்பு, ஊட்டச்சத்து மேம்படுத்தப்பட்ட பயிர்கள் (எ.கா. கோல்டன் ரைஸ்) உள்ளிட்ட **மாற்றுயிர்த் தாவரங்களை** உருவாக்குவதற்கான மிக முக்கியமான கடத்தி அமைப்பு Ti பிளாஸ்மிட் ஆகும்.",
       "ta_status": "draft"
      }
     }
@@ -706,7 +706,7 @@
    "id": "s08",
    "title": {
     "en": "Bacteriophage Vectors",
-    "ta": "பாக்டீரியோஃபேஜ் தாங்கிக்கடத்திகள்",
+    "ta": "பாக்டீரியோஃபேஜ் கடத்திகள்",
     "ta_status": "draft"
    },
    "blocks": [
@@ -722,7 +722,7 @@
      "type": "p",
      "text": {
       "en": "**Lambda phage** (bacteriophage λ) is a temperate bacteriophage that infects _E. coli_. It was one of the earliest and most powerful cloning vectors developed for genetic engineering.",
-      "ta": "**லாம்டா பேஜ்** (பாக்டீரியோஃபேஜ் λ) என்பது _E. coli_-யைத் தொற்றும் மிதவெப்ப (temperate) பாக்டீரியோஃபேஜ். மரபணுப் பொறியியலுக்காக உருவாக்கப்பட்ட மிகத் தொடக்க மற்றும் வலிமையான நகலாக்கத் தாங்கிக்கடத்திகளில் ஒன்று.",
+      "ta": "**லாம்டா பேஜ்** (பாக்டீரியோஃபேஜ் λ) என்பது _E. coli_-யைத் தொற்றும் மிதவெப்ப (temperate) பாக்டீரியோஃபேஜ். மரபணுப் பொறியியலுக்காக உருவாக்கப்பட்ட மிகத் தொடக்க மற்றும் வலிமையான நகலாக்கக் கடத்திகளில் ஒன்று.",
       "ta_status": "draft"
      }
     },
@@ -764,7 +764,7 @@
      "type": "p",
      "text": {
       "en": "**Use as a Cloning Vector**",
-      "ta": "**நகலாக்கத் தாங்கிக்கடத்தியாகப் பயன்பாடு**",
+      "ta": "**நகலாக்கக் கடத்தியாகப் பயன்பாடு**",
       "ta_status": "draft"
      }
     },
@@ -772,7 +772,7 @@
      "type": "p",
      "text": {
       "en": "The central one-third of lambda's genome (~15 kb, containing non-essential genes for lysogeny) can be **replaced by foreign DNA**. Two types of lambda vectors are used:",
-      "ta": "லாம்டா மரபணுத்தொகையின் மையப் பகுதி மூன்றில் ஒரு பங்கு (~15 kb, லைசோஜெனிக்கு அவசியமற்ற மரபணுக்கள்) **அந்நிய DNA-வால் பதிலீடு** செய்யப்படலாம். இரு வகை லாம்டா தாங்கிக்கடத்திகள் பயன்படுகின்றன:",
+      "ta": "லாம்டா மரபணுத்தொகையின் மையப் பகுதி மூன்றில் ஒரு பங்கு (~15 kb, லைசோஜெனிக்கு அவசியமற்ற மரபணுக்கள்) **அந்நிய DNA-வால் பதிலீடு** செய்யப்படலாம். இரு வகை லாம்டா கடத்திகள் பயன்படுகின்றன:",
       "ta_status": "draft"
      }
     },
@@ -782,12 +782,12 @@
      "items": [
       {
        "en": "**Insertion vectors:** Foreign DNA is inserted at a single restriction site. Accommodate up to ~8 kb of insert.",
-       "ta": "**செருகுத் தாங்கிக்கடத்திகள்:** அந்நிய DNA ஒற்றை ரெஸ்ட்ரிக்ஷன் இடத்தில் செருகப்படுகிறது. ~8 kb வரை செருகுகளை ஏற்கும்.",
+       "ta": "**செருகுக் கடத்திகள்:** அந்நிய DNA ஒற்றை ரெஸ்ட்ரிக்ஷன் இடத்தில் செருகப்படுகிறது. ~8 kb வரை செருகுகளை ஏற்கும்.",
        "ta_status": "draft"
       },
       {
        "en": "**Replacement vectors:** The non-essential \"stuffer\" fragment is replaced by foreign DNA. Accommodate up to ~20–23 kb of insert.",
-       "ta": "**பதிலீட்டுத் தாங்கிக்கடத்திகள்:** அவசியமற்ற \"ஸ்டஃபர்\" துண்டு அந்நிய DNA-வால் பதிலீடு செய்யப்படுகிறது. ~20–23 kb வரை செருகுகளை ஏற்கும்.",
+       "ta": "**பதிலீட்டுக் கடத்திகள்:** அவசியமற்ற \"ஸ்டஃபர்\" துண்டு அந்நிய DNA-வால் பதிலீடு செய்யப்படுகிறது. ~20–23 kb வரை செருகுகளை ஏற்கும்.",
        "ta_status": "draft"
       }
      ]
@@ -797,7 +797,7 @@
      "kind": "warn",
      "text": {
       "en": "**Insert capacity:** Up to 23 kb (replacement vectors) | **Key advantage:** Much larger insert capacity than plasmids (typically <10 kb).",
-      "ta": "**செருகு கொள்ளளவு:** 23 kb வரை (பதிலீட்டுத் தாங்கிக்கடத்திகள்) | **முக்கிய நன்மை:** பிளாஸ்மிட்களை (பொதுவாக <10 kb) விட மிகப் பெரிய செருகு கொள்ளளவு.",
+      "ta": "**செருகு கொள்ளளவு:** 23 kb வரை (பதிலீட்டுக் கடத்திகள்) | **முக்கிய நன்மை:** பிளாஸ்மிட்களை (பொதுவாக <10 kb) விட மிகப் பெரிய செருகு கொள்ளளவு.",
       "ta_status": "draft"
      }
     },
@@ -813,7 +813,7 @@
      "type": "p",
      "text": {
       "en": "Lambda phage vectors are ideal for constructing **genomic DNA libraries** because they can accommodate large inserts. The recombinant phage particles are packaged in vitro and can infect _E. coli_ cells with very high efficiency (10⁸–10⁹ plaques per microgram DNA).",
-      "ta": "பெரிய செருகுகளை ஏற்க முடிவதால் லாம்டா பேஜ் தாங்கிக்கடத்திகள் **மரபணு தொகைய DNA நூலகங்களை** உருவாக்க ஏற்றவை. மறுகூட்டிணைவு பேஜ் துகள்கள் இன்-விட்ரோவில் பொதிக்கப்பட்டு, மிக உயர் திறனுடன் _E. coli_ செல்களைத் தொற்றும் (ஒரு மைக்ரோகிராம் DNA-க்கு 10⁸–10⁹ பிளேக்குகள்).",
+      "ta": "பெரிய செருகுகளை ஏற்க முடிவதால் லாம்டா பேஜ் கடத்திகள் **மரபணு தொகைய DNA நூலகங்களை** உருவாக்க ஏற்றவை. மறுகூட்டிணைவு பேஜ் துகள்கள் இன்-விட்ரோவில் பொதிக்கப்பட்டு, மிக உயர் திறனுடன் _E. coli_ செல்களைத் தொற்றும் (ஒரு மைக்ரோகிராம் DNA-க்கு 10⁸–10⁹ பிளேக்குகள்).",
       "ta_status": "draft"
      }
     },
@@ -821,7 +821,7 @@
      "type": "p",
      "text": {
       "en": "**B. M13 Phage — The Sequencing Vector**",
-      "ta": "**ஆ. M13 பேஜ் — வரிசைப்படுத்தல் தாங்கிக்கடத்தி**",
+      "ta": "**ஆ. M13 பேஜ் — வரிசைப்படுத்தல் கடத்தி**",
       "ta_status": "draft"
      }
     },
@@ -906,7 +906,7 @@
      "kind": "info",
      "text": {
       "en": "**Key Significance:** M13-based vectors (mp series, e.g., M13mp18, M13mp19) were essential for the development of **chain-termination (Sanger) DNA sequencing** and **phage display technology**.",
-      "ta": "**முக்கியத்துவம்:** M13 அடிப்படையிலான தாங்கிக்கடத்திகள் (mp தொடர், எ.கா. M13mp18, M13mp19) **சங்கிலி-முடிவு (சேங்கர்) DNA வரிசைப்படுத்தல்** மற்றும் **பேஜ் காட்சியமைப்பு தொழில்நுட்பத்தின்** வளர்ச்சிக்கு இன்றியமையாதவையாக இருந்தன.",
+      "ta": "**முக்கியத்துவம்:** M13 அடிப்படையிலான கடத்திகள் (mp தொடர், எ.கா. M13mp18, M13mp19) **சங்கிலி-முடிவு (சேங்கர்) DNA வரிசைப்படுத்தல்** மற்றும் **பேஜ் காட்சியமைப்பு தொழில்நுட்பத்தின்** வளர்ச்சிக்கு இன்றியமையாதவையாக இருந்தன.",
       "ta_status": "draft"
      }
     }
@@ -934,7 +934,7 @@
      "type": "p",
      "text": {
       "en": "Fig. 1 — pBR322 Plasmid Vector (4,361 bp)",
-      "ta": "படம் 1 — pBR322 பிளாஸ்மிட் தாங்கிக்கடத்தி (4,361 bp)",
+      "ta": "படம் 1 — pBR322 பிளாஸ்மிட் கடத்தி (4,361 bp)",
       "ta_status": "draft"
      }
     },
@@ -1108,7 +1108,7 @@
    "id": "s10",
    "title": {
     "en": "How a Vector Carries a Foreign Gene into a Host Cell",
-    "ta": "தாங்கிக்கடத்தி அந்நிய மரபணுவை ஓம்புயிரி செல்லுக்குள் எவ்வாறு கொண்டு செல்கிறது",
+    "ta": "கடத்தி அந்நிய மரபணுவை ஓம்புயிரி செல்லுக்குள் எவ்வாறு கொண்டு செல்கிறது",
     "ta_status": "draft"
    },
    "blocks": [
@@ -1135,7 +1135,7 @@
      "items": [
       {
        "en": "2 ✂️ Cut Vector with Same RE The cloning vector (e.g., pBR322) is linearized using the same restriction enzyme as used on the insert, creating compatible sticky or blunt ends for ligation.",
-       "ta": "2 ✂️ அதே RE-யால் தாங்கிக்கடத்தியை வெட்டுதல். நகலாக்கத் தாங்கிக்கடத்தி (எ.கா. pBR322) செருகில் பயன்படுத்திய அதே ரெஸ்ட்ரிக்ஷன் நொதியால் நேர்கோடாக்கப்பட்டு, இணைப்புக்குப் பொருந்தும் ஒட்டும் அல்லது மழுங்கிய முனைகளை உருவாக்குகிறது.",
+       "ta": "2 ✂️ அதே RE-யால் கடத்தியை வெட்டுதல். நகலாக்கக் கடத்தி (எ.கா. pBR322) செருகில் பயன்படுத்திய அதே ரெஸ்ட்ரிக்ஷன் நொதியால் நேர்கோடாக்கப்பட்டு, இணைப்புக்குப் பொருந்தும் ஒட்டும் அல்லது மழுங்கிய முனைகளை உருவாக்குகிறது.",
        "ta_status": "draft"
       }
      ]
@@ -1145,7 +1145,7 @@
      "items": [
       {
        "en": "3 🔗 Recombinant Vector Forms DNA ligase (T4 DNA ligase) joins the insert DNA to the vector by sealing the compatible ends, forming a circular recombinant DNA molecule (rDNA).",
-       "ta": "3 🔗 மறுகூட்டிணைவுத் தாங்கிக்கடத்தி உருவாகிறது. DNA லைகேஸ் (T4 DNA லைகேஸ்) பொருந்தும் முனைகளை அடைத்துச் செருகு DNA-வைத் தாங்கிக்கடத்தியுடன் இணைத்து வட்ட வடிவ மறுகூட்டிணைவு DNA மூலக்கூறை (rDNA) உருவாக்குகிறது.",
+       "ta": "3 🔗 மறுகூட்டிணைவுக் கடத்தி உருவாகிறது. DNA லைகேஸ் (T4 DNA லைகேஸ்) பொருந்தும் முனைகளை அடைத்துச் செருகு DNA-வைக் கடத்தியுடன் இணைத்து வட்ட வடிவ மறுகூட்டிணைவு DNA மூலக்கூறை (rDNA) உருவாக்குகிறது.",
        "ta_status": "draft"
       }
      ]
@@ -1155,7 +1155,7 @@
      "items": [
       {
        "en": "4 🧫 Introduce into Host Cell The recombinant vector is introduced into a host cell (e.g., E. coli) by transformation (for plasmids) or transduction (for phage vectors). The cell takes up the vector and is now \"transformed.\"",
-       "ta": "4 🧫 ஓம்புயிரி செல்லுக்குள் செலுத்துதல். மறுகூட்டிணைவுத் தாங்கிக்கடத்தி ஓம்புயிரி செல்லுக்குள் (எ.கா. E. coli) தகவல் பரிமாற்றம் (பிளாஸ்மிட்களுக்கு) அல்லது கடத்துதல் (டிரான்ஸ்டக்ஷன், பேஜ் தாங்கிக்கடத்திகளுக்கு) மூலம் செலுத்தப்படுகிறது. செல் தாங்கிக்கடத்தியை ஏற்று, இப்போது \"மாற்றப்பட்டது\".",
+       "ta": "4 🧫 ஓம்புயிரி செல்லுக்குள் செலுத்துதல். மறுகூட்டிணைவுக் கடத்தி ஓம்புயிரி செல்லுக்குள் (எ.கா. E. coli) தகவல் பரிமாற்றம் (பிளாஸ்மிட்களுக்கு) அல்லது கடத்துதல் (டிரான்ஸ்டக்ஷன், பேஜ் கடத்திகளுக்கு) மூலம் செலுத்தப்படுகிறது. செல் கடத்தியை ஏற்று, இப்போது \"மாற்றப்பட்டது\".",
        "ta_status": "draft"
       }
      ]
@@ -1165,7 +1165,7 @@
      "items": [
       {
        "en": "5 📋 Replication & Expression Inside the host, the vector replicates via its ori, producing many copies of the foreign gene. The gene may be expressed to produce a recombinant protein. Transformed cells are selected using antibiotic markers.",
-       "ta": "5 📋 பெருக்கமும் வெளிப்பாடும். ஓம்புயிரிக்குள் தாங்கிக்கடத்தி தன் ori மூலம் பெருகி அந்நிய மரபணுவின் பல நகல்களை உருவாக்குகிறது. மரபணு வெளிப்பட்டு மறுகூட்டிணைவுப் புரதத்தை உருவாக்கலாம். மாற்றப்பட்ட செல்கள் ஆன்டிபயாடிக் அடையாளக்குறிகளால் தெரிவு செய்யப்படுகின்றன.",
+       "ta": "5 📋 பெருக்கமும் வெளிப்பாடும். ஓம்புயிரிக்குள் கடத்தி தன் ori மூலம் பெருகி அந்நிய மரபணுவின் பல நகல்களை உருவாக்குகிறது. மரபணு வெளிப்பட்டு மறுகூட்டிணைவுப் புரதத்தை உருவாக்கலாம். மாற்றப்பட்ட செல்கள் ஆன்டிபயாடிக் அடையாளக்குறிகளால் தெரிவு செய்யப்படுகின்றன.",
        "ta_status": "draft"
       }
      ]
@@ -1186,7 +1186,7 @@
      "type": "p",
      "text": {
       "en": "**Expand Each Vector to Review Key Points**",
-      "ta": "**முக்கியக் குறிப்புகளை மீள்பார்வை செய்ய ஒவ்வொரு தாங்கிக்கடத்தியையும் விரிக்க**",
+      "ta": "**முக்கியக் குறிப்புகளை மீள்பார்வை செய்ய ஒவ்வொரு கடத்தியையும் விரிக்க**",
       "ta_status": "draft"
      }
     },
@@ -1202,7 +1202,7 @@
      "type": "p",
      "text": {
       "en": "Plasmid Vector",
-      "ta": "பிளாஸ்மிட் தாங்கிக்கடத்தி",
+      "ta": "பிளாஸ்மிட் கடத்தி",
       "ta_status": "draft"
      }
     },
@@ -1263,7 +1263,7 @@
      "type": "p",
      "text": {
       "en": "Plant Transformation Vector",
-      "ta": "தாவர மாற்றத் தாங்கிக்கடத்தி",
+      "ta": "தாவர மாற்றக் கடத்தி",
       "ta_status": "draft"
      }
     },
@@ -1298,7 +1298,7 @@
       },
       {
        "en": "Used in **binary vector systems** for creating transgenic plants",
-       "ta": "மாற்றுயிர்த் தாவரங்களை உருவாக்க **இரட்டைத் தாங்கிக்கடத்தி அமைப்புகளில்** பயன்படுகிறது",
+       "ta": "மாற்றுயிர்த் தாவரங்களை உருவாக்க **இரட்டைக் கடத்தி அமைப்புகளில்** பயன்படுகிறது",
        "ta_status": "draft"
       }
      ]
@@ -1324,7 +1324,7 @@
      "type": "p",
      "text": {
       "en": "Bacteriophage Vector",
-      "ta": "பாக்டீரியோஃபேஜ் தாங்கிக்கடத்தி",
+      "ta": "பாக்டீரியோஃபேஜ் கடத்தி",
       "ta_status": "draft"
      }
     },
@@ -1349,7 +1349,7 @@
       },
       {
        "en": "Insert capacity: up to **23 kb** (replacement vectors)",
-       "ta": "செருகு கொள்ளளவு: **23 kb** வரை (பதிலீட்டுத் தாங்கிக்கடத்திகள்)",
+       "ta": "செருகு கொள்ளளவு: **23 kb** வரை (பதிலீட்டுக் கடத்திகள்)",
        "ta_status": "draft"
       },
       {
@@ -1364,7 +1364,7 @@
       },
       {
        "en": "EMBL3, EMBL4, λgt10, λgt11 are commonly used lambda vectors",
-       "ta": "EMBL3, EMBL4, λgt10, λgt11 ஆகியவை பொதுவாகப் பயன்படும் லாம்டா தாங்கிக்கடத்திகள்",
+       "ta": "EMBL3, EMBL4, λgt10, λgt11 ஆகியவை பொதுவாகப் பயன்படும் லாம்டா கடத்திகள்",
        "ta_status": "draft"
       }
      ]
@@ -1390,7 +1390,7 @@
      "type": "p",
      "text": {
       "en": "Bacteriophage Vector",
-      "ta": "பாக்டீரியோஃபேஜ் தாங்கிக்கடத்தி",
+      "ta": "பாக்டீரியோஃபேஜ் கடத்தி",
       "ta_status": "draft"
      }
     },
@@ -1440,7 +1440,7 @@
      "kind": "info",
      "text": {
       "en": "**Exam tip:** M13 is the ONLY vector providing single-stranded DNA for Sanger sequencing. Know its filamentous structure and non-lytic nature.",
-      "ta": "**தேர்வுக் குறிப்பு:** சேங்கர் வரிசைப்படுத்தலுக்கு ஒற்றை இழை DNA-வை வழங்கும் ஒரே தாங்கிக்கடத்தி M13 மட்டுமே. அதன் இழை வடிவ அமைப்பையும் செல் சிதைக்காத தன்மையையும் அறிக.",
+      "ta": "**தேர்வுக் குறிப்பு:** சேங்கர் வரிசைப்படுத்தலுக்கு ஒற்றை இழை DNA-வை வழங்கும் ஒரே கடத்தி M13 மட்டுமே. அதன் இழை வடிவ அமைப்பையும் செல் சிதைக்காத தன்மையையும் அறிக.",
       "ta_status": "draft"
      }
     },
@@ -1461,7 +1461,7 @@
      },
      "answer": {
       "en": "A specific DNA sequence (ori) where DNA replication begins. Allows the vector to replicate autonomously in the host cell, independent of the host chromosome.",
-      "ta": "DNA பெருக்கம் தொடங்கும் குறிப்பிட்ட DNA வரிசை (ori). ஓம்புயிரி குரோமோசோமைச் சாராமல் தாங்கிக்கடத்தி ஓம்புயிரி செல்லுக்குள் தானாகப் பெருக உதவுகிறது.",
+      "ta": "DNA பெருக்கம் தொடங்கும் குறிப்பிட்ட DNA வரிசை (ori). ஓம்புயிரி குரோமோசோமைச் சாராமல் கடத்தி ஓம்புயிரி செல்லுக்குள் தானாகப் பெருக உதவுகிறது.",
       "ta_status": "draft"
      }
     },
@@ -1474,7 +1474,7 @@
      },
      "answer": {
       "en": "A gene (e.g., antibiotic resistance) on the vector that allows selection of transformed cells on selective media. Only cells with the vector survive.",
-      "ta": "தேர்வு ஊடகத்தில் மாற்றப்பட்ட செல்களைத் தெரிவு செய்ய உதவும் தாங்கிக்கடத்தியிலுள்ள மரபணு (எ.கா. ஆன்டிபயாடிக் எதிர்ப்பு). தாங்கிக்கடத்தியைக் கொண்ட செல்கள் மட்டுமே உயிர்வாழும்.",
+      "ta": "தேர்வு ஊடகத்தில் மாற்றப்பட்ட செல்களைத் தெரிவு செய்ய உதவும் கடத்தியிலுள்ள மரபணு (எ.கா. ஆன்டிபயாடிக் எதிர்ப்பு). கடத்தியைக் கொண்ட செல்கள் மட்டுமே உயிர்வாழும்.",
       "ta_status": "draft"
      }
     },
@@ -1526,7 +1526,7 @@
      },
      "answer": {
       "en": "The non-essential central region (~15 kb) of the lambda phage genome that can be removed and replaced by foreign DNA in lambda replacement vectors. Allows up to 23 kb of insert.",
-      "ta": "லாம்டா பதிலீட்டுத் தாங்கிக்கடத்திகளில் நீக்கி அந்நிய DNA-வால் பதிலீடு செய்யத்தக்க, லாம்டா மரபணுத்தொகையின் அவசியமற்ற மையப் பகுதி (~15 kb). 23 kb வரை செருகை ஏற்கும்.",
+      "ta": "லாம்டா பதிலீட்டுக் கடத்திகளில் நீக்கி அந்நிய DNA-வால் பதிலீடு செய்யத்தக்க, லாம்டா மரபணுத்தொகையின் அவசியமற்ற மையப் பகுதி (~15 kb). 23 kb வரை செருகை ஏற்கும்.",
       "ta_status": "draft"
      }
     },
@@ -1547,12 +1547,12 @@
      "type": "reveal",
      "question": {
       "en": "Binary Vector System",
-      "ta": "இரட்டைத் தாங்கிக்கடத்தி அமைப்பு",
+      "ta": "இரட்டைக் கடத்தி அமைப்பு",
       "ta_status": "draft"
      },
      "answer": {
       "en": "A plant transformation system using two separate plasmids: a disarmed Ti plasmid (providing vir genes in trans) and a small binary vector (carrying the foreign gene flanked by T-DNA borders).",
-      "ta": "இரு தனித்த பிளாஸ்மிட்களைப் பயன்படுத்தும் தாவர மாற்ற அமைப்பு: செயலிழக்கச் செய்யப்பட்ட Ti பிளாஸ்மிட் (vir மரபணுக்களை டிரான்ஸ் நிலையில் வழங்குவது) மற்றும் T-DNA எல்லைகளுக்கிடையே அந்நிய மரபணுவைக் கொண்ட சிறிய இரட்டைத் தாங்கிக்கடத்தி.",
+      "ta": "இரு தனித்த பிளாஸ்மிட்களைப் பயன்படுத்தும் தாவர மாற்ற அமைப்பு: செயலிழக்கச் செய்யப்பட்ட Ti பிளாஸ்மிட் (vir மரபணுக்களை டிரான்ஸ் நிலையில் வழங்குவது) மற்றும் T-DNA எல்லைகளுக்கிடையே அந்நிய மரபணுவைக் கொண்ட சிறிய இரட்டைக் கடத்தி.",
       "ta_status": "draft"
      }
     }
@@ -1564,7 +1564,7 @@
    "id": "s12",
    "title": {
     "en": "Comparison of Major Cloning Vectors",
-    "ta": "முக்கிய நகலாக்கத் தாங்கிக்கடத்திகளின் ஒப்பீடு",
+    "ta": "முக்கிய நகலாக்கக் கடத்திகளின் ஒப்பீடு",
     "ta_status": "draft"
    },
    "blocks": [
@@ -1606,22 +1606,22 @@
        },
        {
         "en": "Plasmid vector",
-        "ta": "பிளாஸ்மிட் தாங்கிக்கடத்தி",
+        "ta": "பிளாஸ்மிட் கடத்தி",
         "ta_status": "draft"
        },
        {
         "en": "Plasmid / plant vector",
-        "ta": "பிளாஸ்மிட் / தாவரத் தாங்கிக்கடத்தி",
+        "ta": "பிளாஸ்மிட் / தாவரக் கடத்தி",
         "ta_status": "draft"
        },
        {
         "en": "Bacteriophage vector",
-        "ta": "பாக்டீரியோஃபேஜ் தாங்கிக்கடத்தி",
+        "ta": "பாக்டீரியோஃபேஜ் கடத்தி",
         "ta_status": "draft"
        },
        {
         "en": "Bacteriophage vector",
-        "ta": "பாக்டீரியோஃபேஜ் தாங்கிக்கடத்தி",
+        "ta": "பாக்டீரியோஃபேஜ் கடத்தி",
         "ta_status": "draft"
        }
       ],
@@ -1886,7 +1886,7 @@
      "type": "p",
      "text": {
       "en": "**Vector Definition**A DNA molecule that carries and delivers foreign DNA into a host cell for replication and/or expression.",
-      "ta": "**தாங்கிக்கடத்தி வரையறை**அந்நிய DNA-வை ஓம்புயிரி செல்லுக்குள் கொண்டு சென்று பெருக்கவும்/அல்லது வெளிப்படவும் செய்யும் DNA மூலக்கூறு.",
+      "ta": "**கடத்தி வரையறை**அந்நிய DNA-வை ஓம்புயிரி செல்லுக்குள் கொண்டு சென்று பெருக்கவும்/அல்லது வெளிப்படவும் செய்யும் DNA மூலக்கூறு.",
       "ta_status": "draft"
      }
     },
@@ -1894,7 +1894,7 @@
      "type": "p",
      "text": {
       "en": "**Ideal Vector Features**Must have ori, selectable marker, unique restriction sites, small size, high copy number, and stability.",
-      "ta": "**சிறந்த தாங்கிக்கடத்தியின் பண்புகள்**ori, தேர்ந்தெடுக்கும் அடையாளக்குறி, தனித்த ரெஸ்ட்ரிக்ஷன் இடங்கள், சிறிய அளவு, அதிக நகல் எண்ணிக்கை, நிலைப்புத்தன்மை ஆகியவை இருக்க வேண்டும்.",
+      "ta": "**சிறந்த கடத்தியின் பண்புகள்**ori, தேர்ந்தெடுக்கும் அடையாளக்குறி, தனித்த ரெஸ்ட்ரிக்ஷன் இடங்கள், சிறிய அளவு, அதிக நகல் எண்ணிக்கை, நிலைப்புத்தன்மை ஆகியவை இருக்க வேண்டும்.",
       "ta_status": "draft"
      }
     },
@@ -1966,7 +1966,7 @@
      "type": "p",
      "text": {
       "en": "**R Plasmids**Resistance plasmids — carry antibiotic resistance genes; basis of selectable markers in cloning vectors.",
-      "ta": "**R பிளாஸ்மிட்கள்**எதிர்ப்பு பிளாஸ்மிட்கள் — ஆன்டிபயாடிக் எதிர்ப்பு மரபணுக்களைக் கொண்டவை; நகலாக்கத் தாங்கிக்கடத்திகளின் தேர்ந்தெடுக்கும் அடையாளக்குறிகளுக்கு அடிப்படை.",
+      "ta": "**R பிளாஸ்மிட்கள்**எதிர்ப்பு பிளாஸ்மிட்கள் — ஆன்டிபயாடிக் எதிர்ப்பு மரபணுக்களைக் கொண்டவை; நகலாக்கக் கடத்திகளின் தேர்ந்தெடுக்கும் அடையாளக்குறிகளுக்கு அடிப்படை.",
       "ta_status": "draft"
      }
     },
@@ -1994,7 +1994,7 @@
      "type": "glossary",
      "term": {
       "en": "Vector",
-      "ta": "தாங்கிக்கடத்தி",
+      "ta": "கடத்தி",
       "ta_status": "draft"
      },
      "definition": {
@@ -2012,7 +2012,7 @@
      },
      "definition": {
       "en": "A specific DNA sequence on a vector where replication is initiated. Ensures the vector can replicate autonomously inside the host cell, independent of the chromosomal DNA.",
-      "ta": "தாங்கிக்கடத்தியில் பெருக்கம் தொடங்கும் குறிப்பிட்ட DNA வரிசை. குரோமோசோம் DNA-வைச் சாராமல் தாங்கிக்கடத்தி ஓம்புயிரி செல்லுக்குள் தானாகப் பெருகுவதை உறுதி செய்கிறது.",
+      "ta": "கடத்தியில் பெருக்கம் தொடங்கும் குறிப்பிட்ட DNA வரிசை. குரோமோசோம் DNA-வைச் சாராமல் கடத்தி ஓம்புயிரி செல்லுக்குள் தானாகப் பெருகுவதை உறுதி செய்கிறது.",
       "ta_status": "draft"
      }
     },
@@ -2025,7 +2025,7 @@
      },
      "definition": {
       "en": "A gene (typically conferring antibiotic resistance) on a vector that allows selection of transformed host cells on selective media. Untransformed cells die; transformed cells survive.",
-      "ta": "தேர்வு ஊடகத்தில் மாற்றப்பட்ட ஓம்புயிரி செல்களைத் தெரிவு செய்ய உதவும் தாங்கிக்கடத்தியிலுள்ள (பொதுவாக ஆன்டிபயாடிக் எதிர்ப்பை அளிக்கும்) மரபணு. மாற்றப்படாத செல்கள் இறக்கும்; மாற்றப்பட்டவை உயிர்வாழும்.",
+      "ta": "தேர்வு ஊடகத்தில் மாற்றப்பட்ட ஓம்புயிரி செல்களைத் தெரிவு செய்ய உதவும் கடத்தியிலுள்ள (பொதுவாக ஆன்டிபயாடிக் எதிர்ப்பை அளிக்கும்) மரபணு. மாற்றப்படாத செல்கள் இறக்கும்; மாற்றப்பட்டவை உயிர்வாழும்.",
       "ta_status": "draft"
      }
     },
@@ -2038,7 +2038,7 @@
      },
      "definition": {
       "en": "A short DNA sequence on a cloning vector that contains multiple unique restriction enzyme recognition sites. Also called a polylinker; facilitates insertion of foreign DNA at a defined location.",
-      "ta": "நகலாக்கத் தாங்கிக்கடத்தியில் பல தனித்த ரெஸ்ட்ரிக்ஷன் நொதி அறிதல் இடங்களைக் கொண்ட குறுகிய DNA வரிசை. பாலிலிங்கர் எனவும் அழைக்கப்படும்; அந்நிய DNA-வை வரையறுக்கப்பட்ட இடத்தில் செருக உதவுகிறது.",
+      "ta": "நகலாக்கக் கடத்தியில் பல தனித்த ரெஸ்ட்ரிக்ஷன் நொதி அறிதல் இடங்களைக் கொண்ட குறுகிய DNA வரிசை. பாலிலிங்கர் எனவும் அழைக்கப்படும்; அந்நிய DNA-வை வரையறுக்கப்பட்ட இடத்தில் செருக உதவுகிறது.",
       "ta_status": "draft"
      }
     },
@@ -2051,7 +2051,7 @@
      },
      "definition": {
       "en": "The foreign DNA fragment (gene of interest) that is cloned into the vector. After restriction digestion and ligation, the insert becomes part of the recombinant DNA molecule.",
-      "ta": "தாங்கிக்கடத்தியில் நகலாக்கப்படும் அந்நிய DNA துண்டு (தேவையான மரபணு). ரெஸ்ட்ரிக்ஷன் வெட்டலுக்கும் இணைப்புக்கும் பின் செருகி மறுகூட்டிணைவு DNA மூலக்கூறின் பகுதியாகிறது.",
+      "ta": "கடத்தியில் நகலாக்கப்படும் அந்நிய DNA துண்டு (தேவையான மரபணு). ரெஸ்ட்ரிக்ஷன் வெட்டலுக்கும் இணைப்புக்கும் பின் செருகி மறுகூட்டிணைவு DNA மூலக்கூறின் பகுதியாகிறது.",
       "ta_status": "draft"
      }
     },
@@ -2077,7 +2077,7 @@
      },
      "definition": {
       "en": "A virus that specifically infects bacteria. Used as a cloning vector because it can inject its DNA (along with foreign inserts) into bacterial host cells with high efficiency.",
-      "ta": "பாக்டீரியாக்களை மட்டும் தொற்றும் வைரஸ். அந்நிய செருகுகளுடன் தன் DNA-வை பாக்டீரிய ஓம்புயிரி செல்களுக்குள் உயர் திறனுடன் செலுத்த முடிவதால் நகலாக்கத் தாங்கிக்கடத்தியாகப் பயன்படுகிறது.",
+      "ta": "பாக்டீரியாக்களை மட்டும் தொற்றும் வைரஸ். அந்நிய செருகுகளுடன் தன் DNA-வை பாக்டீரிய ஓம்புயிரி செல்களுக்குள் உயர் திறனுடன் செலுத்த முடிவதால் நகலாக்கக் கடத்தியாகப் பயன்படுகிறது.",
       "ta_status": "draft"
      }
     },
@@ -2090,7 +2090,7 @@
      },
      "definition": {
       "en": "The cell (usually E. coli or plant cells) into which the recombinant vector is introduced. The host provides the cellular machinery needed for vector replication and gene expression.",
-      "ta": "மறுகூட்டிணைவுத் தாங்கிக்கடத்தி செலுத்தப்படும் செல் (பொதுவாக E. coli அல்லது தாவர செல்கள்). தாங்கிக்கடத்தி பெருகவும் மரபணு வெளிப்படவும் தேவையான செல் இயங்குமுறையை ஓம்புயிரி வழங்குகிறது.",
+      "ta": "மறுகூட்டிணைவுக் கடத்தி செலுத்தப்படும் செல் (பொதுவாக E. coli அல்லது தாவர செல்கள்). கடத்தி பெருகவும் மரபணு வெளிப்படவும் தேவையான செல் இயங்குமுறையை ஓம்புயிரி வழங்குகிறது.",
       "ta_status": "draft"
      }
     },
@@ -2129,7 +2129,7 @@
      },
      "definition": {
       "en": "The process of inserting a DNA fragment into a vector, introducing it into a host cell, and propagating it to produce many identical copies of the DNA fragment.",
-      "ta": "DNA துண்டைத் தாங்கிக்கடத்தியில் செருகி, ஓம்புயிரி செல்லுக்குள் செலுத்தி, அந்த DNA துண்டின் பல ஒத்த நகல்களை உருவாக்கப் பெருக்கும் செயல்முறை.",
+      "ta": "DNA துண்டைக் கடத்தியில் செருகி, ஓம்புயிரி செல்லுக்குள் செலுத்தி, அந்த DNA துண்டின் பல ஒத்த நகல்களை உருவாக்கப் பெருக்கும் செயல்முறை.",
       "ta_status": "draft"
      }
     },
@@ -2142,7 +2142,7 @@
      },
      "definition": {
       "en": "The process of introducing recombinant plasmid DNA into a competent bacterial host cell. Successfully transformed cells carry the recombinant vector and are identified by selection on antibiotic media.",
-      "ta": "மறுகூட்டிணைவுப் பிளாஸ்மிட் DNA-வைத் தகுதி பெற்ற பாக்டீரிய ஓம்புயிரி செல்லுக்குள் செலுத்தும் செயல்முறை. வெற்றிகரமாக மாற்றப்பட்ட செல்கள் மறுகூட்டிணைவுத் தாங்கிக்கடத்தியைக் கொண்டிருக்கும்; ஆன்டிபயாடிக் ஊடகத்தில் தெரிவு மூலம் அடையாளம் காணப்படும்.",
+      "ta": "மறுகூட்டிணைவுப் பிளாஸ்மிட் DNA-வைத் தகுதி பெற்ற பாக்டீரிய ஓம்புயிரி செல்லுக்குள் செலுத்தும் செயல்முறை. வெற்றிகரமாக மாற்றப்பட்ட செல்கள் மறுகூட்டிணைவுக் கடத்தியைக் கொண்டிருக்கும்; ஆன்டிபயாடிக் ஊடகத்தில் தெரிவு மூலம் அடையாளம் காணப்படும்.",
       "ta_status": "draft"
      }
     }

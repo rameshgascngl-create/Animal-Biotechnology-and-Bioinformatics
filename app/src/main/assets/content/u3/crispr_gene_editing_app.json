@@ -715,7 +715,7 @@
       },
       {
        "en": "3 **Deliver CRISPR Components into Cell** The gRNA and Cas9 protein are packaged and delivered into the target cell using viral vectors (AAV), electroporation, liposomes, or as a ribonucleoprotein (RNP) complex.",
-       "ta": "3 **CRISPR கூறுகளைச் செல்லினுள் செலுத்துதல்** gRNA-வும் Cas9 புரதமும் தொகுக்கப்பட்டு வைரஸ் தாங்கிக்கடத்திகள் (AAV), மின்துளைப்பு, லிப்போசோம்கள் அல்லது ரைபோநியுக்ளியோபுர (RNP) அணைவாக இலக்குச் செல்லினுள் செலுத்தப்படும்.",
+       "ta": "3 **CRISPR கூறுகளைச் செல்லினுள் செலுத்துதல்** gRNA-வும் Cas9 புரதமும் தொகுக்கப்பட்டு வைரஸ் கடத்திகள் (AAV), மின்துளைப்பு, லிப்போசோம்கள் அல்லது ரைபோநியுக்ளியோபுர (RNP) அணைவாக இலக்குச் செல்லினுள் செலுத்தப்படும்.",
        "ta_status": "draft"
       },
       {
@@ -769,7 +769,7 @@
       },
       {
        "en": "Delivery methods: AAV vectors, electroporation, liposomes, RNP complex",
-       "ta": "செலுத்தும் முறைகள்: AAV தாங்கிக்கடத்திகள், மின்துளைப்பு, லிப்போசோம்கள், RNP அணைவு",
+       "ta": "செலுத்தும் முறைகள்: AAV கடத்திகள், மின்துளைப்பு, லிப்போசோம்கள், RNP அணைவு",
        "ta_status": "draft"
       }
      ]
