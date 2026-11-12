@@ -3,6 +3,7 @@
 set -u
 rc=0
 mkdir -p qa-captures
+adb logcat -G 16M || true; adb logcat -c || true
 adb shell wm size 720x1280; adb shell wm density 320
 adb install -r app/build/outputs/apk/debug/app-debug.apk || rc=1
 adb shell am force-stop com.gasczoology.animalbiotech
@@ -21,5 +22,6 @@ fi
 adb shell wm size reset; adb shell wm density reset
 adb pull /sdcard/Pictures qa-captures/screenshots || true
 adb logcat -d -s CITEST:E CITEST-MEM:E > qa-captures/citest.txt || true
+adb logcat -d -s CITEST:I CITEST:E CITEST-MEM:I CITEST-MEM:E > qa-captures/citest-all.txt || true
 adb logcat -d | grep -E 'AndroidRuntime|FATAL|animalbiotech|ActivityTaskManager|WindowManager' | tail -400 > qa-captures/logcat.txt || true
 exit $rc
