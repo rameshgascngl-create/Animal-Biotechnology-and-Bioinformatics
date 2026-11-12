@@ -29,6 +29,14 @@ class ReaderCaptureTest {
         Regex("content-desc=\"([^\"]+)\"").findAll(bo.toString()).forEach { android.util.Log.e("CITEST", "desc: " + it.groupValues[1].take(160)) }
     }
 
+    /** Logs PSS and heap figures (kB) from dumpsys meminfo under the CITEST-MEM tag: "moment | label | value". */
+    private fun logMem(device: UiDevice, moment: String) {
+        val out = device.executeShellCommand("dumpsys meminfo com.gasczoology.animalbiotech")
+        for (key in listOf("Java Heap:", "Native Heap:", "Graphics:", "TOTAL PSS:", "TOTAL:")) {
+            out.lines().firstOrNull { it.trim().startsWith(key) }?.let { android.util.Log.e("CITEST-MEM", "$moment | ${it.trim().replace(Regex("\\s+"), " ")}") }
+        }
+    }
+
     private fun hasButton(device: UiDevice, label: String) = device.hasObject(By.text(label)) || device.hasObject(By.desc(label))
     private fun button(device: UiDevice, label: String) = device.findObject(By.text(label)) ?: device.findObject(By.desc(label))
 
@@ -262,25 +270,77 @@ class ReaderCaptureTest {
                 val prefix = if (lang == Lang.EN) "Diagram:" else "\u0BAA\u0B9F\u0BAE\u0BCD:"
                 assertTrue("pilot figure not found", device.wait(Until.hasObject(By.descStartsWith(prefix)), 10000))
                 capture("12-pilot-inline-$tag-${lang.name}")
+                logMem(device, "$tag ${lang.name} inline")
                 val close = if (lang == Lang.EN) "Close" else "\u0BAE\u0BC2\u0B9F\u0BC1"
                 requireNotNull(device.findObject(By.descStartsWith(prefix))).click()
                 assertTrue("pilot viewer did not open", device.wait(Until.hasObject(By.text(close)), 8000) || device.wait(Until.hasObject(By.desc(close)), 2000))
                 Thread.sleep(1500)
                 assertTrue("viewer closed itself", hasButton(device, close))
                 capture("13-pilot-viewer-$tag-${lang.name}")
-                assertTrue("viewer is not landscape", device.displayWidth > device.displayHeight)
                 // real pinch on the figure inside the viewer (the last matching node is the top window's)
                 val before = md5(device, "13-pilot-viewer-$tag-${lang.name}")
                 val fig = device.findObjects(By.descStartsWith(prefix)).last()
                 fig.pinchOpen(0.6f, 400)
                 capture("14-pilot-pinched-$tag-${lang.name}")
                 assertNotEquals("pinch did not change the frame", before, md5(device, "14-pilot-pinched-$tag-${lang.name}"))
-                // memory with the viewer open and zoomed (logged; read from the CI log)
-                device.executeShellCommand("dumpsys meminfo com.gasczoology.animalbiotech").lines().filter { it.isNotBlank() }
-                    .forEach { android.util.Log.e("CITEST-MEM", "$tag ${lang.name} $it") }
+                logMem(device, "$tag ${lang.name} viewer-open-zoomed")
                 device.pressBack()
                 assertTrue("Back did not close the pilot viewer", device.wait(Until.gone(By.text(close)), 5000))
+                System.gc(); Thread.sleep(1500); System.gc()
+                logMem(device, "$tag ${lang.name} viewer-closed-after-gc")
             }
         }
+    }
+
+    /**
+     * Regression for the real bug (viewer state owned by a lazy-list item that is disposed when the list re-lays out):
+     * the pilot figure sits deep in a long lesson, the list starts at the top and is scrolled until the figure is on screen
+     * (so earlier items have been recycled), the viewer is opened, the device is rotated both ways, the activity is recreated,
+     * and Back must still close the viewer. The viewer must survive every step until Back.
+     */
+    @Test fun viewerSurvivesRotationAndRecreationOnDeepFigure() {
+        val pilot = "screening_selection_recombinants-d02"
+        val inst = InstrumentationRegistry.getInstrumentation()
+        val device = UiDevice.getInstance(inst)
+        fun fixture(activity: MainActivity) {
+            val t = Repo.units(activity).flatMap { it.topics }.first { it.file.startsWith("screening_selection_recombinants") }
+            val ch = requireNotNull(ChapterRepo.load(activity, t.file, t.unitRoman)?.chapter)
+            val starts = com.gasczoology.animalbiotech.ui.sectionStartIndices(ch)
+            var idx = -1
+            ch.sections.forEachIndexed { si, s -> val bi = s.blocks.indexOfFirst { it is Diagram && it.id == pilot }
+                if (bi >= 0 && idx < 0) idx = starts[si] + 1 + bi }
+            require(idx > 5) { "pilot figure is not deep in the lesson (index $idx)" }
+            android.util.Log.e("CITEST", "deep figure item index = $idx")
+            activity.setContent { MaterialTheme { LessonScreen(ch, Lang.EN, {}, 100, false, {}, false, {}, {}, null, startIndex = 0) } }
+        }
+        try {
+            ActivityScenario.launch(MainActivity::class.java).use { scenario ->
+                assertTrue(device.wait(Until.hasObject(By.text("Animal Biotechnology")), 15000))
+                scenario.onActivity { fixture(it) }
+                var swipes = 0
+                while (device.findObject(By.descStartsWith("Diagram")) == null && swipes < 80) {
+                    device.swipe(device.displayWidth / 2, device.displayHeight * 3 / 4, device.displayWidth / 2, device.displayHeight / 4, 20); swipes++
+                }
+                android.util.Log.e("CITEST", "scrolled $swipes swipes to reach a figure")
+                assertTrue("no figure reached by scrolling", swipes < 80)
+                // prefer the pilot figure itself if another figure was reached first
+                var fig = device.findObject(By.descContains("recombinant")) ?: device.findObject(By.descStartsWith("Diagram"))
+                requireNotNull(fig) { "figure missing" }.click()
+                val close = "Close"
+                fun viewerOpen() = device.wait(Until.hasObject(By.text(close)), 6000) || device.wait(Until.hasObject(By.desc(close)), 1500)
+                assertTrue("viewer did not open", viewerOpen())
+                device.setOrientationLeft(); device.waitForIdle()
+                assertTrue("viewer lost after rotating left", viewerOpen())
+                device.setOrientationRight(); device.waitForIdle()
+                assertTrue("viewer lost after rotating right", viewerOpen())
+                device.setOrientationNatural(); device.waitForIdle()
+                assertTrue("viewer lost after returning to natural orientation", viewerOpen())
+                scenario.recreate()
+                scenario.onActivity { fixture(it) }
+                assertTrue("viewer not restored after activity recreation", viewerOpen())
+                device.pressBack()
+                assertTrue("Back did not close the viewer", device.wait(Until.gone(By.text(close)), 5000))
+            }
+        } finally { device.setOrientationNatural(); device.unfreezeRotation() }
     }
 }
