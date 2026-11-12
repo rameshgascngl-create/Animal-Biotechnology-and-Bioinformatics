@@ -51,6 +51,12 @@ def main():
     ap.add_argument('--audit', default=os.path.join(ROOT, 'docs/audit/pilot')); a = ap.parse_args()
     src = os.path.join(HERE, 'src', a.id); svg = open(os.path.join(src, 'figure.svg'), encoding='utf8').read()
     S = json.load(open(os.path.join(src, 'strings.json'), encoding='utf8'))
+    TERMS = json.load(open(os.path.join(ROOT, 'tools', 'i18n', 'figure_terms.json'), encoding='utf8'))  # one place for terms whose wording is still under review
+    def sub(v):
+        for k, t in TERMS.items(): v = v.replace('\u27e6' + k + '\u27e7', t)
+        if '\u27e6' in v: sys.exit('unresolved term token in: ' + v)
+        return v
+    S = {k: {l: sub(t) for l, t in v.items()} for k, v in S.items()}
     for f in INTER + TAMIL:
         if not os.path.exists(f): sys.exit('missing font ' + f)
     html = '<html><head><meta charset="utf-8"><style>' + CSS % (INTER + TAMIL) + '</style></head><body>' + svg + '</body></html>'

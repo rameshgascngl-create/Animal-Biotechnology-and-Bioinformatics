@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 880">
+<rect width="360" height="880" fill="#ffffff"/>
+<defs><marker id="ah" markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L5,2.5 L0,5 z" fill="#0b6f85"/></marker></defs>
+<g transform="translate(0,46)">
+<text data-k="len" data-w="300" x="180" y="22" text-anchor="middle" class="s" fill="#496570"/>
+<line x1="40" y1="36" x2="320" y2="36" stroke="#496570" stroke-width="2" stroke-dasharray="5 4"/><line x1="40" y1="30" x2="40" y2="42" stroke="#496570" stroke-width="2"/><line x1="320" y1="30" x2="320" y2="42" stroke="#496570" stroke-width="2"/>
+<rect x="40" y="54" width="280" height="44" rx="22" fill="#dcebf7" stroke="#2579a8" stroke-width="3.5"/>
+<rect x="40" y="54" width="48" height="44" rx="22" fill="#be3b57" stroke="#7f1d2d" stroke-width="2.5"/>
+<rect x="272" y="54" width="48" height="44" rx="22" fill="#3fa37c" stroke="#1f6b4c" stroke-width="2.5"/>
+<line x1="104" y1="58" x2="104" y2="94" stroke="#2579a8" stroke-width="2.5"/>
+<line x1="120" y1="58" x2="120" y2="94" stroke="#2579a8" stroke-width="2.5"/>
+<line x1="136" y1="58" x2="136" y2="94" stroke="#2579a8" stroke-width="2.5"/>
+<line x1="152" y1="58" x2="152" y2="94" stroke="#2579a8" stroke-width="2.5"/>
+<line x1="168" y1="58" x2="168" y2="94" stroke="#2579a8" stroke-width="2.5"/>
+<line x1="184" y1="58" x2="184" y2="94" stroke="#2579a8" stroke-width="2.5"/>
+<line x1="200" y1="58" x2="200" y2="94" stroke="#2579a8" stroke-width="2.5"/>
+<line x1="216" y1="58" x2="216" y2="94" stroke="#2579a8" stroke-width="2.5"/>
+<line x1="232" y1="58" x2="232" y2="94" stroke="#2579a8" stroke-width="2.5"/>
+<line x1="248" y1="58" x2="248" y2="94" stroke="#2579a8" stroke-width="2.5"/>
+<path d="M 96 76 C 120 56 140 96 164 76 S 208 56 232 76 S 258 90 266 76" fill="none" stroke="#12a3b0" stroke-width="3.5"/>
+<text data-k="tip_a" data-w="120" x="40" y="122" text-anchor="start" class="s" font-weight="700" fill="#be3b57"/>
+<text data-k="tip_b" data-w="120" x="320" y="122" text-anchor="end" class="s" font-weight="700" fill="#3fa37c"/>
+<text data-k="wide" data-w="90" x="180" y="122" text-anchor="middle" class="s" fill="#496570"/>
+<rect x="28" y="148" width="14" height="14" rx="3" fill="#be3b57"/>
+<text data-k="r_tip" data-w="290" x="52" y="160" text-anchor="start" class="s" fill="#071e2e"/>
+<rect x="28" y="190" width="14" height="14" rx="3" fill="#2579a8"/>
+<text data-k="r_coat" data-w="290" x="52" y="202" text-anchor="start" class="s" fill="#071e2e"/>
+<rect x="28" y="232" width="14" height="14" rx="3" fill="#12a3b0"/>
+<text data-k="r_dna" data-w="290" x="52" y="244" text-anchor="start" class="s" fill="#071e2e"/>
+<text data-k="t2" data-w="330" x="180" y="318" text-anchor="middle" class="h" fill="#0b4a5a"/>
+<circle cx="180" cy="440" r="62" fill="none" stroke="#0b2a40" stroke-width="3.5"/>
+<path d="M 182.7 362.0 A 78 78 0 0 1 257.6 431.8" fill="none" stroke="#3fa37c" stroke-width="17" stroke-linecap="round"/>
+<path d="M 257.2 450.9 A 78 78 0 0 1 216.6 508.9" fill="none" stroke="#d9712e" stroke-width="17" stroke-linecap="round"/>
+<path d="M 206.7 513.3 A 78 78 0 0 1 153.3 513.3" fill="none" stroke="#be3b57" stroke-width="17" stroke-linecap="round"/>
+<path d="M 143.4 508.9 A 78 78 0 0 1 169.1 362.8" fill="none" stroke="#2579a8" stroke-width="17" stroke-linecap="round"/>
+<circle cx="258.0" cy="441.4" r="9" fill="#d9712e" stroke="#ffffff" stroke-width="2.5"/>
+<text data-k="c_m13" data-w="90" x="180" y="434" text-anchor="middle" class="b" font-weight="700" fill="#0b2a40"/>
+<text data-k="c_ss" data-w="90" x="180" y="454" text-anchor="middle" class="s" fill="#496570"/>
+<text data-k="c_nt" data-w="90" x="180" y="474" text-anchor="middle" class="s" fill="#496570"/>
+<rect x="28" y="554" width="14" height="14" rx="3" fill="#3fa37c"/>
+<text data-k="g_v" data-w="290" x="52" y="566" text-anchor="start" class="s" font-weight="700" fill="#3fa37c"/>
+<text data-k="g_v2" data-w="290" x="52" y="585" text-anchor="start" class="s" fill="#496570"/>
+<circle cx="35" cy="611" r="8" fill="#d9712e"/>
+<text data-k="g_m" data-w="290" x="52" y="616" text-anchor="start" class="s" font-weight="700" fill="#9a4a14"/>
+<text data-k="g_m2" data-w="290" x="52" y="635" text-anchor="start" class="s" fill="#496570"/>
+<rect x="28" y="654" width="14" height="14" rx="3" fill="#d9712e"/>
+<text data-k="g_2" data-w="290" x="52" y="666" text-anchor="start" class="s" font-weight="700" fill="#9a4a14"/>
+<text data-k="g_22" data-w="290" x="52" y="685" text-anchor="start" class="s" fill="#496570"/>
+<rect x="28" y="704" width="14" height="14" rx="3" fill="#be3b57"/>
+<text data-k="g_36" data-w="290" x="52" y="716" text-anchor="start" class="s" font-weight="700" fill="#be3b57"/>
+<text data-k="g_362" data-w="290" x="52" y="735" text-anchor="start" class="s" fill="#496570"/>
+<rect x="28" y="754" width="14" height="14" rx="3" fill="#2579a8"/>
+<text data-k="g_8" data-w="290" x="52" y="766" text-anchor="start" class="s" font-weight="700" fill="#2579a8"/>
+<text data-k="g_82" data-w="290" x="52" y="785" text-anchor="start" class="s" fill="#496570"/>
+</g>
+</svg>
+

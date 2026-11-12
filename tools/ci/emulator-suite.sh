@@ -14,6 +14,8 @@ if [ "${RUN_PILOT:-0}" = "1" ]; then
     adb shell wm size 1080x2400; adb shell wm density $d
     gradle :app:connectedDebugAndroidTest -Pandroid.testInstrumentationRunnerArguments.class=com.gasczoology.animalbiotech.ReaderCaptureTest#capturePilotFigure --stacktrace \
       || { echo "FAILED: pilot at density $d" | tee -a qa-captures/failures.txt; rc=1; }
+    gradle :app:connectedDebugAndroidTest -Pandroid.testInstrumentationRunnerArguments.class=com.gasczoology.animalbiotech.BatchFigureCaptureTest --stacktrace \
+      || { echo "FAILED: batch figures at density $d" | tee -a qa-captures/failures.txt; rc=1; }
   done
 fi
 adb shell wm size reset; adb shell wm density reset

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 1160">
+<rect width="360" height="1160" fill="#ffffff"/>
+<defs><marker id="ah" markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L5,2.5 L0,5 z" fill="#0b6f85"/></marker></defs>
+<g transform="translate(0,48)">
+<text data-k="d_h" data-w="330" x="180" y="18" text-anchor="middle" class="h" fill="#0f766e"/>
+<text data-k="d_sub" data-w="330" x="180" y="40" text-anchor="middle" class="s" fill="#0f766e"/>
+<text data-k="d_sug" data-w="330" x="180" y="62" text-anchor="middle" class="s" fill="#0f766e"/>
+<rect x="146" y="90" width="88" height="46" rx="9" fill="#d1fae5" stroke="#047857" stroke-width="3"/>
+<text data-k="base" data-w="84" x="190" y="109" text-anchor="middle" class="s" fill="#065f46"/>
+<text data-k="base2" data-w="84" x="190" y="128" text-anchor="middle" class="s" fill="#065f46"/>
+<line x1="190" y1="136" x2="190" y2="146" stroke="#047857" stroke-width="3"/>
+<polygon points="190,146 238,174 220,222 160,222 142,174" fill="#b6ecf5" stroke="#0f766e" stroke-width="4"/>
+<text data-k="sugar" data-w="70" x="190" y="190" text-anchor="middle" class="s" fill="#0f766e"/>
+<circle cx="34" cy="180" r="16" fill="#fde68a" stroke="#d97706" stroke-width="3"/>
+<text data-k="p_g" data-w="30" x="34" y="185" text-anchor="middle" class="s" fill="#78350f"/>
+<circle cx="70" cy="180" r="16" fill="#fde68a" stroke="#d97706" stroke-width="3"/>
+<text data-k="p_b" data-w="30" x="70" y="185" text-anchor="middle" class="s" fill="#78350f"/>
+<circle cx="106" cy="180" r="16" fill="#fde68a" stroke="#d97706" stroke-width="3"/>
+<text data-k="p_a" data-w="30" x="106" y="185" text-anchor="middle" class="s" fill="#78350f"/>
+<line x1="122" y1="180" x2="144" y2="180" stroke="#0f3d4a" stroke-width="3"/>
+<text data-k="h2" data-w="80" x="250" y="174" text-anchor="start" class="s" fill="#6b6b5a"/>
+<line x1="190" y1="222" x2="190" y2="232" stroke="#0f766e" stroke-width="3"/>
+<circle cx="190" cy="250" r="18" fill="#d1fae5" stroke="#0f766e" stroke-width="3.5"/>
+<text data-k="d_3" data-w="90" x="160" y="255" text-anchor="end" class="s" font-weight="700" fill="#0f766e"/>
+<text data-k="d_3c" data-w="30" x="190" y="255" text-anchor="middle" class="s" font-weight="700" fill="#0f766e"/>
+<line x1="190" y1="274" x2="190" y2="300" stroke="#0f766e" stroke-width="2.5" marker-end="url(#ah)"/>
+<rect x="20" y="306" width="320" height="124" rx="12" fill="#d1fae5" stroke="#0f766e" stroke-width="3.5"/>
+<text data-k="d_res" data-w="296" x="180" y="332" text-anchor="middle" class="b" font-weight="700" fill="#0f766e"/>
+<text data-k="d_res2" data-w="296" x="180" y="360" text-anchor="middle" class="s" fill="#1f3a44"/>
+<line x1="24" y1="458" x2="146" y2="458" stroke="#b8c7cd" stroke-width="2" stroke-dasharray="8 6"/><line x1="214" y1="458" x2="336" y2="458" stroke="#b8c7cd" stroke-width="2" stroke-dasharray="8 6"/>
+<text data-k="vs" data-w="40" x="180" y="464" text-anchor="middle" class="s" font-weight="700" fill="#7b8a91"/>
+<text data-k="dd_h" data-w="330" x="180" y="504" text-anchor="middle" class="h" fill="#be123c"/>
+<text data-k="dd_sub" data-w="330" x="180" y="526" text-anchor="middle" class="s" fill="#be123c"/>
+<text data-k="dd_sug" data-w="330" x="180" y="548" text-anchor="middle" class="s" fill="#be123c"/>
+<rect x="146" y="576" width="88" height="46" rx="9" fill="#d1fae5" stroke="#047857" stroke-width="3"/>
+<text data-k="base" data-w="84" x="190" y="595" text-anchor="middle" class="s" fill="#065f46"/>
+<text data-k="base2" data-w="84" x="190" y="614" text-anchor="middle" class="s" fill="#065f46"/>
+<line x1="190" y1="622" x2="190" y2="632" stroke="#047857" stroke-width="3"/>
+<polygon points="190,632 238,660 220,708 160,708 142,660" fill="#ffe4e6" stroke="#be123c" stroke-width="4"/>
+<text data-k="sugar" data-w="70" x="190" y="676" text-anchor="middle" class="s" fill="#be123c"/>
+<circle cx="34" cy="666" r="16" fill="#fde68a" stroke="#d97706" stroke-width="3"/>
+<text data-k="p_g" data-w="30" x="34" y="671" text-anchor="middle" class="s" fill="#78350f"/>
+<circle cx="70" cy="666" r="16" fill="#fde68a" stroke="#d97706" stroke-width="3"/>
+<text data-k="p_b" data-w="30" x="70" y="671" text-anchor="middle" class="s" fill="#78350f"/>
+<circle cx="106" cy="666" r="16" fill="#fde68a" stroke="#d97706" stroke-width="3"/>
+<text data-k="p_a" data-w="30" x="106" y="671" text-anchor="middle" class="s" fill="#78350f"/>
+<line x1="122" y1="666" x2="144" y2="666" stroke="#0f3d4a" stroke-width="3"/>
+<text data-k="h2" data-w="80" x="250" y="660" text-anchor="start" class="s" fill="#6b6b5a"/>
+<line x1="190" y1="708" x2="190" y2="718" stroke="#be123c" stroke-width="3"/>
+<circle cx="190" cy="736" r="18" fill="#ffe4e6" stroke="#be123c" stroke-width="3.5"/>
+<text data-k="dd_3" data-w="90" x="160" y="741" text-anchor="end" class="s" font-weight="700" fill="#be123c"/>
+<text data-k="dd_3c" data-w="30" x="190" y="741" text-anchor="middle" class="s" font-weight="700" fill="#be123c"/>
+<text data-k="no_oh" data-w="100" x="222" y="741" text-anchor="start" class="s" fill="#be123c"/>
+<line x1="190" y1="760" x2="190" y2="786" stroke="#be123c" stroke-width="2.5" marker-end="url(#ah)"/>
+<rect x="20" y="792" width="320" height="124" rx="12" fill="#ffe4e6" stroke="#be123c" stroke-width="3.5"/>
+<text data-k="dd_res" data-w="296" x="180" y="818" text-anchor="middle" class="b" font-weight="700" fill="#be123c"/>
+<text data-k="dd_res2" data-w="296" x="180" y="846" text-anchor="middle" class="s" fill="#1f3a44"/>
+<rect x="14" y="946" width="332" height="112" rx="12" fill="#fff3c4" stroke="#d97706" stroke-width="3"/>
+<text data-k="cd_h" data-w="310" x="180" y="974" text-anchor="middle" class="b" font-weight="700" fill="#78350f"/>
+<text data-k="cd_t" data-w="310" x="180" y="1002" text-anchor="middle" class="s" fill="#78350f"/>
+</g>
+</svg>
+

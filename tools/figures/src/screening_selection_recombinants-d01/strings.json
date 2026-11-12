@@ -1,0 +1,74 @@
+{
+ "t1": {
+  "en": "1  Transformation mix",
+  "ta": "1. உருமாற்றக் கலவை"
+ },
+ "m_rdna": {
+  "en": "rDNA",
+  "ta": "rDNA"
+ },
+ "m_vec": {
+  "en": "vector",
+  "ta": "⟦vec⟧"
+ },
+ "m_none": {
+  "en": "no DNA",
+  "ta": "DNA இல்லை"
+ },
+ "s_plate": {
+  "en": "plate on",
+  "ta": "தட்டில் பரப்பு"
+ },
+ "t2": {
+  "en": "2  LB + ampicillin",
+  "ta": "2. LB + ஆம்பிசிலின்"
+ },
+ "a_die": {
+  "en": "Non-transformed cells die",
+  "ta": "உருமாறாத செல்கள் இறக்கின்றன"
+ },
+ "a_surv": {
+  "en": "Transformants survive (have AmpR)",
+  "ta": "உருமாறியவை உயிர்வாழ்கின்றன (AmpR உள்ளது)"
+ },
+ "a_both": {
+  "en": "Recombinant and non-recombinant transformants both grow: a second step is needed",
+  "ta": "மறுசேர்க்கை, மறுசேர்க்கை அல்லாத உருமாறியவை இரண்டும் வளர்கின்றன: 2-ஆம் படி தேவை"
+ },
+ "t3": {
+  "en": "3  LB (no antibiotic)",
+  "ta": "3. LB (⟦abx⟧ இல்லை)"
+ },
+ "b_all": {
+  "en": "All cells grow (no selection)",
+  "ta": "எல்லா செல்களும் வளரும் (தெரிவு இல்லை)"
+ },
+ "b_ctrl": {
+  "en": "Control plate: transformants cannot be told apart from non-transformants",
+  "ta": "கட்டுப்பாட்டுத் தட்டு: உருமாறியவற்றை உருமாறாதவற்றிலிருந்து அடையாளம் காண முடியாது"
+ },
+ "g_trans": {
+  "en": "Transformant (has vector, AmpR)",
+  "ta": "உருமாறியது (⟦vec⟧ உள்ளது, AmpR)"
+ },
+ "g_rec": {
+  "en": "Recombinant transformant (vector + insert)",
+  "ta": "மறுசேர்க்கை உருமாறியது (⟦vec⟧ + செருகி)"
+ },
+ "g_non": {
+  "en": "Non-transformed cell (grows only without antibiotic)",
+  "ta": "உருமாறாத செல் (⟦abx⟧ இல்லாதபோது மட்டுமே வளரும்)"
+ },
+ "g_x": {
+  "en": "Non-transformed cell, killed by ampicillin",
+  "ta": "உருமாறாத செல், ஆம்பிசிலினால் கொல்லப்பட்டது"
+ },
+ "note": {
+  "en": "Note: direct selection alone cannot distinguish recombinant (has insert) from non-recombinant (no insert) transformants. A second screening step is required.",
+  "ta": "குறிப்பு: நேரடித் தெரிவு மட்டும் மறுசேர்க்கை (செருகி உள்ளது), மறுசேர்க்கை அல்லாத (செருகி இல்லை) உருமாறியவற்றை வேறுபடுத்தாது. இரண்டாம் சோதனைப் படி தேவை."
+ },
+ "_alt": {
+  "en": "Direct selection on ampicillin. A transformation mix of rDNA, vector and no DNA is plated on LB with ampicillin and on LB without antibiotic. On ampicillin, non-transformed cells die and both recombinant and non-recombinant transformants grow; on the control plate every cell grows. A second screening step is needed.",
+  "ta": "ஆம்பிசிலினில் நேரடித் தெரிவு. rDNA, ⟦vec⟧, DNA இல்லை ஆகியவற்றின் உருமாற்றக் கலவை ஆம்பிசிலின் சேர்த்த LB தட்டிலும் ⟦abx⟧ இல்லாத LB தட்டிலும் பரப்பப்படுகிறது. ஆம்பிசிலின் தட்டில் உருமாறாத செல்கள் இறக்கின்றன; மறுசேர்க்கை, மறுசேர்க்கை அல்லாத உருமாறியவை இரண்டும் வளர்கின்றன; கட்டுப்பாட்டுத் தட்டில் எல்லா செல்களும் வளர்கின்றன. இரண்டாவது சோதனைப் படி தேவை."
+ }
+}

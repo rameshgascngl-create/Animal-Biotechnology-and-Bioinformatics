@@ -1,0 +1,90 @@
+{
+ "len": {
+  "en": "~900 nm length",
+  "ta": "~900 nm நீளம்"
+ },
+ "tip_a": {
+  "en": "pIII / pVI",
+  "ta": "pIII / pVI"
+ },
+ "tip_b": {
+  "en": "pVII / pIX",
+  "ta": "pVII / pIX"
+ },
+ "wide": {
+  "en": "~6 nm wide",
+  "ta": "~6 nm அகலம்"
+ },
+ "r_tip": {
+  "en": "Tip proteins (pIII: host attachment)",
+  "ta": "முனைப் புரதங்கள் (pIII: ⟦host⟧ இணைதல்)"
+ },
+ "r_coat": {
+  "en": "Major coat protein pVIII (~2700 copies)",
+  "ta": "முதன்மை உறைப் புரதம் pVIII (~2700 படிகள்)"
+ },
+ "r_dna": {
+  "en": "ssDNA genome (circular, ~6.4 kb)",
+  "ta": "ssDNA மரபணுத்தொகை (வட்டம், ~6.4 kb)"
+ },
+ "t2": {
+  "en": "M13 Circular ssDNA Genome (~6.4 kb)",
+  "ta": "M13 வட்ட ssDNA மரபணுத்தொகை (~6.4 kb)"
+ },
+ "c_m13": {
+  "en": "M13",
+  "ta": "M13"
+ },
+ "c_ss": {
+  "en": "ssDNA",
+  "ta": "ssDNA"
+ },
+ "c_nt": {
+  "en": "6,407 nt",
+  "ta": "6,407 nt"
+ },
+ "g_v": {
+  "en": "Gene V",
+  "ta": "மரபணு V"
+ },
+ "g_v2": {
+  "en": "ssDNA-binding protein",
+  "ta": "ssDNA-பிணைப்புப் புரதம்"
+ },
+ "g_m": {
+  "en": "MCS / lacZ",
+  "ta": "MCS / lacZ"
+ },
+ "g_m2": {
+  "en": "(cloning site)",
+  "ta": "(⟦clone⟧த் தளம்)"
+ },
+ "g_2": {
+  "en": "Gene II",
+  "ta": "மரபணு II"
+ },
+ "g_22": {
+  "en": "(replication)",
+  "ta": "(இரட்டிப்பு)"
+ },
+ "g_36": {
+  "en": "Gene III & VI",
+  "ta": "மரபணு III & VI"
+ },
+ "g_362": {
+  "en": "Minor coat / host attachment",
+  "ta": "சிறு உறை / ⟦host⟧ இணைப்பு"
+ },
+ "g_8": {
+  "en": "Gene VIII",
+  "ta": "மரபணு VIII"
+ },
+ "g_82": {
+  "en": "Major coat protein",
+  "ta": "முதன்மை உறைப் புரதம்"
+ },
+ "_alt": {
+  "en": "M13 phage. A rod-shaped particle about 900 nm long and 6 nm wide: pIII and pVI proteins at one tip, pVII and pIX at the other, about 2700 copies of the major coat protein pVIII along the length, and a circular single-stranded DNA genome of about 6.4 kb inside. Below it, the circular genome of 6,407 nucleotides with Gene V (ssDNA-binding protein), the MCS / lacZ cloning site, Gene II (replication), Genes III and VI (minor coat, host attachment) and Gene VIII (major coat protein).",
+  "ta": "M13 பேஜ். சுமார் 900 nm நீளமும் 6 nm அகலமும் கொண்ட தண்டு வடிவத் துகள்: ஒரு முனையில் pIII, pVI புரதங்கள்; மறுமுனையில் pVII, pIX; நீளம் முழுவதும் சுமார் 2700 படிகள் முதன்மை உறைப் புரதம் pVIII; உள்ளே சுமார் 6.4 kb வட்ட ஒற்றை இழை DNA மரபணுத்தொகை. அதன் கீழே 6,407 நியூக்ளியோடைடு வட்ட மரபணுத்தொகை: மரபணு V (ssDNA-பிணைப்புப் புரதம்), MCS / lacZ தளம், மரபணு II (இரட்டிப்பு), மரபணு III, VI (சிறு உறை, ⟦host⟧ இணைப்பு), மரபணு VIII (முதன்மை உறைப் புரதம்)."
+ }
+}

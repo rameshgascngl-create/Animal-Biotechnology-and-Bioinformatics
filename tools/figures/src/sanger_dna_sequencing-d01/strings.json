@@ -1,0 +1,106 @@
+{
+ "d_h": {
+  "en": "dNTP",
+  "ta": "dNTP"
+ },
+ "d_sub": {
+  "en": "(Normal deoxynucleotide)",
+  "ta": "(சாதாரண டிஆக்ஸிநியூக்ளியோடைடு)"
+ },
+ "dd_h": {
+  "en": "ddNTP",
+  "ta": "ddNTP"
+ },
+ "dd_sub": {
+  "en": "(Dideoxynucleotide)",
+  "ta": "(டைடியாக்ஸிநியூக்ளியோடைடு)"
+ },
+ "base": {
+  "en": "Base",
+  "ta": "காரம்"
+ },
+ "base2": {
+  "en": "(A/T/G/C)",
+  "ta": "(A/T/G/C)"
+ },
+ "sugar": {
+  "en": "Sugar",
+  "ta": "சர்க்கரை"
+ },
+ "d_sug": {
+  "en": "Sugar: deoxyribose",
+  "ta": "சர்க்கரை: டிஆக்ஸிரைபோஸ்"
+ },
+ "dd_sug": {
+  "en": "Sugar: dideoxyribose",
+  "ta": "சர்க்கரை: டைடிஆக்ஸிரைபோஸ்"
+ },
+ "p_g": {
+  "en": "γ-P",
+  "ta": "γ-P"
+ },
+ "p_b": {
+  "en": "β-P",
+  "ta": "β-P"
+ },
+ "p_a": {
+  "en": "α-P",
+  "ta": "α-P"
+ },
+ "h2": {
+  "en": "2'-H",
+  "ta": "2'-H"
+ },
+ "d_3": {
+  "en": "3'-OH",
+  "ta": "3'-OH"
+ },
+ "d_3c": {
+  "en": "OH",
+  "ta": "OH"
+ },
+ "dd_3": {
+  "en": "3'-H",
+  "ta": "3'-H"
+ },
+ "dd_3c": {
+  "en": "H",
+  "ta": "H"
+ },
+ "d_res": {
+  "en": "✓ Chain CONTINUES",
+  "ta": "✓ சங்கிலி தொடர்கிறது"
+ },
+ "d_res2": {
+  "en": "3'-OH is available: it attacks the α-phosphate of the next incoming dNTP, so a phosphodiester bond forms",
+  "ta": "3'-OH உள்ளது: அடுத்து வரும் dNTP-யின் α-பாஸ்பேட்டைத் தாக்குவதால் பாஸ்போடைஎஸ்டர் பிணைப்பு உருவாகிறது"
+ },
+ "dd_res": {
+  "en": "✗ Chain TERMINATES",
+  "ta": "✗ சங்கிலி முடிவுறுகிறது"
+ },
+ "dd_res2": {
+  "en": "3' position has only H: it cannot attack the next dNTP, so no bond forms and the chain stops permanently",
+  "ta": "3' நிலையில் H மட்டுமே உள்ளது: அடுத்த dNTP-யைத் தாக்க இயலாததால் பிணைப்பு உருவாகாமல் சங்கிலி நிரந்தரமாக நிற்கிறது"
+ },
+ "vs": {
+  "en": "vs",
+  "ta": "vs"
+ },
+ "cd_h": {
+  "en": "Critical Difference:",
+  "ta": "முக்கிய வேறுபாடு:"
+ },
+ "cd_t": {
+  "en": "dNTP has 3'-OH | ddNTP has 3'-H (no OH)",
+  "ta": "dNTP-இல் 3'-OH உள்ளது | ddNTP-இல் 3'-H (OH இல்லை)"
+ },
+ "_alt": {
+  "en": "Comparison of a normal deoxynucleotide (dNTP) with a dideoxynucleotide (ddNTP). Both have a base, a sugar and three phosphates. dNTP has a 3'-OH, so the chain continues; ddNTP has only H at the 3' position, so the next bond cannot form and the chain terminates.",
+  "ta": "சாதாரண டிஆக்ஸிநியூக்ளியோடைடு (dNTP), டைடியாக்ஸிநியூக்ளியோடைடு (ddNTP) ஆகியவற்றின் ஒப்பீடு. இரண்டிலும் காரம், சர்க்கரை, மூன்று பாஸ்பேட்டுகள் உள்ளன. dNTP-இல் 3'-OH இருப்பதால் சங்கிலி தொடர்கிறது; ddNTP-இல் 3' நிலையில் H மட்டுமே இருப்பதால் அடுத்த பிணைப்பு உருவாகாமல் சங்கிலி முடிவுறுகிறது."
+ },
+ "no_oh": {
+  "en": "NO –OH",
+  "ta": "–OH இல்லை"
+ }
+}
