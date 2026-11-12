@@ -1,0 +1,3 @@
+FAILED: base suite
+FAILED: batch figures at density 480
+FAILED: batch figures at density 420
