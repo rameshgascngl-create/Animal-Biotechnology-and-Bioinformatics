@@ -47,18 +47,18 @@ class BatchFigureCaptureTest {
                         ch.sections.forEachIndexed { si, s -> val bi = s.blocks.indexOfFirst { it is Diagram && it.id == id }
                             if (bi >= 0 && idx < 0) idx = starts[si] + 1 + bi }
                         if (idx < 0) continue
-                        activity.setContent { MaterialTheme { LessonScreen(ch, lang, {}, 100, false, {}, false, {}, {}, null, startIndex = idx) } }
+                        activity.setContent { MaterialTheme { LessonScreen(ch, lang, {}, 100, false, {}, false, {}, {}, null, startIndex = (idx - 8).coerceAtLeast(0)) } }
                         found = true; break
                     }
                     require(found) { "figure $id not found in any chapter" }
                 }
                 val needle = if (lang == Lang.EN) en else ta
                 var shown = device.wait(Until.hasObject(By.descContains(needle)), 10000)
-                // startIndex can land a few list items past the figure when earlier blocks span several items; scroll back up.
+                // Blocks can span several list items, so the arithmetic index is only approximate: start 8 items early and scroll forward until the figure shows.
                 var tries = 0
-                while (!shown && tries < 6) {
-                    device.swipe(dm.widthPixels / 2, (dm.heightPixels * 0.35).toInt(), dm.widthPixels / 2, (dm.heightPixels * 0.75).toInt(), 20)
-                    shown = device.wait(Until.hasObject(By.descContains(needle)), 1500); tries++
+                while (!shown && tries < 14) {
+                    device.swipe(dm.widthPixels / 2, (dm.heightPixels * 0.7).toInt(), dm.widthPixels / 2, (dm.heightPixels * 0.3).toInt(), 20)
+                    shown = device.wait(Until.hasObject(By.descContains(needle)), 1200); tries++
                 }
                 if (!shown) {
                     capture("29-fail-$tag-$id-${lang.name}")
