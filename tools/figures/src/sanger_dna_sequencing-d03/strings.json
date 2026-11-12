@@ -3,13 +3,9 @@
   "en": "Denaturing polyacrylamide gel",
   "ta": "இயல்பிழப்பு பாலிஅக்ரிலமைடு ஜெல்"
  },
- "gel_s": {
-  "en": "Original radioactive method, 4 lanes",
-  "ta": "அசல் கதிரியக்க முறை, 4 தடங்கள்"
- },
  "dir": {
-  "en": "Read from the bottom up: the smallest fragment comes first.",
-  "ta": "கீழிருந்து மேலாக வாசி: சிறிய துண்டு முதலில் வரும்."
+  "en": "Original radioactive method, 4 lanes. Read from the bottom up: the smallest fragment comes first.",
+  "ta": "அசல் கதிரியக்க முறை, 4 தடங்கள். கீழிருந்து மேலாக வாசி: சிறிய துண்டு முதலில் வரும்."
  },
  "ch_h": {
   "en": "Fluorescent chromatogram",
