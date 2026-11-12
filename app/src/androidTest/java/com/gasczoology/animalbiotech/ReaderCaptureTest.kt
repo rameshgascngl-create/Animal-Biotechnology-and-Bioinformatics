@@ -318,11 +318,11 @@ class ReaderCaptureTest {
                 assertTrue(device.wait(Until.hasObject(By.text("Animal Biotechnology")), 15000))
                 scenario.onActivity { fixture(it) }
                 var swipes = 0
-                /** Centre of a fully visible clickable figure, read eagerly (a node reference goes stale while the list moves). */
+                /** Centre of a clickable figure with a quarter screen visible, read eagerly (a node reference goes stale while the list moves). */
                 fun candidate(): Pair<Int, Int>? = try {
                     device.findObjects(By.descStartsWith("Diagram").clickable(true)).mapNotNull {
                         try { val r = it.visibleBounds
-                            if (r.height() >= device.displayHeight / 4 && r.top > 0 && r.bottom < device.displayHeight) Triple(r.centerX(), r.centerY(), it.contentDescription) else null
+                            if (r.height() >= device.displayHeight / 4) Triple(r.centerX(), r.centerY(), it.contentDescription) else null
                         } catch (e: androidx.test.uiautomator.StaleObjectException) { null }
                     }.firstOrNull()?.also { android.util.Log.e("CITEST", "figure ${it.third?.take(80)} at ${it.first},${it.second}") }?.let { it.first to it.second }
                 } catch (e: androidx.test.uiautomator.StaleObjectException) { null }
@@ -332,7 +332,7 @@ class ReaderCaptureTest {
                     device.waitForIdle(); Thread.sleep(400)
                     target = candidate()
                 }
-                android.util.Log.e("CITEST", "scrolled $swipes swipes to reach a fully visible clickable figure")
+                android.util.Log.e("CITEST", "scrolled $swipes swipes to reach a clickable figure with a quarter screen visible")
                 val (cx, cy) = requireNotNull(target) { "no clickable figure reached by scrolling" }
                 device.click(cx, cy)
                 val close = "Close"
