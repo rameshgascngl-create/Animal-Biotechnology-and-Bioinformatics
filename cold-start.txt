@@ -1,0 +1,7 @@
+Starting: Intent { cmp=com.gasczoology.animalbiotech/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.gasczoology.animalbiotech/.MainActivity
+TotalTime: 3825
+WaitTime: 3828
+Complete
