@@ -77,7 +77,18 @@ class BatchFigureCaptureTest {
                 }
                 assertTrue("MISSING FIGURE $id (${lang.name}) at $tag: no node tagged figure-$id in the reader after scrolling both ways", shown)
                 // Bring the figure's top into view so the capture starts at the figure.
-                try { device.findObject(sel)?.let { o -> val top = o.visibleBounds.top; if (top > h * 0.30) device.swipe(w, (h * 0.70).toInt(), w, (h * 0.70 - (top - h * 0.22)).toInt().coerceAtLeast(10), 25) } } catch (e: androidx.test.uiautomator.StaleObjectException) { /* list recomposed while aligning; the figure is already on screen */ }
+                // Tall figures may be clipped by the top bar: loop until the figure's visible top sits in the band under it (a clipped figure reports a top at the bar, so it never passes early).
+                for (round in 1..8) {
+                    try {
+                        val top = device.findObject(sel)?.visibleBounds?.top ?: break
+                        if (top >= h * 0.185 && top <= h * 0.30) break
+                        val delta = (top - h * 0.22).toInt() // >0: figure is low, drag up; <0: clipped at the bar, drag down
+                        val dy = delta.coerceIn(-(h * 0.5).toInt(), (h * 0.5).toInt()).let { if (it == 0) 1 else it }
+                        val y0 = (h * 0.55).toInt()
+                        device.swipe(w, y0, w, (y0 - dy).coerceIn(10, h - 10), 25)
+                        device.waitForIdle()
+                    } catch (e: androidx.test.uiautomator.StaleObjectException) { Thread.sleep(400) }
+                }
                 device.waitForIdle()
                 capture("20-batch-$tag-$id-${lang.name}-inline")
                 assertPssWithinBudget("inline $id/${lang.name} at $tag")
