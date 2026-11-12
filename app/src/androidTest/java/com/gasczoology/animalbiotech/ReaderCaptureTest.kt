@@ -292,4 +292,64 @@ class ReaderCaptureTest {
             }
         }
     }
+    /**
+     * Regression for the real bug (viewer state owned by a lazy-list item that is disposed when the list re-lays out):
+     * the pilot figure sits deep in a long lesson, the list starts at the top and is scrolled until the figure is on screen
+     * (so earlier items have been recycled), the viewer is opened, the device is rotated both ways, the activity is recreated,
+     * and Back must still close the viewer. The viewer must survive every step until Back.
+     */
+    @Test fun viewerSurvivesRotationAndRecreationOnDeepFigure() {
+        val pilot = "screening_selection_recombinants-d02"
+        val inst = InstrumentationRegistry.getInstrumentation()
+        val device = UiDevice.getInstance(inst)
+        fun fixture(activity: MainActivity) {
+            val t = Repo.units(activity).flatMap { it.topics }.first { it.file.startsWith("screening_selection_recombinants") }
+            val ch = requireNotNull(ChapterRepo.load(activity, t.file, t.unitRoman)?.chapter)
+            val starts = com.gasczoology.animalbiotech.ui.sectionStartIndices(ch)
+            var idx = -1
+            ch.sections.forEachIndexed { si, s -> val bi = s.blocks.indexOfFirst { it is Diagram && it.id == pilot }
+                if (bi >= 0 && idx < 0) idx = starts[si] + 1 + bi }
+            require(idx > 5) { "pilot figure is not deep in the lesson (index $idx)" }
+            android.util.Log.e("CITEST", "deep figure item index = $idx")
+            activity.setContent { MaterialTheme { LessonScreen(ch, Lang.EN, {}, 100, false, {}, false, {}, {}, null, startIndex = 0) } }
+        }
+        try {
+            ActivityScenario.launch(MainActivity::class.java).use { scenario ->
+                assertTrue(device.wait(Until.hasObject(By.text("Animal Biotechnology")), 15000))
+                scenario.onActivity { fixture(it) }
+                var swipes = 0
+                /** Centre of a clickable figure with a quarter screen visible, read eagerly (a node reference goes stale while the list moves). */
+                fun candidate(): Pair<Int, Int>? = try {
+                    device.findObjects(By.descStartsWith("Diagram")).mapNotNull {
+                        try { val r = it.visibleBounds
+                            if (r.height() >= device.displayHeight / 4) Triple(r.centerX(), r.centerY(), it.contentDescription) else null
+                        } catch (e: androidx.test.uiautomator.StaleObjectException) { null }
+                    }.firstOrNull()?.also { android.util.Log.e("CITEST", "figure ${it.third?.take(80)} at ${it.first},${it.second}") }?.let { it.first to it.second }
+                } catch (e: androidx.test.uiautomator.StaleObjectException) { null }
+                var target: Pair<Int, Int>? = null
+                while (target == null && swipes < 80) {
+                    device.swipe(device.displayWidth / 2, device.displayHeight * 3 / 4, device.displayWidth / 2, device.displayHeight / 2, 25); swipes++
+                    device.waitForIdle(); Thread.sleep(400)
+                    target = candidate()
+                }
+                android.util.Log.e("CITEST", "scrolled $swipes swipes to reach a clickable figure with a quarter screen visible")
+                val (cx, cy) = requireNotNull(target) { "no clickable figure reached by scrolling" }
+                device.click(cx, cy)
+                val close = "Close"
+                fun viewerOpen() = device.wait(Until.hasObject(By.text(close)), 6000) || device.wait(Until.hasObject(By.desc(close)), 1500)
+                if (!viewerOpen()) { logDescriptions(device); org.junit.Assert.fail("viewer did not open") }
+                device.setOrientationLeft(); device.waitForIdle()
+                assertTrue("viewer lost after rotating left", viewerOpen())
+                device.setOrientationRight(); device.waitForIdle()
+                assertTrue("viewer lost after rotating right", viewerOpen())
+                device.setOrientationNatural(); device.waitForIdle()
+                assertTrue("viewer lost after returning to natural orientation", viewerOpen())
+                scenario.recreate()
+                scenario.onActivity { fixture(it) }
+                assertTrue("viewer not restored after activity recreation", viewerOpen())
+                device.pressBack()
+                assertTrue("Back did not close the viewer", device.wait(Until.gone(By.text(close)), 5000))
+            }
+        } finally { device.setOrientationNatural(); device.unfreezeRotation() }
+    }
 }
