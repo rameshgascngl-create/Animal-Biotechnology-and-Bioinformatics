@@ -53,7 +53,13 @@ class BatchFigureCaptureTest {
                     require(found) { "figure $id not found in any chapter" }
                 }
                 val needle = if (lang == Lang.EN) en else ta
-                val shown = device.wait(Until.hasObject(By.descContains(needle)), 10000)
+                var shown = device.wait(Until.hasObject(By.descContains(needle)), 10000)
+                // startIndex can land a few list items past the figure when earlier blocks span several items; scroll back up.
+                var tries = 0
+                while (!shown && tries < 6) {
+                    device.swipe(dm.widthPixels / 2, (dm.heightPixels * 0.35).toInt(), dm.widthPixels / 2, (dm.heightPixels * 0.75).toInt(), 20)
+                    shown = device.wait(Until.hasObject(By.descContains(needle)), 1500); tries++
+                }
                 if (!shown) {
                     capture("29-fail-$tag-$id-${lang.name}")
                     val out = java.io.ByteArrayOutputStream(); device.dumpWindowHierarchy(out)
