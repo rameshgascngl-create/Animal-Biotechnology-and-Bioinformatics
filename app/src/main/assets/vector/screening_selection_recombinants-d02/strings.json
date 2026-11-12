@@ -1,0 +1,94 @@
+{
+ "t1": {
+  "en": "1  pBR322 plasmid",
+  "ta": "1. pBR322 பிளாஸ்மிட்"
+ },
+ "c_name": {
+  "en": "pBR322",
+  "ta": "pBR322"
+ },
+ "c_size": {
+  "en": "4,361 bp",
+  "ta": "4,361 bp"
+ },
+ "l_bamhi": {
+  "en": "BamHI",
+  "ta": "BamHI"
+ },
+ "l_tet": {
+  "en": "TetR",
+  "ta": "TetR"
+ },
+ "l_ori": {
+  "en": "ori",
+  "ta": "ori"
+ },
+ "l_amp": {
+  "en": "AmpR",
+  "ta": "AmpR"
+ },
+ "s_clone": {
+  "en": "Clone foreign DNA into BamHI",
+  "ta": "BamHI தளத்தில் அயல் DNA செருகல்"
+ },
+ "t2": {
+  "en": "2  After cloning",
+  "ta": "2. செருகிய பின்"
+ },
+ "l_insert": {
+  "en": "Insert",
+  "ta": "செருகி"
+ },
+ "c_rec": {
+  "en": "Recombinant",
+  "ta": "மறுசேர்க்கை"
+ },
+ "l_tet2": {
+  "en": "TetR gene disrupted",
+  "ta": "TetR மரபணு சீர்குலைந்தது"
+ },
+ "l_amp2": {
+  "en": "AmpR gene intact",
+  "ta": "AmpR மரபணு சேதமின்றி"
+ },
+ "s_plate": {
+  "en": "Plate on LB + Amp, then replicate",
+  "ta": "LB + Amp தட்டில் வளர்த்து நகலெடு"
+ },
+ "t3": {
+  "en": "3  Replica plating",
+  "ta": "3. நகல் தட்டிடல்"
+ },
+ "p1": {
+  "en": "Master plate\nLB + Amp",
+  "ta": "முதன்மைத் தட்டு\nLB + Amp"
+ },
+ "p2": {
+  "en": "Replica plate\nLB + Tet",
+  "ta": "நகல் தட்டு\nLB + Tet"
+ },
+ "k_yes": {
+  "en": "growth",
+  "ta": "வளர்ச்சி"
+ },
+ "k_no": {
+  "en": "no growth",
+  "ta": "வளர்ச்சி இல்லை"
+ },
+ "r1": {
+  "en": "3, 5: grow on Amp, not on Tet = recombinant (AmpR, TetS)",
+  "ta": "3, 5: Amp-இல் வளரும், Tet-இல் வளராது = மறுசேர்க்கை (AmpR, TetS)"
+ },
+ "r2": {
+  "en": "1, 2, 4, 6: grow on both = no insert (AmpR, TetR)",
+  "ta": "1, 2, 4, 6: இரண்டிலும் வளரும் = செருகல் இல்லை (AmpR, TetR)"
+ },
+ "r3": {
+  "en": "Pick 3 and 5 from the master plate",
+  "ta": "3, 5 ஐ முதன்மைத் தட்டிலிருந்து எடு"
+ },
+ "_alt": {
+  "en": "Diagram: pBR322 plasmid with ampicillin- and tetracycline-resistance genes. Cloning foreign DNA into the BamHI site inside the tetracycline gene disrupts it. On the replica plates, colonies 3 and 5 grow on ampicillin but not on tetracycline, so they are recombinant (AmpR, TetS); colonies 1, 2, 4 and 6 grow on both and have no insert.",
+  "ta": "படம்: ஆம்பிசிலின், டெட்ராசைக்ளின் எதிர்ப்பு மரபணுக்கள் கொண்ட pBR322 பிளாஸ்மிட். டெட்ராசைக்ளின் மரபணுவினுள் உள்ள BamHI தளத்தில் அயல் DNA செருகப்படும்போது அம்மரபணு சீர்குலைகிறது. நகல் தட்டுகளில் 3, 5 காலனிகள் ஆம்பிசிலினில் வளர்கின்றன, டெட்ராசைக்ளினில் வளரவில்லை; ஆகவே அவை மறுசேர்க்கை (AmpR, TetS). 1, 2, 4, 6 காலனிகள் இரண்டிலும் வளர்கின்றன; செருகல் இல்லை."
+ }
+}
