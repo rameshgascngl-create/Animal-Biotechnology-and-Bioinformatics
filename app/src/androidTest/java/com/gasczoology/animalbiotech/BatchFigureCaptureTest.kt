@@ -53,7 +53,13 @@ class BatchFigureCaptureTest {
                     require(found) { "figure $id not found in any chapter" }
                 }
                 val needle = if (lang == Lang.EN) en else ta
-                assertTrue("$id/${lang.name}: figure with description containing '$needle' not shown", device.wait(Until.hasObject(By.descContains(needle)), 10000))
+                val shown = device.wait(Until.hasObject(By.descContains(needle)), 10000)
+                if (!shown) {
+                    capture("29-fail-$tag-$id-${lang.name}")
+                    val out = java.io.ByteArrayOutputStream(); device.dumpWindowHierarchy(out)
+                    android.util.Log.e("CITEST", "hierarchy for $id/${lang.name}: " + out.toString("UTF-8").replace("\n", " ").take(6000))
+                }
+                assertTrue("$id/${lang.name}: figure with description containing '$needle' not shown", shown)
                 capture("20-batch-$tag-$id-${lang.name}-inline")
                 val close = if (lang == Lang.EN) "Close" else "மூடு"
                 requireNotNull(device.findObject(By.descContains(needle))).click()
