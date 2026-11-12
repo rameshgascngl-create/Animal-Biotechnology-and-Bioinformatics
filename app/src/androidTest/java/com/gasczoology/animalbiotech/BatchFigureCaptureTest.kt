@@ -34,6 +34,8 @@ class BatchFigureCaptureTest {
         val device = UiDevice.getInstance(inst)
         val dm = inst.targetContext.resources.displayMetrics
         val tag = "${(dm.widthPixels / dm.density).toInt()}x${(dm.heightPixels / dm.density).toInt()}"
+        // Phase 2 policy: figures are judged at the real reader widths 360x800 and 411x914 dp. The 360x640 base-suite screen is not part of it.
+        org.junit.Assume.assumeTrue("batch capture runs at 360x800 and 411x914 only", tag != "360x640")
         fun capture(name: String) { device.waitForIdle(); Thread.sleep(900); device.executeShellCommand("screencap -p /sdcard/Pictures/$name.png") }
         ActivityScenario.launch(MainActivity::class.java).use { scenario ->
             assertTrue(device.wait(Until.hasObject(By.text("Animal Biotechnology")), 15000))
