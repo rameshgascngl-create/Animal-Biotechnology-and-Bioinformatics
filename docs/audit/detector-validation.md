@@ -47,6 +47,17 @@ Cause: arrowheads are SVG `marker`s inside `<defs>`, which the detector skipped,
 Fix: markers are now added as virtual shapes at the line end and tested against the full text box by `arrow_text`.
 Result: 3 `arrow_text` flags per language (the three arrow labels "Restriction enzyme...", "DNA ligase...", "Transform into E. coli"). The contact of the arrowhead tip with the step titles themselves is about 1-2 px and is still **not** flagged; I am not claiming it is caught.
 
+## Which verdicts count as positives (stated definition)
+- **Positive (true condition)** = my visual verdict is *moderate*, *major* or *severe*. *ok* and *minor* are negatives.
+- **Flagged (detector)** = at least one structural defect (any kind except `small_text`, which is a size test, not a collision test).
+- Recall = positives that are flagged / all positives (0.88 EN, 0.91 TA). Precision = positives among flagged states (0.60 EN, 0.69 TA).
+- Both numbers are measured against my own single-rater verdicts on the same 140 figures the thresholds were tuned on, so they are in-sample and optimistic; no second rater, no held-out set.
+
+## Known limitations (added)
+- **Arrowhead tip touching a step title** (dna_library_genomic_cdna-d01, 1-2 px contact) is a known miss: not flagged, not counted as caught.
+- Intentional contact (ticks, leader lines) is not whitelisted, which keeps precision at 0.60-0.69.
+- Text-size failures (about 4 sp) are visible only through `small_text`, not through collision kinds.
+
 ## Not yet a regression gate
 - Tuned on two smoke figures plus these 140; thresholds (trim 8% top / 12% bottom, overlap 1.5 x 0.6 px) are judgement calls.
 - Intentional-contact whitelist missing (see false positives).
