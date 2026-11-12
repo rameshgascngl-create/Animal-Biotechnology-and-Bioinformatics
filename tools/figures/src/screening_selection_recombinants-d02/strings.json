@@ -68,12 +68,12 @@
   "ta": "நகல் தட்டு\nLB + Tet"
  },
  "k_yes": {
-  "en": "solid = growth",
-  "ta": "நிரப்பியது = வளர்ச்சி"
+  "en": "growth",
+  "ta": "வளர்ச்சி"
  },
  "k_no": {
-  "en": "dashed = no growth",
-  "ta": "கோடிட்டது = வளர்ச்சியில்லை"
+  "en": "no growth",
+  "ta": "வளர்ச்சி இல்லை"
  },
  "r1": {
   "en": "3, 5: grow on Amp, not on Tet = recombinant (AmpR, TetS)",
