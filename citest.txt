@@ -1,0 +1,20 @@
+--------- beginning of main
+11-12 04:18:38.676  2389  2389 E CITEST  : deep figure item index = 88
+11-12 04:18:47.825  2389  2404 E CITEST  : figure Diagram: Insertional inactivation pBR322 at 360,838
+11-12 04:18:47.825  2389  2404 E CITEST  : scrolled 7 swipes to reach a clickable figure with a quarter screen visible
+11-12 04:18:47.956  2389  2389 E CITEST  : inline click -> expanded
+11-12 04:18:47.968  2389  2389 E CITEST  : composing viewer
+11-12 04:18:48.633  2389  2389 E CITEST  : viewer disposed
+11-12 04:18:56.034  2389  2404 E CITEST  : desc: Back
+11-12 04:18:56.034  2389  2404 E CITEST  : desc: Home
+11-12 04:18:56.034  2389  2404 E CITEST  : desc: Recents
+11-12 04:18:56.034  2389  2404 E CITEST  : desc: Back
+11-12 04:18:56.034  2389  2404 E CITEST  : desc: Save topic
+11-12 04:18:56.035  2389  2404 E CITEST  : desc: Mark as studied
+11-12 04:18:56.035  2389  2404 E CITEST  : desc: Diagram: Direct selection antibiotic resistance
+11-12 04:18:56.035  2389  2404 E CITEST  : desc: Diagram: Insertional inactivation pBR322
+11-12 04:18:56.035  2389  2404 E CITEST  : desc: 4:18 AM
+11-12 04:18:56.035  2389  2404 E CITEST  : desc: Android System notification: 
+11-12 04:18:56.035  2389  2404 E CITEST  : desc: Wifi signal full.
+11-12 04:18:56.035  2389  2404 E CITEST  : desc: Phone three bars.
+11-12 04:18:56.036  2389  2404 E CITEST  : desc: Battery charging, 100 percent.
