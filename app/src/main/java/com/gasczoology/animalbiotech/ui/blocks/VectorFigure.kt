@@ -65,7 +65,11 @@ internal fun loadVector(ctx: Context, id: String): VectorModel {
     return VectorModel(w, h, els, strings)
 }
 
-private fun col(s: String?): Color? = if (s == null || s == "none") null else Color(android.graphics.Color.parseColor(s))
+private fun col(s: String?): Color? {
+    if (s == null || s == "none") return null
+    val h = if (s.length == 4) "#" + s.substring(1).map { "$it$it" }.joinToString("") else s   // #rgb -> #rrggbb
+    return Color(android.graphics.Color.parseColor(h))
+}
 private fun VEl.f(k: String, d: Float = 0f) = a[k]?.toFloat() ?: d
 
 /** SVG circular arc (rx = ry, no rotation) from (x1,y1) to (x2,y2) as an Android-style arc on [path]. */
