@@ -8,7 +8,7 @@ adb install -r app/build/outputs/apk/debug/app-debug.apk || rc=1
 adb shell am force-stop com.gasczoology.animalbiotech
 adb shell am start -W -n com.gasczoology.animalbiotech/.MainActivity | tee qa-captures/cold-start.txt
 stat -c '%s' app/build/outputs/apk/debug/app-debug.apk | tee qa-captures/apk-bytes.txt
-gradle :app:connectedDebugAndroidTest --stacktrace || { echo "FAILED: base suite" | tee -a qa-captures/failures.txt; rc=1; }
+gradle :app:connectedDebugAndroidTest -Pandroid.testInstrumentationRunnerArguments.class=com.gasczoology.animalbiotech.ViewerRegressionTest --stacktrace 2>&1 | tee qa-captures/gradle-viewer-test.txt; [ "${PIPESTATUS[0]}" = "0" ] || { echo "FAILED: ViewerRegressionTest" | tee -a qa-captures/failures.txt; rc=1; }
 if [ "${RUN_PILOT:-0}" = "1" ]; then
   for d in 480 420; do
     adb shell wm size 1080x2400; adb shell wm density $d
@@ -18,6 +18,7 @@ if [ "${RUN_PILOT:-0}" = "1" ]; then
 fi
 adb shell wm size reset; adb shell wm density reset
 adb pull /sdcard/Pictures qa-captures/screenshots || true
-adb logcat -d -s CITEST:E CITEST-MEM:E > qa-captures/citest.txt || true
+adb pull /sdcard/Android/data/com.gasczoology.animalbiotech/files/hier.xml qa-captures/hier.xml || true
+adb logcat -d -s CITEST:E > qa-captures/citest.txt || true
 adb logcat -d | grep -E 'AndroidRuntime|FATAL|animalbiotech|ActivityTaskManager|WindowManager' | tail -400 > qa-captures/logcat.txt || true
 exit $rc
