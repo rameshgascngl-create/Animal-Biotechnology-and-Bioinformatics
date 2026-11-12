@@ -9,6 +9,7 @@ import androidx.test.uiautomator.UiDevice
 import androidx.test.uiautomator.Until
 import com.gasczoology.animalbiotech.i18n.Lang
 import org.junit.Assert.assertTrue
+import org.junit.After
 import org.junit.Test
 import org.junit.runner.RunWith
 
@@ -19,6 +20,11 @@ import org.junit.runner.RunWith
  */
 @RunWith(AndroidJUnit4::class)
 class LanguageSampleTest {
+    /** Leave no Tamil or quiz state behind: the other capture tests expect a fresh English install. */
+    @After fun resetPrefs() {
+        InstrumentationRegistry.getInstrumentation().targetContext.getSharedPreferences("animal_biotech", Context.MODE_PRIVATE).edit().clear().commit()
+    }
+
     private val tamil = Regex("[஀-௿]")
     private val word = Regex("[A-Za-z][A-Za-z'’\\-]*")
     private val allow = setOf("english", "gasc", "nagercoil", "zoology", "department", "created", "by", "ramesh", "mcq", "mcqs", "version", "dna", "rna", "pcr", "blast",
