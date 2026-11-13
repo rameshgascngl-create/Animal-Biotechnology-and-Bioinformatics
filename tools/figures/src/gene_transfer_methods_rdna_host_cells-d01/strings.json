@@ -1,0 +1,38 @@
+{
+ "t1": {
+  "en": "CaCl₂ treatment",
+  "ta": "CaCl₂ சிகிச்சை"
+ },
+ "d1": {
+  "en": "The E. coli cell becomes a competent cell",
+  "ta": "E. coli செல் ஏற்புத்திறன் செல்லாக மாறுகிறது"
+ },
+ "t2": {
+  "en": "DNA adsorption (0 °C)",
+  "ta": "DNA உறிஞ்சல் (0 °C)"
+ },
+ "d2": {
+  "en": "Plasmid DNA adsorbs to the cell surface",
+  "ta": "பிளாஸ்மிட் DNA செல்லின் மேற்பரப்பில் உறிஞ்சப்படுகிறது"
+ },
+ "t3": {
+  "en": "Heat shock (42 °C)",
+  "ta": "வெப்ப அதிர்ச்சி (42 °C)"
+ },
+ "d3": {
+  "en": "DNA enters through pores",
+  "ta": "DNA துளைகள் வழியாக நுழைகிறது"
+ },
+ "t4": {
+  "en": "Transformant colony",
+  "ta": "உருமாறிய காலனி"
+ },
+ "d4": {
+  "en": "Antibiotic-resistant clone",
+  "ta": "நுண்ணுயிர் எதிர்ப்பி-எதிர்ப்புக் குளோன்"
+ },
+ "_alt": {
+  "en": "Chemical transformation of E. coli: CaCl2 treatment makes the cell competent; plasmid DNA adsorbs to the surface at 0 °C; a 42 °C heat shock lets DNA enter through pores; transformed cells grow as antibiotic-resistant colonies.",
+  "ta": "E. coli-இன் வேதி உருமாற்றம்: CaCl₂ சிகிச்சை செல்லை ஏற்புத்திறன் உடையதாக்குகிறது; 0 °C-இல் பிளாஸ்மிட் DNA மேற்பரப்பில் உறிஞ்சப்படுகிறது; 42 °C வெப்ப அதிர்ச்சியில் DNA துளைகள் வழியாக நுழைகிறது; உருமாறிய செல்கள் நுண்ணுயிர் எதிர்ப்பி-எதிர்ப்புக் காலனிகளாக வளர்கின்றன."
+ }
+}

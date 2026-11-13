@@ -24,9 +24,12 @@ import org.junit.runner.RunWith
 @RunWith(AndroidJUnit4::class)
 class BatchFigureCaptureTest {
     private val batch = listOf(
-        "blotting_techniques-d01",
-        "gene_cloning_steps_selection-d01",
-        "pcr_principle_types_applications-d01"
+        "pcr_principle_types_applications-d02",
+        "dna_library_genomic_cdna-d02",
+        "dna_library_genomic_cdna-d04",
+        "atlas4_culture_society-d13",
+        "atlas4_culture_society-d14",
+        "atlas4_culture_society-d17"
     )
 
     /** Memory budget (Phase 2): total PSS at most 150 MB on the 2 GB AVD, measured after a GC. */

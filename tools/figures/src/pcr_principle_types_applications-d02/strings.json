@@ -1,0 +1,86 @@
+{
+ "h": {
+  "en": "Copy number doubles every cycle",
+  "ta": "ஒவ்வொரு சுழற்சியிலும் நகல்களின் எண்ணிக்கை இரட்டிப்பாகிறது"
+ },
+ "hc": {
+  "en": "Cycle (n)",
+  "ta": "சுழற்சி (n)"
+ },
+ "hk": {
+  "en": "Copies (2ⁿ)",
+  "ta": "நகல்கள் (2ⁿ)"
+ },
+ "hb": {
+  "en": "Doublings (log scale)",
+  "ta": "இரட்டிப்புகள் (மடக்கை அளவு)"
+ },
+ "a0": {
+  "en": "0",
+  "ta": "0"
+ },
+ "a1": {
+  "en": "1",
+  "ta": "1"
+ },
+ "a2": {
+  "en": "2",
+  "ta": "2"
+ },
+ "a5": {
+  "en": "5",
+  "ta": "5"
+ },
+ "a10": {
+  "en": "10",
+  "ta": "10"
+ },
+ "a20": {
+  "en": "20",
+  "ta": "20"
+ },
+ "a30": {
+  "en": "30",
+  "ta": "30"
+ },
+ "k0": {
+  "en": "1",
+  "ta": "1"
+ },
+ "k1": {
+  "en": "2",
+  "ta": "2"
+ },
+ "k2": {
+  "en": "4",
+  "ta": "4"
+ },
+ "k5": {
+  "en": "32",
+  "ta": "32"
+ },
+ "k10": {
+  "en": "1,024",
+  "ta": "1,024"
+ },
+ "k20": {
+  "en": "1,048,576",
+  "ta": "1,048,576"
+ },
+ "k30": {
+  "en": "~10⁹",
+  "ta": "~10⁹"
+ },
+ "f": {
+  "en": "Bar length shows n, so the scale is logarithmic: a bar twice as long means the copy number is squared.",
+  "ta": "பட்டையின் நீளம் n-ஐக் காட்டுகிறது; எனவே அளவு மடக்கை அளவு: பட்டை இருமடங்கு நீளமானால் நகல்களின் எண்ணிக்கை இருமடி ஆகும்."
+ },
+ "g": {
+  "en": "In ideal conditions, 30 cycles turn one target segment into about a billion identical copies.",
+  "ta": "சிறந்த நிலைகளில் 30 சுழற்சிகள் ஒரு இலக்குத் துண்டை ஏறத்தாழ நூறு கோடி ஒத்த நகல்களாக மாற்றுகின்றன."
+ },
+ "_alt": {
+  "en": "Table of PCR copy numbers: cycle 0 has 1 copy, cycle 1 has 2, cycle 2 has 4, cycle 5 has 32, cycle 10 has 1,024, cycle 20 has 1,048,576 and cycle 30 about 10 to the power 9. Bars show the number of doublings on a logarithmic scale. In ideal conditions 30 cycles give about a billion copies.",
+  "ta": "PCR நகல்களின் எண்ணிக்கை அட்டவணை: சுழற்சி 0-இல் 1, சுழற்சி 1-இல் 2, சுழற்சி 2-இல் 4, சுழற்சி 5-இல் 32, சுழற்சி 10-இல் 1,024, சுழற்சி 20-இல் 1,048,576, சுழற்சி 30-இல் ஏறத்தாழ 10⁹. பட்டைகள் இரட்டிப்புகளின் எண்ணிக்கையை மடக்கை அளவில் காட்டுகின்றன. சிறந்த நிலைகளில் 30 சுழற்சிகள் ஏறத்தாழ நூறு கோடி நகல்களைத் தருகின்றன."
+ }
+}

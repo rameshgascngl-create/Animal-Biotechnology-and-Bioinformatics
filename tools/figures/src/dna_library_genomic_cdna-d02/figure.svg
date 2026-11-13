@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 635">
+<rect width="360" height="635" fill="#ffffff"/>
+<defs><marker id="ah" markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L5,2.5 L0,5 z" fill="#0b6f85"/></marker></defs>
+<g transform="translate(0,56)">
+<circle cx="36" cy="12" r="13" fill="#a15c00"/>
+<text data-num="1" x="36" y="17" text-anchor="middle" class="b" font-weight="700" fill="#ffffff"/>
+<text data-k="t1" data-w="272" x="62" y="17" text-anchor="start" class="b" font-weight="700" fill="#0b2a40"/>
+<text data-k="d1" data-w="272" x="62" y="39" text-anchor="start" class="s" fill="#2b4a5a"/>
+<line x1="36" y1="29" x2="36" y2="74" stroke="#0e8fb0" stroke-width="2.5" marker-end="url(#ah)"/>
+<circle cx="36" cy="92" r="13" fill="#00796b"/>
+<text data-num="2" x="36" y="97" text-anchor="middle" class="b" font-weight="700" fill="#ffffff"/>
+<text data-k="t2" data-w="272" x="62" y="97" text-anchor="start" class="b" font-weight="700" fill="#0b2a40"/>
+<text data-k="d2" data-w="272" x="62" y="119" text-anchor="start" class="s" fill="#2b4a5a"/>
+<line x1="36" y1="109" x2="36" y2="188" stroke="#0e8fb0" stroke-width="2.5" marker-end="url(#ah)"/>
+<circle cx="36" cy="206" r="13" fill="#1565c0"/>
+<text data-num="3" x="36" y="211" text-anchor="middle" class="b" font-weight="700" fill="#ffffff"/>
+<text data-k="t3" data-w="272" x="62" y="211" text-anchor="start" class="b" font-weight="700" fill="#0b2a40"/>
+<text data-k="d3" data-w="272" x="62" y="233" text-anchor="start" class="s" fill="#2b4a5a"/>
+<line x1="36" y1="223" x2="36" y2="285" stroke="#0e8fb0" stroke-width="2.5" marker-end="url(#ah)"/>
+<circle cx="36" cy="303" r="13" fill="#5e35b1"/>
+<text data-num="4" x="36" y="308" text-anchor="middle" class="b" font-weight="700" fill="#ffffff"/>
+<text data-k="t4" data-w="272" x="62" y="308" text-anchor="start" class="b" font-weight="700" fill="#0b2a40"/>
+<text data-k="d4" data-w="272" x="62" y="330" text-anchor="start" class="s" fill="#2b4a5a"/>
+<line x1="36" y1="320" x2="36" y2="399" stroke="#0e8fb0" stroke-width="2.5" marker-end="url(#ah)"/>
+<circle cx="36" cy="417" r="13" fill="#2e7d32"/>
+<text data-num="5" x="36" y="422" text-anchor="middle" class="b" font-weight="700" fill="#ffffff"/>
+<text data-k="t5" data-w="272" x="62" y="422" text-anchor="start" class="b" font-weight="700" fill="#0b2a40"/>
+<text data-k="d5" data-w="272" x="62" y="444" text-anchor="start" class="s" fill="#2b4a5a"/>
+</g>
+</svg>
+

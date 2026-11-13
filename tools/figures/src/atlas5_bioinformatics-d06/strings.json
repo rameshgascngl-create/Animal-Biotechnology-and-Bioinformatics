@@ -1,0 +1,62 @@
+{
+ "t1": {
+  "en": "Query sequence",
+  "ta": "வினா வரிசை"
+ },
+ "d1": {
+  "en": "Choose the program and the database",
+  "ta": "நிரலையும் தரவுத்தளத்தையும் தேர்ந்தெடுத்தல்"
+ },
+ "t2": {
+  "en": "Split the query into words",
+  "ta": "வினாவைச் சொற்களாகப் பிரித்தல்"
+ },
+ "d2": {
+  "en": "Word length k = 3 amino acids or 11 nucleotides",
+  "ta": "சொல் நீளம் k = 3 அமினோ அமிலங்கள் அல்லது 11 நியூக்ளியோடைடுகள்"
+ },
+ "t3": {
+  "en": "Find neighbourhood words",
+  "ta": "அண்மைச் சொற்களைக் கண்டறிதல்"
+ },
+ "d3": {
+  "en": "Words scoring at least T in the substitution matrix",
+  "ta": "பதிலீட்டு அணியில் குறைந்தது T மதிப்பெண் பெறும் சொற்கள்"
+ },
+ "t4": {
+  "en": "Scan the database",
+  "ta": "தரவுத்தளத்தை வருடுதல்"
+ },
+ "d4": {
+  "en": "For exact word hits (seeds)",
+  "ta": "துல்லியமான சொல் பொருத்தங்களுக்கு (விதைகள்)"
+ },
+ "t5": {
+  "en": "Extend the hits both ways",
+  "ta": "பொருத்தங்களை இரு திசைகளிலும் நீட்டுதல்"
+ },
+ "d5": {
+  "en": "Two-hit method, giving HSPs (X-drop)",
+  "ta": "இரு-தாக்குதல் முறை; HSP-கள் உருவாகின்றன (X-drop)"
+ },
+ "t6": {
+  "en": "Score and rank",
+  "ta": "மதிப்பெண்ணும் வரிசையும்"
+ },
+ "d6": {
+  "en": "Compute the bit score and E-value, then rank the hits",
+  "ta": "பிட் மதிப்பெண்ணையும் E-மதிப்பையும் கணக்கிட்டுப் பொருத்தங்களை வரிசைப்படுத்துதல்"
+ },
+ "t7": {
+  "en": "Report",
+  "ta": "அறிக்கை"
+ },
+ "d7": {
+  "en": "Alignment, identity, coverage and E-value",
+  "ta": "சீரமைப்பு, ஒத்ததன்மை, உள்ளடக்கம், E-மதிப்பு"
+ },
+ "_alt": {
+  "en": "Seven steps of a BLAST search: take the query sequence and choose program and database; split the query into words; find neighbourhood words scoring at least T; scan the database for exact word hits; extend the hits both ways into HSPs; compute the bit score and E-value and rank; report alignment, identity, coverage and E-value.",
+  "ta": "BLAST தேடலின் ஏழு படிகள்: வினா வரிசையை எடுத்து நிரலையும் தரவுத்தளத்தையும் தேர்ந்தெடுத்தல்; வினாவைச் சொற்களாகப் பிரித்தல்; குறைந்தது T மதிப்பெண் பெறும் அண்மைச் சொற்களைக் கண்டறிதல்; தரவுத்தளத்தில் துல்லியச் சொல் பொருத்தங்களை வருடுதல்; பொருத்தங்களை இரு திசைகளிலும் நீட்டி HSP-களாக்குதல்; பிட் மதிப்பெண், E-மதிப்பைக் கணக்கிட்டு வரிசைப்படுத்துதல்; சீரமைப்பு, ஒத்ததன்மை, உள்ளடக்கம், E-மதிப்பு அறிக்கை."
+ }
+}

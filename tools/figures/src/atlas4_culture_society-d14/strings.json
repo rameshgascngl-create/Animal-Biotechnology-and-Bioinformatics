@@ -1,0 +1,38 @@
+{
+ "t1": {
+  "en": "Whole-genome shotgun",
+  "ta": "முழு மரபணுத்தொகைத் துப்பாக்கிச்சூட்டு முறை"
+ },
+ "d1": {
+  "en": "Approach of Celera Genomics (Venter)",
+  "ta": "செலரா ஜீனோமிக்ஸ் (வென்டர்) அணுகுமுறை"
+ },
+ "t2": {
+  "en": "Shear the genome into random fragments",
+  "ta": "மரபணுத்தொகையைத் தற்செயலான துண்டுகளாகத் துண்டாக்குதல்"
+ },
+ "d2": {
+  "en": "Make libraries from the fragments",
+  "ta": "துண்டுகளிலிருந்து நூலகங்களை உருவாக்குதல்"
+ },
+ "t3": {
+  "en": "Sequence both ends",
+  "ta": "இரு முனைகளையும் வரிசைப்படுத்துதல்"
+ },
+ "d3": {
+  "en": "Of millions of clones",
+  "ta": "கோடிக்கணக்கான குளோன்களின்"
+ },
+ "t4": {
+  "en": "Assemble by computer",
+  "ta": "கணினி மூலம் ஒருங்கிணைத்தல்"
+ },
+ "d4": {
+  "en": "Scaffolds are built using the overlaps",
+  "ta": "மேற்பொருந்தல்களைக் கொண்டு சட்டகங்கள் உருவாக்கப்படுகின்றன"
+ },
+ "_alt": {
+  "en": "Whole-genome shotgun sequencing used by Celera Genomics: shear the genome into random fragments and make libraries, sequence both ends of millions of clones, then assemble scaffolds by computer using the overlaps.",
+  "ta": "செலரா ஜீனோமிக்ஸ் பயன்படுத்திய முழு மரபணுத்தொகைத் துப்பாக்கிச்சூட்டு முறை: மரபணுத்தொகையைத் தற்செயலாகத் துண்டாக்கி நூலகங்கள் உருவாக்குதல், கோடிக்கணக்கான குளோன்களின் இரு முனைகளையும் வரிசைப்படுத்துதல், மேற்பொருந்தல்களைக் கொண்டு கணினி மூலம் சட்டகங்களை ஒருங்கிணைத்தல்."
+ }
+}

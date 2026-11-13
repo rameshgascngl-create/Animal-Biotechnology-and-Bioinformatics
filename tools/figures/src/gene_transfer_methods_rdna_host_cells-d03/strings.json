@@ -1,0 +1,30 @@
+{
+ "t1": {
+  "en": "Recombinant viral vector",
+  "ta": "மறுசேர்க்கை வைரஸ்"
+ },
+ "d1": {
+  "en": "A modified, replication-deficient virus carries the gene and infects the cell",
+  "ta": "மரபணுவைச் சுமக்கும் மாற்றப்பட்ட, இரட்டிப்புத் திறனற்ற வைரஸ் செல்லைத் தொற்றுகிறது"
+ },
+ "t2": {
+  "en": "Cell receptor binding",
+  "ta": "செல் ஏற்பியுடன் இணைதல்"
+ },
+ "d2": {
+  "en": "The virus binds a receptor on the cell surface",
+  "ta": "வைரஸ் செல் மேற்பரப்பில் உள்ள ஏற்பியுடன் இணைகிறது"
+ },
+ "t3": {
+  "en": "Gene released into the nucleus",
+  "ta": "மரபணு உட்கருவில் விடுவிக்கப்படுதல்"
+ },
+ "d3": {
+  "en": "The viral genome enters the nucleus and, with integrating vectors, the gene integrates, giving stable gene expression",
+  "ta": "வைரஸ் மரபணுத்தொகை உட்கருவுக்குள் நுழைகிறது; ஒருங்கிணையும் ⟦vec⟧-களில் மரபணு ஒருங்கிணைந்து நிலையான மரபணு வெளிப்பாடு கிடைக்கிறது"
+ },
+ "_alt": {
+  "en": "Viral gene transfer in three steps: a recombinant, replication-deficient virus carrying the gene infects the cell; it binds a cell-surface receptor; the viral genome enters the nucleus and, with integrating vectors, the gene integrates, giving stable expression.",
+  "ta": "வைரஸ் மூலம் மரபணுக் கடத்தலின் மூன்று படிகள்: மரபணுவைச் சுமக்கும் மறுசேர்க்கை, இரட்டிப்புத் திறனற்ற வைரஸ் செல்லைத் தொற்றுகிறது; செல் மேற்பரப்பு ஏற்பியுடன் இணைகிறது; வைரஸ் மரபணுத்தொகை உட்கருவுக்குள் நுழைந்து, ஒருங்கிணையும் தாங்கிக்கடத்திகளில் மரபணு ஒருங்கிணைந்து நிலையான வெளிப்பாடு கிடைக்கிறது."
+ }
+}

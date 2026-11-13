@@ -1,0 +1,46 @@
+{
+ "t1": {
+  "en": "UniProt: Universal Protein Resource",
+  "ta": "UniProt: உலகளாவிய புரத வளம்"
+ },
+ "d1": {
+  "en": "Four linked resources",
+  "ta": "இணைக்கப்பட்ட நான்கு வளங்கள்"
+ },
+ "t2": {
+  "en": "UniProtKB Swiss-Prot",
+  "ta": "UniProtKB Swiss-Prot"
+ },
+ "d2": {
+  "en": "Manually reviewed, about 570,000 entries; the gold standard of high-quality curated data",
+  "ta": "கைமுறையாக மதிப்பாய்வு செய்யப்பட்டது, ஏறத்தாழ 5,70,000 பதிவுகள்; உயர்தரத் தொகுக்கப்பட்ட தரவுக்கான தங்கத் தரநிலை"
+ },
+ "t3": {
+  "en": "UniProtKB TrEMBL",
+  "ta": "UniProtKB TrEMBL"
+ },
+ "d3": {
+  "en": "Unreviewed, about 220 million computer-annotated entries awaiting curation; they move to Swiss-Prot after review",
+  "ta": "மதிப்பாய்வு செய்யப்படாதது, ஏறத்தாழ 22 கோடி கணினிக் குறிப்புரைப் பதிவுகள், தொகுப்புக்காகக் காத்திருக்கின்றன; மறுஆய்வுக்குப் பின் Swiss-Prot-க்கு மாறுகின்றன"
+ },
+ "t4": {
+  "en": "UniRef",
+  "ta": "UniRef"
+ },
+ "d4": {
+  "en": "Sequence clusters",
+  "ta": "வரிசைக் கொத்துகள்"
+ },
+ "t5": {
+  "en": "UniParc",
+  "ta": "UniParc"
+ },
+ "d5": {
+  "en": "Sequence archive",
+  "ta": "வரிசைக் காப்பகம்"
+ },
+ "_alt": {
+  "en": "UniProt comprises UniProtKB, which has manually reviewed Swiss-Prot (about 570,000 entries, the gold standard) and unreviewed, computer-annotated TrEMBL (about 220 million entries that move to Swiss-Prot after review), together with UniRef sequence clusters and the UniParc sequence archive. Entry counts are approximate and change with each release.",
+  "ta": "UniProt என்பது UniProtKB (கைமுறையாக மதிப்பாய்வு செய்யப்பட்ட Swiss-Prot, ஏறத்தாழ 5,70,000 பதிவுகள், தங்கத் தரநிலை; மதிப்பாய்வு செய்யப்படாத கணினிக் குறிப்புரை TrEMBL, ஏறத்தாழ 22 கோடி பதிவுகள், மறுஆய்வுக்குப் பின் Swiss-Prot-க்கு மாறுகின்றன), UniRef வரிசைக் கொத்துகள், UniParc வரிசைக் காப்பகம் ஆகியவற்றைக் கொண்டது. பதிவு எண்ணிக்கைகள் தோராயமானவை; ஒவ்வொரு வெளியீட்டிலும் மாறும்."
+ }
+}

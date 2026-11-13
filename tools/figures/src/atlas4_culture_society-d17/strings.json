@@ -1,0 +1,58 @@
+{
+ "t1": {
+  "en": "Invention",
+  "ta": "கண்டுபிடிப்பு"
+ },
+ "d1": {
+  "en": "Novel, with an inventive step and industrial application",
+  "ta": "புதியது; புத்தாக்கப் படி, தொழில் பயன்பாடு உடையது"
+ },
+ "t2": {
+  "en": "Search prior art",
+  "ta": "முன்னைய கலையைத் தேடுதல்"
+ },
+ "t3": {
+  "en": "File the application",
+  "ta": "விண்ணப்பம் சமர்ப்பித்தல்"
+ },
+ "d3": {
+  "en": "Specification and claims to the Patent Office, India; PCT international filing within 12 months",
+  "ta": "விவரக்குறிப்பும் உரிமைகோரல்களும் காப்புரிமை அலுவலகம், இந்தியாவிடம்; PCT பன்னாட்டுத் தாக்கல் 12 மாதங்களுக்குள்"
+ },
+ "t4": {
+  "en": "Publication",
+  "ta": "வெளியீடு"
+ },
+ "d4": {
+  "en": "After 18 months",
+  "ta": "18 மாதங்களுக்குப் பின்"
+ },
+ "t5": {
+  "en": "Examination",
+  "ta": "தேர்வு"
+ },
+ "d5": {
+  "en": "Request for examination; objections and hearing",
+  "ta": "தேர்வுக்கான கோரிக்கை; எதிர்ப்புகளும் விசாரணையும்"
+ },
+ "t6": {
+  "en": "Grant",
+  "ta": "வழங்கல்"
+ },
+ "d6": {
+  "en": "20 years from filing, with renewal fees",
+  "ta": "தாக்கல் செய்த நாளிலிருந்து 20 ஆண்டுகள்; புதுப்பிப்புக் கட்டணங்கள்"
+ },
+ "t7": {
+  "en": "Opposition or enforcement",
+  "ta": "எதிர்ப்பு அல்லது அமலாக்கம்"
+ },
+ "d7": {
+  "en": "Opposition may be pre-grant or post-grant",
+  "ta": "எதிர்ப்பு வழங்கலுக்கு முன்போ பின்போ இருக்கலாம்"
+ },
+ "_alt": {
+  "en": "Patent route in India: an invention that is novel, inventive and industrially applicable; search prior art; file the application with specification and claims (PCT international filing within 12 months); publication after 18 months; examination on request, with objections and hearing; grant for 20 years from filing with renewal fees; opposition, pre- or post-grant, or enforcement.",
+  "ta": "இந்தியாவில் காப்புரிமைப் பாதை: புதிய, புத்தாக்கப் படி கொண்ட, தொழில் பயன்பாடுள்ள கண்டுபிடிப்பு; முன்னைய கலையைத் தேடுதல்; விவரக்குறிப்பு, உரிமைகோரல்களுடன் விண்ணப்பம் (PCT பன்னாட்டுத் தாக்கல் 12 மாதங்களுக்குள்); 18 மாதங்களுக்குப் பின் வெளியீடு; கோரிக்கையின்பேரில் தேர்வு, எதிர்ப்புகள், விசாரணை; தாக்கலிலிருந்து 20 ஆண்டுகளுக்கு வழங்கல், புதுப்பிப்புக் கட்டணங்கள்; வழங்கலுக்கு முன்/பின் எதிர்ப்பு அல்லது அமலாக்கம்."
+ }
+}

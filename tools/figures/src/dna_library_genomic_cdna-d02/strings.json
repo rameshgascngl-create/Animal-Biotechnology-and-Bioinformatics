@@ -1,0 +1,46 @@
+{
+ "t1": {
+  "en": "Isolate mRNA",
+  "ta": "mRNA-வைப் பிரித்தெடுத்தல்"
+ },
+ "d1": {
+  "en": "The mRNA (5′ to 3′, ending in a poly-A tail) is the template",
+  "ta": "mRNA (5′→3′, poly-A வாலுடன் முடிவது) வார்ப்புருவாகிறது"
+ },
+ "t2": {
+  "en": "First-strand cDNA synthesis",
+  "ta": "முதல்-இழை cDNA தொகுப்பு"
+ },
+ "d2": {
+  "en": "An oligo-dT primer binds the poly-A tail and reverse transcriptase copies the mRNA into cDNA",
+  "ta": "Oligo-dT முதன்மை இழை poly-A வாலுடன் பிணைகிறது; தலைகீழ் படியெடுப்பி mRNA-வை cDNA-வாகப் படியெடுக்கிறது"
+ },
+ "t3": {
+  "en": "Remove the mRNA",
+  "ta": "mRNA-வை நீக்குதல்"
+ },
+ "d3": {
+  "en": "RNase H degrades the mRNA strand, leaving single-stranded cDNA (ss-cDNA)",
+  "ta": "RNase H mRNA இழையைச் சிதைத்து ஒற்றை இழை cDNA-வை (ss-cDNA) விட்டுச்செல்கிறது"
+ },
+ "t4": {
+  "en": "Second strand",
+  "ta": "இரண்டாம் இழை"
+ },
+ "d4": {
+  "en": "DNA polymerase I makes double-stranded cDNA (ds-cDNA): no introns, exons only",
+  "ta": "DNA பாலிமெரேஸ் I இரட்டை இழை cDNA-வை (ds-cDNA) உருவாக்குகிறது: இன்ட்ரான் இல்லை, எக்சான்கள் மட்டும்"
+ },
+ "t5": {
+  "en": "Clone into a vector",
+  "ta": "குளோனாக்குதல்"
+ },
+ "d5": {
+  "en": "Linkers are added and each ds-cDNA is ligated into a vector; the clones (cDNA-1 to cDNA-4, genes A to D) form the cDNA library, which is tissue-specific and intron-free",
+  "ta": "இணைப்பான்கள் சேர்க்கப்பட்டு ஒவ்வொரு ds-cDNA-வும் ⟦vec⟧-இல் இணைக்கப்படுகிறது; குளோன்கள் (cDNA-1 முதல் cDNA-4, மரபணுக்கள் A முதல் D) cDNA நூலகமாகின்றன; அது திசு-சார்ந்தது, இன்ட்ரான் அற்றது"
+ },
+ "_alt": {
+  "en": "Five steps of cDNA library construction: isolate mRNA with its poly-A tail; make first-strand cDNA with an oligo-dT primer and reverse transcriptase; remove the mRNA with RNase H; make the second strand with DNA polymerase I to give intron-free double-stranded cDNA; add linkers and clone into a vector, giving a tissue-specific cDNA library.",
+  "ta": "cDNA நூலகம் உருவாக்கும் ஐந்து படிகள்: poly-A வாலுடன் mRNA-வைப் பிரித்தல்; oligo-dT முதன்மை இழை, தலைகீழ் படியெடுப்பியால் முதல்-இழை cDNA உருவாக்கல்; RNase H-ஆல் mRNA-வை நீக்கல்; DNA பாலிமெரேஸ் I-ஆல் இரண்டாம் இழை உருவாக்கி இன்ட்ரான் இல்லாத இரட்டை இழை cDNA பெறல்; இணைப்பான் சேர்த்துத் தாங்கிக்கடத்தியில் குளோனாக்கி, திசு-சார்ந்த cDNA நூலகம் பெறல்."
+ }
+}

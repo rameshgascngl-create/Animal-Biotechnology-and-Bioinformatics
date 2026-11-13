@@ -1,0 +1,38 @@
+{
+ "t1": {
+  "en": "Target tissue",
+  "ta": "இலக்குத் திசு"
+ },
+ "d1": {
+  "en": "Tissue in which the genes of interest are expressed",
+  "ta": "இலக்கு மரபணுக்கள் வெளிப்படும் திசு"
+ },
+ "t2": {
+  "en": "Lysis and extraction",
+  "ta": "செல்சிதைவு மற்றும் பிரித்தெடுத்தல்"
+ },
+ "d2": {
+  "en": "Cells are broken open and the RNA is released",
+  "ta": "செல்கள் உடைக்கப்பட்டு RNA வெளியிடப்படுகிறது"
+ },
+ "t3": {
+  "en": "Oligo-dT column",
+  "ta": "Oligo-dT நெடுவரிசை"
+ },
+ "d3": {
+  "en": "Poly-A mRNA binds to the oligo-dT; rRNA and tRNA flow through",
+  "ta": "Poly-A mRNA, oligo-dT-உடன் பிணைகிறது; rRNA மற்றும் tRNA கடந்து வெளியேறுகின்றன"
+ },
+ "t4": {
+  "en": "Purified poly-A mRNA",
+  "ta": "தூய்மையாக்கப்பட்ட poly-A mRNA"
+ },
+ "d4": {
+  "en": "Released from the column as the template for cDNA synthesis",
+  "ta": "cDNA தொகுப்புக்கான வார்ப்புருவாக நெடுவரிசையிலிருந்து பிரித்தெடுக்கப்படுகிறது"
+ },
+ "_alt": {
+  "en": "Four steps to purify mRNA: start with target tissue; lyse the cells and extract RNA; pass it through an oligo-dT column, where poly-A mRNA binds and rRNA and tRNA flow through; release the purified poly-A mRNA as the template for cDNA synthesis.",
+  "ta": "mRNA-வைத் தூய்மையாக்கும் நான்கு படிகள்: இலக்குத் திசுவில் தொடங்குதல்; செல்களைச் சிதைத்து RNA-வைப் பிரித்தெடுத்தல்; oligo-dT நெடுவரிசையில் செலுத்துதல் (poly-A mRNA பிணைகிறது, rRNA மற்றும் tRNA கடந்து வெளியேறுகின்றன); தூய poly-A mRNA-வை cDNA தொகுப்புக்கான வார்ப்புருவாகப் பிரித்தெடுத்தல்."
+ }
+}

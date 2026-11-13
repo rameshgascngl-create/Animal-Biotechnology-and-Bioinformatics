@@ -1,0 +1,78 @@
+{
+ "h1": {
+  "en": "Non-recombinant: BLUE colony",
+  "ta": "மறுசேர்க்கை அல்லாதது: நீல நிறக் காலனி"
+ },
+ "a1": {
+  "en": "pUC19 with lacZ-α intact",
+  "ta": "lacZ-α சேதமின்றி உள்ள pUC19"
+ },
+ "a1d": {
+  "en": "No insert in the MCS",
+  "ta": "MCS-இல் செருகி இல்லை"
+ },
+ "a2": {
+  "en": "IPTG induces lacZ-α",
+  "ta": "IPTG lacZ-α-வைத் தூண்டுகிறது"
+ },
+ "a3": {
+  "en": "β-galactosidase is functional",
+  "ta": "β-கேலக்டோசிடேஸ் செயல்படுகிறது"
+ },
+ "a3d": {
+  "en": "It cleaves X-gal to 5-bromo-4-chloro-indigo, a blue insoluble compound",
+  "ta": "அது X-gal-ஐப் பிளந்து நீல நிறக் கரையாச் சேர்மமான 5-புரோமோ-4-குளோரோ-இண்டிகோவை உருவாக்குகிறது"
+ },
+ "a4": {
+  "en": "✗ Do NOT pick this colony",
+  "ta": "✗ இந்தக் காலனியைத் தேர்ந்தெடுக்காதே"
+ },
+ "a4d": {
+  "en": "Non-recombinant transformant",
+  "ta": "மறுசேர்க்கை அல்லாத உருமாறியது"
+ },
+ "h2": {
+  "en": "Recombinant: WHITE colony",
+  "ta": "மறுசேர்க்கை: வெள்ளைக் காலனி"
+ },
+ "b1": {
+  "en": "pUC19 with an insert in the MCS",
+  "ta": "MCS-இல் செருகியுடன் உள்ள pUC19"
+ },
+ "b1d": {
+  "en": "The insert disrupts lacZ-α",
+  "ta": "செருகி lacZ-α-வைச் சீர்குலைக்கிறது"
+ },
+ "b2": {
+  "en": "IPTG added: no effect",
+  "ta": "IPTG சேர்க்கப்பட்டது: விளைவு இல்லை"
+ },
+ "b3": {
+  "en": "β-galactosidase is non-functional",
+  "ta": "β-கேலக்டோசிடேஸ் செயலற்றது"
+ },
+ "b3d": {
+  "en": "X-gal is not cleaved; the colony stays colourless",
+  "ta": "X-gal பிளக்கப்படவில்லை; காலனி நிறமற்றதாகவே இருக்கிறது"
+ },
+ "b4": {
+  "en": "✓ Pick this colony",
+  "ta": "✓ இந்தக் காலனியைத் தேர்ந்தெடு"
+ },
+ "b4d": {
+  "en": "Recombinant transformant",
+  "ta": "மறுசேர்க்கை உருமாறியது"
+ },
+ "m": {
+  "en": "Medium: LB + ampicillin + X-gal (40 µg/mL) + IPTG (0.1 mM)",
+  "ta": "ஊடகம்: LB + ஆம்பிசிலின் + X-gal (40 µg/mL) + IPTG (0.1 mM)"
+ },
+ "m2": {
+  "en": "Ampicillin selects transformants; X-gal and IPTG separate blue from white.",
+  "ta": "ஆம்பிசிலின் உருமாறியவற்றைத் தெரிவு செய்கிறது; X-gal மற்றும் IPTG நீலத்தையும் வெள்ளையையும் பிரிக்கின்றன."
+ },
+ "_alt": {
+  "en": "Blue-white screening on LB agar with ampicillin, X-gal and IPTG. Non-recombinant cells keep lacZ-α intact, make functional β-galactosidase, cleave X-gal to a blue compound and form blue colonies, which are not picked. Recombinant cells have an insert in the MCS that disrupts lacZ-α, so X-gal is not cleaved and the colonies are white; these are picked.",
+  "ta": "ஆம்பிசிலின், X-gal, IPTG உள்ள LB அகாரில் நீல-வெள்ளைத் தெரிவு. மறுசேர்க்கை அல்லாத செல்களில் lacZ-α சேதமின்றி இருப்பதால் செயல்படும் β-கேலக்டோசிடேஸ் X-gal-ஐப் பிளந்து நீலச் சேர்மத்தை உருவாக்கி நீல நிறக் காலனிகளைத் தருகிறது; அவை தேர்ந்தெடுக்கப்படுவதில்லை. மறுசேர்க்கை செல்களில் MCS-இல் உள்ள செருகி lacZ-α-வைச் சீர்குலைப்பதால் X-gal பிளக்கப்படாமல் காலனிகள் வெள்ளையாக இருக்கும்; இவை தேர்ந்தெடுக்கப்படுகின்றன."
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "t1": {
+  "en": "Electroporation cuvette",
+  "ta": "மின்துளைப்புக் குவெட்"
+ },
+ "d1": {
+  "en": "Cells and DNA sit between two electrodes, one negative and one positive",
+  "ta": "செல்களும் DNA-வும் எதிர்மறை, நேர்மறை என இரு மின்முனைகளுக்கு இடையே உள்ளன"
+ },
+ "t2": {
+  "en": "Electric pulse applied",
+  "ta": "மின்துடிப்பு செலுத்தப்படுதல்"
+ },
+ "d2": {
+  "en": "0.1–10 kV/cm for microseconds to milliseconds; pores open in the cell membrane and DNA enters",
+  "ta": "0.1–10 kV/cm, மைக்ரோ வினாடி முதல் மில்லி வினாடி வரை; செல்சவ்வில் துளைகள் திறந்து DNA நுழைகிறது"
+ },
+ "t3": {
+  "en": "After the pulse",
+  "ta": "துடிப்புக்குப் பின்"
+ },
+ "d3": {
+  "en": "The pores reseal; the cell survives with the DNA inside (transfected)",
+  "ta": "துளைகள் மூடுகின்றன; DNA உள்ளே இருக்க செல் உயிர்வாழ்கிறது (டிரான்ஸ்ஃபெக்ஷன்)"
+ },
+ "_alt": {
+  "en": "Electroporation in three steps: cells and DNA in a cuvette between a negative and a positive electrode; an electric pulse of 0.1–10 kV/cm lasting microseconds to milliseconds opens pores in the membrane and DNA enters; the pores reseal and the cell survives with the DNA inside.",
+  "ta": "மின்துளைப்பின் மூன்று படிகள்: எதிர்மறை, நேர்மறை மின்முனைகளுக்கு இடையே குவெட்டில் செல்களும் DNA-வும்; மைக்ரோ வினாடி முதல் மில்லி வினாடி வரை 0.1–10 kV/cm மின்துடிப்பு செல்சவ்வில் துளைகளைத் திறந்து DNA நுழைகிறது; துளைகள் மூடி DNA உள்ளே இருக்க செல் உயிர்வாழ்கிறது."
+ }
+}
