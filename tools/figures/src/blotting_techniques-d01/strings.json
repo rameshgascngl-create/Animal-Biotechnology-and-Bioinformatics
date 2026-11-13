@@ -1,0 +1,66 @@
+{
+ "h": {
+  "en": "Capillary blot stack (top to bottom)",
+  "ta": "நுண்புழை ஈர்ப்பு அடுக்கு (மேலிருந்து கீழ்)"
+ },
+ "l1": {
+  "en": "Weight",
+  "ta": "எடை"
+ },
+ "l2": {
+  "en": "Glass plate",
+  "ta": "கண்ணாடித் தகடு"
+ },
+ "l3": {
+  "en": "Stack of paper towels",
+  "ta": "காகிதத் துண்டுகளின் அடுக்கு"
+ },
+ "l3d": {
+  "en": "Draw buffer upward",
+  "ta": "தாங்கல் கரைசலை மேல்நோக்கி ஈர்க்கின்றன"
+ },
+ "l4": {
+  "en": "3 sheets of filter paper",
+  "ta": "3 தாள் வடிதாள்"
+ },
+ "l5": {
+  "en": "Nitrocellulose / nylon membrane",
+  "ta": "நைட்ரோசெல்லுலோஸ் / நைலான் சவ்வு"
+ },
+ "l5d": {
+  "en": "DNA moves out of the gel and sticks here",
+  "ta": "DNA ஜெல்லிலிருந்து வெளியேறி இங்கே ஒட்டுகிறது"
+ },
+ "l6": {
+  "en": "Agarose gel (inverted)",
+  "ta": "அகரோஸ் ஜெல் (தலைகீழ்)"
+ },
+ "l6d": {
+  "en": "DNA bands",
+  "ta": "DNA பட்டைகள்"
+ },
+ "l7": {
+  "en": "Filter-paper wick",
+  "ta": "வடிதாள் திரி"
+ },
+ "l7d": {
+  "en": "Dips into the buffer",
+  "ta": "தாங்கலில் மூழ்கியுள்ளது"
+ },
+ "l8": {
+  "en": "Glass plate (support)",
+  "ta": "கண்ணாடித் தகடு (தாங்கி)"
+ },
+ "l9": {
+  "en": "Buffer reservoir (20× SSC / alkaline buffer)",
+  "ta": "தாங்கல் கரைசல் தொட்டி (20× SSC / கார தாங்கல்)"
+ },
+ "f": {
+  "en": "Buffer flows upward by capillary action, carrying the DNA out of the gel onto the membrane.",
+  "ta": "தாங்கல் கரைசல் நுண்புழை ஈர்ப்பால் மேல்நோக்கிப் பாய்ந்து, DNA-வை ஜெல்லிலிருந்து சவ்வுக்குக் கொண்டு செல்கிறது."
+ },
+ "_alt": {
+  "en": "Side-view stack for a Southern capillary blot, top to bottom: weight, glass plate, paper towels, three sheets of filter paper, nitrocellulose or nylon membrane, inverted agarose gel, filter-paper wick dipping into the buffer, supporting glass plate and the buffer reservoir. Buffer flows upward by capillary action and carries the DNA out of the gel onto the membrane.",
+  "ta": "தெற்கு (Southern) blot-க்கான நுண்புழை ஈர்ப்பு அடுக்கின் பக்கத் தோற்றம், மேலிருந்து கீழ்: எடை, கண்ணாடித் தகடு, காகிதத் துண்டுகள், மூன்று தாள் வடிதாள், நைட்ரோசெல்லுலோஸ் அல்லது நைலான் சவ்வு, தலைகீழ் அகரோஸ் ஜெல், தாங்கலில் மூழ்கிய வடிதாள் திரி, தாங்கித் தகடு, தாங்கல் கரைசல் தொட்டி. தாங்கல் கரைசல் நுண்புழை ஈர்ப்பால் மேல்நோக்கிப் பாய்ந்து DNA-வை ஜெல்லிலிருந்து சவ்வுக்குக் கொண்டு செல்கிறது."
+ }
+}

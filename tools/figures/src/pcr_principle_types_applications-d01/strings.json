@@ -1,0 +1,66 @@
+{
+ "t95": {
+  "en": "95",
+  "ta": "95"
+ },
+ "t72": {
+  "en": "72",
+  "ta": "72"
+ },
+ "t58": {
+  "en": "58",
+  "ta": "58"
+ },
+ "yu": {
+  "en": "°C",
+  "ta": "°C"
+ },
+ "xt": {
+  "en": "Time",
+  "ta": "நேரம்"
+ },
+ "p1": {
+  "en": "Denaturation",
+  "ta": "இயல்பு திரிபு"
+ },
+ "c1": {
+  "en": "94–96 °C · 20–30 s",
+  "ta": "94–96 °C · 20–30 வி"
+ },
+ "w1": {
+  "en": "Hydrogen bonds break; the DNA becomes single-stranded",
+  "ta": "ஹைட்ரஜன் பிணைப்புகள் உடைந்து DNA ஒற்றை இழையாகிறது"
+ },
+ "p2": {
+  "en": "Annealing",
+  "ta": "இயல்பு மீள்வு"
+ },
+ "c2": {
+  "en": "50–65 °C · 20–40 s",
+  "ta": "50–65 °C · 20–40 வி"
+ },
+ "w2": {
+  "en": "Primers bind to the template",
+  "ta": "முதன்மை இழைகள் வார்ப்புருவுடன் பிணைகின்றன"
+ },
+ "p3": {
+  "en": "Extension",
+  "ta": "நீட்சி"
+ },
+ "c3": {
+  "en": "72 °C · about 1 min per kb",
+  "ta": "72 °C · ஒரு kb-க்கு ஏறத்தாழ 1 நிமிடம்"
+ },
+ "w3": {
+  "en": "Taq polymerase extends the new strand",
+  "ta": "Taq பாலிமரேஸ் புதிய இழையை நீட்டிக்கிறது"
+ },
+ "f": {
+  "en": "Initial step: 95 °C for 2–5 min. Cycle repeated 25–40 times.",
+  "ta": "தொடக்கப் படி: 95 °C, 2–5 நிமிடம். சுழற்சி 25–40 முறை மீள்கிறது."
+ },
+ "_alt": {
+  "en": "Temperature profile of one PCR cycle: 95 °C denaturation, 50–65 °C annealing (about 58 °C shown) and 72 °C extension, each marked on the graph and described below with its temperature, duration and what happens. An initial 95 °C step lasts 2–5 minutes and the cycle repeats 25–40 times.",
+  "ta": "ஒரு PCR சுழற்சியின் வெப்பநிலை வரைபடம்: 95 °C இயல்பு திரிபு, 50–65 °C இயல்பு மீள்வு (ஏறத்தாழ 58 °C காட்டப்பட்டுள்ளது), 72 °C நீட்சி. ஒவ்வொன்றும் வெப்பநிலை, கால அளவு, நிகழ்வுடன் விளக்கப்பட்டுள்ளது. தொடக்கத்தில் 95 °C-இல் 2–5 நிமிடம்; சுழற்சி 25–40 முறை மீள்கிறது."
+ }
+}

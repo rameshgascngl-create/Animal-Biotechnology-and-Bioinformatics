@@ -25,6 +25,8 @@ Rule (R. Ramesh, 2026-11-12): use the term from the chapter that covers the tech
 | colony | காலனி | screening-d04, d01 |
 | hybridise | கலப்பு செய்தல் (no chapter evidence to choose between this and கலப்பிணைவு; both kept in glossary) | screening-d04 |
 | promoter | ஊக்குவிப்பான் (ditto ஊக்குவிப்பி) | advanced_vectors-d03 |
+| extension (PCR step) | நீட்சி (book gives only the long phrase முதன்மை இணைப்பு இழை நீட்சி) | pcr-d01 |
+| capillary-transfer stack | நுண்புழை ஈர்ப்பு அடுக்கு (descriptive, not State Board) | blotting-d01 |
 | own explanatory sentences | written by me; not from a textbook | all |
 
 Not yet changed: lesson-body text still says "பிரைமர்" / "இயல்புதிரிதல்" in places; the figure change does not touch body text.

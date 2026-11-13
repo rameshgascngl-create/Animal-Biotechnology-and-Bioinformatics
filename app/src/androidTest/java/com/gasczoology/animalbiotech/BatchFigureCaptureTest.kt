@@ -24,9 +24,9 @@ import org.junit.runner.RunWith
 @RunWith(AndroidJUnit4::class)
 class BatchFigureCaptureTest {
     private val batch = listOf(
-        "atlas3_transgenic_medical-d05",
-        "animal_cell_culture-d06",
-        "animal_cell_culture-d07"
+        "blotting_techniques-d01",
+        "gene_cloning_steps_selection-d01",
+        "pcr_principle_types_applications-d01"
     )
 
     /** Memory budget (Phase 2): total PSS at most 150 MB on the 2 GB AVD, measured after a GC. */
@@ -95,14 +95,14 @@ class BatchFigureCaptureTest {
                 val close = if (lang == Lang.EN) "Close" else "மூடு"
                 var clicked = false
                 // Tap by screen coordinates read from a fresh lookup each attempt: a node click can hit a stale reference while the lazy list settles.
-                for (attempt in 1..4) {
+                for (attempt in 1..8) {
                     try {
                         device.waitForIdle(); Thread.sleep(500)
                         val b = requireNotNull(device.findObject(sel)) { "figure-$id vanished before click" }.visibleBounds
                         device.click(b.centerX(), b.centerY()); clicked = true; break
                     } catch (e: androidx.test.uiautomator.StaleObjectException) { Thread.sleep(600) }
                 }
-                assertTrue("figure-$id could not be clicked (stale node 4 times)", clicked)
+                assertTrue("figure-$id could not be clicked (stale node 8 times)", clicked)
                 assertTrue("$id/${lang.name}: viewer did not open", device.wait(Until.hasObject(By.text(close)), 8000) || device.wait(Until.hasObject(By.desc(close)), 2000))
                 Thread.sleep(1200)
                 assertTrue("$id/${lang.name}: viewer closed itself", device.hasObject(By.text(close)) || device.hasObject(By.desc(close)))

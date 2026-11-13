@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 758">
+<rect width="360" height="758" fill="#ffffff"/>
+<defs><marker id="ah" markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L5,2.5 L0,5 z" fill="#0b6f85"/></marker></defs>
+<g transform="translate(0,56)">
+<path d="M62,200 L62,134 C90,134 92,44 108,44 L150,44 C166,44 168,134 186,134 L210,134 C226,134 228,104 244,104 L292,104 C308,104 310,134 326,134 L326,200 Z" fill="#ffffff" stroke="none"/>
+<rect x="62" y="40" width="124" height="160" fill="#ffcdd2" fill-opacity="0.45"/>
+<rect x="186" y="40" width="58" height="160" fill="#bbdefb" fill-opacity="0.45"/>
+<rect x="244" y="40" width="82" height="160" fill="#c8e6c9" fill-opacity="0.45"/>
+<path d="M62,134 C88,134 92,44 112,44 L150,44 C170,44 172,134 192,134 L214,134 C232,134 234,104 252,104 L290,104 C308,104 312,134 326,134" fill="none" stroke="#0b6f85" stroke-width="4" stroke-linecap="round"/>
+<line x1="56" y1="200" x2="344" y2="200" stroke="#444" stroke-width="3"/><line x1="56" y1="30" x2="56" y2="200" stroke="#444" stroke-width="3"/>
+<text data-k="t95" data-w="36" x="50" y="49" text-anchor="end" class="b" font-weight="700" fill="#b71c1c"/>
+<text data-k="t72" data-w="36" x="50" y="109" text-anchor="end" class="b" font-weight="700" fill="#2e7d32"/>
+<text data-k="t58" data-w="36" x="50" y="139" text-anchor="end" class="b" font-weight="700" fill="#1565c0"/>
+<text data-k="yu" data-w="40" x="56" y="20" text-anchor="middle" class="b" font-weight="700" fill="#444"/>
+<text data-k="xt" data-w="80" x="330" y="222" text-anchor="end" class="b" font-weight="700" fill="#444"/>
+<circle cx="131" cy="26" r="10" fill="#0b2a40"/><text data-num="1" x="131" y="31" text-anchor="middle" class="b" font-weight="700" fill="#ffffff"/>
+<circle cx="203" cy="114" r="10" fill="#0b2a40"/><text data-num="2" x="203" y="119" text-anchor="middle" class="b" font-weight="700" fill="#ffffff"/>
+<circle cx="271" cy="84" r="10" fill="#0b2a40"/><text data-num="3" x="271" y="89" text-anchor="middle" class="b" font-weight="700" fill="#ffffff"/>
+<rect x="14" y="248" width="332" height="113" rx="12" fill="#ffebee" stroke="#c62828" stroke-width="3"/>
+<circle cx="40" cy="272" r="11" fill="#c62828"/><text data-num="1" x="40" y="277" text-anchor="middle" class="b" font-weight="700" fill="#ffffff"/>
+<text data-k="p1" data-w="262" x="62" y="273" text-anchor="start" class="b" font-weight="700" fill="#c62828"/>
+<text data-k="c1" data-w="262" x="62" y="296" text-anchor="start" class="s" fill="#071e2e"/>
+<text data-k="w1" data-w="262" x="62" y="313" text-anchor="start" class="s" fill="#071e2e"/>
+<rect x="14" y="371" width="332" height="96" rx="12" fill="#e3f2fd" stroke="#1565c0" stroke-width="3"/>
+<circle cx="40" cy="395" r="11" fill="#1565c0"/><text data-num="2" x="40" y="400" text-anchor="middle" class="b" font-weight="700" fill="#ffffff"/>
+<text data-k="p2" data-w="262" x="62" y="396" text-anchor="start" class="b" font-weight="700" fill="#1565c0"/>
+<text data-k="c2" data-w="262" x="62" y="419" text-anchor="start" class="s" fill="#071e2e"/>
+<text data-k="w2" data-w="262" x="62" y="436" text-anchor="start" class="s" fill="#071e2e"/>
+<rect x="14" y="477" width="332" height="113" rx="12" fill="#e8f5e9" stroke="#2e7d32" stroke-width="3"/>
+<circle cx="40" cy="501" r="11" fill="#2e7d32"/><text data-num="3" x="40" y="506" text-anchor="middle" class="b" font-weight="700" fill="#ffffff"/>
+<text data-k="p3" data-w="262" x="62" y="502" text-anchor="start" class="b" font-weight="700" fill="#2e7d32"/>
+<text data-k="c3" data-w="262" x="62" y="525" text-anchor="start" class="s" fill="#071e2e"/>
+<text data-k="w3" data-w="262" x="62" y="559" text-anchor="start" class="s" fill="#071e2e"/>
+<text data-k="f" data-w="320" x="180" y="614" text-anchor="middle" class="s" font-weight="700" fill="#0b2a40"/>
+</g>
+</svg>
+
