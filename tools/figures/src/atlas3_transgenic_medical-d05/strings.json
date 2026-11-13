@@ -1,0 +1,70 @@
+{
+ "t1": {
+  "en": "Donor: mammary (udder) cell",
+  "ta": "கொடையாளி: மடி (பாலூட்டி) செல்"
+ },
+ "d1": {
+  "en": "From a 6-year-old Finn Dorset ewe",
+  "ta": "6 வயது ஃபின் டார்செட் பெண் ஆட்டிலிருந்து"
+ },
+ "t2": {
+  "en": "Serum starvation",
+  "ta": "சீரம் பட்டினி"
+ },
+ "d2": {
+  "en": "Puts the donor cell in G0",
+  "ta": "கொடையாளி செல்லை G0 நிலைக்குக் கொண்டுவருகிறது"
+ },
+ "t3": {
+  "en": "Egg from a Scottish Blackface ewe",
+  "ta": "ஸ்காட்டிஷ் கருப்பு முக பெண் ஆட்டிலிருந்து முட்டை"
+ },
+ "d3": {
+  "en": "Nucleus removed (enucleation)",
+  "ta": "உட்கரு அகற்றப்பட்டது (உட்கரு நீக்கம்)"
+ },
+ "t4": {
+  "en": "Electrofusion",
+  "ta": "மின்னிணைவு"
+ },
+ "d4": {
+  "en": "Donor cell fused with the enucleated egg, then electrical activation",
+  "ta": "கொடையாளி செல் உட்கரு நீக்கிய முட்டையுடன் இணைக்கப்பட்டு, பின் மின் செயலூக்கம்"
+ },
+ "t5": {
+  "en": "Culture for about 6 days",
+  "ta": "ஏறத்தாழ 6 நாள் வளர்த்தல்"
+ },
+ "d5": {
+  "en": "To blastocyst: 277 fused couplets gave 29 embryos",
+  "ta": "பிளாஸ்டோசிஸ்ட் வரை: 277 இணைவுகளில் 29 கருக்கள்"
+ },
+ "t6": {
+  "en": "Transfer to Blackface surrogates",
+  "ta": "கருப்பு முக வாடகைத் தாய்களுக்கு மாற்றுதல்"
+ },
+ "d6": {
+  "en": "29 embryos into 13 ewes: 1 pregnancy, 1 live lamb",
+  "ta": "29 கருக்கள் 13 பெண் ஆடுகளுக்கு: 1 சினை, 1 உயிருள்ள ஆட்டுக்குட்டி"
+ },
+ "t7": {
+  "en": "Dolly born 5 July 1996",
+  "ta": "டாலி பிறந்தது 5 ஜூலை 1996"
+ },
+ "d7": {
+  "en": "Roslin Institute; euthanised 2003",
+  "ta": "ராஸ்லின் நிறுவனம்; 2003-இல் கருணைக்கொலை"
+ },
+ "t8": {
+  "en": "Genetically identical to the nuclear DNA donor",
+  "ta": "உட்கரு DNA கொடையாளியுடன் மரபணு ரீதியாக ஒத்தது"
+ },
+ "d8": {
+  "en": "Mitochondrial DNA comes from the egg donor",
+  "ta": "இழைமணி DNA முட்டை கொடையாளியிடமிருந்து வருகிறது"
+ },
+ "_alt": {
+  "en": "Flow diagram: how Dolly the sheep was cloned, in eight steps. A mammary cell from a 6-year-old Finn Dorset ewe is serum-starved into G0; an egg from a Scottish Blackface ewe has its nucleus removed; the two are fused by electrofusion and activated; the embryo is cultured for about 6 days to blastocyst (277 fused couplets gave 29 embryos); 29 embryos are transferred to 13 Blackface surrogates, giving 1 pregnancy and 1 live lamb; Dolly was born on 5 July 1996 at the Roslin Institute and euthanised in 2003; she is genetically identical to the nuclear DNA donor, with mitochondrial DNA from the egg donor.",
+  "ta": "பாய்வு படம்: டாலி ஆடு குளோனிங் செய்யப்பட்ட எட்டுப் படிகள். 6 வயது ஃபின் டார்செட் பெண் ஆட்டின் மடிச் செல் சீரம் பட்டினியால் G0 நிலைக்குக் கொண்டுவரப்படுகிறது; ஸ்காட்டிஷ் கருப்பு முக பெண் ஆட்டின் முட்டையிலிருந்து உட்கரு அகற்றப்படுகிறது; இரண்டும் மின்னிணைவால் இணைக்கப்பட்டு செயலூக்கப்படுகின்றன; கரு ஏறத்தாழ 6 நாள் பிளாஸ்டோசிஸ்ட் வரை வளர்க்கப்படுகிறது (277 இணைவுகளில் 29 கருக்கள்); 29 கருக்கள் 13 கருப்பு முக வாடகைத் தாய்களுக்கு மாற்றப்பட்டு 1 சினையும் 1 உயிருள்ள ஆட்டுக்குட்டியும் கிடைத்தன; டாலி 1996 ஜூலை 5 அன்று ராஸ்லின் நிறுவனத்தில் பிறந்து 2003-இல் கருணைக்கொலை செய்யப்பட்டது; இது உட்கரு DNA கொடையாளியுடன் மரபணு ரீதியாக ஒத்தது, இழைமணி DNA முட்டை கொடையாளியிடமிருந்து வருகிறது."
+ }
+}

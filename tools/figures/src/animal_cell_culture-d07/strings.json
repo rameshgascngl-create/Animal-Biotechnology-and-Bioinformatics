@@ -1,0 +1,74 @@
+{
+ "h1": {
+  "en": "Natural skin",
+  "ta": "இயற்கைத் தோல்"
+ },
+ "n1": {
+  "en": "Stratum corneum (dead keratin cells)",
+  "ta": "கொம்புப் படலம் (இறந்த கெராட்டின் செல்கள்)"
+ },
+ "n2": {
+  "en": "Epidermis (keratinocytes)",
+  "ta": "மேற்றோல் (கெராட்டினோசைட்டுகள்)"
+ },
+ "n3": {
+  "en": "Basement membrane (laminin / collagen IV)",
+  "ta": "அடிச்சவ்வு (லேமினின் / கொலாஜன் IV)"
+ },
+ "n4": {
+  "en": "Dermis (fibroblasts, collagen)",
+  "ta": "தோலடுக்கு (ஃபைப்ரோபிளாஸ்ட்கள், கொலாஜன்)"
+ },
+ "n4d": {
+  "en": "Vessels, follicles, nerves, glands",
+  "ta": "இரத்தக் குழாய்கள், முடிக் கால்கள், நரம்புகள், சுரப்பிகள்"
+ },
+ "n5": {
+  "en": "Hypodermis (adipocytes, fat)",
+  "ta": "தோலடிக் கொழுப்படுக்கு (கொழுப்புச் செல்கள்)"
+ },
+ "h2": {
+  "en": "Tissue-engineered skin",
+  "ta": "திசுப் பொறியியல் தோல்"
+ },
+ "e1": {
+  "en": "Cornified keratinocyte layer",
+  "ta": "கொம்புப் படல கெராட்டினோசைட் அடுக்கு"
+ },
+ "e2": {
+  "en": "Epidermal equivalent",
+  "ta": "மேற்றோல் இணை அடுக்கு"
+ },
+ "e2d": {
+  "en": "Autologous or allogeneic keratinocytes",
+  "ta": "தன்னுடைய அல்லது பிறரின் கெராட்டினோசைட்டுகள்"
+ },
+ "e3": {
+  "en": "Synthetic or biologic membrane",
+  "ta": "செயற்கை அல்லது உயிரிச் சவ்வு"
+ },
+ "e4": {
+  "en": "Dermal equivalent",
+  "ta": "தோலடி இணை அடுக்கு"
+ },
+ "e4d": {
+  "en": "Fibroblasts in collagen gel or scaffold; PGA/PLA mesh",
+  "ta": "கொலாஜன் ஜெல் அல்லது தாங்கியில் ஃபைப்ரோபிளாஸ்ட்கள்; PGA/PLA வலை"
+ },
+ "e5": {
+  "en": "Scaffold / carrier / backing layer",
+  "ta": "தாங்கி / ஏந்தி / பின்படலம்"
+ },
+ "w": {
+  "en": "Currently lacks blood vessels, appendages and innervation",
+  "ta": "தற்போது இரத்தக் குழாய்கள், தோல் உறுப்புகள், நரம்புப் பரவல் இல்லை"
+ },
+ "g": {
+  "en": "Goal: recreate the epidermal–dermal interface in vitro",
+  "ta": "இலக்கு: மேற்றோல்–தோலடுக்கு இடைமுகத்தை இன்விட்ரோவில் உருவாக்குதல்"
+ },
+ "_alt": {
+  "en": "Comparison of natural skin and tissue-engineered skin as two stacked layer lists. Natural skin, top to bottom: stratum corneum, epidermis, basement membrane, dermis with vessels, follicles, nerves and glands, and hypodermis. Tissue-engineered skin: cornified keratinocyte layer, epidermal equivalent, membrane, dermal equivalent on a scaffold, and a carrier or backing layer. It currently lacks blood vessels, appendages and innervation; the key goal is to recreate the epidermal-dermal interface in vitro.",
+  "ta": "இயற்கைத் தோலையும் திசுப் பொறியியல் தோலையும் ஒப்பிடும் இரு அடுக்குப் பட்டியல்கள். இயற்கைத் தோல், மேலிருந்து கீழ்: கொம்புப் படலம், மேற்றோல், அடிச்சவ்வு, இரத்தக் குழாய்கள், முடிக் கால்கள், நரம்புகள், சுரப்பிகளுடன் தோலடுக்கு, தோலடிக் கொழுப்படுக்கு. திசுப் பொறியியல் தோல்: கொம்புப் படல கெராட்டினோசைட் அடுக்கு, மேற்றோல் இணை அடுக்கு, சவ்வு, தாங்கியின் மீது தோலடி இணை அடுக்கு, ஏந்தி அல்லது பின்படலம். இதில் இரத்தக் குழாய்கள், தோல் உறுப்புகள், நரம்புப் பரவல் இல்லை; மேற்றோல்–தோலடுக்கு இடைமுகத்தை இன்விட்ரோவில் உருவாக்குவதே இலக்கு."
+ }
+}
