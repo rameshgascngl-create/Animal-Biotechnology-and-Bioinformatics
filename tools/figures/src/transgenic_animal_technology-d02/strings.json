@@ -1,0 +1,70 @@
+{
+ "t1": {
+  "en": "Targeting vector",
+  "ta": "இலக்கிடல் ⟦vec⟧"
+ },
+ "d1": {
+  "en": "neo(r) inside the gene; tk outside",
+  "ta": "மரபணுவுக்குள் neo(r); வெளியே tk"
+ },
+ "t2": {
+  "en": "ES cells (129 strain)",
+  "ta": "ES செல்கள் (129 திரிபு)"
+ },
+ "d2": {
+  "en": "Homologous recombination",
+  "ta": "ஒத்த வரிசை மறுசேர்க்கை"
+ },
+ "t3": {
+  "en": "Select: G418 + ganciclovir",
+  "ta": "தேர்ந்தெடு: G418 + கான்சிக்ளோவிர்"
+ },
+ "d3": {
+  "en": "Positive–negative selection",
+  "ta": "நேர்–எதிர்மறைத் தெரிவு"
+ },
+ "t4": {
+  "en": "Inject into a C57BL/6 blastocyst",
+  "ta": "C57BL/6 பிளாஸ்டோசிஸ்டில் செலுத்துதல்"
+ },
+ "d4": {
+  "en": "Implant in a foster mother",
+  "ta": "வளர்ப்புத் தாயில் பதித்தல்"
+ },
+ "t5": {
+  "en": "Chimeric mouse (mixed coat)",
+  "ta": "கலப்புயிரி எலி (கலப்பு மேனி)"
+ },
+ "d5": {
+  "en": "Agouti and black patches",
+  "ta": "அகூட்டியும் கருப்புத் திட்டுகளும்"
+ },
+ "t6": {
+  "en": "Mate with wild type",
+  "ta": "காட்டு வகையுடன் இனச்சேர்க்கை"
+ },
+ "d6": {
+  "en": "Germline transmission",
+  "ta": "இனச்செல் வழிக் கடத்தல்"
+ },
+ "t7": {
+  "en": "Heterozygote +/−",
+  "ta": "ஹெட்டிரோசைகஸ் +/−"
+ },
+ "d7": {
+  "en": "F1 (agouti); inter-cross them",
+  "ta": "F1 (அகூட்டி); அவற்றைத் தம்முள் கலத்தல்"
+ },
+ "t8": {
+  "en": "Homozygous knock-out −/−",
+  "ta": "ஹோமோசைகஸ் நாக்-அவுட் −/−"
+ },
+ "d8": {
+  "en": "25% of F2",
+  "ta": "F2-இல் 25%"
+ },
+ "_alt": {
+  "en": "Making a knock-out mouse: a targeting vector with neo(r) inside the gene and tk outside; ES cells (129 strain) undergo homologous recombination; selection with G418 and ganciclovir; injection into a C57BL/6 blastocyst implanted in a foster mother; a chimeric mouse with mixed coat; mating with wild type for germline transmission; heterozygous F1 agouti mice are inter-crossed; 25% of the F2 are homozygous knock-outs.",
+  "ta": "நாக்-அவுட் எலி உருவாக்கம்: மரபணுவுக்குள் neo(r), வெளியே tk கொண்ட இலக்கிடல் ⟦vec⟧; ES செல்களில் (129 திரிபு) ஒத்த வரிசை மறுசேர்க்கை; G418, கான்சிக்ளோவிர் தெரிவு; C57BL/6 பிளாஸ்டோசிஸ்டில் செலுத்தி வளர்ப்புத் தாயில் பதித்தல்; கலப்பு மேனி கொண்ட கலப்புயிரி எலி; இனச்செல் வழிக் கடத்தலுக்குக் காட்டு வகையுடன் இனச்சேர்க்கை; ஹெட்டிரோசைகஸ் F1 அகூட்டி எலிகளைத் தம்முள் கலத்தல்; F2-இல் 25% ஹோமோசைகஸ் நாக்-அவுட்."
+ }
+}

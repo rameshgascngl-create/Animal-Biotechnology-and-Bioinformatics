@@ -1,0 +1,2 @@
+# BLAST parameter name (a symbol, like E-value or HSP); kept in Latin by rule
+x-drop

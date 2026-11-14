@@ -1,0 +1,38 @@
+{
+ "t1": {
+  "en": "Primary culture (P0)",
+  "ta": "முதன்மை வளர்ப்பு (P0)"
+ },
+ "d1": {
+  "en": "Cells taken straight from the tissue",
+  "ta": "திசுவிலிருந்து நேரடியாக எடுக்கப்பட்ட செல்கள்"
+ },
+ "t2": {
+  "en": "Finite cell line",
+  "ta": "வரையறுக்கப்பட்ட செல் இழை"
+ },
+ "d2": {
+  "en": "About 20–50 passages; normal diploid cells that senesce",
+  "ta": "ஏறத்தாழ 20–50 தலைமுறைகள்; முதிர்ச்சியடையும் இயல்பு இருமடிய செல்கள்"
+ },
+ "t3": {
+  "en": "Crisis / immortalisation",
+  "ta": "நெருக்கடி / இறவாமை"
+ },
+ "d3": {
+  "en": "A rare cell escapes senescence",
+  "ta": "அரிதான செல் முதிர்ச்சியிலிருந்து தப்புகிறது"
+ },
+ "t4": {
+  "en": "Continuous cell line",
+  "ta": "தொடர்ச்சியான செல் இழை"
+ },
+ "d4": {
+  "en": "Immortalised, unlimited passages; transformed and aneuploid",
+  "ta": "இறவாச் செல், வரம்பற்ற தலைமுறைகள்; உருமாறிய, அனியூப்ளாய்டு"
+ },
+ "_alt": {
+  "en": "Cell line progression: primary culture (P0), then a finite cell line of about 20–50 passages that senesces, then crisis and immortalisation, then a continuous cell line with unlimited passages that is transformed and aneuploid.",
+  "ta": "செல் இழை வளர்ச்சி வரிசை: முதன்மை வளர்ப்பு (P0), ஏறத்தாழ 20–50 தலைமுறைகளுக்குப் பின் முதிர்ச்சியடையும் வரையறுக்கப்பட்ட செல் இழை, நெருக்கடி மற்றும் இறவாமை, பின் வரம்பற்ற தலைமுறைகளுடன் உருமாறிய, அனியூப்ளாய்டு தொடர்ச்சியான செல் இழை."
+ }
+}

@@ -6,8 +6,10 @@ on:
 permissions:
   contents: write
 env:
-  RC_VERSION: 0.9.0-rc1
+  RC_VERSION: 0.9.0-rc2
 jobs:
+  tier3:
+    uses: ./.github/workflows/tier3-full.yml  # the full emulator suite runs before every RC
   build:
     runs-on: ubuntu-latest
     steps:
@@ -21,6 +23,11 @@ jobs:
           pip install -r tools/requirements.txt pytest
           python3 -m pytest tools/tests -q
           python3 tools/ci/language_scan.py
+          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-inter libraqm0 libfribidi0
+          pip install -r tools/diagrams/requirements.txt
+          python3 tools/figures/gate_all.py --out /tmp/gate
+          python3 tools/ci/tier1_assets.py
+          python3 tools/ci/guard_interaction_words.py
       - name: Unit tests
         run: gradle :app:testDebugUnitTest --stacktrace
       - name: Build R8 release APK (gate copy, debug-signed), debug APK and instrumentation APK
@@ -106,7 +113,7 @@ jobs:
           name: rc-emulator-${{ matrix.label }}
           path: qa-captures
   release:
-    needs: [build, emulator]
+    needs: [build, emulator, tier3]
     if: github.ref_type == 'branch' && startsWith(github.ref_name, 'rc/')
     runs-on: ubuntu-latest
     steps:

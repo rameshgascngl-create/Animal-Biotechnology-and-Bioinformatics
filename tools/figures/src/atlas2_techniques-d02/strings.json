@@ -1,0 +1,58 @@
+{
+ "h1": {
+  "en": "Ways of getting DNA into cells",
+  "ta": "செல்களுக்குள் DNA-வைச் செலுத்தும் வழிகள்"
+ },
+ "c1": {
+  "en": "Transformation",
+  "ta": "உருமாற்றம்"
+ },
+ "e1": {
+  "en": "Bacteria or yeast take up naked DNA: CaCl₂ plus heat shock (42 °C, 30–90 s) or electroporation",
+  "ta": "பாக்டீரியா / ஈஸ்ட் வெற்று DNA-வை எடுத்துக்கொள்கின்றன: CaCl₂ + வெப்ப அதிர்ச்சி (42 °C, 30–90 வி) அல்லது மின்துளைப்பு"
+ },
+ "c2": {
+  "en": "Transfection",
+  "ta": "டிரான்ஸ்ஃபெக்ஷன்"
+ },
+ "e2": {
+  "en": "Non-viral DNA into animal cells: calcium phosphate, lipofection, electroporation; transient or stable",
+  "ta": "விலங்குச் செல்களுக்குள் வைரஸ் அல்லாத DNA: கால்சியம் பாஸ்பேட், லிப்போஃபெக்ஷன், மின்துளைப்பு; தற்காலிக அல்லது நிலையானது"
+ },
+ "c3": {
+  "en": "Transduction",
+  "ta": "டிரான்ஸ்டக்ஷன்"
+ },
+ "e3": {
+  "en": "A virus carries the DNA in: phage P1 in bacteria; retro-, lenti-, adeno- and AAV vectors in animals",
+  "ta": "வைரஸ் DNA-வைக் கொண்டு வருகிறது: பாக்டீரியாவில் P1 பேஜ்; விலங்குகளில் ரெட்ரோ-, லென்டி-, அடினோ-, AAV ⟦vec⟧கள்"
+ },
+ "c4": {
+  "en": "Microinjection",
+  "ta": "நுண்செலுத்தல்"
+ },
+ "e4": {
+  "en": "A fine glass needle delivers DNA into the nucleus or pronucleus (transgenic mice, about 1–2 pl)",
+  "ta": "நுண்ணிய கண்ணாடி ஊசி DNA-வை உட்கரு அல்லது முன்கருவுக்குள் செலுத்துகிறது (மாற்றுமரபணு எலிகள், ~1–2 pl)"
+ },
+ "c5": {
+  "en": "Electroporation",
+  "ta": "மின்துளைப்பு"
+ },
+ "e5": {
+  "en": "A brief high-voltage pulse opens transient membrane pores; DNA enters by electrophoresis",
+  "ta": "குறுகிய உயர்மின்னழுத்தத் துடிப்பு தற்காலிக சவ்வுத் துளைகளைத் திறக்கிறது; DNA மின்னாற்பிரித்தலால் நுழைகிறது"
+ },
+ "c6": {
+  "en": "Liposome fusion",
+  "ta": "லிப்போசோம் இணைவு"
+ },
+ "e6": {
+  "en": "DNA enclosed in lipid vesicles fuses with the cell membrane (lipofection, gene therapy)",
+  "ta": "லிப்பிடு வெசிக்கிள்களுக்குள் உள்ள DNA செல் சவ்வுடன் இணைகிறது (லிப்போஃபெக்ஷன், மரபணு சிகிச்சை)"
+ },
+ "_alt": {
+  "en": "Six ways of getting DNA into cells: transformation, transfection, transduction, microinjection, electroporation and liposome fusion, each with the cells it suits and how the DNA enters.",
+  "ta": "செல்களுக்குள் DNA-வைச் செலுத்தும் ஆறு வழிகள்: உருமாற்றம், டிரான்ஸ்ஃபெக்ஷன், டிரான்ஸ்டக்ஷன், நுண்செலுத்தல், மின்துளைப்பு, லிப்போசோம் இணைவு; ஒவ்வொன்றும் எந்தச் செல்களுக்கு ஏற்றது, DNA எவ்வாறு நுழைகிறது என்பதுடன்."
+ }
+}

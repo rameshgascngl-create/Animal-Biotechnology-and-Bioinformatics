@@ -1,0 +1,46 @@
+{
+ "t1": {
+  "en": "Lab",
+  "ta": "ஆய்வகம்"
+ },
+ "d1": {
+  "en": "The researcher sequences the DNA",
+  "ta": "ஆய்வாளர் DNA-வை வரிசைப்படுத்துகிறார்"
+ },
+ "t2": {
+  "en": "Submit",
+  "ta": "சமர்ப்பித்தல்"
+ },
+ "d2": {
+  "en": "To GenBank, EMBL or DDBJ",
+  "ta": "GenBank, EMBL அல்லது DDBJ-க்கு"
+ },
+ "t3": {
+  "en": "Accession number assigned",
+  "ta": "அணுகல் எண் ஒதுக்கப்படுதல்"
+ },
+ "d3": {
+  "en": "A permanent ID",
+  "ta": "நிலையான அடையாளம்"
+ },
+ "t4": {
+  "en": "INSDC sync",
+  "ta": "INSDC ஒத்திசைவு"
+ },
+ "d4": {
+  "en": "Shared with all three databases within 24 hours",
+  "ta": "24 மணி நேரத்துக்குள் மூன்று தரவுத்தளங்களுடனும் பகிரப்படுகிறது"
+ },
+ "t5": {
+  "en": "Global free access",
+  "ta": "உலகளாவிய கட்டற்ற அணுகல்"
+ },
+ "d5": {
+  "en": "Anyone, anywhere",
+  "ta": "யாரும், எங்கும்"
+ },
+ "_alt": {
+  "en": "How a sequence reaches public databases: the researcher sequences DNA in the lab, submits it to GenBank, EMBL or DDBJ, receives a permanent accession number, the three INSDC databases synchronise within 24 hours, and anyone can then access it freely worldwide.",
+  "ta": "வரிசை பொதுத் தரவுத்தளங்களை அடையும் விதம்: ஆய்வாளர் DNA-வை வரிசைப்படுத்தி GenBank, EMBL அல்லது DDBJ-க்குச் சமர்ப்பிக்கிறார்; நிலையான அணுகல் எண் பெறுகிறார்; மூன்று INSDC தரவுத்தளங்களும் 24 மணி நேரத்துக்குள் ஒத்திசைகின்றன; பின் யாரும் உலகெங்கும் கட்டற்று அணுகலாம்."
+ }
+}

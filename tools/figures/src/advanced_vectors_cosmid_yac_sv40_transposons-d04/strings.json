@@ -1,0 +1,38 @@
+{
+ "t1": {
+  "en": "Transposon structure",
+  "ta": "டிரான்ஸ்போசான் அமைப்பு"
+ },
+ "d1": {
+  "en": "Left TSD, left TIR, transposase gene (plus cargo or gene of interest), right TIR, right TSD. TIR = inverted repeat; TSD = target site duplication",
+  "ta": "இடது TSD, இடது TIR, டிரான்ஸ்போசேஸ் மரபணு (சுமை / இலக்கு மரபணுவுடன்), வலது TIR, வலது TSD. TIR = தலைகீழ் திரும்பவரும் வரிசை; TSD = இலக்குத் தள இரட்டிப்பு"
+ },
+ "t2": {
+  "en": "Step 1: in the donor chromosome",
+  "ta": "படி 1: கொடையாளி நிறப்புரியில்"
+ },
+ "d2": {
+  "en": "The transposon sits in situ in the host DNA",
+  "ta": "டிரான்ஸ்போசான் ஓம்புயிரி DNA-வில் இடத்திலேயே உள்ளது"
+ },
+ "t3": {
+  "en": "Step 2: excision",
+  "ta": "படி 2: வெட்டி எடுத்தல்"
+ },
+ "d3": {
+  "en": "Transposase excises it, giving a free transposon–transposase complex",
+  "ta": "டிரான்ஸ்போசேஸ் அதை வெட்டி எடுத்து, தனித்த டிரான்ஸ்போசான்–டிரான்ஸ்போசேஸ் கூட்டமைப்பைத் தருகிறது"
+ },
+ "t4": {
+  "en": "Step 3: integration",
+  "ta": "படி 3: ஒருங்கிணைதல்"
+ },
+ "d4": {
+  "en": "It inserts at a new target site in the target DNA; TSDs flank the element",
+  "ta": "அது இலக்கு DNA-வில் புதிய இலக்குத் தளத்தில் செருகப்படுகிறது; TSD-கள் இருபுறமும் இருக்கும்"
+ },
+ "_alt": {
+  "en": "Cut-and-paste transposition. The transposon has a left TSD, left TIR, transposase gene with cargo, right TIR and right TSD. The transposase excises it from the donor chromosome and inserts it at a new target site, where target site duplications flank it.",
+  "ta": "வெட்டி ஒட்டும் இடம்பெயர்வு. டிரான்ஸ்போசானில் இடது TSD, இடது TIR, சுமையுடன் டிரான்ஸ்போசேஸ் மரபணு, வலது TIR, வலது TSD உள்ளன. டிரான்ஸ்போசேஸ் அதைக் கொடையாளி நிறப்புரியிலிருந்து வெட்டி எடுத்துப் புதிய இலக்குத் தளத்தில் செருகுகிறது; அங்கு இலக்குத் தள இரட்டிப்புகள் இருபுறமும் அமைகின்றன."
+ }
+}

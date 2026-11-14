@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 486">
+<rect width="360" height="486" fill="#ffffff"/>
+<defs><marker id="ah" markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L5,2.5 L0,5 z" fill="#0b6f85"/></marker></defs>
+<g transform="translate(0,56)">
+<text data-k="h1" data-w="330" x="180" y="16" text-anchor="middle" class="h" font-weight="700" fill="#0b6f85"/>
+<rect x="14" y="30" width="332" height="74" rx="9" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2.5"/>
+<text data-k="c1" data-w="314" x="180" y="54" text-anchor="middle" class="b" font-weight="700" fill="#2e7d32"/>
+<text data-k="e1" data-w="314" x="180" y="73" text-anchor="middle" class="s" fill="#37474f"/>
+<rect x="14" y="110" width="332" height="91" rx="9" fill="#e0f2f1" stroke="#00796b" stroke-width="2.5"/>
+<text data-k="c2" data-w="314" x="180" y="134" text-anchor="middle" class="b" font-weight="700" fill="#00796b"/>
+<text data-k="e2" data-w="314" x="180" y="153" text-anchor="middle" class="s" fill="#37474f"/>
+<rect x="14" y="207" width="332" height="91" rx="9" fill="#e3f2fd" stroke="#1565c0" stroke-width="2.5"/>
+<text data-k="c3" data-w="314" x="180" y="231" text-anchor="middle" class="b" font-weight="700" fill="#1565c0"/>
+<text data-k="e3" data-w="314" x="180" y="250" text-anchor="middle" class="s" fill="#37474f"/>
+<rect x="14" y="304" width="332" height="74" rx="9" fill="#ede7f6" stroke="#5e35b1" stroke-width="2.5"/>
+<text data-k="c4" data-w="314" x="180" y="328" text-anchor="middle" class="b" font-weight="700" fill="#5e35b1"/>
+<text data-k="e4" data-w="314" x="180" y="347" text-anchor="middle" class="s" fill="#37474f"/>
+</g>
+</svg>
+

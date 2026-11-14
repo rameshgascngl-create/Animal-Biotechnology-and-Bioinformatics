@@ -1,0 +1,66 @@
+{
+ "h1": {
+  "en": "Healthy cells need all of these",
+  "ta": "ஆரோக்கியமான செல்களுக்கு இவை அனைத்தும் தேவை"
+ },
+ "c1": {
+  "en": "Culture vessel",
+  "ta": "வளர்ப்புக் கலன்"
+ },
+ "e1": {
+  "en": "Flask, dish or roller bottle",
+  "ta": "குடுவை, தட்டு அல்லது உருளைக் குடுவை"
+ },
+ "c2": {
+  "en": "Medium",
+  "ta": "ஊடகம்"
+ },
+ "e2": {
+  "en": "Nutrients, glucose, amino acids, vitamins, salts",
+  "ta": "ஊட்டச்சத்துகள், குளுக்கோஸ், அமினோ அமிலங்கள், உயிர்ச்சத்துகள், உப்புகள்"
+ },
+ "c3": {
+  "en": "Serum (5–10% FBS)",
+  "ta": "சீரம் (5–10% FBS)"
+ },
+ "e3": {
+  "en": "Growth factors, attachment factors",
+  "ta": "வளர்ச்சிக் காரணிகள், இணைப்புக் காரணிகள்"
+ },
+ "c4": {
+  "en": "Gas phase",
+  "ta": "வாயுநிலை"
+ },
+ "e4": {
+  "en": "5% CO₂ + air",
+  "ta": "5% CO₂ + காற்று"
+ },
+ "c5": {
+  "en": "37 °C incubator",
+  "ta": "37 °C அடைகாப்பான்"
+ },
+ "e5": {
+  "en": "Humidified",
+  "ta": "ஈரப்பதமூட்டப்பட்டது"
+ },
+ "c6": {
+  "en": "pH 7.2–7.4",
+  "ta": "pH 7.2–7.4"
+ },
+ "e6": {
+  "en": "Bicarbonate buffer, phenol red",
+  "ta": "பைகார்பனேட் தாங்கல் கரைசல், பீனால் சிவப்பு"
+ },
+ "c7": {
+  "en": "Sterile technique",
+  "ta": "நுண்ணுயிரற்ற நுட்பம்"
+ },
+ "e7": {
+  "en": "Laminar-flow cabinet, antibiotics",
+  "ta": "தூய காற்றோட்ட அலமாரி, நுண்ணுயிர் எதிர்ப்பிகள்"
+ },
+ "_alt": {
+  "en": "Requirements for healthy cultured cells: culture vessel, medium, serum, gas phase of 5% CO2 in air, a humidified 37 °C incubator, pH 7.2–7.4 and sterile technique.",
+  "ta": "வளர்க்கப்படும் ஆரோக்கியமான செல்களுக்குத் தேவையானவை: வளர்ப்புக் கலன், ஊடகம், சீரம், காற்றில் 5% CO₂ வாயுநிலை, ஈரப்பதமூட்டப்பட்ட 37 °C அடைகாப்பான், pH 7.2–7.4, நுண்ணுயிரற்ற நுட்பம்."
+ }
+}

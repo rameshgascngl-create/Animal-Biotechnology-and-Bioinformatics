@@ -1,0 +1,70 @@
+{
+ "h1": {
+  "en": "Phage particle",
+  "ta": "பேஜ் துகள்"
+ },
+ "c1": {
+  "en": "Icosahedral head",
+  "ta": "இருபது முகத் தலை"
+ },
+ "e1": {
+  "en": "Contains the linear dsDNA",
+  "ta": "நேர்கோட்டு dsDNA-வைக் கொண்டுள்ளது"
+ },
+ "c2": {
+  "en": "Neck / connector",
+  "ta": "கழுத்து / இணைப்பி"
+ },
+ "c3": {
+  "en": "Tail tube",
+  "ta": "வால் குழாய்"
+ },
+ "e3": {
+  "en": "Protein sheath",
+  "ta": "புரத உறை"
+ },
+ "c4": {
+  "en": "Baseplate",
+  "ta": "அடித்தகடு"
+ },
+ "c5": {
+  "en": "Tail fibres",
+  "ta": "வால் இழைகள்"
+ },
+ "e5": {
+  "en": "Host recognition",
+  "ta": "ஓம்புயிரி அறிதல்"
+ },
+ "h2": {
+  "en": "Linear genome map (48.5 kb)",
+  "ta": "நேர்கோட்டு மரபணுத்தொகை வரைபடம் (48.5 kb)"
+ },
+ "c6": {
+  "en": "cos sites at both ends",
+  "ta": "இரு முனைகளிலும் cos தளங்கள்"
+ },
+ "e6": {
+  "en": "12-nt sticky ends",
+  "ta": "12-nt ஒட்டும் முனைகள்"
+ },
+ "c7": {
+  "en": "Head and tail genes (0–22 kb)",
+  "ta": "தலை, வால் மரபணுக்கள் (0–22 kb)"
+ },
+ "c8": {
+  "en": "Non-essential “stuffer” (22–38 kb)",
+  "ta": "இன்றியமையாதது அல்ல “நிரப்பி” (22–38 kb)"
+ },
+ "e8": {
+  "en": "Replaceable: foreign DNA is inserted here",
+  "ta": "மாற்றத்தக்கது: அயல் DNA இங்கு செருகப்படுகிறது"
+ },
+ "c9": {
+  "en": "Lysogeny and regulatory genes (38–48.5 kb)",
+  "ta": "லைசோஜெனி, ஒழுங்குபடுத்தும் மரபணுக்கள் (38–48.5 kb)"
+ },
+ "_alt": {
+  "en": "Lambda phage as a vector. The particle has an icosahedral head holding linear dsDNA, a neck, a tail tube, a baseplate and tail fibres. The 48.5 kb genome has cos sites at both ends, head and tail genes at 0–22 kb, a replaceable non-essential stuffer at 22–38 kb where foreign DNA is inserted, and lysogeny and regulatory genes at 38–48.5 kb.",
+  "ta": "லாம்டா பேஜ் ஒரு ⟦vec⟧யாக. துகளில் நேர்கோட்டு dsDNA-வைக் கொண்ட இருபது முகத் தலை, கழுத்து, வால் குழாய், அடித்தகடு, வால் இழைகள் உள்ளன. 48.5 kb மரபணுத்தொகையில் இரு முனைகளிலும் cos தளங்கள், 0–22 kb-இல் தலை, வால் மரபணுக்கள், 22–38 kb-இல் மாற்றத்தக்க இன்றியமையாதது அல்ல நிரப்பி (அயல் DNA செருகப்படும் இடம்), 38–48.5 kb-இல் லைசோஜெனி, ஒழுங்குபடுத்தும் மரபணுக்கள் உள்ளன."
+ }
+}

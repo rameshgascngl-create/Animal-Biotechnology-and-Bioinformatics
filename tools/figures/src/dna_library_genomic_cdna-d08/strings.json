@@ -1,0 +1,30 @@
+{
+ "t1": {
+  "en": "First-strand cDNA (template)",
+  "ta": "முதல்-இழை cDNA (வார்ப்புரு)"
+ },
+ "d1": {
+  "en": "Read 3′ to 5′",
+  "ta": "3′ முதல் 5′ வரை வாசிக்கப்படுகிறது"
+ },
+ "t2": {
+  "en": "Second strand",
+  "ta": "இரண்டாம் இழை"
+ },
+ "d2": {
+  "en": "Synthesised by DNA polymerase I in the 5′ to 3′ direction",
+  "ta": "DNA பாலிமெரேஸ் I-ஆல் 5′→3′ திசையில் உருவாக்கப்படுகிறது"
+ },
+ "t3": {
+  "en": "Result: ds-cDNA",
+  "ta": "விளைவு: ds-cDNA"
+ },
+ "d3": {
+  "en": "Double-stranded cDNA with no introns",
+  "ta": "இன்ட்ரான்கள் இல்லாத இரட்டை இழை cDNA"
+ },
+ "_alt": {
+  "en": "Second-strand synthesis: DNA polymerase I copies the first-strand cDNA template in the 5′ to 3′ direction, giving intron-free double-stranded cDNA (ds-cDNA).",
+  "ta": "இரண்டாம் இழை தொகுப்பு: DNA பாலிமெரேஸ் I முதல்-இழை cDNA வார்ப்புருவை 5′→3′ திசையில் படியெடுத்து இன்ட்ரான் இல்லாத இரட்டை இழை cDNA-வை (ds-cDNA) உருவாக்குகிறது."
+ }
+}

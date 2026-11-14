@@ -1,0 +1,38 @@
+{
+ "t1": {
+  "en": "Isolate genomic DNA",
+  "ta": "மரபணுத்தொகை DNA-வைப் பிரித்தெடுத்தல்"
+ },
+ "d1": {
+  "en": "Total genomic DNA is cut with a restriction enzyme (partial digestion)",
+  "ta": "மொத்த மரபணுத்தொகை DNA ரெஸ்ட்ரிக்ஷன் நொதியால் (பகுதிச் செரிப்பு) வெட்டப்படுகிறது"
+ },
+ "t2": {
+  "en": "DNA fragmentation",
+  "ta": "DNA துண்டாக்கல்"
+ },
+ "d2": {
+  "en": "Random fragments of 15–45 kb result",
+  "ta": "15–45 kb அளவில் தற்செயல் துண்டுகள் கிடைக்கின்றன"
+ },
+ "t3": {
+  "en": "Insert into vector",
+  "ta": "செருகுதல்"
+ },
+ "d3": {
+  "en": "DNA ligase joins each fragment to a linearised vector; thousands of clones result",
+  "ta": "DNA லைகேஸ் ஒவ்வொரு துண்டையும் நேர்கோட்டாக்கிய ⟦vec⟧-உடன் இணைக்கிறது; ஆயிரக்கணக்கான குளோன்கள் கிடைக்கின்றன"
+ },
+ "t4": {
+  "en": "Transformation and storage",
+  "ta": "உருமாற்றமும் சேமிப்பும்"
+ },
+ "d4": {
+  "en": "Transform E. coli: each colony is one cloned genomic DNA fragment, and together they form the genomic library",
+  "ta": "E. coli-யை உருமாற்றுதல்: ஒவ்வொரு காலனியும் ஒரு குளோனாக்கிய மரபணுத்தொகை DNA துண்டு; அனைத்தும் சேர்ந்து மரபணுத்தொகை நூலகம்"
+ },
+ "_alt": {
+  "en": "Genomic library construction: isolate genomic DNA and partially digest it with a restriction enzyme into random fragments of 15–45 kb; ligate the fragments into vectors to make thousands of clones; transform E. coli so that each colony carries one fragment, and together the colonies form the genomic library.",
+  "ta": "மரபணுத்தொகை நூலகம் உருவாக்கல்: மரபணுத்தொகை DNA-வைப் பிரித்து ரெஸ்ட்ரிக்ஷன் நொதியால் பகுதியாகச் செரித்து 15–45 kb தற்செயல் துண்டுகளாக்குதல்; துண்டுகளைத் ⟦vec⟧களில் இணைத்து ஆயிரக்கணக்கான குளோன்களை உருவாக்குதல்; E. coli-யை உருமாற்றி ஒவ்வொரு காலனியும் ஒரு துண்டைக் கொண்டிருக்கச் செய்தல்; காலனிகள் அனைத்தும் சேர்ந்து மரபணுத்தொகை நூலகமாகும்."
+ }
+}

@@ -5,7 +5,8 @@
   "small_text": [],
   "min_sp": 11.25,
   "texts": 15,
-  "inline_height_dp": 422.5
+  "inline_height_dp": 346.7,
+  "raqm_vs_browser_max_dev": 0.0006
  },
  "ta": {
   "layout_issues": [],
@@ -13,6 +14,7 @@
   "small_text": [],
   "min_sp": 11.25,
   "texts": 15,
-  "inline_height_dp": 422.5
+  "inline_height_dp": 346.7,
+  "raqm_vs_browser_max_dev": 0.0005
  }
 }

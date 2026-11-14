@@ -4,35 +4,10 @@ import json, math, os
 from svgkit import T, svg, arrow
 DARK, TEAL = '#0b2a40', '#0e8fb0'
 OFF = 56
-from PIL import ImageFont
-_ROOT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..'))
-_F = {}
-def _font(kind, bold, px):
-    k = (kind, bold, px)
-    if k not in _F:
-        if kind == 'en': p = '/usr/share/fonts/opentype/inter/Inter-%s.otf' % ('Bold' if bold else 'Regular')
-        else: p = os.path.join(_ROOT, 'app/src/main/res/font/notosanstamil_%s.ttf' % ('bold' if bold else 'regular'))
-        _F[k] = ImageFont.truetype(p, px * 4, layout_engine=ImageFont.Layout.RAQM)
-    return _F[k]
-def _w(txt, bold, px):
-    """Measured width in canvas units, shaped (Raqm): runs of Tamil script with Noto Sans Tamil, other runs with Inter, as the renderer falls back."""
-    import re
-    tot = 0.0
-    for run in re.findall(r'[\u0b80-\u0bff\u200c\u200d]+|[^\u0b80-\u0bff\u200c\u200d]+', txt):
-        kind = 'ta' if '\u0b80' <= run[0] <= '\u0bff' else 'en'
-        tot += _font(kind, bold, px).getlength(run) / 4
-    return tot * 1.02
-def wrap_lines(txt, width, bold, px):
-    """Number of lines the renderer will produce for txt at this width (greedy word wrap, as build_figure does)."""
-    cur = ''; n = 1
-    for w in txt.split(' '):
-        nxt = (cur + ' ' + w) if cur else w
-        if cur and _w(nxt, bold, px) > width: n += 1; cur = w
-        else: cur = nxt
-    return n
+from shaping import wrap_lines, load_strings
 def _lines(s, cpl): return max(1, math.ceil(len(s) / cpl))
 def steplist(figdir, rows, accents=None):
-    S = json.load(open(os.path.join(figdir, 'strings.json')))
+    S = load_strings(figdir)  # terms expanded, so Tamil is measured as it will be drawn
     def n(k, width, bold, px): return 0 if k is None else max(wrap_lines(S[k]['en'], width, bold, px), wrap_lines(S[k]['ta'], width, bold, px))
     B = [f'<g transform="translate(0,{OFF})">']; ys = []; y = 0; spec = []
     for tk, dk in rows:
@@ -52,7 +27,7 @@ def steplist(figdir, rows, accents=None):
 def cardlist(figdir, panels, footer=()):
     """Stacked panels of cards. panels = [(heading_key, accent, [(title_key, detail_key|None, fill, edge), ...]), ...]; footer = [(key, cls, colour, bold), ...].
     Heights follow the longer of EN/TA (conservative chars-per-line); one SVG serves both languages."""
-    S = json.load(open(os.path.join(figdir, 'strings.json')))
+    S = load_strings(figdir)  # terms expanded, so Tamil is measured as it will be drawn
     def n(k, width, bold, px): return 0 if k is None else max(wrap_lines(S[k]['en'], width, bold, px), wrap_lines(S[k]['ta'], width, bold, px))
     B = [f'<g transform="translate(0,{OFF})">']; y = 0
     for hk, accent, rows in panels:

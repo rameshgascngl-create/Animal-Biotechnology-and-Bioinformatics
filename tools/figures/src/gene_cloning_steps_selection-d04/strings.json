@@ -1,0 +1,34 @@
+{
+ "t1": {
+  "en": "Insert disrupts lacZ in the MCS",
+  "ta": "செருகி MCS-இல் lacZ-ஐச் சீர்குலைக்கிறது"
+ },
+ "t2": {
+  "en": "IPTG added: no effect",
+  "ta": "IPTG சேர்க்கப்பட்டது: விளைவு இல்லை"
+ },
+ "d2": {
+  "en": "β-galactosidase is non-functional",
+  "ta": "β-கேலக்டோசிடேஸ் செயலற்றது"
+ },
+ "t3": {
+  "en": "X-gal is not cleaved",
+  "ta": "X-gal பிளக்கப்படவில்லை"
+ },
+ "d3": {
+  "en": "It stays colourless, with no blue compound",
+  "ta": "அது நிறமற்றதாகவே இருக்கிறது; நீலச் சேர்மம் இல்லை"
+ },
+ "t4": {
+  "en": "WHITE colony",
+  "ta": "வெள்ளைக் காலனி"
+ },
+ "d4": {
+  "en": "Recombinant: lacZ disrupted, insert present",
+  "ta": "மறுசேர்க்கை: lacZ சீர்குலைந்தது, செருகி உள்ளது"
+ },
+ "_alt": {
+  "en": "Recombinant outcome: the insert disrupts lacZ in the MCS, so β-galactosidase is non-functional even with IPTG, X-gal is not cleaved and stays colourless, and the colony is white.",
+  "ta": "மறுசேர்க்கை விளைவு: செருகி MCS-இல் lacZ-ஐச் சீர்குலைப்பதால் IPTG இருந்தாலும் β-கேலக்டோசிடேஸ் செயலற்றது, X-gal பிளக்கப்படாமல் நிறமற்றதாக இருக்கிறது, காலனி வெள்ளையாகிறது."
+ }
+}

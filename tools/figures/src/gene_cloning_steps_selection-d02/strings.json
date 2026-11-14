@@ -1,0 +1,34 @@
+{
+ "h1": {
+  "en": "pUC19 vector: ori, amp(r) and lacZ, with the MCS inside lacZ",
+  "ta": "pUC19 ⟦vec⟧: ori, amp(r), lacZ; MCS lacZ-க்குள் உள்ளது"
+ },
+ "c1": {
+  "en": "No insert",
+  "ta": "செருகி இல்லை"
+ },
+ "e1": {
+  "en": "lacZ intact, β-galactosidase active: BLUE colony",
+  "ta": "lacZ சேதமின்றி, β-கேலக்டோசிடேஸ் செயல்படுகிறது: நீல நிறக் காலனி"
+ },
+ "c2": {
+  "en": "Insert present",
+  "ta": "செருகி உள்ளது"
+ },
+ "e2": {
+  "en": "lacZ disrupted, β-galactosidase inactive: WHITE colony",
+  "ta": "lacZ சீர்குலைந்தது, β-கேலக்டோசிடேஸ் செயலற்றது: வெள்ளைக் காலனி"
+ },
+ "c3": {
+  "en": "Selective medium",
+  "ta": "தெரிவு ஊடகம்"
+ },
+ "e3": {
+  "en": "Ampicillin (selects transformants) + X-gal + IPTG",
+  "ta": "ஆம்பிசிலின் (உருமாறியவற்றைத் தெரிவு செய்கிறது) + X-gal + IPTG"
+ },
+ "_alt": {
+  "en": "pUC19 carries ori, ampicillin resistance and lacZ with the multiple cloning site inside it. With no insert lacZ is intact and the colony is blue; with an insert lacZ is disrupted and the colony is white. The selective medium contains ampicillin, X-gal and IPTG.",
+  "ta": "pUC19-இல் ori, ஆம்பிசிலின் எதிர்ப்பு, MCS உள்ளே அமைந்த lacZ உள்ளன. செருகி இல்லாவிட்டால் lacZ சேதமின்றி நீல நிறக் காலனி; செருகி இருந்தால் lacZ சீர்குலைந்து வெள்ளைக் காலனி. தெரிவு ஊடகத்தில் ஆம்பிசிலின், X-gal, IPTG உள்ளன."
+ }
+}

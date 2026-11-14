@@ -1,0 +1,38 @@
+{
+ "t1": {
+  "en": "Vector re-ligates with no insert",
+  "ta": "செருகி இல்லாமல் மீண்டும் இணைதல்"
+ },
+ "d1": {
+  "en": "lacZ stays intact",
+  "ta": "lacZ சேதமின்றி இருக்கிறது"
+ },
+ "t2": {
+  "en": "IPTG induces β-galactosidase",
+  "ta": "IPTG β-கேலக்டோசிடேஸைத் தூண்டுகிறது"
+ },
+ "d2": {
+  "en": "A functional enzyme is made",
+  "ta": "செயல்படும் நொதி உருவாகிறது"
+ },
+ "t3": {
+  "en": "It cleaves X-gal",
+  "ta": "அது X-gal-ஐப் பிளக்கிறது"
+ },
+ "d3": {
+  "en": "The product is 5-bromo-4-chloro-indigo, a blue compound",
+  "ta": "விளைபொருள் நீலச் சேர்மமான 5-புரோமோ-4-குளோரோ-இண்டிகோ"
+ },
+ "t4": {
+  "en": "BLUE colony",
+  "ta": "நீல நிறக் காலனி"
+ },
+ "d4": {
+  "en": "Non-recombinant: lacZ intact, no insert",
+  "ta": "மறுசேர்க்கை அல்லாதது: lacZ சேதமின்றி, செருகி இல்லை"
+ },
+ "_alt": {
+  "en": "Non-recombinant outcome: the vector re-ligates with no insert, lacZ stays intact, IPTG induces a functional β-galactosidase that cleaves X-gal to a blue compound, and the colony is blue.",
+  "ta": "மறுசேர்க்கை அல்லாத விளைவு: செருகி இல்லாமல் ⟦vec⟧ மீண்டும் இணைகிறது, lacZ சேதமின்றி இருக்கிறது, IPTG தூண்டும் செயல்படும் β-கேலக்டோசிடேஸ் X-gal-ஐ நீலச் சேர்மமாகப் பிளக்கிறது, காலனி நீலமாகிறது."
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "h1": {
+  "en": "Cloning capacity of vectors",
+  "ta": "⟦vec⟧களின் கொள்ளளவு"
+ },
+ "c1": {
+  "en": "Plasmid",
+  "ta": "பிளாஸ்மிட்"
+ },
+ "e1": {
+  "en": "Up to 10 kb",
+  "ta": "10 kb வரை"
+ },
+ "c2": {
+  "en": "Lambda phage",
+  "ta": "லாம்டா பேஜ்"
+ },
+ "e2": {
+  "en": "Up to 23 kb",
+  "ta": "23 kb வரை"
+ },
+ "c3": {
+  "en": "Cosmid",
+  "ta": "காஸ்மிட்"
+ },
+ "e3": {
+  "en": "35–45 kb",
+  "ta": "35–45 kb"
+ },
+ "c4": {
+  "en": "YAC",
+  "ta": "YAC"
+ },
+ "e4": {
+  "en": "200–2000 kb",
+  "ta": "200–2000 kb"
+ },
+ "f": {
+  "en": "Capacity grows from plasmid to YAC",
+  "ta": "கொள்ளளவு பிளாஸ்மிட்டிலிருந்து YAC வரை அதிகரிக்கிறது"
+ },
+ "_alt": {
+  "en": "Cloning capacity increases from plasmid (up to 10 kb) to lambda phage (up to 23 kb), cosmid (35–45 kb) and YAC (200–2000 kb).",
+  "ta": "குளோனாக்கக் கொள்ளளவு பிளாஸ்மிட் (10 kb வரை), லாம்டா பேஜ் (23 kb வரை), காஸ்மிட் (35–45 kb), YAC (200–2000 kb) என அதிகரிக்கிறது."
+ }
+}

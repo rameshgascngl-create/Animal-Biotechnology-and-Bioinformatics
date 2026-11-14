@@ -26,7 +26,21 @@ jobs:
         run: |
           for pair in I:1 II:2 III:3 IV:4 V:5; do python3 tools/extract/extract.py --unit ${pair%%:*} --out app/src/main/assets/content/u${pair##*:} --report /tmp/r.md --diagrams /tmp/d.json; done
           git diff --exit-code -- app/src/main/assets/content
-      - name: Unit tests
+      - name: Tier 1 setup (fonts and Python tools for the figure gate)
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq fonts-inter libraqm0 libfribidi0
+          pip install -r tools/diagrams/requirements.txt
+          python3 -c "from PIL import features; assert features.check('raqm'), 'Pillow has no Raqm: shaped-text measurement unavailable'; print('raqm ok')"
+          test -f /usr/share/fonts/opentype/inter/Inter-Regular.otf
+      - name: Tier 1 - figure geometry gate on every figure source (shaped text, EN and TA; regenerated SVG must equal the committed one)
+        run: python3 tools/figures/gate_all.py --out /tmp/gate
+      - name: Tier 1 - asset checks (sides <= 4096 px, decoded size, string tables complete, vector-term guard)
+        run: python3 tools/ci/tier1_assets.py
+      - name: Tier 1 - language scan (no Latin words added to Tamil strings, no Tamil in English)
+        run: python3 tools/ci/language_scan.py
+      - name: Tier 1 - interaction-word guard (no click/hover/mouse/panel wording in reader text)
+        run: python3 tools/ci/guard_interaction_words.py
+      - name: Unit tests (includes the JVM decode/scale tests and the 4096 px texture-limit test over every shipped figure)
         run: gradle :app:testDebugUnitTest --stacktrace
       - name: Build debug APK
         run: gradle :app:assembleDebug --stacktrace
@@ -82,3 +96,9 @@ jobs:
             app/build/outputs/apk/release/*.apk
             app/build/outputs/bundle/release/*.aab
           if-no-files-found: ignore
+      - name: Run summary (tiers)
+        if: always()
+        run: |
+          { echo "## Tiers"; echo "- Tier 1 (this workflow, every push, no emulator): figure geometry gate, asset checks, language scan, interaction guard, extractor, unit tests incl. JVM decode/scale, APK build. Status: job conclusion above."
+            echo "- Tier 2 (per batch, emulator, NEW figures only): runs in the 'Tier 2' workflow; it reports 'skipped' there when no redrawn figure changed."
+            echo "- Tier 3 (full emulator suite): NOT run by this push. Runs nightly and before every RC (workflow 'Tier 3')."; } >> "$GITHUB_STEP_SUMMARY"

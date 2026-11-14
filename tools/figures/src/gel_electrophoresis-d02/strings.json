@@ -1,0 +1,42 @@
+{
+ "h1": {
+  "en": "Estimating fragment size",
+  "ta": "துண்டின் அளவை மதிப்பிடுதல்"
+ },
+ "c1": {
+  "en": "DNA ladder (known sizes)",
+  "ta": "DNA ஏணி (தெரிந்த அளவுகள்)"
+ },
+ "e1": {
+  "en": "10,000, 5,000, 3,000, 2,000, 1,500, 1,000, 700, 500, 300 and 100 bp",
+  "ta": "10,000, 5,000, 3,000, 2,000, 1,500, 1,000, 700, 500, 300, 100 bp"
+ },
+ "c2": {
+  "en": "Migration direction",
+  "ta": "இடப்பெயர்வுத் திசை"
+ },
+ "e2": {
+  "en": "DNA runs from the cathode (−, wells) toward the anode (+)",
+  "ta": "DNA எதிர்மின்முனையிலிருந்து (−, கிணறுகள்) நேர்மின்முனை (+) நோக்கி நகர்கிறது"
+ },
+ "c3": {
+  "en": "Standard curve",
+  "ta": "செந்தர வளைவு"
+ },
+ "e3": {
+  "en": "log(size in bp) against migration distance from the well gives a straight line",
+  "ta": "கிணற்றிலிருந்து இடப்பெயர்வுத் தொலைவுக்கு எதிராக log(bp அளவு) நேர்கோட்டைத் தருகிறது"
+ },
+ "c4": {
+  "en": "Sample X (estimated sizes)",
+  "ta": "மாதிரி X (மதிப்பிட்ட அளவுகள்)"
+ },
+ "e4": {
+  "en": "Read off the curve: about 2,800 bp, 1,100 bp and 380 bp",
+  "ta": "வளைவிலிருந்து வாசிக்கப்பட்டவை: ஏறத்தாழ 2,800 bp, 1,100 bp, 380 bp"
+ },
+ "_alt": {
+  "en": "Estimating DNA fragment size on a gel: a ladder of known sizes from 10,000 to 100 bp runs from the cathode toward the anode; log of fragment size plotted against migration distance gives a straight standard curve, from which the bands of sample X are read as about 2,800, 1,100 and 380 bp.",
+  "ta": "ஜெல்லில் DNA துண்டின் அளவை மதிப்பிடுதல்: 10,000 முதல் 100 bp வரை தெரிந்த அளவுகளைக் கொண்ட ஏணி எதிர்மின்முனையிலிருந்து நேர்மின்முனை நோக்கி நகர்கிறது; இடப்பெயர்வுத் தொலைவுக்கு எதிராகத் துண்டு அளவின் log நேர்கோட்டு செந்தர வளைவைத் தருகிறது; அதிலிருந்து மாதிரி X பட்டைகள் ஏறத்தாழ 2,800, 1,100, 380 bp எனப் படிக்கப்படுகின்றன."
+ }
+}

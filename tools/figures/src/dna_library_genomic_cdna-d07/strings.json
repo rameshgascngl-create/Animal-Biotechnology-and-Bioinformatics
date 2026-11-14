@@ -1,0 +1,22 @@
+{
+ "t1": {
+  "en": "RNase H degrades the mRNA",
+  "ta": "RNase H mRNA-வைச் சிதைக்கிறது"
+ },
+ "d1": {
+  "en": "The mRNA strand is being removed from the hybrid",
+  "ta": "கலப்பு இழையிலிருந்து mRNA இழை நீக்கப்படுகிறது"
+ },
+ "t2": {
+  "en": "Single-stranded cDNA (ss-cDNA)",
+  "ta": "ஒற்றை இழை cDNA (ss-cDNA)"
+ },
+ "d2": {
+  "en": "The template for second-strand synthesis; intron-free, only exon sequences remain",
+  "ta": "இரண்டாம் இழை தொகுப்புக்கான வார்ப்புரு; இன்ட்ரான் இல்லை, எக்சான் வரிசைகள் மட்டும் உள்ளன"
+ },
+ "_alt": {
+  "en": "RNase H degrades the mRNA of the mRNA–cDNA hybrid, leaving single-stranded cDNA that serves as the template for second-strand synthesis; it is intron-free.",
+  "ta": "RNase H, mRNA–cDNA கலப்பிலுள்ள mRNA-வைச் சிதைத்து, இரண்டாம் இழை தொகுப்புக்கு வார்ப்புருவாகும் ஒற்றை இழை cDNA-வை விட்டுச்செல்கிறது; அதில் இன்ட்ரான் இல்லை."
+ }
+}

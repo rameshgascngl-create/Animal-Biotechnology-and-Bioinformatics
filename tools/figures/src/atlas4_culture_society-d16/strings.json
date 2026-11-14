@@ -1,0 +1,50 @@
+{
+ "t1": {
+  "en": "Idea / lead product",
+  "ta": "யோசனை / முன்னணித் தயாரிப்பு"
+ },
+ "d1": {
+  "en": "Worked on in the laboratory",
+  "ta": "ஆய்வகத்தில் மேற்கொள்ளப்படுகிறது"
+ },
+ "t2": {
+  "en": "Institutional Biosafety Committee (IBSC)",
+  "ta": "நிறுவன உயிர்ப் பாதுகாப்புக் குழு (IBSC)"
+ },
+ "t3": {
+  "en": "Review Committee on Genetic Manipulation (RCGM, DBT)",
+  "ta": "மரபணுக் கையாளுதல் மறுஆய்வுக் குழு (RCGM, DBT)"
+ },
+ "t4": {
+  "en": "Genetic Engineering Appraisal Committee (GEAC, MoEF&CC)",
+  "ta": "மரபணுப் பொறியியல் மதிப்பீட்டுக் குழு (GEAC, MoEF&CC)"
+ },
+ "d4": {
+  "en": "For environmental release",
+  "ta": "சுற்றுச்சூழலுக்கு வெளியீடு"
+ },
+ "t5": {
+  "en": "Animal experiments",
+  "ta": "விலங்குச் சோதனைகள்"
+ },
+ "d5": {
+  "en": "CPCSEA, IAEC",
+  "ta": "CPCSEA, IAEC"
+ },
+ "t6": {
+  "en": "Clinical trials",
+  "ta": "மருத்துவச் சோதனைகள்"
+ },
+ "d6": {
+  "en": "CDSCO, Ethics Committee, CTRI",
+  "ta": "CDSCO, நெறிமுறைக் குழு, CTRI"
+ },
+ "t7": {
+  "en": "Approval and post-marketing surveillance",
+  "ta": "ஒப்புதல் மற்றும் சந்தைக்குப் பிந்தைய கண்காணிப்பு"
+ },
+ "_alt": {
+  "en": "Regulatory path for a biotechnology product in India: idea in the laboratory, Institutional Biosafety Committee, RCGM (DBT), GEAC (MoEF&CC) for environmental release, animal experiments (CPCSEA, IAEC), clinical trials (CDSCO, Ethics Committee, CTRI), then approval and post-marketing surveillance.",
+  "ta": "இந்தியாவில் உயிரித்தொழில்நுட்பத் தயாரிப்புக்கான ஒழுங்குமுறைப் பாதை: ஆய்வகத்தில் யோசனை, நிறுவன உயிர்ப் பாதுகாப்புக் குழு, RCGM (DBT), சுற்றுச்சூழல் வெளியீட்டுக்கு GEAC (MoEF&CC), விலங்குச் சோதனைகள் (CPCSEA, IAEC), மருத்துவச் சோதனைகள் (CDSCO, நெறிமுறைக் குழு, CTRI), பின் ஒப்புதலும் சந்தைக்குப் பிந்தைய கண்காணிப்பும்."
+ }
+}

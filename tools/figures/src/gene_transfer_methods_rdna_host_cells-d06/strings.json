@@ -1,0 +1,38 @@
+{
+ "t1": {
+  "en": "Lipoplex formation",
+  "ta": "லிப்போபிளெக்ஸ் உருவாக்கம்"
+ },
+ "d1": {
+  "en": "Cationic lipid and DNA form a lipoplex",
+  "ta": "நேர்மின் லிப்பிடும் DNA-வும் லிப்போபிளெக்ஸை உருவாக்குகின்றன"
+ },
+ "t2": {
+  "en": "Binding to the cell surface",
+  "ta": "செல் மேற்பரப்புடன் இணைதல்"
+ },
+ "d2": {
+  "en": "The lipoplex attaches to the cell",
+  "ta": "லிப்போபிளெக்ஸ் செல்லுடன் இணைகிறது"
+ },
+ "t3": {
+  "en": "Membrane fusion and DNA release",
+  "ta": "சவ்வு இணைவும் DNA விடுவிப்பும்"
+ },
+ "d3": {
+  "en": "Fusion, or endosome escape, releases the DNA",
+  "ta": "இணைவு அல்லது எண்டோசோம் தப்புதல் DNA-வை விடுவிக்கிறது"
+ },
+ "t4": {
+  "en": "DNA reaches the nucleus",
+  "ta": "DNA உட்கருவை அடைகிறது"
+ },
+ "d4": {
+  "en": "The gene is expressed as protein",
+  "ta": "மரபணு புரதமாக வெளிப்படுகிறது"
+ },
+ "_alt": {
+  "en": "Lipofection in four steps: cationic lipid and DNA form a lipoplex; it binds the cell surface; membrane fusion or endosome escape releases the DNA; the DNA reaches the nucleus and the gene is expressed as protein.",
+  "ta": "லிப்போஃபெக்ஷனின் நான்கு படிகள்: நேர்மின் லிப்பிடும் DNA-வும் லிப்போபிளெக்ஸை உருவாக்குகின்றன; அது செல் மேற்பரப்புடன் இணைகிறது; சவ்வு இணைவு அல்லது எண்டோசோம் தப்புதலால் DNA விடுவிக்கப்படுகிறது; DNA உட்கருவை அடைந்து மரபணு புரதமாக வெளிப்படுகிறது."
+ }
+}

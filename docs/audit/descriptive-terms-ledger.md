@@ -28,5 +28,6 @@ Rule (R. Ramesh, 2026-11-12): use the term from the chapter that covers the tech
 | extension (PCR step) | நீட்சி (book gives only the long phrase முதன்மை இணைப்பு இழை நீட்சி) | pcr-d01 |
 | capillary-transfer stack | நுண்புழை ஈர்ப்பு அடுக்கு (descriptive, not State Board) | blotting-d01 |
 | own explanatory sentences | written by me; not from a textbook | all |
+| Southern (blot) in a Tamil alt text | சதர்ன் முறை (transliterated eponym + "முறை"), no State Board term found; the Latin word "blot" removed | descriptive, not State Board |
 
 Not yet changed: lesson-body text still says "பிரைமர்" / "இயல்புதிரிதல்" in places; the figure change does not touch body text.

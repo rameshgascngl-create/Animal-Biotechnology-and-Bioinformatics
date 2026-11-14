@@ -1,23 +1,24 @@
-name: Native reader emulator QA
+name: Tier 3 - full emulator suite (nightly, before every RC)
+# Tier 1 (every push, no emulator): Build APK workflow.   Tier 2 (per batch, new figures only): Tier 2 workflow.   Tier 3 (this file): everything on an emulator.
 on:
-  push:
-    branches: [feat/native-bilingual-reader, fix/reader-markdown-tables-title, feat/book-ui, feat/book-reader, feat/figures-inline, pilot/screening-d02, phase2/batch1]
+  schedule:
+    - cron: '30 20 * * *'   # 02:00 IST
   workflow_dispatch:
+  workflow_call:
 permissions:
   contents: write
 jobs:
-  phone:
+  full:
     runs-on: ubuntu-latest
     timeout-minutes: 75
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
       - uses: actions/setup-java@v4
-        with:
-          distribution: temurin
-          java-version: 17
+        with: { distribution: temurin, java-version: 17 }
       - uses: gradle/actions/setup-gradle@v4
-        with:
-          gradle-version: 8.9
+        with: { gradle-version: 8.9 }
       - name: Enable KVM for CI emulator
         run: |
           echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
@@ -37,23 +38,20 @@ jobs:
           profile: pixel_2
           disable-animations: true
           ram-size: 2048M
-          script: RUN_PILOT=1 bash tools/ci/emulator-suite.sh
+          script: bash tools/ci/emulator-suite.sh
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: native-reader-360dp-qa
+          name: tier3-qa
           path: |
             qa-captures
             app/build/reports/androidTests
             app/build/outputs/androidTest-results
             app/build/outputs/apk/debug/app-debug.apk
-      - name: Publish captures to a branch of their own, qa-runs/<run id>-<attempt> (runs never overwrite one another)
+      - name: Run summary
         if: always()
-        env:
-          GH_TOKEN: ${{ github.token }}
         run: |
-          mkdir -p /tmp/qa && find qa-captures \( -name '*.png' -o -name '*.xml' -o -name '*.txt' \) -exec cp {} /tmp/qa/ \; || true
-          cd /tmp/qa && echo "Screenshots from commit ${GITHUB_SHA}" > README.txt
-          git init -q && git config user.name "github-actions" && git config user.email "actions@users.noreply.github.com"
-          git add -A && git commit -q -m "QA screenshots for ${GITHUB_SHA}"
-          git push -f "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:refs/heads/qa-runs/${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}
+          { echo "## Tier 3 (full emulator suite)"; echo "- ran: base androidTest suite (all classes except Tier 2 per-figure capture), viewer lifecycle + memory budget on the representative figures: $(cat qa-captures/representatives.txt 2>/dev/null)";
+            echo "- not run here: Tier 1 (Build APK workflow, every push) and Tier 2 (per-batch new-figure captures)";
+            echo "- install/upgrade/offline/cold-start gates: release-candidate workflow (same Tier 3 plus those gates run before every RC)";
+            [ -s qa-captures/failures.txt ] && { echo "### FAILED"; sed 's/^/- /' qa-captures/failures.txt; } || echo "- failures: none"; } >> "$GITHUB_STEP_SUMMARY"

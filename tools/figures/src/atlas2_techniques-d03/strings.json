@@ -1,0 +1,38 @@
+{
+ "t1": {
+  "en": "Master plate: ampicillin",
+  "ta": "முதன்மைத் தட்டு: ஆம்பிசிலின்"
+ },
+ "d1": {
+  "en": "All transformants grow (amp resistant): colonies 1 to 7",
+  "ta": "அனைத்து உருமாறியவையும் வளர்கின்றன (ஆம்பிசிலின் எதிர்ப்பு): காலனிகள் 1 முதல் 7"
+ },
+ "t2": {
+  "en": "Replica to ampicillin + tetracycline",
+  "ta": "ஆம்பிசிலின் + டெட்ராசைக்ளின் தட்டுக்கு நகல்"
+ },
+ "d2": {
+  "en": "Colonies 3, 5 and 7 are absent from the replica",
+  "ta": "நகல் தட்டில் காலனிகள் 3, 5, 7 இல்லை"
+ },
+ "t3": {
+  "en": "Interpretation",
+  "ta": "விளக்கம்"
+ },
+ "d3": {
+  "en": "Growth on both plates: vector without insert (tet intact). Growth on amp only: insert in tet, so recombinant",
+  "ta": "இரு தட்டுகளிலும் வளர்ச்சி: செருகி இல்லாத ⟦vec⟧ (tet சேதமின்றி). amp-இல் மட்டும் வளர்ச்சி: tet-இல் செருகி, எனவே மறுசேர்க்கை"
+ },
+ "t4": {
+  "en": "Pick from the master plate",
+  "ta": "முதன்மைத் தட்டிலிருந்து தேர்ந்தெடுத்தல்"
+ },
+ "d4": {
+  "en": "Take colonies 3, 5 and 7 (tet-sensitive = recombinant)",
+  "ta": "காலனிகள் 3, 5, 7-ஐ எடுக்கவும் (Tet-உணர்திறன் = மறுசேர்க்கை)"
+ },
+ "_alt": {
+  "en": "Replica plating: transformants grow on an ampicillin master plate; the replica on ampicillin plus tetracycline lacks colonies 3, 5 and 7. Those grow on amp only, so the insert disrupted the tet gene and they are recombinant; pick them from the master plate.",
+  "ta": "நகல் தட்டு முறை: உருமாறியவை ஆம்பிசிலின் முதன்மைத் தட்டில் வளர்கின்றன; ஆம்பிசிலின் + டெட்ராசைக்ளின் நகல் தட்டில் காலனிகள் 3, 5, 7 இல்லை. அவை amp-இல் மட்டும் வளர்வதால் செருகி tet மரபணுவைச் சீர்குலைத்துள்ளது, அவை மறுசேர்க்கை; முதன்மைத் தட்டிலிருந்து அவற்றைத் தேர்ந்தெடுக்கவும்."
+ }
+}

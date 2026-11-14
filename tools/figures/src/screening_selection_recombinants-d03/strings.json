@@ -67,10 +67,6 @@
   "en": "Medium: LB + ampicillin + X-gal (40 µg/mL) + IPTG (0.1 mM)",
   "ta": "ஊடகம்: LB + ஆம்பிசிலின் + X-gal (40 µg/mL) + IPTG (0.1 mM)"
  },
- "m2": {
-  "en": "Ampicillin selects transformants; X-gal and IPTG separate blue from white.",
-  "ta": "ஆம்பிசிலின் உருமாறியவற்றைத் தெரிவு செய்கிறது; X-gal மற்றும் IPTG நீலத்தையும் வெள்ளையையும் பிரிக்கின்றன."
- },
  "_alt": {
   "en": "Blue-white screening on LB agar with ampicillin, X-gal and IPTG. Non-recombinant cells keep lacZ-α intact, make functional β-galactosidase, cleave X-gal to a blue compound and form blue colonies, which are not picked. Recombinant cells have an insert in the MCS that disrupts lacZ-α, so X-gal is not cleaved and the colonies are white; these are picked.",
   "ta": "ஆம்பிசிலின், X-gal, IPTG உள்ள LB அகாரில் நீல-வெள்ளைத் தெரிவு. மறுசேர்க்கை அல்லாத செல்களில் lacZ-α சேதமின்றி இருப்பதால் செயல்படும் β-கேலக்டோசிடேஸ் X-gal-ஐப் பிளந்து நீலச் சேர்மத்தை உருவாக்கி நீல நிறக் காலனிகளைத் தருகிறது; அவை தேர்ந்தெடுக்கப்படுவதில்லை. மறுசேர்க்கை செல்களில் MCS-இல் உள்ள செருகி lacZ-α-வைச் சீர்குலைப்பதால் X-gal பிளக்கப்படாமல் காலனிகள் வெள்ளையாக இருக்கும்; இவை தேர்ந்தெடுக்கப்படுகின்றன."

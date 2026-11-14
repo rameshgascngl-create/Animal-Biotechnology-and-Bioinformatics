@@ -1,0 +1,50 @@
+{
+ "h1": {
+  "en": "Biotechnology: living systems + tools",
+  "ta": "உயிரித்தொழில்நுட்பவியல்: உயிர் அமைப்புகள் + கருவிகள்"
+ },
+ "c1": {
+  "en": "Red: medical and pharma",
+  "ta": "சிவப்பு: மருத்துவம் மற்றும் மருந்தியல்"
+ },
+ "e1": {
+  "en": "Vaccines, mAbs, gene therapy",
+  "ta": "தடுப்பூசிகள், mAb-கள், மரபணு சிகிச்சை"
+ },
+ "c2": {
+  "en": "Green: agricultural",
+  "ta": "பச்சை: வேளாண்மை"
+ },
+ "e2": {
+  "en": "Transgenic crops, biofertilisers",
+  "ta": "மாற்றுமரபணுப் பயிர்கள், உயிர் உரங்கள்"
+ },
+ "c3": {
+  "en": "White: industrial",
+  "ta": "வெள்ளை: தொழில்துறை"
+ },
+ "e3": {
+  "en": "Enzymes, ethanol, bioplastics",
+  "ta": "நொதிகள், எத்தனால், உயிரிப் பிளாஸ்டிக்"
+ },
+ "c4": {
+  "en": "Blue: marine and aquatic",
+  "ta": "நீலம்: கடல் மற்றும் நீர்வாழ்"
+ },
+ "e4": {
+  "en": "Aquaculture, marine products",
+  "ta": "நீர்வாழ் உயிரி வளர்ப்பு, கடல் பொருட்கள்"
+ },
+ "c5": {
+  "en": "Gold: bioinformatics and genomics",
+  "ta": "தங்கம்: உயிர்த்தகவலியல் மற்றும் மரபணுத்தொகையியல்"
+ },
+ "e5": {
+  "en": "Databases, tools",
+  "ta": "தரவுத்தளங்கள், கருவிகள்"
+ },
+ "_alt": {
+  "en": "Colour-coded branches of biotechnology: red (medical and pharma), green (agricultural), white (industrial), blue (marine and aquatic) and gold (bioinformatics and genomics).",
+  "ta": "வண்ணக் குறியீட்டில் உயிரித்தொழில்நுட்பவியலின் கிளைகள்: சிவப்பு (மருத்துவம், மருந்தியல்), பச்சை (வேளாண்மை), வெள்ளை (தொழில்துறை), நீலம் (கடல், நீர்வாழ்), தங்கம் (உயிர்த்தகவலியல், மரபணுத்தொகையியல்)."
+ }
+}

@@ -17,15 +17,20 @@ from playwright.sync_api import sync_playwright
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.abspath(os.path.join(HERE, '..', '..'))
 sys.path.insert(0, os.path.join(ROOT, 'tools', 'diagrams'))
 from audit_geometry import MEASURE, FORCE_T
+sys.path.insert(0, HERE)
+from shaping import expand, width as shaped_width
 INTER = '/usr/share/fonts/opentype/inter/Inter-Regular.otf', '/usr/share/fonts/opentype/inter/Inter-Bold.otf'
 TAMIL = (os.path.join(ROOT, 'app/src/main/res/font/notosanstamil_regular.ttf'), os.path.join(ROOT, 'app/src/main/res/font/notosanstamil_bold.ttf'))
 STRUCT = {'outside', 'text_text', 'text_stroke', 'text_edge', 'covered', 'shape_overlap', 'stroke_cross', 'arrow_text', 'margin'}
 MIN_SP = 11.0
 MAX_SIDE_PX = 4096
+MEASURE_TOL = 0.05  # Chrome and Raqm must agree on every wrapped line within 5% (Inter kerning/feature differences reach ~3%; shaping errors in Tamil would be far larger)
 CSS = """@font-face{font-family:FigEN;src:url(file://%s);font-weight:400}@font-face{font-family:FigEN;src:url(file://%s);font-weight:700}
 @font-face{font-family:FigTA;src:url(file://%s);font-weight:400}@font-face{font-family:FigTA;src:url(file://%s);font-weight:700}
 html,body{margin:0;background:#fff} svg{display:block} svg text{font-family:FigEN,FigTA,sans-serif}
 svg .h{font-size:17px;font-weight:700} svg .b{font-size:14.5px} svg .s{font-size:13.5px}"""
+LINES = r"""() => [...document.querySelectorAll('text[data-k]')].map(t => ({k: t.dataset.k, maxw: parseFloat(t.dataset.w) || 0, fs: parseFloat(getComputedStyle(t).fontSize),
+  bold: parseInt(getComputedStyle(t).fontWeight) >= 600, lines: [...t.querySelectorAll('tspan')].map(ts => [ts.textContent, ts.getComputedTextLength()])}))"""
 LAYOUT = r"""async ([S, lang]) => {
   await document.fonts.load('14px FigEN'); await document.fonts.load('700 14px FigEN');
   await document.fonts.load('14px FigTA'); await document.fonts.load('700 14px FigTA'); await document.fonts.ready;
@@ -52,12 +57,7 @@ def main():
     ap.add_argument('--audit', default=os.path.join(ROOT, 'docs/audit/pilot')); a = ap.parse_args()
     src = os.path.join(HERE, 'src', a.id); svg = open(os.path.join(src, 'figure.svg'), encoding='utf8').read()
     S = json.load(open(os.path.join(src, 'strings.json'), encoding='utf8'))
-    TERMS = json.load(open(os.path.join(ROOT, 'tools', 'i18n', 'figure_terms.json'), encoding='utf8'))  # one place for terms whose wording is still under review
-    def sub(v):
-        for k, t in TERMS.items(): v = v.replace('\u27e6' + k + '\u27e7', t)
-        if '\u27e6' in v: sys.exit('unresolved term token in: ' + v)
-        return v
-    S = {k: {l: sub(t) for l, t in v.items()} for k, v in S.items()}
+    S = expand(S)  # figure-term tokens (tools/i18n/figure_terms.json) resolved once, here and in the layout tools
     for f in INTER + TAMIL:
         if not os.path.exists(f): sys.exit('missing font ' + f)
     html = '<html><head><meta charset="utf-8"><style>' + CSS % (INTER + TAMIL) + '</style></head><body>' + svg + '</body></html>'
@@ -71,9 +71,18 @@ def main():
         for lang, suffix in (('en', ''), ('ta', '_ta')):
             pg = b.new_page(viewport={'width': 800, 'height': 1000}, device_scale_factor=3); pg.goto('file://' + tmp)
             issues = pg.evaluate(LAYOUT, [S, lang])
+            # Second, independent shaped measurement (Raqm/HarfBuzz) of every wrapped line: it must fit data-w and agree with the browser's own measure.
+            cross = []; dev = 0.0
+            for t in pg.evaluate(LINES):
+                for txt, cw in t['lines']:
+                    rw = shaped_width(txt, t['bold'], t['fs'])
+                    if t['maxw'] and rw > t['maxw'] + 0.5: issues.append('%s: shaped width %.0f > %s (raqm)' % (t['k'], rw, t['maxw']))
+                    if cw > 3: dev = max(dev, (rw - cw) / cw)
+                    if cw > 3 and abs(rw - cw) / cw > MEASURE_TOL: cross.append('%s: browser %.1f vs raqm %.1f' % (t['k'], cw, rw))
+            issues += ['measure mismatch ' + c for c in cross]
             pg.evaluate(FORCE_T.replace('__W__', '300'), 0); m = pg.evaluate(MEASURE, 0)
             bad = [d for d in m['defects'] if d['kind'] in STRUCT]; small = [d for d in m['defects'] if d['kind'] == 'small_text']
-            report[lang] = {'layout_issues': issues, 'structural_defects': bad, 'small_text': small, 'min_sp': m['minsp'], 'texts': m['texts'], 'inline_height_dp': m['H']}
+            report[lang] = {'layout_issues': issues, 'structural_defects': bad, 'small_text': small, 'min_sp': m['minsp'], 'texts': m['texts'], 'inline_height_dp': m['H'], 'raqm_vs_browser_max_dev': round(dev, 4)}
             if issues or bad or (m['minsp'] or 0) < MIN_SP - 0.01: ok = False
             pg.locator('svg').screenshot(path=os.path.join(a.audit, f'{a.id}_after{suffix}_300dp.png'))
             pg.evaluate(FORCE_T.replace('__W__', '360'), 0); pg.close()
