@@ -1,0 +1,16 @@
+{
+ "t1": [
+  "Batch: fixed medium;",
+  "harvest at end"
+ ],
+ "t2": [
+  "Fed-batch: nutrient",
+  "fed during run;",
+  "harvest at end"
+ ],
+ "t3": [
+  "Continuous / perfusion:",
+  "medium in and out",
+  "continuously, cells retained"
+ ]
+}

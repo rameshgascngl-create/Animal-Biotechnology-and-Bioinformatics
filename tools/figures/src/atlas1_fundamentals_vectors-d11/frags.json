@@ -1,0 +1,25 @@
+{
+ "t1": [
+  "Cosmid = plasmid",
+  "(ori, ampR) + cos site"
+ ],
+ "t2": [
+  "Cut genomic DNA;",
+  "ligate to cosmid arms",
+  "(35–45 kb inserts)"
+ ],
+ "t3": [
+  "In vitro lambda",
+  "packaging"
+ ],
+ "t4": [
+  "Transduction into",
+  "E. coli; DNA circularises",
+  "at cos"
+ ],
+ "t5": [
+  "Replicates as a",
+  "plasmid; colonies",
+  "form on ampicillin"
+ ]
+}

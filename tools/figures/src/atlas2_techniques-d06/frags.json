@@ -1,0 +1,22 @@
+{
+ "t1": [
+  "Template DNA +",
+  "primer + DNA polymerase"
+ ],
+ "t2": [
+  "dNTPs + low level of",
+  "chain-terminating ddNTPs"
+ ],
+ "t3": [
+  "Synthesis stops at random",
+  "points (no 3′-OH)"
+ ],
+ "t4": [
+  "Fragments separated by size",
+  "(capillary, 1 bp resolution)"
+ ],
+ "t5": [
+  "Laser reads the dye on the",
+  "last base: sequence read-out"
+ ]
+}

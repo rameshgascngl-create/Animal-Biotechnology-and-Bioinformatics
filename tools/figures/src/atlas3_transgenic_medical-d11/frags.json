@@ -1,0 +1,22 @@
+{
+ "t1": [
+  "Package gene in a vector",
+  "(AAV, adenovirus,",
+  "lipid nanoparticle)"
+ ],
+ "t2": [
+  "Inject directly into the",
+  "target tissue or blood",
+  "(for example subretinal)"
+ ],
+ "t3": [
+  "Cells in the body take up",
+  "the gene and make the",
+  "missing protein"
+ ],
+ "t4": [
+  "Monitor: immune",
+  "response, duration,",
+  "off-target effects"
+ ]
+}

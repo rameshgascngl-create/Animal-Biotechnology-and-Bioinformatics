@@ -5,19 +5,19 @@
  },
  "t2": {
   "en": "Digest with a restriction enzyme",
-  "ta": "ரெஸ்ட்ரிக்ஷன் நொதியால் செரி நொதி"
+  "ta": "ரெஸ்ட்ரிக்ஷன் நொதியால் செரி"
  },
  "t3": {
   "en": "Separate fragments on agarose gel",
-  "ta": "துண்டுகளைப் பிரி அகரோஸ் ஜெல்லில்"
+  "ta": "துண்டுகளை அகரோஸ் ஜெல்லில் பிரி"
  },
  "t4": {
   "en": "Southern transfer and hybridise with labelled probe",
-  "ta": "சதர்ன் இடமாற்றமும் அடையாளமிட்டவற்றுடன் கலப்பிணைவு செய் துருவி"
+  "ta": "சதர்ன் இடமாற்றம் செய்து, அடையாளமிட்ட துலக்கியுடன் கலப்பிணைவு செய்"
  },
  "t5": {
   "en": "Autoradiograph: bands differ in length between individuals",
-  "ta": "ஆட்டோரேடியோகிராஃப்: பட்டைகள் நீளத்தில் வேறுபடுகின்றன தனிநபர்களுக்கிடையே"
+  "ta": "ஆட்டோரேடியோகிராஃப்: தனிநபர்களிடையே பட்டைகளின் நீளம் வேறுபடுகிறது"
  },
  "_alt": {
   "en": "1. Extract genomic DNA; 2. Digest with a restriction enzyme; 3. Separate fragments on agarose gel; 4. Southern transfer and hybridise with labelled probe; 5. Autoradiograph: bands differ in length between individuals.",

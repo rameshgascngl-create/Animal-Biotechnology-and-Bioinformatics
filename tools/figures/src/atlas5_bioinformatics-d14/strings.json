@@ -1,0 +1,30 @@
+{
+ "t1": {
+  "en": "Biological question",
+  "ta": "உயிரியல் வினா"
+ },
+ "t2": {
+  "en": "Data: sequencing, mass spectrometry, microarray",
+  "ta": "தரவு: வரிசைப்படுத்தல், நிறை நிறமாலையியல், நுண்வரிசை"
+ },
+ "t3": {
+  "en": "Store and retrieve (databases)",
+  "ta": "சேமி & மீட்டெடு (தரவுத்தளங்கள்)"
+ },
+ "t4": {
+  "en": "Analyse: alignment, annotation, statistics",
+  "ta": "பகுப்பாய்வு: சீரமைப்பு, குறிப்புரை, புள்ளிவிவரம்"
+ },
+ "t5": {
+  "en": "Interpret: pathways, structure, evolution",
+  "ta": "விளக்கம்: வழித்தடங்கள், அமைப்பு, பரிணாமம்"
+ },
+ "t6": {
+  "en": "Validate in the laboratory",
+  "ta": "உள்ளே சரிபார் ஆய்வகம்"
+ },
+ "_alt": {
+  "en": "1. Biological question; 2. Data: sequencing, mass spectrometry, microarray; 3. Store and retrieve (databases); 4. Analyse: alignment, annotation, statistics; 5. Interpret: pathways, structure, evolution; 6. Validate in the laboratory.",
+  "ta": "1. உயிரியல் வினா; 2. தரவு: வரிசைப்படுத்தல், நிறை நிறமாலையியல், நுண்வரிசை; 3. சேமி & மீட்டெடு (தரவுத்தளங்கள்); 4. பகுப்பாய்வு: சீரமைப்பு, குறிப்புரை, புள்ளிவிவரம்; 5. விளக்கம்: வழித்தடங்கள், அமைப்பு, பரிணாமம்; 6. உள்ளே சரிபார் ஆய்வகம்."
+ }
+}

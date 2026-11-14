@@ -1,0 +1,71 @@
+id,layout_type,status,reason
+protein_databases_app-d01,column,"converted, held for Tamil review",strip→step-list; gate clean; text-conserved
+protein_databases_app-d02,column,"converted, held for Tamil review",strip→step-list; gate clean; text-conserved
+atlas1_fundamentals_vectors-d02,strip,"converted, held for Tamil review",strip→step-list; gate clean; text-conserved
+atlas1_fundamentals_vectors-d04,strip,"converted, held for Tamil review",strip→step-list; gate clean; text-conserved
+atlas1_fundamentals_vectors-d08,strip,"converted, held for Tamil review",strip→step-list; gate clean; text-conserved
+atlas1_fundamentals_vectors-d09,strip,"converted, held for Tamil review",strip→step-list; gate clean; text-conserved
+atlas1_fundamentals_vectors-d11,strip,"converted, held for Tamil review",strip→step-list; gate clean; text-conserved
+atlas2_techniques-d05,strip,"converted, held for Tamil review",strip→step-list; gate clean; text-conserved
+atlas2_techniques-d06,strip,"converted, held for Tamil review",strip→step-list; gate clean; text-conserved
+atlas3_transgenic_medical-d04,strip,"converted, held for Tamil review",strip→step-list; gate clean; text-conserved
+atlas3_transgenic_medical-d07,strip,"converted, held for Tamil review",strip→step-list; gate clean; text-conserved
+atlas3_transgenic_medical-d11,strip,"converted, held for Tamil review",strip→step-list; gate clean; text-conserved
+atlas3_transgenic_medical-d15,strip,"converted, held for Tamil review",strip→step-list; gate clean; text-conserved
+atlas4_culture_society-d01,strip,"converted, held for Tamil review",strip→step-list; gate clean; text-conserved
+atlas4_culture_society-d06,strip,"converted, held for Tamil review",strip→step-list; gate clean; text-conserved
+atlas4_culture_society-d09,strip,"converted, held for Tamil review",strip→step-list; gate clean; text-conserved
+atlas5_bioinformatics-d14,strip,"converted, held for Tamil review",strip→step-list; gate clean; text-conserved
+bioinformatics_databases_app-d01,strip,"converted, held for Tamil review",strip→step-list; gate clean; text-conserved
+atlas2_techniques-d08,chart,needs manual,type has no transform (manual track by decision)
+atlas5_bioinformatics-d04,chart,needs manual,type has no transform (manual track by decision)
+atlas5_bioinformatics-d10,chart,needs manual,type has no transform (manual track by decision)
+atlas1_fundamentals_vectors-d15,column,needs manual,text outside boxes inside the strip band: size: N = ln(1−P) / ln(1−f)
+atlas4_culture_society-d10,column,needs manual,text outside boxes inside the strip band: Saccharomyces cerevisiae
+atlas5_bioinformatics-d02,column,needs manual,text outside boxes inside the strip band: NM_000518 444 bp mRNA linear P
+atlas5_bioinformatics-d07,column,needs manual,text outside boxes inside the strip band: Not significant (many chance h
+atlas5_bioinformatics-d12,column,needs manual,"text outside boxes inside the strip band: PDB ID (4 characters, e.g. 1HH"
+gene_therapy_app-d03,column,needs manual,only 2 boxes
+gene_therapy_app-d04,column,needs manual,only 2 boxes
+atlas3_transgenic_medical-d08,comparison,needs manual,type has no transform (manual track by decision)
+atlas3_transgenic_medical-d09,flow,needs manual,text outside boxes inside the strip band: Murine (-omab)
+atlas4_culture_society-d04,flow,needs manual,text outside boxes inside the strip band: Continuous lines: unlimited di
+atlas4_culture_society-d05,flow,needs manual,5 rows with several boxes (not a strip or a single column)
+atlas4_culture_society-d07,flow,needs manual,6 rows with several boxes (not a strip or a single column)
+atlas4_culture_society-d15,flow,needs manual,text-conservation: arrow count 4 != 8 (topology differs)
+atlas5_bioinformatics-d01,flow,needs manual,6 rows with several boxes (not a strip or a single column)
+atlas5_bioinformatics-d05,flow,needs manual,8 rows with several boxes (not a strip or a single column)
+dna_library_genomic_cdna-d09,flow,needs manual,text outside boxes inside the strip band: Plasmid
+transgenic_animal_technology-d03,flow,needs manual,5 rows with several boxes (not a strip or a single column)
+atlas5_bioinformatics-d11,icon_cards,needs manual,type has no transform (manual track by decision)
+hybridoma_monoclonal_antibodies-d01,illustration,needs manual,type has no transform (manual track by decision)
+atlas2_techniques-d04,plate_gel,needs manual,type has no transform (manual track by decision)
+atlas2_techniques-d07,plate_gel,needs manual,type has no transform (manual track by decision)
+atlas2_techniques-d09,plate_gel,needs manual,type has no transform (manual track by decision)
+atlas3_transgenic_medical-d17,plate_gel,needs manual,type has no transform (manual track by decision)
+gel_electrophoresis-d01,plate_gel,needs manual,type has no transform (manual track by decision)
+molecular_markers_app-d04,plate_gel,needs manual,type has no transform (manual track by decision)
+molecular_markers_app-d06,plate_gel,needs manual,type has no transform (manual track by decision)
+atlas1_fundamentals_vectors-d05,ring,needs manual,type has no transform (manual track by decision)
+atlas1_fundamentals_vectors-d13,ring,needs manual,type has no transform (manual track by decision)
+crispr_gene_editing_app-d01,ring,needs manual,type has no transform (manual track by decision)
+gene_cloning_steps_selection-d05,ring,needs manual,type has no transform (manual track by decision)
+gene_transfer_methods_rdna_host_cells-d04,ring,needs manual,type has no transform (manual track by decision)
+vectors_genetic_engineering-d01,ring,needs manual,type has no transform (manual track by decision)
+atlas1_fundamentals_vectors-d03,sequence_drawing,needs manual,type has no transform (manual track by decision)
+atlas3_transgenic_medical-d13,sequence_drawing,needs manual,type has no transform (manual track by decision)
+atlas3_transgenic_medical-d16,sequence_drawing,needs manual,type has no transform (manual track by decision)
+atlas5_bioinformatics-d08,sequence_drawing,needs manual,type has no transform (manual track by decision)
+atlas1_fundamentals_vectors-d12,strip,needs manual,5 unboxed annotations (needs a hand-written layout)
+atlas1_fundamentals_vectors-d14,strip,needs manual,no Tamil for: 'or TTAA (piggyBac)'
+atlas3_transgenic_medical-d01,strip,needs manual,7 unboxed annotations (needs a hand-written layout)
+atlas3_transgenic_medical-d12,strip,needs manual,no Tamil for: 'CAR (anti-CD19) = scFv'
+atlas3_transgenic_medical-d14,strip,needs manual,no Tamil for: '(crRNA + tracrRNA'
+atlas4_culture_society-d03,strip,needs manual,3 unboxed annotations (needs a hand-written layout)
+atlas4_culture_society-d08,strip,needs manual,only 1 boxes
+atlas5_bioinformatics-d03,strip,needs manual,text-conservation: arrow count 0 != 2 (topology differs)
+atlas5_bioinformatics-d09,strip,needs manual,no Tamil for: '(neighbour-joining/UPGMA)'
+atlas5_bioinformatics-d13,strip,needs manual,"no Tamil for: '(AlphaFold, RoseTTAFold):'"
+atlas5_bioinformatics-d15,strip,needs manual,no Tamil for: 'ClinVar)'
+crispr_gene_editing_app-d02,strip,needs manual,no Tamil for: '(vector/RNP)'
+atlas4_culture_society-d12,timeline,needs manual,type has no transform (manual track by decision)

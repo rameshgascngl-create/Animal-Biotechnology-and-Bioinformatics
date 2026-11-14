@@ -1,0 +1,25 @@
+{
+ "t1": [
+  "M13 (+) strand",
+  "enters via F pilus"
+ ],
+ "t2": [
+  "Converted to dsDNA",
+  "RF (replicative form)"
+ ],
+ "t3": [
+  "RF replicates;",
+  "rolling circle makes",
+  "(+) ssDNA"
+ ],
+ "t4": [
+  "Progeny extruded",
+  "without lysis",
+  "(slow growth)"
+ ],
+ "t5": [
+  "Uses: ssDNA template",
+  "for Sanger sequencing,",
+  "mutagenesis, phage display"
+ ]
+}

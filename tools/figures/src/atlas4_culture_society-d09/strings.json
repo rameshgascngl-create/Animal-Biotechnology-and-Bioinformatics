@@ -5,11 +5,11 @@
  },
  "t2": {
   "en": "Fed-batch: nutrient fed during run; harvest at end",
-  "ta": "ஊட்டப்படும் தொகுதி: ஊட்டச்சத்து ஓட்டத்தின்போது ஊட்டப்படுகிறது; இறுதியில் அறுவடை செய்"
+  "ta": "ஊட்டப்படும் தொகுதி: ஓட்டத்தின்போது ஊட்டச்சத்து ஊட்டப்படுகிறது; இறுதியில் அறுவடை செய்"
  },
  "t3": {
   "en": "Continuous / perfusion: medium in and out continuously, cells retained",
-  "ta": "தொடர் / ஊடுபாய்ச்சல்: ஊடகம் உள்ளும் வெளியும் தொடர்ந்து, செல்கள் தக்கவைக்கப்படுகின்றன"
+  "ta": "தொடர் ஊடுபாய்ச்சல்: ஊடகம் தொடர்ந்து உள்ளே சென்று வெளியேறுகிறது; செல்கள் தக்கவைக்கப்படுகின்றன"
  },
  "_alt": {
   "en": "1. Batch: fixed medium; harvest at end; 2. Fed-batch: nutrient fed during run; harvest at end; 3. Continuous / perfusion: medium in and out continuously, cells retained.",

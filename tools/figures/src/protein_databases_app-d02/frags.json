@@ -1,0 +1,27 @@
+{
+ "t1": [
+  "Experimental Method"
+ ],
+ "d1": [
+  "X-ray / NMR / Cryo-EM"
+ ],
+ "t2": [
+  "3D Atomic Coordinates"
+ ],
+ "d2": [
+  "X, Y, Z positions (Å) per atom"
+ ],
+ "t3": [
+  "Structure Information"
+ ],
+ "d3": [
+  "alpha helices, beta sheets,",
+  "loops, ligands, active site"
+ ],
+ "t4": [
+  "Use: Drug design, fold"
+ ],
+ "d4": [
+  "analysis, mechanism"
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "t1": {
+  "en": "Restriction endonuclease cuts DNA",
+  "ta": "ரெஸ்ட்ரிக்ஷன் எண்டோநியூக்ளியேஸ் DNA-வை வெட்டுகிறது"
+ },
+ "t2": {
+  "en": "DNA ligase seals nicks (ATP/NAD+)",
+  "ta": "DNA லைகேஸ் வெட்டுகளை அடைக்கிறது (ATP/NAD+)"
+ },
+ "t3": {
+  "en": "Alkaline phosphatase stops re-ligation",
+  "ta": "காரம் பாஸ்படேஸ் மறு-இணைப்பைத் தடுக்கிறது"
+ },
+ "t4": {
+  "en": "Taq / Klenow DNA polymerase fills or extends",
+  "ta": "Taq / கிளெனோ DNA பாலிமெரேஸ் நிரப்புகிறது அல்லது நீட்டுகிறது"
+ },
+ "t5": {
+  "en": "Reverse transcriptase mRNA to cDNA",
+  "ta": "தலைகீழ் டிரான்ஸ்கிரிப்டேஸ் mRNA to cDNA"
+ },
+ "t6": {
+  "en": "Terminal transferase adds tails",
+  "ta": "முனை டிரான்ஸ்ஃபெரேஸ் வால்களைச் சேர்க்கிறது"
+ },
+ "_alt": {
+  "en": "1. Restriction endonuclease cuts DNA; 2. DNA ligase seals nicks (ATP/NAD+); 3. Alkaline phosphatase stops re-ligation; 4. Taq / Klenow DNA polymerase fills or extends; 5. Reverse transcriptase mRNA to cDNA; 6. Terminal transferase adds tails.",
+  "ta": "1. ரெஸ்ட்ரிக்ஷன் எண்டோநியூக்ளியேஸ் DNA-வை வெட்டுகிறது; 2. DNA லைகேஸ் வெட்டுகளை அடைக்கிறது (ATP/NAD+); 3. காரம் பாஸ்படேஸ் மறு-இணைப்பைத் தடுக்கிறது; 4. Taq / கிளெனோ DNA பாலிமெரேஸ் நிரப்புகிறது அல்லது நீட்டுகிறது; 5. தலைகீழ் டிரான்ஸ்கிரிப்டேஸ் mRNA to cDNA; 6. முனை டிரான்ஸ்ஃபெரேஸ் வால்களைச் சேர்க்கிறது."
+ }
+}

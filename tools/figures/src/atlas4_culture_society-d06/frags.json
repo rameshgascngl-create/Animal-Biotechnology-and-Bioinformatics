@@ -1,0 +1,25 @@
+{
+ "t1": [
+  "Skin fibroblasts or blood",
+  "cells from patient"
+ ],
+ "t2": [
+  "Introduce Oct4, Sox2,",
+  "Klf4, c-Myc (Sendai virus",
+  "or episomal plasmids)"
+ ],
+ "t3": [
+  "Reprogrammed to iPSC:",
+  "ESC-like colonies"
+ ],
+ "t4": [
+  "Differentiate in vitro:",
+  "cardiomyocytes, neurons,",
+  "beta cells"
+ ],
+ "t5": [
+  "Disease modelling, drug",
+  "screening, autologous",
+  "cell therapy"
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "t1": [
+  "Master plate with",
+  "bacterial colonies"
+ ],
+ "t2": [
+  "Press nylon or",
+  "nitrocellulose membrane",
+  "(colony lift)"
+ ],
+ "t3": [
+  "Lyse cells; denature",
+  "DNA (NaOH); fix to",
+  "membrane (UV or 80 °C)"
+ ],
+ "t4": [
+  "Hybridise with labelled",
+  "single-stranded probe",
+  "(32P or DIG)"
+ ],
+ "t5": [
+  "Wash; detect by",
+  "autoradiography",
+  "or chemiluminescence"
+ ],
+ "t6": [
+  "Align film with master;",
+  "pick positive colonies"
+ ]
+}

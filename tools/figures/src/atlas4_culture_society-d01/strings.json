@@ -1,0 +1,38 @@
+{
+ "t1": {
+  "en": "Aseptic collection of tissue (biopsy, embryo)",
+  "ta": "தூய்மையாகச் சேகரித்தல் திசு (திசுத்துண்டு, கரு)"
+ },
+ "t2": {
+  "en": "Disaggregate: mechanical, trypsin or collagenase",
+  "ta": "தனித்துப் பிரி: இயந்திர முறை, டிரிப்சின் அல்லது கொலாஜனேஸ்"
+ },
+ "t3": {
+  "en": "Seed cells in medium + serum in flask/dish",
+  "ta": "செல்களை ஊடகத்தில் விதை + குடுவை/தட்டில் சீரம்"
+ },
+ "t4": {
+  "en": "Incubate 37 °C, 5% CO₂, humid; cells attach",
+  "ta": "37 °C, 5% CO₂-வில் அடைகாக்க, ஈரப்பதம்; செல்கள் ஒட்டுகின்றன"
+ },
+ "t5": {
+  "en": "Monitor daily; change medium every 2‑3 days",
+  "ta": "தினமும் கண்காணி; மாற்று ஊடகம் ஒவ்வொரு 2‑3 நாளும்"
+ },
+ "t6": {
+  "en": "Confluent: trypsinise and subculture (passage)",
+  "ta": "நிரம்பியது: டிரிப்சினாக்கு மற்றும் துணை வளர்ப்பு (தலைமுறை)"
+ },
+ "t7": {
+  "en": "Characterise; test for mycoplasma",
+  "ta": "பண்புகாண்; சோதி மைக்கோபிளாஸ்மா"
+ },
+ "t8": {
+  "en": "Cryopreserve in 10% DMSO in liquid N₂ (−196 °C)",
+  "ta": "10% DMSO-வில் உறைகுளிர் பாதுகாப்பு திரவ N₂-இல் (−196 °C)"
+ },
+ "_alt": {
+  "en": "1. Aseptic collection of tissue (biopsy, embryo); 2. Disaggregate: mechanical, trypsin or collagenase; 3. Seed cells in medium + serum in flask/dish; 4. Incubate 37 °C, 5% CO₂, humid; cells attach; 5. Monitor daily; change medium every 2‑3 days; 6. Confluent: trypsinise and subculture (passage); 7. Characterise; test for mycoplasma; 8. Cryopreserve in 10% DMSO in liquid N₂ (−196 °C).",
+  "ta": "1. தூய்மையாகச் சேகரித்தல் திசு (திசுத்துண்டு, கரு); 2. தனித்துப் பிரி: இயந்திர முறை, டிரிப்சின் அல்லது கொலாஜனேஸ்; 3. செல்களை ஊடகத்தில் விதை + குடுவை/தட்டில் சீரம்; 4. 37 °C, 5% CO₂-வில் அடைகாக்க, ஈரப்பதம்; செல்கள் ஒட்டுகின்றன; 5. தினமும் கண்காணி; மாற்று ஊடகம் ஒவ்வொரு 2‑3 நாளும்; 6. நிரம்பியது: டிரிப்சினாக்கு மற்றும் துணை வளர்ப்பு (தலைமுறை); 7. பண்புகாண்; சோதி மைக்கோபிளாஸ்மா; 8. 10% DMSO-வில் உறைகுளிர் பாதுகாப்பு திரவ N₂-இல் (−196 °C)."
+ }
+}

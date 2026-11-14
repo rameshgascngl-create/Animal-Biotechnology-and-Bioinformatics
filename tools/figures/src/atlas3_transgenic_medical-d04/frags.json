@@ -1,0 +1,31 @@
+{
+ "t1": [
+  "Design vector; electroporate",
+  "into mouse ES cells",
+  "(129 strain)"
+ ],
+ "t2": [
+  "G418 + ganciclovir:",
+  "enrich targeted ES",
+  "cells; verify by PCR/Southern"
+ ],
+ "t3": [
+  "Inject ES cells into a",
+  "blastocyst (C57BL/6)"
+ ],
+ "t4": [
+  "Implant in foster",
+  "mother; chimeric pups",
+  "(mixed coat colour)"
+ ],
+ "t5": [
+  "Breed chimeras:",
+  "germ-line transmission",
+  "gives heterozygotes (+/−)"
+ ],
+ "t6": [
+  "Cross heterozygotes:",
+  "25% +/+, 50% +/−,",
+  "25% −/− (knockout)"
+ ]
+}

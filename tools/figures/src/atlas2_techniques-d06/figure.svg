@@ -9,18 +9,18 @@
 <circle cx="36" cy="72" r="13" fill="#0b2a40"/>
 <text data-num="2" x="36" y="77" text-anchor="middle" class="b" font-weight="700" fill="#ffffff"/>
 <text data-k="t2" data-w="272" x="62" y="77" text-anchor="start" class="b" font-weight="700" fill="#0b2a40"/>
-<line x1="36" y1="89" x2="36" y2="133" stroke="#0e8fb0" stroke-width="2.5" marker-end="url(#ah)"/>
-<circle cx="36" cy="151" r="13" fill="#0b2a40"/>
-<text data-num="3" x="36" y="156" text-anchor="middle" class="b" font-weight="700" fill="#ffffff"/>
-<text data-k="t3" data-w="272" x="62" y="156" text-anchor="start" class="b" font-weight="700" fill="#0b2a40"/>
-<line x1="36" y1="168" x2="36" y2="212" stroke="#0e8fb0" stroke-width="2.5" marker-end="url(#ah)"/>
-<circle cx="36" cy="230" r="13" fill="#0b2a40"/>
-<text data-num="4" x="36" y="235" text-anchor="middle" class="b" font-weight="700" fill="#ffffff"/>
-<text data-k="t4" data-w="272" x="62" y="235" text-anchor="start" class="b" font-weight="700" fill="#0b2a40"/>
-<line x1="36" y1="247" x2="36" y2="291" stroke="#0e8fb0" stroke-width="2.5" marker-end="url(#ah)"/>
-<circle cx="36" cy="309" r="13" fill="#0b2a40"/>
-<text data-num="5" x="36" y="314" text-anchor="middle" class="b" font-weight="700" fill="#ffffff"/>
-<text data-k="t5" data-w="272" x="62" y="314" text-anchor="start" class="b" font-weight="700" fill="#0b2a40"/>
+<line x1="36" y1="89" x2="36" y2="114" stroke="#0e8fb0" stroke-width="2.5" marker-end="url(#ah)"/>
+<circle cx="36" cy="132" r="13" fill="#0b2a40"/>
+<text data-num="3" x="36" y="137" text-anchor="middle" class="b" font-weight="700" fill="#ffffff"/>
+<text data-k="t3" data-w="272" x="62" y="137" text-anchor="start" class="b" font-weight="700" fill="#0b2a40"/>
+<line x1="36" y1="149" x2="36" y2="193" stroke="#0e8fb0" stroke-width="2.5" marker-end="url(#ah)"/>
+<circle cx="36" cy="211" r="13" fill="#0b2a40"/>
+<text data-num="4" x="36" y="216" text-anchor="middle" class="b" font-weight="700" fill="#ffffff"/>
+<text data-k="t4" data-w="272" x="62" y="216" text-anchor="start" class="b" font-weight="700" fill="#0b2a40"/>
+<line x1="36" y1="228" x2="36" y2="272" stroke="#0e8fb0" stroke-width="2.5" marker-end="url(#ah)"/>
+<circle cx="36" cy="290" r="13" fill="#0b2a40"/>
+<text data-num="5" x="36" y="295" text-anchor="middle" class="b" font-weight="700" fill="#ffffff"/>
+<text data-k="t5" data-w="272" x="62" y="295" text-anchor="start" class="b" font-weight="700" fill="#0b2a40"/>
 </g>
 </svg>
 

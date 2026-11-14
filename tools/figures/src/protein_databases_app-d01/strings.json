@@ -1,0 +1,38 @@
+{
+ "t1": {
+  "en": "Protein Source",
+  "ta": "புரத மூலம்"
+ },
+ "d1": {
+  "en": "(organism / experiment)",
+  "ta": "(உயிரினம் / சோதனை)"
+ },
+ "t2": {
+  "en": "1D Amino Acid Sequence",
+  "ta": "1D அமினோ அமில வரிசை"
+ },
+ "d2": {
+  "en": "M-A-K-L-V-T-S-D-E-K-…",
+  "ta": "M-A-K-L-V-T-S-D-E-K-…"
+ },
+ "t3": {
+  "en": "Rich Annotation",
+  "ta": "வளமான குறிப்புரை"
+ },
+ "d3": {
+  "en": "function, PTMs, disease, subcellular location",
+  "ta": "செயல்பாடு, PTM-கள், நோய், செல்லகப் பகுதி"
+ },
+ "t4": {
+  "en": "Use: Identify, classify",
+  "ta": "பயன்: அடையாளம் காண், வகைப்படுத்து"
+ },
+ "d4": {
+  "en": "predict function, evolution",
+  "ta": "செயல்பாடு, பரிணாமத்தைக் கணி"
+ },
+ "_alt": {
+  "en": "1. Protein Source — (organism / experiment); 2. 1D Amino Acid Sequence — M-A-K-L-V-T-S-D-E-K-…; 3. Rich Annotation — function, PTMs, disease, subcellular location; 4. Use: Identify, classify — predict function, evolution.",
+  "ta": "1. புரத மூலம் — (உயிரினம் / சோதனை); 2. 1D அமினோ அமில வரிசை — M-A-K-L-V-T-S-D-E-K-…; 3. வளமான குறிப்புரை — செயல்பாடு, PTM-கள், நோய், செல்லகப் பகுதி; 4. பயன்: அடையாளம் காண், வகைப்படுத்து — செயல்பாடு, பரிணாமத்தைக் கணி."
+ }
+}

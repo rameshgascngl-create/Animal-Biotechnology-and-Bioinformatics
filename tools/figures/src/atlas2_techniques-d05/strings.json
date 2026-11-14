@@ -1,0 +1,30 @@
+{
+ "t1": {
+  "en": "Master plate with bacterial colonies",
+  "ta": "முதன்மைத் தட்டு பாக்டீரியக் காலனிகள்"
+ },
+ "t2": {
+  "en": "Press nylon or nitrocellulose membrane (colony lift)",
+  "ta": "நைலானை அழுத்து அல்லது நைட்ரோசெல்லுலோஸ் சவ்வு (காலனி தூக்குதல்)"
+ },
+ "t3": {
+  "en": "Lyse cells; denature DNA (NaOH); fix to membrane (UV or 80 °C)",
+  "ta": "செல்களைச் சிதைத்து இயல்பிழக்கச்செய் DNA (NaOH); இணை சவ்வு (UV அல்லது 80 °C)"
+ },
+ "t4": {
+  "en": "Hybridise with labelled single-stranded probe (32P or DIG)",
+  "ta": "அடையாளமிட்டவற்றுடன் கலப்பிணைவு செய் ஓரிழைத் துருவி (32P or DIG)"
+ },
+ "t5": {
+  "en": "Wash; detect by autoradiography or chemiluminescence",
+  "ta": "கழுவு; கண்டறி ஆட்டோரேடியோகிராஃபி அல்லது வேதிஒளிர்வு"
+ },
+ "t6": {
+  "en": "Align film with master; pick positive colonies",
+  "ta": "படலத்தை முதன்மையுடன் சீரமை; நேர்மறைக் காலனிகளைத் தேர்ந்தெடு"
+ },
+ "_alt": {
+  "en": "1. Master plate with bacterial colonies; 2. Press nylon or nitrocellulose membrane (colony lift); 3. Lyse cells; denature DNA (NaOH); fix to membrane (UV or 80 °C); 4. Hybridise with labelled single-stranded probe (32P or DIG); 5. Wash; detect by autoradiography or chemiluminescence; 6. Align film with master; pick positive colonies.",
+  "ta": "1. முதன்மைத் தட்டு பாக்டீரியக் காலனிகள்; 2. நைலானை அழுத்து அல்லது நைட்ரோசெல்லுலோஸ் சவ்வு (காலனி தூக்குதல்); 3. செல்களைச் சிதைத்து இயல்பிழக்கச்செய் DNA (NaOH); இணை சவ்வு (UV அல்லது 80 °C); 4. அடையாளமிட்டவற்றுடன் கலப்பிணைவு செய் ஓரிழைத் துருவி (32P or DIG); 5. கழுவு; கண்டறி ஆட்டோரேடியோகிராஃபி அல்லது வேதிஒளிர்வு; 6. படலத்தை முதன்மையுடன் சீரமை; நேர்மறைக் காலனிகளைத் தேர்ந்தெடு."
+ }
+}

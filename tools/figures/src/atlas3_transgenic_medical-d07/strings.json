@@ -1,0 +1,38 @@
+{
+ "t1": {
+  "en": "Immunise mouse with antigen",
+  "ta": "எலிக்குத் தடுப்பூசி போடு எதிர்ப்பொருள் தூண்டியுடன்"
+ },
+ "t2": {
+  "en": "Remove spleen: plasma B cells making antibody",
+  "ta": "மண்ணீரலை அகற்று: பிளாஸ்மா B செல்கள் எதிர்ப்பொருள் உருவாக்குதல்"
+ },
+ "t3": {
+  "en": "Fuse with HGPRT− myeloma (PEG or electrofusion)",
+  "ta": "HGPRT− மைலோமாவுடன் இணை (PEG அல்லது மின்னிணைவு)"
+ },
+ "t4": {
+  "en": "HAT medium selects hybrids",
+  "ta": "HAT ஊடகம் கலப்பினங்களைத் தேர்ந்தெடுக்கிறது"
+ },
+ "t5": {
+  "en": "Screen supernatants (ELISA) for the wanted antibody",
+  "ta": "மேற்படிவுகளைச் சோதி (ELISA) மூலம் விரும்பிய எதிர்ப்பொருள்"
+ },
+ "t6": {
+  "en": "Single-cell cloning (limiting dilution)",
+  "ta": "ஒற்றைச் செல் குளோனாக்கம் (எல்லைக் கரைசல் நீர்த்தல்)"
+ },
+ "t7": {
+  "en": "Expand in culture or ascites; cryopreserve",
+  "ta": "வளர்ப்பில் பெருக்கு அல்லது வயிற்றுநீர்; உறைகுளிர் பாதுகாப்பு"
+ },
+ "t8": {
+  "en": "Purify MAb (Protein A/G)",
+  "ta": "MAb-ஐத் தூய்மையாக்கு (புரதம் A/G)"
+ },
+ "_alt": {
+  "en": "1. Immunise mouse with antigen; 2. Remove spleen: plasma B cells making antibody; 3. Fuse with HGPRT− myeloma (PEG or electrofusion); 4. HAT medium selects hybrids; 5. Screen supernatants (ELISA) for the wanted antibody; 6. Single-cell cloning (limiting dilution); 7. Expand in culture or ascites; cryopreserve; 8. Purify MAb (Protein A/G).",
+  "ta": "1. எலிக்குத் தடுப்பூசி போடு எதிர்ப்பொருள் தூண்டியுடன்; 2. மண்ணீரலை அகற்று: பிளாஸ்மா B செல்கள் எதிர்ப்பொருள் உருவாக்குதல்; 3. HGPRT− மைலோமாவுடன் இணை (PEG அல்லது மின்னிணைவு); 4. HAT ஊடகம் கலப்பினங்களைத் தேர்ந்தெடுக்கிறது; 5. மேற்படிவுகளைச் சோதி (ELISA) மூலம் விரும்பிய எதிர்ப்பொருள்; 6. ஒற்றைச் செல் குளோனாக்கம் (எல்லைக் கரைசல் நீர்த்தல்); 7. வளர்ப்பில் பெருக்கு அல்லது வயிற்றுநீர்; உறைகுளிர் பாதுகாப்பு; 8. MAb-ஐத் தூய்மையாக்கு (புரதம் A/G)."
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "t1": [
+  "Restriction",
+  "endonuclease",
+  "cuts DNA"
+ ],
+ "t2": [
+  "DNA ligase",
+  "seals nicks",
+  "(ATP/NAD+)"
+ ],
+ "t3": [
+  "Alkaline",
+  "phosphatase",
+  "stops re-ligation"
+ ],
+ "t4": [
+  "Taq / Klenow",
+  "DNA polymerase",
+  "fills or extends"
+ ],
+ "t5": [
+  "Reverse",
+  "transcriptase",
+  "mRNA to cDNA"
+ ],
+ "t6": [
+  "Terminal",
+  "transferase",
+  "adds tails"
+ ]
+}

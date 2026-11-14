@@ -1,0 +1,25 @@
+{
+ "t1": [
+  "Replacement vector:",
+  "stuffer fragment",
+  "between two arms"
+ ],
+ "t2": [
+  "Cut with enzyme;",
+  "remove stuffer;",
+  "add target DNA (up to ~20 kb)"
+ ],
+ "t3": [
+  "Ligate into",
+  "concatemers with cos ends"
+ ],
+ "t4": [
+  "In vitro packaging",
+  "(37–52 kb fits;",
+  "undersized stuffer excluded)"
+ ],
+ "t5": [
+  "Infect E. coli:",
+  "plaques = library clones"
+ ]
+}

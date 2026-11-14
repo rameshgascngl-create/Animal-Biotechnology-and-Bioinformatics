@@ -1,0 +1,27 @@
+{
+ "t1": [
+  "Protein Source"
+ ],
+ "d1": [
+  "(organism / experiment)"
+ ],
+ "t2": [
+  "1D Amino Acid Sequence"
+ ],
+ "d2": [
+  "M-A-K-L-V-T-S-D-E-K-…"
+ ],
+ "t3": [
+  "Rich Annotation"
+ ],
+ "d3": [
+  "function, PTMs, disease,",
+  "subcellular location"
+ ],
+ "t4": [
+  "Use: Identify, classify"
+ ],
+ "d4": [
+  "predict function, evolution"
+ ]
+}

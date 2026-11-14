@@ -1,0 +1,40 @@
+{
+ "t1": [
+  "LOCUS"
+ ],
+ "d1": [
+  "Accession no.",
+  "length, type"
+ ],
+ "t2": [
+  "DEFINITION"
+ ],
+ "d2": [
+  "Gene description",
+  "& organism"
+ ],
+ "t3": [
+  "FEATURES"
+ ],
+ "d3": [
+  "Gene locations",
+  "CDS, annotations"
+ ],
+ "t4": [
+  "ORGANISM"
+ ],
+ "d4": [
+  "Taxonomy",
+  "& lineage"
+ ],
+ "t5": [
+  "ORIGIN"
+ ],
+ "d5": [
+  "Actual nucleotide",
+  "sequence (ATGC…)"
+ ],
+ "f1": [
+  "Click each section for details"
+ ]
+}

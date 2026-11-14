@@ -1,19 +1,19 @@
 {
  "t1": {
   "en": "Package gene in a vector (AAV, adenovirus, lipid nanoparticle)",
-  "ta": "மரபணுவைத் ⟦vec⟧யில் பொதி (AAV, அடினோவைரஸ், லிப்பிடு நானோதுகள்)"
+  "ta": "மரபணுவை ⟦vec⟧யில் பொதி செய் (AAV, அடினோவைரஸ், லிப்பிடு நானோதுகள்)"
  },
  "t2": {
   "en": "Inject directly into the target tissue or blood (for example subretinal)",
-  "ta": "நேரடியாகச் செலுத்து இலக்குத் திசு அல்லது இரத்தம் (எ.கா. விழித்திரைக்குக் கீழ்)"
+  "ta": "இலக்குத் திசு அல்லது இரத்தத்தில் நேரடியாகச் செலுத்து (எ.கா. விழித்திரைக்குக் கீழ்)"
  },
  "t3": {
   "en": "Cells in the body take up the gene and make the missing protein",
-  "ta": "உடலிலுள்ள செல்கள் எடுத்துக்கொள்கின்றன மரபணுவை, மற்றும் இல்லாத புரதம்"
+  "ta": "உடலிலுள்ள செல்கள் மரபணுவை எடுத்துக்கொண்டு இல்லாத புரதத்தை உருவாக்குகின்றன"
  },
  "t4": {
   "en": "Monitor: immune response, duration, off-target effects",
-  "ta": "கண்காணி: நோயெதிர்ப்பு துலங்கல், கால அளவு, இலக்கற்ற விளைவுகள்"
+  "ta": "கண்காணி: நோயெதிர்ப்புத் துலங்கல், கால அளவு, இலக்கற்ற விளைவுகள்"
  },
  "_alt": {
   "en": "1. Package gene in a vector (AAV, adenovirus, lipid nanoparticle); 2. Inject directly into the target tissue or blood (for example subretinal); 3. Cells in the body take up the gene and make the missing protein; 4. Monitor: immune response, duration, off-target effects.",

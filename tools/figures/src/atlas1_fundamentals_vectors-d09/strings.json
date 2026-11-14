@@ -5,19 +5,19 @@
  },
  "t2": {
   "en": "Converted to dsDNA RF (replicative form)",
-  "ta": "dsDNA-வாக மாற்றப்பட்டது RF (இரட்டிப்பு வடிவம்)"
+  "ta": "dsDNA வடிவமான RF (இரட்டிப்பாகும் வடிவம்) ஆக மாறுகிறது"
  },
  "t3": {
   "en": "RF replicates; rolling circle makes (+) ssDNA",
-  "ta": "RF இரட்டிப்பாகிறது; உருளும் வட்டம் உருவாக்குகிறது (+) ssDNA"
+  "ta": "RF இரட்டிப்பாகிறது; உருளும்வட்ட முறை (+) ssDNA-வை உருவாக்குகிறது"
  },
  "t4": {
   "en": "Progeny extruded without lysis (slow growth)",
-  "ta": "சந்ததி வெளியேற்றப்படுகிறது சிதைவின்றி (மெதுவான வளர்ச்சி)"
+  "ta": "சந்ததி செல்லைச் சிதைக்காமல் வெளியேறுகிறது (மெதுவான வளர்ச்சி)"
  },
  "t5": {
   "en": "Uses: ssDNA template for Sanger sequencing, mutagenesis, phage display",
-  "ta": "பயன்: ssDNA வார்ப்புரு சாங்கர் வரிசைப்படுத்தலுக்கு, திடீர்மாற்றம், பேஜ் காட்சியாக்கம்"
+  "ta": "பயன்கள்: சாங்கர் வரிசைப்படுத்தல், திடீர்மாற்றம், பேஜ் காட்சியாக்கம் ஆகியவற்றுக்கான ssDNA வார்ப்புரு"
  },
  "_alt": {
   "en": "1. M13 (+) strand enters via F pilus; 2. Converted to dsDNA RF (replicative form); 3. RF replicates; rolling circle makes (+) ssDNA; 4. Progeny extruded without lysis (slow growth); 5. Uses: ssDNA template for Sanger sequencing, mutagenesis, phage display.",

@@ -1,0 +1,37 @@
+{
+ "t1": [
+  "Immunise mouse",
+  "with antigen"
+ ],
+ "t2": [
+  "Remove spleen:",
+  "plasma B cells",
+  "making antibody"
+ ],
+ "t3": [
+  "Fuse with HGPRT− myeloma",
+  "(PEG or electrofusion)"
+ ],
+ "t4": [
+  "HAT medium",
+  "selects hybrids"
+ ],
+ "t5": [
+  "Screen supernatants",
+  "(ELISA) for the",
+  "wanted antibody"
+ ],
+ "t6": [
+  "Single-cell cloning",
+  "(limiting dilution)"
+ ],
+ "t7": [
+  "Expand in culture",
+  "or ascites;",
+  "cryopreserve"
+ ],
+ "t8": [
+  "Purify MAb",
+  "(Protein A/G)"
+ ]
+}

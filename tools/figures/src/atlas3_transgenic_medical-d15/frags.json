@@ -1,0 +1,23 @@
+{
+ "t1": [
+  "Extract genomic DNA"
+ ],
+ "t2": [
+  "Digest with a restriction",
+  "enzyme"
+ ],
+ "t3": [
+  "Separate fragments",
+  "on agarose gel"
+ ],
+ "t4": [
+  "Southern transfer and",
+  "hybridise with labelled",
+  "probe"
+ ],
+ "t5": [
+  "Autoradiograph:",
+  "bands differ in length",
+  "between individuals"
+ ]
+}

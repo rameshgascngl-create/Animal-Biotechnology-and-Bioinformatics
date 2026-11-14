@@ -1,0 +1,26 @@
+{
+ "t1": [
+  "Biological question"
+ ],
+ "t2": [
+  "Data: sequencing,",
+  "mass spectrometry,",
+  "microarray"
+ ],
+ "t3": [
+  "Store and retrieve",
+  "(databases)"
+ ],
+ "t4": [
+  "Analyse: alignment,",
+  "annotation, statistics"
+ ],
+ "t5": [
+  "Interpret: pathways,",
+  "structure, evolution"
+ ],
+ "t6": [
+  "Validate in the",
+  "laboratory"
+ ]
+}

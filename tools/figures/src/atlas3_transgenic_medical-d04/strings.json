@@ -1,0 +1,30 @@
+{
+ "t1": {
+  "en": "Design vector; electroporate into mouse ES cells (129 strain)",
+  "ta": "⟦vec⟧யை வடிவமை; மின்துளைப்பு செய் எலி ES செல்களுக்குள் (129 திரிபு)"
+ },
+ "t2": {
+  "en": "G418 + ganciclovir: enrich targeted ES cells; verify by PCR/Southern",
+  "ta": "G418 + கான்சிக்ளோவிர்: இலக்கிடப்பட்ட ES-ஐச் செறிவூட்டு செல்கள்; PCR/சதர்ன் மூலம் சரிபார்"
+ },
+ "t3": {
+  "en": "Inject ES cells into a blastocyst (C57BL/6)",
+  "ta": "ES செல்களைச் செலுத்து பிளாஸ்டோசிஸ்ட் (C57BL/6)"
+ },
+ "t4": {
+  "en": "Implant in foster mother; chimeric pups (mixed coat colour)",
+  "ta": "வளர்ப்புத் தாய்க்குள் பதி தாய்; கலப்புயிரிக் குட்டிகள் (கலப்பு மேனி நிறம்)"
+ },
+ "t5": {
+  "en": "Breed chimeras: germ-line transmission gives heterozygotes (+/−)",
+  "ta": "கலப்புயிரிகளை இனச்சேர்க்கை செய்: கருவழிக் கடத்தல் ஹெட்டிரோசைகஸ்களைத் தருகிறது (+/−)"
+ },
+ "t6": {
+  "en": "Cross heterozygotes: 25% +/+, 50% +/−, 25% −/− (knockout)",
+  "ta": "ஹெட்டிரோசைகஸ்களை இனச்சேர்க்கை செய்: 25% +/+, 50% +/−, 25% −/− (நாக்-அவுட்)"
+ },
+ "_alt": {
+  "en": "1. Design vector; electroporate into mouse ES cells (129 strain); 2. G418 + ganciclovir: enrich targeted ES cells; verify by PCR/Southern; 3. Inject ES cells into a blastocyst (C57BL/6); 4. Implant in foster mother; chimeric pups (mixed coat colour); 5. Breed chimeras: germ-line transmission gives heterozygotes (+/−); 6. Cross heterozygotes: 25% +/+, 50% +/−, 25% −/− (knockout).",
+  "ta": "1. ⟦vec⟧யை வடிவமை; மின்துளைப்பு செய் எலி ES செல்களுக்குள் (129 திரிபு); 2. G418 + கான்சிக்ளோவிர்: இலக்கிடப்பட்ட ES-ஐச் செறிவூட்டு செல்கள்; PCR/சதர்ன் மூலம் சரிபார்; 3. ES செல்களைச் செலுத்து பிளாஸ்டோசிஸ்ட் (C57BL/6); 4. வளர்ப்புத் தாய்க்குள் பதி தாய்; கலப்புயிரிக் குட்டிகள் (கலப்பு மேனி நிறம்); 5. கலப்புயிரிகளை இனச்சேர்க்கை செய்: கருவழிக் கடத்தல் ஹெட்டிரோசைகஸ்களைத் தருகிறது (+/−); 6. ஹெட்டிரோசைகஸ்களை இனச்சேர்க்கை செய்: 25% +/+, 50% +/−, 25% −/− (நாக்-அவுட்)."
+ }
+}

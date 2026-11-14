@@ -1,15 +1,15 @@
 {
  "t1": {
   "en": "Template DNA + primer + DNA polymerase",
-  "ta": "வார்ப்பு DNA + பிரைமர் + DNA பாலிமெரேஸ்"
+  "ta": "வார்ப்பு DNA + முதன்மை இழை + DNA பாலிமெரேஸ்"
  },
  "t2": {
   "en": "dNTPs + low level of chain-terminating ddNTPs",
-  "ta": "dNTP-கள் + குறைந்த அளவு சங்கிலி முடிவுறுத்தும் ddNTP-கள்"
+  "ta": "dNTP-கள் + சிறிதளவு சங்கிலி முடிவுறுத்தும் ddNTP-கள்"
  },
  "t3": {
   "en": "Synthesis stops at random points (no 3′-OH)",
-  "ta": "தொகுப்பு தற்செயலாக நிற்கிறது புள்ளிகள் (3′-OH இல்லை)"
+  "ta": "தொகுப்பு தற்செயலான புள்ளிகளில் நின்றுவிடுகிறது (3′-OH இல்லை)"
  },
  "t4": {
   "en": "Fragments separated by size (capillary, 1 bp resolution)",
@@ -17,7 +17,7 @@
  },
  "t5": {
   "en": "Laser reads the dye on the last base: sequence read-out",
-  "ta": "லேசர் சாயத்தை வாசிக்கிறது கடைசி காரம்: வரிசை வாசிப்பு"
+  "ta": "லேசர் கடைசி காரத்தின் சாயத்தை வாசிக்கிறது: வரிசை வாசிப்பு"
  },
  "_alt": {
   "en": "1. Template DNA + primer + DNA polymerase; 2. dNTPs + low level of chain-terminating ddNTPs; 3. Synthesis stops at random points (no 3′-OH); 4. Fragments separated by size (capillary, 1 bp resolution); 5. Laser reads the dye on the last base: sequence read-out.",

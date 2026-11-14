@@ -1,0 +1,38 @@
+{
+ "t1": {
+  "en": "Experimental Method",
+  "ta": "சோதனை முறை"
+ },
+ "d1": {
+  "en": "X-ray / NMR / Cryo-EM",
+  "ta": "X-கதிர் / NMR / Cryo-EM"
+ },
+ "t2": {
+  "en": "3D Atomic Coordinates",
+  "ta": "3D அணு ஆயங்கள்"
+ },
+ "d2": {
+  "en": "X, Y, Z positions (Å) per atom",
+  "ta": "ஒவ்வோர் அணுவுக்கும் X, Y, Z நிலைகள் (Å)"
+ },
+ "t3": {
+  "en": "Structure Information",
+  "ta": "அமைப்புத் தகவல்"
+ },
+ "d3": {
+  "en": "alpha helices, beta sheets, loops, ligands, active site",
+  "ta": "ஆல்ஃபா சுருள்கள், பீட்டா தகடுகள், வளையங்கள், ஈனிகள், செயல்தளம்"
+ },
+ "t4": {
+  "en": "Use: Drug design, fold",
+  "ta": "பயன்: மருந்து வடிவமைப்பு, மடிப்பு"
+ },
+ "d4": {
+  "en": "analysis, mechanism",
+  "ta": "பகுப்பாய்வு, இயங்குமுறை"
+ },
+ "_alt": {
+  "en": "1. Experimental Method — X-ray / NMR / Cryo-EM; 2. 3D Atomic Coordinates — X, Y, Z positions (Å) per atom; 3. Structure Information — alpha helices, beta sheets, loops, ligands, active site; 4. Use: Drug design, fold — analysis, mechanism.",
+  "ta": "1. சோதனை முறை — X-கதிர் / NMR / Cryo-EM; 2. 3D அணு ஆயங்கள் — ஒவ்வோர் அணுவுக்கும் X, Y, Z நிலைகள் (Å); 3. அமைப்புத் தகவல் — ஆல்ஃபா சுருள்கள், பீட்டா தகடுகள், வளையங்கள், ஈனிகள், செயல்தளம்; 4. பயன்: மருந்து வடிவமைப்பு, மடிப்பு — பகுப்பாய்வு, இயங்குமுறை."
+ }
+}
