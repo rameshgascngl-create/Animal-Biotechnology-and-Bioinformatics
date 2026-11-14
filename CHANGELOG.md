@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.9.0-rc2 (release candidate; versionCode 9)
+- Figures: all 17 figures graded "major" in the Phase 0 audit are now re-drawn as portrait figures in English and Tamil (batches 1 to 6), and 7 earlier figures were re-rendered with shaped-text (HarfBuzz/Raqm) measurement. 35 re-drawn figures ship in total; no major figure remains.
+- Build checks restructured into three tiers (every push; per new figure batch on emulator; full suite nightly and before every RC). Tier 3 passed on main before this build.
+- Not in this build: the 19 moderate figures (drawn, ship in rc3), the descriptive-term change for "vector", the interaction-wording sweep.
+
 ## 0.9.0-rc1 (release candidate; versionCode 8)
 - Figures: pilot figure (screening-d02) and batches 1 and 2 re-drawn as portrait figures in English and Tamil: screening-d01, screening-d04, sanger-d01, vectors-d04, advanced_vectors-d03, dna_library-d05. Figure ids in dna_library shifted (see docs/audit/dna-library-id-remap.csv).
 - Figure viewer: fixed the viewer closing itself after opening; state is held above the lazy list.

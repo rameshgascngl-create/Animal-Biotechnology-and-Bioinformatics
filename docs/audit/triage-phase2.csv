@@ -1,129 +1,129 @@
-id,worst_visual,fails_threshold,structural
-advanced_vectors_cosmid_yac_sv40_transposons-d04,moderate,1,1
-animal_cell_culture-d04,moderate,1,1
-animal_cell_culture-d06,major,1,1
-animal_cell_culture-d07,major,1,1
-atlas1_fundamentals_vectors-d01,moderate,1,1
-atlas2_techniques-d02,moderate,1,1
-atlas2_techniques-d03,moderate,1,1
-atlas3_transgenic_medical-d05,moderate,1,1
-atlas4_culture_society-d02,moderate,1,1
-atlas4_culture_society-d13,major,1,1
-atlas4_culture_society-d14,major,1,1
-atlas4_culture_society-d16,moderate,1,1
-atlas4_culture_society-d17,major,1,1
-atlas5_bioinformatics-d06,major,1,1
-bioinformatics_databases_app-d03,moderate,1,1
-blotting_techniques-d01,major,1,1
-dna_library_genomic_cdna-d01,moderate,1,0
-dna_library_genomic_cdna-d02,major,1,1
-dna_library_genomic_cdna-d03,moderate,1,1
-dna_library_genomic_cdna-d04,major,1,1
-dna_library_genomic_cdna-d07,moderate,1,1
-dna_library_genomic_cdna-d08,moderate,1,0
-gel_electrophoresis-d02,moderate,1,1
-gene_cloning_steps_selection-d01,major,1,1
-gene_cloning_steps_selection-d02,moderate,1,1
-gene_cloning_steps_selection-d03,moderate,1,1
-gene_cloning_steps_selection-d04,moderate,1,1
-gene_transfer_methods_rdna_host_cells-d01,major,1,1
-gene_transfer_methods_rdna_host_cells-d03,major,1,1
-gene_transfer_methods_rdna_host_cells-d05,major,1,1
-gene_transfer_methods_rdna_host_cells-d06,moderate,1,1
-pcr_principle_types_applications-d01,major,1,1
-pcr_principle_types_applications-d02,major,1,0
-protein_databases_app-d04,major,1,1
-screening_selection_recombinants-d03,major,1,1
-transgenic_animal_technology-d02,moderate,1,0
-vectors_genetic_engineering-d03,moderate,1,1
-advanced_vectors_cosmid_yac_sv40_transposons-d01,minor,1,1
-advanced_vectors_cosmid_yac_sv40_transposons-d02,minor,1,1
-animal_cell_culture-d01,minor,1,1
-animal_cell_culture-d02,minor,1,1
-animal_cell_culture-d05,minor,1,1
-atlas1_fundamentals_vectors-d02,minor,1,0
-atlas1_fundamentals_vectors-d03,minor,1,0
-atlas1_fundamentals_vectors-d04,minor,1,0
-atlas1_fundamentals_vectors-d06,minor,1,1
-atlas1_fundamentals_vectors-d07,minor,1,1
-atlas1_fundamentals_vectors-d10,minor,1,1
-atlas2_techniques-d01,minor,1,1
-atlas2_techniques-d04,minor,1,0
-atlas2_techniques-d05,minor,1,0
-atlas2_techniques-d06,minor,1,0
-atlas2_techniques-d08,minor,1,0
-atlas2_techniques-d09,minor,1,0
-atlas3_transgenic_medical-d01,minor,1,0
-atlas3_transgenic_medical-d03,minor,1,1
-atlas3_transgenic_medical-d04,minor,1,0
-atlas3_transgenic_medical-d06,minor,1,1
-atlas3_transgenic_medical-d10,minor,1,1
-atlas3_transgenic_medical-d12,minor,1,0
-atlas3_transgenic_medical-d15,minor,1,0
-atlas4_culture_society-d01,minor,1,0
-atlas4_culture_society-d03,minor,1,0
-atlas4_culture_society-d04,minor,1,0
-atlas4_culture_society-d06,minor,1,0
-atlas4_culture_society-d11,minor,1,1
-atlas5_bioinformatics-d11,minor,1,0
-bioinformatics_databases_app-d02,minor,1,1
-crispr_gene_editing_app-d02,minor,1,0
-dna_library_genomic_cdna-d06,minor,1,1
-dna_library_genomic_cdna-d09,minor,1,0
-gene_therapy_app-d01,minor,1,1
-gene_therapy_app-d02,minor,1,1
-gene_therapy_app-d03,minor,1,0
-gene_therapy_app-d04,minor,1,0
-molecular_markers_app-d05,minor,1,1
-molecular_markers_app-d06,minor,1,0
-protein_databases_app-d01,minor,1,0
-protein_databases_app-d02,minor,1,0
-transgenic_animal_technology-d01,minor,1,1
-transgenic_animal_technology-d03,minor,1,0
-vectors_genetic_engineering-d01,minor,0,0
-animal_cell_culture-d03,ok,1,1
-atlas1_fundamentals_vectors-d05,ok,1,0
-atlas1_fundamentals_vectors-d08,ok,1,0
-atlas1_fundamentals_vectors-d09,ok,1,0
-atlas1_fundamentals_vectors-d11,ok,1,0
-atlas1_fundamentals_vectors-d12,ok,1,0
-atlas1_fundamentals_vectors-d13,ok,1,0
-atlas1_fundamentals_vectors-d14,ok,1,0
-atlas1_fundamentals_vectors-d15,ok,1,0
-atlas2_techniques-d07,ok,1,0
-atlas3_transgenic_medical-d07,ok,1,0
-atlas3_transgenic_medical-d08,ok,1,0
-atlas3_transgenic_medical-d09,ok,1,0
-atlas3_transgenic_medical-d11,ok,1,0
-atlas3_transgenic_medical-d13,ok,1,0
-atlas3_transgenic_medical-d14,ok,1,0
-atlas3_transgenic_medical-d16,ok,1,0
-atlas3_transgenic_medical-d17,ok,1,0
-atlas4_culture_society-d05,ok,1,0
-atlas4_culture_society-d07,ok,1,0
-atlas4_culture_society-d08,ok,1,0
-atlas4_culture_society-d09,ok,1,0
-atlas4_culture_society-d10,ok,1,0
-atlas4_culture_society-d12,ok,1,0
-atlas4_culture_society-d15,ok,1,0
-atlas5_bioinformatics-d01,ok,1,0
-atlas5_bioinformatics-d02,ok,1,0
-atlas5_bioinformatics-d03,ok,1,0
-atlas5_bioinformatics-d04,ok,1,0
-atlas5_bioinformatics-d05,ok,1,0
-atlas5_bioinformatics-d07,ok,1,0
-atlas5_bioinformatics-d08,ok,1,0
-atlas5_bioinformatics-d09,ok,1,0
-atlas5_bioinformatics-d10,ok,1,0
-atlas5_bioinformatics-d12,ok,1,0
-atlas5_bioinformatics-d13,ok,1,0
-atlas5_bioinformatics-d14,ok,1,0
-atlas5_bioinformatics-d15,ok,1,0
-bioinformatics_databases_app-d01,ok,1,0
-crispr_gene_editing_app-d01,ok,1,0
-gel_electrophoresis-d01,ok,0,0
-gel_electrophoresis-d03,ok,1,1
-gene_cloning_steps_selection-d05,ok,0,0
-gene_transfer_methods_rdna_host_cells-d04,ok,0,0
-hybridoma_monoclonal_antibodies-d01,ok,0,0
-molecular_markers_app-d04,ok,1,0
+id,worst_visual,fails_threshold,structural,status
+advanced_vectors_cosmid_yac_sv40_transposons-d04,moderate,1,1,"drawn, ships in rc3"
+animal_cell_culture-d04,moderate,1,1,"drawn, ships in rc3"
+animal_cell_culture-d06,major,1,1,"fixed (re-drawn, shipped in rc2)"
+animal_cell_culture-d07,major,1,1,"fixed (re-drawn, shipped in rc2)"
+atlas1_fundamentals_vectors-d01,moderate,1,1,"drawn, ships in rc3"
+atlas2_techniques-d02,moderate,1,1,"drawn, ships in rc3"
+atlas2_techniques-d03,moderate,1,1,"drawn, ships in rc3"
+atlas3_transgenic_medical-d05,moderate,1,1,"fixed (re-drawn, shipped in rc2)"
+atlas4_culture_society-d02,moderate,1,1,"drawn, ships in rc3"
+atlas4_culture_society-d13,major,1,1,"fixed (re-drawn, shipped in rc2)"
+atlas4_culture_society-d14,major,1,1,"fixed (re-drawn, shipped in rc2)"
+atlas4_culture_society-d16,moderate,1,1,"drawn, ships in rc3"
+atlas4_culture_society-d17,major,1,1,"fixed (re-drawn, shipped in rc2)"
+atlas5_bioinformatics-d06,major,1,1,"fixed (re-drawn, shipped in rc2)"
+bioinformatics_databases_app-d03,moderate,1,1,"drawn, ships in rc3"
+blotting_techniques-d01,major,1,1,"fixed (re-drawn, shipped in rc2)"
+dna_library_genomic_cdna-d01,moderate,1,0,"drawn, ships in rc3"
+dna_library_genomic_cdna-d02,major,1,1,"fixed (re-drawn, shipped in rc2)"
+dna_library_genomic_cdna-d03,moderate,1,1,"drawn, ships in rc3"
+dna_library_genomic_cdna-d04,major,1,1,"fixed (re-drawn, shipped in rc2)"
+dna_library_genomic_cdna-d07,moderate,1,1,"drawn, ships in rc3"
+dna_library_genomic_cdna-d08,moderate,1,0,"drawn, ships in rc3"
+gel_electrophoresis-d02,moderate,1,1,"drawn, ships in rc3"
+gene_cloning_steps_selection-d01,major,1,1,"fixed (re-drawn, shipped in rc2)"
+gene_cloning_steps_selection-d02,moderate,1,1,"drawn, ships in rc3"
+gene_cloning_steps_selection-d03,moderate,1,1,"drawn, ships in rc3"
+gene_cloning_steps_selection-d04,moderate,1,1,"drawn, ships in rc3"
+gene_transfer_methods_rdna_host_cells-d01,major,1,1,"fixed (re-drawn, shipped in rc2)"
+gene_transfer_methods_rdna_host_cells-d03,major,1,1,"fixed (re-drawn, shipped in rc2)"
+gene_transfer_methods_rdna_host_cells-d05,major,1,1,"fixed (re-drawn, shipped in rc2)"
+gene_transfer_methods_rdna_host_cells-d06,moderate,1,1,"drawn, ships in rc3"
+pcr_principle_types_applications-d01,major,1,1,"fixed (re-drawn, shipped in rc2)"
+pcr_principle_types_applications-d02,major,1,0,"fixed (re-drawn, shipped in rc2)"
+protein_databases_app-d04,major,1,1,"fixed (re-drawn, shipped in rc2)"
+screening_selection_recombinants-d03,major,1,1,"fixed (re-drawn, shipped in rc2)"
+transgenic_animal_technology-d02,moderate,1,0,"drawn, ships in rc3"
+vectors_genetic_engineering-d03,moderate,1,1,"drawn, ships in rc3"
+advanced_vectors_cosmid_yac_sv40_transposons-d01,minor,1,1,needs manual (structural defects)
+advanced_vectors_cosmid_yac_sv40_transposons-d02,minor,1,1,needs manual (structural defects)
+animal_cell_culture-d01,minor,1,1,needs manual (structural defects)
+animal_cell_culture-d02,minor,1,1,needs manual (structural defects)
+animal_cell_culture-d05,minor,1,1,needs manual (structural defects)
+atlas1_fundamentals_vectors-d02,minor,1,0,automated pass pending
+atlas1_fundamentals_vectors-d03,minor,1,0,automated pass pending
+atlas1_fundamentals_vectors-d04,minor,1,0,automated pass pending
+atlas1_fundamentals_vectors-d06,minor,1,1,needs manual (structural defects)
+atlas1_fundamentals_vectors-d07,minor,1,1,needs manual (structural defects)
+atlas1_fundamentals_vectors-d10,minor,1,1,needs manual (structural defects)
+atlas2_techniques-d01,minor,1,1,needs manual (structural defects)
+atlas2_techniques-d04,minor,1,0,automated pass pending
+atlas2_techniques-d05,minor,1,0,automated pass pending
+atlas2_techniques-d06,minor,1,0,automated pass pending
+atlas2_techniques-d08,minor,1,0,automated pass pending
+atlas2_techniques-d09,minor,1,0,automated pass pending
+atlas3_transgenic_medical-d01,minor,1,0,automated pass pending
+atlas3_transgenic_medical-d03,minor,1,1,needs manual (structural defects)
+atlas3_transgenic_medical-d04,minor,1,0,automated pass pending
+atlas3_transgenic_medical-d06,minor,1,1,needs manual (structural defects)
+atlas3_transgenic_medical-d10,minor,1,1,needs manual (structural defects)
+atlas3_transgenic_medical-d12,minor,1,0,automated pass pending
+atlas3_transgenic_medical-d15,minor,1,0,automated pass pending
+atlas4_culture_society-d01,minor,1,0,automated pass pending
+atlas4_culture_society-d03,minor,1,0,automated pass pending
+atlas4_culture_society-d04,minor,1,0,automated pass pending
+atlas4_culture_society-d06,minor,1,0,automated pass pending
+atlas4_culture_society-d11,minor,1,1,needs manual (structural defects)
+atlas5_bioinformatics-d11,minor,1,0,automated pass pending
+bioinformatics_databases_app-d02,minor,1,1,needs manual (structural defects)
+crispr_gene_editing_app-d02,minor,1,0,automated pass pending
+dna_library_genomic_cdna-d06,minor,1,1,needs manual (structural defects)
+dna_library_genomic_cdna-d09,minor,1,0,automated pass pending
+gene_therapy_app-d01,minor,1,1,needs manual (structural defects)
+gene_therapy_app-d02,minor,1,1,needs manual (structural defects)
+gene_therapy_app-d03,minor,1,0,automated pass pending
+gene_therapy_app-d04,minor,1,0,automated pass pending
+molecular_markers_app-d05,minor,1,1,needs manual (structural defects)
+molecular_markers_app-d06,minor,1,0,automated pass pending
+protein_databases_app-d01,minor,1,0,automated pass pending
+protein_databases_app-d02,minor,1,0,automated pass pending
+transgenic_animal_technology-d01,minor,1,1,needs manual (structural defects)
+transgenic_animal_technology-d03,minor,1,0,automated pass pending
+vectors_genetic_engineering-d01,minor,0,0,automated pass pending
+animal_cell_culture-d03,ok,1,1,needs manual (structural defects)
+atlas1_fundamentals_vectors-d05,ok,1,0,automated pass pending
+atlas1_fundamentals_vectors-d08,ok,1,0,automated pass pending
+atlas1_fundamentals_vectors-d09,ok,1,0,automated pass pending
+atlas1_fundamentals_vectors-d11,ok,1,0,automated pass pending
+atlas1_fundamentals_vectors-d12,ok,1,0,automated pass pending
+atlas1_fundamentals_vectors-d13,ok,1,0,automated pass pending
+atlas1_fundamentals_vectors-d14,ok,1,0,automated pass pending
+atlas1_fundamentals_vectors-d15,ok,1,0,automated pass pending
+atlas2_techniques-d07,ok,1,0,automated pass pending
+atlas3_transgenic_medical-d07,ok,1,0,automated pass pending
+atlas3_transgenic_medical-d08,ok,1,0,automated pass pending
+atlas3_transgenic_medical-d09,ok,1,0,automated pass pending
+atlas3_transgenic_medical-d11,ok,1,0,automated pass pending
+atlas3_transgenic_medical-d13,ok,1,0,automated pass pending
+atlas3_transgenic_medical-d14,ok,1,0,automated pass pending
+atlas3_transgenic_medical-d16,ok,1,0,automated pass pending
+atlas3_transgenic_medical-d17,ok,1,0,automated pass pending
+atlas4_culture_society-d05,ok,1,0,automated pass pending
+atlas4_culture_society-d07,ok,1,0,automated pass pending
+atlas4_culture_society-d08,ok,1,0,automated pass pending
+atlas4_culture_society-d09,ok,1,0,automated pass pending
+atlas4_culture_society-d10,ok,1,0,automated pass pending
+atlas4_culture_society-d12,ok,1,0,automated pass pending
+atlas4_culture_society-d15,ok,1,0,automated pass pending
+atlas5_bioinformatics-d01,ok,1,0,automated pass pending
+atlas5_bioinformatics-d02,ok,1,0,automated pass pending
+atlas5_bioinformatics-d03,ok,1,0,automated pass pending
+atlas5_bioinformatics-d04,ok,1,0,automated pass pending
+atlas5_bioinformatics-d05,ok,1,0,automated pass pending
+atlas5_bioinformatics-d07,ok,1,0,automated pass pending
+atlas5_bioinformatics-d08,ok,1,0,automated pass pending
+atlas5_bioinformatics-d09,ok,1,0,automated pass pending
+atlas5_bioinformatics-d10,ok,1,0,automated pass pending
+atlas5_bioinformatics-d12,ok,1,0,automated pass pending
+atlas5_bioinformatics-d13,ok,1,0,automated pass pending
+atlas5_bioinformatics-d14,ok,1,0,automated pass pending
+atlas5_bioinformatics-d15,ok,1,0,automated pass pending
+bioinformatics_databases_app-d01,ok,1,0,automated pass pending
+crispr_gene_editing_app-d01,ok,1,0,automated pass pending
+gel_electrophoresis-d01,ok,0,0,automated pass pending
+gel_electrophoresis-d03,ok,1,1,needs manual (structural defects)
+gene_cloning_steps_selection-d05,ok,0,0,automated pass pending
+gene_transfer_methods_rdna_host_cells-d04,ok,0,0,automated pass pending
+hybridoma_monoclonal_antibodies-d01,ok,0,0,automated pass pending
+molecular_markers_app-d04,ok,1,0,automated pass pending
