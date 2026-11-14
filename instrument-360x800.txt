@@ -1,0 +1,6 @@
+
+com.gasczoology.animalbiotech.BatchFigureCaptureTest:.
+
+Time: 594.595
+
+OK (1 test)
