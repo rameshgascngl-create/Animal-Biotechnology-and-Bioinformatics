@@ -1,0 +1,26 @@
+{
+ "t1": {
+  "en": "Cosmid = plasmid (ori, ampR) + cos site",
+  "ta": "காஸ்மிட் = பிளாஸ்மிட் (ori, ampR) + cos தளம்"
+ },
+ "t2": {
+  "en": "Cut genomic DNA; ligate to cosmid arms (35–45 kb inserts)",
+  "ta": "மரபணுத்தொகை DNA-வை வெட்டு; காஸ்மிட் புயங்களுடன் இணை (35–45 kb செருகிகள்)"
+ },
+ "t3": {
+  "en": "In vitro lambda packaging",
+  "ta": "இன்விட்ரோ லாம்டா பொதிவு"
+ },
+ "t4": {
+  "en": "Transduction into E. coli; DNA circularises at cos",
+  "ta": "உள்ளே டிரான்ஸ்டக்ஷன் E. coli; DNA வட்டமாகிறது cos-இல்"
+ },
+ "t5": {
+  "en": "Replicates as a plasmid; colonies form on ampicillin",
+  "ta": "ஆக இரட்டிப்பாகிறது பிளாஸ்மிட்; காலனிகள் ஆம்பிசிலினில் உருவாகின்றன"
+ },
+ "_alt": {
+  "en": "1. Cosmid = plasmid (ori, ampR) + cos site; 2. Cut genomic DNA; ligate to cosmid arms (35–45 kb inserts); 3. In vitro lambda packaging; 4. Transduction into E. coli; DNA circularises at cos; 5. Replicates as a plasmid; colonies form on ampicillin.",
+  "ta": "1. காஸ்மிட் = பிளாஸ்மிட் (ori, ampR) + cos தளம்; 2. மரபணுத்தொகை DNA-வை வெட்டு; காஸ்மிட் புயங்களுடன் இணை (35–45 kb செருகிகள்); 3. இன்விட்ரோ லாம்டா பொதிவு; 4. உள்ளே டிரான்ஸ்டக்ஷன் E. coli; DNA வட்டமாகிறது cos-இல்; 5. ஆக இரட்டிப்பாகிறது பிளாஸ்மிட்; காலனிகள் ஆம்பிசிலினில் உருவாகின்றன."
+ }
+}

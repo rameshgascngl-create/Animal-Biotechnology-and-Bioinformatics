@@ -1,0 +1,26 @@
+{
+ "t1": {
+  "en": "Skin fibroblasts or blood cells from patient",
+  "ta": "தோல் ஃபைப்ரோபிளாஸ்ட்கள் அல்லது இரத்தம் நோயாளியின் செல்கள்"
+ },
+ "t2": {
+  "en": "Introduce Oct4, Sox2, Klf4, c-Myc (Sendai virus or episomal plasmids)",
+  "ta": "Oct4, Sox2-ஐ அறிமுகப்படுத்து, Klf4, c-Myc (சென்டாய் வைரஸ் அல்லது எபிசோமல் பிளாஸ்மிட்கள்)"
+ },
+ "t3": {
+  "en": "Reprogrammed to iPSC: ESC-like colonies",
+  "ta": "iPSC ஆக மீள்நிரலாக்கம்: ESC போன்ற காலனிகள்"
+ },
+ "t4": {
+  "en": "Differentiate in vitro: cardiomyocytes, neurons, beta cells",
+  "ta": "இன்விட்ரோவில் வேறுபடுத்து: இதயத் தசைச் செல்கள், நரம்பணுக்கள், பீட்டா செல்கள்"
+ },
+ "t5": {
+  "en": "Disease modelling, drug screening, autologous cell therapy",
+  "ta": "நோய் மாதிரியாக்கம், மருந்து சோதனை, தன்- செல் சிகிச்சை"
+ },
+ "_alt": {
+  "en": "1. Skin fibroblasts or blood cells from patient; 2. Introduce Oct4, Sox2, Klf4, c-Myc (Sendai virus or episomal plasmids); 3. Reprogrammed to iPSC: ESC-like colonies; 4. Differentiate in vitro: cardiomyocytes, neurons, beta cells; 5. Disease modelling, drug screening, autologous cell therapy.",
+  "ta": "1. தோல் ஃபைப்ரோபிளாஸ்ட்கள் அல்லது இரத்தம் நோயாளியின் செல்கள்; 2. Oct4, Sox2-ஐ அறிமுகப்படுத்து, Klf4, c-Myc (சென்டாய் வைரஸ் அல்லது எபிசோமல் பிளாஸ்மிட்கள்); 3. iPSC ஆக மீள்நிரலாக்கம்: ESC போன்ற காலனிகள்; 4. இன்விட்ரோவில் வேறுபடுத்து: இதயத் தசைச் செல்கள், நரம்பணுக்கள், பீட்டா செல்கள்; 5. நோய் மாதிரியாக்கம், மருந்து சோதனை, தன்- செல் சிகிச்சை."
+ }
+}

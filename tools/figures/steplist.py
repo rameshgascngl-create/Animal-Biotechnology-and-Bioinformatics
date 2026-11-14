@@ -6,10 +6,12 @@ DARK, TEAL = '#0b2a40', '#0e8fb0'
 OFF = 56
 from shaping import wrap_lines, load_strings
 def _lines(s, cpl): return max(1, math.ceil(len(s) / cpl))
-def steplist(figdir, rows, accents=None):
+def steplist(figdir, rows, accents=None, head=None, foot=()):
     S = load_strings(figdir)  # terms expanded, so Tamil is measured as it will be drawn
     def n(k, width, bold, px): return 0 if k is None else max(wrap_lines(S[k]['en'], width, bold, px), wrap_lines(S[k]['ta'], width, bold, px))
+    hh = 0 if head is None else 16 + (n(head, 330, True, 17) - 1) * 22 + 18
     B = [f'<g transform="translate(0,{OFF})">']; ys = []; y = 0; spec = []
+    if head is not None: B.append(T(head, 180, 16, 'h', 'middle', 330, DARK, True)); y = hh
     for tk, dk in rows:
         tl = n(tk, 272, True, 14.5); dl = n(dk, 272, False, 13.5)
         ys.append(y); spec.append((tk, tl, dk, dl))
@@ -21,6 +23,9 @@ def steplist(figdir, rows, accents=None):
         B.append(T(tk, 62, y0 + 17, 'b', 'start', 272, DARK, True))
         if dk: B.append(T(dk, 62, y0 + 17 + (tl - 1) * 19 + 22, 's', 'start', 272, '#2b4a5a'))
         if i < len(spec): B.append(arrow(36, y0 + 29, 36, ys[i] - 6, TEAL, 2.5))
+    y += 0
+    for k in foot:
+        fl = n(k, 300, False, 13.5); B.append(T(k, 180, y + 14, 's', 'middle', 300, '#37474f', False)); y += 14 + fl * 17 + 6
     B.append('</g>')
     return svg(360, int(y + 2 * OFF - 30), B)
 

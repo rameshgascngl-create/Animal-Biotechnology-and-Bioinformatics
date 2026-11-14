@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 439">
+<rect width="360" height="439" fill="#ffffff"/>
+<defs><marker id="ah" markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L5,2.5 L0,5 z" fill="#0b6f85"/></marker></defs>
+<g transform="translate(0,56)">
+<circle cx="36" cy="12" r="13" fill="#0b2a40"/>
+<text data-num="1" x="36" y="17" text-anchor="middle" class="b" font-weight="700" fill="#ffffff"/>
+<text data-k="t1" data-w="272" x="62" y="17" text-anchor="start" class="b" font-weight="700" fill="#0b2a40"/>
+<line x1="36" y1="29" x2="36" y2="54" stroke="#0e8fb0" stroke-width="2.5" marker-end="url(#ah)"/>
+<circle cx="36" cy="72" r="13" fill="#0b2a40"/>
+<text data-num="2" x="36" y="77" text-anchor="middle" class="b" font-weight="700" fill="#ffffff"/>
+<text data-k="t2" data-w="272" x="62" y="77" text-anchor="start" class="b" font-weight="700" fill="#0b2a40"/>
+<line x1="36" y1="89" x2="36" y2="133" stroke="#0e8fb0" stroke-width="2.5" marker-end="url(#ah)"/>
+<circle cx="36" cy="151" r="13" fill="#0b2a40"/>
+<text data-num="3" x="36" y="156" text-anchor="middle" class="b" font-weight="700" fill="#ffffff"/>
+<text data-k="t3" data-w="272" x="62" y="156" text-anchor="start" class="b" font-weight="700" fill="#0b2a40"/>
+<line x1="36" y1="168" x2="36" y2="212" stroke="#0e8fb0" stroke-width="2.5" marker-end="url(#ah)"/>
+<circle cx="36" cy="230" r="13" fill="#0b2a40"/>
+<text data-num="4" x="36" y="235" text-anchor="middle" class="b" font-weight="700" fill="#ffffff"/>
+<text data-k="t4" data-w="272" x="62" y="235" text-anchor="start" class="b" font-weight="700" fill="#0b2a40"/>
+<line x1="36" y1="247" x2="36" y2="291" stroke="#0e8fb0" stroke-width="2.5" marker-end="url(#ah)"/>
+<circle cx="36" cy="309" r="13" fill="#0b2a40"/>
+<text data-num="5" x="36" y="314" text-anchor="middle" class="b" font-weight="700" fill="#ffffff"/>
+<text data-k="t5" data-w="272" x="62" y="314" text-anchor="start" class="b" font-weight="700" fill="#0b2a40"/>
+</g>
+</svg>
+

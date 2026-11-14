@@ -1,0 +1,18 @@
+{
+ "t1": {
+  "en": "Line 1 begins with “>”: identifier + description",
+  "ta": "வரி 1 “>” உடன் தொடங்கும்: அடையாளம் + விளக்கம்"
+ },
+ "t2": {
+  "en": "Following lines: sequence (60–80 characters per line)",
+  "ta": "தொடரும் கோடுகள்: வரிசை (ஒரு வரிக்கு 60–80 எழுத்துகள்)"
+ },
+ "t3": {
+  "en": "No spaces, one record per entry",
+  "ta": "இடைவெளி இல்லை, ஒரே ஒவ்வொரு பதிவுக்கும் ஒரு பதிவேடு"
+ },
+ "_alt": {
+  "en": "1. Line 1 begins with “>”: identifier + description; 2. Following lines: sequence (60–80 characters per line); 3. No spaces, one record per entry.",
+  "ta": "1. வரி 1 “>” உடன் தொடங்கும்: அடையாளம் + விளக்கம்; 2. தொடரும் கோடுகள்: வரிசை (ஒரு வரிக்கு 60–80 எழுத்துகள்); 3. இடைவெளி இல்லை, ஒரே ஒவ்வொரு பதிவுக்கும் ஒரு பதிவேடு."
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "t1": {
+  "en": "LOCUS",
+  "ta": "LOCUS"
+ },
+ "d1": {
+  "en": "Accession no. length, type",
+  "ta": "அணுகல் எண் நீளம், வகை"
+ },
+ "t2": {
+  "en": "DEFINITION",
+  "ta": "DEFINITION"
+ },
+ "d2": {
+  "en": "Gene description & organism",
+  "ta": "மரபணு விளக்கம் & உயிரினம்"
+ },
+ "t3": {
+  "en": "FEATURES",
+  "ta": "FEATURES"
+ },
+ "d3": {
+  "en": "Gene locations CDS, annotations",
+  "ta": "மரபணு இடங்கள் CDS, குறிப்புரைகள்"
+ },
+ "t4": {
+  "en": "ORGANISM",
+  "ta": "ORGANISM"
+ },
+ "d4": {
+  "en": "Taxonomy & lineage",
+  "ta": "வகைப்பாட்டியல் & பரம்பரை"
+ },
+ "t5": {
+  "en": "ORIGIN",
+  "ta": "ORIGIN"
+ },
+ "d5": {
+  "en": "Actual nucleotide sequence (ATGC…)",
+  "ta": "உண்மையான நியூக்ளியோடைடு வரிசை (ATGC…)"
+ },
+ "f1": {
+  "en": "Click each section for details",
+  "ta": "விவரங்களுக்கு ஒவ்வொரு பகுதியையும் தொடு"
+ },
+ "_alt": {
+  "en": "1. LOCUS — Accession no. length, type; 2. DEFINITION — Gene description & organism; 3. FEATURES — Gene locations CDS, annotations; 4. ORGANISM — Taxonomy & lineage; 5. ORIGIN — Actual nucleotide sequence (ATGC…). Click each section for details",
+  "ta": "1. LOCUS — அணுகல் எண் நீளம், வகை; 2. DEFINITION — மரபணு விளக்கம் & உயிரினம்; 3. FEATURES — மரபணு இடங்கள் CDS, குறிப்புரைகள்; 4. ORGANISM — வகைப்பாட்டியல் & பரம்பரை; 5. ORIGIN — உண்மையான நியூக்ளியோடைடு வரிசை (ATGC…). விவரங்களுக்கு ஒவ்வொரு பகுதியையும் தொடு"
+ }
+}

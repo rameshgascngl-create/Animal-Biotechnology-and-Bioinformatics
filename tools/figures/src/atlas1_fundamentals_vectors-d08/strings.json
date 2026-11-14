@@ -1,0 +1,26 @@
+{
+ "t1": {
+  "en": "Replacement vector: stuffer fragment between two arms",
+  "ta": "மாற்றுத் ⟦vec⟧: நிரப்புத் துண்டு இரு புயங்களுக்கிடையே"
+ },
+ "t2": {
+  "en": "Cut with enzyme; remove stuffer; add target DNA (up to ~20 kb)",
+  "ta": "நொதியால் வெட்டு; நிரப்பியை அகற்று; இலக்கு DNA-வைச் சேர் (~20 kb வரை)"
+ },
+ "t3": {
+  "en": "Ligate into concatemers with cos ends",
+  "ta": "இணைத்து உட்செலுத்து cos முனைகளுடன் தொடர்நிரல்கள்"
+ },
+ "t4": {
+  "en": "In vitro packaging (37–52 kb fits; undersized stuffer excluded)",
+  "ta": "இன்விட்ரோ பொதிவு (37–52 kb பொருந்தும்; சிறிய நிரப்பி விலக்கப்படுகிறது)"
+ },
+ "t5": {
+  "en": "Infect E. coli: plaques = library clones",
+  "ta": "E. coli-யைத் தொற்றச்செய்: பிளேக்குகள் = நூலகக் குளோன்கள்"
+ },
+ "_alt": {
+  "en": "1. Replacement vector: stuffer fragment between two arms; 2. Cut with enzyme; remove stuffer; add target DNA (up to ~20 kb); 3. Ligate into concatemers with cos ends; 4. In vitro packaging (37–52 kb fits; undersized stuffer excluded); 5. Infect E. coli: plaques = library clones.",
+  "ta": "1. மாற்றுத் ⟦vec⟧: நிரப்புத் துண்டு இரு புயங்களுக்கிடையே; 2. நொதியால் வெட்டு; நிரப்பியை அகற்று; இலக்கு DNA-வைச் சேர் (~20 kb வரை); 3. இணைத்து உட்செலுத்து cos முனைகளுடன் தொடர்நிரல்கள்; 4. இன்விட்ரோ பொதிவு (37–52 kb பொருந்தும்; சிறிய நிரப்பி விலக்கப்படுகிறது); 5. E. coli-யைத் தொற்றச்செய்: பிளேக்குகள் = நூலகக் குளோன்கள்."
+ }
+}
