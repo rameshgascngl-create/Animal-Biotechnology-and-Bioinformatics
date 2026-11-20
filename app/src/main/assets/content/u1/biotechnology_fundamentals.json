@@ -19,7 +19,7 @@
      "type": "p",
      "text": {
       "en": "🧬 Unit 1 · B.Sc. Biotechnology / Zoology",
-      "ta": "🧬 அலகு 1 · B.Sc. உயிரித் தொழில்நுட்பவியல் / விலங்கியல்",
+      "ta": "🧬 அலகு 1 · இளநிலை உயிரித் தொழில்நுட்பவியல் / விலங்கியல்",
       "ta_status": "draft"
      }
     }
@@ -37,15 +37,15 @@
      "type": "p",
      "text": {
       "en": "Definition, Scope & Importance",
-      "ta": "வரையறை, வரம்பு மற்றும் முக்கியத்துவம்",
+      "ta": "வரையறை, பயன்பாட்டுப் பரப்பு, முக்கியத்துவம்",
       "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Biotechnology is the **science of using living organisms and their components** to develop products and processes that benefit humanity. From life-saving medicines to sustainable agriculture and clean fuels — biotechnology is reshaping every dimension of modern life. This module introduces you to the foundation of this transformative field.",
-      "ta": "உயிரித் தொழில்நுட்பவியல் என்பது மனிதகுலத்துக்குப் பயனளிக்கும் பொருட்களையும் செயல்முறைகளையும் உருவாக்க **உயிரினங்களையும் அவற்றின் கூறுகளையும் பயன்படுத்தும் அறிவியல்**. உயிர் காக்கும் மருந்துகள் முதல் நிலையான வேளாண்மை, தூய எரிபொருள்கள் வரை — நவீன வாழ்வின் ஒவ்வொரு பரிமாணத்தையும் உயிரித் தொழில்நுட்பவியல் மாற்றியமைக்கிறது. இந்த மாற்றத்தை ஏற்படுத்தும் துறையின் அடித்தளத்தை இத்தொகுதி அறிமுகப்படுத்துகிறது.",
+      "en": "Biotechnology uses **living organisms, cells, enzymes or other biological components** to develop useful products or processes. Yeast makes dough rise by releasing carbon dioxide. In a different application, cultured cells can produce therapeutic proteins. Both examples use a biological activity to achieve a defined practical purpose.",
+      "ta": "பயனுள்ள பொருளைத் தயாரிக்கவோ, ஒரு செயல்முறையை உருவாக்கவோ **உயிரினங்கள், செல்கள், நொதிகள் அல்லது பிற உயிரியல் கூறுகளைப்** பயன்படுத்துவது உயிரித் தொழில்நுட்பவியல். ரொட்டி மாவில் ஈஸ்ட் வெளியிடும் கார்பன் டைஆக்சைடு மாவை உப்பச் செய்கிறது. மருத்துவப் பயன்பாட்டுக்கான புரதங்களை வளர்ப்பு செல்களிலிருந்து பெறுவதும் இத்துறையின் மற்றொரு பயன்பாடு. இரண்டிலும் ஒரு குறிப்பிட்ட தேவையை நிறைவேற்ற உயிரியல் செயல்பாடு பயன்படுகிறது.",
       "ta_status": "draft"
      }
     },
@@ -53,7 +53,7 @@
      "type": "p",
      "text": {
       "en": "📚 10 Sections 🎯 10 MCQ Quiz 📝 Short-Answer Revision ⏱ ~50 min study 🎓 B.Sc. Level",
-      "ta": "📚 10 பிரிவுகள் 🎯 10 MCQ வினாடி வினா 📝 சுருக்க விடை மீள்பார்வை ⏱ ~50 நிமிடப் படிப்பு 🎓 B.Sc. நிலை",
+      "ta": "📚 10 பிரிவுகள் 🎯 10 பல்தேர்வு வினாக்கள் 📝 குறுவிடை மீள்பார்வை ⏱ படிக்கும் நேரம் சுமார் 50 நிமிடங்கள் 🎓 இளநிலைப் பட்டப் படிப்பு",
       "ta_status": "draft"
      }
     },
@@ -71,37 +71,37 @@
      "items": [
       {
        "en": "✓Define biotechnology using standard scientific and simple student-friendly language.",
-       "ta": "✓தரமான அறிவியல் மொழியிலும் மாணவர்க்கு எளிய மொழியிலும் உயிரித் தொழில்நுட்பவியலை வரையறுத்தல்.",
+       "ta": "✓ உயிரித் தொழில்நுட்பவியலின் அறிவியல் வரையறையைக் கூறி, அதன் பொருளை எளிய சொற்களில் விளக்குதல்.",
        "ta_status": "draft"
       },
       {
        "en": "✓Identify the key components of biotechnology (organisms, cells, enzymes, technology).",
-       "ta": "✓உயிரித் தொழில்நுட்பவியலின் முக்கியக் கூறுகளை (உயிரினங்கள், செல்கள், நொதிகள், தொழில்நுட்பம்) அடையாளம் காணுதல்.",
+       "ta": "✓ உயிரினங்கள், செல்கள், நொதிகள், தொழில்நுட்பம் ஆகியவற்றின் பங்கை அடையாளம் காணுதல்.",
        "ta_status": "draft"
       },
       {
        "en": "✓Describe the major branches and scope of biotechnology with examples.",
-       "ta": "✓உயிரித் தொழில்நுட்பவியலின் முக்கியக் கிளைகளையும் வரம்பையும் எடுத்துக்காட்டுகளுடன் விவரித்தல்.",
+       "ta": "✓ உயிரித் தொழில்நுட்பவியலின் முக்கியப் பிரிவுகளையும் பயன்பாட்டுப் பரப்பையும் எடுத்துக்காட்டுகளுடன் விவரித்தல்.",
        "ta_status": "draft"
       },
       {
        "en": "✓Explain the importance of biotechnology in healthcare, agriculture, industry, and environment.",
-       "ta": "✓சுகாதாரம், வேளாண்மை, தொழில், சூழலில் உயிரித் தொழில்நுட்பவியலின் முக்கியத்துவத்தை விளக்குதல்.",
+       "ta": "✓ மருத்துவம், வேளாண்மை, தொழில்துறை, சுற்றுச்சூழல் ஆகியவற்றில் இதன் முக்கியத்துவத்தை விளக்குதல்.",
        "ta_status": "draft"
       },
       {
        "en": "✓Discuss real-world applications such as insulin production, GM crops, and bioremediation.",
-       "ta": "✓இன்சுலின் உற்பத்தி, GM பயிர்கள், உயிரிவழிச் சீரமைப்பு போன்ற நடைமுறைப் பயன்பாடுகளை விவாதித்தல்.",
+       "ta": "✓ இன்சுலின் உற்பத்தி, மரபணு மாற்றப்பட்ட பயிர்கள், உயிரியல் வழி மாசுநீக்கம் ஆகிய பயன்பாடுகளை விளக்குதல்.",
        "ta_status": "draft"
       },
       {
        "en": "✓Distinguish between Traditional and Modern (rDNA) biotechnology.",
-       "ta": "✓பாரம்பரிய மற்றும் நவீன (rDNA) உயிரித் தொழில்நுட்பவியலைப் பிரித்தறிதல்.",
+       "ta": "✓ மரபுவழி உயிரித் தொழில்நுட்பத்தையும் மறுசேர்க்கை DNA போன்ற நவீன அணுகுமுறைகளையும் வேறுபடுத்திக் கூறுதல்.",
        "ta_status": "bracketed"
       },
       {
        "en": "✓Answer short-answer and MCQ-type examination questions on this topic.",
-       "ta": "✓இத்தலைப்பிலான சுருக்க விடை மற்றும் MCQ வகைத் தேர்வு வினாக்களுக்கு விடையளித்தல்.",
+       "ta": "✓ இந்தப் பாடத்தின் பல்தேர்வு வினாக்களுக்கும் குறுவிடை வினாக்களுக்கும் விடையளித்தல்.",
        "ta_status": "draft"
       }
      ]
@@ -120,7 +120,7 @@
      "type": "p",
      "text": {
       "en": "Biotechnology combines biology with technology to create products and processes that solve problems and improve human life.",
-      "ta": "உயிரித் தொழில்நுட்பவியல் உயிரியலையும் தொழில்நுட்பத்தையும் இணைத்து, சிக்கல்களைத் தீர்த்து மனித வாழ்வை மேம்படுத்தும் பொருட்களையும் செயல்முறைகளையும் உருவாக்குகிறது.",
+      "ta": "உயிரியல் அறிவையும் தொழில்நுட்ப முறைகளையும் இணைத்து, நடைமுறைத் தேவைகளுக்கு ஏற்ற பொருள்களையும் செயல்முறைகளையும் உருவாக்கும் துறை இது.",
       "ta_status": "draft"
      }
     },
@@ -128,7 +128,7 @@
      "type": "p",
      "text": {
       "en": "**Etymology & Origin of the Word**",
-      "ta": "**சொல்லின் பிறப்பும் தோற்றமும்**",
+      "ta": "**சொல்லின் தோற்றம்**",
       "ta_status": "draft"
      }
     },
@@ -145,7 +145,7 @@
      "type": "p",
      "text": {
       "en": "**Standard Scientific Definition**",
-      "ta": "**தரமான அறிவியல் வரையறை**",
+      "ta": "**அறிவியல் வரையறை**",
       "ta_status": "draft"
      }
     },
@@ -154,7 +154,7 @@
      "kind": "info",
      "text": {
       "en": "📌 Definition (UN Convention on Biological Diversity, 1992)\n\"Biotechnology means any technological application that uses biological systems, living organisms, or derivatives thereof, to make or modify products or processes for specific use.\"\n— Convention on Biological Diversity (CBD), Article 2, United Nations, 1992",
-      "ta": "📌 வரையறை (ஐ.நா. உயிரியப் பன்மை மாநாடு, 1992)\n\"உயிரித் தொழில்நுட்பவியல் என்பது குறிப்பிட்ட பயன்பாட்டுக்காக உயிரியல் அமைப்புகள், உயிரினங்கள் அல்லது அவற்றின் வழிப்பொருள்களைப் பயன்படுத்திப் பொருட்களையோ செயல்முறைகளையோ உருவாக்கும் அல்லது மாற்றியமைக்கும் எந்தத் தொழில்நுட்பப் பயன்பாடும் ஆகும்.\"\n— உயிரியப் பன்மை மாநாடு (CBD), பிரிவு 2, ஐக்கிய நாடுகள், 1992",
+      "ta": "📌 ஐ.நா. உயிரியல் பன்மை ஒப்பந்தத்தின் வரையறை\nகுறிப்பிட்ட பயன்பாட்டிற்கான பொருள்களையோ செயல்முறைகளையோ உருவாக்க அல்லது மாற்ற, உயிரியல் அமைப்புகள், உயிரினங்கள் அல்லது அவற்றிலிருந்து பெறப்பட்ட பொருள்களைப் பயன்படுத்தும் தொழில்நுட்பப் பயன்பாடே உயிரித் தொழில்நுட்பவியல்.\n— உயிரியல் பன்மை ஒப்பந்தம் (CBD), பிரிவு 2, 1992",
       "ta_status": "draft"
      }
     },
@@ -163,7 +163,7 @@
      "kind": "info",
      "text": {
       "en": "📌 Definition (European Federation of Biotechnology)\n\"Biotechnology is the integration of natural sciences and engineering sciences in order to achieve the application of organisms, cells, parts thereof and molecular analogues for products and services.\"\n— European Federation of Biotechnology (EFB)",
-      "ta": "📌 வரையறை (ஐரோப்பிய உயிரித் தொழில்நுட்பவியல் கூட்டமைப்பு)\n\"உயிரித் தொழில்நுட்பவியல் என்பது உயிரினங்கள், செல்கள், அவற்றின் பகுதிகள், மூலக்கூறு ஒப்புமைகளைப் பொருட்களுக்கும் சேவைகளுக்கும் பயன்படுத்த இயற்கை அறிவியலையும் பொறியியல் அறிவியலையும் ஒருங்கிணைப்பதாகும்.\"\n— ஐரோப்பிய உயிரித் தொழில்நுட்பவியல் கூட்டமைப்பு (EFB)",
+      "ta": "📌 ஐரோப்பிய உயிரித் தொழில்நுட்பவியல் கூட்டமைப்பின் வரையறை\nபொருள்களையும் சேவைகளையும் வழங்குவதற்கு உயிரினங்கள், செல்கள், அவற்றின் பகுதிகள், அவை போன்ற மூலக்கூறுகள் ஆகியவற்றைப் பயன்படுத்தலாம். இதற்காக இயற்கை அறிவியலையும் பொறியியலையும் ஒருங்கிணைக்கும் துறை உயிரித் தொழில்நுட்பவியல்.\n— ஐரோப்பிய உயிரித் தொழில்நுட்பவியல் கூட்டமைப்பு (EFB)",
       "ta_status": "draft"
      }
     },
@@ -171,7 +171,7 @@
      "type": "p",
      "text": {
       "en": "**Simple Explanation for Students**",
-      "ta": "**மாணவர்க்கு எளிய விளக்கம்**",
+      "ta": "**எளிய விளக்கம்**",
       "ta_status": "draft"
      }
     },
@@ -179,7 +179,7 @@
      "type": "p",
      "text": {
       "en": "In simple terms: **Biotechnology = Biology + Technology.**",
-      "ta": "எளிமையாக: **உயிரித் தொழில்நுட்பவியல் = உயிரியல் + தொழில்நுட்பம்.**",
+      "ta": "எளிமையாகக் கூறினால் **உயிரித் தொழில்நுட்பவியல் = உயிரியல் + தொழில்நுட்பம்**.",
       "ta_status": "draft"
      }
     },
@@ -187,7 +187,7 @@
      "type": "p",
      "text": {
       "en": "It means using _living organisms_ (bacteria, yeast, plants, animals) or their _parts_ (cells, enzymes, DNA) to make useful products or solve problems in medicine, agriculture, food, industry, and the environment.",
-      "ta": "மருத்துவம், வேளாண்மை, உணவு, தொழில், சூழலில் பயனுள்ள பொருட்களை உருவாக்க அல்லது சிக்கல்களைத் தீர்க்க _உயிருள்ள உயிரினங்களை_ (பாக்டீரியா, ஈஸ்ட், தாவரங்கள், விலங்குகள்) அல்லது அவற்றின் _பகுதிகளை_ (செல்கள், நொதிகள், DNA) பயன்படுத்துவது என்று பொருள்.",
+      "ta": "பாக்டீரியா, ஈஸ்ட், தாவரங்கள், விலங்குகள் போன்ற _உயிரினங்களும்_, அவற்றின் செல்கள், நொதிகள், DNA போன்ற _கூறுகளும்_ பயன்படுகின்றன. இவற்றைக் கொண்டு மருத்துவம், உணவு உற்பத்தி, வேளாண்மை, தொழில்துறை, சுற்றுச்சூழல் ஆகிய துறைகளில் பல தேவைகளை நிறைவேற்றலாம்.",
       "ta_status": "draft"
      }
     },
@@ -196,7 +196,7 @@
      "kind": "info",
      "text": {
       "en": "**💡 Easy Analogy**\nJust as a **factory** uses machines, raw materials, and energy to manufacture products — biotechnology uses **living cells as biological machines**, with DNA as the programme, enzymes as tools, and organic molecules as raw material.",
-      "ta": "**💡 எளிய ஒப்புமை**\nஒரு **தொழிற்சாலை** இயந்திரங்கள், மூலப்பொருள்கள், ஆற்றலைக் கொண்டு பொருட்களைத் தயாரிப்பது போல — உயிரித் தொழில்நுட்பவியல் **உயிருள்ள செல்களை உயிரியல் இயந்திரங்களாகப்** பயன்படுத்துகிறது; DNA நிரல், நொதிகள் கருவிகள், கரிம மூலக்கூறுகள் மூலப்பொருள்.",
+      "ta": "**💡 தொழிற்சாலை ஒப்புமை**\nஒரு தொழிற்சாலையில் கருவிகள் மூலப்பொருளைப் பயனுள்ள பொருளாக மாற்றுகின்றன. அதுபோலச் செல்லில் DNA மரபுத் தகவலைக் கொண்டுள்ளது. நொதிகள் அந்தச் செல் பயன்படுத்தும் மூலப்பொருள்களின் வேதிவினைகளை விரைவுபடுத்துகின்றன.",
       "ta_status": "draft"
      }
     },
@@ -212,7 +212,7 @@
      "type": "p",
      "text": {
       "en": "**Living Organisms**",
-      "ta": "**உயிருள்ள உயிரினங்கள்**",
+      "ta": "**உயிரினங்கள்**",
       "ta_status": "draft"
      }
     },
@@ -220,7 +220,7 @@
      "type": "p",
      "text": {
       "en": "Bacteria, yeast, fungi, algae, plants, and animals are used as **biological factories** to produce desired products through their natural metabolic activities.",
-      "ta": "பாக்டீரியா, ஈஸ்ட், பூஞ்சை, பாசி, தாவரங்கள், விலங்குகள் ஆகியவை தம் இயற்கை வளர்சிதை மாற்றச் செயல்பாடுகள் மூலம் தேவையான பொருட்களை உருவாக்கும் **உயிரியல் தொழிற்சாலைகளாகப்** பயன்படுகின்றன.",
+      "ta": "பாக்டீரியா, ஈஸ்ட், பிற பூஞ்சைகள், பாசிகள், தாவரங்கள், விலங்குகள் ஆகியவற்றின் வளர்சிதை மாற்றச் செயல்களைப் பயன்படுத்தித் தேவையான பொருள்களைப் பெறலாம். இவ்வகையில் அவை **உயிரியல் தொழிற்சாலைகள்** போலச் செயல்படுகின்றன.",
       "ta_status": "draft"
      }
     },
@@ -228,7 +228,7 @@
      "type": "p",
      "text": {
       "en": "**Cells & Cell Parts**",
-      "ta": "**செல்களும் செல் பகுதிகளும்**",
+      "ta": "**செல்களும் அவற்றின் கூறுகளும்**",
       "ta_status": "draft"
      }
     },
@@ -236,7 +236,7 @@
      "type": "p",
      "text": {
       "en": "Individual cells (prokaryotic or eukaryotic) or their isolated components (ribosomes, mitochondria) can be used to carry out specific reactions.",
-      "ta": "தனித்தனி செல்கள் (புரோகேரியோட்டு அல்லது யூகேரியோட்டு) அல்லது அவற்றின் தனித்துப் பிரித்த கூறுகள் (ரைபோசோம்கள், மைட்டோகாண்ட்ரியா) குறிப்பிட்ட வினைகளை நிகழ்த்தப் பயன்படுத்தப்படலாம்.",
+      "ta": "தெளிவான உட்கரு கொண்ட அல்லது உட்கரு அற்ற செல்களைத் தனியே பயன்படுத்தலாம். சில வினைகளுக்கு முழுச் செல்லுக்குப் பதிலாக, செல்லிலிருந்து பிரித்தெடுத்த ரைபோசோம், மைட்டோகாண்ட்ரியா போன்ற கூறுகள் பயன்படுகின்றன.",
       "ta_status": "draft"
      }
     },
@@ -252,7 +252,7 @@
      "type": "p",
      "text": {
       "en": "Biological catalysts that speed up chemical reactions. Industrial enzymes like **amylase, protease, and lipase** are produced in bulk by microbial fermentation.",
-      "ta": "வேதிவினைகளை விரைவுபடுத்தும் உயிரியல் வினையூக்கிகள். **அமைலேஸ், புரோட்டியேஸ், லைப்பேஸ்** போன்ற தொழில்துறை நொதிகள் நுண்ணுயிர் நொதித்தல் மூலம் பெருமளவில் உற்பத்தி செய்யப்படுகின்றன.",
+      "ta": "நொதிகள் வேதிவினைகளை விரைவுபடுத்தும் உயிரியல் வினையூக்கிகள். **அமைலேஸ், புரோட்டியேஸ், லைப்பேஸ்** போன்ற நொதிகளை நுண்ணுயிர்களை வளர்த்துப் பெருமளவில் உற்பத்தி செய்கிறார்கள்.",
       "ta_status": "draft"
      }
     },
@@ -284,7 +284,7 @@
      "type": "p",
      "text": {
       "en": "Bioreactors, downstream processing, genetic engineering tools (CRISPR, PCR), and bioprocess engineering integrate biology with engineering principles.",
-      "ta": "உயிரிவினைக் கலன்கள், கீழ்நிலைச் செயலாக்கம், மரபணுப் பொறியியல் கருவிகள் (CRISPR, PCR), உயிரிச் செயல்முறைப் பொறியியல் ஆகியவை உயிரியலைப் பொறியியல் கோட்பாடுகளுடன் ஒருங்கிணைக்கின்றன.",
+      "ta": "உயிரிவினைக் கலன்கள் செல்லின் வளர்ச்சிக்கு ஏற்ற சூழலைப் பேணுகின்றன. உற்பத்திக்குப் பின் தேவையான பொருளைப் பிரித்தெடுத்துத் தூய்மைப்படுத்துகிறார்கள். உயிரியல் அறிவையும் பொறியியல் முறைகளையும் ஒன்றிணைப்பதற்கு இவை எடுத்துக்காட்டுகள். மரபணுத் தொழில்நுட்பத்தில் CRISPR, PCR ஆகிய கருவிகளும் பயன்படுகின்றன.",
       "ta_status": "draft"
      }
     },
@@ -300,7 +300,7 @@
      "type": "p",
      "text": {
       "en": "Every biotechnology process has a defined **goal**: producing medicine, improving crops, treating waste, generating fuel, or developing diagnostics.",
-      "ta": "ஒவ்வொரு உயிரித் தொழில்நுட்பச் செயல்முறைக்கும் வரையறுக்கப்பட்ட **இலக்கு** உண்டு: மருந்து உற்பத்தி, பயிர் மேம்பாடு, கழிவுச் சுத்திகரிப்பு, எரிபொருள் உருவாக்கம் அல்லது நோயறிதல் கருவிகளை உருவாக்குதல்.",
+      "ta": "ஒவ்வொரு செயல்முறைக்கும் ஒரு **குறிப்பிட்ட நோக்கம்** உண்டு. மருந்து தயாரித்தல், பயிரை மேம்படுத்துதல், கழிவைச் சுத்திகரித்தல், எரிபொருள் பெறுதல், நோயறியும் கருவியை உருவாக்குதல் ஆகியவை சில எடுத்துக்காட்டுகள்.",
       "ta_status": "draft"
      }
     },
@@ -308,7 +308,7 @@
      "type": "p",
      "text": {
       "en": "**Traditional vs. Modern Biotechnology**",
-      "ta": "**பாரம்பரிய – நவீன உயிரித் தொழில்நுட்பவியல்**",
+      "ta": "**மரபுவழி மற்றும் நவீன உயிரித் தொழில்நுட்பவியல்**",
       "ta_status": "draft"
      }
     },
@@ -356,13 +356,13 @@
         "ta_status": "draft"
        },
        {
-        "en": "Low — random, empirical",
-        "ta": "குறைவு — தற்செயலானது, அனுபவ அடிப்படையிலானது",
+        "en": "Selection is based mainly on observable traits or product characteristics",
+        "ta": "பண்புகளையும் உற்பத்திப் பொருளின் தன்மைகளையும் கவனித்துத் தேர்வு செய்கிறார்கள்.",
         "ta_status": "draft"
        },
        {
-        "en": "High — targeted gene manipulation",
-        "ta": "அதிகம் — இலக்கு வைத்த மரபணுக் கையாளுதல்",
+        "en": "Some methods can target chosen DNA sequences; outcomes still need verification",
+        "ta": "சில முறைகளில் குறிப்பிட்ட DNA வரிசையை இலக்காகக் கொள்ளலாம். ஏற்பட்ட மாற்றத்தைச் சோதித்து உறுதிப்படுத்த வேண்டும்.",
         "ta_status": "draft"
        }
       ],
@@ -373,8 +373,8 @@
         "ta_status": "draft"
        },
        {
-        "en": "Microorganisms, natural selection",
-        "ta": "நுண்ணுயிரிகள், இயற்கைத் தேர்வு",
+        "en": "Microorganisms and selective breeding",
+        "ta": "நுண்ணுயிர்கள், தேர்ந்தெடுத்த இனப்பெருக்கம்",
         "ta_status": "draft"
        },
        {
@@ -395,8 +395,8 @@
         "ta_status": "draft"
        },
        {
-        "en": "Post-1953 (DNA discovery); accelerated post-1973 (rDNA)",
-        "ta": "1953-க்குப் பின் (DNA கண்டுபிடிப்பு); 1973-க்குப் பின் (rDNA) வேகமடைந்தது",
+        "en": "DNA double-helix model in 1953; recombinant DNA research expanded in the 1970s",
+        "ta": "1953-ல் DNA இரட்டைச் சுருள் மாதிரி முன்வைக்கப்பட்டது. 1970-களில் மறுசேர்க்கை DNA ஆய்வு விரிவடைந்தது.",
         "ta_status": "bracketed"
        }
       ],
@@ -424,8 +424,8 @@
         "ta_status": "draft"
        },
        {
-        "en": "Minimal — proven safe over centuries",
-        "ta": "மிகக் குறைவு — நூற்றாண்டுகளாகப் பாதுகாப்பானதென நிரூபிக்கப்பட்டது",
+        "en": "Requires hygiene, quality control and assessment of hazards such as contamination",
+        "ta": "தூய்மை, தரக் கட்டுப்பாடு, மாசுபடுதல் போன்ற அபாயங்களை மதிப்பிடுதல் தேவை.",
         "ta_status": "draft"
        },
        {
@@ -924,8 +924,8 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**🌍 Environmental Biotechnology**\n• **Bioremediation:** Microorganisms (_Pseudomonas putida_) degrade petroleum hydrocarbons, pesticides, heavy metals in contaminated soil/water\n• **Biological wastewater treatment:** Activated sludge process; anaerobic digesters reduce BOD/COD by >90%\n• **Biogas production:** Methanogenic bacteria convert organic waste to CH₄ — renewable energy + waste management\n• **Biomining:** Acidothermophilic bacteria (_Thiobacillus_) extract metals (copper, gold) from low-grade ores\n• **Carbon sequestration:** Algal biotechnology captures atmospheric CO₂ while producing biomass/biofuels\n• **Biopesticides:** _Bacillus thuringiensis_ (Bt) as natural pesticide — biodegradable, no soil contamination",
-      "ta": "**🌍 சூழல் உயிரித் தொழில்நுட்பவியல்**\n• **உயிரிவழிச் சீரமைப்பு:** நுண்ணுயிரிகள் (_Pseudomonas putida_) மாசடைந்த மண்/நீரில் பெட்ரோலிய ஹைட்ரோகார்பன்கள், பூச்சிக்கொல்லிகள், கன உலோகங்களைச் சிதைக்கின்றன\n• **உயிரியல் கழிவுநீர்ச் சுத்திகரிப்பு:** செயல்படு கசடு முறை; காற்றின்றிச் செரிக்கும் கலன்கள் BOD/COD-ஐ >90% குறைக்கின்றன\n• **உயிரிவளி உற்பத்தி:** மீத்தேன் உருவாக்கும் பாக்டீரியா கரிமக் கழிவை CH₄-ஆக மாற்றுகிறது — புதுப்பிக்கத்தக்க ஆற்றலும் கழிவு மேலாண்மையும்\n• **உயிரிச் சுரங்கவியல்:** அமில-வெப்ப விரும்பும் பாக்டீரியா (_Thiobacillus_) தரம் குறைந்த தாதுக்களிலிருந்து உலோகங்களை (செம்பு, தங்கம்) எடுக்கிறது\n• **கார்பன் பிடிப்பு:** பாசி உயிரித் தொழில்நுட்பவியல் வளிமண்டல CO₂-ஐப் பிடித்து உயிரித்திரள்/உயிரி எரிபொருள்களை உருவாக்குகிறது\n• **உயிரிப் பூச்சிக்கொல்லிகள்:** _Bacillus thuringiensis_ (Bt) இயற்கைப் பூச்சிக்கொல்லி — மக்கும், மண் மாசு இல்லை",
+      "en": "**🌍 Environmental Biotechnology**\n• **Bioremediation:** Microorganisms can degrade some organic pollutants, such as petroleum hydrocarbons. Metals are elements and cannot be biodegraded. Microbial activity can change their chemical form and sometimes reduce their mobility.\n• **Biological wastewater treatment:** Activated sludge and anaerobic treatment can lower the oxygen demand of wastewater. Treatment performance depends on the incoming wastewater and the process.\n• **Biogas production:** In anaerobic digestion, different microorganisms break down organic waste. Methanogenic archaea produce methane (CH₄) from some of the breakdown products.\n• **Biomining:** Some microorganisms help recover metals such as copper from low-grade ores.\n• **Carbon sequestration:** Growing algae incorporates carbon dioxide into biomass, which can be used to produce fuels.\n• **Biopesticides:** Products based on _Bacillus thuringiensis_ (Bt) can control certain insects. Environmental effects depend on how and where they are used.",
+      "ta": "**🌍 சுற்றுச்சூழல் உயிரித் தொழில்நுட்பம்**\n• **உயிரியல் வழி மாசுநீக்கம்:** பெட்ரோலிய ஹைட்ரோகார்பன்கள் போன்ற சில கரிம மாசுப்பொருள்களை நுண்ணுயிர்கள் சிதைக்கின்றன. உலோகங்கள் தனிமங்கள் என்பதால் அவற்றை உயிரியல் முறையில் சிதைக்க முடியாது. நுண்ணுயிர்ச் செயல்பாடு உலோகங்களின் வேதி வடிவத்தை மாற்றி, சில சூழல்களில் அவை பரவுவதைக் குறைக்கலாம்.\n• **கழிவுநீர்ச் சுத்திகரிப்பு:** செயலூக்கச் சேறு முறை, ஆக்சிஜனற்ற சுத்திகரிப்பு ஆகியவை கழிவுநீரின் ஆக்சிஜன் தேவையைக் குறைக்கலாம். கழிவுநீரின் தன்மையையும் கையாளும் முறையையும் பொறுத்து சுத்திகரிப்பின் திறன் மாறுபடும்.\n• **உயிர்வாயு உற்பத்தி:** ஆக்சிஜன் இல்லாத சூழலில் பல வகை நுண்ணுயிர்கள் கரிமக் கழிவைச் சிதைக்கின்றன. சிதைவின்போது உருவாகும் சில பொருள்களைப் பயன்படுத்தி, மீத்தேன் உருவாக்கும் ஆர்க்கியா நுண்ணுயிர்கள் மீத்தேனை (CH₄) வெளியிடுகின்றன.\n• **உயிரியல் வழி உலோகப் பிரித்தெடுப்பு:** சில நுண்ணுயிர்கள் குறைந்த தரத் தாதுக்களிலிருந்து செம்பு போன்ற உலோகங்களைப் பிரித்தெடுக்க உதவுகின்றன.\n• **கார்பன் நிலைநிறுத்தம்:** பாசிகள் வளரும்போது கார்பன் டைஆக்சைடை உயிர்த்திரளாக மாற்றுகின்றன. அந்த உயிர்த்திரளைப் பயன்படுத்தி எரிபொருள் தயாரிக்கலாம்.\n• **உயிரியல் பூச்சிக்கொல்லி:** குறிப்பிட்ட பூச்சிகளைக் கட்டுப்படுத்த பேசில்லஸ் துரிஞ்சியென்சிஸ் (Bt) சார்ந்த தயாரிப்புகள் பயன்படுகின்றன. அவற்றின் சுற்றுச்சூழல் விளைவுகளைப் பயன்பாட்டுச் சூழலுக்கு ஏற்ப மதிப்பிட வேண்டும்.",
       "ta_status": "draft"
      }
     },
@@ -1032,8 +1032,8 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "**💉 How Recombinant Insulin Changed Diabetes Treatment**\n• **Before 1982:** Insulin extracted from pig/cattle pancreas — expensive, allergic reactions, limited supply\n• **1982:** Eli Lilly & Genentech launched Humulin — _first recombinant human insulin_ (rDNA technology)\n• **Process:** Human insulin gene (A & B chains) inserted into _E. coli_ plasmid → bacteria produce insulin protein → extraction + purification\n• **Result:** Unlimited, pure, human-identical insulin available affordably worldwide\n• **Significance:** Proved that rDNA technology can produce life-saving human proteins using bacteria",
-      "ta": "**💉 மறுகூட்டிணைவு இன்சுலின் நீரிழிவுச் சிகிச்சையை எவ்வாறு மாற்றியது**\n• **1982-க்கு முன்:** பன்றி/மாட்டுக் கணையத்திலிருந்து இன்சுலின் எடுக்கப்பட்டது — விலை உயர்ந்தது, ஒவ்வாமை, குறைந்த அளிப்பு\n• **1982:** எலி லில்லி & ஜெனென்டெக் ஹியூமுலின் அறிமுகம் — _முதல் மறுகூட்டிணைவு மனித இன்சுலின்_ (rDNA தொழில்நுட்பம்)\n• **செயல்முறை:** மனித இன்சுலின் மரபணு (A & B சங்கிலிகள்) _E. coli_ பிளாஸ்மிட்டில் செருகப்படுகிறது → பாக்டீரியா இன்சுலின் புரதத்தை உருவாக்குகிறது → பிரித்தெடுத்துத் தூய்மையாக்கல்\n• **விளைவு:** வரம்பற்ற, தூய, மனிதனுக்கு ஒத்த இன்சுலின் உலகெங்கும் மலிவாகக் கிடைக்கிறது\n• **முக்கியத்துவம்:** பாக்டீரியாவைப் பயன்படுத்தி உயிர் காக்கும் மனிதப் புரதங்களை rDNA தொழில்நுட்பத்தால் உருவாக்கலாம் என நிரூபித்தது",
+      "en": "**💉 How Recombinant Insulin Changed Diabetes Treatment**\n• **Before 1982:** Insulin extracted from pig/cattle pancreas — expensive, allergic reactions, limited supply\n• **1982:** The US Food and Drug Administration approved Humulin, a recombinant human insulin.\n• **Process:** Human insulin gene (A & B chains) inserted into _E. coli_ plasmid → bacteria produce insulin protein → extraction + purification\n• **Result:** Manufacturers could produce human insulin at scale without relying on animal pancreases. Access still depends on supply and cost.\n• **Significance:** Proved that rDNA technology can produce life-saving human proteins using bacteria",
+      "ta": "**💉 நீரிழிவு சிகிச்சையில் மறுசேர்க்கை இன்சுலின்**\n• **1982-க்கு முன்:** பன்றி, மாடு ஆகியவற்றின் கணையத்திலிருந்து இன்சுலின் பிரித்தெடுக்கப்பட்டது. சிலருக்கு ஒவ்வாமை ஏற்பட்டது. உற்பத்தியும் விலங்குக் கணையங்களின் கிடைப்பைப் பொறுத்திருந்தது.\n• **1982:** மறுசேர்க்கை முறையில் தயாரிக்கப்பட்ட மனித இன்சுலின் மருந்தான ஹியூமுலினுக்கு அமெரிக்க உணவு, மருந்து நிர்வாகம் ஒப்புதல் அளித்தது.\n• **உற்பத்தி அடிப்படை:** மனித இன்சுலினின் A, B சங்கிலிகளுக்கான மரபுத் தகவலைப் பயன்படுத்தி, ஈ. கோலை பாக்டீரியாக்கள் தேவையான புரதங்களை உற்பத்தி செய்தன. அவற்றைப் பிரித்தெடுத்துத் தூய்மைப்படுத்தினர்.\n• **விளைவு:** விலங்குக் கணையங்களைச் சார்ந்திருக்காமல் மனித இன்சுலினைப் பெருமளவில் தயாரிக்க முடிந்தது. நோயாளிகளுக்கு மருந்து கிடைப்பது அதன் விநியோகத்தையும் விலையையும் பொறுத்தது.\n• **முக்கியத்துவம்:** பாக்டீரியாவைப் பயன்படுத்தி மருத்துவத்துக்குத் தேவையான மனிதப் புரதத்தைத் தயாரிக்க முடியும் என்பதை இம்முறை காட்டியது.",
       "ta_status": "draft"
      }
     },
@@ -1352,8 +1352,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Explore concepts through interactive accordions, click-to-reveal definitions, and highlight boxes. Engage actively with the content!",
-      "ta": "ஊடாடும் அக்கார்டியன்கள், தொட்டு விரிக்கும் வரையறைகள், முனைப்புப் பெட்டிகள் மூலம் கருத்துகளை ஆராய்க. உள்ளடக்கத்துடன் ஆர்வமாக ஈடுபடுக!",
+      "en": "Use these explanations and definitions to revise the main concepts introduced in this chapter.",
+      "ta": "இந்தப் பாடத்தில் அறிமுகமான முக்கியக் கருத்துகளை இங்கு கொடுக்கப்பட்டுள்ள விளக்கங்களையும் வரையறைகளையும் கொண்டு மீள்பார்வை செய்யலாம்.",
       "ta_status": "draft"
      }
     },
@@ -1841,8 +1841,8 @@
     {
      "type": "p",
      "text": {
-      "en": "A visual overview of how biotechnology branches connect to tools, products, and societal impacts — hover over each node to highlight it.",
-      "ta": "உயிரித் தொழில்நுட்பவியலின் கிளைகள் கருவிகள், பொருட்கள், சமூகத் தாக்கங்களுடன் எவ்வாறு இணைகின்றன என்பதன் காட்சி மேலோட்டம் — முனைப்பாக்க ஒவ்வொரு முனையின் மீதும் தொடுக.",
+      "en": "The concept map links each branch of biotechnology to its tools, products and effects on society.",
+      "ta": "உயிரித் தொழில்நுட்பவியலின் ஒவ்வொரு பிரிவிலும் பயன்படும் கருவிகள், அவற்றால் பெறப்படும் பொருள்கள், அவை சமூகத்தில் ஏற்படுத்தும் விளைவுகள் ஆகியவற்றுக்கிடையிலான தொடர்பைக் கருத்து வரைபடம் காட்டுகிறது.",
       "ta_status": "draft"
      }
     },

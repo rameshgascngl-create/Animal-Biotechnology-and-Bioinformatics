@@ -118,7 +118,7 @@
      "type": "p",
      "text": {
       "en": "Alignment arranges sequences to reveal similarity that may reflect shared ancestry, structure or function.",
-      "ta": "ஒழுங்கமைவு, பொது மூதாதை, கட்டமைப்பு அல்லது செயலைப் பிரதிபலிக்கக்கூடிய ஒப்புமையை வெளிப்படுத்த வரிசைகளை அடுக்குகிறது.",
+      "ta": "DNA, RNA அல்லது புரத வரிசைகளை ஒழுங்கமைத்தால், எந்தப் பகுதிகள் ஒத்திருக்கின்றன என்பதை அறியலாம். இவ்வொற்றுமை பொதுவான மூதாதை, கட்டமைப்பு அல்லது செயல்பாடு குறித்துக் குறிப்பளிக்கலாம்.",
       "ta_status": "draft"
      }
     },
@@ -127,7 +127,7 @@
      "kind": "info",
      "text": {
       "en": "Sequence alignment\nA way of arranging DNA, RNA or protein sequences to identify regions of similarity, by introducing gaps where needed, that may be due to functional, structural or evolutionary relationships.",
-      "ta": "வரிசை ஒழுங்கமைவு\nசெயல், கட்டமைப்பு அல்லது பரிணாம உறவுகளால் ஏற்பட்டிருக்கக்கூடிய ஒப்புமைப் பகுதிகளை அடையாளம் காண, தேவையான இடங்களில் இடைவெளிகளைச் சேர்த்து DNA, RNA அல்லது புரத வரிசைகளை அடுக்கும் முறை.",
+      "ta": "**வரிசை ஒழுங்கமைவு**\nDNA, RNA அல்லது புரத வரிசைகளில் ஒத்த பகுதிகள் ஒரே இடத்தில் வரும்படி அவற்றை அமைப்பதே வரிசை ஒழுங்கமைவு. தேவையான இடங்களில் இடைவெளிகள் சேர்க்கப்படுகின்றன. கிடைக்கும் ஒற்றுமை, கட்டமைப்பு, செயல்பாடு அல்லது பரிணாமத் தொடர்பை ஆராய உதவுகிறது.",
       "ta_status": "draft"
      }
     },
@@ -149,60 +149,60 @@
       [
        {
         "en": "**Identity**",
-        "ta": "**ஒத்தமைவு**",
+        "ta": "**ஒரே மாதிரியாக அமைதல்**",
         "ta_status": "draft"
        },
        {
         "en": "Percentage of positions with exactly the same residue",
-        "ta": "சரியாக ஒரே அமினோ அமிலம் உள்ள இடங்களின் சதவீதம்",
+        "ta": "ஒழுங்கமைவில் ஒரே நியுக்ளியோடைடு அல்லது அமினோ அமிலம் கொண்ட இடங்களின் விழுக்காடு.",
         "ta_status": "draft"
        }
       ],
       [
        {
         "en": "**Similarity**",
-        "ta": "**ஒப்புமை**",
+        "ta": "**ஒற்றுமை**",
         "ta_status": "draft"
        },
        {
         "en": "Percentage of positions with identical or chemically similar residues (positive score in the matrix)",
-        "ta": "ஒத்த அல்லது வேதியியல் ரீதியாக ஒத்த அமினோ அமிலங்கள் உள்ள இடங்களின் சதவீதம் (அணியில் நேர்மறை மதிப்பெண்)",
+        "ta": "புரத ஒழுங்கமைவில் ஒரே அமினோ அமிலம் உள்ள இடங்களையும், மாற்றீட்டு அட்டவணையில் நேர்மதிப்பெண் பெறும் அமினோ அமில இணைகள் உள்ள இடங்களையும் சேர்த்துக் கணக்கிடும் விழுக்காடு.",
         "ta_status": "draft"
        }
       ],
       [
        {
         "en": "**Homology**",
-        "ta": "**ஹோமாலஜி**",
+        "ta": "**ஒரே மூதாதையிலிருந்து தோன்றிய தொடர்பு**",
         "ta_status": "draft"
        },
        {
         "en": "Shared ancestry. It is either present or absent; **not** a percentage",
-        "ta": "பொது மூதாதை. இது இருக்கும் அல்லது இராது; **சதவீதம் அல்ல**",
+        "ta": "இரு வரிசைகள் ஒரே மூதாதை வரிசையிலிருந்து தோன்றியுள்ளனவா என்பதைக் குறிக்கும். இத்தொடர்பை விழுக்காட்டில் அளவிடுவதில்லை.",
         "ta_status": "draft"
        }
       ],
       [
        {
         "en": "**Orthologues**",
-        "ta": "**ஆர்த்தோலாக்குகள்**",
+        "ta": "**இனப் பிரிவால் வேறுபட்ட ஒருமூல மரபணுக்கள்**",
         "ta_status": "draft"
        },
        {
-        "en": "Homologous genes in different species, from speciation",
-        "ta": "இனப்பிரிவால் வேறுபட்ட இனங்களிலுள்ள ஹோமோலாக் மரபணுக்கள்",
+        "en": "Homologous genes whose lineages diverged when species split",
+        "ta": "ஒரு மூதாதை இனத்திலிருந்து வெவ்வேறு இனங்கள் பிரிந்தபோது, அவற்றில் தனித்தனியாகத் தொடர்ந்த ஒரே மூல மரபணுவின் வழித்தோன்றல்கள்.",
         "ta_status": "draft"
        }
       ],
       [
        {
         "en": "**Paralogues**",
-        "ta": "**பாராலாக்குகள்**",
+        "ta": "**நகலெடுப்பால் தோன்றிய ஒருமூல மரபணுக்கள்**",
         "ta_status": "draft"
        },
        {
-        "en": "Homologous genes in the same species, from duplication",
-        "ta": "மரபணு இரட்டிப்பால் ஒரே இனத்திலுள்ள ஹோமோலாக் மரபணுக்கள்",
+        "en": "Homologous genes that arose by gene duplication, whether now found in the same species or in different species",
+        "ta": "ஒரு மரபணு நகலெடுப்பால் தோன்றிய ஒரே மூலத்தையுடைய மரபணுக்கள். அவை இன்று ஒரே இனத்திலோ வெவ்வேறு இனங்களிலோ காணப்படலாம்.",
         "ta_status": "draft"
        }
       ]
@@ -212,7 +212,7 @@
      "type": "p",
      "text": {
       "en": "**Pairwise alignment: two types**",
-      "ta": "**இரட்டை ஒழுங்கமைவு: இரு வகைகள்**",
+      "ta": "**இரு வரிசை ஒழுங்கமைவின் வகைகள்**",
       "ta_status": "draft"
      }
     },
@@ -310,7 +310,7 @@
      "type": "p",
      "text": {
       "en": "**Scoring**",
-      "ta": "**மதிப்பிடல்**",
+      "ta": "**மதிப்பெண் வழங்கும் முறை**",
       "ta_status": "draft"
      }
     },
@@ -407,15 +407,15 @@
      "type": "p",
      "text": {
       "en": "MSA aligns three or more sequences, exposing conserved residues that mark functionally important sites.",
-      "ta": "MSA மூன்று அல்லது மேற்பட்ட வரிசைகளை ஒழுங்கமைத்து, செயல்முக்கியத் தளங்களைக் குறிக்கும் பாதுகாக்கப்பட்ட அமினோ அமிலங்களை வெளிப்படுத்துகிறது.",
+      "ta": "மூன்று அல்லது அதற்கு மேற்பட்ட வரிசைகளை ஒருங்கே ஒழுங்கமைத்தால், அவற்றுக்கிடையே மாறாமல் நிலைத்திருக்கும் இடங்களை அடையாளம் காணலாம். அவ்விடங்கள் முக்கியமான செயல்பாட்டைக் கொண்டிருக்கலாம்.",
       "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Exact dynamic programming for N sequences is computationally impractical (time grows as 2N × LN), so practical tools use **heuristics**.",
-      "ta": "N வரிசைகளுக்குத் துல்லிய இயக்கநிலைத் திட்டமிடல் கணக்கீட்டுரீதியாக நடைமுறைக்கு ஒவ்வாதது (நேரம் 2N × LN ஆக வளரும்); எனவே நடைமுறைக் கருவிகள் **ஹியூரிஸ்டிக்குகளைப்** பயன்படுத்துகின்றன.",
+      "en": "Exact dynamic programming becomes impractical as more sequences are added. For N sequences of length L, the standard score grid alone has (L + 1)^N cells. Practical programs therefore use **heuristics**, such as building an initial alignment in guide-tree order and refining it.",
+      "ta": "வரிசைகளின் எண்ணிக்கை கூடும்போது, முழுமையான இயக்க நிரலாக்கக் கணக்கீடு நடைமுறையில் கடினமாகிறது. ஒவ்வொன்றும் L நீளம் கொண்ட N வரிசைகளுக்கான மதிப்பெண் கட்டத்தில் மட்டும் (L + 1)^N கட்டங்கள் தேவை. எனவே நடைமுறைக் கருவிகள் தோராயத் தீர்வு முறைகளைப் பயன்படுத்துகின்றன. எடுத்துக்காட்டாக, வழிகாட்டி மரம் காட்டும் வரிசையில் முதற்கட்ட ஒழுங்கமைவை உருவாக்கி, பிறகு அதனை மேம்படுத்துகின்றன.",
       "ta_status": "draft"
      }
     },
@@ -632,7 +632,7 @@
      "type": "p",
      "text": {
       "en": "Searching a database of millions of sequences needs speed; both tools use heuristics instead of full dynamic programming.",
-      "ta": "மில்லியன் கணக்கான வரிசைகளுள்ள தரவுத்தளத்தில் தேட வேகம் தேவை; இரு கருவிகளும் முழு இயக்கநிலைத் திட்டமிடலுக்குப் பதிலாக ஹியூரிஸ்டிக்குகளைப் பயன்படுத்துகின்றன.",
+      "ta": "பல இலட்சம் வரிசைகள் உள்ள தரவுத்தளத்தில் வேகமாகத் தேட, BLAST, FASTA இரண்டும் தோராயத் தீர்வு முறைகளைப் பயன்படுத்துகின்றன. எனவே இவை எல்லா வரிசை இணைகளையும் முழுமையாகக் கணக்கிடுவதில்லை.",
       "ta_status": "draft"
      }
     },
@@ -688,7 +688,7 @@
      "type": "p",
      "text": {
       "en": "**BLAST programs**",
-      "ta": "**BLAST நிரல்கள்**",
+      "ta": "**BLAST நிரல்களின் வகைகள்**",
       "ta_status": "draft"
      }
     },
@@ -833,7 +833,7 @@
      "type": "p",
      "text": {
       "en": "**Interpreting results**",
-      "ta": "**முடிவுகளைப் பொருள்கொள்ளுதல்**",
+      "ta": "**தேடல் முடிவுகளைப் புரிந்துகொள்ளுதல்**",
       "ta_status": "draft"
      }
     },
@@ -842,18 +842,18 @@
      "ordered": false,
      "items": [
       {
-       "en": "**E-value**: expected number of hits with this score or better by chance in a database of that size. Smaller is better; < 10−5–10−10 usually suggests significance.",
-       "ta": "**E-மதிப்பு**: அவ்வளவு அளவுள்ள தரவுத்தளத்தில் இந்த மதிப்பெண் அல்லது சிறந்ததுடன் தற்செயலாக எதிர்பார்க்கப்படும் பொருத்தங்களின் எண்ணிக்கை. சிறியது சிறந்தது; < 10−5–10−10 பொதுவாக முக்கியத்துவத்தைக் குறிக்கும்.",
+       "en": "**E-value**: the number of alignments expected by chance to score at least as well as the observed match in that search. Lower values mean fewer chance matches. A larger search database can increase the E-value for the same score. Choose a threshold in context, especially for short queries.",
+       "ta": "**E மதிப்பு:** இந்தத் தேடலில் கிடைத்த பொருத்தத்தின் மதிப்பெண்ணையோ அதைவிட உயர்ந்த மதிப்பெண்ணையோ, தற்செயலாகப் பெறக்கூடிய ஒழுங்கமைவுகளின் எதிர்பார்க்கப்படும் எண்ணிக்கை. E மதிப்பு குறைவாக இருந்தால், அத்தகைய தற்செயல் பொருத்தங்கள் குறைவாக எதிர்பார்க்கப்படும். ஒரே மதிப்பெண்ணுக்குத் தரவுத்தளம் பெரிதாகும்போது E மதிப்பு உயரலாம். குறிப்பாகக் குறுகிய தேடல் வரிசைகளுக்கு, தேடலின் நோக்கத்துக்கு ஏற்ற எல்லை மதிப்பைத் தேர்ந்தெடுக்க வேண்டும்.",
        "ta_status": "draft"
       },
       {
        "en": "**Bit score**: normalised score, independent of the scoring system; higher is better.",
-       "ta": "**பிட் மதிப்பெண்**: இயல்பாக்கப்பட்ட மதிப்பெண்; மதிப்பிடல் அமைப்பைச் சாராதது; அதிகமாக இருந்தால் சிறந்தது.",
+       "ta": "**பிட் மதிப்பெண்:** மூல ஒழுங்கமைவு மதிப்பெண்ணைத் தரப்படுத்திப் பெறும் அளவு. பிட் மதிப்பெண் உயர்ந்தால் ஒழுங்கமைவின் மதிப்பெண்ணும் வலுவானது. வெவ்வேறு தேடல்களில் கிடைத்த ஒழுங்கமைவு மதிப்பெண்களை ஒப்பிட இது உதவுகிறது.",
        "ta_status": "draft"
       },
       {
-       "en": "**Query coverage** and **percent identity** should be read together with the E-value.",
-       "ta": "**வினா மூடலும்** **சதவீத ஒத்தமைவும்** E-மதிப்புடன் சேர்த்து வாசிக்கப்பட வேண்டும்.",
+       "en": "**Query coverage** is the percentage of the query included in the alignment. **Percent identity** is the percentage of aligned positions with identical residues. For example, a 20-residue match in a 200-residue query covers only 10% of the query, even at 100% identity. Interpret both measures alongside the E-value before inferring a shared domain or function.",
+       "ta": "**தேடல் வரிசையின் ஒழுங்கமைந்த பகுதி (%):** தேடலுக்கு அளித்த வரிசையில் எத்தனை விழுக்காடு ஒழுங்கமைவில் இடம்பெற்றுள்ளது என்பதைக் காட்டுகிறது. **ஒரே மாதிரியான இடங்கள் (%):** ஒழுங்கமைந்த இடங்களில் ஒரே நியுக்ளியோடைடு அல்லது அமினோ அமிலம் உள்ள இடங்களின் விழுக்காடு. எடுத்துக்காட்டாக, 200 அமினோ அமிலங்கள் கொண்ட தேடல் வரிசையில் 20 அமினோ அமிலங்கள் மட்டுமே பொருந்தினால், அந்த 20 இடங்களும் முற்றிலும் ஒரே மாதிரியாக இருந்தாலும், ஒழுங்கமைவு தேடல் வரிசையில் 10% மட்டுமே உள்ளடக்குகிறது. பொதுவான புரதப் பகுதி அல்லது செயல்பாடு இருக்கிறதா என முடிவு செய்வதற்கு முன், இந்த இரு அளவுகளையும் E மதிப்புடன் சேர்த்துப் பார்க்க வேண்டும்.",
        "ta_status": "draft"
       }
      ]
@@ -978,7 +978,7 @@
      "kind": "info",
      "text": {
       "en": "**Sensitivity vs speed**\nHeuristic searches may miss weak matches that an exact Smith–Waterman search would find, but they run orders of magnitude faster.",
-      "ta": "**உணர்திறன் – வேகம்**\nஹியூரிஸ்டிக் தேடல்கள் துல்லியமான ஸ்மித்–வாட்டர்மேன் தேடல் கண்டறியும் பலவீனப் பொருத்தங்களைத் தவறவிடலாம்; ஆனால் பல மடங்கு வேகமாக இயங்கும்.",
+      "ta": "**தேடல் வேகமும் பொருத்தங்களைக் கண்டறியும் திறனும்**\nதோராயத் தேடல் நிரல்கள் மிக வேகமாகச் செயல்படும். ஆனால் சில பலவீனமான பொருத்தங்களை அவை தவறவிடலாம். முழுமையான ஸ்மித்–வாட்டர்மன் ஒழுங்கமைவில் அத்தகைய பொருத்தங்களைக் கண்டறிய முடியும்.",
       "ta_status": "draft"
      }
     }
@@ -1183,8 +1183,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Shows flexible regions.",
-      "ta": "நெகிழ்வான பகுதிகளைக் காட்டும்.",
+      "en": "In an experimental structure, high B-factors can reflect atomic motion, disorder or modelling uncertainty. Check what the field represents before comparing structures. In many AlphaFold files, it stores a prediction confidence score instead.",
+      "ta": "ஆய்வுச் சோதனையில் பெறப்பட்ட கட்டமைப்பில், உயர்ந்த B மதிப்புகள் அணுக்களின் இயக்கத்தையோ, ஒழுங்கற்ற நிலையையோ, மாதிரியின் உறுதியின்மையையோ காட்டலாம். இரு கட்டமைப்புகளை ஒப்பிடுவதற்கு முன், அந்தப் புலத்தில் என்ன அளவு பதிவாகியுள்ளது என்று சரிபார்க்க வேண்டும். ஆல்ஃபாஃபோல்ட் கோப்புகள் பலவற்றில் அதே புலத்தில் கட்டமைப்புக் கணிப்பின் நம்பகத்தன்மை மதிப்பெண் பதிவாகியிருக்கும்.",
       "ta_status": "draft"
      }
     },
