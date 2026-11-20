@@ -571,7 +571,7 @@
   "chapter": "bioinformatics_tools_alignment_blast",
   "unit": "u5",
   "section": "s05",
-  "after": "evalueexpectednumberofhitswiththisscoreo",
+  "after": "evaluethenumberofalignmentsexpectedbycha",
   "score": 13.211,
   "margin": 10.258
  },
@@ -580,7 +580,7 @@
   "chapter": "bioinformatics_tools_alignment_blast",
   "unit": "u5",
   "section": "s05",
-  "after": "evalueexpectednumberofhitswiththisscoreo",
+  "after": "evaluethenumberofalignmentsexpectedbycha",
   "score": 5.505,
   "margin": 3.118
  },
