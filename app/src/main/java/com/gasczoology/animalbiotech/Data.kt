@@ -14,6 +14,8 @@ data class Topic(
     val hash: String,
     val unitRoman: String,
     val titleTa: String = "",
+    val noteTa: String = "",
+    val sectionId: String = "",
 ) {
 }
 
@@ -59,7 +61,11 @@ object Repo {
                         file = t.getString("file"),
                         hash = t.optString("hash", ""),
                         unitRoman = roman,
-                        titleTa = modules.optJSONObject(t.getString("file"))?.optString("title_ta", "") ?: "",
+                        titleTa = t.optString("title_ta").ifBlank {
+                            modules.optJSONObject(t.getString("file"))?.optString("title_ta", "") ?: ""
+                        },
+                        noteTa = t.optString("note_ta"),
+                        sectionId = t.optString("section"),
                     )
                 )
             }

@@ -3,6 +3,7 @@ package com.gasczoology.animalbiotech
 import android.os.Bundle
 import com.gasczoology.animalbiotech.content.ChapterRepo
 import com.gasczoology.animalbiotech.ui.LessonScreen
+import com.gasczoology.animalbiotech.ui.topicStartIndex
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.BackHandler
 import androidx.activity.compose.setContent
@@ -141,7 +142,7 @@ fun App(store: Store) {
                         onZoom = { zoom = it; store.putInt("zoom", it) },
                         theme = theme,
                         onTheme = { theme = it; store.putTheme(it) },
-                        startIndex = store.getInt("pos_" + s.topic.id, 0),
+                        startIndex = topicStartIndex(chapter, s.topic.sectionId, store.getInt("pos_" + s.topic.id, -1)),
                         onPosition = { store.putInt("pos_" + s.topic.id, it) },
                         onPrev = flat.getOrNull(at - 1)?.let { t -> { go(t) } },
                         onNext = flat.getOrNull(at + 1)?.let { t -> { go(t) } },
@@ -183,7 +184,7 @@ fun App(store: Store) {
         is Screen.Revision -> RevisionScreen(s.set) { screen = null }
         Screen.Glossary -> GlossaryScreen(revisions) { screen = null }
         Screen.Flash -> FlashcardsScreen(cards, store) { screen = null }
-        Screen.Search -> SearchScreen(units, revisions, headings, onOpen = { lastId = it.id; store.putString("last", it.id); screen = Screen.Reader(it) }, onBack = { screen = null })
+        Screen.Search -> SearchScreen(units, revisions, headings, lang, onOpen = { lastId = it.id; store.putString("last", it.id); screen = Screen.Reader(it) }, onBack = { screen = null })
         null -> HomeScaffold(
             tab = tab,
             onTab = { tab = it },

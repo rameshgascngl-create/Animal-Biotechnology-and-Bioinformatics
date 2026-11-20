@@ -48,4 +48,12 @@ class LessonLogicTest {
 
     @Test fun section_starts_skip_title_page_headers_and_blocks() =
         assertEquals(listOf(1, 4, 7), sectionStartIndices(chap(2, 2, 0)))
+
+    @Test fun topic_starts_at_its_section_on_first_visit() {
+        val chapter = chap(2, 2, 0)
+        assertEquals(4, topicStartIndex(chapter, "s1", -1))
+        assertEquals(0, topicStartIndex(chapter, "missing", -1))
+        assertEquals(6, topicStartIndex(chapter, "s1", 6))
+        assertEquals(0, topicStartIndex(chapter, "s1", 0))
+    }
 }

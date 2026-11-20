@@ -45,6 +45,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import org.json.JSONObject
+import com.gasczoology.animalbiotech.i18n.Lang
+import com.gasczoology.animalbiotech.i18n.tr
 
 // ---------------------------------------------------------------- Flashcards (Leitner boxes)
 
@@ -169,7 +171,7 @@ fun FlashcardsScreen(cards: List<FlashCard>, store: Store, onBack: () -> Unit) {
 
 // ---------------------------------------------------------------- Search
 
-data class Hit(val kind: String, val title: String, val text: String, val file: String, val module: String, val key: String)
+data class Hit(val kind: String, val title: String, val text: String, val file: String, val module: String, val key: String, val topic: Topic? = null)
 
 fun loadHeadings(ctx: Context): Map<String, List<String>> = try {
     val o = JSONObject(ctx.assets.open("headings.json").bufferedReader().use { it.readText() })
@@ -181,11 +183,15 @@ fun loadHeadings(ctx: Context): Map<String, List<String>> = try {
     emptyMap()
 }
 
-fun buildIndex(units: List<UnitInfo>, sets: List<RevisionSet>, headings: Map<String, List<String>>): List<Hit> {
+fun buildIndex(units: List<UnitInfo>, sets: List<RevisionSet>, headings: Map<String, List<String>>, lang: Lang): List<Hit> {
     val titleOf = HashMap<String, String>()
     for (u in units) for (t in u.topics) titleOf.putIfAbsent(t.file, t.title)
     val out = ArrayList<Hit>()
-    for (u in units) for (t in u.topics) out.add(Hit("Topic", t.title, t.note, t.file, t.title, "t:${t.id}"))
+    for (u in units) for (t in u.topics) {
+        val title = tr(lang, t.title, t.titleTa.ifBlank { t.title })
+        val note = tr(lang, t.note, t.noteTa.ifBlank { t.note })
+        out.add(Hit(tr(lang, "Topic", "பாடம்"), title, note, t.file, "", "t:${t.id}", topic = t))
+    }
     for ((f, hs) in headings) {
         val m = titleOf[f] ?: f
         hs.forEachIndexed { i, h -> out.add(Hit("Section", h, "", f, m, "h:$f:$i")) }
@@ -200,21 +206,22 @@ fun buildIndex(units: List<UnitInfo>, sets: List<RevisionSet>, headings: Map<Str
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun SearchScreen(units: List<UnitInfo>, sets: List<RevisionSet>, headings: Map<String, List<String>>, onOpen: (Topic) -> Unit, onBack: () -> Unit) {
-    val index = remember(units, sets, headings) { buildIndex(units, sets, headings) }
+fun SearchScreen(units: List<UnitInfo>, sets: List<RevisionSet>, headings: Map<String, List<String>>, lang: Lang, onOpen: (Topic) -> Unit, onBack: () -> Unit) {
+    val index = remember(units, sets, headings, lang) { buildIndex(units, sets, headings, lang) }
     val byFile = remember(units) { units.flatMap { it.topics }.groupBy { it.file } }
     var query by remember { mutableStateOf("") }
     val words = query.trim().lowercase().split(Regex("\\s+")).filter { it.length > 1 }
     val hits = if (words.isEmpty()) emptyList() else index.filter { h ->
-        val hay = (h.title + " " + h.text + " " + h.module).lowercase()
+        val hay = listOf(h.title, h.text, h.module, h.topic?.title.orEmpty(), h.topic?.note.orEmpty(),
+            h.topic?.titleTa.orEmpty(), h.topic?.noteTa.orEmpty()).joinToString(" ").lowercase()
         words.all { hay.contains(it) }
     }.sortedBy { if (it.title.lowercase().contains(words[0])) 0 else 1 }.take(80)
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Search all content", style = MaterialTheme.typography.titleMedium) },
+                title = { Text(tr(lang, "Search", "தேடல்"), style = MaterialTheme.typography.titleMedium) },
                 navigationIcon = {
-                    IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back") }
+                    IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr(lang, "Back", "பின்செல்")) }
                 },
                 colors = TopAppBarDefaults.topAppBarColors(
                     containerColor = Navy, titleContentColor = Color.White, navigationIconContentColor = Color.White,
@@ -226,7 +233,7 @@ fun SearchScreen(units: List<UnitInfo>, sets: List<RevisionSet>, headings: Map<S
             OutlinedTextField(
                 value = query, onValueChange = { query = it },
                 modifier = Modifier.fillMaxWidth().padding(16.dp), singleLine = true,
-                placeholder = { Text("e.g. PAM, HAT medium, E-value") },
+                label = { Text(tr(lang, "Search topics and study material", "பாடங்களையும் படிப்புப் பகுதிகளையும் தேடுக")) },
             )
             LazyColumn(
                 Modifier.fillMaxSize(),
@@ -235,7 +242,11 @@ fun SearchScreen(units: List<UnitInfo>, sets: List<RevisionSet>, headings: Map<S
             ) {
                 if (words.isNotEmpty()) item(key = "count") {
                     Text(
-                        if (hits.isEmpty()) "No matches" else "${hits.size}${if (hits.size == 80) "+" else ""} matches",
+                        if (hits.isEmpty()) tr(lang, "No matches", "முடிவுகள் இல்லை")
+                        else {
+                            val count = "${hits.size}${if (hits.size == 80) "+" else ""}"
+                            tr(lang, "$count matches", "$count முடிவுகள்")
+                        },
                         style = MaterialTheme.typography.labelLarge, color = Color(0xFF3B4F66),
                     )
                 }
@@ -243,7 +254,7 @@ fun SearchScreen(units: List<UnitInfo>, sets: List<RevisionSet>, headings: Map<S
                     Card(
                         colors = CardDefaults.cardColors(containerColor = Color.White),
                         modifier = Modifier.fillMaxWidth().clickable {
-                            byFile[h.file]?.firstOrNull()?.let(onOpen)
+                            (h.topic ?: byFile[h.file]?.firstOrNull())?.let(onOpen)
                         },
                     ) {
                         Column(Modifier.padding(12.dp)) {
@@ -252,7 +263,7 @@ fun SearchScreen(units: List<UnitInfo>, sets: List<RevisionSet>, headings: Map<S
                             }
                             Text(h.title, fontWeight = FontWeight.SemiBold, color = Navy, maxLines = 3)
                             if (h.text.isNotEmpty()) Text(h.text, style = MaterialTheme.typography.bodyMedium, maxLines = 3, color = Color(0xFF26394C))
-                            Text(h.module, style = MaterialTheme.typography.labelSmall, color = Color(0xFF3B4F66), maxLines = 1)
+                            if (h.module.isNotEmpty()) Text(h.module, style = MaterialTheme.typography.labelSmall, color = Color(0xFF3B4F66), maxLines = 1)
                         }
                     }
                 }

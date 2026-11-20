@@ -37,3 +37,10 @@ fun sectionStartIndices(c: Chapter): List<Int> {
     var i = 1 // index 0 is the title page
     return c.sections.map { s -> val at = i; i += 1 + s.blocks.size; at }
 }
+
+/** Keep a topic's reading position, or open its assigned section on the first visit. */
+internal fun topicStartIndex(chapter: Chapter, sectionId: String, savedIndex: Int): Int {
+    if (savedIndex >= 0) return savedIndex
+    val section = chapter.sections.indexOfFirst { it.id == sectionId }
+    return sectionStartIndices(chapter).getOrNull(section) ?: 0
+}

@@ -238,6 +238,7 @@
      "note": "Chapters 1–3",
      "file": "hgp_ethics_ipr.html",
      "hash": "#p1",
+     "section": "s03",
      "title_ta": "மனித மரபணுத்தொகைய திட்டம்: வரைபடமாக்கலும் பயன்பாடுகளும்",
      "note_ta": "அத்தியாயங்கள் 1–3"
     },
@@ -247,6 +248,7 @@
      "note": "Chapter 4",
      "file": "hgp_ethics_ipr.html",
      "hash": "#p4",
+     "section": "s06",
      "title_ta": "நெறிமுறைகள்: சமூக-நெறிமுறைச் சிக்கல்களும் விளைவுகளும்",
      "note_ta": "அத்தியாயம் 4"
     },
@@ -256,6 +258,7 @@
      "note": "Chapter 5",
      "file": "hgp_ethics_ipr.html",
      "hash": "#p5",
+     "section": "s07",
      "title_ta": "அறிவுசார் சொத்துரிமைகள் (IPR)",
      "note_ta": "அத்தியாயம் 5"
     },
@@ -299,6 +302,7 @@
      "note": "Includes a live alignment calculator",
      "file": "bioinformatics_tools_alignment_blast.html",
      "hash": "#p1",
+     "section": "s03",
      "title_ta": "வரிசை ஒழுங்கமைவு: இரட்டை, பல்வரிசை",
      "note_ta": "நேரடி ஒழுங்கமைவுக் கணிப்பான் உட்பட"
     },
@@ -308,6 +312,7 @@
      "note": "Chapter 3",
      "file": "bioinformatics_tools_alignment_blast.html",
      "hash": "#p3",
+     "section": "s05",
      "title_ta": "ஒப்புமைத் தேடல் கருவிகள்: BLAST, FASTA",
      "note_ta": "அத்தியாயம் 3"
     },
@@ -317,6 +322,7 @@
      "note": "Chapter 4",
      "file": "bioinformatics_tools_alignment_blast.html",
      "hash": "#p4",
+     "section": "s06",
      "title_ta": "கட்டமைப்புக் காட்சிப்படுத்தல்: RasMol, Swiss-PdbViewer",
      "note_ta": "அத்தியாயம் 4"
     },
@@ -326,6 +332,7 @@
      "note": "Chapter 5",
      "file": "bioinformatics_tools_alignment_blast.html",
      "hash": "#p5",
+     "section": "s07",
      "title_ta": "உயிரித் தகவலியலின் நோக்கெல்லையும் பயன்பாடுகளும்",
      "note_ta": "அத்தியாயம் 5"
     },
