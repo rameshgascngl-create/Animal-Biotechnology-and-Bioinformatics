@@ -46,12 +46,14 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.gasczoology.animalbiotech.content.Chapter
+import com.gasczoology.animalbiotech.content.Paragraph
 import com.gasczoology.animalbiotech.content.chapterAssetPath
+import com.gasczoology.animalbiotech.content.parseChapter
 import java.io.IOException
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.json.JSONObject
-import org.json.JSONException
 import com.gasczoology.animalbiotech.i18n.Lang
 import com.gasczoology.animalbiotech.i18n.tr
 
@@ -185,7 +187,9 @@ fun FlashcardsScreen(cards: List<FlashCard>, store: Store, lang: Lang, onBack: (
 
 // ---------------------------------------------------------------- Search
 
-data class Hit(val kind: String, val title: String, val text: String, val file: String, val module: String, val key: String, val topic: Topic? = null)
+data class Hit(val kind: String, val title: String, val text: String, val file: String, val module: String, val key: String, val topic: Topic? = null, val sectionId: String? = null)
+
+data class SearchHeading(val title: String, val topic: Topic, val sectionId: String)
 
 fun loadHeadings(ctx: Context): Map<String, List<String>> = try {
     val o = JSONObject(ctx.assets.open("headings.json").bufferedReader().use { it.readText() })
@@ -197,18 +201,18 @@ fun loadHeadings(ctx: Context): Map<String, List<String>> = try {
     emptyMap()
 }
 
-fun buildIndex(units: List<UnitInfo>, sets: List<RevisionSet>, headings: Map<String, List<String>>, lang: Lang): List<Hit> {
-    val titleOf = HashMap<String, String>()
-    for (u in units) for (t in u.topics) titleOf.putIfAbsent(t.file, tr(lang, t.title, t.titleTa.ifBlank { t.title }))
+fun buildIndex(units: List<UnitInfo>, sets: List<RevisionSet>, headings: List<SearchHeading>, lang: Lang): List<Hit> {
     val out = ArrayList<Hit>()
     for (u in units) for (t in u.topics) {
         val title = tr(lang, t.title, t.titleTa.ifBlank { t.title })
         val note = tr(lang, t.note, t.noteTa.ifBlank { t.note })
         out.add(Hit(tr(lang, "Topic", "பாடம்"), title, note, t.file, "", "t:${t.id}", topic = t))
     }
-    for ((f, hs) in headings) {
-        val m = titleOf[f] ?: f
-        hs.forEachIndexed { i, h -> out.add(Hit(tr(lang, "Section", "பகுதி"), h, "", f, m, "h:$f:$i")) }
+    headings.forEachIndexed { i, heading ->
+        val topic = heading.topic
+        val name = tr(lang, topic.title, topic.titleTa.ifBlank { topic.title })
+        out.add(Hit(tr(lang, "Section", "பகுதி"), heading.title, "", topic.file, name, "h:$i",
+            topic = topic, sectionId = heading.sectionId))
     }
     for (source in sets) {
         val rs = source.inLanguage(lang)
@@ -219,32 +223,46 @@ fun buildIndex(units: List<UnitInfo>, sets: List<RevisionSet>, headings: Map<Str
     return out
 }
 
-private fun loadTamilHeadings(ctx: Context, units: List<UnitInfo>): Map<String, List<String>> =
-    units.flatMap { it.topics }.distinctBy { it.file }.associate { topic ->
-        val path = chapterAssetPath(topic.file, topic.unitRoman)
-        val sections = try {
+internal fun chapterSearchHeadings(chapter: Chapter, topics: List<Topic>, legacyHeadings: List<String>, lang: Lang): List<SearchHeading> {
+    var owner = topics.firstOrNull() ?: return emptyList()
+    val topicsBySection = topics.filter { it.sectionId.isNotBlank() }.associateBy { it.sectionId }
+    val legacyByTitle = legacyHeadings.associateBy { it.trim().lowercase() }
+    return buildList {
+        for (section in chapter.sections) {
+            owner = topicsBySection[section.id] ?: owner
+            val title = tr(lang, section.title.en, section.title.ta)
+            if (title.isNotBlank()) add(SearchHeading(title, owner, section.id))
+            if (lang == Lang.EN) {
+                for (paragraph in section.blocks.filterIsInstance<Paragraph>()) {
+                    val label = paragraph.text.en.removeSurrounding("**").trim()
+                    val heading = legacyByTitle[label.lowercase()] ?: continue
+                    if (!heading.equals(title, ignoreCase = true)) add(SearchHeading(heading, owner, section.id))
+                }
+            }
+        }
+    }.distinct()
+}
+
+private fun loadSearchHeadings(ctx: Context, units: List<UnitInfo>, legacyHeadings: Map<String, List<String>>, lang: Lang): List<SearchHeading> =
+    units.flatMap { it.topics }.groupBy { it.file }.flatMap { (file, topics) ->
+        val path = chapterAssetPath(file, topics.first().unitRoman)
+        val chapter = try {
             val raw = ctx.assets.open(path).bufferedReader().use { it.readText() }
-            JSONObject(raw).getJSONArray("sections")
+            parseChapter(raw).chapter
         } catch (_: IOException) {
             null
-        } catch (_: JSONException) {
-            null
         }
-        val titles = List(sections?.length() ?: 0) {
-            sections?.optJSONObject(it)?.optJSONObject("title")?.optString("ta").orEmpty()
-        }.filter { it.isNotBlank() }
-        topic.file to titles
+        chapter?.let { chapterSearchHeadings(it, topics, legacyHeadings[file].orEmpty(), lang) }.orEmpty()
     }
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun SearchScreen(units: List<UnitInfo>, sets: List<RevisionSet>, headings: Map<String, List<String>>, lang: Lang, onOpen: (Topic) -> Unit, onBack: () -> Unit) {
+fun SearchScreen(units: List<UnitInfo>, sets: List<RevisionSet>, headings: Map<String, List<String>>, lang: Lang, onOpen: (Topic, String?) -> Unit, onBack: () -> Unit) {
     val context = LocalContext.current.applicationContext
-    val tamilHeadings by produceState<Map<String, List<String>>>(emptyMap(), context, units, lang) {
-        if (lang == Lang.TA) value = withContext(Dispatchers.IO) { loadTamilHeadings(context, units) }
+    val searchHeadings by produceState<List<SearchHeading>>(emptyList(), context, units, headings, lang) {
+        value = withContext(Dispatchers.IO) { loadSearchHeadings(context, units, headings, lang) }
     }
-    val visibleHeadings = if (lang == Lang.TA) tamilHeadings else headings
-    val index = remember(units, sets, visibleHeadings, lang) { buildIndex(units, sets, visibleHeadings, lang) }
+    val index = remember(units, sets, searchHeadings, lang) { buildIndex(units, sets, searchHeadings, lang) }
     val byFile = remember(units) { units.flatMap { it.topics }.groupBy { it.file } }
     var query by remember { mutableStateOf("") }
     val words = query.trim().lowercase().split(Regex("\\s+")).filter { it.length > 1 }
@@ -291,7 +309,7 @@ fun SearchScreen(units: List<UnitInfo>, sets: List<RevisionSet>, headings: Map<S
                     Card(
                         colors = CardDefaults.cardColors(containerColor = Color.White),
                         modifier = Modifier.fillMaxWidth().clickable {
-                            (h.topic ?: byFile[h.file]?.firstOrNull())?.let(onOpen)
+                            (h.topic ?: byFile[h.file]?.firstOrNull())?.let { onOpen(it, h.sectionId) }
                         },
                     ) {
                         Column(Modifier.padding(12.dp)) {

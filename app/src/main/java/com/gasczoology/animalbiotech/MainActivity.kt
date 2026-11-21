@@ -89,7 +89,7 @@ class MainActivity : ComponentActivity() {
 }
 
 sealed interface Screen {
-    data class Reader(val topic: Topic) : Screen
+    data class Reader(val topic: Topic, val targetSectionId: String? = null) : Screen
     data class QuizRun(val title: String, val key: String, val items: List<Mcq>, val timeLimitSec: Int = 0) : Screen
     data class Revision(val set: RevisionSet) : Screen
     data object Glossary : Screen
@@ -142,7 +142,11 @@ fun App(store: Store) {
                         onZoom = { zoom = it; store.putInt("zoom", it) },
                         theme = theme,
                         onTheme = { theme = it; store.putTheme(it) },
-                        startIndex = topicStartIndex(chapter, s.topic.sectionId, store.getInt("pos_" + s.topic.id, -1)),
+                        startIndex = topicStartIndex(
+                            chapter,
+                            s.targetSectionId ?: s.topic.sectionId,
+                            if (s.targetSectionId == null) store.getInt("pos_" + s.topic.id, -1) else -1,
+                        ),
                         onPosition = { store.putInt("pos_" + s.topic.id, it) },
                         onPrev = flat.getOrNull(at - 1)?.let { t -> { go(t) } },
                         onNext = flat.getOrNull(at + 1)?.let { t -> { go(t) } },
@@ -184,7 +188,11 @@ fun App(store: Store) {
         is Screen.Revision -> RevisionScreen(s.set, lang) { screen = null }
         Screen.Glossary -> GlossaryScreen(revisions, lang) { screen = null }
         Screen.Flash -> FlashcardsScreen(cards, store, lang) { screen = null }
-        Screen.Search -> SearchScreen(units, revisions, headings, lang, onOpen = { lastId = it.id; store.putString("last", it.id); screen = Screen.Reader(it) }, onBack = { screen = null })
+        Screen.Search -> SearchScreen(units, revisions, headings, lang, onOpen = { topic, sectionId ->
+            lastId = topic.id
+            store.putString("last", topic.id)
+            screen = Screen.Reader(topic, sectionId)
+        }, onBack = { screen = null })
         null -> HomeScaffold(
             tab = tab,
             onTab = { tab = it },

@@ -38,8 +38,22 @@ class SyllabusNavigationTest {
             "second", "Similarity search", "", "shared.html", "#p3", "V",
             titleTa = "ஒப்புமைத் தேடல்", sectionId = "s05",
         )
-        val hits = buildIndex(listOf(UnitInfo("V", "Bioinformatics", listOf(first, second))), emptyList(), emptyMap(), Lang.TA)
+        val hits = buildIndex(listOf(UnitInfo("V", "Bioinformatics", listOf(first, second))), emptyList(), emptyList(), Lang.TA)
         assertEquals(listOf(first, second), hits.map { it.topic })
         assertEquals(listOf("Alignment", "ஒப்புமைத் தேடல்"), hits.map { it.title })
+    }
+
+    @Test fun tamil_blast_section_routes_to_blast_topic() {
+        val file = "bioinformatics_tools_alignment_blast.html"
+        val alignment = Topic("t26", "Sequence alignment", "", file, "#p1", "V", sectionId = "s03")
+        val blast = Topic("t27", "Similarity search tools: BLAST and FASTA", "", file, "#p2", "V", sectionId = "s05")
+        val topics = listOf(alignment, blast)
+        val path = chapterAssetPath(file, "V")
+        val chapter = requireNotNull(parseChapter(File("src/main/assets", path).readText()).chapter)
+        val headings = chapterSearchHeadings(chapter, topics, emptyList(), Lang.TA)
+        val results = buildIndex(listOf(UnitInfo("V", "Bioinformatics", topics)), emptyList(), headings, Lang.TA)
+        val hit = results.single { it.title == "தரவுத்தள ஒப்புமைத் தேடல்: BLAST மற்றும் FASTA" }
+        assertEquals(blast, hit.topic)
+        assertEquals("s05", hit.sectionId)
     }
 }
