@@ -1309,8 +1309,8 @@
     {
      "type": "p",
      "text": {
-      "en": "AnswerAlkali **hydrolyses RNA**; formaldehyde is used for denaturation instead.",
-      "ta": "விடைகாரம் **RNA-வை நீராற்பகுக்கிறது**; இயல்பிழக்கச் செய்ய ஃபார்மால்டிஹைடு பயன்படுகிறது.",
+      "en": "Answer: Alkali **hydrolyses RNA**; formaldehyde is used for denaturation instead.",
+      "ta": "விடை: காரம் **RNA-வை நீராற்பகுக்கிறது**; இயல்பிழக்கச் செய்ய ஃபார்மால்டிஹைடு பயன்படுகிறது.",
       "ta_status": "draft"
      }
     },
@@ -1333,8 +1333,8 @@
     {
      "type": "p",
      "text": {
-      "en": "AnswerTo cover free membrane sites so probe/antibody does not bind non-specifically (reduces background).",
-      "ta": "விடைசவ்வின் காலித் தளங்களை மூடி, துருவி/எதிர்ப்பொருள் குறிப்பிட்டதல்லாதவற்றுடன் பிணைவதைத் தடுக்க (பின்னணியைக் குறைக்க).",
+      "en": "Answer: To cover free membrane sites so probe/antibody does not bind non-specifically (reduces background).",
+      "ta": "விடை: சவ்வின் காலித் தளங்களை மூடி, துருவி/எதிர்ப்பொருள் குறிப்பிட்டதல்லாதவற்றுடன் பிணைவதைத் தடுக்க (பின்னணியைக் குறைக்க).",
       "ta_status": "draft"
      }
     },

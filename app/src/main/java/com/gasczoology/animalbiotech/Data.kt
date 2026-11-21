@@ -23,12 +23,26 @@ data class UnitInfo(val roman: String, val title: String, val topics: List<Topic
 
 data class Mcq(val id: String, val q: String, val options: List<String>, val answer: Int, val explanation: String, val qTa: String = "", val optionsTa: List<String> = emptyList(), val explanationTa: String = "")
 
-data class Saq(val q: String, val a: String)
-data class Term(val term: String, val def: String, val module: String)
+data class Saq(val q: String, val a: String, val qTa: String = "", val aTa: String = "")
+data class Term(val term: String, val def: String, val module: String, val termTa: String = "", val defTa: String = "")
 data class RevisionSet(
     val file: String, val title: String, val unitRoman: String,
     val keyPoints: List<String>, val saqs: List<Saq>, val glossary: List<Term>, val titleTa: String = "",
-)
+    val keyPointsTa: List<String> = emptyList(),
+) {
+    fun inLanguage(lang: Lang): RevisionSet {
+        if (lang == Lang.EN) return this
+        val name = titleTa.ifBlank { title }
+        return copy(
+            title = name,
+            keyPoints = keyPoints.mapIndexed { index, text -> keyPointsTa.getOrNull(index).orEmpty().ifBlank { text } },
+            saqs = saqs.map { it.copy(q = it.qTa.ifBlank { it.q }, a = it.aTa.ifBlank { it.a }) },
+            glossary = glossary.map {
+                it.copy(term = it.termTa.ifBlank { it.term }, def = it.defTa.ifBlank { it.def }, module = name)
+            },
+        )
+    }
+}
 
 data class QuizSet(val file: String, val title: String, val unitRoman: String, val items: List<Mcq>, val titleTa: String = "")
 
@@ -85,13 +99,28 @@ object Repo {
             val file = keys.next()
             val o = root.getJSONObject(file)
             val title = o.getString("title")
-            val kp = ArrayList<String>()
-            val a = o.getJSONArray("kp"); for (i in 0 until a.length()) kp.add(a.getString(i))
-            val sq = ArrayList<Saq>()
-            val b = o.getJSONArray("sa"); for (i in 0 until b.length()) { val x = b.getJSONObject(i); sq.add(Saq(x.getString("q"), x.getString("a"))) }
-            val gl = ArrayList<Term>()
-            val c = o.getJSONArray("gl"); for (i in 0 until c.length()) { val x = c.getJSONObject(i); gl.add(Term(x.getString("t"), x.getString("d"), title)) }
-            out.add(RevisionSet(file, title, o.optString("unit", ""), kp, sq, gl, mods.optJSONObject(file)?.optString("title_ta", "") ?: ""))
+            val points = o.getJSONArray("kp")
+            val tamilPoints = o.optJSONArray("kp_ta")
+            val questions = o.getJSONArray("sa")
+            val terms = o.getJSONArray("gl")
+            out.add(
+                RevisionSet(
+                    file = file,
+                    title = title,
+                    unitRoman = o.optString("unit"),
+                    keyPoints = List(points.length()) { points.getString(it) },
+                    saqs = List(questions.length()) {
+                        val item = questions.getJSONObject(it)
+                        Saq(item.getString("q"), item.getString("a"), item.optString("q_ta"), item.optString("a_ta"))
+                    },
+                    glossary = List(terms.length()) {
+                        val item = terms.getJSONObject(it)
+                        Term(item.getString("t"), item.getString("d"), title, item.optString("t_ta"), item.optString("d_ta"))
+                    },
+                    titleTa = o.optString("title_ta").ifBlank { mods.optJSONObject(file)?.optString("title_ta").orEmpty() },
+                    keyPointsTa = List(tamilPoints?.length() ?: 0) { tamilPoints?.optString(it).orEmpty() },
+                )
+            )
         }
         val order = listOf("I", "II", "III", "IV", "V")
         val sorted = out.sortedWith(compareBy({ order.indexOf(it.unitRoman) }, { it.title }))

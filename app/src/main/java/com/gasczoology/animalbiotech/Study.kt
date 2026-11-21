@@ -36,15 +36,22 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.produceState
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.gasczoology.animalbiotech.content.chapterAssetPath
+import java.io.IOException
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
 import org.json.JSONObject
+import org.json.JSONException
 import com.gasczoology.animalbiotech.i18n.Lang
 import com.gasczoology.animalbiotech.i18n.tr
 
@@ -55,10 +62,15 @@ data class FlashCard(val id: String, val front: String, val back: String, val mo
 private val INTERVAL_DAYS = intArrayOf(0, 1, 2, 4, 8, 16)
 private const val NEW_PER_SESSION = 15
 
-fun buildCards(sets: List<RevisionSet>): List<FlashCard> =
-    sets.flatMap { rs ->
-        rs.saqs.map { FlashCard("${rs.file}#q${it.q.hashCode()}", it.q, it.a, rs.title) } +
-            rs.glossary.map { FlashCard("${rs.file}#g${it.term.hashCode()}", "Define: ${it.term}", it.def, rs.title) }
+fun buildCards(sets: List<RevisionSet>, lang: Lang = Lang.EN): List<FlashCard> =
+    sets.flatMap { source ->
+        val shown = source.inLanguage(lang)
+        source.saqs.zip(shown.saqs).map { (original, text) ->
+            FlashCard("${source.file}#q${original.q.hashCode()}", text.q, text.a, shown.title)
+        } + source.glossary.zip(shown.glossary).map { (original, text) ->
+            val front = tr(lang, "Define: ${text.term}", "${text.term} என்பதன் பொருள் என்ன?")
+            FlashCard("${source.file}#g${original.term.hashCode()}", front, text.def, shown.title)
+        }
     }.distinctBy { it.id }
 
 fun todayDay(): Long = System.currentTimeMillis() / 86_400_000L
@@ -74,7 +86,7 @@ fun readyCount(cards: List<FlashCard>, store: Store): Int =
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun FlashcardsScreen(cards: List<FlashCard>, store: Store, onBack: () -> Unit) {
+fun FlashcardsScreen(cards: List<FlashCard>, store: Store, lang: Lang, onBack: () -> Unit) {
     val today = remember { todayDay() }
     val queue = remember {
         mutableStateListOf<FlashCard>().also {
@@ -108,9 +120,9 @@ fun FlashcardsScreen(cards: List<FlashCard>, store: Store, onBack: () -> Unit) {
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Flashcards", style = MaterialTheme.typography.titleMedium) },
+                title = { Text(tr(lang, "Flashcards", "நினைவட்டைகள்"), style = MaterialTheme.typography.titleMedium) },
                 navigationIcon = {
-                    IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back") }
+                    IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr(lang, "Back", "பின்செல்")) }
                 },
                 colors = TopAppBarDefaults.topAppBarColors(
                     containerColor = Navy, titleContentColor = Color.White, navigationIconContentColor = Color.White,
@@ -122,20 +134,22 @@ fun FlashcardsScreen(cards: List<FlashCard>, store: Store, onBack: () -> Unit) {
             val card = queue.firstOrNull()
             if (card == null) {
                 Text(
-                    if (total == 0) "Nothing is due today." else "Session complete",
+                    if (total == 0) tr(lang, "Nothing is due today.", "இன்று படிக்க வேண்டிய அட்டைகள் இல்லை.")
+                    else tr(lang, "Session complete", "பயிற்சி நிறைவடைந்தது"),
                     style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold, color = Navy,
                 )
                 Spacer(Modifier.height(8.dp))
                 Text(
-                    if (total == 0) "Come back tomorrow, or study more chapters to unlock new cards."
-                    else "You reviewed $done cards ($again marked Again). Cards return after 1, 2, 4, 8 and 16 days as you remember them.",
+                    if (total == 0) tr(lang, "Come back tomorrow.", "நாளை மீண்டும் பயிற்சி செய்யலாம்.")
+                    else tr(lang, "You reviewed $done cards ($again attempts marked Again). Cards return after 1, 2, 4, 8 and 16 days as you remember them.",
+                        "$done அட்டைகளைப் படித்தீர்கள். $again முறை மீண்டும் பயிற்சி செய்யத் தேர்ந்தெடுத்தீர்கள். நினைவில் உள்ள அட்டைகள் 1, 2, 4, 8, 16 நாள் இடைவெளிகளில் மீண்டும் வரும்."),
                     style = MaterialTheme.typography.bodyLarge,
                 )
                 Spacer(Modifier.height(16.dp))
-                Button(onClick = onBack, colors = ButtonDefaults.buttonColors(containerColor = Teal)) { Text("Done") }
+                Button(onClick = onBack, colors = ButtonDefaults.buttonColors(containerColor = Teal)) { Text(tr(lang, "Done", "முடிந்தது")) }
             } else {
                 Text(
-                    "${done + 1} of ${total} · ${card.module}",
+                    tr(lang, "${done + 1} of $total · ${card.module}", "${done + 1} / $total · ${card.module}"),
                     style = MaterialTheme.typography.labelLarge, color = Color(0xFF3B4F66),
                 )
                 Spacer(Modifier.height(10.dp))
@@ -150,18 +164,18 @@ fun FlashcardsScreen(cards: List<FlashCard>, store: Store, onBack: () -> Unit) {
                             Text(card.back, fontSize = 17.sp, lineHeight = 26.sp)
                         } else {
                             Spacer(Modifier.height(14.dp))
-                            Text("Tap to show the answer", color = Teal, fontWeight = FontWeight.SemiBold)
+                            Text(tr(lang, "Tap to show the answer", "விடையைக் காண்க"), color = Teal, fontWeight = FontWeight.SemiBold)
                         }
                     }
                 }
                 Spacer(Modifier.height(16.dp))
                 if (shown) {
                     Row(horizontalArrangement = Arrangement.spacedBy(12.dp), modifier = Modifier.fillMaxWidth()) {
-                        OutlinedButton(onClick = { rate(false) }, modifier = Modifier.weight(1f)) { Text("Again") }
+                        OutlinedButton(onClick = { rate(false) }, modifier = Modifier.weight(1f)) { Text(tr(lang, "Again", "மீண்டும்")) }
                         Button(
                             onClick = { rate(true) }, modifier = Modifier.weight(1f),
                             colors = ButtonDefaults.buttonColors(containerColor = Teal),
-                        ) { Text("Got it") }
+                        ) { Text(tr(lang, "Got it", "நினைவில் உள்ளது")) }
                     }
                 }
             }
@@ -185,7 +199,7 @@ fun loadHeadings(ctx: Context): Map<String, List<String>> = try {
 
 fun buildIndex(units: List<UnitInfo>, sets: List<RevisionSet>, headings: Map<String, List<String>>, lang: Lang): List<Hit> {
     val titleOf = HashMap<String, String>()
-    for (u in units) for (t in u.topics) titleOf.putIfAbsent(t.file, t.title)
+    for (u in units) for (t in u.topics) titleOf.putIfAbsent(t.file, tr(lang, t.title, t.titleTa.ifBlank { t.title }))
     val out = ArrayList<Hit>()
     for (u in units) for (t in u.topics) {
         val title = tr(lang, t.title, t.titleTa.ifBlank { t.title })
@@ -194,20 +208,43 @@ fun buildIndex(units: List<UnitInfo>, sets: List<RevisionSet>, headings: Map<Str
     }
     for ((f, hs) in headings) {
         val m = titleOf[f] ?: f
-        hs.forEachIndexed { i, h -> out.add(Hit("Section", h, "", f, m, "h:$f:$i")) }
+        hs.forEachIndexed { i, h -> out.add(Hit(tr(lang, "Section", "பகுதி"), h, "", f, m, "h:$f:$i")) }
     }
-    for (rs in sets) {
-        rs.keyPoints.forEachIndexed { i, k -> out.add(Hit("Key point", k, "", rs.file, rs.title, "k:${rs.file}:$i")) }
-        rs.saqs.forEachIndexed { i, s -> out.add(Hit("Short answer", s.q, s.a, rs.file, rs.title, "s:${rs.file}:$i")) }
-        rs.glossary.forEachIndexed { i, g -> out.add(Hit("Term", g.term, g.def, rs.file, rs.title, "g:${rs.file}:$i")) }
+    for (source in sets) {
+        val rs = source.inLanguage(lang)
+        rs.keyPoints.forEachIndexed { i, k -> out.add(Hit(tr(lang, "Key point", "முக்கியக் கருத்து"), k, "", rs.file, rs.title, "k:${rs.file}:$i")) }
+        rs.saqs.forEachIndexed { i, s -> out.add(Hit(tr(lang, "Short answer", "குறுவிடை"), s.q, s.a, rs.file, rs.title, "s:${rs.file}:$i")) }
+        rs.glossary.forEachIndexed { i, g -> out.add(Hit(tr(lang, "Term", "கலைச்சொல்"), g.term, g.def, rs.file, rs.title, "g:${rs.file}:$i")) }
     }
     return out
 }
 
+private fun loadTamilHeadings(ctx: Context, units: List<UnitInfo>): Map<String, List<String>> =
+    units.flatMap { it.topics }.distinctBy { it.file }.associate { topic ->
+        val path = chapterAssetPath(topic.file, topic.unitRoman)
+        val sections = try {
+            val raw = ctx.assets.open(path).bufferedReader().use { it.readText() }
+            JSONObject(raw).getJSONArray("sections")
+        } catch (_: IOException) {
+            null
+        } catch (_: JSONException) {
+            null
+        }
+        val titles = List(sections?.length() ?: 0) {
+            sections?.optJSONObject(it)?.optJSONObject("title")?.optString("ta").orEmpty()
+        }.filter { it.isNotBlank() }
+        topic.file to titles
+    }
+
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SearchScreen(units: List<UnitInfo>, sets: List<RevisionSet>, headings: Map<String, List<String>>, lang: Lang, onOpen: (Topic) -> Unit, onBack: () -> Unit) {
-    val index = remember(units, sets, headings, lang) { buildIndex(units, sets, headings, lang) }
+    val context = LocalContext.current.applicationContext
+    val tamilHeadings by produceState<Map<String, List<String>>>(emptyMap(), context, units, lang) {
+        if (lang == Lang.TA) value = withContext(Dispatchers.IO) { loadTamilHeadings(context, units) }
+    }
+    val visibleHeadings = if (lang == Lang.TA) tamilHeadings else headings
+    val index = remember(units, sets, visibleHeadings, lang) { buildIndex(units, sets, visibleHeadings, lang) }
     val byFile = remember(units) { units.flatMap { it.topics }.groupBy { it.file } }
     var query by remember { mutableStateOf("") }
     val words = query.trim().lowercase().split(Regex("\\s+")).filter { it.length > 1 }

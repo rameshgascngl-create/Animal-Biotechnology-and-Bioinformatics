@@ -103,7 +103,6 @@ fun App(store: Store) {
     val units = remember { Repo.units(ctx) }
     val quizzes = remember { Repo.quizzes(ctx) }
     val revisions = remember { Repo.revisions(ctx) }
-    val cards = remember { buildCards(revisions) }
     val headings = remember { loadHeadings(ctx) }
     var tab by remember { mutableIntStateOf(0) }
     var screen by remember { mutableStateOf<Screen?>(null) }
@@ -112,6 +111,7 @@ fun App(store: Store) {
     var wrong by remember { mutableStateOf(store.getSet("wrong")) }
     var zoom by remember { mutableIntStateOf(store.getInt("zoom", 115)) }
     var lang by remember { mutableStateOf(store.getLang()) }
+    val cards = remember(revisions, lang) { buildCards(revisions, lang) }
     var theme by remember { mutableStateOf(store.getTheme()) }
     var lastId by remember { mutableStateOf(store.getString("last")) }
     var bests by remember { mutableStateOf(quizzes.associate { it.file to store.best(it.file) }) }
@@ -181,9 +181,9 @@ fun App(store: Store) {
             },
             onClose = { screen = null },
         )
-        is Screen.Revision -> RevisionScreen(s.set) { screen = null }
-        Screen.Glossary -> GlossaryScreen(revisions) { screen = null }
-        Screen.Flash -> FlashcardsScreen(cards, store) { screen = null }
+        is Screen.Revision -> RevisionScreen(s.set, lang) { screen = null }
+        Screen.Glossary -> GlossaryScreen(revisions, lang) { screen = null }
+        Screen.Flash -> FlashcardsScreen(cards, store, lang) { screen = null }
         Screen.Search -> SearchScreen(units, revisions, headings, lang, onOpen = { lastId = it.id; store.putString("last", it.id); screen = Screen.Reader(it) }, onBack = { screen = null })
         null -> HomeScaffold(
             tab = tab,

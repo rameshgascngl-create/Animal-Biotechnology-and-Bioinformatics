@@ -1,5 +1,6 @@
 package com.gasczoology.animalbiotech
 
+import com.gasczoology.animalbiotech.i18n.Lang
 import com.gasczoology.animalbiotech.i18n.tr
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -48,7 +49,7 @@ fun ReviseTab(
     onFlash: () -> Unit,
     onSearch: () -> Unit,
     ready: Int,
-    lang: com.gasczoology.animalbiotech.i18n.Lang = com.gasczoology.animalbiotech.i18n.Lang.EN,
+    lang: Lang = Lang.EN,
 ) {
     val terms = sets.sumOf { it.glossary.size }
     LazyColumn(
@@ -79,14 +80,15 @@ fun ReviseTab(
             if (rs.keyPoints.isNotEmpty()) parts.add(tr(lang, "${rs.keyPoints.size} key points", "${rs.keyPoints.size} முக்கியக் கருத்துகள்"))
             if (rs.saqs.isNotEmpty()) parts.add(tr(lang, "${rs.saqs.size} short answers", "${rs.saqs.size} குறுவிடைகள்"))
             if (rs.glossary.isNotEmpty()) parts.add(tr(lang, "${rs.glossary.size} terms", "${rs.glossary.size} சொற்கள்"))
-            QuizRow(if (lang == com.gasczoology.animalbiotech.i18n.Lang.TA && rs.titleTa.isNotBlank()) rs.titleTa else rs.title, tr(lang, "Unit ${rs.unitRoman}", "அலகு ${rs.unitRoman}") + "  ·  " + parts.joinToString(", "), null) { onOpen(rs) }
+            QuizRow(if (lang == Lang.TA && rs.titleTa.isNotBlank()) rs.titleTa else rs.title, tr(lang, "Unit ${rs.unitRoman}", "அலகு ${rs.unitRoman}") + "  ·  " + parts.joinToString(", "), null) { onOpen(rs) }
         }
     }
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun RevisionScreen(rs: RevisionSet, onBack: () -> Unit) {
+fun RevisionScreen(set: RevisionSet, lang: Lang, onBack: () -> Unit) {
+    val rs = remember(set, lang) { set.inLanguage(lang) }
     val sections = buildList {
         if (rs.keyPoints.isNotEmpty()) add("Key points")
         if (rs.saqs.isNotEmpty()) add("Short answers")
@@ -99,7 +101,7 @@ fun RevisionScreen(rs: RevisionSet, onBack: () -> Unit) {
             TopAppBar(
                 title = { Text(rs.title, maxLines = 1, style = MaterialTheme.typography.titleMedium) },
                 navigationIcon = {
-                    IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back") }
+                    IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr(lang, "Back", "பின்செல்")) }
                 },
                 colors = TopAppBarDefaults.topAppBarColors(
                     containerColor = Navy, titleContentColor = Color.White, navigationIconContentColor = Color.White,
@@ -110,7 +112,13 @@ fun RevisionScreen(rs: RevisionSet, onBack: () -> Unit) {
         Column(Modifier.fillMaxSize().padding(inner)) {
             Row(Modifier.padding(horizontal = 16.dp, vertical = 8.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                 sections.forEachIndexed { i, name ->
-                    FilterChip(selected = sel == i, onClick = { sel = i }, label = { Text(name) })
+                    FilterChip(selected = sel == i, onClick = { sel = i }, label = {
+                        Text(when (name) {
+                            "Key points" -> tr(lang, name, "முக்கியக் கருத்துகள்")
+                            "Short answers" -> tr(lang, name, "குறுவிடைகள்")
+                            else -> tr(lang, name, "கலைச்சொற்கள்")
+                        })
+                    })
                 }
             }
             val current = sections.getOrNull(sel)
@@ -140,12 +148,12 @@ fun RevisionScreen(rs: RevisionSet, onBack: () -> Unit) {
                                     Spacer(Modifier.height(6.dp))
                                     Text(rs.saqs[i].a)
                                 } else {
-                                    Text("Tap to reveal the model answer", style = MaterialTheme.typography.bodySmall, color = Teal)
+                                    Text(tr(lang, "Show model answer", "மாதிரி விடையைக் காண்க"), style = MaterialTheme.typography.bodySmall, color = Teal)
                                 }
                             }
                         }
                     }
-                    "Glossary" -> items(rs.glossary, key = { it.term + it.def.hashCode() }) { t -> TermCard(t, false) }
+                    "Glossary" -> items(rs.glossary) { t -> TermCard(t, false) }
                     else -> {}
                 }
             }
@@ -166,17 +174,17 @@ fun TermCard(t: Term, showModule: Boolean) {
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun GlossaryScreen(sets: List<RevisionSet>, onBack: () -> Unit) {
-    val all = remember(sets) { sets.flatMap { it.glossary }.sortedBy { it.term.lowercase() } }
+fun GlossaryScreen(sets: List<RevisionSet>, lang: Lang, onBack: () -> Unit) {
+    val all = remember(sets, lang) { sets.flatMap { it.inLanguage(lang).glossary }.sortedBy { it.term.lowercase() } }
     var query by remember { mutableStateOf("") }
     val q = query.trim().lowercase()
     val list = if (q.isEmpty()) all else all.filter { (it.term + " " + it.def).lowercase().contains(q) }
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Glossary", style = MaterialTheme.typography.titleMedium) },
+                title = { Text(tr(lang, "Glossary", "கலைச்சொற்கள்"), style = MaterialTheme.typography.titleMedium) },
                 navigationIcon = {
-                    IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Back") }
+                    IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = tr(lang, "Back", "பின்செல்")) }
                 },
                 colors = TopAppBarDefaults.topAppBarColors(
                     containerColor = Navy, titleContentColor = Color.White, navigationIconContentColor = Color.White,
@@ -190,14 +198,14 @@ fun GlossaryScreen(sets: List<RevisionSet>, onBack: () -> Unit) {
                 onValueChange = { query = it },
                 modifier = Modifier.fillMaxWidth().padding(16.dp),
                 singleLine = true,
-                placeholder = { Text("Search ${all.size} terms") },
+                placeholder = { Text(tr(lang, "Search ${all.size} terms", "${all.size} சொற்களுள் தேடுக")) },
             )
             LazyColumn(
                 Modifier.fillMaxSize(),
                 contentPadding = PaddingValues(start = 16.dp, end = 16.dp, bottom = 16.dp),
                 verticalArrangement = Arrangement.spacedBy(8.dp),
             ) {
-                items(list, key = { it.module + it.term + it.def.hashCode() }) { t -> TermCard(t, true) }
+                items(list) { t -> TermCard(t, true) }
             }
         }
     }
