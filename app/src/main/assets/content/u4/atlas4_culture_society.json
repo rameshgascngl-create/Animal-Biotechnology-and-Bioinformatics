@@ -1779,8 +1779,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Click a question to reveal the model answer.",
-      "ta": "மாதிரி விடையைக் காண வினாவைத் தொடுக.",
+      "en": "Try each question before reading the model answer.",
+      "ta": "மாதிரி விடையைப் படிப்பதற்கு முன் ஒவ்வொரு வினாவுக்கும் விடையளிக்க முயல்க.",
       "ta_status": "draft"
      }
     },

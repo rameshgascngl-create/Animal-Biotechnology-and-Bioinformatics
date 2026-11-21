@@ -962,8 +962,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Click a step to see what happens.",
-      "ta": "ஒரு படியைத் தொட்டு என்ன நடக்கிறது என்பதை அறிக.",
+      "en": "The steps below show the order of events.",
+      "ta": "நிகழ்வுகளின் வரிசையைக் கீழேயுள்ள படிகள் காட்டுகின்றன.",
       "ta_status": "draft"
      }
     },
@@ -1158,8 +1158,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Click a question to reveal the model answer.",
-      "ta": "மாதிரி விடையை அறிய ஒரு வினாவைத் தொடுக.",
+      "en": "Try each question before reading the model answer.",
+      "ta": "மாதிரி விடையைப் படிப்பதற்கு முன் ஒவ்வொரு வினாவுக்கும் விடையளிக்க முயல்க.",
       "ta_status": "draft"
      }
     },

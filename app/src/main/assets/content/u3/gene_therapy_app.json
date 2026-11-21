@@ -1919,8 +1919,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Click each topic to expand key concepts. Use for quick review and exam preparation.",
-      "ta": "முக்கியக் கருத்துகளை விரிக்க ஒவ்வொரு தலைப்பையும் தொடுக. விரைவுத் திருப்புதல், தேர்வுத் தயாரிப்புக்குப் பயன்படுத்துக.",
+      "en": "Recall the main ideas before reading the review notes.",
+      "ta": "மீள்பார்வைக் குறிப்புகளைப் படிப்பதற்கு முன் முக்கியக் கருத்துகளை நினைவுகூர்க.",
       "ta_status": "draft"
      }
     },
@@ -1944,8 +1944,8 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Click to Reveal — Definition\nA defective gene that causes a hereditary disease is called a mutant allele. Gene therapy provides a functional copy of this gene — called the transgene or therapeutic gene.",
-      "ta": "தொட்டு வெளிப்படுத்துக — வரையறை\nஒரு மரபு நோயை உண்டாக்கும் குறைபாடுள்ள மரபணு திடீர்மாற்ற அல்லீல் எனப்படும். மரபணுச் சிகிச்சை இம்மரபணுவின் செயல்படும் படியை — மாற்றுமரபணு அல்லது சிகிச்சை மரபணு என்றழைக்கப்படுவதை — அளிக்கிறது.",
+      "en": "Definition\nA defective gene that causes a hereditary disease is called a mutant allele. Gene therapy provides a functional copy of this gene — called the transgene or therapeutic gene.",
+      "ta": "வரையறை\nஒரு மரபு நோயை உண்டாக்கும் குறைபாடுள்ள மரபணு திடீர்மாற்ற அல்லீல் எனப்படும். மரபணுச் சிகிச்சை இம்மரபணுவின் செயல்படும் படியை — மாற்றுமரபணு அல்லது சிகிச்சை மரபணு என்றழைக்கப்படுவதை — அளிக்கிறது.",
       "ta_status": "draft"
      }
     },

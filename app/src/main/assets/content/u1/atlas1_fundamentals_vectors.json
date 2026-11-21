@@ -157,7 +157,7 @@
      "type": "diagram",
      "id": "atlas1_fundamentals_vectors-d02",
      "caption": {
-      "en": "Fig. 2. Milestones. Click-free summary: 1973 Cohen and Boyer made the first recombinant DNA; 1975 Köhler and Milstein made hybridomas; 1977 Sanger sequencing.",
+      "en": "Fig. 2. Milestones. Summary: 1973 Cohen and Boyer made the first recombinant DNA; 1975 Köhler and Milstein made hybridomas; 1977 Sanger sequencing.",
       "ta": "படம் 2. மைல்கற்கள். சுருக்கம்: 1973-ல் கோஹன் மற்றும் பாயர் முதல் மறுகூட்டிணைவு DNA-வை உருவாக்கினர்; 1975-ல் கோலர் மற்றும் மில்ஸ்டீன் ஹைப்ரிடோமாக்களை உருவாக்கினர்; 1977-ல் சேங்கர் வரிசைப்படுத்தல்.",
       "ta_status": "draft"
      },
@@ -1284,8 +1284,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Click a question to reveal the model answer.",
-      "ta": "வினாவைத் தொட்டு மாதிரி விடையை அறிக.",
+      "en": "Try each question before reading the model answer.",
+      "ta": "மாதிரி விடையைப் படிப்பதற்கு முன் ஒவ்வொரு வினாவுக்கும் விடையளிக்க முயல்க.",
       "ta_status": "draft"
      }
     },

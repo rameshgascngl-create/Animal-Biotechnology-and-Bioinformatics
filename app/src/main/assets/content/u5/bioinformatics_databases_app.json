@@ -915,8 +915,8 @@
     {
      "type": "p",
      "text": {
-      "en": "**GenBank Record Structure (Click sections)**",
-      "ta": "**GenBank பதிவின் அமைப்பு (பிரிவுகளைத் தொடுக)**",
+      "en": "**GenBank Record Structure**",
+      "ta": "**GenBank பதிவின் அமைப்பு**",
       "ta_status": "draft"
      }
     },
@@ -1482,8 +1482,8 @@
     {
      "type": "p",
      "text": {
-      "en": "**Database Network — Interconnection Diagram (Click nodes)**",
-      "ta": "**தரவுத்தள வலையமைப்பு — இடைத்தொடர்பு விளக்கப்படம் (முனைகளைத் தொடுக)**",
+      "en": "**Database Network — Interconnection Diagram**",
+      "ta": "**தரவுத்தள வலையமைப்பு — இடைத்தொடர்பு விளக்கப்படம்**",
       "ta_status": "draft"
      }
     },
@@ -1526,8 +1526,8 @@
     {
      "type": "p",
      "text": {
-      "en": "This diagram shows how a newly determined DNA sequence travels from a researcher's laboratory to becoming globally accessible through the INSDC network. Click each node for details.",
-      "ta": "புதிதாகக் கண்டறியப்பட்ட DNA வரிசை ஆய்வாளரின் ஆய்வகத்திலிருந்து INSDC வலையமைப்பு வழியாக உலகளாவிய அணுகலுக்கு எவ்வாறு செல்கிறது என்பதை இவ்விளக்கப்படம் காட்டுகிறது. விவரங்களுக்கு ஒவ்வொரு முனையையும் தொடுக.",
+      "en": "The diagram traces how a newly determined DNA sequence becomes accessible through the INSDC network.",
+      "ta": "புதிதாகக் கண்டறிந்த DNA வரிசை, INSDC வலையமைப்பு வழியாக எவ்வாறு அனைவருக்கும் கிடைக்கிறது என்பதை வரைபடம் காட்டுகிறது.",
       "ta_status": "draft"
      }
     },
@@ -2142,8 +2142,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Expand each topic for key points and use click-to-reveal for active recall.",
-      "ta": "முக்கியக் குறிப்புகளுக்காக ஒவ்வொரு தலைப்பையும் விரித்துப் பாருங்கள்; செயலில் நினைவுகூர்தலுக்கு தொட்டு வெளிப்படுத்துங்கள்.",
+      "en": "Recall the main ideas before reading the review notes.",
+      "ta": "மீள்பார்வைக் குறிப்புகளைப் படிப்பதற்கு முன் முக்கியக் கருத்துகளை நினைவுகூர்க.",
       "ta_status": "draft"
      }
     },
@@ -2167,8 +2167,8 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Click to Reveal — Definition\nBioinformatics is the application of information technology and computer science to the storage, retrieval, analysis, and interpretation of biological data, especially DNA, RNA, and protein sequences.",
-      "ta": "வெளிப்படுத்த தொடுக — வரையறை\nஉயிரித் தகவலியல் என்பது உயிரியல் தரவை — குறிப்பாக DNA, RNA, புரத வரிசைகளை — சேமிக்க, மீட்க, பகுப்பாய்வு செய்ய, பொருள்கோட தகவல் தொழில்நுட்பத்தையும் கணினி அறிவியலையும் பயன்படுத்துதல்.",
+      "en": "Definition\nBioinformatics is the application of information technology and computer science to the storage, retrieval, analysis, and interpretation of biological data, especially DNA, RNA, and protein sequences.",
+      "ta": "வரையறை\nஉயிரித் தகவலியல் என்பது உயிரியல் தரவை — குறிப்பாக DNA, RNA, புரத வரிசைகளை — சேமிக்க, மீட்க, பகுப்பாய்வு செய்ய, பொருள்கோட தகவல் தொழில்நுட்பத்தையும் கணினி அறிவியலையும் பயன்படுத்துதல்.",
       "ta_status": "draft"
      }
     },
@@ -2258,8 +2258,8 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Click to Reveal — Accession Number\nA GenBank accession number (e.g., AY123456) is a permanent, unique identifier assigned to each deposited sequence. It never changes and allows unambiguous global citation of any specific sequence record.",
-      "ta": "வெளிப்படுத்த தொடுக — அணுகல் எண்\nGenBank அணுகல் எண் (எ.கா. AY123456) என்பது சமர்ப்பிக்கப்பட்ட ஒவ்வொரு வரிசைக்கும் ஒதுக்கப்படும் நிலையான, தனித்த அடையாளம். இது மாறாதது; எந்த வரிசைப் பதிவையும் உலகளவில் தெளிவாகக் குறிப்பிட உதவுகிறது.",
+      "en": "Accession Number\nA GenBank accession number (e.g., AY123456) is a permanent, unique identifier assigned to each deposited sequence. It never changes and allows unambiguous global citation of any specific sequence record.",
+      "ta": "அணுகல் எண்\nGenBank அணுகல் எண் (எ.கா. AY123456) என்பது சமர்ப்பிக்கப்பட்ட ஒவ்வொரு வரிசைக்கும் ஒதுக்கப்படும் நிலையான, தனித்த அடையாளம். இது மாறாதது; எந்த வரிசைப் பதிவையும் உலகளவில் தெளிவாகக் குறிப்பிட உதவுகிறது.",
       "ta_status": "draft"
      }
     },
@@ -2345,8 +2345,8 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Click to Reveal\nDDBJ was the most recently established of the three INSDC databases (1986), but it handles a significant volume of submissions from Japan and East Asia, including many large-scale genomics projects.",
-      "ta": "வெளிப்படுத்த தொடுக\nமூன்று INSDC தரவுத்தளங்களுள் DDBJ மிகச் சமீபத்தில் (1986) நிறுவப்பட்டது; ஆயினும் ஜப்பான், கிழக்காசியாவிலிருந்து பல பெரிய மரபணுத்தொகையியல் திட்டங்கள் உட்பட கணிசமான அளவு சமர்ப்பிப்புகளைக் கையாள்கிறது.",
+      "en": "DDBJ was the most recently established of the three INSDC databases (1986), but it handles a significant volume of submissions from Japan and East Asia, including many large-scale genomics projects.",
+      "ta": "மூன்று INSDC தரவுத்தளங்களுள் DDBJ மிகச் சமீபத்தில் (1986) நிறுவப்பட்டது; ஆயினும் ஜப்பான், கிழக்காசியாவிலிருந்து பல பெரிய மரபணுத்தொகையியல் திட்டங்கள் உட்பட கணிசமான அளவு சமர்ப்பிப்புகளைக் கையாள்கிறது.",
       "ta_status": "draft"
      }
     },

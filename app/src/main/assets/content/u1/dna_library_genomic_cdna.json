@@ -1135,8 +1135,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Click each step to reveal process details.",
-      "ta": "செயல்முறை விவரங்களை அறிய ஒவ்வொரு படியையும் தொடுக.",
+      "en": "The steps below show the order of events.",
+      "ta": "நிகழ்வுகளின் வரிசையைக் கீழேயுள்ள படிகள் காட்டுகின்றன.",
       "ta_status": "draft"
      }
     },
@@ -1271,8 +1271,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Click the step buttons or use Prev/Next to walk through cDNA synthesis. Each step shows a labeled SVG diagram and explanation.",
-      "ta": "cDNA தொகுப்பின் வழியே செல்ல படி பொத்தான்களையோ முந்தைய/அடுத்து என்பதையோ தொடுக. ஒவ்வொரு படியும் பெயரிடப்பட்ட SVG படத்தையும் விளக்கத்தையும் காட்டும்.",
+      "en": "Follow the diagrams and explanations in order to review cDNA synthesis.",
+      "ta": "cDNA தொகுப்பைப் புரிந்துகொள்ள வரைபடங்களையும் விளக்கங்களையும் வரிசையாகப் படிக்கவும்.",
       "ta_status": "draft"
      }
     },
@@ -1828,8 +1828,8 @@
     {
      "type": "p",
      "text": {
-      "en": "**Click-to-Reveal Key Terms**",
-      "ta": "**தொட்டு விரிக்க: முக்கியச் சொற்கள்**",
+      "en": "**Key Terms**",
+      "ta": "**முக்கியக் கலைச்சொற்கள்**",
       "ta_status": "draft"
      }
     },
@@ -2228,8 +2228,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Click each question to expand the answer hints.",
-      "ta": "விடைக் குறிப்புகளை விரிக்க ஒவ்வொரு வினாவையும் தொடுக.",
+      "en": "Try each question before reading the hints.",
+      "ta": "விடைக் குறிப்புகளைப் படிப்பதற்கு முன் ஒவ்வொரு வினாவுக்கும் விடையளிக்க முயல்க.",
       "ta_status": "draft"
      }
     },

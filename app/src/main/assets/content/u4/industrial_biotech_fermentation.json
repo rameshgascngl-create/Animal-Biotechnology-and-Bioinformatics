@@ -445,24 +445,24 @@
     {
      "type": "p",
      "text": {
-      "en": "**Click to Reveal — Core Definitions**",
-      "ta": "**வெளிப்படுத்தத் தொடுக — முக்கிய வரையறைகள்**",
+      "en": "**Important Definitions**",
+      "ta": "**முக்கிய வரையறைகள்**",
       "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "👆 Click each card to reveal its definition",
-      "ta": "👆 வரையறையை வெளிப்படுத்த ஒவ்வொரு அட்டையையும் தொடுக",
+      "en": "Recall the meaning of each term before reading its definition.",
+      "ta": "வரையறையைப் படிப்பதற்கு முன் ஒவ்வொரு சொல்லின் பொருளையும் நினைவுகூர்க.",
       "ta_status": "draft"
      }
     },
     {
      "type": "reveal",
      "question": {
-      "en": "🧫\n**Fermentation**\nClick to reveal",
-      "ta": "🧫\n**நொதித்தல்**\nவெளிப்படுத்தத் தொடுக",
+      "en": "🧫\n**Fermentation**",
+      "ta": "🧫\n**நொதித்தல்**",
       "ta_status": "draft"
      },
      "answer": {
@@ -474,8 +474,8 @@
     {
      "type": "reveal",
      "question": {
-      "en": "⚙️\n**Substrate**\nClick to reveal",
-      "ta": "⚙️\n**வினைபடு பொருள்**\nவெளிப்படுத்தத் தொடுக",
+      "en": "⚙️\n**Substrate**",
+      "ta": "⚙️\n**வினைபடு பொருள்**",
       "ta_status": "draft"
      },
      "answer": {
@@ -487,8 +487,8 @@
     {
      "type": "reveal",
      "question": {
-      "en": "🔬\n**Inoculum**\nClick to reveal",
-      "ta": "🔬\n**இனோக்குலம்**\nவெளிப்படுத்தத் தொடுக",
+      "en": "🔬\n**Inoculum**",
+      "ta": "🔬\n**இனோக்குலம்**",
       "ta_status": "draft"
      },
      "answer": {
@@ -500,8 +500,8 @@
     {
      "type": "reveal",
      "question": {
-      "en": "🏺\n**Bioreactor**\nClick to reveal",
-      "ta": "🏺\n**உயிர்வினைக்கலன்**\nவெளிப்படுத்தத் தொடுக",
+      "en": "🏺\n**Bioreactor**",
+      "ta": "🏺\n**உயிர்வினைக்கலன்**",
       "ta_status": "draft"
      },
      "answer": {
@@ -641,8 +641,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Enzymes act as biological catalysts that drive each step of fermentation. Click each accordion panel to explore key enzymes.",
-      "ta": "நொதிகள் நொதித்தலின் ஒவ்வொரு படியையும் இயக்கும் உயிரியல் வினையூக்கிகள். முக்கிய நொதிகளை அறிய ஒவ்வொரு விரிவுப் பலகத்தையும் தொடுக.",
+      "en": "Enzymes catalyse the reactions involved in fermentation. The examples below identify key enzymes and their roles.",
+      "ta": "நொதித்தலின்போது நடைபெறும் வினைகளை நொதிகள் விரைவுபடுத்துகின்றன. கீழுள்ள எடுத்துக்காட்டுகள் முக்கிய நொதிகளையும் அவற்றின் பங்கையும் விளக்குகின்றன.",
       "ta_status": "draft"
      }
     },
@@ -1972,8 +1972,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Click on each step in the **Interactive Flowchart** (next chapter) to explore details. Here is a concise overview:",
-      "ta": "விவரங்களை ஆராய **ஊடாடும் ஓட்ட வரைபடத்தில்** (அடுத்த பகுதி) ஒவ்வொரு படியையும் தொடுக. இங்கு சுருக்கமான மேலோட்டம்:",
+      "en": "Read this overview before studying the flowchart in the next section.",
+      "ta": "அடுத்த பகுதியிலுள்ள ஓட்ட வரைபடத்தைப் படிக்கும் முன் இந்தச் சுருக்கத்தைப் படிக்கவும்.",
       "ta_status": "draft"
      }
     },
@@ -2298,8 +2298,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Explore the complete step-by-step ethanol production process. Click any step to expand its detailed description below.",
-      "ta": "எத்தனால் உற்பத்தியின் முழுப் படிப்படியான செயல்முறையை ஆராய்க. கீழே விரிவான விளக்கத்தைக் காண எந்தப் படியையும் தொடுக.",
+      "en": "The following section explains the stages of ethanol production.",
+      "ta": "எத்தனால் உற்பத்தியின் நிலைகளைக் கீழுள்ள பகுதி விளக்குகிறது.",
       "ta_status": "draft"
      }
     },
@@ -2314,8 +2314,8 @@
     {
      "type": "p",
      "text": {
-      "en": "👆 Click each step to see detailed information",
-      "ta": "👆 விரிவான தகவலைக் காண ஒவ்வொரு படியையும் தொடுக",
+      "en": "The steps below show the order of events.",
+      "ta": "நிகழ்வுகளின் வரிசையைக் கீழேயுள்ள படிகள் காட்டுகின்றன.",
       "ta_status": "draft"
      }
     },

@@ -401,8 +401,8 @@
     {
      "type": "p",
      "text": {
-      "en": "**RFLP — Concept Diagram (Click steps for details)**",
-      "ta": "**RFLP — கருத்து வரைபடம் (விவரங்களுக்குப் படிகளைத் தொடுக)**",
+      "en": "**RFLP — Concept Diagram**",
+      "ta": "**RFLP — கருத்து வரைபடம்**",
       "ta_status": "draft"
      }
     },
@@ -638,8 +638,8 @@
     {
      "type": "p",
      "text": {
-      "en": "**RAPD — Concept Diagram (Click steps for details)**",
-      "ta": "**RAPD — கருத்து வரைபடம் (விவரங்களுக்குப் படிகளைத் தொடுக)**",
+      "en": "**RAPD — Concept Diagram**",
+      "ta": "**RAPD — கருத்து வரைபடம்**",
       "ta_status": "draft"
      }
     },
@@ -899,8 +899,8 @@
     {
      "type": "p",
      "text": {
-      "en": "**DNA Fingerprinting — Concept Diagram (Click steps)**",
-      "ta": "**DNA கைரேகைப் பதிவு — கருத்து வரைபடம் (படிகளைத் தொடுக)**",
+      "en": "**DNA Fingerprinting — Concept Diagram**",
+      "ta": "**DNA கைரேகைப் பதிவு — கருத்து வரைபடம்**",
       "ta_status": "draft"
      }
     },
@@ -1136,8 +1136,8 @@
     {
      "type": "p",
      "text": {
-      "en": "In a DNA profile, **matching bands at the same position** indicate shared alleles. Hover over bands to explore. Lane labels: P = Putative Parent, C = Child, U = Unrelated.",
-      "ta": "DNA சுயவிவரத்தில், **ஒரே நிலையிலுள்ள பொருந்தும் பட்டைகள்** பகிர்ந்த அல்லீல்களைக் குறிக்கும். பட்டைகளின் மேல் நகர்த்தி ஆராய்க. தட லேபிள்கள்: P = சந்தேகப் பெற்றோர், C = குழந்தை, U = தொடர்பற்றவர்.",
+      "en": "In a DNA profile, **matching bands at the same position** indicate shared alleles. Lane labels: P = Putative Parent, C = Child, U = Unrelated.",
+      "ta": "DNA சுயவிவரத்தில், **ஒரே நிலையிலுள்ள பொருந்தும் பட்டைகள்** பகிர்ந்த அல்லீல்களைக் குறிக்கும். தட லேபிள்கள்: P = சந்தேகப் பெற்றோர், C = குழந்தை, U = தொடர்பற்றவர்.",
       "ta_status": "draft"
      }
     },
@@ -1887,8 +1887,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Expand topics for key points and click-to-reveal for active recall practice.",
-      "ta": "முக்கியக் குறிப்புகளுக்குத் தலைப்புகளை விரிக்க; செயல்மிகு நினைவுகூரல் பயிற்சிக்குத் தொட்டு வெளிப்படுத்துக.",
+      "en": "Recall the main ideas before reading the review notes.",
+      "ta": "மீள்பார்வைக் குறிப்புகளைப் படிப்பதற்கு முன் முக்கியக் கருத்துகளை நினைவுகூர்க.",
       "ta_status": "draft"
      }
     },
@@ -1912,8 +1912,8 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Click to Reveal — Definition of Polymorphism\nPolymorphism = the occurrence of two or more genetically different forms within a population at a locus. Molecular markers detect and quantify polymorphism at the DNA level.",
-      "ta": "தொட்டு வெளிப்படுத்துக — பல்லுருவமைப்பின் வரையறை\nபல்லுருவமைப்பு = ஓர் இனக்கூட்டத்தில் ஒரு மரபணு இடத்தில் மரபணுரீதியாக வேறுபட்ட இரண்டு அல்லது அதற்கு மேற்பட்ட வடிவங்கள் இருத்தல். மூலக்கூறுக் குறிப்பான்கள் DNA மட்டத்தில் பல்லுருவமைப்பைக் கண்டறிந்து அளவிடும்.",
+      "en": "Definition of Polymorphism\nPolymorphism = the occurrence of two or more genetically different forms within a population at a locus. Molecular markers detect and quantify polymorphism at the DNA level.",
+      "ta": "பல்லுருவமைப்பின் வரையறை\nபல்லுருவமைப்பு = ஓர் இனக்கூட்டத்தில் ஒரு மரபணு இடத்தில் மரபணுரீதியாக வேறுபட்ட இரண்டு அல்லது அதற்கு மேற்பட்ட வடிவங்கள் இருத்தல். மூலக்கூறுக் குறிப்பான்கள் DNA மட்டத்தில் பல்லுருவமைப்பைக் கண்டறிந்து அளவிடும்.",
       "ta_status": "draft"
      }
     },

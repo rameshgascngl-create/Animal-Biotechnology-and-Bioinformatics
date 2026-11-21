@@ -300,8 +300,8 @@
     {
      "type": "p",
      "text": {
-      "en": "**Steps (click each step)**",
-      "ta": "**படிகள் (ஒவ்வொன்றையும் தொடுக)**",
+      "en": "**Steps**",
+      "ta": "**படிகள்**",
       "ta_status": "draft"
      }
     },
@@ -364,8 +364,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Click a step to see what happens.",
-      "ta": "ஒரு படியைத் தொட்டு அங்கு நிகழ்வதைக் காண்க.",
+      "en": "The steps below show the order of events.",
+      "ta": "நிகழ்வுகளின் வரிசையைக் கீழேயுள்ள படிகள் காட்டுகின்றன.",
       "ta_status": "draft"
      }
     },
@@ -689,8 +689,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Click a step to see what happens.",
-      "ta": "ஒரு படியைத் தொட்டு அங்கு நிகழ்வதைக் காண்க.",
+      "en": "The steps below show the order of events.",
+      "ta": "நிகழ்வுகளின் வரிசையைக் கீழேயுள்ள படிகள் காட்டுகின்றன.",
       "ta_status": "draft"
      }
     }
@@ -1000,8 +1000,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Click a question to reveal the model answer.",
-      "ta": "ஒரு வினாவைத் தொட்டு மாதிரி விடையைக் காண்க.",
+      "en": "Try each question before reading the model answer.",
+      "ta": "மாதிரி விடையைப் படிப்பதற்கு முன் ஒவ்வொரு வினாவுக்கும் விடையளிக்க முயல்க.",
       "ta_status": "draft"
      }
     },

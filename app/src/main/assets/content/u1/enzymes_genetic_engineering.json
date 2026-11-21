@@ -762,8 +762,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Click on each enzyme to expand and learn about its function and role.",
-      "ta": "ஒவ்வொரு நொதியையும் தொட்டு விரித்து அதன் செயல்பாட்டையும் பங்கையும் அறிக.",
+      "en": "Review the role of each enzyme.",
+      "ta": "ஒவ்வொரு நொதியின் பங்கையும் மீள்பார்வை செய்க.",
       "ta_status": "draft"
      }
     },
@@ -1247,16 +1247,16 @@
   {
    "id": "s08",
    "title": {
-    "en": "Interactive Learning: Click to Reveal",
-    "ta": "ஊடாடும் கற்றல்: தொட்டு விடை அறிக",
+    "en": "Review Questions",
+    "ta": "மீள்பார்வை வினாக்கள்",
     "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Click any card to reveal the key function of each enzyme or term.",
-      "ta": "எந்த அட்டையையும் தொட்டு, ஒவ்வொரு நொதி அல்லது சொல்லின் முக்கியச் செயல்பாட்டை அறிக.",
+      "en": "Review the purpose of each enzyme and the meaning of each term.",
+      "ta": "ஒவ்வொரு நொதியின் பங்கையும் ஒவ்வொரு கலைச்சொல்லின் பொருளையும் மீள்பார்வை செய்க.",
       "ta_status": "draft"
      }
     },
@@ -1379,8 +1379,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Click on each step to learn more about what happens at that stage.",
-      "ta": "ஒவ்வொரு படியையும் தொட்டு, அந்நிலையில் என்ன நிகழ்கிறது என அறிக.",
+      "en": "The steps below show the order of events.",
+      "ta": "நிகழ்வுகளின் வரிசையைக் கீழேயுள்ள படிகள் காட்டுகின்றன.",
       "ta_status": "draft"
      }
     },
@@ -2041,8 +2041,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Click each question to reveal answer hints for your exam preparation.",
-      "ta": "ஒவ்வொரு வினாவையும் தொட்டு, தேர்வுத் தயாரிப்புக்கான விடைக் குறிப்புகளை அறிக.",
+      "en": "Try each question before reading the hints.",
+      "ta": "விடைக் குறிப்புகளைப் படிப்பதற்கு முன் ஒவ்வொரு வினாவுக்கும் விடையளிக்க முயல்க.",
       "ta_status": "draft"
      }
     },

@@ -814,6 +814,20 @@ def carry_over_tamil(chapter, previous):
     return dropped
 
 
+def apply_native_reader_copy(chapter, edits):
+    """Apply vetted reader wording after checking HTML extraction coverage."""
+    from ta_io import walk
+
+    for _, field in walk(chapter):
+        english = field["en"]
+        if english in edits["exact"]:
+            field["en"] = edits["exact"][english]
+        else:
+            for before, after in edits["fragments"].items():
+                english = english.replace(before, after)
+            field["en"] = english
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("--unit", required=True)
@@ -827,6 +841,8 @@ def main(argv=None):
     a = ap.parse_args(argv)
     out = Path(a.out)
     out.mkdir(parents=True, exist_ok=True)
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+    native_copy = json.loads(Path(__file__).with_name("native_reader_copy.json").read_text(encoding="utf-8"))
     results, failed = [], False
     for f in unit_files(a.syllabus, a.unit):
         html = (Path(a.html_dir) / f).read_text(encoding="utf-8")
@@ -839,6 +855,7 @@ def main(argv=None):
              "quiz_n": len(json.loads(Path(a.quizbank).read_text(encoding="utf-8")).get(f, [])),
              "raw_svg": html.count("<svg")}
         results.append(r)
+        apply_native_reader_copy(chapter, native_copy)
         target = out / (Path(f).stem + ".json")
         if target.exists():
             lost = carry_over_tamil(chapter, json.loads(target.read_text(encoding="utf-8")))

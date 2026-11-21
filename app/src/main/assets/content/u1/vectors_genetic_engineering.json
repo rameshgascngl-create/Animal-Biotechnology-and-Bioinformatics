@@ -1115,8 +1115,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Click each step to reveal details.",
-      "ta": "ஒவ்வொரு படியையும் தொட்டு விவரங்களை அறிக.",
+      "en": "The steps below show the order of events.",
+      "ta": "நிகழ்வுகளின் வரிசையைக் கீழேயுள்ள படிகள் காட்டுகின்றன.",
       "ta_status": "draft"
      }
     },
@@ -1185,8 +1185,8 @@
     {
      "type": "p",
      "text": {
-      "en": "**Expand Each Vector to Review Key Points**",
-      "ta": "**முக்கியக் குறிப்புகளை மீள்பார்வை செய்ய ஒவ்வொரு தாங்கிக்கடத்தியையும் விரிக்க**",
+      "en": "**Key Points about Vectors**",
+      "ta": "**தாங்கிக்கடத்திகள் பற்றிய முக்கியக் குறிப்புகள்**",
       "ta_status": "draft"
      }
     },
@@ -1447,8 +1447,8 @@
     {
      "type": "p",
      "text": {
-      "en": "**Click-to-Reveal: Key Terms**",
-      "ta": "**தொட்டு விரிக்க: முக்கியச் சொற்கள்**",
+      "en": "**Key Terms**",
+      "ta": "**முக்கியக் கலைச்சொற்கள்**",
       "ta_status": "draft"
      }
     },

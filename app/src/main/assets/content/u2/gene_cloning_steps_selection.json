@@ -897,8 +897,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Click the view buttons to see what happens in each scenario. Click individual colonies to learn more.",
-      "ta": "ஒவ்வொரு சூழ்நிலையிலும் என்ன நடக்கிறது என அறியக் காட்சிப் பொத்தான்களைத் தொடுக. தனித்தனிக் குழுமங்களைத் தொட்டு மேலும் அறிக.",
+      "en": "Compare the outcomes shown and note the differences between the colonies.",
+      "ta": "காட்டப்பட்ட முடிவுகளை ஒப்பிட்டுக் குழுமங்களுக்கிடையேயான வேறுபாடுகளைக் கவனிக்கவும்.",
       "ta_status": "draft"
      }
     },
@@ -1023,8 +1023,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Petri Dish — Blue-White Screening Result (hover over colonies)",
-      "ta": "பெட்ரி தட்டு — நீலம்-வெள்ளை சலிக்கை முடிவு (குழுமங்கள்மேல் நகர்த்துக)",
+      "en": "Petri Dish — Blue–White Screening Result",
+      "ta": "பெட்ரி தட்டு — நீல, வெள்ளைக் குழுமத் தேர்வின் முடிவு",
       "ta_status": "draft"
      }
     },
@@ -1093,16 +1093,16 @@
   {
    "id": "s08",
    "title": {
-    "en": "Gene Cloning Pipeline — Click Each Step",
-    "ta": "மரபணு குளோனாக்கக் குழாய் — ஒவ்வொரு படியையும் தொடுக",
+    "en": "Gene Cloning Workflow",
+    "ta": "மரபணுக் குளோனாக்கத்தின் படிகள்",
     "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Click any step to expand its details.",
-      "ta": "எந்தப் படியையும் தொட்டு விவரங்களை விரிவாக்குக.",
+      "en": "The steps below show the order of events.",
+      "ta": "நிகழ்வுகளின் வரிசையைக் கீழேயுள்ள படிகள் காட்டுகின்றன.",
       "ta_status": "draft"
      }
     },
@@ -1562,8 +1562,8 @@
     {
      "type": "p",
      "text": {
-      "en": "**Click-to-Reveal Key Concepts**",
-      "ta": "**தொட்டு வெளிப்படுத்தும் முக்கியக் கருத்துகள்**",
+      "en": "**Key Concepts**",
+      "ta": "**முக்கியக் கருத்துகள்**",
       "ta_status": "draft"
      }
     },
@@ -1962,8 +1962,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Click each question to expand answer hints.",
-      "ta": "ஒவ்வொரு வினாவையும் தொட்டு விடைக் குறிப்புகளை விரிவாக்குக.",
+      "en": "Try each question before reading the hints.",
+      "ta": "விடைக் குறிப்புகளைப் படிப்பதற்கு முன் ஒவ்வொரு வினாவுக்கும் விடையளிக்க முயல்க.",
       "ta_status": "draft"
      }
     },

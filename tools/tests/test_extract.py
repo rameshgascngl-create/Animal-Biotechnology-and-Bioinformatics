@@ -256,3 +256,15 @@ def test_regeneration_keeps_tamil_when_english_unchanged_and_reports_changed(tmp
     assert new["sections"][0]["blocks"][0]["text"]["ta"] == "அ"
     assert "ta" not in new["sections"][0]["blocks"][1]["text"]
     assert lost == ["sections/0/blocks/1/text"]
+
+def test_native_reader_copy_preserves_substantive_text_and_html_coverage(monkeypatch):
+    monkeypatch.syspath_prepend(str(Path(ex.__file__).resolve().parents[1]))
+    html = "<body><h2>Review</h2><p>Click each step to reveal details.</p><p>Expand the abbreviation.</p></body>"
+    chapter = chap(html)
+    assert ex.text_coverage(html, chapter, BASE) == []
+    edits = json.loads(Path(ex.__file__).with_name("native_reader_copy.json").read_text(encoding="utf-8"))
+    ex.apply_native_reader_copy(chapter, edits)
+    assert [b["text"]["en"] for b in blocks(chapter)] == [
+        "The steps below show the order of events.",
+        "Expand the abbreviation.",
+    ]

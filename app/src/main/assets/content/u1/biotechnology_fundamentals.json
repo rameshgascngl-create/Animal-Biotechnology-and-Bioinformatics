@@ -1360,16 +1360,16 @@
     {
      "type": "p",
      "text": {
-      "en": "**Expand & Explore — Key Concepts**",
-      "ta": "**விரித்து ஆராய்க — முக்கியக் கருத்துகள்**",
+      "en": "**Key Concepts**",
+      "ta": "**முக்கியக் கருத்துகள்**",
       "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "Click each panel to expand / collapse",
-      "ta": "விரிக்க / மடக்க ஒவ்வொரு பலகத்தையும் தொடுக",
+      "en": "Review the key concepts below.",
+      "ta": "கீழுள்ள முக்கியக் கருத்துகளை மீள்பார்வை செய்க.",
       "ta_status": "draft"
      }
     },
@@ -1622,16 +1622,16 @@
     {
      "type": "p",
      "text": {
-      "en": "**Click-to-Reveal — Important Definitions**",
-      "ta": "**தொட்டு விரிக்க — முக்கிய வரையறைகள்**",
+      "en": "**Important Definitions**",
+      "ta": "**முக்கிய வரையறைகள்**",
       "ta_status": "draft"
      }
     },
     {
      "type": "p",
      "text": {
-      "en": "👆 Click each card to reveal its definition",
-      "ta": "👆 வரையறையை அறிய ஒவ்வொரு அட்டையையும் தொடுக",
+      "en": "Recall the meaning of each term before reading its definition.",
+      "ta": "வரையறையைப் படிப்பதற்கு முன் ஒவ்வொரு சொல்லின் பொருளையும் நினைவுகூர்க.",
       "ta_status": "draft"
      }
     },
@@ -1646,8 +1646,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Click to reveal",
-      "ta": "வரையறையை அறியத் தொடுக",
+      "en": "Answer",
+      "ta": "விடை",
       "ta_status": "draft"
      }
     },
@@ -1670,8 +1670,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Click to reveal",
-      "ta": "வரையறையை அறியத் தொடுக",
+      "en": "Answer",
+      "ta": "விடை",
       "ta_status": "draft"
      }
     },
@@ -1694,8 +1694,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Click to reveal",
-      "ta": "வரையறையை அறியத் தொடுக",
+      "en": "Answer",
+      "ta": "விடை",
       "ta_status": "draft"
      }
     },
@@ -1718,8 +1718,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Click to reveal",
-      "ta": "வரையறையை அறியத் தொடுக",
+      "en": "Answer",
+      "ta": "விடை",
       "ta_status": "draft"
      }
     },
@@ -1742,8 +1742,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Click to reveal",
-      "ta": "வரையறையை அறியத் தொடுக",
+      "en": "Answer",
+      "ta": "விடை",
       "ta_status": "draft"
      }
     },
@@ -1766,8 +1766,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Click to reveal",
-      "ta": "வரையறையை அறியத் தொடுக",
+      "en": "Answer",
+      "ta": "விடை",
       "ta_status": "draft"
      }
     },
@@ -1790,8 +1790,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Click to reveal",
-      "ta": "வரையறையை அறியத் தொடுக",
+      "en": "Answer",
+      "ta": "விடை",
       "ta_status": "draft"
      }
     },
@@ -1814,8 +1814,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Click to reveal",
-      "ta": "வரையறையை அறியத் தொடுக",
+      "en": "Answer",
+      "ta": "விடை",
       "ta_status": "draft"
      }
     },
@@ -2388,8 +2388,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Click each question to reveal the model answer",
-      "ta": "மாதிரி விடையை அறிய ஒவ்வொரு வினாவையும் தொடுக",
+      "en": "Try each question before reading the model answer.",
+      "ta": "மாதிரி விடையைப் படிப்பதற்கு முன் ஒவ்வொரு வினாவுக்கும் விடையளிக்க முயல்க.",
       "ta_status": "draft"
      }
     },

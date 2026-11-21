@@ -984,8 +984,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Click any box in the diagrams below for an explanation.",
-      "ta": "கீழே உள்ள விளக்கப்படங்களில் ஏதேனும் ஒரு பெட்டியைத் தொடுக விளக்கத்துக்கு.",
+      "en": "The diagram labels identify each part of the process.",
+      "ta": "செயல்முறையின் ஒவ்வொரு பகுதியையும் வரைபடக் குறிப்புகள் அடையாளம் காட்டுகின்றன.",
       "ta_status": "draft"
      }
     },
@@ -1057,8 +1057,8 @@
     {
      "type": "p",
      "text": {
-      "en": "**Data Flow: Biological Data → Database → Analysis (Click nodes)**",
-      "ta": "**தரவுப் பாய்வு: உயிரியல் தரவு → தரவுத்தளம் → பகுப்பாய்வு (முனைகளைத் தொடுக)**",
+      "en": "**Data Flow: Biological Data → Database → Analysis**",
+      "ta": "**தரவுப் பாய்வு: உயிரியல் தரவு → தரவுத்தளம் → பகுப்பாய்வு**",
       "ta_status": "draft"
      }
     },
@@ -1092,8 +1092,8 @@
     {
      "type": "p",
      "text": {
-      "en": "**SWISS-PROT within the UniProt System (Click nodes)**",
-      "ta": "**UniProt அமைப்பில் SWISS-PROT (முனைகளைத் தொடுக)**",
+      "en": "**SWISS-PROT within the UniProt System**",
+      "ta": "**UniProt அமைப்பில் SWISS-PROT**",
       "ta_status": "draft"
      }
     },
@@ -1849,8 +1849,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Expand each topic for key points and click-to-reveal for active recall practice.",
-      "ta": "முக்கியக் குறிப்புகளுக்காக ஒவ்வொரு தலைப்பையும் விரித்துப் பாருங்கள்; செயலில் நினைவுகூர்தல் பயிற்சிக்காகத் தொட்டு விடையை வெளிப்படுத்துங்கள்.",
+      "en": "Recall the main ideas before reading the review notes.",
+      "ta": "மீள்பார்வைக் குறிப்புகளைப் படிப்பதற்கு முன் முக்கியக் கருத்துகளை நினைவுகூர்க.",
       "ta_status": "draft"
      }
     },
@@ -1874,8 +1874,8 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Click to Reveal\nThree key protein/structural databases: SWISS-PROT (manually curated sequences), UniProt (comprehensive — Swiss-Prot + TrEMBL), and PDB (3D atomic coordinates of macromolecular structures).",
-      "ta": "வெளிப்படுத்த தொடுக\nமூன்று முக்கியப் புரத/கட்டமைப்புத் தரவுத்தளங்கள்: SWISS-PROT (கைமுறையாகப் பராமரிக்கப்படும் வரிசைகள்), UniProt (விரிவானது — Swiss-Prot + TrEMBL), PDB (பெருமூலக்கூறுக் கட்டமைப்புகளின் 3D அணு ஆயத்தொலைவுகள்).",
+      "en": "Three key protein/structural databases: SWISS-PROT (manually curated sequences), UniProt (comprehensive — Swiss-Prot + TrEMBL), and PDB (3D atomic coordinates of macromolecular structures).",
+      "ta": "மூன்று முக்கியப் புரத/கட்டமைப்புத் தரவுத்தளங்கள்: SWISS-PROT (கைமுறையாகப் பராமரிக்கப்படும் வரிசைகள்), UniProt (விரிவானது — Swiss-Prot + TrEMBL), PDB (பெருமூலக்கூறுக் கட்டமைப்புகளின் 3D அணு ஆயத்தொலைவுகள்).",
       "ta_status": "draft"
      }
     },
@@ -1970,8 +1970,8 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Click to Reveal — TrEMBL meaning\nTrEMBL = Translated EMBL — it was originally created to hold protein sequences automatically translated from nucleotide sequences submitted to the EMBL nucleotide database. It grew far larger than Swiss-Prot as genome sequencing accelerated.",
-      "ta": "வெளிப்படுத்த தொடுக — TrEMBL பொருள்\nTrEMBL = Translated EMBL — EMBL நியுக்ளியோடைடு தரவுத்தளத்தில் சமர்ப்பிக்கப்பட்ட நியுக்ளியோடைடு வரிசைகளிலிருந்து தானாக மொழிபெயர்க்கப்பட்ட புரத வரிசைகளைச் சேமிக்கவே இது முதலில் உருவாக்கப்பட்டது. மரபணுத்தொகைய வரிசையாக்கம் வேகமடைந்ததால் இது Swiss-Prot-ஐ விட மிகப் பெரிதாக வளர்ந்தது.",
+      "en": "TrEMBL meaning\nTrEMBL = Translated EMBL — it was originally created to hold protein sequences automatically translated from nucleotide sequences submitted to the EMBL nucleotide database. It grew far larger than Swiss-Prot as genome sequencing accelerated.",
+      "ta": "TrEMBL பொருள்\nTrEMBL = Translated EMBL — EMBL நியுக்ளியோடைடு தரவுத்தளத்தில் சமர்ப்பிக்கப்பட்ட நியுக்ளியோடைடு வரிசைகளிலிருந்து தானாக மொழிபெயர்க்கப்பட்ட புரத வரிசைகளைச் சேமிக்கவே இது முதலில் உருவாக்கப்பட்டது. மரபணுத்தொகைய வரிசையாக்கம் வேகமடைந்ததால் இது Swiss-Prot-ஐ விட மிகப் பெரிதாக வளர்ந்தது.",
       "ta_status": "draft"
      }
     },

@@ -872,16 +872,16 @@
   {
    "id": "s10",
    "title": {
-    "en": "Gel Electrophoresis Workflow — Click Each Step",
-    "ta": "இழும மின்னாற்பிரித்தல்ப் பணிப்பாய்வு — ஒவ்வொரு படியையும் தொடுக",
+    "en": "Gel Electrophoresis Workflow",
+    "ta": "இழும மின்னாற்பிரித்தலின் படிகள்",
     "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Click any step to expand details.",
-      "ta": "எந்தப் படியையும் தொட்டு விவரங்களை விரிவாக்குக.",
+      "en": "The steps below show the order of events.",
+      "ta": "நிகழ்வுகளின் வரிசையைக் கீழேயுள்ள படிகள் காட்டுகின்றன.",
       "ta_status": "draft"
      }
     },
@@ -1619,8 +1619,8 @@
     {
      "type": "p",
      "text": {
-      "en": "**Click-to-Reveal Key Terms**",
-      "ta": "**தொட்டு வெளிப்படுத்தும் முக்கியச் சொற்கள்**",
+      "en": "**Key Terms**",
+      "ta": "**முக்கியக் கலைச்சொற்கள்**",
       "ta_status": "draft"
      }
     },
@@ -1993,8 +1993,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Click each question to expand answer hints.",
-      "ta": "ஒவ்வொரு வினாவையும் தொட்டு விடைக் குறிப்புகளை விரிவாக்குக.",
+      "en": "Try each question before reading the hints.",
+      "ta": "விடைக் குறிப்புகளைப் படிப்பதற்கு முன் ஒவ்வொரு வினாவுக்கும் விடையளிக்க முயல்க.",
       "ta_status": "draft"
      }
     },

@@ -1147,8 +1147,8 @@
     {
      "type": "p",
      "text": {
-      "en": "All diagrams are drawn with inline SVG — scalable, offline, and academically labeled. Hover over parts to highlight them.",
-      "ta": "அனைத்துப் படங்களும் இன்லைன் SVG-யால் வரையப்பட்டுள்ளன — அளவு மாற்றத்தக்கவை, இணையமின்றிப் பயன்படுத்தத்தக்கவை, கல்வித் தரத்தில் பெயரிடப்பட்டவை. பகுதிகளின் மீது தொட்டால் அவை முனைப்பாகும்.",
+      "en": "Use the labelled diagrams to compare the structures shown.",
+      "ta": "குறிப்பிடப்பட்டுள்ள பெயர்களைக் கொண்டு வரைபடங்களில் காட்டப்பட்ட அமைப்புகளை ஒப்பிடுக.",
       "ta_status": "draft"
      }
     },
@@ -1342,8 +1342,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Click each step to reveal what happens at that stage.",
-      "ta": "ஒவ்வொரு நிலையிலும் நடப்பதை அறிய ஒவ்வொரு படியையும் தொடுக.",
+      "en": "The steps below show the order of events.",
+      "ta": "நிகழ்வுகளின் வரிசையைக் கீழேயுள்ள படிகள் காட்டுகின்றன.",
       "ta_status": "draft"
      }
     },
@@ -2002,8 +2002,8 @@
     {
      "type": "p",
      "text": {
-      "en": "**Click-to-Reveal Key Terms**",
-      "ta": "**தொட்டு விரிக்க: முக்கியச் சொற்கள்**",
+      "en": "**Key Terms**",
+      "ta": "**முக்கியக் கலைச்சொற்கள்**",
       "ta_status": "draft"
      }
     },
@@ -2402,8 +2402,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Click each question to reveal answer hints and key points.",
-      "ta": "விடைக் குறிப்புகளையும் முக்கியக் கருத்துகளையும் அறிய ஒவ்வொரு வினாவையும் தொடுக.",
+      "en": "Try each question before reading the hints.",
+      "ta": "விடைக் குறிப்புகளைப் படிப்பதற்கு முன் ஒவ்வொரு வினாவுக்கும் விடையளிக்க முயல்க.",
       "ta_status": "draft"
      }
     },

@@ -658,8 +658,8 @@
     {
      "type": "p",
      "text": {
-      "en": "**CRISPR Mechanism Diagram (Click steps for details)**",
-      "ta": "**CRISPR இயக்கமுறை வரைபடம் (விவரங்களுக்குப் படிகளைத் தொடுக)**",
+      "en": "**CRISPR Mechanism Diagram**",
+      "ta": "**CRISPR இயக்கமுறை வரைபடம்**",
       "ta_status": "draft"
      }
     },
@@ -1786,8 +1786,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Expand each topic for key points and click-to-reveal concepts for active recall practice.",
-      "ta": "முக்கியக் குறிப்புகளுக்குத் தலைப்பு ஒவ்வொன்றையும் விரிக்க; செயல்மிகு நினைவுகூரல் பயிற்சிக்குக் கருத்துகளைத் தொட்டு வெளிப்படுத்துக.",
+      "en": "Recall the main ideas before reading the review notes.",
+      "ta": "மீள்பார்வைக் குறிப்புகளைப் படிப்பதற்கு முன் முக்கியக் கருத்துகளை நினைவுகூர்க.",
       "ta_status": "draft"
      }
     },
@@ -1811,8 +1811,8 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Click to Reveal — Nobel Prize\nNobel Prize in Chemistry 2020: awarded to Jennifer Doudna and Emmanuelle Charpentier for developing CRISPR-Cas9 as a precise gene-editing tool.",
-      "ta": "தொட்டு வெளிப்படுத்துக — நோபல் பரிசு\n2020 வேதியியல் நோபல் பரிசு: CRISPR-Cas9-ஐத் துல்லிய மரபணுத் திருத்தக் கருவியாக உருவாக்கியதற்காக ஜெனிஃபர் டூட்னா, இம்மானுவேல் சார்பெண்டியருக்கு வழங்கப்பட்டது.",
+      "en": "Nobel Prize\nNobel Prize in Chemistry 2020: awarded to Jennifer Doudna and Emmanuelle Charpentier for developing CRISPR-Cas9 as a precise gene-editing tool.",
+      "ta": "நோபல் பரிசு\n2020 வேதியியல் நோபல் பரிசு: CRISPR-Cas9-ஐத் துல்லிய மரபணுத் திருத்தக் கருவியாக உருவாக்கியதற்காக ஜெனிஃபர் டூட்னா, இம்மானுவேல் சார்பெண்டியருக்கு வழங்கப்பட்டது.",
       "ta_status": "draft"
      }
     },
@@ -1854,8 +1854,8 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Click to Reveal — Discovery Timeline\nCRISPR repeats were first observed in bacteria in 1987 by Yoshizumi Ishino (Japan); their function as an immune defence was proposed by Francisco Mojica in 2005.",
-      "ta": "தொட்டு வெளிப்படுத்துக — கண்டுபிடிப்புக் காலவரிசை\nCRISPR மீள்வரிசைகள் 1987-இல் யோஷிசுமி இஷினோவால் (ஜப்பான்) பாக்டீரியாவில் முதலில் காணப்பட்டன; நோயெதிர்ப்புப் பாதுகாப்பாக அவற்றின் செயல் 2005-இல் பிரான்சிஸ்கோ மோஜிகாவால் முன்மொழியப்பட்டது.",
+      "en": "Discovery Timeline\nCRISPR repeats were first observed in bacteria in 1987 by Yoshizumi Ishino (Japan); their function as an immune defence was proposed by Francisco Mojica in 2005.",
+      "ta": "கண்டுபிடிப்புக் காலவரிசை\nCRISPR மீள்வரிசைகள் 1987-இல் யோஷிசுமி இஷினோவால் (ஜப்பான்) பாக்டீரியாவில் முதலில் காணப்பட்டன; நோயெதிர்ப்புப் பாதுகாப்பாக அவற்றின் செயல் 2005-இல் பிரான்சிஸ்கோ மோஜிகாவால் முன்மொழியப்பட்டது.",
       "ta_status": "draft"
      }
     },
@@ -1897,8 +1897,8 @@
      "type": "callout",
      "kind": "info",
      "text": {
-      "en": "Click to Reveal — sgRNA\nIn the lab, the natural two-part RNA (crRNA + tracrRNA) is fused into a single single guide RNA (sgRNA) — a simplification that made the system easy to use experimentally.",
-      "ta": "தொட்டு வெளிப்படுத்துக — sgRNA\nஆய்வகத்தில் இயற்கையான இருபகுதி RNA (crRNA + tracrRNA) ஒற்றை வழிகாட்டி RNA-வாக (sgRNA) இணைக்கப்படுகிறது — இவ்வமைப்பைச் சோதனையில் எளிதாகப் பயன்படுத்த உதவிய எளிமைப்படுத்தல்.",
+      "en": "sgRNA\nIn the lab, the natural two-part RNA (crRNA + tracrRNA) is fused into a single single guide RNA (sgRNA) — a simplification that made the system easy to use experimentally.",
+      "ta": "sgRNA\nஆய்வகத்தில் இயற்கையான இருபகுதி RNA (crRNA + tracrRNA) ஒற்றை வழிகாட்டி RNA-வாக (sgRNA) இணைக்கப்படுகிறது — இவ்வமைப்பைச் சோதனையில் எளிதாகப் பயன்படுத்த உதவிய எளிமைப்படுத்தல்.",
       "ta_status": "draft"
      }
     },

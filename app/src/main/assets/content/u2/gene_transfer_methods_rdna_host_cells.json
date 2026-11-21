@@ -943,8 +943,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Each diagram shows the mechanism of gene entry for that method. Click or hover to interact.",
-      "ta": "ஒவ்வொரு வரைபடமும் அம்முறையில் மரபணு நுழையும் இயங்குமுறையைக் காட்டுகிறது. தொட்டு அல்லது நகர்த்திக் காண்க.",
+      "en": "Each diagram shows how genetic material enters a cell in that method.",
+      "ta": "ஒவ்வொரு முறையிலும் மரபுப் பொருள் செல்லுக்குள் எவ்வாறு நுழைகிறது என்பதை அந்தந்த வரைபடம் காட்டுகிறது.",
       "ta_status": "draft"
      }
     },
@@ -1424,16 +1424,16 @@
   {
    "id": "s09",
    "title": {
-    "en": "Gene Delivery — Concept Flow (Click Steps)",
-    "ta": "மரபணு செலுத்தல் — கருத்துப் பாய்வு (படிகளைத் தொடுக)",
+    "en": "Gene Delivery — Concept Flow",
+    "ta": "மரபுப் பொருளைச் செல்லுக்குள் செலுத்துதல் — கருத்து வரைபடம்",
     "ta_status": "draft"
    },
    "blocks": [
     {
      "type": "p",
      "text": {
-      "en": "Click any step to expand details.",
-      "ta": "எந்தப் படியையும் தொட்டு விவரங்களை விரிவாக்குக.",
+      "en": "The steps below show the order of events.",
+      "ta": "நிகழ்வுகளின் வரிசையைக் கீழேயுள்ள படிகள் காட்டுகின்றன.",
       "ta_status": "draft"
      }
     },
@@ -1919,8 +1919,8 @@
     {
      "type": "p",
      "text": {
-      "en": "**Click-to-Reveal Key Terms**",
-      "ta": "**தொட்டு வெளிப்படுத்தும் முக்கியச் சொற்கள்**",
+      "en": "**Key Terms**",
+      "ta": "**முக்கியக் கலைச்சொற்கள்**",
       "ta_status": "draft"
      }
     },
@@ -2319,8 +2319,8 @@
     {
      "type": "p",
      "text": {
-      "en": "Click each question to expand answer hints.",
-      "ta": "ஒவ்வொரு வினாவையும் தொட்டு விடைக் குறிப்புகளை விரிவாக்குக.",
+      "en": "Try each question before reading the hints.",
+      "ta": "விடைக் குறிப்புகளைப் படிப்பதற்கு முன் ஒவ்வொரு வினாவுக்கும் விடையளிக்க முயல்க.",
       "ta_status": "draft"
      }
     },
