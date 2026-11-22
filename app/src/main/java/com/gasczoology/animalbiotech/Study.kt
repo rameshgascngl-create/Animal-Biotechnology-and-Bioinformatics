@@ -187,9 +187,9 @@ fun FlashcardsScreen(cards: List<FlashCard>, store: Store, lang: Lang, onBack: (
 
 // ---------------------------------------------------------------- Search
 
-data class Hit(val kind: String, val title: String, val text: String, val file: String, val module: String, val key: String, val topic: Topic? = null, val sectionId: String? = null)
+data class Hit(val kind: String, val title: String, val text: String, val file: String, val module: String, val key: String, val topic: Topic? = null, val sectionId: String? = null, val aliases: List<String> = emptyList())
 
-data class SearchHeading(val title: String, val topic: Topic, val sectionId: String)
+data class SearchHeading(val title: String, val topic: Topic, val sectionId: String, val aliases: List<String> = emptyList())
 
 fun loadHeadings(ctx: Context): Map<String, List<String>> = try {
     val o = JSONObject(ctx.assets.open("headings.json").bufferedReader().use { it.readText() })
@@ -212,7 +212,7 @@ fun buildIndex(units: List<UnitInfo>, sets: List<RevisionSet>, headings: List<Se
         val topic = heading.topic
         val name = tr(lang, topic.title, topic.titleTa.ifBlank { topic.title })
         out.add(Hit(tr(lang, "Section", "பகுதி"), heading.title, "", topic.file, name, "h:$i",
-            topic = topic, sectionId = heading.sectionId))
+            topic = topic, sectionId = heading.sectionId, aliases = heading.aliases))
     }
     for (source in sets) {
         val rs = source.inLanguage(lang)
@@ -223,24 +223,69 @@ fun buildIndex(units: List<UnitInfo>, sets: List<RevisionSet>, headings: List<Se
     return out
 }
 
+private val LEADING_DECORATION = Regex("^[\\p{S}\\p{P}\\p{Z}\\s\\uFE0F\\u200D]+")
+private val SEARCH_SPACES = Regex("\\s+")
+
+private fun searchForm(text: String) =
+    text.trim().removeSurrounding("**").replaceFirst(LEADING_DECORATION, "")
+        .trim().replace(SEARCH_SPACES, " ").lowercase()
+
+private val sectionAliases = mapOf(
+    "t19/s02" to ("Annotated Animal Cell — Key Organelles" to "விலங்கு செல்லின் முக்கிய நுண்ணுறுப்புகள்"),
+    "t19/s03" to ("Sterilization Methods in Cell Culture" to "செல் வளர்ப்பில் கிருமிநீக்க முறைகள்"),
+    "t19/s06" to ("Primary Culture → Cell Line → Continuous Line" to "முதல்நிலை வளர்ப்பு செல் வரிசை தொடர் செல் வரிசை"),
+    "t19/s07" to ("Stem Cell Potency Hierarchy" to "தண்டு செல்களின் வேறுபாடடையும் திறன் நிலைகள்"),
+    "t19/s08" to ("Grid Method — Organ Culture Setup Diagram" to "உறுப்பு வளர்ப்பின் வலைத்தட்டு முறை"),
+    "t20/s08" to ("Industrial Ethanol Production — Process Flow" to "தொழிற்சாலை எத்தனால் உற்பத்திப் படிகள்"),
+    "t24/s02" to ("Common Confusions" to "பொதுவான கருத்துக் குழப்பங்கள்"),
+    "t1/s08" to ("Branches of Biotechnology — Concept Map" to "உயிரித் தொழில்நுட்பத்தின் கிளைகள் கருத்து வரைபடம்"),
+    "t10/s10" to ("Sanger Sequencing Advantages and Limitations" to "சாங்கர் வரிசையாக்கத்தின் நன்மைகளும் வரம்புகளும்"),
+)
+
 internal fun chapterSearchHeadings(chapter: Chapter, topics: List<Topic>, legacyHeadings: List<String>, lang: Lang): List<SearchHeading> {
     var owner = topics.firstOrNull() ?: return emptyList()
     val topicsBySection = topics.filter { it.sectionId.isNotBlank() }.associateBy { it.sectionId }
-    val legacyByTitle = legacyHeadings.associateBy { it.trim().lowercase() }
+    val legacyByTitle = legacyHeadings.associateBy(::searchForm)
     return buildList {
         for (section in chapter.sections) {
             owner = topicsBySection[section.id] ?: owner
             val title = tr(lang, section.title.en, section.title.ta)
-            if (title.isNotBlank()) add(SearchHeading(title, owner, section.id))
-            if (lang == Lang.EN) {
-                for (paragraph in section.blocks.filterIsInstance<Paragraph>()) {
-                    val label = paragraph.text.en.removeSurrounding("**").trim()
-                    val heading = legacyByTitle[label.lowercase()] ?: continue
-                    if (!heading.equals(title, ignoreCase = true)) add(SearchHeading(heading, owner, section.id))
+            if (title.isBlank()) continue
+            val aliases = buildList {
+                sectionAliases[owner.id + "/" + section.id]?.let { (english, tamil) ->
+                    add(tr(lang, english, tamil))
                 }
-            }
+                for (paragraph in section.blocks.filterIsInstance<Paragraph>()) {
+                    val legacy = legacyByTitle[searchForm(paragraph.text.en)] ?: continue
+                    val alias = tr(lang, legacy, paragraph.text.ta)
+                    if (alias.isNotBlank()) add(alias)
+                }
+            }.distinctBy(::searchForm)
+            add(SearchHeading(title, owner, section.id, aliases))
         }
-    }.distinct()
+    }
+}
+
+internal fun searchHits(index: List<Hit>, query: String): List<Hit> {
+    val normalized = searchForm(query)
+    val words = normalized.split(SEARCH_SPACES).filter { it.length > 1 }
+    if (words.isEmpty()) return emptyList()
+    return index.mapNotNull { hit ->
+        val title = searchForm(hit.title)
+        val aliases = hit.aliases.map(::searchForm)
+        val topic = hit.topic
+        val fields = listOf(hit.title, hit.text, hit.module, topic?.title.orEmpty(), topic?.note.orEmpty(),
+            topic?.titleTa.orEmpty(), topic?.noteTa.orEmpty())
+        val hay = (fields.map(::searchForm) + aliases).joinToString(" ")
+        if (!words.all(hay::contains)) return@mapNotNull null
+        val rank = when {
+            title == normalized -> 0
+            normalized in aliases -> 1
+            title.contains(words[0]) -> 2
+            else -> 3
+        }
+        hit to rank
+    }.sortedBy { it.second }.take(80).map { it.first }
 }
 
 private fun loadSearchHeadings(ctx: Context, units: List<UnitInfo>, legacyHeadings: Map<String, List<String>>, lang: Lang): List<SearchHeading> =
@@ -265,12 +310,7 @@ fun SearchScreen(units: List<UnitInfo>, sets: List<RevisionSet>, headings: Map<S
     val index = remember(units, sets, searchHeadings, lang) { buildIndex(units, sets, searchHeadings, lang) }
     val byFile = remember(units) { units.flatMap { it.topics }.groupBy { it.file } }
     var query by remember { mutableStateOf("") }
-    val words = query.trim().lowercase().split(Regex("\\s+")).filter { it.length > 1 }
-    val hits = if (words.isEmpty()) emptyList() else index.filter { h ->
-        val hay = listOf(h.title, h.text, h.module, h.topic?.title.orEmpty(), h.topic?.note.orEmpty(),
-            h.topic?.titleTa.orEmpty(), h.topic?.noteTa.orEmpty()).joinToString(" ").lowercase()
-        words.all { hay.contains(it) }
-    }.sortedBy { if (it.title.lowercase().contains(words[0])) 0 else 1 }.take(80)
+    val hits = remember(index, query) { searchHits(index, query) }
     Scaffold(
         topBar = {
             TopAppBar(
@@ -295,7 +335,7 @@ fun SearchScreen(units: List<UnitInfo>, sets: List<RevisionSet>, headings: Map<S
                 contentPadding = PaddingValues(start = 16.dp, end = 16.dp, bottom = 16.dp),
                 verticalArrangement = Arrangement.spacedBy(8.dp),
             ) {
-                if (words.isNotEmpty()) item(key = "count") {
+                if (query.isNotBlank()) item(key = "count") {
                     Text(
                         if (hits.isEmpty()) tr(lang, "No matches", "முடிவுகள் இல்லை")
                         else {
