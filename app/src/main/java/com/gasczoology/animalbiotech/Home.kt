@@ -333,6 +333,27 @@ fun AboutTab(lang: Lang, units: List<UnitInfo>, quizzes: List<QuizSet>, zoom: In
                 }
             }
         }
+        item(key = "privacy") {
+            var expanded by rememberSaveable { mutableStateOf(false) }
+            Card(colors = CardDefaults.cardColors(containerColor = Color.White), modifier = Modifier.fillMaxWidth()) {
+                Column(Modifier.padding(14.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    OutlinedButton(onClick = { expanded = !expanded }) {
+                        if (expanded) T(lang, "Hide privacy policy", "தனியுரிமைக் கொள்கையை மறைக்க")
+                        else T(lang, "Privacy policy", "தனியுரிமைக் கொள்கை")
+                    }
+                    if (expanded) {
+                        T(lang, "This offline app has no accounts, advertising or analytics. It does not send your study information to the developer or third parties.",
+                            "இணையமின்றி இயங்கும் இச்செயலியில் பயனர் கணக்கு, விளம்பரம், பயன்பாட்டுப் பகுப்பாய்வு ஆகியவை இல்லை. உங்கள் படிப்புத் தகவல்கள் செயலி உருவாக்குநருக்கோ பிற தரப்பினருக்கோ அனுப்பப்படுவதில்லை.")
+                        T(lang, "Reading positions, bookmarks, quiz scores, flashcard progress and preferences are stored on this device. The app excludes these records from Android backup and device transfer.",
+                            "படித்த இடங்கள், சேமித்த பாடங்கள், வினாடி வினா மதிப்பெண்கள், நினைவட்டைப் பயிற்சி முன்னேற்றம், விருப்ப அமைப்புகள் ஆகியவை இந்தச் சாதனத்திலேயே சேமிக்கப்படுகின்றன. இத்தகவல்கள் காப்புநகலிலும் சாதனங்களுக்கு இடையிலான தரவுப் பரிமாற்றத்திலும் சேர்க்கப்படுவதில்லை.")
+                        T(lang, "To delete these records, clear the app's storage in Android Settings or uninstall the app.",
+                            "இத்தகவல்களை நீக்க, சாதனத்தின் அமைப்புகளில் செயலியின் சேமிப்புத் தரவை அழிக்கவும் அல்லது செயலியை நிறுவல் நீக்கம் செய்யவும்.")
+                        T(lang, "Privacy contact: Dr. R. Ramesh, Department of Zoology, Government Arts and Science College, Nagercoil, Tamil Nadu, India.",
+                            "தனியுரிமை தொடர்பான தொடர்பு முகவரி: முனைவர் ஆர். ரமேஷ், விலங்கியல் துறை, அரசு கலை மற்றும் அறிவியல் கல்லூரி, நாகர்கோவில், தமிழ்நாடு, இந்தியா.")
+                    }
+                }
+            }
+        }
         item(key = "zoom") {
             Card(colors = CardDefaults.cardColors(containerColor = Color.White), modifier = Modifier.fillMaxWidth()) {
                 Column(Modifier.padding(14.dp)) {
