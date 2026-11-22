@@ -103,6 +103,18 @@ class SearchCorpusTest {
         assertTrue(recovered.any { it.topic?.id == "t19" && it.sectionId == "s06" && it.title == "Cell Lines" })
     }
 
+    @Test fun tamil_search_matches_bounded_plural_case_and_postposition_forms() {
+        val tamil = indexes.getValue(Lang.TA)
+        for (query in listOf("புள்ளி வரைபடம்", "புள்ளி வரைபடத்தில்", "புள்ளி வரைபடத்திலிருந்து")) {
+            assertTrue(query, searchHits(tamil, query).any {
+                it.file == "atlas5_bioinformatics.html" && it.sectionId == "s04"
+            })
+        }
+        val first = Hit("Section", "புள்ளி மற்றும் வரைபடங்களும்", "", "", "sample", "1")
+        val second = Hit("Section", "புள்ளி துணைவரைபடங்களும்", "", "", "sample", "2")
+        assertTrue(searchHits(listOf(first, second), "புள்ளி வரைபடம்").isEmpty())
+    }
+
     @Test fun legacy_quiz_heading_does_not_open_a_reader_section() {
         val english = indexes.getValue(Lang.EN)
         for (query in listOf("Fundamentals of Biotechnology — MCQ", "Blotting Techniques — MCQ")) {

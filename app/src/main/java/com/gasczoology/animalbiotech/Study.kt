@@ -266,10 +266,27 @@ internal fun chapterSearchHeadings(chapter: Chapter, topics: List<Topic>, legacy
     }
 }
 
+private val TAMIL_TOKEN = Regex("[\\u0B80-\\u0BFF]+")
+private val SEARCH_TOKEN = Regex("[\\p{L}\\p{M}\\p{N}]+")
+private val TAMIL_NOUN_ENDINGS = buildList {
+    listOf("ங்களிலிருந்து", "ங்களுக்காக", "ங்களின்மீது", "ங்களுக்குள்", "ங்களுடைய", "ங்களுக்கும்", "ங்களையும்", "ங்களின்", "ங்களால்", "ங்களுடன்", "ங்களில்", "ங்களுக்கு", "ங்களும்", "ங்களை", "ங்கள்").forEach { add(it to "ம்") }
+    listOf("த்திலிருந்து", "த்திற்காக", "த்தின்மீது", "த்துக்குள்", "த்துடைய", "த்துக்கும்", "த்தையும்", "த்தின்", "த்தால்", "த்துடன்", "த்தில்", "த்துக்கு", "த்தை").forEach { add(it to "ம்") }
+    listOf("களிலிருந்து", "களுக்காக", "களின்மீது", "களுக்குள்", "களுடைய", "களுக்கும்", "களையும்", "களின்", "களால்", "களுடன்", "களில்", "களுக்கு", "களும்", "களை", "கள்").forEach { add(it to "") }
+}.sortedByDescending { it.first.length }
+
+// One allowlisted ending per full Tamil token. Keep short and unrecognised words intact.
+private fun tamilNounForm(word: String): String {
+    if (!TAMIL_TOKEN.matches(word)) return word
+    val (ending, replacement) = TAMIL_NOUN_ENDINGS.firstOrNull { word.endsWith(it.first) } ?: return word
+    val base = word.dropLast(ending.length) + replacement
+    return if (base.count { it.isLetter() } >= 3) base else word
+}
+
 internal fun searchHits(index: List<Hit>, query: String): List<Hit> {
     val normalized = searchForm(query)
     val words = normalized.split(SEARCH_SPACES).filter { it.length > 1 }
     if (words.isEmpty()) return emptyList()
+    val tamilPhrase = if (words.all(TAMIL_TOKEN::matches)) words.joinToString(" ", transform = ::tamilNounForm) else null
     return index.mapNotNull { hit ->
         val title = searchForm(hit.title)
         val aliases = hit.aliases.map(::searchForm)
@@ -277,8 +294,18 @@ internal fun searchHits(index: List<Hit>, query: String): List<Hit> {
         val fields = listOf(hit.title, hit.text, hit.module, topic?.title.orEmpty(), topic?.note.orEmpty(),
             topic?.titleTa.orEmpty(), topic?.noteTa.orEmpty())
         val hay = (fields.map(::searchForm) + aliases).joinToString(" ")
-        if (!words.all(hay::contains)) return@mapNotNull null
+        val literal = words.all(hay::contains)
+        if (!literal) {
+            if (tamilPhrase == null) return@mapNotNull null
+            // Inflected words must appear together in one result field, in query order.
+            val phraseMatch = (listOf(hit.title, hit.text) + hit.aliases).any { field ->
+                val folded = SEARCH_TOKEN.findAll(field).joinToString(" ") { tamilNounForm(it.value) }
+                " $tamilPhrase " in " $folded "
+            }
+            if (!phraseMatch) return@mapNotNull null
+        }
         val rank = when {
+            !literal -> 4
             title == normalized -> 0
             normalized in aliases -> 1
             title.contains(words[0]) -> 2
