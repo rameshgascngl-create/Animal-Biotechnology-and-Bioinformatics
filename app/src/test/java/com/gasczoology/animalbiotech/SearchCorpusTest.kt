@@ -2,6 +2,7 @@ package com.gasczoology.animalbiotech
 
 import com.gasczoology.animalbiotech.content.chapterAssetPath
 import com.gasczoology.animalbiotech.content.parseChapter
+import com.gasczoology.animalbiotech.content.Paragraph
 import com.gasczoology.animalbiotech.i18n.Lang
 import java.io.File
 import org.json.JSONArray
@@ -77,6 +78,32 @@ class SearchCorpusTest {
             }
             assertTrue(failures.joinToString("\n"), failures.isEmpty())
         }
+    }
+
+    @Test fun cryopreservation_has_the_same_tamil_term_in_reader_and_study_content() {
+        val file = "animal_cell_culture.html"
+        val englishTerm = "Cryopreservation"
+        val revision = revisionSets.single { it.file == file }
+        val tamil = revision.inLanguage(Lang.TA)
+        val cellLines = chapters.getValue(file).sections.single { it.id == "s06" }
+        fun headingTerm(text: String) =
+            text.removeSurrounding("**").removePrefix("❄️ ").substringBefore(" — ").trim()
+        val heading = cellLines.blocks.filterIsInstance<Paragraph>()
+            .single { headingTerm(it.text.en) == englishTerm }
+        val readerTerm = headingTerm(heading.text.ta)
+        assertTrue("The reader heading must have a Tamil-mode term", readerTerm.isNotBlank())
+
+        val glossaryIndex = revision.glossary.indices.single {
+            revision.glossary[it].term.equals(englishTerm, ignoreCase = true)
+        }
+        assertEquals("Revision and global glossary headword", readerTerm, tamil.glossary[glossaryIndex].term)
+        val pointIndex = revision.keyPoints.indices.single {
+            revision.keyPoints[it].substringBefore(":").equals(englishTerm, ignoreCase = true)
+        }
+        assertEquals("Revision key point", readerTerm, tamil.keyPoints[pointIndex].substringBefore(":").trim())
+        val cardId = "$file#g${revision.glossary[glossaryIndex].term.hashCode()}"
+        val card = buildCards(listOf(revision), Lang.TA).single { it.id == cardId }
+        assertEquals("Glossary flashcard prompt", "$readerTerm என்பதன் பொருள் என்ன?", card.front)
     }
 
     @Test fun one_distinctive_keyword_in_each_language_finds_every_chapter() {
