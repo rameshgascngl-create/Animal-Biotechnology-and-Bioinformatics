@@ -1266,7 +1266,7 @@
      "items": [
       {
        "en": "Continue PassagingFinite: ~20–50 passages ImmortalizationSpontaneous / viral / oncogene Cell BankingCryopreservation at −196°C",
-       "ta": "பாசேஜிங்கைத் தொடர்கவரையறுக்கப்பட்டது: ~20–50 பாசேஜ்கள் இம்மார்டலைசேஷன்தன்னிச்சை / வைரஸ் / புற்றுமரபணு செல் வங்கிப்படுத்தல்−196°C-இல் தாழ்வெப்பப் பதனம்",
+       "ta": "பாசேஜிங்கைத் தொடர்கவரையறுக்கப்பட்டது: ~20–50 பாசேஜ்கள் இம்மார்டலைசேஷன்தன்னிச்சை / வைரஸ் / புற்றுமரபணு செல் வங்கிப்படுத்தல்−196°C-இல் Cryopreservation",
        "ta_status": "draft"
       }
      ]
@@ -1495,7 +1495,7 @@
      "type": "p",
      "text": {
       "en": "**❄️ Cryopreservation — Cell Banking Flow**",
-      "ta": "**❄️ தாழ்வெப்பப் பதனம் — செல் வங்கி ஓட்டம்**",
+      "ta": "**❄️ Cryopreservation — செல் வங்கி ஓட்டம்**",
       "ta_status": "draft"
      }
     },

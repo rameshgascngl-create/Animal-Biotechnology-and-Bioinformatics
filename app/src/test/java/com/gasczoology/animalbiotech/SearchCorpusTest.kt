@@ -156,7 +156,7 @@ class SearchCorpusTest {
         Triple("molecular_markers_app.html", "polymorphism", "பல்லுருவமைப்பு"),
         Triple("superbug_bioremediation_bioweapons.html", "bioremediation", "சீரமைப்பு"),
         Triple("transgenic_animal_technology.html", "transgenesis", "மரபணுமாற்றம்"),
-        Triple("animal_cell_culture.html", "cryopreservation", "உறைபாதுகாப்பு"),
+        Triple("animal_cell_culture.html", "cryopreservation", "Cryopreservation"),
         Triple("atlas4_culture_society.html", "organ culture", "உறுப்பு வளர்ப்பு"),
         Triple("hgp_ethics_ipr.html", "mapping", "வரைபடமாக்கல்"),
         Triple("industrial_biotech_fermentation.html", "ethanol", "எத்தனால்"),

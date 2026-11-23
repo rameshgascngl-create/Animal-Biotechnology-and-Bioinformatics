@@ -1,2 +1,5 @@
 # BLAST parameter name (a symbol, like E-value or HSP); kept in Latin by rule
 x-drop
+
+# Requested textbook term in the Tamil Animal Cell Culture chapter
+cryopreservation
