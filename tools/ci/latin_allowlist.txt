@@ -1,5 +1,5 @@
 # BLAST parameter name (a symbol, like E-value or HSP); kept in Latin by rule
 x-drop
 
-# Requested textbook term in the Tamil Animal Cell Culture chapter
+# Cryopreservation, used as the Tamil term at the owner's instruction (22-23 Nov)
 cryopreservation
