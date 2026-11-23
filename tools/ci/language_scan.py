@@ -9,7 +9,8 @@ corresponding committed baseline. Revision Tamil fields have their own unreviewe
 import json, os, re, sys, glob
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 A = os.path.join(ROOT, 'app/src/main/assets')
-TAMIL = re.compile(r'[஀-௿]'); WORD = re.compile(r"[A-Za-z][A-Za-z'’\-]*")
+# Keep internal hyphens and apostrophes, and stop at adjacent Tamil suffixes.
+TAMIL = re.compile(r'[஀-௿]'); WORD = re.compile(r"[A-Za-z]+(?:[-'’][A-Za-z]+)*")
 allow = set(w.strip().lower() for w in open(os.path.join(ROOT, 'tools/ci/latin_allowlist.txt'), encoding='utf8') if w.strip() and not w.startswith('#'))
 def symbolic(w):
     return len(w) <= 2 or any(c.isdigit() for c in w) or w.isupper() or re.search(r'[a-z][A-Z]', w) or w.lower() in allow \
@@ -59,7 +60,11 @@ hits = latin_hits(ta)
 base_p = os.path.join(ROOT, 'tools/ci/latin_baseline.txt')
 if '--write-baseline' in sys.argv:
     open(base_p, 'w', encoding='utf8').write('\n'.join(sorted(hits)) + '\n'); print('baseline written:', len(hits)); sys.exit(0)
-base = set(l.strip() for l in open(base_p, encoding='utf8')) if os.path.exists(base_p) else set()
+# Interpret older baseline entries using the current token boundaries.
+base = set()
+if os.path.exists(base_p):
+    with open(base_p, encoding='utf8') as baseline_file:
+        base = {word for line in baseline_file for word in WORD.findall(line)}
 new = sorted(set(hits) - base)
 print(f'Tamil strings scanned: {len(ta)}; English strings scanned: {len(en)}')
 print(f'English strings containing Tamil script: {len(bad_en)}')
