@@ -1,5 +1,13 @@
 package com.gasczoology.animalbiotech
 
+import android.os.Build
+import android.util.Log
+import android.util.Xml
+import android.view.View
+import android.view.ViewGroup
+import android.view.inspector.WindowInspector
+import androidx.compose.ui.window.DialogWindowProvider
+import androidx.core.view.children
 import androidx.test.core.app.ActivityScenario
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
@@ -10,6 +18,8 @@ import com.gasczoology.animalbiotech.i18n.Lang
 import org.junit.Assert.assertTrue
 import org.junit.Test
 import org.junit.runner.RunWith
+import org.xmlpull.v1.XmlPullParser
+import java.io.ByteArrayOutputStream
 
 /**
  * Tier 3: viewer lifecycle and memory budget on a few representative figures (CI passes `reps` as id:LANG pairs: the tallest, the widest and a Tamil one).
@@ -24,6 +34,46 @@ class ViewerLifecycleRepsTest {
         val kb = Regex("TOTAL PSS:\\s+(\\d+)").find(out)?.groupValues?.get(1)?.toInt() ?: Regex("TOTAL\\s+(\\d+)").find(out)?.groupValues?.get(1)?.toInt() ?: error("no PSS in meminfo")
         android.util.Log.i("CITEST", "BUDGET $what PSS=${kb / 1024} MB (limit $limitMb)")
         assertTrue("PSS budget exceeded at $what: ${kb / 1024} MB > $limitMb MB", kb <= limitMb * 1024)
+    }
+
+    private fun rotationMessage(device: UiDevice, rotation: String, message: String, open: Boolean): String {
+        if (open) return message
+
+        val display = "display=${device.displayWidth}x${device.displayHeight}px displayRotation=${device.displayRotation}"
+        val rootPresent = figureViewerRootPresent()
+        val screen = runCatching {
+            val xml = ByteArrayOutputStream().also { device.dumpWindowHierarchy(it) }
+            val parser = Xml.newPullParser().apply { setInput(xml.toByteArray().inputStream(), "UTF-8") }
+            buildString {
+                while (parser.next() != XmlPullParser.END_DOCUMENT) {
+                    if (parser.eventType != XmlPullParser.START_TAG || parser.name != "node") continue
+                    val text = parser.getAttributeValue(null, "text").orEmpty()
+                    val description = parser.getAttributeValue(null, "content-desc").orEmpty()
+                    if (text.isBlank() && description.isBlank()) continue
+                    val bounds = parser.getAttributeValue(null, "bounds")
+                    appendLine("bounds=$bounds | text=${text.replace("\n", "\\n")} | content-desc=${description.replace("\n", "\\n")}")
+                }
+            }.ifBlank { "(no visible text or content descriptions exposed)" }
+        }.getOrElse { "(hierarchy dump failed: ${it.javaClass.simpleName}: ${it.message})" }
+        val diagnostic = "$message\nrotation=$rotation $display figureViewerRootPresent=$rootPresent\n$screen"
+        diagnostic.chunked(900).forEach { Log.e("CITEST", it) }
+        return diagnostic
+    }
+
+    // The figure viewer is the only Compose dialog opened by this test. Check its attached
+    // window root independently of whether the Close control is exposed to UI Automator.
+    private fun figureViewerRootPresent(): String {
+        if (Build.VERSION.SDK_INT < 29) return "unknown (WindowInspector requires API 29)"
+        var present = "unknown"
+        InstrumentationRegistry.getInstrumentation().runOnMainSync {
+            fun View.hasDialogRoot(): Boolean =
+                (this is DialogWindowProvider && isAttachedToWindow) ||
+                    (this is ViewGroup && children.any { it.hasDialogRoot() })
+            present = runCatching {
+                WindowInspector.getGlobalWindowViews().any { it.hasDialogRoot() }.toString()
+            }.getOrElse { "unknown (${it.javaClass.simpleName}: ${it.message})" }
+        }
+        return present
     }
 
     @Test fun viewerLifecycleAndMemoryOnRepresentativeFigures() {
@@ -48,11 +98,14 @@ class ViewerLifecycleRepsTest {
                     Thread.sleep(1200)
                     assertPssWithinBudget("viewer $id/${lang.name}", 200)
                     device.setOrientationLeft(); device.waitForIdle()
-                    assertTrue("$id/${lang.name}: viewer lost after rotating left", viewerOpen())
+                    val openAfterLeft = viewerOpen()
+                    assertTrue(rotationMessage(device, "left", "$id/${lang.name}: viewer lost after rotating left", openAfterLeft), openAfterLeft)
                     device.setOrientationRight(); device.waitForIdle()
-                    assertTrue("$id/${lang.name}: viewer lost after rotating right", viewerOpen())
+                    val openAfterRight = viewerOpen()
+                    assertTrue(rotationMessage(device, "right", "$id/${lang.name}: viewer lost after rotating right", openAfterRight), openAfterRight)
                     device.setOrientationNatural(); device.waitForIdle()
-                    assertTrue("$id/${lang.name}: viewer lost after returning to natural orientation", viewerOpen())
+                    val openAfterNatural = viewerOpen()
+                    assertTrue(rotationMessage(device, "natural", "$id/${lang.name}: viewer lost after returning to natural orientation", openAfterNatural), openAfterNatural)
                     scenario.recreate()
                     scenario.onActivity { FigureNav.show(it, id, lang) }
                     assertTrue("$id/${lang.name}: viewer not restored after activity recreation", viewerOpen())
