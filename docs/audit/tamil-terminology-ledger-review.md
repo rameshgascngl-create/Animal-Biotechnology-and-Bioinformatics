@@ -6,19 +6,21 @@ The 64 rows previously unresolved were searched again against the locally retain
 
 | Recheck verdict | Pairs |
 |---|---:|
-| found term as printed | 11 |
-| found a different or related spelling | 10 |
-| not found | 43 |
+| found term as printed | 14 |
+| found a different or related spelling | 12 |
+| not found | 38 |
+
+A targeted follow-up on five of the 43 not-found rows checked a plural glossary entry and alternate spellings against the rendered textbook pages. The counts above include that follow-up.
 
 Candidate columns use one-based PDF page numbers, including front matter. The evidence column uses the printed textbook page, chapter and a PDF page link. Candidate hits can be unrelated. The follow-up column records additional contextual checks and search phrases. A not-found verdict applies only to this search, including its PDF text extraction limitations.
 
 | Textbook vs app | Pairs with printed evidence |
 |---|---:|
-| matches revision | 6 |
+| matches revision | 7 |
 | matches reader | 31 |
 | matches both | 5 |
-| matches neither | 37 |
+| matches neither | 41 |
 
-The comparison uses headwords. Parenthetical annotations and acronym wrappers around a Tamil term are excluded. For Anode and Inoculum, an explicitly documented case suffix is removed only for comparison. A reader match can occur at any recorded section for that pair. Related contextual evidence is flagged separately from spelling variants and exact headword matches.
+The comparison uses headwords. Parenthetical annotations and acronym wrappers around a Tamil term are excluded. For Anode and Inoculum, an explicitly documented case suffix is removed only for comparison. For Phage / Bacteriophage, the comparison joins the two spellings printed separately in the Botany chapter. A reader match can occur at any recorded section for that pair. Related contextual evidence is flagged separately from spelling variants and exact headword matches.
 
 The seven descriptive options, canonical suggestions and existing draft review status are preserved. All proposed review actions are suggestions for RR review.
