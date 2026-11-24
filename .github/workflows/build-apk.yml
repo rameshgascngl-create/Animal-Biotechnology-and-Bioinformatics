@@ -2,8 +2,14 @@ name: Build APK
 on:
   push:
   workflow_dispatch:
+    inputs:
+      publish_prerelease:
+        description: Publish the debug APK as a GitHub pre-release
+        type: boolean
+        default: false
+        required: true
 permissions:
-  contents: write
+  contents: read
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -48,23 +54,6 @@ jobs:
         with:
           name: AnimalBiotechnology-debug-apk
           path: app/build/outputs/apk/debug/app-debug.apk
-      - name: Publish APK to the 'latest' release
-        if: github.ref == 'refs/heads/main'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          cp app/build/outputs/apk/debug/app-debug.apk AnimalBiotechnology.apk
-          gh release delete latest --yes --cleanup-tag 2>/dev/null || true
-          gh release create latest AnimalBiotechnology.apk --title "Latest APK" --notes "Debug-signed build of commit ${GITHUB_SHA::7}. Install on Android 8 or later." --target "$GITHUB_SHA"
-
-      - name: Publish pilot APK as a pre-release (never the 'latest' release)
-        if: github.ref == 'refs/heads/pilot/screening-d02'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          cp app/build/outputs/apk/debug/app-debug.apk AnimalBiotechnology-pilot.apk
-          gh release delete pilot-screening-d02 --yes --cleanup-tag 2>/dev/null || true
-          gh release create pilot-screening-d02 AnimalBiotechnology-pilot.apk --prerelease --title "Pilot build (screening-d02), not the latest app" --notes "Debug-signed CI build of pilot/screening-d02 commit ${GITHUB_SHA::7}. For the device checklist only." --target "$GITHUB_SHA"
       - name: Lint (report only)
         continue-on-error: true
         run: gradle :app:lintDebug --stacktrace
@@ -102,3 +91,25 @@ jobs:
           { echo "## Tiers"; echo "- Tier 1 (this workflow, every push, no emulator): figure geometry gate, asset checks, language scan, interaction guard, extractor, unit tests incl. JVM decode/scale, APK build. Status: job conclusion above."
             echo "- Tier 2 (per batch, emulator, NEW figures only): runs in the 'Tier 2' workflow; it reports 'skipped' there when no redrawn figure changed."
             echo "- Tier 3 (full emulator suite): NOT run by this push. Runs nightly and before every RC (workflow 'Tier 3')."; } >> "$GITHUB_STEP_SUMMARY"
+  publish-prerelease:
+    if: >-
+      github.event_name == 'workflow_dispatch' && inputs.publish_prerelease &&
+      (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/pilot/screening-d02')
+    needs: build
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: AnimalBiotechnology-debug-apk
+          path: preview-apk
+      - name: Publish debug APK as a pre-release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mv preview-apk/app-debug.apk AnimalBiotechnology-preview.apk
+          gh release create "apk-preview-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" AnimalBiotechnology-preview.apk \
+            --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --prerelease --latest=false \
+            --title "APK preview ${GITHUB_SHA::7}" \
+            --notes "Debug-signed APK for testing, built from $GITHUB_SHA. Install on Android 8 or later."
