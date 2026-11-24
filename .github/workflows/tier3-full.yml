@@ -9,6 +9,15 @@ permissions:
   contents: write
 jobs:
   full:
+    name: Tier 3 (API ${{ matrix.api }})
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - api: 35
+            artifact: tier3-qa
+          - api: 36
+            artifact: tier3-qa-api36
     runs-on: ubuntu-latest
     timeout-minutes: 75
     steps:
@@ -30,10 +39,10 @@ jobs:
         run: |
           mkdir -p qa-captures
           sha256sum app/src/androidTest/java/com/gasczoology/animalbiotech/ViewerRegressionTest.kt | tee qa-captures/test-sha256.txt
-          echo "commit ${GITHUB_SHA} run ${GITHUB_RUN_ID} attempt ${GITHUB_RUN_ATTEMPT}" | tee qa-captures/run-id.txt
+          echo "commit ${GITHUB_SHA} run ${GITHUB_RUN_ID} attempt ${GITHUB_RUN_ATTEMPT} API ${{ matrix.api }}" | tee qa-captures/run-id.txt
       - uses: reactivecircus/android-emulator-runner@v2
         with:
-          api-level: 35
+          api-level: ${{ matrix.api }}
           arch: x86_64
           profile: pixel_2
           disable-animations: true
@@ -42,7 +51,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: tier3-qa
+          name: ${{ matrix.artifact }}
           path: |
             qa-captures
             app/build/reports/androidTests
@@ -51,7 +60,7 @@ jobs:
       - name: Run summary
         if: always()
         run: |
-          { echo "## Tier 3 (full emulator suite)"; echo "- ran: base androidTest suite (all classes except Tier 2 per-figure capture), viewer lifecycle + memory budget on the representative figures: $(cat qa-captures/representatives.txt 2>/dev/null)";
+          { echo "## Tier 3 (full emulator suite, API ${{ matrix.api }})"; echo "- ran: base androidTest suite (all classes except Tier 2 per-figure capture), viewer lifecycle + memory budget on the representative figures: $(cat qa-captures/representatives.txt 2>/dev/null)";
             echo "- not run here: Tier 1 (Build APK workflow, every push) and Tier 2 (per-batch new-figure captures)";
             echo "- install/upgrade/offline/cold-start gates: release-candidate workflow (same Tier 3 plus those gates run before every RC)";
             [ -s qa-captures/failures.txt ] && { echo "### FAILED"; sed 's/^/- /' qa-captures/failures.txt; } || echo "- failures: none"; } >> "$GITHUB_STEP_SUMMARY"
