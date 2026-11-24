@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 8.10.1" type="baseline" client="gradle" dependencies="false" name="AGP (8.10.1)" variant="all" version="8.10.1">
+    <issue id="ObsoleteSdkInt" message="This folder configuration (`v26`) is unnecessary; `minSdkVersion` is 26. Merge all the resources in this folder into `mipmap-anydpi`.">
+        <location file="src/main/res/mipmap-anydpi-v26" />
+    </issue>
+    <issue id="AutoboxingStateCreation" message="Prefer `mutableFloatStateOf` instead of `mutableStateOf`" errorLine1="        var scale by rememberSaveable { mutableStateOf(1f) }" errorLine2="                                        ~~~~~~~~~~~~~~">
+        <location file="src/main/java/com/gasczoology/animalbiotech/ui/blocks/FigureViewer.kt" line="108" column="41" />
+    </issue>
+    <issue id="AutoboxingStateCreation" message="Prefer `mutableFloatStateOf` instead of `mutableStateOf`" errorLine1="        var fx by rememberSaveable { mutableStateOf(0.5f) }" errorLine2="                                     ~~~~~~~~~~~~~~">
+        <location file="src/main/java/com/gasczoology/animalbiotech/ui/blocks/FigureViewer.kt" line="109" column="38" />
+    </issue>
+    <issue id="AutoboxingStateCreation" message="Prefer `mutableFloatStateOf` instead of `mutableStateOf`" errorLine1="        var fy by rememberSaveable { mutableStateOf(0f) }" errorLine2="                                     ~~~~~~~~~~~~~~">
+        <location file="src/main/java/com/gasczoology/animalbiotech/ui/blocks/FigureViewer.kt" line="110" column="38" />
+    </issue>
+    <issue id="UseKtx" message="Use the KTX extension function `SharedPreferences.edit` instead?" errorLine1="        sp.edit().putStringSet(key, s).apply()" errorLine2="        ~~~~~~~~~">
+        <location file="src/main/java/com/gasczoology/animalbiotech/Data.kt" line="175" column="9" />
+    </issue>
+    <issue id="UseKtx" message="Use the KTX extension function `SharedPreferences.edit` instead?" errorLine1="        sp.edit().putStringSet(key, s).apply(); return s" errorLine2="        ~~~~~~~~~">
+        <location file="src/main/java/com/gasczoology/animalbiotech/Data.kt" line="181" column="9" />
+    </issue>
+    <issue id="UseKtx" message="Use the KTX extension function `SharedPreferences.edit` instead?" errorLine1="        sp.edit().putStringSet(key, s).apply(); return s" errorLine2="        ~~~~~~~~~">
+        <location file="src/main/java/com/gasczoology/animalbiotech/Data.kt" line="186" column="9" />
+    </issue>
+    <issue id="UseKtx" message="Use the KTX extension function `SharedPreferences.edit` instead?" errorLine1="    fun putInt(key: String, v: Int) { sp.edit().putInt(key, v).apply() }" errorLine2="                                      ~~~~~~~~~">
+        <location file="src/main/java/com/gasczoology/animalbiotech/Data.kt" line="190" column="39" />
+    </issue>
+    <issue id="UseKtx" message="Use the KTX extension function `SharedPreferences.edit` instead?" errorLine1="    fun putLong(key: String, v: Long) { sp.edit().putLong(key, v).apply() }" errorLine2="                                        ~~~~~~~~~">
+        <location file="src/main/java/com/gasczoology/animalbiotech/Data.kt" line="192" column="41" />
+    </issue>
+    <issue id="UseKtx" message="Use the KTX extension function `SharedPreferences.edit` instead?" errorLine1="    fun putString(key: String, v: String) { sp.edit().putString(key, v).apply() }" errorLine2="                                            ~~~~~~~~~">
+        <location file="src/main/java/com/gasczoology/animalbiotech/Data.kt" line="194" column="45" />
+    </issue>
+    <issue id="UseKtx" message="Use the KTX extension function `SharedPreferences.edit` instead?" errorLine1="        if (score &gt; best(file)) sp.edit().putInt(&quot;best_$file&quot;, score).apply()" errorLine2="                                ~~~~~~~~~">
+        <location file="src/main/java/com/gasczoology/animalbiotech/Data.kt" line="199" column="33" />
+    </issue>
+    <issue id="GradleDependency" message="A newer version of androidx.compose:compose-bom than 2024.10.01 is available: 2026.11.01" errorLine1="    implementation(platform(&quot;androidx.compose:compose-bom:2024.10.01&quot;))">
+        <location file="build.gradle.kts" line="63" />
+    </issue>
+    <issue id="GradleDependency" message="A newer version of androidx.activity:activity-compose than 1.9.3 is available: 1.13.0" errorLine1="    implementation(&quot;androidx.activity:activity-compose:1.9.3&quot;)">
+        <location file="build.gradle.kts" line="67" />
+    </issue>
+    <issue id="GradleDependency" message="A newer version of androidx.core:core-ktx than 1.13.1 is available: 1.19.1" errorLine1="    implementation(&quot;androidx.core:core-ktx:1.13.1&quot;)">
+        <location file="build.gradle.kts" line="68" />
+    </issue>
+    <issue id="GradleDependency" message="A newer version of androidx.test.ext:junit than 1.2.1 is available: 1.3.0" errorLine1="    androidTestImplementation(&quot;androidx.test.ext:junit:1.2.1&quot;)">
+        <location file="build.gradle.kts" line="70" />
+    </issue>
+    <issue id="GradleDependency" message="A newer version of androidx.test:runner than 1.6.2 is available: 1.7.0" errorLine1="    androidTestImplementation(&quot;androidx.test:runner:1.6.2&quot;)">
+        <location file="build.gradle.kts" line="71" />
+    </issue>
+    <issue id="GradleDependency" message="A newer version of androidx.test.uiautomator:uiautomator than 2.3.0 is available: 2.4.1" errorLine1="    androidTestImplementation(&quot;androidx.test.uiautomator:uiautomator:2.3.0&quot;)">
+        <location file="build.gradle.kts" line="72" />
+    </issue>
+</issues>
