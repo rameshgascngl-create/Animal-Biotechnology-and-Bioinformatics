@@ -17,7 +17,7 @@ jobs:
       - uses: actions/setup-java@v4
         with: { distribution: temurin, java-version: 17 }
       - uses: gradle/actions/setup-gradle@v4
-        with: { gradle-version: 8.9 }
+        with: { gradle-version: 8.11.1 }
       - name: Python tests and language scan (Tamil resources must not contain stray Latin text; English must not contain Tamil)
         run: |
           pip install -r tools/requirements.txt pytest
@@ -89,7 +89,7 @@ jobs:
       - uses: actions/setup-java@v4
         with: { distribution: temurin, java-version: 17 }
       - uses: gradle/actions/setup-gradle@v4
-        with: { gradle-version: 8.9 }
+        with: { gradle-version: 8.11.1 }
       - uses: actions/download-artifact@v4
         with: { name: rc-build, path: rc }
       - name: Previous build (the 'latest' release asset) for the upgrade gate
