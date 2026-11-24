@@ -1,15 +1,15 @@
 # Google Play store readiness
 
-Source inspection **verified at `f5294a395fc8f7fdaa37580a9e1fa218a7794fe1`**. This covers repository declarations and app storage calls. Play Console acceptance, the installed release build and phone behaviour are **not verified**.
+Baseline source inspection **verified at `f5294a395fc8f7fdaa37580a9e1fa218a7794fe1`**. This covers repository declarations and app storage calls. Play Console acceptance, the installed release build and phone behaviour are **not verified**.
 
 | Submission gate | Current result | Owner action |
 |---|---|---|
-| Target API | **Blocker.** The app Gradle file declares compile and target API 35, minimum API 26, version code 9 and package `com.gasczoology.animalbiotech`. New phone-app submissions and updates require API 36 or higher from 31 August 2026. | Approve an API 36 build and compatibility pass as separate work. Align compile and target SDK, CI tooling and the RC check currently pinned to target 35. In Play Console, use a version code higher than any already uploaded for this package. |
+| Target API | **targetSdk 36 on branch completion/api36, not verified on a phone.** The branch also declares compile SDK 36, minimum API 26, version code 9 and package `com.gasczoology.animalbiotech`. New phone-app submissions and updates require API 36 or higher from 31 August 2026. | Complete the supported toolchain upgrade and Android 16 runtime checks before treating this as store-ready. The current workflows still use Gradle 8.9, the RC check still expects API 35, and Tier 3 uses an API 35 emulator. In Play Console, use a version code higher than any already uploaded for this package. |
 | Download size | **Not verified.** The current Play policy measures compressed delivery size. The base module limit is 500 MB and the total for all modules and install-time asset packs is 4 GB. A mobile-data warning appears above 200 MB. | Check the signed candidate in App Bundle Explorer for its compressed size by device. The local APK or AAB file size alone cannot establish the Play result. |
 | Public privacy policy | The HTML is present at `docs/privacy.html`. About also contains an offline policy. The live URL and Play acceptance are **not verified**. | Set up Pages below and enter the resulting public URL in Play Console. |
-| Signed bundle | The Gradle release build is configured to use owner-supplied signing material and otherwise falls back to the shared debug key. An upload-key-signed AAB is **not verified**. | Build and sign locally using the registered upload key after the SDK gate is resolved, then validate through Play Console. |
+| Signed bundle | The Gradle release build is configured to use owner-supplied signing material and otherwise falls back to the shared debug key. An upload-key-signed AAB is **not verified**. | Build and sign locally using the registered upload key after the supported toolchain and runtime checks are complete, then validate through Play Console. |
 
-[Google Play target API policy](https://support.google.com/googleplay/android-developer/answer/11926878) · [Google Play compressed size limits](https://support.google.com/googleplay/android-developer/answer/9859372) · [App Gradle configuration](../../app/build.gradle.kts)
+[Google Play target API policy](https://support.google.com/googleplay/android-developer/answer/11926878) · [Google Play compressed size limits](https://support.google.com/googleplay/android-developer/answer/9859372) · [App Gradle configuration](../../app/build.gradle.kts) · [Android 16 source and toolchain audit](android16-behaviour.md)
 
 ## Publish the privacy page yourself
 

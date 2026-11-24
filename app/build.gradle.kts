@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "com.gasczoology.animalbiotech"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.gasczoology.animalbiotech"
         minSdk = 26
-        targetSdk = 35
+        targetSdk = 36
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         versionCode = 9
         versionName = "0.9.0-rc2"
